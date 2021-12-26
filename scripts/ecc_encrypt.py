@@ -49,7 +49,7 @@ def encrypt_message(pubKey,message):
 
 def encrypt_file(pubkey_path,pubkey_password,plaintext_path,ciphertext_path):
     try:
-    &nbsp;   f_in=open(plaintext_path,'rb')
+        f_in=open(plaintext_path,'rb')
         message=f_in.read()
         f_in.close()
     except():
