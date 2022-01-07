@@ -19,7 +19,7 @@ import getpass
 import ecies
 import eth_keys
 import hashlib
-from Crypto.PublicKey import ECC
+#from Crypto.PublicKey import ECC
 #from Crypto.Random import get_random_bytes
 
 
