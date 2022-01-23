@@ -43,10 +43,8 @@ if len(argv)==4:
 elif len(argv)==2:
     _, key_path = argv
     while True:
-        key_password = getpass.getpass("Input password for encrypting key file: ")
-        key_password = getpass.getpass("Ingresar password para cifrar el archivo de la clave: ")
-        key_password_2 = getpass.getpass("Repeat password for encrypting key file: ")
-        key_password_2 = getpass.getpass("Repetir password para cifrar el archivo de la clave: ")
+        key_password = getpass.getpass("Input password for encrypting key file:\nIngresar password para cifrar el archivo de la clave:  ")
+        key_password_2 = getpass.getpass("Repetir (Repeat): ")
         if key_password==key_password_2:
             print('\nPasswords match...')
             print('\nPasswords son iguales...')
@@ -55,10 +53,8 @@ elif len(argv)==2:
             print('\nPasswords do not match...')
             print('\nPasswords no son iguales...')
     while True:
-        key_hex = getpass.getpass("Input key in hex: ")
-        key_hex = getpass.getpass("Ingresar la clave hex: ")
-        key_hex_2 = getpass.getpass("Repeat key in hex: ")
-        key_hex_2 = getpass.getpass("Repetir la clave hex: ")
+        key_hex = getpass.getpass("Input key in hex:\nIngresar la clave hex: ")
+        key_hex_2 = getpass.getpass("Repetir (Repeat):")
         if key_hex==key_hex_2:
             print('\nHex keys match...')
             print('\n Claves hex son iguales...')
@@ -102,6 +98,5 @@ encrypted_bytes=save_key(key,key_path,key_password)
 
 print('Key generation complete') 
 print('Generación de la clave está hecho') 
-print('Key encrypted and written to binary file:', key_path)
-print('La clave esta cifrada y escrita en un archivo binario:', key_path)
+print('La clave esta cifrada y escrita en un archivo binario:\nKey encrypted and written to binary file:', key_path)
 print(encrypted_bytes.hex())

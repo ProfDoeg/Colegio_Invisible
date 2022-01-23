@@ -42,8 +42,7 @@ if len(argv)==5:
     _, pubkey_path, pubkey_password, file_path, signature_path = argv
 elif len(argv)==4:
     _, pubkey_path, file_path, signature_path  = argv
-    pubkey_password = getpass.getpass("Input password for public key file: ")
-    pubkey_password = getpass.getpass("Ingresar password para acceder al archivo de la clave pública: ")
+    pubkey_password = getpass.getpass("Input password for public key file:\nIngresar password para acceder al archivo de la clave pública:")
 
 else:
     print('Incorrect number of arguments. 3 or 4 expected')
@@ -89,10 +88,7 @@ def verify_file(pubkey_path, pubkey_password, file_path, signature_path):
         exit()
 
 if verify_file(pubkey_path, pubkey_password, file_path, signature_path):
-    print('Success:',pubkey_path, file_path,'and', signature_path, 'agree')
-    print('Exito:',pubkey_path, file_path,'y', signature_path, 'están de acuerdo')
-    print('Signature is valid')
-    print('Firma válida')
+    print('Éxito (Success):',pubkey_path, file_path,'and', signature_path, 'están de acuerdo (agree)')
+    print('Firma válida (Signature is valid)')
 else:
-    print('Invalid:',pubkey_path, file_path,'and', signature_path, 'do NOT agree')
-    print('Inválido:',pubkey_path, file_path,'y', signature_path, 'NO están de acuerdo')
+    print('Inválido (Invalid):',pubkey_path, file_path,'and', signature_path, 'NO están de acuerdo (do NOT agree)')

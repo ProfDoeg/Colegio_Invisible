@@ -42,8 +42,7 @@ if len(argv)==4:
     _, password, ciphertext_path, plaintext_path = argv
 elif len(argv)==3:
     _, ciphertext_path, plaintext_path   = argv
-    password = getpass.getpass("Input password for decryption: ")
-    password = getpass.getpass("Ingresar password para decifrar: ")
+    password = getpass.getpass("Input password for decryption:\nIngresar password para decifrar: ")
 else:
     print('Incorrect number of arguments. 2 or 3 expected')
     print('Cantidad de argumentos es incorrecto. 2 o 3 esperado')
@@ -60,9 +59,8 @@ def aes_decrypt_file(cipherfile_path,extractfile_path,password):
 
 try:
     aes_decrypt_file(ciphertext_path,plaintext_path,password)
-    print('Success:',ciphertext_path, 'decryption complete' )
-    print('Éxito:',ciphertext_path, 'decifrado con éxito' )
-    print('Written to:', plaintext_path)
+    print('Éxito (Success):',ciphertext_path, 'decifrado con éxito (decryption complete)')
+    print('Escrito a (Written to):', plaintext_path)
 except Exception as E:
-    print('Decryption failed',E)
-    print('No decifrado exitosamente ',E)
+    print('No decifrado exitosamente (Decryption failed)',E)
+

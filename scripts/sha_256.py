@@ -41,8 +41,6 @@ def sha256_file(path):
 #generate sha256 hash
 file_hash=sha256_file(file_path)
 
-print('Hashing complete') 
-print('Hashing terminado')
-print('SHA256 of :', file_path)
-print('SHA256 de :', file_path)
+print('Hashing terminado (complete)') 
+print('SHA256 de:', file_path)
 print(file_hash)

@@ -40,8 +40,7 @@ if len(argv)==5:
     _, privkey_path, privkey_password, ciphertext_path, plaintext_path = argv
 elif len(argv)==4:
     _, privkey_path, ciphertext_path, plaintext_path = argv
-    privkey_password = getpass.getpass("Input password for keyfile: ")
-    privkey_password = getpass.getpass("Ingresar password para el archivo de la clave: ")
+    privkey_password = getpass.getpass("Ingresar password para el archivo de la clave:\nInput password for keyfile: ")
 else:
     print('Incorrect number of arguments. 3 or 4 expected')
     print('Cantidad de argumentos es incorrecto. 3 or 4 esperado')
@@ -74,15 +73,15 @@ def decrypt_file(privkey_path,privkey_password,ciphertext_path,plaintext_path):
         privKey=import_privKey(privkey_path,privkey_password)
     except Exception as E:
         print(E)
-        print('key import failed :(')
-        print('la importación de la clave ha fallado:(')
+        print('Key import failed :(')
+        print('La importación de la clave ha fallado:(')
         exit()
     try:
         plaintext=decrypt_message(privKey,message)
     except Exception as E:
         print(E)
-        print('decryption failed :(')
-        print('no decifrado exitosamente:(')
+        print('Decryption failed :(')
+        print('No decifrado exitosamente:(')
         exit()
     f_out=open(plaintext_path,'wb')
     f_out.write(plaintext)
@@ -91,11 +90,8 @@ def decrypt_file(privkey_path,privkey_password,ciphertext_path,plaintext_path):
 
 try:
     decrypt_file(privkey_path,privkey_password,ciphertext_path,plaintext_path)
-    print('Success:',ciphertext_path, 'decryption complete using', privkey_path)
-    print('Exito:',ciphertext_path, 'decifrado usando', privkey_path)
-    print('Written to:', plaintext_path)
-    print('Escrito a:', plaintext_path)
+    print('Éxito (Success):',ciphertext_path, 'decifrado usando (decryption complete using)', privkey_path)
+    print('Escrito a (Written to):', plaintext_path)
 except Exception as E:
-    print('Fail whale',E)
-    print('Fallada',E)
+    print('Fallada (Fail)',E)
 

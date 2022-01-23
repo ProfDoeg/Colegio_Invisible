@@ -39,8 +39,7 @@ if len(argv)==5:
     _, pubkey_path, pubkey_password, plaintext_path, ciphertext_path = argv
 elif len(argv)==4:
     _, pubkey_path, plaintext_path, ciphertext_path  = argv
-    pubkey_password = getpass.getpass("Input password for public key file: ")
-    pubkey_password = getpass.getpass("Ingresar password para acceder al archivo de la clave pública: ")
+    pubkey_password = getpass.getpass("Ingresar password para acceder al archivo de la clave pública:\nInput password for public key file: ")
 else:
     print('Incorrect number of arguments. 3 or 4 expected')
     print('Cantidad de argumentos es incorrecto. 3 o 4 esperado')
@@ -77,7 +76,7 @@ def encrypt_file(pubkey_path,pubkey_password,plaintext_path,ciphertext_path):
         pubKey=import_pubKey(pubkey_path,pubkey_password)
     except Exception as E:
         print(E)
-        print('key import failed :(')
+        print('key import failed ')
         print('la importación de la clave ha fallado :(')
         exit()
     ciphertext=encrypt_message(pubKey,message)
@@ -87,11 +86,8 @@ def encrypt_file(pubkey_path,pubkey_password,plaintext_path,ciphertext_path):
 
 try:
     encrypt_file(pubkey_path,pubkey_password,plaintext_path,ciphertext_path)
-    print('Success:',plaintext_path, 'encryption complete using', pubkey_path)
-    print('Exito:',plaintext_path, 'cifrado con éxito usando', pubkey_path)
-    print('Written to:', ciphertext_path)
-    print('Escrito a:', ciphertext_path)
+    print('Éxito (Success):',plaintext_path, 'cifrado con éxito usando (encryption complete using)', pubkey_path)
+    print('Escrito a (Written to):', ciphertext_path)
 except Exception as E:
-    print('Fail whale',E)
-    print('Fallada',E)
+    print('Fallada (Fail )',E)
 

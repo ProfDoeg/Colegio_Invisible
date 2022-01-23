@@ -43,14 +43,12 @@ if len(argv)==5:
     _, privkey_path, privkey_password, pubkey_path, pubkey_password = argv
 elif len(argv)==3:
     _, privkey_path, pubkey_path = argv[:3]
-    privkey_password = getpass.getpass("Input password for private key file: ")
-    privkey_password = getpass.getpass("Ingresar password para acceder al archivo del la clave privada: ")
+    privkey_password = getpass.getpass("Input password for private key file:\nIngresar password para acceder al archivo del la clave privada:")
+
 
     while True:
-        pubkey_password = getpass.getpass("Input password for public key file: ")
-        pubkey_password = getpass.getpass("Ingresar password para acceder al archivo del la clave pública: ")
-        pubkey_password_2 = getpass.getpass("Repeat password for public key file: ")
-        pubkey_password_2 = getpass.getpass("Repetir password para acceder al archivo del la clave pública: ")
+        pubkey_password = getpass.getpass("Input password for public key file:\nIngresar password para acceder al archivo del la clave pública: ")
+        pubkey_password_2 = getpass.getpass("Repetir (Repeat): ")
         if pubkey_password==pubkey_password_2:
             print('\nPasswords match...')
             print('\nPasswords son iguales...')
@@ -93,15 +91,12 @@ try:
 except Exception as E:
     print(E)
     if type(E)==ValueError:
-        print('Password incorrect')
         print('Password incorrecto')
     exit()
 
 pubKey=get_pubKey(privKey)
 encrypted_bytes=save_key(pubKey,pubkey_path,pubkey_password)
 
-print('Completed public key extraction from:', privkey_path) 
-print('Extracción de la clave pública terminada desde:', privkey_path) 
-print('Public key encrypted and written to binary file:', pubkey_path)
-print('La clave pública está cifrada y escrita en archivo binario:', pubkey_path)
+print('Extracción de la clave pública terminada desde\n(Completed public key extraction from):', privkey_path) 
+print('La clave pública está cifrada y escrita en archivo binario\n(Public key encrypted and written to binary file):', pubkey_path)
 print(encrypted_bytes.hex())

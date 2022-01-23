@@ -42,8 +42,7 @@ if len(argv)==5:
     _, privkey_path, privkey_password, file_path, signature_path = argv
 elif len(argv)==4:
     _, privkey_path, file_path, signature_path  = argv
-    privkey_password = getpass.getpass("Input password for private key file: ")
-    privkey_password = getpass.getpass("Ingresar password para acceder al archivo de la clave privada: ")
+    privkey_password = getpass.getpass("Ingresar password para acceder al archivo de la clave privada:\nInput password for private key file: ")
 else:
     print('Incorrect number of arguments. 3 or 4 expected')
     print('Cantidad de argumentos es incorrecto. 3 or 4 esperado')
@@ -87,11 +86,8 @@ def sign_file(privkey_path, privkey_password, file_path, signature_path):
 
 try:
     signature_hex=sign_file(privkey_path, privkey_password, file_path, signature_path)
-    print('Success:',file_path, 'signature complete using', privkey_path)
-    print('éxito:',file_path, 'firma terminada utilizando', privkey_path)
-    print('Written to:', signature_path)
-    print('Escrito a:', signature_path)
+    print('Éxito (Success):',file_path, 'firma terminada utilizando (signature complete using)', privkey_path)
+    print('Escrito a (Written to):', signature_path)
     print(signature_hex)
 except Exception as E:
-    print('Fail whale',E)
-    print('Fallada',E)
+    print('Fallada (Fail)',E)

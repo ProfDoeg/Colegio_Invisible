@@ -40,10 +40,8 @@ if len(argv)==4:
 elif len(argv)==3:
     _, plaintext_path, ciphertext_path  = argv
     while True:
-        password = getpass.getpass("Input password for encryption: ")
-        password = getpass.getpass("Ingresar password para cifrar: ")
-        password_2 = getpass.getpass("Repeat password for encryption: ")
-        password_2 = getpass.getpass("Repetir password para cifrar: ")
+        password = getpass.getpass("Ingresar password para cifrar:\nInput password for encryption: ")
+        password_2 = getpass.getpass("Repetir (Repeat): ")
         if password==password_2:
             print('\nPasswords match...')
             print('\nPasswords son iguales...')
@@ -68,8 +66,6 @@ def aes_encrypt_file(plainfile_path,cipherfile_path,password):
 
 
 aes_encrypt_file(plaintext_path,ciphertext_path,password)
-print('Success:',plaintext_path, 'AES encryption complete')
-print('Exito:',plaintext_path, 'AES cifrado está terminado')
-print('Written to:', ciphertext_path)
-print('Escrito a:', ciphertext_path)
+print('Éxito (Success):',plaintext_path, 'AES cifrado está terminado (encryption complete)')
+print('Escrito a (Written to):', ciphertext_path)
 

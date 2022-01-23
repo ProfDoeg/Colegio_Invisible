@@ -37,8 +37,7 @@ if len(argv)==3:
     _, key_path, key_password = argv
 elif len(argv)==2:
     _, key_path  = argv
-    key_password = getpass.getpass("Input password for key file: ")
-    key_password = getpass.getpass("Ingresar password para el archivo de la clave: ")
+    key_password = getpass.getpass("Input password for key file\nIngresar password para el archivo de la clave: ")
 else:
     print('Incorrect number of arguments. 1 or 2 expected')
     print('Cantidad de argumentos es incorrecto. 1 or 2 esperada')

@@ -41,10 +41,8 @@ if len(argv)==3:
 elif len(argv)==2:
     _, privkey_path = argv
     while True:
-        privkey_password = getpass.getpass("Input password for encrypting keyfile: ")
-        privkey_password = getpass.getpass("Ingresar password para cifrar el archivo de la clave: ")C
-        privkey_password_2 = getpass.getpass("Repeat password for encrypting keyfile: ")
-        privkey_password_2 = getpass.getpass("Repetir password para cifrar el archivo de la clave: ")
+        privkey_password = getpass.getpass("Input password for encrypting keyfile:\nIngresar password para cifrar el archivo de la clave:")
+        privkey_password_2 = getpass.getpass("Repetir (Repeat): ")
         if privkey_password==privkey_password_2:
             print('\nPasswords match...')
             print('\nPasswords son iguales...')
@@ -79,8 +77,6 @@ privKey=gen_privKey()
 #generate password protected file
 encrypted_bytes=save_key(privKey,privkey_path,privkey_password)
 
-print('Private key generation complete') 
-print('Generación de la clave privada está terminada') 
-print('Private key encrypted and written to binary file:', privkey_path)
-print('La clave privada está cifrada y escrita en un archivo binario:', privkey_path)
+print('Generación de la clave privada está terminada (Private key generation complete)') 
+print('La clave privada está cifrada y escrita en un archivo binario:\nPrivate key encrypted and written to binary file:', privkey_path)
 print(encrypted_bytes.hex())
