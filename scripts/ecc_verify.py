@@ -1,4 +1,20 @@
 ##################################################################################
+# este guión verifica la integridad de una firma ECDSA de un archivo, el archivo
+# y la clave pública ECC que está relacionada
+#
+# iniciar en el terminal utilizando el siguiente 
+# > python ecc_verify.py <PUBKEY_PATH> <PUBKEY_PASSWORD> <FILE_PATH> <SIGNATURE_PATH> 
+# <PUBKEY_PATH>: el camino a la clave pública que está protegido por password
+# <PUBKEY_PASSWORD>: password para la clave pública
+# <FILE_PATH>: el camino al archivo que estaba firmado
+# <SIGNATURE_PATH>: el camino al archivo firmado
+#
+#EJEMPLO:
+#>python python ecc_verify.py keys\pubkey.bin pass1 note.txt signature.sig
+#
+# SI <PUBKEY_PASSWORD> NO ESTá INCLUIDO EL USUARIO ESTARá APUNTADO A INGRESARLO DE UNA MANERA SEGURA
+##################################################################################
+##################################################################################
 # this script verifies the integrity of an ECDSA signature of a file, the file,
 # and associated ECC public key
 #
@@ -27,10 +43,14 @@ if len(argv)==5:
 elif len(argv)==4:
     _, pubkey_path, file_path, signature_path  = argv
     pubkey_password = getpass.getpass("Input password for public key file: ")
+    pubkey_password = getpass.getpass("Ingresar password para acceder al archivo de la clave pública: ")
+
 else:
     print('Incorrect number of arguments. 3 or 4 expected')
+    print('Cantidad de argumentos es incorrecto. 3 or 4 esperado')
     print('> python ecc_verify.py <PUBKEY_PATH> <PUBKEY_PASSWORD> <FILE_PATH> <SIGNATURE_PATH>')
     print('IF <PUBKEY_PASSWORD> IS NOT INCLUDED USER WILL BE PROMPTED TO ENTER IT SECURELY')
+    print('SI <PUBKEY_PASSWORD> NO ESTá INCLUIDO EL USUARIO ESTARá APUNTADO A INGRESARLO DE UNA MANERA SEGURA')
     exit()
 
 #import private key
@@ -56,6 +76,7 @@ def verify_file(pubkey_path, pubkey_password, file_path, signature_path):
     except Exception as E:
         print(E)
         print('Error importing public key')
+        print('Error con la importación de la clave pública')
         exit()
     message=open(file_path,'rb').read()
     signature=open(signature_path,'rb').read()
@@ -64,10 +85,14 @@ def verify_file(pubkey_path, pubkey_password, file_path, signature_path):
     except Exception as E:
         print(E)
         print('Error verifying signature')
+        print('Error con la verificación de la firma')
         exit()
 
 if verify_file(pubkey_path, pubkey_password, file_path, signature_path):
     print('Success:',pubkey_path, file_path,'and', signature_path, 'agree')
+    print('Exito:',pubkey_path, file_path,'y', signature_path, 'están de acuerdo')
     print('Signature is valid')
+    print('Firma válida')
 else:
     print('Invalid:',pubkey_path, file_path,'and', signature_path, 'do NOT agree')
+    print('Inválido:',pubkey_path, file_path,'y', signature_path, 'NO están de acuerdo')

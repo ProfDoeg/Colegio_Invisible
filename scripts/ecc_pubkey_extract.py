@@ -1,4 +1,20 @@
 ##################################################################################
+# este guión extraerá una clave pública ECC desde un archivo cifrado con AES que contiene la clave privada (el archivo protegido por password)
+# la clave pública estará escrita a un archivo protegido/cifrado con AES que contiene la clave pública 
+#
+# iniciar en el terminal utilizando el siguiente 
+# > python ecc_pubkey_extract.py <PRIVKEY_PATH> <PRIVKEY_PASSWORD> <PUBKEY_PATH> <PUBKEY_PASSWORD> 
+# <PRIVKEY_PATH>: el camino al archivo de la clave privada 
+# <PRIVKEY_PASSWORD>: password para el archivo que contiene la clave privada
+# <PUBKEY_PATH>: el camino al archivo nuevamente generado de la clave pública
+# <PUBKEY_PASSWORD>: password para el archivo nuevamente generado de la clave pública
+#
+#EJEMPLO:
+#>python ecc_pubkey_extract.py key/privkey.bin pass1 key/pubkey.bin pass2
+#
+# SI <PRIVKEY_PASSWORD> Y <PUBKEY_PASSWORD> NO ESTáN INCLUIDOS EL USUARIO ESTARá APUNTADO A INGRESARLO DE UNA MANERA SEGURA
+##################################################################################
+##################################################################################
 # this script will extract an ECC public key from an AES encrypted (password protected) private key file
 # the public key will be written to an AES encrypted (password protected) public key file
 #
@@ -28,19 +44,26 @@ if len(argv)==5:
 elif len(argv)==3:
     _, privkey_path, pubkey_path = argv[:3]
     privkey_password = getpass.getpass("Input password for private key file: ")
+    privkey_password = getpass.getpass("Ingresar password para acceder al archivo del la clave privada: ")
 
     while True:
         pubkey_password = getpass.getpass("Input password for public key file: ")
+        pubkey_password = getpass.getpass("Ingresar password para acceder al archivo del la clave pública: ")
         pubkey_password_2 = getpass.getpass("Repeat password for public key file: ")
+        pubkey_password_2 = getpass.getpass("Repetir password para acceder al archivo del la clave pública: ")
         if pubkey_password==pubkey_password_2:
             print('\nPasswords match...')
+            print('\nPasswords son iguales...')
             break
         else:
             print('\nPasswords do not match...')
+            print('\nPasswords no son iguales...')
 else:
     print('Incorrect number of arguments. 2 or 4 expected')
+    print('Cantidad de argumentos es incorrecto. 2 or 4 esperado')
     print('> python ecc_pubkey_extract.py <PRIVKEY_PATH> <PRIVKEY_PASSWORD> <PUBKEY_PATH> <PUBKEY_PASSWORD>')
     print('IF <PRIVKEY_PASSWORD> AND <PUBKEY_PASSWORD> ARE NOT INCLUDED USER WILL BE PROMPTED TO ENTER THEM SECURELY')
+    print('SI <PRIVKEY_PASSWORD> Y <PUBKEY_PASSWORD> NO ESTáN INCLUIDOS EL USUARIO ESTARá APUNTADO A INGRESARLO DE UNA MANERA SEGURA')
     exit()
 
 def import_privKey(path,password):
@@ -71,11 +94,14 @@ except Exception as E:
     print(E)
     if type(E)==ValueError:
         print('Password incorrect')
+        print('Password incorrecto')
     exit()
 
 pubKey=get_pubKey(privKey)
 encrypted_bytes=save_key(pubKey,pubkey_path,pubkey_password)
 
 print('Completed public key extraction from:', privkey_path) 
+print('Extracción de la clave pública terminada desde:', privkey_path) 
 print('Public key encrypted and written to binary file:', pubkey_path)
+print('La clave pública está cifrada y escrita en archivo binario:', pubkey_path)
 print(encrypted_bytes.hex())
