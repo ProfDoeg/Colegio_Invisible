@@ -31,7 +31,6 @@ import os
 import ecies
 import eth_keys
 import hashlib
-import cryptos
 
 if len(argv)==3:
     _, key_path, key_password = argv
