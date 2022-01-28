@@ -17,5 +17,5 @@ Este es el repositorio para Colegio Invisible
 - [06_cuaderno.ipynb](06_cuaderno.ipynb)
 
 ---
-https://docs.python.org/es/3/\n
-https://docs.python.org/3/
+- https://docs.python.org/es/3/
+- https://docs.python.org/3/
