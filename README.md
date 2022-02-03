@@ -21,6 +21,9 @@ Este es el repositorio para Colegio Invisible
 - **Meeting ID:** 826 2765 4326
 - **Passcode:** 616295
 ***
+## Telegram
+https://t.me/+0_B3lYeGhM9jMDgx
+***
 ## Documentación de Python
 - https://docs.python.org/es/3/
 - https://docs.python.org/3/
