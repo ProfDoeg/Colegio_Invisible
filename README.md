@@ -7,7 +7,7 @@ Este es el repositorio para Colegio Invisible
 </center>
 
 ***
-## Cuadernos
+## Cuadernos (Notebooks)
 - [01_cuaderno.ipynb](01_cuaderno.ipynb)
 - [02_cuaderno.ipynb](02_cuaderno.ipynb)
 - [03_cuaderno.ipynb](03_cuaderno.ipynb)
