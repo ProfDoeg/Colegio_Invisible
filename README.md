@@ -8,8 +8,8 @@ Este es el repositorio para Colegio Invisible
 
 ***
 ## Cuadernos (Notebooks)
-- [01_cuaderno.ipynb](01_cuaderno.ipynb)
-- [02_cuaderno.ipynb](02_cuaderno.ipynb)
+- [01_cuaderno.ipynb](01_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/01_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- [02_cuaderno.ipynb](02_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/02_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 - [03_cuaderno.ipynb](03_cuaderno.ipynb)
 - [04_cuaderno.ipynb](04_cuaderno.ipynb)
 - [05_cuaderno.ipynb](05_cuaderno.ipynb)
