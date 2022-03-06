@@ -15,6 +15,9 @@ Este es el repositorio para Colegio Invisible
 - [05_cuaderno.ipynb](05_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/05_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 - [06_cuaderno.ipynb](06_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/06_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 ***
+## Notas (Notes)
+- [Palabras.ipynb](notas/Palabras.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/notas/Palabras.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+***
 ## Zoom
 - **Hora y Fecha:** Feb 10 y 11, 2022 01:00 PM a 7:00PM Buenos Aires, Argentina
 - **Enlace:** https://us02web.zoom.us/j/82627654326?pwd=YUxsRG9jRjErdGxjdHEyWWVBYWJUdz09
