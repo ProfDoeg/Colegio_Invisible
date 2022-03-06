@@ -17,6 +17,7 @@ Este es el repositorio para Colegio Invisible
 ***
 ## Notas (Notes)
 - [Palabras.ipynb](notas/Palabras.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/notas/Palabras.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- [myfirstnotebook_manual.ipynb](notas/myfirstnotebook_manual.ipynb)
 ***
 ## Zoom
 - **Hora y Fecha:** Feb 10 y 11, 2022 01:00 PM a 7:00PM Buenos Aires, Argentina
