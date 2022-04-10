@@ -1,0 +1,480 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Palabras y Problemas.- completo",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyN9gUHxGesGvQ45ltqxM2V0",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mncb1/Colegio_Invisible/blob/main/Palabras_y_Problemas__\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CVCuiDFzp-BJ",
+        "outputId": "d533447c-81fc-4ac7-89e8-1ed746dfd34b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Collecting cryptos\n",
+            "  Downloading cryptos-1.36-py3-none-any.whl (69 kB)\n",
+            "\u001b[?25l\r\u001b[K     |████▊                           | 10 kB 18.2 MB/s eta 0:00:01\r\u001b[K     |█████████▌                      | 20 kB 11.1 MB/s eta 0:00:01\r\u001b[K     |██████████████▎                 | 30 kB 9.3 MB/s eta 0:00:01\r\u001b[K     |███████████████████             | 40 kB 8.4 MB/s eta 0:00:01\r\u001b[K     |███████████████████████▊        | 51 kB 4.6 MB/s eta 0:00:01\r\u001b[K     |████████████████████████████▌   | 61 kB 5.4 MB/s eta 0:00:01\r\u001b[K     |████████████████████████████████| 69 kB 3.7 MB/s \n",
+            "\u001b[?25hInstalling collected packages: cryptos\n",
+            "Successfully installed cryptos-1.36\n"
+          ]
+        }
+      ],
+      "source": [
+        "!pip install cryptos "
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import cryptos"
+      ],
+      "metadata": {
+        "id": "pWlLcuHVqIkZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# In this proyect i am gonna talk about something that changed my life in terms of learning about coding. (that perhaps you already know)\n",
+        "\n",
+        "## Imagine you are learning a new language. Maybe your native language is english and you start studying spanish. The best way to learn another language is by thinking and talking like you are native of that language. You must not do literal traslation. In fact, you have to do the whole concept translation. \n",
+        "## While talking to Python, it is the same. You must learn it's language, to inform the best way. I mean, if you want to communicate with Python, then you should know how Python 'talks' and then act like it. \n",
+        "## in this proyect i am gonna talk about the famous problems of the file 'Palabras'. I tried super hard to understan how to resolve the problems. I thought my head was gonna explode after making a not-so-short brief with my own words to study from it and solve the problems. Being honest, i considered it was crystal clear what i had to do, but it didnt was the way i will get to the result. \n",
+        "## First of all, i am going to explain and resolve the problems. \n",
+        "***\n",
+        "i learnt some new techniques of writing nicely my manual :) \n",
+        "***\n",
+        "\n",
+        "## What we have in file 'Palabras' are some instruction to learn how Python understand the message and also the steps to find out some information about Bitcoin tx\n",
+        "whats going below is an exactly copy from the file"
+      ],
+      "metadata": {
+        "id": "gXICzz4KqI-F"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "ZuHLTWcVsPUA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "\n",
+        "\n",
+        "Here is an example from the end of `cuaderno_01.ipynb`\n",
+        "***\n",
+        "***\n",
+        "```python\n",
+        "#de quaderno 1\n",
+        "\n",
+        "import cryptos\n",
+        "\n",
+        "btc = cryptos.Bitcoin()\n",
+        "\n",
+        "j=0\n",
+        "while True:\n",
+        "    B1=btc.block_info(j)\n",
+        "    if len(B1['tx_hashes'])!=1:\n",
+        "        break\n",
+        "    j=j+1\n",
+        "B1,j\n",
+        "\n",
+        "```\n",
+        "***\n",
+        "When executed by the Python interpreter, the above code returns the following dictionary:\n",
+        "***\n",
+        "```text\n",
+        "({'version': 1,\n",
+        "  'hash': '00000000d1145790a8694403d4063f323d499e655c83426834d4ce2f8dd4a2ee',\n",
+        "  'prevhash': '000000002a22cfee1f2c846adbd12b3e183d4f97683f85dad08a79780a84bd55',\n",
+        "  'timestamp': 1231731025,\n",
+        "  'merkle_root': '7dac2c5666815c17a3b36427de37bb9d2e2c5ccec3f8633eb91a4205cb4c10ff',\n",
+        "  'bits': 486604799,\n",
+        "  'nonce': 1889418792,\n",
+        "  'tx_hashes': ['b1fea52486ce0c62bb442b530a3f0132b826c74e473d1f2c220bfa78111c5082',\n",
+        "   'f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16']},\n",
+        " 170)\n",
+        "```\n",
+        "---\n",
+        "Now we try it again"
+      ],
+      "metadata": {
+        "id": "2lGhmc_FqJA-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import cryptos\n",
+        "\n",
+        "btc = cryptos.Bitcoin()\n",
+        "j=0\n",
+        "\n",
+        "while True:\n",
+        "    B1=btc.block_info(j)\n",
+        "    if len(B1['tx_hashes'])!=1:\n",
+        "        break\n",
+        "    j=j+1\n",
+        "B1,j"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wMpVtZtOs-GC",
+        "outputId": "22983546-c439-4c15-b5a0-ac320c5afa65"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "({'bits': 486604799,\n",
+              "  'hash': '00000000d1145790a8694403d4063f323d499e655c83426834d4ce2f8dd4a2ee',\n",
+              "  'merkle_root': '7dac2c5666815c17a3b36427de37bb9d2e2c5ccec3f8633eb91a4205cb4c10ff',\n",
+              "  'nonce': 1889418792,\n",
+              "  'prevhash': '000000002a22cfee1f2c846adbd12b3e183d4f97683f85dad08a79780a84bd55',\n",
+              "  'timestamp': 1231731025,\n",
+              "  'tx_hashes': ['b1fea52486ce0c62bb442b530a3f0132b826c74e473d1f2c220bfa78111c5082',\n",
+              "   'f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16'],\n",
+              "  'version': 1},\n",
+              " 170)"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## whats a dictionary? "
+      ],
+      "metadata": {
+        "id": "hWqrbZvkqJEW"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "You might ask yourself, whats a dicitionary? Well, i am here to explain you. There are a lot of different dictionaries, about different things. in fact, you can create your own dictionary that will be useful for you and for others, who knows? \n",
+        "What contains the dictionary of the previous code is:\n",
+        "## Dictionaries\n",
+        "\n",
+        "Dictionaries are associative arrays of values, indexed by keys. The key/value pairs are known as items.\n",
+        "\n",
+        "The dictionary has the following items:\n",
+        "\n",
+        "- `'version'` contains an integer value\n",
+        "- `'hash'` contains a hex string representing the block hash\n",
+        "- `'prevhash'` contains a hex string representing the previous block hash\n",
+        "- `'timestamp'` contains an integer representing UTC time value\n",
+        "- `'merkle_root'` contains a hex string representing the Bitcoin-style merkle root of the transaction list\n",
+        "- `'bits'` contains an integer representing the bit size of the block\n",
+        "- `'nonce'` contains an integer representing the nonce value of the block\n",
+        "- `'tx_hashes'` contains a list of hex strings, each representing the hash of a Bitcoin transaction\n",
+        "\n",
+        "### Indexing the Dictionary\n",
+        "\n",
+        "We call an element of the dictionary using the hard bracket operator `[]` to get value.\n",
+        "To index into the list of transaction hashes we use the `'tx_hashes'` key.\n",
+        "\n",
+        "Knowing that, we are going to resolve problem number one."
+      ],
+      "metadata": {
+        "id": "-B27h-GJqJNt"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# DICCIONARIO - ESPAÑOL\n",
+        "Los diccionarios son matrices asociativas de valores, indexados por keys. Las key/values se conocen como items.\n",
+        "\n",
+        "El diccionario contiene los siguientes items:\n",
+        "\n",
+        "- `'version'` contiene un valor entero\n",
+        "- `'hash'` contiene una cadena hexadecimal que representa el hash del bloque.\n",
+        "- `'prevhash'` contiene una cadena hexadecimal que representa el hash del bloque anterior\n",
+        "- `'timestamp'` contiene un numero entero que representa el valor de la hra UTC\n",
+        "- `'merkle_root'` contiene una cadena hex que representa el merkle root al estilo Bitcoin de la lista de transacciones.\n",
+        "- `'bits'` contiene un numero entero que representa el tamaño de bit por bloque\n",
+        "- `'nonce'` contiene un numero entero que representa el primer valor del bloque\n",
+        "- `'tx_hashes'` contiene una lista de cadenas hex, cada una de las cuales representa el hash de una transaccion de Bitcoin.\n"
+      ],
+      "metadata": {
+        "id": "gylQbkV8uJ_s"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## problem number 1. Determine how many transactions are in block number 666666\n",
+        "\n",
+        "help:\n",
+        "\n",
+        "```python\n",
+        "#1 MODIFY THIS CODE\n",
+        "btc.block_info(j)\n",
+        "```\n",
+        "If we modify this code will writing the number 666666 in the variable j, we will have information about that tx we obtain btc.block_info(j)....\n",
+        "\n",
+        "\n",
+        "```python\n",
+        "{'bits': 386771105,\n",
+        " 'hash': '0000000000000000000b7b8574bc6fd285825ec2dbcbeca149121fc05b0c828c',\n",
+        " 'merkle_root': 'f0ee88d161a79234fe61e5d109daa8ab2b8ca605cdf3a5fa6acc31853b16426c',\n",
+        " 'nonce': 1795946055,\n",
+        " 'prevhash': '0000000000000000000d3ac711558b41b477e4d2c178aa816f267ee9e82c71a3',\n",
+        " 'timestamp': 1611012483,\n",
+        " 'tx_hashes': ['148279d49b386bd632eee83b35ef0d885aa414058d66f418036580c667d5f4f0',\n",
+        "  '93c79c96c5db240763e1218877f93c1bf7cbb8a3402dd103ebc106482a4faaea',\n",
+        "  '057954bb28527ff9c7701c6fd2b7f770163718ded09745da56cc95e7606afe99',\n",
+        "  '5dd54c79320575453b5c78d18fa7a375bd6e6b1d1f7578951021e4d28a2b6941',\n",
+        "  '4600d60e3abd18cb8ecaf63308c59a8aa0bb1c500aa736470111e503d7acc956',\n",
+        "  'fc76262ed8b84f06f44e156c9709cb74b0878295658814ff9d0c5c927c6c7a38',\n",
+        "  '408d129ef806409185f96bcefd32ab9ef7942331a67912adb609fd026d74e1ae',\n",
+        "  '98a0c818c12aee8b7538d909c3bfd04bc2396fae4eba235acdb6d4afe9e156f2',\n",
+        "  'ded632f7346a022b897d8322588524c7956503d781d3927085c39e05ceeb56dc',\n",
+        "  '4a91c2bb1fdcd4e48af79ef300f67f1c938314471831087934917d5d10c115b2',\n",
+        "  '66d0d971c99b376b3a19032128e2acca7cf2bd2e06f6ba033211526a751fe589',\n",
+        "  'a9a74af84d00c57eef30a1a2e9760efdc5f360b03108c9a4f39bf784d988b9f6',\n",
+        "  '38dc935c1987bc7333df344c5fe3d62c206b41d42fc41c1898d4201e0f80bb5c',\n",
+        "  'ed9a505b05be9b35d0f627c54b8cffbff5c4569cb11eb84defe00d951bec3ada',\n",
+        "  'af9e33d00e1bab3a4c4ca37415f468d35f25d1f39c4ae1c93b92ed71b4357c8b',\n",
+        "  '4d044651ed7f24c9aa603fa480ba2420667818c338a29705fbb1aa69d8df138e',\n",
+        "  '1ee3f6387deaae8020afe45a2976c9d65b14545a9e6002c2e30eaf0461179898',\n",
+        "  '81376fbea19681790caafaff4e1638b4631cc9cdf1cc7689a1ab3775153ebca7',\n",
+        "  'ETC,,A.LOT.OF.MORE.HASHES,,,000000000000000000000000000000000000',\n",
+        "  ...],\n",
+        " 'version': 536870912}\n",
+        "```\n",
+        "\n",
+        "... you can do it. However, you won't solve the problem\n",
+        "\n",
+        "In fact, to solve this problem you will have to enter python's brain and think like it. We will use the code btc.block_info(j) adding another values. We absolutely need information about block 666666 and figure out how many tx hashes there are, that means, the len "
+      ],
+      "metadata": {
+        "id": "3wvBF3GbtNWD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "len(btc.block_info(666666)['tx_hashes'])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "neEoNFQwtLcF",
+        "outputId": "e94e2ca7-84cc-40be-e8b2-4063180afcd0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "2728"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## problem number 2. Determine the index of the first block with exactly 3 transactions, including the coinbase.\n",
+        "help: \n",
+        "```python\n",
+        "#2 MODIFY THIS CODE\n",
+        "j=170\n",
+        "while True:\n",
+        "    B1=btc.block_info(j)\n",
+        "    if len(B1['tx_hashes'])!=1:\n",
+        "        break\n",
+        "    j=j+1\n",
+        "B1,j\n",
+        "```"
+      ],
+      "metadata": {
+        "id": "VMzZOEqatMDg"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "j=170\n",
+        "while True:\n",
+        "    B1=btc.block_info(j)\n",
+        "    if len(B1['tx_hashes']) ==3:\n",
+        "        break\n",
+        "    j=j+1\n",
+        "B1,j"
+      ],
+      "metadata": {
+        "id": "ANGwwl6UtdT0",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "17194eb3-f9bc-4b5c-daec-b9c187f029e4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "({'bits': 486604799,\n",
+              "  'hash': '000000000d0d23516c5efd3af4eb951603bb30b2c93884b522a318b30e918ee7',\n",
+              "  'merkle_root': '197b3d968ce463aa5da7d8eeba8af35eba80ded4e4fe6808e6cc0dd1c069594d',\n",
+              "  'nonce': 932288301,\n",
+              "  'prevhash': '0000000046ff6c4f9a7224aa331c407c7e37f49434571307d6fca58695bcba38',\n",
+              "  'timestamp': 1232029520,\n",
+              "  'tx_hashes': ['d45724bacd1480b0c94d363ebf59f844fb54e60cdfda0cd38ef67154e9d0bc43',\n",
+              "   '4d6edbeb62735d45ff1565385a8b0045f066055c9425e21540ea7a8060f08bf2',\n",
+              "   '6bf363548b08aa8761e278be802a2d84b8e40daefe8150f9af7dd7b65a0de49f'],\n",
+              "  'version': 1},\n",
+              " 586)"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## The exclamation point (!) before the equal sign (=) check if two strings are not equal.\n",
+        "## Two equal sign checks whether two strings are equal. "
+      ],
+      "metadata": {
+        "id": "5iU-353nAwSP"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## problem number 3.\n",
+        "Use btc.fetchtx() to get information about the third transaction of the block determined above.\n",
+        "\n",
+        "help:\n",
+        "```python\n",
+        "#3 MODIFY THIS CODE\n",
+        "btc.fetchtx(  )\n",
+        "```\n",
+        "To solve this one we must solve the problem number 2 earlier/before."
+      ],
+      "metadata": {
+        "id": "d5zeoPEwt1L8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "btc.fetchtx(  '6bf363548b08aa8761e278be802a2d84b8e40daefe8150f9af7dd7b65a0de49f' )"
+      ],
+      "metadata": {
+        "id": "mGxtcQEauICh",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "68f7e01b-72ec-4b32-d2b8-cc1bc1e822b1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "{'block_height': 586,\n",
+              " 'block_index': 586,\n",
+              " 'double_spend': False,\n",
+              " 'fee': 0,\n",
+              " 'hash': '6bf363548b08aa8761e278be802a2d84b8e40daefe8150f9af7dd7b65a0de49f',\n",
+              " 'inputs': [{'index': 0,\n",
+              "   'prev_out': {'addr': '1E5npMTmh9PnBHxCacuqzAZRGEybkxPMAq',\n",
+              "    'n': 0,\n",
+              "    'script': '410445aa26ca9ec2c37b81699317a0ee8c160aacdf7f717b67f1ab98432de1e5a954ffff5af7107ebc20ca11639367318d9f7529945c7efe171280993af7da9798c4ac',\n",
+              "    'spending_outpoints': [{'n': 0, 'tx_index': 5625658413079279}],\n",
+              "    'spent': True,\n",
+              "    'tx_index': 462719559921759,\n",
+              "    'type': 0,\n",
+              "    'value': 5000000000},\n",
+              "   'script': '483045022024fd7345df2b2bd0e6f8416529046b7d52bda5ffdb70146bc6d72b1ba73cabcd022100ff99c03006cc8f28d92e686f0ae640d20395177f329d0a9dbd560fd2a55aeee701',\n",
+              "   'sequence': 4294967295,\n",
+              "   'witness': ''}],\n",
+              " 'lock_time': 0,\n",
+              " 'out': [{'addr': '1QKJnFPvRoZ7avBhxqwxhsEv62JWYoB1R9',\n",
+              "   'n': 0,\n",
+              "   'script': '4104888d890e1bd84c9e2ac363a9774414a081eb805cd2c0d52e49efc7170ebf342f1cdb284a2e2eb754fc8dd4525fe0caa3d3a525214d0b504dd75376b2f63804a8ac',\n",
+              "   'spending_outpoints': [],\n",
+              "   'spent': False,\n",
+              "   'tx_index': 5625658413079279,\n",
+              "   'type': 0,\n",
+              "   'value': 5000000000}],\n",
+              " 'relayed_by': '0.0.0.0',\n",
+              " 'size': 200,\n",
+              " 'time': 1232029520,\n",
+              " 'tx_index': 5625658413079279,\n",
+              " 'ver': 1,\n",
+              " 'vin_sz': 1,\n",
+              " 'vout_sz': 1,\n",
+              " 'weight': 800}"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 8
+        }
+      ]
+    }
+  ]
+}
