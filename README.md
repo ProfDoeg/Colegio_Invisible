@@ -20,7 +20,7 @@ Este es el repositorio para Colegio Invisible
 - [10_cuaderno.ipynb](10_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/10_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 - [11_cuaderno.ipynb](11_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/11_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 - [12_cuaderno.ipynb](12_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/12_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- - [13_cuaderno.ipynb](13_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/13_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- [13_cuaderno.ipynb](13_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/13_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 ***
 ## Notas (Notes)
 - [Palabras.ipynb](notas/Palabras.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/notas/Palabras.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
