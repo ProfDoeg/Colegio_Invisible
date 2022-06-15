@@ -120,6 +120,26 @@ def read_cadenas(txn_ident):
   datalist=[get_op_returns(txn) for txn in get_output_spend_txns(txn_ident)]
   return datalist[0],b''.join([bytes.fromhex(x) for x in datalist[1:] ])
 
+def get_txn_pub(txn_ident):
+  import requests
+  import json
+  r = requests.get(f'https://sochain.com/api/v2/tx/DOGE/{txn_ident}')
+  ins=json.loads(r.text)['data']['inputs']
+  publica=ins[0]['script_asm'][-128:]
+  return publica
+
+def read_image_data(hex_header,image_bytes):
+	C={0:1,1:3}[int(hex_header[12:14],16)]
+	L=int(hex_header[14:18],16)
+	W=int(hex_header[18:22],16)
+	B=int(hex_header[22:24],16)
+	print(C,L,W,B)
+	sparkle_bits=message_2_bit_array(image_bytes,mode=None)
+	spark_array=bitarray2imgarr(sparkle_bits,imgshape=(W,L),bit=B,color=C).squeeze()
+	return spark_array
+
+
+
 def only_conf(utxos):
     return [utxo for utxo in utxos
             if doge.fetchtx(utxo['output'].split(':')[0])['confirmations']>0]
