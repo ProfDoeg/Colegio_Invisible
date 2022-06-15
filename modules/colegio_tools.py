@@ -138,6 +138,17 @@ def read_image_data(hex_header,image_bytes):
 	spark_array=bitarray2imgarr(sparkle_bits,imgshape=(W,L),bit=B,color=C).squeeze()
 	return spark_array
 
+def array_dec_from_txn(txn_ident,prvKey_input,index_key):
+	hex_header,enc_bytes=read_cadenas(txn_ident)
+	N_keys=int(hex_header[24:26])
+	Zipkeys=[enc_bytes[i*64:i*64+64] for i in range(N_keys) ]
+	Zipdata=enc_bytes[N_keys*64:]
+	Txn_pub=eth_keys.keys.PublicKey(bytes.fromhex(get_txn_pub(txn_ident)))
+	Shared_key=shared_key(prvKey_input,Txn_pub)
+	Ses_key=ecies.aes_decrypt(Shared_key,Zipkeys[index_key])
+	Data=ecies.aes_decrypt(Ses_key,Zipdata)
+	return hex_header,read_image_data(hex_header,Data)
+
 
 
 def only_conf(utxos):
