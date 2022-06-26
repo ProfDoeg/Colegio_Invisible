@@ -31,6 +31,7 @@ Este es el repositorio para Colegio Invisible
 ## Notas (Notes)
 - [Palabras.ipynb](notas/Palabras.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/notas/Palabras.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 - [myfirstnotebook_manual.ipynb](notas/myfirstnotebook_manual.ipynb)
+- [disco.ipynb](disco.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/disco.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 ***
 ## Telegram
 https://t.me/+0_B3lYeGhM9jMDgx
