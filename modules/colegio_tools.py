@@ -90,6 +90,47 @@ class Cadena():
       if self.index==self.og_len:
         self.state='DONE'
 
+class CadenaMulti():
+
+  def __init__(self,prvkeys,data,utxo_dct,tip):
+    self.data=data
+    self.doge=cryptos.Doge()
+    self.doge.script_magicbyte=22
+    self.clip=[self.data[i:i+80] for i in range(0,len(self.data),80) ]
+    self.og_len=len(self.clip)
+    self.state='CONF'
+    self.utxo=utxo_dct
+    self.head_utxo=self.utxo
+    self.txn_ids=[self.utxo['output'].split(':')[0]]
+    self.prvs=prvkeys
+    self.pubs=[ self.doge.privtopub(prv) for prv in prvkeys]
+    (self.script,self.addr)=doge.mk_multsig_address(self.pubs,len(self.pubs))#self.doge.privtoaddr(self.prv)
+    self.tip=tip
+    self.index=0
+
+  def make_tx(self):
+    tx = self.doge.mktx([self.head_utxo],[ {'value':self.head_utxo['value']-self.tip , 'address': self.addr}])
+    doge_inscribed_serial_tx=mk_opreturn( self.clip[self.index] , cryptos.serialize(tx))
+    doge_inscribed_tx=cryptos.deserialize(doge_inscribed_serial_tx)
+    sigs=[ self.doge.multisign(tx=doge_inscribed_tx, i=0, script=self.script, pk=prv) for prv in self.prvs]
+    self.signed_inscribed_tx=cryptos.apply_multisignatures(doge_inscribed_tx, 0, self.script,*sigs)#self.doge.signall(doge_inscribed_tx,self.prv)
+    self.state='READY'
+  
+  def broadcast(self):
+    self.cast=self.doge.pushtx(self.signed_inscribed_tx)
+    cast_txid=self.cast['data']['txid']
+    self.txn_ids.append(cast_txid)
+    self.head_utxo={'output':cast_txid+':0' ,'value':self.head_utxo['value']-self.tip }
+    self.index=self.index+1
+    self.state='SENT'
+
+  def update(self):
+    if self.doge.fetchtx(self.head_utxo['output'].split(':')[0])['confirmations']:
+      self.state='CONF'
+      if self.index==self.og_len:
+        self.state='DONE'
+
+
 
 def get_output_spend_txns(txn_ident):
   import requests
