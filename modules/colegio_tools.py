@@ -104,7 +104,7 @@ class CadenaMulti():
     self.txn_ids=[self.utxo['output'].split(':')[0]]
     self.prvs=prvkeys
     self.pubs=[ self.doge.privtopub(prv) for prv in prvkeys]
-    (self.script,self.addr)=doge.mk_multsig_address(self.pubs,len(self.pubs))#self.doge.privtoaddr(self.prv)
+    (self.script,self.addr)=self.doge.mk_multsig_address(self.pubs,len(self.pubs))#self.doge.privtoaddr(self.prv)
     self.tip=tip
     self.index=0
 
