@@ -1,45 +1,166 @@
 # Colegio Invisible
-Este es el repositorio para Colegio Invisible
-<center>
-<div>
-<img src="https://github.com/ProfDoeg/Colegio_Invisible/raw/main/img/colegio_invisible.jpeg" width="250"/>
-</div>
-</center>
 
-***
-## Cuadernos (Notebooks)
-- [01_cuaderno.ipynb](01_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/01_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [02_cuaderno.ipynb](02_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/02_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [03_cuaderno.ipynb](03_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/03_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [04_cuaderno.ipynb](04_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/04_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [05_cuaderno.ipynb](05_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/05_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [06_cuaderno.ipynb](06_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/06_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [07_cuaderno.ipynb](07_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/07_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [08_cuaderno.ipynb](08_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/08_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [09_cuaderno.ipynb](09_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/09_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [10_cuaderno.ipynb](10_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/10_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [11_cuaderno.ipynb](11_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/11_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [12_cuaderno.ipynb](12_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/12_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [13_cuaderno.ipynb](13_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/13_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [14_cuaderno.ipynb](14_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/14_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [15_cuaderno.ipynb](15_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/15_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [16_cuaderno.ipynb](16_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/16_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [17_cuaderno.ipynb](17_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/17_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [18_cuaderno.ipynb](18_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/18_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [19_cuaderno.ipynb](19_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/19_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [20_cuaderno.ipynb](20_cuaderno.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/20_cuaderno.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-***
-## Notas (Notes)
-- [Palabras.ipynb](notas/Palabras.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/notas/Palabras.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- [myfirstnotebook_manual.ipynb](notas/myfirstnotebook_manual.ipynb)
-- [disco.ipynb](disco.ipynb)<a href="https://colab.research.google.com/github/ProfDoeg/Colegio_Invisible/blob/master/disco.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-***
-## Telegram
-https://t.me/+0_B3lYeGhM9jMDgx
-***
-## Email
-colegioinvisibleba@gmail.com
-***
-## Documentación de Python
-- https://docs.python.org/es/3/
-- https://docs.python.org/3/
+Research and development on the **quipu** — a multi-strand inscription
+protocol that records arbitrary data (text, images, encrypted payloads)
+across the Dogecoin blockchain.
+
+The name comes from Andean *quipus*: knotted-string records where meaning
+lives in the structure of the knots and the relationships between strands.
+Here, each "strand" is a chain of OP_RETURN-bearing transactions, and a
+quipu is a transaction with multiple outputs that each become the head of
+a strand. Reading a quipu walks each strand and concatenates the recorded
+bytes.
+
+---
+
+## Status
+
+**Active R&D on the production code.** The course notebooks (see Archive
+below) are frozen — they were written when the SoChain v2 API was the
+reading mechanism, which has since been deprecated. Reanimating the course
+would require infrastructure work that is currently out of scope.
+
+The protocol itself, the toolkit, and the production code paths are all
+under active development against a local Dogecoin Core node.
+
+---
+
+## Repo layout
+
+The repo contains three logically separate things. They share a folder
+because they share a history; treat them as separate projects.
+
+### Production code (active)
+
+- `colegio_tools.py` — the canonical library. Node-backed `Cadena` /
+  `CadenaMulti` writers, pre-scan reader (`scan_accounts`,
+  `read_quipu`, `find_quipu_roots`), image bit-codec, ECIES helpers,
+  key/wallet utilities. Loads RPC credentials from `.env`.
+- `.env.example` — template for RPC credentials. Copy to `.env` and fill in.
+- `smoke_test.py` — single-script health check. Run after setup to confirm
+  imports, codec round-trips, key save/load, and node connectivity.
+- `tests/sample.png` — small fixture image used by the smoke test.
+
+### CLI toolkit (stable, useful)
+
+A bilingual (Spanish / English) set of standalone command-line utilities
+exposing the cryptographic primitives used by the project. These work
+independently of the rest of the codebase and have no Dogecoin dependency.
+
+- `ecc_generate.py` — generate an ECC private key
+- `ecc_keyboard.py` — import an ECC key from hex input
+- `ecc_pubkey_extract.py` — derive public key from private key
+- `ecc_keydump.py` — print decrypted contents of a keyfile
+- `ecc_sign.py` / `ecc_verify.py` — ECDSA sign and verify
+- `ecc_encrypt.py` / `ecc_decrypt.py` — ECIES message encryption
+- `aes_encrypt.py` / `aes_decrypt.py` — symmetric AES with password-derived key
+- `sha_256.py` — file hashing
+
+Each script prints usage when run with the wrong argument count. Most prompt
+securely (via `getpass`) when passwords are not given on the command line.
+
+### Archive (frozen)
+
+Material kept for reference. Not maintained, not guaranteed to run.
+
+- `01_cuaderno.ipynb` … `20_cuaderno.ipynb` — the course curriculum.
+  Twenty bilingual notebooks structured as a spiral covering Python and
+  terminal basics → symmetric and asymmetric cryptography → Dogecoin
+  keys/addresses/transactions → multisig → OP_RETURN inscription →
+  multi-strand quipus → encrypted broadcast → BIP44 / HD wallets.
+- `quipu2.ipynb`, `quipu3-saved.ipynb` — R&D scratch notebooks from the
+  transition off SoChain. Most of `colegio_tools.py` was distilled from
+  these.
+- `notas/`, `scripts/`, `secrets/`, `sound/`, `img/` — supporting assets
+  from earlier development.
+
+---
+
+## Setup
+
+Requires Python 3.9+ and a synced Dogecoin Core node reachable over RPC.
+
+```bash
+# 1. Clone and install dependencies
+git clone https://github.com/ProfDoeg/Colegio_Invisible
+cd Colegio_Invisible
+pip install -r requirements.txt   # see "Dependencies" below
+
+# 2. Configure node access
+cp .env.example .env
+$EDITOR .env                      # fill in RPC_USER, RPC_PASSWORD, RPC_HOST, RPC_PORT
+
+# 3. Verify everything works
+python smoke_test.py
+```
+
+If the smoke test passes, you're ready to use `colegio_tools` from a
+notebook or script:
+
+```python
+from colegio_tools import scan_accounts, find_quipu_roots, read_quipu
+
+df_tx, df_out = scan_accounts({"D6zKNn...": "my_label"})
+roots = find_quipu_roots("D6zKNn...", df_tx, df_out)
+header, body = read_quipu(roots[0], df_out)
+```
+
+### Dependencies
+
+The library uses: `numpy`, `pandas`, `requests`, `python-dotenv`,
+`qrcode`, `Pillow`, `eth_keys`, `coincurve`, `eciespy`, `pycryptodome`,
+`cryptos` (a fork of Vitalik Buterin's pybitcointools — pin or vendor a
+specific version, this dependency is fragile).
+
+A formal `requirements.txt` / `pyproject.toml` is on the roadmap.
+
+---
+
+## Glossary
+
+- **Quipu** — a transaction whose outputs become the heads of multiple
+  data-bearing strands. The structure is named after Andean knotted-string
+  records.
+- **Strand** (sometimes *cadena*) — a linear chain of self-spending
+  transactions, each carrying an 80-byte OP_RETURN payload. Reading a
+  strand walks forward through the chain and concatenates the payloads.
+- **Header** — bytes at the start of a quipu describing its type, version,
+  and content. Begins with the protocol magic `0xC1DD` and a 2-byte
+  version. Type/tone byte allocations are an active design question; see
+  `notebooks/18_cuaderno.ipynb` for current thinking.
+- **OP_RETURN** — a Bitcoin/Dogecoin script opcode that creates a
+  provably-unspendable output. Up to 80 bytes of arbitrary data can be
+  attached. The mechanism that makes inscription possible.
+- **Cadena / CadenaMulti** — the writer classes that build, sign, and
+  broadcast a strand of inscription transactions. `CadenaMulti` uses a
+  multisig address as the strand's funding holder.
+
+---
+
+## Roadmap
+
+Rough direction, in no particular order:
+
+- Split `colegio_tools.py` into a real package (`src/colegio/...` with
+  `node`, `inscriptions`, `crypto`, `imaging` submodules)
+- Replace SHA-256 password KDF with scrypt or argon2id; provide a
+  migration helper for existing encrypted keyfiles
+- Build a Streamlit or CLI front-end for the common workflows (browse
+  quipus, inscribe a payload, key management)
+- Formalize the header protocol — type bytes, tone bytes, type-specific
+  layouts beyond the image case
+- Eventually: fold quipu read/write into a fork of Dogecoin Core's wallet
+  software, exposing it as native RPC and wallet UI features
+
+---
+
+## Security notes
+
+- `secrets/` and `.env` are listed in `.gitignore` for a reason. Anything
+  in those locations should be treated as local-only.
+- The current password-based KDF for encrypted keyfiles is a single
+  SHA-256, which is inadequate against modern attackers. Treat passworded
+  keyfiles as obfuscation, not strong protection, until the KDF is
+  upgraded.
+- The RPC credentials in old commit history may have been exposed. If
+  this matters, rotate them.

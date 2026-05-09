@@ -1,0 +1,16 @@
+# Secrets — never commit
+.env
+
+# Encrypted keyfiles and addresses — keep local
+secrets/
+*.enc
+*_prv.enc
+*_pub.bin
+*_addr.bin
+*_addr.png
+
+# Notebook scratch
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
