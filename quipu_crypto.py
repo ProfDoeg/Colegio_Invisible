@@ -166,7 +166,7 @@ def encrypt_password(password, plaintext):
     if isinstance(password, str):
         password = password.encode()
     key = hashlib.sha256(password).digest()
-    return ecies.aes_encrypt(key=key, plain_text=plaintext)
+    return ecies.sym_encrypt(key=key, plain_text=plaintext)
 
 
 def decrypt_password(password, ciphertext):
@@ -174,7 +174,7 @@ def decrypt_password(password, ciphertext):
     if isinstance(password, str):
         password = password.encode()
     key = hashlib.sha256(password).digest()
-    return ecies.aes_decrypt(key=key, cipher_text=ciphertext)
+    return ecies.sym_decrypt(key=key, cipher_text=ciphertext)
 
 
 # ---------------------------------------------------------------------------
@@ -190,7 +190,7 @@ def encrypt_keydrop(plaintext):
     if not isinstance(plaintext, bytes):
         raise TypeError("plaintext must be bytes")
     aes_key = os.urandom(AES_KEY_BYTES_LEN)
-    ciphertext = ecies.aes_encrypt(key=aes_key, plain_text=plaintext)
+    ciphertext = ecies.sym_encrypt(key=aes_key, plain_text=plaintext)
     return ciphertext, aes_key
 
 
@@ -198,4 +198,4 @@ def decrypt_keydrop(aes_key, ciphertext):
     """Decrypt AES ciphertext using a previously-generated AES key."""
     if len(aes_key) != AES_KEY_BYTES_LEN:
         raise ValueError(f"aes_key must be {AES_KEY_BYTES_LEN} bytes, got {len(aes_key)}")
-    return ecies.aes_decrypt(key=aes_key, cipher_text=ciphertext)
+    return ecies.sym_decrypt(key=aes_key, cipher_text=ciphertext)
