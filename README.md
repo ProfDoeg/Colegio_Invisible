@@ -143,8 +143,6 @@ Rough direction, in no particular order:
 
 - Split `colegio_tools.py` into a real package (`src/colegio/...` with
   `node`, `inscriptions`, `crypto`, `imaging` submodules)
-- Replace SHA-256 password KDF with scrypt or argon2id; provide a
-  migration helper for existing encrypted keyfiles
 - Build a Streamlit or CLI front-end for the common workflows (browse
   quipus, inscribe a payload, key management)
 - Formalize the header protocol — type bytes, tone bytes, type-specific
@@ -158,9 +156,12 @@ Rough direction, in no particular order:
 
 - `secrets/` and `.env` are listed in `.gitignore` for a reason. Anything
   in those locations should be treated as local-only.
-- The current password-based KDF for encrypted keyfiles is a single
-  SHA-256, which is inadequate against modern attackers. Treat passworded
-  keyfiles as obfuscation, not strong protection, until the KDF is
-  upgraded.
+- Encrypted keyfiles use a single SHA-256 of the password as the AES
+  key. This is a deliberate minimal-cryptography choice — the protocol's
+  register is hand-picked primitives, not modern password-hardening
+  KDFs. Passworded keyfiles offer obfuscation against casual inspection;
+  they are not strong protection against a motivated attacker with the
+  keyfile bytes. Use a long, high-entropy password and keep the keyfile
+  itself local.
 - The RPC credentials in old commit history may have been exposed. If
   this matters, rotate them.
