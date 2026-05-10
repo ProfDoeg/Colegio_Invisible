@@ -167,6 +167,46 @@ unallocated suggestions for discussion, not used anywhere yet.**
 | `0x0e 0x0a` | Password-sealed payload | New mechanism (your Quipu 1 in the 5-seal structure). |
 | `0x0e 0x0b` | Time-released (random AES key, future key drop) | Your Quipu 2 mechanism. |
 | `0xce` | Celestial figure | Constellation, earth path, vigil, or any named set of named coordinate points connected by lines. **DRAFT spec at [docs/quipu-types/celestial.md](docs/quipu-types/celestial.md)** |
+| `0xab` | Bindings (abecedario) | Flat list of `NAME → txid` assignments. Imported by essays for stable, project-wide aliases. **DRAFT spec at [docs/quipu-types/bindings.md](docs/quipu-types/bindings.md)** |
+
+---
+
+## Documented body conventions
+
+### Pipe-delimited title field — the `|TITLE|` convention
+
+After the type-specific structured bytes (or directly after type/tone
+for unstructured types like `0x00` text), inscriptions carry one or
+more **pipe-bracketed fields**:
+
+```
+... |FIELD_1|FIELD_2|...|FIELD_N| [body content]
+```
+
+Each `|` is the literal byte `0x7C`. Fields share boundary `|`
+characters when consecutive. The body begins after the closing `|`
+of the last field.
+
+For most quipus the first field is the title. For some types (cert,
+multi-field), additional fields carry hash algorithms, hash values,
+or other structured metadata.
+
+This is **observed across the corpus**:
+
+| Quipu | Type | Header bytes after type/tone |
+|---|---|---|
+| Mi Perrito | `0x00` text | `\|Mi Perrito\|` |
+| Mi Caballo | `0x00` text | `\|Mi Caballo\|` |
+| Maier 3-key declaration | `0xcc` cert | `00 01 \|SHA256\|33709...` |
+| Domremy bordado | `0xcc` cert | `00 02 \|Domrémy Bordado Certificate\|` |
+| Sun Face | `0x03` image | `[L,W,B] \|Sun Face\|` |
+| Domremy image | `0x03` image | `[L,W,B] \| Domremy: Campo de Bourlemont \|` |
+| Encrypted image #8 | `0x0e` enc | `[L,W,B,N_recip] \|Here is an encrypted image...\|` |
+| Identity DrDoeg | `0x1d` id | `00 \|Declaration of Identity\|` |
+
+The essay convention (`docs/quipu-syntax/essay.md`) formalizes this
+for `0x00` text quipus and extends it with optional author, date,
+and other fields.
 
 Whether any of these are right depends on choices you haven't made yet.
 They're just placeholder slots so the conversation has something to point at.
