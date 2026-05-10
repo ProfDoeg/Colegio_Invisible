@@ -166,6 +166,7 @@ unallocated suggestions for discussion, not used anywhere yet.**
 | `0x0e 0x04` | Encrypted text essay | Encrypted variant of `0x04`, parallel to `0x0e 0x03`. |
 | `0x0e 0x0a` | Password-sealed payload | New mechanism (your Quipu 1 in the 5-seal structure). |
 | `0x0e 0x0b` | Time-released (random AES key, future key drop) | Your Quipu 2 mechanism. |
+| `0xce` | Celestial figure | Constellation, earth path, vigil, or any named set of named coordinate points connected by lines. **DRAFT spec at [docs/quipu-types/celestial.md](docs/quipu-types/celestial.md)** |
 
 Whether any of these are right depends on choices you haven't made yet.
 They're just placeholder slots so the conversation has something to point at.
