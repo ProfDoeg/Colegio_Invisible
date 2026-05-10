@@ -814,8 +814,8 @@ def array_dec_from_txn(txn_ident, prvKey_input, index_key, df_outputs):
     pub_hex = get_txn_pub_from_node(txn_ident)
     txn_pub = eth_keys.keys.PublicKey(bytes.fromhex(pub_hex))
     sk = shared_key(prvKey_input, txn_pub)
-    session = ecies.aes_decrypt(sk, zip_keys[index_key])
-    data = ecies.aes_decrypt(session, zip_data)
+    session = ecies.sym_decrypt(sk, zip_keys[index_key])
+    data = ecies.sym_decrypt(session, zip_data)
     return hex_header, read_image_data(hex_header, data)
 
 
@@ -836,7 +836,7 @@ def save_privkey(privkey, privkey_filepath, password=None):
                 print("\nPasswords match...")
                 break
             print("\nPasswords do not match...")
-    encrypted = ecies.aes_encrypt(
+    encrypted = ecies.sym_encrypt(
         key=hashlib.sha256(password.encode()).digest(),
         plain_text=privkey.to_bytes(),
     )
@@ -850,7 +850,7 @@ def import_privKey(privkey_filepath, password=None):
         password = getpass.getpass("Input password for decrypting keyfile: ")
     with open(privkey_filepath, "rb") as f:
         encrypted = f.read()
-    decrypted = ecies.aes_decrypt(
+    decrypted = ecies.sym_decrypt(
         key=hashlib.sha256(password.encode()).digest(),
         cipher_text=encrypted,
     )
