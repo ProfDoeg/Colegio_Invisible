@@ -568,8 +568,16 @@ def scan_accounts(accounts):
         if txid in seen:
             continue
         seen.add(txid)
-        raw = rpc_request("getrawtransaction", [txid, True])
-        block = rpc_request("getblock", [raw["blockhash"]])
+        # gettransaction (wallet RPC) works in pruned mode for wallet-relevant
+        # txs. We decode the hex field to get the same shape getrawtransaction
+        # would have returned, then merge in the block metadata from the wallet
+        # view. (getrawtransaction would require -txindex, which is incompatible
+        # with prune.)
+        wallet_tx = rpc_request("gettransaction", [txid, True])
+        raw = rpc_request("decoderawtransaction", [wallet_tx["hex"]])
+        raw["blockhash"] = wallet_tx.get("blockhash")
+        raw["blocktime"] = wallet_tx.get("blocktime")
+        block = rpc_request("getblockheader", [raw["blockhash"]])
         last_vout = raw["vout"][-1]
         op = (
             extract_op_return(last_vout)
@@ -797,8 +805,13 @@ def shared_key(prvKey, pubKey):
 
 
 def get_txn_pub_from_node(txn_ident):
-    """Recover the pubkey used to sign the first input of a tx via the node."""
-    raw = rpc_request("getrawtransaction", [txn_ident, True])
+    """Recover the pubkey used to sign the first input of a tx via the node.
+
+    Uses gettransaction + decoderawtransaction so it works in pruned mode for
+    wallet-relevant txs (getrawtransaction would need -txindex).
+    """
+    wallet_tx = rpc_request("gettransaction", [txn_ident, True])
+    raw = rpc_request("decoderawtransaction", [wallet_tx["hex"]])
     asm = raw["vin"][0]["scriptSig"]["asm"]
     # asm format: "<sig> <pubkey>" — pubkey is the last token, uncompressed = 130 hex chars
     return asm.split()[-1]
