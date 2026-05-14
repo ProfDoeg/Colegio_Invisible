@@ -1,169 +1,245 @@
-# Next session — handoff: keydrop display
+# Next session — handoff: topology strand-terminus consolidation
 
-The current console can read text quipus, image quipus, identity, cert,
-and shows encrypted (`0x0e`) quipus as opaque "🔒 encrypted, N bytes
-ciphertext." The next build is to **decrypt and display encrypted
-quipus when a corresponding key-drop quipu has been published on
-chain.**
+The previous task (keydrop display + AES-sealed sub-family + broadcast
+write path) shipped in commit `0c3b039`. Encrypted quipus now decrypt
+inline in all three reader sites; Plan tab supports `None / AES /
+ECIES Broadcast` with address-and-combined-key recipients.
 
-## Background — what a key drop is
+The **next build** is a focused visual improvement to the quipu map:
+**show strand-terminus consolidation/export so the topology accurately
+reflects the in-and-out flow of the address space.**
 
-A key drop is a quipu of type `0x0e 0x0e 0x0d`. Its body contains:
+## The problem
 
-```
-[encrypted_txid: 32 bytes][aes_key: 32 bytes]
-```
+`compute_quipu_topology` in `quipu_console.py` traces only **backwards**
+from each quipu's root (funding lineage). It draws `quipu_root`,
+`joining`, `bridge`, `external` nodes for the funding ancestors but
+never looks **forward** from the strand termini.
 
-The pattern (from the protocol's original design, per
-`quipu_header_bytes.md`):
+Result: when a quipu's N strand termini are all consumed in a single
+outgoing transaction (consolidation or export), the visual still shows
+them as N dangling tails — as if unspent. Same in the broom-head/forest
+view (`build_history_dot`), which only marks `(unspent)` for
+strand_length == 0 and otherwise just leaves the terminus node hanging.
 
-1. Author broadcasts an encrypted quipu (e.g., `0x0e 0x03` for an
-   encrypted image). Body layout:
-   `[N_recip × 64-byte session-key copies][AES-encrypted body]`
-2. Sometime later, the author broadcasts a key drop revealing the AES
-   session key.
-3. Anyone reading the chain can now **bypass the per-recipient
-   session-key copies entirely** and decrypt the body directly with
-   the released key.
+Example: txid
+`014123b21a99b50e28219522af50a7a970dd3f8feeb0dd1d07e4ab2d384b40d1`
+("Paco's quipu") — all strand termini are spent in the same outgoing
+tx, but the map renders them as separate tendrils.
 
-## The on-chain test pairs
+## What "consolidation" vs "export" mean here
 
-There are exactly two encrypted-image + key-drop pairs already on
-apocrypha. End-to-end test data for free:
+For each strand terminus T:
+- T's last output (typically `T:0`, since strand chains are 1-in/1-out)
+  is spent in some transaction S.
+- If **S's outputs land back in the watched address(es)** → consolidation.
+  S is a "joining" tx — same kind we already model for funding.
+- If **S's outputs land at addresses not in the watched set** → export.
+  The quipu's outputs have left the embroidery space.
+- If no S exists → the terminus is genuinely unspent.
 
-| Encrypted image quipu | Key drop quipu |
-|---|---|
-| `d68175766b70f716...` ("Here is an encrypted image going out to a very special lady...Wow") | `89b51b4852b0e80f...` ("Release something glorious to the world") |
-| `d0209a0f85872d68...` ("This is an encrypted image for two special ladies...Hola") | `f278e466012fb784...` ("Release something glorious to the world") |
+If multiple strand termini share the same S, they should converge into
+ONE node, not appear as separate tendrils.
 
-If the implementation works, opening either encrypted image's popup in
-the topology view should reveal the actual decrypted image (instead of
-the current ciphertext blob).
+## Data already available
 
-## Where to add the support
+Each quipu dict already carries:
+- `"strand_termini": [txid, txid, ...]` — last OP_RETURN tx in each strand
+  (computed at [quipu_console.py:592–615](quipu_console.py:592))
+- `"strand_lengths": [n, n, ...]` — strand depths
 
-In `quipu_console.py`:
+`df_out` columns: `txout`, `spent_in`, `value`, `op_return`,
+`blockheight`, `blocktime`, `txid`, `n`. The `spent_in` field is exactly
+what we need — for `<terminus_txid>:0` it points to the tx S that
+consumed it (or is empty if unspent).
 
-1. **`build_quipu_content_html`** (the topology popup) — currently
-   handles `type_byte == 0x0e` by showing the lock icon and ciphertext
-   byte count. Needs to:
-   - Detect if this encrypted quipu has a corresponding key drop on
-     chain
-   - If yes: pull the AES key from the key-drop body, skip past the
-     session-key copies in the encrypted body, AES-decrypt the
-     remainder, render the inner content as the appropriate type
-     (image / text / etc.) using the existing per-type rendering
-     code
-   - If no key drop yet: keep the current "🔒 encrypted" display
+To distinguish consolidation vs export, look up S in `df_tx`:
+- If S is in `df_tx` (i.e., the wallet has seen it as wallet-relevant
+  via `listtransactions`), then its outputs touch watched addresses
+  somewhere — **consolidation**.
+- If S is NOT in `df_tx` but `gettxout` returns nothing for the
+  terminus (meaning it IS spent, just not by a wallet-relevant tx),
+  then S has gone to addresses outside the watched set — **export**.
+  In practice `df_out`'s `spent_in` only gets populated for wallet-
+  visible spends, so absent `spent_in` plus a spent UTXO = export.
 
-2. **Same logic** in the dropdown inspector and the Read tab decoder
-   (three sites total).
+For a true export, we still want to draw a node — labeled differently
+so the user sees "this quipu's outputs left the address."
 
-3. **Key-drop quipus themselves** — currently fall through to the
-   generic "no specialized decoder" branch. Should:
-   - Parse body as `[encrypted_txid (32 bytes)][aes_key (32 bytes)]`
-   - Display: "🗝 releases the key for `<encrypted_txid>`" with a
-     mini-link to that quipu's display, plus the AES key (perhaps
-     truncated for display)
+## Implementation plan
 
-## Implementation sketch
+### 1. Extend `compute_quipu_topology` with a forward pass
 
-A helper to find the key drop that releases a given encrypted quipu:
+After the existing backward funding-trace loop, add a **forward**
+pass: for each quipu, walk each strand terminus's spend.
 
 ```python
-def find_keydrop_for(encrypted_txid, quipus, df_out):
-    """Scan a list of quipus for a key drop whose body's first 32 bytes
-    match encrypted_txid (as raw bytes, big-endian). Returns
-    (keydrop_quipu, aes_key_bytes) or None."""
-    target = bytes.fromhex(encrypted_txid)[::-1]  # txid is little-endian on-wire
-    for q in quipus:
-        if q['type_byte'] != 0x0e:
+# Forward pass: trace strand-terminus consolidation/export
+for q in quipus:
+    root = q["root_txid"]
+    for s_idx, terminus in enumerate(q["strand_termini"]):
+        if not terminus:
+            continue  # unspent strand — leave it dangling
+        # Find what spent terminus:0
+        spent_in_rows = df_out[df_out["txout"] == f"{terminus}:0"]
+        if spent_in_rows.empty:
             continue
-        # Confirm it's specifically a key drop (0x0e 0x0e 0x0d) not just
-        # any encrypted-family type — check header bytes 5 and 6
-        # (header_bytes[5] == 0x0e, header_bytes[6] == 0x0d)
-        ...
-        h, b = read_quipu_bytes(q['root_txid'], df_out)
-        if len(b) >= 64 and b[:32] == target:
-            return q, b[32:64]
-    return None
-
-
-def decrypt_with_keydrop(encrypted_body_bytes, aes_key, n_recip):
-    """Skip past the N_recip × 64-byte session-key copies and AES-decrypt
-    the remainder using the released key (from the key drop)."""
-    skip = n_recip * 64
-    ciphertext = encrypted_body_bytes[skip:]
-    return ecies.sym_decrypt(aes_key, ciphertext)
+        spend_tx = spent_in_rows.iloc[0]["spent_in"]
+        if not spend_tx or (isinstance(spend_tx, float) and spend_tx != spend_tx):
+            continue
+        # The terminus is spent in spend_tx. Classify:
+        if spend_tx in df_tx_by_id.index:
+            parent_row = df_tx_by_id.loc[spend_tx]
+            n_in = int(parent_row["num_inputs"])
+            n_out = int(parent_row["num_outputs"])
+            if spend_tx not in nodes:
+                # Consolidation = ≥2 inputs, ≤ inputs outputs
+                # Could also be a 1-in-1-out bridge if a strand was
+                # spent alone (rare for quipus). Use joining-like
+                # classification:
+                kind = "consolidation" if n_in >= 2 else "bridge"
+                nodes[spend_tx] = {
+                    "kind": kind, "txid": spend_tx,
+                    "n_in": n_in, "n_out": n_out,
+                    "blocktime": int(parent_row.get("blocktime", 0) or 0),
+                }
+        else:
+            # Spend tx not in df_tx → outputs leave the address space
+            if spend_tx not in nodes:
+                nodes[spend_tx] = {
+                    "kind": "export", "txid": spend_tx,
+                }
+        # Edge: terminus → spend_tx (forward)
+        # But terminus may not be a node yet — strand interior is
+        # not in the topology. Edge from quipu root would skip the
+        # strand. Better: add terminus as a "strand_terminus" node.
+        terminus_id = f"term::{root}::{s_idx}"
+        if terminus_id not in nodes:
+            nodes[terminus_id] = {
+                "kind": "strand_terminus",
+                "txid": terminus,
+                "of_quipu": root,
+                "strand_index": s_idx,
+                "spent": True,
+            }
+        edges.append((root, terminus_id))   # synthetic root → terminus
+        edges.append((terminus_id, spend_tx))
 ```
 
-Note on **endianness of the txid in the key-drop body**: needs
-verification against the actual on-chain pairs. The convention is
-likely little-endian internal representation (Bitcoin-style) vs the
-big-endian display form. Test by computing both directions.
+Caveat: for unspent strands, you may still want to add a terminus
+node (kind `strand_terminus`, `spent: False`) so the visual stays
+consistent — N strand stubs per quipu. Or just leave them implied
+(empty).
 
-## Caveats and open questions
+### 2. Render the new node kinds in `render_topology_pyvis`
 
-1. **The `n_recip` field needs to be parsed** from the encrypted
-   quipu's header (per `quipu_header_bytes.md`, byte 12 for
-   `0x0e 0x03`). Don't assume `n_recip = 1`.
+Add cases for `consolidation`, `export`, `strand_terminus`:
 
-2. **Endianness of encrypted_txid in keydrop body** — verify by
-   comparing the body's first 32 bytes (both directions) against the
-   txids of the known encrypted quipus.
+```python
+elif kind == "consolidation":
+    net.add_node(txid, label=f"join←{info['n_in']}",
+        title=f"Consolidation: {info['n_in']} strand termini "
+              f"merged here\n{txid}",
+        color="#8eb88e", size=14, shape="diamond")
+elif kind == "export":
+    net.add_node(txid, label="↗ out",
+        title=f"Export: spend left the address space\n{txid}",
+        color="#c78686", size=12, shape="triangle")
+elif kind == "strand_terminus":
+    spent = info.get("spent", False)
+    net.add_node(txid, label="·",
+        title=f"Strand {info['strand_index']} terminus of "
+              f"{info['of_quipu'][:8]}…\n{info['txid']}",
+        color="#bbbbbb" if spent else "#eeeeee",
+        size=6, shape="dot")
+```
 
-3. **What if more than one key drop exists for the same encrypted
-   quipu?** Probably take the first; in practice the user wouldn't
-   re-drop. Handle gracefully.
+Color scheme suggestion:
+- consolidation (back to watched address) = same green as cert quipus
+  to suggest "remains in the embroidery"
+- export (leaves watched space) = red-tone, suggests "departed"
 
-4. **Auto-link in the topology graph** — once the encrypted ↔ key-drop
-   mapping is detected, we could draw an explicit edge between the
-   two nodes in the pyvis network. Useful but optional for v1.
+### 3. Update broom-head forest similarly (optional)
+
+`build_history_dot` draws a tree per quipu. For each terminus add a
+sink node downstream, labeled "→ consolidation" or "→ exported" or
+"(unspent)". When N strand termini share the same spend_tx, point all
+of them to a single sink node (graphviz handles this naturally — same
+`{spend_id}` referenced by multiple edges).
+
+### 4. Test against the real chain
+
+- Apocrypha has multiple quipus; pick one where you've explicitly
+  consolidated (Sabina was joined into a Cadena join tx per memory).
+  Expected: all strand termini converge at the join node.
+- The Paco quipu
+  (`014123b21a99b50e28219522af50a7a970dd3f8feeb0dd1d07e4ab2d384b40d1`)
+  — verify its strand termini all merge at one node, no tendrils.
+- For an unspent quipu (newer inscriptions) — strand termini render
+  as faint stubs, no join node.
+
+## Caveats
+
+1. **`df_out` is wallet-scoped.** If a strand terminus is spent by a
+   tx involving only non-watched addresses, `spent_in` is empty.
+   `gettxout` is the authoritative "is it spent" check but doesn't tell
+   you the spender. For a full picture you'd need a chain-wide forward
+   index. For v1, "wallet-visible spend → consolidation, otherwise
+   either unspent or export" is a fine heuristic — the visual just
+   needs to be honest about which it is. Possibly add a separate
+   `gettxout`-driven pass to distinguish "unspent" from
+   "spent-but-spender-not-watched".
+
+2. **Strand termini may already exist as `bridge` nodes.** The backward
+   pass adds nodes for any funding ancestor. If one quipu's terminus
+   funds another quipu's root, the terminus is already a node (kind
+   `bridge` or `joining`). Be careful not to overwrite — check
+   `nodes` membership and pick the more-informative label
+   (`strand_terminus` should win over generic `bridge`).
+
+3. **Edge multiplicity.** Adding root → terminus → spend creates two
+   new edges per strand. For a 5-strand quipu that's 10 new edges.
+   Pyvis handles this fine but the force-directed layout may need
+   tuning (the `spring_length` in `barnes_hut` may want to drop a
+   touch).
+
+4. **Performance.** The forward pass is O(quipus × strands), each step
+   one `df_out` lookup. Cheap compared to `scan_accounts`. No new RPC
+   calls.
 
 ## Files to touch
 
-- `quipu_console.py` — content rendering, three sites (popup,
-  dropdown inspector, Read tab)
-- Possibly `colegio_tools.py` — add the `find_keydrop_for` helper
-  there for reusability, or keep it inline in `quipu_console.py`
-
-## Test plan
-
-1. Compute history on apocrypha (already cached if the console was
-   recently used, otherwise ~30-60s rescan)
-2. Click the encrypted image quipu `d68175...` in the topology
-3. Should see the actual decrypted image (was previously a ciphertext
-   blob)
-4. Repeat for `d0209a...`
-5. Click each key drop (`89b51b...`, `f278e4...`) — should see "this
-   releases the key for ..." with the referenced txid
+- [quipu_console.py](quipu_console.py) — `compute_quipu_topology`
+  (forward pass), `render_topology_pyvis` (new node kinds),
+  optionally `build_history_dot` for the forest view
+- No `colegio_tools.py` changes expected — all the data is already in
+  `df_out` / `df_tx`.
 
 ## Beyond this build
 
-Subsequent natural extensions, in roughly increasing complexity:
+Once consolidation is visible, these become natural follow-ups (from
+the discussion earlier):
 
-- **Visual link in topology**: dashed edge from key-drop node to the
-  encrypted-quipu node it unlocks
-- **Compose new encrypted broadcasts**: extend the Plan/Inscribe tabs
-  to handle the encryption pipeline (probably with the `0x0e 0x00`
-  text variant first since image header layout is more complex)
-- **Combined-key ECIES**: the multi-keyholder threshold seals from
-  `quipu_crypto.py` (`combine_pubkeys`/`combine_privkeys`) — used by
-  the five-seal La Verna scheme. Wire into the console for ceremonial
-  unsealing workflows (need all N participants present)
-- **Multisig orchestrator** (`QuipuMulti`): the bigger build that lets
-  you actually inscribe La Verna's bordado certificate. PSBT-style
-  round-robin signing among Hayagriva, Christophia, Anthony.
+- **Address space boundary** — a soft enclosure around watched-
+  address nodes; everything outside is funding-source or export.
+- **Keydrop ↔ encrypted edges** — dashed edge between a keydrop quipu
+  node and the encrypted quipu it unlocks. `find_keydrop_for` already
+  detects these.
+- **Time-aware layout** — fix Y positions by blocktime so the topology
+  is also a timeline.
+- **Cross-quipu funding edges** — when a strand terminus funds another
+  quipu's root, label that edge as "→ quipu N+1" explicitly.
 
-## Where state currently is (2026-05-14)
+## Where state currently is (2026-05-14, post-encryption build)
 
-- 25 quipus on chain (23 historical + Atom + Sabina)
-- Apocrypha: 1 UTXO of 16.85 DOGE (consolidated from Sabina join)
-- Bordado: 2 pre-funded cert roots awaiting strands (`a90fb985...` La
-  Verna, `891126...` third certificate) + ~6,800 DOGE in reserves
+- 25 quipus on apocrypha; broadcast/keydrop pairs `d0209a…↔89b51b…`
+  and `d68175…↔f278e4…` decrypt inline in the console
+- No `0x0e 0xae` quipu inscribed on chain yet — first-light AES-sealed
+  inscription on apocrypha is also a natural next task (smaller in
+  scope than the topology rework)
 - Streamlit console runs at http://localhost:8501; launch with:
   ```
   cd ~/Desktop/Colegio_Invisible
   .venv/bin/streamlit run quipu_console.py
   ```
-- Latest commit on `main`: `9f4cd2b` (README setup expansion)
+- Latest commit on `main`: `0c3b039` (encrypted-quipu support)
