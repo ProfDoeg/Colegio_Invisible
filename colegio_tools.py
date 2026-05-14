@@ -77,6 +77,12 @@ RPC_URL = f"http://{RPC_USER}:{RPC_PASSWORD}@{RPC_HOST}:{RPC_PORT}"
 AES_KEY_BYTES_LEN = 32
 
 
+# Module-level session reuses the underlying TCP connection (HTTP keep-alive).
+# Without this, scan_accounts (~15k+ RPC calls) exhausts macOS ephemeral
+# ports and throws "[Errno 49] Can't assign requested address".
+_RPC_SESSION = requests.Session()
+_RPC_SESSION.headers.update({"content-type": "application/json"})
+
 def rpc_request(method, params=None):
     """Call a Dogecoin Core RPC method. Returns the 'result' field."""
     if params is None:
@@ -87,9 +93,8 @@ def rpc_request(method, params=None):
         "jsonrpc": "2.0",
         "id": 0,
     })
-    response = requests.post(
+    response = _RPC_SESSION.post(
         RPC_URL,
-        headers={"content-type": "application/json"},
         data=payload,
     )
     if response.status_code != 200:
