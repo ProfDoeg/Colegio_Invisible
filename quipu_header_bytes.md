@@ -25,6 +25,7 @@ interpretation is marked as such.
 | 9 | `18_cuaderno.ipynb`, MD cell 12 | `c1dd0001 0e0e 0d + text` | **Key-drop quipu** |
 | 10 | `20_cuaderno.ipynb`, MD cell 25 | `c1dd0001 1d 00 00` | **Identity quipu** (`1d` = identity, per documentation) |
 | 11 | `quipu3.ipynb` cell 66 (Verna) | `c1dd0001 03ff 0101 2c00 f006` | La Verna image quipu |
+| 12 | `colegio_tools.py` build_aes_sealed_quipu | `c1dd0001 0eae <inner_full_header_from_byte_4>` | **AES-sealed wrapper** (any inner type) |
 
 ---
 
@@ -111,7 +112,41 @@ body: enc_txid_bytes (32) + aes_key_bytes (32)
 Documented in notebook 18: "*For key drop header is...*"
 
 Used to release the AES session key for a previously-broadcast encrypted
-quipu, by referencing its txid + the key.
+quipu, by referencing its txid + the key. Works equally for a `0x0e 0xae`
+AES-sealed target — the reader detects the target's sub-family byte and
+either skips per-recipient envelopes (broadcast) or decrypts directly
+(AES-sealed). The txid in the body is stored display-endian (per nb18's
+`bytes.fromhex(displayed_txid)` — *not* reversed).
+
+### `0x0e 0xae` — AES-sealed (independent sub-family)
+
+A general-purpose AES-only wrapper around any plaintext inner type. No
+per-recipient envelopes — the body is AES-encrypted with a key derived
+from a passphrase (`SHA-256(password)`) or supplied directly as 32 bytes.
+The wrap is structural: `0e ae` is inserted between `c1dd0001` and the
+inner type byte, with everything else (title, inner structural fields)
+preserved in place.
+
+```
+byte 4  : 0e            family = encrypted
+byte 5  : ae            sub-family = AES-sealed
+byte 6  : <inner_type>  03 image, 04 essay, 00 text, …
+bytes 7+ : <inner-type-specific header fields, including |TITLE|>
+body     : aes_encrypt(key, <plaintext inner body>)
+```
+
+Reader simply prepends `c1dd0001` to outer-header bytes 6+ to recover the
+plaintext inner header, then AES-decrypts the body. The recovered
+`(inner_header, inner_body)` is exactly the shape an unencrypted inner
+quipu would have, so all existing per-type readers handle it unchanged.
+
+Receives a key drop on equal footing with `0x0e 0x03` — the apply path
+in `colegio_tools.apply_keydrop` dispatches on the sub-family byte and
+skips the envelope-skip step for `0xae`.
+
+Implemented in `colegio_tools.py`:
+`build_aes_sealed_quipu`, `read_aes_sealed_quipu`. Console writer exposes
+this as "AES password (0x0e 0xae)" in the Plan tab.
 
 ### `0x1d` — Identity
 
@@ -164,7 +199,7 @@ unallocated suggestions for discussion, not used anywhere yet.**
 | `0x04` | Text essay (plaintext) | Body is UTF-8. Could carry the 108 essays' content. |
 | `0x05` | Certificate | A specific kind of "essay-like" document that references other quipus by txid. |
 | `0x0e 0x04` | Encrypted text essay | Encrypted variant of `0x04`, parallel to `0x0e 0x03`. |
-| `0x0e 0x0a` | Password-sealed payload | New mechanism (your Quipu 1 in the 5-seal structure). |
+| ~~`0x0e 0x0a`~~ | ~~Password-sealed payload~~ | **Superseded** — now allocated as `0x0e 0xae` (see above). |
 | `0x0e 0x0b` | Time-released (random AES key, future key drop) | Your Quipu 2 mechanism. |
 | `0xce` | Celestial figure | Constellation, earth path, vigil, or any named set of named coordinate points connected by lines. **DRAFT spec at [docs/quipu-types/celestial.md](docs/quipu-types/celestial.md)** |
 | `0xab` | Bindings (abecedario) | Flat list of `NAME → txid` assignments. Imported by essays for stable, project-wide aliases. **DRAFT spec at [docs/quipu-types/bindings.md](docs/quipu-types/bindings.md)** |

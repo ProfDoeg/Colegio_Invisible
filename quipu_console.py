@@ -27,9 +27,12 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 
+import eth_keys
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import colegio_tools as ct
+from quipu_crypto import combine_pubkeys
 from quipu_orchestrator import (
     Quipu,
     STATE_INIT, STATE_ROOT_BUILT, STATE_ROOT_BROADCAST, STATE_ROOT_CONFIRMED,
@@ -79,6 +82,76 @@ with st.sidebar:
             st.session_state.utxos = ut
         except Exception as e:
             st.error(f"Balance query failed: {e}")
+
+    st.divider()
+    st.header("AES key")
+    aes_source = st.radio(
+        "Source",
+        ["Password string", "Key file"],
+        horizontal=True,
+        key="aes_source_choice",
+        help="Used to read 0x0e 0xae sealed quipus, and as a fallback for "
+             "broadcast quipus when the loaded privkey is not a recipient.",
+    )
+
+    if aes_source == "Password string":
+        st.caption("SHA-256(password) → 32-byte AES key.")
+        aes_pw_in = st.text_input(
+            "Password",
+            value=(st.session_state.get("aes_password", "")
+                   if isinstance(st.session_state.get("aes_password"), str) else ""),
+            type="password", key="aes_pw_input",
+        )
+        st.session_state.aes_password = aes_pw_in
+    else:
+        st.caption(
+            "Path to a file containing the 32-byte AES key. The file may "
+            "itself be password-protected (same SHA-256 → AES envelope as "
+            "the `_prv.enc` keyfiles) — leave the inner password blank if "
+            "the file holds the raw key directly."
+        )
+        aes_key_path = st.text_input(
+            "Key file", value=st.session_state.get("aes_key_path", ""),
+            key="aes_key_path_input",
+        )
+        st.session_state.aes_key_path = aes_key_path
+        aes_inner_pw = st.text_input(
+            "Inner password (empty = unencrypted file)",
+            value="", type="password", key="aes_inner_pw_input",
+        )
+        if st.button("Load AES key", use_container_width=True,
+                     disabled=not aes_key_path):
+            try:
+                with open(aes_key_path, "rb") as _f:
+                    raw = _f.read()
+                if aes_inner_pw:
+                    key_bytes = ct.aes_decrypt_bytes(raw, aes_inner_pw)
+                else:
+                    key_bytes = raw
+                if len(key_bytes) != 32:
+                    st.error(
+                        f"Expected 32-byte AES key, got {len(key_bytes)} bytes. "
+                        f"If the file is password-protected, set the inner "
+                        f"password and try again."
+                    )
+                else:
+                    st.session_state.aes_password = key_bytes
+                    st.success(
+                        f"AES key loaded ({len(key_bytes)} bytes) — "
+                        f"fingerprint {key_bytes[:4].hex()}…"
+                    )
+            except FileNotFoundError:
+                st.error(f"No such file: {aes_key_path}")
+            except Exception as e:
+                st.error(f"AES key load failed: {e}")
+
+    _cur = st.session_state.get("aes_password")
+    if isinstance(_cur, (bytes, bytearray)) and len(_cur) == 32:
+        st.caption(f"✓ AES key loaded (fingerprint `{bytes(_cur)[:4].hex()}…`)")
+    elif isinstance(_cur, str) and _cur:
+        st.caption("✓ Password set (will be SHA-256 hashed)")
+    else:
+        st.caption("(no AES key set)")
 
     st.divider()
     st.header("Node")
@@ -304,6 +377,194 @@ def read_quipu_bytes(root_txid, df_out=None):
     )
 
 
+def _coerce_password_input(s):
+    """Sidebar AES input → value for colegio_tools._coerce_aes_key.
+    Raw 32-byte bytes (from a loaded key file) pass through unchanged;
+    any string is treated as a passphrase that the helper will SHA-256."""
+    if isinstance(s, (bytes, bytearray)) and len(s) == 32:
+        return bytes(s)
+    return s if isinstance(s, str) else ""
+
+
+def parse_recipient_block(text):
+    """Parse a multi-line recipient input into resolved slot info.
+
+    Syntax: one recipient slot per line. Within a line, comma-separated
+    tokens get combined into a single envelope target via curve point
+    addition. Each token is either:
+      - 128-hex uncompressed pubkey (eth_keys form)
+      - 130-hex pubkey with '04' prefix (Bitcoin form; we strip)
+      - a Dogecoin address (P2PKH or P2SH multisig), resolved via
+        ct.get_address_pubkeys
+    A '#' starts a trailing comment.
+
+    Returns: list of dicts, one per slot:
+      {"tokens": [...], "pubkeys": [PublicKey, ...], "combined": PublicKey}
+
+    Raises ValueError on parse/resolution failure. Per-token results are
+    cached in st.session_state["pubkey_cache"] to avoid repeated chain
+    scans across reruns.
+    """
+    cache = st.session_state.setdefault("pubkey_cache", {})
+    slots = []
+    for raw_line in (text or "").splitlines():
+        ln = raw_line.split("#", 1)[0].strip()
+        if not ln:
+            continue
+        tokens = [t.strip() for t in ln.split(",") if t.strip()]
+        if not tokens:
+            continue
+        pubs = []
+        for tok in tokens:
+            if tok in cache:
+                pub_hex_list = cache[tok]
+            else:
+                try:
+                    pub_hex_list = [ct._strip_pub_prefix(tok)]
+                except ValueError:
+                    pub_hex_list = ct.get_address_pubkeys(tok)
+                cache[tok] = pub_hex_list
+            pubs.extend(
+                eth_keys.keys.PublicKey(bytes.fromhex(p)) for p in pub_hex_list
+            )
+        slots.append({
+            "tokens": tokens,
+            "pubkeys": pubs,
+            "combined": combine_pubkeys(pubs),
+        })
+    if not slots:
+        raise ValueError("no recipients parsed from input")
+    return slots
+
+
+def resolve_encrypted_quipu(header_bytes, body_bytes, *, root_txid=None,
+                            df_out=None, quipus=None, priv_hex=None,
+                            aes_password=None):
+    """Try to decrypt an encrypted (0x0e family) quipu using whatever keys
+    are available. Returns None if header is not encrypted at all, else a
+    dict describing kind / status / decrypted inner content.
+
+    Resolution order:
+      broadcast (0e 03): loaded privkey envelope → keydrop scan
+      AES-sealed (0e ae): sidebar password → keydrop scan
+      keydrop quipu (0e 0e 0d): parse target txid + released key
+    """
+    if len(header_bytes) < 6 or header_bytes[4] != 0x0e:
+        return None
+    sub = header_bytes[5]
+
+    # Keydrop quipu — informational, not decrypted
+    if sub == 0x0e:
+        if len(header_bytes) >= 7 and header_bytes[6] == 0x0d:
+            try:
+                target_txid, aes_key = ct.parse_keydrop_quipu(header_bytes, body_bytes)
+                return {
+                    "kind": "keydrop_quipu", "status": "info",
+                    "inner_header": None, "inner_body": None, "via": None,
+                    "details": {"target_txid": target_txid, "aes_key": aes_key},
+                }
+            except Exception as e:
+                return {
+                    "kind": "keydrop_quipu", "status": "locked",
+                    "inner_header": None, "inner_body": None, "via": None,
+                    "details": {"error": str(e)},
+                }
+        return {
+            "kind": "unknown", "status": "locked",
+            "inner_header": None, "inner_body": None, "via": None,
+            "details": {"sub_family": f"0x0e 0x{header_bytes[6]:02x}"
+                        if len(header_bytes) > 6 else "0x0e ?"},
+        }
+
+    # Broadcast (per-recipient envelopes)
+    if sub == 0x03:
+        kind = "broadcast"
+        if priv_hex and root_txid:
+            try:
+                pub_hex = ct.get_txn_pub_from_node(root_txid)
+                author_pub = eth_keys.keys.PublicKey(bytes.fromhex(pub_hex))
+                priv = eth_keys.keys.PrivateKey(bytes.fromhex(priv_hex))
+                inner_h, inner_b = ct.read_broadcast_quipu(
+                    header_bytes, body_bytes, priv, author_pub
+                )
+                return {
+                    "kind": kind, "status": "decrypted",
+                    "inner_header": inner_h, "inner_body": inner_b,
+                    "via": "loaded privkey (broadcast envelope)",
+                    "details": {},
+                }
+            except Exception:
+                pass
+        if quipus is not None and df_out is not None and root_txid:
+            try:
+                hit = ct.find_keydrop_for(root_txid, quipus, df_out)
+            except Exception:
+                hit = None
+            if hit:
+                kd_q, aes_key = hit
+                try:
+                    inner_h, inner_b = ct.apply_keydrop(header_bytes, body_bytes, aes_key)
+                    return {
+                        "kind": kind, "status": "decrypted",
+                        "inner_header": inner_h, "inner_body": inner_b,
+                        "via": f"keydrop {kd_q['root_txid'][:12]}…",
+                        "details": {"keydrop_txid": kd_q["root_txid"]},
+                    }
+                except Exception:
+                    pass
+        return {
+            "kind": kind, "status": "locked",
+            "inner_header": None, "inner_body": None, "via": None,
+            "details": {"n_recip": header_bytes[12] if len(header_bytes) > 12 else None},
+        }
+
+    # AES-sealed (no envelopes)
+    if sub == 0xae:
+        kind = "aes_sealed"
+        if aes_password:
+            try:
+                key = _coerce_password_input(aes_password)
+                inner_h, inner_b = ct.read_aes_sealed_quipu(
+                    header_bytes, body_bytes, key
+                )
+                return {
+                    "kind": kind, "status": "decrypted",
+                    "inner_header": inner_h, "inner_body": inner_b,
+                    "via": "sidebar password / key",
+                    "details": {},
+                }
+            except Exception:
+                pass
+        if quipus is not None and df_out is not None and root_txid:
+            try:
+                hit = ct.find_keydrop_for(root_txid, quipus, df_out)
+            except Exception:
+                hit = None
+            if hit:
+                kd_q, aes_key = hit
+                try:
+                    inner_h, inner_b = ct.apply_keydrop(header_bytes, body_bytes, aes_key)
+                    return {
+                        "kind": kind, "status": "decrypted",
+                        "inner_header": inner_h, "inner_body": inner_b,
+                        "via": f"keydrop {kd_q['root_txid'][:12]}…",
+                        "details": {"keydrop_txid": kd_q["root_txid"]},
+                    }
+                except Exception:
+                    pass
+        return {
+            "kind": kind, "status": "locked",
+            "inner_header": None, "inner_body": None, "via": None,
+            "details": {},
+        }
+
+    return {
+        "kind": "unknown", "status": "locked",
+        "inner_header": None, "inner_body": None, "via": None,
+        "details": {"sub_byte": f"0x{sub:02x}"},
+    }
+
+
 def compute_address_history(address):
     """Use scan_accounts + find_quipu_roots to enumerate every quipu rooted
     at this address, with header info and strand lengths.
@@ -483,74 +744,34 @@ def compute_quipu_topology(address, quipus, df_tx):
     return nodes, edges
 
 
-def build_quipu_content_html(q, df_out=None):
-    """Build a rich HTML panel for a quipu — header metadata + decoded body.
-    Embedded into the pyvis topology page; shown on node click."""
+def _render_body_html(type_byte, header_bytes, body_bytes):
+    """Per-type HTML body rendering. Returns a list of HTML fragments.
+    Called both for plaintext quipus and for the decrypted inner content of
+    encrypted ones."""
     import html as _html
     import io as _io
     import base64 as _b64
-    import datetime as _dt
-    try:
-        header_bytes, body_bytes = read_quipu_bytes(q["root_txid"], df_out)
-    except Exception as e:
-        return f"<p>Read failed: {_html.escape(str(e))}</p>"
+    parts = []
 
-    type_byte = q["type_byte"]
-    tone_byte = q["tone_byte"]
-    type_name = TYPE_SHORT_LABELS.get(
-        type_byte, f"0x{type_byte:02x}" if type_byte is not None else "?"
-    )
-    tone_str = "reverence" if tone_byte == 0xff else "ordinary"
-    title = q["title"] or "(no title)"
-    date_str = ""
-    if q["blocktime"]:
-        try:
-            date_str = _dt.datetime.fromtimestamp(q["blocktime"]).strftime("%Y-%m-%d")
-        except Exception:
-            pass
-
-    parts = [
-        f"<h3 style='margin:0 0 8px 0; font-size:15px'>{_html.escape(title)}</h3>",
-        "<div style='font-size:11px; color:#555; margin-bottom:10px; line-height:1.5'>",
-        f"<b>type:</b> {type_name} &middot; <b>tone:</b> {tone_str}<br>",
-        f"<b>strands:</b> {q['num_outputs']} &middot; "
-        f"<b>strand txs:</b> {sum(q['strand_lengths'])}",
-        f" &middot; <b>date:</b> {date_str}<br>" if date_str else "<br>",
-        f"<b>body:</b> {len(body_bytes):,} B<br>",
-        f"<code style='font-size:9px; word-break:break-all'>"
-        f"{_html.escape(q['root_txid'])}</code>",
-        "</div>",
-    ]
-
-    if type_byte == 0x03:  # image — decode and embed as PNG
+    if type_byte == 0x03:  # image
         try:
             hh = header_bytes.hex()
             color_flag = int(hh[12:14], 16)
             C = 3 if color_flag == 1 else 1
-            # Historical convention: header stores (W, H) — width first,
-            # then height. Same as read_image_data's (W, L) ordering.
             W = int(hh[14:18], 16)
             H = int(hh[18:22], 16)
             B = int(hh[22:24], 16)
             parts.append(
                 f"<div style='font-size:11px; color:#666; margin-bottom:6px'>"
                 f"<b>{H}h × {W}w</b> · {B} bpp · "
-                f"{'RGB' if C == 3 else 'grayscale'}"
-                f"</div>"
+                f"{'RGB' if C == 3 else 'grayscale'}</div>"
             )
             bits = ct.message_2_bit_array(body_bytes, mode=None)
-            arr = ct.bitarray2imgarr(
-                bits, imgshape=(H, W), bit=B, color=C
-            ).squeeze()
+            arr = ct.bitarray2imgarr(bits, imgshape=(H, W), bit=B, color=C).squeeze()
             img_pil = Image.fromarray(arr)
-            # Scale up so small inscriptions are visible
             scale = max(1, min(6, 360 // max(W, 1)))
-            if scale > 1:
-                img_pil_disp = img_pil.resize(
-                    (W * scale, H * scale), Image.NEAREST
-                )
-            else:
-                img_pil_disp = img_pil
+            img_pil_disp = (img_pil.resize((W * scale, H * scale), Image.NEAREST)
+                            if scale > 1 else img_pil)
             buf = _io.BytesIO()
             img_pil_disp.save(buf, format="PNG")
             b64 = _b64.b64encode(buf.getvalue()).decode("ascii")
@@ -563,10 +784,7 @@ def build_quipu_content_html(q, df_out=None):
             parts.append(f"<p>Image decode failed: {_html.escape(str(e))}</p>")
 
     elif type_byte == 0x00:  # text
-        try:
-            text = body_bytes.decode("utf-8")
-        except Exception:
-            text = body_bytes.decode("utf-8", errors="replace")
+        text = body_bytes.decode("utf-8", errors="replace")
         parts.append(
             f"<pre style='white-space: pre-wrap; font-size:11px; "
             f"max-height: 320px; overflow-y: auto; background:#f8f7f2; "
@@ -605,15 +823,6 @@ def build_quipu_content_html(q, df_out=None):
             f"{_html.escape(text)}</pre>"
         )
 
-    elif type_byte == 0x0e:  # encrypted
-        parts.append(
-            f"<div style='font-size:11px; padding:10px; background:#f3eef9; "
-            f"border-radius:4px; color:#555'>"
-            f"🔒 <b>encrypted</b><br>"
-            f"{len(body_bytes):,} ciphertext bytes. "
-            f"Decryption requires the recipient privkey.</div>"
-        )
-
     else:
         parts.append(
             f"<pre style='font-size:10px; max-height:200px; "
@@ -621,7 +830,183 @@ def build_quipu_content_html(q, df_out=None):
             f"{_html.escape(body_bytes.hex()[:600])}…</pre>"
         )
 
-    # Header bytes (always show, collapsed)
+    return parts
+
+
+def render_body_streamlit(type_byte, header_bytes, body_bytes):
+    """Per-type Streamlit body rendering. Called for plaintext quipus and
+    for the decrypted inner of encrypted ones. Sibling of _render_body_html."""
+    if type_byte == 0x00:
+        st.markdown("**Body** (UTF-8):")
+        st.text(body_bytes.decode("utf-8", errors="replace"))
+    elif type_byte == 0x03:
+        try:
+            hh = header_bytes.hex()
+            color_flag = int(hh[12:14], 16)
+            C = {0: 1, 1: 3}[color_flag]
+            W = int(hh[14:18], 16)
+            H = int(hh[18:22], 16)
+            B = int(hh[22:24], 16)
+            st.markdown(
+                f"**Image** — {H} h × {W} w · {B} bpp · "
+                f"{'grayscale' if C == 1 else 'RGB'}"
+            )
+            bits = ct.message_2_bit_array(body_bytes, mode=None)
+            arr = ct.bitarray2imgarr(bits, imgshape=(H, W), bit=B, color=C).squeeze()
+            st.image(arr, width=min(W * 4, 500))
+        except Exception as e:
+            st.error(f"Image decode failed: {e}")
+            st.code(body_bytes.hex()[:200], language=None)
+    elif type_byte == 0x1d:
+        try:
+            st.markdown("**Identity (JSON):**")
+            st.json(body_bytes.decode("utf-8"))
+        except Exception:
+            st.text(body_bytes.decode("utf-8", errors="replace"))
+    elif type_byte == 0xcc:
+        st.markdown("**Certificate body:**")
+        st.text(body_bytes.decode("utf-8", errors="replace"))
+    else:
+        st.markdown(f"**Body** (type 0x{type_byte:02x}, no specialized decoder):")
+        try:
+            st.text(body_bytes.decode("utf-8"))
+        except Exception:
+            st.code(body_bytes.hex()[:500], language=None)
+
+
+def render_encrypted_streamlit(header_bytes, body_bytes, *, root_txid,
+                               df_out=None, quipus=None):
+    """Streamlit-side render for a 0x0e quipu: resolver + inner-or-locked."""
+    resolved = resolve_encrypted_quipu(
+        header_bytes, body_bytes,
+        root_txid=root_txid, df_out=df_out, quipus=quipus,
+        priv_hex=st.session_state.get("priv_hex"),
+        aes_password=st.session_state.get("aes_password"),
+    )
+    if resolved is None:
+        st.warning("Resolver returned None for 0x0e header")
+        return
+    if resolved["kind"] == "keydrop_quipu" and resolved["status"] == "info":
+        target = resolved["details"]["target_txid"]
+        key_hex = resolved["details"]["aes_key"].hex()
+        st.markdown("🗝 **Key drop** — releases the AES key for:")
+        st.code(target, language=None)
+        st.markdown(f"**Released key:** `{key_hex[:32]}…`")
+        return
+    if resolved["status"] == "decrypted":
+        sub_label = ("AES-sealed (0x0e 0xae)" if resolved["kind"] == "aes_sealed"
+                     else "broadcast (0x0e 0x03)")
+        st.success(f"🔓 unlocked · {sub_label} · via {resolved['via']}")
+        inner_h = resolved["inner_header"]
+        inner_b = resolved["inner_body"]
+        inner_type = inner_h[4] if len(inner_h) > 4 else None
+        with st.expander("Inner header bytes", expanded=False):
+            st.code(inner_h.hex(), language=None)
+        render_body_streamlit(inner_type, inner_h, inner_b)
+        return
+    sub_label = (
+        "AES-sealed (0x0e 0xae)" if resolved["kind"] == "aes_sealed"
+        else "broadcast (0x0e 0x03)" if resolved["kind"] == "broadcast"
+        else f"unknown ({resolved['details']})"
+    )
+    st.markdown(f"🔒 **encrypted** · {sub_label}")
+    st.caption(
+        f"{len(body_bytes)} ciphertext bytes. "
+        "No matching privkey loaded, no keydrop found on chain, "
+        "and no AES password set in sidebar."
+    )
+
+
+def build_quipu_content_html(q, df_out=None, quipus=None):
+    """Build a rich HTML panel for a quipu — header metadata + decoded body.
+    Embedded into the pyvis topology page; shown on node click."""
+    import html as _html
+    import datetime as _dt
+    try:
+        header_bytes, body_bytes = read_quipu_bytes(q["root_txid"], df_out)
+    except Exception as e:
+        return f"<p>Read failed: {_html.escape(str(e))}</p>"
+
+    type_byte = q["type_byte"]
+    tone_byte = q["tone_byte"]
+    type_name = TYPE_SHORT_LABELS.get(
+        type_byte, f"0x{type_byte:02x}" if type_byte is not None else "?"
+    )
+    tone_str = "reverence" if tone_byte == 0xff else "ordinary"
+    title = q["title"] or "(no title)"
+    date_str = ""
+    if q["blocktime"]:
+        try:
+            date_str = _dt.datetime.fromtimestamp(q["blocktime"]).strftime("%Y-%m-%d")
+        except Exception:
+            pass
+
+    parts = [
+        f"<h3 style='margin:0 0 8px 0; font-size:15px'>{_html.escape(title)}</h3>",
+        "<div style='font-size:11px; color:#555; margin-bottom:10px; line-height:1.5'>",
+        f"<b>type:</b> {type_name} &middot; <b>tone:</b> {tone_str}<br>",
+        f"<b>strands:</b> {q['num_outputs']} &middot; "
+        f"<b>strand txs:</b> {sum(q['strand_lengths'])}",
+        f" &middot; <b>date:</b> {date_str}<br>" if date_str else "<br>",
+        f"<b>body:</b> {len(body_bytes):,} B<br>",
+        f"<code style='font-size:9px; word-break:break-all'>"
+        f"{_html.escape(q['root_txid'])}</code>",
+        "</div>",
+    ]
+
+    if type_byte == 0x0e:
+        resolved = resolve_encrypted_quipu(
+            header_bytes, body_bytes,
+            root_txid=q["root_txid"], df_out=df_out, quipus=quipus,
+            priv_hex=st.session_state.get("priv_hex"),
+            aes_password=st.session_state.get("aes_password"),
+        )
+        if resolved is None:
+            parts.append("<p>(unexpected: 0x0e but resolver returned None)</p>")
+        elif resolved["kind"] == "keydrop_quipu" and resolved["status"] == "info":
+            target = resolved["details"]["target_txid"]
+            key_hex = resolved["details"]["aes_key"].hex()
+            parts.append(
+                f"<div style='font-size:11px; padding:10px; "
+                f"background:#fff8e6; border-radius:4px; color:#5a4a00'>"
+                f"🗝 <b>key drop</b> — releases the AES key for:<br>"
+                f"<code style='font-size:9px; word-break:break-all'>"
+                f"{_html.escape(target)}</code><br>"
+                f"<span style='color:#888'>key:</span> "
+                f"<code style='font-size:9px'>"
+                f"{_html.escape(key_hex[:32])}…</code>"
+                f"</div>"
+            )
+        elif resolved["status"] == "decrypted":
+            inner_h = resolved["inner_header"]
+            inner_b = resolved["inner_body"]
+            inner_type = inner_h[4] if len(inner_h) > 4 else None
+            sub_label = ("AES-sealed (0x0e 0xae)" if resolved["kind"] == "aes_sealed"
+                         else "broadcast (0x0e 0x03)")
+            parts.append(
+                f"<div style='font-size:10px; padding:6px 10px; "
+                f"background:#eaf4ea; border-radius:4px; color:#2a5d2a; "
+                f"margin-bottom:8px'>"
+                f"🔓 <b>unlocked</b> · {sub_label}<br>"
+                f"via {_html.escape(resolved['via'] or '?')}"
+                f"</div>"
+            )
+            parts.extend(_render_body_html(inner_type, inner_h, inner_b))
+        else:  # locked
+            sub_label = ("AES-sealed (0x0e 0xae)" if resolved["kind"] == "aes_sealed"
+                         else "broadcast (0x0e 0x03)" if resolved["kind"] == "broadcast"
+                         else f"unknown ({resolved['details']})")
+            parts.append(
+                f"<div style='font-size:11px; padding:10px; "
+                f"background:#f3eef9; border-radius:4px; color:#555'>"
+                f"🔒 <b>encrypted</b> · {sub_label}<br>"
+                f"{len(body_bytes):,} ciphertext bytes. "
+                f"No matching privkey, keydrop, or password available."
+                f"</div>"
+            )
+    else:
+        parts.extend(_render_body_html(type_byte, header_bytes, body_bytes))
+
     parts.append(
         f"<details style='margin-top:10px; font-size:10px'>"
         f"<summary style='cursor:pointer; color:#888'>header bytes</summary>"
@@ -632,7 +1017,7 @@ def build_quipu_content_html(q, df_out=None):
     return "".join(parts)
 
 
-def render_topology_pyvis(nodes, edges, labels=None, address=None, height_px=620, df_out=None):
+def render_topology_pyvis(nodes, edges, labels=None, address=None, height_px=620, df_out=None, quipus=None):
     """Render the topology as a force-directed pyvis network. Returns HTML.
     Each quipu_root node, when clicked, pops up a panel with its decoded
     content (image / text / identity / cert / encrypted) plus full header
@@ -736,7 +1121,7 @@ def render_topology_pyvis(nodes, edges, labels=None, address=None, height_px=620
         if info["kind"] == "quipu_root":
             try:
                 quipu_contents[txid] = build_quipu_content_html(
-                    info["quipu"], df_out
+                    info["quipu"], df_out, quipus=quipus
                 )
             except Exception as e:
                 quipu_contents[txid] = f"<p>render failed: {e}</p>"
@@ -1015,6 +1400,152 @@ with tab_plan:
                 st.metric("Body bytes", len(body_bytes),
                           delta=f"L×W×B×C/8 = {height}×{width}×{bit}×{1 if color_mode=='grayscale' else 3}/8")
 
+    # Encryption (optional) — transforms (header_bytes, body_bytes) into
+    # an encrypted-quipu pair before strand planning.
+    if body_bytes is not None:
+        st.divider()
+        st.subheader("Encryption")
+        enc_mode = st.radio(
+            "Mode", ["None", "AES", "ECIES Broadcast"],
+            horizontal=True,
+            help="None = plaintext quipu. AES = sealed with the sidebar "
+                 "key/password (anyone with the same key decrypts). "
+                 "ECIES Broadcast = sealed with per-recipient envelopes; "
+                 "only listed recipients (or a later key-drop holder) "
+                 "decrypt. Broadcast is image-only.",
+        )
+
+        encryption_meta = {"mode": "none"}
+
+        if enc_mode == "AES":
+            sb_key = st.session_state.get("aes_password")
+            has_key = (
+                (isinstance(sb_key, str) and sb_key)
+                or (isinstance(sb_key, (bytes, bytearray)) and len(sb_key) == 32)
+            )
+            if not has_key:
+                st.info(
+                    "Set the AES key in the sidebar (Password string or "
+                    "Key file) — that key is used to seal this quipu."
+                )
+            else:
+                key = _coerce_password_input(sb_key)
+                outer_h, outer_b = ct.build_aes_sealed_quipu(
+                    header_bytes, body_bytes, key
+                )
+                header_bytes = outer_h
+                body_bytes = outer_b
+                encryption_meta = {
+                    "mode": "aes_sealed",
+                    "outer_size": len(outer_h) + len(outer_b),
+                }
+                kind = "key file" if isinstance(sb_key, (bytes, bytearray)) else "password"
+                st.success(
+                    f"AES-sealed (via sidebar {kind}) · "
+                    f"outer header {len(outer_h)} B · "
+                    f"ciphertext body {len(outer_b)} B"
+                )
+                st.caption(f"Outer header bytes: `{outer_h.hex()}`")
+
+        elif enc_mode == "ECIES Broadcast":
+            if "priv_hex" not in st.session_state:
+                st.warning(
+                    "Load a key in the sidebar first — the author privkey "
+                    "is needed to seal envelopes for each recipient."
+                )
+            elif qtype != "image":
+                st.warning(
+                    "ECIES Broadcast (0x0e 0x03) is the image-specific "
+                    "format from nb17. For text/essay use AES."
+                )
+            else:
+                st.caption(
+                    "One recipient slot per line. Within a line, "
+                    "comma-separated tokens are **combined** into a single "
+                    "envelope (curve point addition). Each token is a "
+                    "pubkey hex (128 or 130 chars) or a Dogecoin address "
+                    "(P2PKH or P2SH multisig — resolved via chain scan). "
+                    "`#` starts a trailing comment."
+                )
+                recip_text = st.text_area(
+                    "Recipients",
+                    value=st.session_state.get("plan_recipients_text", ""),
+                    placeholder=(
+                        "D6zKNnkupqRbkB9p5rwix8QiobQWJazjyX   # apocrypha (P2PKH)\n"
+                        "04abc…def, 04def…ghi                  # combined 2-key group\n"
+                        "9xth7DcLGb1nACScMBeSfDCfghhLKF7yqs   # bordado 3-of-3 multisig"
+                    ),
+                    key="plan_recipients_input",
+                    height=140,
+                )
+                st.session_state["plan_recipients_text"] = recip_text
+
+                bc1, bc2 = st.columns([1, 4])
+                with bc1:
+                    do_resolve = st.button("Resolve recipients",
+                                           use_container_width=True)
+                if do_resolve:
+                    try:
+                        with st.spinner("Resolving recipients (chain scan "
+                                        "for addresses)…"):
+                            slots = parse_recipient_block(recip_text)
+                        st.session_state["plan_resolved_slots"] = slots
+                        st.session_state["plan_resolved_for_text"] = recip_text
+                        st.session_state["plan_resolve_error"] = None
+                    except Exception as e:
+                        st.session_state["plan_resolve_error"] = str(e)
+                        st.session_state["plan_resolved_slots"] = None
+
+                err = st.session_state.get("plan_resolve_error")
+                slots = st.session_state.get("plan_resolved_slots")
+                stale = (
+                    slots is not None
+                    and st.session_state.get("plan_resolved_for_text") != recip_text
+                )
+                if err:
+                    st.error(f"Resolve failed: {err}")
+                if stale:
+                    st.info("Recipient text changed — click **Resolve "
+                            "recipients** to refresh before encrypting.")
+                if slots and not stale:
+                    st.markdown(f"**Resolved {len(slots)} recipient slot(s):**")
+                    for i, slot in enumerate(slots, 1):
+                        n = len(slot["pubkeys"])
+                        kind = "combined" if n > 1 else "single"
+                        fpr = slot["combined"].to_bytes()[:4].hex()
+                        tokens_str = ", ".join(t[:16] + "…" if len(t) > 18 else t
+                                               for t in slot["tokens"])
+                        st.markdown(
+                            f"&nbsp;&nbsp;{i}. **{kind}** · {n} key(s) → "
+                            f"combined fingerprint `{fpr}…`<br>"
+                            f"&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#888'>"
+                            f"tokens: `{tokens_str}`</span>",
+                            unsafe_allow_html=True,
+                        )
+
+                    inner_struct = header_bytes[4:header_bytes.index(b"|")]
+                    title_field = header_bytes[header_bytes.index(b"|"):]
+                    priv = eth_keys.keys.PrivateKey(
+                        bytes.fromhex(st.session_state.priv_hex)
+                    )
+                    combined_pubs = [s["combined"] for s in slots]
+                    outer_h, outer_b = ct.build_broadcast_quipu(
+                        inner_struct, title_field, body_bytes,
+                        priv, combined_pubs,
+                    )
+                    header_bytes = outer_h
+                    body_bytes = outer_b
+                    encryption_meta = {
+                        "mode": "broadcast",
+                        "n_recip": len(slots),
+                        "outer_size": len(outer_h) + len(outer_b),
+                    }
+                    st.success(
+                        f"ECIES Broadcast · {len(slots)} recipient slot(s) · "
+                        f"body (envelopes + ciphertext) {len(outer_b)} B"
+                    )
+                    st.caption(f"Outer header bytes: `{outer_h.hex()}`")
+
     # Strand planning summary
     if body_bytes is not None:
         st.divider()
@@ -1060,6 +1591,7 @@ with tab_plan:
             "body_bytes": body_bytes,
             "all_payloads": all_payloads,
             "n_strands": len(all_payloads),
+            "encryption": encryption_meta,
             "preview_pil_bytes": (
                 _pil_to_png_bytes(preview_pil) if preview_pil else None
             ) if False else None,
@@ -1313,29 +1845,28 @@ with tab_read:
             st.write(f"**Header bytes ({len(header_bytes)}):** `{header_bytes.hex()}`")
             st.write(f"**Body bytes:** {len(body_bytes)}")
 
-            if t_byte == 0x00:  # text
-                # Header layout: c1dd0001 type tone |TITLE|
-                title_str = header_bytes[6:].decode("utf-8", errors="replace").strip("|")
-                st.write(f"**Title:** {title_str}")
-                st.text(body_bytes.decode("utf-8", errors="replace"))
-            elif t_byte == 0x03:  # image
-                hh = header_bytes.hex()
-                color_flag = int(hh[12:14], 16)
-                C = {0: 1, 1: 3}[color_flag]
-                # Historical convention: header is (W, H)
-                W = int(hh[14:18], 16)
-                H = int(hh[18:22], 16)
-                B = int(hh[22:24], 16)
-                title_str = header_bytes[12:].decode("utf-8", errors="replace").strip("|")
-                st.write(f"**Title:** {title_str}")
-                st.write(f"**Dimensions:** {H} h × {W} w · {B} bpp · "
-                         f"{'grayscale' if C==1 else 'RGB'}")
-                bits = ct.message_2_bit_array(body_bytes, mode=None)
-                arr = ct.bitarray2imgarr(bits, imgshape=(H, W), bit=B, color=C).squeeze()
-                st.image(arr, width=min(W * 4, 400))
+            # Aggregate all cached address scans (history::*) so the Read
+            # tab can use any of them for keydrop lookup. If no address has
+            # been scanned, falls back to None — encrypted quipus will then
+            # need a sidebar password or a loaded privkey to unlock.
+            quipus_for_keydrop = []
+            df_out_for_keydrop = None
+            for k, v in st.session_state.items():
+                if isinstance(k, str) and k.startswith("history::") and isinstance(v, dict):
+                    quipus_for_keydrop.extend(v.get("quipus", []) or [])
+                    if df_out_for_keydrop is None:
+                        df_out_for_keydrop = v.get("df_out")
+            if not quipus_for_keydrop:
+                quipus_for_keydrop = None
+
+            if t_byte == 0x0e:
+                render_encrypted_streamlit(
+                    header_bytes, body_bytes,
+                    root_txid=txid_in,
+                    df_out=df_out_for_keydrop, quipus=quipus_for_keydrop,
+                )
             else:
-                st.write(f"(Decoder for type 0x{t_byte:02x} not implemented yet — raw bytes shown)")
-                st.code(body_bytes.hex()[:500], language=None)
+                render_body_streamlit(t_byte, header_bytes, body_bytes)
         except Exception as e:
             st.error(f"Read failed: {e}")
 
@@ -1499,7 +2030,7 @@ with tab_wallet:
                     )
                     topo_html = render_topology_pyvis(
                         nodes, edges, labels=labels, address=addr_to_view,
-                        height_px=620, df_out=df_out,
+                        height_px=620, df_out=df_out, quipus=quipus,
                     )
                 import streamlit.components.v1 as components
                 components.html(topo_html, height=650, scrolling=False)
@@ -1577,54 +2108,14 @@ with tab_wallet:
                     st.caption(f"{len(header_bytes)} bytes total")
 
                 # Type-aware content rendering
-                if type_byte == 0x00:  # text
-                    st.markdown("**Body** (UTF-8):")
-                    try:
-                        st.text(body_bytes.decode("utf-8"))
-                    except Exception:
-                        st.text(body_bytes.decode("utf-8", errors="replace"))
-                elif type_byte == 0x03:  # image
-                    try:
-                        hh = header_bytes.hex()
-                        color_flag = int(hh[12:14], 16)
-                        C = {0: 1, 1: 3}[color_flag]
-                        # Historical convention: header is (W, H)
-                        W = int(hh[14:18], 16)
-                        H = int(hh[18:22], 16)
-                        B = int(hh[22:24], 16)
-                        st.markdown(
-                            f"**Image** — {H} h × {W} w · {B} bpp · "
-                            f"{'grayscale' if C == 1 else 'RGB'}"
-                        )
-                        bits = ct.message_2_bit_array(body_bytes, mode=None)
-                        arr = ct.bitarray2imgarr(
-                            bits, imgshape=(H, W), bit=B, color=C
-                        ).squeeze()
-                        st.image(arr, width=min(W * 4, 500))
-                    except Exception as e:
-                        st.error(f"Image decode failed: {e}")
-                        st.code(body_bytes.hex()[:200], language=None)
-                elif type_byte == 0x1d:  # identity
-                    try:
-                        st.markdown("**Identity (JSON):**")
-                        st.json(body_bytes.decode("utf-8"))
-                    except Exception:
-                        st.text(body_bytes.decode("utf-8", errors="replace"))
-                elif type_byte == 0xcc:  # cert
-                    st.markdown("**Certificate body:**")
-                    st.text(body_bytes.decode("utf-8", errors="replace"))
-                elif type_byte == 0x0e:  # encrypted
-                    st.markdown(
-                        "**Encrypted content** (sealed — requires recipient privkey to decrypt)"
+                if type_byte == 0x0e:
+                    render_encrypted_streamlit(
+                        header_bytes, body_bytes,
+                        root_txid=selected_root,
+                        df_out=df_out, quipus=quipus,
                     )
-                    st.code(body_bytes.hex()[:200] + "…", language=None)
-                    st.caption(f"{len(body_bytes)} ciphertext bytes")
                 else:
-                    st.markdown(f"**Body** (type 0x{type_byte:02x}, no specialized decoder):")
-                    try:
-                        st.text(body_bytes.decode("utf-8"))
-                    except Exception:
-                        st.code(body_bytes.hex()[:500], language=None)
+                    render_body_streamlit(type_byte, header_bytes, body_bytes)
 
             # Broom-head forest (secondary view — useful for seeing strand depth)
             with st.expander("Broom-head forest (hierarchical view of strands)",
