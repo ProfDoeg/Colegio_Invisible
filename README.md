@@ -40,6 +40,35 @@ because they share a history; treat them as separate projects.
 - `smoke_test.py` — single-script health check. Run after setup to confirm
   imports, codec round-trips, key save/load, and node connectivity.
 - `tests/sample.png` — small fixture image used by the smoke test.
+- `quipu_orchestrator.py` — `Quipu` class implementing the **two-phase
+  diamond pattern**: consolidation → root tx (1→N) → parallel strand
+  fill → joining tx (N→1) → consolidated UTXO. Each quipu opens from
+  one input and closes to one output.
+- `quipu_console.py` — **Streamlit interface** for the toolkit. Four
+  tabs: Plan (text/image authoring with live encoding preview),
+  Inscribe (the three-phase build, with per-phase buttons and
+  confirmation waits), Read (decode any quipu by txid), Wallet
+  (UTXO browser + force-directed history topology with click-to-popup
+  showing decoded content for every quipu rooted at the address).
+- `STATUS.md` — current corpus state, what works end-to-end, what's
+  open. Read this first to orient.
+
+#### Launching the Streamlit console
+
+```bash
+# Make sure the Dogecoin Core daemon is running (see "Setup" below)
+~/Desktop/dogecoin/src/dogecoind -daemon
+
+# Start the console
+cd ~/Desktop/Colegio_Invisible
+.venv/bin/streamlit run quipu_console.py
+# Opens at http://localhost:8501
+```
+
+In the sidebar: load a key (the apocrypha test key lives at
+`~/Desktop/cinv/llaves/mi_prv.enc` with empty-string password). Pick
+an address in the Wallet tab to see its full quipu history as a
+force-directed network of broom-heads.
 
 ### CLI toolkit (stable, useful)
 
@@ -143,10 +172,13 @@ Rough direction, in no particular order:
 
 - Split `colegio_tools.py` into a real package (`src/colegio/...` with
   `node`, `inscriptions`, `crypto`, `imaging` submodules)
-- Build a Streamlit or CLI front-end for the common workflows (browse
-  quipus, inscribe a payload, key management)
+- Multisig orchestrator — the two-phase `Quipu` class is single-key
+  (apocrypha-style); a `QuipuMulti` extension would handle the bordado
+  3-of-3 (and 2-of-2 paired) inscriptions with PSBT-style round-robin
+  signing across the witnesses
 - Formalize the header protocol — type bytes, tone bytes, type-specific
-  layouts beyond the image case
+  layouts beyond the image case (DRAFT specs already in
+  `docs/quipu-types/` and `docs/quipu-syntax/`)
 - Eventually: fold quipu read/write into a fork of Dogecoin Core's wallet
   software, exposing it as native RPC and wallet UI features
 
