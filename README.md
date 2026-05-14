@@ -109,39 +109,151 @@ Material kept for reference. Not maintained, not guaranteed to run.
 
 Requires Python 3.9+ and a synced Dogecoin Core node reachable over RPC.
 
+The setup has two big pieces: getting the **node** running, and getting
+the **Python toolkit** ready against it. Once both are in place, the
+**daily launch sequence** is two commands.
+
+### 1. Dogecoin Core node
+
+The toolkit is designed to work against a **pruned watch-only** node
+(~20 GB on disk instead of the full ~110 GB chain). Detailed build
+instructions for macOS are in `doc/build-macos.md` of the
+[ProfDoeg/dogecoin](https://github.com/ProfDoeg/dogecoin) fork; the
+quick version:
+
 ```bash
-# 1. Clone and install dependencies
-git clone https://github.com/ProfDoeg/Colegio_Invisible
-cd Colegio_Invisible
-pip install -r requirements.txt   # see "Dependencies" below
+# Install build deps via Homebrew (Intel Mac, macOS 13+)
+brew install autoconf automake libtool miniupnpc openssl pkg-config \
+             protobuf@21 zeromq qrencode boost@1.85 berkeley-db@5 libevent
 
-# 2. Configure node access
-cp .env.example .env
-$EDITOR .env                      # fill in RPC_USER, RPC_PASSWORD, RPC_HOST, RPC_PORT
-
-# 3. Verify everything works
-python smoke_test.py
+# Clone, configure (daemon-only — no GUI requires full Xcode), build
+git clone https://github.com/ProfDoeg/dogecoin ~/Desktop/dogecoin
+cd ~/Desktop/dogecoin
+git checkout 1.14-maint
+./autogen.sh
+PKG_CONFIG_PATH="$(brew --prefix openssl@3)/lib/pkgconfig:$(brew --prefix libevent)/lib/pkgconfig:$(brew --prefix protobuf@21)/lib/pkgconfig" \
+BDB_LIBS="-L$(brew --prefix berkeley-db@5)/lib -ldb_cxx-5.3" \
+BDB_CFLAGS="-I$(brew --prefix berkeley-db@5)/include" \
+./configure --without-gui --without-miniupnpc \
+            --with-boost="$(brew --prefix boost@1.85)"
+make -j$(sysctl -n hw.ncpu)
 ```
 
-If the smoke test passes, you're ready to use `colegio_tools` from a
-notebook or script:
+Then create the node's config file at
+`~/Library/Application Support/Dogecoin/dogecoin.conf`:
+
+```ini
+server=1
+rpcuser=drdoeg
+rpcpassword=password
+rpcport=22555
+rpcbind=127.0.0.1
+rpcallowip=127.0.0.1
+prune=20000          # ~20 GB rolling window
+listen=1
+dbcache=2048
+```
+
+Start the daemon and import the four watched addresses **before** the
+sync gets far (rescan=false so they accumulate matches as new blocks
+arrive):
+
+```bash
+~/Desktop/dogecoin/src/dogecoind -daemon
+CLI=~/Desktop/dogecoin/src/dogecoin-cli
+$CLI importaddress 9xth7DcLGb1nACScMBeSfDCfghhLKF7yqs "hca" false
+$CLI importaddress A7pfCe2Cw9JD2C4vEZbpDmUZJy7B2TaefV "ha" false
+$CLI importaddress AD28bxzxyrd3a4Qgad2VNQ2eN5Leg8ozuw "ca" false
+$CLI importaddress D6zKNnkupqRbkB9p5rwix8QiobQWJazjyX "old_inscribe" false
+```
+
+Initial sync takes several hours to a day depending on bandwidth. Check
+progress with `$CLI getblockchaininfo` — `initialblockdownload: false`
+and `verificationprogress` near 1.0 means done.
+
+### 2. Python toolkit (this repo)
+
+```bash
+# Clone
+git clone https://github.com/ProfDoeg/Colegio_Invisible
+cd Colegio_Invisible
+
+# Create a venv and install dependencies (pinned in requirements.txt)
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+
+# Configure node access
+cp .env.example .env
+$EDITOR .env       # fill in RPC_USER, RPC_PASSWORD, RPC_HOST, RPC_PORT
+                   # — same credentials you set in dogecoin.conf
+
+# Verify everything works
+.venv/bin/python smoke_test.py
+.venv/bin/python test_quipu_crypto.py    # 23 crypto seal tests
+```
+
+### 3. Local-only files not in this repo
+
+A few things the toolkit expects are deliberately **not** committed.
+They're either secrets, locally-generated state, or chain data:
+
+| Path | What it is | Source |
+|---|---|---|
+| `~/Library/Application Support/Dogecoin/dogecoin.conf` | Node RPC config | You write it (see above) |
+| `~/Library/Application Support/Dogecoin/blocks/`, `chainstate/` | Pruned chain data | The daemon writes it during sync |
+| `<repo>/.env` | RPC credentials for `colegio_tools` | `cp .env.example .env`, then edit |
+| `<repo>/.venv/` | Python virtual environment | `python3 -m venv .venv` |
+| `~/Desktop/cinv/` | Your key files (encrypted `.enc`, public `.bin`, address QRs) | **Yours.** Restore from your own backup, or generate fresh keys with the CLI toolkit and lose continuity with the existing on-chain corpus. |
+| `~/Desktop/cinv/labels.json` | UTXO labels you've added in the console | Auto-created by `quipu_console.py` |
+
+The `~/Desktop/cinv/` directory is the most important non-repo dependency.
+It holds the keys used to sign new inscriptions — particularly:
+
+- `llaves/mi_prv.enc` — the apocrypha test key (empty password,
+  effectively unprotected — this is the convention for test inscriptions)
+- `hayagriva_pvt.enc`, `christophia_pvt.enc`, `anthony_pvt.enc` — the
+  three bordado witness keys (real passwords, required together as a
+  3-of-3 multisig)
+- Plus various `.bin` public-key and address files
+
+If you don't have these (e.g., setting up on a new laptop), you'll need
+to restore from your own backup. They are not in this repository and
+never should be.
+
+### 4. Daily launch sequence
+
+Once both the node and toolkit are set up:
+
+```bash
+# Start the Dogecoin Core daemon (if not already running)
+~/Desktop/dogecoin/src/dogecoind -daemon
+
+# Confirm it's responsive
+~/Desktop/dogecoin/src/dogecoin-cli getblockchaininfo | grep blocks
+
+# Start the Streamlit console
+cd ~/Desktop/Colegio_Invisible
+.venv/bin/streamlit run quipu_console.py
+# Opens at http://localhost:8501
+```
+
+Or, if you only want to use the toolkit programmatically:
 
 ```python
 from colegio_tools import scan_accounts, find_quipu_roots, read_quipu
 
-df_tx, df_out = scan_accounts({"D6zKNn...": "my_label"})
+df_tx, df_out = scan_accounts({"D6zKNn...": "old_inscribe"})
 roots = find_quipu_roots("D6zKNn...", df_tx, df_out)
 header, body = read_quipu(roots[0], df_out)
 ```
 
 ### Dependencies
 
-The library uses: `numpy`, `pandas`, `requests`, `python-dotenv`,
-`qrcode`, `Pillow`, `eth_keys`, `coincurve`, `eciespy`, `pycryptodome`,
-`cryptos` (a fork of Vitalik Buterin's pybitcointools — pin or vendor a
-specific version, this dependency is fragile).
-
-A formal `requirements.txt` / `pyproject.toml` is on the roadmap.
+Pinned in `requirements.txt` (frozen against Python 3.9.6 on macOS).
+Direct deps: `numpy`, `pandas`, `requests`, `python-dotenv`, `qrcode`,
+`Pillow`, `eth-keys`, `coincurve`, `eciespy`, `pycryptodome`,
+`cryptos` (a fork of Vitalik Buterin's pybitcointools — fragile, the
+pin is load-bearing), `streamlit`, `plotly`, `pyvis`.
 
 ---
 
