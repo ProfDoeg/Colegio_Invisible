@@ -704,6 +704,44 @@ def find_quipu_roots(address, df_transactions, df_outputs):
     return out
 
 
+def find_pre_funded_quipu_roots(address, df_transactions, df_outputs):
+    """Find candidate quipu-root txs that haven't been inscribed yet —
+    "broomhead" roots ready to write to. Heuristic:
+      - ≥2 outputs to `address`
+      - all those outputs currently unspent (spent_in is null in df_outputs)
+      - tx itself isn't a quipu-strand step (no OP_RETURN of its own)
+
+    These show up as quipu nodes with N unspent tendrils in the topology
+    view, distinct from fully-inscribed quipus (find_quipu_roots).
+    """
+    out = []
+    for _, tx in df_transactions.iterrows():
+        txid = tx["txid"]
+        # Skip if the tx itself carries an OP_RETURN (it's a strand step,
+        # not a root)
+        if tx.get("op_return"):
+            continue
+        addrs_per_out = tx["addresses_in_outputs"]
+        out_indices = [
+            i for i, addrs in enumerate(addrs_per_out) if address in addrs
+        ]
+        if len(out_indices) < 2:
+            continue
+        all_unspent = True
+        for i in out_indices:
+            rows = df_outputs[df_outputs["txout"] == f"{txid}:{i}"]
+            if rows.empty:
+                all_unspent = False
+                break
+            sp = rows.iloc[0]["spent_in"]
+            if sp and not (isinstance(sp, float) and sp != sp):
+                all_unspent = False
+                break
+        if all_unspent:
+            out.append(txid)
+    return out
+
+
 # ---------------------------------------------------------------------------
 # 8. Image bit-codec
 # ---------------------------------------------------------------------------
@@ -1202,9 +1240,17 @@ def import_privKey(privkey_filepath, password=None):
         password = getpass.getpass("Input password for decrypting keyfile: ")
     with open(privkey_filepath, "rb") as f:
         encrypted = f.read()
+    return import_privKey_from_bytes(encrypted, password)
+
+
+def import_privKey_from_bytes(encrypted_bytes, password):
+    """Decrypt the `_prv.enc`-formatted bytes (AES-encrypted with
+    SHA-256(password) as the key) into an eth_keys PrivateKey. Used by
+    UI surfaces that load keys via file upload / drag-drop rather than
+    from a path."""
     decrypted = ecies.sym_decrypt(
-        key=hashlib.sha256(password.encode()).digest(),
-        cipher_text=encrypted,
+        key=hashlib.sha256((password or "").encode()).digest(),
+        cipher_text=encrypted_bytes,
     )
     return eth_keys.keys.PrivateKey(decrypted)
 

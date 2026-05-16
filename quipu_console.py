@@ -21,6 +21,7 @@ import io
 import os
 import sys
 import time
+import hashlib
 from pathlib import Path
 
 import numpy as np
@@ -33,6 +34,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import colegio_tools as ct
 from quipu_crypto import combine_pubkeys
+import essay_renderer
 from quipu_orchestrator import (
     Quipu,
     STATE_INIT, STATE_ROOT_BUILT, STATE_ROOT_BROADCAST, STATE_ROOT_CONFIRMED,
@@ -54,34 +56,108 @@ st.title("Colegio Invisible — Quipu Console")
 
 with st.sidebar:
     st.header("Identity")
-    default_key = str(Path.home() / "Desktop" / "cinv" / "llaves" / "mi_prv.enc")
-    key_path = st.text_input("Key file", default_key)
-    password = st.text_input("Password", value="", type="password",
-                             help="Empty string for the apocrypha test key")
 
-    if st.button("Load key", use_container_width=True):
-        try:
-            priv = ct.import_privKey(key_path, password)
-            priv_hex = priv.to_hex()[2:]
-            import cryptos
-            doge = cryptos.Doge()
-            addr = doge.privtoaddr(priv_hex)
-            st.session_state.priv_hex = priv_hex
-            st.session_state.addr = addr
-            st.success(f"Loaded {addr}")
-        except Exception as e:
-            st.error(f"Key load failed: {e}")
+    if "priv_keys" not in st.session_state:
+        st.session_state.priv_keys = []
 
-    if "addr" in st.session_state:
-        st.write(f"**Address:**")
-        st.code(st.session_state.addr, language=None)
+    def _mirror_first_key():
+        """Keep legacy `priv_hex` / `addr` / `utxos` in sync with priv_keys[0]
+        so existing code paths (Inscribe tab, single-key reader) still work."""
+        if st.session_state.priv_keys:
+            first = st.session_state.priv_keys[0]
+            st.session_state.priv_hex = first["priv_hex"]
+            st.session_state.addr = first["addr"]
+        else:
+            st.session_state.pop("priv_hex", None)
+            st.session_state.pop("addr", None)
+            st.session_state.pop("utxos", None)
+
+    # Loaded keys list — each row has a remove button
+    for i, k in enumerate(st.session_state.priv_keys):
+        c1, c2 = st.columns([5, 1])
+        with c1:
+            st.markdown(
+                f"**{i+1}.** `{k['addr']}`",
+                help=k.get("label", ""),
+            )
+        with c2:
+            if st.button("✕", key=f"remove_key_{i}",
+                         help="Remove this key from the session"):
+                st.session_state.priv_keys.pop(i)
+                _mirror_first_key()
+                st.rerun()
+
+    # Combined-pubkey address (when 2+ keys loaded) — informational
+    if len(st.session_state.priv_keys) >= 2:
         try:
-            ut = ct.rpc_request("listunspent", [0, 9999999, [st.session_state.addr]])
+            from quipu_crypto import combine_privkeys as _combine_priv
+            privs = [
+                eth_keys.keys.PrivateKey(bytes.fromhex(k["priv_hex"]))
+                for k in st.session_state.priv_keys
+            ]
+            combined_priv = _combine_priv(privs)
+            import cryptos as _cr
+            combined_addr = _cr.Doge().privtoaddr(combined_priv.to_hex()[2:])
+            st.caption(
+                f"**Combined-key address** "
+                f"(curve-sum of {len(privs)} loaded keys):"
+            )
+            st.code(combined_addr, language=None)
+        except Exception as _e:
+            st.caption(f"(combined-address calc failed: {_e})")
+
+    # Add key form
+    with st.expander(
+        "➕ Add key" if st.session_state.priv_keys else "Load a key",
+        expanded=not st.session_state.priv_keys,
+    ):
+        st.caption("Drop a `_prv.enc` keyfile, or use the file picker.")
+        key_upload = st.file_uploader(
+            "Key file (drag-drop or browse)",
+            type=None, accept_multiple_files=False,
+            key="add_key_upload",
+        )
+        password = st.text_input(
+            "Password", value="", type="password", key="add_key_pw",
+            help="Empty string for the apocrypha test key",
+        )
+        if st.button("Load key", use_container_width=True,
+                     disabled=key_upload is None, key="add_key_btn"):
+            try:
+                priv = ct.import_privKey_from_bytes(
+                    key_upload.getvalue(), password,
+                )
+                priv_hex = priv.to_hex()[2:]
+                import cryptos
+                addr = cryptos.Doge().privtoaddr(priv_hex)
+                if any(k["priv_hex"] == priv_hex for k in st.session_state.priv_keys):
+                    st.warning(f"Key for {addr} is already loaded.")
+                else:
+                    st.session_state.priv_keys.append({
+                        "priv_hex": priv_hex,
+                        "addr": addr,
+                        "label": key_upload.name,
+                    })
+                    _mirror_first_key()
+                    st.success(f"Loaded {addr}")
+                    st.rerun()
+            except Exception as e:
+                st.error(f"Key load failed: {e}")
+
+    # Balance per loaded key (first is also published as session.utxos for
+    # the existing single-key inscribe flow)
+    for i, k in enumerate(st.session_state.priv_keys):
+        try:
+            ut = ct.rpc_request("listunspent", [0, 9999999, [k["addr"]]])
             total = sum(u["amount"] for u in ut)
-            st.write(f"**Balance:** {total} DOGE ({len(ut)} UTXOs)")
-            st.session_state.utxos = ut
+            st.caption(
+                f"`{k['addr'][:12]}…` — **{total} DOGE** "
+                f"({len(ut)} UTXO{'s' if len(ut) != 1 else ''})"
+            )
+            if i == 0:
+                st.session_state.utxos = ut
         except Exception as e:
-            st.error(f"Balance query failed: {e}")
+            st.error(f"Balance query failed for key {i+1}: {e}")
 
     st.divider()
     st.header("AES key")
@@ -105,25 +181,24 @@ with st.sidebar:
         st.session_state.aes_password = aes_pw_in
     else:
         st.caption(
-            "Path to a file containing the 32-byte AES key. The file may "
-            "itself be password-protected (same SHA-256 → AES envelope as "
-            "the `_prv.enc` keyfiles) — leave the inner password blank if "
-            "the file holds the raw key directly."
+            "Drop a 32-byte AES key file. The file may itself be "
+            "password-protected (same SHA-256 → AES envelope as the "
+            "`_prv.enc` keyfiles) — leave the inner password blank if the "
+            "file holds the raw key directly."
         )
-        aes_key_path = st.text_input(
-            "Key file", value=st.session_state.get("aes_key_path", ""),
-            key="aes_key_path_input",
+        aes_key_upload = st.file_uploader(
+            "AES key file (drag-drop or browse)",
+            type=None, accept_multiple_files=False,
+            key="aes_key_upload",
         )
-        st.session_state.aes_key_path = aes_key_path
         aes_inner_pw = st.text_input(
             "Inner password (empty = unencrypted file)",
             value="", type="password", key="aes_inner_pw_input",
         )
         if st.button("Load AES key", use_container_width=True,
-                     disabled=not aes_key_path):
+                     disabled=aes_key_upload is None):
             try:
-                with open(aes_key_path, "rb") as _f:
-                    raw = _f.read()
+                raw = aes_key_upload.getvalue()
                 if aes_inner_pw:
                     key_bytes = ct.aes_decrypt_bytes(raw, aes_inner_pw)
                 else:
@@ -140,8 +215,6 @@ with st.sidebar:
                         f"AES key loaded ({len(key_bytes)} bytes) — "
                         f"fingerprint {key_bytes[:4].hex()}…"
                     )
-            except FileNotFoundError:
-                st.error(f"No such file: {aes_key_path}")
             except Exception as e:
                 st.error(f"AES key load failed: {e}")
 
@@ -305,6 +378,17 @@ ADDR_LABELS = {
     "D6zKNnkupqRbkB9p5rwix8QiobQWJazjyX": "old_inscribe",
 }
 
+# Per-address accent colours used to tint each quipu's border in the
+# multi-address topology, and to fill the "cellular surface" hull around
+# each address's cluster of quipus. Soft pastels so the type-coded fill
+# colour of the quipu node remains the dominant visual.
+ADDRESS_COLORS = {
+    "9xth7DcLGb1nACScMBeSfDCfghhLKF7yqs": "#3a7a3a",   # hca / bordado — green
+    "A7pfCe2Cw9JD2C4vEZbpDmUZJy7B2TaefV": "#7a3a7a",   # ha — magenta
+    "AD28bxzxyrd3a4Qgad2VNQ2eN5Leg8ozuw": "#7a5a3a",   # ca — amber
+    "D6zKNnkupqRbkB9p5rwix8QiobQWJazjyX": "#3a5a7a",   # apocrypha — blue
+}
+
 TYPE_SHORT_LABELS = {
     0x00: "text",
     0x03: "image",
@@ -386,6 +470,39 @@ def _coerce_password_input(s):
     return s if isinstance(s, str) else ""
 
 
+def filter_quipus(quipus, types=None, tone=None, date_from=None, date_to=None,
+                  title_substr=None):
+    """Apply UI filters to the quipus list. None values disable that filter.
+
+      types        : iterable of type bytes (ints) — keep only matching
+      tone         : "any" | "ordinary" | "reverence"
+      date_from    : datetime.date — keep quipus inscribed on/after this date
+      date_to      : datetime.date — keep quipus inscribed on/before this date
+      title_substr : str — case-insensitive substring match against title
+    """
+    import datetime
+    out = []
+    types_set = set(types) if types else None
+    sub = (title_substr or "").strip().lower()
+    for q in quipus:
+        if types_set is not None and q.get("type_byte") not in types_set:
+            continue
+        if tone == "reverence" and q.get("tone_byte") != 0xff:
+            continue
+        if tone == "ordinary" and q.get("tone_byte") == 0xff:
+            continue
+        if (date_from or date_to) and q.get("blocktime"):
+            d = datetime.date.fromtimestamp(q["blocktime"])
+            if date_from and d < date_from:
+                continue
+            if date_to and d > date_to:
+                continue
+        if sub and sub not in (q.get("title") or "").lower():
+            continue
+        out.append(q)
+    return out
+
+
 def parse_recipient_block(text):
     """Parse a multi-line recipient input into resolved slot info.
 
@@ -439,7 +556,7 @@ def parse_recipient_block(text):
 
 def resolve_encrypted_quipu(header_bytes, body_bytes, *, root_txid=None,
                             df_out=None, quipus=None, priv_hex=None,
-                            aes_password=None):
+                            priv_hex_list=None, aes_password=None):
     """Try to decrypt an encrypted (0x0e family) quipu using whatever keys
     are available. Returns None if header is not encrypted at all, else a
     dict describing kind / status / decrypted inner content.
@@ -479,27 +596,67 @@ def resolve_encrypted_quipu(header_bytes, body_bytes, *, root_txid=None,
     # Broadcast (per-recipient envelopes)
     if sub == 0x03:
         kind = "broadcast"
-        if priv_hex and root_txid:
+        # Build candidate privkeys: each individual key + the combined-all
+        # (covers single-key envelopes AND combined-key envelopes targeted at
+        # the curve-sum of the loaded keys).
+        priv_hex_list = priv_hex_list if priv_hex_list else (
+            [priv_hex] if priv_hex else []
+        )
+        if priv_hex_list and root_txid:
             try:
-                pub_hex = ct.get_txn_pub_from_node(root_txid)
+                pub_cache = st.session_state.get("author_pub_hex_cache", {})
+                pub_hex = pub_cache.get(root_txid)
+                if not pub_hex:
+                    pub_hex = ct.get_txn_pub_from_node(root_txid)
+                    pub_cache[root_txid] = pub_hex
                 author_pub = eth_keys.keys.PublicKey(bytes.fromhex(pub_hex))
-                priv = eth_keys.keys.PrivateKey(bytes.fromhex(priv_hex))
-                inner_h, inner_b = ct.read_broadcast_quipu(
-                    header_bytes, body_bytes, priv, author_pub
-                )
-                return {
-                    "kind": kind, "status": "decrypted",
-                    "inner_header": inner_h, "inner_body": inner_b,
-                    "via": "loaded privkey (broadcast envelope)",
-                    "details": {},
-                }
             except Exception:
-                pass
-        if quipus is not None and df_out is not None and root_txid:
-            try:
-                hit = ct.find_keydrop_for(root_txid, quipus, df_out)
-            except Exception:
-                hit = None
+                author_pub = None
+            if author_pub is not None:
+                candidates = []
+                # individual keys
+                for i, ph in enumerate(priv_hex_list):
+                    try:
+                        candidates.append(
+                            (f"key {i+1}",
+                             eth_keys.keys.PrivateKey(bytes.fromhex(ph)))
+                        )
+                    except Exception:
+                        pass
+                # combined of all loaded
+                if len(priv_hex_list) >= 2:
+                    try:
+                        from quipu_crypto import combine_privkeys
+                        combined = combine_privkeys([c[1] for c in candidates])
+                        candidates.append(
+                            (f"combined key ({len(candidates)} → 1)", combined)
+                        )
+                    except Exception:
+                        pass
+                for label, priv in candidates:
+                    try:
+                        inner_h, inner_b = ct.read_broadcast_quipu(
+                            header_bytes, body_bytes, priv, author_pub
+                        )
+                        return {
+                            "kind": kind, "status": "decrypted",
+                            "inner_header": inner_h, "inner_body": inner_b,
+                            "via": f"loaded {label} (broadcast envelope)",
+                            "details": {},
+                        }
+                    except Exception:
+                        continue
+        if root_txid:
+            # Cache check first — topology build precomputes the keydrop
+            # resolutions and stuffs them in session_state so popups
+            # don't rescan per quipu.
+            cache = st.session_state.get("keydrop_resolutions_cache", {})
+            hit = cache.get(root_txid)
+            if hit is None and quipus is not None and df_out is not None:
+                try:
+                    hit = ct.find_keydrop_for(root_txid, quipus, df_out)
+                except Exception:
+                    hit = None
             if hit:
                 kd_q, aes_key = hit
                 try:
@@ -535,11 +692,17 @@ def resolve_encrypted_quipu(header_bytes, body_bytes, *, root_txid=None,
                 }
             except Exception:
                 pass
-        if quipus is not None and df_out is not None and root_txid:
-            try:
-                hit = ct.find_keydrop_for(root_txid, quipus, df_out)
-            except Exception:
-                hit = None
+        if root_txid:
+            # Cache check first — topology build precomputes the keydrop
+            # resolutions and stuffs them in session_state so popups
+            # don't rescan per quipu.
+            cache = st.session_state.get("keydrop_resolutions_cache", {})
+            hit = cache.get(root_txid)
+            if hit is None and quipus is not None and df_out is not None:
+                try:
+                    hit = ct.find_keydrop_for(root_txid, quipus, df_out)
+                except Exception:
+                    hit = None
             if hit:
                 kd_q, aes_key = hit
                 try:
@@ -576,9 +739,17 @@ def compute_address_history(address):
             f"Address {address} is not one of the known watched addresses"
         )
     df_tx, df_out = ct.scan_accounts({address: label})
-    roots = ct.find_quipu_roots(address, df_tx, df_out)
+    roots_inscribed = ct.find_quipu_roots(address, df_tx, df_out)
+    roots_pre = ct.find_pre_funded_quipu_roots(address, df_tx, df_out)
+    # Merge — pre-funded roots are quipus that haven't been written yet
+    roots = list(roots_inscribed)
+    inscribed_set = set(roots_inscribed)
+    for r in roots_pre:
+        if r not in inscribed_set:
+            roots.append(r)
     quipus = []
     for root in roots:
+        pre_funded = root not in inscribed_set
         try:
             tx_row = df_tx[df_tx.txid == root].iloc[0]
         except Exception:
@@ -623,18 +794,13 @@ def compute_address_history(address):
 
         type_byte = header_bytes[4] if len(header_bytes) > 4 else None
         tone_byte = header_bytes[5] if len(header_bytes) > 5 else None
-        # Extract title (pipe-delimited) — heuristic across types
-        title = ""
-        if len(header_bytes) > 6:
-            try:
-                tail = header_bytes[6:].decode("utf-8", errors="replace")
-                # Find first |...|
-                if "|" in tail:
-                    parts = tail.split("|")
-                    if len(parts) >= 3:
-                        title = parts[1]
-            except Exception:
-                pass
+        # Robust title extraction — uses essay_renderer's per-type-aware
+        # parser (handles pipe-less headers like Monte Veritá and
+        # whitespace-padded ones like La Verna).
+        try:
+            title = essay_renderer.first_title(header_bytes)
+        except Exception:
+            title = ""
 
         quipus.append({
             "root_txid": root,
@@ -647,6 +813,7 @@ def compute_address_history(address):
             "tone_byte": tone_byte,
             "title": title,
             "header_bytes_len": len(header_bytes),
+            "pre_funded": pre_funded,
         })
 
     # Sort by blocktime descending (newest first)
@@ -654,100 +821,291 @@ def compute_address_history(address):
     return {"quipus": quipus, "df_tx": df_tx, "df_out": df_out}
 
 
-def compute_quipu_topology(address, quipus, df_tx):
-    """Trace each quipu's funding lineage. Returns (nodes, edges) for graph.
+def compute_quipu_topology(address, quipus, df_tx, df_out=None):
+    """Build a clean topology of quipus and how they connect.
 
-    Topology nodes:
-      - quipu_root  — a quipu's root tx (the broom-head)
-      - joining     — consolidation/joining tx (multiple in, fewer out)
-      - bridge      — a pass-through wallet tx (single in, single out)
-      - external    — funding came from outside our wallet (not in df_tx)
-    Edges:
-      - (src_txid, dst_txid) means dst_txid spent an output of src_txid
+    Each quipu = ONE node. For each of a quipu's N strand outputs we draw
+    ONE edge to whatever consumed it (another quipu, a consolidation tx,
+    or an external exit). Genuinely-unspent strands get an explicit open
+    "tendril" marker — the only place dangling lines appear. Internal
+    OP_RETURN-bridge plumbing inside strands is invisible.
+
+    Node kinds:
+      - quipu_root      — a quipu's root tx (the broom-head)
+      - consolidation   — a wallet tx that consumed strand terminus
+                          output(s) but isn't itself a quipu
+      - exit            — strand terminus left the watched address space
+                          (spender not in df_tx)
+      - external_in     — synthetic node representing "funding from
+                          outside the quipu graph" for quipus whose root
+                          wasn't funded by another quipu's strand
+      - unspent_tendril — synthetic node marking an unspent strand output
+                          (pre-funded but not yet inscribed, OR strand
+                          inscribed but terminus still sitting unspent)
+
+    Edges are 3-tuples (src, dst, kind):
+      - kind="forward"  — quipu_root → consumer (or quipu_root → tendril)
+      - kind="funding"  — external_in → quipu_root
+      - kind="keydrop"  — keydrop quipu → encrypted quipu it unlocks
+
+    Returns (nodes, edges, keydrop_resolutions) where keydrop_resolutions
+    is a {encrypted_txid: (keydrop_quipu, aes_key)} map — cached at
+    topology time and reused by popups so they don't rescan.
     """
-    import ast
     root_set = {q["root_txid"] for q in quipus}
-    quipus_by_root = {q["root_txid"]: q for q in quipus}
-    df_tx_by_id = df_tx.set_index("txid")
+    df_tx_by_id = df_tx.set_index("txid") if df_tx is not None else None
 
-    def coerce_inputs(raw):
-        """`inputs` column may be a list, str repr of list, or NaN."""
-        if isinstance(raw, list):
-            return raw
-        if isinstance(raw, str):
+    nodes = {}
+    edges = []
+    keydrop_resolutions = {}
+
+    # 1. Quipu nodes
+    for q in quipus:
+        nodes[q["root_txid"]] = {"kind": "quipu_root", "quipu": q}
+
+    if df_out is None:
+        return nodes, edges, keydrop_resolutions
+
+    # 2. Each strand's onward spend (or tendril if truly unspent).
+    # Classification per strand output:
+    #   df_out has spent_in populated   → wallet-internal spender (consolidation/quipu)
+    #   df_out empty + gettxout = UTXO  → genuinely unspent (tendril)
+    #   df_out empty + gettxout = null  → spent off-wallet (exit) — collapse
+    #                                     per-quipu so 129 off-wallet strands
+    #                                     don't render as 129 separate edges
+    # gettxout calls are cached in session_state and batched via ThreadPool
+    # because they're the topology-build bottleneck (~50 ms each on a local
+    # node, multiplied by ~129 for the aa0c3ea6 quipu alone).
+    try:
+        gettxout_cache = st.session_state.setdefault("topology_gettxout_cache", {})
+    except (NameError, AttributeError):
+        gettxout_cache = {}
+
+    # --- Pass 2a: collect strand-by-strand classifications ----------------
+    # We build a list of plans:
+    #   ("spent", root, spend_tx)                — already known from df_out
+    #   ("needs_rpc", root, s_idx, lookup_txout) — need gettxout to classify
+    plans = []
+    rpc_pending = []  # list of (txid, int(vout)) keys for batched gettxout
+    for q in quipus:
+        root = q["root_txid"]
+        num_outputs = q.get("num_outputs") or len(q.get("strand_termini") or [])
+        strand_termini = q.get("strand_termini") or []
+        strand_lengths = q.get("strand_lengths") or []
+        for s_idx in range(num_outputs):
+            s_len = strand_lengths[s_idx] if s_idx < len(strand_lengths) else 0
+            terminus = strand_termini[s_idx] if s_idx < len(strand_termini) else None
+            lookup_txout = f"{terminus}:0" if (s_len > 0 and terminus) else f"{root}:{s_idx}"
+            rows = df_out[df_out["txout"] == lookup_txout]
+            spend_tx = None
+            if not rows.empty:
+                v = rows.iloc[0]["spent_in"]
+                if v and not (isinstance(v, float) and v != v):
+                    spend_tx = v
+            if spend_tx:
+                plans.append(("spent", root, s_idx, s_len, spend_tx))
+            else:
+                plans.append(("needs_rpc", root, s_idx, s_len, lookup_txout))
+                # Queue gettxout if not already cached
+                if lookup_txout not in gettxout_cache:
+                    ltx, lvout = lookup_txout.split(":")
+                    rpc_pending.append((ltx, int(lvout)))
+
+    # --- Pass 2b: batch the pending gettxout calls ------------------------
+    if rpc_pending:
+        from concurrent.futures import ThreadPoolExecutor
+        def _do_gettxout(arg):
+            txid, vout = arg
             try:
-                return ast.literal_eval(raw)
+                return ct.rpc_request("gettxout", [txid, vout, True])
+            except Exception:
+                return "ERR"
+        # 16 workers is well within local-node RPC capacity and turns ~129
+        # serial calls into ~8 batches of parallel I/O.
+        with ThreadPoolExecutor(max_workers=16) as _ex:
+            results = list(_ex.map(_do_gettxout, rpc_pending))
+        for (txid, vout), res in zip(rpc_pending, results):
+            gettxout_cache[f"{txid}:{vout}"] = res
+
+    # --- Pass 2c: realize nodes and edges using the now-populated cache ---
+    for plan in plans:
+        if plan[0] == "spent":
+            _, root, s_idx, s_len, spend_tx = plan
+            if spend_tx not in nodes:
+                if df_tx_by_id is not None and spend_tx in df_tx_by_id.index:
+                    parent_row = df_tx_by_id.loc[spend_tx]
+                    n_in = int(parent_row["num_inputs"])
+                    n_out = int(parent_row["num_outputs"])
+                    nodes[spend_tx] = {
+                        "kind": "consolidation",
+                        "txid": spend_tx,
+                        "n_in": n_in, "n_out": n_out,
+                        "blocktime": int(parent_row.get("blocktime", 0) or 0),
+                    }
+                else:
+                    nodes[spend_tx] = {"kind": "exit", "txid": spend_tx}
+            edges.append((root, spend_tx, "forward"))
+            continue
+
+        # plan[0] == "needs_rpc"
+        _, root, s_idx, s_len, lookup_txout = plan
+        utxo = gettxout_cache.get(lookup_txout)
+        if utxo == "ERR" or utxo is not None:
+            # ERR (treat conservatively as tendril) or unspent UTXO
+            tendril_id = f"unspent::{root}::{s_idx}"
+            nodes[tendril_id] = {
+                "kind": "unspent_tendril",
+                "of_quipu": root,
+                "strand_index": s_idx,
+                "inscribed": s_len > 0,
+            }
+            edges.append((root, tendril_id, "forward"))
+        else:
+            # utxo is None → output is spent, spender is off-wallet
+            exit_id = f"exit::{root}"
+            if exit_id not in nodes:
+                nodes[exit_id] = {
+                    "kind": "exit_offwallet",
+                    "of_quipu": root,
+                    "count": 0,
+                }
+            nodes[exit_id]["count"] += 1
+            edges.append((root, exit_id, "forward"))
+
+    # 3. Backward funding trace per quipu. Walk back from each quipu's
+    # root through 1-in-1-out bridges until we hit either:
+    #   - another quipu_root         → add forward edge between them
+    #   - a consolidation node       → add forward edge consolidation → quipu
+    #   - a wallet tx with ≥2 inputs (a consolidation not yet seen) → add it
+    #     as a consolidation node + edge
+    #   - the wallet boundary        → add an external_in node
+    # Bridges themselves are silent (not added as nodes).
+    import ast as _ast
+    funded_by_known = set()  # quipus we attached upstream
+
+    def _inputs_of(txid):
+        if txid not in df_tx_by_id.index:
+            return None
+        v = df_tx_by_id.loc[txid]["inputs"]
+        if isinstance(v, list):
+            return v
+        if isinstance(v, str):
+            try:
+                return _ast.literal_eval(v)
             except Exception:
                 return []
         return []
 
-    nodes = {}
-    edges = []
-
-    # First pass: every quipu root becomes a node
     for q in quipus:
-        nodes[q["root_txid"]] = {
-            "kind": "quipu_root",
-            "quipu": q,
-        }
-
-    # Trace funding chain backwards from each quipu's root.
-    # We follow inputs up to 4 hops to find connections to other quipus.
-    MAX_HOPS = 5
-    to_explore = list(quipus_by_root.keys())
-    seen = set()
-    while to_explore:
-        cur_txid = to_explore.pop(0)
-        if cur_txid in seen:
+        root = q["root_txid"]
+        inputs = _inputs_of(root)
+        if not inputs:
             continue
-        seen.add(cur_txid)
-        if cur_txid not in df_tx_by_id.index:
-            # external — note it and stop
-            if cur_txid not in nodes:
-                nodes[cur_txid] = {"kind": "external", "txid": cur_txid}
+        # Walk back via the first input's tx (heuristic — Cadena strands
+        # are mostly 1-in-1-out so the first input drives the lineage).
+        cur = inputs[0].split(":")[0]
+        seen_walk = set()
+        attached = False
+        for _hop in range(40):
+            if cur in seen_walk:
+                break
+            seen_walk.add(cur)
+            # Known node already? Attach there.
+            if cur in nodes and cur != root:
+                kind = nodes[cur].get("kind")
+                if kind in ("quipu_root", "consolidation"):
+                    edges.append((cur, root, "forward"))
+                    funded_by_known.add(root)
+                    attached = True
+                    break
+            # Is this a wallet tx?
+            parent_inputs = _inputs_of(cur)
+            if parent_inputs is None:
+                # cur is outside the wallet — funding boundary
+                break
+            # Is cur a new consolidation we should surface? (≥2 inputs)
+            if cur in df_tx_by_id.index:
+                row = df_tx_by_id.loc[cur]
+                n_in = int(row["num_inputs"])
+                n_out = int(row["num_outputs"])
+                if n_in >= 2:
+                    if cur not in nodes:
+                        nodes[cur] = {
+                            "kind": "consolidation",
+                            "txid": cur,
+                            "n_in": n_in, "n_out": n_out,
+                            "blocktime": int(row.get("blocktime", 0) or 0),
+                        }
+                    edges.append((cur, root, "forward"))
+                    funded_by_known.add(root)
+                    attached = True
+                    break
+            if not parent_inputs:
+                break
+            cur = parent_inputs[0].split(":")[0]
+        if not attached:
+            # Couldn't pin to a known node — funding came from outside the
+            # quipu graph (or beyond the wallet scan).
+            ext_id = f"external_in::{root}"
+            nodes[ext_id] = {
+                "kind": "external_in",
+                "for_quipu": root,
+            }
+            edges.append((ext_id, root, "funding"))
+
+    # 4. Keydrop dashed edges + cache for popup reuse
+    for q in quipus:
+        if q.get("type_byte") != 0x0e:
             continue
-        tx_row = df_tx_by_id.loc[cur_txid]
-        inputs = coerce_inputs(tx_row["inputs"])
-        for input_ref in inputs:
-            input_txid = input_ref.split(":")[0]
-            if input_txid not in nodes:
-                if input_txid in df_tx_by_id.index:
-                    parent_row = df_tx_by_id.loc[input_txid]
-                    n_in = int(parent_row["num_inputs"])
-                    n_out = int(parent_row["num_outputs"])
-                    if input_txid in root_set:
-                        # Already added as quipu_root
-                        pass
-                    elif n_in >= 2 and n_out == 1:
-                        nodes[input_txid] = {
-                            "kind": "joining",
-                            "txid": input_txid,
-                            "n_in": n_in, "n_out": n_out,
-                            "blocktime": int(parent_row.get("blocktime", 0) or 0),
-                        }
-                    else:
-                        nodes[input_txid] = {
-                            "kind": "bridge",
-                            "txid": input_txid,
-                            "n_in": n_in, "n_out": n_out,
-                            "blocktime": int(parent_row.get("blocktime", 0) or 0),
-                        }
-                else:
-                    nodes[input_txid] = {"kind": "external", "txid": input_txid}
-            # Edge from parent → cur
-            edges.append((input_txid, cur_txid))
-            # Walk back further only if we haven't gone too deep
-            if input_txid in df_tx_by_id.index and len(seen) < 500:
-                if input_txid not in seen and input_txid not in to_explore:
-                    to_explore.append(input_txid)
+        try:
+            head_hex, body_hex = ct.read_quipu(q["root_txid"], df_out)
+        except Exception:
+            continue
+        head = bytes.fromhex(head_hex) if head_hex else b""
+        if len(head) < 7 or head[4:7] != b"\x0e\x0e\x0d":
+            continue
+        body = bytes.fromhex(body_hex) if body_hex else b""
+        if len(body) < 64:
+            continue
+        target_txid = body[:32].hex()
+        aes_key = body[32:64]
+        keydrop_resolutions[target_txid] = (q, aes_key)
+        if target_txid in root_set and target_txid != q["root_txid"]:
+            edges.append((q["root_txid"], target_txid, "keydrop"))
 
-    return nodes, edges
+    # 5. Pre-fetch author pubkeys for all 0x0e quipus in parallel so the
+    # popup pre-render (which calls get_txn_pub_from_node for each
+    # encrypted quipu) doesn't pay sequential RPC latency.
+    try:
+        pub_hex_cache = st.session_state.setdefault("author_pub_hex_cache", {})
+    except (NameError, AttributeError):
+        pub_hex_cache = {}
+    pub_pending = [
+        q["root_txid"] for q in quipus
+        if q.get("type_byte") == 0x0e and q["root_txid"] not in pub_hex_cache
+    ]
+    if pub_pending:
+        from concurrent.futures import ThreadPoolExecutor
+        def _do_pub(txid):
+            try:
+                return ct.get_txn_pub_from_node(txid)
+            except Exception:
+                return None
+        with ThreadPoolExecutor(max_workers=8) as _ex:
+            results = list(_ex.map(_do_pub, pub_pending))
+        for txid, result in zip(pub_pending, results):
+            if result is not None:
+                pub_hex_cache[txid] = result
+
+    return nodes, edges, keydrop_resolutions
 
 
-def _render_body_html(type_byte, header_bytes, body_bytes):
+def _render_body_html(type_byte, header_bytes, body_bytes, *,
+                       root_txid=None, quipus=None, df_out=None):
     """Per-type HTML body rendering. Returns a list of HTML fragments.
     Called both for plaintext quipus and for the decrypted inner content of
-    encrypted ones."""
+    encrypted ones. Typographic types (text/essay, identity, cert) dispatch
+    to essay_renderer; image stays a leaf renderer."""
     import html as _html
     import io as _io
     import base64 as _b64
@@ -769,59 +1127,31 @@ def _render_body_html(type_byte, header_bytes, body_bytes):
             bits = ct.message_2_bit_array(body_bytes, mode=None)
             arr = ct.bitarray2imgarr(bits, imgshape=(H, W), bit=B, color=C).squeeze()
             img_pil = Image.fromarray(arr)
-            scale = max(1, min(6, 360 // max(W, 1)))
-            img_pil_disp = (img_pil.resize((W * scale, H * scale), Image.NEAREST)
-                            if scale > 1 else img_pil)
             buf = _io.BytesIO()
-            img_pil_disp.save(buf, format="PNG")
+            img_pil.save(buf, format="PNG")
             b64 = _b64.b64encode(buf.getvalue()).decode("ascii")
             parts.append(
                 f"<img src='data:image/png;base64,{b64}' "
-                f"style='max-width:100%; image-rendering: pixelated; "
+                f"width='{W}' height='{H}' "
+                f"style='display:block; max-width:100%; height:auto; "
+                f"image-rendering: pixelated; "
                 f"border: 1px solid #ccc; border-radius: 4px;' />"
             )
         except Exception as e:
             parts.append(f"<p>Image decode failed: {_html.escape(str(e))}</p>")
 
-    elif type_byte == 0x00:  # text
-        text = body_bytes.decode("utf-8", errors="replace")
-        parts.append(
-            f"<pre style='white-space: pre-wrap; font-size:11px; "
-            f"max-height: 320px; overflow-y: auto; background:#f8f7f2; "
-            f"padding:10px; border-radius:4px; margin:0; "
-            f"font-family: ui-monospace, monospace'>"
-            f"{_html.escape(text)}</pre>"
-        )
-
-    elif type_byte == 0x1d:  # identity (JSON)
+    elif type_byte in (0x00, 0x04, 0x1d, 0x0c, 0xcc):
+        # Typographic — text/essay, identity, or cert
         try:
-            import json as _json
-            text = body_bytes.decode("utf-8")
-            try:
-                obj = _json.loads(text)
-                pretty = _json.dumps(obj, indent=2, ensure_ascii=False)
-            except Exception:
-                pretty = text
+            parts.append(essay_renderer.render_typographic(
+                type_byte, header_bytes, body_bytes,
+                root_txid=root_txid, quipus=quipus, df_out=df_out,
+            ))
+        except Exception as e:
             parts.append(
-                f"<pre style='font-size:11px; max-height:320px; "
-                f"overflow-y:auto; background:#fbf6e8; padding:10px; "
-                f"border-radius:4px; margin:0; font-family: ui-monospace, monospace'>"
-                f"{_html.escape(pretty)}</pre>"
+                f"<p style='color:#a06060'>Typographic render failed: "
+                f"{_html.escape(str(e))}</p>"
             )
-        except Exception:
-            parts.append(
-                f"<pre>{_html.escape(body_bytes.decode('utf-8', errors='replace'))}</pre>"
-            )
-
-    elif type_byte == 0xcc:  # certificate
-        text = body_bytes.decode("utf-8", errors="replace")
-        parts.append(
-            f"<pre style='white-space:pre-wrap; font-size:11px; "
-            f"max-height:280px; overflow-y:auto; background:#f0f7ec; "
-            f"padding:10px; border-radius:4px; margin:0; "
-            f"font-family: ui-monospace, monospace'>"
-            f"{_html.escape(text)}</pre>"
-        )
 
     else:
         parts.append(
@@ -833,13 +1163,12 @@ def _render_body_html(type_byte, header_bytes, body_bytes):
     return parts
 
 
-def render_body_streamlit(type_byte, header_bytes, body_bytes):
-    """Per-type Streamlit body rendering. Called for plaintext quipus and
-    for the decrypted inner of encrypted ones. Sibling of _render_body_html."""
-    if type_byte == 0x00:
-        st.markdown("**Body** (UTF-8):")
-        st.text(body_bytes.decode("utf-8", errors="replace"))
-    elif type_byte == 0x03:
+def render_body_streamlit(type_byte, header_bytes, body_bytes, *,
+                          root_txid=None, quipus=None, df_out=None):
+    """Per-type Streamlit body rendering. Typographic types (text/essay,
+    identity, cert) dispatch to essay_renderer and render as HTML. Image
+    stays a native Streamlit render."""
+    if type_byte == 0x03:
         try:
             hh = header_bytes.hex()
             color_flag = int(hh[12:14], 16)
@@ -853,19 +1182,21 @@ def render_body_streamlit(type_byte, header_bytes, body_bytes):
             )
             bits = ct.message_2_bit_array(body_bytes, mode=None)
             arr = ct.bitarray2imgarr(bits, imgshape=(H, W), bit=B, color=C).squeeze()
-            st.image(arr, width=min(W * 4, 500))
+            # Direct pixel mapping — width=W
+            st.image(arr, width=W)
         except Exception as e:
             st.error(f"Image decode failed: {e}")
             st.code(body_bytes.hex()[:200], language=None)
-    elif type_byte == 0x1d:
+    elif type_byte in (0x00, 0x04, 0x1d, 0x0c, 0xcc):
         try:
-            st.markdown("**Identity (JSON):**")
-            st.json(body_bytes.decode("utf-8"))
-        except Exception:
+            html = essay_renderer.render_typographic(
+                type_byte, header_bytes, body_bytes,
+                root_txid=root_txid, quipus=quipus, df_out=df_out,
+            )
+            st.markdown(html, unsafe_allow_html=True)
+        except Exception as e:
+            st.error(f"Typographic render failed: {e}")
             st.text(body_bytes.decode("utf-8", errors="replace"))
-    elif type_byte == 0xcc:
-        st.markdown("**Certificate body:**")
-        st.text(body_bytes.decode("utf-8", errors="replace"))
     else:
         st.markdown(f"**Body** (type 0x{type_byte:02x}, no specialized decoder):")
         try:
@@ -877,10 +1208,12 @@ def render_body_streamlit(type_byte, header_bytes, body_bytes):
 def render_encrypted_streamlit(header_bytes, body_bytes, *, root_txid,
                                df_out=None, quipus=None):
     """Streamlit-side render for a 0x0e quipu: resolver + inner-or-locked."""
+    priv_hex_list = [k["priv_hex"] for k in st.session_state.get("priv_keys", [])]
     resolved = resolve_encrypted_quipu(
         header_bytes, body_bytes,
         root_txid=root_txid, df_out=df_out, quipus=quipus,
         priv_hex=st.session_state.get("priv_hex"),
+        priv_hex_list=priv_hex_list,
         aes_password=st.session_state.get("aes_password"),
     )
     if resolved is None:
@@ -902,7 +1235,10 @@ def render_encrypted_streamlit(header_bytes, body_bytes, *, root_txid,
         inner_type = inner_h[4] if len(inner_h) > 4 else None
         with st.expander("Inner header bytes", expanded=False):
             st.code(inner_h.hex(), language=None)
-        render_body_streamlit(inner_type, inner_h, inner_b)
+        render_body_streamlit(
+            inner_type, inner_h, inner_b,
+            root_txid=root_txid, quipus=quipus, df_out=df_out,
+        )
         return
     sub_label = (
         "AES-sealed (0x0e 0xae)" if resolved["kind"] == "aes_sealed"
@@ -955,10 +1291,12 @@ def build_quipu_content_html(q, df_out=None, quipus=None):
     ]
 
     if type_byte == 0x0e:
+        priv_hex_list = [k["priv_hex"] for k in st.session_state.get("priv_keys", [])]
         resolved = resolve_encrypted_quipu(
             header_bytes, body_bytes,
             root_txid=q["root_txid"], df_out=df_out, quipus=quipus,
             priv_hex=st.session_state.get("priv_hex"),
+            priv_hex_list=priv_hex_list,
             aes_password=st.session_state.get("aes_password"),
         )
         if resolved is None:
@@ -991,7 +1329,10 @@ def build_quipu_content_html(q, df_out=None, quipus=None):
                 f"via {_html.escape(resolved['via'] or '?')}"
                 f"</div>"
             )
-            parts.extend(_render_body_html(inner_type, inner_h, inner_b))
+            parts.extend(_render_body_html(
+                inner_type, inner_h, inner_b,
+                root_txid=q["root_txid"], quipus=quipus, df_out=df_out,
+            ))
         else:  # locked
             sub_label = ("AES-sealed (0x0e 0xae)" if resolved["kind"] == "aes_sealed"
                          else "broadcast (0x0e 0x03)" if resolved["kind"] == "broadcast"
@@ -1005,7 +1346,10 @@ def build_quipu_content_html(q, df_out=None, quipus=None):
                 f"</div>"
             )
     else:
-        parts.extend(_render_body_html(type_byte, header_bytes, body_bytes))
+        parts.extend(_render_body_html(
+            type_byte, header_bytes, body_bytes,
+            root_txid=q["root_txid"], quipus=quipus, df_out=df_out,
+        ))
 
     parts.append(
         f"<details style='margin-top:10px; font-size:10px'>"
@@ -1017,7 +1361,7 @@ def build_quipu_content_html(q, df_out=None, quipus=None):
     return "".join(parts)
 
 
-def render_topology_pyvis(nodes, edges, labels=None, address=None, height_px=620, df_out=None, quipus=None):
+def render_topology_pyvis(nodes, edges, labels=None, address=None, height_px=620, df_out=None, quipus=None, address_groups=None):
     """Render the topology as a force-directed pyvis network. Returns HTML.
     Each quipu_root node, when clicked, pops up a panel with its decoded
     content (image / text / identity / cert / encrypted) plus full header
@@ -1060,13 +1404,9 @@ def render_topology_pyvis(nodes, edges, labels=None, address=None, height_px=620
         kind = info["kind"]
         if kind == "quipu_root":
             q = info["quipu"]
-            color = TYPE_COLORS.get(q["type_byte"], "#cccccc")
-            # Size by total tx count, clamped
+            pre_funded = q.get("pre_funded", False)
             total_txs = sum(q["strand_lengths"]) + 1
-            size = max(18, min(60, 12 + total_txs ** 0.5 * 3))
             tx_label = labels.get(f"tx:{txid}", "")
-            primary = tx_label or q["title"] or txid[:8]
-            label = primary[:24]
             date_str = ""
             if q["blocktime"]:
                 try:
@@ -1075,43 +1415,114 @@ def render_topology_pyvis(nodes, edges, labels=None, address=None, height_px=620
                     ).strftime("%Y-%m-%d")
                 except Exception:
                     pass
-            type_name = TYPE_SHORT_LABELS.get(
-                q["type_byte"], f"0x{q['type_byte']:02x}" if q['type_byte'] is not None else "?"
-            )
-            tone_str = "reverence" if q["tone_byte"] == 0xff else "ordinary"
-            title = (
-                f"{primary}\n"
-                f"type: {type_name} ({tone_str})\n"
-                f"{q['num_outputs']} strands · {total_txs - 1} body txs\n"
-                f"{date_str}\n"
-                f"{txid}"
-            )
-            net.add_node(txid, label=label, title=title, color=color,
-                         size=size, shape="dot", borderWidth=2)
-        elif kind == "joining":
+            if pre_funded:
+                # Broomhead waiting to be inscribed — hexagon, pale colour,
+                # bordered to distinguish from filled quipu_roots.
+                color = {"background": "#fff7d6", "border": "#c2a500"}
+                size = max(20, min(40, 14 + q["num_outputs"] ** 0.5 * 2))
+                primary = tx_label or f"✎ ready ({q['num_outputs']} strands)"
+                label = primary[:24]
+                title = (
+                    f"{primary}\n"
+                    f"pre-funded broomhead — {q['num_outputs']} strand "
+                    f"outputs, none inscribed yet\n"
+                    f"{date_str}\n{txid}"
+                )
+                net.add_node(txid, label=label, title=title, color=color,
+                             size=size, shape="hexagon", borderWidth=2)
+            else:
+                color = TYPE_COLORS.get(q["type_byte"], "#cccccc")
+                size = max(18, min(60, 12 + total_txs ** 0.5 * 3))
+                primary = tx_label or q["title"] or txid[:8]
+                label = primary[:24]
+                type_name = TYPE_SHORT_LABELS.get(
+                    q["type_byte"],
+                    f"0x{q['type_byte']:02x}" if q['type_byte'] is not None else "?",
+                )
+                tone_str = "reverence" if q["tone_byte"] == 0xff else "ordinary"
+                title = (
+                    f"{primary}\n"
+                    f"type: {type_name} ({tone_str})\n"
+                    f"{q['num_outputs']} strands · {total_txs - 1} body txs\n"
+                    f"{date_str}\n"
+                    f"{txid}"
+                )
+                src_addr = (address_groups or {}).get(txid) or address
+                addr_color = ADDRESS_COLORS.get(src_addr, "#222222")
+                node_color = {
+                    "background": color,
+                    "border": addr_color,
+                }
+                net.add_node(
+                    txid, label=label, title=title, color=node_color,
+                    size=size, shape="dot", borderWidth=3,
+                    group=src_addr or "_orphan",
+                )
+        elif kind == "consolidation":
             net.add_node(
                 txid,
-                label=f"join {info['n_in']}→{info['n_out']}",
-                title=f"Joining tx — consolidates {info['n_in']} inputs\n{txid}",
-                color="#bbbbbb", size=14, shape="diamond",
+                label=f"⇲ {info.get('n_in', '?')}",
+                title=(f"Consolidation — strand termini merged here, "
+                       f"output stays in the watched address space\n{txid}"),
+                color="#8eb88e", size=14, shape="diamond",
             )
-        elif kind == "bridge":
+        elif kind == "exit":
             net.add_node(
                 txid,
-                label="·",
-                title=f"Bridge tx ({info['n_in']}→{info['n_out']})\n{txid}",
-                color="#dddddd", size=8, shape="dot",
+                label="↗ exit",
+                title=(f"Exit — strand termini spent to an address "
+                       f"outside the watched set\n{txid}"),
+                color="#c78686", size=12, shape="triangle",
             )
-        elif kind == "external":
+        elif kind == "exit_offwallet":
+            cnt = info.get("count", 1)
             net.add_node(
                 txid,
-                label="external",
-                title=f"External funding\n{txid}",
-                color="#444444", size=10, shape="square",
+                label=f"↗ off-wallet ×{cnt}",
+                title=(f"Off-wallet exit — {cnt} strand output(s) of "
+                       f"{info.get('of_quipu','?')[:12]}… spent to a "
+                       f"non-watched address (the wallet didn't see the "
+                       f"spender, but gettxout confirms the output is "
+                       f"consumed on chain)"),
+                color="#c78686", size=12, shape="triangle",
+            )
+        elif kind == "external_in":
+            net.add_node(
+                txid,
+                label="ext",
+                title=f"External funding source for "
+                      f"{info.get('for_quipu','?')[:12]}…",
+                color="#444444", size=8, shape="square",
+            )
+        elif kind == "unspent_tendril":
+            of_q = info.get("of_quipu", "?")[:8]
+            s_idx = info.get("strand_index", "?")
+            inscribed = info.get("inscribed", False)
+            net.add_node(
+                txid,
+                label="○",
+                title=(f"Unspent strand {s_idx} of {of_q}…\n"
+                       f"{'inscribed, terminus unspent' if inscribed else 'not yet inscribed'}"),
+                color={"background": "#ffffff", "border": "#888888"},
+                size=6, shape="dot", borderWidth=1,
             )
 
-    for src, dst in edges:
-        net.add_edge(src, dst, color="#999999", width=1)
+    EDGE_STYLE = {
+        "funding":  {"color": "#777777", "width": 1, "dashes": False},
+        "forward":  {"color": "#7eb47e", "width": 1, "dashes": False},
+        "keydrop":  {"color": "#b88ec7", "width": 2, "dashes": True},
+    }
+    for edge in edges:
+        if len(edge) == 3:
+            src, dst, ekind = edge
+        else:
+            src, dst, ekind = edge[0], edge[1], "funding"
+        style = EDGE_STYLE.get(ekind, EDGE_STYLE["funding"])
+        net.add_edge(
+            src, dst,
+            color=style["color"], width=style["width"],
+            dashes=style["dashes"],
+        )
 
     html = net.generate_html()
 
@@ -1167,6 +1578,7 @@ var QUIPU_CONTENTS = """ + contents_js + """;
                     closePopup();
                 }
             });
+            attachCellularHull();
         } else {
             setTimeout(bind, 120);
         }
@@ -1177,6 +1589,102 @@ var QUIPU_CONTENTS = """ + contents_js + """;
         bind();
     }
 })();
+
+// ===== Cellular surface overlay =====
+// Draws a soft enclosing blob around each address's cluster of quipu
+// nodes. Updates each frame via the network's `afterDrawing` hook, so it
+// follows the force-directed layout as nodes move.
+var ADDRESS_COLORS = """ + _json.dumps(ADDRESS_COLORS) + """;
+
+function _convexHull(pts) {
+    if (pts.length < 3) return pts.slice();
+    var sorted = pts.slice().sort(function(a, b) {
+        return a.x === b.x ? a.y - b.y : a.x - b.x;
+    });
+    function cross(O, A, B) {
+        return (A.x - O.x) * (B.y - O.y) - (A.y - O.y) * (B.x - O.x);
+    }
+    var lower = [];
+    for (var i = 0; i < sorted.length; i++) {
+        while (lower.length >= 2 && cross(lower[lower.length-2], lower[lower.length-1], sorted[i]) <= 0) {
+            lower.pop();
+        }
+        lower.push(sorted[i]);
+    }
+    var upper = [];
+    for (var i = sorted.length - 1; i >= 0; i--) {
+        while (upper.length >= 2 && cross(upper[upper.length-2], upper[upper.length-1], sorted[i]) <= 0) {
+            upper.pop();
+        }
+        upper.push(sorted[i]);
+    }
+    return lower.slice(0, -1).concat(upper.slice(0, -1));
+}
+
+function _expandHull(hull, pad) {
+    // Move each hull vertex outward from the polygon centroid by `pad` px
+    var cx = 0, cy = 0;
+    hull.forEach(function(p) { cx += p.x; cy += p.y; });
+    cx /= hull.length; cy /= hull.length;
+    return hull.map(function(p) {
+        var dx = p.x - cx, dy = p.y - cy;
+        var d = Math.sqrt(dx*dx + dy*dy) || 1;
+        return { x: p.x + dx / d * pad, y: p.y + dy / d * pad };
+    });
+}
+
+function _drawSmoothPolygon(ctx, pts) {
+    // Catmull-Rom-ish smoothing for a more cellular feel
+    if (pts.length < 3) return;
+    ctx.beginPath();
+    var n = pts.length;
+    var midX = (pts[0].x + pts[n-1].x) / 2;
+    var midY = (pts[0].y + pts[n-1].y) / 2;
+    ctx.moveTo(midX, midY);
+    for (var i = 0; i < n; i++) {
+        var p = pts[i];
+        var pn = pts[(i + 1) % n];
+        var mx = (p.x + pn.x) / 2;
+        var my = (p.y + pn.y) / 2;
+        ctx.quadraticCurveTo(p.x, p.y, mx, my);
+    }
+    ctx.closePath();
+}
+
+function attachCellularHull() {
+    if (typeof network === 'undefined' || !network) { return; }
+    network.on('afterDrawing', function(ctx) {
+        // Group node positions by their `group` attribute (address)
+        var groups = {};
+        var nodeIds = network.body.data.nodes.getIds();
+        nodeIds.forEach(function(id) {
+            var nd = network.body.data.nodes.get(id);
+            if (!nd) return;
+            var grp = nd.group;
+            if (!grp || !ADDRESS_COLORS[grp]) return;
+            var pos = network.getPositions([id])[id];
+            if (!pos) return;
+            if (!groups[grp]) groups[grp] = [];
+            groups[grp].push(pos);
+        });
+        Object.keys(groups).forEach(function(grp) {
+            var pts = groups[grp];
+            if (pts.length < 2) return;
+            var hull = _convexHull(pts);
+            var padded = _expandHull(hull, 36);
+            ctx.save();
+            _drawSmoothPolygon(ctx, padded);
+            // Translucent fill
+            ctx.fillStyle = ADDRESS_COLORS[grp] + "1a";  // ~10% opacity
+            ctx.fill();
+            // Subtle stroke
+            ctx.strokeStyle = ADDRESS_COLORS[grp] + "66";  // ~40% opacity
+            ctx.lineWidth = 1.5;
+            ctx.stroke();
+            ctx.restore();
+        });
+    });
+}
 </script>
 """
     html = html.replace("</body>", custom + "</body>")
@@ -1324,8 +1832,8 @@ def build_history_dot(address, quipus, labels):
 # Tabs
 # ----------------------------------------------------------------------
 
-tab_plan, tab_inscribe, tab_read, tab_wallet = st.tabs(
-    ["📝 Plan", "📡 Inscribe", "🔍 Read", "💼 Wallet"]
+tab_plan, tab_inscribe, tab_read, tab_wallet, tab_keys = st.tabs(
+    ["📝 Plan", "📡 Inscribe", "🔍 Read", "💼 Wallet", "🔑 Keys"]
 )
 
 # ----------------------------------------------------------------------
@@ -1341,9 +1849,22 @@ with tab_plan:
         title = st.text_input("Title", "Untitled")
         tone_label = st.radio("Tone", ["ordinary (0x00)", "reverence (0xff)"], horizontal=True)
         tone = 0xff if tone_label.startswith("reverence") else 0x00
-        n_body_strands = st.slider("Body strands", 1, 8, 3,
-                                   help="Body bytes get split across this many strands. "
-                                        "More strands = wider quipu, more parallelism in Phase 2.")
+        n_body_strands = st.number_input(
+            "Body strands", min_value=1, max_value=256, value=3, step=1,
+            help="Body bytes get split across this many strands. "
+                 "More strands = wider quipu, more parallelism in Phase 2. "
+                 "Type a number or use the steppers.",
+        )
+        strand_size_hint = st.empty()
+        enc_mode = st.radio(
+            "Encryption", ["None", "AES", "ECIES Broadcast"],
+            horizontal=True,
+            help="None = plaintext quipu. AES = sealed with the sidebar "
+                 "key/password (anyone with the same key decrypts). "
+                 "ECIES Broadcast = per-recipient envelopes from nb17 "
+                 "(image-only on the wire). Encryption is applied after "
+                 "you complete the body below.",
+        )
 
     body_bytes = None
     preview_pil = None
@@ -1401,21 +1922,12 @@ with tab_plan:
                           delta=f"L×W×B×C/8 = {height}×{width}×{bit}×{1 if color_mode=='grayscale' else 3}/8")
 
     # Encryption (optional) — transforms (header_bytes, body_bytes) into
-    # an encrypted-quipu pair before strand planning.
-    if body_bytes is not None:
+    # an encrypted-quipu pair before strand planning. The mode radio is
+    # rendered at the top of the Plan tab; here we apply it.
+    encryption_meta = {"mode": "none"}
+    if body_bytes is not None and enc_mode != "None":
         st.divider()
-        st.subheader("Encryption")
-        enc_mode = st.radio(
-            "Mode", ["None", "AES", "ECIES Broadcast"],
-            horizontal=True,
-            help="None = plaintext quipu. AES = sealed with the sidebar "
-                 "key/password (anyone with the same key decrypts). "
-                 "ECIES Broadcast = sealed with per-recipient envelopes; "
-                 "only listed recipients (or a later key-drop holder) "
-                 "decrypt. Broadcast is image-only.",
-        )
-
-        encryption_meta = {"mode": "none"}
+        st.subheader(f"Encryption — {enc_mode}")
 
         if enc_mode == "AES":
             sb_key = st.session_state.get("aes_password")
@@ -1545,6 +2057,25 @@ with tab_plan:
                         f"body (envelopes + ciphertext) {len(outer_b)} B"
                     )
                     st.caption(f"Outer header bytes: `{outer_h.hex()}`")
+
+    # Populate the strand-size hint left empty in the left column above.
+    # body_bytes here is the *final* payload — post-encryption if AES or
+    # broadcast was applied, so the strand-size estimate is accurate.
+    if body_bytes is not None and len(body_bytes) > 0:
+        n = int(n_body_strands)
+        per_strand = len(body_bytes) // n + (1 if len(body_bytes) % n else 0)
+        txs_per_strand = max(1, (per_strand + 79) // 80)
+        enc_note = (
+            f" · {encryption_meta['mode']}"
+            if encryption_meta["mode"] != "none" else ""
+        )
+        strand_size_hint.caption(
+            f"≈ {per_strand:,} B/strand · ~{txs_per_strand} tx"
+            f"{'s' if txs_per_strand != 1 else ''}/strand "
+            f"(80 B/OP_RETURN{enc_note})"
+        )
+    else:
+        strand_size_hint.caption("(strand size shown once body is set)")
 
     # Strand planning summary
     if body_bytes is not None:
@@ -1866,7 +2397,11 @@ with tab_read:
                     df_out=df_out_for_keydrop, quipus=quipus_for_keydrop,
                 )
             else:
-                render_body_streamlit(t_byte, header_bytes, body_bytes)
+                render_body_streamlit(
+                    t_byte, header_bytes, body_bytes,
+                    root_txid=txid_in,
+                    df_out=df_out_for_keydrop, quipus=quipus_for_keydrop,
+                )
         except Exception as e:
             st.error(f"Read failed: {e}")
 
@@ -1979,10 +2514,77 @@ with tab_wallet:
             else:
                 st.info("Click ↻ to compute history.")
         else:
-            quipus = cached["quipus"]
+            quipus_all = cached["quipus"]
             df_tx = cached["df_tx"]
             df_out = cached.get("df_out")
-            st.markdown(f"**{len(quipus)} quipus rooted at `{addr_to_view[:12]}…`**")
+
+            # ----- Filter UI ------------------------------------------------
+            import datetime as _dt
+            available_types = sorted(
+                {q["type_byte"] for q in quipus_all if q.get("type_byte") is not None}
+            )
+            with st.expander(
+                f"Filter ({len(quipus_all)} quipus total)", expanded=False,
+            ):
+                fc1, fc2, fc3 = st.columns([2, 1, 2])
+                with fc1:
+                    type_labels = {
+                        t: f"0x{t:02x} · {TYPE_SHORT_LABELS.get(t, '?')}"
+                        for t in available_types
+                    }
+                    selected_types = st.multiselect(
+                        "Type", options=available_types,
+                        default=available_types,
+                        format_func=lambda t: type_labels[t],
+                        key="filter_types",
+                    )
+                with fc2:
+                    selected_tone = st.radio(
+                        "Tone", ["any", "ordinary", "reverence"],
+                        index=0, key="filter_tone",
+                    )
+                with fc3:
+                    title_substr = st.text_input(
+                        "Title contains", value="",
+                        key="filter_title",
+                    )
+                bts = [q["blocktime"] for q in quipus_all if q.get("blocktime")]
+                if bts:
+                    min_d = _dt.date.fromtimestamp(min(bts))
+                    max_d = _dt.date.fromtimestamp(max(bts))
+                    dc1, dc2 = st.columns(2)
+                    with dc1:
+                        d_from = st.date_input(
+                            "From", value=min_d, min_value=min_d,
+                            max_value=max_d, key="filter_date_from",
+                        )
+                    with dc2:
+                        d_to = st.date_input(
+                            "To", value=max_d, min_value=min_d,
+                            max_value=max_d, key="filter_date_to",
+                        )
+                else:
+                    d_from = d_to = None
+
+            quipus = filter_quipus(
+                quipus_all,
+                types=selected_types or None,
+                tone=selected_tone,
+                date_from=d_from, date_to=d_to,
+                title_substr=title_substr,
+            )
+
+            shown = len(quipus)
+            total = len(quipus_all)
+            if shown == total:
+                st.markdown(
+                    f"**{total} quipus rooted at `{addr_to_view[:12]}…`**"
+                )
+            else:
+                st.markdown(
+                    f"**Showing {shown} of {total} quipus** "
+                    f"rooted at `{addr_to_view[:12]}…`"
+                )
 
             # Summary table
             if quipus:
@@ -2013,24 +2615,88 @@ with tab_wallet:
 
             # Topology — force-directed network showing funding lineage
             st.markdown("### Topology (force-directed)")
+
+            # Multi-address selection: any watched address with a cached
+            # history can be folded into the same topology view, with each
+            # address's quipus tinted by its accent colour and wrapped in
+            # a soft cellular hull.
+            extra_options = [a for a in ADDR_LABELS.keys() if a != addr_to_view]
+            default_extra = [
+                a for a in extra_options
+                if f"history::{a}" in st.session_state
+            ]
+            extra_selected = st.multiselect(
+                "Include other addresses (must have a cached history — go "
+                "to that address and ↻ Compute history first)",
+                options=extra_options,
+                default=default_extra,
+                format_func=lambda a: f"{ADDR_LABELS[a]} · {a[:12]}…",
+                key="topology_extra_addrs",
+            )
+
+            # Combine current address's data with each selected extra
+            address_groups = {q["root_txid"]: addr_to_view for q in quipus}
+            quipus_combined = list(quipus)
+            df_tx_combined = df_tx
+            df_out_combined = df_out
+            included_addrs = [addr_to_view]
+            for extra in extra_selected:
+                extra_cached = st.session_state.get(f"history::{extra}")
+                if not isinstance(extra_cached, dict):
+                    st.warning(f"`{extra}` has no cached history — "
+                               f"skipping. Visit that address first.")
+                    continue
+                extra_quipus = extra_cached["quipus"]
+                quipus_combined.extend(extra_quipus)
+                for q in extra_quipus:
+                    address_groups[q["root_txid"]] = extra
+                if extra_cached.get("df_tx") is not None and df_tx_combined is not None:
+                    import pandas as _pd
+                    df_tx_combined = _pd.concat(
+                        [df_tx_combined, extra_cached["df_tx"]],
+                        ignore_index=True,
+                    ).drop_duplicates(subset=["txid"], keep="first")
+                if extra_cached.get("df_out") is not None and df_out_combined is not None:
+                    import pandas as _pd
+                    df_out_combined = _pd.concat(
+                        [df_out_combined, extra_cached["df_out"]],
+                        ignore_index=True,
+                    ).drop_duplicates(subset=["txout"], keep="first")
+                included_addrs.append(extra)
+
+            # Legend chips above the topology
+            legend = " &nbsp; ".join(
+                f"<span style='display:inline-block; vertical-align:middle; "
+                f"width:10px; height:10px; border-radius:50%; "
+                f"background:{ADDRESS_COLORS.get(a, '#222')}; "
+                f"margin-right:4px'></span>"
+                f"<code style='font-size:11px'>{ADDR_LABELS[a]}</code>"
+                for a in included_addrs
+            )
+            st.markdown(
+                f"<div style='margin:6px 0 10px 0'>{legend}</div>",
+                unsafe_allow_html=True,
+            )
+
             st.caption(
-                "Quipus and joining txs as a network. Quipus repel each other "
-                "and drift outward; funding-source txs gravitate to the centre "
-                "via the spring forces along the edges. Drag any node to "
-                "reposition. Each edge means *this tx spent an output of that one*. "
-                "Color of quipu nodes follows type "
-                "(image · text · encrypted · identity · cert · …). Diamond = "
-                "consolidation/joining tx. Tiny dot = bridge. Black square = "
-                "external funding."
+                "Quipus repel each other; funding sources gravitate to the "
+                "centre via spring forces on edges. Drag any node to "
+                "reposition. Each quipu's border colour is its source "
+                "address; a soft cell-membrane hull surrounds each "
+                "address's cluster. Diamond = consolidation. Triangle = "
+                "exit. Black square = external funding. Dashed purple "
+                "edge = keydrop ↔ encrypted-quipu link."
             )
             try:
                 with st.spinner("Building topology (decoding all quipus for click-popups)…"):
-                    nodes, edges = compute_quipu_topology(
-                        addr_to_view, quipus, df_tx
+                    nodes, edges, keydrop_resolutions = compute_quipu_topology(
+                        addr_to_view, quipus_combined, df_tx_combined, df_out=df_out_combined,
                     )
+                    st.session_state["keydrop_resolutions_cache"] = keydrop_resolutions
                     topo_html = render_topology_pyvis(
                         nodes, edges, labels=labels, address=addr_to_view,
-                        height_px=620, df_out=df_out, quipus=quipus,
+                        height_px=620, df_out=df_out_combined, quipus=quipus_combined,
+                        address_groups=address_groups,
                     )
                 import streamlit.components.v1 as components
                 components.html(topo_html, height=650, scrolling=False)
@@ -2115,7 +2781,11 @@ with tab_wallet:
                         df_out=df_out, quipus=quipus,
                     )
                 else:
-                    render_body_streamlit(type_byte, header_bytes, body_bytes)
+                    render_body_streamlit(
+                        type_byte, header_bytes, body_bytes,
+                        root_txid=selected_root,
+                        df_out=df_out, quipus=quipus,
+                    )
 
             # Broom-head forest (secondary view — useful for seeing strand depth)
             with st.expander("Broom-head forest (hierarchical view of strands)",
@@ -2319,3 +2989,269 @@ with tab_wallet:
             if labels_changed:
                 save_labels(labels)
                 st.toast(f"Labels saved to {LABELS_PATH}")
+
+
+# ----------------------------------------------------------------------
+# Keys tab — generate Dogecoin and AES keys, save them as downloads
+# ----------------------------------------------------------------------
+
+with tab_keys:
+    st.subheader("Generate & save keys")
+    st.caption(
+        "Fresh keypairs for testing — Dogecoin single keys "
+        "(combinable via curve point addition for multisig-style "
+        "envelopes), and raw 32-byte AES keys (for 0x0e 0xae "
+        "sealed quipus). Saved files use the same `_prv.enc`-style "
+        "envelope as the existing key files."
+    )
+
+    key_l, key_r = st.columns(2)
+
+    # ----- Dogecoin keypair generation --------------------------------
+    with key_l:
+        st.markdown("### Dogecoin keypair")
+        st.caption(
+            "Generates a new random eth_keys / coincurve secp256k1 key, "
+            "derives the Dogecoin address, and offers the encrypted "
+            "private key file for download."
+        )
+        doge_name = st.text_input(
+            "Basename (no extension)", value="test_key",
+            key="keygen_doge_name",
+            help="Used in the suggested filename: <basename>_prv.enc, "
+                 "<basename>_pub.bin, <basename>_addr.bin",
+        )
+        doge_pw = st.text_input(
+            "Password (empty = unprotected, matches apocrypha test key)",
+            type="password", value="", key="keygen_doge_pw",
+        )
+        if st.button("Generate Dogecoin keypair", use_container_width=True,
+                     key="keygen_doge_btn"):
+            try:
+                import ecies as _ecies
+                import cryptos as _cryptos
+                priv = _ecies.utils.generate_eth_key()
+                priv_hex = priv.to_hex()[2:]
+                pub_hex = priv.public_key.to_hex()[2:]
+                addr = _cryptos.Doge().pubtoaddr("04" + pub_hex)
+                # Build the encrypted _prv.enc payload using the
+                # project's existing convention
+                enc_bytes = _ecies.sym_encrypt(
+                    key=hashlib.sha256((doge_pw or "").encode()).digest(),
+                    plain_text=priv.to_bytes(),
+                )
+                # Stash so the download buttons survive reruns
+                st.session_state["keygen_doge_result"] = {
+                    "basename": doge_name or "key",
+                    "addr": addr,
+                    "pub_hex": pub_hex,
+                    "priv_hex": priv_hex,
+                    "enc_bytes": enc_bytes,
+                }
+            except Exception as e:
+                st.error(f"Generation failed: {e}")
+
+        result = st.session_state.get("keygen_doge_result")
+        if result:
+            st.success(f"Address: `{result['addr']}`")
+            with st.expander("Public key (uncompressed, 128 hex)", expanded=False):
+                st.code(result["pub_hex"], language=None)
+            with st.expander("Private key hex — handle carefully", expanded=False):
+                st.code(result["priv_hex"], language=None)
+                st.caption("Treat this like cash.")
+
+            d1, d2, d3 = st.columns(3)
+            with d1:
+                st.download_button(
+                    "↓ _prv.enc",
+                    data=result["enc_bytes"],
+                    file_name=f"{result['basename']}_prv.enc",
+                    mime="application/octet-stream",
+                    use_container_width=True,
+                )
+            with d2:
+                # raw pubkey bytes (64 — eth_keys form, no 0x04 prefix)
+                st.download_button(
+                    "↓ _pub.bin",
+                    data=bytes.fromhex(result["pub_hex"]),
+                    file_name=f"{result['basename']}_pub.bin",
+                    mime="application/octet-stream",
+                    use_container_width=True,
+                )
+            with d3:
+                st.download_button(
+                    "↓ _addr.bin",
+                    data=result["addr"].encode("utf-8"),
+                    file_name=f"{result['basename']}_addr.bin",
+                    mime="text/plain",
+                    use_container_width=True,
+                )
+
+            try:
+                qr_img = ct.make_qr(result["addr"])
+                _buf = io.BytesIO()
+                qr_img.save(_buf, format="PNG")
+                st.image(_buf.getvalue(), caption="address QR", width=140)
+            except Exception as _e:
+                st.caption(f"(QR render skipped: {_e})")
+
+    # ----- AES key generation -----------------------------------------
+    with key_r:
+        st.markdown("### AES key")
+        st.caption(
+            "Generates a fresh random 32-byte AES key. Optionally seals "
+            "it under a password — same envelope as `_prv.enc`. Use the "
+            "result with the sidebar's 'Key file' AES source, or to "
+            "encrypt a `0x0e 0xae` sealed quipu."
+        )
+        aes_name = st.text_input(
+            "Basename", value="aes_key",
+            key="keygen_aes_name",
+        )
+        aes_outer_pw = st.text_input(
+            "Outer password (empty = save raw 32 bytes)",
+            type="password", value="", key="keygen_aes_outer_pw",
+        )
+        if st.button("Generate AES key", use_container_width=True,
+                     key="keygen_aes_btn"):
+            try:
+                key_bytes = os.urandom(32)
+                if aes_outer_pw:
+                    saved = ct.aes_encrypt_bytes(key_bytes, aes_outer_pw)
+                    ext = ".enc"
+                else:
+                    saved = key_bytes
+                    ext = ".key"
+                st.session_state["keygen_aes_result"] = {
+                    "basename": aes_name or "aes_key",
+                    "key_bytes": key_bytes,
+                    "saved": saved,
+                    "extension": ext,
+                    "is_encrypted": bool(aes_outer_pw),
+                }
+            except Exception as e:
+                st.error(f"AES generation failed: {e}")
+
+        result = st.session_state.get("keygen_aes_result")
+        if result:
+            fpr = result["key_bytes"][:4].hex()
+            st.success(
+                f"AES key generated · fingerprint `{fpr}…` · "
+                f"{'password-encrypted' if result['is_encrypted'] else 'raw'} "
+                f"({len(result['saved'])} bytes on disk)"
+            )
+            with st.expander("Raw key hex — handle carefully", expanded=False):
+                st.code(result["key_bytes"].hex(), language=None)
+                st.caption("Anyone with this key can decrypt sealed quipus.")
+            st.download_button(
+                f"↓ {result['basename']}{result['extension']}",
+                data=result["saved"],
+                file_name=f"{result['basename']}{result['extension']}",
+                mime="application/octet-stream",
+                use_container_width=True,
+            )
+
+    # ----- Multisig P2SH derivation ----------------------------------
+    st.divider()
+    st.markdown("### Derive multisig P2SH address")
+    st.caption(
+        "Combine N pubkeys into an `m`-of-`n` P2SH multisig address. "
+        "This is the **signing** primitive — each cosigner signs the "
+        "strand txs independently with their own key, and the script "
+        "requires m signatures to spend. Distinct from the "
+        "combined-pubkey ECIES used for encryption. The derived address "
+        "is verifiable: passing the three bordado pubkeys with m=3 "
+        "reproduces `9xth7DcLGb1n…`."
+    )
+
+    # Pre-fill with currently-loaded sidebar keys' pubkeys, if any
+    loaded_pubs = []
+    for k in st.session_state.get("priv_keys", []):
+        try:
+            priv = eth_keys.keys.PrivateKey(bytes.fromhex(k["priv_hex"]))
+            loaded_pubs.append("04" + priv.public_key.to_hex()[2:])
+        except Exception:
+            pass
+    default_text = "\n".join(loaded_pubs) if loaded_pubs else ""
+
+    ms_text = st.text_area(
+        "Pubkeys (one per line, 128-hex eth_keys form or 130-hex with "
+        "`04` prefix)",
+        value=default_text,
+        height=130,
+        key="multisig_pubs_input",
+        placeholder=(
+            "04505d743671977487913280812271df3e…\n"
+            "046bb329760057768325b73b3420650c0d…\n"
+            "04cd477d18b1ed8549fd6d9d576c8378de…"
+        ),
+    )
+    ms_lines = [ln.strip() for ln in (ms_text or "").splitlines() if ln.strip()]
+
+    ms_n = len(ms_lines)
+    msc1, msc2 = st.columns([1, 4])
+    with msc1:
+        ms_m = st.number_input(
+            "Required signatures (m)",
+            min_value=1, max_value=max(1, ms_n),
+            value=min(2, ms_n) if ms_n else 1,
+            step=1, key="multisig_threshold",
+            help="Number of signatures needed to spend (m-of-n).",
+        )
+    with msc2:
+        st.caption(f"n = {ms_n} pubkey(s) parsed from input")
+
+    if st.button("Derive multisig address", use_container_width=True,
+                 disabled=ms_n < 2, key="multisig_derive_btn"):
+        try:
+            import cryptos as _cryptos
+            normalized = []
+            for ln in ms_lines:
+                s = ln.lower()
+                if len(s) == 128:
+                    s = "04" + s
+                elif len(s) == 130 and s.startswith("04"):
+                    pass
+                else:
+                    raise ValueError(
+                        f"Unexpected pubkey length {len(ln)}: {ln[:20]}…"
+                    )
+                normalized.append(s)
+            redeem_hex, addr = _cryptos.Doge().mk_multisig_address(
+                *normalized, num_required=int(ms_m),
+            )
+            st.session_state["multisig_result"] = {
+                "addr": addr,
+                "redeem_hex": redeem_hex,
+                "m": int(ms_m),
+                "n": ms_n,
+                "pubkeys": normalized,
+            }
+        except Exception as e:
+            st.error(f"Multisig derivation failed: {e}")
+
+    ms_result = st.session_state.get("multisig_result")
+    if ms_result:
+        st.success(
+            f"{ms_result['m']}-of-{ms_result['n']} multisig address derived"
+        )
+        st.code(ms_result["addr"], language=None)
+        with st.expander("Redeem script hex", expanded=False):
+            st.code(ms_result["redeem_hex"], language=None)
+            st.caption(
+                f"OP_{ms_result['m']} <pubkeys…> OP_{ms_result['n']} "
+                f"OP_CHECKMULTISIG"
+            )
+        # QR
+        try:
+            qr = ct.make_qr(ms_result["addr"])
+            _buf = io.BytesIO()
+            qr.save(_buf, format="PNG")
+            st.image(_buf.getvalue(), caption="address QR", width=140)
+        except Exception as _e:
+            st.caption(f"(QR render skipped: {_e})")
+        st.caption(
+            "Fund this address from apocrypha (or anywhere) to use it. "
+            "Inscribing from a multisig address requires PSBT-style "
+            "round-robin signing — that orchestrator is a separate build."
+        )
