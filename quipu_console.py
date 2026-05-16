@@ -43,6 +43,81 @@ from quipu_orchestrator import (
 )
 
 
+# Diagnostic: increment a rerun counter on every script execution and
+# print to stderr if reruns happen faster than 2/sec — that indicates a
+# pathological loop somewhere.
+def _diag_rerun_counter():
+    import sys as _sys
+    now = time.time()
+    last = st.session_state.get("_last_rerun_ts")
+    n = st.session_state.get("_rerun_count", 0) + 1
+    st.session_state["_rerun_count"] = n
+    st.session_state["_last_rerun_ts"] = now
+    if last and (now - last) < 0.5:
+        print(f"[rerun-counter] fast rerun #{n} ({(now-last)*1000:.0f}ms "
+              f"since last)", file=_sys.stderr, flush=True)
+
+
+def _cached_rpc(method, params=None, ttl=10.0):
+    """Return a cached RPC result for `method(*params)`, refetching only
+    when the cached value is older than `ttl` seconds. Streamlit reruns
+    the whole script on every widget interaction; without this, idle
+    sidebar reads (`getblockchaininfo`, `listunspent`) hammer the node
+    and macOS proxy-config layer enough to peg CPU at ~80%.
+    """
+    cache = st.session_state.setdefault("_rpc_cache", {})
+    # repr() is always hashable, handles nested lists/dicts in params
+    # (e.g. listunspent's address list arg) without converting them.
+    cache_key = (method, repr(params))
+    now = time.time()
+    entry = cache.get(cache_key)
+    if entry and (now - entry[0]) < ttl:
+        return entry[1]
+    result = ct.rpc_request(method, params)
+    cache[cache_key] = (now, result)
+    return result
+
+
+def _pick_folder_native(prompt="Pick a folder"):
+    """Open a native macOS folder picker via osascript and return the
+    chosen POSIX path, or None if the user cancelled (or this isn't a
+    Mac). Streamlit runs locally so the dialog opens on the user's
+    screen — no thread/Tk fragility, just a subprocess."""
+    import subprocess
+    try:
+        result = subprocess.run(
+            [
+                "osascript",
+                "-e", 'tell application "System Events" to activate',
+                "-e", f'POSIX path of (choose folder with prompt "{prompt}")',
+            ],
+            capture_output=True, text=True, timeout=600,
+        )
+        if result.returncode == 0:
+            picked = result.stdout.strip()
+            # AppleScript appends a trailing slash; strip it for clean paths
+            return picked.rstrip("/") or None
+    except Exception:
+        return None
+    return None
+
+
+def _folder_input_with_browse(label, key, default):
+    """Render a folder-path text_input with a "📂 Browse…" button
+    stacked below that pops a native picker. Returns the current path
+    string."""
+    if key not in st.session_state:
+        st.session_state[key] = default
+    st.text_input(label, key=key)
+    if st.button("📂 Browse…", key=f"{key}__browse",
+                 use_container_width=True):
+        picked = _pick_folder_native(label)
+        if picked:
+            st.session_state[key] = picked
+            st.rerun()
+    return st.session_state[key]
+
+
 # ----------------------------------------------------------------------
 # Page setup
 # ----------------------------------------------------------------------
@@ -54,11 +129,53 @@ st.title("Colegio Invisible — Quipu Console")
 # Sidebar — identity and node
 # ----------------------------------------------------------------------
 
+_diag_rerun_counter()
+
 with st.sidebar:
     st.header("Identity")
 
     if "priv_keys" not in st.session_state:
         st.session_state.priv_keys = []
+    # Track addresses we've called importaddress for in this session,
+    # so we don't re-import them on every rerun.
+    _imported_set = st.session_state.setdefault("_imported_addresses", set())
+
+    def _auto_import(addr, label):
+        """Quietly importaddress (rescan=False) once per session. Fast,
+        only tracks future txs — pair with the 🔄 Rescan button when
+        catching an already-sent tx.
+
+        Mark the address as attempted BEFORE the RPC call so a thrown
+        exception ("already in wallet" etc.) doesn't put us in a
+        retry-on-every-rerun loop — which is what made the Load-multisig
+        rerun storm happen.
+        """
+        if addr in _imported_set:
+            return
+        _imported_set.add(addr)
+        try:
+            ct.add_address_to_node(addr, label or "auto-imported", False)
+        except Exception:
+            pass  # already in wallet, or other benign
+
+    # ─── Refresh button ──────────────────────────────────────────────
+    # One-tap re-poll of balances + node-state. Clears just the RPC
+    # cache for listunspent / getblockchaininfo / getreceivedbyaddress —
+    # NOT the history scan dataframes (which are heavy to rebuild and
+    # rarely change).
+    if st.button("↻ Refresh balances", use_container_width=True,
+                 key="sidebar_refresh_btn",
+                 help="Re-poll the node for current UTXOs at every "
+                      "loaded address. Keeps the topology history "
+                      "dataframes intact (those only rebuild on "
+                      "↻ Compute / refresh history in the Wallet tab)."):
+        cache = st.session_state.get("_rpc_cache", {})
+        for ckey in list(cache.keys()):
+            method = ckey[0] if isinstance(ckey, tuple) else ""
+            if method in ("listunspent", "getblockchaininfo",
+                          "getreceivedbyaddress"):
+                cache.pop(ckey, None)
+        st.rerun()
 
     def _mirror_first_key():
         """Keep legacy `priv_hex` / `addr` / `utxos` in sync with priv_keys[0]
@@ -72,43 +189,262 @@ with st.sidebar:
             st.session_state.pop("addr", None)
             st.session_state.pop("utxos", None)
 
-    # Loaded keys list — each row has a remove button
+    # Loaded keys list — each row has a QR popover + a remove button
     for i, k in enumerate(st.session_state.priv_keys):
-        c1, c2 = st.columns([5, 1])
+        c1, c2, c3 = st.columns([5, 1, 1])
         with c1:
             st.markdown(
                 f"**{i+1}.** `{k['addr']}`",
                 help=k.get("label", ""),
             )
         with c2:
+            with st.popover("📷", help="Show QR code for this address"):
+                try:
+                    _qr = ct.make_qr(k["addr"])
+                    _buf = io.BytesIO()
+                    _qr.save(_buf, format="PNG")
+                    st.image(_buf.getvalue(), width=240)
+                    st.code(k["addr"], language=None)
+                except Exception as _e:
+                    st.error(f"QR failed: {_e}")
+        with c3:
             if st.button("✕", key=f"remove_key_{i}",
                          help="Remove this key from the session"):
                 st.session_state.priv_keys.pop(i)
                 _mirror_first_key()
                 st.rerun()
 
-    # Combined-pubkey address (when 2+ keys loaded) — informational
+    # When 2+ keys loaded, compute BOTH group addresses — they serve
+    # different purposes:
+    #   - Multisig P2SH: inscribe FROM this address (m-of-n cosigning).
+    #     Defaults to m=N which matches the project's canonical shapes
+    #     (HA/CA = 2-of-2, bordado = 3-of-3). For non-default m, use
+    #     Keys tab → Make multisig.
+    #   - Combined-key (curve sum): receive encrypted-to-group ECIES
+    #     envelopes; decrypted by combining all N privkeys.
     if len(st.session_state.priv_keys) >= 2:
         try:
+            import cryptos as _cr
             from quipu_crypto import combine_privkeys as _combine_priv
             privs = [
                 eth_keys.keys.PrivateKey(bytes.fromhex(k["priv_hex"]))
                 for k in st.session_state.priv_keys
             ]
-            combined_priv = _combine_priv(privs)
-            import cryptos as _cr
-            combined_addr = _cr.Doge().privtoaddr(combined_priv.to_hex()[2:])
-            st.caption(
-                f"**Combined-key address** "
-                f"(curve-sum of {len(privs)} loaded keys):"
-            )
-            st.code(combined_addr, language=None)
-        except Exception as _e:
-            st.caption(f"(combined-address calc failed: {_e})")
+            pubs_hex = ["04" + p.public_key.to_hex()[2:] for p in privs]
+            n = len(privs)
 
-    # Add key form
+            # Multisig — for inscribing (writing)
+            try:
+                redeem_hex, ms_addr = _cr.Doge().mk_multisig_address(
+                    *pubs_hex, num_required=n,
+                )
+                # Auto-import so listunspent at this address works
+                _auto_import(ms_addr, f"sidebar_{n}of{n}_multisig")
+                st.caption(
+                    f"**{n}-of-{n} multisig address** — fund + inscribe FROM "
+                    f"this with cosigning:"
+                )
+                ms_cols = st.columns([5, 1])
+                with ms_cols[0]:
+                    st.code(ms_addr, language=None)
+                with ms_cols[1]:
+                    with st.popover("📷", help="QR + Rescan"):
+                        try:
+                            _qr = ct.make_qr(ms_addr)
+                            _buf = io.BytesIO()
+                            _qr.save(_buf, format="PNG")
+                            st.image(_buf.getvalue(), width=240)
+                            st.code(ms_addr, language=None)
+                        except Exception as _e:
+                            st.error(f"QR failed: {_e}")
+                        if st.button("🔄 Rescan chain for this address",
+                                     use_container_width=True,
+                                     key="rescan_sidebar_ms",
+                                     help="Slow — only needed once to "
+                                          "catch a tx that was sent "
+                                          "before the address joined the "
+                                          "watch set."):
+                            try:
+                                with st.spinner("Rescanning… this can take "
+                                                "a few minutes."):
+                                    ct.add_address_to_node(
+                                        ms_addr,
+                                        f"sidebar_{n}of{n}_multisig",
+                                        True,
+                                    )
+                                st.success("Rescan complete.")
+                                cache = st.session_state.get("_rpc_cache", {})
+                                for ckey in list(cache.keys()):
+                                    if (isinstance(ckey, tuple)
+                                            and ckey[0] == "listunspent"
+                                            and ms_addr in repr(ckey[1])):
+                                        cache.pop(ckey, None)
+                            except Exception as e:
+                                st.error(f"Rescan failed: {e}")
+
+                # Save the multisig bundle (addr, redeem, manifest, QR)
+                with st.expander("💾 Save multisig", expanded=False):
+                    sidebar_ms_basename = st.text_input(
+                        "Basename", value="multisig",
+                        key="sidebar_ms_basename",
+                    )
+                    sidebar_ms_save_dir = _folder_input_with_browse(
+                        "Save folder",
+                        key="sidebar_ms_save_dir",
+                        default=str(Path.home() / "Desktop" / "cinv" / "llaves"),
+                    )
+                    if st.button("Save to folder",
+                                 use_container_width=True,
+                                 key="sidebar_ms_save_btn"):
+                        try:
+                            import json as _json
+                            folder = Path(sidebar_ms_save_dir).expanduser()
+                            folder.mkdir(parents=True, exist_ok=True)
+                            base = sidebar_ms_basename or "multisig"
+                            manifest = {
+                                "address": ms_addr,
+                                "redeem_script_hex": redeem_hex,
+                                "m": n, "n": n,
+                                "pubkeys": pubs_hex,
+                                "labels": [
+                                    k.get("label", k["addr"])
+                                    for k in st.session_state.priv_keys
+                                ],
+                                "basename": base,
+                            }
+                            (folder / f"{base}_multisig_addr.bin").write_bytes(
+                                ms_addr.encode("utf-8")
+                            )
+                            (folder / f"{base}_multisig_redeem.bin").write_bytes(
+                                bytes.fromhex(redeem_hex)
+                            )
+                            (folder / f"{base}_multisig.json").write_text(
+                                _json.dumps(manifest, indent=2)
+                            )
+                            try:
+                                ct.make_qr(
+                                    ms_addr,
+                                    str(folder / f"{base}_multisig_addr.png"),
+                                )
+                            except Exception:
+                                pass
+                            st.success(
+                                f"Wrote {base}_multisig_addr.bin / "
+                                f"_redeem.bin / .json (and _addr.png) to "
+                                f"{folder}"
+                            )
+                        except Exception as e:
+                            st.error(f"Save failed: {e}")
+            except Exception as _e:
+                st.caption(f"(multisig calc failed: {_e})")
+
+            # Combined pubkey — for ECIES envelopes addressed to the
+            # group. (Showing a derived address would be misleading —
+            # ECIES recipients are identified by pubkey, not by address;
+            # the address has no role in the encryption primitive.)
+            try:
+                from quipu_crypto import combine_pubkeys as _combine_pub
+                combined_pub = _combine_pub([p.public_key for p in privs])
+                combined_pub_hex = "04" + combined_pub.to_hex()[2:]
+                st.caption(
+                    f"**Combined pubkey** (curve sum) — paste this as a "
+                    f"single recipient in ECIES Broadcast to seal envelopes "
+                    f"to the whole group:"
+                )
+                st.code(combined_pub_hex, language=None)
+            except Exception as _e:
+                st.caption(f"(combined-pubkey calc failed: {_e})")
+        except Exception as _e:
+            st.caption(f"(group-address calcs failed: {_e})")
+
+    # Make a fresh key — configure destination BEFORE clicking, so the
+    # one click both creates+loads the key AND writes it to disk.
     with st.expander(
-        "➕ Add key" if st.session_state.priv_keys else "Load a key",
+        "✨ Make a key",
+        expanded=False,
+    ):
+        st.caption(
+            "Generate a fresh Dogecoin keypair, immediately add it to "
+            "the loaded set, and (if a folder path is set) write the "
+            "encrypted `_prv.enc` to that folder. Same envelope as the "
+            "Keys tab."
+        )
+        mk_name = st.text_input(
+            "Basename", value="new_key", key="sidebar_make_name",
+        )
+        mk_pw = st.text_input(
+            "Password (empty = unprotected, matches apocrypha test key)",
+            type="password", value="", key="sidebar_make_pw",
+        )
+        mk_save_dir = _folder_input_with_browse(
+            "Save folder (leave blank for download-only)",
+            key="sidebar_make_save_dir",
+            default=str(Path.home() / "Desktop" / "cinv" / "llaves"),
+        )
+        if st.button("Make and load", use_container_width=True,
+                     key="sidebar_make_btn"):
+            try:
+                import ecies as _ecies
+                import cryptos as _cryptos
+                priv = _ecies.utils.generate_eth_key()
+                priv_hex = priv.to_hex()[2:]
+                addr = _cryptos.Doge().pubtoaddr(
+                    "04" + priv.public_key.to_hex()[2:]
+                )
+                enc_bytes = _ecies.sym_encrypt(
+                    key=hashlib.sha256((mk_pw or "").encode()).digest(),
+                    plain_text=priv.to_bytes(),
+                )
+                if any(k["priv_hex"] == priv_hex for k in st.session_state.priv_keys):
+                    st.warning(
+                        f"This key already happens to be loaded (??): {addr}"
+                    )
+                else:
+                    st.session_state.priv_keys.append({
+                        "priv_hex": priv_hex,
+                        "addr": addr,
+                        "label": f"{mk_name or 'new_key'}_prv.enc",
+                    })
+                    _mirror_first_key()
+                    st.session_state["sidebar_make_result"] = {
+                        "basename": mk_name or "new_key",
+                        "addr": addr,
+                        "enc_bytes": enc_bytes,
+                    }
+                    # If a save folder was provided, write the file now.
+                    save_note = ""
+                    if mk_save_dir.strip():
+                        try:
+                            folder = Path(mk_save_dir).expanduser()
+                            folder.mkdir(parents=True, exist_ok=True)
+                            target = folder / f"{mk_name or 'new_key'}_prv.enc"
+                            target.write_bytes(enc_bytes)
+                            save_note = f" · wrote {target}"
+                        except Exception as save_err:
+                            save_note = (
+                                f" · save to {mk_save_dir!r} FAILED: "
+                                f"{save_err}"
+                            )
+                    st.success(f"Made and loaded {addr}{save_note}")
+            except Exception as e:
+                st.error(f"Key creation failed: {e}")
+
+        # After creation, still offer the browser download as a fallback
+        # (e.g., in case the on-disk save failed).
+        mk_result = st.session_state.get("sidebar_make_result")
+        if mk_result:
+            st.download_button(
+                f"↓ Download {mk_result['basename']}_prv.enc",
+                data=mk_result["enc_bytes"],
+                file_name=f"{mk_result['basename']}_prv.enc",
+                mime="application/octet-stream",
+                use_container_width=True,
+                key="sidebar_make_dl",
+            )
+
+    # Load an existing key from file
+    with st.expander(
+        "➕ Load a key" if st.session_state.priv_keys else "Load a key",
         expanded=not st.session_state.priv_keys,
     ):
         st.caption("Drop a `_prv.enc` keyfile, or use the file picker.")
@@ -145,10 +481,11 @@ with st.sidebar:
                 st.error(f"Key load failed: {e}")
 
     # Balance per loaded key (first is also published as session.utxos for
-    # the existing single-key inscribe flow)
+    # the existing single-key inscribe flow). RPC results cached 10s so
+    # idle reruns don't hammer the node.
     for i, k in enumerate(st.session_state.priv_keys):
         try:
-            ut = ct.rpc_request("listunspent", [0, 9999999, [k["addr"]]])
+            ut = _cached_rpc("listunspent", [0, 9999999, [k["addr"]]], ttl=10.0)
             total = sum(u["amount"] for u in ut)
             st.caption(
                 f"`{k['addr'][:12]}…` — **{total} DOGE** "
@@ -158,6 +495,129 @@ with st.sidebar:
                 st.session_state.utxos = ut
         except Exception as e:
             st.error(f"Balance query failed for key {i+1}: {e}")
+
+    # ---------------- Loaded multisigs ------------------------------
+    st.divider()
+    st.subheader("Loaded multisigs")
+
+    if "loaded_multisigs" not in st.session_state:
+        st.session_state.loaded_multisigs = []
+
+    # Each loaded multisig: address + QR popover + remove + balance
+    for i, ms in enumerate(st.session_state.loaded_multisigs):
+        # Auto-import so listunspent works at this address
+        _auto_import(ms["address"], ms.get("basename", "loaded_multisig"))
+
+        c1, c2, c3 = st.columns([5, 1, 1])
+        with c1:
+            st.markdown(
+                f"**{i+1}.** `{ms['address']}` &nbsp; "
+                f"<span style='font-size:10px; color:#888'>"
+                f"{ms.get('m','?')}-of-{ms.get('n','?')}</span>",
+                help=ms.get("basename", ""),
+                unsafe_allow_html=True,
+            )
+        with c2:
+            with st.popover("📷", help="QR + Rescan"):
+                try:
+                    _qr = ct.make_qr(ms["address"])
+                    _buf = io.BytesIO()
+                    _qr.save(_buf, format="PNG")
+                    st.image(_buf.getvalue(), width=240)
+                    st.code(ms["address"], language=None)
+                    st.caption(
+                        f"{ms.get('m','?')}-of-{ms.get('n','?')} · "
+                        f"{len(ms.get('pubkeys',[]))} participant pubkeys"
+                    )
+                except Exception as _e:
+                    st.error(f"QR failed: {_e}")
+                # Per-multisig rescan — catches past txs sent before
+                # the address was first imported
+                if st.button("🔄 Rescan chain for this address",
+                             use_container_width=True,
+                             key=f"rescan_ms_{i}",
+                             help="Slow (minutes) — only needed once to "
+                                  "catch a tx that was sent before the "
+                                  "address joined the watch set."):
+                    try:
+                        with st.spinner("Rescanning… this can take a few "
+                                        "minutes. RPC blocks until done."):
+                            ct.add_address_to_node(
+                                ms["address"],
+                                ms.get("basename", "rescan"),
+                                True,
+                            )
+                        st.success("Rescan complete.")
+                        # Force balance refresh
+                        cache = st.session_state.get("_rpc_cache", {})
+                        for ckey in list(cache.keys()):
+                            if (isinstance(ckey, tuple)
+                                    and ckey[0] == "listunspent"
+                                    and ms["address"] in repr(ckey[1])):
+                                cache.pop(ckey, None)
+                    except Exception as e:
+                        st.error(f"Rescan failed: {e}")
+        with c3:
+            if st.button("✕", key=f"remove_ms_{i}",
+                         help="Remove this multisig from the session"):
+                st.session_state.loaded_multisigs.pop(i)
+                st.rerun()
+        # Balance lookup (cached)
+        try:
+            ut = _cached_rpc(
+                "listunspent", [0, 9999999, [ms["address"]]], ttl=10.0,
+            )
+            total = sum(u["amount"] for u in ut)
+            st.caption(
+                f"&nbsp;&nbsp;`{ms['address'][:12]}…` — **{total} DOGE** "
+                f"({len(ut)} UTXO{'s' if len(ut) != 1 else ''})",
+                unsafe_allow_html=True,
+            )
+        except Exception as e:
+            st.caption(f"&nbsp;&nbsp;(balance query failed: {e})",
+                       unsafe_allow_html=True)
+
+    # Load a multisig from a .json manifest
+    with st.expander(
+        "📥 Load multisig",
+        expanded=not st.session_state.loaded_multisigs,
+    ):
+        st.caption(
+            "Drop a `_multisig.json` manifest (saved earlier via 💾 "
+            "Save multisig). Reconstitutes the address, redeem script, "
+            "and participant pubkeys — does NOT load any privkeys."
+        )
+        ms_upload = st.file_uploader(
+            "Multisig manifest (.json)",
+            type=["json"], accept_multiple_files=False,
+            key="load_ms_upload",
+        )
+        if st.button("Load multisig", use_container_width=True,
+                     disabled=ms_upload is None, key="load_ms_btn"):
+            try:
+                import json as _json
+                manifest = _json.loads(ms_upload.getvalue().decode("utf-8"))
+                # Sanity check shape
+                required = {"address", "redeem_script_hex", "m", "n", "pubkeys"}
+                missing = required - set(manifest.keys())
+                if missing:
+                    raise ValueError(
+                        f"manifest missing required fields: "
+                        f"{', '.join(sorted(missing))}"
+                    )
+                addr = manifest["address"]
+                if any(m["address"] == addr
+                       for m in st.session_state.loaded_multisigs):
+                    st.warning(f"Multisig {addr} is already loaded.")
+                else:
+                    st.session_state.loaded_multisigs.append(manifest)
+                    st.success(
+                        f"Loaded {manifest.get('m','?')}-of-"
+                        f"{manifest.get('n','?')} multisig: {addr}"
+                    )
+                    st.rerun()
+            except Exception as e:
+                st.error(f"Multisig load failed: {e}")
 
     st.divider()
     st.header("AES key")
@@ -229,7 +689,7 @@ with st.sidebar:
     st.divider()
     st.header("Node")
     try:
-        info = ct.rpc_request("getblockchaininfo")
+        info = _cached_rpc("getblockchaininfo", ttl=10.0)
         st.write(f"Block: **{info['blocks']:,}**")
         st.write(f"Synced: **{'✓' if not info['initialblockdownload'] else 'syncing'}**")
     except Exception as e:
@@ -1097,6 +1557,28 @@ def compute_quipu_topology(address, quipus, df_tx, df_out=None):
             if result is not None:
                 pub_hex_cache[txid] = result
 
+    # Cap parallel edges at 54. A quipu with 199 strands all flowing
+    # into one consolidation otherwise renders 199 superimposed
+    # springs — cumulative force yanks the consolidation INSIDE the
+    # quipu_root, attractive + repulsive forces fight, layout never
+    # settles, browser pegs CPU. Keeping up to 54 preserves the
+    # spindle/mitotic-fiber aesthetic; the first drawn edge carries
+    # a "N strands" label when the true count exceeds the cap.
+    MAX_PARALLEL = 54
+    grouped = {}  # (src, dst, kind) → count
+    for src, dst, ekind in edges:
+        grouped[(src, dst, ekind)] = grouped.get((src, dst, ekind), 0) + 1
+    capped_edges = []
+    for (src, dst, ekind), count in grouped.items():
+        drawn = min(count, MAX_PARALLEL)
+        for i in range(drawn):
+            # Label only on the first edge of a group, and only when
+            # the cap actually truncated something
+            label = (f"{count} strands"
+                     if (i == 0 and count > MAX_PARALLEL) else None)
+            capped_edges.append((src, dst, ekind, label))
+    edges = capped_edges
+
     return nodes, edges, keydrop_resolutions
 
 
@@ -1513,15 +1995,22 @@ def render_topology_pyvis(nodes, edges, labels=None, address=None, height_px=620
         "keydrop":  {"color": "#b88ec7", "width": 2, "dashes": True},
     }
     for edge in edges:
-        if len(edge) == 3:
+        # edges are 4-tuples (src, dst, kind, label) from the
+        # cap-at-MAX_PARALLEL pass. Backwards-compat: shorter forms.
+        if len(edge) == 4:
+            src, dst, ekind, label = edge
+        elif len(edge) == 3:
             src, dst, ekind = edge
+            label = None
         else:
-            src, dst, ekind = edge[0], edge[1], "funding"
+            src, dst, ekind, label = edge[0], edge[1], "funding", None
         style = EDGE_STYLE.get(ekind, EDGE_STYLE["funding"])
         net.add_edge(
             src, dst,
             color=style["color"], width=style["width"],
             dashes=style["dashes"],
+            label=label,
+            font={"size": 9, "color": "#888"} if label else None,
         )
 
     html = net.generate_html()
@@ -1653,8 +2142,13 @@ function _drawSmoothPolygon(ctx, pts) {
 
 function attachCellularHull() {
     if (typeof network === 'undefined' || !network) { return; }
-    network.on('afterDrawing', function(ctx) {
-        // Group node positions by their `group` attribute (address)
+    // Cache the computed hulls; only rebuild on stabilisation or when
+    // node membership changes. Drawing happens every frame from the
+    // cache — cheap. This avoids hammering the CPU while the
+    // force-directed layout is settling (hundreds of redraws/sec).
+    var hullCache = {};
+
+    function recomputeHulls() {
         var groups = {};
         var nodeIds = network.body.data.nodes.getIds();
         nodeIds.forEach(function(id) {
@@ -1667,18 +2161,34 @@ function attachCellularHull() {
             if (!groups[grp]) groups[grp] = [];
             groups[grp].push(pos);
         });
+        var next = {};
         Object.keys(groups).forEach(function(grp) {
             var pts = groups[grp];
             if (pts.length < 2) return;
-            var hull = _convexHull(pts);
-            var padded = _expandHull(hull, 36);
+            next[grp] = _expandHull(_convexHull(pts), 36);
+        });
+        hullCache = next;
+    }
+
+    // Recompute periodically while physics is still moving things;
+    // stop once the layout has stabilised.
+    var recomputeTimer = setInterval(recomputeHulls, 250);
+    network.on('stabilizationIterationsDone', function() {
+        recomputeHulls();
+        clearInterval(recomputeTimer);
+        recomputeTimer = setInterval(recomputeHulls, 1500);
+    });
+    network.on('dragEnd', recomputeHulls);
+
+    network.on('afterDrawing', function(ctx) {
+        Object.keys(hullCache).forEach(function(grp) {
+            var padded = hullCache[grp];
+            if (!padded || padded.length < 3) return;
             ctx.save();
             _drawSmoothPolygon(ctx, padded);
-            // Translucent fill
-            ctx.fillStyle = ADDRESS_COLORS[grp] + "1a";  // ~10% opacity
+            ctx.fillStyle = ADDRESS_COLORS[grp] + "1a";
             ctx.fill();
-            // Subtle stroke
-            ctx.strokeStyle = ADDRESS_COLORS[grp] + "66";  // ~40% opacity
+            ctx.strokeStyle = ADDRESS_COLORS[grp] + "66";
             ctx.lineWidth = 1.5;
             ctx.stroke();
             ctx.restore();
@@ -2613,26 +3123,46 @@ with tab_wallet:
                     })
                 st.dataframe(rows, hide_index=True, use_container_width=True)
 
-            # Topology — force-directed network showing funding lineage
+            # Topology — force-directed network showing funding lineage.
+            # Default OFF — the force-directed physics + cellular hull
+            # overlay was driving repeated reruns / hot CPU. The data
+            # path (compute_quipu_topology, find_keydrop_for, etc.) is
+            # still computed when this toggle is ON; off = no render
+            # work at all.
             st.markdown("### Topology (force-directed)")
+            topo_enabled = st.checkbox(
+                "Render topology",
+                value=False,
+                key="topology_render_enabled",
+                help="Off by default — the force-directed layout was "
+                     "burning CPU. Turn on to render; turn off to free "
+                     "the browser if it gets hot.",
+            )
+            if not topo_enabled:
+                st.info(
+                    "Topology rendering is paused. Tick the box above "
+                    "to render. (Inscribing, multisig, reading, and key "
+                    "management all work without it.)"
+                )
+                # Make `extra_selected` defined for downstream code paths
+                extra_selected = []
 
             # Multi-address selection: any watched address with a cached
-            # history can be folded into the same topology view, with each
-            # address's quipus tinted by its accent colour and wrapped in
-            # a soft cellular hull.
-            extra_options = [a for a in ADDR_LABELS.keys() if a != addr_to_view]
-            default_extra = [
-                a for a in extra_options
-                if f"history::{a}" in st.session_state
-            ]
-            extra_selected = st.multiselect(
-                "Include other addresses (must have a cached history — go "
-                "to that address and ↻ Compute history first)",
-                options=extra_options,
-                default=default_extra,
-                format_func=lambda a: f"{ADDR_LABELS[a]} · {a[:12]}…",
-                key="topology_extra_addrs",
-            )
+            # history can be folded into the same topology view.
+            if topo_enabled:
+                extra_options = [a for a in ADDR_LABELS.keys() if a != addr_to_view]
+                default_extra = [
+                    a for a in extra_options
+                    if f"history::{a}" in st.session_state
+                ]
+                extra_selected = st.multiselect(
+                    "Include other addresses (must have a cached history — go "
+                    "to that address and ↻ Compute history first)",
+                    options=extra_options,
+                    default=default_extra,
+                    format_func=lambda a: f"{ADDR_LABELS[a]} · {a[:12]}…",
+                    key="topology_extra_addrs",
+                )
 
             # Combine current address's data with each selected extra
             address_groups = {q["root_txid"]: addr_to_view for q in quipus}
@@ -2687,21 +3217,42 @@ with tab_wallet:
                 "exit. Black square = external funding. Dashed purple "
                 "edge = keydrop ↔ encrypted-quipu link."
             )
-            try:
-                with st.spinner("Building topology (decoding all quipus for click-popups)…"):
-                    nodes, edges, keydrop_resolutions = compute_quipu_topology(
-                        addr_to_view, quipus_combined, df_tx_combined, df_out=df_out_combined,
-                    )
-                    st.session_state["keydrop_resolutions_cache"] = keydrop_resolutions
-                    topo_html = render_topology_pyvis(
-                        nodes, edges, labels=labels, address=addr_to_view,
-                        height_px=620, df_out=df_out_combined, quipus=quipus_combined,
-                        address_groups=address_groups,
-                    )
-                import streamlit.components.v1 as components
-                components.html(topo_html, height=650, scrolling=False)
-            except Exception as e:
-                st.error(f"Topology render failed: {e}")
+            # Heavy work only when the user opted in via the checkbox.
+            # The iframe + vis.js physics + cellular hull JS is what
+            # was burning CPU; with topo_enabled=False none of this
+            # runs and the page stays cool.
+            if topo_enabled:
+                topo_cache_key = "topology_html_cache"
+                topo_signature = (
+                    addr_to_view,
+                    tuple(sorted(extra_selected or [])),
+                    tuple(sorted(q["root_txid"] for q in quipus_combined)),
+                    tuple(sorted(q["root_txid"] for q in quipus)),
+                )
+                cached_topo = st.session_state.get(topo_cache_key)
+                if cached_topo and cached_topo.get("signature") == topo_signature:
+                    topo_html = cached_topo["html"]
+                else:
+                    try:
+                        with st.spinner("Building topology (decoding all quipus for click-popups)…"):
+                            nodes, edges, keydrop_resolutions = compute_quipu_topology(
+                                addr_to_view, quipus_combined, df_tx_combined, df_out=df_out_combined,
+                            )
+                            st.session_state["keydrop_resolutions_cache"] = keydrop_resolutions
+                            topo_html = render_topology_pyvis(
+                                nodes, edges, labels=labels, address=addr_to_view,
+                                height_px=620, df_out=df_out_combined, quipus=quipus_combined,
+                                address_groups=address_groups,
+                            )
+                        st.session_state[topo_cache_key] = {
+                            "signature": topo_signature, "html": topo_html,
+                        }
+                    except Exception as e:
+                        st.error(f"Topology render failed: {e}")
+                        topo_html = None
+                if topo_html:
+                    import streamlit.components.v1 as components
+                    components.html(topo_html, height=650, scrolling=False)
 
             # --- Quipu inspector ---
             st.markdown("### Inspect a quipu")
@@ -3070,7 +3621,6 @@ with tab_keys:
                     use_container_width=True,
                 )
             with d2:
-                # raw pubkey bytes (64 — eth_keys form, no 0x04 prefix)
                 st.download_button(
                     "↓ _pub.bin",
                     data=bytes.fromhex(result["pub_hex"]),
@@ -3086,6 +3636,38 @@ with tab_keys:
                     mime="text/plain",
                     use_container_width=True,
                 )
+
+            # Save all three to a local folder
+            doge_save_dir = _folder_input_with_browse(
+                "Save folder",
+                key="keygen_doge_save_dir",
+                default=str(Path.home() / "Desktop" / "cinv" / "llaves"),
+            )
+            if st.button("Save all three to folder",
+                         use_container_width=True,
+                         key="keygen_doge_save_btn"):
+                try:
+                    folder = Path(doge_save_dir).expanduser()
+                    folder.mkdir(parents=True, exist_ok=True)
+                    base = result["basename"]
+                    (folder / f"{base}_prv.enc").write_bytes(result["enc_bytes"])
+                    (folder / f"{base}_pub.bin").write_bytes(
+                        bytes.fromhex(result["pub_hex"])
+                    )
+                    (folder / f"{base}_addr.bin").write_bytes(
+                        result["addr"].encode("utf-8")
+                    )
+                    # QR too, matches existing gen_save_keys_addr behaviour
+                    try:
+                        ct.make_qr(result["addr"], str(folder / f"{base}_addr.png"))
+                    except Exception:
+                        pass
+                    st.success(
+                        f"Wrote {base}_prv.enc / _pub.bin / _addr.bin "
+                        f"(and _addr.png) to {folder}"
+                    )
+                except Exception as e:
+                    st.error(f"Save failed: {e}")
 
             try:
                 qr_img = ct.make_qr(result["addr"])
@@ -3151,81 +3733,131 @@ with tab_keys:
                 use_container_width=True,
             )
 
-    # ----- Multisig P2SH derivation ----------------------------------
+            aes_save_dir = _folder_input_with_browse(
+                "Save folder",
+                key="keygen_aes_save_dir",
+                default=str(Path.home() / "Desktop" / "cinv" / "llaves"),
+            )
+            if st.button(f"Save to folder",
+                         use_container_width=True,
+                         key="keygen_aes_save_btn"):
+                try:
+                    folder = Path(aes_save_dir).expanduser()
+                    folder.mkdir(parents=True, exist_ok=True)
+                    fname = f"{result['basename']}{result['extension']}"
+                    (folder / fname).write_bytes(result["saved"])
+                    st.success(f"Wrote {fname} to {folder}")
+                except Exception as e:
+                    st.error(f"Save failed: {e}")
+
+    # ----- Make multisig (key picker wizard) -------------------------
     st.divider()
-    st.markdown("### Derive multisig P2SH address")
+    st.markdown("### Make multisig")
     st.caption(
-        "Combine N pubkeys into an `m`-of-`n` P2SH multisig address. "
-        "This is the **signing** primitive — each cosigner signs the "
-        "strand txs independently with their own key, and the script "
-        "requires m signatures to spend. Distinct from the "
-        "combined-pubkey ECIES used for encryption. The derived address "
-        "is verifiable: passing the three bordado pubkeys with m=3 "
-        "reproduces `9xth7DcLGb1n…`."
+        "Pick which keys to combine into an `m`-of-`n` P2SH multisig "
+        "address. Available keys include any loaded in the sidebar and "
+        "the most-recently-generated keypair from above. The bordado "
+        "3-of-3 reproduces from its three pubkeys (`9xth7DcLGb1n…`); "
+        "the HA / CA addresses are both 2-of-2 — pick the matching shape."
     )
 
-    # Pre-fill with currently-loaded sidebar keys' pubkeys, if any
-    loaded_pubs = []
+    # Gather available keys from the session (sidebar-loaded + just-made)
+    available = []
     for k in st.session_state.get("priv_keys", []):
         try:
             priv = eth_keys.keys.PrivateKey(bytes.fromhex(k["priv_hex"]))
-            loaded_pubs.append("04" + priv.public_key.to_hex()[2:])
+            pub_hex = "04" + priv.public_key.to_hex()[2:]
+            available.append({
+                "source": "sidebar",
+                "label": k.get("label", k["addr"]),
+                "addr": k["addr"],
+                "pub_hex": pub_hex,
+            })
         except Exception:
-            pass
-    default_text = "\n".join(loaded_pubs) if loaded_pubs else ""
+            continue
+    recent = st.session_state.get("keygen_doge_result")
+    if recent and not any(a["addr"] == recent["addr"] for a in available):
+        available.append({
+            "source": "just made",
+            "label": recent.get("basename", "new_key"),
+            "addr": recent["addr"],
+            "pub_hex": "04" + recent["pub_hex"],
+        })
 
-    ms_text = st.text_area(
-        "Pubkeys (one per line, 128-hex eth_keys form or 130-hex with "
-        "`04` prefix)",
-        value=default_text,
-        height=130,
-        key="multisig_pubs_input",
-        placeholder=(
-            "04505d743671977487913280812271df3e…\n"
-            "046bb329760057768325b73b3420650c0d…\n"
-            "04cd477d18b1ed8549fd6d9d576c8378de…"
-        ),
-    )
-    ms_lines = [ln.strip() for ln in (ms_text or "").splitlines() if ln.strip()]
+    if not available:
+        st.info(
+            "No keys available. Generate one above (or load one in the "
+            "sidebar), or paste pubkeys in the 'extra pubkeys' textarea "
+            "below."
+        )
 
-    ms_n = len(ms_lines)
-    msc1, msc2 = st.columns([1, 4])
+    st.markdown("**Pick participants:**")
+    picked_pubs = []
+    picked_labels = []
+    for i, k in enumerate(available):
+        if st.checkbox(
+            f"`{k['addr']}` &nbsp; *{k['source']}* &nbsp; ({k['label']})",
+            key=f"ms_pick_{i}",
+        ):
+            picked_pubs.append(k["pub_hex"])
+            picked_labels.append(k["label"])
+
+    with st.expander("Extra pubkeys (paste, not in session)", expanded=False):
+        ms_extra_text = st.text_area(
+            "One per line (128-hex eth_keys form or 130-hex `04…`)",
+            value="", height=100, key="ms_extra_pubs",
+        )
+        for line in (ms_extra_text or "").splitlines():
+            s = line.strip().lower()
+            if not s:
+                continue
+            if len(s) == 128:
+                s = "04" + s
+            if len(s) == 130 and s.startswith("04"):
+                picked_pubs.append(s)
+                picked_labels.append(f"pasted {s[2:14]}…")
+            else:
+                st.warning(
+                    f"Skipping unrecognised pubkey: `{line[:24]}…` "
+                    f"({len(line)} chars)"
+                )
+
+    n_picked = len(picked_pubs)
+    msc1, msc2 = st.columns([1, 3])
     with msc1:
         ms_m = st.number_input(
             "Required signatures (m)",
-            min_value=1, max_value=max(1, ms_n),
-            value=min(2, ms_n) if ms_n else 1,
+            min_value=1, max_value=max(1, n_picked),
+            value=min(2, n_picked) if n_picked else 1,
             step=1, key="multisig_threshold",
-            help="Number of signatures needed to spend (m-of-n).",
         )
     with msc2:
-        st.caption(f"n = {ms_n} pubkey(s) parsed from input")
+        st.caption(
+            f"**{int(ms_m)}-of-{n_picked}** — {int(ms_m)} signature(s) "
+            f"required from {n_picked} participant key(s)"
+        )
+
+    ms_basename = st.text_input(
+        "Multisig basename", value="multisig",
+        key="multisig_basename",
+        help="Used in saved filenames: <basename>_multisig.{addr,redeem,json}",
+    )
 
     if st.button("Derive multisig address", use_container_width=True,
-                 disabled=ms_n < 2, key="multisig_derive_btn"):
+                 disabled=n_picked < 2, key="multisig_derive_btn"):
         try:
             import cryptos as _cryptos
-            normalized = []
-            for ln in ms_lines:
-                s = ln.lower()
-                if len(s) == 128:
-                    s = "04" + s
-                elif len(s) == 130 and s.startswith("04"):
-                    pass
-                else:
-                    raise ValueError(
-                        f"Unexpected pubkey length {len(ln)}: {ln[:20]}…"
-                    )
-                normalized.append(s)
             redeem_hex, addr = _cryptos.Doge().mk_multisig_address(
-                *normalized, num_required=int(ms_m),
+                *picked_pubs, num_required=int(ms_m),
             )
             st.session_state["multisig_result"] = {
                 "addr": addr,
                 "redeem_hex": redeem_hex,
                 "m": int(ms_m),
-                "n": ms_n,
-                "pubkeys": normalized,
+                "n": n_picked,
+                "pubkeys": picked_pubs,
+                "labels": picked_labels,
+                "basename": ms_basename or "multisig",
             }
         except Exception as e:
             st.error(f"Multisig derivation failed: {e}")
@@ -3236,13 +3868,21 @@ with tab_keys:
             f"{ms_result['m']}-of-{ms_result['n']} multisig address derived"
         )
         st.code(ms_result["addr"], language=None)
+
+        st.markdown("**Participants** (signing order = listed order):")
+        for label, pub in zip(ms_result.get("labels", []),
+                              ms_result["pubkeys"]):
+            st.markdown(
+                f"&nbsp;&nbsp;`{pub[2:14]}…`  &nbsp; *{label}*"
+            )
+
         with st.expander("Redeem script hex", expanded=False):
             st.code(ms_result["redeem_hex"], language=None)
             st.caption(
                 f"OP_{ms_result['m']} <pubkeys…> OP_{ms_result['n']} "
                 f"OP_CHECKMULTISIG"
             )
-        # QR
+
         try:
             qr = ct.make_qr(ms_result["addr"])
             _buf = io.BytesIO()
@@ -3250,8 +3890,79 @@ with tab_keys:
             st.image(_buf.getvalue(), caption="address QR", width=140)
         except Exception as _e:
             st.caption(f"(QR render skipped: {_e})")
+
+        # Save the multisig as a folder bundle
+        import json as _json
+        ms_save_dir = _folder_input_with_browse(
+            "Save folder",
+            key="multisig_save_dir",
+            default=str(Path.home() / "Desktop" / "cinv" / "llaves"),
+        )
+        manifest = {
+            "address": ms_result["addr"],
+            "redeem_script_hex": ms_result["redeem_hex"],
+            "m": ms_result["m"],
+            "n": ms_result["n"],
+            "pubkeys": ms_result["pubkeys"],
+            "labels": ms_result.get("labels", []),
+            "basename": ms_result["basename"],
+        }
+        manifest_json = _json.dumps(manifest, indent=2)
+
+        d1, d2, d3 = st.columns(3)
+        with d1:
+            st.download_button(
+                "↓ _multisig_addr.bin",
+                data=ms_result["addr"].encode("utf-8"),
+                file_name=f"{ms_result['basename']}_multisig_addr.bin",
+                mime="text/plain",
+                use_container_width=True,
+            )
+        with d2:
+            st.download_button(
+                "↓ _multisig_redeem.bin",
+                data=bytes.fromhex(ms_result["redeem_hex"]),
+                file_name=f"{ms_result['basename']}_multisig_redeem.bin",
+                mime="application/octet-stream",
+                use_container_width=True,
+            )
+        with d3:
+            st.download_button(
+                "↓ _multisig.json (manifest)",
+                data=manifest_json.encode("utf-8"),
+                file_name=f"{ms_result['basename']}_multisig.json",
+                mime="application/json",
+                use_container_width=True,
+            )
+
+        if st.button("Save all three to folder",
+                     use_container_width=True,
+                     key="multisig_save_btn"):
+            try:
+                folder = Path(ms_save_dir).expanduser()
+                folder.mkdir(parents=True, exist_ok=True)
+                base = ms_result["basename"]
+                (folder / f"{base}_multisig_addr.bin").write_bytes(
+                    ms_result["addr"].encode("utf-8")
+                )
+                (folder / f"{base}_multisig_redeem.bin").write_bytes(
+                    bytes.fromhex(ms_result["redeem_hex"])
+                )
+                (folder / f"{base}_multisig.json").write_text(manifest_json)
+                try:
+                    ct.make_qr(ms_result["addr"],
+                               str(folder / f"{base}_multisig_addr.png"))
+                except Exception:
+                    pass
+                st.success(
+                    f"Wrote {base}_multisig_addr.bin / _redeem.bin / "
+                    f".json (and _addr.png) to {folder}"
+                )
+            except Exception as e:
+                st.error(f"Save failed: {e}")
+
         st.caption(
             "Fund this address from apocrypha (or anywhere) to use it. "
             "Inscribing from a multisig address requires PSBT-style "
-            "round-robin signing — that orchestrator is a separate build."
+            "round-robin signing — that orchestrator is the next build."
         )

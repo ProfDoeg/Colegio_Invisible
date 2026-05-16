@@ -1,245 +1,270 @@
-# Next session — handoff: topology strand-terminus consolidation
+# Next session — handoff: multisig writing (QuipuMulti orchestrator)
 
-The previous task (keydrop display + AES-sealed sub-family + broadcast
-write path) shipped in commit `0c3b039`. Encrypted quipus now decrypt
-inline in all three reader sites; Plan tab supports `None / AES /
-ECIES Broadcast` with address-and-combined-key recipients.
+This is a handoff to a fresh session of Claude, opened in the project
+repository. The user has been working with me through several sessions
+and we've built a lot. Read **Where state currently is** before diving
+into the new work.
 
-The **next build** is a focused visual improvement to the quipu map:
-**show strand-terminus consolidation/export so the topology accurately
-reflects the in-and-out flow of the address space.**
+## The new build — write quipus from a multisig address
 
-## The problem
+The user has a fresh 2-of-2 P2SH multisig at
+`A3ShjwjsAE4ysM66EZJM3A28tPnL2jNDgC` (apocrypha test), funded with
+**40 DOGE** at tx
+`2ea5daa18ae73e13ec9c9fb3f2bab306bccaa3a98fed449092051cd9d22ef395:1`
+(confirmed live via `gettxout`). They want to **inscribe a quipu from
+that multisig** — end to end, through the Streamlit console.
 
-`compute_quipu_topology` in `quipu_console.py` traces only **backwards**
-from each quipu's root (funding lineage). It draws `quipu_root`,
-`joining`, `bridge`, `external` nodes for the funding ancestors but
-never looks **forward** from the strand termini.
+This is the multisig orchestrator build that's been deferred across
+several sessions. The infrastructure exists in part but is broken; the
+end-to-end orchestrator is missing.
 
-Result: when a quipu's N strand termini are all consumed in a single
-outgoing transaction (consolidation or export), the visual still shows
-them as N dangling tails — as if unspent. Same in the broom-head/forest
-view (`build_history_dot`), which only marks `(unspent)` for
-strand_length == 0 and otherwise just leaves the terminus node hanging.
+### Step 1 — fix the broken multisig signing primitive
 
-Example: txid
-`014123b21a99b50e28219522af50a7a970dd3f8feeb0dd1d07e4ab2d384b40d1`
-("Paco's quipu") — all strand termini are spent in the same outgoing
-tx, but the map renders them as separate tendrils.
+`colegio_tools.py` already defines `CadenaMulti` (line 250) and
+`CadenaMultiAtom` (line 420), modelled on `Cadena` / `CadenaAtom`.
+**Both have a typo bug:** they call `self.doge.mk_multsig_address(...)`
+(missing the second `i`), which does not exist in the current `cryptos`
+library version. The classes have never run successfully.
 
-## What "consolidation" vs "export" mean here
-
-For each strand terminus T:
-- T's last output (typically `T:0`, since strand chains are 1-in/1-out)
-  is spent in some transaction S.
-- If **S's outputs land back in the watched address(es)** → consolidation.
-  S is a "joining" tx — same kind we already model for funding.
-- If **S's outputs land at addresses not in the watched set** → export.
-  The quipu's outputs have left the embroidery space.
-- If no S exists → the terminus is genuinely unspent.
-
-If multiple strand termini share the same S, they should converge into
-ONE node, not appear as separate tendrils.
-
-## Data already available
-
-Each quipu dict already carries:
-- `"strand_termini": [txid, txid, ...]` — last OP_RETURN tx in each strand
-  (computed at [quipu_console.py:592–615](quipu_console.py:592))
-- `"strand_lengths": [n, n, ...]` — strand depths
-
-`df_out` columns: `txout`, `spent_in`, `value`, `op_return`,
-`blockheight`, `blocktime`, `txid`, `n`. The `spent_in` field is exactly
-what we need — for `<terminus_txid>:0` it points to the tx S that
-consumed it (or is empty if unspent).
-
-To distinguish consolidation vs export, look up S in `df_tx`:
-- If S is in `df_tx` (i.e., the wallet has seen it as wallet-relevant
-  via `listtransactions`), then its outputs touch watched addresses
-  somewhere — **consolidation**.
-- If S is NOT in `df_tx` but `gettxout` returns nothing for the
-  terminus (meaning it IS spent, just not by a wallet-relevant tx),
-  then S has gone to addresses outside the watched set — **export**.
-  In practice `df_out`'s `spent_in` only gets populated for wallet-
-  visible spends, so absent `spent_in` plus a spent UTXO = export.
-
-For a true export, we still want to draw a node — labeled differently
-so the user sees "this quipu's outputs left the address."
-
-## Implementation plan
-
-### 1. Extend `compute_quipu_topology` with a forward pass
-
-After the existing backward funding-trace loop, add a **forward**
-pass: for each quipu, walk each strand terminus's spend.
+Fix:
 
 ```python
-# Forward pass: trace strand-terminus consolidation/export
-for q in quipus:
-    root = q["root_txid"]
-    for s_idx, terminus in enumerate(q["strand_termini"]):
-        if not terminus:
-            continue  # unspent strand — leave it dangling
-        # Find what spent terminus:0
-        spent_in_rows = df_out[df_out["txout"] == f"{terminus}:0"]
-        if spent_in_rows.empty:
-            continue
-        spend_tx = spent_in_rows.iloc[0]["spent_in"]
-        if not spend_tx or (isinstance(spend_tx, float) and spend_tx != spend_tx):
-            continue
-        # The terminus is spent in spend_tx. Classify:
-        if spend_tx in df_tx_by_id.index:
-            parent_row = df_tx_by_id.loc[spend_tx]
-            n_in = int(parent_row["num_inputs"])
-            n_out = int(parent_row["num_outputs"])
-            if spend_tx not in nodes:
-                # Consolidation = ≥2 inputs, ≤ inputs outputs
-                # Could also be a 1-in-1-out bridge if a strand was
-                # spent alone (rare for quipus). Use joining-like
-                # classification:
-                kind = "consolidation" if n_in >= 2 else "bridge"
-                nodes[spend_tx] = {
-                    "kind": kind, "txid": spend_tx,
-                    "n_in": n_in, "n_out": n_out,
-                    "blocktime": int(parent_row.get("blocktime", 0) or 0),
-                }
-        else:
-            # Spend tx not in df_tx → outputs leave the address space
-            if spend_tx not in nodes:
-                nodes[spend_tx] = {
-                    "kind": "export", "txid": spend_tx,
-                }
-        # Edge: terminus → spend_tx (forward)
-        # But terminus may not be a node yet — strand interior is
-        # not in the topology. Edge from quipu root would skip the
-        # strand. Better: add terminus as a "strand_terminus" node.
-        terminus_id = f"term::{root}::{s_idx}"
-        if terminus_id not in nodes:
-            nodes[terminus_id] = {
-                "kind": "strand_terminus",
-                "txid": terminus,
-                "of_quipu": root,
-                "strand_index": s_idx,
-                "spent": True,
-            }
-        edges.append((root, terminus_id))   # synthetic root → terminus
-        edges.append((terminus_id, spend_tx))
+# OLD (broken):
+self.script, self.addr = self.doge.mk_multsig_address(
+    self.pubs, len(self.pubs)
+)
+
+# NEW (works — verified against the bordado 3-of-3 in this session):
+self.script, self.addr = self.doge.mk_multisig_address(
+    *self.pubs, num_required=len(self.pubs)
+)
 ```
 
-Caveat: for unspent strands, you may still want to add a terminus
-node (kind `strand_terminus`, `spent: False`) so the visual stays
-consistent — N strand stubs per quipu. Or just leave them implied
-(empty).
+The pubkeys here need to be the `04`-prefixed uncompressed form
+(130 hex) — `cryptos.Doge().privtopub(priv_hex)` already returns this.
 
-### 2. Render the new node kinds in `render_topology_pyvis`
+The `script_magicbyte = 22` override line in those classes is no longer
+necessary with the new API (the Doge() class handles P2SH magic on its
+own) but leave it for safety.
 
-Add cases for `consolidation`, `export`, `strand_terminus`:
+### Step 2 — prove signing works
+
+Standalone test (don't broadcast, just validate):
 
 ```python
-elif kind == "consolidation":
-    net.add_node(txid, label=f"join←{info['n_in']}",
-        title=f"Consolidation: {info['n_in']} strand termini "
-              f"merged here\n{txid}",
-        color="#8eb88e", size=14, shape="diamond")
-elif kind == "export":
-    net.add_node(txid, label="↗ out",
-        title=f"Export: spend left the address space\n{txid}",
-        color="#c78686", size=12, shape="triangle")
-elif kind == "strand_terminus":
-    spent = info.get("spent", False)
-    net.add_node(txid, label="·",
-        title=f"Strand {info['strand_index']} terminus of "
-              f"{info['of_quipu'][:8]}…\n{info['txid']}",
-        color="#bbbbbb" if spent else "#eeeeee",
-        size=6, shape="dot")
+import cryptos, colegio_tools as ct
+# Use freshly generated test keys (not the user's real ones)
+import ecies
+k1 = ecies.utils.generate_eth_key().to_hex()[2:]
+k2 = ecies.utils.generate_eth_key().to_hex()[2:]
+
+# Sanity: confirm the address derives
+doge = cryptos.Doge()
+pubs = [doge.privtopub(k) for k in [k1, k2]]
+script, addr = doge.mk_multisig_address(*pubs, num_required=2)
+print(f"derived multisig: {addr}")
+
+# CadenaMulti driving with a fake utxo (just to exercise signing)
+fake_utxo = {"output": "0"*64 + ":1", "value": 100_000_000}
+cm = ct.CadenaMulti([k1, k2], b"hello multisig", fake_utxo, 5_000_000)
+cm.make_tx()  # should succeed silently — produces self.signed_inscribed_tx
+print("multisig signing path works:", cm.signed_inscribed_tx is not None)
+# Decode to confirm structure
+import cryptos as _cs
+decoded = _cs.deserialize(_cs.serialize(cm.signed_inscribed_tx))
+print(f"  ins: {len(decoded['ins'])}, outs: {len(decoded['outs'])}")
 ```
 
-Color scheme suggestion:
-- consolidation (back to watched address) = same green as cert quipus
-  to suggest "remains in the embroidery"
-- export (leaves watched space) = red-tone, suggests "departed"
+If that prints `True` and you see the expected ins/outs, the primitive
+is unblocked. **Do not broadcast** — the fake_utxo doesn't exist on
+chain.
 
-### 3. Update broom-head forest similarly (optional)
+### Step 3 — write `QuipuMulti` orchestrator
 
-`build_history_dot` draws a tree per quipu. For each terminus add a
-sink node downstream, labeled "→ consolidation" or "→ exported" or
-"(unspent)". When N strand termini share the same spend_tx, point all
-of them to a single sink node (graphviz handles this naturally — same
-`{spend_id}` referenced by multiple edges).
+In `quipu_orchestrator.py`, the existing `Quipu` class (line 46) is
+single-key — it uses `self.priv` and calls `self.doge.signall(tx,
+self.priv)` for root and join, and `CadenaAtom(self.priv, ...)` for
+each strand.
 
-### 4. Test against the real chain
+Add a sibling class `QuipuMulti` that mirrors it, with these
+differences:
 
-- Apocrypha has multiple quipus; pick one where you've explicitly
-  consolidated (Sabina was joined into a Cadena join tx per memory).
-  Expected: all strand termini converge at the join node.
-- The Paco quipu
-  (`014123b21a99b50e28219522af50a7a970dd3f8feeb0dd1d07e4ab2d384b40d1`)
-  — verify its strand termini all merge at one node, no tendrils.
-- For an unspent quipu (newer inscriptions) — strand termini render
-  as faint stubs, no join node.
+```python
+class QuipuMulti:
+    """Multisig variant of Quipu. All listed private keys sign every tx
+    (m=n cosigning). Mirrors Quipu's three-phase lifecycle exactly."""
+    DOGE_P2SH_MAGIC = 22
 
-## Caveats
+    def __init__(self, privkeys_hex, utxo, strand_payloads,
+                 tip=5_000_000, root_fee=5_000_000, join_fee=5_000_000):
+        # ... same shape as Quipu.__init__ but:
+        self.prvs = privkeys_hex       # list of priv hex
+        self.doge = cryptos.Doge()
+        self.doge.script_magicbyte = self.DOGE_P2SH_MAGIC
+        self.pubs = [self.doge.privtopub(p) for p in privkeys_hex]
+        self.script, self.addr = self.doge.mk_multisig_address(
+            *self.pubs, num_required=len(self.pubs),
+        )
+        # ... rest unchanged
 
-1. **`df_out` is wallet-scoped.** If a strand terminus is spent by a
-   tx involving only non-watched addresses, `spent_in` is empty.
-   `gettxout` is the authoritative "is it spent" check but doesn't tell
-   you the spender. For a full picture you'd need a chain-wide forward
-   index. For v1, "wallet-visible spend → consolidation, otherwise
-   either unspent or export" is a fine heuristic — the visual just
-   needs to be honest about which it is. Possibly add a separate
-   `gettxout`-driven pass to distinguish "unspent" from
-   "spent-but-spender-not-watched".
+    def build_root(self):
+        # Same shape as Quipu.build_root, but instead of
+        #   signed = self.doge.signall(tx, self.priv)
+        # do:
+        n_inputs = 1  # root spends exactly one utxo
+        for i in range(n_inputs):
+            sigs = [
+                self.doge.multisign(tx=tx, i=i, script=self.script, pk=p)
+                for p in self.prvs
+            ]
+            tx = cryptos.apply_multisignatures(tx, i, self.script, *sigs)
+        signed = tx
+        # ... rest unchanged
 
-2. **Strand termini may already exist as `bridge` nodes.** The backward
-   pass adds nodes for any funding ancestor. If one quipu's terminus
-   funds another quipu's root, the terminus is already a node (kind
-   `bridge` or `joining`). Be careful not to overwrite — check
-   `nodes` membership and pick the more-informative label
-   (`strand_terminus` should win over generic `bridge`).
+    def precompute_strands(self):
+        # Same as Quipu.precompute_strands but use CadenaMultiAtom:
+        for i, payload in enumerate(self.strand_payloads):
+            cad = CadenaMultiAtom(
+                self.prvs, payload,
+                {"output": f"{self.root_txid}:{i}", "value": self.strand_seeds[i]},
+                self.tip,
+            )
+            cad.precompute()
+            self.strands.append(cad)
+        # ... rest unchanged
 
-3. **Edge multiplicity.** Adding root → terminus → spend creates two
-   new edges per strand. For a 5-strand quipu that's 10 new edges.
-   Pyvis handles this fine but the force-directed layout may need
-   tuning (the `spring_length` in `barnes_hut` may want to drop a
-   touch).
+    def build_join(self):
+        # N inputs (one per strand terminus) — must multisign EACH
+        # input individually.
+        tx = self.doge.mktx(inputs, [{"value": output_value, "address": self.addr}])
+        for i in range(len(inputs)):
+            sigs = [
+                self.doge.multisign(tx=tx, i=i, script=self.script, pk=p)
+                for p in self.prvs
+            ]
+            tx = cryptos.apply_multisignatures(tx, i, self.script, *sigs)
+        # ... rest unchanged
+```
 
-4. **Performance.** The forward pass is O(quipus × strands), each step
-   one `df_out` lookup. Cheap compared to `scan_accounts`. No new RPC
-   calls.
+The other methods (`broadcast_root`, `wait_root_confirmed`,
+`broadcast_strands`, `wait_strands_confirmed`, `broadcast_join`) don't
+care about signing — they just push hex to `sendrawtransaction`. They
+can be inherited or copy-pasted unchanged.
 
-## Files to touch
+### Step 4 — wire into the Inscribe tab
 
-- [quipu_console.py](quipu_console.py) — `compute_quipu_topology`
-  (forward pass), `render_topology_pyvis` (new node kinds),
-  optionally `build_history_dot` for the forest view
-- No `colegio_tools.py` changes expected — all the data is already in
-  `df_out` / `df_tx`.
+`quipu_console.py` Inscribe tab currently instantiates `Quipu(priv_hex,
+utxo, all_payloads, ...)` using the loaded single privkey.
 
-## Beyond this build
+Pattern to add:
 
-Once consolidation is visible, these become natural follow-ups (from
-the discussion earlier):
+1. When the user picks a funding UTXO, check whether its address is at
+   a multisig the session knows about — either:
+   - The auto-computed multisig from currently-loaded 2+ keys, or
+   - A loaded multisig from `st.session_state["loaded_multisigs"]`
+2. If it's a multisig AND we have all the participants' privkeys
+   loaded, use `QuipuMulti(prvs_list, utxo, ...)` instead of `Quipu`
+3. If it's a multisig but we DON'T have all the participants' keys,
+   surface a clear error: "Loaded only N of M required keys for this
+   multisig; cannot cosign."
 
-- **Address space boundary** — a soft enclosure around watched-
-  address nodes; everything outside is funding-source or export.
-- **Keydrop ↔ encrypted edges** — dashed edge between a keydrop quipu
-  node and the encrypted quipu it unlocks. `find_keydrop_for` already
-  detects these.
-- **Time-aware layout** — fix Y positions by blocktime so the topology
-  is also a timeline.
-- **Cross-quipu funding edges** — when a strand terminus funds another
-  quipu's root, label that edge as "→ quipu N+1" explicitly.
+For your specific test case (2-of-2 with both keys loaded), the
+detection is: `utxo.address == sidebar_multisig_addr` AND
+`len(priv_keys) == 2` → use `QuipuMulti([k1, k2], ...)`.
 
-## Where state currently is (2026-05-14, post-encryption build)
+### Step 5 — actually inscribe one
 
-- 25 quipus on apocrypha; broadcast/keydrop pairs `d0209a…↔89b51b…`
-  and `d68175…↔f278e4…` decrypt inline in the console
-- No `0x0e 0xae` quipu inscribed on chain yet — first-light AES-sealed
-  inscription on apocrypha is also a natural next task (smaller in
-  scope than the topology rework)
-- Streamlit console runs at http://localhost:8501; launch with:
-  ```
-  cd ~/Desktop/Colegio_Invisible
-  .venv/bin/streamlit run quipu_console.py
-  ```
-- Latest commit on `main`: `0c3b039` (encrypted-quipu support)
+Once wired up:
+
+1. Open Inscribe tab
+2. Pick the multisig UTXO (`2ea5daa18ae73e13…:1`, 40 DOGE)
+3. Pick a small Plan (e.g., a text quipu titled "Multisig test")
+4. Run Phase 1 (build_root + broadcast_root + wait 1 conf)
+5. Run Phase 2 (precompute_strands + broadcast_strands + wait)
+6. Run Phase 3 (build_join + broadcast_join)
+7. New quipu rooted at `<some_txid>`, multisig-cosigned, on chain
+
+This is the **first end-to-end multisig inscription** in the project's
+history. La Verna and Third Cert pre-funded roots can use the same
+machinery once you scope the bordado 3-of-3 cosigning (which means H,
+C, A all need to load their keys in the same session, or PSBT-style
+round-robin between sessions).
+
+## Known issues from the previous session
+
+These weren't fully resolved and might bite you:
+
+1. **Streamlit rerun storm + 80–116% CPU** under some conditions —
+   diagnosed as fast reruns (113–373 ms apart), captured by an
+   in-script `_diag_rerun_counter` that logs to stderr. The topology
+   view (force-directed pyvis + cellular hull overlay) was the
+   strongest suspect; it's now **off by default** behind a `☐ Render
+   topology` checkbox in the Wallet tab. With the toggle off, fresh
+   restarts sit at 0% CPU.
+
+   Was *also* suspected to be triggered by an auto-import retry loop —
+   that bug is fixed (`_imported_set.add(addr)` now happens *before*
+   the RPC call, so a thrown exception doesn't keep us retrying every
+   rerun). But the spin sometimes recurred even after the fix, so
+   there may be another driver. The diagnostic counter is still in
+   place at the top of the sidebar block — watch `/tmp/*.log` for
+   `[rerun-counter] fast rerun` lines.
+
+2. **Pruned-mode node** means `importaddress` with `rescan=true`
+   fails. The "🔄 Rescan chain for this address" button surfaces the
+   error but can't recover. The workaround: `gettxout <txid> <vout>`
+   for known funding txs. There's a `_find_utxos_pruned_safe` helper
+   I started writing but the user interrupted before it landed — see
+   conversation transcript. The user's existing UTXO at the multisig
+   was found this way (above).
+
+3. **Notebook diffs** in `16_cuaderno.ipynb`–`19_cuaderno.ipynb` are
+   Jupyter auto-save metadata noise and are deliberately *not*
+   committed across sessions. Leave them alone unless the user asks.
+
+## Where state currently is (2026-05-16, post-multisig-UI)
+
+What was committed in `816f81e` (the previous big commit):
+- Topology overhaul (strand-terminus consolidation, keydrop edges,
+  multi-address combined view, cellular hull overlay, edge dedup +
+  ×N labels with cap=54)
+- `essay_renderer.py` typographic body renderer for text/identity/cert
+  with `<<txid>>` references, embedded images, sig verification
+- Multi-key sidebar with combined-key reader
+- File upload / drag-drop for keyfiles
+- Keys tab with Dogecoin keypair generation, AES key generation,
+  multisig P2SH derivation
+- Direct-pixel image rendering
+
+What's still uncommitted (the in-flight work that this handoff
+preserves):
+- Folder picker (`_folder_input_with_browse` with macOS-native
+  `osascript`-based 📂 Browse… button) in 4 sites
+- "✨ Make a key" expander in sidebar with auto-load + folder-save
+- "💾 Save multisig" expander in sidebar for the auto-computed multisig
+- Sidebar "Loaded multisigs" section with 📥 Load expander, QR
+  popovers, balance lookup, 🔄 Rescan (pruned-mode-fragile) button
+- 📷 QR popovers on each loaded key row and the multisig address
+- Combined pubkey hex (replaced the misleading derived address)
+- ↻ Refresh balances button at sidebar top
+- `_cached_rpc(method, params, ttl=10)` helper wrapping every sidebar
+  RPC
+- `_auto_import(addr, label)` that calls `importaddress(addr, label,
+  False)` once per session — with the retry-loop fix
+- Topology toggle (default OFF)
+- Edge dedup with `×N` strand-count labels (capped at 54 for physics
+  stability)
+- `_diag_rerun_counter` diagnostic at top of sidebar
+
+All committed together as one handoff commit (with this NEXT.md).
+
+## Quick environment reminders
+
+- Streamlit launch: `cd ~/Desktop/Colegio_Invisible && .venv/bin/streamlit run quipu_console.py --server.headless=true --browser.gatherUsageStats=false`
+- The user's Dogecoin node is **pruned** — assume `rescan` doesn't work
+- Git identity for this repo is **Christophia Hayagriva (ProfDoeg)** —
+  never Anthony Schultz, never the Claude default
+- The user prefers to commit specific files explicitly (skip the
+  `16-19_cuaderno.ipynb` auto-save noise)
+- Apocrypha is the test address (`D6zKNn…`); bordado is sacred
+  (`9xth7D…`) — never test against bordado
