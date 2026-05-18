@@ -26,6 +26,7 @@ from cryptos import serialize as cs_serialize
 from colegio_tools import (
     rpc_request,
     CadenaAtom,
+    CadenaMultiAtom,
     _txid_of_serial,
 )
 
@@ -302,3 +303,182 @@ class Quipu:
             "total_fees_DOGE": self.total_fees_sat() / 10**8,
             "addr": self.addr,
         }
+
+
+# =====================================================================
+# QuipuMulti — multisig variant
+# =====================================================================
+#
+# Same three-phase lifecycle as Quipu, but every signing step cosigns
+# with all listed private keys (m=n). The funding UTXO must live at the
+# derived P2SH multisig address; everything stays at that address until
+# the join consolidates it back.
+#
+# Inherits the broadcast_* / wait_* / total_fees_sat / summary methods
+# from Quipu — they only touch serialized hex and txids and don't care
+# how the txs were signed.
+
+class QuipuMulti(Quipu):
+    """Multisig variant of Quipu. All listed private keys cosign every tx
+    (m=n cosigning). Mirrors Quipu's three-phase lifecycle exactly.
+
+    Args:
+        privkeys_hex: list of signing keys as hex strings (no 0x prefix).
+                      ALL keys must be present — this is m=n cosigning, not
+                      threshold. For 2-of-3 etc. you'd need a different
+                      orchestrator (PSBT-style across sessions).
+        utxo:        {"output": "txid:vout", "value": int_satoshis} at the
+                     derived multisig address.
+        strand_payloads, tip, root_fee, join_fee: same as Quipu.
+    """
+
+    DOGE_P2SH_MAGIC = 22
+
+    def __init__(
+        self,
+        privkeys_hex,
+        utxo,
+        strand_payloads,
+        tip=5_000_000,
+        root_fee=5_000_000,
+        join_fee=5_000_000,
+    ):
+        if len(strand_payloads) < 1:
+            raise ValueError("need at least one strand (the cabeza)")
+        if len(strand_payloads) > 255:
+            raise ValueError("max 255 strands per quipu")
+        if len(privkeys_hex) < 2:
+            raise ValueError("need at least 2 keys for a multisig quipu")
+
+        self.prvs = list(privkeys_hex)
+        self.utxo = utxo
+        self.strand_payloads = strand_payloads
+        self.tip = tip
+        self.root_fee = root_fee
+        self.join_fee = join_fee
+
+        self.doge = cryptos.Doge()
+        self.doge.script_magicbyte = self.DOGE_P2SH_MAGIC
+        self.pubs = [self.doge.privtopub(p) for p in self.prvs]
+        self.script, self.addr = self.doge.mk_multisig_address(
+            *self.pubs, num_required=len(self.pubs)
+        )
+
+        # priv kept as None so any accidental single-key path errors fast
+        # rather than silently signing with one key.
+        self.priv = None
+
+        self.state = STATE_INIT
+        self.root_txid = None
+        self.root_hex = None
+        self.strand_seeds = None
+        self.strands = []  # list of CadenaMultiAtom
+        self.join_txid = None
+        self.join_hex = None
+
+    # -----------------------------------------------------------------
+    # Phase 1 — instantiate (root tx)
+    # -----------------------------------------------------------------
+
+    def build_root(self):
+        """Build and cosign the root tx. Does not broadcast.
+        Same value-allocation logic as Quipu.build_root, but signs the
+        single input with all N keys via apply_multisignatures."""
+        n = len(self.strand_payloads)
+        funds = self.utxo["value"] - self.root_fee
+        per = funds // n
+        remainder = funds - per * n
+        seeds = [per] * n
+        seeds[0] += remainder
+        self.strand_seeds = seeds
+
+        tx = self.doge.mktx(
+            [self.utxo],
+            [{"value": s, "address": self.addr} for s in seeds],
+        )
+        # Root spends exactly one input. Cosign it with every key.
+        sigs = [
+            self.doge.multisign(tx=tx, i=0, script=self.script, pk=p)
+            for p in self.prvs
+        ]
+        signed = cryptos.apply_multisignatures(tx, 0, self.script, *sigs)
+        self.root_hex = cs_serialize(signed)
+        self.root_txid = _txid_of_serial(self.root_hex)
+        self.state = STATE_ROOT_BUILT
+        return self.root_txid
+
+    # broadcast_root, wait_root_confirmed: inherited from Quipu
+
+    # -----------------------------------------------------------------
+    # Phase 2 — fill (precompute + broadcast all strands)
+    # -----------------------------------------------------------------
+
+    def precompute_strands(self):
+        """Build and cosign every strand tx. No network calls.
+        Each strand is a CadenaMultiAtom — same shape as CadenaAtom but
+        every tx in the chain is multisigned with all N keys."""
+        if self.state not in (
+            STATE_ROOT_BUILT, STATE_ROOT_BROADCAST, STATE_ROOT_CONFIRMED
+        ):
+            raise RuntimeError(f"can't precompute from {self.state}")
+        self.strands = []
+        for i, payload in enumerate(self.strand_payloads):
+            cad = CadenaMultiAtom(
+                self.prvs,
+                payload,
+                {"output": f"{self.root_txid}:{i}", "value": self.strand_seeds[i]},
+                self.tip,
+            )
+            cad.precompute()
+            self.strands.append(cad)
+        self.state = STATE_STRANDS_PRECOMPUTED
+        return [(c.txn_ids, len(c.txns)) for c in self.strands]
+
+    # broadcast_strands, wait_strands_confirmed: inherited from Quipu
+
+    # -----------------------------------------------------------------
+    # Phase 3 — close (joining tx)
+    # -----------------------------------------------------------------
+
+    def build_join(self):
+        """Build the joining tx: N inputs from strand termini → 1 output back
+        to the multisig address. Each input must be multisigned individually."""
+        if self.state != STATE_STRANDS_CONFIRMED:
+            raise RuntimeError(f"can't build join from {self.state}")
+        inputs = []
+        for i, cad in enumerate(self.strands):
+            terminus_value = self.strand_seeds[i] - self.tip * len(cad.txns)
+            inputs.append(
+                {"output": f"{cad.txn_ids[-1]}:0", "value": terminus_value}
+            )
+        total = sum(i["value"] for i in inputs)
+        output_value = total - self.join_fee
+        if output_value <= 0:
+            raise RuntimeError("joining tx would have non-positive output")
+        tx = self.doge.mktx(
+            inputs, [{"value": output_value, "address": self.addr}]
+        )
+        # Cosign each input independently. apply_multisignatures returns a
+        # new tx with input i's scriptSig set; other inputs are untouched.
+        for i in range(len(inputs)):
+            sigs = [
+                self.doge.multisign(tx=tx, i=i, script=self.script, pk=p)
+                for p in self.prvs
+            ]
+            tx = cryptos.apply_multisignatures(tx, i, self.script, *sigs)
+        self.join_hex = cs_serialize(tx)
+        self.join_txid = _txid_of_serial(self.join_hex)
+        self.state = STATE_JOIN_BUILT
+        return self.join_txid
+
+    # broadcast_join, wait_join_confirmed: inherited from Quipu
+
+    # -----------------------------------------------------------------
+    # Reporting
+    # -----------------------------------------------------------------
+
+    def summary(self):
+        base = super().summary()
+        base["mode"] = "multisig"
+        base["n_signers"] = len(self.prvs)
+        return base

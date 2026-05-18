@@ -264,8 +264,8 @@ class CadenaMulti:
         self.txn_ids = [utxo_dct["output"].split(":")[0]]
         self.prvs = prvkeys
         self.pubs = [self.doge.privtopub(p) for p in prvkeys]
-        self.script, self.addr = self.doge.mk_multsig_address(
-            self.pubs, len(self.pubs)
+        self.script, self.addr = self.doge.mk_multisig_address(
+            *self.pubs, num_required=len(self.pubs)
         )
         self.tip = tip
         self.index = 0
@@ -431,8 +431,8 @@ class CadenaMultiAtom:
         self.utxo = utxo_dct
         self.prvs = prvkeys
         self.pubs = [self.doge.privtopub(p) for p in prvkeys]
-        self.script, self.addr = self.doge.mk_multsig_address(
-            self.pubs, len(self.pubs)
+        self.script, self.addr = self.doge.mk_multisig_address(
+            *self.pubs, num_required=len(self.pubs)
         )
         self.tip = tip
         self.state = STATE_INIT
@@ -622,36 +622,93 @@ def scan_accounts(accounts):
     return df_tx, df_out
 
 
-def read_strand(txout, df_outputs):
-    """Walk a strand using a pre-built df_outputs (iterative — no recursion)."""
+def _build_spender_index_rpc(address):
+    """For an address loaded in the wallet, build a {txout -> spender_txid} dict
+    by scanning the wallet's tx history at that address. Used by read_strand
+    when no df_outputs is provided (RPC mode)."""
+    spent_map = {}
+    # Pull a generous slice of wallet txs (multiple labels possible — listtransactions
+    # is filterable by label/account, but we just grab all and filter by address).
+    txs = rpc_request("listtransactions", ["*", 10000, 0, True])
+    seen_txids = set()
+    for entry in txs:
+        if entry.get("address") != address:
+            continue
+        txid = entry["txid"]
+        if txid in seen_txids:
+            continue
+        seen_txids.add(txid)
+        raw = rpc_request("getrawtransaction", [txid, 1])
+        for vin in raw.get("vin", []):
+            prev = vin.get("txid")
+            if prev is None:
+                continue
+            spent_map[f"{prev}:{vin['vout']}"] = txid
+    return spent_map
+
+
+def read_strand(txout, df_outputs=None, spender_map=None):
+    """Walk a strand iteratively, collecting OP_RETURN payload bytes along the way.
+
+    Two backends:
+      - If df_outputs is given, walk using the pre-scanned dataframe (fast, bulk).
+      - Otherwise walk via RPC. spender_map ({txout -> spender_txid}) must be
+        provided; build it once per address with _build_spender_index_rpc.
+
+    Returns hex-string of concatenated OP_RETURN payloads (empty if no strand)."""
     out = ""
     cur = txout
     while True:
-        rows = df_outputs[df_outputs["txout"] == cur]
-        if rows.empty:
-            return out
-        row = rows.iloc[0]
-        spend_tx = row["spent_in"]
-        if not spend_tx:
-            return out
-        spend_head = f"{spend_tx}:0"
-        spend_rows = df_outputs[df_outputs["txout"] == spend_head]
-        if spend_rows.empty:
-            return out
-        spend_row = spend_rows.iloc[0]
-        if not spend_row["op_return"]:
-            return out
-        out += spend_row["op_return"]
-        cur = spend_head
+        if df_outputs is not None:
+            rows = df_outputs[df_outputs["txout"] == cur]
+            if rows.empty: return out
+            spend_tx = rows.iloc[0]["spent_in"]
+            if not spend_tx: return out
+            spend_rows = df_outputs[df_outputs["txout"] == f"{spend_tx}:0"]
+            if spend_rows.empty: return out
+            op_data = spend_rows.iloc[0]["op_return"]
+            if not op_data: return out
+        else:
+            spend_tx = (spender_map or {}).get(cur)
+            if spend_tx is None: return out
+            raw = rpc_request("getrawtransaction", [spend_tx, 1])
+            op_data = None
+            for v in raw.get("vout", []):
+                d = extract_op_return(v)
+                if d:
+                    op_data = d
+                    break
+            if not op_data: return out
+        out += op_data
+        cur = f"{spend_tx}:0"
 
 
-def read_quipu(tx, df_outputs):
-    """Multi-strand pre-scan read. Strand 0 is header, strands 1..N are body."""
-    header = read_strand(f"{tx}:0", df_outputs)
+def read_quipu(tx, df_outputs=None):
+    """Read a multi-strand quipu from its root txid. Strand 0 is the header
+    (cabeza); strands 1..N are body chunks (cuerpos), concatenated in order.
+
+    Two backends, auto-selected:
+      - If df_outputs is given → dataframe walker (fast for bulk reads).
+      - Otherwise → RPC walker. Derives the address from the root tx's first
+        output, builds a spender index once, then walks each strand."""
+    if df_outputs is None:
+        # RPC mode — derive address from root tx, build spender map once
+        root = rpc_request("getrawtransaction", [tx, 1])
+        first_out = root["vout"][0]
+        addrs = first_out.get("scriptPubKey", {}).get("addresses", [])
+        if not addrs:
+            raise ValueError(f"can't derive address from {tx} output 0")
+        address = addrs[0]
+        spender_map = _build_spender_index_rpc(address)
+        kwargs = {"spender_map": spender_map}
+    else:
+        kwargs = {"df_outputs": df_outputs}
+
+    header = read_strand(f"{tx}:0", **kwargs)
     body_parts = []
     idx = 1
     while True:
-        strand = read_strand(f"{tx}:{idx}", df_outputs)
+        strand = read_strand(f"{tx}:{idx}", **kwargs)
         if strand == "":
             break
         body_parts.append(strand)
@@ -1291,9 +1348,44 @@ def gen_save_keys_addr(basename_filepath, password=None, coin="Doge"):
     return make_qr(addr2save, basename_filepath + "_addr.png")
 
 
+def add_address_to_watch(address, label="watch"):
+    """Register an address for the wallet to watch. NEVER rescans.
+
+    Use for addresses we just created and funded ourselves — the wallet
+    sees their txs automatically as new blocks arrive. Idempotent: safe
+    to call repeatedly for the same address.
+
+    For deep historical scans across the full chain, see scantxoutset (CLI
+    only — there is intentionally no Python wrapper because it's a footgun
+    in interactive UIs).
+    """
+    return rpc_request("importaddress", [address, label, False])
+
+
+def get_address_utxos(address):
+    """Return current spendable UTXOs at a watched address. Fast (~ms),
+    no scan, does not block other RPC. Call repeatedly to refresh balances
+    in a UI."""
+    return rpc_request("listunspent", [0, 9999999, [address]])
+
+
 def add_address_to_node(address, label, rescan=False):
-    """Register a watch-only address with the connected Dogecoin node."""
-    return rpc_request("importaddress", [address, label, rescan])
+    """DEPRECATED. Use add_address_to_watch() instead.
+
+    Kept for backward compatibility with older scripts. The rescan
+    argument is forcibly ignored — this function now NEVER triggers a
+    chain rescan. If you really need a historical scan, use scantxoutset
+    from the CLI as a deliberate act, not via library call.
+    """
+    if rescan:
+        import warnings
+        warnings.warn(
+            "add_address_to_node(rescan=True) is now a no-op. "
+            "The rescan footgun was removed. Use scantxoutset from CLI "
+            "if you genuinely need a historical scan.",
+            DeprecationWarning, stacklevel=2,
+        )
+    return rpc_request("importaddress", [address, label, False])
 
 
 # ---------------------------------------------------------------------------

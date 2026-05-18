@@ -213,10 +213,12 @@ These weren't fully resolved and might bite you:
 2. **Pruned-mode node** means `importaddress` with `rescan=true`
    fails. The "🔄 Rescan chain for this address" button surfaces the
    error but can't recover. The workaround: `gettxout <txid> <vout>`
-   for known funding txs. There's a `_find_utxos_pruned_safe` helper
-   I started writing but the user interrupted before it landed — see
-   conversation transcript. The user's existing UTXO at the multisig
-   was found this way (above).
+   for known funding txs. *Earlier drafts of this NEXT.md mentioned a
+   `_find_utxos_pruned_safe` helper "I started writing" — that helper
+   does not exist in the repo (verified by grep). Don't go hunting
+   for a transcript; if you need it, write it from scratch using the
+   `gettxout` workaround.* The user's existing 40 DOGE multisig UTXO
+   was located via `gettxout 2ea5daa…:1`.
 
 3. **Notebook diffs** in `16_cuaderno.ipynb`–`19_cuaderno.ipynb` are
    Jupyter auto-save metadata noise and are deliberately *not*
@@ -224,39 +226,92 @@ These weren't fully resolved and might bite you:
 
 ## Where state currently is (2026-05-16, post-multisig-UI)
 
-What was committed in `816f81e` (the previous big commit):
+**Verified ground truth as of this handoff** (run `git status` +
+`git log -1 --stat` yourself if you want to confirm):
+
+- HEAD is `e39e9c0` "Sidebar key+multisig UX + handoff NEXT.md for
+  the QuipuMulti build" — this commit landed ALL of the sidebar UX
+  work that earlier drafts of this file called "still uncommitted."
+  Folder picker, ✨ Make a key, 💾 Save multisig, Loaded multisigs
+  section, QR popovers, combined pubkey hex, ↻ Refresh, `_cached_rpc`,
+  `_auto_import` with retry-loop fix, topology toggle (default OFF),
+  edge dedup with `×N` cap=54, `_diag_rerun_counter` — all shipped.
+- Working tree is clean except for auto-save noise in
+  `16-19_cuaderno.ipynb` (leave alone — see Known Issues #3).
+- Branch is up to date with `origin/main`.
+
+So: don't go looking for "missing in-flight work." There isn't any.
+The work for THIS session is the QuipuMulti build described above,
+on top of a clean repo.
+
+Earlier shipped pieces (for context, from `816f81e` and prior):
 - Topology overhaul (strand-terminus consolidation, keydrop edges,
-  multi-address combined view, cellular hull overlay, edge dedup +
-  ×N labels with cap=54)
+  multi-address combined view, cellular hull overlay)
 - `essay_renderer.py` typographic body renderer for text/identity/cert
   with `<<txid>>` references, embedded images, sig verification
-- Multi-key sidebar with combined-key reader
-- File upload / drag-drop for keyfiles
+- Multi-key sidebar with combined-key reader; file upload / drag-drop
+  for keyfiles
 - Keys tab with Dogecoin keypair generation, AES key generation,
   multisig P2SH derivation
 - Direct-pixel image rendering
+- 0x0e 0xae AES-sealed sub-family (read + write), keydrop
+  auto-resolution
 
-What's still uncommitted (the in-flight work that this handoff
-preserves):
-- Folder picker (`_folder_input_with_browse` with macOS-native
-  `osascript`-based 📂 Browse… button) in 4 sites
-- "✨ Make a key" expander in sidebar with auto-load + folder-save
-- "💾 Save multisig" expander in sidebar for the auto-computed multisig
-- Sidebar "Loaded multisigs" section with 📥 Load expander, QR
-  popovers, balance lookup, 🔄 Rescan (pruned-mode-fragile) button
-- 📷 QR popovers on each loaded key row and the multisig address
-- Combined pubkey hex (replaced the misleading derived address)
-- ↻ Refresh balances button at sidebar top
-- `_cached_rpc(method, params, ttl=10)` helper wrapping every sidebar
-  RPC
-- `_auto_import(addr, label)` that calls `importaddress(addr, label,
-  False)` once per session — with the retry-loop fix
-- Topology toggle (default OFF)
-- Edge dedup with `×N` strand-count labels (capped at 54 for physics
-  stability)
-- `_diag_rerun_counter` diagnostic at top of sidebar
+## Broadcast strategy and recovery for the 40 DOGE multisig
 
-All committed together as one handoff commit (with this NEXT.md).
+The previous session flagged two open questions before closing.
+Answers:
+
+**1. Is Step 5 (broadcast first multisig inscription) for this
+session or dry-run only?**
+
+For this session. The user funded the multisig with 40 DOGE
+specifically to inscribe from it — this is a deliberate live test,
+not a dry-run rehearsal. Step 2 (the fake-utxo signing check) IS the
+dry-run; once it passes you've proven the primitive without touching
+chain. Then Step 5 is the real inscription.
+
+That said: pick a **small** Plan for the first one — single text
+strand, ~100 bytes body, title "Multisig test" or similar. Don't
+inscribe an image or anything multi-strand on the first attempt.
+A minimal 1-strand quipu exercises root + 1 cabeza + join (3 txs) —
+enough to validate cosigning end-to-end without burning fees on a
+flaky maiden run.
+
+**2. Recovery plan if the 40 DOGE multisig broadcast goes wrong?**
+
+The recovery story is good because every quipu tx output is
+spendable by the *same* cosigners. There is no irreversible state.
+
+- *Signing fails locally* (bad sigs, hex won't deserialize): nothing
+  broadcast → no recovery needed. Fix and retry.
+- *Root broadcasts but a strand fails to broadcast*: the root tx now
+  pins 1+N outputs at the multisig address (the cabeza + body
+  seeds + change). All are P2SH multisig — cosignable with the same
+  two keys. Build a sweep tx that consolidates them back to a fresh
+  multisig output (or to the original 40 DOGE-style consolidated
+  shape) and broadcast. The orchestrator's `build_join` is already
+  the right shape for this — it's literally an N→1 cosigned tx; you
+  can repurpose it.
+- *Strands broadcast but join fails*: same story — every strand's
+  tip output is sitting at the multisig address, recoverable with a
+  cosigned sweep tx. Run `gettxout` on each `<strand_txid>:1` to
+  enumerate what's recoverable (pruned-safe).
+- *Stuck in mempool*: Dogecoin's mempool min-relay tends to clear
+  reorgs faster than Bitcoin's. If a tx sits >30 min, RBF isn't
+  enabled by default in cryptos's `mktx` — easiest is to wait, or
+  bump fee on a new equivalent tx with the same inputs once mempool
+  drops it.
+
+Worst-case math: if everything goes to mempool but nothing confirms
+and you want to abort, you wait for mempool eviction (no funds lost,
+just back to the original 40 DOGE UTXO). If everything confirms
+through to strands but the join fails permanently, you have a few
+multisig UTXOs totaling ~40 DOGE minus fees (~0.1 DOGE per tx so far)
+— recoverable with one cosigned sweep.
+
+The 40 DOGE itself is never at risk of being lost, only of being
+fragmented into multiple cosignable UTXOs that need a sweep.
 
 ## Quick environment reminders
 

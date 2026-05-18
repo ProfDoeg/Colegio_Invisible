@@ -36,7 +36,7 @@ import colegio_tools as ct
 from quipu_crypto import combine_pubkeys
 import essay_renderer
 from quipu_orchestrator import (
-    Quipu,
+    Quipu, QuipuMulti,
     STATE_INIT, STATE_ROOT_BUILT, STATE_ROOT_BROADCAST, STATE_ROOT_CONFIRMED,
     STATE_STRANDS_PRECOMPUTED, STATE_STRANDS_BROADCAST, STATE_STRANDS_CONFIRMED,
     STATE_JOIN_BUILT, STATE_JOIN_BROADCAST, STATE_DONE,
@@ -257,28 +257,23 @@ with st.sidebar:
                             st.code(ms_addr, language=None)
                         except Exception as _e:
                             st.error(f"QR failed: {_e}")
-                        if st.button("🔄 Rescan chain for this address",
+                        if st.button("🔄 Refresh balance",
                                      use_container_width=True,
-                                     key="rescan_sidebar_ms",
-                                     help="Slow — only needed once to "
-                                          "catch a tx that was sent "
-                                          "before the address joined the "
-                                          "watch set."):
+                                     key="refresh_sidebar_ms",
+                                     help="Re-query current UTXOs (fast, ~ms). "
+                                          "The wallet sees new txs at this "
+                                          "address automatically as blocks "
+                                          "arrive — refresh just bypasses the "
+                                          "10s session cache."):
                             try:
-                                with st.spinner("Rescanning… this can take "
-                                                "a few minutes."):
-                                    ct.add_address_to_node(
-                                        ms_addr,
-                                        f"sidebar_{n}of{n}_multisig",
-                                        True,
-                                    )
-                                st.success("Rescan complete.")
+                                # Drop cached listunspent for this address
                                 cache = st.session_state.get("_rpc_cache", {})
                                 for ckey in list(cache.keys()):
                                     if (isinstance(ckey, tuple)
                                             and ckey[0] == "listunspent"
                                             and ms_addr in repr(ckey[1])):
                                         cache.pop(ckey, None)
+                                st.success("Balance refreshed.")
                             except Exception as e:
                                 st.error(f"Rescan failed: {e}")
 
@@ -531,32 +526,27 @@ with st.sidebar:
                     )
                 except Exception as _e:
                     st.error(f"QR failed: {_e}")
-                # Per-multisig rescan — catches past txs sent before
-                # the address was first imported
-                if st.button("🔄 Rescan chain for this address",
+                # Per-multisig "refresh balance" — re-queries current UTXOs.
+                # Does NOT rescan the chain. New txs at this address show up
+                # automatically as blocks arrive; this just bypasses the 10s
+                # session cache for an immediate display refresh.
+                if st.button("🔄 Refresh balance",
                              use_container_width=True,
-                             key=f"rescan_ms_{i}",
-                             help="Slow (minutes) — only needed once to "
-                                  "catch a tx that was sent before the "
-                                  "address joined the watch set."):
+                             key=f"refresh_ms_{i}",
+                             help="Re-query current UTXOs (fast). The "
+                                  "wallet already sees new txs as blocks "
+                                  "arrive — this just bypasses the 10s "
+                                  "session cache."):
                     try:
-                        with st.spinner("Rescanning… this can take a few "
-                                        "minutes. RPC blocks until done."):
-                            ct.add_address_to_node(
-                                ms["address"],
-                                ms.get("basename", "rescan"),
-                                True,
-                            )
-                        st.success("Rescan complete.")
-                        # Force balance refresh
                         cache = st.session_state.get("_rpc_cache", {})
                         for ckey in list(cache.keys()):
                             if (isinstance(ckey, tuple)
                                     and ckey[0] == "listunspent"
                                     and ms["address"] in repr(ckey[1])):
                                 cache.pop(ckey, None)
+                        st.success("Balance refreshed.")
                     except Exception as e:
-                        st.error(f"Rescan failed: {e}")
+                        st.error(f"Refresh failed: {e}")
         with c3:
             if st.button("✕", key=f"remove_ms_{i}",
                          help="Remove this multisig from the session"):
@@ -2661,31 +2651,179 @@ with tab_inscribe:
                  f"|  **Tone:** {'reverence' if plan['tone'] == 0xff else 'ordinary'}  "
                  f"|  **Strands:** {plan['n_strands']}")
 
-        # Pick UTXO
-        utxos = st.session_state.get("utxos", [])
-        if not utxos:
-            st.error("No UTXOs at this address. Send some DOGE first.")
+        # -----------------------------------------------------------------
+        # Build a unified list of funding sources. Each source carries
+        # one or more UTXOs + the signing info needed for that source:
+        #   kind="single" → priv_hex (single-key Quipu)
+        #   kind="multi"  → prv_list  (QuipuMulti, m=n cosigning)
+        #   kind="blocked" → loaded multisig where we don't have all keys
+        # -----------------------------------------------------------------
+        import cryptos as _cr_ins  # local — matches the codebase pattern
+        _doge = _cr_ins.Doge()
+        sources = []   # list of dicts: {kind, label, utxo, prv|prv_list, address}
+
+        # (1) Every loaded single key. priv_keys[0] also matches
+        # session_state.utxos; later keys re-listunspent on demand.
+        for ki, k in enumerate(st.session_state.get("priv_keys", [])):
+            if ki == 0:
+                ut = st.session_state.get("utxos", []) or []
+            else:
+                try:
+                    ut = _cached_rpc(
+                        "listunspent", [0, 9999999, [k["addr"]]], ttl=10.0,
+                    )
+                except Exception:
+                    ut = []
+            for u in ut:
+                sources.append({
+                    "kind": "single",
+                    "label": f"key{ki+1} `{k['addr'][:10]}…`",
+                    "utxo": u,
+                    "prv": k["priv_hex"],
+                    "address": k["addr"],
+                })
+
+        # (2) Auto-computed N-of-N multisig from currently-loaded keys
+        # (matches the sidebar's "{n}-of-{n} multisig address" panel).
+        priv_keys = st.session_state.get("priv_keys", [])
+        auto_ms_addr = None
+        if len(priv_keys) >= 2:
+            try:
+                _pubs = [_doge.privtopub(k["priv_hex"]) for k in priv_keys]
+                _redeem, auto_ms_addr = _doge.mk_multisig_address(
+                    *_pubs, num_required=len(_pubs),
+                )
+                ut = _cached_rpc(
+                    "listunspent", [0, 9999999, [auto_ms_addr]], ttl=10.0,
+                )
+                for u in ut:
+                    sources.append({
+                        "kind": "multi",
+                        "label": (
+                            f"{len(priv_keys)}-of-{len(priv_keys)} multisig "
+                            f"`{auto_ms_addr[:10]}…` (auto)"
+                        ),
+                        "utxo": u,
+                        "prv_list": [k["priv_hex"] for k in priv_keys],
+                        "address": auto_ms_addr,
+                    })
+            except Exception as _e:
+                st.caption(f"(auto-multisig derive failed: {_e})")
+
+        # (3) Loaded multisigs (from .json manifests). For each, check
+        # whether all participant pubkeys have a matching loaded privkey;
+        # if so the source is cosignable, otherwise it's "blocked".
+        for ms in st.session_state.get("loaded_multisigs", []):
+            ms_addr = ms["address"]
+            if ms_addr == auto_ms_addr:
+                continue  # already enumerated as the auto-multisig
+            loaded_pubs = ms.get("pubkeys", []) or []
+            need = ms.get("n", len(loaded_pubs))
+            # Map pubkey -> priv_hex for everything currently loaded
+            loaded_pub_to_prv = {}
+            for k in priv_keys:
+                try:
+                    loaded_pub_to_prv[_doge.privtopub(k["priv_hex"])] = k["priv_hex"]
+                except Exception:
+                    pass
+            matched_prvs = []
+            for pub in loaded_pubs:
+                if pub in loaded_pub_to_prv:
+                    matched_prvs.append(loaded_pub_to_prv[pub])
+            try:
+                ut = _cached_rpc(
+                    "listunspent", [0, 9999999, [ms_addr]], ttl=10.0,
+                )
+            except Exception:
+                ut = []
+            for u in ut:
+                if len(matched_prvs) >= need and need >= 2:
+                    sources.append({
+                        "kind": "multi",
+                        "label": (
+                            f"{ms.get('m','?')}-of-{ms.get('n','?')} multisig "
+                            f"`{ms_addr[:10]}…` (loaded)"
+                        ),
+                        "utxo": u,
+                        "prv_list": matched_prvs[:need],
+                        "address": ms_addr,
+                    })
+                else:
+                    sources.append({
+                        "kind": "blocked",
+                        "label": (
+                            f"{ms.get('m','?')}-of-{ms.get('n','?')} multisig "
+                            f"`{ms_addr[:10]}…` — have "
+                            f"{len(matched_prvs)}/{need} keys"
+                        ),
+                        "utxo": u,
+                        "address": ms_addr,
+                    })
+
+        if not sources:
+            st.error(
+                "No UTXOs available across loaded keys + multisigs. "
+                "Send some DOGE or load a funded multisig first."
+            )
         else:
-            utxo_choices = [
-                f"{u['txid'][:12]}...:{u['vout']}  ({u['amount']} DOGE, {u['confirmations']} conf)"
-                for u in utxos
-            ]
-            picked = st.selectbox("Funding UTXO", options=range(len(utxos)),
-                                  format_func=lambda i: utxo_choices[i])
-            u = utxos[picked]
+            def _src_label(i):
+                s = sources[i]
+                u = s["utxo"]
+                return (
+                    f"{s['label']}  —  {u['txid'][:12]}…:{u['vout']}  "
+                    f"({u['amount']} DOGE, {u['confirmations']} conf)"
+                )
+            picked = st.selectbox(
+                "Funding UTXO", options=range(len(sources)),
+                format_func=_src_label,
+                key="inscribe_source_pick",
+            )
+            src = sources[picked]
+            u = src["utxo"]
             utxo_dict = {"output": f"{u['txid']}:{u['vout']}",
                          "value": int(round(u["amount"] * 10**8))}
 
-            # Quipu instance lives in session state
-            if "quipu" not in st.session_state or st.button("↻ Start over"):
-                if "quipu" in st.session_state:
-                    del st.session_state["quipu"]
-                if st.session_state.get("priv_hex"):
+            if src["kind"] == "blocked":
+                st.error(
+                    f"Cannot cosign from this loaded multisig — "
+                    f"not enough participant privkeys loaded. Load the "
+                    f"missing keys in the sidebar, then return here."
+                )
+
+            # Surface the chosen signing mode so the user sees BEFORE the
+            # build button which Quipu class is about to be used.
+            if src["kind"] == "multi":
+                st.info(
+                    f"**Signing mode: multisig cosigning** with "
+                    f"{len(src['prv_list'])} keys → builds `QuipuMulti`. "
+                    f"All keys present in this session sign every tx."
+                )
+            elif src["kind"] == "single":
+                st.caption(
+                    f"Signing mode: single-key from `{src['address'][:12]}…`"
+                )
+
+            # Quipu instance lives in session state. The (kind, address,
+            # txid:vout) tuple is the cache key — picking a different source
+            # invalidates the in-flight Quipu and forces a Start-over.
+            src_sig = (src["kind"], src.get("address"), utxo_dict["output"])
+            if (st.session_state.get("quipu_src_sig") != src_sig
+                    or st.button("↻ Start over")):
+                st.session_state.pop("quipu", None)
+                st.session_state["quipu_src_sig"] = src_sig
+                if src["kind"] == "single":
                     st.session_state.quipu = Quipu(
-                        st.session_state.priv_hex,
+                        src["prv"],
                         utxo_dict,
                         plan["all_payloads"],
                     )
+                elif src["kind"] == "multi":
+                    st.session_state.quipu = QuipuMulti(
+                        src["prv_list"],
+                        utxo_dict,
+                        plan["all_payloads"],
+                    )
+                # kind == "blocked" → no quipu, error already shown
 
             q = st.session_state.get("quipu")
             if q is None:
