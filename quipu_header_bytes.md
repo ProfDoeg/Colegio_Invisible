@@ -45,7 +45,7 @@ After the 4-byte preamble, the structure varies by what's being inscribed.
 
 ## What we observe at byte 4
 
-Byte 4 takes the values: **`03`, `0e`, `1d`**.
+Byte 4 takes the values: **`03`, `0e`, `1d`, `cc`, `ce`**.
 
 ### `0x03` — Image (plaintext)
 
@@ -148,6 +148,51 @@ Implemented in `colegio_tools.py`:
 `build_aes_sealed_quipu`, `read_aes_sealed_quipu`. Console writer exposes
 this as "AES password (0x0e 0xae)" in the Plan tab.
 
+### `0xcc` — Certificate
+
+Confirmed on chain (Maier cert root `1ec0ee9b…`, Domremy cert root
+`6da7a9a9…`). 8 structural bytes, then a pipe-delimited title and
+metadata.
+
+```
+byte 4     : cc            content type = certificate
+byte 5     : tone          ff reverence (both observed cert inscriptions)
+bytes 6..7 : <subtype>     00 01 = hash cert (body contains a SHA256 of off-chain content)
+                           00 02 = all-in-one cert (body carries the full attestation inline)
+bytes 8..  : |TITLE|       UTF-8 between pipe sentinels
+                           hash cert variant: |SHA256|<64-hex-chars>|
+                           all-in-one variant: |TITLE| then field-value body
+```
+
+Body convention: `Field: value\n` lines. Recognised fields include
+`Title`, `Artist`, `Image`, `Text`, `CertificateAuthority`, `*_Public`
+(see `essay_renderer.py`).
+
+### `0xce` — Celestial figure
+
+Implemented in `canonical/celestial.py` (v1 redesign, May 2026). One
+pre-canonical prototype on chain at root `4e53bb26…` (Sky of al-Jawza,
+1-byte-K draft); abandoned.
+
+Header layout — every byte is a single field, no bit-packing:
+
+```
+byte 4      : ce            content type = celestial
+byte 5      : tone          00 ordinary, ff reverence
+byte 6      : kind          00 earth, 01 star
+byte 7      : grouped       00 ungrouped (lines block), 01 grouped (groups block)
+byte 8      : meta          00 no per-point metadata, 01 per-point metadata
+bytes 9..10 : K (uint16 BE) point count, max 65535
+byte 11     : T             title length
+bytes 12..  : title         UTF-8 figure name (length-prefixed, NOT pipe-delimited)
+```
+
+Body — points block then either lines block (ungrouped) or groups
+block (grouped). When `meta = 01`, each point gains a 1-byte `pmeta`
+prefix (00 none, 01 time-exact, 02 time-day, 03 time-month, 04 time-year)
+plus an optional 8-byte JD field after the coords. Full spec at
+[docs/quipu-types/celestial.md](docs/quipu-types/celestial.md).
+
 ### `0x1d` — Identity
 
 Documented explicitly in notebook 20: "*`1d` is the byte for Identity inscriptions*".
@@ -201,7 +246,6 @@ unallocated suggestions for discussion, not used anywhere yet.**
 | `0x0e 0x04` | Encrypted text essay | Encrypted variant of `0x04`, parallel to `0x0e 0x03`. |
 | ~~`0x0e 0x0a`~~ | ~~Password-sealed payload~~ | **Superseded** — now allocated as `0x0e 0xae` (see above). |
 | `0x0e 0x0b` | Time-released (random AES key, future key drop) | Your Quipu 2 mechanism. |
-| `0xce` | Celestial figure | Constellation, earth path, vigil, or any named set of named coordinate points connected by lines. **DRAFT spec at [docs/quipu-types/celestial.md](docs/quipu-types/celestial.md)** |
 | `0xab` | Bindings (abecedario) | Flat list of `NAME → txid` assignments. Imported by essays for stable, project-wide aliases. **DRAFT spec at [docs/quipu-types/bindings.md](docs/quipu-types/bindings.md)** |
 
 ---
