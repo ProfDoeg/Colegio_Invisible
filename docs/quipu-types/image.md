@@ -59,6 +59,51 @@ canonical reader expects width first.
 
 ---
 
+## Title region
+
+The bytes between the 12-byte structural header and the start of the
+body comprise the **title region**. The body's start offset is computed
+from the declared dimensions:
+
+```
+body_offset  = total_bytes - (W × H × channels × bit_depth + 7) // 8
+title_region = bytes[12 : body_offset]
+```
+
+Three v1-canonical forms of title region are accepted (May 2026
+relaxation):
+
+| Form | Example bytes | Title resolves to |
+|---|---|---|
+| pipe-bracketed | `\|Title\|` | `"Title"` |
+| pipe-bracketed with cabeza padding | `\|Title\|<arbitrary bytes>` | `"Title"` (first non-empty pipe field) |
+| double-pipe wrap | `\| \|Title\| \|` | `"Title"` (whitespace-only fields between pipes collapse) |
+| bare title, no pipes | `Title bytes` | `"Title bytes"` (whole region, decoded UTF-8) |
+| empty | (zero-length region) | `""` |
+
+**Reader rule (canonical):**
+- If any `\|` is present: split the title region on `\|`, strip each
+  field of surrounding whitespace, and take the first non-empty field
+  as the title.
+- Else: decode the whole region as UTF-8 with `errors='replace'`,
+  truncate at the first replacement char (which marks the start of
+  non-text cabeza padding bytes), and strip whitespace.
+
+**Builder rule (canonical):**
+- Write `\|TITLE\|` form. The reader accepts other historical forms
+  but the builder produces the cleanest one.
+
+This relaxation made the 8 historical images (La Verna, Monte Veritá,
+Dr. Doeg en Buenos Aires, Peter Bea, Peter on her blanket, Sparkle
+🐈‍⬛, ha image, ca image) canonical_v1 — their structural headers
+(magic, type, tone, color, W, H, bit_depth) are all valid; only the
+title region differs from the strict `\|TITLE\|` form.
+
+The same rule extends to the text quipu (0x00) title region in the
+header — both types share the convention.
+
+---
+
 ## Tone vocabulary
 
 Same as text quipus:

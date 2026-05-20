@@ -177,18 +177,27 @@ def read_image_quipu(header_bytes, body_bytes):
         )
     channels = _CHANNELS[color]
 
-    tail = header_bytes[12:].rstrip(b"\x00 ")
-    if not tail:
+    # Lenient title extraction (v1, May 2026 — see image.md "Title region"):
+    #   pipe form  → title = first non-empty pipe-delimited field after
+    #                whitespace strip. Handles |T|, |T|<padding>, and
+    #                | |T| | double-wrap (whitespace-pipes collapse).
+    #   no-pipe    → title = whole cabeza decoded UTF-8, truncated at the
+    #                first decode-replacement char (padding bytes), stripped.
+    tail = header_bytes[12:]
+    text = tail.decode("utf-8", errors="replace")
+    if "|" in text:
+        parts  = [p.strip() for p in text.split("|")]
+        fields = [p for p in parts if p]
+        title  = fields[0] if fields else ""
+    elif not tail:
         title  = ""
         fields = []
-    elif b"|" in tail:
-        text   = tail.decode("utf-8", errors="replace")
-        fields = [p for p in text.split("|") if p != ""]
-        title  = fields[0] if fields else ""
     else:
-        text   = tail.decode("utf-8", errors="replace")
-        fields = [text]
-        title  = text
+        cut = text.find("�")
+        if cut >= 0:
+            text = text[:cut]
+        title  = text.strip()
+        fields = [title] if title else []
 
     return {
         "tone":      tone,
