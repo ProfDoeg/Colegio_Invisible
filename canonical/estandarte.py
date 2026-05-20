@@ -26,11 +26,15 @@ BODY:
         <name_len:1> <name>          canonical name (UTF-8, ≤ 255 B)
         <desc_len:1> <desc>          one-line description (UTF-8, ≤ 255 B)
         <status:1>                   0=canonical, 1=proposed, 2=draft, 3=deprecated
-        <subtype_count:1>            mutually-exclusive subtype values
-        for each subtype:
-            <value:1>
-            <name_len:1> <name>
-            <desc_len:1> <desc>
+        <dim_count:1>                named enum dimensions in the type's header
+        for each dimension:
+            <dim_name_len:1>  <dim_name>   e.g. "color", "bit_depth", "sub_family"
+            <dim_desc_len:1>  <dim_desc>   one-line description of what the byte means
+            <value_count:1>                count of named values in this dimension
+            for each value:
+                <value:1>
+                <name_len:1> <name>
+                <desc_len:1> <desc>
         <flag_count:1>               independent single-bit flags
         for each flag:
             <bit:1>                  bit position 0–7
@@ -41,6 +45,18 @@ BODY:
         <name_len:1> <name>
         <syntax_len:1> <syntax>
         <desc_len:1> <desc>
+
+A "dimension" is a single byte field within the type's header whose
+value is drawn from a named enumeration. Types may have zero, one, or
+many dimensions:
+    0x00 text       — zero dimensions (tone is a cross-type field)
+    0x03 image      — two dimensions: color, bit_depth
+    0xcc cert       — one dimension: subtype (2 bytes; encoded as
+                        subtype_hi+subtype_lo, documented as one
+                        16-bit dimension or two 8-bit dimensions
+                        depending on the type's spec)
+    0x0e encrypted  — two dimensions: sub_family, variant
+    0xce celestial  — three dimensions: kind, grouped, meta
 
 Amendment chain resolution
 --------------------------
@@ -88,8 +104,15 @@ def build_estandarte_quipu(types, conventions, tone=TONE_ORDINARY, parent_txid=N
               'name': str,
               'desc': str,
               'status': int (0..3),
-              'subtypes': [{'value': int, 'name': str, 'desc': str}, ...],
-              'flags':    [{'bit': int (0..7), 'name': str, 'desc': str}, ...],
+              'dimensions': [
+                {
+                  'name': str,          # e.g. "color"
+                  'desc': str,          # e.g. "pixel color model"
+                  'values': [{'value': int, 'name': str, 'desc': str}, ...]
+                },
+                ...
+              ],
+              'flags': [{'bit': int (0..7), 'name': str, 'desc': str}, ...],
             }
         conventions: list of dicts, each describing one cross-cutting convention:
             {'name': str, 'syntax': str, 'desc': str}
@@ -126,8 +149,9 @@ def build_estandarte_quipu(types, conventions, tone=TONE_ORDINARY, parent_txid=N
             raise ValueError(f"type {ti} byte {t['byte']!r} out of range")
         if t['status'] not in (0, 1, 2, 3):
             raise ValueError(f"type {ti} status {t['status']!r} not in 0..3")
-        if len(t['subtypes']) > 255:
-            raise ValueError(f"type {ti} has > 255 subtypes")
+        dimensions = t.get('dimensions', [])
+        if len(dimensions) > 255:
+            raise ValueError(f"type {ti} has > 255 dimensions")
         if len(t['flags']) > 255:
             raise ValueError(f"type {ti} has > 255 flags")
 
@@ -135,13 +159,19 @@ def build_estandarte_quipu(types, conventions, tone=TONE_ORDINARY, parent_txid=N
         body += _len_prefixed(t['name'])
         body += _len_prefixed(t['desc'])
         body += bytes([t['status']])
-        body += bytes([len(t['subtypes'])])
-        for s in t['subtypes']:
-            if not (0 <= s['value'] <= 255):
-                raise ValueError(f"subtype value {s['value']!r} out of range")
-            body += bytes([s['value']])
-            body += _len_prefixed(s['name'])
-            body += _len_prefixed(s['desc'])
+        body += bytes([len(dimensions)])
+        for di, dim in enumerate(dimensions):
+            if len(dim['values']) > 255:
+                raise ValueError(f"type {ti} dimension {di} has > 255 values")
+            body += _len_prefixed(dim['name'])
+            body += _len_prefixed(dim['desc'])
+            body += bytes([len(dim['values'])])
+            for v in dim['values']:
+                if not (0 <= v['value'] <= 255):
+                    raise ValueError(f"type {ti} dim {di} value {v['value']!r} out of range")
+                body += bytes([v['value']])
+                body += _len_prefixed(v['name'])
+                body += _len_prefixed(v['desc'])
         body += bytes([len(t['flags'])])
         for f in t['flags']:
             if not (0 <= f['bit'] <= 7):
@@ -205,13 +235,19 @@ def read_estandarte_quipu(header_bytes, body_bytes):
         name = read_str()
         desc = read_str()
         status = read_byte()
-        subtypes = []
-        sc = read_byte()
-        for _ in range(sc):
-            v = read_byte()
-            sn = read_str()
-            sd = read_str()
-            subtypes.append({'value': v, 'name': sn, 'desc': sd})
+        dimensions = []
+        dc = read_byte()
+        for _ in range(dc):
+            dim_name = read_str()
+            dim_desc = read_str()
+            vc = read_byte()
+            values = []
+            for _ in range(vc):
+                v = read_byte()
+                vn = read_str()
+                vd = read_str()
+                values.append({'value': v, 'name': vn, 'desc': vd})
+            dimensions.append({'name': dim_name, 'desc': dim_desc, 'values': values})
         flags = []
         fc = read_byte()
         for _ in range(fc):
@@ -221,7 +257,7 @@ def read_estandarte_quipu(header_bytes, body_bytes):
             flags.append({'bit': b, 'name': fn, 'desc': fd})
         types.append({
             'byte': type_byte, 'name': name, 'desc': desc,
-            'status': status, 'subtypes': subtypes, 'flags': flags,
+            'status': status, 'dimensions': dimensions, 'flags': flags,
         })
 
     C = read_byte()
@@ -313,8 +349,10 @@ def format_estandarte(parsed):
         lines.append(f"")
         lines.append(f"  0x{t['byte']:02x}  {t['name']:14s}  [{_STATUS_NAME[t['status']]}]")
         lines.append(f"        {t['desc']}")
-        for s in t['subtypes']:
-            lines.append(f"          subtype 0x{s['value']:02x}  {s['name']:18s}  {s['desc']}")
+        for dim in t.get('dimensions', []):
+            lines.append(f"          dim '{dim['name']}': {dim['desc']}")
+            for v in dim['values']:
+                lines.append(f"            0x{v['value']:02x}  {v['name']:18s}  {v['desc']}")
         for f in t['flags']:
             lines.append(f"          flag bit {f['bit']} (0x{1<<f['bit']:02x})  "
                          f"{f['name']:18s}  {f['desc']}")
@@ -326,3 +364,204 @@ def format_estandarte(parsed):
         lines.append(f"    syntax:  {c['syntax']}")
         lines.append(f"    {c['desc']}")
     return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# Self-tests
+# ---------------------------------------------------------------------------
+
+def _example_registry():
+    """Return a (types, conventions) tuple suitable as a starting Estandarte
+    draft. Captures the May 2026 canonical type set with multi-dimensional
+    subtypes for image, encrypted, and celestial."""
+    types = [
+        {
+            'byte': 0x00, 'name': 'text', 'status': STATUS_CANONICAL,
+            'desc': 'plain text with pipe-bracketed title and tone byte',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
+            'byte': 0x03, 'name': 'image', 'status': STATUS_CANONICAL,
+            'desc': 'bit-packed raster image, width-first dimensions',
+            'dimensions': [
+                {'name': 'color', 'desc': 'pixel color model', 'values': [
+                    {'value': 0x00, 'name': 'grayscale', 'desc': '1 channel per pixel'},
+                    {'value': 0x01, 'name': 'rgb',       'desc': '3 channels per pixel'},
+                ]},
+                {'name': 'bit_depth', 'desc': 'bits per channel per pixel (1..8)', 'values': [
+                    {'value': i, 'name': f'{i}-bit', 'desc': f'{i} bits per channel'}
+                    for i in range(1, 9)
+                ]},
+            ],
+            'flags': [],
+        },
+        {
+            'byte': 0x0e, 'name': 'encrypted', 'status': STATUS_CANONICAL,
+            'desc': 'AES-wrapped, ECIES broadcast, or key-drop sub-families',
+            'dimensions': [
+                {'name': 'sub_family', 'desc': 'which encryption shape', 'values': [
+                    {'value': 0xae, 'name': 'aes',   'desc': 'symmetric AES-CBC wrapper'},
+                    {'value': 0xec, 'name': 'ecies', 'desc': 'per-recipient ECIES envelopes'},
+                    {'value': 0x0d, 'name': 'drop',  'desc': 'released-key drop'},
+                ]},
+                {'name': 'variant', 'desc': 'sub-family-specific qualifier', 'values': [
+                    {'value': 0x00, 'name': 'raw',        'desc': 'AES: raw 32-byte key; ECIES: broadcast; drop: release'},
+                    {'value': 0x01, 'name': 'password',   'desc': 'AES: SHA256(passphrase) key'},
+                ]},
+            ],
+            'flags': [],
+        },
+        {
+            'byte': 0xcc, 'name': 'cert', 'status': STATUS_CANONICAL,
+            'desc': 'certificate: hash-only or all-in-one (subtype is 2-byte big-endian)',
+            'dimensions': [
+                {'name': 'subtype', 'desc': '2-byte certificate subtype (BE)', 'values': [
+                    {'value': 0x01, 'name': 'hash',         'desc': 'SHA256 hash of off-chain payload only'},
+                    {'value': 0x02, 'name': 'all-in-one',   'desc': 'full certificate body on chain'},
+                ]},
+            ],
+            'flags': [],
+        },
+        {
+            'byte': 0xce, 'name': 'celestial', 'status': STATUS_CANONICAL,
+            'desc': 'sky or earth point figures, optionally grouped, optionally per-point meta',
+            'dimensions': [
+                {'name': 'kind', 'desc': 'coordinate frame of all points', 'values': [
+                    {'value': 0x00, 'name': 'earth', 'desc': 'lng/lat geographic coordinates'},
+                    {'value': 0x01, 'name': 'star',  'desc': 'RA/Dec celestial-sphere coordinates'},
+                ]},
+                {'name': 'grouped', 'desc': 'whether points are partitioned into named groups', 'values': [
+                    {'value': 0x00, 'name': 'no',  'desc': 'flat point list'},
+                    {'value': 0x01, 'name': 'yes', 'desc': 'points partitioned into named groups with lines'},
+                ]},
+                {'name': 'meta', 'desc': 'whether points carry per-point metadata', 'values': [
+                    {'value': 0x00, 'name': 'no',  'desc': 'points have name + coords only'},
+                    {'value': 0x01, 'name': 'yes', 'desc': 'points may carry timestamps and other meta'},
+                ]},
+            ],
+            'flags': [],
+        },
+        {
+            'byte': 0xee, 'name': 'estandarte', 'status': STATUS_CANONICAL,
+            'desc': 'self-referential protocol registry (this type)',
+            'dimensions': [],
+            'flags': [],
+        },
+    ]
+
+    conventions = [
+        {
+            'name':   'diamond',
+            'syntax': 'root(N outputs) -> N strands of OP_RETURN chains -> join(N inputs)',
+            'desc':   'multi-tx inscription pattern; the join txid is the canonical inscription ref',
+        },
+        {
+            'name':   'citation',
+            'syntax': '<<txid>>  or  <<txid>><<name>>',
+            'desc':   'whole-inscription reference; with <<name>>, references a named sub-object',
+        },
+        {
+            'name':   'tone',
+            'syntax': 'header byte 5: 0x00 ordinary / 0x01 affection / 0xff reverence',
+            'desc':   'cross-type semantic tone byte; default 0x00 if omitted from a type\'s spec',
+        },
+        {
+            'name':   'magic',
+            'syntax': 'c1 dd 00 01 at offset 0',
+            'desc':   'protocol magic + version 0.1 prefix on every quipu',
+        },
+    ]
+    return types, conventions
+
+
+def _selftest_roundtrip():
+    types, conv = _example_registry()
+    h, b = build_estandarte_quipu(types, conv, tone=TONE_ORDINARY)
+    print(f"=== roundtrip (root Estandarte, {len(types)} types, {len(conv)} conventions) ===")
+    print(f"  header ({len(h)} B): {h.hex()}")
+    print(f"  body length: {len(b)} B")
+    assert h[:4] == b"\xc1\xdd\x00\x01"
+    assert h[4] == TYPE_ESTANDARTE
+    parsed = read_estandarte_quipu(h, b)
+    assert parsed['parent_txid'] is None
+    assert len(parsed['types']) == len(types)
+    assert len(parsed['conventions']) == len(conv)
+    # Spot check the image dimensions roundtripped
+    img = next(t for t in parsed['types'] if t['byte'] == 0x03)
+    assert len(img['dimensions']) == 2
+    assert img['dimensions'][0]['name'] == 'color'
+    assert img['dimensions'][1]['name'] == 'bit_depth'
+    assert len(img['dimensions'][1]['values']) == 8
+    # Spot check encrypted dimensions
+    enc = next(t for t in parsed['types'] if t['byte'] == 0x0e)
+    assert [d['name'] for d in enc['dimensions']] == ['sub_family', 'variant']
+    print(f"  ✓ roundtrip OK; image and encrypted dimensions preserved")
+    print()
+
+
+def _selftest_amendment():
+    types, conv = _example_registry()
+    fake_parent_txid = "ab" * 32
+    h, b = build_estandarte_quipu(types, conv, parent_txid=fake_parent_txid)
+    print(f"=== amendment with parent_txid ===")
+    parsed = read_estandarte_quipu(h, b)
+    assert parsed['parent_txid'] == fake_parent_txid
+    print(f"  ✓ parent_txid roundtrips: {parsed['parent_txid'][:12]}…")
+    print()
+
+
+def _selftest_empty():
+    h, b = build_estandarte_quipu([], [], tone=TONE_REVERENCE)
+    parsed = read_estandarte_quipu(h, b)
+    print(f"=== empty Estandarte (no types, no conventions, reverence tone) ===")
+    assert parsed['tone'] == TONE_REVERENCE
+    assert parsed['types'] == []
+    assert parsed['conventions'] == []
+    print(f"  ✓ empty registry roundtrips cleanly")
+    print()
+
+
+def _selftest_validation():
+    cases = [
+        ("invalid tone",
+         lambda: build_estandarte_quipu([], [], tone=0x42),
+         "tone"),
+        ("invalid status",
+         lambda: build_estandarte_quipu(
+             [{'byte': 0, 'name': 'x', 'desc': '', 'status': 9,
+               'dimensions': [], 'flags': []}], []),
+         "status"),
+        ("value out of range",
+         lambda: build_estandarte_quipu(
+             [{'byte': 0, 'name': 'x', 'desc': '', 'status': 0,
+               'dimensions': [{'name': 'd', 'desc': '', 'values': [
+                   {'value': 256, 'name': 'oops', 'desc': ''}]}],
+               'flags': []}], []),
+         "out of range"),
+        ("flag bit out of range",
+         lambda: build_estandarte_quipu(
+             [{'byte': 0, 'name': 'x', 'desc': '', 'status': 0,
+               'dimensions': [], 'flags': [{'bit': 9, 'name': 'oops', 'desc': ''}]}], []),
+         "0..7"),
+        ("parent_txid wrong length",
+         lambda: build_estandarte_quipu([], [], parent_txid="ab" * 31),
+         "64 hex"),
+    ]
+    print(f"=== validation ===")
+    for desc, fn, want in cases:
+        try:
+            fn()
+        except (ValueError, TypeError) as e:
+            status = "OK" if want in str(e) else "WRONG ERR"
+            print(f"  {desc:35s} -> {status}: {e}")
+        else:
+            print(f"  {desc:35s} -> DID NOT RAISE (bug)")
+    print()
+
+
+if __name__ == "__main__":
+    _selftest_roundtrip()
+    _selftest_amendment()
+    _selftest_empty()
+    _selftest_validation()
