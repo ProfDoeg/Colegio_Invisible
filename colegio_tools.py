@@ -716,6 +716,48 @@ def read_quipu(tx, df_outputs=None):
     return header, "".join(body_parts)
 
 
+def fetch_quipu_bytes(txid, max_walk=64):
+    """Fetch the concatenated header+body bytes of any quipu given its root
+    OR its join txid.
+
+    A diamond's root has N≥5 outputs (one per strand starter); strand and
+    join txs have ≤2. Given a join, walks back via first input until a tx
+    with ≥5 outputs is found — that's the root. Then defers to read_quipu
+    to walk forward through all strands.
+
+    Args:
+        txid: hex string — either a quipu's root or its join txid
+        max_walk: safety bound on the back-walk depth
+
+    Returns:
+        bytes — concatenated header + body, suitable for resolve_ref's
+        fetcher contract and for the canonical readers.
+    """
+    tx = rpc_request("getrawtransaction", [txid, 1])
+    if len(tx.get("vout", [])) >= 5:
+        root = txid
+    else:
+        cur = txid
+        root = None
+        for _ in range(max_walk):
+            t = rpc_request("getrawtransaction", [cur, 1])
+            if len(t.get("vout", [])) >= 5:
+                root = cur
+                break
+            vin = t.get("vin", [])
+            if not vin or "txid" not in vin[0]:
+                raise ValueError(f"hit a coinbase or malformed tx walking back from {txid}")
+            cur = vin[0]["txid"]
+        if root is None:
+            raise ValueError(
+                f"could not find diamond root within {max_walk} hops from {txid} "
+                f"(is this really a quipu join/root?)"
+            )
+
+    header_hex, body_hex = read_quipu(root)
+    return bytes.fromhex(header_hex + body_hex)
+
+
 def identify_quipus(df_transactions, df_outputs):
     """Return txids that look like quipu heads:
     transactions where every output is subsequently spent in a tx that has

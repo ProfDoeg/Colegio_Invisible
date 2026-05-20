@@ -272,21 +272,75 @@ def build_ecies_quipu(inner_header, inner_body, sender_privkey, recipient_pubkey
     return header, body
 
 
-def build_keydrop_quipu(ref_txid_hex, key_bytes, *, title="", tone=TONE_ORDINARY):
-    """Build a 0e 0d key-drop quipu releasing `key_bytes` for the target txid.
+def build_keydrop_quipu(drops, *, title="", tone=TONE_ORDINARY):
+    """Build a 0e 0d named-multi keydrop quipu releasing N keys.
 
     Args:
-        ref_txid_hex: 64-char hex of the target encrypted quipu's join txid
-        key_bytes: 32-byte AES key (or ECIES session key) for the target
-        title: optional outer label
-        tone: tone byte
+        drops: list of drops, each as either
+                 (name, ref_txid_hex, key_bytes)  — 3-tuple
+               or
+                 {'name': str, 'ref_txid': str, 'key': bytes}  — dict
+               `name` may be empty string for anonymous drops (not citeable
+               by name, but still released). Names within one keydrop SHOULD
+               be unique; duplicates resolve to the first match.
+        title: optional outer public-facing batch label
+        tone:  TONE_ORDINARY / TONE_AFFECTION / TONE_REVERENCE
+               (the tone reflects the act of disclosure, not per-drop)
+
+    Returns:
+        (header_bytes, body_bytes)
+
+    Body layout (variant 0x00 — the only defined keydrop variant):
+        <count:2 uint16 BE>
+        for each drop:
+            <namelen:1>  <name:namelen UTF-8>
+            <ref_txid:32 raw bytes>
+            <key:32>
+        [|TITLE|]                  optional outer label
+
+    A single-drop keydrop is just count=1.
     """
-    if len(ref_txid_hex) != 64:
-        raise ValueError(f"ref_txid_hex must be 64 hex chars (got {len(ref_txid_hex)})")
-    if not isinstance(key_bytes, (bytes, bytearray)) or len(key_bytes) != 32:
-        raise ValueError("key_bytes must be 32 bytes")
+    if not drops:
+        raise ValueError("drops list cannot be empty")
+    if len(drops) > 0xFFFF:
+        raise ValueError(f"max 65535 drops per keydrop (got {len(drops)})")
+
+    normalized = []   # list of (name_bytes, ref_txid_raw, key_bytes)
+    for i, d in enumerate(drops):
+        if isinstance(d, dict):
+            name = d.get('name', '')
+            ref_txid_hex = d['ref_txid']
+            key = d['key']
+        elif isinstance(d, (tuple, list)) and len(d) == 3:
+            name, ref_txid_hex, key = d
+        else:
+            raise TypeError(
+                f"drop {i}: expected (name, ref_txid_hex, key) tuple or dict "
+                f"with those keys; got {type(d).__name__}"
+            )
+        if not isinstance(name, str):
+            raise TypeError(f"drop {i}: name must be str (got {type(name).__name__})")
+        if len(ref_txid_hex) != 64:
+            raise ValueError(
+                f"drop {i}: ref_txid_hex must be 64 hex chars (got {len(ref_txid_hex)})"
+            )
+        try:
+            ref_txid_raw = bytes.fromhex(ref_txid_hex)
+        except ValueError:
+            raise ValueError(f"drop {i}: ref_txid_hex is not valid hex")
+        if not isinstance(key, (bytes, bytearray)) or len(key) != 32:
+            raise ValueError(f"drop {i}: key must be 32 bytes")
+        name_bytes = name.encode("utf-8")
+        if len(name_bytes) > 255:
+            raise ValueError(
+                f"drop {i}: name encodes to {len(name_bytes)} UTF-8 bytes; max 255"
+            )
+        normalized.append((name_bytes, ref_txid_raw, bytes(key)))
+
     header = _build_header_prefix(tone, SUB_DROP, DROP_RELEASE)
-    body = bytes.fromhex(ref_txid_hex) + bytes(key_bytes)
+    body = struct.pack(">H", len(normalized))
+    for name_bytes, ref_txid_raw, key in normalized:
+        body += bytes([len(name_bytes)]) + name_bytes + ref_txid_raw + key
     if title:
         if "|" in title:
             raise ValueError("title cannot contain '|'")
@@ -311,7 +365,8 @@ def _split_outer_title(rest):
 
 
 def read_encrypted_quipu(header_bytes, body_bytes, *,
-                          key=None, my_privkey=None, author_pubkey=None):
+                          key=None, my_privkey=None, author_pubkey=None,
+                          session_key=None):
     """Parse a 0x0e encrypted quipu and (if keys are supplied) decrypt.
 
     Args:
@@ -321,6 +376,10 @@ def read_encrypted_quipu(header_bytes, body_bytes, *,
                      (or aggregate priv for a multisig recipient)
         author_pubkey: for SUB_ECIES — coincurve.PublicKey of the sender
                      (or aggregate pub for a multisig sender)
+        session_key: for SUB_ECIES — the 32-byte session key released via a
+                     keydrop. If supplied, bypasses envelope unwrapping
+                     entirely; lets a non-envelope-recipient decrypt the body
+                     using a dropped session key.
 
     Returns:
         dict with:
@@ -376,6 +435,17 @@ def read_encrypted_quipu(header_bytes, body_bytes, *,
         return out
 
     if sub == SUB_ECIES:
+        if session_key is not None:
+            if not (isinstance(session_key, (bytes, bytearray)) and len(session_key) == 32):
+                raise ValueError("session_key must be 32 bytes")
+            n = body_bytes[0]
+            ciphertext = body_bytes[1 + n*64:]
+            framed = _ecies.sym_decrypt(bytes(session_key), ciphertext)
+            inner_header, inner_body = _unframe_inner(framed)
+            out["inner_header"] = inner_header
+            out["inner_body"] = inner_body
+            out["magic_ok"] = (inner_header[:4] == MAGIC)
+            return out
         if my_privkey is None or author_pubkey is None:
             return out  # parse-only
         if not isinstance(my_privkey, CCPriv):
@@ -400,11 +470,30 @@ def read_encrypted_quipu(header_bytes, body_bytes, *,
         raise ValueError("no envelope decrypted with the given (my_privkey, author_pubkey)")
 
     if sub == SUB_DROP:
-        out["ref_txid"] = body_bytes[:32].hex()
-        out["key"] = bytes(body_bytes[32:64])
-        if len(body_bytes) > 64:
-            # optional outer title in body tail
-            tail_title, _ = _split_outer_title(body_bytes[64:])
+        # Body: <count:2 BE> + N × (<namelen:1><name><txid:32><key:32>) + optional |TITLE|
+        if len(body_bytes) < 2:
+            raise ValueError("keydrop body too short for count field")
+        count = struct.unpack(">H", body_bytes[:2])[0]
+        p = 2
+        drops = []
+        for i in range(count):
+            if p >= len(body_bytes):
+                raise ValueError(f"keydrop body truncated reading drop {i} namelen")
+            namelen = body_bytes[p]; p += 1
+            if p + namelen > len(body_bytes):
+                raise ValueError(f"keydrop body truncated reading drop {i} name")
+            name = body_bytes[p:p + namelen].decode("utf-8", errors="replace")
+            p += namelen
+            if p + 64 > len(body_bytes):
+                raise ValueError(f"keydrop body truncated reading drop {i} ref_txid + key")
+            ref_txid = body_bytes[p:p + 32].hex()
+            key = bytes(body_bytes[p + 32:p + 64])
+            p += 64
+            drops.append({'name': name, 'ref_txid': ref_txid, 'key': key})
+        out['drops'] = drops
+        # Remaining bytes (if any) are an optional outer |TITLE|
+        if p < len(body_bytes):
+            tail_title, _ = _split_outer_title(body_bytes[p:])
             if tail_title:
                 out["title"] = tail_title
         return out
@@ -540,20 +629,54 @@ def _selftest_ecies_multisig_sender():
     print()
 
 
-def _selftest_keydrop():
+def _selftest_keydrop_single():
+    """Variant 0x00 with count=1 — the simplest keydrop."""
     ref = "2ae7fe909e19c0e4646f7981d0feffc96f4a3b286539f3da8caf19aebcf93bb2"
     k   = b"\xab" * 32
-    oh, ob = build_keydrop_quipu(ref, k, title="release the bowie key",
-                                  tone=TONE_REVERENCE)
-    print(f"=== Key drop ===")
+    oh, ob = build_keydrop_quipu(
+        [("Sky of al-Jawza key", ref, k)],
+        title="release the sky key",
+        tone=TONE_REVERENCE,
+    )
+    print(f"=== Key drop — single named entry ===")
     print(f"  outer header ({len(oh)} B): {oh.hex()}")
     assert oh[5] == TONE_REVERENCE
     assert oh[6] == SUB_DROP
     parsed = read_encrypted_quipu(oh, ob)
-    assert parsed["ref_txid"] == ref
-    assert parsed["key"] == k
-    assert parsed["title"] == "release the bowie key"
-    print(f"  ✓ round-trip OK: ref_txid + 32-byte key preserved")
+    assert parsed["sub_name"] == "drop"
+    assert len(parsed["drops"]) == 1
+    assert parsed["drops"][0]["name"] == "Sky of al-Jawza key"
+    assert parsed["drops"][0]["ref_txid"] == ref
+    assert parsed["drops"][0]["key"] == k
+    assert parsed["title"] == "release the sky key"
+    print(f"  ✓ round-trip OK: 1 named drop preserved")
+    print()
+
+
+def _selftest_keydrop_multi():
+    """Variant 0x00 with count=3 — named multi-drop."""
+    drops = [
+        ("AES message",      "1" * 64, b"\x01" * 32),
+        ("ECIES letter",     "2" * 64, b"\x02" * 32),
+        ("",                 "3" * 64, b"\x03" * 32),  # anonymous drop OK
+    ]
+    oh, ob = build_keydrop_quipu(
+        drops,
+        title="Posthumous batch",
+        tone=TONE_REVERENCE,
+    )
+    print(f"=== Key drop — named multi (3 drops) ===")
+    print(f"  outer header ({len(oh)} B): {oh.hex()}")
+    print(f"  body length: {len(ob)} B")
+    parsed = read_encrypted_quipu(oh, ob)
+    assert len(parsed["drops"]) == 3
+    assert parsed["drops"][0]["name"] == "AES message"
+    assert parsed["drops"][1]["name"] == "ECIES letter"
+    assert parsed["drops"][2]["name"] == ""   # anonymous
+    assert parsed["drops"][0]["ref_txid"] == "1" * 64
+    assert parsed["drops"][1]["key"] == b"\x02" * 32
+    assert parsed["title"] == "Posthumous batch"
+    print(f"  ✓ round-trip OK; all 3 drops + their names preserved")
     print()
 
 
@@ -585,12 +708,18 @@ def _selftest_validation():
         ("non-magic inner header",
          lambda: build_aes_quipu(b"\x00"*16, b"", b"\x00"*32),
          "c1dd"),
+        ("empty keydrop list",
+         lambda: build_keydrop_quipu([]),
+         "cannot be empty"),
         ("invalid keydrop txid length",
-         lambda: build_keydrop_quipu("ab", b"\x00"*32),
+         lambda: build_keydrop_quipu([("x", "ab", b"\x00"*32)]),
          "64 hex"),
         ("invalid keydrop key length",
-         lambda: build_keydrop_quipu("0"*64, b"\x00"*16),
+         lambda: build_keydrop_quipu([("x", "0"*64, b"\x00"*16)]),
          "32 bytes"),
+        ("keydrop drop entry wrong shape",
+         lambda: build_keydrop_quipu([("just_two_fields", "0"*64)]),
+         "expected"),
     ]
     print(f"=== validation ===")
     for desc, fn, want in cases:
@@ -610,6 +739,7 @@ if __name__ == "__main__":
     _selftest_ecies_single()
     _selftest_ecies_multi()
     _selftest_ecies_multisig_sender()
-    _selftest_keydrop()
+    _selftest_keydrop_single()
+    _selftest_keydrop_multi()
     _selftest_nested()
     _selftest_validation()

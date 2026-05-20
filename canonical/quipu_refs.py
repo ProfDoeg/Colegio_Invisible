@@ -109,12 +109,58 @@ def resolve_ref(txid, name, fetcher):
     if isinstance(blob, str):
         blob = bytes.fromhex(blob.strip())
 
-    # Recover header length from the on-chain layout (v1, May 2026 redesign):
-    #   c1dd0001 type tone kind grouped meta K_hi K_lo T <title>
     if blob[:4] != b"\xc1\xdd\x00\x01":
         raise ValueError(f"txid {txid[:12]}... payload not a quipu (bad magic)")
-    if blob[4] != 0xCE:
-        raise ValueError(f"txid {txid[:12]}... is type 0x{blob[4]:02x}, not celestial")
+
+    type_byte = blob[4]
+
+    # ---- 0x0e encrypted family — keydrop entries can be cited by drop name ----
+    if type_byte == 0x0e:
+        sub_family = blob[6] if len(blob) > 6 else None
+        if sub_family != 0x0d:
+            raise ValueError(
+                f"txid {txid[:12]}... is encrypted but not a keydrop "
+                f"(sub_family {sub_family:#04x}); only keydrops support "
+                f"<<txid>><<name>> citations within the encrypted family"
+            )
+        from encrypted import read_encrypted_quipu
+        # Read with no key — the keydrop body is plaintext
+        # The encrypted reader expects (header_bytes, body_bytes) split, but for
+        # keydrops the header is just 8 structural bytes; everything after is body.
+        header = blob[:8]
+        body   = blob[8:]
+        parsed_drop = read_encrypted_quipu(header, body)
+        drops = parsed_drop.get('drops', [])
+        if not name:
+            raise ValueError(
+                "empty-string name cannot match a drop; "
+                "anonymous drops are released but not citable by name"
+            )
+        for entry in drops:
+            if entry['name'] and entry['name'] == name:
+                return {
+                    "parent_title": parsed_drop.get('title', ''),
+                    "parent_txid":  txid.lower(),
+                    "name":         name,
+                    "kind":         "keydrop_entry",
+                    "tone":         parsed_drop['tone'],
+                    "ref_txid":     entry['ref_txid'],
+                    "key":          entry['key'],
+                }
+        available = [e['name'] for e in drops if e['name']]
+        raise ValueError(
+            f"drop name {name!r} not found in keydrop {txid[:12]}... "
+            f"(named drops: {available or 'none — all anonymous'}; "
+            f"total drops: {len(drops)})"
+        )
+
+    # ---- 0xce celestial family — groups + points cited by name ----
+    if type_byte != 0xCE:
+        raise ValueError(
+            f"txid {txid[:12]}... is type 0x{type_byte:02x}; "
+            f"name-based citation supported only for 0xce (celestial) and "
+            f"0x0e 0x0d (keydrops) so far"
+        )
     if len(blob) < 12:
         raise ValueError(f"txid {txid[:12]}... payload too short for celestial header")
     T = blob[11]
@@ -174,25 +220,89 @@ def resolve_ref(txid, name, fetcher):
 
 
 # ---------------------------------------------------------------------------
-# Default fetcher (dogecoin-cli)
+# Fetchers
+# ---------------------------------------------------------------------------
+#
+# canonical/ stays pure protocol logic — actual chain access lives outside.
+# Concrete fetchers are provided by colegio_tools.fetch_quipu_bytes (RPC),
+# and any caller can pass their own callable(txid) -> bytes here.
+
+
+# ---------------------------------------------------------------------------
+# Resolve-and-decrypt — one-shot keydrop convenience
 # ---------------------------------------------------------------------------
 
-def dogecoin_cli_fetcher(txid):
-    """Walk a quipu's diamond starting from the join tx and return the
-    concatenated OP_RETURN bytes. Uses dogecoin-cli via subprocess.
+def resolve_and_decrypt(keydrop_txid, drop_name, fetcher):
+    """Resolve a `<<keydrop_txid>><<drop_name>>` reference and decrypt the
+    quipu it releases the key for.
 
-    Assumes a local full node with txindex=1 (or wallet-relevant txs only,
-    in which case `gettransaction` is used as fallback).
+    Two-step composition:
+        1. resolve_ref(keydrop_txid, drop_name, fetcher) — find the entry,
+           gives back (ref_txid, key) for the encrypted target
+        2. fetch(ref_txid) + read_encrypted_quipu(...) — decrypt the body
+           using the released key
 
-    Out of scope here: actually walking the multi-strand diamond. For now,
-    this stub raises NotImplementedError. The full walker logic already
-    exists in colegio_tools.py / quipu_orchestrator.py and can be wired
-    in once the inscription is broadcast.
+    Sub-family dispatch on the target's header:
+        0xae (AES)    → key passed as raw AES key
+        0xec (ECIES)  → key passed as session_key (bypasses envelope unwrap)
+
+    Args:
+        keydrop_txid: txid of a 0x0e 0x0d keydrop inscription
+        drop_name:    name of the entry to look up within that keydrop
+        fetcher:      callable(txid_hex) -> bytes  (resolve_ref-compatible)
+
+    Returns:
+        the dict returned by read_encrypted_quipu, with `inner_header`,
+        `inner_body`, `magic_ok`, plus the target's own metadata (`tone`,
+        `sub_name`, `title`, …). Feed `inner_header` / `inner_body` to the
+        appropriate canonical reader (read_text_quipu, read_image_quipu, …).
+
+    Raises:
+        ValueError if the reference doesn't resolve to a keydrop entry, or
+        if the target isn't an encrypted quipu, or if the target's sub-family
+        isn't one that a keydrop can unlock.
     """
-    raise NotImplementedError(
-        "dogecoin_cli_fetcher is a placeholder; wire to "
-        "colegio_tools.fetch_quipu_payload(txid) once the orchestrator's "
-        "walker is exposed as a standalone callable."
+    entry = resolve_ref(keydrop_txid, drop_name, fetcher)
+    if entry.get("kind") != "keydrop_entry":
+        raise ValueError(
+            f"<<{keydrop_txid[:12]}…>><<{drop_name}>> resolved to "
+            f"{entry.get('kind')!r}, not a keydrop entry"
+        )
+
+    ref_txid = entry["ref_txid"]
+    key      = entry["key"]
+
+    blob = fetcher(ref_txid)
+    if isinstance(blob, str):
+        blob = bytes.fromhex(blob.strip())
+
+    MAGIC = b"\xc1\xdd\x00\x01"
+    if blob[:4] != MAGIC:
+        raise ValueError(f"target {ref_txid[:12]}… is not a quipu (bad magic)")
+    if len(blob) < 8 or blob[4] != 0x0e:
+        raise ValueError(
+            f"target {ref_txid[:12]}… is type 0x{blob[4]:02x}, not encrypted (0x0e); "
+            f"keydrops only release keys for encrypted quipus"
+        )
+
+    hdr_end = 8
+    if hdr_end < len(blob) and blob[hdr_end:hdr_end + 1] == b"|":
+        close = blob.find(b"|", hdr_end + 1)
+        if close < 0:
+            raise ValueError(f"target {ref_txid[:12]}… header has unterminated |title|")
+        hdr_end = close + 1
+    target_header = blob[:hdr_end]
+    target_body   = blob[hdr_end:]
+
+    sub = target_header[6]
+    from encrypted import read_encrypted_quipu, SUB_AES, SUB_ECIES
+    if sub == SUB_AES:
+        return read_encrypted_quipu(target_header, target_body, key=key)
+    if sub == SUB_ECIES:
+        return read_encrypted_quipu(target_header, target_body, session_key=key)
+    raise ValueError(
+        f"target {ref_txid[:12]}… has sub-family 0x{sub:02x}; "
+        f"keydrops can only unlock 0xae (AES) or 0xec (ECIES) targets"
     )
 
 
