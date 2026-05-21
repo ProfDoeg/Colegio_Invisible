@@ -47,6 +47,18 @@ TYPE_COLORS = {
 }
 DEFAULT_COLOR = "#cccccc"
 
+ADDRESS_COLORS = {
+    "bordado":        "#c2a500",
+    "apocrypha":      "#5d8aa8",
+    "ha":             "#a86b91",
+    "ca":             "#6ba891",
+    "multiman":       "#a8716b",
+    "test_multisig3": "#7a7aa8",
+    "test1":          "#9b9b9b",
+    "test2":          "#9b9b9b",
+    "test3":          "#9b9b9b",
+}
+
 CITATION_RE = re.compile(r"<<\s*([0-9a-fA-F]{64})\s*>>(?:\s*<<\s*([^>]+?)\s*>>)?")
 
 # ---------------------------------------------------------------------------
@@ -139,18 +151,20 @@ def render_image_html(blob: bytes, dims: dict) -> str:
 
 
 def render_celestial_html(header: bytes, body: bytes) -> str:
-    """Render a celestial quipu's constellation as a base64 PNG."""
+    """Render a celestial quipu via the canonical matplotlib renderer
+    (canonical/celestial_render.py), embed as a base64 PNG."""
     try:
         from celestial_render import render_celestial_quipu
         import matplotlib
         matplotlib.use("Agg")
         fig, ax = render_celestial_quipu(header, body)
         buf = io.BytesIO()
-        fig.savefig(buf, format="PNG", bbox_inches="tight", dpi=110)
+        fig.savefig(buf, format="PNG", bbox_inches="tight", dpi=120,
+                    facecolor=fig.get_facecolor())
         import matplotlib.pyplot as plt
         plt.close(fig)
         data_url = "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode("ascii")
-        return _img_tag(data_url, max_dim=420)
+        return _img_tag(data_url, max_dim=460)
     except Exception as e:
         return f"<div style='color:#a00'>celestial render failed: {html_lib.escape(str(e))}</div>"
 
@@ -213,7 +227,7 @@ def render_text_with_citations(text: str, df_all: pd.DataFrame) -> str:
     out_parts.append(html_lib.escape(text[last_end:]))
     return (
         "<pre style='white-space:pre-wrap;font:12px/1.5 ui-sans-serif;"
-        "max-height:340px;overflow:auto;margin:6px 0;padding:8px;"
+        "margin:6px 0;padding:8px;"
         "background:#fafafa;border:1px solid #eee'>"
         + "".join(out_parts)
         + "</pre>"
@@ -423,6 +437,7 @@ def render_graph(df: pd.DataFrame, edges: pd.DataFrame, df_all: pd.DataFrame,
             "borderWidth": 1,
             "shape": "dot",
             "font":  {"size": 14, "face": "system-ui"},
+            "group": q["label"],  # used by the cellular-hull overlay
         }
         if is_pre:
             kwargs["color"] = {"background": "#dcdcdc", "border": "#888"}
@@ -456,10 +471,12 @@ def render_graph(df: pd.DataFrame, edges: pd.DataFrame, df_all: pd.DataFrame,
 
     # Inject a fixed-position popup + click handler that renders the
     # pre-computed HTML for whichever quipu node the user clicks.
-    contents_js = json.dumps(contents)
+    # Escape </script> in the embedded HTML so the browser's HTML parser
+    # doesn't close the outer <script> early — classic XSS-style pitfall.
+    contents_js = json.dumps(contents).replace("</script>", "<\\/script>")
     overlay = """
-<div id="quipu-popup" style="display:none; position:fixed; top:16px; right:16px;
-     max-width:480px; max-height:90vh; overflow-y:auto;
+<div id="quipu-popup" style="display:none; position:fixed; top:12px; right:12px;
+     max-width:520px; max-height:calc(100vh - 24px); overflow-y:auto;
      background:white; border:2px solid #999; border-radius:10px;
      padding:6px; z-index:9999;
      box-shadow:0 8px 24px rgba(0,0,0,0.25);
@@ -483,6 +500,12 @@ var QUIPU_CONTENTS = """ + contents_js + """;
                 '</div>';
             popup.style.display = 'block';
             popup.scrollTop = 0;
+            /* innerHTML does not auto-execute inserted scripts; recreate them */
+            popup.querySelectorAll('script').forEach(function(oldScript) {
+                var s = document.createElement('script');
+                s.text = oldScript.text;
+                oldScript.parentNode.replaceChild(s, oldScript);
+            });
         } else {
             popup.style.display = 'none';
         }
@@ -498,6 +521,7 @@ var QUIPU_CONTENTS = """ + contents_js + """;
                     closePopup();
                 }
             });
+            attachCellularHull();
         } else {
             setTimeout(bind, 120);
         }
@@ -508,6 +532,152 @@ var QUIPU_CONTENTS = """ + contents_js + """;
         bind();
     }
 })();
+
+// ===== Cellular convex-hull overlay by address group =====
+var ADDRESS_COLORS = """ + json.dumps(ADDRESS_COLORS) + """;
+
+function _convexHull(pts) {
+    if (pts.length < 3) return pts.slice();
+    var sorted = pts.slice().sort(function(a, b) {
+        return a.x === b.x ? a.y - b.y : a.x - b.x;
+    });
+    function cross(O, A, B) {
+        return (A.x - O.x) * (B.y - O.y) - (A.y - O.y) * (B.x - O.x);
+    }
+    var lower = [];
+    for (var i = 0; i < sorted.length; i++) {
+        while (lower.length >= 2 && cross(lower[lower.length-2], lower[lower.length-1], sorted[i]) <= 0) lower.pop();
+        lower.push(sorted[i]);
+    }
+    var upper = [];
+    for (var i = sorted.length - 1; i >= 0; i--) {
+        while (upper.length >= 2 && cross(upper[upper.length-2], upper[upper.length-1], sorted[i]) <= 0) upper.pop();
+        upper.push(sorted[i]);
+    }
+    return lower.slice(0, -1).concat(upper.slice(0, -1));
+}
+
+function _expandHull(hull, pad) {
+    var cx = 0, cy = 0;
+    hull.forEach(function(p) { cx += p.x; cy += p.y; });
+    cx /= hull.length; cy /= hull.length;
+    return hull.map(function(p) {
+        var dx = p.x - cx, dy = p.y - cy;
+        var d = Math.sqrt(dx*dx + dy*dy) || 1;
+        return { x: p.x + dx / d * pad, y: p.y + dy / d * pad };
+    });
+}
+
+function _drawSmoothPolygon(ctx, pts) {
+    if (pts.length < 3) return;
+    ctx.beginPath();
+    var n = pts.length;
+    var midX = (pts[0].x + pts[n-1].x) / 2;
+    var midY = (pts[0].y + pts[n-1].y) / 2;
+    ctx.moveTo(midX, midY);
+    for (var i = 0; i < n; i++) {
+        var p = pts[i];
+        var pn = pts[(i + 1) % n];
+        var mx = (p.x + pn.x) / 2;
+        var my = (p.y + pn.y) / 2;
+        ctx.quadraticCurveTo(p.x, p.y, mx, my);
+    }
+    ctx.closePath();
+}
+
+function attachCellularHull() {
+    if (typeof network === 'undefined' || !network) return;
+
+    var hullCache = {};      // group -> {hull: [...], centroid: {x, y}}
+    function recomputeHulls() {
+        var groups = {};
+        network.body.data.nodes.getIds().forEach(function(id) {
+            var nd = network.body.data.nodes.get(id);
+            if (!nd) return;
+            var grp = nd.group;
+            if (!grp || !ADDRESS_COLORS[grp]) return;
+            var pos = network.getPositions([id])[id];
+            if (!pos) return;
+            if (!groups[grp]) groups[grp] = [];
+            groups[grp].push(pos);
+        });
+        var next = {};
+        Object.keys(groups).forEach(function(grp) {
+            var pts = groups[grp];
+            var cx = 0, cy = 0;
+            pts.forEach(function(p) { cx += p.x; cy += p.y; });
+            cx /= pts.length; cy /= pts.length;
+            if (pts.length === 1) {
+                next[grp] = { hull: null, centroid: { x: cx, y: cy }, single: true, point: pts[0] };
+            } else if (pts.length === 2) {
+                // Capsule perpendicular to the line through the two points
+                var p0 = pts[0], p1 = pts[1];
+                var dx = p1.x - p0.x, dy = p1.y - p0.y;
+                var d = Math.sqrt(dx*dx + dy*dy) || 1;
+                var ux = dx / d, uy = dy / d;          // unit along the line
+                var nx = -uy, ny = ux;                  // perpendicular
+                var width = 50;                          // half-thickness of capsule
+                var endpad = 40;                         // extension past each endpoint
+                var corners = [
+                    { x: p0.x - ux*endpad + nx*width, y: p0.y - uy*endpad + ny*width },
+                    { x: p1.x + ux*endpad + nx*width, y: p1.y + uy*endpad + ny*width },
+                    { x: p1.x + ux*endpad - nx*width, y: p1.y + uy*endpad - ny*width },
+                    { x: p0.x - ux*endpad - nx*width, y: p0.y - uy*endpad - ny*width },
+                ];
+                next[grp] = { hull: corners, centroid: { x: cx, y: cy } };
+            } else {
+                next[grp] = { hull: _expandHull(_convexHull(pts), 40), centroid: { x: cx, y: cy } };
+            }
+        });
+        hullCache = next;
+    }
+
+    var recomputeTimer = setInterval(recomputeHulls, 250);
+    network.on('stabilizationIterationsDone', function() {
+        recomputeHulls();
+        clearInterval(recomputeTimer);
+        recomputeTimer = setInterval(recomputeHulls, 1500);
+    });
+    network.on('dragEnd', recomputeHulls);
+
+    network.on('afterDrawing', function(ctx) {
+        Object.keys(hullCache).forEach(function(grp) {
+            var entry = hullCache[grp];
+            if (!entry) return;
+            var color = ADDRESS_COLORS[grp];
+            // Tinted hull
+            if (entry.hull && entry.hull.length >= 3) {
+                ctx.save();
+                _drawSmoothPolygon(ctx, entry.hull);
+                ctx.fillStyle = color + "1a";   // ~10% alpha
+                ctx.fill();
+                ctx.strokeStyle = color + "66"; // ~40% alpha
+                ctx.lineWidth = 1.5;
+                ctx.stroke();
+                ctx.restore();
+            } else if (entry.single) {
+                // Lone node — draw a small ring around it
+                ctx.save();
+                ctx.beginPath();
+                ctx.arc(entry.point.x, entry.point.y, 40, 0, Math.PI * 2);
+                ctx.fillStyle = color + "1a";
+                ctx.fill();
+                ctx.strokeStyle = color + "66";
+                ctx.lineWidth = 1.2;
+                ctx.stroke();
+                ctx.restore();
+            }
+            // Label at centroid
+            ctx.save();
+            ctx.font = "600 16px system-ui, sans-serif";
+            ctx.textAlign = "center";
+            ctx.textBaseline = "middle";
+            ctx.fillStyle = color;
+            ctx.fillText(grp, entry.centroid.x, entry.centroid.y);
+            ctx.restore();
+        });
+    });
+}
 </script>
 """
     html = html.replace("</body>", overlay + "</body>")
