@@ -1,19 +1,59 @@
-/Users/anthonyschultz/Desktop/Colegio_Invisible/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
-  warnings.warn(
-Found 17 strands; total knot txs: 3023
-
-[1/4] Broadcasting splitter 241fcbe7f4570f23…
-      ✓ sent
-      waiting for splitter (241fcbe7f4570f23…) to confirm…........... ✓ (165s)
-
-[2/4] Broadcasting 5 per-quipu roots (parallel)…
-      ✓ root[image     ] 94f700ad614d481f…
-      ✓ root[essay     ] 84fbbb17718523ed…
-      ✓ root[dichtung  ] a4bb23790cc0bbcb…
-      ✓ root[fett      ] 9cc887c578f809d4…
-      ✓ root[juden     ] 4c89b5df1567fa02…
-      waiting for root[image] (94f700ad614d481f…) to confirm…...... ✓ (90s)
-      waiting for root[essay] (84fbbb17718523ed…) to confirm… ✓ (0s)
-      waiting for root[dichtung] (a4bb23790cc0bbcb…) to confirm… ✓ (0s)
-      waiting for root[fett] (9cc887c578f809d4…) to confirm… ✓ (0s)
-      waiting for root[juden] (4c89b5df1567fa02…) to confirm…
+[20:48:09] ========================================================================
+[20:48:09] CONSOLIDATED INSCRIPTION BROADCAST
+[20:48:09] ========================================================================
+[20:48:09] found 17 strands, 3023 total knot txs
+[20:48:09] 
+[20:48:09] [1/5] splitter
+[20:48:09]   ↺ splitter already broadcast (confs=115)
+[20:48:09]   ✓ splitter confirmed (0s)
+[20:48:09] 
+[20:48:09] [2/5] per-quipu roots
+[20:48:09]   ↺ root[image] already broadcast (confs=112)
+[20:48:09]   ↺ root[essay] already broadcast (confs=112)
+[20:48:09]   ↺ root[dichtung] already broadcast (confs=112)
+[20:48:09]   ↺ root[fett] already broadcast (confs=112)
+[20:48:09]   ↺ root[juden] already broadcast (confs=112)
+[20:48:09]   ✓ root[image] confirmed (0s)
+[20:48:09]   ✓ root[essay] confirmed (0s)
+[20:48:09]   ✓ root[dichtung] confirmed (0s)
+[20:48:09]   ✓ root[fett] confirmed (0s)
+[20:48:09]   ✓ root[juden] confirmed (0s)
+[20:48:09] 
+[20:48:09] [3/5] 17 strands in parallel waves of 25
+[20:48:09]   strand[image_0] already complete (1 knots)
+[20:48:09]   strand[essay_0] already complete (1 knots)
+[20:48:09]   strand[juden_0] already complete (1 knots)
+[20:48:09]   strand[fett_0] already complete (2 knots)
+[20:48:09]   strand[dichtung_0] already complete (2 knots)
+[20:48:09]   strand[fett_1] already complete (23 knots)
+[20:48:09]   strand[juden_1] already complete (19 knots)
+[20:48:09]   strand[dichtung_1] already complete (42 knots)
+[20:48:09]   strand[essay_1] already complete (92 knots)
+[20:48:09]   strand[image_4] already complete (355 knots)
+[20:48:09]   strand[image_1] already complete (355 knots)
+[20:48:09]   strand[image_3] already complete (355 knots)
+[20:48:09]   strand[image_2] already complete (355 knots)
+[20:48:09]   strand[image_5] already complete (355 knots)
+[20:48:09]   strand[image_8] already complete (355 knots)
+[20:48:09]   strand[image_6] already complete (355 knots)
+[20:48:09]   strand[image_7] already complete (355 knots)
+[20:48:09] all 17 strand threads finished
+[20:48:09] 
+[20:48:09] [4/5] waiting for all strand termini to confirm in a block
+[20:48:09]   termini confirmed: 17/17   (elapsed 0s)
+[20:48:09] 
+[20:48:09] [5/5] mega-join
+[20:48:09]   ↺ mega-join already broadcast (confs=20)
+[20:48:09]   ✓ mega-join confirmed (0s)
+[20:48:09] 
+[20:48:09] ========================================================================
+[20:48:09] ALL DONE. The corpus is on chain.
+[20:48:09] ========================================================================
+[20:48:09]   splitter:        241fcbe7f4570f23ec0fc31398c2b9df9f5bb45e82667a3ecf5959a6d0ef1b0c
+[20:48:09]   root[image     ] 94f700ad614d481f58a90fb5f5576d70b50c49a119cc6d1a2bb33c7620b18641
+[20:48:09]   root[essay     ] 84fbbb17718523edf373630e68239fa9abda85297ba2aca8a69ace04f0ad5fb5
+[20:48:09]   root[dichtung  ] a4bb23790cc0bbcbcf7436a379c687d52c45e10904e769a08d4df71fd54bd8ae
+[20:48:09]   root[fett      ] 9cc887c578f809d45c65114a2345b1701c805defc050beb1771e27a555bd6ce3
+[20:48:09]   root[juden     ] 4c89b5df1567fa02af3fb13430b01829ef63e4ec1fa0e9c0addba45c4a6ba258
+[20:48:09]   mega-join:       9336717933d019b9a0880ebb54a13bd2d9a15fb813f602968d85a88e36d5b7d2
+[20:48:09]   Final 1.00 DOGE residual: 9336717933d019b9a0880ebb54a13bd2d9a15fb813f602968d85a88e36d5b7d2:0  (back to apocrypha)
