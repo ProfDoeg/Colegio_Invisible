@@ -9,6 +9,8 @@ No RPC. Run with:
 Force-directed graph (Barnes-Hut physics via pyvis). One node per quipu.
 Hover any node — the popup contains the decoded content inline:
   text: full prose
+  essay: markdown with citations + binding blocks resolved via the
+         canonical/essay substitution engine, rendered to HTML
   image: rendered at native resolution
   cert: text body + inlined images referenced via <<txid>> citations
   encrypted: sub_family / variant; if keydrop, also shows each drop's
@@ -37,6 +39,7 @@ sys.path.insert(0, REPO)
 
 TYPE_COLORS = {
     "text":       "#e6c97a",
+    "essay":      "#d8b48a",
     "image":      "#7eb4d8",
     "encrypted":  "#9b86c7",
     "cert":       "#86c786",
@@ -325,6 +328,113 @@ def render_encrypted_html(q: pd.Series, blob: bytes, df_all: pd.DataFrame) -> st
     return "".join(parts)
 
 
+def find_body_offset(blob: bytes) -> int:
+    """For text (0x00) and essay (0x01), find where the body starts.
+
+    Header format is `c1dd0001 + type + tone + |f0|f1|...|fN|` where each
+    field is one of: title (first, no `=`) or key=value pair. The header
+    ends at the last `|` before the body markdown. We walk pipes; a segment
+    containing a newline marks where the body has started.
+    """
+    if len(blob) <= 6 or blob[6:7] != b"|":
+        return 6
+    pos = 7
+    hdr_end = 7
+    while pos < len(blob):
+        close = blob.find(b"|", pos)
+        if close < 0:
+            break
+        segment = blob[pos:close]
+        if b"\n" in segment:
+            # body markdown started — `close` is the first pipe inside the body
+            break
+        hdr_end = close + 1
+        pos = close + 1
+        if pos - 6 > 2048:  # sanity bound
+            break
+    return hdr_end
+
+
+def render_essay_html(blob: bytes, df_all: pd.DataFrame) -> str:
+    """Run the canonical 0x01 essay substitution pipeline and render to HTML.
+
+    Pipeline: extract fenced binding blocks → evaluate → resolve <<txid>>
+    citations → emit plain markdown → convert to HTML. quipu:<txid> URLs
+    inside the resolved markdown are rewritten to onclick handlers so they
+    navigate to the target quipu in the viewer.
+    """
+    body_offset = find_body_offset(blob)
+    body_md = blob[body_offset:].decode("utf-8", errors="replace")
+
+    # Build fetcher + title_lookup from the local corpus
+    title_map = {
+        str(r["root_txid"]).lower(): (r["title"] if isinstance(r["title"], str) else "")
+        for _, r in df_all.iterrows()
+        if isinstance(r.get("root_txid"), str)
+    }
+    def _fetcher(txid: str) -> bytes:
+        path = os.path.join(REPO, "data", "bodies", f"{txid}.bin")
+        if os.path.exists(path):
+            return open(path, "rb").read()
+        raise FileNotFoundError(f"{txid} not in local corpus")
+    def _title_lookup(txid: str) -> str:
+        return title_map.get(txid.lower(), "")
+
+    try:
+        from essay import substitute_body
+        resolved_md = substitute_body(body_md, fetcher=_fetcher, title_lookup=_title_lookup)
+    except Exception as e:
+        return (f"<div style='color:#a00'>essay substitution failed: "
+                f"{html_lib.escape(str(e))}</div>"
+                f"<pre style='white-space:pre-wrap;font:12px/1.5 ui-sans-serif;"
+                f"margin:6px 0;padding:8px;background:#fafafa;border:1px solid #eee;"
+                f"max-height:320px;overflow:auto'>"
+                + html_lib.escape(body_md[:2000])
+                + "</pre>")
+
+    # Render the resolved markdown to HTML
+    try:
+        import markdown as md
+        html = md.markdown(resolved_md, extensions=["extra", "tables", "sane_lists"])
+    except Exception as e:
+        html = f"<pre>{html_lib.escape(resolved_md[:3000])}</pre>"
+
+    # Rewrite <img src="quipu:<txid>"> to inline data URLs (markdown image
+    # syntax pointing at an image quipu). Must run BEFORE the link rewriter,
+    # since <img> tags carry src= not href=.
+    def _rewrite_img(m):
+        txid = m.group(1).lower()
+        target = df_all[df_all["root_txid"].astype(str).str.lower() == txid]
+        if target.empty or target.iloc[0]["type_name"] != "image":
+            return m.group(0)  # leave unchanged
+        row = target.iloc[0]
+        img_blob = load_body(row["root_txid"])
+        if img_blob is None:
+            return m.group(0)
+        dims = json.loads(row["dimensions_json"] or "{}")
+        pil = _image_blob_to_pil(img_blob, dims)
+        if pil is None:
+            return m.group(0)
+        return f'src="{_pil_to_data_url(pil)}"'
+    html = re.sub(r'src="quipu:([0-9a-fA-F]{64})"', _rewrite_img, html)
+
+    # Rewrite quipu:<txid> URLs (and #subobj fragments) to onclick handlers
+    def _rewrite(m):
+        href = m.group(1)
+        txid = href.split("#", 1)[0]
+        click = f"window.showQuipuFor && window.showQuipuFor('{txid}')"
+        return f'href="javascript:void(0)" onclick="{click}" style="color:#3a6ea6;text-decoration:underline;cursor:pointer"'
+    html = re.sub(r'href="quipu:([0-9a-fA-F]{64}(?:#[^"]*)?)"', _rewrite, html)
+
+    return (
+        "<div style='font:13px/1.55 ui-sans-serif,system-ui,sans-serif;"
+        "max-height:380px;overflow:auto;margin:8px 0;padding:10px;"
+        "background:#fafafa;border:1px solid #eee;border-radius:4px'>"
+        + html
+        + "</div>"
+    )
+
+
 def render_content_html(q: pd.Series, blob: bytes, df_all: pd.DataFrame) -> str:
     """Build the full per-node HTML popup."""
     t = q["type_name"]
@@ -340,13 +450,10 @@ def render_content_html(q: pd.Series, blob: bytes, df_all: pd.DataFrame) -> str:
 
     body_html = ""
     if t == "text":
-        body_offset = 6
-        if len(blob) > 6 and blob[6:7] == b"|":
-            close = blob.find(b"|", 7)
-            if close > 0:
-                body_offset = close + 1
-        text_body = blob[body_offset:].decode("utf-8", errors="replace")
+        text_body = blob[find_body_offset(blob):].decode("utf-8", errors="replace")
         body_html = render_text_with_citations(text_body, df_all)
+    elif t == "essay":
+        body_html = render_essay_html(blob, df_all)
     elif t == "image":
         dims = json.loads(q["dimensions_json"] or "{}")
         if dims.get("W"):
