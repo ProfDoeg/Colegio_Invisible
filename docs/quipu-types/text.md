@@ -14,15 +14,64 @@ the protocol-level definition of `0x00` is just "UTF-8 in, UTF-8 out."
 
 ## Byte layout
 
-### Header — 6 + (title) bytes
+### Header — 6 + (header tail) bytes
 
 ```
 offset  bytes        meaning
 0..3    c1 dd 00 01  magic + protocol version 0.1
 4       00           type byte = text
 5       <tone>       00 ordinary, 01 affection, ff reverence
-6..     | TITLE |    UTF-8 between pipe sentinels (optional — may be absent)
+6..     | header tail |    pipe-delimited title + optional key=value fields
 ```
+
+The header tail is one or more pipe-delimited fields:
+
+```
+| title | key1=value1 | key2=value2 | ... |
+```
+
+- The **first** non-empty field is the title (must contain no `=`).
+- Every **subsequent** field is `key=value` (must contain `=`).
+- All header bytes are UTF-8 (regardless of the body's `encoding=` field
+  — only the body honors `encoding`).
+- Pipes (`|` / 0x7C) are forbidden inside keys and values.
+- Empty title plus fields is legal: `||key=value|...|`.
+- Empty header tail is legal: `c1dd0001 00 <tone>` with no further bytes.
+
+### Reserved field names with canonical formats
+
+None are required. If any of these is present, it must follow the form:
+
+| field      | format                                                | Python interop |
+|------------|-------------------------------------------------------|---------------|
+| `encoding` | IANA codec name (any alias `codecs.lookup` accepts)    | `bytes.decode(encoding=...)` |
+| `date`     | ISO 8601 / RFC 3339: `YYYY-MM-DD` or `YYYY-MM-DDTHH:MM:SS{Z\|±HH:MM}` | `datetime.fromisoformat(...)` |
+| `lang`     | BCP 47 tag: `en`, `es`, `la`, `en-US`, …               | `langcodes.Language.get(...)` |
+| `author`   | free UTF-8 string (no canonical format)                | —             |
+
+Only `encoding` is **protocol-significant**: the canonical reader uses it
+to decode the body bytes. Default `utf-8` if absent. Other reserved
+fields are display-oriented — readers should render them but aren't
+required to.
+
+Unreserved keys pass through opaquely. Inscribers may use any key they
+like; readers display what they recognize and ignore the rest.
+Conventions can settle later via Estandarte's conventions block.
+
+### Multi-value handling
+
+Each key appears at most once in a header. For naturally multi-valued
+fields, use comma-separated values within one entry
+(`author=Frank Johnson, Mary Lee`) or distinct keys (`composed=…`
+plus `inscribed=…`). The canonical builder rejects duplicate keys;
+if a reader encounters them, last-write-wins.
+
+### Backward compatibility
+
+The bare `|TITLE|` form used by the five canonical text inscriptions
+already on chain (Mi Perrito, Mi Caballo, Atom, both "Oh! You Pretty
+Things" Bowie texts) parses cleanly under this extended grammar —
+they're just "one field, no key=value pairs."
 
 ### Tone vocabulary
 
