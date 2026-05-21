@@ -32,36 +32,74 @@ structure is per-line.
 
 ## Body format
 
-One binding per line. Each line:
+Pure UTF-8 text. Three line kinds. Lines are evaluated in source order;
+later assignments override earlier ones (**last-write-wins**).
+
+### 1. Import another binding
+
+A line containing only a `<<txid>>` citation imports another `0xab`
+quipu's bindings at this point in the evaluation:
 
 ```
-NAME txid
+<<bbbbbb…txid_of_other_ab_quipu…bbbbbb>>
 ```
 
-A single space (or `=`) separates the name from the txid. Newline
-ends the line.
+The imported binding's body is evaluated as if its lines appeared
+here. Subsequent lines in the importing binding can override anything
+the import brought in. Imports may themselves import other bindings,
+forming an inheritance chain. Cycle detection is the reader's
+responsibility.
 
-- **NAME** is UTF-8 with no whitespace and no `<` or `>` characters.
-  Case-sensitive. Same naming rules as inline bindings in essay
-  markup.
-- **txid** is a Dogecoin transaction ID — full 64-character hex, or
-  a shorter unique prefix (resolved at lookup time).
+### 2. Alias assignment
 
-Empty lines are ignored. A line not matching the `NAME txid` shape is
-treated as a comment (parser ignores it).
+Bind one or more `<<Alias>>` names to a target txid:
+
+```
+<<Alias>>=<<txid235978659817…>>
+<<Alias1>>=<<Alias2>>=<<Alias3>>=<<txid235978659817…>>
+```
+
+The chained form is shorthand for assigning each alias on the left to
+the same target. All three names become independently usable.
+`<<Alias3>>` may itself be a previously-defined alias rather than a
+raw txid — assignment chains resolve transitively.
+
+### 3. String substitution
+
+A `"quoted"="quoted"` pair specifies a pure text replacement applied
+to importing essays:
+
+```
+"Sirichinova"="Sinchova"
+"Domremy"="Domrémy"
+```
+
+No `<<...>>` involved. Useful for spelling variants, transliteration
+corrections, terminology updates. Substitutions accumulate across
+imports and are applied to essay body text wherever the binding is
+imported.
+
+### Comments and whitespace
+
+Empty lines are ignored. Any line that does not match one of the three
+forms above is treated as a comment.
 
 ## Example
 
 ```
-DomCert 6da7a9a9d8d651c48e0a979ea6d1f00ce03cd1388ea390c5fa2050f9b2fb4910
-MaierDecl 1ec0ee9b27d6ab91169b28f3acdada51cab8eb03af8c2a7e128d122a2dba7d0c
-DomImage b92bbbf974ad7d1ba035d03b34ee455dadf4e85c365d841beb4443e55da0b66c
-LaVernaRoot a90fb985f7c12eb4abb2cb4d9e77e1636902df1fb203e7f13e0a367e20e9d019
-ApocryphaAddr D6zKNnkupqRbkB9p5rwix8QiobQWJazjyX
+<<commonNames_v1_txid>>                                  # inherit prior names
 
-Hayagriva <hayagriva_identity_txid>
-Christophia <christophia_identity_txid>
-Anthony <anthony_identity_txid>
+<<MaierDecl>>=<<1ec0ee9b27d6ab91…2dba7d0c>>
+<<DomCert>>=<<DomremyBordadoCertificate>>=<<6da7a9a9…b2fb4910>>
+<<DomImage>>=<<b92bbbf974ad7d1b…5da0b66c>>
+<<LaVernaImage>>=<<2b01e2094c52bf99…8a932d6a>>
+
+<<Hayagriva>>=<<hayagriva_identity_txid>>
+<<Christophia>>=<<christophia_identity_txid>>
+<<Anthony>>=<<anthony_identity_txid>>
+
+"Sirichinova"="Sinchova"
+"Domremy"="Domrémy"
 ```
 
 Body bytes are pure UTF-8. No protocol-level structure beyond the
@@ -97,9 +135,95 @@ standalone embed at the top:
 ```
 
 If the same NAME appears in multiple imports with different txids,
-**first-import-wins**: the first import is authoritative; later
-imports add only what wasn't already bound. This is stable and
-predictable. To override, omit the name from earlier imports.
+**last-write-wins**: the most recent assignment in evaluation order
+takes effect. This is consistent with shell-style variable assignment
+semantics and lets a binding override a name from an earlier import
+just by reassigning it.
+
+## Evaluation algorithm
+
+When a reader compiles an essay (or a binding) that contains imports,
+two dicts are at play:
+
+- `P_pristine` — the dict-as-passed-from-parent, frozen for the current
+  binding's evaluation. This is what gets passed DOWN to each child
+  import.
+- `P_render` — the dict used to render the current binding's own body.
+  Starts as a COPY of `P_pristine`. Each child import returns a dict;
+  the new entries merge into `P_render` (last-write-wins). Local
+  assignment and substitution lines also mutate `P_render` in document
+  order.
+
+A global `visited` set tracks every txid that has been evaluated during
+this compile pass. It prevents both cycles and redundant re-evaluation
+of the same binding when it's imported from multiple paths.
+
+### Pseudocode
+
+```python
+def evaluate(binding, P_pristine, visited):
+    if binding.txid in visited:
+        return copy(visited[binding.txid])      # cache hit; return a COPY
+    visited[binding.txid] = {}                   # placeholder for cycle break
+    P_render = copy(P_pristine)
+    for line in binding.body:
+        if line is <<txid>>-import:
+            child = evaluate(fetch(txid),
+                             copy(P_pristine),    # children get their OWN copy
+                             visited)
+            P_render = merge(P_render, child)    # last-write-wins
+        elif line is <<A>>=<<B>>=...=<<target>>:
+            for name in (A, B, ...):
+                P_render[name] = target
+        elif line is "X"="Y":
+            P_render.substitutions.append((X, Y))
+    visited[binding.txid] = copy(P_render)        # store a COPY in cache
+    return copy(P_render)                          # return a COPY to caller
+```
+
+### Properties
+
+- **Value semantics throughout.** Every dict that crosses a scope
+  boundary is a copy. No shared mutable state between scopes; a child
+  cannot reach back into its parent's dict.
+- **Cycles terminate.** A→B→A on re-entry hits the placeholder in
+  `visited`, returns the empty dict, and the recursion unwinds. The
+  inscriber should avoid cycles deliberately; the reader stays safe.
+- **Diamond imports are memoized.** If X imports Z and Y also imports Z,
+  Z is evaluated once. Both X and Y receive copies of Z's cached
+  result.
+- **Imports are commutative on `P_pristine`.** Each child sees the
+  parent's frozen pre-import state; siblings cannot pollute each
+  other's evaluation. Only the parent's `P_render` accumulates across
+  imports.
+- **Resolution at use-site, not assignment-site.** An alias chain
+  `<<A>>=<<B>>=<<txid>>` stores three entries: `A → txid`, `B → txid`,
+  and `txid` as the resolved terminal. When an essay later writes
+  `<<A>>`, the reader walks the chain at render time, with cycle
+  detection limited to 8 hops.
+
+### Failure modes
+
+- **Alias cycle** (`<<A>>=<<B>>; <<B>>=<<A>>`): detected at resolution
+  time. Reader raises or marks the citation unresolved.
+- **Unresolvable alias** (name never bound to a txid): renders as the
+  raw `<<Name>>` literal, with a class flagging it.
+- **Deep chain** (> 8 hops): treated as a likely error; resolution
+  bails with a warning.
+
+## Render output
+
+When the essay body contains `<<Alias>>` and resolution succeeds, the
+renderer emits a hyperlink:
+
+- **Anchor text**: the resolved inscription's `title` (or for two-segment
+  `<<Alias>><<SubObj>>`, the sub-object's name).
+- **href**: a viewer URL for the resolved txid.
+
+For example, `<<DomCert>>` in essay prose renders as a clickable link
+labeled "Domrémy Bordado Certificate" pointing at the cert's viewer
+page. String substitutions from `P_render.substitutions` are applied to
+the surrounding essay text before citation parsing.
 
 ## Versioning
 
