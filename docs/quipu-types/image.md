@@ -22,7 +22,8 @@ offset  bytes        meaning
 0..3    c1 dd 00 01  magic + protocol version 0.1
 4       03           type byte = image
 5       <tone>       00 ordinary, 01 affection, ff reverence
-6       <color>      00 grayscale (1 channel), 01 RGB (3 channels)
+6       <color>      00 grayscale (1ch), 01 RGB (3ch),
+                     02 grayscale+alpha (2ch), 03 RGBA (4ch)
 7..8    <W_hi W_lo>  width  in pixels, uint16 big-endian
 9..10   <H_hi H_lo>  height in pixels, uint16 big-endian
 11      <bit_depth>  bits per channel per pixel (1..8)
@@ -122,10 +123,24 @@ Same as text quipus:
 |---|---|---|---|
 | `0x00` | grayscale | 1 | one intensity value |
 | `0x01` | RGB | 3 | red, green, blue |
+| `0x02` | grayscale + alpha | 2 | gray, alpha (interleaved per pixel) |
+| `0x03` | RGBA | 4 | red, green, blue, alpha (interleaved per pixel) |
 
-Future amendments may allocate additional color modes (RGBA, CMYK,
-indexed-palette, etc.); any byte value other than `0x00` or `0x01` is
-rejected by the canonical builder.
+`bit_depth` applies uniformly to all channels including alpha. So
+4-bit RGBA gives 16 levels per channel: 16 reds × 16 greens × 16 blues
+× 16 alpha levels, 16 bits per pixel total. 1-bit alpha (full
+transparency / full opacity) is achievable by mixing per-pixel channel
+bit-depths only via separate inscriptions — the protocol does not yet
+support per-channel bit-depth specification.
+
+The alpha modes (0x02, 0x03) were added 2026-05-22 to support sprite
+sheets and matte-channeled images (dancers, characters, cutouts).
+RGBA is the dominant choice for these; gray+alpha is useful for
+silhouette / line-art with transparency.
+
+Any byte value other than `0x00`..`0x03` is rejected by the canonical
+builder. Future amendments may allocate additional color modes (CMYK,
+indexed-palette, HDR, depth-augmented, etc.).
 
 ---
 

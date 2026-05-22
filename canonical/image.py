@@ -14,6 +14,8 @@ HEADER (12 + variable title bytes):
     <tone:1>                        00 ordinary, 01 affection, ff reverence
     <color:1>                       00 grayscale (1 channel)
                                     01 RGB       (3 channels)
+                                    02 grayscale + alpha (2 channels: G, A)
+                                    03 RGBA      (4 channels: R, G, B, A)
     <W_hi W_lo>                     width  in pixels, uint16 big-endian
     <H_hi H_lo>                     height in pixels, uint16 big-endian
     <bit_depth:1>                   bits per channel per pixel (1..8)
@@ -35,8 +37,10 @@ BODY:
 
     Channel order within each pixel is the natural order for the color
     mode:
-        grayscale: one value per pixel
-        RGB:       R, then G, then B
+        grayscale:        one value per pixel
+        RGB:              R, then G, then B
+        grayscale+alpha:  G, then A
+        RGBA:             R, then G, then B, then A
 
     Total bit count: width * height * channels * bit_depth
     Total byte count: ceil(total_bit_count / 8)
@@ -63,9 +67,22 @@ TONE_AFFECTION  = 0x01
 TONE_REVERENCE  = 0xFF
 _VALID_TONES    = (TONE_ORDINARY, TONE_AFFECTION, TONE_REVERENCE)
 
-COLOR_GRAY      = 0x00   # 1 channel
-COLOR_RGB       = 0x01   # 3 channels
-_CHANNELS = {COLOR_GRAY: 1, COLOR_RGB: 3}
+COLOR_GRAY       = 0x00   # 1 channel
+COLOR_RGB        = 0x01   # 3 channels
+COLOR_GRAY_ALPHA = 0x02   # 2 channels: G, A
+COLOR_RGBA       = 0x03   # 4 channels: R, G, B, A
+_CHANNELS = {
+    COLOR_GRAY:       1,
+    COLOR_RGB:        3,
+    COLOR_GRAY_ALPHA: 2,
+    COLOR_RGBA:       4,
+}
+_COLOR_NAMES = {
+    COLOR_GRAY:       "gray",
+    COLOR_RGB:        "RGB",
+    COLOR_GRAY_ALPHA: "gray+alpha",
+    COLOR_RGBA:       "RGBA",
+}
 
 
 def expected_body_bytes(width, height, color, bit_depth):
@@ -81,7 +98,8 @@ def build_image_quipu(width, height, color, bit_depth, title, body,
 
     Args:
         width, height: pixel dimensions, each in [1, 65535].
-        color:         COLOR_GRAY (0x00) or COLOR_RGB (0x01).
+        color:         COLOR_GRAY (0x00), COLOR_RGB (0x01),
+                       COLOR_GRAY_ALPHA (0x02), or COLOR_RGBA (0x03).
         bit_depth:     bits per channel, in [1, 8].
         title:         UTF-8 string. May be empty. MUST NOT contain '|'.
         body:          raw bit-packed pixel bytes. Length must equal
@@ -97,7 +115,8 @@ def build_image_quipu(width, height, color, bit_depth, title, body,
         )
     if color not in _CHANNELS:
         raise ValueError(
-            f"color must be 0x00 (gray) or 0x01 (RGB); got {color:#04x}"
+            f"color must be 0x00 (gray), 0x01 (RGB), 0x02 (gray+alpha), "
+            f"or 0x03 (RGBA); got {color:#04x}"
         )
     if not (1 <= width  <= 0xFFFF):
         raise ValueError(f"width must be in [1, 65535]; got {width}")
@@ -120,7 +139,7 @@ def build_image_quipu(width, height, color, bit_depth, title, body,
     if len(body_bytes) != expected:
         raise ValueError(
             f"body length {len(body_bytes)} != expected {expected} bytes "
-            f"for {width}x{height} {('gray','RGB')[color]} @ {bit_depth} bpc"
+            f"for {width}x{height} {_COLOR_NAMES[color]} @ {bit_depth} bpc"
         )
 
     header = (
@@ -142,8 +161,8 @@ def read_image_quipu(header_bytes, body_bytes):
     Returns:
         {
           'tone':       int (0x00 / 0x01 / 0xff),
-          'color':      int (0x00 gray / 0x01 RGB),
-          'channels':   int (1 or 3),
+          'color':      int (0x00 gray / 0x01 RGB / 0x02 gray+alpha / 0x03 RGBA),
+          'channels':   int (1, 2, 3, or 4),
           'width':      int,
           'height':     int,
           'bit_depth':  int,
@@ -173,7 +192,8 @@ def read_image_quipu(header_bytes, body_bytes):
 
     if color not in _CHANNELS:
         raise ValueError(
-            f"unknown color byte {color:#04x} (expected 0x00 gray or 0x01 RGB)"
+            f"unknown color byte {color:#04x} "
+            f"(expected 0x00 gray, 0x01 RGB, 0x02 gray+alpha, or 0x03 RGBA)"
         )
     channels = _CHANNELS[color]
 
@@ -358,11 +378,90 @@ def _selftest_domremy_header_shape():
     assert parsed["height"]    == 240
     assert parsed["color"]     == COLOR_RGB
     assert parsed["bit_depth"] == 5
-    assert parsed["title"]     == " Domremy: Campo de Bourlemont "
+    assert parsed["title"]     == "Domremy: Campo de Bourlemont"
     assert parsed["tone"]      == TONE_REVERENCE
     assert parsed["body_bits"] == 160 * 240 * 3 * 5  # = 576000
     assert expected_body_bytes(160, 240, COLOR_RGB, 5) == 72000
     print(f"  ✓ matches on-chain inscription shape (body would be 72000 B)")
+    print()
+
+
+def _selftest_alpha_modes():
+    """Round-trip for the two alpha-channel color modes (0x02 gray+alpha,
+    0x03 RGBA), at 4-bit and 8-bit depths."""
+    print(f"=== alpha-mode round-trips ===")
+
+    # --- gray + alpha, 4-bit -------------------------------------------------
+    width, height, bit_depth = 3, 2, 4
+    # 6 pixels × 2 channels (G, A) = 12 values, each 0..15
+    values = [
+        15, 15,   8, 12,   3, 0,    # row 0: bright opaque, mid semi, dim transparent
+         0,  0,  15,  4,  10, 8,    # row 1: hidden, bright semi-transparent, mid
+    ]
+    body = pack_pixels(values, bit_depth)
+    expected_n_bytes = math.ceil(width * height * 2 * bit_depth / 8)
+    assert len(body) == expected_n_bytes, f"GA pack: {len(body)} vs {expected_n_bytes}"
+    h, b = build_image_quipu(width, height, COLOR_GRAY_ALPHA, bit_depth,
+                             "Tiny GA", body, tone=TONE_AFFECTION)
+    parsed = read_image_quipu(h, b)
+    assert parsed["color"]    == COLOR_GRAY_ALPHA
+    assert parsed["channels"] == 2
+    assert parsed["width"]    == width
+    assert parsed["height"]   == height
+    assert parsed["title"]    == "Tiny GA"
+    assert parsed["body"]     == body
+    recovered = unpack_pixels(parsed["body"], width * height * 2, bit_depth)
+    assert recovered == values
+    print(f"  gray+alpha {width}×{height} @ {bit_depth}-bit: "
+          f"{len(values)} values → {len(body)} B → round-trip OK")
+
+    # --- RGBA, 8-bit ---------------------------------------------------------
+    width, height, bit_depth = 2, 2, 8
+    # 4 pixels × 4 channels (R, G, B, A) = 16 values
+    values = [
+        255,   0,   0, 255,     # pixel 0: opaque red
+          0, 255,   0, 128,     # pixel 1: half-transparent green
+          0,   0, 255,   0,     # pixel 2: fully transparent blue
+        255, 255, 255, 200,     # pixel 3: mostly-opaque white
+    ]
+    body = pack_pixels(values, bit_depth)
+    assert len(body) == 16
+    h, b = build_image_quipu(width, height, COLOR_RGBA, bit_depth,
+                             "Tiny RGBA", body, tone=TONE_ORDINARY)
+    parsed = read_image_quipu(h, b)
+    assert parsed["color"]    == COLOR_RGBA
+    assert parsed["channels"] == 4
+    assert parsed["body"]     == body
+    recovered = unpack_pixels(parsed["body"], width * height * 4, bit_depth)
+    assert recovered == values
+    print(f"  RGBA       {width}×{height} @ {bit_depth}-bit: "
+          f"{len(values)} values → {len(body)} B → round-trip OK")
+
+    # --- RGBA, 4-bit (compact format likely for dancer sprites) -------------
+    width, height, bit_depth = 4, 4, 4
+    values = []
+    for i in range(width * height):
+        values.extend([i % 16, (i*3) % 16, (i*5) % 16, 15])  # opaque
+    body = pack_pixels(values, bit_depth)
+    expected_n_bytes = math.ceil(width * height * 4 * bit_depth / 8)
+    assert len(body) == expected_n_bytes
+    h, b = build_image_quipu(width, height, COLOR_RGBA, bit_depth,
+                             "Tiny RGBA 4bit", body)
+    parsed = read_image_quipu(h, b)
+    assert parsed["color"] == COLOR_RGBA
+    assert parsed["channels"] == 4
+    recovered = unpack_pixels(parsed["body"], width * height * 4, bit_depth)
+    assert recovered == values
+    print(f"  RGBA       {width}×{height} @ {bit_depth}-bit: "
+          f"{len(values)} values → {len(body)} B → round-trip OK")
+
+    # --- expected_body_bytes sanity for all four modes -----------------------
+    assert expected_body_bytes(100, 100, COLOR_GRAY,       8) == 10000
+    assert expected_body_bytes(100, 100, COLOR_RGB,        8) == 30000
+    assert expected_body_bytes(100, 100, COLOR_GRAY_ALPHA, 8) == 20000
+    assert expected_body_bytes(100, 100, COLOR_RGBA,       8) == 40000
+    assert expected_body_bytes(100, 100, COLOR_RGBA,       4) == 20000
+    print(f"  expected_body_bytes() consistent across all four color modes")
     print()
 
 
@@ -403,4 +502,5 @@ if __name__ == "__main__":
     _selftest_header_roundtrip()
     _selftest_5bit_packing()
     _selftest_domremy_header_shape()
+    _selftest_alpha_modes()
     _selftest_validation()
