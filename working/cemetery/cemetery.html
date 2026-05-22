@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Cementerio de los Animales — pet cemetery</title>
+<style>
+  body  { margin: 0; padding: 0; background: #0a0a0a; color: #eaeaea;
+          font-family: 'Iowan Old Style', 'Hoefler Text', Georgia, serif;
+          overflow: hidden; }
+  canvas { display: block; }
+  #overlay {
+    position: absolute; inset: 0; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; text-align: center;
+    background: rgba(8, 6, 4, 0.78); color: #f4e8d4; cursor: pointer;
+    z-index: 10; transition: opacity 0.6s;
+  }
+  #overlay h1 { font-size: 28px; font-weight: 500; margin: 0 0 6px 0;
+                letter-spacing: 0.4px; }
+  #overlay p  { font-size: 14px; max-width: 480px; line-height: 1.6;
+                opacity: 0.8; margin: 4px 0; }
+  #overlay .start { margin-top: 22px; padding: 10px 24px;
+                    border: 1px solid #c9b285; border-radius: 2px;
+                    font-size: 13px; letter-spacing: 1px; }
+  #hud {
+    position: absolute; bottom: 16px; left: 16px; z-index: 5;
+    font: 12px/1.5 ui-monospace, monospace; color: rgba(244, 232, 212, 0.7);
+    padding: 8px 12px; background: rgba(8, 6, 4, 0.45);
+    border: 1px solid rgba(201, 178, 133, 0.3); border-radius: 2px;
+    pointer-events: none;
+  }
+  #plaque {
+    position: absolute; top: 28px; left: 50%;
+    transform: translateX(-50%);
+    z-index: 8; pointer-events: none;
+    max-width: 540px; padding: 18px 24px;
+    background: rgba(8, 6, 4, 0.88); color: #f4e8d4;
+    border: 1px solid #c9b285; border-radius: 3px;
+    font-family: 'Iowan Old Style', Georgia, serif;
+    line-height: 1.55; opacity: 0; transition: opacity 0.4s;
+  }
+  #plaque h2  { margin: 0 0 8px 0; font-size: 22px; font-weight: 500;
+                letter-spacing: 0.3px; color: #f4e8d4; }
+  #plaque p   { margin: 6px 0; font-size: 14px; color: #d9c9a8; }
+  #plaque .txid { font: 10px ui-monospace, monospace; color: #8a7a55;
+                  margin-top: 14px; word-break: break-all; }
+  #plaque.show { opacity: 1; }
+</style>
+</head>
+<body>
+<div id="overlay">
+  <h1>Cementerio de los Animales</h1>
+  <p>A small place for Bea, Paco, and Sparkle.</p>
+  <p>WASD to walk · mouse to look · approach a grave to read its plaque.</p>
+  <div class="start">click to enter</div>
+</div>
+<div id="hud">WASD walk · mouse look · esc release</div>
+<div id="plaque">
+  <h2 id="plaque-name"></h2>
+  <p id="plaque-text"></p>
+  <div class="txid" id="plaque-txid"></div>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.158.0/examples/jsm/"
+  }
+}
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
+import { LineSegments2 }        from 'three/addons/lines/LineSegments2.js';
+import { LineSegmentsGeometry } from 'three/addons/lines/LineSegmentsGeometry.js';
+import { LineMaterial }         from 'three/addons/lines/LineMaterial.js';
+
+// -----------------------------------------------------------------------------
+// the graves, left to right.  bea is central (three photos on one backboard),
+// flanked by the two cats.  all titles are EXACT text from the on-chain
+// inscriptions — same bytes the chain holds.
+// -----------------------------------------------------------------------------
+const GRAVES = [
+  {
+    key:        'sparkle',
+    engraved:   'Sparkle',
+    position:   [-3.6, 0, -2.0],
+    rotationY:  0.32,
+    width:      0.8,        // narrow backboard, single photo
+    plaque: {
+      title:    'Sparkle🐈‍⬛MagicalCat🐈‍⬛✨💜Fovever💜✨',
+      detail:   '',
+    },
+    photos: [
+      { texture: 'textures/sparkle.png',
+        title:   'Sparkle🐈‍⬛MagicalCat🐈‍⬛✨💜Fovever💜✨',
+        txid:    'c1542c10399a09a5471799133c472a6652d5cb3b7b421e1a7e80e2039f5b393b',
+        size:    [0.66, 0.66] },
+    ],
+  },
+  {
+    key:        'bea',
+    engraved:   'Peter Bea',
+    position:   [0, 0, -3.0],          // slightly further back — anchor of arc
+    rotationY:  0,
+    width:      2.1,        // wider backboard for three photos
+    plaque: {
+      title:    'Peter Bea',
+      detail:   'Three photographs, three moments.',
+    },
+    photos: [
+      // left: in the car on her blanket
+      { texture: 'textures/bea_in_car.png',
+        title:   'This was Peter on her blanket during a ride to the country',
+        txid:    '9e42c7ab6f47dadc0c36d22fb20f69c9db0daa5c719cd8ff83c8ecf250efa519',
+        size:    [0.56, 0.28],
+        offset:  [-0.7, 1.20, 0] },
+      // center: peter bea portrait (largest)
+      { texture: 'textures/bea.png',
+        title:   'Peter Bea',
+        txid:    'a01e8625d653f4a8686b5b9e20ca653e59ebcd8bf2ca2a7b8370fdc52417f7b9',
+        size:    [0.62, 0.62],
+        offset:  [0, 1.35, 0] },
+      // right: sun face
+      { texture: 'textures/sun_face.png',
+        title:   'Sun Face',
+        txid:    'dcd31fa39202c9018dfb28e17da108dd3bd6b98ffc1cd30040f636012e3236ee',
+        size:    [0.56, 0.56],
+        offset:  [0.7, 1.30, 0] },
+    ],
+  },
+  {
+    key:        'paco',
+    engraved:   'Paco',
+    position:   [3.6, 0, -2.0],
+    rotationY:  -0.32,
+    width:      0.8,
+    plaque: {
+      title:    'Paco',
+      detail:   'Paco was a kitten I found on the side of the road in a drain ditch.\n The first night after taking him home he slept in a bag. \n He was named after fashion designer Paco Rabanne',
+    },
+    photos: [
+      { texture: 'textures/paco.png',
+        title:   'Paco',
+        txid:    '014123b21a99b50e28219522af50a7a970dd3f8feeb0dd1d07e4ab2d384b40d1',
+        size:    [0.66, 0.46] },
+    ],
+  },
+];
+
+// -----------------------------------------------------------------------------
+// scene setup
+// -----------------------------------------------------------------------------
+const scene = new THREE.Scene();
+scene.fog = new THREE.Fog(0xb8a780, 20, 60);      // soft, pushed back, lighter
+scene.background = new THREE.Color(0xb8a780);     // warm late-afternoon haze
+
+const camera = new THREE.PerspectiveCamera(
+  68, window.innerWidth / window.innerHeight, 0.05, 200
+);
+camera.position.set(0, 1.6, 4);                    // start at entrance, eye-level
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+document.body.appendChild(renderer.domElement);
+
+window.addEventListener('resize', () => {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  // keep LineMaterial.resolution in sync so screen-space line widths stay sharp
+  scene.traverse(o => {
+    if (o.userData && o.userData.isCelestialLine && o.material &&
+        o.material.resolution) {
+      o.material.resolution.set(window.innerWidth, window.innerHeight);
+    }
+  });
+});
+
+// -----------------------------------------------------------------------------
+// lighting — soft dusk warmth + cool ambient
+// -----------------------------------------------------------------------------
+// brighter, cleaner light: soft afternoon — not dusk, not noon.
+// the previous dusk palette was making everything muddy.
+const ambient = new THREE.AmbientLight(0xfff5e8, 1.1);
+scene.add(ambient);
+
+const sun = new THREE.DirectionalLight(0xfff0d2, 1.5);
+sun.position.set(-6, 9, 3);
+sun.castShadow = true;
+sun.shadow.mapSize.set(2048, 2048);
+sun.shadow.camera.left   = -10;
+sun.shadow.camera.right  =  10;
+sun.shadow.camera.top    =  10;
+sun.shadow.camera.bottom = -10;
+sun.shadow.bias = -0.0006;
+scene.add(sun);
+
+// hemi: sky color overhead, ground bounce from below
+const sky = new THREE.HemisphereLight(0xcedce8, 0x9a8a60, 0.85);
+scene.add(sky);
+
+// -----------------------------------------------------------------------------
+// ground — soft sandy-grass plane
+// -----------------------------------------------------------------------------
+const ground = new THREE.Mesh(
+  new THREE.PlaneGeometry(60, 60, 1, 1),
+  new THREE.MeshStandardMaterial({
+    color: 0x6a7a48, roughness: 0.95, metalness: 0,
+  })
+);
+ground.rotation.x = -Math.PI / 2;
+ground.receiveShadow = true;
+scene.add(ground);
+
+// -----------------------------------------------------------------------------
+// hedge — a low ring of dark green geometry around the cemetery
+// -----------------------------------------------------------------------------
+const hedgeRadius = 8;
+const hedgeMat = new THREE.MeshStandardMaterial({
+  color: 0x1d2818, roughness: 0.9, metalness: 0,
+});
+for (let i = 0; i < 64; i++) {
+  const angle = (i / 64) * Math.PI * 2;
+  // skip a gap at the front for the entrance
+  if (angle > Math.PI * 0.45 && angle < Math.PI * 0.55) continue;
+  const segment = new THREE.Mesh(
+    new THREE.BoxGeometry(1.0, 1.1, 0.7),
+    hedgeMat
+  );
+  segment.position.set(
+    Math.sin(angle) * hedgeRadius,
+    0.55,
+    -Math.cos(angle) * hedgeRadius + 1  // shift hedge slightly back
+  );
+  segment.rotation.y = angle;
+  segment.castShadow = true;
+  segment.receiveShadow = true;
+  scene.add(segment);
+}
+
+// -----------------------------------------------------------------------------
+// graves — one per pet
+// each grave = small stone plinth + photo plane mounted on a backboard
+// each grave is INTERACTIVE (raycast hit shows the plaque)
+// -----------------------------------------------------------------------------
+const graveObjects = []; // for raycasting
+
+const stoneMat = new THREE.MeshStandardMaterial({
+  color: 0x9a8e7a, roughness: 0.92, metalness: 0,
+});
+const backboardMat = new THREE.MeshStandardMaterial({
+  color: 0x4a3a28, roughness: 0.7, metalness: 0,
+});
+
+const textureLoader = new THREE.TextureLoader();
+
+function buildGrave(grave) {
+  const group = new THREE.Group();
+  group.position.set(...grave.position);
+  group.rotation.y = grave.rotationY;
+  group.userData = { grave };
+
+  const w = grave.width;
+  const isWide = w > 1.0;
+
+  // plinth — narrow or wide depending on grave
+  const plinth = new THREE.Mesh(
+    new THREE.BoxGeometry(w, 0.6, 0.5),
+    stoneMat
+  );
+  plinth.position.y = 0.3;
+  plinth.castShadow = true;
+  plinth.receiveShadow = true;
+  group.add(plinth);
+
+  // backboard — wide grave gets taller backboard for the three photos
+  const backboardH = isWide ? 1.5 : 1.2;
+  const backboard = new THREE.Mesh(
+    new THREE.BoxGeometry(w, backboardH, 0.08),
+    backboardMat
+  );
+  backboard.position.set(0, isWide ? 1.35 : 1.2, -0.16);
+  backboard.castShadow = true;
+  backboard.receiveShadow = true;
+  group.add(backboard);
+
+  // photo planes — one or more, positioned on the backboard
+  for (const photo of grave.photos) {
+    const tex = textureLoader.load(photo.texture);
+    tex.magFilter = THREE.NearestFilter;
+    tex.minFilter = THREE.LinearMipmapLinearFilter;
+    tex.colorSpace = THREE.SRGBColorSpace;
+    tex.anisotropy = renderer.capabilities.getMaxAnisotropy();
+    // basic material — full-brightness photos, untouched by lighting.
+    // the photos are the focal point; they should always be readable.
+    const photoMat = new THREE.MeshBasicMaterial({
+      map: tex, toneMapped: false,
+    });
+    const [pw, ph] = photo.size;
+    const [ox, oy, oz] = photo.offset || [0, isWide ? 1.35 : 1.3, 0];
+    const mesh = new THREE.Mesh(
+      new THREE.PlaneGeometry(pw, ph),
+      photoMat
+    );
+    mesh.position.set(ox, oy, oz - 0.11);
+    group.add(mesh);
+
+    // simple wooden frame around each photo
+    const frame = new THREE.Mesh(
+      new THREE.PlaneGeometry(pw + 0.05, ph + 0.05),
+      new THREE.MeshStandardMaterial({ color: 0x3a2818, roughness: 0.9 })
+    );
+    frame.position.set(ox, oy, oz - 0.115);
+    group.add(frame);
+  }
+
+  // engraved name on the plinth face
+  const labelCanvas = document.createElement('canvas');
+  labelCanvas.width  = isWide ? 1024 : 512;
+  labelCanvas.height = 128;
+  const ctx = labelCanvas.getContext('2d');
+  ctx.fillStyle = '#1a1108';
+  ctx.font = '500 64px "Hoefler Text", Georgia, serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText(grave.engraved, labelCanvas.width/2, labelCanvas.height/2);
+
+  const labelTex = new THREE.CanvasTexture(labelCanvas);
+  labelTex.colorSpace = THREE.SRGBColorSpace;
+  const labelMat = new THREE.MeshBasicMaterial({
+    map: labelTex, transparent: true,
+  });
+  const label = new THREE.Mesh(
+    new THREE.PlaneGeometry(isWide ? 1.4 : 0.72, 0.18),
+    labelMat
+  );
+  label.position.set(0, 0.45, 0.255);
+  group.add(label);
+
+  scene.add(group);
+  graveObjects.push(group);
+}
+
+for (const grave of GRAVES) {
+  buildGrave(grave);
+}
+
+// -----------------------------------------------------------------------------
+// a few small decorative elements — stones and a sentinel tree
+// -----------------------------------------------------------------------------
+for (let i = 0; i < 14; i++) {
+  const angle = Math.random() * Math.PI * 2;
+  const r = 4 + Math.random() * 3;
+  const s = 0.08 + Math.random() * 0.16;
+  const stone = new THREE.Mesh(
+    new THREE.IcosahedronGeometry(s, 0),
+    new THREE.MeshStandardMaterial({
+      color: 0x6a5e4a, roughness: 1.0,
+    })
+  );
+  stone.position.set(Math.sin(angle) * r, s * 0.6, Math.cos(angle) * r);
+  stone.castShadow = true;
+  scene.add(stone);
+}
+
+// a tall sentinel tree behind the cemetery
+const trunk = new THREE.Mesh(
+  new THREE.CylinderGeometry(0.18, 0.22, 3.6, 8),
+  new THREE.MeshStandardMaterial({ color: 0x3a2a18, roughness: 0.95 })
+);
+trunk.position.set(-5, 1.8, -7);
+trunk.castShadow = true;
+scene.add(trunk);
+
+const canopy = new THREE.Mesh(
+  new THREE.SphereGeometry(1.8, 16, 12),
+  new THREE.MeshStandardMaterial({ color: 0x2a3818, roughness: 1.0 })
+);
+canopy.position.set(-5, 4.5, -7);
+canopy.castShadow = true;
+canopy.receiveShadow = true;
+scene.add(canopy);
+
+// -----------------------------------------------------------------------------
+// celestial sphere — the Sky of al-Jawza, 62 stars in 10 constellations,
+// each color-coded, slowly rotating around the cemetery's vertical axis.
+// data extracted from the on-chain 0xce celestial quipu
+//   2ae7fe909e19c0e4… ('The Sky of al-Jawza')
+// -----------------------------------------------------------------------------
+const STAR_SPHERE_R   = 80;          // radius of celestial sphere (m)
+const STAR_ROT_PERIOD = 90;          // seconds per full 360° rotation
+const STAR_ROT_SPEED  = -(2 * Math.PI) / STAR_ROT_PERIOD;  // rad/sec (E→W = clockwise from NCP = negative on local +Y)
+
+// Buenos Aires, Argentina  —  Feb 15, 2016 at ~21:00 ART (UTC-3)
+// latitude  -34.6°  longitude -58.4°
+// GMST at Feb 16, 00:00 UTC ≈ 9.70 h   →   LST_BA ≈ 9.70 − 3.89 ≈ 5.81 h ≈ 87°
+// At that moment Orion (RA ~85°) is transiting the local meridian.
+const OBSERVER_LAT       = -34.6;
+const INITIAL_LST_DEG    = 87;       // RA on the meridian at scene start
+
+// Per-constellation palette — built from 10 evenly-spaced hues around
+// the color wheel (every 36°), all at LOW saturation and HIGH lightness
+// so each constellation is a distinct pastel-toward-white tone rather
+// than a saturated primary. Same color applies to every star in the
+// constellation AND to its connecting lines, so each constellation
+// reads as one cohesive cohort.
+//
+// Constructed via HSL → hex at material-build time below.
+const _CONSTELLATION_HUE_DEG = {
+  'Orion':           0,     // red end       — the hunter
+  'Taurus':          36,    // orange        — the bull
+  'Winter Triangle': 72,    // yellow        — the great asterism
+  'Lepus':           108,   // yellow-green  — the hare
+  'Canis Minor':     144,   // green         — the little dog
+  'Canis Major':     180,   // cyan          — Sirius the dog star
+  'Pleiades':        216,   // blue          — the Seven Sisters
+  'Monoceros':       252,   // violet        — the unicorn
+  'Canopus':         288,   // magenta       — the lone southern beacon
+  'Perseus':         324,   // rose          — the hero
+};
+const _CONSTELLATION_SATURATION = 0.42;   // pastel — clearly hued but soft
+const _CONSTELLATION_LIGHTNESS  = 0.78;   // near-white, like washed gouache
+
+// resolved THREE.Color per constellation (filled at scene-build time)
+const CONSTELLATION_COLORS = {};
+for (const [name, hueDeg] of Object.entries(_CONSTELLATION_HUE_DEG)) {
+  CONSTELLATION_COLORS[name] = new THREE.Color().setHSL(
+    hueDeg / 360,
+    _CONSTELLATION_SATURATION,
+    _CONSTELLATION_LIGHTNESS,
+  );
+}
+
+// Nested-group structure for proper celestial-pole rotation:
+//   celestialAxisGroup : tilted so its local +Y aligns with the celestial pole
+//   celestialSpinGroup : child, rotates around its local Y = the celestial axis
+//   starsGroup         : alias for the spin group (so animate() can reach it)
+let celestialAxisGroup = null;
+let celestialSpinGroup = null;
+let starsGroup         = null;
+
+fetch('jawza.json')
+  .then(r => r.json())
+  .then(jawza => {
+    ({ celestialAxisGroup, celestialSpinGroup } = buildCelestialSphere(jawza));
+    scene.add(celestialAxisGroup);
+    starsGroup = celestialSpinGroup;
+    console.log(`Sky of al-Jawza loaded: ${jawza.points.length} stars, `
+                + `${jawza.groups.length} constellations`);
+  })
+  .catch(err => console.error('failed to load jawza.json:', err));
+
+// (RA, Dec) → cartesian for an observer at the center of a celestial sphere
+// of radius r.
+//
+//   - +Y is the celestial north pole (Dec = +90°).
+//   - The Z-component is NEGATED so that RA increases COUNTER-CLOCKWISE
+//     when viewed from above (+Y), which matches the astronomical
+//     convention for an observer looking up from inside the sphere.
+//     (Without this negation, constellations render mirror-flipped.)
+function radecToCartesian(raDeg, decDeg, r) {
+  const ra  = raDeg  * Math.PI / 180;
+  const dec = decDeg * Math.PI / 180;
+  return new THREE.Vector3(
+     r * Math.cos(dec) * Math.cos(ra),
+     r * Math.sin(dec),
+    -r * Math.cos(dec) * Math.sin(ra),   // ← flipped to fix mirror reversal
+  );
+}
+
+function buildCelestialSphere(jawza) {
+  // ----- two nested groups -------------------------------------------------
+  // outer: align local +Y with the celestial pole for our chosen latitude.
+  // at latitude φ, the celestial pole is at altitude φ above the north
+  // horizon. so to tilt local +Y to point at the pole (assuming +Y starts
+  // at the zenith and "north" is -Z in our world), we rotate around X by
+  // -(90° − φ).
+  const axisGroup = new THREE.Group();
+  axisGroup.position.y = 1.6;       // center rotation on visitor's eye height
+  axisGroup.rotation.x = -((90 - OBSERVER_LAT) * Math.PI / 180);
+
+  // inner: actually holds the stars. rotation.y on THIS group = rotation
+  // around the celestial pole (because its local +Y has been aligned to it
+  // by the parent axisGroup).
+  const spinGroup = new THREE.Group();
+  axisGroup.add(spinGroup);
+
+  // ----- build all star positions ------------------------------------------
+  const positions = jawza.points.map(pt =>
+    radecToCartesian(pt.ra, pt.dec, STAR_SPHERE_R)
+  );
+
+  // ----- per-constellation rendering --------------------------------------
+  for (const g of jawza.groups) {
+    // single color for the entire constellation — all its stars AND its
+    // lines render in this one tone. Fallback to white for unknown groups.
+    const color = CONSTELLATION_COLORS[g.name] || new THREE.Color(0xffffff);
+
+    // stars — uniform color across the whole constellation
+    const starGeom  = new THREE.BufferGeometry();
+    const starVerts = new Float32Array(g.point_indices.length * 3);
+    g.point_indices.forEach((idx, i) => {
+      const p = positions[idx];
+      starVerts[i*3]   = p.x;
+      starVerts[i*3+1] = p.y;
+      starVerts[i*3+2] = p.z;
+    });
+    starGeom.setAttribute('position',
+      new THREE.BufferAttribute(starVerts, 3));
+
+    const starMat = new THREE.PointsMaterial({
+      color:            color,
+      size:             2.0,         // smaller than before, still chunky-pixel
+      sizeAttenuation:  true,
+      transparent:      true,
+      opacity:          1.0,
+      depthWrite:       false,
+      toneMapped:       false,
+      fog:              false,
+      blending:         THREE.NormalBlending,
+    });
+    spinGroup.add(new THREE.Points(starGeom, starMat));
+
+    // constellation lines — LineSegments2 with proper screen-space linewidth.
+    // LineBasicMaterial's `linewidth` is silently ignored on most WebGL
+    // implementations; LineSegments2 renders lines as instanced quads so
+    // the width is real.
+    if (g.lines.length > 0) {
+      const flat = [];
+      for (const [a, b] of g.lines) {
+        const pa = positions[a];
+        const pb = positions[b];
+        flat.push(pa.x, pa.y, pa.z, pb.x, pb.y, pb.z);
+      }
+      const lineGeom = new LineSegmentsGeometry();
+      lineGeom.setPositions(flat);
+
+      const lineMat = new LineMaterial({
+        color:       color,
+        linewidth:   2.4,                              // SCREEN PIXELS
+        transparent: true,
+        opacity:     0.85,
+        depthWrite:  false,
+        toneMapped:  false,
+        fog:         false,
+        worldUnits:  false,
+        resolution:  new THREE.Vector2(
+          window.innerWidth, window.innerHeight),
+      });
+      const segs = new LineSegments2(lineGeom, lineMat);
+      segs.computeLineDistances();
+      segs.userData.isCelestialLine = true;   // for resize update
+      spinGroup.add(segs);
+    }
+
+    // ---- constellation label sprite ----------------------------------------
+    // place at the centroid of the constellation's stars, slightly outside
+    // the star sphere so it sits "behind" them when the camera looks straight
+    // at the group.
+    {
+      const c = new THREE.Vector3();
+      for (const idx of g.point_indices) c.add(positions[idx]);
+      c.multiplyScalar(1 / g.point_indices.length);
+      c.normalize().multiplyScalar(STAR_SPHERE_R * 1.02);
+
+      const labelCanvas = document.createElement('canvas');
+      labelCanvas.width  = 512;
+      labelCanvas.height = 96;
+      const ctx = labelCanvas.getContext('2d');
+      ctx.clearRect(0, 0, labelCanvas.width, labelCanvas.height);
+      ctx.font = '500 44px "Iowan Old Style", Georgia, serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      // soft halo so label reads against any sky
+      ctx.shadowColor = 'rgba(0,0,0,0.55)';
+      ctx.shadowBlur  = 8;
+      ctx.fillStyle   = '#' + color.getHexString();
+      ctx.fillText(g.name, labelCanvas.width/2, labelCanvas.height/2);
+
+      const labelTex = new THREE.CanvasTexture(labelCanvas);
+      labelTex.colorSpace = THREE.SRGBColorSpace;
+      labelTex.anisotropy = renderer.capabilities.getMaxAnisotropy();
+      const labelMat = new THREE.SpriteMaterial({
+        map:         labelTex,
+        transparent: true,
+        depthWrite:  false,
+        toneMapped:  false,
+        fog:         false,
+      });
+      const sprite = new THREE.Sprite(labelMat);
+      sprite.position.copy(c);
+      sprite.scale.set(10, 1.9, 1);   // world-unit sprite size
+      spinGroup.add(sprite);
+    }
+  }
+
+  // initial spin so RA = INITIAL_LST_DEG sits on the meridian at scene start
+  // (Buenos Aires, Feb 15 2016 ~21:00 ART → Orion transiting overhead north)
+  spinGroup.rotation.y = INITIAL_LST_DEG * Math.PI / 180;
+
+  return { celestialAxisGroup: axisGroup, celestialSpinGroup: spinGroup };
+}
+
+
+// -----------------------------------------------------------------------------
+// first-person controls — pointer lock, WASD walk
+// -----------------------------------------------------------------------------
+const controls = new PointerLockControls(camera, renderer.domElement);
+const overlay = document.getElementById('overlay');
+overlay.addEventListener('click', () => controls.lock());
+controls.addEventListener('lock',   () => overlay.style.opacity = 0);
+controls.addEventListener('unlock', () => overlay.style.opacity = 1);
+
+const move = { forward: false, back: false, left: false, right: false };
+const SPEED = 2.6;   // m/s
+window.addEventListener('keydown', (e) => {
+  switch (e.code) {
+    case 'KeyW': case 'ArrowUp':    move.forward = true; break;
+    case 'KeyS': case 'ArrowDown':  move.back    = true; break;
+    case 'KeyA': case 'ArrowLeft':  move.left    = true; break;
+    case 'KeyD': case 'ArrowRight': move.right   = true; break;
+  }
+});
+window.addEventListener('keyup', (e) => {
+  switch (e.code) {
+    case 'KeyW': case 'ArrowUp':    move.forward = false; break;
+    case 'KeyS': case 'ArrowDown':  move.back    = false; break;
+    case 'KeyA': case 'ArrowLeft':  move.left    = false; break;
+    case 'KeyD': case 'ArrowRight': move.right   = false; break;
+  }
+});
+
+// -----------------------------------------------------------------------------
+// proximity plaque — when camera is close to a grave, fade in its plaque
+// -----------------------------------------------------------------------------
+const PROX_THRESHOLD = 2.8;   // metres
+const plaqueEl   = document.getElementById('plaque');
+const plaqueName = document.getElementById('plaque-name');
+const plaqueText = document.getElementById('plaque-text');
+const plaqueTxid = document.getElementById('plaque-txid');
+let currentGrave = null;
+function updatePlaque() {
+  let nearest = null;
+  let dmin = Infinity;
+  for (const g of graveObjects) {
+    const d = camera.position.distanceTo(g.position);
+    if (d < dmin) { dmin = d; nearest = g; }
+  }
+  if (nearest && dmin < PROX_THRESHOLD) {
+    if (currentGrave !== nearest) {
+      currentGrave = nearest;
+      const grave = nearest.userData.grave;
+      plaqueName.textContent = grave.plaque.title;
+      // build the body of the plaque:
+      //  - if plaque has explicit detail text, use that.
+      //  - otherwise enumerate the photo titles (each on its own line)
+      let body;
+      if (grave.plaque.detail) {
+        body = grave.plaque.detail;
+      } else {
+        body = grave.photos.map(p => p.title).join('\n');
+      }
+      // for multi-photo graves, also list all the photo titles
+      if (grave.photos.length > 1) {
+        body = (grave.plaque.detail ? grave.plaque.detail + '\n\n' : '') +
+               grave.photos.map(p => '· ' + p.title).join('\n');
+      }
+      plaqueText.textContent = body;
+      // show all txids stacked, one per line
+      plaqueTxid.innerHTML = grave.photos
+        .map(p => `quipu:${p.txid}`)
+        .join('<br>');
+      plaqueEl.classList.add('show');
+    }
+  } else if (currentGrave) {
+    currentGrave = null;
+    plaqueEl.classList.remove('show');
+  }
+}
+
+// -----------------------------------------------------------------------------
+// render loop
+// -----------------------------------------------------------------------------
+const clock = new THREE.Clock();
+function animate() {
+  requestAnimationFrame(animate);
+  const dt = Math.min(clock.getDelta(), 0.1);
+
+  if (controls.isLocked) {
+    const v = SPEED * dt;
+    if (move.forward) controls.moveForward( v);
+    if (move.back)    controls.moveForward(-v);
+    if (move.right)   controls.moveRight  ( v);
+    if (move.left)    controls.moveRight  (-v);
+    // simple bound — keep visitor inside the hedge
+    const pos = controls.getObject().position;
+    pos.y = 1.6;
+    const dist = Math.hypot(pos.x, pos.z - 1);
+    if (dist > hedgeRadius - 0.6) {
+      const a = Math.atan2(pos.z - 1, pos.x);
+      pos.x = Math.cos(a) * (hedgeRadius - 0.6);
+      pos.z = Math.sin(a) * (hedgeRadius - 0.6) + 1;
+    }
+  }
+  updatePlaque();
+
+  // slow celestial rotation — the Sky of al-Jawza turns above the cemetery
+  if (starsGroup) {
+    starsGroup.rotation.y += STAR_ROT_SPEED * dt;
+  }
+
+  renderer.render(scene, camera);
+}
+animate();
+</script>
+</body>
+</html>
