@@ -68,6 +68,17 @@ ADDRESS_COLORS = {
 
 CITATION_RE = re.compile(r"<<\s*([0-9a-fA-F]{64})\s*>>(?:\s*<<\s*([^>]+?)\s*>>)?")
 
+# Registry: scene root_txid → walkable WebGL renderer that knows how to
+# stage that specific scene. Each renderer is a self-contained HTML file
+# served by a local static server (since three.js needs HTTP, not file://).
+SCENE_RENDERERS = {
+    "1f63558bdee2f5ead118083ff0af0d5e266acaf347938c5ed2722b6ced1248e3": {
+        "url":    "http://localhost:8765/cemetery.html",
+        "label":  "Open walkable cemetery in 3D",
+        "note":   "requires `python3 -m http.server 8765` in working/cemetery/",
+    },
+}
+
 # ---------------------------------------------------------------------------
 # Data
 # ---------------------------------------------------------------------------
@@ -562,6 +573,20 @@ def render_content_html(q: pd.Series, blob: bytes, df_all: pd.DataFrame) -> str:
         body_start = blob.find(b"|{", 6)
         if body_start > 0:
             body_html = render_scene_html(blob[:body_start+1], blob[body_start+1:], df_all)
+            renderer = SCENE_RENDERERS.get(q["root_txid"])
+            if renderer:
+                body_html = (
+                    "<div style='margin:8px 0;padding:8px 10px;background:#fdf3ef;"
+                    "border:1px solid #c97e6e;border-radius:4px'>"
+                    f"<a href='{renderer['url']}' target='_blank' "
+                    "style='font:600 13px/1.4 system-ui;color:#8a4a3a;"
+                    "text-decoration:none'>"
+                    f"{html_lib.escape(renderer['label'])} &rarr;</a>"
+                    "<div style='font:10px/1.3 ui-monospace;color:#888;"
+                    "margin-top:4px'>"
+                    f"{html_lib.escape(renderer['note'])}"
+                    "</div></div>"
+                ) + body_html
     elif t == "estandarte":
         try:
             from estandarte import read_estandarte_quipu, format_estandarte
@@ -665,6 +690,11 @@ def render_graph(df: pd.DataFrame, edges: pd.DataFrame, df_all: pd.DataFrame,
             # generic prose citation — thin orange
             net.add_edge(src, dst, color="#d4a373", width=1.2,
                          arrows="to", dashes=[3, 3])
+        elif isinstance(kind, str) and kind.startswith("citation_scene"):
+            # scene composition: this scene quipu places that quipu's
+            # content into walkable space. Solid terracotta — same hue
+            # as the scene node color.
+            net.add_edge(src, dst, color="#c97e6e", width=2.0, arrows="to")
 
     html = net.generate_html()
 
