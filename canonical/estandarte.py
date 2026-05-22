@@ -13,7 +13,7 @@ Wire format
 HEADER (6 bytes flat):
     c1dd 0001 ee <tone>
         0xee = type byte (Estandarte)
-        tone = 0x00 ordinary, 0xff reverence
+        tone = 0x00 ordinary, 0x0d demonic, 0xff reverence
 
 BODY:
     <parent_kind:1>                  0x00 = root, 0x01 = amendment
@@ -81,7 +81,9 @@ STATUS_DEPRECATED = 3
 _STATUS_NAME = {0: "canonical", 1: "proposed", 2: "draft", 3: "deprecated"}
 
 TONE_ORDINARY  = 0x00
+TONE_DEMONIC   = 0x0D
 TONE_REVERENCE = 0xFF
+_VALID_TONES   = (TONE_ORDINARY, TONE_DEMONIC, TONE_REVERENCE)
 
 TYPE_ESTANDARTE = 0xEE
 
@@ -124,8 +126,8 @@ def build_estandarte_quipu(types, conventions, tone=TONE_ORDINARY, parent_txid=N
     Returns:
         (header_bytes, body_bytes) tuple.
     """
-    if tone not in (TONE_ORDINARY, TONE_REVERENCE):
-        raise ValueError(f"tone must be 0x00 or 0xff (got {tone:#04x})")
+    if tone not in _VALID_TONES:
+        raise ValueError(f"tone must be 0x00, 0x0d, or 0xff (got {tone:#04x})")
     if len(types) > 255:
         raise ValueError(f"max 255 type entries (got {len(types)})")
     if len(conventions) > 255:

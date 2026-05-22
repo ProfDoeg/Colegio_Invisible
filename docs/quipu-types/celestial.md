@@ -39,7 +39,7 @@ deliberate trade of compactness for human-decodability.
 offset  bytes        meaning
 0..3    c1 dd 00 01  magic + protocol version 0.1
 4       ce           type byte = celestial
-5       <tone>       00 ordinary, ff reverence
+5       <tone>       00 ordinary, 0d demonic, ff reverence
 6       <kind>       00 earth, 01 star
 7       <grouped>    00 ungrouped (lines block follows points block)
                      01 grouped   (groups block follows points block)

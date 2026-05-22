@@ -13,7 +13,7 @@ HEADER (6 + variable header-tail bytes):
 
     c1dd 0001                       magic + protocol version 0.1
     00                              type byte = text
-    <tone:1>                        00 ordinary, 01 affection, ff reverence
+    <tone:1>                        00 ordinary, 01 affection, 0d demonic, ff reverence
     <pipe-delimited header tail>    |Title|key=value|key=value|
 
 BODY:
@@ -74,8 +74,9 @@ TYPE_TEXT       = 0x00
 
 TONE_ORDINARY   = 0x00
 TONE_AFFECTION  = 0x01
+TONE_DEMONIC    = 0x0D
 TONE_REVERENCE  = 0xFF
-_VALID_TONES    = (TONE_ORDINARY, TONE_AFFECTION, TONE_REVERENCE)
+_VALID_TONES    = (TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE)
 
 PIPE            = ord("|")  # 0x7C
 
@@ -167,8 +168,8 @@ def build_text_quipu(title, body, tone=TONE_ORDINARY, fields=None):
     """
     if tone not in _VALID_TONES:
         raise ValueError(
-            f"tone must be 0x00 (ordinary), 0x01 (affection), or 0xff "
-            f"(reverence); got {tone:#04x}"
+            f"tone must be 0x00 (ordinary), 0x01 (affection), 0x0d (demonic), "
+            f"or 0xff (reverence); got {tone:#04x}"
         )
     if not isinstance(title, str):
         raise TypeError(f"title must be str, got {type(title).__name__}")

@@ -30,7 +30,7 @@ with leaf-wins override semantics.
 offset  bytes        meaning
 0..3    c1 dd 00 01  magic + protocol version 0.1
 4       ee           type byte = Estandarte
-5       <tone>       00 ordinary, ff reverence
+5       <tone>       00 ordinary, 0d demonic, ff reverence
 ```
 
 No title field — the Estandarte's identity is the registry itself,

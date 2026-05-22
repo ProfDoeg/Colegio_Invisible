@@ -83,7 +83,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from text import (
     _FIELD_VALIDATORS,
     _VALID_TONES,
-    TONE_ORDINARY, TONE_AFFECTION, TONE_REVERENCE,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
 )
 from bindings import (
     BindingDict, evaluate as evaluate_binding,
@@ -385,7 +385,7 @@ def build_essay_quipu(title, body_markdown, tone=TONE_ORDINARY, fields=None):
     """
     if tone not in _VALID_TONES:
         raise ValueError(
-            f"tone must be 0x00, 0x01, or 0xff (got {tone:#04x})"
+            f"tone must be 0x00, 0x01, 0x0d, or 0xff (got {tone:#04x})"
         )
     if "|" in title:
         raise ValueError("title contains '|' (field separator)")
@@ -422,7 +422,7 @@ def read_essay_quipu(header_bytes, body_bytes):
     Returns:
         {
           'title':         str,
-          'tone':          int (0x00/0x01/0xff),
+          'tone':          int (0x00/0x01/0x0d/0xff),
           'fields':        dict[str, str],
           'body':          str (raw markdown — citations and binding blocks
                                 still unresolved),

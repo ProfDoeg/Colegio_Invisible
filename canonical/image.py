@@ -11,7 +11,7 @@ HEADER (12 + variable title bytes):
 
     c1dd 0001                       magic + protocol version 0.1
     03                              type byte = image
-    <tone:1>                        00 ordinary, 01 affection, ff reverence
+    <tone:1>                        00 ordinary, 01 affection, 0d demonic, ff reverence
     <color:1>                       00 grayscale (1 channel)
                                     01 RGB       (3 channels)
                                     02 grayscale + alpha (2 channels: G, A)
@@ -46,7 +46,7 @@ BODY:
     Total byte count: ceil(total_bit_count / 8)
 
 Tone vocabulary
-    Same as text.py — 0x00 ordinary, 0x01 affection, 0xff reverence.
+    Same as text.py — 0x00 ordinary, 0x01 affection, 0x0d demonic, 0xff reverence.
 
 Example on chain
     Domremy bordado image: root b92bbbf974ad7d1b…, 160 × 240 RGB at 5
@@ -64,8 +64,9 @@ TYPE_IMAGE      = 0x03
 
 TONE_ORDINARY   = 0x00
 TONE_AFFECTION  = 0x01
+TONE_DEMONIC    = 0x0D
 TONE_REVERENCE  = 0xFF
-_VALID_TONES    = (TONE_ORDINARY, TONE_AFFECTION, TONE_REVERENCE)
+_VALID_TONES    = (TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE)
 
 COLOR_GRAY       = 0x00   # 1 channel
 COLOR_RGB        = 0x01   # 3 channels
@@ -104,14 +105,15 @@ def build_image_quipu(width, height, color, bit_depth, title, body,
         title:         UTF-8 string. May be empty. MUST NOT contain '|'.
         body:          raw bit-packed pixel bytes. Length must equal
                        expected_body_bytes(width, height, color, bit_depth).
-        tone:          TONE_ORDINARY / TONE_AFFECTION / TONE_REVERENCE.
+        tone:          TONE_ORDINARY / TONE_AFFECTION / TONE_DEMONIC /
+                       TONE_REVERENCE.
 
     Returns:
         (header_bytes, body_bytes) — body returned unchanged.
     """
     if tone not in _VALID_TONES:
         raise ValueError(
-            f"tone must be 0x00, 0x01, or 0xff (got {tone:#04x})"
+            f"tone must be 0x00, 0x01, 0x0d, or 0xff (got {tone:#04x})"
         )
     if color not in _CHANNELS:
         raise ValueError(
@@ -160,7 +162,7 @@ def read_image_quipu(header_bytes, body_bytes):
 
     Returns:
         {
-          'tone':       int (0x00 / 0x01 / 0xff),
+          'tone':       int (0x00 / 0x01 / 0x0d / 0xff),
           'color':      int (0x00 gray / 0x01 RGB / 0x02 gray+alpha / 0x03 RGBA),
           'channels':   int (1, 2, 3, or 4),
           'width':      int,

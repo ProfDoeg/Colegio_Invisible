@@ -21,8 +21,9 @@ PROTOCOL_MAGIC = b"\xc1\xdd\x00\x01"
 
 TONE_ORDINARY  = 0x00
 TONE_AFFECTION = 0x01
+TONE_DEMONIC   = 0x0D
 TONE_REVERENCE = 0xff
-_VALID_TONES = (TONE_ORDINARY, TONE_AFFECTION, TONE_REVERENCE)
+_VALID_TONES = (TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE)
 
 BODY_VERSION = 0x01            # current book body schema version
 
@@ -53,7 +54,8 @@ def build_book_quipu(title, entries, tone=TONE_ORDINARY, fields=None):
                   Entries may share tags (multiple bindings, multiple certs)
                   and may share ref_txids (same target referenced under
                   multiple tags).
-        tone:     TONE_ORDINARY (default), TONE_AFFECTION, or TONE_REVERENCE.
+        tone:     TONE_ORDINARY (default), TONE_AFFECTION, TONE_DEMONIC,
+                  or TONE_REVERENCE.
         fields:   optional dict[str, str] of header metadata. Same reserved
                   keys as 0x00 text (encoding, date, lang, author). Books
                   conventionally add: series, book, year, publisher,

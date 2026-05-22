@@ -256,7 +256,8 @@ def render_celestial_quipu(
         spine.set_color(st["spine_color"])
     ax.grid(True, color=st["grid_color"], lw=0.4, alpha=0.6)
 
-    tone_label = "reverence" if parsed["tone"] == 0xFF else "ordinary"
+    tone_label = {0x00: "ordinary", 0x0d: "demonic", 0xff: "reverence"}.get(
+        parsed["tone"], f"0x{parsed['tone']:02x}")
     ax.set_title(f"{title}\n"
                  f"{len(points)} points · {len(lines)} lines · "
                  f"kind={kind} · tone={tone_label}",
@@ -379,8 +380,9 @@ def _main():
     # Print a one-line summary to stdout
     parsed = read_celestial_quipu(header_bytes, body_bytes)
     print(f"title:  {parsed['title']!r}")
+    _tones = {0x00: 'ordinary', 0x0d: 'demonic', 0xff: 'reverence'}
     print(f"kind:   {parsed['kind']}   tone: "
-          f"{'reverence' if parsed['tone'] == 0xff else 'ordinary'}")
+          f"{_tones.get(parsed['tone'], f'0x{parsed[\"tone\"]:02x}')}")
     print(f"points: {len(parsed['points'])}   lines: {len(parsed['lines'])}")
     print(f"output: {args.output}")
 

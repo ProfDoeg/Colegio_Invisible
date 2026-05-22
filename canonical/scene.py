@@ -32,8 +32,9 @@ PROTOCOL_MAGIC = b"\xc1\xdd\x00\x01"
 
 TONE_ORDINARY  = 0x00
 TONE_AFFECTION = 0x01
+TONE_DEMONIC   = 0x0D
 TONE_REVERENCE = 0xff
-_VALID_TONES = (TONE_ORDINARY, TONE_AFFECTION, TONE_REVERENCE)
+_VALID_TONES = (TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE)
 
 GLTF_VERSION = "2.0"
 GENERATOR    = "quipu-3d/v1"
@@ -205,7 +206,7 @@ def build_scene_quipu(title, gltf_body, tone=TONE_ORDINARY, fields=None):
     """
     if tone not in _VALID_TONES:
         raise ValueError(
-            f"tone must be 0x00, 0x01, or 0xff (got {tone:#04x})"
+            f"tone must be 0x00, 0x01, 0x0d, or 0xff (got {tone:#04x})"
         )
     if not isinstance(title, str):
         raise TypeError(f"title must be str, got {type(title).__name__}")

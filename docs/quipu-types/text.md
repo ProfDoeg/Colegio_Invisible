@@ -20,7 +20,7 @@ the protocol-level definition of `0x00` is just "UTF-8 in, UTF-8 out."
 offset  bytes        meaning
 0..3    c1 dd 00 01  magic + protocol version 0.1
 4       00           type byte = text
-5       <tone>       00 ordinary, 01 affection, ff reverence
+5       <tone>       00 ordinary, 01 affection, 0d demonic, ff reverence
 6..     | header tail |    pipe-delimited title + optional key=value fields
 ```
 
@@ -77,8 +77,9 @@ they're just "one field, no key=value pairs."
 
 | `<tone>` | name | when to use |
 |---|---|---|
-| `0x00` | ordinary | the default; descriptive, academic, neutral, or literary content about the living |
+| `0x00` | ordinary  | the default; descriptive, academic, neutral, or literary content about the living |
 | `0x01` | affection | paired / intimate / addressed to a specific other |
+| `0x0d` | demonic   | content that documents harm: dictators, atrocity archives, founding instruments of state terror, surveillance instruments |
 | `0xff` | reverence | the dead, ancestors, formal commemoration |
 
 `0xff` is *strict*: only for content that refers to the dead. Inscriptions
@@ -89,6 +90,9 @@ have been `0x00`.)
 
 `0x01` was first observed on the paired pair_HA / pair_CA inscriptions Mi
 Caballo and Mi Perrito — short Spanish poems addressed to a beloved.
+
+`0x0d` flags the artifact, not the inscriber: use it when the inscribed
+content is itself an instrument or record of harm.
 
 Any other tone byte is rejected by the canonical builder. A reader will
 still parse a quipu with an unknown tone (the byte is passed through

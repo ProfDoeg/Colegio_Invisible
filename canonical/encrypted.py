@@ -16,7 +16,7 @@ Header layout (uniform across sub-families):
     offset  bytes        meaning
     0..3    c1 dd 00 01  magic + protocol version 0.1
     4       0e           type byte = encrypted family
-    5       <tone>       00 ordinary / 01 affection / ff reverence
+    5       <tone>       00 ordinary / 01 affection / 0d demonic / ff reverence
                          (default 00 — opt-in disclosure)
     6       <sub_family> ae | ec | 0d
     7       <variant>    sub-family-specific qualifier
@@ -72,8 +72,9 @@ TYPE_ENCRYPTED = 0x0e
 
 TONE_ORDINARY  = 0x00
 TONE_AFFECTION = 0x01
+TONE_DEMONIC   = 0x0D
 TONE_REVERENCE = 0xFF
-_VALID_TONES   = (TONE_ORDINARY, TONE_AFFECTION, TONE_REVERENCE)
+_VALID_TONES   = (TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE)
 
 # Sub-family byte at offset 6
 SUB_AES   = 0xAE
@@ -154,7 +155,7 @@ def _shared_key(privkey, pubkey):
 
 def _build_header_prefix(tone, sub_family, variant):
     if tone not in _VALID_TONES:
-        raise ValueError(f"tone must be 0x00, 0x01, or 0xff (got {tone:#04x})")
+        raise ValueError(f"tone must be 0x00, 0x01, 0x0d, or 0xff (got {tone:#04x})")
     if sub_family not in _VALID_SUBS:
         raise ValueError(f"sub_family must be 0x{SUB_AES:02x}/0x{SUB_ECIES:02x}/0x{SUB_DROP:02x} (got {sub_family:#04x})")
     return MAGIC + bytes([TYPE_ENCRYPTED, tone, sub_family, variant])
@@ -284,7 +285,7 @@ def build_keydrop_quipu(drops, *, title="", tone=TONE_ORDINARY):
                by name, but still released). Names within one keydrop SHOULD
                be unique; duplicates resolve to the first match.
         title: optional outer public-facing batch label
-        tone:  TONE_ORDINARY / TONE_AFFECTION / TONE_REVERENCE
+        tone:  TONE_ORDINARY / TONE_AFFECTION / TONE_DEMONIC / TONE_REVERENCE
                (the tone reflects the act of disclosure, not per-drop)
 
     Returns:

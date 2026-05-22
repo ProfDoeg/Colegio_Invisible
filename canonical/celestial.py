@@ -15,7 +15,7 @@ HEADER (12 + T bytes):
 
     c1dd 0001                       magic + protocol version 0.1
     ce                              type byte = celestial
-    <tone:1>                        00 ordinary, ff reverence
+    <tone:1>                        00 ordinary, 0d demonic, ff reverence
     <kind:1>                        00 earth, 01 star
     <grouped:1>                     00 ungrouped (lines block follows points)
                                     01 grouped   (groups block follows points)
@@ -90,7 +90,9 @@ import struct
 TYPE_CELESTIAL    = 0xCE
 
 TONE_ORDINARY     = 0x00
+TONE_DEMONIC      = 0x0D
 TONE_REVERENCE    = 0xFF
+_VALID_TONES      = (TONE_ORDINARY, TONE_DEMONIC, TONE_REVERENCE)
 
 # kind byte (header offset 6)
 KIND_EARTH        = 0x00
@@ -182,8 +184,8 @@ def _figure_needs_meta(points, figure_kind):
 
 
 def _build_header(title, kind, grouped, meta, K, tone):
-    if tone not in (TONE_ORDINARY, TONE_REVERENCE):
-        raise ValueError(f"tone must be 0x00 or 0xff (got {tone:#04x})")
+    if tone not in _VALID_TONES:
+        raise ValueError(f"tone must be 0x00, 0x0d, or 0xff (got {tone:#04x})")
     if kind not in (KIND_EARTH, KIND_STAR):
         raise ValueError(f"kind must be 0x00 or 0x01 (got {kind:#04x})")
     if grouped not in (GROUPED_NO, GROUPED_YES):
@@ -282,7 +284,7 @@ def build_celestial_quipu(title, kind, points, lines, tone=TONE_ORDINARY):
             and every point in the figure carries a 1-byte pmeta prefix.
         lines: list of (a, b) integer index pairs into points. Self-loops and
                out-of-range indices rejected.
-        tone:  TONE_ORDINARY (0x00) or TONE_REVERENCE (0xff).
+        tone:  TONE_ORDINARY (0x00), TONE_DEMONIC (0x0d), or TONE_REVERENCE (0xff).
 
     Returns:
         (header_bytes, body_bytes)
@@ -400,7 +402,7 @@ def read_celestial_quipu(header_bytes, body_bytes):
     Returns:
         {
           'title':  str,
-          'tone':   int (0x00 or 0xff),
+          'tone':   int (0x00 / 0x0d / 0xff),
           'kind':   'earth' | 'star',
           'grouped': bool,
           'meta':   bool,

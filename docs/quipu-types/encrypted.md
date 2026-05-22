@@ -25,8 +25,8 @@ parser.
 The header obeys the project's uniform convention:
 
 - **Byte 4** is always the type byte. Here: `0e`.
-- **Byte 5** is always the tone byte. `00` ordinary, `01` affection, `ff`
-  reverence. **Defaults to `0x00`** for encrypted quipus so the wrapper
+- **Byte 5** is always the tone byte. `00` ordinary, `01` affection,
+  `0d` demonic, `ff` reverence. **Defaults to `0x00`** for encrypted quipus so the wrapper
   doesn't leak metadata about the sealed content. Opt-in disclosure: an
   author can set `0xff` reverence on a sealed posthumous letter if they
   want that hint visible to readers without a key.
@@ -45,7 +45,7 @@ No bit-packing within bytes. Each byte carries exactly one meaning.
 offset  bytes        meaning
 0..3    c1 dd 00 01  magic + protocol version 0.1
 4       0e           type byte = encrypted family
-5       <tone>       00 ordinary (default), 01 affection, ff reverence
+5       <tone>       00 ordinary (default), 01 affection, 0d demonic, ff reverence
 6       <sub_family> ae AES wrapper
                      ec ECIES per-recipient wrapper
                      0d key drop (operation, not a wrapper)

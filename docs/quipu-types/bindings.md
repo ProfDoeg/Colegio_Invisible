@@ -23,7 +23,7 @@ register.
 ```
 c1dd 0001     2B magic + 2B version
 ab            type — bindings
-TT            tone (00 ordinary, ff reverence)
+TT            tone (00 ordinary, 0d demonic, ff reverence)
 [body bytes]  one binding per line, see below
 ```
 

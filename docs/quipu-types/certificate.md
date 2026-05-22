@@ -20,7 +20,7 @@ offsets 6..7 picks the body shape.
 offset  bytes              meaning
 0..3    c1 dd 00 01        magic + protocol version 0.1
 4       cc                 type byte = certificate
-5       <tone>             00 ordinary, 01 affection, ff reverence
+5       <tone>             00 ordinary, 01 affection, 0d demonic, ff reverence
 6..7    <subtype_hi lo>    uint16 BE; 0x0001 = hash, 0x0002 = all-in-one
 ```
 

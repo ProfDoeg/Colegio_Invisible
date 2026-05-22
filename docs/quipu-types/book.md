@@ -45,7 +45,7 @@ required, no convention-by-convention reconstruction.
 offset  bytes        meaning
 0..3    c1 dd 00 01  magic + protocol version 0.1
 4       09           type byte = book
-5       <tone>       00 ordinary, 01 affection, ff reverence
+5       <tone>       00 ordinary, 01 affection, 0d demonic, ff reverence
 6..     | header tail |    pipe-delimited title + optional key=value fields
 ```
 

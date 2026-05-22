@@ -12,7 +12,7 @@ HEADER (8 structural bytes):
 
     c1dd 0001                       magic + protocol version 0.1
     cc                              type byte = certificate
-    <tone:1>                        00 ordinary, 01 affection, ff reverence
+    <tone:1>                        00 ordinary, 01 affection, 0d demonic, ff reverence
     <subtype_hi subtype_lo>         uint16 BE: 0x0001 hash, 0x0002 all-in-one
 
 BODY (varies by subtype):
@@ -79,8 +79,9 @@ TYPE_CERT          = 0xCC
 
 TONE_ORDINARY      = 0x00
 TONE_AFFECTION     = 0x01
+TONE_DEMONIC       = 0x0D
 TONE_REVERENCE     = 0xFF
-_VALID_TONES = (TONE_ORDINARY, TONE_AFFECTION, TONE_REVERENCE)
+_VALID_TONES = (TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE)
 
 SUBTYPE_HASH       = 0x0001   # |HASH_ALGO|<hash_hex>  +  Field:value body
 SUBTYPE_ALLINONE   = 0x0002   # |TITLE|  +  Field: value body
@@ -93,7 +94,7 @@ _FIELD_LINE_RE = re.compile(r"^([^:\s][^:]*?)\s*:\s*(.*)$", re.MULTILINE)
 def _build_structural_header(tone, subtype):
     if tone not in _VALID_TONES:
         raise ValueError(
-            f"tone must be 0x00, 0x01, or 0xff (got {tone:#04x})"
+            f"tone must be 0x00, 0x01, 0x0d, or 0xff (got {tone:#04x})"
         )
     if subtype not in _VALID_SUBTYPES:
         raise ValueError(
@@ -204,7 +205,7 @@ def read_cert(header_bytes, body_bytes):
     Dispatches on the subtype field. Returns a dict shaped to the subtype:
 
     Common keys (always present):
-        'tone':         int (0x00 / 0x01 / 0xff)
+        'tone':         int (0x00 / 0x01 / 0x0d / 0xff)
         'subtype':      int (0x0001 or 0x0002)
         'subtype_name': str ('hash' or 'allinone')
         'pipe_fields':  list of non-empty pipe-delimited UTF-8 fields at the
