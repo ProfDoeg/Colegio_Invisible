@@ -396,12 +396,12 @@ const STAR_SPHERE_R   = 80;          // radius of celestial sphere (m)
 const STAR_ROT_PERIOD = 90;          // seconds per full 360° rotation
 const STAR_ROT_SPEED  = -(2 * Math.PI) / STAR_ROT_PERIOD;  // rad/sec (E→W = clockwise from NCP = negative on local +Y)
 
-// Buenos Aires, Argentina  —  Feb 15, 2016 at ~21:00 ART (UTC-3)
-// latitude  -34.6°  longitude -58.4°
-// GMST at Feb 16, 00:00 UTC ≈ 9.70 h   →   LST_BA ≈ 9.70 − 3.89 ≈ 5.81 h ≈ 87°
+// Cazón, Provincia de Buenos Aires, Argentina — Feb 15, 2016 at ~21:00 ART (UTC-3)
+// latitude  -35.4°  longitude -59.6°
+// GMST at Feb 16, 00:00 UTC ≈ 9.70 h   →   LST ≈ 9.70 − 3.97 ≈ 5.72 h ≈ 85.8°
 // At that moment Orion (RA ~85°) is transiting the local meridian.
-const OBSERVER_LAT       = -34.6;
-const INITIAL_LST_DEG    = 87;       // RA on the meridian at scene start
+const OBSERVER_LAT       = -35.4;
+const INITIAL_LST_DEG    = 85.8;     // RA on the meridian at scene start
 
 // Per-constellation palette — built from 10 evenly-spaced hues around
 // the color wheel (every 36°), all at LOW saturation and HIGH lightness
@@ -600,7 +600,7 @@ function buildCelestialSphere(jawza) {
   }
 
   // initial spin so RA = INITIAL_LST_DEG sits on the meridian at scene start
-  // (Buenos Aires, Feb 15 2016 ~21:00 ART → Orion transiting overhead north)
+  // (Cazón, Buenos Aires, Feb 15 2016 ~21:00 ART → Orion transiting overhead north)
   spinGroup.rotation.y = INITIAL_LST_DEG * Math.PI / 180;
 
   return { celestialAxisGroup: axisGroup, celestialSpinGroup: spinGroup };

@@ -1,0 +1,89 @@
+{
+  "asset": {
+    "generator": "quipu-3d/v1",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Cementerio de los Animales",
+      "nodes": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "sky_of_al_jawza",
+      "extras": {
+        "object_kind": "celestial",
+        "quipu_ref": "2ae7fe909e19c0e4646f7981d0feffc96f4a3b286539f3da8caf19aebcf93bb2",
+        "latitude_deg": -35.4,
+        "longitude_deg": -59.6,
+        "initial_lst_deg": 85.8,
+        "rotation_period_sec": 90,
+        "epoch": "2016-02-15T21:00:00-03:00",
+        "epoch_place": "Cazón, Provincia de Buenos Aires, Argentina"
+      }
+    },
+    {
+      "name": "sparkle_photo",
+      "translation": [-3.6, 1.3, -2.0],
+      "rotation": [0, 0.16, 0, 0.987129],
+      "scale": [0.66, 0.66, 1],
+      "extras": {
+        "object_kind": "plane",
+        "quipu_ref": "c1542c10399a09a5471799133c472a6652d5cb3b7b421e1a7e80e2039f5b393b",
+        "label": "Sparkle"
+      }
+    },
+    {
+      "name": "bea_photo_blanket",
+      "translation": [-0.7, 1.20, -3.11],
+      "scale": [0.56, 0.28, 1],
+      "extras": {
+        "object_kind": "plane",
+        "quipu_ref": "9e42c7ab6f47dadc0c36d22fb20f69c9db0daa5c719cd8ff83c8ecf250efa519",
+        "label": "This was Peter on her blanket during a ride to the country"
+      }
+    },
+    {
+      "name": "bea_photo_peter",
+      "translation": [0, 1.35, -3.11],
+      "scale": [0.62, 0.62, 1],
+      "extras": {
+        "object_kind": "plane",
+        "quipu_ref": "a01e8625d653f4a8686b5b9e20ca653e59ebcd8bf2ca2a7b8370fdc52417f7b9",
+        "label": "Peter Bea"
+      }
+    },
+    {
+      "name": "bea_photo_sun_face",
+      "translation": [0.7, 1.30, -3.11],
+      "scale": [0.56, 0.56, 1],
+      "extras": {
+        "object_kind": "plane",
+        "quipu_ref": "dcd31fa39202c9018dfb28e17da108dd3bd6b98ffc1cd30040f636012e3236ee",
+        "label": "Sun Face"
+      }
+    },
+    {
+      "name": "paco_photo",
+      "translation": [3.6, 1.3, -2.0],
+      "rotation": [0, -0.16, 0, 0.987129],
+      "scale": [0.66, 0.46, 1],
+      "extras": {
+        "object_kind": "plane",
+        "quipu_ref": "014123b21a99b50e28219522af50a7a970dd3f8feeb0dd1d07e4ab2d384b40d1",
+        "label": "Paco"
+      }
+    },
+    {
+      "name": "default_camera",
+      "translation": [0, 1.6, 4],
+      "extras": {
+        "object_kind": "camera",
+        "kind": "perspective",
+        "fov_deg": 68
+      }
+    }
+  ]
+}

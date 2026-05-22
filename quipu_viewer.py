@@ -16,6 +16,9 @@ Hover any node — the popup contains the decoded content inline:
   encrypted: sub_family / variant; if keydrop, also shows each drop's
              decrypted target inline
   celestial: rendered constellation via canonical/celestial_render
+  scene: glTF-shaped node list with object_kind, transform, and clickable
+         quipu_ref per node (full walkable rendering lives in
+         working/cemetery/cemetery.html)
   estandarte: parsed registry via canonical/estandarte
 """
 
@@ -44,6 +47,7 @@ TYPE_COLORS = {
     "encrypted":  "#9b86c7",
     "cert":       "#86c786",
     "celestial":  "#86c7b4",
+    "scene":      "#c97e6e",
     "estandarte": "#d4a373",
     "identity":   "#c78686",
     "binding":    "#b0b0b0",
@@ -435,6 +439,90 @@ def render_essay_html(blob: bytes, df_all: pd.DataFrame) -> str:
     )
 
 
+def render_scene_html(header: bytes, body: bytes, df_all: pd.DataFrame) -> str:
+    """Render a 0x3d scene quipu: header fields + node list with clickable refs."""
+    try:
+        from scene import read_scene_quipu, scene_quipu_refs
+        parsed = read_scene_quipu(header, body)
+    except Exception as e:
+        return (f"<div style='color:#a00'>scene parse failed: "
+                f"{html_lib.escape(str(e))}</div>")
+
+    nodes = parsed.get("nodes", [])
+    title_map = {
+        str(r["root_txid"]).lower(): (r["title"] if isinstance(r["title"], str) else "")
+        for _, r in df_all.iterrows()
+        if isinstance(r.get("root_txid"), str)
+    }
+
+    n_refs = len(scene_quipu_refs(parsed))
+    summary_html = (
+        f"<div style='font:12px/1.5 ui-sans-serif;color:#555;margin:6px 0'>"
+        f"<b>{len(nodes)} nodes</b> · {n_refs} quipu references"
+        f"</div>"
+    )
+
+    rows = []
+    for i, node in enumerate(nodes):
+        name = html_lib.escape(node.get("name", f"node[{i}]"))
+        extras = node.get("extras") or {}
+        kind = html_lib.escape(extras.get("object_kind", "—"))
+        label = html_lib.escape(extras.get("label", ""))
+        ref = extras.get("quipu_ref")
+        if ref:
+            ref_lo = ref.lower()
+            ref_title = html_lib.escape(title_map.get(ref_lo, "")[:32])
+            click = f"window.showQuipuFor && window.showQuipuFor('{ref_lo}')"
+            ref_cell = (f"<a href='javascript:void(0)' onclick=\"{click}\" "
+                        f"style='color:#3a6ea6;text-decoration:underline;cursor:pointer;"
+                        f"font:11px ui-monospace'>{ref_lo[:12]}…</a>"
+                        f" <span style='color:#888'>{ref_title}</span>")
+        else:
+            extras_summary = ""
+            if extras.get("object_kind") == "camera" and extras.get("fov_deg"):
+                extras_summary = f"fov {extras['fov_deg']}°"
+            elif extras.get("object_kind") == "celestial":
+                lat, lon = extras.get("latitude_deg"), extras.get("longitude_deg")
+                if lat is not None and lon is not None:
+                    extras_summary = f"lat {lat}° lon {lon}°"
+            ref_cell = f"<span style='color:#aaa'>{html_lib.escape(extras_summary or '(no ref)')}</span>"
+
+        t = node.get("translation")
+        t_str = (f"({t[0]:.1f}, {t[1]:.1f}, {t[2]:.1f})"
+                 if isinstance(t, list) and len(t) == 3 else "")
+
+        rows.append(
+            f"<tr><td style='color:#888;font:10px ui-monospace;padding:2px 6px'>{i}</td>"
+            f"<td style='padding:2px 6px'>{name}</td>"
+            f"<td style='color:#666;padding:2px 6px;font:11px'>{kind}</td>"
+            f"<td style='color:#888;font:10px ui-monospace;padding:2px 6px'>{t_str}</td>"
+            f"<td style='padding:2px 6px'>{ref_cell}"
+            f"{(' — ' + label) if label else ''}</td></tr>"
+        )
+
+    table_html = (
+        "<table style='border-collapse:collapse;font:11px/1.4 ui-sans-serif;"
+        "margin:6px 0;background:#fafafa;width:100%;border:1px solid #eee'>"
+        "<thead><tr style='background:#f0f0f0;border-bottom:1px solid #ddd'>"
+        "<th style='text-align:left;padding:3px 6px;color:#777'>#</th>"
+        "<th style='text-align:left;padding:3px 6px;color:#777'>name</th>"
+        "<th style='text-align:left;padding:3px 6px;color:#777'>kind</th>"
+        "<th style='text-align:left;padding:3px 6px;color:#777'>xyz</th>"
+        "<th style='text-align:left;padding:3px 6px;color:#777'>ref / extras</th>"
+        "</tr></thead><tbody>"
+        + "".join(rows)
+        + "</tbody></table>"
+    )
+
+    return (
+        "<div style='font:13px/1.55 ui-sans-serif,system-ui,sans-serif;"
+        "max-height:380px;overflow:auto;margin:8px 0;padding:10px;"
+        "background:#fafafa;border:1px solid #eee;border-radius:4px'>"
+        + summary_html + table_html
+        + "</div>"
+    )
+
+
 def render_content_html(q: pd.Series, blob: bytes, df_all: pd.DataFrame) -> str:
     """Build the full per-node HTML popup."""
     t = q["type_name"]
@@ -470,6 +558,10 @@ def render_content_html(q: pd.Series, blob: bytes, df_all: pd.DataFrame) -> str:
             T = blob[11]
             header_len = 12 + T
             body_html = render_celestial_html(blob[:header_len], blob[header_len:])
+    elif t == "scene":
+        body_start = blob.find(b"|{", 6)
+        if body_start > 0:
+            body_html = render_scene_html(blob[:body_start+1], blob[body_start+1:], df_all)
     elif t == "estandarte":
         try:
             from estandarte import read_estandarte_quipu, format_estandarte

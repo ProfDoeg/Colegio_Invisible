@@ -56,8 +56,8 @@ of the screen with the pet's name, story, and originating txid.
 
    above
      ─ Sky of al-Jawza positioned for
-       Buenos Aires, Argentina  (lat -34.6°, lon -58.4°)
-       Feb 15 2016 at ~21:00 ART  (LST ≈ 87° → Orion transiting)
+       Cazón, Provincia de Buenos Aires, Argentina  (lat -35.4°, lon -59.6°)
+       Feb 15 2016 at ~21:00 ART  (LST ≈ 85.8° → Orion transiting)
      ─ celestial sphere wheels around the celestial axis at one
        full rotation per 90 seconds (real-direction E→W)
      ─ 10 constellations colored on an HSL pastel palette, every 36°
