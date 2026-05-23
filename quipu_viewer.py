@@ -458,6 +458,164 @@ def _try_transclude_thin_republish(body_md, df_all, depth=0):
     return target_body
 
 
+def _inject_annotations_html(html: str, bd, df_all) -> str:
+    """Walk bd.annotations and inject sidenotes / endnotes / inline-brackets
+    into `html` (post-markdown-render HTML). The renderer dispatches by the
+    inscriber's per-note mode flag (@margin / @endnote / @inline).
+
+    On the viewer's narrow popup widths, all modes effectively collapse to
+    inline-below; full Tufte-style sidenote layout is for the standalone
+    HTML build (`working/golem/built/book.html`-style artifacts) where
+    horizontal space allows."""
+    annotations = getattr(bd, "annotations", None)
+    if not annotations:
+        return html
+
+    try:
+        import markdown as md
+    except ImportError:
+        return html
+
+    def render_note_md(note_md: str) -> str:
+        try:
+            return md.markdown(note_md, extensions=["extra", "sane_lists"])
+        except Exception:
+            return f"<p>{html_lib.escape(note_md)}</p>"
+
+    used_anchors = set()
+    counter = 0
+    endnotes = []   # list of (n, anchor, note_html) for the endnotes section
+    unattached = []
+
+    for entry in annotations:
+        anchor, note_md, position, flags = entry
+        if not anchor or anchor in used_anchors:
+            continue
+        modes = [f for f in flags if f in ("margin", "endnote", "inline")]
+        mode = modes[0] if modes else "margin"
+
+        # Find anchor in html. Try direct first; loose fallback allows
+        # markdown emphasis/code tags between anchor words.
+        pos = html.find(anchor)
+        end = pos + len(anchor) if pos >= 0 else -1
+        if pos < 0:
+            esc = re.escape(anchor)
+            loose = esc.replace(r"\ ", r"\s*(?:<[^>]+>)*\s*")
+            m = re.search(loose, html)
+            if m:
+                pos, end = m.start(), m.end()
+        if pos < 0:
+            unattached.append((anchor, render_note_md(note_md)))
+            continue
+        used_anchors.add(anchor)
+
+        counter += 1
+        n = counter
+        note_html = render_note_md(note_md)
+        ref = f'<sup class="ann-ref">{n}</sup>'
+
+        if mode == "inline":
+            marker = (
+                f'{ref}<span class="annotation annotation-inline">'
+                f'[<span class="ann-num">{n}</span>{note_html}]'
+                f'</span>'
+            )
+        elif mode == "endnote":
+            ref = (
+                f'<sup class="ann-ref"><a href="#ann-end-{n}" '
+                f'id="ann-ref-{n}">{n}</a></sup>'
+            )
+            marker = ref
+            endnotes.append((n, anchor, note_html))
+        else:  # margin (default)
+            marker = (
+                f'{ref}<span class="annotation annotation-margin">'
+                f'<span class="ann-num">{n}</span>{note_html}'
+                f'</span>'
+            )
+
+        html = html[:end] + marker + html[end:]
+
+    # Append endnotes section if any @endnote annotations were emitted
+    if endnotes:
+        items = "".join(
+            f'<li id="ann-end-{n}"><sup class="ann-num">{n}</sup> '
+            f'<span class="ann-anchor-ref">on “{html_lib.escape(anchor)}”</span>'
+            f' {note_html} <a href="#ann-ref-{n}" class="ann-back">↩</a></li>'
+            for (n, anchor, note_html) in endnotes
+        )
+        html += (
+            '<section class="endnotes"><h3>Notes</h3>'
+            f'<ol class="endnotes-list">{items}</ol></section>'
+        )
+
+    # Surface unattached annotations in a colophon block (the inscriber's
+    # intent is preserved even when the anchor doesn't match)
+    if unattached:
+        items = "".join(
+            f'<li><em>{html_lib.escape(anchor)!s}</em>: {note_html}</li>'
+            for (anchor, note_html) in unattached
+        )
+        html += (
+            '<section class="unattached-notes">'
+            '<h4>Unattached annotations</h4>'
+            f'<ul>{items}</ul></section>'
+        )
+
+    # Always include the annotation CSS once the function has emitted markers
+    if counter > 0 or unattached:
+        html = _ANNOTATION_CSS + html
+
+    return html
+
+
+# CSS for annotation rendering. Inlined into the essay's HTML so the
+# Streamlit popup styles correctly. Keep it self-contained — no external
+# fonts or framework dependencies.
+_ANNOTATION_CSS = """
+<style scoped>
+  sup.ann-ref { font: 600 0.7rem/1 ui-monospace,monospace;
+                color: #8a4a3a; vertical-align: super; margin-left: 0.1em; }
+  sup.ann-ref a { color: #8a4a3a; text-decoration: none; }
+  .annotation { display: inline-block; vertical-align: top;
+                font: 0.85rem/1.4 ui-sans-serif,system-ui,sans-serif;
+                color: #444; margin: 0.2em 0 0.2em 0.4em;
+                padding: 0.3em 0.6em; border-left: 2px solid #c2a76b;
+                background: rgba(244,234,216,0.6); border-radius: 2px;
+                max-width: 32em; }
+  .annotation.annotation-margin { background: rgba(244,234,216,0.7); }
+  .annotation.annotation-inline { background: rgba(244,234,216,0.4);
+                                  display: inline; padding: 0.1em 0.35em;
+                                  border-left: none;
+                                  border-radius: 2px; }
+  .annotation .ann-num { font: 600 0.7rem/1 ui-monospace,monospace;
+                         color: #8a4a3a; margin-right: 0.4em; }
+  .annotation p { margin: 0.2em 0; }
+  .annotation em { font-style: italic; }
+  .annotation code { font-size: 0.85em;
+                     background: rgba(255,255,255,0.5); padding: 0 0.2em; }
+  section.endnotes { margin-top: 1.5em; padding-top: 0.8em;
+                     border-top: 1px solid #c2a76b;
+                     font: 0.88rem/1.5 ui-sans-serif,system-ui,sans-serif; }
+  section.endnotes h3 { font-size: 0.85rem; letter-spacing: 0.08em;
+                        text-transform: uppercase; color: #888;
+                        margin: 0 0 0.5em; }
+  .endnotes-list { padding-left: 1.6em; }
+  .endnotes-list li { margin-bottom: 0.5em; }
+  .ann-anchor-ref { color: #888; font-style: italic; }
+  .ann-back { color: #8a4a3a; text-decoration: none; margin-left: 0.4em; }
+  section.unattached-notes { margin-top: 1.2em; padding: 0.6em 0.8em;
+                              background: rgba(232,200,200,0.2);
+                              border: 1px dashed #c08080; border-radius: 3px;
+                              font-size: 0.82rem; color: #844; }
+  section.unattached-notes h4 { margin: 0 0 0.4em; font-size: 0.78rem;
+                                 letter-spacing: 0.06em;
+                                 text-transform: uppercase; color: #844; }
+  section.unattached-notes ul { margin: 0; padding-left: 1.4em; }
+</style>
+"""
+
+
 def render_essay_html(blob: bytes, df_all: pd.DataFrame, extra_bd=None) -> str:
     """Run the canonical 0x01 essay substitution pipeline and render to HTML.
 
@@ -497,9 +655,10 @@ def render_essay_html(blob: bytes, df_all: pd.DataFrame, extra_bd=None) -> str:
 
     try:
         from essay import substitute_body
-        resolved_md = substitute_body(body_md, fetcher=_fetcher,
-                                       title_lookup=_title_lookup,
-                                       extra_bd=extra_bd)
+        resolved_md, bd = substitute_body(body_md, fetcher=_fetcher,
+                                           title_lookup=_title_lookup,
+                                           extra_bd=extra_bd,
+                                           return_bindings=True)
     except Exception as e:
         return (f"<div style='color:#a00'>essay substitution failed: "
                 f"{html_lib.escape(str(e))}</div>"
@@ -515,6 +674,11 @@ def render_essay_html(blob: bytes, df_all: pd.DataFrame, extra_bd=None) -> str:
         html = md.markdown(resolved_md, extensions=["extra", "tables", "sane_lists"])
     except Exception as e:
         html = f"<pre>{html_lib.escape(resolved_md[:3000])}</pre>"
+
+    # v3 annotation primitive: walk bd.annotations, find anchors in rendered
+    # HTML, inject sidenotes / endnotes / inline brackets per the inscriber's
+    # chosen mode.
+    html = _inject_annotations_html(html, bd, df_all)
 
     # Rewrite <img src="quipu:<txid>"> to inline data URLs (markdown image
     # syntax pointing at an image quipu). Must run BEFORE the link rewriter,

@@ -58,8 +58,14 @@ _CITATION_RE    = re.compile(r"<<\s*(.+?)\s*>>")
 _IMPORT_LINE_RE = re.compile(r"^\s*<<\s*([0-9a-fA-F]{64})\s*>>\s*$")
 _SUBST_LINE_RE  = re.compile(r'^\s*"([^"]*)"\s*=\s*"([^"]*)"\s*$')
 _FLAG_TAIL_RE   = re.compile(r"\s+@([\w-]+)\s*$")
+_POS_TAIL_RE    = re.compile(r"\s+#(\d+)\s*$")
+_ANNOTATION_OPEN_RE  = re.compile(r"^@@(\S.*?)\s*$")
+_ANNOTATION_CLOSE_RE = re.compile(r"^@@\s*$")
 
-KNOWN_FLAGS = frozenset(("all", "once-per-doc"))
+KNOWN_FLAGS = frozenset((
+    "all", "once-per-doc",          # disambiguation
+    "margin", "endnote", "inline",  # annotation presentation hints
+))
 
 
 def _split_flags(line):
@@ -162,9 +168,70 @@ def parse_line(raw):
     return ("comment", raw)
 
 
+def _parse_annotation_header(header_after_at_at):
+    """Parse the text after `@@` on an annotation's opening line.
+
+    Returns (anchor_str, position_or_None, flags_frozenset).
+    Strips trailing `@flag` tokens and an optional `#N` positional
+    suffix; whatever remains is the anchor.
+    """
+    line = header_after_at_at.rstrip()
+    # Strip trailing @flag tokens (any number, any order)
+    flags = []
+    while True:
+        m = _FLAG_TAIL_RE.search(line)
+        if not m:
+            break
+        flags.insert(0, m.group(1))
+        line = line[:m.start()].rstrip()
+    # Strip an optional #N positional suffix
+    position = None
+    m = _POS_TAIL_RE.search(line)
+    if m:
+        position = int(m.group(1))
+        line = line[:m.start()].rstrip()
+    anchor = line.strip()
+    return anchor, position, frozenset(flags)
+
+
 def parse_body(body_text):
-    """Parse a binding's body text into an ordered list of line tuples."""
-    return [parse_line(line) for line in body_text.splitlines()]
+    """Parse a binding's body text into an ordered list of line tuples.
+
+    Handles two kinds of structure:
+      - Line-oriented entries (import, alias, substitution, citation,
+        comment) — one tuple per source line via `parse_line`.
+      - Multi-line annotation blocks fenced by `@@anchor [flags]` …
+        `@@` — consumed together and emitted as a single tuple
+        `('annotation', anchor, note_md, position_or_None, flags)`.
+
+    If an annotation open fence has no matching close fence by EOF,
+    the open line falls back to a comment and the following lines
+    are parsed line-by-line as normal.
+    """
+    lines = body_text.splitlines()
+    out = []
+    i = 0
+    n = len(lines)
+    while i < n:
+        line = lines[i]
+        m = _ANNOTATION_OPEN_RE.match(line)
+        if m and not _ANNOTATION_CLOSE_RE.match(line):
+            # Potential annotation open; look ahead for a closing fence
+            anchor, position, flags = _parse_annotation_header(m.group(1))
+            note_start = i + 1
+            j = note_start
+            while j < n and not _ANNOTATION_CLOSE_RE.match(lines[j]):
+                j += 1
+            if j < n and anchor:
+                # Found valid close; emit annotation
+                note_md = "\n".join(lines[note_start:j]).strip("\n")
+                out.append(("annotation", anchor, note_md, position, flags))
+                i = j + 1
+                continue
+            # No close, or empty anchor — fall through to per-line parsing
+        out.append(parse_line(line))
+        i += 1
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -223,37 +290,49 @@ def read_binding_quipu(header_bytes, body_bytes):
 class BindingDict:
     """The dict-as-result of evaluating a binding.
 
-    Holds three pieces of state:
+    Holds four pieces of state:
       - aliases:       {name -> target_str}  (target is alias name or txid hex)
       - substitutions: [(search, replace), ...]  ordered, applied at render time
       - citations:     [(triggers_tuple, txid_target, flags_frozenset), ...]
                        v2 chain rules — each entry is one equivalence class
+      - annotations:   [(anchor, note_md, position_or_None, flags_frozenset), ...]
+                       v3 anchored multi-paragraph commentary. Accumulate
+                       across imports (do NOT last-write-wins — multiple
+                       annotators may gloss the same anchor with distinct
+                       notes).
 
-    Last-write-wins on duplicate names. Substitutions and citations
-    accumulate in order.
+    Last-write-wins on alias name. Substitutions, citations, and
+    annotations accumulate in order.
     """
-    __slots__ = ("aliases", "substitutions", "citations")
+    __slots__ = ("aliases", "substitutions", "citations", "annotations")
 
-    def __init__(self, aliases=None, substitutions=None, citations=None):
+    def __init__(self, aliases=None, substitutions=None, citations=None,
+                 annotations=None):
         self.aliases       = dict(aliases) if aliases else {}
         self.substitutions = list(substitutions) if substitutions else []
         self.citations     = list(citations) if citations else []
+        self.annotations   = list(annotations) if annotations else []
 
     def copy(self):
-        return BindingDict(self.aliases, self.substitutions, self.citations)
+        return BindingDict(self.aliases, self.substitutions,
+                            self.citations, self.annotations)
 
     def merge(self, other):
-        """Merge another BindingDict into this one, last-write-wins."""
+        """Merge another BindingDict into this one. Aliases follow
+        last-write-wins; substitutions, citations, and annotations
+        accumulate in order."""
         for k, v in other.aliases.items():
             self.aliases[k] = v
         self.substitutions.extend(other.substitutions)
         self.citations.extend(other.citations)
+        self.annotations.extend(other.annotations)
 
     def __repr__(self):
         return (
             f"BindingDict(aliases={len(self.aliases)}, "
             f"substitutions={len(self.substitutions)}, "
-            f"citations={len(self.citations)})"
+            f"citations={len(self.citations)}, "
+            f"annotations={len(self.annotations)})"
         )
 
 
@@ -332,6 +411,9 @@ def evaluate(binding_txid, fetcher, *, p_pristine=None, visited=None,
         elif kind == "citation":
             triggers, target, flags = line[1], line[2], line[3]
             p_render.citations.append((tuple(triggers), target, flags))
+        elif kind == "annotation":
+            anchor, note_md, position, flags = line[1], line[2], line[3], line[4]
+            p_render.annotations.append((anchor, note_md, position, flags))
         # 'comment' lines are skipped
 
     visited[txid] = p_render.copy()
@@ -372,6 +454,108 @@ def apply_substitutions(text, bd):
     for search, replace in sorted(bd.substitutions, key=lambda p: -len(p[0])):
         text = text.replace(search, replace)
     return text
+
+
+_PRESENTATION_MODES = ("margin", "endnote", "inline")
+_DEFAULT_PRESENTATION = "margin"
+
+
+def apply_annotations(text, bd, *, doc_seen=None):
+    """Resolve v3 annotation rules from bd against text.
+
+    Returns a list of placement dicts in document order. Each placement
+    describes where a note should appear and how it should render:
+
+        {
+          'anchor':       str,    # the exact substring matched
+          'note':         str,    # the note body as markdown
+          'mode':         str,    # 'margin' | 'endnote' | 'inline'
+          'start':        int,    # char offset of anchor in `text`
+          'end':          int,    # char offset of anchor end in `text`
+          'flags':        frozenset,  # the full flag set (for renderer use)
+        }
+
+    Anchor matching is literal-substring (NOT regex), case-sensitive.
+
+    Default behavior:
+      - first occurrence per call (one match per anchor unless flagged)
+      - mode defaults to 'margin'
+      - flags `@all` and `@once-per-doc` modify match cardinality
+      - flag `#N` (passed via the `position` field of the annotation
+        tuple) picks the nth occurrence (1-indexed)
+      - flags `@margin` / `@endnote` / `@inline` set the presentation
+        mode
+
+    The caller is responsible for THREADING `doc_seen` across blocks
+    when implementing per-document semantics for `@once-per-doc`.
+    """
+    if doc_seen is None:
+        doc_seen = set()
+    placements = []
+
+    for idx, (anchor, note_md, position, flags) in enumerate(bd.annotations):
+        if not anchor:
+            continue
+        # Determine presentation mode
+        modes = [f for f in flags if f in _PRESENTATION_MODES]
+        mode = modes[0] if modes else _DEFAULT_PRESENTATION
+
+        # Find all occurrences
+        all_positions = []
+        start = 0
+        while True:
+            pos = text.find(anchor, start)
+            if pos < 0:
+                break
+            all_positions.append(pos)
+            start = pos + 1
+
+        if not all_positions:
+            # Anchor unattached — emit a sentinel placement with start=-1
+            # so the renderer can surface it in a colophon if it likes.
+            placements.append({
+                "anchor":  anchor,
+                "note":    note_md,
+                "mode":    mode,
+                "start":   -1,
+                "end":     -1,
+                "flags":   flags,
+                "unattached": True,
+            })
+            continue
+
+        # Pick the occurrences this annotation should attach to
+        targets = []
+        if position is not None:
+            # 1-indexed positional pick
+            if 1 <= position <= len(all_positions):
+                targets = [all_positions[position - 1]]
+        elif "all" in flags:
+            targets = all_positions
+        elif "once-per-doc" in flags:
+            key = ("annotation", idx, anchor)
+            if key in doc_seen:
+                continue
+            doc_seen.add(key)
+            targets = [all_positions[0]]
+        else:
+            # Default: first occurrence
+            targets = [all_positions[0]]
+
+        for tpos in targets:
+            placements.append({
+                "anchor":  anchor,
+                "note":    note_md,
+                "mode":    mode,
+                "start":   tpos,
+                "end":     tpos + len(anchor),
+                "flags":   flags,
+                "unattached": False,
+            })
+
+    # Sort by document position so the renderer can walk in order
+    placements.sort(key=lambda p: (p["start"] if p["start"] >= 0 else 10**12))
+    return placements
 
 
 def apply_citations(text, bd, *, doc_seen=None, block_seen=None,
@@ -735,9 +919,174 @@ def _selftest_apply_substitutions():
     print()
 
 
+def _selftest_v3_parse_annotations():
+    """v3 fenced annotation blocks."""
+    body = (
+        "# A binding with annotations\n"
+        "\n"
+        '"hebreo"="yiddish"\n'
+        "\n"
+        "@@Yorkshire terrier named Beatrice\n"
+        "The dog's name carries the Dante echo throughout this essay's\n"
+        "cosmology. Beatrice as the guide through the spheres of paradise.\n"
+        "@@\n"
+        "\n"
+        "@@Beatrice #3 @endnote\n"
+        "Third occurrence; renders as endnote rather than margin.\n"
+        "@@\n"
+        "\n"
+        "@@Operation Condor @once-per-doc @inline\n"
+        "Mixed flags: doc-once + inline rendering. Multi-line\n"
+        "\n"
+        "with a blank line inside the note body, which is allowed.\n"
+        "@@\n"
+        "\n"
+        "@@unclosed-anchor\n"
+        "this never gets a closing fence and should fall back to a comment\n"
+    )
+    lines = parse_body(body)
+    annotations = [l for l in lines if l[0] == "annotation"]
+    print("=== v3 parse_body (annotations) ===")
+    print(f"  total lines: {len(lines)}, annotations: {len(annotations)}")
+    assert len(annotations) == 3, f"expected 3 annotations, got {len(annotations)}"
+
+    a0 = annotations[0]
+    assert a0[1] == "Yorkshire terrier named Beatrice"
+    assert "Dante echo" in a0[2]
+    assert a0[3] is None             # no #N
+    assert a0[4] == frozenset()      # no flags → default margin
+    print(f"  [0] anchor={a0[1]!r}  position={a0[3]}  flags={set(a0[4])}")
+
+    a1 = annotations[1]
+    assert a1[1] == "Beatrice"
+    assert a1[3] == 3
+    assert a1[4] == frozenset({"endnote"})
+    print(f"  [1] anchor={a1[1]!r}  position={a1[3]}  flags={set(a1[4])}")
+
+    a2 = annotations[2]
+    assert a2[1] == "Operation Condor"
+    assert a2[3] is None
+    assert a2[4] == frozenset({"once-per-doc", "inline"})
+    assert "blank line inside" in a2[2]
+    print(f"  [2] anchor={a2[1]!r}  position={a2[3]}  flags={set(a2[4])}")
+
+    # Unclosed fence should fall back to comment + per-line parsing
+    comments = [l for l in lines if l[0] == "comment"]
+    assert any("unclosed-anchor" in (l[1] if isinstance(l[1], str) else "")
+               for l in comments), "unclosed fence should fall back to comment"
+    print(f"  ✓ unclosed fence falls back to comment (lines after it parsed individually)")
+    print()
+
+
+def _selftest_apply_annotations():
+    bd = BindingDict()
+    # Three annotations against the same text, exercising default,
+    # positional, @all, and @once-per-doc behaviors.
+    bd.annotations = [
+        # default: first occurrence, default mode (margin)
+        ("Beatrice", "first Beatrice note", None, frozenset()),
+        # positional: third occurrence, endnote mode
+        ("Beatrice", "third Beatrice note", 3, frozenset({"endnote"})),
+        # @all: every occurrence, inline mode
+        ("Goethe", "every Goethe note", None, frozenset({"all", "inline"})),
+        # @once-per-doc: only first across the document
+        ("Hayagriva", "first-in-doc only", None, frozenset({"once-per-doc"})),
+        # unattached: anchor doesn't exist
+        ("NonExistent", "unattached note", None, frozenset({"margin"})),
+    ]
+    text = (
+        "Beatrice walked with the author. Goethe is mentioned twice: "
+        "Goethe wrote about it. Beatrice again. Beatrice third. "
+        "Hayagriva is named."
+    )
+    doc_seen = set()
+    placements = apply_annotations(text, bd, doc_seen=doc_seen)
+    print("=== apply_annotations ===")
+    for p in placements:
+        loc = f"@{p['start']}-{p['end']}" if not p["unattached"] else "(unattached)"
+        print(f"  [{p['mode']:<7}] {loc:<14} {p['anchor']!r:<24} → {p['note'][:40]!r}")
+
+    # Expectations:
+    by_anchor = {}
+    for p in placements:
+        by_anchor.setdefault(p["anchor"], []).append(p)
+
+    # Default Beatrice → first occurrence
+    assert by_anchor["Beatrice"][0]["start"] == text.find("Beatrice")
+    assert by_anchor["Beatrice"][0]["mode"] == "margin"
+
+    # Positional Beatrice #3 → third occurrence
+    bea3 = by_anchor["Beatrice"][1]
+    assert bea3["mode"] == "endnote"
+    # Compute third occurrence manually
+    positions = []
+    start = 0
+    while True:
+        i = text.find("Beatrice", start)
+        if i < 0: break
+        positions.append(i); start = i + 1
+    assert bea3["start"] == positions[2]
+
+    # @all Goethe → 2 placements, inline mode
+    goethes = by_anchor["Goethe"]
+    assert len(goethes) == 2
+    assert all(g["mode"] == "inline" for g in goethes)
+
+    # @once-per-doc Hayagriva → 1 placement; second call with same doc_seen
+    # should NOT re-emit
+    placements_2 = apply_annotations(text, bd, doc_seen=doc_seen)
+    hay_count_2 = sum(1 for p in placements_2 if p["anchor"] == "Hayagriva")
+    assert hay_count_2 == 0, "once-per-doc should not re-fire under same doc_seen"
+
+    # Unattached: emitted with start=-1
+    assert by_anchor["NonExistent"][0]["unattached"] is True
+    assert by_anchor["NonExistent"][0]["start"] == -1
+
+    print("  ✓ default, positional #N, @all, @once-per-doc, unattached all behave")
+    print()
+
+
+def _selftest_annotation_accumulation():
+    """Two bindings annotating the same anchor — annotations accumulate."""
+    body_a = (
+        "@@Hayagriva @margin\n"
+        "From annotator A: the Vishnu avatar.\n"
+        "@@\n"
+    )
+    body_b = (
+        "@@Hayagriva @endnote\n"
+        "From annotator B: also the project's canon-keeper.\n"
+        "@@\n"
+    )
+    bd_a = BindingDict()
+    for line in parse_body(body_a):
+        if line[0] == "annotation":
+            bd_a.annotations.append((line[1], line[2], line[3], line[4]))
+    bd_b = BindingDict()
+    for line in parse_body(body_b):
+        if line[0] == "annotation":
+            bd_b.annotations.append((line[1], line[2], line[3], line[4]))
+
+    merged = BindingDict()
+    merged.merge(bd_a)
+    merged.merge(bd_b)
+    print("=== annotation accumulation across bindings ===")
+    print(f"  bd_a: {len(bd_a.annotations)}  bd_b: {len(bd_b.annotations)}  "
+          f"merged: {len(merged.annotations)}")
+    assert len(merged.annotations) == 2, "annotations should accumulate, not last-write-wins"
+    text = "Hayagriva preserves the canon."
+    placements = apply_annotations(text, merged)
+    assert len(placements) == 2
+    modes = sorted(p["mode"] for p in placements)
+    assert modes == ["endnote", "margin"]
+    print("  ✓ both annotations attach to the same anchor with their own modes")
+    print()
+
+
 if __name__ == "__main__":
     _selftest_parse()
     _selftest_v2_parse()
+    _selftest_v3_parse_annotations()
     _selftest_build_read_roundtrip()
     _selftest_evaluate()
     _selftest_cycle()
@@ -745,3 +1094,5 @@ if __name__ == "__main__":
     _selftest_resolve()
     _selftest_apply_substitutions()
     _selftest_apply_citations()
+    _selftest_apply_annotations()
+    _selftest_annotation_accumulation()

@@ -214,6 +214,9 @@ def evaluate_blocks(blocks, fetcher=None, p_pristine=None, visited=None):
             elif kind == "citation":
                 triggers, target, flags = line[1], line[2], line[3]
                 P_render.citations.append((tuple(triggers), target, flags))
+            elif kind == "annotation":
+                anchor, note_md, position, flags = line[1], line[2], line[3], line[4]
+                P_render.annotations.append((anchor, note_md, position, flags))
             # 'comment' lines are skipped
     return P_render
 
@@ -398,7 +401,8 @@ def _apply_citations_to_markdown(markdown, bd, viewer_url=_viewer_url):
 
 
 def substitute_body(body_markdown, fetcher=None, title_lookup=None,
-                    viewer_url=_viewer_url, extra_bd=None):
+                    viewer_url=_viewer_url, extra_bd=None,
+                    return_bindings=False):
     """Run the full substitution pipeline on an essay body.
 
     Args:
@@ -416,9 +420,26 @@ def substitute_body(body_markdown, fetcher=None, title_lookup=None,
                         tunnel into the essay's render. Last-write-wins
                         semantics: extra_bd entries override anything the
                         essay's own fenced blocks declare.
+        return_bindings: if True, return (resolved_markdown, BindingDict)
+                        instead of just the markdown. Useful when the
+                        caller wants to apply v3 annotations or do other
+                        post-render work that needs the bd's accumulated
+                        rules. Default False preserves the legacy single-
+                        value return.
 
     Returns:
-        plain markdown (no protocol-specific syntax left)
+        plain markdown (no protocol-specific syntax left), or
+        (markdown, bd) if return_bindings=True.
+
+    Pipeline order:
+      1. extract fenced ```binding``` blocks from the markdown
+      2. evaluate them (with extra_bd merged in)
+      3. resolve <<…>> citations to markdown links
+      4. apply v1 substitutions (typo-fix rewrites)
+      5. apply v2 citation chains (prose-term → quipu link)
+      v3 annotations are NOT applied here — they are returned via the
+      bd (when return_bindings=True) for the caller's renderer to
+      attach as sidenotes / endnotes / inline brackets.
     """
     cleaned, blocks = extract_binding_blocks(body_markdown)
     bd = evaluate_blocks(blocks, fetcher=fetcher)
@@ -431,6 +452,8 @@ def substitute_body(body_markdown, fetcher=None, title_lookup=None,
     # "yiddish"=<<txid>>). See bindings.md §"Pipeline order".
     resolved = apply_substitutions(resolved, bd)
     final = _apply_citations_to_markdown(resolved, bd, viewer_url=viewer_url)
+    if return_bindings:
+        return final, bd
     return final
 
 
@@ -762,6 +785,69 @@ def _selftest_validation():
     print()
 
 
+def _selftest_v3_annotations_tunneled():
+    """Annotations defined in an inline fenced binding block surface via
+    substitute_body(return_bindings=True). The renderer can then call
+    apply_annotations against the resolved markdown to attach sidenotes /
+    endnotes / inline notes per the inscriber's chosen mode."""
+    from bindings import apply_annotations
+    body = (
+        "# Test essay with annotations\n\n"
+        "```binding\n"
+        "@@Beatrice\n"
+        "First Beatrice note. Default margin mode.\n"
+        "@@\n"
+        "@@Goethe @endnote\n"
+        "Goethe annotation in endnote mode.\n"
+        "@@\n"
+        "```\n\n"
+        "Beatrice walked with the author. Goethe is mentioned here.\n"
+    )
+    resolved, bd = substitute_body(body, return_bindings=True)
+    print("=== v3 annotations tunneled via inline binding ===")
+    print(f"  resolved markdown:\n    {resolved.strip()}")
+    print(f"  bd.annotations: {len(bd.annotations)}")
+    placements = apply_annotations(resolved, bd)
+    for p in placements:
+        loc = f"@{p['start']}" if not p['unattached'] else "(unattached)"
+        print(f"    [{p['mode']:<7}] {loc:<6} {p['anchor']!r} → {p['note'][:30]!r}")
+    assert len(placements) == 2
+    modes = sorted(p["mode"] for p in placements)
+    assert modes == ["endnote", "margin"]
+    assert all(not p["unattached"] for p in placements)
+    print("  ✓ inline annotations surface via return_bindings + apply_annotations")
+    print()
+
+
+def _selftest_v3_extra_bd_annotations_tunnel():
+    """Annotations from a book-level extra_bd (passed in by the viewer when
+    rendering an essay through a book) tunnel into the essay's render
+    pipeline, exactly as substitutions and citations already do."""
+    from bindings import BindingDict, apply_annotations
+    # Essay with no inline binding
+    essay_body = "Plain prose. Beatrice walks here. Plain prose.\n"
+    # Book-level binding that carries an annotation
+    book_bd = BindingDict()
+    book_bd.annotations.append(
+        ("Beatrice", "From the book's annotator: Dante echo.", None,
+         frozenset({"margin"}))
+    )
+    resolved, bd = substitute_body(
+        essay_body, extra_bd=book_bd, return_bindings=True,
+    )
+    placements = apply_annotations(resolved, bd)
+    print("=== v3 extra_bd annotations tunnel into essay render ===")
+    print(f"  bd.annotations after tunneling: {len(bd.annotations)}")
+    for p in placements:
+        print(f"    [{p['mode']:<7}] @{p['start']} {p['anchor']!r}")
+    assert len(placements) == 1
+    assert placements[0]["mode"] == "margin"
+    assert placements[0]["anchor"] == "Beatrice"
+    assert not placements[0]["unattached"]
+    print("  ✓ book-level annotations tunnel into the essay's render")
+    print()
+
+
 if __name__ == "__main__":
     _selftest_basic()
     _selftest_citation_basic()
@@ -773,5 +859,7 @@ if __name__ == "__main__":
     _selftest_v2_citation_chain()
     _selftest_v1_sub_feeds_v2_citation()
     _selftest_v2_citation_skips_existing_links()
+    _selftest_v3_annotations_tunneled()
+    _selftest_v3_extra_bd_annotations_tunnel()
     _selftest_roundtrip()
     _selftest_validation()

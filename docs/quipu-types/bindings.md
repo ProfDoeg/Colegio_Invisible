@@ -234,6 +234,163 @@ default applies **only** to chains ending in `<<txid>>` (the new
 forms). The classic `"X"="Y"` form retains v1's all-occurrence
 literal-rewrite semantics.
 
+---
+
+## v3 extension — annotation primitive
+
+The substitution and citation primitives both *transform* the text they
+match — substitution rewrites the string, citation wraps it in a link.
+The annotation primitive does something different: it *attaches a
+multi-paragraph note* alongside the matched anchor without modifying
+the prose. This is the protocol's equivalent of Talmudic marginal
+commentary, scholarly footnotes, or Tufte-style sidenotes.
+
+### Fenced syntax
+
+Annotations are line-spanning so they need a fenced form rather than
+a single-line rule:
+
+```
+@@anchor phrase here
+Note body. Markdown. Multiple paragraphs allowed; the @@…@@ fence is
+the boundary, not the blank-line convention.
+
+*Italics*, **bold**, `code`, [links](quipu:txid), inline citations
+like <<txid>> — anything markdown supports.
+@@
+```
+
+The opening fence is a line starting with `@@` followed by the
+anchor string (and optional flags, see below). The closing fence
+is a line containing only `@@`. Everything between is the note body
+as markdown.
+
+The parser emits `('annotation', anchor_str, note_md_str, position_or_None, flags_frozenset)`.
+
+### Anchor matching
+
+Same find-and-replace architecture as substitution and citation:
+the renderer finds the literal anchor string in the essay body and
+attaches the note at that point.
+
+Default behavior: **first occurrence per block** (paragraph, heading,
+list-item).
+
+### Disambiguation flags
+
+```
+@@anchor                       first occurrence per block (default)
+@@anchor #3                    third occurrence in the essay
+@@anchor @all                  attach a copy at every occurrence
+@@anchor @once-per-doc         first occurrence in the entire document
+```
+
+Same vocabulary as v2 citations (`@all`, `@once-per-doc`), plus the
+`#N` positional suffix for picking the nth occurrence when the
+anchor isn't unique.
+
+### Presentation flags
+
+Per-note hint to the renderer about *how* to display the note. The
+renderer respects when capable, falls back gracefully:
+
+| flag | HTML render | text-only fallback |
+|---|---|---|
+| `@margin` (default) | Tufte-style sidenote floated to the right column, aligned to the anchor's line; on narrow viewports collapses to inline-below | bracketed `[note]` after anchor sentence |
+| `@endnote` | numbered superscript at anchor; full text collected in a "Notes" section at the end of the essay | numbered `[¹]` + endnotes list at end |
+| `@inline` | bracketed insertion at the anchor point, `[note]` in the prose flow | identical |
+
+The renderer may also offer a global override (e.g. "render every
+annotation as endnote for a print-friendly view") that collapses
+inscriber preferences into a single mode. The per-note flag is the
+inscriber's first choice; the reader may override.
+
+LaTeX rendering of annotations is **not specified** in v1 — the
+project plans a custom document/book class with its own typography
+opinions; the spec should not couple to off-the-shelf packages.
+
+### Flag combinations
+
+Disambiguation and presentation flags compose freely on the same
+anchor line:
+
+```
+@@Beatrice #2 @endnote                second occurrence, as endnote
+@@Hayagriva @all @inline              every occurrence, bracketed inline
+@@Operation Condor @once-per-doc      first in document, default presentation (margin)
+```
+
+Order doesn't matter; the parser scans trailing tokens until it
+finds the first non-flag token. Everything before is the anchor.
+
+### Composition across annotators
+
+A book may import multiple annotation bindings (one academic, one
+personal, one AI commentary). Annotations from different bindings
+**accumulate** rather than overriding — every note appears at its
+anchor. The renderer attributes by the binding's tone byte and
+author field:
+
+- `0xa1` ai — color-coded as AI commentary
+- `0x00` ordinary — neutral
+- `0xff` reverence — formal/canonical
+
+This makes the same essay annotatable in multiple registers
+simultaneously, with the registers visually distinct but coexistent.
+
+### Composition with substitution and citation
+
+Pipeline order matters. The full pipeline becomes:
+
+1. **v1 substitutions** rewrite the prose (e.g. `"hebreo"="yiddish"`)
+2. **`<<...>>` citations** resolve to markdown links
+3. **v2 citation chains** wrap prose terms as links
+4. **v3 annotations** attach notes against the rewritten prose
+
+Annotation anchors should therefore be expressed against the
+*post-substitution* form of the prose. A binding that performs both
+a substitution and an annotation on the related phrase should
+anchor on the rewritten form:
+
+```
+"hebreo"="yiddish"
+
+@@yiddish of the joven Goethe
+This phrase is the corrected form; the historical inscription
+used "hebreo," which v1 substitution rewrites before this
+annotation runs.
+@@
+```
+
+### Unattached anchors
+
+If an annotation's anchor doesn't exist in the essay body (typo,
+paraphrase, anchor matches a phrase the substitution layer removed),
+the renderer surfaces it as **unattached** in the essay's colophon
+section rather than silently dropping the note. The inscriber's
+intent is preserved as visible-but-misplaced, which lets readers
+see what was meant.
+
+### Why a new primitive instead of overloading substitution
+
+A substitution could in principle embed an inline note as its
+right-hand side (`"X"="X [El Gólem: …note…]"`), and we did consider
+this. Reasons annotation is a separate primitive:
+
+1. **Honesty.** Substitution declares "rewrite X to Y." If Y is
+   really commentary about X, the binding is lying about its kind.
+   Future readers parsing the binding can't distinguish a typo-fix
+   from a footnote.
+2. **Multi-paragraph notes** don't fit substitution. Right-hand
+   sides are single-line quoted strings.
+3. **Presentation modes.** Substitution has no concept of margin
+   vs endnote vs inline. Annotation declares the rendering hint
+   at the primitive level.
+4. **Composition.** Multiple substitutions on the same string
+   override each other (last-write-wins). Multiple annotations on
+   the same anchor accumulate. The semantics are different and
+   should be distinct in the protocol.
+
 ## Example
 
 ```
