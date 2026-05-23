@@ -15,6 +15,22 @@ The type byte 0x5c is the ASCII byte for the backslash character `\\`,
 which is LaTeX's command-escape character. Most iconic possible
 mnemonic for the type.
 
+Default reproducibility baseline (when an inscription omits explicit
+`packages=` and `distribution=` header fields, readers assume):
+
+    engine:        pdflatex
+    distribution:  TeX Live 2020+ or MiKTeX equivalent
+    document class: standalone (with tikz driver)
+    packages:       inputenc[utf8], fontenc[T1], lmodern, xcolor
+    tikz libraries: positioning, calc
+
+This is the El Libro del Gólem v1 baseline — the package profile
+used in the first canonical 0x5c inscriptions at block 6,218,023.
+Inscriptions that need more should declare their needs explicitly
+once the future `packages=` / `distribution=` header fields are
+added; until then, declarations live in the surrounding prose or in
+an accompanying 0xab binding.
+
 See docs/quipu-types/latex.md for the full spec.
 """
 from __future__ import annotations
