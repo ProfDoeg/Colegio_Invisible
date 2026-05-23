@@ -727,6 +727,19 @@ def render_graph(df: pd.DataFrame, edges: pd.DataFrame, df_all: pd.DataFrame,
     visible = set(df["root_txid"])
     contents = {}  # txid -> HTML for popup
 
+    # Populate popup contents for EVERY quipu in df_all, not just the
+    # filtered visible set, so clickable citations in essay popups
+    # always resolve — even when the target quipu is currently filtered
+    # out of the graph. The graph still only shows `visible` nodes;
+    # filtering hides nodes but doesn't disable click-through navigation.
+    for _, q in df_all.iterrows():
+        if not isinstance(q.get("root_txid"), str):
+            continue
+        blob = load_body(q["root_txid"])
+        if blob is None:
+            continue
+        contents[q["root_txid"]] = render_content_html(q, blob, df_all)
+
     for _, q in df.iterrows():
         is_pre = q["canonical_status"] == "pre_canonical"
         color  = TYPE_COLORS.get(q["type_name"], DEFAULT_COLOR)
@@ -734,9 +747,6 @@ def render_graph(df: pd.DataFrame, edges: pd.DataFrame, df_all: pd.DataFrame,
 
         title_text = q["title"] or f"({q['type_name']})"
         label_short = title_text[:22] + "…" if len(title_text) > 22 else title_text
-
-        blob = load_body(q["root_txid"])
-        contents[q["root_txid"]] = render_content_html(q, blob, df_all)
 
         kwargs = {
             "n_id":  q["root_txid"],
