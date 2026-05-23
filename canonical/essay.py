@@ -89,7 +89,7 @@ _VALID_TONES = VALID_TONES  # backward-compat alias
 from bindings import (
     BindingDict, evaluate as evaluate_binding,
     parse_body as parse_binding_body, resolve as resolve_alias,
-    apply_substitutions,
+    apply_substitutions, apply_citations,
 )
 
 TYPE_ESSAY = 0x01
@@ -211,6 +211,9 @@ def evaluate_blocks(blocks, fetcher=None, p_pristine=None, visited=None):
             elif kind == "substitution":
                 search, replace = line[1], line[2]
                 P_render.substitutions.append((search, replace))
+            elif kind == "citation":
+                triggers, target, flags = line[1], line[2], line[3]
+                P_render.citations.append((tuple(triggers), target, flags))
             # 'comment' lines are skipped
     return P_render
 
@@ -341,6 +344,59 @@ def resolve_citations(markdown, bd, title_lookup=None, viewer_url=_viewer_url):
 # Full body-substitution pipeline
 # ---------------------------------------------------------------------------
 
+# Regions to leave untouched by apply_citations: existing markdown
+# links/images, inline code, fenced code, residual `<<...>>` citations.
+# Fenced-code is matched before inline so triple-backticks aren't broken.
+_MD_PROTECTED_RE = re.compile(
+    r"```[\s\S]*?```"               # fenced code (multiline, non-greedy)
+    r"|!?\[[^\]]*\]\([^)]*\)"       # markdown links/images
+    r"|`[^`\n]*`"                   # inline code
+    r"|<<[^<>]+>>"                  # residual citations (unresolved aliases)
+)
+
+
+def _apply_citations_to_markdown(markdown, bd, viewer_url=_viewer_url):
+    """Apply v2 citation rules to a markdown document.
+
+    Splits the markdown into blocks (blank-line separated) so first-per-block
+    state resets correctly. Within each block, runs the matcher only on text
+    outside protected regions (existing markdown links, inline code, fenced
+    code blocks, residual `<<...>>` citations).
+    """
+    if not bd.citations:
+        return markdown
+
+    def link_format(matched, target):
+        return f"[{matched}]({viewer_url(target)})"
+
+    doc_seen = set()
+
+    def process_block(block):
+        block_seen = set()
+        pieces = []
+        pos = 0
+        for m in _MD_PROTECTED_RE.finditer(block):
+            if m.start() > pos:
+                pieces.append(apply_citations(
+                    block[pos:m.start()], bd,
+                    doc_seen=doc_seen, block_seen=block_seen,
+                    link_format=link_format,
+                ))
+            pieces.append(m.group(0))
+            pos = m.end()
+        if pos < len(block):
+            pieces.append(apply_citations(
+                block[pos:], bd,
+                doc_seen=doc_seen, block_seen=block_seen,
+                link_format=link_format,
+            ))
+        return "".join(pieces)
+
+    blocks = re.split(r"(\n\s*\n)", markdown)  # keep separators
+    out = [process_block(b) if i % 2 == 0 else b for i, b in enumerate(blocks)]
+    return "".join(out)
+
+
 def substitute_body(body_markdown, fetcher=None, title_lookup=None,
                     viewer_url=_viewer_url):
     """Run the full substitution pipeline on an essay body.
@@ -361,7 +417,11 @@ def substitute_body(body_markdown, fetcher=None, title_lookup=None,
     bd = evaluate_blocks(blocks, fetcher=fetcher)
     resolved = resolve_citations(cleaned, bd, title_lookup=title_lookup,
                                   viewer_url=viewer_url)
-    final = apply_substitutions(resolved, bd)
+    # v1 literal substitutions BEFORE v2 citations so typo-fix subs feed
+    # cleanly into citation matching (e.g. "hebreo"→"yiddish" then
+    # "yiddish"=<<txid>>). See bindings.md §"Pipeline order".
+    resolved = apply_substitutions(resolved, bd)
+    final = _apply_citations_to_markdown(resolved, bd, viewer_url=viewer_url)
     return final
 
 
@@ -577,6 +637,77 @@ def _selftest_fenced_binding_block():
     print()
 
 
+def _selftest_v2_citation_chain():
+    """Inline binding block declares a v2 citation chain; prose words in the
+    essay body resolve to markdown links with surface form preserved."""
+    txid = "c" * 64
+    body = (
+        "# Test\n\n"
+        "```binding\n"
+        f'"Hayagriva"="hayagriva"="HAYAGRIVA"=<<{txid}>>\n'
+        "```\n\n"
+        "Hayagriva first appeared in the body, and hayagriva again, "
+        "and HAYAGRIVA a third time.\n\n"
+        "In the next paragraph, Hayagriva fires once more.\n"
+    )
+    resolved = substitute_body(body)
+    print("=== v2 citation chain end-to-end ===")
+    for line in resolved.strip().split("\n"):
+        print(f"  {line}")
+    # In the first paragraph only the first form should be linked
+    para1_link_count = resolved.split("\n\n")[1].count(f"](quipu:{txid})")
+    assert para1_link_count == 1, f"para1 should have 1 link, got {para1_link_count}"
+    # Surface form should be the matched form
+    assert f"[Hayagriva](quipu:{txid})" in resolved
+    # Second paragraph should also fire once
+    assert resolved.count(f"](quipu:{txid})") == 2
+    print("  ✓ first-per-block, surface-preserved, chain shared across forms")
+    print()
+
+
+def _selftest_v1_sub_feeds_v2_citation():
+    """Pipeline order: v1 literal sub fixes a typo, then v2 citation matches
+    the corrected form and emits a link."""
+    txid = "8" * 64
+    body = (
+        "# Test\n\n"
+        "```binding\n"
+        '"El hebreo del joven Goethe"="El yiddish del joven Goethe"\n'
+        f'"El yiddish del joven Goethe"=<<{txid}>>\n'
+        "```\n\n"
+        "Sobre El hebreo del joven Goethe, Anthony escribió en febrero.\n"
+    )
+    resolved = substitute_body(body)
+    print("=== v1 sub feeds v2 citation (typo fix → link) ===")
+    print(f"  {resolved.strip()}")
+    assert f"[El yiddish del joven Goethe](quipu:{txid})" in resolved
+    assert "hebreo" not in resolved
+    print("  ✓ typo rewritten, corrected form linked to txid")
+    print()
+
+
+def _selftest_v2_citation_skips_existing_links():
+    """apply_citations should not match inside existing markdown links/citations."""
+    txid_X = "a" * 64
+    txid_Y = "b" * 64
+    body = (
+        "# Test\n\n"
+        "```binding\n"
+        f'"Bordado"=<<{txid_X}>>\n'
+        "```\n\n"
+        f"The Bordado is here, and also referenced as [the Bordado](quipu:{txid_Y}).\n"
+    )
+    resolved = substitute_body(body)
+    print("=== v2 citation skips existing links ===")
+    print(f"  {resolved.strip()}")
+    # The first Bordado (in prose) should become a link to txid_X
+    assert f"[Bordado](quipu:{txid_X})" in resolved
+    # The second Bordado (inside existing link) should NOT be touched
+    assert f"[the Bordado](quipu:{txid_Y})" in resolved
+    print("  ✓ existing links + citations preserved")
+    print()
+
+
 def _selftest_roundtrip():
     body = (
         "# Roundtrip Test\n\n"
@@ -630,5 +761,8 @@ if __name__ == "__main__":
     _selftest_citation_as_image()
     _selftest_two_segment()
     _selftest_fenced_binding_block()
+    _selftest_v2_citation_chain()
+    _selftest_v1_sub_feeds_v2_citation()
+    _selftest_v2_citation_skips_existing_links()
     _selftest_roundtrip()
     _selftest_validation()

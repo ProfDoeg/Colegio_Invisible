@@ -620,6 +620,88 @@ def render_scene_html(header: bytes, body: bytes, df_all: pd.DataFrame) -> str:
     )
 
 
+def _split_book_header_body(blob: bytes) -> tuple:
+    """Locate the byte boundary between a book's pipe-delimited header tail
+    and the version-prefixed body. Mirrors parse_dims's logic in NB 60."""
+    pos = 6
+    if len(blob) > 6 and blob[6] == ord('|'):
+        while True:
+            nxt = blob.find(b'|', pos + 1)
+            if nxt < 0:
+                break
+            if nxt + 1 < len(blob) and blob[nxt + 1] == 0x01:
+                pos = nxt + 1
+                break
+            pos = nxt
+    return blob[:pos], blob[pos:]
+
+
+def render_book_html(blob: bytes, df_all: pd.DataFrame) -> str:
+    """Render a 0x09 book as a manifest: ordered entries with clickable links
+    to each referenced quipu (rendered using the viewer's standard popup)."""
+    try:
+        sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "canonical"))
+        from book import read_book_quipu
+    except Exception as e:
+        return f"<div style='color:#a00'>book module import failed: {html_lib.escape(str(e))}</div>"
+
+    header, body = _split_book_header_body(blob)
+    try:
+        parsed = read_book_quipu(header, body)
+    except Exception as e:
+        return f"<div style='color:#a00'>book parse failed: {html_lib.escape(str(e))}</div>"
+
+    fields_html = ""
+    if parsed["fields"]:
+        rows = "".join(
+            f"<tr><td style='color:#888;padding-right:8px'>{html_lib.escape(k)}</td>"
+            f"<td>{html_lib.escape(v)}</td></tr>"
+            for k, v in parsed["fields"].items()
+        )
+        fields_html = (
+            f"<table style='font:11px/1.4 ui-monospace;margin:4px 0 10px 0'>{rows}</table>"
+        )
+
+    entry_rows = []
+    for e in parsed["entries"]:
+        tag      = html_lib.escape(e["tag"])
+        name     = html_lib.escape(e["name"] or "(no name)")
+        ref_txid = e["ref_txid"]
+        ref_row  = _txid_to_row(df_all, ref_txid)
+        if ref_row is not None:
+            click = f"window.showQuipuFor && window.showQuipuFor('{ref_row['root_txid']}')"
+            ref_type = html_lib.escape(ref_row["type_name"])
+            anchor = (
+                f"<a onclick=\"{click}\" "
+                f"style='cursor:pointer;color:#3a6ea6;text-decoration:underline'>"
+                f"{name}</a>"
+                f" <span style='color:#888;font-size:10px'>({ref_type})</span>"
+            )
+        else:
+            anchor = (
+                f"<span style='color:#888'>{name}</span>"
+                f" <span style='color:#bbb;font-size:10px'>(unresolved)</span>"
+            )
+        entry_rows.append(
+            f"<tr>"
+            f"<td style='padding:2px 8px 2px 0;font:11px ui-monospace;color:#555;"
+            f"vertical-align:top;white-space:nowrap'>{tag}</td>"
+            f"<td style='padding:2px 0;vertical-align:top;font-size:13px'>{anchor}</td>"
+            f"<td style='padding:2px 0 2px 8px;font:10px ui-monospace;color:#aaa;"
+            f"vertical-align:top'>{ref_txid[:12]}…</td>"
+            f"</tr>"
+        )
+
+    table_html = (
+        f"<div style='font:11px ui-monospace;color:#666;margin-top:4px'>"
+        f"version 0x{parsed['version']:02x} · {len(parsed['entries'])} entries</div>"
+        f"<table style='border-collapse:collapse;margin:6px 0;width:100%'>"
+        + "".join(entry_rows)
+        + "</table>"
+    )
+    return fields_html + table_html
+
+
 def render_content_html(q: pd.Series, blob: bytes, df_all: pd.DataFrame) -> str:
     """Build the full per-node HTML popup."""
     t = q["type_name"]
@@ -639,6 +721,8 @@ def render_content_html(q: pd.Series, blob: bytes, df_all: pd.DataFrame) -> str:
         body_html = render_text_with_citations(text_body, df_all)
     elif t == "essay":
         body_html = render_essay_html(blob, df_all)
+    elif t == "book":
+        body_html = render_book_html(blob, df_all)
     elif t == "image":
         dims = json.loads(q["dimensions_json"] or "{}")
         if dims.get("W"):

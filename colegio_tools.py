@@ -720,10 +720,12 @@ def fetch_quipu_bytes(txid, max_walk=64):
     """Fetch the concatenated header+body bytes of any quipu given its root
     OR its join txid.
 
-    A diamond's root has N≥5 outputs (one per strand starter); strand and
-    join txs have ≤2. Given a join, walks back via first input until a tx
-    with ≥5 outputs is found — that's the root. Then defers to read_quipu
-    to walk forward through all strands.
+    A diamond's root has N≥2 outputs (one per strand) and NO OP_RETURN
+    outputs (its outputs fund strand starters). Strand txs carry the
+    OP_RETURN-bearing knots; the join has 1 regular output collecting
+    every strand terminus. Given a join, walks back via first input
+    until a tx with ≥2 outputs and no OP_RETURNs is found — that's the
+    root. Then defers to read_quipu to walk forward through all strands.
 
     Args:
         txid: hex string — either a quipu's root or its join txid
@@ -733,15 +735,26 @@ def fetch_quipu_bytes(txid, max_walk=64):
         bytes — concatenated header + body, suitable for resolve_ref's
         fetcher contract and for the canonical readers.
     """
+    def _looks_like_root(tx):
+        vout = tx.get("vout", [])
+        if len(vout) < 2:
+            return False
+        for o in vout:
+            spk = o.get("scriptPubKey", {})
+            asm = spk.get("asm", "")
+            if asm.startswith("OP_RETURN"):
+                return False
+        return True
+
     tx = rpc_request("getrawtransaction", [txid, 1])
-    if len(tx.get("vout", [])) >= 5:
+    if _looks_like_root(tx):
         root = txid
     else:
         cur = txid
         root = None
         for _ in range(max_walk):
             t = rpc_request("getrawtransaction", [cur, 1])
-            if len(t.get("vout", [])) >= 5:
+            if _looks_like_root(t):
                 root = cur
                 break
             vin = t.get("vin", [])

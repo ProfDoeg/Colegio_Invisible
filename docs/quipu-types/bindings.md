@@ -1,9 +1,13 @@
 # Quipu type `0xab` — Bindings (abecedario)
 
-> **STATUS: DRAFT, version 1.** Not yet implemented in `colegio_tools`.
-> No inscriptions of this type exist on chain. Designed to support the
-> essay markup's name-binding convention by providing stable,
-> project-wide aliases that any number of essays can import.
+> **STATUS: v1 + v2 implemented in canonical/bindings.py and integrated
+> into the essay-render pipeline in canonical/essay.py.** v1 line kinds
+> (import / alias-chain / string-sub) continue to work unchanged; v2
+> adds chain grammar + flags. Self-tests cover the parser, the chain
+> engine (`apply_citations`), the markdown-safe block applicator, and
+> the typo-fix-then-cite pipeline order. v1 bindings on chain
+> (≥ 6,217,751) remain valid; v2 will be exercised by the Dos ensayos
+> book's correction binding.
 
 A **bindings quipu** (Spanish: *abecedario*) is a flat list of
 `NAME → txid` assignments. Other essays import its bindings via a
@@ -81,8 +85,154 @@ imported.
 
 ### Comments and whitespace
 
-Empty lines are ignored. Any line that does not match one of the three
-forms above is treated as a comment.
+Empty lines are ignored. Any line that does not match one of the
+forms above (v1 or v2) is treated as a comment.
+
+---
+
+## v2 extension — chain grammar
+
+The v1 line kinds (import, alias chain, string substitution) are
+three special cases of a more general **chain grammar**. v2 generalizes
+the grammar without breaking v1 — every v1 line continues to parse
+identically. v2 adds three new line kinds that fill in the missing
+combinations.
+
+### Three node types
+
+A chain is one or more nodes separated by `=`. Each node is one of:
+
+| node | syntax | meaning |
+|---|---|---|
+| string  | `"X"`                       | a literal piece of text |
+| alias   | `<<Name>>`                  | a previously-defined name |
+| txid    | `<<64-hex>>`                | a 64-char hex transaction id |
+
+The grammar parser distinguishes alias from txid by content: 64 hex
+characters → txid; otherwise → alias. Both use `<<...>>` brackets.
+
+### Six chain forms (v1 + v2)
+
+```
+   <<txid>>                                  import           (v1)
+   <<A>>=<<B>>=…=<<txid>>                    alias chain      (v1)
+   "X"="Y"                                    text substitution (v1)
+   "X"=<<txid>>                              text-to-citation  (v2 NEW)
+   "X"="Y"=<<txid>>                          text-class citation chain (v2 NEW)
+   "X"=<<A>>=<<txid>>                        text → alias → terminal (v2 NEW)
+```
+
+A chain is **anything** that's nodes separated by `=`, as long as:
+- It's not a bare `<<txid>>` (that's an import)
+- All nodes use either `"..."` or `<<...>>` syntax (no bare words)
+
+### Chain terminus determines the rendering mode
+
+The **terminus** (last node) determines what happens when a chain is
+applied to body text:
+
+| chain ends in | mode | what happens |
+|---|---|---|
+| `"Y"`     | **text replacement**       | every occurrence of any string-node in the chain is rewritten literally to `Y` |
+| `<<txid>>` | **equivalence-class citation** | every occurrence of any string-node in the chain becomes a markdown citation pointing at `txid`; **the matched surface form is preserved as the anchor text** |
+
+So `"Hayagriva"="hayagriva"="HAYAGRIVA"=<<txid_C>>` means: any of those
+three strings, wherever found in body text, becomes
+`[<matched form>](quipu:txid_C)`. If prose contains "Hayagriva", the
+rendered anchor is "Hayagriva". If prose contains "hayagriva", the
+rendered anchor is "hayagriva". The chain defines an equivalence class
+of triggers; the typography of the prose is preserved.
+
+This is how case-insensitivity is handled in v2: **the author lists
+the case variants they care about, explicitly**. No global
+case-folding flag — chains make it surgical.
+
+### Default behavior
+
+Chains apply to body text with these defaults:
+
+- **Word-bounded** — string-nodes match on word boundaries (`\b` in
+  regex terms). `"art"` matches the word "art" but not "artisan" or
+  "cart". An author who wants substring matching must use the `@all`
+  flag (see below) and accept the consequences.
+- **Surface-form-preserving** — anchor text = matched form, not the
+  normalized intermediate.
+- **First-per-block** — within one paragraph / heading / list-item,
+  the chain fires once. Subsequent occurrences of any matching string
+  in the same block render as plain text (assumption: the author
+  wants the first mention to be the citation, later mentions are
+  prose).
+- **Case-sensitive** — `"Hayagriva"` does not match "hayagriva"
+  unless both are listed in the chain.
+
+### Flags
+
+Optional per-line flags adjust default behavior. Syntax: trailing
+`@flag` tokens after the chain.
+
+| flag | meaning |
+|---|---|
+| `@all`          | match every occurrence in body text, not just the first per block |
+| `@once-per-doc` | match only the first occurrence in the entire document; later occurrences render as plain text |
+
+Examples:
+
+```
+"Hayagriva"=<<txid_C>>                   first-per-block (default)
+"Christamicus"=<<txid_B>>   @all         every occurrence
+"Bordado"=<<txid_X>>        @once-per-doc only first in document
+```
+
+Other flags can be added later. The trailing-`@flag` syntax stays
+forward-compatible: unrecognized flags emit a warning and are ignored.
+
+### Why these three new forms
+
+`"X"=<<txid>>` — the simplest "text mention → citation" rule. The
+common case when an author wants to write prose normally and have the
+engine resolve specific names to citations.
+
+`"X"="Y"=<<txid>>` — the equivalence-class case. Lets the author list
+multiple surface forms (case variants, spelling variants,
+translations, abbreviations) that should all resolve to the same
+target, while preserving whichever form the prose actually used.
+
+`"X"=<<A>>=<<txid>>` — combines text trigger + alias for completeness.
+Rare in practice; included so the grammar is regular.
+
+### Pipeline order
+
+When an essay body is rendered, the substitution pipeline runs in this
+order (see `canonical/essay.py::substitute_body`):
+
+1. `extract_binding_blocks` — pull fenced ```binding blocks out of the
+   markdown.
+2. `evaluate_blocks` — walk imports, accumulate aliases, substitutions,
+   and citation rules into a single `BindingDict`.
+3. `resolve_citations` — replace explicit `<<...>>` citations in body
+   text with markdown links.
+4. `apply_substitutions` — v1 literal text rewrites. Runs **before** v2
+   citation matching so typo-fix subs feed cleanly into the citation
+   engine (e.g. a binding can write `"hebreo"="yiddish"` on one line
+   and `"yiddish"=<<txid>>` on the next — the prose's "hebreo" gets
+   rewritten to "yiddish" first, then matched as a citation trigger).
+5. `_apply_citations_to_markdown` — v2 chain rules, block-by-block,
+   skipping existing markdown links / inline code / fenced code.
+
+### Backward compatibility
+
+Every v1 binding line continues to parse exactly as before. The v2
+parser is a superset of v1's. Bindings inscribed under v1
+(`<<txid>>` imports, `<<A>>=<<txid>>` alias chains, `"X"="Y"` text
+subs) read identically under v2.
+
+The substitution engine's v1 behavior for `"X"="Y"` text subs is
+preserved: pure literal replacement, no word-bounding, no flag
+support. v1 string-sub semantics did not specify word boundaries, so
+adding them would change existing behavior; the v2 word-bounding
+default applies **only** to chains ending in `<<txid>>` (the new
+forms). The classic `"X"="Y"` form retains v1's all-occurrence
+literal-rewrite semantics.
 
 ## Example
 

@@ -31,6 +31,10 @@ Each line is one of:
 from __future__ import annotations
 
 import re
+import sys
+import os
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 MAGIC = b"\xc1\xdd\x00\x01"
 TYPE_BINDING = 0xAB
@@ -53,6 +57,62 @@ _TXID_RE        = re.compile(r"^[0-9a-fA-F]{64}$")
 _CITATION_RE    = re.compile(r"<<\s*(.+?)\s*>>")
 _IMPORT_LINE_RE = re.compile(r"^\s*<<\s*([0-9a-fA-F]{64})\s*>>\s*$")
 _SUBST_LINE_RE  = re.compile(r'^\s*"([^"]*)"\s*=\s*"([^"]*)"\s*$')
+_FLAG_TAIL_RE   = re.compile(r"\s+@([\w-]+)\s*$")
+
+KNOWN_FLAGS = frozenset(("all", "once-per-doc"))
+
+
+def _split_flags(line):
+    """Split trailing '@flag' tokens off a line.
+    Returns (line_without_flags, frozenset_of_flag_names)."""
+    flags = []
+    while True:
+        m = _FLAG_TAIL_RE.search(line)
+        if not m:
+            break
+        flags.insert(0, m.group(1))
+        line = line[:m.start()].rstrip()
+    return line, frozenset(flags)
+
+
+def _parse_chain(line):
+    """Parse a chain expression `node = node = ...` into a list of
+    (kind, value) where kind is 'string' (for `"..."`) or 'bracket'
+    (for `<<...>>`). Returns None if the line is not a clean chain."""
+    nodes = []
+    pos = 0
+    n = len(line)
+    expecting_node = True
+    while pos < n:
+        while pos < n and line[pos].isspace():
+            pos += 1
+        if pos >= n:
+            break
+        if expecting_node:
+            if line[pos] == '"':
+                end = line.find('"', pos + 1)
+                if end < 0:
+                    return None
+                nodes.append(("string", line[pos + 1:end]))
+                pos = end + 1
+            elif line[pos:pos + 2] == "<<":
+                end = line.find(">>", pos + 2)
+                if end < 0:
+                    return None
+                nodes.append(("bracket", line[pos + 2:end].strip()))
+                pos = end + 2
+            else:
+                return None
+            expecting_node = False
+        else:
+            if line[pos] == "=":
+                pos += 1
+                expecting_node = True
+            else:
+                return None
+    if expecting_node:
+        return None  # dangling '='
+    return nodes
 
 
 def parse_line(raw):
@@ -62,6 +122,7 @@ def parse_line(raw):
         ('import',        txid_hex)
         ('alias',         [name1, name2, ...], target)    target may be a name or a 64-hex txid
         ('substitution',  search_str, replace_str)
+        ('citation',      [trigger1, trigger2, ...], txid_target, frozenset_flags)
         ('comment',       raw_str)
     """
     line = raw.strip()
@@ -73,25 +134,30 @@ def parse_line(raw):
     if m:
         return ("import", m.group(1).lower())
 
-    # String substitution: "search"="replace"
+    # v1 substitution: pure "search"="replace" (no flags, exact two strings)
     m = _SUBST_LINE_RE.match(line)
     if m:
         return ("substitution", m.group(1), m.group(2))
 
-    # Alias / alias-chain assignment
-    if "=" in line and line.startswith("<<"):
-        parts = [p.strip() for p in line.split("=")]
-        names = []
-        ok = True
-        for p in parts:
-            cm = re.fullmatch(r"<<\s*(.+?)\s*>>", p)
-            if not cm:
-                ok = False
-                break
-            names.append(cm.group(1).strip())
-        if ok and len(names) >= 2:
-            # Last entry is the target; everything before is aliases for it
-            return ("alias", names[:-1], names[-1])
+    # Strip trailing @flag tokens before generalized chain parsing
+    body_line, flags = _split_flags(line)
+
+    if "=" in body_line:
+        nodes = _parse_chain(body_line)
+        if nodes is not None and len(nodes) >= 2:
+            kinds = [k for k, _ in nodes]
+            term_kind, term_val = nodes[-1]
+
+            # v1 alias chain: every node is `<<...>>`, no flags
+            if all(k == "bracket" for k in kinds) and not flags:
+                names = [v for _, v in nodes[:-1]]
+                return ("alias", names, term_val)
+
+            # v2 citation chain: at least one string-node, terminus is `<<64-hex txid>>`
+            if term_kind == "bracket" and _TXID_RE.match(term_val):
+                string_triggers = [v for k, v in nodes[:-1] if k == "string"]
+                if string_triggers:
+                    return ("citation", string_triggers, term_val.lower(), flags)
 
     return ("comment", raw)
 
@@ -157,31 +223,37 @@ def read_binding_quipu(header_bytes, body_bytes):
 class BindingDict:
     """The dict-as-result of evaluating a binding.
 
-    Holds two pieces of state:
+    Holds three pieces of state:
       - aliases:       {name -> target_str}  (target is alias name or txid hex)
       - substitutions: [(search, replace), ...]  ordered, applied at render time
+      - citations:     [(triggers_tuple, txid_target, flags_frozenset), ...]
+                       v2 chain rules — each entry is one equivalence class
 
-    Last-write-wins on duplicate names. Substitutions accumulate in order.
+    Last-write-wins on duplicate names. Substitutions and citations
+    accumulate in order.
     """
-    __slots__ = ("aliases", "substitutions")
+    __slots__ = ("aliases", "substitutions", "citations")
 
-    def __init__(self, aliases=None, substitutions=None):
+    def __init__(self, aliases=None, substitutions=None, citations=None):
         self.aliases       = dict(aliases) if aliases else {}
         self.substitutions = list(substitutions) if substitutions else []
+        self.citations     = list(citations) if citations else []
 
     def copy(self):
-        return BindingDict(self.aliases, self.substitutions)
+        return BindingDict(self.aliases, self.substitutions, self.citations)
 
     def merge(self, other):
         """Merge another BindingDict into this one, last-write-wins."""
         for k, v in other.aliases.items():
             self.aliases[k] = v
         self.substitutions.extend(other.substitutions)
+        self.citations.extend(other.citations)
 
     def __repr__(self):
         return (
             f"BindingDict(aliases={len(self.aliases)}, "
-            f"substitutions={len(self.substitutions)})"
+            f"substitutions={len(self.substitutions)}, "
+            f"citations={len(self.citations)})"
         )
 
 
@@ -257,6 +329,9 @@ def evaluate(binding_txid, fetcher, *, p_pristine=None, visited=None,
         elif kind == "substitution":
             search, replace = line[1], line[2]
             p_render.substitutions.append((search, replace))
+        elif kind == "citation":
+            triggers, target, flags = line[1], line[2], line[3]
+            p_render.citations.append((tuple(triggers), target, flags))
         # 'comment' lines are skipped
 
     visited[txid] = p_render.copy()
@@ -297,6 +372,81 @@ def apply_substitutions(text, bd):
     for search, replace in sorted(bd.substitutions, key=lambda p: -len(p[0])):
         text = text.replace(search, replace)
     return text
+
+
+def apply_citations(text, bd, *, doc_seen=None, block_seen=None,
+                    link_format=None):
+    """Apply v2 citation rules from bd to text.
+
+    Default behavior per spec:
+      - word-bounded matching (\\b on each side)
+      - surface-form preserving (matched text is the anchor)
+      - first-per-block — each equivalence class fires once per block
+      - case-sensitive
+
+    Per-rule flags:
+      - 'all'          — fire on every match
+      - 'once-per-doc' — fire only the first time anywhere in the document
+                         (caller threads doc_seen across blocks)
+
+    Args:
+      text:        text to process. Typically a single block, but can be
+                   any string; the caller controls how block_seen resets.
+      bd:          BindingDict carrying .citations
+      doc_seen:    set of class-ids already fired with @once-per-doc;
+                   caller maintains across blocks. Defaults to a fresh set.
+      block_seen:  set of class-ids already fired in the current block
+                   under default behavior; caller maintains across calls
+                   that share a block. Defaults to a fresh set (single-call
+                   use treats the whole input as one block).
+      link_format: callable(matched_str, target_txid) -> str. Defaults to
+                   markdown link `[matched](quipu:txid)`.
+
+    Returns:
+      Text with citations rendered.
+    """
+    if not bd.citations:
+        return text
+    if doc_seen is None:
+        doc_seen = set()
+    if block_seen is None:
+        block_seen = set()
+    if link_format is None:
+        def link_format(matched, target):
+            return f"[{matched}](quipu:{target})"
+
+    trigger_to_class = {}
+    classes = []  # parallel: classes[i] = (target_txid, flags_frozenset)
+    for triggers, target, flags in bd.citations:
+        cid = len(classes)
+        classes.append((target, flags))
+        for t in triggers:
+            trigger_to_class[t] = cid
+
+    if not trigger_to_class:
+        return text
+
+    pattern = r"\b(" + "|".join(
+        re.escape(t) for t in sorted(trigger_to_class.keys(), key=len, reverse=True)
+    ) + r")\b"
+
+    def repl(m):
+        matched = m.group(1)
+        cid = trigger_to_class[matched]
+        target, flags = classes[cid]
+        if "once-per-doc" in flags:
+            if cid in doc_seen:
+                return matched
+            doc_seen.add(cid)
+        elif "all" in flags:
+            pass
+        else:
+            if cid in block_seen:
+                return matched
+            block_seen.add(cid)
+        return link_format(matched, target)
+
+    return re.sub(pattern, repl, text)
 
 
 # ---------------------------------------------------------------------------
@@ -470,6 +620,110 @@ def _selftest_resolve():
     print()
 
 
+def _selftest_v2_parse():
+    """v2 chain-grammar parse cases."""
+    txid = "c" * 64
+    cases = [
+        # New v2 citation forms
+        (f'"Hayagriva"=<<{txid}>>',                       "citation"),
+        (f'"Hayagriva"="hayagriva"="HAYAGRIVA"=<<{txid}>>',"citation"),
+        (f'"Hayagriva"=<<{txid}>> @all',                  "citation"),
+        (f'"Hayagriva"=<<{txid}>> @once-per-doc',         "citation"),
+        # v1 forms should still parse as before
+        (f'<<{txid}>>',                                   "import"),
+        (f'<<A>>=<<B>>=<<{txid}>>',                       "alias"),
+        ('"Domremy"="Domrémy"',                           "substitution"),
+        # Unknown trailing junk → comment
+        ('"X" wibble',                                    "comment"),
+    ]
+    print("=== v2 parse_line ===")
+    all_ok = True
+    for src, want in cases:
+        result = parse_line(src)
+        ok = result[0] == want
+        if not ok:
+            all_ok = False
+        print(f"  {'OK' if ok else 'FAIL':4s}  {src[:60]:60s}  ->  {result[0]}")
+
+    # Check the citation tuple shape on a concrete case
+    c_line = f'"Hayagriva"="hayagriva"=<<{txid}>> @all'
+    kind, triggers, target, flags = parse_line(c_line)
+    assert kind == "citation"
+    assert triggers == ["Hayagriva", "hayagriva"]
+    assert target == txid
+    assert flags == frozenset({"all"})
+    print(f"  ✓ citation tuple: triggers={triggers}, target={target[:8]}…, flags={set(flags)}")
+    if all_ok:
+        print("  ✓ all v2 parse cases match")
+    print()
+
+
+def _selftest_apply_citations():
+    """Engine: word-bounded, surface-preserving, first-per-block, with @all and @once-per-doc."""
+    txid_C = "c" * 64
+    txid_B = "b" * 64
+    txid_X = "1" * 64
+
+    body = (
+        f'"Hayagriva"="hayagriva"="HAYAGRIVA"=<<{txid_C}>>\n'
+        f'"Christamicus"=<<{txid_B}>> @all\n'
+        f'"Bordado"=<<{txid_X}>> @once-per-doc\n'
+        '"art"="ART"\n'                  # v1 substitution — left alone by citation engine
+    )
+    h, b = build_binding_quipu(body)
+    parsed = read_binding_quipu(h, b)
+    bd = BindingDict()
+    for line in parsed["lines"]:
+        kind = line[0]
+        if kind == "citation":
+            triggers, target, flags = line[1], line[2], line[3]
+            bd.citations.append((tuple(triggers), target, flags))
+        elif kind == "substitution":
+            bd.substitutions.append((line[1], line[2]))
+
+    print("=== apply_citations ===")
+
+    # Equivalence-class default: chain fires once per block, surface preserved
+    block1 = "Hayagriva and hayagriva and HAYAGRIVA are three forms."
+    out1 = apply_citations(block1, bd)
+    print(f"  block1 -> {out1}")
+    assert out1.count(f"](quipu:{txid_C})") == 1
+    assert "[Hayagriva](quipu:" in out1   # first form preserved as anchor
+
+    # @all: every occurrence becomes a citation
+    block2 = "Christamicus and Christamicus again."
+    out2 = apply_citations(block2, bd)
+    print(f"  block2 -> {out2}")
+    assert out2.count(f"](quipu:{txid_B})") == 2
+
+    # @once-per-doc: only first block fires, second block does not
+    doc_seen = set()
+    block3a = "First Bordado mention."
+    block3b = "Second Bordado mention."
+    out3a = apply_citations(block3a, bd, doc_seen=doc_seen)
+    out3b = apply_citations(block3b, bd, doc_seen=doc_seen)
+    print(f"  block3a -> {out3a}")
+    print(f"  block3b -> {out3b}")
+    assert f"](quipu:{txid_X})" in out3a
+    assert f"](quipu:{txid_X})" not in out3b
+
+    # Word boundary: 'art' in 'partisan' should NOT match (but there's no 'art' citation,
+    # only a v1 substitution; verify that v1 subs are NOT touched by apply_citations)
+    block4 = "The partisan painted art."
+    out4 = apply_citations(block4, bd)
+    assert out4 == block4  # no citation rule for 'art'
+    print(f"  block4 (no-op for v1 subs) -> {out4}")
+
+    # Case-sensitive: 'hayagriva' is in the chain so it DOES match; 'HayaGriva' is not.
+    block5 = "HayaGriva is a typo."
+    out5 = apply_citations(block5, bd)
+    assert "[HayaGriva](" not in out5
+    print(f"  block5 (case-sensitive) -> {out5}")
+
+    print("  ✓ first-per-block, @all, @once-per-doc, word-bound, case-sensitive all work")
+    print()
+
+
 def _selftest_apply_substitutions():
     bd = BindingDict()
     bd.substitutions = [("Domremy", "Domrémy"), ("Sirichinova", "Sinchova")]
@@ -483,9 +737,11 @@ def _selftest_apply_substitutions():
 
 if __name__ == "__main__":
     _selftest_parse()
+    _selftest_v2_parse()
     _selftest_build_read_roundtrip()
     _selftest_evaluate()
     _selftest_cycle()
     _selftest_diamond()
     _selftest_resolve()
     _selftest_apply_substitutions()
+    _selftest_apply_citations()

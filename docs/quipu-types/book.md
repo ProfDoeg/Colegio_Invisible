@@ -1,7 +1,9 @@
 # Quipu type `0x09` — Book
 
-> **STATUS: DRAFT, version 1.** Not yet implemented in `canonical/book.py`.
-> No inscriptions of this type exist on chain. Designed to support
+> **STATUS: CANONICAL v1, implemented in `canonical/book.py`, not yet
+> inscribed.** All self-tests pass (roundtrip, accessors, validation,
+> cycle/depth-safe recursive walker, worked-example). The Dos ensayos
+> book is the planned first inscription. Designed to support
 > publication-unit structure (volumes, sub-books, libraries) and to
 > serve as the recursive collector for multi-quipu corpora.
 
