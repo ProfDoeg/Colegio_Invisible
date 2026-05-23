@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from text import _FIELD_VALIDATORS
 from tone import (
     TONES, VALID_TONES, validate_tone,
-    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_AI, TONE_REVERENCE,
 )
 _VALID_TONES = VALID_TONES  # backward-compat alias
 

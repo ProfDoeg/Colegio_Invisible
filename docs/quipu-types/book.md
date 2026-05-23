@@ -329,6 +329,33 @@ tones (passed through) for forward compatibility.
 
 ---
 
+## Binding tunneling
+
+A book may carry one or more `tag=binding` entries pointing at `0xab`
+binding quipus. These bindings are evaluated once when the book is
+opened, accumulated into a single `BindingDict`, and **tunneled into
+every essay entry's render**. The essay-as-inscribed is immutable;
+the book provides a contextual overlay.
+
+This means the same essay rendered through two different books may
+display differently: each book's binding entries define their own
+overlay (title rewrites, citation rules, alias chains, footnote
+injections). Readers see the essay-in-the-book's-voice.
+
+Concretely, the viewer (or any conforming reader):
+
+1. Parses the book.
+2. Walks `tag=binding` entries, fetches each binding's bytes,
+   evaluates them with `bindings.evaluate()` into one `BindingDict`.
+3. For each `tag=essay/NN` entry, renders the essay by passing the
+   merged `BindingDict` as `extra_bd` to `essay.substitute_body()`.
+   The essay's own fenced ```binding``` blocks are merged first;
+   the book-level bindings take precedence (last-write-wins).
+
+This is the pattern by which a book editor / curator / annotator
+inserts their voice into a corpus without ever modifying the
+underlying inscriptions.
+
 ## Relationship to other types
 
 | type | how a book points to it | role within the book |

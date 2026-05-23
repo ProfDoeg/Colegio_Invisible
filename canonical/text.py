@@ -77,7 +77,7 @@ TYPE_TEXT       = 0x00
 # style imports keep working.
 from tone import (
     TONES, VALID_TONES, validate_tone,
-    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_AI, TONE_REVERENCE,
 )
 # backward-compat alias for the old private name; remove when no external
 # caller references it

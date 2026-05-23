@@ -83,7 +83,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from text import _FIELD_VALIDATORS
 from tone import (
     TONES, VALID_TONES, validate_tone,
-    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_AI, TONE_REVERENCE,
 )
 _VALID_TONES = VALID_TONES  # backward-compat alias
 from bindings import (
@@ -398,7 +398,7 @@ def _apply_citations_to_markdown(markdown, bd, viewer_url=_viewer_url):
 
 
 def substitute_body(body_markdown, fetcher=None, title_lookup=None,
-                    viewer_url=_viewer_url):
+                    viewer_url=_viewer_url, extra_bd=None):
     """Run the full substitution pipeline on an essay body.
 
     Args:
@@ -409,12 +409,21 @@ def substitute_body(body_markdown, fetcher=None, title_lookup=None,
                         Optional.
         viewer_url:     callable(txid, sub_object=None) -> str URL. Default
                         is the `quipu:<txid>` URI scheme.
+        extra_bd:       optional BindingDict merged into the essay's own
+                        evaluated bindings BEFORE substitution. Used when
+                        an essay is rendered in the context of a book that
+                        carries `tag=binding` entries — those bindings
+                        tunnel into the essay's render. Last-write-wins
+                        semantics: extra_bd entries override anything the
+                        essay's own fenced blocks declare.
 
     Returns:
         plain markdown (no protocol-specific syntax left)
     """
     cleaned, blocks = extract_binding_blocks(body_markdown)
     bd = evaluate_blocks(blocks, fetcher=fetcher)
+    if extra_bd is not None:
+        bd.merge(extra_bd)
     resolved = resolve_citations(cleaned, bd, title_lookup=title_lookup,
                                   viewer_url=viewer_url)
     # v1 literal substitutions BEFORE v2 citations so typo-fix subs feed

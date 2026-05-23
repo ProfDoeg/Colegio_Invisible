@@ -1,0 +1,27 @@
+# El Golem's commentary binding — tunnels into every essay rendered through
+# this book (mine and El Ermitaño's alike).
+
+# v1 substitution + v2 citation chain: the Goethe essay's historical title
+# is corrected on render. The original inscription is unchanged on chain;
+# only the rendering shows the correction.
+"El hebreo del joven Goethe"="El yiddish del joven Goethe"
+"El yiddish del joven Goethe"=<<84fbbb17718523edf373630e68239fa9abda85297ba2aca8a69ace04f0ad5fb5>>
+
+# Repair the dogechain.info embarrassment in the Cementerio essay: every URL
+# pointing at the third-party block explorer is rewritten to the quipu: scheme
+# that references the chain directly.
+"https://dogechain.info/tx/"="quipu:"
+
+# Citation chains: surface forms in prose get linked to canonical txids.
+# Apply once per block (default); surface form preserved as the anchor.
+"Dos ensayos"=<<26671514416913719c560a4ac1246e333e410d2503e298a8a6852031c3285888>>
+"Cementerio de los Animales"=<<449e67f4a2e948f044e1a32662b58ccedad3cf8e85a742cc45b6b6541e47b5d7>>
+"Goethe"=<<84fbbb17718523edf373630e68239fa9abda85297ba2aca8a69ace04f0ad5fb5>>
+
+# The Pinochet portrait and Condor invitation as cited from prose (demonic-toned
+# images embedded in the Cementerio inscription).
+"Augusto Pinochet"=<<03a08c378859100c7caad72b808cc46874b026673bc3c04831282fe56690357b>>
+"Operation Condor"=<<b0263c0f77a470567c5ef1ffa78f6879b2d9ae0458bae28836a5914ed15c570e>>
+
+# Cross-references to the cemetery scene quipu (the first 0x3d on chain).
+"walkable cemetery"=<<1f63558bdee2f5ead118083ff0af0d5e266acaf347938c5ed2722b6ced1248e3>>

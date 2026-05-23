@@ -82,7 +82,7 @@ _STATUS_NAME = {0: "canonical", 1: "proposed", 2: "draft", 3: "deprecated"}
 
 from tone import (
     TONES, VALID_TONES, validate_tone,
-    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_AI, TONE_REVERENCE,
 )
 _VALID_TONES = VALID_TONES  # backward-compat alias
 

@@ -4,10 +4,10 @@ The **tone byte** sits at offset 5 of every v1 Colegio Invisible quipu's
 header, immediately after the type byte. It carries semantic information
 about the inscribed content's emotional / classificatory register.
 
-Tone is **transverse across types**: the same four values apply to text,
-essay, image, scene, book, cert, encrypted, celestial, binding, and
-estandarte quipus. Per-type specs cross-reference this document for the
-tone vocabulary rather than restating it.
+Tone is **transverse across types**: the same five values apply to text,
+essay, image, scene, book, cert, encrypted, celestial, binding,
+estandarte, and latex quipus. Per-type specs cross-reference this document
+for the tone vocabulary rather than restating it.
 
 The canonical implementation lives in [`canonical/tone.py`](../../canonical/tone.py).
 The full forward map + validator + reverse lookup are imported by every
@@ -19,7 +19,8 @@ type module rather than redeclared.
 
 ```
    header offset 5  <tone>  uint8, one of:
-                              00 ordinary, 01 affection, 0d demonic, ff reverence
+                              00 ordinary, 01 affection, 0d demonic,
+                              a1 ai,       ff reverence
 ```
 
 ---
@@ -31,6 +32,7 @@ type module rather than redeclared.
 | `0x00` | ordinary  | the default; descriptive, academic, neutral, or literary content about the living |
 | `0x01` | affection | paired, intimate, addressed to a specific other |
 | `0x0d` | demonic   | content that documents harm: dictators, founding instruments of state terror, surveillance documents |
+| `0xa1` | ai        | authored by, or fully attributable to, a non-human model; machine-composed content |
 | `0xff` | reverence | the dead, ancestors, formal commemoration |
 
 ### `0x00` ordinary
@@ -60,6 +62,39 @@ First inscribed instances: the Pinochet presidential portrait
 (`03a08c37…`) and the October 1975 DINA invitation letter that founded
 Operation Condor (`b0263c0f…`), both at block 6,217,650 under the
 apocrypha key.
+
+### `0xa1` ai
+
+Authored by, or fully attributable to, a non-human model. Marks
+inscriptions whose prose, image, or other content emerged from machine
+composition rather than from a human hand. Distinct from cases of
+collaborative authorship where a human edits or assembles AI-produced
+fragments — for those, prefer `0x00` ordinary and acknowledge the
+collaboration in the body text or in a co-author field.
+
+Use `0xa1` when:
+- The inscription's entire content was machine-composed and the human
+  role was limited to prompting and broadcasting (e.g. an AI-authored
+  binding quipu, a TikZ piece generated for typesetting, an AI's
+  commentary essay).
+- The inscriber wants the byte-level header itself to declare the
+  inscription's machine origin, so any downstream renderer / indexer /
+  archive can categorize without parsing the body.
+
+Do **not** use `0xa1` for:
+- Cases where AI assistance was used to draft but the human authored the
+  final form. That is `0x00`.
+- Encrypted-then-decrypted content whose inner body happens to be AI-
+  authored — the tone reflects the outer artifact's character, not the
+  pipeline that produced the inner bytes.
+
+The byte mnemonic `0xa1` reads "a-one" / "AI"; the choice is deliberate
+and the value sits in the non-ASCII range so there is no chance of
+collision with text-body content that a misconfigured reader might
+mistake for a tone byte.
+
+First inscribed instances will be the commentary binding and TikZ
+artwork pieces in *El Libro del Gólem* (multiman address).
 
 ### `0xff` reverence
 
@@ -127,3 +162,4 @@ picks up the new value automatically.
 | 2026-05-21 | v1: text + image grew per-module `TONE_*` constants for ordinary, affection, reverence (0x00, 0x01, 0xff) |
 | 2026-05-22 | 0x0d demonic added per-module across 11 canonical files (commit `ddc9167`) |
 | 2026-05-22 | tone byte centralized into `canonical/tone.py`; type modules import from it instead of redeclaring (this commit) |
+| 2026-05-23 | `0xa1` ai added during a conversation that produced *El Libro del Gólem*; designates inscriptions whose content is fully machine-composed |

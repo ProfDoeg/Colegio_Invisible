@@ -51,6 +51,8 @@ TYPE_COLORS = {
     "estandarte": "#d4a373",
     "identity":   "#c78686",
     "binding":    "#b0b0b0",
+    "book":       "#b08a4a",
+    "latex":      "#4a6b8a",
 }
 DEFAULT_COLOR = "#cccccc"
 
@@ -84,19 +86,31 @@ SCENE_RENDERERS = {
 # ---------------------------------------------------------------------------
 
 @st.cache_data
-def load_quipus():
+def _load_quipus_cached(mtime: float):
     df = pd.read_csv(os.path.join(REPO, "data", "quipu_data.csv"))
     df = df[df["root_txid"].notna()].copy()
     df["title"] = df["title"].fillna("")
     df["label"] = df["label"].fillna("(unknown)")
     return df
 
+def load_quipus():
+    """Mtime-keyed cache: edits to data/quipu_data.csv auto-invalidate
+    without needing a Streamlit restart."""
+    path = os.path.join(REPO, "data", "quipu_data.csv")
+    return _load_quipus_cached(os.path.getmtime(path))
+
 @st.cache_data
-def load_edges():
+def _load_edges_cached(mtime: float):
     path = os.path.join(REPO, "data", "quipu_edges.csv")
     if not os.path.exists(path):
         return pd.DataFrame(columns=["source_quipu", "consumer_quipu", "kind"])
     return pd.read_csv(path)
+
+def load_edges():
+    """Mtime-keyed cache: edits to data/quipu_edges.csv auto-invalidate."""
+    path = os.path.join(REPO, "data", "quipu_edges.csv")
+    mtime = os.path.getmtime(path) if os.path.exists(path) else 0
+    return _load_edges_cached(mtime)
 
 def load_body(root_txid: str) -> bytes:
     path = os.path.join(REPO, "data", "bodies", f"{root_txid}.bin")
@@ -444,7 +458,7 @@ def _try_transclude_thin_republish(body_md, df_all, depth=0):
     return target_body
 
 
-def render_essay_html(blob: bytes, df_all: pd.DataFrame) -> str:
+def render_essay_html(blob: bytes, df_all: pd.DataFrame, extra_bd=None) -> str:
     """Run the canonical 0x01 essay substitution pipeline and render to HTML.
 
     Pipeline: extract fenced binding blocks → evaluate → resolve <<txid>>
@@ -483,7 +497,9 @@ def render_essay_html(blob: bytes, df_all: pd.DataFrame) -> str:
 
     try:
         from essay import substitute_body
-        resolved_md = substitute_body(body_md, fetcher=_fetcher, title_lookup=_title_lookup)
+        resolved_md = substitute_body(body_md, fetcher=_fetcher,
+                                       title_lookup=_title_lookup,
+                                       extra_bd=extra_bd)
     except Exception as e:
         return (f"<div style='color:#a00'>essay substitution failed: "
                 f"{html_lib.escape(str(e))}</div>"
@@ -620,6 +636,119 @@ def render_scene_html(header: bytes, body: bytes, df_all: pd.DataFrame) -> str:
     )
 
 
+def _split_typographic_header_body(blob: bytes, type_byte: int) -> tuple:
+    """Locate the byte boundary between a pipe-delimited header tail and
+    the body for text/essay/latex-style headers (any type that uses the
+    text-derived header grammar). Walks every '|' until the closing pipe,
+    then body begins at the next byte."""
+    pos = 6
+    if len(blob) > 6 and blob[6] == ord('|'):
+        # Header is `|field1|field2|...|`; final '|' is followed by body
+        nxt = pos
+        while True:
+            nxt = blob.find(b'|', nxt + 1)
+            if nxt < 0:
+                break
+            # If the next byte after this pipe is NOT in the header tail's
+            # printable-pipe vocabulary, the body has started here.
+            # For typographic types, the body starts immediately after the
+            # last pipe — keep walking until we find a pipe followed by a
+            # non-printable byte or another pipe-like-but-empty-field.
+            pos = nxt
+            # Heuristic: header tail's fields can contain UTF-8 chars but no
+            # newlines; if the next chunk before another '|' contains \n or
+            # we're at the last '|', we're done.
+            tail_until_next = blob[nxt+1:blob.find(b'|', nxt+1) if blob.find(b'|', nxt+1) > 0 else len(blob)]
+            if b'\n' in tail_until_next or blob.find(b'|', nxt+1) < 0:
+                pos = nxt + 1
+                break
+    return blob[:pos], blob[pos:]
+
+
+def render_latex_html(blob: bytes) -> str:
+    """Render a 0x5c latex quipu by compiling the body to PDF via the
+    declared engine, rasterizing to PNG via ghostscript, and embedding
+    as a data URL. The rendered PNG is cached by SHA-256 of the body
+    bytes so re-renders are free."""
+    import hashlib
+    import shutil
+    import subprocess
+    import tempfile
+
+    try:
+        sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "canonical"))
+        from latex import read_latex_quipu, compile_to_pdf
+    except Exception as e:
+        return f"<div style='color:#a00'>latex module import failed: {html_lib.escape(str(e))}</div>"
+
+    header, body = _split_typographic_header_body(blob, 0x5c)
+    try:
+        parsed = read_latex_quipu(header, body)
+    except Exception as e:
+        return (f"<div style='color:#a00'>latex parse failed: {html_lib.escape(str(e))}</div>"
+                f"<pre style='font:11px ui-monospace;color:#666;max-height:200px;overflow:auto'>"
+                f"{html_lib.escape(blob[:512].hex())}…</pre>")
+
+    fields_html = ""
+    if parsed["fields"]:
+        rows = "".join(
+            f"<tr><td style='color:#888;padding-right:8px'>{html_lib.escape(k)}</td>"
+            f"<td>{html_lib.escape(v)}</td></tr>"
+            for k, v in parsed["fields"].items()
+        )
+        fields_html = (
+            f"<table style='font:11px/1.4 ui-monospace;margin:4px 0 8px 0'>{rows}</table>"
+        )
+
+    cache_dir = os.path.join(REPO, "data", "latex_cache")
+    os.makedirs(cache_dir, exist_ok=True)
+    digest = hashlib.sha256(body).hexdigest()
+    png_path = os.path.join(cache_dir, f"{digest}.png")
+
+    if not os.path.exists(png_path):
+        try:
+            pdf_bytes = compile_to_pdf(parsed["tex_source"], engine=parsed["engine"])
+        except Exception as e:
+            err = html_lib.escape(str(e)[:1500])
+            return (fields_html
+                    + f"<div style='color:#a00;font:11px ui-monospace;"
+                      f"background:#fef0f0;border:1px solid #e8b0b0;"
+                      f"padding:6px;border-radius:3px'>"
+                      f"<b>latex compile failed</b><br>"
+                      f"<pre style='white-space:pre-wrap;font-size:10px;"
+                      f"max-height:240px;overflow:auto'>{err}</pre></div>")
+        with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as f:
+            f.write(pdf_bytes)
+            pdf_path = f.name
+        try:
+            if shutil.which("gs"):
+                subprocess.run(
+                    ["gs", "-sDEVICE=pngalpha", "-r150", "-dNOPAUSE", "-dBATCH",
+                     f"-sOutputFile={png_path}", pdf_path],
+                    capture_output=True, timeout=30,
+                )
+            else:
+                return (fields_html
+                        + "<div style='color:#a00'>ghostscript (gs) not on PATH; "
+                        + "cannot rasterize latex output</div>")
+        finally:
+            try:
+                os.remove(pdf_path)
+            except OSError:
+                pass
+
+    if os.path.exists(png_path):
+        with open(png_path, "rb") as f:
+            data_url = "data:image/png;base64," + base64.b64encode(f.read()).decode("ascii")
+        return (fields_html
+                + f"<img src='{data_url}' style='display:block;max-width:100%;"
+                  f"height:auto;margin:6px auto;border:1px solid #ddd'/>"
+                + f"<div style='font:10px ui-monospace;color:#aaa;text-align:center'>"
+                  f"compiled {len(body):,} B of {html_lib.escape(parsed['engine'])} source"
+                  f"</div>")
+    return fields_html + "<div style='color:#a00'>no rendered PNG produced</div>"
+
+
 def _split_book_header_body(blob: bytes) -> tuple:
     """Locate the byte boundary between a book's pipe-delimited header tail
     and the version-prefixed body. Mirrors parse_dims's logic in NB 60."""
@@ -636,9 +765,45 @@ def _split_book_header_body(blob: bytes) -> tuple:
     return blob[:pos], blob[pos:]
 
 
+def _evaluate_book_bindings(parsed_book: dict, df_all: pd.DataFrame):
+    """Walk a parsed book's tag=binding entries, fetch each binding quipu's
+    bytes from the local corpus, and accumulate their rules into a single
+    BindingDict. Returns None if there are no binding entries or canonical
+    bindings module is unavailable."""
+    binding_entries = [e for e in parsed_book["entries"] if e["tag"] == "binding"]
+    if not binding_entries:
+        return None
+    try:
+        sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "canonical"))
+        from bindings import BindingDict, evaluate as evaluate_binding
+    except Exception:
+        return None
+
+    def _fetcher(txid: str) -> bytes:
+        path = os.path.join(REPO, "data", "bodies", f"{txid}.bin")
+        if os.path.exists(path):
+            return open(path, "rb").read()
+        raise FileNotFoundError(f"{txid} not in local corpus")
+
+    merged = BindingDict()
+    visited = {}
+    for entry in binding_entries:
+        try:
+            child = evaluate_binding(entry["ref_txid"], _fetcher, visited=visited)
+            merged.merge(child)
+        except Exception:
+            # Skip unresolvable bindings silently — caller falls back to
+            # rendering essays without the book's overlay
+            continue
+    return merged
+
+
 def render_book_html(blob: bytes, df_all: pd.DataFrame) -> str:
-    """Render a 0x09 book as a manifest: ordered entries with clickable links
-    to each referenced quipu (rendered using the viewer's standard popup)."""
+    """Render a 0x09 book as an expandable manifest. Each tag=essay/* entry
+    gets a `<details>` block; expanding it renders that essay's body with
+    the book's tag=binding entries merged into the substitution pipeline
+    (so bindings declared at the book level tunnel into each essay's
+    render)."""
     try:
         sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "canonical"))
         from book import read_book_quipu
@@ -662,42 +827,81 @@ def render_book_html(blob: bytes, df_all: pd.DataFrame) -> str:
             f"<table style='font:11px/1.4 ui-monospace;margin:4px 0 10px 0'>{rows}</table>"
         )
 
-    entry_rows = []
+    # Evaluate book-level bindings ONCE; they tunnel into every essay render
+    book_bd = _evaluate_book_bindings(parsed, df_all)
+    book_bindings_note = ""
+    if book_bd is not None and (book_bd.aliases or book_bd.substitutions or book_bd.citations):
+        n_a = len(book_bd.aliases)
+        n_s = len(book_bd.substitutions)
+        n_c = len(book_bd.citations)
+        book_bindings_note = (
+            f"<div style='font:11px/1.4 ui-monospace;color:#8a4a3a;"
+            f"background:#fdf3ef;border-left:3px solid #c97e6e;"
+            f"padding:6px 10px;margin:6px 0'>"
+            f"book carries {n_a} alias{'es' if n_a != 1 else ''}, "
+            f"{n_s} substitution{'s' if n_s != 1 else ''}, "
+            f"{n_c} citation rule{'s' if n_c != 1 else ''} — "
+            f"these tunnel into each essay's render below"
+            f"</div>"
+        )
+
+    entry_blocks = []
     for e in parsed["entries"]:
         tag      = html_lib.escape(e["tag"])
         name     = html_lib.escape(e["name"] or "(no name)")
         ref_txid = e["ref_txid"]
         ref_row  = _txid_to_row(df_all, ref_txid)
+        ref_type = ref_row["type_name"] if ref_row is not None else None
+        short_id = f"{ref_txid[:12]}…"
+
+        # Compact header line for every entry
         if ref_row is not None:
             click = f"window.showQuipuFor && window.showQuipuFor('{ref_row['root_txid']}')"
-            ref_type = html_lib.escape(ref_row["type_name"])
-            anchor = (
+            header_line = (
+                f"<div style='display:flex;align-items:baseline;gap:8px;padding:4px 0'>"
+                f"<span style='font:11px ui-monospace;color:#555;min-width:70px'>{tag}</span>"
                 f"<a onclick=\"{click}\" "
-                f"style='cursor:pointer;color:#3a6ea6;text-decoration:underline'>"
+                f"style='cursor:pointer;color:#3a6ea6;text-decoration:none;font-size:13px;flex:1'>"
                 f"{name}</a>"
-                f" <span style='color:#888;font-size:10px'>({ref_type})</span>"
+                f"<span style='color:#888;font-size:10px'>{html_lib.escape(ref_type or '?')}</span>"
+                f"<span style='font:10px ui-monospace;color:#aaa'>{short_id}</span>"
+                f"</div>"
             )
         else:
-            anchor = (
-                f"<span style='color:#888'>{name}</span>"
-                f" <span style='color:#bbb;font-size:10px'>(unresolved)</span>"
+            header_line = (
+                f"<div style='display:flex;align-items:baseline;gap:8px;padding:4px 0;opacity:0.6'>"
+                f"<span style='font:11px ui-monospace;color:#555;min-width:70px'>{tag}</span>"
+                f"<span style='font-size:13px;flex:1'>{name}</span>"
+                f"<span style='font:10px ui-monospace;color:#aaa'>{short_id}</span>"
+                f"</div>"
             )
-        entry_rows.append(
-            f"<tr>"
-            f"<td style='padding:2px 8px 2px 0;font:11px ui-monospace;color:#555;"
-            f"vertical-align:top;white-space:nowrap'>{tag}</td>"
-            f"<td style='padding:2px 0;vertical-align:top;font-size:13px'>{anchor}</td>"
-            f"<td style='padding:2px 0 2px 8px;font:10px ui-monospace;color:#aaa;"
-            f"vertical-align:top'>{ref_txid[:12]}…</td>"
-            f"</tr>"
+
+        # Inline expandable rendering for essay entries (the read-through view)
+        if ref_row is not None and ref_type == "essay" and tag.startswith("essay/"):
+            essay_blob = load_body(ref_row["root_txid"])
+            if essay_blob:
+                inline = render_essay_html(essay_blob, df_all, extra_bd=book_bd)
+                entry_blocks.append(
+                    f"<details style='margin:2px 0;border:1px solid #eee;border-radius:3px'>"
+                    f"<summary style='cursor:pointer;padding:0 6px'>{header_line}</summary>"
+                    f"<div style='padding:6px 10px;background:#fafafa;"
+                    f"border-top:1px solid #eee;max-height:480px;overflow:auto'>"
+                    f"{inline}"
+                    f"</div></details>"
+                )
+                continue
+
+        # Default: just the header line, no expansion
+        entry_blocks.append(
+            f"<div style='border:1px solid #eee;border-radius:3px;margin:2px 0;"
+            f"padding:0 6px'>{header_line}</div>"
         )
 
     table_html = (
         f"<div style='font:11px ui-monospace;color:#666;margin-top:4px'>"
         f"version 0x{parsed['version']:02x} · {len(parsed['entries'])} entries</div>"
-        f"<table style='border-collapse:collapse;margin:6px 0;width:100%'>"
-        + "".join(entry_rows)
-        + "</table>"
+        + book_bindings_note
+        + "".join(entry_blocks)
     )
     return fields_html + table_html
 
@@ -723,6 +927,8 @@ def render_content_html(q: pd.Series, blob: bytes, df_all: pd.DataFrame) -> str:
         body_html = render_essay_html(blob, df_all)
     elif t == "book":
         body_html = render_book_html(blob, df_all)
+    elif t == "latex":
+        body_html = render_latex_html(blob)
     elif t == "image":
         dims = json.loads(q["dimensions_json"] or "{}")
         if dims.get("W"):

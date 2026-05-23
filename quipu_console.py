@@ -841,13 +841,18 @@ ADDRESS_COLORS = {
 
 TYPE_SHORT_LABELS = {
     0x00: "text",
+    0x01: "essay",
     0x03: "image",
+    0x07: "audio",
+    0x09: "book",
     0x0e: "encrypted",
     0x1d: "identity",
+    0x3d: "scene",
+    0xab: "bindings",
     0xcc: "cert",
     0xce: "celestial",
+    0xee: "estandarte",
     0xf0: "error",
-    0xab: "bindings",
     0xf1: "file",
 }
 
@@ -1625,6 +1630,16 @@ def _render_body_html(type_byte, header_bytes, body_bytes, *,
                 f"{_html.escape(str(e))}</p>"
             )
 
+    elif type_byte == 0x09:  # book
+        try:
+            parts.append(_render_book_html(header_bytes, body_bytes,
+                                            quipus=quipus))
+        except Exception as e:
+            parts.append(
+                f"<p style='color:#a06060'>Book render failed: "
+                f"{_html.escape(str(e))}</p>"
+            )
+
     else:
         parts.append(
             f"<pre style='font-size:10px; max-height:200px; "
@@ -1633,6 +1648,73 @@ def _render_body_html(type_byte, header_bytes, body_bytes, *,
         )
 
     return parts
+
+
+def _render_book_html(header_bytes, body_bytes, *, quipus=None):
+    """Inline book renderer for the console: title/fields + ordered manifest
+    of entries with links to known referenced quipus."""
+    import html as _html
+    try:
+        sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                         "canonical"))
+        from book import read_book_quipu
+    except Exception as e:
+        return f"<p style='color:#a06060'>book import failed: {_html.escape(str(e))}</p>"
+
+    parsed = read_book_quipu(bytes(header_bytes), bytes(body_bytes))
+
+    # Per-entry txid → title lookup from the in-memory quipus list (if given)
+    txid_to_title = {}
+    txid_to_type  = {}
+    if quipus:
+        for q in quipus:
+            tx = (q.get("root_txid") or "").lower()
+            if tx:
+                txid_to_title[tx] = q.get("title") or ""
+                tb = q.get("type_byte")
+                if isinstance(tb, int):
+                    txid_to_type[tx] = TYPE_SHORT_LABELS.get(tb, f"0x{tb:02x}")
+
+    fields_rows = "".join(
+        f"<tr><td style='color:#888;padding-right:8px'>{_html.escape(k)}</td>"
+        f"<td>{_html.escape(v)}</td></tr>"
+        for k, v in parsed["fields"].items()
+    )
+    fields_html = (
+        f"<table style='font:11px/1.4 ui-monospace,monospace;margin:4px 0 10px 0'>"
+        f"{fields_rows}</table>"
+    ) if fields_rows else ""
+
+    entry_rows = []
+    for e in parsed["entries"]:
+        tag      = _html.escape(e["tag"])
+        name     = _html.escape(e["name"] or "(no name)")
+        ref_txid = e["ref_txid"]
+        resolved_title = txid_to_title.get(ref_txid)
+        resolved_type  = txid_to_type.get(ref_txid)
+        resolved_html  = (
+            f" <span style='color:#888;font-size:10px'>"
+            f"({_html.escape(resolved_type)}"
+            f"{': ' + _html.escape(resolved_title) if resolved_title else ''})</span>"
+        ) if resolved_type else ""
+        entry_rows.append(
+            f"<tr>"
+            f"<td style='padding:2px 8px 2px 0;font:11px ui-monospace;color:#555;"
+            f"vertical-align:top;white-space:nowrap'>{tag}</td>"
+            f"<td style='padding:2px 0;vertical-align:top;font-size:13px'>"
+            f"{name}{resolved_html}</td>"
+            f"<td style='padding:2px 0 2px 8px;font:10px ui-monospace;color:#aaa;"
+            f"vertical-align:top'>{ref_txid[:12]}…</td>"
+            f"</tr>"
+        )
+    table_html = (
+        f"<div style='font:11px ui-monospace;color:#666;margin-top:4px'>"
+        f"<b>0x09 book</b> · version 0x{parsed['version']:02x} · "
+        f"{len(parsed['entries'])} entries</div>"
+        f"<table style='border-collapse:collapse;margin:6px 0;width:100%'>"
+        + "".join(entry_rows) + "</table>"
+    )
+    return fields_html + table_html
 
 
 def render_body_streamlit(type_byte, header_bytes, body_bytes, *,
@@ -1669,6 +1751,13 @@ def render_body_streamlit(type_byte, header_bytes, body_bytes, *,
         except Exception as e:
             st.error(f"Typographic render failed: {e}")
             st.text(body_bytes.decode("utf-8", errors="replace"))
+    elif type_byte == 0x09:  # book
+        try:
+            html = _render_book_html(header_bytes, body_bytes, quipus=quipus)
+            st.markdown(html, unsafe_allow_html=True)
+        except Exception as e:
+            st.error(f"Book render failed: {e}")
+            st.code(body_bytes.hex()[:300], language=None)
     else:
         st.markdown(f"**Body** (type 0x{type_byte:02x}, no specialized decoder):")
         try:
@@ -1846,11 +1935,16 @@ def render_topology_pyvis(nodes, edges, labels=None, address=None, height_px=620
 
     TYPE_COLORS = {
         0x00: "#e6c97a",   # text — warm yellow
+        0x01: "#d8b48a",   # essay — saddle tan
         0x03: "#7eb4d8",   # image — sky blue
+        0x09: "#b08a4a",   # book — brown gold
         0x0e: "#9b86c7",   # encrypted — violet
         0x1d: "#c78686",   # identity — earth red
+        0x3d: "#c97e6e",   # scene — terracotta
+        0xab: "#b0b0b0",   # bindings — neutral
         0xcc: "#86c786",   # certificate — bordado green
         0xce: "#86c7b4",   # celestial — celadon
+        0xee: "#d4a373",   # estandarte — sand
         0xf0: "#d8a3a3",   # error — pale red
     }
 
@@ -2216,11 +2310,16 @@ def build_history_dot(address, quipus, labels):
     # Color by quipu type
     TYPE_COLORS = {
         0x00: "#f5e6c0",   # text — paper
+        0x01: "#ecd6b5",   # essay — soft tan
         0x03: "#c7ddef",   # image — sky
+        0x09: "#d8be8b",   # book — pale gold
         0x0e: "#d4c5e0",   # encrypted — violet
         0x1d: "#e0c5c5",   # identity — earth
+        0x3d: "#e5b9ad",   # scene — pale terracotta
+        0xab: "#d6d6d6",   # bindings — neutral
         0xcc: "#a3d5a3",   # certificate — bordado green
         0xce: "#c5e0d4",   # celestial — celadon
+        0xee: "#e5c5a3",   # estandarte — sand
         0xf0: "#e8d4d4",   # error — pale red
     }
 
