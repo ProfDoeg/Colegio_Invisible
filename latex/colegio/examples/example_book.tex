@@ -1,0 +1,102 @@
+% example_book.tex — demonstrates colegio.cls in book mode
+%
+% A miniature two-chapter book demonstrating: title page with full
+% protocol metadata, \chapter-based sectioning, tone-aware chapter rule,
+% all three annotation modes within chapter prose, multi-chapter \backnote
+% collection at the end, and the colophon environment with inscription
+% details + unattached annotations surfaced.
+%
+% Compile: xelatex example_book.tex && xelatex example_book.tex
+\documentclass[book,tone=ordinary]{../colegio}
+
+\title{Two Sample Chapters}
+\persona{El Gólem}
+\date{2026-05-23}
+\blockheight{6{,}218{,}xxx}
+\inscribingaddress{example address (illustrative only)}
+\rootxid{0000000000000000000000000000000000000000000000000000000000000000}
+\jointxid{0000000000000000000000000000000000000000000000000000000000000000}
+\protocolheader{c1 dd 00 01 \,09 00\, |Two Sample Chapters|author=El G\'olem|date=2026-05-23|lang=en|}
+
+\begin{document}
+
+\maketitle
+
+\frontmatter
+\tableofcontents
+
+\mainmatter
+
+\chapter{On the Cord}
+
+A book is, in the protocol, a 0x09 inscription whose body lists
+references to other quipus. Each reference carries a tag, a name, and
+a 32-byte ref\_txid. The book is not the prose; the book is the
+manifest.\margin{The same essay rendered through two different books
+can present differently --- each book's binding entries provide a
+contextual overlay (title rewrites, citations, annotations) without
+altering the inscribed prose.}
+
+The cord runs from the root transaction through the strands; the knots
+on each strand are the OP\_RETURN-bearing transactions; the join
+collects every strand's terminus into one output that returns the
+unused capital to the inscriber's address. This is the
+\emph{diamond}.\backnote{the diamond}{Each diamond is one inscription:
+a splitter transaction with N outputs (one per strand), N parallel
+strand chains, and a single mega-join transaction collecting all the
+strand termini. The geometry is dictated by Dogecoin's mempool
+ancestor limit of 25, which caps how long a single strand can be
+before requiring a block-confirmation wait.}
+
+A book that points at another book is a library\inlinenote{a book of
+books, recursive by virtue of the type system}. The recursion is
+bounded by the reader's chosen depth limit; the project's default is
+eight levels, matching the binding alias-chain depth.
+
+\chapter{On the Knot}
+
+Every knot is one transaction. Every transaction carries one
+OP\_RETURN. Every OP\_RETURN carries up to eighty bytes of payload.
+\margin{eighty bytes}{The Bitcoin / Dogecoin script primitive
+\texttt{OP\_RETURN} provably-burns the output it appears in, signaling
+to validators that the eighty bytes following are data not value. The
+fee for emitting them is the same as any other transaction's fee:
+small.} The total payload of an inscription is therefore the sum of
+its strand-knot OP\_RETURNs, concatenated in strand order, parsed by
+the canonical type module corresponding to the inscription's type
+byte.
+
+Reading a quipu is following the cord. The reader fetches the root
+transaction, identifies its strand-seed outputs, walks each strand
+forward through its OP\_RETURN-bearing knots, and concatenates the
+payloads. There is no global index; there is no central catalog.
+The chain is the catalog, and the catalog is the chain.
+
+Citations of other quipus are written as
+\quipucite[Dos ensayos]{26671514416913719c560a4ac1246e333e410d2503e298a8a6852031c3285888}
+in the inscribed prose. The reader resolves the citation by fetching
+the cited txid, parsing its header, and rendering or linking
+accordingly.
+
+\backmatter
+
+\printbacknotes
+
+\begin{colophon}
+  \colophonentry{author}{El Gólem}
+  \colophonentry{date}{2026-05-23}
+  \colophonentry{lang}{English}
+  \colophonentry{type byte}{0x09 book}
+  \colophonentry{tone byte}{0x00 ordinary}
+  \colophonentry{address}{(example address)}
+  \colophonentry{root txid}{0000000000000000000000000000000000000000000000000000000000000000}
+  \colophonentry{rendering}{xelatex via \texttt{colegio.cls} v0.1 (book mode)}
+  \colophonentry{note}{This is a class-demonstration document. The txids above are placeholders and not inscribed on chain.}
+  % Demonstrate one unattached annotation (anchor not present in the body):
+  \unattached{a phrase that doesn't appear in the prose}{This is what
+  the unattached-annotation mechanism does: the inscriber's intent is
+  preserved even when the anchor mis-matches. The note surfaces here
+  in the colophon rather than being silently dropped.}
+\end{colophon}
+
+\end{document}

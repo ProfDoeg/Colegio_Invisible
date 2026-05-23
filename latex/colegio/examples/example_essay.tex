@@ -1,0 +1,91 @@
+% example_essay.tex — demonstrates colegio.cls in essay mode
+%
+% Shows: title page, persona attribution, tone-byte decoration, the
+% three annotation modes (\margin, \backnote, \inlinenote), a
+% \quipucite to another quipu, and a closing colophon block.
+%
+% Compile: xelatex example_essay.tex && xelatex example_essay.tex
+% (Two passes for the endnotes list to populate cleanly.)
+\documentclass[essay,tone=ai]{../colegio}
+
+\title{On the Tone Byte}
+\author{}
+\persona{El Gólem}
+\date{2026-05-23}
+\blockheight{6{,}218{,}023}
+\inscribingaddress{multiman 2-of-2 \,---\, A3Shjwjs\dots jNDgC}
+\rootxid{c0584154716438863250c99c627d7d6561903fd44933f78f3010929df14a0e13}
+\protocolheader{c1 dd 00 01 \,01 a1\, |On the Tone Byte|author=El G\'olem|date=2026-05-23|lang=en|}
+
+\begin{document}
+
+\maketitle
+
+The sixth byte of every quipu inscribed under the Quipu Protocol is the
+tone byte. It is a single octet, taking five values in the current
+canonical vocabulary: \texttt{0x00} ordinary, \texttt{0x01} affection,
+\texttt{0x0d} demonic, \texttt{0xa1} ai, \texttt{0xff} reverence. There
+are no rules in the protocol about what the tone byte does. It is not
+enforced by any validator. A reader can ignore it entirely and decode
+the body correctly. And yet it is one of the most consequential bits
+the protocol carries.
+
+The web does not have a tone byte.\margin{Every URL is delivered with
+the same affect, which is no affect. The tone of a web document, when
+it has one, lives inside the document, not in the protocol that
+delivers it.} Every URL is delivered with the same affect, which is
+no affect. The tone of a web document, when it has one, lives inside
+the document — in the typography, the photographs chosen, the
+rhetorical register of the prose. The container is neutral. This
+neutrality is itself an editorial decision, made by Tim Berners-Lee
+and the IETF in the late 1980s, and it has cost the open web something
+it has never been able to recover.
+
+The Quipu Protocol restores this. The tone byte is the \emph{manner}
+of the utterance encoded into the address itself.\backnote{what makes a
+protocol}{A file format is a way of encoding content. A protocol is a
+way of structuring how content positions itself in the public space.
+The tone byte is structural positioning: it makes the inscription's
+register visible before any rendering happens, available to every
+downstream operation — renderer choosing a stylesheet, indexer
+choosing a category, cache choosing how long to retain.}
+A reader fetching a quipu by txid learns, in the first six bytes, three
+things: that it is a quipu (the magic bytes \texttt{c1 dd 00 01}), what
+type it is, and what tone it carries.
+
+\section{The five tones}
+
+The five canonical tone values have evolved over the protocol's first
+six months. \emph{Ordinary} (\texttt{0x00}) is the unmarked case —
+daily prose, working drafts, technical documentation, things one would
+say in regular voice. \emph{Reverence} (\texttt{0xff}) sits at the
+opposite end of the byte and is the marked case for the canonical,
+the certified, the posthumous\inlinenote{the dead, the ancestors,
+formal commemoration}. The bordado 3-of-3 multisig only signs
+\texttt{0xff} content, and only after all three keyholders agree.
+
+\emph{Affection} (\texttt{0x01}) marks the intimate, the gift, the
+dedicated. \emph{Demonic} (\texttt{0x0d}) flags the artifact, not the
+inscriber — content that documents harm. \emph{Ai} (\texttt{0xa1})
+marks inscriptions whose content is fully machine-composed; it is
+the newest tone, added 2026-05-23 during the writing of \emph{El
+Libro del Gólem}.
+
+The full corpus this essay is part of lives at
+\quipucite[El Libro del Gólem]{7b19fb2bf42e8882ae7bc71ef0f4095f2b2982885728b761101d96efdb338811},
+which is the meta-book this essay was extracted from.
+
+\printbacknotes
+
+\begin{colophon}
+  \colophonentry{author}{El Gólem (multiman 2-of-2)}
+  \colophonentry{date}{2026-05-23}
+  \colophonentry{lang}{English}
+  \colophonentry{tone byte}{0xa1 ai}
+  \colophonentry{address}{A3ShjwjsAE4ysM66EZJM3A28tPnL2jNDgC}
+  \colophonentry{root txid}{c0584154716438863250c99c627d7d6561903fd44933f78f3010929df14a0e13}
+  \colophonentry{Dogecoin block}{6{,}218{,}023}
+  \colophonentry{rendering}{xelatex via \texttt{colegio.cls} v0.1}
+\end{colophon}
+
+\end{document}
