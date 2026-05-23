@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>cementerio loom — 7/7</title>
+<style>
+:root { color-scheme: light; }
+body {
+    background: #faf7f2;
+    color: #1f1d1a;
+    font-family: "Iowan Old Style", "Charter", Georgia, serif;
+    margin: 0;
+    padding: 24px 32px 64px;
+    line-height: 1.4;
+}
+h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0 0 4px;
+    color: #8a4a3a;
+}
+.subtitle {
+    color: #6b665e;
+    font-size: 0.92rem;
+    margin: 0 0 24px;
+    font-style: italic;
+}
+.summary {
+    background: #f3eee5;
+    border: 1px solid #d8d2c6;
+    border-radius: 4px;
+    padding: 10px 14px;
+    margin: 0 0 24px;
+    font: 12px/1.5 "SF Mono", Menlo, monospace;
+    color: #4a3829;
+}
+.summary b { color: #8a4a3a; }
+.loom {
+    display: flex;
+    gap: 38px;
+    align-items: flex-start;
+    margin: 0 0 24px;
+    overflow-x: auto;
+}
+.quipu {
+    display: inline-block;
+}
+.quipu-title {
+    font-size: 0.78rem;
+    color: #6b665e;
+    margin: 0 0 6px;
+    font-family: "SF Mono", Menlo, monospace;
+    letter-spacing: 0.04em;
+}
+.fabric {
+    border: 1px solid #d8d2c6;
+    background: #fcfaf5;
+    padding: 4px;
+    border-radius: 2px;
+    position: relative;
+}
+.row {
+    display: flex;
+    gap: 2px;
+    height: 9px;
+    margin-bottom: 1px;
+    align-items: center;
+}
+.cell {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #c8c2b6;
+    box-sizing: border-box;
+}
+.cell.confirmed {
+    background: var(--quipu-color, #8a4a3a);
+    border-color: var(--quipu-color, #8a4a3a);
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.06);
+}
+.cell.empty {
+    border-color: transparent;
+}
+.row-label {
+    font: 9px "SF Mono", Menlo, monospace;
+    color: #aaa;
+    margin-right: 6px;
+    width: 20px;
+    text-align: right;
+}
+.weft-line {
+    position: absolute;
+    left: 0; right: 0;
+    height: 1px;
+    background: #c97e6e;
+    opacity: 0.35;
+    pointer-events: none;
+}
+.weft-label {
+    position: absolute;
+    right: -56px;
+    font: 9px "SF Mono", Menlo, monospace;
+    color: #c97e6e;
+    transform: translateY(-50%);
+    white-space: nowrap;
+}
+.legend {
+    color: #6b665e;
+    font-size: 0.75rem;
+    font-family: "SF Mono", Menlo, monospace;
+    margin: 0 0 16px;
+}
+.legend .swatch {
+    display: inline-block;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    margin: 0 6px 0 14px;
+    vertical-align: -1px;
+}
+.legend .swatch.confirmed { background: #8a4a3a; }
+.legend .swatch.pending {
+    background: transparent; border: 1px solid #c8c2b6;
+}
+.footer {
+    margin-top: 36px;
+    padding-top: 14px;
+    border-top: 1px solid #d8d2c6;
+    font: 10px/1.5 "SF Mono", Menlo, monospace;
+    color: #6b665e;
+    word-break: break-all;
+}
+.footer .label { color: #aaa; }
+.footer a { color: #c97e6e; text-decoration: none; }
+</style>
+</head>
+<body>
+<h1>Cementerio de los Animales · loom</h1>
+<div class="subtitle">Each warp thread is one strand. Each knot is one transaction.
+Knots fill in as blocks weave through them.</div>
+
+<div class="summary"><b>DONE</b> · mega-join confirmed in block 6217758 · last block heights: #6217755: 7 knots</div>
+
+<div class="legend">
+  <span class="swatch confirmed"></span> woven (confirmed)
+  <span class="swatch pending"></span> on the warp (pending)
+</div>
+
+<div class="loom">
+  <div class="quipu" style="--quipu-color: #a89860"><div class="quipu-title">Corrections binding (0xab)  (2 strands × ≤1 knots)</div><div class="fabric" style="min-width:50px"><div class="row"><div class="row-label">0</div><div class="cell confirmed"></div><div class="cell confirmed"></div></div></div></div><div class="quipu" style="--quipu-color: #5d8aa8"><div class="quipu-title">Cementerio de los Animales (essay v2)  (2 strands × ≤3 knots)</div><div class="fabric" style="min-width:50px"><div class="row"><div class="row-label">0</div><div class="cell confirmed"></div><div class="cell confirmed"></div></div><div class="row"><div class="row-label">1</div><div class="cell confirmed"></div><div class="cell confirmed"></div></div><div class="row"><div class="row-label">2</div><div class="cell confirmed"></div><div class="cell empty"></div></div></div></div>
+</div>
+
+<div class="footer">
+  <div><span class="label">splitter</span>
+    <a href="https://dogechain.info/tx/5ba42d9cef1d315970919cfa3a2bd4529242e68610896386473c2d7d7a673d39" target="_blank">5ba42d9cef1d315970919cfa3a2bd4529242e68610896386473c2d7d7a673d39</a>
+    · block 6217749</div>
+  <div><span class="label">root[binding]</span> <a href="https://dogechain.info/tx/8306eda8433bb95d24977d62042b65aae664947c670046887d6662bd723eba3c" target="_blank">8306eda8433bb95d24977d62042b65aae664947c670046887d6662bd723eba3c</a> · block 6217751</div><div><span class="label">root[essay]</span> <a href="https://dogechain.info/tx/449e67f4a2e948f044e1a32662b58ccedad3cf8e85a742cc45b6b6541e47b5d7" target="_blank">449e67f4a2e948f044e1a32662b58ccedad3cf8e85a742cc45b6b6541e47b5d7</a> · block 6217751</div>
+  <div><span class="label">mega-join</span>
+    <a href="https://dogechain.info/tx/2bfa34eabb280404628914a1e866a56672ae18f2a182f7eb98db623dfdcf55e4" target="_blank">2bfa34eabb280404628914a1e866a56672ae18f2a182f7eb98db623dfdcf55e4</a>
+    · block 6217758</div>
+  <div style="margin-top:8px;color:#aaa">
+    auto-refresh every 4s · polled at 20:50:39
+  </div>
+</div>
+</body>
+</html>

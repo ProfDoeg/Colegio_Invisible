@@ -1,0 +1,53 @@
+[20:43:37] ========================================================================
+[20:43:37] CEMENTERIO CORRECTIONS BROADCAST (binding + essay v2)
+[20:43:37] ========================================================================
+[20:43:37] found 4 strands, 7 total knot txs
+[20:43:37] 
+[20:43:37] [1/5] splitter
+[20:43:37]   ✓ splitter sent: 5ba42d9cef1d3159…
+[20:44:22]   ✓ splitter confirmed (45s)
+[20:44:22] 
+[20:44:22] [2/5] per-quipu roots
+[20:44:22]   ✓ root[binding] sent: 8306eda8433bb95d…
+[20:44:22]   ✓ root[essay] sent: 449e67f4a2e948f0…
+[20:46:52]   ✓ root[binding] confirmed (150s)
+[20:46:52]   ✓ root[essay] confirmed (0s)
+[20:46:52] 
+[20:46:52] [3/5] 4 strands in parallel (each ≤25 knots; one wave per strand)
+[20:46:53]   strand[binding_ 1] 1 knots starting
+[20:46:53]   strand[binding_ 0] 1 knots starting
+[20:46:53]   strand[essay_ 1] 2 knots starting
+[20:46:53]   strand[binding_ 1] wave sent: 0..0 (1/1)
+[20:46:53]   strand[binding_ 0] wave sent: 0..0 (1/1)
+[20:46:53]   strand[essay_ 0] 3 knots starting
+[20:46:53]   strand[binding_ 1] DONE (terminus 7a0f539c0142cf8f…)
+[20:46:53]   strand[binding_ 0] DONE (terminus d50ce93e2380d88c…)
+[20:46:53]   strand[essay_ 1] wave sent: 0..1 (2/2)
+[20:46:53]   strand[essay_ 1] DONE (terminus fa21b82bd89cd5fc…)
+[20:46:53]   strand[essay_ 0] wave sent: 0..2 (3/3)
+[20:46:53]   strand[essay_ 0] DONE (terminus 44d0a05312c7f495…)
+[20:46:53] all 4 strand threads finished
+[20:46:53] 
+[20:46:53] [4/5] waiting for all strand termini to confirm in a block
+[20:46:53]   termini confirmed: 0/4   (elapsed 0s)
+[20:46:53]   pending: ['binding_0', 'binding_1', 'essay_0', 'essay_1']
+[20:47:23]   termini confirmed: 0/4   (elapsed 30s)
+[20:47:23]   pending: ['binding_0', 'binding_1', 'essay_0', 'essay_1']
+[20:47:53]   termini confirmed: 0/4   (elapsed 60s)
+[20:47:53]   pending: ['binding_0', 'binding_1', 'essay_0', 'essay_1']
+[20:48:23]   termini confirmed: 0/4   (elapsed 90s)
+[20:48:23]   pending: ['binding_0', 'binding_1', 'essay_0', 'essay_1']
+[20:48:53]   termini confirmed: 4/4   (elapsed 120s)
+[20:48:53] 
+[20:48:53] [5/5] mega-join
+[20:48:53]   ✓ mega-join sent: 2bfa34eabb280404…
+[20:50:38]   ✓ mega-join confirmed (105s)
+[20:50:38] 
+[20:50:38] ========================================================================
+[20:50:38] ALL DONE. The corpus is on chain.
+[20:50:38] ========================================================================
+[20:50:38]   splitter:        5ba42d9cef1d315970919cfa3a2bd4529242e68610896386473c2d7d7a673d39
+[20:50:38]   root[binding  ] 8306eda8433bb95d24977d62042b65aae664947c670046887d6662bd723eba3c
+[20:50:38]   root[essay    ] 449e67f4a2e948f044e1a32662b58ccedad3cf8e85a742cc45b6b6541e47b5d7
+[20:50:38]   mega-join:       2bfa34eabb280404628914a1e866a56672ae18f2a182f7eb98db623dfdcf55e4
+[20:50:38]   residual at apocrypha (final output): 2bfa34eabb280404628914a1e866a56672ae18f2a182f7eb98db623dfdcf55e4:0

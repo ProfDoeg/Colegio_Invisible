@@ -695,6 +695,16 @@ def render_graph(df: pd.DataFrame, edges: pd.DataFrame, df_all: pd.DataFrame,
             # content into walkable space. Solid terracotta — same hue
             # as the scene node color.
             net.add_edge(src, dst, color="#c97e6e", width=2.0, arrows="to")
+        elif kind == "binding_import":
+            # an essay imports an 0xab binding's rules into its scope
+            # via a fenced ```binding block. Warm tan, solid, medium.
+            net.add_edge(src, dst, color="#a89860", width=2.0, arrows="to")
+        elif kind == "previous":
+            # essay header `previous=<txid>` field marks supersession.
+            # Long-dashed muted purple, arrow pointing back at the
+            # predecessor.
+            net.add_edge(src, dst, color="#6b5b8a", width=1.6,
+                         arrows="to", dashes=[8, 4])
 
     html = net.generate_html()
 
