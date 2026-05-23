@@ -458,7 +458,7 @@ def _try_transclude_thin_republish(body_md, df_all, depth=0):
     return target_body
 
 
-def _inject_annotations_html(html: str, bd, df_all) -> str:
+def _inject_annotations_html(html: str, bd, df_all, mode_override=None) -> str:
     """Walk bd.annotations and inject sidenotes / endnotes / inline-brackets
     into `html` (post-markdown-render HTML). The renderer dispatches by the
     inscriber's per-note mode flag (@margin / @endnote / @inline).
@@ -466,10 +466,30 @@ def _inject_annotations_html(html: str, bd, df_all) -> str:
     On the viewer's narrow popup widths, all modes effectively collapse to
     inline-below; full Tufte-style sidenote layout is for the standalone
     HTML build (`working/golem/built/book.html`-style artifacts) where
-    horizontal space allows."""
+    horizontal space allows.
+
+    Args:
+        html:          post-markdown HTML to inject annotations into
+        bd:            BindingDict carrying .annotations
+        df_all:        the corpus DataFrame (unused currently; reserved
+                       for future per-annotator color-coding by tone)
+        mode_override: if set to 'margin' / 'endnote' / 'inline', forces
+                       every annotation to render in that mode regardless
+                       of its inscriber-declared flag. Useful for
+                       collapsing a marginalia-heavy essay into a
+                       print-friendly endnote view, or for stripping
+                       sidenote layout when popup width is tight.
+                       The inscriber's preference is the default; this
+                       override is the reader's prerogative.
+    """
     annotations = getattr(bd, "annotations", None)
     if not annotations:
         return html
+
+    if mode_override == "__hide__":
+        return html  # suppress all annotations
+    if mode_override and mode_override not in ("margin", "endnote", "inline"):
+        mode_override = None  # silently ignore unknown overrides
 
     try:
         import markdown as md
@@ -491,8 +511,11 @@ def _inject_annotations_html(html: str, bd, df_all) -> str:
         anchor, note_md, position, flags = entry
         if not anchor or anchor in used_anchors:
             continue
-        modes = [f for f in flags if f in ("margin", "endnote", "inline")]
-        mode = modes[0] if modes else "margin"
+        if mode_override:
+            mode = mode_override
+        else:
+            modes = [f for f in flags if f in ("margin", "endnote", "inline")]
+            mode = modes[0] if modes else "margin"
 
         # Find anchor in html. Try direct first; loose fallback allows
         # markdown emphasis/code tags between anchor words.
@@ -616,7 +639,8 @@ _ANNOTATION_CSS = """
 """
 
 
-def render_essay_html(blob: bytes, df_all: pd.DataFrame, extra_bd=None) -> str:
+def render_essay_html(blob: bytes, df_all: pd.DataFrame, extra_bd=None,
+                      annotation_mode_override=None) -> str:
     """Run the canonical 0x01 essay substitution pipeline and render to HTML.
 
     Pipeline: extract fenced binding blocks → evaluate → resolve <<txid>>
@@ -677,8 +701,12 @@ def render_essay_html(blob: bytes, df_all: pd.DataFrame, extra_bd=None) -> str:
 
     # v3 annotation primitive: walk bd.annotations, find anchors in rendered
     # HTML, inject sidenotes / endnotes / inline brackets per the inscriber's
-    # chosen mode.
-    html = _inject_annotations_html(html, bd, df_all)
+    # chosen mode. The optional `annotation_mode_override` collapses every
+    # note to a single rendering mode (reader's prerogative).
+    html = _inject_annotations_html(
+        html, bd, df_all,
+        mode_override=annotation_mode_override,
+    )
 
     # Rewrite <img src="quipu:<txid>"> to inline data URLs (markdown image
     # syntax pointing at an image quipu). Must run BEFORE the link rewriter,
@@ -1044,7 +1072,11 @@ def render_book_html(blob: bytes, df_all: pd.DataFrame) -> str:
         if ref_row is not None and ref_type == "essay" and tag.startswith("essay/"):
             essay_blob = load_body(ref_row["root_txid"])
             if essay_blob:
-                inline = render_essay_html(essay_blob, df_all, extra_bd=book_bd)
+                inline = render_essay_html(
+                    essay_blob, df_all, extra_bd=book_bd,
+                    annotation_mode_override=st.session_state.get(
+                        "annotation_mode_override"),
+                )
                 entry_blocks.append(
                     f"<details style='margin:2px 0;border:1px solid #eee;border-radius:3px'>"
                     f"<summary style='cursor:pointer;padding:0 6px'>{header_line}</summary>"
@@ -1088,7 +1120,11 @@ def render_content_html(q: pd.Series, blob: bytes, df_all: pd.DataFrame) -> str:
         text_body = blob[find_body_offset(blob):].decode("utf-8", errors="replace")
         body_html = render_text_with_citations(text_body, df_all)
     elif t == "essay":
-        body_html = render_essay_html(blob, df_all)
+        body_html = render_essay_html(
+            blob, df_all,
+            annotation_mode_override=st.session_state.get(
+                "annotation_mode_override"),
+        )
     elif t == "book":
         body_html = render_book_html(blob, df_all)
     elif t == "latex":
@@ -1490,6 +1526,31 @@ with st.sidebar:
     sel_types = st.multiselect("type", types, default=types)
     statuses = sorted(df_all["canonical_status"].unique())
     sel_statuses = st.multiselect("canonical status", statuses, default=statuses)
+
+    st.markdown("---")
+    st.caption("Annotation rendering")
+    ann_choice = st.radio(
+        "How v3 annotations render in essays",
+        options=["respect inscriber", "force margin", "force endnote",
+                 "force inline", "hide"],
+        index=0,
+        help=(
+            "Annotations tunneled into an essay through book bindings "
+            "have a per-note presentation flag (margin / endnote / "
+            "inline). 'Respect inscriber' honors that flag. The others "
+            "collapse every note into the chosen mode for a "
+            "uniform reading view. 'Hide' suppresses all annotations."
+        ),
+        key="annotation_mode_choice",
+    )
+    _ann_map = {
+        "respect inscriber": None,
+        "force margin":      "margin",
+        "force endnote":     "endnote",
+        "force inline":      "inline",
+        "hide":              "__hide__",
+    }
+    st.session_state["annotation_mode_override"] = _ann_map[ann_choice]
 
 df = df_all[
     df_all["label"].isin(sel_labels)

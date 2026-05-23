@@ -1,0 +1,148 @@
+# examples/annotated_binding.ab
+#
+# A worked example of every line kind in the 0xab binding spec:
+#   v1: import, alias, substitution
+#   v2: citation chain (with @all / @once-per-doc flags)
+#   v3: annotation (with #N positional + @margin/@endnote/@inline modes)
+#
+# This file is illustration only — not inscribed. The txids cited
+# below are real corpus inscriptions; the anchors are example phrases
+# that may or may not exist in any particular essay's body.
+#
+# To inscribe a binding like this:
+#   from canonical.bindings import build_binding_quipu, TONE_AI
+#   header, body = build_binding_quipu(open("annotated_binding.ab").read(),
+#                                       tone=TONE_AI)
+#   # then broadcast via CadenaAtom + diamond pattern as usual.
+
+
+# ----------------------------------------------------------------------
+# v1 — IMPORT another binding's rules (e.g. inherit a glossary).
+# ----------------------------------------------------------------------
+<<8306eda8433bb95d24977d62042b65aae664947c670046887d6662bd723eba3c>>
+
+
+# ----------------------------------------------------------------------
+# v1 — ALIAS CHAIN: give an inscription a project-local name.
+# Multiple aliases on the left, single txid target on the right.
+# ----------------------------------------------------------------------
+<<Goethe>>=<<84fbbb17718523edf373630e68239fa9abda85297ba2aca8a69ace04f0ad5fb5>>
+<<Cementerio>>=<<CementerioDeLosAnimales>>=<<449e67f4a2e948f044e1a32662b58ccedad3cf8e85a742cc45b6b6541e47b5d7>>
+
+
+# ----------------------------------------------------------------------
+# v1 — STRING SUBSTITUTION: pure literal rewrite, every occurrence.
+# Use for typo fixes, terminology updates, URL repairs.
+# ----------------------------------------------------------------------
+"hebreo"="yiddish"
+"https://dogechain.info/tx/"="quipu:"
+
+
+# ----------------------------------------------------------------------
+# v2 — CITATION CHAIN: prose terms become markdown citation links.
+# Default: first occurrence per block, word-bounded, case-sensitive.
+# ----------------------------------------------------------------------
+"Goethe"=<<84fbbb17718523edf373630e68239fa9abda85297ba2aca8a69ace04f0ad5fb5>>
+
+# Equivalence class — three surface forms all link to the same target,
+# matched form is preserved as anchor text.
+"Hayagriva"="hayagriva"="HAYAGRIVA"=<<aaaa1111aaaa1111aaaa1111aaaa1111aaaa1111aaaa1111aaaa1111aaaa1111>>
+
+# Flags adjust default behavior.
+"Bordado"=<<aaaa2222aaaa2222aaaa2222aaaa2222aaaa2222aaaa2222aaaa2222aaaa2222>> @all
+"Christamicus"=<<aaaa3333aaaa3333aaaa3333aaaa3333aaaa3333aaaa3333aaaa3333aaaa3333>> @once-per-doc
+
+
+# ----------------------------------------------------------------------
+# v3 — ANNOTATIONS: multi-paragraph notes anchored to phrases in the
+# essay body. The opening fence is `@@anchor [#N] [@flag ...]` on its
+# own line; the closing fence is `@@` on its own line. Everything
+# between is the note body as markdown.
+# ----------------------------------------------------------------------
+
+# DEFAULT mode (margin): first occurrence per block, Tufte-style
+# sidenote rendered in the margin alongside the anchor's line.
+@@Yorkshire terrier named Beatrice
+The dog's name carries the Dante echo throughout this essay's
+cosmology. Beatrice as the guide through the spheres of paradise,
+here as the guide through the cemetery. The author's wife (also a
+Beatrice) and the dog share the name without ceremony.
+@@
+
+
+# ENDNOTE mode: superscript at anchor, collected into a "Notes"
+# section at the end of the essay with a backlink to the anchor.
+@@Operation Condor @endnote
+The codename for the multinational intelligence-coordination
+program among the security services of Argentina, Bolivia, Brazil,
+Chile, Paraguay, and Uruguay, founded at a meeting in Santiago on
+25 November 1975. The conference convened on Pinochet's sixtieth
+birthday — the fusing of a head-of-state's private anniversary
+with the public birth of a transnational killing program is not
+incidental, and the essay's juxtaposition of biographical and
+state-historical dates throughout deserves attention.
+
+The CONDORTEL teletype-based encrypted communications channel
+that the program ran on was not cryptographically novel; what was
+hardened was the channel's *social topology* — who could speak to
+whom, on what schedule, with what authorization. The Quipu
+Protocol's multisignature address structure is, in a different
+register, also a hardening of social topology against forgery.
+@@
+
+
+# INLINE mode: bracketed `[note]` inserted into the prose flow at
+# the anchor point. Use sparingly — heavy use clutters reading.
+@@Sparkle, Paco, and Beatrice were buried in the chain @inline
+These three image inscriptions from May 2022 predate the v1
+protocol by ~4 years; the project memory flags them as
+"pre-canonical." The chain holds them regardless.
+@@
+
+
+# POSITIONAL #N: when the anchor phrase appears multiple times,
+# `#N` picks the Nth occurrence (1-indexed). Useful for annotating
+# the third Beatrice mention rather than the first.
+@@Beatrice #3 @margin
+By this third mention, the essay has shifted from referring to the
+dog (and the cosmological Beatrice she shares a name with) to
+the author's wife. The slippage is part of the essay's mode.
+@@
+
+
+# @all + presentation flag: every occurrence gets an annotation.
+# Rare; use only when the phrase truly merits per-mention commentary.
+@@chain @all @inline
+Refers throughout to the Dogecoin blockchain on which all of this
+is inscribed.
+@@
+
+
+# @once-per-doc + endnote: only the first occurrence in the entire
+# document gets the note, no matter how many times the phrase appears.
+@@Pet Sematary @once-per-doc @endnote
+Stephen King's novel was written in 1979 and published in 1983,
+the years bracketing the most active period of Condor. King has
+said he found the manuscript so dark he initially refused to
+publish it. There is no direct connection between the two
+histories; they are juxtaposed here because juxtaposition is the
+essay's mode. The chain places them next to each other and lets
+the reader infer.
+@@
+
+
+# Multi-paragraph notes can include inline `code`, *italics*,
+# **bold**, [links](https://example.com), citation references like
+# <<txid>>, and blank lines between paragraphs. The @@…@@ fence is
+# the boundary, not the blank-line convention.
+@@gematría
+The Hebrew system in which every letter carries a numerical value,
+every word a sum, and every sum a possible reference. Structurally
+it is a *pre-cryptographic addressing scheme* — letters and
+numbers as a single substrate.
+
+The Quipu Protocol's `<<txid>>` citation syntax inherits the same
+conceptual move: every glyph in a 64-hex transaction id is at once
+a letter, a number, and a reference. Reading the chain is reading
+gematría with a wider alphabet.
+@@

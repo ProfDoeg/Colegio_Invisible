@@ -356,6 +356,38 @@ This is the pattern by which a book editor / curator / annotator
 inserts their voice into a corpus without ever modifying the
 underlying inscriptions.
 
+### What a binding can carry
+
+A `0xab` binding's body holds rules from the binding spec's three
+primitives:
+
+| primitive | what tunnels into the essay |
+|---|---|
+| **substitution** (v1) | text rewrites (typo fixes, terminology updates, URL repairs) |
+| **citation** (v2) | prose terms wrapped as `quipu:` links to other inscriptions |
+| **annotation** (v3) | multi-paragraph notes attached to anchor phrases, rendered as marginalia, endnotes, or inline brackets per the inscriber's chosen mode |
+
+Annotations *accumulate* across multiple `tag=binding` entries (rather
+than last-write-wins), so a book may list several annotator bindings
+side-by-side and the reader sees every note from every annotator at
+each anchor. This lets the same essay carry an academic edition's
+annotations, a personal edition's annotations, and an AI commentary
+edition's annotations simultaneously without any of them silencing
+the others. Each note is attributed by its source binding's tone byte
+and author field; the renderer can visually distinguish (color, label)
+by binding identity.
+
+The pipeline order — when multiple primitives apply to the same essay
+through the same book — is:
+
+1. v1 substitutions rewrite the prose
+2. v2 citations wrap prose terms as links
+3. v3 annotations attach against the post-substitution prose
+
+So an annotation that references the *corrected* form of a phrase
+(`@@yiddish of the joven Goethe` after a substitution `"hebreo"="yiddish"`)
+will anchor correctly.
+
 ## Relationship to other types
 
 | type | how a book points to it | role within the book |
