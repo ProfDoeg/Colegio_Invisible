@@ -80,10 +80,11 @@ STATUS_DRAFT     = 2
 STATUS_DEPRECATED = 3
 _STATUS_NAME = {0: "canonical", 1: "proposed", 2: "draft", 3: "deprecated"}
 
-TONE_ORDINARY  = 0x00
-TONE_DEMONIC   = 0x0D
-TONE_REVERENCE = 0xFF
-_VALID_TONES   = (TONE_ORDINARY, TONE_DEMONIC, TONE_REVERENCE)
+from tone import (
+    TONES, VALID_TONES, validate_tone,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
+)
+_VALID_TONES = VALID_TONES  # backward-compat alias
 
 TYPE_ESTANDARTE = 0xEE
 
@@ -126,8 +127,7 @@ def build_estandarte_quipu(types, conventions, tone=TONE_ORDINARY, parent_txid=N
     Returns:
         (header_bytes, body_bytes) tuple.
     """
-    if tone not in _VALID_TONES:
-        raise ValueError(f"tone must be 0x00, 0x0d, or 0xff (got {tone:#04x})")
+    validate_tone(tone)
     if len(types) > 255:
         raise ValueError(f"max 255 type entries (got {len(types)})")
     if len(conventions) > 255:

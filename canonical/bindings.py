@@ -35,10 +35,11 @@ import re
 MAGIC = b"\xc1\xdd\x00\x01"
 TYPE_BINDING = 0xAB
 
-TONE_ORDINARY  = 0x00
-TONE_DEMONIC   = 0x0D
-TONE_REVERENCE = 0xFF
-_VALID_TONES   = (TONE_ORDINARY, TONE_DEMONIC, TONE_REVERENCE)
+from tone import (
+    TONES, VALID_TONES, validate_tone,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
+)
+_VALID_TONES = VALID_TONES  # backward-compat alias
 
 ALIAS_DEPTH_LIMIT  = 8   # max alias-chain hops at resolution time
 IMPORT_DEPTH_LIMIT = 64  # safety net; cycles are caught earlier by visited set
@@ -114,8 +115,7 @@ def build_binding_quipu(body_text, tone=TONE_ORDINARY):
     Returns:
         (header_bytes, body_bytes) — same shape as other canonical types
     """
-    if tone not in _VALID_TONES:
-        raise ValueError(f"tone must be 0x00, 0x0d, or 0xff (got {tone:#04x})")
+    validate_tone(tone)
     if not isinstance(body_text, str):
         raise TypeError(f"body_text must be str (got {type(body_text).__name__})")
     header = MAGIC + bytes([TYPE_BINDING, tone])

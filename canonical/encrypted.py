@@ -70,11 +70,11 @@ from Cryptodome.Hash import SHA256
 MAGIC = b"\xc1\xdd\x00\x01"
 TYPE_ENCRYPTED = 0x0e
 
-TONE_ORDINARY  = 0x00
-TONE_AFFECTION = 0x01
-TONE_DEMONIC   = 0x0D
-TONE_REVERENCE = 0xFF
-_VALID_TONES   = (TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE)
+from tone import (
+    TONES, VALID_TONES, validate_tone,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
+)
+_VALID_TONES = VALID_TONES  # backward-compat alias
 
 # Sub-family byte at offset 6
 SUB_AES   = 0xAE
@@ -154,8 +154,7 @@ def _shared_key(privkey, pubkey):
 # ---------------------------------------------------------------------------
 
 def _build_header_prefix(tone, sub_family, variant):
-    if tone not in _VALID_TONES:
-        raise ValueError(f"tone must be 0x00, 0x01, 0x0d, or 0xff (got {tone:#04x})")
+    validate_tone(tone)
     if sub_family not in _VALID_SUBS:
         raise ValueError(f"sub_family must be 0x{SUB_AES:02x}/0x{SUB_ECIES:02x}/0x{SUB_DROP:02x} (got {sub_family:#04x})")
     return MAGIC + bytes([TYPE_ENCRYPTED, tone, sub_family, variant])

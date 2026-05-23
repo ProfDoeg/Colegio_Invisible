@@ -66,7 +66,7 @@ for anything else.
 offset  bytes        meaning
 0..3    c1 dd 00 01  magic + protocol version 0.1
 4       3d           type byte = scene
-5       <tone>       00 ordinary, 01 affection, 0d demonic, ff reverence
+5       <tone>       tone byte — see tone.md for the canonical vocabulary
 6..     | header tail |    pipe-delimited title + optional key=value fields
 ```
 

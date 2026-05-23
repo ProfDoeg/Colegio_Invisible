@@ -77,11 +77,11 @@ import struct
 
 TYPE_CERT          = 0xCC
 
-TONE_ORDINARY      = 0x00
-TONE_AFFECTION     = 0x01
-TONE_DEMONIC       = 0x0D
-TONE_REVERENCE     = 0xFF
-_VALID_TONES = (TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE)
+from tone import (
+    TONES, VALID_TONES, validate_tone,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
+)
+_VALID_TONES = VALID_TONES  # backward-compat alias
 
 SUBTYPE_HASH       = 0x0001   # |HASH_ALGO|<hash_hex>  +  Field:value body
 SUBTYPE_ALLINONE   = 0x0002   # |TITLE|  +  Field: value body
@@ -92,10 +92,7 @@ _FIELD_LINE_RE = re.compile(r"^([^:\s][^:]*?)\s*:\s*(.*)$", re.MULTILINE)
 
 
 def _build_structural_header(tone, subtype):
-    if tone not in _VALID_TONES:
-        raise ValueError(
-            f"tone must be 0x00, 0x01, 0x0d, or 0xff (got {tone:#04x})"
-        )
+    validate_tone(tone)
     if subtype not in _VALID_SUBTYPES:
         raise ValueError(
             f"subtype must be 0x0001 (hash) or 0x0002 (all-in-one); "

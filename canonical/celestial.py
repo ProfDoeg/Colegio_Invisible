@@ -89,10 +89,11 @@ import struct
 
 TYPE_CELESTIAL    = 0xCE
 
-TONE_ORDINARY     = 0x00
-TONE_DEMONIC      = 0x0D
-TONE_REVERENCE    = 0xFF
-_VALID_TONES      = (TONE_ORDINARY, TONE_DEMONIC, TONE_REVERENCE)
+from tone import (
+    TONES, VALID_TONES, validate_tone,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
+)
+_VALID_TONES = VALID_TONES  # backward-compat alias
 
 # kind byte (header offset 6)
 KIND_EARTH        = 0x00
@@ -184,8 +185,7 @@ def _figure_needs_meta(points, figure_kind):
 
 
 def _build_header(title, kind, grouped, meta, K, tone):
-    if tone not in _VALID_TONES:
-        raise ValueError(f"tone must be 0x00, 0x0d, or 0xff (got {tone:#04x})")
+    validate_tone(tone)
     if kind not in (KIND_EARTH, KIND_STAR):
         raise ValueError(f"kind must be 0x00 or 0x01 (got {kind:#04x})")
     if grouped not in (GROUPED_NO, GROUPED_YES):

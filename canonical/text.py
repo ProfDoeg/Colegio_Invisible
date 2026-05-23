@@ -72,11 +72,16 @@ import re
 
 TYPE_TEXT       = 0x00
 
-TONE_ORDINARY   = 0x00
-TONE_AFFECTION  = 0x01
-TONE_DEMONIC    = 0x0D
-TONE_REVERENCE  = 0xFF
-_VALID_TONES    = (TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE)
+# Tone constants + validator come from canonical/tone.py (single source
+# of truth). Re-imported here so `from text import TONE_REVERENCE`
+# style imports keep working.
+from tone import (
+    TONES, VALID_TONES, validate_tone,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
+)
+# backward-compat alias for the old private name; remove when no external
+# caller references it
+_VALID_TONES = VALID_TONES
 
 PIPE            = ord("|")  # 0x7C
 
@@ -166,11 +171,7 @@ def build_text_quipu(title, body, tone=TONE_ORDINARY, fields=None):
     Returns:
         (header_bytes, body_bytes)
     """
-    if tone not in _VALID_TONES:
-        raise ValueError(
-            f"tone must be 0x00 (ordinary), 0x01 (affection), 0x0d (demonic), "
-            f"or 0xff (reverence); got {tone:#04x}"
-        )
+    validate_tone(tone)
     if not isinstance(title, str):
         raise TypeError(f"title must be str, got {type(title).__name__}")
     if "|" in title:

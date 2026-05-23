@@ -21,7 +21,7 @@ pipe-bracketed title.
 offset  bytes        meaning
 0..3    c1 dd 00 01  magic + protocol version 0.1
 4       03           type byte = image
-5       <tone>       00 ordinary, 01 affection, 0d demonic, ff reverence
+5       <tone>       tone byte — see tone.md for the canonical vocabulary
 6       <color>      00 grayscale (1ch), 01 RGB (3ch),
                      02 grayscale+alpha (2ch), 03 RGBA (4ch)
 7..8    <W_hi W_lo>  width  in pixels, uint16 big-endian
@@ -107,14 +107,10 @@ header — both types share the convention.
 
 ## Tone vocabulary
 
-Same as text quipus:
-
-| `<tone>` | name | when to use |
-|---|---|---|
-| `0x00` | ordinary  | the default; descriptive or neutral imagery |
-| `0x01` | affection | paired / intimate / addressed-to-a-specific-other imagery |
-| `0x0d` | demonic   | imagery that documents harm: portraits of dictators, founding documents of state terror, surveillance instruments |
-| `0xff` | reverence | the dead, ancestors, formal commemorative imagery |
+See [tone.md](tone.md) for the canonical transverse tone byte
+vocabulary. Image quipus accept the same four values as every other
+type, applied to the depicted image (demonic for portraits of
+dictators, reverence for the dead, etc.).
 
 ---
 

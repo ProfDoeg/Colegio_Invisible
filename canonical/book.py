@@ -19,11 +19,11 @@ from __future__ import annotations
 TYPE_BOOK = 0x09
 PROTOCOL_MAGIC = b"\xc1\xdd\x00\x01"
 
-TONE_ORDINARY  = 0x00
-TONE_AFFECTION = 0x01
-TONE_DEMONIC   = 0x0D
-TONE_REVERENCE = 0xff
-_VALID_TONES = (TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE)
+from tone import (
+    TONES, VALID_TONES, validate_tone,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
+)
+_VALID_TONES = VALID_TONES  # backward-compat alias
 
 BODY_VERSION = 0x01            # current book body schema version
 

@@ -62,11 +62,11 @@ import struct
 
 TYPE_IMAGE      = 0x03
 
-TONE_ORDINARY   = 0x00
-TONE_AFFECTION  = 0x01
-TONE_DEMONIC    = 0x0D
-TONE_REVERENCE  = 0xFF
-_VALID_TONES    = (TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE)
+from tone import (
+    TONES, VALID_TONES, validate_tone,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
+)
+_VALID_TONES = VALID_TONES  # backward-compat alias
 
 COLOR_GRAY       = 0x00   # 1 channel
 COLOR_RGB        = 0x01   # 3 channels
@@ -111,10 +111,7 @@ def build_image_quipu(width, height, color, bit_depth, title, body,
     Returns:
         (header_bytes, body_bytes) — body returned unchanged.
     """
-    if tone not in _VALID_TONES:
-        raise ValueError(
-            f"tone must be 0x00, 0x01, 0x0d, or 0xff (got {tone:#04x})"
-        )
+    validate_tone(tone)
     if color not in _CHANNELS:
         raise ValueError(
             f"color must be 0x00 (gray), 0x01 (RGB), 0x02 (gray+alpha), "

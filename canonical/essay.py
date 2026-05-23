@@ -80,11 +80,12 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 # Reuse machinery from text.py + bindings.py
-from text import (
-    _FIELD_VALIDATORS,
-    _VALID_TONES,
+from text import _FIELD_VALIDATORS
+from tone import (
+    TONES, VALID_TONES, validate_tone,
     TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_REVERENCE,
 )
+_VALID_TONES = VALID_TONES  # backward-compat alias
 from bindings import (
     BindingDict, evaluate as evaluate_binding,
     parse_body as parse_binding_body, resolve as resolve_alias,
@@ -383,10 +384,7 @@ def build_essay_quipu(title, body_markdown, tone=TONE_ORDINARY, fields=None):
     Returns:
         (header_bytes, body_bytes)
     """
-    if tone not in _VALID_TONES:
-        raise ValueError(
-            f"tone must be 0x00, 0x01, 0x0d, or 0xff (got {tone:#04x})"
-        )
+    validate_tone(tone)
     if "|" in title:
         raise ValueError("title contains '|' (field separator)")
     if "=" in title:

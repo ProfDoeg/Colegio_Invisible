@@ -20,7 +20,7 @@ the protocol-level definition of `0x00` is just "UTF-8 in, UTF-8 out."
 offset  bytes        meaning
 0..3    c1 dd 00 01  magic + protocol version 0.1
 4       00           type byte = text
-5       <tone>       00 ordinary, 01 affection, 0d demonic, ff reverence
+5       <tone>       tone byte — see tone.md for the canonical vocabulary
 6..     | header tail |    pipe-delimited title + optional key=value fields
 ```
 
@@ -75,31 +75,15 @@ they're just "one field, no key=value pairs."
 
 ### Tone vocabulary
 
-| `<tone>` | name | when to use |
-|---|---|---|
-| `0x00` | ordinary  | the default; descriptive, academic, neutral, or literary content about the living |
-| `0x01` | affection | paired / intimate / addressed to a specific other |
-| `0x0d` | demonic   | content that documents harm: dictators, atrocity archives, founding instruments of state terror, surveillance instruments |
-| `0xff` | reverence | the dead, ancestors, formal commemoration |
+The tone byte is transverse across all quipu types — its full value
+table, semantics, and history live in [tone.md](tone.md). Text quipus
+accept the same four canonical values that every other type does.
 
-`0xff` is *strict*: only for content that refers to the dead. Inscriptions
-about the future, generational change, or imagined coming things use `0x00`,
-not `0xff`. (Two Bowie "Oh! You Pretty Things" inscriptions on chain used
-`0xff` and that's now a documented mis-tagging that stands — they should
-have been `0x00`.)
-
-`0x01` was first observed on the paired pair_HA / pair_CA inscriptions Mi
-Caballo and Mi Perrito — short Spanish poems addressed to a beloved.
-
-`0x0d` flags the artifact, not the inscriber: use it when the inscribed
-content is itself an instrument or record of harm.
-
-Any other tone byte is rejected by the canonical builder. A reader will
-still parse a quipu with an unknown tone (the byte is passed through
-unchanged) so future tone values won't break existing readers.
-
-Empty title is permitted: the header is just 6 bytes
-(`c1dd0001 00 <tone>`), with no pipes.
+The bare `|TITLE|` form (no key=value fields) plus an empty title is
+permitted: the header is just 6 bytes (`c1dd0001 00 <tone>`), with no
+pipes. The two Bowie "Oh! You Pretty Things" text inscriptions on
+chain that carry tone `0xff` are documented in tone.md as
+mis-tagged-but-preserved precedents.
 
 ### Body — arbitrary UTF-8
 
