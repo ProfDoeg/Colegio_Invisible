@@ -370,6 +370,80 @@ def find_body_offset(blob: bytes) -> int:
     return hdr_end
 
 
+_BINDING_BLOCK_RE = re.compile(r"```binding\s*\n(.*?)\n```\s*", re.DOTALL)
+_BINDING_IMPORT_RE = re.compile(r"<<\s*([0-9a-fA-F]{64})\s*>>")
+_BINDING_SUBST_RE  = re.compile(r'^"((?:[^"\\]|\\.)*)"="((?:[^"\\]|\\.)*)"$')
+_BARE_CITATION_RE = re.compile(r"<<\s*([0-9a-fA-F]{64})\s*>>")
+
+def _try_transclude_thin_republish(body_md, df_all, depth=0):
+    """If body is the "thin republish via binding" pattern — fenced
+    ```binding``` block(s) importing 0xab bindings + a single bare
+    <<essay_txid>> citation, nothing else — fetch the target essay,
+    apply the imported bindings' substitution rules to its body, and
+    return that substituted body to be rendered in place. Otherwise
+    return None.
+
+    Recursion depth is bounded so chained republishes terminate."""
+    if depth > 4:
+        return None
+
+    # Pull out fenced binding blocks
+    binding_txids = []
+    stripped = body_md
+    for m in _BINDING_BLOCK_RE.finditer(body_md):
+        block = m.group(1)
+        for im in _BINDING_IMPORT_RE.finditer(block):
+            binding_txids.append(im.group(1).lower())
+    stripped = _BINDING_BLOCK_RE.sub("", stripped).strip()
+
+    if not binding_txids:
+        return None  # no binding to apply; not a thin republish
+
+    # The remaining body must be exactly one bare <<txid>> citation
+    cites = _BARE_CITATION_RE.findall(stripped)
+    non_citation = _BARE_CITATION_RE.sub("", stripped).strip()
+    if len(cites) != 1 or non_citation:
+        return None  # mixed content; not a clean republish
+
+    target_txid = cites[0].lower()
+
+    # Target must be an essay (type 0x01)
+    target_row = df_all[df_all["root_txid"].astype(str).str.lower() == target_txid]
+    if target_row.empty:
+        return None
+    if target_row.iloc[0]["type_name"] != "essay":
+        return None
+
+    target_blob = load_body(target_row.iloc[0]["root_txid"])
+    if target_blob is None:
+        return None
+
+    target_body = target_blob[find_body_offset(target_blob):].decode("utf-8", errors="replace")
+
+    # Apply each imported binding's substitution rules to the target body
+    for btxid in binding_txids:
+        bpath = os.path.join(REPO, "data", "bodies", f"{btxid}.bin")
+        if not os.path.exists(bpath):
+            continue
+        bblob = open(bpath, "rb").read()
+        if len(bblob) < 6 or bblob[4] != 0xab:
+            continue
+        bbody = bblob[6:].decode("utf-8", errors="replace")
+        for line in bbody.splitlines():
+            line = line.strip()
+            m = _BINDING_SUBST_RE.match(line)
+            if not m:
+                continue
+            find, replace = m.group(1), m.group(2)
+            target_body = target_body.replace(find, replace)
+
+    # The target body may itself be a thin republish — recurse
+    nested = _try_transclude_thin_republish(target_body, df_all, depth=depth+1)
+    if nested is not None:
+        return nested
+    return target_body
+
+
 def render_essay_html(blob: bytes, df_all: pd.DataFrame) -> str:
     """Run the canonical 0x01 essay substitution pipeline and render to HTML.
 
@@ -377,9 +451,21 @@ def render_essay_html(blob: bytes, df_all: pd.DataFrame) -> str:
     citations → emit plain markdown → convert to HTML. quipu:<txid> URLs
     inside the resolved markdown are rewritten to onclick handlers so they
     navigate to the target quipu in the viewer.
+
+    If the body is a "thin republish via binding" (fenced binding-block
+    imports + single citation to another essay, nothing else), transclude
+    the target essay's body with the binding's substitutions applied,
+    then render that. Implements the user-facing semantic that v2 of an
+    essay should display as v1's full prose with corrections applied,
+    not as a link to v1.
     """
     body_offset = find_body_offset(blob)
     body_md = blob[body_offset:].decode("utf-8", errors="replace")
+
+    # Detect + apply thin-republish transclusion
+    transcluded = _try_transclude_thin_republish(body_md, df_all)
+    if transcluded is not None:
+        body_md = transcluded
 
     # Build fetcher + title_lookup from the local corpus
     title_map = {
