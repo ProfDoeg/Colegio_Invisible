@@ -17,3 +17,41 @@ secrets/
 
 # macOS
 .DS_Store
+
+# Python / build caches
+__pycache__/
+*.pyc
+
+# Local agent + editor config
+.claude/
+
+# LaTeX build artifacts
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.toc
+
+# Inscription key / session material — never commit
+inscriptions_ready/*.bin
+
+# Dancer / avatari — generated media + frame caches (regenerate from source movies)
+working/avatari/_frames_*/
+working/avatari/_allframes/
+working/avatari/_centroids_*.json
+working/avatari/_packed_*.mp4
+working/avatari/live/atlas_*.png
+working/avatari/live/*.mp4
+working/avatari/live/*.webm
+working/avatari/live/player.html
+working/avatari/live/index.html
+working/avatari/live/*.json
+working/avatari/caity_atlas.png
+working/avatari/caity_poseboard.png
+working/avatari/caity_demo.html
+working/avatari/caity_offline*
+
+# Dancer (cavin) generated output
+working/dancer/cavin/
+working/dancer/native/
