@@ -58,3 +58,10 @@ working/dancer/native/
 
 # colegio_pipeline LaTeX render cache
 data/latex_cache/
+
+# Book/volume LaTeX render artifacts — regenerate from working/<vol>/build.py
+working/*/doc.log
+working/*/doc.pdf
+working/*/doc.tex
+working/*/book.tex
+working/*/figures/
