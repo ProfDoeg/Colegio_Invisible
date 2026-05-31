@@ -55,11 +55,12 @@ key:
 | field | example | meaning |
 |---|---|---|
 | `engine` | `pdflatex` / `xelatex` / `lualatex` | which LaTeX engine the inscriber compiled with. Reader should prefer this; default is `pdflatex`. |
+| `caption` | `The diamond. A root tx fans out…` | when this latex quipu is an **art plate** in a book, its descriptive caption — the line printed under "Plate N". The description rides with the art, on chain. (Falls back to the header title, then the book's manifest entry name.) |
 
-Example header:
+Example header (an art plate carrying its own description):
 
 ```
-c1dd 0001 5c a1 |Composition 0|author=El Gólem|date=2026-05-23|lang=es|engine=pdflatex|
+c1dd 0001 5c a1 |The Diamond|author=El Gólem|caption=The diamond. A root transaction fans out into parallel strands, rejoined by one closing tx.|engine=pdflatex|
 ```
 
 ### Body
@@ -229,9 +230,40 @@ self-documenting.
 
 ---
 
+## Not to be confused with the `colegio` document class
+
+This spec is about the **`0x5c` latex inscription type** — a quipu whose
+body *is* a `.tex` file, carried on chain. That is distinct from
+**`colegio.cls`**, the off-chain LaTeX *document class* used to typeset
+the prose of `0x01` essays and `0x09` books into Tufte-style PDFs. The
+class is a renderer; this type is content. See
+[`docs/guides/colegio-class.md`](../guides/colegio-class.md) for the
+class. (A `0x5c` body could, in principle, `\documentclass{colegio}`,
+but the two are orthogonal.)
+
+### The `class=` / `role=class` convention (colegio pipeline)
+
+`colegio_pipeline.py` composes the two cleanly. A `0x5c` body that uses a
+non-standard document class declares its dependency by **field**, and the
+class is itself a `0x5c` quipu:
+
+- A **class quipu** carries the `.cls` source as its body with header
+  fields `role=class` and `name=<file>.cls` (e.g. `name=colegio.cls`).
+- A **document quipu** that needs it carries `class=<class_txid>`. A
+  reader fetches that quipu, writes `<name>.cls` next to the document, and
+  compiles. The class is delivered by chain, not assumed on disk.
+- Figures the document embeds are listed in a `%%QFIG <txid>` comment
+  manifest in the `.tex` body; the reader decodes each image/celestial
+  quipu before compiling.
+
+This makes a typeset document fully reproducible from chain: document
+`0x5c` + its `class=` quipu + its figure quipus, nothing off-chain but the
+LaTeX engine.
+
 ## Cross-references
 
 - [`docs/quipu-types/tone.md`](./tone.md) — tone vocabulary
 - [`docs/quipu-types/text.md`](./text.md) — header grammar inherited by this type
 - [`docs/quipu-types/essay.md`](./essay.md) — the markdown counterpart
+- [`docs/guides/colegio-class.md`](../guides/colegio-class.md) — the `colegio` rendering class (not this type)
 - [`canonical/latex.py`](../../canonical/latex.py) — implementation

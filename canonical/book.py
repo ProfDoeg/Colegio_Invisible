@@ -44,7 +44,23 @@ _TXID_HEX_RE   = re.compile(r"^[0-9a-fA-F]{64}$")
 # ---------------------------------------------------------------------------
 
 def _coerce_txid(ref):
-    """Accept either raw 32 bytes or a 64-char hex string; return raw bytes."""
+    """Accept either raw 32 bytes or a 64-char hex string; return raw bytes.
+
+    Two special cases allow pipeline-emitted manifest entries (e.g. the
+    `tag: index` Reference Index) to carry no real inscription target:
+
+      * ``None`` → 32 zero bytes
+      * ``""``   → 32 zero bytes
+
+    The pipeline's ``_partition_entries`` recognises these tags and
+    generates the entry's content rather than fetching the ref_txid; for
+    those entries the txid is structural padding only. The all-zero txid
+    is unambiguous as a sentinel (no real inscription will ever produce
+    it), and any reader that mistakenly tries to fetch it will correctly
+    get "no such inscription" rather than silently reading the wrong one.
+    """
+    if ref is None or ref == "":
+        return b"\x00" * 32
     if isinstance(ref, (bytes, bytearray)):
         if len(ref) != 32:
             raise ValueError(

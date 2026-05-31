@@ -151,6 +151,7 @@ requires no protocol change — just documentation.
 | `identity`             | multiple    | identity quipu references (author, editor, illustrator) |
 | `cert`                 | multiple    | signature certs attached to the book |
 | `errata`               | multiple    | post-publication corrections inscribed later |
+| `render/latex`         | multiple    | a typeset edition: `0x5c` latex document quipu rendering the book |
 
 **Ordering by tag suffix.** Tags of the form `prefix/NN` are sorted
 numerically by `NN` when iterated as a group. Readers iterating
@@ -160,6 +161,114 @@ external manifest.
 **Cardinality is convention, not constraint.** A book may technically
 have two `prologo` entries; readers in conventional mode pick the
 first or surface a warning, but the bytes are valid.
+
+---
+
+## Entry `name` — the display title for a slot
+
+Each entry carries a free-form `name`. For prose entries (`essay/NN`,
+`chapter/NN`, `forward`, …) the `name` is the **displayed title of that slot**
+— the chapter/section label a renderer prints — and it **takes precedence over
+the referenced document's own header title** for display purposes. This lets an
+editor title or retitle an entry *in the context of this book* (e.g. listing an
+essay whose header title is "El hebreo del joven Goethe" under the slot name
+"El yiddish del joven Goethe") without re-inscribing the essay.
+
+Precedence for the slot label:
+
+1. the book entry's `name`, if non-empty;
+2. otherwise the referenced document's header title.
+
+This is **display only**. The referenced document's canonical title is still
+its own header title, and that is what the body's title shim matches against —
+a renderer absorbs the entry's body `# H1` when it matches the *referenced
+essay's header title*, not the manifest `name` (see
+[`essay.md` → Document structure](essay.md) and `canonical/structure.py`). A
+deliberate `name`-vs-header mismatch is an editorial choice; an accidental one
+is drift the toolchain should surface, so default a new book's entry `name` to
+the referenced header title unless you mean to override it.
+
+The body's headings nest *beneath* the slot: an essay rendered as a `chapter/NN`
+slot has its `##` headings rendered as `\section` (numbered `N.1`, `N.2`, …),
+exactly as the shared level rule prescribes.
+
+---
+
+## Structure — zones, parts, and volumes
+
+Entries fall into three **zones** by their tag, and a renderer never reorders
+them, so manifest order is reading order. Each entry's zone is a pure function
+of its tag prefix (local, deterministic):
+
+| zone   | tags                                                                            | rendered as                                  |
+|--------|---------------------------------------------------------------------------------|----------------------------------------------|
+| front  | `foreword`/`forward`, `preface`, `prologue`/`prologo`, `introduction`, `dedication`, `acknowledgments`, `author_note`, `publisher_note` | unnumbered sections, before the chapters (roman pages) |
+| body   | `chapter/NN`, `essay/NN` (numbered); `part/NN` (divider); `subbook`/`volume/NN` (nested book) | the numbered run                             |
+| plates | `art/NN` (a `0x5c` plate)                                                        | a gallery (numbered "Plate N") gathered at the end — after the text, before the References |
+| back   | `afterword`, `appendix`, `glossary`, `notes`, `index`, `errata`, `credits`      | unnumbered sections + auto References + colophon |
+
+- **`art/NN`** plates are NOT placed inline where listed; they are collected and
+  rendered as a **plate gallery at the very end** — after all front/body/back
+  text, immediately before the auto-generated References. (A nested volume
+  gathers its own plates at its own end, the same way.)
+- **`part/NN`** lays down a *Part* divider (Part I, Part II, …) grouping the
+  chapters that follow. Chapters continue numbering across parts.
+- A **`subbook` / `volume/NN`** entry points at *another* `0x09` book, rendered
+  as a complete bound **Volume**: its own frontispiece (with its own epigraph),
+  its chapters **and plates** renumbered from one, and its own References +
+  colophon — then the outer book resumes its counts. A library is a book whose
+  chapters are books (see [Recursion](#recursion--the-library-is-a-book)).
+- The cover (`cover`) and the combined title page come first; References and the
+  colophon are appended automatically in back matter.
+
+## Title-page epigraph (`epigraph=` header field)
+
+A book MAY carry one epigraph quote on its title page, set in **small caps**
+(Tufte). It lives in the book's header as an `epigraph=` field:
+
+```
+epigraph=I have always imagined that Paradise will be a kind of library. — Jorge Luis Borges
+```
+
+It applies to that book's own title page — and because a nested book is a Volume
+with its own frontispiece, each volume can carry its own epigraph. (Header
+values may not contain `|` or `=`.)
+
+---
+
+## Optional typeset editions (`render/latex`)
+
+A book's content is renderer-agnostic — markdown essays, image quipus,
+celestial quipus. A book MAY additionally publish an *intended
+typesetting* by carrying one or more entries tagged `render/latex`, each
+pointing at a `0x5c` latex document quipu (see
+[`latex.md`](./latex.md)). That document is the typeset edition — the
+rendered `.tex` of the book — and carries `class=<txid>` referencing the
+document-class quipu it compiles against, plus a `%%QFIG` manifest of the
+figure quipus it embeds.
+
+This keeps presentation out of content: the essays stay markdown, and the
+typeset edition is a *separate, optional* inscription the book merely
+references. A content reader ignores `render/*` entries; a reader that
+wants the exact typeset book follows the entry, fetches the `0x5c`
+document + its `class=` quipu + its figure quipus, and compiles — needing
+only a LaTeX engine, no rendering pipeline.
+
+Because every byte of a typeset edition is *derived* from content already
+in the book, it is strictly optional and redundant — its value is
+durability: it freezes one canonical typesetting that reproduces without
+the (off-chain) rendering software, and survives later changes to that
+software. The reference pipeline
+([`colegio_pipeline.py`](../../colegio_pipeline.py)) builds one with
+`build_typeset_edition(book_txid)` and resolves it with
+`render_book(book_txid)` (falling back to regenerating the `.tex` from
+content when no `render/latex` entry is present).
+
+Publication order, when including a typeset edition:
+
+1. inscribe the document-class quipu once (reused across books);
+2. inscribe the rendered `.tex` as a `0x5c` doc quipu (`class=<class_txid>`);
+3. build the `0x09` book manifest including a `render/latex` entry → that doc.
 
 ---
 

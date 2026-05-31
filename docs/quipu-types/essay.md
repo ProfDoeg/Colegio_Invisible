@@ -57,6 +57,63 @@ authoritative header spec. Essays inherit it verbatim.
 Everything else is normal CommonMark — headings, emphasis, lists,
 tables, blockquotes, code blocks, footnotes, raw HTML.
 
+A **fenced code block** (` ``` `, optionally with a language tag like
+` ```python `) becomes a verbatim code box: the colegio `quipucode`
+environment, set monospace on a lightly-shaded ground, with the fence's
+language printed as a small label above it. The contents are emitted
+RAW — never citation-substituted, never LaTeX-escaped — so backslashes,
+braces, `%`, and indentation survive exactly. This is how a book shows
+the literal multiline source of markdown, LaTeX, glTF, or Python. (The
+`binding` language is the one exception: those fences are extracted and
+evaluated, not printed.)
+
+---
+
+## Document structure — title & headings
+
+The **title is metadata**: it lives in the protocol header (`|Title|…|`),
+never in the body. The body (cuerpo) is pure content. This rule is the same
+for every renderer (LaTeX today, HTML next) and is implemented once, in
+`canonical/structure.py`, so they agree.
+
+Heading levels are **absolute to the document tree**:
+
+```
+level 1  ( #    )  →  the TITLE slot      (metadata-owned; not body content)
+level 2  ( ##   )  →  first section
+level 3  ( ###  )  →  subsection
+level 4  ( #### )  →  sub-subsection
+```
+
+So a body's top *structural* heading is `##`. **Authors should not restate
+the title in the body.** A body may still open with `# Title` so the cuerpo
+reads as a normal Markdown document in a plain viewer — but **a renderer
+always discards that line and shows the canonical header title in its place**
+(the "lenient title shim"). The shim absorbs the leading `#` only when it
+*matches* the header title (whitespace / case / diacritic-insensitive),
+matched on the **raw** body *before* any `<<citation>>` / substitution pass —
+so a content rewrite (e.g. a `"hebreo"="yiddish"` rule) can't desync the H1
+from the metadata. A leading `#` that does **not** match the header title is
+left in place (rendered as a section) and reported as drift for the toolchain
+to warn on. The header title always wins for display.
+
+A renderer maps the absolute level to its own construct
+(`structure.structural_role(level) → (role, depth)`):
+
+| level | role      | LaTeX (essay) | LaTeX (book chapter) | HTML  |
+|-------|-----------|---------------|----------------------|-------|
+| 1     | title     | `\maketitle`  | `\chapter`           | `<h1>`|
+| 2     | section 0 | `\section`    | `\section`           | `<h2>`|
+| 3     | section 1 | `\subsection` | `\subsection`        | `<h3>`|
+| 4     | section 2 | `\subsubsection` | `\subsubsection`  | `<h4>`|
+
+Because the rule is shared, an essay's `##` headings land at the same
+structural depth whether it is rendered standalone or as a chapter inside a
+book — and neither double-prints its title. (When the essay is an entry in a
+`0x09` book, the book manifest's `name` may override the *displayed* chapter
+label; the body's own title H1 is still matched against this essay's header
+title for the shim. See `book.md`.)
+
 ---
 
 ## Citation forms
@@ -99,10 +156,11 @@ form is more compact. Both produce identical post-substitution markdown.
 ![the bordado at La Verna](<<2b01e2094c52bf99…>>)
 ```
 
-The URL is substituted (`quipu:2b01e2094c52bf99…`). The downstream
-renderer or viewer handles fetching the actual image and rendering it
-inline. Standard markdown image syntax — readers without quipu-protocol
-awareness still get a clickable image link.
+The URL is substituted (`quipu:2b01e2094c52bf99…`). Standard markdown image
+syntax — readers without quipu-protocol awareness still get a clickable image
+link. The `![]` form means **show**: a quipu-aware renderer displays the image
+here, placed by its shape (a bare `<<txid>>`, by contrast, only *cites*). See
+[Referencing & display](#referencing--display).
 
 ### Sub-object references
 
@@ -122,6 +180,76 @@ The cert at [CertificateAuthority](quipu:6da7a9a9…#CertificateAuthority) grant
 ```
 
 A `title="..."` attribute on either segment overrides the anchor text.
+
+---
+
+## Referencing & display
+
+A reference is either **cited** (a pointer) or **shown** (the content appears in
+place). Which one is decided **locally** — only from the token you wrote, never
+from anything elsewhere in the document. That keeps the render a pure function
+of the bytes, lets a live MD↔PDF editor preview it, and keeps the converter
+lean (no document-wide bookkeeping). Both renderers (LaTeX now, HTML next) obey
+the same rule.
+
+**Syntax declares intent:**
+
+- `<<txid>>` / `[your words](<<txid>>)` → **cite**: a link to `quipu:<txid>`
+  (+ the References list). Never shows content.
+- `![caption](<<txid>>)` → **show**: the content appears right there.
+- `render="margin|full|inline|thumb|embed"` is an explicit override on either
+  form. Optional attributes: `caption="…"`, `width="NNmm"`, `title="…"`.
+
+### Shape-aware image placement
+
+A **shown image**'s default placement comes from one local rule — its own
+aspect ratio (the header records W×H):
+
+- **landscape** (W/H ≥ 1.2) → a **full-column** figure in the body;
+- **portrait / square** → a **margin** figure;
+- **celestial** (`0xce`) → full (charts want the width).
+
+So a wide manuscript scan reads at column width and a portrait sits in the
+margin, with no per-reference fiddling. `render=` overrides when you need it.
+
+### Treatment × type
+
+| `render=`      | image / celestial               | text / essay                        |
+|----------------|---------------------------------|-------------------------------------|
+| *(cite)*       | `<<…>>` → link (+ References)    | `<<…>>` → link (+ References)        |
+| *(show)*       | `![…]` → figure, placed by shape | `![…]` → the prose, embedded in place |
+| `margin`       | margin figure                   | "see also" margin card (title→`quipu:` + excerpt) |
+| `full`         | full-column figure              | → cite                              |
+| `inline`       | image in the text flow          | → cite                              |
+| `thumb`        | tiny raised thumbnail           | → cite                              |
+| `embed`        | (≈ inline)                      | transclude the target's prose       |
+
+**Figures are unnumbered and in context** (Tufte): the image sits beside the
+prose that summons it, so there is no "Figure N" and no cross-referencing. Every
+shown image carries a small `quipu:<txid>` credit (figures on a caption line,
+in-flow images via a superscript). Curated full-page art is a **plate** (a
+`0x5c` document, numbered "Plate N", its description in the plate's own header —
+see `latex.md` / `book.md`).
+
+### Quotations
+
+A blockquote whose last line is an attribution beginning with an em dash is a
+cited quotation; the work may be a quipu or plain text:
+
+```markdown
+> The chain remembers what the library forgets.
+> — El Ermitaño, <<GoetheEssay>>, 2026
+```
+
+The author is set in small caps, the work in italic; a `<<quipu>>` in the line
+becomes a `quipu:` link. The attribution is free-form `Author, *Work*, Year`.
+
+> Implementation: the LaTeX dispatch is `resolve_reference` in
+> `colegio_pipeline.py` over `colegio.cls` macros (`\imagequipu`,
+> `\imagequipuwide`, `\imagequipuinline`, `\imagequiputhumb`, `\marginsee`,
+> `\quipusup`, `\quoteby`). The forthcoming HTML pipeline implements the same
+> rule. *Syntax = intent* + *shape-aware default* are the cross-renderer
+> contract.
 
 ---
 
