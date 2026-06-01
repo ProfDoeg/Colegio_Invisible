@@ -86,6 +86,14 @@ If strands stall in mempool, CPFP via the join is the canonical
 recovery move — a high-fee join lifts the entire `{strands + join}`
 package above the mining floor by package-fee policy.
 
+## Broadcasting one
+
+This spec is the *shape*. For the *operational* side — signing the
+diamond offline, broadcasting it keylessly, surviving dropped mempool
+entries and stalled RPCs, resuming a half-finished weave, and watching
+it land block by block — see the guide at
+[`../guides/broadcasting.md`](../guides/broadcasting.md).
+
 ## Historical note
 
 The diamond shape was settled before the canonical type formalization

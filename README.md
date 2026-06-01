@@ -44,6 +44,18 @@ because they share a history; treat them as separate projects.
   diamond pattern**: consolidation → root tx (1→N) → parallel strand
   fill → joining tx (N→1) → consolidated UTXO. Each quipu opens from
   one input and closes to one output.
+- `quipu_broadcast.py` — robust broadcast primitives for long, multi-
+  thousand-tx campaigns: chain-scoped `tx_status`, idempotent
+  `send_if_needed` (re-weaves dropped-mempool knots), backed-off
+  `send_with_retry`, binary-search `find_resume_index` (resume a dead
+  broadcast). **Keyless.**
+- `quipu_loom.py` — live weave + chain-stats view (`http://localhost:8799/`):
+  knots as circles per strand, colored by confirming block. Modes
+  `sim` / `rpc` / `progress`; watch-only by default.
+- **How to publish a big inscription** (sign offline → broadcast keyless →
+  supervise → watch): see the guide at
+  [`docs/guides/broadcasting.md`](docs/guides/broadcasting.md). This is the
+  end-to-end recipe used to put the Jeremy dancer (22,377 knots) on chain.
 - `quipu_console.py` — **Streamlit interface** for the toolkit. Four
   tabs: Plan (text/image authoring with live encoding preview),
   Inscribe (the three-phase build, with per-phase buttons and
