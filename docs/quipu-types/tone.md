@@ -4,7 +4,7 @@ The **tone byte** sits at offset 5 of every v1 Colegio Invisible quipu's
 header, immediately after the type byte. It carries semantic information
 about the inscribed content's emotional / classificatory register.
 
-Tone is **transverse across types**: the same five values apply to text,
+Tone is **transverse across types**: the same eleven values apply to text,
 essay, image, scene, book, cert, encrypted, celestial, binding,
 estandarte, and latex quipus. Per-type specs cross-reference this document
 for the tone vocabulary rather than restating it.
@@ -19,18 +19,33 @@ type module rather than redeclared.
 
 ```
    header offset 5  <tone>  uint8, one of:
-                              00 ordinary, 01 affection, 0d demonic,
-                              a1 ai,       ff reverence
+                              00 ordinary
+                              01 affection/care    02 seeking/wandering
+                              03 play/interaction  04 lust/wanting
+                              05 rage/anger        06 fear/dread
+                              07 grief/panic
+                              0d demonic   a1 ai   ff reverence
 ```
 
 ---
 
 ## Recognized values (v1)
 
+Tones `0x01`–`0x07` are **the affective family**: Jaak Panksepp's seven
+primal, subcortical emotional systems shared across all mammals — distinct
+neurological drives, not cognitive states. They mark the felt register the
+content carries. `0x0d`, `0xa1`, `0xff` are a separate, classificatory axis.
+
 | `<tone>` | name | when to use |
 |---|---|---|
 | `0x00` | ordinary  | the default; descriptive, academic, neutral, or literary content about the living |
-| `0x01` | affection | paired, intimate, addressed to a specific other |
+| `0x01` | affection/care | the nurturing, protective bond; paired, intimate, addressed to a specific other (Panksepp CARE) |
+| `0x02` | seeking/wandering | enthusiastic foraging, curiosity, anticipation, engagement with the world (SEEKING) |
+| `0x03` | play/interaction | rough-and-tumble social joy, games, teasing, the "laughter" register (PLAY) |
+| `0x04` | lust/wanting | the reproductive drive, desire, courtship (LUST) |
+| `0x05` | rage/anger | frustration when goals are blocked or movement is restrained; fury (RAGE) |
+| `0x06` | fear/dread | anxiety, the freeze-or-flee alarm, danger (FEAR) |
+| `0x07` | grief/panic | separation distress, the isolation call, loss and longing (PANIC/GRIEF) |
 | `0x0d` | demonic   | content that documents harm: dictators, founding instruments of state terror, surveillance documents |
 | `0xa1` | ai        | authored by, or fully attributable to, a non-human model; machine-composed content |
 | `0xff` | reverence | the dead, ancestors, formal commemoration |
@@ -41,12 +56,55 @@ The default. Use this for descriptive, neutral, academic, or literary
 content about the living. If you don't have a specific reason to pick
 another value, pick this one.
 
-### `0x01` affection
+### the affective family (`0x01`–`0x07`)
 
-Paired or intimate work — content addressed to a specific other, or
-that exists within a known affectionate relationship. First observed
-on the pair_HA / pair_CA inscriptions *Mi Caballo* and *Mi Perrito* —
-short Spanish poems addressed to a beloved.
+These seven are Panksepp's primal emotional systems. Pick the tone for the
+**drive the content carries**, not for a cognitive judgment about it. A
+single inscription gets one tone; if several apply, pick the dominant
+register. Names are kept lowercase, in `primary/secondary` form.
+
+### `0x01` affection/care
+
+The nurturing, protective bond — Panksepp's CARE system, folded together
+with the existing affection register. Use for paired or intimate work
+addressed to a specific other, parental tenderness, devotion, social
+bonding. First observed on the pair_HA / pair_CA inscriptions *Mi Caballo*
+and *Mi Perrito* — short Spanish poems addressed to a beloved.
+
+### `0x02` seeking/wandering
+
+Panksepp's SEEKING — the enthusiastic, exploratory drive to forage,
+investigate, and engage with the world. Use for content charged with
+curiosity, anticipation, questing, restless searching, the pull forward.
+
+### `0x03` play/interaction
+
+Panksepp's PLAY — rough-and-tumble social joy, the high-frequency
+"laughter" register. Use for playful, ludic, game-like, teasing content;
+delight taken in interaction itself.
+
+### `0x04` lust/wanting
+
+Panksepp's LUST — the reproductive drive and the courtship behaviors
+around it. Use for erotic, desiring, amorous content.
+
+### `0x05` rage/anger
+
+Panksepp's RAGE — the aggressive, frustration-based response triggered
+when a goal is blocked or movement is restrained. Use for furious,
+indignant, thwarted, confined content.
+
+### `0x06` fear/dread
+
+Panksepp's FEAR — the anxiety/avoidance alarm that prompts freeze-or-flee.
+Use for content of danger, dread, threat, apprehension.
+
+### `0x07` grief/panic
+
+Panksepp's PANIC/GRIEF — the separation-distress system, the isolation
+call. Use for content of loss, longing, mourning, the pain of being parted
+from one's own. Distinct from `0xff` reverence: grief is the acute felt
+distress of separation; reverence is the formal honoring of the dead.
 
 ### `0x0d` demonic
 
@@ -112,7 +170,7 @@ been `0x00`.)
 
 Every `build_*_quipu()` function in `canonical/` calls
 `tone.validate_tone(tone)` once at the top of its body. Unknown tone
-bytes raise `ValueError` with a message listing the four canonical
+bytes raise `ValueError` with a message listing all eleven canonical
 values. A type module never carries its own per-module tone validation.
 
 ```python
@@ -128,7 +186,7 @@ def build_text_quipu(title, body, tone=TONE_ORDINARY, ...):
 
 Readers (`read_*_quipu`, `parse_dims` in NB 60, etc.) use
 `tone.name(tone)` which returns the canonical lowercase name or
-`unknown_0xNN` for any byte outside the four canonical values.
+`unknown_0xNN` for any byte outside the eleven canonical values.
 Readers therefore parse forward-compatibly: a future tone byte added
 to a later version of the protocol still parses cleanly under v1
 readers as `unknown_0xNN`, without crashing.
@@ -163,3 +221,4 @@ picks up the new value automatically.
 | 2026-05-22 | 0x0d demonic added per-module across 11 canonical files (commit `ddc9167`) |
 | 2026-05-22 | tone byte centralized into `canonical/tone.py`; type modules import from it instead of redeclaring (this commit) |
 | 2026-05-23 | `0xa1` ai added during a conversation that produced *El Libro del Gólem*; designates inscriptions whose content is fully machine-composed |
+| 2026-06-01 | affective family `0x02`–`0x07` added — Panksepp's primal emotional systems (seeking, play, lust, rage, fear, grief); `0x01` affection renamed `affection/care` to fold in CARE. Tones `0x01`–`0x07` now form the seven-system family |

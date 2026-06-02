@@ -77,6 +77,8 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from tone import (validate_tone, TONE_ORDINARY, TONE_AFFECTION,   # noqa: F401
+                  TONE_SEEKING, TONE_PLAY, TONE_LUST, TONE_RAGE,
+                  TONE_FEAR, TONE_GRIEF,
                   TONE_DEMONIC, TONE_AI, TONE_REVERENCE)
 from image import pack_pixels, unpack_pixels
 

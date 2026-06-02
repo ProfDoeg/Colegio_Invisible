@@ -8,6 +8,28 @@ working/jeremy_stage/artifacts/ for the keyless broadcast + loom to use.
   .venv/bin/python working/jeremy_stage/sign_jeremy.py
 
 Nothing is spent by running this. Broadcasting the artifacts is a separate step.
+
+============================================================================
+DEPRECATED — ARCHIVE ONLY. DO NOT USE AS A TEMPLATE.
+----------------------------------------------------------------------------
+Kept verbatim as the exact record of how the Jeremy dancer was actually
+inscribed (join e1be6faa4eb5750cbd4d96f5328d0d007a7b6288162e3667f82f6dd565080439).
+
+This script distributed the body across strands by ROUND-ROBIN modulo stride
+(`knots[i::N]`, see the split below). That is byte-faithful but WRONG for
+reading: the canonical reader (read_quipu / fetch_quipu_bytes) reassembles
+strands CONTIGUOUSLY (strand0 ∥ strand1 ∥ … ∥ strandN-1), so a round-robin
+body comes back SCRAMBLED. Jeremy therefore can only be read with the special
+interleaving loader working/jeremy_stage/load_from_chain.py.
+
+The CORRECT scheme for any future dancer is CONTIGUOUS knot-aligned
+distribution via the canonical split_body() helper (e.g.
+working/cemetery/build_consolidated.py): chunk to 80-B knots first (one partial
+knot at the very end, no waste), then give each strand a contiguous run of
+knots — the last strand absorbing the remainder + the short final packet.
+That reads with the standard reader, no custom loader. See the inline note at
+the split. Logic below is UNCHANGED on purpose — this file is the archive.
+============================================================================
 """
 import os, sys, math, getpass
 
@@ -60,7 +82,19 @@ print("funding utxo %s = %.2f DOGE" % (utxo["output"], fund["amount"]))
 blob = open(BODY, "rb").read()
 knots = [blob[j:j+80] for j in range(0, len(blob), 80)]
 N = min(N_STRANDS, len(knots))
+# vvv THE BUG (kept as-is for the archive) vvv
+# Round-robin stride: strand i gets knots i, i+N, i+2N, …  This is byte-faithful
+# but the canonical reader concatenates strands contiguously, so it reads back
+# SCRAMBLED — only load_from_chain.py's interleaver recovers Jeremy.
 strand_payloads = [b"".join(knots[i::N]) for i in range(N)]
+# WHAT IT SHOULD BE — contiguous knot-aligned (reads with the standard reader):
+#     base, extra = len(knots) // N, len(knots) % N
+#     strand_payloads, k = [], 0
+#     for i in range(N):                       # first `extra` strands get +1 knot
+#         take = base + (1 if i < extra else 0)
+#         strand_payloads.append(b"".join(knots[k:k+take])); k += take
+#   (or just call the canonical split_body(blob, N) from build_consolidated.py)
+# ^^^ use the contiguous form for every future dancer ^^^
 # size root/join fees by bytes (root: N outputs; join: N inputs)
 root_fee = max(TIP_SAT, math.ceil((100 + 40 * N) / 1000 * FEE_KB))
 join_fee = max(TIP_SAT, math.ceil((100 + 160 * N) / 1000 * FEE_KB))

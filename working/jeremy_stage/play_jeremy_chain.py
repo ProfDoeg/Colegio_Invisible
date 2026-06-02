@@ -1,0 +1,176 @@
+#!/usr/bin/env python3
+"""Play the Jeremy dancer that was decoded FROM CHAIN.
+
+Reads data/bodies/<root>.dancer.json (written by load_from_chain.py — tight
+sprites + graph + controller, all reassembled from the on-chain bytes) and
+serves a self-contained Three.js player. Tight sprites are painted by anchor
+into a notional canvas (no 720-wide reconstitution); the motion graph is
+walked with the controller's default method (boltzmann chase toward the
+attractor), with keys to drive the attractor and switch methods.
+
+  .venv/bin/python working/jeremy_stage/play_jeremy_chain.py
+  → http://localhost:8791/jeremy.html
+"""
+import os, sys, http.server, socketserver
+
+REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+ART  = os.path.join(os.path.dirname(__file__), "artifacts")
+ROOT = open(os.path.join(ART, "root.txid")).read().strip()
+BODIES = os.path.join(REPO, "data", "bodies")
+PORT = int(os.environ.get("PORT", "8791"))
+DJSON = "%s.dancer.json" % ROOT
+
+HTML = r"""<!DOCTYPE html><html><head><meta charset="utf-8"><title>Jeremy — from chain</title>
+<style>
+ html,body{margin:0;height:100%;overflow:hidden;background:#05060a;font:13px/1.45 -apple-system,Helvetica,sans-serif;color:#cdd2df;cursor:grab}
+ body.drag{cursor:grabbing}
+ #hud{position:fixed;left:14px;top:12px;z-index:10;background:rgba(8,10,18,.74);padding:10px 13px;border-radius:8px;max-width:330px}
+ #hud b{color:#e8edf7} #hud .k{color:#8ad6a0}
+ #stat{position:fixed;right:14px;top:12px;z-index:10;background:rgba(8,10,18,.74);padding:8px 12px;border-radius:8px;font-variant-numeric:tabular-nums}
+ #load{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);font-size:15px;color:#8ad6a0}
+</style>
+<script src="https://unpkg.com/three@0.128.0/build/three.min.js"></script>
+</head><body>
+<div id="hud"><b>Jeremy · 0xda dancer · read from the Dogecoin chain</b><br>
+join <span class="k">e1be6faa…</span> · 22,377 knots<br>
+<span class="k">drag</span> look · <span class="k">WASD</span> fly · <span class="k">QE</span> up/down<br>
+<span class="k">&larr;&uarr;&darr;&rarr;</span> move attractor · <span class="k">M</span> method · <span class="k">1-N</span> control mode · <span class="k">0</span> all</div>
+<div id="stat"></div>
+<div id="load">decoding on-chain footage…</div>
+<script>
+const DJSON = "__DJSON__";
+function b64(s){const bin=atob(s);const u=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);return u;}
+fetch(DJSON).then(r=>r.json()).then(J=>{document.getElementById('load').remove(); start(J);});
+
+const METHODS=["uniform","boltzmann","quantum","quantum","quantum","quantum","keyboard"];
+
+function start(J){
+ const RW=J.nw, RH=J.nh, FPS=J.fps, PAL=J.palette, nF=J.frames.length, AR=RW/RH;
+ const PH=4.5, PW=PH*AR;
+ const FR=J.frames.map(f=>({x:f.x,y:f.y,w:f.w,h:f.h,cx:f.cx,facing:f.facing,mask:b64(f.mask),idx:b64(f.idx)}));
+ const CX=FR.map(f=>f.cx);
+
+ // ---- tight-sprite paint into the notional canvas ----
+ const cv=document.createElement('canvas'); cv.width=RW; cv.height=RH;
+ const ctx=cv.getContext('2d'); const img=ctx.createImageData(RW,RH);
+ function paint(fi){ const f=FR[fi], d=img.data; d.fill(0); let oi=0;
+   for(let r=0;r<f.h;r++) for(let c=0;c<f.w;c++){ if(f.mask[r*f.w+c]){ const col=PAL[f.idx[oi++]];
+     const p=((f.y+r)*RW+(f.x+c))*4; d[p]=col[0]; d[p+1]=col[1]; d[p+2]=col[2]; d[p+3]=255; } }
+   ctx.putImageData(img,0,0); tex.needsUpdate=true; }
+ const dcx=(f,m)=> m ? 1-CX[f] : CX[f];
+
+ // ---- motion graph (nodes carry footage-frame ord + Klein-four edges) ----
+ const nodes=J.graph.nodes;
+ const ordSet=new Set(nodes.map(n=>n.ord));
+ const ordToNode={}; nodes.forEach((n,i)=>ordToNode[n.ord]=i);
+ const ordsSorted=nodes.map(n=>n.ord).slice().sort((a,b)=>a-b);
+ function nextOrd(f){ for(const o of ordsSorted) if(o>f) return o; return ordsSorted[0]; }
+ function excursion(dstOrd,m){ let f=dstOrd,net=0,w=1; for(let i=0;i<6;i++){ const nn=nextOrd(f);
+   net+=w*(dcx(nn,m)-dcx(f,m)); f=nn; w*=0.5; } return net*PW; }
+
+ let method=J.default_method!=null?J.default_method:1;        // controller default (boltzmann)
+ let mode=0; const NMODE=J.nmode||0;                          // keyboard control mode (0 = all modes)
+ const BETA=2.0;
+ function eligible(es){ if(!mode) return es;                  // mode 0 = every edge eligible
+   const f=es.filter(e=>{const c=e.ctrl==null?255:e.ctrl; return c===mode||c===255;}); return f.length?f:es; }
+ function wpick(scored){ const tot=scored.reduce((a,c)=>a+c.s,0)||1; let r=Math.random()*tot,p=scored[scored.length-1];
+   for(const c of scored){ r-=c.s; if(r<=0){p=c;break;} } return p.e; }
+ function pickEdge(ni){
+   const es=eligible(nodes[ni].edges); if(!es.length) return null;
+   const isBoltz = METHODS[method]==="boltzmann" || METHODS[method]==="quantum";
+   if(isBoltz){ const bodyX=offX+(dcx(nodes[ni].ord,mirror)-0.5)*PW;
+     return wpick(es.map(e=>{ const nm=e.space===1?!mirror:mirror; const land=bodyX+excursion(nodes[e.dst].ord,nm);
+       return {e, s:Math.exp(-BETA*Math.abs(land-ballX))}; })); }
+   return wpick(es.map(e=>({e, s:1})));                       // uniform / keyboard fallback
+ }
+
+ // ---- walk state ----
+ let N = nodes[J.graph.start!=null?J.graph.start:0].ord, d=1, mirror=false, offX=0;
+ function stepFrame(){
+   const prevN=N, prevM=mirror;
+   N+=d; if(N<0){N=0;d=1;} else if(N>=nF){N=nF-1;d=-1;}
+   if(ordSet.has(N)){ const e=pickEdge(ordToNode[N]);
+     if(e){ const dstOrd=nodes[e.dst].ord, newM=e.space===1?!mirror:mirror;
+       if(Math.abs(dstOrd-prevN)>1||newM!==prevM) offX+=(dcx(prevN,prevM)-dcx(dstOrd,newM))*PW;
+       N=dstOrd; d=e.time===0?1:-1; mirror=newM; } }
+ }
+ function place(){ paint(N); dancer.scale.x=mirror?-1:1; grp.position.x=offX;
+   shadow.position.x=offX+(dcx(N,mirror)-0.5)*PW; }
+
+ // ---- 3D stage ----
+ const R=new THREE.WebGLRenderer({antialias:true}); R.setPixelRatio(devicePixelRatio);
+ R.setSize(innerWidth,innerHeight); R.outputEncoding=THREE.sRGBEncoding; document.body.appendChild(R.domElement);
+ const scene=new THREE.Scene(); scene.background=new THREE.Color(0x05060a); scene.fog=new THREE.Fog(0x05060a,24,64);
+ const cam=new THREE.PerspectiveCamera(55,innerWidth/innerHeight,0.1,300);
+ scene.add(new THREE.AmbientLight(0xb7c2dd,1.0));
+ const floor=new THREE.Mesh(new THREE.PlaneGeometry(48,18),new THREE.MeshStandardMaterial({color:0x14171f,roughness:.97}));
+ floor.rotation.x=-Math.PI/2; floor.position.z=-1; scene.add(floor);
+ const back=new THREE.Mesh(new THREE.PlaneGeometry(48,14),new THREE.MeshStandardMaterial({color:0x0c0e15,roughness:1}));
+ back.position.set(0,7,-6); scene.add(back);
+ const line=new THREE.Mesh(new THREE.PlaneGeometry(48,.03),new THREE.MeshBasicMaterial({color:0x2b3550}));
+ line.rotation.x=-Math.PI/2; line.position.y=.02; scene.add(line);
+ const tex=new THREE.CanvasTexture(cv); tex.minFilter=THREE.LinearFilter; tex.magFilter=THREE.NearestFilter; tex.generateMipmaps=false;
+ const dmat=new THREE.MeshBasicMaterial({map:tex,transparent:true,alphaTest:0.5,side:THREE.DoubleSide});
+ const dancer=new THREE.Mesh(new THREE.PlaneGeometry(PW,PH),dmat);
+ const grp=new THREE.Group(); grp.add(dancer); dancer.position.y=PH/2; scene.add(grp);
+ const shadow=new THREE.Mesh(new THREE.CircleGeometry(.5,24),new THREE.MeshBasicMaterial({color:0,transparent:true,opacity:.32}));
+ shadow.rotation.x=-Math.PI/2; shadow.position.y=.015; scene.add(shadow);
+ const att=new THREE.Mesh(new THREE.SphereGeometry(.18,20,20),new THREE.MeshBasicMaterial({color:0x9be0b0}));
+ const ring=new THREE.Mesh(new THREE.RingGeometry(.30,.36,30),new THREE.MeshBasicMaterial({color:0x9be0b0,transparent:true,opacity:.6,side:THREE.DoubleSide}));
+ ring.rotation.x=-Math.PI/2; scene.add(att); scene.add(ring);
+ let ballX=0, ballZ=0.6;
+
+ let yaw=0,pitch=-0.04; cam.position.set(0,2.6,15);
+ const keys={}; let drag=false,px=0,py=0;
+ R.domElement.addEventListener('mousedown',e=>{drag=true;px=e.clientX;py=e.clientY;document.body.classList.add('drag');});
+ addEventListener('mouseup',()=>{drag=false;document.body.classList.remove('drag');});
+ addEventListener('mousemove',e=>{if(!drag)return;yaw-=(e.clientX-px)*.003;pitch-=(e.clientY-py)*.003;pitch=Math.max(-1.3,Math.min(1.3,pitch));px=e.clientX;py=e.clientY;});
+ addEventListener('keydown',e=>{keys[e.code]=true; if(e.code.startsWith('Arrow'))e.preventDefault();
+   if(e.code==='KeyM'){ method=(method+1)%METHODS.length; }
+   if(/^Digit[0-9]$/.test(e.code)){ const n=+e.code.slice(5); if(n===0||n<=NMODE) mode=n; }});
+ addEventListener('keyup',e=>keys[e.code]=false);
+ function fly(dt){const sp=(keys['ShiftLeft']?14:6)*dt;
+   const f=new THREE.Vector3(-Math.sin(yaw),0,-Math.cos(yaw)), rt=new THREE.Vector3(Math.cos(yaw),0,-Math.sin(yaw));
+   if(keys['KeyW'])cam.position.addScaledVector(f,sp); if(keys['KeyS'])cam.position.addScaledVector(f,-sp);
+   if(keys['KeyD'])cam.position.addScaledVector(rt,sp); if(keys['KeyA'])cam.position.addScaledVector(rt,-sp);
+   if(keys['KeyE'])cam.position.y+=sp; if(keys['KeyQ'])cam.position.y-=sp; cam.position.y=Math.max(.6,cam.position.y);
+   cam.quaternion.setFromEuler(new THREE.Euler(pitch,yaw,0,'YXZ'));}
+
+ let prev=performance.now(), acc=0;
+ function loop(){ requestAnimationFrame(loop);
+   const now=performance.now(), dt=Math.min(.1,(now-prev)/1000); prev=now;
+   fly(dt);
+   const bsp=6*dt;
+   if(keys['ArrowLeft'])ballX-=bsp; if(keys['ArrowRight'])ballX+=bsp;
+   if(keys['ArrowUp'])ballZ-=bsp; if(keys['ArrowDown'])ballZ+=bsp;
+   ballX=Math.max(-9,Math.min(9,ballX)); ballZ=Math.max(-3,Math.min(3,ballZ));
+   att.position.set(ballX,.18,ballZ); ring.position.set(ballX,.02,ballZ);
+   acc+=dt; const ST=1/FPS; let guard=0; while(acc>=ST && guard++<8){ stepFrame(); acc-=ST; }
+   place(); R.render(scene,cam);
+   document.getElementById('stat').innerHTML=`frame ${N}/${nF} · ${d>0?'▶':'◀'}${mirror?' ⇄':''} · mode <b>${mode||'all'}</b>${NMODE?'/'+NMODE:''} · method <b>${METHODS[method]}</b> · ball ${ballX.toFixed(1)}`;
+ }
+ place(); loop();
+ addEventListener('resize',()=>{cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix();R.setSize(innerWidth,innerHeight);});
+}
+</script></body></html>
+"""
+
+
+def main():
+    djpath = os.path.join(BODIES, DJSON)
+    if not os.path.exists(djpath):
+        print("missing %s — run load_from_chain.py first" % djpath); sys.exit(1)
+    html = HTML.replace("__DJSON__", DJSON)
+    open(os.path.join(BODIES, "jeremy.html"), "w").write(html)
+    open(os.path.join(BODIES, "index.html"), "w").write(html)   # so server root serves the player
+    os.chdir(BODIES)
+    handler = http.server.SimpleHTTPRequestHandler
+    socketserver.TCPServer.allow_reuse_address = True
+    with socketserver.TCPServer(("", PORT), handler) as httpd:
+        print("Jeremy (from chain) — open  http://localhost:%d/jeremy.html" % PORT)
+        print("serving %s" % BODIES)
+        httpd.serve_forever()
+
+
+if __name__ == "__main__":
+    main()
