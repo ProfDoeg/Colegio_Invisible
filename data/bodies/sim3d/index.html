@@ -16,8 +16,8 @@ same field. footage-drift is the only motion; the field rotates + weights paths.
 <div id="stat"></div>
 <div id="load">loading footage…</div>
 <script>
-let P={R:4.0, band:1.5, SCALE:8.0, turn:2.2, circulate:0, N:5, space:3.0, dir:1, lead:0.42, mode:'force', repK:2.5, circK:2.2, fpar:3.0, anchor:1.5};
-let DATA,FR,NODES,PAL,nw,nh,fps,PH,PW, dancers=[], paused=false;
+let P={R:4.0, band:1.5, SCALE:8.0, turn:2.2, circulate:0, N:5, space:3.0, dir:1, lead:0.42, mode:'force', repK:2.5, circK:2.2, fpar:3.0, anchor:1.5, deadF:1.0};
+let DATA,FR,NODES,PAL,nw,nh,fps,PH,PW, dancers=[], paused=false, PLAYABLE=[];
 const modpi=a=>{a%=Math.PI;return a<0?a+Math.PI:a;};
 const dpi=(to,from)=>{let d=(to-from)%Math.PI;if(d>Math.PI/2)d-=Math.PI;if(d<-Math.PI/2)d+=Math.PI;return d;};
 function b64u8(s){const b=atob(s),u=new Uint8Array(b.length);for(let i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u;}
@@ -60,7 +60,7 @@ function paint(d){
 function reset(){
  for(const d of dancers) scene.remove(d.grp);
  dancers=[]; for(let i=0;i<P.N;i++){const a=Math.random()*6.283,r=9+Math.random()*2;const o=makeDancer();
-   dancers.push(Object.assign(o,{x:Math.cos(a)*r,y:Math.sin(a)*r,th:Math.random()*Math.PI,n:(Math.random()*NODES.length)|0,fc:0,sign:1}));}
+   dancers.push(Object.assign(o,{x:Math.cos(a)*r,y:Math.sin(a)*r,th:Math.random()*Math.PI,n:PLAYABLE[(Math.random()*PLAYABLE.length)|0],fc:0,sign:1}));}
 }
 
 // ---------- the field (ported from the 2D sim) ----------
@@ -80,9 +80,11 @@ function heading(d){
  return Math.atan2(P.R*Math.sin(phi+ahead)-d.y, P.R*Math.cos(phi+ahead)-d.x);
 }
 function pickEdge(d){
- const node=NODES[d.n]; if(!node.edges.length)return;
+ const node=NODES[d.n];
+ const edges=node.edges.filter(e=>!NODES[e.dst].skip);                  // never transition into a skipped (edge) clip
+ if(!edges.length){ d.n=PLAYABLE[(Math.random()*PLAYABLE.length)|0]; d.fc=0; return; }   // dead-end → jump to a random interior clip
  const need=d._need!=null?d._need:0.5, fts=Math.sign(d._ft||0)||1, fm=Math.min(1,Math.abs(d._ft||0)), STEER=2.0;
- const sc=node.edges.map(e=>{const m=NODES[e.dst];
+ const sc=edges.map(e=>{const m=NODES[e.dst];
    const net=FR[Math.min(FR.length-1,m.ord+m.len-1)].cx-FR[m.ord].cx;   // this clip's real footage direction (signed)
    const align=(net>=0?1:-1)*fts*fm;                                    // F‖: favour clips whose footage goes the force's way — opposing still possible
    const beh=need*m.travel+(1-need)*m.Epix/(1+6*m.travel);
@@ -92,19 +94,18 @@ function pickEdge(d){
 }
 function step(dt){
  for(const d of dancers){
-   let hx,hy,tgt,F,hv;
+   let hx,hy;
    if(P.mode==='force'){
-     F=fieldForce(d); const Fmag=Math.hypot(F.x,F.y);
-     const tangent=modpi(Math.atan2(d.y,d.x)+Math.PI/2), follow=Math.min(1,Fmag/P.anchor);
-     tgt=modpi(tangent+follow*dpi(modpi(Math.atan2(F.y,F.x)),tangent));
-   } else { hv=heading(d); tgt=modpi(hv); }
-   // DAMPED rotation: low-pass the turn rate so a torque that flip-flops ±90° at the
-   // mod-π perpendicular ambiguity averages to ~0 — she holds steady instead of buzzing.
-   d.w=(d.w||0)*0.82 + dpi(tgt,d.th)*0.18;
-   d.th=modpi(d.th+Math.max(-P.turn*dt,Math.min(P.turn*dt,d.w)));
-   hx=Math.cos(d.th); hy=Math.sin(d.th);
-   if(P.mode==='force'){ d._ft=F.x*hx+F.y*hy; d._need=Math.min(1,Math.abs(d._ft)/P.fpar); }
-   else { d._ft=(Math.cos(hv)*hx+Math.sin(hv)*hy)*1.5; d._need=P.circulate?1:(d._s>0.3?1:0); }
+     const F=fieldForce(d),Fmag=Math.hypot(F.x,F.y);
+     const tangent=modpi(Math.atan2(d.y,d.x)+Math.PI/2), follow=Math.min(1,Math.max(0,(Fmag-P.deadF)/P.anchor));   // DEADZONE: face the fire (follow=0, director→tangent) while forces are gentle; only cant toward the force once pushed past deadF, full radial by deadF+anchor (caps the excursion → no creep)
+     const tgt=modpi(tangent+follow*dpi(modpi(Math.atan2(F.y,F.x)),tangent));
+     d.th=(d.th+Math.max(-P.turn*dt,Math.min(P.turn*dt,dpi(tgt,d.th))))%(2*Math.PI);   // CONTINUOUS director — a real front side; wraps only at 2π (no plane flip). Steering math stays mod-π via dpi, so dynamics are unchanged.
+     hx=Math.cos(d.th);hy=Math.sin(d.th);d._ft=F.x*hx+F.y*hy;d._need=Math.min(1,Math.abs(d._ft)/P.fpar);  // F‖ tangent component drives the weights; F⊥ already turned the plane above
+   } else {
+     const hv=heading(d);
+     d.th=(d.th+Math.max(-P.turn*dt,Math.min(P.turn*dt,dpi(modpi(hv),d.th))))%(2*Math.PI);   // CONTINUOUS director (see above)
+     hx=Math.cos(d.th);hy=Math.sin(d.th);d._ft=(Math.cos(hv)*hx+Math.sin(hv)*hy)*1.5;d._need=P.circulate?1:(d._s>0.3?1:0);
+   }
    const node=NODES[d.n], ord=node.ord, len=node.len, gf0=ord+Math.min(len-1,d.fc);
    d.fc+=dt*fps; const gf1=ord+Math.min(len-1,d.fc), dcx=cxAt(gf1)-cxAt(gf0);
    const disp=dcx*P.SCALE;   // RAW footage — never reversed, never flipped; the field only steered via rotation + weights
@@ -133,6 +134,9 @@ fetch('jeremy3d.json?v='+Date.now()).then(r=>r.json()).then(j=>{
  DATA=j;FR=j.frames;NODES=j.nodes;PAL=j.palette;nw=j.nw;nh=j.nh;fps=j.fps;PH=2.8;PW=PH*nw/nh;
  const ords=NODES.map(n=>n.ord).slice().sort((a,b)=>a-b); const nextOf={}; ords.forEach((o,i)=>nextOf[o]=i+1<ords.length?ords[i+1]:FR.length);
  NODES.forEach(n=>n.len=Math.max(2,nextOf[n.ord]-n.ord));
+ const minOrd=ords[0], maxOrd=ords[ords.length-1];
+ NODES.forEach(n=>n.skip=(n.ord===minOrd||n.ord===maxOrd));   // never play the recording's first/last clip → its edge frames never show
+ PLAYABLE=NODES.map((n,i)=>i).filter(i=>!NODES[i].skip);
  makeRing(); reset(); document.getElementById('load').remove(); loop();
 });
 </script></body></html>
