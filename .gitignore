@@ -69,3 +69,12 @@ working/*/doc.pdf
 working/*/doc.tex
 working/*/book.tex
 working/*/figures/
+
+# Dancer field-sim & player data — heavy generated/source artifacts (19–28 MB each).
+# Regenerate from chain (load_from_chain.py) + the build_*.py scripts; the chain is the source of truth.
+data/bodies/*.dancer.json
+data/bodies/caity_play/*.dancer.json
+data/bodies/sim3d/jeremy3d.json
+working/jeremy_stage/*_perf.bin
+working/jeremy_stage/*.log
+working/jeremy_stage/artifacts/

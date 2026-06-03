@@ -135,7 +135,7 @@ ctrl = {"start": start, "mode0": D.CTRL_ALL, "default_method": 1,
         "bindings": [{"source": D.SRC_ATTRACTOR_X, "port": D.PORT_TARGET, "scale": 1.0},
                      {"source": D.SRC_KEY_BTN, "port": D.PORT_METHOD_SELECT, "scale": 1.0}]}
 
-h, b = D.build_performance("Caity", graph, [ctrl], tone=D.TONE_ORDINARY)
+h, b = D.build_performance("Caity", graph, [ctrl], tone=D.TONE_PLAY)
 blob = bytes(h) + bytes(b)
 open(os.path.join(HERE, "caity_perf.bin"), "wb").write(blob)
 knots = math.ceil(len(blob)/80)

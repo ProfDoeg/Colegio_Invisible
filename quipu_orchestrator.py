@@ -96,10 +96,13 @@ class Quipu:
 
     def build_root(self):
         """Build and sign the root tx. Does not broadcast.
-        Allocates utxo value across N strand outputs, with any remainder
-        added to the first (header) strand."""
+        Allocates the funding value across N strand outputs, with any remainder
+        added to the first (header) strand. `utxo` may be a single
+        {output,value} dict OR a list of them — multiple inputs are summed and
+        all signed with the one key (every input must pay to this address)."""
         n = len(self.strand_payloads)
-        funds = self.utxo["value"] - self.root_fee
+        utxos = self.utxo if isinstance(self.utxo, (list, tuple)) else [self.utxo]
+        funds = sum(u["value"] for u in utxos) - self.root_fee
         per = funds // n
         remainder = funds - per * n
         seeds = [per] * n
@@ -107,7 +110,7 @@ class Quipu:
         self.strand_seeds = seeds
 
         tx = self.doge.mktx(
-            [self.utxo],
+            list(utxos),
             [{"value": s, "address": self.addr} for s in seeds],
         )
         signed = self.doge.signall(tx, self.priv)

@@ -96,6 +96,7 @@ class Loom:
         self.root = "pending"; self.join = "pending"
         self.root_block = -1; self.join_block = -1
         self.blocks = []
+        self.h2b = {}   # height->block index; was only created in load_plan, so the progress driver (which skips load_plan when STRANDS/KNOTS already match) crashed in block_for_height every tick and the loom never painted
         self.phase = "idle"; self.height = START_H - 1
         self.t0 = None; self.lock = threading.Lock()
 
