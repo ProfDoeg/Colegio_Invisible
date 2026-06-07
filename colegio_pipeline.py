@@ -199,6 +199,11 @@ def target_to_png(txid, fetcher, figdir):
         return base + ".png"
 
     if t == 0xCE:
+        if len(blob) > 6 and blob[6] == 0x03:        # kind=genealogy → family-tree render
+            if REPO not in sys.path:
+                sys.path.insert(0, REPO)
+            import genealogy_to_tikz as _GT
+            return _GT.genealogy_to_png(txid, fetcher, figdir)
         h, b = _split_concat(blob)
         render_celestial_quipu(h, b, output_path=out)
         return base + ".png"
@@ -263,7 +268,7 @@ def _is_txid(s):
 #  Render directive: resolve a <<…>> reference to LaTeX
 # =====================================================================
 
-_SHOW_TREATMENTS = ("margin", "full", "inline", "thumb", "embed", "certificate")
+_SHOW_TREATMENTS = ("margin", "marginplate", "full", "inline", "thumb", "embed", "certificate")
 _FULL_ASPECT = 1.2   # image W/H at/above this → full-column figure; below → margin
 
 
@@ -321,6 +326,16 @@ def resolve_reference(name, attrs, ctx, *, alt="", from_image=False):
     if tbyte == 0xCC:
         return _render_cert_quipu(target, ctx, caption or anchor, attrs=attrs)
 
+    # ---- SHOW: genealogy (0xce kind=03) → NATIVE TikZ family graph --------
+    if tbyte == 0xCE:
+        try:
+            isgen = ctx.fetcher(target)[6] == 0x03
+        except Exception:
+            isgen = False
+        if isgen:
+            import family_graph as _FG
+            return _FG.family_graph_tikz(target, ctx.fetcher, caption or ctx.title_lookup(target) or "")
+
     # ---- SHOW: image / celestial / scene-view -----------------------------
     if tbyte in (0x03, 0xCE, 0x3D):
         png = target_to_png(target, ctx.fetcher, ctx.figdir)
@@ -339,6 +354,10 @@ def resolve_reference(name, attrs, ctx, *, alt="", from_image=False):
             return "\\imagequipuinline[%s]{%s}{%s}" % (width or "\\linewidth", png[:-4], target)
         if treatment == "thumb":
             return "\\imagequiputhumb[%s]{%s}{%s}" % (width or "12mm", png[:-4], target)
+        if treatment == "marginplate":
+            # absolute-positioned full-height margin art — no flow disturbance,
+            # with a clickable quipu: link beneath it
+            return "\\marginplate[%s]{figures/%s}" % (target, png)
         return _margin_figure_latex(png, target, cap)    # margin (default)
 
     # ---- SHOW: latex plate (0x5c) — small, in-flow ------------------------
@@ -351,9 +370,12 @@ def resolve_reference(name, attrs, ctx, *, alt="", from_image=False):
         base = _compile_latex_plate(target, ctx.figdir, ctx.fetcher)
         if not base:
             return _cite(target, anchor)
+        base_noext = base[:-4] if base.endswith(".pdf") else base
+        if explicit == "marginplate":
+            # a 0x5c art plate filling the outer margin, with a quipu: link
+            return "\\marginplate[%s]{figures/%s}" % (target, base_noext)
         cap = caption or _plate_caption(target, ctx.fetcher, "") \
             or ctx.title_lookup(target) or ""
-        base_noext = base[:-4] if base.endswith(".pdf") else base
         return "\\plateinline{%s}{%s}{%s}" % (base_noext, latex_escape(cap), target)
 
     # ---- SHOW requested on a type we can't display → cite -----------------
@@ -1140,6 +1162,9 @@ _REF_RE         = re.compile(r"<<\s*([^<>]+?)\s*>>")
 _SUBREF_RE      = re.compile(r"<<\s*([^<>]+?)\s*>><<\s*([^<>]+?)\s*>>")
 _STRONG_RE      = re.compile(r"\*\*([^*]+)\*\*|__([^_]+)__")
 _EM_RE          = re.compile(r"\*([^*]+)\*|(?<!\w)_([^_]+)_(?!\w)")
+# Mathematics: $$display$$ and $inline$ pass through RAW to LaTeX (not escaped).
+_MATH_DISP_RE   = re.compile(r"\$\$(.+?)\$\$", re.S)
+_MATH_INLINE_RE = re.compile(r"\$(?!\$)([^$]+?)\$")
 
 
 def _inner_ref(target):
@@ -1159,6 +1184,13 @@ def convert_inline(text, ctx, *, notes=None):
         ms = _ANN_SENTINEL_RE.match(text, pos)
         if ms:
             out.append(ms.group(0)); pos = ms.end(); continue   # expanded later
+        # mathematics — $$display$$ then $inline$, passed through raw (unescaped)
+        m = _MATH_DISP_RE.match(text, pos)
+        if m:
+            out.append("\\[%s\\]" % m.group(1)); pos = m.end(); continue
+        m = _MATH_INLINE_RE.match(text, pos)
+        if m:
+            out.append("$%s$" % m.group(1)); pos = m.end(); continue
         # inline code
         m = _INLINE_CODE_RE.match(text, pos)
         if m:
@@ -1240,7 +1272,7 @@ def convert_inline(text, ctx, *, notes=None):
             pos = m.end(); continue
         # literal char run up to the next special
         nxt = L
-        for ch in ("`", "!", "[", "<", "*", "_", "\x00"):
+        for ch in ("`", "!", "[", "<", "*", "_", "$", "\x00"):
             k = text.find(ch, pos + 1)
             if k != -1:
                 nxt = min(nxt, k)
@@ -1265,7 +1297,7 @@ TYPE_LABELS = {
     0x00: "text", 0x01: "essay", 0x03: "image", 0x07: "audio",
     0x09: "book", 0x0e: "encrypted", 0x1d: "identity", 0x3d: "scene",
     0x5c: "latex", 0xab: "binding", 0xcc: "cert", 0xce: "celestial",
-    0xee: "estandarte",
+    0xda: "dancer", 0xee: "estandarte",
 }
 
 
@@ -1314,6 +1346,7 @@ def _preamble(mode, meta):
         "%% generated by colegio_pipeline.py — do not edit by hand",
         "\\documentclass[%s,tone=%s]{colegio}" % (mode, meta["tone"]),
         "\\usepackage{booktabs}",
+        __import__("family_graph").PREAMBLE,     # tikz + family-graph styles (native render)
         "\\title{%s}" % latex_escape(meta["title"]),
     ]
     if meta.get("author"):
@@ -1673,6 +1706,126 @@ def _tag_zone(tag):
     return "body"
 
 
+# =====================================================================
+#  LaTeX-by-pointer: \quiputikz{<<txid>>} transclusion
+#
+#  A 0x5c body may carry \quiputikz{<<TXID>>} directives. Before compiling,
+#  the pipeline fetches the referenced quipu and inlines its DATA as native
+#  TikZ (draw commands only — the host supplies the tikzpicture + colours).
+#  The inscribed 0x5c keeps the POINTER; expansion is transient at render,
+#  and deterministic because the referenced bytes are immutable on chain.
+#  This makes a LaTeX plate a transcluding consumer of the reference graph
+#  like an essay — data lives once, the plate points at it.
+# =====================================================================
+
+_QTIKZ_RE = re.compile(
+    r"\\quiputikz(\[[^\]]*\])?\{\s*(?:<<)?\s*([0-9a-fA-F]{64})\s*(?:>>)?\s*\}")
+
+
+def earth_atlas_tikz_body(txid, fetcher, *, mode="route", lat_a=1.481, lat_b=-64.68,
+                          lng_c=12.5, lng_scale=0.413, x_half=2.6, dot=0.07, palette=None):
+    """Render an earth-kind 0xce atlas as a TikZ BODY (draw commands only, 1cm frame).
+    FIXED equirectangular projection so layers register:
+        y = lat_a*lat + lat_b           (locked to the latitude grid)
+        x = (lng - lng_c)*lng_scale
+    mode='route' → lat/lng gridlines + route legs (palette per group) + dots per leg.
+    mode='coast' → fill sea over the window, fill the closed land rings, stroke the
+    coast. Host must define kb/kp/kgold/kr/kg/ki/kw/ksea."""
+    import math
+    from collections import defaultdict
+    from canonical.celestial import read_celestial_quipu
+    h, b = split_blob(fetcher(txid))
+    parsed = read_celestial_quipu(h, b)
+    pts = parsed["points"]
+    lats = [p["lat"] for p in pts]; lngs = [p["lng"] for p in pts]
+    X = lambda v: (v - lng_c) * lng_scale
+    Y = lambda v: lat_a * v + lat_b
+    pal = palette or ["kb", "kp", "kgold", "kr", "kg"]
+
+    if mode == "coast":                       # land/sea base: trace closed rings, fill
+        adj = defaultdict(list)
+        for (i, j) in parsed.get("lines", []):
+            adj[i].append(j); adj[j].append(i)
+        seen, rings = set(), []
+        for s in range(len(pts)):
+            if s in seen or not adj[s]:
+                continue
+            ring, prev, cur = [s], None, s; seen.add(s)
+            while True:
+                nb = [n for n in adj[cur] if n != prev]
+                nxt = nb[0] if nb else None
+                if nxt is None or nxt == s or nxt in seen:
+                    break
+                ring.append(nxt); seen.add(nxt); prev, cur = cur, nxt
+            if len(ring) >= 3:
+                rings.append(ring)
+        L = ["\\fill[ksea] (%.2f,%.2f) rectangle (%.2f,%.2f);"
+             % (-x_half - 0.7, Y(36) - 1, x_half + 0.7, Y(52) + 1)]
+        for ring in rings:
+            path = " -- ".join("(%.3f,%.3f)" % (X(pts[i]["lng"]), Y(pts[i]["lat"])) for i in ring)
+            L.append("\\fill[kw] %s -- cycle;" % path)
+            L.append("\\draw[kgold,opacity=0.6,line width=0.35pt] %s -- cycle;" % path)
+        return "\n".join(L)
+
+    groups = parsed.get("groups") or []
+    latmin, latmax = min(lats), max(lats)
+    lngmin, lngmax = min(lngs), max(lngs)
+    pcol = {}                                  # point index -> leg colour
+    for gi, g in enumerate(groups[:len(pal)]):
+        for pidx in g.get("point_indices", []):
+            pcol[pidx] = pal[gi]
+    L = []
+    # latitude gridlines (labels are baked outside the clip, as in the original)
+    for la in range(5 * int(math.floor(latmin / 5)), 5 * int(math.ceil(latmax / 5)) + 1, 5):
+        y = Y(la)
+        L.append("\\draw[kgold,opacity=0.22,line width=0.2pt] (%.2f,%.2f) -- (%.2f,%.2f);"
+                 % (-x_half, y, x_half, y))
+    # longitude gridlines (every 2°)
+    for lng in range(int(math.ceil(lngmin)), int(math.floor(lngmax)) + 1, 2):
+        x = X(lng)
+        L.append("\\draw[kgold,opacity=0.16,line width=0.2pt] (%.2f,%.2f) -- (%.2f,%.2f);"
+                 % (x, Y(latmin) - 0.3, x, Y(latmax) + 0.3))
+    # route legs — palette per group; the 6th 'lacuna' group is skipped
+    for gi, g in enumerate(groups[:len(pal)]):
+        edges = g.get("lines") or []
+        if not edges:
+            continue
+        seq = [(X(lngs[i]), Y(lats[i])) for (i, _j) in edges]
+        seq.append((X(lngs[edges[-1][1]]), Y(lats[edges[-1][1]])))
+        L.append("\\draw[%s,line width=1.0pt,opacity=0.85] %s;"
+                 % (pal[gi], " -- ".join("(%.3f,%.3f)" % c for c in seq)))
+    # waypoint dots, coloured by leg
+    for idx, p in enumerate(pts):
+        L.append("\\fill[%s,opacity=0.9] (%.3f,%.3f) circle (%.3f);"
+                 % (pcol.get(idx, "ki"), X(p["lng"]), Y(p["lat"]), dot))
+    return "\n".join(L)
+
+
+def _quipu_to_tikz(txid, fetcher, opts=""):
+    """Dispatch a referenced quipu to a TikZ-body renderer by type/kind. `opts`
+    is the bracket content of \\quiputikz[...] (e.g. 'coast')."""
+    h, b = split_blob(fetcher(txid))
+    if type_of(h + b) == 0xCE:
+        from canonical.celestial import read_celestial_quipu
+        if read_celestial_quipu(h, b).get("kind") == "earth":
+            mode = "coast" if "coast" in (opts or "") else "route"
+            return earth_atlas_tikz_body(txid, fetcher, mode=mode)
+    raise ValueError("no \\quiputikz renderer for type 0x%02x" % type_of(h + b))
+
+
+def resolve_quiputikz(tex, fetcher):
+    """Expand every \\quiputikz[opts]{<<txid>>} in `tex` by inlining the referenced
+    quipu's TikZ body. Unresolvable refs become a LaTeX comment (never break the
+    build). The 0x5c body itself is unchanged on chain — this is render-time only."""
+    def repl(m):
+        txid = m.group(2)
+        try:
+            return _quipu_to_tikz(txid, fetcher, (m.group(1) or "")[1:-1])
+        except Exception as e:
+            return "%% quiputikz unresolved %s…: %s" % (txid[:12], e)
+    return _QTIKZ_RE.sub(repl, tex)
+
+
 def _compile_latex_plate(txid, figdir, fetcher):
     """Compile a 0x5c latex quipu (cover / art plate — a standalone document)
     to a PDF in figdir/. Returns the basename, or None on failure. The PDF is
@@ -1686,7 +1839,8 @@ def _compile_latex_plate(txid, figdir, fetcher):
     try:
         h, b = split_blob(fetcher(txid))
         parsed = read_latex_quipu(h, b)
-        pdf = compile_to_pdf(parsed["tex_source"], engine=parsed.get("engine", "pdflatex"))
+        tex = resolve_quiputikz(parsed["tex_source"], fetcher)   # LaTeX-by-pointer
+        pdf = compile_to_pdf(tex, engine=parsed.get("engine", "pdflatex"))
         with open(out, "wb") as f:
             f.write(pdf)
         return base
@@ -2116,7 +2270,7 @@ def render_latex_quipu(txid, build_dir, *, fetcher=None):
         raise ValueError(f"{txid[:12]} is not a 0x5c latex quipu")
     header, body = split_blob(blob)
     parsed = read_latex_quipu(header, body)
-    tex    = parsed["tex_source"]
+    tex    = resolve_quiputikz(parsed["tex_source"], fetcher)   # LaTeX-by-pointer
     engine = parsed.get("engine", "xelatex")
 
     # Class delivery — fetch + materialise the referenced class quipu.
