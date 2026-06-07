@@ -80,7 +80,8 @@ _VALID_TONES = VALID_TONES  # backward-compat alias
 SUB_AES   = 0xAE
 SUB_ECIES = 0xEC
 SUB_DROP  = 0x0D
-_VALID_SUBS = (SUB_AES, SUB_ECIES, SUB_DROP)
+SUB_CENTINELA = 0xCA   # canary: public lock descriptor (header) + AES-sealed claim secret (body)
+_VALID_SUBS = (SUB_AES, SUB_ECIES, SUB_DROP, SUB_CENTINELA)
 
 # Variant byte at offset 7
 KEY_RAW       = 0x00   # for SUB_AES: raw 32-byte key
@@ -224,6 +225,55 @@ def build_aes_quipu(inner_header, inner_body, key, *, title="", tone=TONE_ORDINA
     framed = _frame_inner(inner_header, inner_body)
     ciphertext = _ecies.sym_encrypt(key_bytes, framed)
     return header, ciphertext
+
+
+# centinela (sub-family 0xca) — a canary container: public lock descriptor in the
+# header (pipe fields), the claim secret AES-sealed in the body (same sealing as
+# 0xae). The descriptor lets anyone watch the bait outpoint + verify the lock; the
+# sealed body yields {preimage, claim key} only to whoever holds the AES key.
+_CENTINELA_FIELDS = ("mode", "outpoint", "p2sh", "redeem", "refund")
+
+
+def build_centinela_quipu(inner_header, inner_body, key, *, descriptor, title="",
+                          tone=TONE_ORDINARY):
+    """Build a 0e ca centinela. `descriptor` is a dict over _CENTINELA_FIELDS
+    (cleartext, public). `inner_header`/`inner_body` are the secret inner quipu
+    (e.g. a 0x00 text holding {P, D_priv}); it is AES-sealed exactly like 0xae.
+    `key` = 32-byte raw key or a passphrase string."""
+    key_bytes, variant = _aes_key_from(key)
+    header = _build_header_prefix(tone, SUB_CENTINELA, variant)
+    fields = []
+    if title:
+        if "|" in title:
+            raise ValueError("title cannot contain '|'")
+        fields.append(title)
+    for k in _CENTINELA_FIELDS:
+        if descriptor.get(k) is not None:
+            v = str(descriptor[k])
+            if "|" in v:
+                raise ValueError(f"descriptor field {k} cannot contain '|'")
+            fields.append(f"{k}={v}")
+    if fields:
+        header += b"|" + "|".join(fields).encode("utf-8") + b"|"
+    framed = _frame_inner(inner_header, inner_body)
+    return header, _ecies.sym_encrypt(key_bytes, framed)
+
+
+def parse_centinela_header(header_bytes):
+    """(title, descriptor_dict, variant) from a 0e ca header — public, no key."""
+    if header_bytes[4] != TYPE_ENCRYPTED or header_bytes[6] != SUB_CENTINELA:
+        raise ValueError("not a 0e ca centinela header")
+    variant = header_bytes[7]
+    title, desc = "", {}
+    rest = header_bytes[8:]
+    if rest[:1] == b"|":
+        for seg in rest.split(b"|")[1:-1]:
+            txt = seg.decode("utf-8", "replace")
+            if "=" in txt:
+                k, v = txt.split("=", 1); desc[k] = v
+            elif not title:
+                title = txt
+    return title, desc, variant
 
 
 def build_ecies_quipu(inner_header, inner_body, sender_privkey, recipient_pubkeys, *,
@@ -411,10 +461,13 @@ def read_encrypted_quipu(header_bytes, body_bytes, *,
 
     out = {
         "tone": tone, "sub_family": sub, "variant": var, "title": title,
-        "sub_name": {SUB_AES: "aes", SUB_ECIES: "ecies", SUB_DROP: "drop"}.get(sub, f"unknown_{sub:02x}"),
+        "sub_name": {SUB_AES: "aes", SUB_ECIES: "ecies", SUB_DROP: "drop",
+                     SUB_CENTINELA: "centinela"}.get(sub, f"unknown_{sub:02x}"),
     }
+    if sub == SUB_CENTINELA:
+        out["title"], out["descriptor"], _ = parse_centinela_header(header_bytes)
 
-    if sub == SUB_AES:
+    if sub in (SUB_AES, SUB_CENTINELA):
         if key is None:
             return out  # parse-only
         if var == KEY_PASSWORD:

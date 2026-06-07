@@ -49,6 +49,7 @@ offset  bytes        meaning
 6       <sub_family> ae AES wrapper
                      ec ECIES per-recipient wrapper
                      0d key drop (operation, not a wrapper)
+                     ca centinela (canary — public lock descriptor + sealed secret)
 7       <variant>    sub-family-specific qualifier (see per-sub sections)
 8..     [body]       sub-family-specific
 ```
@@ -60,6 +61,7 @@ offset  bytes        meaning
 | `ae` | AES wrapper | reads as "AE" — short for AES |
 | `ec` | ECIES wrapper | reads as "EC" — Elliptic Curve |
 | `0d` | key drop | reads as "0D" — Drop |
+| `ca` | centinela (canary) | reads as "CA" — Canary |
 
 All other byte values at offset 6 are reserved for future amendments
 (e.g., Shamir share sub-family for M-of-N recipient quorums — see
@@ -340,6 +342,69 @@ death can carry `tone = 0xff` reverence to flag the posthumous context,
 even if the original sealed inscriptions carried other tones. This is a
 structural way to encode "the act of releasing this key happens for a
 specific reason" alongside the bare technical fact of the release.
+
+---
+
+## Sub-family `0e ca` — Centinela (canary)
+
+A **tamper-evidence tripwire**. The body is an AES-sealed secret exactly like
+`0e ae`; what's new is a **public descriptor in the header** naming a
+value-bearing lock (a UTXO) whose *claim secret* is what's sealed. Decrypting the
+seal yields the key to move the coins, so spending that UTXO is public,
+timestamped proof the seal was opened — you cannot observe a decryption, but you
+can observe a spend. The full primitive (the value-layer lock modes and the
+security model) is in [centinela.md](centinela.md); this section specifies only
+the container format.
+
+### Variant byte (offset 7)
+
+Identical to `0e ae`: `0x00` = raw 32-byte key, `0x01` = passphrase
+(`SHA256(passphrase_utf8)`). The seal is built and read by the same AES path.
+
+### Header — descriptor fields
+
+After the 8 structural bytes, the header carries pipe-delimited **cleartext**
+fields (the same `|…|` region that holds the title elsewhere). A bare segment is
+the title; `key=value` segments are the descriptor:
+
+| field | meaning |
+|---|---|
+| `mode` | lock mode: `C` (HTLC — the canonical one). `A` (hashlock) / `B` (pre-signed) reserved for later. |
+| `outpoint` | the funded bait UTXO `txid:vout` — what to watch ("opened" = spent) |
+| `p2sh` | the lock's P2SH address |
+| `redeem` | the redeemScript hex, so anyone can verify the lock |
+| `refund` | CLTV refund height `T` (mode C) |
+
+Every field is public and leaks nothing not already on chain (the lock is a
+public UTXO). They let any reader watch the outpoint and verify the lock with no
+key. `parse_centinela_header(header)` returns `(title, descriptor, variant)`.
+
+### Body
+
+```
+<ciphertext>   AES-CBC(key, framed_inner)   — identical to 0e ae
+```
+
+The inner is a plaintext quipu (a `0x00` text) holding the claim secret
+`{P, D_priv}`. Decrypt → claim the bait → the outpoint is spent → the canary
+fires.
+
+### Worked layout
+
+```
+c1dd 0001  0e  00  ca  00  |El Centinela|mode=C|outpoint=<txid:vout>|p2sh=<addr>|redeem=<hex>|refund=<T>|  <AES ciphertext {P,D_priv}>
+            ^   ^   ^   ^   └────────────────────────── public descriptor ──────────────────────────┘  └─── sealed secret ───┘
+            |   |   |   00 = raw key (01 = passphrase)
+            |   |   ca = centinela
+            |   00 = tone (default ordinary — the wrapper doesn't leak)
+            type = encrypted
+```
+
+Builder: `build_centinela_quipu(inner_header, inner_body, key, descriptor=…, title=…)`.
+Reader: `read_encrypted_quipu(h, b, key=…)` returns `sub_name="centinela"`, the
+`descriptor`, and — with the key — the unsealed inner secret (`magic_ok` confirms
+a clean decrypt). The `(header, body)` split is the strand boundary on chain
+(cabeza = header), as for all `0x0e` quipus.
 
 ---
 

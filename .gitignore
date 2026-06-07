@@ -78,3 +78,14 @@ data/bodies/sim3d/jeremy3d.json
 working/jeremy_stage/*_perf.bin
 working/jeremy_stage/*.log
 working/jeremy_stage/artifacts/
+
+# centinela test artifacts — throwaway keys + secrets + signed txs, never commit
+working/centinela/test*/
+working/centinela/bundle.json
+working/centinela/centinela.json
+working/centinela/*.signed.hex
+working/centinela/funding.txid
+working/centinela/seal*
+working/centinela/loom.html
+working/centinela/*.log
+working/lineage/artifacts_dry/
