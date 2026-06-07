@@ -1,0 +1,33 @@
+% Margin banner III — Viaje de Italia  (BY POINTER: land/sea + coast + route)
+\documentclass[tikz,border=3mm]{standalone}
+\usepackage{fontspec}\setmainfont{Hoefler Text}
+\usepackage{xcolor}\usepackage{textcomp}
+\definecolor{kr}{HTML}{c83727}\definecolor{ky}{HTML}{e8b73a}\definecolor{kb}{HTML}{2b62a8}
+\definecolor{kg}{HTML}{2a7a4d}\definecolor{kp}{HTML}{6e3a8a}\definecolor{kgold}{HTML}{c2a76b}
+\definecolor{kw}{HTML}{f4ead8}\definecolor{ki}{HTML}{1a1a1a}\definecolor{ksea}{HTML}{c9dcea}
+\begin{document}\begin{tikzpicture}[x=1cm,y=1cm]
+  \path (-3.780,0) (3.780,0);   % width pin -> page width identical to the original plate
+  \fill[kw] (-3.6,-15.2) rectangle (3.6,15.2);
+  \draw[kgold,line width=0.6mm] (-3.4,-15.0) rectangle (3.4,15.0);
+  \draw[kgold,line width=0.15mm] (-3.25,-14.85) rectangle (3.25,14.85);
+  \node[ki,font=\itshape,anchor=north] at (0,14.4) {The Italian Journey};
+  \node[ki,font=\scriptsize\itshape,anchor=north] at (0,13.6) {1786--1788};
+  \begin{scope}
+    \clip (-3.00,-9.90) rectangle (3.00,11.30);
+    \quiputikz[coast]{<<1ef8fc51b3f24a2e6a8170efff125fba101b91071a8032c7f7bc2e7816eae7dc>>}
+    \quiputikz{<<bb26882451630ae9aba5ffe4c06c8508cddc69d1e9cc36c05fac07a019f9ebea>>}
+  \end{scope}
+  \node[ki,font=\fontsize{5}{6}\selectfont,anchor=east,opacity=0.6] at (-3.07,-5.44) {40\textdegree N};
+  \node[ki,font=\fontsize{5}{6}\selectfont,anchor=east,opacity=0.6] at (-3.07,1.97) {45\textdegree N};
+  \node[ki,font=\fontsize{5}{6}\selectfont,anchor=east,opacity=0.6] at (-3.07,9.37) {50\textdegree N};
+  \draw[kgold,opacity=0.5,line width=0.2pt] (-2.7,-10.05) -- (2.7,-10.05);
+  \node[ki,font=\fontsize{6.5}{7.5}\selectfont\itshape,anchor=north] at (0,-10.15) {five legs};
+  \fill[kb] (-2.45,-11.05) circle (0.14);\node[ki,font=\fontsize{6}{6.6}\selectfont,anchor=west] at (-2.15,-11.05) {Northern descent};
+  \fill[kp] (-2.45,-11.71) circle (0.14);\node[ki,font=\fontsize{6}{6.6}\selectfont,anchor=west] at (-2.15,-11.71) {Road to Rome};
+  \fill[kgold] (-2.45,-12.37) circle (0.14);\node[ki,font=\fontsize{6}{6.6}\selectfont,anchor=west] at (-2.15,-12.37) {First Roman stay};
+  \fill[kr] (-2.45,-13.03) circle (0.14);\node[ki,font=\fontsize{6}{6.6}\selectfont,anchor=west] at (-2.15,-13.03) {Naples \textperiodcentered\ Sicily};
+  \fill[kg] (-2.45,-13.69) circle (0.14);\node[ki,font=\fontsize{6}{6.6}\selectfont,anchor=west] at (-2.15,-13.69) {Return over the Alps};
+  \node[ki,font=\scriptsize\itshape,anchor=south] at (0,-14.5) {incognito \textemdash\ 54 stages, 22 months};
+  \node[ki,font=\ttfamily\fontsize{5}{6}\selectfont,anchor=south west] at (-3.2,-14.95) {c1 dd 00 01};
+  \node[ki,font=\fontsize{5}{6}\selectfont\itshape,anchor=south east] at (3.2,-14.95) {El Ermita\~no};
+\end{tikzpicture}\end{document}
