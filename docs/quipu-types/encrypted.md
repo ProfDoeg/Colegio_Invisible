@@ -50,6 +50,7 @@ offset  bytes        meaning
                      ec ECIES per-recipient wrapper
                      0d key drop (operation, not a wrapper)
                      ca centinela (canary — public lock descriptor + sealed secret)
+                     55 Shamir share (one K-of-N share of a key)
 7       <variant>    sub-family-specific qualifier (see per-sub sections)
 8..     [body]       sub-family-specific
 ```
@@ -62,6 +63,8 @@ offset  bytes        meaning
 | `ec` | ECIES wrapper | reads as "EC" — Elliptic Curve |
 | `0d` | key drop | reads as "0D" — Drop |
 | `ca` | centinela (canary) | reads as "CA" — Canary |
+| `cb` | committed-binding sale box | reads as "CB" — follows centinela; verified-key sale |
+| `55` | Shamir share | reads as "SS" — Shamir Shares |
 
 All other byte values at offset 6 are reserved for future amendments
 (e.g., Shamir share sub-family for M-of-N recipient quorums — see
@@ -408,6 +411,152 @@ a clean decrypt). The `(header, body)` split is the strand boundary on chain
 
 ---
 
+## Sub-family `0e cb` — Committed-binding sale box
+
+A `0e cb` quipu is a sealed box for the **verified-key sale** construction
+(see [`docs/quipu-syntax/verified-key-sale.md`](../quipu-syntax/verified-key-sale.md)).
+ECIES sealed to a fresh per-sale **session keypair** rather than to a long-term
+identity key. The session public key is embedded in the body so any reader can
+identify the box's recipient pubkey without having to know who sent it. Paired
+with a `0xcc 0x0003` sale-offer cert that carries an ECDSA adaptor pre-signature
+binding revelation of `session_priv` to the seller's act of claiming the bond.
+
+### Variant byte (offset 7)
+
+`0x00` — v1 single-key sale (the only variant defined).
+
+### Body layout
+
+```
+<session_pub:33>          compressed secp256k1 pubkey, T = session_pub
+<envelope:64>             16 IV + 48 AES-CBC ciphertext of session_key
+                          (encrypted under shared_key from ECDH(seller_priv, session_pub))
+<ciphertext>              AES-CBC(session_key, framed_inner)
+```
+
+The header carries `c1dd0001 0e <tone> cb 00 [|TITLE|]`.
+
+### Constraints
+
+- **Fresh per sale.** A new session keypair MUST be generated for each sale.
+  Reusing a session keypair across sales would mean revealing the first sale's
+  `session_priv` decrypts every later one.
+- **No identity reuse.** `session_pub` MUST NOT be the seller's identity pubkey.
+  The builder refuses to seal with an identity key.
+- **One envelope only.** The recipient is the session keypair; the sender (for
+  ECDH purposes) is the seller's identity key, recoverable from the box's
+  funding tx scriptSig.
+
+### Reading
+
+`read_cb_box_quipu(header, body, session_privkey=…, sender_pubkey=…)`. The
+canonical reader `read_encrypted_quipu` dispatches `cb` to the same path.
+Without keys, returns parse-only metadata (title + session_pub). With both
+keys, decrypts to the inner quipu.
+
+### Existing on-chain instances
+
+- **"On Custody — Preview Sale"** (first deployment, 2026-06-08): root
+  `f74a53b76bb2b6dfc9e26e7218525cfcb1f440cd3becbf4e38b31fbaf7b71d6d`. The
+  full sale (offer → bond funding → claim → key extraction → decryption)
+  is documented in
+  [`docs/quipu-syntax/verified-key-sale.md`](../quipu-syntax/verified-key-sale.md).
+
+---
+
+## Sub-family `0e 55` — Shamir share
+
+A `0e 55` quipu carries **one K-of-N share** of a key, via byte-wise Shamir Secret
+Sharing over GF(2⁸) (the AES field). It is the *threshold* form of the keydrop:
+where `0e 0d` releases a key when one party publishes it, `0e 55` releases a key
+only when **any K of N** share-quipus are present. The reader collects K shares,
+Lagrange-interpolates the key at x = 0, and uses it on the target (a `0e ae` /
+`0e ec`) exactly like a keydrop. Pure arithmetic — no opcodes, no relay concerns.
+
+### Variant byte (offset 7)
+
+| value | name |
+|---|---|
+| `0x00` | GF(2⁸) byte-wise Shamir (a single share) |
+| `0x01` | self-contained vault (the dump + all N shares in one quipu) |
+
+### Body
+
+```
+<K:1>            threshold — shares needed to reconstruct
+<N:1>            total shares issued
+<x:1>            this share's index (1..N) — the Shamir x-coordinate
+<commit:32>      SHA256(secret) — lets a reconstruction be verified
+<ref_txid:32>    target sealed quipu this key opens (zeros if none)
+<slen:2 BE>      share length (= secret length)
+<share:slen>     f(x) for each secret byte
+[|TITLE|]        optional keeper label (e.g. "alice")
+```
+
+### The math
+
+For each secret byte `s`, pick a random degree-(K−1) polynomial over GF(2⁸) with
+`f(0) = s`; share i is `f(i)`. Any K points recover `f` — hence `s = f(0)` — by
+Lagrange interpolation at x = 0; K−1 shares reveal nothing. GF(2⁸) addition is
+XOR, multiplication is via log/antilog tables in the same field AES uses
+(reduction polynomial `0x11B`). A 32-byte key is just 32 independent byte-sharings.
+A `commit = SHA256(secret)` rides along so a reconstruction can be checked.
+
+### Keeping a share private until release
+
+A bare `0e 55` is a **public** share — inscribing it is publishing it. To hold a
+share secret until a release event (a deadline, a death, a quorum's decision),
+wrap it in a `0e ec` ECIES envelope to the keeper: only that keeper can read their
+share, and "releasing" is decrypting and revealing it. K released shares
+reconstruct the key. This is the building block of a **threshold dead-man's
+switch** — the heartbeat-vault.
+
+### Variant `0x01` — self-contained vault
+
+A vault is **one quipu that carries everything**: the sealed dump *and* all N
+shares, so you inscribe a single object instead of scattering shards. Body:
+
+```
+<K:1> <N:1> <flags:1>          flags bit0 = dump inline, bit1 = shares sealed
+<sender_pub:33>                ECIES sender pubkey (zeros if shares are public)
+<commit:32>                    SHA256(key)
+dump:  inline → <4 BE len><framed 0e ae>   |   by-ref → <ref_txid:32>
+N × ( <4 BE len> <framed record> )   record = a 0e 55 share, or that share
+                                     wrapped in a 0e ec sealed to its keeper
+```
+
+Two axes of optionality:
+
+- **shares public or sealed** — `recipients=None` leaves the N shares in the clear
+  (anyone holding the vault collects K); `recipients=[pubkey…]` ECIES-seals share
+  *i* to keeper *i*, so each keeper opens only their own and **K keepers** must act
+  to reconstruct. This is "the shares broadcast to select keys."
+- **dump inline or by-reference** — inline embeds the `0e ae` (truly self-contained);
+  by-reference stores just its 32-byte txid (the vault stays tiny; the dump is its
+  own inscription).
+
+So one vault is the whole threshold scheme — payload and its locked shards —
+inscribable as a single object. It's the static core of the heartbeat-vault: add
+a silence trigger + keeper watchers and "opens if I stop pinging" falls out.
+
+Builder/openers: `build_shamir_vault(key, k, n, dump=…|dump_ref=…, recipients=…|None,
+sender_privkey=…)`; `vault_open_share(vault, my_privkey)` (a keeper's share);
+`vault_public_shares`; `vault_reconstruct_key`; `vault_open(vault, keeper_privkeys)`
+(one-shot: gather K → reconstruct → decrypt the inline dump). Validated: sealed
+3-of-5 (each keeper opens only theirs, outsiders nothing, 3 reconstruct, 2
+rejected) and public.
+
+### Reference
+
+`shamir_split` / `shamir_combine` (raw), `build_shamir_share_quipu` /
+`read_shamir_share_quipu`, `shamir_seal_key` (split a key into N share-quipus),
+`shamir_reconstruct_key` (K quipus → verified key) in
+[`canonical/encrypted.py`](../../canonical/encrypted.py). Validated: GF(2⁸)
+round-trips on all K-subsets, threshold enforced (K−1 rejected), and a full
+threshold-keydrop (K shares → key → opens a `0e ae`).
+
+---
+
 ## Inner framing — the length prefix
 
 For both wrapper sub-families (`ae` and `ec`), the inner quipu's bytes
@@ -565,7 +714,7 @@ Estandarte amendments:
 
 | candidate value | name | purpose |
 |---|---|---|
-| `ss` | Shamir share | one fragment of a key split via Shamir's Secret Sharing. Readers collect K of N shares to reconstruct the key for a target. Enables M-of-N (threshold) RECIPIENT quorums, distinct from per-recipient ECIES envelopes. The natural way to do "any K of these N trustees can release the key together." |
+| ~~`ss`~~ → `55` | Shamir share | **Implemented** (the placeholder `ss` wasn't valid hex; the byte is `0x55`, which reads as "SS"). See § Sub-family `0e 55`. |
 | (others) | reserved | post-quantum sealed, threshold-decrypted, ephemeral-pubkey ECIES, etc. |
 
 Future variants for the existing sub-families:

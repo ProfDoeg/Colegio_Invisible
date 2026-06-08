@@ -85,7 +85,8 @@ _VALID_TONES = VALID_TONES  # backward-compat alias
 
 SUBTYPE_HASH       = 0x0001   # |HASH_ALGO|<hash_hex>  +  Field:value body
 SUBTYPE_ALLINONE   = 0x0002   # |TITLE|  +  Field: value body
-_VALID_SUBTYPES = (SUBTYPE_HASH, SUBTYPE_ALLINONE)
+SUBTYPE_SALE_OFFER = 0x0003   # |TITLE| + attestation fields + Signers: + Signatures:
+_VALID_SUBTYPES = (SUBTYPE_HASH, SUBTYPE_ALLINONE, SUBTYPE_SALE_OFFER)
 
 # Tolerant Field/Value line matcher: optional whitespace around the colon
 _FIELD_LINE_RE = re.compile(r"^([^:\s][^:]*?)\s*:\s*(.*)$", re.MULTILINE)
@@ -95,8 +96,8 @@ def _build_structural_header(tone, subtype):
     validate_tone(tone)
     if subtype not in _VALID_SUBTYPES:
         raise ValueError(
-            f"subtype must be 0x0001 (hash) or 0x0002 (all-in-one); "
-            f"got {subtype:#06x}"
+            f"subtype must be 0x0001 (hash), 0x0002 (all-in-one), or "
+            f"0x0003 (sale offer); got {subtype:#06x}"
         )
     return (
         b"\xc1\xdd\x00\x01"
@@ -193,6 +194,324 @@ def build_allinone_cert(title, fields, tone=TONE_REVERENCE, field_separator=": "
 
 
 # ---------------------------------------------------------------------------
+# Sale-offer cert (subtype 0x0003) — verified-key sale construction
+# ---------------------------------------------------------------------------
+# Body shape:
+#
+#     |Title|
+#     Box: <<txid>>
+#     SessionPubkey: <hex>
+#     BondAddress: <P2SH>
+#     RedeemScript: <hex>
+#     Price: <satoshi int>
+#     RefundHeight: <block height int>
+#     RefundPubkey: <hex>
+#     SellerPubkey: <hex>
+#     ClaimTxSighash: <hex>             ← the message the adaptor signs
+#     AdaptorR:    <33B hex>            ← R = k·G
+#     AdaptorRa:   <33B hex>            ← R_a = k·T
+#     AdaptorSa:   <hex>                ← s_a = k⁻¹(H(m) + r·d)
+#     AdaptorDleqC: <hex>               ← DLEQ challenge
+#     AdaptorDleqZ: <hex>               ← DLEQ response
+#     [PlaintextHash: <hex>]            ← optional belt-and-suspenders
+#
+#     Signers:
+#     seller | <hex pubkey>
+#     [<role> | <hex pubkey>]*
+#
+#     Signatures:
+#     seller | <hex sig>
+#     [<role> | <hex sig>]*
+#
+# The canonical hash range (what the seller signs) is:
+#     SHA256(body_bytes from byte 0 through the byte immediately preceding
+#            the b"Signatures:\n" sentinel, LF-normalized line endings).
+#
+# The Signers block IS inside the hashed range — so adding/removing/reordering
+# signers invalidates every signature. The Signatures block is NOT inside.
+
+_SALE_REQUIRED_FIELDS = (
+    "Box", "SessionPubkey", "BondAddress", "RedeemScript",
+    "Price", "RefundHeight", "RefundPubkey", "SellerPubkey",
+    "ClaimTxSighash",
+    "AdaptorR", "AdaptorRa", "AdaptorSa", "AdaptorDleqC", "AdaptorDleqZ",
+)
+
+_SIGNATURES_SENTINEL = "Signatures:"
+_SIGNERS_HEADER      = "Signers:"
+
+
+def _serialize_signer_block(rows):
+    """Encode [(role, hexstr), ...] as `role | hexstr` lines."""
+    lines = []
+    for role, value in rows:
+        if not isinstance(role, str) or not isinstance(value, str):
+            raise TypeError(f"signer row: role and value must be str, got {role!r}/{value!r}")
+        if "|" in role or "|" in value:
+            raise ValueError(f"signer row {role!r}: '|' is the column separator, forbidden in values")
+        if "\n" in role or "\n" in value:
+            raise ValueError(f"signer row {role!r}: newline forbidden in values")
+        lines.append(f"{role} | {value}")
+    return "\n".join(lines)
+
+
+def build_sale_offer_cert(title, *, box_txid, session_pubkey_hex,
+                          bond_address, redeem_script_hex,
+                          price_sats, refund_height, refund_pubkey_hex,
+                          seller_pubkey_hex,
+                          claim_tx_sighash_hex,
+                          adaptor_presig,
+                          signers, signatures=None,
+                          plaintext_hash_hex=None,
+                          tone=TONE_ORDINARY):
+    """Build a 0xcc subtype 0x0003 sale-offer cert.
+
+    Args:
+        title:                short offer title (no '|')
+        box_txid:             64-hex root txid of the 0x0e 0xcb box being sold
+        session_pubkey_hex:   33B compressed hex of the box's session pubkey T
+        bond_address:         P2SH address holding the HTLC bond
+        redeem_script_hex:    full redeem script bytes, hex
+        price_sats:           integer satoshi amount the buyer pays
+        refund_height:        block height after which buyer may refund
+        refund_pubkey_hex:    33B compressed hex of the refund-leg pubkey
+        seller_pubkey_hex:    33B compressed hex of the seller's identity pubkey
+        claim_tx_sighash_hex: 64-hex of the sighash the adaptor signs over
+        adaptor_presig:       dict from canonical.adaptor.pre_sign — must
+                              contain 'R', 'R_a', 's_a', 'dleq_c', 'dleq_z'
+        signers:              list of (role_str, pubkey_hex_str) tuples;
+                              MUST include ('seller', seller_pubkey_hex);
+                              role names must be unique within the cert
+        signatures:           optional list of (role_str, sig_hex_str) tuples.
+                              May be empty/None — the cert can be inscribed
+                              with no signatures and amended later.
+        plaintext_hash_hex:   optional 64-hex SHA256(inner plaintext) for
+                              belt-and-suspenders post-hoc plaintext binding
+        tone:                 outer tone byte
+
+    Returns:
+        (header_bytes, body_bytes)
+    """
+    if "|" in title:
+        raise ValueError("title cannot contain '|'")
+    if not isinstance(price_sats, int) or price_sats < 0:
+        raise ValueError(f"price_sats must be a non-negative int, got {price_sats!r}")
+    if not isinstance(refund_height, int) or refund_height < 0:
+        raise ValueError(f"refund_height must be a non-negative int, got {refund_height!r}")
+    if not re.fullmatch(r"[0-9a-fA-F]{64}", box_txid):
+        raise ValueError(f"box_txid must be 64 hex chars, got {box_txid!r}")
+    for name, val in (("session_pubkey_hex", session_pubkey_hex),
+                      ("refund_pubkey_hex", refund_pubkey_hex),
+                      ("seller_pubkey_hex", seller_pubkey_hex)):
+        if not re.fullmatch(r"[0-9a-fA-F]{66}", val):
+            raise ValueError(f"{name} must be 66 hex chars (33B compressed), got {val!r}")
+    if not re.fullmatch(r"[0-9a-fA-F]{64}", claim_tx_sighash_hex):
+        raise ValueError(f"claim_tx_sighash_hex must be 64 hex chars, got {claim_tx_sighash_hex!r}")
+    if not re.fullmatch(r"[0-9a-fA-F]+", redeem_script_hex):
+        raise ValueError("redeem_script_hex must be hex")
+    for k in ("R", "R_a", "s_a", "dleq_c", "dleq_z"):
+        if k not in adaptor_presig:
+            raise ValueError(f"adaptor_presig missing field {k!r}")
+    if plaintext_hash_hex is not None:
+        if not re.fullmatch(r"[0-9a-fA-F]{64}", plaintext_hash_hex):
+            raise ValueError("plaintext_hash_hex must be 64 hex chars")
+
+    # Signer roles must be unique; 'seller' is mandatory; its pubkey must
+    # match the SellerPubkey field
+    seen_roles = set()
+    seller_signer_pub = None
+    for role, pub in signers:
+        if role in seen_roles:
+            raise ValueError(f"duplicate signer role {role!r}")
+        seen_roles.add(role)
+        if role == "seller":
+            seller_signer_pub = pub
+    if seller_signer_pub is None:
+        raise ValueError("signers must include ('seller', <SellerPubkey>)")
+    if seller_signer_pub.lower() != seller_pubkey_hex.lower():
+        raise ValueError("Signers.seller pubkey does not match SellerPubkey field")
+
+    if signatures:
+        sig_roles = set()
+        for role, _ in signatures:
+            if role in sig_roles:
+                raise ValueError(f"duplicate signature role {role!r}")
+            sig_roles.add(role)
+            if role not in seen_roles:
+                raise ValueError(f"signature role {role!r} is not in the Signers block")
+
+    # Build body
+    header = _build_structural_header(tone, SUBTYPE_SALE_OFFER)
+    lines = [f"|{title}|"]
+    lines.append(f"Box: <<{box_txid.lower()}>>")
+    lines.append(f"SessionPubkey: {session_pubkey_hex.lower()}")
+    lines.append(f"BondAddress: {bond_address}")
+    lines.append(f"RedeemScript: {redeem_script_hex.lower()}")
+    lines.append(f"Price: {price_sats}")
+    lines.append(f"RefundHeight: {refund_height}")
+    lines.append(f"RefundPubkey: {refund_pubkey_hex.lower()}")
+    lines.append(f"SellerPubkey: {seller_pubkey_hex.lower()}")
+    lines.append(f"ClaimTxSighash: {claim_tx_sighash_hex.lower()}")
+    lines.append(f"AdaptorR: {adaptor_presig['R'].lower()}")
+    lines.append(f"AdaptorRa: {adaptor_presig['R_a'].lower()}")
+    # s_a / dleq values are hex strings possibly prefixed with '0x'; normalize
+    def _strip0x(s):
+        s = s.lower()
+        return s[2:] if s.startswith("0x") else s
+    lines.append(f"AdaptorSa: {_strip0x(adaptor_presig['s_a'])}")
+    lines.append(f"AdaptorDleqC: {_strip0x(adaptor_presig['dleq_c'])}")
+    lines.append(f"AdaptorDleqZ: {_strip0x(adaptor_presig['dleq_z'])}")
+    if plaintext_hash_hex is not None:
+        lines.append(f"PlaintextHash: {plaintext_hash_hex.lower()}")
+    lines.append("")
+    lines.append(_SIGNERS_HEADER)
+    lines.append(_serialize_signer_block(signers))
+    lines.append("")
+    lines.append(_SIGNATURES_SENTINEL)
+    if signatures:
+        lines.append(_serialize_signer_block(signatures))
+
+    body = ("\n".join(lines)).encode("utf-8")
+    return header, body
+
+
+def canonical_hash_of_sale_offer(body_bytes):
+    """Compute SHA256 of the offer's body up to (but NOT including) the
+    `Signatures:\\n` sentinel line, with LF-normalized line endings.
+
+    This is the hash each signer signs. Callers compute it both at build
+    time (to produce signatures) and at read time (to verify signatures).
+    """
+    import hashlib
+    text = bytes(body_bytes).decode("utf-8", errors="replace").replace("\r\n", "\n")
+    sentinel = _SIGNATURES_SENTINEL + "\n"
+    idx = text.find(sentinel)
+    if idx < 0:
+        # End-of-body sentinel (no trailing newline)
+        idx_eof = text.rfind(_SIGNATURES_SENTINEL)
+        if idx_eof < 0:
+            raise ValueError("sale-offer body has no `Signatures:` sentinel")
+        idx = idx_eof
+    canonical_bytes = text[:idx].encode("utf-8")
+    return hashlib.sha256(canonical_bytes).digest()
+
+
+def read_sale_offer_cert(header_bytes, body_bytes):
+    """Parse a 0xcc subtype 0x0003 sale-offer cert into a structured dict.
+
+    Returns:
+        dict with keys:
+          'title', 'tone',
+          'box_txid', 'session_pubkey', 'bond_address', 'redeem_script',
+          'price_sats', 'refund_height', 'refund_pubkey', 'seller_pubkey',
+          'claim_tx_sighash',
+          'adaptor_presig'  : dict with R, R_a, s_a, dleq_c, dleq_z
+          'plaintext_hash'  : str or None
+          'signers'         : list of (role, pubkey_hex) tuples (insertion order)
+          'signatures'      : list of (role, sig_hex) tuples (insertion order)
+          'canonical_hash'  : 32-byte SHA256 the signatures sign over
+    """
+    if header_bytes[:4] != b"\xc1\xdd\x00\x01":
+        raise ValueError("not a quipu (c1dd0001 magic missing)")
+    if len(header_bytes) < 8:
+        raise ValueError(f"header too short: {len(header_bytes)}")
+    if header_bytes[4] != TYPE_CERT:
+        raise ValueError(f"not a cert (type 0x{header_bytes[4]:02x})")
+    subtype = struct.unpack(">H", header_bytes[6:8])[0]
+    if subtype != SUBTYPE_SALE_OFFER:
+        raise ValueError(f"not a sale-offer cert (subtype 0x{subtype:04x})")
+
+    tone = header_bytes[5]
+    text = bytes(body_bytes).decode("utf-8").replace("\r\n", "\n")
+
+    # Parse title
+    m = re.match(r"^\|([^|]*)\|", text)
+    if not m:
+        raise ValueError("body does not start with |TITLE|")
+    title = m.group(1).strip()
+    cursor = m.end()
+
+    # Split the body into three sections: fields, signers, signatures
+    signers_idx = text.find("\n" + _SIGNERS_HEADER, cursor)
+    sigs_idx    = text.find("\n" + _SIGNATURES_SENTINEL, cursor)
+    if signers_idx < 0:
+        raise ValueError("body missing `Signers:` block")
+    if sigs_idx < 0 or sigs_idx < signers_idx:
+        raise ValueError("body missing or misplaced `Signatures:` block")
+
+    fields_section  = text[cursor:signers_idx]
+    signers_section = text[signers_idx + len("\n" + _SIGNERS_HEADER):sigs_idx]
+    sigs_section    = text[sigs_idx + len("\n" + _SIGNATURES_SENTINEL):]
+
+    # Extract Field: value pairs from fields_section
+    fields = {}
+    for m in _FIELD_LINE_RE.finditer(fields_section.lstrip()):
+        name = m.group(1).strip()
+        value = m.group(2).strip()
+        fields[name] = value
+
+    # Required fields
+    for k in _SALE_REQUIRED_FIELDS:
+        if k not in fields:
+            raise ValueError(f"required field {k!r} missing")
+
+    # Box: extract txid from <<txid>>
+    box_match = re.match(r"^<<([0-9a-fA-F]{64})>>$", fields["Box"])
+    if not box_match:
+        raise ValueError(f"Box field malformed: {fields['Box']!r}")
+    box_txid = box_match.group(1).lower()
+
+    adaptor = {
+        "R":      fields["AdaptorR"].lower(),
+        "R_a":    fields["AdaptorRa"].lower(),
+        "s_a":    fields["AdaptorSa"].lower(),
+        "dleq_c": fields["AdaptorDleqC"].lower(),
+        "dleq_z": fields["AdaptorDleqZ"].lower(),
+    }
+
+    # Parse signers / signatures rows (role | value)
+    def _parse_rows(section):
+        rows = []
+        for line in section.strip("\n").split("\n"):
+            line = line.strip()
+            if not line:
+                continue
+            parts = line.split("|", 1)
+            if len(parts) != 2:
+                raise ValueError(f"malformed row (expected `role | value`): {line!r}")
+            role = parts[0].strip()
+            val  = parts[1].strip()
+            rows.append((role, val))
+        return rows
+
+    signers    = _parse_rows(signers_section)
+    signatures = _parse_rows(sigs_section)
+
+    canonical_hash = canonical_hash_of_sale_offer(body_bytes)
+
+    return {
+        "title":            title,
+        "tone":             tone,
+        "subtype":          SUBTYPE_SALE_OFFER,
+        "subtype_name":     "sale_offer",
+        "box_txid":         box_txid,
+        "session_pubkey":   fields["SessionPubkey"].lower(),
+        "bond_address":     fields["BondAddress"],
+        "redeem_script":    fields["RedeemScript"].lower(),
+        "price_sats":       int(fields["Price"]),
+        "refund_height":    int(fields["RefundHeight"]),
+        "refund_pubkey":    fields["RefundPubkey"].lower(),
+        "seller_pubkey":    fields["SellerPubkey"].lower(),
+        "claim_tx_sighash": fields["ClaimTxSighash"].lower(),
+        "adaptor_presig":   adaptor,
+        "plaintext_hash":   fields.get("PlaintextHash", "").lower() or None,
+        "signers":          signers,
+        "signatures":       signatures,
+        "canonical_hash":   canonical_hash,
+    }
+
+
+# ---------------------------------------------------------------------------
 # Reader
 # ---------------------------------------------------------------------------
 
@@ -232,8 +551,14 @@ def read_cert(header_bytes, body_bytes):
     if subtype not in _VALID_SUBTYPES:
         raise ValueError(
             f"subtype 0x{subtype:04x} not defined in v1 "
-            f"(known: 0x0001 hash, 0x0002 allinone)"
+            f"(known: 0x0001 hash, 0x0002 allinone, 0x0003 sale_offer)"
         )
+
+    # Sale-offer (0x0003) has a structured body that doesn't fit the
+    # pipe-fields + Field:value shape of 0x0001/0x0002. Delegate.
+    if subtype == SUBTYPE_SALE_OFFER:
+        return read_sale_offer_cert(header_bytes, body_bytes)
+
     subtype_name = {SUBTYPE_HASH: "hash", SUBTYPE_ALLINONE: "allinone"}[subtype]
 
     try:
@@ -461,9 +786,124 @@ def _selftest_validation():
     print()
 
 
+def _selftest_sale_offer():
+    """0xcc 0x0003 sale-offer cert: build, parse, verify canonical-hash stability."""
+    import sys, os
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import hashlib
+    import adaptor
+    from coincurve import PrivateKey
+
+    # Fake but well-formed inputs
+    seller = PrivateKey(b"\x11" * 32)
+    session = PrivateKey(b"\x22" * 32)
+    refund_pub = PrivateKey(b"\x33" * 32).public_key.format(compressed=True).hex()
+
+    # Build a realistic sighash and adaptor pre-sig
+    claim_sighash = hashlib.sha256(b"claim tx sighash bytes go here").digest()
+    presig = adaptor.pre_sign(
+        seller.secret, claim_sighash,
+        session.public_key.format(compressed=True),
+    )
+
+    box_txid = "7f3e2a91" + "00" * 28
+    h, b = build_sale_offer_cert(
+        title="On Custody — Preview Sale",
+        box_txid=box_txid,
+        session_pubkey_hex=session.public_key.format(compressed=True).hex(),
+        bond_address="A5K2gVPlaceholderBondAddress",
+        redeem_script_hex="63a8200" + "0" * 63 + "88",
+        price_sats=500_000_000,
+        refund_height=6_213_157,
+        refund_pubkey_hex=refund_pub,
+        seller_pubkey_hex=seller.public_key.format(compressed=True).hex(),
+        claim_tx_sighash_hex=claim_sighash.hex(),
+        adaptor_presig=presig,
+        signers=[("seller", seller.public_key.format(compressed=True).hex())],
+        signatures=None,  # to be added after computing canonical hash
+        plaintext_hash_hex="a" * 64,
+        tone=TONE_ORDINARY,
+    )
+    print("=== sale-offer cert (subtype 0x0003) ===")
+    print(f"  header bytes ({len(h)} B): {h.hex()}")
+    print(f"  body length: {len(b)} B")
+    assert h[4] == TYPE_CERT
+    assert struct.unpack(">H", h[6:8])[0] == SUBTYPE_SALE_OFFER
+    print(f"  ✓ structural header has subtype 0x0003")
+
+    # Compute canonical hash; should match a re-build with same inputs
+    canonical = canonical_hash_of_sale_offer(b)
+    assert len(canonical) == 32
+    print(f"  canonical hash: {canonical.hex()[:20]}...")
+
+    # Parse
+    parsed = read_sale_offer_cert(h, b)
+    assert parsed["title"] == "On Custody — Preview Sale"
+    assert parsed["box_txid"] == box_txid
+    assert parsed["price_sats"] == 500_000_000
+    assert parsed["refund_height"] == 6_213_157
+    assert parsed["adaptor_presig"]["R"] == presig["R"].lower()
+    assert parsed["plaintext_hash"] == "a" * 64
+    assert parsed["signers"] == [("seller", seller.public_key.format(compressed=True).hex())]
+    assert parsed["signatures"] == []
+    assert parsed["canonical_hash"] == canonical
+    print(f"  ✓ roundtrip preserves all fields; adaptor pre-sig recovered")
+
+    # Adaptor pre-sig from the parsed cert should verify
+    assert adaptor.pre_verify(
+        bytes.fromhex(parsed["seller_pubkey"]),
+        bytes.fromhex(parsed["claim_tx_sighash"]),
+        bytes.fromhex(parsed["session_pubkey"]),
+        parsed["adaptor_presig"],
+    )
+    print(f"  ✓ adaptor pre-sig recovered from cert verifies against signer's pubkey")
+
+    # Now produce a signature over canonical_hash, rebuild with signatures, re-parse
+    sig = seller.sign(canonical, hasher=None).hex()
+    h2, b2 = build_sale_offer_cert(
+        title="On Custody — Preview Sale",
+        box_txid=box_txid,
+        session_pubkey_hex=session.public_key.format(compressed=True).hex(),
+        bond_address="A5K2gVPlaceholderBondAddress",
+        redeem_script_hex="63a8200" + "0" * 63 + "88",
+        price_sats=500_000_000,
+        refund_height=6_213_157,
+        refund_pubkey_hex=refund_pub,
+        seller_pubkey_hex=seller.public_key.format(compressed=True).hex(),
+        claim_tx_sighash_hex=claim_sighash.hex(),
+        adaptor_presig=presig,
+        signers=[("seller", seller.public_key.format(compressed=True).hex())],
+        signatures=[("seller", sig)],
+        plaintext_hash_hex="a" * 64,
+        tone=TONE_ORDINARY,
+    )
+    canonical_2 = canonical_hash_of_sale_offer(b2)
+    assert canonical_2 == canonical, \
+        "canonical hash CHANGED after adding signatures (adding sigs MUST NOT change the hashed range)"
+    print(f"  ✓ canonical hash is stable: signature block addition does not change it")
+
+    parsed_2 = read_sale_offer_cert(h2, b2)
+    assert parsed_2["signatures"] == [("seller", sig)]
+    print(f"  ✓ signature recovered after re-parse")
+
+    # Verify the signature against the canonical hash
+    assert seller.public_key.verify(bytes.fromhex(sig), canonical, hasher=None)
+    print(f"  ✓ seller's signature verifies under SellerPubkey over canonical hash")
+
+    # Tamper check: changing a field in the Signers block invalidates the hash
+    tampered_body = b2.replace(b"seller |", b"buyer  |", 1)
+    if tampered_body != b2:
+        canonical_tampered = canonical_hash_of_sale_offer(tampered_body)
+        assert canonical_tampered != canonical, \
+            "tampering Signers block did not change canonical hash"
+        print(f"  ✓ tampering the Signers block produces a different canonical hash")
+    print()
+
+
 if __name__ == "__main__":
     _selftest_build_hash_cert()
     _selftest_build_allinone_cert()
     _selftest_parse_maier_onchain()
     _selftest_parse_domremy_onchain()
+    _selftest_sale_offer()
     _selftest_validation()

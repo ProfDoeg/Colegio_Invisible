@@ -81,13 +81,18 @@ SUB_AES   = 0xAE
 SUB_ECIES = 0xEC
 SUB_DROP  = 0x0D
 SUB_CENTINELA = 0xCA   # canary: public lock descriptor (header) + AES-sealed claim secret (body)
-_VALID_SUBS = (SUB_AES, SUB_ECIES, SUB_DROP, SUB_CENTINELA)
+SUB_CB        = 0xCB   # committed-binding sale box (verified-key sale construction)
+SUB_SHAMIR    = 0x55   # Shamir share: one K-of-N share of a 32-byte key (reads "SS")
+_VALID_SUBS = (SUB_AES, SUB_ECIES, SUB_DROP, SUB_CENTINELA, SUB_CB, SUB_SHAMIR)
 
 # Variant byte at offset 7
 KEY_RAW       = 0x00   # for SUB_AES: raw 32-byte key
 KEY_PASSWORD  = 0x01   # for SUB_AES: key = SHA256(passphrase)
 ECIES_BROADCAST = 0x00 # for SUB_ECIES
 DROP_RELEASE  = 0x00   # for SUB_DROP
+CB_SALE_V1    = 0x00   # for SUB_CB: v1 single-key sale (only variant defined)
+SHAMIR_GF256  = 0x00   # for SUB_SHAMIR: byte-wise Shamir over GF(2^8)  (single share)
+SHAMIR_VAULT  = 0x01   # for SUB_SHAMIR: self-contained vault (dump + N shares)
 
 SECP256K1_N = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141
 AES_KEY_BYTES_LEN = 32
@@ -276,6 +281,262 @@ def parse_centinela_header(header_bytes):
     return title, desc, variant
 
 
+# ---------------------------------------------------------------------------
+# Shamir share (sub-family 0x55) — one K-of-N share of a key.
+# Byte-wise Shamir Secret Sharing over GF(2^8) (the AES field). Each 0e 55 quipu
+# carries ONE share; any K shares reconstruct the key, which then opens its
+# target 0e ae / 0e ec — a *threshold* keydrop. Pure arithmetic, no opcodes.
+# ---------------------------------------------------------------------------
+_GF_EXP = [0] * 512
+_GF_LOG = [0] * 256
+def _xtime(a):
+    return (((a << 1) ^ 0x1B) & 0xFF) if (a & 0x80) else ((a << 1) & 0xFF)
+def _gf_build():
+    a = 1
+    for i in range(255):
+        _GF_EXP[i] = a; _GF_LOG[a] = i
+        a ^= _xtime(a)                      # a *= 3 (a primitive element of GF(2^8))
+    for i in range(255, 512):
+        _GF_EXP[i] = _GF_EXP[i - 255]
+_gf_build()
+def _gf_mul(a, b):
+    return 0 if (a == 0 or b == 0) else _GF_EXP[_GF_LOG[a] + _GF_LOG[b]]
+def _gf_div(a, b):
+    if a == 0:
+        return 0
+    if b == 0:
+        raise ZeroDivisionError("GF(256) division by zero")
+    return _GF_EXP[_GF_LOG[a] - _GF_LOG[b] + 255]
+
+
+def shamir_split(secret, k, n):
+    """Split bytes `secret` into n shares, any k of which reconstruct it.
+    Returns {x: share_bytes} for x in 1..n. Uses os.urandom for the coefficients."""
+    import os
+    if not (1 <= k <= n <= 255):
+        raise ValueError("require 1 <= k <= n <= 255")
+    shares = {x: bytearray(len(secret)) for x in range(1, n + 1)}
+    for bi, sb in enumerate(secret):
+        coeffs = [sb] + list(os.urandom(k - 1))      # f(0) = secret byte; random higher terms
+        for x in range(1, n + 1):
+            y, xp = 0, 1
+            for c in coeffs:
+                y ^= _gf_mul(c, xp); xp = _gf_mul(xp, x)
+            shares[x][bi] = y
+    return {x: bytes(b) for x, b in shares.items()}
+
+
+def shamir_combine(parts):
+    """parts: list of (x, share_bytes), at least k of them. Lagrange-interpolate at
+    x=0 over GF(2^8) and return the secret bytes."""
+    L = len(parts[0][1])
+    xs = [p[0] for p in parts]
+    out = bytearray(L)
+    for bi in range(L):
+        s = 0
+        for j, (xj, sbj) in enumerate(parts):
+            num = den = 1
+            for m, xm in enumerate(xs):
+                if m == j:
+                    continue
+                num = _gf_mul(num, xm)        # at x=0: basis_j = prod x_m / prod (x_j ^ x_m)
+                den = _gf_mul(den, xj ^ xm)
+            s ^= _gf_mul(sbj[bi], _gf_div(num, den))
+        out[bi] = s
+    return bytes(out)
+
+
+def build_shamir_share_quipu(x, k, n, share, *, commitment, ref_txid=b"\x00" * 32,
+                             title="", tone=TONE_ORDINARY):
+    """One 0e 55 share quipu. `commitment` = SHA256(secret) (lets a reconstruction be
+    verified); `ref_txid` = the target sealed quipu this key opens (zeros if none).
+    To keep a share private until release, wrap this in a 0e ec to the keeper."""
+    if not (1 <= x <= n and 1 <= k <= n <= 255):
+        raise ValueError("require 1 <= x <= n and 1 <= k <= n <= 255")
+    if len(commitment) != 32 or len(ref_txid) != 32:
+        raise ValueError("commitment and ref_txid must be 32 bytes")
+    header = _append_title(_build_header_prefix(tone, SUB_SHAMIR, SHAMIR_GF256), title)
+    body = bytes([k, n, x]) + bytes(commitment) + bytes(ref_txid) + struct.pack(">H", len(share)) + bytes(share)
+    return header, body
+
+
+def read_shamir_share_quipu(header_bytes, body_bytes):
+    """Parse a 0e 55 share quipu -> dict (k, n, x, commitment, ref_txid, share, title)."""
+    if header_bytes[4] != TYPE_ENCRYPTED or header_bytes[6] != SUB_SHAMIR:
+        raise ValueError("not a 0e 55 Shamir share")
+    k, n, x = body_bytes[0], body_bytes[1], body_bytes[2]
+    commitment = bytes(body_bytes[3:35]); ref = bytes(body_bytes[35:67])
+    slen = struct.unpack(">H", body_bytes[67:69])[0]
+    share = bytes(body_bytes[69:69 + slen])
+    title, _ = _split_outer_title(header_bytes[8:])
+    return {"k": k, "n": n, "x": x, "commitment": commitment,
+            "ref_txid": ref.hex(), "share": share, "title": title}
+
+
+def shamir_seal_key(secret, k, n, *, ref_txid=b"\x00" * 32, names=None, tone=TONE_ORDINARY):
+    """Split `secret` (e.g. a 32-byte AES key) k-of-n into n 0e 55 share quipus.
+    Returns (list[(header, body)], commitment_hex). `names` optionally titles each."""
+    commit = hashlib.sha256(bytes(secret)).digest()
+    shares = shamir_split(bytes(secret), k, n)
+    out = []
+    for i, (x, sb) in enumerate(sorted(shares.items())):
+        t = names[i] if (names and i < len(names)) else ""
+        out.append(build_shamir_share_quipu(x, k, n, sb, commitment=commit,
+                                            ref_txid=ref_txid, title=t, tone=tone))
+    return out, commit.hex()
+
+
+def shamir_reconstruct_key(share_quipus):
+    """share_quipus: list of (header, body) 0e 55 quipus (>= k). Reconstructs and
+    VERIFIES the key against the shares' commitment. Raises on too-few / mismatch."""
+    parsed = [read_shamir_share_quipu(h, b) for h, b in share_quipus]
+    k = parsed[0]["k"]
+    by_x = {}
+    for p in parsed:
+        by_x.setdefault(p["x"], p["share"])          # dedup by index
+    if len(by_x) < k:
+        raise ValueError(f"need >= {k} distinct shares, got {len(by_x)}")
+    secret = shamir_combine(list(by_x.items())[:k])
+    if hashlib.sha256(secret).digest() != parsed[0]["commitment"]:
+        raise ValueError("reconstruction failed: commitment mismatch (wrong or corrupt shares)")
+    return secret
+
+
+# ---------------------------------------------------------------------------
+# Shamir vault (sub-family 0x55, variant 0x01) — SELF-CONTAINED K-of-N vault.
+# One quipu carries: the sealed dump (0e ae under key K — inline or by-ref) and N
+# share records (each a 0e 55 share, optionally ECIES-sealed to a chosen keeper
+# key). Reconstruct K shares -> K -> open the dump. Composes 0e ae + 0e 55 + 0e ec.
+# ---------------------------------------------------------------------------
+def build_shamir_vault(secret_key, k, n, *, dump=None, dump_ref=None,
+                       recipients=None, sender_privkey=None,
+                       ref_txid=b"\x00" * 32, title="", tone=TONE_ORDINARY):
+    """Self-contained K-of-N Shamir vault (0e 55 variant 0x01).
+
+    secret_key : the key that opens the dump (32 B); this is what gets split.
+    dump       : (header, body) of the sealed 0e ae payload -> embedded INLINE.
+    dump_ref   : 32-byte txid of the dump -> stored BY REFERENCE (lean). Exactly
+                 one of dump / dump_ref is required.
+    recipients : list of n pubkeys (coincurve.PublicKey) -> each share is
+                 ECIES-sealed to its keeper (needs sender_privkey). None -> the
+                 shares are PUBLIC (in the clear).
+    Returns (header, body)."""
+    secret_key = bytes(secret_key)
+    inline = dump is not None
+    sealed = recipients is not None
+    if inline == (dump_ref is not None):
+        raise ValueError("provide exactly one of dump / dump_ref")
+    if sealed and (sender_privkey is None or len(recipients) != n):
+        raise ValueError("sealed vault needs sender_privkey and exactly n recipients")
+    commit = hashlib.sha256(secret_key).digest()
+    shares = shamir_split(secret_key, k, n)
+    sender_pub = sender_privkey.public_key.format() if sealed else b"\x00" * 33
+    flags = (1 if inline else 0) | (2 if sealed else 0)
+    body = bytes([k, n, flags]) + bytes(sender_pub) + commit
+    if inline:
+        framed = _frame_inner(dump[0], dump[1])
+        body += struct.pack(">I", len(framed)) + framed
+    else:
+        if len(dump_ref) != 32:
+            raise ValueError("dump_ref must be 32 bytes")
+        body += bytes(dump_ref)
+    for i, (x, sb) in enumerate(sorted(shares.items())):
+        sh = build_shamir_share_quipu(x, k, n, sb, commitment=commit, ref_txid=ref_txid)
+        rec = build_ecies_quipu(sh[0], sh[1], sender_privkey, [recipients[i]]) if sealed else sh
+        framed = _frame_inner(rec[0], rec[1])
+        body += struct.pack(">I", len(framed)) + framed
+    header = _append_title(_build_header_prefix(tone, SUB_SHAMIR, SHAMIR_VAULT), title)
+    return header, body
+
+
+def read_shamir_vault(header_bytes, body_bytes):
+    """Parse a 0e 55 vault -> dict(k, n, sealed, inline, sender_pub, commit,
+    dump_blob=(h,b)|None, dump_ref=hex|None, records=[(h,b),…])."""
+    if (header_bytes[4] != TYPE_ENCRYPTED or header_bytes[6] != SUB_SHAMIR
+            or header_bytes[7] != SHAMIR_VAULT):
+        raise ValueError("not a 0e 55 vault (variant 0x01)")
+    k, n, flags = body_bytes[0], body_bytes[1], body_bytes[2]
+    sender_pub = bytes(body_bytes[3:36]); commit = bytes(body_bytes[36:68])
+    inline, sealed = bool(flags & 1), bool(flags & 2)
+    pos = 68; dump_blob = dump_ref = None
+    if inline:
+        dlen = struct.unpack(">I", body_bytes[pos:pos + 4])[0]; pos += 4
+        dump_blob = _unframe_inner(bytes(body_bytes[pos:pos + dlen])); pos += dlen
+    else:
+        dump_ref = bytes(body_bytes[pos:pos + 32]).hex(); pos += 32
+    records = []
+    for _ in range(n):
+        rl = struct.unpack(">I", body_bytes[pos:pos + 4])[0]; pos += 4
+        records.append(_unframe_inner(bytes(body_bytes[pos:pos + rl]))); pos += rl
+    return {"k": k, "n": n, "sealed": sealed, "inline": inline, "sender_pub": sender_pub,
+            "commit": commit, "dump_blob": dump_blob, "dump_ref": dump_ref, "records": records}
+
+
+def _as_vault(vault):
+    return read_shamir_vault(*vault) if isinstance(vault, tuple) else vault
+
+
+def vault_public_shares(vault):
+    """[(x, share)] for a PUBLIC vault (shares in the clear)."""
+    v = _as_vault(vault)
+    if v["sealed"]:
+        raise ValueError("shares are ECIES-sealed; use vault_open_share per keeper")
+    out = []
+    for (h, b) in v["records"]:
+        p = read_shamir_share_quipu(h, b); out.append((p["x"], p["share"]))
+    return out
+
+
+def vault_open_share(vault, my_privkey):
+    """SEALED vault: return (x, share) for the record `my_privkey` can decrypt."""
+    v = _as_vault(vault)
+    if not v["sealed"]:
+        raise ValueError("public vault — use vault_public_shares()")
+    import coincurve
+    author = coincurve.PublicKey(v["sender_pub"])
+    for (h, b) in v["records"]:
+        try:
+            dec = read_encrypted_quipu(h, b, my_privkey=my_privkey, author_pubkey=author)
+        except Exception:
+            continue
+        if dec.get("magic_ok"):
+            p = read_shamir_share_quipu(dec["inner_header"], dec["inner_body"])
+            return (p["x"], p["share"])
+    raise ValueError("no record decryptable by this key")
+
+
+def vault_reconstruct_key(vault, shares):
+    """shares: list of (x, share_bytes), >= k. Reconstruct + verify against commit."""
+    v = _as_vault(vault)
+    if len(shares) < v["k"]:
+        raise ValueError(f"need >= {v['k']} shares, got {len(shares)}")
+    key = shamir_combine(list(shares)[:v["k"]])
+    if hashlib.sha256(key).digest() != v["commit"]:
+        raise ValueError("reconstruction failed: commitment mismatch")
+    return key
+
+
+def vault_open(vault, keeper_privkeys=None):
+    """One-shot for an INLINE vault: gather shares (per-keeper if sealed, else
+    public), reconstruct the key, decrypt the inline dump, return its inner
+    {inner_header, inner_body, magic_ok, …}. keeper_privkeys needed iff sealed."""
+    v = _as_vault(vault)
+    shares = []
+    if v["sealed"]:
+        for kp in (keeper_privkeys or []):
+            try:
+                shares.append(vault_open_share(v, kp))
+            except Exception:
+                pass
+    else:
+        shares = vault_public_shares(v)
+    key = vault_reconstruct_key(v, shares)
+    if not v["inline"]:
+        raise ValueError("dump is by-reference; fetch v['dump_ref'] and decrypt with the key")
+    dh, db = v["dump_blob"]
+    return read_encrypted_quipu(dh, db, key=key)
+
+
 def build_ecies_quipu(inner_header, inner_body, sender_privkey, recipient_pubkeys, *,
                      title="", tone=TONE_ORDINARY):
     """Build a 0e ec ECIES-broadcast encrypted quipu.
@@ -320,6 +581,142 @@ def build_ecies_quipu(inner_header, inner_body, sender_privkey, recipient_pubkey
 
     body = bytes([len(recipient_pubkeys)]) + envelopes + ciphertext
     return header, body
+
+
+# ---------------------------------------------------------------------------
+# Committed-binding sale box (sub-family 0xcb)
+# ---------------------------------------------------------------------------
+# A 0xcb box is ECIES-sealed to a fresh **session** keypair generated for one
+# sale only. The seller's identity key is the sender. The session_pub is
+# embedded in the body so anyone parsing the bytes can identify the box's
+# recipient pubkey without needing to know who sent it. Pairing: an offer
+# cert (0xcc 0x0003) references this box's join txid and carries an ECDSA
+# adaptor signature that binds revealing session_priv to claiming the offer's
+# bond UTXO. See docs/quipu-syntax/verified-key-sale.md.
+
+def build_cb_box_quipu(inner_header, inner_body, sender_privkey,
+                      session_pubkey, *, title="", tone=TONE_ORDINARY):
+    """Build a 0e cb committed-binding sale box.
+
+    Args:
+        inner_header, inner_body: bytes of the plaintext inner quipu (what's
+            being sold)
+        sender_privkey: coincurve.PrivateKey — the seller's identity key.
+            Sender_pub is recoverable from the box's funding tx scriptSig
+            inputs; the buyer uses it (with session_priv) to derive the
+            shared_key for decryption.
+        session_pubkey: coincurve.PublicKey — the fresh session keypair's
+            pubkey. MUST NOT be the sender's identity key (tooling refuses).
+            The corresponding session_priv is what gets sold via the offer's
+            HTLC bond.
+        title: optional outer-facing public title
+        tone: outer tone byte
+
+    Returns:
+        (header_bytes, body_bytes)
+
+    Body layout:
+        <session_pub:33>           compressed secp256k1 pubkey, T = session_pub
+        <envelope:64>              16 IV + 48 AES-CBC ciphertext of session_key
+        <ciphertext>               AES-CBC(session_key, framed_inner)
+    """
+    if not isinstance(sender_privkey, CCPriv):
+        raise TypeError("sender_privkey must be coincurve.PrivateKey")
+    if not isinstance(session_pubkey, CCPub):
+        session_pubkey = CCPub(bytes(session_pubkey))
+    if sender_privkey.public_key.format() == session_pubkey.format():
+        raise ValueError(
+            "session_pubkey must NOT equal the sender's identity pubkey "
+            "(revealing session_priv would catastrophically compromise the seller)"
+        )
+
+    header = _build_header_prefix(tone, SUB_CB, CB_SALE_V1)
+    header = _append_title(header, title)
+
+    # Derive shared_key for the envelope (same KDF as 0x0e 0xec)
+    shared_key = _shared_key(sender_privkey, session_pubkey)
+    session_key = get_valid_secret()
+    envelope = _ecies.sym_encrypt(shared_key, session_key)
+    if len(envelope) != 64:
+        raise RuntimeError(f"envelope size {len(envelope)} != 64")
+
+    framed = _frame_inner(inner_header, inner_body)
+    ciphertext = _ecies.sym_encrypt(session_key, framed)
+
+    body = session_pubkey.format(compressed=True) + envelope + ciphertext
+    return header, body
+
+
+def read_cb_box_quipu(header_bytes, body_bytes, *, session_privkey=None,
+                     sender_pubkey=None):
+    """Parse and (with the right keys) decrypt a 0e cb sale box.
+
+    Args:
+        header_bytes, body_bytes: from the diamond walker
+        session_privkey: coincurve.PrivateKey, the buyer's recovered session_priv
+        sender_pubkey:   coincurve.PublicKey of the seller's identity (recovered
+                         from the box's funding tx scriptSig). Required for
+                         decryption since the box's body doesn't carry sender_pub.
+
+    Returns:
+        dict:
+            'tone', 'sub_family', 'variant', 'title' — always
+            'session_pub' — 33-byte hex of the box's recipient pubkey
+            If session_privkey AND sender_pubkey supplied AND decryption works:
+                'inner_header', 'inner_body', 'magic_ok'
+    """
+    if header_bytes[:4] != MAGIC:
+        raise ValueError("not a quipu (c1dd0001 missing)")
+    if len(header_bytes) < 8:
+        raise ValueError(f"header too short: {len(header_bytes)}")
+    if header_bytes[4] != TYPE_ENCRYPTED:
+        raise ValueError(f"not encrypted family (type 0x{header_bytes[4]:02x})")
+    if header_bytes[6] != SUB_CB:
+        raise ValueError(f"not a 0e cb sale box (sub-family 0x{header_bytes[6]:02x})")
+
+    tone = header_bytes[5]
+    var = header_bytes[7]
+    title, _ = _split_outer_title(header_bytes[8:])
+
+    if len(body_bytes) < 33 + 64:
+        raise ValueError(f"body too short ({len(body_bytes)}): need >= 33 + 64")
+    session_pub_bytes = bytes(body_bytes[:33])
+    envelope = bytes(body_bytes[33:97])
+    ciphertext = bytes(body_bytes[97:])
+
+    out = {
+        "tone":         tone,
+        "sub_family":   SUB_CB,
+        "sub_name":     "cb",
+        "variant":      var,
+        "title":        title,
+        "session_pub":  session_pub_bytes.hex(),
+    }
+
+    if session_privkey is None or sender_pubkey is None:
+        return out  # parse-only
+
+    if not isinstance(session_privkey, CCPriv):
+        raise TypeError("session_privkey must be coincurve.PrivateKey")
+    if not isinstance(sender_pubkey, CCPub):
+        sender_pubkey = CCPub(bytes(sender_pubkey))
+
+    # Verify the supplied session_privkey actually corresponds to the box's session_pub
+    derived = session_privkey.public_key.format(compressed=True)
+    if derived != session_pub_bytes:
+        raise ValueError(
+            "session_privkey does not derive to the box's session_pub — "
+            "wrong key, or wrong box"
+        )
+
+    shared_key = _shared_key(session_privkey, sender_pubkey)
+    session_key = _ecies.sym_decrypt(shared_key, envelope)
+    framed = _ecies.sym_decrypt(session_key, ciphertext)
+    inner_header, inner_body = _unframe_inner(framed)
+    out["inner_header"] = inner_header
+    out["inner_body"]   = inner_body
+    out["magic_ok"]     = (inner_header[:4] == MAGIC)
+    return out
 
 
 def build_keydrop_quipu(drops, *, title="", tone=TONE_ORDINARY):
@@ -462,10 +859,21 @@ def read_encrypted_quipu(header_bytes, body_bytes, *,
     out = {
         "tone": tone, "sub_family": sub, "variant": var, "title": title,
         "sub_name": {SUB_AES: "aes", SUB_ECIES: "ecies", SUB_DROP: "drop",
-                     SUB_CENTINELA: "centinela"}.get(sub, f"unknown_{sub:02x}"),
+                     SUB_CENTINELA: "centinela", SUB_CB: "cb",
+                     SUB_SHAMIR: "shamir"}.get(sub, f"unknown_{sub:02x}"),
     }
     if sub == SUB_CENTINELA:
         out["title"], out["descriptor"], _ = parse_centinela_header(header_bytes)
+    if sub == SUB_SHAMIR:
+        if var == SHAMIR_VAULT:
+            v = read_shamir_vault(header_bytes, body_bytes)
+            out.update({"vault": True, "k": v["k"], "n": v["n"], "sealed": v["sealed"],
+                        "inline": v["inline"], "n_records": len(v["records"]),
+                        "dump_ref": v["dump_ref"]})
+            return out
+        p = read_shamir_share_quipu(header_bytes, body_bytes)
+        out.update({k: p[k] for k in ("k", "n", "x", "commitment", "ref_txid", "share")})
+        return out
 
     if sub in (SUB_AES, SUB_CENTINELA):
         if key is None:
@@ -521,6 +929,23 @@ def read_encrypted_quipu(header_bytes, body_bytes, *,
             except Exception:
                 continue
         raise ValueError("no envelope decrypted with the given (my_privkey, author_pubkey)")
+
+    if sub == SUB_CB:
+        # Delegate to the dedicated reader, mapping the unified-reader's
+        # kwargs to its interface:
+        #   my_privkey   → session_privkey  (the buyer's recovered key)
+        #   author_pubkey → sender_pubkey   (the seller's identity)
+        cb_out = read_cb_box_quipu(
+            header_bytes, body_bytes,
+            session_privkey=my_privkey,
+            sender_pubkey=author_pubkey,
+        )
+        out["session_pub"] = cb_out["session_pub"]
+        if "inner_header" in cb_out:
+            out["inner_header"] = cb_out["inner_header"]
+            out["inner_body"]   = cb_out["inner_body"]
+            out["magic_ok"]     = cb_out["magic_ok"]
+        return out
 
     if sub == SUB_DROP:
         # Body: <count:2 BE> + N × (<namelen:1><name><txid:32><key:32>) + optional |TITLE|
@@ -786,12 +1211,75 @@ def _selftest_validation():
     print()
 
 
+def _selftest_cb_sale_box():
+    """0x0e 0xcb committed-binding sale box: seal to a fresh session pubkey,
+    decrypt with the session privkey + recovered sender pubkey."""
+    h, b = _build_inner_text()
+    seller_priv = CCPriv(b"\x01" * 32)        # seller's identity key
+    session_priv = CCPriv(b"\x02" * 32)        # fresh per-sale session key
+    oh, ob = build_cb_box_quipu(h, b, seller_priv,
+                                session_priv.public_key,
+                                title="On Custody — Preview",
+                                tone=TONE_REVERENCE)
+    print(f"=== 0x0e 0xcb sale box (single-session-recipient) ===")
+    print(f"  outer header ({len(oh)} B): {oh.hex()[:80]}…")
+    assert oh[5] == TONE_REVERENCE
+    assert oh[6] == SUB_CB
+    assert oh[7] == CB_SALE_V1
+    # session_pub appears in body
+    assert bytes(ob[:33]) == session_priv.public_key.format(compressed=True)
+    print(f"  ✓ header bytes correct; session_pub embedded in body")
+
+    # Parse-only (no keys): get title + session_pub
+    parse_only = read_cb_box_quipu(oh, ob)
+    assert parse_only["title"] == "On Custody — Preview"
+    assert parse_only["session_pub"] == session_priv.public_key.format(compressed=True).hex()
+    assert "inner_header" not in parse_only
+    print(f"  ✓ parse-only yields title + session_pub")
+
+    # Full decrypt with session_priv + sender_pub
+    parsed = read_cb_box_quipu(oh, ob,
+                                session_privkey=session_priv,
+                                sender_pubkey=seller_priv.public_key)
+    assert parsed["inner_header"] == h
+    assert parsed["inner_body"] == b
+    assert parsed["magic_ok"]
+    print(f"  ✓ full decrypt OK with (session_priv, sender_pub)")
+
+    # Wrong session_priv rejected
+    wrong = CCPriv(b"\x99" * 32)
+    try:
+        read_cb_box_quipu(oh, ob,
+                          session_privkey=wrong,
+                          sender_pubkey=seller_priv.public_key)
+        print(f"  ✗ wrong session_priv should have failed")
+    except ValueError as e:
+        print(f"  ✓ wrong session_priv rejected: {e}")
+
+    # Unified reader dispatches to cb path
+    via_unified = read_encrypted_quipu(oh, ob,
+                                       my_privkey=session_priv,
+                                       author_pubkey=seller_priv.public_key)
+    assert via_unified["sub_name"] == "cb"
+    assert via_unified["inner_header"] == h
+    print(f"  ✓ read_encrypted_quipu dispatches to 0xcb path")
+
+    # Refuse to seal to seller's own identity key (would be catastrophic)
+    try:
+        build_cb_box_quipu(h, b, seller_priv, seller_priv.public_key)
+        print(f"  ✗ should have refused sealing to seller's identity")
+    except ValueError as e:
+        print(f"  ✓ refuses to seal to seller's identity: {e}")
+    print()
+
+
 if __name__ == "__main__":
     _selftest_aes_raw()
     _selftest_aes_password()
     _selftest_ecies_single()
     _selftest_ecies_multi()
     _selftest_ecies_multisig_sender()
+    _selftest_cb_sale_box()
     _selftest_keydrop_single()
     _selftest_keydrop_multi()
     _selftest_nested()

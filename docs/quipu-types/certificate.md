@@ -1,13 +1,17 @@
 # Quipu type `0xcc` — Certificate
 
 > **STATUS: CANONICAL v1.** Implemented in
-> [`canonical/cert.py`](../../canonical/cert.py). Two subtypes are
-> in active use on chain: hash certs (`0x0001`) and all-in-one certs
-> (`0x0002`).
+> [`canonical/cert.py`](../../canonical/cert.py). Three subtypes
+> are defined: hash certs (`0x0001`), all-in-one certs (`0x0002`),
+> and sale-offer certs (`0x0003`). The first two are in active use
+> on chain; the third is the verified-key sale offer format (deployed
+> 2026-06-08 as the offer DM transported over Nostr — see
+> [`docs/quipu-syntax/verified-key-sale.md`](../quipu-syntax/verified-key-sale.md)).
 
-A *certificate quipu* carries either a cryptographic attestation
-(hash cert) or a self-contained attestation document (all-in-one cert).
-Both share an 8-byte structural header; the 2-byte subtype field at
+A *certificate quipu* carries one of three shapes: a cryptographic
+attestation (hash cert), a self-contained attestation document
+(all-in-one cert), or a verified-key sale offer (sale offer). All
+three share an 8-byte structural header; the 2-byte subtype field at
 offsets 6..7 picks the body shape.
 
 ---
@@ -21,7 +25,8 @@ offset  bytes              meaning
 0..3    c1 dd 00 01        magic + protocol version 0.1
 4       cc                 type byte = certificate
 5       <tone>             tone byte — see tone.md for the canonical vocabulary
-6..7    <subtype_hi lo>    uint16 BE; 0x0001 = hash, 0x0002 = all-in-one
+6..7    <subtype_hi lo>    uint16 BE; 0x0001 = hash, 0x0002 = all-in-one,
+                          0x0003 = sale-offer
 ```
 
 ### Body — depends on subtype
@@ -48,6 +53,52 @@ Field: value\n …
 
 The pipe preamble is just `|TITLE|`. After it, the body carries the
 attestation content as `Field: value` lines.
+
+**Subtype `0x0003` — sale-offer cert** (verified-key sale):
+
+```
+| TITLE |
+Box: <<txid>>
+SessionPubkey: <hex>
+BondAddress: <P2SH>
+RedeemScript: <hex>
+Price: <satoshi int>
+RefundHeight: <block height int>
+RefundPubkey: <hex>
+SellerPubkey: <hex>
+ClaimTxSighash: <hex>
+AdaptorR: <hex>           ← ECDSA adaptor pre-sig components
+AdaptorRa: <hex>
+AdaptorSa: <hex>
+AdaptorDleqC: <hex>
+AdaptorDleqZ: <hex>
+[PlaintextHash: <hex>]    ← optional belt-and-suspenders binding
+
+Signers:
+seller | <hex pubkey>
+[<role> | <hex pubkey>]*
+
+Signatures:
+seller | <hex sig>
+[<role> | <hex sig>]*
+```
+
+The body has three sections separated by sentinel lines. Fields above
+`Signers:` carry the sale's terms and the ECDSA adaptor pre-signature
+binding `session_priv` to the seller's claim-tx signature. The
+`Signers:` block lists each attesting party's role + identity pubkey;
+the `Signatures:` block carries the signatures themselves.
+
+**Canonical hash range:** `SHA256(body bytes from byte 0 through the
+byte immediately preceding the `Signatures:\n` sentinel, with
+line endings normalised to LF)`. Each signature in the `Signatures:`
+block signs over this hash. The hash range INCLUDES the `Signers:`
+block — so adding, removing, or reordering signers invalidates every
+signature. The `Signatures:` block ITSELF is NOT in the hashed range,
+so signatures can be appended after the fact without invalidating
+existing ones.
+
+Full spec: [`docs/quipu-syntax/verified-key-sale.md`](../quipu-syntax/verified-key-sale.md).
 
 ---
 
