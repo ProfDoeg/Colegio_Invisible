@@ -42,23 +42,91 @@ node or one party's UI, it's a tool.
 
 ### Present and ready
 
-- **`estandarte.py`** — type `0xee`. The protocol's own registry: documents
-  every type byte, subtype, flag, and convention. Self-referential
-  (documents `0xee` itself). Supports amendment chain via `parent_txid` in
-  body header so future versions cite predecessors.
+**Type encoders/decoders** (one module per type byte; each parses from
+bytes alone):
+
+- **`text.py`** — type `0x00`. The base text quipu: magic/type/tone
+  header + pipe-bracketed title + UTF-8 body. Every other type's header
+  builds on this substrate.
+
+- **`essay.py`** — type `0x01`. Markdown essays with `<<txid>>` citations
+  and fenced binding blocks; resolves citations to plain markdown before
+  any renderer runs.
+
+- **`image.py`** — type `0x03`. Bit-packed raster (grayscale or RGB, 1–8
+  bits per channel), width-first dimensions.
+
+- **`book.py`** — type `0x09`. Ordered multi-document container:
+  front/body/back zones, `part/NN` dividers, nested volumes, per-entry
+  display names.
+
+- **`encrypted.py`** — type `0x0e`. The encryption family; sub-family byte
+  at header offset 6: `0xae` AES (symmetric), `0xec` ECIES (per-recipient),
+  `0x0d` key-drop, `0xca` **centinela** (cryptographic canary — AES-sealed
+  claim secret over a bait UTXO, so a spend is tamper-evidence), `0xcb`
+  **committed-binding sale box** (verified-key sale construction — ECIES-sealed
+  to a fresh session keypair paired with a `0xcc 0x0003` offer cert and an
+  ECDSA adaptor pre-signature; see `verified-key-sale.md`), `0x55`
+  **shamir** (K-of-N threshold shares over GF(2⁸); `variant 0x01` is a
+  self-contained vault carrying the dump + all shares). Header parses from
+  bytes alone; decryption needs a key.
+
+- **`adaptor.py`** — ECDSA adaptor signature primitive. Pure-Python on
+  coincurve's secp256k1 primitives; no external dependency beyond what
+  the rest of the project already needs. Used by the verified-key sale
+  (`0x0e 0xcb` box + `0xcc 0x0003` offer cert) to bind the seller's
+  claim-tx signature to revealing `session_priv` upon broadcast. Implements
+  `pre_sign`, `pre_verify`, `complete`, `extract_with_T`, plus a
+  Chaum-Pedersen DLEQ proof (so the binding is committed, not just claimed).
+  Construction follows the Aumayr/Blockstream-style ECDSA adaptor scheme.
+  First deployed on chain 2026-06-08 via the sale at root
+  `f74a53b76bb…` / claim `dd57dbc9…`. Bytes-in/bytes-out, no key custody.
+
+- **`scene.py`** — type `0x3d`. Walkable 3D scene: camera + textured
+  point/photo geometry, pinhole-projectable so it renders to a view from
+  its own bytes.
+
+- **`latex.py`** — type `0x5c`. LaTeX document or plate; `class=` names the
+  document class; `\quiputikz{<<txid>>}` transcludes data by pointer.
+
+- **`bindings.py`** — type `0xab`. Binding overlay: imports, alias chains,
+  string substitution, and anchored multi-paragraph annotations
+  (last-write-wins override).
+
+- **`cert.py`** — type `0xcc`. Certificate: hash-only (`0x0001`) or
+  all-in-one (`0x0002`); the subtype is a 2-byte big-endian dimension.
 
 - **`celestial.py`** — type `0xce`. Encoder/decoder for celestial figures
   (earth or star coordinates, ungrouped or grouped). The grouped subtype
   (high bit `0x80` set in kind byte) lets one inscription carry multiple
   named constellation groups, each with its own point and line sets.
 
-- **`celestial_render.py`** — produces a matplotlib figure from a celestial
-  quipu's bytes alone. No off-chain inputs needed; group colors, legend,
-  labels all derive from on-chain content.
+- **`dancer.py`** — type `0xda`. Motion-sprite dancer: frames + per-frame
+  centroid/displacement + named-transition graph; variants
+  performance / footage / graph / controller.
+
+- **`estandarte.py`** — type `0xee`. The protocol's own registry: documents
+  every type byte, subtype, flag, and convention. Self-referential
+  (documents `0xee` itself). Supports amendment chain via `parent_txid` in
+  body header so future versions cite predecessors.
+
+**Shared machinery** (cross-cutting, imported by the type modules):
+
+- **`tone.py`** — the single source of truth for the tone-byte vocabulary
+  (header offset 5). All type modules import it; adding a tone is a
+  one-file change.
+
+- **`structure.py`** — the shared document-structure rule: the title lives
+  in the header (never the body); `#`=title slot, `##`=first section,
+  `###`=subsection. Imported by essay, book, and the pipeline.
 
 - **`quipu_refs.py`** — implements the `<<txid>><<name>>` citation
   convention: parse, resolve (via fetcher callback), and render a single
   group as a standalone sub-figure.
+
+- **`celestial_render.py`** — produces a matplotlib figure from a celestial
+  quipu's bytes alone. No off-chain inputs needed; group colors, legend,
+  labels all derive from on-chain content.
 
 ### Pending — to be added
 

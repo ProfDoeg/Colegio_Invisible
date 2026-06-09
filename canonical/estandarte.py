@@ -19,7 +19,7 @@ BODY:
     <parent_kind:1>                  0x00 = root, 0x01 = amendment
     [if parent_kind == 0x01]:
         <parent_txid:32>             raw 32-byte txid of parent Estandarte
-                                     (the join-transaction txid of its diamond)
+                                     (the root-transaction txid of its diamond)
     <T:1>                            type entries in this Estandarte
     for each type entry:
         <type_byte:1>                the type byte being documented
@@ -384,6 +384,12 @@ def _example_registry():
             'flags': [],
         },
         {
+            'byte': 0x01, 'name': 'essay', 'status': STATUS_CANONICAL,
+            'desc': 'markdown essay with <<txid>> citations and fenced binding blocks',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
             'byte': 0x03, 'name': 'image', 'status': STATUS_CANONICAL,
             'desc': 'bit-packed raster image, width-first dimensions',
             'dimensions': [
@@ -399,19 +405,45 @@ def _example_registry():
             'flags': [],
         },
         {
+            'byte': 0x09, 'name': 'book', 'status': STATUS_CANONICAL,
+            'desc': 'ordered multi-document container (front/body/back zones, parts, nested volumes)',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
             'byte': 0x0e, 'name': 'encrypted', 'status': STATUS_CANONICAL,
-            'desc': 'AES-wrapped, ECIES broadcast, or key-drop sub-families',
+            'desc': 'AES-wrapped, ECIES broadcast, key-drop, canary, or threshold-share sub-families',
             'dimensions': [
                 {'name': 'sub_family', 'desc': 'which encryption shape', 'values': [
-                    {'value': 0xae, 'name': 'aes',   'desc': 'symmetric AES-CBC wrapper'},
-                    {'value': 0xec, 'name': 'ecies', 'desc': 'per-recipient ECIES envelopes'},
-                    {'value': 0x0d, 'name': 'drop',  'desc': 'released-key drop'},
+                    {'value': 0xae, 'name': 'aes',       'desc': 'symmetric AES-CBC wrapper'},
+                    {'value': 0xec, 'name': 'ecies',     'desc': 'per-recipient ECIES envelopes'},
+                    {'value': 0x0d, 'name': 'drop',      'desc': 'released-key drop'},
+                    {'value': 0xca, 'name': 'centinela', 'desc': 'cryptographic canary: AES-sealed claim secret over a bait UTXO, so a spend is on-chain tamper-evidence'},
+                    {'value': 0x55, 'name': 'shamir',    'desc': 'Shamir K-of-N secret share over GF(2^8) (threshold key-drop; vault variant is self-contained)'},
                 ]},
-                {'name': 'variant', 'desc': 'sub-family-specific qualifier', 'values': [
-                    {'value': 0x00, 'name': 'raw',        'desc': 'AES: raw 32-byte key; ECIES: broadcast; drop: release'},
-                    {'value': 0x01, 'name': 'password',   'desc': 'AES: SHA256(passphrase) key'},
+                {'name': 'variant', 'desc': 'sub-family-specific qualifier (meaning depends on sub_family)', 'values': [
+                    {'value': 0x00, 'name': 'raw',      'desc': 'aes: raw 32-byte key · ecies: broadcast · drop: release · centinela: raw-key seal · shamir: single share'},
+                    {'value': 0x01, 'name': 'password', 'desc': 'aes: SHA256(passphrase) key · centinela: passphrase seal · shamir: self-contained vault (dump + all shares in one quipu)'},
                 ]},
             ],
+            'flags': [],
+        },
+        {
+            'byte': 0x3d, 'name': 'scene', 'status': STATUS_CANONICAL,
+            'desc': 'walkable 3D scene: camera + textured point/photo geometry (pinhole-projectable)',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
+            'byte': 0x5c, 'name': 'latex', 'status': STATUS_CANONICAL,
+            'desc': 'LaTeX document or plate; class= names the document class, \\quiputikz transcludes data by pointer',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
+            'byte': 0xab, 'name': 'binding', 'status': STATUS_CANONICAL,
+            'desc': 'binding overlay: imports, alias chains, string substitution, and anchored annotations',
+            'dimensions': [],
             'flags': [],
         },
         {
@@ -445,6 +477,19 @@ def _example_registry():
             'flags': [],
         },
         {
+            'byte': 0xda, 'name': 'dancer', 'status': STATUS_CANONICAL,
+            'desc': 'motion-sprite dancer: frames + per-frame centroid/displacement + named-transition graph',
+            'dimensions': [
+                {'name': 'variant', 'desc': 'which dancer record', 'values': [
+                    {'value': 0x01, 'name': 'performance', 'desc': 'a played sequence of frames'},
+                    {'value': 0x02, 'name': 'footage',     'desc': 'raw frame atlas (inline or by-ref)'},
+                    {'value': 0x03, 'name': 'graph',       'desc': 'named-transition graph between clips'},
+                    {'value': 0x04, 'name': 'controller',  'desc': 'control-mode bindings (uniform/weighted/boltzmann/quantum/keyboard)'},
+                ]},
+            ],
+            'flags': [],
+        },
+        {
             'byte': 0xee, 'name': 'estandarte', 'status': STATUS_CANONICAL,
             'desc': 'self-referential protocol registry (this type)',
             'dimensions': [],
@@ -456,7 +501,7 @@ def _example_registry():
         {
             'name':   'diamond',
             'syntax': 'root(N outputs) -> N strands of OP_RETURN chains -> join(N inputs)',
-            'desc':   'multi-tx inscription pattern; the join txid is the canonical inscription ref',
+            'desc':   'multi-tx inscription pattern; the root txid is the canonical inscription ref',
         },
         {
             'name':   'citation',

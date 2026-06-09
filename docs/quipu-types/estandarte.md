@@ -42,7 +42,7 @@ tone — disclosure of the protocol is not an intimate act).
 ```
 <parent_kind:1>                  00 = root, 01 = amendment
 [if parent_kind == 01]:
-    <parent_txid:32>             raw 32-byte txid of parent's join tx
+    <parent_txid:32>             raw 32-byte root txid of parent Estandarte
 <T:1>                            count of type entries
 for each type entry:
     <type_byte:1>                the type byte being documented
@@ -83,10 +83,16 @@ zero, one, or many dimensions:
 | type | dimensions |
 |---|---|
 | `0x00` text | (none — only header fields are magic/type/tone/title) |
+| `0x01` essay | (none) |
 | `0x03` image | `color`, `bit_depth` |
-| `0x0e` encrypted | `sub_family`, `variant` |
+| `0x09` book | (none) |
+| `0x0e` encrypted | `sub_family` (`aes`/`ecies`/`drop`/`centinela`/`shamir`), `variant` |
+| `0x3d` scene | (none) |
+| `0x5c` latex | (none) |
+| `0xab` binding | (none) |
 | `0xcc` cert | `subtype` (2 bytes big-endian, treated as one 16-bit dimension) |
 | `0xce` celestial | `kind`, `grouped`, `meta` |
+| `0xda` dancer | `variant` (`performance`/`footage`/`graph`/`controller`) |
 | `0xee` estandarte | (none) |
 
 A **flag** is a single bit within a byte that's set independently of
@@ -117,8 +123,8 @@ declaring the protocol is constitutional, not intimate.
 
 An Estandarte either is the *root* (no parent — `parent_kind = 00`)
 or an *amendment* (`parent_kind = 01` followed by a 32-byte parent
-txid). The parent txid is the **join transaction txid** of the
-parent's diamond.
+txid). The parent txid is the **root transaction txid** of the
+parent Estandarte (the inscription's canonical identifier).
 
 `resolve_estandarte_chain(leaf_txid, fetcher)` walks the chain from
 any leaf back to the root, accumulating entries. Override semantics:
@@ -140,7 +146,7 @@ protect against malformed input.
 from estandarte import read_estandarte_quipu, format_estandarte
 from colegio_tools import fetch_quipu_bytes
 
-blob = fetch_quipu_bytes(estandarte_join_txid)
+blob = fetch_quipu_bytes(estandarte_root_txid)
 header, body = blob[:6], blob[6:]
 parsed = read_estandarte_quipu(header, body)
 print(format_estandarte(parsed))
@@ -162,10 +168,11 @@ print(f"merged types: {len(result['types'])}")
 ## Inscription path
 
 An Estandarte is inscribed as a single diamond. With the canonical
-type set (text, image, cert, encrypted, celestial, estandarte) plus
-the four cross-cutting conventions, the v1 registry encodes to
-~2 KB — well within a 5-strand diamond's capacity (5 strands × ≤25
-knots × 80 bytes/knot = ~10 KB).
+type set (text, essay, image, book, encrypted, scene, latex, binding,
+cert, celestial, dancer, estandarte) plus the four cross-cutting
+conventions, the v1 registry encodes to a few KB — well within a
+5-strand diamond's capacity (5 strands × ≤25 knots × 80 bytes/knot =
+~10 KB).
 
 The Estandarte is the **last** thing inscribed in a protocol freeze.
 Inscribing it before all its referenced types are stable would
