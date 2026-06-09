@@ -2,7 +2,7 @@
 
 > **STATUS: CANONICAL v1.** Implemented in
 > [`canonical/dancer.py`](../../canonical/dancer.py). First on chain as
-> the **Jeremy** performance (join `e1be6faa4eb5750cbd4d96f5328d0d007a7b6288162e3667f82f6dd565080439`,
+> the **Jeremy** performance (root `6de4688a945fb03f41f9b1139c83f5099dd309378348398d4b52ce1c1d12a489`,
 > block 6,230,020, apocrypha address).
 
 A *dancer quipu* is a **controllable motion-sprite**: a creature that

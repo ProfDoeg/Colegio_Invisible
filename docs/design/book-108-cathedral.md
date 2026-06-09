@@ -20,8 +20,9 @@ list-of-quipus pattern.
 
 **1. Each essay is a self-contained pair.** Every one of the 108 essays
 is inscribed alongside a photograph of its handwritten copy. The pair
-(prose + image) is joined into a single canonical outpoint — the
-**per-essay-join**. That outpoint's txid is the essay's identity.
+(prose + image) is bound by a small wrapping `0x09` book quipu whose
+two entries are the prose and the image — the **per-essay-pair**. The
+pair's root txid is the essay's canonical identifier.
 
 **2. The book grows out of the essays.** The book-level apparatus —
 forward, introduction, structure description, concept-map analysis —

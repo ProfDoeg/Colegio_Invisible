@@ -91,7 +91,7 @@ def resolve_ref(txid, name, fetcher):
     Returns:
         dict with keys:
             'parent_title':  title of the parent celestial quipu
-            'parent_txid':   the join txid as given
+            'parent_txid':   the root txid as given
             'name':          the name as given
             'kind':          'group' (matched a group) or 'point' (matched a single point)
             'tone':          tone byte of the parent quipu

@@ -118,7 +118,7 @@ still gets valid UTF-8 prose back:
 
 ### Citations
 
-- `<<txid>>` — refers to a whole inscription (the join txid).
+- `<<txid>>` — refers to a whole inscription (the root txid).
 - `<<txid>><<name>>` — refers to a named group or point inside another
   celestial quipu (resolved via `quipu_refs.resolve_ref`).
 - `<<alias>>` — refers to an alias that must be resolved against an

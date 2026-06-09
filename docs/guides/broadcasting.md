@@ -267,4 +267,4 @@ recovery is almost always **relaunch and let it resume** — not manual surgery.
 - **Broadcasting spends real funds.** It runs only with explicit authorization
   (funder, tip, and go-ahead). Signing is safe to run any time; it spends
   nothing and is fully reversible.
-- The cited identifier for a finished inscription is its **join txid**.
+- The cited identifier for an inscription is its **root txid** (known the moment the root is signed; the join only exists after every strand has closed).

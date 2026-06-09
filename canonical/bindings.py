@@ -341,7 +341,7 @@ def evaluate(binding_txid, fetcher, *, p_pristine=None, visited=None,
     """Evaluate a binding quipu, returning its final BindingDict.
 
     Args:
-        binding_txid: hex string of the binding's join txid (or any unique
+        binding_txid: hex string of the binding's root txid (or any unique
                       identifier the fetcher accepts).
         fetcher:      callable(txid_hex) -> bytes  (concatenated header+body
                       of any quipu).
