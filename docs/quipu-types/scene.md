@@ -1,7 +1,12 @@
 # Quipu type `0x3d` — Scene
 
-> **STATUS: DRAFT, version 1.** Not yet implemented in `canonical/scene.py`.
-> No inscriptions of this type exist on chain. Designed to make the
+> **STATUS: CANONICAL, version 1.** Implemented in `canonical/scene.py`
+> (builder + reader + accessors + slerp; `walk_scene_tree` and
+> `evaluate_animation` deferred to v1.1). First inscription on chain:
+> **Cementerio de los Animales**, root
+> `1f63558bdee2f5ead118083ff0af0d5e266acaf347938c5ed2722b6ced1248e3`
+> (block 6,217,246). Renderers: `scene_viewer.py` (WebGL walkthrough)
+> and `scene_to_tikz.py` (projected vector plate). Designed to make the
 > chain walkable — to give quipus spatial positions, rotations, and
 > animations, so a viewer can stand inside a corpus and look around.
 

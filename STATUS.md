@@ -1,66 +1,101 @@
 # Status — Colegio Invisible toolkit
 
-Last updated: 2026-05-14
+Last updated: 2026-06-09
 
 ## Where the corpus is
 
-**25 quipus on chain.** 23 historical (2022-2024) plus 2 inscribed during
-the May 2026 resurrection sprint:
+The May 2026 resurrection sprint (Atom, Sabina — see git history for
+details) grew into a sustained inscription campaign. Milestones since,
+in chain order:
 
-- **Atom** (`424538b815be4cdf85e4b74e3b222bb79c2f8b87ca125ba6f231cf2cabcc711c`)
-  — text quipu on apocrypha, 2026-05-11. Khamsa description in 4 strands
-  (1 cabeza + 3 body). First production use of `CadenaAtom`'s precompute-then-
-  broadcast pattern.
+- **Encrypted family `0x0e`** (2026-05-14) — keydrop auto-resolution plus
+  the `0xae` AES-sealed sub-family, with test pairs on apocrypha.
+- **Cementerio de los Animales** — first `0x3d` scene on chain, root
+  `1f63558bdee2f5ead118083ff0af0d5e266acaf347938c5ed2722b6ced1248e3`
+  (block 6,217,246, apocrypha). A companion essay followed at block
+  6,217,650.
+- **Dos ensayos** — first `0x09` book, root
+  `26671514416913719c560a4ac1246e333e410d2503e298a8a6852031c3285888`
+  (block 6,217,912, apocrypha). Shipped together with the v2 binding
+  grammar.
+- **El Libro del Gólem** — meta-book from the multiman 2-of-2 multisig,
+  root `7b19fb2bf42e8882ae7bc71ef0f4095f2b2982885728b761101d96efdb338811`
+  (block 6,218,023). 13 quipus. The multisig write path (`QuipuMulti`)
+  is proven here.
+- **Jeremy** — first `0xda` dancer, root
+  `6de4688a945fb03f41f9b1139c83f5099dd309378348398d4b52ce1c1d12a489`,
+  22,377 knots. Inscribed with round-robin strand interleaving — a
+  documented exception; the canonical convention is contiguous
+  knot-aligned ranges and reading Jeremy requires the interleaver in
+  `load_from_chain.py`.
+- **Caity** — second `0xda` dancer, root
+  `fcff6aa28113cfa1a0323dd41f8a65a88d0bc372601fdff0eb177825023e7826`
+  (block 6,232,978). 255 strands / 29,082 knots, contiguous — reads
+  directly.
+- **Gana forest** — 17 quipus inscribed as one consolidated diamond
+  (block 6,237,154, 2026-06-06): essays, margin banners, images around
+  the Goethe / Italian Journey lineage. 178 strands / 3,714 knots /
+  ~96 DOGE. First production run of the `quipu_diamond.py` engine.
+- **El Centinela** — cryptographic-canary primitive (`0x0e 0xca`):
+  an AES-sealed secret unlocks a bait UTXO, so a spend is on-chain
+  tamper evidence. Three lock modes validated on mainnet at block
+  6,237,951.
+- **Verified-key sale** (2026-06-08) — `0x0e 0xcb` sealed box +
+  `0xcc 0x0003` sale offer bound by ECDSA adaptor signatures
+  (`canonical/adaptor.py`).
+- **Nostr personas** (2026-06-08) — El Gólem and El Ermitaño npubs
+  declared and verified against the multiman keys; signing/transport
+  in `canonical/nostr.py`, design in `docs/guides/nostr-integration.md`.
 
-- **Sabina** (`c50b4881bb224b8f6a2d2ff7924dc10b3a9078ab5d50532309d5517f10a62f6b`)
-  — image quipu on apocrypha, 2026-05-11. 100×50 grayscale 5-bit portrait,
-  reverence tone, 4 strands closed by joining tx
-  `b2532785620ee7750631b24cb382948913751cc0b093d51285e3a07a71ac1002`.
-  First inscription using the multi-wave broadcast + joining-tx termination
-  pattern. **Note**: the dimensions in Sabina's header are stored
-  `(H, W)` rather than the historical `(W, H)` — so it renders transposed
-  through any decoder following the canonical convention. Apocrypha-style
-  documented exception, not a convention.
+`data/quipu_data.csv` holds 58 decoded quipus and is current through
+block 6,218,023 (El Libro del Gólem). Caity, the Gana forest, the
+Centinela txs, and the sale txs are not in it yet — refresh with
+`update_quipu_data.py` (or notebook 60) next time the node is up.
 
 ## What works end-to-end
 
-- **Read pipeline**: `colegio_tools.scan_accounts` + `find_quipu_roots` +
-  `read_quipu` decode every historical quipu correctly. Validated against
-  all 23 historical inscriptions.
-- **Write pipeline**: `Cadena`, `CadenaAtom` (single strand), and the new
-  `Quipu` orchestrator (multi-strand, two-phase) — all proven on chain.
-- **Two-phase quipu pattern (the diamond)**: consolidation → root tx →
-  parallel strand broadcast → joining tx → consolidated UTXO. Each quipu
-  opens from one input and closes to one output. Implemented in
-  `quipu_orchestrator.py:Quipu`.
-- **Streamlit interface (`quipu_console.py`)**: four tabs covering
-  - Plan (text or image authoring with live encoding preview)
-  - Inscribe (two-phase build, with phase buttons and confirm-waits)
-  - Read (any quipu by txid)
-  - Wallet (UTXO tree + force-directed history topology with click-to-popup
-    showing decoded content for every quipu rooted at the address)
-- **Address-history view**: every quipu rooted at an address rendered as a
-  force-directed network with click-to-inspect popups containing the
-  decoded image / text / identity / cert body and full header metadata.
-- **Pruned-mode RPC**: connection-pooled via `requests.Session()` so
-  scan_accounts on bordado (15k+ wallet txs) doesn't exhaust ephemeral
-  ports.
+- **Read pipeline**: `data/quipu_data.csv` + `data/bodies/{txid}.bin` is
+  the working dataset for any read; `update_quipu_data.py` refreshes it
+  from the node. `colegio_tools` retains the live RPC readers.
+- **Write pipeline**: `Cadena` / `CadenaAtom` (single strand), `Quipu` /
+  `QuipuMulti` orchestrators (two-phase, single-sig and m-of-n), and
+  `quipu_diamond.py` (many quipus in one funding tree, every tx priced
+  by measured size). All proven on chain.
+- **Broadcast at scale**: sign offline, then keyless resumable broadcast
+  under a supervisor (`quipu_broadcast.py`), watched live by
+  `quipu_loom.py`. Procedure in `docs/guides/broadcasting.md`. When a
+  long broadcast stalls, relaunch and let it resume.
+- **Canonical spec package**: `canonical/` implements builder + reader
+  pairs for all twelve type bytes, with `tone.py` as the single tone
+  source and embedded on-chain test vectors.
+- **Publication**: `quipu_resolver.py` dispatches any txid to its
+  renderer (scene walkthrough, book/essay PDF, image/celestial PNG) and
+  registers the `quipu:` URI scheme; `colegio_pipeline.py` renders
+  essays and books through `latex/colegio/colegio.cls`.
+- **Streamlit interfaces**: `quipu_console.py` (plan / inscribe / read /
+  wallet) and `quipu_viewer.py` (corpus graph with decode popups).
 
 ## What's still open
 
-- **La Verna bordado certificate** (`a90fb985f7c12eb4abb2cb4d9e77e1636902df1fb203e7f13e0a367e20e9d019`)
-  — 5 outputs at 456 DOGE each, awaiting strands. cc 0002 type.
-- **Third bordado certificate** (`891126982a29a5eda4d67e1d0f45279c1d109a7fc5351e932bafb89c1aa9cd9c`)
-  — also 5 outputs at 456 DOGE each, awaiting strands.
-- Both need: the bordado witness keys (Hayagriva + Christophia + Anthony,
-  files in `~/Desktop/cinv/`, password-protected unlike apocrypha) and a
-  multisig version of the two-phase Quipu orchestrator. `CadenaMultiAtom`
-  exists in colegio_tools but the orchestrator wrapper and PSBT-style
-  signer-coordination workflow aren't yet built.
-- **Spec docs** for: text essay markup with bindings, celestial figures
-  (`0xce`), bindings type (`0xab`), encryption + strand termination — all
-  drafted in `docs/quipu-syntax/` and `docs/quipu-types/`. Not yet
-  implemented in `colegio_tools.py`.
+- **Dataset refresh** — see above; the CSV trails the chain by ~19,000
+  blocks of inscriptions.
+- **Estandarte v1** — the `0xee` registry type is implemented and
+  documented but not yet inscribed. When it goes up it should flag the
+  two pre-canonical inscriptions (`20db7d45…`, `a2e9f2eb…`) as
+  deprecated.
+- **0xda spec finalization** — deferred until new dancer datasets are
+  ready; data model converged (frames + per-frame centroid +
+  displacement + named-transition graph).
+- **Book of 108** — the long-term consolidated fractal-diamond
+  publication; design in `docs/design/book-108-cathedral.md`.
+- **Museum / wilds / pet cemetery** — three-zone walkable corpus on
+  `0x3d`; the cemetery validated the primitive.
+- **Test harness** — `test_quipu_crypto.py` (23/23) and the canonical
+  self-tests exist but are not wired into a pytest runner or CI.
+- **Notebook reorganization** — the 20 cuadernos are moved to
+  `notebooks/` in the working tree but the move is not committed.
+- **`tag-architecture` branch** — design docs for tag architecture and
+  corrected sale choreography, unmerged.
 
 ## How to launch
 
@@ -77,24 +112,21 @@ cd ~/Desktop/Colegio_Invisible
 In the sidebar: load the apocrypha key (default path is
 `~/Desktop/cinv/llaves/mi_prv.enc`, empty-string password).
 
-## Apocrypha balance
-
-After Sabina's joining tx: **1 UTXO of 16.85 DOGE** at apocrypha
-(`D6zKNnkupqRbkB9p5rwix8QiobQWJazjyX`). Single clean input ready for the
-next inscription's Phase 1 root tx.
+For a large inscription, read `docs/guides/broadcasting.md` first; for
+many quipus at once, `docs/guides/consolidated-diamond.md`.
 
 ## Files of record
 
-- `colegio_tools.py` — main library (RPC + cryptography + image bit-codec +
-  Cadena writers + scan_accounts/find_quipu_roots/read_quipu readers)
-- `quipu_orchestrator.py` — `Quipu` class for two-phase build with
-  state machine (INIT → ROOT_BUILT → ROOT_BROADCAST → ROOT_CONFIRMED →
-  STRANDS_PRECOMPUTED → STRANDS_BROADCAST → STRANDS_CONFIRMED →
-  JOIN_BUILT → JOIN_BROADCAST → DONE)
-- `quipu_console.py` — Streamlit UI
-- `quipu_crypto.py` — five seal mechanisms (password / key-drop / ECIES with
-  combined keys for multi-keyholder thresholds), validated by 23/23 tests
-- `requirements.txt` — pinned dependencies
-- `docs/quipu-types/` and `docs/quipu-syntax/` — DRAFT specs (celestial,
-  bindings, essay markup, encryption + strand termination)
-- `quipu_header_bytes.md` — observed header byte conventions across the corpus
+- `canonical/` — the protocol: builder/reader pairs for every type byte,
+  `tone.py`, `structure.py`, `adaptor.py`, `nostr.py`
+- `colegio_tools.py` — RPC, keys, Cadena writers, legacy readers
+- `quipu_diamond.py` — consolidated-diamond builder (size-priced fees)
+- `quipu_orchestrator.py` — `Quipu` / `QuipuMulti` two-phase state machines
+- `quipu_broadcast.py` — keyless idempotent broadcast primitives
+- `quipu_console.py`, `quipu_viewer.py`, `quipu_loom.py` — interfaces
+- `quipu_resolver.py`, `scene_viewer.py`, `colegio_pipeline.py` — publication
+- `update_quipu_data.py` — dataset refresh; `data/quipu_data.csv` +
+  `data/bodies/` — the working dataset
+- `docs/quipu-types/`, `docs/quipu-syntax/`, `docs/guides/` — specs and
+  operating procedures
+- `quipu_header_bytes.md` — observed header byte conventions
