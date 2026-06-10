@@ -565,20 +565,26 @@ why no new machinery is needed:
    token in every final body must be a root of its own diamond, a known
    txid, or explicitly declared; the build refuses, the broadcaster
    refuses. See `docs/guides/broadcasting.md` § Preflight.
-3. **Overwrite it after.** A subsequent project-level `0xab` binding —
-   nothing more. `<<bad>>=<<good>>` aliases redirect any reference,
-   corpus-wide, for every binding-aware reader; last-write-wins means
-   the NEXT project binding supersedes it in turn. References are
-   overridable BY DESIGN: a bundle's cross-references do not need to be
-   perfect-and-final at inscription, because the binding layer is the
-   corpus's standing indirection. The worked case: the orrery's phantom
-   is healed by one alias line in the project's next binding quipu
-   (`working/heal_orrery/`).
+3. **Overwrite it after — at the flawed quipu's own address.** A
+   subsequent `0xab` binding, nothing more, published FROM THE SAME ROOT
+   ADDRESS as the work it corrects. This is the **locus rule**: the
+   correction must be retrievable from local context — a reader holding
+   the flawed quipu derives its address from its own transactions and
+   scans that address's later inscriptions; no global registry, no
+   curated binding list, no corpus-wide sweep. (The sourced keydrop is
+   the precedent: the fix-object is the locus for retrieving the data.)
+   `<<bad>>=<<good>>` aliases redirect; last-write-wins means the next
+   binding at the same address supersedes in turn; alias chains follow.
+   References are overridable BY DESIGN: a bundle's cross-references do
+   not need to be perfect-and-final at inscription. Reader side:
+   `colegio_pipeline.corrected_fetcher` implements the rule (a missing
+   ref retries through the source's own later corrections); the worked
+   case is the orrery's phantom (`working/heal_orrery/`).
 
 This is deliberately NOT a per-textile mechanism (no special outputs,
-no errata channels): corrections live at project level, in the same
-primitive that handles vocabulary, and accumulate in the project's
-binding chain like everything else.
+no errata channels) and NOT a global one (no project registry a reader
+must know about): corrections live at the address level — the one
+piece of context every quipu carries in its own bytes.
 
 ## Why `0xab` is its own type
 
