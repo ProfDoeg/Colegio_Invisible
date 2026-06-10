@@ -42,18 +42,20 @@ ART_DIR = os.path.join(HERE, "artifacts")
 
 
 def build_blob():
-    """The v4 CATALOG form, delimited: default subject, then the load
-    references (corrections) and the resolution table (subjects) in
-    sections separated by comment-line rules — structure for the human
-    eye and section-aware tooling, inert to every resolver. Citing this
-    binding CALLS the orrery, healed; <<this>><<orrery>> calls it by
-    name. See bindings.md § v4."""
+    """The v4 CATALOG, full table-of-contents form: default subject, the
+    load references (corrections), and a resolution table naming EVERY
+    member of the Gana forest. Each sibling is callable healed as
+    <<this>><<name>> by any lens-aware reader — no locus machinery, no
+    dataset: the corrections ride every call explicitly. The catalog is
+    the forest's front door. See bindings.md § v4."""
     from bindings import build_binding_quipu
-    body = ("<<%s>>\n" % ORRERY +                  # default subject (bare call)
-            "______ corrections ______\n" +
-            "<<%s>>=<<%s>>\n" % (PHANTOM, BODE) +  # the healing
-            "______ subjects ______\n" +
-            "<<orrery>>=<<%s>>\n" % ORRERY)        # named subject (catalog form)
+    idx = json.load(open(os.path.join(REPO, "working/lineage/artifacts/index.json")))
+    body = "<<%s>>\n" % ORRERY                     # default subject (bare call)
+    body += "______ corrections ______\n"
+    body += "<<%s>>=<<%s>>\n" % (PHANTOM, BODE)    # the healing
+    body += "______ subjects ______\n"
+    for p in idx["pieces"]:                        # the forest, by name
+        body += "<<%s>>=<<%s>>\n" % (p["pid"], p["root"])
     h, b = build_binding_quipu(body, tone=0x00)
     return h + b
 
