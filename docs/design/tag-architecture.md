@@ -128,10 +128,17 @@ renewable thread is the natural shape from the start.
 
 ## Economics
 
-Each cycle (specialization + recovery if sale fails) consumes roughly
-three small tx fees (~0.0008 DOGE total at 0.1 DOGE/KB). With a 0.05
-DOGE seed, the tail survives ~60 sequential failed sales before
-dropping below dust.
+> Corrected 2026-06-10 with sizes measured by the implementation's
+> self-test (`quipu_tags.py`). The original draft underestimated fees
+> by ~100×.
+
+At the canonical FeePolicy rate of 0.10 DOGE/KB, a specialization tx
+(~250 B) costs ~0.026 DOGE and a two-input claim ~0.062 DOGE — a full
+specialize+claim cycle is **~0.09 DOGE in fees**. A failed-sale cycle
+(specialization + refund recovery) is similar. A 0.05 DOGE seed
+therefore does not cover even one cycle's fees; seeds must be sized to
+the fee regime: **~1 DOGE seeds ≈ 10 sequential failed cycles** before
+the tail drops below dust.
 
 Two replenishment mechanisms keep the thread alive:
 
@@ -144,33 +151,44 @@ Two replenishment mechanisms keep the thread alive:
    sale tops the tail back to its starting size. The thread is
    self-sustaining as long as sales eventually happen.
 
-A healthy seller's budget: seed the tail with ~0.5 DOGE at inscription
-(generous cushion for ~600 sequential failures), and have the claim tx
-skim 0.05 DOGE per success. The tail then operates as a tiny economic
-ratchet — slowly losing in failures, restoring in successes, with the
-seller's intervention needed only if the failure rate is absurd.
+A healthy seller's budget: seed the tail with **~1 DOGE** at
+inscription (cushion for ~10 sequential failures), and have the claim
+tx skim **~0.1 DOGE** per success — enough to fund the next
+specialization's fee (~0.026) and still leave a meaningful bond seed.
+The tail then operates as a tiny economic ratchet — slowly losing in
+failures, restoring in successes, with the seller's intervention
+needed only if the failure rate is absurd.
 
 ## What needs to be built
 
 In order of dependency:
 
-1. **Diamond engine support for tag outputs.** `quipu_diamond.py`
-   currently consumes every strand terminus into the mega-join. Add an
-   option to reserve one or more root outputs as tags — their
-   scriptPubKey set per use case, sitting unspent after inscription.
-   ~100-150 lines.
-2. **Tag-location header convention.** A small `tag=<index>` field in
-   the box's header tail (or in the cert's body) naming which output
-   is the tag, so the reader doesn't have to infer it from structure.
-   ~30 lines in `canonical/encrypted.py` (and similar for any other
-   content type that wants to carry tags).
-3. **Tag specialization builder.** Function that takes the current tag
-   UTXO + buyer's refund pubkey + sale terms and produces an unsigned
-   specialization tx with `(bond, new tag)` outputs. ~80 lines.
-4. **Auto-resolver extension.** The reader walks textile → tag →
-   tag's spend → bond → claim → `session_priv`. Plus handle the case
-   where the joint tx also produces a continuation tag for the next
-   sale. ~80 lines.
+1. **Diamond engine support for tag outputs.** ✅ BUILT 2026-06-10 —
+   `tags_of` parameter in `quipu_diamond.build_consolidated_diamond`:
+   tag outputs placed AFTER the strand seeds (vout = n_strands + k) so
+   `read_quipu`'s walk is untouched; excluded from the mega-join; tag
+   values accounted like fees; recorded in artifacts/index.json.
+2. **Tag-location header convention.** PARTIAL — `quipu_tags.tag_field`
+   formats the `tag=<index>` value; wiring it into a type's header tail
+   (`canonical/encrypted.py` etc.) still to do. Structural detection
+   works without it.
+3. **Tag specialization builder.** ✅ BUILT —
+   `quipu_tags.build_specialization_tx`: tag → bond P2SH + optional
+   continuation, fee by measured size, dust-guarded.
+4. **Auto-resolver extension.** PARTIAL — the structural reader exists
+   (`quipu_tags.classify_root_outputs` / `find_tags` / `follow_thread`,
+   index-agnostic via injected callables; `tag_status` via local RPC),
+   and `build_claim_with_continuation` builds the renewable claim.
+   Still to do: the sale-specific walk that lands on the claim and
+   extracts `session_priv` from its scriptSig (compose with
+   `working/sale/extract_and_decrypt.py`).
+
+**Continuation convention (settled during build):** a thread spend's
+vout 0 is always the event's principal output (bond, profit, release);
+the continuation tag sits at **vout ≥ 1** with the thread's
+scriptPubKey. Matching by script alone is ambiguous — a claim's profit
+can pay the same address as its skim. Builders must not emit change at
+the thread's scriptPubKey in no-continuation spends (use all-in).
 
 ## Open design choices
 

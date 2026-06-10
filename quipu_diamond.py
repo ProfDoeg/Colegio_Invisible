@@ -147,7 +147,7 @@ def _measure_tx_size(n_in, n_out, priv, address, dogecs):
 # ===========================================================================
 def build_consolidated_diamond(pieces, placeholder_of, utxo, priv, address,
                                fee_policy=None, cap=STRAND_CAP,
-                               extra_placeholders=None, log=print):
+                               extra_placeholders=None, tags_of=None, log=print):
     """Build + sign a consolidated diamond. Deterministic; broadcasts nothing.
 
     pieces            ordered list of (pid, full_quipu_blob_bytes). Order fixes
@@ -159,6 +159,14 @@ def build_consolidated_diamond(pieces, placeholder_of, utxo, priv, address,
     fee_policy        FeePolicy (default FeePolicy()).
     extra_placeholders  optional {placeholder_hex: target_pid} for non-pid aliases
                       (e.g. a body's internal cross-reference to another piece).
+    tags_of           optional pid -> [{"value": sat, "address": str}, ...].
+                      Each tag becomes an EXTRA output of that piece's root,
+                      placed AFTER the strand seeds (vout = n_strands + k), with
+                      the given scriptPubKey (P2PKH or P2SH address) and value.
+                      Tags seed no OP_RETURN chain and are NOT consumed by the
+                      mega-join — they sit unspent after inscription, dangling
+                      off the textile (see docs/design/tag-architecture.md).
+                      Tag values are spent out of the funder UTXO like fees.
 
     Returns a dict of artifacts (see write_artifacts).
     """
@@ -166,6 +174,11 @@ def build_consolidated_diamond(pieces, placeholder_of, utxo, priv, address,
     dogecs = cryptos.Doge()
     assert dogecs.privtoaddr(priv) == address, "key does not derive the funder address"
     total_in = utxo["value"]
+    tags_of = tags_of or {}
+    for pid, tags in tags_of.items():
+        assert pid in dict(pieces), "tags_of names unknown piece %r" % pid
+        for t in tags:
+            assert t["value"] >= 100_000, "tag %r below dust (0.001 DOGE)" % t
 
     # 1. split every piece (header = strand 0)
     quip = {}
@@ -184,17 +197,24 @@ def build_consolidated_diamond(pieces, placeholder_of, utxo, priv, address,
     join_size = _measure_tx_size(total_strands, 1, priv, address, dogecs)
     split_fee = fp.fee_for_bytes(split_size)
     join_fee = fp.fee_for_bytes(join_size)
-    root_fee = {}
+    root_fee, tag_sat = {}, {}
     for pid, q in quip.items():
-        root_fee[pid] = fp.fee_for_bytes(_measure_tx_size(1, len(q["strands"]), priv, address, dogecs))
+        tags = tags_of.get(pid, [])
+        tag_sat[pid] = sum(t["value"] for t in tags)
+        root_fee[pid] = fp.fee_for_bytes(
+            _measure_tx_size(1, len(q["strands"]) + len(tags), priv, address, dogecs))
     strand_fees = total_knots * knot_tip
     total_root_fees = sum(root_fee.values())
+    total_tag_sat = sum(tag_sat.values())
     log(fp.describe())
     log("  splitter %s (%dB) · roots Σ%s · join %s (%dB) · knots %s (%d×%s)"
         % (doge(split_fee), split_size, doge(total_root_fees),
            doge(join_fee), join_size, doge(strand_fees), total_knots, doge(knot_tip)))
+    if total_tag_sat:
+        log("  tags %s across %d outputs (left unspent, excluded from the join)"
+            % (doge(total_tag_sat), sum(len(v) for v in tags_of.values())))
 
-    final_out = total_in - split_fee - total_root_fees - strand_fees - join_fee
+    final_out = total_in - split_fee - total_root_fees - strand_fees - join_fee - total_tag_sat
     if final_out < DUST_FLOOR_SAT:
         need = total_in - final_out + DUST_FLOOR_SAT
         raise ValueError("insufficient funds: have %s, need >= %s" % (doge(total_in), doge(need)))
@@ -208,20 +228,24 @@ def build_consolidated_diamond(pieces, placeholder_of, utxo, priv, address,
         for k in q["knots"]:
             term = base_term + (remainder if g == 0 else 0)
             q["seeds"].append(k * knot_tip + term); g += 1
-        q["root_input"] = sum(q["seeds"]) + root_fee[pid]
+        q["root_input"] = sum(q["seeds"]) + tag_sat[pid] + root_fee[pid]
     splitter_outputs = [quip[pid]["root_input"] for pid, _ in pieces]
     assert total_in - sum(splitter_outputs) == split_fee, "splitter fee accounting broke"
 
-    # 4. splitter + per-quipu roots (signed)
+    # 4. splitter + per-quipu roots (signed) — tag outputs AFTER the strand seeds,
+    #    so read_quipu's "root:0 = header, root:1..N = body" stays untouched
     splitter_hex = cs_serialize(dogecs.signall(
         dogecs.mktx([utxo], [{"value": v, "address": address} for v in splitter_outputs]), priv))
     splitter_txid = _txid_of_serial(splitter_hex)
     root_hex, root_txid = {}, {}
     for i, (pid, _) in enumerate(pieces):
         q = quip[pid]
+        outs = [{"value": s, "address": address} for s in q["seeds"]]
+        outs += [{"value": t["value"], "address": t["address"]}
+                 for t in tags_of.get(pid, [])]
         rh = cs_serialize(dogecs.signall(dogecs.mktx(
             [{"output": "%s:%d" % (splitter_txid, i), "value": q["root_input"]}],
-            [{"value": s, "address": address} for s in q["seeds"]]), priv))
+            outs), priv))
         root_hex[pid] = rh; root_txid[pid] = _txid_of_serial(rh)
 
     # 5. backfill real root txids into referencing bodies (ASCII + raw, size-preserving)
@@ -280,8 +304,14 @@ def build_consolidated_diamond(pieces, placeholder_of, utxo, priv, address,
         assert b"".join(c.data for c in q["cadenas"]) == q["blob2"], "%s: round-trip" % pid
 
     total_fee = split_fee + total_root_fees + strand_fees + actual_join_fee
-    assert total_fee == total_in - final_out, "total fee accounting broke"
-    log("TOTAL fees %s · residual %s -> funder" % (doge(total_fee), doge(final_out)))
+    assert total_fee + total_tag_sat == total_in - final_out, "total fee accounting broke"
+    log("TOTAL fees %s · tags %s · residual %s -> funder"
+        % (doge(total_fee), doge(total_tag_sat), doge(final_out)))
+
+    tags_out = {pid: [{"vout": len(quip[pid]["strands"]) + k,
+                       "value": t["value"], "address": t["address"]}
+                      for k, t in enumerate(tags_of.get(pid, []))]
+                for pid, _ in pieces if tags_of.get(pid)}
 
     return {
         "address": address, "splitter": (splitter_hex, splitter_txid),
@@ -290,9 +320,11 @@ def build_consolidated_diamond(pieces, placeholder_of, utxo, priv, address,
         "join": (join_hex, join_txid),
         "bodies": {pid: quip[pid]["blob2"] for pid, _ in pieces},
         "order": [pid for pid, _ in pieces],
+        "tags": tags_out,
         "fees": {"total_sat": total_fee, "residual_sat": final_out, "knot_tip_sat": knot_tip,
                  "split_sat": split_fee, "join_sat": actual_join_fee,
                  "root_sat": {pid: root_fee[pid] for pid, _ in pieces},
+                 "tag_sat": total_tag_sat,
                  "rate_kb": fp.rate_kb, "join_bytes": join_size},
         "totals": {"strands": total_strands, "knots": total_knots, "pieces": P},
     }
@@ -308,7 +340,7 @@ def write_artifacts(art, artifacts_dir):
     open(os.path.join(d, "megajoin.txid"), "w").write(art["join"][1])
     index = {"splitter": art["splitter"][1], "megajoin": art["join"][1],
              "total_knots": art["totals"]["knots"], "total_strands": art["totals"]["strands"],
-             "fees": art["fees"], "pieces": []}
+             "fees": art["fees"], "tags": art.get("tags", {}), "pieces": []}
     for pid in art["order"]:
         rh, rt = art["roots"][pid]
         open(os.path.join(d, "root_%s.hex" % pid), "w").write(rh)
@@ -318,7 +350,8 @@ def write_artifacts(art, artifacts_dir):
             open(os.path.join(d, "strand_%s_%d.txids" % (pid, i)), "w").write("\n".join(txids))
         open(os.path.join(d, "%s.bin" % pid), "wb").write(art["bodies"][pid])
         index["pieces"].append({"pid": pid, "root": rt, "n_strands": len(art["strands"][pid]),
-                                "knots": sum(len(t) for t, _ in art["strands"][pid])})
+                                "knots": sum(len(t) for t, _ in art["strands"][pid]),
+                                "tags": art.get("tags", {}).get(pid, [])})
     json.dump(index, open(os.path.join(d, "index.json"), "w"), indent=2)
     return index
 
