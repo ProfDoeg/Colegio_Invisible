@@ -2,7 +2,7 @@
 
 Every Colegio Invisible quipu carries a tone byte at header offset 5,
 recording the emotional / classificatory register of the inscribed
-content. Eleven values are recognized in v1:
+content. Twelve values are recognized in v1:
 
   0x00  ordinary           descriptive, neutral, the default
 
@@ -25,6 +25,10 @@ content. Eleven values are recognized in v1:
   0xa1  ai         authored by, or fully attributable to, a non-human
                    model. Marks inscriptions that emerged from machine
                    composition rather than human hand.
+  0xe5  hope       esperanza ("E5" ≈ ES). Content written TOWARD the
+                   future reader, trusting it will be followed:
+                   corrections, healings, editions, invitations.
+                   Coined 2026-06-10 for the first correction catalog.
   0xff  reverence  the dead, ancestors, formal commemoration
 
 Every canonical/* type module imports TONES + validate_tone from this
@@ -50,6 +54,7 @@ TONE_FEAR      = 0x06
 TONE_GRIEF     = 0x07
 TONE_DEMONIC   = 0x0D
 TONE_AI        = 0xA1
+TONE_HOPE      = 0xE5      # esperanza
 TONE_REVERENCE = 0xFF
 
 # Canonical value → name map. This is THE dictionary; everything else
@@ -65,6 +70,7 @@ TONES = {
     TONE_GRIEF:     "grief/panic",
     TONE_DEMONIC:   "demonic",
     TONE_AI:        "ai",
+    TONE_HOPE:      "hope",
     TONE_REVERENCE: "reverence",
 }
 
@@ -137,12 +143,13 @@ def _selftest():
     assert TONES[0x07] == "grief/panic"
     assert TONES[0x0d] == "demonic"
     assert TONES[0xa1] == "ai"
+    assert TONES[0xe5] == "hope"
     assert TONES[0xff] == "reverence"
-    assert len(TONES) == 11
+    assert len(TONES) == 12
 
     # VALID_TONES contains the right bytes
     assert VALID_TONES == frozenset({0x00, 0x01, 0x02, 0x03, 0x04, 0x05,
-                                     0x06, 0x07, 0x0d, 0xa1, 0xff})
+                                     0x06, 0x07, 0x0d, 0xa1, 0xe5, 0xff})
     assert 0x42 not in VALID_TONES
 
     # The affective family is exactly 0x01–0x07
@@ -155,7 +162,7 @@ def _selftest():
     assert TONE_BY_NAME["grief/panic"]       == 0x07
     assert TONE_BY_NAME["reverence"]         == 0xff
 
-    # validate_tone accepts all eleven
+    # validate_tone accepts all twelve
     for t in VALID_TONES:
         validate_tone(t)
 
@@ -179,7 +186,7 @@ def _selftest():
     assert name(0x42) == "unknown_0x42"
     assert name(0xfe) == "unknown_0xfe"
 
-    print("  ✓ 11 tones, affective family 0x01–0x07, TONES/VALID_TONES/validate/name/reverse")
+    print("  ✓ 12 tones, affective family 0x01–0x07, TONES/VALID_TONES/validate/name/reverse")
 
 
 if __name__ == "__main__":

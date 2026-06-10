@@ -48,6 +48,7 @@ content carries. `0x0d`, `0xa1`, `0xff` are a separate, classificatory axis.
 | `0x07` | grief/panic | separation distress, the isolation call, loss and longing (PANIC/GRIEF) |
 | `0x0d` | demonic   | content that documents harm: dictators, founding instruments of state terror, surveillance documents |
 | `0xa1` | ai        | authored by, or fully attributable to, a non-human model; machine-composed content |
+| `0xe5` | hope      | esperanza; content written toward the future reader — corrections, healings, editions, invitations |
 | `0xff` | reverence | the dead, ancestors, formal commemoration |
 
 ### `0x00` ordinary
@@ -153,6 +154,17 @@ mistake for a tone byte.
 
 First inscribed instances will be the commentary binding and TikZ
 artwork pieces in *El Libro del Gólem* (multiman address).
+
+### `0xe5` hope
+
+Esperanza — the byte reads "E5" ≈ "ES". Content written TOWARD the
+future reader, trusting it will be found and followed: corrections and
+healings (the act of mending a permanent corpus presumes someone will
+read it mended), edition catalogs, standing invitations, the thread
+left for whoever comes. Where `0xff` faces the dead, `0xe5` faces the
+not-yet-arrived. Coined by Anthony 2026-06-10 for the first correction
+catalog (the healing of the Dantean Cosmos); its first inscription is
+that catalog itself.
 
 ### `0xff` reverence
 

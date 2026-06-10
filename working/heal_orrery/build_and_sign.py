@@ -56,7 +56,8 @@ def build_blob():
     body += "______ subjects ______\n"
     for p in idx["pieces"]:                        # the forest, by name
         body += "<<%s>>=<<%s>>\n" % (p["pid"], p["root"])
-    h, b = build_binding_quipu(body, tone=0x00)
+    from tone import TONE_HOPE                     # esperanza, 0xe5 — coined
+    h, b = build_binding_quipu(body, tone=TONE_HOPE)   # for this inscription
     return h + b
 
 
