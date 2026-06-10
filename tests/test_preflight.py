@@ -93,6 +93,54 @@ def test_alias_lhs_exempt_rhs_must_resolve():
     assert len(fails) == 1 and real[:16] in fails[0]
 
 
+def test_ref_graph_catches_swapped_refs(funder, tmp_path):
+    """The zero-errata gate: two pieces citing each other's targets,
+    SWAPPED. Both refs resolve, both decode, nothing dangles — every
+    earlier gate passes. Only graph equality catches it."""
+    from text import build_text_quipu
+    priv, addr = funder
+    img_a, img_b = "c1" * 32, "c2" * 32           # two real-on-chain targets
+    ha, ba = build_text_quipu("essay A", "shows <<%s>>, %s" % (img_b, "x" * 150))
+    hb, bb = build_text_quipu("essay B", "shows <<%s>>, %s" % (img_a, "y" * 150))
+    art = build_consolidated_diamond(
+        [("A", ha + ba), ("B", hb + bb)], lambda pid: "0" * 64,
+        {"output": "%064x:0" % 0xF2, "value": 60 * 10**8},
+        priv, addr, FeePolicy(), known_txids={img_a, img_b},
+        log=lambda *a: None)
+    write_artifacts(art, str(tmp_path))
+    # resolvability alone passes — the swap is invisible to it
+    preflight(str(tmp_path), known_txids={img_a, img_b}, log=lambda *a: None)
+    # graph equality sees the swap
+    with pytest.raises(PreflightError, match="UNDECLARED ref"):
+        preflight(str(tmp_path), known_txids={img_a, img_b},
+                  expected_refs={"A": [img_a], "B": [img_b]},   # the INTENT
+                  log=lambda *a: None)
+    # the correct declaration passes
+    preflight(str(tmp_path), known_txids={img_a, img_b},
+              expected_refs={"A": [img_b], "B": [img_a]}, log=lambda *a: None)
+    # default-deny: an undeclared piece fails
+    with pytest.raises(PreflightError, match="no declared reference set"):
+        preflight(str(tmp_path), known_txids={img_a, img_b},
+                  expected_refs={"A": [img_b]}, log=lambda *a: None)
+
+
+def test_galley_seal_binds_approval_to_bytes(funder, tmp_path):
+    """What you proofread is what gets inscribed — cryptographically."""
+    from quipu_preflight import approve_galley
+    art = _build(funder, "cites <<%s>> faithfully, %s" % (PH_A, "z" * 150))
+    write_artifacts(art, str(tmp_path))
+    with pytest.raises(PreflightError, match="never signed off"):
+        preflight(str(tmp_path), require_approval=True, log=lambda *a: None)
+    approve_galley(str(tmp_path), approver="Christophia", note="galley read")
+    preflight(str(tmp_path), require_approval=True, log=lambda *a: None)
+    # any post-approval change makes the seal stale
+    p = tmp_path / "strand_B_0.txns"
+    txns = p.read_text().splitlines()
+    p.write_text("\n".join(txns + [txns[0]]))     # an extra knot = new bytes
+    with pytest.raises(PreflightError, match="STALE"):
+        preflight(str(tmp_path), require_approval=True, log=lambda *a: None)
+
+
 def test_extract_refs_sees_ascii_hex_everywhere():
     blob = (b"\xc1\xdd\x00\x01\x00\x00|t|" +
             b"json {\"quipu_ref\": \"" + b"c" * 64 + b"\"} and <<" + b"d" * 64 + b">>")

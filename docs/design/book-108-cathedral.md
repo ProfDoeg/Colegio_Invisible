@@ -251,3 +251,41 @@ two-level cascade.
 - [`docs/guides/writing-essays.md`](../guides/writing-essays.md) — practical guide for inscribers
 - [`working/goethe_hebrew/`](../../working/goethe_hebrew/) — the first consolidated multi-quipu
   inscription, prototype for the cathedral
+
+## Zero errata — the engineering gates
+
+> Mandated 2026-06-10, after the Dantean Cosmos shipped with a phantom
+> reference that passed every byte-fidelity check. The cathedral gets
+> the discipline the forest lacked. ~21,000 DOGE buys no second chances.
+
+Failure taxonomy, each class with its gate; a class without a gate does
+not fly:
+
+| failure class | worked example | gate |
+|---|---|---|
+| dangling reference (stand-in never backfilled) | the orrery phantom | `quipu_preflight.check_refs_resolve` — every 64-hex token resolves or is declared; runs at BUILD and at BROADCAST |
+| wrong-but-existing reference (swapped targets) | two essays showing each other's plates | `check_ref_graph` — the extracted citation graph must EQUAL the declared manifest exactly; default-deny, every piece declares |
+| bytes diverge from what was signed | — | preflight reassembles every body FROM THE SIGNED TX HEXES and compares |
+| body that will not decode from chain | — | every reassembled body parses through its canonical reader |
+| content errors a machine cannot judge (wrong draft, typo, wrong photo) | — | **the galley seal**: the full book is rendered from the reassembled signed bytes, proofread by a human, and `approve_galley` binds the sign-off to a SHA256 of those bytes; broadcast with `require_approval=True` refuses a missing or stale seal |
+| non-contiguous strand distribution | Jeremy's interleave | canonical `split_body` + the anti-round-robin test |
+| fee underpricing (join sits unmined) | the first forest's flat join | `FeePolicy` prices every tx by measured size |
+| stalled broadcast | — | keyless resumable supervisor (proven at 22,377 knots) |
+| stale knowledge of the chain | the gate refusing Bode's real root | refresh the dataset before build; `known_txids` only for roots verified out-of-band |
+
+The 108 build therefore REQUIRES, mechanically:
+
+1. A **reference manifest**: every piece's expected citations declared
+   in the build script; `expected_refs` passed to build AND broadcast.
+2. A **content freeze**: source files hashed into the manifest before
+   signing; any change re-runs everything downstream.
+3. The **galley seal**: proofread the render of the reassembled signed
+   bytes — not the working drafts — then `approve_galley`. The approval
+   is a hash; touching anything voids it.
+4. A **mainnet rehearsal**: a pilot mini-book (3 essays + photos, same
+   pipeline, same gates, same scripts) inscribed end-to-end before the
+   cathedral. Cathedrals are built by crews that have built a chapel.
+5. **Corrections doctrine stands regardless**: if something still slips
+   through, the 0xab overwrite layer at the cathedral's own address is
+   the named remedy (bindings.md § Corrections) — but it is the fire
+   escape, not the plan.

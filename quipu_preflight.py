@@ -149,6 +149,74 @@ def check_refs_resolve(bodies_by_pid, diamond_roots, *, declared_ok=(),
     return failures
 
 
+def check_ref_graph(bodies_by_pid, expected, roots_by_pid=None):
+    """The ZERO-ERRATA gate (demanded for the Book of 108): the reference
+    graph must EQUAL the declared one — not merely resolve. A swapped pair
+    of refs is two real, resolvable, decodable txids in the wrong places;
+    only graph equality catches it.
+
+    expected: {pid: iterable of refs} — each ref a 64-hex string or
+    another pid (translated via roots_by_pid). DEFAULT-DENY: every piece
+    must be declared, even with an empty set. Returns failure strings."""
+    roots_by_pid = {k: v.lower() for k, v in (roots_by_pid or {}).items()}
+    failures = []
+    for pid, blob in bodies_by_pid.items():
+        if pid not in expected:
+            failures.append("%s: no declared reference set — every piece "
+                            "declares, even 'no refs'" % pid)
+            continue
+        exp = set()
+        for r in expected[pid]:
+            r = str(r)
+            exp.add(roots_by_pid.get(r, r.lower()))
+        found = extract_refs(blob)
+        for ref in sorted(exp - found):
+            failures.append("%s: DECLARED ref %s… is absent from the body"
+                            % (pid, ref[:16]))
+        for ref in sorted(found - exp):
+            failures.append("%s: UNDECLARED ref %s… present in the body "
+                            "(wrong/swapped refs die here)" % (pid, ref[:16]))
+    return failures
+
+
+def galley_hash(artifacts_dir):
+    """SHA256 over the index-ordered bodies REASSEMBLED FROM THE SIGNED
+    TXS — a fingerprint of exactly what the chain will store."""
+    import hashlib
+    idx = json.load(open(os.path.join(artifacts_dir, "index.json")))
+    h = hashlib.sha256()
+    for piece in idx["pieces"]:
+        h.update(piece["pid"].encode())
+        h.update(reassemble_body(artifacts_dir, piece["pid"], piece["n_strands"]))
+    return h.hexdigest()
+
+
+def approve_galley(artifacts_dir, approver, note=""):
+    """Record the human sign-off, bound to the artifact bytes: the galley
+    that was proofread IS the inscription, cryptographically. Broadcast
+    with require_approval=True refuses without a matching seal."""
+    seal = {"galley_sha256": galley_hash(artifacts_dir),
+            "approver": approver, "note": note}
+    with open(os.path.join(artifacts_dir, "approval.json"), "w") as f:
+        json.dump(seal, f, indent=2)
+    return seal
+
+
+def check_approval(artifacts_dir):
+    """Failure strings if the approval seal is missing or stale."""
+    path = os.path.join(artifacts_dir, "approval.json")
+    if not os.path.exists(path):
+        return ["no approval.json — the galley was never signed off "
+                "(quipu_preflight.approve_galley after proofreading)"]
+    seal = json.load(open(path))
+    now = galley_hash(artifacts_dir)
+    if seal.get("galley_sha256") != now:
+        return ["approval is STALE: artifacts changed after sign-off "
+                "(sealed %s…, now %s…) — re-proof and re-approve"
+                % (str(seal.get("galley_sha256"))[:12], now[:12])]
+    return []
+
+
 def check_decodes(bodies_by_pid):
     """Every body must split + parse through its canonical reader."""
     import colegio_pipeline as P
@@ -176,15 +244,23 @@ def check_decodes(bodies_by_pid):
 
 
 def preflight(artifacts_dir, *, declared_ok=(), known_txids=None,
-              resolver=None, log=print):
+              resolver=None, expected_refs=None, require_approval=False,
+              log=print):
     """Run the full flight on a built diamond's artifacts. Raises
-    PreflightError listing EVERY failure; returns a summary dict on pass."""
+    PreflightError listing EVERY failure; returns a summary dict on pass.
+
+    expected_refs     {pid: refs} — enables the zero-errata graph-equality
+                      gate (refs as 64-hex or pids). For cathedral-scale
+                      inscriptions this is mandatory discipline.
+    require_approval  refuse without a galley seal (approve_galley) whose
+                      hash matches the artifacts as they are NOW."""
     idx = json.load(open(os.path.join(artifacts_dir, "index.json")))
     failures, bodies = [], {}
-    roots = []
+    roots, roots_by_pid = [], {}
     for piece in idx["pieces"]:
         pid, n = piece["pid"], piece["n_strands"]
         roots.append(piece["root"])
+        roots_by_pid[pid] = piece["root"]
         disk = open(os.path.join(artifacts_dir, "%s.bin" % pid), "rb").read()
         from_txs = reassemble_body(artifacts_dir, pid, n)
         if from_txs != disk:
@@ -195,6 +271,10 @@ def preflight(artifacts_dir, *, declared_ok=(), known_txids=None,
     failures += check_decodes(bodies)
     failures += check_refs_resolve(bodies, roots, declared_ok=declared_ok,
                                    known_txids=known_txids, resolver=resolver)
+    if expected_refs is not None:
+        failures += check_ref_graph(bodies, expected_refs, roots_by_pid)
+    if require_approval:
+        failures += check_approval(artifacts_dir)
     if failures:
         raise PreflightError(
             "PREFLIGHT FAILED — %d problem(s):\n  " % len(failures)

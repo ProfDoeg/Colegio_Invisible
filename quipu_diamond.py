@@ -395,6 +395,7 @@ def _wait_confirmed(txid, label, log, poll=15, max_wait=2400):
 
 def broadcast_consolidated_diamond(artifacts_dir, log=print, strand_workers=16,
                                    declared_ok=(), known_txids=None,
+                                   expected_refs=None, require_approval=False,
                                    skip_preflight=False):
     """Weave a built diamond onto chain from artifacts_dir. Keyless, idempotent,
     resumable — re-running only (re)sends what the node has forgotten.
@@ -410,7 +411,9 @@ def broadcast_consolidated_diamond(artifacts_dir, log=print, strand_workers=16,
         log("!! PREFLIGHT SKIPPED — the chain will hold whatever this is")
     else:
         from quipu_preflight import preflight
-        preflight(d, declared_ok=declared_ok, known_txids=known_txids, log=log)
+        preflight(d, declared_ok=declared_ok, known_txids=known_txids,
+                  expected_refs=expected_refs, require_approval=require_approval,
+                  log=log)
     idx = json.load(open(os.path.join(d, "index.json")))
     order = [p["pid"] for p in idx["pieces"]]
     rd = lambda f: open(os.path.join(d, f)).read().strip()
