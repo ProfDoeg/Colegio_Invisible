@@ -175,3 +175,19 @@ def test_orrery_plate_composes_and_compiles(tmp_path):
     (tmp_path / "orr.tex").write_text(tex, encoding="utf-8")
     pages = _xelatex("orr.tex", str(tmp_path), passes=1)
     assert pages == 1
+
+    # the INSCRIBED edition: no errata layer, the phantom left dangling —
+    # the historical artifact must compile too, its heaven honestly empty
+    fetch2 = tmp_path / "fetch_inscribed"
+    fetch2.mkdir()
+    for pid in ("orrery", "bode"):
+        shutil.copy(os.path.join(art, pid + ".bin"),
+                    fetch2 / (roots[pid] + ".bin"))      # NO phantom alias staged
+    tex1, meta1 = S.build_plate_tex(roots["orrery"],
+                                    Pmod.chained_fetcher(str(fetch2)),
+                                    mode="orrery", edition="inscribed")
+    assert meta1["edition"] == "inscribed"
+    assert meta1["bode_stars"] == 0, "inscribed edition must show the hole"
+    assert meta1["planets"] == 7, "the planets are sound in both editions"
+    (tmp_path / "orr1.tex").write_text(tex1, encoding="utf-8")
+    assert _xelatex("orr1.tex", str(tmp_path), passes=1) == 1

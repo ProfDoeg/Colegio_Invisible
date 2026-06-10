@@ -22,7 +22,12 @@ Render modes:
   dome    — wireframe hemisphere overview with grave markers
 
 Usage:
-  .venv/bin/python scene_to_tikz.py <scene_txid> [wire|photo|vista|skyward|dome] [out.pdf]
+  .venv/bin/python scene_to_tikz.py <scene_txid> [mode] [out.pdf] [edition]
+
+  mode     wire | photo | vista | orrery | skyward | dome
+  edition  corrected (default — lens + locus errata applied)
+           | inscribed (the bytes as inscribed, no errata layer: the
+             historical first edition, dangling refs left dangling)
 """
 import os
 import sys
@@ -1144,17 +1149,27 @@ def _poly(corners):
     return " -- ".join("(%.3f,%.3f)" % _ndc_to_canvas(c) for c in corners) + " -- cycle"
 
 
-def scene_tikz_body(txid, fetcher, *, mode="wire", figdir=None):
+def scene_tikz_body(txid, fetcher, *, mode="wire", figdir=None,
+                    edition="corrected"):
     """Return the TikZ body (the picture's contents) for a scene's camera
-    view. `mode` is 'wire', 'photo', or 'skyward'. For 'photo', decoded image
-    PNGs are written to figdir and referenced via \\includegraphics in a clip.
-    'skyward' returns the companion look-up sky chart instead of the camera
-    view."""
-    # the lens pattern: a 0xab calling point resolves to its subject with
-    # its corrections riding along; then the locus rule heals anything the
-    # lens didn't carry (same-address later bindings)
-    txid, fetcher = P.resolve_call(txid, fetcher)
-    fetcher = P.corrected_fetcher(fetcher, txid)
+    view. `mode` is 'wire', 'photo', 'vista', 'orrery', 'skyward', 'dome'.
+
+    `edition` selects the reading:
+      'corrected' (default) — the lens pattern resolves a 0xab calling
+                  point to its subject, and the locus rule heals dangling
+                  refs through the author's own later corrections.
+      'inscribed' — the bytes exactly as inscribed, no errata layer: a
+                  dangling reference stays dangling and its content is
+                  simply absent from the plate. The historical first
+                  edition, compilable forever alongside the corrected one.
+    """
+    if edition == "corrected":
+        # lens first (a 0xab calling point resolves to its subject with its
+        # corrections riding along), then the locus rule for anything else
+        txid, fetcher = P.resolve_call(txid, fetcher)
+        fetcher = P.corrected_fetcher(fetcher, txid)
+    elif edition != "inscribed":
+        raise ValueError("edition must be 'corrected' or 'inscribed'")
     if mode == "skyward":
         return skyward_tikz_body(txid, fetcher)
     if mode == "dome":
@@ -1327,13 +1342,16 @@ _DOC = r"""\documentclass[tikz,border=4mm]{standalone}
 """
 
 
-def build_plate_tex(txid, fetcher=None, *, mode="wire", figdir=None):
+def build_plate_tex(txid, fetcher=None, *, mode="wire", figdir=None,
+                    edition="corrected"):
     fetcher = fetcher or P.chained_fetcher()
-    body, meta = scene_tikz_body(txid, fetcher, mode=mode, figdir=figdir)
+    body, meta = scene_tikz_body(txid, fetcher, mode=mode, figdir=figdir,
+                                 edition=edition)
+    meta["edition"] = edition
     return _DOC % body, meta
 
 
-def scene_to_png(txid, fetcher, figdir, *, mode="photo"):
+def scene_to_png(txid, fetcher, figdir, *, mode="photo", edition="corrected"):
     """Render a 0x3d scene to a projected-view PNG in `figdir`, returning the
     basename (or None on failure). Mirrors target_to_png for 0x03/0xce: the
     scene is the inscription, this projected camera-view is its render. The
@@ -1342,12 +1360,14 @@ def scene_to_png(txid, fetcher, figdir, *, mode="photo"):
     figures/ points at figdir, and the PDF is rasterised to PNG."""
     import subprocess, tempfile, shutil
     os.makedirs(figdir, exist_ok=True)
-    base = f"scene_{txid[:12]}_{mode}_v{getattr(P, '_FIGURE_CACHE_VERSION', 0)}.png"
+    ed = "" if edition == "corrected" else f"_{edition}"
+    base = f"scene_{txid[:12]}_{mode}{ed}_v{getattr(P, '_FIGURE_CACHE_VERSION', 0)}.png"
     out = os.path.join(figdir, base)
     if os.path.exists(out):
         return base
     # build_plate_tex(photo) materialises each photo PNG into figdir
-    tex, _meta = build_plate_tex(txid, fetcher, mode=mode, figdir=figdir)
+    tex, _meta = build_plate_tex(txid, fetcher, mode=mode, figdir=figdir,
+                                 edition=edition)
     work = tempfile.mkdtemp(prefix="quipu_scene_")
     try:
         # make figdir reachable as ./figures from the compile dir
@@ -1385,11 +1405,13 @@ def _main(argv):
     txid = argv[0]
     mode = argv[1] if len(argv) > 1 else "wire"
     out  = argv[2] if len(argv) > 2 else os.path.join("/tmp", f"scene_{mode}.pdf")
+    edition = argv[3] if len(argv) > 3 else "corrected"
     work = os.path.dirname(out) or "."
     figdir = os.path.join(work, "figures")
     os.makedirs(figdir, exist_ok=True)
     fetcher = P.chained_fetcher()
-    tex, meta = build_plate_tex(txid, fetcher, mode=mode, figdir=figdir)
+    tex, meta = build_plate_tex(txid, fetcher, mode=mode, figdir=figdir,
+                                edition=edition)
     print("meta:", {k: (v[:16] if isinstance(v, str) else v) for k, v in meta.items()})
     with open(os.path.join(work, "scene_plate.tex"), "w", encoding="utf-8") as f:
         f.write(tex)
