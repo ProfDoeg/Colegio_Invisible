@@ -2233,6 +2233,90 @@ def chained_fetcher(*extra_dirs):
     return fetch
 
 
+# ----------------------------------------------------------------------
+#   The LOCUS RULE for corrections (settled 2026-06-10, the day the
+#   Dantean Cosmos phantom was found): a quipu's dangling references are
+#   healed by 0xab bindings later inscribed at the quipu's OWN root
+#   address. Retrieval from local context — the artifact leads to its
+#   correction through its own address, never through a global registry.
+#   "When a thread dangles, look at what the weaver later tied at the
+#   same post."
+# ----------------------------------------------------------------------
+def local_corrections(source_txid, fetch=None, csv_path=None):
+    """Last-write-wins alias map gathered from 0xab quipus inscribed at
+    `source_txid`'s own address, at or after its blockheight. Returns
+    {ref_hex -> ref_hex} (possibly empty)."""
+    import csv as _csv
+    path = csv_path or os.path.join(_PIPELINE_DIR, "data", "quipu_data.csv")
+    if not os.path.exists(path):
+        return {}
+    rows, src_addr, src_height = [], None, None
+    with open(path, newline="", encoding="utf-8") as f:
+        all_rows = list(_csv.DictReader(f))
+    for row in all_rows:
+        if row.get("root_txid") == source_txid:
+            src_addr = row.get("address")
+            try:
+                src_height = float(row.get("blockheight") or 0)
+            except ValueError:
+                src_height = None
+    if not src_addr:
+        return {}
+
+    def h(row):
+        try:
+            return float(row.get("blockheight") or 0)
+        except ValueError:
+            return 0.0
+
+    bindings = sorted((r for r in all_rows
+                       if r.get("address") == src_addr
+                       and r.get("type_byte") == "0xab"
+                       and (src_height is None or h(r) >= src_height)), key=h)
+    if not bindings:
+        return {}
+    fetch = fetch or chained_fetcher()
+    from bindings import read_binding_quipu
+    amap = {}
+    for row in bindings:                       # ascending height: last write wins
+        try:
+            blob = fetch(row["root_txid"])
+            header, body = split_blob(blob)
+            for line in read_binding_quipu(header, body).get("lines", []):
+                if line[0] == "alias":
+                    _, names, target = line[0], line[1], line[2]
+                    for nm in names:
+                        if len(nm) == 64:      # ref-shaped names only
+                            amap[nm.lower()] = str(target).lower()
+        except Exception as e:                 # noqa: BLE001
+            _logwarn("local_corrections", e, txid=row.get("root_txid"))
+    return amap
+
+
+def corrected_fetcher(base_fetch, source_txid, csv_path=None):
+    """Wrap a fetcher with the locus rule: when a target is missing,
+    translate the ref through the source quipu's own later corrections
+    and retry. Heals dangling references (the Dantean Cosmos phantom is
+    the worked case) from purely local context."""
+    cache = {}
+
+    def fetch(txid):
+        try:
+            return base_fetch(txid)
+        except Exception:
+            if "map" not in cache:
+                cache["map"] = local_corrections(source_txid, base_fetch,
+                                                 csv_path=csv_path)
+            ref, seen = str(txid).lower(), set()
+            while ref in cache["map"] and ref not in seen:
+                seen.add(ref)
+                ref = cache["map"][ref]
+            if ref != str(txid).lower():
+                return base_fetch(ref)
+            raise
+    return fetch
+
+
 def inscribe_class(cls_path=CLASS_PATH, *, name="colegio.cls", tone=0xa1,
                    store_dir=INSCR_STORE):
     """Inscribe colegio.cls as its own 0x5c latex quipu. Returns
