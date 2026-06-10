@@ -1051,15 +1051,16 @@ def scene_tikz_body(txid, fetcher, *, mode="wire", figdir=None):
                 # frame board, then clip the photo into the projected quad
                 L.append("\\fill[frame] %s;" % _poly(frame))
                 cc = [_ndc_to_canvas(p) for p in outer]
-                # bounding box of the projected quad for the includegraphics
-                xs = [p[0] for p in cc]; ys = [p[1] for p in cc]
-                x0, x1, y0, y1 = min(xs), max(xs), min(ys), max(ys)
-                L.append("\\begin{scope}")
-                L.append("  \\clip %s;" % _poly(outer))
-                L.append("  \\node[anchor=south west,inner sep=0] at (%.3f,%.3f) "
+                # exact homography into the projected quad — the upright-image-
+                # clipped-to-trapezoid trick (and the affine/skew approximation
+                # it stood in for) is retired; tilted planes (Sparkle, Paco at
+                # ±18°) are true trapezoids even in this head-on view
+                wname = "photo_%s.png" % qd["ref"][:12]
+                box = _warp_photo(os.path.join(figdir, png), cc,
+                                  os.path.join(figdir, wname))
+                L.append("\\node[anchor=south west,inner sep=0] at (%.3f,%.3f) "
                          "{\\includegraphics[width=%.3fcm,height=%.3fcm]{figures/%s}};"
-                         % (x0, y0, x1 - x0, y1 - y0, png[:-4]))
-                L.append("\\end{scope}")
+                         % (box[0], box[1], box[2], box[3], wname[:-4]))
                 L.append("\\draw[frameedge] %s;" % _poly(frame))
                 # gravestone caption: collect now (with projected width); one
                 # caption per grave-cluster is kept later (the widest/dominant
