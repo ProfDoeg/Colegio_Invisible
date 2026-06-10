@@ -126,6 +126,69 @@ through and the textile needs to remain sellable. For other tag types
 (liveness signals, sequential attestations, mutable references), the
 renewable thread is the natural shape from the start.
 
+## The review nub — a delegated right to append
+
+> Added 2026-06-10, conceived by Anthony the day tags were built.
+> Implemented: `review_nub_addr` on
+> `quipu_tags.build_claim_with_continuation` + the `review_descends`
+> verifier.
+
+**One nub, not two.** The sale needs no proof output: the claim
+transaction itself proves the opening — the bond's UTXO is publicly
+consumed and `session_priv` sits revealed in the claim's scriptSig.
+The chain proves; the nub invites. A single nub therefore carries
+both remaining jobs — its *existence* descends from the proof (a
+reader reaching the nub has passed through the claim on the way),
+and its *spendability* is the buyer's review right. If the sale
+fails and the buyer refunds via the CLTV leg, there is no claim,
+no nub, no review right — you cannot review a sale that didn't
+happen.
+
+The claim transaction carries a third output: a dust-sized UTXO
+(~0.01 DOGE — the relay floor, uneconomic to sweep) paying the
+**buyer's** key. This is the *review nub*. The settled claim shape:
+
+- Output 0: the seller's profit (the principal)
+- Output 1: the thread continuation (seller's scriptPubKey)
+- Output 2: the review nub (buyer's scriptPubKey, dust)
+
+If the buyer wants to publish a review, they spend the nub **together
+with their own inputs** as a direct input to the review quipu's ROOT
+transaction. The dust is not funding — the buyer pays for their own
+speech (the metabolism rule applied to commerce) — it is *provenance*:
+the review descends, by UTXO lineage, from the claim, which descends
+from the bond, which descends from the textile's own tag. A reader
+walking the textile finds the review with one input-list inspection.
+**You cannot review without having bought, because the review's anchor
+IS the purchase receipt.** The review also cites the work normally
+(`<<txid>>`), so the link is textual as well as structural.
+
+Convention: the nub must be spent directly into the review's root —
+no intermediate consolidation — so verification stays one hop.
+
+States, all legible: unspent = no review; spent into an OP_RETURN-
+seeding root = review (verified purchase); spent otherwise = a
+deliberate decline (rare — dust is uneconomic to sweep by accident).
+
+The general reading: the nub is a **delegated right to append** — an
+addressed invitation for a *specific* party to attach content to your
+textile, provenance-bound to who they are. Citation and annotation are
+open to anyone from outside; the nub is the textile choosing its
+respondent. The same shape serves peer review of the college's
+research outputs and commissioned replies. (Andean khipu carry
+*subsidiary cords* knotted onto pendant cords; the nub is a subsidiary
+cord handed to another's hand.)
+
+By emitting the nub, the seller structurally invites criticism that
+can never be detached from their own work's thread — the same family
+of honesty claim as the centinela.
+
+Honest limits: verified-purchase is not arm's-length (a self-sale
+plants a glowing review for the cost of fees — but the funds loop is
+VISIBLE on chain, so collusion is auditable rather than undetectable);
+expect single-digit review rates; publishing links the buyer's key to
+the purchase, which is properly the buyer's choice to make.
+
 ## Economics
 
 > Corrected 2026-06-10 with sizes measured by the implementation's

@@ -41,6 +41,7 @@ from quipu_diamond import FeePolicy
 
 DUST_SAT          = 100_000        # 0.001 DOGE — refuse to emit outputs below this
 DEFAULT_TAG_SAT   = 5_000_000      # 0.05 DOGE — conventional seed / skim amount
+REVIEW_NUB_SAT    = 1_000_000      # 0.01 DOGE — dust anchor for the buyer's review
 
 
 # ---------------------------------------------------------------------------
@@ -222,18 +223,29 @@ def build_specialization_tx(tag_outpoint, tag_value, seller_priv, bond_address,
 # ---------------------------------------------------------------------------
 def build_claim_with_continuation(bond_inputs, redeem_hex, claim_priv, dest_addr,
                                   tag_addr=None, skim_sat=DEFAULT_TAG_SAT,
+                                  review_nub_addr=None, review_nub_sat=REVIEW_NUB_SAT,
                                   fee_policy=None, extra_scriptsig_items=None):
     """The seller's claim: consume the bond's UTXO(s) via the redeem script's
-    IF branch, pay profit to dest_addr, and (if tag_addr) skim a fresh tag.
+    IF branch, pay profit to dest_addr, (if tag_addr) skim a fresh tag, and
+    (if review_nub_addr) emit a dust review nub to the buyer.
 
     bond_inputs    [{"output": "txid:vout", "value": sat}, ...] — the tag seed
                    and/or the buyer's funding at the bond P2SH
     redeem_hex     the bond's redeemScript
     claim_priv     key satisfying the IF branch's CHECKSIG
     tag_addr       continuation tag's address (None = no continuation)
+    review_nub_addr  the BUYER's address (None = no nub). The nub is a dust
+                   anchor (default 0.01 DOGE): if the buyer wants to publish a
+                   review, they spend it WITH THEIR OWN INPUTS directly into
+                   the review quipu's root — the descent is the verified-
+                   purchase proof (see tag-architecture.md, "The review nub").
     extra_scriptsig_items  pushed between the signature and the OP_1 selector
                    (e.g. an HTLC preimage); default none — matches the sale
                    bond's plain  OP_IF <pub> OP_CHECKSIG  claim leg.
+
+    Output shape: vout 0 profit · vout 1 continuation · vout 2 review nub
+    (absent roles collapse the order; the thread convention is unaffected
+    because the nub's scriptPubKey is the buyer's, never the thread's).
 
     scriptSig per input:  <sig> [extra...] OP_1 <redeem>
     Returns (signed_hex, txid, detail). SIGHASH_ALL binds the outputs, so the
@@ -245,7 +257,7 @@ def build_claim_with_continuation(bond_inputs, redeem_hex, claim_priv, dest_addr
     extra = extra_scriptsig_items or []
 
     # size: measure unsigned shape + per-input p2sh scriptSig allowance
-    n_out = 2 if tag_addr else 1
+    n_out = 1 + (1 if tag_addr else 0) + (1 if review_nub_addr else 0)
     redeem_len = len(redeem_hex) // 2
     per_in_ss = 1 + 73 + sum(1 + len(x) // 2 for x in extra) + 1 + 3 + redeem_len
     base = d.mktx([dict(i) for i in bond_inputs],
@@ -253,14 +265,17 @@ def build_claim_with_continuation(bond_inputs, redeem_hex, claim_priv, dest_addr
     fee = fp.fee_for_bytes(len(cs_serialize(base)) // 2 + per_in_ss * len(bond_inputs))
 
     skim = skim_sat if tag_addr else 0
-    profit = total_in - skim - fee
+    nub = review_nub_sat if review_nub_addr else 0
+    profit = total_in - skim - nub - fee
     if profit < DUST_SAT:
-        raise ValueError("profit %d below dust (in %d, skim %d, fee %d)"
-                         % (profit, total_in, skim, fee))
+        raise ValueError("profit %d below dust (in %d, skim %d, nub %d, fee %d)"
+                         % (profit, total_in, skim, nub, fee))
 
     outs = [{"value": profit, "address": dest_addr}]
     if tag_addr:
         outs.append({"value": skim, "address": tag_addr})
+    if review_nub_addr:
+        outs.append({"value": nub, "address": review_nub_addr})
     tx = d.mktx([dict(i) for i in bond_inputs], outs)
     for k in range(len(bond_inputs)):
         sig = multisign(tx, k, redeem_hex, claim_priv, SIGHASH_ALL)
@@ -271,7 +286,19 @@ def build_claim_with_continuation(bond_inputs, redeem_hex, claim_priv, dest_addr
     return hexs, _txid_of_serial(hexs), {
         "profit": profit, "skim": skim, "fee": fee,
         "continuation_vout": 1 if tag_addr else None,
+        "review_nub_vout": (2 if tag_addr else 1) if review_nub_addr else None,
+        "review_nub_sat": nub,
     }
+
+
+def review_descends(review_root_tx, claim_txid, nub_vout):
+    """Verified-purchase check: does this review quipu's ROOT spend the claim's
+    review nub directly? One-hop by convention (the nub must be an input to
+    the root itself, not an ancestor). review_root_tx = dict or raw hex."""
+    if isinstance(review_root_tx, str):
+        review_root_tx = cs_deserialize(review_root_tx)
+    return any(i["tx_hash"] == claim_txid and i["tx_pos"] == nub_vout
+               for i in review_root_tx["ins"])
 
 
 # ---------------------------------------------------------------------------
@@ -366,22 +393,29 @@ def _selftest():
           % (TAG_SAT / 1e8, sp["bond_value"] / 1e8,
              sp["continuation_value"] / 1e8, sp["fee"] / 1e8))
 
-    print("=== 4. claim — bond -> profit + fresh tag (renewable thread) ===")
+    print("=== 4. claim — bond -> profit + fresh tag + review nub ===")
     FUNDING = 5 * 10 ** 8                           # buyer funds 5 DOGE
+    buyer_addr = d.privtoaddr(buyer_priv)
     bond_inputs = [{"output": "%s:0" % sp_txid, "value": sp["bond_value"]},
                    {"output": "%064x:0" % 0xBB, "value": FUNDING}]
     cl_hex, cl_txid, cl = build_claim_with_continuation(
         bond_inputs, redeem, seller_priv, seller_addr,
-        tag_addr=seller_addr, fee_policy=fp,
+        tag_addr=seller_addr, review_nub_addr=buyer_addr, fee_policy=fp,
         extra_scriptsig_items=[preimage.hex()])
     cl_tx = cs_deserialize(cl_hex)
     ss = deserialize_script(cl_tx["ins"][0]["script"])
     assert ss[1] == preimage.hex() and ss[2] == OP_1 and ss[3] == redeem, \
         "claim scriptSig is not <sig> <P> OP_1 <redeem>"
+    assert len(cl_tx["outs"]) == 3, "claim should have profit + continuation + nub"
     assert cl_tx["outs"][1]["value"] == DEFAULT_TAG_SAT, "skim output wrong"
-    assert cl["profit"] + cl["skim"] + cl["fee"] == sp["bond_value"] + FUNDING, "claim accounting"
-    print("  ✓ claim consumes %d bond inputs; profit %.4f + tag %.2f + fee %.4f DOGE"
-          % (len(bond_inputs), cl["profit"] / 1e8, cl["skim"] / 1e8, cl["fee"] / 1e8))
+    assert cl_tx["outs"][2]["value"] == REVIEW_NUB_SAT, "nub value wrong"
+    assert cl_tx["outs"][2]["script"] == d.addrtoscript(buyer_addr), "nub not to buyer"
+    assert cl["review_nub_vout"] == 2
+    assert cl["profit"] + cl["skim"] + cl["review_nub_sat"] + cl["fee"] \
+        == sp["bond_value"] + FUNDING, "claim accounting"
+    print("  ✓ claim: profit %.4f + tag %.2f + nub %.2f (buyer) + fee %.4f DOGE"
+          % (cl["profit"] / 1e8, cl["skim"] / 1e8,
+             cl["review_nub_sat"] / 1e8, cl["fee"] / 1e8))
 
     print("=== 5. follow the thread root-tag -> specialization -> continuation ===")
     # reality: the claim spends the BOND (sp:0); the continuation tag (sp:1)
@@ -415,7 +449,23 @@ def _selftest():
     print("  ✓ thread terminates at the no-continuation specialization; claim profit "
           "(vout 0, same spk) correctly ignored")
 
-    print("=== 6. economics sanity (corrected numbers) ===")
+    print("=== 6. review nub — verified-purchase descent ===")
+    # the buyer publishes: review root spends {nub + own funds} (multi-input)
+    review_root = d.mktx(
+        [{"output": "%s:2" % cl_txid, "value": REVIEW_NUB_SAT},
+         {"output": "%064x:1" % 0xCC, "value": 2 * 10 ** 8}],     # buyer's own UTXO
+        [{"value": 5_000_000, "address": buyer_addr},             # strand seeds...
+         {"value": 5_000_000, "address": buyer_addr}])
+    assert review_descends(review_root, cl_txid, 2), "descent not recognized"
+    assert not review_descends(review_root, cl_txid, 1), "wrong vout accepted"
+    assert not review_descends(review_root, "0" * 64, 2), "wrong claim accepted"
+    impostor = d.mktx([{"output": "%064x:0" % 0xDD, "value": 10 ** 8}],
+                      [{"value": 5_000_000, "address": buyer_addr}])
+    assert not review_descends(impostor, cl_txid, 2), "impostor review accepted"
+    print("  ✓ review root spending {nub + buyer funds} verifies; impostor and "
+          "wrong-outpoint roots rejected")
+
+    print("=== 7. economics sanity (corrected numbers) ===")
     cycle = sp["fee"] + cl["fee"]
     print("  one specialize+claim cycle at %.2f DOGE/KB costs %.4f DOGE in fees"
           % (fp.rate_kb, cycle / 1e8))
