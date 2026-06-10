@@ -89,7 +89,8 @@ _VALID_SUBS = (SUB_AES, SUB_ECIES, SUB_DROP, SUB_CENTINELA, SUB_CB, SUB_SHAMIR)
 KEY_RAW       = 0x00   # for SUB_AES: raw 32-byte key
 KEY_PASSWORD  = 0x01   # for SUB_AES: key = SHA256(passphrase)
 ECIES_BROADCAST = 0x00 # for SUB_ECIES
-DROP_RELEASE  = 0x00   # for SUB_DROP
+DROP_RELEASE  = 0x00   # for SUB_DROP: bare body
+DROP_SOURCED  = 0x01   # for SUB_DROP: body preceded by |claim=...|... header descriptor
 CB_SALE_V1    = 0x00   # for SUB_CB: v1 single-key sale (only variant defined)
 SHAMIR_GF256  = 0x00   # for SUB_SHAMIR: byte-wise Shamir over GF(2^8)  (single share)
 SHAMIR_VAULT  = 0x01   # for SUB_SHAMIR: self-contained vault (dump + N shares)
@@ -719,7 +720,11 @@ def read_cb_box_quipu(header_bytes, body_bytes, *, session_privkey=None,
     return out
 
 
-def build_keydrop_quipu(drops, *, title="", tone=TONE_ORDINARY):
+_KEYDROP_HEADER_FIELDS = ("claim", "source", "centinela", "supersedes")
+
+
+def build_keydrop_quipu(drops, *, title="", tone=TONE_ORDINARY,
+                         header_fields=None):
     """Build a 0e 0d named-multi keydrop quipu releasing N keys.
 
     Args:
@@ -730,14 +735,26 @@ def build_keydrop_quipu(drops, *, title="", tone=TONE_ORDINARY):
                `name` may be empty string for anonymous drops (not citeable
                by name, but still released). Names within one keydrop SHOULD
                be unique; duplicates resolve to the first match.
-        title: optional outer public-facing batch label
+        title: optional outer public-facing batch label (lives at end of body)
         tone:  TONE_ORDINARY / TONE_AFFECTION / TONE_DEMONIC / TONE_REVERENCE
                (the tone reflects the act of disclosure, not per-drop)
+        header_fields: optional dict of header descriptor fields. If supplied,
+               builds the SOURCED variant (`0x01`) — the header gets a
+               pipe-delimited `|name=value|...` tail right after the 8
+               structural bytes, and the body's count+drops+optional-|TITLE|
+               layout is unchanged. Reserved field names:
+                   claim       — the claim tx that revealed this key in its
+                                 scriptSig (verified-key sale)
+                   source      — generic source reference (any txid)
+                   centinela   — the centinela whose tripwire revealed the key
+                   supersedes  — a prior keydrop this one replaces
+               Other names pass through opaquely. Values must be strings with
+               no '|' character.
 
     Returns:
         (header_bytes, body_bytes)
 
-    Body layout (variant 0x00 — the only defined keydrop variant):
+    Body layout (both variants):
         <count:2 uint16 BE>
         for each drop:
             <namelen:1>  <name:namelen UTF-8>
@@ -745,7 +762,9 @@ def build_keydrop_quipu(drops, *, title="", tone=TONE_ORDINARY):
             <key:32>
         [|TITLE|]                  optional outer label
 
-    A single-drop keydrop is just count=1.
+    Header layout:
+        variant 0x00 (bare):    c1dd0001 0e <tone> 0d 00
+        variant 0x01 (sourced): c1dd0001 0e <tone> 0d 01 |name=value|...|
     """
     if not drops:
         raise ValueError("drops list cannot be empty")
@@ -784,7 +803,23 @@ def build_keydrop_quipu(drops, *, title="", tone=TONE_ORDINARY):
             )
         normalized.append((name_bytes, ref_txid_raw, bytes(key)))
 
-    header = _build_header_prefix(tone, SUB_DROP, DROP_RELEASE)
+    # Choose variant by whether header_fields was supplied
+    if header_fields:
+        if not isinstance(header_fields, dict):
+            raise TypeError("header_fields must be a dict[str, str]")
+        for k, v in header_fields.items():
+            if not isinstance(k, str) or not isinstance(v, str):
+                raise TypeError(f"header_fields {k!r}={v!r}: keys and values must be str")
+            if "|" in k or "|" in v:
+                raise ValueError(f"header_fields {k!r}: '|' forbidden")
+            if "=" in k:
+                raise ValueError(f"header_fields {k!r}: '=' forbidden in keys")
+        header = _build_header_prefix(tone, SUB_DROP, DROP_SOURCED)
+        tail = "|".join(f"{k}={v}" for k, v in header_fields.items())
+        header += b"|" + tail.encode("utf-8") + b"|"
+    else:
+        header = _build_header_prefix(tone, SUB_DROP, DROP_RELEASE)
+
     body = struct.pack(">H", len(normalized))
     for name_bytes, ref_txid_raw, key in normalized:
         body += bytes([len(name_bytes)]) + name_bytes + ref_txid_raw + key
@@ -793,6 +828,28 @@ def build_keydrop_quipu(drops, *, title="", tone=TONE_ORDINARY):
             raise ValueError("title cannot contain '|'")
         body += b"|" + title.encode("utf-8") + b"|"
     return header, body
+
+
+def parse_keydrop_header_fields(header_bytes):
+    """Parse the variant-0x01 keydrop header tail (descriptor fields).
+    Returns a dict[str,str], possibly empty. Variant 0x00 returns {}."""
+    if len(header_bytes) < 8:
+        return {}
+    if header_bytes[4] != TYPE_ENCRYPTED or header_bytes[6] != SUB_DROP:
+        return {}
+    if header_bytes[7] != DROP_SOURCED:
+        return {}
+    rest = header_bytes[8:]
+    if not rest or rest[0:1] != b"|":
+        return {}
+    out = {}
+    text = rest.decode("utf-8", errors="replace")
+    for seg in text.split("|"):
+        if not seg or "=" not in seg:
+            continue
+        k, _, v = seg.partition("=")
+        out[k.strip()] = v.strip()
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -949,6 +1006,10 @@ def read_encrypted_quipu(header_bytes, body_bytes, *,
 
     if sub == SUB_DROP:
         # Body: <count:2 BE> + N × (<namelen:1><name><txid:32><key:32>) + optional |TITLE|
+        # If variant == DROP_SOURCED (0x01), the header also carries a
+        # pipe-delimited descriptor tail right after the 8 structural bytes.
+        if var == DROP_SOURCED:
+            out["header_fields"] = parse_keydrop_header_fields(header_bytes)
         if len(body_bytes) < 2:
             raise ValueError("keydrop body too short for count field")
         count = struct.unpack(">H", body_bytes[:2])[0]
@@ -1273,6 +1334,52 @@ def _selftest_cb_sale_box():
     print()
 
 
+def _selftest_keydrop_sourced():
+    """Variant 0x01 — keydrop with header descriptor fields naming the
+    claim tx that revealed the key in its scriptSig."""
+    box_txid = "f74a53b76bb2b6dfc9e26e7218525cfcb1f440cd3becbf4e38b31fbaf7b71d6d"
+    claim_txid = "dd57dbc9bcb1d3cb17a1d48ee3ae28e238d46726ec16a711d75ca1be4c75d882"
+    key = bytes.fromhex("d7004970988f022000b4837a451555dc" + "00" * 16)
+    oh, ob = build_keydrop_quipu(
+        [("session", box_txid, key)],
+        title="On Custody — session_priv",
+        tone=TONE_AI,
+        header_fields={"claim": claim_txid},
+    )
+    print(f"=== keydrop variant 0x01 (sourced — header fields) ===")
+    print(f"  header ({len(oh)} B): {oh.hex()}")
+    assert oh[6] == SUB_DROP
+    assert oh[7] == DROP_SOURCED
+    # Body shape unchanged
+    assert struct.unpack(">H", ob[:2])[0] == 1
+    print(f"  ✓ variant byte 0x01; body's count+drops layout unchanged")
+
+    parsed = read_encrypted_quipu(oh, ob)
+    assert parsed["sub_name"] == "drop"
+    assert parsed["variant"] == DROP_SOURCED
+    assert parsed["header_fields"]["claim"] == claim_txid
+    assert parsed["drops"][0]["name"] == "session"
+    assert parsed["drops"][0]["ref_txid"] == box_txid
+    assert parsed["drops"][0]["key"] == key
+    assert parsed["title"] == "On Custody — session_priv"
+    print(f"  ✓ header_fields[claim] = {parsed['header_fields']['claim'][:24]}…")
+    print(f"  ✓ drop name + ref + key round-trip")
+    print(f"  ✓ title round-trips at end of body")
+
+    # Variant 0x00 still works (backward compatible)
+    oh0, ob0 = build_keydrop_quipu(
+        [("session", box_txid, key)],
+        title="On Custody — session_priv",
+        tone=TONE_AI,
+    )
+    assert oh0[7] == DROP_RELEASE
+    parsed0 = read_encrypted_quipu(oh0, ob0)
+    assert parsed0["variant"] == DROP_RELEASE
+    assert "header_fields" not in parsed0
+    print(f"  ✓ variant 0x00 unchanged; no header_fields key in parsed output")
+    print()
+
+
 if __name__ == "__main__":
     _selftest_aes_raw()
     _selftest_aes_password()
@@ -1282,5 +1389,6 @@ if __name__ == "__main__":
     _selftest_cb_sale_box()
     _selftest_keydrop_single()
     _selftest_keydrop_multi()
+    _selftest_keydrop_sourced()
     _selftest_nested()
     _selftest_validation()

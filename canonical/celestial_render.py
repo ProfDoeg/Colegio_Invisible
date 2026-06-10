@@ -134,8 +134,9 @@ def render_celestial_quipu(
     lines  = parsed["lines"]
     groups = parsed.get("groups")
 
-    # If the inscription is grouped (0xcf), build per-group color maps so
-    # each constellation reads distinctly and gets a legend entry.
+    # If the inscription is grouped (the <grouped> header byte = 01), build
+    # per-group color maps so each constellation reads distinctly and gets a
+    # legend entry.
     group_line_color = {}     # line_key (sorted index pair) -> color
     group_point_color = {}    # point name -> color
     group_legend = []         # [(group name, color)]
@@ -250,6 +251,20 @@ def render_celestial_quipu(
         ax.set_xlabel("Right Ascension (°)", color=st["axis_color"])
         ax.set_ylabel("Declination (°)",     color=st["axis_color"])
         ax.invert_xaxis()  # RA decreases left-to-right by chart convention
+
+    # Aspect ratio — preserve sky/earth proportion at the figure's centroid.
+    # Without this, matplotlib auto-fills the axes and the chart stretches
+    # along whichever data range is smaller (Orion gets its head pulled
+    # upward, the Mediterranean gets its latitudes squashed). For a star
+    # chart at median declination δ, 1° of RA on the sky = cos(δ)° at the
+    # equator; the matplotlib aspect ratio (units of y per unit of x) is
+    # therefore 1/cos(δ). Same form for an earth chart at median latitude.
+    import math as _math
+    _coord_y = [pt["dec"] if pt["kind"] == "star" else pt["lat"] for pt in points]
+    if _coord_y:
+        _median_y = sum(_coord_y) / len(_coord_y)
+        _cos = max(0.02, _math.cos(_math.radians(abs(_median_y))))
+        ax.set_aspect(1.0 / _cos)
 
     ax.tick_params(colors=st["axis_color"])
     for spine in ax.spines.values():

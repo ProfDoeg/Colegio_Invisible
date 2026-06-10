@@ -114,6 +114,19 @@ PMETA_TIME_DAY    = 0x02
 PMETA_TIME_MONTH  = 0x03
 PMETA_TIME_YEAR   = 0x04
 
+# meta = 0x02 — per-point `more` block (amendment, May 2026; additive & opt-in).
+# A point then carries:  coords · namelen·name · morelen:u16 · more
+#   more = Nvar:u8 · Nvar×[ keylen·key · vkind:u8 · value ]
+# Universal across kinds — a star, a place, or a person can each carry a
+# description, cross-quipu references, and a date. Old figures (meta 0x00/0x01)
+# never set this flag, so they read byte-identically under the extended reader.
+META_MORE         = 0x02
+VAR_TEXT          = 0x00   # inline UTF-8 value (vlen:u16 + utf8)
+VAR_REF           = 0x01   # 32-byte quipu txid (cross-quipu reference)
+VAR_DATE          = 0x02   # Julian Day, IEEE-754 f64 (subsumes the legacy time field)
+_VAR_NAME_TO_BYTE = {"text": VAR_TEXT, "ref": VAR_REF, "date": VAR_DATE}
+_VAR_BYTE_TO_NAME = {v: k for k, v in _VAR_NAME_TO_BYTE.items()}
+
 _KIND_NAME_TO_BYTE = {"earth": KIND_EARTH, "star": KIND_STAR}
 _KIND_BYTE_TO_NAME = {v: k for k, v in _KIND_NAME_TO_BYTE.items()}
 
@@ -129,6 +142,55 @@ _PMETA_TO_PRECISION_NAME = {v: k for k, v in _PRECISION_NAME_TO_PMETA.items()}
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
+
+def _emit_more(more, idx):
+    """Serialize a point's `more` list of (key, kind, value); kind is
+    'text' | 'ref' | 'date' (or the VAR_* byte). Returns the bytes after morelen."""
+    out = bytearray([len(more)])
+    for key, kind, value in more:
+        vk = _VAR_NAME_TO_BYTE.get(kind, kind) if isinstance(kind, str) else kind
+        kb = key.encode("utf-8")
+        if len(kb) > 255:
+            raise ValueError(f"point {idx}: variable key encodes to {len(kb)} bytes; max 255")
+        out += bytes([len(kb)]) + kb + bytes([vk])
+        if vk == VAR_TEXT:
+            vb = str(value).encode("utf-8")
+            out += struct.pack(">H", len(vb)) + vb
+        elif vk == VAR_REF:
+            if len(value) != 32:
+                raise ValueError(f"point {idx}: ref variable {key!r} must be a 32-byte txid")
+            out += bytes(value)
+        elif vk == VAR_DATE:
+            out += struct.pack(">d", float(value))
+        else:
+            raise ValueError(f"point {idx}: unknown variable kind {vk:#04x}")
+    return bytes(out)
+
+
+def _read_more(body, p, idx):
+    """Parse a `morelen:u16 + more` block at offset p; return (more_list, new_p)."""
+    if p + 2 > len(body):
+        raise ValueError(f"point {idx}: body truncated reading morelen")
+    morelen = struct.unpack(">H", body[p:p + 2])[0]; p += 2
+    end = p + morelen
+    if end > len(body):
+        raise ValueError(f"point {idx}: more block ({morelen} B) overruns body")
+    mo, q, more = body[p:end], 0, []
+    nvar = mo[q]; q += 1
+    for _ in range(nvar):
+        kl = mo[q]; q += 1
+        key = mo[q:q + kl].decode("utf-8"); q += kl
+        vk = mo[q]; q += 1
+        if vk == VAR_TEXT:
+            vl = struct.unpack(">H", mo[q:q + 2])[0]; q += 2
+            more.append((key, "text", mo[q:q + vl].decode("utf-8"))); q += vl
+        elif vk == VAR_REF:
+            more.append((key, "ref", bytes(mo[q:q + 32]))); q += 32
+        elif vk == VAR_DATE:
+            more.append((key, "date", struct.unpack(">d", mo[q:q + 8])[0])); q += 8
+        else:
+            raise ValueError(f"point {idx}: unknown variable kind {vk:#04x}")
+    return more, end
 
 def _coerce_kind(kind):
     if isinstance(kind, int):
@@ -177,7 +239,10 @@ def _pmeta_for_point(pt, figure_kind, idx):
 
 
 def _figure_needs_meta(points, figure_kind):
-    """meta byte = 01 iff any point declares a time."""
+    """meta byte: 02 if any point carries a `more` block; else 01 if any
+    declares a (legacy) time; else 00."""
+    if any(pt.get("more") for pt in points):
+        return META_MORE
     for i, pt in enumerate(points):
         if _pmeta_for_point(pt, figure_kind, i) != PMETA_NONE:
             return META_YES
@@ -190,8 +255,8 @@ def _build_header(title, kind, grouped, meta, K, tone):
         raise ValueError(f"kind must be 0x00 or 0x01 (got {kind:#04x})")
     if grouped not in (GROUPED_NO, GROUPED_YES):
         raise ValueError(f"grouped must be 0x00 or 0x01 (got {grouped:#04x})")
-    if meta not in (META_NO, META_YES):
-        raise ValueError(f"meta must be 0x00 or 0x01 (got {meta:#04x})")
+    if meta not in (META_NO, META_YES, META_MORE):
+        raise ValueError(f"meta must be 0x00, 0x01, or 0x02 (got {meta:#04x})")
     if K > 0xFFFF:
         raise ValueError(f"max 65535 points per figure (got {K})")
     title_bytes = title.encode("utf-8")
@@ -250,6 +315,15 @@ def _emit_point(pt, figure_kind, figure_meta, idx):
             )
     else:
         raise ValueError(f"unknown figure_kind {figure_kind:#04x}")
+
+    if figure_meta == META_MORE:
+        # coords · name · morelen · more  (no pmeta; any date lives in `more`)
+        more = list(pt.get("more", []))
+        if pt.get("time") is not None:
+            more = more + [("date", "date", float(pt["time"]))]
+        mb = _emit_more(more, idx)
+        return (struct.pack(">ff", a, b) + bytes([len(name_bytes)]) + name_bytes
+                + struct.pack(">H", len(mb)) + mb)
 
     buf = b""
 
@@ -446,13 +520,36 @@ def read_celestial_quipu(header_bytes, body_bytes):
         )
     if grouped not in (GROUPED_NO, GROUPED_YES):
         raise ValueError(f"grouped byte {grouped:#04x} must be 0x00 or 0x01")
-    if meta not in (META_NO, META_YES):
-        raise ValueError(f"meta byte {meta:#04x} must be 0x00 or 0x01")
+    if meta not in (META_NO, META_YES, META_MORE):
+        raise ValueError(f"meta byte {meta:#04x} must be 0x00, 0x01, or 0x02")
     kind_name = _KIND_BYTE_TO_NAME[figure_kind]
 
     p = 0
     points = []
     for i in range(K):
+        if meta == META_MORE:
+            if p + 8 > len(body_bytes):
+                raise ValueError(f"body truncated reading coords for point {i}")
+            a, b = struct.unpack(">ff", body_bytes[p:p + 8]); p += 8
+            if p >= len(body_bytes):
+                raise ValueError(f"body truncated reading name length for point {i}")
+            nl = body_bytes[p]; p += 1
+            if p + nl > len(body_bytes):
+                raise ValueError(f"body truncated reading name for point {i}")
+            name = body_bytes[p:p + nl].decode("utf-8"); p += nl
+            more, p = _read_more(body_bytes, p, i)
+            if figure_kind == KIND_EARTH:
+                pt = {"kind": "earth", "lat": a, "lng": b, "name": name}
+            else:
+                pt = {"kind": "star", "ra": a, "dec": b, "name": name}
+            pt["more"] = more
+            for _k, _kind, _v in more:          # surface a date var as time → timed arrows
+                if _kind == "date":
+                    pt["time"] = _v
+                    break
+            points.append(pt)
+            continue
+
         if meta == META_YES:
             if p >= len(body_bytes):
                 raise ValueError(f"body truncated reading point {i} pmeta")
@@ -521,7 +618,7 @@ def read_celestial_quipu(header_bytes, body_bytes):
             lines.append((a_idx, b_idx))
         return {
             "title": title, "tone": tone, "kind": kind_name,
-            "grouped": False, "meta": meta == META_YES,
+            "grouped": False, "meta": meta != META_NO, "meta_mode": meta,
             "points": points, "lines": lines, "groups": None,
         }
 
@@ -572,7 +669,7 @@ def read_celestial_quipu(header_bytes, body_bytes):
 
     return {
         "title": title, "tone": tone, "kind": kind_name,
-        "grouped": True, "meta": meta == META_YES,
+        "grouped": True, "meta": meta != META_NO, "meta_mode": meta,
         "points": points, "lines": all_lines, "groups": groups,
     }
 
@@ -805,6 +902,36 @@ def _selftest_validation():
     print()
 
 
+def _selftest_more():
+    epts = [
+        {"name": "Malcesine", "lat": 45.7656, "lng": 10.8073,
+         "more": [("description", "text", "Goethe sketched the castle and was briefly taken for a spy."),
+                  ("essay", "ref", b"\x11" * 32)]},
+        {"name": "Torbole", "lat": 45.8706, "lng": 10.8716, "more": []},
+    ]
+    h, b = build_celestial_quipu("Garda waypoints", "earth", epts, [(0, 1)])
+    print("=== meta=0x02 more-block (earth points: description + cross-quipu ref) ===")
+    print(f"  header {len(h)}B body {len(b)}B")
+    assert h[8] == META_MORE
+    parsed = read_celestial_quipu(h, b)
+    assert parsed["meta_mode"] == META_MORE
+    assert parsed["points"][0]["more"][0] == ("description", "text",
+        "Goethe sketched the castle and was briefly taken for a spy.")
+    assert parsed["points"][0]["more"][1][1] == "ref"
+    assert parsed["points"][0]["more"][1][2] == b"\x11" * 32
+    assert parsed["points"][1]["more"] == []
+    # a STAR carrying a description + a date variable (a date on a star — fine under meta=0x02)
+    spts = [{"name": "Sirius", "ra": 101.2875, "dec": -16.7161,
+             "more": [("description", "text", "Alpha Canis Majoris; brightest star."),
+                      ("date", "date", 2451545.0)]}]
+    h2, b2 = build_celestial_quipu("Sirius", "star", spts, [])
+    p2 = read_celestial_quipu(h2, b2)
+    assert h2[8] == META_MORE
+    assert p2["points"][0]["more"][1] == ("date", "date", 2451545.0)
+    print("  ✓ description / ref / date variables round-trip on earth AND star points")
+    print()
+
+
 if __name__ == "__main__":
     _selftest_cassiopeia()
     _selftest_bordados()
@@ -812,4 +939,5 @@ if __name__ == "__main__":
     _selftest_grouped_star()
     _selftest_grouped_earth_with_standalone_event()
     _selftest_large_K()
+    _selftest_more()
     _selftest_validation()

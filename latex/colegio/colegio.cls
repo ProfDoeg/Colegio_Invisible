@@ -112,6 +112,8 @@
                 textheight=38\baselineskip,
                 includehead]{geometry}
 \RequirePackage{microtype}
+\RequirePackage{amsmath}      % inline + display mathematics in essay prose
+\RequirePackage{amssymb}
 \RequirePackage{graphicx}
 \RequirePackage{eso-pic}      % full-bleed cover art (whole-page background layer)
 \RequirePackage{caption}
@@ -324,6 +326,73 @@
     {\centering\sffamily\fontsize{6.5}{8}\selectfont\color{colegio@faint}%
       \textsc{image quipu}\,\,\href{quipu:#3}{\ttfamily quipu:#3}\par}%
   \end{figure}%
+}
+
+% --------------------------------------------------------------------
+%   \marginplate{graphics} — absolute-positioned margin art
+%
+%   Stamps a full-height plate into the OUTER margin via an eso-pic shipout
+%   overlay, so it does NOT disturb the text flow (unlike \marginnote /
+%   \imagequipu, which reserve vertical space). Positioned by absolute page
+%   coordinates: width = \marginparwidth, vertically centred on the text
+%   block, flush to the margin's inner edge. It PERSISTS on every subsequent
+%   page until changed — so each movement's margin stays filled — and
+%   \marginplate{} (empty) clears it.
+%
+%   `graphics` is a path/basename of a PDF or PNG (no figures/ prefix added).
+%   Emitted by colegio_pipeline.py from a render="marginplate" directive.
+% --------------------------------------------------------------------
+% Two ways to fill the margin, both decoupled from the text:
+%   \marginplateat{N}{graphics}{txid} — pin a plate to ABSOLUTE page N (the Nth
+%       sheet shipped, counted here independent of the printed folio). Exact
+%       override; checked first.
+%   \marginplate[txid]{graphics}      — ENQUEUE a plate. Each shipped page draws
+%       the next queued plate (one per page, in order), so every movement's
+%       banner appears even when a short movement is sandwiched onto a shared
+%       page — nothing is dropped. \marginplate{} (empty) drops the whole queue
+%       (a hard STOP: no margin art on the following pages, e.g. the appendix).
+% `txid` (may be empty) prints a clickable quipu: link beneath the plate.
+\newcount\colegio@sheet
+\newcount\colegio@qhead \newcount\colegio@qtail
+\colegio@qhead=1 \colegio@qtail=0
+\newcommand{\marginplate}[2][]{%
+  \def\colegio@mp{#2}%
+  \ifx\colegio@mp\@empty
+    \global\colegio@qhead=1 \global\colegio@qtail=0   % drop the queue (hard stop)
+  \else
+    \global\advance\colegio@qtail by 1
+    \expandafter\gdef\csname colegio@q@\the\colegio@qtail\endcsname{#2}%
+    \expandafter\gdef\csname colegio@qx@\the\colegio@qtail\endcsname{#1}%
+  \fi
+  \ignorespaces}
+\newcommand{\marginplateat}[3]{%
+  \expandafter\gdef\csname colegio@plate@#1\endcsname{#2}%
+  \expandafter\gdef\csname colegio@platx@#1\endcsname{#3}}
+\newcommand{\colegio@platelink}[1]{%
+  \def\colegio@tmp{#1}\ifx\colegio@tmp\@empty\else
+    \\[0.8mm]{\sffamily\fontsize{6}{7.2}\selectfont\color{colegio@faint}%
+      \href{quipu:#1}{quipu:\StrLeft{#1}{8}\dots\StrRight{#1}{6}}}%
+  \fi}
+\newcommand{\colegio@drawplate}[2]{%
+  \AtTextUpperLeft{%
+    \put(\LenToUnit{\dimexpr\textwidth+\marginparsep\relax},%
+         \LenToUnit{-0.5\textheight}){%
+      \makebox(0,0)[l]{\parbox{\marginparwidth}{\centering
+        \includegraphics[width=\marginparwidth]{#1}\colegio@platelink{#2}}}}%
+  }%
+}
+\AddToShipoutPictureFG{%
+  \global\advance\colegio@sheet by 1
+  \ifcsname colegio@plate@\the\colegio@sheet\endcsname     % explicit pin wins
+    \colegio@drawplate{\csname colegio@plate@\the\colegio@sheet\endcsname}%
+                      {\csname colegio@platx@\the\colegio@sheet\endcsname}%
+  \else
+    \ifnum\colegio@qhead>\colegio@qtail\else               % else pop one from queue
+      \colegio@drawplate{\csname colegio@q@\the\colegio@qhead\endcsname}%
+                        {\csname colegio@qx@\the\colegio@qhead\endcsname}%
+      \global\advance\colegio@qhead by 1
+    \fi
+  \fi
 }
 
 % --------------------------------------------------------------------
@@ -1092,6 +1161,13 @@
     }%
   }%
 }
+
+% \payloadcite[anchor]{txid} — like \quipucite but the quipu: link sits INLINE
+% on the baseline (not raised as a superscript), so it doesn't lift the line
+% height in a table row. Used in the Payload appendix so rows top-align cleanly.
+\newcommand{\payloadcite}[2][]{%
+  \href{quipu:#2}{\textit{#1}}\,\,{\sffamily\fontsize{6}{7}\selectfont
+    \color{colegio@faint}\href{quipu:#2}{quipu:\StrLeft{#2}{8}\dots\StrRight{#2}{4}}}}
 
 % --------------------------------------------------------------------
 %   Colophon environment — back-matter inscription metadata

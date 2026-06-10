@@ -19,7 +19,7 @@ BODY:
     <parent_kind:1>                  0x00 = root, 0x01 = amendment
     [if parent_kind == 0x01]:
         <parent_txid:32>             raw 32-byte txid of parent Estandarte
-                                     (the join-transaction txid of its diamond)
+                                     (the root-transaction txid of its diamond)
     <T:1>                            type entries in this Estandarte
     for each type entry:
         <type_byte:1>                the type byte being documented
@@ -374,8 +374,11 @@ def format_estandarte(parsed):
 
 def _example_registry():
     """Return a (types, conventions) tuple suitable as a starting Estandarte
-    draft. Captures the May 2026 canonical type set with multi-dimensional
-    subtypes for image, encrypted, and celestial."""
+    draft. Captures the June 2026 type set: every canonical type with its
+    dimensions current, the observed pre-canonical types (0x0c, 0x1d)
+    registered with honest statuses, and the protocol-level conventions —
+    including the diamond assembly rules a reader needs to reconstruct any
+    multi-tx inscription from raw transactions."""
     types = [
         {
             'byte': 0x00, 'name': 'text', 'status': STATUS_CANONICAL,
@@ -384,12 +387,20 @@ def _example_registry():
             'flags': [],
         },
         {
+            'byte': 0x01, 'name': 'essay', 'status': STATUS_CANONICAL,
+            'desc': 'markdown essay with <<txid>> citations and fenced binding blocks',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
             'byte': 0x03, 'name': 'image', 'status': STATUS_CANONICAL,
-            'desc': 'bit-packed raster image, width-first dimensions',
+            'desc': 'bit-packed raster image, width-first dimensions, MSB-first row-major packing',
             'dimensions': [
                 {'name': 'color', 'desc': 'pixel color model', 'values': [
-                    {'value': 0x00, 'name': 'grayscale', 'desc': '1 channel per pixel'},
-                    {'value': 0x01, 'name': 'rgb',       'desc': '3 channels per pixel'},
+                    {'value': 0x00, 'name': 'grayscale',  'desc': '1 channel per pixel'},
+                    {'value': 0x01, 'name': 'rgb',        'desc': '3 channels per pixel'},
+                    {'value': 0x02, 'name': 'gray_alpha', 'desc': '2 channels per pixel: gray, alpha'},
+                    {'value': 0x03, 'name': 'rgba',       'desc': '4 channels per pixel: R, G, B, alpha'},
                 ]},
                 {'name': 'bit_depth', 'desc': 'bits per channel per pixel (1..8)', 'values': [
                     {'value': i, 'name': f'{i}-bit', 'desc': f'{i} bits per channel'}
@@ -399,28 +410,74 @@ def _example_registry():
             'flags': [],
         },
         {
+            'byte': 0x07, 'name': 'voice', 'status': STATUS_DRAFT,
+            'desc': 'band-limited speech: 8-bit STFT magnitude frames, phase recovered on decode (no inscriptions yet)',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
+            'byte': 0x09, 'name': 'book', 'status': STATUS_CANONICAL,
+            'desc': 'ordered multi-document container (front/body/back zones, parts, nested volumes)',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
+            'byte': 0x0c, 'name': 'cert-precursor', 'status': STATUS_DEPRECATED,
+            'desc': 'pre-canonical hash certificate; superseded by 0xcc. One inscription on chain, kept readable',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
             'byte': 0x0e, 'name': 'encrypted', 'status': STATUS_CANONICAL,
-            'desc': 'AES-wrapped, ECIES broadcast, or key-drop sub-families',
+            'desc': 'sealed sub-families: AES, ECIES, key-drop, canary, sale box, threshold shares',
             'dimensions': [
                 {'name': 'sub_family', 'desc': 'which encryption shape', 'values': [
-                    {'value': 0xae, 'name': 'aes',   'desc': 'symmetric AES-CBC wrapper'},
-                    {'value': 0xec, 'name': 'ecies', 'desc': 'per-recipient ECIES envelopes'},
-                    {'value': 0x0d, 'name': 'drop',  'desc': 'released-key drop'},
+                    {'value': 0xae, 'name': 'aes',       'desc': 'symmetric AES-CBC wrapper'},
+                    {'value': 0xec, 'name': 'ecies',     'desc': 'per-recipient ECIES envelopes'},
+                    {'value': 0x0d, 'name': 'drop',      'desc': 'released-key drop'},
+                    {'value': 0xca, 'name': 'centinela', 'desc': 'cryptographic canary: AES-sealed claim secret over a bait UTXO, so a spend is on-chain tamper-evidence'},
+                    {'value': 0xcb, 'name': 'cb-sale',   'desc': 'committed-binding sale box: ECIES-sealed to a fresh session pubkey for a verified-key sale'},
+                    {'value': 0x55, 'name': 'shamir',    'desc': 'Shamir K-of-N secret share over GF(2^8) (threshold key-drop; vault variant is self-contained)'},
                 ]},
-                {'name': 'variant', 'desc': 'sub-family-specific qualifier', 'values': [
-                    {'value': 0x00, 'name': 'raw',        'desc': 'AES: raw 32-byte key; ECIES: broadcast; drop: release'},
-                    {'value': 0x01, 'name': 'password',   'desc': 'AES: SHA256(passphrase) key'},
+                {'name': 'variant', 'desc': 'sub-family-specific qualifier (meaning depends on sub_family)', 'values': [
+                    {'value': 0x00, 'name': 'raw',      'desc': 'aes: raw 32-byte key · ecies: broadcast · drop: bare release · centinela: raw-key seal · cb-sale: v1 single-key · shamir: single share'},
+                    {'value': 0x01, 'name': 'password', 'desc': 'aes: SHA256(passphrase) key · drop: sourced (|claim=…| descriptor) · centinela: passphrase seal · shamir: self-contained vault'},
                 ]},
             ],
             'flags': [],
         },
         {
+            'byte': 0x1d, 'name': 'identity', 'status': STATUS_DRAFT,
+            'desc': 'JSON identity dictionary: names, public keys, handles, references. One pre-canonical inscription on chain',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
+            'byte': 0x3d, 'name': 'scene', 'status': STATUS_CANONICAL,
+            'desc': 'walkable 3D scene: camera + textured point/photo geometry (pinhole-projectable)',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
+            'byte': 0x5c, 'name': 'latex', 'status': STATUS_CANONICAL,
+            'desc': 'LaTeX document or plate; class= names the document class, \\quiputikz transcludes data by pointer',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
+            'byte': 0xab, 'name': 'binding', 'status': STATUS_CANONICAL,
+            'desc': 'binding overlay: imports, alias chains, string substitution, and anchored annotations',
+            'dimensions': [],
+            'flags': [],
+        },
+        {
             'byte': 0xcc, 'name': 'cert', 'status': STATUS_CANONICAL,
-            'desc': 'certificate: hash-only or all-in-one (subtype is 2-byte big-endian)',
+            'desc': 'certificate: hash-only, all-in-one, or sale offer (subtype is 2-byte big-endian)',
             'dimensions': [
                 {'name': 'subtype', 'desc': '2-byte certificate subtype (BE)', 'values': [
-                    {'value': 0x01, 'name': 'hash',         'desc': 'SHA256 hash of off-chain payload only'},
-                    {'value': 0x02, 'name': 'all-in-one',   'desc': 'full certificate body on chain'},
+                    {'value': 0x01, 'name': 'hash',       'desc': 'SHA256 hash of off-chain payload only'},
+                    {'value': 0x02, 'name': 'all-in-one', 'desc': 'full certificate body on chain'},
+                    {'value': 0x03, 'name': 'sale-offer', 'desc': 'verified-key sale offer: attestation fields + signers + ECDSA adaptor signatures'},
                 ]},
             ],
             'flags': [],
@@ -437,16 +494,30 @@ def _example_registry():
                     {'value': 0x00, 'name': 'no',  'desc': 'flat point list'},
                     {'value': 0x01, 'name': 'yes', 'desc': 'points partitioned into named groups with lines'},
                 ]},
-                {'name': 'meta', 'desc': 'whether points carry per-point metadata', 'values': [
-                    {'value': 0x00, 'name': 'no',  'desc': 'points have name + coords only'},
-                    {'value': 0x01, 'name': 'yes', 'desc': 'points may carry timestamps and other meta'},
+                {'name': 'meta', 'desc': 'per-point metadata shape', 'values': [
+                    {'value': 0x00, 'name': 'no',   'desc': 'points have name + coords only'},
+                    {'value': 0x01, 'name': 'time', 'desc': 'points may carry timestamps'},
+                    {'value': 0x02, 'name': 'more', 'desc': 'points may carry named variables: text, 32-byte quipu ref, or Julian-Day date'},
+                ]},
+            ],
+            'flags': [],
+        },
+        {
+            'byte': 0xda, 'name': 'dancer', 'status': STATUS_CANONICAL,
+            'desc': 'motion-sprite dancer: frames + per-frame centroid/displacement + named-transition graph',
+            'dimensions': [
+                {'name': 'variant', 'desc': 'which dancer record', 'values': [
+                    {'value': 0x01, 'name': 'performance', 'desc': 'a played sequence of frames'},
+                    {'value': 0x02, 'name': 'footage',     'desc': 'raw frame atlas (inline or by-ref)'},
+                    {'value': 0x03, 'name': 'graph',       'desc': 'named-transition graph between clips'},
+                    {'value': 0x04, 'name': 'controller',  'desc': 'control-mode bindings (uniform/weighted/boltzmann/quantum/keyboard)'},
                 ]},
             ],
             'flags': [],
         },
         {
             'byte': 0xee, 'name': 'estandarte', 'status': STATUS_CANONICAL,
-            'desc': 'self-referential protocol registry (this type)',
+            'desc': 'self-referential protocol registry (this type); amends via parent_txid, leaf wins',
             'dimensions': [],
             'flags': [],
         },
@@ -454,24 +525,51 @@ def _example_registry():
 
     conventions = [
         {
+            'name':   'magic',
+            'syntax': 'c1 dd 00 01 at offset 0',
+            'desc':   'protocol magic + version 0.1 prefix on every quipu',
+        },
+        {
+            'name':   'tone',
+            'syntax': 'header byte 5',
+            'desc':   'cross-type semantic register: 0x00 ordinary; affective family 0x01-0x07 '
+                      '(affection, seeking, play, lust, rage, fear, grief — the seven primal systems); '
+                      '0x0d demonic; 0xa1 ai; 0xff reverence. Default 0x00',
+        },
+        {
             'name':   'diamond',
-            'syntax': 'root(N outputs) -> N strands of OP_RETURN chains -> join(N inputs)',
-            'desc':   'multi-tx inscription pattern; the join txid is the canonical inscription ref',
+            'syntax': 'root (1 tx, N outputs) -> N strands of <=80-byte OP_RETURN txs -> join (1 tx, N inputs)',
+            'desc':   'every payload over 80 bytes is inscribed as a diamond; strand k is seeded by '
+                      'root output k; the inscription is complete when the join confirms; a high-fee '
+                      'join (CPFP) is the canonical rescue for stalled strands',
+        },
+        {
+            'name':   'assembly',
+            'syntax': 'payload = strand 0 (cabeza) + strands 1..N-1 (cuerpos), in root-output order',
+            'desc':   'strand 0 opens with the structural header; body bytes fill the strands as '
+                      'contiguous runs, never interleaved. A reader walks each strand from its root '
+                      'output to the join collecting OP_RETURN payloads, then concatenates',
         },
         {
             'name':   'citation',
             'syntax': '<<txid>>  or  <<txid>><<name>>',
-            'desc':   'whole-inscription reference; with <<name>>, references a named sub-object',
+            'desc':   'whole-inscription reference is the ROOT txid of its diamond — fixed the moment '
+                      'the root is signed; the join is an artifact of closing. With <<name>>, '
+                      'references a named sub-object inside the target',
         },
         {
-            'name':   'tone',
-            'syntax': 'header byte 5: 0x00 ordinary / 0x01 affection / 0xff reverence',
-            'desc':   'cross-type semantic tone byte; default 0x00 if omitted from a type\'s spec',
+            'name':   'forest',
+            'syntax': 'splitter -> many roots -> strands -> one consolidating join',
+            'desc':   'many quipus inscribed as one funding tree; each member keeps its own root '
+                      'identity and is cited by its own root txid; members may cross-reference '
+                      'each other by root before any join exists',
         },
         {
-            'name':   'magic',
-            'syntax': 'c1 dd 00 01 at offset 0',
-            'desc':   'protocol magic + version 0.1 prefix on every quipu',
+            'name':   'pre-canonical',
+            'syntax': 'inscriptions predating this registry (before May 2026)',
+            'desc':   'earlier inscriptions may deviate from these specs: encrypted headers carried '
+                      'an inner content-type byte, some images are non-structural or transpose '
+                      'dimensions. Deviations are documented errata — kept readable, never rewritten',
         },
     ]
     return types, conventions

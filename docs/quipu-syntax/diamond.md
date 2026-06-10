@@ -53,10 +53,21 @@ for the auto-classifying walker that accepts either root or join.
 
 ## Citation
 
-A diamond is identified by **its join transaction txid** — that's the
+A diamond is identified by **its root transaction txid** — that's the
 canonical reference for the inscription as a whole. The citation
-syntax `<<txid>>` always means the join txid. The root txid is an
-internal implementation artifact and is not cited.
+syntax `<<txid>>` always means the root txid.
+
+This is structural, not stylistic. The root txid is determined the
+moment the root tx is signed; the join txid only comes into existence
+after every strand has closed. In a consolidated-diamond forest (where
+many quipus are inscribed in one funding tree and may cross-reference
+each other) no join exists at the time any body is being written —
+the only txid available to cross-reference is the root. Citation by
+root is therefore the only convention that works for both standalone
+and consolidated inscriptions.
+
+The join txid is real and recorded, but it is an artifact of the
+diamond closing, not the inscription's identity.
 
 ## Why this shape
 

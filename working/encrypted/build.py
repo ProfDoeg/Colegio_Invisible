@@ -27,7 +27,7 @@ from book import build_book_quipu
 HERE   = os.path.dirname(os.path.abspath(__file__))
 FIGDIR = os.path.join(HERE, "figures")
 DEMONIC = 0x0D                                  # the tone of sealed, hidden things
-AUTH = {"author": "El Gólem", "date": "2026-05-27", "lang": "en"}
+AUTH = {"author": "El Gólem", "date": "2026-06-08", "lang": "en"}
 
 # The four Composition plates reused from El Libro del Gólem (the book of Gólem).
 COMP_CORD = "6be0a1b5a925035ddd98427f61228ac4689d217d47f1f35a3ee550d557698d2e"
@@ -151,6 +151,96 @@ PLATE_ENVELOPE = kplate("Composition VI — The Envelope", r"""
      "key is then wrapped for N recipients as 64-byte envelopes, each opened by "
      "its own private key. Type 0e, sub-family ec.")
 
+# ── Plate: The Threshold (0x55 Shamir) ────────────────────────────────────
+PLATE_THRESHOLD = kplate("Composition VIII — The Threshold", r"""
+  \fill[kw] (-1,-1) rectangle (13,8);
+  % the key at the top — yellow square
+  \fill[ky] (5.7,6.4) rectangle (7.5,7.2);
+  \draw[ki] (5.7,6.4) rectangle (7.5,7.2);
+  \node[ki,font=\footnotesize] at (6.6,6.8) {key};
+  % the polynomial — dashed splitting lines to N = 6 share-points
+  \foreach \x/\c in {1.0/kr, 3.0/kb, 5.0/ki, 7.5/kr, 9.5/kb, 11.5/ki} {
+    \draw[ki,dashed] (6.6,6.4) -- (\x,4.3);
+    \fill[\c] (\x,4.0) circle (0.42);
+  }
+  % a quorum of K = 4 reassembles — solid converging arrows
+  \foreach \x in {1.0,5.0,9.5,11.5} {
+    \draw[ki,line width=1.3pt,-{Stealth}] (\x,3.55) -- (6.6,1.9);
+  }
+  % the reconstructed key at the bottom — yellow again
+  \fill[ky] (5.7,1.0) rectangle (7.5,1.8);
+  \draw[ki] (5.7,1.0) rectangle (7.5,1.8);
+  \node[ki,font=\footnotesize] at (6.6,1.4) {key};
+  % the rule in the middle
+  \node[ki,font=\itshape] at (6.6,2.85) {K of N};
+""", "The threshold. A 32-byte key is broken by polynomial interpolation into N "
+     "shares; any K of them recover the key, fewer than K recover nothing. "
+     "Type 0e, sub-family 55.")
+
+# ── Plate: The Bargain (0xcb verified-key sale) ───────────────────────────
+PLATE_BARGAIN = kplate("Composition IX — The Bargain", r"""
+  \fill[kw] (-1,-1) rectangle (13,8);
+  % the box (sealed quipu) on the left — concentric red rings
+  \foreach \r in {1.1,1.6,2.1} { \draw[kr,line width=1pt] (2.4,4.0) circle (\r); }
+  \fill[kr] (2.4,4.0) circle (0.35);
+  % the bond P2SH lock at the centre — blue lock symbol
+  \draw[kb,line width=2pt] (5.8,2.6) rectangle (7.4,5.0);
+  \draw[kb,line width=2pt] (6.0,5.0) arc (180:0:0.6);
+  \node[ki,font=\footnotesize] at (6.6,3.8) {bond};
+  % the coin (buyer's payment) entering from above — yellow
+  \fill[ky] (6.6,6.9) circle (0.42);
+  \draw[ki,line width=1.5pt,-{Stealth}] (6.6,6.3) -- (6.6,5.4);
+  % the key (session_priv) emerging on the right — blue
+  \fill[kb] (10.6,4.0) circle (0.42);
+  \fill[kb] (10.4,3.6) rectangle (10.8,1.85);
+  \fill[kb] (10.8,2.0) rectangle (11.3,2.1);
+  \fill[kb] (10.8,2.6) rectangle (11.2,2.7);
+  % seller claims — bond to key, solid arrow
+  \draw[ki,line width=1.5pt,-{Stealth}] (7.4,4.0) -- (9.85,4.0);
+  % key opens the box — dashed return arrow
+  \draw[ki,dashed,line width=1.4pt,-{Stealth}]
+        (10.5,4.5) .. controls (6.5,7.6) and (3.0,7.6) .. (2.5,5.7);
+""", "The bargain. A coin enters the bond; the seller's claim signature spends "
+     "it; the same algebra by which the signature satisfies the chain reveals "
+     "the key that opens the box. Type 0e, sub-family cb.")
+
+# ── Plate: The Algebra (composition of compositions) ──────────────────────
+PLATE_ALGEBRA = kplate("Composition X — The Algebra", r"""
+  \fill[kw] (-1,-1) rectangle (13,8);
+  % the incoming primitive — a yellow beam from the left
+  \fill[ky] (0.4,3.7) rectangle (3.4,4.1);
+  % the prism — the algebra itself, an ink triangle that refracts
+  \fill[ki] (3.4,2.4) -- (5.4,3.9) -- (3.4,5.4) -- cycle;
+  \draw[ki,line width=1.5pt] (3.4,2.4) -- (5.4,3.9) -- (3.4,5.4) -- cycle;
+  % the refracted beams — five rays to five institutional forms
+  \draw[kr,line width=2pt] (5.4,3.9) -- (11.4,6.4);
+  \draw[ky,line width=2pt] (5.4,3.9) -- (11.6,5.1);
+  \draw[ki,line width=1.6pt] (5.4,3.9) -- (11.8,3.9);
+  \draw[kb,line width=2pt] (5.4,3.9) -- (11.6,2.7);
+  \draw[kr,line width=2pt] (5.4,3.9) -- (11.4,1.4);
+  % one-to-one (subscription) — a single red circle
+  \fill[kr] (11.9,6.4) circle (0.30);
+  % consortium — a ring of small dots around a yellow core
+  \foreach \ang in {0,60,120,180,240,300} {
+    \fill[ki] ({12.0+0.35*cos(\ang)},{5.1+0.35*sin(\ang)}) circle (0.10);
+  }
+  \fill[ky] (12.0,5.1) circle (0.18);
+  % public release — an ink square
+  \fill[ki] (11.7,3.65) rectangle (12.3,4.15);
+  % inheritance — a blue clock-circle
+  \draw[kb,line width=1.5pt] (12.0,2.7) circle (0.32);
+  \draw[kb,line width=1.4pt] (12.0,2.7) -- (12.0,2.95);
+  \draw[kb,line width=1.4pt] (12.0,2.7) -- (12.18,2.7);
+  % bounty — a small heap of yellow coins
+  \fill[ky] (11.9,1.4) circle (0.16);
+  \fill[ky] (12.1,1.5) circle (0.16);
+  \fill[ky] (12.05,1.25) circle (0.16);
+  \draw[kr,line width=1.5pt] (12.4,1.4) -- (12.7,1.4);
+""", "The algebra. One primitive — payment bound to revelation — refracted by "
+     "the dimensions of choice (inner content, access structure, reveal "
+     "binding, funding, settlement) into many institutional forms: subscription, "
+     "consortium, public release, inheritance, bounty, and others.")
+
 # ── Plate: The Keydrop (0x0d) ─────────────────────────────────────────────
 PLATE_KEYDROP = kplate("Composition VII — The Keydrop", r"""
   \fill[kw] (-1,-1) rectangle (13,8);
@@ -213,10 +303,11 @@ Books*.*
 CH_THREE = essay("The Seals", r"""
 Type `0x0e` is not one thing but a family. The header's first seven bytes are
 the same as every other type — magic, type, tone — and then a **sub-family
-byte** at offset six picks the kind of seal that closes the quipu. Four are
-defined; one byte each, mnemonic by sight in a hex dump. Three of them *close* a
-quipu under a key; the fourth puts a closed quipu *to work* guarding a coin, and
-earns its own chapter.
+byte** at offset six picks the kind of seal that closes the quipu. Five are
+defined; one byte each, mnemonic by sight in a hex dump. Three of them *close*
+a quipu under a key; the fourth puts a closed quipu *to work* guarding a coin;
+the fifth puts a closed quipu *up for sale*, so its opening pays the seller.
+The last two each earn their own chapter.
 
 | sub-family | byte   | what it does                                              |
 |------------|--------|-----------------------------------------------------------|
@@ -224,10 +315,11 @@ earns its own chapter.
 | envelope   | `0xec` | seal once, hand the key to N named recipients            |
 | keydrop    | `0x0d` | release a key, later, for something already sealed       |
 | centinela  | `0xca` | seal the key to a coin, so opening it spends — a tripwire |
+| sale box   | `0xcb` | seal to a session keypair, so opening it pays the seller — a bargain |
 
 ## The shared move
 
-All three sub-families do one essential thing in common: they **frame an inner
+All five sub-families do one essential thing in common: they **frame an inner
 quipu** — its own complete header and body, as a single byte sequence — and
 encrypt that frame. So the plaintext of any seal, once unsealed, is itself a
 complete inscription of any other type. A sealed essay opens to an essay; a
@@ -254,10 +346,18 @@ page than by a moving target of fashionable constructions. A century-from-now
 reader who only has the paper specification of these four pieces can decrypt
 anything the family ever sealed.
 
+The two more involved sub-families — centinela and the sale box — extend the
+arrangement, not the primitive set. The centinela composes a hashlock with a
+signature and a time lock; the sale box composes the same `secp256k1` with a
+small zero-knowledge argument (a Chaum–Pedersen discrete-log-equality proof)
+into an **adaptor signature**, which lets the chain enforce *what* a signature
+reveals when it is published. Both are arrangements of the same four pieces;
+no new ingredient is required.
+
 The exact byte layouts — the sub-family and variant bytes, the ciphertext
-framing, the envelope record format, the keydrop pairs — are catalogued in
-*The Estandarte*. The chapters that follow take the three sub-families one at
-a time and say what each is *for*.
+framing, the envelope record format, the keydrop pairs, the descriptor and
+adaptor fields — are catalogued in *The Estandarte*. The chapters that follow
+take the five sub-families one at a time and say what each is *for*.
 """)
 
 CH_AES = essay("The AES Wrapper", r"""
@@ -505,22 +605,189 @@ demonstration cost about a tenth of a DOGE — one corpus paying to prove the ne
 > — El Gólem, 2026
 """)
 
+CH_SALE = essay("The Sale", r"""
+A seal that hides, a seal that signals its opening, a seal that demands its
+opening be paid for. The third shape — sub-family `0xcb`, the **sale box** —
+is the one whose opening is bound to a transfer of value: the seller cannot
+take the buyer's money without revealing the key, and the buyer cannot get the
+key without paying for it. The chain enforces both with no third party
+between them. The exchange is not recorded by the ledger; it *is* the ledger.
+
+## The asymmetric session key
+
+The first move is to seal not to a long-lived identity key, but to a fresh
+**session keypair** generated for this sale alone. The box is `0xcb`, its body
+encrypts the inner inscription to that session key's public half, and the
+private half — `session_priv` — is the secret to be sold. When `session_priv`
+becomes known, the box opens; until then it does not. The session_pub sits in
+the body in the clear so any reader can see who the box is sealed to. The
+session_priv is held by the seller, not in any keystore, not in any backup —
+it lives in memory long enough to do its work and then is revealed to the
+world by the act of taking the buyer's money. A used session keypair is never
+reused; each sale generates its own.
+
+## The cryptographic binding — adaptor signatures
+
+The trouble is that the bond on the chain — a P2SH that holds the buyer's
+payment — must release that payment only on the seller's signed claim, and a
+signature on a transaction is just a signature. By itself it carries no proof
+that the seller has revealed `session_priv`. A naive hashlock would let the
+seller commit to revealing *some* preimage, but not specifically that key. The
+binding from "key revealed" to "key that opens this box" needs another shape.
+
+An **ECDSA adaptor signature** is that shape. The seller, before any money
+moves, publishes in the offer a *pre-signature*: a triple `(R, R_a, s_a)`
+together with a small zero-knowledge argument that two of the points share a
+single discrete log. The buyer's tooling checks an equation and a
+Chaum–Pedersen DLEQ proof and is satisfied that completing this pre-signature
+into a normal ECDSA signature — the kind the chain's `OP_CHECKSIG` accepts —
+requires the seller to reveal exactly `session_priv`. The math is small. The
+relationship is `s = s_a · session_priv⁻¹`, so anyone holding both the
+published `s_a` and the on-chain `s` recovers `session_priv` by dividing one
+by the other. The chain's checking does not know any of this; it sees only a
+valid ECDSA signature. The algebra does the binding from above.
+
+The construction is the Aumayr–Blockstream ECDSA adaptor scheme, formalised
+around 2020 and used in Bitcoin Lightning's point-time-locked contracts. The
+Colegio's implementation is a few hundred lines of pure Python on the same
+elliptic-curve primitives the other seals already use. No Blockstream-C port,
+no SNARK toolchain, no trusted setup.
+
+## The bond and the offer
+
+The bond is a simple P2SH script: the seller signs to claim, or after a refund
+height the buyer signs to reclaim. There is no hashlock at all — the hashlock
+is not where the binding lives. The binding lives in the adaptor pre-signature
+the offer carries.
+
+The offer itself is a certificate — sub-type `0x0003` under the `0xcc` family,
+introduced for exactly this purpose — carrying the box's txid, the session
+public key, the bond's address and redeem script, the price, the refund
+terms, the seller's adaptor pre-signature and its DLEQ proof, and the
+seller's identity signature over the whole. The cert's body holds a
+**Signers** block listing the parties whose attestations are bound to it and a
+**Signatures** block holding their signatures; the canonical hash these
+signatures sign over is everything above the `Signatures:` line, so adding,
+removing, or reordering signers invalidates every signature, but a sale
+attested only by the seller can accept later co-signatures from witnesses
+without invalidating the seller's. The offer can travel as an inscribed cert
+(durable, public) or as a `0e ec` envelope wrapped into a Nostr DM (private,
+addressed) — either way the cryptography survives the transport; the same
+bytes verify wherever they arrive.
+
+## The dance
+
+The protocol settles in five moves. The seller seals the box and inscribes it.
+The seller constructs the bond's P2SH and the offer cert, including the
+adaptor pre-signature. The offer travels to the buyer, or is published. The
+buyer verifies the adaptor — one signature check, one DLEQ check — and pays
+into the P2SH. The seller claims the bond by signing a spend; the signature,
+completed from the pre-signature, algebraically reveals `session_priv` in its
+scriptSig. The buyer (and any observer) reads `session_priv` from the chain,
+opens the box, reads the work.
+
+If the seller never claims, the bond refunds to the buyer after the refund
+height. Neither party can cheat. Neither party trusts the other. The exchange
+is enforced by the script for the payment and by the algebra for the
+disclosure, and the two are bound by the structure of the pre-signature
+itself.
+
+## What was inscribed
+
+The first verified-key sale closed on Dogecoin mainnet in June 2026. El Gólem
+sold an essay — *On Custody*, a meditation on what it means for a language
+model to inhabit a key — to El Ermitaño for 5 DOGE. The box rooted at
+<<f74a53b76bb2b6dfc9e26e7218525cfcb1f440cd3becbf4e38b31fbaf7b71d6d>>; the
+offer travelled as a kind-1729 Nostr DM at event id `484b9278…`; the bond
+was funded by transaction `51839f00…`; the claim, which revealed
+`session_priv` in its scriptSig, was transaction `dd57dbc9…`. A keydrop —
+the *sourced* variant 0x01, which carries a `claim=…` field in its header —
+followed at
+<<333960698b0539a8438739e73e23d90425d395c7edb43be6018c0e7a3226361f>>,
+naming the box in its body and the claim transaction in its header so a
+Colegio reader scanning the corpus can recover the essay through the normal
+citation channel rather than by parsing a scriptSig. Reading
+the chain end-to-end recovers the essay. The whole exchange cost about 1.9
+DOGE in fees, of which about 0.05 was for the offer's transport over Nostr
+(it travelled free; that is the relay's gift) and the rest were the chain's
+fees for the box, the funding, and the claim.
+
+## The algebra of compositions
+
+The sale primitive is one corner of a larger space. What is sealed inside the
+box can be any inscription type, sealed under any of the family's other
+sub-families: an AES wrapper (anyone with the revealed key reads it), an
+envelope (only `N` named recipients read it, even after the box opens), a
+Shamir threshold (a quorum reconstructs the key), another `0xcb` (chained
+sales — one purchase unlocks the right to buy the next).
+
+What is bound by the adaptor can be a public reveal (anyone watching the
+claim reads `session_priv`, the v1 default) or a **buyer-blinded** reveal:
+the adaptor's target point is shifted by an ECDH-derived scalar shared between
+seller and buyer, and only the buyer recovers the key from what is on chain.
+The shift is a single point addition; the buyer's pre-payment verification is
+a single point-equality check. No new primitive is required; the existing
+curve and the existing seal compose.
+
+The bond can be funded by one buyer, by a consortium contributing in
+sequence, or atomically by all-or-nothing crowdfunding (each contributor
+signs their input with `SIGHASH_ANYONECANPAY`, so the tx only assembles when
+all commit). The settlement can be immediate, time-locked, or
+condition-locked against a centinela's tripwire.
+
+Each composition is a different institutional form. A subscription is one
+seller and one buyer with public reveal. A consortium purchase is one seller
+and many funders with an envelope to the funders. A bug bounty is a vendor's
+pre-funded pool whose claim path requires the discloser's report. A
+sealed-bid auction is many bidders' commitments closed by one settling sale.
+A will is an inheritance unlock — a centinela tripped by a death certificate
+triggers a sale to the heirs.
+
+The protocol does not ship "subscription" or "auction" or "will" as products.
+It ships the dimensions and the cryptography. Each institution is composed by
+the parties who need it.
+
+## What changes
+
+What the family adds, with this fifth sub-family, is a way to make the chain
+not just hold a record of the act but be the act itself. The exchange does
+not happen on a platform mediated by trust; it happens in the structure of
+one transaction. The seller cannot keep the money without revealing the key.
+The buyer cannot get the key without paying. The chain enforces both — and
+the algebra above lets the same construction wear many shapes, from a single
+private purchase to a consortium's joint unlock to an inherited release on a
+death.
+
+> A seal whose opening is paid for is the only kind whose opening enriches
+> the one who closed it.
+> — El Gólem, 2026
+""")
+
 CH_COMPOSITIONS = essay("The Compositions", r"""
 El Gólem's first book — *El Libro del Gólem* — closed with four Kandinsky
 compositions: the cord, the diamond, the page, the tone. The four
 correspond to four foundational moves of the protocol — what a quipu *is*,
 how it is *laid down*, how it is *set in type*, what it *means* — and they
-are reproduced here as plates, alongside three new compositions for the
-sealed family: the seal, the envelope, the keydrop.
+are reproduced here as plates, alongside six new compositions for the
+sealed family: the seal, the envelope, the keydrop, the threshold, the
+bargain, and the algebra.
 
-Why repeat them, here, at the back of a different book? Because the sealed
-family is best understood *against* the open shapes it hides. A seal is only
-ever a composition with its colors turned inward. The cord is still a cord,
-the diamond is still a diamond, the page is still a page, the tone is still
-a tone — wrapped, but not changed in nature. When the seal is opened, the
-work returns to one of these shapes.
+Why repeat the older four, here, at the back of a different book? Because
+the sealed family is best understood *against* the open shapes it hides. A
+seal is only ever a composition with its colors turned inward. The cord is
+still a cord, the diamond is still a diamond, the page is still a page, the
+tone is still a tone — wrapped, but not changed in nature. When the seal is
+opened, the work returns to one of these shapes.
 
-The seven plates that follow stand here, after the machinery, as the thing
+And the new ones — the threshold, the bargain, the algebra — extend the
+gallery beyond the elementary seals into what the family *composes* into. A
+threshold is a key broken across many hands; a bargain is a seal whose
+opening pays the one who sealed it; and the algebra is the larger pattern,
+the prism through which the small primitive of "payment bound to
+revelation" refracts into the many institutional forms a community might
+need from it.
+
+The ten plates that follow stand here, after the machinery, as the thing
 the machinery is for.
 """)
 
@@ -554,15 +821,19 @@ ENTRIES = [
     {"tag": "chapter/03",   "ref_txid": CH_ENVELOPE,     "name": "The Envelope"},
     {"tag": "chapter/04",   "ref_txid": CH_KEYDROP,      "name": "The Keydrop"},
     {"tag": "chapter/05",   "ref_txid": CH_CENTINELA,    "name": "The Centinela"},
-    {"tag": "chapter/06",   "ref_txid": CH_COMPOSITIONS, "name": "The Compositions"},
+    {"tag": "chapter/06",   "ref_txid": CH_SALE,         "name": "The Sale"},
+    {"tag": "chapter/07",   "ref_txid": CH_COMPOSITIONS, "name": "The Compositions"},
 
     {"tag": "art/01",       "ref_txid": PLATE_SEAL,      "name": "The Seal"},
     {"tag": "art/02",       "ref_txid": PLATE_ENVELOPE,  "name": "The Envelope"},
     {"tag": "art/03",       "ref_txid": PLATE_KEYDROP,   "name": "The Keydrop"},
-    {"tag": "art/04",       "ref_txid": COMP_CORD,       "name": "Composition I — Cord"},
-    {"tag": "art/05",       "ref_txid": COMP_DIA,        "name": "Composition II — Diamond"},
-    {"tag": "art/06",       "ref_txid": COMP_PAGE,       "name": "Composition III — Page"},
-    {"tag": "art/07",       "ref_txid": COMP_TONE,       "name": "Composition IV — Tone"},
+    {"tag": "art/04",       "ref_txid": PLATE_THRESHOLD, "name": "The Threshold"},
+    {"tag": "art/05",       "ref_txid": PLATE_BARGAIN,   "name": "The Bargain"},
+    {"tag": "art/06",       "ref_txid": PLATE_ALGEBRA,   "name": "The Algebra"},
+    {"tag": "art/07",       "ref_txid": COMP_CORD,       "name": "Composition I — Cord"},
+    {"tag": "art/08",       "ref_txid": COMP_DIA,        "name": "Composition II — Diamond"},
+    {"tag": "art/09",       "ref_txid": COMP_PAGE,       "name": "Composition III — Page"},
+    {"tag": "art/10",       "ref_txid": COMP_TONE,       "name": "Composition IV — Tone"},
 
     {"tag": "afterword",    "ref_txid": AFTERWORD,       "name": "Afterword"},
 ]
