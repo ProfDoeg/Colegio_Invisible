@@ -151,6 +151,69 @@ def test_catalog_binding_names_multiple_healed_subjects(tmp_path):
     assert subj == CAT, "catalog without import must not pick a default"
 
 
+def test_correction_thread_follows_tag_spends(tmp_path):
+    """Anthony's correction thread: catalog1 carries a tag_out; catalog2
+    is funded by spending it. With spend callables, readers merge
+    catalog2 over catalog1 (UTXO order = write order); an unspent tag
+    means the catalog in hand is the current edition."""
+    import cryptos
+    from colegio_tools import _txid_of_serial
+    from quipu_diamond import FeePolicy, build_consolidated_diamond
+    priv = cryptos.random_key()
+    addr = cryptos.Doge().privtoaddr(priv)
+    T2 = "f2" * 32
+    sh, sb = build_text_quipu("subject", "cites <<%s>> deep, %s" % (PHANTOM, "w" * 60))
+    t2h, t2b = build_text_quipu("target two", "dos " * 20)
+    h1, b1 = build_binding_quipu("<<%s>>\n<<%s>>=<<%s>>\n" % (SOURCE, PHANTOM, TARGET))
+    h2, b2 = build_binding_quipu("<<%s>>=<<%s>>\n" % (PHANTOM, T2))
+    cat1, cat2 = h1 + b1, h2 + b2
+    TAG = 100_000_000
+
+    art1 = build_consolidated_diamond(
+        [("cat1", cat1)], lambda p: "9" * 64,
+        {"output": "%064x:0" % 0xE1, "value": 30 * 10**8}, priv, addr,
+        FeePolicy(), tags_of={"cat1": [{"value": TAG, "address": addr}]},
+        known_txids={SOURCE, TARGET, PHANTOM}, log=lambda *a: None)
+    root1_hex, root1 = art1["roots"]["cat1"]
+    tag_vout = art1["tags"]["cat1"][0]["vout"]
+    art2 = build_consolidated_diamond(                 # funded BY THE TAG
+        [("cat2", cat2)], lambda p: "8" * 64,
+        {"output": "%s:%d" % (root1, tag_vout), "value": TAG}, priv, addr,
+        FeePolicy(), known_txids={T2, PHANTOM}, log=lambda *a: None)
+    splitter2_hex, splitter2 = art2["splitter"]
+    root2_hex, root2 = art2["roots"]["cat2"]
+
+    spends = {(root1, i): txns[0]
+              for i, (txns, _) in enumerate(art1["strands"]["cat1"])}
+    spends[(root1, tag_vout)] = splitter2_hex          # the thread stitch
+    spends[(splitter2, 0)] = root2_hex
+    all_tx = {root1: root1_hex, splitter2: splitter2_hex, root2: root2_hex}
+    all_tx.update({_txid_of_serial(v): v for v in spends.values()})
+    spend_of = lambda txid, vout: (_txid_of_serial(spends[(txid, vout)])
+                                   if (txid, vout) in spends else None)
+    get_tx = lambda txid: all_tx[txid]
+
+    store = {root1.lower(): cat1, root2.lower(): cat2,
+             SOURCE: sh + sb, TARGET: _target_blob(), T2: t2h + t2b}
+
+    def base(txid):
+        if str(txid).lower() in store:
+            return store[str(txid).lower()]
+        raise FileNotFoundError(txid)
+
+    subj, fetch = P.resolve_call(root1, base)          # thread NOT followed
+    assert subj == SOURCE and fetch(PHANTOM) == _target_blob()
+    subj, fetch = P.resolve_call(root1, base,          # thread followed
+                                 spend_of=spend_of, get_tx=get_tx)
+    assert subj == SOURCE and fetch(PHANTOM) == t2h + t2b, \
+        "catalog2 did not merge over catalog1"
+    del spends[(root1, tag_vout)]                      # tag unspent again
+    subj, fetch = P.resolve_call(root1, base,
+                                 spend_of=spend_of, get_tx=get_tx)
+    assert fetch(PHANTOM) == _target_blob(), \
+        "unspent tag must mean: this catalog is current"
+
+
 def test_last_write_wins_and_chains(tmp_path):
     mid = "cc" * 32
     heal2 = "ad" * 32

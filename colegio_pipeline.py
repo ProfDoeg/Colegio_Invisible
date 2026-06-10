@@ -2310,7 +2310,53 @@ def _alias_fetch(base_fetch, amap):
     return fetch
 
 
-def resolve_call(txid, fetch, name=None, max_depth=4):
+def _parse_binding_lines(blob):
+    """(imports, names, amap) from a 0xab body."""
+    from bindings import read_binding_quipu
+    header, body = split_blob(blob)
+    parsed = read_binding_quipu(header, body)
+    imports, names, amap = [], {}, {}
+    for line in parsed.get("lines", []):
+        if line[0] == "import":
+            imports.append(str(line[1]).lower())
+        elif line[0] == "alias":
+            tgt = str(line[2]).lower()
+            for nm in line[1]:
+                if len(nm) == 64:
+                    amap[nm.lower()] = tgt        # a correction
+                else:
+                    names[nm] = tgt               # a named subject
+    return imports, names, amap
+
+
+def _thread_successor(root_txid, fetch, spend_of, get_tx, max_hops=3):
+    """THE CORRECTION THREAD (Anthony's design, 2026-06-10): a catalog
+    binding carries a tag_out; the NEXT catalog is funded by spending it.
+    From a catalog's root, find its tag's spender and walk forward (the
+    spend may pass through a funding splitter) until a txid with a
+    fetchable body — the successor catalog's root. None = this catalog is
+    current: an UNSPENT tag is a proof-of-latest no scan can give."""
+    from quipu_tags import find_tags
+    try:
+        tags = find_tags(get_tx(root_txid), spend_of, get_tx)
+    except Exception as e:                        # noqa: BLE001
+        _logwarn("thread_successor", e, txid=root_txid)
+        return None
+    spender = next((t["spent_by"] for t in tags if t["spent_by"]), None)
+    cur = spender
+    for _ in range(max_hops):
+        if cur is None:
+            return None
+        try:
+            fetch(cur)
+            return cur                            # a root: it has a body
+        except Exception:
+            cur = spend_of(cur, 0)                # funding hop (splitter)
+    return None
+
+
+def resolve_call(txid, fetch, name=None, max_depth=4,
+                 spend_of=None, get_tx=None):
     """The LENS pattern (settled 2026-06-10): a 0xab binding is a CALLING
     POINT — citing it calls a subject, read through the binding's own
     hex->hex aliases (the corrections travel with the call).
@@ -2323,8 +2369,13 @@ def resolve_call(txid, fetch, name=None, max_depth=4):
 
     A binding with no import and no matching name is vocabulary and
     resolves to itself. Lenses stack (edition of an edition) up to
-    max_depth. Returns (subject_txid, fetcher)."""
-    from bindings import read_binding_quipu
+    max_depth. Returns (subject_txid, fetcher).
+
+    With `spend_of` and `get_tx` (the spend-index callables, as in
+    quipu_tags), the CORRECTION THREAD is followed: each catalog's
+    tag_out, when spent, leads to its successor catalog; successors'
+    lines MERGE OVER earlier ones (UTXO order is the write order). An
+    unspent tag means the catalog in hand is the current edition."""
     for _ in range(max_depth):
         blob = fetch(txid)
         if len(blob) < 5 or blob[4] != 0xAB:
@@ -2332,19 +2383,23 @@ def resolve_call(txid, fetch, name=None, max_depth=4):
                 raise KeyError("named call %r against a non-binding %s…"
                                % (name, str(txid)[:12]))
             return txid, fetch
-        header, body = split_blob(blob)
-        parsed = read_binding_quipu(header, body)
-        imports, amap, names = [], {}, {}
-        for line in parsed.get("lines", []):
-            if line[0] == "import":
-                imports.append(str(line[1]).lower())
-            elif line[0] == "alias":
-                tgt = str(line[2]).lower()
-                for nm in line[1]:
-                    if len(nm) == 64:
-                        amap[nm.lower()] = tgt    # a correction
-                    else:
-                        names[nm] = tgt           # a named subject
+        imports, names, amap = _parse_binding_lines(blob)
+        if spend_of is not None and get_tx is not None:
+            cur, seen = txid, {str(txid).lower()}
+            while True:
+                nxt = _thread_successor(cur, fetch, spend_of, get_tx)
+                if nxt is None or str(nxt).lower() in seen:
+                    break
+                seen.add(str(nxt).lower())
+                nblob = fetch(nxt)
+                if len(nblob) < 5 or nblob[4] != 0xAB:
+                    break
+                n_imports, n_names, n_amap = _parse_binding_lines(nblob)
+                if n_imports:
+                    imports = n_imports           # the newer default subject
+                names.update(n_names)             # later catalog wins
+                amap.update(n_amap)
+                cur = nxt
         if amap:
             fetch = _alias_fetch(fetch, amap)
         if name is not None:

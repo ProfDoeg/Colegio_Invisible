@@ -79,9 +79,16 @@ def sign(args):
 
     blob = build_blob()
     print("healing binding: %d bytes (%d knots)" % (len(blob), (len(blob)+79)//80))
+    # THE CORRECTION THREAD: the catalog carries a tag_out. The next
+    # correction catalog, whenever needed, is funded by spending this tag —
+    # readers follow the spend to find it; UNSPENT = this is the current
+    # edition. Seeded at 1 DOGE (≈ several future correction inscriptions
+    # at measured fees).
     art = build_consolidated_diamond(
         [("heal_orrery", blob)], lambda pid: "e" * 64,
         utxo, priv, args.address, FeePolicy(),
+        tags_of={"heal_orrery": [{"value": 100_000_000,
+                                  "address": args.address}]},
         known_txids=known_txids())
     write_artifacts(art, ART_DIR)
     preflight(ART_DIR, known_txids=known_txids())

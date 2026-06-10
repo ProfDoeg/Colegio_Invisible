@@ -581,6 +581,38 @@ why no new machinery is needed:
    ref retries through the source's own later corrections); the worked
    case is the orrery's phantom (`working/heal_orrery/`).
 
+### The correction thread — tag_out as the edition pointer
+
+> Anthony's design, 2026-06-10, completing the discovery story.
+
+The correction catalog itself carries a **tag** (an unspent output of
+its own root, per the tag architecture). The NEXT catalog — whenever
+one is needed — is funded by spending that tag, and carries a fresh
+tag_out of its own. The errata layer becomes a thread:
+
+```
+catalog₁ [aliases · subjects · tag_out]
+            └── tag spent ──► catalog₂ [newer aliases · tag_out]
+                                  └── tag spent ──► catalog₃ …
+```
+
+Resolution: go to the calling catalog, apply its lines, check its tag.
+**Unspent = the catalog in hand is the current edition** — a proof of
+latest that no address-scan can give (a scan cannot show there is no
+newer binding; an unspent UTXO can). **Spent = follow the spend** (it
+may pass through a funding splitter) to the successor's root, merge its
+lines over the older ones — UTXO order IS the write order, so
+last-write-wins needs no heights and no timestamps — and recurse,
+"retagging" each referenced subject through the merged map. Authority
+is the thread key: only the catalog's author can extend it.
+
+Reader side: `colegio_pipeline.resolve_call(txid, fetch, spend_of=,
+get_tx=)` follows the thread when the spend-index callables are given;
+without them it reads the catalog in hand (still correct, possibly not
+current). Writer side: `tags_of` in the diamond engine; the orrery
+healing carries the first such tag (1 DOGE seed,
+`working/heal_orrery/`).
+
 This is deliberately NOT a per-textile mechanism (no special outputs,
 no errata channels) and NOT a global one (no project registry a reader
 must know about): corrections live at the address level — the one
