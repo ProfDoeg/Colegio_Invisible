@@ -129,11 +129,13 @@ def test_catalog_binding_names_multiple_healed_subjects(tmp_path):
     sh1, sb1 = build_text_quipu("work one", "alpha " * 20)
     sh2, sb2 = build_text_quipu("work two", "beta " * 20)
     th, tb = build_text_quipu("second target", "gamma " * 20)
-    catalog = ("<<orrery>>=<<%s>>\n" % SOURCE +
+    catalog = ("______ subjects ______\n" +              # v4 section delimiters:
+               "<<orrery>>=<<%s>>\n" % SOURCE +          # comment lines, inert
                "<<journey>>=<<%s>>\n" % WORK2 +
-               "<<viaje>>=<<journey>>\n" +              # name -> name chain
-               "<<%s>>=<<%s>>\n" % (PHANTOM, TARGET) +  # healing for work one
-               "<<%s>>=<<%s>>\n" % (PH2, TGT2))         # healing for work two
+               "<<viaje>>=<<journey>>\n" +               # name -> name chain
+               "______ corrections ______\n" +
+               "<<%s>>=<<%s>>\n" % (PHANTOM, TARGET) +   # healing for work one
+               "<<%s>>=<<%s>>\n" % (PH2, TGT2))          # healing for work two
     ch, cb = build_binding_quipu(catalog, tone=0x00)
     _, base = _mini_corpus(tmp_path, rows=[], bodies={
         CAT: ch + cb, SOURCE: sh1 + sb1, WORK2: sh2 + sb2,

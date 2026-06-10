@@ -545,7 +545,43 @@ itself is the version control. There is no in-protocol way to
 deprecate a bindings quipu — they exist forever — but inscribing a
 new "v2" and circulating its txid is the project-level mechanism.
 
-## Corrections — bindings are the overwrite layer
+v4 (below) is the first INTERPRETATION-ONLY version: no new grammar,
+new reader semantics over v1/v2 lines plus a diamond-level tag
+convention. Wire-format versions and reading-convention versions are
+both versions; the Estandarte's amendment chain is where the latter
+kind eventually gets declared.
+
+## v4 extension — the correction layer (interpretation only)
+
+> Settled 2026-06-10. Unlike v2 and v3, **v4 adds no grammar**: every
+> line is v1/v2 syntax (imports, aliases), and the thread lives in the
+> catalog's own diamond outputs, not in the body. What v4 adds is the
+> READING: one standalone import = a calling point (the lens); named
+> aliases = a catalog of subjects; hex→hex aliases = corrections that
+> ride along; a tag on the catalog's root = the edition pointer (the
+> correction thread). Old bindings are valid v4 documents; v4 catalogs
+> are readable as plain bindings by pre-v4 readers — correct, possibly
+> not current, exactly the degradation a printed edition has.
+
+**Section delimiters.** A catalog SHOULD separate its load references
+(corrections) from its resolution table (subjects) with comment-line
+delimiters — any line that parses as no other kind, conventionally:
+
+```
+<<default-subject-txid>>
+______ corrections ______
+<<bad>>=<<good>>
+______ subjects ______
+<<name>>=<<txid>>
+```
+
+Delimiters are structure, not syntax: resolution distinguishes the
+kinds by line SHAPE (hex→hex vs name→hex), so an undelimited catalog
+parses identically. The rules serve the human reading the body and any
+section-aware tooling; they cost a few bytes and are inert everywhere
+else.
+
+### Corrections — bindings are the overwrite layer
 
 > Doctrine settled 2026-06-10, the day the Dantean Cosmos phantom was
 > found: the on-chain orrery's fixed-stars ref is an unresolved build
