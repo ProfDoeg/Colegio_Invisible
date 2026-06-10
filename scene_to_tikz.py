@@ -981,6 +981,151 @@ def vista_tikz_body(txid, fetcher, *, figdir=None,
 
 
 # ----------------------------------------------------------------------
+# The orrery — a sphere-scene ("The Dantean Cosmos") as a cosmological plate
+# ----------------------------------------------------------------------
+
+_ORR_W, _ORR_H = 13.0, 10.0
+
+# The scene's spheres carry no names; the WebGL walk names them in the
+# Ptolemaic (Dantean) order, which is what the radii encode. Assigned to
+# the planet spheres sorted by orbital radius.
+_DANTEAN = ["Moon", "Mercury", "Venus", "Sun", "Mars", "Jupiter", "Saturn"]
+
+
+def orrery_tikz_body(txid, fetcher, *, fov_deg=55.0):
+    """Project a geocentric sphere-scene through its own camera: the
+    fixed-stars sphere as a true globe (limb + near-hemisphere Bode
+    wireframe), one orbit ring per planet sphere, planet markers at their
+    inscribed positions, Earth at the centre. Labels are fixed offsets —
+    nothing here needs a placement search. Returns (tikz_body, meta)."""
+    from celestial import read_celestial_quipu
+    from celestial_render import _split_concat
+
+    blob = fetcher(txid)
+    bs = blob.find(b"|{", 6)
+    gltf = json.loads(blob[bs + 1:].decode("utf-8"))
+    nodes = gltf.get("nodes", [])
+    cam = next((n for n in nodes
+                if n.get("extras", {}).get("object_kind") == "camera"), None)
+    C = (cam or {}).get("translation", [0, 16, 46])
+
+    spheres = []
+    for n in nodes:
+        ex = n.get("extras", {})
+        if ex.get("object_kind") != "sphere":
+            continue
+        T = n.get("translation", [0, 0, 0]) or [0, 0, 0]
+        S = (n.get("scale") or [1, 1, 1])[0]
+        spheres.append({"T": T, "r": float(S), "ref": ex.get("quipu_ref"),
+                        "dist": math.hypot(T[0], T[2])})
+    stellatum = max(spheres, key=lambda s: s["r"])
+    earth = min(spheres, key=lambda s: s["dist"] + s["r"]*0.001)
+    planets = sorted((s for s in spheres if s not in (stellatum, earth)),
+                     key=lambda s: s["dist"])
+
+    aspect = _ORR_W / _ORR_H
+    proj = _lookat(list(C), [0.0, 0.0, 0.0], [0, 1, 0], fov_deg, aspect)
+
+    def canv(p):
+        if p is None:
+            return None
+        return ((p[0]*0.5 + 0.5)*_ORR_W, (p[1]*0.5 + 0.5)*_ORR_H)
+
+    def path(pts, close=False):
+        s = " -- ".join("(%.3f,%.3f)" % p for p in pts if p)
+        return s + (" -- cycle" if close else "")
+
+    L = ["\\fill[skyfill] (0,0) rectangle (%.2f,%.2f);" % (_ORR_W, _ORR_H)]
+
+    # ---- the stellatum: silhouette (limb) circle + interior tint ----
+    R = stellatum["r"]
+    d = math.sqrt(sum(c*c for c in C))
+    cdir = _vnorm(C)
+    limb_c = [cdir[k] * (R*R/d) for k in range(3)]      # limb-circle centre
+    rl = R * math.sqrt(max(0.0, 1.0 - (R/d)**2))        # limb-circle radius
+    a = _vnorm(_vcross(cdir, [0, 1, 0]))
+    b = _vnorm(_vcross(a, cdir))
+    limb = [canv(proj([limb_c[k] + rl*(a[k]*math.cos(t) + b[k]*math.sin(t))
+                       for k in range(3)]))
+            for t in (i*2*math.pi/144 for i in range(145))]
+    if all(limb):
+        L.append("\\fill[spherefill] %s;" % path(limb, close=True))
+
+    # ---- Bode's Uranographia on the near hemisphere ----
+    stars_drawn = lines_drawn = 0
+    if stellatum.get("ref"):
+        try:
+            h2, b2 = _split_concat(fetcher(stellatum["ref"]))
+            cel = read_celestial_quipu(h2, b2)
+            pts = cel.get("points", [])
+            world, near = [], []
+            for p in pts:
+                u = _vnorm(_radec_xyz(p["ra"], p["dec"], 1.0))
+                world.append([u[k]*R for k in range(3)])
+                near.append(_vdot(u, cdir) > R/d)        # facing the camera
+            cvs = [canv(proj(w)) if near[i] else None
+                   for i, w in enumerate(world)]
+            for g in cel.get("groups", []):
+                for ai, bi in g.get("lines", []):
+                    if (ai < len(cvs) and bi < len(cvs)
+                            and cvs[ai] and cvs[bi]):     # both on the near side
+                        L.append("\\draw[bodeline] (%.3f,%.3f) -- (%.3f,%.3f);"
+                                 % (cvs[ai][0], cvs[ai][1],
+                                    cvs[bi][0], cvs[bi][1]))
+                        lines_drawn += 1
+            for c in cvs:
+                if c:
+                    L.append("\\fill[star,opacity=0.6] (%.3f,%.3f) circle (0.022);"
+                             % c)
+                    stars_drawn += 1
+        except Exception as e:                            # noqa: BLE001
+            P._logwarn("orrery/bode", e, txid=str(stellatum.get("ref")))
+
+    # ---- orbit rings, far-to-near has no meaning for wireframe: draw all ----
+    for pl in planets:
+        r = pl["dist"]
+        ring = [canv(proj([r*math.cos(t), 0.0, r*math.sin(t)]))
+                for t in (i*2*math.pi/120 for i in range(121))]
+        if all(ring):
+            L.append("\\draw[orbit] %s;" % path(ring, close=True))
+
+    # ---- Earth, planets, and their names (fixed offsets, no search) ----
+    ec = canv(proj(earth["T"]))
+    if ec:
+        L.append("\\fill[earthc] (%.3f,%.3f) circle (0.14);" % ec)
+        L.append("\\node[skylabel,text=earthc,anchor=north] at (%.3f,%.3f) "
+                 "{Earth};" % (ec[0], ec[1] - 0.16))
+    sizes = {"Sun": 0.20, "Jupiter": 0.13, "Saturn": 0.12}
+    for i, pl in enumerate(planets):
+        name = _DANTEAN[i] if i < len(_DANTEAN) else "?"
+        pc = canv(proj(pl["T"]))
+        if not pc:
+            continue
+        col = "wtgold" if name == "Sun" else ("star" if name == "Moon" else "oric")
+        rdot = sizes.get(name, 0.10)
+        L.append("\\fill[%s] (%.3f,%.3f) circle (%.3f);"
+                 % (col, pc[0], pc[1], rdot))
+        # alternate names above/below the ecliptic line — deterministic,
+        # collision-free for a row of neighbours, no placement search
+        if i % 2 == 0:
+            L.append("\\node[skylabel,text=%s,anchor=south] at (%.3f,%.3f) {%s};"
+                     % (col, pc[0], pc[1] + rdot + 0.09, _tex_escape(name)))
+        else:
+            L.append("\\node[skylabel,text=%s,anchor=north] at (%.3f,%.3f) {%s};"
+                     % (col, pc[0], pc[1] - rdot - 0.09, _tex_escape(name)))
+    # the eighth heaven, named at the top of its own rim
+    top = canv(proj([limb_c[k] + rl*b[k] for k in range(3)]))
+    if top:
+        L.append("\\node[skylabel,text=star,opacity=0.85,anchor=north] "
+                 "at (%.3f,%.3f) {Fixed Stars};" % (top[0], top[1] - 0.18))
+
+    meta = {"camera": list(C), "fov_deg": fov_deg, "planets": len(planets),
+            "bode_stars": stars_drawn, "bode_lines": lines_drawn,
+            "sky": stellatum.get("ref")}
+    return "\n".join(L), meta
+
+
+# ----------------------------------------------------------------------
 # TikZ emission
 # ----------------------------------------------------------------------
 
@@ -1011,6 +1156,8 @@ def scene_tikz_body(txid, fetcher, *, mode="wire", figdir=None):
         return dome_tikz_body(txid, fetcher)
     if mode == "vista":
         return vista_tikz_body(txid, fetcher, figdir=figdir)
+    if mode == "orrery":
+        return orrery_tikz_body(txid, fetcher)
     blob = fetcher(txid)
     bs = blob.find(b"|{", 6)
     gltf = json.loads(blob[bs + 1:].decode("utf-8"))
@@ -1138,6 +1285,9 @@ _DOC = r"""\documentclass[tikz,border=4mm]{standalone}
 \definecolor{gravec}{HTML}{3b3a36}
 \definecolor{oric}{HTML}{9fb4e8}
 \definecolor{groundglow}{HTML}{201a10}
+\definecolor{spherefillc}{HTML}{121a3e}
+\definecolor{earthc}{HTML}{8fbf9f}
+\definecolor{orbitc}{HTML}{55639a}
 \definecolor{graveedgec}{HTML}{8a8780}
 \definecolor{captionc}{HTML}{e8dcc0}
 \tikzset{
@@ -1152,6 +1302,9 @@ _DOC = r"""\documentclass[tikz,border=4mm]{standalone}
                    opacity=0.85,anchor=west},
   domegrid/.style={draw=domegridc,line width=0.35pt,opacity=0.55},
   oriline/.style={draw=oric,line width=0.55pt,opacity=0.9},
+  spherefill/.style={fill=spherefillc,draw=domegridc,line width=0.5pt},
+  bodeline/.style={draw=domegridc,line width=0.25pt,opacity=0.4},
+  orbit/.style={draw=orbitc,line width=0.4pt,opacity=0.75},
   grave/.style={fill=gravec,draw=none},
   graveedge/.style={draw=graveedgec,line width=0.5pt},
   gravelabel/.style={font=\sffamily\fontsize{6.5}{8}\selectfont,color=star,

@@ -136,3 +136,42 @@ def test_scene_vista_composes_and_compiles(tmp_path):
     shutil.copytree(figdir, work / "figures")
     pages = _xelatex("scene.tex", str(work), passes=1)
     assert pages == 1
+
+
+def test_orrery_plate_composes_and_compiles(tmp_path):
+    """The Dantean Cosmos as a plate: 7 planet spheres named in Ptolemaic
+    order, the Bode wireframe on the stellatum's near hemisphere, compiles.
+    Bodies staged from the Gana-forest artifacts; the orrery's on-chain
+    fixed-stars ref is the PHANTOM placeholder (backfill bug, see
+    docs/design notes) — the test aliases it to bode's real body exactly
+    as a binding-aware reader would."""
+    import json
+    import colegio_pipeline as Pmod
+
+    art = os.path.join(REPO, "working", "lineage", "artifacts")
+    idx_path = os.path.join(art, "index.json")
+    if not os.path.exists(idx_path):
+        pytest.skip("Gana-forest artifacts not present")
+    idx = json.load(open(idx_path))
+    roots = {p["pid"]: p["root"] for p in idx["pieces"]}
+    fetch_dir = tmp_path / "fetch"
+    fetch_dir.mkdir()
+    for pid in ("orrery", "bode"):
+        shutil.copy(os.path.join(art, pid + ".bin"),
+                    fetch_dir / (roots[pid] + ".bin"))
+    PHANTOM = "7e0eab43f4856b3329c1c5c446bb5fe7e0ae2cc413290d0638659b5a36442fcf"
+    shutil.copy(os.path.join(art, "bode.bin"), fetch_dir / (PHANTOM + ".bin"))
+
+    import scene_to_tikz as S
+    tex, meta = S.build_plate_tex(roots["orrery"],
+                                  Pmod.chained_fetcher(str(fetch_dir)),
+                                  mode="orrery")
+    assert meta["planets"] == 7, "the seven Ptolemaic spheres"
+    assert meta["bode_stars"] > 200, "near-hemisphere Uranographia missing"
+    assert meta["bode_lines"] > 150
+    for name in ("Moon", "Sun", "Saturn", "Earth", "Fixed Stars"):
+        assert name in tex, f"{name} not labeled"
+
+    (tmp_path / "orr.tex").write_text(tex, encoding="utf-8")
+    pages = _xelatex("orr.tex", str(tmp_path), passes=1)
+    assert pages == 1
