@@ -663,17 +663,20 @@ def _warp_photo(png_path, quad_cm, out_path, px_per_cm=110):
 
 
 def _place_group_label(own, obstacles, w, h, *, margin=0.50, min_y=0.0,
-                       clear_min=0.50):
+                       clear_min=0.50, text="", char_cm=0.17):
     """Choose the spot for a constellation label: candidates ring the
-    figure's bounding box (below, left, right, above, corners). Among
-    candidates with at least `clear_min` clearance from every obstacle
-    (other groups' stars, line ends, the figure itself), take the one
-    CLOSEST to the figure's centroid — the name stays with its stars.
-    Only when nowhere is clear enough does max-clearance win. Returns
+    figure's bounding box (below, left, right, above, corners). The unit
+    scored is the TEXT BOX, not the anchor point — clearance is the min
+    over samples across the text's extent, and centroid distance is
+    measured from the text's CENTER (an east-anchored name stretches away
+    from its figure; the anchor alone misjudges both). Among candidates
+    with >= clear_min clearance, the closest-to-centroid wins; only when
+    nowhere is clear enough does max-clearance decide. Returns
     (x, y, anchor)."""
     xs = [p[0] for p in own]; ys = [p[1] for p in own]
     x0, x1, y0, y1 = min(xs), max(xs), min(ys), max(ys)
     cx, cy = (x0 + x1)/2.0, (y0 + y1)/2.0
+    tw = max(0.6, char_cm * len(text))
     cands = [
         (cx, y0 - margin, "north"),       # below the figure
         (x0 - margin, cy, "east"),        # left
@@ -684,13 +687,29 @@ def _place_group_label(own, obstacles, w, h, *, margin=0.50, min_y=0.0,
         (x0 - margin*0.7, y1 + margin*0.7, "south east"),
         (x1 + margin*0.7, y1 + margin*0.7, "south west"),
     ]
+
+    def text_center(lx, ly, anchor):
+        tx, ty = lx, ly
+        if "east" in anchor:
+            tx = lx - tw/2.0
+        if "west" in anchor:
+            tx = lx + tw/2.0
+        if "north" in anchor:
+            ty = ly - 0.16
+        if "south" in anchor:
+            ty = ly + 0.16
+        return tx, ty
+
     clear, crowded = [], []
     for lx, ly, anchor in cands:
-        if not (0.5 <= lx <= w - 0.5 and max(0.35, min_y) <= ly <= h - 0.35):
+        tx, ty = text_center(lx, ly, anchor)
+        box = [(tx - tw/2.0, ty), (tx, ty), (tx + tw/2.0, ty)]
+        if not all(0.3 <= bx <= w - 0.3 and max(0.3, min_y) <= by <= h - 0.3
+                   for bx, by in box):
             continue
-        d = min((math.hypot(lx - ox, ly - oy) for ox, oy in obstacles),
-                default=9.9)
-        dc = math.hypot(lx - cx, ly - cy)
+        d = min((math.hypot(bx - ox, by - oy)
+                 for bx, by in box for ox, oy in obstacles), default=9.9)
+        dc = math.hypot(tx - cx, ty - cy)
         (clear if d >= clear_min else crowded).append((dc, -d, lx, ly, anchor))
     if clear:
         _, _, lx, ly, anchor = min(clear)        # nearest-to-centroid, clear
@@ -817,9 +836,13 @@ def vista_tikz_body(txid, fetcher, *, figdir=None,
                         if seg is None:
                             continue
                         lines_partial += (cv[a] is None or cv[b2] is None)
-                        seg_pts += [seg[0], seg[1],
-                                    ((seg[0][0]+seg[1][0])/2.0,
-                                     (seg[0][1]+seg[1][1])/2.0)]
+                        # dense obstacle samples along the segment, so labels
+                        # don't sit across a figure's lines
+                        slen = math.hypot(seg[1][0]-seg[0][0], seg[1][1]-seg[0][1])
+                        nsmp = max(2, int(slen / 0.55) + 1)
+                        seg_pts += [(seg[0][0] + (seg[1][0]-seg[0][0])*k/nsmp,
+                                     seg[0][1] + (seg[1][1]-seg[0][1])*k/nsmp)
+                                    for k in range(nsmp + 1)]
                         sty = ("wtline" if name == "Winter Triangle"
                                else ("oriline" if name == "Orion" else "skyline"))
                         star_lines.append("\\draw[%s] (%.3f,%.3f) -- (%.3f,%.3f);"
@@ -833,23 +856,41 @@ def vista_tikz_body(txid, fetcher, *, figdir=None,
                                          % (col, cv[i][0], cv[i][1], r))
             # name the three Triangle corners + Rigel; label Orion
             names = {p["name"]: i for i, p in enumerate(pts)}
+            name_pts = []                       # text extents become obstacles
             for nm in ("Sirius", "Betelgeuse", "Procyon", "Rigel"):
                 i = names.get(nm)
                 if i is not None and i < len(cv) and cv[i]:
                     star_labels.append("\\node[starname] at (%.3f,%.3f) {%s};"
                                        % (cv[i][0] + 0.14, cv[i][1] - 0.05,
                                           _tex_escape(nm)))
+                    name_pts += [(cv[i][0] + 0.14 + 0.42*k, cv[i][1] - 0.05)
+                                 for k in range(4)]
+            # group names, placed by clearance-then-centroid; each placed
+            # label becomes an obstacle for the next, so names never collide
+            obstacles = [p for p in cv if p] + seg_pts + name_pts
+            sky_floor = (max(y for _, y in hline) + 0.5) if hline else 0.0
             ovis = [cv[i] for i in ori_idx if cv[i]]
             if len(ovis) >= 5:
-                # the clearest spot ringing Orion's own figure — not "above",
-                # which parks the name in Monoceros's territory
-                obstacles = [p for p in cv if p] + seg_pts
-                sky_floor = (max(y for _, y in hline) + 0.5) if hline else 0.0
                 ox, oy, anch = _place_group_label(ovis, obstacles,
                                                   _VISTA_W, _VISTA_H,
-                                                  min_y=sky_floor)
+                                                  min_y=sky_floor,
+                                                  text="Orion", char_cm=0.24)
                 star_labels.append("\\node[skylabelbig,text=oric,anchor=%s] "
                                    "at (%.3f,%.3f) {Orion};" % (anch, ox, oy))
+                obstacles.append((ox, oy))
+            for gname in ("Monoceros", "Lepus", "Canis Minor"):
+                gidx = gi_of.get(gname, {}).get("point_indices", [])
+                gvis = [cv[i] for i in gidx if i < len(cv) and cv[i]]
+                if not gvis:
+                    continue
+                lx, ly, anch = _place_group_label(gvis, obstacles,
+                                                  _VISTA_W, _VISTA_H,
+                                                  margin=0.45, clear_min=0.35,
+                                                  min_y=sky_floor, text=gname)
+                star_labels.append("\\node[skylabel,text=star,opacity=0.75,"
+                                   "anchor=%s] at (%.3f,%.3f) {%s};"
+                                   % (anch, lx, ly, _tex_escape(gname)))
+                obstacles.append((lx, ly))
     L += star_lines + star_dots + star_labels
 
     # ---- the grave row: photo quads in true perspective ----
