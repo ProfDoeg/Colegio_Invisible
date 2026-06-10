@@ -11,8 +11,11 @@ An *Estandarte* ("banner / standard") is a single inscription that
 catalogs every protocol type byte in use, along with each type's
 named enum dimensions, single-bit flags, and a status (canonical /
 proposed / draft / deprecated). It also catalogs cross-cutting
-conventions — citation syntax, the diamond pattern, the tone byte,
-the magic prefix.
+conventions. The v1 draft carries seven: the magic prefix, the tone
+vocabulary, the diamond shape, the **assembly** rule (how strand
+payloads concatenate back into one inscription), citation by root
+txid, the consolidated-diamond forest, and the pre-canonical errata
+clause covering inscriptions that predate the registry.
 
 Once inscribed, an Estandarte makes the protocol *referenceable on
 chain*. Future quipus can cite it as the standard they conform to.
@@ -80,20 +83,23 @@ A **dimension** is a single byte in the type's header whose value is
 drawn from a mutually-exclusive named enumeration. A type may have
 zero, one, or many dimensions:
 
-| type | dimensions |
-|---|---|
-| `0x00` text | (none — only header fields are magic/type/tone/title) |
-| `0x01` essay | (none) |
-| `0x03` image | `color`, `bit_depth` |
-| `0x09` book | (none) |
-| `0x0e` encrypted | `sub_family` (`aes`/`ecies`/`drop`/`centinela`/`shamir`), `variant` |
-| `0x3d` scene | (none) |
-| `0x5c` latex | (none) |
-| `0xab` binding | (none) |
-| `0xcc` cert | `subtype` (2 bytes big-endian, treated as one 16-bit dimension) |
-| `0xce` celestial | `kind`, `grouped`, `meta` |
-| `0xda` dancer | `variant` (`performance`/`footage`/`graph`/`controller`) |
-| `0xee` estandarte | (none) |
+| type | status | dimensions |
+|---|---|---|
+| `0x00` text | canonical | (none — only header fields are magic/type/tone/title) |
+| `0x01` essay | canonical | (none) |
+| `0x03` image | canonical | `color` (`grayscale`/`rgb`/`gray_alpha`/`rgba`), `bit_depth` |
+| `0x07` voice | draft | (none — STFT codec sketch, no inscriptions) |
+| `0x09` book | canonical | (none) |
+| `0x0c` cert-precursor | deprecated | (none — superseded by `0xcc`; one inscription, kept readable) |
+| `0x0e` encrypted | canonical | `sub_family` (`aes`/`ecies`/`drop`/`centinela`/`cb-sale`/`shamir`), `variant` |
+| `0x1d` identity | draft | (none — JSON body; one pre-canonical inscription) |
+| `0x3d` scene | canonical | (none) |
+| `0x5c` latex | canonical | (none) |
+| `0xab` binding | canonical | (none) |
+| `0xcc` cert | canonical | `subtype` (2 bytes big-endian: `hash`/`all-in-one`/`sale-offer`) |
+| `0xce` celestial | canonical | `kind`, `grouped`, `meta` (`no`/`time`/`more`) |
+| `0xda` dancer | canonical | `variant` (`performance`/`footage`/`graph`/`controller`) |
+| `0xee` estandarte | canonical | (none) |
 
 A **flag** is a single bit within a byte that's set independently of
 other bits in the same byte. The Quipu Protocol uses dimensions
@@ -167,12 +173,11 @@ print(f"merged types: {len(result['types'])}")
 
 ## Inscription path
 
-An Estandarte is inscribed as a single diamond. With the canonical
-type set (text, essay, image, book, encrypted, scene, latex, binding,
-cert, celestial, dancer, estandarte) plus the four cross-cutting
-conventions, the v1 registry encodes to a few KB — well within a
-5-strand diamond's capacity (5 strands × ≤25 knots × 80 bytes/knot =
-~10 KB).
+An Estandarte is inscribed as a single diamond. The v1 draft (15 type
+entries — twelve canonical, two draft, one deprecated — plus seven
+cross-cutting conventions) encodes to ~5.3 KB: 66 knots, well within
+a 5-strand diamond's capacity (5 strands × ≤25 knots × 80 bytes/knot
+= ~10 KB).
 
 The Estandarte is the **last** thing inscribed in a protocol freeze.
 Inscribing it before all its referenced types are stable would
