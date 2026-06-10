@@ -200,9 +200,14 @@ $EDITOR .env       # fill in RPC_USER, RPC_PASSWORD, RPC_HOST, RPC_PORT
                    # — same credentials you set in dogecoin.conf
 
 # Verify everything works
-.venv/bin/python smoke_test.py
-.venv/bin/python test_quipu_crypto.py    # 23 crypto seal tests
+.venv/bin/python -m pytest               # full offline suite (~7s, no node needed)
+.venv/bin/python smoke_test.py           # node connectivity check
 ```
+
+The pytest suite covers the canonical readers against the real on-chain
+corpus, every module's embedded self-tests, the crypto seals, and the
+splitting/accounting invariants — see
+[docs/guides/testing.md](docs/guides/testing.md).
 
 ### 3. Local-only files not in this repo
 
