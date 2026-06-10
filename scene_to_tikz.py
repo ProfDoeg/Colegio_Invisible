@@ -677,16 +677,22 @@ def _place_group_label(own, obstacles, w, h, *, margin=0.50, min_y=0.0,
     x0, x1, y0, y1 = min(xs), max(xs), min(ys), max(ys)
     cx, cy = (x0 + x1)/2.0, (y0 + y1)/2.0
     tw = max(0.6, char_cm * len(text))
-    cands = [
-        (cx, y0 - margin, "north"),       # below the figure
-        (x0 - margin, cy, "east"),        # left
-        (x1 + margin, cy, "west"),        # right
-        (cx, y1 + margin, "south"),       # above (the old, dumb default)
-        (x0 - margin*0.7, y0 - margin*0.7, "north east"),
-        (x1 + margin*0.7, y0 - margin*0.7, "north west"),
-        (x0 - margin*0.7, y1 + margin*0.7, "south east"),
-        (x1 + margin*0.7, y1 + margin*0.7, "south west"),
-    ]
+    # the hardest pull: the centroid itself (and near-centroid pockets) —
+    # a sprawling figure often has a clear gap at its own heart, and a
+    # label there is unambiguous. Falls through to the rings when occupied.
+    cands = [(cx, cy, "center"),
+             (cx, cy - 0.32, "north"), (cx, cy + 0.32, "south")]
+    for m in (margin * 0.45, margin):     # inner ring next: hug the figure
+        cands += [
+            (cx, y0 - m, "north"),        # below the figure
+            (x0 - m, cy, "east"),         # left
+            (x1 + m, cy, "west"),         # right
+            (cx, y1 + m, "south"),        # above (the old, dumb default)
+            (x0 - m*0.7, y0 - m*0.7, "north east"),
+            (x1 + m*0.7, y0 - m*0.7, "north west"),
+            (x0 - m*0.7, y1 + m*0.7, "south east"),
+            (x1 + m*0.7, y1 + m*0.7, "south west"),
+        ]
 
     def text_center(lx, ly, anchor):
         tx, ty = lx, ly
@@ -878,18 +884,21 @@ def vista_tikz_body(txid, fetcher, *, figdir=None,
                 star_labels.append("\\node[skylabelbig,text=oric,anchor=%s] "
                                    "at (%.3f,%.3f) {Orion};" % (anch, ox, oy))
                 obstacles.append((ox, oy))
-            for gname in ("Monoceros", "Lepus", "Canis Minor"):
+            for gname, gcol in (("Winter Triangle", "wtgold"),
+                                ("Monoceros", "oric"),
+                                ("Lepus", "oric"),
+                                ("Canis Minor", "oric")):
                 gidx = gi_of.get(gname, {}).get("point_indices", [])
                 gvis = [cv[i] for i in gidx if i < len(cv) and cv[i]]
                 if not gvis:
                     continue
                 lx, ly, anch = _place_group_label(gvis, obstacles,
                                                   _VISTA_W, _VISTA_H,
-                                                  margin=0.45, clear_min=0.35,
+                                                  margin=0.45, clear_min=0.25,
                                                   min_y=sky_floor, text=gname)
-                star_labels.append("\\node[skylabel,text=star,opacity=0.75,"
+                star_labels.append("\\node[skylabel,text=%s,opacity=0.9,"
                                    "anchor=%s] at (%.3f,%.3f) {%s};"
-                                   % (anch, lx, ly, _tex_escape(gname)))
+                                   % (gcol, anch, lx, ly, _tex_escape(gname)))
                 obstacles.append((lx, ly))
     L += star_lines + star_dots + star_labels
 
