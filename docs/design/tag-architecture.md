@@ -189,40 +189,6 @@ VISIBLE on chain, so collusion is auditable rather than undetectable);
 expect single-digit review rates; publishing links the buyer's key to
 the purchase, which is properly the buyer's choice to make.
 
-## The errata tag — corrections as tag spends
-
-> Added 2026-06-10, the day the Dantean Cosmos phantom was found.
-> Conceived by Anthony as "another application of tags."
-
-A healing binding on its own has two weaknesses: **discovery** (a reader
-holding the flawed textile has no path to the correction — they must
-sweep all known bindings) and **authority** (anyone can publish a
-binding aliasing your phantom; whose write wins a reader's trust?). An
-**errata tag** solves both structurally. It is the review nub turned
-inward: the author keeps the delegated right-to-append for themselves —
-a dust output at the author's key, reserved at inscription, outside the
-spending flow. Spent into a `0xab` binding's root, it makes the
-correction:
-
-- **discoverable** — textile → tag spend → erratum, one structural walk;
-- **authenticated** — only the textile's keyholder can spend its tag,
-  so a tag-published correction is the author's; a free-floating
-  binding is third-party commentary.
-
-The renewable thread applies: each correction's spend can emit a fresh
-errata tag (vout ≥ 1, the standard continuation convention), so the
-channel survives any number of amendments. An unspent errata tag is
-itself information: *no corrections*.
-
-Retroactive note: a diamond's join RESIDUAL looks like a natural
-retroactive errata tag (author-held, at the textile's terminus), but in
-practice residuals are working capital and get recycled — the forest's
-was already spent when the orrery needed healing. Explicit, reserved
-errata tags are the durable form. For textiles that predate tags,
-correction authority falls back to funding-address identity: the
-healing binding's own diamond funded by the same key that funded the
-flawed work.
-
 ## Economics
 
 > Corrected 2026-06-10 with sizes measured by the implementation's

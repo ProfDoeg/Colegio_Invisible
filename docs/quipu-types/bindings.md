@@ -545,6 +545,41 @@ itself is the version control. There is no in-protocol way to
 deprecate a bindings quipu — they exist forever — but inscribing a
 new "v2" and circulating its txid is the project-level mechanism.
 
+## Corrections — bindings are the overwrite layer
+
+> Doctrine settled 2026-06-10, the day the Dantean Cosmos phantom was
+> found: the on-chain orrery's fixed-stars ref is an unresolved build
+> stand-in (`7e0eab43…` = sha256 of a label phrase), missed by the
+> forest backfill.
+
+A permanent corpus will accumulate wrong and dangling references —
+build bugs, superseded targets, identifiers that should have pointed
+elsewhere. The protocol's posture has three parts, and the third is
+why no new machinery is needed:
+
+1. **Identify the failure mode.** Byte round-trips are not reference
+   resolution: a body can reassemble perfectly while naming a txid that
+   does not exist. The phantom passed every byte check because the
+   phantom WAS the bytes.
+2. **Prevent it before broadcast.** `quipu_preflight.py` — every 64-hex
+   token in every final body must be a root of its own diamond, a known
+   txid, or explicitly declared; the build refuses, the broadcaster
+   refuses. See `docs/guides/broadcasting.md` § Preflight.
+3. **Overwrite it after.** A subsequent project-level `0xab` binding —
+   nothing more. `<<bad>>=<<good>>` aliases redirect any reference,
+   corpus-wide, for every binding-aware reader; last-write-wins means
+   the NEXT project binding supersedes it in turn. References are
+   overridable BY DESIGN: a bundle's cross-references do not need to be
+   perfect-and-final at inscription, because the binding layer is the
+   corpus's standing indirection. The worked case: the orrery's phantom
+   is healed by one alias line in the project's next binding quipu
+   (`working/heal_orrery/`).
+
+This is deliberately NOT a per-textile mechanism (no special outputs,
+no errata channels): corrections live at project level, in the same
+primitive that handles vocabulary, and accumulate in the project's
+binding chain like everything else.
+
 ## Why `0xab` is its own type
 
 A bindings quipu could in principle be a `0x00` text quipu whose body
