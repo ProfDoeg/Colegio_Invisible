@@ -409,16 +409,27 @@ def dome_tikz_body(txid, fetcher, *,
                 return None
             return [C0[0] + R*d[0], C0[1] + R*d[1], C0[2] + R*d[2]]
 
-        cv = [canv(proj(w)) if w else None for w in (star_world(p) for p in pts)]
+        worlds = [star_world(p) for p in pts]
+        cv = [canv(proj(w)) if w else None for w in worlds]
+        # raw canvas coords for line endpoints — out-of-frame stars still
+        # anchor the visible part of their lines (clipped to the canvas)
+        raw = []
+        for w in worlds:
+            p = proj(w) if w else None
+            raw.append(None if p is None else
+                       ((p[0]*0.5 + 0.5)*_DOME_W, (p[1]*0.5 + 0.5)*_DOME_H))
         for gi, g in enumerate(cel.get("groups", [])):
             cname = "grp%d" % gi
             seen_hex[cname] = _group_color_hex(g.get("name", ""))
             wt = g.get("name") == "Winter Triangle"
             for a, b2 in g.get("lines", []):
-                if a < len(cv) and b2 < len(cv) and cv[a] and cv[b2]:
+                if a < len(raw) and b2 < len(raw) and raw[a] and raw[b2]:
+                    seg = _clip_segment(raw[a], raw[b2], _DOME_W, _DOME_H)
+                    if seg is None:
+                        continue
                     style = "wtline" if wt else ("skyline,draw=%s" % cname)
                     L.append("\\draw[%s] (%.3f,%.3f) -- (%.3f,%.3f);"
-                             % (style, cv[a][0], cv[a][1], cv[b2][0], cv[b2][1]))
+                             % (style, seg[0][0], seg[0][1], seg[1][0], seg[1][1]))
             for idx in g.get("point_indices", []):
                 if idx < len(cv) and cv[idx]:
                     L.append("\\fill[%s] (%.3f,%.3f) circle (0.07);"
@@ -500,26 +511,31 @@ def skyward_tikz_body(txid, fetcher, *, fov_deg=62.0):
     aspect = _SKY_W / _SKY_H
     tan_half = math.tan(math.radians(fov_deg) / 2.0)
 
-    def proj(w):
+    def proj(w, *, framed=True):
         v = [w[k] - eye[k] for k in range(3)]
         cz = _vdot(v, f)
         if cz <= 0.05:
             return None
         nx = _vdot(v, r) / cz / (tan_half * aspect)
         ny = _vdot(v, u) / cz / tan_half
-        if not (-1.05 <= nx <= 1.05 and -1.05 <= ny <= 1.05):
+        if framed and not (-1.05 <= nx <= 1.05 and -1.05 <= ny <= 1.05):
             return None
         return ((nx * 0.5 + 0.5) * _SKY_W, (ny * 0.5 + 0.5) * _SKY_H)
 
-    canvas = [proj(w) for w in worlds]
+    canvas = [proj(w) for w in worlds]                    # in-frame stars only
+    canvas_raw = [proj(w, framed=False) for w in worlds]  # any projectable star
 
     groups = []
     for g in cel.get("groups", []):
         idxs = g.get("point_indices", [])
         gstars = [canvas[i] for i in idxs if i < len(canvas) and canvas[i]]
-        glines = [(canvas[a], canvas[bx]) for (a, bx) in g.get("lines", [])
-                  if a < len(canvas) and bx < len(canvas)
-                  and canvas[a] and canvas[bx]]
+        glines = []
+        for (a, bx) in g.get("lines", []):
+            if (a < len(canvas_raw) and bx < len(canvas_raw)
+                    and canvas_raw[a] and canvas_raw[bx]):
+                seg = _clip_segment(canvas_raw[a], canvas_raw[bx], _SKY_W, _SKY_H)
+                if seg:
+                    glines.append(seg)
         if not gstars:
             continue
         cx = sum(p[0] for p in gstars) / len(gstars)
@@ -583,6 +599,33 @@ def skyward_tikz_body(txid, fetcher, *, fov_deg=62.0):
 # exactly those two figures stand over the graves. No fisheye, no seams.
 
 _VISTA_W, _VISTA_H = 14.0, 8.5
+
+
+def _clip_segment(p, q, w, h):
+    """Liang–Barsky: clip segment p→q (canvas cm) to [0,w]×[0,h]. Returns
+    the visible sub-segment or None. A constellation line with one star (or
+    both) out of frame is still drawn for the part that crosses the frame —
+    a figure at the edge loses nothing it geometrically shows."""
+    (x0, y0), (x1, y1) = p, q
+    dx, dy = x1 - x0, y1 - y0
+    t0, t1 = 0.0, 1.0
+    for pp, qq in ((-dx, x0), (dx, w - x0), (-dy, y0), (dy, h - y0)):
+        if pp == 0:
+            if qq < 0:
+                return None
+        else:
+            r = qq / pp
+            if pp < 0:
+                if r > t1:
+                    return None
+                if r > t0:
+                    t0 = r
+            else:
+                if r < t0:
+                    return None
+                if r < t1:
+                    t1 = r
+    return ((x0 + t0*dx, y0 + t0*dy), (x0 + t1*dx, y0 + t1*dy))
 
 
 def _find_homography_coeffs(target_quad, source_quad):
@@ -670,7 +713,7 @@ def vista_tikz_body(txid, fetcher, *, figdir=None,
     # ---- sky: spin the sphere so Orion + the Triangle stand over the row ----
     sky_ref = sky_ex.get("quipu_ref")
     star_lines, star_dots, star_labels = [], [], []
-    chosen_lst, wt_seen, ori_seen = None, 0, 0
+    chosen_lst, wt_seen, ori_seen, lines_partial = None, 0, 0, 0
     if sky_ref:
         h, b = _split_concat(fetcher(sky_ref))
         cel = read_celestial_quipu(h, b)
@@ -715,6 +758,12 @@ def vista_tikz_body(txid, fetcher, *, figdir=None,
                 best = (score, lst, nd)
         if best:
             (_, chosen_lst, nd) = best
+            # raw: every projectable star's canvas coords, frame or not (the
+            # endpoint of an edge-crossing line); cv: only in-frame stars
+            # (dots, labels, counts). Lines are clipped to the canvas.
+            raw = [None if p is None else
+                   ((p[0]*0.5 + 0.5)*_VISTA_W, (p[1]*0.5 + 0.5)*_VISTA_H)
+                   for p in nd]
             cv = [canv(p, lim=1.05) for p in nd]
             wt_seen = sum(1 for i in wt_idx if cv[i])
             ori_seen = sum(1 for i in ori_idx if cv[i])
@@ -722,12 +771,16 @@ def vista_tikz_body(txid, fetcher, *, figdir=None,
                 name = g.get("name", "")
                 main = name in ("Orion", "Winter Triangle")
                 for a, b2 in g.get("lines", []):
-                    if a < len(cv) and b2 < len(cv) and cv[a] and cv[b2]:
+                    if a < len(raw) and b2 < len(raw) and raw[a] and raw[b2]:
+                        seg = _clip_segment(raw[a], raw[b2], _VISTA_W, _VISTA_H)
+                        if seg is None:
+                            continue
+                        lines_partial += (cv[a] is None or cv[b2] is None)
                         sty = ("wtline" if name == "Winter Triangle"
                                else ("oriline" if name == "Orion" else "skyline"))
                         star_lines.append("\\draw[%s] (%.3f,%.3f) -- (%.3f,%.3f);"
-                                          % (sty, cv[a][0], cv[a][1],
-                                             cv[b2][0], cv[b2][1]))
+                                          % (sty, seg[0][0], seg[0][1],
+                                             seg[1][0], seg[1][1]))
                 for i in g.get("point_indices", []):
                     if i < len(cv) and cv[i]:
                         r = 0.085 if (i in wt_idx) else (0.062 if main else 0.038)
@@ -824,7 +877,7 @@ def vista_tikz_body(txid, fetcher, *, figdir=None,
 
     meta = {"camera": list(eye), "fov_deg": fov_deg, "sky": sky_ref,
             "lst": chosen_lst, "wt_in_frame": wt_seen, "orion_in_frame": ori_seen,
-            "quads_drawn": len(quads)}
+            "quads_drawn": len(quads), "lines_partial": lines_partial}
     return "\n".join(L), meta
 
 

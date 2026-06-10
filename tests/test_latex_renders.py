@@ -126,6 +126,8 @@ def test_scene_vista_composes_and_compiles(tmp_path):
     assert meta["wt_in_frame"] == 3, "Winter Triangle incomplete in frame"
     assert meta["orion_in_frame"] == 10, "Orion incomplete in frame"
     assert meta["quads_drawn"] == 5, "a photo quad fell out of frame"
+    assert meta["lines_partial"] >= 1, \
+        "edge-crossing constellation lines dropped (one-endpoint clipping regressed)"
     assert tex.count("includegraphics") >= 5, "photos missing from the plate"
 
     work = tmp_path / "build"
