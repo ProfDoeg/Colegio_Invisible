@@ -2293,6 +2293,58 @@ def local_corrections(source_txid, fetch=None, csv_path=None):
     return amap
 
 
+def _alias_fetch(base_fetch, amap):
+    """Wrap a fetcher with a fixed alias map: a missing ref is translated
+    (chains followed) and retried."""
+    def fetch(txid):
+        try:
+            return base_fetch(txid)
+        except Exception:
+            ref, seen = str(txid).lower(), set()
+            while ref in amap and ref not in seen:
+                seen.add(ref)
+                ref = amap[ref]
+            if ref != str(txid).lower():
+                return base_fetch(ref)
+            raise
+    return fetch
+
+
+def resolve_call(txid, fetch, max_depth=4):
+    """The LENS pattern (settled 2026-06-10): a 0xab binding with exactly
+    ONE standalone import is a CALLING POINT for that import — citing the
+    binding calls the subject, read through the binding's own aliases.
+    A correction binding that names its subject thereby becomes the
+    subject's new edition: fetch one quipu, get the pointer AND the fixes
+    that travel with it. Bindings with zero or several imports are
+    vocabulary, not lenses, and resolve to themselves.
+
+    Returns (subject_txid, fetcher) — the fetcher overlaid with every
+    lens's aliases along the way. Lenses may stack (edition of an
+    edition) up to max_depth."""
+    from bindings import read_binding_quipu
+    for _ in range(max_depth):
+        blob = fetch(txid)
+        if len(blob) < 5 or blob[4] != 0xAB:
+            return txid, fetch
+        header, body = split_blob(blob)
+        parsed = read_binding_quipu(header, body)
+        imports, amap = [], {}
+        for line in parsed.get("lines", []):
+            if line[0] == "import":
+                imports.append(str(line[1]).lower())
+            elif line[0] == "alias":
+                for nm in line[1]:
+                    if len(nm) == 64:
+                        amap[nm.lower()] = str(line[2]).lower()
+        if len(imports) != 1:
+            return txid, fetch                    # vocabulary, not a lens
+        if amap:
+            fetch = _alias_fetch(fetch, amap)
+        txid = imports[0]
+    return txid, fetch
+
+
 def corrected_fetcher(base_fetch, source_txid, csv_path=None):
     """Wrap a fetcher with the locus rule: when a target is missing,
     translate the ref through the source quipu's own later corrections

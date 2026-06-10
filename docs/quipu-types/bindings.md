@@ -586,6 +586,28 @@ no errata channels) and NOT a global one (no project registry a reader
 must know about): corrections live at the address level — the one
 piece of context every quipu carries in its own bytes.
 
+### The lens — a correction binding as the work's new calling point
+
+A correction binding that also DECLARES ITS SUBJECT becomes the
+subject's calling mechanism. The convention: **a `0xab` with exactly
+one standalone import is a lens** — citing the binding calls the
+import, read through the binding's own aliases. The pointer and the
+fixes travel in one object, so resolution needs nothing beyond the
+lens itself (even more local than the address scan). Zero or several
+imports = vocabulary, not a lens; lenses stack (an edition of an
+edition), depth-capped by the resolver.
+
+```
+<<1fa3a4b9…>>                 ← subject: the Dantean Cosmos
+<<7e0eab43…>>=<<6e10058f…>>   ← its healing
+```
+
+Citing THIS binding's root is citing "the orrery, corrected" — the
+second edition. The original root remains citable as history; the
+latest lens at the author's address is the current edition; the locus
+rule layers any later corrections on top. Reader side:
+`colegio_pipeline.resolve_call(txid, fetch)`.
+
 ## Why `0xab` is its own type
 
 A bindings quipu could in principle be a `0x00` text quipu whose body

@@ -83,6 +83,44 @@ def test_earlier_binding_does_not_apply(tmp_path):
         fetch(PHANTOM)          # corrections come AFTER the work they correct
 
 
+def _lens_blob(subject, lhs=PHANTOM, rhs=TARGET):
+    h, b = build_binding_quipu("<<%s>>\n<<%s>>=<<%s>>\n" % (subject, lhs, rhs),
+                               tone=0x00)
+    return h + b
+
+
+def test_lens_binding_is_a_calling_point(tmp_path):
+    """A 0xab with ONE import + aliases: citing it calls the subject, with
+    the corrections riding along — the new calling mechanism."""
+    LENS = "1e" * 32
+    sh, sb = build_text_quipu("the subject work", "refs <<%s>> inside, %s"
+                              % (PHANTOM, "z" * 60))
+    subject_blob = sh + sb
+    _, base = _mini_corpus(tmp_path, rows=[], bodies={
+        LENS: _lens_blob(SOURCE), SOURCE: subject_blob, TARGET: _target_blob()})
+    subj, fetch = P.resolve_call(LENS, base)
+    assert subj == SOURCE, "lens did not resolve to its subject"
+    assert fetch(SOURCE) == subject_blob
+    assert fetch(PHANTOM) == _target_blob(), "lens aliases did not ride along"
+
+
+def test_vocabulary_binding_is_not_a_lens(tmp_path):
+    _, base = _mini_corpus(tmp_path, rows=[], bodies={HEAL: _healing_blob()})
+    subj, _ = P.resolve_call(HEAL, base)        # aliases only, no import
+    assert subj == HEAL, "a vocabulary binding must resolve to itself"
+
+
+def test_lenses_stack_with_depth_cap(tmp_path):
+    L1, L2 = "2e" * 32, "3e" * 32
+    sh, sb = build_text_quipu("subject", "plain " * 20)
+    _, base = _mini_corpus(tmp_path, rows=[], bodies={
+        L2: _lens_blob(L1, lhs="9a" * 32, rhs="9b" * 32),   # edition of an edition
+        L1: _lens_blob(SOURCE), SOURCE: sh + sb, TARGET: _target_blob()})
+    subj, fetch = P.resolve_call(L2, base)
+    assert subj == SOURCE
+    assert fetch(PHANTOM) == _target_blob()     # L1's healing still rides
+
+
 def test_last_write_wins_and_chains(tmp_path):
     mid = "cc" * 32
     heal2 = "ad" * 32

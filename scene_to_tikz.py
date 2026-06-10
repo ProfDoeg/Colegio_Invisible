@@ -1150,8 +1150,10 @@ def scene_tikz_body(txid, fetcher, *, mode="wire", figdir=None):
     PNGs are written to figdir and referenced via \\includegraphics in a clip.
     'skyward' returns the companion look-up sky chart instead of the camera
     view."""
-    # the locus rule: dangling refs heal through the scene's own later
-    # 0xab corrections (same root address), retried transparently
+    # the lens pattern: a 0xab calling point resolves to its subject with
+    # its corrections riding along; then the locus rule heals anything the
+    # lens didn't carry (same-address later bindings)
+    txid, fetcher = P.resolve_call(txid, fetcher)
     fetcher = P.corrected_fetcher(fetcher, txid)
     if mode == "skyward":
         return skyward_tikz_body(txid, fetcher)
