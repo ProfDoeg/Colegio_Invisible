@@ -257,6 +257,43 @@ recovery is almost always **relaunch and let it resume** — not manual surgery.
 
 ---
 
+## Preflight — final checks before anything touches the chain
+
+> Added 2026-06-10 after the Dantean Cosmos shipped with an unresolved
+> stand-in txid as its fixed-stars ref. Every byte round-trip check
+> passed, because the phantom WAS the bytes. Byte fidelity is the wrong
+> question alone; these are the right ones.
+
+`quipu_preflight.preflight(artifacts_dir)` runs automatically at the top
+of `broadcast_consolidated_diamond` and the broadcast REFUSES on failure.
+Three gates, judged on what the chain will actually store:
+
+1. **Signed-tx truth.** The OP_RETURN payloads are re-extracted from the
+   signed transaction hexes and reassembled; they must equal the body
+   files byte-for-byte. The flight judges the transactions, not the
+   build's memory.
+2. **Canonical decode.** Every reassembled body must parse through its
+   canonical reader. What decodes now decodes from the chain.
+3. **Reference resolution (the phantom check).** Every 64-hex token in
+   every body must be a root of this diamond, a known txid (dataset +
+   bodies mirror + optional live resolver), or EXPLICITLY declared via
+   `declared_ok` (payload hashes in certs, lock hashes, 0xab alias
+   left-hand names are exempt by type-awareness). Default-deny: an
+   undeclared stand-in dies in preflight, not on the chain.
+
+The same reference check also runs at BUILD time
+(`build_consolidated_diamond(..., declared_ok=[...])`), so a bad
+manifest fails before signing. Standalone:
+
+```bash
+.venv/bin/python quipu_preflight.py working/<stage>/artifacts [declared_hash ...]
+```
+
+`skip_preflight=True` exists on the broadcaster and logs loudly; use it
+only with a reason you are willing to read back from the chain forever.
+
+---
+
 ## Security rules (do not bend)
 
 - The apocrypha private key (`~/Desktop/cinv/llaves/mi_prv.enc`) is **never**

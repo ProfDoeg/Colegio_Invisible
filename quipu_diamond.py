@@ -147,7 +147,8 @@ def _measure_tx_size(n_in, n_out, priv, address, dogecs):
 # ===========================================================================
 def build_consolidated_diamond(pieces, placeholder_of, utxo, priv, address,
                                fee_policy=None, cap=STRAND_CAP,
-                               extra_placeholders=None, tags_of=None, log=print):
+                               extra_placeholders=None, tags_of=None,
+                               declared_ok=None, log=print):
     """Build + sign a consolidated diamond. Deterministic; broadcasts nothing.
 
     pieces            ordered list of (pid, full_quipu_blob_bytes). Order fixes
@@ -159,6 +160,10 @@ def build_consolidated_diamond(pieces, placeholder_of, utxo, priv, address,
     fee_policy        FeePolicy (default FeePolicy()).
     extra_placeholders  optional {placeholder_hex: target_pid} for non-pid aliases
                       (e.g. a body's internal cross-reference to another piece).
+    declared_ok       optional iterable of 64-hex strings that are LEGITIMATELY
+                      not txids (payload hashes in certs, lock hashes...).
+                      Every other unknown 64-hex token in a final body FAILS
+                      the build — see step 5b (the phantom check).
     tags_of           optional pid -> [{"value": sat, "address": str}, ...].
                       Each tag becomes an EXTRA output of that piece's root,
                       placed AFTER the strand seeds (vout = n_strands + k), with
@@ -278,6 +283,21 @@ def build_consolidated_diamond(pieces, placeholder_of, utxo, priv, address,
         total_backfilled += n
     log("backfilled %d cross-references" % total_backfilled)
 
+    # 5b. THE PHANTOM CHECK — the assertion above only knows DECLARED
+    # placeholders. The Dantean Cosmos shipped an undeclared stand-in
+    # (sha256 of a phrase) that round-tripped perfectly onto the chain.
+    # Default-deny: every 64-hex token in every final body must be a root
+    # of this diamond, a known txid, or explicitly declared via
+    # `declared_ok` (hash certs carry non-txid SHA256s; 0xab alias
+    # left-hand names dangle by design). See quipu_preflight.py.
+    from quipu_preflight import check_refs_resolve
+    ref_failures = check_refs_resolve(
+        {pid: q["blob2"] for pid, q in quip.items()},
+        list(root_txid.values()), declared_ok=declared_ok or ())
+    if ref_failures:
+        raise ValueError("unresolved references in final bodies:\n  "
+                         + "\n  ".join(ref_failures))
+
     # 6. precompute strands
     cadenas = []  # (pid, idx, CadenaAtom)
     for pid, q in quip.items():
@@ -369,10 +389,23 @@ def _wait_confirmed(txid, label, log, poll=15, max_wait=2400):
     raise TimeoutError("%s not confirmed in %ds" % (label, max_wait))
 
 
-def broadcast_consolidated_diamond(artifacts_dir, log=print, strand_workers=16):
+def broadcast_consolidated_diamond(artifacts_dir, log=print, strand_workers=16,
+                                   declared_ok=(), skip_preflight=False):
     """Weave a built diamond onto chain from artifacts_dir. Keyless, idempotent,
-    resumable — re-running only (re)sends what the node has forgotten."""
+    resumable — re-running only (re)sends what the node has forgotten.
+
+    PREFLIGHT RUNS FIRST and broadcasting refuses on failure: the signed
+    txs' OP_RETURN payloads are reassembled and must equal the body files,
+    every body must decode through its canonical reader, and every 64-hex
+    token must resolve (diamond root / known txid / declared_ok). Pass
+    skip_preflight=True only with a reason you would be willing to read
+    back from the chain forever."""
     d = artifacts_dir
+    if skip_preflight:
+        log("!! PREFLIGHT SKIPPED — the chain will hold whatever this is")
+    else:
+        from quipu_preflight import preflight
+        preflight(d, declared_ok=declared_ok, log=log)
     idx = json.load(open(os.path.join(d, "index.json")))
     order = [p["pid"] for p in idx["pieces"]]
     rd = lambda f: open(os.path.join(d, f)).read().strip()
