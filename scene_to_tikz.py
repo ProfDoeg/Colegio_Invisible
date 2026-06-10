@@ -662,12 +662,15 @@ def _warp_photo(png_path, quad_cm, out_path, px_per_cm=110):
     return (x0, y0, x1 - x0, y1 - y0)
 
 
-def _place_group_label(own, obstacles, w, h, *, margin=0.50, min_y=0.0):
-    """Choose the clearest spot for a constellation label: candidates ring
-    the figure's bounding box (below, left, right, above, corners); each
-    must stay on canvas and above min_y; the winner maximizes distance to
-    every obstacle (other groups' stars, line ends, the figure itself).
-    Returns (x, y, anchor)."""
+def _place_group_label(own, obstacles, w, h, *, margin=0.50, min_y=0.0,
+                       clear_min=0.50):
+    """Choose the spot for a constellation label: candidates ring the
+    figure's bounding box (below, left, right, above, corners). Among
+    candidates with at least `clear_min` clearance from every obstacle
+    (other groups' stars, line ends, the figure itself), take the one
+    CLOSEST to the figure's centroid — the name stays with its stars.
+    Only when nowhere is clear enough does max-clearance win. Returns
+    (x, y, anchor)."""
     xs = [p[0] for p in own]; ys = [p[1] for p in own]
     x0, x1, y0, y1 = min(xs), max(xs), min(ys), max(ys)
     cx, cy = (x0 + x1)/2.0, (y0 + y1)/2.0
@@ -681,17 +684,21 @@ def _place_group_label(own, obstacles, w, h, *, margin=0.50, min_y=0.0):
         (x0 - margin*0.7, y1 + margin*0.7, "south east"),
         (x1 + margin*0.7, y1 + margin*0.7, "south west"),
     ]
-    best = None
+    clear, crowded = [], []
     for lx, ly, anchor in cands:
         if not (0.5 <= lx <= w - 0.5 and max(0.35, min_y) <= ly <= h - 0.35):
             continue
         d = min((math.hypot(lx - ox, ly - oy) for ox, oy in obstacles),
                 default=9.9)
-        if best is None or d > best[0]:
-            best = (d, lx, ly, anchor)
-    if best is None:
+        dc = math.hypot(lx - cx, ly - cy)
+        (clear if d >= clear_min else crowded).append((dc, -d, lx, ly, anchor))
+    if clear:
+        _, _, lx, ly, anchor = min(clear)        # nearest-to-centroid, clear
+    elif crowded:
+        _, _, lx, ly, anchor = min(crowded, key=lambda t: t[1])  # max clearance
+    else:
         return cx, y1 + margin, "south"
-    return best[1], best[2], best[3]
+    return lx, ly, anchor
 
 
 def vista_tikz_body(txid, fetcher, *, figdir=None,
