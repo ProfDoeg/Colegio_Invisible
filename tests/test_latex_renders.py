@@ -191,3 +191,71 @@ def test_orrery_plate_composes_and_compiles(tmp_path):
     assert meta1["planets"] == 7, "the planets are sound in both editions"
     (tmp_path / "orr1.tex").write_text(tex1, encoding="utf-8")
     assert _xelatex("orr1.tex", str(tmp_path), passes=1) == 1
+
+
+def test_orrery_heals_through_inscribed_catalog(tmp_path, monkeypatch):
+    """The healed edition, end to end with the REAL on-chain catalog
+    (root 34316f64…, inscribed 2026-06-10, tone 0xe5): the orrery's
+    phantom fixed-stars ref resolves to bode through the author's
+    published correction — by the LOCUS RULE when reading the orrery
+    directly, and by the LENS when citing the catalog itself. No
+    hand-staged phantom alias: the bytes that healed the chain are the
+    bytes that heal this test, and both readings must agree."""
+    import csv
+    import json
+    import colegio_pipeline as Pmod
+
+    art = os.path.join(REPO, "working", "lineage", "artifacts")
+    heal = os.path.join(REPO, "working", "heal_orrery", "artifacts")
+    if not (os.path.exists(os.path.join(art, "index.json"))
+            and os.path.exists(os.path.join(heal, "heal_orrery.bin"))):
+        pytest.skip("Gana-forest or heal_orrery artifacts not present")
+    idx = json.load(open(os.path.join(art, "index.json")))
+    roots = {p["pid"]: p["root"] for p in idx["pieces"]}
+    CATALOG = open(os.path.join(heal, "root_heal_orrery.txid")).read().strip()
+
+    fetch_dir = tmp_path / "fetch"
+    fetch_dir.mkdir()
+    for pid in ("orrery", "bode"):
+        shutil.copy(os.path.join(art, pid + ".bin"),
+                    fetch_dir / (roots[pid] + ".bin"))
+    shutil.copy(os.path.join(heal, "heal_orrery.bin"),
+                fetch_dir / (CATALOG + ".bin"))   # the catalog — nothing else
+
+    # the two dataset rows the locus rule needs: source + catalog,
+    # same address, catalog later (heights as on mainnet)
+    APOCRYPHA = "D6zKNnkupqRbkB9p5rwix8QiobQWJazjyX"
+    csv_file = tmp_path / "quipu_data.csv"
+    with open(csv_file, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["root_txid", "address",
+                                          "type_byte", "blockheight"])
+        w.writeheader()
+        w.writerow({"root_txid": roots["orrery"], "address": APOCRYPHA,
+                    "type_byte": "0x3d", "blockheight": 6237154})
+        w.writerow({"root_txid": CATALOG, "address": APOCRYPHA,
+                    "type_byte": "0xab", "blockheight": 6238900})
+    orig = Pmod.local_corrections
+    monkeypatch.setattr(
+        Pmod, "local_corrections",
+        lambda src, fetch=None, csv_path=None:
+            orig(src, fetch, csv_path=str(csv_file)))
+
+    import scene_to_tikz as S
+    fetcher = Pmod.chained_fetcher(str(fetch_dir))
+
+    # 1) locus rule: read the orrery at its own root; the dangling
+    #    fixed-stars ref heals through the catalog found at its address
+    tex, meta = S.build_plate_tex(roots["orrery"], fetcher, mode="orrery")
+    assert meta["edition"] == "corrected"
+    assert meta["planets"] == 7
+    assert meta["bode_stars"] > 200, "the catalog did not fill the heaven"
+    assert meta["bode_lines"] > 150
+
+    # 2) lens: citing the catalog CALLS the orrery, the correction
+    #    riding along — and the two readings produce the same plate
+    tex2, meta2 = S.build_plate_tex(CATALOG, fetcher, mode="orrery")
+    assert meta2["bode_stars"] == meta["bode_stars"]
+    assert tex2 == tex, "lens and locus must read the same plate"
+
+    (tmp_path / "healed.tex").write_text(tex, encoding="utf-8")
+    assert _xelatex("healed.tex", str(tmp_path), passes=1) == 1
