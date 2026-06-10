@@ -2310,38 +2310,56 @@ def _alias_fetch(base_fetch, amap):
     return fetch
 
 
-def resolve_call(txid, fetch, max_depth=4):
-    """The LENS pattern (settled 2026-06-10): a 0xab binding with exactly
-    ONE standalone import is a CALLING POINT for that import — citing the
-    binding calls the subject, read through the binding's own aliases.
-    A correction binding that names its subject thereby becomes the
-    subject's new edition: fetch one quipu, get the pointer AND the fixes
-    that travel with it. Bindings with zero or several imports are
-    vocabulary, not lenses, and resolve to themselves.
+def resolve_call(txid, fetch, name=None, max_depth=4):
+    """The LENS pattern (settled 2026-06-10): a 0xab binding is a CALLING
+    POINT — citing it calls a subject, read through the binding's own
+    hex->hex aliases (the corrections travel with the call).
 
-    Returns (subject_txid, fetcher) — the fetcher overlaid with every
-    lens's aliases along the way. Lenses may stack (edition of an
-    edition) up to max_depth."""
+      · ONE standalone import      = the default subject (bare call)
+      · named aliases name=<txid>  = NAMED subjects, the catalog form:
+                                     <<binding>><<name>> calls that one
+      · hex->hex aliases           = corrections riding along for every
+                                     call through this lens
+
+    A binding with no import and no matching name is vocabulary and
+    resolves to itself. Lenses stack (edition of an edition) up to
+    max_depth. Returns (subject_txid, fetcher)."""
     from bindings import read_binding_quipu
     for _ in range(max_depth):
         blob = fetch(txid)
         if len(blob) < 5 or blob[4] != 0xAB:
+            if name:
+                raise KeyError("named call %r against a non-binding %s…"
+                               % (name, str(txid)[:12]))
             return txid, fetch
         header, body = split_blob(blob)
         parsed = read_binding_quipu(header, body)
-        imports, amap = [], {}
+        imports, amap, names = [], {}, {}
         for line in parsed.get("lines", []):
             if line[0] == "import":
                 imports.append(str(line[1]).lower())
             elif line[0] == "alias":
+                tgt = str(line[2]).lower()
                 for nm in line[1]:
                     if len(nm) == 64:
-                        amap[nm.lower()] = str(line[2]).lower()
-        if len(imports) != 1:
-            return txid, fetch                    # vocabulary, not a lens
+                        amap[nm.lower()] = tgt    # a correction
+                    else:
+                        names[nm] = tgt           # a named subject
         if amap:
             fetch = _alias_fetch(fetch, amap)
-        txid = imports[0]
+        if name is not None:
+            tgt, seen = names.get(name), set()
+            while tgt is not None and len(tgt) != 64 and tgt not in seen:
+                seen.add(tgt)
+                tgt = names.get(tgt)              # name -> name chains
+            if tgt is None or len(tgt) != 64:
+                raise KeyError("no named subject %r in binding %s…"
+                               % (name, str(txid)[:12]))
+            txid, name = tgt, None
+        elif len(imports) == 1:
+            txid = imports[0]
+        else:
+            return txid, fetch                    # vocabulary, not a lens
     return txid, fetch
 
 

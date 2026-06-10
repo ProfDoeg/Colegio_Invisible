@@ -608,6 +608,24 @@ latest lens at the author's address is the current edition; the locus
 rule layers any later corrections on top. Reader side:
 `colegio_pipeline.resolve_call(txid, fetch)`.
 
+**The catalog form — many healed subjects in one binding.** Named
+aliases (non-hex name → txid) are NAMED SUBJECTS, called with the
+standard sub-object syntax `<<binding>><<name>>` — the same way a
+celestial group is referenced inside its quipu. The hex→hex aliases
+ride along on every named call, so one correction binding can be the
+calling point for an entire set of healed works:
+
+```
+<<orrery>>=<<1fa3a4b9…>>      ← named subject
+<<journey>>=<<762043aa…>>     ← another
+<<viaje>>=<<journey>>          ← name→name chains follow
+<<7e0eab43…>>=<<6e10058f…>>   ← corrections, applied to all calls
+```
+
+`resolve_call(txid, fetch, name="orrery")` resolves a named call; a
+bare call uses the single-import default if one is declared; a catalog
+with no import and no matching name resolves to itself (vocabulary).
+
 ## Why `0xab` is its own type
 
 A bindings quipu could in principle be a `0x00` text quipu whose body

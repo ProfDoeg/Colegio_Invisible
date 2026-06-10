@@ -121,6 +121,36 @@ def test_lenses_stack_with_depth_cap(tmp_path):
     assert fetch(PHANTOM) == _target_blob()     # L1's healing still rides
 
 
+def test_catalog_binding_names_multiple_healed_subjects(tmp_path):
+    """One 0xab healing SEVERAL works, each callable by name — the
+    catalog form: <<binding>><<orrery>> etc., corrections riding on all."""
+    CAT = "4e" * 32
+    WORK2, PH2, TGT2 = "5a" * 32, "5e" * 32, "5f" * 32
+    sh1, sb1 = build_text_quipu("work one", "alpha " * 20)
+    sh2, sb2 = build_text_quipu("work two", "beta " * 20)
+    th, tb = build_text_quipu("second target", "gamma " * 20)
+    catalog = ("<<orrery>>=<<%s>>\n" % SOURCE +
+               "<<journey>>=<<%s>>\n" % WORK2 +
+               "<<viaje>>=<<journey>>\n" +              # name -> name chain
+               "<<%s>>=<<%s>>\n" % (PHANTOM, TARGET) +  # healing for work one
+               "<<%s>>=<<%s>>\n" % (PH2, TGT2))         # healing for work two
+    ch, cb = build_binding_quipu(catalog, tone=0x00)
+    _, base = _mini_corpus(tmp_path, rows=[], bodies={
+        CAT: ch + cb, SOURCE: sh1 + sb1, WORK2: sh2 + sb2,
+        TARGET: _target_blob(), TGT2: th + tb})
+
+    subj, fetch = P.resolve_call(CAT, base, name="orrery")
+    assert subj == SOURCE and fetch(PHANTOM) == _target_blob()
+    subj, fetch = P.resolve_call(CAT, base, name="journey")
+    assert subj == WORK2 and fetch(PH2) == th + tb      # both healings ride
+    subj, _ = P.resolve_call(CAT, base, name="viaje")
+    assert subj == WORK2, "name->name chain did not follow"
+    with pytest.raises(KeyError):
+        P.resolve_call(CAT, base, name="nonexistent")
+    subj, _ = P.resolve_call(CAT, base)                 # bare call, no import
+    assert subj == CAT, "catalog without import must not pick a default"
+
+
 def test_last_write_wins_and_chains(tmp_path):
     mid = "cc" * 32
     heal2 = "ad" * 32

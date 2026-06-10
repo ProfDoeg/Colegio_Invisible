@@ -42,12 +42,15 @@ ART_DIR = os.path.join(HERE, "artifacts")
 
 
 def build_blob():
-    """The LENS form: subject import + healing alias. Citing this binding
-    CALLS the orrery — the subject pointer and its correction travel in
-    one object. See bindings.md § Corrections and colegio_pipeline.resolve_call."""
+    """The LENS form, catalog-ready: subject import (default call) + named
+    entry (<<this>><<orrery>> call) + healing alias. Citing this binding
+    CALLS the orrery — pointer and correction travel in one object; future
+    correction bindings can carry MANY named subjects the same way. See
+    bindings.md § Corrections and colegio_pipeline.resolve_call."""
     from bindings import build_binding_quipu
-    body = ("<<%s>>\n" % ORRERY +                 # subject: the Dantean Cosmos
-            "<<%s>>=<<%s>>\n" % (PHANTOM, BODE))  # its healing
+    body = ("<<%s>>\n" % ORRERY +                 # default subject (bare call)
+            "<<orrery>>=<<%s>>\n" % ORRERY +      # named subject (catalog form)
+            "<<%s>>=<<%s>>\n" % (PHANTOM, BODE))  # the healing, riding on both
     h, b = build_binding_quipu(body, tone=0x00)
     return h + b
 
