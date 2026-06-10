@@ -56,12 +56,27 @@ quipu:
   funding), bodies round-trip byte-identical, tag outputs ride the root
   and are ignored by the join, dust tags and insufficient funding raise.
 
+## 5. LaTeX renders — `tests/test_latex_renders.py`
+
+Marked `latex` + `slow` (skipped when xelatex is absent; deselect with
+`-m "not latex"` for the fast loop, ~14s when included):
+
+- Both shipped class examples (essay mode, book mode) compile clean —
+  a colegio.cls regression fails here by name, with a page-count floor.
+- The annotation primitive's full live path: essay + `0xab` binding +
+  book built into a tmp inscription store, rendered via `book_to_tex`,
+  all three presentation modes (`\margin` / `\backnote` /
+  `\inlinenote`) asserted in the emitted TeX, and the result compiled.
+  Catches both failure modes: a dead rendering branch and a macro that
+  emits but no longer typesets. (Supersedes
+  `working/tests/test_annotations.py`, retained as scratch.)
+
 ## Markers
 
 - `rpc` — needs a reachable Dogecoin node; skipped unless
   `QUIPU_RPC_TESTS=1`.
-- `slow`, `latex` — reserved for broadcast simulations and xelatex
-  render tests as they get added.
+- `latex` — needs xelatex on PATH; auto-skipped otherwise.
+- `slow` — the render tests; deselect with `-m "not slow"`.
 
 ## What is deliberately NOT here
 
@@ -69,6 +84,3 @@ quipu:
   deliberate; see `docs/guides/broadcasting.md`.
 - Streamlit UI flows (`quipu_console.py`, `quipu_viewer.py`) — exercised
   by use; automating them buys little for their cost.
-- LaTeX renders — `working/tests/test_annotations.py` exists as a
-  starting point; fold it in under the `latex` marker when the render
-  pipeline stabilizes.
