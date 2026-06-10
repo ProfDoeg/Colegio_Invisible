@@ -69,9 +69,15 @@ comes from the batch list.
 | 173 | [173_oppenheimer_and_ethical_culture.md](173_oppenheimer_and_ethical_culture.md) | EN+ES | Felix Adler's Ethical Culture, the Free Kindergarten, Oppenheimer |
 | 172 | [172_living_water_of_fairy_stories.md](172_living_water_of_fairy_stories.md) | EN+ES | Steiner's Waldorf pedagogy; fairy stories as living water |
 | 171 | [171_primavera_camporista_and_bird_making.md](171_primavera_camporista_and_bird_making.md) | EN+ES | 1973 primavera camporista; Spinetta, bird making; ends on song lines |
+| — | [augury.md](augury.md) | ES+EN | augury & state legitimacy: Castro's doves, templum/lituus, aug- root; THE CERTIFICATE AUTHORITY — 1ec0 node tx, c1dd0001ccff0001, three keys (Hayagriva/Christophia/Anthony), Laura Renee Maier's 'Encoded Threads' diptych |
+| — | [pet_sematary.md](pet_sematary.md) | EN+ES | Operation Condor & the birth of digital cryptography; kryptós/krypteia; Cimetière des Chiens; THE PET CEMETERY INSCRIPTIONS from D6zK…zjyX (Sparkle, Paco, Beatrice/Peter Bea); Land/Steiner acceleration; Liliana Crociati & Sabú |
 
-Received: **50 of ~50–52** (batches 1–4, all 2026-06-10: 220–211,
-210–201, 200–191 + 190–181, 180–171).
+Received: **52 of ~50–52** (batches 1–5, all 2026-06-10: 220–211,
+210–201, 200–191 + 190–181, 180–171, plus AUGURY and PET SEMATARY).
+The corpus appears COMPLETE at the top of the author's estimate.
+AUGURY and PET SEMATARY arrived WITHOUT numbers — filed by title
+alone; their slots (presumably 170/169, in delivery order) are the
+author's to assign. AUGURY is the one essay delivered ES-first.
 
 ## Connective threads (for the eventual book structure)
 
@@ -113,6 +119,20 @@ Received: **50 of ~50–52** (batches 1–4, all 2026-06-10: 220–211,
 - Andean fieldwork arc: the narrator travels Lima → Cusco (205, 206,
   201) following the ceques; ties batch 1's Cusco material (220) to
   the middle of the corpus.
+- AUGURY and PET SEMATARY are the corpus's own archaeology: they
+  document the 2022 pre-canonical layer of the protocol itself —
+  "version 0.1" headers (`c1dd` magic), the 0xcc hash-certificate
+  with `ff` reverence-for-the-dead, the three-key Certificate
+  Authority (Hayagriva / Christophia / Anthony — the dog- and
+  horse-headed lineage of 210/208/206 made cryptographic), the
+  Vates 'Domrémy' inscription (212), and the pet-cemetery
+  inscriptions from the apocrypha address (cf. the on-chain
+  "Sparkle" image and the 0x0c hash-cert precursor noted in the
+  repo's pre-canonical records; also the 0x3d Cementerio scene).
+  Private keys live IN the physical textiles (gilded folds of the
+  Maier diptych) — chain and cloth certify each other.
+- Birds close the corpus: 204 hornero, 171 bird making, AUGURY's
+  auspicia — augur/author/authority from the same root.
 
 ## Candidate errata (author's call — files untouched)
 
@@ -154,6 +174,20 @@ Received: **50 of ~50–52** (batches 1–4, all 2026-06-10: 220–211,
   1889 Japanese dictionary.
 - 201 ES: "yo se utilizaban" (y se utilizaban); "su muerte sagrado"
   (sagrada).
+- AUGURY ES: paragraphs numbered 2–5 with the opening paragraph
+  unnumbered (no 1); EN unnumbered throughout. "la práctica
+  hermenéutica de la augurio" (del augurio?).
+- AUGURY: certificate type "01" (ES) vs "0.1" (EN ¶3) — divergence.
+- PET SEMATARY EN: "one small 64x64 5 pixel 5 bit greyscale image" —
+  stray "5 pixel" (ES omits it).
+- PET SEMATARY ES: caption line "El encabezado del inscripción
+  cementerio , por dirección" — garbled article/spacing.
+- PET SEMATARY: ES ¶3 contains a sentence absent from EN ("Inscribe
+  datos funerarios sin certificación utilizando los bytes de
+  encabezado estándar c1dd y el byte de subtipo ff…"); ES ¶0–4
+  paragraph numerals absent from EN. "mundo subterráneo de los
+  muertos" (EN: "of the dead") vs ES "de los huesos" — may be
+  deliberate.
 
 ## Pipeline notes
 
