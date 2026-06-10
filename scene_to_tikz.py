@@ -11,12 +11,18 @@ drawn as TikZ. The result is a faithful perspective VIEW of the scene
 reconstructed from the bytes — not a screenshot — cheap, scalable, and
 inscribable as a 0x5c plate like every other artwork in the corpus.
 
-Two render modes:
-  wire   — wireframe quads + labels (proves the projection geometry)
-  photo  — each quad filled with its decoded image quipu (the real view)
+Render modes:
+  wire    — wireframe quads + labels (proves the projection geometry)
+  photo   — straight-on camera view, quads filled with decoded photos
+  vista   — THE composed plate: one oblique rectilinear camera, the grave
+            row receding in true perspective (photos homography-warped
+            into their projected quads), and the sidereal spin searched so
+            the Winter Triangle + Orion stand in the sky above. No fisheye.
+  skyward — companion look-up chart (normal-field, aimed at the Triangle)
+  dome    — wireframe hemisphere overview with grave markers
 
 Usage:
-  .venv/bin/python scene_to_tikz.py <scene_txid> [wire|photo] [out.pdf]
+  .venv/bin/python scene_to_tikz.py <scene_txid> [wire|photo|vista|skyward|dome] [out.pdf]
 """
 import os
 import sys
@@ -564,6 +570,265 @@ def skyward_tikz_body(txid, fetcher, *, fov_deg=62.0):
 
 
 # ----------------------------------------------------------------------
+# The vista — ONE image: across the graves, Winter Triangle + Orion above
+# ----------------------------------------------------------------------
+#
+# The earlier attempts failed by trying to fit ALL of al-Jawza (~90°+ of
+# sky) through one camera — forcing a 150° fisheye — or by splitting the
+# scene into three partial views. But the picture the scene wants needs
+# only Orion + the Winter Triangle: ~34° × 30° of sky, which fits a
+# normal ~60° lens with room for the grave row below. So: one rectilinear
+# look-at projector for everything (ground, photo quads, stars), an
+# oblique eye to the right of the row, and the sidereal spin searched so
+# exactly those two figures stand over the graves. No fisheye, no seams.
+
+_VISTA_W, _VISTA_H = 14.0, 8.5
+
+
+def _find_homography_coeffs(target_quad, source_quad):
+    """PIL perspective coeffs mapping OUTPUT pixel coords -> INPUT pixel
+    coords, from 4 corner correspondences (the standard 8x8 solve)."""
+    import numpy as np
+    A = []
+    for (tx, ty), (sx, sy) in zip(target_quad, source_quad):
+        A.append([tx, ty, 1, 0, 0, 0, -sx*tx, -sx*ty])
+        A.append([0, 0, 0, tx, ty, 1, -sy*tx, -sy*ty])
+    b = np.array([c for s in source_quad for c in s], dtype=float)
+    return np.linalg.solve(np.array(A, dtype=float), b)
+
+
+def _warp_photo(png_path, quad_cm, out_path, px_per_cm=110):
+    """Perspective-warp a photo into its projected quad. quad_cm is the four
+    canvas-space corners (BL, BR, TR, TL of the plane). Writes an RGBA PNG
+    covering the quad's bounding box (transparent outside the quad) and
+    returns (x0, y0, w, h) of that box in cm."""
+    from PIL import Image
+    im = Image.open(png_path).convert("RGBA")
+    W, H = im.size
+    xs = [p[0] for p in quad_cm]; ys = [p[1] for p in quad_cm]
+    x0, x1, y0, y1 = min(xs), max(xs), min(ys), max(ys)
+    ow = max(2, int(round((x1 - x0) * px_per_cm)))
+    oh = max(2, int(round((y1 - y0) * px_per_cm)))
+    # output px coords (y down) of the quad corners
+    tgt = [((px - x0) * px_per_cm, (y1 - py) * px_per_cm) for px, py in quad_cm]
+    src = [(0, H), (W, H), (W, 0), (0, 0)]          # BL, BR, TR, TL
+    coeffs = _find_homography_coeffs(tgt, src)
+    warped = im.transform((ow, oh), Image.PERSPECTIVE, tuple(coeffs),
+                          Image.BICUBIC, fillcolor=(0, 0, 0, 0))
+    warped.save(out_path)
+    return (x0, y0, x1 - x0, y1 - y0)
+
+
+def vista_tikz_body(txid, fetcher, *, figdir=None,
+                    eye=(4.6, 1.5, 1.6), target=(-1.8, 3.6, -3.0),
+                    fov_deg=64.0, wt_aim=(0.08, 0.35)):
+    """The single composed view: photo quads in true perspective along the
+    receding grave row, Orion + the Winter Triangle in the sky above, one
+    rectilinear projection throughout. Returns (tikz_body, meta)."""
+    from celestial import read_celestial_quipu
+    from celestial_render import _split_concat
+
+    blob = fetcher(txid)
+    bs = blob.find(b"|{", 6)
+    gltf = json.loads(blob[bs + 1:].decode("utf-8"))
+    nodes = gltf.get("nodes", [])
+    sky_node = next((n for n in nodes
+                     if n.get("extras", {}).get("object_kind") == "celestial"), None)
+    sky_ex = (sky_node or {}).get("extras", {})
+    lat = sky_ex.get("latitude_deg", 0.0)
+
+    aspect = _VISTA_W / _VISTA_H
+    proj = _lookat(list(eye), list(target), [0, 1, 0], fov_deg, aspect)
+
+    def canv(p, lim=1.45):
+        if p is None or abs(p[0]) > lim or abs(p[1]) > lim:
+            return None
+        return ((p[0] * 0.5 + 0.5) * _VISTA_W, (p[1] * 0.5 + 0.5) * _VISTA_H)
+
+    L = []
+    L.append("\\clip (0,0) rectangle (%.2f,%.2f);" % (_VISTA_W, _VISTA_H))
+    L.append("\\fill[skyfill] (0,0) rectangle (%.2f,%.2f);" % (_VISTA_W, _VISTA_H))
+
+    # ---- ground: fill below the horizon (directions with world-y = 0) ----
+    horiz = []
+    for t in range(0, 360, 2):
+        d = (math.cos(math.radians(t)), 0.0, math.sin(math.radians(t)))
+        p = proj([eye[0] + 4000*d[0], eye[1], eye[2] + 4000*d[2]])
+        c = canv(p, lim=3.0)
+        if c:
+            horiz.append(c)
+    if horiz:
+        horiz.sort(key=lambda c: c[0])
+        hline = [(max(0, min(_VISTA_W, x)), y) for x, y in horiz]
+        ground = [(0.0, 0.0)] + hline + [(_VISTA_W, 0.0)]
+        L.append("\\fill[groundfill] %s -- cycle;"
+                 % " -- ".join("(%.3f,%.3f)" % p for p in ground))
+        band = hline + [(x, y - 0.55) for x, y in reversed(hline)]
+        L.append("\\fill[groundglow] %s -- cycle;"
+                 % " -- ".join("(%.3f,%.3f)" % p for p in band))
+
+    # ---- sky: spin the sphere so Orion + the Triangle stand over the row ----
+    sky_ref = sky_ex.get("quipu_ref")
+    star_lines, star_dots, star_labels = [], [], []
+    chosen_lst, wt_seen, ori_seen = None, 0, 0
+    if sky_ref:
+        h, b = _split_concat(fetcher(sky_ref))
+        cel = read_celestial_quipu(h, b)
+        pts = cel.get("points", [])
+        groups = cel.get("groups", [])
+        Rx = _rx(-math.radians(90.0 - lat))
+        unit = [_radec_xyz(p["ra"], p["dec"], 1.0) for p in pts]
+
+        gi_of = {g.get("name"): g for g in groups}
+        wt_idx = gi_of.get("Winter Triangle", {}).get("point_indices", [])
+        ori_idx = gi_of.get("Orion", {}).get("point_indices", [])
+        key_idx = wt_idx + ori_idx
+
+        def ndc_at(lst_deg):
+            Ry = _ry(math.radians(lst_deg))
+            out = []
+            for u0 in unit:
+                d = _mat_vec(Rx, _mat_vec(Ry, u0))
+                if d[1] <= 0.015:                   # below the horizon
+                    out.append(None); continue
+                out.append(proj([eye[0] + 3000*d[0], eye[1] + 3000*d[1],
+                                 eye[2] + 3000*d[2]]))
+            return out
+
+        def _in(p, m=0.93):
+            return p is not None and abs(p[0]) <= m and abs(p[1]) <= m
+
+        best = None
+        for lst in range(0, 360):
+            nd = ndc_at(lst)
+            wt_in = sum(1 for i in wt_idx if _in(nd[i]))
+            kin = sum(1 for i in key_idx if _in(nd[i]))
+            kv = [nd[i] for i in key_idx if _in(nd[i])]
+            if not kv:
+                continue
+            cx = sum(p[0] for p in kv) / len(kv)
+            cy = sum(p[1] for p in kv) / len(kv)
+            off = -((cx - wt_aim[0])**2 + (cy - wt_aim[1])**2)
+            nall = sum(1 for p in nd if _in(p, 1.0))
+            score = (wt_in, kin, off, nall)     # the Triangle is never sacrificed
+            if best is None or score > best[0]:
+                best = (score, lst, nd)
+        if best:
+            (_, chosen_lst, nd) = best
+            cv = [canv(p, lim=1.05) for p in nd]
+            wt_seen = sum(1 for i in wt_idx if cv[i])
+            ori_seen = sum(1 for i in ori_idx if cv[i])
+            for g in groups:
+                name = g.get("name", "")
+                main = name in ("Orion", "Winter Triangle")
+                for a, b2 in g.get("lines", []):
+                    if a < len(cv) and b2 < len(cv) and cv[a] and cv[b2]:
+                        sty = ("wtline" if name == "Winter Triangle"
+                               else ("oriline" if name == "Orion" else "skyline"))
+                        star_lines.append("\\draw[%s] (%.3f,%.3f) -- (%.3f,%.3f);"
+                                          % (sty, cv[a][0], cv[a][1],
+                                             cv[b2][0], cv[b2][1]))
+                for i in g.get("point_indices", []):
+                    if i < len(cv) and cv[i]:
+                        r = 0.085 if (i in wt_idx) else (0.062 if main else 0.038)
+                        col = "wtgold" if i in wt_idx else ("oric" if main else "star")
+                        star_dots.append("\\fill[%s] (%.3f,%.3f) circle (%.3f);"
+                                         % (col, cv[i][0], cv[i][1], r))
+            # name the three Triangle corners + Rigel; label Orion
+            names = {p["name"]: i for i, p in enumerate(pts)}
+            for nm in ("Sirius", "Betelgeuse", "Procyon", "Rigel"):
+                i = names.get(nm)
+                if i is not None and i < len(cv) and cv[i]:
+                    star_labels.append("\\node[starname] at (%.3f,%.3f) {%s};"
+                                       % (cv[i][0] + 0.14, cv[i][1] - 0.05,
+                                          _tex_escape(nm)))
+            ovis = [cv[i] for i in ori_idx if cv[i]]
+            if len(ovis) >= 5:
+                ox = sum(p[0] for p in ovis)/len(ovis)
+                oy = max(p[1] for p in ovis) + 0.30
+                star_labels.append("\\node[skylabelbig,text=oric] at (%.3f,%.3f) "
+                                   "{Orion};" % (ox, oy))
+    L += star_lines + star_dots + star_labels
+
+    # ---- the grave row: photo quads in true perspective ----
+    quads = []
+    for n in nodes:
+        ex = n.get("extras", {})
+        if ex.get("object_kind") != "plane":
+            continue
+        T = n.get("translation", [0, 0, 0])
+        S = n.get("scale", [1, 1, 1])
+        M = _quat_to_matrix(n.get("rotation", [0, 0, 0, 1]))
+        hw, hh = S[0]/2.0, S[1]/2.0
+        local = [(-hw, -hh, 0), (hw, -hh, 0), (hw, hh, 0), (-hw, hh, 0)]
+        world = []
+        for lx, ly, lz in local:
+            wp = _mat_vec(M, [lx, ly, lz])
+            world.append([wp[0]+T[0], wp[1]+T[1], wp[2]+T[2]])
+        cc = [canv(proj(w), lim=1.6) for w in world]
+        if not all(cc):
+            continue
+        depth = sum((w[0]-eye[0])**2 + (w[1]-eye[1])**2 + (w[2]-eye[2])**2
+                    for w in world) / 4.0
+        quads.append({"label": ex.get("label", ""), "ref": ex.get("quipu_ref"),
+                      "cm": cc, "depth": depth, "wx": T[0], "ws": S[0]})
+    quads.sort(key=lambda q: -q["depth"])           # far first
+
+    captions = []
+    for qd in quads:
+        cm = qd["cm"]
+        cx = sum(p[0] for p in cm)/4.0; cy = sum(p[1] for p in cm)/4.0
+        frame = [(cx + (p[0]-cx)*1.10, cy + (p[1]-cy)*1.10) for p in cm]
+        L.append("\\fill[frame] %s -- cycle;"
+                 % " -- ".join("(%.3f,%.3f)" % p for p in frame))
+        png = None
+        if qd["ref"] and figdir:
+            try:
+                src = P.target_to_png(qd["ref"], fetcher, figdir)
+                if src:
+                    wname = "vista_%s.png" % qd["ref"][:12]
+                    box = _warp_photo(os.path.join(figdir, src), cm,
+                                      os.path.join(figdir, wname))
+                    L.append("\\node[anchor=south west,inner sep=0] at (%.3f,%.3f)"
+                             " {\\includegraphics[width=%.3fcm,height=%.3fcm]"
+                             "{figures/%s}};"
+                             % (box[0], box[1], box[2], box[3], wname[:-4]))
+                    png = wname
+            except Exception as e:                   # noqa: BLE001
+                P._logwarn("vista/photo", e, txid=str(qd["ref"]))
+        if not png:
+            L.append("\\fill[platefill] %s -- cycle;"
+                     % " -- ".join("(%.3f,%.3f)" % p for p in cm))
+        L.append("\\draw[frameedge] %s -- cycle;"
+                 % " -- ".join("(%.3f,%.3f)" % p for p in frame))
+        captions.append({"x": cx, "ybase": min(p[1] for p in frame) - 0.16,
+                         "w": qd["ws"],          # WORLD width: the grave's main photo
+                         "wx": qd["wx"], "text": _short_label(qd["label"])})
+
+    # one caption per grave cluster (cluster by WORLD x, the triptych is one)
+    captions.sort(key=lambda c: c["wx"])
+    clusters, cur = [], []
+    for c in captions:
+        if cur and abs(c["wx"] - cur[-1]["wx"]) < 1.5:
+            cur.append(c)
+        else:
+            if cur:
+                clusters.append(cur)
+            cur = [c]
+    if cur:
+        clusters.append(cur)
+    for cl in clusters:
+        keep = max(cl, key=lambda c: c["w"])
+        L.append("\\node[platecaption] at (%.3f,%.3f) {%s};"
+                 % (keep["x"], keep["ybase"], _tex_escape(keep["text"])))
+
+    meta = {"camera": list(eye), "fov_deg": fov_deg, "sky": sky_ref,
+            "lst": chosen_lst, "wt_in_frame": wt_seen, "orion_in_frame": ori_seen,
+            "quads_drawn": len(quads)}
+    return "\n".join(L), meta
+
+
+# ----------------------------------------------------------------------
 # TikZ emission
 # ----------------------------------------------------------------------
 
@@ -592,6 +857,8 @@ def scene_tikz_body(txid, fetcher, *, mode="wire", figdir=None):
         return skyward_tikz_body(txid, fetcher)
     if mode == "dome":
         return dome_tikz_body(txid, fetcher)
+    if mode == "vista":
+        return vista_tikz_body(txid, fetcher, figdir=figdir)
     blob = fetcher(txid)
     bs = blob.find(b"|{", 6)
     gltf = json.loads(blob[bs + 1:].decode("utf-8"))
@@ -716,6 +983,8 @@ _DOC = r"""\documentclass[tikz,border=4mm]{standalone}
 \definecolor{wtgold}{HTML}{c2a76b}
 \definecolor{domegridc}{HTML}{4a5a82}
 \definecolor{gravec}{HTML}{3b3a36}
+\definecolor{oric}{HTML}{9fb4e8}
+\definecolor{groundglow}{HTML}{201a10}
 \definecolor{graveedgec}{HTML}{8a8780}
 \definecolor{captionc}{HTML}{e8dcc0}
 \tikzset{
@@ -729,6 +998,7 @@ _DOC = r"""\documentclass[tikz,border=4mm]{standalone}
   starname/.style={font=\sffamily\fontsize{6.5}{8}\selectfont,color=star,
                    opacity=0.85,anchor=west},
   domegrid/.style={draw=domegridc,line width=0.35pt,opacity=0.55},
+  oriline/.style={draw=oric,line width=0.55pt,opacity=0.9},
   grave/.style={fill=gravec,draw=none},
   graveedge/.style={draw=graveedgec,line width=0.5pt},
   gravelabel/.style={font=\sffamily\fontsize{6.5}{8}\selectfont,color=star,
@@ -761,7 +1031,7 @@ def scene_to_png(txid, fetcher, figdir, *, mode="photo"):
     figures/ points at figdir, and the PDF is rasterised to PNG."""
     import subprocess, tempfile, shutil
     os.makedirs(figdir, exist_ok=True)
-    base = f"scene_{txid[:12]}_v{getattr(P, '_FIGURE_CACHE_VERSION', 0)}.png"
+    base = f"scene_{txid[:12]}_{mode}_v{getattr(P, '_FIGURE_CACHE_VERSION', 0)}.png"
     out = os.path.join(figdir, base)
     if os.path.exists(out):
         return base
@@ -809,7 +1079,7 @@ def _main(argv):
     os.makedirs(figdir, exist_ok=True)
     fetcher = P.chained_fetcher()
     tex, meta = build_plate_tex(txid, fetcher, mode=mode, figdir=figdir)
-    print("camera:", meta["camera"], "fov:", meta["fov_deg"], "sky:", meta["sky"])
+    print("meta:", {k: (v[:16] if isinstance(v, str) else v) for k, v in meta.items()})
     with open(os.path.join(work, "scene_plate.tex"), "w", encoding="utf-8") as f:
         f.write(tex)
     r = subprocess.run(["xelatex", "-interaction=nonstopmode", "-halt-on-error",

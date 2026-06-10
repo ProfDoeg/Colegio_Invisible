@@ -103,3 +103,34 @@ def test_annotation_modes_emit_and_compile(tmp_path):
 
     pdf = P.compile_tex(tex, str(tmp_path / "build"), figdir=figdir)
     assert os.path.getsize(pdf) > 10_000, "suspiciously small PDF"
+
+
+CEMETERY = "1f63558bdee2f5ead118083ff0af0d5e266acaf347938c5ed2722b6ced1248e3"
+
+
+def test_scene_vista_composes_and_compiles(tmp_path):
+    """The vista plate's contract: from the on-chain cemetery scene, one
+    rectilinear view holds the full Winter Triangle (all 3 stars), all 10
+    Orion stars, and all 5 photo quads — and the TikZ compiles. Guards the
+    composition that was tuned by eye from regressing geometrically."""
+    import colegio_pipeline as P
+    body_file = os.path.join(REPO, "data", "bodies", CEMETERY + ".bin")
+    if not os.path.exists(body_file):
+        pytest.skip("cemetery scene body not in data/bodies")
+    import scene_to_tikz as S
+
+    figdir = str(tmp_path / "figures")
+    os.makedirs(figdir, exist_ok=True)
+    tex, meta = S.build_plate_tex(CEMETERY, P.chained_fetcher(),
+                                  mode="vista", figdir=figdir)
+    assert meta["wt_in_frame"] == 3, "Winter Triangle incomplete in frame"
+    assert meta["orion_in_frame"] == 10, "Orion incomplete in frame"
+    assert meta["quads_drawn"] == 5, "a photo quad fell out of frame"
+    assert tex.count("includegraphics") >= 5, "photos missing from the plate"
+
+    work = tmp_path / "build"
+    work.mkdir()
+    (work / "scene.tex").write_text(tex, encoding="utf-8")
+    shutil.copytree(figdir, work / "figures")
+    pages = _xelatex("scene.tex", str(work), passes=1)
+    assert pages == 1
