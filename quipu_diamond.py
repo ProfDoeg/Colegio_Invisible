@@ -148,7 +148,7 @@ def _measure_tx_size(n_in, n_out, priv, address, dogecs):
 def build_consolidated_diamond(pieces, placeholder_of, utxo, priv, address,
                                fee_policy=None, cap=STRAND_CAP,
                                extra_placeholders=None, tags_of=None,
-                               declared_ok=None, log=print):
+                               declared_ok=None, known_txids=None, log=print):
     """Build + sign a consolidated diamond. Deterministic; broadcasts nothing.
 
     pieces            ordered list of (pid, full_quipu_blob_bytes). Order fixes
@@ -290,10 +290,14 @@ def build_consolidated_diamond(pieces, placeholder_of, utxo, priv, address,
     # of this diamond, a known txid, or explicitly declared via
     # `declared_ok` (hash certs carry non-txid SHA256s; 0xab alias
     # left-hand names dangle by design). See quipu_preflight.py.
-    from quipu_preflight import check_refs_resolve
+    from quipu_preflight import check_refs_resolve, default_known_txids
+    known = default_known_txids()
+    if known_txids:
+        known |= {t.lower() for t in known_txids}
     ref_failures = check_refs_resolve(
         {pid: q["blob2"] for pid, q in quip.items()},
-        list(root_txid.values()), declared_ok=declared_ok or ())
+        list(root_txid.values()), declared_ok=declared_ok or (),
+        known_txids=known)
     if ref_failures:
         raise ValueError("unresolved references in final bodies:\n  "
                          + "\n  ".join(ref_failures))
@@ -390,7 +394,8 @@ def _wait_confirmed(txid, label, log, poll=15, max_wait=2400):
 
 
 def broadcast_consolidated_diamond(artifacts_dir, log=print, strand_workers=16,
-                                   declared_ok=(), skip_preflight=False):
+                                   declared_ok=(), known_txids=None,
+                                   skip_preflight=False):
     """Weave a built diamond onto chain from artifacts_dir. Keyless, idempotent,
     resumable — re-running only (re)sends what the node has forgotten.
 
@@ -405,7 +410,7 @@ def broadcast_consolidated_diamond(artifacts_dir, log=print, strand_workers=16,
         log("!! PREFLIGHT SKIPPED — the chain will hold whatever this is")
     else:
         from quipu_preflight import preflight
-        preflight(d, declared_ok=declared_ok, log=log)
+        preflight(d, declared_ok=declared_ok, known_txids=known_txids, log=log)
     idx = json.load(open(os.path.join(d, "index.json")))
     order = [p["pid"] for p in idx["pieces"]]
     rd = lambda f: open(os.path.join(d, f)).read().strip()
