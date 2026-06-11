@@ -801,37 +801,39 @@ def fetch_quipu_bytes(txid, max_walk=64):
 
 
 def identify_quipus(df_transactions, df_outputs):
-    """Return txids shaped like quipu roots: no OP_RETURN of their own,
-    ≥2 outputs, and output :0 spent by an in-frame tx that carries an
-    OP_RETURN (i.e. a strand actually hangs off them).
+    """Return quipu-root txids. The criterion (per the author):
 
-    This is the same root shape fetch_quipu_bytes recognizes. Two earlier
-    criteria proved wrong in turn:
+        a root transaction carries no OP_RETURN of its own, and the
+        spend of its 0th output carries the c1dd magic.
+
+    Output :0 starts the cabeza strand, so its spender's OP_RETURN is the
+    first header knot — the magic bytes themselves. Nothing else in a
+    wallet's graph has this shape: knots carry their own OP_RETURN,
+    splitters/joins feed txs without one, and mid-strand knots never
+    spend a :0 that begins a header.
+
+    Two earlier criteria proved wrong in turn:
       - "every output spent by a tx with an OP_RETURN" — rejects 2022-era
         roots (e.g. the 1ec0… certificate node), whose change outputs are
         spent by ordinary txs;
       - "every output spent by an in-frame tx" — rejects any root with a
         tag output (quipu_tags vout≥1 convention), where UNSPENT is the
         steady state meaning 'current edition' (the 34316f64… healing
-        catalog was invisible under this rule).
-    A readable quipu necessarily satisfies the present rule: its header
-    walk starts at :0 and needs an OP_RETURN on the first hop. Non-quipus
-    that slip through are cheaply skipped downstream by the magic check."""
+        catalog was invisible under this rule)."""
     idx = outputs_walk_index(df_outputs)
     if "op_return" in df_transactions.columns:
         own_op = df_transactions["op_return"].fillna("").to_numpy()
     else:
         own_op = [""] * len(df_transactions)
     results = []
-    for txid, num_outputs, op in zip(df_transactions["txid"].to_numpy(),
-                                     df_transactions["num_outputs"].to_numpy(),
-                                     own_op):
-        if op or num_outputs < 2:
+    for txid, op in zip(df_transactions["txid"].to_numpy(), own_op):
+        if op:
             continue
         hit = idx["txout"].get(f"{txid}:0")
         if hit is None or not hit[0]:
             continue
-        if idx["txid_op"].get(hit[0]):
+        spender_op = idx["txid_op"].get(hit[0]) or ""
+        if spender_op.startswith("c1dd"):
             results.append(txid)
     return results
 
