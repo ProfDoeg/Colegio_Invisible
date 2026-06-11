@@ -108,13 +108,56 @@ def _pipe_header_body_offset(blob):
 
 
 def _image_header_body_offset(blob):
-    """0x03: 12 structural bytes + optional |title|; body is pixels."""
+    """0x03: 12 structural bytes + optional title region; body is pixels.
+
+    The exact boundary comes from the structural dims — pixel-body length
+    is fully determined by W·H·channels·bit_depth — which handles every
+    title form at once: |title|, bare title (May 2026 lenient relaxation,
+    image.md "Title region"), |title|<padding>, and the | |title| |
+    double-wrap (a first-pipe-pair split truncates the latter two; the
+    reader's lenient field scan then handles whatever sits in 12..off).
+    The pipe scan remains only as a fallback for non-canonical dims."""
+    color = blob[6]
+    if color in (0x00, 0x01):
+        W = (blob[7] << 8) | blob[8]
+        H = (blob[9] << 8) | blob[10]
+        ch = 1 if color == 0x00 else 3
+        expected = (W * H * ch * blob[11] + 7) // 8
+        off = len(blob) - expected
+        if off >= 12:
+            return off
     rest = blob[12:]
     if rest[:1] == b"|":
         j = rest.find(b"|", 1)
         if j != -1:
             return 12 + j + 1
     return 12
+
+
+def _encrypted_header_body_offset(blob):
+    """0x0e: 8 structural bytes + optional pipe header fields (outer title,
+    centinela descriptor…), then binary ciphertext as the body. The reader
+    expects the pipe fields INSIDE the header. Header fields are UTF-8
+    text, ciphertext is not — scan fields while they decode cleanly; the
+    first non-text 'field' is ciphertext and ends the header."""
+    if blob[8:9] != b"|":
+        return 8
+    off = 8
+    pos = 9
+    while pos < len(blob) and pos - 8 <= 4096:
+        close = blob.find(b"|", pos)
+        if close < 0:
+            break
+        field = blob[pos:close]
+        if b"\n" in field:
+            break
+        try:
+            field.decode("utf-8")
+        except UnicodeDecodeError:
+            break
+        off = close + 1
+        pos = close + 1
+    return off
 
 
 def split_blob(blob):
@@ -126,6 +169,10 @@ def split_blob(blob):
         return _split_concat(blob)
     elif t == 0x09:
         off = _find_body_start(blob)
+    elif t == 0xCC:             # cert: 8 structural bytes (magic+type+tone+subtype);
+        off = 8                 # the |…| fields belong to the BODY per read_cert
+    elif t == 0x0E:
+        off = _encrypted_header_body_offset(blob)
     else:                       # 0x00 text, 0x01 essay, 0x5c latex, 0xab binding
         off = _pipe_header_body_offset(blob)
     return blob[:off], blob[off:]

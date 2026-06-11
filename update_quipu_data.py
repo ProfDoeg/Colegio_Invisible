@@ -15,11 +15,18 @@ Run after new inscriptions land on chain:
 
 (No prior-dataset archiving — this overwrites quipu_data.csv directly; it
 keeps only the cheap body/CSV coherence check, which needs no archive.)
+
+Confirmed raw transactions are cached in data/cache/rawtx.jsonl as they
+are fetched, so a killed run resumes its fetch phase almost for free.
+Unconfirmed (mempool) txs are never cached. Delete the cache file to
+force a cold refetch (e.g. after a deep reorg, which at our depths is
+theoretical).
 """
 import os
 import sys
 import json
 import re
+import time
 import pandas as pd
 from collections import Counter
 
@@ -27,11 +34,22 @@ REPO = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, REPO)
 sys.path.insert(0, os.path.join(REPO, "canonical"))
 
-from colegio_tools import rpc_request, extract_op_return, identify_quipus, read_quipu
+from colegio_tools import (rpc_request, extract_op_return, identify_quipus,
+                           read_quipu, outputs_walk_index)
 from tone import TONES as TONE_NAMES, VALID_TONES
 
 DATA_DIR = os.path.join(REPO, "data")
 BODIES_DIR = os.path.join(DATA_DIR, "bodies")
+CACHE_DIR = os.path.join(DATA_DIR, "cache")
+RAWTX_CACHE = os.path.join(CACHE_DIR, "rawtx.jsonl")
+
+_T0 = time.time()
+
+
+def log(*args):
+    """Timestamped, flushed — visible the moment it happens, even through
+    a pipe. The killed 2026-06-10 run taught us why."""
+    print(f"[{time.time() - _T0:7.1f}s]", *args, flush=True)
 
 ADDRESSES = {
     "9xth7DcLGb1nACScMBeSfDCfghhLKF7yqs": "bordado",
@@ -145,18 +163,32 @@ def parse_dims(blob):
     return {}, "", 0
 
 
+def _clean_title(title):
+    """Lenient-title hygiene at the dataset boundary: cut at the first
+    replacement char (decode damage) or control char (binary spill — the
+    pre-redesign celestial 4e53bb26… puts packed star data where v1 keeps
+    its title length). Newlines/tabs are legitimate (Paco's epitaph)."""
+    out = []
+    for c in title:
+        if c == "�" or (ord(c) < 0x20 and c not in "\n\t"):
+            break
+        out.append(c)
+    return "".join(out).strip()
+
+
 def find_join_txid(root_txid, df_outputs):
     """Walk every strand to its terminus; return the tx that spends them all."""
+    idx = outputs_walk_index(df_outputs)["txout"]
     termini_spenders = []
     n = 0
     while True:
         cur = f"{root_txid}:{n}"
         last_spender = None
-        for _ in range(50):
-            rows = df_outputs[df_outputs["txout"] == cur]
-            if rows.empty:
+        for _ in range(50000):
+            hit = idx.get(cur)
+            if hit is None:
                 break
-            sp = rows.iloc[0]["spent_in"]
+            sp = hit[0]
             if not sp:
                 break
             last_spender = sp
@@ -217,77 +249,122 @@ STRICT_CHECKS = {
 
 
 # ---------- pipeline steps ----------
-def scan():
-    """Pull wallet events, fetch raw txs, build df_transactions + df_outputs."""
-    print(f"tip: {rpc_request('getblockcount')}")
-    print("pulling wallet events…")
-    all_events = rpc_request("listtransactions", ["*", 200000, 0, True])
-    all_txids = {e["txid"] for e in all_events if e.get("address") in ADDRESSES}
-    print(f"  {len(all_events)} events -> {len(all_txids)} unique txids")
+def _load_rawtx_cache():
+    """{txid: detailed-record} from prior runs. Tolerates a torn final line
+    (the run that wrote it may have been killed mid-append)."""
+    cache = {}
+    if os.path.exists(RAWTX_CACHE):
+        with open(RAWTX_CACHE) as f:
+            for line in f:
+                try:
+                    rec = json.loads(line)
+                    cache[rec["txid"]] = rec
+                except (json.JSONDecodeError, KeyError):
+                    continue
+    return cache
 
-    print(f"fetching {len(all_txids)} raw txs…")
-    detailed = []
+
+def scan():
+    """Pull wallet events, fetch raw txs (cache-aware), build
+    df_transactions + df_outputs."""
+    log(f"PHASE scan · tip: {rpc_request('getblockcount')}")
+    log("pulling wallet events…")
+    # Page until a short page: a fixed window silently truncates the OLDEST
+    # events once the wallet outgrows it — exactly how the 2022 strand txs
+    # vanished from the 2026-06-10 run (200000 events on the nose).
+    all_events = []
+    PAGE = 100000
+    skip = 0
+    while True:
+        page = rpc_request("listtransactions", ["*", PAGE, skip, True])
+        all_events.extend(page)
+        log(f"  page at skip={skip}: {len(page)} events")
+        if len(page) < PAGE:
+            break
+        skip += PAGE
+    all_txids = {e["txid"] for e in all_events if e.get("address") in ADDRESSES}
+    log(f"  {len(all_events)} events -> {len(all_txids)} unique txids")
+
+    cache = _load_rawtx_cache()
+    detailed = [cache[t] for t in all_txids if t in cache]
+    to_fetch = sorted(all_txids - set(cache))
+    log(f"  {len(detailed)} from cache · {len(to_fetch)} to fetch via RPC")
+
+    os.makedirs(CACHE_DIR, exist_ok=True)
     bh_cache = {}
-    for i, txid in enumerate(all_txids):
-        try:
-            raw = rpc_request("getrawtransaction", [txid, 1])
-        except Exception as e:
-            print(f"  skip {txid[:12]}…: {e}")
-            continue
-        bh = raw.get("blockhash")
-        if bh and bh in bh_cache:
-            height = bh_cache[bh]
-        elif bh:
-            height = rpc_request("getblock", [bh])["height"]
-            bh_cache[bh] = height
-        else:
-            height = None
-        op_ret = None
-        for v in raw.get("vout", []):
-            d = extract_op_return(v)
-            if d:
-                op_ret = d
-                break
-        detailed.append({
-            "txid": txid, "blockhash": bh, "blockheight": height,
-            "blocktime": raw.get("blocktime"),
-            "inputs": [f"{vin['txid']}:{vin['vout']}" for vin in raw.get("vin", []) if "txid" in vin],
-            "values": [v["value"] for v in raw.get("vout", [])],
-            "num_inputs": len(raw.get("vin", [])), "num_outputs": len(raw.get("vout", [])),
-            "op_return": op_ret,
-        })
-        if (i + 1) % 5000 == 0:
-            print(f"  {i + 1} / {len(all_txids)}")
+    t_phase = time.time()
+    with open(RAWTX_CACHE, "a") as cache_f:
+        for i, txid in enumerate(to_fetch):
+            try:
+                raw = rpc_request("getrawtransaction", [txid, 1])
+            except Exception as e:
+                log(f"  skip {txid[:12]}…: {e}")
+                continue
+            bh = raw.get("blockhash")
+            if bh and bh in bh_cache:
+                height = bh_cache[bh]
+            elif bh:
+                height = rpc_request("getblock", [bh])["height"]
+                bh_cache[bh] = height
+            else:
+                height = None
+            op_ret = None
+            for v in raw.get("vout", []):
+                d = extract_op_return(v)
+                if d:
+                    op_ret = d
+                    break
+            rec = {
+                "txid": txid, "blockhash": bh, "blockheight": height,
+                "blocktime": raw.get("blocktime"),
+                "inputs": [f"{vin['txid']}:{vin['vout']}" for vin in raw.get("vin", []) if "txid" in vin],
+                "values": [v["value"] for v in raw.get("vout", [])],
+                "num_inputs": len(raw.get("vin", [])), "num_outputs": len(raw.get("vout", [])),
+                "op_return": op_ret,
+            }
+            detailed.append(rec)
+            if height is not None:        # never cache unconfirmed txs
+                cache_f.write(json.dumps(rec) + "\n")
+            if (i + 1) % 2000 == 0:
+                cache_f.flush()
+                rate = (i + 1) / max(time.time() - t_phase, 1e-9)
+                log(f"  fetched {i + 1} / {len(to_fetch)}  ({rate:.0f} tx/s)")
 
     df_tx = pd.DataFrame(detailed).sort_values(["blockheight", "blocktime"]).reset_index(drop=True)
 
+    log("building outputs frame…")
     rows = []
-    for _, tx in df_tx.iterrows():
-        for n in range(tx["num_outputs"]):
+    for txid, num_outputs, values, op_ret, bh, bt in zip(
+            df_tx["txid"], df_tx["num_outputs"], df_tx["values"],
+            df_tx["op_return"], df_tx["blockheight"], df_tx["blocktime"]):
+        for n in range(num_outputs):
             rows.append({
-                "txout": f"{tx['txid']}:{n}", "spent_in": None,
-                "value": tx["values"][n] if n < len(tx["values"]) else None,
-                "op_return": tx["op_return"], "blockheight": tx["blockheight"],
-                "blocktime": tx["blocktime"], "txid": tx["txid"], "n": n,
+                "txout": f"{txid}:{n}", "spent_in": None,
+                "value": values[n] if n < len(values) else None,
+                "op_return": op_ret, "blockheight": bh,
+                "blocktime": bt, "txid": txid, "n": n,
             })
     df_out = pd.DataFrame(rows)
-    txout_to_idx = {row["txout"]: idx for idx, row in df_out.iterrows()}
-    for _, tx in df_tx.iterrows():
-        for inp in tx["inputs"]:
+    txout_to_idx = {txout: idx for idx, txout in enumerate(df_out["txout"])}
+    spent_col = df_out["spent_in"].to_numpy(dtype=object)
+    for txid, inputs in zip(df_tx["txid"], df_tx["inputs"]):
+        for inp in inputs:
             idx = txout_to_idx.get(inp)
             if idx is not None:
-                df_out.at[idx, "spent_in"] = tx["txid"]
+                spent_col[idx] = txid
+    df_out["spent_in"] = spent_col
     df_out = df_out.sort_values(["blockheight", "blocktime"]).reset_index(drop=True)
     df_out["op_return"] = df_out["op_return"].fillna("")
     df_out["spent_in"] = df_out["spent_in"].fillna("")
-    print(f"df_transactions: {len(df_tx)} rows · df_outputs: {len(df_out)} rows")
+    log(f"df_transactions: {len(df_tx)} rows · df_outputs: {len(df_out)} rows")
     return df_tx, df_out
 
 
 def extract(df_tx, df_out):
     """Identify roots, walk each, parse header, write bodies -> df_quipus."""
+    log("PHASE extract · identifying quipu root candidates…")
     roots = identify_quipus(df_tx, df_out)
-    print(f"{len(roots)} quipu root candidates")
+    log(f"{len(roots)} quipu root candidates")
 
     addr_per_root = {}
     for root in roots:
@@ -299,7 +376,9 @@ def extract(df_tx, df_out):
         addr_per_root[root] = addr
 
     rows, skipped = [], []
-    for root in roots:
+    for ri, root in enumerate(roots):
+        if ri and ri % 25 == 0:
+            log(f"  walked {ri} / {len(roots)} candidates")
         try:
             hh, bh = read_quipu(root, df_outputs=df_out)
         except Exception as e:
@@ -333,17 +412,18 @@ def extract(df_tx, df_out):
             "address": addr or "", "label": ADDRESSES.get(addr, "(unknown)"),
             "type_byte": f"0x{t:02x}", "type_name": TYPE_NAMES.get(t, f"unknown_0x{t:02x}"),
             "tone": f"0x{tone:02x}", "tone_name": TONE_NAMES.get(tone, f"unknown_0x{tone:02x}"),
-            "title": title, "dimensions_json": json.dumps(dims, sort_keys=True),
+            "title": _clean_title(title), "dimensions_json": json.dumps(dims, sort_keys=True),
             "total_bytes": len(blob), "blockheight": blockheight, "blocktime": blocktime,
             "body_file": f"bodies/{root}.bin", "notes": notes,
         })
 
     df_q = pd.DataFrame(rows).sort_values(["blockheight", "root_txid"]).reset_index(drop=True)
-    print(f"{len(df_q)} canonical inscriptions extracted · {len(skipped)} heuristic false positives skipped")
+    log(f"{len(df_q)} canonical inscriptions extracted · {len(skipped)} heuristic false positives skipped")
     return df_q
 
 
 def tag_status(df_q):
+    log("PHASE tag_status")
     statuses = []
     for _, row in df_q.iterrows():
         tname = row["type_name"]
@@ -358,15 +438,16 @@ def tag_status(df_q):
         statuses.append("canonical_v1" if STRICT_CHECKS[tname](blob) else "pre_canonical")
     df_q["canonical_status"] = statuses
     for k, v in Counter(statuses).most_common():
-        print(f"  {k:25s} {v}")
+        log(f"  {k:25s} {v}")
     return df_q
 
 
 def save(df_q, df_tx):
     """Write quipu_data.csv (overwrite) + tx_inputs.csv; coherence-check bodies."""
+    log("PHASE save")
     csv_path = os.path.join(DATA_DIR, "quipu_data.csv")
     df_q.to_csv(csv_path, index=False)
-    print(f"wrote {csv_path} ({os.path.getsize(csv_path)} bytes)")
+    log(f"wrote {csv_path} ({os.path.getsize(csv_path)} bytes)")
 
     body_files = [f for f in os.listdir(BODIES_DIR) if f.endswith(".bin")]
     csv_bodies = {os.path.basename(p) for p in df_q["body_file"].dropna()}
@@ -374,21 +455,22 @@ def save(df_q, df_tx):
     missing = sorted(csv_bodies - disk_bodies)
     orphan = sorted(disk_bodies - csv_bodies)
     if missing:
-        print(f"  [coherence] {len(missing)} CSV rows with no body file:", [b[:16] for b in missing[:8]])
+        log(f"  [coherence] {len(missing)} CSV rows with no body file:", [b[:16] for b in missing[:8]])
     if orphan:
-        print(f"  [coherence] {len(orphan)} body files with no CSV row:", [b[:16] for b in orphan[:8]])
+        log(f"  [coherence] {len(orphan)} body files with no CSV row:", [b[:16] for b in orphan[:8]])
     if not (missing or orphan):
-        print("  [coherence] CSV rows and body files match exactly")
+        log("  [coherence] CSV rows and body files match exactly")
 
     slim = df_tx[["txid", "inputs"]].copy()
     slim["inputs"] = slim["inputs"].apply(json.dumps)
     slim_path = os.path.join(DATA_DIR, "tx_inputs.csv")
     slim.to_csv(slim_path, index=False)
-    print(f"wrote {slim_path} ({len(slim)} txs)")
+    log(f"wrote {slim_path} ({len(slim)} txs)")
 
 
 def build_edges(df_q, df_tx):
     """Funding / keydrop / citation edges -> quipu_edges.csv."""
+    log("PHASE build_edges")
     from encrypted import read_encrypted_quipu
     from scene import read_scene_quipu, scene_quipu_refs
 
@@ -440,7 +522,7 @@ def build_edges(df_q, df_tx):
         try:
             parsed = read_encrypted_quipu(blob[:8], blob[8:])
         except Exception as e:
-            print(f"  keydrop parse failed for {q['root_txid'][:8]}…: {e}")
+            log(f"  keydrop parse failed for {q['root_txid'][:8]}…: {e}")
             continue
         for d in parsed.get("drops", []):
             if d.get("ref_txid") in all_roots:
@@ -493,7 +575,7 @@ def build_edges(df_q, df_tx):
         try:
             parsed = read_scene_quipu(blob[:body_start + 1], blob[body_start + 1:])
         except Exception as e:
-            print(f"  scene parse failed for {q['root_txid'][:8]}…: {e}")
+            log(f"  scene parse failed for {q['root_txid'][:8]}…: {e}")
             continue
         for _node_idx, ref_kind, ref in scene_quipu_refs(parsed):
             ref_lo = ref.lower()
@@ -508,7 +590,7 @@ def build_edges(df_q, df_tx):
 
     df_edges = pd.DataFrame(funding + keydrop + citation)
     df_edges.to_csv(os.path.join(DATA_DIR, "quipu_edges.csv"), index=False)
-    print(f"{len(funding)} funding · {len(keydrop)} keydrop · {len(citation)} citation -> quipu_edges.csv")
+    log(f"{len(funding)} funding · {len(keydrop)} keydrop · {len(citation)} citation -> quipu_edges.csv")
 
 
 def main():
@@ -518,7 +600,7 @@ def main():
     df_q = tag_status(df_q)
     save(df_q, df_tx)
     build_edges(df_q, df_tx)
-    print("done.")
+    log("done.")
 
 
 if __name__ == "__main__":

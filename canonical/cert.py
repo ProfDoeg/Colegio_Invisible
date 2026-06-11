@@ -585,6 +585,9 @@ def read_cert(header_bytes, body_bytes):
         parsed["hash_algo"]   = m.group(1).strip()
         parsed["hash_hex"]    = m.group(2)
         parsed["pipe_fields"] = [parsed["hash_algo"], parsed["hash_hex"]]
+        # the first pipe field doubles as the title slot — AUGURY reads the
+        # 1ec0… node as 'the header title reads |SHA256|3370…1ba0'
+        parsed["title"]       = parsed["hash_algo"]
         rest = body_text[m.end():]
 
     elif subtype == SUBTYPE_ALLINONE:

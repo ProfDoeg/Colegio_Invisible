@@ -647,6 +647,34 @@ def _build_spender_index_rpc(address):
     return spent_map
 
 
+def outputs_walk_index(df_outputs):
+    """O(1) lookup maps for the dataframe walkers, memoized on df.attrs.
+
+    Returns {"txout": {txout -> (spent_in, op_return_of_that_row)},
+             "txid_op": {txid -> op_return}}.
+
+    Built once per dataframe (O(n)) and cached in df.attrs; every walker
+    lookup is then a dict hit instead of a full-frame boolean scan — the
+    difference between minutes and hours once the frame holds ~10^5 rows.
+    The cache is keyed on len(df); if you mutate spent_in/op_return in
+    place WITHOUT changing the row count, delete
+    df.attrs["_quipu_walk_index"] to force a rebuild."""
+    cached = df_outputs.attrs.get("_quipu_walk_index")
+    if cached is not None and cached["n"] == len(df_outputs):
+        return cached
+    txout_map, txid_op = {}, {}
+    for txout, spent_in, op, txid in zip(df_outputs["txout"].to_numpy(),
+                                         df_outputs["spent_in"].to_numpy(),
+                                         df_outputs["op_return"].to_numpy(),
+                                         df_outputs["txid"].to_numpy()):
+        txout_map[txout] = (spent_in, op)
+        if txid not in txid_op:
+            txid_op[txid] = op
+    cached = {"n": len(df_outputs), "txout": txout_map, "txid_op": txid_op}
+    df_outputs.attrs["_quipu_walk_index"] = cached
+    return cached
+
+
 def read_strand(txout, df_outputs=None, spender_map=None):
     """Walk a strand iteratively, collecting OP_RETURN payload bytes along the way.
 
@@ -656,17 +684,18 @@ def read_strand(txout, df_outputs=None, spender_map=None):
         provided; build it once per address with _build_spender_index_rpc.
 
     Returns hex-string of concatenated OP_RETURN payloads (empty if no strand)."""
+    idx = outputs_walk_index(df_outputs) if df_outputs is not None else None
     out = ""
     cur = txout
     while True:
-        if df_outputs is not None:
-            rows = df_outputs[df_outputs["txout"] == cur]
-            if rows.empty: return out
-            spend_tx = rows.iloc[0]["spent_in"]
+        if idx is not None:
+            hit = idx["txout"].get(cur)
+            if hit is None: return out
+            spend_tx = hit[0]
             if not spend_tx: return out
-            spend_rows = df_outputs[df_outputs["txout"] == f"{spend_tx}:0"]
-            if spend_rows.empty: return out
-            op_data = spend_rows.iloc[0]["op_return"]
+            spend_hit = idx["txout"].get(f"{spend_tx}:0")
+            if spend_hit is None: return out
+            op_data = spend_hit[1]
             if not op_data: return out
         else:
             spend_tx = (spender_map or {}).get(cur)
@@ -772,25 +801,37 @@ def fetch_quipu_bytes(txid, max_walk=64):
 
 
 def identify_quipus(df_transactions, df_outputs):
-    """Return txids that look like quipu heads:
-    transactions where every output is subsequently spent in a tx that has
-    an OP_RETURN."""
+    """Return txids shaped like quipu roots: no OP_RETURN of their own,
+    ≥2 outputs, and output :0 spent by an in-frame tx that carries an
+    OP_RETURN (i.e. a strand actually hangs off them).
+
+    This is the same root shape fetch_quipu_bytes recognizes. Two earlier
+    criteria proved wrong in turn:
+      - "every output spent by a tx with an OP_RETURN" — rejects 2022-era
+        roots (e.g. the 1ec0… certificate node), whose change outputs are
+        spent by ordinary txs;
+      - "every output spent by an in-frame tx" — rejects any root with a
+        tag output (quipu_tags vout≥1 convention), where UNSPENT is the
+        steady state meaning 'current edition' (the 34316f64… healing
+        catalog was invisible under this rule).
+    A readable quipu necessarily satisfies the present rule: its header
+    walk starts at :0 and needs an OP_RETURN on the first hop. Non-quipus
+    that slip through are cheaply skipped downstream by the magic check."""
+    idx = outputs_walk_index(df_outputs)
+    if "op_return" in df_transactions.columns:
+        own_op = df_transactions["op_return"].fillna("").to_numpy()
+    else:
+        own_op = [""] * len(df_transactions)
     results = []
-    for _, tx in df_transactions.iterrows():
-        txid = tx["txid"]
-        ok = True
-        for n in range(tx["num_outputs"]):
-            txout = f"{txid}:{n}"
-            spent_in = df_outputs.loc[df_outputs["txout"] == txout, "spent_in"]
-            if spent_in.empty or spent_in.values[0] is None:
-                ok = False
-                break
-            spend_id = spent_in.values[0]
-            op = df_outputs.loc[df_outputs["txid"] == spend_id, "op_return"]
-            if op.empty or op.values[0] is None:
-                ok = False
-                break
-        if ok:
+    for txid, num_outputs, op in zip(df_transactions["txid"].to_numpy(),
+                                     df_transactions["num_outputs"].to_numpy(),
+                                     own_op):
+        if op or num_outputs < 2:
+            continue
+        hit = idx["txout"].get(f"{txid}:0")
+        if hit is None or not hit[0]:
+            continue
+        if idx["txid_op"].get(hit[0]):
             results.append(txid)
     return results
 
