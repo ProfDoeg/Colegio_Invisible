@@ -127,9 +127,15 @@ the **Python toolkit** ready against it. Once both are in place, the
 
 ### 1. Dogecoin Core node
 
-The toolkit is designed to work against a **pruned watch-only** node
-(~20 GB on disk instead of the full ~110 GB chain). Detailed build
-instructions for macOS are in `doc/build-macos.md` of the
+The toolkit wants a **full archival node with `txindex=1`** (~230 GB on
+disk as of mid-2026). A full transaction index means any quipu ever
+inscribed can be read by txid, without depending on which addresses the
+wallet happens to watch — important for reading the corpus, and required
+for the eventual Core-fork work. (A pruned node mostly works for
+watch-only scanning, but can't serve `getrawtransaction` for arbitrary
+history; treat it as a fallback for disk-constrained machines only.)
+
+Detailed build instructions for macOS are in `doc/build-macos.md` of the
 [ProfDoeg/dogecoin](https://github.com/ProfDoeg/dogecoin) fork; the
 quick version:
 
@@ -151,6 +157,23 @@ BDB_CFLAGS="-I$(brew --prefix berkeley-db@5)/include" \
 make -j$(sysctl -n hw.ncpu)
 ```
 
+Two macOS build landmines (both hit on an M5 Max / macOS 26 machine,
+June 2026):
+
+- **MacPorts**: if the `port` binary is on PATH, configure silently
+  prefers `/opt/local` libraries — its Berkeley DB 4.8 shadows
+  Homebrew's 5.3 and the BDB header check fails. Strip it for the
+  build: `export PATH=$(echo "$PATH" | tr ':' '\n' | grep -v '^/opt/local' | paste -sd: -)`
+- **macOS 26 SDK**: the SDK now ships `le32dec`/`le32enc`/`be32dec`/
+  `be32enc` in `<sys/endian.h>`, colliding with the static definitions
+  in `src/crypto/scrypt.h` and `src/crypto/scrypt.cpp`. Change their
+  `#ifndef __FreeBSD__` guards to also include `<sys/endian.h>` on
+  Apple: `#elif defined(__APPLE__) && __has_include(<sys/endian.h>)`
+
+Also note the `boost@1.85` pin is load-bearing (boost 1.90 fails) and
+Homebrew has disabled that versioned formula — it still installs from
+bottle, but don't let `brew autoremove`/`brew upgrade` take it away.
+
 Then create the node's config file at
 `~/Library/Application Support/Dogecoin/dogecoin.conf`:
 
@@ -161,27 +184,42 @@ rpcpassword=password
 rpcport=22555
 rpcbind=127.0.0.1
 rpcallowip=127.0.0.1
-prune=20000          # ~20 GB rolling window
+txindex=1            # full transaction index — read any quipu by txid
 listen=1
-dbcache=2048
+dbcache=4096         # UTXO cache in MB; raise to 16384 on a big-RAM machine for much faster sync
+
+# RPC capacity for the toolkit (scan_accounts, the console, and the loom poll concurrently)
+rpcthreads=16
+rpcworkqueue=256
+
+# Headroom for multi-thousand-tx broadcast campaigns (default is 300 MB)
+maxmempool=4096
 ```
 
-Start the daemon and import the four watched addresses **before** the
+Start the daemon and import the six watched addresses **before** the
 sync gets far (rescan=false so they accumulate matches as new blocks
-arrive):
+arrive — if you import after syncing instead, use rescan=true and
+expect the rescan to block RPC for a while):
 
 ```bash
 ~/Desktop/dogecoin/src/dogecoind -daemon
 CLI=~/Desktop/dogecoin/src/dogecoin-cli
 $CLI importaddress 9xth7DcLGb1nACScMBeSfDCfghhLKF7yqs "hca" false
+$CLI importaddress DNwAEnbjokopciHAYwRwAzRV7Lgs2ypGta "hca" false
 $CLI importaddress A7pfCe2Cw9JD2C4vEZbpDmUZJy7B2TaefV "ha" false
 $CLI importaddress AD28bxzxyrd3a4Qgad2VNQ2eN5Leg8ozuw "ca" false
+$CLI importaddress D6i6VsyJATFFYD7ondkaouhWc8BhT3hwML "ca" false
 $CLI importaddress D6zKNnkupqRbkB9p5rwix8QiobQWJazjyX "old_inscribe" false
 ```
 
 Initial sync takes several hours to a day depending on bandwidth. Check
 progress with `$CLI getblockchaininfo` — `initialblockdownload: false`
-and `verificationprogress` near 1.0 means done.
+and `verificationprogress` near 1.0 means done. On a laptop, keep the
+machine awake while it syncs or the daemon pauses with the lid:
+
+```bash
+caffeinate -i -s -w $(pgrep dogecoind)
+```
 
 ### 2. Python toolkit (this repo)
 
@@ -217,7 +255,7 @@ They're either secrets, locally-generated state, or chain data:
 | Path | What it is | Source |
 |---|---|---|
 | `~/Library/Application Support/Dogecoin/dogecoin.conf` | Node RPC config | You write it (see above) |
-| `~/Library/Application Support/Dogecoin/blocks/`, `chainstate/` | Pruned chain data | The daemon writes it during sync |
+| `~/Library/Application Support/Dogecoin/blocks/`, `chainstate/` | Full chain data + txindex (~230 GB) | The daemon writes it during sync |
 | `<repo>/.env` | RPC credentials for `colegio_tools` | `cp .env.example .env`, then edit |
 | `<repo>/.venv/` | Python virtual environment | `python3 -m venv .venv` |
 | `~/Desktop/cinv/` | Your key files (encrypted `.enc`, public `.bin`, address QRs) | **Yours.** Restore from your own backup, or generate fresh keys with the CLI toolkit and lose continuity with the existing on-chain corpus. |
