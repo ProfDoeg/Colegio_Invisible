@@ -1,0 +1,11 @@
+# Recorded takes — heavy raw footage, never commit (regenerate from chain/sensor)
+takes/
+*.bin
+*.gz
+*.npy
+*.mp4
+*.gif
+# but keep the small per-take metadata/labels if ever placed at this level
+!*_meta.json
+!breadcrumbs.json
+!precrumb.json
