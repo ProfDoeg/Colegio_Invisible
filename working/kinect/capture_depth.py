@@ -14,7 +14,19 @@ OUT = sys.argv[1] if len(sys.argv) > 1 else "/tmp/kinect_depth.npy"
 SECONDS = float(sys.argv[2]) if len(sys.argv) > 2 else 10.0
 W, H = 640, 480
 
-lib = CDLL("/usr/local/lib/libfreenect.dylib")
+def _load_freenect():
+    cands = (["/opt/homebrew/lib/libfreenect.dylib", "/usr/local/lib/libfreenect.dylib"]
+             if sys.platform == "darwin" else
+             ["libfreenect.so.0.5", "libfreenect.so"])
+    for c in cands:
+        try:
+            return CDLL(c)
+        except OSError:
+            continue
+    sys.exit("libfreenect not found (tried: %s)" % ", ".join(cands))
+
+
+lib = _load_freenect()
 
 
 class FrameMode(Structure):

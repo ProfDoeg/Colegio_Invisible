@@ -143,7 +143,9 @@ def _sprite_from_mask(small, raw, band, nw, nh, bands, lo, hi, facing):
         H, W = raw.shape
         ry = (np.arange(H) * nh // H)
         rx = (np.arange(W) * nw // W)
-        grid = np.full((nh, nw), np.nan)
+        # init to +inf, NOT NaN — np.minimum propagates NaN, which would leave
+        # every voted cell NaN and flatten all depth bands to the brightest index
+        grid = np.full((nh, nw), np.inf)
         bv = raw[band].astype(np.float32)
         np.minimum.at(grid, (ry[np.where(band)[0]], rx[np.where(band)[1]]), bv)
         g = grid[y0:y1 + 1, x0:x1 + 1]
@@ -153,7 +155,7 @@ def _sprite_from_mask(small, raw, band, nw, nh, bands, lo, hi, facing):
             for i in range(w):
                 if sub[j, i]:
                     val = g[j, i]
-                    if np.isnan(val):
+                    if not np.isfinite(val):
                         idx.append(bands - 1)
                     else:
                         t = 1.0 - (val - lo) / span        # near -> 1

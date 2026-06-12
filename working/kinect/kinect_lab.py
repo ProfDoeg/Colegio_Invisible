@@ -400,10 +400,12 @@ class H(BaseHTTPRequestHandler):
             nf, med = build_bg(int(q["a"]), int(q["b"]))
             self._json({"ok": True, "frames": nf, "bg_med": round(med)})
         elif path == "/clearbg":
-            global BG
+            global BG, RGBBG
             BG = None
-            if os.path.exists(BG_PATH):
-                os.remove(BG_PATH)
+            RGBBG = None
+            for p in (BG_PATH, RGBBG_PATH):
+                if os.path.exists(p):
+                    os.remove(p)
             self._json({"ok": True})
         else:
             self.send_error(404)

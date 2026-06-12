@@ -36,7 +36,20 @@ PORT = 8787
 TAKES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "takes")
 
 # ---------------------------------------------------------------- libfreenect
-lib = CDLL("/usr/local/lib/libfreenect.dylib")
+def _load_freenect():
+    cands = (["/opt/homebrew/lib/libfreenect.dylib", "/usr/local/lib/libfreenect.dylib"]
+             if sys.platform == "darwin" else
+             ["libfreenect.so.0.5", "libfreenect.so"])
+    for c in cands:
+        try:
+            return CDLL(c)
+        except OSError:
+            continue
+    sys.exit("libfreenect not found (tried: %s)" % ", ".join(cands))
+
+
+lib = _load_freenect()
+BIND = "127.0.0.1" if sys.platform == "darwin" else "0.0.0.0"
 
 
 class FrameMode(Structure):
@@ -70,10 +83,6 @@ class State:
         self.near = 1200.0
         self.far = 2600.0
         self.mirror = True
-        self.record_rgb = False        # RGB stream pauses during a take by
-                                       # default — halves USB load (the 1473
-                                       # drops the bus under depth+RGB while
-                                       # recording); dancer needs depth only
         self.depth_fmt = "?"
         self.fps = 0.0
         # recording state machine: idle | armed | recording
@@ -89,9 +98,6 @@ class State:
         self.ts_rgb = []
         self.last_take = None
         self.error = None
-        self.video_req = None         # "stop"|"start" — applied by the capture
-                                      # loop OUTSIDE the lock (a blocked USB
-                                      # control call must never hold S.lock)
 
 
 S = State()
@@ -135,7 +141,8 @@ def _finish_recording():
             "rgb_format": "rgb_uint8_640x480",
             "depth_frames": S.n_depth, "rgb_frames": S.n_rgb,
             "near_mm_preview": S.near, "far_mm_preview": S.far,
-            "duration_s": round(S.t_end - S.t_start, 1),
+            # actual elapsed, not the configured max — stop & save ends early
+            "duration_s": round(min(time.monotonic(), S.t_end) - S.t_start, 1),
             "ts_depth": S.ts_depth, "ts_rgb": S.ts_rgb,
             "note": "RAW capture, no filtering. depth.bin = uint16 frames "
                     "(mm if depth_format=registered); rgb.bin = uint8 RGB "
@@ -247,12 +254,6 @@ def _stream_once():
             if lib.freenect_process_events(ctx) < 0:
                 S.error = "USB stream lost — replug the Kinect (auto-reconnecting)"
                 break
-            with S.lock:
-                req, S.video_req = S.video_req, None
-            if req == "stop":
-                lib.freenect_stop_video(dev)
-            elif req == "start":
-                lib.freenect_start_video(dev)
     finally:
         with S.lock:
             if S.mode == "recording":
@@ -433,7 +434,6 @@ class Handler(BaseHTTPRequestHandler):
                 S.near = float(q.get("near", S.near))
                 S.far = float(q.get("far", S.far))
                 S.mirror = q.get("mirror", "1") == "1"
-                S.record_rgb = q.get("rgbrec", "0") == "1"
             self._json({"ok": True})
         elif u.path == "/record":
             ok = _arm(float(q.get("duration", 100)), float(q.get("delay", 10)))
@@ -449,7 +449,7 @@ def main():
     os.makedirs(TAKES, exist_ok=True)
     t = threading.Thread(target=capture_loop, daemon=True)
     t.start()
-    srv = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
+    srv = ThreadingHTTPServer((BIND, PORT), Handler)
     print(f"Kinect studio: http://localhost:{PORT}")
     try:
         srv.serve_forever()
