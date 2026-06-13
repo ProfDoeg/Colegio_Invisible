@@ -253,6 +253,39 @@ where LaTeX, 3D, and commerce live.
 
 ---
 
+## Why it's faster — and where it isn't
+
+The speed comes from two architectural facts, not from "C++ is fast" per se: the
+**index replaces rescans**, and the **in-process walk replaces RPC round-trips.**
+The `{header, body, tags}` return stacks on top by collapsing several queries
+into one. Reading one quipu (e.g. the 1.1 MB `<<coasts>>`):
+
+| step | today (Python) | fork |
+|---|---|---|
+| find the address's txs | wallet rescan (hours, first time) + RPC | addressindex lookup, instant |
+| walk the strand | thousands of `getrawtransaction` round-trips + pandas | in-process, no round-trips |
+| learn edition status | separate UTXO/spent queries | **included in `tags`, free** |
+| round-trips per read | many | **one** |
+
+Three independent speedups: no rescan, no per-knot round-trips, and three
+questions (what-kind / content / is-latest) answered in a single call.
+
+**Honestly scoped — where the speed does and doesn't matter:**
+- It's **steady-state** speed, bought with one upfront **reindex** (hours, once
+  over the archive). Not "free fast" — "fast after the one-time index."
+- It pays off most where you read **a lot**: the everything-app rendering a
+  gallery/browse over many quipus, or reading others' corpora at scale. For an
+  occasional one-off read, the Python toolkit was already fine.
+- **Writing** is also fast (the diamond's 20-min pure-Python signing → seconds),
+  but that win was *already* available via `coincurve` in Python; the fork keeps
+  it native, it doesn't newly unlock it.
+- Net: the strongest reasons for the fork are (1) the app's responsiveness,
+  (2) reading anyone's quipu instantly and retroactively, and (3) the symbolic
+  weight of a node that natively understands quipu — with raw single-read latency
+  a real but secondary gain. Faster, yes; but better *by design* first.
+
+---
+
 ## What changes in the Python deps
 
 - **`cryptos` (pybitcointools) leaves the client** — its job (tx construction +
