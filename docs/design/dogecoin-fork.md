@@ -25,29 +25,47 @@ The boundary is one question: **does it move bytes or value on the chain?** →
 fork. **Does it decide meaning or intent?** → client. Nothing crosses: the node
 never interprets a quipu's meaning; the client never touches the chain directly.
 
+**The node holds NO private keys, and does NOT build transactions.** Building —
+the diamond (chunk the blob into OP_RETURNs, lay out root→strands→join, backfill
+cross-reference txids, preflight) — is intricate, *interleaved with signing*
+(legacy txids include the signature, so a piece's root must be **signed** before
+the bodies that reference it can be built), and **already proven in Python.** It
+stays whole in the client, on **`pydoge`** (the owned Doge-tx library — below).
+The client builds, the client signs (coincurve + `cinv` keys), and the node only
+**broadcasts** the finished signed txs. The node never holds a key and never
+assembles a transaction — it cannot unilaterally write, pay, or decrypt, because
+every authorization and the whole construction live in the client. This is
+already how you operate (watch-only node, keys in `cinv`, client-side build+sign,
+keyless broadcast); the fork keeps it. A network-exposed daemon — especially
+nodus, on the LAN with weak RPC creds — with **no keys** is the only safe daemon.
+
 ```
-  CLIENT (Python app)   compose · interpret · buy · sell        the mind
-    canonical/* codecs · adaptor crypto · LaTeX · 3D · UI       — meaning & intent
-    ───────────────────────────  RPC (bytes & value)  ───────────────────────────
-  FORK (C++ dogecoind)  read · write · pay · receive            the actuator
-    read-index + in-process walk · in-process diamond+sign      — chain I/O only
-    · stock wallet (pay/receive) · stock script (HTLC)
+  CLIENT (Python)   compose · build · sign · interpret · decrypt · buy · sell
+    canonical/* · pydoge (tx) · coincurve (sign) · cinv keys       the mind
+    · adaptor crypto · LaTeX · 3D · UI            — meaning, keys, construction
+    ──────  RPC:  quipuread (data in)  ·  sendrawtransaction (txs out)  ──────
+  FORK (dogecoind)   ACCESS data  ·  BROADCAST txs                  the actuator
+    read-index + in-process walk (NEW)  ·  relay (inherited)    — chain I/O, NO keys
 ```
 
 **The format (`canonical/*`) stays Python, in the client — it is NOT ported to
 C++.** Decoding is cheap (the 1.1 MB `<<coasts>>` parses in well under a second);
 only the *walk* was ever slow, and that's the node's job. So the node treats
-quipu payloads as **opaque bytes** — it assembles them (read) and chunks/signs/
-broadcasts them (write) without ever understanding celestial vs scene vs essay.
+quipu payloads as **opaque bytes** — for *reading* it assembles the strand into a
+blob and returns it; it never decodes the format, never builds a write tx, never
+signs.
 This keeps the rich, fast-iterating work (formats, rendering, sale logic) in
 Python where you can change it without recompiling a daemon, and keeps **one**
 implementation of the format (no C++/Python byte-identity oracle to maintain).
 
-The genuinely *new* native code is therefore just **two subsystems**: the
-**read** index (spentindex + addressindex + in-process walk) and the **write**
-engine (in-process diamond + native signing). **Pay and receive come free** with
-Dogecoin Core — it is already a wallet that sends, receives, and validates the
-HTLC script. The fork stays tiny.
+The genuinely *new* native code is therefore just **one subsystem**: the **read
+index** (spentindex + addressindex + in-process walk) — the eye that accesses the
+data. **Broadcasting is inherited** — every Dogecoin node already relays txs; the
+fork is just the point you broadcast through. Building, signing, and the HTLC are
+the client's (on `pydoge` + coincurve + standard script). So the fork is, exactly:
+
+> **Dogecoin + the eye that reads quipu.** It *accesses the data* (the index, new)
+> and *broadcasts transactions* (relay, inherited). Nothing else. Keyless, tiny.
 
 LaTeX and 3D do **not** go in the daemon: a consensus node has no business
 shelling out to xelatex or rasterizing scenes. Keeping them out keeps the fork
@@ -76,13 +94,16 @@ because every knot of every inscription at a watched address lands in
 `mapWallet` — `<<coasts>>` alone added ~13,774. The wallet is accumulating
 *public data pretending to be money*.
 
-**The decision: separate the purse from the catalog.**
+**The decision: separate the purse from the catalog — and the purse isn't the
+node's.**
 
-- **The wallet is a purse** — only what you *sign*: your own keys and the UTXOs
-  you spend to fund inscriptions. It stops watching quipu addresses; the dust
-  knots leave it. Lean again.
-- **A purpose-built quipu index is the catalog** — what you *read*: public
-  quipu, anyone's, by txid, with nothing imported. This is the read substrate.
+- **The purse is yours, in the client** — the keys (`cinv`) and the UTXOs you
+  spend to fund inscriptions. The node's wallet stops watching quipu addresses
+  (the 88k dust knots leave) and holds no keys — it ends up vestigial, since
+  reading is the index and signing is `cinv`/client.
+- **The catalog is the node** — a purpose-built quipu index: what you *read*,
+  public quipu, anyone's, by txid, nothing imported. With broadcast, this is the
+  node's whole job.
 
 The index is the Dash / Bitcoin-ABC-style pair, written in `ConnectBlock` and
 unwound in `DisconnectBlock`, behind a `-quipuindex` flag (needs a one-time
@@ -142,35 +163,73 @@ registration pattern is the standard static `CRPCCommand commands[]` table
   to its successor (thread resolution) can be the node's job or the client's —
   lean client (it orchestrates editions), node offers the raw state.
 
-### Write path  →  `quipuwrite`, later `quipuinscribe`
-- **OP_RETURN outputs:** `CTxOut(0, CScript() << OP_RETURN << data)`
-  (rawtransaction.cpp:442).
-- **Build + fund + sign:** `CWallet::CreateTransaction(vecSend, …)` with a
-  `CRecipient` carrying the OP_RETURN script (wallet.cpp:2449); native signing
-  via `CKey::Sign` → bundled **libsecp256k1** (key.cpp:169). No external lib.
-- **Broadcast:** `AcceptToMemoryPool` + `RelayTransaction`
-  (rawtransaction.cpp:909) — or `CWallet::CommitTransaction`.
-- **Opaque payload:** the client *composes* the quipu blob (Python
-  `canonical/*`) and hands the bytes to the node; the node chunks them into the
-  diamond without understanding the format.
-- `quipuwrite` = one strand; **`quipuinscribe`** = the full multi-strand
-  orchestration (root → strands → join), i.e. the diamond, native. Port the
-  chain mechanics of `quipu_diamond` last — it's the most intricate piece
-  (fee-accurate sizing, placeholder-txid backfill, and the join *tree* for the
-  100 KB MAX_STANDARD_TX_SIZE limit we hit this week).
+### Broadcast path  →  `sendrawtransaction` (stock; no new node code)
+Writing a quipu is a **client** operation; the node's only role is to relay.
+- The client **composes** the blob (`canonical/*`), **builds** the diamond on
+  **`pydoge`** (chunk into OP_RETURNs, root→strands→join, backfill cross-reference
+  txids, preflight — the proven pipeline, untouched), and **signs** with `cinv`
+  keys (coincurve). This is interleaved (legacy txids include the signature, so a
+  root must be signed before referencing bodies are built) — which is exactly why
+  it stays one whole Python pipeline and is *not* split across the node boundary.
+- The node **broadcasts** the finished signed txs — `sendrawtransaction` →
+  `AcceptToMemoryPool` + `RelayTransaction` (rawtransaction.cpp:909). Stock.
+- *Optional convenience (not required):* a campaign-aware relay RPC accepting an
+  ordered batch (parents before children) with per-tx confirm status — nicer than
+  13,774 bare `sendrawtransaction` calls — but `quipu_broadcast.py` already does
+  this client-side (resumable, re-weaving dropped knots), so it's polish.
 
-### Crypto — the node signs natively; box-crypto stays in the client
-Transaction signing — write, pay, the HTLC claim/refund legs — uses Core's
-bundled **libsecp256k1** (`CKey::Sign`, key.cpp:169): fast, native, no external
-library. That is the *only* crypto the node needs, and it retires `cryptos`'s
-pure-Python ECDSA entirely.
+There is **no** `quipuwrite`/`quipuinscribe` node RPC: the node can't build (no
+tx construction) or sign (no keys), and shouldn't — the diamond's interleaved
+build/sign/backfill is proven in Python and stays there, on `pydoge`.
+
+### Crypto — the node holds no keys; all key-crypto is the client's
+The node does **no** cryptography that needs a private key. Transaction signing
+(write, pay, the HTLC claim/refund legs) happens in the **client**, with `cinv`
+keys via **coincurve** (the fast signer proven this week) — never in the daemon.
 The **box crypto** — ECIES sealing/unsealing, the AES content seal, the adaptor
-binding — is *composing/interpreting/selling*, so it **stays in the Python
-client**: cheap (a handful of EC ops), delicate (money-grade, with a deployed
-mainnet reference), single implementation. The node never needs it. *(Latent
-capability, not used: `src/crypto/` + `src/secp256k1/` already carry ECDH,
-AES256-CBC, SHA256, HMAC — so the node could do box crypto someday, but there's
-no speed reason to reimplement proven money-crypto.)*
+binding, *decryption* of received quipu — is also the client's (*compose /
+interpret / sell / decrypt*): cheap, delicate (money-grade, mainnet-proven), one
+implementation. The daemon's only crypto is what consensus already does —
+verifying signatures in the blocks it validates — which needs no private keys.
+*(`src/crypto/` + `src/secp256k1/` carry ECDH/AES/SHA/HMAC, so the node *could*
+do key-crypto someday — but it must not: keys on a network-exposed daemon are
+precisely the thing we are avoiding.)*
+
+### Encrypted quipu (`0x0e`) — where "no keys" has teeth
+The encrypted family (`0x0e`: `0xae` AES-seal, `0xec` ECIES-broadcast, `0x0d`
+keydrop, `0xcb` sale box, `0xca` centinela, `0x55` Shamir share) is exactly where
+the keyless line matters most. Reading one splits cleanly:
+
+- **The node returns ciphertext + the chain-context to decrypt — and decrypts
+  nothing.** `quipuread` on a `0x0e` quipu returns the usual `{header, body,
+  tags}` where `body` is the **ciphertext** (all `0x0e`-specific framing — the
+  sub-family byte, recipient/session pubkeys, the M×64 session-key copies, the
+  AES body — lives *inside* the body, parsed by the client), **plus one extra
+  field: `sender_pubkey`**, extracted from the inscribing tx's **input scriptSig**
+  (`get_txn_pub_from_node`). The static-ECDH scheme uses the sender's on-chain
+  pubkey as half of every shared secret, and it sits in the scriptSig — pure
+  chain data the node surfaces trivially, *not* a decryption.
+- **The client decrypts**, entirely: `shared = HKDF(ECDH(my_cinv_priv,
+  sender_pubkey))` → try each session-key slot → AES-decrypt the body → the inner
+  framed quipu → recurse the decode. The private key is `cinv`, client-side; the
+  node never sees it.
+
+**Keydrops** (`0x0d`) — where the AES key is delivered by a *separate* quipu —
+resolve client-side: the client finds the keydrop (the node's index/`quipuscan`
+helps), fetches both blobs, and combines them (`apply_keydrop`) locally. Node
+serves blobs + discovery; the client does the join.
+
+**Sale boxes** (`0x0e 0xcb`) become readable once the seller's claim reveals
+`session_priv` on chain. Post-sale reading: the node surfaces the **claim tx**
+(it sees the bond's spend and can return the revealed preimage as chain-context);
+the client derives `session_key` and decrypts. The one place read and buy/sell
+touch — and it touches through *chain data the node already has* (a spend, a
+revealed preimage), never through a key.
+
+So encrypted quipu don't bend the architecture — they **prove** it: everything
+the node hands over is public chain material (ciphertext, sender pubkey, revealed
+preimages, tag-state); everything secret (private keys, decryption, plaintext) is
+the client's *structurally* — the node has no keys to do it with even if asked.
 
 ---
 
@@ -216,8 +275,8 @@ RPC." It holds the meaning and the intent.
 | `quipu_loom.py`, `loom_monitor.py` | HTML/HTTP | live broadcast weave |
 
 These call `quipuread` (get bytes) → decode in Python → render; and compose in
-Python → `quipuwrite` (hand bytes to the node). No more `scan_accounts` rescans,
-no pandas.
+Python → build on `pydoge` → sign (coincurve) → `sendrawtransaction`. No more
+`scan_accounts` rescans, no pandas.
 
 **Buy / sell** — entirely client-side, on standard script, **no marketplace.**
 Your verified-key sale (deployed mainnet 2026-06-08: HTLC + ECDSA adaptor
@@ -232,8 +291,9 @@ signatures + `0x0e 0xcb` sealed box) runs here unchanged:
   — every node already validates it. **The daemon never knows a sale is
   happening**: it sees a P2SH like any other. Constitutionally incapable of
   being a marketplace, which is exactly right.
-- Settlement (fund the bond, claim revealing the key, refund) is *pay/receive* —
-  the fork's stock wallet, broadcasting standard txs.
+- Settlement (fund the bond, claim revealing the key, refund) is client-built
+  (`pydoge`) + client-signed (coincurve + `cinv`), broadcast through the node —
+  no node wallet, no node keys.
 
 ### Why on-chain at all, and not everything on Nostr
 The line: **the chain carries only what needs money, atomicity, or permanence;
@@ -286,20 +346,41 @@ questions (what-kind / content / is-latest) answered in a single call.
 
 ---
 
-## What changes in the Python deps
+## What changes in the Python deps — fork `cryptos` into `pydoge`
 
-- **`cryptos` (pybitcointools) leaves the client** — its job (tx construction +
-  ECDSA signing) moves to the node (`CWallet` + libsecp256k1). The fragile,
-  unmaintained, pinned dependency that bit us twice this week is retired from the
-  write/pay path; any residual address-derivation need is trivial to replace.
-- **`pandas` leaves the read path** — the node walks in-process and returns
-  bytes; no dataframes to assemble an address's history.
-- **Kept on purpose:** `eciespy` / `pycryptodome` / `coincurve` **stay** in the
-  client — they do the box crypto (ECIES/AES seal) and the adaptor signatures,
-  which are *compose / interpret / sell*, not chain I/O. One implementation, in
-  Python, where the money-crypto already has a mainnet-proven reference. (Earlier
-  drafts said these drop; that was when we imagined porting crypto to C++ — we
-  don't.)
+We don't *remove* cryptos by moving its work elsewhere — we **own** it. Fork it,
+gut it, test it, make it ours:
+
+- **`cryptos` (pybitcointools) → `pydoge`** — extract the ~18 functions actually
+  used (tx build/serialize, address/key derivation, multisig, base58/hash) and
+  **cut everything else** (other coins, the network/API clients, the BIP wallet
+  machinery, the slow pure-Python ECDSA). Add a real test suite — and the oracle
+  is free and enormous: *every tx on chain is a gold vector*, rebuilt by `pydoge`
+  and asserted byte-identical (same rigor as the coincurve proof). The fragility
+  (unmaintained upstream, oversized surface, version-pinned, bit us twice this
+  week) is gone — not by living with it, not by moving to C++, but by owning a
+  small, tested, maintained Dogecoin-tx library.
+- **`pandas` leaves the read path** — `quipuread` returns assembled bytes; no
+  dataframes to rebuild an address's history.
+- **Kept:** `coincurve` (ECDSA, under `pydoge`), `eciespy` / `pycryptodome` /
+  `eth_keys` (box crypto + `cinv` key loading). All client-side.
+
+The owned stack, layered (one-way deps):
+
+```
+  colegio   (quipu: canonical/*, the diamond, readers, renderers, sale logic)
+     │ imports
+     ▼
+  pydoge    (Dogecoin tx: build · serialize · address · multisig)   ← knows no quipu
+     │ imports
+     ▼
+  coincurve (ECDSA)
+```
+
+`pydoge` is a **sibling package to `colegio` in the same repo** — its own tests,
+a hard one-way boundary (it knows nothing about quipu), extractable to its own
+repo/PyPI later if ever useful to anyone else (pybitcointools is MIT — the fork
+is clean).
 
 ---
 
@@ -309,26 +390,25 @@ Each step is independently useful; the client keeps working against a stock node
 until each native piece lands. No format is ported — `canonical/*` stays Python
 throughout.
 
-- **M0 — now:** packagify the toolkit into a clean `colegio` package. *(Reframed:
-  its value is now "the app's engine" + isolating `cryptos`, not "the C++ porting
-  map" — since the format isn't ported. Still the right first move: the client
-  becomes the importable core the app and the RPC clients sit on.)*
-- **M1 — read, the real-fork moment:** the **quipuindex** (spentindex +
-  addressindex) in `ConnectBlock`/`DisconnectBlock` + a one-time reindex; then
-  `quipuread` / `quipuscan` / `quipuroots` returning assembled **bytes** for
-  *any* quipu by txid, wallet-free. The client's existing Python `canonical/*`
-  decodes them. `dogecoin-cli quipuread <txid>` → bytes from a node that
-  understands quipu structure. This is what makes it a *fork*.
-- **M2 — write:** the in-process diamond + native signing → `quipuwrite` (one
-  strand) and `quipuinscribe` (the full diamond, incl. the join-tree close). The
-  client *composes* the blob (Python) and hands bytes to the node. The wallet
-  stops watching quipu addresses; the 88k dust txs retire.
-- **M3 — wire the app:** repoint every client renderer/tool from `scan_accounts`
-  to the native RPC. Confirm buy/sell still runs end-to-end on standard script
-  against the fork (it should — verify against the deployed 2026-06-08 sale).
-- **M4 — the everything-app:** the desktop shell (Tauri / Electron / PyQt) over
-  the renderers + sale logic + the forked node; optional Qt wallet tab showing
-  quipus.
+- **M0 — now (useful immediately, independent of the fork):**
+  - **packagify** the toolkit into a clean `colegio` package — the importable
+    engine the app and RPC-clients sit on;
+  - **`pydoge`** — fork/gut/test cryptos into the owned Doge-tx library.
+  Both de-fragilize the *current* toolkit today; neither needs the C++ fork.
+- **M1 — read, the real-fork moment (the fork's ONLY new subsystem):** the
+  **quipuindex** (spentindex + addressindex) in `ConnectBlock`/`DisconnectBlock`
+  + a one-time reindex; then `quipuread` / `quipuscan` / `quipuroots` returning
+  `{header, body, tags}` for *any* quipu by txid, wallet-free. The client's Python
+  `canonical/*` decodes them. The wallet stops watching quipu addresses; the 88k
+  dust txs retire. `dogecoin-cli quipuread <txid>` → data from a node that
+  understands quipu. This is what makes it a *fork*.
+- **M2 — wire the app to the fork:** repoint every client renderer/tool from
+  `scan_accounts` to `quipuread`; broadcast through the node
+  (`sendrawtransaction`). Build/sign stay client-side on `pydoge` + coincurve,
+  unchanged. Confirm buy/sell still runs end-to-end on standard script (verify
+  against the deployed 2026-06-08 sale).
+- **M3 — the everything-app:** the desktop shell (Tauri / Electron / PyQt) over
+  the renderers + sale logic + the forked node; optional Qt tab showing quipus.
 
 ---
 
@@ -338,19 +418,16 @@ throughout.
   cleanly in `DisconnectBlock` (port the reference patch's reorg handling
   carefully; a stale spent-entry would corrupt a strand walk). One-time reindex
   to populate; budget hours on the archive.
-- **The diamond port is consensus-adjacent money** — fee-accurate sizing,
-  placeholder-txid backfill, and the join-tree (incl. the 100 KB
-  MAX_STANDARD_TX_SIZE limit we hit) are subtle. Port last; verify the native
-  diamond builds txids identical to what the Python signer would have.
-- **Key encoding** — apocrypha is an *uncompressed* key (180 B inputs); Core
-  defaults to compressed. The port must preserve key encoding or txids diverge.
-- **Upstream-merge shape** — keeping the daemon's new surface to two clean
-  subsystems (read-index + write-diamond) and treating payloads as opaque bytes
-  keeps the door open to one day proposing quipu RPC upstream, rather than a hard
-  fork that drifts forever.
-- **No format port = no format-port risk** — the whole class of "did the C++
-  decode match Python byte-for-byte?" bugs is designed out by keeping one
-  implementation. The remaining byte-exactness that *does* matter is the write
-  path (the node must build txids identical to what the Python signer would have
-  — esp. apocrypha's uncompressed key, above).
-</content>
+- **`pydoge` is money code** — it builds txs that spend real DOGE, so the
+  fork/gut must be **byte-exact**: every tx the old cryptos built (the whole
+  on-chain corpus) must rebuild identically, including apocrypha's *uncompressed*
+  key (180 B inputs — Doge convention, not Core's compressed default). The free
+  chain-oracle test covers this; treat any single-byte divergence as a stop.
+- **Upstream-merge shape** — keeping the daemon's new surface to **one** clean
+  subsystem (the read-index) and treating payloads as opaque bytes keeps the door
+  open to proposing quipu RPC upstream one day, rather than a fork that drifts.
+- **No format port, no C++ tx code = whole risk classes designed out** — there is
+  no "did the C++ decode match Python?" and no "did the C++ signer build the same
+  txid?", because neither exists. The only byte-exactness that matters lives in
+  `pydoge` — one Python implementation, tested against the chain. The safest place
+  for it.
