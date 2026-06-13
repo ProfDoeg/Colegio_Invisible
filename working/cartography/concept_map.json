@@ -1,0 +1,617 @@
+{
+  "concepts": [
+    {
+      "id": "thread_textile",
+      "label": "Thread / Textile / Fiber",
+      "cluster": "thread_knot",
+      "essays": ["209_thread_and_wheel.md", "219_trauma_y_trama.md", "214_arte_de_los_hilos_divinos.md", "211_fata.md", "205_commodity_amnesia.md", "203_masonic_embroidery.md", "207_hebraic_knots.md", "173_oppenheimer_and_ethical_culture.md", "augury.md"],
+      "weight": 10,
+      "notes": "The structural spine of the corpus. PIE *tere (to twist) links trauma, trama, tantra, sutra. Appears as explicit subject or metaphor in nearly every essay."
+    },
+    {
+      "id": "knot_topology",
+      "label": "Knot as Topology / Vertebra",
+      "cluster": "thread_knot",
+      "essays": ["206_anubis.md", "207_hebraic_knots.md", "209_thread_and_wheel.md", "195_the_ring.md", "205_commodity_amnesia.md"],
+      "weight": 8,
+      "notes": "S24-ts hieroglyph: knot = vertebra. Knot as N-manifold embedding. Coffin Text Spell 407: celestial bull's tail as mooring rope."
+    },
+    {
+      "id": "quipu",
+      "label": "Quipu / Knotted Writing",
+      "cluster": "thread_knot",
+      "essays": ["207_hebraic_knots.md", "205_commodity_amnesia.md", "204_hornero.md", "203_masonic_embroidery.md", "201_child_sacrifice.md", "augury.md", "pet_sematary.md"],
+      "weight": 9,
+      "notes": "Quipu as proto-computing and mnemonic technology. Solomon Gandz connects quipu to Hebrew knots. T'ocapu grid (1824 symbols). Invisible College digital quipu on Dogecoin blockchain."
+    },
+    {
+      "id": "embroidery",
+      "label": "Embroidery / Bordado",
+      "cluster": "thread_knot",
+      "essays": ["212_domremy_por_katrin_vates.md", "203_masonic_embroidery.md", "219_trauma_y_trama.md", "198_kaaba_of_mecca.md", "173_oppenheimer_and_ethical_culture.md", "augury.md"],
+      "weight": 8,
+      "notes": "Embroidery as cryptographic surface. Domrémy embroidery by Katrin Vates as anchor artifact. Arthur Bispo do Rosario asylum flags. ESMA torture center ran embroidery taller."
+    },
+    {
+      "id": "joan_arc",
+      "label": "Joan of Arc / La Doncella",
+      "cluster": "doncella_cycle",
+      "essays": ["220_la_coronacion.md", "219_trauma_y_trama.md", "218_atavismo_y_los_ninos_perdidos.md", "217_el_estandarte.md", "216_la_espada.md", "215_runaway_bride.md", "214_arte_de_los_hilos_divinos.md", "213_las_tres_virgenes_martires.md", "212_domremy_por_katrin_vates.md", "augury.md"],
+      "weight": 10,
+      "notes": "The corpus's titular anchor figure. Born Domrémy, Lorraine. Coronation of Charles VII at Reims. Three ensigns (banner/pennon/standard). Burned at Rouen 1431. Present at Clovis and Charles VII anointings via dove-augury."
+    },
+    {
+      "id": "three_virgin_martyrs",
+      "label": "Three Virgin Martyrs (Margaret / Barbara / Catherine)",
+      "cluster": "doncella_cycle",
+      "essays": ["213_las_tres_virgenes_martires.md", "212_domremy_por_katrin_vates.md", "214_arte_de_los_hilos_divinos.md", "216_la_espada.md"],
+      "weight": 8,
+      "notes": "Three contemporaries born in the Levant c.290 AD. Three-sisters archetype. Katrin Vates adds Barbara to the embroidery — esoteric interpolation. Poem: Margaretha mit dem Wurm / Barbara mit dem Turm / Katharina mit dem Radl."
+    },
+    {
+      "id": "domremy_embroidery",
+      "label": "Domrémy Embroidery (Katrin Vates)",
+      "cluster": "doncella_cycle",
+      "essays": ["212_domremy_por_katrin_vates.md", "augury.md"],
+      "weight": 9,
+      "notes": "January 2023. Five-fiber Khamsa structure. Ombú tree = Recoleta Cemetery ombú. 32-byte steganographic payload in ground stitches. Certificate Authority: Hayagriva + Christophia + Anthony secp256k1 keys. Anchored on Dogecoin blockchain."
+    },
+    {
+      "id": "augury",
+      "label": "Augury / Inauguration / PIE aug-",
+      "cluster": "doncella_cycle",
+      "essays": ["augury.md"],
+      "weight": 7,
+      "notes": "Castro's white doves (1959). PIE aug- = augur, authority, author, inauguration. Templum as delimited sky-field. Lituus = bishop's crosier. Dove at Clovis and Charles VII anointings."
+    },
+    {
+      "id": "cryptography",
+      "label": "Cryptography / Steganography",
+      "cluster": "quipu_protocol",
+      "essays": ["217_el_estandarte.md", "212_domremy_por_katrin_vates.md", "196_night_writing.md", "194_templar_goethe.md", "augury.md", "pet_sematary.md"],
+      "weight": 9,
+      "notes": "SHA-256/secp256k1 as modern 'standards' (etymologically from *stā). Templar cryptographic ledger. Night writing (Barbier→Braille). Operation Condor + DES + RSA co-emerge. kryptós = burial = concealment."
+    },
+    {
+      "id": "blockchain_quipu",
+      "label": "Invisible College Digital Quipu Protocol",
+      "cluster": "quipu_protocol",
+      "essays": ["augury.md", "pet_sematary.md"],
+      "weight": 8,
+      "notes": "Version 0.1 standard. Header code c1dd0001ccff0001. 3-of-3 multisig (Hayagriva + Christophia + Anthony). 64-strand quipu = 512×512 pixel image. Pet cemetery address outside certification scheme."
+    },
+    {
+      "id": "encoded_threads",
+      "label": "Encoded Threads Diptych (Laura Renee Maier)",
+      "cluster": "quipu_protocol",
+      "essays": ["augury.md"],
+      "weight": 7,
+      "notes": "2022 diptych. Feminine Hayagriva (horse-headed): 114×102 cm; halo = first 16 bytes SHA256. Feminine Christophia/Anubis (dog-headed): 72×102 cm; halo = last 16 bytes. Gold furrows hold private keys."
+    },
+    {
+      "id": "cynocephalus",
+      "label": "Cynocephalus / Dog-Headed Narrator",
+      "cluster": "narrator",
+      "essays": ["208_saint_christopher.md", "206_anubis.md", "205_commodity_amnesia.md", "180_hermit_temptation_saint_anthony.md", "176_cloudbusting_aliens.md", "200_arthur_ben.md", "219_trauma_y_trama.md", "augury.md", "pet_sematary.md"],
+      "weight": 9,
+      "notes": "Narrator's self-identification. Shares lineage with Anubis, Saint Christopher (Reprobus), Wilhelm Reich (also self-identifies as cynocephalus in Contact With Space). Baptism by hermit; ferryman archetype."
+    },
+    {
+      "id": "anubis",
+      "label": "Anubis / Hermanubis",
+      "cluster": "narrator",
+      "essays": ["206_anubis.md", "208_saint_christopher.md", "210_hayagriva.md", "205_commodity_amnesia.md", "augury.md"],
+      "weight": 8,
+      "notes": "Jackal-headed psychopomp. Knot-thread-mummification nexus. Hermanubis (1st–2nd cent. CE fusion with Hermes). Coffin Text Spell 407. Heart weighed against feather of Maat."
+    },
+    {
+      "id": "saint_christopher",
+      "label": "Saint Christopher / Reprobus",
+      "cluster": "narrator",
+      "essays": ["208_saint_christopher.md", "206_anubis.md", "180_hermit_temptation_saint_anthony.md", "pet_sematary.md"],
+      "weight": 7,
+      "notes": "Christo-phero (Christ-ferrier). Cynocephalus in Orthodox tradition. Qorikancha / Saqsaywaman / San Cristóbal hill. Baptized by hermit. Milk from decapitation (like Catherine, Vishnu)."
+    },
+    {
+      "id": "hermit",
+      "label": "Hermit / Desert Father",
+      "cluster": "narrator",
+      "essays": ["180_hermit_temptation_saint_anthony.md", "208_saint_christopher.md", "202_induction_adoption.md"],
+      "weight": 6,
+      "notes": "Anthony the Great (251–356). Flaubert's 1874 novel. Hadrian's Villa as secular hermitage origin. La Verna (Tuscany). Count von Spork's living hermitages. Narrator as Ermitaño-adjacent figure."
+    },
+    {
+      "id": "ombu_tree",
+      "label": "Ombú Tree",
+      "cluster": "narrator",
+      "essays": ["218_atavismo_y_los_ninos_perdidos.md", "212_domremy_por_katrin_vates.md"],
+      "weight": 7,
+      "notes": "The binding symbol. Argentine pampas ombú = ombú in Domrémy embroidery = ombú at Recoleta Cemetery. Connects Lorraine to La Pampa across Atlantic. Gauchos / mozos perdidos shelter under it."
+    },
+    {
+      "id": "hayagriva",
+      "label": "Hayagriva / Horse-Headed Vishnu",
+      "cluster": "decapitation",
+      "essays": ["210_hayagriva.md", "213_las_tres_virgenes_martires.md", "augury.md"],
+      "weight": 7,
+      "notes": "Ashvins / madhu-vidyā secrets. Decapitation as price of secret knowledge. Milk/rasa from severed head. Vishnu decapitated → horse head. Patron of scholarship. One of three Certificate Authority keys."
+    },
+    {
+      "id": "decapitation",
+      "label": "Decapitation / Severed Head / Healing Milk",
+      "cluster": "decapitation",
+      "essays": ["210_hayagriva.md", "213_las_tres_virgenes_martires.md", "216_la_espada.md", "194_templar_goethe.md"],
+      "weight": 7,
+      "notes": "Hayagriva, Catherine of Alexandria, Saint Christopher: milk flows from severed neck. Hypatia as prototype of Catherine. Louis XVI guillotine as Templar vengeance."
+    },
+    {
+      "id": "wheel_spin",
+      "label": "Wheel / Rotation / Spin",
+      "cluster": "rotation",
+      "essays": ["209_thread_and_wheel.md", "213_las_tres_virgenes_martires.md", "177_sufi_spin_vimana.md"],
+      "weight": 7,
+      "notes": "Wheel + thread as co-evolved war machine. Catherine's wheel. Sufi sama (Rumi). Quantum spin (bosons/fermions). Parikrama circumambulation. Metropolis clock. WonderWheel at Earth's poles."
+    },
+    {
+      "id": "sufi_rotation",
+      "label": "Sufi Sama / Dhikr / Vimana",
+      "cluster": "rotation",
+      "essays": ["177_sufi_spin_vimana.md"],
+      "weight": 5,
+      "notes": "Rumi / Mevlevi Order (13th cent.). Goldsmith's hammer rhythm. Quantum angular momentum ℏ. Vimana = Sanskrit 'measure' / flying palace / Vedic aeronautics. Non-inertial frames at poles."
+    },
+    {
+      "id": "phrygian_cap",
+      "label": "Phrygian Cap / Liberty Hat",
+      "cluster": "subterranean",
+      "essays": ["178_vril_and_subterranea_of_mitras.md", "179_reichian_ark_of_covenant_and_hyporborean_jew.md", "183_judenhut.md", "195_the_ring.md", "204_hornero.md", "206_anubis.md"],
+      "weight": 7,
+      "notes": "Given to emancipated slaves / Jews by Cyrus. Mithraeum: Phrygian-capped Mithras slays bull (= end of Taurus age). Garden gnome = Mithraic signal. Potosí miners. Saqsaywaman guide."
+    },
+    {
+      "id": "subterranean_dwarves",
+      "label": "Subterranean / Dwarves / Gnomes",
+      "cluster": "subterranean",
+      "essays": ["178_vril_and_subterranea_of_mitras.md", "195_the_ring.md", "181_tolkiens_dwarves.md", "204_hornero.md"],
+      "weight": 7,
+      "notes": "Mithraeums under Rome. Paracelsus 'gnomi'. Garden gnome (Grafenroda, 1870s). Tolkien's Jewish dwarves. Nibelung dwarves = Hyperborean Jews. Muki (Andean mine dwarves). Hollow earth. Potosí."
+    },
+    {
+      "id": "hyperborean_jew",
+      "label": "Hyperborean Jew",
+      "cluster": "subterranean",
+      "essays": ["181_tolkiens_dwarves.md", "195_the_ring.md", "179_reichian_ark_of_covenant_and_hyporborean_jew.md"],
+      "weight": 6,
+      "notes": "Tolkien explicitly: dwarves modeled on Jews, Khuzdul = Semitic, Durin's Day = Rosh Hashanah, mithril = Mithraic. Nibelung = Hyperborean Jew as subterranean demiurge. Northward Babylonian diaspora → Scythian → Nordic."
+    },
+    {
+      "id": "vril_orgone",
+      "label": "Vril / Orgone / Subterranean Energy",
+      "cluster": "subterranean",
+      "essays": ["174_make_believe.md", "175_morning_magi_maria_orsic_and_gurdjieff.md", "176_cloudbusting_aliens.md", "179_reichian_ark_of_covenant_and_hyporborean_jew.md", "178_vril_and_subterranea_of_mitras.md"],
+      "weight": 7,
+      "notes": "Bulwer-Lytton 'Vril' (1871). Maria Orsic / Vril Society / Aldebaran (1917). Wilhelm Reich / orgone accumulator. Ark of the Covenant as capacitive chamber. Cloudbuster technology. Kate Bush 'Cloudbusting'."
+    },
+    {
+      "id": "mithraism",
+      "label": "Mithraism / Mystery Cults",
+      "cluster": "subterranean",
+      "essays": ["178_vril_and_subterranea_of_mitras.md", "177_sufi_spin_vimana.md", "181_tolkiens_dwarves.md"],
+      "weight": 6,
+      "notes": "Mithras cult 1st–3rd cent. AD. Underground Roman temples. Phrygian cap. Bull-slaying = end of Taurus age. Connects to mithril, Gurdjieff's Fourth Way, Zoroastrianism."
+    },
+    {
+      "id": "goethe_masonry",
+      "label": "Goethe / Freemasonry / Knight Templar",
+      "cluster": "occult_europe",
+      "essays": ["194_templar_goethe.md", "193_ganas.md", "192_yiddish_of_kosher_meat.md", "191_goethe_italian_exit.md", "190_al_andalus_and_reconquista.md", "189_lake_garda_and_roman_elegies.md", "188_checkerboard.md", "186_italian_journey_entrance.md", "185_seder_structuralism.md", "183_judenhut.md", "182_goethe_at_volcano.md", "181_tolkiens_dwarves.md"],
+      "weight": 9,
+      "notes": "Initiated Lodge Amalia, June 23, 1780. Knight Templar March 1782. Italian journey. Meets Napoleon at Erfurt 1808. Studies Yiddish at 11. Father paints dog face on portrait. Jung's grandfather allegedly Goethe's illegitimate son."
+    },
+    {
+      "id": "napoleon_templars",
+      "label": "Napoleon / Templar Legacy",
+      "cluster": "occult_europe",
+      "essays": ["194_templar_goethe.md", "197_columbus_crypto_judio.md", "204_hornero.md", "pet_sematary.md"],
+      "weight": 7,
+      "notes": "Napoleon → Freemasonry golden age (300→1200 lodges). Brothers as Grand Masters. Siege of Acre (return Palestine). Templar vengeance thesis (Louis XVI execution). Napoleon reads Werther 7 times."
+    },
+    {
+      "id": "checkerboard",
+      "label": "Checkerboard / Chess / Sacred Geometry",
+      "cluster": "occult_europe",
+      "essays": ["188_checkerboard.md", "194_templar_goethe.md", "196_night_writing.md"],
+      "weight": 6,
+      "notes": "Neolithic weaving → Lothal/Indus Valley → chaturanga/chess → Islamic math → Norman Exchequer → Masonic floor. I Ching = 64 hexagrams = chessboard. Napoleon-Goethe as chess game. Retzsch / Vibert paintings."
+    },
+    {
+      "id": "jung_eranos",
+      "label": "Jung / Eranos / Keyserling",
+      "cluster": "occult_europe",
+      "essays": ["193_ganas.md", "196_night_writing.md", "191_goethe_italian_exit.md"],
+      "weight": 6,
+      "notes": "Keyserling: ganas vs. voluntad. Olga Fröbe-Kapteyn / Eranos. Jung's Active Imagination. Jung / Serrano meeting in Locarno. Jung grandfather = Goethe's illegitimate son (rumor). Locarno / Ticino geography."
+    },
+    {
+      "id": "jewish_diaspora",
+      "label": "Jewish Diaspora / Hidden Transmission",
+      "cluster": "jewish_hidden",
+      "essays": ["179_reichian_ark_of_covenant_and_hyporborean_jew.md", "187_court_jews.md", "190_al_andalus_and_reconquista.md", "197_columbus_crypto_judio.md", "185_seder_structuralism.md", "183_judenhut.md", "201_child_sacrifice.md"],
+      "weight": 9,
+      "notes": "Babylonian exile → Cyrus edict → northward diaspora. Tubal-Cain metalsmith. Court Jews (Joseph, Aaron of Lincoln, Oppenheimer). Columbus as crypto-Jew. Al-Andalus Convivencia. Gauchos judíos."
+    },
+    {
+      "id": "court_jews",
+      "label": "Court Jews / Hidden Power",
+      "cluster": "jewish_hidden",
+      "essays": ["187_court_jews.md", "194_templar_goethe.md", "197_columbus_crypto_judio.md"],
+      "weight": 6,
+      "notes": "Joseph's signet ring in Pharaoh's court. Aaron of Lincoln (wealthiest Norman Englishman). Samuel Oppenheimer (Habsburg). Jud Süss / Feuchtwanger / Goebbels propaganda. Power through proximity to the sovereign."
+    },
+    {
+      "id": "crypto_jews",
+      "label": "Crypto-Jews / Conversos",
+      "cluster": "jewish_hidden",
+      "essays": ["197_columbus_crypto_judio.md", "190_al_andalus_and_reconquista.md"],
+      "weight": 6,
+      "notes": "Alhambra Decree 1492. Columbus: Kaddish-encoded signature, tithing, letters to converso bankers. Marianne → Miss Columbia → Statue of Liberty. Bellamy Salute / fascist salute genealogy."
+    },
+    {
+      "id": "judenhut_witches",
+      "label": "Judenhut / Witch's Hat / Merlin's Hat",
+      "cluster": "jewish_hidden",
+      "essays": ["183_judenhut.md"],
+      "weight": 5,
+      "notes": "Fourth Lateran Council 1215 edict. Pope's mitre ↔ Phrygian cap ↔ Osiris Atef. Witch's pointy hat derives from Judenhut. Merlin's hat = Cabalistic. Narrator's grandmother as milliner on Lower East Side."
+    },
+    {
+      "id": "three_sisters",
+      "label": "Three Sisters / Norns / Moirai",
+      "cluster": "sacred_feminine",
+      "essays": ["211_fata.md", "213_las_tres_virgenes_martires.md", "209_thread_and_wheel.md", "214_arte_de_los_hilos_divinos.md"],
+      "weight": 8,
+      "notes": "Norns at Urðarbrunnr / Yggdrasil. Moirai spinning destinies. Fata/fée/hada etymology. Grimm's fairy godmothers. Macbeth's witches. Graeae / Gorgons. Narrator's grandmother = Lower East Side triplet."
+    },
+    {
+      "id": "fairy_godmother",
+      "label": "Fairy Godmothers / Craft Teachers",
+      "cluster": "sacred_feminine",
+      "essays": ["214_arte_de_los_hilos_divinos.md", "211_fata.md", "213_las_tres_virgenes_martires.md", "202_induction_adoption.md"],
+      "weight": 6,
+      "notes": "Black Forest fairy godmothers teach craft. Merlin's prophecy (virgin from oak forests of Lorraine). Fairy godmothers in Sleeping Beauty = three Moirai. Field lines of earth energy as fairy motifs."
+    },
+    {
+      "id": "runaway_bride",
+      "label": "Runaway Bride / Female Cross-Dresser",
+      "cluster": "sacred_feminine",
+      "essays": ["215_runaway_bride.md"],
+      "weight": 5,
+      "notes": "Thecla (first runaway bride). Pelagia / Margaret / Marina the Monk. Joan's Articles 8–16 (gender-bending). War machine of channeled eros. Womanhood weaponized through renunciation."
+    },
+    {
+      "id": "sacrifice_akedah",
+      "label": "Sacrifice / Akedah / Child Sacrifice",
+      "cluster": "sacrifice",
+      "essays": ["201_child_sacrifice.md", "199_hanibal.md", "213_las_tres_virgenes_martires.md", "220_la_coronacion.md"],
+      "weight": 7,
+      "notes": "Binding of Isaac. Capacocha (Incan child sacrifice). Aqlla wasi weavers sacrificed at Qorikancha. Carthaginian tophets / Moloch. Minotaur. Sanctification of violence through feminine suffering."
+    },
+    {
+      "id": "aqlla_wasi",
+      "label": "Aqlla Wasi / Incan Vestal Weavers",
+      "cluster": "sacrifice",
+      "essays": ["201_child_sacrifice.md", "202_induction_adoption.md"],
+      "weight": 6,
+      "notes": "Girls chosen and trained in weaving before sacrifice at Capacocha. Connects Rumpelstiltskin (spinning girl) and adoption archetypes to Incan ritual. Narrator fears being 'Hansel' at Colegio Invisible's seder."
+    },
+    {
+      "id": "argentina_memory",
+      "label": "Argentina / Desaparecidos / Coded Memory",
+      "cluster": "argentina",
+      "essays": ["171_primavera_camporista_and_bird_making.md", "219_trauma_y_trama.md", "204_hornero.md", "190_al_andalus_and_reconquista.md", "pet_sematary.md"],
+      "weight": 8,
+      "notes": "Primavera camporista (1973). El Proceso / desaparecidos. 'La máquina de hacer pájaros': birds as coded mourning. ESMA embroidery taller. Operation Condor. Río de la Plata as sinister zone."
+    },
+    {
+      "id": "operation_condor",
+      "label": "Operation Condor / Techno-Repression",
+      "cluster": "argentina",
+      "essays": ["pet_sematary.md"],
+      "weight": 7,
+      "notes": "Founded Nov. 25, 1975 (Pinochet's 60th birthday). DES + TCP/IP + VAX-11/780 + RSA co-emerge with Condor. Cryptography as krypteia (Spartan hunting). Accelerationism / Nick Land / Cthulhu."
+    },
+    {
+      "id": "potosi_colonial",
+      "label": "Potosí / Mit'a / Colonial Violence",
+      "cluster": "argentina",
+      "essays": ["204_hornero.md", "195_the_ring.md"],
+      "weight": 6,
+      "notes": "Potosí as 'man-eating mountain'. Mit'a forced labor. $ sign from PTSI mint mark. Muki dwarves in mines. Ana Lezama & Eustaquia (cross-dressing vigilantes). Phrygian cap on freed miners."
+    },
+    {
+      "id": "birds_augury",
+      "label": "Birds / Augury / Encrypted Speech",
+      "cluster": "argentina",
+      "essays": ["augury.md", "171_primavera_camporista_and_bird_making.md"],
+      "weight": 6,
+      "notes": "Castro's white doves. 'La máquina de hacer pájaros'. Birds as coded mourning for desaparecidos. Charly García's 'Hipercandombe'. PIE aug- root. Hornero (national bird of Argentina) → hollow earth."
+    },
+    {
+      "id": "german_romanticism",
+      "label": "German Romanticism / Pedagogy",
+      "cluster": "pedagogy",
+      "essays": ["173_oppenheimer_and_ethical_culture.md", "172_living_water_of_fairy_stories.md", "174_make_believe.md", "178_vril_and_subterranea_of_mitras.md"],
+      "weight": 7,
+      "notes": "Froebel / Kindergarten / Gifts. Pestalozzi / Schelling / Fichte. Felix Adler / Ethical Culture School. Steiner / Waldorf. Fairy tale as 'living water'. Make-believe as collective act of formation."
+    },
+    {
+      "id": "fairy_tales",
+      "label": "Fairy Tales / Brothers Grimm",
+      "cluster": "pedagogy",
+      "essays": ["172_living_water_of_fairy_stories.md", "202_induction_adoption.md", "218_atavismo_y_los_ninos_perdidos.md", "195_the_ring.md"],
+      "weight": 6,
+      "notes": "Grimm compiled Hänsel & Gretel, Rapunzel, Rumpelstiltskin (1812). Steiner: fairy tale as container for 'living water'. Rumpelstiltskin as Zoroastrian/Jewish craft archetype. Lost boys / Hansel & Gretel as atavism essay."
+    },
+    {
+      "id": "oppenheimer_quantum",
+      "label": "Oppenheimer / Quantum Mechanics / Manhattan Project",
+      "cluster": "pedagogy",
+      "essays": ["173_oppenheimer_and_ethical_culture.md", "185_seder_structuralism.md"],
+      "weight": 6,
+      "notes": "Ethical Culture School → Harvard → Göttingen (1927–28). Sanskrit + psychoanalysis + Born. 'Jewish Physics' label by Lenard/Stark. Bhagavad Gita 11:31 ('I am mighty Time'). Einstein-Wigner letter to FDR (1939)."
+    },
+    {
+      "id": "sacred_sites",
+      "label": "Sacred Sites / Geography of Power",
+      "cluster": "sacred_geo",
+      "essays": ["184_island_of_mountain_lake.md", "206_anubis.md", "201_child_sacrifice.md", "180_hermit_temptation_saint_anthony.md", "191_goethe_italian_exit.md", "193_ganas.md", "212_domremy_por_katrin_vates.md"],
+      "weight": 7,
+      "notes": "Qorikancha + Saqsaywaman (42 ceques, 328 huacas). Recoleta Cemetery. La Verna (Bosco delle Fate). Hadrian's Villa hermitage. Monte Verità / Eranos / Brissago. Five silver ingots charged at Joan of Arc statue."
+    },
+    {
+      "id": "ceque_lines",
+      "label": "Ceque Lines / Radial Sacred Geography",
+      "cluster": "sacred_geo",
+      "essays": ["201_child_sacrifice.md", "208_saint_christopher.md", "206_anubis.md"],
+      "weight": 6,
+      "notes": "42 ceques radiate from Qorikancha to 328 huacas. Cosmic energy lines mirrored in fairy-ground topology. Connects Incan geography to Saqsaywaman megaliths."
+    },
+    {
+      "id": "kaaba_cube",
+      "label": "Kaaba / Sacred Cube / Veil",
+      "cluster": "sacred_geo",
+      "essays": ["198_kaaba_of_mecca.md"],
+      "weight": 5,
+      "notes": "Kaaba as cubic sacred space. Kiswa embroidery. Himyarite Jewish kingdom. Zoroastrian Ka'ba-ye Zartosht. Veil of Temple torn at Crucifixion = portal opening."
+    },
+    {
+      "id": "atavism_star",
+      "label": "Atavism / STAR / Epigenetics",
+      "cluster": "doncella_cycle",
+      "essays": ["218_atavismo_y_los_ninos_perdidos.md", "199_hanibal.md"],
+      "weight": 6,
+      "notes": "STAR = stress-triggered atavistic reprogramming (2016 scholarship). Black Death famine → Hansel & Gretel. Peter Pan lost boys / 'mozos perdidos'. Gaucho as atavistic type. Atavist thread in Western unconscious."
+    },
+    {
+      "id": "standard_sta",
+      "label": "Standard / *stā- Root / Standing Ensign",
+      "cluster": "doncella_cycle",
+      "essays": ["217_el_estandarte.md"],
+      "weight": 6,
+      "notes": "PIE *stā → estandarte / standard. Joan's three ensigns. Campo / champ / campus etymology. Le Corbusier's right angle. SHA-256 / secp256k1 as modern 'standards'. Narrator walks with Tomás in Cazón."
+    },
+    {
+      "id": "recoleta_cemetery",
+      "label": "Recoleta Cemetery",
+      "cluster": "sacred_geo",
+      "essays": ["212_domremy_por_katrin_vates.md", "184_island_of_mountain_lake.md", "pet_sematary.md"],
+      "weight": 6,
+      "notes": "Ombú tree at Recoleta = ombú in Domrémy embroidery. Liliana Crociati mausoleum (died 1970, Austrian Alps avalanche): life-size dog Sabú as psychopomp. Barry / St. Bernard breed origin via Napoleon's army."
+    },
+    {
+      "id": "make_believe",
+      "label": "Make-Believe / Collective Fiction",
+      "cluster": "pedagogy",
+      "essays": ["174_make_believe.md", "172_living_water_of_fairy_stories.md"],
+      "weight": 6,
+      "notes": "Mister Rogers' trolley. Schelling / Pestalozzi / Froebel / Steiner: imagination as national subject formation. Any linguistic/religious/monetary network requires collective make-believe. Vril as occult make-believe truth."
+    },
+    {
+      "id": "indras_net",
+      "label": "Indra's Net / Dharmadhātu",
+      "cluster": "thread_knot",
+      "essays": ["209_thread_and_wheel.md"],
+      "weight": 6,
+      "notes": "Each node reflects all others. Tantra = fabric / sutra = thread. Chirality of yarn (Z vs. S twist). Mitra-Varuna sacred cordage. Connects textile to Buddhist cosmology."
+    },
+    {
+      "id": "pet_cemetery",
+      "label": "Pet Cemetery / Necromancy of Companions",
+      "cluster": "argentina",
+      "essays": ["pet_sematary.md"],
+      "weight": 6,
+      "notes": "Stephen King's Pet Sematary (1983). kryptós = crypt = burial = concealment. Cimetière des Chiens (1899, Asnières-sur-Seine). Moustache the dog crosses Great St. Bernard with Napoleon. Sabú at Recoleta. Last safe space from cybernetic reanimation."
+    },
+    {
+      "id": "ark_covenant",
+      "label": "Ark of the Covenant / Capacitive Chamber",
+      "cluster": "jewish_hidden",
+      "essays": ["179_reichian_ark_of_covenant_and_hyporborean_jew.md"],
+      "weight": 6,
+      "notes": "Concentric gold and acacia wood = alternating conductor/insulator layers = Reich's orgone accumulator. Holy of Holies. Destroyed by Nebuchadnezzar 586 BCE. Connects sacred electricity to Jewish metalsmithing tradition."
+    },
+    {
+      "id": "monte_verita",
+      "label": "Monte Verità / Eranos / Lake Maggiore",
+      "cluster": "occult_europe",
+      "essays": ["191_goethe_italian_exit.md", "193_ganas.md"],
+      "weight": 5,
+      "notes": "Monte Verità founded 1902, Ascona. Gustav Gräser as hippie prototype. Laban residency 1913–18. OTO. Eranos conferences: Fröbe-Kapteyn, Jung, Keyserling. The geography of European esotericism."
+    }
+  ],
+  "edges": [
+    {"a": "thread_textile", "b": "knot_topology", "label": "fiber becomes knot, suture, spine", "weight": 5},
+    {"a": "thread_textile", "b": "quipu", "label": "thread encoded as mnemonic record", "weight": 5},
+    {"a": "thread_textile", "b": "embroidery", "label": "thread as cryptographic surface", "weight": 5},
+    {"a": "thread_textile", "b": "three_sisters", "label": "Moirai / Norns spin the thread of fate", "weight": 5},
+    {"a": "thread_textile", "b": "sacrifice_akedah", "label": "aqlla wasi weavers are sacrificial subjects", "weight": 4},
+    {"a": "knot_topology", "b": "quipu", "label": "knot as information node", "weight": 5},
+    {"a": "knot_topology", "b": "anubis", "label": "Anubis threads = knotted cords; vertebra hieroglyph", "weight": 4},
+    {"a": "quipu", "b": "blockchain_quipu", "label": "Andean knot record becomes digital protocol", "weight": 5},
+    {"a": "quipu", "b": "cryptography", "label": "knotted writing as covert communication", "weight": 4},
+    {"a": "embroidery", "b": "domremy_embroidery", "label": "Domrémy embroidery as specific cryptographic artifact", "weight": 5},
+    {"a": "embroidery", "b": "encoded_threads", "label": "Laura Maier's diptych as counterpart artifact", "weight": 4},
+    {"a": "joan_arc", "b": "three_virgin_martyrs", "label": "Margaret and Catherine are Joan's patron saints", "weight": 5},
+    {"a": "joan_arc", "b": "domremy_embroidery", "label": "embroidery is about Joan's birthplace", "weight": 5},
+    {"a": "joan_arc", "b": "augury", "label": "Joan choreographs the augury of Charles VII's anointing", "weight": 4},
+    {"a": "joan_arc", "b": "standard_sta", "label": "Joan's three ensigns / PIE *stā root", "weight": 4},
+    {"a": "joan_arc", "b": "runaway_bride", "label": "Joan as runaway bride archetype", "weight": 4},
+    {"a": "joan_arc", "b": "atavism_star", "label": "Joan as STAR-triggered atavistic rupture", "weight": 3},
+    {"a": "three_virgin_martyrs", "b": "three_sisters", "label": "same three-sisters archetype", "weight": 5},
+    {"a": "three_virgin_martyrs", "b": "decapitation", "label": "all three are beheaded; Catherine produces milk", "weight": 4},
+    {"a": "three_virgin_martyrs", "b": "wheel_spin", "label": "Catherine's wheel is co-evolved with thread loom", "weight": 4},
+    {"a": "domremy_embroidery", "b": "ombu_tree", "label": "ombú in embroidery = Recoleta ombú = pampas ombú", "weight": 5},
+    {"a": "domremy_embroidery", "b": "cryptography", "label": "32-byte steganographic payload in ground stitches", "weight": 5},
+    {"a": "domremy_embroidery", "b": "blockchain_quipu", "label": "embroidery anchored on Dogecoin blockchain", "weight": 5},
+    {"a": "augury", "b": "cryptography", "label": "PIE aug- / Certificate Authority are the same semantic field", "weight": 4},
+    {"a": "cryptography", "b": "blockchain_quipu", "label": "cryptographic standards realize the quipu protocol", "weight": 5},
+    {"a": "cryptography", "b": "operation_condor", "label": "DES/RSA/TCP-IP co-emerge with Condor's krypteia", "weight": 4},
+    {"a": "blockchain_quipu", "b": "encoded_threads", "label": "three keys (Hayagriva/Christophia/Anthony) link diptych to blockchain", "weight": 5},
+    {"a": "cynocephalus", "b": "anubis", "label": "narrator shares dog-head with Anubis", "weight": 5},
+    {"a": "cynocephalus", "b": "saint_christopher", "label": "narrator shares dog-head with Reprobus/Christopher", "weight": 5},
+    {"a": "cynocephalus", "b": "hermit", "label": "hermit baptizes the cynocephalus", "weight": 4},
+    {"a": "cynocephalus", "b": "vril_orgone", "label": "Wilhelm Reich also self-identifies as cynocephalus", "weight": 3},
+    {"a": "anubis", "b": "saint_christopher", "label": "both are dog-headed ferrymen / psychopomps", "weight": 5},
+    {"a": "anubis", "b": "thread_textile", "label": "Anubis wraps Osiris in cloth; 'Anubis threads'", "weight": 4},
+    {"a": "anubis", "b": "hayagriva", "label": "both are divine figures with animal heads bearing secret knowledge", "weight": 3},
+    {"a": "hayagriva", "b": "decapitation", "label": "Vishnu decapitated; horse-head transmits secret", "weight": 5},
+    {"a": "hayagriva", "b": "encoded_threads", "label": "Hayagriva is one of three Certificate Authority keys", "weight": 4},
+    {"a": "hayagriva", "b": "three_sisters", "label": "three-key system mirrors three-sisters archetype", "weight": 3},
+    {"a": "ombu_tree", "b": "argentina_memory", "label": "ombú = pampas / gauchos / Argentina", "weight": 4},
+    {"a": "ombu_tree", "b": "atavism_star", "label": "ombú shelters mozos perdidos / atavistic gauchos", "weight": 3},
+    {"a": "phrygian_cap", "b": "subterranean_dwarves", "label": "gnomes and freed miners share the cap", "weight": 4},
+    {"a": "phrygian_cap", "b": "jewish_diaspora", "label": "Cyrus gives Phrygian cap to emancipated Jews", "weight": 4},
+    {"a": "phrygian_cap", "b": "mithraism", "label": "Mithraeum: Mithras wears the Phrygian cap", "weight": 4},
+    {"a": "phrygian_cap", "b": "judenhut_witches", "label": "Judenhut → witch's hat → Merlin's hat → Phrygian cap: same genealogy", "weight": 4},
+    {"a": "subterranean_dwarves", "b": "hyperborean_jew", "label": "dwarves = Hyperborean Jews as subterranean demiurges", "weight": 5},
+    {"a": "subterranean_dwarves", "b": "potosi_colonial", "label": "Muki dwarves in Potosí mines", "weight": 4},
+    {"a": "hyperborean_jew", "b": "jewish_diaspora", "label": "northward Babylonian diaspora → Scythian → Nordic", "weight": 4},
+    {"a": "vril_orgone", "b": "ark_covenant", "label": "both are capacitive chambers for accumulating energy", "weight": 4},
+    {"a": "vril_orgone", "b": "mithraism", "label": "Bulwer-Lytton influenced by Mithraic subterranean tradition", "weight": 3},
+    {"a": "goethe_masonry", "b": "napoleon_templars", "label": "Goethe and Napoleon meet at Erfurt; both on Masonic checkerboard", "weight": 5},
+    {"a": "goethe_masonry", "b": "checkerboard", "label": "Masonic floor; chess metaphor for their encounter", "weight": 4},
+    {"a": "goethe_masonry", "b": "jung_eranos", "label": "Jung's grandfather rumored to be Goethe's illegitimate son", "weight": 3},
+    {"a": "goethe_masonry", "b": "monte_verita", "label": "Goethe's undocumented Lugano passage leads to Monte Verità geography", "weight": 3},
+    {"a": "goethe_masonry", "b": "jewish_diaspora", "label": "Goethe studies Yiddish; father's dog-face portrait (Crypto-Jewish motif)", "weight": 3},
+    {"a": "napoleon_templars", "b": "jewish_diaspora", "label": "Napoleon emancipates Jews in French territories", "weight": 3},
+    {"a": "checkerboard", "b": "indras_net", "label": "8×8 grid / I Ching 64 hexagrams = both are net-of-nodes cosmologies", "weight": 3},
+    {"a": "jung_eranos", "b": "make_believe", "label": "Active Imagination as collective make-believe ritual", "weight": 3},
+    {"a": "jewish_diaspora", "b": "sacrifice_akedah", "label": "Akedah is the paradigmatic Jewish sacrifice", "weight": 4},
+    {"a": "jewish_diaspora", "b": "court_jews", "label": "court Jews as the hidden-transmission vector inside power", "weight": 4},
+    {"a": "court_jews", "b": "crypto_jews", "label": "court Jews survive by strategic concealment = crypto-Jews", "weight": 4},
+    {"a": "three_sisters", "b": "fairy_godmother", "label": "three Moirai = three fairy godmothers = three virgins", "weight": 5},
+    {"a": "three_sisters", "b": "judenhut_witches", "label": "Macbeth's three witches also wear pointed hats", "weight": 3},
+    {"a": "sacrifice_akedah", "b": "aqlla_wasi", "label": "aqlla wasi girls = weaver-sacrifice archetype", "weight": 4},
+    {"a": "sacrifice_akedah", "b": "thread_textile", "label": "sacrifice and weaving are co-embedded (aqlla wasi)", "weight": 3},
+    {"a": "argentina_memory", "b": "operation_condor", "label": "Operation Condor is the mechanism of desaparecidos", "weight": 5},
+    {"a": "argentina_memory", "b": "birds_augury", "label": "birds as coded mourning for desaparecidos", "weight": 4},
+    {"a": "argentina_memory", "b": "ombu_tree", "label": "ombú as Argentine identity symbol", "weight": 4},
+    {"a": "operation_condor", "b": "cryptography", "label": "DES + TCP/IP + krypteia emerge together", "weight": 4},
+    {"a": "operation_condor", "b": "pet_cemetery", "label": "pet cemetery = last safe memory space from Condor-era krypteia", "weight": 4},
+    {"a": "potosi_colonial", "b": "sacrifice_akedah", "label": "mit'a forced labor = colonial child sacrifice", "weight": 3},
+    {"a": "german_romanticism", "b": "fairy_tales", "label": "Grimm compiled fairy tales; Steiner used them in Waldorf", "weight": 5},
+    {"a": "german_romanticism", "b": "make_believe", "label": "Romantic pedagogy = collective make-believe as subject formation", "weight": 4},
+    {"a": "german_romanticism", "b": "vril_orgone", "label": "Bulwer-Lytton / Maria Orsic / Reich operate within Romantic tradition", "weight": 3},
+    {"a": "fairy_tales", "b": "aqlla_wasi", "label": "Rumpelstiltskin spinning girl = aqlla wasi weaver-sacrifice archetype", "weight": 3},
+    {"a": "fairy_tales", "b": "subterranean_dwarves", "label": "Snow White's seven dwarves, Rumpelstiltskin = subterranean craft guild", "weight": 4},
+    {"a": "oppenheimer_quantum", "b": "german_romanticism", "label": "Oppenheimer at Göttingen: Froebel and Gauss crossed paths there 100 years earlier", "weight": 3},
+    {"a": "oppenheimer_quantum", "b": "jewish_diaspora", "label": "'Jewish Physics' label; Manhattan Project as diaspora achievement", "weight": 4},
+    {"a": "sacred_sites", "b": "ceque_lines", "label": "ceque lines radiate from Qorikancha to sacred sites", "weight": 5},
+    {"a": "sacred_sites", "b": "recoleta_cemetery", "label": "Recoleta as sacred necropolis (ombú + Liliana)", "weight": 4},
+    {"a": "ceque_lines", "b": "indras_net", "label": "both are radial/net topologies of sacred energy", "weight": 3},
+    {"a": "kaaba_cube", "b": "ark_covenant", "label": "both are sacred cubic containers charged with divine energy", "weight": 4},
+    {"a": "kaaba_cube", "b": "jewish_diaspora", "label": "Himyarite Jewish kingdom historically covered the Kaaba", "weight": 3},
+    {"a": "monte_verita", "b": "jung_eranos", "label": "same geography: Ascona / Eranos / Lake Maggiore", "weight": 5},
+    {"a": "wheel_spin", "b": "thread_textile", "label": "wheel and thread are co-evolved technologies", "weight": 5},
+    {"a": "wheel_spin", "b": "sufi_rotation", "label": "Catherine's wheel → Sufi sama → quantum spin", "weight": 4},
+    {"a": "birds_augury", "b": "augury", "label": "both concern the auspicia (reading birds as state authority)", "weight": 5},
+    {"a": "standard_sta", "b": "cryptography", "label": "SHA-256 / secp256k1 etymologically = standards (from *stā)", "weight": 4},
+    {"a": "pet_cemetery", "b": "anubis", "label": "Anubis = original guardian of the burial ground", "weight": 3},
+    {"a": "pet_cemetery", "b": "recoleta_cemetery", "label": "Sabú at Recoleta = pet cemetery in an official necropolis", "weight": 4},
+    {"a": "make_believe", "b": "fairy_tales", "label": "fairy tales as the vehicle of collective make-believe", "weight": 4},
+    {"a": "judenhut_witches", "b": "three_sisters", "label": "witches wear Judenhut derivatives; both are three-sisters figures", "weight": 3},
+    {"a": "ark_covenant", "b": "jewish_diaspora", "label": "Ark lost in Babylonian exile; northward dispersal follows", "weight": 3}
+  ],
+  "clusters": [
+    {
+      "id": "thread_knot",
+      "label": "Thread, Knot & Textile",
+      "theme": "The structural substrate of the corpus. Thread is both material and metaphysical — it links fabric, fate, memory, mathematics, and communication."
+    },
+    {
+      "id": "doncella_cycle",
+      "label": "Joan of Arc / La Doncella Cycle",
+      "theme": "The corpus's stated subject: Joan of Arc as anchor figure for a meditation on sanctified violence, feminine power, and the steganographic transmission of authority."
+    },
+    {
+      "id": "quipu_protocol",
+      "label": "Cryptography & the Quipu Protocol",
+      "theme": "The corpus's contemporary technical register: blockchain, secp256k1, SHA-256, and the Invisible College digital quipu protocol as extensions of Andean knotted writing into the present."
+    },
+    {
+      "id": "narrator",
+      "label": "The Cynocephalus Narrator",
+      "theme": "The autobiographical spine: a dog-headed, hermit-adjacent narrator who shares identity with Anubis, Saint Christopher, and Wilhelm Reich — a psychopomp moving between worlds."
+    },
+    {
+      "id": "subterranean",
+      "label": "Subterranean / Dwarves / Vril",
+      "theme": "The descending axis: underground temples, dwarves as metaphors for hidden Jewish transmission, Vril as occult subterranean energy, Antarctic fantasies, the mine as hell-mouth."
+    },
+    {
+      "id": "occult_europe",
+      "label": "Goethe, Freemasonry & Occult Europe",
+      "theme": "The European Romantic axis: Goethe's Masonic initiation, Napoleon's Templar ambitions, Jung-Eranos-Keyserling, and the occult geography of Switzerland/Italy."
+    },
+    {
+      "id": "jewish_hidden",
+      "label": "Jewish Diaspora & Hidden Transmission",
+      "theme": "The hidden-knowledge thread: from the Ark of the Covenant through Court Jews, conversos, Judenhut, and the Hyperborean Jewish diaspora to the Manhattan Project."
+    },
+    {
+      "id": "sacred_feminine",
+      "label": "Sacred Feminine & Three Sisters",
+      "theme": "The mythic archetype of three women (Norns, Moirai, Virgin Martyrs, fairy godmothers, Macbeth's witches) as the spinning force behind history."
+    },
+    {
+      "id": "sacrifice",
+      "label": "Sacrifice, Martyrdom & Akedah",
+      "theme": "The blood theology: from the Akedah through Incan Capacocha to the desaparecidos — sacrifice as the price of the sacred order."
+    },
+    {
+      "id": "argentina",
+      "label": "Argentina / Río de la Plata & Memory",
+      "theme": "The contemporary political register: the primavera camporista, the desaparecidos, Operation Condor, rock nacional as coded mourning, and the ombú as Atlantic bridge."
+    },
+    {
+      "id": "pedagogy",
+      "label": "German Romanticism & Pedagogy",
+      "theme": "The formation of the subject: Froebel, Steiner, Grimm, Felix Adler — make-believe and fairy tale as technology of national and personal identity."
+    },
+    {
+      "id": "rotation",
+      "label": "Rotation, Spin & the Wheel",
+      "theme": "A kinetic cosmology: the spinning loom and Catherine's wheel, Sufi sama, quantum angular momentum, and the non-inertial frame at the Earth's poles."
+    },
+    {
+      "id": "decapitation",
+      "label": "Decapitation & Secret Knowledge",
+      "theme": "The price of gnosis: Hayagriva, Catherine, Christopher, Templar martyrs — severed heads that produce milk or transmit the secret."
+    },
+    {
+      "id": "sacred_geo",
+      "label": "Sacred Sites & Radial Geography",
+      "theme": "Power encoded in landscape: Qorikancha's ceque lines, Saqsaywaman, La Verna, Monte Verità, Recoleta Cemetery — the geography of the corpus is itself a map of initiation."
+    }
+  ]
+}
