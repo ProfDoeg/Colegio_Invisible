@@ -47,6 +47,7 @@ from concurrent.futures import ThreadPoolExecutor
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
+import fast_signing  # noqa: F401 — applies coincurve monkeypatch; QUIPU_SLOW_SIGN=1 to bypass
 import cryptos
 from cryptos import serialize as cs_serialize
 from colegio_tools import CadenaAtom, _txid_of_serial, MEMPOOL_ANCESTOR_LIMIT
