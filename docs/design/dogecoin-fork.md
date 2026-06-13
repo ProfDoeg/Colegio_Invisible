@@ -1,32 +1,57 @@
 # Dogecoin Core fork: native quipu — design plan
 
-*Loose design, 2026-06-13. A fork of dogecoin/dogecoin (1.14) that understands
-quipu natively: reading, writing, scanning as first-class node features, with
-literature (LaTeX) and 3D rendering as a client layer on top.*
+*Loose design, 2026-06-13 (revised through the day's discussion). A fork of
+dogecoin/dogecoin (1.14) split by verb: the node is the chain-actuator —
+**read · write · pay · receive** (bytes & value, on and off the chain); the
+Python client is the mind — **compose · interpret · buy · sell** (meaning &
+intent), holding the format, the rendering, and the sale logic. Offers stay
+off-chain; there is no marketplace.*
 
 ---
 
-## The shape: three layers
+## The shape: two halves, split by verb
 
-The instinct "port as much to C++ as possible" is right, but the daemon should
-stay an **engine**, not an everything-machine. Three layers, by what each is:
+The instinct "port as much to C++ as possible" is right in spirit but wrong in
+extent: the daemon should be the **chain-actuator**, not an everything-machine.
+The clean factoring is by verb — meaning-side vs chain-side:
+
+| Client (Python) — *meaning & intent* | Fork (C++) — *bytes & value on the chain* |
+|---|---|
+| **compose** a quipu | **write** it to chain |
+| **interpret** a quipu | **read** it from chain |
+| **sell** / **buy** | **receive** / **pay** |
+
+The boundary is one question: **does it move bytes or value on the chain?** →
+fork. **Does it decide meaning or intent?** → client. Nothing crosses: the node
+never interprets a quipu's meaning; the client never touches the chain directly.
 
 ```
-  L3  CLIENT     rendering · LaTeX · 3D · UI        Python / JS / a desktop app
-                 (talks to L1 over RPC)             — stays OUT of the daemon
-  ─────────────────────────────────────────────────────────────────────────
-  L1  ENGINE     quipuread / quipuwrite / scan      native C++ in dogecoind
-                 + crypto, wallet, broadcast        (new src/rpc/quipu.cpp)
-  ─────────────────────────────────────────────────────────────────────────
-  L2  FORMAT     libquipu — every type's            C++ library, linked by L1
-                 parse/build (the wire format)      ported from canonical/*
+  CLIENT (Python app)   compose · interpret · buy · sell        the mind
+    canonical/* codecs · adaptor crypto · LaTeX · 3D · UI       — meaning & intent
+    ───────────────────────────  RPC (bytes & value)  ───────────────────────────
+  FORK (C++ dogecoind)  read · write · pay · receive            the actuator
+    read-index + in-process walk · in-process diamond+sign      — chain I/O only
+    · stock wallet (pay/receive) · stock script (HTLC)
 ```
 
-L2 is the bulk of the port and the heart of the protocol; L1 wires it to the
-chain; L3 is what we already have, repointed at the native RPC. The reason
+**The format (`canonical/*`) stays Python, in the client — it is NOT ported to
+C++.** Decoding is cheap (the 1.1 MB `<<coasts>>` parses in well under a second);
+only the *walk* was ever slow, and that's the node's job. So the node treats
+quipu payloads as **opaque bytes** — it assembles them (read) and chunks/signs/
+broadcasts them (write) without ever understanding celestial vs scene vs essay.
+This keeps the rich, fast-iterating work (formats, rendering, sale logic) in
+Python where you can change it without recompiling a daemon, and keeps **one**
+implementation of the format (no C++/Python byte-identity oracle to maintain).
+
+The genuinely *new* native code is therefore just **two subsystems**: the
+**read** index (spentindex + addressindex + in-process walk) and the **write**
+engine (in-process diamond + native signing). **Pay and receive come free** with
+Dogecoin Core — it is already a wallet that sends, receives, and validates the
+HTLC script. The fork stays tiny.
+
 LaTeX and 3D do **not** go in the daemon: a consensus node has no business
-shelling out to xelatex or rasterizing scenes — those are client concerns, and
-keeping them out keeps the fork lean, auditable, and mergeable-upstream-shaped.
+shelling out to xelatex or rasterizing scenes. Keeping them out keeps the fork
+lean, auditable, and mergeable-upstream-shaped.
 
 ---
 
@@ -78,12 +103,12 @@ chain, not of your keys — which is correct, because quipu are public.
 > fresh lean one (or the watched addresses dropped) — the 88k dust txs retire.
 >
 > Optional throwaway: a 2-day wallet-scoped `quipuread` via `mapTxSpends` can
-> prove the L1↔L2 decode path *before* the index is built, then be discarded.
-> It is scaffolding, not the design.
+> prove the walk → bytes path (the Python client decodes the result) *before*
+> the index is built, then be discarded. It is scaffolding, not the design.
 
 ---
 
-## Layer 1 — the native engine (C++ RPC)
+## The fork (the node) — read · write · pay · receive  (C++ RPC)
 
 New file `src/rpc/quipu.cpp`, registered via `RegisterQuipuRPCCommands` in
 `src/rpc/register.h`, added to `src/Makefile.am` (after `rpc/net.cpp`). The
@@ -96,11 +121,14 @@ registration pattern is the standard static `CRPCCommand commands[]` table
   OP_RETURN, advance to its `:0`. No wallet involved.
 - **OP_RETURN extraction:** `CScript::GetOp()` loop, detect `OP_RETURN (0x6a)`,
   collect pushed data (script.h:475).
-- **Decode:** hand the assembled bytes to **L2/libquipu** → typed result
-  (header magic `c1dd`, type byte, tone, body) → `UniValue` JSON out.
-- `quipuread <txid>` → the decoded content; `quipuscan <address>` → all quipus
-  at an address; `quipuroots <address>` → root txids (port `identify_quipus`:
-  txs with no own OP_RETURN whose `:0` spender carries `c1dd`).
+- **Return bytes, not meaning:** the node assembles the strand into the raw
+  header+body blob and returns it (plus the header's type/tone byte, read
+  trivially for routing). It does **not** decode the format — the Python client
+  does that.
+- `quipuread <txid>` → the assembled blob; `quipuscan <address>` → blobs of all
+  quipus at an address; `quipuroots <address>` → root txids (`identify_quipus`:
+  txs with no own OP_RETURN whose `:0` spender carries the `c1dd` magic — the
+  *only* format-awareness the node has).
 
 ### Write path  →  `quipuwrite`, later `quipuinscribe`
 - **OP_RETURN outputs:** `CTxOut(0, CScript() << OP_RETURN << data)`
@@ -110,67 +138,57 @@ registration pattern is the standard static `CRPCCommand commands[]` table
   via `CKey::Sign` → bundled **libsecp256k1** (key.cpp:169). No external lib.
 - **Broadcast:** `AcceptToMemoryPool` + `RelayTransaction`
   (rawtransaction.cpp:909) — or `CWallet::CommitTransaction`.
+- **Opaque payload:** the client *composes* the quipu blob (Python
+  `canonical/*`) and hands the bytes to the node; the node chunks them into the
+  diamond without understanding the format.
 - `quipuwrite` = one strand; **`quipuinscribe`** = the full multi-strand
-  orchestration (root → strands → join), i.e. the diamond, native. Port
-  `quipu_diamond` / `quipu_orchestrator` last — it's the most intricate piece
-  (fee-accurate sizing, placeholder-txid backfill, the join tree).
+  orchestration (root → strands → join), i.e. the diamond, native. Port the
+  chain mechanics of `quipu_diamond` last — it's the most intricate piece
+  (fee-accurate sizing, placeholder-txid backfill, and the join *tree* for the
+  100 KB MAX_STANDARD_TX_SIZE limit we hit this week).
 
-### Crypto — **all in-tree**, this is the happy surprise
-The scout confirmed everything the encrypted quipu types need is already in
-`src/crypto/` and `src/secp256k1/`:
-- **ECDH** — `secp256k1_ecdh()` (+ SHA256 hash) → the `shared_key` primitive.
-- **AES256-CBC + PKCS7** — `src/crypto/aes.h` (ctaes) → the AES seal.
-- **SHA256 / RIPEMD160 / HMAC-SHA256/512** → headers, KDFs, ids.
-Only the *composition* (the exact KDF wrapping ECDH→AES key) must be written, to
-match the Python `_shared_key` (HKDF-SHA256) byte-for-byte. So the **encrypted
-family (0x0e: AES-seal `0xae`, broadcast `0xec`, keydrop `0x0d`) ports natively**
-— and `cryptos`, `eciespy`, `pycryptodome` all **drop**.
-
----
-
-## Layer 2 — the format core (the SPEC port; the bulk of the work)
-
-`canonical/*` is the wire format — ~16 type modules, each a struct + serializer
-to port into **libquipu** (a C++ static lib with no chain dependency, so it's
-unit-testable in isolation and linkable by L1).
-
-| Quipu type | byte | canonical module | port priority |
-|---|---|---|---|
-| text | 0x00 | text.py | **M1 (first)** |
-| essay | 0x01 | essay.py (citations, binding blocks) | M2 |
-| image | 0x03 | image.py (+ the bit-codec) | M3 |
-| latex | 0x5c | latex.py | M2 |
-| binding | 0xab | bindings.py (alias/sub/import eval) | M2 |
-| celestial | 0xce | celestial.py (earth/star, grouped) | M2 |
-| cert | 0xcc | cert.py | M3 |
-| book | 0x09 | book.py | M3 |
-| encrypted | 0x0e | encrypted.py (ae/ec/0d sub-families) | M3 (with crypto) |
-| scene | 0x3d | scene.py (glTF) | M4 |
-| dancer | 0xd4 | dancer.py (keyframes) | M4 |
-| estandarte | 0x5e | estandarte.py (vector layers) | M4 |
-| — shared — | — | structure.py, tone.py, quipu_refs.py, adaptor.py | M1 (foundation) |
-
-Shared foundation first: `structure.py` (the magic+type+tone+pipe-field header)
-→ `header.cpp`; `tone.py` → a constants header.
-
-**Test strategy — Python is the gold oracle** (the coincurve pattern, scaled up):
-for every type, the Python `build_*`/`read_*` emits reference vectors, and the
-C++ must reproduce them byte-for-byte. Two vector sources:
-1. **The real corpus** — `data/bodies/*.bin` (81 inscriptions, including the new
-   1.1 MB `<<coasts>>`) → round-trip each through C++ libquipu, assert identical.
-2. **Synthesized edge cases** — per type, mirroring each canonical module's own
-   selftests.
-
-This is exactly why **packagify matters**: each clean Python module becomes one
-C++ porting unit *with its own oracle*. Packagify is step zero of the port, not
-busywork — it draws the seams the C++ cuts along.
+### Crypto — the node signs natively; box-crypto stays in the client
+Transaction signing — write, pay, the HTLC claim/refund legs — uses Core's
+bundled **libsecp256k1** (`CKey::Sign`, key.cpp:169): fast, native, no external
+library. That is the *only* crypto the node needs, and it retires `cryptos`'s
+pure-Python ECDSA entirely.
+The **box crypto** — ECIES sealing/unsealing, the AES content seal, the adaptor
+binding — is *composing/interpreting/selling*, so it **stays in the Python
+client**: cheap (a handful of EC ops), delicate (money-grade, with a deployed
+mainnet reference), single implementation. The node never needs it. *(Latent
+capability, not used: `src/crypto/` + `src/secp256k1/` already carry ECDH,
+AES256-CBC, SHA256, HMAC — so the node could do box crypto someday, but there's
+no speed reason to reimplement proven money-crypto.)*
 
 ---
 
-## Layer 3 — the client (stays out of the daemon)
+## The format: stays Python in the client (NOT ported)
 
-Unchanged in spirit; repointed from "walk the chain in Python" to "call the
-native RPC." What lives here and why it must:
+`canonical/*` — the ~16 type modules (text, essay, image, latex, binding,
+celestial, cert, book, encrypted, scene, dancer, estandarte, plus the shared
+`structure` / `tone` / `quipu_refs` / `adaptor`) — is the wire format, and it
+**stays exactly where it is: Python, in the client.** It is not ported to C++.
+
+Why: encode/decode is cheap (the 1.1 MB `<<coasts>>` parses in well under a
+second), and the node treats payloads as opaque bytes — so there is no speed
+reason and no node reason to port it. Keeping it Python buys:
+- **one implementation** — no C++/Python divergence, *no byte-identity oracle to
+  maintain* (the oracle only made sense when two implementations had to agree);
+- **fast iteration** — add a type or change a decode without recompiling a
+  daemon;
+- the format lives next to the rendering and authoring that consume it.
+
+The node's *entire* format-awareness is the `c1dd` magic (to recognize roots).
+What a celestial figure or a scene or an essay *means* is the client's, forever.
+
+---
+
+## The client (the app) — compose · interpret · buy · sell
+
+The Python side, repointed from "walk the chain myself" to "call the node's
+RPC." It holds the meaning and the intent.
+
+**Interpret / compose** — `canonical/*` codecs + the renderers:
 
 | Tool | tech | renders |
 |---|---|---|
@@ -178,51 +196,91 @@ native RPC." What lives here and why it must:
 | `colegio_pipeline.py` | XeLaTeX | essays/books → PDF (the literature) |
 | `essay_renderer.py` | HTML | typographic essay/cert/identity views |
 | `celestial_render.py` | SVG/matplotlib | 0xce figures |
-| `scene_viewer.py` | Three.js/WebGL | interactive 3D |
+| `scene_viewer.py` | Three.js/WebGL | interactive 3D (OpenGL-class) |
 | `quipu_console.py` | Streamlit | the authoring/reading UI |
 | `quipu_loom.py`, `loom_monitor.py` | HTML/HTTP | live broadcast weave |
 
-These call `quipuread`/`quipuscan` instead of `scan_accounts` + dataframes —
-faster (no RPC storms, the node walks in-process) and simpler (no pandas). The
-eventual "Colegio app that does everything" is this layer, packaged: a desktop
-shell (Tauri/Electron/PyQt — open question) wrapping the renderers + a stock
-forked node. The daemon stays lean; the app is where LaTeX and 3D live.
+These call `quipuread` (get bytes) → decode in Python → render; and compose in
+Python → `quipuwrite` (hand bytes to the node). No more `scan_accounts` rescans,
+no pandas.
+
+**Buy / sell** — entirely client-side, on standard script, **no marketplace.**
+Your verified-key sale (deployed mainnet 2026-06-08: HTLC + ECDSA adaptor
+signatures + `0x0e 0xcb` sealed box) runs here unchanged:
+- **Offers stay off-chain** (Nostr gossip, or quieter). There is **no on-chain
+  offer index and no order book** — a storefront nailed to the cathedral door
+  would betray the whole register. The invisible college sells a manuscript by
+  private correspondence, not from a stall.
+- The **adaptor/DLEQ binding** (`canonical/adaptor.py`) — buyer-verifies-before-
+  paying — stays Python: cheap, delicate, one implementation.
+- The HTLC is **standard Dogecoin Script** (`OP_SHA256`, `OP_CHECKLOCKTIMEVERIFY`)
+  — every node already validates it. **The daemon never knows a sale is
+  happening**: it sees a P2SH like any other. Constitutionally incapable of
+  being a marketplace, which is exactly right.
+- Settlement (fund the bond, claim revealing the key, refund) is *pay/receive* —
+  the fork's stock wallet, broadcasting standard txs.
+
+### Why on-chain at all, and not everything on Nostr
+The line: **the chain carries only what needs money, atomicity, or permanence;
+everything ephemeral is Nostr.** A sale's *settlement* is irreducibly on-chain —
+atomic exchange of value for a secret needs a ledger with both coins and script,
+which Nostr is not. And on-chain, the key-reveal is permanent and public: the
+first buyer pays to *unseal the box for the world*, recorded forever — patronage
+of revelation, not DRM (a Nostr "sale" would be a retractable private password-
+pass, a lesser and different act). So: **settlement on-chain, always; offers and
+identity on Nostr; the box on-chain by artistic choice** (permanence is the
+medium — same reason we fork the node instead of running an indexer).
+
+The eventual "Colegio app that does everything" is this whole client layer,
+packaged: a desktop shell (Tauri / Electron / PyQt — open question) over the
+renderers + sale logic + a stock forked node. The daemon stays lean; the app is
+where LaTeX, 3D, and commerce live.
 
 ---
 
-## What the fork lets us drop
+## What changes in the Python deps
 
-- **`cryptos` (pybitcointools)** — tx construction + signing become native
-  (`CWallet` + libsecp256k1). The fragile, unmaintained, pinned dependency that
-  bit us twice this week simply isn't needed in C++.
-- **`eciespy`, `pycryptodome`** — ECIES + AES become native (in-tree secp256k1
-  ECDH + ctaes).
-- The Python **NODE** layer (reading/writing/crypto/orchestration) thins to RPC
-  clients or retires; **SPEC** stays as the oracle; **CLIENT** stays as the app.
+- **`cryptos` (pybitcointools) leaves the client** — its job (tx construction +
+  ECDSA signing) moves to the node (`CWallet` + libsecp256k1). The fragile,
+  unmaintained, pinned dependency that bit us twice this week is retired from the
+  write/pay path; any residual address-derivation need is trivial to replace.
+- **`pandas` leaves the read path** — the node walks in-process and returns
+  bytes; no dataframes to assemble an address's history.
+- **Kept on purpose:** `eciespy` / `pycryptodome` / `coincurve` **stay** in the
+  client — they do the box crypto (ECIES/AES seal) and the adaptor signatures,
+  which are *compose / interpret / sell*, not chain I/O. One implementation, in
+  Python, where the money-crypto already has a mainnet-proven reference. (Earlier
+  drafts said these drop; that was when we imagined porting crypto to C++ — we
+  don't.)
 
 ---
 
 ## Milestone sequence
 
-- **M0 — now:** packagify the toolkit (the porting map) + this design.
-- **M1 — toolchain proof:** `libquipu` skeleton + shared header (`structure`,
-  `tone`) + **one type (text 0x00)** ported, byte-identity oracle harness green
-  against the corpus. Proves the Python-gold → C++ workflow end to end.
-  *(Optional: a throwaway wallet-scoped `quipuread` here to prove the decode
-  path before the index exists — scaffolding, discarded after M2.)*
-- **M2 — the catalog (the real-fork moment):** the **quipuindex**
-  (spentindex + addressindex) in ConnectBlock/DisconnectBlock + reindex; then
-  `quipuread` / `quipuscan` / `quipuroots` reading *any* quipu by txid, wallet-
-  free; text + essay + celestial + latex + binding types. `dogecoin-cli
-  quipuread <txid>` returns inscribed content from a node that understands
-  quipu. This is the milestone that makes it a *fork*.
-- **M3 — write + crypto (the purse):** native ECIES/AES (drops the crypto deps);
-  the 0x0e encrypted family; `quipuwrite` (single strand) funded + signed from
-  the lean wallet. The wallet stops watching quipu addresses.
-- **M4 — inscription + the rest:** `quipuinscribe` (the diamond, native) +
-  scene/dancer/estandarte types. Repoint the client renderers at native RPC.
-- **M5 — the everything-app + UI:** a Qt wallet tab showing quipus + the desktop
-  app shell wrapping the renderers over native RPC.
+Each step is independently useful; the client keeps working against a stock node
+until each native piece lands. No format is ported — `canonical/*` stays Python
+throughout.
+
+- **M0 — now:** packagify the toolkit into a clean `colegio` package. *(Reframed:
+  its value is now "the app's engine" + isolating `cryptos`, not "the C++ porting
+  map" — since the format isn't ported. Still the right first move: the client
+  becomes the importable core the app and the RPC clients sit on.)*
+- **M1 — read, the real-fork moment:** the **quipuindex** (spentindex +
+  addressindex) in `ConnectBlock`/`DisconnectBlock` + a one-time reindex; then
+  `quipuread` / `quipuscan` / `quipuroots` returning assembled **bytes** for
+  *any* quipu by txid, wallet-free. The client's existing Python `canonical/*`
+  decodes them. `dogecoin-cli quipuread <txid>` → bytes from a node that
+  understands quipu structure. This is what makes it a *fork*.
+- **M2 — write:** the in-process diamond + native signing → `quipuwrite` (one
+  strand) and `quipuinscribe` (the full diamond, incl. the join-tree close). The
+  client *composes* the blob (Python) and hands bytes to the node. The wallet
+  stops watching quipu addresses; the 88k dust txs retire.
+- **M3 — wire the app:** repoint every client renderer/tool from `scan_accounts`
+  to the native RPC. Confirm buy/sell still runs end-to-end on standard script
+  against the fork (it should — verify against the deployed 2026-06-08 sale).
+- **M4 — the everything-app:** the desktop shell (Tauri / Electron / PyQt) over
+  the renderers + sale logic + the forked node; optional Qt wallet tab showing
+  quipus.
 
 ---
 
@@ -234,12 +292,17 @@ forked node. The daemon stays lean; the app is where LaTeX and 3D live.
   to populate; budget hours on the archive.
 - **The diamond port is consensus-adjacent money** — fee-accurate sizing,
   placeholder-txid backfill, and the join-tree (incl. the 100 KB
-  MAX_STANDARD_TX_SIZE limit we hit) are subtle. Port last, oracle hard.
+  MAX_STANDARD_TX_SIZE limit we hit) are subtle. Port last; verify the native
+  diamond builds txids identical to what the Python signer would have.
 - **Key encoding** — apocrypha is an *uncompressed* key (180 B inputs); Core
   defaults to compressed. The port must preserve key encoding or txids diverge.
-- **Format port is large** (~16 types) — phase by real usage (text/essay/
-  celestial/latex/binding first; scene/dancer/estandarte later).
-- **Upstream-merge shape** — keeping L1 lean and L2 a clean library keeps the
-  door open to one day proposing quipu RPC upstream, rather than a hard fork
-  that drifts forever.
+- **Upstream-merge shape** — keeping the daemon's new surface to two clean
+  subsystems (read-index + write-diamond) and treating payloads as opaque bytes
+  keeps the door open to one day proposing quipu RPC upstream, rather than a hard
+  fork that drifts forever.
+- **No format port = no format-port risk** — the whole class of "did the C++
+  decode match Python byte-for-byte?" bugs is designed out by keeping one
+  implementation. The remaining byte-exactness that *does* matter is the write
+  path (the node must build txids identical to what the Python signer would have
+  — esp. apocrypha's uncompressed key, above).
 </content>
