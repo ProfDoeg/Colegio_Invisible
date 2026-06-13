@@ -121,14 +121,26 @@ registration pattern is the standard static `CRPCCommand commands[]` table
   OP_RETURN, advance to its `:0`. No wallet involved.
 - **OP_RETURN extraction:** `CScript::GetOp()` loop, detect `OP_RETURN (0x6a)`,
   collect pushed data (script.h:475).
-- **Return bytes, not meaning:** the node assembles the strand into the raw
-  header+body blob and returns it (plus the header's type/tone byte, read
-  trivially for routing). It does **not** decode the format — the Python client
-  does that.
-- `quipuread <txid>` → the assembled blob; `quipuscan <address>` → blobs of all
-  quipus at an address; `quipuroots <address>` → root txids (`identify_quipus`:
-  txs with no own OP_RETURN whose `:0` spender carries the `c1dd` magic — the
-  *only* format-awareness the node has).
+- **Returns `{header, body, tags}`, not decoded meaning:**
+  - `header` — the parsed **universal envelope** (magic, version, type, tone,
+    title): type-agnostic, shared by every quipu, stable across format evolution
+    (the node reads it anyway to find the magic).
+  - `body` — the assembled body bytes, **opaque** (hex). The Python client
+    decodes these per type (celestial, scene, essay, …); the node never does.
+  - `tags` — the **chain-state of the quipu's tag outputs**: each tag outpoint,
+    value, and whether it is spent (and by what). This is the node's unique
+    contribution — pure chain data, and exactly the *edition / correction-thread*
+    status: an unspent tag = "this is the current edition"; a spent tag points at
+    the successor. The client gets it free, in the same call as the walk.
+- So one call yields: *what kind* (header), *raw content to decode* (body), and
+  *is-this-the-latest* (tags) — the first two cheap-and-universal, the third
+  uniquely the node's to know.
+- `quipuread <txid>` → `{header, body, tags}`; `quipuscan <address>` → the same
+  for every quipu at an address; `quipuroots <address>` → root txids
+  (`identify_quipus`: no own OP_RETURN, `:0` spender carries `c1dd`).
+- *Open sub-choice:* `tags` reports immediate spend-state; following a spent tag
+  to its successor (thread resolution) can be the node's job or the client's —
+  lean client (it orchestrates editions), node offers the raw state.
 
 ### Write path  →  `quipuwrite`, later `quipuinscribe`
 - **OP_RETURN outputs:** `CTxOut(0, CScript() << OP_RETURN << data)`
@@ -178,8 +190,11 @@ reason and no node reason to port it. Keeping it Python buys:
   daemon;
 - the format lives next to the rendering and authoring that consume it.
 
-The node's *entire* format-awareness is the `c1dd` magic (to recognize roots).
-What a celestial figure or a scene or an essay *means* is the client's, forever.
+The node reads only the *universal header* (magic, version, type, tone, title) —
+the magic alone identifies roots, and `quipuread` returns the parsed envelope
+alongside the opaque body and the chain-state tags. It never parses type-specific
+content. What a celestial figure or a scene or an essay *means* is the client's,
+forever.
 
 ---
 
