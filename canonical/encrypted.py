@@ -64,8 +64,8 @@ import struct
 import ecies as _ecies
 from coincurve import PrivateKey as CCPriv, PublicKey as CCPub
 from coincurve.utils import get_valid_secret
-from Cryptodome.Protocol.KDF import HKDF
-from Cryptodome.Hash import SHA256
+from Crypto.Protocol.KDF import HKDF
+from Crypto.Hash import SHA256
 
 MAGIC = b"\xc1\xdd\x00\x01"
 TYPE_ENCRYPTED = 0x0e
