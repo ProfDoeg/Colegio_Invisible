@@ -2,12 +2,13 @@
 """genealogy_to_tikz.py — render a 0xce kind=genealogy quipu as a TikZ pedigree.
 
 The genealogy quipu is the inscription; this is its rendered view (cf.
-scene_to_tikz for 0x3d). Data-driven: the ancestry tree is built from the
-quipu's people + descent edges, and CROSS-QUIPU parent refs are resolved through
-the fetcher and grafted in — so a House-of-Jung genealogy that names Goethe as
-the elder Jung's natural father renders the COMBINED ancestry, climbing on into
-the House of Goethe. The illegitimate cross-edge is drawn dashed and labelled;
-the two houses are tinted differently.
+scene_to_tikz for 0x3d). Fully data-driven and house-agnostic: the ancestry
+tree is built from the quipu's people + descent edges, and CROSS-QUIPU parent
+refs are resolved through the fetcher and grafted in — so any genealogy that
+names a parent in another house renders the COMBINED ancestry, climbing on into
+that house (e.g. a House-of-Jung quipu referencing the House of Goethe). The
+caption is each house's own title; the inter-house cross-edge is drawn dashed;
+the grafted houses are tinted differently. No house name is hardcoded.
 
   genealogy_to_png(txid, fetcher, figdir) -> basename   (mirrors target_to_png)
 """
@@ -55,9 +56,10 @@ def read_genealogy(blob):
 #  (keys are (source, idx); source 'self' for the primary, else the ref txid).
 # --------------------------------------------------------------------------
 def build_combined(blob, fetcher, *, max_depth=4):
-    nodes, parents, cross, houses = {}, {}, set(), {}
+    nodes, parents, cross, houses, house_titles = {}, {}, set(), {}, {}
 
     def ingest(g, src, depth):
+        house_titles[src] = g["title"]               # each house names itself, from its own data
         for i, p in enumerate(g["people"]):
             nodes.setdefault((src, i), {"name": p["name"], "born": p["born"], "died": p["died"]})
             houses[(src, i)] = src
@@ -66,8 +68,10 @@ def build_combined(blob, fetcher, *, max_depth=4):
         for j, r in enumerate(g["refs"]):
             key = (r["txid"], r["remote_idx"])
             refmap[g["K"] + j] = key
-            nodes.setdefault(key, {"name": r["name"].split("«")[0].strip(), "born": None, "died": None})
+            label = r["name"].split("«")[0].strip()
+            nodes.setdefault(key, {"name": label, "born": None, "died": None})
             houses.setdefault(key, r["txid"])
+            house_titles.setdefault(r["txid"], label)  # fallback name if the house can't be fetched
             if fetcher and depth < max_depth:
                 try:
                     ingest(read_genealogy(fetcher(r["txid"])), r["txid"], depth + 1)
@@ -81,7 +85,7 @@ def build_combined(blob, fetcher, *, max_depth=4):
                 pk = refmap.get(a)
                 if pk is None:
                     continue
-                cross.add((ck, pk))                  # inter-house (illegitimate) edge
+                cross.add((ck, pk))                  # inter-house edge (parent lives in another house)
             parents.setdefault(ck, []).append(pk)
 
     g0 = read_genealogy(blob)
@@ -96,7 +100,7 @@ def build_combined(blob, fetcher, *, max_depth=4):
 
     prim_parents = {("self", a) for a, _ in g0["lines"] if a < g0["K"]}
     subject = max(prim_parents, key=depth, default=("self", 0))
-    return nodes, parents, cross, subject, g0["title"]
+    return nodes, parents, cross, subject, g0["title"], house_titles
 
 
 def _shown_parents(key, parents, cross):
@@ -111,7 +115,7 @@ def _shown_parents(key, parents, cross):
 #  Tidy layout + TikZ
 # --------------------------------------------------------------------------
 def genealogy_tikz_body(blob, fetcher=None):
-    nodes, parents, cross, subject, title = build_combined(blob, fetcher)
+    nodes, parents, cross, subject, title, house_titles = build_combined(blob, fetcher)
     ROW, COL = 2.55, 3.5
     gen, X = {}, {}
     nxt = [0.0]
@@ -152,9 +156,6 @@ def genealogy_tikz_body(blob, fetcher=None):
             isx = (ck, pk) in cross
             L.append("\\draw[%s] (%.2f,%.2f) -- (%.2f,%.2f);"
                      % ("natline" if isx else "geneline", x1, y1 + 0.5, x2, y2 - 0.5))
-            if isx:
-                L.append("\\node[natlabel] at (%.2f,%.2f) {natural son};"
-                         % ((x1 + x2) / 2, (y1 + y2) / 2))
     for key in X:
         x = (X[key] - x0) * COL; y = gen[key] * ROW
         nm = nodes[key]
@@ -163,7 +164,16 @@ def genealogy_tikz_body(blob, fetcher=None):
         if nm["born"] or nm["died"]:
             body += "\\\\{\\footnotesize %s--%s}" % (nm["born"] or "", nm["died"] or "")
         L.append("\\node[%s] at (%.2f,%.2f) {%s};" % (sty, x, y, body))
-    L.append("\\node[gtitle] at (0,%.2f) {%s};" % (-ROW * 0.95, _tex(title) + " \\& House of Goethe"))
+    # caption = the primary title joined with any grafted houses actually drawn,
+    # each named by its OWN title (data-driven — nothing hardcoded).
+    extra = []
+    for k in X:
+        src = k[0]
+        if src != "self" and src not in extra:
+            extra.append(src)
+    parts = [title] + [house_titles.get(s, "") for s in extra]
+    caption = " \\& ".join(_tex(p) for p in parts if p)
+    L.append("\\node[gtitle] at (0,%.2f) {%s};" % (-ROW * 0.95, caption))
     return "\n".join(L)
 
 

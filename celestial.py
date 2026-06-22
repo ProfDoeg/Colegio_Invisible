@@ -27,6 +27,12 @@ HEADER (12 + T bytes):
 
 POINTS BLOCK (K records, each):
 
+    [<system:1>]                    present iff figure header's <kind> = 02 (MIXED)
+                                      00 KIND_EARTH  (this point's a,b = lat,lng)
+                                      01 KIND_STAR   (this point's a,b = RA,dec)
+                                    MUST be the first byte of the record when present,
+                                    preceding <pmeta>. Absent for earth-only/star-only
+                                    figures, which keep their exact byte-identical wire.
     [<pmeta:1>]                     present iff figure header's <meta> = 01
                                       00 no metadata for this point
                                       01 time present, exact precision
@@ -35,9 +41,15 @@ POINTS BLOCK (K records, each):
                                       04 time present, year precision (Jul 1 noon)
     <a:f32-be>                       lat (earth) | RA (star)
     <b:f32-be>                       lng (earth) | dec (star)
-    [<jd:f64-be>]                    present iff pmeta > 00
+    [<jd:f64-be>]                    present iff pmeta > 00 (earth-tagged points only)
     <namelen:1>
     <name:namelen>                   UTF-8
+
+    For a MIXED figure the canonical record order is:
+      system, [pmeta if META_YES], a, b, [jd if pmeta>0], namelen, name.
+    `system` is UNCONDITIONALLY FIRST, before pmeta. For non-MIXED figures the
+    record is exactly as before (no system prefix). NOTE: this duplicate lacks
+    META_MORE, so MIXED here supports meta 0x00/0x01 only.
 
 UNGROUPED LINES BLOCK (when grouped = 00): fills remainder of body with
 4-byte (a_hi a_lo b_hi b_lo) uint16 BE index pairs.
@@ -60,9 +72,9 @@ Time encoding
     JD 0 = noon UT, 1 Jan 4713 BCE (proleptic Julian).
     JD 2451545.0 = noon UT, 1 Jan 2000 (J2000.0).
     Handles BCE dates with no special-casing.
-    Times are defined on earth points in v1; pmeta > 00 on star points is
-    rejected at build and read time, reserving star-time semantics for a
-    future Estandarte amendment.
+    Times are defined on earth-tagged points; pmeta > 00 is rejected at build
+    and read time for star figures and for star-tagged points within a MIXED
+    figure, reserving star-time semantics for a future Estandarte amendment.
 
 Standalone points
     A point in the points block need not be referenced by any line nor be a
@@ -72,10 +84,29 @@ Standalone points
     but it is not part of a journey path). Renderers must draw every point.
 
 Removed in this redesign
-    - KIND_MIXED (0x02) — bad science; never canonical.
     - 1-byte K — replaced by uint16 BE for atlas-scale figures.
     - Bit-packed flags in the kind byte — split into separate <kind>,
       <grouped>, and <meta> byte fields for readability.
+
+Mixed (kind 0x02)
+    A figure carrying BOTH earth and star points. Each point record is prefixed
+    by a 1-byte <system> tag (00 earth, 01 star) — the per-point analogue of the
+    figure-level kind byte — so a single (a, b) pair is read as lat/lng or RA/dec
+    per-POINT, not per-figure. The system byte is the unconditional first byte of
+    every MIXED point record (before pmeta). All per-point logic (coord keys,
+    coord ranges, the earth-only time gate) consults each point's `effective_kind`
+    (= its system byte) rather than the figure kind. Earth-only and star-only
+    figures emit NO system byte and stay byte-identical to the pre-MIXED wire.
+    A renderer dispatches per point on pt["kind"]: the two coordinate systems get
+    SEPARATE plots — never one shared set of axes.
+    NOTE: this duplicate supports MIXED under meta 0x00/0x01 only (it lacks the
+    META_MORE / 0x02 read-branch present in the canonical file).
+
+Tone whitelist (known limitation of this duplicate)
+    This file enforces a strict tone whitelist (only 0x00 ordinary / 0xff
+    reverence). MIXED fixtures using a non-ordinary tone (e.g. 0x0d demonic) will
+    NOT round-trip here; use the canonical celestial.py for the full tone
+    vocabulary. This is a documented limitation, not a bug.
 """
 
 from __future__ import annotations
@@ -95,6 +126,7 @@ TONE_REVERENCE    = 0xFF
 # kind byte (header offset 6)
 KIND_EARTH        = 0x00
 KIND_STAR         = 0x01
+KIND_MIXED        = 0x02   # both earth & star points in one figure (see module docstring)
 
 # grouped byte (header offset 7)
 GROUPED_NO        = 0x00
@@ -111,8 +143,18 @@ PMETA_TIME_DAY    = 0x02
 PMETA_TIME_MONTH  = 0x03
 PMETA_TIME_YEAR   = 0x04
 
-_KIND_NAME_TO_BYTE = {"earth": KIND_EARTH, "star": KIND_STAR}
+_KIND_NAME_TO_BYTE = {"earth": KIND_EARTH, "star": KIND_STAR, "mixed": KIND_MIXED}
 _KIND_BYTE_TO_NAME = {v: k for k, v in _KIND_NAME_TO_BYTE.items()}
+
+# Retained for backward-compat with any external importer. MIXED point bodies
+# are now fully specified (meta 0x00/0x01 in this duplicate): each point carries
+# a 1-byte <system> tag (its effective_kind), so one (a, b) pair is lat/lng or
+# RA/dec per-POINT. This message is no longer raised by the codec.
+_MIXED_POINTS_MSG = (
+    "mixed (0x02) figures carry both earth and star points; each point now "
+    "carries a per-point <system> tag (0x00 earth / 0x01 star) declaring how "
+    "its (a, b) pair is read"
+)
 
 _PRECISION_NAME_TO_PMETA = {
     "exact": PMETA_TIME_EXACT,
@@ -135,17 +177,56 @@ def _coerce_kind(kind):
             return _KIND_NAME_TO_BYTE[kind.lower()]
         except KeyError:
             raise ValueError(
-                f"unknown kind {kind!r}; expected 'earth' or 'star' "
-                f"(mixed was removed in the May 2026 redesign)"
+                f"unknown kind {kind!r}; expected 'earth', 'star', or 'mixed'"
             )
     raise TypeError(f"kind must be int or str, got {type(kind).__name__}")
 
 
-def _pmeta_for_point(pt, figure_kind, idx):
-    """Compute the per-point pmeta byte for a point. Returns 0 if untimed."""
+def _resolve_system(pt, idx):
+    """Resolve a MIXED point's per-point system byte (effective_kind).
+
+    Accepts an explicit pt['system'] ('earth'/'star' or 0x00/0x01); otherwise
+    infers from coord keys (lat/lng -> earth, ra/dec -> star). Raises if the
+    system cannot be unambiguously determined.
+    """
+    if "system" in pt and pt["system"] is not None:
+        s = pt["system"]
+        if isinstance(s, str):
+            s = _KIND_NAME_TO_BYTE.get(s.lower(), s)
+        if s not in (KIND_EARTH, KIND_STAR):
+            raise ValueError(
+                f"mixed point {idx}: system {pt['system']!r} must be "
+                f"0x00 (earth) or 0x01 (star)"
+            )
+        return s
+    has_earth = ("lat" in pt) or ("lng" in pt)
+    has_star = ("ra" in pt) or ("dec" in pt)
+    if has_earth and not has_star:
+        return KIND_EARTH
+    if has_star and not has_earth:
+        return KIND_STAR
+    raise ValueError(
+        f"mixed point {idx}: cannot infer system; supply 'system' or exactly "
+        f"one of (lat,lng)/(ra,dec)"
+    )
+
+
+def _effective_kind(pt, figure_kind, idx):
+    """The kind that governs THIS point: its system byte for a MIXED figure,
+    else the figure kind. For non-MIXED figures this is identically figure_kind."""
+    if figure_kind == KIND_MIXED:
+        return _resolve_system(pt, idx)
+    return figure_kind
+
+
+def _pmeta_for_point(pt, effective_kind, idx):
+    """Compute the per-point pmeta byte for a point. Returns 0 if untimed.
+
+    `effective_kind` is the point's own kind (its system byte for a MIXED
+    figure, else the figure kind) — the earth-only time gate is per-point."""
     if "time" not in pt or pt["time"] is None:
         return PMETA_NONE
-    if figure_kind != KIND_EARTH:
+    if effective_kind != KIND_EARTH:
         raise ValueError(
             f"point {idx}: time is defined for earth points only in v1 "
             f"(star-point times reserved for a future Estandarte amendment)"
@@ -174,9 +255,14 @@ def _pmeta_for_point(pt, figure_kind, idx):
 
 
 def _figure_needs_meta(points, figure_kind):
-    """meta byte = 01 iff any point declares a time."""
+    """meta byte = 01 iff any EARTH-tagged point declares a time.
+
+    For a MIXED figure each point's effective_kind is resolved first, so a
+    timed star point trips the earth-only gate (caught early) and an untimed
+    star point does not force META_YES."""
     for i, pt in enumerate(points):
-        if _pmeta_for_point(pt, figure_kind, i) != PMETA_NONE:
+        eff = _effective_kind(pt, figure_kind, i)
+        if _pmeta_for_point(pt, eff, i) != PMETA_NONE:
             return META_YES
     return META_NO
 
@@ -184,8 +270,8 @@ def _figure_needs_meta(points, figure_kind):
 def _build_header(title, kind, grouped, meta, K, tone):
     if tone not in (TONE_ORDINARY, TONE_REVERENCE):
         raise ValueError(f"tone must be 0x00 or 0xff (got {tone:#04x})")
-    if kind not in (KIND_EARTH, KIND_STAR):
-        raise ValueError(f"kind must be 0x00 or 0x01 (got {kind:#04x})")
+    if kind not in (KIND_EARTH, KIND_STAR, KIND_MIXED):
+        raise ValueError(f"kind must be 0x00, 0x01, or 0x02 (got {kind:#04x})")
     if grouped not in (GROUPED_NO, GROUPED_YES):
         raise ValueError(f"grouped must be 0x00 or 0x01 (got {grouped:#04x})")
     if meta not in (META_NO, META_YES):
@@ -211,7 +297,13 @@ def _build_header(title, kind, grouped, meta, K, tone):
 
 
 def _emit_point(pt, figure_kind, figure_meta, idx):
-    """Serialize one point record."""
+    """Serialize one point record.
+
+    For a MIXED figure (figure_kind == KIND_MIXED) the record is prefixed by
+    the point's 1-byte `system` tag (effective_kind), and all coord/range/time
+    logic consults that per-point effective_kind. For earth-only/star-only
+    figures no prefix is emitted and the wire is byte-identical to before.
+    """
     if "name" not in pt:
         raise ValueError(f"point {idx} missing required 'name' key")
     name_bytes = pt["name"].encode("utf-8")
@@ -220,7 +312,9 @@ def _emit_point(pt, figure_kind, figure_meta, idx):
             f"point {idx} name encodes to {len(name_bytes)} UTF-8 bytes; max 255"
         )
 
-    if figure_kind == KIND_EARTH:
+    effective_kind = _effective_kind(pt, figure_kind, idx)
+
+    if effective_kind == KIND_EARTH:
         try:
             a = float(pt["lat"]); b = float(pt["lng"])
         except KeyError as e:
@@ -233,7 +327,7 @@ def _emit_point(pt, figure_kind, figure_meta, idx):
             raise ValueError(
                 f"point {idx} ({pt['name']!r}) longitude {b} out of [-180, +180]"
             )
-    elif figure_kind == KIND_STAR:
+    elif effective_kind == KIND_STAR:
         try:
             a = float(pt["ra"]); b = float(pt["dec"])
         except KeyError as e:
@@ -247,21 +341,22 @@ def _emit_point(pt, figure_kind, figure_meta, idx):
                 f"point {idx} ({pt['name']!r}) declination {b} out of [-90, +90]"
             )
     else:
-        raise ValueError(f"unknown figure_kind {figure_kind:#04x}")
+        raise ValueError(f"unknown effective_kind {effective_kind:#04x}")
 
-    buf = b""
+    # system byte: unconditional FIRST byte of the record, MIXED figures only.
+    buf = bytearray([effective_kind]) if figure_kind == KIND_MIXED else bytearray()
 
     if figure_meta == META_YES:
-        pmeta = _pmeta_for_point(pt, figure_kind, idx)
+        pmeta = _pmeta_for_point(pt, effective_kind, idx)   # compute ONCE
         buf += bytes([pmeta])
 
     buf += struct.pack(">ff", a, b)
 
-    if figure_meta == META_YES and _pmeta_for_point(pt, figure_kind, idx) != PMETA_NONE:
+    if figure_meta == META_YES and pmeta != PMETA_NONE:     # reuse the local; no second call
         buf += struct.pack(">d", float(pt["time"]))
 
     buf += bytes([len(name_bytes)]) + name_bytes
-    return buf
+    return bytes(buf)
 
 
 # ---------------------------------------------------------------------------
@@ -288,9 +383,9 @@ def build_celestial_quipu(title, kind, points, lines, tone=TONE_ORDINARY):
         (header_bytes, body_bytes)
     """
     figure_kind = _coerce_kind(kind)
-    if figure_kind not in (KIND_EARTH, KIND_STAR):
+    if figure_kind not in (KIND_EARTH, KIND_STAR, KIND_MIXED):
         raise ValueError(
-            f"kind must be 'earth' or 'star'; got {figure_kind:#04x}"
+            f"kind must be 'earth', 'star', or 'mixed'; got {figure_kind:#04x}"
         )
 
     K = len(points)
@@ -336,9 +431,9 @@ def build_grouped_celestial_quipu(title, kind, points, groups, tone=TONE_ORDINAR
         (header_bytes, body_bytes)
     """
     figure_kind = _coerce_kind(kind)
-    if figure_kind not in (KIND_EARTH, KIND_STAR):
+    if figure_kind not in (KIND_EARTH, KIND_STAR, KIND_MIXED):
         raise ValueError(
-            f"kind must be 'earth' or 'star'; got {figure_kind:#04x}"
+            f"kind must be 'earth', 'star', or 'mixed'; got {figure_kind:#04x}"
         )
 
     K = len(points)
@@ -437,10 +532,10 @@ def read_celestial_quipu(header_bytes, body_bytes):
         )
     title = title_bytes.decode("utf-8")
 
-    if figure_kind not in (KIND_EARTH, KIND_STAR):
+    if figure_kind not in (KIND_EARTH, KIND_STAR, KIND_MIXED):
         raise ValueError(
-            f"kind byte {figure_kind:#04x} not defined in v1 "
-            f"(only 0x00 earth and 0x01 star)"
+            f"kind byte {figure_kind:#04x} not defined "
+            f"(0x00 earth, 0x01 star, 0x02 mixed)"
         )
     if grouped not in (GROUPED_NO, GROUPED_YES):
         raise ValueError(f"grouped byte {grouped:#04x} must be 0x00 or 0x01")
@@ -451,6 +546,20 @@ def read_celestial_quipu(header_bytes, body_bytes):
     p = 0
     points = []
     for i in range(K):
+        # system byte: UNCONDITIONALLY FIRST in the record for a MIXED figure.
+        if figure_kind == KIND_MIXED:
+            if p >= len(body_bytes):
+                raise ValueError(f"point {i}: body truncated reading system byte")
+            system = body_bytes[p]; p += 1
+            if system not in (KIND_EARTH, KIND_STAR):
+                raise ValueError(
+                    f"point {i}: system byte {system:#04x} must be "
+                    f"0x00 (earth) or 0x01 (star)"
+                )
+            effective_kind = system
+        else:
+            effective_kind = figure_kind
+
         if meta == META_YES:
             if p >= len(body_bytes):
                 raise ValueError(f"body truncated reading point {i} pmeta")
@@ -469,10 +578,11 @@ def read_celestial_quipu(header_bytes, body_bytes):
         p += 8
 
         if pmeta != PMETA_NONE:
-            if figure_kind != KIND_EARTH:
+            if effective_kind != KIND_EARTH:
                 raise ValueError(
-                    f"point {i}: pmeta {pmeta:#04x} (time) on a non-earth figure "
-                    f"(v1 reserves star-point times for a future amendment)"
+                    f"point {i}: pmeta {pmeta:#04x} (time) on a star-tagged point "
+                    f"not permitted (v1 reserves star-point times for a future "
+                    f"amendment)"
                 )
             if p + 8 > len(body_bytes):
                 raise ValueError(f"body truncated reading JD for point {i}")
@@ -492,10 +602,11 @@ def read_celestial_quipu(header_bytes, body_bytes):
         name = body_bytes[p:p + nl].decode("utf-8")
         p += nl
 
-        if figure_kind == KIND_EARTH:
+        if effective_kind == KIND_EARTH:
             pt = {"kind": "earth", "lat": a, "lng": b, "name": name}
-        else:
+        elif effective_kind == KIND_STAR:
             pt = {"kind": "star", "ra": a, "dec": b, "name": name}
+        # no else: effective_kind is guaranteed earth or star above
         if pmeta != PMETA_NONE:
             pt["time"] = jd
             pt["time_precision"] = _PMETA_TO_PRECISION_NAME[pmeta]
@@ -781,9 +892,20 @@ def _selftest_validation():
              "x", "star",
              [{"name": "a", "ra": 0.0, "dec": 0.0, "time": 2451545.0}], []),
          "earth points only"),
-        ("mixed kind no longer allowed",
-         lambda: build_celestial_quipu("x", "mixed", [], []),
-         "earth"),
+        ("time on star-tagged MIXED point",
+         lambda: build_celestial_quipu(
+             "x", "mixed",
+             [{"name": "a", "ra": 0.0, "dec": 0.0, "time": 2451545.0}], []),
+         "earth points only"),
+        ("MIXED point with neither coord pair",
+         lambda: build_celestial_quipu(
+             "x", "mixed", [{"name": "a"}], []),
+         "cannot infer system"),
+        ("MIXED point system byte invalid",
+         lambda: build_celestial_quipu(
+             "x", "mixed",
+             [{"name": "a", "lat": 0.0, "lng": 0.0, "system": 0x07}], []),
+         "must be 0x00 (earth) or 0x01 (star)"),
         ("unknown time_precision",
          lambda: build_celestial_quipu(
              "x", "earth",
@@ -803,6 +925,122 @@ def _selftest_validation():
     print()
 
 
+def _selftest_mixed():
+    """A MIXED figure carrying BOTH an earth point and a star point must build
+    and read back correctly (meta=0x00 / 0x01 and grouped). This duplicate has
+    no META_MORE branch, so meta=0x02 is out of scope here."""
+    print("=== MIXED (per-point system tag) — earth + star in one figure ===")
+
+    # --- meta = 0x00 (no per-point metadata) ---
+    pts = [
+        {"name": "Domrémy", "lat": 48.4392, "lng": 5.6736},   # inferred earth
+        {"name": "Sirius",  "ra": 101.2875, "dec": -16.7161}, # inferred star
+    ]
+    h, b = build_celestial_quipu("Earth+Star", "mixed", pts, [(0, 1)])
+    assert h[6] == KIND_MIXED
+    assert h[8] == META_NO
+    exp = (1 + 8 + 1 + len("Domrémy".encode())) \
+        + (1 + 8 + 1 + len("Sirius".encode())) + 4
+    assert len(b) == exp, f"meta=0 body len {len(b)} != expected {exp}"
+    assert b[0] == KIND_EARTH    # first record's system byte = earth
+    parsed = read_celestial_quipu(h, b)
+    assert parsed["kind"] == "mixed"
+    assert parsed["points"][0]["kind"] == "earth"
+    assert parsed["points"][1]["kind"] == "star"
+    assert abs(parsed["points"][0]["lat"] - 48.4392) < 1e-4
+    assert abs(parsed["points"][1]["ra"] - 101.2875) < 1e-4
+    assert parsed["lines"] == [(0, 1)]
+    print("  ✓ meta=0x00: earth+star round-trip; system byte first per record")
+
+    # --- explicit system key disambiguates ---
+    pts_x = [
+        {"name": "place", "lat": 0.0, "lng": 0.0, "system": "earth"},
+        {"name": "star",  "ra": 0.0, "dec": 0.0, "system": 0x01},
+    ]
+    hx, bx = build_celestial_quipu("explicit", "mixed", pts_x, [])
+    px = read_celestial_quipu(hx, bx)
+    assert px["points"][0]["kind"] == "earth"
+    assert px["points"][1]["kind"] == "star"
+    print("  ✓ explicit 'system' key (str + int) resolves per point")
+
+    # --- meta = 0x01 (legacy time): earth timed, star untimed ---
+    tpts = [
+        {"name": "Orléans", "lat": 47.9029, "lng": 1.9039,
+         "time": 2245043.5, "time_precision": "day"},
+        {"name": "Vega", "ra": 279.2347, "dec": 38.7837},
+    ]
+    h1, b1 = build_celestial_quipu("Timed earth + star", "mixed", tpts, [(0, 1)])
+    assert h1[6] == KIND_MIXED
+    assert h1[8] == META_YES
+    assert b1[0] == KIND_EARTH      # record 0: system byte first
+    assert b1[1] == PMETA_TIME_DAY  # then pmeta (earth, timed)
+    p1 = read_celestial_quipu(h1, b1)
+    assert p1["points"][0]["kind"] == "earth"
+    assert abs(p1["points"][0]["time"] - 2245043.5) < 1e-6
+    assert p1["points"][0]["time_precision"] == "day"
+    assert p1["points"][1]["kind"] == "star"
+    assert "time" not in p1["points"][1]
+    print("  ✓ meta=0x01: earth point timed (pmeta after system), star untimed")
+
+    # --- grouped MIXED ---
+    gpts = [
+        {"name": "Rome", "lat": 41.8967, "lng": 12.4822},
+        {"name": "Betelgeuse", "ra": 88.7929, "dec": 7.4071},
+        {"name": "Naples", "lat": 40.8359, "lng": 14.2488},
+    ]
+    groups = [("places", [0, 2], [(0, 2)]), ("stars", [1], [])]
+    hg, bg = build_grouped_celestial_quipu("Grouped mixed", "mixed", gpts, groups)
+    assert hg[6] == KIND_MIXED
+    assert hg[7] == GROUPED_YES
+    pg = read_celestial_quipu(hg, bg)
+    assert pg["grouped"] is True
+    assert pg["points"][0]["kind"] == "earth"
+    assert pg["points"][1]["kind"] == "star"
+    assert pg["points"][2]["kind"] == "earth"
+    assert pg["groups"][0]["name"] == "places"
+    assert pg["lines"] == [(0, 2)]
+    print("  ✓ grouped MIXED: per-point system tags + group block round-trip")
+    print()
+
+
+def _selftest_byte_identity():
+    """Regression gate: earth-only and star-only figures MUST produce the EXACT
+    same body bytes as before the MIXED patch — no system byte may creep in."""
+    print("=== Byte-identity regression (earth-only / star-only unchanged) ===")
+
+    h, b = build_celestial_quipu(
+        "Cassiopeia", "star", CASSIOPEIA_POINTS, CASSIOPEIA_LINES,
+        tone=TONE_REVERENCE)
+    assert h[6] == KIND_STAR
+    exp_pts = sum(8 + 1 + len(p["name"].encode()) for p in CASSIOPEIA_POINTS)
+    exp = exp_pts + 4 * len(CASSIOPEIA_LINES)
+    assert len(b) == exp, f"star body len {len(b)} != {exp} (system byte crept in?)"
+    assert b[0] == struct.pack(">f", CASSIOPEIA_POINTS[0]["ra"])[0]
+    print(f"  ✓ star-only meta=0x00 body = {len(b)}B, no system prefix (coords at offset 0)")
+
+    epts = [
+        {"name": "Domrémy",      "lat": 48.4392, "lng":  5.6736},
+        {"name": "La Verna",     "lat": 43.7053, "lng": 11.9358},
+        {"name": "Monte Verità", "lat": 46.1683, "lng":  8.7706},
+    ]
+    he, be = build_celestial_quipu("earth", "earth", epts, [(0, 1), (1, 2)])
+    exp_e = sum(8 + 1 + len(p["name"].encode()) for p in epts) + 4 * 2
+    assert len(be) == exp_e, f"earth body len {len(be)} != {exp_e}"
+    assert be[0] == struct.pack(">f", epts[0]["lat"])[0]
+    print(f"  ✓ earth-only meta=0x00 body = {len(be)}B, no system prefix")
+
+    tpts = [
+        {"name": "A", "lat": 0.0, "lng": 0.0, "time": 2245043.5,
+         "time_precision": "day"},
+    ]
+    ht, bt = build_celestial_quipu("timed", "earth", tpts, [])
+    exp_t = 1 + 8 + 8 + 1 + len("A".encode())
+    assert len(bt) == exp_t, f"timed earth body len {len(bt)} != {exp_t}"
+    assert bt[0] == PMETA_TIME_DAY  # first byte is pmeta (NOT a system byte)
+    print(f"  ✓ earth-only meta=0x01 body = {len(bt)}B, record starts with pmeta")
+    print()
+
+
 if __name__ == "__main__":
     _selftest_cassiopeia()
     _selftest_bordados()
@@ -810,4 +1048,6 @@ if __name__ == "__main__":
     _selftest_grouped_star()
     _selftest_grouped_earth_with_standalone_event()
     _selftest_large_K()
+    _selftest_mixed()
+    _selftest_byte_identity()
     _selftest_validation()

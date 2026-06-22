@@ -108,7 +108,7 @@ def _positions(dot_src, dot_bin):
 
 
 def family_graph_tikz_body(blob, fetcher, dot_bin):
-    nodes, parents, cross, subject, title = G.build_combined(blob, fetcher)
+    nodes, parents, cross, subject, title, _house_titles = G.build_combined(blob, fetcher)
     dot_src, unions = _build_dot(nodes, parents, cross)
     pos = _positions(dot_src, dot_bin)
     if not pos:
@@ -128,7 +128,6 @@ def family_graph_tikz_body(blob, fetcher, dot_bin):
         if _nid(c) in pos and _nid(p) in pos:
             cx, cy = pos[_nid(c)]; px, py = pos[_nid(p)]
             L.append("\\draw[natline] (%.2f,%.2f) -- (%.2f,%.2f);" % (px, py - 0.45, cx, cy + 0.45))
-            L.append("\\node[natlabel] at (%.2f,%.2f) {natural son};" % ((px + cx) / 2, (py + cy) / 2))
     from collections import Counter
     cnt = Counter(G._short(nodes[k]["name"]) for k in nodes if _nid(k) in pos)
     for k in nodes:
