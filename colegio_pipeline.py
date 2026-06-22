@@ -160,15 +160,46 @@ def _encrypted_header_body_offset(blob):
     return off
 
 
+def _sound_header_body_offset(blob):
+    """0x07: 14-byte structural prefix (magic+type+tone+codec+sample_rate:u16
+    +channels+duration_ms:u32) with cmlen:u8 at offset 14, then codec_meta:cmlen,
+    then titlelen:u8 + title (matching canonical/sound.py build_sound_quipu).
+    Header length is fully determined by its own length fields — no body
+    delimiter needed. body is opaque encoded audio."""
+    cmlen = blob[14]
+    titlelen = blob[15 + cmlen]
+    return 16 + cmlen + titlelen
+
+
+def _file_header_body_offset(blob):
+    """0x0F: 7 structural bytes (magic+type+tone+flags), optional 32-byte
+    sha256 (flags bit0), then mimetype/filename/title each as len:u8 + bytes.
+    Header length is self-delimiting from its own length fields; body is raw
+    file bytes."""
+    flags = blob[6]
+    off = 7 + (32 if flags & 0x01 else 0)
+    mimelen = blob[off]
+    off += 1 + mimelen
+    namelen = blob[off]
+    off += 1 + namelen
+    titlelen = blob[off]
+    off += 1 + titlelen
+    return off
+
+
 def split_blob(blob):
     """Split header||body for any supported type. Returns (header, body)."""
     t = type_of(blob)
     if t == 0x03:
         off = _image_header_body_offset(blob)
+    elif t == 0x07:
+        off = _sound_header_body_offset(blob)
     elif t == 0xCE:
         return _split_concat(blob)
     elif t == 0x09:
         off = _find_body_start(blob)
+    elif t == 0x0F:
+        off = _file_header_body_offset(blob)
     elif t == 0xCC:             # cert: 8 structural bytes (magic+type+tone+subtype);
         off = 8                 # the |…| fields belong to the BODY per read_cert
     elif t == 0x0E:
@@ -1341,8 +1372,8 @@ TONE_NAMES = {0x00: "ordinary", 0x01: "affection", 0x0d: "demonic",
 TONE_HEX   = {v: f"{k:02x}" for k, v in TONE_NAMES.items()}
 
 TYPE_LABELS = {
-    0x00: "text", 0x01: "essay", 0x03: "image", 0x07: "audio",
-    0x09: "book", 0x0e: "encrypted", 0x1d: "identity", 0x3d: "scene",
+    0x00: "text", 0x01: "essay", 0x03: "image", 0x07: "sound",
+    0x09: "book", 0x0e: "encrypted", 0x0f: "file", 0x1d: "identity", 0x3d: "scene",
     0x5c: "latex", 0xab: "binding", 0xcc: "cert", 0xce: "celestial",
     0xda: "dancer", 0xee: "estandarte",
 }

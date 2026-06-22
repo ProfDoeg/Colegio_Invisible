@@ -692,13 +692,14 @@ with st.sidebar:
 TYPE_LABELS = {
     0x00: "text",
     0x03: "image",
+    0x07: "sound",
     0x0e: "encrypted",
+    0x0f: "file",
     0x1d: "identity",
     0xcc: "certificate",
     0xce: "celestial",
     0xf0: "error",
     0xab: "bindings",
-    0xf1: "file",
 }
 
 def build_text_header(title, tone):
@@ -843,9 +844,10 @@ TYPE_SHORT_LABELS = {
     0x00: "text",
     0x01: "essay",
     0x03: "image",
-    0x07: "audio",
+    0x07: "sound",
     0x09: "book",
     0x0e: "encrypted",
+    0x0f: "file",
     0x1d: "identity",
     0x3d: "scene",
     0xab: "bindings",
@@ -853,7 +855,6 @@ TYPE_SHORT_LABELS = {
     0xce: "celestial",
     0xee: "estandarte",
     0xf0: "error",
-    0xf1: "file",
 }
 
 

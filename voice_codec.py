@@ -1,65 +1,118 @@
 """
-voice_codec.py — sketch implementation of the 0x07 audio type for quipu.
+voice_codec.py — the numpy DSP behind the 0x07 SOUND type's speech vocoders.
 
-Codec variant 0x07 0x00 — band-limited 8-bit STFT magnitude vocoder
-=====================================================================
+This file is the *DSP layer*. The on-the-wire format is the canonical
+audio container defined in `canonical/sound.py` (type 0x07): a keyless,
+pure-stdlib envelope carrying a codec byte, sample rate, channels,
+duration, a small codec-specific metadata blob (codec_meta), a title,
+and an opaque body. This file's job is to PRODUCE and CONSUME that
+container's body + codec_meta for the three quipu-native speech codecs:
 
-A lean, pure-numpy codec designed for the OP_RETURN economics of the
-quipu protocol. Encodes a monophonic voice utterance into ~1 KB / second
-of raw bytes — comfortably one strand-quipu per ~5–10 seconds of speech.
+    codec 0x00  stft    band-limited 8-bit STFT-magnitude vocoder
+    codec 0x01  lpc     LPC-10-style vocoder
+    codec 0x02  codec2  Codec2-700C (needs libcodec2 + pycodec2)
 
-Sample rate:        8 kHz (telephony band)
-Window:             256 samples (32 ms) Hann
-Hop:                128 samples (16 ms, 50% overlap → constant-OLA)
-                    → 62.5 frames per second
-Bins kept per frame: 32 of 129 possible (covers 0–1 kHz, the band where
-                    vowel formants and voiced excitation concentrate)
-Quantization:       8-bit log-magnitude, normalized per-utterance via
-                    global min/max
-Phase recovery:     Griffin–Lim iteration on decode (random phase init,
-                    32 iterations is plenty for speech-grade)
+The opaque standard codecs (0x10 opus / 0x11 mp3 / 0x12 wav / 0x13 flac)
+need no DSP here — their bodies are real bitstreams a browser or audio
+library decodes directly.
 
-Bytes per frame:    32  (one byte per kept bin)
-Bytes per second:   32 × 62.5 = 2000 bytes/sec
-Bytes per minute:   120 KB
-                    → A one-minute Ephemeris audio fits in one diamond
-                      quipu with ~6 cuerpo strands × 25 txs each.
+Numpy is LAZY. `import voice_codec` (and, through it, the pure-stdlib
+container `sound`) must succeed on a machine with no numpy; the numpy
+import happens only when a DSP encode/decode actually runs. So the
+container build/read path is always available; only the vocoder math
+needs numpy.
 
-Header layout
--------------
-    c1dd 0001        4B   protocol magic + version
-    07               1B   type = audio
-    TT               1B   tone (00 ordinary, ff reverence)
-    00               1B   codec variant
-    NN NN            2B   n_frames, uint16 big-endian
-    GG GG GG GG      4B   global_min (float32 BE) — log-mag denormalization
-    HH HH HH HH      4B   global_max (float32 BE)
-    LL               1B   title length
-    TITLE            LB   UTF-8 title
+Public adapters
+---------------
+    encode_sound_stft(audio, title='', tone=0)   -> (header, body)  [codec 0x00]
+    encode_sound_lpc(audio, title='', tone=0)    -> (header, body)  [codec 0x01]
+    encode_sound_codec2(audio, title='', tone=0) -> (header, body)  [codec 0x02]
+    decode_sound(header, body) -> (audio, meta)   # reads container, routes
+                                                  # to the matching DSP
 
-    Total header:    18 + L bytes
+    (encode_voice / encode_voice_lpc / encode_voice_c2 remain as aliases,
+     and decode_voice / decode_voice_lpc / decode_voice_c2 decode a single
+     codec each. All produce/consume the canonical sound container.)
 
-Body layout
------------
-    n_frames × K_BINS bytes, row-major, frame i bin j at offset i*32+j.
+STFT codec (0x00) detail
+------------------------
+Sample rate 8 kHz; 256-sample (32 ms) Hann window; 128-sample hop (50%
+overlap → constant-OLA); 32 of 129 magnitude bins kept (0–1 kHz, where
+vowel formants and voiced excitation concentrate); 8-bit log-magnitude
+quantized per-utterance via global min/max; Griffin–Lim phase recovery
+on decode (random phase init, 32 iterations). ~2000 bytes/sec of body.
 
-Reserved codec variants (forward-looking, not yet implemented)
---------------------------------------------------------------
-    0x07 0x00 — this codec (band-limited STFT magnitude)
-    0x07 0x01 — LPC-10-style 2.4 kbps vocoder (~300 B/sec)
-    0x07 0x02 — Codec2 700 bps (~88 B/sec, requires libcodec2)
-    0x07 0x03 — Opus 6 kbps (~750 B/sec, requires libopus)
+codec_meta layouts (packed by canonical/sound.py)
+-------------------------------------------------
+    0x00 stft    n_frames:u16 + g_min:f32 + g_max:f32   (10 bytes, '>Hff')
+    0x01 lpc     n_frames:u16                            (2 bytes,  '>H')
+    0x02 codec2  n_frames:u16                            (2 bytes,  '>H')
 
-Why STFT-magnitude for the first cut: pure numpy, zero external deps,
-implementable in ~150 lines, audibly intelligible, and small enough to
-inscribe. Quality will be "whispered" (random-phase Griffin–Lim is the
-known weakness for speech). The leaner LPC/Codec2 variants can land
-later once the protocol slot is real.
+Body layouts
+------------
+    0x00 stft    n_frames × 32 bytes (one byte per kept bin, row-major)
+    0x01 lpc     n_frames × 12 bytes (10 reflection + gain + pitch)
+    0x02 codec2  n_frames × 4 bytes  (Codec2 700C packed frames)
+
+Quality character: STFT is "whispered" (random-phase Griffin–Lim is the
+known weakness for speech); LPC is robotic/buzzy but intelligible;
+Codec2 700C is the leanest. See docs/quipu-types/sound.md.
 """
 
-import struct
+import os
+import sys
 import wave
-import numpy as np
+
+# Reach the canonical container module. voice_codec.py lives one directory
+# above canonical/; add it to sys.path so `import sound` resolves to
+# canonical/sound.py (the keyless, pure-stdlib audio container). This import
+# is numpy-free: it must succeed on a machine with no numpy.
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                "canonical"))
+import sound
+from sound import (
+    CODEC_STFT, CODEC_LPC, CODEC_CODEC2,
+    CODEC_OPUS, CODEC_MP3, CODEC_WAV, CODEC_FLAC,
+)
+
+
+# ---------------------------------------------------------------------------
+# Lazy numpy
+# ---------------------------------------------------------------------------
+# The DSP below needs numpy, but it must stay a LAZY import: merely importing
+# voice_codec (and, through it, the pure-stdlib container `sound`) must not
+# pull numpy in. We expose the familiar module-global name `np` as a thin
+# proxy that imports the real numpy on first attribute access. Every existing
+# `np.<attr>` call site therefore triggers the import only when DSP actually
+# runs — `import voice_codec` on a numpy-free box still succeeds, and so does
+# the container build/read path.
+
+_NUMPY = None
+
+
+def _np():
+    """Lazily import numpy and cache it. DSP functions call this at their top
+    (`np = _np()`) so the import only happens when DSP actually runs — never
+    at module import time. Keeps `import voice_codec` (and the pure-stdlib
+    container `sound`) working on a machine with no numpy."""
+    global _NUMPY
+    if _NUMPY is None:
+        import numpy as _numpy  # local, lazy
+        _NUMPY = _numpy
+    return _NUMPY
+
+
+class _LazyNumpy:
+    """Proxy exposing the familiar module-global name `np` for the handful of
+    DSP call sites that still reference it directly. Resolves to the real
+    numpy on first attribute access via _np(), so the import stays lazy."""
+    __slots__ = ()
+
+    def __getattr__(self, name):
+        return getattr(_np(), name)
+
+
+np = _LazyNumpy()
 
 
 # ---------------------------------------------------------------------------
@@ -115,19 +168,11 @@ def _overlap_add(frames, hop=HOP):
 # Encoder
 # ---------------------------------------------------------------------------
 
-def encode_voice(audio_samples, title="", tone=0x00):
-    """Encode mono 8 kHz float audio into a (header, body) byte pair
-    suitable for inscription as a 0x07 0x00 audio quipu.
-
-    Args:
-        audio_samples: 1-D numpy array, float in [-1, 1], sampled at 8 kHz.
-                       Input outside [-1, 1] will be peak-normalized.
-        title:         UTF-8 string, max 255 bytes when encoded.
-        tone:          0x00 (ordinary) or 0xff (reverence).
-
-    Returns:
-        (header_bytes, body_bytes)
-    """
+def _stft_encode_body(audio_samples):
+    """Run the STFT-magnitude DSP and return (body_bytes, n_frames, g_min,
+    g_max, duration_ms). Pure DSP — numpy is used here (lazily). The caller
+    wraps the result in the canonical sound container."""
+    np = _np()
     x = np.asarray(audio_samples, dtype=np.float32)
     if x.ndim != 1:
         raise ValueError("audio must be mono (1-D)")
@@ -153,29 +198,40 @@ def encode_voice(audio_samples, title="", tone=0x00):
     norm = (log_mag - g_min) / span
     quant = np.clip(np.round(norm * 255.0), 0, 255).astype(np.uint8)
 
-    n_frames = quant.shape[0]
+    n_frames = int(quant.shape[0])
     if n_frames > 65535:
         raise ValueError("utterance too long: n_frames must fit in uint16")
-    if tone not in (0x00, 0xff):
-        raise ValueError("tone must be 0x00 or 0xff")
 
-    title_bytes = title.encode("utf-8")
-    if len(title_bytes) > 255:
-        raise ValueError("title > 255 UTF-8 bytes")
-
-    header = (
-        b"\xc1\xdd\x00\x01"                    # magic + version
-        + b"\x07"                              # type = audio
-        + bytes([tone])
-        + b"\x00"                              # codec variant
-        + struct.pack(">H", n_frames)
-        + struct.pack(">f", g_min)
-        + struct.pack(">f", g_max)
-        + bytes([len(title_bytes)])
-        + title_bytes
-    )
     body = quant.tobytes()  # n_frames × 32 bytes, row-major
-    return header, body
+    duration_ms = int(round(len(x) / SR * 1000))
+    return body, n_frames, g_min, g_max, duration_ms
+
+
+def encode_sound_stft(audio_samples, title="", tone=sound.TONE_ORDINARY):
+    """Encode mono 8 kHz float audio into a canonical SOUND container
+    (type 0x07, codec 0x00 = STFT-magnitude vocoder).
+
+    Args:
+        audio_samples: 1-D numpy array, float in [-1, 1], sampled at 8 kHz.
+                       Input outside [-1, 1] will be peak-normalized.
+        title:         UTF-8 string, max 255 bytes when encoded.
+        tone:          any valid tone byte (see canonical/tone.py).
+
+    Returns:
+        (header_bytes, body_bytes) — the SOUND container produced by
+        sound.build_sound_quipu. codec_meta carries n_frames + g_min + g_max.
+    """
+    body, n_frames, g_min, g_max, duration_ms = _stft_encode_body(audio_samples)
+    return sound.build_sound_quipu(
+        CODEC_STFT, body,
+        sample_rate=SR, channels=1, duration_ms=duration_ms,
+        codec_meta=sound.pack_stft_meta(n_frames, g_min, g_max),
+        title=title, tone=tone,
+    )
+
+
+# Backward-compatible alias: the old name now emits the container.
+encode_voice = encode_sound_stft
 
 
 # ---------------------------------------------------------------------------
@@ -183,7 +239,10 @@ def encode_voice(audio_samples, title="", tone=0x00):
 # ---------------------------------------------------------------------------
 
 def decode_voice(header_bytes, body_bytes, gl_iters=GRIFFIN_LIM_ITERS):
-    """Decode a (header, body) byte pair from a 0x07 0x00 audio quipu.
+    """Decode a SOUND container (type 0x07, codec 0x00 = STFT) back to audio.
+
+    Reads the canonical container, pulls n_frames + g_min + g_max from its
+    codec_meta, and runs Griffin-Lim phase recovery on the body.
 
     Returns:
         (audio_samples, meta_dict)
@@ -191,20 +250,16 @@ def decode_voice(header_bytes, body_bytes, gl_iters=GRIFFIN_LIM_ITERS):
         meta_dict:     {'title', 'tone', 'codec', 'n_frames',
                         'duration_s', 'sample_rate', 'k_bins'}.
     """
-    if header_bytes[:4] != b"\xc1\xdd\x00\x01":
-        raise ValueError("not a quipu (c1dd0001 magic missing)")
-    if header_bytes[4] != 0x07:
-        raise ValueError(f"not an audio quipu (type = {header_bytes[4]:#04x})")
-    codec = header_bytes[6]
-    if codec != 0x00:
-        raise ValueError(f"codec variant {codec:#04x} not supported")
-
-    tone = header_bytes[5]
-    n_frames = struct.unpack(">H", header_bytes[7:9])[0]
-    g_min = struct.unpack(">f", header_bytes[9:13])[0]
-    g_max = struct.unpack(">f", header_bytes[13:17])[0]
-    tlen = header_bytes[17]
-    title = header_bytes[18:18 + tlen].decode("utf-8")
+    np = _np()
+    rec = sound.read_sound_quipu(header_bytes, body_bytes)
+    if rec["codec"] != CODEC_STFT:
+        raise ValueError(
+            f"not the STFT codec (codec = {rec['codec']:#04x}, expected 0x00)"
+        )
+    tone = rec["tone"]
+    title = rec["title"]
+    n_frames, g_min, g_max = sound.unpack_stft_meta(rec["codec_meta"])
+    body_bytes = rec["body"]
 
     expected = n_frames * K_BINS
     if len(body_bytes) < expected:
@@ -245,7 +300,7 @@ def decode_voice(header_bytes, body_bytes, gl_iters=GRIFFIN_LIM_ITERS):
     return audio, {
         "title": title,
         "tone": tone,
-        "codec": codec,
+        "codec": CODEC_STFT,
         "n_frames": n_frames,
         "duration_s": n_frames * HOP / SR,
         "sample_rate": SR,
@@ -548,17 +603,18 @@ def _estimate_pitch(frame, sr=SR, min_hz=70.0, max_hz=400.0):
     return peak_lag
 
 
-def encode_voice_lpc(audio_samples, title="", tone=0x00):
-    """Encode mono 8 kHz audio with the LPC vocoder (0x07 0x01).
+def encode_sound_lpc(audio_samples, title="", tone=sound.TONE_ORDINARY):
+    """Encode mono 8 kHz audio with the LPC vocoder into a canonical SOUND
+    container (type 0x07, codec 0x01 = LPC-10). About 4x leaner than the
+    STFT codec. Output sounds robotic/buzzy but intelligible for speech.
 
-    Returns (header_bytes, body_bytes). About 4× leaner than 0x07 0x00.
-    Output sounds robotic/buzzy but intelligible for narrated speech.
+    Returns (header_bytes, body_bytes) from sound.build_sound_quipu;
+    codec_meta carries n_frames (u16).
     """
+    np = _np()
     x = np.asarray(audio_samples, dtype=np.float32)
     if x.ndim != 1:
         raise ValueError("audio must be mono (1-D)")
-    if tone not in (0x00, 0xff):
-        raise ValueError("tone must be 0x00 or 0xff")
     peak = float(np.max(np.abs(x)))
     if peak > 0:
         x = x / peak
@@ -599,37 +655,33 @@ def encode_voice_lpc(audio_samples, title="", tone=0x00):
         quant[i, LPC_ORDER] = gain_q
         quant[i, LPC_ORDER + 1] = pitch  # 0 = unvoiced
 
-    title_bytes = title.encode("utf-8")
-    if len(title_bytes) > 255:
-        raise ValueError("title > 255 UTF-8 bytes")
-
-    header = (
-        b"\xc1\xdd\x00\x01"
-        + b"\x07"
-        + bytes([tone])
-        + b"\x01"
-        + struct.pack(">H", n_frames)
-        + bytes([len(title_bytes)])
-        + title_bytes
-    )
     body = quant.tobytes()
-    return header, body
+    duration_ms = int(round(len(x) / SR * 1000))
+    return sound.build_sound_quipu(
+        CODEC_LPC, body,
+        sample_rate=SR, channels=1, duration_ms=duration_ms,
+        codec_meta=sound.pack_frames_meta(n_frames),
+        title=title, tone=tone,
+    )
+
+
+# Backward-compatible alias: the old name now emits the container.
+encode_voice_lpc = encode_sound_lpc
 
 
 def decode_voice_lpc(header_bytes, body_bytes):
-    """Decode a 0x07 0x01 LPC quipu's (header, body). Returns
-    (audio_float32, meta_dict)."""
-    if header_bytes[:4] != b"\xc1\xdd\x00\x01":
-        raise ValueError("not a quipu")
-    if header_bytes[4] != 0x07:
-        raise ValueError(f"not audio (type byte = {header_bytes[4]:#04x})")
-    if header_bytes[6] != 0x01:
-        raise ValueError(f"not LPC codec (variant = {header_bytes[6]:#04x})")
-
-    tone = header_bytes[5]
-    n_frames = struct.unpack(">H", header_bytes[7:9])[0]
-    tlen = header_bytes[9]
-    title = header_bytes[10:10 + tlen].decode("utf-8")
+    """Decode a SOUND container (type 0x07, codec 0x01 = LPC) back to audio.
+    Returns (audio_float32, meta_dict)."""
+    np = _np()
+    rec = sound.read_sound_quipu(header_bytes, body_bytes)
+    if rec["codec"] != CODEC_LPC:
+        raise ValueError(
+            f"not the LPC codec (codec = {rec['codec']:#04x}, expected 0x01)"
+        )
+    tone = rec["tone"]
+    title = rec["title"]
+    n_frames = sound.unpack_frames_meta(rec["codec_meta"])
+    body_bytes = rec["body"]
 
     expected = n_frames * LPC_BYTES_PER_FRAME
     if len(body_bytes) < expected:
@@ -821,14 +873,15 @@ def _get_c2():
     return pycodec2.Codec2(C2_MODE)
 
 
-def encode_voice_c2(audio_samples, title="", tone=0x00):
-    """Encode mono 8 kHz audio with Codec2 700C (0x07 0x02). Returns
-    (header_bytes, body_bytes). The leanest variant in the type."""
+def encode_sound_codec2(audio_samples, title="", tone=sound.TONE_ORDINARY):
+    """Encode mono 8 kHz audio with Codec2 700C into a canonical SOUND
+    container (type 0x07, codec 0x02). The leanest variant in the type;
+    needs libcodec2 + pycodec2. Returns (header_bytes, body_bytes);
+    codec_meta carries n_frames (u16)."""
+    np = _np()
     x = np.asarray(audio_samples, dtype=np.float32)
     if x.ndim != 1:
         raise ValueError("audio must be mono")
-    if tone not in (0x00, 0xff):
-        raise ValueError("tone must be 0x00 or 0xff")
 
     # Convert float [-1, 1] to int16
     peak = float(np.max(np.abs(x)))
@@ -849,34 +902,32 @@ def encode_voice_c2(audio_samples, title="", tone=0x00):
         frame = padded[i * C2_FRAME:(i + 1) * C2_FRAME]
         chunks.extend(c2.encode(frame))
 
-    title_bytes = title.encode("utf-8")
-    if len(title_bytes) > 255:
-        raise ValueError("title > 255 UTF-8 bytes")
-    header = (
-        b"\xc1\xdd\x00\x01"
-        + b"\x07"
-        + bytes([tone])
-        + b"\x02"
-        + struct.pack(">H", n_frames)
-        + bytes([len(title_bytes)])
-        + title_bytes
+    duration_ms = int(round(len(x_i16) / SR * 1000))
+    return sound.build_sound_quipu(
+        CODEC_CODEC2, bytes(chunks),
+        sample_rate=SR, channels=1, duration_ms=duration_ms,
+        codec_meta=sound.pack_frames_meta(n_frames),
+        title=title, tone=tone,
     )
-    return header, bytes(chunks)
+
+
+# Backward-compatible alias: the old name now emits the container.
+encode_voice_c2 = encode_sound_codec2
 
 
 def decode_voice_c2(header_bytes, body_bytes):
-    """Decode a 0x07 0x02 Codec2 700C quipu's (header, body)."""
-    if header_bytes[:4] != b"\xc1\xdd\x00\x01":
-        raise ValueError("not a quipu")
-    if header_bytes[4] != 0x07:
-        raise ValueError(f"not audio")
-    if header_bytes[6] != 0x02:
-        raise ValueError(f"not Codec2 700C variant")
-
-    tone = header_bytes[5]
-    n_frames = struct.unpack(">H", header_bytes[7:9])[0]
-    tlen = header_bytes[9]
-    title = header_bytes[10:10 + tlen].decode("utf-8")
+    """Decode a SOUND container (type 0x07, codec 0x02 = Codec2 700C)."""
+    np = _np()
+    rec = sound.read_sound_quipu(header_bytes, body_bytes)
+    if rec["codec"] != CODEC_CODEC2:
+        raise ValueError(
+            f"not the Codec2 codec (codec = {rec['codec']:#04x}, "
+            f"expected 0x02)"
+        )
+    tone = rec["tone"]
+    title = rec["title"]
+    n_frames = sound.unpack_frames_meta(rec["codec_meta"])
+    body_bytes = rec["body"]
 
     expected = n_frames * C2_BPF
     if len(body_bytes) < expected:
@@ -898,6 +949,45 @@ def decode_voice_c2(header_bytes, body_bytes):
         "sample_rate": SR,
         "bitrate_bps": 700,
     }
+
+
+# ---------------------------------------------------------------------------
+# Unified container decode dispatcher
+# ---------------------------------------------------------------------------
+
+# Maps each vocoder codec byte to the DSP decoder that reconstructs audio.
+_DECODE_DISPATCH = {
+    CODEC_STFT:   decode_voice,
+    CODEC_LPC:    decode_voice_lpc,
+    CODEC_CODEC2: decode_voice_c2,
+}
+
+
+def decode_sound(header_bytes, body_bytes):
+    """Decode a canonical SOUND container (type 0x07) to audio samples.
+
+    Reads the container (keyless, pure-stdlib via sound.read_sound_quipu),
+    then routes to the matching numpy DSP for the vocoder codecs
+    (0x00 STFT / 0x01 LPC / 0x02 Codec2). Opaque standard codecs
+    (0x10 opus / 0x11 mp3 / 0x12 wav / 0x13 flac) are NOT decoded here —
+    their bodies are real bitstreams for a browser/audio library, so this
+    raises ValueError pointing the caller at the container record (use
+    sound.read_sound_quipu to get the opaque body + codec_name).
+
+    Returns:
+        (audio_samples, meta_dict) — same shape the per-codec decoders return.
+    """
+    rec = sound.read_sound_quipu(header_bytes, body_bytes)
+    codec = rec["codec"]
+    fn = _DECODE_DISPATCH.get(codec)
+    if fn is None:
+        raise ValueError(
+            f"codec 0x{codec:02x} ({rec['codec_name']}) is not a quipu "
+            f"vocoder; its body is an opaque {rec['codec_name']} bitstream. "
+            f"Use sound.read_sound_quipu() and decode it with an audio "
+            f"library / browser instead."
+        )
+    return fn(header_bytes, body_bytes)
 
 
 def _selftest_c2():
@@ -937,9 +1027,61 @@ def _selftest_c2():
     print("=" * 70)
 
 
+def _selftest_container_integration():
+    """Assert the DSP encoders emit a valid canonical SOUND container that the
+    KEYLESS reader (sound.read_sound_quipu) parses, and that decode_sound
+    routes back to audio. Covers the STFT and LPC vocoders (both pure-numpy);
+    Codec2 needs libcodec2 so it's exercised separately."""
+    print()
+    print("=" * 70)
+    print("voice_codec.py self-test  —  canonical SOUND container integration")
+    print("=" * 70)
+    audio_in = _synthesize_test_voice(duration_s=2.0)
+
+    for label, codec, enc in (
+        ("stft", CODEC_STFT, encode_sound_stft),
+        ("lpc",  CODEC_LPC,  encode_sound_lpc),
+    ):
+        header, body = enc(audio_in, title=f"{label} container test",
+                           tone=sound.TONE_REVERENCE)
+        # The KEYLESS container reader must parse the DSP's output.
+        rec = sound.read_sound_quipu(header, body)
+        assert rec["type"] == "sound"
+        assert rec["codec"] == codec
+        assert rec["codec_name"] == label
+        assert rec["sample_rate"] == SR
+        assert rec["channels"] == 1
+        assert rec["duration_ms"] > 0
+        assert rec["tone"] == sound.TONE_REVERENCE
+        assert rec["title"] == f"{label} container test"
+        assert rec["body"] == body
+        # Header is a well-formed quipu prefix.
+        assert header[:4] == b"\xc1\xdd\x00\x01"
+        assert header[4] == 0x07
+        # The unified dispatcher routes container -> DSP -> audio.
+        audio_out, meta = decode_sound(header, body)
+        assert meta["codec"] == codec
+        assert len(audio_out) > 0
+        print(f"  {label:6s} codec 0x{codec:02x}: header {len(header)} B, "
+              f"body {len(body)} B, dur {rec['duration_ms']} ms -> "
+              f"{len(audio_out)} samples decoded  OK")
+
+    # decode_sound on an opaque codec must refuse (no DSP for it).
+    h_op, b_op = sound.build_sound_quipu(CODEC_WAV, b"RIFF....fake",
+                                         sample_rate=8000, channels=1)
+    try:
+        decode_sound(h_op, b_op)
+    except ValueError as e:
+        print(f"  opaque 0x12 wav: decode_sound refused as expected ({e})"[:90])
+    else:
+        print("  opaque 0x12 wav: decode_sound DID NOT REFUSE (bug)")
+    print("=" * 70)
+
+
 if __name__ == "__main__":
     _selftest()
     _selftest_lpc()
+    _selftest_container_integration()
     try:
         _selftest_c2()
     except ImportError as e:

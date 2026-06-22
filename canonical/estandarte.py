@@ -410,9 +410,19 @@ def _example_registry():
             'flags': [],
         },
         {
-            'byte': 0x07, 'name': 'voice', 'status': STATUS_DRAFT,
-            'desc': 'band-limited speech: 8-bit STFT magnitude frames, phase recovered on decode (no inscriptions yet)',
-            'dimensions': [],
+            'byte': 0x07, 'name': 'sound', 'status': STATUS_CANONICAL,
+            'desc': 'audio container: a codec byte selects a quipu vocoder (STFT/LPC/Codec2) or an opaque standard format (opus/mp3/wav/flac); body is encoded audio',
+            'dimensions': [
+                {'name': 'codec', 'desc': 'how the body bytes encode audio', 'values': [
+                    {'value': 0x00, 'name': 'stft',   'desc': 'quipu STFT-magnitude vocoder (speech)'},
+                    {'value': 0x01, 'name': 'lpc',    'desc': 'quipu LPC-10 vocoder (speech)'},
+                    {'value': 0x02, 'name': 'codec2', 'desc': 'Codec2 700C (speech, needs libcodec2)'},
+                    {'value': 0x10, 'name': 'opus',   'desc': 'opaque Ogg/Opus'},
+                    {'value': 0x11, 'name': 'mp3',    'desc': 'opaque MP3'},
+                    {'value': 0x12, 'name': 'wav',    'desc': 'opaque WAV/PCM'},
+                    {'value': 0x13, 'name': 'flac',   'desc': 'opaque FLAC'},
+                ]},
+            ],
             'flags': [],
         },
         {
@@ -444,6 +454,12 @@ def _example_registry():
                     {'value': 0x01, 'name': 'password', 'desc': 'aes: SHA256(passphrase) key · drop: sourced (|claim=…| descriptor) · centinela: passphrase seal · shamir: self-contained vault'},
                 ]},
             ],
+            'flags': [],
+        },
+        {
+            'byte': 0x0f, 'name': 'file', 'status': STATUS_CANONICAL,
+            'desc': 'generic binary container: optional sha256 (flag-gated), mimetype, filename, optional title; body is the raw file bytes',
+            'dimensions': [],
             'flags': [],
         },
         {

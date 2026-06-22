@@ -65,9 +65,9 @@ ADDRESSES = {
 ADDRESS_LIST = list(ADDRESSES.keys())
 
 TYPE_NAMES = {
-    0x00: "text", 0x01: "essay", 0x03: "image", 0x07: "audio",
+    0x00: "text", 0x01: "essay", 0x03: "image", 0x07: "sound",
     0x09: "book",
-    0x0e: "encrypted", 0x1d: "identity",
+    0x0e: "encrypted", 0x0f: "file", 0x1d: "identity",
     0x3d: "scene",
     0x5c: "latex",
     0xab: "binding", 0xcc: "cert",
