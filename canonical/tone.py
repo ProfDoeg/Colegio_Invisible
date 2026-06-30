@@ -2,7 +2,7 @@
 
 Every Colegio Invisible quipu carries a tone byte at header offset 5,
 recording the emotional / classificatory register of the inscribed
-content. Twelve values are recognized in v1:
+content. Thirteen values are recognized in v1:
 
   0x00  ordinary           descriptive, neutral, the default
 
@@ -22,6 +22,9 @@ content. Twelve values are recognized in v1:
   --- classificatory registers (a separate axis) ---
   0x0d  demonic    content that documents harm: dictators, founding
                    instruments of state terror, surveillance documents
+  0x6e  nature     naturaleza ("n"). The non-human living world and the
+                   elements — water, stone, birdsong, weather; field
+                   recordings and content of/about the natural world.
   0xa1  ai         authored by, or fully attributable to, a non-human
                    model. Marks inscriptions that emerged from machine
                    composition rather than human hand.
@@ -53,6 +56,7 @@ TONE_RAGE      = 0x05
 TONE_FEAR      = 0x06
 TONE_GRIEF     = 0x07
 TONE_DEMONIC   = 0x0D
+TONE_NATURE    = 0x6E      # naturaleza ('n')
 TONE_AI        = 0xA1
 TONE_HOPE      = 0xE5      # esperanza
 TONE_REVERENCE = 0xFF
@@ -69,6 +73,7 @@ TONES = {
     TONE_FEAR:      "fear/dread",
     TONE_GRIEF:     "grief/panic",
     TONE_DEMONIC:   "demonic",
+    TONE_NATURE:    "nature",
     TONE_AI:        "ai",
     TONE_HOPE:      "hope",
     TONE_REVERENCE: "reverence",
@@ -129,6 +134,7 @@ def _selftest():
     assert TONE_FEAR      == 0x06
     assert TONE_GRIEF     == 0x07
     assert TONE_DEMONIC   == 0x0D
+    assert TONE_NATURE    == 0x6E
     assert TONE_AI        == 0xA1
     assert TONE_REVERENCE == 0xFF
 
@@ -142,14 +148,15 @@ def _selftest():
     assert TONES[0x06] == "fear/dread"
     assert TONES[0x07] == "grief/panic"
     assert TONES[0x0d] == "demonic"
+    assert TONES[0x6e] == "nature"
     assert TONES[0xa1] == "ai"
     assert TONES[0xe5] == "hope"
     assert TONES[0xff] == "reverence"
-    assert len(TONES) == 12
+    assert len(TONES) == 13
 
     # VALID_TONES contains the right bytes
     assert VALID_TONES == frozenset({0x00, 0x01, 0x02, 0x03, 0x04, 0x05,
-                                     0x06, 0x07, 0x0d, 0xa1, 0xe5, 0xff})
+                                     0x06, 0x07, 0x0d, 0x6e, 0xa1, 0xe5, 0xff})
     assert 0x42 not in VALID_TONES
 
     # The affective family is exactly 0x01–0x07
@@ -186,7 +193,8 @@ def _selftest():
     assert name(0x42) == "unknown_0x42"
     assert name(0xfe) == "unknown_0xfe"
 
-    print("  ✓ 12 tones, affective family 0x01–0x07, TONES/VALID_TONES/validate/name/reverse")
+    assert name(0x6e) == "nature"
+    print("  ✓ 13 tones, affective family 0x01–0x07, TONES/VALID_TONES/validate/name/reverse")
 
 
 if __name__ == "__main__":

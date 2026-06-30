@@ -36,6 +36,19 @@ __pycache__/
 # Inscription key / session material — never commit
 inscriptions_ready/*.bin
 
+# working/music — track the recipes (code) + staging manifest; NOT the raw or
+# rendered audio (regenerate from the compose scripts + source samples)
+working/music/*.wav
+working/music/*.opus
+working/music/*.npz
+working/music/*.sound.bin
+working/music/samples/
+# scratch / verify-agent / backup scripts — not part of the music code
+working/music/_*.py
+working/music/investigate.py
+working/music/verify_*.py
+working/music/*_prev.py
+
 # Dancer / avatari — generated media + frame caches (regenerate from source movies)
 working/avatari/_frames_*/
 working/avatari/_allframes/

@@ -24,7 +24,7 @@ type module rather than redeclared.
                               03 play/interaction  04 lust/wanting
                               05 rage/anger        06 fear/dread
                               07 grief/panic
-                              0d demonic   a1 ai   ff reverence
+                              0d demonic   6e nature   a1 ai   ff reverence
 ```
 
 ---
@@ -34,7 +34,7 @@ type module rather than redeclared.
 Tones `0x01`–`0x07` are **the affective family**: Jaak Panksepp's seven
 primal, subcortical emotional systems shared across all mammals — distinct
 neurological drives, not cognitive states. They mark the felt register the
-content carries. `0x0d`, `0xa1`, `0xff` are a separate, classificatory axis.
+content carries. `0x0d`, `0x6e`, `0xa1`, `0xff` are a separate, classificatory axis.
 
 | `<tone>` | name | when to use |
 |---|---|---|
@@ -47,6 +47,7 @@ content carries. `0x0d`, `0xa1`, `0xff` are a separate, classificatory axis.
 | `0x06` | fear/dread | anxiety, the freeze-or-flee alarm, danger (FEAR) |
 | `0x07` | grief/panic | separation distress, the isolation call, loss and longing (PANIC/GRIEF) |
 | `0x0d` | demonic   | content that documents harm: dictators, founding instruments of state terror, surveillance documents |
+| `0x6e` | nature    | naturaleza ("n"); the non-human living world and the elements — water, stone, birdsong, weather; field recordings and content of/about the natural world |
 | `0xa1` | ai        | authored by, or fully attributable to, a non-human model; machine-composed content |
 | `0xe5` | hope      | esperanza; content written toward the future reader — corrections, healings, editions, invitations |
 | `0xff` | reverence | the dead, ancestors, formal commemoration |
@@ -121,6 +122,20 @@ First inscribed instances: the Pinochet presidential portrait
 (`03a08c37…`) and the October 1975 DINA invitation letter that founded
 Operation Condor (`b0263c0f…`), both at block 6,217,650 under the
 apocrypha key.
+
+### `0x6e` nature
+
+The non-human living world and the elements — water, stone, birdsong,
+weather, growth and decay. Use for field recordings and for content
+of or about the natural world: the sound of a fountain, a river, rain,
+a forest. Where the affective family (`0x01`–`0x07`) marks a felt human
+drive and `0xff` reverence honors the dead, `0x6e` marks the world that
+was never human to begin with. The byte mnemonic is `'n'` (ASCII `0x6e`)
+for *naturaleza*, echoing `0xa1`/AI and `0xe5`/esperanza.
+
+First inscribed instance: the *fairy spring* — 40 s of the fountain at
+the Joan-of-Arc square, the water source of the *claustro · misa*
+composition.
 
 ### `0xa1` ai
 
@@ -234,3 +249,4 @@ picks up the new value automatically.
 | 2026-05-22 | tone byte centralized into `canonical/tone.py`; type modules import from it instead of redeclaring (this commit) |
 | 2026-05-23 | `0xa1` ai added during a conversation that produced *El Libro del Gólem*; designates inscriptions whose content is fully machine-composed |
 | 2026-06-01 | affective family `0x02`–`0x07` added — Panksepp's primal emotional systems (seeking, play, lust, rage, fear, grief); `0x01` affection renamed `affection/care` to fold in CARE. Tones `0x01`–`0x07` now form the seven-system family |
+| 2026-06-30 | `0x6e` nature added (classificatory axis) for the non-human living world / the elements; first instance the *fairy spring* fountain recording |

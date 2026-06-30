@@ -1,0 +1,86 @@
+{
+  "set_name": "claustro \u00b7 misa (build-by-reference)",
+  "structure": "one consolidated diamond",
+  "fee_per_knot_doge": 0.01,
+  "no_tags": true,
+  "placeholder_of": {
+    "amen": "515245463a616d656e0000000000000000000000000000000000000000000000",
+    "amen2": "515245463a616d656e3200000000000000000000000000000000000000000000",
+    "fairy_spring": "515245463a66616972795f737072696e67000000000000000000000000000000",
+    "ermitano": "515245463a65726d6974616e6f00000000000000000000000000000000000000",
+    "claustro_misa": "515245463a636c61757374726f5f6d6973610000000000000000000000000000"
+  },
+  "references": {
+    "claustro_misa->choir": "amen",
+    "claustro_misa->voice2": "amen2",
+    "claustro_misa->water": "fairy_spring",
+    "note": "Mass clip EMBEDDED in the song"
+  },
+  "pieces": [
+    {
+      "pid": "amen",
+      "path": "amen.sound.bin",
+      "title": "| amen |",
+      "codec": "0x10",
+      "codec_name": "opus",
+      "tone": "0xff",
+      "tone_name": "reverence",
+      "bytes": 32424,
+      "knots": 406,
+      "strands": 18
+    },
+    {
+      "pid": "amen2",
+      "path": "amen2.sound.bin",
+      "title": "| amen II |",
+      "codec": "0x10",
+      "codec_name": "opus",
+      "tone": "0xff",
+      "tone_name": "reverence",
+      "bytes": 35860,
+      "knots": 449,
+      "strands": 20
+    },
+    {
+      "pid": "fairy_spring",
+      "path": "fairy_spring.sound.bin",
+      "title": "| fairy spring |",
+      "codec": "0x10",
+      "codec_name": "opus",
+      "tone": "0x6e",
+      "tone_name": "nature",
+      "bytes": 208348,
+      "knots": 2605,
+      "strands": 110
+    },
+    {
+      "pid": "ermitano",
+      "path": "hermit.sound.bin",
+      "title": "| el ermita\u00f1o |",
+      "codec": "0x2",
+      "codec_name": "codec2",
+      "tone": "0x2",
+      "tone_name": "seeking/wandering",
+      "bytes": 126950,
+      "knots": 1588,
+      "strands": 68
+    },
+    {
+      "pid": "claustro_misa",
+      "path": "claustro_refs.sound.bin",
+      "title": "| claustro \u00b7 misa |",
+      "codec": "0x20",
+      "codec_name": "music",
+      "tone": "0x3",
+      "tone_name": "play/interaction",
+      "bytes": 118298,
+      "knots": 1480,
+      "strands": 63
+    }
+  ],
+  "total_knots": 6528,
+  "total_strands": 279,
+  "est_knot_fee_doge": 65.28,
+  "join_inputs": 279,
+  "join_limit_strands": "~675 (MAX_STANDARD_TX_WEIGHT 400000 -> ~100KB tx)"
+}

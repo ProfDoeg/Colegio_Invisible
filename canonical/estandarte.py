@@ -411,7 +411,7 @@ def _example_registry():
         },
         {
             'byte': 0x07, 'name': 'sound', 'status': STATUS_CANONICAL,
-            'desc': 'audio container: a codec byte selects a quipu vocoder (STFT/LPC/Codec2) or an opaque standard format (opus/mp3/wav/flac); body is encoded audio',
+            'desc': 'audio container: a codec byte selects a quipu vocoder (STFT/LPC/Codec2), an opaque standard format (opus/mp3/wav/flac), or a composed-music recipe (music); body is encoded audio',
             'dimensions': [
                 {'name': 'codec', 'desc': 'how the body bytes encode audio', 'values': [
                     {'value': 0x00, 'name': 'stft',   'desc': 'quipu STFT-magnitude vocoder (speech)'},
@@ -421,6 +421,7 @@ def _example_registry():
                     {'value': 0x11, 'name': 'mp3',    'desc': 'opaque MP3'},
                     {'value': 0x12, 'name': 'wav',    'desc': 'opaque WAV/PCM'},
                     {'value': 0x13, 'name': 'flac',   'desc': 'opaque FLAC'},
+                    {'value': 0x20, 'name': 'music',  'desc': 'composed-music recipe: synth + sampled + sliced instruments on a note timeline'},
                 ]},
             ],
             'flags': [],

@@ -1,11 +1,14 @@
 # Quipu type `0x07` — Sound
 
-> **STATUS: CANONICAL v1.** Container implemented in
-> [`canonical/sound.py`](../../canonical/sound.py) (keyless, pure-stdlib).
-> The numpy DSP for the speech vocoders lives in
-> [`voice_codec.py`](../../voice_codec.py). A general **audio container**:
-> a codec byte selects a quipu-native vocoder (STFT / LPC / Codec2) or an
-> opaque standard format (opus / mp3 / wav / flac).
+> **STATUS: CANONICAL v1.** Container in
+> [`canonical/sound.py`](../../canonical/sound.py) (keyless, pure-stdlib);
+> the `0x20` music codec in [`canonical/music.py`](../../canonical/music.py)
+> (keyless, pure-stdlib). The numpy DSP for the vocoders lives in
+> [`voice_codec.py`](../../voice_codec.py); the music mixer in the prototype
+> `working/music/music_codec.py`. The **`0x07` sound type is the umbrella for
+> all audio** — the codec byte is the subtype discriminator, selecting one of
+> three worlds: **voice** (vocoders `0x00`–`0x02`), **audio** (opaque standard
+> formats `0x10`–`0x13`), or **music** (a composed recipe, `0x20`).
 
 A *sound quipu* wraps an opaque body of encoded audio in a small,
 self-describing header. The header carries a **codec byte**, a
@@ -80,6 +83,7 @@ reader reports `size = len(body)` and returns the bytes verbatim.
 | `0x11` | `mp3`    | opaque                                      | `b''` |
 | `0x12` | `wav`    | opaque WAV / PCM                            | `b''` |
 | `0x13` | `flac`   | opaque                                      | `b''` |
+| `0x20` | `music`  | composed-music **recipe** — the `QM` module (synth + sampled + sliced instruments on a note timeline) | `b''` (the module is the body) |
 
 The split is deliberate:
 
@@ -194,6 +198,122 @@ log-magnitude quantized per-utterance via a global min/max (the `g_min`
 (random-phase Griffin–Lim is the known weakness for speech). LPC (`0x01`)
 is robotic/buzzy but intelligible at ~480 B/sec; Codec2 700C (`0x02`) is
 the leanest at ~88 B/sec but needs `libcodec2` + `pycodec2`.
+
+---
+
+## Music codec (`0x20`)
+
+Music is the one codec that is a **recipe, not a recording**. The vocoders and
+standard formats are *waveforms* — decode bytes to samples. A music body is a
+**score**: instruments plus a note timeline, which a numpy mixer *renders* to a
+waveform. (Same shape as MIDI living under `audio/*`: the output is sound, the
+encoding is symbolic — so music belongs *under* `0x07`, as a codec, not as a
+separate type.) The body is the **`QM` module**; the format is
+[`canonical/music.py`](../../canonical/music.py) — keyless and pure-stdlib, with
+pcm carried as raw bytes; the rendering mixer is the DSP layer.
+
+### Five instrument kinds — the ways music is made
+
+| kind | name | what it is |
+|------|------|------------|
+| `0` | `synth`      | oscillators (square / triangle / saw / sine / noise) + ADSR — *generated* |
+| `1` | `sample`     | a whole recording, pitched across the keyboard, looped for sustain |
+| `2` | `sliced`     | one long recording + a slice table — chop it, re-sequence the pieces |
+| `3` | `sample_ref` | a `sample` whose audio is **resolved from another sound quipu** — no embedded PCM |
+| `4` | `sliced_ref` | a `sliced` whose clip is **resolved from another sound quipu** |
+
+A 1-byte `kind` on each instrument (the per-element discriminator again, cf. the
+celestial kind byte). One track may mix all of them on a single note timeline — a
+synth sub, a sampled pad, chopped vocal hits, and a choir **referenced** from a
+recording already on the chain (see [Build by reference](#build-by-reference)).
+
+### Per-instrument bit depth (`bits`)
+
+`sample` and `sliced` instruments each carry a **`bits`** byte: `8` (dusty /
+lean, ~−48 dB floor, SP-1200 character) or `16` (clean / hi-fi, ~−96 dB). Each
+instrument chooses independently, so a dusty 8-bit drum chop and a clean 16-bit
+lead can share one track. (Reference kinds 3/4 store no PCM, so they carry no
+`bits` — the resolver decodes the referenced audio to float and the render
+quantizes internally.)
+
+### Build by reference
+
+`sample_ref` (kind 3) and `sliced_ref` (kind 4) store **no PCM** — only a 32-byte
+**`ref_txid`** (the root txid of another sound quipu, the same reference primitive
+as [`book.py`](../../canonical/book.py)) plus an extraction spec: `src_start_ms`,
+`src_len_ms`, a target `srate`, a `flags` byte (bit 0 `REF_NORMALIZE` =
+peak-normalize the extracted region), and either a loop (kind 3) or a slice table
+(kind 4, indexing the *resolved* samples).
+
+A renderer **resolves** each reference: fetch the named quipu
+(`colegio_tools.fetch_quipu_bytes`), decode its audio (opus / wav / codec2 / …),
+take `[src_start_ms, +src_len_ms]`, resample to `srate`, optionally normalize —
+and from there it plays exactly like an embedded `sample` / `sliced`. The DSP
+layer's `render_music(body, rate, resolver)` takes a
+`resolver(ref_txid) -> (pcm, source_rate)`; the keyless container only stores and
+reads the reference.
+
+This is what makes a **sound library** possible: inscribe a recording once, and
+any number of future compositions reference it — a referenced instrument is
+~95 bytes versus the tens of KB of embedded PCM. Because a consolidated diamond
+signs every root deterministically before broadcast and **backfills** placeholder
+txids with the real sibling roots, a song can even reference sources inscribed *in
+the same batch* (only a cross-batch *child* — a quipu that spends from this one —
+cannot be referenced). One quipu may **mix both**: embed some samples, reference
+others.
+
+### `QM` module wire format (the `0x20` body)
+
+All multi-byte ints **big-endian**:
+
+```
+'QM' · version:u8=2 · tempo_bpm:u16 · rows_per_beat:u8 · num_channels:u8 ·
+num_instruments:u8 · num_patterns:u8 · order_len:u8 · master_volume:u8
+  (version 1 carried num_rows & event.row as u8; version 2 widens both to u16
+   for long, finely-subdivided patterns. The reader accepts both.)
+INSTRUMENTS (num_instruments):
+  kind:u8 · namelen:u8 · name · volume:u8 ·
+  attack_ms:u16 · decay_ms:u16 · sustain_level:u8 · release_ms:u16
+  kind 0 synth:  waveform:u8 · duty:u8           (for noise, duty = lowpass tone)
+  kind 1 sample: srate:u16 · base_note:u8 · bits:u8 · loop_start:u16 ·
+                 loop_end:u16 · pcm_len:u32(SAMPLES) · pcm (int8 | int16-BE)
+  kind 2 sliced: srate:u16 · base_note:u8 · bits:u8 · num_slices:u16 ·
+                 num_slices×(start:u32,length:u32) [SAMPLES] ·
+                 pcm_len:u32(SAMPLES) · pcm (int8 | int16-BE)
+  kind 3 sample_ref: ref_txid:32 · srate:u16 · base_note:u8 · flags:u8 ·
+                 src_start_ms:u32 · src_len_ms:u32 · loop_start:u32 · loop_end:u32
+  kind 4 sliced_ref: ref_txid:32 · srate:u16 · base_note:u8 · flags:u8 ·
+                 src_start_ms:u32 · src_len_ms:u32 · num_slices:u16 ·
+                 num_slices×(start:u32,length:u32) [resolved SAMPLES]
+    flags bit 0 = REF_NORMALIZE (peak-normalize the extracted region)
+PATTERNS (num_patterns):
+  num_rows:u16 · num_events:u16 ·
+  events × [row:u16, channel:u8, note:u8, instrument:u8, volume:u8]
+    note 0 = key-off; for a SLICED / SLICED_REF instrument note = slice_index + 1
+ORDER: order_len × pattern_index:u8
+```
+
+### Data density
+
+The **score** — every note, every chop, the whole arrangement — is **~1 KB**.
+You pay bytes only for the *audio you embed*:
+
+- **Synthesis is nearly free** — a full chiptune piece is ~1 KB total (≈ a
+  single OP_RETURN strand).
+- **Slicing is a multiplier** — one recording becomes a whole arrangement, and a
+  take typically triggers only a handful of slices, so a real inscription keeps
+  only the used slices (the full source clip can dominate size otherwise).
+
+### Rendering
+
+A `QM` body must be *rendered* (the mixer walks order → patterns → events on a
+clock at `samples_per_row = rate·60/(tempo·rows_per_beat)`, synthesizes or
+resamples each voice, applies ADSR/velocity, sums, soft-limits, peak-normalizes)
+to produce a waveform — which a viewer then plays. Unlike the opaque codecs, a
+browser cannot play a `QM` body directly; it is rendered to a WAV at build time.
+Example pieces (in `working/music/`): `chiptune` (synth only), `jam_boombap` (a
+hummed melody chopped into a sliced instrument over synth drums), `calm`,
+`wutang`.
 
 ---
 

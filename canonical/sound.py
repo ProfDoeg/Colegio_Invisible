@@ -88,7 +88,8 @@ TYPE_SOUND = 0x07
 
 from tone import (
     TONES, VALID_TONES, validate_tone,
-    TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_AI, TONE_REVERENCE,
+    TONE_ORDINARY, TONE_AFFECTION, TONE_SEEKING, TONE_PLAY, TONE_DEMONIC,
+    TONE_NATURE, TONE_AI, TONE_REVERENCE,
 )
 _VALID_TONES = VALID_TONES  # backward-compat alias
 
@@ -108,6 +109,10 @@ CODEC_OPUS   = 0x10   # ogg/opus
 CODEC_MP3    = 0x11   # mp3
 CODEC_WAV    = 0x12   # WAV / PCM
 CODEC_FLAC   = 0x13   # flac
+# Composed music (a *recipe*, not a recording): the body is the 'QM' music
+# module — instruments (synth/sample/sliced) + a note timeline — rendered to a
+# waveform by the numpy mixer. Format: canonical/music.py.
+CODEC_MUSIC  = 0x20   # composed-music recipe
 
 # Canonical byte -> name map. THE dictionary; everything else is derived.
 CODEC_NAMES = {
@@ -118,6 +123,7 @@ CODEC_NAMES = {
     CODEC_MP3:    "mp3",
     CODEC_WAV:    "wav",
     CODEC_FLAC:   "flac",
+    CODEC_MUSIC:  "music",
 }
 
 # Reverse lookup: name -> byte.
@@ -128,6 +134,8 @@ CODEC_BY_NAME = {v: k for k, v in CODEC_NAMES.items()}
 VOCODER_CODECS = frozenset({CODEC_STFT, CODEC_LPC, CODEC_CODEC2})
 
 # Opaque standard codecs -> a MIME type, for renderers emitting <audio>.
+# (Music 0x20 and the vocoders are NOT here: they are rendered to a waveform by
+# the numpy DSP at build time, not handed to a browser decoder directly.)
 CODEC_MIME = {
     CODEC_OPUS: "audio/ogg",
     CODEC_MP3:  "audio/mpeg",
