@@ -394,10 +394,36 @@ def _wait_confirmed(txid, label, log, poll=15, max_wait=2400):
     raise TimeoutError("%s not confirmed in %ds" % (label, max_wait))
 
 
+def _launch_loom(artifacts_dir, port=8765, open_browser=True, log=print):
+    """Best-effort: start the standard loom_monitor (loom_monitor.py) for these
+    artifacts in a background subprocess and open the browser. Watch-only; never
+    fails the broadcast — headless / no-browser just logs and continues."""
+    try:
+        import subprocess, webbrowser, urllib.request
+        script = os.path.join(os.path.dirname(os.path.abspath(__file__)), "loom_monitor.py")
+        if not os.path.exists(script):
+            return
+        env = dict(os.environ, LOOM_ARTIFACTS=str(artifacts_dir), PORT=str(port))
+        subprocess.Popen([sys.executable, script], env=env,
+                         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        url = "http://localhost:%d/" % port
+        for _ in range(20):                       # wait up to ~10 s for it to bind
+            try:
+                urllib.request.urlopen(url, timeout=1); break
+            except Exception:
+                time.sleep(0.5)
+        log("  loom: %s" % url)
+        if open_browser:
+            webbrowser.open(url)
+    except Exception as e:                          # noqa: BLE001
+        log("  loom launch skipped: %s" % e)
+
+
 def broadcast_consolidated_diamond(artifacts_dir, log=print, strand_workers=16,
                                    declared_ok=(), known_txids=None,
                                    expected_refs=None, require_approval=False,
-                                   skip_preflight=False):
+                                   skip_preflight=False, loom=True, loom_port=8765,
+                                   loom_open=True):
     """Weave a built diamond onto chain from artifacts_dir. Keyless, idempotent,
     resumable — re-running only (re)sends what the node has forgotten.
 
@@ -406,7 +432,11 @@ def broadcast_consolidated_diamond(artifacts_dir, log=print, strand_workers=16,
     every body must decode through its canonical reader, and every 64-hex
     token must resolve (diamond root / known txid / declared_ok). Pass
     skip_preflight=True only with a reason you would be willing to read
-    back from the chain forever."""
+    back from the chain forever.
+
+    loom=True (default) auto-launches the live loom watcher (loom_monitor.py) on
+    loom_port and opens the browser — fold-in so you don't set it up each time;
+    loom=False to skip (headless / no display)."""
     d = artifacts_dir
     if skip_preflight:
         log("!! PREFLIGHT SKIPPED — the chain will hold whatever this is")
@@ -415,6 +445,8 @@ def broadcast_consolidated_diamond(artifacts_dir, log=print, strand_workers=16,
         preflight(d, declared_ok=declared_ok, known_txids=known_txids,
                   expected_refs=expected_refs, require_approval=require_approval,
                   log=log)
+    if loom:                                        # auto-open the live loom watcher
+        _launch_loom(d, loom_port, loom_open, log)
     idx = json.load(open(os.path.join(d, "index.json")))
     order = [p["pid"] for p in idx["pieces"]]
     rd = lambda f: open(os.path.join(d, f)).read().strip()

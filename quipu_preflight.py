@@ -222,8 +222,9 @@ def check_decodes(bodies_by_pid):
     import colegio_pipeline as P
     import importlib
     READERS = {0x00: ("text", "read_text_quipu"), 0x01: ("essay", "read_essay_quipu"),
-               0x03: ("image", "read_image_quipu"), 0x09: ("book", "read_book_quipu"),
-               0x0E: ("encrypted", "read_encrypted_quipu"), 0x3D: ("scene", "read_scene_quipu"),
+               0x03: ("image", "read_image_quipu"), 0x07: ("sound", "read_sound_quipu"),
+               0x09: ("book", "read_book_quipu"), 0x0E: ("encrypted", "read_encrypted_quipu"),
+               0x0F: ("file", "read_file_quipu"), 0x3D: ("scene", "read_scene_quipu"),
                0x5C: ("latex", "read_latex_quipu"), 0xAB: ("bindings", "read_binding_quipu"),
                0xCC: ("cert", "read_cert"), 0xCE: ("celestial", "read_celestial_quipu"),
                0xDA: ("dancer", "read_dancer"), 0xEE: ("estandarte", "read_estandarte_quipu")}
