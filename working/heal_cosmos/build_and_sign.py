@@ -223,6 +223,7 @@ def cmd_build(_args):
 
 
 def cmd_sign(args):
+    import cryptos
     from colegio_tools import import_privKey
     from quipu_diamond import FeePolicy, build_consolidated_diamond, write_artifacts
     from quipu_preflight import preflight
@@ -231,6 +232,13 @@ def cmd_sign(args):
     utxo = {"output": "%s:%s" % (txid, vout), "value": int(value)}
     priv = import_privKey(os.path.expanduser(args.keyfile),
                           getpass.getpass("keyfile password: "))
+    if hasattr(priv, "to_bytes"):                    # eth_keys.PrivateKey
+        priv = priv.to_bytes().hex()
+    elif isinstance(priv, (bytes, bytearray)):
+        priv = priv.hex() if len(priv) == 32 else priv.decode()
+    priv = priv[2:] if priv.startswith("0x") else priv
+    assert cryptos.Doge().privtoaddr(priv) == args.address, \
+        "key does NOT derive the funder address!" 
     art = build_consolidated_diamond(
         ps, placeholder_of, utxo, priv, args.address,
         FeePolicy(rate_kb=0.0311, floor_doge=0.005))
