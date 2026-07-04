@@ -123,7 +123,7 @@ def build_v2_scene():
                     "route_width": 0.0007,
                     "sea_color": "#aacbe6", "land_color": "#efe6d2",
                     "lake_color": "#aacbe6", "route_color": "#c83727",
-                    "stop_color": "#e8b73a",
+                    "stop_color": "#1a1a1a",
                     "color": "#3a5f85"}},
         {"name": "fixed-stars", "scale": [STARS_R, STARS_R, STARS_R],
          "extras": {"object_kind": "sphere",
