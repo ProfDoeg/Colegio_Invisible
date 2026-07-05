@@ -1,0 +1,46 @@
+# Itten journey — research report
+
+**Dataset:** `itten.journey.json` — 7 segments, 28 stops, 1888–1967, gregorian. Register: national mythology — the canon (Itten's own colour-writings and Vorkurs testament, plus the Bauhaus record) is treated as true; the Mazdaznan fire-faith is narrated descriptively as the mythos Itten lived, its breathing-rituals and purges rendered as events without endorsing the cult's later racial doctrine.
+
+## Sources
+Canon: Itten, *Kunst der Farbe / The Art of Color* (1961) and *Mein Vorkurs am Bauhaus / Design and Form* (1963) — source of the two colour quotes and the Vorkurs-aim line. Biographical spine: the Zentralbibliothek Zürich Itten dossier (zb.uzh.ch — the authoritative Swiss chronology: birth, Thun, Hofwil, Stuttgart/Hölzel, Vienna, Bauhaus, Herrliberg, Berlin, Krefeld, Amsterdam, the three Zürich directorships, Museum Rietberg, death), en.wikipedia Johannes Itten, and Grokipedia (year-by-year granularity: Konstanzer Strasse house, the December 1921 diet vote, the Aryana settlement, degenerate-art, Kunsthaus 1964 / Biennale 1966). Mazdaznan: bauhaus-imaginista "Johannes Itten and Mazdaznan at the Bauhaus" (Stuttgart 1913–16 → Vienna 1916–19 adoption, shaved skull, cloak, canteen), en.wikipedia Mazdaznan (Ha'nish), Christopher Turner in the LRB. Vorkurs pedagogy: bauhauskooperation.com and bauhaus-imaginista "Three Preliminary Courses." Tower of Fire: bauhausmovement / uni-weimar. Berlin: gedenktafeln-in-berlin (Konstanzer Str. 14). Coordinates: OpenStreetMap Nominatim (Linden BE, Hofwil, Schwarzenburg, Tempelherrenhaus, Herrliberg, Krefeld, Museum Rietberg, Friedhof Hönggerberg, Stuttgart academy, Stedelijk).
+
+## Judgment calls
+- **Süderen-Linden** is a hamlet in the municipality of Linden BE; coordinates are the municipality centroid (46.8485, 7.6771), marked *attested* for the birth event since the place is firmly recorded.
+- **Vienna sub-stops** (school / Mazdaznan embrace / Alma Mahler circle) have no attested street addresses; coordinates are three distinct central-Vienna points and the Mazdaznan-adoption and salon dates are month-level *traditional* (Itten embraced Mazdaznan across the Vienna years 1916–19; I anchored the "embrace" at 1918).
+- **Weimar clustering:** five Weimar stops share the Bauhaus/Park an der Ilm area; the Tempelherrenhaus is its own attested coordinate, the others are nudged points around the main building so they don't stack.
+- **The seven contrasts / colour sphere** stop is dated 1921 *traditional* — the system matured across the Bauhaus years and was only codified in print in 1961; the quote in that stop is flagged to its 1961 source, not to 1921.
+- **Quotes:** only 3, all Itten's own recorded words. The two colour lines are the canonical openings of *The Art of Color* (two slightly variant published translations, each attached where it fits). The Vorkurs "everyone is creative" line is the widely-cited paraphrase-translation of Itten's stated course aim; kept because it is his recorded pedagogical creed, sourced to *Design and Form*. All other stops are honestly null.
+- **Degenerate Art** stop placed at Munich 1937-07-19 (exhibition opening) though Itten did not travel there — it is a station of his *fate*, not his feet; campa makes that explicit rather than implying presence.
+- Confidence: real institutional anchors *attested*; Geneva start-year, the Mazdaznan/salon Vienna dates, and the 1921 colour-system stop *traditional*; the two early Bernese dates (Thun arrival, Schwarzenburg post) *inferred*.
+
+## The tradition's own folds and gaps
+The canon folds cleanly around a single figure — the schoolmaster who never stops teaching — so the arc is Fröbel → Hölzel → Vorkurs → *Art of Color*, one pedagogy deepening for sixty years. The genuine gap is the Mazdaznan darkness: the same movement whose breathing-rituals Itten used was steeped in racial doctrine (Ha'nish's "House of the White Man"), which the register must place but not sanitise; I kept it descriptive and let the 1937 degenerate-art stop supply the terrible irony (the purity-cult purged by a worse one). Thin documentary stretches: exact Vienna and Berlin school interiors, the precise start of the Geneva study, and the Ontos/Aryana daily life (attested in outline only).
+
+## Five richest episodes
+1. **The Vorkurs (Weimar, 1919)** — the invention that remade art education worldwide; the schoolmaster's alphabet of texture, rhythm and contrast.
+2. **The Mazdaznan community (Weimar, 1921)** — shaved heads, monk's cloaks, garlic-mash and led breathing before the pencil moves: the fire-faith made a working monastery inside a design school.
+3. **The garlic vote and the break with Gropius (Dec 1921 → 1923)** — two Bauhäuser at war over the soul and the machine, decided partly at the dinner table.
+4. **The Tower of Fire (1920)** — the spiralling Gesamtkunstwerk before his office door, the cult made an idol.
+5. **Degenerate Art / exile (Munich 1937 → Amsterdam 1938)** — the purity-prophet branded impure, driven home to Switzerland.
+
+## Connections to the atlas
+The prompt's two hinges hold. **Zoroaster** is Itten's antipode: Mazdaznan is the neo-Zoroastrian fire-cult reborn, so Itten's Vienna-embrace and Weimar-community stops face Zarathustra's flame directly. **Laban and Monte Verità** are the sibling world: Itten's breathing-choirs, rhythmic loosening exercises, vegetarian body-culture and the Herrliberg/Ascona-adjacent Lebensreform milieu rhyme with Laban's movement-choirs and sun-worship on the Ticino hill (his report names the same Green *Mountain of Truth* current). Beyond those, the journey shares the **Bauhaus/esoteric-modernism** cluster with **Jung** (Zürich, the same lake, the same reach for a symbolic depth beneath modern art), **Gurdjieff** and **Keyserling** (the interwar school-of-the-whole-man impulse), and **Froebel** (named in the canon — the kindergarten gifts are the literal seed of the Vorkurs, making this journey a downstream tributary of Froebel's).
+
+## Verification (2026-07-05)
+
+Verified for structure and canon-fidelity; **no repairs required** — the dataset passed on all six checks and was left in place. JSON re-validated with python (parses clean).
+
+**(1) Schema.** Top-level keys, segment keys, and all 28 stop key-sets match the `joan_of_arc.journey.json` sibling exactly (`campa, date, date_confidence, lat, lng, name, quote, quote_source, sources, suggested_refs`). 7 segments / 28 stops as summarised.
+
+**(2) Dates & confidence.** Chronological within every segment (checked programmatically). The one global "dip" — the Weimar Bauhaus segment's colour-sphere stop (1921-06) followed by the Fire-Faith segment reopening at 1921-01 — is a deliberate *thematic* segment overlap, exactly as Joan's thematic segments overlap; within-segment order is clean, which is the rule. Confidences honest: real institutional anchors *attested*; Geneva start-year, the two Vienna Mazdaznan/salon dates, and the 1921 colour-system stop *traditional*; the two earliest Bernese dates *inferred*. Itten died in 1967, so the journey correctly ends with the death/grave stop (the "living person ends at the present" rule does not apply).
+
+**(3) Coordinates — 11 web-spot-checked, all correct.** Tempelherrenhaus 50.9758/11.3322 vs actual 50.97583/11.33222 (exact); Museum Rietberg/Villa Wesendonck 47.3589/8.5297 vs 47.3589/8.5304 (exact); Kunsthaus Zürich 47.3701/8.5486 vs 47.37051/8.5487 (exact); Stedelijk Amsterdam 52.3579/4.8799 vs 52.3580/4.8797 (exact); Schloss Hofwil 47.0213/7.4617 vs 47.02028/7.46250 (exact); Herrliberg 47.2906/8.6125 vs ~47.2906/8.614 (~150 m, village anchor); birth at Süderen-Linden/Linden BE centroid confirmed; Berlin Itten-Schule Konstanzer Str. 14 Wilmersdorf confirmed by the gedenktafel record; Friedhof Hönggerberg burial confirmed; the two Stuttgart points sit correctly in the academy/city-centre districts. No coordinate off.
+
+**(4) Quotes — all 3 checked against canon, all faithful.** Both *Art of Color* openings verified word-for-word ("Color is life; for a world without color appears to us as dead. Colors are primordial ideas, the children of light." and the variant "…As a flame produces light, light produces color."). The Vorkurs "Everyone is creative and this creativity must be freed…" line is the widely-circulated translation of Itten's stated course aim, correctly sourced to *Design and Form* and already flagged in the report as a paraphrase-translation of his recorded creed; kept, not nulled. No quote required restoration or nulling.
+
+**(5) Campa.** All 28 present-tense, in register, 72–92 words (target 60–110) — the great episodes (Vorkurs, the Mazdaznan monastery, the garlic vote, the Tower of Fire, Degenerate Art) carry their weight and are not flat.
+
+**(6) Count.** 28 stops sits inside the 25–40 target; the canon's spine (Zürich ZB dossier + Bauhaus record) is fully covered across all seven life-phases, so no stops were added.
+
+**One canon note (not an error):** some sources give Itten's birthplace as *Wachseldorn* (the former municipality) rather than *Süderen-Linden*; both are correct and the journey follows the ZB Zürich dossier's hamlet name, which is the finer-grained and defensible choice.
