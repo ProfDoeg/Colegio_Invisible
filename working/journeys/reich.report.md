@@ -26,3 +26,22 @@ The spine is Reich's Wikipedia biography (cross-checked against the **Wilhelm Re
 5. **The burning (June–Aug 1956)** — accumulators axed by his own son under FDA eyes at Orgonon, then six tons of books incinerated on Gansevoort Street: books burned in America, some already burned by the Nazis — twice burned, two lands, two decrees. This is the campa that carries the full weight.
 
 **Facing line:** Reich's body-energy world (armor, orgone, the freed pulse of the living) faces Rudolf Laban's movement world across the register.
+
+## Verification pass (2026-07-05)
+
+Independent structure and canon-fidelity check of `reich.journey.json`. The file re-validates by python after repairs: parses, 8 segments, 49 stops (within the 45–65 target), all stops carry the full key set, all campa 60–110 words, dates strictly chronological.
+
+**Findings and repairs (all in place):**
+
+1. **Date ordering** — one violation: the SAPA-bions stop (1939-01-01) preceded the press-campaign stop (1938-01-01) inside "The Northern Exile." Swapped: the year of mockery now precedes the SAPA winter, as the calendar demands. No dates altered.
+2. **Coordinates** — web-spot-checked 10+ sites. Confirmed accurate: Dobrianychi (49°34′N 24°31′E per the birthplace literature), Yuzhynets (Wikidata 48.536, 25.659 — exact), Berggasse 19, Gansevoort Destructor Plant (the incinerator by the Hudson, beside today's Whitney), Forest Hills 9906 69th Avenue, New School, Ellis Island, Portland courthouse. Fixed five sites that pointed near-but-wrong:
+   - **Orgonon** (7 stops incl. the grave): file had ~44.970, −70.683 (east of the hill); actual site of the observatory/museum is 44.985, −70.716 (Wikipedia/museum). All Orgonon stops moved.
+   - **Einstein meeting/retraction**: moved to the house itself, 112 Mercer Street (40.343, −74.667 per the Albert Einstein House landmark record) from a generic Princeton point ~1 km off.
+   - **Danbury**: file pointed at the city (41.401, −73.478); FCI Danbury is 41.437, −73.468.
+   - **Lewisburg**: file pointed at the town (40.966, −76.887); USP Lewisburg is 40.984, −76.915.
+   - **The blueberry rain**: file used Grand Lake Stream, Washington County (45.176, −67.774), ~100 km from the event. The canon (Bangor Daily News account and its retellings) sets the operation on a blueberry barren outside Ellsworth, "off the shores of Grand Lake, near the Bangor hydro-electric dam," with the 0.24-inch rainfall recorded at Ellsworth. Moved to the Ellsworth blueberry country by the Graham Lake (Bangor Hydro) dam: 44.57, −68.40. The stop keeps the canon's own place-name.
+3. **Quotes** — both non-null quotes checked verbatim against the canon and confirmed: the letter to Judge Clifford ("Scientific matters can only be clarified by prolonged, faithful bona fide observations in friendly exchange of opinion, never by litigation" — Reich's February 1954 Response to the FDA complaint, quoted by the Wilhelm Reich Museum biography) and the "Love, work and knowledge" motto (title-page epigraph, first in *The Function of the Orgasm*; cut into the Orgonon record). Nothing nulled; all other quote fields were already honestly null.
+4. **Campa voice** — present tense throughout, the great episodes carry their weight (the Lysol, the double excommunication, the five Einstein hours, the queer clouds, the smoke over the Hudson). Two stops had leaked schema vocabulary into the myth-voice: the Gansevoort stop said "The campa must carry the whole weight" and the Lewisburg stop closed "the register keeps every fact of it." Rewritten in-voice ("Let it be said plainly: books are burned in America…" / "…and every fact of it is kept."); word counts remain in range.
+5. **Stop count** — 49 stops, inside the 45–65 target; no additions required.
+
+The myth stands as written: the orgone real, the rain real, the burnings documented fact.

@@ -28,3 +28,26 @@
 3. **The film's own via crucis** — archbishop's cuts, UFA fire (6 Dec 1928), the rebuilt-from-outtakes version burned again in 1929: the film martyred twice, like and beyond its subject.
 4. **Dreyer in the boulevard theatre** — seeing "a soul behind that façade" of a soubrette in La Garçonne; the annunciation scene of the whole canon.
 5. **The Buenos Aires ending** — recitals of Claudel and Cocteau for the exile colony, elocution lessons in poverty, the fatal fast, death 12 Dec 1946 in the corpus's own city; ashes home to Montmartre in 1960.
+
+## Verification (2026-07-05)
+
+Independent structure-and-canon pass over `falconetti.journey.json`. Repairs applied in place; file re-validated with python after edits.
+
+**Structure.** JSON parses; 32 stops / 8 segments; every stop carries the full key set (name, lat, lng, date, date_confidence, campa, quote, quote_source, suggested_refs, sources); all dates YYYY-MM-DD and strictly chronological 1892-07-21 → 1984-05-01; confidence values limited to attested/traditional/inferred and honestly assigned (the two lab-fire and shoot-rite stops correctly traditional/inferred, the premieres and death attested). Four campas ran 111–113 words; trimmed to ≤110 with wording-only cuts — the head-shaving, the last fast, the Artaud stop and the Oslo resurrection keep their full charge.
+
+**Coordinates spot-checked (11 sites) — 5 fixed:**
+- **Sermano, Haute-Corse**: was 42.349, 9.324 (~6 km off, wrong side of the Bozio); fixed to 42.315, 9.268 (fr.wikipedia commune coords 42°18′54″N 9°16′06″E).
+- **Studios de Billancourt** (4 stops): was 48.826, 2.249 (~750 m off); fixed to 48.831, 2.256 — 49 quai du Point-du-Jour, per the Billancourt Studios record (48°49′50.5″N 2°15′22.9″E; site now the Canal+ building).
+- **UFA Berlin (negative fire)**: was 52.474, 13.385; fixed to 52.464, 13.409 — UFA's Tempelhof studios, Oberlandstraße 26–35 (Nominatim geocode).
+- **Dikemark, Asker**: was 59.790, 10.376 (~1.8 km off); fixed to 59.806, 10.381 (en.wikipedia: 59°48′21″N 10°22′50″E; article independently confirms the 1981 janitor-closet find of the original cut).
+- **Oslo NFI**: was 59.914, 10.739; fixed to 59.910, 10.746 — Filmens hus, Dronningens gate 16 (Nominatim).
+
+Verified correct as-is: Pantin, Palads Teatret (Axeltorv), Théâtre de l'Avenue (5 rue du Colisée — BnF confirms Falconetti bought it 1929 and was ruined by it), Monte-Carlo casino, Cimetière de Montmartre, and the unnamed Argentine grave (Chacarita coords, kept generic in the text as the report already explains).
+
+**Dates.** Copenhagen premiere 21 Apr 1928, Marivaux premiere 25 Oct 1928, UFA fire 6 Dec, birth 21 Jul 1892 Pantin, death 12 Dec 1946 Buenos Aires — all confirmed against en/fr Wikipedia. The 1929 second-fire stop rests on the Offscreen tradition and stays "inferred" — correct handling.
+
+**Quotes.** One quote in the file; target was 6 spot-checks but there is nothing else to check — verified verbatim against fr.wikipedia (note 2): "Quelle triste maison que le Théâtre-Français. J'étais aussi trop indépendante pour me soumettre à la hiérarchie désuète…". Dreyer's "soul behind that façade" correctly lives as campa paraphrase, never in her mouth. No fabricated quotes found; nothing to null.
+
+**Canon fidelity.** Register held throughout — the knees-and-takes rite, the contractual head-shaving with the weeping crew, the film's double burning and its asylum-closet resurrection are all rendered at full mythic pressure; Montmartre div. 16 (not Montparnasse) stands as sourced. Stop count 32 sits inside the 20–40 target; no additions needed.
+
+**Verdict: PASS** after 5 coordinate fixes and 4 campa trims.

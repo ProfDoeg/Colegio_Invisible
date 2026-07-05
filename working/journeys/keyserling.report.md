@@ -26,3 +26,28 @@ Exact Kõnnu manor pinpoint (village-level coords used); London/Italy years thin
 3. **Versailles/San Isidro 1929** — the Ocampo delirio, with both testimonies canonized as simultaneously true.
 4. **The pampa/altiplano** — la gana and the third day of creation; the corpus's own borrowed word given its richest campa.
 5. **Innsbruck 1946** — the last founding, 100 hotel rooms reserved, death the day before permission: the tradition's perfect irony.
+
+## Verification (2026-07-05)
+
+Independent structural and canon-fidelity pass over `keyserling.journey.json`.
+
+**Structure.** JSON parses; 55 stops in 7 segments (within the 35-55 target — no additions needed); every stop carries the full key set (name, lat, lng, date, date_confidence, campa, quote, quote_source, suggested_refs, sources); all dates are `YYYY-MM-DD`, all confidence values in {attested, inferred, traditional}.
+
+**Chronology.** One ordering violation found and repaired: Berlin (1907-01-15) was listed after Rome (1907-02-01) in the Wanderjahre segment. The two stops were swapped (Berlin now precedes Rome); the narrative flow of both campa texts survives the swap. Full sequence now strictly non-decreasing 1880-07-20 → 1946-04-30.
+
+**Coordinates.** Twelve stops web-spot-checked against the actual sites (Wikipedia coordinates): Raikküla, Kandy Temple of the Tooth, Sri Maha Bodhi Anuradhapura, Ramanathaswamy Rameswaram, Shwedagon, Temple of Heaven, Taj Mahal, Friedrichsruh, Kõnnu manor, Villa Ocampo, Aurach bei Kitzbühel, Mühlau (Innsbruck). Seven matched within tolerance. Five repaired in place:
+- Könno (Kõnnu) manor birth stop: 58.639/24.454 → **58.717/24.825** (was ~23 km off; et.wikipedia gives 58.7172/24.825 for Kõnnu mõis, Pärnu-Jaagupi)
+- Villa Ocampo, San Isidro: -34.471/-58.514 → **-34.458/-58.518** (villa itself, per en.wikipedia)
+- Aurach bei Kitzbühel: 47.399/12.428 → **47.417/12.433** (village center)
+- Innsbruck-Mühlau founding: 47.281/11.402 → **47.284/11.413** (Mühlau district)
+- Mühlau cemetery: 47.284/11.402 → **47.286/11.408** (Mühlauer Friedhof, Trakl's ground)
+
+**Quotes.** All four checked against the canon; all four stand:
+- Motto "Der kürzeste Weg zu sich selbst führt um die Welt herum" — verbatim (wiki.yoga-vidya.de carries the exact wording).
+- Colombo "Everything that happens in me, develops in me as the plants develop out there. It is not I who think, but something thinks in me." — verbatim against the English Travel Diary full text on archive.org (the canon sentence continues "...it is not I who wish, but something wishes in me"; the excerpt is a clean truncation, no words altered).
+- "Der Kontinent des dritten Schöpfungstages" — confirmed as the title of meditation I of the Südamerikanische Meditationen (schuledesrades.org digital edition).
+- "tengo gana … no tengo gana" — meditation VII is indeed titled "Gana" and carries the Spanish formula; source attribution correct.
+
+**Campa voice.** All 55 texts fall in 60-110 words (script-verified), present tense throughout; the great episodes (Benares, Tsingtao/Ku Hung-ming, Versailles/San Isidro delirio, the pampa gana, Innsbruck death-before-permission) are rendered at full pressure, not flat.
+
+**Verdict.** Dataset valid after repairs; myth intact, register preserved.

@@ -23,3 +23,40 @@ The 1885–1911 chronology is fog by design — Gurdjieff gives almost no dates 
 3. **The escape through two armies** (Essentuki→Maikop→the passes→Sochi, 1918) — papers from both powers, silk and manuscripts on pack-horses, no one lost.
 4. **The 8 July 1924 crash** — the unexplained cushion under the unconscious man's head; the near-death that turns the dancer into the writer of Beelzebub at the Café de la Paix.
 5. **The death and vigil** (Oct–Nov 1949) — "you are in a fine mess"; the doctor's testimony of a conscious death; the two menhirs at Avon a few hundred steps from the lost Prieuré.
+
+---
+
+## Verification pass (2026-07-05)
+
+Independent structure-and-canon-fidelity check of `gurdjieff.journey.json`. The register ("national mythology — the canon is true") was respected throughout: nothing debunked, wonders left as events.
+
+### Structure
+- JSON parses; 8 segments, 62 stops (within the 45-65 target — no additions needed).
+- All 62 stops carry the uniform field set (name, lat, lng, date, date_confidence, campa, quote, quote_source, suggested_refs, sources).
+- Dates strictly chronological, 1866-01-13 through 1949-11-03 (all Gregorian; no BC/Julian concerns).
+- Campa voice: present tense throughout, none flat; 5 stops exceeded the 110-word cap (Sarmoung 115, Moscow café 116, Mansfield 115, 1924 crash 117, Avon vigil 117) and were trimmed surgically to 108-110 words with no loss of image. All 62 now in the 60-110 band.
+
+### Coordinates (19 sites geocoded against OSM/Nominatim + web checks)
+Confirmed within ~250 m: Sphinx, Holy Sepulchre, Kaaba, Tbilisi Opera, Galata Mevlevihanesi, Théâtre des Champs-Élysées, Carnegie Hall, Café de la Paix, Salle Pleyel, 6 rue des Colonels-Renard, Chiatura, Etchmiadzin, Ani, Hotel Wellington (871 7th Ave), Warwick Gardens (London 1922 stop), Essentuki, Gyumri, Prieuré des Basses-Loges (2 rue Bezout, Avon — address web-confirmed).
+
+Fixed in place (5):
+- American Hospital of Paris (death stop): 48.889, 2.259 → 48.8927, 2.2722 (was ~1.05 km west of the actual Bd Victor Hugo site).
+- Avon cemetery (grave stop): 48.408, 2.734 → 48.4019, 2.728 (Cimetière d'Avon per OSM).
+- Lascaux: 45.049, 1.170 → 45.0492, 1.1761 (cave itself).
+- Bokhara reservoir: 39.775, 64.429 → 39.7736, 64.4205 (Lyab-i Hauz).
+- Kars military cathedral: 40.608, 43.092 → 40.6113, 43.0915 (Kümbet Camii / Holy Apostles).
+
+Left deliberately approximate, per the register: Sarmoung (38.5, 70.3), Gobi, the saint's tomb beyond Alexandropol, the 1916 Finland country house, the 1924 crash point on the Paris-Fontainebleau road (accounts name only the road).
+
+### Quotes (all 14 checked; 8 verified against full canon texts)
+Verified word-exact and left untouched: grandmother's injunction (Beelzebub, 'The Arousing of Thought'), Gilgamesh flood verse (MwRM 'My Father'), Sarmoung/Babylon parchment (MwRM 'Pogossian'), sacred-dances-as-laws (ISOTM ch. I, ballet conversation), Beelzebub declared aim (1950 ed. frontispiece wording), Bennett 1948 "Tonight you come dinner. I must make body work." (Witness), Study House aphorism, toast of the idiots, deathbed "Vous voilà dans de beaux draps."
+
+Fixed to canon wording/attribution (5) — none needed nulling, the canon carries all of them:
+- Yezidi catalepsy: "out of the circle" → "out of a circle"; chapter corrected 'My Father' → 'Bogachevsky' (verified against MwRM full text — the passage sits in the Bogachevsky chapter).
+- Dean Borsh: replaced paraphrase with the exact sentence ("The man who was soon to become my first tutor, the founder and creator of my present individuality, and, so to say, the 'third aspect of my inner God'.") and corrected chapter 'My First Tutor' → 'My Father' (the sentence occurs in the father's-workshop scene).
+- Man is a machine: "of external influences, of external impressions" → "of external influences, external impressions" (ISOTM exact).
+- Super-efforts: "Only super-efforts count." was a folk compression; replaced with ISOTM exact: "In work only super-efforts are counted, that is, beyond the normal, beyond the necessary; ordinary efforts are not counted."
+- Herald oath: "before my own essence" is not in the Herald; replaced with the book's own wording ("According to the special oath I took, I bound myself in my conscience to lead in some ways an artificial life, modelled upon a programme which had been previously planned in accordance with certain definite principles.") and the source line no longer asserts the 1911 year (the Herald dates the term as twenty-one years before 1933).
+
+### Post-repair validation
+Re-parsed with python: valid JSON, 62 stops, uniform keys, chronological, 14 quotes, all campa 60-110 words.

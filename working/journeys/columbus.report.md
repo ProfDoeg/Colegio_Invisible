@@ -20,3 +20,23 @@ Birth date (Aug–Oct 1451, `traditional`); everything 1451–1476 is thin; the 
 3. **The Earthly Paradise at Paria** — fresh-water sea, pear-shaped earth, Eden declared to the sovereigns with bleeding eyes.
 4. **The chains** — kept in his chamber, ordered into his grave: self-made relics of injustice.
 5. **The eclipse at Jamaica, 29 Feb 1504** — Regiomontanus's tables turned into a public miracle; the canon's own conjuring, and the after-death coda (7 ocean crossings, 5 graves) as its mirror.
+
+## Verification pass (2026-07-05)
+
+Independent structural and canon-fidelity check; all repairs made in place and re-validated with python.
+
+**Structure.** JSON parses; 9 segments, 70 stops (within the 50–70 target — no additions needed); every stop carries the full key set (`name, lat, lng, date, date_confidence, campa, quote, quote_source, suggested_refs, sources`).
+
+**Chronology.** One inversion found and fixed: the Córdoba (Beatriz/Fernando, 1488-08-15) and camp-before-Málaga (1487-08-18) stops were transposed; blocks swapped so Málaga now precedes Córdoba. Full sequence 1451-08-25 → 1899-01-19 is now strictly non-decreasing.
+
+**Coordinates.** Eleven sites web-spot-checked: Casa di Colombo Genoa, Elmina Castle, Bariay, La Isabela (El Castillo), Pinos Puente, St Ann's Bay, Cabo Gracias a Dios, Havana Cathedral, La Rábida, Anjos hermitage, Río Belén. Three fixes applied:
+- **La Rábida** (both stops): −6.8926/−6.8925 → **37.2078, −6.9259** (friary was placed ~3 km east, wrong side of the Tinto).
+- **Anjos, Santa Maria (Azores)**: → **37.0059, −25.1537** (snapped to the hermitage of Nossa Senhora dos Anjos itself, where the pilgrims were seized).
+- **Río Belén, Veragua**: 8.914, −81.148 → **8.8833, −80.8667** (GEOnet mouth of the Belén; the old point sat ~31 km west of the river).
+All other checked sites were within ~1 km of the true locations; open-ocean track points accepted as reconstructions per the report's own flag.
+
+**Quotes.** 22 quotes, all from the declared canon (Diario/Las Casas abstract flagged, Barcelona letter, Third Voyage letter, Juana de la Torre, Lettera Rarissima, Mayorazgo, Historie last words). Six spot-checked against the sources — prologue expulsion sentence, the candle-light of 11 Oct, Cuba "most beautiful land", the pear-shaped earth, "I came to serve at twenty-eight… not a hair that is not white" (Lettera Rarissima, web-confirmed), "an Other World… Spain, which was reckoned poor" (Juana de la Torre, web-confirmed; standard translations vary "Other/second World"). No quote nulled; none found outside the canon.
+
+**Campa voice.** All 70 in present tense; none flat at the great episodes (the light, the wreck, Paria, the eclipse, the relic crossings carry their weight). Twenty stops ran over the 110-word ceiling (up to 134); each trimmed to ≤110 by cutting connective tissue only — no episode, legend, or canonical detail dropped. Post-repair range: 81–110 words.
+
+**Result.** File re-validated clean: parses, schema complete, chronological, coordinates corrected, quotes canonical, campas in range. 70 stops stand.
