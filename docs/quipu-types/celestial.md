@@ -1,10 +1,13 @@
 # Quipu type `0xce` — Celestial figure
 
-> **STATUS: CANONICAL v1** (redesigned May 2026). Implemented in
-> `canonical/celestial.py` (builder + reader) and `canonical/celestial_render.py`
-> (matplotlib rendering). One pre-canonical prototype exists on chain at root
-> `4e53bb26…` (Sky of al-Jawza, inscribed under a 1-byte-K draft); it is
-> abandoned and outside the canonical corpus.
+> **STATUS: CANONICAL v1 · v2 declared** (redesigned May 2026; v2 layout
+> per [c1dd0002](../design/c1dd0002.md), registered in
+> `canonical/registry_v2.py`). Implemented in `canonical/celestial.py`
+> (builder + reader, both versions) and `canonical/celestial_render.py`
+> (matplotlib rendering); the node-edge kinds live in `etymology.py` /
+> `network.py` / `genealogy_to_tikz.py`. One pre-canonical prototype exists on
+> chain at root `4e53bb26…` (Sky of al-Jawza, inscribed under a 1-byte-K
+> draft); it is abandoned and outside the canonical corpus.
 
 A *celestial figure* is a named set of named points (each in some
 coordinate system), with named pairs marking which points are connected,
@@ -37,18 +40,30 @@ deliberate trade of compactness for human-decodability.
 
 ```
 offset  bytes        meaning
-0..3    c1 dd 00 01  magic + protocol version 0.1
+0..1    c1 dd        magic
+2..3    <version>    protocol version, uint16 BE (0001 v1, 0002 v2)
 4       ce           type byte = celestial
 5       <tone>       tone byte — see tone.md for the canonical vocabulary
-6       <kind>       00 earth, 01 star
+6       <kind>       00 earth, 01 star, 02 mixed (per-point system byte),
+                     03 genealogy, 04 etymology, 05 network (node-edge
+                     bodies — routed to their own codecs; grouped and
+                     meta MUST be 00 for kinds 03–05)
 7       <grouped>    00 ungrouped (lines block follows points block)
                      01 grouped   (groups block follows points block)
 8       <meta>       00 no per-point metadata
-                     01 per-point metadata present
+                     01 per-point pmeta byte + optional jd   (v1 ONLY)
+                     02 per-point more-block of typed variables
 9..10   <K_hi K_lo>  point count, uint16 big-endian (max 65535)
 11      <T>          title length in UTF-8 bytes
 12..    <title>      UTF-8 figure name
 ```
+
+For a **mixed** figure (`kind = 02`) each point record opens with its
+own 1-byte `system` tag (00 earth / 01 star) — coordinates are read
+per-point, not per-figure. With `meta = 02` each point carries, after
+its name, `morelen:u16` + a more-block of typed variables from the
+atom namespace (`canonical/atoms.py`): `Nvar:u8`, then per variable
+`keylen:u8 · key · atom:u8 · value`.
 
 ### Points block — K records, each:
 
@@ -116,9 +131,11 @@ Conventions:
   catalog values from any modern source (Hipparcos, Gaia, SIMBAD) work
   directly.
 
-Float32 gives ~7 decimal digits of precision: ~1 m on Earth, ~2″ on the
-celestial sphere. Both finer than naked-eye resolution and sufficient
-for any catalog you'd cite.
+Coordinates are f32 — **lossy by decision, not by default**
+([c1dd0002 §7.6](../design/c1dd0002.md)): quantization is ~2.4 m on
+the ground, ~0.08 arcsec on the sky. Both finer than naked-eye
+resolution and sufficient for any catalog you'd cite; an astrometric
+need someday becomes its own kind carrying f64 atoms.
 
 ---
 
@@ -141,10 +158,15 @@ The `<pmeta>` enum byte advertises how literally to take the JD:
 - `03 month` — JD points at the 15th of the month at noon UT; the value means `during [month] [year]`.
 - `04 year` — JD points at July 1 at noon UT; the value means `during [year]`.
 
-Times are defined on **earth points only** in v1. `<pmeta>` > `00` on a
+Times are defined on **earth points only**. `<pmeta>` > `00` on a
 star point is rejected at build and read time, reserving star-point time
-semantics (epoch, observation log, variable-star photometry) for a
-future Estandarte amendment.
+semantics (epoch, observation log, variable-star photometry) — if a
+dated sky is ever truly needed it enters as its own declared
+subtype/version, not as a leak.
+
+**The pmeta path is v1-only.** The v2 grammar has exactly one date
+mechanism — the typed date var (see the v2 section below); `meta = 01`
+is not in the v2 grammar and a v2 blob carrying it is malformed.
 
 ---
 
@@ -290,14 +312,58 @@ bytes (`00` text, `03` image, `07` audio, `0e` encrypted, `1d` identity,
 
 ## Removed in this redesign (vs. the pre-canonical prototype)
 
-- **`KIND_MIXED` (0x02)** — bad science; one figure mixing earth and
-  star coordinates conflates direction-on-sky with location-on-earth.
-  A vigil now uses two inscriptions plus a binding.
+- **`KIND_MIXED` (0x02)** — removed as bit-packed sloppiness, later
+  **restored by amendment** with clean semantics: each point record
+  opens with its own `system` byte, and a renderer gives the two
+  coordinate systems separate plots — never one shared set of axes.
 - **1-byte K** — replaced by uint16 BE so atlas-scale figures (Bode,
   IAU 88) fit in one quipu.
 - **Bit-packed flags in the kind byte** — split into separate `<kind>`,
   `<grouped>`, and `<meta>` bytes so every byte in the header has
   exactly one meaning.
+
+---
+
+## v2 — the second standard (`c1dd0002`)
+
+Declared by the v2 registry (`canonical/registry_v2.py`, a keyed
+override of v1's celestial entry riding the estandarte chain) and
+dispatched by the version at header bytes 2–3. Per the re-engineering
+criterion, v2 owes v1's layout nothing — v1 blobs keep their parser
+forever, selected by their version byte.
+
+**What changes in v2:**
+
+- **One date mechanism.** The typed date var is the only way a point
+  carries time: atom `0x02`, wire `precision:u8 · jd:f64-BE` (9 bytes),
+  precision `00 unspecified · 01 exact · 02 day · 03 month · 04 year`,
+  legal on **earth points only** — a date var on a star-tagged point is
+  refused uniformly. The v1 pmeta path (`meta = 01`) is not part of
+  the v2 grammar. Precision is **structural** — the granularity the
+  datum has, never how sure anyone is; no certainty vocabulary exists
+  anywhere in the standard. A renderer widens the marker to the
+  precision instead of fabricating noon-of-July-1 specificity.
+- **The atom namespace is law.** More-block variables range over the
+  full atom table (`canonical/atoms.py`, `0x00 text` … `0x08 bytes`),
+  declared on chain by the v2 registry's `atoms` convention — the
+  variable-union statement. v1 more-blocks remain limited to
+  text/ref/date, with the 8-byte precision-less date.
+- **The node-edge kinds enter the law.** `03 genealogy`, `04
+  etymology`, `05 network` — on chain and in code since birth, now
+  declared. Their bodies route around the point reader by the kind
+  byte at offset 6; `grouped`/`meta` are reserved MUST-be-0 for them.
+  v2 network node types are a **closed enum of four**
+  (place/agent/relay/resource): `NTYPE_UNCERTAIN` is not in the v2
+  grammar (resolved 2026-07-17 — the last certainty-flavored byte).
+- **f32 ratified.** Coordinates and the genealogy/etymology year spans
+  stay f32, quantization stated honestly above.
+
+**Unchanged:** the envelope, the points/lines/groups framing, the K
+u16, the earth/star/mixed coordinate semantics, standalone points, and
+every inscribed v1 blob — a mixed-version corpus is correct by
+construction. The heavens enter time through the event: a dated earth
+point may carry a `ref` var citing a star figure; the star stays
+timeless on the sphere.
 
 ---
 
@@ -315,10 +381,11 @@ bytes (`00` text, `03` image, `07` audio, `0e` encrypted, `1d` identity,
    surface — each would need a new `<kind>` value (`0x02`, `0x03`, …).
    Reserved without committing.
 
-3. **Star-point times.** `<pmeta>` > `00` on a star point is reserved.
-   Future use cases: epoch (figure represents the sky at JD X), observation
-   log (this star observed at JD X), variable-star photometry. A future
-   Estandarte amendment can lift the v1 restriction.
+3. **Star-point times.** Reserved, indefinitely and honestly — v2
+   resolved the v1 side door by closing, not lifting. Future use cases
+   (epoch, observation log, variable-star photometry) enter as their
+   own declared subtype/version with their own render semantics, never
+   as a leak.
 
 4. **Repeated names.** Names within a single figure should be unique
    (lines reference by index, but a reader may key by name). The spec

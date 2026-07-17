@@ -101,13 +101,14 @@ def test_build_envelope_validation():
 def test_reader_accepts_known_versions_and_refuses_unknown():
     # Known versions read and carry their version for a dispatcher to act on.
     from estandarte import build_estandarte_quipu, KNOWN_ESTANDARTE_VERSIONS
-    assert KNOWN_ESTANDARTE_VERSIONS == frozenset({VERSION_CONSTITUTION, VERSION_V1})
-    for v in (VERSION_CONSTITUTION, VERSION_V1):
+    assert KNOWN_ESTANDARTE_VERSIONS == \
+        frozenset({VERSION_CONSTITUTION, VERSION_V1, VERSION_V2})
+    for v in (VERSION_CONSTITUTION, VERSION_V1, VERSION_V2):
         h, b = build_estandarte_quipu([], [], version=v)
         assert read_estandarte_quipu(h, b)["version"] == v
     # Honest failure (c1dd0002 §5): an unknown version is refused, not parsed
-    # as this shape — the builder can stamp v2 bytes, the reader must not guess.
-    for v in (VERSION_V2, 0xffff):
+    # as this shape — the builder can stamp v3 bytes, the reader must not guess.
+    for v in (0x0003, 0xffff):
         h, b = build_estandarte_quipu([], [], version=v)
         with pytest.raises(ValueError):
             read_estandarte_quipu(h, b)

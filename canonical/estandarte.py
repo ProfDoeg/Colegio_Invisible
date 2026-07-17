@@ -13,7 +13,7 @@ Wire format
 
 HEADER (6 bytes flat — the envelope, envelope.py):
     c1dd <version:u16-BE> ee <tone>
-        version = 0x0000 constitution, 0x0001 v1
+        version = 0x0000 constitution, 0x0001 v1, 0x0002 v2
         0xee    = type byte (Estandarte)
         tone    = 0x00 ordinary, 0xee sovereign (the constitution),
                   0x0d demonic, 0xff reverence
@@ -88,7 +88,10 @@ from tone import (
     TONES, VALID_TONES, validate_tone,
     TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_AI, TONE_REVERENCE,
 )
-from envelope import build_envelope, parse_envelope, VERSION_CONSTITUTION, VERSION_V1
+from envelope import (
+    build_envelope, parse_envelope,
+    VERSION_CONSTITUTION, VERSION_V1, VERSION_V2,
+)
 from atoms import ATOM_U8, ATOM_U16, UINT_ATOMS, fixed_width, atom_name
 _VALID_TONES = VALID_TONES  # backward-compat alias
 
@@ -96,10 +99,11 @@ TYPE_ESTANDARTE = 0xEE
 
 # Versions whose estandarte body this reader actually implements. A version
 # outside this set is refused, not guessed (c1dd0002 §5 honest failure): the
-# body format is identical across these today, but silently parsing a future
-# version's body as this shape is exactly the mis-parse dispatch (v0.2) exists
-# to prevent. Grow this set only when a version's body format is implemented.
-KNOWN_ESTANDARTE_VERSIONS = frozenset({VERSION_CONSTITUTION, VERSION_V1})
+# body format is inherited unchanged v0 -> v1 -> v2 (the vkind'd skeleton),
+# but silently parsing a future version's body as this shape is exactly the
+# mis-parse dispatch (v0.2) exists to prevent. Grow this set only when a
+# version's body format is implemented.
+KNOWN_ESTANDARTE_VERSIONS = frozenset({VERSION_CONSTITUTION, VERSION_V1, VERSION_V2})
 
 
 def _len_prefixed(s):
@@ -235,7 +239,13 @@ def read_estandarte_quipu(header_bytes, body_bytes):
     version) so every version's estandarte — including the constitution
     (v0) — is readable; the version is returned for a dispatcher to act on.
     The body format is unchanged across versions at this skeleton stage.
+
+    Split-agnostic: quipuread hands over header = strand 0 whole (up to
+    80 B, carrying the body's head), while tests pass the exact 6-byte
+    envelope. Join and re-split so both callers read the same registry.
     """
+    _blob = bytes(header_bytes) + bytes(body_bytes)
+    header_bytes, body_bytes = _blob[:6], _blob[6:]
     version, type_byte, tone = parse_envelope(header_bytes)
     if type_byte != TYPE_ESTANDARTE:
         raise ValueError(
