@@ -522,8 +522,8 @@ def read_cert(header_bytes, body_bytes):
 
     Common keys (always present):
         'tone':         int (0x00 / 0x01 / 0x0d / 0xff)
-        'subtype':      int (0x0001 or 0x0002)
-        'subtype_name': str ('hash' or 'allinone')
+        'subtype':      int (0x0001, 0x0002, or 0x0003)
+        'subtype_name': str ('hash', 'allinone', or 'saleoffer')
         'pipe_fields':  list of non-empty pipe-delimited UTF-8 fields at the
                         start of the body, in order
         'fields':       OrderedDict of Field -> value extracted from the rest

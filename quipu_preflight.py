@@ -316,6 +316,93 @@ def check_ripcord(parent_root_tx, parent_n_strands,
     return failures
 
 
+def check_genesis_fanout(constitution_root_tx, n_strands, fanout_tx):
+    """The genesis gate (c1dd0000, the genesis convention): the constitution
+    root's SINGLE tag (vout = n_strands, N+2 anatomy) is spent exactly once,
+    by the fan-out — a transaction with EXACTLY three outputs and no
+    OP_RETURN (a speaking act would read as strand continuation), anchoring
+    despot · amend · commentary in ordinal order.
+
+    Returns failure strings; empty list = the genesis may be pulled."""
+    from cryptos import serialize as _ser, deserialize as _deser
+    from colegio_tools import _txid_of_serial
+    failures = []
+    root = (_deser(constitution_root_tx)
+            if isinstance(constitution_root_tx, str) else constitution_root_tx)
+    fan = _deser(fanout_tx) if isinstance(fanout_tx, str) else fanout_tx
+    root_txid = _txid_of_serial(_ser(root))
+
+    n_outs = len(root.get("outs", []))
+    if n_outs != n_strands + 1:
+        failures.append("constitution root must be N+2 anatomy with ONE tag: "
+                        "%d outputs, %d strands (want %d) — no change output "
+                        "may masquerade as an instrument"
+                        % (n_outs, n_strands, n_strands + 1))
+    if any(o.get("script", "").startswith("6a") for o in fan.get("outs", [])):
+        failures.append("fan-out carries an OP_RETURN — the genesis act is "
+                        "necessarily mute (payload would read as quipu body)")
+    if len(fan.get("outs", [])) != 3:
+        failures.append("fan-out must have EXACTLY three outputs "
+                        "(despot, amend, commentary); got %d"
+                        % len(fan.get("outs", [])))
+    if not fan.get("ins"):
+        failures.append("fan-out has no inputs")
+    else:
+        in0 = fan["ins"][0]
+        spent = (in0.get("tx_hash"), in0.get("tx_pos"))
+        if spent != (root_txid, n_strands):
+            failures.append("fan-out input 0 spends %s:%s, not the genesis "
+                            "tag %s:%d"
+                            % (str(spent[0])[:12], spent[1],
+                               root_txid[:12], n_strands))
+    return failures
+
+
+def intact_tag_outpoints(roots, spend_of, get_tx):
+    """Derive the tag quarantine set: every INTACT tag outpoint across the
+    given roots, via quipu_tags.classify_root_outputs — derived, never
+    hand-kept (a hand-kept list goes stale the one time it matters).
+
+    roots: iterable of raw root tx hex (or deserialized dicts).
+    Returns a set of (txid, vout)."""
+    from cryptos import serialize as _ser, deserialize as _deser
+    from colegio_tools import _txid_of_serial
+    from quipu_tags import classify_root_outputs
+    out = set()
+    for r in roots:
+        rd = _deser(r) if isinstance(r, str) else r
+        txid = _txid_of_serial(_ser(rd))
+        for c in classify_root_outputs(rd, spend_of, get_tx):
+            if c["kind"] == "tag" and c["state"] == "intact":
+                out.add((txid, c["vout"]))
+    return out
+
+
+def check_spends_no_intact_tags(tx, quarantine, declared=()):
+    """The tag quarantine gate (c1dd0000 Article VII): refuse any transaction
+    spending a known intact tag unless that outpoint is DECLARED — i.e. the
+    tx is a deliberate act (succession, exercise, burn, thread growth)
+    passing its own gate. An accidental sweep of a tip is a constitutional
+    act by mistake; physics ignores intent.
+
+    tx: raw hex or deserialized dict. quarantine: set of (txid, vout).
+    declared: outpoints this tx is ALLOWED to spend (its act's target).
+    Returns failure strings; empty list = no quarantined UTXO is touched."""
+    from cryptos import deserialize as _deser
+    failures = []
+    t = _deser(tx) if isinstance(tx, str) else tx
+    allowed = set(declared)
+    for i, inp in enumerate(t.get("ins", [])):
+        op = (inp.get("tx_hash"), inp.get("tx_pos"))
+        if op in quarantine and op not in allowed:
+            failures.append("input %d spends INTACT TAG %s:%s without a "
+                            "declared act — an accidental sweep is a "
+                            "constitutional act by mistake; route through "
+                            "the act's own gate"
+                            % (i, str(op[0])[:12], op[1]))
+    return failures
+
+
 def preflight(artifacts_dir, *, declared_ok=(), known_txids=None,
               resolver=None, expected_refs=None, require_approval=False,
               log=print):

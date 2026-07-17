@@ -206,6 +206,11 @@ def read_book_quipu(header_bytes, body_bytes):
         raise ValueError(f"body too short: {len(body)} < 3 (version + entry_count)")
 
     version = body[0]
+    if version != BODY_VERSION:
+        raise ValueError(
+            f"book body version {version:#04x} not implemented (this reader "
+            f"knows {BODY_VERSION:#04x}) — refusing to guess a layout it "
+            f"does not know")
     entry_count = struct.unpack(">H", body[1:3])[0]
     pos = 3
     entries = []

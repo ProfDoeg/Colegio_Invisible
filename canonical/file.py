@@ -400,11 +400,20 @@ def _selftest_validation():
 
 
 def _selftest_purity():
+    # Hermetic check in a FRESH interpreter: asserting on this process's
+    # sys.modules was a false positive under shared pytest (any neighbor's
+    # pandas import trips it regardless of what file.py does).
+    import os
+    import subprocess
     import sys
-    # The container module must not pull numpy in transitively.
-    assert "numpy" not in sys.modules, "file.py must not import numpy"
-    print("=== container purity ===")
-    print("  OK: stdlib only (struct/hashlib); numpy not imported")
+    here = os.path.dirname(os.path.abspath(__file__))
+    code = ("import sys; sys.path.insert(0, %r); import file; "
+            "assert 'numpy' not in sys.modules, 'pulled numpy'" % here)
+    r = subprocess.run([sys.executable, "-c", code],
+                       capture_output=True, text=True)
+    assert r.returncode == 0, f"file.py pulled numpy:\n{r.stderr}"
+    print("=== container purity (hermetic) ===")
+    print("  OK: stdlib only (struct/hashlib); numpy not imported in a fresh interpreter")
     print()
 
 

@@ -105,6 +105,16 @@ TIME_FWD, TIME_REV = 0, 1          # flags bit 0
 SPACE_SAME, SPACE_MIRROR = 0, 1    # flags bit 1
 CTRL_ALL = 0xFF                    # edge / mode available in all control modes
 
+
+def _u8(value, what):
+    """A u8 field, checked: silently wrapping with & 255 corrupted the wire
+    (>255 edges became a wrong small count — a structural lie, not a loss).
+    Overflow raises at build; the wire never carries a wrapped value."""
+    v = int(value)
+    if not (0 <= v <= 255):
+        raise ValueError(f"dancer {what} {v} out of u8 range (0..255)")
+    return v
+
 # controller method ids
 M_UNIFORM, M_WEIGHTED, M_BOLTZMANN, M_QUANTUM, M_KEYBOARD = 0x00, 0x01, 0x02, 0x03, 0x10
 _METHOD_NAME = {0x00: "uniform", 0x01: "weighted", 0x02: "boltzmann",
@@ -311,7 +321,7 @@ def _emit_graph(graph):
        node: {foot, ord, label, sym, edges:[{dst,time,space,ctrl}]}."""
     out = bytearray()
     out += _emit_footage_table(graph["footage"])
-    out += bytes([graph.get("nmode", 1) & 255])
+    out += bytes([_u8(graph.get("nmode", 1), "nmode")])
     labels = graph.get("labels", [])
     out += bytes([len(labels)])
     for name in labels:
@@ -321,13 +331,14 @@ def _emit_graph(graph):
     nodes = graph["nodes"]
     out += struct.pack(">H", len(nodes))
     for nd in nodes:
-        out += bytes([nd["foot"] & 255]) + struct.pack(">H", nd["ord"])
-        out += bytes([nd.get("label", 0) & 255, nd.get("sym", SYM_SYMMETRIC) & 255,
-                      len(nd["edges"]) & 255])
+        out += bytes([_u8(nd["foot"], "foot")]) + struct.pack(">H", nd["ord"])
+        out += bytes([_u8(nd.get("label", 0), "label"),
+                      _u8(nd.get("sym", SYM_SYMMETRIC), "sym"),
+                      _u8(len(nd["edges"]), "edge count")])
     for nd in nodes:
         for e in nd["edges"]:
             flags = (e.get("time", TIME_FWD) & 1) | ((e.get("space", SPACE_SAME) & 1) << 1)
-            out += struct.pack(">H", e["dst"]) + bytes([flags, e.get("ctrl", CTRL_ALL) & 255])
+            out += struct.pack(">H", e["dst"]) + bytes([flags, _u8(e.get("ctrl", CTRL_ALL), "ctrl")])
     return bytes(out)
 
 
@@ -418,7 +429,8 @@ def _emit_controller(c):
         w = pr.get("weights", [])
         out += struct.pack(">H", len(w))
         for (node, eidx, weight) in w:
-            out += struct.pack(">HBB", node, eidx & 255, weight & 255)
+            out += struct.pack(">HBB", node, _u8(eidx, "edge index"),
+                               _u8(weight, "weight"))
     binds = c.get("bindings", [])
     out += bytes([len(binds)])
     for b in binds:

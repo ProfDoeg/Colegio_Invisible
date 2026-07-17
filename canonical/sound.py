@@ -362,7 +362,7 @@ def read_sound_quipu(header_bytes, body_bytes):
 
 def sound_header_len(header_bytes):
     """Return the total header length computed purely from header fields:
-    17 + cmlen + titlelen. Used by split_blob-style helpers to separate
+    16 + cmlen + titlelen. Used by split_blob-style helpers to separate
     the header strand from the body strand without relying on the joined
     blob length."""
     header_bytes = bytes(header_bytes)
@@ -542,11 +542,20 @@ def _selftest_validation():
 
 
 def _selftest_purity():
+    # Hermetic check in a FRESH interpreter: asserting on this process's
+    # sys.modules was a false positive under shared pytest (any neighbor's
+    # pandas import trips it regardless of what sound.py does).
+    import os
+    import subprocess
     import sys
-    # The container module must not pull numpy in transitively.
-    assert "numpy" not in sys.modules, "sound.py must not import numpy"
-    print("=== container purity ===")
-    print("  OK: stdlib only (struct); numpy not imported")
+    here = os.path.dirname(os.path.abspath(__file__))
+    code = ("import sys; sys.path.insert(0, %r); import sound; "
+            "assert 'numpy' not in sys.modules, 'pulled numpy'" % here)
+    r = subprocess.run([sys.executable, "-c", code],
+                       capture_output=True, text=True)
+    assert r.returncode == 0, f"sound.py pulled numpy:\n{r.stderr}"
+    print("=== container purity (hermetic) ===")
+    print("  OK: stdlib only (struct); numpy not imported in a fresh interpreter")
     print()
 
 
