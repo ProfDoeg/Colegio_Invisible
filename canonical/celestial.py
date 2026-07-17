@@ -145,11 +145,15 @@ PMETA_TIME_YEAR   = 0x04
 # description, cross-quipu references, and a date. Old figures (meta 0x00/0x01)
 # never set this flag, so they read byte-identically under the extended reader.
 META_MORE         = 0x02
+# The typed-var bytes are the protocol atoms (atoms.py) — the shared codec
+# is the single implementation; these aliases keep the public surface.
 VAR_TEXT          = 0x00   # inline UTF-8 value (vlen:u16 + utf8)
 VAR_REF           = 0x01   # 32-byte quipu txid (cross-quipu reference)
-VAR_DATE          = 0x02   # Julian Day, IEEE-754 f64 (subsumes the legacy time field)
+VAR_DATE          = 0x02   # Julian Day f64 (v1) · precision:u8 + f64 (v2)
 _VAR_NAME_TO_BYTE = {"text": VAR_TEXT, "ref": VAR_REF, "date": VAR_DATE}
 _VAR_BYTE_TO_NAME = {v: k for k, v in _VAR_NAME_TO_BYTE.items()}
+from atoms import emit_more_block, read_more_block
+from envelope import VERSION_V1 as _V1, VERSION_V2 as _V2
 
 _KIND_NAME_TO_BYTE = {"earth": KIND_EARTH, "star": KIND_STAR, "mixed": KIND_MIXED}
 _KIND_BYTE_TO_NAME = {v: k for k, v in _KIND_NAME_TO_BYTE.items()}
@@ -177,31 +181,15 @@ _PMETA_TO_PRECISION_NAME = {v: k for k, v in _PRECISION_NAME_TO_PMETA.items()}
 # Helpers
 # ---------------------------------------------------------------------------
 
-def _emit_more(more, idx):
+def _emit_more(more, idx, version=1):
     """Serialize a point's `more` list of (key, kind, value); kind is
-    'text' | 'ref' | 'date' (or the VAR_* byte). Returns the bytes after morelen."""
-    out = bytearray([len(more)])
-    for key, kind, value in more:
-        vk = _VAR_NAME_TO_BYTE.get(kind, kind) if isinstance(kind, str) else kind
-        kb = key.encode("utf-8")
-        if len(kb) > 255:
-            raise ValueError(f"point {idx}: variable key encodes to {len(kb)} bytes; max 255")
-        out += bytes([len(kb)]) + kb + bytes([vk])
-        if vk == VAR_TEXT:
-            vb = str(value).encode("utf-8")
-            out += struct.pack(">H", len(vb)) + vb
-        elif vk == VAR_REF:
-            if len(value) != 32:
-                raise ValueError(f"point {idx}: ref variable {key!r} must be a 32-byte txid")
-            out += bytes(value)
-        elif vk == VAR_DATE:
-            out += struct.pack(">d", float(value))
-        else:
-            raise ValueError(f"point {idx}: unknown variable kind {vk:#04x}")
-    return bytes(out)
+    'text' | 'ref' | 'date' (or the atom byte). Returns the bytes after
+    morelen. Delegates to the ONE shared typed-var codec (atoms.py) —
+    the per-module clones are retired (c1dd0002 §7.5)."""
+    return emit_more_block(more, version=version, label=f"point {idx}")
 
 
-def _read_more(body, p, idx):
+def _read_more(body, p, idx, version=1):
     """Parse a `morelen:u16 + more` block at offset p; return (more_list, new_p)."""
     if p + 2 > len(body):
         raise ValueError(f"point {idx}: body truncated reading morelen")
@@ -209,22 +197,7 @@ def _read_more(body, p, idx):
     end = p + morelen
     if end > len(body):
         raise ValueError(f"point {idx}: more block ({morelen} B) overruns body")
-    mo, q, more = body[p:end], 0, []
-    nvar = mo[q]; q += 1
-    for _ in range(nvar):
-        kl = mo[q]; q += 1
-        key = mo[q:q + kl].decode("utf-8"); q += kl
-        vk = mo[q]; q += 1
-        if vk == VAR_TEXT:
-            vl = struct.unpack(">H", mo[q:q + 2])[0]; q += 2
-            more.append((key, "text", mo[q:q + vl].decode("utf-8"))); q += vl
-        elif vk == VAR_REF:
-            more.append((key, "ref", bytes(mo[q:q + 32]))); q += 32
-        elif vk == VAR_DATE:
-            more.append((key, "date", struct.unpack(">d", mo[q:q + 8])[0])); q += 8
-        else:
-            raise ValueError(f"point {idx}: unknown variable kind {vk:#04x}")
-    return more, end
+    return read_more_block(body[p:end], version=version, label=f"point {idx}"), end
 
 def _coerce_kind(kind):
     if isinstance(kind, int):
@@ -311,15 +284,18 @@ def _pmeta_for_point(pt, effective_kind, idx):
         )
 
 
-def _figure_needs_meta(points, figure_kind):
-    """meta byte: 02 if any point carries a `more` block; else 01 if any
+def _figure_needs_meta(points, figure_kind, version=_V1):
+    """meta byte: 02 if any point carries a `more` block; else (v1) 01 if any
     EARTH-tagged point declares a (legacy) time; else 00.
 
-    For a MIXED figure each point's effective_kind is resolved first, so a
-    timed star point trips the earth-only gate (caught early) and an untimed
-    star point does not force META_YES."""
+    v2 has ONE date mechanism: the legacy pmeta path (META_YES) is not part
+    of the v2 grammar, so a timed point routes to META_MORE — the time folds
+    into the more-block as a 9-byte precision date (c1dd0002 §7.4)."""
     if any(pt.get("more") for pt in points):
         return META_MORE
+    if version >= _V2:
+        return META_MORE if any(pt.get("time") is not None for pt in points) \
+            else META_NO
     for i, pt in enumerate(points):
         eff = _effective_kind(pt, figure_kind, i)
         if _pmeta_for_point(pt, eff, i) != PMETA_NONE:
@@ -327,8 +303,10 @@ def _figure_needs_meta(points, figure_kind):
     return META_NO
 
 
-def _build_header(title, kind, grouped, meta, K, tone):
+def _build_header(title, kind, grouped, meta, K, tone, version=_V1):
     validate_tone(tone)
+    if version not in (_V1, _V2):
+        raise ValueError(f"celestial version {version!r} not implemented (v1, v2)")
     if kind not in (KIND_EARTH, KIND_STAR, KIND_MIXED):
         raise ValueError(f"kind must be 0x00, 0x01, or 0x02 (got {kind:#04x})")
     if grouped not in (GROUPED_NO, GROUPED_YES):
@@ -343,7 +321,7 @@ def _build_header(title, kind, grouped, meta, K, tone):
             f"title encodes to {len(title_bytes)} UTF-8 bytes; max 255"
         )
     return (
-        b"\xc1\xdd\x00\x01"
+        b"\xc1\xdd" + version.to_bytes(2, "big")
         + bytes([TYPE_CELESTIAL])
         + bytes([tone])
         + bytes([kind])
@@ -355,7 +333,7 @@ def _build_header(title, kind, grouped, meta, K, tone):
     )
 
 
-def _emit_point(pt, figure_kind, figure_meta, idx):
+def _emit_point(pt, figure_kind, figure_meta, idx, version=_V1):
     """Serialize one point record.
 
     For a MIXED figure (figure_kind == KIND_MIXED) the record is prefixed by
@@ -409,8 +387,23 @@ def _emit_point(pt, figure_kind, figure_meta, idx):
         # system? · coords · name · morelen · more  (no pmeta; any date in `more`)
         more = list(pt.get("more", []))
         if pt.get("time") is not None:
-            more = more + [("date", "date", float(pt["time"]))]
-        mb = _emit_more(more, idx)
+            if version >= _V2:
+                more = more + [("date", "date",
+                                {"jd": float(pt["time"]),
+                                 "precision": pt.get("time_precision",
+                                                     "unspecified")})]
+            else:
+                more = more + [("date", "date", float(pt["time"]))]
+        # Dates are earth-only, uniformly: the star is in the celestial
+        # sphere — a dated event on earth REFERENCES it (a line, or a ref
+        # var); the star itself is timeless (c1dd0002 §7.4).
+        if effective_kind != KIND_EARTH and any(
+                k in ("date", VAR_DATE) for (_key, k, _v) in more):
+            raise ValueError(
+                f"point {idx} ({pt['name']!r}): a date on a star point is not "
+                f"defined — the star is in the celestial sphere; reference it "
+                f"from a dated earth event")
+        mb = _emit_more(more, idx, version)
         return (prefix + struct.pack(">ff", a, b)
                 + bytes([len(name_bytes)]) + name_bytes
                 + struct.pack(">H", len(mb)) + mb)
@@ -434,7 +427,8 @@ def _emit_point(pt, figure_kind, figure_meta, idx):
 # Builders
 # ---------------------------------------------------------------------------
 
-def build_celestial_quipu(title, kind, points, lines, tone=TONE_ORDINARY):
+def build_celestial_quipu(title, kind, points, lines, tone=TONE_ORDINARY,
+                          version=_V1):
     """Build an ungrouped 0xce celestial-figure quipu.
 
     Args:
@@ -460,13 +454,13 @@ def build_celestial_quipu(title, kind, points, lines, tone=TONE_ORDINARY):
         )
 
     K = len(points)
-    meta = _figure_needs_meta(points, figure_kind)
+    meta = _figure_needs_meta(points, figure_kind, version)
 
-    header = _build_header(title, figure_kind, GROUPED_NO, meta, K, tone)
+    header = _build_header(title, figure_kind, GROUPED_NO, meta, K, tone, version)
 
     points_blob = b""
     for i, pt in enumerate(points):
-        points_blob += _emit_point(pt, figure_kind, meta, i)
+        points_blob += _emit_point(pt, figure_kind, meta, i, version)
 
     lines_blob = b""
     for li, pair in enumerate(lines):
@@ -488,7 +482,8 @@ def build_celestial_quipu(title, kind, points, lines, tone=TONE_ORDINARY):
     return header, points_blob + lines_blob
 
 
-def build_grouped_celestial_quipu(title, kind, points, groups, tone=TONE_ORDINARY):
+def build_grouped_celestial_quipu(title, kind, points, groups, tone=TONE_ORDINARY,
+                                  version=_V1):
     """Build a grouped 0xce celestial-figure quipu.
 
     A point may appear in zero, one, or many groups, and may be referenced by
@@ -508,17 +503,17 @@ def build_grouped_celestial_quipu(title, kind, points, groups, tone=TONE_ORDINAR
         )
 
     K = len(points)
-    meta = _figure_needs_meta(points, figure_kind)
+    meta = _figure_needs_meta(points, figure_kind, version)
 
     G = len(groups)
     if G > 0xFFFF:
         raise ValueError(f"max 65535 groups per figure (got {G})")
 
-    header = _build_header(title, figure_kind, GROUPED_YES, meta, K, tone)
+    header = _build_header(title, figure_kind, GROUPED_YES, meta, K, tone, version)
 
     points_blob = b""
     for i, pt in enumerate(points):
-        points_blob += _emit_point(pt, figure_kind, meta, i)
+        points_blob += _emit_point(pt, figure_kind, meta, i, version)
 
     groups_blob = struct.pack(">H", G)
     for gi, (gname, p_indices, l_pairs) in enumerate(groups):
@@ -577,12 +572,17 @@ def read_celestial_quipu(header_bytes, body_bytes):
                              'lines': [(int_a, int_b), ...]} ...],
         }
     """
-    if header_bytes[:4] != b"\xc1\xdd\x00\x01":
-        raise ValueError("not a quipu (c1dd0001 magic missing from header)")
     if len(header_bytes) < 12:
         raise ValueError(
             f"header too short: {len(header_bytes)} bytes (need ≥ 12)"
         )
+    if header_bytes[:2] != b"\xc1\xdd":
+        raise ValueError("not a quipu (magic c1dd missing from header)")
+    version = (header_bytes[2] << 8) | header_bytes[3]
+    if version not in (_V1, _V2):
+        raise ValueError(
+            f"celestial version {version:#06x} not implemented (this reader "
+            f"knows v1 and v2) — refusing to guess a layout it does not know")
     if header_bytes[4] != TYPE_CELESTIAL:
         raise ValueError(
             f"not a celestial quipu (type byte = {header_bytes[4]:#04x}, "
@@ -612,6 +612,10 @@ def read_celestial_quipu(header_bytes, body_bytes):
         raise ValueError(f"grouped byte {grouped:#04x} must be 0x00 or 0x01")
     if meta not in (META_NO, META_YES, META_MORE):
         raise ValueError(f"meta byte {meta:#04x} must be 0x00, 0x01, or 0x02")
+    if version >= _V2 and meta == META_YES:
+        raise ValueError(
+            "meta=0x01 (legacy pmeta time) is not part of the v2 grammar — "
+            "v2 has one date mechanism, the more-block (c1dd0002 §7.4)")
     kind_name = _KIND_BYTE_TO_NAME[figure_kind]
 
     p = 0
@@ -643,7 +647,7 @@ def read_celestial_quipu(header_bytes, body_bytes):
             if p + nl > len(body_bytes):
                 raise ValueError(f"body truncated reading name for point {i}")
             name = body_bytes[p:p + nl].decode("utf-8"); p += nl
-            more, p = _read_more(body_bytes, p, i)
+            more, p = _read_more(body_bytes, p, i, version)
             if effective_kind == KIND_EARTH:
                 pt = {"kind": "earth", "lat": a, "lng": b, "name": name}
             elif effective_kind == KIND_STAR:
@@ -652,7 +656,17 @@ def read_celestial_quipu(header_bytes, body_bytes):
             pt["more"] = more
             for _k, _kind, _v in more:          # surface a date var as time → timed arrows
                 if _kind == "date":
-                    pt["time"] = _v
+                    if effective_kind != KIND_EARTH:
+                        raise ValueError(
+                            f"point {i} ({name!r}): a date on a star point is "
+                            f"not defined — the star is in the celestial "
+                            f"sphere; a dated earth event references it")
+                    if isinstance(_v, dict):
+                        pt["time"] = _v["jd"]
+                        if _v["precision"] != "unspecified":
+                            pt["time_precision"] = _v["precision"]
+                    else:
+                        pt["time"] = _v
                     break
             points.append(pt)
             continue
@@ -728,6 +742,7 @@ def read_celestial_quipu(header_bytes, body_bytes):
         return {
             "title": title, "tone": tone, "kind": kind_name,
             "grouped": False, "meta": meta != META_NO, "meta_mode": meta,
+            "version": version,
             "points": points, "lines": lines, "groups": None,
         }
 
@@ -779,6 +794,7 @@ def read_celestial_quipu(header_bytes, body_bytes):
     return {
         "title": title, "tone": tone, "kind": kind_name,
         "grouped": True, "meta": meta != META_NO, "meta_mode": meta,
+        "version": version,
         "points": points, "lines": all_lines, "groups": groups,
     }
 
@@ -1040,15 +1056,35 @@ def _selftest_more():
     assert parsed["points"][0]["more"][1][1] == "ref"
     assert parsed["points"][0]["more"][1][2] == b"\x11" * 32
     assert parsed["points"][1]["more"] == []
-    # a STAR carrying a description + a date variable (a date on a star — fine under meta=0x02)
+    # a STAR may carry description/ref vars — but NEVER a date: the star is
+    # in the celestial sphere; a dated earth event references it (§7.4).
     spts = [{"name": "Sirius", "ra": 101.2875, "dec": -16.7161,
              "more": [("description", "text", "Alpha Canis Majoris; brightest star."),
                       ("date", "date", 2451545.0)]}]
-    h2, b2 = build_celestial_quipu("Sirius", "star", spts, [])
-    p2 = read_celestial_quipu(h2, b2)
-    assert h2[8] == META_MORE
-    assert p2["points"][0]["more"][1] == ("date", "date", 2451545.0)
-    print("  ✓ description / ref / date variables round-trip on earth AND star points")
+    try:
+        build_celestial_quipu("Sirius", "star", spts, [])
+    except ValueError as e:
+        assert "celestial sphere" in str(e)
+    else:
+        raise AssertionError("a dated star built — the side door is open again")
+    # and the read side refuses crafted dated-star bytes just as firmly
+    ok = [{"name": "Sirius", "ra": 101.2875, "dec": -16.7161,
+           "more": [("description", "text", "Alpha Canis Majoris.")]}]
+    h2, b2 = build_celestial_quipu("Sirius", "star", ok, [])
+    from atoms import emit_more_block
+    bad_more = emit_more_block([("date", "date", 2451545.0)], version=1)
+    import struct as _s
+    # rebuild point record by hand: coords · namelen·name · morelen · dated-more
+    nb = "Sirius".encode()
+    crafted = (_s.pack(">ff", 101.2875, -16.7161) + bytes([len(nb)]) + nb
+               + _s.pack(">H", len(bad_more)) + bad_more)
+    try:
+        read_celestial_quipu(h2, crafted)
+    except ValueError as e:
+        assert "celestial sphere" in str(e)
+    else:
+        raise AssertionError("crafted dated-star bytes read without raising")
+    print("  ✓ description/ref vars round-trip; a date on a star raises at build AND read")
     print()
 
 
@@ -1109,24 +1145,37 @@ def _selftest_mixed():
     assert "time" not in p1["points"][1]
     print("  ✓ meta=0x01: earth point timed (pmeta after system), star untimed")
 
-    # --- meta = 0x02 (more block): a dated STAR point is legal here ---
+    # --- meta = 0x02 (more block): the dated earth event REFERENCES the
+    # star (a line, a ref var); the star itself is timeless (§7.4) ---
     mpts = [
         {"name": "Malcesine", "lat": 45.7656, "lng": 10.8073,
-         "more": [("description", "text", "Goethe sketched the castle.")]},
+         "more": [("description", "text", "Goethe sketched the castle."),
+                  ("date", "date", 2451545.0),
+                  ("sky", "ref", b"\x5c" * 32)]},
         {"name": "Sirius", "ra": 101.2875, "dec": -16.7161,
-         "more": [("date", "date", 2451545.0)]},
+         "more": [("description", "text", "Alpha Canis Majoris.")]},
     ]
-    h2, b2 = build_celestial_quipu("Mixed more", "mixed", mpts, [])
+    h2, b2 = build_celestial_quipu("Mixed more", "mixed", mpts, [(0, 1)])
     assert h2[6] == KIND_MIXED
     assert h2[8] == META_MORE
     assert b2[0] == KIND_EARTH
     p2 = read_celestial_quipu(h2, b2)
     assert p2["points"][0]["kind"] == "earth"
-    assert p2["points"][0]["more"][0][0] == "description"
+    assert p2["points"][0]["time"] == 2451545.0        # the EVENT is dated
     assert p2["points"][1]["kind"] == "star"
-    # a star point may carry time via a META_MORE date var (fix #4)
-    assert p2["points"][1]["time"] == 2451545.0
-    print("  ✓ meta=0x02: dated STAR point legal (date in more), system byte first")
+    assert "time" not in p2["points"][1]               # the star is timeless
+    assert p2["lines"] == [(0, 1)]                     # the reference bridges
+    # a dated star refuses, uniformly
+    bad = [{"name": "Sirius", "ra": 101.2875, "dec": -16.7161,
+            "more": [("date", "date", 2451545.0)]}]
+    try:
+        build_celestial_quipu("bad", "mixed",
+                              [{"name": "Rome", "lat": 41.9, "lng": 12.5}] + bad, [])
+    except ValueError as e:
+        assert "celestial sphere" in str(e)
+    else:
+        raise AssertionError("dated star built in a mixed figure")
+    print("  ✓ meta=0x02: dated earth event references the timeless star (line + ref)")
 
     # --- grouped MIXED ---
     gpts = [
@@ -1158,6 +1207,38 @@ def _selftest_mixed():
         assert pt["points"][0]["kind"] == "earth"
         assert pt["points"][1]["kind"] == "star"
     print("  ✓ MIXED accepts full canonical tone vocabulary (ordinary/demonic/reverence)")
+    print()
+
+
+def _selftest_v2():
+    # v2: ONE date mechanism — a timed earth point routes to META_MORE with a
+    # 9-byte precision date; the header carries c1dd0002; META_YES is not in
+    # the v2 grammar (c1dd0002 §7.4).
+    pts = [{"name": "Domrémy", "lat": 48.4439, "lng": 5.6742,
+            "time": 2231868.5, "time_precision": "day"},
+           {"name": "Orléans", "lat": 47.9029, "lng": 1.9039}]
+    h, b = build_celestial_quipu("Joan v2", "earth", pts, [(0, 1)], version=2)
+    assert h[:4] == b"\xc1\xdd\x00\x02"
+    assert h[8] == META_MORE                       # never META_YES in v2
+    parsed = read_celestial_quipu(h, b)
+    assert parsed["version"] == 2
+    p0 = parsed["points"][0]
+    assert abs(p0["time"] - 2231868.5) < 1e-9 and p0["time_precision"] == "day"
+    assert p0["more"][0][2] == {"jd": 2231868.5, "precision": "day"}
+    # crafted v2 header with META_YES refuses
+    bad = bytearray(h); bad[8] = META_YES
+    try:
+        read_celestial_quipu(bytes(bad), b)
+    except ValueError as e:
+        assert "v2 grammar" in str(e)
+    else:
+        raise AssertionError("META_YES read under v2")
+    # v1 build of the same points still emits the legacy path, byte-stable
+    h1, b1 = build_celestial_quipu("Joan v1", "earth", pts, [(0, 1)])
+    assert h1[:4] == b"\xc1\xdd\x00\x01" and h1[8] == META_YES
+    print("=== v2: one date mechanism, 9-byte precision dates ===")
+    print(f"  ✓ v2 header c1dd0002, META_MORE routing, precision round-trip; "
+          f"META_YES refused; v1 path unchanged")
     print()
 
 
@@ -1224,5 +1305,6 @@ if __name__ == "__main__":
     _selftest_large_K()
     _selftest_more()
     _selftest_mixed()
+    _selftest_v2()
     _selftest_byte_identity()
     _selftest_validation()

@@ -50,7 +50,12 @@ never 0.0 (which would decode as the year 0 CE). Negative = BCE.
 """
 from __future__ import annotations
 
+import os
 import struct
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "canonical"))
+from atoms import emit_more_block as _atoms_emit, read_more_block as _atoms_read
 
 MAGIC = b"\xc1\xdd\x00\x01"
 TYPE_CELESTIAL = 0xCE
@@ -89,7 +94,10 @@ RELATION_BYTE_TO_NAME = {v: k for k, v in RELATION_NAME_TO_BYTE.items()}
 
 # etymology node `more` keys -> the ONLY vkind permitted for each (B.4 lock).
 # text keys use VAR_TEXT; `ref` uses VAR_REF. No other vkind may appear.
-_TEXT_KEYS = ("lang", "gloss", "pos", "ipa", "certainty")
+# "certainty" removed 2026-07-17: certainty markers are against the ethos —
+# the telling does not footnote itself (c1dd0002 §7.3). Old blobs carrying a
+# certainty key still read (it is just a text var); builders no longer write it.
+_TEXT_KEYS = ("lang", "gloss", "pos", "ipa")
 
 
 def relation_name(rel):
@@ -114,57 +122,28 @@ def _resolve_relation(rel):
 # ---------------------------------------------------------------------------
 # more-block (keyless; replicated from celestial so etymology stands alone)
 # ---------------------------------------------------------------------------
-def _emit_more(more, idx):
-    """Serialize a node's `more` list of (key, vkind, value); vkind is a VAR_*
-    byte or 'text'/'ref'/'date'. Returns the bytes AFTER morelen (the nvar block).
+_NAME_TO_VK = {"text": VAR_TEXT, "ref": VAR_REF, "date": VAR_DATE}
 
-    Etymology vkind lock: callers must only pass VAR_TEXT for the text keys and
-    VAR_REF for `ref` — enforced upstream in build_etymology, not here, so this
-    helper stays a faithful clone of celestial._emit_more."""
-    out = bytearray([len(more)])
-    for key, vk, value in more:
-        if isinstance(vk, str):
-            vk = {"text": VAR_TEXT, "ref": VAR_REF, "date": VAR_DATE}[vk]
-        kb = key.encode("utf-8")
-        if len(kb) > 255:
-            raise ValueError(f"node {idx}: variable key encodes to {len(kb)} bytes; max 255")
-        out += bytes([len(kb)]) + kb + bytes([vk])
-        if vk == VAR_TEXT:
-            vb = str(value).encode("utf-8")
-            out += struct.pack(">H", len(vb)) + vb
-        elif vk == VAR_REF:
-            if len(value) != 32:
-                raise ValueError(f"node {idx}: ref variable {key!r} must be a 32-byte txid")
-            out += bytes(value)
-        elif vk == VAR_DATE:
-            out += struct.pack(">d", float(value))
-        else:
-            raise ValueError(f"node {idx}: unknown variable kind {vk:#04x}")
-    return bytes(out)
+
+def _emit_more(more, idx):
+    """Serialize a node's `more` list of (key, vkind, value). Delegates to the
+    ONE shared typed-var codec (canonical/atoms.py) — the per-module clone is
+    retired (c1dd0002 §7.5). The etymology vkind lock is enforced upstream in
+    build_etymology."""
+    return _atoms_emit(more, version=1, label=f"node {idx}")
 
 
 def _read_more_block(blob, o, end):
-    """Parse a `more` payload (nvar:u8 · nvar×[keylen·key·vkind·value]) in
-    [o, end). vkind 0x00=text(u16 len+utf8) / 0x01=ref(32B) / 0x02=date(f64-BE).
-    Returns [(key, vkind, value), ...]. Keyless — never decrypts anything."""
+    """Parse a `more` payload in [o, end) via the shared codec. STRICT: an
+    unknown vkind raises (its width is unknown; the old silent `break`
+    presented a partial record as whole). Surface stays etymology's own:
+    [(key, vkind_byte, value)] with refs as hex. Keyless."""
     out = []
-    if o >= end:
-        return out
-    nvar = blob[o]; o += 1
-    for _ in range(nvar):
-        kl = blob[o]; o += 1
-        key = blob[o:o + kl].decode("utf-8", "replace"); o += kl
-        vk = blob[o]; o += 1
-        if vk == VAR_TEXT:
-            vl = int.from_bytes(blob[o:o + 2], "big"); o += 2
-            val = blob[o:o + vl].decode("utf-8", "replace"); o += vl
-        elif vk == VAR_REF:
-            val = blob[o:o + 32].hex(); o += 32
-        elif vk == VAR_DATE:
-            val = struct.unpack(">d", blob[o:o + 8])[0]; o += 8
-        else:
-            break          # unknown vkind: stop (forgiving, matches decode._read_more_block)
-        out.append((key, vk, val))
+    for key, name_, val in _atoms_read(bytes(blob[o:end]), version=1,
+                                       label="node"):
+        if name_ == "ref":
+            val = val.hex()
+        out.append((key, _NAME_TO_VK[name_], val))
     return out
 
 
@@ -331,14 +310,14 @@ def read_etymology_quipu(hdr, body):
     o = 9
     K = int.from_bytes(blob[o:o + 2], "big"); o += 2
     T = blob[o]; o += 1
-    title = blob[o:o + T].decode("utf-8", "replace"); o += T
+    title = blob[o:o + T].decode("utf-8"); o += T
 
     nodes = []
     for _ in range(K):
         born = struct.unpack(">f", blob[o:o + 4])[0]; o += 4
         died = struct.unpack(">f", blob[o:o + 4])[0]; o += 4
         nl = blob[o]; o += 1
-        name = blob[o:o + nl].decode("utf-8", "replace"); o += nl
+        name = blob[o:o + nl].decode("utf-8"); o += nl
         ml = int.from_bytes(blob[o:o + 2], "big"); o += 2
         more = _read_more_block(blob, o, o + ml); o += ml
         def _txt(key):
@@ -361,7 +340,7 @@ def read_etymology_quipu(hdr, body):
         txid = blob[o:o + 32].hex(); o += 32
         ridx = int.from_bytes(blob[o:o + 2], "big"); o += 2
         nl = blob[o]; o += 1
-        rname = blob[o:o + nl].decode("utf-8", "replace"); o += nl
+        rname = blob[o:o + nl].decode("utf-8"); o += nl
         refs.append({"txid": txid, "remote_idx": ridx, "name": rname})
 
     edges, lines = [], []
@@ -399,10 +378,12 @@ def read_etymology(blob):
 def _worked_example():
     """The spec's 7-node 'celestial' etymology. Returns (title, nodes, edges)."""
     nodes = [
-        # 0: *(s)kai- — PIE root, unattested (born=died=NaN)
+        # 0: *(s)kai- — PIE root, unattested (born=died=NaN). The scholarly
+        # hedge lives in the gloss PROSE ("disputed") — certainty markers are
+        # against the ethos; the telling does not footnote itself (§7.3).
         {"name": "*(s)kai-", "born": None, "died": None,
          "lang": "Proto-Indo-European", "gloss": "to shine; bright (disputed)",
-         "pos": "root", "certainty": "disputed"},
+         "pos": "root"},
         # 1: caelum — Latin
         {"name": "caelum", "born": -200.0, "died": None,
          "lang": "Latin", "gloss": "sky, heaven", "pos": "noun (neuter)"},
@@ -465,7 +446,9 @@ if __name__ == "__main__":
     assert n0["lang"] == "Proto-Indo-European", n0["lang"]
     assert n0["gloss"] == "to shine; bright (disputed)", n0["gloss"]
     assert n0["pos"] == "root", n0["pos"]
-    assert n0["certainty"] == "disputed", n0["certainty"]
+    # builders no longer write certainty (abolished §7.3); the reader still
+    # surfaces it from old blobs, defaulting "" here
+    assert n0["certainty"] == "", n0["certainty"]
     assert n0["ipa"] == "", n0["ipa"]
 
     # node 1: caelum, born -200 (BCE), died None

@@ -14,6 +14,10 @@ the grafted houses are tinted differently. No house name is hardcoded.
 """
 import os, struct
 
+import os as _os, sys as _sys
+_sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "canonical"))
+from atoms import read_more_block as _atoms_read
+
 MAGIC = b"\xc1\xdd\x00\x01"
 TYPE_CELESTIAL, KIND_GENEALOGY = 0xCE, 0x03
 
@@ -22,7 +26,12 @@ TYPE_CELESTIAL, KIND_GENEALOGY = 0xCE, 0x03
 #  Reader (matches working/lineage/genealogy_quipu.py build_genealogy)
 # --------------------------------------------------------------------------
 def read_genealogy(blob):
-    assert blob[:4] == MAGIC and blob[4] == TYPE_CELESTIAL and blob[6] == KIND_GENEALOGY
+    # A real guard, not an assert: asserts evaporate under `python -O`, and a
+    # route guard is load-bearing (a non-genealogy blob mis-parses from byte 9).
+    if blob[:4] != MAGIC or blob[4] != TYPE_CELESTIAL or blob[6] != KIND_GENEALOGY:
+        raise ValueError(
+            f"not a genealogy quipu (magic/type/kind = "
+            f"{blob[:4].hex()}/{blob[4]:#04x}/{blob[6]:#04x})")
     o = 9                                            # magic4 + type + tone + kind + 2 reserved
     K = struct.unpack(">H", blob[o:o+2])[0]; o += 2
     T = blob[o]; o += 1
@@ -32,10 +41,16 @@ def read_genealogy(blob):
         born = struct.unpack(">f", blob[o:o+4])[0]; o += 4
         died = struct.unpack(">f", blob[o:o+4])[0]; o += 4
         nl = blob[o]; o += 1; name = blob[o:o+nl].decode("utf-8"); o += nl
-        ml = struct.unpack(">H", blob[o:o+2])[0]; o += 2 + ml
+        ml = struct.unpack(">H", blob[o:o+2])[0]; o += 2
+        # parse the more block via the shared codec instead of silently
+        # skipping it — per-node metadata is surfaced, never dropped
+        more = _atoms_read(bytes(blob[o:o+ml]), version=1, label=name) if ml else []
+        o += ml
         people.append({"name": name,
                        "born": None if born != born else int(born),
-                       "died": None if died != died else int(died)})
+                       "died": None if died != died else int(died),
+                       "more": [(k, n_, v.hex() if n_ == "ref" else v)
+                                for (k, n_, v) in more]})
     Nref = struct.unpack(">H", blob[o:o+2])[0]; o += 2
     refs = []
     for _ in range(Nref):
@@ -74,9 +89,12 @@ def build_combined(blob, fetcher, *, max_depth=4):
             house_titles.setdefault(r["txid"], label)  # fallback name if the house can't be fetched
             if fetcher and depth < max_depth:
                 try:
-                    ingest(read_genealogy(fetcher(r["txid"])), r["txid"], depth + 1)
-                except Exception:
-                    pass
+                    sub = fetcher(r["txid"])          # a dead link is honest —
+                except Exception:                     # fallback name renders
+                    sub = None
+                if sub is not None:
+                    # parse errors SURFACE: corruption is never silently dropped
+                    ingest(read_genealogy(sub), r["txid"], depth + 1)
         for a, c in g["lines"]:
             ck = (src, c)
             if a < g["K"]:
