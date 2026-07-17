@@ -17,7 +17,12 @@ precedent so nothing is invented that need not be:
   1. NODE-TYPE byte (ntype) — a per-node ontological discriminator, prefixed to
      the record exactly where a MIXED (0x02) figure prefixes its per-point
      `system` byte. The reader NEVER branches on it (pure semantics/styling);
-     it only classifies the node for the renderer.
+     it only classifies the node for the renderer. It is a CLOSED ENUM of four
+     (place/agent/relay/resource) — the registry declares the values list as
+     law, so an unknown byte is malformed and raises at build and read
+     (c1dd0002 §5). NTYPE_UNCERTAIN (0x04) was struck at v2 authoring
+     (2026-07-17): the last certainty-flavored byte; a telling that assigns no
+     role picks the closest ontological kind, and hedges stay off-chain.
 
   2. lat/lng (2×f32, NaN-sentinel) — a node's fixed geographic position, carried
      with the SAME NaN discipline as born/died. NaN,NaN = an ABSTRACT node with
@@ -38,10 +43,17 @@ Like genealogy/etymology, the network body is routed AROUND the canonical
 celestial point reader (which accepts only kinds 0x00/0x01/0x02). Routing is by
 the kind byte at header offset 6 == 0x05.
 
+Network is v2 law. The kind entered the standard with the v2 celestial delta
+(canonical/registry_v2.py); nothing network was ever legislated under v1 or
+inscribed, so this codec is the v2 codec with no legacy path: it emits
+c1dd0002 envelopes, and the reader refuses a v1-stamped kind-0x05 blob
+honestly instead of guessing a grammar that never existed. More-blocks range
+over the full atom namespace with the 9-byte precision date (atoms.py, v2).
+
 Wire (everything big-endian)
 ----------------------------
 HEADER (9 bytes):
-    c1 dd 00 01   magic4
+    c1 dd 00 02   magic2 + version u16-BE (v2 — the kind's first standard)
     ce            type   = TYPE_CELESTIAL
     <tone:1>      canonical tone vocab (ignored by the network body)
     05            kind   = KIND_NETWORK
@@ -76,9 +88,9 @@ import struct
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "canonical"))
-from atoms import emit_more_block as _atoms_emit, read_more_block as _atoms_read
+from atoms import ATOM_NAMES, emit_more_block as _atoms_emit, read_more_block as _atoms_read
+from envelope import build_envelope, parse_envelope, VERSION_V1, VERSION_V2
 
-MAGIC = b"\xc1\xdd\x00\x01"
 TYPE_CELESTIAL = 0xCE
 KIND_GENEALOGY = 0x03
 KIND_ETYMOLOGY = 0x04
@@ -87,30 +99,29 @@ KIND_NETWORK = 0x05
 TONE_ORDINARY = 0x00
 TONE_REVERENCE = 0xFF
 
-# more-block vkind bytes (reused verbatim from celestial/etymology)
+# more-block vkind bytes (the protocol atoms, atoms.py; v2 blocks range over
+# the full namespace — these aliases keep the public surface)
 VAR_TEXT = 0x00   # vlen:u16-BE + utf8
 VAR_REF = 0x01    # 32-byte txid
-VAR_DATE = 0x02   # f64-BE Julian Day
+VAR_DATE = 0x02   # v2: precision:u8 + jd:f64-BE (9 B)
 
 # ---------------------------------------------------------------------------
 # Node-type enum — the per-node ontological discriminator (the ntype byte).
 # The NEW axis: genealogy/etymology never typed a node. Kept ontological (WHAT
 # a node is), never topological (source/relay/sink ROLE is derivable from the
 # edge set — see the roots computation in the worked example — so it is not
-# stored).
+# stored). CLOSED at four (registry v2): unknown = malformed = raise.
 # ---------------------------------------------------------------------------
 NTYPE_PLACE = 0x00      # a fixed geographic locus: city, port, tambo
 NTYPE_AGENT = 0x01      # a person / house / institution: bank, family, corps
 NTYPE_RELAY = 0x02      # infrastructure node: station, tower, runner-post, beacon
 NTYPE_RESOURCE = 0x03   # an asset store: mine, granary, treasury, spring
-NTYPE_UNCERTAIN = 0x04  # role unclear / placeholder
 
 NTYPE_NAME_TO_BYTE = {
     "place": NTYPE_PLACE,
     "agent": NTYPE_AGENT,
     "relay": NTYPE_RELAY,
     "resource": NTYPE_RESOURCE,
-    "uncertain": NTYPE_UNCERTAIN,
 }
 NTYPE_BYTE_TO_NAME = {v: k for k, v in NTYPE_NAME_TO_BYTE.items()}
 
@@ -157,16 +168,19 @@ def etype_name(et):
 
 
 def _resolve_ntype(nt):
-    """Node type -> byte. A string is looked up (unknown name is a build error);
-    an int passes through (unknown int round-trips, surfaced as-is)."""
+    """Node type -> byte. Closed enum (registry v2): a name or byte outside
+    place/agent/relay/resource is malformed, never passed through."""
     if isinstance(nt, str):
         if nt not in NTYPE_NAME_TO_BYTE:
             raise ValueError(
-                f"unknown node type {nt!r}; known: {sorted(NTYPE_NAME_TO_BYTE)}")
+                f"unknown node type {nt!r}; the v2 enum is closed: "
+                f"{sorted(NTYPE_NAME_TO_BYTE)}")
         return NTYPE_NAME_TO_BYTE[nt]
     nt = int(nt)
-    if not (0 <= nt <= 0xFF):
-        raise ValueError(f"ntype byte {nt} out of range 0..255")
+    if nt not in NTYPE_BYTE_TO_NAME:
+        raise ValueError(
+            f"ntype byte {nt:#04x} not in the closed v2 enum "
+            f"(0x00 place · 0x01 agent · 0x02 relay · 0x03 resource)")
     return nt
 
 
@@ -184,25 +198,25 @@ def _resolve_etype(et):
 
 
 # ---------------------------------------------------------------------------
-# more-block (keyless; replicated from etymology so network stands alone)
+# more-block (keyless; the ONE shared typed-var codec, canonical/atoms.py)
 # ---------------------------------------------------------------------------
-_NAME_TO_VK = {"text": VAR_TEXT, "ref": VAR_REF, "date": VAR_DATE}
+_NAME_TO_VK = {v: k for k, v in ATOM_NAMES.items()}
 
 
 def _emit_more(more, idx):
     """Serialize a node's `more` list of (key, vkind, value). Delegates to the
     ONE shared typed-var codec (canonical/atoms.py) — the fourth clone is
-    retired (c1dd0002 §7.5)."""
-    return _atoms_emit(more, version=1, label=f"node {idx}")
+    retired (c1dd0002 §7.5). v2: full atom namespace, 9-byte precision dates."""
+    return _atoms_emit(more, version=2, label=f"node {idx}")
 
 
 def _read_more_block(blob, o, end):
     """Parse a `more` payload in [o, end) via the shared codec. STRICT: an
     unknown vkind raises (width unknown; the old silent `break` presented a
     partial record as whole). Surface stays network's own: [(key, vkind_byte,
-    value)] with refs as hex. Keyless."""
+    value)] with refs as hex; v2 dates are {'jd', 'precision'} dicts. Keyless."""
     out = []
-    for key, name_, val in _atoms_read(bytes(blob[o:end]), version=1,
+    for key, name_, val in _atoms_read(bytes(blob[o:end]), version=2,
                                        label="node"):
         if name_ == "ref":
             val = val.hex()
@@ -236,14 +250,10 @@ def _to_f32nan(v):
 # Header
 # ---------------------------------------------------------------------------
 def _build_header(kind, tone):
-    """The 9-byte celestial envelope for a routed-around body: magic4 + type +
-    tone + kind + grouped(0x00) + meta(0x00)."""
-    if not (0 <= tone <= 0xFF):
-        raise ValueError(f"tone byte {tone} out of range 0..255")
+    """The 9-byte celestial header for a routed-around body: the 6-byte v2
+    envelope (envelope.py) + kind + grouped(0x00) + meta(0x00)."""
     return (
-        MAGIC
-        + bytes([TYPE_CELESTIAL])
-        + bytes([tone])
+        build_envelope(VERSION_V2, TYPE_CELESTIAL, tone)
         + bytes([kind])
         + bytes([0x00])      # grouped — reserved, MUST be 0x00
         + bytes([0x00])      # meta    — reserved, MUST be 0x00
@@ -295,7 +305,10 @@ def build_network(title, nodes, edges, refs=(), tone=TONE_REVERENCE):
             raise ValueError(f"node {i}: name encodes to {len(nb)} bytes; max 255")
         body += bytes([len(nb)]) + nb
 
-        # more list (vkind-locked to text + ref, like etymology)
+        # more list — the builder's vkind-lock is gone (§7.5): dates emit as
+        # v2 9-byte precision values (a float = precision unspecified, a dict
+        # {'jd': float, 'precision': name} carries granularity); legality per
+        # atom is the shared codec's check, not a local whitelist
         more = []
         for key in _TEXT_KEYS:
             val = n.get(key)
@@ -306,13 +319,8 @@ def build_network(title, nodes, edges, refs=(), tone=TONE_REVERENCE):
             if len(txid) != 32:
                 raise ValueError(f"node {i}: ref {key!r} must cite a 32-byte txid")
             more.append((key, VAR_REF, bytes(txid)))
-        for key, jd in n.get("dates", ()):
-            more.append((key, VAR_DATE, float(jd)))    # lock lifted (§7.5):
-        for (k, vk, _v) in more:                       # network nodes are earthly
-            if vk not in (VAR_TEXT, VAR_REF, VAR_DATE):
-                raise ValueError(
-                    f"node {i}: network key {k!r} may only use vkind 0x00 (text), "
-                    f"0x01 (ref), or 0x02 (date); got {vk:#04x}")
+        for key, date in n.get("dates", ()):
+            more.append((key, VAR_DATE, date))
         more_bytes = _emit_more(more, i)
         body += struct.pack(">H", len(more_bytes)) + more_bytes
 
@@ -365,7 +373,8 @@ def read_network_quipu(hdr, body):
 
     Mirrors read_etymology_quipu with the 10-byte typed edge stride and the
     per-node ntype/lat/lng fields. Offsets 7,8 (grouped/meta) are RESERVED and
-    asserted 0x00; the reader NEVER branches on them or on ntype. Returns:
+    asserted 0x00. ntype is validated against the closed v2 enum but never
+    branched on (pure semantics/styling). Returns:
       {title, K, kind:'network', nodes:[...], people:<alias>, refs, edges, lines}.
     `edges` are 5-tuples (parent, child, etype_int, flags_int, weight_or_None);
     `lines` are 2-tuples (parent, child) with the rest stripped, for layout reuse.
@@ -373,10 +382,22 @@ def read_network_quipu(hdr, body):
     blob = hdr + body
     if len(blob) < 9:
         raise ValueError("network: blob shorter than the 9-byte header")
-    if blob[4] != TYPE_CELESTIAL:
-        raise ValueError(f"network: type byte {blob[4]:#04x} != 0xCE")
+    version, type_byte, _tone = parse_envelope(blob[:6])
+    if type_byte != TYPE_CELESTIAL:
+        raise ValueError(f"network: type byte {type_byte:#04x} != 0xCE")
     if blob[6] != KIND_NETWORK:                       # load-bearing route guard
         raise ValueError(f"network: kind byte {blob[6]:#04x} != 0x05")
+    # Version dispatch (c1dd0002 §7.2). Network entered the law at v2; no v1
+    # network was ever legislated or inscribed, so a v1 stamp is refused
+    # honestly rather than parsed under a grammar that never existed.
+    if version == VERSION_V1:
+        raise ValueError(
+            "network: kind 0x05 entered the law at v2 (c1dd0002) — no v1 "
+            "network was ever legislated or inscribed; refusing to guess")
+    if version != VERSION_V2:
+        raise ValueError(
+            f"network: unknown version {version:#06x}; this reader implements "
+            f"v2 only — refusing to guess a body it does not know")
     if blob[7] != 0x00 or blob[8] != 0x00:
         raise ValueError(
             f"network: reserved header bytes 7,8 must be 0x00, "
@@ -390,6 +411,10 @@ def read_network_quipu(hdr, body):
     nodes = []
     for _ in range(K):
         ntype = blob[o]; o += 1
+        if ntype not in NTYPE_BYTE_TO_NAME:           # closed enum (registry v2)
+            raise ValueError(
+                f"network: node ntype {ntype:#04x} not in the closed v2 enum "
+                f"(0x00 place · 0x01 agent · 0x02 relay · 0x03 resource)")
         lat = struct.unpack(">f", blob[o:o + 4])[0]; o += 4
         lng = struct.unpack(">f", blob[o:o + 4])[0]; o += 4
         born = struct.unpack(">f", blob[o:o + 4])[0]; o += 4
@@ -414,6 +439,7 @@ def read_network_quipu(hdr, body):
             "region": _txt("region"),
             "modern": _txt("modern"),
             "refs": [(k, v) for (k, vk, v) in more if vk == VAR_REF],
+            "dates": [(k, v) for (k, vk, v) in more if vk == VAR_DATE],
         })
 
     refs = []
@@ -431,6 +457,10 @@ def read_network_quipu(hdr, body):
         o += 10
         edges.append((a, c, et, fl, _f32_or_none(w)))
         lines.append((a, c))                            # stripped -> 2-tuple for layout reuse
+    if o != len(blob):
+        raise ValueError(
+            f"network: {len(blob) - o} trailing bytes after the edge block — "
+            f"a partial edge is malformed, refusing to drop it")
 
     return {
         "title": title,
@@ -468,10 +498,12 @@ def _worked_example():
         # 1: Tomebamba — northern Inca capital
         {"name": "Tomebamba", "ntype": "place", "lat": -2.9006, "lng": -79.0045,
          "born": 1471, "died": None, "region": "Chinchaysuyu", "modern": "Cuenca, Ecuador"},
-        # 2: Cajamarca — where Atahualpa was seized, 1532
+        # 2: Cajamarca — where Atahualpa was seized, 1532; carries a v2 date
+        # var (jd = 1532-11-15 noon Julian, month precision — the seizure month)
         {"name": "Cajamarca", "ntype": "place", "lat": -7.1638, "lng": -78.5003,
          "born": 1456, "died": None, "region": "Chinchaysuyu", "modern": "Cajamarca, Peru",
-         "note": "Atahualpa seized here, Nov 1532"},
+         "note": "Atahualpa seized here, Nov 1532",
+         "dates": [("seized", {"jd": 2280940.0, "precision": "month"})]},
         # 3: Huanuco Pampa — highland administrative center + qollqa storehouses
         {"name": "Huanuco Pampa", "ntype": "place", "lat": -9.8626, "lng": -76.7370,
          "born": 1460, "died": None, "region": "Chinchaysuyu", "modern": "Huanuco, Peru"},
@@ -590,6 +622,44 @@ if __name__ == "__main__":
     assert ntype_name(NTYPE_PLACE) == "place"
     assert etype_name(ETYPE_RELAY) == "relay"
     assert etype_name(0x7f) == "unknown_0x7f"
+
+    # ---- v2 grammar assertions -------------------------------------------
+    # the envelope is v2 (network's first and only standard)
+    assert hdr[:4] == b"\xc1\xdd\x00\x02", hdr[:4].hex()
+    # the v2 date var round-trips with its precision (9-byte wire)
+    n2 = d["nodes"][2]
+    assert n2["dates"] == [("seized", {"jd": 2280940.0, "precision": "month"})], n2["dates"]
+    # a v1-stamped kind-0x05 blob is refused honestly (never legislated)
+    try:
+        read_network(b"\xc1\xdd\x00\x01" + blob[4:])
+    except ValueError as e:
+        assert "entered the law at v2" in str(e), e
+    else:
+        raise AssertionError("v1-stamped network blob did not raise")
+    # the ntype enum is closed at four: 0x04 (the struck NTYPE_UNCERTAIN)
+    # raises at build and at read
+    try:
+        build_network("x", [{"name": "n", "ntype": "uncertain"}], [])
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("ntype 'uncertain' built — the enum must be closed")
+    bad_hdr, bad_body = build_network("x", [{"name": "n"}], [])
+    assert bad_body[3 + 1] == NTYPE_PLACE  # K:2 + T:1 + title 'x':1 -> ntype
+    patched = bytearray(bad_body); patched[4] = 0x04
+    try:
+        read_network_quipu(bad_hdr, bytes(patched))
+    except ValueError as e:
+        assert "closed v2 enum" in str(e), e
+    else:
+        raise AssertionError("ntype 0x04 read — the enum must be closed")
+    # a partial trailing edge is malformed, never silently dropped
+    try:
+        read_network(blob + b"\x00\x01")
+    except ValueError as e:
+        assert "trailing" in str(e), e
+    else:
+        raise AssertionError("trailing edge bytes silently dropped")
 
     print()
     print("title  :", d["title"])
