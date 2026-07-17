@@ -534,6 +534,12 @@ def read_cert(header_bytes, body_bytes):
         hash    (0x0001): 'hash_algo', 'hash_hex'
         allinone(0x0002): 'title'
     """
+    # Split-agnostic: quipuread hands over header = strand 0 whole (up to
+    # 80 B, carrying the body's head), while tests pass the exact 8-byte
+    # cert header. Join and re-split at the structural boundary so both
+    # callers read the same certificate.
+    _blob = bytes(header_bytes) + bytes(body_bytes)
+    header_bytes, body_bytes = _blob[:8], _blob[8:]
     if header_bytes[:4] != b"\xc1\xdd\x00\x01":
         raise ValueError("not a quipu (c1dd0001 magic missing)")
     if len(header_bytes) < 8:
