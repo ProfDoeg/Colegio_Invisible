@@ -231,6 +231,16 @@ def check_decodes(bodies_by_pid):
     failures = []
     for pid, blob in bodies_by_pid.items():
         try:
+            # The estandarte rides the version-aware envelope (2-byte magic
+            # c1dd; bytes 2-3 are the version, so the constitution is
+            # c1dd0000 — the literal-0001 check below would reject it).
+            # Flat 6-byte header, no split needed; the inscription-form
+            # gate also runs: legislation must ride the constitution
+            # (docs/design/healing.md).
+            if len(blob) >= 6 and blob[:2] == b"\xc1\xdd" and blob[4] == 0xEE:
+                import registry_v1
+                registry_v1.preflight_inscription_form(blob[:6], blob[6:])
+                continue
             if blob[:4] != b"\xc1\xdd\x00\x01":
                 raise ValueError("magic missing")
             t = blob[4]
@@ -241,6 +251,68 @@ def check_decodes(bodies_by_pid):
             getattr(importlib.import_module(mod), fn)(header, body)
         except Exception as e:                  # noqa: BLE001
             failures.append("%s: body does not decode: %s" % (pid, e))
+    return failures
+
+
+def check_ripcord(parent_root_tx, parent_n_strands,
+                  successor_root_tx, successor_n_strands,
+                  successor_blob=None):
+    """The two-pointer ripcord gate (docs/design/healing.md; the ripcord
+    convention in the constitutional estandarte): a successor registry's
+    root must consume its parent's amendment cord, and thread and text
+    must agree. Engine convention: tags sit at vout = n_strands + k, so
+    the ripcord — the FIRST non-strand output — is vout n_strands.
+
+    parent_root_tx / successor_root_tx   raw hex or deserialized dict
+    parent_n_strands / successor_n_strands   strand counts (index.json)
+    successor_blob   optional header+body bytes: parses as an estandarte
+                     (inscription form: legislation rides the constitution)
+                     and its parent_txid must name the parent root.
+
+    Returns failure strings; empty list = the cord may be pulled."""
+    from cryptos import serialize as _ser, deserialize as _deser
+    from colegio_tools import _txid_of_serial
+    failures = []
+    parent = _deser(parent_root_tx) if isinstance(parent_root_tx, str) else parent_root_tx
+    succ = _deser(successor_root_tx) if isinstance(successor_root_tx, str) else successor_root_tx
+    parent_txid = _txid_of_serial(_ser(parent))
+
+    if len(parent["outs"]) <= parent_n_strands:
+        failures.append("parent root has no cord: %d outputs, %d strands — "
+                        "the ripcord must be output %d"
+                        % (len(parent["outs"]), parent_n_strands, parent_n_strands))
+    if any(o.get("script", "").startswith("6a") for o in succ.get("outs", [])):
+        failures.append("successor root carries an OP_RETURN — a cord spend "
+                        "is an act, not writing; roots never carry payload")
+    if not succ.get("ins"):
+        failures.append("successor root has no inputs")
+    else:
+        in0 = succ["ins"][0]
+        spent = (in0.get("tx_hash"), in0.get("tx_pos"))
+        if spent != (parent_txid, parent_n_strands):
+            failures.append("successor input 0 spends %s:%s, not the parent's "
+                            "cord %s:%d — the thread must be input 0"
+                            % (str(spent[0])[:12], spent[1],
+                               parent_txid[:12], parent_n_strands))
+    if len(succ.get("outs", [])) <= successor_n_strands:
+        failures.append("successor root emits no fresh cord: %d outputs, %d "
+                        "strands — every registry root must re-arm the ripcord"
+                        % (len(succ.get("outs", [])), successor_n_strands))
+
+    if successor_blob is not None:
+        import registry_v1
+        try:
+            parsed = registry_v1.preflight_inscription_form(
+                successor_blob[:6], successor_blob[6:])
+        except Exception as e:                      # noqa: BLE001
+            failures.append("successor blob fails inscription form: %s" % e)
+        else:
+            if parsed["parent_txid"] != parent_txid:
+                failures.append("thread/text disagree: cord spent from %s… but "
+                                "body parent_txid = %s… — the two pointers "
+                                "must name the same root"
+                                % (parent_txid[:12],
+                                   str(parsed["parent_txid"])[:12]))
     return failures
 
 

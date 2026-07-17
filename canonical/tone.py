@@ -2,7 +2,7 @@
 
 Every Colegio Invisible quipu carries a tone byte at header offset 5,
 recording the emotional / classificatory register of the inscribed
-content. Thirteen values are recognized in v1:
+content. Fourteen values are recognized:
 
   0x00  ordinary           descriptive, neutral, the default
 
@@ -32,6 +32,10 @@ content. Thirteen values are recognized in v1:
                    future reader, trusting it will be followed:
                    corrections, healings, editions, invitations.
                    Coined 2026-06-10 for the first correction catalog.
+  0xee  sovereign  the constitutional register: the estandarte and its
+                   acts. Tone and type share the byte — the registry
+                   speaking in its own name. Coined 2026-07-17 for the
+                   constitution (c1dd0000·ee·ee).
   0xff  reverence  the dead, ancestors, formal commemoration
 
 Every canonical/* type module imports TONES + validate_tone from this
@@ -59,6 +63,7 @@ TONE_DEMONIC   = 0x0D
 TONE_NATURE    = 0x6E      # naturaleza ('n')
 TONE_AI        = 0xA1
 TONE_HOPE      = 0xE5      # esperanza
+TONE_SOVEREIGN = 0xEE      # the constitutional register (c1dd0000·ee·ee)
 TONE_REVERENCE = 0xFF
 
 # Canonical value → name map. This is THE dictionary; everything else
@@ -76,6 +81,7 @@ TONES = {
     TONE_NATURE:    "nature",
     TONE_AI:        "ai",
     TONE_HOPE:      "hope",
+    TONE_SOVEREIGN: "sovereign",
     TONE_REVERENCE: "reverence",
 }
 
@@ -136,6 +142,7 @@ def _selftest():
     assert TONE_DEMONIC   == 0x0D
     assert TONE_NATURE    == 0x6E
     assert TONE_AI        == 0xA1
+    assert TONE_SOVEREIGN == 0xEE
     assert TONE_REVERENCE == 0xFF
 
     # Forward map
@@ -151,12 +158,14 @@ def _selftest():
     assert TONES[0x6e] == "nature"
     assert TONES[0xa1] == "ai"
     assert TONES[0xe5] == "hope"
+    assert TONES[0xee] == "sovereign"
     assert TONES[0xff] == "reverence"
-    assert len(TONES) == 13
+    assert len(TONES) == 14
 
     # VALID_TONES contains the right bytes
     assert VALID_TONES == frozenset({0x00, 0x01, 0x02, 0x03, 0x04, 0x05,
-                                     0x06, 0x07, 0x0d, 0x6e, 0xa1, 0xe5, 0xff})
+                                     0x06, 0x07, 0x0d, 0x6e, 0xa1, 0xe5,
+                                     0xee, 0xff})
     assert 0x42 not in VALID_TONES
 
     # The affective family is exactly 0x01–0x07
@@ -194,7 +203,8 @@ def _selftest():
     assert name(0xfe) == "unknown_0xfe"
 
     assert name(0x6e) == "nature"
-    print("  ✓ 13 tones, affective family 0x01–0x07, TONES/VALID_TONES/validate/name/reverse")
+    assert name(0xee) == "sovereign"
+    print("  ✓ 14 tones, affective family 0x01–0x07, TONES/VALID_TONES/validate/name/reverse")
 
 
 if __name__ == "__main__":

@@ -11,11 +11,14 @@ An *Estandarte* ("banner / standard") is a single inscription that
 catalogs every protocol type byte in use, along with each type's
 named enum dimensions, single-bit flags, and a status (canonical /
 proposed / draft / deprecated). It also catalogs cross-cutting
-conventions. The v1 draft carries seven: the magic prefix, the tone
+conventions. The founding set carries nine: the magic prefix, the tone
 vocabulary, the diamond shape, the **assembly** rule (how strand
-payloads concatenate back into one inscription), citation by root
-txid, the consolidated-diamond forest, and the pre-canonical errata
-clause covering inscriptions that predate the registry.
+payloads concatenate back into one inscription), the **tag** primitive
+(auxiliary root outputs whose spend carries no OP_RETURN), the
+**ripcord** (the amendment cord: succession unique by double-spend),
+citation by root txid, the consolidated-diamond forest, and the
+pre-canonical errata clause covering inscriptions that predate the
+registry.
 
 Once inscribed, an Estandarte makes the protocol *referenceable on
 chain*. Future quipus can cite it as the standard they conform to.
@@ -88,10 +91,11 @@ zero, one, or many dimensions:
 | `0x00` text | canonical | (none — only header fields are magic/type/tone/title) |
 | `0x01` essay | canonical | (none) |
 | `0x03` image | canonical | `color` (`grayscale`/`rgb`/`gray_alpha`/`rgba`), `bit_depth` |
-| `0x07` voice | draft | (none — STFT codec sketch, no inscriptions) |
+| `0x07` sound | canonical | `codec` (`stft`/`lpc`/`codec2`/`opus`/`mp3`/`wav`/`flac`/`music`) |
 | `0x09` book | canonical | (none) |
 | `0x0c` cert-precursor | deprecated | (none — superseded by `0xcc`; one inscription, kept readable) |
 | `0x0e` encrypted | canonical | `sub_family` (`aes`/`ecies`/`drop`/`centinela`/`cb-sale`/`shamir`), `variant` |
+| `0x0f` file | canonical | (none — generic binary container; sha256 flag-gated) |
 | `0x1d` identity | draft | (none — JSON body; one pre-canonical inscription) |
 | `0x3d` scene | canonical | (none) |
 | `0x5c` latex | canonical | (none) |
@@ -173,11 +177,17 @@ print(f"merged types: {len(result['types'])}")
 
 ## Inscription path
 
-An Estandarte is inscribed as a single diamond. The v1 draft (15 type
-entries — twelve canonical, two draft, one deprecated — plus seven
-cross-cutting conventions) encodes to ~5.3 KB: 66 knots, well within
-a 5-strand diamond's capacity (5 strands × ≤25 knots × 80 bytes/knot
-= ~10 KB).
+An Estandarte is inscribed as a single diamond — and since the
+constitution/legislation split there are two of them: the constitution
+`c1dd0000ee` (the `0xee` self-entry + the nine cross-cutting
+conventions, ~2.7 KB, reverence tone, its ripcord armed) inscribed
+first, then the v1
+registry `c1dd0001ee` (15 type entries — thirteen canonical, one draft,
+one deprecated; conventions inherited, ~4.0 KB with its parent prefix,
+ordinary tone) inscribed as an amendment whose `parent_txid` is the
+constitution's root. `registry_v1.preflight_inscription_form` refuses
+the parentless form. Both fit comfortably in small diamonds
+(≤25 knots × 80 bytes/knot per strand).
 
 The Estandarte is the **last** thing inscribed in a protocol freeze.
 Inscribing it before all its referenced types are stable would

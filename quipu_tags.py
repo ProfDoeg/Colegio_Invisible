@@ -52,7 +52,13 @@ def _has_op_return(tx):
 
 
 def classify_root_outputs(root_tx, spend_of, get_tx):
-    """Classify every output of a quipu's root as strand / tag / change.
+    """Classify every output of a quipu's root as strand or tag.
+
+    (Honesty note: there is no separate "change" kind — an output spent
+    without an OP_RETURN reads as a SPENT tag. The diamond engine's roots
+    emit no change output, so in-engine this ambiguity never arises;
+    against foreign roots, treat spent "tags" with ordinary P2PKH scripts
+    with suspicion.)
 
     root_tx   deserialized root transaction (dict with "outs"), or raw hex
     spend_of  callable(txid, vout) -> spending txid or None (None = unspent)
@@ -134,6 +140,62 @@ def follow_thread(root_tx, spend_of, get_tx, max_hops=256):
         hops.append({"outpoint": "%s:%d" % (stxid, cont),
                      "value": stx["outs"][cont]["value"],
                      "spent_by": spend_of(stxid, cont)})
+    return hops
+
+
+def follow_ripcord(root_tx, spend_of, get_tx, max_hops=64):
+    """Follow an estandarte's RIPCORD — the amendment cord — root to root.
+
+    The ripcord convention (declared in the constitutional estandarte,
+    canonical/estandarte._example_registry): each registry root's FIRST
+    non-strand output is its amendment cord, encumbered to the then-current
+    authority; the successor registry's root spends it, so succession is
+    unique by the ledger's double-spend rule; the spending transaction is
+    itself the next root (roots carry no OP_RETURN, so the spend reads as a
+    tag event, never as strand weaving).
+
+    This walk is ROOT-TO-ROOT and script-free: each hop re-identifies the
+    cord structurally on the successor root (first non-strand output via
+    classify_root_outputs). follow_thread's script-equality convention is
+    deliberately NOT used — succession re-encumbers the cord to new keys,
+    which would break a same-scriptPubKey walk at exactly the moment that
+    matters most.
+
+    Returns the hop list, one entry per registry root:
+      {"root_txid", "cord_outpoint": "txid:vout"|None, "cord_value",
+       "spent_by": txid|None}
+    ending at an intact cord (spent_by None — that root is the current
+    leaf) or at a cordless root (cord_outpoint None — the thread ends).
+    Semantic verification (the spender parses as an estandarte, versions
+    are monotone, parent_txid names the root whose cord it spent) is the
+    caller's job — quipu_preflight.check_ripcord gates it at ceremony.
+
+    Precondition: identification-by-absence assumes a COMPLETE inscription
+    (join confirmed). On an incomplete diamond a stalled, never-woven
+    strand seed reads as unspent and would be mistaken for the cord.
+    A crafted index can also loop the walk; it truncates silently at
+    max_hops (a third terminal state — impossible on chain, where no tx
+    can spend an output of a later tx).
+    """
+    hops = []
+    current = root_tx
+    while len(hops) < max_hops:
+        if isinstance(current, str):
+            current = cs_deserialize(current)
+        txid = _txid_of_serial(cs_serialize(current))
+        tags = find_tags(current, spend_of, get_tx)
+        if not tags:
+            hops.append({"root_txid": txid, "cord_outpoint": None,
+                         "cord_value": None, "spent_by": None})
+            break                                   # cordless root: thread ends
+        cord = tags[0]                              # the ripcord: FIRST non-strand output
+        hops.append({"root_txid": txid,
+                     "cord_outpoint": "%s:%d" % (txid, cord["vout"]),
+                     "cord_value": cord["value"],
+                     "spent_by": cord["spent_by"]})
+        if cord["spent_by"] is None:
+            break                                   # intact cord: current leaf
+        current = get_tx(cord["spent_by"])          # the spend IS the next root
     return hops
 
 

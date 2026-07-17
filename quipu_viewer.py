@@ -1165,6 +1165,7 @@ def render_content_html(q: pd.Series, blob: bytes, df_all: pd.DataFrame) -> str:
                 ) + body_html
     elif t == "estandarte":
         try:
+            sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "canonical"))
             from estandarte import read_estandarte_quipu, format_estandarte
             parsed = read_estandarte_quipu(blob[:6], blob[6:])
             body_html = (

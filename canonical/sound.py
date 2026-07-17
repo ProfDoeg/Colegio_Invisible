@@ -51,8 +51,9 @@ CODEC enum
                 codec_meta = n_frames:u16 + g_min:f32 + g_max:f32   (10 B)
     0x01 lpc    quipu LPC-10 vocoder (speech)
                 codec_meta = n_frames:u16                            (2 B)
-    0x02 codec2 Codec2-700C (speech, needs libcodec2)
-                codec_meta = n_frames:u16                            (2 B)
+    0x02 codec2 Codec2 (speech, needs libcodec2; mode carried in meta)
+                codec_meta = mode:u16 + n_frames:u32                 (6 B)
+                (the chosen inscription mode is 3200 — voice_codec.py)
     0x10 opus   opaque ogg/opus bytes                  codec_meta = b''
     0x11 mp3    opaque                                 codec_meta = b''
     0x12 wav    opaque WAV/PCM                          codec_meta = b''
@@ -102,7 +103,7 @@ _MAGIC = b"\xc1\xdd\x00\x01"
 # voice_codec.py):
 CODEC_STFT   = 0x00   # band-limited 8-bit STFT-magnitude vocoder
 CODEC_LPC    = 0x01   # LPC-10-style vocoder
-CODEC_CODEC2 = 0x02   # Codec2-700C (needs libcodec2)
+CODEC_CODEC2 = 0x02   # Codec2, mode in codec_meta — default 3200 (needs libcodec2)
 # Opaque standard formats (the body is a real container/bitstream a
 # browser or audio library decodes directly; codec_meta is empty):
 CODEC_OPUS   = 0x10   # ogg/opus
@@ -181,8 +182,9 @@ def unpack_stft_meta(codec_meta):
 
 
 def pack_frames_meta(n_frames):
-    """Pack the LPC / Codec2 codec_meta: just n_frames:u16 = 2 bytes,
-    big-endian ('>H')."""
+    """Pack the LPC codec_meta: just n_frames:u16 = 2 bytes, big-endian
+    ('>H'). (Codec2's encoder packs its own richer meta — mode:u16 +
+    n_frames:u32 — in voice_codec.py; the container is meta-agnostic.)"""
     if not (0 <= int(n_frames) <= 0xFFFF):
         raise ValueError(f"n_frames must fit in u16 [0, 65535]; got {n_frames}")
     return struct.pack(">H", int(n_frames))
@@ -448,7 +450,9 @@ def _selftest_stft_meta():
 
 
 def _selftest_frames_meta():
-    # 0x01 lpc / 0x02 codec2 with a 2-byte codec_meta.
+    # 0x01 lpc / 0x02 codec2 through the generic container (2-byte meta
+    # here; codec2's real encoder packs mode:u16+n_frames:u32 — the
+    # container is meta-agnostic either way).
     for codec, name in ((CODEC_LPC, "lpc"), (CODEC_CODEC2, "codec2")):
         n_frames = 200
         meta = pack_frames_meta(n_frames)

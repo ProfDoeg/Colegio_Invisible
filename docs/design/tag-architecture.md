@@ -1,9 +1,20 @@
 # Tag architecture — auxiliary outputs on the quipu
 
-> **STATUS: DESIGN.** Not yet implemented. Conceived in conversation
-> between Anthony and El Gólem on 2026-06-08, the day the first verified-
-> key sale closed on chain. Captured here so the architecture survives
-> compaction. To be developed on the `tag-architecture` branch.
+> **STATUS: PARTIALLY BUILT** (see "What needs to be built": items 1 and 3
+> ✅ 2026-06-10, items 2 and 4 partial; nothing tag-bearing inscribed yet).
+> Conceived in conversation between Anthony and El Gólem on 2026-06-08,
+> the day the first verified-key sale closed on chain. Captured here so
+> the architecture survives compaction.
+>
+> **2026-07-12 — the ripcord.** The constitutional estandarte adopts a tag
+> as its amendment mechanism: each registry root's first non-strand output
+> is its *ripcord*, encumbered to the ACH authority; the successor
+> registry's root spends it, making succession unique by the double-spend
+> rule. Declared in the constitution's own conventions
+> (`canonical/estandarte.py` `_example_registry`), walked by
+> `quipu_tags.follow_ripcord` (root-to-root, script-free — succession-proof
+> where `follow_thread`'s script-equality walk would break), gated at
+> ceremony by `quipu_preflight.check_ripcord`.
 
 ## The textile image
 

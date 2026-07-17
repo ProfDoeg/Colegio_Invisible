@@ -3,17 +3,20 @@ estandarte.py — Estandarte (type 0xee): the protocol's own registry.
 
 Estandarte is the constitutional quipu that documents the Quipu Protocol's
 own type-byte vocabulary. It is self-referential — type 0xee documents 0xee
-itself among the other types — and is meant to be inscribed under La Verna's
-root as the canonical protocol manifest. Every other quipu marches under its
-banner.
+itself among the other types — and is meant to be inscribed under the ACH
+root — the 3-of-3 multisig of Anthony, Christophia, and Hayagriva, the
+protocol's certificate authority — as the canonical protocol manifest. Every
+other quipu marches under its banner.
 
 Wire format
 -----------
 
-HEADER (6 bytes flat):
-    c1dd 0001 ee <tone>
-        0xee = type byte (Estandarte)
-        tone = 0x00 ordinary, 0x0d demonic, 0xff reverence
+HEADER (6 bytes flat — the envelope, envelope.py):
+    c1dd <version:u16-BE> ee <tone>
+        version = 0x0000 constitution, 0x0001 v1
+        0xee    = type byte (Estandarte)
+        tone    = 0x00 ordinary, 0xee sovereign (the constitution),
+                  0x0d demonic, 0xff reverence
 
 BODY:
     <parent_kind:1>                  0x00 = root, 0x01 = amendment
@@ -29,10 +32,12 @@ BODY:
         <dim_count:1>                named enum dimensions in the type's header
         for each dimension:
             <dim_name_len:1>  <dim_name>   e.g. "color", "bit_depth", "sub_family"
-            <dim_desc_len:1>  <dim_desc>   one-line description of what the byte means
+            <dim_desc_len:1>  <dim_desc>   one-line description of what the field means
+            <vkind:1>                      the dimension's wire atom (atoms.py;
+                                           u8/u16/u32 legal here) — width stated as data
             <value_count:1>                count of named values in this dimension
             for each value:
-                <value:1>
+                <value:width(vkind)>       big-endian at the atom's width
                 <name_len:1> <name>
                 <desc_len:1> <desc>
         <flag_count:1>               independent single-bit flags
@@ -46,17 +51,16 @@ BODY:
         <syntax_len:1> <syntax>
         <desc_len:1> <desc>
 
-A "dimension" is a single byte field within the type's header whose
-value is drawn from a named enumeration. Types may have zero, one, or
-many dimensions:
+A "dimension" is an unsigned field within the type's header whose value
+is drawn from a named enumeration; its wire width is its vkind atom's
+width (u8 unless declared otherwise). Types may have zero, one, or many
+dimensions:
     0x00 text       — zero dimensions (tone is a cross-type field)
-    0x03 image      — two dimensions: color, bit_depth
-    0xcc cert       — one dimension: subtype (2 bytes; encoded as
-                        subtype_hi+subtype_lo, documented as one
-                        16-bit dimension or two 8-bit dimensions
-                        depending on the type's spec)
-    0x0e encrypted  — two dimensions: sub_family, variant
-    0xce celestial  — three dimensions: kind, grouped, meta
+    0x03 image      — two u8 dimensions: color, bit_depth
+    0xcc cert       — one u16 dimension: subtype (big-endian, one 16-bit
+                        dimension — the vkind states the width as data)
+    0x0e encrypted  — two u8 dimensions: sub_family, variant
+    0xce celestial  — three u8 dimensions: kind, grouped, meta
 
 Amendment chain resolution
 --------------------------
@@ -84,9 +88,18 @@ from tone import (
     TONES, VALID_TONES, validate_tone,
     TONE_ORDINARY, TONE_AFFECTION, TONE_DEMONIC, TONE_AI, TONE_REVERENCE,
 )
+from envelope import build_envelope, parse_envelope, VERSION_CONSTITUTION, VERSION_V1
+from atoms import ATOM_U8, ATOM_U16, UINT_ATOMS, fixed_width, atom_name
 _VALID_TONES = VALID_TONES  # backward-compat alias
 
 TYPE_ESTANDARTE = 0xEE
+
+# Versions whose estandarte body this reader actually implements. A version
+# outside this set is refused, not guessed (c1dd0002 §5 honest failure): the
+# body format is identical across these today, but silently parsing a future
+# version's body as this shape is exactly the mis-parse dispatch (v0.2) exists
+# to prevent. Grow this set only when a version's body format is implemented.
+KNOWN_ESTANDARTE_VERSIONS = frozenset({VERSION_CONSTITUTION, VERSION_V1})
 
 
 def _len_prefixed(s):
@@ -97,7 +110,8 @@ def _len_prefixed(s):
     return bytes([len(b)]) + b
 
 
-def build_estandarte_quipu(types, conventions, tone=TONE_ORDINARY, parent_txid=None):
+def build_estandarte_quipu(types, conventions, tone=TONE_ORDINARY, parent_txid=None,
+                           version=VERSION_V1):
     """Build an Estandarte (0xee) protocol-registry quipu.
 
     Args:
@@ -123,6 +137,9 @@ def build_estandarte_quipu(types, conventions, tone=TONE_ORDINARY, parent_txid=N
         parent_txid: optional 64-char hex string of parent Estandarte's join
             transaction. If given, this inscription is an *amendment* — its
             entries layer on top of the parent's via the chain resolver.
+        version: protocol version stamped into the envelope (bytes 2..3,
+            u16-BE). Defaults to v1; the constitution passes version 0. The
+            body format is identical across versions at this skeleton stage.
 
     Returns:
         (header_bytes, body_bytes) tuple.
@@ -132,8 +149,19 @@ def build_estandarte_quipu(types, conventions, tone=TONE_ORDINARY, parent_txid=N
         raise ValueError(f"max 255 type entries (got {len(types)})")
     if len(conventions) > 255:
         raise ValueError(f"max 255 conventions (got {len(conventions)})")
+    # Registry keys must be unique within one blob: composition is keyed
+    # leaf-wins ACROSS amendments; within-blob precedence is undefined, so
+    # a duplicate here could only ever be a silent authoring error.
+    seen_bytes = [t['byte'] for t in types]
+    if len(set(seen_bytes)) != len(seen_bytes):
+        dupes = sorted({b for b in seen_bytes if seen_bytes.count(b) > 1})
+        raise ValueError(f"duplicate type byte(s) in one estandarte: {[hex(b) for b in dupes]}")
+    seen_names = [c['name'] for c in conventions]
+    if len(set(seen_names)) != len(seen_names):
+        dupes = sorted({n for n in seen_names if seen_names.count(n) > 1})
+        raise ValueError(f"duplicate convention name(s) in one estandarte: {dupes}")
 
-    header = b"\xc1\xdd\x00\x01" + bytes([TYPE_ESTANDARTE]) + bytes([tone])
+    header = build_envelope(version, TYPE_ESTANDARTE, tone)
 
     # Amendment-or-root prefix
     if parent_txid is None:
@@ -165,13 +193,22 @@ def build_estandarte_quipu(types, conventions, tone=TONE_ORDINARY, parent_txid=N
         for di, dim in enumerate(dimensions):
             if len(dim['values']) > 255:
                 raise ValueError(f"type {ti} dimension {di} has > 255 values")
+            vkind = dim.get('vkind', ATOM_U8)
+            if vkind not in UINT_ATOMS:
+                raise ValueError(
+                    f"type {ti} dimension {di} vkind {atom_name(vkind)} not legal "
+                    f"(dimensions range over unsigned atoms: u8/u16/u32)")
+            width = fixed_width(vkind)
             body += _len_prefixed(dim['name'])
             body += _len_prefixed(dim['desc'])
+            body += bytes([vkind])
             body += bytes([len(dim['values'])])
             for v in dim['values']:
-                if not (0 <= v['value'] <= 255):
-                    raise ValueError(f"type {ti} dim {di} value {v['value']!r} out of range")
-                body += bytes([v['value']])
+                if not (0 <= v['value'] < 1 << (8 * width)):
+                    raise ValueError(
+                        f"type {ti} dim {di} value {v['value']!r} out of range "
+                        f"for {atom_name(vkind)}")
+                body += v['value'].to_bytes(width, 'big')
                 body += _len_prefixed(v['name'])
                 body += _len_prefixed(v['desc'])
         body += bytes([len(t['flags'])])
@@ -192,16 +229,24 @@ def build_estandarte_quipu(types, conventions, tone=TONE_ORDINARY, parent_txid=N
 
 
 def read_estandarte_quipu(header_bytes, body_bytes):
-    """Parse an Estandarte (0xee) quipu's bytes."""
-    if header_bytes[:4] != b"\xc1\xdd\x00\x01":
-        raise ValueError("not a quipu (c1dd0001 magic missing)")
-    if header_bytes[4] != TYPE_ESTANDARTE:
+    """Parse an Estandarte (0xee) quipu's bytes.
+
+    The envelope is parsed version-agnostically (magic c1dd + u16-BE
+    version) so every version's estandarte — including the constitution
+    (v0) — is readable; the version is returned for a dispatcher to act on.
+    The body format is unchanged across versions at this skeleton stage.
+    """
+    version, type_byte, tone = parse_envelope(header_bytes)
+    if type_byte != TYPE_ESTANDARTE:
         raise ValueError(
-            f"not an Estandarte (type byte = {header_bytes[4]:#04x}, expected 0xee)"
+            f"not an Estandarte (type byte = {type_byte:#04x}, expected 0xee)"
         )
-    if len(header_bytes) < 6:
-        raise ValueError(f"header too short: {len(header_bytes)} (need ≥ 6)")
-    tone = header_bytes[5]
+    if version not in KNOWN_ESTANDARTE_VERSIONS:
+        raise ValueError(
+            f"unknown estandarte version {version:#06x}; this reader implements "
+            f"{sorted(KNOWN_ESTANDARTE_VERSIONS)} — refusing to guess a body it "
+            f"does not know (version dispatch is v0.2 work)"
+        )
 
     p = 0
     def read_byte():
@@ -237,19 +282,30 @@ def read_estandarte_quipu(header_bytes, body_bytes):
         name = read_str()
         desc = read_str()
         status = read_byte()
+        if status not in (0, 1, 2, 3):
+            raise ValueError(
+                f"type {type_byte:#04x} status {status:#04x} not in 0..3 — "
+                f"status gates resolver behavior, an unknown value is malformed")
         dimensions = []
         dc = read_byte()
         for _ in range(dc):
             dim_name = read_str()
             dim_desc = read_str()
+            vkind = read_byte()
+            if vkind not in UINT_ATOMS:
+                raise ValueError(
+                    f"dimension {dim_name!r} vkind {vkind:#04x} not a legal "
+                    f"dimension atom (u8/u16/u32) — width unknown, refusing to guess")
+            width = fixed_width(vkind)
             vc = read_byte()
             values = []
             for _ in range(vc):
-                v = read_byte()
+                v = int.from_bytes(read_raw(width), 'big')
                 vn = read_str()
                 vd = read_str()
                 values.append({'value': v, 'name': vn, 'desc': vd})
-            dimensions.append({'name': dim_name, 'desc': dim_desc, 'values': values})
+            dimensions.append({'name': dim_name, 'desc': dim_desc,
+                               'vkind': vkind, 'values': values})
         flags = []
         fc = read_byte()
         for _ in range(fc):
@@ -270,7 +326,18 @@ def read_estandarte_quipu(header_bytes, body_bytes):
         d = read_str()
         conventions.append({'name': n, 'syntax': s, 'desc': d})
 
+    # Mirror the builder's key-uniqueness rule on the read side: leaf-wins
+    # composition is defined ACROSS amendments only; a crafted blob with an
+    # in-body duplicate would otherwise resolve silently last-wins.
+    tb = [t['byte'] for t in types]
+    if len(set(tb)) != len(tb):
+        raise ValueError("duplicate type byte(s) within one estandarte body")
+    cn = [c['name'] for c in conventions]
+    if len(set(cn)) != len(cn):
+        raise ValueError("duplicate convention name(s) within one estandarte body")
+
     return {
+        'version': version,
         'tone': tone,
         'parent_txid': parent_txid,
         'types': types,
@@ -314,7 +381,7 @@ def resolve_estandarte_chain(leaf_txid, fetcher, max_depth=64):
         blob = fetcher(current_txid)
         if isinstance(blob, str):
             blob = bytes.fromhex(blob.strip())
-        # Estandarte header is always exactly 6 bytes (c1dd 0001 ee <tone>)
+        # Estandarte header is always exactly 6 bytes (c1dd <version:u16> ee <tone>)
         header = blob[:6]
         body   = blob[6:]
         parsed = read_estandarte_quipu(header, body)
@@ -324,6 +391,17 @@ def resolve_estandarte_chain(leaf_txid, fetcher, max_depth=64):
 
     # Reverse so root is index 0, leaf is last
     chain.reverse()
+    # Healing discipline (docs/design/healing.md): within a chain the
+    # version may only grow toward the leaf. Content heals in-version;
+    # format changes bump the version — an amendment claiming an OLDER
+    # version than its parent would be a later law rewriting an earlier
+    # standard's past, and is refused.
+    for i in range(1, len(chain)):
+        if chain[i]['version'] < chain[i - 1]['version']:
+            raise ValueError(
+                f"version regression in amendment chain: "
+                f"{chain[i]['self_txid'][:12]}… (v{chain[i]['version']}) amends "
+                f"{chain[i - 1]['self_txid'][:12]}… (v{chain[i - 1]['version']})")
     merged_types = {}        # byte -> entry
     merged_conv  = {}        # name -> entry
     for est in chain:
@@ -416,7 +494,7 @@ def _example_registry():
                 {'name': 'codec', 'desc': 'how the body bytes encode audio', 'values': [
                     {'value': 0x00, 'name': 'stft',   'desc': 'quipu STFT-magnitude vocoder (speech)'},
                     {'value': 0x01, 'name': 'lpc',    'desc': 'quipu LPC-10 vocoder (speech)'},
-                    {'value': 0x02, 'name': 'codec2', 'desc': 'Codec2 700C (speech, needs libcodec2)'},
+                    {'value': 0x02, 'name': 'codec2', 'desc': 'Codec2 (mode carried in codec_meta, default 3200; speech, needs libcodec2)'},
                     {'value': 0x10, 'name': 'opus',   'desc': 'opaque Ogg/Opus'},
                     {'value': 0x11, 'name': 'mp3',    'desc': 'opaque MP3'},
                     {'value': 0x12, 'name': 'wav',    'desc': 'opaque WAV/PCM'},
@@ -471,7 +549,7 @@ def _example_registry():
         },
         {
             'byte': 0x3d, 'name': 'scene', 'status': STATUS_CANONICAL,
-            'desc': 'walkable 3D scene: camera + textured point/photo geometry (pinhole-projectable)',
+            'desc': 'walkable 3D world: glTF-2.0-shaped JSON — nodes with transforms, quipu_ref extras, optional SLERP keyframe animations',
             'dimensions': [],
             'flags': [],
         },
@@ -489,12 +567,13 @@ def _example_registry():
         },
         {
             'byte': 0xcc, 'name': 'cert', 'status': STATUS_CANONICAL,
-            'desc': 'certificate: hash-only, all-in-one, or sale offer (subtype is 2-byte big-endian)',
+            'desc': 'certificate: hash-only, all-in-one, or sale offer; subtype is one 16-bit dimension',
             'dimensions': [
-                {'name': 'subtype', 'desc': '2-byte certificate subtype (BE)', 'values': [
-                    {'value': 0x01, 'name': 'hash',       'desc': 'SHA256 hash of off-chain payload only'},
-                    {'value': 0x02, 'name': 'all-in-one', 'desc': 'full certificate body on chain'},
-                    {'value': 0x03, 'name': 'sale-offer', 'desc': 'verified-key sale offer: attestation fields + signers + ECDSA adaptor signatures'},
+                {'name': 'subtype', 'desc': 'certificate subtype (big-endian; width stated by the vkind)',
+                 'vkind': ATOM_U16, 'values': [
+                    {'value': 0x0001, 'name': 'hash',       'desc': 'SHA256 hash of off-chain payload only'},
+                    {'value': 0x0002, 'name': 'all-in-one', 'desc': 'full certificate body on chain'},
+                    {'value': 0x0003, 'name': 'sale-offer', 'desc': 'verified-key sale offer: attestation fields + signers + ECDSA adaptor signatures'},
                 ]},
             ],
             'flags': [],
@@ -503,9 +582,14 @@ def _example_registry():
             'byte': 0xce, 'name': 'celestial', 'status': STATUS_CANONICAL,
             'desc': 'sky or earth point figures, optionally grouped, optionally per-point meta',
             'dimensions': [
-                {'name': 'kind', 'desc': 'coordinate frame of all points', 'values': [
+                # kinds 0x03 genealogy / 0x04 etymology exist only as
+                # pre-canonical inscriptions + root-level code today; they
+                # enter the law with the v2 celestial delta (c1dd0002 §7).
+                # The pre-canonical convention covers the on-chain pair.
+                {'name': 'kind', 'desc': 'figure coordinate frame; 0x02 = per-point frame byte opens each record', 'values': [
                     {'value': 0x00, 'name': 'earth', 'desc': 'lng/lat geographic coordinates'},
                     {'value': 0x01, 'name': 'star',  'desc': 'RA/Dec celestial-sphere coordinates'},
+                    {'value': 0x02, 'name': 'mixed', 'desc': 'earth and star points in one figure; each point record opens with its own kind byte'},
                 ]},
                 {'name': 'grouped', 'desc': 'whether points are partitioned into named groups', 'values': [
                     {'value': 0x00, 'name': 'no',  'desc': 'flat point list'},
@@ -543,19 +627,22 @@ def _example_registry():
     conventions = [
         {
             'name':   'magic',
-            'syntax': 'c1 dd 00 01 at offset 0',
-            'desc':   'protocol magic + version 0.1 prefix on every quipu',
+            'syntax': 'c1 dd at offset 0; version u16-BE at bytes 2-3',
+            'desc':   'c1 dd is the magic (Colegio Invisible / DD); bytes 2-3 are the '
+                      'protocol version, big-endian u16 (0x0000 constitution, 0x0001 v1). The '
+                      'version selects the standard; c1dd0001 is magic+version, not a 4-byte magic',
         },
         {
             'name':   'tone',
             'syntax': 'header byte 5',
-            'desc':   'cross-type semantic register: 0x00 ordinary; affective family 0x01-0x07 '
-                      '(affection, seeking, play, lust, rage, fear, grief — the seven primal systems); '
-                      '0x0d demonic; 0xa1 ai; 0xff reverence. Default 0x00',
+            'desc':   'cross-type register, full set as declared here (amendments may add): 0x00 '
+                      'ordinary; affective family 0x01-0x07 (affection, seeking, play, lust, rage, '
+                      'fear, grief); 0x0d demonic; 0x6e nature; 0xa1 ai; 0xe5 hope; 0xee sovereign; '
+                      '0xff reverence. Default 0x00',
         },
         {
             'name':   'diamond',
-            'syntax': 'root (1 tx, N outputs) -> N strands of <=80-byte OP_RETURN txs -> join (1 tx, N inputs)',
+            'syntax': 'root (1 tx: N strand-seeding outputs, then any tags) -> N strands of <=80-byte OP_RETURN txs -> join (1 tx, N inputs)',
             'desc':   'every payload over 80 bytes is inscribed as a diamond; strand k is seeded by '
                       'root output k; the inscription is complete when the join confirms; a high-fee '
                       'join (CPFP) is the canonical rescue for stalled strands',
@@ -566,6 +653,51 @@ def _example_registry():
             'desc':   'strand 0 opens with the structural header; body bytes fill the strands as '
                       'contiguous runs, never interleaved. A reader walks each strand from its root '
                       'output to the join collecting OP_RETURN payloads, then concatenates',
+        },
+        {
+            'name':   'tag',
+            'syntax': 'auxiliary root output; its spend carries no OP_RETURN',
+            'desc':   'a root may carry outputs that seed no strand and are not consumed by '
+                      'the join — the textile\'s future tense. The spend IS the event (an '
+                      'act, not writing); body reassembly ignores tags, so tag-less readers '
+                      'are unaffected',
+        },
+        {
+            'name':   'ripcord',
+            'syntax': 'legislation root (v1+): first non-strand output; spent only by the successor\'s root',
+            'desc':   'the successor\'s root spends the cord (input 0): succession unique by '
+                      'double-spend; parent_txid names the spent cord\'s root; v1 anchors to '
+                      'the constitution by signed parent_txid (genesis claims its tag); a dead '
+                      'cord falls back to the signed chain',
+        },
+        {
+            'name':   'genesis',
+            'syntax': 'constitution root: single tag (last output, N+2 anatomy); its spend = exactly 3 outputs, no OP_RETURN',
+            'desc':   'fans the constitution\'s one tag into three ordinal ACH threads: despot, '
+                      'amend, commentary. A spend carrying OP_RETURN would read as strand, so '
+                      'the act is necessarily mute. Pulled once, ever; powers latent until pulled',
+        },
+        {
+            'name':   'despot',
+            'syntax': 'fan-out output 1; exercise = declaration quipu root spends tip + fresh tip; burn = no successor, value provably unspendable',
+            'desc':   'override/supersede the constitution while alive — general power against '
+                      'constitutional defect (healing repairs data, never law); declarations '
+                      'bind in chain order; any successor-less spend ends the power; first to '
+                      'burn, ending the founding era',
+        },
+        {
+            'name':   'amend',
+            'syntax': 'fan-out output 2; amendment quipu (c1dd0000ee) roots spend the tip',
+            'desc':   'append to the constitution — additions only, never rewrites; scoped to '
+                      'the constitution, not legislation (types and versions are the ripcord\'s '
+                      'law); second to burn — the constitution is complete, legislation lives on',
+        },
+        {
+            'name':   'commentary',
+            'syntax': 'fan-out output 3; commentary quipu roots spend the tip',
+            'desc':   'voice without power: notices, glosses, warnings from the authority; '
+                      'never consulted for law; outlives both burns — in the eternal era it '
+                      'is all that still moves',
         },
         {
             'name':   'citation',
@@ -613,7 +745,13 @@ def _selftest_roundtrip():
     # Spot check encrypted dimensions
     enc = next(t for t in parsed['types'] if t['byte'] == 0x0e)
     assert [d['name'] for d in enc['dimensions']] == ['sub_family', 'variant']
-    print(f"  ✓ roundtrip OK; image and encrypted dimensions preserved")
+    assert all(d['vkind'] == ATOM_U8 for d in enc['dimensions'])
+    # Cert's subtype is the one 16-bit dimension — width stated as data (A12 fix)
+    cert = next(t for t in parsed['types'] if t['byte'] == 0xcc)
+    sub = cert['dimensions'][0]
+    assert sub['vkind'] == ATOM_U16
+    assert [v['value'] for v in sub['values']] == [0x0001, 0x0002, 0x0003]
+    print(f"  ✓ roundtrip OK; dimensions preserved incl. cert's u16 vkind")
     print()
 
 
@@ -664,17 +802,24 @@ def _selftest_validation():
         ("parent_txid wrong length",
          lambda: build_estandarte_quipu([], [], parent_txid="ab" * 31),
          "64 hex"),
+        ("duplicate type byte",
+         lambda: build_estandarte_quipu(
+             [{'byte': 0, 'name': 'a', 'desc': '', 'status': 0, 'dimensions': [], 'flags': []},
+              {'byte': 0, 'name': 'b', 'desc': '', 'status': 0, 'dimensions': [], 'flags': []}], []),
+         "duplicate type byte"),
+        ("duplicate convention name",
+         lambda: build_estandarte_quipu(
+             [], [{'name': 'x', 'syntax': '', 'desc': ''},
+                  {'name': 'x', 'syntax': '', 'desc': ''}]),
+         "duplicate convention"),
     ]
-    print(f"=== validation ===")
     for desc, fn, want in cases:
         try:
             fn()
         except (ValueError, TypeError) as e:
-            status = "OK" if want in str(e) else "WRONG ERR"
-            print(f"  {desc:35s} -> {status}: {e}")
+            assert want in str(e), f"{desc}: wrong error {str(e)!r} (wanted {want!r})"
         else:
-            print(f"  {desc:35s} -> DID NOT RAISE (bug)")
-    print()
+            raise AssertionError(f"{desc}: did not raise (builder validation regressed)")
 
 
 if __name__ == "__main__":

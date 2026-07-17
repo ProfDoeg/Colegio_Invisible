@@ -145,3 +145,20 @@ def test_extract_refs_sees_ascii_hex_everywhere():
     blob = (b"\xc1\xdd\x00\x01\x00\x00|t|" +
             b"json {\"quipu_ref\": \"" + b"c" * 64 + b"\"} and <<" + b"d" * 64 + b">>")
     assert extract_refs(blob) == {"c" * 64, "d" * 64}
+
+
+def test_check_decodes_gates_estandarte_inscription_form():
+    """The decode gate speaks the envelope for 0xee — the constitution is
+    c1dd0000, which the literal-0001 magic check would reject — and it
+    refuses rootless legislation (docs/design/healing.md)."""
+    from quipu_preflight import check_decodes
+    from constitution import build_constitution
+    from registry_v1 import build_registry_v1
+
+    h0, b0 = build_constitution()
+    h1a, b1a = build_registry_v1(parent_txid="ee" * 32)
+    assert check_decodes({"v0": h0 + b0, "v1": h1a + b1a}) == []
+
+    h1r, b1r = build_registry_v1()          # golden's root form: review-only
+    fails = check_decodes({"v1root": h1r + b1r})
+    assert len(fails) == 1 and "constitution" in fails[0]
