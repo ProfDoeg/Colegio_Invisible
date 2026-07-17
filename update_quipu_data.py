@@ -122,6 +122,17 @@ def parse_dims(blob):
     if t == 0x0e:                                   # encrypted
         if len(blob) < 8:
             return {}, "", 0
+        from encrypted import classify_encrypted
+        cls = classify_encrypted(blob)
+        if cls == "legacy_drop":                    # pre-canonical 0e 0e 0d
+            title, hdr_end = pipe_title(7)
+            return {"legacy": "keydrop", "sub_family": 0x0d}, title, hdr_end
+        if cls == "legacy_broadcast":               # pre-canonical 0e <type> (nb17)
+            title, hdr_end = pipe_title(13)
+            return ({"legacy": "broadcast", "inner_type": blob[5],
+                     "color": blob[6], "W": (blob[7] << 8) | blob[8],
+                     "H": (blob[9] << 8) | blob[10], "bit_depth": blob[11],
+                     "n_recip": blob[12]}, title, hdr_end)
         title, hdr_end = pipe_title(8)
         return {"sub_family": blob[6], "variant": blob[7]}, title, hdr_end
     if t == 0x09:                                   # book
@@ -513,18 +524,20 @@ def build_edges(df_q, df_tx):
     for _, q in df_q.iterrows():
         if q["type_name"] != "encrypted":
             continue
-        if json.loads(q["dimensions_json"] or "{}").get("sub_family") != 0x0d:
-            continue
         bpath = os.path.join(DATA_DIR, q["body_file"])
         if not os.path.exists(bpath):
             continue
         blob = open(bpath, "rb").read()
         try:
-            parsed = read_encrypted_quipu(blob[:8], blob[8:])
+            # split_blob is era-aware (legacy 0e 0e 0d headers are 7 bytes
+            # + title, canonical are 8 + title); the unified reader yields
+            # a 'drops' list for keydrops of either era.
+            import colegio_pipeline as P
+            parsed = read_encrypted_quipu(*P.split_blob(blob))
         except Exception as e:
-            log(f"  keydrop parse failed for {q['root_txid'][:8]}…: {e}")
+            log(f"  encrypted parse failed for {q['root_txid'][:8]}…: {e}")
             continue
-        for d in parsed.get("drops", []):
+        for d in parsed.get("drops") or []:
             if d.get("ref_txid") in all_roots:
                 keydrop.append({"source_quipu": q["root_txid"], "consumer_quipu": d["ref_txid"],
                                 "hops": 0, "kind": "keydrop"})

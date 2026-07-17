@@ -853,6 +853,193 @@ def parse_keydrop_header_fields(header_bytes):
 
 
 # ---------------------------------------------------------------------------
+# Legacy (pre-canonical, 2022) wire layouts — READ SIDE ONLY.
+#
+# Before the May-2026 canonical v1 redesign, colegio_tools.py wrote three
+# 0x0e layouts (nb17/nb18 era). Four such quipus are inscribed on mainnet
+# (blocks 4.25M–4.27M) and must stay legible forever:
+#
+#   legacy broadcast   c1dd0001 0e <inner_type> <color> <LL:2> <WW:2> <B> <N> |title|
+#                      body: N × 64-byte envelopes + AES(session, inner_body)
+#                      (on chain: d68175…, d0209a… — inner_type 0x03 image;
+#                       tone was dropped at write time)
+#   legacy keydrop     c1dd0001 0e 0e 0d |title|
+#                      body: <target_txid:32> <key:32>
+#                      (on chain: 89b51b…, f278e4…)
+#   legacy AES splice  c1dd0001 0e ae + inner_header[4:]
+#                      body: AES(key, inner_body) — the inner header stayed
+#                      in CLEARTEXT, only the body was sealed. None inscribed;
+#                      supported for local files built by the old tooling.
+#
+# Detection is unambiguous: canonical always has a registered tone at byte 5
+# and a registered sub-family at byte 6. Legacy keydrop has 0x0e at byte 5
+# (not a tone); legacy AES splice has 0xae at byte 5 (not a tone); legacy
+# broadcast has a non-sub-family byte (the color, 0x00/0x01) at byte 6.
+#
+# NEVER build these layouts for new inscriptions — all writers emit
+# canonical. See tests/test_encrypted_wire.py for the corpus gates.
+# ---------------------------------------------------------------------------
+
+LEGACY_DROP_PREFIX = b"\x0e\x0e\x0d"   # bytes 4..6 of a legacy keydrop header
+
+
+def classify_encrypted(header_bytes):
+    """Classify a 0x0e header's wire era.
+
+    Returns 'canonical' | 'legacy_drop' | 'legacy_aes' | 'legacy_broadcast'
+    | 'unknown' | 'not_encrypted'.
+    """
+    hb = bytes(header_bytes)
+    if len(hb) < 7 or hb[:4] != MAGIC or hb[4] != TYPE_ENCRYPTED:
+        return "not_encrypted"
+    if len(hb) >= 8 and hb[5] in VALID_TONES and hb[6] in _VALID_SUBS:
+        return "canonical"
+    if hb[4:7] == LEGACY_DROP_PREFIX:
+        return "legacy_drop"
+    if hb[5] == 0xAE:
+        return "legacy_aes"
+    # Legacy broadcast: byte 5 is the INNER type (0x03 image on chain — which
+    # collides with TONE_PLAY, so it can't discriminate); byte 6 is the color
+    # byte (0x00 grayscale / 0x01 RGB), which is never a canonical sub-family.
+    if len(hb) >= 13 and hb[6] in (0x00, 0x01):
+        return "legacy_broadcast"
+    return "unknown"
+
+
+def parse_legacy_keydrop(header_bytes, body_bytes):
+    """Parse a legacy 0e 0e 0d keydrop. Returns (target_txid_hex, key32, title).
+
+    The txid is display-endian (bytes.fromhex of the displayed txid), per nb18.
+    """
+    if bytes(header_bytes[4:7]) != LEGACY_DROP_PREFIX:
+        raise ValueError("not a legacy keydrop (c1dd0001 0e 0e 0d expected)")
+    if len(body_bytes) < 64:
+        raise ValueError(f"legacy keydrop body too short ({len(body_bytes)} < 64)")
+    title, _ = _split_outer_title(bytes(header_bytes[7:]))
+    return bytes(body_bytes[:32]).hex(), bytes(body_bytes[32:64]), title
+
+
+def _legacy_broadcast_fields(header_bytes):
+    """Structural fields of a legacy broadcast header (13 bytes + |title|)."""
+    hb = bytes(header_bytes)
+    if len(hb) < 13:
+        raise ValueError(f"legacy broadcast header too short ({len(hb)} < 13)")
+    title, _ = _split_outer_title(hb[13:])
+    return {
+        "inner_type":   hb[5],
+        "color":        hb[6],
+        "W":            (hb[7] << 8) | hb[8],
+        "H":            (hb[9] << 8) | hb[10],
+        "bit_depth":    hb[11],
+        "n_recipients": hb[12],
+        "title":        title,
+    }
+
+
+def synthesize_legacy_inner_header(header_bytes):
+    """Reconstruct the plaintext-shaped inner header a legacy broadcast
+    implies: magic + inner_type + placeholder tone 0x00 + the six
+    color/L/W/B bytes + the |title| tail (tone was dropped at write time)."""
+    hb = bytes(header_bytes)
+    return MAGIC + hb[5:6] + b"\x00" + hb[6:12] + hb[13:]
+
+
+def read_legacy_broadcast_quipu(header_bytes, body_bytes, *,
+                                my_privkey=None, author_pubkey=None,
+                                session_key=None):
+    """Parse (and with keys, decrypt) a legacy 0e <type> broadcast quipu.
+
+    Args mirror the canonical reader: my_privkey/author_pubkey are coincurve
+    keys for envelope unwrapping; session_key is a released 32-byte key (from
+    a keydrop) that bypasses the envelopes.
+
+    Returns a canonical-reader-shaped dict with legacy=True; on successful
+    decrypt adds inner_header (synthesized, magic_ok True by construction)
+    and inner_body.
+    """
+    out = _legacy_broadcast_fields(header_bytes)
+    out.update({"legacy": True, "sub_name": "legacy_broadcast",
+                "sub_family": None, "variant": None, "tone": None})
+    n = out["n_recipients"]
+    if len(body_bytes) < n * 64:
+        raise ValueError(f"legacy broadcast body too short for {n} envelopes")
+    ciphertext = bytes(body_bytes[n * 64:])
+
+    session = None
+    if session_key is not None:
+        if not (isinstance(session_key, (bytes, bytearray)) and len(session_key) == 32):
+            raise ValueError("session_key must be 32 bytes")
+        session = bytes(session_key)
+    elif my_privkey is not None and author_pubkey is not None:
+        if not isinstance(my_privkey, CCPriv):
+            raise TypeError("my_privkey must be coincurve.PrivateKey")
+        if not isinstance(author_pubkey, CCPub):
+            author_pubkey = CCPub(bytes(author_pubkey))
+        sk = _shared_key(my_privkey, author_pubkey)
+        for i in range(n):
+            env = bytes(body_bytes[i * 64:(i + 1) * 64])
+            try:
+                session = _ecies.sym_decrypt(sk, env)
+                break
+            except Exception:
+                continue
+        if session is None:
+            raise ValueError("no envelope decrypted with the given (my_privkey, author_pubkey)")
+    else:
+        return out  # parse-only
+
+    out["inner_body"] = _ecies.sym_decrypt(session, ciphertext)
+    out["inner_header"] = synthesize_legacy_inner_header(header_bytes)
+    out["magic_ok"] = True
+    return out
+
+
+def read_legacy_aes_sealed(header_bytes, body_bytes, key):
+    """Unwrap a legacy 0e ae splice. `key` is a 32-byte key or a passphrase
+    string (SHA-256 KDF, same as the old tooling). Returns
+    (inner_header, inner_body) — the inner header was never encrypted."""
+    hb = bytes(header_bytes)
+    if hb[:6] != MAGIC + b"\x0e\xae":
+        raise ValueError("not a legacy AES splice (c1dd0001 0e ae prefix expected)")
+    if isinstance(key, str):
+        key = hashlib.sha256(key.encode("utf-8")).digest()
+    if not (isinstance(key, (bytes, bytearray)) and len(key) == 32):
+        raise ValueError("key must be 32 bytes or a passphrase string")
+    inner_header = MAGIC + hb[6:]
+    inner_body = _ecies.sym_decrypt(bytes(key), bytes(body_bytes))
+    return inner_header, inner_body
+
+
+def open_with_key(header_bytes, body_bytes, key):
+    """Apply a released 32-byte key (or passphrase string) to any sealed
+    0x0e quipu of either era. Returns (inner_header, inner_body).
+
+    canonical ae/ca -> AES key · canonical ec -> session key ·
+    legacy broadcast -> session key · legacy AES splice -> AES key.
+    """
+    cls = classify_encrypted(header_bytes)
+    if cls == "canonical":
+        sub = header_bytes[6]
+        if sub in (SUB_AES, SUB_CENTINELA):
+            parsed = read_encrypted_quipu(header_bytes, body_bytes, key=key)
+        elif sub == SUB_ECIES:
+            if isinstance(key, str):
+                raise ValueError("an ECIES broadcast needs the 32-byte session key, not a passphrase")
+            parsed = read_encrypted_quipu(header_bytes, body_bytes, session_key=key)
+        else:
+            raise ValueError(f"sub-family 0x{sub:02x} is not key-openable")
+        return parsed["inner_header"], parsed["inner_body"]
+    if cls == "legacy_aes":
+        return read_legacy_aes_sealed(header_bytes, body_bytes, key)
+    if cls == "legacy_broadcast":
+        if isinstance(key, str):
+            raise ValueError("a legacy broadcast needs the 32-byte session key, not a passphrase")
+        parsed = read_legacy_broadcast_quipu(header_bytes, body_bytes, session_key=key)
+        return parsed["inner_header"], parsed["inner_body"]
+    raise ValueError(f"cannot key-open a {cls} quipu")
+
+
+# ---------------------------------------------------------------------------
 # Reader (dispatches on sub-family)
 # ---------------------------------------------------------------------------
 
@@ -902,10 +1089,35 @@ def read_encrypted_quipu(header_bytes, body_bytes, *,
     """
     if header_bytes[:4] != MAGIC:
         raise ValueError("not a quipu (c1dd0001 magic missing)")
-    if len(header_bytes) < 8:
-        raise ValueError(f"header too short: {len(header_bytes)} bytes (need >= 8)")
+    if len(header_bytes) < 7:
+        raise ValueError(f"header too short: {len(header_bytes)} bytes (need >= 7)")
     if header_bytes[4] != TYPE_ENCRYPTED:
         raise ValueError(f"not an encrypted quipu (type 0x{header_bytes[4]:02x}, expected 0x0e)")
+
+    # Pre-canonical (2022) layouts dispatch to the legacy readers; they
+    # return canonical-shaped dicts with legacy=True.
+    cls = classify_encrypted(header_bytes)
+    if cls == "legacy_drop":
+        target_txid, k, title = parse_legacy_keydrop(header_bytes, body_bytes)
+        return {
+            "legacy": True, "sub_name": "legacy_drop", "sub_family": SUB_DROP,
+            "variant": None, "tone": None, "title": title,
+            "drops": [{"name": "", "ref_txid": target_txid, "key": k}],
+        }
+    if cls == "legacy_broadcast":
+        return read_legacy_broadcast_quipu(
+            header_bytes, body_bytes,
+            my_privkey=my_privkey, author_pubkey=author_pubkey,
+            session_key=session_key)
+    if cls == "legacy_aes":
+        out = {"legacy": True, "sub_name": "legacy_aes", "sub_family": SUB_AES,
+               "variant": None, "tone": None, "title": ""}
+        if key is not None:
+            ih, ib = read_legacy_aes_sealed(header_bytes, body_bytes, key)
+            out.update({"inner_header": ih, "inner_body": ib, "magic_ok": True})
+        return out
+    if len(header_bytes) < 8:
+        raise ValueError(f"header too short: {len(header_bytes)} bytes (need >= 8)")
 
     tone = header_bytes[5]
     sub  = header_bytes[6]
@@ -935,16 +1147,16 @@ def read_encrypted_quipu(header_bytes, body_bytes, *,
     if sub in (SUB_AES, SUB_CENTINELA):
         if key is None:
             return out  # parse-only
-        if var == KEY_PASSWORD:
-            if not isinstance(key, str):
-                raise ValueError("for password-AES (variant 0x01), pass key as a passphrase string")
+        # The variant byte records how the key was DERIVED at build time
+        # (0x00 raw, 0x01 = SHA256(passphrase)); either input form opens
+        # either variant — a keydrop releases the derived 32-byte key, which
+        # must open a password-variant quipu too.
+        if isinstance(key, str):
             key_bytes = hashlib.sha256(key.encode("utf-8")).digest()
-        elif var == KEY_RAW:
-            if not (isinstance(key, (bytes, bytearray)) and len(key) == 32):
-                raise ValueError("for raw-AES (variant 0x00), pass 32-byte key")
+        elif isinstance(key, (bytes, bytearray)) and len(key) == 32:
             key_bytes = bytes(key)
         else:
-            raise ValueError(f"unknown AES variant byte 0x{var:02x}")
+            raise ValueError("key must be 32 bytes or a passphrase string")
         framed = _ecies.sym_decrypt(key_bytes, body_bytes)
         inner_header, inner_body = _unframe_inner(framed)
         out["inner_header"] = inner_header

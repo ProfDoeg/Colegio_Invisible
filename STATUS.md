@@ -10,6 +10,10 @@ in chain order:
 
 - **Encrypted family `0x0e`** (2026-05-14) — keydrop auto-resolution plus
   the `0xae` AES-sealed sub-family, with test pairs on apocrypha.
+  *(2026-07-17: the two-implementation wire fork was reconciled —
+  `canonical/encrypted.py` is the single parser for both eras, writers
+  emit canonical only; see `docs/design/encrypted-wire-reconciliation.md`
+  and `tests/test_encrypted_wire.py`.)*
 - **Cementerio de los Animales** — first `0x3d` scene on chain, root
   `1f63558bdee2f5ead118083ff0af0d5e266acaf347938c5ed2722b6ced1248e3`
   (block 6,217,246, apocrypha). A companion essay followed at block

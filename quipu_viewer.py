@@ -267,95 +267,92 @@ def render_text_with_citations(text: str, df_all: pd.DataFrame) -> str:
 
 
 def render_encrypted_html(q: pd.Series, blob: bytes, df_all: pd.DataFrame) -> str:
-    """For keydrops, inline each released target's decoded content."""
+    """For keydrops, inline each released target's decoded content.
+
+    Era-aware: canonical (0e <tone> <sub>) and pre-canonical layouts
+    (0e 0e 0d keydrop, 0e <type> nb17 broadcast) both render, via the
+    unified reader in canonical/encrypted.py.
+    """
     if len(blob) < 8:
         return "<div style='color:#a00'>encrypted header too short</div>"
-    sub = blob[6]
-    var = blob[7]
-    sub_name = {0xae: "AES", 0xec: "ECIES", 0x0d: "keydrop"}.get(sub, f"unknown_0x{sub:02x}")
+    from encrypted import classify_encrypted, read_encrypted_quipu, open_with_key
+    import colegio_pipeline as P
+
+    try:
+        header, body = P.split_blob(blob)
+        parsed = read_encrypted_quipu(header, body)
+    except Exception as e:
+        return f"<div style='color:#a00'>encrypted parse: {html_lib.escape(str(e))}</div>"
+
+    legacy = bool(parsed.get("legacy"))
+    sub_name = parsed.get("sub_name", "?")
+    era = "pre-canonical 2022" if legacy else "canonical v1"
+    sub_desc = (f"{html_lib.escape(sub_name)}"
+                + (f" · variant 0x{parsed['variant']:02x}"
+                   if parsed.get("variant") is not None else ""))
     parts = [
         f"<div style='font:12px/1.4 system-ui;margin:8px 0'>"
-        f"<b>sub_family:</b> 0x{sub:02x} ({sub_name}) · "
-        f"<b>variant:</b> 0x{var:02x} · "
-        f"<b>body:</b> {len(blob)-8} B"
+        f"<b>sub_family:</b> {sub_desc} · "
+        f"<b>era:</b> {era} · "
+        f"<b>body:</b> {len(body)} B"
         f"</div>"
     ]
 
-    if sub == 0x0d:  # keydrop — list each released target
-        try:
-            from encrypted import read_encrypted_quipu, SUB_AES, SUB_ECIES
-            parsed = read_encrypted_quipu(blob[:8], blob[8:])
-            drops = parsed.get("drops", [])
-            parts.append(f"<div style='font:600 12px system-ui;margin:8px 0 4px 0'>"
-                         f"Drops ({len(drops)}):</div>")
-            for d in drops:
-                name = d.get("name") or "(anonymous)"
-                ref_txid = d.get("ref_txid")
-                key = d.get("key")
-                ref_row = _txid_to_row(df_all, ref_txid)
-                parts.append(
-                    f"<div style='margin:6px 0;padding:6px;"
-                    f"background:#f4f4f4;border-left:3px solid #9b86c7'>"
-                    f"<div style='font:600 12px system-ui'>"
-                    f"&laquo;{html_lib.escape(name)}&raquo;</div>"
-                    f"<div style='font:11px ui-monospace;color:#666'>"
-                    f"→ {ref_txid[:24]}…</div>"
-                )
-                if ref_row is None:
-                    parts.append("<div style='color:#888;font-size:11px'>(target not in local corpus)</div>")
-                else:
-                    # Try to decrypt with the released key
-                    try:
-                        target_blob = load_body(ref_row["root_txid"])
-                        # Split target into header/body based on its type
-                        if target_blob[:4] == b"\xc1\xdd\x00\x01" and target_blob[4] == 0x0e:
-                            hdr_end = 8
-                            if hdr_end < len(target_blob) and target_blob[hdr_end:hdr_end+1] == b"|":
-                                close = target_blob.find(b"|", hdr_end + 1)
-                                if close > 0: hdr_end = close + 1
-                            tgt_header = target_blob[:hdr_end]
-                            tgt_body   = target_blob[hdr_end:]
-                            sub_target = tgt_header[6]
-                            if sub_target == SUB_AES:
-                                tgt_parsed = read_encrypted_quipu(tgt_header, tgt_body, key=key)
-                            elif sub_target == SUB_ECIES:
-                                tgt_parsed = read_encrypted_quipu(tgt_header, tgt_body, session_key=key)
-                            else:
-                                tgt_parsed = None
-                            if tgt_parsed and tgt_parsed.get("magic_ok"):
-                                inner_h = tgt_parsed["inner_header"]
-                                inner_b = tgt_parsed["inner_body"]
-                                inner_type = inner_h[4]
-                                if inner_type == 0x00:  # text
-                                    from text import read_text_quipu
-                                    inner = read_text_quipu(inner_h, inner_b)
-                                    parts.append(
-                                        f"<div style='font:12px system-ui;margin:6px 0 0 0'>"
-                                        f"<b>recovered:</b> {html_lib.escape(inner.get('title',''))}</div>"
-                                        f"<pre style='white-space:pre-wrap;font:12px ui-sans-serif;"
-                                        f"max-height:160px;overflow:auto;margin:4px 0;padding:4px;"
-                                        f"background:#fff;border:1px solid #ddd'>"
-                                        + html_lib.escape(inner.get("body", ""))
-                                        + "</pre>"
-                                    )
-                                else:
-                                    parts.append(
-                                        f"<div style='font:11px;color:#888;margin:4px 0'>"
-                                        f"recovered inner type 0x{inner_type:02x} "
-                                        f"({len(inner_b)} B body)</div>"
-                                    )
-                            else:
-                                parts.append("<div style='color:#a00;font-size:11px'>decrypt failed</div>")
-                    except Exception as e:
-                        parts.append(f"<div style='color:#a00;font-size:11px'>decrypt error: "
-                                     f"{html_lib.escape(str(e))}</div>")
-                parts.append("</div>")
-        except Exception as e:
-            parts.append(f"<div style='color:#a00'>keydrop parse: {html_lib.escape(str(e))}</div>")
+    drops = parsed.get("drops")
+    if drops is not None:  # keydrop (either era) — list each released target
+        parts.append(f"<div style='font:600 12px system-ui;margin:8px 0 4px 0'>"
+                     f"Drops ({len(drops)}):</div>")
+        for d in drops:
+            name = d.get("name") or "(anonymous)"
+            ref_txid = d.get("ref_txid")
+            key = d.get("key")
+            ref_row = _txid_to_row(df_all, ref_txid)
+            parts.append(
+                f"<div style='margin:6px 0;padding:6px;"
+                f"background:#f4f4f4;border-left:3px solid #9b86c7'>"
+                f"<div style='font:600 12px system-ui'>"
+                f"&laquo;{html_lib.escape(name)}&raquo;</div>"
+                f"<div style='font:11px ui-monospace;color:#666'>"
+                f"→ {ref_txid[:24]}…</div>"
+            )
+            if ref_row is None:
+                parts.append("<div style='color:#888;font-size:11px'>(target not in local corpus)</div>")
+            else:
+                # Try to decrypt with the released key
+                try:
+                    target_blob = load_body(ref_row["root_txid"])
+                    if target_blob[:4] == b"\xc1\xdd\x00\x01" and target_blob[4] == 0x0e:
+                        tgt_header, tgt_body = P.split_blob(target_blob)
+                        inner_h, inner_b = open_with_key(tgt_header, tgt_body, key)
+                        inner_type = inner_h[4]
+                        if inner_type == 0x00:  # text
+                            from text import read_text_quipu
+                            inner = read_text_quipu(inner_h, inner_b)
+                            parts.append(
+                                f"<div style='font:12px system-ui;margin:6px 0 0 0'>"
+                                f"<b>recovered:</b> {html_lib.escape(inner.get('title',''))}</div>"
+                                f"<pre style='white-space:pre-wrap;font:12px ui-sans-serif;"
+                                f"max-height:160px;overflow:auto;margin:4px 0;padding:4px;"
+                                f"background:#fff;border:1px solid #ddd'>"
+                                + html_lib.escape(inner.get("body", ""))
+                                + "</pre>"
+                            )
+                        else:
+                            parts.append(
+                                f"<div style='font:11px;color:#888;margin:4px 0'>"
+                                f"recovered inner type 0x{inner_type:02x} "
+                                f"({len(inner_b)} B body)</div>"
+                            )
+                except Exception as e:
+                    parts.append(f"<div style='color:#a00;font-size:11px'>decrypt error: "
+                                 f"{html_lib.escape(str(e))}</div>")
+            parts.append("</div>")
     else:
+        if parsed.get("title"):
+            parts.append(f"<div style='font:12px system-ui'>"
+                         f"<b>outer title:</b> {html_lib.escape(parsed['title'])}</div>")
         parts.append("<div style='color:#888;font-size:11px'>encrypted — body sealed</div>")
     return "".join(parts)
-
 
 def find_body_offset(blob: bytes) -> int:
     """For text (0x00) and essay (0x01), find where the body starts.

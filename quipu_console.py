@@ -1017,41 +1017,111 @@ def resolve_encrypted_quipu(header_bytes, body_bytes, *, root_txid=None,
     are available. Returns None if header is not encrypted at all, else a
     dict describing kind / status / decrypted inner content.
 
-    Resolution order:
-      broadcast (0e 03): loaded privkey envelope → keydrop scan
-      AES-sealed (0e ae): sidebar password → keydrop scan
-      keydrop quipu (0e 0e 0d): parse target txid + released key
-    """
-    if len(header_bytes) < 6 or header_bytes[4] != 0x0e:
-        return None
-    sub = header_bytes[5]
+    Handles BOTH wire eras through canonical/encrypted.py (the single 0x0e
+    implementation):
+      keydrop    canonical 0e <tone> 0d  |  legacy 0e 0e 0d
+      AES-sealed canonical 0e <tone> ae  |  legacy 0e ae splice
+      broadcast  canonical 0e <tone> ec  |  legacy 0e 03 (nb17)
+      other canonical subs (centinela / cb / shamir): parse-only
 
-    # Keydrop quipu — informational, not decrypted
-    if sub == 0x0e:
-        if len(header_bytes) >= 7 and header_bytes[6] == 0x0d:
-            try:
-                target_txid, aes_key = ct.parse_keydrop_quipu(header_bytes, body_bytes)
-                return {
-                    "kind": "keydrop_quipu", "status": "info",
-                    "inner_header": None, "inner_body": None, "via": None,
-                    "details": {"target_txid": target_txid, "aes_key": aes_key},
-                }
-            except Exception as e:
-                return {
-                    "kind": "keydrop_quipu", "status": "locked",
-                    "inner_header": None, "inner_body": None, "via": None,
-                    "details": {"error": str(e)},
-                }
+    Resolution order for sealed quipus: loaded keys / sidebar password
+    first, then an on-chain keydrop scan.
+    """
+    if len(header_bytes) < 7 or header_bytes[4] != 0x0e:
+        return None
+    E = ct._enc()
+
+    try:
+        parsed = E.read_encrypted_quipu(header_bytes, body_bytes)
+    except Exception as e:
         return {
             "kind": "unknown", "status": "locked",
             "inner_header": None, "inner_body": None, "via": None,
-            "details": {"sub_family": f"0x0e 0x{header_bytes[6]:02x}"
-                        if len(header_bytes) > 6 else "0x0e ?"},
+            "details": {"error": str(e)},
+        }
+    legacy = bool(parsed.get("legacy"))
+    sub = parsed.get("sub_name", "?")
+
+    def _keydrop_open(kind, sub_label):
+        """Shared tail: try an on-chain keydrop, else return locked."""
+        if root_txid:
+            # Cache check first — topology build precomputes the keydrop
+            # resolutions and stuffs them in session_state so popups
+            # don't rescan per quipu.
+            cache = st.session_state.get("keydrop_resolutions_cache", {})
+            hit = cache.get(root_txid)
+            if hit is None and quipus is not None and df_out is not None:
+                try:
+                    hit = ct.find_keydrop_for(root_txid, quipus, df_out)
+                except Exception:
+                    hit = None
+            if hit:
+                kd_q, aes_key = hit
+                try:
+                    inner_h, inner_b = ct.apply_keydrop(header_bytes, body_bytes, aes_key)
+                    return {
+                        "kind": kind, "status": "decrypted",
+                        "inner_header": inner_h, "inner_body": inner_b,
+                        "via": f"keydrop {kd_q['root_txid'][:12]}…",
+                        "sub_label": sub_label,
+                        "details": {"keydrop_txid": kd_q["root_txid"]},
+                    }
+                except Exception:
+                    pass
+        return None
+
+    # Keydrop quipu — informational, not decrypted
+    if parsed.get("drops") is not None:
+        drops = parsed["drops"]
+        return {
+            "kind": "keydrop_quipu", "status": "info",
+            "inner_header": None, "inner_body": None, "via": None,
+            "sub_label": ("key drop (legacy 0e 0e 0d)" if legacy
+                          else "key drop (0x0e 0x0d)"),
+            "details": {"target_txid": drops[0]["ref_txid"],
+                        "aes_key": drops[0]["key"],
+                        "drops": drops,
+                        "title": parsed.get("title", "")},
         }
 
-    # Broadcast (per-recipient envelopes)
-    if sub == 0x03:
+    # AES-sealed (canonical ae / centinela, or the legacy cleartext splice)
+    if sub in ("aes", "centinela", "legacy_aes"):
+        kind = "aes_sealed"
+        sub_label = ("AES-sealed (legacy 0e ae splice)" if legacy
+                     else f"AES-sealed (0x0e 0xae)" if sub == "aes"
+                     else "centinela (0x0e 0xca)")
+        if aes_password:
+            try:
+                key = _coerce_password_input(aes_password)
+                inner_h, inner_b = ct.read_aes_sealed_quipu(
+                    header_bytes, body_bytes, key
+                )
+                return {
+                    "kind": kind, "status": "decrypted",
+                    "inner_header": inner_h, "inner_body": inner_b,
+                    "via": "sidebar password / key",
+                    "sub_label": sub_label,
+                    "details": {},
+                }
+            except Exception:
+                pass
+        hit = _keydrop_open(kind, sub_label)
+        if hit:
+            return hit
+        return {
+            "kind": kind, "status": "locked",
+            "inner_header": None, "inner_body": None, "via": None,
+            "sub_label": sub_label,
+            "details": {"title": parsed.get("title", "")},
+        }
+
+    # Broadcast (per-recipient envelopes; canonical ec or legacy 0e 03)
+    if sub in ("ecies", "legacy_broadcast"):
         kind = "broadcast"
+        sub_label = ("broadcast (legacy 0x0e 0x03)" if legacy
+                     else "ECIES broadcast (0x0e 0xec)")
+        n_recip = (parsed.get("n_recipients") if legacy
+                   else (body_bytes[0] if len(body_bytes) else None))
         # Build candidate privkeys: each individual key + the combined-all
         # (covers single-key envelopes AND combined-key envelopes targeted at
         # the curve-sum of the loaded keys).
@@ -1098,89 +1168,30 @@ def resolve_encrypted_quipu(header_bytes, body_bytes, *, root_txid=None,
                             "kind": kind, "status": "decrypted",
                             "inner_header": inner_h, "inner_body": inner_b,
                             "via": f"loaded {label} (broadcast envelope)",
+                            "sub_label": sub_label,
                             "details": {},
                         }
                     except Exception:
                         continue
-        if root_txid:
-            # Cache check first — topology build precomputes the keydrop
-            # resolutions and stuffs them in session_state so popups
-            # don't rescan per quipu.
-            cache = st.session_state.get("keydrop_resolutions_cache", {})
-            hit = cache.get(root_txid)
-            if hit is None and quipus is not None and df_out is not None:
-                try:
-                    hit = ct.find_keydrop_for(root_txid, quipus, df_out)
-                except Exception:
-                    hit = None
-            if hit:
-                kd_q, aes_key = hit
-                try:
-                    inner_h, inner_b = ct.apply_keydrop(header_bytes, body_bytes, aes_key)
-                    return {
-                        "kind": kind, "status": "decrypted",
-                        "inner_header": inner_h, "inner_body": inner_b,
-                        "via": f"keydrop {kd_q['root_txid'][:12]}…",
-                        "details": {"keydrop_txid": kd_q["root_txid"]},
-                    }
-                except Exception:
-                    pass
+        hit = _keydrop_open(kind, sub_label)
+        if hit:
+            return hit
         return {
             "kind": kind, "status": "locked",
             "inner_header": None, "inner_body": None, "via": None,
-            "details": {"n_recip": header_bytes[12] if len(header_bytes) > 12 else None},
+            "sub_label": sub_label,
+            "details": {"n_recip": n_recip},
         }
 
-    # AES-sealed (no envelopes)
-    if sub == 0xae:
-        kind = "aes_sealed"
-        if aes_password:
-            try:
-                key = _coerce_password_input(aes_password)
-                inner_h, inner_b = ct.read_aes_sealed_quipu(
-                    header_bytes, body_bytes, key
-                )
-                return {
-                    "kind": kind, "status": "decrypted",
-                    "inner_header": inner_h, "inner_body": inner_b,
-                    "via": "sidebar password / key",
-                    "details": {},
-                }
-            except Exception:
-                pass
-        if root_txid:
-            # Cache check first — topology build precomputes the keydrop
-            # resolutions and stuffs them in session_state so popups
-            # don't rescan per quipu.
-            cache = st.session_state.get("keydrop_resolutions_cache", {})
-            hit = cache.get(root_txid)
-            if hit is None and quipus is not None and df_out is not None:
-                try:
-                    hit = ct.find_keydrop_for(root_txid, quipus, df_out)
-                except Exception:
-                    hit = None
-            if hit:
-                kd_q, aes_key = hit
-                try:
-                    inner_h, inner_b = ct.apply_keydrop(header_bytes, body_bytes, aes_key)
-                    return {
-                        "kind": kind, "status": "decrypted",
-                        "inner_header": inner_h, "inner_body": inner_b,
-                        "via": f"keydrop {kd_q['root_txid'][:12]}…",
-                        "details": {"keydrop_txid": kd_q["root_txid"]},
-                    }
-                except Exception:
-                    pass
-        return {
-            "kind": kind, "status": "locked",
-            "inner_header": None, "inner_body": None, "via": None,
-            "details": {},
-        }
-
+    # Everything else (cb sale box, shamir share/vault, unknown subs):
+    # parse-only info via the canonical reader.
     return {
         "kind": "unknown", "status": "locked",
         "inner_header": None, "inner_body": None, "via": None,
-        "details": {"sub_byte": f"0x{sub:02x}"},
+        "sub_label": f"{sub} (0x0e)",
+        "details": {k: v for k, v in parsed.items()
+                    if k in ("sub_name", "variant", "title", "session_pub",
+                             "k", "n", "x", "dump_ref")},
     }
 
 
@@ -1509,25 +1520,25 @@ def compute_quipu_topology(address, quipus, df_tx, df_out=None):
             }
             edges.append((ext_id, root, "funding"))
 
-    # 4. Keydrop dashed edges + cache for popup reuse
+    # 4. Keydrop dashed edges + cache for popup reuse (both wire eras —
+    # legacy 0e 0e 0d single drops and canonical 0e <tone> 0d multi-drops)
     for q in quipus:
         if q.get("type_byte") != 0x0e:
             continue
         try:
             head_hex, body_hex = ct.read_quipu(q["root_txid"], df_out)
+            head = bytes.fromhex(head_hex) if head_hex else b""
+            body = bytes.fromhex(body_hex) if body_hex else b""
+            if len(head) < 7:
+                continue
+            parsed = ct._enc().read_encrypted_quipu(head, body)
         except Exception:
             continue
-        head = bytes.fromhex(head_hex) if head_hex else b""
-        if len(head) < 7 or head[4:7] != b"\x0e\x0e\x0d":
-            continue
-        body = bytes.fromhex(body_hex) if body_hex else b""
-        if len(body) < 64:
-            continue
-        target_txid = body[:32].hex()
-        aes_key = body[32:64]
-        keydrop_resolutions[target_txid] = (q, aes_key)
-        if target_txid in root_set and target_txid != q["root_txid"]:
-            edges.append((q["root_txid"], target_txid, "keydrop"))
+        for d in parsed.get("drops") or []:
+            target_txid, aes_key = d["ref_txid"], d["key"]
+            keydrop_resolutions[target_txid] = (q, aes_key)
+            if target_txid in root_set and target_txid != q["root_txid"]:
+                edges.append((q["root_txid"], target_txid, "keydrop"))
 
     # 5. Pre-fetch author pubkeys for all 0x0e quipus in parallel so the
     # popup pre-render (which calls get_txn_pub_from_node for each
@@ -1782,15 +1793,17 @@ def render_encrypted_streamlit(header_bytes, body_bytes, *, root_txid,
         st.warning("Resolver returned None for 0x0e header")
         return
     if resolved["kind"] == "keydrop_quipu" and resolved["status"] == "info":
-        target = resolved["details"]["target_txid"]
-        key_hex = resolved["details"]["aes_key"].hex()
-        st.markdown("🗝 **Key drop** — releases the AES key for:")
-        st.code(target, language=None)
-        st.markdown(f"**Released key:** `{key_hex[:32]}…`")
+        drops = resolved["details"].get("drops") or [
+            {"name": "", "ref_txid": resolved["details"]["target_txid"],
+             "key": resolved["details"]["aes_key"]}]
+        st.markdown(f"🗝 **Key drop** — releases {len(drops)} key(s):")
+        for d in drops:
+            name = f" · **{d['name']}**" if d.get("name") else ""
+            st.code(d["ref_txid"], language=None)
+            st.markdown(f"key `{d['key'].hex()[:32]}…`{name}")
         return
     if resolved["status"] == "decrypted":
-        sub_label = ("AES-sealed (0x0e 0xae)" if resolved["kind"] == "aes_sealed"
-                     else "broadcast (0x0e 0x03)")
+        sub_label = resolved.get("sub_label") or resolved["kind"]
         st.success(f"🔓 unlocked · {sub_label} · via {resolved['via']}")
         inner_h = resolved["inner_header"]
         inner_b = resolved["inner_body"]
@@ -1802,11 +1815,7 @@ def render_encrypted_streamlit(header_bytes, body_bytes, *, root_txid,
             root_txid=root_txid, quipus=quipus, df_out=df_out,
         )
         return
-    sub_label = (
-        "AES-sealed (0x0e 0xae)" if resolved["kind"] == "aes_sealed"
-        else "broadcast (0x0e 0x03)" if resolved["kind"] == "broadcast"
-        else f"unknown ({resolved['details']})"
-    )
+    sub_label = resolved.get("sub_label") or f"unknown ({resolved['details']})"
     st.markdown(f"🔒 **encrypted** · {sub_label}")
     st.caption(
         f"{len(body_bytes)} ciphertext bytes. "
@@ -1864,25 +1873,29 @@ def build_quipu_content_html(q, df_out=None, quipus=None):
         if resolved is None:
             parts.append("<p>(unexpected: 0x0e but resolver returned None)</p>")
         elif resolved["kind"] == "keydrop_quipu" and resolved["status"] == "info":
-            target = resolved["details"]["target_txid"]
-            key_hex = resolved["details"]["aes_key"].hex()
+            drops = resolved["details"].get("drops") or [
+                {"name": "", "ref_txid": resolved["details"]["target_txid"],
+                 "key": resolved["details"]["aes_key"]}]
+            rows = "".join(
+                f"{('<b>' + _html.escape(d['name']) + '</b> · ') if d.get('name') else ''}"
+                f"<code style='font-size:9px; word-break:break-all'>"
+                f"{_html.escape(d['ref_txid'])}</code><br>"
+                f"<span style='color:#888'>key:</span> "
+                f"<code style='font-size:9px'>{_html.escape(d['key'].hex()[:32])}…</code><br>"
+                for d in drops
+            )
             parts.append(
                 f"<div style='font-size:11px; padding:10px; "
                 f"background:#fff8e6; border-radius:4px; color:#5a4a00'>"
-                f"🗝 <b>key drop</b> — releases the AES key for:<br>"
-                f"<code style='font-size:9px; word-break:break-all'>"
-                f"{_html.escape(target)}</code><br>"
-                f"<span style='color:#888'>key:</span> "
-                f"<code style='font-size:9px'>"
-                f"{_html.escape(key_hex[:32])}…</code>"
+                f"🗝 <b>key drop</b> — releases {len(drops)} key(s):<br>"
+                f"{rows}"
                 f"</div>"
             )
         elif resolved["status"] == "decrypted":
             inner_h = resolved["inner_header"]
             inner_b = resolved["inner_body"]
             inner_type = inner_h[4] if len(inner_h) > 4 else None
-            sub_label = ("AES-sealed (0x0e 0xae)" if resolved["kind"] == "aes_sealed"
-                         else "broadcast (0x0e 0x03)")
+            sub_label = resolved.get("sub_label") or resolved["kind"]
             parts.append(
                 f"<div style='font-size:10px; padding:6px 10px; "
                 f"background:#eaf4ea; border-radius:4px; color:#2a5d2a; "
@@ -1896,9 +1909,8 @@ def build_quipu_content_html(q, df_out=None, quipus=None):
                 root_txid=q["root_txid"], quipus=quipus, df_out=df_out,
             ))
         else:  # locked
-            sub_label = ("AES-sealed (0x0e 0xae)" if resolved["kind"] == "aes_sealed"
-                         else "broadcast (0x0e 0x03)" if resolved["kind"] == "broadcast"
-                         else f"unknown ({resolved['details']})")
+            sub_label = (resolved.get("sub_label")
+                         or f"unknown ({resolved['details']})")
             parts.append(
                 f"<div style='font-size:11px; padding:10px; "
                 f"background:#f3eef9; border-radius:4px; color:#555'>"
@@ -2461,8 +2473,8 @@ with tab_plan:
             horizontal=True,
             help="None = plaintext quipu. AES = sealed with the sidebar "
                  "key/password (anyone with the same key decrypts). "
-                 "ECIES Broadcast = per-recipient envelopes from nb17 "
-                 "(image-only on the wire). Encryption is applied after "
+                 "ECIES Broadcast = per-recipient envelopes (canonical "
+                 "0e·ec — any inner type). Encryption is applied after "
                  "you complete the body below.",
         )
 
@@ -2543,7 +2555,7 @@ with tab_plan:
             else:
                 key = _coerce_password_input(sb_key)
                 outer_h, outer_b = ct.build_aes_sealed_quipu(
-                    header_bytes, body_bytes, key
+                    header_bytes, body_bytes, key, title=title
                 )
                 header_bytes = outer_h
                 body_bytes = outer_b
@@ -2565,12 +2577,9 @@ with tab_plan:
                     "Load a key in the sidebar first — the author privkey "
                     "is needed to seal envelopes for each recipient."
                 )
-            elif qtype != "image":
-                st.warning(
-                    "ECIES Broadcast (0x0e 0x03) is the image-specific "
-                    "format from nb17. For text/essay use AES."
-                )
             else:
+                # Canonical 0e·ec seals ANY inner type (the old nb17 0e 03
+                # layout was image-only; it is never written anymore).
                 st.caption(
                     "One recipient slot per line. Within a line, "
                     "comma-separated tokens are **combined** into a single "
@@ -2635,8 +2644,11 @@ with tab_plan:
                             unsafe_allow_html=True,
                         )
 
-                    inner_struct = header_bytes[4:header_bytes.index(b"|")]
-                    title_field = header_bytes[header_bytes.index(b"|"):]
+                    pipe_at = header_bytes.find(b"|")
+                    if pipe_at < 0:
+                        pipe_at = len(header_bytes)
+                    inner_struct = header_bytes[4:pipe_at]
+                    title_field = header_bytes[pipe_at:]
                     priv = eth_keys.keys.PrivateKey(
                         bytes.fromhex(st.session_state.priv_hex)
                     )

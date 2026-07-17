@@ -116,21 +116,20 @@ def resolve_ref(txid, name, fetcher):
 
     # ---- 0x0e encrypted family — keydrop entries can be cited by drop name ----
     if type_byte == 0x0e:
-        sub_family = blob[6] if len(blob) > 6 else None
-        if sub_family != 0x0d:
+        from encrypted import read_encrypted_quipu
+        import colegio_pipeline as P
+        # Read with no key — the keydrop body is plaintext. split_blob is
+        # era-aware (canonical 8-byte structural header vs the pre-canonical
+        # 7-byte 0e 0e 0d layout).
+        header, body = P.split_blob(blob)
+        parsed_drop = read_encrypted_quipu(header, body)
+        drops = parsed_drop.get('drops')
+        if drops is None:
             raise ValueError(
                 f"txid {txid[:12]}... is encrypted but not a keydrop "
-                f"(sub_family {sub_family:#04x}); only keydrops support "
+                f"(sub {parsed_drop.get('sub_name')}); only keydrops support "
                 f"<<txid>><<name>> citations within the encrypted family"
             )
-        from encrypted import read_encrypted_quipu
-        # Read with no key — the keydrop body is plaintext
-        # The encrypted reader expects (header_bytes, body_bytes) split, but for
-        # keydrops the header is just 8 structural bytes; everything after is body.
-        header = blob[:8]
-        body   = blob[8:]
-        parsed_drop = read_encrypted_quipu(header, body)
-        drops = parsed_drop.get('drops', [])
         if not name:
             raise ValueError(
                 "empty-string name cannot match a drop; "
@@ -285,25 +284,25 @@ def resolve_and_decrypt(keydrop_txid, drop_name, fetcher):
             f"keydrops only release keys for encrypted quipus"
         )
 
-    hdr_end = 8
-    if hdr_end < len(blob) and blob[hdr_end:hdr_end + 1] == b"|":
-        close = blob.find(b"|", hdr_end + 1)
-        if close < 0:
-            raise ValueError(f"target {ref_txid[:12]}… header has unterminated |title|")
-        hdr_end = close + 1
-    target_header = blob[:hdr_end]
-    target_body   = blob[hdr_end:]
-
-    sub = target_header[6]
-    from encrypted import read_encrypted_quipu, SUB_AES, SUB_ECIES
-    if sub == SUB_AES:
-        return read_encrypted_quipu(target_header, target_body, key=key)
-    if sub == SUB_ECIES:
-        return read_encrypted_quipu(target_header, target_body, session_key=key)
-    raise ValueError(
-        f"target {ref_txid[:12]}… has sub-family 0x{sub:02x}; "
-        f"keydrops can only unlock 0xae (AES) or 0xec (ECIES) targets"
-    )
+    import colegio_pipeline as P
+    from encrypted import open_with_key, read_encrypted_quipu, classify_encrypted
+    target_header, target_body = P.split_blob(blob)
+    cls = classify_encrypted(target_header)
+    if cls == "canonical":
+        sub = target_header[6]
+        from encrypted import SUB_AES, SUB_ECIES
+        if sub == SUB_AES:
+            return read_encrypted_quipu(target_header, target_body, key=key)
+        if sub == SUB_ECIES:
+            return read_encrypted_quipu(target_header, target_body, session_key=key)
+        raise ValueError(
+            f"target {ref_txid[:12]}… has sub-family 0x{sub:02x}; "
+            f"keydrops can only unlock 0xae (AES) or 0xec (ECIES) targets"
+        )
+    # pre-canonical target (legacy broadcast / AES splice)
+    inner_header, inner_body = open_with_key(target_header, target_body, key)
+    return {"sub_name": cls, "legacy": True, "inner_header": inner_header,
+            "inner_body": inner_body, "magic_ok": inner_header[:4] == MAGIC}
 
 
 # ---------------------------------------------------------------------------

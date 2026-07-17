@@ -68,6 +68,16 @@ Used in: notebooks 12, 13, 14, 15, 16, La Verna.
 
 ### `0x0e` — Encrypted (broadcast or opaque)
 
+> **Era note (July 2026).** The layouts in this section are the
+> **pre-canonical** (nb17/nb18, 2022) wire formats. Four such inscriptions
+> exist on mainnet (`d68175`, `d0209a` broadcasts; `89b51b`, `f278e4`
+> keydrops) and stay legible forever, but the formats are **read-only**:
+> all writers now emit canonical v1 (`0e <tone> ae/ec/0d …`), and
+> `canonical/encrypted.py` is the single parsing implementation — it
+> classifies the era from the header bytes and reads both. See
+> `docs/design/encrypted-wire-reconciliation.md` and
+> `tests/test_encrypted_wire.py`.
+
 Byte 4 = `0x0e` indicates encrypted content. Two sub-forms appear:
 
 **Encrypted-image broadcast** (byte 5 = `0x03`):

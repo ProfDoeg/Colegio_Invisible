@@ -134,12 +134,38 @@ def _image_header_body_offset(blob):
     return 12
 
 
+def _pipe_span_end(blob, start):
+    """End offset of an optional |title| span starting at `start`; `start`
+    itself if there is no complete |…| there."""
+    if blob[start:start + 1] != b"|":
+        return start
+    close = blob.find(b"|", start + 1)
+    return start if close < 0 else close + 1
+
+
 def _encrypted_header_body_offset(blob):
     """0x0e: 8 structural bytes + optional pipe header fields (outer title,
     centinela descriptor…), then binary ciphertext as the body. The reader
     expects the pipe fields INSIDE the header. Header fields are UTF-8
     text, ciphertext is not — scan fields while they decode cleanly; the
-    first non-text 'field' is ciphertext and ends the header."""
+    first non-text 'field' is ciphertext and ends the header.
+
+    Legacy (pre-canonical 2022) layouts have different structural prefixes:
+    keydrop  c1dd0001 0e 0e 0d |title|         → 7 bytes + title span
+    broadcast c1dd0001 0e <t><c><LL><WW><B><N> |title| → 13 bytes + title span
+    AES splice c1dd0001 0e ae <inner_header[4:]> → 2 + the inner header's span
+    """
+    from encrypted import classify_encrypted
+    cls = classify_encrypted(blob[:min(len(blob), 4096)])
+    if cls == "legacy_drop":
+        return _pipe_span_end(blob, 7)
+    if cls == "legacy_broadcast":
+        return _pipe_span_end(blob, 13)
+    if cls == "legacy_aes":
+        # The spliced outer header is the inner header shifted by 2 bytes;
+        # split the reconstructed inner blob and shift the offset back.
+        inner = blob[:4] + blob[6:]
+        return _header_body_offset_for_type(inner) + 2
     if blob[8:9] != b"|":
         return 8
     off = 8
@@ -187,25 +213,30 @@ def _file_header_body_offset(blob):
     return off
 
 
-def split_blob(blob):
-    """Split header||body for any supported type. Returns (header, body)."""
+def _header_body_offset_for_type(blob):
+    """Header/body split offset for any offset-splittable type (not 0xCE)."""
     t = type_of(blob)
     if t == 0x03:
-        off = _image_header_body_offset(blob)
-    elif t == 0x07:
-        off = _sound_header_body_offset(blob)
-    elif t == 0xCE:
+        return _image_header_body_offset(blob)
+    if t == 0x07:
+        return _sound_header_body_offset(blob)
+    if t == 0x09:
+        return _find_body_start(blob)
+    if t == 0x0F:
+        return _file_header_body_offset(blob)
+    if t == 0xCC:               # cert: 8 structural bytes (magic+type+tone+subtype);
+        return 8                # the |…| fields belong to the BODY per read_cert
+    if t == 0x0E:
+        return _encrypted_header_body_offset(blob)
+    # 0x00 text, 0x01 essay, 0x5c latex, 0xab binding
+    return _pipe_header_body_offset(blob)
+
+
+def split_blob(blob):
+    """Split header||body for any supported type. Returns (header, body)."""
+    if type_of(blob) == 0xCE:
         return _split_concat(blob)
-    elif t == 0x09:
-        off = _find_body_start(blob)
-    elif t == 0x0F:
-        off = _file_header_body_offset(blob)
-    elif t == 0xCC:             # cert: 8 structural bytes (magic+type+tone+subtype);
-        off = 8                 # the |…| fields belong to the BODY per read_cert
-    elif t == 0x0E:
-        off = _encrypted_header_body_offset(blob)
-    else:                       # 0x00 text, 0x01 essay, 0x5c latex, 0xab binding
-        off = _pipe_header_body_offset(blob)
+    off = _header_body_offset_for_type(blob)
     return blob[:off], blob[off:]
 
 
