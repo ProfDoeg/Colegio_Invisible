@@ -548,6 +548,105 @@ def build_performance(title, graph, controllers, default_controller=0, tone=TONE
 # Reader
 # ---------------------------------------------------------------------------
 
+def deinterleave_modulo(blob, n_strands, knot=80):
+    """Invert a MODULO strand split for a contiguously-assembled blob.
+
+    Jeremy (the first 0xda inscription) was split modulo — strand i carries
+    knots[i::N] — while the canonical assembly convention is contiguous
+    ranges; a contiguous read therefore permutes his payload (a documented
+    pre-canonical exception: STATUS.md, the estandarte's pre-canonical
+    convention — deviations are errata, kept readable, never rewritten).
+    Given the strand count N (the join's input count on a live node), this
+    restores the original: blob_knot[i + m*N] = strand_knots[i][m]. The
+    final short knot lands at the end of strand (K-1) % N.
+    """
+    K = math.ceil(len(blob) / knot)
+    short_len = len(blob) - (K - 1) * knot
+    s_short = (K - 1) % n_strands
+    out = [None] * K
+    pos = 0
+    for i in range(n_strands):
+        c = len(range(i, K, n_strands))
+        for m in range(c):
+            ln = short_len if (i == s_short and m == c - 1) else knot
+            out[i + m * n_strands] = blob[pos:pos + ln]; pos += ln
+    if pos != len(blob):
+        raise ValueError(
+            f"modulo de-interleave at N={n_strands} does not tile the blob")
+    return b"".join(out)
+
+
+def read_dancer_recovered(header_bytes, body_bytes, n_candidates=range(2, 3000)):
+    """read_dancer, with the documented pre-canonical recovery: if the
+    contiguous assembly does not parse, scan modulo de-interleaves for a
+    strand count whose reassembly does. Returns (parsed, n_strands) where
+    n_strands is None for a clean contiguous read. General — no per-txid
+    knowledge; the scan cheaply screens each N by frame-0 sanity before
+    attempting a full parse."""
+    try:
+        return read_dancer(header_bytes, body_bytes), None
+    except Exception:
+        pass
+    blob = bytes(header_bytes) + bytes(body_bytes)
+    if len(blob) < 100 or blob[4] != TYPE_DANCER:
+        raise ValueError("not a recoverable dancer blob")
+    tlen = blob[7]
+    hlen = 8 + tlen
+    # split-agnostic first (the strand-split bug class): quipuread hands
+    # strand 0 whole as the header, so re-split the JOINED blob at the
+    # structural boundary before suspecting the assembly itself
+    try:
+        return read_dancer(blob[:hlen], blob[hlen:]), None
+    except Exception:
+        pass
+    variant = blob[6]
+    for N in n_candidates:
+        try:
+            cand = deinterleave_modulo(blob, N)
+        except ValueError:
+            continue
+        # cheap screen: only the bytes past knot 0 change with N, so a sane
+        # frame-0 record gates the expensive parse (performance/inline shape;
+        # other variants go straight to the full try)
+        if variant == VAR_PERFORMANCE and not _screen_perf_frame0(cand[hlen:]):
+            continue
+        try:
+            parsed = read_dancer(cand[:hlen], cand[hlen:])
+        except Exception:
+            continue
+        return parsed, N
+    raise ValueError(
+        "dancer blob parses under no assembly (contiguous or modulo 2..2999)")
+
+
+def _screen_perf_frame0(body):
+    """Sanity of the first frame record of a performance body's first inline
+    footage — enough to reject a wrong de-interleave in microseconds."""
+    try:
+        if body[1] != FOOT_INLINE:
+            return True                      # ref footage — nothing to screen
+        pal_n = body[2]
+        ib = body[5]
+        o = 6 + pal_n * 3
+        nw, nh, _fps = struct.unpack(">HHB", body[o:o + 5]); o += 5
+        o += 2                               # keyint
+        if not (0 < nw <= 4096 and 0 < nh <= 4096 and 1 <= ib <= 8):
+            return False
+        cx, cy = struct.unpack(">ff", body[o:o + 8]); o += 8
+        facing, flag = body[o], body[o + 1]; o += 2
+        if not (-0.5 <= cx <= 1.5 and -0.5 <= cy <= 2.0):
+            return False
+        if facing > 4 or flag > 1:
+            return False
+        if flag == 0:
+            x, y, w, h = struct.unpack(">HHHH", body[o:o + 8])
+            if not (w > 0 and h > 0 and x + w <= nw and y + h <= nh):
+                return False
+        return True
+    except Exception:
+        return False
+
+
 def read_dancer(header_bytes, body_bytes):
     if header_bytes[:4] != MAGIC:
         raise ValueError("bad magic")

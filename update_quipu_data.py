@@ -71,7 +71,7 @@ TYPE_NAMES = {
     0x3d: "scene",
     0x5c: "latex",
     0xab: "binding", 0xcc: "cert",
-    0xce: "celestial", 0xee: "estandarte",
+    0xce: "celestial", 0xda: "dancer", 0xee: "estandarte",
 }
 
 
