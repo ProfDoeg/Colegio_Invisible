@@ -3,10 +3,13 @@
   "slug": "templar",
   "title": "The Order of the Temple as a transfer network, from the founding to the suppression",
   "years": "1119–1312",
-  "period": { "from": 1119, "to": 1312 },
+  "period": {
+    "from": 1119,
+    "to": 1312
+  },
   "calendar": "julian",
   "register": "documentary, the ledger is the argument",
-  "summary": "A pilgrim deposited silver in one house and drew it in another against a letter, so the money travelled as writing while the metal stayed put. The network that carried it was a religious order with houses from the Atlantic to the Jordan, and it ended by decree in 1312 rather than by decline.",
+  "summary": "A pilgrim deposited silver in one house and drew it in another against a letter, so the money travelled as writing while the metal stayed put. The network that carried it was a religious order with houses from the Atlantic to the Jordan, fed by manors and vineyards along the Rhine, and it ended by decree in 1312 rather than by decline.",
   "nodes": [
     {
       "name": "Jerusalem",
@@ -172,7 +175,6 @@
         "https://en.wikipedia.org/wiki/History_of_the_Knights_Templar"
       ]
     },
-
     {
       "name": "The Order of the Temple",
       "ntype": "agent",
@@ -233,7 +235,6 @@
         "https://www.british-history.ac.uk/vch/london/vol1/pp485-491"
       ]
     },
-
     {
       "name": "Paris Temple treasury",
       "ntype": "resource",
@@ -263,47 +264,321 @@
       "sources": [
         "https://www.british-history.ac.uk/vch/london/vol1/pp485-491"
       ]
+    },
+    {
+      "name": "Mainz, Templerhof",
+      "ntype": "place",
+      "lat": 49.9929,
+      "lng": 8.2473,
+      "born": 1150,
+      "died": 1312,
+      "born_confidence": "approximate",
+      "died_confidence": "attested",
+      "locus_confidence": "attested",
+      "region": "Electorate of Mainz",
+      "modern": "Mainz, Germany",
+      "note": "The regional court for the Rhenish holdings, an agrarian and viticultural footprint rather than a fortress, from the middle of the twelfth century.",
+      "sources": [
+        "https://www.romantischer-rhein.de/en/a-templerhof"
+      ]
+    },
+    {
+      "name": "Klein-Winternheim",
+      "ntype": "resource",
+      "lat": 49.9347,
+      "lng": 8.1839,
+      "born": 1150,
+      "died": 1312,
+      "born_confidence": "approximate",
+      "died_confidence": "attested",
+      "locus_confidence": "attested",
+      "region": "Electorate of Mainz",
+      "modern": "Klein-Winternheim, Germany",
+      "note": "A grange and vineyard holding south of Mainz. The order's wealth here was grown, not deposited.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Klein-Winternheim"
+      ]
+    },
+    {
+      "name": "Rötgen, Rheingau",
+      "ntype": "resource",
+      "lat": 50.03,
+      "lng": 8.02,
+      "born": null,
+      "died": 1312,
+      "born_confidence": "unattested",
+      "died_confidence": "attested",
+      "locus_confidence": "approximate",
+      "region": "Rheingau",
+      "modern": "Rheingau wine region, Germany",
+      "note": "An estate and vineyard on the right bank, named in Addison's roll of Rhenish holdings. The estate is attested; the exact locus is not, so it is placed in the Rheingau generally rather than pinned to a point.",
+      "sources": [
+        "https://sacred-texts.com/sro/hkt/hkt07.htm"
+      ]
+    },
+    {
+      "name": "Boppard, Templerhaus",
+      "ntype": "place",
+      "lat": 50.2314,
+      "lng": 7.5906,
+      "born": 1234,
+      "died": 1312,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "locus_confidence": "attested",
+      "region": "Middle Rhine",
+      "modern": "Boppard, Germany",
+      "note": "A fortified court in the gorge. The stone house survives, first mentioned in 1234 and built between about 1200 and 1240 in late Romanesque. The building and its date are firm; the Templar attribution is traditional rather than documented, and the name it carries is the tradition.",
+      "sources": [
+        "https://www.regionalgeschichte.net/mittelrhein/boppard/kulturdenkmaeler/templerhaus.html",
+        "https://www.instagram.com/reel/DZqdR9OCaHU/"
+      ]
+    },
+    {
+      "name": "Nürburg",
+      "ntype": "place",
+      "lat": 50.3269,
+      "lng": 6.9506,
+      "born": null,
+      "died": 1312,
+      "born_confidence": "unattested",
+      "died_confidence": "attested",
+      "locus_confidence": "approximate",
+      "region": "Eifel",
+      "modern": "Nürburg, Germany",
+      "note": "Named among the Rhenish assets in the territorial rolls. The reference is a listing rather than a description, so little beyond the name is claimed here.",
+      "sources": [
+        "https://sacred-texts.com/sro/hkt/hkt07.htm"
+      ]
     }
   ],
-
   "edges": [
-    { "from": "London, New Temple", "to": "Paris, Maison du Temple", "etype": "credit", "directed": false, "weight": null,
-      "note": "The busiest leg of the letter system, joining the two royal treasuries." },
-    { "from": "Paris, Maison du Temple", "to": "Acre", "etype": "credit", "directed": false, "weight": null,
-      "note": "Deposits made in France drawn in the East." },
-    { "from": "London, New Temple", "to": "Jerusalem", "etype": "credit", "directed": false, "weight": null,
-      "note": "Deposit in London, withdrawal in Jerusalem, against a letter carried in place of the coin. Ends with the city in 1187." },
-    { "from": "Paris, Maison du Temple", "to": "Jerusalem", "etype": "credit", "directed": false, "weight": null },
-    { "from": "Barcelona", "to": "Acre", "etype": "credit", "directed": false, "weight": null },
-    { "from": "Tomar", "to": "Paris, Maison du Temple", "etype": "credit", "directed": false, "weight": null },
-    { "from": "Monzón", "to": "Barcelona", "etype": "credit", "directed": false, "weight": null },
-    { "from": "Crown of France", "to": "Paris Temple treasury", "etype": "credit", "directed": true, "weight": null,
-      "note": "Taxes and revenues lodged in the keep." },
-    { "from": "Crown of England", "to": "New Temple treasury", "etype": "credit", "directed": true, "weight": null,
-      "note": "500 marks for the Poitou expedition in 1221, and the wardrobe in 1225." },
-
-    { "from": "Marseille", "to": "Acre", "etype": "sea_lane", "directed": false, "weight": 2400.0 },
-    { "from": "Barcelona", "to": "Acre", "etype": "sea_lane", "directed": false, "weight": 2900.0 },
-    { "from": "Marseille", "to": "Limassol", "etype": "sea_lane", "directed": false, "weight": 2200.0 },
-    { "from": "La Rochelle", "to": "London, New Temple", "etype": "sea_lane", "directed": false, "weight": 700.0,
-      "note": "The wine route north." },
-
-    { "from": "Paris, Maison du Temple", "to": "Marseille", "etype": "road", "directed": false, "weight": 660.0 },
-    { "from": "Paris, Maison du Temple", "to": "La Rochelle", "etype": "road", "directed": false, "weight": 420.0 },
-    { "from": "Tomar", "to": "Barcelona", "etype": "road", "directed": false, "weight": 950.0 },
-    { "from": "Monzón", "to": "Barcelona", "etype": "road", "directed": false, "weight": 180.0 },
-
-    { "from": "The Templar fleet", "to": "Marseille", "etype": "relay", "directed": false, "weight": null },
-    { "from": "The Templar fleet", "to": "Barcelona", "etype": "relay", "directed": false, "weight": null },
-    { "from": "The Templar fleet", "to": "La Rochelle", "etype": "relay", "directed": false, "weight": null },
-    { "from": "The Templar fleet", "to": "Limassol", "etype": "relay", "directed": false, "weight": null },
-
-    { "from": "The Order of the Temple", "to": "Jerusalem", "etype": "relay", "directed": false, "weight": null },
-    { "from": "The Order of the Temple", "to": "Acre", "etype": "relay", "directed": false, "weight": null },
-    { "from": "The Order of the Temple", "to": "Paris, Maison du Temple", "etype": "relay", "directed": false, "weight": null },
-    { "from": "The Order of the Temple", "to": "Limassol", "etype": "relay", "directed": false, "weight": null }
+    {
+      "from": "London, New Temple",
+      "to": "Paris, Maison du Temple",
+      "etype": "credit",
+      "directed": false,
+      "weight": null,
+      "note": "The busiest leg of the letter system, joining the two royal treasuries."
+    },
+    {
+      "from": "Paris, Maison du Temple",
+      "to": "Acre",
+      "etype": "credit",
+      "directed": false,
+      "weight": null,
+      "note": "Deposits made in France drawn in the East."
+    },
+    {
+      "from": "London, New Temple",
+      "to": "Jerusalem",
+      "etype": "credit",
+      "directed": false,
+      "weight": null,
+      "note": "Deposit in London, withdrawal in Jerusalem, against a letter carried in place of the coin. Ends with the city in 1187."
+    },
+    {
+      "from": "Paris, Maison du Temple",
+      "to": "Jerusalem",
+      "etype": "credit",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Barcelona",
+      "to": "Acre",
+      "etype": "credit",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Tomar",
+      "to": "Paris, Maison du Temple",
+      "etype": "credit",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Monzón",
+      "to": "Barcelona",
+      "etype": "credit",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Crown of France",
+      "to": "Paris Temple treasury",
+      "etype": "credit",
+      "directed": true,
+      "weight": null,
+      "note": "Taxes and revenues lodged in the keep."
+    },
+    {
+      "from": "Crown of England",
+      "to": "New Temple treasury",
+      "etype": "credit",
+      "directed": true,
+      "weight": null,
+      "note": "500 marks for the Poitou expedition in 1221, and the wardrobe in 1225."
+    },
+    {
+      "from": "Marseille",
+      "to": "Acre",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 2400.0
+    },
+    {
+      "from": "Barcelona",
+      "to": "Acre",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 2900.0
+    },
+    {
+      "from": "Marseille",
+      "to": "Limassol",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 2200.0
+    },
+    {
+      "from": "La Rochelle",
+      "to": "London, New Temple",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 700.0,
+      "note": "The wine route north."
+    },
+    {
+      "from": "Paris, Maison du Temple",
+      "to": "Marseille",
+      "etype": "road",
+      "directed": false,
+      "weight": 660.0
+    },
+    {
+      "from": "Paris, Maison du Temple",
+      "to": "La Rochelle",
+      "etype": "road",
+      "directed": false,
+      "weight": 420.0
+    },
+    {
+      "from": "Tomar",
+      "to": "Barcelona",
+      "etype": "road",
+      "directed": false,
+      "weight": 950.0
+    },
+    {
+      "from": "Monzón",
+      "to": "Barcelona",
+      "etype": "road",
+      "directed": false,
+      "weight": 180.0
+    },
+    {
+      "from": "The Templar fleet",
+      "to": "Marseille",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Templar fleet",
+      "to": "Barcelona",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Templar fleet",
+      "to": "La Rochelle",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Templar fleet",
+      "to": "Limassol",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Order of the Temple",
+      "to": "Jerusalem",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Order of the Temple",
+      "to": "Acre",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Order of the Temple",
+      "to": "Paris, Maison du Temple",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Order of the Temple",
+      "to": "Limassol",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Mainz, Templerhof",
+      "to": "Rötgen, Rheingau",
+      "etype": "river",
+      "directed": true,
+      "weight": 30.0,
+      "note": "Downstream through the Rheingau, where the Rhine runs west."
+    },
+    {
+      "from": "Rötgen, Rheingau",
+      "to": "Boppard, Templerhaus",
+      "etype": "river",
+      "directed": true,
+      "weight": 70.0,
+      "note": "Downstream through the gorge below Bingen."
+    },
+    {
+      "from": "Klein-Winternheim",
+      "to": "Mainz, Templerhof",
+      "etype": "road",
+      "directed": false,
+      "weight": 9.0
+    },
+    {
+      "from": "Nürburg",
+      "to": "Boppard, Templerhaus",
+      "etype": "road",
+      "directed": false,
+      "weight": 55.0
+    },
+    {
+      "from": "The Order of the Temple",
+      "to": "Mainz, Templerhof",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Order of the Temple",
+      "to": "Boppard, Templerhaus",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    }
   ],
-
   "sources": [
     "https://en.wikipedia.org/wiki/History_of_the_Knights_Templar",
     "https://www.british-history.ac.uk/vch/london/vol1/pp485-491",
@@ -311,6 +586,9 @@
     "https://www.usni.org/magazines/naval-history-magazine/2023/april/elusive-fleet-knights-templar",
     "https://en.wikipedia.org/wiki/Siege_of_Acre_(1291)",
     "https://kolossipreceptory684.com/history-of-the-knights-templar-in-cyprus/",
-    "https://www.worldhistory.org/Knights_Templar/"
+    "https://www.worldhistory.org/Knights_Templar/",
+    "https://www.romantischer-rhein.de/en/a-templerhof",
+    "https://sacred-texts.com/sro/hkt/hkt07.htm",
+    "https://www.regionalgeschichte.net/mittelrhein/boppard/kulturdenkmaeler/templerhaus.html"
   ]
 }
