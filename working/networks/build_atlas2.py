@@ -180,7 +180,7 @@ APP = r"""
       ? new THREE.Vector3((Math.random()-.5)*.3,(Math.random()-.5)*.3,(Math.random()-.5)*.3)
       : llv(n.lat,n.lng,SURF));
     net.free = [];
-    net.nodes.forEach((n,i)=>{ if(n.abstract) net.free.push({i:i, nbr:[], v:new THREE.Vector3()}); });
+    net.nodes.forEach((n,i)=>{ if(n.abstract) net.free.push({i:i, nbr:[]}); });
     const byI = {}; net.free.forEach(f=>byI[f.i]=f);
     net.edges.forEach(e=>{ if(byI[e.a]) byI[e.a].nbr.push(e.b);
                            if(byI[e.b]) byI[e.b].nbr.push(e.a); });
@@ -200,11 +200,16 @@ APP = r"""
         for(const g of net.free){        // keep several of them apart
           if(g===f) continue;
           const d=new THREE.Vector3().subVectors(net.POS[f.i],net.POS[g.i]);
-          const l=d.lengthSq()+1e-4;
-          if(l<0.09) t.addScaledVector(d.normalize(), 0.05/l);
+          const l=d.length();
+          // a soft shove that fades to nothing at the separation distance,
+          // rather than an inverse-square that spikes and rings
+          if(l>1e-5 && l<0.13) t.addScaledVector(d.divideScalar(l), (0.13-l)*0.5);
         }
-        f.v.addScaledVector(t.sub(net.POS[f.i]), Math.min(1, dt*3.0)).multiplyScalar(0.86);
-        net.POS[f.i].add(f.v);
+        // Move straight toward the rest point, no velocity. The neighbours are
+        // PINNED, so the target barely moves; carrying momentum only made the
+        // member overshoot it and swing back forever. Exponential smoothing is
+        // critically damped by construction: it converges and then stops.
+        net.POS[f.i].lerp(t, 1 - Math.pow(0.02, dt));
       }
     }
   }
