@@ -61,3 +61,7 @@ Independent structure + canon-fidelity pass. Register preserved — every mythic
 **Stop count.** 26 stops sits inside the 25–40 target; the canon is fully represented (life + all five treasures + tomb). No stops added.
 
 Re-validated with Python after edits: parses clean, 26/7/19, all word counts in range. Three in-place repairs total (mausoleum coordinate, Quran 18:95–96 wording, one campa word count).
+
+---
+
+**INTERLOCK 2026-07-13.** Return-the-gaze pass after the Bourlémont journeys landed. At "The death of Afaq — grief woven into the poems" (Ganja, 1180-01-01, the stop whose date holds Pierre's winter at court), wove the young Frank into the campa: Nizami makes room at his hearth for the merchant's boy Pierre Bourlémont, come on his father's trade-and-diplomacy mission, and tells him the Shahnameh — Rostam and Sohrab, Bijan's cipher, Zal's serenade, the Azhdaha whose skin cures the wounds of the heart. To fit 110 words the "twice more a wife is taken" sentence was traded out; the grief frame and closing lines kept whole. Canon: essays/instagram/2023-01-23-a-nizami-le-gusto-pierre-bourlemont.md, essays/instagram/2023-01-14-la-familia-bourlemont-de-domremy-y.md (both added to the stop's sources, with pierre_bourlemont.journey.json). Pin note: this file's Ganja stops scatter across the city (40.681–40.686); pierre_bourlemont's Ganja pin 40.683/46.36 equals the city stop's 40.683/46.360 numerically but not byte-for-byte (trailing zero). Re-validated: OK, 26 stops, no WARN.

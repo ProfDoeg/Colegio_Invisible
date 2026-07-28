@@ -45,3 +45,6 @@ Independent structure and canon-fidelity check of `reich.journey.json`. The file
 5. **Stop count** — 49 stops, inside the 45–65 target; no additions required.
 
 The myth stands as written: the orgone real, the rain real, the burnings documented fact.
+
+## Pin normalization — 2026-07-13
+Berggasse 19 stop (1919-11-01) repinned 48.218,16.361 → 48.2191,16.3632 to byte-match the freud + jung shared Berggasse pin established by the freud journey (atlas convention: shared sites carry byte-identical sibling pins).

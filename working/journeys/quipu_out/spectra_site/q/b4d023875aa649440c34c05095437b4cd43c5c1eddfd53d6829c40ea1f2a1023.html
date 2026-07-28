@@ -1,0 +1,529 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>The Lineage</title><style>
+:root{--bg:#0d0d0f;--ink:#e7e3d8;--muted:#8a8f99;--line:#23232a;--tone:#6b7280;--link:#6faed9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font:16px/1.6 ui-serif,Georgia,'Times New Roman',serif}
+header{display:flex;align-items:baseline;gap:.8rem;padding:1rem 1.4rem;
+ border-bottom:1px solid var(--line)}
+.brand{font:700 1.2rem ui-monospace,Menlo,monospace;color:var(--ink);
+ text-decoration:none;letter-spacing:.04em}
+.sub{color:var(--muted);font-size:.85rem}
+main{max-width:880px;margin:0 auto;padding:1.6rem 1.4rem 4rem}
+.muted{color:var(--muted)} .err{color:#e03131;font-size:.85rem}
+.lead h1{font:600 2rem ui-serif,Georgia,serif;margin:.2rem 0}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));
+ gap:.9rem;margin-top:1.4rem}
+.card{display:flex;flex-direction:column;gap:.35rem;padding:.9rem 1rem;
+ text-decoration:none;color:var(--ink);background:#131319;border:1px solid var(--line);
+ border-left:3px solid var(--tone);border-radius:6px;transition:.12s}
+.card:hover{background:#17171f;transform:translateY(-1px)}
+.c-type{font:600 .7rem ui-monospace,monospace;color:var(--tone);
+ text-transform:uppercase;letter-spacing:.08em}
+.c-title{font-size:1rem;line-height:1.3}
+.c-tone{font-size:.75rem;color:var(--muted);margin-top:auto}
+.quipu{border-left:3px solid var(--tone);padding-left:1.2rem}
+.scene3d{margin:1rem 0}
+.scene3d .s3-stage{position:relative;height:68vh;min-height:420px;border:1px solid var(--line);
+ border-radius:6px;overflow:hidden;background:#000}
+.scene3d canvas{display:block}
+.s3-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+ background:rgba(10,10,12,.55);color:#e7e3d8;font:600 .95rem ui-monospace,Menlo,monospace;
+ cursor:pointer;z-index:2;text-align:center;padding:1rem;transition:opacity .3s}
+.s3-hint.hide{opacity:0;pointer-events:none}
+.s3-hint.soft{background:transparent;pointer-events:none;align-items:flex-end;
+ justify-content:flex-start;color:#8a8f99}
+.s3-plaque{position:absolute;top:.7rem;left:50%;transform:translateX(-50%);
+ background:rgba(12,12,16,.78);border:1px solid var(--line);color:#e7e3d8;
+ padding:.35rem .8rem;border-radius:6px;font:.8rem ui-monospace,Menlo,monospace;
+ opacity:0;transition:opacity .25s;z-index:3;max-width:80%}
+.s3-plaque.show{opacity:1}
+.s3-dossier{margin-top:.6rem;border:1px solid var(--line);border-radius:6px;
+ padding:.85rem 1.1rem;background:#131319;overflow:auto}
+.s3-dossier:empty{display:none}
+.s3d-head{display:flex;align-items:baseline;gap:.7rem;flex-wrap:wrap;margin-bottom:.3rem}
+.s3d-name{font:600 1.05rem ui-serif,Georgia,serif;color:#e7e3d8}
+.s3d-date{font:.74rem ui-monospace,Menlo,monospace;color:var(--muted)}
+.s3d-tag{font:.66rem ui-monospace,Menlo,monospace;color:var(--muted);opacity:.75;margin-left:auto}
+.s3d-imgwrap{float:right;margin:.2rem 0 .5rem .9rem;max-width:220px}
+.s3d-img{max-width:220px;max-height:200px;border-radius:4px;display:block}
+.s3d-key{font:600 .62rem ui-monospace,Menlo,monospace;color:#8a8f99;
+ text-transform:uppercase;letter-spacing:.08em;margin-top:.5rem}
+.s3d-text{font:.9rem/1.6 ui-serif,Georgia,serif;color:#d9d5ca;margin:.15rem 0}
+blockquote.s3d-text{border-left:2px solid var(--line);padding-left:.6rem;
+ margin:.15rem 0;font-style:italic}
+.s3d-link{display:inline-block;font:.75rem ui-monospace,Menlo,monospace;
+ color:var(--link);margin:.45rem .7rem 0 0;text-decoration:none}
+.scene3d figcaption{color:var(--muted);font-size:.85rem;margin-top:.5rem}
+.corrected-h{font:600 1.25rem ui-serif,Georgia,serif;margin:2rem 0 .6rem;
+ padding-top:1.2rem;border-top:1px solid var(--line)}
+.q-head h1{font:600 2rem ui-serif,Georgia,serif;margin:.2rem 0}
+.q-prov{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .9rem;
+ margin:-1rem 0 1.4rem}
+.q-block{font:600 .72rem ui-monospace,Menlo,monospace;color:var(--muted)}
+.q-txid{font:.68rem/1.4 ui-monospace,Menlo,monospace;color:var(--muted);opacity:.6;
+ word-break:break-all}
+.q-meta{display:flex;gap:.5rem;flex-wrap:wrap;margin:.4rem 0 1.4rem}
+.pill{font:600 .72rem ui-monospace,monospace;padding:.2rem .55rem;border-radius:999px;
+ border:1px solid var(--line)}
+.pill.type{color:var(--tone);border-color:var(--tone)}
+.pill.tone{color:var(--muted)}
+.edition{font:600 .72rem ui-monospace,monospace;padding:.2rem .55rem;border-radius:999px}
+.edition.current{color:#12b886;border:1px solid #12b886}
+.edition.superseded{color:var(--muted);border:1px solid var(--line)}
+.text{white-space:pre-wrap;font:1.05rem/1.7 ui-serif,Georgia,serif;margin:0}
+.essay :is(h1,h2,h3){font-family:ui-serif,Georgia,serif}
+.essay img,.image img,.celestial img{max-width:100%;border-radius:6px}
+.essay a{color:var(--link)} .essay a:hover{color:#8fc7e8}
+.image{margin:0;image-rendering:pixelated}
+.image figcaption,.celestial figcaption{color:var(--muted);font-size:.8rem;margin-top:.4rem}
+.latex pre,.raw pre{white-space:pre-wrap;word-break:break-word;background:#131319;
+ border:1px solid var(--line);border-radius:6px;padding:1rem;font:.85rem ui-monospace,monospace}
+.tag{color:var(--muted);font-size:.78rem}
+.book-toc{border:1px solid var(--line);border-radius:6px;padding:.8rem 1rem;margin-bottom:1.8rem;background:#131319}
+.book-toc-h{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:.4rem}
+.book-toc ol{margin:0;padding-left:1.3rem} .book-toc li{margin:.25rem 0} .book-toc a{color:var(--link)}
+.chapter-sec{margin-top:2rem} .book .chapter-sec:first-of-type{margin-top:0}
+h2.chapter{font-size:1.5rem;border-top:1px solid var(--line);padding-top:1.2rem;margin-top:2.6rem}
+.book .chapter-sec:first-of-type h2.chapter{border-top:none;padding-top:0;margin-top:0}
+.chapter-src{margin-top:1.1rem;font-size:.8rem} .chapter-src a{color:var(--link)}
+.sealed{text-align:center;padding:2rem;background:#131319;border:1px dashed var(--line);border-radius:8px}
+.sealed .lock{font-size:2rem}
+.meta{width:100%;border-collapse:collapse;font:.85rem ui-monospace,monospace;margin-top:.6rem}
+.meta td{border-top:1px solid var(--line);padding:.35rem .5rem;vertical-align:top}
+.meta td:first-child{color:var(--muted);width:30%}
+.sky{width:100%;background:#07070c;border-radius:6px;display:block}
+.sky .cl line{stroke:#39508f;stroke-width:.7;opacity:.7}
+.sky .st circle{fill:#e7e3d8}
+.sky .lb text{fill:#7a8194;font:8px ui-monospace,monospace}
+.hdr{margin:.2rem 0 1.4rem;font:.82rem ui-monospace,monospace}
+.hdr summary{cursor:pointer;color:var(--muted);letter-spacing:.04em}
+.hdr table{border-collapse:collapse;margin-top:.5rem}
+.hdr td{border-top:1px solid var(--line);padding:.25rem 1rem .25rem 0}
+.hdr td:first-child{color:var(--muted)}
+.binding pre{white-space:pre-wrap;background:#131319;border:1px solid var(--line);
+ border-radius:6px;padding:1rem;font:.85rem/1.55 ui-monospace,monospace}
+.binding a{color:var(--tone)} .binding b{color:var(--ink);font-weight:600}
+.binding .ext{color:var(--muted);border-bottom:1px dotted var(--muted);cursor:help}
+.repub{font-size:.82rem;color:var(--muted);border-left:2px solid var(--tone);
+ padding:.35rem .7rem;margin:0 0 1.4rem;background:rgba(255,255,255,.02)}
+.repub a{color:var(--tone)}
+.qimg{display:inline-block;line-height:0} .qimg img{cursor:zoom-in}
+.qimg:hover img{outline:2px solid var(--tone);outline-offset:2px}
+.qlink{color:var(--link)}
+.genealogy-tree{margin:0 0 1.6rem;text-align:center}
+.genealogy-tree svg{max-width:100%;height:auto;background:#faf7ef;border-radius:6px;
+ box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.house-roster{list-style:none;padding:0;margin:1.4rem 0;display:grid;gap:.85rem}
+.house-roster li{border-left:2px solid var(--line);padding:.1rem 0 .2rem .9rem;overflow:hidden}
+.hr-name{font-weight:600;color:var(--ink)}
+.hr-dates{color:var(--muted);font-size:.85rem;margin-left:.5rem}
+.hr-note{display:block;color:#bdb8aa;font-size:.92rem;margin-top:.15rem}
+.hr-ref{color:var(--link);font-size:.78rem;margin-left:.4rem}
+.hr-portrait{float:right;width:78px;margin:0 0 .4rem .9rem}
+.hr-portrait img{width:78px;border-radius:4px;display:block}
+.earth-map{display:flex;gap:1.3rem;flex-wrap:wrap;align-items:flex-start;margin:1rem 0}
+.earth-fig{flex:1 1 460px;min-width:0;margin:0;background:#aacbe6;border-radius:6px;
+ box-shadow:0 1px 16px rgba(0,0,0,.45);overflow:hidden}
+.earth{display:block;width:100%;height:auto}
+.earth .sea{fill:#aacbe6}
+.earth .land{fill:#efe6d2;stroke:#b89f6a;stroke-width:.5;stroke-linejoin:round}
+.earth .lake{fill:#aacbe6;stroke:#7ba3c9;stroke-width:.45}
+.earth .route line{stroke:#c83727;stroke-width:1.7;opacity:.95;stroke-linecap:round}
+.earth .wps circle{fill:#e8b73a;stroke:#5a3a12;stroke-width:.8;cursor:pointer}
+.earth .wp:hover circle,.earth .wp.on circle{fill:#fff;r:5.5}
+.ej-panel{flex:1 1 250px;position:sticky;top:1rem;border-left:2px solid var(--line);
+ padding:.1rem 0 .4rem 1rem;min-height:5rem}
+.ej-panel h3{margin:.1rem 0 .4rem;font-size:1.05rem;font-weight:600}
+.ej-panel h3 span{color:var(--muted);font-weight:400;font-size:.82rem;font-style:italic}
+.ej-panel p{margin:.4rem 0;font-size:.93rem;line-height:1.55}
+.ej-panel blockquote{border-left:2px solid var(--tone);margin:.6rem 0;padding-left:.8rem;
+ color:#c9c3b4;font-style:italic}
+.ej-ref{margin:.8rem 0}
+.ej-ref img{display:block;width:100%;border-radius:4px}
+.ej-ref blockquote{border-left:2px solid var(--tone);margin:0 0 .3rem;padding-left:.8rem;
+ color:#c9c3b4;font-style:italic;font-size:.9rem;line-height:1.5}
+.ej-ref figcaption{font-size:.78rem;color:var(--muted)} .ej-ref figcaption a{color:var(--link)}
+.ej-refs{font-size:.85rem;margin-top:.6rem!important;line-height:1.7}
+.ej-refs a{color:var(--link)} .ej-refs span{color:var(--muted)}
+.ej-hint{color:var(--muted);font-style:italic}
+.cert{border:1px solid var(--line);border-radius:10px;padding:1.6rem 1.9rem;
+ background:linear-gradient(180deg,rgba(255,255,255,.035),transparent)}
+.cert-seal{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--tone);margin-bottom:1rem}
+.cert-meta{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 1rem}
+.cert .chip{font:11px ui-monospace,monospace;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:.1rem .45rem}
+.cert-title{font-family:Georgia,serif;font-size:1.7rem;line-height:1.15;margin:.2rem 0 .15rem}
+.cert-artist{font-style:italic;color:var(--muted);margin:0 0 1.2rem}
+.cert-image{margin:1.3rem 0} .cert-image img{max-width:100%;border-radius:4px}
+.cert-text{line-height:1.75}
+.cert-authority{font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);margin-top:1.5rem;padding-top:.8rem}
+.cert-authority a{color:var(--tone)}
+.cert-sigs{border-top:1px solid var(--line);margin-top:1rem;padding-top:.7rem}
+.cert-sigs-h{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.3rem}
+.cert-sig{font-size:.8rem;color:var(--muted);margin:.2rem 0}
+.cert-extra{font-size:.85rem;color:var(--muted)}
+.latex-fig{margin:1.6rem 0;text-align:center}
+.latex-fig svg{display:block;margin:0 auto;width:100%;max-width:340px;height:auto;
+ border-radius:4px;box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.latex-src{margin:.5rem auto 0;max-width:340px;font-size:.8rem}
+.latex-src summary{cursor:pointer;color:var(--muted);letter-spacing:.03em}
+.latex-src pre{white-space:pre-wrap;background:#131319;border:1px solid var(--line);
+ border-radius:6px;padding:.8rem;font:.78rem/1.5 ui-monospace,monospace;margin-top:.4rem}
+.essay-cols{display:flex;flex-direction:column}      /* narrow: prose, then plates */
+.marginplate{margin:1.3rem auto}
+.marginplate svg,.marginplate img{display:block;width:100%;max-width:340px;height:auto;
+ margin:0 auto;border-radius:4px;box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.marginplate figcaption{font-size:.72rem;color:var(--muted);text-align:center;
+ margin-top:.35rem;letter-spacing:.04em;font-style:italic}
+@media(min-width:700px){            /* prose | stacked margin column */
+  main.wide{max-width:1180px}
+  .essay-cols{flex-direction:row;gap:1.6rem;align-items:flex-start}
+  .essay-cols .prose{flex:1 1 0;min-width:0}
+  .essay-cols .plates{flex:0 0 236px}
+  .plates .marginplate{margin:0 0 1.2rem}          /* just stack, little spacing */
+}
+@media(min-width:1040px){           /* roomier window → wider plates */
+  .essay-cols .plates{flex:0 0 300px}
+}
+
+.q-facts{border-collapse:collapse;margin:.4rem 0 1rem;font-size:.9rem}
+.q-facts td{padding:.18rem .9rem .18rem 0;vertical-align:top}
+.q-facts td:first-child{color:var(--muted,#8a93a6);white-space:nowrap;font-variant:small-caps;letter-spacing:.02em}
+.q-facts td:last-child{font-variant-numeric:tabular-nums}
+</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body)"></script></head><body><header><a class="brand" href="../index.html">spectra</a><span class="sub">the lens &middot; Colegio Invisible</span></header><main><article class="quipu" style="--tone:#8a8f99"><div class="q-head"><h1>The Lineage</h1><div class="q-meta"><span class="pill type">latex</span><span class="pill tone" title="neutral, of the living">ordinary</span></div><div class="q-prov"><span class="q-block">block 6,237,120</span> <span class="q-txid" title="root txid">b4d023875aa649440c34c05095437b4cd43c5c1eddfd53d6829c40ea1f2a1023</span></div></div><table class="q-facts"><tr><td>block</td><td>6,237,120</td></tr><tr><td>strands</td><td>6</td></tr><tr><td>txns in quipu</td><td>100 &middot; 98 knots</td></tr><tr><td>type</td><td>latex (0x5c)</td></tr><tr><td>subtype</td><td>xelatex</td></tr><tr><td>mood</td><td>ordinary &middot; neutral, of the living</td></tr></table><details class="hdr"><summary>header</summary><table><tr><td>magic</td><td>c1dd</td></tr><tr><td>version</td><td>1</td></tr><tr><td>type</td><td>latex (0x5c)</td></tr><tr><td>tone</td><td>ordinary (0x00)</td></tr><tr><td>engine</td><td>xelatex</td></tr><tr><td>raw</td><td>c1dd00015c007c546865204c696e656167657c656e67696e653d78656c617465787c617574686f723d456c2045726d69…</td></tr></table></details><div class="q-body"><figure class="latex-fig"><svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 234.46 878.74'>
+<defs>
+<font id='YLRKGF-LMMono8-Regular' horiz-adv-x='0'>
+<font-face font-family='YLRKGF-LMMono8-Regular' units-per-em='1000' ascent='1014' descent='320'/>
+<glyph unicode='c' horiz-adv-x='531' vert-adv-y='531' d='M470 108C470 130 453 139 432 139C418 139 404 139 395 116C377 72 337 61 301 61C218 61 148 129 148 216C148 267 180 373 307 373C336 373 353 371 358 370C361 369 362 368 362 359C364 330 385 313 410 313C440 313 459 335 459 362C459 439 355 439 309 439C131 439 72 301 72 216C72 96 168-5 296-5C438-5 470 91 470 108Z'/>
+<glyph unicode='d' horiz-adv-x='531' vert-adv-y='531' d='M519 33C519 66 492 66 476 66H435V568C435 602 425 611 392 611H318C302 611 275 611 275 578S302 545 318 545H359V395C313 431 271 436 244 436C133 436 34 342 34 215C34 93 125-5 235-5C288-5 330 19 359 47C359 19 359 0 402 0H476C492 0 519 0 519 33ZM359 197C359 140 313 61 238 61C171 61 110 127 110 215C110 304 176 370 249 370C308 370 359 319 359 264V197Z'/>
+<glyph unicode='1' horiz-adv-x='531' vert-adv-y='531' d='M451 33C451 66 421 66 407 66H318V578C318 593 318 621 285 621C264 621 258 608 253 598C209 505 163 501 132 499C118 498 103 486 103 466C103 454 109 433 139 433C187 433 229 462 242 473V66H153C138 66 109 66 109 33S139 0 153 0H407C422 0 451 0 451 33Z'/>
+<glyph unicode='0' horiz-adv-x='531' vert-adv-y='531' d='M482 305C482 490 378 621 265 621C151 621 48 488 48 306C48 121 152-10 265-10C379-10 482 123 482 305ZM406 316C406 172 342 56 265 56C187 56 124 172 124 316C124 458 192 555 265 555S406 459 406 316Z'/>
+</font>
+<font id='WVDQTG-HoeflerText-Regular' horiz-adv-x='831'>
+<font-face font-family='WVDQTG-HoeflerText-Regular' units-per-em='2000' ascent='1442' descent='558'/>
+<glyph unicode=',' horiz-adv-x='494' vert-adv-y='494' d='M400 6Q400-89 362-166Q325-244 249-306Q173-369 152-369Q139-369 130-356T121-332L124-324Q288-220 288-72Q288-26 272-26L260-29Q248-34 240-34Q193-34 161 0Q130 35 130 84Q130 132 164 166T246 200Q313 200 356 144Q400 89 400 6Z'/>
+<glyph unicode='.' horiz-adv-x='494' vert-adv-y='494' d='M364 84Q364 36 330 1T248-34T165 1T130 84T165 166T248 200T330 166T364 84Z'/>
+<glyph unicode='0' horiz-adv-x='1192' vert-adv-y='1192' d='M1071 434Q1071 230 932 94Q794-42 596-42Q397-42 258 94Q120 230 120 434Q120 639 258 775Q397 911 596 911Q794 911 932 775Q1071 639 1071 434ZM931 434Q931 607 836 715Q741 824 596 824Q450 824 355 715Q260 607 260 434T355 153Q450 46 596 46T836 153Q931 261 931 434Z'/>
+<glyph unicode='1' horiz-adv-x='758' vert-adv-y='758' d='M650 16Q650-12 636-12Q594-12 514-6Q427 0 378 0Q328 0 241-6Q163-12 122-12Q106-12 106 16Q106 33 113 38Q121 43 143 45Q221 55 244 70Q268 85 278 116T288 204V666Q288 729 275 761T234 805T138 825Q118 827 112 832Q106 838 106 854Q106 882 122 882Q163 882 241 876Q328 870 378 870Q427 870 514 876Q594 882 636 882Q650 882 650 854Q650 828 619 825Q538 816 513 801Q489 787 478 755Q468 723 468 666V204Q468 140 480 108Q493 77 520 65Q548 53 614 45Q635 43 642 38Q650 34 650 16Z'/>
+<glyph unicode='5' horiz-adv-x='822' vert-adv-y='822' d='M774 927L726 814Q702 756 673 733T594 710H286L232 570Q224 551 224 539Q224 515 260 504Q636 391 636 66Q636-141 460-295Q285-450 50-450Q34-450 34-422T50-394Q231-394 344-283Q458-172 458 2Q458 140 389 218Q320 297 148 348Q100 362 100 400Q100 415 108 434L282 862Q291 886 316 886H622Q659 886 678 897T718 941Q726 955 742 955Q754 955 764 947T774 927Z'/>
+<glyph unicode='7' horiz-adv-x='890' vert-adv-y='890' d='M834 860L831 850L314-440Q304-466 256-466Q212-466 212-441L213-434L698 694H280Q227 694 184 663Q141 633 122 582Q116 566 94 566Q70 566 66 584Q114 736 136 882Q186 870 468 870Q765 870 818 882Q834 882 834 860Z'/>
+<glyph unicode='8' horiz-adv-x='962' vert-adv-y='962' d='M862 306Q862 159 754 58Q646-42 478-42Q308-42 204 50T100 280Q100 381 177 484Q255 587 384 662Q158 844 158 1005Q158 1158 260 1260Q362 1363 512 1363Q666 1363 763 1276Q860 1190 860 1057Q860 960 788 861Q717 763 612 704Q753 582 807 491Q862 401 862 306ZM718 1047Q718 1166 665 1232Q612 1299 520 1299Q422 1299 370 1242T318 1077Q318 950 564 744Q626 790 672 878Q718 967 718 1047ZM676 254Q676 343 634 414Q592 486 432 620Q250 504 250 292Q250 170 310 96T470 22Q568 22 622 82T676 254Z'/>
+<glyph unicode='9' horiz-adv-x='1052' vert-adv-y='1052' d='M951 434Q951 280 884 123Q818-34 696-169Q625-247 542-309T371-410Q284-450 262-450Q253-450 246-438T239-414Q239-398 248-395Q469-332 609-100Q750 131 750 434Q750 627 688 738Q626 850 518 850T352 762Q294 675 294 514Q294 396 351 321Q409 246 508 246Q558 246 592 265L599 267Q610 267 620 255Q631 243 631 231Q631 211 558 168Q485 126 424 126Q291 126 195 233Q100 340 100 490Q100 663 226 788T534 913Q720 913 835 779Q951 646 951 434Z'/>
+<glyph unicode='A' horiz-adv-x='1468' vert-adv-y='1468' d='M1465 16Q1465-12 1449-12Q1380-12 1293-6Q1218 0 1165 0Q1104 0 1014-6Q919-12 852-12Q836-12 836 16T848 44Q937 48 976 67Q1015 87 1015 128Q1015 154 995 211L882 546H470L356 236Q334 174 334 140Q334 52 496 44Q508 44 508 16T492-12Q432-12 359-6Q290 0 236 0Q193 0 128-6Q60-12 12-12Q-3-12-3 13Q-3 41 20 43Q103 51 151 89Q200 127 252 244L720 1393Q726 1409 748 1409Q772 1409 778 1394L1191 244Q1226 147 1285 101Q1345 55 1445 43Q1465 41 1465 16ZM860 610L684 1121L494 610H860Z'/>
+<glyph unicode='C' horiz-adv-x='1468' vert-adv-y='1468' d='M1415 358Q1379 198 1345 18Q1288 18 1138-9Q946-44 854-44Q626-44 454 46T186 303Q90 471 90 676Q90 878 191 1048Q293 1219 471 1314T872 1409Q966 1409 1124 1389Q1247 1373 1303 1373Q1316 1233 1349 1033Q1349 1017 1317 1017Q1297 1017 1293 1033Q1257 1169 1138 1257T864 1345Q629 1345 469 1151Q310 957 310 676Q310 403 468 211Q626 20 854 20Q1211 20 1360 358Q1367 374 1387 374Q1415 374 1415 358Z'/>
+<glyph unicode='D' horiz-adv-x='1652' vert-adv-y='1652' d='M1561 674Q1561 366 1355 177T798-12Q754-12 620-8Q482-4 436-4Q250-4 74-12Q58-12 58 16Q58 41 74 43Q157 53 201 69Q245 86 262 114Q280 142 280 212V1149Q280 1218 263 1246Q247 1275 203 1292T74 1319Q58 1319 58 1347T74 1375Q191 1367 436 1367Q482 1367 620 1370Q754 1373 798 1373Q1140 1373 1350 1177Q1561 982 1561 674ZM1341 674Q1341 946 1185 1126Q1030 1307 796 1307H790L602 1303Q484 1299 484 1187V174Q484 60 602 60L790 54Q1023 54 1182 231Q1341 409 1341 674Z'/>
+<glyph unicode='E' horiz-adv-x='1302' vert-adv-y='1302' d='M1279 318Q1198 145 1147-12Q770 0 610 0Q452 0 74-12Q58-12 58 16Q58 41 74 43Q157 53 201 69Q245 86 262 114Q280 142 280 212V1153Q280 1222 263 1250Q247 1279 203 1296T74 1323Q58 1323 58 1351T74 1379Q326 1367 590 1367Q856 1367 1107 1379Q1130 1224 1174 1073Q1174 1053 1139 1053Q1122 1053 1118 1067Q1044 1303 802 1303H600Q484 1303 484 1183V738H736Q836 738 871 784Q907 830 921 947Q921 963 949 963T977 947Q977 897 971 821Q965 748 965 702Q965 655 971 582Q977 504 977 454Q977 438 949 438T921 454Q906 576 868 625Q831 674 736 674H484V182Q484 64 600 64H818Q937 64 1054 141Q1171 219 1226 335Q1230 344 1243 344Q1257 344 1268 336Q1279 329 1279 318Z'/>
+<glyph unicode='F' horiz-adv-x='1200' vert-adv-y='1200' d='M1166 1073Q1166 1053 1131 1053Q1114 1053 1110 1067Q1075 1183 990 1243T782 1303H602Q484 1303 484 1183V738H712Q812 738 847 784Q883 830 898 947Q898 963 925 963Q953 963 953 947Q953 897 947 821Q941 748 941 702Q941 655 947 582Q953 504 953 454Q953 438 925 438Q898 438 898 454Q882 576 844 625Q807 674 712 674H484V212Q484 143 501 114Q519 86 563 69Q608 53 691 43Q708 41 708 16Q708-12 692-12Q625-12 532-6Q443 0 382 0T233-6Q141-12 74-12Q58-12 58 16Q58 41 74 43Q157 53 201 69Q245 86 262 114Q280 142 280 212V1153Q280 1222 263 1250Q247 1279 203 1296T74 1323Q58 1323 58 1351T74 1379Q326 1367 590 1367Q840 1367 1091 1379Q1124 1206 1166 1073Z'/>
+<glyph unicode='G' horiz-adv-x='1640' vert-adv-y='1640' d='M1615 602Q1615 577 1599 575Q1478 561 1434 530Q1391 499 1391 406V288Q1391 134 1413 76Q1280 23 1126-10Q972-44 854-44Q626-44 454 46T186 303Q90 471 90 676Q90 880 194 1050Q298 1221 481 1315T896 1409Q986 1409 1138 1377Q1272 1349 1343 1349Q1356 1209 1389 1009Q1389 993 1357 993Q1336 993 1332 1009Q1244 1345 864 1345Q629 1345 469 1151Q310 957 310 676Q310 403 468 211Q626 20 854 20Q1189 20 1189 186V450Q1189 505 1136 528Q1083 552 882 572Q866 572 866 602Q866 630 882 630Q949 630 1080 625Q1206 620 1267 620Q1327 620 1426 625Q1532 630 1599 630Q1615 630 1615 602Z'/>
+<glyph unicode='I' horiz-adv-x='884' vert-adv-y='884' d='M766 16Q766-12 750-12Q683-12 591-6Q503 0 442 0T293-6Q200-12 132-12Q116-12 116 16Q116 41 132 43Q253 57 296 88Q340 119 340 212V1153Q340 1223 322 1251Q305 1280 261 1296Q217 1313 132 1323Q116 1323 116 1351T132 1379Q200 1379 293 1373Q381 1367 442 1367T591 1373Q683 1379 750 1379Q766 1379 766 1351T750 1323Q666 1313 622 1296Q578 1280 561 1252T544 1153V212Q544 143 561 114Q578 86 621 69Q665 53 749 43Q766 41 766 16Z'/>
+<glyph unicode='J' horiz-adv-x='754' vert-adv-y='754' d='M718 1351Q718 1323 702 1323Q617 1313 573 1296Q529 1280 511 1251Q494 1223 494 1153V268Q494 82 412-92Q331-267 196-372Q62-478-82-478Q-166-478-215-442Q-264-407-264-348Q-264-292-223-255T-118-218Q-86-218-61-231T-1-285Q46-342 88-342Q180-342 235-197Q290-53 290 212V1153Q290 1222 273 1250Q257 1279 213 1296T84 1323Q68 1323 68 1351T84 1379Q151 1379 243 1373Q331 1367 392 1367T542 1373Q635 1379 702 1379Q718 1379 718 1351Z'/>
+<glyph unicode='M' horiz-adv-x='1944' vert-adv-y='1944' d='M1903 16Q1903-12 1887-12Q1820-12 1724-6Q1632 0 1571 0T1422-6Q1330-12 1263-12Q1245-12 1245 16Q1245 41 1261 43Q1378 57 1420 86Q1463 115 1463 196V212L1421 1181L939-28Q933-44 911-44Q888-44 884-28L430 1133L358 212Q356 195 356 182Q356 115 402 86T566 44Q580 42 580 16Q580-12 562-12Q510-12 420-6Q336 0 290 0Q240 0 154-6Q71-12 26-12Q12-12 12 16Q12 41 30 43Q156 58 204 90Q253 122 260 212L364 1153Q365 1171 365 1185Q365 1250 319 1279T152 1323Q138 1323 138 1351Q138 1361 144 1370T156 1379Q193 1379 261 1373Q319 1367 346 1367Q381 1367 446 1373Q513 1379 550 1379L979 266L1423 1379Q1463 1379 1528 1373Q1587 1367 1621 1367Q1663 1367 1722 1373Q1783 1379 1827 1379Q1845 1379 1845 1351T1829 1323Q1712 1309 1669 1280Q1627 1251 1627 1170V1153L1673 212Q1676 142 1694 114Q1713 86 1758 69Q1803 53 1887 43Q1903 41 1903 16Z'/>
+<glyph unicode='P' horiz-adv-x='1252' vert-adv-y='1252' d='M1191 971Q1191 795 1055 675Q920 556 720 556Q600 556 484 566V212Q484 142 501 114Q519 86 562 69Q606 53 690 43Q706 41 706 16Q706-12 690-12Q623-12 531-6Q443 0 382 0T232-6Q139-12 72-12Q56-12 56 16Q56 41 72 43Q193 57 236 88Q280 119 280 212V1153Q280 1223 262 1251Q245 1280 201 1296Q157 1313 72 1323Q56 1323 56 1351T72 1379Q139 1379 232 1373Q321 1367 382 1367T531 1373Q623 1379 690 1379Q936 1379 1063 1275Q1191 1171 1191 971ZM969 971Q969 1131 890 1221Q812 1311 682 1311Q604 1311 561 1299Q519 1287 501 1260Q484 1233 484 1153V694Q484 651 511 636Q538 622 628 622Q791 622 880 715T969 971Z'/>
+<glyph unicode='R' horiz-adv-x='1464' vert-adv-y='1464' d='M1449 16Q1449-12 1433-12Q1396-12 1312-5Q1251 0 1231 0Q1202 0 1140-6T1049-12L746 482Q682 584 642 613Q603 642 484 642V212Q484 143 501 114Q519 86 563 69Q608 53 691 43Q708 41 708 16Q708-12 692-12Q625-12 532-6Q443 0 382 0T233-6Q141-12 74-12Q58-12 58 16Q58 41 74 43Q157 53 201 69Q245 86 262 114Q280 142 280 212V1153Q280 1222 263 1250Q247 1279 203 1296T74 1323Q58 1323 58 1351T74 1379Q141 1379 233 1373Q321 1367 382 1367T532 1373Q625 1379 692 1379Q915 1379 1037 1284Q1159 1190 1159 1019Q1159 911 1074 818Q990 726 846 676L1169 184Q1209 118 1272 86Q1335 55 1435 43Q1449 41 1449 16ZM939 1019Q939 1311 684 1311Q600 1311 556 1297Q513 1284 498 1255Q484 1226 484 1153V708Q542 700 630 700Q791 700 865 776T939 1019Z'/>
+<glyph unicode='S' horiz-adv-x='1014' vert-adv-y='1014' d='M941 390Q941 191 823 73Q705-44 504-44Q415-44 291-12Q178 18 106 18Q100 188 82 358Q82 374 112 374Q133 374 138 358Q192 172 276 96T512 20Q633 20 699 90Q766 160 766 286Q766 367 708 436Q650 506 461 616Q244 741 177 828T110 1021Q110 1184 230 1296Q351 1409 536 1409Q606 1409 697 1390Q782 1373 844 1373Q856 1197 876 1063Q876 1047 850 1047Q822 1047 819 1063Q786 1213 719 1279T534 1345Q422 1345 356 1279T290 1101Q290 1030 345 965Q401 901 586 793Q805 665 873 579T941 390Z'/>
+<glyph unicode='W' horiz-adv-x='2248' vert-adv-y='2248' d='M2247 1355Q2247 1343 2239 1333Q2232 1323 2223 1323Q2149 1316 2102 1275Q2055 1235 2005 1121L1495-28Q1490-44 1467-44Q1449-44 1439-28L1153 570L824-28Q814-44 796-44Q774-44 767-28L266 1121Q219 1228 167 1270Q115 1313 22 1323Q14 1323 7 1331Q0 1340 0 1351Q0 1379 16 1379Q83 1379 156 1373Q224 1367 284 1367Q345 1367 428 1373Q515 1379 582 1379Q598 1379 598 1351T588 1323Q521 1318 482 1289Q444 1260 444 1213Q444 1189 460 1153L874 218L1109 662L890 1121Q831 1244 793 1279Q755 1315 678 1323Q671 1323 664 1331Q658 1340 658 1351Q658 1379 672 1379Q739 1379 795 1373Q849 1367 910 1367Q970 1367 1037 1373Q1106 1379 1173 1379Q1189 1379 1189 1351T1179 1323Q1045 1314 1045 1247Q1045 1217 1076 1154L1221 860L1365 1129Q1395 1186 1395 1225Q1395 1317 1261 1323Q1249 1323 1249 1351Q1249 1361 1255 1370T1267 1379Q1315 1379 1385 1373Q1452 1367 1495 1367Q1526 1367 1586 1372Q1662 1379 1713 1379Q1725 1379 1725 1355Q1725 1323 1703 1323Q1625 1315 1577 1280Q1530 1245 1459 1121L1267 766L1527 236L1911 1129Q1931 1178 1931 1219Q1931 1317 1797 1323Q1785 1323 1785 1351T1803 1379Q1852 1379 1919 1373Q1981 1367 2023 1367Q2067 1367 2125 1373Q2185 1379 2233 1379Q2247 1379 2247 1355Z'/>
+<glyph unicode='Z' horiz-adv-x='1338' vert-adv-y='1338' d='M1312 328Q1256 104 1243-20Q1143 0 662 0Q165 0 74-19Q48-19 48 16L52 32L1013 1303H564Q260 1303 139 1030Q131 1011 116 1011Q83 1011 83 1032L87 1046Q173 1278 198 1387Q283 1367 726 1367Q1195 1367 1275 1386Q1301 1386 1301 1349Q1301 1341 1296 1334L336 64H866Q1010 64 1112 136Q1215 208 1256 338Q1261 354 1279 354Q1313 354 1312 328Z'/>
+<glyph unicode='a' horiz-adv-x='892' vert-adv-y='892' d='M714-34Q658-34 616-6Q575 21 560 68Q453-42 280-42Q190-42 133 13Q76 69 76 152Q76 357 562 484L568 640V645Q568 717 532 759Q497 802 438 802T338 773Q297 745 296 702Q295 638 262 602Q230 566 176 566Q144 566 124 585T104 636Q104 713 244 797Q384 882 504 882Q612 882 679 818T746 646V634L732 182V175Q732 70 800 70Q833 70 877 110L884 112Q892 112 899 101Q906 91 906 79Q906 50 845 8Q785-34 714-34ZM560 416Q268 350 268 198Q268 56 378 56Q431 56 482 82Q534 109 552 148L560 416Z'/>
+<glyph unicode='c' horiz-adv-x='924' vert-adv-y='924' d='M842 724Q842 642 760 642Q725 642 702 657Q680 672 657 722Q630 781 599 799Q569 818 520 818Q399 818 335 717Q272 617 272 424Q272 263 352 164Q432 66 566 66Q718 66 807 161L812 163Q821 163 829 151Q838 140 838 126Q838 106 779 57Q721 8 651-17Q582-42 504-42Q325-42 197 89Q70 221 70 422Q70 621 203 751Q337 882 520 882Q655 882 748 835Q842 789 842 724Z'/>
+<glyph unicode='d' horiz-adv-x='1084' vert-adv-y='1084' d='M1071 54Q1071 33 1055 31Q998 24 923 3T806-39Q784-50 774-50Q758-50 758-34L766 74Q660-42 496-42Q323-42 201 91Q80 224 80 410Q80 621 214 751Q349 882 552 882Q668 882 766 810V1143Q766 1224 746 1249T654 1282Q638 1284 638 1307Q638 1333 654 1333Q748 1355 817 1386T910 1441Q920 1451 931 1451Q959 1451 959 1435Q943 1217 943 1087V206Q943 137 963 113Q983 90 1055 80Q1071 80 1071 54ZM766 162V674Q766 726 705 772Q645 818 574 818Q282 818 282 408Q282 246 352 139T536 32Q601 32 654 61Q707 91 766 162Z'/>
+<glyph unicode='e' horiz-adv-x='936' vert-adv-y='936' d='M862 556Q862 528 826 528H278Q272 474 272 416Q272 255 348 168Q425 82 566 82Q637 82 709 120T825 217L830 219Q839 219 847 208Q856 197 856 182Q856 161 792 94Q728 28 653-7T496-42Q316-42 193 90T70 414Q70 610 190 746Q311 882 496 882Q651 882 756 780Q862 679 862 556ZM680 644Q680 719 628 768Q577 818 496 818Q419 818 362 753Q306 689 286 584L564 592Q627 593 653 604Q680 615 680 644Z'/>
+<glyph unicode='f' horiz-adv-x='670' vert-adv-y='670' d='M863 1347Q863 1306 832 1282Q801 1259 747 1259Q699 1259 650 1296Q609 1327 577 1327Q509 1327 461 1251Q413 1176 413 1047V814H637Q661 814 661 760T637 706L411 714V212Q411 114 435 84T545 43Q561 41 561 16Q561-12 545-12Q504-12 441-6Q370 0 321 0Q271 0 201-6Q138-12 97-12Q81-12 81 16Q81 41 97 43Q182 54 206 84Q231 114 231 212V690Q231 718 207 718H105Q85 718 85 744T103 774Q231 803 231 830Q231 1072 378 1256Q526 1441 719 1441Q786 1441 824 1416Q863 1391 863 1347Z'/>
+<glyph unicode='g' horiz-adv-x='944' vert-adv-y='944' d='M957 734Q957 680 931 680L804 684Q826 627 826 568Q826 424 720 328Q615 232 462 232H422Q342 232 295 211T248 162Q248 127 287 104Q326 82 396 81L628 78Q778 75 861 15Q945-45 945-152Q945-314 769-435T352-556Q194-556 86-479T-22-292Q-22-218 46-147Q115-77 208-44Q146-16 107 35Q68 87 68 138Q68 174 141 215Q215 256 294 270Q208 312 160 382T112 538Q112 676 218 779Q325 882 472 882Q550 882 625 855Q701 828 750 782L931 788Q957 788 957 734ZM638 570Q638 698 598 758Q559 818 472 818Q306 818 306 538Q306 411 344 353Q383 296 472 296Q638 296 638 570ZM820-226Q820-157 774-127Q729-97 622-95L390-90Q321-90 268-70Q146-137 146-246Q146-345 229-406Q312-468 440-468Q594-468 707-398T820-226Z'/>
+<glyph unicode='h' horiz-adv-x='1108' vert-adv-y='1108' d='M1099 16Q1099-12 1083-12Q1043-12 984-6Q920 0 872 0Q822 0 757-6Q698-12 658-12Q642-12 642 16Q642 41 658 43Q727 51 748 82Q770 113 770 212V546Q770 762 574 762Q450 762 360 662V212Q360 122 386 87T488 43Q504 41 504 16Q504-12 488-12Q447-12 381-6Q307 0 258 0Q208 0 144-6Q87-12 46-12Q30-12 30 16Q30 41 46 43Q130 52 155 82Q180 113 180 212V1141Q180 1222 160 1247Q141 1272 70 1280Q54 1282 54 1305Q54 1331 70 1331Q241 1371 323 1437Q338 1449 348 1449Q376 1449 376 1433Q360 1269 360 1085V746Q503 882 642 882Q784 882 865 804Q947 726 947 594V212Q947 114 972 83Q998 53 1083 43Q1099 41 1099 16Z'/>
+<glyph unicode='i' horiz-adv-x='560' vert-adv-y='560' d='M392 1225Q392 1183 361 1152Q331 1121 288 1121T214 1152Q184 1183 184 1225Q184 1269 214 1299T288 1329Q331 1329 361 1299Q392 1269 392 1225ZM532 16Q532-12 516-12Q475-12 411-6Q339 0 290 0Q240 0 170-6Q107-12 66-12Q50-12 50 16Q50 41 66 43Q151 54 175 84Q200 114 200 212V582Q200 662 179 687Q159 712 90 720Q74 720 74 746Q74 770 90 770Q195 797 262 827Q329 858 346 878Q356 890 368 890Q396 890 396 874Q380 650 380 526V212Q380 114 404 84Q429 54 516 43Q532 41 532 16Z'/>
+<glyph unicode='k' horiz-adv-x='1092' vert-adv-y='1092' d='M1091 16Q1091-12 1075-12Q1035-12 972-6Q903 0 854 0T731-6Q662-12 622-12Q606-12 606 16Q606 41 622 43Q648 46 659 53T670 80Q670 110 574 212L414 390Q394 410 360 410V212Q360 124 381 87Q403 50 462 43Q478 41 478 16Q478-12 462-12Q419-12 350-6Q284 0 246 0Q203 0 142-6Q84-12 46-12Q30-12 30 16Q30 41 46 43Q130 52 155 82Q180 113 180 212V1141Q180 1222 160 1247Q141 1272 70 1280Q54 1282 54 1305Q54 1331 70 1331Q241 1371 323 1437Q338 1449 348 1449Q376 1449 376 1433Q360 1269 360 1085V466Q396 466 417 485L566 626Q573 633 589 647Q672 722 672 758Q672 784 592 794Q576 796 576 822Q576 850 592 850Q634 850 698 844Q757 838 796 838Q825 838 871 843Q927 850 971 850Q987 850 987 822Q987 796 971 794Q898 786 843 760Q789 734 696 652L524 500L786 212Q869 121 926 87T1075 43Q1091 41 1091 16Z'/>
+<glyph unicode='l' horiz-adv-x='518' vert-adv-y='518' d='M510 18Q510-10 494-10Q453-10 389-5Q317 0 268 0Q220 0 149-5Q85-10 44-10Q28-10 28 18Q28 43 44 45Q129 55 154 85Q180 116 180 214V1143Q180 1224 160 1249T68 1282Q52 1284 52 1307Q52 1331 68 1331Q173 1358 240 1388Q307 1419 324 1440Q334 1451 346 1451Q374 1451 374 1435Q358 1211 358 1087V214Q358 116 383 85Q408 55 494 45Q510 43 510 18Z'/>
+<glyph unicode='m' horiz-adv-x='1654' vert-adv-y='1654' d='M1643 16Q1643-12 1627-12Q1587-12 1529-6Q1465 0 1415 0Q1366 0 1302-6Q1244-12 1203-12Q1187-12 1187 16Q1187 41 1203 43Q1271 51 1292 82T1313 212V546Q1313 659 1270 710Q1227 762 1135 762Q1014 762 935 680V212Q935 113 957 82T1047 43Q1063 41 1063 16Q1063-12 1047-12Q1007-12 954-6Q896 0 848 0Q798 0 739-6Q686-12 646-12Q630-12 630 16Q630 41 646 43Q715 51 736 82Q758 113 758 212V546Q758 658 714 710T578 762Q520 762 475 740Q431 718 380 662V212Q380 113 401 82Q423 51 492 43Q508 41 508 16Q508-12 492-12Q451-12 392-6Q327 0 278 0Q228 0 164-6Q107-12 66-12Q50-12 50 16Q50 41 66 43Q151 54 175 84Q200 114 200 212V582Q200 662 179 687Q159 712 90 720Q74 720 74 746Q74 770 90 770Q189 795 255 826Q321 858 338 878Q348 890 360 890Q388 890 388 874L380 748Q524 882 648 882Q838 882 906 736Q1058 882 1203 882Q1340 882 1416 804Q1493 726 1493 594V212Q1493 114 1517 84Q1542 54 1627 43Q1643 41 1643 16Z'/>
+<glyph unicode='n' horiz-adv-x='1096' vert-adv-y='1096' d='M1085 16Q1085-12 1069-12Q1029-12 971-6Q907 0 858 0Q808 0 743-6Q684-12 644-12Q628-12 628 16Q628 41 644 43Q713 51 734 82Q756 113 756 212V546Q756 658 712 710T576 762Q518 762 473 740Q429 718 378 662V212Q378 113 399 82Q421 51 490 43Q506 41 506 16Q506-12 490-12Q449-12 390-6Q325 0 276 0Q228 0 164-6Q105-12 64-12Q48-12 48 16Q48 41 64 43Q150 54 175 84Q200 115 200 212V582Q200 662 179 687Q159 712 88 720Q72 720 72 746Q72 770 88 770Q187 795 253 826Q319 858 336 878Q346 890 358 890Q386 890 386 874L378 748Q522 882 646 882Q782 882 858 804Q935 726 935 594V212Q935 114 959 84Q984 54 1069 43Q1085 41 1085 16Z'/>
+<glyph unicode='o' horiz-adv-x='1072' vert-adv-y='1072' d='M1001 414Q1001 215 871 86Q742-42 536-42T200 87T70 414Q70 615 201 748Q332 882 536 882Q741 882 871 749T1001 414ZM800 416Q800 599 729 708Q659 818 536 818Q414 818 343 708T272 416Q272 235 342 128Q412 22 536 22T730 127Q800 233 800 416Z'/>
+<glyph unicode='p' horiz-adv-x='1096' vert-adv-y='1096' d='M1015 414Q1015 217 882 87Q749-42 542-42Q423-42 338 4V-304Q338-401 363-432T474-474Q490-474 490-502T474-530Q433-530 368-524Q298-518 250-518Q200-518 129-524Q65-530 24-530Q8-530 8-502T24-474Q109-463 134-432Q160-401 160-304V582Q160 662 139 687Q119 712 48 720Q32 720 32 746Q32 770 48 770Q145 794 210 825Q276 856 297 878Q308 890 318 890Q346 890 346 874L338 748Q393 805 465 843Q537 882 588 882Q785 882 900 753Q1015 625 1015 414ZM814 416Q814 583 741 676Q669 770 538 770Q483 770 438 747Q394 724 338 662V172Q338 108 395 65T534 22Q670 22 742 124Q814 227 814 416Z'/>
+<glyph unicode='r' horiz-adv-x='744' vert-adv-y='744' d='M744 782Q744 742 719 714Q695 686 660 686Q616 686 573 715Q539 738 514 738Q449 738 380 662V212Q380 125 410 90Q440 56 538 43Q554 41 554 16Q554-12 538-12Q497-12 422-6Q339 0 290 0Q240 0 169-6Q105-12 64-12Q48-12 48 16Q48 41 64 43Q151 54 175 84Q200 114 200 212V582Q200 662 179 687Q159 712 88 720Q72 720 72 746Q72 770 88 770Q187 795 251 825Q316 856 336 878Q348 890 360 890Q388 890 388 874L380 748Q460 822 517 852Q575 882 632 882Q678 882 711 852T744 782Z'/>
+<glyph unicode='s' horiz-adv-x='764' vert-adv-y='764' d='M700 246Q700 124 604 41T372-42Q324-42 224-21Q149-6 122-6Q114 64 85 207Q85 222 114 222Q138 222 143 206Q166 132 234 77T374 22Q449 22 490 63Q532 104 532 178Q532 225 497 261Q463 297 348 350Q197 419 148 480Q100 541 100 626Q100 731 191 806Q282 882 406 882Q458 882 552 864Q604 854 620 854Q623 736 633 653Q633 638 604 638Q579 638 576 654Q565 727 521 772Q477 818 416 818Q260 818 260 682Q260 636 297 597T458 496Q606 422 653 368T700 246Z'/>
+<glyph unicode='t' horiz-adv-x='738' vert-adv-y='738' d='M690 784Q690 730 664 730L366 738V258Q366 70 500 70Q583 70 651 109Q659 109 665 98Q672 88 672 76Q672 51 597 8Q523-34 430-34Q316-34 248 35Q180 105 180 219V228L184 714Q184 742 160 742H84Q62 742 62 768Q62 788 80 798Q219 880 322 1029Q333 1045 350 1045Q378 1045 378 1029L370 838H664Q690 838 690 784Z'/>
+<glyph unicode='u' horiz-adv-x='1046' vert-adv-y='1046' d='M1023 54Q1023 33 1007 31Q825 11 758-39Q744-50 730-50Q710-50 710-34L718 92Q570-42 450-42Q313-42 236 35Q160 113 160 246V620Q160 709 137 738T46 767Q33 767 17 766Q2 766 2 792Q2 824 18 824Q134 824 322 869Q340 869 340 844V294Q340 181 383 129Q426 78 518 78Q577 78 622 100T718 178V620Q718 708 694 737Q671 767 601 767Q589 767 573 766Q558 766 558 792Q558 824 574 824Q690 824 878 869Q896 869 896 844V206Q896 137 915 113Q935 90 1007 80Q1023 80 1023 54Z'/>
+<glyph unicode='v' horiz-adv-x='910' vert-adv-y='910' d='M949 822Q949 796 933 794Q849 785 820 754Q792 723 749 626L462-28Q455-44 438-44Q420-44 413-28L144 626Q107 718 69 752T-34 795Q-50 797-50 822Q-50 850-34 850Q7 850 68 844Q134 838 182 838Q231 838 301 844Q363 850 404 850Q420 850 420 822Q420 797 404 795Q344 787 321 773Q298 760 298 734Q298 703 328 627L492 202L658 626Q688 701 688 734Q688 760 665 773Q643 787 586 795Q570 797 570 822Q570 850 586 850Q628 850 680 844Q729 838 768 838Q788 838 833 843Q895 850 933 850Q949 850 949 822Z'/>
+<glyph unicode='w' horiz-adv-x='1398' vert-adv-y='1398' d='M1447 822Q1447 797 1431 795Q1349 783 1318 752Q1288 721 1246 626L959-28Q950-44 933-44Q917-44 911-28L706 496L472-28Q462-44 446-44Q428-44 421-28L152 626Q117 712 76 749Q35 787-34 794Q-50 796-50 822Q-50 850-34 850Q7 850 67 844Q134 838 184 838Q233 838 299 844Q359 850 400 850Q416 850 416 822Q416 796 400 794Q350 788 330 773Q310 759 310 728T338 625L500 214L670 598L656 650Q651 661 644 681Q619 748 601 768Q583 789 536 794Q520 796 520 822Q520 850 536 850Q572 850 623 844Q678 838 720 838Q769 838 835 844Q896 850 937 850Q953 850 953 822Q953 797 937 795Q832 781 832 694Q832 654 843 626L993 228L1153 604Q1181 670 1181 714Q1181 783 1092 795Q1075 797 1075 822Q1075 850 1091 850Q1134 850 1185 844Q1234 838 1273 838Q1294 838 1336 843Q1393 850 1431 850Q1447 850 1447 822Z'/>
+<glyph unicode='z' horiz-adv-x='914' vert-adv-y='914' d='M871 240Q812 88 788-12Q719 0 440 0Q144 0 85-12Q66-12 66 10L69 19L614 774H372Q309 774 251 727Q194 680 171 610Q166 594 140 594Q115 594 115 610Q181 782 198 860Q248 848 498 848Q789 848 842 860Q858 860 858 838L856 828L314 76H614Q677 76 735 123T814 240Q819 256 846 256Q871 256 871 240Z'/>
+<glyph unicode='†' horiz-adv-x='1002' vert-adv-y='1002' d='M991 987Q991 950 960 925T888 900Q866 900 809 922Q740 949 710 949Q669 949 622 928Q576 907 544 876L626 802Q590 713 563 349T536-372Q536-400 500-400Q466-400 466-372Q466-15 439 349T376 802L456 876Q426 907 379 928T290 949Q260 949 194 923Q136 900 114 900Q71 900 40 925Q10 950 10 987Q10 1023 33 1047Q57 1071 92 1071Q159 1071 172 985Q269 1087 318 1087Q389 1087 450 1019Q447 1038 432 1098Q402 1213 402 1255Q402 1311 439 1367Q455 1390 462 1403Q416 1445 416 1499Q416 1540 439 1569Q462 1599 500 1599Q537 1599 560 1569Q584 1540 584 1499Q584 1442 538 1403Q545 1390 560 1367Q598 1311 598 1255Q598 1213 568 1098Q552 1038 550 1019Q611 1087 682 1087Q730 1087 828 985Q840 1071 910 1071Q944 1071 967 1046Q991 1022 991 987Z'/>
+<glyph unicode='ﬂ' horiz-adv-x='1170' vert-adv-y='1170' d='M1161 18Q1161-10 1145-10Q1105-10 1040-5Q969 0 919 0Q871 0 801-5Q736-10 696-10Q680-10 680 18Q680 43 696 45Q781 55 806 85Q832 116 832 214V716H408V214Q408 116 433 85Q458 55 544 45Q560 43 560 18Q560-10 544-10Q503-10 439-5Q367 0 318 0Q270 0 199-5Q135-10 94-10Q78-10 78 18Q78 43 94 45Q179 55 204 85Q230 116 230 214V690Q230 720 206 720H104Q84 720 84 746T100 776Q230 805 230 830Q230 982 304 1129T499 1359Q621 1443 766 1443Q852 1443 921 1405Q956 1421 977 1441Q989 1451 997 1451Q1025 1451 1025 1435Q1009 1211 1009 1087V214Q1009 116 1034 85Q1060 55 1145 45Q1161 43 1161 18ZM832 816V1143Q832 1321 642 1321Q412 1321 412 1023V816H832Z'/>
+<glyph unicode='·' horiz-adv-x='414' vert-adv-y='414' d='M324 658Q324 610 290 576T208 542T125 576T90 658Q90 707 124 741Q159 776 208 776Q256 776 290 741Q324 707 324 658Z'/>
+<glyph unicode='-' horiz-adv-x='652' vert-adv-y='652' d='M612 676Q612 622 586 622H66Q40 622 40 676Q40 732 66 732H586Q612 732 612 676Z'/>
+<glyph unicode='(' horiz-adv-x='590' vert-adv-y='590' d='M599-187Q583-187 479-104Q376-21 297 81Q90 350 90 676Q90 1001 296 1270Q376 1373 479 1456T600 1539Q609 1539 618 1526Q628 1513 628 1502Q628 1493 622 1488Q437 1320 354 1125Q272 930 272 676Q272 420 354 226Q437 32 622-136Q628-142 628-152Q628-164 618-175Q608-187 599-187Z'/>
+<glyph unicode=')' horiz-adv-x='590' vert-adv-y='590' d='M501 676Q501 352 295 83Q246 19 189-36Q132-92 66-139Q0-187-8-187Q-17-187-27-175Q-37-164-37-152Q-37-142-31-136Q154 32 236 227Q319 422 319 676T238 1123T-31 1488Q-37 1493-37 1502Q-37 1513-27 1526Q-18 1540-9 1540Q8 1540 111 1457Q215 1374 294 1271Q501 1002 501 676Z'/>
+</font>
+<font id='WLJFLT-HoeflerText-Italic' horiz-adv-x='-841'>
+<font-face font-family='WLJFLT-HoeflerText-Italic' units-per-em='2000' ascent='1442' descent='558'/>
+<glyph unicode='&amp;' horiz-adv-x='1432' vert-adv-y='1432' d='M1547 937Q1547 847 1461 774Q1375 702 1257 702Q1209 702 1167 720Q1167 391 996 174Q826-42 556-42Q352-42 216 82T80 394Q80 605 230 759Q380 914 585 914Q593 914 602 913L656 1025Q730 1186 730 1271Q730 1294 713 1342Q690 1410 690 1457Q690 1506 714 1538Q739 1571 776 1571Q824 1571 852 1534T880 1433Q880 1350 768 1113L344 212Q459 134 580 134Q819 134 961 296T1103 750Q1086 760 1053 781Q974 834 927 834Q894 834 874 817Q854 801 854 776Q854 738 894 705Q933 672 933 634Q933 602 908 579T848 556Q798 556 763 591Q728 627 728 688Q728 778 813 850Q899 923 1015 923Q1093 923 1218 847Q1307 792 1347 792Q1381 792 1401 808T1421 850Q1421 888 1381 920Q1341 953 1341 991Q1341 1023 1366 1046Q1392 1069 1427 1069Q1477 1069 1512 1033Q1547 998 1547 937ZM534 768Q489 777 449 777Q326 777 255 692T184 466Q184 355 292 254L534 768Z'/>
+<glyph unicode=',' horiz-adv-x='456' vert-adv-y='456' d='M277 46Q277-40 228-123Q179-207 90-277Q1-348-31-348Q-55-348-55-316Q-55-308-13-279Q83-213 120-159Q157-106 157-48Q157-38 149-38L138-40Q127-44 119-44Q84-44 62-21Q41 1 41 34Q41 87 82 127Q124 168 177 168Q223 168 250 134Q277 101 277 46Z'/>
+<glyph unicode='0' horiz-adv-x='938' vert-adv-y='938' d='M806 578Q806 431 732 284Q658 138 540 48Q423-42 302-42Q196-42 119 55Q42 153 42 292Q42 438 115 584Q189 731 307 821T546 911Q652 911 729 814T806 578ZM642 708Q642 848 532 848Q464 848 384 740Q305 633 255 474Q206 316 206 162Q206 22 316 22Q383 22 462 129Q542 237 592 395T642 708Z'/>
+<glyph unicode='1' horiz-adv-x='804' vert-adv-y='804' d='M754 862Q754 848 746 837Q739 826 730 826Q723 825 712 823Q630 814 602 799T556 752Q539 720 526 664L416 204Q404 156 404 128Q404 92 427 74Q451 56 538 45Q563 42 565 38Q568 35 568 26Q568 12 561 0T546-12Q505-12 421-6Q327 0 278 0Q228 0 139-6Q59-12 18-12Q8-12 8 6Q8 20 15 31Q22 43 54 46Q134 55 161 70T205 116Q223 148 236 204L346 664Q358 712 358 740Q358 776 335 794Q313 812 230 822Q213 824 204 826Q194 826 194 842Q194 856 200 869Q207 882 216 882Q256 882 341 876Q434 870 484 870Q533 870 622 876Q703 882 744 882Q754 882 754 862Z'/>
+<glyph unicode='2' horiz-adv-x='924' vert-adv-y='924' d='M761 722Q761 658 720 590T592 443Q506 364 274 196Q229 164 207 148H517Q572 148 601 163Q631 179 685 243Q694 254 707 254Q734 254 734 236L732 230Q674 116 629-14Q564 0 307 0Q15 0-47-12Q-59-12-59 6Q-59 15-30 36Q-2 58 55 101Q369 336 467 448Q565 561 565 648Q565 708 533 744T443 780Q333 780 207 654Q199 646 187 646Q176 646 165 655Q155 665 155 674Q155 689 229 763Q304 837 381 874Q459 911 539 911Q631 911 696 854Q761 798 761 722Z'/>
+<glyph unicode='3' horiz-adv-x='770' vert-adv-y='770' d='M645 722Q645 635 562 541Q480 448 341 376Q438 363 503 291Q569 219 569 128Q569-4 470-132Q372-261 204-355Q37-450-75-450Q-193-450-193-378Q-193-345-168-325Q-144-306-105-306Q-70-306-28-331Q6-350 27-350Q102-350 193-286Q284-223 341-131Q399-39 399 50Q399 146 331 204Q264 262 165 262Q134 262 93 238L87 236Q75 236 65 246Q55 257 55 272Q55 289 67 295Q457 484 457 676Q457 725 429 754Q402 784 355 784Q301 784 249 763Q198 742 165 708Q157 700 145 700Q135 700 125 708Q116 716 116 724Q116 739 179 793Q242 848 313 879Q384 911 447 911Q536 911 590 858Q645 805 645 722Z'/>
+<glyph unicode='4' horiz-adv-x='1026' vert-adv-y='1026' d='M889 78Q889 47 876 23Q863 0 847 0H629L531-408Q524-450 443-450Q358-450 358-416L359-408L457 0H-83Q-97 0-97 16Q-97 30-71 56L765 872Q799 904 823 904Q840 904 840 887L839 880L655 108H873Q889 108 889 78ZM609 638L79 108H483L609 638Z'/>
+<glyph unicode='5' horiz-adv-x='814' vert-adv-y='814' d='M763 892Q763 861 702 779Q641 698 601 698Q458 698 319 752L255 608Q249 596 249 586Q249 560 289 529Q541 333 541 92Q541-37 454-166Q368-296 231-373T-59-450Q-71-450-71-422T-53-394Q122-394 244-266Q367-138 367 44Q367 242 132 427Q115 441 115 462Q115 475 121 484L317 886Q335 915 353 915Q359 915 389 906Q519 864 629 864Q687 864 716 901Q726 913 741 913Q763 913 763 892Z'/>
+<glyph unicode='6' horiz-adv-x='964' vert-adv-y='964' d='M1011 1331Q1011 1315 999 1310Q242 961 242 228Q242 22 378 22Q482 22 566 167T650 506Q650 670 536 670Q487 670 450 643L443 641Q433 641 423 652Q414 663 414 674Q414 694 473 728T576 762Q683 762 752 676Q822 591 822 454Q822 265 679 111Q536-42 352-42Q228-42 145 53T62 302Q62 734 423 1049Q513 1128 623 1195T853 1312Q974 1363 992 1363Q1011 1363 1011 1331Z'/>
+<glyph unicode='7' horiz-adv-x='794' vert-adv-y='794' d='M785 878L781 866L37-424Q18-450-25-450Q-67-450-67-426L-65-418L615 720H301Q171 720 118 610Q110 594 89 594Q66 594 63 612Q115 744 155 898Q211 884 463 884Q716 884 767 895L773 896Q785 896 785 878Z'/>
+<glyph unicode='8' horiz-adv-x='930' vert-adv-y='930' d='M902 1089Q902 984 830 896Q759 808 590 714Q669 586 698 510Q728 434 728 370Q728 209 604 83Q481-42 320-42Q198-42 110 37Q22 117 22 250Q22 360 108 459T398 672Q309 809 282 877Q256 945 256 1007Q256 1154 362 1258Q468 1363 620 1363Q734 1363 818 1281Q902 1200 902 1089ZM764 1121Q764 1201 720 1250Q677 1299 606 1299Q530 1299 475 1244Q420 1190 420 1111Q420 1060 441 1000Q462 941 528 826Q550 790 560 772Q764 896 764 1121ZM568 288Q568 345 546 405T451 584Q438 605 432 616Q174 464 174 254Q174 147 220 84Q266 22 342 22Q438 22 503 98T568 288Z'/>
+<glyph unicode='9' horiz-adv-x='976' vert-adv-y='976' d='M825 562Q825 158 481-146Q394-223 289-288Q185-353 72-401Q-41-450-59-450Q-79-450-79-416Q-79-402-68-397Q282-236 463 23Q645 283 645 628Q645 848 503 848Q408 848 339 717Q271 586 271 388Q271 328 296 291Q322 254 363 254Q426 254 459 284L465 286Q475 286 484 275Q493 265 493 252Q493 232 433 194T317 156Q213 156 152 239T91 464Q91 640 219 775Q347 911 521 911Q651 911 738 809Q825 708 825 562Z'/>
+<glyph unicode=';' horiz-adv-x='462' vert-adv-y='462' d='M391 670Q391 626 360 595Q330 564 287 564Q243 564 212 595T181 670Q181 713 212 744Q243 776 287 776Q330 776 360 744Q391 713 391 670ZM213 46Q213-40 164-123Q115-207 26-277Q-63-348-95-348Q-119-348-119-316Q-119-308-77-279Q19-213 56-159Q93-106 93-48Q93-38 85-38L74-40Q63-44 55-44Q21-44-1-21Q-23 1-23 34Q-23 87 18 127Q60 168 113 168Q159 168 186 134Q213 101 213 46Z'/>
+<glyph unicode='E' horiz-adv-x='1246' vert-adv-y='1246' d='M1228 1379Q1220 1291 1220 1201Q1220 1182 1221 1127T1222 1053Q1222 1037 1194 1037Q1169 1037 1167 1054Q1155 1190 1095 1246Q1035 1303 905 1303H769Q652 1303 623 1183L517 738H763Q865 738 909 779Q953 821 991 929Q997 945 1020 945Q1048 945 1048 932Q1048 923 1018 813Q988 707 964 586Q953 525 945 491Q938 458 933 442Q929 426 907 426Q877 426 878 442Q884 498 884 536Q884 613 855 643Q827 674 747 674H503L393 212Q381 160 381 144Q381 64 475 64H719Q845 64 950 144Q1056 225 1094 352Q1094 360 1110 360Q1125 360 1137 352Q1150 344 1149 334Q1094 155 1060-12Q695 0 503 0T-55-12Q-67-12-67 6Q-67 19-59 30Q-52 42-43 43Q37 52 81 67Q126 82 148 107Q170 133 189 212L413 1153Q423 1197 423 1221Q423 1267 383 1289Q344 1311 245 1323Q235 1323 235 1339Q235 1353 242 1366Q250 1379 259 1379Q467 1367 745 1367Q1020 1367 1228 1379Z'/>
+<glyph unicode='F' horiz-adv-x='1172' vert-adv-y='1172' d='M1250 1045Q1250 1029 1222 1029T1194 1045Q1176 1181 1109 1242Q1043 1303 912 1303H767Q650 1303 623 1183L515 730H735Q835 730 880 772T965 923Q971 939 992 939Q1020 939 1020 926Q1020 919 988 797Q954 670 933 558Q924 513 919 488Q914 464 909 441T879 418Q851 418 851 434Q857 488 857 527Q857 604 829 635T721 666H499L391 212Q381 169 381 144Q381 99 420 77Q460 55 559 43Q569 41 569 26T561 0Q554-12 545-12Q475-12 374-6Q289 0 239 0T102-6Q5-12-57-12Q-67-12-67 6Q-67 19-59 30Q-52 42-43 43Q35 52 79 67Q124 82 146 107Q169 133 189 212L413 1153Q423 1197 423 1221Q423 1266 383 1288Q344 1311 245 1323Q235 1323 235 1339Q235 1354 242 1366Q249 1379 259 1379Q467 1367 755 1367Q1036 1367 1244 1379Q1240 1307 1240 1255Q1240 1165 1250 1045Z'/>
+<glyph unicode='G' horiz-adv-x='1494' vert-adv-y='1494' d='M1511 612Q1511 599 1503 587Q1496 575 1487 574Q1364 560 1324 527T1263 406L1227 258Q1198 129 1198 68Q1198 55 1199 46Q1060-6 945-25T678-44Q424-44 267 104Q110 253 110 494Q110 743 245 955T615 1288T1129 1409Q1303 1409 1403 1389Q1387 1270 1373 1023Q1373 1005 1345 1005T1317 1023Q1317 1329 1029 1329Q844 1329 676 1201Q508 1074 412 859T316 390Q316 226 422 123Q529 20 706 20Q966 20 999 152L1063 428Q1069 449 1069 466Q1069 514 1020 538Q971 563 840 575Q830 576 830 592Q830 606 837 618T854 630Q921 630 1026 625Q1126 620 1187 620T1339 625Q1434 630 1501 630Q1511 630 1511 612Z'/>
+<glyph unicode='H' horiz-adv-x='1616' vert-adv-y='1616' d='M1744 1359Q1744 1347 1736 1335Q1729 1323 1720 1323Q1639 1314 1594 1298Q1550 1283 1528 1258T1488 1153L1264 212Q1254 169 1254 144Q1254 99 1294 77T1432 43Q1442 41 1442 26T1435 0Q1428-12 1418-12Q1349-12 1248-6Q1162 0 1112 0T987-6Q903-12 841-12Q831-12 831 6Q831 19 838 30Q845 42 855 43Q923 51 962 66Q1002 81 1023 107T1062 212L1166 658H497L393 212Q381 173 381 144Q381 92 414 73T535 43Q545 42 545 26Q545 11 537 0Q530-12 521-12Q451-12 365-6Q290 0 239 0Q189 0 102-6Q5-12-57-12Q-67-12-67 6Q-67 19-59 30Q-52 42-43 43Q37 52 81 67Q126 82 148 107Q170 133 189 212L413 1153Q423 1197 423 1221Q423 1266 383 1288Q344 1311 245 1323Q235 1323 235 1339Q235 1354 242 1366Q249 1379 259 1379Q328 1379 429 1373Q515 1367 565 1367T690 1373Q774 1379 837 1379Q847 1379 847 1359Q847 1347 839 1335T823 1323Q755 1316 715 1300Q676 1285 655 1258Q634 1232 615 1153L513 722H1182L1284 1153Q1296 1192 1296 1221Q1296 1273 1263 1292Q1230 1312 1142 1323Q1132 1323 1132 1339Q1132 1354 1139 1366Q1147 1379 1156 1379Q1226 1379 1312 1373Q1387 1367 1438 1367T1576 1373Q1671 1379 1732 1379Q1744 1379 1744 1359Z'/>
+<glyph unicode='I' horiz-adv-x='862' vert-adv-y='862' d='M930 1359Q930 1346 923 1334Q916 1323 907 1323Q827 1314 783 1298Q739 1283 717 1258T677 1153L453 212Q441 160 441 144Q441 99 480 77Q520 55 619 43Q629 42 629 26Q629 12 622 0T607-12Q537-12 436-6Q351 0 301 0Q249 0 161-6Q66-12 5-12Q-7-12-7 6Q-7 19 0 30Q8 42 17 43Q97 52 141 67Q186 82 208 107Q230 133 249 212L473 1153Q483 1197 483 1221Q483 1267 443 1289Q404 1311 305 1323Q295 1323 295 1339Q295 1353 302 1366Q310 1379 319 1379Q388 1379 489 1373Q575 1367 625 1367T762 1373Q858 1379 920 1379Q930 1379 930 1359Z'/>
+<glyph unicode='J' horiz-adv-x='992' vert-adv-y='992' d='M1016 1331Q1016 1253 869 1213Q821 1153 713 722H895Q907 719 907 702T898 671Q890 658 879 658H695Q670 558 618 340Q569 134 542 60T479-84Q408-224 314-329Q118-548-111-548Q-190-548-246-508Q-303-468-303-404Q-303-364-274-338T-201-312Q-161-312-130-326Q-100-341-61-385Q-15-438 25-438Q135-438 215-296Q296-155 370 150Q431 406 513 658H323Q311 658 311 680Q311 693 320 706Q329 720 339 722H535Q653 1076 717 1189Q693 1187 649 1187Q584 1187 486 1241Q401 1287 353 1287Q304 1287 274 1264Q245 1241 245 1207Q245 1179 279 1150Q321 1115 321 1071Q321 1035 292 1013Q264 991 217 991Q177 991 147 1023Q117 1056 117 1097Q117 1204 225 1306Q333 1409 447 1409Q507 1409 559 1390T687 1313Q736 1274 763 1261Q786 1327 834 1368Q883 1409 934 1409Q971 1409 993 1387Q1016 1366 1016 1331Z'/>
+<glyph unicode='L' horiz-adv-x='1226' vert-adv-y='1226' d='M1187 348Q1097 157 1042-12Q677 0 501 0Q309 0-57-12Q-69-12-69 6Q-69 19-61 30Q-54 42-45 43Q35 52 79 67Q124 82 146 107Q168 133 187 212L411 1153Q421 1197 421 1221Q421 1267 381 1289Q342 1311 243 1323Q233 1323 233 1339Q233 1353 240 1366Q248 1379 257 1379Q326 1379 427 1373Q513 1367 563 1367T700 1373Q796 1379 859 1379Q869 1379 869 1359Q869 1346 861 1334Q854 1323 845 1323Q765 1314 721 1298Q677 1283 655 1258T615 1153L391 212Q379 160 379 144Q379 64 473 64H715Q840 64 948 143T1131 366Q1138 378 1156 378Q1188 378 1188 355L1187 348Z'/>
+<glyph unicode='P' horiz-adv-x='1170' vert-adv-y='1170' d='M1222 1007Q1222 839 1064 713Q907 588 715 588Q587 588 487 608L393 212Q381 173 381 144Q381 99 420 77Q460 55 559 43Q569 42 569 26Q569 11 561 0Q554-12 545-12Q475-12 376-6Q290 0 239 0Q189 0 102-6Q5-12-57-12Q-67-12-67 6Q-67 19-59 30Q-52 42-43 43Q37 52 81 67Q126 82 148 107Q170 133 189 212L413 1153Q423 1197 423 1221Q423 1266 383 1288Q344 1311 245 1323Q235 1323 235 1339Q235 1354 242 1366Q249 1379 259 1379Q329 1379 410 1373Q477 1367 525 1367Q575 1367 645 1373Q727 1379 797 1379Q1005 1379 1113 1284Q1222 1190 1222 1007ZM1012 1031Q1012 1164 954 1237Q896 1311 793 1311Q708 1311 673 1283Q639 1255 615 1153L515 732Q511 716 511 705Q511 676 537 665Q564 654 639 654Q791 654 901 766Q1012 878 1012 1031Z'/>
+<glyph unicode='T' horiz-adv-x='1340' vert-adv-y='1340' d='M1472 1395Q1448 1215 1448 1045Q1448 1029 1420 1029T1392 1045Q1383 1185 1316 1244Q1250 1303 1094 1303H1040Q991 1303 970 1287T938 1227L697 212Q685 160 685 144Q685 99 724 77Q764 55 862 43Q875 41 875 26Q875 12 867 0T851-12Q781-12 680-6Q595 0 545 0Q493 0 405-6Q309-12 249-12Q239-12 239 6Q239 41 261 43Q340 52 385 67T452 107Q474 133 493 212L735 1227Q739 1246 739 1259Q739 1283 723 1293T667 1303H563Q439 1303 341 1235T191 1047Q183 1029 159 1029Q133 1029 134 1048Q200 1219 247 1395Q383 1367 869 1367Q1329 1367 1472 1395Z'/>
+<glyph unicode='a' horiz-adv-x='928' vert-adv-y='928' d='M909 862L625 206Q595 138 595 108Q595 84 615 84Q644 84 745 205Q791 260 797 260Q809 260 819 248Q829 237 829 226Q829 212 756 130T617 2Q552-44 507-44Q407-44 407 50Q407 138 491 294Q418 158 296 57Q175-44 85-44Q34-44 4-5Q-25 34-25 102Q-25 233 85 402Q195 572 355 699T623 826Q676 826 709 804L733 862Q748 896 837 896Q910 896 910 868L909 862ZM661 704Q661 764 617 764Q532 764 422 669Q312 575 229 437Q147 299 147 208Q147 154 164 131T221 108Q272 108 378 224Q485 341 573 489T661 704Z'/>
+<glyph unicode='c' horiz-adv-x='698' vert-adv-y='698' d='M694 754Q694 723 674 703Q655 684 626 684Q572 684 523 743Q480 794 440 794Q397 794 333 701T232 480Q196 352 196 214Q196 94 292 94Q336 94 392 133Q449 172 496 232L502 234Q510 234 518 224Q527 214 527 204Q527 183 467 111Q408 39 343-2Q279-44 222-44Q135-44 73 31Q12 106 12 210Q12 354 90 510T289 773Q411 880 512 880Q587 880 640 843Q694 806 694 754Z'/>
+<glyph unicode='d' horiz-adv-x='956' vert-adv-y='956' d='M1116 1427Q1116 1412 1106 1375L697 248Q661 152 661 124Q661 92 681 92Q715 92 807 214Q842 260 847 260Q860 260 871 248Q883 237 883 226Q883 209 817 128Q752 47 690 1Q628-44 579-44Q471-44 471 68Q471 140 527 268Q449 134 341 45Q234-44 149-44Q80-44 36 11Q-7 66-7 156Q-7 298 91 467Q190 636 338 758Q487 880 597 880Q632 880 671 864Q711 848 729 824L841 1141Q863 1199 863 1231Q863 1270 777 1280Q759 1282 759 1305Q759 1329 775 1329Q838 1341 927 1373Q1016 1406 1062 1435Q1085 1449 1096 1449Q1116 1449 1116 1427ZM693 718Q693 816 597 816Q513 816 411 713Q310 610 241 460Q173 311 173 184Q173 90 237 90Q305 90 404 200Q504 311 598 483Q693 656 693 718Z'/>
+<glyph unicode='e' horiz-adv-x='708' vert-adv-y='708' d='M650 730Q650 593 514 483Q378 374 198 374Q192 314 192 266Q192 178 216 140Q241 102 298 102Q426 102 525 249L531 252Q539 252 548 241Q557 231 557 222Q557 201 496 122T367 0Q300-44 236-44Q138-44 75 31Q12 107 12 210Q12 354 87 511Q163 668 280 774Q398 880 498 880Q570 880 610 839Q650 799 650 730ZM508 696Q508 780 434 780Q362 780 299 682T210 438Q294 438 359 473Q425 509 466 575Q508 642 508 696Z'/>
+<glyph unicode='f' horiz-adv-x='630' vert-adv-y='630' d='M1002 1367Q1002 1325 971 1294Q941 1263 897 1263Q863 1263 813 1298Q762 1333 727 1333Q661 1333 619 1304T548 1208T472 926Q456 851 447 810H669Q680 810 683 804Q687 798 687 778T676 741Q666 724 655 724L429 728L263 40Q220-141 147-274Q75-408-19-484Q-114-560-201-560Q-272-560-322-524Q-373-489-373-442Q-373-356-287-356Q-251-356-200-401T-113-446Q-50-446-15-397Q19-348 53-186L243 704V711Q243 728 223 728H63Q45 728 45 754Q45 770 67 778Q273 802 277 840Q308 992 400 1144Q493 1297 610 1382T849 1467Q1002 1467 1002 1367Z'/>
+<glyph unicode='g' horiz-adv-x='830' vert-adv-y='830' d='M853 676L723 680Q727 644 727 624Q727 460 595 321T295 182Q261 182 241 170Q221 159 221 142T250 108T382 56Q585-13 656-71Q727-130 727-204Q727-291 661-376T487-510Q380-560 257-560Q68-560-49-491Q-167-423-167-316Q-167-245-80-167Q7-90 143-34Q33 23 33 70Q33 101 65 131Q97 162 189 208Q73 275 73 434Q73 602 201 741Q330 880 497 880Q625 880 687 778L884 784Q897 784 897 759Q897 729 882 702Q868 676 853 676ZM555 704Q555 814 475 814Q422 814 364 747Q307 680 274 576Q241 473 241 356Q241 307 262 276Q284 246 321 246Q415 246 485 381Q555 517 555 704ZM573-302Q573-235 495-181Q418-128 213-68Q126-94 48-166Q-29-239-29-308Q-29-496 259-496Q385-496 479-440Q573-385 573-302Z'/>
+<glyph unicode='h' horiz-adv-x='984' vert-adv-y='984' d='M896 684Q896 530 818 365Q741 201 617 78Q493-44 408-44Q362-44 328-17Q294 9 294 50T321 116Q348 142 392 142Q431 142 471 97Q494 72 506 72Q542 72 593 164Q644 257 675 384Q706 512 706 642Q706 693 687 723Q668 754 636 754Q569 754 464 648T270 377T124 14Q120 0 91-10Q63-20 34-20Q9-20-13-11Q-35-3-35 9L-34 14L320 1141Q338 1195 338 1231Q338 1270 250 1280Q232 1282 232 1305Q232 1329 246 1329Q310 1341 398 1374T530 1436Q550 1449 564 1449Q584 1449 584 1427Q584 1403 574 1375L316 558Q525 880 740 880Q805 880 850 824Q896 769 896 684Z'/>
+<glyph unicode='i' horiz-adv-x='572' vert-adv-y='572' d='M620 1255Q620 1209 587 1176T508 1143Q460 1143 427 1176T394 1255Q394 1302 427 1335Q460 1369 508 1369Q554 1369 587 1335Q620 1302 620 1255ZM502 796Q502 734 460 648L242 206Q208 138 208 108Q208 84 224 84Q257 84 360 203Q408 260 416 260Q429 260 438 248Q448 237 448 226Q448 212 370 130Q293 49 224 2Q156-44 110-44Q14-44 14 44Q14 95 58 190L276 630Q310 698 310 732Q310 752 292 752Q258 752 150 627Q106 576 100 576Q87 576 78 586Q70 597 70 610Q70 625 146 706Q223 787 292 833Q361 880 408 880Q502 880 502 796Z'/>
+<glyph unicode='k' horiz-adv-x='940' vert-adv-y='940' d='M872 684Q872 607 805 529Q739 452 632 409T396 366Q447 260 538 153T680 46Q728 46 728 94Q728 118 700 143L690 156Q690 170 699 180Q709 190 722 190Q746 190 773 154Q800 119 800 86Q800-44 630-44Q525-44 414 65T236 338L124 14Q120 0 92-10T36-20Q10-20-12-11Q-35-3-34 14L336 1141Q354 1195 354 1231Q354 1270 266 1280Q248 1282 248 1305Q248 1329 262 1329Q326 1341 414 1374T548 1436Q568 1449 582 1449Q602 1449 602 1427Q602 1403 592 1375L348 664Q450 786 527 833Q605 880 694 880Q774 880 823 825T872 684ZM698 658Q698 754 612 754Q557 754 484 705Q412 657 352 583Q292 510 292 472Q292 428 358 428Q698 428 698 658Z'/>
+<glyph unicode='l' horiz-adv-x='536' vert-adv-y='536' d='M669 1427Q669 1408 657 1375L221 248Q183 147 183 132Q183 102 205 102Q248 102 340 220Q379 270 387 270Q400 270 410 257Q420 245 420 235Q420 219 349 135Q279 52 213 4T101-44Q-5-44-5 62Q-5 112 23 190L387 1141Q409 1199 409 1231Q409 1270 325 1280Q309 1282 309 1305Q309 1329 325 1329Q389 1341 479 1374T615 1435Q638 1449 649 1449Q669 1449 669 1427Z'/>
+<glyph unicode='m' horiz-adv-x='1444' vert-adv-y='1444' d='M1378 752Q1378 700 1352 648L1134 206Q1098 134 1098 104Q1098 84 1118 84Q1150 84 1249 199Q1302 260 1310 260Q1323 260 1331 249Q1340 238 1340 226Q1340 212 1263 130Q1186 49 1118 2Q1050-44 1004-44Q907-44 907 40Q907 95 952 190L1168 630Q1190 671 1190 704Q1190 752 1136 752Q1088 752 1002 649Q916 547 689 192L609 22Q586-20 515-20Q430-20 430 12Q430 17 433 22L723 630Q743 670 743 700Q743 752 687 752Q630 752 542 649T233 192L155 22Q137-20 61-20Q-24-20-24 12Q-24 17-21 22L261 630Q293 706 293 728Q293 752 273 752Q238 752 134 626Q93 576 87 576Q74 576 64 587Q55 598 55 610Q55 625 129 706T270 833Q337 880 383 880Q483 880 483 790Q483 736 443 648L399 552Q483 697 593 788Q704 880 801 880Q863 880 896 844Q930 809 930 748Q930 699 907 648L867 566Q958 714 1058 797Q1159 880 1250 880Q1311 880 1344 845Q1378 810 1378 752Z'/>
+<glyph unicode='n' horiz-adv-x='960' vert-adv-y='960' d='M884 748Q884 681 842 582L684 206Q650 124 650 108Q650 84 668 84Q704 84 795 193Q836 242 844 242Q856 242 865 231T874 208Q874 191 804 116Q734 42 667-1T552-44Q509-44 483-24Q458-5 458 30Q458 87 502 190L664 576Q692 641 692 684Q692 740 646 740Q590 740 480 595Q371 450 236 204L170 14Q165 0 133-10T70-20Q41-20 17-11Q-7-3-7 9L-6 14L202 630Q228 699 228 728Q228 752 210 752Q178 752 97 647Q55 592 46 592Q33 592 23 603Q14 615 14 626Q14 640 80 716Q146 793 207 836Q269 880 314 880Q416 880 416 790Q416 735 386 648L326 478Q441 669 552 774Q664 880 756 880Q810 880 847 843T884 748Z'/>
+<glyph unicode='o' horiz-adv-x='834' vert-adv-y='834' d='M754 572Q754 429 679 284T485 47Q366-44 250-44Q152-44 82 43Q12 131 12 262Q12 405 86 550Q161 695 279 787Q398 880 514 880Q612 880 683 792T754 572ZM590 702Q590 767 573 790Q557 814 514 814Q447 814 363 704Q280 594 227 436Q174 279 174 134Q174 68 191 44T252 20Q318 20 401 129Q484 239 537 397T590 702Z'/>
+<glyph unicode='p' horiz-adv-x='918' vert-adv-y='918' d='M839 596Q839 453 761 301Q683 150 562 53T327-44Q232-44 183 42L57-330Q45-366 45-400Q45-429 68-446Q92-463 167-476Q177-476 177-492Q177-532 153-532Q-72-514-317-514Q-327-514-327-494Q-327-481-319-469Q-311-458-303-458Q-161-448-119-330L229 696Q171 669 101 629L96 628Q86 628 77 638Q69 649 69 661Q69 669 90 683Q112 697 133 710Q197 749 257 776L349 1049Q354 1063 386 1073T449 1083Q478 1083 502 1074Q527 1066 527 1049L461 858Q527 880 591 880Q706 880 772 804Q839 729 839 596ZM645 624Q645 778 523 778Q468 778 431 768L263 274Q233 187 233 124Q233 20 329 20Q405 20 480 107T600 333Q645 473 645 624Z'/>
+<glyph unicode='r' horiz-adv-x='764' vert-adv-y='764' d='M810 768Q810 718 782 688T714 658Q678 658 645 695Q617 726 592 726Q530 726 406 523Q283 320 152 14Q138-20 62-20Q36-20 14-11Q-7-3-7 9L-6 14L204 630Q230 708 230 728Q230 752 210 752Q178 752 96 644Q56 592 48 592Q34 592 24 603Q14 615 14 626Q14 640 80 716Q146 793 207 836Q269 880 314 880Q418 880 418 790Q418 740 386 648L348 540Q538 880 682 880Q738 880 774 849Q810 819 810 768Z'/>
+<glyph unicode='s' horiz-adv-x='592' vert-adv-y='592' d='M585 770Q585 682 517 682Q487 682 425 736Q365 788 339 788Q314 788 299 771Q285 754 285 728Q285 673 355 517Q431 347 431 282Q431 153 342 54Q254-44 117-44Q47-44-11-6Q-69 31-69 72Q-69 111-46 133Q-24 156 15 156Q47 156 86 105Q119 63 143 49Q168 36 199 36Q239 36 262 71Q285 107 285 170Q285 215 229 330Q147 497 147 594Q147 698 230 789Q314 880 423 880Q496 880 540 849Q585 818 585 770Z'/>
+<glyph unicode='t' horiz-adv-x='632' vert-adv-y='632' d='M666 802Q666 782 652 764Q639 746 626 746L424 752L236 206Q216 142 216 116Q216 84 238 84Q285 84 426 211Q479 260 486 260Q500 260 511 248Q522 237 522 226Q522 210 434 130Q346 51 267 3Q189-44 142-44Q32-44 32 68Q32 121 56 190L248 750L94 746Q74 746 74 778Q74 797 87 815Q101 834 114 834H276L350 1049Q355 1064 386 1073Q418 1083 450 1083Q478 1083 502 1074Q527 1066 527 1054L526 1049L452 834H644Q666 834 666 802Z'/>
+<glyph unicode='u' horiz-adv-x='980' vert-adv-y='980' d='M911 820L702 206Q676 128 676 108Q676 84 696 84Q728 84 810 190Q850 242 858 242Q871 242 881 231Q892 220 892 208Q892 193 826 117Q760 42 698-1Q637-44 592-44Q543-44 515-20Q488 3 488 44Q488 95 520 188L586 382Q466 179 352 67Q239-44 148-44Q94-44 58-7Q22 29 22 88Q22 152 62 254L222 630Q256 711 256 728Q256 752 238 752Q201 752 110 641Q69 592 62 592Q50 592 41 603T32 626Q32 644 101 718Q171 792 237 836Q304 880 352 880Q396 880 422 859Q448 839 448 804Q448 748 404 646L242 260Q214 195 214 150Q214 94 260 94Q316 94 423 232Q530 371 662 608L736 820Q741 835 772 845Q803 856 836 856Q864 856 888 847T911 820Z'/>
+<glyph unicode='v' horiz-adv-x='1084' vert-adv-y='1084' d='M1025 722Q1025 569 925 390T674 83Q523-44 408-44Q317-44 264 16Q212 76 212 176Q212 296 302 463Q393 631 504 730Q468 714 428 714Q398 714 344 730Q295 746 270 746Q206 746 170 723T134 662Q134 644 153 618Q180 582 180 548Q180 480 112 480Q76 480 51 509T26 588Q26 674 122 777T298 880Q341 880 406 862Q458 848 486 848Q521 848 568 860Q587 866 594 866Q607 866 617 855Q628 844 628 832Q628 809 569 731Q459 588 418 478Q378 368 378 250Q378 192 407 156T486 120Q592 120 679 184Q766 249 820 366T874 596Q874 665 844 723Q826 758 826 784Q826 826 853 853T925 880Q971 880 998 837T1025 722Z'/>
+<glyph unicode='w' horiz-adv-x='1512' vert-adv-y='1512' d='M1453 722Q1453 572 1358 382Q1263 193 1127 74Q992-44 862-44Q740-44 690 96Q520-44 408-44Q317-44 264 16Q212 76 212 176Q212 296 302 463Q393 631 504 730Q464 714 428 714Q397 714 343 730Q295 746 270 746Q205 746 168 723Q132 700 132 662Q132 644 152 618Q180 582 180 548Q180 480 110 480Q75 480 50 509Q26 538 26 588Q26 674 122 777T298 880Q341 880 406 862Q458 848 486 848Q521 848 568 860Q587 866 594 866Q607 866 617 855Q628 844 628 832Q628 809 569 733Q459 593 418 484Q378 376 378 258Q378 120 494 120Q587 120 668 176Q662 218 662 266Q662 483 761 681Q860 880 973 880Q1071 880 1071 738Q1071 491 812 210Q842 120 949 120Q1095 120 1202 264Q1309 409 1309 590Q1309 652 1278 711Q1257 750 1257 778Q1257 823 1283 851Q1310 880 1355 880Q1399 880 1426 836Q1453 793 1453 722ZM995 708Q995 762 953 762Q882 762 831 662Q780 563 780 412Q780 344 794 288Q887 396 941 508T995 708Z'/>
+<glyph unicode='x' horiz-adv-x='954' vert-adv-y='954' d='M956 766Q956 715 933 683Q910 652 871 652Q830 652 809 715Q795 758 777 758Q741 758 557 499Q535 468 527 456L555 314Q595 86 667 86Q701 86 717 124T733 280Q733 294 749 294Q773 294 780 276T791 239T795 200Q795 91 745 23Q696-44 623-44Q543-44 492 30Q442 105 399 296Q311 153 217 54Q124-44 69-44Q31-44 2-10T-27 72Q-27 123-2 157Q23 192 61 192Q103 192 122 140Q136 104 157 104Q203 104 381 374L351 524Q332 626 302 687Q273 748 239 748Q204 748 188 710Q173 672 173 556Q173 542 155 542Q109 542 109 636Q109 744 158 812Q208 880 283 880Q459 880 507 536Q640 730 717 805Q795 880 851 880Q899 880 927 848Q956 817 956 766Z'/>
+<glyph unicode='y' horiz-adv-x='874' vert-adv-y='874' d='M801 822Q801 672 627 299Q454-74 263-317Q73-560-59-560Q-111-560-151-530Q-191-501-191-462Q-191-425-168-403Q-145-382-107-382Q-81-382-49-405Q-9-434 31-434Q78-434 149-351Q220-269 258-149Q297-29 297 116Q297 380 264 549T185 718T75 584Q50 532 43 532Q30 532 19 544Q9 556 9 566Q9 606 51 690Q94 775 143 827Q193 880 235 880Q340 880 400 728Q461 576 461 296Q461 176 457 108Q546 262 599 425T675 798Q684 880 729 880Q760 880 780 863Q801 847 801 822Z'/>
+<glyph unicode='z' horiz-adv-x='840' vert-adv-y='840' d='M815 804Q815 790 761 744Q724 713 707 696L175 164Q194 186 257 186Q304 186 426 112Q537 44 577 44Q613 44 613 80Q613 98 591 123Q563 156 563 188Q563 221 585 243Q608 266 645 266Q684 266 707 234Q731 202 731 148Q731 79 661 17Q592-44 493-44Q440-44 317-1Q202 40 155 40Q104 40 69-12Q48-44 29-44Q1-44-25-21T-51 32Q-51 46 1 88Q39 120 57 138L589 672Q568 648 507 648Q456 648 351 702Q252 754 207 754Q165 754 165 718Q165 693 209 671Q265 643 265 602Q265 575 239 553Q213 532 181 532Q136 532 108 566Q81 600 81 654Q81 741 149 810Q217 880 301 880Q354 880 461 827Q562 778 609 778Q659 778 694 840Q716 880 737 880Q763 880 789 856Q815 833 815 804Z'/>
+<glyph unicode='ñ' horiz-adv-x='960' vert-adv-y='960' d='M884 748Q884 681 842 582L684 206Q650 124 650 108Q650 84 668 84Q704 84 795 193Q836 242 844 242Q856 242 865 231T874 208Q874 191 804 116Q734 42 667-1T552-44Q509-44 483-24Q458-5 458 30Q458 87 502 190L664 576Q692 641 692 684Q692 740 646 740Q590 740 480 595Q371 450 236 204L170 14Q165 0 133-10T70-20Q41-20 17-11Q-7-3-7 9L-6 14L202 630Q228 699 228 728Q228 752 210 752Q178 752 97 647Q55 592 46 592Q33 592 23 603Q14 615 14 626Q14 640 80 716Q146 793 207 836Q269 880 314 880Q416 880 416 790Q416 735 386 648L326 478Q441 669 552 774Q664 880 756 880Q810 880 847 843T884 748ZM676 1091H450Q387 1091 354 1071Q321 1052 281 980Q276 969 260 969Q226 969 226 989Q226 1003 256 1076Q287 1149 328 1181T428 1213H654Q722 1213 754 1230Q787 1248 814 1301Q820 1311 838 1311Q870 1311 870 1292Q870 1275 841 1211Q812 1148 772 1119Q733 1091 676 1091Z'/>
+<glyph unicode='ﬁ' horiz-adv-x='1092' vert-adv-y='1092' d='M1144 1285Q1144 1245 1113 1215T1038 1185Q1010 1185 989 1200Q968 1216 941 1268Q909 1328 881 1346Q854 1365 815 1365Q679 1365 599 1249Q520 1134 447 810H841Q878 810 923 821Q942 826 948 826Q987 826 987 801L986 796L767 206Q745 147 745 118Q745 86 765 86Q797 86 884 203Q927 260 934 260Q948 260 958 249T968 226Q968 210 901 129T772 2T665-44Q559-44 559 60Q559 122 587 188L739 600Q765 665 765 696Q765 726 745 726H427L261 40Q218-140 146-274T-20-484T-201-560Q-272-560-322-524Q-373-489-373-442Q-373-354-289-354Q-252-354-200-398Q-149-442-113-442Q-49-442-15-393Q19-345 51-186L241 708L242 713Q242 728 221 728H61Q45 728 45 756Q45 774 67 777Q267 801 275 840Q332 1113 503 1291T897 1469Q1004 1469 1074 1416Q1144 1364 1144 1285Z'/>
+<glyph unicode='·' horiz-adv-x='462' vert-adv-y='462' d='M390 670Q390 626 359 595Q329 564 286 564Q242 564 211 595T180 670Q180 713 211 744Q242 776 286 776Q329 776 359 744Q390 713 390 670Z'/>
+<glyph unicode='–' horiz-adv-x='928' vert-adv-y='928' d='M1004 676Q1004 622 978 622H30Q4 622 4 676Q4 699 11 715Q18 732 30 732H978Q990 732 997 716T1004 676Z'/>
+<glyph unicode='—' horiz-adv-x='1928' vert-adv-y='1928' d='M2003 676Q2003 622 1977 622H30Q4 622 4 676Q4 732 30 732H1977Q2003 732 2003 676Z'/>
+</font>
+</defs>
+<style type='text/css'>
+<![CDATA[text.f0 {font-family:WLJFLT-HoeflerText-Italic;font-size:9.93px}
+text.f1 {font-family:WLJFLT-HoeflerText-Italic;font-size:6.95px}
+text.f2 {font-family:WVDQTG-HoeflerText-Regular;font-size:4.96px}
+text.f3 {font-family:WLJFLT-HoeflerText-Italic;font-size:5.46px}
+text.f4 {font-family:WVDQTG-HoeflerText-Regular;font-size:5.76px}
+text.f5 {font-family:WLJFLT-HoeflerText-Italic;font-size:4.76px}
+text.f6 {font-family:WVDQTG-HoeflerText-Regular;font-size:5.36px}
+text.f7 {font-family:WLJFLT-HoeflerText-Italic;font-size:4.57px}
+text.f8 {font-family:WLJFLT-HoeflerText-Italic;font-size:4.96px}
+text.f9 {font-family:WLJFLT-HoeflerText-Italic;font-size:5.36px}
+text.f10 {font-family:WVDQTG-HoeflerText-Regular;font-size:4.76px}
+text.f11 {font-family:YLRKGF-LMMono8-Regular;font-size:4.98px}
+]]>
+</style>
+<g id='page1'>
+<path d='M8.502318 870.2414V8.4986H212.599678V870.2414Z' fill='#f4ead8'/>
+<path d='M14.172028 864.57213V14.16787H206.929968V864.57213Z' stroke='#c2a76b' fill='none' stroke-width='1.7008' stroke-miterlimit='10'/>
+<path d='M18.423898 860.3203V18.4197H202.678098V860.3203Z' stroke='#c2a76b' fill='none' stroke-width='.42517' stroke-miterlimit='10'/>
+<text class='f0' x='38.568867' y='367.54026' transform='matrix(.999537 0 0 .999537 48.652 -325.456)'><tspan fill='#1a1a1a'>The</tspan><tspan fill='#1a1a1a' x='55.717978'>Lineage</tspan></text>
+<text class='f1' x='38.563207' y='367.486327' transform='matrix(.999683 0 0 .999683 52.292 -304.519)'><tspan fill='#1a1a1a'>Goethe</tspan><tspan fill='#1a1a1a' x='58.683456'>&amp;</tspan><tspan fill='#1a1a1a' x='65.112201'>J</tspan><tspan fill='#1a1a1a' x='68.337002'>ung</tspan></text>
+<path d='M24.093158 127.5551H197.008838' stroke='#c2a76b' fill='none' stroke-width='.19925' stroke-miterlimit='10' stroke-opacity='.18'/>
+<path d='M24.093158 198.42212H197.008838' stroke='#c2a76b' fill='none' stroke-width='.19925' stroke-miterlimit='10' stroke-opacity='.18'/>
+<path d='M24.093158 269.28914H197.008838' stroke='#c2a76b' fill='none' stroke-width='.19925' stroke-miterlimit='10' stroke-opacity='.18'/>
+<path d='M24.093158 340.15618H197.008838' stroke='#c2a76b' fill='none' stroke-width='.19925' stroke-miterlimit='10' stroke-opacity='.18'/>
+<path d='M24.093158 411.0232H197.008838' stroke='#c2a76b' fill='none' stroke-width='.19925' stroke-miterlimit='10' stroke-opacity='.18'/>
+<path d='M24.093158 481.8902H197.008838' stroke='#c2a76b' fill='none' stroke-width='.19925' stroke-miterlimit='10' stroke-opacity='.18'/>
+<path d='M24.093158 552.75724H197.008838' stroke='#c2a76b' fill='none' stroke-width='.19925' stroke-miterlimit='10' stroke-opacity='.18'/>
+<path d='M24.093158 623.62424H197.008838' stroke='#c2a76b' fill='none' stroke-width='.19925' stroke-miterlimit='10' stroke-opacity='.18'/>
+<path d='M24.093158 694.49128H197.008838' stroke='#c2a76b' fill='none' stroke-width='.19925' stroke-miterlimit='10' stroke-opacity='.18'/>
+<path d='M104.932008 129.8677H116.169999V125.2425H104.932008Z' fill='#f4ead8' fill-opacity='.55'/>
+<text class='f2' x='38.530026' y='367.170129' transform='matrix(1.000544 0 0 1.000544 66.979007 -239.26099)'><tspan fill='#1a1a1a'>1700</tspan></text>
+<path d='M105.392778 271.65654H115.709229V266.92177H105.392778Z' fill='#f4ead8' fill-opacity='.55'/>
+<text class='f2' x='38.530026' y='367.170129' transform='matrix(1.000544 0 0 1.000544 67.44 -97.472)'><tspan fill='#1a1a1a'>1750</tspan></text>
+<path d='M104.842348 413.37067H116.259658V408.67572H104.842348Z' fill='#f4ead8' fill-opacity='.55'/>
+<text class='f2' x='38.530026' y='367.170129' transform='matrix(1.000544 0 0 1.000544 66.889 45.298)'><tspan fill='#1a1a1a'>1800</tspan></text>
+<path d='M105.303118 555.6128H115.798889V549.901658H105.303118Z' fill='#f4ead8' fill-opacity='.55'/>
+<text class='f2' x='38.530026' y='367.170129' transform='matrix(1.000544 0 0 1.000544 67.35 186.524)'><tspan fill='#1a1a1a'>1850</tspan></text>
+<path d='M104.730258 696.78645H116.371738V692.19613H104.730258Z' fill='#f4ead8' fill-opacity='.55'/>
+<text class='f2' x='38.530026' y='367.170129' transform='matrix(1.000544 0 0 1.000544 66.777 327.698)'><tspan fill='#1a1a1a'>1900</tspan></text>
+<text class='f1' x='38.563207' y='367.486327' transform='matrix(.999683 0 0 .999683 6.627999 -273.634)'><tspan fill='#6e3a8a'>H</tspan><tspan fill='#6e3a8a' x='43.921657'>ouse</tspan><tspan fill='#6e3a8a' x='56.209258'>of</tspan><tspan fill='#6e3a8a' x='62.749208'>Goethe</tspan></text>
+<text class='f1' x='38.563207' y='367.486327' transform='matrix(.999683 0 0 .999683 101.663 -273.634)'><tspan fill='#2a7a4d'>H</tspan><tspan fill='#2a7a4d' x='43.921657'>ouse</tspan><tspan fill='#2a7a4d' x='56.209258'>of</tspan><tspan fill='#2a7a4d' x='62.749208'>J</tspan><tspan fill='#2a7a4d' x='65.96706'>ung</tspan></text>
+<text class='f3' x='38.558062' y='367.437296' transform='matrix(.999817 0 0 .999817 107.076999 -259.046)'><tspan fill='#2a7a4d'>&amp;</tspan><tspan fill='#2a7a4d' x='43.603103'>Preiswerk</tspan></text>
+<path d='M69.448228 155.9019L73.700078 266.4543' stroke='#6e3a8a' fill='none' stroke-width='.99628' stroke-miterlimit='10' stroke-opacity='.85'/>
+<path d='M73.700078 266.4543L69.448228 379.84154' stroke='#6e3a8a' fill='none' stroke-width='.99628' stroke-miterlimit='10' stroke-opacity='.85'/>
+<path d='M69.448228 379.84154L41.101428 462.04752' stroke='#6e3a8a' fill='none' stroke-width='.99628' stroke-miterlimit='10' stroke-opacity='.85'/>
+<path d='M69.448228 379.84154L62.361528 467.7168' stroke='#6e3a8a' fill='none' stroke-width='.99628' stroke-miterlimit='10' stroke-opacity='.85'/>
+<path d='M69.448228 379.84154L83.621628 487.55947' stroke='#6e3a8a' fill='none' stroke-width='.99628' stroke-miterlimit='10' stroke-opacity='.85'/>
+<path d='M182.835438 311.80938L154.488638 394.01494' stroke='#2a7a4d' fill='none' stroke-width='.59776' stroke-miterlimit='10' stroke-opacity='.3'/>
+<path d='M140.315218 323.14792L154.488638 394.01494' stroke='#2a7a4d' fill='none' stroke-width='.99628' stroke-miterlimit='10' stroke-opacity='.85'/>
+<path d='M154.488638 394.01494L140.315218 530.0797' stroke='#2a7a4d' fill='none' stroke-width='.99628' stroke-miterlimit='10' stroke-opacity='.85'/>
+<path d='M189.922138 408.18834L168.662018 547.08794' stroke='#2a7a4d' fill='none' stroke-width='.99628' stroke-miterlimit='10' stroke-opacity='.85'/>
+<path d='M140.315218 530.0797L154.488638 623.62424' stroke='#2a7a4d' fill='none' stroke-width='.99628' stroke-miterlimit='10' stroke-opacity='.85'/>
+<path d='M168.662018 547.08794L154.488638 623.62424' stroke='#2a7a4d' fill='none' stroke-width='.99628' stroke-miterlimit='10' stroke-opacity='.85'/>
+<path d='M140.315218 530.0797L168.662018 547.08794' stroke='#1a1a1a' fill='none' stroke-width='.49814' stroke-miterlimit='10' stroke-dasharray='1.49442 1.19553' stroke-opacity='.4'/>
+<path d='M73.700078 266.4543L154.488638 394.01494' stroke='#c83727' fill='none' stroke-width='.99628' stroke-miterlimit='10' stroke-dasharray='2.39105 1.79329'/>
+<path d='M130.349138 350.30495L114.805708 307.60025L107.761108 310.16431L123.304508 352.869Z' fill='#f4ead8'/>
+<text class='f3' x='38.558062' y='367.437296' transform='matrix(.341967 .939528 -.939528 .341967 442.512 148.357)'><tspan fill='#c83727'>natur</tspan><tspan fill='#c83727' x='49.942166'>al</tspan><tspan fill='#c83727' x='55.074567'>son</tspan><tspan fill='#c83727' x='62.734945'>—</tspan><tspan fill='#c83727' x='69.144992'>legend</tspan></text>
+<path d='M73.983818 155.9019C73.983818 153.39694 71.953198 151.3663 69.448228 151.3663C66.943268 151.3663 64.912648 153.39694 64.912648 155.9019C64.912648 158.40685 66.943268 160.4375 69.448228 160.4375C71.953198 160.4375 73.983818 158.40685 73.983818 155.9019Z' fill='#6e3a8a'/>
+<path d='M70.865648 155.9019C70.865648 155.11907 70.231048 154.4845 69.448228 154.4845S68.030808 155.11907 68.030808 155.9019C68.030808 156.68472 68.665408 157.31933 69.448228 157.31933S70.865648 156.68472 70.865648 155.9019Z' fill='#1a1a1a'/>
+<text class='f4' x='38.573099' y='361.200938' transform='matrix(.999427 0 0 .999427 -17.501 -206.725)'><tspan fill='#1a1a1a'>Caspar</tspan><tspan fill='#1a1a1a' x='56.941733'>Goethe</tspan></text>
+<text class='f5' x='56.98272' y='367.046136' transform='matrix(1.000882 0 0 1.000882 -17.501 -206.725)'><tspan fill='#1a1a1a'>1710–1782</tspan></text>
+<path d='M94.960178 266.4543C94.960178 254.71251 85.441848 245.19419 73.700078 245.19419C61.958288 245.19419 52.439978 254.71251 52.439978 266.4543C52.439978 278.19608 61.958288 287.7144 73.700078 287.7144C85.441848 287.7144 94.960178 278.19608 94.960178 266.4543Z' fill='#6e3a8a' fill-opacity='.4'/>
+<path d='M82.204198 266.4543C82.204198 261.75754 78.396828 257.95017 73.700078 257.95017C69.003318 257.95017 65.195938 261.75754 65.195938 266.4543C65.195938 271.15105 69.003318 274.95842 73.700078 274.95842C78.396828 274.95842 82.204198 271.15105 82.204198 266.4543Z' fill='#6e3a8a'/>
+<path d='M75.684558 266.4543C75.684558 265.3583 74.796068 264.46982 73.700078 264.46982C72.604068 264.46982 71.715598 265.3583 71.715598 266.4543S72.604068 268.43878 73.700078 268.43878C74.796068 268.43878 75.684558 267.5503 75.684558 266.4543Z' fill='#1a1a1a'/>
+<text class='f4' x='38.573099' y='361.200938' transform='matrix(.999427 0 0 .999427 -22.233002 -96.172)'><tspan fill='#1a1a1a'>J</tspan><tspan fill='#1a1a1a' x='40.352939'>.</tspan><tspan fill='#1a1a1a' x='43.221419'>W</tspan><tspan fill='#1a1a1a' x='48.751019'>.</tspan><tspan fill='#1a1a1a' x='51.619499'>von</tspan><tspan fill='#1a1a1a' x='61.96445'>Goethe</tspan></text>
+<text class='f5' x='61.669586' y='367.046136' transform='matrix(1.000882 0 0 1.000882 -22.233002 -96.172)'><tspan fill='#1a1a1a'>17</tspan><tspan fill='#1a1a1a' x='65.249097'>49–1832</tspan></text>
+<path d='M73.983818 379.84154C73.983818 377.33657 71.953198 375.30596 69.448228 375.30596C66.943268 375.30596 64.912648 377.33657 64.912648 379.84154C64.912648 382.3465 66.943268 384.37713 69.448228 384.37713C71.953198 384.37713 73.983818 382.3465 73.983818 379.84154Z' fill='#6e3a8a'/>
+<path d='M70.865648 379.84154C70.865648 379.0587 70.231048 378.42412 69.448228 378.42412S68.030808 379.0587 68.030808 379.84154C68.030808 380.62436 68.665408 381.25896 69.448228 381.25896S70.865648 380.62436 70.865648 379.84154Z' fill='#1a1a1a'/>
+<text class='f4' x='38.573099' y='361.200938' transform='matrix(.999427 0 0 .999427 -22.779 17.215)'><tspan fill='#1a1a1a'>A</tspan><tspan fill='#1a1a1a' x='42.530216'>ugust</tspan><tspan fill='#1a1a1a' x='57.091495'>v</tspan><tspan fill='#1a1a1a' x='58.877092'>.</tspan><tspan fill='#1a1a1a' x='62.223654'>Goethe</tspan></text>
+<text class='f5' x='61.888393' y='367.046136' transform='matrix(1.000882 0 0 1.000882 -22.779 17.215)'><tspan fill='#1a1a1a'>1789–1830</tspan></text>
+<path d='M45.637008 462.04752C45.637008 459.54255 43.606388 457.51192 41.101428 457.51192C38.596458 457.51192 36.565828 459.54255 36.565828 462.04752C36.565828 464.55248 38.596458 466.5831 41.101428 466.5831C43.606388 466.5831 45.637008 464.55248 45.637008 462.04752Z' fill='#6e3a8a'/>
+<path d='M42.518828 462.04752C42.518828 461.26468 41.884248 460.6301 41.101428 460.6301C40.318598 460.6301 39.684008 461.26468 39.684008 462.04752C39.684008 462.83034 40.318598 463.46492 41.101428 463.46492C41.884248 463.46492 42.518828 462.83034 42.518828 462.04752Z' fill='#1a1a1a'/>
+<path d='M66.897118 467.7168C66.897118 465.21184 64.866488 463.18122 62.361528 463.18122C59.856558 463.18122 57.825928 465.21184 57.825928 467.7168C57.825928 470.22178 59.856558 472.25239 62.361528 472.25239C64.866488 472.25239 66.897118 470.22178 66.897118 467.7168Z' fill='#6e3a8a'/>
+<path d='M63.778948 467.7168C63.778948 466.93398 63.144348 466.29938 62.361528 466.29938C61.578698 466.29938 60.944108 466.93398 60.944108 467.7168S61.578698 469.13422 62.361528 469.13422C63.144348 469.13422 63.778948 468.49962 63.778948 467.7168Z' fill='#1a1a1a'/>
+<path d='M88.157218 487.55947C88.157218 485.05451 86.126588 483.02388 83.621628 483.02388C81.116658 483.02388 79.086048 485.05451 79.086048 487.55947C79.086048 490.06444 81.116658 492.09507 83.621628 492.09507C86.126588 492.09507 88.157218 490.06444 88.157218 487.55947Z' fill='#6e3a8a'/>
+<path d='M85.039048 487.55947C85.039048 486.77665 84.404448 486.14205 83.621628 486.14205S82.204208 486.77665 82.204208 487.55947C82.204208 488.3423 82.838808 488.97689 83.621628 488.97689S85.039048 488.3423 85.039048 487.55947Z' fill='#1a1a1a'/>
+<path d='M187.371018 311.80938C187.371018 309.3044 185.340408 307.27378 182.835438 307.27378C180.330478 307.27378 178.299858 309.3044 178.299858 311.80938C178.299858 314.31434 180.330478 316.34496 182.835438 316.34496C185.340408 316.34496 187.371018 314.31434 187.371018 311.80938Z' stroke='#2a7a4d' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-dasharray='1.39478 1.19553'/>
+<text class='f6' x='38.553158' y='367.390563' transform='matrix(.999944 0 0 .999944 129.735 -41.528)'><tspan fill='#1a1a1a'>F</tspan><tspan fill='#1a1a1a' x='41.404677'>ranz</tspan><tspan fill='#1a1a1a' x='52.548116'>I.</tspan><tspan fill='#1a1a1a' x='57.602594'>J</tspan><tspan fill='#1a1a1a' x='59.355312'>ung</tspan></text>
+<path d='M144.850798 323.14792C144.850798 320.64295 142.820178 318.61232 140.315218 318.61232C137.810248 318.61232 135.779638 320.64295 135.779638 323.14792C135.779638 325.65288 137.810248 327.6835 140.315218 327.6835C142.820178 327.6835 144.850798 325.65288 144.850798 323.14792Z' stroke='#2a7a4d' fill='none' stroke-width='.79701' stroke-miterlimit='10' stroke-dasharray='1.39478 1.19553'/>
+<text class='f6' x='38.553158' y='367.390563' transform='matrix(.999944 0 0 .999944 85.272 -56.039995)'><tspan fill='#1a1a1a'>Sophie</tspan><tspan fill='#1a1a1a' x='55.458594'>Ziegler</tspan></text>
+<path d='M159.024218 394.01494C159.024218 391.50998 156.993598 389.47936 154.488638 389.47936C151.983658 389.47936 149.953038 391.50998 149.953038 394.01494C149.953038 396.51992 151.983658 398.55054 154.488638 398.55054C156.993598 398.55054 159.024218 396.51992 159.024218 394.01494Z' fill='#2a7a4d'/>
+<path d='M155.906058 394.01494C155.906058 393.23212 155.271458 392.59754 154.488638 392.59754C153.705798 392.59754 153.071218 393.23212 153.071218 394.01494C153.071218 394.79778 153.705798 395.43236 154.488638 395.43236C155.271458 395.43236 155.906058 394.79778 155.906058 394.01494Z' fill='#1a1a1a'/>
+<text class='f4' x='38.573099' y='367.580593' transform='matrix(.999427 0 0 .999427 127.395008 21.953999)'><tspan fill='#1a1a1a'>C.</tspan><tspan fill='#1a1a1a' x='46.170538'>G</tspan><tspan fill='#1a1a1a' x='50.553897'>.</tspan><tspan fill='#1a1a1a' x='53.900457'>J</tspan><tspan fill='#1a1a1a' x='55.783979'>ung</tspan><tspan fill='#1a1a1a' x='66.630053'>(the</tspan><tspan fill='#1a1a1a' x='38.573099' y='373.960248'>elder)</tspan></text>
+<text class='f5' x='38.517014' y='379.786894' transform='matrix(1.000882 0 0 1.000882 127.395008 21.953999)'><tspan fill='#1a1a1a'>1794–1864</tspan></text>
+<path d='M144.850798 530.0797C144.850798 527.57473 142.820178 525.5441 140.315218 525.5441C137.810248 525.5441 135.779638 527.57473 135.779638 530.0797C135.779638 532.58466 137.810248 534.61529 140.315218 534.61529C142.820178 534.61529 144.850798 532.58466 144.850798 530.0797Z' fill='#2a7a4d'/>
+<path d='M141.732638 530.0797C141.732638 529.29686 141.098038 528.66228 140.315218 528.66228S138.897798 529.29686 138.897798 530.0797C138.897798 530.86252 139.532398 531.4971 140.315218 531.4971S141.732638 530.86252 141.732638 530.0797Z' fill='#1a1a1a'/>
+<text class='f4' x='38.573099' y='367.580593' transform='matrix(.999427 0 0 .999427 113.221 161.08)'><tspan fill='#1a1a1a'>Paul</tspan><tspan fill='#1a1a1a' x='51.031981'>A.</tspan><tspan fill='#1a1a1a' x='58.62942'>J</tspan><tspan fill='#1a1a1a' x='60.512939'>ung</tspan></text>
+<text class='f5' x='38.517014' y='373.416515' transform='matrix(1.000882 0 0 1.000882 113.221 161.08)'><tspan fill='#1a1a1a'>1842–1896</tspan></text>
+<path d='M173.197618 547.08794C173.197618 544.58298 171.166998 542.55236 168.662018 542.55236C166.157058 542.55236 164.126438 544.58298 164.126438 547.08794C164.126438 549.59292 166.157058 551.62352 168.662018 551.62352C171.166998 551.62352 173.197618 549.59292 173.197618 547.08794Z' fill='#2a7a4d'/>
+<path d='M170.079438 547.08794C170.079438 546.30512 169.444858 545.67052 168.662018 545.67052C167.879198 545.67052 167.244618 546.30512 167.244618 547.08794S167.879198 548.50536 168.662018 548.50536C169.444858 548.50536 170.079438 547.87076 170.079438 547.08794Z' fill='#1a1a1a'/>
+<text class='f4' x='38.573099' y='367.580593' transform='matrix(.999427 0 0 .999427 141.568 178.088)'><tspan fill='#1a1a1a'>Emilie</tspan><tspan fill='#1a1a1a' x='56.480938'>Preiswerk</tspan></text>
+<text class='f5' x='38.517014' y='373.416515' transform='matrix(1.000882 0 0 1.000882 141.568 178.088)'><tspan fill='#1a1a1a'>1848–1923</tspan></text>
+<path d='M194.457718 408.18834C194.457718 405.68339 192.427098 403.65276 189.922138 403.65276C187.417168 403.65276 185.386538 405.68339 185.386538 408.18834C185.386538 410.69332 187.417168 412.72393 189.922138 412.72393C192.427098 412.72393 194.457718 410.69332 194.457718 408.18834Z' fill='#2a7a4d'/>
+<path d='M191.339538 408.18834C191.339538 407.40552 190.704958 406.77092 189.922138 406.77092C189.139298 406.77092 188.504718 407.40552 188.504718 408.18834C188.504718 408.97118 189.139298 409.60576 189.922138 409.60576C190.704958 409.60576 191.339538 408.97118 191.339538 408.18834Z' fill='#1a1a1a'/>
+<path d='M175.748738 623.62424C175.748738 611.88247 166.230408 602.36414 154.488638 602.36414C142.746848 602.36414 133.228538 611.88247 133.228538 623.62424C133.228538 635.36604 142.746848 644.88436 154.488638 644.88436C166.230408 644.88436 175.748738 635.36604 175.748738 623.62424Z' fill='#2a7a4d' fill-opacity='.4'/>
+<path d='M162.992758 623.62424C162.992758 618.9275 159.185378 615.12012 154.488638 615.12012C149.791878 615.12012 145.984498 618.9275 145.984498 623.62424C145.984498 628.321 149.791878 632.12838 154.488638 632.12838C159.185378 632.12838 162.992758 628.321 162.992758 623.62424Z' fill='#2a7a4d'/>
+<path d='M156.473118 623.62424C156.473118 622.52825 155.584628 621.63976 154.488638 621.63976C153.392628 621.63976 152.504158 622.52825 152.504158 623.62424C152.504158 624.72025 153.392628 625.60873 154.488638 625.60873C155.584628 625.60873 156.473118 624.72025 156.473118 623.62424Z' fill='#1a1a1a'/>
+<text class='f4' x='38.573099' y='367.580593' transform='matrix(.999427 0 0 .999427 131.363 254.564)'><tspan fill='#1a1a1a'>C.</tspan><tspan fill='#1a1a1a' x='46.170538'>G</tspan><tspan fill='#1a1a1a' x='50.553897'>.</tspan><tspan fill='#1a1a1a' x='53.900457'>J</tspan><tspan fill='#1a1a1a' x='55.783979'>ung</tspan></text>
+<text class='f5' x='38.517014' y='373.416515' transform='matrix(1.000882 0 0 1.000882 131.363 254.564)'><tspan fill='#1a1a1a'>1875–1961</tspan></text>
+<text class='f2' x='48.20476' y='367.170129' transform='matrix(1.000544 0 0 1.000544 -11.623001 151.418)'><tspan fill='#1a1a1a'>W</tspan><tspan fill='#1a1a1a' x='53.020918'>alther</tspan><tspan fill='#1a1a1a' x='66.963478'>·</tspan><tspan fill='#1a1a1a' x='69.651805'>W</tspan><tspan fill='#1a1a1a' x='74.448124'>olfgang</tspan><tspan fill='#1a1a1a' x='91.376579'>·</tspan><tspan fill='#1a1a1a' x='94.064905'>Alma</tspan></text>
+<text class='f7' x='50.952943' y='373.499433' transform='matrix(.999059 0 0 .999059 -11.623001 151.418)'><tspan fill='#1a1a1a'>1818–85</tspan><tspan fill='#1a1a1a' x='66.696596'>·</tspan><tspan fill='#1a1a1a' x='69.415745'>1820–83</tspan><tspan fill='#1a1a1a' x='85.355893'>·</tspan><tspan fill='#1a1a1a' x='88.075041'>1827–44</tspan></text>
+<text class='f8' x='53.713761' y='380.711758' transform='matrix(1.000544 0 0 1.000544 -11.623001 151.418)'><tspan fill='#1a1a1a'>legitimate</tspan><tspan fill='#1a1a1a' x='74.193601'>line</tspan><tspan fill='#1a1a1a' x='82.764475'>extinct</tspan></text>
+<text class='f2' x='97.346009' y='380.711758' transform='matrix(1.000544 0 0 1.000544 -11.623001 151.418)'><tspan fill='#1a1a1a'>†</tspan></text>
+<path d='M154.488638 623.62424L134.645938 738.4289' stroke='#2a7a4d' fill='none' stroke-width='.69739' stroke-miterlimit='10' stroke-opacity='.8'/>
+<path d='M137.480798 738.4289C137.480798 736.86327 136.211598 735.5941 134.645938 735.5941C133.080298 735.5941 131.811098 736.86327 131.811098 738.4289C131.811098 739.99458 133.080298 741.26378 134.645938 741.26378C136.211598 741.26378 137.480798 739.99458 137.480798 738.4289Z' fill='#2a7a4d'/>
+<path d='M154.488638 623.62424L144.567078 738.4289' stroke='#2a7a4d' fill='none' stroke-width='.69739' stroke-miterlimit='10' stroke-opacity='.8'/>
+<path d='M147.401918 738.4289C147.401918 736.86327 146.132728 735.5941 144.567078 735.5941C143.001418 735.5941 141.732228 736.86327 141.732228 738.4289C141.732228 739.99458 143.001418 741.26378 144.567078 741.26378C146.132728 741.26378 147.401918 739.99458 147.401918 738.4289Z' fill='#2a7a4d'/>
+<path d='M154.488638 623.62424V738.4289' stroke='#2a7a4d' fill='none' stroke-width='.69739' stroke-miterlimit='10' stroke-opacity='.8'/>
+<path d='M157.323478 738.4289C157.323478 736.86327 156.054278 735.5941 154.488638 735.5941C152.922978 735.5941 151.653778 736.86327 151.653778 738.4289C151.653778 739.99458 152.922978 741.26378 154.488638 741.26378C156.054278 741.26378 157.323478 739.99458 157.323478 738.4289Z' fill='#2a7a4d'/>
+<path d='M154.488638 623.62424L164.409748 738.4289' stroke='#2a7a4d' fill='none' stroke-width='.69739' stroke-miterlimit='10' stroke-opacity='.8'/>
+<path d='M167.244598 738.4289C167.244598 736.86327 165.975398 735.5941 164.409748 735.5941C162.844088 735.5941 161.574898 736.86327 161.574898 738.4289C161.574898 739.99458 162.844088 741.26378 164.409748 741.26378C165.975398 741.26378 167.244598 739.99458 167.244598 738.4289Z' fill='#2a7a4d'/>
+<path d='M154.488638 623.62424L174.331298 738.4289' stroke='#2a7a4d' fill='none' stroke-width='.69739' stroke-miterlimit='10' stroke-opacity='.8'/>
+<path d='M177.166158 738.4289C177.166158 736.86327 175.896948 735.5941 174.331298 735.5941S171.496448 736.86327 171.496448 738.4289C171.496448 739.99458 172.765648 741.26378 174.331298 741.26378S177.166158 739.99458 177.166158 738.4289Z' fill='#2a7a4d'/>
+<text class='f9' x='38.553158' y='367.390563' transform='matrix(.999944 0 0 .999944 90.894 384.2)'><tspan fill='#1a1a1a'>ﬁve</tspan><tspan fill='#1a1a1a' x='47.413239'>children,</tspan><tspan fill='#1a1a1a' x='66.360854'>1904–1914</tspan></text>
+<text class='f1' x='38.563207' y='367.486327' transform='matrix(.999683 0 0 .999683 42.274003 478.295)'><tspan fill='#1a1a1a'>two</tspan><tspan fill='#1a1a1a' x='50.378204'>houses,</tspan><tspan fill='#1a1a1a' x='69.546303'>one</tspan><tspan fill='#1a1a1a' x='79.707191'>descent</tspan></text>
+<path d='M41.951768 778.1143C41.951768 776.07899 40.301848 774.42909 38.266558 774.42909C36.231248 774.42909 34.581328 776.07899 34.581328 778.1143C34.581328 780.1496 36.231248 781.7995 38.266558 781.7995C40.301848 781.7995 41.951768 780.1496 41.951768 778.1143Z' stroke='#1a1a1a' fill='none' stroke-width='.69739' stroke-miterlimit='10' stroke-dasharray='1.39478 1.19553'/>
+<text class='f5' x='38.517014' y='367.046136' transform='matrix(1.000882 0 0 1.000882 9.755001 412.424)'><tspan fill='#1a1a1a'>dates</tspan><tspan fill='#1a1a1a' x='48.608215'>uncertain</tspan></text>
+<text class='f5' x='76.120835' y='367.046136' transform='matrix(1.000882 0 0 1.000882 -13.040001 433.363)'><tspan fill='#1a1a1a'>per</tspan><tspan fill='#1a1a1a' x='83.422672'>the</tspan><tspan fill='#1a1a1a' x='90.562662'>family</tspan><tspan fill='#1a1a1a' x='103.871609'>legend</tspan><tspan fill='#1a1a1a' x='116.690277'>in</tspan></text>
+<text class='f10' x='121.943403' y='367.046136' transform='matrix(1.000882 0 0 1.000882 -13.040001 433.363)'><tspan fill='#1a1a1a'>Memories,</tspan><tspan fill='#1a1a1a' x='145.124579'>Dreams,</tspan><tspan fill='#1a1a1a' x='163.764712'>Re-</tspan><tspan fill='#1a1a1a' x='77.260829' y='372.421393'>ﬂections</tspan></text>
+<text class='f5' x='94.604525' y='372.421393' transform='matrix(1.000882 0 0 1.000882 -13.040001 433.363)'><tspan fill='#1a1a1a'>;</tspan><tspan fill='#1a1a1a' x='97.298696'>the</tspan><tspan fill='#1a1a1a' x='104.443444'>attested</tspan><tspan fill='#1a1a1a' x='119.86105'>father</tspan><tspan fill='#1a1a1a' x='132.360811'>is</tspan><tspan fill='#1a1a1a' x='136.735251'>F</tspan><tspan fill='#1a1a1a' x='139.277088'>r</tspan><tspan fill='#1a1a1a' x='140.838381'>anz</tspan><tspan fill='#1a1a1a' x='148.944648'>I</tspan><tspan fill='#1a1a1a' x='150.696333'>gnaz</tspan><tspan fill='#1a1a1a' x='160.882725'>Jung</tspan></text>
+<text class='f11' x='38.540939' y='367.274125' transform='matrix(1.000261 0 0 1.000261 -15.190002 492.215)'><tspan fill='#1a1a1a'>c1</tspan><tspan fill='#1a1a1a' x='46.474075'>dd</tspan><tspan fill='#1a1a1a' x='54.407212'>00</tspan><tspan fill='#1a1a1a' x='62.340346'>01</tspan></text>
+<text class='f8' x='38.530026' y='367.170129' transform='matrix(1.000544 0 0 1.000544 135.349 492.155)'><tspan fill='#1a1a1a'>El</tspan><tspan fill='#1a1a1a' x='43.986025'>Ermitaño</tspan></text>
+</g>
+</svg></figure><details class="latex-src"><summary>LaTeX source</summary><pre>% Margin banner II — La Estirpe  (generated from goethe.json + jung.json + bridge.json)
+\documentclass[tikz,border=3mm]{standalone}
+\usepackage{fontspec}\setmainfont{Hoefler Text}
+\usepackage{xcolor}\usepackage{textcomp}
+\definecolor{kr}{HTML}{c83727}\definecolor{ky}{HTML}{e8b73a}\definecolor{kb}{HTML}{2b62a8}
+\definecolor{kg}{HTML}{2a7a4d}\definecolor{kp}{HTML}{6e3a8a}\definecolor{kgold}{HTML}{c2a76b}
+\definecolor{kw}{HTML}{f4ead8}\definecolor{ki}{HTML}{1a1a1a}
+\begin{document}\begin{tikzpicture}[x=1cm,y=1cm]
+  \fill[kw] (-3.6,-15.2) rectangle (3.6,15.2);
+  \draw[kgold,line width=0.6mm] (-3.4,-15.0) rectangle (3.4,15.0);
+  \draw[kgold,line width=0.15mm] (-3.25,-14.85) rectangle (3.25,14.85);
+  \node[ki,font=\itshape,anchor=north] at (0,14.4) {The Lineage};
+  \node[ki,font=\scriptsize\itshape,anchor=north] at (0,13.6) {Goethe \&amp; Jung};
+  \draw[kgold,opacity=0.18,line width=0.2pt] (-3.05,11.00) -- (3.05,11.00);
+  \draw[kgold,opacity=0.18,line width=0.2pt] (-3.05,8.50) -- (3.05,8.50);
+  \draw[kgold,opacity=0.18,line width=0.2pt] (-3.05,6.00) -- (3.05,6.00);
+  \draw[kgold,opacity=0.18,line width=0.2pt] (-3.05,3.50) -- (3.05,3.50);
+  \draw[kgold,opacity=0.18,line width=0.2pt] (-3.05,1.00) -- (3.05,1.00);
+  \draw[kgold,opacity=0.18,line width=0.2pt] (-3.05,-1.50) -- (3.05,-1.50);
+  \draw[kgold,opacity=0.18,line width=0.2pt] (-3.05,-4.00) -- (3.05,-4.00);
+  \draw[kgold,opacity=0.18,line width=0.2pt] (-3.05,-6.50) -- (3.05,-6.50);
+  \draw[kgold,opacity=0.18,line width=0.2pt] (-3.05,-9.00) -- (3.05,-9.00);
+  \node[ki,opacity=0.55,font=\fontsize{5}{6}\selectfont,fill=kw,inner sep=0.6pt] at (0,11.00) {1700};
+  \node[ki,opacity=0.55,font=\fontsize{5}{6}\selectfont,fill=kw,inner sep=0.6pt] at (0,6.00) {1750};
+  \node[ki,opacity=0.55,font=\fontsize{5}{6}\selectfont,fill=kw,inner sep=0.6pt] at (0,1.00) {1800};
+  \node[ki,opacity=0.55,font=\fontsize{5}{6}\selectfont,fill=kw,inner sep=0.6pt] at (0,-4.00) {1850};
+  \node[ki,opacity=0.55,font=\fontsize{5}{6}\selectfont,fill=kw,inner sep=0.6pt] at (0,-9.00) {1900};
+  \node[kp,font=\fontsize{7}{8}\selectfont\itshape,anchor=south] at (-1.55,12.0) {House of Goethe};
+  \node[kg,font=\fontsize{7}{8}\selectfont\itshape,anchor=south] at (1.7,12.0) {House of Jung};
+  \node[kg,font=\fontsize{5.5}{6}\selectfont\itshape,anchor=south,opacity=0.8] at (1.7,11.55) {\&amp; Preiswerk};
+  \draw[kp,opacity=0.85,line width=1.0pt] (-1.45,10.00) -- (-1.30,6.10);
+  \draw[kp,opacity=0.85,line width=1.0pt] (-1.30,6.10) -- (-1.45,2.10);
+  \draw[kp,opacity=0.85,line width=1.0pt] (-1.45,2.10) -- (-2.45,-0.80);
+  \draw[kp,opacity=0.85,line width=1.0pt] (-1.45,2.10) -- (-1.70,-1.00);
+  \draw[kp,opacity=0.85,line width=1.0pt] (-1.45,2.10) -- (-0.95,-1.70);
+  \draw[kg,opacity=0.30,line width=0.6pt] (2.55,4.50) -- (1.55,1.60);
+  \draw[kg,opacity=0.85,line width=1.0pt] (1.05,4.10) -- (1.55,1.60);
+  \draw[kg,opacity=0.85,line width=1.0pt] (1.55,1.60) -- (1.05,-3.20);
+  \draw[kg,opacity=0.85,line width=1.0pt] (2.80,1.10) -- (2.05,-3.80);
+  \draw[kg,opacity=0.85,line width=1.0pt] (1.05,-3.20) -- (1.55,-6.50);
+  \draw[kg,opacity=0.85,line width=1.0pt] (2.05,-3.80) -- (1.55,-6.50);
+  \draw[ki,opacity=0.4,line width=0.5pt,dash pattern=on 1.5pt off 1.2pt] (1.05,-3.20) -- (2.05,-3.80);
+  \draw[kr,line width=1.0pt,dash pattern=on 2.4pt off 1.8pt] (-1.30,6.10) -- (1.55,1.60);
+  \node[kr,font=\fontsize{5.5}{6}\selectfont\itshape,fill=kw,inner sep=1pt,rotate=-70] at (0.30,3.85) {natural son \textemdash\ legend};
+  \fill[kp] (-1.45,10.00) circle (0.16);
+  \fill[ki] (-1.45,10.00) circle (0.05);
+  \node[ki,font=\fontsize{5.8}{6.4}\selectfont,anchor=east,align=right] at (-1.73,10.00) {Caspar Goethe\\{\fontsize{4.8}{5.4}\selectfont\itshape 1710--1782}};
+  \fill[kp,opacity=0.4] (-1.30,6.10) circle (0.75);
+  \fill[kp] (-1.30,6.10) circle (0.30);
+  \fill[ki] (-1.30,6.10) circle (0.07);
+  \node[ki,font=\fontsize{5.8}{6.4}\selectfont,anchor=east,align=right] at (-1.72,6.10) {J. W. von Goethe\\{\fontsize{4.8}{5.4}\selectfont\itshape 1749--1832}};
+  \fill[kp] (-1.45,2.10) circle (0.16);
+  \fill[ki] (-1.45,2.10) circle (0.05);
+  \node[ki,font=\fontsize{5.8}{6.4}\selectfont,anchor=east,align=right] at (-1.73,2.10) {August v. Goethe\\{\fontsize{4.8}{5.4}\selectfont\itshape 1789--1830}};
+  \fill[kp] (-2.45,-0.80) circle (0.16);
+  \fill[ki] (-2.45,-0.80) circle (0.05);
+  \fill[kp] (-1.70,-1.00) circle (0.16);
+  \fill[ki] (-1.70,-1.00) circle (0.05);
+  \fill[kp] (-0.95,-1.70) circle (0.16);
+  \fill[ki] (-0.95,-1.70) circle (0.05);
+  \draw[kg,line width=0.8pt,dash pattern=on 1.4pt off 1.2pt] (2.55,4.50) circle (0.16);
+  \node[ki,font=\fontsize{5.4}{6}\selectfont,anchor=north] at (2.55,4.26) {Franz I. Jung};
+  \draw[kg,line width=0.8pt,dash pattern=on 1.4pt off 1.2pt] (1.05,4.10) circle (0.16);
+  \node[ki,font=\fontsize{5.4}{6}\selectfont,anchor=south] at (1.05,4.34) {Sophie Ziegler};
+  \fill[kg] (1.55,1.60) circle (0.16);
+  \fill[ki] (1.55,1.60) circle (0.05);
+  \node[ki,font=\fontsize{5.8}{6.4}\selectfont,anchor=west,align=left,text width=1.5cm] at (1.83,1.60) {C. G. Jung (the elder)\\{\fontsize{4.8}{5.4}\selectfont\itshape 1794--1864}};
+  \fill[kg] (1.05,-3.20) circle (0.16);
+  \fill[ki] (1.05,-3.20) circle (0.05);
+  \node[ki,font=\fontsize{5.8}{6.4}\selectfont,anchor=west,align=left,text width=1.5cm] at (1.33,-3.20) {Paul A. Jung\\{\fontsize{4.8}{5.4}\selectfont\itshape 1842--1896}};
+  \fill[kg] (2.05,-3.80) circle (0.16);
+  \fill[ki] (2.05,-3.80) circle (0.05);
+  \node[ki,font=\fontsize{5.8}{6.4}\selectfont,anchor=west,align=left,text width=1.5cm] at (2.33,-3.80) {Emilie Preiswerk\\{\fontsize{4.8}{5.4}\selectfont\itshape 1848--1923}};
+  \fill[kg] (2.80,1.10) circle (0.16);
+  \fill[ki] (2.80,1.10) circle (0.05);
+  \fill[kg,opacity=0.4] (1.55,-6.50) circle (0.75);
+  \fill[kg] (1.55,-6.50) circle (0.30);
+  \fill[ki] (1.55,-6.50) circle (0.07);
+  \node[ki,font=\fontsize{5.8}{6.4}\selectfont,anchor=west,align=left,text width=1.5cm] at (1.97,-6.50) {C. G. Jung\\{\fontsize{4.8}{5.4}\selectfont\itshape 1875--1961}};
+  \node[ki,font=\fontsize{5}{5.8}\selectfont,anchor=north,text width=2.7cm,align=center] at (-1.6,-2.55) {Walther \textperiodcentered\ Wolfgang \textperiodcentered\ Alma\\{\fontsize{4.6}{5.2}\selectfont\itshape 1818--85 \textperiodcentered\ 1820--83 \textperiodcentered\ 1827--44}\\[2pt]\textit{legitimate line extinct} \dag};
+  \draw[kg,opacity=0.8,line width=0.7pt] (1.55,-6.50) -- (0.85,-10.55);
+  \fill[kg] (0.85,-10.55) circle (0.10);
+  \draw[kg,opacity=0.8,line width=0.7pt] (1.55,-6.50) -- (1.20,-10.55);
+  \fill[kg] (1.20,-10.55) circle (0.10);
+  \draw[kg,opacity=0.8,line width=0.7pt] (1.55,-6.50) -- (1.55,-10.55);
+  \fill[kg] (1.55,-10.55) circle (0.10);
+  \draw[kg,opacity=0.8,line width=0.7pt] (1.55,-6.50) -- (1.90,-10.55);
+  \fill[kg] (1.90,-10.55) circle (0.10);
+  \draw[kg,opacity=0.8,line width=0.7pt] (1.55,-6.50) -- (2.25,-10.55);
+  \fill[kg] (2.25,-10.55) circle (0.10);
+  \node[ki,font=\fontsize{5.4}{6}\selectfont\itshape,anchor=north] at (1.55,-10.75) {five children, 1904--1914};
+  \node[ki,font=\scriptsize\itshape,anchor=south] at (0,-14.5) {two houses, one descent};
+  \draw[ki,line width=0.7pt,dash pattern=on 1.4pt off 1.2pt] (-2.55,-11.95) circle (0.13);
+  \node[ki,font=\fontsize{4.8}{5.4}\selectfont\itshape,anchor=west] at (-2.32,-11.95) {dates uncertain};
+  \node[ki,font=\fontsize{4.8}{5.4}\selectfont\itshape,anchor=north,text width=6cm,align=center] at (0,-12.5) {per the family legend in \emph{Memories, Dreams, Reflections}; the attested father is Franz Ignaz Jung};
+  \node[ki,font=\ttfamily\fontsize{5}{6}\selectfont,anchor=south west] at (-3.2,-14.95) {c1 dd 00 01};
+  \node[ki,font=\fontsize{5}{6}\selectfont\itshape,anchor=south east] at (3.2,-14.95) {El Ermita\~no};
+\end{tikzpicture}\end{document}
+</pre></details></div></article></main></body></html>

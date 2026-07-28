@@ -42,3 +42,6 @@ Independent structural and canon-fidelity check; repairs applied in place and th
 **Campa voice.** Present tense throughout; the great episodes (Gruner's sentence, the Steiger shout, Wilhelmine's death, the ban, the midsummer death) are properly incandescent. Two edits: stop "Gruner's Musterschule" trimmed 112 → 105 words (band is 60–110); in "the death of Wilhelmine" the unverifiable "sixty-seven days from her deathbed" precision was softened to a claim the canon can carry.
 
 **Noted, not changed.** The canon's appendix chronology says "July" for the Louise Levin marriage where the file has the standard 9 June 1851 (attested in modern references); and April for the Gotha call where the file follows the German sources' 3 June — both already covered by the report's judgment-call section. The register ("the canon is true") was respected throughout; nothing was debunked.
+
+## Pin stitch — 2026-07-13
+Connectivity audit: same-site pins normalized to weld the hard pin-lattice (atlas convention: shared sites byte-identical). All four Yverdon stops repinned to pestalozzi's canonical castle pin 46.7785,6.6408 (survey §C29) — master and pilgrim on one stone.

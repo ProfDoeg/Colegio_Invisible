@@ -1,0 +1,197 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>spectra · gallery</title><style>
+:root{--bg:#0d0d0f;--ink:#e7e3d8;--muted:#8a8f99;--line:#23232a;--tone:#6b7280;--link:#6faed9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font:16px/1.6 ui-serif,Georgia,'Times New Roman',serif}
+header{display:flex;align-items:baseline;gap:.8rem;padding:1rem 1.4rem;
+ border-bottom:1px solid var(--line)}
+.brand{font:700 1.2rem ui-monospace,Menlo,monospace;color:var(--ink);
+ text-decoration:none;letter-spacing:.04em}
+.sub{color:var(--muted);font-size:.85rem}
+main{max-width:880px;margin:0 auto;padding:1.6rem 1.4rem 4rem}
+.muted{color:var(--muted)} .err{color:#e03131;font-size:.85rem}
+.lead h1{font:600 2rem ui-serif,Georgia,serif;margin:.2rem 0}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));
+ gap:.9rem;margin-top:1.4rem}
+.card{display:flex;flex-direction:column;gap:.35rem;padding:.9rem 1rem;
+ text-decoration:none;color:var(--ink);background:#131319;border:1px solid var(--line);
+ border-left:3px solid var(--tone);border-radius:6px;transition:.12s}
+.card:hover{background:#17171f;transform:translateY(-1px)}
+.c-type{font:600 .7rem ui-monospace,monospace;color:var(--tone);
+ text-transform:uppercase;letter-spacing:.08em}
+.c-title{font-size:1rem;line-height:1.3}
+.c-tone{font-size:.75rem;color:var(--muted);margin-top:auto}
+.quipu{border-left:3px solid var(--tone);padding-left:1.2rem}
+.scene3d{margin:1rem 0}
+.scene3d .s3-stage{position:relative;height:68vh;min-height:420px;border:1px solid var(--line);
+ border-radius:6px;overflow:hidden;background:#000}
+.scene3d canvas{display:block}
+.s3-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+ background:rgba(10,10,12,.55);color:#e7e3d8;font:600 .95rem ui-monospace,Menlo,monospace;
+ cursor:pointer;z-index:2;text-align:center;padding:1rem;transition:opacity .3s}
+.s3-hint.hide{opacity:0;pointer-events:none}
+.s3-hint.soft{background:transparent;pointer-events:none;align-items:flex-end;
+ justify-content:flex-start;color:#8a8f99}
+.s3-plaque{position:absolute;top:.7rem;left:50%;transform:translateX(-50%);
+ background:rgba(12,12,16,.78);border:1px solid var(--line);color:#e7e3d8;
+ padding:.35rem .8rem;border-radius:6px;font:.8rem ui-monospace,Menlo,monospace;
+ opacity:0;transition:opacity .25s;z-index:3;max-width:80%}
+.s3-plaque.show{opacity:1}
+.s3-dossier{margin-top:.6rem;border:1px solid var(--line);border-radius:6px;
+ padding:.85rem 1.1rem;background:#131319;overflow:auto}
+.s3-dossier:empty{display:none}
+.s3d-head{display:flex;align-items:baseline;gap:.7rem;flex-wrap:wrap;margin-bottom:.3rem}
+.s3d-name{font:600 1.05rem ui-serif,Georgia,serif;color:#e7e3d8}
+.s3d-date{font:.74rem ui-monospace,Menlo,monospace;color:var(--muted)}
+.s3d-tag{font:.66rem ui-monospace,Menlo,monospace;color:var(--muted);opacity:.75;margin-left:auto}
+.s3d-imgwrap{float:right;margin:.2rem 0 .5rem .9rem;max-width:220px}
+.s3d-img{max-width:220px;max-height:200px;border-radius:4px;display:block}
+.s3d-key{font:600 .62rem ui-monospace,Menlo,monospace;color:#8a8f99;
+ text-transform:uppercase;letter-spacing:.08em;margin-top:.5rem}
+.s3d-text{font:.9rem/1.6 ui-serif,Georgia,serif;color:#d9d5ca;margin:.15rem 0}
+blockquote.s3d-text{border-left:2px solid var(--line);padding-left:.6rem;
+ margin:.15rem 0;font-style:italic}
+.s3d-link{display:inline-block;font:.75rem ui-monospace,Menlo,monospace;
+ color:var(--link);margin:.45rem .7rem 0 0;text-decoration:none}
+.scene3d figcaption{color:var(--muted);font-size:.85rem;margin-top:.5rem}
+.corrected-h{font:600 1.25rem ui-serif,Georgia,serif;margin:2rem 0 .6rem;
+ padding-top:1.2rem;border-top:1px solid var(--line)}
+.q-head h1{font:600 2rem ui-serif,Georgia,serif;margin:.2rem 0}
+.q-prov{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .9rem;
+ margin:-1rem 0 1.4rem}
+.q-block{font:600 .72rem ui-monospace,Menlo,monospace;color:var(--muted)}
+.q-txid{font:.68rem/1.4 ui-monospace,Menlo,monospace;color:var(--muted);opacity:.6;
+ word-break:break-all}
+.q-meta{display:flex;gap:.5rem;flex-wrap:wrap;margin:.4rem 0 1.4rem}
+.pill{font:600 .72rem ui-monospace,monospace;padding:.2rem .55rem;border-radius:999px;
+ border:1px solid var(--line)}
+.pill.type{color:var(--tone);border-color:var(--tone)}
+.pill.tone{color:var(--muted)}
+.edition{font:600 .72rem ui-monospace,monospace;padding:.2rem .55rem;border-radius:999px}
+.edition.current{color:#12b886;border:1px solid #12b886}
+.edition.superseded{color:var(--muted);border:1px solid var(--line)}
+.text{white-space:pre-wrap;font:1.05rem/1.7 ui-serif,Georgia,serif;margin:0}
+.essay :is(h1,h2,h3){font-family:ui-serif,Georgia,serif}
+.essay img,.image img,.celestial img{max-width:100%;border-radius:6px}
+.essay a{color:var(--link)} .essay a:hover{color:#8fc7e8}
+.image{margin:0;image-rendering:pixelated}
+.image figcaption,.celestial figcaption{color:var(--muted);font-size:.8rem;margin-top:.4rem}
+.latex pre,.raw pre{white-space:pre-wrap;word-break:break-word;background:#131319;
+ border:1px solid var(--line);border-radius:6px;padding:1rem;font:.85rem ui-monospace,monospace}
+.tag{color:var(--muted);font-size:.78rem}
+.book-toc{border:1px solid var(--line);border-radius:6px;padding:.8rem 1rem;margin-bottom:1.8rem;background:#131319}
+.book-toc-h{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:.4rem}
+.book-toc ol{margin:0;padding-left:1.3rem} .book-toc li{margin:.25rem 0} .book-toc a{color:var(--link)}
+.chapter-sec{margin-top:2rem} .book .chapter-sec:first-of-type{margin-top:0}
+h2.chapter{font-size:1.5rem;border-top:1px solid var(--line);padding-top:1.2rem;margin-top:2.6rem}
+.book .chapter-sec:first-of-type h2.chapter{border-top:none;padding-top:0;margin-top:0}
+.chapter-src{margin-top:1.1rem;font-size:.8rem} .chapter-src a{color:var(--link)}
+.sealed{text-align:center;padding:2rem;background:#131319;border:1px dashed var(--line);border-radius:8px}
+.sealed .lock{font-size:2rem}
+.meta{width:100%;border-collapse:collapse;font:.85rem ui-monospace,monospace;margin-top:.6rem}
+.meta td{border-top:1px solid var(--line);padding:.35rem .5rem;vertical-align:top}
+.meta td:first-child{color:var(--muted);width:30%}
+.sky{width:100%;background:#07070c;border-radius:6px;display:block}
+.sky .cl line{stroke:#39508f;stroke-width:.7;opacity:.7}
+.sky .st circle{fill:#e7e3d8}
+.sky .lb text{fill:#7a8194;font:8px ui-monospace,monospace}
+.hdr{margin:.2rem 0 1.4rem;font:.82rem ui-monospace,monospace}
+.hdr summary{cursor:pointer;color:var(--muted);letter-spacing:.04em}
+.hdr table{border-collapse:collapse;margin-top:.5rem}
+.hdr td{border-top:1px solid var(--line);padding:.25rem 1rem .25rem 0}
+.hdr td:first-child{color:var(--muted)}
+.binding pre{white-space:pre-wrap;background:#131319;border:1px solid var(--line);
+ border-radius:6px;padding:1rem;font:.85rem/1.55 ui-monospace,monospace}
+.binding a{color:var(--tone)} .binding b{color:var(--ink);font-weight:600}
+.binding .ext{color:var(--muted);border-bottom:1px dotted var(--muted);cursor:help}
+.repub{font-size:.82rem;color:var(--muted);border-left:2px solid var(--tone);
+ padding:.35rem .7rem;margin:0 0 1.4rem;background:rgba(255,255,255,.02)}
+.repub a{color:var(--tone)}
+.qimg{display:inline-block;line-height:0} .qimg img{cursor:zoom-in}
+.qimg:hover img{outline:2px solid var(--tone);outline-offset:2px}
+.qlink{color:var(--link)}
+.genealogy-tree{margin:0 0 1.6rem;text-align:center}
+.genealogy-tree svg{max-width:100%;height:auto;background:#faf7ef;border-radius:6px;
+ box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.house-roster{list-style:none;padding:0;margin:1.4rem 0;display:grid;gap:.85rem}
+.house-roster li{border-left:2px solid var(--line);padding:.1rem 0 .2rem .9rem;overflow:hidden}
+.hr-name{font-weight:600;color:var(--ink)}
+.hr-dates{color:var(--muted);font-size:.85rem;margin-left:.5rem}
+.hr-note{display:block;color:#bdb8aa;font-size:.92rem;margin-top:.15rem}
+.hr-ref{color:var(--link);font-size:.78rem;margin-left:.4rem}
+.hr-portrait{float:right;width:78px;margin:0 0 .4rem .9rem}
+.hr-portrait img{width:78px;border-radius:4px;display:block}
+.earth-map{display:flex;gap:1.3rem;flex-wrap:wrap;align-items:flex-start;margin:1rem 0}
+.earth-fig{flex:1 1 460px;min-width:0;margin:0;background:#aacbe6;border-radius:6px;
+ box-shadow:0 1px 16px rgba(0,0,0,.45);overflow:hidden}
+.earth{display:block;width:100%;height:auto}
+.earth .sea{fill:#aacbe6}
+.earth .land{fill:#efe6d2;stroke:#b89f6a;stroke-width:.5;stroke-linejoin:round}
+.earth .lake{fill:#aacbe6;stroke:#7ba3c9;stroke-width:.45}
+.earth .route line{stroke:#c83727;stroke-width:1.7;opacity:.95;stroke-linecap:round}
+.earth .wps circle{fill:#e8b73a;stroke:#5a3a12;stroke-width:.8;cursor:pointer}
+.earth .wp:hover circle,.earth .wp.on circle{fill:#fff;r:5.5}
+.ej-panel{flex:1 1 250px;position:sticky;top:1rem;border-left:2px solid var(--line);
+ padding:.1rem 0 .4rem 1rem;min-height:5rem}
+.ej-panel h3{margin:.1rem 0 .4rem;font-size:1.05rem;font-weight:600}
+.ej-panel h3 span{color:var(--muted);font-weight:400;font-size:.82rem;font-style:italic}
+.ej-panel p{margin:.4rem 0;font-size:.93rem;line-height:1.55}
+.ej-panel blockquote{border-left:2px solid var(--tone);margin:.6rem 0;padding-left:.8rem;
+ color:#c9c3b4;font-style:italic}
+.ej-ref{margin:.8rem 0}
+.ej-ref img{display:block;width:100%;border-radius:4px}
+.ej-ref blockquote{border-left:2px solid var(--tone);margin:0 0 .3rem;padding-left:.8rem;
+ color:#c9c3b4;font-style:italic;font-size:.9rem;line-height:1.5}
+.ej-ref figcaption{font-size:.78rem;color:var(--muted)} .ej-ref figcaption a{color:var(--link)}
+.ej-refs{font-size:.85rem;margin-top:.6rem!important;line-height:1.7}
+.ej-refs a{color:var(--link)} .ej-refs span{color:var(--muted)}
+.ej-hint{color:var(--muted);font-style:italic}
+.cert{border:1px solid var(--line);border-radius:10px;padding:1.6rem 1.9rem;
+ background:linear-gradient(180deg,rgba(255,255,255,.035),transparent)}
+.cert-seal{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--tone);margin-bottom:1rem}
+.cert-meta{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 1rem}
+.cert .chip{font:11px ui-monospace,monospace;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:.1rem .45rem}
+.cert-title{font-family:Georgia,serif;font-size:1.7rem;line-height:1.15;margin:.2rem 0 .15rem}
+.cert-artist{font-style:italic;color:var(--muted);margin:0 0 1.2rem}
+.cert-image{margin:1.3rem 0} .cert-image img{max-width:100%;border-radius:4px}
+.cert-text{line-height:1.75}
+.cert-authority{font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);margin-top:1.5rem;padding-top:.8rem}
+.cert-authority a{color:var(--tone)}
+.cert-sigs{border-top:1px solid var(--line);margin-top:1rem;padding-top:.7rem}
+.cert-sigs-h{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.3rem}
+.cert-sig{font-size:.8rem;color:var(--muted);margin:.2rem 0}
+.cert-extra{font-size:.85rem;color:var(--muted)}
+.latex-fig{margin:1.6rem 0;text-align:center}
+.latex-fig svg{display:block;margin:0 auto;width:100%;max-width:340px;height:auto;
+ border-radius:4px;box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.latex-src{margin:.5rem auto 0;max-width:340px;font-size:.8rem}
+.latex-src summary{cursor:pointer;color:var(--muted);letter-spacing:.03em}
+.latex-src pre{white-space:pre-wrap;background:#131319;border:1px solid var(--line);
+ border-radius:6px;padding:.8rem;font:.78rem/1.5 ui-monospace,monospace;margin-top:.4rem}
+.essay-cols{display:flex;flex-direction:column}      /* narrow: prose, then plates */
+.marginplate{margin:1.3rem auto}
+.marginplate svg,.marginplate img{display:block;width:100%;max-width:340px;height:auto;
+ margin:0 auto;border-radius:4px;box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.marginplate figcaption{font-size:.72rem;color:var(--muted);text-align:center;
+ margin-top:.35rem;letter-spacing:.04em;font-style:italic}
+@media(min-width:700px){            /* prose | stacked margin column */
+  main.wide{max-width:1180px}
+  .essay-cols{flex-direction:row;gap:1.6rem;align-items:flex-start}
+  .essay-cols .prose{flex:1 1 0;min-width:0}
+  .essay-cols .plates{flex:0 0 236px}
+  .plates .marginplate{margin:0 0 1.2rem}          /* just stack, little spacing */
+}
+@media(min-width:1040px){           /* roomier window → wider plates */
+  .essay-cols .plates{flex:0 0 300px}
+}
+
+.q-facts{border-collapse:collapse;margin:.4rem 0 1rem;font-size:.9rem}
+.q-facts td{padding:.18rem .9rem .18rem 0;vertical-align:top}
+.q-facts td:first-child{color:var(--muted,#8a93a6);white-space:nowrap;font-variant:small-caps;letter-spacing:.02em}
+.q-facts td:last-child{font-variant-numeric:tabular-nums}
+</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body)"></script></head><body><header><a class="brand" href="index.html">spectra</a><span class="sub">the lens &middot; Colegio Invisible</span></header><main><div class="lead"><h1>the gallery</h1><p class="muted">65 quipu &mdash; keyless, read live from the chain &middot; newest block first</p></div><div class="gallery"><a class="card" style="--tone:#f59f00" href="q/cff5f5bb049bcda098f8ac8ca6ec6779c57d6c7789dd767ce0fe2f62afbd64c4.html"><div class="c-type">binding</div><div class="c-title">—</div><div class="c-tone">hope</div></a><a class="card" style="--tone:#2bb3a3" href="q/97356eb571b58822fe473eb67179a4da09908466013512eef4f761b35d0f8025.html"><div class="c-type">celestial</div><div class="c-title">Earth — the Italian Journey upon the world&#x27;s coasts and lakes</div><div class="c-tone">seeking/wandering</div></a><a class="card" style="--tone:#f59f00" href="q/34316f64559d5825e3ecb6a617af7f3650e8563ca23a6d4e47089e7feb1d30d1.html"><div class="c-type">binding</div><div class="c-title">—</div><div class="c-tone">hope</div></a><a class="card" style="--tone:#2bb3a3" href="q/1aeb468d341b33efc75f1b70bbec1740dc9f08bb0b8ace621c2f6ca0dd8129f5.html"><div class="c-type">latex</div><div class="c-title">The Descent</div><div class="c-tone">seeking/wandering</div></a><a class="card" style="--tone:#8a8f99" href="q/1fa3a4b90af9b7ac61cb7713b3fe26d20d2e9d65da86ac00343e4115438bddb8.html"><div class="c-type">scene</div><div class="c-title">The Dantean Cosmos</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#f2b134" href="q/5dc8ed119de6e5470f6239d712a9dda9af106249c1023eec60aebb22aca102fe.html"><div class="c-type">image</div><div class="c-title">Goethe (Playmobil)</div><div class="c-tone">play/interaction</div></a><a class="card" style="--tone:#4c6ef5" href="q/62c2b42750c8ae44309cee68e7c40ae7639144124f97d6db0fc0d13df13751f0.html"><div class="c-type">text</div><div class="c-title">Jung to Serrano at Bollingen, 1961</div><div class="c-tone">grief/panic</div></a><a class="card" style="--tone:#6741d9" href="q/6e10058f59cb709bdcaaf994b1dab448053ae482970155f4c34a60c20b89f366.html"><div class="c-type">celestial</div><div class="c-title">Bode — Uranographia (the whole sky)</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#4c6ef5" href="q/6f46b42033dea9dc5a3fb2a8b6b141c2eac6316872ea9792c6f50b45deab9907.html"><div class="c-type">latex</div><div class="c-title">Ego and Unconscious</div><div class="c-tone">grief/panic</div></a><a class="card" style="--tone:#2bb3a3" href="q/762043aaaed3fd92d3e129aa94ffb53753ad0e98a58f3fd7ab816379c13de9c4.html"><div class="c-type">celestial</div><div class="c-title">Goethe — Italian Journey (1786–1788)</div><div class="c-tone">seeking/wandering</div></a><a class="card" style="--tone:#8a8f99" href="q/77cd55bded8ea5ea5757e7526512cbfe276d89c88d1b01206f968ea8ad147061.html"><div class="c-type">celestial</div><div class="c-title">House of Goethe</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#2bb3a3" href="q/83baf5826ffe4971e6e01fa4cf8d42f2334f69adcf627b34b365648dec80457d.html"><div class="c-type">latex</div><div class="c-title">Eranos</div><div class="c-tone">seeking/wandering</div></a><a class="card" style="--tone:#d6336c" href="q/8d1e3b6c89f8bfc1f4e706e2cbe6774919126e9754b849e4bd673e82a0271ddb.html"><div class="c-type">latex</div><div class="c-title">Gana, the roots</div><div class="c-tone">lust/wanting</div></a><a class="card" style="--tone:#2bb3a3" href="q/9b845cdeb1e8a7ab8d364fa18c5c8f7bcf699471bbd0d2a302ac16efb748626f.html"><div class="c-type">latex</div><div class="c-title">The Italian Journey</div><div class="c-tone">seeking/wandering</div></a><a class="card" style="--tone:#6741d9" href="q/a8949b8248c476c4e93cb1c419d4da176f133b7862f5bdc26fede843194a68d6.html"><div class="c-type">latex</div><div class="c-title">Shiva, lord of the ganas</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#2bb3a3" href="q/ac915b7bdf9f37b2eafaf9f9b6c6c974220d5336b39237c3127661d0dc399ce8.html"><div class="c-type">image</div><div class="c-title">Malcesine — the Scaliger tower on Lake Garda</div><div class="c-tone">seeking/wandering</div></a><a class="card" style="--tone:#8a8f99" href="q/b4d023875aa649440c34c05095437b4cd43c5c1eddfd53d6829c40ea1f2a1023.html"><div class="c-type">latex</div><div class="c-title">The Lineage</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#d6336c" href="q/e00a1ace3afd59c005143a6354a6ff42e2b0dda246d3213a7a40836d3375600a.html"><div class="c-type">essay</div><div class="c-title">Gana</div><div class="c-tone">lust/wanting</div></a><a class="card" style="--tone:#f2b134" href="q/ebaefd3e99b46ce1c6282209134f07990524ffe4a5bf1f2a6905905be0c0eda6.html"><div class="c-type">image</div><div class="c-title">Goethe in the Roman Campagna</div><div class="c-tone">play/interaction</div></a><a class="card" style="--tone:#8a8f99" href="q/f2da803b67290489b001aefb517449ca784b532dda0b398a5490b5f9ce4e393e.html"><div class="c-type">celestial</div><div class="c-title">House of Jung</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#f2b134" href="q/fcff6aa28113cfa1a0323dd41f8a65a88d0bc372601fdff0eb177825023e7826.html"><div class="c-type">dancer</div><div class="c-title">Caity</div><div class="c-tone">play/interaction</div></a><a class="card" style="--tone:#8a8f99" href="q/6de4688a945fb03f41f9b1139c83f5099dd309378348398d4b52ce1c1d12a489.html"><div class="c-type">dancer</div><div class="c-title">Jeremy</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#8a8f99" href="q/26671514416913719c560a4ac1246e333e410d2503e298a8a6852031c3285888.html"><div class="c-type">book</div><div class="c-title">Dos ensayos</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#8a8f99" href="q/449e67f4a2e948f044e1a32662b58ccedad3cf8e85a742cc45b6b6541e47b5d7.html"><div class="c-type">essay</div><div class="c-title">Cementerio de los Animales</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#8a8f99" href="q/8306eda8433bb95d24977d62042b65aae664947c670046887d6662bd723eba3c.html"><div class="c-type">binding</div><div class="c-title">—</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#2b0a0a" href="q/03a08c378859100c7caad72b808cc46874b026673bc3c04831282fe56690357b.html"><div class="c-type">image</div><div class="c-title">Augusto Pinochet Ugarte</div><div class="c-tone">demonic</div></a><a class="card" style="--tone:#2b0a0a" href="q/b0263c0f77a470567c5ef1ffa78f6879b2d9ae0458bae28836a5914ed15c570e.html"><div class="c-type">image</div><div class="c-title">DINA, Invitación, Santiago, octubre 1975</div><div class="c-tone">demonic</div></a><a class="card" style="--tone:#8a8f99" href="q/d442073b33f2a4d04292853abb39e171ae593fcc288a1e4fc2518d5d7a7e5985.html"><div class="c-type">essay</div><div class="c-title">Cementerio de los Animales</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#8a8f99" href="q/1f63558bdee2f5ead118083ff0af0d5e266acaf347938c5ed2722b6ced1248e3.html"><div class="c-type">scene</div><div class="c-title">Cementerio de los Animales</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#8a8f99" href="q/4c89b5df1567fa02af3fb13430b01829ef63e4ec1fa0e9c0addba45c4a6ba258.html"><div class="c-type">text</div><div class="c-title">Die Judenpredigt</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#8a8f99" href="q/84fbbb17718523edf373630e68239fa9abda85297ba2aca8a69ace04f0ad5fb5.html"><div class="c-type">essay</div><div class="c-title">El hebreo del joven Goethe</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#8a8f99" href="q/94f700ad614d481f58a90fb5f5576d70b50c49a119cc6d1a2bb33c7620b18641.html"><div class="c-type">image</div><div class="c-title">Página de Práctica Hebrea de Goethe, c. 1760</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#8a8f99" href="q/9cc887c578f809d45c65114a2345b1701c805defc050beb1771e27a555bd6ce3.html"><div class="c-type">text</div><div class="c-title">La Rebelión de Fettmilch (1614)</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#8a8f99" href="q/a4bb23790cc0bbcbcf7436a379c687d52c45e10904e769a08d4df71fd54bd8ae.html"><div class="c-type">essay</div><div class="c-title">Dichtung und Wahrheit (Libro IV, extracto)</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#6741d9" href="q/c277cd570bf36cdca153b95ee90d2d35d2b3d69619394d1f2c3d0d17b855f66c.html"><div class="c-type">encrypted</div><div class="c-title">Disclosure for tests 51 and 52</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#8a8f99" href="q/1bbc2dffbb40e1a93467a123a9af9890d8bb37253e420b7af0392d9f239ba818.html"><div class="c-type">encrypted</div><div class="c-title">carta cifrada a tres</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#8a8f99" href="q/f7a8ee4f997f33682038192d1d378eec7260770588411bcd7fe8bebb6be3fa02.html"><div class="c-type">encrypted</div><div class="c-title">cifrado</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#8a8f99" href="q/00109923db8b1004ac48470516af86d41e6cf26d8667c32be6c0b3edc0cdb664.html"><div class="c-type">encrypted</div><div class="c-title">Para una conocida</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#6741d9" href="q/2ae7fe909e19c0e4646f7981d0feffc96f4a3b286539f3da8caf19aebcf93bb2.html"><div class="c-type">celestial</div><div class="c-title">The Sky of al-Jawza</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/4e53bb26a432cc27996dda141b6fee5ac7a64d429394b307a08dd49cc7ec15cc.html"><div class="c-type">celestial</div><div class="c-title">Sky of al-JawzaBʓ</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/a025c2fc8de237d8f136b63b0aa002a643e30c5a5aa7e218841a405c8e8e90d8.html"><div class="c-type">text</div><div class="c-title">Oh! You Pretty Things (David Bowie, 1971)</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/c50b4881bb224b8f6a2d2ff7924dc10b3a9078ab5d50532309d5517f10a62f6b.html"><div class="c-type">image</div><div class="c-title">Sabina</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#8a8f99" href="q/424538b815be4cdf85e4b74e3b222bb79c2f8b87ca125ba6f231cf2cabcc711c.html"><div class="c-type">text</div><div class="c-title">Atom</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#6741d9" href="q/573de0984423d5426e1f09dae07cea2d851b80ea3eca6ad7afd0aaa9c0df72bf.html"><div class="c-type">image</div><div class="c-title">Monte Verità
+Mountain of Truth
+Lebensreform Colony
+Ascona, Ticino</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/2b01e2094c52bf99fb1e0d855af18eabafa0b8a3b331276a87dbefe98a932d6a.html"><div class="c-type">image</div><div class="c-title">La Verna Tuscana :: Reserva Natural de la Orden Franciscana</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/b92bbbf974ad7d1ba035d03b34ee455dadf4e85c365d841beb4443e55da0b66c.html"><div class="c-type">image</div><div class="c-title">Domremy: Campo de Bourlemont</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/6da7a9a9d8d651c48e0a979ea6d1f00ce03cd1388ea390c5fa2050f9b2fb4910.html"><div class="c-type">cert</div><div class="c-title">Domrémy Bordado Certificate</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/33a40fef2cec220c694a35f591b1d992d8d75bfe5b8bdc6bbccfa9eb78bfda04.html"><div class="c-type">image</div><div class="c-title">—</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/b813e9282e3e23e9a3391f569fabdfd6bd130995dd6d1b4e4d3c193f8bbb6f75.html"><div class="c-type">image</div><div class="c-title">—</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#e0719a" href="q/62e8f73554688dddc919d0e9369c4788a8c3e8bf06f1247bc35e88a284355eac.html"><div class="c-type">text</div><div class="c-title">Mi Perrito</div><div class="c-tone">affection/care</div></a><a class="card" style="--tone:#e0719a" href="q/d46981477268a32b560f64249dfbb5d6c30a596ef71b0f87a8de1fcf14b9675f.html"><div class="c-type">text</div><div class="c-title">Mi Caballo</div><div class="c-tone">affection/care</div></a><a class="card" style="--tone:#6741d9" href="q/1ec0ee9b27d6ab91169b28f3acdada51cab8eb03af8c2a7e128d122a2dba7d0c.html"><div class="c-type">cert</div><div class="c-title">SHA256</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6b7280" href="q/20db7d45fd8e480e0d836a4a596c836ba874ced0078cd181c11e833b752e4d4b.html"><div class="c-type">cert-precursor</div><div class="c-title">—</div><div class="c-tone">unknown_0x0c</div></a><a class="card" style="--tone:#8a8f99" href="q/1566b4b36e938e4dab05718d16d1d3261ad7b40a2ea4ecaa34b52a822bbe4299.html"><div class="c-type">identity</div><div class="c-title">—</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#8a8f99" href="q/aa0c3ea6b38b2238725df2457eb328bbebd7d91ac5241c24de8ea11616c2bb6d.html"><div class="c-type">image</div><div class="c-title">Dr. Doeg en Buenos Aires</div><div class="c-tone">ordinary</div></a><a class="card" style="--tone:#6b7280" href="q/f278e466012fb78422834742c6440c935f4cc2ef64e7228b7291891a27368367.html"><div class="c-type">encrypted</div><div class="c-title">Release something glorious to the world</div><div class="c-tone">unknown_0x0e</div></a><a class="card" style="--tone:#6b7280" href="q/89b51b4852b0e80f49cdb229d85ef4757d943c9fe4ba62e39e886f31c70142c4.html"><div class="c-type">encrypted</div><div class="c-title">Release something glorious to the world</div><div class="c-tone">unknown_0x0e</div></a><a class="card" style="--tone:#f2b134" href="q/d0209a0f85872d6826c58bc23fab37c8b21feb22c15a5a6469f45358fb78ba41.html"><div class="c-type">encrypted</div><div class="c-title">This is an encrypted image for two special ladies...Hola</div><div class="c-tone">play/interaction</div></a><a class="card" style="--tone:#f2b134" href="q/d68175766b70f7163aec93e5a4e81480a6c6dd51d0577319d6f3392e8725f53b.html"><div class="c-type">encrypted</div><div class="c-title">Here is an encrypted image going out to a very special lady...Wow</div><div class="c-tone">play/interaction</div></a><a class="card" style="--tone:#6741d9" href="q/014123b21a99b50e28219522af50a7a970dd3f8feeb0dd1d07e4ab2d384b40d1.html"><div class="c-type">image</div><div class="c-title">Paco was a kitten I found on the side of the road in a drain ditch.
+ The first night after taking him home he slept in a bag. 
+ He was named after fashion designer Paco Rabanne</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/dcd31fa39202c9018dfb28e17da108dd3bd6b98ffc1cd30040f636012e3236ee.html"><div class="c-type">image</div><div class="c-title">Sun Face</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/9e42c7ab6f47dadc0c36d22fb20f69c9db0daa5c719cd8ff83c8ecf250efa519.html"><div class="c-type">image</div><div class="c-title">This was Peter on her blanket during a ride to the country</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/a01e8625d653f4a8686b5b9e20ca653e59ebcd8bf2ca2a7b8370fdc52417f7b9.html"><div class="c-type">image</div><div class="c-title">Peter Bea</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/c1542c10399a09a5471799133c472a6652d5cb3b7b421e1a7e80e2039f5b393b.html"><div class="c-type">image</div><div class="c-title">Sparkle🐈‍⬛MagicalCat🐈‍⬛✨💜Fovever💜✨</div><div class="c-tone">reverence</div></a><a class="card" style="--tone:#6741d9" href="q/a2e9f2ebe1ceeae368b734fcd861549c813d5cfb009093237f86b71f0048bda7.html"><div class="c-type">image</div><div class="c-title">—</div><div class="c-tone">reverence</div></a></div></main></body></html>

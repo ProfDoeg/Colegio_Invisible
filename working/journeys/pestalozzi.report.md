@@ -47,3 +47,6 @@ Independent structure and canon-fidelity check; repairs applied in place to `pes
 - Nachforschungen: the third-person summary formula replaced with Pestalozzi's own first-person sentence, "Also bin ich ein Werk der Natur, ein Werk meines Geschlechts und ein Werk meiner selbst."
 
 Traditional-register quotes (Schulmeister resolve, Bettler line, shoe-mending, deathbed forgiveness) left as sourced-to-tradition; nulls at Anna's death and the Czar audience left null — the canon carries no words there. Post-repair validation: parses, 53 stops, dates ordered, campa in range, 12 quotes.
+
+## Pin stitch — 2026-07-13
+Connectivity audit: same-site pins normalized to weld the hard pin-lattice (atlas convention: shared sites byte-identical). The Yverdon castle cluster (7 stops) normalized to the arrival pin 46.7785,6.6408, ending the ~40m jitter flagged in the atlas network survey (§C29); froebel's four Yverdon stops share it byte-exactly.

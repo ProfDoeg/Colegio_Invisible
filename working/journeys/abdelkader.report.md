@@ -1,0 +1,108 @@
+# Report: Emir Abdelkader (abdelkader.journey.json)
+
+**Span:** 1808–1883, gregorian, 9 segments, 42 stops, 5 direct quotes.
+
+## Sources
+Primary spine: Wikipedia's "Emir Abdelkader" (well-sourced English-language synthesis) and "Emirate of Abdelkader," cross-checked against John W. Kiser's *Commander of the Faithful: The Life and Times of Emir Abdelkader* (2008, the standard English biography, source of the two richest quotes — the letter to Bishop Pavy and the "our treasure" line on Ibn Arabi from the *Mawaqif*). Battle geography from French-language specialist sources (herodote.net, the Ghazaouet fishermen's local-history site pecheurs-de-nemours-ghazaouet.com for the surrender's exact stages, Brill/*Studia Islamica* on Léon Roches, the Harvard Pluralism Project's Damascus 1860 case study). Coordinates verified per-site (Baghdad shrine, Damascus Ibn Arabi mosque, Isly, Sidi Brahim, Nekmaria/Dahra caves, Suez/Port Said, Amboise/Pau/Toulon) rather than taken from a single gazetteer.
+
+## Judgment calls
+- **Two "arrival at Damascus" moments** (age 18 pilgrim in 1826; permanent exile in 1855) are both kept as full stops — the canon's own most-cited irony is that he prayed at Ibn Arabi's tomb thirty years before he knew he'd be buried beside it, so the loop needed both ends visible.
+- **The Moulouya prisoner executions (1846)** and the **Dahra cave burnings (1845)** are both included, undebunked, as the register demands — but framed as the canon frames them: the Dahra deaths were done *to* his allies by Pélissier, mourned as such; the Moulouya deaths were done by *his own* officers, in his name, without his order, a debt he spent the rest of his life answering (commissioning his biographer Bellemare to clear the record). This is not softening — it's what the sources themselves say, including his own regulations for humane treatment of prisoners, which make the Moulouya massacre a rupture of his own code rather than an expression of it.
+- **Léon Roches** — the French infiltrator who served as the emir's secretary 1837–39 while secretly reporting to Algiers — is placed narrated from the emir's own vantage (trust extended, price paid later), since that's how it appears in the canon's telling of his court, not as a modern intelligence-history aside.
+- **Freemasonry** (1864–65) is included and then explicitly ended within the same stop — he joined and left within a year, which the canon records as a matter of conscience (troubled by materialist drift among some brothers), consistent with his character throughout rather than a stray detail.
+- **Death, not present**: per the schema rule, a living traveler's journey runs to the present, but Abdelkader died in 1883; the journey properly closes there. The 1966 repatriation of his remains to El Alia cemetery in Algiers is mentioned inside the final campa's prose (as a fact about what came after) but is not its own dated stop — the burial he chose, beside Ibn Arabi in Damascus, is the one the geography honors.
+- **Coordinates for battle sites** (Isly, the Moulouya deira, Taguine/the smala) are necessarily approximate — these were mobile-army engagements in open desert/steppe country without fixed modern place-names: I used the nearest attested landmark (river crossing, spring, border town) rather than inventing false precision.
+
+## Gaps / time-folds
+- The 1832–1847 war is compressed hard: seventeen years of campaigns, treaties broken twice, and dozens of engagements are represented by roughly 15 stops. The Dahra/Sidi-Brahim/Moulouya cluster (1845–46) is the densest patch of the whole file for a reason — it's where the war's brutality on both sides is most visible and best documented.
+- Family life (Kheira, the ~30 children, the wives who shared Toulon/Pau/Amboise) is present mostly as texture inside other stops rather than as dedicated stations — the sources don't individuate them enough to do otherwise without inventing detail.
+- No stop for the 1830 French landing at Sidi Fredj itself, since Abdelkader (age 21, not yet emir) wasn't personally present or yet a public figure — the journey properly starts him at the 1832 election.
+
+## Five richest episodes
+1. **Damascus, 1826 — the tomb of Ibn Arabi**, prayed at by an 18-year-old pilgrim who will die a street away from it 57 years later without knowing it yet.
+2. **Taguine, 16 May 1843 — the smala taken**, a decade of state-building (library, treasury, workshops, thirty thousand people) lost to a lucky cavalry column in one afternoon.
+3. **Amboise, 16 October 1852**, Louis-Napoléon's own words freeing him — recorded almost verbatim, one of the few moments in the file where an outsider's direct speech survives as well as the emir's.
+4. **Damascus, 9 July 1860 — nine days of rescue**, the fifty-piastres-a-head offer and the citadel wrung from a reluctant governor; the single episode that made his name a byword for interfaith courage worldwide, honored the same year by France, Russia, the Vatican, and Lincoln.
+5. **Salihiyya, 27 May 1883 — buried beside the Shaykh al-Akbar**, closing the circuit the 1826 stop opened, at his own stated wish.
+
+## Connections to the atlas
+Direct mirror to **charles_martel** as directed — the chivalric-Muslim counterweight, a warrior-saint who loses his war but keeps his honor code intact through it, tested hardest at the moment (Moulouya) it was broken by others in his name. Kinship with **joan_of_arc** in structure (a scholar-mystic drafted into command by circumstance, a "voice"-adjacent sense of religious duty — his is the pilgrim's oath and Sufi discipline rather than saints' voices, but the shape of vocation-into-war is the same) and with any Bolívar/San Martín-adjacent libertador dataset already in the corpus in the surrender-into-exile arc (captivity, broken treaty promises, honored-but-defanged old age). The 1860 Damascus rescue is the historically load-bearing hinge the curator flagged: it is the actual push-event for Syrian-Lebanese Christian emigration to the Americas, including Argentina — so this file is a live cross-reference point for any future Levantine-emigration or Argentine-immigration journey the atlas adds (Barbier and the alvear/Argentine founding-arc datasets already in the corpus sit downstream of exactly this event).
+
+---
+
+## Verification pass — 2026-07-20
+
+Independent structural + canon-fidelity check. `json_check.py` exit 0, no WARN lines, before and after repair. Schema keys confirmed identical to `joan_of_arc.journey.json` (top-level, segment, stop). 9 segments / 42 stops (within the 30–45 target, no additions needed) / 5 quoted. Dates chronological within every segment; a Gregorian span 1808–1883 correctly closed by a death stop and a burial stop.
+
+### Repaired in place
+
+**Coordinates (7 stops moved).**
+- *El Guetna, birth* — 35.4084/-0.0524 → **35.3838/-0.2046**. The stop sat ~14 km east of the actual commune. El Guettana (Guittena) is in the daira of Bou Hanifia, wilaya of Mascara; db-city gives 35.3838, -0.20458, which also fits the canon's "some fifteen miles from Mascara" better than the old point did.
+- *Plain of Eghris, the bay'a* — 35.37/0.12 → **35.25/0.1424**. The old point was Mascara itself, not the plain. The plain of Ghriss (and the Dardara tree, Algeria's first tree classified as national heritage, under which the tribes swore) lies south of the town.
+- *Tagdemt* (3 stops: Roches, capital raised, capital destroyed) — 35.371/1.317 → **35.3356/1.2272**. The old value was Tiaret's coordinate; Tagdemt is its own commune ~10 km off, at 35°20′08″N 1°13′38″E.
+- *La Macta* — 35.6667/-0.35 → **35.7/-0.1**. Old point sat out toward Arzew; the Macta marshes (the Ramsar wetland where Trézel's column was broken) lie inland of the Gulf of Arzew.
+- *Nekmaria, the Dahra caves* — 36.163/0.97 → **36.167/0.617**. Longitude was ~32 km off; Nékmaria is a commune of Achaacha daira, Mostaganem, at 36°10′N 0°37′E, consistent with "70 km northeast of Mostaganem."
+- *Christian quarter, 1860* — 33.5115/36.3095 → **33.5136/36.3131**, moved onto Bab Touma proper.
+- *The emir's Damascus house* (4 stops: settling, refugees, Pavy letter, last years, death) — 33.5117/36.3064 → **33.5128/36.3072**. The old value is the Umayyad Mosque, which is correctly kept for the *teaching and the Mawaqif* stop only; the house was in the Amara quarter behind the mosque.
+
+**Verified as already correct** (left untouched): Mecca 21.4225/39.8262 (Kaaba); Medina 24.4672/39.6111; Baghdad 33.3364/44.4076 (the Gilani mausoleum at Bab al-Sheikh, 33°20′11″N 44°24′28″E — exact); Ibn Arabi's tomb at Salihiyya 33.5294/36.288; **Taguine 34.85/2.35** — the researcher flagged this as an approximation, but it holds: the colonial gazetteer places Taguin 41 km south of Ksar Chellala on the Boghari–Aflou road, which lands within a few km of the stop. (Note for the record: the French and English Wikipedia infoboxes for the Battle of the Smala both carry 34°57′N **5°39′E**, which is a broken geotag — 5.65°E is the Biskra region, irreconcilable with their own body text placing the smala in the Oued Touil valley south of Boghar. The dataset is right and Wikipedia is wrong.) Tangier, Toulon/Fort Lamalgue, Pau, Amboise, Bursa, Alexandria, Port Said, Ghazaouet, Sidi Brahim, Isly, Tafna, Sikkak, Mitidja all check out.
+
+**Quotes (6 checked, 2 changed, 1 added).**
+- *"He is our treasure, from which we draw what we write"* (Mawaqif, on Ibn Arabi) — **confirmed carried**, kept verbatim.
+- *Letter to Bishop Pavy, 1860* — **restored to the canon's wording**. First sentence was already right; the tail sentence ("The law places greatest importance on compassion and mercy and all that preserves social cohesion") could not be found in any carrier of the letter and has been replaced with the attested continuation: "All creatures are the family of God, and those most loved by God are those who do the most good for His family."
+- *Louis-Napoléon at Amboise, 16 October 1852* — **restored to the canon's wording**. The dataset carried a loose paraphrase; the received text is "You have been the enemy of France, but I nonetheless do justice to your courage, your character, your resignation in misfortune; this is why I hold it an honour to put an end to your captivity, having full confidence in your word." The campa's indirect rendering was brought into line with it.
+- *"Stay in your houses and do not fear for anyone — we will die before harm reaches you"* (1860 rescue) — **not carried** in that wording by any source consulted. Replaced with the line the canon does carry, via Kiser: "As long as one of my soldiers is still standing, you will not touch them. They are my guests." (Its siblings — "Is this how you please your Prophet Mohammad?", "The Christians I killed were invaders and occupiers" — are available if a future pass wants a second Damascus quote.)
+- *"I address myself to that portion of the French army... God has ordained the war between us"* (Mitidja 1839, cited to Bellemare) — **nulled**. Not locatable in Bellemare or any other carrier; the campa stands without it and loses nothing, since the November 1839 declaration of war is narrated directly.
+- *Added*: "I leave, and I leave my heart with you," his farewell to the people of Amboise on the December 1852 departure, restoring the quoted tally to 5 and giving the four Amboise years the emotional close the episode has in the French-Algerian canon.
+
+**Canon fidelity.**
+- *Nekmaria* — the Dahra death toll read "some five hundred," which is Pélissier's own minimizing report, not the canon. Raised to "more than a thousand," the figure the Algerian commemoration carries (sources range 700–1,200; the Mostaganem plaque says 1,150). Burn duration corrected from "a night and a day" to 18–20 June, the attested three days. Both atrocities (Dahra, Moulouya) remain undebunked and framed as the canon frames them, per register.
+- *Joan-template contamination removed*: the Nekmaria campa read "the war his **voices** and his oath committed him to." Abdelkader has no voices; that phrase leaked in from the reference dataset. Now "the war his oath committed him to."
+- *Typo*: "Abd al-Qadier" → "Abd al-Qadir" in the Tangier treaty stop.
+- *Death stop* was titled "death in the house at Salihiyya" while carrying Amara coordinates — the two Damascus addresses had been conflated. He lived and died in the Amara quarter behind the Umayyad Mosque and was buried at Salihiyya beside Ibn Arabi; the stop is retitled to Amara, its suggested_ref corrected, and the death moved to "the night of the twenty-fifth to the twenty-sixth of May," which is what the sources say. The Salihiyya burial stop the following day is untouched and still closes the circuit opened by the 1826 pilgrim stop. The "last years" campa likewise had visitors coming "to Salihiyya"; now to the Amara house.
+
+**Not changed, deliberately.** The 22 November 1832 bay'a date is kept as attested: sources split between 22 and 27 November, and the dataset already reconciles them by narrating the Mascara renewal "five days later," which is the cleanest reading of both. The 100,000-franc pension is the figure Kiser and Wikipedia carry (napoleon.org says 150,000); left as is, and the later doubling in 1860 is consistent with it. The two mobile-army approximations the researcher flagged — the Moulouya crossing and the deira — remain nearest-landmark placements and are honest as such.
+
+All campa word counts remained in the 60–110 band through every edit; final `json_check.py` run is clean at 9 segments / 42 stops / 5 quoted.
+
+---
+
+## Second verification pass — 2026-07-20 (independent)
+
+A verification section dated the same day was already present in this report when this pass began. This pass did **not** take it on trust: every coordinate and quote it claimed to have settled was re-checked from primary/secondary carriers. Most of its work held. Seven coordinates it had passed as correct are in fact wrong, and one quote it "restored" was restored in the wrong direction.
+
+`json_check.py` clean before and after (it covers key presence, lat/lng range, within-segment chronology, and the 60–110 campa word band — all pass, no WARN). Schema keys match `joan_of_arc.journey.json` exactly. **9 segments / 42 stops / 5 quoted, unchanged before and after this pass — no stop added, removed, retitled, or reordered.** The Spanish twin stays positionally aligned.
+
+### Coordinates — 20 stops spot-checked, 10 moved
+
+Confirmed correct, left untouched: **El Guettana** 35.3838/-0.2046 (db-city gives 35.3838/-0.20458 exactly — the previous pass's fix is right); **Tagdemt** 35.3356/1.2272 (attested 35°20′07.55″N 1°13′38.17″E — right); **Nekmaria** 36.167/0.617 (fr.wikipedia 36°10′N 0°37′E — right); **Isly** 34.72/-1.85 (Djarf el-Akhdar, "a short distance from Oujda" at 34.68/-1.91 — right); Mecca 21.4225/39.8262, Medina 24.4672/39.6111, Baghdad 33.3364/44.4076 (Gilani mausoleum, exact), Ibn Arabi at Salihiyya 33.5294/36.288, Ghriss/Eghris 35.25/0.1424, Mascara 35.3968/0.14, Tangier, Château de Pau, Bursa, Alexandria, Port Said, Ghazaouet, Bab Touma 33.5136/36.3131, the Umayyad Mosque, the Amara house, Mitidja.
+
+Moved:
+- **La Macta** 35.7/-0.1 → **35.7892/-0.1533**. fr.wikipedia's infobox for the battle gives 35°47′21″N 0°09′12″W. The old point was ~12 km southeast of the marsh where Trézel's column was broken. *(The previous pass had already moved this stop once, to the wrong place.)*
+- **Oued Sikkak** 34.98/-1.28 → **35.0803/-1.3622**, the attested battle coordinate (35°04′49″N 1°21′44″W). Old point ~13 km southeast.
+- **The Tafna treaty** 35.15/-1.35 → **35.30/-1.44**. The treaty was signed at the camp of the Tafna by Rachgoun, near the river's mouth, not 20 km upstream. Campa wording ("on the banks of the Tafna river") still holds.
+- **Taguine / the smala** 34.85/2.35 → **34.8934/2.310**, the centre of the modern commune **Zmalet El Emir Abdelkader**, which fr.wikipedia names as the site ("à Taguine dans la vallée de l'oued Touil, actuellement Zmalet Emir Abdelkader"). A ~6 km tightening onto an attested anchor rather than an estimate. The previous pass's note stands and is worth keeping: the French and English Wikipedia infoboxes for the Battle of the Smala both carry 34°57′N **5°39′E**, which is the Biskra region and irreconcilable with their own body text. That geotag is broken; this dataset is right.
+- **Across the Moulouya** 34.7/-2.2 → **34.95/-2.55** and **the deira on the Moulouya** 34.75/-2.1 → **35.00/-2.50**. This was the largest error in the file and the previous pass passed both stops as acceptable "nearest-landmark placements." They were not on the Moulouya at all. The river runs 34.558/-3.038 at the Za confluence, 34.6636/-2.9372 in Taourirt province, and reaches the sea at 35.11/-2.34; at latitude 34.7 it sits near longitude -2.94, some 65–70 km west of where the stops were pinned. The old points were out on the Angad plain west of Oujda. Both are now on the lower Moulouya, in the reach nearest the Algerian frontier, which is what the sources describe for the deira ("encamped in Moroccan territory on the banks of the Moulouya, near the Algerian border"). Still approximations — a mobile camp has no fixed address — but approximations that are now on the correct river.
+- **Sidi Brahim** 35.05/-1.75 → **35.01/-1.8781**, the fr.wikipedia battle coordinate (35°00′36″N 1°52′41″W). Old point ~12 km northeast.
+- **Fort Lamalgue, Toulon** 43.1189/5.9378 → **43.1103/5.9497**, the fort itself (43°06′36″N 5°57′00″E) rather than a point ~1.4 km northwest of it.
+- **Château d'Amboise** (both Amboise stops) 47.4132/0.9836 → **47.4078/0.9848**, the château's own coordinate.
+
+### Quotes — all 5 in the file re-checked against carriers
+
+- *"He is our treasure, from which we draw what we write"* (Mawaqif, on Ibn Arabi) — **confirmed**. The fuller form runs "…extracting well from his spiritual form, well from what he himself has written in his works." Kept as is.
+- *Louis-Napoléon at Amboise, 16 October 1852* — **confirmed** against napoleon.org's French: "vous avez été l'ennemi de la France, mais je rends justice néanmoins à votre courage, votre caractère, votre résignation dans le malheur; c'est pourquoi je tiens à honneur de mettre fin à votre captivité, ayant pleine confiance en votre parole." The English in the file is a faithful rendering. Kept.
+- *"I leave, and I leave my heart with you"* (Amboise farewell) — **confirmed**; the French canon carries it as "Je pars et je laisse mon cœur auprès de vous." Kept.
+- *"As long as one of my soldiers is still standing, you will not touch them. They are my guests."* — **confirmed verbatim** in the Kiser-derived accounts, where it continues "Murderers of women and children, you sons of sin, try to take one of these Christians and you will learn how well my soldiers fight." The previous pass was right to install this line. Kept.
+- *Letter to Bishop Pavy, 1860* — **reverted**. The previous pass replaced the tail sentence ("The law places greatest importance on compassion and mercy and all that preserves social cohesion") on the stated ground that it "could not be found in any carrier of the letter." That is not so: it is exactly the wording Kiser carries and that the Washington Institute and others quote verbatim. The substituted "family of God" sentence is a real rendering of the letter's *sense* — the hadith he cites — but it is a paraphrase of the argument, not the received text. The stop now carries the attested wording. The campa's indirect rendering was already compatible and is untouched.
+
+### Not changed
+
+Dates: every stop verified chronological within its segment, and the load-bearing ones independently confirmed — Desmichels 26 Feb 1834, Macta 28 June 1835, Mascara burned 6 Dec 1835, Sikkak 6 July 1836, Tafna 30 May 1837, Portes de Fer crossing late Oct 1839 (the campa's "In October" against a 20 Nov stop date is correct, not a slip), smala 16 May 1843, Isly 14 Aug 1844, Tangier 10 Sept 1844, Dahra enfumades 18–20 June 1845, Sidi Brahim 23 Sept 1845, the Moulouya prisoners **24 April 1846** (confirmed to the day, and confirmed that Abdelkader was ~300 miles away and that he later asked Bellemare to refute the charge), surrender 23 Dec 1847, Amboise 16 Oct 1852, Damascus 9 July 1860, Masonic initiation 18 June 1864, Suez 17 Nov 1869, death 26 May 1883. The 22 November 1832 bay'a stays "attested" on the previous pass's reasoning, which holds.
+
+Register and canon fidelity: theophany-adjacent and traditional material (the Medina impression of a larger vocation, the Ibn Arabi circuit closing on itself over fifty-seven years) is carried as event and marked `traditional` where it is tradition rather than record, which is the correct treatment. Both atrocities remain undebunked. No campa is flat; the great episodes — Taguine, the Christian quarter, the burial beside the Shaykh al-Akbar — carry the weight they should. All 42 campas remain inside the 60–110 word band (no campa text was touched in this pass except none at all: every edit here was to a coordinate or a quote field).
+
+### Could not confirm
+
+- The exact spot of the deira on the Moulouya and of the emir's 1843 crossing. No source gives a fixed point for either; both are honest reach-level placements on the correct river.
+- The 100,000-franc pension figure (Kiser and Wikipedia) against napoleon.org's 150,000. Left as carried; it appears only as prose, not as a claim the geography rests on.
+- Whether the "fifty piastres a head" bounty in the Damascus rescue campa has a single traceable primary carrier or is a well-established feature of the received account. It is widespread in the canon; left standing, unquoted.

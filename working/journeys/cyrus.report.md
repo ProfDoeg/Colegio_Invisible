@@ -70,3 +70,6 @@ Structural and canon-fidelity pass. Repairs made in place; re-validated with Pyt
 **6. Stop count.** 35 stops sits inside the 30–45 target and covers the canon's whole arc across all four braided sources; no additions warranted.
 
 No myth was debunked. Theophany (Apollo's rain), marvel (the hand on the wall), and prophecy-fulfilled (Isaiah's named messiah) all stand, held in place by confidence tiers rather than excised.
+
+## Pin normalization — 2026-07-13
+Connectivity audit found cyrus to be the atlas's ONLY unconnected journey — and only because the Jerusalem stop ("the foundations of the Second Temple laid", -0537-07-01) sat at 31.778,35.235: one truncated digit (~40m) off the Temple Mount canonical pin 31.778,35.2354 shared byte-exactly by abraham, jesus, muhammad and solomon. Repinned to the canonical. The edict of return now lands on the same coordinate where Abraham binds Isaac, Solomon builds, Jesus overturns the tables, and Muhammad ascends.

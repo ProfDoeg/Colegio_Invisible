@@ -57,3 +57,6 @@ Structure-and-canon-fidelity pass. Repairs made **in place**; JSON re-validated 
 **Death-date variant (checked, no change):** 22 April 1841 retained (Wikipedia, prabook, peoplepill); the APPL-Lachaise monument reads 29 April. An honestly-flagged documented variant — the more widely attested date stands.
 
 **Net edits:** 3 coordinate fixes (the blind-Institution cluster). JSON re-validates.
+
+## Pin stitch — 2026-07-13
+Connectivity audit: same-site pins normalized to weld the hard pin-lattice (atlas convention: shared sites byte-identical). The Institution royale des jeunes aveugles stops repinned 48.848,2.353 → 48.8489,2.3499 to byte-match braille's rue Saint-Victor pin — the night-writing demonstration now lands in the building where the boy who will answer it sits.

@@ -1,0 +1,187 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>The Sky of al-Jawza</title><style>
+:root{--bg:#0d0d0f;--ink:#e7e3d8;--muted:#8a8f99;--line:#23232a;--tone:#6b7280;--link:#6faed9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font:16px/1.6 ui-serif,Georgia,'Times New Roman',serif}
+header{display:flex;align-items:baseline;gap:.8rem;padding:1rem 1.4rem;
+ border-bottom:1px solid var(--line)}
+.brand{font:700 1.2rem ui-monospace,Menlo,monospace;color:var(--ink);
+ text-decoration:none;letter-spacing:.04em}
+.sub{color:var(--muted);font-size:.85rem}
+main{max-width:880px;margin:0 auto;padding:1.6rem 1.4rem 4rem}
+.muted{color:var(--muted)} .err{color:#e03131;font-size:.85rem}
+.lead h1{font:600 2rem ui-serif,Georgia,serif;margin:.2rem 0}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));
+ gap:.9rem;margin-top:1.4rem}
+.card{display:flex;flex-direction:column;gap:.35rem;padding:.9rem 1rem;
+ text-decoration:none;color:var(--ink);background:#131319;border:1px solid var(--line);
+ border-left:3px solid var(--tone);border-radius:6px;transition:.12s}
+.card:hover{background:#17171f;transform:translateY(-1px)}
+.c-type{font:600 .7rem ui-monospace,monospace;color:var(--tone);
+ text-transform:uppercase;letter-spacing:.08em}
+.c-title{font-size:1rem;line-height:1.3}
+.c-tone{font-size:.75rem;color:var(--muted);margin-top:auto}
+.quipu{border-left:3px solid var(--tone);padding-left:1.2rem}
+.scene3d{margin:1rem 0}
+.scene3d .s3-stage{position:relative;height:68vh;min-height:420px;border:1px solid var(--line);
+ border-radius:6px;overflow:hidden;background:#000}
+.scene3d canvas{display:block}
+.s3-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+ background:rgba(10,10,12,.55);color:#e7e3d8;font:600 .95rem ui-monospace,Menlo,monospace;
+ cursor:pointer;z-index:2;text-align:center;padding:1rem;transition:opacity .3s}
+.s3-hint.hide{opacity:0;pointer-events:none}
+.s3-hint.soft{background:transparent;pointer-events:none;align-items:flex-end;
+ justify-content:flex-start;color:#8a8f99}
+.s3-plaque{position:absolute;top:.7rem;left:50%;transform:translateX(-50%);
+ background:rgba(12,12,16,.78);border:1px solid var(--line);color:#e7e3d8;
+ padding:.35rem .8rem;border-radius:6px;font:.8rem ui-monospace,Menlo,monospace;
+ opacity:0;transition:opacity .25s;z-index:3;max-width:80%}
+.s3-plaque.show{opacity:1}
+.s3-dossier{margin-top:.6rem;border:1px solid var(--line);border-radius:6px;
+ padding:.85rem 1.1rem;background:#131319;overflow:auto}
+.s3-dossier:empty{display:none}
+.s3d-head{display:flex;align-items:baseline;gap:.7rem;flex-wrap:wrap;margin-bottom:.3rem}
+.s3d-name{font:600 1.05rem ui-serif,Georgia,serif;color:#e7e3d8}
+.s3d-date{font:.74rem ui-monospace,Menlo,monospace;color:var(--muted)}
+.s3d-tag{font:.66rem ui-monospace,Menlo,monospace;color:var(--muted);opacity:.75;margin-left:auto}
+.s3d-imgwrap{float:right;margin:.2rem 0 .5rem .9rem;max-width:220px}
+.s3d-img{max-width:220px;max-height:200px;border-radius:4px;display:block}
+.s3d-key{font:600 .62rem ui-monospace,Menlo,monospace;color:#8a8f99;
+ text-transform:uppercase;letter-spacing:.08em;margin-top:.5rem}
+.s3d-text{font:.9rem/1.6 ui-serif,Georgia,serif;color:#d9d5ca;margin:.15rem 0}
+blockquote.s3d-text{border-left:2px solid var(--line);padding-left:.6rem;
+ margin:.15rem 0;font-style:italic}
+.s3d-link{display:inline-block;font:.75rem ui-monospace,Menlo,monospace;
+ color:var(--link);margin:.45rem .7rem 0 0;text-decoration:none}
+.scene3d figcaption{color:var(--muted);font-size:.85rem;margin-top:.5rem}
+.corrected-h{font:600 1.25rem ui-serif,Georgia,serif;margin:2rem 0 .6rem;
+ padding-top:1.2rem;border-top:1px solid var(--line)}
+.q-head h1{font:600 2rem ui-serif,Georgia,serif;margin:.2rem 0}
+.q-prov{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .9rem;
+ margin:-1rem 0 1.4rem}
+.q-block{font:600 .72rem ui-monospace,Menlo,monospace;color:var(--muted)}
+.q-txid{font:.68rem/1.4 ui-monospace,Menlo,monospace;color:var(--muted);opacity:.6;
+ word-break:break-all}
+.q-meta{display:flex;gap:.5rem;flex-wrap:wrap;margin:.4rem 0 1.4rem}
+.pill{font:600 .72rem ui-monospace,monospace;padding:.2rem .55rem;border-radius:999px;
+ border:1px solid var(--line)}
+.pill.type{color:var(--tone);border-color:var(--tone)}
+.pill.tone{color:var(--muted)}
+.edition{font:600 .72rem ui-monospace,monospace;padding:.2rem .55rem;border-radius:999px}
+.edition.current{color:#12b886;border:1px solid #12b886}
+.edition.superseded{color:var(--muted);border:1px solid var(--line)}
+.text{white-space:pre-wrap;font:1.05rem/1.7 ui-serif,Georgia,serif;margin:0}
+.essay :is(h1,h2,h3){font-family:ui-serif,Georgia,serif}
+.essay img,.image img,.celestial img{max-width:100%;border-radius:6px}
+.essay a{color:var(--link)} .essay a:hover{color:#8fc7e8}
+.image{margin:0;image-rendering:pixelated}
+.image figcaption,.celestial figcaption{color:var(--muted);font-size:.8rem;margin-top:.4rem}
+.latex pre,.raw pre{white-space:pre-wrap;word-break:break-word;background:#131319;
+ border:1px solid var(--line);border-radius:6px;padding:1rem;font:.85rem ui-monospace,monospace}
+.tag{color:var(--muted);font-size:.78rem}
+.book-toc{border:1px solid var(--line);border-radius:6px;padding:.8rem 1rem;margin-bottom:1.8rem;background:#131319}
+.book-toc-h{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:.4rem}
+.book-toc ol{margin:0;padding-left:1.3rem} .book-toc li{margin:.25rem 0} .book-toc a{color:var(--link)}
+.chapter-sec{margin-top:2rem} .book .chapter-sec:first-of-type{margin-top:0}
+h2.chapter{font-size:1.5rem;border-top:1px solid var(--line);padding-top:1.2rem;margin-top:2.6rem}
+.book .chapter-sec:first-of-type h2.chapter{border-top:none;padding-top:0;margin-top:0}
+.chapter-src{margin-top:1.1rem;font-size:.8rem} .chapter-src a{color:var(--link)}
+.sealed{text-align:center;padding:2rem;background:#131319;border:1px dashed var(--line);border-radius:8px}
+.sealed .lock{font-size:2rem}
+.meta{width:100%;border-collapse:collapse;font:.85rem ui-monospace,monospace;margin-top:.6rem}
+.meta td{border-top:1px solid var(--line);padding:.35rem .5rem;vertical-align:top}
+.meta td:first-child{color:var(--muted);width:30%}
+.sky{width:100%;background:#07070c;border-radius:6px;display:block}
+.sky .cl line{stroke:#39508f;stroke-width:.7;opacity:.7}
+.sky .st circle{fill:#e7e3d8}
+.sky .lb text{fill:#7a8194;font:8px ui-monospace,monospace}
+.hdr{margin:.2rem 0 1.4rem;font:.82rem ui-monospace,monospace}
+.hdr summary{cursor:pointer;color:var(--muted);letter-spacing:.04em}
+.hdr table{border-collapse:collapse;margin-top:.5rem}
+.hdr td{border-top:1px solid var(--line);padding:.25rem 1rem .25rem 0}
+.hdr td:first-child{color:var(--muted)}
+.binding pre{white-space:pre-wrap;background:#131319;border:1px solid var(--line);
+ border-radius:6px;padding:1rem;font:.85rem/1.55 ui-monospace,monospace}
+.binding a{color:var(--tone)} .binding b{color:var(--ink);font-weight:600}
+.binding .ext{color:var(--muted);border-bottom:1px dotted var(--muted);cursor:help}
+.repub{font-size:.82rem;color:var(--muted);border-left:2px solid var(--tone);
+ padding:.35rem .7rem;margin:0 0 1.4rem;background:rgba(255,255,255,.02)}
+.repub a{color:var(--tone)}
+.qimg{display:inline-block;line-height:0} .qimg img{cursor:zoom-in}
+.qimg:hover img{outline:2px solid var(--tone);outline-offset:2px}
+.qlink{color:var(--link)}
+.genealogy-tree{margin:0 0 1.6rem;text-align:center}
+.genealogy-tree svg{max-width:100%;height:auto;background:#faf7ef;border-radius:6px;
+ box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.house-roster{list-style:none;padding:0;margin:1.4rem 0;display:grid;gap:.85rem}
+.house-roster li{border-left:2px solid var(--line);padding:.1rem 0 .2rem .9rem;overflow:hidden}
+.hr-name{font-weight:600;color:var(--ink)}
+.hr-dates{color:var(--muted);font-size:.85rem;margin-left:.5rem}
+.hr-note{display:block;color:#bdb8aa;font-size:.92rem;margin-top:.15rem}
+.hr-ref{color:var(--link);font-size:.78rem;margin-left:.4rem}
+.hr-portrait{float:right;width:78px;margin:0 0 .4rem .9rem}
+.hr-portrait img{width:78px;border-radius:4px;display:block}
+.earth-map{display:flex;gap:1.3rem;flex-wrap:wrap;align-items:flex-start;margin:1rem 0}
+.earth-fig{flex:1 1 460px;min-width:0;margin:0;background:#aacbe6;border-radius:6px;
+ box-shadow:0 1px 16px rgba(0,0,0,.45);overflow:hidden}
+.earth{display:block;width:100%;height:auto}
+.earth .sea{fill:#aacbe6}
+.earth .land{fill:#efe6d2;stroke:#b89f6a;stroke-width:.5;stroke-linejoin:round}
+.earth .lake{fill:#aacbe6;stroke:#7ba3c9;stroke-width:.45}
+.earth .route line{stroke:#c83727;stroke-width:1.7;opacity:.95;stroke-linecap:round}
+.earth .wps circle{fill:#e8b73a;stroke:#5a3a12;stroke-width:.8;cursor:pointer}
+.earth .wp:hover circle,.earth .wp.on circle{fill:#fff;r:5.5}
+.ej-panel{flex:1 1 250px;position:sticky;top:1rem;border-left:2px solid var(--line);
+ padding:.1rem 0 .4rem 1rem;min-height:5rem}
+.ej-panel h3{margin:.1rem 0 .4rem;font-size:1.05rem;font-weight:600}
+.ej-panel h3 span{color:var(--muted);font-weight:400;font-size:.82rem;font-style:italic}
+.ej-panel p{margin:.4rem 0;font-size:.93rem;line-height:1.55}
+.ej-panel blockquote{border-left:2px solid var(--tone);margin:.6rem 0;padding-left:.8rem;
+ color:#c9c3b4;font-style:italic}
+.ej-ref{margin:.8rem 0}
+.ej-ref img{display:block;width:100%;border-radius:4px}
+.ej-ref blockquote{border-left:2px solid var(--tone);margin:0 0 .3rem;padding-left:.8rem;
+ color:#c9c3b4;font-style:italic;font-size:.9rem;line-height:1.5}
+.ej-ref figcaption{font-size:.78rem;color:var(--muted)} .ej-ref figcaption a{color:var(--link)}
+.ej-refs{font-size:.85rem;margin-top:.6rem!important;line-height:1.7}
+.ej-refs a{color:var(--link)} .ej-refs span{color:var(--muted)}
+.ej-hint{color:var(--muted);font-style:italic}
+.cert{border:1px solid var(--line);border-radius:10px;padding:1.6rem 1.9rem;
+ background:linear-gradient(180deg,rgba(255,255,255,.035),transparent)}
+.cert-seal{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--tone);margin-bottom:1rem}
+.cert-meta{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 1rem}
+.cert .chip{font:11px ui-monospace,monospace;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:.1rem .45rem}
+.cert-title{font-family:Georgia,serif;font-size:1.7rem;line-height:1.15;margin:.2rem 0 .15rem}
+.cert-artist{font-style:italic;color:var(--muted);margin:0 0 1.2rem}
+.cert-image{margin:1.3rem 0} .cert-image img{max-width:100%;border-radius:4px}
+.cert-text{line-height:1.75}
+.cert-authority{font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);margin-top:1.5rem;padding-top:.8rem}
+.cert-authority a{color:var(--tone)}
+.cert-sigs{border-top:1px solid var(--line);margin-top:1rem;padding-top:.7rem}
+.cert-sigs-h{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.3rem}
+.cert-sig{font-size:.8rem;color:var(--muted);margin:.2rem 0}
+.cert-extra{font-size:.85rem;color:var(--muted)}
+.latex-fig{margin:1.6rem 0;text-align:center}
+.latex-fig svg{display:block;margin:0 auto;width:100%;max-width:340px;height:auto;
+ border-radius:4px;box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.latex-src{margin:.5rem auto 0;max-width:340px;font-size:.8rem}
+.latex-src summary{cursor:pointer;color:var(--muted);letter-spacing:.03em}
+.latex-src pre{white-space:pre-wrap;background:#131319;border:1px solid var(--line);
+ border-radius:6px;padding:.8rem;font:.78rem/1.5 ui-monospace,monospace;margin-top:.4rem}
+.essay-cols{display:flex;flex-direction:column}      /* narrow: prose, then plates */
+.marginplate{margin:1.3rem auto}
+.marginplate svg,.marginplate img{display:block;width:100%;max-width:340px;height:auto;
+ margin:0 auto;border-radius:4px;box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.marginplate figcaption{font-size:.72rem;color:var(--muted);text-align:center;
+ margin-top:.35rem;letter-spacing:.04em;font-style:italic}
+@media(min-width:700px){            /* prose | stacked margin column */
+  main.wide{max-width:1180px}
+  .essay-cols{flex-direction:row;gap:1.6rem;align-items:flex-start}
+  .essay-cols .prose{flex:1 1 0;min-width:0}
+  .essay-cols .plates{flex:0 0 236px}
+  .plates .marginplate{margin:0 0 1.2rem}          /* just stack, little spacing */
+}
+@media(min-width:1040px){           /* roomier window → wider plates */
+  .essay-cols .plates{flex:0 0 300px}
+}
+</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body)"></script></head><body><header><a class="brand" href="../index.html">spectra</a><span class="sub">the lens &middot; Colegio Invisible</span></header><main><article class="quipu" style="--tone:#6741d9"><div class="q-head"><h1>The Sky of al-Jawza</h1><div class="q-meta"><span class="pill type">celestial</span><span class="pill tone" title="the dead, ancestors">reverence</span></div><div class="q-prov"><span class="q-txid" title="root txid">2ae7fe909e19c0e4646f7981d0feffc96f4a3b286539f3da8caf19aebcf93bb2</span></div></div><details class="hdr"><summary>header</summary><table><tr><td>magic</td><td>c1dd</td></tr><tr><td>version</td><td>1</td></tr><tr><td>type</td><td>celestial (0xce)</td></tr><tr><td>tone</td><td>reverence (0xff)</td></tr><tr><td>kind</td><td>star</td></tr><tr><td>raw</td><td>c1dd0001ceff010100003e1354686520536b79206f6620616c2d4a61777a61</td></tr></table></details><div class="q-body"><figure class="celestial"><svg viewBox="0 0 720 460" class="sky" xmlns="http://www.w3.org/2000/svg"><g class="cl"><line x1="413.0" y1="208.6" x2="629.2" y2="216.6"/><line x1="629.2" y1="216.6" x2="516.8" y2="297.5"/><line x1="516.8" y1="297.5" x2="413.0" y2="208.6"/><line x1="350.6" y1="212.5" x2="413.0" y2="208.6"/><line x1="350.6" y1="212.5" x2="364.9" y2="237.0"/><line x1="413.0" y1="208.6" x2="383.1" y2="243.0"/><line x1="364.9" y1="237.0" x2="373.6" y2="240.3"/><line x1="373.6" y1="240.3" x2="383.1" y2="243.0"/><line x1="364.9" y1="237.0" x2="328.6" y2="266.1"/><line x1="383.1" y1="243.0" x2="397.6" y2="271.5"/><line x1="397.6" y1="271.5" x2="328.6" y2="266.1"/><line x1="373.6" y1="240.3" x2="371.7" y2="255.7"/><line x1="371.7" y1="255.7" x2="372.0" y2="257.7"/><line x1="371.4" y1="199.3" x2="350.6" y2="212.5"/><line x1="371.4" y1="199.3" x2="413.0" y2="208.6"/><line x1="215.0" y1="178.3" x2="221.5" y2="171.3"/><line x1="221.5" y1="171.3" x2="233.3" y2="165.2"/><line x1="215.0" y1="178.3" x2="233.4" y2="177.4"/><line x1="233.4" y1="177.4" x2="248.5" y2="175.1"/><line x1="233.3" y1="165.2" x2="353.0" y2="130.5"/><line x1="248.5" y1="175.1" x2="376.6" y2="158.0"/><line x1="215.0" y1="178.3" x2="180.4" y2="213.8"/><line x1="180.4" y1="213.8" x2="105.7" y2="200.0"/><line x1="105.7" y1="200.0" x2="100.8" y2="202.6"/><line x1="366.4" y1="301.5" x2="357.1" y2="312.4"/><line x1="357.1" y1="312.4" x2="390.8" y2="318.6"/><line x1="390.8" y1="318.6" x2="405.0" y2="312.8"/><line x1="405.0" y1="312.8" x2="366.4" y2="301.5"/><line x1="366.4" y1="301.5" x2="325.3" y2="295.6"/><line x1="325.3" y1="295.6" x2="309.8" y2="318.3"/><line x1="405.0" y1="312.8" x2="395.9" y2="290.5"/><line x1="395.9" y1="290.5" x2="415.6" y2="288.1"/><line x1="508.1" y1="199.4" x2="472.4" y2="219.0"/><line x1="572.2" y1="237.7" x2="472.4" y2="219.0"/><line x1="482.9" y1="261.8" x2="453.9" y2="259.0"/><line x1="482.9" y1="261.8" x2="572.2" y2="237.7"/><line x1="572.2" y1="237.7" x2="633.2" y2="271.1"/><line x1="633.2" y1="271.1" x2="690.0" y2="246.9"/><line x1="516.8" y1="297.5" x2="470.1" y2="302.0"/><line x1="516.8" y1="297.5" x2="555.4" y2="293.5"/><line x1="470.1" y1="302.0" x2="465.2" y2="346.6"/><line x1="565.0" y1="333.1" x2="544.7" y2="342.6"/><line x1="544.7" y1="342.6" x2="597.6" y2="343.8"/><line x1="555.4" y1="293.5" x2="565.0" y2="333.1"/><line x1="629.2" y1="216.6" x2="604.0" y2="205.4"/><line x1="30.0" y1="30.0" x2="59.3" y2="38.8"/><line x1="59.3" y1="38.8" x2="99.8" y2="52.2"/><line x1="99.8" y1="52.2" x2="138.4" y2="59.9"/><line x1="138.4" y1="59.9" x2="169.4" y2="88.5"/><line x1="169.4" y1="88.5" x2="171.7" y2="104.1"/><line x1="171.7" y1="104.1" x2="160.0" y2="117.0"/><line x1="171.7" y1="104.1" x2="161.7" y2="118.4"/><line x1="99.8" y1="52.2" x2="49.4" y2="70.7"/><line x1="49.4" y1="70.7" x2="66.3" y2="85.0"/></g><g class="st"><circle cx="516.8" cy="297.5" r="2.1"/><circle cx="629.2" cy="216.6" r="2.1"/><circle cx="413.0" cy="208.6" r="2.1"/><circle cx="328.6" cy="266.1" r="2.1"/><circle cx="350.6" cy="212.5" r="2.1"/><circle cx="364.9" cy="237.0" r="2.1"/><circle cx="373.6" cy="240.3" r="2.1"/><circle cx="383.1" cy="243.0" r="2.1"/><circle cx="397.6" cy="271.5" r="2.1"/><circle cx="371.4" cy="199.3" r="2.1"/><circle cx="372.0" cy="257.7" r="2.1"/><circle cx="371.7" cy="255.7" r="2.1"/><circle cx="366.4" cy="301.5" r="2.1"/><circle cx="357.1" cy="312.4" r="2.1"/><circle cx="390.8" cy="318.6" r="2.1"/><circle cx="405.0" cy="312.8" r="2.1"/><circle cx="309.8" cy="318.3" r="2.1"/><circle cx="325.3" cy="295.6" r="2.1"/><circle cx="395.9" cy="290.5" r="2.1"/><circle cx="415.6" cy="288.1" r="2.1"/><circle cx="633.2" cy="271.1" r="2.1"/><circle cx="482.9" cy="261.8" r="2.1"/><circle cx="453.9" cy="259.0" r="2.1"/><circle cx="572.2" cy="237.7" r="2.1"/><circle cx="472.4" cy="219.0" r="2.1"/><circle cx="690.0" cy="246.9" r="2.1"/><circle cx="508.1" cy="199.4" r="2.1"/><circle cx="472.8" cy="430.0" r="2.1"/><circle cx="147.9" cy="147.1" r="2.1"/><circle cx="151.4" cy="147.3" r="2.1"/><circle cx="151.4" cy="147.0" r="2.1"/><circle cx="142.5" cy="147.1" r="2.1"/><circle cx="144.5" cy="146.1" r="2.1"/><circle cx="145.5" cy="147.7" r="2.1"/><circle cx="143.2" cy="145.8" r="2.1"/><circle cx="248.5" cy="175.1" r="2.1"/><circle cx="233.3" cy="165.2" r="2.1"/><circle cx="215.0" cy="178.3" r="2.1"/><circle cx="221.5" cy="171.3" r="2.1"/><circle cx="233.4" cy="177.4" r="2.1"/><circle cx="353.0" cy="130.5" r="2.1"/><circle cx="376.6" cy="158.0" r="2.1"/><circle cx="470.1" cy="302.0" r="2.1"/><circle cx="555.4" cy="293.5" r="2.1"/><circle cx="565.0" cy="333.1" r="2.1"/><circle cx="544.7" cy="342.6" r="2.1"/><circle cx="465.2" cy="346.6" r="2.1"/><circle cx="597.6" cy="343.8" r="2.1"/><circle cx="604.0" cy="205.4" r="2.1"/><circle cx="180.4" cy="213.8" r="2.1"/><circle cx="105.7" cy="200.0" r="2.1"/><circle cx="100.8" cy="202.6" r="2.1"/><circle cx="99.8" cy="52.2" r="2.1"/><circle cx="66.3" cy="85.0" r="2.1"/><circle cx="59.3" cy="38.8" r="2.1"/><circle cx="138.4" cy="59.9" r="2.1"/><circle cx="169.4" cy="88.5" r="2.1"/><circle cx="161.7" cy="118.4" r="2.1"/><circle cx="30.0" cy="30.0" r="2.1"/><circle cx="171.7" cy="104.1" r="2.1"/><circle cx="160.0" cy="117.0" r="2.1"/><circle cx="49.4" cy="70.7" r="2.1"/></g><g class="lb"><text x="520.8" y="293.5">Sirius</text><text x="633.2" y="212.6">Procyon</text><text x="417.0" y="204.6">Betelgeuse</text><text x="332.6" y="262.1">Rigel</text><text x="354.6" y="208.5">Bellatrix</text><text x="368.9" y="233.0">Mintaka</text><text x="377.6" y="236.3">Alnilam</text><text x="387.1" y="239.0">Alnitak</text><text x="401.6" y="267.5">Saiph</text><text x="375.4" y="195.3">Meissa</text><text x="376.0" y="253.7">Naath</text><text x="375.7" y="251.7">Tabita</text><text x="370.4" y="297.5">Arneb</text><text x="361.1" y="308.4">Nihal</text><text x="394.8" y="314.6">Gam Lep</text><text x="409.0" y="308.8">Del Lep</text><text x="313.8" y="314.3">Eps Lep</text><text x="329.3" y="291.6">Mu Lep</text><text x="399.9" y="286.5">Zet Lep</text><text x="419.6" y="284.1">Eta Lep</text><text x="637.2" y="267.1">Alf Mon</text><text x="486.9" y="257.8">Bet Mon</text><text x="457.9" y="255.0">Gam Mon</text><text x="576.2" y="233.7">Del Mon</text><text x="476.4" y="215.0">Eps Mon</text><text x="694.0" y="242.9">Zet Mon</text><text x="512.1" y="195.4">S Mon</text><text x="476.8" y="426.0">Canopus</text><text x="151.9" y="143.1">Alcyone</text><text x="155.4" y="143.3">Atlas</text><text x="155.4" y="143.0">Pleione</text><text x="146.5" y="143.1">Electra</text><text x="148.5" y="142.1">Maia</text><text x="149.5" y="143.7">Merope</text><text x="147.2" y="141.8">Taygeta</text><text x="252.5" y="171.1">Aldebaran</text><text x="237.3" y="161.2">Ain</text><text x="219.0" y="174.3">Hyadum I</text><text x="225.5" y="167.3">Hyadum II</text><text x="237.4" y="173.4">Theta Tau</text><text x="357.0" y="126.5">Elnath</text><text x="380.6" y="154.0">Tianguan</text><text x="474.1" y="298.0">Mirzam</text><text x="559.4" y="289.5">Muliphein</text><text x="569.0" y="329.1">Wezen</text><text x="548.7" y="338.6">Adhara</text><text x="469.2" y="342.6">Furud</text><text x="601.6" y="339.8">Aludra</text><text x="608.0" y="201.4">Gomeisa</text><text x="184.4" y="209.8">Nu Tau</text><text x="109.7" y="196.0">Xi Tau</text><text x="104.8" y="198.6">Omi Tau</text><text x="103.8" y="48.2">Mirfak</text><text x="70.3" y="81.0">Algol</text><text x="63.3" y="34.8">Gam Per</text><text x="142.4" y="55.9">Del Per</text><text x="173.4" y="84.5">Eps Per</text><text x="165.7" y="114.4">Zet Per</text><text x="34.0" y="26.0">Eta Per</text><text x="175.7" y="100.1">Xi Per</text><text x="164.0" y="113.0">Omi Per</text><text x="53.4" y="66.7">Kap Per</text></g></svg><figcaption>star &middot; 62 points &middot; 10 figures (Winter Triangle, Orion, Taurus, Pleiades, Lepus, Monoceros)</figcaption></figure></div></article></main></body></html>

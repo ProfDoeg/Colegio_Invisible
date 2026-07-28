@@ -1,9 +1,20 @@
 {
   "journeys": [
     {
+      "slug": "abdelkader",
+      "traveler": "Emir Abdelkader ibn Muhieddine (Abd al-Qadir al-Jaza'iri)",
+      "title": "The Zawiya to the Tomb of the Shaykh: the Emir, the Iron Years, and the Rescue of Damascus",
+      "years": "1808-1883",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 42,
+      "quotes": 5,
+      "file": "abdelkader.journey.json"
+    },
+    {
       "slug": "abraham",
       "traveler": "Abraham (Avraham / Ibrahim)",
-      "title": "The Journey of Abraham — Ur of the Chaldees to the Cave of Machpelah",
+      "title": "The Journey of Abraham: Ur of the Chaldees to the Cave of Machpelah",
       "years": "c. 1813–1638 BC",
       "calendar": "julian_bce",
       "segments": 9,
@@ -14,7 +25,7 @@
     {
       "slug": "aeneas",
       "traveler": "Aeneas (Aineías / Aeneas Anchisiades)",
-      "title": "The Aeneid — from Burning Troy to Latium",
+      "title": "The Aeneid: from Burning Troy to Latium",
       "years": "c. 1184-1177 BC (traditional; the fall of Troy to the founding of the Roman line)",
       "calendar": "julian_bce",
       "segments": 7,
@@ -23,9 +34,42 @@
       "file": "aeneas.journey.json"
     },
     {
+      "slug": "aishah",
+      "traveler": "Aishah bint Abi Bakr",
+      "title": "Mecca to Basra: the Mother of the Believers and the Day of the Camel",
+      "years": "c. AD 614-678",
+      "calendar": "julian",
+      "segments": 8,
+      "stops": 40,
+      "quotes": 15,
+      "file": "aishah.journey.json"
+    },
+    {
+      "slug": "al_kamil",
+      "traveler": "Al-Malik al-Kamil (al-Malik al-Kamil Nasir al-Din Muhammad ibn al-Adil)",
+      "title": "Cairo to Damascus: the Sultan Who Gave Away Jerusalem Twice",
+      "years": "1180-1238",
+      "calendar": "julian",
+      "segments": 8,
+      "stops": 38,
+      "quotes": 4,
+      "file": "al_kamil.journey.json"
+    },
+    {
+      "slug": "alexander",
+      "traveler": "Alexander the Great (Alexandros III of Macedon)",
+      "title": "Pella to Babylon: the Son of Ammon and the Ends of the Earth",
+      "years": "356-323 BC",
+      "calendar": "julian_bce",
+      "segments": 9,
+      "stops": 45,
+      "quotes": 15,
+      "file": "alexander.journey.json"
+    },
+    {
       "slug": "alvear",
       "traveler": "Carlos María de Alvear",
-      "title": "De las Misiones a Nueva York — el arco del fundador",
+      "title": "De las Misiones a Nueva York: el arco del fundador",
       "years": "1789-1852",
       "calendar": "gregorian",
       "segments": 8,
@@ -34,15 +78,59 @@
       "file": "alvear.journey.json"
     },
     {
+      "slug": "annie_besant",
+      "traveler": "Annie Besant (née Wood)",
+      "title": "Clapham to Adyar: Priest's Wife, Freethinker, Firebrand, President",
+      "years": "1847-1933",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 41,
+      "quotes": 11,
+      "file": "annie_besant.journey.json"
+    },
+    {
+      "slug": "aristotle",
+      "traveler": "Aristotle (Aristotélēs, son of Nicomachus)",
+      "title": "Stagira to Chalcis: the Master of Those Who Know",
+      "years": "384-322 BC",
+      "calendar": "julian_bce",
+      "segments": 7,
+      "stops": 40,
+      "quotes": 11,
+      "file": "aristotle.journey.json"
+    },
+    {
       "slug": "artaud",
       "traveler": "Antonin Artaud",
-      "title": "Le Voyage au bout du corps — Marseille to Ivry",
+      "title": "Le Voyage au bout du corps: Marseille to Ivry",
       "years": "1896–1948",
       "calendar": "gregorian",
       "segments": 7,
       "stops": 60,
       "quotes": 12,
       "file": "artaud.journey.json"
+    },
+    {
+      "slug": "arthur-lotharingia",
+      "traveler": "Arthur of Lotharingia (Wolfram von Eschenbach's Artus, King of Bertane)",
+      "title": "The Round Table of Bertane: Karidoel to Schamilot",
+      "years": "841-848",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 24,
+      "quotes": 12,
+      "file": "arthur-lotharingia.journey.json"
+    },
+    {
+      "slug": "attar",
+      "traveler": "Farid al-Din Attar (Farid al-Din Muhammad ibn Ibrahim, 'Attar-e Nishaburi)",
+      "title": "The Druggist's Shop to the Court of the Simurgh: Nishapur and the Thirty Birds",
+      "years": "c. 1145-1221",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 33,
+      "quotes": 6,
+      "file": "attar.journey.json"
     },
     {
       "slug": "barbier",
@@ -58,7 +146,7 @@
     {
       "slug": "belgrano",
       "traveler": "Manuel Belgrano",
-      "title": "Belgrano — De Buenos Aires a Buenos Aires: la Patria, la Bandera y el Ocaso",
+      "title": "Belgrano: De Buenos Aires a Buenos Aires, la Patria, la Bandera y el Ocaso",
       "years": "1770-1820",
       "calendar": "gregorian",
       "segments": 8,
@@ -69,7 +157,7 @@
     {
       "slug": "bernard_clairvaux",
       "traveler": "Bernard of Clairvaux",
-      "title": "The Mellifluous Doctor — Fontaine to Clairvaux",
+      "title": "The Mellifluous Doctor: Fontaine to Clairvaux",
       "years": "1090-1153",
       "calendar": "julian",
       "segments": 8,
@@ -91,13 +179,24 @@
     {
       "slug": "bolivar",
       "traveler": "Simón Bolívar",
-      "title": "El Viaje del Libertador — Caracas a Santa Marta",
+      "title": "El Viaje del Libertador: Caracas a Santa Marta",
       "years": "1783-1830",
       "calendar": "gregorian",
       "segments": 8,
       "stops": 69,
       "quotes": 35,
       "file": "bolivar.journey.json"
+    },
+    {
+      "slug": "borges",
+      "traveler": "Jorge Luis Borges",
+      "title": "The Library and the Night: Buenos Aires to Geneva",
+      "years": "1899-1987",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 42,
+      "quotes": 18,
+      "file": "borges.journey.json"
     },
     {
       "slug": "braille",
@@ -122,6 +221,17 @@
       "file": "buckminster_fuller.journey.json"
     },
     {
+      "slug": "catherine_alexandria",
+      "traveler": "Catherine of Alexandria (Katherine of the Wheel)",
+      "title": "Famagusta to Sinai, and the Long Echo into France: the Queen, the Wheel, and the Milk",
+      "years": "c. 290-308 (traditional; birth to martyrdom, with her legend's afterlife reaching to 1431 and beyond)",
+      "calendar": "julian",
+      "segments": 9,
+      "stops": 33,
+      "quotes": 8,
+      "file": "catherine_alexandria.journey.json"
+    },
+    {
       "slug": "charlemagne",
       "traveler": "Charlemagne (Karolus Magnus)",
       "title": "From the Frankish Cradle to the Throne in the Tomb",
@@ -144,9 +254,20 @@
       "file": "charles_martel.journey.json"
     },
     {
+      "slug": "charlotte_bara",
+      "traveler": "Charlotte Bara (Charlotte Bachrach, 'die gotische Tänzerin')",
+      "title": "The Gothic Dancer, Brussels to Ascona: the Temple of Dance at San Materno",
+      "years": "1901-1986 (the temple dances again to 2018)",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 43,
+      "quotes": 3,
+      "file": "charlotte_bara.journey.json"
+    },
+    {
       "slug": "charly_garcia",
       "traveler": "Charly García",
-      "title": "Say No More — the Journey of the Bicho de Ciudad, from the Toy Piano to the Living Monument",
+      "title": "Say No More: the Journey of the Bicho de Ciudad, from the Toy Piano to the Living Monument",
       "years": "1951–",
       "calendar": "gregorian",
       "segments": 7,
@@ -157,7 +278,7 @@
     {
       "slug": "che_guevara",
       "traveler": "Ernesto \"Che\" Guevara",
-      "title": "Rosario to La Higuera — the Long March of the Soldier of America",
+      "title": "Rosario to La Higuera: the Long March of the Soldier of America",
       "years": "1928-1967",
       "calendar": "gregorian",
       "segments": 8,
@@ -166,9 +287,20 @@
       "file": "che_guevara.journey.json"
     },
     {
+      "slug": "cicero",
+      "traveler": "Marcus Tullius Cicero",
+      "title": "Arpinum to the Rostra: the Voice of the Republic",
+      "years": "106-43 BC",
+      "calendar": "julian_bce",
+      "segments": 9,
+      "stops": 41,
+      "quotes": 15,
+      "file": "cicero.journey.json"
+    },
+    {
       "slug": "clotilde",
       "traveler": "Sainte Clotilde",
-      "title": "De Lyon à Tours — la reine qui convertit un royaume",
+      "title": "De Lyon à Tours: la reine qui convertit un royaume",
       "years": "474-545",
       "calendar": "julian",
       "segments": 8,
@@ -179,7 +311,7 @@
     {
       "slug": "clovis",
       "traveler": "Clovis, King of the Franks",
-      "title": "Tournai to Paris — the Making of France",
+      "title": "Tournai to Paris: the Making of France",
       "years": "466-511",
       "calendar": "julian",
       "segments": 8,
@@ -190,7 +322,7 @@
     {
       "slug": "columbus",
       "traveler": "Christopher Columbus",
-      "title": "The Admiral of the Ocean Sea — Genoa to Valladolid, and the Journey After Death",
+      "title": "The Admiral of the Ocean Sea: Genoa to Valladolid, and the Journey After Death",
       "years": "1451-1506 (relics to 1899)",
       "calendar": "julian",
       "segments": 9,
@@ -199,9 +331,20 @@
       "file": "columbus.journey.json"
     },
     {
+      "slug": "cortes",
+      "traveler": "Hernán Cortés",
+      "title": "Medellín to Mexico: the Conquest of New Spain and the Wandering Bones",
+      "years": "1485-1547 (bones to 1947)",
+      "calendar": "julian",
+      "segments": 9,
+      "stops": 42,
+      "quotes": 8,
+      "file": "cortes.journey.json"
+    },
+    {
       "slug": "cyrus",
       "traveler": "Cyrus the Great",
-      "title": "The Lord's Anointed — Anshan to the Massagetae",
+      "title": "The Lord's Anointed: Anshan to the Massagetae",
       "years": "c. 600-530 BC",
       "calendar": "julian_bce",
       "segments": 7,
@@ -212,7 +355,7 @@
     {
       "slug": "dannunzio",
       "traveler": "Gabriele d'Annunzio",
-      "title": "La Vita Inimitabile — from Pescara to the Vittoriale",
+      "title": "La Vita Inimitabile: from Pescara to the Vittoriale",
       "years": "1863-1938",
       "calendar": "gregorian",
       "segments": 8,
@@ -221,9 +364,20 @@
       "file": "dannunzio.journey.json"
     },
     {
+      "slug": "dante",
+      "traveler": "Dante Alighieri",
+      "title": "Florence to the Empyrean: the Exile, the Mountain, and the Rose",
+      "years": "1265-1321",
+      "calendar": "julian",
+      "segments": 8,
+      "stops": 45,
+      "quotes": 30,
+      "file": "dante.journey.json"
+    },
+    {
       "slug": "delsarte",
       "traveler": "François Delsarte",
-      "title": "The Grammar of the Body — Solesmes to Paris",
+      "title": "The Grammar of the Body: Solesmes to Paris",
       "years": "1811-1871",
       "calendar": "gregorian",
       "segments": 7,
@@ -232,9 +386,64 @@
       "file": "delsarte.journey.json"
     },
     {
+      "slug": "dido",
+      "traveler": "Dido (Elissa of Tyre)",
+      "title": "Tyre to the Pyre: the Wanderer Who Built Carthage",
+      "years": "c. 850-814 BC (historical/legendary reign); with the poets' fold of the Aeneas years, traditionally c. 1182-1180 BC",
+      "calendar": "julian_bce",
+      "segments": 7,
+      "stops": 32,
+      "quotes": 20,
+      "file": "dido.journey.json"
+    },
+    {
+      "slug": "dihya",
+      "traveler": "Dihya (al-Kahina)",
+      "title": "The Aurès to the Well of the Queen: the Mountain, the Fire, and the Mantle After",
+      "years": "c. 645-703 (traditional; the war years c. 688-703 attested in broad outline)",
+      "calendar": "julian",
+      "segments": 8,
+      "stops": 33,
+      "quotes": 3,
+      "file": "dihya.journey.json"
+    },
+    {
+      "slug": "einstein",
+      "traveler": "Albert Einstein",
+      "title": "Ulm to Princeton: the Patent Clerk Who Bent Light and Time",
+      "years": "1879-1955",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 44,
+      "quotes": 32,
+      "file": "einstein.journey.json"
+    },
+    {
+      "slug": "elsa_lindenberg",
+      "traveler": "Elsa Lindenberg",
+      "title": "Berlin to Oslo: the Dancer, the Doctor, and the Hardest No",
+      "years": "1906-1990",
+      "calendar": "gregorian",
+      "segments": 7,
+      "stops": 44,
+      "quotes": 3,
+      "file": "elsa_lindenberg.journey.json"
+    },
+    {
+      "slug": "emin_arslan",
+      "traveler": "Emir Emin Arslan (al-Amir Amin Majid Arslan)",
+      "title": "Choueifat to Buenos Aires: Emir, Exile, Consul, Citizen",
+      "years": "1868-1943",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 44,
+      "quotes": 9,
+      "file": "emin_arslan.journey.json"
+    },
+    {
       "slug": "eva_peron",
       "traveler": "Eva Duarte de Perón (\"Evita\")",
-      "title": "El Viaje de Evita — de Los Toldos a la Recoleta, y la odisea del cuerpo",
+      "title": "El Viaje de Evita: de Los Toldos a la Recoleta, y la odisea del cuerpo",
       "years": "1919–1976",
       "calendar": "gregorian",
       "segments": 8,
@@ -245,7 +454,7 @@
     {
       "slug": "falconetti",
       "traveler": "Renée Jeanne Falconetti",
-      "title": "La Passion de Falconetti — de Pantin à Buenos Aires",
+      "title": "La Passion de Falconetti: de Pantin à Buenos Aires",
       "years": "1892–1946 (the film's own resurrection to 1984)",
       "calendar": "gregorian",
       "segments": 8,
@@ -256,7 +465,7 @@
     {
       "slug": "fichte",
       "traveler": "Johann Gottlieb Fichte",
-      "title": "The I That Posits Itself — Rammenau to Berlin",
+      "title": "The I That Posits Itself: Rammenau to Berlin",
       "years": "1762-1814",
       "calendar": "gregorian",
       "segments": 7,
@@ -265,15 +474,48 @@
       "file": "fichte.journey.json"
     },
     {
+      "slug": "francis_bacon",
+      "traveler": "Francis Bacon, 1st Viscount St Alban",
+      "title": "York House to Gorhambury: the Instauration, the Fall, and the New Atlantis",
+      "years": "1561-1626",
+      "calendar": "julian",
+      "segments": 9,
+      "stops": 42,
+      "quotes": 7,
+      "file": "francis_bacon.journey.json"
+    },
+    {
+      "slug": "freud",
+      "traveler": "Sigmund Freud",
+      "title": "Berggasse and Beyond: the Making and Unmaking of the Interior World",
+      "years": "1856-1939",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 39,
+      "quotes": 20,
+      "file": "freud.journey.json"
+    },
+    {
       "slug": "froebel",
       "traveler": "Friedrich Fröbel",
-      "title": "The Gardener of Children — Oberweissbach to Marienthal",
+      "title": "The Gardener of Children: Oberweissbach to Marienthal",
       "years": "1782-1852",
       "calendar": "gregorian",
       "segments": 8,
       "stops": 55,
       "quotes": 29,
       "file": "froebel.journey.json"
+    },
+    {
+      "slug": "genghis_khan",
+      "traveler": "Genghis Khan (Chinggis Khan / Temüjin)",
+      "title": "The Blood Clot and the Mountain: Onon to Burkhan Khaldun",
+      "years": "c. 1162-1227",
+      "calendar": "julian",
+      "segments": 9,
+      "stops": 41,
+      "quotes": 7,
+      "file": "genghis_khan.journey.json"
     },
     {
       "slug": "giles",
@@ -287,9 +529,31 @@
       "file": "giles.journey.json"
     },
     {
+      "slug": "giordano_bruno",
+      "traveler": "Giordano Bruno (Filippo Bruno, il Nolano)",
+      "title": "The Nolan's Circle: Nola to Campo de' Fiori, the Infinite Universe and the Fire",
+      "years": "1548-1600",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 45,
+      "quotes": 11,
+      "file": "giordano_bruno.journey.json"
+    },
+    {
+      "slug": "giulio_camillo",
+      "traveler": "Giulio Camillo Delminio",
+      "title": "Friuli to Milan: the Wooden Theatre and the Idea of the World",
+      "years": "c. 1480-1544 (the Idea del Theatro printed, 1550)",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 36,
+      "quotes": 11,
+      "file": "giulio_camillo.journey.json"
+    },
+    {
       "slug": "goethe_full",
       "traveler": "Johann Wolfgang von Goethe",
-      "title": "Dichtung und Wahrheit — The Whole Life, Frankfurt to Weimar",
+      "title": "Dichtung und Wahrheit: The Whole Life, Frankfurt to Weimar",
       "years": "1749–1832",
       "calendar": "gregorian",
       "segments": 9,
@@ -300,13 +564,24 @@
     {
       "slug": "guido_keller",
       "traveler": "Guido Keller",
-      "title": "Guido Keller — the Eagle of Fiume: Milan to the Roadside",
+      "title": "Guido Keller, the Eagle of Fiume: Milan to the Roadside",
       "years": "1892–1929",
       "calendar": "gregorian",
       "segments": 9,
       "stops": 27,
       "quotes": 7,
       "file": "guido_keller.journey.json"
+    },
+    {
+      "slug": "guinevere",
+      "traveler": "Guinevere (Gwenhwyfar / Ganore / Vanora)",
+      "title": "The Queen's Two Graves: Cameliard to Glastonbury, and the Northern Reckoning at Meigle",
+      "years": "c. AD 495-1191 (a legendary lifetime, closed by the historical rediscovery of her grave)",
+      "calendar": "julian",
+      "segments": 9,
+      "stops": 23,
+      "quotes": 15,
+      "file": "guinevere.journey.json"
     },
     {
       "slug": "gurdjieff",
@@ -320,9 +595,20 @@
       "file": "gurdjieff.journey.json"
     },
     {
+      "slug": "hallaj",
+      "traveler": "Mansur al-Hallaj (al-Husayn ibn Mansur al-Hallaj)",
+      "title": "Fars to Baghdad: The Pilgrimages, the Cry of the Truth, and the Gibbet on the Tigris",
+      "years": "c. 858-922",
+      "calendar": "julian",
+      "segments": 8,
+      "stops": 41,
+      "quotes": 14,
+      "file": "hallaj.journey.json"
+    },
+    {
       "slug": "hannibal",
       "traveler": "Hannibal Barca",
-      "title": "The Oath Kept — Carthage to Libyssa",
+      "title": "The Oath Kept: Carthage to Libyssa",
       "years": "247-183 BC",
       "calendar": "julian_bce",
       "segments": 7,
@@ -331,8 +617,30 @@
       "file": "hannibal.journey.json"
     },
     {
+      "slug": "heisenberg",
+      "traveler": "Werner Heisenberg",
+      "title": "Helgoland to Farm Hall: the Uncertainty of Werner Heisenberg",
+      "years": "1901-1976",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 39,
+      "quotes": 5,
+      "file": "heisenberg.journey.json"
+    },
+    {
+      "slug": "humboldt",
+      "traveler": "Alexander von Humboldt",
+      "title": "The Measure of the Cosmos: Berlin to Chimborazo and Back",
+      "years": "1769-1859",
+      "calendar": "gregorian",
+      "segments": 7,
+      "stops": 37,
+      "quotes": 11,
+      "file": "humboldt.journey.json"
+    },
+    {
       "slug": "hypatia",
-      "traveler": "Hypatia of Alexandria — and Saint Catherine, her sainted double",
+      "traveler": "Hypatia of Alexandria, and Saint Catherine, her sainted double",
       "title": "The Philosopher and the Wheel: from the Museion to the Sword at Fierbois",
       "years": "c. 355 – 1429 CE",
       "calendar": "julian",
@@ -340,6 +648,28 @@
       "stops": 39,
       "quotes": 9,
       "file": "hypatia.journey.json"
+    },
+    {
+      "slug": "ibn_arabi",
+      "traveler": "Ibn Arabi (Muhyi al-Din Abu Abdallah Muhammad ibn al-Arabi al-Ha'timi al-Ta'i)",
+      "title": "Murcia to Damascus: the Seal of the Muhammadan Saints",
+      "years": "1165-1240",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 42,
+      "quotes": 9,
+      "file": "ibn_arabi.journey.json"
+    },
+    {
+      "slug": "isadora_duncan",
+      "traveler": "Isadora Duncan",
+      "title": "The Dancer of the Future: San Francisco to Nice",
+      "years": "1877-1927",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 41,
+      "quotes": 10,
+      "file": "isadora_duncan.journey.json"
     },
     {
       "slug": "itten",
@@ -353,9 +683,20 @@
       "file": "itten.journey.json"
     },
     {
+      "slug": "jaques_dalcroze",
+      "traveler": "Émile Jaques-Dalcroze",
+      "title": "The Rhythm and the Silence: Vienna to Geneva by way of Hellerau",
+      "years": "1865-1950",
+      "calendar": "gregorian",
+      "segments": 7,
+      "stops": 37,
+      "quotes": 4,
+      "file": "jaques_dalcroze.journey.json"
+    },
+    {
       "slug": "jesus",
       "traveler": "Jesus of Nazareth (Yeshua, the Christ)",
-      "title": "The Life of the Lord — from the Annunciation at Nazareth to the Ascension from Olivet",
+      "title": "The Life of the Lord: from the Annunciation at Nazareth to the Ascension from Olivet",
       "years": "c. 4 BC – AD 33",
       "calendar": "julian",
       "segments": 7,
@@ -366,18 +707,29 @@
     {
       "slug": "joan_of_arc",
       "traveler": "Joan of Arc (Jehanne la Pucelle)",
-      "title": "Domrémy to Rouen — the Mission, the Crown, and the Fire",
+      "title": "Domrémy to Rouen: the Mission, the Crown, and the Fire",
       "years": "1424-1431",
       "calendar": "julian",
       "segments": 8,
-      "stops": 54,
-      "quotes": 45,
+      "stops": 58,
+      "quotes": 48,
       "file": "joan_of_arc.journey.json"
+    },
+    {
+      "slug": "joffrey_bourlemont",
+      "traveler": "Joffrey de Bourlémont (Jofridus, dominus de Borlenmont)",
+      "title": "The Fire Carried Home: Greccio, Jerusalem, and the Fairy Tree",
+      "years": "c. 1211-1268 (coda to 1456)",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 43,
+      "quotes": 1,
+      "file": "joffrey_bourlemont.journey.json"
     },
     {
       "slug": "johann_jahn",
       "traveler": "Friedrich Ludwig Jahn",
-      "title": "Turnvater — Lanz to Freyburg, the Body Made a Fatherland",
+      "title": "Turnvater: Lanz to Freyburg, the Body Made a Fatherland",
       "years": "1778-1852",
       "calendar": "gregorian",
       "segments": 8,
@@ -397,15 +749,37 @@
       "file": "joseph_oppenheimer.journey.json"
     },
     {
+      "slug": "joseph_pilates",
+      "traveler": "Joseph Hubertus Pilates",
+      "title": "Mönchengladbach to Eighth Avenue: the Wounded Body Made Whole",
+      "years": "1883-1967",
+      "calendar": "gregorian",
+      "segments": 8,
+      "stops": 43,
+      "quotes": 9,
+      "file": "joseph_pilates.journey.json"
+    },
+    {
       "slug": "juan_peron",
       "traveler": "Juan Domingo Perón",
-      "title": "Lobos to Buenos Aires — the Journey of the Conductor and the Descamisados",
+      "title": "Lobos to Buenos Aires: the Journey of the Conductor and the Descamisados",
       "years": "1895-1974",
       "calendar": "gregorian",
       "segments": 7,
       "stops": 39,
       "quotes": 12,
       "file": "juan_peron.journey.json"
+    },
+    {
+      "slug": "juana_azurduy",
+      "traveler": "Juana Azurduy de Padilla",
+      "title": "Toroca to the Common Grave: the Amazona of the Republiquetas and the War for Upper Peru",
+      "years": "1780-1862",
+      "calendar": "gregorian",
+      "segments": 8,
+      "stops": 38,
+      "quotes": 3,
+      "file": "juana_azurduy.journey.json"
     },
     {
       "slug": "jung",
@@ -419,9 +793,20 @@
       "file": "jung.journey.json"
     },
     {
+      "slug": "karl_marx",
+      "traveler": "Karl Marx (the Moor)",
+      "title": "Trier to Highgate: the Moor, the Spectre, and the Book",
+      "years": "1818-1883",
+      "calendar": "gregorian",
+      "segments": 8,
+      "stops": 45,
+      "quotes": 33,
+      "file": "karl_marx.journey.json"
+    },
+    {
       "slug": "keyserling",
       "traveler": "Hermann Graf von Keyserling",
-      "title": "Der kürzeste Weg zu sich selbst — Könno to Innsbruck",
+      "title": "Der kürzeste Weg zu sich selbst: Könno to Innsbruck",
       "years": "1880-1946",
       "calendar": "gregorian",
       "segments": 7,
@@ -432,13 +817,24 @@
     {
       "slug": "kircher",
       "traveler": "Athanasius Kircher",
-      "title": "The Last Man Who Knew Everything — from Geisa to Rome, and Down into the Burning World",
+      "title": "The Last Man Who Knew Everything: from Geisa to Rome, and Down into the Burning World",
       "years": "1602–1680",
       "calendar": "gregorian",
       "segments": 7,
       "stops": 33,
       "quotes": 10,
       "file": "kircher.journey.json"
+    },
+    {
+      "slug": "kyot-willehalm",
+      "traveler": "Kyot-Willehalm",
+      "title": "Toulouse to Dornachbrugg: the Tutor, the Battle, and the Source of the Grail",
+      "years": "c. 755-848 (Greub's redating; conventional chronicles close the life in 812 or 814)",
+      "calendar": "julian",
+      "segments": 8,
+      "stops": 29,
+      "quotes": 4,
+      "file": "kyot-willehalm.journey.json"
     },
     {
       "slug": "laban",
@@ -452,6 +848,28 @@
       "file": "laban.journey.json"
     },
     {
+      "slug": "lady-of-the-lake",
+      "traveler": "The Lady of the Lake (Viviane, Niniane, Nimue)",
+      "title": "Brocéliande to Avalon: the Fairy of the Lake, the Enchanter Bound, and the Sword Given and Taken",
+      "years": "c. 500-537 (traditional Arthurian chronology; the reign of Arthur, from Merlin's love to the barge at Camlann)",
+      "calendar": "julian",
+      "segments": 6,
+      "stops": 8,
+      "quotes": 4,
+      "file": "lady-of-the-lake.journey.json"
+    },
+    {
+      "slug": "lancelot",
+      "traveler": "Lancelot (Lancelot du Lac)",
+      "title": "Brocéliande to Joyous Gard: the Best Knight and the Grail He Could Not See",
+      "years": "c. 502-543 (traditional Arthurian chronology; Camlann fixed, with this atlas, at 537)",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 31,
+      "quotes": 9,
+      "file": "lancelot.journey.json"
+    },
+    {
       "slug": "lautaro",
       "traveler": "Lautaro (Leftraru)",
       "title": "The Journey of Lautaro: From the Stable of the Conqueror to the Gates of Santiago",
@@ -463,15 +881,103 @@
       "file": "lautaro.journey.json"
     },
     {
+      "slug": "lord_kelvin",
+      "traveler": "William Thomson, 1st Baron Kelvin",
+      "title": "Belfast to Westminster Abbey: the Absolute Scale, the Atlantic Cable, and the Knotted Ether",
+      "years": "1824-1907",
+      "calendar": "gregorian",
+      "segments": 8,
+      "stops": 44,
+      "quotes": 6,
+      "file": "lord_kelvin.journey.json"
+    },
+    {
+      "slug": "maimonides",
+      "traveler": "Maimonides (Moshe ben Maimon / Musa ibn Maymun, the Rambam)",
+      "title": "Córdoba to Fustat: the Judge's Son, the Physician of Two Sultans, and the Guide",
+      "years": "1138-1204",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 35,
+      "quotes": 10,
+      "file": "maimonides.journey.json"
+    },
+    {
+      "slug": "marco_polo",
+      "traveler": "Marco Polo (Messer Marco Milioni)",
+      "title": "Il Milione: Venice to Cathay and Back Through the Book of Marvels",
+      "years": "1254-1324",
+      "calendar": "julian",
+      "segments": 8,
+      "stops": 42,
+      "quotes": 17,
+      "file": "marco_polo.journey.json"
+    },
+    {
+      "slug": "margarita_pelagia",
+      "traveler": "Margarita / Marina / Pelagia, the Pearl of the Three Waters",
+      "title": "Iconium to the Main: one woman seen through three waters",
+      "years": "c. 47 – 1780 (five parallel lives, one voice)",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 38,
+      "quotes": 13,
+      "file": "margarita_pelagia.journey.json"
+    },
+    {
       "slug": "maria_orsic",
       "traveler": "Maria Orsic",
-      "title": "Maria Orsic — Zagreb to the Vanishing",
+      "title": "Maria Orsic: Zagreb to the Vanishing",
       "years": "1895 – (vanished 1945)",
       "calendar": "gregorian",
       "segments": 8,
       "stops": 22,
       "quotes": 5,
       "file": "maria_orsic.journey.json"
+    },
+    {
+      "slug": "maria_remedios_del_valle",
+      "traveler": "María Remedios del Valle",
+      "title": "Buenos Aires to the Nine Days of the Lash: the Captain They Forgot and Remembered",
+      "years": "c. 1766-1847",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 33,
+      "quotes": 3,
+      "file": "maria_remedios_del_valle.journey.json"
+    },
+    {
+      "slug": "mary_magdalene",
+      "traveler": "Mary Magdalene (Maria Magdalena)",
+      "title": "Magdala to the Sainte-Baume: the Seven Devils, the Empty Tomb, and the Thirty Years in the Grotto",
+      "years": "c. AD 10 – AD 72 (the relic disputes run to AD 1279)",
+      "calendar": "julian",
+      "segments": 8,
+      "stops": 32,
+      "quotes": 3,
+      "file": "mary_magdalene.journey.json"
+    },
+    {
+      "slug": "mary_wigman",
+      "traveler": "Mary Wigman (Karoline Sofie Marie Wiegmann)",
+      "title": "The Absolute Dance: Hanover, the Sacred Mountain, and the Last Studio",
+      "years": "1886-1973",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 41,
+      "quotes": 5,
+      "file": "mary_wigman.journey.json"
+    },
+    {
+      "slug": "matteo_ricci",
+      "traveler": "Matteo Ricci (Li Madou, Xitai)",
+      "title": "Macerata to Peking: the Master from the Great West and the Memory Palace of China",
+      "years": "1552-1610",
+      "calendar": "gregorian",
+      "segments": 8,
+      "stops": 43,
+      "quotes": 2,
+      "file": "matteo_ricci.journey.json"
     },
     {
       "slug": "max_muller",
@@ -485,9 +991,20 @@
       "file": "max_muller.journey.json"
     },
     {
+      "slug": "merlin",
+      "traveler": "Merlin (Myrddin Emrys / Myrddin Wyllt)",
+      "title": "Caer Myrddin to the Esplumoir: the Two Merlins Welded",
+      "years": "c. 450-c. 577 (traditional; Geoffrey of Monmouth's own conflation of the two Merlins)",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 30,
+      "quotes": 19,
+      "file": "merlin.journey.json"
+    },
+    {
       "slug": "milton_blahyi",
       "traveler": "Joshua Milton Blahyi (\"General Butt Naked\")",
-      "title": "The Grove to the Pulpit — the Slave of Satan Made a Servant of Christ",
+      "title": "The Grove to the Pulpit: The Slave of Satan Made a Servant of Christ",
       "years": "1971–",
       "calendar": "gregorian",
       "segments": 7,
@@ -509,13 +1026,24 @@
     {
       "slug": "molay",
       "traveler": "Jacques de Molay",
-      "title": "The Last Grand Master — Molay to the Fire on the Île aux Juifs",
+      "title": "The Last Grand Master: Molay to the Fire on the Île aux Juifs",
       "years": "1243-1314",
       "calendar": "julian",
       "segments": 8,
       "stops": 30,
       "quotes": 10,
       "file": "molay.journey.json"
+    },
+    {
+      "slug": "morgan-le-fay",
+      "traveler": "Morgan le Fay (Morgen / Morgane / Fata Morgana)",
+      "title": "Avalon to Etna: the Woman Who Became Three Landscapes",
+      "years": "c. 460-1211 (traditional Arthurian era, through the Norman-Sicilian and Grail-romance reception)",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 27,
+      "quotes": 13,
+      "file": "morgan-le-fay.journey.json"
     },
     {
       "slug": "moses",
@@ -531,7 +1059,7 @@
     {
       "slug": "muhammad",
       "traveler": "Muhammad ibn Abdullah",
-      "title": "The Messenger's Road — Mecca to Medina",
+      "title": "The Messenger's Road: Mecca to Medina",
       "years": "AD 570–632",
       "calendar": "julian",
       "segments": 8,
@@ -540,9 +1068,20 @@
       "file": "muhammad.journey.json"
     },
     {
+      "slug": "mussolini",
+      "traveler": "Benito Mussolini",
+      "title": "Predappio to Piazzale Loreto: the Duce, the Empire, and the Reckoning",
+      "years": "1883-1945",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 44,
+      "quotes": 7,
+      "file": "mussolini.journey.json"
+    },
+    {
       "slug": "muybridge",
       "traveler": "Eadweard Muybridge",
-      "title": "The Man Who Stopped Time — Kingston to Kingston",
+      "title": "The Man Who Stopped Time: Kingston to Kingston",
       "years": "1830–1904 (gregorian)",
       "calendar": "gregorian",
       "segments": 9,
@@ -551,9 +1090,42 @@
       "file": "muybridge.journey.json"
     },
     {
+      "slug": "napoleon",
+      "traveler": "Napoleon Bonaparte",
+      "title": "Ajaccio to Les Invalides: Napoleon and the Weight of Europe",
+      "years": "1769-1821 (the ashes return, 1840)",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 40,
+      "quotes": 25,
+      "file": "napoleon.journey.json"
+    },
+    {
+      "slug": "niels_bohr",
+      "traveler": "Niels Bohr (Niels Henrik David Bohr)",
+      "title": "Copenhagen to Los Alamos: the Quantum Atom and the Open World",
+      "years": "1885-1962",
+      "calendar": "gregorian",
+      "segments": 7,
+      "stops": 42,
+      "quotes": 6,
+      "file": "niels_bohr.journey.json"
+    },
+    {
+      "slug": "nietzsche",
+      "traveler": "Friedrich Nietzsche",
+      "title": "Röcken to Weimar: the Parsonage, the Rock at Surlej, and the Long Dusk",
+      "years": "1844-1900",
+      "calendar": "gregorian",
+      "segments": 8,
+      "stops": 45,
+      "quotes": 17,
+      "file": "nietzsche.journey.json"
+    },
+    {
       "slug": "nizami",
       "traveler": "Nizami Ganjavi",
-      "title": "The Five Treasures — Ganja and the Worlds of the Pen",
+      "title": "The Five Treasures: Ganja and the Worlds of the Pen",
       "years": "AD 1141–1209",
       "calendar": "julian",
       "segments": 7,
@@ -564,7 +1136,7 @@
     {
       "slug": "novalis",
       "traveler": "Novalis (Friedrich von Hardenberg)",
-      "title": "The Journey of Novalis: from the Manor of Oberwiederstedt to the Grave at Weissenfels — the Pilgrimage of the Blue Flower and the Night",
+      "title": "The Journey of Novalis: from the Manor of Oberwiederstedt to the Grave at Weissenfels, the Pilgrimage of the Blue Flower and the Night",
       "years": "1772–1801",
       "calendar": "gregorian",
       "segments": 7,
@@ -575,7 +1147,7 @@
     {
       "slug": "ohiggins",
       "traveler": "Bernardo O'Higgins Riquelme",
-      "title": "Chillán to Lima — The Road of the Liberator of Chile",
+      "title": "Chillán to Lima: The Road of the Liberator of Chile",
       "years": "1778-1842",
       "calendar": "gregorian",
       "segments": 8,
@@ -584,9 +1156,20 @@
       "file": "ohiggins.journey.json"
     },
     {
+      "slug": "otto_iii",
+      "traveler": "Otto III, Holy Roman Emperor",
+      "title": "The Renovatio Imperii Romanorum: Aachen to Rome, Gniezno, and Home to Aachen",
+      "years": "983-1002",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 19,
+      "quotes": 4,
+      "file": "otto_iii.journey.json"
+    },
+    {
       "slug": "paracelsus",
       "traveler": "Paracelsus (Theophrastus Bombastus von Hohenheim)",
-      "title": "The Devil's Bridge to the White Horse — the Wandering of the Monarch of Physicians",
+      "title": "The Devil's Bridge to the White Horse: the Wandering of the Monarch of Physicians",
       "years": "1493-1541",
       "calendar": "julian",
       "segments": 7,
@@ -595,9 +1178,20 @@
       "file": "paracelsus.journey.json"
     },
     {
+      "slug": "parzival",
+      "traveler": "Parzival (Parzival von Waleis, son of Gahmuret of Anjou and Herzeloyde of Waleis)",
+      "title": "Wolfram's Parzival: Soltane to the Grail Throne",
+      "years": "826-848 (Werner Greub's chronology: Wolfram's Parzival read as ninth-century history)",
+      "calendar": "julian",
+      "segments": 9,
+      "stops": 43,
+      "quotes": 23,
+      "file": "parzival.journey.json"
+    },
+    {
       "slug": "paul_barbier",
       "traveler": "Paul Jules Barbier",
-      "title": "The Journey of Jules Barbier — Paris and the Myths Made Song",
+      "title": "The Journey of Jules Barbier: Paris and the Myths Made Song",
       "years": "1825-1901",
       "calendar": "gregorian",
       "segments": 7,
@@ -606,15 +1200,103 @@
       "file": "paul_barbier.journey.json"
     },
     {
+      "slug": "pedro_de_mendoza",
+      "traveler": "Pedro de Mendoza",
+      "title": "Pedro de Mendoza, De Guadix al Río de la Plata: la Fundación, el Hambre y la Suelta de las Manadas",
+      "years": "c. 1487-1537 (coda to 1937)",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 32,
+      "quotes": 4,
+      "file": "pedro_de_mendoza.journey.json"
+    },
+    {
+      "slug": "pedro_subercaseaux",
+      "traveler": "Pedro Subercaseaux Errázuriz (Fray Pedro, Dom Pedro OSB)",
+      "title": "The Painter of the Glories: Rome to Las Condes, a Journey Through Other Journeys' Stops",
+      "years": "1880-1956",
+      "calendar": "gregorian",
+      "segments": 7,
+      "stops": 32,
+      "quotes": 5,
+      "file": "pedro_subercaseaux.journey.json"
+    },
+    {
       "slug": "pestalozzi",
       "traveler": "Johann Heinrich Pestalozzi",
-      "title": "Alles für Andere — The Pilgrimage of the Father of the Poor School, Zurich to Brugg",
+      "title": "Alles für Andere: The Pilgrimage of the Father of the Poor School, Zurich to Brugg",
       "years": "1746-1827",
       "calendar": "gregorian",
       "segments": 8,
       "stops": 53,
       "quotes": 12,
       "file": "pestalozzi.journey.json"
+    },
+    {
+      "slug": "pica_bourlemont",
+      "traveler": "Pica Bourlémont (Giovanna, Madonna Pica)",
+      "title": "The Magpie of Bourlémont: the Meuse, the Khamsa, and the Mother of Assisi",
+      "years": "c. 1160-1226 (the two endings)",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 36,
+      "quotes": 4,
+      "file": "pica_bourlemont.journey.json"
+    },
+    {
+      "slug": "pierre_bourlemont",
+      "traveler": "Pierre Bourlémont (Pierre II, sire de Bourlémont)",
+      "title": "The Troubadour Cousin: From the Meuse to Ganja to Greccio",
+      "years": "c. 1170-1226",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 40,
+      "quotes": 3,
+      "file": "pierre_bourlemont.journey.json"
+    },
+    {
+      "slug": "pizarro",
+      "traveler": "Francisco Pizarro González",
+      "title": "Trujillo to Cajamarca: the Swineherd Who Took an Empire",
+      "years": "1478-1541 (the bones to 1985)",
+      "calendar": "gregorian",
+      "segments": 8,
+      "stops": 37,
+      "quotes": 3,
+      "file": "pizarro.journey.json"
+    },
+    {
+      "slug": "plato",
+      "traveler": "Plato (Aristocles, son of Ariston, called Plato for the breadth of his shoulders)",
+      "title": "Athens to the Grove of Academus: the Cave, the Tyrant, and the Drowned Island",
+      "years": "c. 428-347 BC",
+      "calendar": "julian_bce",
+      "segments": 8,
+      "stops": 35,
+      "quotes": 18,
+      "file": "plato.journey.json"
+    },
+    {
+      "slug": "rabia",
+      "traveler": "Rabia al-Adawiyya (Rābi'a bint Ismā'īl al-'Adawiyya al-Qaysiyya)",
+      "title": "Basra to Mecca and Back to Basra: the Torch, the Water, and the Love Without Cause",
+      "years": "c. 717-801",
+      "calendar": "julian",
+      "segments": 8,
+      "stops": 38,
+      "quotes": 31,
+      "file": "rabia.journey.json"
+    },
+    {
+      "slug": "ramon_llull",
+      "traveler": "Ramon Llull (Raymond Lully, Doctor Illuminatus)",
+      "title": "Palma to Bugia: the Wheels of the Art, the Missions to Islam, and the Stoning",
+      "years": "1232-1316",
+      "calendar": "julian",
+      "segments": 9,
+      "stops": 45,
+      "quotes": 7,
+      "file": "ramon_llull.journey.json"
     },
     {
       "slug": "reich",
@@ -628,9 +1310,20 @@
       "file": "reich.journey.json"
     },
     {
+      "slug": "richard_lionheart",
+      "traveler": "Richard I of England, Cœur de Lion",
+      "title": "Oxford to Châlus: the Crusade, the Captivity, and the Song",
+      "years": "1157-1199",
+      "calendar": "julian",
+      "segments": 9,
+      "stops": 43,
+      "quotes": 4,
+      "file": "richard_lionheart.journey.json"
+    },
+    {
       "slug": "robert_oppenheimer",
       "traveler": "J. Robert Oppenheimer",
-      "title": "Now I Am Become Death — New York to Princeton, the fire and the ruin of the atomic prometheus",
+      "title": "Now I Am Become Death: New York to Princeton, the fire and the ruin of the atomic prometheus",
       "years": "1904-1967",
       "calendar": "gregorian",
       "segments": 9,
@@ -639,9 +1332,42 @@
       "file": "robert_oppenheimer.journey.json"
     },
     {
+      "slug": "roger_bacon",
+      "traveler": "Roger Bacon",
+      "title": "Ilchester to Oxford's Grave: the Doctor Mirabilis and the Arabic Sciences",
+      "years": "c.1214-1292",
+      "calendar": "julian",
+      "segments": 9,
+      "stops": 35,
+      "quotes": 9,
+      "file": "roger_bacon.journey.json"
+    },
+    {
+      "slug": "rumi",
+      "traveler": "Jalal al-Din Rumi (Mowlana Jalaluddin Muhammad Balkhi)",
+      "title": "Balkh to Konya: the Sun of Tabriz and the Turning",
+      "years": "1207-1273",
+      "calendar": "julian",
+      "segments": 8,
+      "stops": 41,
+      "quotes": 13,
+      "file": "rumi.journey.json"
+    },
+    {
+      "slug": "saint_barbara",
+      "traveler": "Saint Barbara of Heliopolis (Bárbara)",
+      "title": "The Tower with Three Windows: Heliopolis to the Fairy Tree",
+      "years": "c. 287-306 AD (coda to 1893)",
+      "calendar": "julian",
+      "segments": 7,
+      "stops": 34,
+      "quotes": 6,
+      "file": "saint_barbara.journey.json"
+    },
+    {
       "slug": "saint_francis",
       "traveler": "Francis of Assisi (Francesco di Pietro di Bernardone)",
-      "title": "The Life of Saint Francis — from the Stall of Assisi to Sister Death",
+      "title": "The Life of Saint Francis: from the Stall of Assisi to Sister Death",
       "years": "1181/82-1226",
       "calendar": "julian",
       "segments": 7,
@@ -652,7 +1378,7 @@
     {
       "slug": "salomon_oppenheim",
       "traveler": "Salomon Oppenheim jr.",
-      "title": "Vom Bonner Judengasse zum Rheinischen Bankhaus — Bonn to Cologne",
+      "title": "Vom Bonner Judengasse zum Rheinischen Bankhaus: Bonn to Cologne",
       "years": "1772-1828",
       "calendar": "gregorian",
       "segments": 8,
@@ -674,13 +1400,24 @@
     {
       "slug": "san_martin",
       "traveler": "José de San Martín",
-      "title": "De Yapeyú a Boulogne-sur-Mer — the Road of the Liberator",
+      "title": "De Yapeyú a Boulogne-sur-Mer: the Road of the Liberator",
       "years": "1778-1850",
       "calendar": "gregorian",
       "segments": 8,
       "stops": 67,
       "quotes": 20,
       "file": "san_martin.journey.json"
+    },
+    {
+      "slug": "sarmiento",
+      "traveler": "Domingo Faustino Sarmiento",
+      "title": "San Juan to Asunción: the Pampa Read as Desert, and the Schoolhouse Brought Home",
+      "years": "1811-1888",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 45,
+      "quotes": 16,
+      "file": "sarmiento.journey.json"
     },
     {
       "slug": "savitri_devi",
@@ -707,7 +1444,7 @@
     {
       "slug": "schiller",
       "traveler": "Friedrich Schiller (Johann Christoph Friedrich Schiller)",
-      "title": "The Journey of Schiller — Marbach to Weimar, the Deserter-Poet's Road",
+      "title": "The Journey of Schiller: Marbach to Weimar, the Deserter-Poet's Road",
       "years": "1759-1805",
       "calendar": "gregorian",
       "segments": 8,
@@ -729,13 +1466,24 @@
     {
       "slug": "sheba",
       "traveler": "The Queen of Sheba (Makeda / Bilqis)",
-      "title": "The Journey of the Queen of the South — Sheba to Jerusalem and Home",
+      "title": "The Journey of the Queen of the South: Sheba to Jerusalem and Home",
       "years": "c. 966 BC (traditional)",
       "calendar": "julian_bce",
       "segments": 8,
       "stops": 26,
       "quotes": 21,
       "file": "sheba.journey.json"
+    },
+    {
+      "slug": "silvina_ocampo",
+      "traveler": "Silvina Ocampo",
+      "title": "Viamonte 550 to Cornelia's Mirror: the Uncanny Life of Silvina Ocampo",
+      "years": "1903-1993",
+      "calendar": "gregorian",
+      "segments": 7,
+      "stops": 33,
+      "quotes": 6,
+      "file": "silvina_ocampo.journey.json"
     },
     {
       "slug": "solomon",
@@ -751,7 +1499,7 @@
     {
       "slug": "spinetta",
       "traveler": "Luis Alberto Spinetta",
-      "title": "El Flaco — Belgrano to the Río de la Plata, the Journey of the Poet of Argentine Rock",
+      "title": "El Flaco: Belgrano to the Río de la Plata, the Journey of the Poet of Argentine Rock",
       "years": "1950-2012",
       "calendar": "gregorian",
       "segments": 8,
@@ -762,7 +1510,7 @@
     {
       "slug": "stebbins",
       "traveler": "Geneviève Stebbins",
-      "title": "The American Station of the Notated Body — San Francisco to Monterey",
+      "title": "The American Station of the Notated Body: San Francisco to Monterey",
       "years": "1857-1934",
       "calendar": "gregorian",
       "segments": 8,
@@ -773,7 +1521,7 @@
     {
       "slug": "steiner",
       "traveler": "Rudolf Steiner",
-      "title": "Kraljevec to Dornach — the Path of the Goethean Seer",
+      "title": "Kraljevec to Dornach: the Path of the Goethean Seer",
       "years": "1861-1925",
       "calendar": "gregorian",
       "segments": 8,
@@ -782,9 +1530,31 @@
       "file": "steiner.journey.json"
     },
     {
+      "slug": "sucre",
+      "traveler": "Antonio José de Sucre",
+      "title": "El Gran Mariscal: Cumaná to Berruecos, the Keystone of the Libertador Constellation",
+      "years": "1795-1830",
+      "calendar": "gregorian",
+      "segments": 8,
+      "stops": 38,
+      "quotes": 9,
+      "file": "sucre.journey.json"
+    },
+    {
+      "slug": "suzanne_perrottet",
+      "traveler": "Suzanne Perrottet",
+      "title": "Rolle to Zurich: the Rhythm that Left Dalcroze for Laban",
+      "years": "1889-1983",
+      "calendar": "gregorian",
+      "segments": 8,
+      "stops": 40,
+      "quotes": 3,
+      "file": "suzanne_perrottet.journey.json"
+    },
+    {
       "slug": "symmes",
       "traveler": "John Cleves Symmes Jr.",
-      "title": "The Prophet of the Hollow Earth — the Journey to the Verges of the Pole",
+      "title": "The Prophet of the Hollow Earth: the Journey to the Verges of the Pole",
       "years": "1780-1829",
       "calendar": "gregorian",
       "segments": 7,
@@ -806,7 +1576,7 @@
     {
       "slug": "ulysses",
       "traveler": "Odysseus (Ulysses)",
-      "title": "The Homeward Voyage — the Nostos from Troy to Ithaca",
+      "title": "The Homeward Voyage: the Nostos from Troy to Ithaca",
       "years": "c. 1184–1174 BC",
       "calendar": "julian_bce",
       "segments": 9,
@@ -826,15 +1596,81 @@
       "file": "valientes.journey.json"
     },
     {
+      "slug": "vera_skoronel",
+      "traveler": "Vera Skoronel (Vera Lämmel)",
+      "title": "Vera skoro! Zurich to Berlin, the Fast Short Life of the Abstract Dance",
+      "years": "1906-1932",
+      "calendar": "gregorian",
+      "segments": 7,
+      "stops": 34,
+      "quotes": 2,
+      "file": "vera_skoronel.journey.json"
+    },
+    {
+      "slug": "vico",
+      "traveler": "Giambattista Vico",
+      "title": "The New Science of Naples: the Ladder, the Chair, and the Nations",
+      "years": "1668-1744",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 40,
+      "quotes": 3,
+      "file": "vico.journey.json"
+    },
+    {
+      "slug": "victoria_ocampo",
+      "traveler": "Victoria Ocampo (Ramona Victoria Epifanía Rufina Ocampo)",
+      "title": "The House on the River: Sur, Villa Ocampo, and the Bridge Between Worlds",
+      "years": "1890-1979",
+      "calendar": "gregorian",
+      "segments": 9,
+      "stops": 41,
+      "quotes": 8,
+      "file": "victoria_ocampo.journey.json"
+    },
+    {
+      "slug": "william_blake",
+      "traveler": "William Blake",
+      "title": "Broad Street to Bunhill Fields: the Visions of Albion",
+      "years": "1757-1827",
+      "calendar": "gregorian",
+      "segments": 7,
+      "stops": 38,
+      "quotes": 13,
+      "file": "william_blake.journey.json"
+    },
+    {
       "slug": "william_morris",
       "traveler": "William Morris",
-      "title": "The Well at the World's End — Walthamstow to Kelmscott",
+      "title": "The Well at the World's End: Walthamstow to Kelmscott",
       "years": "1834–1896",
       "calendar": "gregorian",
       "segments": 7,
       "stops": 33,
       "quotes": 30,
       "file": "william_morris.journey.json"
+    },
+    {
+      "slug": "yolande_aragon",
+      "traveler": "Yolande of Aragon",
+      "title": "Zaragoza to Saumur: the Queen of Four Kingdoms and the Making of a King",
+      "years": "1381-1442",
+      "calendar": "julian",
+      "segments": 8,
+      "stops": 35,
+      "quotes": 1,
+      "file": "yolande_aragon.journey.json"
+    },
+    {
+      "slug": "ziryab",
+      "traveler": "Ziryab (Abu al-Hasan 'Ali ibn Nafi')",
+      "title": "Baghdad to Córdoba: the Oud, the School, and a Civilization of Taste",
+      "years": "c. 789-857",
+      "calendar": "julian",
+      "segments": 9,
+      "stops": 35,
+      "quotes": 5,
+      "file": "ziryab.journey.json"
     },
     {
       "slug": "zoroaster",

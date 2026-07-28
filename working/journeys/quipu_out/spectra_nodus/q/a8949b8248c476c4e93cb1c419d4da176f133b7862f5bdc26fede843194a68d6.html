@@ -1,0 +1,408 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Shiva, lord of the ganas</title><style>
+:root{--bg:#0d0d0f;--ink:#e7e3d8;--muted:#8a8f99;--line:#23232a;--tone:#6b7280;--link:#6faed9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font:16px/1.6 ui-serif,Georgia,'Times New Roman',serif}
+header{display:flex;align-items:baseline;gap:.8rem;padding:1rem 1.4rem;
+ border-bottom:1px solid var(--line)}
+.brand{font:700 1.2rem ui-monospace,Menlo,monospace;color:var(--ink);
+ text-decoration:none;letter-spacing:.04em}
+.sub{color:var(--muted);font-size:.85rem}
+main{max-width:880px;margin:0 auto;padding:1.6rem 1.4rem 4rem}
+.muted{color:var(--muted)} .err{color:#e03131;font-size:.85rem}
+.lead h1{font:600 2rem ui-serif,Georgia,serif;margin:.2rem 0}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));
+ gap:.9rem;margin-top:1.4rem}
+.card{display:flex;flex-direction:column;gap:.35rem;padding:.9rem 1rem;
+ text-decoration:none;color:var(--ink);background:#131319;border:1px solid var(--line);
+ border-left:3px solid var(--tone);border-radius:6px;transition:.12s}
+.card:hover{background:#17171f;transform:translateY(-1px)}
+.c-type{font:600 .7rem ui-monospace,monospace;color:var(--tone);
+ text-transform:uppercase;letter-spacing:.08em}
+.c-title{font-size:1rem;line-height:1.3}
+.c-tone{font-size:.75rem;color:var(--muted);margin-top:auto}
+.quipu{border-left:3px solid var(--tone);padding-left:1.2rem}
+.scene3d{margin:1rem 0}
+.scene3d .s3-stage{position:relative;height:68vh;min-height:420px;border:1px solid var(--line);
+ border-radius:6px;overflow:hidden;background:#000}
+.scene3d canvas{display:block}
+.s3-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+ background:rgba(10,10,12,.55);color:#e7e3d8;font:600 .95rem ui-monospace,Menlo,monospace;
+ cursor:pointer;z-index:2;text-align:center;padding:1rem;transition:opacity .3s}
+.s3-hint.hide{opacity:0;pointer-events:none}
+.s3-hint.soft{background:transparent;pointer-events:none;align-items:flex-end;
+ justify-content:flex-start;color:#8a8f99}
+.s3-plaque{position:absolute;top:.7rem;left:50%;transform:translateX(-50%);
+ background:rgba(12,12,16,.78);border:1px solid var(--line);color:#e7e3d8;
+ padding:.35rem .8rem;border-radius:6px;font:.8rem ui-monospace,Menlo,monospace;
+ opacity:0;transition:opacity .25s;z-index:3;max-width:80%}
+.s3-plaque.show{opacity:1}
+.s3-dossier{margin-top:.6rem;border:1px solid var(--line);border-radius:6px;
+ padding:.85rem 1.1rem;background:#131319;overflow:auto}
+.s3-dossier:empty{display:none}
+.s3d-head{display:flex;align-items:baseline;gap:.7rem;flex-wrap:wrap;margin-bottom:.3rem}
+.s3d-name{font:600 1.05rem ui-serif,Georgia,serif;color:#e7e3d8}
+.s3d-date{font:.74rem ui-monospace,Menlo,monospace;color:var(--muted)}
+.s3d-tag{font:.66rem ui-monospace,Menlo,monospace;color:var(--muted);opacity:.75;margin-left:auto}
+.s3d-imgwrap{float:right;margin:.2rem 0 .5rem .9rem;max-width:220px}
+.s3d-img{max-width:220px;max-height:200px;border-radius:4px;display:block}
+.s3d-key{font:600 .62rem ui-monospace,Menlo,monospace;color:#8a8f99;
+ text-transform:uppercase;letter-spacing:.08em;margin-top:.5rem}
+.s3d-text{font:.9rem/1.6 ui-serif,Georgia,serif;color:#d9d5ca;margin:.15rem 0}
+blockquote.s3d-text{border-left:2px solid var(--line);padding-left:.6rem;
+ margin:.15rem 0;font-style:italic}
+.s3d-link{display:inline-block;font:.75rem ui-monospace,Menlo,monospace;
+ color:var(--link);margin:.45rem .7rem 0 0;text-decoration:none}
+.scene3d figcaption{color:var(--muted);font-size:.85rem;margin-top:.5rem}
+.corrected-h{font:600 1.25rem ui-serif,Georgia,serif;margin:2rem 0 .6rem;
+ padding-top:1.2rem;border-top:1px solid var(--line)}
+.q-head h1{font:600 2rem ui-serif,Georgia,serif;margin:.2rem 0}
+.q-prov{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .9rem;
+ margin:-1rem 0 1.4rem}
+.q-block{font:600 .72rem ui-monospace,Menlo,monospace;color:var(--muted)}
+.q-txid{font:.68rem/1.4 ui-monospace,Menlo,monospace;color:var(--muted);opacity:.6;
+ word-break:break-all}
+.q-meta{display:flex;gap:.5rem;flex-wrap:wrap;margin:.4rem 0 1.4rem}
+.pill{font:600 .72rem ui-monospace,monospace;padding:.2rem .55rem;border-radius:999px;
+ border:1px solid var(--line)}
+.pill.type{color:var(--tone);border-color:var(--tone)}
+.pill.tone{color:var(--muted)}
+.edition{font:600 .72rem ui-monospace,monospace;padding:.2rem .55rem;border-radius:999px}
+.edition.current{color:#12b886;border:1px solid #12b886}
+.edition.superseded{color:var(--muted);border:1px solid var(--line)}
+.text{white-space:pre-wrap;font:1.05rem/1.7 ui-serif,Georgia,serif;margin:0}
+.essay :is(h1,h2,h3){font-family:ui-serif,Georgia,serif}
+.essay img,.image img,.celestial img{max-width:100%;border-radius:6px}
+.essay a{color:var(--link)} .essay a:hover{color:#8fc7e8}
+.image{margin:0;image-rendering:pixelated}
+.image figcaption,.celestial figcaption{color:var(--muted);font-size:.8rem;margin-top:.4rem}
+.latex pre,.raw pre{white-space:pre-wrap;word-break:break-word;background:#131319;
+ border:1px solid var(--line);border-radius:6px;padding:1rem;font:.85rem ui-monospace,monospace}
+.tag{color:var(--muted);font-size:.78rem}
+.book-toc{border:1px solid var(--line);border-radius:6px;padding:.8rem 1rem;margin-bottom:1.8rem;background:#131319}
+.book-toc-h{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:.4rem}
+.book-toc ol{margin:0;padding-left:1.3rem} .book-toc li{margin:.25rem 0} .book-toc a{color:var(--link)}
+.chapter-sec{margin-top:2rem} .book .chapter-sec:first-of-type{margin-top:0}
+h2.chapter{font-size:1.5rem;border-top:1px solid var(--line);padding-top:1.2rem;margin-top:2.6rem}
+.book .chapter-sec:first-of-type h2.chapter{border-top:none;padding-top:0;margin-top:0}
+.chapter-src{margin-top:1.1rem;font-size:.8rem} .chapter-src a{color:var(--link)}
+.sealed{text-align:center;padding:2rem;background:#131319;border:1px dashed var(--line);border-radius:8px}
+.sealed .lock{font-size:2rem}
+.meta{width:100%;border-collapse:collapse;font:.85rem ui-monospace,monospace;margin-top:.6rem}
+.meta td{border-top:1px solid var(--line);padding:.35rem .5rem;vertical-align:top}
+.meta td:first-child{color:var(--muted);width:30%}
+.sky{width:100%;background:#07070c;border-radius:6px;display:block}
+.sky .cl line{stroke:#39508f;stroke-width:.7;opacity:.7}
+.sky .st circle{fill:#e7e3d8}
+.sky .lb text{fill:#7a8194;font:8px ui-monospace,monospace}
+.hdr{margin:.2rem 0 1.4rem;font:.82rem ui-monospace,monospace}
+.hdr summary{cursor:pointer;color:var(--muted);letter-spacing:.04em}
+.hdr table{border-collapse:collapse;margin-top:.5rem}
+.hdr td{border-top:1px solid var(--line);padding:.25rem 1rem .25rem 0}
+.hdr td:first-child{color:var(--muted)}
+.binding pre{white-space:pre-wrap;background:#131319;border:1px solid var(--line);
+ border-radius:6px;padding:1rem;font:.85rem/1.55 ui-monospace,monospace}
+.binding a{color:var(--tone)} .binding b{color:var(--ink);font-weight:600}
+.binding .ext{color:var(--muted);border-bottom:1px dotted var(--muted);cursor:help}
+.repub{font-size:.82rem;color:var(--muted);border-left:2px solid var(--tone);
+ padding:.35rem .7rem;margin:0 0 1.4rem;background:rgba(255,255,255,.02)}
+.repub a{color:var(--tone)}
+.qimg{display:inline-block;line-height:0} .qimg img{cursor:zoom-in}
+.qimg:hover img{outline:2px solid var(--tone);outline-offset:2px}
+.qlink{color:var(--link)}
+.genealogy-tree{margin:0 0 1.6rem;text-align:center}
+.genealogy-tree svg{max-width:100%;height:auto;background:#faf7ef;border-radius:6px;
+ box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.house-roster{list-style:none;padding:0;margin:1.4rem 0;display:grid;gap:.85rem}
+.house-roster li{border-left:2px solid var(--line);padding:.1rem 0 .2rem .9rem;overflow:hidden}
+.hr-name{font-weight:600;color:var(--ink)}
+.hr-dates{color:var(--muted);font-size:.85rem;margin-left:.5rem}
+.hr-note{display:block;color:#bdb8aa;font-size:.92rem;margin-top:.15rem}
+.hr-ref{color:var(--link);font-size:.78rem;margin-left:.4rem}
+.hr-portrait{float:right;width:78px;margin:0 0 .4rem .9rem}
+.hr-portrait img{width:78px;border-radius:4px;display:block}
+.earth-map{display:flex;gap:1.3rem;flex-wrap:wrap;align-items:flex-start;margin:1rem 0}
+.earth-fig{flex:1 1 460px;min-width:0;margin:0;background:#aacbe6;border-radius:6px;
+ box-shadow:0 1px 16px rgba(0,0,0,.45);overflow:hidden}
+.earth{display:block;width:100%;height:auto}
+.earth .sea{fill:#aacbe6}
+.earth .land{fill:#efe6d2;stroke:#b89f6a;stroke-width:.5;stroke-linejoin:round}
+.earth .lake{fill:#aacbe6;stroke:#7ba3c9;stroke-width:.45}
+.earth .route line{stroke:#c83727;stroke-width:1.7;opacity:.95;stroke-linecap:round}
+.earth .wps circle{fill:#e8b73a;stroke:#5a3a12;stroke-width:.8;cursor:pointer}
+.earth .wp:hover circle,.earth .wp.on circle{fill:#fff;r:5.5}
+.ej-panel{flex:1 1 250px;position:sticky;top:1rem;border-left:2px solid var(--line);
+ padding:.1rem 0 .4rem 1rem;min-height:5rem}
+.ej-panel h3{margin:.1rem 0 .4rem;font-size:1.05rem;font-weight:600}
+.ej-panel h3 span{color:var(--muted);font-weight:400;font-size:.82rem;font-style:italic}
+.ej-panel p{margin:.4rem 0;font-size:.93rem;line-height:1.55}
+.ej-panel blockquote{border-left:2px solid var(--tone);margin:.6rem 0;padding-left:.8rem;
+ color:#c9c3b4;font-style:italic}
+.ej-ref{margin:.8rem 0}
+.ej-ref img{display:block;width:100%;border-radius:4px}
+.ej-ref blockquote{border-left:2px solid var(--tone);margin:0 0 .3rem;padding-left:.8rem;
+ color:#c9c3b4;font-style:italic;font-size:.9rem;line-height:1.5}
+.ej-ref figcaption{font-size:.78rem;color:var(--muted)} .ej-ref figcaption a{color:var(--link)}
+.ej-refs{font-size:.85rem;margin-top:.6rem!important;line-height:1.7}
+.ej-refs a{color:var(--link)} .ej-refs span{color:var(--muted)}
+.ej-hint{color:var(--muted);font-style:italic}
+.cert{border:1px solid var(--line);border-radius:10px;padding:1.6rem 1.9rem;
+ background:linear-gradient(180deg,rgba(255,255,255,.035),transparent)}
+.cert-seal{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--tone);margin-bottom:1rem}
+.cert-meta{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 1rem}
+.cert .chip{font:11px ui-monospace,monospace;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:.1rem .45rem}
+.cert-title{font-family:Georgia,serif;font-size:1.7rem;line-height:1.15;margin:.2rem 0 .15rem}
+.cert-artist{font-style:italic;color:var(--muted);margin:0 0 1.2rem}
+.cert-image{margin:1.3rem 0} .cert-image img{max-width:100%;border-radius:4px}
+.cert-text{line-height:1.75}
+.cert-authority{font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);margin-top:1.5rem;padding-top:.8rem}
+.cert-authority a{color:var(--tone)}
+.cert-sigs{border-top:1px solid var(--line);margin-top:1rem;padding-top:.7rem}
+.cert-sigs-h{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.3rem}
+.cert-sig{font-size:.8rem;color:var(--muted);margin:.2rem 0}
+.cert-extra{font-size:.85rem;color:var(--muted)}
+.latex-fig{margin:1.6rem 0;text-align:center}
+.latex-fig svg{display:block;margin:0 auto;width:100%;max-width:340px;height:auto;
+ border-radius:4px;box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.latex-src{margin:.5rem auto 0;max-width:340px;font-size:.8rem}
+.latex-src summary{cursor:pointer;color:var(--muted);letter-spacing:.03em}
+.latex-src pre{white-space:pre-wrap;background:#131319;border:1px solid var(--line);
+ border-radius:6px;padding:.8rem;font:.78rem/1.5 ui-monospace,monospace;margin-top:.4rem}
+.essay-cols{display:flex;flex-direction:column}      /* narrow: prose, then plates */
+.marginplate{margin:1.3rem auto}
+.marginplate svg,.marginplate img{display:block;width:100%;max-width:340px;height:auto;
+ margin:0 auto;border-radius:4px;box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.marginplate figcaption{font-size:.72rem;color:var(--muted);text-align:center;
+ margin-top:.35rem;letter-spacing:.04em;font-style:italic}
+@media(min-width:700px){            /* prose | stacked margin column */
+  main.wide{max-width:1180px}
+  .essay-cols{flex-direction:row;gap:1.6rem;align-items:flex-start}
+  .essay-cols .prose{flex:1 1 0;min-width:0}
+  .essay-cols .plates{flex:0 0 236px}
+  .plates .marginplate{margin:0 0 1.2rem}          /* just stack, little spacing */
+}
+@media(min-width:1040px){           /* roomier window → wider plates */
+  .essay-cols .plates{flex:0 0 300px}
+}
+</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body)"></script></head><body><header><a class="brand" href="../index.html">spectra</a><span class="sub">the lens &middot; Colegio Invisible</span></header><main><article class="quipu" style="--tone:#6741d9"><div class="q-head"><h1>Shiva, lord of the ganas</h1><div class="q-meta"><span class="pill type">latex</span><span class="pill tone" title="the dead, ancestors">reverence</span></div><div class="q-prov"><span class="q-txid" title="root txid">a8949b8248c476c4e93cb1c419d4da176f133b7862f5bdc26fede843194a68d6</span></div></div><details class="hdr"><summary>header</summary><table><tr><td>magic</td><td>c1dd</td></tr><tr><td>version</td><td>1</td></tr><tr><td>type</td><td>latex (0x5c)</td></tr><tr><td>tone</td><td>reverence (0xff)</td></tr><tr><td>engine</td><td>xelatex</td></tr><tr><td>raw</td><td>c1dd00015cff7c53686976612c206c6f7264206f66207468652067616e61737c656e67696e653d78656c617465787c61…</td></tr></table></details><div class="q-body"><figure class="latex-fig"><svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 221.1 878.74'>
+<defs>
+<clipPath id='cp0'>
+<path d='M119.338408 151.6501C119.338408 147.57965 116.038798 144.28005 111.968398 144.28005C107.898028 144.28005 104.598408 147.57965 104.598408 151.6501C104.598408 155.72045 107.898028 159.0201 111.968398 159.0201C116.038798 159.0201 119.338408 155.72045 119.338408 151.6501Z'/>
+</clipPath>
+<font id='WVDQTG-LMMono8-Regular' horiz-adv-x='0'>
+<font-face font-family='WVDQTG-LMMono8-Regular' units-per-em='1000' ascent='1014' descent='320'/>
+<glyph unicode='c' horiz-adv-x='531' vert-adv-y='531' d='M470 108C470 130 453 139 432 139C418 139 404 139 395 116C377 72 337 61 301 61C218 61 148 129 148 216C148 267 180 373 307 373C336 373 353 371 358 370C361 369 362 368 362 359C364 330 385 313 410 313C440 313 459 335 459 362C459 439 355 439 309 439C131 439 72 301 72 216C72 96 168-5 296-5C438-5 470 91 470 108Z'/>
+<glyph unicode='d' horiz-adv-x='531' vert-adv-y='531' d='M519 33C519 66 492 66 476 66H435V568C435 602 425 611 392 611H318C302 611 275 611 275 578S302 545 318 545H359V395C313 431 271 436 244 436C133 436 34 342 34 215C34 93 125-5 235-5C288-5 330 19 359 47C359 19 359 0 402 0H476C492 0 519 0 519 33ZM359 197C359 140 313 61 238 61C171 61 110 127 110 215C110 304 176 370 249 370C308 370 359 319 359 264V197Z'/>
+<glyph unicode='1' horiz-adv-x='531' vert-adv-y='531' d='M451 33C451 66 421 66 407 66H318V578C318 593 318 621 285 621C264 621 258 608 253 598C209 505 163 501 132 499C118 498 103 486 103 466C103 454 109 433 139 433C187 433 229 462 242 473V66H153C138 66 109 66 109 33S139 0 153 0H407C422 0 451 0 451 33Z'/>
+<glyph unicode='0' horiz-adv-x='531' vert-adv-y='531' d='M482 305C482 490 378 621 265 621C151 621 48 488 48 306C48 121 152-10 265-10C379-10 482 123 482 305ZM406 316C406 172 342 56 265 56C187 56 124 172 124 316C124 458 192 555 265 555S406 459 406 316Z'/>
+</font>
+<font id='WLJFLT-HoeflerText-Italic' horiz-adv-x='-841'>
+<font-face font-family='WLJFLT-HoeflerText-Italic' units-per-em='2000' ascent='1442' descent='558'/>
+<glyph unicode=',' horiz-adv-x='456' vert-adv-y='456' d='M277 46Q277-40 228-123Q179-207 90-277Q1-348-31-348Q-55-348-55-316Q-55-308-13-279Q83-213 120-159Q157-106 157-48Q157-38 149-38L138-40Q127-44 119-44Q84-44 62-21Q41 1 41 34Q41 87 82 127Q124 168 177 168Q223 168 250 134Q277 101 277 46Z'/>
+<glyph unicode='E' horiz-adv-x='1246' vert-adv-y='1246' d='M1228 1379Q1220 1291 1220 1201Q1220 1182 1221 1127T1222 1053Q1222 1037 1194 1037Q1169 1037 1167 1054Q1155 1190 1095 1246Q1035 1303 905 1303H769Q652 1303 623 1183L517 738H763Q865 738 909 779Q953 821 991 929Q997 945 1020 945Q1048 945 1048 932Q1048 923 1018 813Q988 707 964 586Q953 525 945 491Q938 458 933 442Q929 426 907 426Q877 426 878 442Q884 498 884 536Q884 613 855 643Q827 674 747 674H503L393 212Q381 160 381 144Q381 64 475 64H719Q845 64 950 144Q1056 225 1094 352Q1094 360 1110 360Q1125 360 1137 352Q1150 344 1149 334Q1094 155 1060-12Q695 0 503 0T-55-12Q-67-12-67 6Q-67 19-59 30Q-52 42-43 43Q37 52 81 67Q126 82 148 107Q170 133 189 212L413 1153Q423 1197 423 1221Q423 1267 383 1289Q344 1311 245 1323Q235 1323 235 1339Q235 1353 242 1366Q250 1379 259 1379Q467 1367 745 1367Q1020 1367 1228 1379Z'/>
+<glyph unicode='G' horiz-adv-x='1494' vert-adv-y='1494' d='M1511 612Q1511 599 1503 587Q1496 575 1487 574Q1364 560 1324 527T1263 406L1227 258Q1198 129 1198 68Q1198 55 1199 46Q1060-6 945-25T678-44Q424-44 267 104Q110 253 110 494Q110 743 245 955T615 1288T1129 1409Q1303 1409 1403 1389Q1387 1270 1373 1023Q1373 1005 1345 1005T1317 1023Q1317 1329 1029 1329Q844 1329 676 1201Q508 1074 412 859T316 390Q316 226 422 123Q529 20 706 20Q966 20 999 152L1063 428Q1069 449 1069 466Q1069 514 1020 538Q971 563 840 575Q830 576 830 592Q830 606 837 618T854 630Q921 630 1026 625Q1126 620 1187 620T1339 625Q1434 630 1501 630Q1511 630 1511 612Z'/>
+<glyph unicode='K' horiz-adv-x='1432' vert-adv-y='1432' d='M1530 1359Q1530 1323 1510 1323Q1418 1313 1363 1291T1230 1203L699 746L1072 172Q1143 51 1350 8Q1364 5 1364-12Q1364-49 1336-49Q1143-12 950-12L607 550Q567 611 548 626Q529 642 495 642L391 212Q381 169 381 144Q381 99 420 77Q460 55 559 43Q569 41 569 26T561 0Q554-12 545-12Q475-12 374-6Q289 0 239 0T102-6Q5-12-57-12Q-67-12-67 6Q-67 19-59 30Q-52 42-43 43Q35 52 79 67Q124 82 146 107Q169 133 189 212L413 1153Q423 1197 423 1221Q423 1266 383 1288Q344 1311 245 1323Q235 1323 235 1339Q235 1354 242 1366Q249 1379 259 1379Q328 1379 428 1373Q513 1367 565 1367Q615 1367 702 1373Q798 1379 861 1379Q871 1379 871 1359Q871 1347 863 1335T847 1323Q766 1314 721 1298Q677 1283 655 1258T615 1153L515 734Q557 734 582 744Q607 755 641 786L1096 1185Q1144 1230 1144 1261Q1144 1287 1118 1300Q1092 1314 1020 1323Q1008 1323 1008 1339Q1008 1354 1015 1366Q1022 1379 1030 1379Q1078 1379 1151 1373Q1228 1367 1282 1367T1415 1374Q1481 1379 1520 1379Q1530 1379 1530 1359Z'/>
+<glyph unicode='N' horiz-adv-x='1552' vert-adv-y='1552' d='M1690 1359Q1690 1346 1683 1334Q1677 1323 1668 1322Q1568 1311 1521 1275Q1474 1240 1458 1153L1232-24Q1229-44 1206-44Q1192-44 1176-28L469 1093L297 212Q289 182 289 159Q289 108 327 81T449 43Q459 42 459 26Q459 12 452 0T437-12Q394-12 314-6Q236 0 197 0Q156 0 73-6Q-1-12-35-12Q-47-12-47 6Q-47 19-39 30Q-32 42-23 43Q81 56 131 92Q182 129 203 212L407 1153Q415 1177 415 1203Q415 1255 368 1281Q322 1308 205 1323Q195 1323 195 1339Q195 1354 202 1366Q209 1379 219 1379Q249 1379 297 1375Q342 1371 367 1371Q395 1371 443 1375Q493 1379 523 1379L1218 302L1366 1153Q1370 1175 1370 1193Q1370 1250 1329 1280Q1288 1311 1196 1322Q1184 1324 1184 1339Q1184 1353 1192 1365T1208 1377Q1248 1377 1323 1372Q1402 1367 1448 1367Q1491 1367 1566 1372Q1638 1377 1680 1377Q1690 1377 1690 1359Z'/>
+<glyph unicode='S' horiz-adv-x='1050' vert-adv-y='1050' d='M997 1373Q989 1210 989 1117V1063Q989 1047 961 1047Q936 1047 934 1063Q921 1213 862 1279Q804 1345 686 1345Q480 1345 480 1121Q480 1043 518 969Q557 896 684 770Q824 632 867 545Q911 458 911 362Q911 183 778 69Q645-44 438-44Q350-44 230-11Q121 18 50 18Q68 261 70 358Q70 374 102 374Q123 374 126 358Q154 172 228 96T454 20Q577 20 648 94Q720 168 720 294Q720 370 678 444T501 647Q361 781 317 860Q274 939 274 1021Q274 1187 392 1298Q511 1409 698 1409Q767 1409 855 1391Q937 1373 997 1373Z'/>
+<glyph unicode='a' horiz-adv-x='928' vert-adv-y='928' d='M909 862L625 206Q595 138 595 108Q595 84 615 84Q644 84 745 205Q791 260 797 260Q809 260 819 248Q829 237 829 226Q829 212 756 130T617 2Q552-44 507-44Q407-44 407 50Q407 138 491 294Q418 158 296 57Q175-44 85-44Q34-44 4-5Q-25 34-25 102Q-25 233 85 402Q195 572 355 699T623 826Q676 826 709 804L733 862Q748 896 837 896Q910 896 910 868L909 862ZM661 704Q661 764 617 764Q532 764 422 669Q312 575 229 437Q147 299 147 208Q147 154 164 131T221 108Q272 108 378 224Q485 341 573 489T661 704Z'/>
+<glyph unicode='d' horiz-adv-x='956' vert-adv-y='956' d='M1116 1427Q1116 1412 1106 1375L697 248Q661 152 661 124Q661 92 681 92Q715 92 807 214Q842 260 847 260Q860 260 871 248Q883 237 883 226Q883 209 817 128Q752 47 690 1Q628-44 579-44Q471-44 471 68Q471 140 527 268Q449 134 341 45Q234-44 149-44Q80-44 36 11Q-7 66-7 156Q-7 298 91 467Q190 636 338 758Q487 880 597 880Q632 880 671 864Q711 848 729 824L841 1141Q863 1199 863 1231Q863 1270 777 1280Q759 1282 759 1305Q759 1329 775 1329Q838 1341 927 1373Q1016 1406 1062 1435Q1085 1449 1096 1449Q1116 1449 1116 1427ZM693 718Q693 816 597 816Q513 816 411 713Q310 610 241 460Q173 311 173 184Q173 90 237 90Q305 90 404 200Q504 311 598 483Q693 656 693 718Z'/>
+<glyph unicode='e' horiz-adv-x='708' vert-adv-y='708' d='M650 730Q650 593 514 483Q378 374 198 374Q192 314 192 266Q192 178 216 140Q241 102 298 102Q426 102 525 249L531 252Q539 252 548 241Q557 231 557 222Q557 201 496 122T367 0Q300-44 236-44Q138-44 75 31Q12 107 12 210Q12 354 87 511Q163 668 280 774Q398 880 498 880Q570 880 610 839Q650 799 650 730ZM508 696Q508 780 434 780Q362 780 299 682T210 438Q294 438 359 473Q425 509 466 575Q508 642 508 696Z'/>
+<glyph unicode='f' horiz-adv-x='630' vert-adv-y='630' d='M1002 1367Q1002 1325 971 1294Q941 1263 897 1263Q863 1263 813 1298Q762 1333 727 1333Q661 1333 619 1304T548 1208T472 926Q456 851 447 810H669Q680 810 683 804Q687 798 687 778T676 741Q666 724 655 724L429 728L263 40Q220-141 147-274Q75-408-19-484Q-114-560-201-560Q-272-560-322-524Q-373-489-373-442Q-373-356-287-356Q-251-356-200-401T-113-446Q-50-446-15-397Q19-348 53-186L243 704V711Q243 728 223 728H63Q45 728 45 754Q45 770 67 778Q273 802 277 840Q308 992 400 1144Q493 1297 610 1382T849 1467Q1002 1467 1002 1367Z'/>
+<glyph unicode='g' horiz-adv-x='830' vert-adv-y='830' d='M853 676L723 680Q727 644 727 624Q727 460 595 321T295 182Q261 182 241 170Q221 159 221 142T250 108T382 56Q585-13 656-71Q727-130 727-204Q727-291 661-376T487-510Q380-560 257-560Q68-560-49-491Q-167-423-167-316Q-167-245-80-167Q7-90 143-34Q33 23 33 70Q33 101 65 131Q97 162 189 208Q73 275 73 434Q73 602 201 741Q330 880 497 880Q625 880 687 778L884 784Q897 784 897 759Q897 729 882 702Q868 676 853 676ZM555 704Q555 814 475 814Q422 814 364 747Q307 680 274 576Q241 473 241 356Q241 307 262 276Q284 246 321 246Q415 246 485 381Q555 517 555 704ZM573-302Q573-235 495-181Q418-128 213-68Q126-94 48-166Q-29-239-29-308Q-29-496 259-496Q385-496 479-440Q573-385 573-302Z'/>
+<glyph unicode='h' horiz-adv-x='984' vert-adv-y='984' d='M896 684Q896 530 818 365Q741 201 617 78Q493-44 408-44Q362-44 328-17Q294 9 294 50T321 116Q348 142 392 142Q431 142 471 97Q494 72 506 72Q542 72 593 164Q644 257 675 384Q706 512 706 642Q706 693 687 723Q668 754 636 754Q569 754 464 648T270 377T124 14Q120 0 91-10Q63-20 34-20Q9-20-13-11Q-35-3-35 9L-34 14L320 1141Q338 1195 338 1231Q338 1270 250 1280Q232 1282 232 1305Q232 1329 246 1329Q310 1341 398 1374T530 1436Q550 1449 564 1449Q584 1449 584 1427Q584 1403 574 1375L316 558Q525 880 740 880Q805 880 850 824Q896 769 896 684Z'/>
+<glyph unicode='i' horiz-adv-x='572' vert-adv-y='572' d='M620 1255Q620 1209 587 1176T508 1143Q460 1143 427 1176T394 1255Q394 1302 427 1335Q460 1369 508 1369Q554 1369 587 1335Q620 1302 620 1255ZM502 796Q502 734 460 648L242 206Q208 138 208 108Q208 84 224 84Q257 84 360 203Q408 260 416 260Q429 260 438 248Q448 237 448 226Q448 212 370 130Q293 49 224 2Q156-44 110-44Q14-44 14 44Q14 95 58 190L276 630Q310 698 310 732Q310 752 292 752Q258 752 150 627Q106 576 100 576Q87 576 78 586Q70 597 70 610Q70 625 146 706Q223 787 292 833Q361 880 408 880Q502 880 502 796Z'/>
+<glyph unicode='k' horiz-adv-x='940' vert-adv-y='940' d='M872 684Q872 607 805 529Q739 452 632 409T396 366Q447 260 538 153T680 46Q728 46 728 94Q728 118 700 143L690 156Q690 170 699 180Q709 190 722 190Q746 190 773 154Q800 119 800 86Q800-44 630-44Q525-44 414 65T236 338L124 14Q120 0 92-10T36-20Q10-20-12-11Q-35-3-34 14L336 1141Q354 1195 354 1231Q354 1270 266 1280Q248 1282 248 1305Q248 1329 262 1329Q326 1341 414 1374T548 1436Q568 1449 582 1449Q602 1449 602 1427Q602 1403 592 1375L348 664Q450 786 527 833Q605 880 694 880Q774 880 823 825T872 684ZM698 658Q698 754 612 754Q557 754 484 705Q412 657 352 583Q292 510 292 472Q292 428 358 428Q698 428 698 658Z'/>
+<glyph unicode='l' horiz-adv-x='536' vert-adv-y='536' d='M669 1427Q669 1408 657 1375L221 248Q183 147 183 132Q183 102 205 102Q248 102 340 220Q379 270 387 270Q400 270 410 257Q420 245 420 235Q420 219 349 135Q279 52 213 4T101-44Q-5-44-5 62Q-5 112 23 190L387 1141Q409 1199 409 1231Q409 1270 325 1280Q309 1282 309 1305Q309 1329 325 1329Q389 1341 479 1374T615 1435Q638 1449 649 1449Q669 1449 669 1427Z'/>
+<glyph unicode='m' horiz-adv-x='1444' vert-adv-y='1444' d='M1378 752Q1378 700 1352 648L1134 206Q1098 134 1098 104Q1098 84 1118 84Q1150 84 1249 199Q1302 260 1310 260Q1323 260 1331 249Q1340 238 1340 226Q1340 212 1263 130Q1186 49 1118 2Q1050-44 1004-44Q907-44 907 40Q907 95 952 190L1168 630Q1190 671 1190 704Q1190 752 1136 752Q1088 752 1002 649Q916 547 689 192L609 22Q586-20 515-20Q430-20 430 12Q430 17 433 22L723 630Q743 670 743 700Q743 752 687 752Q630 752 542 649T233 192L155 22Q137-20 61-20Q-24-20-24 12Q-24 17-21 22L261 630Q293 706 293 728Q293 752 273 752Q238 752 134 626Q93 576 87 576Q74 576 64 587Q55 598 55 610Q55 625 129 706T270 833Q337 880 383 880Q483 880 483 790Q483 736 443 648L399 552Q483 697 593 788Q704 880 801 880Q863 880 896 844Q930 809 930 748Q930 699 907 648L867 566Q958 714 1058 797Q1159 880 1250 880Q1311 880 1344 845Q1378 810 1378 752Z'/>
+<glyph unicode='n' horiz-adv-x='960' vert-adv-y='960' d='M884 748Q884 681 842 582L684 206Q650 124 650 108Q650 84 668 84Q704 84 795 193Q836 242 844 242Q856 242 865 231T874 208Q874 191 804 116Q734 42 667-1T552-44Q509-44 483-24Q458-5 458 30Q458 87 502 190L664 576Q692 641 692 684Q692 740 646 740Q590 740 480 595Q371 450 236 204L170 14Q165 0 133-10T70-20Q41-20 17-11Q-7-3-7 9L-6 14L202 630Q228 699 228 728Q228 752 210 752Q178 752 97 647Q55 592 46 592Q33 592 23 603Q14 615 14 626Q14 640 80 716Q146 793 207 836Q269 880 314 880Q416 880 416 790Q416 735 386 648L326 478Q441 669 552 774Q664 880 756 880Q810 880 847 843T884 748Z'/>
+<glyph unicode='o' horiz-adv-x='834' vert-adv-y='834' d='M754 572Q754 429 679 284T485 47Q366-44 250-44Q152-44 82 43Q12 131 12 262Q12 405 86 550Q161 695 279 787Q398 880 514 880Q612 880 683 792T754 572ZM590 702Q590 767 573 790Q557 814 514 814Q447 814 363 704Q280 594 227 436Q174 279 174 134Q174 68 191 44T252 20Q318 20 401 129Q484 239 537 397T590 702Z'/>
+<glyph unicode='p' horiz-adv-x='918' vert-adv-y='918' d='M839 596Q839 453 761 301Q683 150 562 53T327-44Q232-44 183 42L57-330Q45-366 45-400Q45-429 68-446Q92-463 167-476Q177-476 177-492Q177-532 153-532Q-72-514-317-514Q-327-514-327-494Q-327-481-319-469Q-311-458-303-458Q-161-448-119-330L229 696Q171 669 101 629L96 628Q86 628 77 638Q69 649 69 661Q69 669 90 683Q112 697 133 710Q197 749 257 776L349 1049Q354 1063 386 1073T449 1083Q478 1083 502 1074Q527 1066 527 1049L461 858Q527 880 591 880Q706 880 772 804Q839 729 839 596ZM645 624Q645 778 523 778Q468 778 431 768L263 274Q233 187 233 124Q233 20 329 20Q405 20 480 107T600 333Q645 473 645 624Z'/>
+<glyph unicode='r' horiz-adv-x='764' vert-adv-y='764' d='M810 768Q810 718 782 688T714 658Q678 658 645 695Q617 726 592 726Q530 726 406 523Q283 320 152 14Q138-20 62-20Q36-20 14-11Q-7-3-7 9L-6 14L204 630Q230 708 230 728Q230 752 210 752Q178 752 96 644Q56 592 48 592Q34 592 24 603Q14 615 14 626Q14 640 80 716Q146 793 207 836Q269 880 314 880Q418 880 418 790Q418 740 386 648L348 540Q538 880 682 880Q738 880 774 849Q810 819 810 768Z'/>
+<glyph unicode='s' horiz-adv-x='592' vert-adv-y='592' d='M585 770Q585 682 517 682Q487 682 425 736Q365 788 339 788Q314 788 299 771Q285 754 285 728Q285 673 355 517Q431 347 431 282Q431 153 342 54Q254-44 117-44Q47-44-11-6Q-69 31-69 72Q-69 111-46 133Q-24 156 15 156Q47 156 86 105Q119 63 143 49Q168 36 199 36Q239 36 262 71Q285 107 285 170Q285 215 229 330Q147 497 147 594Q147 698 230 789Q314 880 423 880Q496 880 540 849Q585 818 585 770Z'/>
+<glyph unicode='t' horiz-adv-x='632' vert-adv-y='632' d='M666 802Q666 782 652 764Q639 746 626 746L424 752L236 206Q216 142 216 116Q216 84 238 84Q285 84 426 211Q479 260 486 260Q500 260 511 248Q522 237 522 226Q522 210 434 130Q346 51 267 3Q189-44 142-44Q32-44 32 68Q32 121 56 190L248 750L94 746Q74 746 74 778Q74 797 87 815Q101 834 114 834H276L350 1049Q355 1064 386 1073Q418 1083 450 1083Q478 1083 502 1074Q527 1066 527 1054L526 1049L452 834H644Q666 834 666 802Z'/>
+<glyph unicode='u' horiz-adv-x='980' vert-adv-y='980' d='M911 820L702 206Q676 128 676 108Q676 84 696 84Q728 84 810 190Q850 242 858 242Q871 242 881 231Q892 220 892 208Q892 193 826 117Q760 42 698-1Q637-44 592-44Q543-44 515-20Q488 3 488 44Q488 95 520 188L586 382Q466 179 352 67Q239-44 148-44Q94-44 58-7Q22 29 22 88Q22 152 62 254L222 630Q256 711 256 728Q256 752 238 752Q201 752 110 641Q69 592 62 592Q50 592 41 603T32 626Q32 644 101 718Q171 792 237 836Q304 880 352 880Q396 880 422 859Q448 839 448 804Q448 748 404 646L242 260Q214 195 214 150Q214 94 260 94Q316 94 423 232Q530 371 662 608L736 820Q741 835 772 845Q803 856 836 856Q864 856 888 847T911 820Z'/>
+<glyph unicode='v' horiz-adv-x='1084' vert-adv-y='1084' d='M1025 722Q1025 569 925 390T674 83Q523-44 408-44Q317-44 264 16Q212 76 212 176Q212 296 302 463Q393 631 504 730Q468 714 428 714Q398 714 344 730Q295 746 270 746Q206 746 170 723T134 662Q134 644 153 618Q180 582 180 548Q180 480 112 480Q76 480 51 509T26 588Q26 674 122 777T298 880Q341 880 406 862Q458 848 486 848Q521 848 568 860Q587 866 594 866Q607 866 617 855Q628 844 628 832Q628 809 569 731Q459 588 418 478Q378 368 378 250Q378 192 407 156T486 120Q592 120 679 184Q766 249 820 366T874 596Q874 665 844 723Q826 758 826 784Q826 826 853 853T925 880Q971 880 998 837T1025 722Z'/>
+<glyph unicode='ñ' horiz-adv-x='960' vert-adv-y='960' d='M884 748Q884 681 842 582L684 206Q650 124 650 108Q650 84 668 84Q704 84 795 193Q836 242 844 242Q856 242 865 231T874 208Q874 191 804 116Q734 42 667-1T552-44Q509-44 483-24Q458-5 458 30Q458 87 502 190L664 576Q692 641 692 684Q692 740 646 740Q590 740 480 595Q371 450 236 204L170 14Q165 0 133-10T70-20Q41-20 17-11Q-7-3-7 9L-6 14L202 630Q228 699 228 728Q228 752 210 752Q178 752 97 647Q55 592 46 592Q33 592 23 603Q14 615 14 626Q14 640 80 716Q146 793 207 836Q269 880 314 880Q416 880 416 790Q416 735 386 648L326 478Q441 669 552 774Q664 880 756 880Q810 880 847 843T884 748ZM676 1091H450Q387 1091 354 1071Q321 1052 281 980Q276 969 260 969Q226 969 226 989Q226 1003 256 1076Q287 1149 328 1181T428 1213H654Q722 1213 754 1230Q787 1248 814 1301Q820 1311 838 1311Q870 1311 870 1292Q870 1275 841 1211Q812 1148 772 1119Q733 1091 676 1091Z'/>
+</font>
+</defs>
+<style type='text/css'>
+<![CDATA[text.f0 {font-family:WLJFLT-HoeflerText-Italic;font-size:9.93px}
+text.f1 {font-family:WLJFLT-HoeflerText-Italic;font-size:6.95px}
+text.f2 {font-family:WLJFLT-HoeflerText-Italic;font-size:5.96px}
+text.f3 {font-family:WLJFLT-HoeflerText-Italic;font-size:5.56px}
+text.f4 {font-family:WVDQTG-LMMono8-Regular;font-size:4.98px}
+text.f5 {font-family:WLJFLT-HoeflerText-Italic;font-size:4.96px}
+]]>
+</style>
+<g id='page1'>
+<path d='M8.502318 870.2414V8.4986H212.599678V870.2414Z' fill='#f4ead8'/>
+<path d='M14.172028 864.57213V14.16787H206.929968V864.57213Z' stroke='#c2a76b' fill='none' stroke-width='1.7008' stroke-miterlimit='10'/>
+<path d='M18.423898 860.3203V18.4197H202.678098V860.3203Z' stroke='#c2a76b' fill='none' stroke-width='.42517' stroke-miterlimit='10'/>
+<text class='f0' x='38.568867' y='367.54026' transform='matrix(.999537 0 0 .999537 60.523 -325.456)'><tspan fill='#1a1a1a'>Shiva</tspan></text>
+<text class='f1' x='38.563207' y='367.486327' transform='matrix(.999683 0 0 .999683 50.614 -304.882)'><tspan fill='#1a1a1a'>lord</tspan><tspan fill='#1a1a1a' x='50.628405'>of</tspan><tspan fill='#1a1a1a' x='57.168355'>the</tspan><tspan fill='#1a1a1a' x='66.703755'>ganas</tspan></text>
+<path d='M48.188118 155.9019L96.377608 68.02661L138.897798 155.9019Z' fill='#9a9384'/>
+<path d='M99.212448 155.9019L138.897798 87.86972L172.913878 155.9019Z' fill='#9a9384'/>
+<path d='M96.377608 68.02661L83.621628 93.539H109.133598Z' fill='#f4ead8'/>
+<text class='f2' x='38.581425' y='367.659933' transform='matrix(.999211 0 0 .999211 118.04 -254.73099)'><tspan fill='#1a1a1a'>Kailasa</tspan></text>
+<path d='M72.282638 263.61988C62.361528 243.7772 158.740468 243.7772 148.819358 263.61988L136.062928 277.7933C121.889548 284.88 99.212448 284.88 85.039068 277.7933Z' fill='#3a6ea5'/>
+<path d='M92.976138 255.11576H128.125858L123.306948 198.42212H97.795048Z' fill='#3a6ea5'/>
+<path d='M124.724388 185.66616C124.724388 177.8383 118.378838 171.49276 110.550998 171.49276S96.377608 177.8383 96.377608 185.66616C96.377608 193.494 102.723158 199.83954 110.550998 199.83954S124.724388 193.494 124.724388 185.66616Z' fill='#3a6ea5'/>
+<path d='M110.550998 171.49276C102.046878 157.31933 119.055118 157.31933 110.550998 171.49276' fill='#3a6ea5'/>
+<path d='M107.149538 170.07531V154.4845H113.952458V170.07531Z' fill='#3a6ea5'/>
+<g clip-path='url(#cp0)'>
+<path d='M116.503588 151.6501C116.503588 147.57965 113.203968 144.28005 109.133598 144.28005C105.063198 144.28005 101.763588 147.57965 101.763588 151.6501C101.763588 155.72045 105.063198 159.0201 109.133598 159.0201C113.203968 159.0201 116.503588 155.72045 116.503588 151.6501Z' fill='#e8b73a'/>
+</g>
+<path d='M112.535468 182.8313C112.535468 181.7353 111.646998 180.8468 110.550998 180.8468S108.566528 181.7353 108.566528 182.8313S109.454998 184.81578 110.550998 184.81578S112.535468 183.9273 112.535468 182.8313Z' fill='#c83727'/>
+<path d='M106.724358 185.66616C106.724358 184.96167 106.153278 184.3906 105.448798 184.3906C104.744328 184.3906 104.173238 184.96167 104.173238 185.66616C104.173238 186.37062 104.744328 186.9417 105.448798 186.9417C106.153278 186.9417 106.724358 186.37062 106.724358 185.66616Z' fill='#1a1a1a'/>
+<path d='M116.928758 185.66616C116.928758 184.96167 116.357668 184.3906 115.653198 184.3906C114.948718 184.3906 114.377638 184.96167 114.377638 185.66616C114.377638 186.37062 114.948718 186.9417 115.653198 186.9417C116.357668 186.9417 116.928758 186.37062 116.928758 185.66616Z' fill='#1a1a1a'/>
+<path d='M97.795048 201.25698C85.039068 209.76068 85.039068 221.09966 96.377608 223.93408' stroke='#2a7a4d' fill='none' stroke-width='.99628' stroke-miterlimit='10'/>
+<path d='M98.928718 223.93408C98.928718 222.52513 97.786568 221.38298 96.377608 221.38298C94.968658 221.38298 93.826508 222.52513 93.826508 223.93408C93.826508 225.34304 94.968658 226.4852 96.377608 226.4852C97.786568 226.4852 98.928718 225.34304 98.928718 223.93408Z' fill='#2a7a4d'/>
+<text class='f2' x='38.581425' y='367.659933' transform='matrix(.999211 0 0 .999211 10.77 -169.683)'><tspan fill='#1a1a1a'>Shiva</tspan></text>
+<path d='M115.653198 153.06704C136.062928 175.7446 127.559238 212.59552 138.897798 252.2809C147.401918 291.96668 121.889548 325.98276 127.559238 365.66814C131.811098 391.18053 116.220268 399.68465 110.550998 413.85807' stroke='#8fc7e8' fill='none' stroke-width='1.39478' stroke-miterlimit='10'/>
+<text class='f2' x='38.581425' y='367.659933' transform='matrix(.999211 0 0 .999211 108.118 -68.465)'><tspan fill='#2b62a8'>Ganga</tspan></text>
+<path d='M45.353258 348.6603V172.9102' stroke='#c2a76b' fill='none' stroke-width='1.39478' stroke-miterlimit='10'/>
+<path d='M35.432148 184.24872V155.9019' stroke='#c2a76b' fill='none' stroke-width='1.39478' stroke-miterlimit='10'/>
+<path d='M45.353258 184.24872V147.3978' stroke='#c2a76b' fill='none' stroke-width='1.39478' stroke-miterlimit='10'/>
+<path d='M55.274818 184.24872V155.9019' stroke='#c2a76b' fill='none' stroke-width='1.39478' stroke-miterlimit='10'/>
+<path d='M35.432148 172.9102H55.274818' stroke='#c2a76b' fill='none' stroke-width='.99628' stroke-miterlimit='10'/>
+<path d='M38.266558 297.63596L52.439978 286.29741H38.266558L52.439978 297.63596Z' fill='#1a1a1a'/>
+<text class='f3' x='38.563485' y='367.488971' transform='matrix(.999676 0 0 .999676 -4.917 -19.585)'><tspan fill='#1a1a1a'>trishula</tspan></text>
+<path d='M110.550998 430.86588C110.550998 426.48232 97.859908 422.92882 82.204198 422.92882C66.548478 422.92882 53.857378 426.48232 53.857378 430.86588C53.857378 435.24946 66.548478 438.80294 82.204198 438.80294C97.859908 438.80294 110.550998 435.24946 110.550998 430.86588Z' fill='#9a9384'/>
+<path d='M110.550998 430.86588C110.550998 426.48232 97.859908 422.92882 82.204198 422.92882C66.548478 422.92882 53.857378 426.48232 53.857378 430.86588C53.857378 435.24946 66.548478 438.80294 82.204198 438.80294C97.859908 438.80294 110.550998 435.24946 110.550998 430.86588Z' stroke='#1a1a1a' fill='none' stroke-width='.29887' stroke-miterlimit='10'/>
+<path d='M96.377598 409.60578C96.377598 396.29834 90.032048 385.51082 82.204198 385.51082S68.030798 396.29834 68.030798 409.60578C68.030798 422.91321 74.376348 433.70073 82.204198 433.70073S96.377598 422.91321 96.377598 409.60578Z' fill='#c2a76b'/>
+<path d='M96.377598 409.60578C96.377598 396.29834 90.032048 385.51082 82.204198 385.51082S68.030798 396.29834 68.030798 409.60578C68.030798 422.91321 74.376348 433.70073 82.204198 433.70073S96.377598 422.91321 96.377598 409.60578Z' stroke='#1a1a1a' fill='none' stroke-width='.29887' stroke-miterlimit='10'/>
+<path d='M74.267138 386.92824C70.015278 399.68465 70.015278 399.68465 74.267138 413.85807' stroke='#8fc7e8' fill='none' stroke-width='.59776' stroke-miterlimit='10'/>
+<path d='M82.204198 386.92824C77.952348 399.68465 77.952348 399.68465 82.204198 413.85807' stroke='#8fc7e8' fill='none' stroke-width='.59776' stroke-miterlimit='10'/>
+<path d='M90.141268 386.92824C85.889418 399.68465 85.889418 399.68465 90.141268 413.85807' stroke='#8fc7e8' fill='none' stroke-width='.59776' stroke-miterlimit='10'/>
+<text class='f2' x='38.581425' y='367.659933' transform='matrix(.999211 0 0 .999211 65.598 43.564)'><tspan fill='#1a1a1a'>linga</tspan></text>
+<path d='M181.417998 496.06362C181.417998 488.23577 175.072448 481.89022 167.244618 481.89022C159.416768 481.89022 153.071218 488.23577 153.071218 496.06362C153.071218 503.89145 159.416768 510.237 167.244618 510.237C175.072448 510.237 181.417998 503.89145 181.417998 496.06362Z' fill='#6faed9'/>
+<path d='M154.488638 496.06362C144.567078 487.55947 144.567078 487.55947 148.819358 479.05535L158.740468 487.55947Z' fill='#6faed9'/>
+<path d='M180.000568 496.06362C189.922138 487.55947 189.922138 487.55947 185.669848 479.05535L175.748738 487.55947Z' fill='#6faed9'/>
+<path d='M167.244618 507.40217C170.079458 524.41042 158.740468 527.24527 165.827178 538.58382' stroke='#6faed9' fill='none' stroke-width='2.1918' stroke-miterlimit='10'/>
+<path d='M174.331298 510.237L180.000568 524.41042L175.748738 525.82784Z' fill='#f4ead8'/>
+<path d='M164.410178 494.64618C164.410178 493.86335 163.775578 493.22876 162.992758 493.22876S161.575338 493.86335 161.575338 494.64618C161.575338 495.429 162.209938 496.0636 162.992758 496.0636S164.410178 495.429 164.410178 494.64618Z' fill='#1a1a1a'/>
+<path d='M172.913868 494.64618C172.913868 493.86335 172.279288 493.22876 171.496448 493.22876C170.713628 493.22876 170.079028 493.86335 170.079028 494.64618C170.079028 495.429 170.713628 496.0636 171.496448 496.0636C172.279288 496.0636 172.913868 495.429 172.913868 494.64618Z' fill='#1a1a1a'/>
+<text class='f3' x='38.563485' y='367.488971' transform='matrix(.999676 0 0 .999676 88.576999 147.662)'><tspan fill='#1a1a1a'>Ganesha</tspan></text>
+<path d='M40.534348 467.7168C40.534348 465.68151 38.884438 464.03159 36.849138 464.03159C34.813828 464.03159 33.163928 465.68151 33.163928 467.7168C33.163928 469.75211 34.813828 471.40201 36.849138 471.40201C38.884438 471.40201 40.534348 469.75211 40.534348 467.7168Z' fill='#3a6ea5'/>
+<path d='M51.873328 493.22875C51.873328 491.19344 50.223408 489.54352 48.188118 489.54352C46.152798 489.54352 44.502888 491.19344 44.502888 493.22875C44.502888 495.26404 46.152798 496.91396 48.188118 496.91396C50.223408 496.91396 51.873328 495.26404 51.873328 493.22875Z' fill='#3a6ea5'/>
+<path d='M37.699938 518.74114C37.699938 516.70583 36.050018 515.05591 34.014708 515.05591C31.979418 515.05591 30.329498 516.70583 30.329498 518.74114C30.329498 520.77643 31.979418 522.42635 34.014708 522.42635C36.050018 522.42635 37.699938 520.77643 37.699938 518.74114Z' fill='#3a6ea5'/>
+<path d='M54.707748 544.25309C54.707748 542.2178 53.057838 540.56788 51.022538 540.56788C48.987228 540.56788 47.337318 542.2178 47.337318 544.25309C47.337318 546.2884 48.987228 547.93831 51.022538 547.93831C53.057838 547.93831 54.707748 546.2884 54.707748 544.25309Z' fill='#3a6ea5'/>
+<path d='M40.534348 569.76548C40.534348 567.73019 38.884438 566.08027 36.849138 566.08027C34.813828 566.08027 33.163928 567.73019 33.163928 569.76548C33.163928 571.80079 34.813828 573.4507 36.849138 573.4507C38.884438 573.4507 40.534348 571.80079 40.534348 569.76548Z' fill='#3a6ea5'/>
+<text class='f3' x='38.563485' y='367.488971' transform='matrix(.999676 0 0 .999676 23.078 152.611)'><tspan fill='#1a1a1a'>the</tspan><tspan fill='#1a1a1a' x='46.191801'>ganas</tspan></text>
+<path d='M73.700078 649.1362C65.195938 620.7894 155.906058 620.7894 147.401918 649.1362V674.6486H73.700078Z' fill='#1a1a1a'/>
+<path d='M166.394228 634.9628C166.394228 628.38744 161.063988 623.0572 154.488638 623.0572C147.913268 623.0572 142.583028 628.38744 142.583028 634.9628C142.583028 641.53815 147.913268 646.8684 154.488638 646.8684C161.063988 646.8684 166.394228 641.53815 166.394228 634.9628Z' fill='#1a1a1a'/>
+<path d='M148.819358 625.04168C141.732658 615.12012 141.732658 615.12012 145.984488 608.03342' stroke='#1a1a1a' fill='none' stroke-width='.99628' stroke-miterlimit='10'/>
+<path d='M161.008278 625.04168C168.662018 615.12012 168.662018 615.12012 164.409748 608.03342' stroke='#1a1a1a' fill='none' stroke-width='.99628' stroke-miterlimit='10'/>
+<path d='M165.827178 637.79766L181.417998 640.63251L165.827178 644.88436Z' fill='#1a1a1a'/>
+<text class='f2' x='38.581425' y='367.659933' transform='matrix(.999211 0 0 .999211 46.488 320.799)'><tspan fill='#1a1a1a'>N</tspan><tspan fill='#1a1a1a' x='42.985865'>andi,</tspan><tspan fill='#1a1a1a' x='55.609143'>the</tspan><tspan fill='#1a1a1a' x='63.786261'>mount</tspan></text>
+<text class='f2' x='38.581425' y='367.659933' transform='matrix(.999211 0 0 .999211 51.114 361.613)'><tspan fill='#6e3a8a'>the</tspan><tspan fill='#6e3a8a' x='46.758543'>host</tspan><tspan fill='#6e3a8a' x='57.081259'>of</tspan><tspan fill='#6e3a8a' x='62.689616'>Kailasa</tspan></text>
+<path d='M34.014708 768.19316C104.881728 742.68077 93.542758 807.8785 187.087288 782.36659' stroke='#8fc7e8' fill='none' stroke-width='.99628' stroke-miterlimit='10' stroke-opacity='.9'/>
+<path d='M190.772498 782.36659C190.772498 780.33128 189.122578 778.68135 187.087288 778.68135C185.051978 778.68135 183.402058 780.33128 183.402058 782.36659C183.402058 784.40187 185.051978 786.0518 187.087288 786.0518C189.122578 786.0518 190.772498 784.40187 190.772498 782.36659Z' fill='#8fc7e8'/>
+<path d='M37.699938 768.19316C37.699938 766.15785 36.050018 764.5079 34.014708 764.5079C31.979418 764.5079 30.329498 766.15785 30.329498 768.19316C30.329498 770.22844 31.979418 771.87837 34.014708 771.87837C36.050018 771.87837 37.699938 770.22844 37.699938 768.19316Z' fill='#8fc7e8'/>
+<text class='f1' x='38.563207' y='367.486327' transform='matrix(.999683 0 0 .999683 32.562 477.556)'><tspan fill='#1a1a1a'>the</tspan><tspan fill='#1a1a1a' x='48.098605'>ganas</tspan><tspan fill='#1a1a1a' x='64.167012'>pour</tspan><tspan fill='#1a1a1a' x='77.795956'>like</tspan><tspan fill='#1a1a1a' x='88.839511'>the</tspan><tspan fill='#1a1a1a' x='98.374909'>Ganges</tspan></text>
+<text class='f4' x='38.540939' y='367.274125' transform='matrix(1.000261 0 0 1.000261 -15.190002 492.215)'><tspan fill='#1a1a1a'>c1</tspan><tspan fill='#1a1a1a' x='46.474075'>dd</tspan><tspan fill='#1a1a1a' x='54.407212'>00</tspan><tspan fill='#1a1a1a' x='62.340346'>01</tspan></text>
+<text class='f5' x='38.530026' y='367.170129' transform='matrix(1.000544 0 0 1.000544 135.349 492.155)'><tspan fill='#1a1a1a'>El</tspan><tspan fill='#1a1a1a' x='43.986025'>Ermitaño</tspan></text>
+</g>
+</svg></figure><details class="latex-src"><summary>LaTeX source</summary><pre>% Margin banner V — Shiva, lord of the ganas
+% The Hindu register of the essay&#x27;s &quot;conspiracy&quot;: the ganas are Shiva&#x27;s host on
+% Mount Kailasa, led by elephant-headed Ganesha; Shiva as the linga upon the yoni,
+% the Ganges sprouting from his hair, the Nandi cow his mount. xelatex 05_shiva.tex
+\documentclass[tikz,border=3mm]{standalone}
+\usepackage{fontspec}\setmainfont{Hoefler Text}
+\usepackage{xcolor}\usepackage{textcomp}\usetikzlibrary{shapes.geometric}
+\definecolor{kr}{HTML}{c83727}\definecolor{ky}{HTML}{e8b73a}\definecolor{kb}{HTML}{2b62a8}
+\definecolor{kg}{HTML}{2a7a4d}\definecolor{kp}{HTML}{6e3a8a}\definecolor{kgold}{HTML}{c2a76b}
+\definecolor{kw}{HTML}{f4ead8}\definecolor{ki}{HTML}{1a1a1a}
+\definecolor{kstone}{HTML}{9a9384}\definecolor{kshiva}{HTML}{3a6ea5}\definecolor{kgan}{HTML}{6faed9}
+\definecolor{kganga}{HTML}{8fc7e8}
+\begin{document}\begin{tikzpicture}[x=1cm,y=1cm]
+  \fill[kw] (-3.6,-15.2) rectangle (3.6,15.2);
+  \draw[kgold,line width=0.6mm] (-3.4,-15.0) rectangle (3.4,15.0);
+  \draw[kgold,line width=0.15mm] (-3.25,-14.85) rectangle (3.25,14.85);
+  \node[ki,font=\itshape,anchor=north] at (0,14.4) {Shiva};
+  \node[ki,font=\scriptsize\itshape,anchor=north] at (0,13.6) {lord of the ganas};
+
+  % --- Mount Kailasa: a snow peak at the crown -------------------------
+  \fill[kstone] (-2.2,10.0) -- (-0.5,13.1) -- (1.0,10.0) -- cycle;
+  \fill[kstone] (-0.4,10.0) -- (1.0,12.4) -- (2.2,10.0) -- cycle;
+  \fill[kw] (-0.5,13.1) -- (-0.95,12.2) -- (-0.05,12.2) -- cycle;
+  \node[ki,font=\fontsize{6}{7}\selectfont\itshape,anchor=west] at (1.5,11.6) {Kailasa};
+
+  % --- Shiva seated in meditation -------------------------------------
+  % crossed-legs base, torso, head, top-knot (jata)
+  \fill[kshiva] (-1.35,6.2) .. controls (-1.7,6.9) and (1.7,6.9) .. (1.35,6.2)
+       -- (0.9,5.7) .. controls (0.4,5.45) and (-0.4,5.45) .. (-0.9,5.7) -- cycle; % legs
+  \fill[kshiva] (-0.62,6.5) -- (0.62,6.5) -- (0.45,8.5) -- (-0.45,8.5) -- cycle;   % torso
+  \fill[kshiva] (0,8.95) circle (0.5);                                              % head
+  \fill[kshiva] (0,9.45) .. controls (-0.3,9.95) and (0.3,9.95) .. (0,9.45);        % jata bun
+  \fill[kshiva] (-0.12,9.5) rectangle (0.12,10.05);
+  % crescent moon in the hair + third eye
+  \begin{scope}
+    \clip (0.05,10.15) circle (0.26);
+    \fill[ky] (-0.05,10.15) circle (0.26);
+  \end{scope}
+  \fill[kr] (0,9.05) circle (0.07);                       % third eye
+  \fill[ki] (-0.18,8.95) circle (0.045);\fill[ki] (0.18,8.95) circle (0.045);
+  % a cobra round the neck
+  \draw[kg,line width=1.0pt] (-0.45,8.4) .. controls (-0.9,8.1) and (-0.9,7.7) .. (-0.5,7.6);
+  \fill[kg] (-0.5,7.6) circle (0.09);
+  \node[ki,font=\fontsize{6}{7}\selectfont\itshape,anchor=east] at (-1.55,8.6) {Shiva};
+
+  % --- the Ganga sprouting from his hair, flowing down ----------------
+  \draw[kganga,line width=1.4pt]
+    (0.18,10.1) .. controls (0.9,9.3) and (0.6,8.0) .. (1.0,6.6)
+    .. controls (1.3,5.2) and (0.4,4.0) .. (0.6,2.6)
+    .. controls (0.75,1.7) and (0.2,1.4) .. (0.0,0.9);
+  \node[kb,font=\fontsize{6}{7}\selectfont\itshape,anchor=west] at (1.15,5.0) {Ganga};
+
+  % --- trident (trishula) on the left --------------------------------
+  \draw[kgold,line width=1.4pt] (-2.3,3.2) -- (-2.3,9.4);
+  \draw[kgold,line width=1.4pt] (-2.65,9.0) -- (-2.65,10.0);
+  \draw[kgold,line width=1.4pt] (-2.3,9.0) -- (-2.3,10.3);
+  \draw[kgold,line width=1.4pt] (-1.95,9.0) -- (-1.95,10.0);
+  \draw[kgold,line width=1.0pt] (-2.65,9.4) -- (-1.95,9.4);
+  % damaru (hourglass drum) tied to the staff
+  \fill[ki] (-2.55,5.0) -- (-2.05,5.4) -- (-2.55,5.4) -- (-2.05,5.0) -- cycle;
+  \node[ki,font=\fontsize{5.6}{6}\selectfont\itshape,anchor=east] at (-2.0,3.3) {trishula};
+
+  % --- the linga upon the yoni, the Ganga pouring over ----------------
+  \fill[kstone] (-1.0,0.3) ellipse (1.0 and 0.28);        % yoni base
+  \draw[ki,line width=0.3pt] (-1.0,0.3) ellipse (1.0 and 0.28);
+  \fill[kgold] (-1.0,1.05) ellipse (0.5 and 0.85);        % linga
+  \draw[ki,line width=0.3pt] (-1.0,1.05) ellipse (0.5 and 0.85);
+  \foreach \dx in {-0.28,0,0.28} \draw[kganga,line width=0.6pt] (-1.0+\dx,1.85) .. controls (-1.0+\dx-0.15,1.4) .. (-1.0+\dx,0.9);
+  \node[ki,font=\fontsize{6}{7}\selectfont\itshape,anchor=west] at (-0.35,1.05) {linga};
+
+  % --- Ganesha: a small elephant-headed glyph (the ganas&#x27; leader) -----
+  \fill[kgan] (2.0,-2.0) circle (0.5);                    % head
+  \fill[kgan] (1.55,-2.0) .. controls (1.2,-1.7) .. (1.35,-1.4) -- (1.7,-1.7) -- cycle; % ear L
+  \fill[kgan] (2.45,-2.0) .. controls (2.8,-1.7) .. (2.65,-1.4) -- (2.3,-1.7) -- cycle; % ear R
+  \draw[kgan,line width=2.2pt] (2.0,-2.4) .. controls (2.1,-3.0) and (1.7,-3.1) .. (1.95,-3.5); % trunk
+  \fill[kw] (2.25,-2.5) -- (2.45,-3.0) -- (2.3,-3.05) -- cycle;  % tusk
+  \fill[ki] (1.85,-1.95) circle (0.05);\fill[ki] (2.15,-1.95) circle (0.05);
+  \node[ki,font=\fontsize{5.6}{6.2}\selectfont\itshape,anchor=east] at (1.35,-2.6) {Ganesha};
+
+  % --- the ganas: Shiva&#x27;s host, small dots flanking ------------------
+  \foreach \p in {(-2.6,-1.0),(-2.2,-1.9),(-2.7,-2.8),(-2.1,-3.7),(-2.6,-4.6)}
+     \fill[kshiva] \p circle (0.13);
+  \node[ki,font=\fontsize{5.6}{6.2}\selectfont\itshape,anchor=west] at (-1.85,-2.8) {the ganas};
+
+  % --- Nandi, the bull, reclining at the foot ------------------------
+  \fill[ki] (-1.3,-7.4) .. controls (-1.6,-6.4) and (1.6,-6.4) .. (1.3,-7.4)
+       -- (1.3,-8.3) -- (-1.3,-8.3) -- cycle;
+  \fill[ki] (1.55,-6.9) circle (0.42);                    % head
+  \draw[ki,line width=1.0pt] (1.35,-6.55) .. controls (1.1,-6.2) .. (1.25,-5.95);
+  \draw[ki,line width=1.0pt] (1.78,-6.55) .. controls (2.05,-6.2) .. (1.9,-5.95);
+  \fill[ki] (1.95,-7.0) -- (2.5,-7.1) -- (1.95,-7.25) -- cycle;  % muzzle hint
+  \node[ki,font=\fontsize{6}{7}\selectfont\itshape,anchor=north] at (-0.2,-8.5) {Nandi, the mount};
+
+  % --- the river of milky desire, a generative flow ------------------
+  \node[kp,font=\fontsize{6}{7}\selectfont\itshape,anchor=south] at (0,-10.4) {the host of Kailasa};
+  \draw[kganga,line width=1.0pt,opacity=0.9] (-2.7,-11.6) .. controls (-0.2,-10.7) and (-0.6,-13.0) .. (2.7,-12.1);
+  \fill[kganga] (2.7,-12.1) circle (0.13);\fill[kganga] (-2.7,-11.6) circle (0.13);
+  \node[ki,font=\scriptsize\itshape,anchor=south] at (0,-14.5) {the ganas pour like the Ganges};
+
+  \node[ki,font=\ttfamily\fontsize{5}{6}\selectfont,anchor=south west] at (-3.2,-14.95) {c1 dd 00 01};
+  \node[ki,font=\fontsize{5}{6}\selectfont\itshape,anchor=south east] at (3.2,-14.95) {El Ermita\~no};
+\end{tikzpicture}\end{document}
+</pre></details></div></article></main></body></html>

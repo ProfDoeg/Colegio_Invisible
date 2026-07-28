@@ -1,0 +1,303 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>House of Goethe</title><style>
+:root{--bg:#0d0d0f;--ink:#e7e3d8;--muted:#8a8f99;--line:#23232a;--tone:#6b7280;--link:#6faed9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font:16px/1.6 ui-serif,Georgia,'Times New Roman',serif}
+header{display:flex;align-items:baseline;gap:.8rem;padding:1rem 1.4rem;
+ border-bottom:1px solid var(--line)}
+.brand{font:700 1.2rem ui-monospace,Menlo,monospace;color:var(--ink);
+ text-decoration:none;letter-spacing:.04em}
+.sub{color:var(--muted);font-size:.85rem}
+main{max-width:880px;margin:0 auto;padding:1.6rem 1.4rem 4rem}
+.muted{color:var(--muted)} .err{color:#e03131;font-size:.85rem}
+.lead h1{font:600 2rem ui-serif,Georgia,serif;margin:.2rem 0}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));
+ gap:.9rem;margin-top:1.4rem}
+.card{display:flex;flex-direction:column;gap:.35rem;padding:.9rem 1rem;
+ text-decoration:none;color:var(--ink);background:#131319;border:1px solid var(--line);
+ border-left:3px solid var(--tone);border-radius:6px;transition:.12s}
+.card:hover{background:#17171f;transform:translateY(-1px)}
+.c-type{font:600 .7rem ui-monospace,monospace;color:var(--tone);
+ text-transform:uppercase;letter-spacing:.08em}
+.c-title{font-size:1rem;line-height:1.3}
+.c-tone{font-size:.75rem;color:var(--muted);margin-top:auto}
+.quipu{border-left:3px solid var(--tone);padding-left:1.2rem}
+.scene3d{margin:1rem 0}
+.scene3d .s3-stage{position:relative;height:68vh;min-height:420px;border:1px solid var(--line);
+ border-radius:6px;overflow:hidden;background:#000}
+.scene3d canvas{display:block}
+.s3-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+ background:rgba(10,10,12,.55);color:#e7e3d8;font:600 .95rem ui-monospace,Menlo,monospace;
+ cursor:pointer;z-index:2;text-align:center;padding:1rem;transition:opacity .3s}
+.s3-hint.hide{opacity:0;pointer-events:none}
+.s3-hint.soft{background:transparent;pointer-events:none;align-items:flex-end;
+ justify-content:flex-start;color:#8a8f99}
+.s3-plaque{position:absolute;top:.7rem;left:50%;transform:translateX(-50%);
+ background:rgba(12,12,16,.78);border:1px solid var(--line);color:#e7e3d8;
+ padding:.35rem .8rem;border-radius:6px;font:.8rem ui-monospace,Menlo,monospace;
+ opacity:0;transition:opacity .25s;z-index:3;max-width:80%}
+.s3-plaque.show{opacity:1}
+.s3-dossier{margin-top:.6rem;border:1px solid var(--line);border-radius:6px;
+ padding:.85rem 1.1rem;background:#131319;overflow:auto}
+.s3-dossier:empty{display:none}
+.s3d-head{display:flex;align-items:baseline;gap:.7rem;flex-wrap:wrap;margin-bottom:.3rem}
+.s3d-name{font:600 1.05rem ui-serif,Georgia,serif;color:#e7e3d8}
+.s3d-date{font:.74rem ui-monospace,Menlo,monospace;color:var(--muted)}
+.s3d-tag{font:.66rem ui-monospace,Menlo,monospace;color:var(--muted);opacity:.75;margin-left:auto}
+.s3d-imgwrap{float:right;margin:.2rem 0 .5rem .9rem;max-width:220px}
+.s3d-img{max-width:220px;max-height:200px;border-radius:4px;display:block}
+.s3d-key{font:600 .62rem ui-monospace,Menlo,monospace;color:#8a8f99;
+ text-transform:uppercase;letter-spacing:.08em;margin-top:.5rem}
+.s3d-text{font:.9rem/1.6 ui-serif,Georgia,serif;color:#d9d5ca;margin:.15rem 0}
+blockquote.s3d-text{border-left:2px solid var(--line);padding-left:.6rem;
+ margin:.15rem 0;font-style:italic}
+.s3d-link{display:inline-block;font:.75rem ui-monospace,Menlo,monospace;
+ color:var(--link);margin:.45rem .7rem 0 0;text-decoration:none}
+.scene3d figcaption{color:var(--muted);font-size:.85rem;margin-top:.5rem}
+.corrected-h{font:600 1.25rem ui-serif,Georgia,serif;margin:2rem 0 .6rem;
+ padding-top:1.2rem;border-top:1px solid var(--line)}
+.q-head h1{font:600 2rem ui-serif,Georgia,serif;margin:.2rem 0}
+.q-prov{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .9rem;
+ margin:-1rem 0 1.4rem}
+.q-block{font:600 .72rem ui-monospace,Menlo,monospace;color:var(--muted)}
+.q-txid{font:.68rem/1.4 ui-monospace,Menlo,monospace;color:var(--muted);opacity:.6;
+ word-break:break-all}
+.q-meta{display:flex;gap:.5rem;flex-wrap:wrap;margin:.4rem 0 1.4rem}
+.pill{font:600 .72rem ui-monospace,monospace;padding:.2rem .55rem;border-radius:999px;
+ border:1px solid var(--line)}
+.pill.type{color:var(--tone);border-color:var(--tone)}
+.pill.tone{color:var(--muted)}
+.edition{font:600 .72rem ui-monospace,monospace;padding:.2rem .55rem;border-radius:999px}
+.edition.current{color:#12b886;border:1px solid #12b886}
+.edition.superseded{color:var(--muted);border:1px solid var(--line)}
+.text{white-space:pre-wrap;font:1.05rem/1.7 ui-serif,Georgia,serif;margin:0}
+.essay :is(h1,h2,h3){font-family:ui-serif,Georgia,serif}
+.essay img,.image img,.celestial img{max-width:100%;border-radius:6px}
+.essay a{color:var(--link)} .essay a:hover{color:#8fc7e8}
+.image{margin:0;image-rendering:pixelated}
+.image figcaption,.celestial figcaption{color:var(--muted);font-size:.8rem;margin-top:.4rem}
+.latex pre,.raw pre{white-space:pre-wrap;word-break:break-word;background:#131319;
+ border:1px solid var(--line);border-radius:6px;padding:1rem;font:.85rem ui-monospace,monospace}
+.tag{color:var(--muted);font-size:.78rem}
+.book-toc{border:1px solid var(--line);border-radius:6px;padding:.8rem 1rem;margin-bottom:1.8rem;background:#131319}
+.book-toc-h{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:.4rem}
+.book-toc ol{margin:0;padding-left:1.3rem} .book-toc li{margin:.25rem 0} .book-toc a{color:var(--link)}
+.chapter-sec{margin-top:2rem} .book .chapter-sec:first-of-type{margin-top:0}
+h2.chapter{font-size:1.5rem;border-top:1px solid var(--line);padding-top:1.2rem;margin-top:2.6rem}
+.book .chapter-sec:first-of-type h2.chapter{border-top:none;padding-top:0;margin-top:0}
+.chapter-src{margin-top:1.1rem;font-size:.8rem} .chapter-src a{color:var(--link)}
+.sealed{text-align:center;padding:2rem;background:#131319;border:1px dashed var(--line);border-radius:8px}
+.sealed .lock{font-size:2rem}
+.meta{width:100%;border-collapse:collapse;font:.85rem ui-monospace,monospace;margin-top:.6rem}
+.meta td{border-top:1px solid var(--line);padding:.35rem .5rem;vertical-align:top}
+.meta td:first-child{color:var(--muted);width:30%}
+.sky{width:100%;background:#07070c;border-radius:6px;display:block}
+.sky .cl line{stroke:#39508f;stroke-width:.7;opacity:.7}
+.sky .st circle{fill:#e7e3d8}
+.sky .lb text{fill:#7a8194;font:8px ui-monospace,monospace}
+.hdr{margin:.2rem 0 1.4rem;font:.82rem ui-monospace,monospace}
+.hdr summary{cursor:pointer;color:var(--muted);letter-spacing:.04em}
+.hdr table{border-collapse:collapse;margin-top:.5rem}
+.hdr td{border-top:1px solid var(--line);padding:.25rem 1rem .25rem 0}
+.hdr td:first-child{color:var(--muted)}
+.binding pre{white-space:pre-wrap;background:#131319;border:1px solid var(--line);
+ border-radius:6px;padding:1rem;font:.85rem/1.55 ui-monospace,monospace}
+.binding a{color:var(--tone)} .binding b{color:var(--ink);font-weight:600}
+.binding .ext{color:var(--muted);border-bottom:1px dotted var(--muted);cursor:help}
+.repub{font-size:.82rem;color:var(--muted);border-left:2px solid var(--tone);
+ padding:.35rem .7rem;margin:0 0 1.4rem;background:rgba(255,255,255,.02)}
+.repub a{color:var(--tone)}
+.qimg{display:inline-block;line-height:0} .qimg img{cursor:zoom-in}
+.qimg:hover img{outline:2px solid var(--tone);outline-offset:2px}
+.qlink{color:var(--link)}
+.genealogy-tree{margin:0 0 1.6rem;text-align:center}
+.genealogy-tree svg{max-width:100%;height:auto;background:#faf7ef;border-radius:6px;
+ box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.house-roster{list-style:none;padding:0;margin:1.4rem 0;display:grid;gap:.85rem}
+.house-roster li{border-left:2px solid var(--line);padding:.1rem 0 .2rem .9rem;overflow:hidden}
+.hr-name{font-weight:600;color:var(--ink)}
+.hr-dates{color:var(--muted);font-size:.85rem;margin-left:.5rem}
+.hr-note{display:block;color:#bdb8aa;font-size:.92rem;margin-top:.15rem}
+.hr-ref{color:var(--link);font-size:.78rem;margin-left:.4rem}
+.hr-portrait{float:right;width:78px;margin:0 0 .4rem .9rem}
+.hr-portrait img{width:78px;border-radius:4px;display:block}
+.earth-map{display:flex;gap:1.3rem;flex-wrap:wrap;align-items:flex-start;margin:1rem 0}
+.earth-fig{flex:1 1 460px;min-width:0;margin:0;background:#aacbe6;border-radius:6px;
+ box-shadow:0 1px 16px rgba(0,0,0,.45);overflow:hidden}
+.earth{display:block;width:100%;height:auto}
+.earth .sea{fill:#aacbe6}
+.earth .land{fill:#efe6d2;stroke:#b89f6a;stroke-width:.5;stroke-linejoin:round}
+.earth .lake{fill:#aacbe6;stroke:#7ba3c9;stroke-width:.45}
+.earth .route line{stroke:#c83727;stroke-width:1.7;opacity:.95;stroke-linecap:round}
+.earth .wps circle{fill:#e8b73a;stroke:#5a3a12;stroke-width:.8;cursor:pointer}
+.earth .wp:hover circle,.earth .wp.on circle{fill:#fff;r:5.5}
+.ej-panel{flex:1 1 250px;position:sticky;top:1rem;border-left:2px solid var(--line);
+ padding:.1rem 0 .4rem 1rem;min-height:5rem}
+.ej-panel h3{margin:.1rem 0 .4rem;font-size:1.05rem;font-weight:600}
+.ej-panel h3 span{color:var(--muted);font-weight:400;font-size:.82rem;font-style:italic}
+.ej-panel p{margin:.4rem 0;font-size:.93rem;line-height:1.55}
+.ej-panel blockquote{border-left:2px solid var(--tone);margin:.6rem 0;padding-left:.8rem;
+ color:#c9c3b4;font-style:italic}
+.ej-ref{margin:.8rem 0}
+.ej-ref img{display:block;width:100%;border-radius:4px}
+.ej-ref blockquote{border-left:2px solid var(--tone);margin:0 0 .3rem;padding-left:.8rem;
+ color:#c9c3b4;font-style:italic;font-size:.9rem;line-height:1.5}
+.ej-ref figcaption{font-size:.78rem;color:var(--muted)} .ej-ref figcaption a{color:var(--link)}
+.ej-refs{font-size:.85rem;margin-top:.6rem!important;line-height:1.7}
+.ej-refs a{color:var(--link)} .ej-refs span{color:var(--muted)}
+.ej-hint{color:var(--muted);font-style:italic}
+.cert{border:1px solid var(--line);border-radius:10px;padding:1.6rem 1.9rem;
+ background:linear-gradient(180deg,rgba(255,255,255,.035),transparent)}
+.cert-seal{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--tone);margin-bottom:1rem}
+.cert-meta{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 1rem}
+.cert .chip{font:11px ui-monospace,monospace;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:.1rem .45rem}
+.cert-title{font-family:Georgia,serif;font-size:1.7rem;line-height:1.15;margin:.2rem 0 .15rem}
+.cert-artist{font-style:italic;color:var(--muted);margin:0 0 1.2rem}
+.cert-image{margin:1.3rem 0} .cert-image img{max-width:100%;border-radius:4px}
+.cert-text{line-height:1.75}
+.cert-authority{font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);margin-top:1.5rem;padding-top:.8rem}
+.cert-authority a{color:var(--tone)}
+.cert-sigs{border-top:1px solid var(--line);margin-top:1rem;padding-top:.7rem}
+.cert-sigs-h{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.3rem}
+.cert-sig{font-size:.8rem;color:var(--muted);margin:.2rem 0}
+.cert-extra{font-size:.85rem;color:var(--muted)}
+.latex-fig{margin:1.6rem 0;text-align:center}
+.latex-fig svg{display:block;margin:0 auto;width:100%;max-width:340px;height:auto;
+ border-radius:4px;box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.latex-src{margin:.5rem auto 0;max-width:340px;font-size:.8rem}
+.latex-src summary{cursor:pointer;color:var(--muted);letter-spacing:.03em}
+.latex-src pre{white-space:pre-wrap;background:#131319;border:1px solid var(--line);
+ border-radius:6px;padding:.8rem;font:.78rem/1.5 ui-monospace,monospace;margin-top:.4rem}
+.essay-cols{display:flex;flex-direction:column}      /* narrow: prose, then plates */
+.marginplate{margin:1.3rem auto}
+.marginplate svg,.marginplate img{display:block;width:100%;max-width:340px;height:auto;
+ margin:0 auto;border-radius:4px;box-shadow:0 1px 16px rgba(0,0,0,.45)}
+.marginplate figcaption{font-size:.72rem;color:var(--muted);text-align:center;
+ margin-top:.35rem;letter-spacing:.04em;font-style:italic}
+@media(min-width:700px){            /* prose | stacked margin column */
+  main.wide{max-width:1180px}
+  .essay-cols{flex-direction:row;gap:1.6rem;align-items:flex-start}
+  .essay-cols .prose{flex:1 1 0;min-width:0}
+  .essay-cols .plates{flex:0 0 236px}
+  .plates .marginplate{margin:0 0 1.2rem}          /* just stack, little spacing */
+}
+@media(min-width:1040px){           /* roomier window → wider plates */
+  .essay-cols .plates{flex:0 0 300px}
+}
+
+.q-facts{border-collapse:collapse;margin:.4rem 0 1rem;font-size:.9rem}
+.q-facts td{padding:.18rem .9rem .18rem 0;vertical-align:top}
+.q-facts td:first-child{color:var(--muted,#8a93a6);white-space:nowrap;font-variant:small-caps;letter-spacing:.02em}
+.q-facts td:last-child{font-variant-numeric:tabular-nums}
+</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body)"></script></head><body><header><a class="brand" href="../index.html">spectra</a><span class="sub">the lens &middot; Colegio Invisible</span></header><main><article class="quipu" style="--tone:#8a8f99"><div class="q-head"><h1>House of Goethe</h1><div class="q-meta"><span class="pill type">celestial</span><span class="pill tone" title="neutral, of the living">ordinary</span></div><div class="q-prov"><span class="q-block">block 6,237,120</span> <span class="q-txid" title="root txid">77cd55bded8ea5ea5757e7526512cbfe276d89c88d1b01206f968ea8ad147061</span></div></div><table class="q-facts"><tr><td>block</td><td>6,237,120</td></tr><tr><td>strands</td><td>2</td></tr><tr><td>txns in quipu</td><td>22 &middot; 20 knots</td></tr><tr><td>type</td><td>celestial (0xce)</td></tr><tr><td>subtype</td><td>genealogy</td></tr><tr><td>mood</td><td>ordinary &middot; neutral, of the living</td></tr></table><details class="hdr"><summary>header</summary><table><tr><td>magic</td><td>c1dd</td></tr><tr><td>version</td><td>1</td></tr><tr><td>type</td><td>celestial (0xce)</td></tr><tr><td>tone</td><td>ordinary (0x00)</td></tr><tr><td>raw</td><td>c1dd0001ce00030000000f0f486f757365206f6620476f65746865</td></tr></table></details><div class="q-body"><div class="genealogy"><figure class="genealogy-tree"><svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 509.52 342.81'>
+<defs>
+<font id='WVDQTG-LMSans9-Oblique' horiz-adv-x='0'>
+<font-face font-family='WVDQTG-LMSans9-Oblique' units-per-em='1000' ascent='1155' descent='313'/>
+<glyph unicode='G' horiz-adv-x='685' vert-adv-y='685' glyph-name='G' d='M623 38L679 300H462L448 235H581L547 77C502 64 455 57 410 57C345 57 292 91 261 142C227 200 220 273 236 347C252 422 289 495 348 552C401 603 468 637 533 637C568 637 603 633 632 622C664 610 689 591 712 568L745 656C717 672 686 686 653 694C619 702 584 705 548 705C459 705 366 666 291 600C213 532 160 441 140 347C120 254 135 163 183 94C230 28 307-11 396-11C471-11 548 6 623 38Z'/>
+<glyph unicode='H' horiz-adv-x='727' vert-adv-y='727' glyph-name='H' d='M631 0L779 694H683L619 393H275L339 694H243L95 0H191L261 328H605L535 0H631Z'/>
+<glyph unicode='e' horiz-adv-x='457' vert-adv-y='457' glyph-name='e' d='M474 219C480 250 495 326 469 386C440 449 379 461 341 461C225 461 110 354 83 226C55 94 131-11 256-11C304-11 364 1 430 38L439 107C366 62 305 54 270 54C187 54 139 127 156 219H474ZM426 278H174C204 342 264 396 327 396C364 396 429 379 426 278Z'/>
+<glyph unicode='f' horiz-adv-x='314' vert-adv-y='314' glyph-name='f' d='M488 623L504 694C492 697 462 705 424 705C327 705 237 632 216 532L197 444H122L109 382H184L103 0H183L264 382H375L388 444H274L299 560C314 632 381 640 409 640C418 640 451 640 488 623Z'/>
+<glyph unicode='h' horiz-adv-x='531' vert-adv-y='531' glyph-name='h' d='M449 0L512 297C528 371 526 455 405 455C348 455 288 428 242 383L309 694H229L81 0H164L216 244C230 310 273 390 349 390C449 390 434 319 428 290L366 0H449Z'/>
+<glyph unicode='o' horiz-adv-x='514' vert-adv-y='514' glyph-name='o' d='M530 220C558 351 481 461 354 461C230 461 105 353 77 220C49 88 133-11 254-11C378-11 502 90 530 220ZM449 230C424 114 342 57 269 57C192 57 138 117 162 230C187 347 272 396 340 396C412 396 473 345 449 230Z'/>
+<glyph unicode='s' horiz-adv-x='394' vert-adv-y='394' glyph-name='s' d='M397 129C405 164 398 199 370 229C342 258 313 264 254 276C219 283 171 292 181 339C194 398 265 398 280 398C353 398 391 375 416 359L444 429C388 457 343 461 302 461C279 461 132 461 104 329C94 281 116 251 125 240C156 207 181 202 246 189C277 183 332 172 321 121C307 56 226 56 213 56C154 56 101 76 65 106L36 33C89 1 148-11 199-11C264-11 372 10 397 129Z'/>
+<glyph unicode='t' horiz-adv-x='371' vert-adv-y='371' glyph-name='t' d='M348 26L344 89C314 69 276 57 245 57C206 57 201 92 212 144L262 382H406L419 444H275L302 571H228L201 444H113L100 382H185L131 126C118 67 115-11 188-11C232-11 286-2 348 26Z'/>
+<glyph unicode='u' horiz-adv-x='531' vert-adv-y='531' glyph-name='u' d='M449 0L543 444H460L399 155C382 75 313 48 253 48C181 48 179 71 188 114L258 444H175L104 109C86 24 113-11 184-11C242-11 323 6 379 48L369 0H449Z'/>
+</font>
+<font id='WLJFLT-LMSans8-Regular' horiz-adv-x='0'>
+<font-face font-family='WLJFLT-LMSans8-Regular' units-per-em='1000' ascent='1154' descent='314'/>
+<glyph unicode='–' horiz-adv-x='531' vert-adv-y='531' glyph-name='endash' d='M530 241V307H0V241H530Z'/>
+<glyph unicode='-' horiz-adv-x='354' vert-adv-y='354' glyph-name='hyphen' d='M294 191V254H12V191H294Z'/>
+<glyph unicode='0' horiz-adv-x='531' vert-adv-y='531' glyph-name='zero' d='M488 325C488 373 488 490 441 572C390 662 313 677 265 677C220 677 142 663 92 577C44 497 42 388 42 325C42 251 46 160 88 84C132 3 206-21 265-21C365-21 420 37 450 100C485 171 488 263 488 325ZM401 338C401 272 401 197 377 133C349 61 298 45 265 45C223 45 175 69 150 141C130 202 129 265 129 338C129 430 129 611 265 611S401 430 401 338Z'/>
+<glyph unicode='1' horiz-adv-x='531' vert-adv-y='531' glyph-name='one' d='M454 0V63H321V677H299C234 617 152 613 92 611V548C131 549 181 551 231 571V63H98V0H454Z'/>
+<glyph unicode='2' horiz-adv-x='531' vert-adv-y='531' glyph-name='two' d='M477 0V77H283C271 77 259 76 247 76H133L288 213C306 229 355 266 374 282C418 322 477 374 477 461C477 574 393 677 250 677C144 677 78 620 44 518L91 459C114 543 149 608 236 608C320 608 384 549 384 459C384 376 335 329 275 272C255 252 201 207 180 187C151 161 82 94 53 69V0H477Z'/>
+<glyph unicode='3' horiz-adv-x='531' vert-adv-y='531' glyph-name='three' d='M486 182C486 264 420 330 341 353C417 392 456 459 456 524C456 609 369 677 262 677C174 677 101 631 59 571L100 513C141 593 213 615 261 615C320 615 364 581 364 524C364 471 328 406 252 393C247 392 243 392 177 387V321H255C350 321 385 246 385 183C385 105 337 45 259 45C188 45 107 79 57 143L44 78C102 13 183-21 261-21C392-21 486 77 486 182Z'/>
+<glyph unicode='4' horiz-adv-x='531' vert-adv-y='531' glyph-name='four' d='M500 167V233H396V656H297L30 233V167H310V0H396V167H500ZM317 233H115C145 280 316 547 317 607V233Z'/>
+<glyph unicode='5' horiz-adv-x='531' vert-adv-y='531' glyph-name='five' d='M477 203C477 327 385 426 275 426C232 426 194 411 164 386V587H441V656H84V282H157C181 336 228 360 273 360C314 360 376 332 376 205C376 74 293 45 242 45C176 45 112 80 78 137L40 77C89 16 163-21 242-21C374-21 477 81 477 203Z'/>
+<glyph unicode='6' horiz-adv-x='531' vert-adv-y='531' glyph-name='six' d='M486 223C486 354 415 463 318 463C220 463 167 412 138 383C151 520 221 615 329 615C349 615 389 613 439 594V657C385 677 347 677 328 677C176 677 44 534 44 323C44 52 166-21 267-21C348-21 390 17 421 49C485 117 486 188 486 223ZM394 223C394 185 394 143 367 101C343 65 313 45 267 45C161 45 144 176 139 220C139 226 139 241 140 246C140 314 183 397 272 397C394 397 394 257 394 223Z'/>
+<glyph unicode='7' horiz-adv-x='531' vert-adv-y='531' glyph-name='seven' d='M486 586V656H44V579H247C259 579 271 580 283 580H409C257 431 160 222 160-10H254C254 282 396 492 486 586Z'/>
+<glyph unicode='8' horiz-adv-x='531' vert-adv-y='531' glyph-name='eight' d='M486 182C486 259 429 327 342 354C408 375 471 428 471 502C471 593 384 677 265 677S59 593 59 502C59 427 124 374 188 354C100 327 44 259 44 182C44 75 139-21 265-21S486 75 486 182ZM394 501C394 430 338 387 265 387C194 387 136 428 136 501C136 565 181 615 265 615C348 615 394 565 394 501ZM395 183C395 89 333 45 265 45C196 45 135 89 135 183C135 273 193 321 265 321S395 272 395 183Z'/>
+<glyph unicode='9' horiz-adv-x='531' vert-adv-y='531' glyph-name='nine' d='M486 335C486 608 365 677 269 677C180 677 139 635 110 606C46 541 44 472 44 433C44 304 114 193 212 193C325 193 387 268 392 274C378 115 300 45 218 45C166 45 134 64 111 83L77 25C126-11 171-21 218-21C358-21 486 120 486 335ZM390 412C390 338 345 259 258 259C220 259 190 270 164 311C138 350 136 388 136 433C136 472 136 517 167 561C188 591 218 615 268 615C365 615 386 498 389 434C390 428 390 418 390 412Z'/>
+<glyph unicode='A' horiz-adv-x='708' vert-adv-y='708' glyph-name='A' d='M677 0L402 694H305L30 0H112L190 198H494L572 0H677ZM469 257H215L343 618L469 257Z'/>
+<glyph unicode='C' horiz-adv-x='679' vert-adv-y='679' glyph-name='C' d='M623 46L617 122C586 102 554 82 519 71S448 59 412 59C345 59 283 92 239 143C191 200 168 273 168 347C168 422 191 494 239 551C283 602 345 635 412 635C444 635 476 632 507 623C539 613 568 597 596 579L612 670C580 681 547 691 513 697C480 703 446 705 412 705C320 705 232 666 168 600C103 532 67 441 67 347S103 162 168 94C232 28 320-10 412-10C449-10 486-9 522 0C558 10 591 27 623 46Z'/>
+<glyph unicode='E' horiz-adv-x='637' vert-adv-y='637' glyph-name='E' d='M592 0V78H502L250 76H198V326H547V392H198V622H344C356 622 368 621 380 621H577V691H97V0H592Z'/>
+<glyph unicode='F' horiz-adv-x='608' vert-adv-y='608' glyph-name='F' d='M563 621V691H97V0H198V313H518V379H198V622H337C349 622 361 621 373 621H563Z'/>
+<glyph unicode='G' horiz-adv-x='708' vert-adv-y='708' glyph-name='G' d='M635 39V300H412V234H548V79C504 66 458 59 412 59C345 59 283 92 239 143C191 200 168 273 168 347C168 422 191 494 239 551C283 602 345 635 412 635C447 635 483 631 517 619S582 588 611 565L627 656C593 672 558 686 522 694S449 705 412 705C320 705 232 666 168 600C103 532 67 441 67 347S103 162 168 94C232 28 320-10 412-10C489-10 565 6 635 39Z'/>
+<glyph unicode='J' horiz-adv-x='502' vert-adv-y='502' glyph-name='J' d='M413 149V694H315V153C315 132 315 46 193 46C122 46 79 82 59 103L44 21C98-5 164-21 226-21C332-21 413 33 413 149Z'/>
+<glyph unicode='M' horiz-adv-x='927' vert-adv-y='927' glyph-name='M' d='M821 0V694H698L557 347C545 317 473 141 463 99H462C455 128 409 243 399 269L227 694H105V0H189V614H190C198 579 250 447 255 436L422 21H501L650 389C650 389 719 560 736 615H737V0H821Z'/>
+<glyph unicode='T' horiz-adv-x='726' vert-adv-y='726' glyph-name='T' d='M687 617V687H38V617H182C194 617 206 618 218 618H312V0H413V618H507C519 618 531 617 543 617H687Z'/>
+<glyph unicode='W' horiz-adv-x='1004' vert-adv-y='1004' glyph-name='W' d='M987 694H909L812 379C806 358 736 134 729 80H728C722 131 650 366 648 372L548 694H464L371 394C360 360 294 145 287 81H286C280 142 206 381 203 392L110 694H15L232 0H317L420 335L469 502C485 555 493 587 497 614H498C504 567 529 485 547 426L630 153L678 0H770L987 694Z'/>
+<glyph unicode='a' horiz-adv-x='510' vert-adv-y='510' glyph-name='a' d='M436 0V288C436 390 358 459 259 459C196 459 148 446 92 416L98 343C131 365 180 395 259 395C303 395 349 362 349 287V247C201 242 55 211 55 118C55 68 89-10 177-10C220-10 299-1 352 38V0H436ZM349 142C349 122 349 96 314 75C282 57 243 56 232 56C177 56 135 81 135 119C135 183 304 189 349 191V142Z'/>
+<glyph unicode='b' horiz-adv-x='549' vert-adv-y='549' glyph-name='b' d='M512 223C512 344 443 454 343 454C280 454 219 434 169 397V694H85V0H172V47C194 28 242-10 315-10C424-10 512 92 512 223ZM425 223C425 101 342 56 272 56C235 56 200 73 172 118V315C172 331 172 343 207 366C222 375 249 388 283 388C350 388 425 343 425 223Z'/>
+<glyph unicode='c' horiz-adv-x='472' vert-adv-y='472' glyph-name='c' d='M441 36L435 109C385 77 331 59 269 59C177 59 123 133 123 223C123 300 163 390 272 390C340 390 372 376 423 344L436 416C376 446 350 459 272 459C122 459 36 338 36 222C36 100 132-10 268-10C338-10 398 11 441 36Z'/>
+<glyph unicode='d' horiz-adv-x='549' vert-adv-y='549' glyph-name='d' d='M463 0V694H379V401C315 448 250 454 221 454C116 454 36 349 36 222S115-10 218-10C280-10 338 18 376 52V0H463ZM376 124C351 83 313 56 265 56C195 56 123 105 123 221C123 346 208 388 276 388C316 388 350 371 376 337V124Z'/>
+<glyph unicode='e' horiz-adv-x='472' vert-adv-y='472' glyph-name='e' d='M440 219C440 265 435 332 396 389C360 440 300 459 251 459C129 459 35 352 35 225C35 97 135-10 267-10C325-10 385 7 436 38L430 109C374 69 311 56 268 56C181 56 115 127 112 219H440ZM379 279H119C142 359 201 393 251 393C295 393 360 372 379 279Z'/>
+<glyph unicode='f' horiz-adv-x='325' vert-adv-y='325' glyph-name='f' d='M368 621V694C342 700 311 704 284 704C181 704 106 630 106 531V444H29V381H106V0H190V381H304V444H187V559C187 628 250 638 283 638C304 638 331 635 368 621Z'/>
+<glyph unicode='g' horiz-adv-x='531' vert-adv-y='531' glyph-name='g' d='M515 386L503 454C481 454 414 453 338 424L336 423C300 447 265 454 236 454C138 454 65 377 65 291C65 256 77 220 100 192C86 175 71 147 71 109C71 70 87 45 96 33C41 1 30-45 30-69C30-145 135-205 265-205C396-205 500-145 500-69C500 72 325 72 282 72H189C173 72 130 72 130 124C130 144 137 154 138 156C173 134 208 127 235 127C333 127 406 204 406 290C406 322 397 351 379 378C375 384 375 386 375 386C375 390 435 390 440 390C440 390 479 390 515 386ZM329 291C329 213 279 189 236 189C182 189 142 223 142 290C142 368 192 392 235 392C289 392 329 358 329 291ZM424-70C424-113 349-143 265-143S106-113 106-70C106-65 106-6 187-6H283C306-6 424-6 424-70Z'/>
+<glyph unicode='h' horiz-adv-x='549' vert-adv-y='549' glyph-name='h' d='M465 0V296C465 374 442 454 319 454C233 454 187 404 167 383V694H83V0H170V243C170 309 198 388 275 388C378 388 378 318 378 289V0H465Z'/>
+<glyph unicode='i' horiz-adv-x='253' vert-adv-y='253' glyph-name='i' d='M168 0V444H84V0H168ZM177 560V661H76V560H177Z'/>
+<glyph unicode='l' horiz-adv-x='253' vert-adv-y='253' glyph-name='l' d='M168 0V694H84V0H168Z'/>
+<glyph unicode='n' horiz-adv-x='549' vert-adv-y='549' glyph-name='n' d='M465 0V296C465 374 442 454 319 454C262 454 207 431 163 378V451H83V0H170V243C170 309 198 388 275 388C378 388 378 318 378 289V0H465Z'/>
+<glyph unicode='o' horiz-adv-x='531' vert-adv-y='531' glyph-name='o' d='M500 219C500 351 395 459 265 459S30 350 30 219C30 92 136-10 265-10C395-10 500 92 500 219ZM413 230C413 116 342 59 265 59C186 59 117 117 117 230S191 393 265 393C340 393 413 341 413 230Z'/>
+<glyph unicode='p' horiz-adv-x='549' vert-adv-y='549' glyph-name='p' d='M512 223C512 343 446 454 347 454C302 454 227 441 169 396V444H85V-194H172V47C225-1 282-10 316-10C422-10 512 91 512 223ZM425 223C425 124 350 56 272 56C257 56 232 58 206 79C176 102 172 117 172 136V332C195 360 234 385 282 385C362 385 425 311 425 223Z'/>
+<glyph unicode='r' horiz-adv-x='363' vert-adv-y='363' glyph-name='r' d='M347 380V454C263 453 202 412 162 359V451H85V0H169V213C169 321 259 379 347 380Z'/>
+<glyph unicode='s' horiz-adv-x='407' vert-adv-y='407' glyph-name='s' d='M383 130C383 148 381 187 339 225C302 258 266 265 218 274C159 285 113 294 113 338C113 395 186 395 201 395C258 395 302 383 352 357L365 428C297 456 247 459 211 459C186 459 35 459 35 326C35 279 61 253 74 241C109 206 151 198 204 188C251 179 305 169 305 121C305 58 222 58 208 58C144 58 84 81 44 109L30 34C64 17 125-10 208-10C253-10 297-3 334 24C371 52 383 96 383 130Z'/>
+<glyph unicode='t' horiz-adv-x='384' vert-adv-y='384' glyph-name='t' d='M354 27L337 91C304 67 269 59 241 59C199 59 188 100 188 146V381H336V444H188V571H111V444H20V381H108V128C108 61 125-10 197-10S324 13 354 27Z'/>
+<glyph unicode='u' horiz-adv-x='549' vert-adv-y='549' glyph-name='u' d='M465 0V444H378V154C378 74 310 49 252 49C178 49 170 69 170 115V444H83V109C83 20 122-10 192-10C233-10 321-2 381 46V0H465Z'/>
+<glyph unicode='v' horiz-adv-x='490' vert-adv-y='490' glyph-name='v' d='M474 444H394C257 109 251 82 247 59H246C238 98 210 168 179 245L99 444H15L198 0H291L474 444Z'/>
+<glyph unicode='x' horiz-adv-x='490' vert-adv-y='490' glyph-name='x' d='M489 0L277 229L471 444H383L241 280L96 444H6L206 229L0 0H89L241 188L399 0H489Z'/>
+</font>
+</defs>
+<style type='text/css'>
+<![CDATA[text.f0 {font-family:WLJFLT-LMSans8-Regular;font-size:7.47px}
+text.f1 {font-family:WLJFLT-LMSans8-Regular;font-size:7.97px}
+text.f2 {font-family:WVDQTG-LMSans9-Oblique;font-size:8.97px}
+]]>
+</style>
+<g id='page1'>
+<path d='M14.17048 328.6376V14.17083H495.35352V328.6376Z' fill='#faf7ef'/>
+<path d='M105.94126 90.5727L56.33434 46.6355' stroke='#9a7b3f' fill='none' stroke-width='.54794' stroke-miterlimit='10'/>
+<path d='M105.94126 90.5727L155.54818 46.6355' stroke='#9a7b3f' fill='none' stroke-width='.54794' stroke-miterlimit='10'/>
+<path d='M304.3689 90.5727L254.762 46.6355' stroke='#9a7b3f' fill='none' stroke-width='.54794' stroke-miterlimit='10'/>
+<path d='M304.3689 90.5727L353.97582 46.6355' stroke='#9a7b3f' fill='none' stroke-width='.54794' stroke-miterlimit='10'/>
+<path d='M205.1551 162.85716L105.94126 118.91952' stroke='#9a7b3f' fill='none' stroke-width='.54794' stroke-miterlimit='10'/>
+<path d='M205.1551 162.85716L304.3689 118.91952' stroke='#9a7b3f' fill='none' stroke-width='.54794' stroke-miterlimit='10'/>
+<path d='M329.03048 235.14161L205.1551 191.20398' stroke='#9a7b3f' fill='none' stroke-width='.54794' stroke-miterlimit='10'/>
+<path d='M329.03048 235.14161L453.18966 191.20398' stroke='#9a7b3f' fill='none' stroke-width='.54794' stroke-miterlimit='10'/>
+<path d='M92.46524 18.70938H20.20343C19.37809 18.70938 18.70902 19.37844 18.70902 20.2038V44.72041C18.70902 45.54576 19.37809 46.21482 20.20343 46.21482H92.46524C93.2906 46.21482 93.95966 45.54576 93.95966 44.72041V20.2038C93.95966 19.37844 93.2906 18.70938 92.46524 18.70938Z' fill='#efe7d4'/>
+<path d='M92.46524 18.70938H20.20343C19.37809 18.70938 18.70902 19.37844 18.70902 20.2038V44.72041C18.70902 45.54576 19.37809 46.21482 20.20343 46.21482H92.46524C93.2906 46.21482 93.95966 45.54576 93.95966 44.72041V20.2038C93.95966 19.37844 93.2906 18.70938 92.46524 18.70938Z' stroke='#9a7b3f' fill='none' stroke-width='.49814' stroke-miterlimit='10'/>
+<text class='f0' x='203.747449' y='177.266539' transform='matrix(1.000268 0 0 1.000268 -161.861 -151.224)'><tspan fill='#1a1a1a'>F</tspan><tspan fill='#1a1a1a' x='208.072571'>riedrich</tspan><tspan fill='#1a1a1a' x='195.440673' y='186.231129'>Geo</tspan><tspan fill='#1a1a1a' x='208.005209'>rg</tspan><tspan fill='#1a1a1a' x='217.320315'>Go</tspan><tspan fill='#1a1a1a' x='226.799757'>ethe</tspan></text>
+<text class='f1' x='199.138491' y='195.24455' transform='matrix(1.000013 0 0 1.000013 -161.861 -151.224)'><tspan fill='#1a1a1a'>1657–1730</tspan></text>
+<path d='M191.67908 27.67587H119.41727C118.59192 27.67587 117.92286 28.34494 117.92286 29.17028V35.75392C117.92286 36.57926 118.59192 37.24833 119.41727 37.24833H191.67908C192.50443 37.24833 193.1735 36.57926 193.1735 35.75392V29.17028C193.1735 28.34494 192.50443 27.67587 191.67908 27.67587Z' fill='#efe7d4'/>
+<path d='M191.67908 27.67587H119.41727C118.59192 27.67587 117.92286 28.34494 117.92286 29.17028V35.75392C117.92286 36.57926 118.59192 37.24833 119.41727 37.24833H191.67908C192.50443 37.24833 193.1735 36.57926 193.1735 35.75392V29.17028C193.1735 28.34494 192.50443 27.67587 191.67908 27.67587Z' stroke='#9a7b3f' fill='none' stroke-width='.49814' stroke-miterlimit='10'/>
+<text class='f0' x='191.685679' y='177.266539' transform='matrix(1.000268 0 0 1.000268 -62.647005 -142.25699)'><tspan fill='#1a1a1a'>Co</tspan><tspan fill='#1a1a1a' x='200.507747'>rnelia</tspan><tspan fill='#1a1a1a' x='221.087597'>Go</tspan><tspan fill='#1a1a1a' x='230.567039'>ethe</tspan></text>
+<path d='M142.07218 90.99337H69.81035C68.985 90.99337 68.31594 91.66244 68.31594 92.48779V117.00442C68.31594 117.82977 68.985 118.49884 69.81035 118.49884H142.07218C142.89751 118.49884 143.5666 117.82977 143.5666 117.00442V92.48779C143.5666 91.66244 142.89751 90.99337 142.07218 90.99337Z' fill='#efe7d4'/>
+<path d='M142.07218 90.99337H69.81035C68.985 90.99337 68.31594 91.66244 68.31594 92.48779V117.00442C68.31594 117.82977 68.985 118.49884 69.81035 118.49884H142.07218C142.89751 118.49884 143.5666 117.82977 143.5666 117.00442V92.48779C143.5666 91.66244 142.89751 90.99337 142.07218 90.99337Z' stroke='#9a7b3f' fill='none' stroke-width='.49814' stroke-miterlimit='10'/>
+<text class='f0' x='197.616091' y='177.266539' transform='matrix(1.000268 0 0 1.000268 -112.254 -78.93999)'><tspan fill='#1a1a1a'>Johann</tspan><tspan fill='#1a1a1a' x='224.089783'>Cas-</tspan><tspan fill='#1a1a1a' x='199.863489' y='186.231129'>pa</tspan><tspan fill='#1a1a1a' x='207.557589'>r</tspan><tspan fill='#1a1a1a' x='212.906117'>Go</tspan><tspan fill='#1a1a1a' x='222.385559'>ethe</tspan></text>
+<text class='f1' x='199.138501' y='195.24455' transform='matrix(1.000013 0 0 1.000013 -112.254 -78.93999)'><tspan fill='#1a1a1a'>1710–1782</tspan></text>
+<path d='M290.8929 18.70938H218.6311C217.80576 18.70938 217.13668 19.37844 217.13668 20.2038V44.72041C217.13668 45.54576 217.80576 46.21482 218.6311 46.21482H290.8929C291.71824 46.21482 292.38732 45.54576 292.38732 44.72041V20.2038C292.38732 19.37844 291.71824 18.70938 290.8929 18.70938Z' fill='#efe7d4'/>
+<path d='M290.8929 18.70938H218.6311C217.80576 18.70938 217.13668 19.37844 217.13668 20.2038V44.72041C217.13668 45.54576 217.80576 46.21482 218.6311 46.21482H290.8929C291.71824 46.21482 292.38732 45.54576 292.38732 44.72041V20.2038C292.38732 19.37844 291.71824 18.70938 290.8929 18.70938Z' stroke='#9a7b3f' fill='none' stroke-width='.49814' stroke-miterlimit='10'/>
+<text class='f0' x='195.797578' y='177.266539' transform='matrix(1.000268 0 0 1.000268 36.566 -151.224)'><tspan fill='#1a1a1a'>Johann</tspan><tspan fill='#1a1a1a' x='222.27127'>W</tspan><tspan fill='#1a1a1a' x='229.55452'>olf-</tspan><tspan fill='#1a1a1a' x='198.25492' y='186.231129'>gang</tspan><tspan fill='#1a1a1a' x='216.74318'>T</tspan><tspan fill='#1a1a1a' x='221.509044'>exto</tspan><tspan fill='#1a1a1a' x='235.313598'>r</tspan></text>
+<text class='f1' x='199.138491' y='195.24455' transform='matrix(1.000013 0 0 1.000013 36.566 -151.224)'><tspan fill='#1a1a1a'>1693–1771</tspan></text>
+<path d='M390.10673 18.70938H317.84492C317.01957 18.70938 316.3505 19.37844 316.3505 20.2038V44.72041C316.3505 45.54576 317.01957 46.21482 317.84492 46.21482H390.10673C390.93208 46.21482 391.60114 45.54576 391.60114 44.72041V20.2038C391.60114 19.37844 390.93208 18.70938 390.10673 18.70938Z' fill='#efe7d4'/>
+<path d='M390.10673 18.70938H317.84492C317.01957 18.70938 316.3505 19.37844 316.3505 20.2038V44.72041C316.3505 45.54576 317.01957 46.21482 317.84492 46.21482H390.10673C390.93208 46.21482 391.60114 45.54576 391.60114 44.72041V20.2038C391.60114 19.37844 390.93208 18.70938 390.10673 18.70938Z' stroke='#9a7b3f' fill='none' stroke-width='.49814' stroke-miterlimit='10'/>
+<text class='f0' x='200.226392' y='177.266539' transform='matrix(1.000268 0 0 1.000268 135.78 -151.224)'><tspan fill='#1a1a1a'>Anna</tspan><tspan fill='#1a1a1a' x='220.171282'>Ma</tspan><tspan fill='#1a1a1a' x='230.689036'>r-</tspan><tspan fill='#1a1a1a' x='193.891088' y='186.231129'>ga</tspan><tspan fill='#1a1a1a' x='201.450724'>retha</tspan><tspan fill='#1a1a1a' x='221.104292'>T</tspan><tspan fill='#1a1a1a' x='225.877604'>exto</tspan><tspan fill='#1a1a1a' x='239.67469'>r</tspan></text>
+<text class='f1' x='199.138491' y='195.24455' transform='matrix(1.000013 0 0 1.000013 135.78 -151.224)'><tspan fill='#1a1a1a'>1711–1783</tspan></text>
+<path d='M340.49981 90.99337H268.238C267.41265 90.99337 266.74358 91.66244 266.74358 92.48779V117.00442C266.74358 117.82977 267.41265 118.49884 268.238 118.49884H340.49981C341.32516 118.49884 341.99422 117.82977 341.99422 117.00442V92.48779C341.99422 91.66244 341.32516 90.99337 340.49981 90.99337Z' fill='#efe7d4'/>
+<path d='M340.49981 90.99337H268.238C267.41265 90.99337 266.74358 91.66244 266.74358 92.48779V117.00442C266.74358 117.82977 267.41265 118.49884 268.238 118.49884H340.49981C341.32516 118.49884 341.99422 117.82977 341.99422 117.00442V92.48779C341.99422 91.66244 341.32516 90.99337 340.49981 90.99337Z' stroke='#9a7b3f' fill='none' stroke-width='.49814' stroke-miterlimit='10'/>
+<text class='f0' x='193.719134' y='177.266539' transform='matrix(1.000268 0 0 1.000268 86.173007 -78.93999)'><tspan fill='#1a1a1a'>Catha</tspan><tspan fill='#1a1a1a' x='213.163528'>rina</tspan><tspan fill='#1a1a1a' x='228.32016'>Elis-</tspan><tspan fill='#1a1a1a' x='195.75159' y='186.231129'>ab</tspan><tspan fill='#1a1a1a' x='203.878954'>eth</tspan><tspan fill='#1a1a1a' x='217.018676'>Go</tspan><tspan fill='#1a1a1a' x='226.498118'>ethe</tspan></text>
+<text class='f1' x='199.138501' y='195.24455' transform='matrix(1.000013 0 0 1.000013 86.173007 -78.93999)'><tspan fill='#1a1a1a'>1731–1808</tspan></text>
+<path d='M241.286 163.27783H169.02419C168.19884 163.27783 167.52978 163.9469 167.52978 164.77224V189.28888C167.52978 190.11421 168.19884 190.78329 169.02419 190.78329H241.286C242.11135 190.78329 242.78042 190.11421 242.78042 189.28888V164.77224C242.78042 163.9469 242.11135 163.27783 241.286 163.27783Z' fill='#efe7d4'/>
+<path d='M241.286 163.27783H169.02419C168.19884 163.27783 167.52978 163.9469 167.52978 164.77224V189.28888C167.52978 190.11421 168.19884 190.78329 169.02419 190.78329H241.286C242.11135 190.78329 242.78042 190.11421 242.78042 189.28888V164.77224C242.78042 163.9469 242.11135 163.27783 241.286 163.27783Z' stroke='#9a7b3f' fill='none' stroke-width='.49814' stroke-miterlimit='10'/>
+<text class='f0' x='195.797578' y='177.266539' transform='matrix(1.000268 0 0 1.000268 -13.040001 -6.655991)'><tspan fill='#1a1a1a'>Johann</tspan><tspan fill='#1a1a1a' x='222.27127'>W</tspan><tspan fill='#1a1a1a' x='229.55452'>olf-</tspan><tspan fill='#1a1a1a' x='189.955152' y='186.231129'>gang</tspan><tspan fill='#1a1a1a' x='208.443392'>von</tspan><tspan fill='#1a1a1a' x='222.815684'>Go</tspan><tspan fill='#1a1a1a' x='232.287648'>ethe</tspan></text>
+<text class='f1' x='199.138501' y='195.24455' transform='matrix(1.000013 0 0 1.000013 -13.040001 -6.655991)'><tspan fill='#1a1a1a'>1749–1832</tspan></text>
+<path d='M489.32057 163.27783H417.05876C416.2334 163.27783 415.56434 163.9469 415.56434 164.77224V189.28888C415.56434 190.11421 416.2334 190.78329 417.05876 190.78329H489.32057C490.14591 190.78329 490.81498 190.11421 490.81498 189.28888V164.77224C490.81498 163.9469 490.14591 163.27783 489.32057 163.27783Z' fill='#efe7d4'/>
+<path d='M489.32057 163.27783H417.05876C416.2334 163.27783 415.56434 163.9469 415.56434 164.77224V189.28888C415.56434 190.11421 416.2334 190.78329 417.05876 190.78329H489.32057C490.14591 190.78329 490.81498 190.11421 490.81498 189.28888V164.77224C490.81498 163.9469 490.14591 163.27783 489.32057 163.27783Z' stroke='#9a7b3f' fill='none' stroke-width='.49814' stroke-miterlimit='10'/>
+<text class='f0' x='201.629016' y='177.266539' transform='matrix(1.000268 0 0 1.000268 234.994 -6.655991)'><tspan fill='#1a1a1a'>Christiane</tspan><tspan fill='#1a1a1a' x='199.201666' y='186.231129'>von</tspan><tspan fill='#1a1a1a' x='213.573958'>Go</tspan><tspan fill='#1a1a1a' x='223.045922'>ethe</tspan></text>
+<text class='f1' x='199.138501' y='195.24455' transform='matrix(1.000013 0 0 1.000013 234.994 -6.655991)'><tspan fill='#1a1a1a'>1765–1816</tspan></text>
+<path d='M365.16138 240.04553H292.89957C292.07423 240.04553 291.40516 240.7146 291.40516 241.53995V257.09005C291.40516 257.9154 292.07423 258.58447 292.89957 258.58447H365.16138C365.98673 258.58447 366.6558 257.9154 366.6558 257.09005V241.53995C366.6558 240.7146 365.98673 240.04553 365.16138 240.04553Z' fill='#e9d9a8'/>
+<path d='M365.16138 240.04553H292.89957C292.07423 240.04553 291.40516 240.7146 291.40516 241.53995V257.09005C291.40516 257.9154 292.07423 258.58447 292.89957 258.58447H365.16138C365.98673 258.58447 366.6558 257.9154 366.6558 257.09005V241.53995C366.6558 240.7146 365.98673 240.04553 365.16138 240.04553Z' stroke='#9a7b3f' fill='none' stroke-width='.89664' stroke-miterlimit='10'/>
+<text class='f0' x='186.307119' y='177.266539' transform='matrix(1.000268 0 0 1.000268 110.835 70.11201)'><tspan fill='#1a1a1a'>A</tspan><tspan fill='#1a1a1a' x='191.379241'>ugust</tspan><tspan fill='#1a1a1a' x='212.093565'>von</tspan><tspan fill='#1a1a1a' x='226.465857'>Go</tspan><tspan fill='#1a1a1a' x='235.945299'>ethe</tspan></text>
+<text class='f1' x='199.138491' y='186.278653' transform='matrix(1.000013 0 0 1.000013 110.835 70.11201)'><tspan fill='#1a1a1a'>1789–1830</tspan></text>
+<text class='f2' x='182.835379' y='177.385191' transform='matrix(.999599 0 0 .999599 39.817 143.714)'><tspan fill='#9a7b3f'>House</tspan><tspan fill='#9a7b3f' x='209.431423'>of</tspan><tspan fill='#9a7b3f' x='219.935288'>Go</tspan><tspan fill='#9a7b3f' x='230.941476'>ethe</tspan></text>
+</g>
+</svg></figure><ol class="house-roster"><li><span class="hr-name">Friedrich Georg Goethe</span><span class="hr-dates">1657–1730</span><span class="hr-note">paternal grandfather; tailor → wealthy innkeeper (Weidenhof), Frankfurt</span></li><li><span class="hr-name">Cornelia Goethe (née Walther)</span><span class="hr-note">paternal grandmother; widow Schellhorn — dates UNVERIFIED</span></li><li><span class="hr-name">Johann Wolfgang Textor</span><span class="hr-dates">1693–1771</span><span class="hr-note">maternal grandfather; Stadtschultheiß (chief magistrate) of Frankfurt — J.W. was named for him</span></li><li><span class="hr-name">Anna Margaretha Textor (née Lindheimer)</span><span class="hr-dates">1711–1783</span><span class="hr-note">maternal grandmother — dates approximate</span></li><li><span class="hr-name">Johann Caspar Goethe</span><span class="hr-dates">1710–1782</span><span class="hr-note">imperial councillor; of 6 children only Wolfgang &amp; Cornelia reached adulthood</span></li><li><span class="hr-name">Catharina Elisabeth Goethe (née Textor)</span><span class="hr-dates">1731–1808</span></li><li><span class="hr-name">Johann Wolfgang von Goethe</span><span class="hr-dates">1749–1832</span><span class="hr-note">Poet, statesman, naturalist of Weimar; author of Faust and the Italian Journey.</span></li><li><span class="hr-name">Cornelia Schlosser (née Goethe)</span><span class="hr-dates">1750–1777</span><span class="hr-note">sister</span></li><li><span class="hr-name">Christiane von Goethe (née Vulpius)</span><span class="hr-dates">1765–1816</span><span class="hr-note">5 children with Goethe; only August survived infancy</span></li><li><span class="hr-name">Christian August Vulpius</span><span class="hr-dates">1762–1827</span><span class="hr-note">Christiane&#x27;s brother; novelist (Rinaldo Rinaldini)</span></li><li><span class="hr-name">August von Goethe</span><span class="hr-dates">1789–1830</span></li><li><span class="hr-name">Ottilie von Goethe (née von Pogwisch)</span><span class="hr-dates">1796–1872</span></li><li><span class="hr-name">Walther von Goethe</span><span class="hr-dates">1818–1885</span><span class="hr-note">composer; died without issue</span></li><li><span class="hr-name">Wolfgang von Goethe</span><span class="hr-dates">1820–1883</span><span class="hr-note">jurist; died without issue</span></li><li><span class="hr-name">Alma von Goethe</span><span class="hr-dates">1827–1844</span><span class="hr-note">died young — legitimate line extinct</span></li></ol></div></div></article></main></body></html>

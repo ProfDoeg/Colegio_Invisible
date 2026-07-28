@@ -41,3 +41,11 @@ All others confirmed correct (Margny at the bridgehead, Tourelles at the south b
 **campa.** All present tense, mythic-national register; the great episodes (Chinon recognition, Tourelles, the leap, the grace answer, the stake) carry their full weight. Six stops ran 111-116 words; trimmed surgically to ≤110 (Reims, Beaurevoir, first session, Saint-Ouen abjuration, relapse, the stake) without losing any canonical detail.
 
 **Re-validation.** Full python pass after repairs: schema, ordering, word counts, coordinate types — zero problems.
+
+---
+
+**INTERLOCK 2026-07-13.** Return-the-gaze pass after joffrey_bourlemont and pierre_bourlemont landed. Three childhood stops now look back:
+- **Tree of Bourlemont (1421-03-30, 48.4302/5.6706):** the tree already stood on Bourlémont land in the campa; added the teller — two hundred years gone, old Joffrey de Bourlémont, home from Jerusalem, told the dancing children of the Holy Land and the dragons. Pin verified byte-identical with joffrey_bourlemont's tree stops. Canon: essays/instagram/2022-12-22-joffrey-bourlemont-nacio-en-medio-de.md.
+- **Fontaine des Fiévreux (1421-03-30, 48.4295/5.6699):** the well built for the spring by Joffrey de Bourlémont home from Jerusalem — pin byte-identical with joffrey's well stop. Same canon essay.
+- **Ladies' Tree, 1428-03-14:** the godmother stop; her romance of the tree woven in — the Seigneur Pierre de Bourlément and a lady called Fée, met beneath these boughs (the 1456 rehabilitation testimony; this file has no 1456 stop, so the godmother carries it). Canon: essays/instagram/2024-09-27-1-en-el-juicio-de-rehabilitacion.md.
+Joan's own 1431 trial quotes untouched throughout; trims for the 110-word cap were framing words only (feast epithets, doubled pronouns). Re-validated: OK, 58 stops, no WARN.

@@ -58,3 +58,6 @@ Structural and canon-fidelity pass. Nothing debunked; the marvels stand.
 **Campa (repaired in place).** The researcher reported "5 entries 116-118 words"; a full recount found **15** entries over the 110-word ceiling (111-118). All 15 were trimmed by cutting redundancy, not imagery — the great episodes (Polyphemus, the Descent, Scylla, Thrinacia, Calypso, the bed, Laertes) keep their vividness. Post-repair all 31 campa fall within 60-110 words (range 92-110), present tense and register preserved. Re-validated: JSON parses, 31 stops / 9 segments intact.
 
 **Verdict.** Canon-faithful and structurally sound. Only substantive repair was the systematic campa over-length; coordinates, dates, quotes, and confidences all pass as written.
+
+## Pin stitch — 2026-07-13
+Connectivity audit: same-site pins normalized to weld the hard pin-lattice (atlas convention: shared sites byte-identical). Troy (the horse and the sack, -1184-06-01) repinned 39.957,26.239 → 39.9576,26.2389 to byte-match aeneas's citadel stop of the same date — the two epics now stand on one coordinate.

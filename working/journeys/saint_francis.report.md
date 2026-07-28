@@ -46,3 +46,13 @@ Verified 2026-07-04 (structure and canon-fidelity pass; register untouched — t
 **Detail.** 55 stops sits at the top of the 35–55 target; no additions needed.
 
 Re-validated with python after repairs: parses, ordering intact, no schema or word-count violations.
+
+---
+
+**INTERLOCK 2026-07-13.** Return-the-gaze pass after pica_bourlemont, pierre_bourlemont and joffrey_bourlemont landed. Four stops now look back:
+- **Birth stall (1182-01-01):** the mother is named in full — Pica Bourlémont, her vision in pregnancy, the ground floor emptied into a manger, the child born into a performance of Bethlehem, the first presepe staged by his mother. The father's renaming moved down to the baptism stop to make room. Canon: essays/instagram/2023-07-10-francisco-de-asis-es-reconocido-por.md (added to sources with pica_bourlemont.journey.json, shared pin).
+- **San Rufino baptism (1182-01-08):** Giovanni is the mother's name for the Baptist; Francesco the father's — for HER French culture, the troubadour poetry, the exquisite cloth of Provence, and the family Bourlémont. Traded out the Frederick II aside to stay under 110. Canon: essays/instagram/2023-01-14-la-familia-bourlemont-de-domremy-y.md.
+- **Renunciation (1206-04-10):** Pica loosing the chains (1 Cel 13) made explicit in the opening clause, and the mother's consolation woven at the close — one name, Giovanna and Giovanni, one troubadour fire, always her son and a Bourlémont. The full speech is quoted whole in pica_bourlemont.journey.json (referenced in sources, not duplicated). Canon: essays/instagram/2023-01-22-cuando-el-pobre-giovanni-de-pica.md.
+- **Greccio (1223-12-24):** among the pilgrims, his cousin Pierre Bourlémont holding the hand of twelve-year-old Joffrey (pin 42.4619/12.751 byte-identical across all three files). Trimmed "Fifteen days before Christmas" framing to fit. Canon: essays/instagram/2023-01-25-pierre-viajo-con-su-unico-hijo.md.
+- **La Verna (1224-09-14):** one clause — the count is his mother's: the Khamsa Pierre sang into Pica, the five sufferings become five wounds. Traded the log-bridge/falcon detail. Canon: essays/207_hebraic_knots.md.
+No quotes altered. Re-validated: OK, 55 stops, no WARN.
