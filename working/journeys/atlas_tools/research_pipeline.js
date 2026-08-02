@@ -2,13 +2,13 @@ export const meta = {
   name: 'atlas-research',
   description: 'Research one queue subject into a report.md and journey.json, clickless',
   phases: [
-    { title: 'Gather', detail: 'five haiku lenses over web + PDFs', model: 'haiku' },
+    { title: 'Gather', detail: 'five sonnet lenses over web + PDFs', model: 'sonnet' },
     { title: 'Verify', detail: 'two opus adversarial checkers', model: 'opus' },
     { title: 'Write', detail: 'opus drafts report + journey in house style', model: 'opus' },
     { title: 'Gate', detail: 'mechanical style checks + fix loop' },
   ],
 }
-// The atlas research pipeline. Cheap model gathers, Opus verifies and writes,
+// The atlas research pipeline. Sonnet gathers, Opus verifies and writes,
 // the gate enforces house style mechanically. Fable orchestrates from the
 // main loop. See docs/guides/research-pipeline.md.
 const A = typeof args === 'string' ? JSON.parse(args) : args
@@ -44,7 +44,7 @@ const LENSES = [
   { key: 'afterlife', prompt: `Research the afterlife and iconography of ${NAME} (${BRIEF}): tomb and its fate, editions and translations of their work, monuments, legends that grew later, modern rediscovery. Return 8-15 items: claim, tag, source, date, place with lat/lng where a real site exists.` },
 ]
 const gathered = await parallel(LENSES.map(l => () =>
-  agent(l.prompt + '\n\n' + HOUSE, { label: `gather:${l.key}`, phase: 'Gather', schema: SCHEMA_ITEMS, model: 'haiku', effort: 'low' })
+  agent(l.prompt + '\n\n' + HOUSE, { label: `gather:${l.key}`, phase: 'Gather', schema: SCHEMA_ITEMS, model: 'sonnet', effort: 'medium' })
 ))
 const pool = {}
 LENSES.forEach((l, i) => { pool[l.key] = (gathered[i] && gathered[i].items) || [] })
@@ -63,7 +63,7 @@ const VERDICTS = {
 const factPayload = JSON.stringify({ chronology: pool.chronology, geography: pool.geography, afterlife: pool.afterlife })
 const quotePayload = JSON.stringify(pool.quotes)
 const [factCheck, quoteCheck] = await parallel([
-  () => agent(`You are the adversarial fact checker for an atlas entry on ${NAME}. A cheaper model gathered these claims. Your job is to REFUTE: re-search the most doubtful dates, places, and coordinates (WebSearch/WebFetch; read PDFs with python3+pypdf if needed). Dates off by years, coordinates pointing at the wrong place, legends tagged [A] that are actually [R], events that never happened. For each item you checked return a verdict (index within its lens array, lens name, CONFIRMED/CORRECTED/REJECTED/UNVERIFIABLE, correction text with source when CORRECTED). Prioritize: every [A] tag, every coordinate, every date that anchors the chronology. Check at least 25 items.\n\nCLAIMS: ${factPayload}`,
+  () => agent(`You are the adversarial fact checker for an atlas entry on ${NAME}. A research model gathered these claims. Your job is to REFUTE: re-search the most doubtful dates, places, and coordinates (WebSearch/WebFetch; read PDFs with python3+pypdf if needed). Dates off by years, coordinates pointing at the wrong place, legends tagged [A] that are actually [R], events that never happened. For each item you checked return a verdict (index within its lens array, lens name, CONFIRMED/CORRECTED/REJECTED/UNVERIFIABLE, correction text with source when CORRECTED). Prioritize: every [A] tag, every coordinate, every date that anchors the chronology. Check at least 25 items.\n\nCLAIMS: ${factPayload}`,
     { label: 'verify:facts', phase: 'Verify', schema: VERDICTS, model: 'opus', effort: 'high' }),
   () => agent(`You are the quote authenticator for an atlas entry on ${NAME}. AI-invented quotations are the single worst failure this pipeline can produce. For EVERY quote below: trace it to a citable source by searching; if you cannot see the words in a real source, verdict REJECTED. Return one verdict per quote (index, lens="quotes", verdict, correction = the traced source or reason for rejection).\n\nQUOTES: ${quotePayload}`,
     { label: 'verify:quotes', phase: 'Verify', schema: VERDICTS, model: 'opus', effort: 'high' }),

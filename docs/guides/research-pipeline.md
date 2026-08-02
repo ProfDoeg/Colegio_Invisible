@@ -5,7 +5,7 @@ Canonical script: working/journeys/atlas_tools/research_pipeline.js (invoke via
 the Workflow tool with scriptPath + args {slug, name, brief, dir}).
 
 Division of labor, fixed by the author (2026-08-02):
-- Gather: five haiku lenses (chronology, geography, quotes, corpus interlock,
+- Gather: five sonnet lenses (chronology, geography, quotes, corpus interlock,
   afterlife) over WebSearch/WebFetch, PDFs read with python3 + pypdf.
 - Verify: two Opus adversarial checkers. One refutes facts, dates, and
   coordinates; one authenticates every quotation - an invented quote is the
