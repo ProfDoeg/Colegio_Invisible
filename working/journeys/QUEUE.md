@@ -194,3 +194,10 @@ docs = corpus documents, 0 where the subject is not yet written of.
 | 0 | **Isabelle Eberhardt** | Geneva to the Sahara as Si Mahmoud; converted, initiated, drowned in a desert flood |
 | 0 | **Hildegard von Bingen** | the Rhine journeys of the sibyl; preaching tours no abbess made before her |
 | 0 | **La Difunta Correa** | folk saint of San Juan who died on a journey, the child alive at her breast; roadside shrines of water bottles |
+| 2 | **Aby Warburg** | art historian of the Mnemosyne Atlas - an atlas of images; the 1896 journey to the Hopi serpent ritual; the library that migrated whole from Hamburg to London |
+| 0 | **Emma Kunz** | Swiss healer and artist of the pendulum grid drawings on graph paper; discovered AION A in the Roman quarry; kin to Hilma af Klint already queued |
+| 0 | **André Breton** | surrealist pope of Nadja and the objective chance walk; wartime crossing to Martinique and New York |
+| 0 | **Juan Eduardo Cirlot** | Barcelona poet-symbologist of the Diccionario de símbolos; hermetic knight of the Order of Toledo |
+| 0 | **W.G. Sebald** | Max Sebald, the walker of The Rings of Saturn; emigration as the wound that writes; died mid-journey on the road |
+| 0 | **Mary Shelley** | the 1816 Geneva summer that birthed Frankenstein; elopement across the Alps at sixteen; History of a Six Weeks' Tour |
+| 0 | **W.B. Yeats** | Golden Dawn initiate, the tower at Thoor Ballylee, the gyres; Byzantium as a journey of the soul |
