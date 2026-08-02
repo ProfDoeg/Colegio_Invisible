@@ -22,6 +22,9 @@ SRC_DIR = os.path.join(HERE, 'es') if ES else HERE
 OUT = os.path.join(OUT_DIR, 'atlas_globe_es.html' if ES else 'atlas_globe.html')
 
 # ---- date key: comparable float, BCE-safe (-0966-05-01 < -0530-01-01) ------
+# The year stays negative for BCE but month/day advance FORWARD inside it:
+# negating the whole fraction made June 1738 BC sort before January 1738 BC,
+# which inverted next/prev-in-time navigation within any single BCE year.
 def datekey(iso):
     if not iso: return 0.0
     neg = iso.startswith('-')
@@ -31,8 +34,8 @@ def datekey(iso):
         y, m, d = int(p[0]), int(p[1] or 1), int(p[2] or 1)
     except ValueError:
         return 0.0
-    k = y + (m - 1) / 12.0 + (d - 1) / 372.0
-    return -k if neg else k
+    frac = (m - 1) / 12.0 + (d - 1) / 372.0
+    return (-y + frac) if neg else (y + frac)
 
 # ---- gather the atlas -------------------------------------------------------
 travelers = []
