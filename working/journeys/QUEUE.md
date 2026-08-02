@@ -249,3 +249,4 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Diogenes of Sinope** | the Dog himself - exiled for defacing the currency, sold by pirates, the jar, the lantern seeking an honest man; Alexander already carries their meeting: stand out of my sunlight |
 | 0 | **Piri Reis** | Ottoman admiral of the 1513 map with the coastline no one should have known - the source of five centuries of Antarctic dreaming; compiled from captured charts, one said to be Columbus's own; executed at eighty-four |
 | 0 | **Raquel Liberman** | Polish-Jewish immigrant to Buenos Aires, widowed, trafficked by the Zwi Migdal; her 1930 denunciation to comisario Alsogaray broke the network; died 1935 preparing her return to Poland |
+| 0 | **Jacques Lacan** | French psychoanalyst, 'return to Freud', the mirror stage and the Real-Symbolic-Imaginary; joins the corpus's Freud, structuralist wing (Levi-Strauss, Barthes, Foucault, Deleuze) already queued |
