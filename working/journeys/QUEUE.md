@@ -238,3 +238,13 @@ the manifesto, and the cipher.
 | 0 | **Guy Debord** | the dérive - drifting as method, psychogeography, the city read by walking; Society of the Spectacle; the atlas's practice named as theory |
 | 0 | **Clotilde Sakharoff** | Clotilde von Derp of the Blaue Reiter Munich, abstract mime with Alexander across the world's stages, teaching at the end in Buenos Aires - the edge between the dance wing and Argentina |
 | 0 | **F.T. Marinetti** | born in Alexandria, the Futurist Manifesto flung from a ditch beside a crashed car; speed itself as pilgrimage; joins the dannunzio-mussolini cluster it helped create |
+
+## The seal (2026-08-02)
+
+The last two. With these the constellation stands at 333: 153 traveling,
+180 waiting.
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Diogenes of Sinope** | the Dog himself - exiled for defacing the currency, sold by pirates, the jar, the lantern seeking an honest man; Alexander already carries their meeting: stand out of my sunlight |
+| 0 | **Piri Reis** | Ottoman admiral of the 1513 map with the coastline no one should have known - the source of five centuries of Antarctic dreaming; compiled from captured charts, one said to be Columbus's own; executed at eighty-four |
