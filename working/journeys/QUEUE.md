@@ -156,3 +156,5 @@ essays+Instagram corpus.
 | - | **Los Catorce Santos Ayudantes** | the Fourteen Holy Helpers as a company - Acacius, Blaise, Christopher, Cyriacus, Denis, Erasmus, Eustace, George, Pantaleon, Vitus (Barbara, Catherine, Giles, Margaret already travel in the atlas) |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
+| 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
+| 0 | **Tommaso Campanella** | Dominican friar of La Città del Sole, the City of the Sun; 27 years imprisoned in Naples, astrologer to popes; author pick, not yet in the corpus |
