@@ -216,3 +216,25 @@ Chosen to connect subspaces of the social graph that currently share no edge.
 | 0 | **Maslama al-Majrītī** | astronomer of Madrid, transmitter of the Rasā'il Ikhwān al-Ṣafā' to al-Andalus; traditional name over the Ghāyat al-Ḥakīm, the Picatrix |
 | 0 | **Ahmad al-Majrītī** | of the Majrītī school, the name the Rutbat al-Ḥakīm and Picatrix circle travels under |
 | 0 | **Maslama al-Qurṭubī** | the Ghāyat al-Ḥakīm's author by modern attribution; Córdoba, the talismanic art gathered into one book that reached Europe as Picatrix |
+
+## The author's slate (2026-08-02)
+
+Dance and its impresario, the Babylonian arc to the five arrows, the drift,
+the manifesto, and the cipher.
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Vaslav Nijinsky** | the god of dance, married in Buenos Aires 1913 - the wedding that broke Diaghilev; the Diary; thirty years of silence in Switzerland |
+| 0 | **Sergei Diaghilev** | the impresario who never danced a step and moved the whole Ballets Russes across the world; died in Venice, buried on San Michele beside where Stravinsky would follow |
+| 0 | **Moshé Feldenkrais** | walked to Palestine at fourteen; judo in Paris under Kano's men; physicist beside Joliot-Curie; the somatics that joins the Gindler wing - physical culture, physics, and diaspora in one life |
+| 0 | **Anna Pavlova** | died on tour refusing the surgery that would end her dancing: prepare my swan costume; toured South America into the atlas's own cities |
+| 1 | **Marie Taglioni** | the first sylph, the invention of pointe; legend says bandits made her dance in the road; already one corpus document |
+| 0 | **Loïe Fuller** | the serpentine dance - cloth in motion as pure light, the book's own medium; patented her lighting, befriended the Curies |
+| 1 | **Ezekiel** | prophet of the exile itself, the merkabah seen by the river Chebar; his tomb at al-Kifl kept by Iraq's Jews until their own exodus |
+| 0 | **Saadia Gaon** | Egypt to Sura, the Babylonian academies at their summit; translated Torah into Arabic; the axis the Yehudim Bavlim essay stands on |
+| 0 | **David Sassoon** | Baghdad's treasurer fleeing the pasha, rebuilding in Bombay until the Baghdadi diaspora ran Shanghai to London; the exile gone planetary |
+| 0 | **Mayer Amschel Rothschild** | the Frankfurt Judengasse to the five arrows - five sons sent to five capitals; the court-Jews thread become a constellation of its own |
+| 0 | **al-Kindi** | philosopher of the Arabs at the House of Wisdom; the Risala that invented frequency analysis - ancestor of the book's own cipher practice, joining Trithemius and Shannon across a millennium |
+| 0 | **Guy Debord** | the dérive - drifting as method, psychogeography, the city read by walking; Society of the Spectacle; the atlas's practice named as theory |
+| 0 | **Clotilde Sakharoff** | Clotilde von Derp of the Blaue Reiter Munich, abstract mime with Alexander across the world's stages, teaching at the end in Buenos Aires - the edge between the dance wing and Argentina |
+| 0 | **F.T. Marinetti** | born in Alexandria, the Futurist Manifesto flung from a ditch beside a crashed car; speed itself as pilgrimage; joins the dannunzio-mussolini cluster it helped create |
