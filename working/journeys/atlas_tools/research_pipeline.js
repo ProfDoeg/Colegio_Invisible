@@ -30,9 +30,11 @@ COMMAND STYLE (violations trigger manual permission prompts and ABORT the run):
 - NEVER use a bash heredoc (<<PY, <<'PY', <<EOF). For any python beyond a trivial
   single-quoted one-liner: FIRST use the Write tool to save the script to
   ${A.dir}/atlas_tools/_scratch_<yourlens>.py, THEN run
-  python3 ${A.dir}/atlas_tools/_scratch_<yourlens>.py. Delete is unnecessary.
+  python3 ${A.dir}/atlas_tools/_scratch_<yourlens>.py. Delete is unnecessary; leave scratch files in place.
 - python3 -c is allowed only with the entire program in single quotes and no
-  braces containing quote characters; when in doubt, use a script file.`
+  braces containing quote characters; when in doubt, use a script file.
+- NEVER curl or wget; fetch pages with WebFetch and files with python urllib
+  inside your script. NEVER wrap commands in timeout, nice, or env.`
 
 const SCHEMA_ITEMS = {
   type: 'object',
