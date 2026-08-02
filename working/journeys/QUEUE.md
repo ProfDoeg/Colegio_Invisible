@@ -201,3 +201,4 @@ docs = corpus documents, 0 where the subject is not yet written of.
 | 0 | **W.G. Sebald** | Max Sebald, the walker of The Rings of Saturn; emigration as the wound that writes; died mid-journey on the road |
 | 0 | **Mary Shelley** | the 1816 Geneva summer that birthed Frankenstein; elopement across the Alps at sixteen; History of a Six Weeks' Tour |
 | 0 | **W.B. Yeats** | Golden Dawn initiate, the tower at Thoor Ballylee, the gyres; Byzantium as a journey of the soul |
+| 10 | **Ral Veroni** | Argentine artist of the intervened banknotes and tarot graphics, collaborator of the author; 10 corpus documents |
