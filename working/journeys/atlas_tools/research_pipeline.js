@@ -22,7 +22,16 @@ const HOUSE = `HOUSE STYLE (non-negotiable):
 - Straight quotes only, never curly.
 - campa: 450-650 characters each, present tense, third person, mythic register ("national mythology: the canon is true"). State facts; let juxtaposition interpret. No AI filler (no "significance inflation", no rule-of-three reflex, no summary closings).
 - quote fields are verbatim source text, optional (about a third of stops), untouched by style rules.
-- Evidence discipline: every factual claim is [A] attested (with the source named) or [R] reconstruction/tradition. Flag contradictions between sources; do not silently resolve them. Inaccessible sources are named with the reason. Gaps are stated as gaps.`
+- Evidence discipline: every factual claim is [A] attested (with the source named) or [R] reconstruction/tradition. Flag contradictions between sources; do not silently resolve them. Inaccessible sources are named with the reason. Gaps are stated as gaps.
+
+COMMAND STYLE (violations trigger manual permission prompts and ABORT the run):
+- NEVER use cd. Absolute paths in every command; git runs as git -C /abs/path.
+- NEVER use a bash heredoc (<<PY, <<'PY', <<EOF). For any python beyond a trivial
+  single-quoted one-liner: FIRST use the Write tool to save the script to
+  ${A.dir}/atlas_tools/_scratch_<yourlens>.py, THEN run
+  python3 ${A.dir}/atlas_tools/_scratch_<yourlens>.py. Delete is unnecessary.
+- python3 -c is allowed only with the entire program in single quotes and no
+  braces containing quote characters; when in doubt, use a script file.`
 
 const SCHEMA_ITEMS = {
   type: 'object',
