@@ -155,3 +155,4 @@ essays+Instagram corpus.
 | 1 | **L. Frank Baum** | American author of The Wonderful Wizard of Oz |
 | - | **Los Catorce Santos Ayudantes** | the Fourteen Holy Helpers as a company - Acacius, Blaise, Christopher, Cyriacus, Denis, Erasmus, Eustace, George, Pantaleon, Vitus (Barbara, Catherine, Giles, Margaret already travel in the atlas) |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
+| 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
