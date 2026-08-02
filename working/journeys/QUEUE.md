@@ -158,3 +158,39 @@ essays+Instagram corpus.
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
 | 0 | **Tommaso Campanella** | Dominican friar of La Città del Sole, the City of the Sun; 27 years imprisoned in Naples, astrologer to popes; author pick, not yet in the corpus |
+
+## The scope suggestions (2026-08-02)
+
+Proposed by El Gólem against the whole list and the scope of the book;
+approved by the author. None appear in the atlas or earlier queue sections.
+docs = corpus documents, 0 where the subject is not yet written of.
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Guamán Poma de Ayala** | walked Peru for decades compiling the Nueva Corónica, the book that drew the quipus and the quipucamayocs; a thousand-page letter to a king who never read it |
+| 0 | **Blas Valera** | mestizo Jesuit chronicler tied to the claim that quipus wrote language; exiled, died twice, center of the disputed Naples documents |
+| 0 | **Anni Albers** | Bauhaus weaver who called Andean textiles 'the great teachers'; Black Mountain, On Weaving |
+| 0 | **Joseph-Marie Jacquard** | the loom that put writing into punched cards; mobbed by weavers, then a statue woven in silk |
+| 0 | **Ada Lovelace** | 'weaves algebraic patterns just as the Jacquard-loom weaves flowers and leaves'; thread becomes computation |
+| 0 | **Egeria** | 4th-century woman whose Holy Land diary is the earliest surviving pilgrimage account |
+| 0 | **Benjamin de Tudela** | medieval Jewish traveler from Iberia through every community to Baghdad; al-Andalus and the court Jews |
+| 0 | **Rabban Bar Sauma** | the reverse Marco Polo: Beijing-born Nestorian monk sent west, met kings and popes |
+| 0 | **Xuanzang** | sixteen years to India for the scriptures; keystone of the Asia desert |
+| 0 | **Matsuo Bashō** | The Narrow Road to the Deep North; the journey written as it is walked |
+| 0 | **Evliya Çelebi** | forty years, ten volumes, the Ottoman world entire; dreamed the Prophet said not intercession but travel |
+| 0 | **San Brendán** | the Atlantic voyage held real by tradition, whale-islands and all; pairs with Leif Erikson |
+| 0 | **Pytheas de Massalia** | sailed to Thule c. 325 BC; the source of the Hyperborea the Vril wing keeps invoking |
+| 0 | **Nicholas Roerich** | Himalayan expeditions, Agni Yoga, and the peace banner - a banner - touching the estandarte directly |
+| 0 | **Alexandra David-Néel** | into Lhasa disguised as a beggar; died at 100 renewing her passport |
+| 0 | **Cagliostro** | the initiate-charlatan's grand tour of every court and lodge in Europe; died walled in San Leo |
+| 0 | **Antoine de Saint-Exupéry** | flew the Aeropostale night mail over Patagonia; Vuelo Nocturno; vanished into the sea |
+| 0 | **Vito Dumas** | Argentine who sailed the Roaring Forties alone in 1942, in a boat named Legh II |
+| 0 | **Ceferino Namuncurá** | son of a Mapuche cacique, Patagonia to Rome, dead at 18, folk-canonized |
+| 0 | **Aimé Bonpland** | Humboldt's companion who stayed: nine years prisoner of Paraguay's dictator, died on the Paraná among his plants |
+| 0 | **Charles Darwin** | the Beagle years in Argentina and Patagonia; the voyage that became the theory |
+| 0 | **Sor Juana Inés de la Cruz** | the tenth muse of New Spain; the cell, the library, the renunciation signed in blood |
+| 0 | **Túpac Amaru II** | the last Inca revolt, Cusco to the four quarters; his name itself a recurring journey |
+| 0 | **Margery Kempe** | the weeping pilgrim of Lynn; first autobiography in English, dictated unlettered |
+| 0 | **Isabelle Eberhardt** | Geneva to the Sahara as Si Mahmoud; converted, initiated, drowned in a desert flood |
+| 0 | **Hildegard von Bingen** | the Rhine journeys of the sibyl; preaching tours no abbess made before her |
+| 0 | **La Difunta Correa** | folk saint of San Juan who died on a journey, the child alive at her breast; roadside shrines of water bottles |
