@@ -202,3 +202,17 @@ docs = corpus documents, 0 where the subject is not yet written of.
 | 0 | **Mary Shelley** | the 1816 Geneva summer that birthed Frankenstein; elopement across the Alps at sixteen; History of a Six Weeks' Tour |
 | 0 | **W.B. Yeats** | Golden Dawn initiate, the tower at Thoor Ballylee, the gyres; Byzantium as a journey of the soul |
 | 10 | **Ral Veroni** | Argentine artist of the intervened banknotes and tarot graphics, collaborator of the author; 10 corpus documents |
+
+## The bridges (2026-08-02)
+
+Chosen to connect subspaces of the social graph that currently share no edge.
+
+| docs | subject | who |
+|--:|---|---|
+| 7* | **Wolfgang Pauli** | physics <-> Jung <-> number mysticism; 7 atlas files already name him, an orphan hub - the dreams analyzed at Küsnacht, the Pauli effect, 137 and the room he died in |
+| 0 | **Xul Solar** | modern Argentina <-> the esoteric wing <-> Bauhaus; Borges's closest friend, 'our William Blake', inventor of languages and a modified tarot, San Isidro |
+| 0 | **El Inca Garcilaso de la Vega** | Cusco <-> Renaissance Neoplatonism <-> Iberia; raised among quipucamayocs, translated León Hebreo, wrote the Comentarios Reales - the first to carry the quipu across the ocean |
+| 0 | **Leo Africanus** | al-Andalus <-> papal Rome <-> the African desert; al-Hasan al-Wazzan, Granada exile, Timbuktu diplomat, pirate captive baptized by Leo X, author of the Description of Africa, returned to Islam |
+| 0 | **Maslama al-Majrītī** | astronomer of Madrid, transmitter of the Rasā'il Ikhwān al-Ṣafā' to al-Andalus; traditional name over the Ghāyat al-Ḥakīm, the Picatrix |
+| 0 | **Ahmad al-Majrītī** | of the Majrītī school, the name the Rutbat al-Ḥakīm and Picatrix circle travels under |
+| 0 | **Maslama al-Qurṭubī** | the Ghāyat al-Ḥakīm's author by modern attribution; Córdoba, the talismanic art gathered into one book that reached Europe as Picatrix |
