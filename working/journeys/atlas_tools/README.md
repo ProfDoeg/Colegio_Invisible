@@ -50,11 +50,21 @@ use `discover_orphans()` only to generate candidates for a human to adjudicate.
 
 ## Conventions these tools enforce
 
-- **Byte-identical sibling pins** — the same event in two journeys carries the same
-  coordinates, character for character.
 - **Canonical pins** — a place already shared byte-exact by 3+ journeys is inherited,
   never re-derived. Paris `(48.8566, 2.3522)` is in 18 journeys; the Kaaba
   `(21.4225, 39.8262)` in 8.
 - **Mutual gaze** — if A's prose names B, B's should name A.
 - **House style** — no em dash, straight quotes only, campa 450-650 chars.
   `quote` is exempt: editing a quotation to fit house style would falsify it.
+
+## Witness disjunctions are CANON — do not repair them
+
+Ruled by the author, 2026-08-02: where two travelers record the same event at
+slightly different pins or on different dates, **the disjunction stands**. Two
+witnesses, two memories. Eva and Juan remember Luna Park nine metres apart; Sheba
+and Solomon date her visit sixteen years apart, each tradition keeping its own
+chronology. `geo.pin_drift()` and `temporal.contradictions()` still MEASURE these —
+they are texture worth knowing about — but their output is an inventory, not a
+work list. Do not merge pins, do not reconcile dates, do not propose either.
+Canonical-pin inheritance applies when writing a NEW journey; it does not license
+retrofitting old ones.
