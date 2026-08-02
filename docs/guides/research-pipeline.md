@@ -30,3 +30,12 @@ delimiters. Every command in this pipeline (orchestrator and agents alike):
 - uses absolute paths, never cd; git runs as git -C /abs/path
 - runs python via script files (Write the script, then python3 /abs/path.py)
   or python3 -c with single quotes; never an unquoted heredoc
+
+## Traducir (added 2026-08-02)
+
+Phase 5: Opus writes es/<slug>.journey.json from the English original with
+es/abdelkader.journey.json as exemplar. Register "mitologia nacional: el canon
+es verdadero"; traveler unchanged; title, names, campa, quotes in Spanish;
+coordinates and dates copied unchanged; campa 450-760 (Spanish breathes
+longer). Translation on Spanish terms, never sentence-for-sentence; estilo
+rules from the humanizar skill. Mechanical es-gate runs inside the stage.
