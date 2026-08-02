@@ -21,3 +21,12 @@ Division of labor, fixed by the author (2026-08-02):
 
 Prerequisites: permissions allowing WebFetch/WebSearch/python/Write (user
 settings), pypdf installed. Nothing in the run requires a click.
+
+## Clickless command conventions (added 2026-08-02 after the pilot)
+
+Two Bash patterns trigger manual approval regardless of allowlists: compound
+commands containing cd with a write operation, and heredocs with unquoted
+delimiters. Every command in this pipeline (orchestrator and agents alike):
+- uses absolute paths, never cd; git runs as git -C /abs/path
+- runs python via script files (Write the script, then python3 /abs/path.py)
+  or python3 -c with single quotes; never an unquoted heredoc
