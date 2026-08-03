@@ -258,3 +258,9 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 2 | **Samuel Preiswerk** | the psychiatrist's maternal grandfather - Basel Hebraist and theologian, said to have advocated a Jewish return to Palestine decades before Herzl, a genuine proto-Zionist/restorationist figure; a different grandfather from Carl Gustav Jung the elder above, interlocking with the atlas's own Jung |
 | 0 | **Otto Gross** | Austrian psychoanalyst and anarchist of the Monte Verita circle at Ascona, advocate of free love and analyst-turned-patient of both Jung and Freud, morphine addict who died destitute in Berlin; interlocks with the atlas's Jung and the corpus's Monte Verita/Lebensreform cluster (Ida Hofmann, Engelmann) already queued |
 | 2 | **Gottfried Wilhelm Leibniz** | German polymath, co-inventor of the calculus, court diplomat and librarian who traveled Europe (Paris, London, Rome, Vienna) chasing patrons and correspondents; the binary arithmetic he drew an explicit analogy to the I Ching's hexagrams, joining the corpus's mathematics wing (Gauss already in the atlas, Euler already queued) |
+
+## Author additions (2026-08-03)
+
+| docs | subject | who |
+|--:|---|---|
+| 1 | **Benkos Biohó** | escaped slave from West Africa, founder and king of San Basilio de Palenque near Cartagena de Indias, the first free town of the Americas; betrayed and executed by the Spanish crown |
