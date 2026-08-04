@@ -270,3 +270,4 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | docs | subject | who |
 |--:|---|---|
 | 0 | **Leslie Barry Lamport** | American computer scientist, Turing laureate; the Paxos consensus algorithm and the Byzantine Generals Problem, vector clocks and 'Time, Clocks, and the Ordering of Events', also the author of LaTeX; joins the corpus's cipher and mathematics wing (Diffie and Hellman just queued, Shannon queued) |
+| 0 | **Donald Ervin Knuth** | American computer scientist, Turing laureate; The Art of Computer Programming written and revised across sixty years, the TeX typesetting system built out of frustration with galley proofs, literate programming; joins Lamport (TeX begets LaTeX) and the corpus's mathematics wing |
