@@ -264,3 +264,9 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | docs | subject | who |
 |--:|---|---|
 | 1 | **Benkos Biohó** | escaped slave from West Africa, founder and king of San Basilio de Palenque near Cartagena de Indias, the first free town of the Americas; betrayed and executed by the Spanish crown |
+
+## Author additions (2026-08-04)
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Leslie Barry Lamport** | American computer scientist, Turing laureate; the Paxos consensus algorithm and the Byzantine Generals Problem, vector clocks and 'Time, Clocks, and the Ordering of Events', also the author of LaTeX; joins the corpus's cipher and mathematics wing (Diffie and Hellman just queued, Shannon queued) |
