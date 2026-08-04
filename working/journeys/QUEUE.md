@@ -305,5 +305,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Jean Baudrillard** | French sociologist and philosopher of Simulacra and Simulation and hyperreality; joins the corpus's continental-philosophy wing (michel_foucault, gilles_deleuze, felix_guattari already queued) |
 | 0 | **Jordan Maxwell** | American researcher and lecturer on occult symbolism in law, religion, and government, an early figure in what became modern conspiracy media; joins the corpus's esoteric/secret-society material (albert_pike, theodor_reuss, christian_rosenkreuz already queued) |
 | 3 | **William Rowan Hamilton** | Irish mathematician, inventor of quaternions (carved into Broom Bridge, Dublin, in a fit of inspiration) and Hamiltonian mechanics; joins the corpus's mathematics wing (gauss, euler already queued) |
+| 5 | **Saint Thecla** | early Christian saint, follower of Paul, subject of the apocryphal Acts of Paul and Thecla; already named across several corpus essays and Instagram posts but never queued until now |
+
 
 
