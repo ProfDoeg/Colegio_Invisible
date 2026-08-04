@@ -298,3 +298,4 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Salvador Allende** | Chilean physician and president, died in La Moneda during the 1973 coup that brought augusto_pinochet already done to power; the direct counterpart on the other side of that day |
 | 0 | **Pamela Colman Smith** | Anglo-Jamaican-American artist, illustrator of the Rider-Waite-Smith tarot deck, Golden Dawn initiate and stage designer for Yeats's theatre; joins the corpus's occult/tarot wing (W.B. Yeats already queued) |
 | 0 | **Albert Pike** | American Confederate general and Scottish Rite Freemason, author of Morals and Dogma; joins the corpus's Masonic material (hiram_abiff, theodor_reuss already queued) |
+| 0 | **Golda Meir** | Israeli prime minister, born in Kyiv, raised in Milwaukee, emigrated to Palestine in 1921; one of the signers of Israel's Declaration of Independence, joins the corpus's Zionist/diaspora geography |
