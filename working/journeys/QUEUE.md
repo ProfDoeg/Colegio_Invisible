@@ -303,4 +303,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Emanuel Swedenborg** | Swedish scientist turned visionary mystic, founder of the New Church; Kant wrote Dreams of a Spirit-Seer against him, William Blake (already done) was directly shaped by him; bridges the corpus's philosophy and visionary-artist wings |
 | 0 | **Jiddu Krishnamurti** | raised by the Theosophical Society (Annie Besant, Charles Leadbeater) as the 'World Teacher,' who then publicly renounced the role in 1929; a life of travel between India, Ojai California, and Europe; bridges Theosophy already walking to 20th-century spirituality |
 | 0 | **Jean Baudrillard** | French sociologist and philosopher of Simulacra and Simulation and hyperreality; joins the corpus's continental-philosophy wing (michel_foucault, gilles_deleuze, felix_guattari already queued) |
+| 0 | **Jordan Maxwell** | American researcher and lecturer on occult symbolism in law, religion, and government, an early figure in what became modern conspiracy media; joins the corpus's esoteric/secret-society material (albert_pike, theodor_reuss, christian_rosenkreuz already queued) |
+
 
