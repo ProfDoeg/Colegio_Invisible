@@ -271,3 +271,5 @@ The last two. With these the constellation stands at 333: 153 traveling,
 |--:|---|---|
 | 0 | **Leslie Barry Lamport** | American computer scientist, Turing laureate; the Paxos consensus algorithm and the Byzantine Generals Problem, vector clocks and 'Time, Clocks, and the Ordering of Events', also the author of LaTeX; joins the corpus's cipher and mathematics wing (Diffie and Hellman just queued, Shannon queued) |
 | 0 | **Donald Ervin Knuth** | American computer scientist, Turing laureate; The Art of Computer Programming written and revised across sixty years, the TeX typesetting system built out of frustration with galley proofs, literate programming; joins Lamport (TeX begets LaTeX) and the corpus's mathematics wing |
+| 0 | **Michelangelo** | Renaissance sculptor and painter of the Sistine ceiling and the Pietà; the youthful Torment of Saint Anthony, and a boyhood near La Verna, the Franciscan sanctuary of the stigmata |
+| 3 | **Leonardo da Vinci** | Renaissance polymath, the Last Supper and the Mona Lisa, notebooks of anatomy and flight; the corpus's Italian journeys already touch his geography (goethe_full's Italian exit) |
