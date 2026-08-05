@@ -307,6 +307,8 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 3 | **William Rowan Hamilton** | Irish mathematician, inventor of quaternions (carved into Broom Bridge, Dublin, in a fit of inspiration) and Hamiltonian mechanics; joins the corpus's mathematics wing (gauss, euler already queued) |
 | 5 | **Saint Thecla** | early Christian saint, follower of Paul, subject of the apocryphal Acts of Paul and Thecla; already named across several corpus essays and Instagram posts but never queued until now |
 | 0 | **Vicky Sigwald** | Argentine papermaker; no other biographical detail confirmed yet, no established connection to other corpus figures |
+| 0 | **Sarah Bernhardt** | French stage actress, 'the Divine Sarah,' one leg amputated in 1915 yet kept touring and performing; her international tours reached Buenos Aires, joining the corpus's Argentine theatrical geography |
+
 
 
 
