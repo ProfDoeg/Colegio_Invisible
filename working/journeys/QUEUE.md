@@ -124,7 +124,7 @@ essays+Instagram corpus.
 | 2 | **Juan Martín de Pueyrredón** | Argentine independence leader, Lautaro Lodge member |
 | 2 | **Silvio Berlusconi** | Italian media magnate and prime minister |
 | 2 | **Hiram Abiff** | legendary architect of Solomon's Temple in Masonic tradition |
-| 2 | **Leonard Euler** | Swiss mathematician and physicist |
+| 2 | **Leonard Euler** | Swiss mathematician and physicist; also has a hollow-earth thread (proposed a version of the theory with an inner sun), joins symmes, saint-yves, bradshaw, john_uri_lloyd already queued |
 | 2 | **Edmond Halley** | English astronomer, hollow-earth proposer |
 | 2 | **Edgar Allan Poe** | American writer |
 | 2 | **Jacob Boehme** | German mystic |
