@@ -308,6 +308,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 5 | **Saint Thecla** | early Christian saint, follower of Paul, subject of the apocryphal Acts of Paul and Thecla; already named across several corpus essays and Instagram posts but never queued until now |
 | 0 | **Vicky Sigwald** | Argentine papermaker; no other biographical detail confirmed yet, no established connection to other corpus figures |
 | 0 | **Sarah Bernhardt** | French stage actress, 'the Divine Sarah,' one leg amputated in 1915 yet kept touring and performing; her international tours reached Buenos Aires, joining the corpus's Argentine theatrical geography |
+| 0 | **Paulo Freire** | Brazilian educator, author of Pedagogy of the Oppressed, exiled after Brazil's 1964 coup; direct contemporary and intellectual companion of Augusto Boal already queued (Theatre of the Oppressed) |
 | 0 | **Joseph Alexandre Saint-Yves d'Alveydre** | French esotericist, coiner of 'synarchy' and theorist of the underground kingdom of Agartha; joins the corpus's hollow-earth fiction cluster (symmes already queued) alongside the same thread running through Poe, Dante's underworld, and Verne |
 | 0 | **William R. Bradshaw** | American author of The Goddess of Atvatabar (1892), a hollow-earth fiction novel; part of the same hollow-earth cluster as symmes, saint-yves, and john_uri_lloyd |
 | 0 | **John Uri Lloyd** | American pharmacist and author of Etidorhpa (1895), a hollow-earth fiction novel; part of the same hollow-earth cluster as symmes, saint-yves, and william_r_bradshaw |
