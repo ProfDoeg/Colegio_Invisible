@@ -1,0 +1,560 @@
+{
+  "traveler": "Claude Elwood Shannon",
+  "title": "The Barbed Wire to the Bit: Shannon, the Switching Relay, and the Measure of a Message",
+  "years": "1916-2001",
+  "calendar": "gregorian",
+  "register": "national mythology: the canon is true",
+  "segments": [
+    {
+      "name": "Northern Michigan: the Barbed Wire and the Telegraph Office",
+      "stops": [
+        {
+          "name": "Petoskey, the birth",
+          "lat": 45.3733,
+          "lng": -84.9553,
+          "date": "1916-04-30",
+          "date_confidence": "date attested; the town is contested between sources",
+          "campa": "Claude Elwood Shannon is born on the thirtieth of April at Petoskey, on the Lake Michigan shore of northern Michigan. His father, Claude Sr., is a businessman who will sit as a probate judge; his mother, Mabel Wolf Shannon, teaches languages and is principal of the high school at Gaylord, thirty miles inland, where the family lives. Wikipedia, the MIT obituary, and the Soni and Goodman biography all give Petoskey for the birth and Gaylord for the childhood. The St Andrews MacTutor archive gives Gaylord for both. The two accounts are not reconciled here.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Birth records for Emmet County, Michigan, April 1916, against which the Petoskey and Gaylord accounts could be adjudicated"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "MIT News obituary, news.mit.edu/2001/shannon", "Jimmy Soni and Rob Goodman, A Mind at Play (2017)", "mathshistory.st-andrews.ac.uk/Biographies/Shannon/ (contradicting: gives Gaylord)"]
+        },
+        {
+          "name": "Gaylord, the lumber town",
+          "lat": 45.0276,
+          "lng": -84.6741,
+          "date": "1918-01-01",
+          "date_confidence": "inferred from the sixteen years the sources assign to the Gaylord childhood; no year of settlement recorded",
+          "campa": "The family keeps house in Gaylord, a lumber town in the cut-over pine country of northern Michigan, and Shannon spends his first sixteen years there. He goes through the Gaylord public schools, where his mother is principal. His father keeps the probate court. A sister, Catherine, will outlive him by long enough to be named in his obituary as Catherine S. Kay of Benton, Kentucky. Eighty-five years on the town will name a park for him and stand a bronze figure of him in it, one of six the sculptor Eugene Daub casts.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Claude Shannon Memorial Park, Gaylord, Michigan, and the Eugene Daub bronze standing in it"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "MIT News obituary (2001)"]
+        },
+        {
+          "name": "Gaylord, the telegraph on the fence wire",
+          "lat": 45.0276,
+          "lng": -84.6741,
+          "date": "1926-01-01",
+          "date_confidence": "traditional; the biographies date the boyhood tinkering only to the 1920s",
+          "campa": "The boy builds. A telegraph line strung along a barbed wire fence carries messages to a friend's house half a mile off; there are model airplanes, and a radio-controlled boat on the water. The secondary biographies agree on the inventory, and none of it is checked against a primary document in this pass. For the next seventy years he will keep a workshop wherever he lives, and the machines that come out of it will be judged by their maker on whether they are interesting rather than on whether they are useful.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Soni and Goodman research files for A Mind at Play, which reach Gaylord informants directly"],
+          "sources": ["Soni and Goodman, A Mind at Play (2017), reconstruction", "Wikipedia, 'Claude Shannon'"]
+        },
+        {
+          "name": "Gaylord, the Western Union messenger",
+          "lat": 45.0276,
+          "lng": -84.6741,
+          "date": "1931-01-01",
+          "date_confidence": "the job is attested, its years given only as circa 1930 to 1932",
+          "campa": "In his last high school years he carries telegrams for Western Union in Gaylord, the paid errand of a boy in a small town, and the first handling of the thing itself: messages priced by the word, sent down a wire, arriving degraded or not arriving at all. He graduates from Gaylord High School in 1932 at sixteen and leaves for Ann Arbor. Seventeen years later he will write down what a wire can carry and what it cannot, and the quantity he defines will apply, without amendment, to the traffic he once delivered on foot.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Western Union branch records for Gaylord, Michigan, c.1930-1932"],
+          "sources": ["Engineering and Technology History Wiki, 'Claude E. Shannon'", "MIT News obituary (2001)", "Wikipedia, 'Claude Shannon'"]
+        }
+      ]
+    },
+    {
+      "name": "Ann Arbor and Cambridge: an Algebra for Machines",
+      "stops": [
+        {
+          "name": "University of Michigan, two degrees at once",
+          "lat": 42.2808,
+          "lng": -83.743,
+          "date": "1932-09-01",
+          "date_confidence": "the 1932-1936 enrolment is attested; the month is the ordinary start of term and is not separately documented",
+          "campa": "He enrolls at the University of Michigan and takes two bachelor's degrees at once, electrical engineering and mathematics, finishing in 1936. Among the mathematics courses is one in symbolic logic: Boole's algebra of true and false, a nineteenth century curiosity with no machine attached to it. Paul Dirac had lectured at the Ann Arbor summer school three years before Shannon arrived, on a campus the atlas already holds at this pin. Shannon leaves it with the two halves of a problem nobody has yet stated, one in each hand.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["University of Michigan course catalogues, 1932-1936, for the symbolic logic offering Shannon took"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "mathshistory.st-andrews.ac.uk/Biographies/Shannon/", "dirac.journey.json (Ann Arbor summer school, 1929)"]
+        },
+        {
+          "name": "Massachusetts Institute of Technology, the differential analyzer",
+          "lat": 42.3592,
+          "lng": -71.0921,
+          "date": "1936-09-01",
+          "date_confidence": "the graduate years 1936-1940 are attested; the month is the ordinary start of term",
+          "campa": "He enters MIT as a graduate student and takes a research assistantship on Vannevar Bush's differential analyzer, an analog computer the size of a room, built of shafts and gears and integrating wheels, that solves differential equations by turning. Its control circuits are a bank of relays, and setting up a new problem means rewiring them by hand. Shannon spends his days inside a switching network and recognises what is in front of him. A relay is closed or it is open, and George Boole wrote the algebra of that in 1854.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The surviving components of Bush's differential analyzer, MIT Museum"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "Engineering and Technology History Wiki, 'Claude E. Shannon'"]
+        },
+        {
+          "name": "Bell Telephone Laboratories, the first summer",
+          "lat": 40.7357,
+          "lng": -74.0089,
+          "date": "1937-06-01",
+          "date_confidence": "the 1937 summer is attested; the month is inferred from the word summer",
+          "campa": "Bush sends him to Bell Telephone Laboratories for the summer, to the West Street building on the Hudson piers, where the telephone system's switching problem is a working engineer's daily grief rather than a graduate student's insight. He is twenty-one. He carries the relay algebra with him and tries it against real exchanges. The Labs will have him back four years later and keep him for the better part of fifteen years, but it is this first summer that gives the thesis he is about to write its evidence.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Bell Laboratories summer employment records, 463 West Street, 1937"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "Engineering and Technology History Wiki, 'Claude E. Shannon'"]
+        },
+        {
+          "name": "MIT, the master's thesis",
+          "lat": 42.3592,
+          "lng": -71.0921,
+          "date": "1937-08-01",
+          "date_confidence": "1937 attested; month not recorded in the sources consulted",
+          "campa": "He writes the master's thesis in his twenty-first year and it is short. Any switching circuit, he shows, can be written as a Boolean expression; any Boolean expression can be built as a switching circuit; and the algebra will simplify the circuit before a single relay is soldered. Published as a paper in 1938, it takes the Alfred Noble Prize the year after. Later readers will call it the most important master's thesis of the century. It is the document every digital machine since is built on, and its author moves straight on to genetics.",
+          "quote": "A Symbolic Analysis of Relay and Switching Circuits",
+          "quote_source": "Claude E. Shannon, master's thesis title, Massachusetts Institute of Technology, 1937",
+          "suggested_refs": ["The MIT deposit copy of A Symbolic Analysis of Relay and Switching Circuits (1937)"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "Engineering and Technology History Wiki, 'Claude E. Shannon'"]
+        },
+        {
+          "name": "Cold Spring Harbor Laboratory, the genetics summer",
+          "lat": 40.8583,
+          "lng": -73.4667,
+          "date": "1939-06-01",
+          "date_confidence": "1939 attested; the month is inferred, and the coordinate is the laboratory's own at 1 Bungtown Road rather than the hamlet it is named for",
+          "campa": "On Bush's recommendation he spends time at the Cold Spring Harbor Laboratory on Long Island, working with the geneticist Barbara Burks on the mathematics of populations. The address is 1 Bungtown Road, in Laurel Hollow, across the inlet from the hamlet the laboratory takes its name from. He is applying the same instinct as before: an algebra laid over a subject that has not been given one, and this time the subject is heredity. The work becomes his doctoral dissertation. He will never publish in genetics again.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Cold Spring Harbor Laboratory visitor and staff records, summer 1939; the Barbara Burks papers"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "Wikipedia, 'Cold Spring Harbor Laboratory' (coordinates)"]
+        },
+        {
+          "name": "Cambridge, the marriage to Norma Levor",
+          "lat": 42.3592,
+          "lng": -71.0921,
+          "date": "1940-01-01",
+          "date_confidence": "month and year attested; the day is unrecorded and defaulted, and the placement follows Shannon's residence because no source names the venue",
+          "campa": "In January he marries Norma Levor, a writer, wealthy and of the political left, and the marriage lasts about a year before it ends in divorce. No source consulted names the ceremony's town or venue. He is a graduate student at MIT at the time and the couple's attested joint residence is Princeton, so the marker sits where he was living rather than where a document places him. Levor will marry the screenwriter Ben Barzman in 1942 and stay married to him until his death in 1989.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Massachusetts or New York marriage registers for January 1940 under Levor or Shannon"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "Wikipedia, 'Norma Barzman'"]
+        },
+        {
+          "name": "MIT, the doctorate in genetics",
+          "lat": 42.3592,
+          "lng": -71.0921,
+          "date": "1940-06-01",
+          "date_confidence": "1940 attested; the month is the ordinary commencement date and is not separately documented",
+          "campa": "He takes the doctorate in mathematics with a dissertation titled An Algebra for Theoretical Genetics, written out of the Cold Spring Harbor summer. Bush had steered him into the subject; Shannon obeys, produces the work, and abandons the field entirely. The thesis sits unpublished for decades. Two documents now stand to his name at twenty-four, one founding digital circuit design and one on the algebra of populations, and neither of them has the word information or the word communication anywhere in its title.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["An Algebra for Theoretical Genetics (1940), MIT doctoral dissertation, and its eventual printing in the Collected Papers"],
+          "sources": ["mathshistory.st-andrews.ac.uk/Biographies/Shannon/", "Engineering and Technology History Wiki, 'Claude E. Shannon'"]
+        }
+      ]
+    },
+    {
+      "name": "Princeton and West Street: the War Years",
+      "stops": [
+        {
+          "name": "Institute for Advanced Study, the fellowship year",
+          "lat": 40.3298,
+          "lng": -74.6672,
+          "date": "1940-09-01",
+          "date_confidence": "the 1940-1941 fellowship is attested; the month is the ordinary start of the academic year",
+          "campa": "A National Research Fellowship carries him to the Institute for Advanced Study, to Fuld Hall, where the founding faculty are all in one small building: Hermann Weyl, Albert Einstein, and John von Neumann, whose Princeton chair the atlas already follows. Robert Oppenheimer will direct the place after the war. Shannon works at pure mathematics for a year with no assignment and no teaching. It is the last unhurried year he gets. Within eighteen months the United States is at war and every mathematician in Fuld Hall has been redirected.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Institute for Advanced Study membership records, School of Mathematics, 1940-1941"],
+          "sources": ["mathshistory.st-andrews.ac.uk/Biographies/Shannon/", "Engineering and Technology History Wiki, 'Claude E. Shannon'", "von_neumann.journey.json, stop 'Princeton, one of the founding six'"]
+        },
+        {
+          "name": "463 West Street, the Labs in wartime",
+          "lat": 40.7357,
+          "lng": -74.0089,
+          "date": "1941-01-01",
+          "date_confidence": "1941 attested; month unrecorded and defaulted",
+          "campa": "He joins Bell Telephone Laboratories full time, in the mathematics research group at 463 West Street in the West Village, a long brick block standing over the Hudson piers. The appointment is research. The work, from the first week, is war work under contract to the National Defense Research Committee. He is twenty-five. This building holds him for the rest of the decade: through the fire control problem, through cryptography, through a two month visit from an Englishman, and through the writing of the paper.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Bell Laboratories building at 463 West Street, Manhattan, now Westbeth Artists Housing"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "Engineering and Technology History Wiki, 'Claude E. Shannon'"]
+        },
+        {
+          "name": "West Street, the fire control predictor",
+          "lat": 40.7357,
+          "lng": -74.0089,
+          "date": "1942-01-01",
+          "date_confidence": "the wartime fire control work runs 1942-1945; the single year is a placeholder for the stretch",
+          "campa": "Section D-2 sets him on anti-aircraft fire control. Given a track of noisy radar returns, predict where the aircraft will be when the shell arrives. Shannon treats the smoothing problem as the separation of a signal from noise, which is the shape of everything he does afterwards, and co-authors the report that states it, Data Smoothing and Prediction in Fire-Control Systems, in 1945. In the same stretch he invents the signal-flow graph, a way of drawing a linear system so that its behaviour can be read off the diagram.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Data Smoothing and Prediction in Fire-Control Systems (1945), NDRC section D-2 report"],
+          "sources": ["Wikipedia, 'Claude Shannon'"]
+        },
+        {
+          "name": "The Bell Labs cafeteria, tea with Turing",
+          "lat": 40.7357,
+          "lng": -74.0089,
+          "date": "1943-01-01",
+          "date_confidence": "early 1943 attested for the two month overlap; the exact weeks are not recorded",
+          "campa": "For about two months an English mathematician named Alan Turing is at the Labs on secure speech, sent by his own government, and the two of them take tea in the cafeteria most days. They are forbidden to discuss the work either is actually doing, so they discuss machines instead. Turing gives Shannon his 1936 paper defining the universal machine. Shannon tells Turing what he thinks a machine could be brought to do. That same season von Neumann is at Los Alamos computing implosion lenses beside Fermi and Feynman, in the other half of the same secrecy.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Turing's 1943 mission papers on the X-System and secure speech, and Shannon's own later recollections of the cafeteria conversations"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "richard_feynman.journey.json and von_neumann.journey.json, Los Alamos stops, 1943"]
+        },
+        {
+          "name": "Bell Labs, the classified memorandum on ciphers",
+          "lat": 40.7357,
+          "lng": -74.0089,
+          "date": "1945-09-01",
+          "date_confidence": "September 1945 attested; day unrecorded and defaulted",
+          "campa": "He files a classified memorandum for Bell Telephone Laboratories on the theory of ciphers. It defines secrecy as a quantity and proves that a key as long as the message, used once, drawn at random, cannot be broken by any amount of work whatever. Al-Kindi in ninth century Baghdad made cryptanalysis a science by counting letters. Shannon makes cryptography a mathematics by counting uncertainty. The memorandum stays classified for four years, and its author files it and goes back to the other problem.",
+          "quote": "A Mathematical Theory of Cryptography",
+          "quote_source": "Claude E. Shannon, classified Bell Telephone Laboratories memorandum, September 1945",
+          "suggested_refs": ["The declassified Bell Laboratories memorandum MM 45-110-02, A Mathematical Theory of Cryptography"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "QUEUE.md, al-Kindi entry ('joining Trithemius and Shannon across a millennium')"]
+        }
+      ]
+    },
+    {
+      "name": "Murray Hill: the Theory",
+      "stops": [
+        {
+          "name": "Murray Hill, von Neumann names it entropy",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1948-01-01",
+          "date_confidence": "undated tradition; the anecdote is placed loosely between 1940 and 1948, its venue is unfixed, and its wording is contested",
+          "campa": "He has a quantity and no name for it. It measures uncertainty: how much you do not know about the next symbol, averaged over everything the source could send. The formula, a sum of probabilities against their own logarithms, is the one statistical mechanics already uses for entropy. Shannon asks von Neumann, whose Princeton chair the atlas follows, and takes the advice given. Wikipedia hedges the story with according to one source and prints a rival version, and the phrase appears nowhere in the 954 pages of Shannon's collected papers.",
+          "quote": "You should call it entropy, for two reasons. In the first place your uncertainty function has been used in statistical mechanics under that name, so it already has a name. In the second place, and more important, no one really knows what entropy really is, so in a debate you will always have the advantage.",
+          "quote_source": "John von Neumann to Shannon, as Shannon recounted it; Edward C. McIrvine and Myron Tribus, 'Energy and Information,' Scientific American 225, no. 3 (September 1971), 179-188. The article is paywalled and was not opened directly; the wording rests on two secondary references citing it, and the anecdote is contested.",
+          "suggested_refs": ["Scientific American 225, no. 3 (September 1971), pp. 179-188, behind a paywall in this pass"],
+          "sources": ["McIrvine and Tribus, 'Energy and Information,' Scientific American (September 1971), via Wikiquote and Wikipedia 'History of entropy'", "Shannon, Collected Papers (searched; phrase absent)"]
+        },
+        {
+          "name": "Murray Hill, A Mathematical Theory of Communication",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1948-07-01",
+          "date_confidence": "July 1948 attested for the first installment; day unrecorded and defaulted",
+          "campa": "Bell Labs research has moved out of Manhattan to a new campus at Murray Hill in New Jersey, and it is from there that the Bell System Technical Journal carries, in two installments, volume 27, pages 379 to 423 in July and 623 to 656 in October, a paper by a member of the mathematics group. It defines a source, a channel, a code, and a receiver. It defines the capacity of a channel in bits per second. And it proves that below that capacity, and only below it, error can be driven as near to zero as you please.",
+          "quote": "The fundamental problem of communication is that of reproducing at one point either exactly or approximately a message selected at another point.",
+          "quote_source": "Claude E. Shannon, 'A Mathematical Theory of Communication,' Bell System Technical Journal 27 (July 1948), p. 379, opening paragraph; verified verbatim against the reprint PDF",
+          "suggested_refs": ["The Bell System Technical Journal, volume 27 (1948), both installments as originally printed"],
+          "sources": ["Shannon, 'A Mathematical Theory of Communication,' BSTJ 27 (1948), read directly", "itsoc.org/about/shannon"]
+        },
+        {
+          "name": "Murray Hill, the naming of the bit",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1948-07-01",
+          "date_confidence": "same July 1948 installment as the preceding stop; the two passages sit on the same page and share a date",
+          "campa": "The unit has to be chosen before anything can be counted, and choosing it means choosing a logarithm's base. Base two gives the binary digit, and Shannon credits the contraction to his colleague John Tukey in the paper's third paragraph, in passing, inside a subordinate clause. Everything measured in bits since, every file and every line rate and every disk, is measured in a unit named on page 379 of a house journal published by a telephone company. He does not appear to have thought the naming worth a sentence of its own.",
+          "quote": "The choice of a logarithmic base corresponds to the choice of a unit for measuring information. If the base 2 is used the resulting units may be called binary digits, or more briefly bits, a word suggested by J. W. Tukey.",
+          "quote_source": "Claude E. Shannon, 'A Mathematical Theory of Communication,' Bell System Technical Journal 27 (July 1948), p. 379; read directly from the reprint PDF",
+          "suggested_refs": ["John W. Tukey's own papers, for the coinage Shannon credits to him"],
+          "sources": ["Shannon, 'A Mathematical Theory of Communication,' BSTJ 27 (1948), read directly"]
+        },
+        {
+          "name": "University of Illinois, Urbana, the book",
+          "lat": 40.1106,
+          "lng": -88.2073,
+          "date": "1949-01-01",
+          "date_confidence": "1949 attested for the edition; month unrecorded and defaulted, and no visit by Shannon is attested at all",
+          "campa": "The University of Illinois Press reissues the two installments as a book, The Mathematical Theory of Communication, with an introductory essay by Warren Weaver written for readers who cannot follow the mathematics. Weaver's essay is what carries the theory out of engineering and into linguistics, psychology, and biology, not always with Shannon's approval. Nothing in the sources consulted has Shannon travelling to Urbana. This marker is a publisher's address and not a visit. A paperback follows in 1963.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The University of Illinois Press first edition of 1949 and the 1963 paperback, ISBN 0-252-72548-4"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "University of Illinois Press editions of 1949 and 1963"]
+        },
+        {
+          "name": "Murray Hill, the marriage to Betty Moore",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1949-03-27",
+          "date_confidence": "day and year attested verbatim in MacTutor; the venue is unrecorded in every source consulted and the marker follows her workplace, not a document",
+          "campa": "On the twenty-seventh of March he marries Mary Elizabeth Moore, called Betty, a numerical analyst at Bell Labs, where they met. No source consulted names the church, the town, or the witnesses; the frequently repeated claim that they married at Bell Labs is a misreading of the sentence saying they met there. She computes for a living and she will build machines with him for half a century, the mouse in the maze among them. The marriage lasts until his death. The pin is the laboratory where the two of them worked.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["New Jersey or New York marriage registers for 27 March 1949 under Moore or Shannon"],
+          "sources": ["mathshistory.st-andrews.ac.uk/Biographies/Shannon/ ('On 27 March 1949 Shannon married Mary Elizabeth Moore')", "Engineering and Technology History Wiki, 'Claude E. Shannon'"]
+        },
+        {
+          "name": "Murray Hill, Communication Theory of Secrecy Systems",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1949-10-01",
+          "date_confidence": "1949 attested; month taken from the journal issue and not separately verified",
+          "campa": "The wartime memorandum is declassified and printed in the Bell System Technical Journal as Communication Theory of Secrecy Systems, the second of the two papers that make 1948 and 1949 the years the information sciences begin. It puts cryptography on an information-theoretic footing and proves the one time pad perfect. Twenty years on, Peter Elias will hand a copy of it to a young MIT assistant professor named Martin Hellman, who reads it and concludes that cryptography is a branch of information theory.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Bell System Technical Journal 28 (October 1949), 656-715"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "hellman.journey.json, stop 'Massachusetts Institute of Technology, the Shannon paper from Peter Elias'"]
+        },
+        {
+          "name": "Murray Hill, Theseus in the maze",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1950-01-01",
+          "date_confidence": "1950 attested; month unrecorded and defaulted",
+          "campa": "He and Betty build a mouse. Theseus is a few inches of machined brass with copper whiskers and a magnet in its belly, dragged around a five by five maze by an electromagnet under the floor, and the intelligence is a rack of relays beside the table. It searches the maze once by trial and error, then runs it clean, and if the walls are moved it learns the new maze. Bell Labs films it. It is among the first machines built to show that a machine can be said to learn. They build it because building it interests them.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Bell Laboratories film of Theseus, and the surviving mouse and maze at the MIT Museum"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "IEEE Spectrum, John Horgan, 'Claude Shannon: Tinkerer, Prankster, and Father of Information Theory'"]
+        },
+        {
+          "name": "Murray Hill, Programming a Computer for Playing Chess",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1950-03-01",
+          "date_confidence": "the March 1949 presentation and the March 1950 publication are both attested; this stop carries the publication date",
+          "campa": "He presents the paper at a convention in New York on the ninth of March 1949 and publishes it a year later in the Philosophical Magazine, series 7, volume 41, number 314, pages 256 to 275. It sets out the evaluation function, the search to fixed depth, and the two strategies of brute force and selective search. In a separate calculation it gives the size of the game tree, about ten to the hundred and twentieth, ever after called the Shannon number. No chess playing machine of his own from this date is documented in the sources consulted.",
+          "quote": "Although perhaps of no practical importance, the question is of theoretical interest, and it is hoped that a satisfactory solution of this problem will act as a wedge in attacking other problems of a similar nature and of greater significance.",
+          "quote_source": "Claude E. Shannon, 'Programming a Computer for Playing Chess,' Philosophical Magazine, series 7, vol. 41, no. 314 (March 1950), 256-275, Introduction; verified against the Collected Papers reprint",
+          "suggested_refs": ["Philosophical Magazine, series 7, vol. 41, no. 314 (March 1950), pp. 256-275"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "Shannon, Collected Papers, reprint of the 1950 chess paper"]
+        },
+        {
+          "name": "Murray Hill, the entropy of printed English",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1951-01-01",
+          "date_confidence": "1951 attested; month unrecorded and defaulted",
+          "campa": "He turns the theory on English and measures it with human subjects. Show a reader a passage cut off in the middle and ask for the next letter, again and again, and the pattern of their guesses gives bounds on the entropy of the language. The answer comes out near one bit per letter, against the four and three quarters a flat count of the alphabet would give. English is roughly three quarters redundant. The redundancy is what lets a page be read in bad light and a crossword be solved. It is also why compression is possible at all.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["'Prediction and Entropy of Printed English,' Bell System Technical Journal 30 (January 1951), 50-64"],
+          "sources": ["Wikipedia, 'Claude Shannon'"]
+        },
+        {
+          "name": "Washington, the Special Cryptologic Advisory Group",
+          "lat": 38.9186,
+          "lng": -77.0367,
+          "date": "1951-05-01",
+          "date_confidence": "May 1951 attested; day unrecorded and defaulted, and the pin is the atlas's canonical Washington coordinate rather than a named building",
+          "campa": "He joins the Special Cryptologic Advisory Group, a standing panel of outside mathematicians convened for the American cryptologic agencies. The work leaves almost no public trace, which is the point of it. Twenty-two years later Whitfield Diffie, born in this city in 1944, will drive to Fort Meade to ask the successor agency what it knows and be told nothing worth the trip. The corridor between academic mathematics and the secrecy establishment that Diffie finds shut is one Shannon walked in both directions without remarking on it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Declassified membership rosters of the Special Cryptologic Advisory Group, 1951"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "diffie.journey.json, stops 'Washington, D.C., the birth' and 'National Security Agency, Fort Meade'"]
+        },
+        {
+          "name": "Murray Hill, the unicycle in the corridor",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1952-01-01",
+          "date_confidence": "the habit is attested for the Bell Labs years without a date; the year is a placeholder inside them",
+          "campa": "He rides a unicycle down the corridors of Murray Hill in the evening, juggling, and colleagues who cannot get him to answer a memorandum step aside to let him pass. He builds a unicycle with an off centre hub so the rider bobs as he goes, and another small enough that juggling is required to stay upright on it. Late in life he will write down an equation for juggling, B over H equals D plus F over D plus E, balls over hands as a function of the times a ball is airborne, held, and the hand is empty.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Shannon's unpublished juggling manuscript, 'Scientific Aspects of Juggling,' printed in the Collected Papers"],
+          "sources": ["Engineering and Technology History Wiki, 'Claude E. Shannon'", "IEEE Spectrum, Horgan, 'Claude Shannon: Tinkerer, Prankster, and Father of Information Theory'"]
+        }
+      ]
+    },
+    {
+      "name": "The Return to Cambridge",
+      "stops": [
+        {
+          "name": "MIT, the return as visiting professor",
+          "lat": 42.3592,
+          "lng": -71.0921,
+          "date": "1956-01-01",
+          "date_confidence": "1956 attested for the visiting appointment; month unrecorded and defaulted",
+          "campa": "He comes back to Cambridge as visiting professor of communication sciences and mathematics, twenty years after he arrived as Bush's research assistant. The permanent appointment follows in 1957. He keeps a hand at Bell Labs for years yet, but the working base has moved and the second half of the life happens here, in the Research Laboratory of Electronics. Whitfield Diffie reads mathematics on this campus from 1961, and Martin Hellman is handed the 1949 secrecy paper here in 1969. The pin is the atlas's own, shared byte for byte.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["MIT faculty appointment records, 1956-1958"],
+          "sources": ["Engineering and Technology History Wiki, 'Claude E. Shannon'", "mathshistory.st-andrews.ac.uk/Biographies/Shannon/", "diffie.journey.json and hellman.journey.json, MIT stops"]
+        },
+        {
+          "name": "MIT, The Bandwagon",
+          "lat": 42.3592,
+          "lng": -71.0921,
+          "date": "1956-03-01",
+          "date_confidence": "the March 1956 issue is attested; the place of composition is unrecorded and the marker follows his residence that year",
+          "campa": "Information theory has become fashionable. Psychologists, linguists, economists, and biologists are applying entropy to whatever they study, and often the application is no more than the word. Shannon writes a page and a half for the IRE Transactions telling them to stop. The subject is a technical tool of communication engineering, he says; it is not a solvent for every problem, and its standing has been inflated well past what has been earned. The founder of the field publishes its first warning against itself.",
+          "quote": "A few first rate research papers are preferable to a large number that are poorly conceived or half-finished.",
+          "quote_source": "Claude E. Shannon, 'The Bandwagon,' IRE Transactions on Information Theory 2, no. 1 (March 1956); seen via a compilation page, the IRE text itself not opened in this pass",
+          "suggested_refs": ["IRE Transactions on Information Theory 2, no. 1 (March 1956), the editorial page"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "Wikiquote, 'Claude Shannon', citing the 1956 editorial"]
+        },
+        {
+          "name": "Dartmouth College, the summer research project",
+          "lat": 43.7044,
+          "lng": -72.2887,
+          "date": "1956-06-01",
+          "date_confidence": "June to August 1956 attested; the day is defaulted",
+          "campa": "He co-organizes, with John McCarthy, Marvin Minsky, and Nathaniel Rochester, a summer research project at Dartmouth College on the conjecture that every aspect of learning and intelligence can be described precisely enough for a machine to simulate it. The proposal invents the phrase artificial intelligence in order to name the thing it is proposing. The same year he co-edits Automata Studies with McCarthy. Of the four organizers, Shannon is the one who has already built a machine that learns.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The 1955 proposal for the Dartmouth Summer Research Project on Artificial Intelligence, signed by McCarthy, Minsky, Rochester, and Shannon"],
+          "sources": ["Wikipedia, 'Claude Shannon'"]
+        },
+        {
+          "name": "Winchester, the house on Mystic Lake",
+          "lat": 42.438,
+          "lng": -71.142,
+          "date": "1956-09-01",
+          "date_confidence": "1956 attested for the move; month unrecorded and defaulted",
+          "campa": "He and Betty take a house on Mystic Lake in Winchester, north of Boston, and fill it. Chess machines, juggling machines, unicycles, a mechanical W. C. Fields that juggles rings, a Roman numeral calculator called Throbac, a maze and a mouse, a device that solves Rubik's cubes, a penny matching machine that reads its opponent, flame throwing trumpets, rocket powered frisbees, and motorised foam shoes for walking on water. Visitors name it Entropy House. It is his workshop for the rest of his life.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Winchester house on Mystic Lake, and the inventory of machines dispersed after 2001, partly to the MIT Museum"],
+          "sources": ["Engineering and Technology History Wiki, 'Claude E. Shannon'", "IEEE Spectrum, Horgan, 'Claude Shannon: Tinkerer, Prankster, and Father of Information Theory'", "Wikipedia, 'Claude Shannon'"]
+        },
+        {
+          "name": "MIT, the Donner chair",
+          "lat": 42.3592,
+          "lng": -71.0921,
+          "date": "1958-01-01",
+          "date_confidence": "1958 attested for the appointment; month unrecorded and defaulted",
+          "campa": "He is named Donner Professor of Science, the chair he holds for twenty years until his retirement in 1978 and the emeritus title after it. MacTutor and the MIT records agree on the sequence: visiting in 1956, permanent faculty in 1957, the Donner chair in 1958. He teaches in the Research Laboratory of Electronics. The later decades record no body of students. They record a growing reluctance to appear in public, and a basement in Winchester that is never idle.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["MIT Research Laboratory of Electronics annual reports, 1958-1978"],
+          "sources": ["mathshistory.st-andrews.ac.uk/Biographies/Shannon/", "Engineering and Technology History Wiki, 'Claude E. Shannon'"]
+        },
+        {
+          "name": "Winchester, the basement and the roulette wheel",
+          "lat": 42.438,
+          "lng": -71.142,
+          "date": "1961-06-01",
+          "date_confidence": "built 1960-1961, tested June 1961; the day is unrecorded and defaulted",
+          "campa": "Edward Thorp, who has already worked out how to count cards at blackjack, brings him the harder problem. A roulette ball is a mechanical object obeying mechanical laws, and if you can time its orbit you can predict the octant it falls in. They build the thing in the Winchester basement across a year: a computer the size of a cigarette packet, toe operated switches in the shoe, an earpiece playing a musical scale. They test it in June 1961 on a regulation wheel. It is the first wearable computer, and it works.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Edward O. Thorp's account of the Shannon collaboration in Beat the Dealer and in his later memoir"],
+          "sources": ["Wikipedia, 'Edward O. Thorp' ('tested in Shannon's home lab at his basement in June 1961')", "Wikipedia, 'Claude Shannon'", "MIT News obituary (Winchester residence from 1956)"]
+        }
+      ]
+    },
+    {
+      "name": "Entropy House and the Late Honours",
+      "stops": [
+        {
+          "name": "Washington, the National Medal of Science",
+          "lat": 38.9186,
+          "lng": -77.0367,
+          "date": "1966-01-01",
+          "date_confidence": "1966 attested; the ceremony date is unrecorded in the sources consulted and the month is defaulted",
+          "campa": "Lyndon Johnson presents him with the National Medal of Science, and in the same year the Institute of Electrical and Electronics Engineers gives him its Medal of Honor. The sources consulted do not say whether the two are conferred at one ceremony or two, or in what building. He is fifty, and the work being decorated is eighteen years old. The canonical Washington pin the atlas keeps for Diffie's birth in 1944 and for Oppenheimer's summonses to the capital takes Shannon as a laureate, for an afternoon.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["National Science Foundation records of the 1966 National Medal of Science ceremony"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "Engineering and Technology History Wiki, 'Claude E. Shannon'", "diffie.journey.json, canonical Washington pin"]
+        },
+        {
+          "name": "Haifa, the Harvey Prize",
+          "lat": 32.794,
+          "lng": 34.9896,
+          "date": "1972-01-01",
+          "date_confidence": "1972 attested; month unrecorded and defaulted, and the coordinate is the city rather than the Technion building the sources do not name",
+          "campa": "The Technion in Haifa gives him the Harvey Prize, one of a series of foreign honours arriving through the seventies while he grows harder to reach at home. He travels for them, and less and less for anything else. The citations by now credit him with founding a field, which is accurate, and the field has grown large enough that most of the people working in it have never seen him. He is elected to the National Academy of Sciences, the American Academy of Arts and Sciences, and later the Royal Irish Academy.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Technion Harvey Prize records, 1972"],
+          "sources": ["Wikipedia, 'Claude Shannon'"]
+        },
+        {
+          "name": "MIT, the award in his own name and the retirement",
+          "lat": 42.3592,
+          "lng": -71.0921,
+          "date": "1978-01-01",
+          "date_confidence": "1973 for the award and 1978 for the retirement, both attested; months unrecorded and defaulted to the later year",
+          "campa": "In 1973 the IEEE Information Theory Society creates an award, names it the Claude E. Shannon Award, and gives it to him first. It has been the field's highest honour ever since. In 1978 he retires from the Donner chair at sixty-two and becomes professor emeritus; the Harold Pender Award comes the same year, the American Philosophical Society and the John Fritz Medal in 1983. He does not stop working. He stops appearing, and from outside the two look identical.",
+          "quote": "Thus we may have knowledge of the past but cannot control it; we may control the future but have no knowledge of it.",
+          "quote_source": "Claude E. Shannon, 'Coding Theorems for a Discrete Source with a Fidelity Criterion' (1959); seen via a compilation page, the primary paper not opened in this pass",
+          "suggested_refs": ["The roll of Claude E. Shannon Award recipients, IEEE Information Theory Society, from 1973"],
+          "sources": ["Wikipedia, 'Claude Shannon'", "itsoc.org/about/shannon", "Wikiquote, 'Claude Shannon'"]
+        },
+        {
+          "name": "Brighton, the symposium mobs him",
+          "lat": 50.8188,
+          "lng": -0.1379,
+          "date": "1985-01-01",
+          "date_confidence": "the year is attested by ITSOC; the month is unrecorded in the sources consulted and defaulted",
+          "campa": "He appears, unannounced, at the IEEE International Symposium on Information Theory in Brighton on the English south coast. He has published almost nothing in the field for twenty-five years, and a generation of researchers had taken him for a name on a paper rather than a man who might walk into the hall. The accounts say he was mobbed, that the attention startled him, and that he juggled at the banquet. ITSOC confirms the appearance. The juggling is retold everywhere and verified nowhere in this pass.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Proceedings and attendance records of the 1985 IEEE International Symposium on Information Theory, Brighton"],
+          "sources": ["itsoc.org/about/shannon (appearance confirmed)", "widely repeated banquet anecdote, unverified"]
+        },
+        {
+          "name": "Kyoto, the first Kyoto Prize in Basic Sciences",
+          "lat": 35.0459,
+          "lng": 135.7825,
+          "date": "1985-01-01",
+          "date_confidence": "1985 attested; the November ceremony date is not confirmed in the sources consulted and the month is defaulted",
+          "campa": "The Inamori Foundation gives him the inaugural Kyoto Prize in Basic Sciences and he flies to Japan to take it. It is among the last of the public appearances, and in the same year he receives the Audio Engineering Society Gold Medal and election to the National Academy of Engineering. The work being cited is nearly forty years old and unsuperseded in the plainest sense: the bound he proved on what a channel can carry has never been raised by anybody, because it cannot be.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Inamori Foundation records of the first Kyoto Prize, 1985"],
+          "sources": ["Engineering and Technology History Wiki, 'Claude E. Shannon'", "itsoc.org/about/shannon", "Wikipedia, 'Claude Shannon'"]
+        }
+      ]
+    },
+    {
+      "name": "The Long Silence and the Afterlife",
+      "stops": [
+        {
+          "name": "Winchester, the Omni interview",
+          "lat": 42.438,
+          "lng": -71.142,
+          "date": "1987-08-01",
+          "date_confidence": "August 1987 issue attested; day unrecorded and defaulted",
+          "campa": "Anthony Liversidge comes to the house for Omni magazine and finds him willing to talk. Asked whether it disturbs him that machines might one day surpass human intelligence, Shannon answers without hedging at all. He tells the interviewer he can imagine a time when we will be to robots as dogs are to humans, and that his motivation in science has always been curiosity about something, about how it is put together. It is one of the last extended interviews he gives to anybody.",
+          "quote": "I am not depressed by it. I am rooting for the machines!",
+          "quote_source": "Claude Shannon, interviewed by Anthony Liversidge, Omni Magazine, August 1987; seen via a compilation page, the magazine itself not opened in this pass",
+          "suggested_refs": ["Omni Magazine, August 1987, the Liversidge interview, reprinted in Shannon's Collected Papers"],
+          "sources": ["Wikiquote, 'Claude Shannon', citing Omni (August 1987)", "Shannon, Collected Papers (reprints the Liversidge interview)"]
+        },
+        {
+          "name": "Winchester, Horgan at the door",
+          "lat": 42.438,
+          "lng": -71.142,
+          "date": "1992-04-01",
+          "date_confidence": "April 1992 issue attested; the visit's own date is unrecorded and defaulted to the issue",
+          "campa": "John Horgan drives out to Winchester for IEEE Spectrum and Shannon shows him the machines room by room, running each one. Asked whether machines can think, he says: you bet, I am a machine and you are a machine, and we both think, do we not. He says he loves building machines and that it is hard keeping them in repair. Of a life's worth of gadgets he says the line above. A companion sentence is printed by Spectrum as final value and by his own Collected Papers as financial value; both readings are left standing here.",
+          "quote": "I've spent lots of time on totally useless things.",
+          "quote_source": "Claude Shannon to John Horgan at Winchester, Massachusetts; John Horgan, 'Claude Shannon: Tinkerer, Prankster, and Father of Information Theory,' IEEE Spectrum, April 1992. Identical wording in Shannon, Collected Papers, p. xvii.",
+          "suggested_refs": ["IEEE Spectrum, April 1992, Horgan's profile, republished online 27 April 2016"],
+          "sources": ["John Horgan, IEEE Spectrum (April 1992)", "Shannon, Collected Papers, biographical preface, p. xvii"]
+        },
+        {
+          "name": "Medford, the Courtyard Nursing Care Center",
+          "lat": 42.4184,
+          "lng": -71.1062,
+          "date": "2001-02-24",
+          "date_confidence": "attested to the day",
+          "campa": "He dies on the twenty-fourth of February at the Courtyard Nursing Care Center in Medford, at eighty-four, after years of Alzheimer's disease that had taken him out of public life well before it took the rest. MIT's obituary names the survivors: Betty; a son, Andrew Moore Shannon of Brookline; a daughter, Margarita, called Peggy, of Cambridge; a sister, Catherine S. Kay of Benton, Kentucky; and two granddaughters. The New York Times carries the notice three days later and calls him, in the headline, a mathematician.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["MIT News obituary, news.mit.edu/2001/shannon; New York Times, 'Claude Shannon, Mathematician, Dies at 84,' 27 February 2001"],
+          "sources": ["MIT News obituary (2001)", "New York Times obituary (27 February 2001)", "Wikipedia, 'Claude Shannon'"]
+        },
+        {
+          "name": "Mount Auburn Cemetery, the grave that is claimed and not confirmed",
+          "lat": 42.3762,
+          "lng": -71.1497,
+          "date": "2001-02-27",
+          "date_confidence": "the date is the New York Times obituary's, not the burial's; the burial is undated and its place is disputed",
+          "campa": "The New York Times obituary states that services and burial are private and gives no cemetery. The Spanish Wikipedia says he lies at Mount Auburn Cemetery in Cambridge. A search of Mount Auburn's own online burial locator for the name Shannon returns nothing at all. The two claims contradict each other and neither is resolved here; the marker sits at the cemetery that is claimed and unconfirmed, which is the honest position. Six bronze figures of him stand in four states, and not one of them marks a grave.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Mount Auburn Cemetery interment records, searched online with no result for Shannon"],
+          "sources": ["New York Times obituary (27 February 2001)", "Spanish Wikipedia, 'Claude Elwood Shannon' (contradicting)", "Mount Auburn Cemetery online burial locator, accessed 2026, zero results"]
+        },
+        {
+          "name": "Gaylord, the bronze and the centenary",
+          "lat": 45.0264,
+          "lng": -84.6752,
+          "date": "2016-04-30",
+          "date_confidence": "attested to the day for the centenary; the statue's installation year is not fixed in the sources consulted",
+          "campa": "A hundred years after Petoskey, Google puts him on its homepage juggling. The IEEE Information Theory Society runs a worldwide centenary and Bell Labs holds a conference at Murray Hill on the twenty-eighth and twenty-ninth of April. In Gaylord, the town he grew up in, the Eugene Daub bronze stands in Claude Shannon Memorial Park. Jimmy Soni and Rob Goodman publish A Mind at Play in 2017, subtitled for the most important genius you have never heard of, and Mark Levinson's documentary The Bit Player premieres in New York on the twenty-ninth of May 2019.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Claude Shannon Memorial Park, Gaylord, Michigan; the Google Doodle of 30 April 2016; The Bit Player (dir. Mark Levinson, 2019)"],
+          "sources": ["Wikipedia, 'Claude Shannon', Centenary and Statues sections", "Wikipedia, 'The Bit Player'", "Soni and Goodman, A Mind at Play (2017)"]
+        }
+      ]
+    }
+  ]
+}
