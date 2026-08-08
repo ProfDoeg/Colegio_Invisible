@@ -374,6 +374,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Pablo Sigwald** | Argentine papermaker of an important family, husband of Vicky Sigwald above; further biographical detail not yet confirmed |
 | 1 | **Atahualpa** | last sovereign Inca emperor, captured and executed by Pizarro (already done) after the ransom of Cajamarca |
 | 0 | **Túpac Amaru I** | the original Túpac Amaru, last indigenous Sapa Inca of the Neo-Inca State at Vilcabamba, executed by the Spanish in 1572; a DIFFERENT person from Túpac Amaru II already queued above (the 18th-century revolt leader) |
+| 1 | **José Hernández** | Argentine poet, author of Martín Fierro, the foundational gaucho epic; joins the corpus's Argentine literary/gaucho geography (juan_manuel_de_rosas, martin_miguel_de_guemes already done) |
 | 0 | **Sarah Bernhardt** | French stage actress, 'the Divine Sarah,' one leg amputated in 1915 yet kept touring and performing; her international tours reached Buenos Aires, joining the corpus's Argentine theatrical geography |
 | 0 | **Paulo Freire** | Brazilian educator, author of Pedagogy of the Oppressed, exiled after Brazil's 1964 coup; direct contemporary and intellectual companion of Augusto Boal already queued (Theatre of the Oppressed) |
 | 0 | **Joseph Alexandre Saint-Yves d'Alveydre** | French esotericist, coiner of 'synarchy' and theorist of the underground kingdom of Agartha; joins the corpus's hollow-earth fiction cluster (symmes already queued) alongside the same thread running through Poe, Dante's underworld, and Verne |
