@@ -342,6 +342,17 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Sabbatai Zevi** | 17th-century false messiah whose movement grew directly out of Lurianic Kabbalah, one of the largest ruptures in Jewish history; bridges the Kabbalah cluster just queued to the Jewish-diaspora material already there (golda_meir, martin_buber, alberto_gerchunoff) |
 | 0 | **Jacob Frank** | heretical continuation of Sabbateanism into 18th-century Central European esoteric/Masonic circles; ties to saint_germain and cagliostro already queued |
 | 0 | **Edward Bernays** | father of public relations and propaganda, nephew of Sigmund Freud (already done) and applier of psychoanalytic theory to mass persuasion; direct family interlock |
+| 0 | **Jakob Fugger 'the Rich'** | head of the Fugger banking dynasty, financed Charles V's imperial election; the Fuggers' indulgence-selling partnership with the Church directly provoked Luther's 95 Theses (martin_luther already done) |
+| 0 | **Anton Fugger** | Jakob Fugger's nephew and successor, led the Fugger bank at its peak financing the Habsburgs; second figure of the same dynasty |
+| 0 | **Cosimo de' Medici** | founder of the Medici banking dynasty's political power in Florence, patron of Renaissance art and science; joins michelangelo, leonardo_da_vinci already queued |
+| 0 | **Lorenzo de' Medici ('il Magnifico')** | Cosimo's grandson, the Medici ruler at the height of Florentine Renaissance patronage; second figure of the same dynasty |
+| 0 | **Max Warburg** | German-Jewish banker of the Warburg dynasty, financed Germany through WWI; brother of Aby Warburg already queued, a direct family interlock |
+| 0 | **Paul Warburg** | Max's brother, emigrated to the US and was the chief architect of the Federal Reserve System; second figure of the same dynasty |
+| 0 | **Francis Baring** | founder of Barings Bank, the British merchant bank that financed sovereign debt and trade across the Napoleonic era |
+| 0 | **Alexander Baring** | Francis's relation who personally arranged the financing of the Louisiana Purchase; second figure of the same dynasty, ties to the corpus's Napoleonic-era Americas material |
+| 0 | **Junius Spencer Morgan** | founder of the London merchant bank that became J.P. Morgan & Co. |
+| 0 | **J.P. Morgan** | Junius's son, American Gilded Age banking titan who financed Edison and the electrification of America; second figure of the same dynasty, reaching toward the corpus's physics/invention wing |
+| 0 | **Simone de' Bardi** | Florentine banker of the Bardi banking house, husband of Beatrice Portinari; already named in passing in dante.journey.json ('married some years now to the banker Simone de' Bardi'), never given his own entry |
 
 
 
