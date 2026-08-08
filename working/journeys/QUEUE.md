@@ -147,6 +147,8 @@ essays+Instagram corpus.
 | 1 | **Erik Satie** | French avant-garde composer |
 | 1 | **Merce Cunningham** | American modern dance choreographer |
 | 1 | **Swami Vivekananda** | Hindu monk who brought Vedanta to the West |
+| 0 | **Mahatma Gandhi** | led India's independence movement through nonviolent resistance, assassinated 1948; the corpus's Indian material so far is entirely religious/mystic (swami_vivekananda, pattabhi_jois, giuseppe_tucci already done) with no political-independence figure until now |
+| 0 | **Kublai Khan** | grandson of Genghis Khan (already done), founder of the Yuan dynasty and the Mongol ruler Marco Polo actually served at court; continues the Mongol Empire thread into China |
 | 1 | **Otto Hanish (Mazdaznan)** | founder of the Mazdaznan movement |
 | 1 | **Giuseppe Tucci** | Italian orientalist and Tibet scholar |
 | 1 | **Ann Lee** | founder and spiritual leader of the Shakers |
@@ -401,6 +403,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Geoffrey Hinton** | British-Canadian computer scientist, Turing laureate, 'Godfather of AI'; backpropagation and Boltzmann machines at Toronto, then resigned from Google in 2023 to speak freely about AI risk; joins the corpus's mathematics/cipher wing (diffie, hellman, von_neumann already done) |
 | 0 | **Polybius** | Greek historian of Rome's rise, author of The Histories; devised the Polybius square, a letter-to-number-pair cipher predating julius_caesar's just queued shift cipher by a century, the corpus's cipher lineage now reaches its ancient root |
 | 0 | **Julius Caesar** | Roman general and dictator, assassinated 44 BC; used a simple substitution cipher for military dispatches, the eponymous 'Caesar cipher' that blaise_de_vigenere's just queued polyalphabetic cipher later builds on |
+| 0 | **Cleopatra VII** | last active pharaoh of Ptolemaic Egypt, allied and involved with julius_caesar just queued and later Mark Antony; brings ancient Egypt into the atlas as a region for the first time |
 | 0 | **Blaise de Vigenère** | French diplomat and cryptographer whose polyalphabetic cipher extends julius_caesar's just queued substitution shift into a system considered unbreakable for centuries; joins the corpus's cipher wing (diffie, hellman, alan_turing just queued) |
 | 0 | **Arthur Scherbius** | German engineer, inventor of the Enigma machine; the cipher alan_turing's just queued Bletchley Park team breaks, direct interlock |
 | 0 | **Marian Rejewski** | Polish mathematician who first broke arthur_scherbius's just queued Enigma cipher in the early 1930s, years before Bletchley Park; his team's methods and reconstructed machine were passed to the British and French just before the war, directly enabling alan_turing's just queued effort |
@@ -484,6 +487,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Vicky Sigwald** | Argentine papermaker of an important family; married to Pablo Sigwald below; further biographical detail not yet confirmed |
 | 0 | **Pablo Sigwald** | Argentine papermaker of an important family, husband of Vicky Sigwald above; further biographical detail not yet confirmed |
 | 1 | **Atahualpa** | last sovereign Inca emperor, captured and executed by Pizarro (already done) after the ransom of Cajamarca |
+| 0 | **Moctezuma II** | Aztec emperor at the time of Cortés's (already done) invasion, captured and killed during the fall of Tenochtitlan; the Aztec counterpart the corpus's conquest material has been missing (cortes and pizarro already done, atahualpa just queued) |
 | 0 | **Túpac Amaru I** | the original Túpac Amaru, last indigenous Sapa Inca of the Neo-Inca State at Vilcabamba, executed by the Spanish in 1572; a DIFFERENT person from Túpac Amaru II already queued above (the 18th-century revolt leader) |
 | 1 | **José Hernández** | Argentine poet, author of Martín Fierro, the foundational gaucho epic; joins the corpus's Argentine literary/gaucho geography (juan_manuel_de_rosas, martin_miguel_de_guemes already done) |
 | 0 | **Herodotus** | Greek historian, 'Father of History', traveled to Egypt, Scythia, and Persia to write his Histories |
