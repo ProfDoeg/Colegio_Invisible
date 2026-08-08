@@ -200,6 +200,9 @@ essays+Instagram corpus.
 | 0 | **Meyer Lansky** | American organized-crime financier, built the Havana casino network under Batista, driven out by fidel_castro already done; direct interlock |
 | 0 | **John F. Kennedy** | 35th US president, Bay of Pigs and the Cuban Missile Crisis with fidel_castro already done, assassinated 1963; joins the corpus's central-banking discourse thread (hamilton, jackson, lincoln just queued) via the Executive Order 11110 episode |
 | 0 | **Charles 'Lucky' Luciano** | architect of the modern American Mafia, direct partner of meyer_lansky just queued in the same Havana casino network under Batista |
+| 0 | **Pasquale Simonetti ("Pascalone 'e Nola")** | Neapolitan Camorra boss of the postwar black market, gunned down in Naples in 1955; the killing that launches pupetta_maresca just queued into her own legend |
+| 0 | **Pupetta Maresca** | avenged her fiance pasquale_simonetti just queued by shooting his killer in broad daylight in 1955, tried and imprisoned, later a Camorra figure and film actress; joins the corpus's organized-crime cluster (luciano, lansky just queued) from its Italian, not American, side |
+| 0 | **Licio Gelli** | grandmaster of the clandestine Propaganda Due (P2) Masonic lodge, implicated in the Banco Ambrosiano collapse and the death of Roberto Calvi; joins the corpus's Masonic material (hiram_abiff, albert_pike already queued) at its darkest, most conspiratorial edge |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
