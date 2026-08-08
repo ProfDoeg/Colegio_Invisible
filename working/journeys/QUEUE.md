@@ -321,6 +321,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Valeska Gert** | German-Jewish expressionist dancer, actress and cabaret performer of grotesque dance, fled Nazi Germany and ran nightclubs in exile in New York and later Italy; joins the same wing |
 | 0 | **Hilde Holger** | Austrian-Jewish expressionist dancer trained under Gertrud Bodenwieser, fled to Bombay then London, later pioneered dance therapy for people with Down syndrome; joins the same wing |
 | 0 | **Ruth St. Denis** | American modern dance pioneer, co-founder of Denishawn with Ted Shawn, orientalist-inspired solo dance, teacher of Martha Graham and Doris Humphrey; joins the same wing (isadora_duncan already done) |
+| 0 | **Katherine Johnson** | American mathematician at NASA, hand-calculated the trajectories for the first US crewed spaceflights, work later dramatized in Hidden Figures; joins the corpus's mathematics/space wing (von_neumann, richard_feynman already done) |
 
 
 
