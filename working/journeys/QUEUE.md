@@ -203,6 +203,11 @@ essays+Instagram corpus.
 | 0 | **Pasquale Simonetti ("Pascalone 'e Nola")** | Neapolitan Camorra boss of the postwar black market, gunned down in Naples in 1955; the killing that launches pupetta_maresca just queued into her own legend |
 | 0 | **Pupetta Maresca** | avenged her fiance pasquale_simonetti just queued by shooting his killer in broad daylight in 1955, tried and imprisoned, later a Camorra figure and film actress; joins the corpus's organized-crime cluster (luciano, lansky just queued) from its Italian, not American, side |
 | 0 | **Licio Gelli** | grandmaster of the clandestine Propaganda Due (P2) Masonic lodge, implicated in the Banco Ambrosiano collapse and the death of Roberto Calvi; joins the corpus's Masonic material (hiram_abiff, albert_pike already queued) at its darkest, most conspiratorial edge |
+| 0 | **Mohammad Mosaddegh** | elected Iranian prime minister, nationalized Anglo-Iranian Oil, overthrown in the 1953 CIA/MI6-backed coup (Operation Ajax) that restores mohammad_reza_shah_pahlavi just queued to full power |
+| 0 | **Mohammad Reza Shah Pahlavi** | Shah of Iran restored by the 1953 coup against mosaddegh just queued, overthrown in turn by the 1979 revolution led by ayatollah_khomeini just queued |
+| 0 | **Ayatollah Khomeini** | leader of the 1979 Iranian Revolution that deposes the shah just queued, founder of the Islamic Republic; his hostility to saddam_hussein just queued opens the Iran-Iraq War |
+| 0 | **Saddam Hussein** | president of Iraq, fought the eight-year Iran-Iraq War against khomeini's just queued Iran, later the Gulf War and his own 2003 overthrow |
+| 0 | **Muammar Gaddafi** | Libyan revolutionary leader from 1969 to 2011, pan-Arabist and later pan-Africanist, armed and funded insurgencies across the region; joins the corpus's cluster of 20th-century strongmen (saddam_hussein just queued) |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
