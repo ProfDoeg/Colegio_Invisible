@@ -246,6 +246,8 @@ docs = corpus documents, 0 where the subject is not yet written of.
 | 0 | **Joseph-Marie Jacquard** | the loom that put writing into punched cards; mobbed by weavers, then a statue woven in silk |
 | 0 | **Ada Lovelace** | 'weaves algebraic patterns just as the Jacquard-loom weaves flowers and leaves'; thread becomes computation |
 | 0 | **Alan Turing** | codebreaker at Bletchley Park, father of computer science and the Turing test; joins ada_lovelace just queued and the corpus's cipher/computing wing (claude_shannon already done) |
+| 0 | **Vint Cerf** | co-designed TCP/IP with bob_kahn just queued, the protocol suite underlying the internet; joins the corpus's cipher/computing wing (alan_turing just queued, claude_shannon already done) |
+| 0 | **Bob Kahn** | co-designed TCP/IP with vint_cerf just queued; the two are jointly called the fathers of the internet |
 | 0 | **Egeria** | 4th-century woman whose Holy Land diary is the earliest surviving pilgrimage account |
 | 0 | **Benjamin de Tudela** | medieval Jewish traveler from Iberia through every community to Baghdad; al-Andalus and the court Jews |
 | 0 | **Rabban Bar Sauma** | the reverse Marco Polo: Beijing-born Nestorian monk sent west, met kings and popes |
