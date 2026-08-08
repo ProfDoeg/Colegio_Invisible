@@ -185,6 +185,14 @@ essays+Instagram corpus.
 | 0 | **Stephen King** | American horror novelist; pet_sematary.md, one of the corpus's own locked essay files, is built entirely around his novel, yet he appears nowhere in the atlas |
 | 0 | **Hal Finney** | cryptographer, early PGP developer, received the first Bitcoin transaction from Satoshi Nakamoto; diagnosed with ALS and chose cryonic preservation at Alcor; joins the corpus's cipher wing (diffie, hellman already done) |
 | 0 | **Nick Szabo** | computer scientist and legal scholar, proposed 'bit gold' and smart contracts before Bitcoin existed; joins the same cipher/blockchain wing as hal_finney just queued |
+| 0 | **George Washington** | first US president; already named extensively across marques_de_lafayette, madame_de_lafayette (the Masonic apron stop), yet never given his own journey |
+| 0 | **Thomas Jefferson** | third US president, author of the Declaration of Independence; joins the same Revolutionary-era American cluster |
+| 0 | **Alexander Hamilton** | first US Treasury Secretary, architect of the American financial system; joins the corpus's banking cluster (the fuggers, medicis, warburgs, barings, morgans already queued) |
+| 0 | **Andrew Jackson** | seventh US president, Indian Removal Act and the Trail of Tears; interlocks with the corpus's Native American material (sitting_bull, low_dog, pocahontas already done/queued) |
+| 0 | **Abraham Lincoln** | sixteenth US president; already named in passing (sent Abdelkader an inscribed rifle, per kircher/abdelkader-adjacent material), a DIFFERENT person from abraham.journey.json (the biblical patriarch) |
+| 0 | **Benjamin Franklin** | American polymath, printer, diplomat, Freemason; joins the corpus's Masonic material (albert_pike, hiram_abiff already done) and the same Revolutionary-American/French court cluster as marques_de_lafayette |
+| 0 | **Nikola Tesla** | Serbian-American inventor, AC power system, rival of Edison; joins the corpus's physics/invention wing |
+| 0 | **Thomas Edison** | American inventor, financed by J.P. Morgan already queued; direct interlock, plus rival of nikola_tesla just queued |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
