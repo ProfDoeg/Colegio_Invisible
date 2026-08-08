@@ -199,6 +199,7 @@ essays+Instagram corpus.
 | 0 | **Adam Smith** | Scottish economist of The Wealth of Nations, foundational to the financial system alexander_hamilton just queued built; joins the corpus's banking/economics cluster |
 | 0 | **Meyer Lansky** | American organized-crime financier, built the Havana casino network under Batista, driven out by fidel_castro already done; direct interlock |
 | 0 | **John F. Kennedy** | 35th US president, Bay of Pigs and the Cuban Missile Crisis with fidel_castro already done, assassinated 1963; joins the corpus's central-banking discourse thread (hamilton, jackson, lincoln just queued) via the Executive Order 11110 episode |
+| 0 | **Charles 'Lucky' Luciano** | architect of the modern American Mafia, direct partner of meyer_lansky just queued in the same Havana casino network under Batista |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
