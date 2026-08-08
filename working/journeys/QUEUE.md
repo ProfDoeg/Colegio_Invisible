@@ -316,6 +316,11 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Katja Wulff** | German-Swiss expressionist dancer (1890-1992), trained under Laban and Wigman, co-founded a eurythmy school with Suzanne Perrottet, ran her own Ausdruckstanz school in Basel from 1923 to past 90; worked with Jean Arp and Sophie Taeuber-Arp just queued. Directly interlocks with laban, mary_wigman, suzanne_perrottet already done |
 | 1 | **Indra Devi** | Latvian-born yoga teacher (Eugenie Peterson), 'First Lady of Yoga', studied under Krishnamacharya in Mysore (the same teacher as pattabhi_jois already done), later taught in Shanghai, Hollywood, and Buenos Aires |
 | 0 | **Pocahontas** | Powhatan noblewoman, captured and married to John Rolfe, died in England at about twenty-one; joins the corpus's Native American geography (sitting_bull, low_dog already done) |
+| 0 | **Dore Hoyer** | German expressionist dancer in the Wigman lineage, celebrated soloist whose later career collapsed into poverty and isolation, suicide in 1967; joins the corpus's dance wing (mary_wigman, laban already done) |
+| 0 | **Hanya Holm** | German-American choreographer, one of the 'Big Four' of American modern dance, brought Wigman's technique to the US and later choreographed Kiss Me, Kate and My Fair Lady on Broadway; joins the same wing |
+| 0 | **Valeska Gert** | German-Jewish expressionist dancer, actress and cabaret performer of grotesque dance, fled Nazi Germany and ran nightclubs in exile in New York and later Italy; joins the same wing |
+| 0 | **Hilde Holger** | Austrian-Jewish expressionist dancer trained under Gertrud Bodenwieser, fled to Bombay then London, later pioneered dance therapy for people with Down syndrome; joins the same wing |
+| 0 | **Ruth St. Denis** | American modern dance pioneer, co-founder of Denishawn with Ted Shawn, orientalist-inspired solo dance, teacher of Martha Graham and Doris Humphrey; joins the same wing (isadora_duncan already done) |
 
 
 
