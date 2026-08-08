@@ -322,6 +322,12 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Hilde Holger** | Austrian-Jewish expressionist dancer trained under Gertrud Bodenwieser, fled to Bombay then London, later pioneered dance therapy for people with Down syndrome; joins the same wing |
 | 0 | **Ruth St. Denis** | American modern dance pioneer, co-founder of Denishawn with Ted Shawn, orientalist-inspired solo dance, teacher of Martha Graham and Doris Humphrey; joins the same wing (isadora_duncan already done) |
 | 0 | **Katherine Johnson** | American mathematician at NASA, hand-calculated the trajectories for the first US crewed spaceflights, work later dramatized in Hidden Figures; joins the corpus's mathematics/space wing (von_neumann, richard_feynman already done) |
+| 0 | **Wassily Kandinsky** | Russian Bauhaus painter, theorist of synesthesia and vibration in Concerning the Spiritual in Art, designer for the stage; joins the corpus's Bauhaus cluster (paul_klee, itten already done), a bridge between the dance, philosophy, and physics subspaces |
+| 0 | **Oskar Schlemmer** | Bauhaus painter-choreographer of the Triadic Ballet, dance built from geometric abstraction of the body; direct colleague of Klee, Itten, and Kandinsky just queued, another dance-philosophy-physics bridge |
+| 0 | **Étienne-Jules Marey** | French physiologist, chronophotography of motion, direct scientific ancestor of both dance notation and physics-of-motion study; natural companion to muybridge already in the atlas |
+| 0 | **Nikolai Bernstein** | Soviet physiologist, founder of the biomechanics of movement underlying modern dance science, work feeding directly into cybernetics; bridges the dance and physics/mathematics wings |
+| 0 | **María Pita** | Galician heroine who rallied the defense of A Coruña against the English Armada in 1589, her cry 'Quen teña honra, que me siga' becoming a local legend |
+| 0 | **Norbert Wiener** | American mathematician, founder of cybernetics, MIT professor; joins the corpus's mathematics/cipher wing (claude_shannon, von_neumann already done) and directly bridges to nikolai_bernstein just queued |
 
 
 
