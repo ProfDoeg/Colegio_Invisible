@@ -314,6 +314,7 @@ the manifesto, and the cipher.
 | 0 | **David Sassoon** | Baghdad's treasurer fleeing the pasha, rebuilding in Bombay until the Baghdadi diaspora ran Shanghai to London; the exile gone planetary |
 | 0 | **Mayer Amschel Rothschild** | the Frankfurt Judengasse to the five arrows - five sons sent to five capitals; the court-Jews thread become a constellation of its own |
 | 0 | **al-Kindi** | philosopher of the Arabs at the House of Wisdom; the Risala that invented frequency analysis - ancestor of the book's own cipher practice, joining Trithemius and Shannon across a millennium |
+| 0 | **al-Khalil ibn Ahmad al-Farahidi** | 8th-century Arab lexicographer, father of Arabic prosody and compiler of the first Arabic dictionary; credited with solving a Byzantine cryptogram through permutations and combinations, predating al-Kindi's just queued frequency analysis in the cipher lineage |
 | 0 | **Guy Debord** | the dérive - drifting as method, psychogeography, the city read by walking; Society of the Spectacle; the atlas's practice named as theory |
 | 0 | **Clotilde Sakharoff** | Clotilde von Derp of the Blaue Reiter Munich, abstract mime with Alexander across the world's stages, teaching at the end in Buenos Aires - the edge between the dance wing and Argentina |
 | 0 | **F.T. Marinetti** | born in Alexandria, the Futurist Manifesto flung from a ditch beside a crashed car; speed itself as pilgrimage; joins the dannunzio-mussolini cluster it helped create |
