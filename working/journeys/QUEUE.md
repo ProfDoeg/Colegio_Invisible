@@ -503,6 +503,8 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Joseph Alexandre Saint-Yves d'Alveydre** | French esotericist, coiner of 'synarchy' and theorist of the underground kingdom of Agartha; joins the corpus's hollow-earth fiction cluster (symmes already queued) alongside the same thread running through Poe, Dante's underworld, and Verne |
 | 0 | **William R. Bradshaw** | American author of The Goddess of Atvatabar (1892), a hollow-earth fiction novel; part of the same hollow-earth cluster as symmes, saint-yves, and john_uri_lloyd |
 | 0 | **John Uri Lloyd** | American pharmacist and author of Etidorhpa (1895), a hollow-earth fiction novel; part of the same hollow-earth cluster as symmes, saint-yves, and william_r_bradshaw |
+| 0 | **Federico García Lorca** | Spanish poet and playwright, murdered by Nationalist forces at the start of the Civil War in 1936; one of the busts in the Jardín de los Poetas, Palermo, Buenos Aires |
+| 0 | **Gibran Khalil Gibran** | Lebanese-American poet and artist, author of The Prophet; one of the busts in the Jardín de los Poetas, Palermo, Buenos Aires, alongside taras_shevchenko already queued |
 
 
 
