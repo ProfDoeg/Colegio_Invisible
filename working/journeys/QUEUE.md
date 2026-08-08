@@ -183,6 +183,8 @@ essays+Instagram corpus.
 | 0 | **Margaret Murray** | British archaeologist and folklorist, author of the witch-cult hypothesis (that European witch trials targeted a surviving pre-Christian pagan religion), directly influential on the founding of modern Wicca |
 | 0 | **Dion Fortune** | British occultist, founder of the Society of the Inner Light, novelist of The Sea Priestess; joins the corpus's British occult wing (a.e. waite, pamela_colman_smith already queued) |
 | 0 | **Stephen King** | American horror novelist; pet_sematary.md, one of the corpus's own locked essay files, is built entirely around his novel, yet he appears nowhere in the atlas |
+| 0 | **Hal Finney** | cryptographer, early PGP developer, received the first Bitcoin transaction from Satoshi Nakamoto; diagnosed with ALS and chose cryonic preservation at Alcor; joins the corpus's cipher wing (diffie, hellman already done) |
+| 0 | **Nick Szabo** | computer scientist and legal scholar, proposed 'bit gold' and smart contracts before Bitcoin existed; joins the same cipher/blockchain wing as hal_finney just queued |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
