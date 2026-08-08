@@ -175,6 +175,8 @@ essays+Instagram corpus.
 | 0 | **Abu Bakr as-Siddiq** | closest companion of Muhammad already done, first Rashidun Caliph after his death (d. 634); direct interlock with the corpus's earliest Islamic material |
 | 0 | **Baha al-Din Naqshband** | founder of the Naqshbandi Sufi order (d. 1389), based in Bukhara; joins the same Sufi cluster (junayd_al_baghdadi, abd_al_qadir_al_jilani just queued) |
 | 0 | **Moinuddin Chishti** | founder of the Chishti Sufi order (d. 1236), most influential Sufi lineage in South Asia, shrine at Ajmer one of the subcontinent's most visited; joins the same Sufi cluster |
+| 0 | **Nizam ad-Din Auliya** | Chishti Sufi saint of Delhi (d. 1325), in the direct lineage from moinuddin_chishti just queued |
+| 0 | **Amir Khusrow** | poet, musician, and scholar (d. 1325), the most famous disciple of Nizam ad-Din Auliya just queued, credited with founding qawwali; direct teacher-student interlock |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
