@@ -84,6 +84,7 @@ essays+Instagram corpus.
 | 3 | **Augusto Pinochet** | Chilean dictator |
 | 3 | **Diffie** | American cryptographer, co-inventor of public-key cryptography |
 | 3 | **Hellman** | American cryptographer, co-inventor of Diffie–Hellman key exchange |
+| 0 | **Ralph Merkle** | American computer scientist, independently co-invented public-key cryptography alongside diffie and hellman already queued, and invented the Merkle tree, the hash structure underlying the blockchains hal_finney and satoshi_nakamoto's work depends on |
 | 3 | **Michel Foucault** | French philosopher and historian of ideas |
 | 3 | **Gilles Deleuze** | French philosopher, author of The Fold |
 | 3 | **Martin Luther** | German Protestant reformer |
