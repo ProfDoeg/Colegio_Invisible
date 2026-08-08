@@ -249,6 +249,7 @@ docs = corpus documents, 0 where the subject is not yet written of.
 | 0 | **Anni Albers** | Bauhaus weaver who called Andean textiles 'the great teachers'; Black Mountain, On Weaving |
 | 0 | **Joseph-Marie Jacquard** | the loom that put writing into punched cards; mobbed by weavers, then a statue woven in silk |
 | 0 | **Ada Lovelace** | 'weaves algebraic patterns just as the Jacquard-loom weaves flowers and leaves'; thread becomes computation |
+| 0 | **Charles Babbage** | English mathematician, designed the Difference Engine and Analytical Engine, the mechanical ancestor of the computer; ada_lovelace's just queued collaborator, wrote the notes on his Analytical Engine that became the first published algorithm |
 | 0 | **Alan Turing** | codebreaker at Bletchley Park, father of computer science and the Turing test; joins ada_lovelace just queued and the corpus's cipher/computing wing (claude_shannon already done) |
 | 0 | **Vint Cerf** | co-designed TCP/IP with bob_kahn just queued, the protocol suite underlying the internet; joins the corpus's cipher/computing wing (alan_turing just queued, claude_shannon already done) |
 | 0 | **Bob Kahn** | co-designed TCP/IP with vint_cerf just queued; the two are jointly called the fathers of the internet |
