@@ -222,6 +222,9 @@ essays+Instagram corpus.
 | 0 | **George W. Bush** | 43rd US president, launched the 2003 Iraq War that ends saddam_hussein's just queued rule; son of george_hw_bush just queued |
 | 0 | **Bill Clinton** | 42nd US president, documented on multiple flights aboard jeffrey_epstein's just queued private plane per released flight logs; husband of hillary_clinton just queued |
 | 0 | **Hillary Clinton** | US Senator and Secretary of State, wife of bill_clinton just queued, 2016 presidential candidate |
+| 0 | **Cristina Fernández de Kirchner** | Argentine president 2007-2015, later vice president 2019-2023, widow of predecessor Néstor Kirchner; extends the corpus's Argentine presidential line (juan_peron, eva_peron, isabel_peron already done) into the 21st century |
+| 0 | **Javier Milei** | Argentine president since 2023, self-described anarcho-capitalist economist elected on a platform defined against kirchnerismo (cristina_fernandez_de_kirchner just queued); the line's current holder |
+| 0 | **Benjamin Netanyahu** | Israel's longest-serving prime minister, dominant figure in its politics since the 1990s through the present |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
