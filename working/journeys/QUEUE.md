@@ -314,6 +314,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Sophie Taeuber-Arp** | Swiss Dada artist and dancer, wife of Jean Arp, associated with Cabaret Voltaire and Zurich Dada; joins the corpus's Zurich/dance-avant-garde cluster (laban, mary_wigman, suzanne_perrottet already done) |
 | 3 | **Ronald Richter** | Austrian-Argentine physicist behind Perón's Huemul Project, the fraudulent claim of controlled nuclear fusion on an island near Bariloche in 1951, a national embarrassment once exposed; joins the corpus's Argentine geography (juan_peron already done) |
 | 0 | **Katja Wulff** | German-Swiss expressionist dancer (1890-1992), trained under Laban and Wigman, co-founded a eurythmy school with Suzanne Perrottet, ran her own Ausdruckstanz school in Basel from 1923 to past 90; worked with Jean Arp and Sophie Taeuber-Arp just queued. Directly interlocks with laban, mary_wigman, suzanne_perrottet already done |
+| 1 | **Indra Devi** | Latvian-born yoga teacher (Eugenie Peterson), 'First Lady of Yoga', studied under Krishnamacharya in Mysore (the same teacher as pattabhi_jois already done), later taught in Shanghai, Hollywood, and Buenos Aires |
 
 
 
