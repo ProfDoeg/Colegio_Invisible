@@ -172,6 +172,7 @@ essays+Instagram corpus.
 | 0 | **Junayd al-Baghdadi** | Sufi mystic (d. 910) of the 'sober' school, teacher whose disciples included al-Hallaj already done; a direct teacher-student interlock |
 | 0 | **Abu al-Qasim al-Qushayri** | Sufi scholar (d. 1072) of the Al-Risala al-Qushayriyya, the foundational manual systematizing early Sufi biography and doctrine |
 | 0 | **Abd al-Qadir al-Jilani** | founder of the Qadiriyya Sufi order (d. 1166); Emir Abdelkader, first journey in this entire atlas, is named for him and makes pilgrimage to his tomb in Baghdad in abdelkader.journey.json — an interlock that has been sitting there since the beginning, never given its own entry |
+| 0 | **Abu Bakr as-Siddiq** | closest companion of Muhammad already done, first Rashidun Caliph after his death (d. 634); direct interlock with the corpus's earliest Islamic material |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
