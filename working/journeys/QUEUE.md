@@ -180,6 +180,9 @@ essays+Instagram corpus.
 | 0 | **Shams al-Din of Tabriz** | wandering dervish (d. 1248) whose forty-day seclusion with Rumi already done transformed him from a jurist into a poet; extremely well documented already in rumi.journey.json (a dozen stops name him directly) but never given his own entry |
 | 0 | **Jean-Baptiste Alliette (Etteilla)** | 18th-century French occultist, first to popularize tarot as a divination tool and publish tarot instruction under his own name; joins the corpus's tarot/occult wing (pamela_colman_smith already queued) |
 | 0 | **Arthur Edward Waite** | British occultist and Golden Dawn member, co-creator with Pamela Colman Smith (already queued) of the Rider-Waite-Smith tarot deck; direct interlock |
+| 0 | **Margaret Murray** | British archaeologist and folklorist, author of the witch-cult hypothesis (that European witch trials targeted a surviving pre-Christian pagan religion), directly influential on the founding of modern Wicca |
+| 0 | **Dion Fortune** | British occultist, founder of the Society of the Inner Light, novelist of The Sea Priestess; joins the corpus's British occult wing (a.e. waite, pamela_colman_smith already queued) |
+| 0 | **Stephen King** | American horror novelist; pet_sematary.md, one of the corpus's own locked essay files, is built entirely around his novel, yet he appears nowhere in the atlas |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
