@@ -329,6 +329,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **María Pita** | Galician heroine who rallied the defense of A Coruña against the English Armada in 1589, her cry 'Quen teña honra, que me siga' becoming a local legend |
 | 0 | **Norbert Wiener** | American mathematician, founder of cybernetics, MIT professor; joins the corpus's mathematics/cipher wing (claude_shannon, von_neumann already done) and directly bridges to nikolai_bernstein just queued |
 | 0 | **Kit Cavanagh (Mother Ross)** | Irish woman who disguised herself as a man to serve as a dragoon in the War of the Spanish Succession, searching for her missing husband; wounded at multiple battles before her sex was discovered |
+| 0 | **Stafford Beer** | British theorist, father of management cybernetics and the Viable System Model, designed Project Cybersyn for Salvador Allende's Chile (already queued) as a real-time economic control room; direct bridge to norbert_wiener and nikolai_bernstein just queued |
 
 
 
