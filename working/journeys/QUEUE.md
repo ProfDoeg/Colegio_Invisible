@@ -313,6 +313,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 5 | **Karl Gräser** | the other Gräser brother, co-founder of the Monte Verità naturist commune with Gustav; same corpus presence as his brother, never given his own journey |
 | 0 | **Sophie Taeuber-Arp** | Swiss Dada artist and dancer, wife of Jean Arp, associated with Cabaret Voltaire and Zurich Dada; joins the corpus's Zurich/dance-avant-garde cluster (laban, mary_wigman, suzanne_perrottet already done) |
 | 3 | **Ronald Richter** | Austrian-Argentine physicist behind Perón's Huemul Project, the fraudulent claim of controlled nuclear fusion on an island near Bariloche in 1951, a national embarrassment once exposed; joins the corpus's Argentine geography (juan_peron already done) |
+| 0 | **Katja Wulff** | German-Swiss expressionist dancer (1890-1992), trained under Laban and Wigman, co-founded a eurythmy school with Suzanne Perrottet, ran her own Ausdruckstanz school in Basel from 1923 to past 90; worked with Jean Arp and Sophie Taeuber-Arp just queued. Directly interlocks with laban, mary_wigman, suzanne_perrottet already done |
 
 
 
