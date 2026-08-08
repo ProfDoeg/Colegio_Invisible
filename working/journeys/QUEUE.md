@@ -208,6 +208,20 @@ essays+Instagram corpus.
 | 0 | **Ayatollah Khomeini** | leader of the 1979 Iranian Revolution that deposes the shah just queued, founder of the Islamic Republic; his hostility to saddam_hussein just queued opens the Iran-Iraq War |
 | 0 | **Saddam Hussein** | president of Iraq, fought the eight-year Iran-Iraq War against khomeini's just queued Iran, later the Gulf War and his own 2003 overthrow |
 | 0 | **Muammar Gaddafi** | Libyan revolutionary leader from 1969 to 2011, pan-Arabist and later pan-Africanist, armed and funded insurgencies across the region; joins the corpus's cluster of 20th-century strongmen (saddam_hussein just queued) |
+| 0 | **Clark Clifford** | US presidential advisor from Truman onward, chairman of First American Bankshares, the US bank BCCI illegally controlled behind him; indicted in 1992 in the BCCI fraud case |
+| 0 | **Agha Hasan Abedi** | Pakistani banker, founder of BCCI, the bank whose 1991 collapse remains one of the largest fraud cases in banking history |
+| 0 | **Manuel Noriega** | Panamanian dictator and longtime CIA asset, held accounts at abedi's just queued BCCI, deposed by the US invasion george_hw_bush just queued ordered in 1989 |
+| 0 | **Adnan Khashoggi** | Saudi arms dealer, central middleman in the Iran-Contra arms-for-hostages deals run under oliver_north and william_casey just queued, also banked through BCCI |
+| 0 | **Oliver North** | US National Security Council staffer who ran the Iran-Contra operation day to day under william_casey just queued |
+| 0 | **William Casey** | Reagan's CIA Director, architect of Iran-Contra's covert financing, oliver_north's just queued superior |
+| 0 | **Robert Maxwell** | British media mogul with alleged intelligence-community ties, drowned mysteriously in 1991 days before his companies' fraud collapsed; father of ghislaine_maxwell just queued |
+| 0 | **Ghislaine Maxwell** | jeffrey_epstein's just queued longtime associate, convicted in 2021 as his co-conspirator in trafficking; daughter of robert_maxwell just queued |
+| 0 | **Jeffrey Epstein** | financier convicted of sex offenses and later charged with sex trafficking, documented ties across political and financial elites including logged flights with bill_clinton just queued |
+| 0 | **Prescott Bush** | US Senator, director of Union Banking Corporation, seized by the US government in 1942 under the Trading with the Enemy Act for its financial ties to German industrialist Fritz Thyssen; patriarch of the family line continuing through george_hw_bush and george_w_bush just queued |
+| 0 | **George H.W. Bush** | CIA Director in 1976, Vice President through the Iran-Contra years (oliver_north, william_casey just queued), president who ordered the 1989 invasion of Panama that deposed manuel_noriega just queued; son of prescott_bush just queued |
+| 0 | **George W. Bush** | 43rd US president, launched the 2003 Iraq War that ends saddam_hussein's just queued rule; son of george_hw_bush just queued |
+| 0 | **Bill Clinton** | 42nd US president, documented on multiple flights aboard jeffrey_epstein's just queued private plane per released flight logs; husband of hillary_clinton just queued |
+| 0 | **Hillary Clinton** | US Senator and Secretary of State, wife of bill_clinton just queued, 2016 presidential candidate |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
