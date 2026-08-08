@@ -154,6 +154,15 @@ essays+Instagram corpus.
 | 1 | **Leif Erikson** | Norse explorer who reached North America |
 | 1 | **L. Frank Baum** | American author of The Wonderful Wizard of Oz; lived in Bronxville, New York, the same town as Sara Rudner and Viola Farber already queued |
 | - | **Los Catorce Santos Ayudantes** | the Fourteen Holy Helpers as a company - Acacius, Blaise, Christopher, Cyriacus, Denis, Erasmus, Eustace, George, Pantaleon, Vitus (Barbara, Catherine, Giles, Margaret already travel in the atlas) |
+| 0 | **Saint Acacius** | one of the Fourteen Holy Helpers, Roman centurion martyr; wanted individually, not only as part of the company entry above |
+| 0 | **Saint Blaise** | one of the Fourteen Holy Helpers, Armenian bishop-physician martyr, patron of throat ailments; wanted individually |
+| 0 | **Saint Christopher** | one of the Fourteen Holy Helpers, patron of travelers, already touches the corpus's cynocephali material via san_cristobal already done; wanted individually |
+| 0 | **Saint Cyriacus** | one of the Fourteen Holy Helpers, Roman deacon martyr; wanted individually |
+| 0 | **Saint Denis** | one of the Fourteen Holy Helpers, first bishop of Paris, martyred by decapitation and said to have carried his own head; wanted individually |
+| 0 | **Saint Erasmus (Elmo)** | one of the Fourteen Holy Helpers, patron of sailors, namesake of St. Elmo's fire; wanted individually |
+| 0 | **Saint Eustace** | one of the Fourteen Holy Helpers, Roman general converted by a vision of a crucifix between a stag's antlers; wanted individually |
+| 0 | **Saint George** | one of the Fourteen Holy Helpers, the dragon-slayer, patron of England and much else; wanted individually |
+| 0 | **Saint Pantaleon** | one of the Fourteen Holy Helpers, physician martyr of Nicomedia; wanted individually |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
