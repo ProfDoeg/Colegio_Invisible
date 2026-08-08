@@ -165,6 +165,7 @@ essays+Instagram corpus.
 | 0 | **Saint Pantaleon** | one of the Fourteen Holy Helpers, physician martyr of Nicomedia; wanted individually |
 | 0 | **Alexander Graham Bell** | Scottish-Canadian-American inventor of the telephone, also devoted much of his life to deaf education (his mother and wife were both deaf); joins the corpus's invention/physics wing (edison-adjacent material via j_p_morgan already queued) |
 | 0 | **Martha Graham** | American modern dance pioneer, student of Ruth St. Denis already queued, one of the most influential choreographers of the 20th century; already named in passing across several corpus journeys (merce_cunningham, erik_satie) but never given her own |
+| 0 | **Bethsabée (Bathsheva) de Rothschild** | member of the Rothschild dynasty (mayer_amschel_rothschild already queued), founded the Batsheva Dance Company in Israel and was a major patron of Martha Graham just queued; direct interlock between the banking cluster and the dance wing |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
