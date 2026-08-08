@@ -259,6 +259,7 @@ docs = corpus documents, 0 where the subject is not yet written of.
 | 0 | **Bob Kahn** | co-designed TCP/IP with vint_cerf just queued; the two are jointly called the fathers of the internet |
 | 0 | **Guido van Rossum** | Dutch programmer, created Python in 1991, self-titled 'Benevolent Dictator for Life' until stepping down in 2018; joins the corpus's computing wing (alan_turing, vint_cerf, bob_kahn just queued) |
 | 0 | **Linus Torvalds** | Finnish-American software engineer, created the Linux kernel in 1991 and later Git; joins the same computing wing, open-source counterpart to guido_van_rossum just queued |
+| 0 | **Bjarne Stroustrup** | Danish computer scientist, created C++ at Bell Labs in the early 1980s, extending C with object orientation; joins the corpus's computing wing (guido_van_rossum, linus_torvalds just queued) |
 | 0 | **Egeria** | 4th-century woman whose Holy Land diary is the earliest surviving pilgrimage account |
 | 0 | **Benjamin de Tudela** | medieval Jewish traveler from Iberia through every community to Baghdad; al-Andalus and the court Jews |
 | 0 | **Rabban Bar Sauma** | the reverse Marco Polo: Beijing-born Nestorian monk sent west, met kings and popes |
