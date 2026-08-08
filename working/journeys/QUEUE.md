@@ -328,6 +328,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Nikolai Bernstein** | Soviet physiologist, founder of the biomechanics of movement underlying modern dance science, work feeding directly into cybernetics; bridges the dance and physics/mathematics wings |
 | 0 | **María Pita** | Galician heroine who rallied the defense of A Coruña against the English Armada in 1589, her cry 'Quen teña honra, que me siga' becoming a local legend |
 | 0 | **Norbert Wiener** | American mathematician, founder of cybernetics, MIT professor; joins the corpus's mathematics/cipher wing (claude_shannon, von_neumann already done) and directly bridges to nikolai_bernstein just queued |
+| 0 | **Kit Cavanagh (Mother Ross)** | Irish woman who disguised herself as a man to serve as a dragoon in the War of the Spanish Succession, searching for her missing husband; wounded at multiple battles before her sex was discovered |
 
 
 
