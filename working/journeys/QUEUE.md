@@ -85,6 +85,7 @@ essays+Instagram corpus.
 | 3 | **Diffie** | American cryptographer, co-inventor of public-key cryptography |
 | 3 | **Hellman** | American cryptographer, co-inventor of Diffie–Hellman key exchange |
 | 0 | **Ralph Merkle** | American computer scientist, independently co-invented public-key cryptography alongside diffie and hellman already queued, and invented the Merkle tree, the hash structure underlying the blockchains hal_finney and satoshi_nakamoto's work depends on |
+| 0 | **Ron Rivest, Adi Shamir, Leonard Adleman** | the R, S and A of RSA, turned diffie and hellman's just queued public-key concept into the first practical implementation, still the backbone of internet encryption |
 | 3 | **Michel Foucault** | French philosopher and historian of ideas |
 | 3 | **Gilles Deleuze** | French philosopher, author of The Fold |
 | 3 | **Martin Luther** | German Protestant reformer |
@@ -185,6 +186,7 @@ essays+Instagram corpus.
 | 0 | **Dion Fortune** | British occultist, founder of the Society of the Inner Light, novelist of The Sea Priestess; joins the corpus's British occult wing (a.e. waite, pamela_colman_smith already queued) |
 | 0 | **Stephen King** | American horror novelist; pet_sematary.md, one of the corpus's own locked essay files, is built entirely around his novel, yet he appears nowhere in the atlas |
 | 0 | **Hal Finney** | cryptographer, early PGP developer, received the first Bitcoin transaction from Satoshi Nakamoto; diagnosed with ALS and chose cryonic preservation at Alcor; joins the corpus's cipher wing (diffie, hellman already done) |
+| 0 | **Phil Zimmermann** | American cryptographer, created PGP (Pretty Good Privacy) in 1991, then faced a federal criminal investigation for exporting it; hal_finney just queued was an early PGP developer under him |
 | 0 | **Nick Szabo** | computer scientist and legal scholar, proposed 'bit gold' and smart contracts before Bitcoin existed; joins the same cipher/blockchain wing as hal_finney just queued |
 | 0 | **George Washington** | first US president; already named extensively across marques_de_lafayette, madame_de_lafayette (the Masonic apron stop), yet never given his own journey |
 | 0 | **Thomas Jefferson** | third US president, author of the Declaration of Independence; joins the same Revolutionary-era American cluster |
