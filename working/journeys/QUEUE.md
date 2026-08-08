@@ -133,6 +133,7 @@ essays+Instagram corpus.
 | 2 | **René Haüy** | French mineralogist, founder of crystallography |
 | 2 | **Fyodor Yevtishchev** | Russian sideshow performer, JoJo the Dog-Faced Boy |
 | 1 | **Louis XVI** | French king executed by guillotine, 1793 |
+| 0 | **Louis XIV** | the Sun King, absolute monarch who built Versailles and revoked the Edict of Nantes; direct ancestor of louis_xvi already done, whose execution ends the line he built |
 | 1 | **Empress Joséphine** | Napoleon's wife, Empress of the French |
 | 1 | **Sitting Bull** | Lakota leader at Little Bighorn |
 | 1 | **Johann Bode** | German astronomer |
