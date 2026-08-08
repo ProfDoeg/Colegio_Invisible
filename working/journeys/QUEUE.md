@@ -218,6 +218,11 @@ essays+Instagram corpus.
 | 0 | **Ayatollah Khomeini** | leader of the 1979 Iranian Revolution that deposes the shah just queued, founder of the Islamic Republic; his hostility to saddam_hussein just queued opens the Iran-Iraq War |
 | 0 | **Saddam Hussein** | president of Iraq, fought the eight-year Iran-Iraq War against khomeini's just queued Iran, later the Gulf War and his own 2003 overthrow |
 | 0 | **Muammar Gaddafi** | Libyan revolutionary leader from 1969 to 2011, pan-Arabist and later pan-Africanist, armed and funded insurgencies across the region; joins the corpus's cluster of 20th-century strongmen (saddam_hussein just queued) |
+| 0 | **Prince Hall** | African American abolitionist, founded Prince Hall Freemasonry in 1775, the first Black Masonic lodge in America; joins the corpus's Masonic material (hiram_abiff, albert_pike already queued) from its Black-American branch |
+| 0 | **Robert Finley** | American Presbyterian minister, founded the American Colonization Society in 1816, which established Liberia as a settlement for freed American slaves |
+| 0 | **Marcus Garvey** | Jamaican-born Black nationalist, founded the UNIA and preached Pan-Africanism and a return to Africa a century after robert_finley's just queued colonization movement, on wholly self-determined terms |
+| 0 | **Cecil Rhodes** | British colonialist and mining magnate, founder of Rhodesia and De Beers; his colonial project stands as the direct opposite pole to marcus_garvey's just queued Pan-Africanism |
+| 0 | **Jonas Savimbi** | Angolan rebel leader, founded UNITA and fought a decades-long Cold War proxy civil war, backed alternately by the US, South Africa and China against a Soviet/Cuban-backed government |
 | 0 | **Clark Clifford** | US presidential advisor from Truman onward, chairman of First American Bankshares, the US bank BCCI illegally controlled behind him; indicted in 1992 in the BCCI fraud case |
 | 0 | **Agha Hasan Abedi** | Pakistani banker, founder of BCCI, the bank whose 1991 collapse remains one of the largest fraud cases in banking history |
 | 0 | **Manuel Noriega** | Panamanian dictator and longtime CIA asset, held accounts at abedi's just queued BCCI, deposed by the US invasion george_hw_bush just queued ordered in 1989 |
