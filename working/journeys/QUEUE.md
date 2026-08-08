@@ -333,6 +333,10 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Donna Haraway** | American philosopher of technoscience, author of 'A Cyborg Manifesto'; bridges the cybernetics cluster (norbert_wiener, stafford_beer just queued) and the continental-philosophy wing (michel_foucault, gilles_deleuze already done) |
 | 0 | **Saint Ahrakas** | Coptic saint identified in tradition as one of the cynocephali, the dog-headed peoples; joins the corpus's cynocephali cluster (san_cristobal, ibn_battuta's Barahnakar stop, fyodor_yevtishchev already done) |
 | 0 | **Saint Augani** | Coptic saint identified in tradition as one of the cynocephali alongside Saint Ahrakas just queued; same cluster |
+| 0 | **Heinrich Cornelius Agrippa** | German polymath, student of Johannes Trithemius already done, author of De Occulta Philosophia synthesizing Kabbalah with natural magic and early natural philosophy; direct teacher-student interlock |
+| 0 | **Johannes Reuchlin** | German Christian Hebraist, author of De Arte Cabalistica, key figure (with Pico della Mirandola already queued) bringing Kabbalah into Renaissance scholarship |
+| 0 | **Judah Loew ben Bezalel (the Maharal of Prague)** | rabbi credited by legend with creating the Golem using Kabbalistic technique from the Sefer Yetzirah, active at Rudolf II's court in Prague, the same milieu as John Dee already queued |
+| 0 | **Abraham Abulafia** | ecstatic Kabbalist who developed combinatorial letter-permutation techniques sometimes read as proto-computational, a mystical reach toward mathematics |
 
 
 
