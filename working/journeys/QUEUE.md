@@ -353,6 +353,8 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Junius Spencer Morgan** | founder of the London merchant bank that became J.P. Morgan & Co. |
 | 0 | **J.P. Morgan** | Junius's son, American Gilded Age banking titan who financed Edison and the electrification of America; second figure of the same dynasty, reaching toward the corpus's physics/invention wing |
 | 0 | **Simone de' Bardi** | Florentine banker of the Bardi banking house, husband of Beatrice Portinari; already named in passing in dante.journey.json ('married some years now to the banker Simone de' Bardi'), never given his own entry |
+| 0 | **Elon Musk** | South African-American entrepreneur, SpaceX and Tesla, born in Pretoria and moved through Canada before the US; joins the corpus's mathematics/physics and modern tech wing (katherine_johnson just queued, geoffrey_hinton already queued) |
+| 0 | **Peter Thiel** | German-American venture capitalist and PayPal co-founder, associated with neoreactionary/accelerationist ideas that trace partly back to nick_land already done |
 
 
 
