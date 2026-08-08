@@ -70,6 +70,10 @@ essays+Instagram corpus.
 | 3 | **Gustave Flaubert** | French novelist, author of Madame Bovary |
 | 3 | **Johann Tischbein** | German painter of Goethe in the Roman Campagna |
 | 3 | **Roland Barthes** | French semiotician, The Fashion System |
+| 0 | **Cristóbal Balenciaga** | Spanish couturier, founded the house of Balenciaga in Paris in 1937, called 'the master' by christian_dior just queued; anchors a new fashion cluster around roland_barthes's already-done semiotic study of the industry |
+| 0 | **Christian Dior** | French designer whose 1947 'New Look' collection redefined postwar fashion; publicly named cristobal_balenciaga just queued as the master couturier of them all |
+| 0 | **Louis Vuitton** | French trunk-maker, founded the house of Louis Vuitton in 1854 and invented the flat-topped stackable trunk that ended the age of the rounded lid; joins the same fashion-house cluster |
+| 0 | **Hugo Boss** | German tailor who founded the Hugo Boss company in 1924; the firm manufactured uniforms for the Nazi Party, the SS and the Hitler Youth through the Third Reich, a history the company itself later commissioned a historian to document |
 | 3 | **Arnold Rikli** | Swiss naturopath, pioneer of sunbathing therapy in Bled |
 | 3 | **Ida Hoffmann** | co-founder of the Monte Verità colony, pianist |
 | 3 | **Engelmann (Liga Pitagórica)** | life-reformer of the Pythagorean League at Lago di Lugano |
