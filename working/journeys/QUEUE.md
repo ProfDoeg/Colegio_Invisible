@@ -167,6 +167,11 @@ essays+Instagram corpus.
 | 0 | **Martha Graham** | American modern dance pioneer, student of Ruth St. Denis already queued, one of the most influential choreographers of the 20th century; already named in passing across several corpus journeys (merce_cunningham, erik_satie) but never given her own |
 | 0 | **Bethsabée (Bathsheva) de Rothschild** | member of the Rothschild dynasty (mayer_amschel_rothschild already queued), founded the Batsheva Dance Company in Israel and was a major patron of Martha Graham just queued; direct interlock between the banking cluster and the dance wing |
 | 0 | **Baha ud-Din Walad** | Sufi theologian, father of Jalal al-Din Rumi already done, whose westward migration from Central Asia (Balkh/Vakhsh toward Konya) fleeing Mongol advance is the journey that set up his son's entire life; direct father-son interlock |
+| 0 | **Abu Yazid al-Bistami** | early Sufi mystic (d. 874) famous for ecstatic utterances (shath) and the concept of fana, spiritual annihilation; joins the corpus's Sufi wing (hallaj, rumi, ibn_arabi already done) |
+| 0 | **Ibrahim ibn Adham** | legendary prince of Balkh (d. 777) who renounced his throne to become a wandering ascetic, a story structurally parallel to the Buddha's own renunciation; joins the same Sufi wing |
+| 0 | **Junayd al-Baghdadi** | Sufi mystic (d. 910) of the 'sober' school, teacher whose disciples included al-Hallaj already done; a direct teacher-student interlock |
+| 0 | **Abu al-Qasim al-Qushayri** | Sufi scholar (d. 1072) of the Al-Risala al-Qushayriyya, the foundational manual systematizing early Sufi biography and doctrine |
+| 0 | **Abd al-Rahman al-Sulami** | Sufi biographer (d. 1021) of Tabaqat al-Sufiyya, the primary source preserving the lives of the early Sufi masters in this same cluster |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
