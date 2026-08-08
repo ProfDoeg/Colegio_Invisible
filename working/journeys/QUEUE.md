@@ -193,6 +193,8 @@ essays+Instagram corpus.
 | 0 | **Benjamin Franklin** | American polymath, printer, diplomat, Freemason; joins the corpus's Masonic material (albert_pike, hiram_abiff already done) and the same Revolutionary-American/French court cluster as marques_de_lafayette |
 | 0 | **Nikola Tesla** | Serbian-American inventor, AC power system, rival of Edison; joins the corpus's physics/invention wing |
 | 0 | **Thomas Edison** | American inventor, financed by J.P. Morgan already queued; direct interlock, plus rival of nikola_tesla just queued |
+| 0 | **Alexis de Tocqueville** | French aristocrat whose 1831 tour of the young United States produced Democracy in America; the literal journey-of-the-USA to anchor the whole American cluster just queued (washington, jefferson, jackson, franklin) |
+| 0 | **Johnny Appleseed (John Chapman)** | American pioneer nurseryman and folk legend who planted apple orchards across the Midwest frontier ahead of settlement; joins the same American cluster |
 | 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
