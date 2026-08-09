@@ -1,175 +1,130 @@
 # Abu Bakr as-Siddiq (c. 573 - 23 August 634): research report
 
-*Atlas of Journeys, 2026-08. Abd Allah ibn Abi Quhafa of the Banu Taym of Quraysh, called as-Siddiq. Companion of Muhammad on the Hijra, first of the Rashidun caliphs. Queue entry: "closest companion of Muhammad already done, first Rashidun Caliph after his death (d. 634); direct interlock with the corpus's earliest Islamic material."*
+*Atlas of Journeys, 2026-08. Abd Allah ibn Abi Quhafa of the Banu Taym of Quraysh. Companion of Muhammad on the Hijra, first of the Rashidun caliphs.*
 
 **Legend.** **[A]** attested, source named. **[R]** reconstruction, tradition, or partisan topos. Contradictions are flagged and **not adjudicated**. Unreachable sources are named with the reason.
 
-**What "attested" can mean here.** No source for this life is contemporary with it. Ibn Ishaq's *Sira* survives only in Ibn Hisham's recension; al-Tabari writes two and a half centuries after the events; al-Bukhari and Muslim are ninth-century. **[A]** here means "attested in the received early Islamic corpus, with book and where possible hadith number", not "attested by a document made at the time". There are no documents made at the time. Every dispute below sits inside a tradition that two communities transmitted with opposite interests in the outcome. The journey file's register ("national mythology: the canon is true") accepts that tradition on its own terms. This report does not.
+**What "attested" can mean here.** No source is contemporary with the life. Ibn Ishaq survives only in Ibn Hisham's recension; al-Tabari writes two and a half centuries later. **[A]** means "attested in the received early Islamic corpus, with book and where possible hadith number", not "attested by a document made at the time". There are no documents made at the time, and every dispute below sits inside a tradition two communities transmitted with opposite interests. The journey's register accepts that tradition on its own terms. This report does not.
 
 ---
 
 ## 1. Mecca before Islam (c. 573 - c. 610)
 
-- Born **Abd Allah ibn Abi Quhafa**, Banu Taym of Quraysh; called Abu Bakr, "father of the young camel." **[A: Wikipedia "Abu Bakr"; New World Encyclopedia, both after Ibn Sa'd]**
-- Birth year traditionally **c. 573**, **574** in some sources; no month or day attested. **[R: New World Encyclopedia]** *Gap: the house is not archaeologically fixed. Pinned at approximate central Mecca near the Haram, hedged in `date_confidence`.*
-- Cloth merchant and recognised **genealogist** of Quraysh, trusted before Islam for honesty and knowledge of lineage. **[A: Ibn Sa'd, Tabaqat]**
-- Travelled with Quraysh caravans on the **Busra route** into Byzantine Syria, the road Muhammad's caravans used. **[R: Ibn Sa'd plus general caravan-trade tradition; the pattern is attested, no single journey is]**
+- Born **Abd Allah ibn Abi Quhafa**, Banu Taym of Quraysh, **c. 573**, no month, no day. **[A: Wikipedia "Abu Bakr" after the traditional biographers; Britannica gives 573]** *Gap: no marker for the birth site survives; the pin is inferred from clan territory.*
+- Cloth merchant, known for honesty, **genealogical knowledge**, and **the interpretation of dreams**. **[A: Wikipedia "Abu Bakr"]** The last is worth holding: it becomes the operative fact at Ta'if in 630.
+- Attended the **Ukaz** fair **[R: al-Tabari; the practice is attested, no single year is]**. *Coordinate corrected:* the dossier gave 21.5667 / 40.4333, **east of Ta'if**; Souk Okaz is at **21.4744 / 40.6449**, about **40 km north**, so the pin was 25 km off and on the wrong side.
+- Rode the **Busra caravan road** into Byzantine Syria. **[R: the pattern is attested, no single journey is]** The trading corridor of 600 is the invasion corridor of 634.
 
 ## 2. Conversion and persecution (c. 610 - 622)
 
-- **The first-convert claim is [R], not [A].** Sunni tradition makes him the first free adult male Muslim. **Shia tradition gives that place to Ali.** **Ibn Kathir declines to rank the early converts**, sorting them by social group. **[R: Wikipedia "Abu Bakr" citing Ibn Kathir; New World Encyclopedia]** *Correction: the pool's geography lens tagged this **[A]** while its own note conceded the dispute. An [A] asserts as attested exactly the point one tradition denies. Demoted.*
-- Brought in **Uthman, Talha, al-Zubayr, Sa'd ibn Abi Waqqas** and others, largely via the **Dar al-Arqam** near al-Safa. **[A: Ibn Ishaq; al-Tabari]**
-- **c. 613:** beaten unconscious by Quraysh youths at the first public preaching; **his mother converted afterwards**. **[A: Wikipedia "Abu Bakr"]**
-- **c. 614-615:** bought and freed **Bilal ibn Rabah**, tortured by **Umayya ibn Khalaf**, with several other enslaved converts. **[A: Ibn Ishaq; al-Bukhari; Wikipedia "Bilal ibn Rabah" for owner and purchase]** *Correction: the pool placed the torture in a "Mecca marketplace." Wikipedia places it **in open desert outside Mecca**, Bilal spread-eagled on the sand with a rock on his chest. The pin is now an approximation of the city, and the campa says sand.*
-- **c. 617:** during the boycott of Banu Hashim, sought refuge toward **Yemen and Abyssinia**, returning under temporary tribal protection. **[R: Wikipedia "Abu Bakr"]** *Gap: **Bark al-Ghimad**, where Ibn al-Dughunna turned him back, is **unlocated** in any reachable source. Pinned approximately, flagged in `suggested_refs`.*
-- **c. 620:** first to affirm the **Isra and Mi'raj** publicly; **Aishah** betrothed to Muhammad about now. **[R for the epithet's derivation: Wikipedia "Abu Bakr"; the interlock lens notes `muhammad.journey.json` narrates the ascent without the naming episode]**
+- **The first-convert claim is [R], not [A].** Sunni tradition makes him the first free adult male Muslim; **Shia tradition gives that place to Ali**, and Ibn Kathir sorts the early converts by household rather than ranking them. The dossier tagged this **[R]** in one lens and **[A]** in another. **Demoted to [R].**
+- Brought in **Uthman, Talha, al-Zubayr, Sa'd ibn Abi Waqqas, Abu Ubayda**. **[R: sira]** Bought and freed enslaved Muslims including **Bilal ibn Rabah**. **[A: widely attested sira]**
+- **First public address and the beating.** **[R]** *Dossier contradiction, flagged not resolved:* chronology says **613**, geography item 6 says **c. 615**; sira places it in the fourth year of prophethood, **c. 613-614**.
+- **The Ibn al-Dughunna episode is not part of the boycott.** *Conflation corrected.* The dossier attached it to the **boycott of Banu Hashim (616-619)**; Sahih al-Bukhari 3905 and 2297 attach it to the **attempted emigration to Abyssinia, c. 615**, at **Bark al-Ghimad**. Two events, two years apart. *Gap: Bark al-Ghimad is unlocated, traditionally five nights from Mecca toward Yemen; the dossier's pin sat 10 km from the city, far too close.*
+- **Isra and Mi'raj (c. 620-621):** first to affirm the account publicly, whence **as-Siddiq**. **[R]** `muhammad.journey.json` carries the Night Journey at the identical pin and date but **not the naming episode**. **Aishah betrothed, c. 620** **[R: sira]**, cross-sourced to `aishah.journey.json`.
 
 ## 3. The Hijra (622)
 
-- **Abu Bakr alone accompanied Muhammad**; both sheltered in the cave on **Jabal Thawr**; **Asma** carried food, **Abd Allah** carried news. **[A: New World Encyclopedia for sole companionship; Wikipedia "Abu Bakr"; al-Bukhari]**
-- **Spider's web and dove's nest:** later tradition **[R]**. Concealment and family support are **[A]** in hadith.
-- **Umm Ma'bad at Qudayd** and the barren goat: **[R: Ibn Hisham; later Hijra-route tradition]**
-- **Quba**, then Yathrib **[A: al-Bukhari; Ibn Ishaq]**. The Ansar mistaking Abu Bakr for Muhammad, and the cloak held as shade, is narrative colour: **[R]** as to shape.
+- **Sole companion** on the migration; both hidden in the **cave of Jabal Thawr**. **[A: Quran 9:40 and the hadith corpus]** The strongest attestation in the life: scriptural, not chronicle.
+- **Umm Ma'bad at Qudayd**: **[R: al-Tabari; Ibn Sa'd; later Hijra-route literature, not the earliest hadith]**. **Quba**, then Yathrib: **[A: al-Bukhari; Ibn Hisham]**; the Ansar mistaking him for Muhammad is narrative colour, **[R]**.
+- **Al-Sunh:** settled among the Banu al-Harith and kept trading rather than accept support **[R: Ibn Sa'd]**; *gap: al-Sunh is not on modern maps*, and it matters twice more, since he rides in from there the morning Muhammad dies and dies there himself. **Aishah's marriage consummated** in a room against the mosque, 623/624. **[A: al-Bukhari]**
 
 ## 4. Medina, the campaigns (624 - 632)
 
-- **Badr.** *Date corrected.* Pool: "17 March 624 (13 Ramadan, AH 2)." Wikipedia "Battle of Badr": **13 March 624 = 17 Ramadan 2 AH**. **The numbers were transposed and both halves were wrong.** **[A: corrected]**
-  - **Contradiction, not resolved.** Wikipedia "Abu Bakr" places him **guarding Muhammad's shelter** rather than in the line, citing testimony attributed to Ali making the guard post the braver one; other accounts have him fighting. The pool's geography lens asserted "Abu Bakr fights at Badr" as **[A]**, against its own chronology entry. The campa carries both, hedge in `date_confidence`.
-  - Coordinates: pool 23.7808/38.7911 against Wikipedia's 23.733/38.767, about 6 km; the pool value sits on the modern town. Retained.
-- **Uhud (625):** present, wounded. **[A: Wikipedia; Ibn Ishaq; al-Waqidi]**
-- **The Trench (627):** held a sector; a mosque was later built on his position. **[A: Wikipedia]**
-- **Hudaybiyya (628):** in the delegation; rebuked Umar over the terms. **[A: al-Bukhari; Ibn Ishaq]**
-- **Khaybar (628).** *Tag demoted to [R].* Date and place check out (Wikipedia "Khaybar": 25.69861/39.2925, Muharram 7 AH; the pool's pin was 1.2 km off, replaced). But **the tradition that Abu Bakr and then Umar each failed against al-Qamus before Ali succeeded is a partisan topos**, foregrounded in Shia sources and attached to the "banner to a man who loves God" hadith. Attributed, not asserted.
-- **Najd expedition.** *Hijri year corrected.* Pool: "Jumada al-Akhirah, 3 AH (July 628)", internally impossible, since 3 AH is 624/625. Wikipedia "Expedition of Abu Bakr As-Siddiq": **third month 7 AH, July 628**. **[A: corrected]** *Dropped from the journey: the sources name Najd and no place inside it.*
-- **Conquest of Mecca (630):** present; his father **Abu Quhafa** converted about now. **[A: Wikipedia]**
-- **Hunayn (630):** among roughly nine who held the ground with Muhammad. **[A: Wikipedia]** *Gap: no coordinates verified, so the episode is narrated inside the Ta'if stop rather than given an invented pin.*
-- **Ta'if (630).** *Month and duration corrected.* Pool: January, "month-long." Wikipedia "Siege of Ta'if": **February 630 (8 AH)**, "half a month." The pool's own chronology said "about two weeks," so its lenses contradicted each other. Abu Bakr advised lifting the siege. **[A: corrected]**
-- **Tabuk (630):** gave his entire property, answering that he had left his family God and His Messenger. **[A: Abu Dawud; al-Tabari]** *Reported speech in the pool, not fetched verbatim, so it is narration in the campa and **not** a `quote` field.*
-- **Amir al-hajj (631):** led some 300 pilgrims; Ali overtook the caravan with Surah at-Tawbah. **[A: al-Bukhari; Ibn Ishaq]**
-- **Arafat (632):** present at the Farewell Pilgrimage. **[A: Muslim; Ibn Ishaq]**
-- **Expedition of Usama ibn Zayd (632):** enrolled as a common soldier under a young commander. **[A: Wikipedia]**
+- **Badr, 17 Ramadan 2 AH:** guarded Muhammad's shelter with a drawn sword. **[R as to the post]** *Contradiction carried:* the dossier has him at the shelter "rather than joining the front line", other accounts in the line. Both readings in the campa, the hedge in `date_confidence`.
+- **Uhud (625):** present and wounded; **the Trench (627):** held a sector, a mosque later marked it. **[R]**
+- **Al-Hudaybiyya (628):** present; defended the terms to an angry Umar. **[A: al-Bukhari]** *Coordinate corrected:* the dossier's 21.2833 / 39.8333 sits **south-southeast** of Mecca; the site is **Ash Shumaysi, 21.5833 / 39.6833**, on the Jeddah road **northwest**, 35 km away in the other direction.
+- **Khaybar (628), the banner at al-Qamus.** *Tag demoted.* The dossier tagged the failed assault **[A]** to **Sahih al-Bukhari**; Bukhari's banner hadith **names Ali and no failed assault by Abu Bakr**, which comes from Ibn Ishaq and al-Waqidi, and the dossier also **drops Umar's attempt**. **[R]**
+- **Dhat al-Salasil (September 629).** *Command corrected.* **Amr ibn al-As held supreme command**, not Abu Ubayda, who led only the **200-man reinforcement column** and **ceded command on arrival**. *Gap: the camp is not fixed in the sources.*
+- **Conquest of Mecca (630):** present; **Abu Quhafa** converted that day. **[A]** **Hunayn (630):** among the small group who held their ground in the rout **[A: Muslim; Ibn Hisham]**; *latitude corrected*, 21.35 against **21.433**.
+- **Ta'if (630).** *Role corrected; the dossier contradicted itself.* Chronology said he **led** the siege, geography item 22 said correctly that he was **consulted**. **Muhammad led it in person**, and Abu Bakr **read his dream** as meaning Thaqif could not be taken then. Duration **15 to about 20 days**.
+- **Amir al-hajj (631):** roughly **300 pilgrims**, ihram at **Dhu al-Hulayfa**. **[A: al-Bukhari]** **The proclamation at Mina is inverted in the dossier**, which said it was "delivered on his order". **Surah Bara'a came down after the caravan left**, and Ali was sent because the announcement had to be made by the Prophet or his own house, not a deputy. **This is the crux of the episode in both Sunni and Shia retellings.**
 
 ## 5. The death of Muhammad and the succession (June 632)
 
-- **Muhammad died 8 June 632.** Umar refused to accept it; Abu Bakr returned, showed him the body, then addressed the community. **[A: Wikipedia, with direct quotation]**
-  - **Wording contradiction, not resolved.** Chronology lens: *"If anyone worships Muhammad, Muhammad is dead. If anyone worships God, God is alive, immortal."* Interlock lens, from `muhammad.journey.json` sourced to al-Bukhari: *"whoever worshipped Muhammad, Muhammad is dead; whoever worships God, God is living,"* quoting Qur'an 3:144. Two Englishes, one Arabic original. The journey uses the first and names the divergence in `quote_source`.
-- **Final illness:** Muhammad instructed him to lead the prayers over Aishah's objections. **[A: al-Bukhari; Muslim]** **That this was a succession signal is a later Sunni reading: [R].**
-- **Saqifah of Banu Sa'ida:** the Ansar met to choose from among themselves; Abu Bakr, Umar and Abu Ubayda arrived; Abu Bakr argued the Arabs would follow no house but Quraysh and offered the other two in his place; Umar pledged to him instead and the room followed; **Habab ibn al-Mundhir's joint-leadership proposal was refused; Umar and Sa'd ibn Ubada came to blows.** **[A: Wikipedia "Abu Bakr"; "Succession to Muhammad"; al-Tabari]** *Gap: the site is not archaeologically fixed; the pin is approximate.*
-- **Umar's later verdict.** Sunni tradition preserves him calling the proceedings a *falta*, a precipitate affair, while upholding the outcome; some later historians call it a backroom deal. **[R: Wikipedia "Succession to Muhammad"]**
-- **Ali withheld allegiance about six months.** Shia tradition holds the succession was settled at **Ghadir Khumm**; Sunni tradition does not accept that as a formal appointment. **[R on both sides: Wikipedia "Abu Bakr"]**
-- **The gravest contradiction, left open.** Shia tradition holds that Umar, on Abu Bakr's order, led an armed party to Ali's house to compel allegiance, and that the confrontation caused **the death of Fatima and the miscarriage of her unborn child**. **Sunni sources categorically reject this**, adducing that Ali named sons after Abu Bakr and raised Muhammad ibn Abi Bakr. **[R / R: Wikipedia "Succession to Muhammad"; "Abu Bakr", flagged there as a source contradiction]** Not adjudicable from anything reachable, and not adjudicated. The journey narrates the Sunni sequence and denies nothing; this report records both.
+- **Final illness:** appointed to lead the congregational prayers. **[A: al-Bukhari; Muslim]** **That this was a succession signal is a later Sunni reading: [R].**
+- **8 June 632:** Muhammad dies; Abu Bakr arrives from al-Sunh, uncovers the face, then addresses the community. **[A: al-Bukhari 1241]**
+- **Saqifa Bani Sa'ida:** chosen caliph after a contested gathering of the Ansar. **[A: Britannica, corroborated across Sunni and Shia historiography with opposite emphasis]** *Gap: the plot is not preserved.* **Contradiction left open:** Sunni sources frame a consensus under pressure, Shia sources a seizure over an unwashed body; the journey narrates the Sunni sequence, names the Shia reading in the same campa, reconciles neither. **Ali's allegiance** follows about **six months** later in largely Shia-derived accounts and much sooner in Sunni ones **[R]**.
+- **Fadak:** refused Fatima's claim, citing the saying that prophets leave no inheritance. **[A: al-Bukhari 6725, narrated by Aisha]** The narrator is the daughter of one party and the widow of the man whose estate is in dispute, which the journey says aloud.
 
 ## 6. The caliphate (632 - 634)
 
-**Reign length, arithmetic corrected.** The pool called 8 June 632 to 23 August 634 "about 27-28 months." **Wrong.** The interval is **2 years and 76 days**; Wikipedia gives "2 years, 77 days" and the traditional "2 years, 2 months and 14 days." Either way, **roughly 26 months**. **[A: corrected]**
+**Reign length: the dossier's "discrepancy" is spurious.** It flagged "2 years, 2 months and 14 days" against "2 years, 77 days". **8 June 632 to 23 August 634 is both**: one interval, two units.
 
-### Ridda wars
-- Suppressed **Tulayha** (Banu Asad), **Musaylima** (Banu Hanifa, the most serious threat), **Sajah** (Tamim/Taghlib), tax rebellions in Najd, dissent in **Bahrayn, Oman, Yemen**. **[A: Wikipedia "Abu Bakr"; New World Encyclopedia]** *Correction: **al-Aswad al-Ansi does not belong on this list.** Wikipedia "Ridda Wars" dates his killing by Fayruz al-Daylami to **before June 632**, in Muhammad's lifetime. Abu Bakr inherited the Yemeni aftermath, not al-Aswad. Removed.*
-- Commanders: **Khalid ibn al-Walid** (Najd, then Musaylima); **Shurahbil ibn Hasana** and **al-Ala al-Hadrami** (Bahrayn); **Ikrima ibn Amr** (Oman); **al-Muhajir ibn Abi Umayya** and **Khalid ibn Asid** (Yemen). Force combined with marriage alliances and land grants. **[A: Wikipedia]**
-- **Dhu al-Qassa muster.** *Date and direction corrected.* Pool: "late 632," **west of Medina** at longitude 39.3167. Wikipedia "Ridda Wars": **1 August 632**, and Dhu al-Qassa lay **east or northeast**, toward al-Rabadha and Najd, where the apostate tribes were and where Khalid marched. The pool's longitude was backwards. **[A: corrected; pin now east, flagged approximate]**
-- **Buzakha.** *Year corrected.* Pool said 633; Wikipedia gives **mid-September 632**. Tulayha's coalition (Asad, Ghatafan, with Tayy and Hawazin) and Khalid's command are right; the siting near Ha'il is consistent. **[A: corrected]**
-- **Yamama / Aqraba.** *Date and coordinates corrected.* **December 632** (end of Rajab, 11 AH), **not 633**: the pool's chronology lens said 633 and its geography lens said 632, resolved in favour of Wikipedia "Battle of Yamama." Coordinates **24.1483/47.3050**; the pool's 24.55/46.8 lands 65 km northwest, near the Riyadh outskirts. Replaced. **[A: corrected]**
+**Ridda wars.** Muster at **Dhu al-Qissa**, July-August 632, marching out personally and then delegating field command to Khalid **[A: al-Tabari; Ibn Kathir; Madain Project]**; **Buzakha**, September 632 **[A]**; the **Malik ibn Nuwayra** affair at al-Butah, Umar pressing for Khalid's dismissal and being refused **[A: al-Tabari vol. 10 p. 102]**; **Yamama / Aqraba**, December 632 **[A]**; **Zafar** (Jan 633), **Nujair** (Feb 633), Hadhramaut subdued (Mar 633) **[A]**.
+- *Yamama corrected:* **Khalid commanded but did not kill Musaylima.** **Wahshi ibn Harb** struck him with the javelin he had used on Hamza at Uhud; **Mu'awiya ibn Abi Sufyan** beheaded him. Date and coordinates were correct. The journey uses the javelin as a rhyme between two of its own stops, which is what the source supports.
+- **No source places Abu Bakr at any Ridda battlefield.** The dossier says so explicitly, and the journey carries it as a stop of its own rather than let the campaign geography imply travel he never made. **[A]**
 
-### The Quran
-- After Yamama, Umar urged compilation; Abu Bakr, reluctant, appointed **Zayd ibn Thabit** to gather the text from palm-branch ribs, leather, thin white stones and living memory, checked against second witnesses. **[A: Wikipedia "Abu Bakr"; "History of the Quran"; al-Bukhari]**
-- **Casualty figure: three irreconcilable traditions, carried as a range.** "Abu Bakr" says about **500** memorisers killed; "Battle of Yamama" about **360**; "History of the Quran" about **70**. The pool carried all three across three lenses without noticing. Written as a range, not a fact. **[R]**
-- The codex passed to **Umar**, then to **Hafsa bint Umar**, and became the basis of the **Uthmanic** text about twenty years after Muhammad's death. **No leaf of the Abu Bakr collection is known to survive.** **[A: Wikipedia "History of the Quran"]**
+**The Quran.** Compilation ordered after heavy losses of *huffaz* at Yamama; **Zayd ibn Thabit** appointed. **[A: al-Bukhari 4986]** *Date corrected:* the dossier said **633**; both Wikipedia articles it cites place the order **immediately after Yamama**, December 632, with roughly **360** *huffaz* dead. The sheets pass to Umar and then **Hafsa**; **no leaf survives.**
 
-### Fadak
-- Twelver Shia tradition holds Muhammad gave **Fadak** to Fatima in his lifetime. Abu Bakr denied the claim, citing a saying that prophets leave no inheritance. **al-Ma'mun** is said to have reversed it. **[R: Wikipedia "Abu Bakr", flagged there as contested]**
-- Both hadith quotations verified verbatim on two mirrors. **Numbering discrepancy flagged:** hadithunlocked.com/bukhari/57/1 carries the text as **3092** (Book of the One-Fifth of Booty), listing 3091, 3092, 3094 and **explicitly lacking 3093**; en.tohed.com numbers it **3093**. Cited as **3092, with 3093 as an alternative numbering**.
+**The northern frontier.** Khalid sent into **Iraq**, 633, **al-Muthanna ibn Haritha** continuing with the remaining troops **[A: Wikipedia "Khalid ibn al-Walid"]**. *The dossier names the campaign, not the towns*: **Hira** is used as the Iraq pin, sourced separately and flagged in `date_confidence` as an inference from the campaign sequence.
+- *Troop figure dropped.* The dossier claimed "**roughly 24,000 men**" citing Wikipedia "Battle of the Yarmuk", **which gives no such breakdown**. "Muslim conquest of the Levant" says **three or four armies** under **Amr ibn al-As, Shurahbil ibn Hasana, Yazid ibn Abi Sufyan and Abu Ubayda**, dated **September 633** or **early 634**. The number is not published.
+- **Khalid recalled west; Ajnadayn, July-August 634. [A]** **Yarmuk is not his**: August 636, under Umar, and it is named in `suggested_refs` and `date_confidence` so a later pass does not re-attach it.
 
-### The northern frontier
-- In 633 he sent forces into **Iraq, Palestine, Syria, Persia**, taking several towns; he did not live to see them finished. **[A: Wikipedia]**
-- **The largest single error in the pool, corrected.** The pool had **Khalid taking al-Ubulla** for Abu Bakr in 633, "along the Euphrates," at 30.5/47.8167. Three things wrong: (1) Wikipedia "Al-Ubulla" attributes the capture to **Utba ibn Ghazwan al-Mazini**, in the early conquests of the 630s, that is **c. 635-638 under Umar**, in the campaign that founded Basra; (2) al-Ubulla stood on the **Tigris-Euphrates estuary at the head of the Gulf**, not on the Euphrates; (3) the coordinates were 38 km off Wikipedia's 30.31/47.50. **Deleted and replaced with Hira.** Khalid's 633 campaign took **Kazima (Battle of Chains), Ullays, Hira, Anbar, Ayn al-Tamr**.
-  - Worth recording: al-Ubulla *is* named in Abu Bakr's attested letter opening the campaign, as the objective, "the gateway to India." The order is real; the capture under Abu Bakr is not. That is very likely how the error entered the tradition, and then the pool.
-- **Hira.** *Coordinates corrected.* Wikipedia "Al-Hirah": **31.98/44.39**; the pool had 31.83/44.42, 17 km south. Date, command, Lakhmid Christian character, tribute settlement and the recall westward are all correct. **[A: corrected]**
-- **Ajnadayn, July/August 634:** Byzantine field army defeated in Palestine, first pitched battle of the Syrian conquest; the news reached Medina during his final illness. **[A: al-Tabari]**
-- **Yarmuk: removed from the journey.** The pool carried a 634 stop crediting his final-weeks concentration order with "shaping the victory at Yarmuk." **Yarmuk was fought 15-20 August 636**, two years after his death, under Umar (Wikipedia "Battle of the Yarmuk"). A retrospective causal claim, not an attested one; it cannot carry **[A]**. The concentration order is retained inside the Ajnadayn campa, which falls inside his reign.
+## 7. Death and afterlife
 
-## 7. Death and succession (August 634)
-
-- Fell ill with **high fever**; asked that **Ali** wash his body. **[A: Wikipedia]**
-- **Nominated Umar** after consulting companions, some objecting to Umar's harshness. **[A: Wikipedia]**
-- **Died 23 August 634 (22 Jumada II, 13 AH)**, the only Rashidun caliph to die of natural causes. **[A: Wikipedia; New World Encyclopedia]**
-- **Age corrected to 60.** The pool's geography lens said "about sixty-three," contradicting its own chronology and afterlife lenses, both of which say sixty. Wikipedia: "died on 23 August 634 (aged 60)." The **63** is a devotional variant assimilating his lifespan to Muhammad's, and must be flagged as such if used. **[A: corrected]**
-- **Buried beside Muhammad** in Aishah's chamber, head reportedly level with the Prophet's shoulders. **[A: Wikipedia; al-Tabari; Ibn Sa'd]** **Umar** succeeded, 634-644. **[A]**
-
-## 8. Afterlife of the tomb
-
-- **Five-sided enclosure** around the three graves built by **Umar ibn Abd al-Aziz**, deliberately an irregular pentagon so pilgrims could not circumambulate them as if they were the Kaaba. **[A: Wikipedia "Green Dome"]** *Gap: "eighth century CE" is the only dating given; no year. Hedged in `date_confidence`.*
-- Dome first raised **678 AH / 1279-1280** under **Qalawun**, unpainted wood; rebuilt in brick and lead after the **1481** fire under **Qaitbay**; present structure **1818** under **Mahmud II**; **painted green 1837**. **[A: Wikipedia "Green Dome"]**
-- **1805:** Saud bin Abdul-Aziz's forces took Medina and demolished nearly every other tomb dome as idolatrous; the Green Dome survived, reportedly because Muhammad ibn Abd al-Wahhab had opposed its destruction. **[A: same]**
-- **21 April 1926:** Ibn Saud's Ikhwan levelled the domes and gravestones of **Jannat al-Baqi**; the Green Dome again untouched. Sunni and Shia communities keep a **Day of Sorrow**; calls to rebuild have been refused. **[A: Wikipedia "Al-Baqi'"]**
-- **The Hagia Sophia "seal": mischaracterised, and dropped.** The pool reported "a calligraphic seal bearing Abu Bakr's name preserved among Islamic relics in the Hagia Sophia complex." It is **not a seal and not a relic**: it is one of eight calligraphic roundels (*levha*), roughly 7.5 m across, naming God, Muhammad, the four Rashidun, Hasan and Husayn, painted by **Kazasker Mustafa Izzet Efendi** during the Fossati restoration under Abdulmecid I in the late 1840s. Istanbul's Sacred Relics collection, which does hold objects called seals, is at **Topkapi Palace**. The pool's source appears to be a loosely worded image caption, and **the roundel details could not be retrieved from the Hagia Sophia article itself**. Weak as an afterlife item in any case, since the roundel commemorates all four Rashidun equally. Not published.
+- Fell ill **7 Jumada al-Akhirah 13 AH / 8 August 634**; died after about fifteen days, on **Monday 22 Jumada al-Akhirah / 23 August 634**, of natural causes, the **only Rashidun caliph not assassinated**. **[A: al-Tabari; Britannica; Wikipedia]**
+  - *Hijri day corrected:* geography item 32 gave **23**, afterlife item 2 gave **22**; **22** is traditional and is used. *Coordinate dropped:* the dossier pinned the death at 24.4686 / 39.6142, the generic Medina city-centre point, and **his house at al-Sunh is unlocated**, so the journey reuses the mosque pin and says why.
+  - *Age not resolved, and stated once.* Chronology said "approximately 60", geography "about sixty-three"; most classical sources give **63**, the age at which Muhammad died, which is itself a devotional pattern. The journey states the range **60 to 63** in `date_confidence` and gives no figure in prose. **[R]**
+- **Poisoning tradition:** food shared a year earlier with al-Harith ibn Kalada and Attab ibn Usayd, both said to have died the same day. **al-Tabari attributes the death to fever, and later scholars flag the poisoning account as lacking a sound chain. [R]**
+- **Buried beside Muhammad** in Aisha's chamber, head level with the Prophet's shoulders. **[A: al-Bukhari; Ibn Sa'd]**
+- **Green Dome:** first dome **678 AH / 1279-1280** under **Qalawun**; fire **1481**, rebuilt under **Qaitbay**; present structure **1818** under **Mahmud II**; painted green **1837**. **[A]** *The two demolitions, separated:* the dossier wrote "1805 and again in December 1925", but **Medina surrendered in December 1925** while the second demolition is dated **21 April 1926**, the first being **1805-1806**. The dome was spared both times. The **2007 pamphlet** **[A]** is folded into the Baqi campa.
+- **Topkapi:** a sword attributed to him in the Chamber of Sacred Relics, reaching Istanbul chiefly after the **1517** conquest of Cairo. **[A as to the transfer; R as to the attribution]**
+- **Recorded, not published as stops:** al-Marwazi's **Musnad Abi Bakr as-Siddiq** **[A]**; the **Masjid Abu Bakr al-Siddiq**, attributed by "local tradition rather than a contemporaneous textual record" **[R]**; the honorific **al-Atiq**, with **two unreconciled etymologies** **[R]**; the Twelver polemic making Umar his poisoner **[R]**; and the fact that **no book is attributed to him as author** **[R]**. *Also corrected:* Ibn Hanbal's *Musnad* opens with the **ten promised Paradise**, not with a judgement of his seniority.
 
 ---
 
-## Quotations: verification status
+## 8. Quotations: verification status
 
-Everything in the journey's `quote` fields was verified by direct retrieval. Two occasions were wrongly attached to their texts in the pool; both are fixed.
+Ten `quote` fields across 44 stops. All but one are **[A]**.
 
-| Quotation | Status |
-|---|---|
-| "If one of them (pagans) should lift up his foot, he will see us." | **[A]** al-Bukhari 4663, Tafsir on Qur'an 9:40, narrated by Abu Bakr. Cross-checked against a sunnah.com snippet. |
-| "By Allah! If they withhold from me even a she-kid..." | **[A]** al-Bukhari, Zakat, **1399** (**1456** in some editions). Two mirrors. |
-| "It was nothing but Allah Who opened Abu Bakr's chest..." | **[A]** al-Bukhari 1457, attributed to Umar: a quotation *about* Abu Bakr, recording Umar's initial disagreement and later endorsement. |
-| "Our property will not be inherited..." and "I will not leave anything Allah's Apostle used to do..." | **[A]** verbatim on two mirrors. **Numbering flagged: 3092 on hadithunlocked, 3093 on tohed.** |
-| "Oh people, I am like you..." and "If I am upright, then follow me..." | **[A]** confirmed by direct grep of al-Tabari vol. 10 (Donner, SUNY), archive.org `tarikh-al-tabari`. **Occasion corrected:** the isnad (Ibn Damra, his father, Asim b. Adi) sets it **two days after the Prophet's death, when the crier summoned Usama's army to al-Jurf**, not at the Saqifah bay'ah as the pool claimed. |
-| "Go on toward Iraq... Begin with the gateway to India, which is al-Ubullah." | **[A]** al-Tabari vol. 11 (Blankinship, SUNY), opening instructions to Khalid. |
-| "Call to arms those who fought against the apostates..." | **[A]** confirmed by direct grep of vol. 11. **Addressee corrected:** **not** part of the same letter. It is a later, separate letter **to two commanders** (Khalid and Iyad) after both sought reinforcements, in the passage reinforcing them with al-Qa'qa b. Amr al-Tamimi and Abd b. Awf al-Himyari. |
-| "I have been given the authority over you, and I am not the best of you..." | **[R], and its citation is bad.** The pool cited Ibn Kathir, *Al-Bidayah wan-Nihayah* vol. 6 pp. 305-306, and Lings, *Muhammad* (1983) p. 344. **Neither verifiable, both look wrong:** the Lings scan is access-restricted and runs to **342 pages**, so p. 344 is out of range; the Darussalam *Al-Bidayah* set on archive.org **has no Rightly-Guided-Caliphs volume**. The substance is primary-sourced but elsewhere and in different words: traced by direct grep to **Ibn Sa'd, *Tabaqat* vol. 3, trans. Aisha Bewley, "Allegiance to Abu Bakr" (pp. 138-139)**, from Ubaydullah ibn Musa from Hisham ibn Urwa: *"O people, I have undertaken your affair and I am not the best of you... I am a follower, not an innovator. If I do good, help me. If I veer aside, then stop me."* **Not published**, since the Tabari wording is attested and this one would need an unverified citation republished. A grep of vol. 10 for "best of you" and "best among you" returns zero hits, so this is a different recension, not a variant translation. |
-| "Grieve not. Lo! Allah is with us." (Qur'an 9:40) | **[R]** as to *wording only*. Seen secondhand via Wikipedia, no translator named. The verse is not in dispute; the English is unconfirmed. Not published as a `quote`. |
-| Deathbed testament | **[R] as the pool had it; [A] in different words.** The pool's phrasing ("...the last hour of the world, and the first of the next") came from Wikipedia with no chronicle or translator named, and could **not** be confirmed: al-Tabari vol. 11 was downloaded in full and **the appointment-of-Umar section (pp. 145-49 per its own contents) is absent from the OCR**. Traced instead to **Simon Ockley, *The History of the Saracens* (Bohn ed., archive.org `historyofsaracen00ockluoft`)**, and that wording is published. Two consequences: the pool's phrase is an earlier-edition Ockley rendering never seen; and **Ockley says only "his secretary," not Uthman ibn Affan**, whom the pool's afterlife lens names as scribe on Wikipedia's authority. **Contradiction flagged, not resolved:** the journey says "his secretary," and the Uthman attribution is left out for want of a source naming him. |
+| Quotation | Stop | Status |
+|---|---|---|
+| "Whoever amongst you worshipped Muhammad, then Muhammad is dead..." | death of Muhammad | **[A]** al-Bukhari **1241**; followed in the source by Qur'an 3:144. |
+| "O people, I have been put in authority over you..." | inaugural address | **[A]** Ibn Hisham **2/661**. A previous atlas run could not source this recension; this pool supplies the citation. |
+| "Our property cannot be inherited..." | Fadak | **[A]** al-Bukhari **6725**, narrated by Aisha; the second clause is in `quote_source`. |
+| "You are a wise young man..." | the Quran gathered | **[A]** al-Bukhari **4986**, narrated by Zayd ibn Thabit. |
+| "I advise you ten things..." | the army for Syria | **[A]** Muwatta **21.3.10**. "I will not ride and you will not get down" is the same hadith and the same walk, in `quote_source`. |
+| "O Umar, I will not sheathe a sword that God has drawn against the unbelievers." | the sword not sheathed | **[A], upgraded from [R] and rewritten.** The dossier had the popular form ("against the infidels") with no chain. **al-Tabari vol. 10 (Donner) p. 102**, isnad al-Sari - Shu'ayb - Sayf - Hisham b. Urwah. Occasion: the **Malik ibn Nuwayra affair**. |
+| "Verily, I appoint over you Umar ibn al-Khattab..." | the testament | **[A], rewritten.** The dossier's wording was a paraphrase with an **invented tail** ("and only Allah knows") and two dropped clauses. From **al-Sallabi p. 726**, citing **al-Dhahabi pp. 116-117**; al-Tabari vol. 11 carries the narratives but not this wording, so that source line is dropped. |
+| "If I were to take a Khalil, I would have taken Abu Bakr..." | the room against the east wall | **[A]** al-Bukhari **3656**. **Undated in the sources**, placed in the Medina years and said to be so. A quotation *about* him, not by him. |
+| "O Messenger of God, I don't think that you will attain what you desire..." | Ta'if | **[A] as to text, [R] as to occasion.** al-Tabari vol. 9 **p. 24**, which says only that he addresses Muhammad "regarding a group of people". **The attachment to Ta'if is this atlas's inference**, stated in `quote_source`. |
+| "Strive for death, then you will be given life." | Buzakha | **[R].** *al-'Iqd al-Farid* **1/92** via Wikiquote; **the primary text was not reached.** Hedge inside `quote_source`. |
 
----
-
-## Interlocks with the corpus
-
-- **`muhammad.journey.json`**: the deepest interlock in the atlas. Shared: the first believers in Mecca; Bilal on the burning sands; the Hijra plot; the Cave of Thawr; the deathbed instruction to lead prayer; the address at Muhammad's death. **[A]**
-- **`aishah.journey.json`**: Aishah's journey *opens* in "the house of Abu Bakr as-Siddiq" in the Banu Taym quarter. Her betrothal, the Medina reunion, her husband's death, her father's accession and her father's burial in her own chamber are shared frames. **[A]**
-- **`abdelkader.journey.json`**: the Emir prays at the Prophet's tomb in Medina in 1825, at the Green Dome standing over Abu Bakr's grave, on his own pin (24.4672/39.6111). A mutual gaze twelve centuries apart. The pool also suggests a **silsila** link (Naqshbandi chains run back through Abu Bakr rather than Ali), **[R]**, noting explicitly that this is **not textually attested in `abdelkader.journey.json`**. The journey names him nowhere; the crossing is recorded here.
-
-**Canonical pins inherited byte-identical:** Kaaba **21.4225, 39.8262**; first believers and house of Abu Bakr **21.4229, 39.8261**; betrothal **21.4231, 39.8259**; Bilal **21.4222, 39.8262**; Hijra plot **21.4229, 39.826**; Cave of Thawr **21.344, 39.8262**; Medina household and accession **24.4674, 39.6112**; Sacred Chamber **24.467, 39.6109**; Jerusalem, Noble Rock **31.778, 35.2354**.
-
-*On the Thawr pin.* The canonical value (21.344, 39.8262) and the geography lens value (21.3859, 39.8567) differ by about 5 km. **The canonical pin wins**, so the two journeys sit on one point. The discrepancy is recorded rather than silently absorbed.
-
-**False positive, recorded so it is not made again.** The Sufi journeys (`abu_al_qasim_al_qushayri.journey.json`, `junayd_al_baghdadi.journey.json`, `hallaj.journey.json`) mention an "Abu Bakr" repeatedly. **These are other men**: al-Shibli, ibn Furak, al-Tusi, al-Kalabadhi. A name collision, not an interlock. **[A]**
+**Where the dossier contradicted itself.** Seven places, each flagged in situ above: the date of the public address and beating; the siege of Ta'if (led against consulted); the age at death; the Hijri date of death; the first-convert tag; the Quran compilation year; and the reign length.
 
 ---
 
-## Honest gaps
+## 9. Interlocks with the corpus
 
-1. **No document contemporary with the life exists.** See the note at the head.
-2. **The birth year is a tradition** (573 or 574); the birth house is unlocated.
-3. **Bark al-Ghimad is unlocated**; the refuge is pinned approximately and said to be.
-4. **The Saqifah site is not archaeologically fixed.**
-5. **Hunayn has no verified coordinates**, so it carries no pin.
-6. **The Najd expedition of 7 AH names no place inside Najd**, so it carries no stop.
-7. **Al-Tabari vol. 11's appointment-of-Umar section is missing from the archive.org OCR**, which is why the testament is published from Ockley.
-8. **The Ibn Kathir and Lings citations could not be checked**, and the page references look impossible. Not published.
-9. **The Hagia Sophia roundel could not be verified from its own article.** Not published.
-10. **The Yamama memoriser count cannot be settled**: 70, 360 and 500 all circulate in the same encyclopedia.
+- **`muhammad.journey.json`**: the deepest interlock in the atlas, shared at identical pins and dates from the first believers through the Kaaba precinct, Bilal, the Hijra and Thawr, the whole Medinan campaign sequence, and the death of Muhammad. **[A]**
+- **`aishah.journey.json`**: her journey opens in the house of Abu Bakr. Shared: the betrothal, the Medina household, the mosque rooms, her husband's death, her father's accession and his burial in her own chamber. Fadak intersects that thread without being logged there. **[A / R for Fadak]**
+- **`abdelkader.journey.json`**: the Emir prays at the Prophet's tomb in **1825**, under the Green Dome standing over this grave. Named in the dome campa: a mutual gaze twelve centuries apart. **[A]**
+- **`abraham.journey.json`** and **`jesus.journey.json`**: named in campa at the two inherited pins they share with this journey, the Kaaba (found in at least nineteen other files) and the Temple Mount. A statement about ground, not about contact. **[A as to the shared pins]**
+
+**Canonical pins inherited byte-identical:** Kaaba **21.4225, 39.8262** · house of Muhammad **21.4229, 39.8261** · Bilal **21.4222, 39.8262** · house of Abu Bakr **21.4231, 39.8259** · Hijra plot **21.4229, 39.826** · Thawr **21.344, 39.8262** · Noble Rock **31.778, 35.2354** · Badr **23.7808, 38.7911** · Medina mosque and Sacred Chamber **24.4674, 39.6112** · Medina general **24.4672, 39.6111** · Saqifa **24.47, 39.6095** · Green Dome **24.4675894, 39.6114389** · Busra **32.5175, 36.4822**.
+
+*On the Thawr pin.* The canonical atlas value (21.344 / 39.8262) and this dossier's (21.3775 / 39.8508) differ by about 5 km. **The canonical pin wins**, so the two journeys sit on one point.
+
+**Name collision, recorded so it is not made again.** The "Abu Bakr" in `abu_al_qasim_al_qushayri.journey.json`, `junayd_al_baghdadi.journey.json` and `hallaj.journey.json` is **Abu Bakr al-Shibli (d. 946)**, who throws a rose at Hallaj's execution, not Abu Bakr as-Siddiq (d. 634). **Gap flagged rather than invented:** no file places any traveler at Paris or Buenos Aires whose stops intersect his, and linking him there would need a bridging figure the corpus does not have.
 
 ---
 
-## Sources
+## 10. Honest gaps
 
-**Reached and used**
-- Wikipedia: "Abu Bakr", "Ridda Wars", "Battle of Badr", "Battle of Yamama", "Siege of Ta'if", "Khaybar", "Al-Hirah", "Al-Ubulla", "Battle of the Yarmuk", "Bilal ibn Rabah", "Green Dome", "Al-Baqi'", "History of the Quran", "Succession to Muhammad", "Expedition of Abu Bakr As-Siddiq"
-- New World Encyclopedia, "Abu Bakr"
-- *The History of al-Tabari*, vol. 10 (*The Conquest of Arabia*, trans. Donner) and vol. 11 (*The Challenge to the Empires*, trans. Blankinship), SUNY Press; full texts downloaded from archive.org `tarikh-al-tabari` and grepped directly
-- Ibn Sa'd, *Kitab at-Tabaqat al-Kabir* vol. 3, trans. Aisha Bewley, grepped directly (quotation trace, not published)
-- Simon Ockley, *The History of the Saracens*, Bohn ed., archive.org `historyofsaracen00ockluoft`, grepped directly
-- Sahih al-Bukhari via hadithunlocked.com and en.tohed.com, cross-checked against sunnah.com snippets
-- Atlas files: `muhammad.journey.json`, `aishah.journey.json`, `abdelkader.journey.json`, `QUEUE.md`
+1. **No document contemporary with the life exists.** See the head note.
+2. **Unlocated places**, all pinned by inference and labelled in `date_confidence`: the birth house; **Bark al-Ghimad**; the **Dhat al-Salasil** camp; the **Saqifa** plot; **al-Sunh**, both his residence and the house he died in; **Dhu al-Qassa**.
+3. **The birth year is tradition** (c. 573), with no month and no day, and **his age at death cannot be settled**: 60 and 63 both circulate, 63 being suspiciously the age at which Muhammad died.
+4. **The order of the earliest converts cannot be settled** and was never going to be.
+5. **The Ta'if quotation's occasion is not stated by its own source**, and the attachment is this atlas's inference, labelled as such. **"Strive for death" was not traced to a primary text** and is published as **[R]** with the reason inside the field a reader sees.
+6. **Ibn Abd Rabbih's *al-'Iqd al-Farid* and al-Sallabi's Darussalam volume were not opened directly**; both reach this report through compilations and page citations supplied by the pool.
 
-**Cited in the tradition, used at second hand only**
-- Ibn Ishaq, *Sirat Rasul Allah* (Ibn Hisham's recension, trans. Guillaume); al-Waqidi, *Kitab al-Maghazi*; Ibn Sa'd, *Tabaqat*; Muslim, *Sahih*; Abu Dawud, *Sunan*. These stand behind most of the narrative and are cited by the encyclopedia articles above. **They were not fetched and collated page by page**, and are marked as the tradition's own authorities, not as independent verification.
+---
 
-**Sought and not reachable**
-- Martin Lings, *Muhammad* (1983): archive.org scan **access-restricted**; the cited p. 344 is out of range for a 342-page edition
-- Ibn Kathir, *Al-Bidayah wan-Nihayah*, Darussalam set on archive.org: **no Rightly-Guided-Caliphs volume**, so vol. 6 pp. 305-306 could not be checked
-- *The History of al-Tabari* vol. 11, "[His Appointment of Umar b. al-Khattab as His Successor]" (pp. 145-49 per its own contents): **not present in the archive.org OCR**
-- Wikipedia "Hagia Sophia": the roundel details **could not be retrieved**; the pool's claim rests on an image caption
-- Sahih al-Bukhari 3093 on hadithunlocked.com: **that number does not exist on the page**, which runs 3091, 3092, 3094
+## 11. Sources
+
+**Reached and used.** Sahih al-Bukhari 1241, 2297, 3656, 3905, 4986, 6725 and the Khaybar banner hadith (Daily Hadith Online, an IIUM mirror of the Muhsin Khan translation, sounah.com) · Sahih Muslim · Muwatta 21.3.10 (qurango.com) · *The History of al-Tabari* vol. 9 p. 24, vol. 10 (Donner) p. 102 verified against the archive.org full text, vol. 11 pp. 146-147 · Ibn Hisham 2/661 and throughout · al-Sallabi p. 726, citing al-Dhahabi · Britannica "Abu Bakr" · sixteen Wikipedia articles, named individually in each stop's `sources` field · Madain Project · Topkapi Palace museum materials · TRT World · Crescent International · atlas files `muhammad.journey.json`, `aishah.journey.json`, `abdelkader.journey.json`, `abraham.journey.json`, `jesus.journey.json`, `QUEUE.md`.
+
+**Cited in the tradition, used at second hand only.** Ibn Ishaq (in Ibn Hisham's recension), al-Waqidi, Ibn Sa'd, Ibn Kathir, Abu Dawud. They stand behind most of the narrative but **were not fetched and collated page by page**, and are marked as the tradition's own authorities rather than as independent verification.
+
+**Named in the pool and not opened.** Ibn Abd Rabbih, *al-'Iqd al-Farid* 1/92 (Wikiquote only; its quotation is published as **[R]**) · al-Marwazi, *Musnad Abi Bakr as-Siddiq* (a sifatusafwa.com note) · ahl-alquran.com on the poisoning polemic, recorded as its carrier and not as evidence.
