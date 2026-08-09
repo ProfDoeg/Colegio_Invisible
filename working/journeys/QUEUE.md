@@ -517,6 +517,9 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Albertus Magnus** | medieval Dominican friar and scholastic philosopher, teacher of Thomas Aquinas, patron saint of natural scientists, wrote extensively on alchemy and natural science; bridges the corpus's alchemical/esoteric wing to its scholastic-philosophy material |
 | 0 | **Julius Evola** | Italian traditionalist philosopher and esotericist, author of Revolt Against the Modern World, associated with Italian and later international fascism; joins the corpus's esoteric-traditionalist wing (rene_guenon already queued) |
 | 0 | **Simon Magus** | Samaritan magus of Acts 8, who tried to buy the power of the Holy Spirit from the apostles (giving 'simony' its name); early Christian heresiology names him as the fountainhead of Gnosticism, paired in legend with Helen of Tyre, a former prostitute he called the reincarnated Helen of Troy; joins the corpus's Gnostic/heresiological wing |
+| 0 | **Apostle Paul** | Saul of Tarsus, missionary journeys across Anatolia, Greece and to Rome, epistles that shape the entire New Testament; may already touch the corpus in passing (saint_thecla just queued follows him directly) but has never been given his own journey; check first whether a suitable entry already exists |
+| 0 | **Apostle Peter** | first among the twelve, crucified upside down in Rome by tradition; direct interlock with apostle_paul just queued (Rome, the early church) |
+| 0 | **Ammonius the Hermit** | Egyptian Desert Father figure whom Carl Jung reported visions of; direct interlock with the atlas's own Jung (jung.journey.json) and the corpus's Egyptian-desert/monastic material (san_antonio_abad already done) |
 
 
 
