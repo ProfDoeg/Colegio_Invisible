@@ -520,6 +520,8 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Apostle Paul** | Saul of Tarsus, missionary journeys across Anatolia, Greece and to Rome, epistles that shape the entire New Testament; may already touch the corpus in passing (saint_thecla just queued follows him directly) but has never been given his own journey; check first whether a suitable entry already exists |
 | 0 | **Apostle Peter** | first among the twelve, crucified upside down in Rome by tradition; direct interlock with apostle_paul just queued (Rome, the early church) |
 | 0 | **Ammonius the Hermit** | Egyptian Desert Father figure whom Carl Jung reported visions of; direct interlock with the atlas's own Jung (jung.journey.json) and the corpus's Egyptian-desert/monastic material (san_antonio_abad already done) |
+| 0 | **Alexandre Dumas** | French novelist of The Three Musketeers and The Count of Monte Cristo; personally introduced the young Jules Verne (just done) to Paris literary life via the Chevalier d'Arpentigny in 1849, already a named crossing in jules_verne.journey.json awaiting its own entry |
+| 0 | **Giuseppe Garibaldi** | Italian general and unifier, hero of the Risorgimento, fought on three continents; joins the corpus's 19th-century revolutionary/nationalist material |
 
 
 
