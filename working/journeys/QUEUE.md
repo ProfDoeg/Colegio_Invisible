@@ -513,6 +513,8 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Gabriel García Márquez** | Colombian Nobel laureate, author of One Hundred Years of Solitude, personally and closely friends with fidel_castro (already done) for decades; one of the busts in the Jardín de los Poetas, Palermo, Buenos Aires |
 | 0 | **Rabindranath Tagore** | Bengali poet, first non-European Nobel literature laureate, pairs with swami_vivekananda (already done) as the two great Indian voices at Western intellectual crossings; one of the busts in the Jardín de los Poetas, Palermo, Buenos Aires |
 | 0 | **Alfonsina Storni** | Argentine poet, drowned herself in Mar del Plata in 1938 after a cancer diagnosis; sits in the same Argentine literary-identity terrain as the corpus's existing Argentine material; one of the busts in the Jardín de los Poetas, Palermo, Buenos Aires |
+| 0 | **Albertus Magnus** | medieval Dominican friar and scholastic philosopher, teacher of Thomas Aquinas, patron saint of natural scientists, wrote extensively on alchemy and natural science; bridges the corpus's alchemical/esoteric wing to its scholastic-philosophy material |
+| 0 | **Julius Evola** | Italian traditionalist philosopher and esotericist, author of Revolt Against the Modern World, associated with Italian and later international fascism; joins the corpus's esoteric-traditionalist wing (rene_guenon already queued) |
 
 
 
