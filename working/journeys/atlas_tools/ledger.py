@@ -60,18 +60,22 @@ for line in open(D + "/QUEUE.md", encoding="utf-8"):
         if slug not in seen:
             seen.add(slug)
             alias = re.search(r"\((.+?)\)", name)
-            rows.append((name, slug, slugify(alias.group(1)) if alias else None))
+            # two parenthetical patterns show up in QUEUE.md and need different
+            # handling: "Adriano (Hadrian)" - the paren is a translation/gloss
+            # of the SAME name, so the bare name (paren stripped) is what the
+            # journey file is slugged as - vs. "Jean-Baptiste Alliette
+            # (Etteilla)" - the paren IS the person's actual handle, so the
+            # alias itself is what the journey file is slugged as. Carry both
+            # candidates plus the alias so is_built can try all three.
+            bare = slugify(re.sub(r"\(.*?\)", " ", name)) if alias else slug
+            rows.append((name, slug, bare, slugify(alias.group(1)) if alias else None))
 
 
 STOP = {"de", "of", "the", "and", "al", "el", "la", "von", "van", "der", "di", "ii", "iii"}
 built_words = {b: set(b.split("_")) - STOP for b in built}
 
 
-def is_built(slug, alias_slug=None):
-    if alias_slug and alias_slug in built:
-        # a parenthetical alias like "(Etteilla)" or "(Txillardegi)" names
-        # the person's common handle directly - an exact hit is unambiguous
-        return True
+def _slug_matches(slug):
     qwords = set(slug.split("_")) - STOP
     if not qwords:
         return slug in built
@@ -95,7 +99,15 @@ def is_built(slug, alias_slug=None):
     return False
 
 
-todo = [r for r in rows if not is_built(r[1], r[2])]
+def is_built(slug, bare_slug=None, alias_slug=None):
+    if alias_slug and alias_slug in built:
+        # a parenthetical alias like "(Etteilla)" or "(Txillardegi)" names
+        # the person's common handle directly - an exact hit is unambiguous
+        return True
+    return _slug_matches(slug) or (bare_slug and bare_slug != slug and _slug_matches(bare_slug))
+
+
+todo = [r for r in rows if not is_built(r[1], r[2], r[3])]
 
 print("ATLAS LEDGER")
 print("=" * 46)
