@@ -64,13 +64,13 @@ The obituary makes him an **electronics technician**. The locked essay calls him
 
 ---
 
-## 4. The two straits: a contradiction the atlas keeps open
+## 4. The two straits: hospice delirium, not a travel record
 
 Corpus-internal **[R]**, family memory, not publicly citable: in hospice he spoke of his travels through the **Strait of Bab al-Mandab** and the **Strait of Malacca**, alongside the tribes of Yemen, of Gaul, and the bloodlines of Abraham.
 
-**These do not fit the ship the obituary names.** Richmond K. Turner was a Pacific Fleet unit homeported at San Diego for the whole of his service. Her Mediterranean deployments all **postdate** the 1974 move to Norfolk, and her one documented **Suez transit is late April 1991**, escorting USS Theodore Roosevelt, more than twenty years after he left the Navy. **The pool's Suez stop, justified by "a Mediterranean deployment pattern", rests on a false premise and is dropped.** A San Diego to Pearl Harbor to Subic Bay routing passes through neither strait.
+**Confirmed by the author (2026-08-10): this was deathbed delirium.** It is not a claim about where he went and does not need to be reconciled against Richmond K. Turner's actual service record - a Pacific Fleet ship homeported at San Diego for the whole of his time aboard, whose only documented Suez transit (April 1991, escorting USS Theodore Roosevelt) postdates his discharge by more than twenty years. The pool's earlier Suez stop, justified by "a Mediterranean deployment pattern," rested on a false premise and is dropped; no route of his is claimed to pass through either strait.
 
-**What the atlas does with this.** It neither deletes the straits nor invents a ship to carry him through them. Both are pinned in the hospice segment as **stations of the dying man's speech**, with the contradiction stated in `date_confidence`. Explanations **not** pursued to a source, recorded as unresolved: a different ship earlier or later in his enlistment; a merchant or civilian passage; a transposition in family memory; or reading, which for a medievalist librarian is not a lesser explanation than sailing.
+**What the atlas does with this.** Both straits are pinned in the hospice segment as visionary speech, named as delirium in `date_confidence`, not as an itinerary the atlas tries to explain, source, or fit against the record. A dying man's geography answers to nothing but itself.
 
 ---
 
