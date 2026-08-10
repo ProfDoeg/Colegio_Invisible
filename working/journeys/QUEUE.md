@@ -619,3 +619,17 @@ journey; approved by the author.
 | 0 | **Wolfgang Amadeus Mozart** | Austrian composer, child prodigy toured across the courts of Europe from age six, died at 35 in Vienna and was buried in a common grave; joins bach just queued in filling the corpus's classical-music gap |
 | 0 | **Ludwig van Beethoven** | German composer, went progressively deaf yet kept composing through it, conducted the premiere of the Ninth Symphony unable to hear the ovation behind him; joins bach and mozart just queued |
 
+## Economics (2026-08-10)
+
+Proposed by El Gólem: economics untouched past the banking dynasties and
+adam_smith already queued. Austrian School core plus its major rivals.
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Carl Menger** | Austrian economist, founder of the Austrian School, theorist of marginal utility; joins the corpus's economics material (adam_smith already queued) as its foundational absence |
+| 0 | **Eugen von Böhm-Bawerk** | Austrian economist and statesman, three-time finance minister of Austria-Hungary, developed the Austrian School's theory of capital and interest built on carl_menger's just queued foundation |
+| 0 | **Ludwig von Mises** | Austrian-American economist, author of Human Action, fled Vienna for Geneva then New York ahead of the Nazi advance; another entry in the corpus's Vienna-exodus theme (freud, einstein already done) |
+| 0 | **Friedrich Hayek** | Austrian-British economist, The Road to Serfdom, Nobel laureate; a life across Vienna, London, Chicago and Freiburg, student of the same Austrian School (carl_menger, ludwig_von_mises just queued) |
+| 0 | **John Maynard Keynes** | British economist, architect of Keynesian economics and the Bretton Woods system, member of the Bloomsbury Group; the great 20th-century rival school to the Austrians just queued |
+| 0 | **Joseph Schumpeter** | Austrian-American economist, theorist of 'creative destruction,' briefly Austria's finance minister at 36; joins the corpus's economics wing from its own eclectic edge, neither strictly Austrian nor Keynesian |
+| 0 | **Milton Friedman** | American economist, father of monetarism and the Chicago School; his student 'Chicago Boys' designed augusto_pinochet's (already done) Chilean economic program, a direct interlock |
