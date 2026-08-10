@@ -633,3 +633,26 @@ adam_smith already queued. Austrian School core plus its major rivals.
 | 0 | **John Maynard Keynes** | British economist, architect of Keynesian economics and the Bretton Woods system, member of the Bloomsbury Group; the great 20th-century rival school to the Austrians just queued |
 | 0 | **Joseph Schumpeter** | Austrian-American economist, theorist of 'creative destruction,' briefly Austria's finance minister at 36; joins the corpus's economics wing from its own eclectic edge, neither strictly Austrian nor Keynesian |
 | 0 | **Milton Friedman** | American economist, father of monetarism and the Chicago School; his student 'Chicago Boys' designed augusto_pinochet's (already done) Chilean economic program, a direct interlock |
+
+## Zionism, the Bund, and Basque separatism (2026-08-10)
+
+Proposed by El Gólem against the corpus's existing Herzl-adjacent material
+(alfred_dreyfus, samuel_preiswerk, vladimir_medem, golda_meir already
+queued/done) and a wholly untouched Basque-nationalism thread.
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Theodor Herzl** | founder of political Zionism, Der Judenstaat and the First Zionist Congress of 1897; already named in passing in alfred_dreyfus's and vladimir_medem's queue entries but never given his own |
+| 0 | **Chaim Weizmann** | chemist and first President of Israel, the key figure behind the 1917 Balfour Declaration; joins theodor_herzl just queued |
+| 0 | **Ze'ev Jabotinsky** | founder of Revisionist Zionism, the militant-nationalist current that stood against david_ben_gurion's just queued Labor Zionism |
+| 0 | **David Ben-Gurion** | Israel's founding prime minister, declared independence in 1948; joins the same Zionist-founders cluster |
+| 0 | **Ahad Ha'am** | founder of cultural Zionism (born Asher Ginsberg), argued for a spiritual center rather than necessarily a state, the direct rival vision to theodor_herzl's just queued political Zionism |
+| 0 | **Aaron David Gordon** | founder of labor Zionism and its 'religion of labor,' direct inspiration for the kibbutz movement; joins the same cluster |
+| 0 | **Arkadi Kremer** | founder of the General Jewish Labour Bund in 1897, the same year as theodor_herzl's just queued First Zionist Congress; vladimir_medem already queued carried the Bund's ideas forward after him |
+| 0 | **Henryk Erlich** | Polish Bundist leader, murdered by the Soviet NKVD during WWII alongside victor_alter just queued; joins arkadi_kremer and vladimir_medem already queued in the corpus's Bundist thread |
+| 0 | **Victor Alter** | Polish Bundist leader, murdered by the Soviet NKVD alongside henryk_erlich just queued; the two are usually named together |
+| 0 | **Arthur Balfour** | British Foreign Secretary, author of the 1917 Balfour Declaration that chaim_weizmann just queued helped secure |
+| 0 | **Sabino Arana** | founder of Basque nationalism in the 1890s, invented the Ikurriña flag and the term Euzkadi, founded the PNV; the corpus has no Basque-nationalist material until now |
+| 0 | **José Antonio Aguirre** | first President of the Basque Country during the Spanish Civil War; after Franco's victory crossed occupied Europe under false papers, a Panamanian passport and a false name, through France, Belgium and Germany before reaching New York to run a government-in-exile |
+| 0 | **Julen Madariaga** | co-founder of ETA in 1959, a radical break from sabino_arana's just queued PNV youth wing |
+| 0 | **José Luis Álvarez Emparantza (Txillardegi)** | co-founder of ETA alongside julen_madariaga just queued, later broke with the organization's turn to violence and returned to academic linguistics |
