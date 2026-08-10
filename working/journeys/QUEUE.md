@@ -692,3 +692,4 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Rupert Murdoch** | chairman of News Corp and Fox, a global press empire with real political reach; direct contrast with robert_maxwell already queued, another press mogul of a different scale |
 | 0 | **Charles Koch** | chairman of Koch Industries, the libertarian donor network behind much of the funding for the Austrian-economics institutions the corpus already carries (ludwig_von_mises, friedrich_hayek already queued) |
 | 0 | **Carlos Slim** | Mexican telecom magnate, one of the world's richest people; joins the corpus's Latin American material from the business side |
+| 0 | **David Rockefeller** | Chase Manhattan chairman, founder of the Trilateral Commission, longtime subject of conspiracy theory in his own right; direct interlock with the corpus's banking-dynasty material (the warburgs, morgans already queued) and allen_dulles already queued |
