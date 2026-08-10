@@ -681,3 +681,6 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Charles Ponzi** | Italian immigrant swindler whose 1920s Boston scheme gave bernie_madoff's just queued crime its name |
 | 0 | **Alberto Fujimori** | Peruvian president 1990-2000, authoritarian 'autogolpe' in 1992, later convicted of human rights abuses and corruption; fled to Japan, was extradited from Chile to face trial; joins the corpus's Latin American strongman material (augusto_pinochet already done) |
 | 0 | **Sam Altman** | OpenAI CEO, Y Combinator alumnus and central figure of the current AI boom; part of the same Silicon Valley network as the PayPal mafia just queued |
+| 0 | **Jamie Dimon** | CEO of JPMorgan Chase, the most powerful figure in American banking since the 2008 crisis; joins the corpus's banking material (the fuggers, medicis, warburgs, morgans already queued) into the present |
+| 0 | **Larry Fink** | CEO and co-founder of BlackRock, the world's largest asset manager; joins jamie_dimon just queued in the corpus's contemporary-finance material |
+| 0 | **Larry Summers** | economist, US Treasury Secretary under Clinton, Harvard president forced out over the Larry Summers controversy; documented repeated contact with jeffrey_epstein already queued after Epstein's conviction, a further Epstein-ties interlock |
