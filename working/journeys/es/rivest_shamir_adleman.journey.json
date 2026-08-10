@@ -1,0 +1,584 @@
+{
+ "traveler": "Ronald Linn Rivest, Adi Shamir, and Leonard Max Adleman",
+ "title": "La trampilla: tres iniciales, la noche después del séder y el número que nadie podía factorizar",
+ "years": "1945-",
+ "calendar": "gregorian",
+ "register": "mitología nacional: el canon es verdadero",
+ "segments": [
+  {
+   "name": "Tres nacimientos, tres licenciaturas",
+   "stops": [
+    {
+     "name": "San Francisco, el nacimiento de Leonard Adleman",
+     "lat": 37.7749,
+     "lng": -122.4194,
+     "date": "1945-12-31",
+     "date_confidence": "attested exactly; the city is attested, the hospital and street are not named in any source reached",
+     "campa": "Leonard Max Adleman nace en San Francisco el último día de 1945, hijo de una cajera de banco y un vendedor de electrodomésticos. Entra en la Universidad de California con la intención de hacerse químico y sale de ella matemático. Ninguno de sus padres trabaja en matemáticas, y el oficio que él ayudará a fundar todavía no existe: las máquinas que lo sostendrán se están ensamblando con tubos de vacío a tres mil millas al este, y la palabra criptografía pertenece aún solo a los gobiernos.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["ACM A. M. Turing Award laureate biography of Leonard Adleman"],
+     "sources": ["ACM A. M. Turing Award biography, Leonard Adleman", "MacTutor History of Mathematics biography", "Wikipedia, 'Leonard Adleman'"]
+    },
+    {
+     "name": "Schenectady, el nacimiento de Ronald Rivest",
+     "lat": 42.8142,
+     "lng": -73.9396,
+     "date": "1947-05-06",
+     "date_confidence": "attested exactly",
+     "campa": "Ronald Linn Rivest nace en Schenectady, en el norte del estado de Nueva York, una ciudad de la General Electric, diecisiete meses después que Adleman. Crece en el suburbio de Niskayuna y termina allí la secundaria en 1965. Tres hombres cuyas iniciales se pronunciarán como una sola palabra durante el resto del siglo nacen a cinco mil millas y siete años de distancia, en tres familias que no tienen motivo alguno para saber que las otras dos existen. El atlas registra primero la distancia. La cercanía llega después, y en un solo edificio.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Niskayuna High School, Balltown Road, near Schenectady"],
+     "sources": ["MIT CSAIL biography of Ronald Rivest", "Encyclopaedia Britannica, 'Ronald L. Rivest'", "History Tools biography of Ron Rivest"]
+    },
+    {
+     "name": "Tel Aviv, el nacimiento de Adi Shamir",
+     "lat": 32.0853,
+     "lng": 34.7818,
+     "date": "1952-07-06",
+     "date_confidence": "attested exactly; city-centre coordinate, no address attested",
+     "campa": "Adi Shamir nace en Tel Aviv, cuatro años después de fundado el Estado, el menor de los tres por cinco años y el único nacido fuera de los Estados Unidos. Cursará sus tres títulos en Israel, cruzará a Massachusetts por un solo tramo de cuatro años y volverá luego a Rehovot para quedarse. De los tres es el que abandona el país donde se patenta el algoritmo, y el que dedicará las décadas siguientes a desarmar los cifrados ajenos en lugar de construir otros nuevos.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["ACM A. M. Turing Award laureate biography of Adi Shamir"],
+     "sources": ["ACM A. M. Turing Award citation, Adi Shamir", "Encyclopaedia Britannica, 'Adi Shamir'"]
+    },
+    {
+     "name": "Berkeley, la licenciatura en matemáticas",
+     "lat": 37.8719,
+     "lng": -122.2585,
+     "date": "1968-06-01",
+     "date_confidence": "year attested; month and day are defaults. Pin inherited byte-identical from the atlas's canonical Berkeley coordinate in ralph_merkle.journey.json and hellman.journey.json; the gathered material also offered an Evans Hall pin at 37.8740, -122.2586",
+     "campa": "Adleman se licencia en matemáticas en Berkeley, adonde había llegado con la química en la cabeza. Volverá a este campus a doctorarse y saldrá de él convertido en informático. Dos años después de que se gradúe, Ralph Merkle entra en la misma universidad como estudiante de grado y en 1974 escribe, para un curso numerado CS 244, la propuesta de distribución de claves que su profesor rechaza. Los dos hombres no se conocen aquí. Las dos tradiciones de la clave pública arrancan en este mismo campus, en despachos distintos.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The University of California at Berkeley mathematics department, 1964 to 1968"],
+     "sources": ["ACM A. M. Turing Award biography, Leonard Adleman", "MacTutor History of Mathematics biography", "ralph_merkle.journey.json, stop 'Berkeley, the bachelor's degree'"]
+    },
+    {
+     "name": "New Haven, la licenciatura en Yale",
+     "lat": 41.3111,
+     "lng": -72.9279,
+     "date": "1969-06-01",
+     "date_confidence": "year attested; month and day are defaults",
+     "campa": "Rivest se licencia en matemáticas por Yale y deja el este rumbo a California. Tiene veintidós años y no ha conocido todavía a ningún criptógrafo. Lo que trae consigo es la formación del matemático puro en estructuras que se sostienen las mire alguien o no las mire. Lo que construirá con ella es una cerradura cuya llave puede publicarse en la portada de un periódico sin que por eso se abra nada. La palabra para ese objeto no se ha acuñado todavía, y el objeto tampoco existe.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Yale University, mathematics, class of 1969"],
+     "sources": ["ACM A. M. Turing Award laureate page, Ronald Rivest", "MIT CSAIL biography of Ronald Rivest", "Encyclopaedia Britannica, 'Ronald L. Rivest'"]
+    },
+    {
+     "name": "Universidad de Tel Aviv, la licenciatura",
+     "lat": 32.1133,
+     "lng": 34.8044,
+     "date": "1973-06-01",
+     "date_confidence": "year attested; month and day are defaults",
+     "campa": "Shamir obtiene su primer título en matemáticas por la Universidad de Tel Aviv, en la ciudad donde nació, y baja al sur, a Rehovot, para el resto de su formación. Tiene veinte años. Ese mismo año Rivest termina un doctorado en Stanford y Adleman va por la mitad del suyo en Berkeley. Tres formaciones corren en paralelo por dos continentes sin contacto entre ellas y sin materia común: un algorítmico estadounidense, un teórico de números estadounidense y un lógico israelí. Los tres habrán terminado en un margen de cuatro años, y cuatro años después de eso los tres estarán en un mismo edificio.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Tel Aviv University, mathematics, class of 1973"],
+     "sources": ["Encyclopaedia Britannica, 'Adi Shamir'", "ACM A. M. Turing Award citation, Adi Shamir"]
+    }
+   ]
+  },
+  {
+   "name": "Las formaciones separadas",
+   "stops": [
+    {
+     "name": "Stanford, el doctorado con Robert Floyd",
+     "lat": 37.4275,
+     "lng": -122.1697,
+     "date": "1973-06-01",
+     "date_confidence": "the year is disputed and is not resolved here. Rivest's own Computer History Museum oral history has him answer '73, yeah' to the question of when he graduated; Wikipedia and Britannica give 1974. Month and day are defaults. Pin inherited byte-identical from hellman.journey.json and diffie.journey.json",
+     "campa": "Rivest completa un doctorado en informática en Stanford bajo la dirección de Robert W. Floyd. Está en este campus en los años en que Whitfield Diffie trabaja en el Laboratorio de Inteligencia Artificial, en la loma sobre el lago Felt, y Martin Hellman acaba de incorporarse a la facultad de ingeniería eléctrica. Nada consta de los tres en una misma sala. Rivest se marcha a Francia y luego a Massachusetts, y los dos hombres a quienes no ha conocido empiezan, dos años más tarde, el artículo que lo devolverá al mismo problema desde el otro extremo del país.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The Stanford computer science department under Robert W. Floyd, early 1970s"],
+     "sources": ["Computer History Museum oral history of Ronald Rivest", "MIT CSAIL biography of Ronald Rivest", "diffie.journey.json, stop 'Stanford Artificial Intelligence Laboratory, the hill above Felt Lake'", "hellman.journey.json, stop 'Stanford, the assistant professorship and the warnings'"]
+    },
+    {
+     "name": "Rocquencourt, el año en el INRIA",
+     "lat": 48.8259,
+     "lng": 2.1114,
+     "date": "1973-09-01",
+     "date_confidence": "the postdoctoral year is reported in a single secondary biography and falls in the same disputed interval as the doctorate; month and day are defaults",
+     "campa": "Rivest pasa un año posdoctoral en el instituto nacional francés de informática de Rocquencourt, en los bosques al oeste de París, antes de cruzar de vuelta para tomar una plaza docente en el MIT. Es el único periodo largo que ninguno de los tres pasa trabajando en Europa, y ninguna fuente consultada dice en qué trabajó allí, ni con quién, ni si volvió con algo. El vacío se consigna como vacío. Llega a Cambridge, Massachusetts, en 1974, dos años antes del artículo de Stanford que decidirá qué hace con los treinta siguientes.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["INRIA at Rocquencourt, Le Chesnay, the postdoctoral year"],
+     "sources": ["History Tools biography of Ron Rivest"]
+    },
+    {
+     "name": "Instituto Tecnológico de Massachusetts, el nombramiento docente",
+     "lat": 42.3593,
+     "lng": -71.0942,
+     "date": "1974-09-01",
+     "date_confidence": "year attested; month and day are defaults. Pin inherited byte-identical from diffie.journey.json and hellman.journey.json",
+     "campa": "Rivest entra en el Departamento de Ingeniería Eléctrica e Informática del MIT, un nombramiento que seguirá teniendo medio siglo después. El atlas ha estado antes en esta coordenada. Whitfield Diffie se licenció aquí y se marchó en 1965; Hellman fue profesor ayudante en esta casa entre 1969 y 1971, y fue en este edificio donde Peter Elias le puso en la mano el artículo de Shannon. Robert Oppenheimer caminó el mismo río cuatro décadas antes, siendo estudiante en Harvard. Cuatro viajeros comparten ya este tramo del Charles.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The MIT Department of Electrical Engineering and Computer Science, appointment of 1974"],
+     "sources": ["MIT CSAIL biography of Ronald Rivest", "diffie.journey.json, stop 'Massachusetts Institute of Technology, the bachelor's degree'", "hellman.journey.json, stop 'Massachusetts Institute of Technology, the Shannon paper from Peter Elias'"]
+    },
+    {
+     "name": "Rehovot, el máster en el Instituto Weizmann",
+     "lat": 31.9074,
+     "lng": 34.8092,
+     "date": "1975-06-01",
+     "date_confidence": "year attested; month and day are defaults. Two coordinates for the Weizmann Institute circulate in the gathered material, 31.9046, 34.8078 and 31.9074, 34.8092; the second is Wikipedia's infobox figure and is used throughout this journey for consistency",
+     "campa": "Shamir hace un máster en informática en el Instituto Weizmann de Ciencias, en Rehovot, en el país de los naranjales al sur de Tel Aviv. Aquí se doctorará también, y después de cuatro años en América volverá a este campus para no dejarlo nunca más. El instituto es el punto fijo de su vida como el MIT lo es de la de Rivest y como la Universidad del Sur de California lo será de la de Adleman. Dos de los tres hombres que compartirán unas siglas pasan su carrera entera en una sola dirección.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The Weizmann Institute of Science, Rehovot, department of applied mathematics"],
+     "sources": ["ACM A. M. Turing Award citation, Adi Shamir", "Encyclopaedia Britannica, 'Adi Shamir'"]
+    },
+    {
+     "name": "Berkeley, el doctorado con Manuel Blum",
+     "lat": 37.8719,
+     "lng": -122.2585,
+     "date": "1976-06-01",
+     "date_confidence": "year attested; month and day are defaults. Pin inherited byte-identical from the atlas's canonical Berkeley coordinate",
+     "campa": "Adleman se doctora en ingeniería eléctrica e informática en Berkeley bajo la dirección de Manuel Blum, y cruza el país para enseñar en el departamento de matemáticas del MIT. Ralph Merkle está terminando en la misma universidad y en los mismos años, con su artículo sobre distribución de claves escrito, rechazado y todavía sin publicar. Adleman llega a Cambridge como teórico de números y sin ningún interés por los códigos. Lo que importa es la cualificación: es a él a quien le pedirán que rompa cosas.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The Berkeley EECS doctorate of 1976, advisor Manuel Blum"],
+     "sources": ["ACM A. M. Turing Award biography, Leonard Adleman", "MacTutor History of Mathematics biography", "ralph_merkle.journey.json, stop 'Berkeley, the bachelor's degree'"]
+    },
+    {
+     "name": "Edificio 2, el departamento de matemáticas del MIT",
+     "lat": 42.3598,
+     "lng": -71.0921,
+     "date": "1976-09-01",
+     "date_confidence": "year attested; month and day are defaults; the department building is inferred from MIT's own numbering, not from a source that places Adleman in a named office",
+     "campa": "Adleman enseña matemáticas en el MIT de 1976 a 1980, y aquí conoce a Rivest, cuyo nombramiento está en el departamento de al lado. La amistad precede al problema. Cuando Rivest empieza a traerle construcciones para que las revise, Adleman las revisa por favor y por juego, como hace un matemático, y encuentra el fallo en cada una de ellas. Todavía nadie llama criptoanálisis a esto. Son dos colegas discutiendo delante de una pizarra, y así siguen durante todo el invierno.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The MIT mathematics department, Building 2, 1976 to 1980"],
+     "sources": ["ACM A. M. Turing Award biography, Leonard Adleman"]
+    }
+   ]
+  },
+  {
+   "name": "Nuevas direcciones y las funciones que se rompen",
+   "stops": [
+    {
+     "name": "Stanford, New Directions in Cryptography",
+     "lat": 37.4275,
+     "lng": -122.1697,
+     "date": "1976-11-01",
+     "date_confidence": "publication month attested; day is a default. Pin inherited byte-identical from hellman.journey.json",
+     "campa": "Diffie y Hellman publican New Directions in Cryptography en las IEEE Transactions on Information Theory, donde describen un cifrado cuya clave de cifra puede hacerse pública y admiten que no tienen ninguna construcción para él. El artículo viaja tres mil millas al este y aterriza en la mesa de Rivest. Lo que Stanford plantea como posibilidad, el MIT lo lee como encargo. La aritmética a la que ambas partes echan mano es la exponenciación modular, que Gauss dejó asentada en las Disquisitiones Arithmeticae en 1801 y que el atlas ya tiene guardada.",
+     "quote": "Este método proporciona una implementación de un \"criptosistema de clave pública\", concepto elegante inventado por Diffie y Hellman. Su artículo motivó nuestra investigación, pues presentaban el concepto pero ninguna implementación práctica de tal sistema.",
+     "quote_source": "Rivest, Shamir, Adleman, 'A Method for Obtaining Digital Signatures and Public-Key Cryptosystems', Communications of the ACM 21(2), febrero de 1978, sección I, p. 121",
+     "suggested_refs": ["Diffie and Hellman, 'New Directions in Cryptography', IEEE Transactions on Information Theory IT-22(6), November 1976"],
+     "sources": ["hellman.journey.json, stop 'Stanford, New Directions in Cryptography'", "Rivest, Shamir, Adleman, CACM 21(2), February 1978, Section I"]
+    },
+    {
+     "name": "545 Technology Square, el artículo leído y las funciones rotas",
+     "lat": 42.3626,
+     "lng": -71.0913,
+     "date": "1976-12-01",
+     "date_confidence": "the reading of Diffie and Hellman is attested; the month is a reconstruction from the publication date and the April 1977 result, and the day is a default",
+     "campa": "En el Laboratorio de Informática, en el edificio de Technology Square, Rivest y Adleman se reparten el trabajo sin acordar reparto alguno. Rivest propone candidatas a función de un solo sentido; Adleman las rompe. Los relatos discrepan sobre cuántas, y la cifra que se repite es cuarenta y dos, que ningún participante consta haber confirmado. Shamir se les une y propone las suyas, que Adleman también rompe. El método no es la deducción. Es un hombre fabricando cerraduras delante de otro cuyo placer entero consiste en forzarlas.",
+     "quote": "Nuestra función de cifrado es la única candidata a \"permutación de un solo sentido con trampa\" que los autores conocen.",
+     "quote_source": "Rivest, Shamir, Adleman, 'A Method for Obtaining Digital Signatures and Public-Key Cryptosystems', Communications of the ACM 21(2), febrero de 1978, sección XI, Conclusiones, p. 133",
+     "suggested_refs": ["The MIT Laboratory for Computer Science at 545 Technology Square, Cambridge"],
+     "sources": ["ACM A. M. Turing Award biographies of Rivest, Shamir, and Adleman", "Steven Levy, Crypto, as relayed in secondary accounts", "Encryption Consulting and Splunk retellings for the count of forty-two, unconfirmed in any primary account"]
+    },
+    {
+     "name": "Rehovot, el doctorado con Zohar Manna",
+     "lat": 31.9074,
+     "lng": 34.8092,
+     "date": "1977-01-01",
+     "date_confidence": "the year 1977 is attested for the Weizmann doctorate; month and day are defaults, and the year sits in direct tension with Shamir's authorship of an MIT technical memo dated April 1977. The contradiction is recorded, not resolved",
+     "campa": "Shamir completa un doctorado en informática en el Instituto Weizmann, en el mismo campus donde hizo el máster, dirigido por Zohar Manna. El año que dan todas las fuentes es 1977, y para abril de ese año su nombre ya figura en un memorando técnico emitido desde un edificio de Cambridge, Massachusetts. Ambos hechos están atestiguados y no conviven cómodamente. El atlas consigna el doctorado en Rehovot, consigna el memorando en Technology Square y se niega a inventar el itinerario que los haría encajar.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The Weizmann Institute doctorate of 1977, advisor Zohar Manna"],
+     "sources": ["Wikipedia, 'Adi Shamir'", "ACM A. M. Turing Award citation, Adi Shamir", "MIT/LCS/TM-82, April 1977, for the conflicting evidence"]
+    },
+    {
+     "name": "Coventry, el año que no encaja",
+     "lat": 52.3793,
+     "lng": -1.561,
+     "date": "1977-01-01",
+     "date_confidence": "reconstruction. A postdoctoral year at Warwick is reported by Britannica and Wikipedia, placed by some accounts before the Weizmann doctorate and by others after it and before MIT. Since Shamir is demonstrably at MIT in April 1977, no ordering reached here works. Month and day are defaults and the year is the least bad of the options",
+     "campa": "Un año de investigación posdoctoral en la Universidad de Warwick aparece en todas las biografías corrientes de Shamir y no encaja en ninguna de ellas. Situado después del doctorado de 1977, choca con el memorando de abril de ese año fechado en Cambridge; situado antes, choca con el máster del Weizmann. La parada se mantiene porque las fuentes la mantienen, y su coordenada es el campus de Coventry. Qué ocurrió en ese año, y en qué año ocurrió, es un agujero en el registro y como agujero se anota aquí.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The University of Warwick, Coventry, computer science, c. 1977"],
+     "sources": ["Encyclopaedia Britannica, 'Adi Shamir'", "Wikipedia, 'Adi Shamir'"]
+    }
+   ]
+  },
+  {
+   "name": "Abril de 1977",
+   "stops": [
+    {
+     "name": "Cambridge, el vino del séder",
+     "lat": 42.3593,
+     "lng": -71.0942,
+     "date": "1977-04-01",
+     "date_confidence": "reconstruction. The Passover evening is told in Steven Levy's Crypto and repeated everywhere from there; no contemporaneous record of it exists. The house is not identified in any source reached, and the coordinate used is the atlas's canonical MIT pin standing in for an unknown Cambridge address, disclosed rather than fabricated",
+     "campa": "Los tres pasan una noche de Pésaj en casa de un estudiante en Cambridge, bebiendo vino, y vuelven a sus casas cerca de la medianoche. Este es el gozne de toda la historia y descansa sobre un solo libro escrito veinticuatro años más tarde. El séder es tradición, no registro. Lo que sí está documentado es el mes: para el cuatro de abril hay un manuscrito escrito, y el artículo que acabará llevando el método al mundo lleva el sello de recibido por su revista en esa misma fecha.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Steven Levy, Crypto (2001), the Passover narrative"],
+     "sources": ["Steven Levy, Crypto, as summarised in secondary accounts", "Wikipedia, 'RSA (cryptosystem)'"]
+    },
+    {
+     "name": "Cambridge, el sofá y el libro de matemáticas",
+     "lat": 42.3593,
+     "lng": -71.0942,
+     "date": "1977-04-02",
+     "date_confidence": "reconstruction, and the date is a placeholder set one day after the seder stop. The residence is not named in any source reached; the canonical MIT coordinate stands in for it, disclosed. The paper is stamped received by Communications of the ACM on 4 April 1977, which bounds the night from the far side",
+     "campa": "Sin poder dormir, Rivest se echa con un libro de matemáticas y trabaja toda la noche sobre una función construida con el producto de dos primos grandes, fácil de calcular en un sentido y, por lo que nadie sabe, desesperada en el otro. Telefonea a Adleman antes del amanecer. Adleman la ataca y no consigue romperla. Al aclarar el día existe casi un artículo entero. Adleman pide que le quiten el nombre de encima, con el argumento de que la invención no es suya; Rivest se niega, y Adleman se conforma con figurar en tercer lugar.",
+     "quote": "Le dije a Ron que quitara mi nombre del artículo. Le dije que la invención era suya, no mía. Pero Ron se negó y nos enzarzamos en una discusión sobre el asunto.",
+     "quote_source": "Leonard Adleman, citado en Simon Singh, The Code Book (1999); texto confirmado en el índice de citas de The Code Book en Goodreads (goodreads.com/work/quotes/1031975-the-code-book)",
+     "suggested_refs": ["Simon Singh, The Code Book (1999), on the authorship of the RSA paper"],
+     "sources": ["Simon Singh, The Code Book (1999)", "Wikipedia, 'RSA (cryptosystem)'", "Steven Levy, Crypto, as relayed in secondary accounts"]
+    },
+    {
+     "name": "545 Technology Square, el memorando MIT LCS TM-82",
+     "lat": 42.3626,
+     "lng": -71.0913,
+     "date": "1977-04-04",
+     "date_confidence": "the journal stamp of 4 April 1977 is printed on the published paper; the technical memorandum itself is dated April 1977 without a day",
+     "campa": "El primer relato escrito del método sale del Laboratorio de Informática como memorando técnico MIT LCS TM-82, titulado On Digital Signatures and Public-Key Crypto-Systems. No se envía a ningún financiador para su aprobación ni es una entrega a revista alguna. Se manda gratis a quien le remita a Rivest un sobre con su propia dirección. Algunos relatos lo describen como un informe presentado a la Oficina de Investigación Naval, que financiaba el trabajo de fondo; la marina era pagadora, no destinataria.",
+     "quote": "Agradecemos a Martin Hellman, Richard Schroeppel, Abraham Lempel y Roger Needham sus provechosas conversaciones, y a Wendy Glasser su ayuda en la preparación del manuscrito inicial. Xerox PARC prestó apoyo y unas instalaciones maravillosas de edición de textos para preparar el manuscrito final.",
+     "quote_source": "Rivest, Shamir, Adleman, 'A Method for Obtaining Digital Signatures and Public-Key Cryptosystems', Communications of the ACM 21(2), febrero de 1978, Agradecimientos, p. 134; el artículo consta recibido el 4 de abril de 1977 y revisado el 1 de septiembre de 1977",
+     "suggested_refs": ["MIT/LCS/TM-82, 'On Digital Signatures and Public-Key Crypto-Systems', April 1977"],
+     "sources": ["MIT/LCS/TM-82, MIT Laboratory for Computer Science, April 1977", "Rivest, Shamir, Adleman, CACM 21(2), 1978, received-date stamp"]
+    },
+    {
+     "name": "Fort George G. Meade, la carta de Joseph A. Meyer",
+     "lat": 39.1082,
+     "lng": -76.7719,
+     "date": "1977-07-01",
+     "date_confidence": "the letter is dated July 1977. Whether the RSA team was among its intended targets is not attested anywhere reached; the connection drawn here is between two events of the same summer, and is a reconstruction. Pin inherited byte-identical from diffie.journey.json and hellman.journey.json",
+     "campa": "Un empleado de la Agencia de Seguridad Nacional llamado Joseph A. Meyer escribe al IEEE advirtiendo de que publicar y exportar artículos de criptografía podría acarrear cárcel. El atlas ha registrado ya esta carta para Diffie y para Hellman. Está escrita el mismo mes en que los editores de Martin Gardner componen la columna que describirá el método del MIT a medio millón de lectores. La objeción de la agencia va contra la literatura abierta entera, y el artículo del MIT es parte de aquello a lo que objeta.",
+     "quote": "Es mala política reprimir indiscriminadamente una tecnología solo porque algunos criminales puedan usarla en su provecho. Cualquier ciudadano estadounidense puede comprar libremente un par de guantes, aunque un ladrón pueda servirse de ellos para saquear una casa sin dejar huellas. La criptografía es una tecnología de protección de datos, igual que los guantes son una tecnología de protección de las manos.",
+     "quote_source": "Ronald Rivest, citado en Simon Singh, The Code Book (1999); texto tomado del índice de citas de The Code Book en Goodreads (goodreads.com/work/quotes/1031975-the-code-book), no de la edición impresa",
+     "suggested_refs": ["The Meyer letter to the IEEE, July 1977"],
+     "sources": ["diffie.journey.json and hellman.journey.json, stop 'Fort George G. Meade, the letter from Joseph A. Meyer'", "Computer History Museum oral history X6076.2011"]
+    },
+    {
+     "name": "Nueva York, la columna de Martin Gardner",
+     "lat": 40.7566,
+     "lng": -73.9752,
+     "date": "1977-08-01",
+     "date_confidence": "issue month attested from the column itself; day is a default. The coordinate is Scientific American's editorial address at 415 Madison Avenue; one set of gathered material placed the offices at 40.7484, -73.9857, which is the Empire State Building, and is not used",
+     "campa": "Martin Gardner dedica Mathematical Games a una nueva clase de cifrado, y el método sale para siempre de la sala de seminarios. Gardner imprime un número de ciento veintinueve dígitos, ofrece cien dólares a quien lo factorice y transmite la estimación de los inventores de que el trabajo llevaría del orden de cuarenta mil billones de años. Rivest suministra el reto y la frase cifrada que hay detrás. La columna es también la razón de que la patente, cuando se conceda, no tenga validez alguna fuera de los Estados Unidos.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Martin Gardner, 'Mathematical Games', Scientific American, August 1977"],
+     "sources": ["Scientific American, August 1977, column PDF archived at www2.math.upenn.edu", "Wikipedia, 'RSA numbers'", "Wikipedia, 'RSA (cryptosystem)'"]
+    },
+    {
+     "name": "Universidad de Cornell, la temporada de simposios",
+     "lat": 42.4534,
+     "lng": -76.4735,
+     "date": "1977-10-01",
+     "date_confidence": "reconstruction. The IEEE International Symposium on Information Theory at Cornell in October 1977 is attested, and Hellman's reading of his students' papers there is attested; no source reached places any of Rivest, Shamir, or Adleman in the room. Month attested, day a default",
+     "campa": "En el simposio de teoría de la información de Ithaca, Hellman se pone en el atril y lee en voz alta los artículos conjuntos de Merkle y de Stephen Pohlig, con el razonamiento de que un catedrático con plaza fija sobrevive a un proceso y un estudiante de doctorado no. No hay proceso alguno. El método del MIT circula ese mismo otoño entre las mismas pocas centenas de personas. Si alguien de Cambridge estuvo en Cornell no consta, y la parada se mantiene como marca de la estación y no como afirmación sobre una sala.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The 1977 IEEE International Symposium on Information Theory, Cornell University"],
+     "sources": ["hellman.journey.json, stop 'Cornell University, the two papers read for the students'", "Computer History Museum oral history X6076.2011"]
+    },
+    {
+     "name": "Washington D.C., la segunda patente de clave pública",
+     "lat": 38.9186,
+     "lng": -77.0367,
+     "date": "1977-12-14",
+     "date_confidence": "filing date recorded on the patent itself. The pin is the atlas's canonical Washington patent coordinate, inherited byte-identical from hellman.journey.json; it stands for the office, not for a visit by any inventor",
+     "campa": "El MIT presenta Cryptographic Communications System and Method, a nombre de Rivest, Shamir y Adleman. Stanford había presentado la solicitud de Diffie, Hellman y Merkle el seis de septiembre del mismo año, noventa y nueve días antes. Las dos patentes fundadoras de la criptografía de clave pública llegan a la misma oficina en un solo otoño, desde dos universidades rivales, describiendo dos mitades de una misma idea. Ninguno de los dos grupos de inventores eligió el calendario, y la colisión tardará quince años y un pleito de regalías en resolverse.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["US Patent 4,405,829, filed 14 December 1977"],
+     "sources": ["US Patent 4,405,829, filing record, archived at cr.yp.to", "hellman.journey.json, stop 'Washington, D.C., the patent filed and the patent granted'"]
+    }
+   ]
+  },
+  {
+   "name": "El método publicado, el trío disperso",
+   "stops": [
+    {
+     "name": "545 Technology Square, el método en Communications of the ACM",
+     "lat": 42.3626,
+     "lng": -71.0913,
+     "date": "1978-02-01",
+     "date_confidence": "issue month attested; day is a default. The manuscript is stamped received 4 April 1977 and revised 1 September 1977",
+     "campa": "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems aparece en Communications of the ACM: siete páginas que le dan al algoritmo su nombre y su forma definitivos. El resumen abre por la propiedad que lo vuelve extraño, que la clave pueda publicarse. El artículo acredita a Diffie y a Hellman por su nombre como autores del concepto en su primera sección, da las gracias a Hellman en los agradecimientos e invita al lector a atacarlo. Xerox PARC prestó las máquinas de edición de textos con las que se compuso el manuscrito final.",
+     "quote": "Se presenta un método de cifrado con la novedosa propiedad de que revelar públicamente una clave de cifrado no revela por ello la clave de descifrado correspondiente.",
+     "quote_source": "R. L. Rivest, A. Shamir, L. Adleman, 'A Method for Obtaining Digital Signatures and Public-Key Cryptosystems', Communications of the ACM 21(2), febrero de 1978, p. 120, primera frase del resumen; texto tomado de people.csail.mit.edu/rivest/Rsapaper.pdf",
+     "suggested_refs": ["Communications of the ACM 21(2), February 1978, pp. 120 to 126"],
+     "sources": ["Rivest, Shamir, Adleman, CACM 21(2), February 1978, fetched as PDF from people.csail.mit.edu/rivest/Rsapaper.pdf"]
+    },
+    {
+     "name": "545 Technology Square, How to Share a Secret",
+     "lat": 42.3626,
+     "lng": -71.0913,
+     "date": "1979-11-01",
+     "date_confidence": "issue month and pages attested, Communications of the ACM 22(11), pp. 612 to 613. The place is corrected: part of the gathered material filed this at the Weizmann Institute, where Shamir does not arrive until 1980",
+     "campa": "Shamir, todavía en el MIT, publica How to Share a Secret: un secreto se codifica como un polinomio, a cada depositario se le entrega un punto de él, y un número suficiente de ellos reunidos recupera la curva mientras que cualquier número menor no averigua absolutamente nada. Es su segunda invención permanente y no tiene nada que ver con la primera. George Blakley llega ese mismo año a un resultado equivalente por geometría, de forma independiente. Dos hombres dan a la vez con el reparto de secretos por umbral, como tres hombres dieron con la clave pública en cuatro años.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Adi Shamir, 'How to Share a Secret', Communications of the ACM 22(11), November 1979"],
+     "sources": ["Communications of the ACM 22(11), 1979, pp. 612 to 613", "Wikipedia, 'Shamir's secret sharing'"]
+    },
+    {
+     "name": "Los Ángeles, Adleman a la Universidad del Sur de California",
+     "lat": 34.0224,
+     "lng": -118.2851,
+     "date": "1980-09-01",
+     "date_confidence": "year attested; month and day are defaults",
+     "campa": "Adleman deja el MIT por la facultad de informática de la Universidad del Sur de California, y se queda treinta y seis años. Ocupará al mismo tiempo una cátedra de informática y otra de biología molecular, y conservará ambas hasta jubilarse en 2016. El trío mide ahora tres mil millas de ancho. Los cuatro años en que los tres estuvieron a distancia de paseo unos de otros se han terminado, y fueron los cuatro años que produjeron las siglas. Ninguno de ellos volverá a trabajar en la misma ciudad que los otros dos.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The USC Viterbi School of Engineering faculty profile of Leonard Adleman"],
+     "sources": ["ACM A. M. Turing Award biography, Leonard Adleman", "USC Viterbi faculty profile"]
+    },
+    {
+     "name": "Rehovot, Shamir vuelve al Instituto Weizmann",
+     "lat": 31.9074,
+     "lng": 34.8092,
+     "date": "1980-09-01",
+     "date_confidence": "year attested; month and day are defaults",
+     "campa": "Shamir deja Cambridge y entra en la facultad del Instituto Weizmann, el campus donde cursó sus dos títulos de posgrado, y trabaja allí el resto de su carrera. Desde esta dirección pasará cuarenta años desmontando las construcciones ajenas. La mochila de Merkle y Hellman cae en 1982, y el Estándar de Cifrado de Datos cede ante el criptoanálisis diferencial en 1990. De los tres inventores es el que da la vuelta al oficio y lo apunta contra la cosa misma que ayudó a levantar.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The Weizmann Institute of Science, faculty of mathematics and computer science, 1980 onward"],
+     "sources": ["ACM A. M. Turing Award citation, Adi Shamir", "Encyclopaedia Britannica, 'Adi Shamir'"]
+    },
+    {
+     "name": "Redwood City, RSA Data Security",
+     "lat": 37.4852,
+     "lng": -122.2364,
+     "date": "1982-01-01",
+     "date_confidence": "founding year attested; month and day are defaults. The company is reported to have started in Adleman's apartment, whose city no source reached specifies; the pin used is the atlas's canonical RSA Data Security coordinate from hellman.journey.json rather than a guessed address",
+     "campa": "Los tres inventores constituyen RSA Data Security para licenciar la patente que el MIT posee. Empieza, según las historias de la propia empresa, en el apartamento de Adleman. Se convierte en la firma que el atlas ya conoce desde el otro lado, la que acredita a Diffie, Hellman y Merkle como inventores de la criptografía de clave pública en su propio papel timbrado mientras vende la implementación de Rivest, Shamir y Adleman. Jim Bidzos entra como director ejecutivo en 1986, con la compañía al borde de la quiebra, y la conserva trece años.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["RSA Data Security Inc., incorporated 1982"],
+     "sources": ["FundingUniverse, 'History of RSA Security Inc.'", "Wikipedia, 'RSA Security'", "hellman.journey.json, stop 'Redwood City, the royalty dispute'"]
+    },
+    {
+     "name": "Rehovot, la mochila rota",
+     "lat": 31.9074,
+     "lng": 34.8092,
+     "date": "1982-04-01",
+     "date_confidence": "the result is dated to 1982 and presented at the Symposium on Foundations of Computer Science that November; the month given here is the announcement and is a reconstruction, the day a default",
+     "campa": "Shamir anuncia un algoritmo en tiempo polinómico que rompe el criptosistema de mochila de Merkle y Hellman, el primer esquema de clave pública distinto del suyo en caer del todo. Ralph Merkle había ofrecido cien dólares a quien lo consiguiera, y paga. El atlas guarda ya la mochila, en Stanford, como obra de Merkle y de Hellman. Cuatro años después de su publicación, uno de los tres hombres cuyo método sobrevivió desarma el método rival. La mochila no se vuelve a usar.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Andrew Odlyzko, 'The Rise and Fall of Knapsack Cryptosystems'"],
+     "sources": ["Odlyzko, 'The Rise and Fall of Knapsack Cryptosystems'", "hellman.journey.json, stop 'Stanford, the knapsack'", "ralph_merkle.journey.json"]
+    },
+    {
+     "name": "Washington D.C., concedida la patente 4.405.829",
+     "lat": 38.9186,
+     "lng": -77.0367,
+     "date": "1983-09-20",
+     "date_confidence": "grant date attested on the patent. Pin inherited byte-identical from hellman.journey.json",
+     "campa": "Cryptographic Communications System and Method se concede al MIT, cinco años y nueve meses después de presentada. Como Martin Gardner ya había descrito el método a los lectores de una revista en agosto de 1977, la invención era pública antes que la solicitud, y la patente no tiene fuerza en ningún sitio fuera de los Estados Unidos. El método queda protegido en un país y libre en todos los demás, y en el único país que lo tiene la protección caduca en el año 2000, diecisiete años más tarde.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["US Patent 4,405,829, granted 20 September 1983"],
+     "sources": ["US Patent and Trademark Office record for 4,405,829", "Wikipedia, 'RSA (cryptosystem)'", "hellman.journey.json, stop 'Washington, D.C., the patent filed and the patent granted'"]
+    },
+    {
+     "name": "Los Ángeles, el término virus informático",
+     "lat": 34.0224,
+     "lng": -118.2851,
+     "date": "1983-11-10",
+     "date_confidence": "Fred Cohen's own account dates the conception to 3 November 1983 and the demonstration to the weekly security seminar on 10 November 1983. Some retellings misplace the demonstration at Lehigh University; Cohen was Adleman's doctoral student at USC and both men place it there",
+     "campa": "Fred Cohen, doctorando de Adleman, demuestra un programa autorreplicante ante el seminario semanal de seguridad informática. Adleman, que al mismo tiempo dirige experimentos sobre el VIH en un laboratorio de biología molecular al otro lado del campus, oye la descripción y aporta la analogía que trae de su otra mesa de trabajo. El nombre se le queda pegado a la cosa para siempre. Uno de los tres hombres que hicieron posible la comunicación segura bautizó también la enfermedad que viajaría por ella.",
+     "quote": "en algún momento de nuestras conversaciones empecé a llamar virus informáticos a estas cosas.",
+     "quote_source": "Leonard Adleman, entrevistado por WeLiveSecurity (ESET), 'Professor Len Adleman explains how he coined the term computer virus', welivesecurity.com, 1 de noviembre de 2017",
+     "suggested_refs": ["Fred Cohen, 'Computer Viruses: Theory and Experiments', on the November 1983 seminar"],
+     "sources": ["WeLiveSecurity interview with Leonard Adleman, 1 November 2017", "Fred Cohen, 'Computer Viruses: Theory and Experiments'", "USC Viterbi, 'Computer Virus: An Origin Story'"]
+    }
+   ]
+  },
+  {
+   "name": "El oficio de los cifrados",
+   "stops": [
+    {
+     "name": "Santa Bárbara, el esquema Fiat-Shamir",
+     "lat": 34.414,
+     "lng": -119.8489,
+     "date": "1986-08-01",
+     "date_confidence": "conference year attested; CRYPTO is held in August, and the month is inferred from the conference's regular schedule, the day a default",
+     "campa": "En el congreso CRYPTO, en el campus de Santa Bárbara, Amos Fiat y Shamir presentan How to Prove Yourself, un método por el cual una parte convence a otra de que posee un secreto sin revelar ninguna parte del secreto. El truco de convertir esa interacción en una firma sustituyendo al verificador por una función resumen seguirá en uso diario cuarenta años después, bajo sus dos nombres. Shamir tiene ya tres invenciones permanentes y solo la primera de ellas es compartida.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Fiat and Shamir, 'How to Prove Yourself', CRYPTO '86 proceedings"],
+     "sources": ["CRYPTO 1986 proceedings", "Wikipedia, 'Feige-Fiat-Shamir identification scheme'"]
+    },
+    {
+     "name": "Santa Bárbara, el criptoanálisis diferencial",
+     "lat": 34.414,
+     "lng": -119.8489,
+     "date": "1990-08-01",
+     "date_confidence": "presented at CRYPTO '90 in August 1990; the journal version follows in the Journal of Cryptology in 1991. Day is a default",
+     "campa": "Eli Biham y Shamir presentan Differential Cryptanalysis of DES-like Cryptosystems, el primer método general publicado para atacar un cifrado por bloques alimentándolo con pares de entradas escogidas y observando cómo se propaga la diferencia entre ellas. Funciona contra casi todos los cifrados entonces en uso salvo el Estándar de Cifrado de Datos, cuyos diseñadores, según se descubre, conocían el ataque en 1974 y habían construido el estándar en silencio para resistirlo. La literatura abierta alcanza a la cerrada con dieciséis años de retraso.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Biham and Shamir, 'Differential Cryptanalysis of DES-like Cryptosystems', CRYPTO '90"],
+     "sources": ["CRYPTO 1990 proceedings", "Journal of Cryptology, 1991"]
+    },
+    {
+     "name": "San Francisco, el primer congreso RSA",
+     "lat": 37.7842,
+     "lng": -122.4016,
+     "date": "1991-01-01",
+     "date_confidence": "founding year attested; month and day are defaults. The Moscone Center coordinate is the venue of the conference's later decades, not of the first meeting of about fifty people",
+     "campa": "Jim Bidzos reúne a unos cincuenta criptógrafos para discutir de estándares, y la reunión se hace anual. Crece hasta ser la mayor congregación de seguridad del mundo, decenas de miles de personas en las salas del Moscone, con el nombre de un algoritmo que tres académicos escribieron en una primavera de Cambridge. Los hombres cuyas iniciales están en la pancarta no son sus organizadores. Ese mismo año los Laboratorios RSA abren el Desafío de Factorización, con premios de hasta doscientos mil dólares para quien deshaga la aritmética.",
+     "quote": "La seguridad del sistema descansa en parte sobre la dificultad de factorizar el divisor publicado, n.",
+     "quote_source": "Rivest, Shamir, Adleman, 'A Method for Obtaining Digital Signatures and Public-Key Cryptosystems', Communications of the ACM 21(2), febrero de 1978, p. 120, resumen",
+     "suggested_refs": ["The first RSA Conference, 1991, and the RSA Factoring Challenge"],
+     "sources": ["Wikipedia, 'RSA Conference'", "Cybersecurity Ventures, 'Luminary Cryptographers Reminisce About The First RSA Conference'", "Wikipedia, 'RSA Factoring Challenge'"]
+    },
+    {
+     "name": "Morristown, las palabras mágicas",
+     "lat": 40.7968,
+     "lng": -74.4815,
+     "date": "1994-04-26",
+     "date_confidence": "the factorisation completed 26 April 1994. The Bellcore coordinate is the coordinating site; the computation itself ran on some 1,600 machines operated by more than 600 volunteers on four continents and has no single place",
+     "campa": "Ocho meses de tiempo de máquina donado, coordinados por Derek Atkins, Michael Graff, Arjen Lenstra y Paul Leyland, terminan el número que Gardner imprimió diecisiete años antes. La estimación ofrecida en 1977 era del orden de cuarenta mil billones de años. El texto claro, escogido por Rivest como una frase que ningún ataque de diccionario adivinaría, sale intacto de la aritmética. El método no ha fallado. Su seguridad es una cantidad, medida en dígitos, y la cantidad tiene que seguir subiendo.",
+     "quote": "LAS PALABRAS MÁGICAS SON QUEBRANTAHUESOS REMILGADO",
+     "quote_source": "Texto claro del cifrado del reto RSA-129 planteado por Rivest y publicado en la columna de Martin Gardner en Scientific American, agosto de 1977, recuperado por Atkins, Graff, Lenstra y Leyland en abril de 1994; el original dice THE MAGIC WORDS ARE SQUEAMISH OSSIFRAGE",
+     "suggested_refs": ["Atkins, Graff, Lenstra, and Leyland, 'The Magic Words are Squeamish Ossifrage' (1994)"],
+     "sources": ["Atkins, Graff, Lenstra, Leyland, 'The Magic Words are Squeamish Ossifrage'", "Wikipedia, 'RSA numbers'", "johndcook.com on Martin Gardner's RSA column"]
+    },
+    {
+     "name": "Los Ángeles, el camino hamiltoniano en un tubo de ensayo",
+     "lat": 34.0224,
+     "lng": -118.2851,
+     "date": "1994-11-11",
+     "date_confidence": "publication date of the Science paper, vol. 266, pp. 1021 to 1024",
+     "campa": "Adleman publica Molecular Computation of Solutions to Combinatorial Problems en Science: un problema de camino hamiltoniano de siete nodos resuelto por hebras de ADN dentro de un tubo, con la respuesta seleccionada del caldo por la química del emparejamiento de bases y no calculada por procesador alguno. Funda un segundo campo a los cuarenta y ocho años. El hombre que rompía por gusto las construcciones de Rivest dedica su segunda carrera a demostrar que la computación no requiere un computador, en una mesa contigua a aquella en la que cultivaba virus.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["L. M. Adleman, Science 266 (11 November 1994), pp. 1021 to 1024"],
+     "sources": ["Science, vol. 266, 1994", "USC Viterbi Illumin, 'DNA Computing'", "Wikipedia, 'Leonard Adleman'"]
+    },
+    {
+     "name": "Cheltenham, la prioridad desclasificada",
+     "lat": 51.8994,
+     "lng": -2.1258,
+     "date": "1997-01-01",
+     "date_confidence": "the 1997 declassification is attested and the internal document is dated 1973; month and day are defaults. Pin inherited byte-identical from hellman.journey.json",
+     "campa": "La inteligencia de señales británica hace público un escrito redactado en Cheltenham en 1973 por un matemático llamado Clifford Cocks, A Note on Non-Secret Encryption, que describe la misma construcción cuatro años antes que Cambridge. Había estado clasificado veinticuatro años. De haberse sabido, la patente estadounidense habría sido inválida de plano. El atlas ha estado en esta coordenada por Diffie y por Hellman, cuya prioridad desplazó también la misma desclasificación. Dos descubrimientos abiertos resultan haberse hecho dos veces, y el primero se hizo en silencio.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Clifford Cocks, 'A Note on Non-Secret Encryption', GCHQ, 20 November 1973, declassified 1997"],
+     "sources": ["Wikipedia, 'RSA (cryptosystem)'", "hellman.journey.json, stop 'Cheltenham, the classified priority'"]
+    },
+    {
+     "name": "Bedford, la patente liberada antes de tiempo",
+     "lat": 42.4906,
+     "lng": -71.2762,
+     "date": "2000-09-06",
+     "date_confidence": "attested exactly; the patent's own expiry was 20 September 2000",
+     "campa": "RSA Security pone el algoritmo en el dominio público quince días antes de que la patente hubiera caducado por sí sola, con lo que termina la exigencia de licencia dos semanas antes de tiempo y se queda con el gesto en lugar de con la quincena. Desde esta fecha el método pertenece a todos. Es ya para entonces la aritmética que sostiene una fracción grande del comercio que se hace por internet, y los veintitrés años de monopolio de que gozó valieron exactamente en un país, aquel cuya oficina de patentes lo concedió.",
+     "quote": "Puede que la era del \"correo electrónico\" esté por llegar; hemos de asegurarnos de que se conserven dos propiedades importantes del actual sistema de \"correo en papel\": (a) que los mensajes sean privados y (b) que los mensajes puedan firmarse.",
+     "quote_source": "Rivest, Shamir, Adleman, 'A Method for Obtaining Digital Signatures and Public-Key Cryptosystems', Communications of the ACM 21(2), febrero de 1978, sección I, p. 121",
+     "suggested_refs": ["RSA Security's release of US Patent 4,405,829 into the public domain, 6 September 2000"],
+     "sources": ["CNN.com, 'RSA releases computer security patent', 7 September 2000", "Wikipedia, 'RSA (cryptosystem)'"]
+    }
+   ]
+  },
+  {
+   "name": "El premio y el largo después",
+   "stops": [
+    {
+     "name": "San Francisco, el premio Turing y las tres leyes",
+     "lat": 37.7887,
+     "lng": -122.4018,
+     "date": "2003-06-01",
+     "date_confidence": "the award is for 2002 and was presented at the ACM Awards Banquet in June 2003 per the AMS Notices of July 2003; a contemporaneous report of Shamir's Turing lecture dates the lecture to June 2002. The two datings are left standing against each other. The venue is unconfirmed and the pin is inherited byte-identical from diffie.journey.json and hellman.journey.json",
+     "campa": "La Association for Computing Machinery les da a los tres un solo premio Turing, por su ingeniosa contribución a hacer útil en la práctica la criptografía de clave pública. Shamir aprovecha su conferencia para enunciar tres leyes de la seguridad, de las cuales la tercera es la que la gente repite. Trece años más tarde la misma asociación da el mismo premio a Diffie y a Hellman por el artículo que los puso a los tres en marcha. El segundo de los dos galardones va a los hombres que tuvieron la idea antes.",
+     "quote": "A la criptografía, por lo común, no se la penetra: se la esquiva.",
+     "quote_source": "Adi Shamir, tercera de sus tres leyes de la seguridad, conferencia del premio Turing; recogida literalmente en un informe contemporáneo en financialcryptography.com/mt/archives/000147.html, que fecha la conferencia en junio de 2002. Se trata de una crónica de la conferencia, no de una transcripción oficial de la ACM",
+     "suggested_refs": ["The 2002 A. M. Turing Award citation and Shamir's three laws of security"],
+     "sources": ["ACM A. M. Turing Award citation, awards.acm.org", "AMS Notices, July 2003", "financialcryptography.com archive 000147", "hellman.journey.json, stop 'San Francisco, the Turing Award banquet'"]
+    },
+    {
+     "name": "Takoma Park, la papeleta que puede comprobarse",
+     "lat": 38.9779,
+     "lng": -77.0075,
+     "date": "2009-11-03",
+     "date_confidence": "election date attested. Rivest's specific role in the deployment is reported by the USENIX Security 2010 paper on the election; the extent of his personal presence in Takoma Park is not attested and is not claimed here",
+     "campa": "Scantegrity II, un sistema de voto verificable de extremo a extremo diseñado por Rivest con David Chaum y otros, gobierna una elección municipal vinculante en un pueblo de Maryland de diecisiete mil habitantes, el primer uso gubernamental de un sistema en el que el votante puede confirmar que su propio voto fue contado sin poder demostrarle a nadie más en qué sentido lo emitió. Se usa de nuevo en 2011. La obra tardía del hombre que hizo computable el secreto es una máquina para volver comprobable un secreto.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["USENIX Security 2010, 'Scantegrity II municipal election at Takoma Park'"],
+     "sources": ["USENIX Security 2010 paper on the Takoma Park election", "MIT CSAIL faculty page for Ronald Rivest"]
+    },
+    {
+     "name": "MIT Stata Center, la cátedra de Institute Professor",
+     "lat": 42.3623,
+     "lng": -71.0908,
+     "date": "2015-06-01",
+     "date_confidence": "announced June 2015, effective the following July; day is a default. The laboratory left Technology Square for the Stata Center in 2004",
+     "campa": "El MIT nombra a Rivest Institute Professor, el rango más alto que concede la universidad y que menos de treinta personas han tenido en toda su historia. Lleva cuarenta y un años en esta facultad. El laboratorio se mudó del edificio de Technology Square en 2004 al Stata Center, a cuatrocientos metros de donde se puso por escrito la aritmética de la noche del séder, de modo que la dirección cambia y el paseo no. Sigue trabajando en criptografía y en cómo contar votos.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["MIT news release naming Ronald Rivest an Institute Professor, June 2015"],
+     "sources": ["MIT CSAIL news release, June 2015", "Wikipedia, 'MIT Computer Science and Artificial Intelligence Laboratory'"]
+    },
+    {
+     "name": "Tokio, el Premio Japón",
+     "lat": 35.6817,
+     "lng": 139.7433,
+     "date": "2017-04-01",
+     "date_confidence": "award year attested; the presentation ceremony is held in April at the National Theatre and the day is a default. The coordinate is the National Theatre of Japan at 4-1 Hayabusacho, Chiyoda; one set of gathered material gave 35.6852, 139.7528, which falls inside the Imperial Palace grounds",
+     "campa": "Shamir recibe el Premio Japón en el Teatro Nacional de Tokio, nueve años después del Premio Israel y quince después del Turing. Es el más condecorado de los tres y el único que dedicó su carrera a atacar cifrados además de a fabricarlos. Los honores llegan de cuatro países y se conceden, en todas las menciones, por las mismas cuarenta y ocho horas de un abril, en una ciudad en la que llevaba viviendo menos de un año y que dejaría tres años después.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The Japan Prize Foundation laureate page for Adi Shamir, 2017"],
+     "sources": ["Japan Prize Foundation laureate page, 2017", "Wikipedia, 'Adi Shamir'", "Wolf Foundation biography of Adi Shamir"]
+    },
+    {
+     "name": "Alexandria, el Salón Nacional de la Fama de los Inventores",
+     "lat": 38.8014,
+     "lng": -77.0639,
+     "date": "2018-05-01",
+     "date_confidence": "induction year attested from the invent.org inductee pages; month and day are defaults. Pin inherited byte-identical from diffie.journey.json and hellman.journey.json, and it is the museum on the Patent and Trademark Office campus, not the ceremony, which was held in Washington. One stray snippet dates the induction 2003 and is not used",
+     "campa": "Rivest, Shamir y Adleman ingresan en el Salón Nacional de la Fama de los Inventores por la patente 4.405.829. Diffie, Hellman y Merkle habían ingresado aquí en 2011, siete años antes que ellos, por la patente presentada noventa y nueve días antes. El atlas vuelve por segunda vez a la coordenada, ahora con la otra mitad de la pareja. Seis hombres están en la pared de un museo por dos documentos que describen una sola cosa, y uno de los seis la tuvo cuatro años antes que todos ellos y no pudo decirlo.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The National Inventors Hall of Fame museum, 600 Dulany Street, Alexandria"],
+     "sources": ["invent.org inductee pages for Rivest, Shamir, and Adleman", "hellman.journey.json, stop 'Alexandria, the National Inventors Hall of Fame'", "diffie.journey.json"]
+    },
+    {
+     "name": "San Francisco, la mesa redonda sobre criptomonedas",
+     "lat": 37.7749,
+     "lng": -122.4194,
+     "date": "2025-04-29",
+     "date_confidence": "attested exactly; the panel was held Tuesday 29 April 2025 at the RSA Conference and reported the same week by Decrypt and The Register. Part of the gathered material dated this remark 2022, which is wrong",
+     "campa": "En el congreso que lleva sus iniciales, a los setenta y dos años, Shamir se sienta en una mesa redonda y dice lo que piensa de la industria que llevó su aritmética más lejos. Añade que nadie la usa para pagar, que la gente compra una vez para especular y que todo está muy centralizado en un puñado de casas de cambio enormes. La sala lleva el nombre del algoritmo, y el público que la ocupa trabaja en un oficio que el algoritmo hizo posible. El hombre que dice esto rompió más cifrados de los que construyó.",
+     "quote": "En mi opinión personal, al mundo le habría ido mejor sin las criptomonedas.",
+     "quote_source": "Adi Shamir, mesa redonda del RSA Conference, San Francisco, 29 de abril de 2025, citado en Decrypt, 'Cryptography Pioneer Adi Shamir: World Would Be Better Without Cryptocurrencies' (decrypt.co/317115), publicado el 30 de abril de 2025",
+     "suggested_refs": ["The RSA Conference 2025 cryptographers' panel, 29 April 2025"],
+     "sources": ["Decrypt, 30 April 2025", "The Register, 29 April 2025"]
+    },
+    {
+     "name": "Cambridge, Rehovot, Los Ángeles: tres direcciones y ninguna tumba",
+     "lat": 42.3593,
+     "lng": -71.0942,
+     "date": "2026-01-01",
+     "date_confidence": "status at the time of research, August 2026; the date is the atlas convention for living subjects. The coordinate is the canonical MIT pin, standing for the only address the three of them ever shared",
+     "campa": "Los tres viven mientras se escribe este viaje. Rivest es Institute Professor en el MIT, Shamir está en el Instituto Weizmann, Adleman se jubiló de la Universidad del Sur de California en 2016 como profesor emérito. No hay tumba que visitar y no se ha encontrado placa alguna para la noche de abril de 1977; ninguna fuente consultada nombra un monumento, una sala ni una casa. El monumento es un cálculo que unos miles de millones de veces al día ejecutan máquinas que no saben de quién es. La ausencia de una piedra se consigna aquí como ausencia.",
+     "quote": "Se invita al lector a encontrar la manera de \"romper\" el sistema.",
+     "quote_source": "R. L. Rivest, A. Shamir, L. Adleman, 'A Method for Obtaining Digital Signatures and Public-Key Cryptosystems', Communications of the ACM 21(2), febrero de 1978, sección XI, Conclusiones, p. 133",
+     "suggested_refs": ["The three surviving addresses: MIT, the Weizmann Institute, and USC"],
+     "sources": ["MIT CSAIL faculty page for Ronald Rivest", "Weizmann Institute faculty listing for Adi Shamir", "USC Viterbi faculty profile for Leonard Adleman"]
+    }
+   ]
+  }
+ ]
+}
