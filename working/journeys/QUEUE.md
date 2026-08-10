@@ -700,3 +700,19 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Jay Gould** | railroad speculator with the worst reputation of the Gilded Age, cornered the US gold market in the Black Friday panic of 1869 |
 | 0 | **Charles Dickens** | English novelist of Oliver Twist and Great Expectations, a childhood spent laboring in a blacking factory that shaped a career of writing London's poor and its debtors' prisons; joins cervantes already queued in filling the corpus's literature gap |
 | 0 | **Honoré de Balzac** | French novelist of La Comédie Humaine's nearly hundred interlinked works, drank prodigious quantities of coffee to keep writing through the night, died of the strain at 51; joins charles_dickens just queued |
+
+## The most literal journeys (2026-08-10)
+
+Proposed by El Gólem: space exploration and polar exploration are the most
+literal possible fit for an atlas of journeys and were entirely absent.
+Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Yuri Gagarin** | Soviet cosmonaut, first human in space, a single orbit of Earth in Vostok 1 on 12 April 1961; the most literal journey the corpus could carry, entirely absent until now |
+| 0 | **Neil Armstrong** | American astronaut, first human to walk on the Moon, Apollo 11 in July 1969; joins yuri_gagarin just queued |
+| 0 | **Ernest Shackleton** | British polar explorer, the Endurance crushed by pack ice in Antarctica, an 800-mile open-boat journey to South Georgia to save his entire crew, not one man lost |
+| 0 | **Roald Amundsen** | Norwegian polar explorer, first to reach the South Pole in 1911, first to navigate the Northwest Passage, disappeared in 1928 searching for a downed airship in the Arctic |
+| 0 | **Robert Falcon Scott** | British polar explorer, reached the South Pole in 1912 only to find amundsen just queued had beaten him by weeks, died with his party on the return march |
+| 0 | **Ferdinand Magellan** | Portuguese navigator whose expedition completed the first circumnavigation of the globe, killed partway through in the Philippines and never completed the voyage himself |
+| 0 | **Kenneth Lay** | founder and CEO of Enron, whose 2001 collapse remains one of the largest corporate fraud cases in history; died of a heart attack before sentencing; joins the corpus's fraud material (bernie_madoff, charles_ponzi already queued) |
