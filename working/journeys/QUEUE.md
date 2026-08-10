@@ -571,5 +571,14 @@ Satoshi Nakamoto and Pierre Curie.
 | 0 | **Hylas** | Roman pantomime dancer, freedman pupil and rival of Pylades of Cilicia just queued; their factional rivalry set Roman crowds against each other badly enough to provoke real riots |
 | 0 | **Mnester** | Roman pantomime dancer, favorite performer of the emperor Caligula, later executed under Claudius over an alleged affair with Empress Messalina; joins bathyllus_of_alexandria and pylades_of_cilicia just queued in the corpus's ancient-pantomime cluster |
 
+## Time gaps (2026-08-10)
 
+Proposed by El Gólem against the atlas's chronological coverage; approved
+by the author (Galileo and Kepler, plus Aquinas, out of a longer list).
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Galileo Galilei** | Italian astronomer and physicist, the telescope turned on Jupiter's moons, condemned by the Inquisition in 1633 and forced to recant heliocentrism under threat, house arrest for the last years of his life; joins the corpus's mathematics/physics wing (newton already done) as its direct predecessor |
+| 0 | **Johannes Kepler** | German astronomer, three laws of planetary motion derived while working from Tycho Brahe's data in Prague, also wrote Somnium, an early work of science fiction about a journey to the moon; joins galileo_galilei just queued and the corpus's physics wing |
+| 0 | **Thomas Aquinas** | medieval Dominican friar and scholastic philosopher, student of Albertus Magnus already queued, author of the Summa Theologica; direct teacher-student interlock, closes the corpus's scholastic-philosophy thread Albertus opened |
 
