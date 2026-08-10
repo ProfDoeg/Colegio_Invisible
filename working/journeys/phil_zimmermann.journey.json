@@ -1,0 +1,572 @@
+{
+  "traveler": "Philip R. Zimmermann (Phil Zimmermann)",
+  "title": "Pretty Good Privacy: the Munitions Case, the Printed Source Code, and the Long Return to Voice",
+  "years": "1954-",
+  "calendar": "gregorian",
+  "register": "national mythology: the canon is true",
+  "segments": [
+    {
+      "name": "Before the Program",
+      "stops": [
+        {
+          "name": "Camden, the birth on the far bank of the Delaware",
+          "lat": 39.9259,
+          "lng": -75.1196,
+          "date": "1954-01-01",
+          "date_confidence": "year attested (Wikipedia); month and day unrecorded in any reachable source, defaulted to 01-01",
+          "campa": "Philip R. Zimmermann is born in Camden, New Jersey, in 1954, a river city of shipyards and radio factories on the far side of the Delaware from Philadelphia. The published record of his childhood is almost empty; the standard biographies move from the birth year directly to a university degree twenty-four years later, and no month or day is given anywhere reachable. He arrives in the first decade in which his government treats cryptography as a weapon reserved to itself, and he will be thirty-seven years old before he takes it back.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Standard biographical listings for Zimmermann give the year 1954 and no further detail on Camden or his family"],
+          "sources": ["Wikipedia, 'Phil Zimmermann'"]
+        },
+        {
+          "name": "545 Technology Square, the trapdoor before the tool",
+          "lat": 42.3626,
+          "lng": -71.0913,
+          "date": "1977-04-02",
+          "date_confidence": "attested; inherited pin from rivest_shamir_adleman.journey.json",
+          "campa": "In the building on Technology Square that MIT's Laboratory for Computer Science fills with terminals and cold coffee, Ron Rivest works through the night after a Passover seder and arrives at the trapdoor function that Adi Shamir and Leonard Adleman will test to destruction. Three names, one method, published in the Communications of the ACM. The atlas already carries them, and their journey runs on into patents and licence fees. Fourteen years later a programmer in Colorado puts their arithmetic inside a free program and mails it to strangers, which is the part they did not plan for.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Rivest, Shamir and Adleman, 'A Method for Obtaining Digital Signatures and Public-Key Cryptosystems', Communications of the ACM, 1978"],
+          "sources": ["rivest_shamir_adleman.journey.json, stops 'Cambridge, the couch and the mathematics textbook' and '545 Technology Square, the method in Communications of the ACM'"]
+        },
+        {
+          "name": "Fort George G. Meade, the letter from Joseph A. Meyer",
+          "lat": 39.1082,
+          "lng": -76.7719,
+          "date": "1977-07-01",
+          "date_confidence": "attested in the diffie and hellman journeys; pin inherited byte-identical from those files",
+          "campa": "An employee of the National Security Agency named Joseph A. Meyer writes to the IEEE warning that publishing cryptography papers, or letting foreigners read them, may fall under the arms export regulations and carry five to ten years in prison. Whitfield Diffie and Martin Hellman, both already in this atlas, keep publishing; the agency behind the fence builds a regime of prepublication review instead. Sixteen years later the same body of law, the International Traffic in Arms Regulations, is the instrument under which a criminal investigation of Zimmermann is opened.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Meyer letter to the IEEE, July 1977, and the prepublication review regime that followed it"],
+          "sources": ["diffie.journey.json and hellman.journey.json, stop 'Fort George G. Meade, the letter from Joseph A. Meyer'"]
+        },
+        {
+          "name": "Boca Raton, the only degree he will hold",
+          "lat": 26.371,
+          "lng": -80.102,
+          "date": "1978-01-01",
+          "date_confidence": "year attested (Wikipedia; philzimmermann.com); month unrecorded, defaulted to 01",
+          "campa": "Zimmermann takes a bachelor's degree in computer science from Florida Atlantic University in Boca Raton, a young campus laid out on a former army airfield. It is the only formal credential in the subject he will ever hold, and it is not a credential in cryptography; nothing at the university teaches the discipline, which in 1978 is held almost entirely inside government. He will be an associate professor of it four decades later, in another country, without having taken a graduate degree in anything at all.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Florida Atlantic University, Boca Raton main campus, 26 degrees 22 minutes north"],
+          "sources": ["Wikipedia, 'Phil Zimmermann'", "philzimmermann.com background page"]
+        },
+        {
+          "name": "Boulder, the military policy analyst",
+          "lat": 40.015,
+          "lng": -105.2705,
+          "date": "1982-01-01",
+          "date_confidence": "decade attested (1980s); the year here is a placeholder, since no source fixes the start of the freeze-campaign work",
+          "campa": "In Boulder he works as a software engineer and, separately, as a military policy analyst for the Nuclear Weapons Freeze Campaign, the mass movement pressing for a halt to the deployment of new warheads. The two occupations sit side by side for years without meeting. What he takes from the campaign is a habit of asking what a state does with a capability once it holds it, and that is the question he will later ask about the reading of private mail. The sources place this work in the 1980s without fixing when it begins.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Nuclear Weapons Freeze Campaign, in which Zimmermann served as a military policy analyst before writing PGP"],
+          "sources": ["Wikipedia, 'Phil Zimmermann'", "philzimmermann.com background page"]
+        },
+        {
+          "name": "Palo Alto, Beyond War and the opposite road",
+          "lat": 37.4419,
+          "lng": -122.143,
+          "date": "1984-01-01",
+          "date_confidence": "attested in hellman.journey.json; pin inherited byte-identical",
+          "campa": "Martin Hellman, who has spent seven years fighting the agency at Fort Meade for the right to publish, founds Beyond War in Palo Alto with a group of neighbours and turns the larger part of his attention to the risk of nuclear annihilation. In Colorado in the same decade Zimmermann is making the reverse trip: nuclear-freeze politics first, cryptography afterwards. The two men reach the same subject from opposite ends and meet in the middle of it, in the export-control fight of the following decade.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Beyond War, founded in Palo Alto in 1984, and Hellman's later NuclearRisk.org"],
+          "sources": ["hellman.journey.json, stops 'Palo Alto, Beyond War' and 'Stanford, NuclearRisk.org'", "Wikipedia, 'Phil Zimmermann' (for Zimmermann's own nuclear-freeze work)"]
+        }
+      ]
+    },
+    {
+      "name": "Pretty Good Privacy",
+      "stops": [
+        {
+          "name": "Boulder, Ralph's Pretty Good Grocery",
+          "lat": 40.015,
+          "lng": -105.2705,
+          "date": "1990-01-01",
+          "date_confidence": "development dated 1990-1991 in the sources; the start month is not fixed",
+          "campa": "Working at home in Boulder, he writes a program that wraps the RSA public-key scheme around a fast symmetric cipher of his own devising, called BassOmatic, so that two people who have never met can exchange mail no third party can read. He names the whole thing after Ralph's Pretty Good Grocery, the store in Garrison Keillor's Lake Wobegon that sponsors the radio hour. Everything else in the field is named after an agency or an acronym. This one is named after a joke about a grocery, and it is written by one man at a desk in his own house.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Ralph's Pretty Good Grocery, the Lake Wobegon sponsor from A Prairie Home Companion, source of the program's name"],
+          "sources": ["Wikipedia, 'Pretty Good Privacy'"]
+        },
+        {
+          "name": "Washington, D.C., Senate Bill 266 and the trap doors",
+          "lat": 38.8899,
+          "lng": -77.0091,
+          "date": "1991-01-01",
+          "date_confidence": "year attested from Zimmermann's own congressional testimony; the pin is the Capitol as the bill's venue, not a documented appearance",
+          "campa": "An omnibus anti-crime bill moving through the Senate carries a non-binding resolution declaring that providers of secure communications should ensure the government can obtain the plain text of any message. Zimmermann reads it as the first draft of a law that would make what he is building illegal to build. The resolution is stripped out after protest from industry and from civil-liberties groups. He does not treat the retreat as permanent, and he finishes the program instead of waiting to see.",
+          "quote": "In 1991, Senate Bill 266 included a non-binding resolution, which if it had become real law, would have forced manufacturers of secure communications equipment to insert special 'trap doors' in their products.",
+          "quote_source": "Philip Zimmermann, Congressional Testimony, philzimmermann.com/EN/essays/Testimony.html",
+          "suggested_refs": ["Senate Bill 266 of 1991 and its stripped anti-encryption resolution"],
+          "sources": ["Philip Zimmermann, Congressional Testimony, philzimmermann.com", "Wikipedia, 'Pretty Good Privacy'"]
+        },
+        {
+          "name": "Boulder, the release into Peacenet and Usenet",
+          "lat": 40.015,
+          "lng": -105.2705,
+          "date": "1991-06-05",
+          "date_confidence": "month attested; Zimmermann says he cannot recall whether the postings began on 5 or 6 June, and the earlier date is used here",
+          "campa": "He gives the program away. Friends upload it to Peacenet, an internet service used by grassroots peace groups, and to Usenet newsgroups that carry source code, and within days it is copied from machine to machine faster than anyone is counting. Zimmermann says later that he cannot recall whether the postings began on the fifth of June or the sixth. He takes no money and keeps no distribution list, so when the program surfaces in Europe within weeks he has no part in sending it and no way to call it back.",
+          "quote": "It was on this day in 1991 that I sent the first release of PGP to a couple of my friends for uploading to the Internet.",
+          "quote_source": "Philip Zimmermann, 'PGP Marks 10th Anniversary', philzimmermann.com/EN/essays/PGP_10thAnniversary.html",
+          "suggested_refs": ["PGP 1.0, released as freeware with full source in June 1991"],
+          "sources": ["Wikipedia, 'Pretty Good Privacy'", "Philip Zimmermann, 'PGP Marks 10th Anniversary', philzimmermann.com"]
+        },
+        {
+          "name": "San Francisco, the first RSA Conference",
+          "lat": 37.7842,
+          "lng": -122.4016,
+          "date": "1991-01-01",
+          "date_confidence": "founding year attested in rivest_shamir_adleman.journey.json; pin inherited byte-identical",
+          "campa": "Jim Bidzos gathers about fifty cryptographers in San Francisco for the first meeting of what becomes the largest security conference in the world, an industry assembling itself around the algorithm Rivest, Shamir and Adleman published in 1977 and around the company that licenses it. In the same twelve months, out of Colorado, a free program built on that algorithm goes to anyone who asks, with the source attached. Bidzos's company licenses the arithmetic for money. The program out of Colorado hands it over for nothing, without a licence, and the two arrangements run side by side for the rest of the decade.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The first RSA Conference, San Francisco, 1991, about fifty attendees"],
+          "sources": ["rivest_shamir_adleman.journey.json, stop 'San Francisco, the first RSA Conference'"]
+        },
+        {
+          "name": "Redwood City, the algorithm that belongs to somebody",
+          "lat": 37.4852,
+          "lng": -122.2364,
+          "date": "1991-09-01",
+          "date_confidence": "reconstruction: the licensing standoff is public record but is not dated in the atlas files; the pin is inherited from rivest_shamir_adleman.journey.json and hellman.journey.json",
+          "campa": "RSA Data Security, founded in 1982 by the three MIT authors of the method, holds the American patent rights, and through Public Key Partners it holds the Stanford patents of Diffie, Hellman and Merkle as well. PGP ships using RSA without a licence. Bidzos's firm has already fought Stanford's own inventors over royalties on that portfolio, and now it faces a program that gives the arithmetic away for nothing. The dispute runs alongside the federal investigation and ends in a licensed edition rather than in a courtroom.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Public Key Partners, the pool holding the Stanford and MIT public-key patents"],
+          "sources": ["rivest_shamir_adleman.journey.json, stop 'Redwood City, RSA Data Security'", "hellman.journey.json, stop 'Redwood City, the royalty dispute'"]
+        },
+        {
+          "name": "Phoenix, ViaCrypt sells a lawful PGP",
+          "lat": 33.4484,
+          "lng": -112.074,
+          "date": "1993-11-01",
+          "date_confidence": "year attested (New York Times, 21 September 1993, names ViaCrypt); the November ship date of ViaCrypt PGP 2.4 comes from period accounts, and some later summaries misdate the arrangement to 1994",
+          "campa": "ViaCrypt, a Phoenix company holding a direct licence to the RSA algorithm, agrees to sell a fully licensed commercial PGP, and the product ships that November as ViaCrypt PGP 2.4. It is a way of putting a patent-clean version into American hands while the criminal case is still open. The New York Times of the twenty-first of September 1993 reports the company among the recipients of federal subpoenas in the same investigation. Sources differ on whether the licence came from RSA Data Security itself or through Public Key Partners.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["ViaCrypt PGP 2.4, the first licensed commercial edition"],
+          "sources": ["New York Times, 21 September 1993", "Wikipedia, 'Pretty Good Privacy'"]
+        }
+      ]
+    },
+    {
+      "name": "Munitions",
+      "stops": [
+        {
+          "name": "San Jose, the investigation opens",
+          "lat": 37.3346,
+          "lng": -121.8905,
+          "date": "1993-02-01",
+          "date_confidence": "month and year attested; the San Jose venue is reported in the press of the period and could not be confirmed here against a court document",
+          "campa": "The United States Attorney for the Northern District of California opens a grand jury investigation into Zimmermann for munitions export without a licence. Strong cryptography sits on the munitions control list, so a program that crosses a border is, in law, a weapon leaving the country. He did not carry it abroad and cannot say who did. He hires lawyers, a defence fund is raised on his behalf, and he goes on writing code while the file stays open for three years without an indictment or an explanation.",
+          "quote": "For three years I was the target of a criminal investigation by the US Customs Service, who assumed that laws were broken when PGP spread outside the US. That investigation was closed without indictment in January 1996.",
+          "quote_source": "Philip Zimmermann, Congressional Testimony, philzimmermann.com/EN/essays/Testimony.html",
+          "suggested_refs": ["The 1993-1996 grand jury investigation out of the U.S. Attorney's Office, Northern District of California"],
+          "sources": ["Wikipedia, 'Pretty Good Privacy'", "Philip Zimmermann, Congressional Testimony, philzimmermann.com"]
+        },
+        {
+          "name": "Stanford, the Clipper Chip proposed",
+          "lat": 37.4275,
+          "lng": -122.1697,
+          "date": "1993-01-01",
+          "date_confidence": "attested in diffie.journey.json, which pins the Clipper episode to Stanford; pin inherited byte-identical",
+          "campa": "The National Security Agency proposes the Clipper Chip, an encryption device for telephones with a copy of every key held in escrow by the government, and offers it as the reasonable middle path between privacy and lawful access. Diffie, whose 1976 paper opened the field, is among its critics. Zimmermann becomes its most quoted opponent, because he has already done the thing Clipper exists to prevent. The proposal collapses within three years, and the program released in 1991 is by then in too many hands to be recalled by any standard.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Clipper Chip key-escrow initiative of 1993 and the campaign against it"],
+          "sources": ["diffie.journey.json, stop 'Stanford, the sentence that is not mathematics'"]
+        },
+        {
+          "name": "Cambridge, the source code printed as a book",
+          "lat": 42.3639,
+          "lng": -71.0855,
+          "date": "1995-01-01",
+          "date_confidence": "year attested; month of publication not established here. Note that the atlas research pool carried two different coordinate pairs for MIT Press; the accurate one, 255 Main Street, is used",
+          "campa": "MIT Press publishes the complete source code of PGP as a hardback book, PGP: Source Code and Internals, set for reading by a scanner rather than by a person. Printed matter carries a First Amendment protection that export-controlled software does not: a book may be sold abroad where a program may not. The pages can be shipped, scanned, proofread and compiled back into a working program outside the United States. The defence against the arms regulations is that the regulations cannot reach a book.",
+          "quote": "Even Phil Zimmermann, the Ali Baba who rubbed this particular lamp, can't stuff it back in or keep it within what America laughably calls its borders.",
+          "quote_source": "John Perry Barlow, foreword to Simson Garfinkel, The Official PGP User's Guide (MIT Press, 1995), philzimmermann.com/EN/essays/ForewordJPB.html",
+          "suggested_refs": ["PGP: Source Code and Internals (MIT Press, 1995), the code printed as protected speech"],
+          "sources": ["Wikipedia, 'Phil Zimmermann'", "Wikipedia, 'Pretty Good Privacy'", "philzimmermann.com background page"]
+        },
+        {
+          "name": "Oslo, the book scanned back into a program",
+          "lat": 59.9139,
+          "lng": 10.7522,
+          "date": "1995-01-01",
+          "date_confidence": "the international project is dated only to the 1990s; the year here is the year of the printed book that made it possible",
+          "campa": "Stale Schumacher, a Norwegian programmer, coordinates the work the book was printed for. The pages are scanned one by one, run through optical character recognition, proofread against the printed original and compiled outside the United States as International PGP. The result is a lineage of the program that never crossed a border as software and therefore never broke the export rules. The exact years of the scanning effort are not fixed in reachable sources, and the number of hands involved is not recorded anywhere.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["International PGP (PGPi), assembled outside the United States from the scanned MIT Press listing"],
+          "sources": ["PGP project histories and period FAQs on the international distribution"]
+        },
+        {
+          "name": "Boulder, PGPfone and the first return to voice",
+          "lat": 40.015,
+          "lng": -105.2705,
+          "date": "1995-07-01",
+          "date_confidence": "reconstruction: dated to the mid-1990s, month arbitrary; the Boulder location is inferred from his base at the time and is not documented",
+          "campa": "He writes PGPfone, free software that encrypts a spoken conversation in real time over a modem or an internet connection, and gives it away as he gave away the mail program. Voice is the harder problem. The cipher has to keep pace with speech, and the two ends must agree on a key with nobody to vouch for either of them. Everything he builds for the next twenty years, Zfone and then Silent Circle, is a return to this problem. Where exactly the work was done is not recorded.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["PGPfone, free real-time voice encryption over modem and internet links"],
+          "sources": ["PGP project histories; location inferred from Zimmermann's Boulder base, flagged as unverified"]
+        },
+        {
+          "name": "San Francisco, the Pioneer Award",
+          "lat": 37.7825,
+          "lng": -122.4204,
+          "date": "1995-01-01",
+          "date_confidence": "year attested; the pin is the foundation's own city, since awards of that era were presented at the Computers, Freedom and Privacy conference and the ceremony venue is not established here",
+          "campa": "The Electronic Frontier Foundation gives him a Pioneer Award, in the fourth class of the prize rather than the first, alongside Anita Borg and Willis Ware. Hellman and Diffie were honoured together three years before him for the paper; he is honoured for the program and for standing under the investigation it caused. Sixteen or so recipients precede him, among them Engelbart, Kahn, Baran and Cerf, so the award is by then a lineage rather than an opening gesture.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["EFF Pioneer Award, 1995 class: Zimmermann, Anita Borg, Willis Ware"],
+          "sources": ["philzimmermann.com background page", "Wikipedia, 'Phil Zimmermann'", "hellman.journey.json, stop 'Stanford, the Pioneer Award and secrecy obsolete'"]
+        },
+        {
+          "name": "Auburn Hills, the Chrysler Design Award",
+          "lat": 42.6875,
+          "lng": -83.2341,
+          "date": "1995-01-01",
+          "date_confidence": "year attested; the venue is not documented and this pin stands for the company's headquarters only",
+          "campa": "The Chrysler Corporation names PGP in its Design Award for Innovation, a prize normally attached to objects that have a shape. A program has no shape. What is being honoured is the arrangement of a system: the decision to make key exchange something two strangers can accomplish with no authority standing between them. In the same year the man holding the design award is the target of a federal criminal investigation for the design. Where the prize was handed over is not recorded, and this pin is only the company's address.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Chrysler Design Award for Innovation, 1995"],
+          "sources": ["philzimmermann.com background page", "Wikipedia, 'Phil Zimmermann'"]
+        },
+        {
+          "name": "San Jose, the case dropped without a ruling",
+          "lat": 37.3346,
+          "lng": -121.8905,
+          "date": "1996-01-01",
+          "date_confidence": "month and year attested; no public reason for the decision was given",
+          "campa": "After three years the United States Attorney closes the investigation without seeking an indictment against Zimmermann or against anyone else, and offers no public reason for dropping it. Nothing is decided. No court has ruled that publishing a cipher is protected speech, and the munitions regulations stand untouched for another four years. A government looked at a prosecution it could bring and declined to bring it. The question stays open, and the program is lawful by default.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The January 1996 closure of the PGP export investigation, unexplained on the record"],
+          "sources": ["Wikipedia, 'Phil Zimmermann'", "Wikipedia, 'Pretty Good Privacy'"]
+        }
+      ]
+    },
+    {
+      "name": "The Company and the Committee",
+      "stops": [
+        {
+          "name": "San Mateo, Pretty Good Privacy, Inc.",
+          "lat": 37.5629,
+          "lng": -122.3255,
+          "date": "1996-01-01",
+          "date_confidence": "year attested; the incorporation city comes from secondary corporate histories and was not verified against a filing",
+          "campa": "With the criminal threat lifted he founds Pretty Good Privacy, Inc. and becomes, for the first time, the proprietor of the thing he gave away. The company sells to businesses what the free version gave to individuals, and the free version continues alongside it. He is chairman and chief technology officer, and it is in that capacity that he signs his testimony to the Senate a few months later. The exact address of the incorporation is not established here.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Pretty Good Privacy, Inc., founded 1996"],
+          "sources": ["philzimmermann.com background page"]
+        },
+        {
+          "name": "Dirksen Senate Office Building, the testimony on Pro-CODE",
+          "lat": 38.8925,
+          "lng": -77.0048,
+          "date": "1996-06-26",
+          "date_confidence": "attested to the day; the hearing sat in the Senate office buildings, not in the Capitol, and earlier atlas drafts pinned it wrongly to the dome",
+          "campa": "Five months after the case against him is dropped, Zimmermann testifies before the Senate Subcommittee on Science, Technology and Space on the Pro-CODE bill, which would relax the export controls he was investigated under. Matt Blaze and Jerry Berman appear at the same hearing. He tells the senators that human rights organisations use his program overseas, that Amnesty International uses it, and that he wrote it to put the tool into public hands while doing so was still lawful.",
+          "quote": "I did it because I wanted cryptography to be made available to the American public before it became illegal to use it. I gave it away for free so that it would achieve wide dispersal, to inoculate the body politic.",
+          "quote_source": "Philip Zimmermann, Congressional Testimony, philzimmermann.com/EN/essays/Testimony.html",
+          "suggested_refs": ["Hearing on S.1726, the Pro-CODE Act, Senate Commerce Committee, 26 June 1996"],
+          "sources": ["Philip Zimmermann, Congressional Testimony, philzimmermann.com", "Senate Committee on Commerce, Science and Transportation hearing record, 26 June 1996"]
+        },
+        {
+          "name": "Palo Alto, the Norbert Wiener Award",
+          "lat": 37.4419,
+          "lng": -122.143,
+          "date": "1996-01-01",
+          "date_confidence": "year attested; pinned to the awarding body's Palo Alto headquarters rather than to Cambridge, which appears in some summaries only because the prize is named after MIT's Wiener",
+          "campa": "Computer Professionals for Social Responsibility, headquartered in Palo Alto, gives him the Norbert Wiener Award for Social and Professional Responsibility, named for the mathematician who refused after Hiroshima to publish work that might be turned into weapons. The prize is not for the cryptography. It is for the choice about who should be allowed to hold it. Zimmermann sits on the organisation's board. The naming of the award has led several sources to place it in Cambridge; the body that confers it is Californian.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The CPSR Norbert Wiener Award for Social and Professional Responsibility, 1996"],
+          "sources": ["philzimmermann.com background page"]
+        },
+        {
+          "name": "Washington, D.C., the committee on national cryptography policy",
+          "lat": 38.893,
+          "lng": -77.047,
+          "date": "1996-01-01",
+          "date_confidence": "attested in hellman.journey.json; pin inherited byte-identical",
+          "campa": "The National Research Council publishes the report of its Committee to Study National Cryptography Policy, recommending that export controls be relaxed and rejecting mandatory key escrow. Hellman sits on the committee. The report lands in the same season as the closed Zimmermann investigation and the export lawsuits brought by Philip Karn and Daniel Bernstein, so that a question the government has just declined to test in court is answered on paper by a committee instead. The pairing of report and cases is this atlas's framing.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Cryptography's Role in Securing the Information Society, National Research Council, 1996"],
+          "sources": ["hellman.journey.json, stop 'Washington, D.C., the committee on national cryptography policy'"]
+        },
+        {
+          "name": "Santa Clara, Network Associates buys the initials",
+          "lat": 37.3894,
+          "lng": -121.9788,
+          "date": "1997-12-01",
+          "date_confidence": "month and year attested; the price is contradicted between sources and both figures are given in the campa",
+          "campa": "Network Associates buys Pretty Good Privacy, Inc. Computerworld reports the price as thirty-six million dollars, paid three weeks before the company was to declare bankruptcy; other summaries of Zimmermann's career give roughly ten million and cite nothing at all, and the two figures are left standing here side by side. He remains as a Senior Fellow for about three years, attached to a product carrying his initials and no longer directing what is done with it. The pin is the buyer's offices on Freedom Circle.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Network Associates, 3965 Freedom Circle, Santa Clara, purchaser of PGP Inc. in December 1997"],
+          "sources": ["Computerworld (on the $36 million price)", "Wikipedia, 'Phil Zimmermann'", "Wikipedia, 'Pretty Good Privacy'"]
+        },
+        {
+          "name": "Cheltenham, the prior claim declassified",
+          "lat": 51.8994,
+          "lng": -2.1258,
+          "date": "1997-01-01",
+          "date_confidence": "attested in hellman.journey.json and rivest_shamir_adleman.journey.json; pin inherited byte-identical",
+          "campa": "GCHQ declassifies work done inside its own walls: James Ellis proposed non-secret encryption, Clifford Cocks worked out the same construction as RSA, Malcolm Williamson found the key exchange, and all of it was kept. Public-key cryptography turns out to have been invented twice, once in secret by a government and once in the open by academics who were told that publishing might be a crime. The disclosure arrives in the year Zimmermann's own case has closed, and the two ways of holding a discovery are laid out in the same season.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The 1997 GCHQ declassification of the Ellis, Cocks and Williamson papers"],
+          "sources": ["hellman.journey.json, stop 'Cheltenham, the classified priority'", "rivest_shamir_adleman.journey.json, stop 'Cheltenham, the prior claim declassified'"]
+        },
+        {
+          "name": "Menlo Park, Privacy on the Line",
+          "lat": 37.453,
+          "lng": -122.1817,
+          "date": "1998-01-01",
+          "date_confidence": "attested in diffie.journey.json; pin inherited byte-identical",
+          "campa": "Whitfield Diffie, at Sun Microsystems in Menlo Park, writes Privacy on the Line with Susan Landau, a history of wiretapping and export politics composed while his own government argues in court that a cipher strong enough to be useful is a munition. The Zimmermann case is one of the book's episodes. By then the two men have traded roles: the academic who published the method is writing the political history, and the programmer who shipped the code is testifying to the Senate.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Whitfield Diffie and Susan Landau, Privacy on the Line (MIT Press, 1998; updated 2007)"],
+          "sources": ["diffie.journey.json, stop 'Menlo Park, Privacy on the Line'"]
+        },
+        {
+          "name": "Bedford, the patent released early",
+          "lat": 42.4906,
+          "lng": -71.2762,
+          "date": "2000-09-06",
+          "date_confidence": "attested to the day in rivest_shamir_adleman.journey.json; pin inherited byte-identical",
+          "campa": "RSA Security, the company Rivest, Shamir and Adleman founded in 1982, releases the algorithm into the public domain two weeks before the patent would have expired on its own. The gesture costs nothing and closes a decade of argument. What Zimmermann was accused of doing in 1991, and what ViaCrypt was paid to make lawful in 1993, is free for anybody from that afternoon, and the whole fight moves onto the remaining ground of export rules and key escrow.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["RSA Security's release of the RSA algorithm into the public domain, 6 September 2000"],
+          "sources": ["rivest_shamir_adleman.journey.json, stop 'Bedford, the patent released early'"]
+        }
+      ]
+    },
+    {
+      "name": "Voice",
+      "stops": [
+        {
+          "name": "Menlo Park, PGP Corporation buys the name back",
+          "lat": 37.453,
+          "lng": -122.1817,
+          "date": "2002-08-01",
+          "date_confidence": "founded June-August 2002, the reacquisition attested to that August; pin shared with the Diffie stop above, both being Menlo Park",
+          "campa": "Jon Callas and Phil Dunkelberger found PGP Corporation in Menlo Park and buy the code and the name back from Network Associates that August. Zimmermann is not a founder this time. He is a special advisor and consultant to a brand made out of his own initials, which has now had three owners in five years. The town is the one where Diffie wrote Privacy on the Line four years earlier, so the history of the cipher and its commercial afterlife share a set of streets.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["PGP Corporation, Menlo Park, founded 2002"],
+          "sources": ["Wikipedia, 'PGP Corporation'", "Wikipedia, 'Phil Zimmermann'"]
+        },
+        {
+          "name": "Half Moon Bay, Zfone and the ZRTP protocol",
+          "lat": 37.4636,
+          "lng": -122.4286,
+          "date": "2004-01-01",
+          "date_confidence": "reconstruction: the start year is aggregated from his own biography page and is approximate; the coastal residence used for this pin is reported in press interviews and is not verified",
+          "campa": "He returns to voice. Zfone encrypts internet telephone calls, and the protocol beneath it, ZRTP, performs the key agreement inside the media stream itself: the two callers read a short authentication string aloud and hear in each other's voice that nobody has stepped between them. There is no certificate authority in the design and no third party who can be served with an order. The security of the call rests on two people recognising one another, which is where it rested before there were machines.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Zfone and the ZRTP key-agreement protocol for encrypted voice over IP"],
+          "sources": ["philzimmermann.com background page (dates approximate and aggregated)"]
+        },
+        {
+          "name": "Mountain View, Symantec takes the catalogue",
+          "lat": 37.3861,
+          "lng": -122.0839,
+          "date": "2010-04-01",
+          "date_confidence": "announced April 2010, closed that June; the Mountain View pin is Symantec's headquarters of the period",
+          "campa": "Symantec announces the purchase of PGP Corporation for about three hundred million dollars in cash, and the deal closes in June. The program written by one man in a house in Boulder and given away for nothing in 1991 is now a line item in the catalogue of the largest security company in the world, under its fourth corporate owner. Zimmermann continues as a consultant. Thirty-six million dollars in 1997 and three hundred million in 2010 are two measurements of the same code.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Symantec's acquisition of PGP Corporation, announced April 2010, closed June 2010"],
+          "sources": ["Wikipedia, 'PGP Corporation'", "Wikipedia, 'Phil Zimmermann'"]
+        },
+        {
+          "name": "Nevis, Silent Circle incorporated",
+          "lat": 17.1367,
+          "lng": -62.6208,
+          "date": "2012-01-01",
+          "date_confidence": "founding year contested: sources give 2011 for Janke's call, which Wikipedia dates to November 2011, and 2012 for the company and its 16 October service launch. Not resolved here",
+          "campa": "Mike Janke telephones Zimmermann in November 2011 with an idea for a private version of Skype. Zimmermann brings in Jon Callas and Vincent Moscaritolo, and Janke brings the former special-operations officer Vic Hyder. Silent Circle is incorporated on Nevis, in the Caribbean, and its subscription service for encrypted calls and messages opens on the sixteenth of October 2012. Sources place the founding in both 2011 and 2012, some dating from the call and some from the company, and both readings are recorded.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Silent Circle, incorporated in Nevis, service launched 16 October 2012"],
+          "sources": ["Wikipedia, 'Silent Circle (software)'", "Wikipedia, 'Phil Zimmermann'"]
+        },
+        {
+          "name": "Geneva, the first class of the Internet Hall of Fame",
+          "lat": 46.2189,
+          "lng": 6.1444,
+          "date": "2012-04-23",
+          "date_confidence": "attested to the day, at the Internet Society's Global INET conference",
+          "campa": "At the Internet Society's Global INET conference in Geneva, Zimmermann is named to the first class of the Internet Hall of Fame, thirty-three people in one room, among them the authors of the protocols his program travelled on. He is inducted as an innovator, for a piece of software his own government spent three years treating as a shipment of arms. Nineteen years separate the opening of that file from this stage, and the hall he stands in is a few kilometres from the suburb where his company will register itself two years later.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Internet Hall of Fame, inaugural class of 33, announced at Global INET, Geneva, 23 April 2012"],
+          "sources": ["Wikipedia, 'Internet Hall of Fame'", "Internet Hall of Fame inductee records"]
+        }
+      ]
+    },
+    {
+      "name": "After Snowden",
+      "stops": [
+        {
+          "name": "Nevis, Silent Mail shut down before the order arrives",
+          "lat": 17.1367,
+          "lng": -62.6208,
+          "date": "2013-08-09",
+          "date_confidence": "attested to the day; the pin is the company's registered home, since where the decision was physically taken is not documented",
+          "campa": "Ladar Levison closes Lavabit rather than surrender the keys protecting his users, and within hours Silent Circle destroys the servers of its own Silent Mail product and shuts it, having received no order at all. The company says it can see the writing on the wall. Email leaks its envelope by design: sender, recipient and timing survive any encryption of the body, so a mail service can always be made to give something up. The safest state for such a service, they conclude, is not to exist.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Silent Circle's pre-emptive shutdown of Silent Mail, 9 August 2013"],
+          "sources": ["Wikipedia, 'Silent Circle (software)'"]
+        },
+        {
+          "name": "Washington, D.C., the Dark Mail Alliance",
+          "lat": 38.9072,
+          "lng": -77.0369,
+          "date": "2013-10-01",
+          "date_confidence": "month and year attested; the announcement venue is not fixed in the sources used here and this pin stands for the American setting only",
+          "campa": "Zimmermann and Levison form the Dark Mail Alliance to design a mail protocol whose metadata is encrypted along with its contents, so that the shutdown neither of them wanted to repeat becomes technically unnecessary. It is the move of 1991 restated in a later decade: build the thing so that no order can compel what does not exist. In the same season the Snowden disclosures put PGP back into the newspapers, twenty-two years after a program that was supposed to be a hobby.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Dark Mail Alliance and the DIME specification for metadata-encrypting email"],
+          "sources": ["Wikipedia, 'Phil Zimmermann'"]
+        },
+        {
+          "name": "Barcelona, Blackphone at the Mobile World Congress",
+          "lat": 41.3565,
+          "lng": 2.1264,
+          "date": "2014-02-01",
+          "date_confidence": "the 2014 joint venture and product are attested; the Mobile World Congress launch is widely reported in the trade press and is not independently verified here",
+          "campa": "Blackphone is unveiled at the Mobile World Congress in Barcelona, a handset built by SGP Technologies, the joint venture of Silent Circle with the Spanish maker Geeksphone, running a stripped Android called PrivatOS with encrypted calling and messaging built into it. It is the first time the work has a shape a person can hold, twenty-three years after a program that fitted on a floppy disk. The privacy is now sold as hardware, and hardware has inventory.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Blackphone and PrivatOS, SGP Technologies, 2014"],
+          "sources": ["Wikipedia, 'Silent Circle (software)'"]
+        },
+        {
+          "name": "Le Grand-Saconnex, the company moves to Swiss law",
+          "lat": 46.2312,
+          "lng": 6.1114,
+          "date": "2014-01-01",
+          "date_confidence": "year attested; month not fixed",
+          "campa": "Silent Circle moves its headquarters from Nevis to Le Grand-Saconnex outside Geneva, a Swiss commune full of international organisations, on the reasoning that Swiss law protects customer data better than any other jurisdiction available to it. The company is now doing at the corporate level what its software does at the packet level, choosing a place the demand cannot reach. The man investigated for letting a program cross a border is moving a company across one on purpose.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Silent Circle's Swiss headquarters at Le Grand-Saconnex, near Geneva"],
+          "sources": ["Wikipedia, 'Silent Circle (software)'"]
+        },
+        {
+          "name": "Washington, D.C., the hardware ends and the company comes home",
+          "lat": 38.9072,
+          "lng": -77.0369,
+          "date": "2017-01-01",
+          "date_confidence": "two events that several summaries collapse into one year: the Blackphone line ends in 2016 after inventory losses, and the move back from Switzerland follows Gregg Smith's appointment as chief executive in 2017. Separated here, not merged",
+          "campa": "The hardware ends. Blackphone inventory losses close the manufacturing line, and under a new chief executive, Gregg Smith, the company leaves Switzerland and returns to the United States, refocused on enterprise software. Several accounts date both events to a single year; they are separated here, the discontinuation in 2016 and the relocation in 2017. The Swiss experiment lasts about three years, and the jurisdiction chosen for its law is given up for reasons that are commercial rather than legal.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Silent Circle's exit from hardware and its return to United States headquarters"],
+          "sources": ["Wikipedia, 'Silent Circle (software)'"]
+        }
+      ]
+    },
+    {
+      "name": "The Professor and the Living Subject",
+      "stops": [
+        {
+          "name": "Delft, the associate professor without a doctorate",
+          "lat": 51.9994,
+          "lng": 4.3736,
+          "date": "2016-01-01",
+          "date_confidence": "year attested; month not recorded",
+          "campa": "He is appointed associate professor in the cybersecurity section of the Faculty of Electrical Engineering, Mathematics and Computer Science at Delft University of Technology, and moves to the Netherlands. He holds no doctorate and no graduate degree of any kind. He has a bachelor's from Boca Raton and a program. The country he teaches in never treated the export of a cipher as an arms shipment, and the students in front of him have never lived under a legal regime in which emailing their coursework home would be a felony.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Delft University of Technology, Faculty of EEMCS, cybersecurity section"],
+          "sources": ["Wikipedia, 'Phil Zimmermann'", "philzimmermann.com background page"]
+        },
+        {
+          "name": "Brussels, the honorary doctorate",
+          "lat": 50.8129,
+          "lng": 4.3805,
+          "date": "2016-01-01",
+          "date_confidence": "year attested; month not recorded",
+          "campa": "The Universite libre de Bruxelles, founded on the principle of free inquiry, confers an honorary doctorate on him. Twenty-three years earlier the United States government opened a criminal file on the same body of work under the arms export laws. The program is not altered in the interval to deserve either verdict. What changes is the jurisdiction, and what its authorities are frightened of. He collects the degree in the same year he takes up the post at Delft, an hour and a half up the road.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Honorary doctorate, Universite libre de Bruxelles, 2016"],
+          "sources": ["philzimmermann.com background page", "Wikipedia, 'Phil Zimmermann'"]
+        },
+        {
+          "name": "San Francisco, the conference named after the algorithm",
+          "lat": 37.7841,
+          "lng": -122.4012,
+          "date": "2019-01-01",
+          "date_confidence": "reconstruction: a recurring presence rather than a dated appearance; specific years and talks are not itemized in the sources used here",
+          "campa": "He appears repeatedly at the RSA Conference in San Francisco, an event named for the algorithm whose export status once made him a federal target, run by the successor of the company that once had him in its sights over a licence. The fifty cryptographers Bidzos gathered in 1991 have become tens of thousands filling the Moscone halls. Rivest, Shamir and Adleman are on the cryptographers' panel; Zimmermann is in the same building, having implemented what they patented before he was allowed to.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The RSA Conference at the Moscone Center and its recurring cryptographers' panel"],
+          "sources": ["General accounts of Zimmermann's conference appearances, not itemized here", "rivest_shamir_adleman.journey.json, stop 'San Francisco, the first RSA Conference'"]
+        },
+        {
+          "name": "Delft, the term ends",
+          "lat": 51.9994,
+          "lng": 4.3736,
+          "date": "2021-01-01",
+          "date_confidence": "year attested; he is afterwards described as associate professor emeritus of cybersecurity there",
+          "campa": "His term at Delft ends and he is afterwards described as associate professor emeritus of cybersecurity. The teaching lasts five years. He arrived with a bachelor's degree from Boca Raton and a program he wrote at home, and he leaves holding a chair in the subject his own government once policed as a shipment of arms. The section he leaves behind teaches key exchange as a first-year subject rather than as a controlled technology, and the students have to be told that this was ever otherwise.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Zimmermann's emeritus title at Delft, from 2021"],
+          "sources": ["Wikipedia, 'Phil Zimmermann'", "philzimmermann.com background page"]
+        },
+        {
+          "name": "Stanford, the Center for Internet and Society",
+          "lat": 37.4291,
+          "lng": -122.1661,
+          "date": "2021-06-01",
+          "date_confidence": "the affiliation is undated in his own biography and is listed as ongoing; the date here is a placeholder and carries no claim",
+          "campa": "He holds a fellowship at the Center for Internet and Society at Stanford Law School, the institution that argues in courtrooms what he argued by shipping code. He also sits on the board of Computer Professionals for Social Responsibility. The campus is the one where Diffie and Hellman published the paper in 1976, and where the patent PGP infringed on its first day was drafted; the law school and the engineering buildings are a short walk apart across the same lawns.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Stanford Law School Center for Internet and Society, Zimmermann's undated fellowship"],
+          "sources": ["philzimmermann.com background page", "Wikipedia, 'Phil Zimmermann'"]
+        },
+        {
+          "name": "Half Moon Bay, the journey with no tomb",
+          "lat": 37.4636,
+          "lng": -122.4286,
+          "date": "2026-01-01",
+          "date_confidence": "the subject is living: no death record, grave or memorial exists to research, and the coastal residence used for this pin is reported in interviews and unverified",
+          "campa": "There is no tomb at the end of this journey. Zimmermann is living, and the atlas records that as a gap where a grave would be: no death record, no monument, no plaque, no dedicated site anywhere. What stands in for iconography is a hardback book of source code, a key drawn as an icon, and the program itself running inside mail clients whose users have never heard his name. The journey of Diffie closes on Borges reading the Kabbalists and calling the Torah a cipher of the universe. This one closes on a sentence anybody can act on.",
+          "quote": "It's personal. It's private. And it's no one's business but yours.",
+          "quote_source": "Philip Zimmermann, 'Why I Wrote PGP', philzimmermann.com/EN/essays/WhyIWrotePGP.html",
+          "suggested_refs": ["No monument, statue or plaque to Zimmermann could be identified; the absence is recorded as a gap"],
+          "sources": ["philzimmermann.com essays", "diffie.journey.json, stop 'Stanford, the absent monument'", "borges.journey.json"]
+        }
+      ]
+    }
+  ]
+}
