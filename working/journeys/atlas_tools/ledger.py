@@ -24,7 +24,6 @@ LIVE_URL = "https://colegioinvisible.com/atlas/atlas_globe.html"
 def slugify(name):
     s = unicodedata.normalize("NFD", name)
     s = "".join(c for c in s if unicodedata.category(c) != "Mn").lower()
-    s = re.sub(r"\(.*?\)", " ", s)
     return re.sub(r"[^a-z0-9]+", "_", s).strip("_")
 
 
@@ -56,17 +55,47 @@ rows, seen = [], set()
 for line in open(D + "/QUEUE.md", encoding="utf-8"):
     m = re.match(r"\|\s*[^|]*\|\s*\*\*(.+?)\*\*\s*\|", line)
     if m:
-        slug = slugify(m.group(1).strip())
+        name = m.group(1).strip()
+        slug = slugify(name)
         if slug not in seen:
             seen.add(slug)
-            rows.append((m.group(1).strip(), slug))
+            alias = re.search(r"\((.+?)\)", name)
+            rows.append((name, slug, slugify(alias.group(1)) if alias else None))
 
 
-def is_built(slug):
-    return bool({slug, slug.split("_")[-1], "_".join(slug.split("_")[:2])} & built)
+STOP = {"de", "of", "the", "and", "al", "el", "la", "von", "van", "der", "di", "ii", "iii"}
+built_words = {b: set(b.split("_")) - STOP for b in built}
 
 
-todo = [r for r in rows if not is_built(r[1])]
+def is_built(slug, alias_slug=None):
+    if alias_slug and alias_slug in built:
+        # a parenthetical alias like "(Etteilla)" or "(Txillardegi)" names
+        # the person's common handle directly - an exact hit is unambiguous
+        return True
+    qwords = set(slug.split("_")) - STOP
+    if not qwords:
+        return slug in built
+    for bwords in built_words.values():
+        if not bwords:
+            continue
+        if len(bwords) == 1:
+            # a single bare-surname journey slug only counts as a match if
+            # it's ALL the queued name reduces to. Containment alone is
+            # unsafe here - e.g. built "jung" must NOT match queued "Carl
+            # Jung of Mainz" or "Carl Gustav Jung (the elder)", both
+            # explicitly different people from jung.journey.json who just
+            # share the surname.
+            if bwords == qwords:
+                return True
+        # a multi-word journey slug is specific enough that containment in
+        # either direction (abbreviated to surname(s), or the reverse) is a
+        # safe signal of the same person
+        elif bwords <= qwords or qwords <= bwords:
+            return True
+    return False
+
+
+todo = [r for r in rows if not is_built(r[1], r[2])]
 
 print("ATLAS LEDGER")
 print("=" * 46)
