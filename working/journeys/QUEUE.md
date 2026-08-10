@@ -582,3 +582,26 @@ by the author (Galileo and Kepler, plus Aquinas, out of a longer list).
 | 0 | **Johannes Kepler** | German astronomer, three laws of planetary motion derived while working from Tycho Brahe's data in Prague, also wrote Somnium, an early work of science fiction about a journey to the moon; joins galileo_galilei just queued and the corpus's physics wing |
 | 0 | **Thomas Aquinas** | medieval Dominican friar and scholastic philosopher, student of Albertus Magnus already queued, author of the Summa Theologica; direct teacher-student interlock, closes the corpus's scholastic-philosophy thread Albertus opened |
 
+## The classical physics/math canon (2026-08-10)
+
+A glaring gap the author flagged directly: the corpus has Euler, Gauss,
+Witten, Skyrme, Halley and Bode (all already queued or done) but almost
+none of the classical-physics/mathematics canon underneath them. William
+Rowan Hamilton was already queued; these fill the rest.
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Archimedes** | ancient Greek mathematician and engineer of Syracuse, 'give me a place to stand and I will move the earth', killed by a Roman soldier during the sack of the city despite orders to spare him, reportedly still absorbed in a geometry problem in the sand |
+| 0 | **Nicolaus Copernicus** | Polish astronomer and canon, De Revolutionibus Orbium Coelestium published as he lay dying, the heliocentric model that galileo_galilei already queued was later condemned for defending |
+| 0 | **Robert Hooke** | English polymath, Hooke's law of elasticity, Micrographia's engravings of the microscopic world, Royal Society curator of experiments and bitter rival of newton already done |
+| 0 | **Christiaan Huygens** | Dutch physicist and astronomer, the wave theory of light, invented the pendulum clock, discovered Saturn's rings and its moon Titan |
+| 0 | **Joseph-Louis Lagrange** | Italian-French mathematician, Lagrangian mechanics and the calculus of variations, called by Napoleon 'the lofty pyramid of the mathematical sciences'; joins the corpus's mathematics wing (euler, gauss already queued) |
+| 0 | **Pierre-Simon Laplace** | French mathematician and astronomer of celestial mechanics, Laplace's equation, told Napoleon he had 'no need of that hypothesis' when asked where God fit into his system |
+| 0 | **Carl Gustav Jacob Jacobi** | German mathematician, the Jacobian and elliptic functions, prolific correspondent and teacher at Königsberg; joins the corpus's mathematics wing |
+| 0 | **George Gabriel Stokes** | Irish-English mathematician and physicist, Stokes' theorem and the foundations of fluid dynamics, longtime Lucasian Professor at Cambridge (newton's own former chair, already done) |
+| 0 | **Siméon Denis Poisson** | French mathematician and physicist, the Poisson distribution and Poisson's equation, taught and examined at the École Polytechnique alongside laplace and lagrange just queued |
+| 0 | **Henri Poincaré** | French polymath, topology and the three-body problem, came within a hair of relativity before einstein already done and anticipated ideas later called chaos theory |
+| 0 | **Emmy Noether** | German mathematician, Noether's theorem underlies all of modern physics's conservation laws, fled Nazi Germany in 1933 for Bryn Mawr; direct interlock with the corpus's Nazi-exodus physicist theme (einstein already done) |
+| 0 | **James Clerk Maxwell** | Scottish physicist, unified electricity, magnetism and light into a single field theory and predicted radio waves before they were observed; not to be confused with robert_maxwell or jordan_maxwell already queued, different people entirely |
+| 0 | **Michael Faraday** | English physicist and chemist, self-taught bookbinder's apprentice who discovered electromagnetic induction and laid the ground james_clerk_maxwell just queued formalized; one of physics's great rags-to-genius journeys |
+
