@@ -656,3 +656,28 @@ queued/done) and a wholly untouched Basque-nationalism thread.
 | 0 | **José Antonio Aguirre** | first President of the Basque Country during the Spanish Civil War; after Franco's victory crossed occupied Europe under false papers, a Panamanian passport and a false name, through France, Belgium and Germany before reaching New York to run a government-in-exile |
 | 0 | **Julen Madariaga** | co-founder of ETA in 1959, a radical break from sabino_arana's just queued PNV youth wing |
 | 0 | **José Luis Álvarez Emparantza (Txillardegi)** | co-founder of ETA alongside julen_madariaga just queued, later broke with the organization's turn to violence and returned to academic linguistics |
+
+## Billionaire class, Epstein ties, and the PayPal mafia (2026-08-10)
+
+Proposed by El Gólem, extending elon_musk and peter_thiel already queued;
+approved by the author along with a wider tech/finance/fraud batch.
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Leslie Wexner** | founder of L Brands/Victoria's Secret, Jeffrey Epstein's original and primary financial patron who gave him power of attorney over his finances; the actual source of jeffrey_epstein's (already queued) wealth and access |
+| 0 | **Bill Gates** | Microsoft co-founder, documented multiple in-person meetings with jeffrey_epstein already queued after Epstein's 2008 conviction, cited directly in the Gates divorce filing |
+| 0 | **Leon Black** | founder of Apollo Global Management, paid jeffrey_epstein already queued roughly $158 million for 'tax and estate advice,' resigned as CEO once the payments became public |
+| 0 | **Reid Hoffman** | LinkedIn co-founder and PayPal mafia member, met with jeffrey_epstein already queued and later donated to charity over it; bridges the Epstein-ties and PayPal-mafia threads |
+| 0 | **Max Levchin** | PayPal co-founder and CTO, later founded Affirm; joins elon_musk and peter_thiel already queued in the corpus's PayPal-mafia material |
+| 0 | **David Sacks** | PayPal COO, later venture capitalist and political commentator; joins the same PayPal-mafia cluster |
+| 0 | **Larry Page** | Google co-founder alongside sergey_brin just queued, PageRank's co-inventor as a Stanford PhD student |
+| 0 | **Sergey Brin** | Google co-founder alongside larry_page just queued, the two inseparable in the founding story |
+| 0 | **Jeff Bezos** | founder of Amazon and Blue Origin, at various points the world's richest person, owner of The Washington Post |
+| 0 | **Mark Zuckerberg** | founder of Facebook/Meta, Harvard dropout who built the largest social network on earth |
+| 0 | **Larry Ellison** | co-founder of Oracle, among the wealthiest people alive, famous for a lavish yacht-and-island lifestyle |
+| 0 | **Sheldon Adelson** | Las Vegas Sands casino magnate, one of the largest Republican and pro-Israel political donors in US history; direct interlock with benjamin_netanyahu already queued |
+| 0 | **Miriam Adelson** | physician and philanthropist, Sheldon Adelson's just queued wife, owner of the Israeli newspaper Israel Hayom and major political donor in her own right |
+| 0 | **Bernie Madoff** | ran the largest Ponzi scheme in recorded history (roughly $65 billion), died in federal prison in 2021 |
+| 0 | **Charles Ponzi** | Italian immigrant swindler whose 1920s Boston scheme gave bernie_madoff's just queued crime its name |
+| 0 | **Alberto Fujimori** | Peruvian president 1990-2000, authoritarian 'autogolpe' in 1992, later convicted of human rights abuses and corruption; fled to Japan, was extradited from Chile to face trial; joins the corpus's Latin American strongman material (augusto_pinochet already done) |
+| 0 | **Sam Altman** | OpenAI CEO, Y Combinator alumnus and central figure of the current AI boom; part of the same Silicon Valley network as the PayPal mafia just queued |
