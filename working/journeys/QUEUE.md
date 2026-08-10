@@ -685,3 +685,10 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Larry Fink** | CEO and co-founder of BlackRock, the world's largest asset manager; joins jamie_dimon just queued in the corpus's contemporary-finance material |
 | 0 | **Larry Summers** | economist, US Treasury Secretary under Clinton, Harvard president forced out over the Larry Summers controversy; documented repeated contact with jeffrey_epstein already queued after Epstein's conviction, a further Epstein-ties interlock |
 | 0 | **Eduardo Elsztain** | Argentine businessman, chairman of IRSA and Cresud, Argentina's largest real estate group; major figure in the country's Jewish community and the Chabad-Lubavitch movement, with business ties running through the Kirchner-era governments (cristina_fernandez_de_kirchner already queued) |
+| 0 | **Bernard Arnault** | chairman of LVMH, world's richest person at various points; LVMH itself owns several houses already in the atlas (louis_vuitton, christian_dior), a direct interlock with the corpus's fashion cluster |
+| 0 | **George Soros** | Hungarian Jewish Holocaust survivor turned hedge-fund billionaire turned Open Society philanthropist; a genuine journey story, and a constant subject of the conspiracy material the corpus already carries |
+| 0 | **Warren Buffett** | chairman of Berkshire Hathaway, the 'Oracle of Omaha,' one of the most iconic investors alive |
+| 0 | **Steve Jobs** | Apple co-founder, sits in the same founder generation as bill_gates, mark_zuckerberg and jeff_bezos already queued |
+| 0 | **Rupert Murdoch** | chairman of News Corp and Fox, a global press empire with real political reach; direct contrast with robert_maxwell already queued, another press mogul of a different scale |
+| 0 | **Charles Koch** | chairman of Koch Industries, the libertarian donor network behind much of the funding for the Austrian-economics institutions the corpus already carries (ludwig_von_mises, friedrich_hayek already queued) |
+| 0 | **Carlos Slim** | Mexican telecom magnate, one of the world's richest people; joins the corpus's Latin American material from the business side |
