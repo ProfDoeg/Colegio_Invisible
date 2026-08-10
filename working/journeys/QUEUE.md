@@ -605,3 +605,17 @@ Rowan Hamilton was already queued; these fill the rest.
 | 0 | **James Clerk Maxwell** | Scottish physicist, unified electricity, magnetism and light into a single field theory and predicted radio waves before they were observed; not to be confused with robert_maxwell or jordan_maxwell already queued, different people entirely |
 | 0 | **Michael Faraday** | English physicist and chemist, self-taught bookbinder's apprentice who discovered electromagnetic induction and laid the ground james_clerk_maxwell just queued formalized; one of physics's great rags-to-genius journeys |
 
+## Whole missing domains (2026-08-10)
+
+Proposed by El Gólem after noticing entire traditions absent - classical
+music and literature's biggest names, Africa's single most spectacular
+journey; approved by the author.
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Miguel de Cervantes** | Spanish novelist, author of Don Quixote, captured by Barbary corsairs and enslaved five years in Algiers, lost the use of his left hand at the Battle of Lepanto; the biggest name in Spanish literature, entirely absent from the corpus until now |
+| 0 | **Mansa Musa** | 14th-century emperor of the Mali Empire, wealthiest person in recorded history; his 1324 hajj to Mecca gave away so much gold along the way it crashed Cairo's economy for years; ibn_battuta already done crossed Mali a generation later and may already name him in passing |
+| 0 | **Johann Sebastian Bach** | German Baroque composer and Leipzig cantor, walked some 250 miles to Lübeck as a young man just to hear Buxtehude play the organ; joins the corpus's music wing (richard_wagner, tchaikovsky already queued) as its foundational absence |
+| 0 | **Wolfgang Amadeus Mozart** | Austrian composer, child prodigy toured across the courts of Europe from age six, died at 35 in Vienna and was buried in a common grave; joins bach just queued in filling the corpus's classical-music gap |
+| 0 | **Ludwig van Beethoven** | German composer, went progressively deaf yet kept composing through it, conducted the premiere of the Ninth Symphony unable to hear the ovation behind him; joins bach and mozart just queued |
+
