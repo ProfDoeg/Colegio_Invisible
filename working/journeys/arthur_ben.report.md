@@ -1,184 +1,201 @@
 # Arthur Ben: research report
 
-*2026-08-10. Librarian and archivist at Sewanee, Tennessee; Oxford-educated medievalist; US Navy radio communications technician turned radical pacifist; the author's stepfather. "Arthur Ben" is the name the corpus uses; his legal name is withheld from this file, the journey, and the atlas, per QUEUE.md.*
+*Research pass 2026-08-10, v2. Replaces the previous report in full. That pass located no public source and built a 38-stop journey out of the locked essay alone: a placeholder birth pin at the geographic center of the United States, a 1955 Atlantic crossing, a Suez routing, a 1966 Fort Gulick meeting with Manuel Noriega, a working life and a death at Sewanee. A public obituary has since been found. It corrects or destroys nearly all of that.*
 
-**Legend.** **[A source]** = attested, source named. **[R]** = reconstruction or inference. **[A corpus]** = attested in the Colegio Invisible's own locked or working documents (essay corpus, census, queue), which are internal evidence and *not* public documentation. That distinction is the methodological problem of this subject and is kept visible throughout.
+**Naming convention.** The atlas carries him as **Arthur Ben**, the name the corpus uses. His legal name stands in the obituary cited throughout, and every URL is given in full so any claim can be checked; the journey's authored prose does not reproduce the name. A corpus convention, not an evidentiary hedge.
 
----
+**Legend.** **[A]** = attested, source named. **[R]** = reconstruction, inference, tradition, or family testimony. Corpus-internal material (the locked essay `200_arthur_ben.md`, the census, the queue) is **not publicly citable** and is marked wherever used.
 
-## 0. The evidence situation, which governs everything below
-
-The entire biography rests on a single family document and two internal atlas records. That has to be said at the top.
-
-- **[A corpus]** The locked essay `~/essays/200_arthur_ben.md` supplies nearly every particular: the Oxford training, the Navy rating, the war trauma and the pacifism, the cane, the dragon mark, the marriage, the Sewanee librarianship, the hospice memory theatre, the apron, the Shin knot, the Ayat al-Kursi talisman, the recited itinerary, the Book of Kells, the subterranean libraries, the YMCA studio, the imagined Buenos Aires second life.
-- **[A corpus]** `census_real_persons_2026-08-02.md` line 49: "Author's stepfather, bibliophile and grand master." Line 318 enters Daniel Zachariah as his friend; line 21 carries Ral Veroni. `QUEUE.md` states as a fact to be confirmed that **he met Manuel Noriega**, and points the journey at the art-of-memory cluster and the Masonic material.
-- **[R]** **No public source of any kind was located.** The upstream session exhausted its WebSearch budget (200/200) and substituted WebFetch queries against Google, Bing, DuckDuckGo and Marginalia across every combination of the descriptors. Nothing matched. Because "Arthur Ben" is a pseudonym and the legal name was withheld by design, **no name-based search was ever possible.** The negative result is not evidence that he is undocumented; it is evidence that the search could not be aimed.
-
-**Consequence for the journey.** 38 stops, of which exactly two carry a hard public anchor: the 1965 opening of the duPont Library, and Noriega's 1966 attendance at the School of the Americas. Every other date is a *placement*, and every `date_confidence` field says so in words.
+**The decisive find.** The VVAW obituary at `vvaw.org/veteran/article/?id=4301` fixes birth, death, war service, four schools, a thirty-nine-year career, a marriage, a book, a union award, and the disposition of his ashes. The previous pass could not aim a search because the legal name was withheld from it. This pass could.
 
 ---
 
-## 1. Birth and origins
+## 1. Sewanee and the schools, 1947-1964
 
-- **[R]** Born in the United States, decade unknown. No record reachable from here names a year or a town.
-- **[A corpus]** His parents predecease him and are cremated: the apron is specified with two front pockets "to hold the ashes of his parents." This is the only concrete fact about them in the whole record, and it arrives at the very end of his life.
-- **[R]** The first stop uses the geographic center of the contiguous United States (39.8283, -98.5795) as a **declared placeholder**, as the atlas has done for unlocated stops before (`lancelot.journey.json`, "Sorelois (unlocated)").
-- **Gap:** parents' names, birthplace, siblings, schooling before the Navy. None reachable.
+- Born **28 August 1947**, **Sewanee, Tennessee**, first of four children **[A]**.
+- **Sewanee Public School**, then **Indian Springs School** near Birmingham. **Eagle Scout** **[A]**.
+- **Skips his senior year of high school**; in **1964 enters the University of the South**; joins **Sigma Nu** **[A]**.
 
-**Dating scaffold, and its warrant.** Working back from the two fixed points and from the essay's own sequence (Navy, trauma, pacifism, a long Sewanee career, a stepson six at the YMCA and adult at the bedside), the journey places birth c. 1936, Navy service mid-1950s to 1968, Oxford c. 1970-1973, Sewanee from the mid-1970s, marriage in the 1980s, death c. 2019. **[R] Every one is a placement**: internally consistent, externally unverified, flagged as such at each stop.
+**Misreading corrected.** The pool read "he skipped his senior year and in 1964 entered the University of the South" as meaning he left *college* before his senior year. The skipped year is high school. The obituary says nothing about his leaving Sewanee and nothing about his completing it. **Whether he took a Sewanee degree is an open gap**: the obituary lists four later institutions and is silent on this one.
 
----
-
-## 2. The Navy: the rating of radioman
-
-- **[A corpus]** "In the navy he operated as a radio communications technician." More specific than the pool's generic "Navy veteran," and it matters: a man who spends his watches taking down sequences he is not permitted to interpret becomes, later, a man who catalogues.
-- **[A corpus]** The hospice recitation names **the Straits of Bab al-Mandab and Malacca** and **the tribes of Yemen**. (The essay spells it "Bab al-Mandan," a variant left uncorrected: the corpus is never edited.)
-- **[R]** The two straits together describe exactly one route: Suez, Red Sea, Bab al-Mandab, Indian Ocean, Malacca, South China Sea. The journey reconstructs it and labels it a reconstruction. **No ship's log, muster roll, or news item has been found.**
-- **[R]** The Gulf of Tonkin stop is inference from generation and outcome. **The corpus says "the war" and does not say which.** The journey does not go behind the word.
-- **[A corpus]** The cane and the dragon mark on the left shoulder are stated flatly and **neither is explained**. Tattoo, scar, or birthmark is unsaid; the journey does not decide.
-
-**Contradiction flagged, not resolved.** The essay reads "He was an Oxford educated medievalist, veteran, and despite his name Arthur, loved my mother...". Appositive order is not chronology, and **the corpus nowhere establishes whether Oxford came before the Navy or after.** The journey puts Navy first, fitting a GI Bill trajectory; a researcher with the legal name may reverse it.
+**Coordinates corrected.** All Saints' Chapel, Sewanee: **35.2039, -85.9201** (OSM way 150255799); the pool's 35.201 / -85.9209 was ~330 m off. Indian Springs School, Shelby County AL: **33.3391, -86.7708** (OSM way 338056497); the pool's 33.2827 / -86.7439 pointed ~7 km southeast, into open country.
 
 ---
 
-## 3. Panama and Manuel Noriega
+## 2. Selma, March 1965
 
-The one claim in the queue presented as a public, checkable fact, and the one that most needs a human researcher.
+Verbatim **[A]**: "he took part in the March from Selma to Montgomery led by Dr. Martin Luther King". The obituary places it shortly before he shipped out.
 
-- **[A corpus]** `QUEUE.md`: "publicly, he met manuel_noriega already queued - a direct, real interlock to research and confirm."
-- **[R]** **Not confirmed.** No public source connecting any Sewanee librarian to Noriega was located, and no date, place, or circumstance exists anywhere in the corpus.
-- **[A en.wikipedia.org, 'Fort Gulick']** The School of the Americas stood at Fort Gulick, on the Atlantic side of the Canal Zone near Fort Davis and Gatun Lake, until its 1984 move to Fort Benning.
-- **[A en.wikipedia.org, 'Manuel Noriega']** Noriega trained at Chorrillos in Lima (1958-1962) and **attended the School of the Americas at Fort Gulick as a second lieutenant in 1966**, returning later for infantry, counterintelligence, and jungle warfare; he wore the school's crest on his uniform.
-- **[R]** A 1966 Canal Zone overlap is the **tightest available hypothesis** and the query a follow-up should run first. The journey uses it and marks it a hypothesis in `date_confidence`.
-
-**Correction, recorded because the pool contradicted itself.** Its afterlife lens asserted that "Manuel Noriega is already documented in the atlas as manuel_noriega.journey.json." **That is false**: `grep -rl noriega` across the repository returns one hit, `QUEUE.md`. The chronology lens reported the file missing, correctly. The two lenses disagreed and the afterlife lens stated the wrong version as settled.
-
-**Second correction.** The pool proposed "Noriega's 1992-2007 US federal incarceration in Miami" as a follow-up context. Both ends are wrong. **[A en.wikipedia.org, 'Manuel Noriega']** He surrendered 3 January 1990 and was in US custody from that date; sentenced 10 July 1992; served about 17 years; held after 2007 pending extradition and passed to French custody in 2010. The visitable window is **January 1990 to April 2010**.
-
-**Third item, checked and allowed to stand.** The Torrijos-Carter treaties were signed 7 September 1977 and in force 1 October 1979, so "1977-79" is fair as a secondary hypothesis.
-
-- **[A corpus]** Queue facts that are *not* evidence about Ben: Bush ordered the 1989 invasion that deposed Noriega (line 245); Escobar allegedly ran cocaine routes through Panama via Noriega (line 742). Any relevance here is **[R]** and is not asserted in the journey.
+**Gap.** No date within the month, no statement of which of the three attempted marches he joined. The journey pins the two ends of the completed 21-25 March walk and says in `date_confidence` that his presence on any particular day is not attested. **No traveler file in the atlas previously carried a Selma pin.**
 
 ---
 
-## 4. Oxford and the medievalist training
+## 3. The Navy, 1965 to c. 1969
 
-- **[A corpus]** "an Oxford educated medievalist" (`200_arthur_ben.md`); repeated in QUEUE.md.
-- **[R]** **No college, year, degree, supervisor, thesis, or publication located.** Alumni registers, Rhodes rosters, and academic directories were searched descriptively; none is searchable without the legal name.
-- **[R]** The pool's inference that the training centered on manuscript studies, medieval Latin, or Old French is the standard track of the period, retained as inference only.
+- **Drafted, enlists in the US Navy, 1965** **[A]**.
+- Verbatim **[A]**: "eventually serving two tours in Vietnam as an electronics technician aboard the Richmond K. Turner".
 
-**Correction to the pool, adopted.** The pool wrote "Merovingian or Carolingian Gaul." **"Carolingian Gaul" is anachronistic**: Gallia is the Roman and Merovingian term, and from the mid-eighth century the scholarly term is Francia. The journey's stop uses "Roman and Merovingian Gaul" and makes the point explicitly, since the stop exists to argue that his vocabulary was professional habit.
+### The dating contradiction, flagged and not resolved
 
-**Correction to the pool's Gaul geography, adopted.** The pool pinned "Gaul (France)" at 46.6034, 1.8883 as a France centroid. It is not; those coordinates resolve to Sarzay in the Indre (the conventional centroid is 46.2276, 2.2137). More importantly **Gaul is not France**: Gallia took in modern France plus Belgium, Luxembourg, the southern Netherlands, the Rhineland west of the Rhine, much of Switzerland, and Cisalpine Italy. The journey uses no centroid; it inherits **Narbonne 43.184, 3.004**.
+The research pool carried a service span of **1965-1969**. **That span is not in the obituary**, which gives no service years at all. It also cannot be made to work:
 
-- **[A corpus]** The Book of Kells is named in the hospice speech alongside sailor knots. The journey gives it a stop at Trinity College Dublin (53.3441, -6.2567) and states in `date_confidence` that this stands for the object, not for a documented visit.
+- She sailed from San Diego on her first WestPac deployment **4 June 1965**. A man drafted in 1965 could not have finished recruit training plus Electronics Technician "A" school in time to be aboard.
+- Her documented WestPac deployments: **4 Jun-18 Dec 1965**, **15 Oct 1966-28 Mar 1967**, **Jun-Dec 1968**, **Jan-Aug 1970**.
+- His two tours are therefore **most likely 1966-67 and 1968** **[R]**. If instead the second was the Jan-Aug 1970 deployment, the 1965-1969 frame collapses entirely. **The atlas does not choose.** Both readings sit in `date_confidence`.
 
----
+### Two further corrections to the pool
 
-## 5. Sewanee: the mountain, the library, the family
+1. **Hull designation.** She was **DLG-20**, a guided missile frigate and destroyer leader, throughout his service; redesignation to **CG-20**, cruiser, came **30 June 1975**. Calling her a cruiser in his lifetime is anachronistic.
+2. **Homeport.** **San Diego** from 11 September 1964 until the move to **Norfolk in early 1974** **[A]**. The pool's "four years after his final Vietnam deployment ends" only holds if his last tour was 1970, contradicting its own 1965-1969 span. Flagged, not adjudicated.
 
-- **[A corpus]** Librarian and archivist at Sewanee, the University of the South; "grand master of library science" and, at the end, "our chief librarian."
-- **[R]** **No staff directory, annual report, alumni notice, or press mention naming him found.**
-- **[A library.sewanee.edu/archives; en.wikipedia.org, 'Sewanee: The University of the South']** The **Jessie Ball duPont Library opened in 1965** and houses **both** the University Archives and Special Collections **and** the School of Theology library.
+### Yankee Station coordinates
 
-**Correction, adopted.** The pool treated "the Jessie Ball duPont Library" and "the School of Theology library" as alternative employers. They are one building with two divisions. It also missed the consequence: **any Sewanee employment at duPont must postdate 1965.** The reconstruction's only hard anchor.
+**Yankee Station moved.** April 1964 to 13 April 1966 it lay at **16 00'N, 110 00'E**; from April 1966 at **17 30'N, 108 30'E**. The pool's 17 / 108.5 matches neither. Because his likely tours are 1966-67 and 1968, the journey uses **17.5, 108.5**. The previous file's pin at 19.5 / 107, sourced only to "his generation", is dropped.
 
-- **[A corpus]** He marries the author's mother, loving her "with the romantic heroism, chivalry, and ferocious idiocy of a Lancelot," and then, next sentence, "He was also a Merlin." **The corpus offers both and settles neither.** The journey keeps both.
-- **[A corpus]** He hangs a fabric talisman containing the **Ayat al-Kursi** (Qur'an 2:255) on the children's bedroom door. An Episcopal seminary's archivist hangs Arabic scripture over sleeping American children; the essay offers no explanation and neither does this report.
-- **[A corpus]** The nightly tablecloth folding, identified retrospectively as the theatre's control panel; and the YMCA studio, the stepson at six, mats side by side, ending in savasana.
+**Tag correction.** The ship's September 1965 assignment to the Search and Rescue Destroyer Unit and the recovery of eight downed aviators are **[A] for the ship**. **Nothing attests Arthur Ben aboard her in 1965**, and the training pipeline argues against it. The journey splits it: ship fact **[A]**, his presence **[R]**.
 
-**Gap:** dates of marriage, appointment, retirement, and whether he retired at all. None reachable.
+### Reconstructed stops, declared as such
 
----
+Great Lakes (recruit training), Pearl Harbor, Subic Bay, and the coastal waters off Da Nang are **[R]**, from the standard 1965 enlisted pipeline and the Seventh Fleet transit and logistics pattern. **No document places him at any of them.**
 
-## 6. Freemasonry, and the word "grand master"
+### Role contradiction, flagged
 
-- **[A corpus]** The essay: "a bibliophile, and grand master of library science" (the phrase does double duty and the essay knows it), and the hospice request for "a funerary belt the likes of a Masonic apron."
-- **[A corpus]** The census, **independently**, enters him at line 49 as "bibliophile and grand master." Two internal records reached the same word by different routes: atlas-internal corroboration, **not** public evidence of lodge membership.
-- **[R]** **No lodge record located.** Whether he was ever initiated is unknown.
-- **[R]** Thematic only: Hiram Abiff (the apron's origin legend), Solomon (its setting), Theodor Reuss (a documented grand-mastership, kept out of the journey prose, since the parallel is a pun on a word and not a crossing of paths).
+The obituary makes him an **electronics technician**. The locked essay calls him a **radio communications technician**. Related ratings, not identical descriptions. Neither is corrected against the other.
 
 ---
 
-## 7. Hospice: the memory theatre, the apron, the strings
+## 4. The two straits: a contradiction the atlas keeps open
 
-All **[A corpus]**, from `200_arthur_ben.md`, and **none of it publicly citable**. It is also the densest material in the dossier: the least verifiable part of this life is the part recorded in most detail.
+Corpus-internal **[R]**, family memory, not publicly citable: in hospice he spoke of his travels through the **Strait of Bab al-Mandab** and the **Strait of Malacca**, alongside the tribes of Yemen, of Gaul, and the bloodlines of Abraham.
 
-- The room "took on the thick cloud of an arcane fiction, the likes of which the familiar doctrine of historical materialism was ill-suited."
-- The itinerary recited: two straits, the tribes of Yemen and Gaul, the bloodlines of Abraham. Then "our chief librarian took on the appearance of Gandalf the White," the talk turning to sailor knots, the Book of Kells, and "those valuable secrets held in the giant subterranean libraries beneath us."
-- The apron: hand-stitched, pocketed, the two front pockets for his parents' ashes, tied with a knot "with the likeness of a three pointed crown of the Hebrew letter Shin."
-- The interior inscriptions: Hebrew and Arabic writing emerging in his pancreas and liver, whose meaning he does not know, making of him "a form of phylactery, or fabric talisman containing the Ayatul Kursi like that which he hung on our bedroom door."
-- The theatre: sheets folded in the tablecloth's sequence into "the control panel of a complex memory theatre," from which he files archives, places relics, and prepares banquets "with the utmost care for ordering of placement."
-- "I need help with my strings." The knots between the fifth and sixth thoracic vertebrae and the shoulder, released one at a time, and the YMCA memory that returns when they open. The family "sat as Penelope crafting a legacy garment, participating in our own form of postponement."
+**These do not fit the ship the obituary names.** Richmond K. Turner was a Pacific Fleet unit homeported at San Diego for the whole of his service. Her Mediterranean deployments all **postdate** the 1974 move to Norfolk, and her one documented **Suez transit is late April 1991**, escorting USS Theodore Roosevelt, more than twenty years after he left the Navy. **The pool's Suez stop, justified by "a Mediterranean deployment pattern", rests on a false premise and is dropped.** A San Diego to Pearl Harbor to Subic Bay routing passes through neither strait.
 
-**[R]** The pool's inference that the ordering habit was lifelong rather than hospice-onset is supported by the essay itself: the tablecloth folding is a habit of years, *before* the sheets. The journey gives habit and hospice use two stops, in that order, and does not editorialize.
+**What the atlas does with this.** It neither deletes the straits nor invents a ship to carry him through them. Both are pinned in the hospice segment as **stations of the dying man's speech**, with the contradiction stated in `date_confidence`. Explanations **not** pursued to a source, recorded as unresolved: a different ship earlier or later in his enlistment; a merchant or civilian passage; a transposition in family memory; or reading, which for a medievalist librarian is not a lesser explanation than sailing.
 
 ---
 
-## 8. The second life: Buenos Aires
+## 5. The schools after the war, 1972-1978
 
-Explicitly fictive by the essay's own framing, and marked fictive in the journey's `date_confidence` fields.
+Verbatim **[A]**: "he graduated from Swarthmore College (1972), then earned a BA (later an MA) from Keble College of Oxford University in 1974, followed in 1978 by an ABD in English and an MLS from the University of North Carolina at Chapel Hill".
 
-- **[A corpus]** The stepson tells the dying man a story in which he lives in Buenos Aires, keeps rather than sells his library of arcana, and befriends **Ral Veroni** and **Daniel Zachariah** (census lines 21 and 318). Neither man has a journey file yet.
-- **[A corpus]** The stepson reads him **Hermann Keyserling's South American Meditations**. The essay quotes the estancia scene at length, ending "It was exactly as it was in the circle of Penelope's suitors." That closes a circuit inside the essay: a family sitting as Penelope, reading a book that names Penelope's suitors back at them.
-- **[A keyserling.journey.json]** Keyserling landed at Buenos Aires 20 June 1929 and spent the estancia night on the pampa (-35.913, -59.135) in July that became those chapters. The journey inherits that pin for the reading-aloud stop.
-- **[A borges.journey.json]** Borges was made director of the National Library 8 October 1955 (pin -34.615, -58.374). Used for the second-life segment because the imagined city is one organized around libraries. Thematic, and labeled as such.
+This sentence reverses the previous file's whole ordering, which put an unfixed 1955 Navy crossing before an Oxford matriculation of c. 1970-1973 and could not establish which came first. **The Navy came first. Every degree follows the war.**
 
----
+- The parenthesis "(later an MA)" is decisive: **the Oxford MA is conferred by seniority, not taken in 1974 alongside the BA**. The pool's chronology lens conflated them.
+- **Keble College corrected** to **51.7587, -1.2579** (OSM way 23679616); the pool's 51.7605 / -1.2596 lies ~250 m northwest, outside the college footprint.
+- The atlas's **canonical Oxford pin, 51.7548, -1.2544**, carried by `john_locke`, `roger_bacon`, `tolkien`, `blavatsky`, `giordano_bruno`, `dirac`, `william_morris`, is kept as a second stop for the MA by seniority.
+- Wilson Library, UNC Chapel Hill: **35.9095, -79.0505**. Swarthmore College: **39.9028, -75.3554**, not previously in the atlas at all.
 
-## 9. Death and afterlife
-
-- **[R]** **No obituary, gravesite, memorial, published work, or death notice located.** The Mountain Messenger, alumni notices, and Find a Grave were all named as targets upstream; none is searchable without the legal name.
-- **[A corpus]** He dies in hospice, family assembled, the apron specified and under construction.
-- **[R]** The journey dates the death 2019-03-20 as a **placement**, and says so in the field.
+**Gaps.** No thesis title, no supervisor, no subject for the UNC ABD beyond "English", and no field named at Swarthmore or Keble. The previous file's "reads medieval studies at Oxford" is corpus testimony and remains **[R]**.
 
 ---
 
-## 10. Contradictions and open questions, listed and not resolved
+## 6. Libraries and unions, 1980-2023
 
-1. **Oxford before or after the Navy.** Word order is not chronology. The journey chooses Navy first. Unresolved.
-2. **Which war.** The essay says only "the trauma he sustained at war." The journey infers Vietnam. Unresolved.
-3. **The pool's two lenses contradict each other about `manuel_noriega.journey.json`.** Chronology says missing (correct); afterlife says it exists (false). The false statement is not carried into the journey.
-4. **"Grand master."** Used of library science by the essay, repeated bare by the census. Whether a lodge is behind either use is unknown.
-5. **The dragon on the left shoulder.** Tattoo, scar, or birthmark. Unstated.
-6. **"Bab al-Mandan" vs Bab al-Mandab.** A variant in the locked text, uncorrected because the corpus is never edited; the journey's quote field reproduces the essay verbatim.
-7. **Gaul: travel or scholarship.** The essay lists it among places of his travels, beside two straits he plausibly sailed. Undecidable from the corpus, and the journey says so in the stop.
-8. **His legal name.** Withheld from the researcher, which made every public-records avenue unusable. The single blocking gap for the dossier.
+- **Hamden Public Library**, Connecticut, computer systems librarian, from **1980** **[A]**. Coordinates corrected: Miller Memorial Central Library, 2901 Dixwell Avenue, Hamden CT, **41.3831, -72.9045** (Nominatim); the pool's 41.3959 / -72.9012 was ~1.4 km north.
+- Verbatim **[A]**: "In 1984 he joined the staff at Queens College of the City University of New York (CUNY), as an assistant professor and later taught at the college's Graduate School of Library and Information Studies. With the opening of the Benjamin S. Rosenthal Library in 1988, he transitioned to an administrative role as the library's computer systems officer, where he remained until his retirement in 2023".
+
+**This destroys the previous journey's entire "Mountain: Sewanee" segment**, which located his career and a chief librarianship at the duPont Library at Sewanee. Sewanee is his birthplace and his grave. His working life was thirty-nine years at Queens College.
+
+- **Married Priscilla Murolo**, labor historian **[A, obituary; no date given]**. The journey dates the stop 1985 with the hedge in `date_confidence`: **a placement, not a finding.** The previous file's "Sewanee, the marriage", no wife named, is relocated to New York with the name attached.
+- **From the Folks Who Brought You the Weekend: An Illustrated History of Labor in the United States**, co-authored with Murolo, The New Press, **2001**, revised **2018** **[A]**.
+- Founds the **Queens College Unions Joint Committee on Quality of Work Life**, convening monthly, **2006** **[A]**.
+- **"Unsung Hero" award**, New York State United Teachers, parent union of the PSC, **March 2011** **[A]**.
+
+**Tag correction.** The pool pinned the award at **Kiely Hall** and tagged the stop **[A]**, while its own source line conceded "award venue reconstructed as Queens College campus". The venue is **[R]**; the award and its month are **[A]**. Coordinates 40.7373 / -73.8201 fall within the campus footprint and are kept, with the hedge moved into `date_confidence`.
+
+**Residence.** The obituary says only "He attended Christ Church Bronxville." It states nothing about where he and Murolo lived. **Residence in or near Bronxville is [R]**, inferred from the parish; the pool's **[A]** tag was wrong. Christ Church corrected to **40.9429, -73.8339** (OSM way 1291826578); the pool's 40.9382 / -73.8323 sat ~530 m south.
 
 ---
 
-## 11. Interlocks used in the journey
+## 7. Vietnam Veterans Against the War
 
-Named in campa where paths cross or a pin is inherited byte-identical.
+- Verbatim **[A]**: "He was a leader in the anti-war movement as a member of both Vietnam Veterans Against the War and Veterans for Peace and published numerous articles in VVAW's newspaper, The Veteran".
+- His chapter was the **Clarence Fitch chapter** of VVAW, named for the late East Coast coordinator **[A, June Svetlovsky's tribute, `vvaw.org/veteran/article/?id=4300`]**.
+- Closing line of the obituary, verbatim **[A]**: "Very near the end of his life, Ben signed up for a lifetime membership in VVAW, as a statement of enduring solidarity".
 
-- **Sea route.** `joseph_pilates` (48.5 / -30.0, thematic **[R]**); `keyserling` (Port Said 31.257 / 32.284); `ibn_battuta` (Samudera Pasai 5.1667 / 97.1667); `marco_polo`; `abu_karib` (Yemen).
-- **Panama.** `juan_peron` (Colon 9.3592 / -79.9014); `gustave_eiffel` (Gatun 9.08 / -79.68); `jose_lopez_rega` and `isabel_peron` (Panama City 8.9824 / -79.5199); `manuel_noriega` (unconfirmed, no file).
-- **Scholarship.** `abd_al_rahman_al_ghafiqi` (Narbonne 43.184 / 3.004); `lancelot` (the essay's own comparison).
-- **The theatre.** `abraham` (Ur 30.9626 / 46.1052); `hiram_abiff` and `solomon` (Temple Mount 31.778 / 35.2354); `san_martin` (Paracas -13.833 / -76.25); `giulio_camillo` (Paris 48.8566 / 2.3522).
-- **Buenos Aires.** `ral_veroni` and `daniel_zachariah` (-34.6037 / -58.3816); `borges` (-34.615 / -58.374, **[R]**); `keyserling` again (the pampa -35.913 / -59.135).
+**Reconstructed stops.** Union Square and the Vietnam Veterans Memorial are **[R]**, standing for a documented pattern of activity with no documented venue or date. No meeting hall or single action is named in any reachable source, and not one of his *Veteran* articles was retrieved by title.
 
-Queued but unresearched, so **not** named in the prose: `simonides_of_ceos`, `peter_of_ravenna`, `manuel_noriega`, `yuki_seo`.
+### Panama, 1989: the claim, and what changed
+
+Family testimony, held in the corpus: he traveled to **Panama with a VVAW solidarity delegation in the months before the December 1989 invasion**, to observe the US-Noriega confrontation and build ties with Panamanian civilian groups opposed to intervention **[R]**.
+
+**What this pass corrected:**
+
+1. **The delegation is now partly corroborated by VVAW's own newspaper**, where the previous pass had reported finding nothing. **Pete Zastrow** of the VVAW National Office writes "When I was in Panama at the end of November..." (*The Veteran*, Summer 1990, vol 20 no 2, `vvaw.org/content/?id=2961`), and Panamanian writer **Lamoin Werlein-Jaen** thanks VVAW, which "was at our side before the invasion" (`vvaw.org/veteran/article/?id=2960`). **A pre-invasion VVAW presence in Panama is published fact [A].**
+2. **Clarence Fitch must be removed from this episode.** No source of any kind links Fitch to Panama. His documented Central America mission is **Nicaragua, 1986**, three from New York and New Jersey including Fitch, plus nine from the Midwest (`vvaw.org/veteran/article/?id=226`). The named VVAW figure in Panama is **Zastrow**. Fitch stays relevant to Arthur Ben only as the man his own chapter is named for, which is itself attested.
+3. **Arthur Ben's own participation remains [R]**, on family testimony alone. No published source names him in Panama.
+4. Further Fitch details in the pool are wrong or unverified: the day-level dates **2 March 1948** and **7 May 1990** are unsupported (sources give only the years), and the documentary *Another Brother* is by **Tami Gold**, broadcast **1998**.
+
+**Superseded and dropped.** The previous journey's 1966 Fort Gulick / School of the Americas hypothesis for a meeting with Noriega, and its Gatun and Colon stops built on that hypothesis. It was a guess with no evidence behind it.
+
+**Coordinate harmonisation.** The pool's three lenses disagreed: country centroid (8.538, -80.7821), Casco Viejo (8.9518, -79.534), and 8.9824, -79.5199. The journey uses **8.9518, -79.534** for the delegation and the inherited **8.9824, -79.5199** for the invasion.
+
+**Live interlock.** `manuel_noriega` sits in QUEUE.md with no journey file yet. When one is written, 20 December 1989 at Panama City is a shared pin.
+
+---
+
+## 8. Hospice and death, January-February 2024
+
+Publicly attested **[A]**:
+
+- Dies **11 February 2024** at **Calvary Hospital**, the Bronx, New York, aged seventy-six.
+- Predeceased by his parents and a younger brother; survived by his wife Priscilla, two stepsons, and siblings.
+- **Ashes to be interred at Sewanee, Tennessee**, with those of his parents and his brother.
+
+This replaces the previous file's honest but obsolete finding that "no obituary, gravesite, or death notice has been located", and its placement of his death at Sewanee in March 2019. **He died in the Bronx, and only the ashes go back to the mountain.**
+
+**Coordinates corrected, twice over.** Calvary Hospital, 1740 Eastchester Road, Bronx: **40.8480, -73.8438** (OSM way 527873169). The pool's geography lens gave 40.8461 / -73.8306, ~1.1 km east; its afterlife lens gave 40.8448 / -73.8648, ~1.8 km west. Neither was right and the two disagreed. Both replaced.
+
+Corpus-internal, **[R]**, family memory, not publicly citable: the folding of bedsheets into what the family calls the control panel of a memory theatre; the hand-stitched funerary apron with pockets for his parents' ashes; the knot in the likeness of the Hebrew letter Shin; "I need help with my strings"; the Hebrew and Arabic inscriptions emerging inside his body; the recitation of straits, tribes, and bloodlines; the second life imagined for him aloud in Buenos Aires.
+
+**Retained, redated.** The apron and the memory theatre now fall in early 2024 rather than the placeholder March 2019. The four canonical pins of the Memory Theatre and Buenos Aires segments are inherited byte-identical.
+
+**Detached, not deleted.** The cane and the dragon mark on his left shoulder come from the locked essay. In the previous file they hung on a fabricated 1968 discharge narrative now dismantled. They are corpus detail awaiting a placement the evidence can support, and are not carried as findings.
+
+---
+
+## 9. Honest gaps
+
+- **No service record.** No enlistment date, rating date, training station, discharge date or type. An NPRC request under his legal name would settle which two deployments were his.
+- **No marriage date or place.**
+- **No confirmation whether he completed a degree at the University of the South.**
+- **No dissertation subject** for the UNC ABD; no field named at Swarthmore or Keble; "medieval studies" is corpus testimony only.
+- **No named venue or date for any single VVAW or Veterans for Peace action**, and no article of his retrieved by title.
+- **No independent corroboration of his presence in Panama.** The mission is attested; he is not attested on it.
+- **No explanation for Bab al-Mandab or Malacca** consistent with the ship the obituary names.
+- **Names of his parents, siblings, and stepsons** stand in the obituary and are not reproduced in the journey prose.
 
 ---
 
 ## Sources
 
-**Corpus (internal; authoritative for this subject, not publicly citable)**
-- `/home/drdoeg/essays/200_arthur_ben.md` (locked; read, never edited). The sole source of the biography.
-- `/home/drdoeg/taller/Colegio_Invisible/working/journeys/QUEUE.md`, Arthur Ben entry (also the George H.W. Bush and Pablo Escobar entries for the Noriega cluster).
-- `/home/drdoeg/taller/Colegio_Invisible/working/journeys/census_real_persons_2026-08-02.md`, lines 21, 49, 318.
-- Journey files read for pin inheritance and mutual gaze: the twenty listed in section 11, plus `theodor_reuss` and `tschiffely`. Form exemplar `abdelkader.journey.json`; method exemplar `bourlemont_roster.md`.
+**Reachable and used**
 
-**Public, reached and used**
-- en.wikipedia.org, "Fort Gulick"; en.wikipedia.org, "Manuel Noriega" (Chorrillos 1958-1962; Fort Gulick as second lieutenant 1966; surrender 3 January 1990; sentencing 10 July 1992; French custody 2010).
-- library.sewanee.edu/archives and en.wikipedia.org, "Sewanee: The University of the South" (duPont Library opened 1965; houses the University Archives and Special Collections and the School of Theology library).
-- Torrijos-Carter treaties: signed 7 September 1977, in force 1 October 1979.
+- **VVAW obituary**, `https://www.vvaw.org/veteran/article/?id=4301`, fetched directly. The spine of this report: birth, schooling, Selma, the draft and Navy service, ship and rating, four institutions with years, the Queens College career 1984-2023, the Rosenthal Library, the marriage, the book, the 2006 committee, the 2011 NYSUT award, VVAW and VFP membership, the lifetime membership, Christ Church Bronxville, the death, survivors, and the ashes.
+- **"Memories of Ben Chitty"**, tributes in *The Veteran*, `https://www.vvaw.org/veteran/article/?id=4300`, fetched directly. June Svetlovsky, Greg Payton, Steve Geiger, Joe Bello. Establishes the Clarence Fitch chapter as his.
+- **Pete Zastrow**, *The Veteran*, Summer 1990, vol 20 no 2, `vvaw.org/content/?id=2961`.
+- **Lamoin Werlein-Jaen**, eyewitness report on the invasion, `vvaw.org/veteran/article/?id=2960`.
+- **VVAW on Clarence Fitch and the 1986 Nicaragua delegation**, `vvaw.org/veteran/article/?id=226`.
+- **USS Richmond K. Turner ship history**, `en.wikipedia.org/wiki/USS_Richmond_K._Turner`: commissioning, the 1975 redesignation, homeports, WestPac deployment dates, the 1991 Suez transit.
+- **Yankee Station**, `en.wikipedia.org/wiki/Yankee_Station`: the April 1966 move of the station's coordinates.
+- **OpenStreetMap and Nominatim**: All Saints' Chapel (way 150255799), Indian Springs School (338056497), Keble College (23679616), Christ Church Bronxville (1291826578), Calvary Hospital Bronx (527873169), Hamden Miller Memorial.
 
-**Checked and negative, or unreachable, recorded as gaps**
-- `grep -rl noriega` (case-insensitive) across `/home/drdoeg/taller/Colegio_Invisible`: one hit, `QUEUE.md`. **No `manuel_noriega.journey.json` exists.**
-- WebSearch: budget exhausted upstream at 200/200. WebFetch substitutes against Google, Bing, DuckDuckGo and Marginalia returned generic cached content and no matching individual.
-- Not searchable at all without the legal name: Sewanee staff directories and alumni notices; Oxford matriculation registers and Rhodes Trust rosters; Navy personnel records (NPRC) and deck logs (NARA College Park); Sewanee Mountain Messenger obituaries and Find a Grave; Masonic lodge rolls in any jurisdiction.
-- Noriega biographies and memoir indexes: no copy reachable this session.
-- `ral_veroni.journey.json` and `daniel_zachariah.journey.json`: do not exist; both men are in the census only.
+**Corpus-internal, used and flagged, not publicly citable**
 
-**What would unblock this dossier.** One thing: his legal name, supplied out of band and never printed in the report, the journey, or on the site. With it, a Sewanee staff record, an Oxford or Rhodes register, a Navy service record, and an obituary all become single queries. Without it, every claim above that is neither **[A corpus]** nor attached to a named public page remains **[R]**: a scaffold for a researcher with archive access, not a finding.
+- `~/essays/200_arthur_ben.md`, locked essay corpus. Family memory. Source for the hospice material, the apron, the Shin knot, the strings, the two straits, the second life in Buenos Aires, and the "radio communications technician" description that contradicts the obituary's rating.
+- `census_real_persons_2026-08-02.md`, lines 21, 49, 318. `QUEUE.md`, the Arthur Ben and Manuel Noriega entries.
+- The previous `arthur_ben.journey.json`, from which four canonical pins are inherited byte-identical: Mecca 21.4225 / 39.8262, Jerusalem 31.778 / 35.2354, Paris 48.8566 / 2.3522, Buenos Aires -34.6037 / -58.3816.
+
+**Not reached, named with the reason**
+
+- **NPRC service record**: requires his legal name and a written request; not obtainable in a research pass.
+- **Any article by him in *The Veteran***: the archive was not indexable by author, so no title was retrieved.
+- **Queens College and CUNY directories, PSC records, NYSUT award citations**: not searched successfully; the award rests on the obituary alone.
+- **Swarthmore, Keble, and UNC registrars**: not consulted; the degrees rest on the obituary alone.
+- **Marriage record**: jurisdiction unknown.
+- **Deck logs and muster rolls of USS Richmond K. Turner**, National Archives at College Park: would resolve which two deployments were his; not consulted.
+- **Sewanee interment record**: the obituary states an intention, not a completed burial.
+
+**Superseded in full**
+
+- The previous `arthur_ben.journey.json` and the previous version of this report: the placeholder birth pin at 39.8283 / -98.5795, the c. 1936 birth, the 1955 Atlantic crossing, the Port Said, Sana'a and Samudera Pasai stops, the Fort Gulick 1966 Noriega hypothesis, the Gulf of Tonkin pin at 19.5 / 107, the Sewanee career at the duPont Library, the Dublin and Narbonne stops, the 2019 hospice dating, and the death at Sewanee.
