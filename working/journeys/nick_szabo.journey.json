@@ -1,0 +1,440 @@
+{
+  "traveler": "Nick Szabo",
+  "title": "The Vending Machine and the Unforgeable Bits: Smart Contracts, Bit Gold, and a Name Attached to a Paper He Did Not Sign",
+  "years": "1964-",
+  "calendar": "gregorian",
+  "register": "national mythology: the canon is true",
+  "segments": [
+    {
+      "name": "A Birth Without a City",
+      "stops": [
+        {
+          "name": "Seattle, the birth with no place recorded",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "1964-04-05",
+          "date_confidence": "Date attested: Wikipedia, 'Nick Szabo', gives 5 April 1964. Birthplace is a documented gap. No source reached this session names a city, a state, or a hospital, and the Hungarian descent comes only from Nathaniel Popper's 2015 New York Times description of him. The pin is the atlas placeholder for Seattle, the earliest ground any document puts under his feet, and carries no evidential weight for the birth.",
+          "campa": "On the fifth of April 1964 a son is born to a family of Hungarian descent somewhere in the United States. No reachable source names the city, the state, or the hospital; the record of his life opens with a date and no place. Twenty-five years later he will hold a computer science degree from the University of Washington, and that campus is the first ground any document actually puts under his feet. He will spend his working life arguing that written records are the weak point of every property system. The first record of him is missing the place.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Wikipedia, 'Nick Szabo', infobox: born 5 April 1964, birthplace field empty"],
+          "sources": ["Wikipedia, 'Nick Szabo'", "Nathaniel Popper, 'Decoding the Enigma of Satoshi Nakamoto and the Birth of Bitcoin', New York Times, 15 May 2015"]
+        },
+        {
+          "name": "Sieg Hall, the department in the old building",
+          "lat": 47.6534,
+          "lng": -122.305,
+          "date": "1985-09-01",
+          "date_confidence": "Enrollment year not attested; c.1985 is inferred by counting four years back from the attested 1989 degree, and the month is a default. The Sieg Hall attribution IS attested and was upgraded during verification: Wikipedia's Paul G. Allen School article dates the department's tenure in Sieg Hall from 1974 until the Allen Center was completed in 2003.",
+          "campa": "The computer science department at the University of Washington has been housed in Sieg Hall since 1974 and will stay there until 2003, so the undergraduate who arrives in the middle 1980s does his coursework in a squat brick building on the campus's inner edge, two decades before the Allen Center is raised beside it. He is learning the machines while the department is still small enough to fit in one building. Nothing he writes there survives in any archive that could be reached.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Sieg Hall, University of Washington, home of the CS department 1974-2003"],
+          "sources": ["Wikipedia, 'Nick Szabo'", "Wikipedia, 'Paul G. Allen School of Computer Science & Engineering'"]
+        },
+        {
+          "name": "University of Washington, the degree of 1989",
+          "lat": 47.6542,
+          "lng": -122.3081,
+          "date": "1989-06-01",
+          "date_confidence": "Degree and year attested: Wikipedia, 'Nick Szabo', gives a bachelor's in computer science from the University of Washington, 1989. Month is a default. Coordinate corrected during verification to the campus figure Wikipedia gives, 47.6542, -122.3081; the gathering pass produced two different and mutually inconsistent coordinates for this same event, both wrong by 300 to 450 meters.",
+          "campa": "He takes his bachelor's degree in computer science in 1989. Public-key cryptography is thirteen years old that year. Ralph Merkle has been a research scientist at Xerox PARC for a year and has just signed his Alcor membership agreement. The tools that will let strangers commit to each other without a bank in between exist as papers rather than as products. Szabo leaves the campus with the engineering and none of the law. The law comes later, in another city, after the ideas are already written.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["University of Washington commencement records, 1989"],
+          "sources": ["Wikipedia, 'Nick Szabo'", "ralph_merkle.journey.json, stops 'Xerox PARC, the research scientist' and 'Scottsdale, the membership agreement'"]
+        }
+      ]
+    },
+    {
+      "name": "Amsterdam and the Bank That Must Be Trusted",
+      "stops": [
+        {
+          "name": "Amsterdam, the company of David Chaum",
+          "lat": 52.3676,
+          "lng": 4.9041,
+          "date": "1990-01-01",
+          "date_confidence": "Reconstruction as to dates. Szabo's work for David Chaum's DigiCash on the Ecash project during the 1990s is the standard account in cryptocurrency histories and is nowhere disputed, but no primary DigiCash document naming him was reached this session, and no source gives start or end years. 1990 is a placement default inside the attested span 'during the 1990s'. The verification pass introduced this Amsterdam pin to replace a speculative Seattle placeholder the gathering pass had invented.",
+          "campa": "David Chaum's company sits in Amsterdam, building Ecash out of the blind signature Chaum invented, a scheme that lets a bank certify a coin it cannot afterwards recognize. Szabo works there on the project during the 1990s. It is the closest anyone has come to digital cash that spends like paper. The bank still exists, still issues, and still has to be trusted not to inflate or refuse. That flaw sits in the shape of the design rather than in its mathematics, and nothing added inside the scheme removes it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["A direct history of DigiCash B.V., Amsterdam, and its Ecash staff lists"],
+          "sources": ["Verification pass on the geography lens, replacing the gathering pass's unsourced Seattle placement", "Standard accounts of DigiCash and Ecash in cryptocurrency history; no primary staff document reached"]
+        },
+        {
+          "name": "Amsterdam, the blind signature",
+          "lat": 52.3676,
+          "lng": 4.9041,
+          "date": "1992-01-01",
+          "date_confidence": "Reconstruction. The mechanics of Chaum's blind signature are attested in the cryptographic literature; the date here is a placement default inside the DigiCash years, and no source places Szabo in a particular room or year. The RSA lineage is attested through rivest_shamir_adleman.journey.json, whose 545 Technology Square pin carries the February 1978 publication.",
+          "campa": "The blind signature works like a carbon-lined envelope: the customer seals a serial number the bank never sees, the bank signs through the paper, and the coin comes out valid and untraceable. It is built on the function Ronald Rivest, Adi Shamir, and Leonard Adleman published from 545 Technology Square in 1978. Chaum has solved the customer's privacy and left issuance alone. Most of the building reads that as the finished job. Szabo locates the remaining hole in the bank itself, which must still be trusted about how many coins exist.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["David Chaum, 'Blind Signatures for Untraceable Payments' (1983)"],
+          "sources": ["rivest_shamir_adleman.journey.json, stop '545 Technology Square, the method in Communications of the ACM', 1978-02-01", "Standard accounts of Chaum's blind signature; Szabo's own later writing on trusted third parties"]
+        },
+        {
+          "name": "Amsterdam, the first essay the archive keeps",
+          "lat": 52.3676,
+          "lng": 4.9041,
+          "date": "1993-01-01",
+          "date_confidence": "1993 is attested as the earliest year in the Satoshi Nakamoto Institute's dated span of Szabo's essays (nakamotoinstitute.org/authors/nick-szabo, 47 essays, 1993 to 2017); the month is a default. His participation in the Cypherpunks mailing list alongside Finney, Dai, and May is a reconstruction from the atlas interlock survey, not from a subscriber list reached this session. Place is the Amsterdam pin, not attested for this essay.",
+          "campa": "The Satoshi Nakamoto Institute will one day hold forty-seven of his essays, and the earliest of them dates from 1993: 'Multinational Small Business', a piece of legal and economic argument rather than of cryptography. From the beginning both halves of his thinking are present, the protocol and the contract, the machine and the law. He is publishing into a mailing-list culture where the same names recur, Hal Finney and Wei Dai and Timothy May among them, and where a paper posted to a list counts as publication and no journal is asked.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["nakamotoinstitute.org/authors/nick-szabo, the dated bibliography 1993-2017"],
+          "sources": ["Satoshi Nakamoto Institute, author page for Nick Szabo", "ralph_merkle.report.md, on the Cypherpunks milieu not yet in the atlas"]
+        },
+        {
+          "name": "Amsterdam, a computerized transaction protocol",
+          "lat": 52.3676,
+          "lng": 4.9041,
+          "date": "1994-01-01",
+          "date_confidence": "Essay and 1994 date attested: Wikipedia, 'Nick Szabo', and the Nakamoto Institute library, which reprints 'Smart Contracts' (1994) at nakamotoinstitute.org/library/smart-contracts/. Place NOT attested and actively uncertain: the gathering pass placed him in Seattle in 1994 and the verification pass rejected that, since the only documented 1990s location is DigiCash in Amsterdam. The Amsterdam pin is the least-bad placement and carries no evidential weight.",
+          "campa": "In 1994 he writes the essay that gives the idea its name. A smart contract, he proposes, is not a figure of speech: it is a protocol that performs the terms rather than describing them, so that enforcement lives in the machinery instead of in a court. Alongside it he sketches smart property, ownership embedded in the thing owned. The essay circulates on the networks rather than in a journal. Two decades will pass before anyone builds a system that runs what it specifies, and by then his name will be fastened to a currency he says he did not write.",
+          "quote": "A smart contract is a computerized transaction protocol that executes the terms of a contract.",
+          "quote_source": "Nick Szabo, 'Smart Contracts' (1994), Nakamoto Institute library reprint",
+          "suggested_refs": ["Nick Szabo, 'Smart Contracts' (1994), nakamotoinstitute.org/library/smart-contracts/"],
+          "sources": ["Wikipedia, 'Nick Szabo'", "Nakamoto Institute library, 'Smart Contracts' (1994)"]
+        }
+      ]
+    },
+    {
+      "name": "Building Blocks for Digital Free Markets",
+      "stops": [
+        {
+          "name": "Sunnyvale, the essay in Extropy",
+          "lat": 37.3688,
+          "lng": -122.0363,
+          "date": "1996-01-01",
+          "date_confidence": "Essay and 1996 date attested (Wikipedia, 'Smart contract'; the essay is hosted in the Nakamoto Institute library and mirrored from szabo.best.vwh.net). Physical attendance at any Extropy Institute gathering is NOT attested; the gathering lens flagged it for verification and it was not verified. The Sunnyvale pin stands for the journal's Bay Area institutional home, not for a place Szabo is documented to have been.",
+          "campa": "Extropy, the journal of the Extropy Institute, prints 'Smart Contracts: Building Blocks for Digital Free Markets', where he extends the 1994 sketch and supplies the example everyone will repeat afterwards. The primitive ancestor of the smart contract is the vending machine: a box holding a small amount of value, taking coins, delivering without a clerk, a lawyer, or an appeal. The extropian circle around the journal argues about life extension and radical technology. Szabo is at home in it and, in the same years, is thinking about the security properties of gold.",
+          "quote": "A canonical real-life example, which we might consider to be the primitive ancestor of smart contracts, is the humble vending machine.",
+          "quote_source": "Nick Szabo, 'Smart Contracts: Building Blocks for Digital Markets' (1996), archived at the fon.hum.uva.nl mirror of szabo.best.vwh.net",
+          "suggested_refs": ["Extropy no. 16 (1996), the issue carrying 'Smart Contracts: Building Blocks for Digital Free Markets'"],
+          "sources": ["Wikipedia, 'Smart contract'", "fon.hum.uva.nl mirror of szabo.best.vwh.net/smart_contracts_2.html", "Wikipedia, 'Nick Szabo', on his extropian association"]
+        },
+        {
+          "name": "Chicago, First Monday, volume two, number nine",
+          "lat": 41.8708,
+          "lng": -87.6505,
+          "date": "1997-09-01",
+          "date_confidence": "Publication attested: First Monday vol. 2 no. 9, September 1997, doi 10.5210/fm.v2i9.548. Day of month not given by the journal record and defaulted. The Chicago pin stands for the journal's publisher, the University of Illinois at Chicago library; no travel by Szabo is implied or claimed, and the gathering lens flagged this explicitly.",
+          "campa": "In September 1997 First Monday, an online journal published out of Chicago, carries 'Formalizing and Securing Relationships on Public Networks' in volume two, number nine. It is the peer-reviewed version of the argument: the terms of a relationship between strangers can be specified so exactly, and secured so tightly, that performance stops depending on either party's honesty or on a judge. The paper gives the idea a citation that lawyers and computer scientists can both quote. Ethereum's white paper will quote it seventeen years later.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["First Monday vol. 2 no. 9 (September 1997), doi.org/10.5210/fm.v2i9.548"],
+          "sources": ["First Monday journal record", "Wikipedia, 'Nick Szabo'"]
+        },
+        {
+          "name": "Unlocated, bit gold designed",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "1998-01-01",
+          "date_confidence": "The 1998 design date is attested (Wikipedia, 'Bit gold'), as is the gold quotation, and the public writeup does not follow until December 2005. Month defaulted. Place NOT attested: the pin is this journey's standing placeholder for Szabo's undocumented American base and carries no evidential weight. Wei Dai's b-money, the parallel proposal of the same year, is not yet an atlas traveller.",
+          "campa": "He designs bit gold. A participant solves a computational puzzle nobody can solve cheaply, the solution is timestamped and published, and the string of bits that results is expensive by construction and cheap to check. Chain each solution to the one before and the sequence carries its own history. No bank issues it. No registry can be forged without redoing the work. He is not claiming to invent money; he says he is copying, into cyberspace, the properties that made gold difficult to counterfeit and difficult to inflate.",
+          "quote": "I was trying to mimic as closely as possible in cyberspace the security and trust characteristics of gold.",
+          "quote_source": "Nick Szabo, quoted in Wikipedia, 'Bit gold'",
+          "suggested_refs": ["Wikipedia, 'Bit gold'; Wei Dai's b-money proposal of the same year, not yet in the atlas"],
+          "sources": ["Wikipedia, 'Bit gold'", "Wikipedia, 'Nick Szabo'"]
+        },
+        {
+          "name": "Unlocated, secure property titles",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "1998-06-01",
+          "date_confidence": "Essay and 1998 date attested from the Satoshi Nakamoto Institute's dated library listing of Szabo's essays; month is a default. Place NOT attested; the pin is this journey's standing placeholder and carries no evidential weight. The later reading of this essay as an anticipation of blockchain asset registries is a retrospective characterization, not a claim made in 1998.",
+          "campa": "The same year he publishes 'Secure Property Titles with Owner Authority', which asks what a land registry would look like if no government held it. His answer is a replicated database kept by servers that can tolerate a fraction of themselves being dishonest, so that title survives the burning of any single archive. He argues from history rather than from cryptography: he has read what happens to property when the records office changes hands. Two decades later the same design will be sold as a blockchain asset registry.",
+          "quote": "A common pattern during eras of political instability or oppression has been the confiscation of land via the forgery or destruction of public records.",
+          "quote_source": "Nick Szabo, 'Secure Property Titles with Owner Authority' (1998), Nakamoto Institute library reprint",
+          "suggested_refs": ["Nick Szabo, 'Secure Property Titles with Owner Authority' (1998), nakamotoinstitute.org/library/secure-property-titles/"],
+          "sources": ["Satoshi Nakamoto Institute library listing of Szabo's essays", "Nakamoto Institute reprint of the essay text"]
+        },
+        {
+          "name": "Stanford, the term loose in the Infobus",
+          "lat": 37.4275,
+          "lng": -122.1697,
+          "date": "1998-09-01",
+          "date_confidence": "Attested for the year: Wikipedia, 'Smart contract', records the term used in a rights-management context in the Stanford Infobus, part of the Stanford Digital Library Project, in 1998. Month not attested and defaulted. Coordinate inherited byte-identical from the canonical atlas Stanford pin used in ralph_merkle.journey.json and diffie.journey.json. Szabo is not documented at Stanford; the stop records the migration of his vocabulary, not a journey.",
+          "campa": "The Stanford Digital Library Project runs a system called the Infobus, and in its rights-management documentation the phrase 'smart contract' turns up as ordinary vocabulary, unattributed. The term has left its author. It is the same campus where Whitfield Diffie and Martin Hellman published New Directions in Cryptography twenty-two years earlier, and where Ralph Merkle came across the bay to finish work a Berkeley referee had rejected. The machinery Szabo's contracts assume was assembled here, in sight of the building now borrowing his word for them.",
+          "quote": "There is ample opportunity in smart contracts for 'smart fine print': actions taken by the software hidden from a party to the transaction.",
+          "quote_source": "Nick Szabo, 'Smart Contracts' (1994), Nakamoto Institute library reprint",
+          "suggested_refs": ["The Stanford Infobus rights-management documentation, Stanford Digital Library Project, 1998"],
+          "sources": ["Wikipedia, 'Smart contract'", "diffie.journey.json and ralph_merkle.journey.json, stop 'Stanford, New Directions in Cryptography', 1976-11-01"]
+        }
+      ]
+    },
+    {
+      "name": "Trusted Third Parties Are Security Holes",
+      "stops": [
+        {
+          "name": "Washington, D.C., the tree patent falls out of force",
+          "lat": 38.9186,
+          "lng": -77.0367,
+          "date": "1999-01-01",
+          "date_confidence": "Reconstruction as to the exact day. The atlas records US 4,309,569 granted 5 January 1982 and describes it as expiring in 1999, nine years before the Bitcoin white paper; the month and day of the lapse are defaults. Coordinate inherited byte-identical from the canonical atlas Washington patent-office pin in ralph_merkle.journey.json. Szabo is not present; the stop records a legal fact his proposals fall between.",
+          "campa": "Ralph Merkle's patent on tree authentication, granted in January 1982, runs out its term and lapses. The atlas already marks the interval that follows: nine years between the expiry and an anonymous paper that builds a currency on the structure the patent described. Szabo's bit gold, designed the year before the lapse, sits inside that gap alongside Wei Dai's b-money, the two proposals that specify in public what the patent had fenced. Nobody implements either of them. The mechanism is free now, and unused.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["US Patent 4,309,569, 'Method of providing digital signatures', granted 5 January 1982"],
+          "sources": ["ralph_merkle.journey.json, stop 'Washington, D.C., the patent granted', 1982-01-05"]
+        },
+        {
+          "name": "Unlocated, trusted third parties are security holes",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "2001-01-01",
+          "date_confidence": "Essay and 2001 date attested from the Nakamoto Institute library reprint at nakamotoinstitute.org/library/trusted-third-parties/; month defaulted. Place NOT attested; the pin is this journey's standing placeholder. The quote is given in the corrected full form after verification found the gathering pass had dropped the clause about a trusted computing base without marking the elision.",
+          "campa": "He publishes 'Trusted Third Parties Are Security Holes', the essay that states the rule the rest of his work follows from. Every point in a protocol where a party simply has to be believed is a point that will eventually be attacked, bought, subpoenaed, or mistaken, and the cost of that hole is paid afterwards by everyone who uses the system. The argument turns on where that expense sits rather than on anyone's honesty. He had watched the question from inside Chaum's company seven years before, and had not stopped looking at it since.",
+          "quote": "The invocation or assumption in a security protocol design of a 'trusted third party' (TTP) or a 'trusted computing base' (TCB) controlled by a third party constitutes the introduction of a security hole into that design.",
+          "quote_source": "Nick Szabo, 'Trusted Third Parties Are Security Holes' (2001), Nakamoto Institute library reprint",
+          "suggested_refs": ["Nick Szabo, 'Trusted Third Parties Are Security Holes' (2001), nakamotoinstitute.org/library/trusted-third-parties/"],
+          "sources": ["Nakamoto Institute library reprint of the essay", "Verification pass on the quotes lens, restoring the elided clause"]
+        },
+        {
+          "name": "Unlocated, shelling out",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "2002-01-01",
+          "date_confidence": "Date upgraded to attested during verification: the Satoshi Nakamoto Institute's dated bibliography lists 'Shelling Out: The Origins of Money' under 2002, which the gathering pass had wrongly downgraded to unverified secondary hearsay. Month defaulted. Place NOT attested; the pin is this journey's standing placeholder.",
+          "campa": "In 'Shelling Out: The Origins of Money' he goes back behind coinage, to shell beads and wampum and the stone discs of Yap, and argues that money began as collectibles: objects costly to make, hard to fake, easy to carry, and therefore good for settling accounts between people who could neither trust each other nor remember. Money in this account is older than the state and is not the state's invention. The essay becomes the standing citation for anyone arguing that a currency needs no government in order to be a currency.",
+          "quote": "Collectibles augmented our large brains and language as solutions to the Prisoner's Dilemma",
+          "quote_source": "Nick Szabo, 'Shelling Out: The Origins of Money' (2002), Nakamoto Institute library reprint",
+          "suggested_refs": ["Nick Szabo, 'Shelling Out: The Origins of Money' (2002), nakamotoinstitute.org/library/shelling-out/"],
+          "sources": ["Satoshi Nakamoto Institute dated library listing", "Nakamoto Institute reprint of the essay text"]
+        },
+        {
+          "name": "Scottsdale, the reusable proof of work",
+          "lat": 33.6174,
+          "lng": -111.911,
+          "date": "2004-08-01",
+          "date_confidence": "Reconstruction. RPOW's 2004 date comes from the atlas interlock survey and from Szabo's own credit to Finney inside the bit gold post; it was not independently re-verified this session and the month is a default. The pin is the Alcor coordinate inherited byte-identical from ralph_merkle.journey.json. It stands for Finney, who is queued for the atlas and not yet in it, and carries no evidential weight for where RPOW was built.",
+          "campa": "Hal Finney builds RPOW, reusable proof of work: a token that carries the cost of its own creation and can be handed on, which is bit gold running rather than bit gold described. Szabo will credit it directly in his own writeup as an implemented variant of his scheme. Finney is a cypherpunk of the same list and the same decade, an author of PGP, and a man who has already arranged to have his body frozen. The atlas holds this Alcor coordinate from Ralph Merkle's file, and does not yet hold Finney himself.",
+          "quote": "The resulting string of bits is the proof of work.",
+          "quote_source": "Nick Szabo, 'Bit Gold' (2005), Nakamoto Institute library reprint",
+          "suggested_refs": ["Hal Finney's RPOW (2004) and its documentation; hal_finney, queued for the atlas and not yet built"],
+          "sources": ["Nick Szabo, 'Bit Gold' (2005), crediting Finney's RPOW", "ralph_merkle.journey.json, stop 'Scottsdale, the membership agreement'", "QUEUE.md, rows for Nick Szabo and Hal Finney"]
+        },
+        {
+          "name": "Unenumerated, the bit gold post",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "2005-12-29",
+          "date_confidence": "Attested, with a contradiction resolved rather than left open. The live page at unenumerated.blogspot.com/2005/12/bit-gold.html carries a timestamp of 27 December 2008, and the gathering pass reported the year as contradicted. Verification settled it for 2005: the Satoshi Nakamoto Institute dates the essay 29 December 2005, the Blogger permalink path is /2005/12/, and the Internet Archive holds a capture of that exact URL from 29 March 2006, which rules out creation in 2008. The 2008 stamp is a later edit by Szabo, which is also why the post has vanished from Blogger's December 2005 archive index.",
+          "campa": "Seven years after designing it he writes bit gold up on Unenumerated, his blog, and posts it in the last days of December 2005. The post sets out the puzzle, the timestamp, the chain, and the problem he cannot solve: the pieces are not fungible, because a puzzle solved in one year costs a different quantity of computer time than the same puzzle solved in another. He credits Finney's RPOW. Then the post sits where he left it for three years, read by almost nobody, until an anonymous paper makes it retrospectively famous.",
+          "quote": "The problem, in a nutshell, is that our money currently depends on trust in a third party for its value.",
+          "quote_source": "Nick Szabo, 'Bit Gold' (2005), Nakamoto Institute library reprint",
+          "suggested_refs": ["unenumerated.blogspot.com/2005/12/bit-gold.html, and the Internet Archive capture of 29 March 2006"],
+          "sources": ["Satoshi Nakamoto Institute library, 'Bit Gold', dated 29 December 2005", "Internet Archive, web.archive.org/web/20060329122942/", "unenumerated.blogspot.com, live page carrying the 2008 timestamp bump"]
+        },
+        {
+          "name": "George Washington University, the Juris Doctor",
+          "lat": 38.9007,
+          "lng": -77.047,
+          "date": "2006-01-01",
+          "date_confidence": "The JD itself is attested (Wikipedia, 'Nick Szabo'). NO source reached gives an enrolment or graduation year, and this is an open gap; the 2006 date comes only from the atlas interlock survey and is a reconstruction. The coordinate is the canonical George Washington University pin inherited byte-identical from fermi.journey.json. Note that Wikipedia's own figure for the law school complex is 38.8989, -77.0450, roughly 250 meters southeast, and that both figures the gathering pass produced for it were wrong and disagreed with each other.",
+          "campa": "He takes a Juris Doctor at the George Washington University Law School, in Foggy Bottom, a few blocks from the White House. The credential arrives after the writing rather than before it: he had been arguing contract law to computer scientists for twelve years by the time he sat the courses. The atlas has stood on this campus before, in January 1939, when Enrico Fermi and Niels Bohr heard at the fifth Washington Conference on Theoretical Physics that a uranium nucleus had been split in Berlin.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Stockton Hall, 2000 H Street NW, the anchor building of GW Law on University Yard"],
+          "sources": ["Wikipedia, 'Nick Szabo'", "Wikipedia, 'George Washington University Law School'", "fermi.journey.json, stop 'George Washington University, the fifth Washington conference', 1939-01-26"]
+        }
+      ]
+    },
+    {
+      "name": "Eight References",
+      "stops": [
+        {
+          "name": "Palo Alto, eight references",
+          "lat": 37.4419,
+          "lng": -122.143,
+          "date": "2008-10-31",
+          "date_confidence": "The circulation date of the Bitcoin white paper, 31 October 2008, is attested and the paper carries no place. Coordinate inherited byte-identical from ralph_merkle.journey.json, where the pin stands for where Merkle is living and not for an event anyone attends; it carries no evidential weight here either. That bit gold is absent from the eight references is a reading of the reference list, not a claim about intent.",
+          "campa": "On the last day of October 2008 a paper signed Satoshi Nakamoto is circulated, describing a peer-to-peer electronic cash system that settles the double-spend problem without a bank. It carries eight references. The eighth is Ralph Merkle's 1980 paper on protocols for public key cryptosystems. Bit gold is not among the eight. The design does in running code what Szabo's essay had specified in prose ten years earlier, and the man who wrote the essay is about to spend a decade denying that he wrote the paper.",
+          "quote": "it would be very nice if there were a protocol whereby unforgeably costly bits could be created online with minimal dependence on trusted third parties",
+          "quote_source": "Nick Szabo, 'Bit Gold' (2005), Nakamoto Institute library reprint",
+          "suggested_refs": ["'Bitcoin: A Peer-to-Peer Electronic Cash System' (31 October 2008), reference 8"],
+          "sources": ["ralph_merkle.journey.json, stop 'Palo Alto, eight references', 2008-10-31", "Nakamoto Institute library, 'Bit Gold'"]
+        },
+        {
+          "name": "Unenumerated, the blog turns to Nakamoto",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "2009-05-01",
+          "date_confidence": "Attested to the month: Wikipedia, 'Nick Szabo', summarizing his blog, places a post touching on Bitcoin and Satoshi Nakamoto in May 2009; the day is a default. Place NOT attested; the pin is this journey's standing placeholder. The characterization of what the post does and does not claim is a reading, not a quotation.",
+          "campa": "In May 2009, four months after the Bitcoin network begins producing blocks, Szabo writes about it on Unenumerated. He recognizes the design at once, having specified most of its parts a decade earlier and having failed to get anyone at all to build them. What he writes is technical rather than proprietary. He does not claim the system. He does not put much distance between himself and it either, and readers hunting for Satoshi will later treat that gap as evidence.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The May 2009 posts on unenumerated.blogspot.com touching on Bitcoin"],
+          "sources": ["Wikipedia, 'Nick Szabo'"]
+        },
+        {
+          "name": "Unenumerated, what took ye so long",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "2011-05-01",
+          "date_confidence": "Month attested (May 2011) and day defaulted. The quotation is given in its corrected full form: verification found the gathering pass had misworded it as 'to any real degree' and had dropped both parentheses. The real source is Szabo's Unenumerated post 'Bitcoin, what took ye so long?', dated 2011 by the Nakamoto Institute, not Wikipedia. Place NOT attested; the pin is this journey's standing placeholder.",
+          "campa": "Two years on, in a post asking what took the world so long, he names the company he kept: himself, Wei Dai, and Hal Finney, the only people he knew of who liked the idea enough to chase it, until Nakamoto. He writes it as the historian of a failure, three men and two decades of proposals nobody would implement. He also leaves in a parenthesis that treats Nakamoto as possibly being Finney or Dai, which the people hunting for Satoshi will spend years reading in both directions at once.",
+          "quote": "Myself, Wei Dai, and Hal Finney were the only people I know of who liked the idea (or in Dai's case his related idea) enough to pursue it to any significant extent until Nakamoto (assuming Nakamoto is not really Finney or Dai).",
+          "quote_source": "Nick Szabo, 'Bitcoin, what took ye so long?', Unenumerated (2011)",
+          "suggested_refs": ["Nick Szabo, 'Bitcoin, what took ye so long?', Unenumerated, 2011"],
+          "sources": ["Nakamoto Institute dating of the post to 2011", "Verification pass on the chronology lens, correcting the wording quoted by Wikipedia"]
+        }
+      ]
+    },
+    {
+      "name": "The Doxing",
+      "stops": [
+        {
+          "name": "Unlocated, the stylometric analysis",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "2013-12-01",
+          "date_confidence": "December 2013 is attested through multiple Wikipedia mirrors carrying the sentence 'In December 2013, blogger Skye Grey linked Nick Szabo to the bitcoin white paper using stylometric analysis'; day of month not attested and defaulted. Source attribution corrected during verification: the live Wikipedia 'Nick Szabo' article no longer contains that sentence, so it cannot be cited to the current article. Place unlocated; the pin is this journey's standing placeholder and carries no evidential weight.",
+          "campa": "A blogger writing as Skye Grey runs the Bitcoin white paper against a corpus of candidate authors and reports that its style matches Szabo's essays more closely than anyone else's. The method is word frequencies and phrase habits; the conclusion is a name. From this December onward Szabo is the leading candidate in a search he never entered, and every later claim about his identity will cite this analysis, or the coverage of it, rather than any document connecting him to the paper.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Skye Grey's LikeInAMirror posts, December 2013, and their archived copies"],
+          "sources": ["Wikipedia mirrors quoting the December 2013 sentence", "Verification pass on the chronology lens, correcting the source attribution"]
+        },
+        {
+          "name": "New York, the Journal asks who he is",
+          "lat": 40.7519,
+          "lng": -73.9686,
+          "date": "2014-04-16",
+          "date_confidence": "Attested to the day: Wikipedia, 'Nick Szabo', cites a Wall Street Journal article of 16 April 2014 investigating the identity of Bitcoin's creator and discussing Szabo among the candidates. Coordinate is the canonical atlas New York pin inherited byte-identical from ralph_merkle.journey.json; it stands for a newspaper's city, not for a place Szabo goes.",
+          "campa": "The Wall Street Journal publishes an investigation into who created Bitcoin and lists Szabo among the candidates. The question has left the mailing lists and entered the financial press, which means it has entered his life: a man who published under his own name for twenty years becomes interesting chiefly for a document he did not sign. The New York pin here is the atlas's own, inherited from Ralph Merkle's Kanellakis Award, and it stands for a newspaper rather than for any room Szabo was in.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Wall Street Journal, 16 April 2014, on the identity of Bitcoin's creator"],
+          "sources": ["Wikipedia, 'Nick Szabo'", "ralph_merkle.journey.json, stop 'New York, the Kanellakis Award'"]
+        },
+        {
+          "name": "Unlocated, the email to Dominic Frisby",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "2014-07-01",
+          "date_confidence": "Attested to the month: Wikipedia, 'Nick Szabo', quotes the email and dates it July 2014; the day is a default. Szabo's location at the time of writing is undocumented, and the gathering lens deliberately declined to assign coordinates; the pin here is this journey's standing placeholder and carries no evidential weight.",
+          "campa": "Dominic Frisby, writing a book on Bitcoin, assembles the circumstantial case and names Szabo as the likely author of the white paper. Szabo answers by email in a single sentence that denies the identification and, in its last clause, concedes how routine the accusation has become. It is the nearest thing to an on-the-record denial these years produce, and it settles nothing, because a denial is exactly what a wrongly accused man and what Satoshi Nakamoto would both send.",
+          "quote": "I'm afraid you got it wrong doxing me as Satoshi, but I'm used to it.",
+          "quote_source": "Szabo, email to Dominic Frisby, July 2014, quoted in Wikipedia, 'Nick Szabo'",
+          "suggested_refs": ["Dominic Frisby, 'Bitcoin: the Future of Money?' (2014)"],
+          "sources": ["Wikipedia, 'Nick Szabo'", "Dominic Frisby, 'Bitcoin: the Future of Money?' (2014)"]
+        },
+        {
+          "name": "Unlocated, the Ethereum white paper",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "2014-12-01",
+          "date_confidence": "The Ethereum white paper is dated 2014 and the launch 2015 in the sources gathered; no month or day was attested for either and both are defaulted here, with the launch folded into this stop. Place unlocated: no source reached places Buterin's drafting or the launch, so the pin is this journey's standing placeholder and carries no evidential weight for either event.",
+          "campa": "Vitalik Buterin's white paper for Ethereum calls Bitcoin's scripting a weak version of the smart contract concept as originally defined by Nick Szabo, and proposes a machine that runs the strong version. Ethereum ships the following year, the first production system in which arbitrary contracts execute themselves on a public ledger. Twenty years after the 1994 essay the vending machine is generalized: the terms perform themselves, and no court is called. Szabo is cited in the founding document and holds no part of the thing founded.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Vitalik Buterin, Ethereum White Paper (2014), the passage crediting Szabo"],
+          "sources": ["Vitalik Buterin, Ethereum White Paper (2014)", "Wikipedia, 'Smart contract'"]
+        },
+        {
+          "name": "New York, a direct precursor",
+          "lat": 40.7519,
+          "lng": -73.9686,
+          "date": "2015-05-08",
+          "date_confidence": "Attested and corrected during verification: Wikipedia's 'Bit gold' article attributes the phrase 'a direct precursor to the Bitcoin architecture' to Martin O'Leary in the Huffington Post, 8 May 2015. The gathering pass had dated the characterization vaguely to 'the period of heaviest press coverage' with no citation. The New York pin is inherited byte-identical from ralph_merkle.journey.json and stands for the publication, not for Szabo.",
+          "campa": "The Huffington Post publishes a piece by Martin O'Leary calling bit gold a direct precursor to the Bitcoin architecture. The phrase is the one the retrospective press settles on, and it does two things at once: it credits Szabo with the design and it separates him from the implementation. Precursor is a word that puts a man in front of a thing and outside it. He is being written into the history of Bitcoin in the same weeks that he is being written into its authorship.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Martin O'Leary, Huffington Post, 8 May 2015, on bit gold as a direct precursor"],
+          "sources": ["Wikipedia, 'Bit gold'", "Verification pass on the chronology lens, supplying the citation"]
+        },
+        {
+          "name": "New York, the most convincing evidence",
+          "lat": 40.7519,
+          "lng": -73.9686,
+          "date": "2015-05-15",
+          "date_confidence": "Attested, with a date correction: the Wikipedia citation gives 15 May 2015 for Popper's article, titled 'Decoding the Enigma of Satoshi Nakamoto and the Birth of Bitcoin'. The /2015/05/17/ in the URL is the print edition date, which the gathering pass mistook for the publication date and which also omitted the article's title. The New York pin is inherited byte-identical from ralph_merkle.journey.json and stands for the newspaper.",
+          "campa": "Nathaniel Popper publishes 'Decoding the Enigma of Satoshi Nakamoto and the Birth of Bitcoin' in the New York Times and reports that the most convincing evidence points to a reclusive American man of Hungarian descent named Nick Szabo. It is the highest-authority version of the claim and it remains an inference: style, timing, and the shape of the design, with no key signed and no document produced. Szabo denies it again. The denial travels a fraction as far as the accusation did.",
+          "quote": "the most convincing evidence pointed to a reclusive American man of Hungarian descent named Nick Szabo",
+          "quote_source": "Nathaniel Popper, 'Decoding the Enigma of Satoshi Nakamoto and the Birth of Bitcoin', New York Times, 15 May 2015",
+          "suggested_refs": ["Nathaniel Popper, New York Times, 15 May 2015; print edition 17 May 2015"],
+          "sources": ["Wikipedia, 'Nick Szabo', citation to Popper", "Verification pass on the chronology lens, correcting the date and restoring the title"]
+        }
+      ]
+    },
+    {
+      "name": "The Library Without a Man In It",
+      "stops": [
+        {
+          "name": "Chicago, the board of advisors at Bloq",
+          "lat": 41.8885,
+          "lng": -87.6354,
+          "date": "2016-05-03",
+          "date_confidence": "Upgraded from reconstruction to attested during verification: Bloq's own announcement of 3 May 2016 names Szabo on its board of advisors as 'Cryptographer, Digital Currency Researcher and Smart Contracts Pioneer', and CCN's launch coverage independently lists him alongside Andrew Filipowski and Gavin Andresen. The coordinate is the Merchandise Mart, approximately 41.8885, -87.6354, replacing the generic Chicago Loop centroid the gathering pass had used.",
+          "campa": "Bloq, a blockchain infrastructure company founded by Jeff Garzik and Matthew Roszak, announces its board of advisors on the third of May 2016 and lists Nick Szabo as cryptographer, digital currency researcher, and smart contracts pioneer. Gavin Andresen is named on the same board. The company works out of the Merchandise Mart. It is the point at which the theory acquires a commercial address: the man who spent twenty years writing about protocols that need no institution appears on an institution's letterhead.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Bloq press release, 3 May 2016, 'Bloq expands team and announces board of advisors'"],
+          "sources": ["bloq.com news announcement, 3 May 2016", "CCN coverage of Bloq's launch", "Verification pass on the geography lens, upgrading and relocating the entry"]
+        },
+        {
+          "name": "Unlocated, money, blockchains, and social scalability",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "2017-02-01",
+          "date_confidence": "The essay's existence and its place in the Nakamoto Institute's 1993-2017 span are attested from the institute's author page; the exact date and month are not attested and are defaulted. Whether it is literally the last item in that archive is inferred from the stated span, not read off a table of contents. Place NOT attested; the pin is this journey's standing placeholder.",
+          "campa": "He publishes 'Money, Blockchains, and Social Scalability', which gives the earlier work a term it had lacked. A blockchain is monstrously inefficient considered as a computer, and that is the point: the redundancy buys social scalability, the number of strangers who can use one system together without any of them trusting the others or a referee. The argument runs backwards through his whole corpus, to the security hole of 2001 and the bank in Amsterdam. It stands at the far end of the span the archive keeps, 1993 to 2017.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Nick Szabo, 'Money, Blockchains, and Social Scalability', Unenumerated, 2017"],
+          "sources": ["nakamotoinstitute.org/authors/nick-szabo, the dated bibliography"]
+        },
+        {
+          "name": "Guatemala City, the honorary professorship",
+          "lat": 14.6055,
+          "lng": -90.506,
+          "date": "2017-06-01",
+          "date_confidence": "The honorary professorship is attested (Wikipedia, 'Nick Szabo'); the year is a documented gap and the date here is a placement default carrying no claim. Whether the honor involved any travel to Guatemala is undocumented. Coordinate corrected during verification to approximately 14.6055, -90.5060, agreeing with English and Spanish Wikipedia (14.6051, -90.5062) and OpenStreetMap (14.6062, -90.5058); both figures the gathering pass produced were about 2.5 km off and disagreed with each other.",
+          "campa": "Universidad Francisco Marroquin, founded in Guatemala City in 1971 by Manuel Ayau to teach the economics of the Austrian school, makes Szabo an honorary professor. No source reached gives the year, and none says whether he ever stood on the campus in Zona 10 or received the title at a distance. It is the only academic honor attached to his name, granted by a university built on the argument that money and law emerge from exchange between people rather than from a state, which is his own argument approached from the other side.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Universidad Francisco Marroquin, Zona 10, Guatemala City, founded 1971 by Manuel Ayau"],
+          "sources": ["Wikipedia, 'Nick Szabo'", "English and Spanish Wikipedia, 'Universidad Francisco Marroquin'", "OpenStreetMap Nominatim record for the campus"]
+        },
+        {
+          "name": "Unlocated, Trust Machine",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "2018-01-01",
+          "date_confidence": "Reconstruction, flagged for verification rather than asserted. Szabo's participation in 'Trust Machine: The Story of Blockchain' is reported in general accounts of the film and was NOT independently verified this session; the filming location for his segment is unknown and may not be a single place. Month and day are defaults, and the pin is this journey's standing placeholder.",
+          "campa": "A documentary called 'Trust Machine: The Story of Blockchain' traces Bitcoin's prehistory back through bit gold to the essays of the 1990s, and Szabo is reported among those interviewed for it. The camera finds a man who has been, for a decade, a name attached to other people's software. Where the interview was filmed is recorded nowhere reachable, and whether he sat in a room with a crew or spoke down a video link is not recorded either. The film is one of the few places his voice, rather than his prose, enters the record.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["'Trust Machine: The Story of Blockchain' (2018), participant list and production credits"],
+          "sources": ["General accounts of the documentary's participants; no primary credit list reached this session"]
+        },
+        {
+          "name": "Unlocated, forty-seven essays in the library",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "2021-01-01",
+          "date_confidence": "The archive and its contents are attested from nakamotoinstitute.org/authors/nick-szabo: 47 essays spanning 1993 to 2017. The 2021 date is a placement default with no claim attached, since the institute's page carries no date for when the collection reached its present state. Place unlocated; the institute has no physical address in evidence and the pin is this journey's standing placeholder.",
+          "campa": "The Satoshi Nakamoto Institute keeps forty-seven of his essays, 1993 to 2017, reprinted without commentary as primary documents of cryptocurrency's prehistory. It is an unusual honor: an outside body has gathered a living author's scattered blog posts into a fixed corpus and files them as sources rather than as opinions. Alongside them the institute keeps Wei Dai, Hal Finney, and the Bitcoin white paper. He is shelved among the founders of a thing he says is not his, in a library named after the person he is accused of being.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["nakamotoinstitute.org/authors/nick-szabo, 47 essays, 1993-2017"],
+          "sources": ["Satoshi Nakamoto Institute author page for Nick Szabo"]
+        },
+        {
+          "name": "Unlocated, a residence not on record",
+          "lat": 47.6062,
+          "lng": -122.3321,
+          "date": "2026-01-01",
+          "date_confidence": "Present-day status rather than an event; the 2026 date marks the state of the record at compilation. Residence is an explicit gap: no confirming source was found this session, and the secondary characterizations placing him in Washington state cite nothing. The pin is this journey's standing placeholder and carries no evidential weight.",
+          "campa": "He is still writing and still denying. No source reached in this pass states where he lives; some secondary characterizations put him in Washington state and none of them cites anything for it. The question that follows him has no answer in either direction, because no key has been signed and no document produced, and the only proof that would end it is a signature from an address whose owner has never moved a coin. The record closes the way it opened, with a date and no place.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The unmoved early Bitcoin addresses, whose signatures would settle the question and have never been produced"],
+          "sources": ["No confirming source found this session; recorded as a gap", "Wikipedia, 'Nick Szabo'"]
+        }
+      ]
+    }
+  ]
+}
