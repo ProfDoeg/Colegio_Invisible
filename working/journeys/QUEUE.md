@@ -544,7 +544,32 @@ Charles Babbage requested again but already sits in the queue (line 270,
 | 0 | **Martin Heidegger** | German philosopher of Being and Time, rector of Freiburg under the Nazi Party in 1933-34, a controversy that dogs his legacy; joins the corpus's continental-philosophy wing (kant, hegel already done, michel_foucault, gilles_deleuze already done) |
 | 0 | **Søren Kierkegaard** | Danish philosopher of Fear and Trembling and The Sickness Unto Death, father of existentialism, rarely left Copenhagen yet the walks through it structure his thought; joins the corpus's philosophy wing (kant, hegel already done) |
 
+## The six subspaces (2026-08-10)
 
+Proposed by El Gólem across dance, cryptography, politics, physics, art of
+memory and pedagogy; approved by the author minus Stalin, Karl Liebknecht,
+Satoshi Nakamoto and Pierre Curie.
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Vladimir Lenin** | Bolshevik revolutionary leader, architect of the October Revolution and the Soviet state; joins the corpus's Marxist-theory thread (antonio_gramsci, rosa_luxemburg just queued, karl_marx already done) |
+| 0 | **Leon Trotsky** | Bolshevik revolutionary and Red Army founder, exiled by Stalin, assassinated with an ice axe in Mexico City in 1940; joins the same Marxist-theory thread (vladimir_lenin just queued) |
+| 0 | **Leon Battista Alberti** | Renaissance polymath, architect and cryptographer; his cipher disk of 1467 is the first polyalphabetic substitution device, a century before blaise_de_vigenere already queued; extends the corpus's cipher lineage further back |
+| 0 | **Auguste Kerckhoffs** | Dutch-born linguist and cryptographer, formulated Kerckhoffs's principle (a cipher must remain secure even if everything about it except the key is public), the foundational axiom of modern cryptography; joins the corpus's cipher wing (claude_shannon, diffie, hellman already done) |
+| 0 | **William F. Friedman** | American cryptanalyst, broke Japan's Purple cipher before WWII, coined the term 'cryptanalysis'; married to Elizebeth Smith Friedman just queued, herself a pioneering codebreaker; joins the corpus's cipher wing |
+| 0 | **Elizebeth Smith Friedman** | American cryptanalyst, broke Prohibition-era rum-runner ciphers and testified as an expert witness, later worked against Nazi spy networks in South America; married to William F. Friedman just queued, a direct husband-wife interlock in the cipher wing |
+| 0 | **Herbert Yardley** | American cryptologist, founder of the Black Chamber, the US's first peacetime codebreaking unit, later wrote the exposé The American Black Chamber that scandalized Washington; joins the corpus's cipher wing (william_f_friedman just queued) |
+| 0 | **Marie Curie** | Polish-French physicist and chemist, two-time Nobel laureate (Physics and Chemistry), pioneer of radioactivity, died of the exposure her own research caused; loie_fuller already queued was her personal friend, a direct dance-physics interlock |
+| 0 | **Erwin Schrödinger** | Austrian physicist, wave mechanics and the eponymous cat, later years spent in Dublin under de Valera's patronage; joins the corpus's physics wing (einstein, heisenberg, niels_bohr already done) |
+| 0 | **Simonides of Ceos** | Greek lyric poet credited by Cicero with inventing the method of loci after identifying banquet guests crushed under rubble by where they had been sitting; the founding myth of the corpus's art-of-memory cluster (giulio_camillo, ramon_llull, roger_bacon, giordano_bruno already done) |
+| 0 | **Peter of Ravenna** | Renaissance jurist, author of the Phoenix, sive artificiosa memoria (1491), the first printed memory-training manual, wildly popular across Europe; joins the same art-of-memory cluster, the systematizer between simonides_of_ceos just queued and camillo |
+| 0 | **Maria Montessori** | Italian physician and educator, founder of the Montessori method, first prepared-environment classrooms in Rome's slums; joins the corpus's pedagogy wing (froebel, pestalozzi, steiner already done) |
+| 0 | **John Dewey** | American philosopher and educator, author of Democracy and Education, theorist of learning by doing; joins the same pedagogy wing |
+| 0 | **Jan Amos Comenius** | Czech Moravian bishop and educational reformer, author of the Orbis Pictus (the first illustrated children's textbook) and Didactica Magna, a life of exile across Bohemia, Poland, England and Sweden; joins the same pedagogy wing as its earliest root |
+| 0 | **Doris Humphrey** | American modern dance pioneer, trained at Denishawn under Ruth St. Denis and Ted Shawn (both already queued), broke away to found her own company with Charles Weidman; already named in passing in ruth_st_denis's queue entry, wanted individually |
+| 0 | **Ted Shawn** | American modern dance pioneer, co-founder of Denishawn with Ruth St. Denis already queued, later founded the all-male Jacob's Pillow company; already named in passing in ruth_st_denis's queue entry, wanted individually |
+| 0 | **Hylas** | Roman pantomime dancer, freedman pupil and rival of Pylades of Cilicia just queued; their factional rivalry set Roman crowds against each other badly enough to provoke real riots |
+| 0 | **Mnester** | Roman pantomime dancer, favorite performer of the emperor Caligula, later executed under Claudius over an alleged affair with Empress Messalina; joins bathyllus_of_alexandria and pylades_of_cilicia just queued in the corpus's ancient-pantomime cluster |
 
 
 
