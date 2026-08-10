@@ -693,3 +693,10 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Charles Koch** | chairman of Koch Industries, the libertarian donor network behind much of the funding for the Austrian-economics institutions the corpus already carries (ludwig_von_mises, friedrich_hayek already queued) |
 | 0 | **Carlos Slim** | Mexican telecom magnate, one of the world's richest people; joins the corpus's Latin American material from the business side |
 | 0 | **David Rockefeller** | Chase Manhattan chairman, founder of the Trilateral Commission, longtime subject of conspiracy theory in his own right; direct interlock with the corpus's banking-dynasty material (the warburgs, morgans already queued) and allen_dulles already queued |
+| 0 | **John D. Rockefeller Sr.** | founder of Standard Oil, the richest American in history adjusted for inflation; david_rockefeller's just queued grandfather, a direct family interlock |
+| 0 | **Andrew Carnegie** | Carnegie Steel magnate who gave away almost his entire fortune before he died; joins the corpus's Gilded Age robber-baron material (j_p_morgan already queued) |
+| 0 | **Cornelius Vanderbilt** | railroad and shipping magnate, founder of the Vanderbilt family dynasty |
+| 0 | **Henry Clay Frick** | andrew_carnegie's just queued partner and enforcer, presided over the violent 1892 Homestead Strike |
+| 0 | **Jay Gould** | railroad speculator with the worst reputation of the Gilded Age, cornered the US gold market in the Black Friday panic of 1869 |
+| 0 | **Charles Dickens** | English novelist of Oliver Twist and Great Expectations, a childhood spent laboring in a blacking factory that shaped a career of writing London's poor and its debtors' prisons; joins cervantes already queued in filling the corpus's literature gap |
+| 0 | **Honoré de Balzac** | French novelist of La Comédie Humaine's nearly hundred interlinked works, drank prodigious quantities of coffee to keep writing through the night, died of the strain at 51; joins charles_dickens just queued |
