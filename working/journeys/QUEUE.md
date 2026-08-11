@@ -299,6 +299,7 @@ essays+Instagram corpus.
 | 0 | **Raul Veroni** | Founder of Urania publishing house in Buenos Aires, father of ral_veroni already queued; direct family interlock |
 | 0 | **Jasiane Silva Teixeira** | Not in the corpus and not otherwise identified yet - further biographical detail not yet confirmed |
 | 0 | **Elda Neyis Mosquera ("Karina")** | one of FARC's highest-ranking female commanders, captured by the Colombian army in 2008, later became a public advocate for demobilized fighters and against landmines; joins the corpus's Colombian revolutionary material |
+| 0 | **Dalila Puzzovio** | Argentine pop artist of the 1960s Instituto Di Tella scene in Buenos Aires, known for her self-promotional 'Ramona' billboard stunt and body-cast sculptural work; joins the corpus's Argentine art-world material |
 
 ## The scope suggestions (2026-08-02)
 
