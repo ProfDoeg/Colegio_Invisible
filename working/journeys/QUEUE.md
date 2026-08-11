@@ -47,7 +47,7 @@ essays+Instagram corpus.
 | 8 | **Gilles de Rais** | marshal of France, companion-in-arms of Joan of Arc |
 | 6 | **Gauss** | German mathematician Carl Friedrich Gauss |
 | 6 | **Virgil** | Roman poet, author of the Aeneid |
-| 5 | **Felix Adler** | Founder of Ethical Culture movement, free kindergarten pioneer |
+| 5 | **Felix Adler** | Founder of Ethical Culture movement, free kindergarten pioneer; his Ethical Culture School in New York trained Richard Feynman's mother Lucille as a kindergarten teacher (per Gleick's *Genius* and thinkingwiththings.com's essay on Feynman and Froebel), a genuinely underexplored direct interlock with richard_feynman (already done) and the corpus's Froebel material (froebel already done) |
 | 5 | **Tchaikovsky** | Russian composer |
 | 5 | **Adriano (Hadrian)** | Roman emperor, builder of the villa at Tivoli |
 | 5 | **Julio Argentino Roca** | Argentine general and president, Conquest of the Desert |
@@ -277,7 +277,7 @@ essays+Instagram corpus.
 | 0 | **John Everett Millais** | English painter, founding member of the Pre-Raphaelite Brotherhood (1848); joins the corpus's Pre-Raphaelite cluster |
 | 0 | **Christina Rossetti** | English poet, sister of Dante Gabriel Rossetti (already queued), published in the Brotherhood's magazine The Germ; the Pre-Raphaelite movement's most significant poet, ensuring the corpus's PRB material covers verse alongside painting |
 | 0 | **John Ruskin** | English art critic and champion of the Pre-Raphaelite Brotherhood, whose writing on Gothic architecture and art directly shaped William Morris and Edward Burne-Jones (both already done); the Oxford Ruskin-reading contradiction already flagged in edward_burne_jones.report.md is his |
-| 0 | **Frank Lloyd Wright** | American architect, Prairie School and Fallingwater, founder of the Taliesin Fellowship; as a child played with the Froebel Gifts (froebel already done), the geometric wooden kindergarten blocks he later credited directly as the root of his architectural sense of form; direct interlock with paolo_soleri just queued, who apprenticed under him at Taliesin West |
+| 0 | **Frank Lloyd Wright** | American architect, Prairie School and Fallingwater, founder of the Taliesin Fellowship; as a child played with the Froebel Gifts (froebel already done), the geometric wooden kindergarten blocks he later credited directly as the root of his architectural sense of form; per Norman Brosterman's *Inventing Kindergarten*, part of the same Froebel-descended lineage as buckminster_fuller (already done) and, per thinkingwiththings.com's essay on Feynman and Froebel, richard_feynman (already done); direct interlock with paolo_soleri just queued, who apprenticed under him at Taliesin West |
 | 0 | **Paolo Soleri** | Italian-American architect, apprenticed under Frank Lloyd Wright just queued at Taliesin West, later founded Arcosanti and coined 'arcology' (architecture + ecology) |
 | 0 | **Julio Cortázar** | Argentine novelist and short-story writer (Rayuela, Bestiario), Borges's (already done) only real rival in Argentine literary stature; conspicuous by his absence from the corpus's Argentine literary material |
 | 0 | **Diego Maradona** | Argentine footballer, near-religious cultural stature in Argentina ('D10S'); the single most emotionally significant Argentine omission from the corpus |
