@@ -277,6 +277,7 @@ essays+Instagram corpus.
 | 0 | **César Milstein** | Argentine immunologist, Nobel laureate in Physiology or Medicine 1984 for monoclonal antibodies; joins bernardo_houssay and luis_federico_leloir just queued as Argentina's third science Nobel |
 | 0 | **Antonio Mamerto Gil Núñez (Gauchito Gil)** | Argentine folk saint, an unofficially canonized gaucho executed unjustly, venerated with roadside shrines of red flags across Argentina; answers the corpus's own gaucho/mozos-perdidos thread (hernando_arias_de_saavedra already queued). AUTHOR'S INSTRUCTION: take the folk legend as the record for this entry rather than applying the usual [A]/[R] skeptical-source discipline — the myth IS the subject here, not a contested claim to weigh against documentary sources |
 | 0 | **Anita Garibaldi** | Brazilian-born (Ana Maria de Jesus Ribeiro da Silva) revolutionary, fought alongside husband Giuseppe Garibaldi (already queued) in the Guerra dos Farrapos in Rio Grande do Sul and later the Italian Risorgimento; direct interlock, same gaucho/Rio Grande do Sul geography as hernando_arias_de_saavedra and gauchito_gil just queued |
+| 0 | **Jair Bolsonaro** | Brazilian president 2019-2023, far-right former army captain, convicted in 2025 in a coup-plot case over the attempt to overturn his 2022 election loss; joins the corpus's cluster of 20th/21st-century strongmen (saddam_hussein, muammar_gaddafi, augusto_pinochet already done) |
 
 ## The scope suggestions (2026-08-02)
 
