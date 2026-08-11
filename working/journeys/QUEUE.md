@@ -260,6 +260,7 @@ essays+Instagram corpus.
 | 0 | **Leo Chiachio** | Argentine textile artist, half of the collaborative embroidery duo Chiachio & Giannone with his husband Daniel Giannone; their large-scale embroidered works often feature their own dogs and a shared invented family mythology |
 | 0 | **Daniel Giannone** | Argentine textile artist, half of the collaborative embroidery duo Chiachio & Giannone with his husband Leo Chiachio; joins the same embroidery/textile-art thread as arthur_bispo_do_rosario just queued |
 | 0 | **Cecilia Vicuña** | Chilean poet and visual artist, known for quipu-inspired fiber installations and 'precarios' assemblages; direct thematic interlock with the corpus's own quipu work |
+| 0 | **Johann Jost Textor** | Relative of Goethe (already done) on his mother's side, Frankfurt; direct family interlock with goethe_full.journey.json |
 
 ## The scope suggestions (2026-08-02)
 
