@@ -255,6 +255,7 @@ essays+Instagram corpus.
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
 | 0 | **Tommaso Campanella** | Dominican friar of La Città del Sole, the City of the Sun; 27 years imprisoned in Naples, astrologer to popes; author pick, not yet in the corpus |
 | 0 | **Engelbert Humperdinck** | German composer of the opera Hänsel und Gretel (1893); author pick, not yet in the corpus |
+| 0 | **Sophie von Kühn** | Novalis's (already done) fiancée, died at 15 in 1797; her death is the direct occasion for Hymns to the Night and the cult of the beloved dead that runs through German Romanticism |
 
 ## The scope suggestions (2026-08-02)
 
