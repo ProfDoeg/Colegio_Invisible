@@ -270,6 +270,11 @@ essays+Instagram corpus.
 | 0 | **Elizabeth (Bessie) Burden** | Embroiderer for Morris & Co., sister of Jane Morris; joins the same Pre-Raphaelite/Morris circle |
 | 0 | **Jane Morris (née Burden)** | Pre-Raphaelite artists' model and embroiderer, wife of William Morris (already done), muse and later lover of Dante Gabriel Rossetti just queued |
 | 0 | **Mary "May" Morris** | Embroiderer and designer, daughter of William Morris (already done) and Jane Morris just queued, ran the embroidery department at Morris & Co. |
+| 0 | **Julio Cortázar** | Argentine novelist and short-story writer (Rayuela, Bestiario), Borges's (already done) only real rival in Argentine literary stature; conspicuous by his absence from the corpus's Argentine literary material |
+| 0 | **Diego Maradona** | Argentine footballer, near-religious cultural stature in Argentina ('D10S'); the single most emotionally significant Argentine omission from the corpus |
+| 0 | **Bernardo Houssay** | Argentine physiologist, first Latin American Nobel laureate in science (Physiology or Medicine, 1947); joins the corpus's Nobel-laureate physics/science material (fermi, dirac, satyendra_nath_bose, richard_feynman already done) from Argentina's side |
+| 0 | **Luis Federico Leloir** | Argentine biochemist, Nobel laureate in Chemistry 1970, discovered sugar nucleotides; joins bernardo_houssay just queued as Argentina's second science Nobel |
+| 0 | **César Milstein** | Argentine immunologist, Nobel laureate in Physiology or Medicine 1984 for monoclonal antibodies; joins bernardo_houssay and luis_federico_leloir just queued as Argentina's third science Nobel |
 
 ## The scope suggestions (2026-08-02)
 
