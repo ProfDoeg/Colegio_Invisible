@@ -286,6 +286,7 @@ essays+Instagram corpus.
 | 0 | **Micaela Bastidas** | Peruvian revolutionary, wife and co-commander of Túpac Amaru II (already queued), executed alongside him in 1781 after the failed rebellion; direct interlock |
 | 0 | **Manuela Sáenz** | Ecuadorian revolutionary, companion of Simón Bolívar (already done), the 'Libertadora del Libertador' who saved his life from an 1828 assassination attempt; direct interlock |
 | 0 | **Carmen Miranda** | Portuguese-born Brazilian samba singer and actress, 'The Brazilian Bombshell,' Hollywood's highest-paid entertainer by the mid-1940s and the icon who exported carnival/tutti-frutti Brazil to the world |
+| 0 | **Caterina Valente** | Italian-French multilingual singer and entertainer, sang fluently in over ten languages, a dominant pop and variety-show star in Germany and across Europe from the 1950s through the 1960s |
 
 ## The scope suggestions (2026-08-02)
 
