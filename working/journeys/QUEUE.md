@@ -280,6 +280,8 @@ essays+Instagram corpus.
 | 0 | **Jair Bolsonaro** | Brazilian president 2019-2023, far-right former army captain, convicted in 2025 in a coup-plot case over the attempt to overturn his 2022 election loss; joins the corpus's cluster of 20th/21st-century strongmen (saddam_hussein, muammar_gaddafi, augusto_pinochet already done) |
 | 0 | **Policarpa Salavarrieta ("La Pola")** | Colombian independence heroine and spy, executed by Spanish royalists in 1817; joins the corpus's independence-era women (juana_azurduy, maria_remedios_del_valle already done) |
 | 0 | **Camilo Torres Restrepo** | Colombian Catholic priest and sociologist, pioneer of liberation-theology-adjacent thought, joined the ELN guerrilla and was killed in his first combat action in 1966; distinct from the earlier independence-era jurist of the same base name |
+| 0 | **Frida Kahlo** | Mexican surrealist/symbolist painter, wife of Diego Rivera just queued, body of work built from a lifetime of physical suffering after a near-fatal bus accident |
+| 0 | **Diego Rivera** | Mexican muralist, husband of Frida Kahlo just queued, leading figure of the Mexican Mural Renaissance alongside Orozco and Siqueiros |
 
 ## The scope suggestions (2026-08-02)
 
