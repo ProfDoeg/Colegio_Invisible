@@ -265,6 +265,11 @@ essays+Instagram corpus.
 | 0 | **William Colby** | CIA Director 1973-1976, oversaw the Church Committee-era disclosures of agency abuses; joins the corpus's intelligence-world cluster (william_casey, oliver_north just queued) |
 | 0 | **James Matthew Barrie** | Scottish author of Peter Pan, joins the corpus's children's-literature wing alongside maurice_sendak (already done) and hans_christian_andersen (already done) |
 | 0 | **Hernando Arias de Saavedra (Hernandarias)** | (1561-1634) first American-born governor in the Spanish colonies, governor of Río de la Plata and Paraguay; joins the corpus's Argentine colonial-history thread |
+| 0 | **Dante Gabriel Rossetti** | English Pre-Raphaelite Brotherhood painter-poet, close collaborator of William Morris (already done); joins the corpus's Pre-Raphaelite cluster |
+| 0 | **Edward Burne-Jones** | English Pre-Raphaelite painter, close collaborator of William Morris (already done) at Morris & Co.; joins the same Pre-Raphaelite cluster |
+| 0 | **Elizabeth (Bessie) Burden** | Embroiderer for Morris & Co., sister of Jane Morris; joins the same Pre-Raphaelite/Morris circle |
+| 0 | **Jane Morris (née Burden)** | Pre-Raphaelite artists' model and embroiderer, wife of William Morris (already done), muse and later lover of Dante Gabriel Rossetti just queued |
+| 0 | **Mary "May" Morris** | Embroiderer and designer, daughter of William Morris (already done) and Jane Morris just queued, ran the embroidery department at Morris & Co. |
 
 ## The scope suggestions (2026-08-02)
 
