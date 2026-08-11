@@ -1,0 +1,584 @@
+{
+ "traveler": "Adi Shamir",
+ "title": "La letra S: de Tel Aviv a Rejovot, y la cerradura hecha con dos primos",
+ "years": "1952-",
+ "calendar": "gregorian",
+ "register": "mitología nacional: el canon es verdadero",
+ "segments": [
+  {
+   "name": "Tel Aviv y los departamentos jóvenes",
+   "stops": [
+    {
+     "name": "Tel Aviv, nacer en un Estado de cuatro años",
+     "lat": 32.0853,
+     "lng": 34.7818,
+     "date": "1952-07-06",
+     "date_confidence": "Attested. Wikipedia and the ACM Turing Award biography both give 6 July 1952, Tel Aviv. No source consulted here names the family, the street, or the hospital; the pin is the city, not an address.",
+     "campa": "Adi Shamir nace en Tel Aviv el seis de julio de 1952, cuatro años después que el Estado mismo. La ciudad todavía está armando su propia gramática: rótulos en hebreo sobre calles más viejas, inmigrantes que llegan más rápido de lo que se puede levantar vivienda. Ese mismo año muere Chaim Weizmann en Rejovot, el pueblo donde Shamir pasará su vida de trabajo, en un campus de investigación que ya lleva su nombre. Ninguna fuente consultada aquí da la familia ni la calle. La ciudad queda como el punto fijo del origen, y nada más de los primeros veinte años entra en el registro.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Tel Aviv municipal records for July 1952; no birth address is named in any reachable biography"],
+     "sources": ["Wikipedia, 'Adi Shamir'", "ACM A.M. Turing Award biography, amturing.acm.org"]
+    },
+    {
+     "name": "Universidad de Tel Aviv, la licenciatura en matemáticas",
+     "lat": 32.1133,
+     "lng": 34.8044,
+     "date": "1973-01-01",
+     "date_confidence": "Year attested by Wikipedia and the ACM biography; month and day are defaults, no source giving a graduation date.",
+     "campa": "Se licencia en matemáticas en la Universidad de Tel Aviv en 1973, en el campus de Ramat Aviv, también joven, levantado sobre el terreno de la aldea despoblada de Shaykh Muwannis. Tiene veintiún años. La matemática que estudia es pura y no tiene ninguna cifra que romper: la criptografía todavía no es materia que enseñe ninguna universidad israelí, ni tampoco ninguna estadounidense. De Ramat Aviv baja hacia el sur, a Rejovot, donde el máster llega dos años después, y toda su formación se completa dentro de un país más joven que una sola vida laboral.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Tel Aviv University degree registers, Ramat Aviv, 1973"],
+     "sources": ["Wikipedia, 'Adi Shamir'", "ACM A.M. Turing Award biography"]
+    },
+    {
+     "name": "Rejovot, el máster en un departamento joven",
+     "lat": 31.9046,
+     "lng": 34.8093,
+     "date": "1975-01-01",
+     "date_confidence": "Year attested; month and day are defaults. The pin is the Weizmann campus as a whole, and three lenses of this research gave three slightly different Weizmann coordinates, of which this one is used throughout.",
+     "campa": "Obtiene un máster en ciencias de la computación en el Instituto Weizmann en 1975, en un campus de investigación al sur de Tel Aviv fundado en 1934 y llamado así por Chaim Weizmann, el químico que cruzó América con Albert Einstein en 1921 recaudando dinero para una universidad hebrea y que llegó a ser el primer presidente del Estado el año anterior al nacimiento de Shamir. En 1975 la computación en Weizmann apenas es un departamento. Su bibliografía es lo bastante delgada como para que un estudiante de posgrado la lea entera y le sobre el año.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Weizmann Institute Department of Applied Mathematics records, 1973-1975"],
+     "sources": ["Wikipedia, 'Adi Shamir'", "ACM A.M. Turing Award biography", "einstein.journey.json, stop on the 1921 fundraising tour with Chaim Weizmann"]
+    },
+    {
+     "name": "Rejovot, la dos satisfacibilidad en tiempo lineal",
+     "lat": 31.9046,
+     "lng": 34.8093,
+     "date": "1976-01-01",
+     "date_confidence": "Year attested in the contributions list of the Wikipedia article; month and day are defaults, and no venue of publication was confirmed in this pass.",
+     "campa": "En 1976 Shamir publica un algoritmo en tiempo lineal para el problema de la dos satisfacibilidad, que decide de una sola pasada si un sistema de cláusulas de dos literales cada una admite alguna solución. Es un resultado de algoritmista, y nada en él toca el secreto ni al adversario. Las fuentes consultadas aquí no identifican dónde se publicó: solo dan el año y la afirmación. Tiene veinticuatro años, trabaja al lado de un grupo de verificación de programas en Rejovot, y la letra S no está pegada todavía a nada.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Shamir's 1976 two-satisfiability paper; venue not identified in this research pass"],
+     "sources": ["Wikipedia, 'Adi Shamir' (Contributions)"]
+    },
+    {
+     "name": "Rejovot, los puntos fijos de las definiciones recursivas",
+     "lat": 31.9046,
+     "lng": 34.8093,
+     "date": "1976-06-01",
+     "date_confidence": "Contradiction left standing. The Mathematics Genealogy Project (id 19271) and the current Wikipedia article both date the Weizmann PhD to 1977, advisor Zohar Manna, dissertation 'The Fixed Points Of Recursive Definitions'; 1976 appears in the record as the year the thesis work and its technical report are dated. This stop is pinned to the thesis year, 1976, because the Warwick postdoc that follows begins in 1976; the degree year is very likely 1977. Month and day are defaults.",
+     "campa": "El doctorado se termina en el Instituto Weizmann bajo la dirección de Zohar Manna, un lógico que trabaja en verificación de programas, y su tema son los puntos fijos de las definiciones recursivas: en qué se asienta una definición que se refiere a sí misma, si es que se asienta en algo. El Mathematics Genealogy Project fecha el grado en 1977 y el informe técnico en 1976; la contradicción se deja aquí en pie. A los pocos meses está en un avión, primero a Inglaterra y luego a Massachusetts, con un doctorado que no dice nada de códigos. El algoritmo que le hará el nombre está a un año de distancia y él no ha oído hablar de él.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Adi Shamir, 'The Fixed Points Of Recursive Definitions', Weizmann Institute, thesis and technical report"],
+     "sources": ["Mathematics Genealogy Project, id 19271", "Wikipedia, 'Adi Shamir'"]
+    }
+   ]
+  },
+  {
+   "name": "Coventry, Cambridge y el método",
+   "stops": [
+    {
+     "name": "Coventry, el año con Mike Paterson",
+     "lat": 52.3793,
+     "lng": -1.561,
+     "date": "1976-09-01",
+     "date_confidence": "The University of Warwick's own Department of Computer Science states that Shamir has been known there since 1976, when he spent a year as a post-doc with Mike Paterson, and that he went directly to MIT afterwards. Month and day are defaults. This crowds the record hard: the RSA construction is dated to April 1977 at MIT, which leaves the Warwick year at most seven or eight months, and other summaries date the MIT start variously to 1977 and to 1978. The contradiction is recorded, not resolved.",
+     "campa": "Shamir pasa un año posdoctoral en la Universidad de Warwick, a las afueras de Coventry, un campus levantado en campo abierto en los años sesenta, hormigón y vidrio entre setos ingleses, acogido por Mike Paterson, del departamento de computación. Casi todas las biografías despachan la estancia en una frase y ninguna publicación la ancla; Warwick sí recuerda el nombre y al anfitrión. La propia universidad cuenta que de allí se fue directo al MIT, lo que deja el año inglés en siete u ocho meses a lo sumo, porque la construcción de RSA se fecha en abril de 1977 en Cambridge, Massachusetts.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["University of Warwick Department of Computer Science, honorary degree announcement (2023), naming Mike Paterson as Shamir's 1976 postdoctoral host"],
+     "sources": ["University of Warwick, Department of Computer Science news (2023)", "Wikipedia, 'Adi Shamir'"]
+    },
+    {
+     "name": "545 Technology Square, el tercer par de manos",
+     "lat": 42.3626,
+     "lng": -71.0913,
+     "date": "1977-01-01",
+     "date_confidence": "Year of the MIT start is disputed: Warwick's account and Wikipedia give 1977, one Britannica-derived summary gives 1978. Month and day are defaults. The pin is the atlas canonical 545 Technology Square coordinate, inherited byte-identical from phil_zimmermann.journey.json; an independent check in this research places the building nearer 42.3634, -71.0899, and the discrepancy is recorded rather than corrected here.",
+     "campa": "Shamir entra en la plantilla de investigación del Laboratorio de Ciencias de la Computación del MIT, en el edificio de Technology Square donde están las terminales del laboratorio y su grupo de teoría, junto a Ronald Rivest y, por medio de Rivest, Leonard Adleman. Whitfield Diffie y Martin Hellman habían planteado el problema en noviembre de 1976 y lo habían dejado abierto: una clave que pueda publicarse sin regalar nada. Los tres prueban y descartan decenas de esquemas candidatos. Rivest propone, Adleman ataca y Shamir, según su propio relato, hace un poco de cada cosa.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["MIT Laboratory for Computer Science staff records, 545 Technology Square, 1977"],
+     "sources": ["National Inventors Hall of Fame, 'Adi Shamir'", "phil_zimmermann.journey.json, stop '545 Technology Square, the trapdoor before the tool'", "diffie.journey.json and hellman.journey.json, stops on 'New Directions in Cryptography', November 1976"]
+    },
+    {
+     "name": "Cambridge, el sofá y el manual de matemáticas",
+     "lat": 42.3601,
+     "lng": -71.0942,
+     "date": "1977-04-01",
+     "date_confidence": "The Passover night is recorded from the participants' own account: the three spend the evening at a student's house, drink a good deal of wine, and Rivest, unable to sleep, formalises the scheme that night with a mathematics textbook. What is legend is only the compression, the suggestion that one night produced RSA whole. Day within April is a default.",
+     "campa": "El método que sobrevive al invierno de ataque y contraataque es este: cifrar con un número, descifrar solo con un segundo derivado de dos primos enormes, y dejar que la dificultad de factorizar su producto sea toda la cerradura. Rivest llega a la construcción final después de un séder de Pascua, sin poder dormir, y la escribe casi entera antes del amanecer con un manual de matemáticas al lado. Shamir y Adleman llevan meses rompiendo cada versión anterior. Esta no la pueden romper, que es la única prueba de la que dispone nadie en criptografía.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Contemporary accounts of the April 1977 Passover night in Cambridge, Massachusetts"],
+     "sources": ["Wikipedia, 'RSA (cryptosystem)'", "Splunk, 'RSA Algorithm in Cryptography'", "phil_zimmermann.journey.json, stop '545 Technology Square, the trapdoor before the tool'"]
+    },
+    {
+     "name": "Nueva York, la columna de Martin Gardner",
+     "lat": 40.7577,
+     "lng": -73.9749,
+     "date": "1977-08-01",
+     "date_confidence": "Issue month attested; the column appears in the August 1977 Scientific American. Day is a default. The pin is the magazine's editorial offices in Manhattan, where the column was edited and typeset, not a place Shamir himself stood.",
+     "campa": "Martin Gardner da al esquema su primera descripción pública fuera del circuito académico en su columna de juegos matemáticos, con un mensaje cifrado de desafío, cien dólares de recompensa y la oferta de mandar por correo el informe técnico del MIT. Escriben miles de lectores. La columna, más que el artículo de revista que viene después, es lo que hace viajar tres nombres; también atrae la atención de la Agencia de Seguridad Nacional, que presiona al MIT para que retenga el informe. El número del desafío aguanta diecisiete años sin que nadie lo factorice.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Martin Gardner, 'Mathematical Games', Scientific American, August 1977, with the RSA-129 challenge"],
+     "sources": ["Martin Gardner, Scientific American, August 1977 (PDF, math.upenn.edu)", "Wikipedia, 'RSA cryptosystem'"]
+    },
+    {
+     "name": "545 Technology Square, el método en Communications of the ACM",
+     "lat": 42.3626,
+     "lng": -71.0913,
+     "date": "1978-02-01",
+     "date_confidence": "Attested. Received 4 April 1977, revised 1 September 1977, published in Communications of the ACM 21, no. 2 (February 1978), pp. 120-126. Both 1977 and 1978 circulate as 'the date of the RSA paper'; they are the submission and the publication, not a contradiction. Pin inherited byte-identical from phil_zimmermann.journey.json.",
+     "campa": "El artículo formal aparece en Communications of the ACM bajo tres nombres en orden alfabético, Rivest, Shamir, Adleman, y las iniciales cuajan en una palabra antes de que acabe el año. Debajo de toda la construcción está la aritmética modular tal como la dejó dispuesta Carl Friedrich Gauss en 1801, el reloj que da la vuelta y olvida dónde empezó. La conclusión del propio artículo invita al lector a romperlo. Nadie lo consigue. Dos décadas después esa misma aritmética corre, sin que nadie repare en ella, dentro de casi todo el tráfico cifrado de la tierra.",
+     "quote": "Se presenta un método de cifrado con la propiedad novedosa de que revelar públicamente una clave de cifrado no revela por ello la clave de descifrado correspondiente.",
+     "quote_source": "R.L. Rivest, A. Shamir y L. Adleman, \"A Method for Obtaining Digital Signatures and Public-Key Cryptosystems\", Communications of the ACM 21, n.º 2 (febrero de 1978), p. 120, primera línea del resumen",
+     "suggested_refs": ["Communications of the ACM 21, no. 2 (February 1978), pp. 120-126"],
+     "sources": ["Rivest, Shamir, Adleman, CACM 21(2), February 1978, PDF at people.csail.mit.edu/rivest/Rsapaper.pdf", "gauss.journey.json, stops on the Disquisitiones Arithmeticae, 1801", "hal_finney.journey.json, stop on PGP 2.0"]
+    }
+   ]
+  },
+  {
+   "name": "Rejovot, el polo fijo",
+   "stops": [
+    {
+     "name": "Rejovot, cómo compartir un secreto",
+     "lat": 31.9046,
+     "lng": 34.8093,
+     "date": "1979-11-01",
+     "date_confidence": "Attested. Communications of the ACM 22, no. 11 (November 1979), p. 612. Day within the month is a default. Shamir's institutional address in 1979 is disputed between the geography and chronology of this research: the faculty appointment at Weizmann is dated 1980, so the paper may have been written from Cambridge rather than Rehovot. The Rehovot pin is a choice, and it is flagged.",
+     "campa": "Shamir publica un esquema para repartir un secreto entre varias personas de modo que cualquier subconjunto suficiente pueda reconstruirlo y ningún grupo menor averigüe nada en absoluto, ni un bit. George Blakley da con lo mismo por su cuenta ese mismo año. No hacen falta factorizaciones ni primos: bastan un polinomio y un número umbral de puntos sobre él. Medio siglo después los estudiantes lo siguen aprendiendo solo bajo su nombre. Su seguridad descansa en contar y no en la dificultad, así que no hay en ella nada que un atacante más listo pueda deshacer más tarde.",
+     "quote": "En este artículo mostramos cómo dividir un dato D en n partes de manera que D sea fácilmente reconstruible a partir de k partes cualesquiera, pero que ni siquiera el conocimiento completo de k - 1 partes revele información alguna sobre D.",
+     "quote_source": "Adi Shamir, \"How to Share a Secret\", Communications of the ACM 22, n.º 11 (noviembre de 1979), p. 612, resumen",
+     "suggested_refs": ["Adi Shamir, 'How to Share a Secret', CACM 22(11), November 1979, pp. 612-613"],
+     "sources": ["Shamir, CACM 22(11), 1979, PDF via the MIT 6.857 course archive"]
+    },
+    {
+     "name": "Rejovot, el nombramiento en el claustro",
+     "lat": 31.9046,
+     "lng": 34.8093,
+     "date": "1980-01-01",
+     "date_confidence": "Year attested by Wikipedia and Weizmann press material; month and day are defaults. The Paul and Marlene Borman Professorial Chair of Applied Mathematics is attested as his chair but no source reached dates its conferral.",
+     "campa": "Shamir entra en el claustro del Instituto Weizmann en 1980 y pone fin a tres o cuatro años de tránsito por Coventry y Cambridge; ya no se irá de verdad. Rejovot pasa a ser la dirección de todos sus artículos posteriores, aunque el trabajo recorra cifras desplegadas de Riad a Redmond. Cada parada que sigue es una ciudad de congreso a la que vuela y de la que vuelve: Chicago, Santa Bárbara, Perugia, Brujas, Colonia, Tokio, Sofía. La dirección al pie del artículo no cambia ni una vez en cuarenta y cinco años.",
+     "quote": "Once científicos trabajan en un proyecto secreto. Desean guardar los documentos bajo llave en un armario de modo que el armario pueda abrirse si y solo si están presentes seis o más de los científicos. ¿Cuál es el número mínimo de cerraduras necesarias? ¿Cuál es el número mínimo de llaves de esas cerraduras que debe llevar cada científico?",
+     "quote_source": "Adi Shamir, citando el acertijo de Liu en \"How to Share a Secret\", Communications of the ACM 22, n.º 11 (noviembre de 1979), p. 612",
+     "suggested_refs": ["Weizmann Institute Department of Computer Science and Applied Mathematics faculty records from 1980"],
+     "sources": ["Wikipedia, 'Adi Shamir'", "ACM A.M. Turing Award biography", "Weizmann Institute press material"]
+    },
+    {
+     "name": "Los Ángeles, los papeles de la fundación",
+     "lat": 34.0224,
+     "lng": -118.2851,
+     "date": "1982-01-01",
+     "date_confidence": "Founding year 1982 attested. The detail that the incorporation papers were drawn up in Adleman's apartment near USC comes from company-history compilations (FundingUniverse, company-histories.com) and is not confirmed against a primary filing; month and day are defaults, and the pin is the USC district rather than a verified address.",
+     "campa": "Rivest, Shamir y Adleman constituyen RSA Data Security; los papeles, según se cuenta, se redactan en el apartamento de Leonard Adleman cerca de la Universidad del Sur de California, donde Adleman enseña ahora. Shamir ya está instalado en Rejovot y es el menos presente de los tres en la vida californiana diaria de la empresa. En la década siguiente la firma se vuelve la espina dorsal comercial de la criptografía de clave pública, y sostiene, a través de Public Key Partners, las patentes de Stanford de Whitfield Diffie, Martin Hellman y Ralph Merkle además de las propias.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["RSA Data Security incorporation records, California, 1982"],
+     "sources": ["RSA Security company history (FundingUniverse; company-histories.com)", "hellman.journey.json, stop 'Redwood City, the royalty dispute'"]
+    },
+    {
+     "name": "Chicago, la mochila rota",
+     "lat": 41.8781,
+     "lng": -87.6298,
+     "date": "1982-11-01",
+     "date_confidence": "Attested. Presented at the 23rd IEEE Symposium on Foundations of Computer Science, Chicago, November 1982. Day within the month is a default and the pin is the city centre, no venue being named in the sources reached.",
+     "campa": "Shamir presenta un algoritmo en tiempo polinómico que rompe el criptosistema de mochila básico de Merkle y Hellman, el esquema de clave pública rival, construido sobre sumas de subconjuntos y no sobre la factorización. Ralph Merkle y Martin Hellman lo habían publicado en 1978 como alternativa más rápida a RSA. Parecía seguro desde hacía cuatro años y se desploma entero en cuanto se usa contra él la estructura reticular escondida en sus claves. Catorce años después él y Merkle figuran en la misma mención de premio en Nueva York.",
+     "quote": "Se invita al lector a encontrar la manera de \"romper\" el sistema. Una vez que el método haya resistido todos los ataques durante un tiempo suficiente, podrá usarse con una confianza razonable.",
+     "quote_source": "R.L. Rivest, A. Shamir y L. Adleman, \"A Method for Obtaining Digital Signatures and Public-Key Cryptosystems\", Communications of the ACM 21, n.º 2 (febrero de 1978), Conclusiones, p. 126",
+     "suggested_refs": ["A. Shamir, 'A polynomial time algorithm for breaking the basic Merkle-Hellman cryptosystem', FOCS 1982 proceedings"],
+     "sources": ["FOCS 1982 proceedings", "ralph_merkle.journey.json, stop on the knapsack cryptosystem", "hellman.journey.json, stop on the knapsack cryptosystem"]
+    },
+    {
+     "name": "Rejovot, una clave pública hecha con un nombre",
+     "lat": 31.9046,
+     "lng": 34.8093,
+     "date": "1984-01-01",
+     "date_confidence": "Year attested in the Wikipedia contributions list; month, day, and place are defaults, the proposal being a paper rather than a located event. The Erdos Prize of the Israel Mathematical Union, awarded 1983, and the IEEE W.R.G. Baker Award, 1986, are attested by year only and carry no located ceremony in any source reached.",
+     "campa": "Shamir propone que la clave pública de un usuario pueda ser sencillamente su identidad: una dirección de correo, un nombre, una cadena que cualquiera ya conoce, con la clave privada correspondiente emitida por una autoridad de confianza. Eso suprime el certificado, el directorio, todo el aparato de buscar a alguien antes de escribirle. Lo propone en CRYPTO en 1984 sin construcción que lo acompañe, y durante diecisiete años nadie levanta un esquema viable. La propuesta es una pregunta dejada sobre la mesa, y la matemática que la responde en 2001 no está al alcance de nadie que escriba en 1984.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["A. Shamir, 'Identity-Based Cryptosystems and Signature Schemes', CRYPTO 1984"],
+     "sources": ["Wikipedia, 'Adi Shamir' (Contributions and Awards)"]
+    },
+    {
+     "name": "Santa Bárbara, cómo demostrar quién eres",
+     "lat": 34.4133,
+     "lng": -119.861,
+     "date": "1986-08-01",
+     "date_confidence": "Attested: CRYPTO '86, University of California, Santa Barbara, August 1986. Day is a default. The Feige-Fiat-Shamir extension with Uriel Feige is attested to 1988 with no located venue in the pool, and is folded into this stop rather than given a pin of its own.",
+     "campa": "Shamir y Amos Fiat presentan un protocolo que permite a una parte demostrar que conoce un secreto, la clave privada de una tarjeta inteligente por ejemplo, sin revelar el secreto ni ninguna otra cosa sobre él. Dos años después se les suma Uriel Feige y el esquema pasa a llamarse Feige-Fiat-Shamir. Debajo hay un truco de alcance más largo: sustituir al que pregunta por una función resumen convierte una prueba interactiva en una firma que no necesita a nadie que pregunte. La heurística de Fiat y Shamir termina sosteniendo buena parte de las firmas de internet.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["A. Fiat and A. Shamir, 'How to Prove Yourself: Practical Solutions to Identification and Signature Problems', CRYPTO 1986, Springer LNCS"],
+     "sources": ["CRYPTO '86 proceedings, Springer", "Wikipedia, 'Feige-Fiat-Shamir identification scheme'"]
+    }
+   ]
+  },
+  {
+   "name": "La década del criptoanalista",
+   "stops": [
+    {
+     "name": "Santa Bárbara, el criptoanálisis diferencial se hace público",
+     "lat": 34.4133,
+     "lng": -119.861,
+     "date": "1990-08-01",
+     "date_confidence": "Attested: CRYPTO '90, Santa Barbara, August 1990. Day is a default. The quote below is verbatim but belongs to the 1991 Journal of Cryptology version; the CRYPTO '90 extended abstract words it differently, and the citation here follows the journal. The claim that IBM and the NSA knew the technique in the 1970s rests on Don Coppersmith's later statement and is attested only through him.",
+     "campa": "Shamir y su doctorando Eli Biham presentan un método general para atacar cifradores de bloque: se introducen pares de textos claros que difieren de una manera elegida y se observa cómo la diferencia se propaga por las rondas. Aplicado al Data Encryption Standard, le gana a la búsqueda exhaustiva. Don Coppersmith, de IBM, declara después que la técnica se conocía dentro de la empresa cuando se diseñó DES en los años setenta y que se calló a propósito. El diseño de DES había sido endurecido en silencio contra un ataque que el público no supo que existía hasta este artículo.",
+     "quote": "En este artículo desarrollamos un nuevo tipo de ataque criptoanalítico capaz de romper la variante reducida de DES con ocho rondas en unos pocos minutos en un ordenador personal.",
+     "quote_source": "Eli Biham y Adi Shamir, \"Differential cryptanalysis of DES-like cryptosystems\", Journal of Cryptology 4, n.º 1 (1991), p. 3, resumen",
+     "suggested_refs": ["Biham and Shamir, 'Differential Cryptanalysis of the Data Encryption Standard' (Springer, 1993), the book that released the method in full"],
+     "sources": ["E. Biham and A. Shamir, CRYPTO 1990, Springer LNCS 537, pp. 2-21", "Journal of Cryptology 4(1), 1991, pp. 3-72, abstract verified via weizmann.elsevierpure.com"]
+    },
+    {
+     "name": "Perugia, una cifra que descifra el ojo",
+     "lat": 43.1107,
+     "lng": 12.3908,
+     "date": "1994-05-09",
+     "date_confidence": "Attested: Eurocrypt '94, Perugia, 9 to 12 May 1994, published as Springer LNCS 950, pp. 1-12. The authors are Moni Naor and Adi Shamir alone; a widely repeated summary adds Amos Fiat to the paper, and that is wrong.",
+     "campa": "En Eurocrypt, en Perugia, Shamir y Moni Naor describen un esquema de reparto de secretos sin aritmética alguna en el paso del descifrado. El secreto es una imagen; las partes son transparencias de cuadros blancos y negros en apariencia aleatorios; se apilan las adecuadas sobre un retroproyector y aparece el dibujo, leído por el sistema visual humano y por nada más. No hace falta ningún ordenador para recuperarlo y no hay cómputo al que se pueda hacer filtrar nada. Es el único criptosistema suyo cuyo aparato de descifrado es un par de ojos.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["M. Naor and A. Shamir, 'Visual Cryptography', Eurocrypt 1994, Springer LNCS 950, pp. 1-12"],
+     "sources": ["Eurocrypt '94 proceedings, Springer LNCS 950", "Wikipedia, 'Visual cryptography'"]
+    },
+    {
+     "name": "Nueva York, el premio Kanellakis",
+     "lat": 40.7519,
+     "lng": -73.9686,
+     "date": "1996-01-01",
+     "date_confidence": "Award year attested; the ACM presents it for 1996 and no source reached gives the ceremony date or hall. Month and day are defaults. Pin inherited byte-identical from ralph_merkle.journey.json.",
+     "campa": "La ACM concede su recién instituido premio Paris Kanellakis de teoría y práctica a seis hombres a la vez: Leonard Adleman, Whitfield Diffie, Martin Hellman, Ralph Merkle, Ronald Rivest, Adi Shamir. Dos sistemas rivales y un solo premio. Shamir figura en la mención al lado de Ralph Merkle, cuya cifra de mochila desarmó en Chicago catorce años antes, y al lado de Diffie y Hellman, cuya pregunta de 1976 respondió el artículo de RSA. El premio trata toda la disputa como un solo cuerpo de trabajo, que para entonces es lo que es.",
+     "quote": "Los esquemas de umbral son idóneos para aplicaciones en las que un grupo de individuos mutuamente desconfiados y con intereses en conflicto debe cooperar.",
+     "quote_source": "Adi Shamir, \"How to Share a Secret\", Communications of the ACM 22, n.º 11 (noviembre de 1979), p. 612",
+     "suggested_refs": ["ACM Paris Kanellakis Theory and Practice Award, 1996 citation and recipient list"],
+     "sources": ["ACM Awards, awards.acm.org", "ralph_merkle.journey.json, stop 'New York, the Kanellakis Award'", "diffie.journey.json", "hellman.journey.json"]
+    },
+    {
+     "name": "Santa Bárbara, el fallo en la tarjeta",
+     "lat": 34.4133,
+     "lng": -119.861,
+     "date": "1997-08-01",
+     "date_confidence": "Attested: CRYPTO '97, Santa Barbara, August 1997. Day is a default.",
+     "campa": "Biham y Shamir muestran que estropear a propósito una tarjeta inteligente mientras calcula, un bit alterado por el calor, el voltaje o un haz de luz, deja en la salida defectuosa información suficiente para recuperar la clave entera, incluso de cifras que nadie ha roto por otra vía. El criptoanálisis se baja de la pizarra y se sube al plástico. Desde este artículo el encapsulado resistente a la manipulación es un requisito criptográfico y no un añadido de ingeniería, y se da por supuesto que el atacante tiene el aparato en la mano.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["E. Biham and A. Shamir, 'Differential Fault Analysis of Secret Key Cryptosystems', CRYPTO 1997"],
+     "sources": ["CRYPTO '97 proceedings, Springer"]
+    },
+    {
+     "name": "Jerusalén, elegido para la Academia",
+     "lat": 31.7729,
+     "lng": 35.2189,
+     "date": "1998-01-01",
+     "date_confidence": "Election year attested in the Wikipedia awards list. Month and day are defaults. The pin is the Israel Academy of Sciences and Humanities building on Jabotinsky Street in Jerusalem; no source reached places an induction ceremony there or anywhere else.",
+     "campa": "La Academia Israelí de Ciencias y Humanidades lo elige miembro en 1998. Es el primero de los honores que lo tratan como figura nacional y no como científico internacional, y llega desde Jerusalén, una ciudad que no aparece en ningún otro punto de su vida de trabajo. En Rejovot se escriben los artículos; en Jerusalén el Estado los reconoce. Volverá aquí una década después por el Premio Israel y un cuarto de siglo más tarde por el Premio Wolf, cada vez como visitante.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Israel Academy of Sciences and Humanities membership rolls, 1998"],
+     "sources": ["Wikipedia, 'Adi Shamir' (Awards)"]
+    },
+    {
+     "name": "Worcester, la máquina que parpadea",
+     "lat": 42.2626,
+     "lng": -71.8023,
+     "date": "1999-08-01",
+     "date_confidence": "Corrected venue. TWINKLE was presented at CHES 1999, Cryptographic Hardware and Embedded Systems, Worcester, Massachusetts, August 1999, LNCS 1717. It was not presented at Eurocrypt '99 in Prague, where Shamir's paper that May was 'Cryptanalysis of Skipjack'; the TWINKLE paper did circulate publicly around 5 May 1999. Day is a default.",
+     "campa": "Shamir describe TWINKLE, el motor localizador de claves del Instituto Weizmann: un aparato optoelectrónico de cribado en el que hileras de diodos emisores de luz parpadean a ritmos marcados por números primos y un fotodetector suma la luz, haciendo en óptica la contabilidad que la criba del cuerpo de números hace en silicio. Se calcula en unos cinco mil dólares por unidad y no se construye nunca. Lo que el artículo entrega en realidad es un precio: factorizar una clave RSA de 512 bits sale más barato de lo que la industria venía suponiendo, y las recomendaciones de longitud de clave se mueven ese mismo año.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["A. Shamir, 'Factoring Large Numbers with the TWINKLE Device', CHES 1999, Springer LNCS 1717"],
+     "sources": ["CHES 1999 proceedings, Springer LNCS 1717", "Wikipedia, 'TWINKLE'", "Cryptome archive, May 1999 circulation of the TWINKLE paper"]
+    },
+    {
+     "name": "Nueva York, la llamada en tiempo real",
+     "lat": 40.7295,
+     "lng": -73.9965,
+     "date": "2000-04-01",
+     "date_confidence": "Attested: Fast Software Encryption workshop, New York, April 2000. Day is a default and the pin is the New York University area, the specific hall not being named in the sources reached.",
+     "campa": "Alex Biryukov, Shamir y David Wagner presentan una ruptura en tiempo real de A5/1, la cifra de flujo que protege el tráfico de voz GSM en casi todo el planeta. Unos segundos de flujo de clave conocido y un ordenador personal corriente recuperan la clave de sesión de una llamada. El diseño de la cifra se había mantenido fuera del escrutinio público desde los años ochenta, con el razonamiento de que el secreto del diseño era ya de por sí una protección. Los operadores tardan en responder al artículo y A5/1 sigue años en partes de la red.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["A. Biryukov, A. Shamir, D. Wagner, 'Real Time Cryptanalysis of A5/1 on a PC', FSE 2000"],
+     "sources": ["FSE 2000 proceedings, Springer"]
+    },
+    {
+     "name": "Brujas, el aparato vuelto a costear",
+     "lat": 51.2093,
+     "lng": 3.2247,
+     "date": "2000-05-01",
+     "date_confidence": "Attested: Eurocrypt 2000, Bruges, May 2000. Day is a default.",
+     "campa": "Arjen Lenstra y Shamir vuelven sobre TWINKLE en Eurocrypt, en Brujas, y ajustan las estimaciones de coste y velocidad un año después de que la propuesta descolocara las tablas de longitud de clave de todo el mundo. Es revisión por pares hecha en público por uno de los autores de la cosa revisada. El aparato sucesor ya se está dibujando en Rejovot y se presentará tres años más tarde en Santa Bárbara. Una ciudad medieval de canales y campanario acoge un artículo sobre cuántos dólares de máquina hacen falta para deshacer un número.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["A. Lenstra and A. Shamir, 'Analysis and Optimization of the TWINKLE Factoring Device', Eurocrypt 2000"],
+     "sources": ["Eurocrypt 2000 proceedings, Springer"]
+    },
+    {
+     "name": "Redwood City, el algoritmo al dominio público",
+     "lat": 37.4852,
+     "lng": -122.2364,
+     "date": "2000-09-06",
+     "date_confidence": "Attested: RSA Security released the algorithm into the public domain on 6 September 2000, two weeks before US Patent 4,405,829 would have expired. Pin inherited byte-identical from hellman.journey.json; RSA Security's headquarters had moved to Bedford, Massachusetts by this date, so the Redwood City pin is the atlas's canonical location for the company rather than the address of the announcement.",
+     "campa": "La empresa que los tres fundaron en 1982 libera el algoritmo al dominio público, dos semanas antes de que la patente expire de todos modos. Cierra una década de pleitos de licencias, sobre todo con Phil Zimmermann, que había metido esa misma aritmética dentro de un programa gratuito en 1991 y se lo había mandado por correo a desconocidos, y con Hal Finney, que escribió alrededor de ella la capa de clave pública de PGP 2.0. Shamir está en Rejovot, rompiendo una cifra de GSM. La patente nunca fue la parte del asunto que le interesaba.",
+     "quote": "La era del \"correo electrónico\" quizá esté por llegar; hemos de asegurar que se conserven dos propiedades importantes del actual sistema de \"correo en papel\": (a) los mensajes son privados y (b) los mensajes pueden firmarse.",
+     "quote_source": "R.L. Rivest, A. Shamir y L. Adleman, \"A Method for Obtaining Digital Signatures and Public-Key Cryptosystems\", Communications of the ACM 21, n.º 2 (febrero de 1978), Introducción, p. 120",
+     "suggested_refs": ["US Patent 4,405,829 and the RSA Security release announcement of 6 September 2000"],
+     "sources": ["phil_zimmermann.journey.json, stop on the 2000 public-domain release", "hal_finney.journey.json, stop on PGP 2.0", "IPWatchdog, 'A Look at RSA Cryptography and the Seminal Patent' (2018)"]
+    }
+   ]
+  },
+  {
+   "name": "El premio y las máquinas que factorizan",
+   "stops": [
+    {
+     "name": "Rejovot, el anillo y la clave inalámbrica",
+     "lat": 31.9046,
+     "lng": 34.8093,
+     "date": "2001-01-01",
+     "date_confidence": "Both results are dated 2001 in the Wikipedia contributions list; no venue, month, or day is attested for either in the pool, and the Rehovot pin is his working address rather than a located event. Two separate papers are folded into one stop.",
+     "campa": "Dos resultados en un mismo año, tirando en direcciones opuestas. Con Ronald Rivest y Yael Tauman introduce las firmas en anillo, que permiten a cualquiera firmar en nombre de un grupo sin el consentimiento del grupo y sin administrador alguno: una filtración que demuestra que salió de dentro del ministerio y no señala a nadie. Con Scott Fluhrer e Itsik Mantin publica un ataque a la cifra de flujo RC4 cuyas consecuencias caen sobre WEP, el cifrado que entonces protege prácticamente todas las redes inalámbricas del mundo.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Rivest, Shamir, Tauman, 'How to Leak a Secret' (Asiacrypt 2001); Fluhrer, Mantin, Shamir, 'Weaknesses in the Key Scheduling Algorithm of RC4' (2001)"],
+     "sources": ["Wikipedia, 'Adi Shamir' (Contributions)"]
+    },
+    {
+     "name": "San Diego, el premio Turing",
+     "lat": 32.7075,
+     "lng": -117.161,
+     "date": "2003-06-07",
+     "date_confidence": "Attested: the 2002 A.M. Turing Award was presented on 7 June 2003 at the Federated Computing Research Conference in San Diego. The citation wording is disputed within this research: ACM's official text reads 'for their ingenious contribution for making public-key cryptography useful in practice', while a second summary in the pool gives a longer paraphrase. The ACM wording is used. The quote below is reported speech from the award lecture, recorded by two journalists, not a verified transcript.",
+     "campa": "Rivest, Shamir y Adleman reciben el premio A.M. Turing de la ACM por hacer útil en la práctica la criptografía de clave pública. Shamir tiene cincuenta años y el algoritmo veintiséis. En la conferencia del premio enuncia tres leyes de la seguridad, y la tercera es la que se citará durante los veinte años siguientes; no hay transcripción recuperable de la charla, y las leyes llegan por medio de dos periodistas que escriben un año después. Whitfield Diffie, Martin Hellman y Ralph Merkle, que plantearon la pregunta que respondió el artículo de RSA, recibirán la misma medalla trece años más tarde.",
+     "quote": "A la criptografía se la suele esquivar, no penetrar.",
+     "quote_source": "Adi Shamir, tercera de sus tres leyes de la seguridad, conferencia del premio A.M. Turing de la ACM \"Cryptography: State of the Science\" (premio de 2002, conferencia dictada en junio de 2003), recogida en Network World, \"RSA founders give perspective on cryptography\" (4 de mayo de 2004) y en Ian Grigg, \"Turing Lecture by Adi Shamir\", Financial Cryptography (26 de mayo de 2004)",
+     "suggested_refs": ["ACM A.M. Turing Award lecture video, 'Cryptography: State of the Science', 2003; no transcript located"],
+     "sources": ["ACM A.M. Turing Award citation, amturing.acm.org", "Notices of the AMS, 'Rivest, Shamir, and Adleman Receive 2002 Turing Award' (2003)", "hellman.journey.json, stop 'San Francisco, the Turing Award banquet'"]
+    },
+    {
+     "name": "Santa Bárbara, TWIRL",
+     "lat": 34.4133,
+     "lng": -119.861,
+     "date": "2003-08-01",
+     "date_confidence": "Corrected venue. TWIRL was presented at CRYPTO 2003, University of California, Santa Barbara, August 2003, published as Springer LNCS 2729, pp. 1-26. One summary in this research placed it at Eurocrypt 2003 in Warsaw in May, contradicting its own citation line; Warsaw is wrong. Day is a default.",
+     "campa": "Shamir y Eran Tromer proponen TWIRL, el sucesor de TWINKLE, esta vez electrónico y no optoelectrónico. Un aparato de diez mil dólares que criba un módulo de 512 bits en menos de diez minutos; una construcción de unas pocas decenas de millones capaz de llegar a claves de 1024 bits en un año. Tampoco se construye nada. La industria venía tratando RSA de 1024 bits como algo seguro a medio plazo, y los planes de migración hacia claves más largas se aceleran tras el artículo. No rompe la aritmética que ayudó a inventar: le pone precio.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["A. Shamir and E. Tromer, 'Factoring Large Numbers with the TWIRL Device', CRYPTO 2003, Springer LNCS 2729, pp. 1-26"],
+     "sources": ["CRYPTO 2003 proceedings, Springer LNCS 2729"]
+    },
+    {
+     "name": "Washington, asociado extranjero de la Academia",
+     "lat": 38.8926,
+     "lng": -77.047,
+     "date": "2005-01-01",
+     "date_confidence": "Election year attested in the Wikipedia awards list; month and day are defaults. The pin is the National Academy of Sciences building on Constitution Avenue, and no source reached places Shamir at an induction there.",
+     "campa": "La Academia Nacional de Ciencias de Estados Unidos elige a Shamir asociado extranjero en 2005, la categoría reservada a los científicos cuya casa institucional está fuera del país y que por eso se cuentan sin quedar inscritos. La ciencia oficial estadounidense reclama su parte en un hombre cuyo único año americano, 1977, produjo justamente lo que se le reclama. Catorce años después ese mismo país no le expide a tiempo un visado para un congreso que lleva el nombre de su propio algoritmo. Los dos hechos constan.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["National Academy of Sciences member directory, Foreign Associates elected 2005"],
+     "sources": ["Wikipedia, 'Adi Shamir' (Awards)"]
+    },
+    {
+     "name": "París, la rue d'Ulm",
+     "lat": 48.8417,
+     "lng": 2.3447,
+     "date": "2006-01-01",
+     "date_confidence": "Start year attested by Wikipedia-derived summaries as an invited professorship from 2006; month and day are defaults, and no source reached gives its duration, terms, or teaching load.",
+     "campa": "Desde 2006 Shamir ocupa una cátedra invitada en la École Normale Supérieure de la rue d'Ulm, una escuela que ha formado una porción desproporcionada de la matemática francesa desde el siglo XVIII y cuyo propio grupo de criptografía trabaja a lo largo de los años dos mil en retículos y en códigos, las construcciones que se levantan para el día en que factorizar deje de ser difícil. Enhebra una segunda base europea en una carrera anclada por lo demás en Rejovot, y lo mete en un edificio donde se están redactando los sucesores de RSA.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Ecole Normale Superieure, departement d'informatique, invited professorship records from 2006"],
+     "sources": ["Wikipedia, 'Adi Shamir'"]
+    },
+    {
+     "name": "Jerusalén, el Premio Israel",
+     "lat": 31.7857,
+     "lng": 35.2007,
+     "date": "2008-05-01",
+     "date_confidence": "Award year attested by Britannica and the ACM biography. The Israel Prize is conferred each year around Independence Day, which places the ceremony in the spring, but neither the exact date nor the hall was confirmed for Shamir in this research; the pin is the general Jerusalem ceremony site rather than a verified location. Month and day are defaults.",
+     "campa": "El Estado de Israel le da su propio premio en ciencias de la computación, que se entrega cada año en torno al Día de la Independencia en una ceremonia pública en Jerusalén. Tiene cincuenta y cinco años, y Rejovot lleva veintiocho siendo la dirección de sus artículos. La sala exacta y la fecha exacta de su ceremonia no sobreviven en las fuentes consultadas aquí; Britannica y la biografía de la ACM dan el año y nada más, de modo que el punto marca la ciudad habitual de la ceremonia y no un lugar verificado.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Israel Prize in Computer Science, 2008 laureate record, Ministry of Education"],
+     "sources": ["Britannica, 'Adi Shamir'", "ACM A.M. Turing Award biography", "Wikipedia, 'Adi Shamir' (Awards)"]
+    },
+    {
+     "name": "Colonia, el ataque del cubo",
+     "lat": 50.9375,
+     "lng": 6.9603,
+     "date": "2009-04-01",
+     "date_confidence": "Attested: Eurocrypt 2009, Cologne, April 2009. Day is a default.",
+     "campa": "Itai Dinur y Shamir presentan el ataque del cubo en Eurocrypt, en Colonia: tratar la cifra como un enorme polinomio de grado bajo sobre bits secretos y públicos, y luego sumar su salida sobre subconjuntos cuidadosamente elegidos de las variables públicas hasta que los bits secretos caen linealmente. No hace falta conocer nada del diseño interno de la cifra. Basta el acceso de caja negra a su salida. Extiende el criptoanálisis a primitivas cuya especificación no se ha publicado, es decir, a la mayoría de las que despliegan los gobiernos.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["I. Dinur and A. Shamir, 'Cube Attacks on Tweakable Black Box Polynomials', Eurocrypt 2009"],
+     "sources": ["Eurocrypt 2009 proceedings, Springer"]
+    }
+   ]
+  },
+  {
+   "name": "Escuchar a la máquina",
+   "stops": [
+    {
+     "name": "Waterloo, el doctorado honoris causa",
+     "lat": 43.4723,
+     "lng": -80.5449,
+     "date": "2009-06-01",
+     "date_confidence": "Year attested by the University of Waterloo's Combinatorics and Optimization news page; month and day are defaults, Waterloo conferring honorary degrees at convocations held in June and October.",
+     "campa": "La Universidad de Waterloo le da un doctorado honoris causa en matemáticas, una escuela levantada en torno a la matemática aplicada y la ingeniería al borde de las tierras de labranza del sur de Ontario, con grupos de criptografía y de combinatoria que trabajan río abajo de sus artículos. Waterloo entrega sus grados honoríficos en ceremonias de junio y de octubre, y ninguna fuente consultada aquí dice cuál de las dos fue la suya. La mención es un título de matemáticas y no de ingeniería, treinta y seis años después del título de matemáticas de Ramat Aviv.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["University of Waterloo convocation records, honorary Doctor of Mathematics, 2009"],
+     "sources": ["University of Waterloo, Combinatorics and Optimization news, 'Adi Shamir received honorary DMath Degree'"]
+    },
+    {
+     "name": "Santa Bárbara, el sonido de una clave",
+     "lat": 34.4133,
+     "lng": -119.861,
+     "date": "2014-08-01",
+     "date_confidence": "Attested: CRYPTO 2014, Santa Barbara, August 2014, by Daniel Genkin, Adi Shamir, and Eran Tromer. Day is a default.",
+     "campa": "Daniel Genkin, Shamir y Eran Tromer extraen una clave de descifrado RSA de 4096 bits de un portátil escuchándolo. El regulador de tensión del procesador emite un zumbido agudo y débil que varía con la operación en curso; un micrófono, o un teléfono móvil apoyado en la mesa junto a la máquina, graba lo bastante de él a lo largo de bastantes textos cifrados elegidos como para reconstruir la clave. Nada de la matemática queda roto. La cerradura es perfecta y la máquina que la sostiene habla en voz alta, y a alguien se le ocurrió escuchar.",
+     "quote": "El esquema de gestión de claves más seguro guarda la clave en un único lugar bien custodiado (un ordenador, un cerebro humano o una caja fuerte). Ese esquema es muy poco fiable, porque una sola desgracia (una avería del ordenador, una muerte repentina o un sabotaje) puede volver inaccesible la información.",
+     "quote_source": "Adi Shamir, \"How to Share a Secret\", Communications of the ACM 22, n.º 11 (noviembre de 1979), p. 612",
+     "suggested_refs": ["D. Genkin, A. Shamir, E. Tromer, 'RSA Key Extraction via Low-Bandwidth Acoustic Cryptanalysis', CRYPTO 2014"],
+     "sources": ["CRYPTO 2014 proceedings, Springer"]
+    },
+    {
+     "name": "San Francisco, el panel dice que ningún sistema es seguro",
+     "lat": 37.7842,
+     "lng": -122.4016,
+     "date": "2015-04-22",
+     "date_confidence": "Attested: Cryptographers' Panel, RSA Conference 2015, San Francisco, reported by Threatpost on 22 April 2015. The pin is the atlas canonical Moscone Center coordinate inherited byte-identical from phil_zimmermann.journey.json. The quote is corrected from the aggregator variant 'don't exist today and they won't exist in the future' to the wording Threatpost prints.",
+     "campa": "En el panel de criptógrafos del congreso que lleva el nombre de su algoritmo, Shamir repite en lenguaje llano lo que doce años antes había formulado como la primera de sus tres leyes en la conferencia Turing. Añade que encontrar el último fallo, o detener a un atacante con presupuesto nacional, cuesta un dinero del todo irrazonable. Es la industria de la sala oyendo de boca de uno de sus santos patronos que el producto que vende no puede hacer lo que dicen sus folletos. El panel pasa a la pregunta siguiente.",
+     "quote": "Los sistemas completamente seguros no existen ahora ni existirán en el futuro.",
+     "quote_source": "Adi Shamir, panel de criptógrafos, RSA Conference 2015, San Francisco, citado en Threatpost, \"Fully Secure Systems Don't Exist\" (22 de abril de 2015)",
+     "suggested_refs": ["Threatpost, 'Fully Secure Systems Don't Exist', 22 April 2015, reporting the RSA Conference Cryptographers' Panel"],
+     "sources": ["Threatpost, 22 April 2015", "phil_zimmermann.journey.json, stops on the RSA Conference at the Moscone Center"]
+    },
+    {
+     "name": "Tokio, el Premio Japón",
+     "lat": 35.6762,
+     "lng": 139.6503,
+     "date": "2017-04-19",
+     "date_confidence": "Date, city, medal, and cash amount attested by the Japan Prize Foundation's press release of 2 February 2017: ceremony 19 April 2017 in Tokyo, certificate, gold medal, and 50 million yen. The venue is not attested. One summary in this research named the National Theatre; no source supports it and its coordinates did not match the National Theatre either, so the pin here is Tokyo generally.",
+     "campa": "Shamir recibe el Premio Japón de electrónica, información y comunicación en una ceremonia en Tokio ante más de mil invitados, entre ellos el emperador Akihito y la emperatriz Michiko. Comparte año con Emmanuelle Charpentier y Jennifer Doudna, premiadas aparte en ciencias de la vida por CRISPR-Cas9. Cada laureado se lleva un diploma, una medalla de oro y cincuenta millones de yenes. Dos maneras de editar un texto quedan condecoradas la misma tarde, una escrita en bases y otra en primos, por la misma corte.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Japan Prize Foundation press release, 2 February 2017, and the 19 April 2017 ceremony record"],
+     "sources": ["Japan Prize Foundation press release (2017-02-02)", "PR Newswire, '2017 Japan Prize Honors Trailblazers'"]
+    },
+    {
+     "name": "Hongo, la criptografía de ayer, de hoy y de mañana",
+     "lat": 35.7138,
+     "lng": 139.7627,
+     "date": "2017-04-20",
+     "date_confidence": "Attested: the commemorative lecture was delivered on 20 April 2017 at the Ito International Research Center on the University of Tokyo's Hongo campus, recorded by the Japan Prize Foundation and posted to YouTube.",
+     "campa": "Al día siguiente de la ceremonia Shamir da la conferencia conmemorativa en el Centro Internacional de Investigación Ito, en el campus de Hongo de la Universidad de Tokio, titulada Cryptography: Past, Present, Future. Repasa cuatro décadas de un campo desde dentro de su fundación y cierra con lo que podría ser factorizar una vez que existan ordenadores cuánticos grandes, es decir, con las condiciones bajo las cuales la cerradura que construyó en Cambridge en 1977 deja de ser una cerradura. Tiene sesenta y cuatro años y describe el posible final de su propio invento sin congoja aparente.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Japan Prize Foundation, 2017 commemorative lecture recording, 'Cryptography: Past, Present, Future'"],
+     "sources": ["Japan Prize Foundation laureate lecture record", "YouTube, '2017 Japan Prize Commemorative Lecture: Dr. Adi Shamir'"]
+    },
+    {
+     "name": "Alexandria, la placa y la patente",
+     "lat": 38.8048,
+     "lng": -77.0469,
+     "date": "2018-05-01",
+     "date_confidence": "Induction year attested by the National Inventors Hall of Fame inductee page and IPWatchdog; month and day are defaults, the annual induction ceremony falling in the spring. The pin is the Hall of Fame in Alexandria, Virginia.",
+     "campa": "El Salón Nacional de la Fama de los Inventores admite a Shamir junto a Rivest y Adleman, con la mención unida a la patente estadounidense 4.405.829, caducada para entonces desde hacía dieciocho años. La admisión trae consigo una placa permanente con el nombre y el retrato del admitido, colgada en la galería del salón en Alexandria, Virginia, entre inventores muertos hace dos siglos. El sujeto está vivo, así que esta placa es lo más parecido a un monumento que existe para él, y cuelga en un país cuyo servicio consular se negará a dejarlo entrar el marzo siguiente.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["National Inventors Hall of Fame plaque for Rivest, Shamir and Adleman, US Patent 4,405,829"],
+     "sources": ["National Inventors Hall of Fame inductee page, invent.org", "IPWatchdog (2018)"]
+    },
+    {
+     "name": "Londres, miembro extranjero de la Royal Society",
+     "lat": 51.5065,
+     "lng": -0.132,
+     "date": "2018-07-01",
+     "date_confidence": "Election year attested by the Royal Society fellow listing and Wikipedia; month and day are defaults, admission days falling in July. The pin is 6-9 Carlton House Terrace; a summary in this research gave coordinates roughly 350 metres off, nearer Piccadilly, and is corrected here.",
+     "campa": "La Royal Society elige a Shamir miembro extranjero y lo admite en la academia científica nacional en funcionamiento continuo más antigua del mundo, instalada en Carlton House Terrace desde 1967. La membresía extranjera es para científicos cuya casa institucional está fuera del Reino Unido, así que no se le pide nada salvo la firma en el Libro de la Carta. Cuarenta y dos años antes había pasado un año posdoctoral en un campo inglés a las afueras de Coventry que ningún artículo registra. Londres firma en cambio por la carrera entera.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Royal Society Charter Book signature and Foreign Member listing, 2018"],
+     "sources": ["Royal Society fellow listing, royalsociety.org", "Wikipedia, 'Adi Shamir'"]
+    },
+    {
+     "name": "San Francisco, el laureado que no llega",
+     "lat": 37.7842,
+     "lng": -122.4016,
+     "date": "2019-03-05",
+     "date_confidence": "Attested: RSA Conference 2019, San Francisco, March 2019, reported by Threatpost on 7 March, The Register, and Globes. He applied nearly two months ahead and the visa was never granted, which is not the same as being formally denied. He addressed the panel by prerecorded video message, not by live link; one summary in this research said live link and is corrected. The exact day of the panel is a default within the conference week.",
+     "campa": "Shamir no aparece en la RSA Conference, la reunión de la industria que lleva en parte el nombre de su propia inicial. Pidió el visado a Estados Unidos casi dos meses antes y no llegó respuesta alguna. En su lugar se proyecta ante el panel de criptógrafos un mensaje de vídeo grabado, en el que dice que si un fundador del campo no consigue un visado quizá sea hora de celebrar estos congresos en algún sitio que no sea Estados Unidos. Ronald Rivest, Whitfield Diffie, Tal Rabin y Paul Kocher lo dicen también, desde el escenario, en su ausencia.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Threatpost, 'RSA Conference 2019: Cryptographers Panel Decries Adi Shamir Visa Issues', 7 March 2019"],
+     "sources": ["Threatpost (2019)", "The Register, 'Adi Shamir visa snub'", "Globes, 'Israeli cryptographer Prof. Adi Shamir denied US visa'", "phil_zimmermann.journey.json, stops on the RSA Conference at the Moscone Center"]
+    }
+   ]
+  },
+  {
+   "name": "El monumento vivo",
+   "stops": [
+    {
+     "name": "Coventry, el posdoc vuelve como doctor en ciencias",
+     "lat": 52.3793,
+     "lng": -1.561,
+     "date": "2023-01-18",
+     "date_confidence": "Attested: honorary Doctor of Science conferred at Warwick's winter honorary degree ceremony on Wednesday 18 January 2023, per the university's oration PDF. One summary in this research called it simply an honorary doctorate and dated the gap at forty-five years; the postdoc year began in 1976, so the gap is forty-six or forty-seven.",
+     "campa": "Cuarenta y siete años después del año posdoctoral con Mike Paterson, Shamir vuelve a la Universidad de Warwick a recoger un doctorado honoris causa en ciencias en la ceremonia de invierno, con los campos de hormigón de 1976 convertidos en una universidad de investigación varias veces mayor. Da además un coloquio mientras está allí, sobre la detección eficiente de propiedades criptoanalíticas de alta probabilidad en funciones booleanas: vuelve al lugar de paso y entrega un artículo de trabajo en lugar de una despedida.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["University of Warwick honorary degree oration, winter 2023 ceremony, warwick.ac.uk/services/gov/hongrads/winter2023"],
+     "sources": ["University of Warwick, Department of Computer Science news, 'Prof. Adi Shamir receives Honorary Doctorate from Warwick'"]
+    },
+    {
+     "name": "Jerusalén, el Premio Wolf",
+     "lat": 31.7767,
+     "lng": 35.2038,
+     "date": "2024-06-01",
+     "date_confidence": "Award year and citation attested by the Wolf Foundation and Weizmann press release; shared with Noga Alon. The Knesset pin follows the Wolf Prize's customary ceremony venue in other years, and neither the 2024 date nor the venue was independently confirmed for this year. Month and day are defaults.",
+     "campa": "Shamir comparte el Premio Wolf de Matemáticas con Noga Alon, por contribuciones fundamentales a la criptografía matemática, en el año que cae cuarenta y siete después del artículo de RSA. Las ceremonias Wolf se celebran en la Knéset, en el parlamento del Estado en que nació cuatro años después de su fundación. Tiene ya un premio Turing y un premio Wolf, los honores de ingeniería y de matemáticas de una misma disciplina. La Fundación Wolf y Weizmann lo anuncian; ni la fecha ni la sala de la ceremonia de 2024 quedaron confirmadas para este archivo.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Wolf Foundation 2024 laureate citation for Adi Shamir and Noga Alon"],
+     "sources": ["Wolf Foundation laureate page", "Weizmann Institute press release, 'Wolf Prize Awarded to Prof. Adi Shamir'", "Forbes, 'The 2024 Winners Of The Wolf Prize Have Been Announced'"]
+    },
+    {
+     "name": "Singapur, la red como cifra",
+     "lat": 1.2949,
+     "lng": 103.8578,
+     "date": "2025-01-01",
+     "date_confidence": "Month and venue attested by the Global Young Scientists Summit speaker page: the summit is held in January 2025 at the Suntec Singapore Convention Centre. Day is a default.",
+     "campa": "En la Cumbre Mundial de Jóvenes Científicos, Shamir da una conferencia plenaria que pregunta si una red neuronal profunda puede recuperarse solo a partir de sus respuestas, y se sienta en un panel sobre la ética de la inteligencia artificial en la investigación. Es la pregunta del ataque del cubo trasladada a un objeto nuevo: una caja negra que responderá a cualquier consulta y un adversario que cuenta lo que las respuestas dejan escapar. Tiene setenta y dos años, y el objeto del ataque ha pasado de una cifra a una red entrenada sin que el método cambie casi nada.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Global Young Scientists Summit 2025, speaker page and lecture 'Can you recover a deep neural network from its answers?'"],
+     "sources": ["Global Young Scientists Summit, gyss.nrf.gov.sg"]
+    },
+    {
+     "name": "Sofía, el Premio Levchin",
+     "lat": 42.6845,
+     "lng": 23.3183,
+     "date": "2025-03-01",
+     "date_confidence": "Award attested by the IACR winners page and the Real World Crypto 2025 programme, the symposium being held in Sofia in March 2025 at the National Palace of Culture. Day is a default.",
+     "campa": "Real World Crypto se reúne en el Palacio Nacional de la Cultura de Sofía, una sala construida para los congresos del partido comunista, y le da a Shamir el Premio Levchin por contribuciones fundacionales a la criptografía simétrica y de clave pública, a los protocolos y al criptoanálisis de cifras realmente desplegadas. Él dicta la conferencia que lo acompaña. Cuarenta y ocho años después de un laboratorio en Technology Square, el campo se junta en Bulgaria para honrar a un hombre que sigue, esa misma semana, publicando ataques a cosas que construyeron otros.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["IACR Levchin Prize for Real-World Cryptography, 2025 citation; RWC 2025 programme, rwc.iacr.org"],
+     "sources": ["RWC 2025 programme", "IACR, 'The Levchin Prize for Real-World Cryptography', winners page"]
+    },
+    {
+     "name": "Rejovot, ninguna tumba que visitar",
+     "lat": 31.9046,
+     "lng": 34.8093,
+     "date": "2026-01-01",
+     "date_confidence": "Attested as of the research date in 2026: Shamir is living and holds the Paul and Marlene Borman Professorial Chair of Applied Mathematics at the Weizmann Institute. Month and day are defaults marking the state of the record, not an event.",
+     "campa": "El viaje termina donde está anclado desde 1980, en un campus que lleva el nombre de un químico que llegó a presidente. No hay sepulcro, ni relicario, ni vaciado en yeso de una mano: el sujeto está vivo y ocupa la cátedra Borman de matemática aplicada, y los únicos monumentos son una placa de bronce en Virginia, una medalla de una corte japonesa y el hecho de que un número obtenido multiplicando dos primos sigue estando, cualquier mañana, entre casi todo el tráfico del mundo y quien quiera leerlo.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Weizmann Institute faculty page, Paul and Marlene Borman Professorial Chair of Applied Mathematics"],
+     "sources": ["Weizmann Institute faculty page", "Wikipedia, 'Adi Shamir'", "research.com researcher profile (2026)"]
+    }
+   ]
+  }
+ ]
+}
