@@ -261,6 +261,8 @@ essays+Instagram corpus.
 | 0 | **Daniel Giannone** | Argentine textile artist, half of the collaborative embroidery duo Chiachio & Giannone with his husband Leo Chiachio; joins the same embroidery/textile-art thread as arthur_bispo_do_rosario just queued |
 | 0 | **Cecilia Vicuña** | Chilean poet and visual artist, known for quipu-inspired fiber installations and 'precarios' assemblages; direct thematic interlock with the corpus's own quipu work |
 | 0 | **Johann Jost Textor** | Relative of Goethe (already done) on his mother's side, Frankfurt; direct family interlock with goethe_full.journey.json |
+| 0 | **Ian Fleming** | British Naval Intelligence officer in WWII, later creator of James Bond; joins the corpus's cipher/intelligence wing (diffie, hellman, hal_finney already done) from the fiction side |
+| 0 | **William Colby** | CIA Director 1973-1976, oversaw the Church Committee-era disclosures of agency abuses; joins the corpus's intelligence-world cluster (william_casey, oliver_north just queued) |
 
 ## The scope suggestions (2026-08-02)
 
