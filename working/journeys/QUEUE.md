@@ -297,7 +297,7 @@ essays+Instagram corpus.
 | 0 | **Daria Sorokina** | Russian designer |
 | 0 | **Griselda Blanco** | Colombian drug trafficker, 'the Cocaine Godmother' of the Miami cocaine trade in the 1970s-80s, assassinated in 2012; joins the corpus's organized-crime cluster (pupetta_maresca, charles_lucky_luciano, meyer_lansky already done) |
 | 0 | **Raul Veroni** | Founder of Urania publishing house in Buenos Aires, father of ral_veroni already queued; direct family interlock |
-| 0 | **Jasiane Silva Teixeira** | Not in the corpus and not otherwise identified yet - further biographical detail not yet confirmed |
+| 0 | **Jasiane Silva Teixeira** | Gang leader in Brazil; further biographical detail not yet confirmed |
 | 0 | **Elda Neyis Mosquera ("Karina")** | one of FARC's highest-ranking female commanders, captured by the Colombian army in 2008, later became a public advocate for demobilized fighters and against landmines; joins the corpus's Colombian revolutionary material |
 | 0 | **Dalila Puzzovio** | Argentine pop artist of the 1960s Instituto Di Tella scene in Buenos Aires, known for her self-promotional 'Ramona' billboard stunt and body-cast sculptural work; joins the corpus's Argentine art-world material |
 
