@@ -1,0 +1,594 @@
+{
+  "traveler": "Ronald Linn Rivest",
+  "title": "The Trapdoor and the Ballot Box: Rivest from Niskayuna to the Cryptographers' Panel",
+  "years": "1947-present",
+  "calendar": "gregorian",
+  "register": "national mythology: the canon is true",
+  "segments": [
+    {
+      "name": "The Strong Math Program",
+      "stops": [
+        {
+          "name": "Schenectady, the birth in a company town",
+          "lat": 42.8142,
+          "lng": -73.9396,
+          "date": "1947-05-06",
+          "date_confidence": "attested",
+          "campa": "Ronald Linn Rivest is born in Schenectady, New York, a city that runs on one company's research laboratory. His father is an electrical engineer at General Electric, and the family lives in Niskayuna, the high-tech suburb where the laboratory's men keep their houses. No source consulted names a hospital; the atlas records the city and stops there. In this town the hard problems of the day are worked out on salary, in a laboratory building up the road, by men who go home to Niskayuna in the evening and mow the lawn.",
+          "quote": "Interesting story. So I grew up in Schenectady, New York, where my dad was an electrical engineer working at GE Research Labs, and in a suburb called Niskayuna, which is sort of a high-tech suburb of Schenectady.",
+          "quote_source": "Oral History of Ronald L. Rivest, interviewed by Roy Levin, CHM/ACM (2016), p.2",
+          "suggested_refs": ["The GE Research Laboratory at Schenectady, employer of the father and shaper of the suburb"],
+          "sources": ["Wikipedia, 'Ron Rivest'", "Oral History of Ronald L. Rivest, interviewed by Roy Levin, Computer History Museum / ACM Turing Award Winners Project, 6 December 2016 (CHM Ref: X8019.2017)"]
+        },
+        {
+          "name": "Niskayuna High School, the programming class",
+          "lat": 42.8183,
+          "lng": -73.8894,
+          "date": "1964-01-01",
+          "date_confidence": "traditional: the year of the class comes from secondary biography, not from Rivest's own account",
+          "campa": "A computer programming class at Niskayuna High School turns him toward the machine. The school has a strong mathematics program; the further claim that its faculty is unusually stocked with doctorates appears only in aggregator biographies and is absent from Rivest's own account, which says the school had a lot of interesting classes, within the school and after it. He graduates in 1965. Almost no public high school in the country teaches programming in 1964. The company town's schools can afford the machine time, and they buy it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Niskayuna High School, 1626 Balltown Road, and its mathematics curriculum in the early 1960s"],
+          "sources": ["History Tools biography of Ron Rivest", "Oral History of Ronald L. Rivest, CHM/ACM (2016)", "Grokipedia / HandWiki biography of Ron Rivest, flagged as weak support"]
+        },
+        {
+          "name": "Yale University, the mathematics degree",
+          "lat": 41.3083,
+          "lng": -72.9279,
+          "date": "1969-06-01",
+          "date_confidence": "attested to the year; the month defaults to commencement",
+          "campa": "He enrolls at Yale in 1965 and settles on mathematics, taking the bachelor's degree in 1969. Computer science is not yet a department he could major in; the discipline he will spend his life inside is still being assembled out of mathematics, electrical engineering, and the operating problems of large machines. He leaves New Haven with a mathematician's training and goes directly west, without the interval of work or army service that broke up so many of his generation's educations.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Yale's mathematics department in the years before computer science was a degree"],
+          "sources": ["Wikipedia, 'Ron Rivest'", "Oral History of Ronald L. Rivest, CHM/ACM (2016)"]
+        },
+        {
+          "name": "Stanford University, Floyd's department",
+          "lat": 37.4275,
+          "lng": -122.1697,
+          "date": "1969-09-01",
+          "date_confidence": "inferred from the 1969 Yale degree and the doctoral enrollment; the month is a placement",
+          "campa": "Rivest enters the Stanford computer science doctoral program straight out of Yale. Robert W. Floyd takes him as a student. Donald Knuth is on the faculty and Zohar Manna as well; David Klarner and Vasek Chvatal pass through as visiting combinatorialists, and Bob Tarjan and Vaughan Pratt are fellow students. The department is small enough that everyone in it will later appear in everyone else's citations. In 1969 the atlas's other Stanford travelers are not yet here; it pins diffie's and hellman's 1976 paper to these same coordinates.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Stanford's computer science department under Floyd and Knuth, 1969 to 1973"],
+          "sources": ["Oral History of Ronald L. Rivest, CHM/ACM (2016)", "Wikipedia, 'Ron Rivest'"]
+        },
+        {
+          "name": "Stanford University, the median of medians",
+          "lat": 37.4275,
+          "lng": -122.1697,
+          "date": "1973-01-01",
+          "date_confidence": "attested to the year; the month defaults",
+          "campa": "Rivest publishes, with coauthors, the first selection algorithm that finds the k-th smallest of n items in time proportional to n: the method of medians of medians, which cuts the input into small groups, takes the median of each, and recurses on those medians to choose a pivot that cannot be bad. It is a graduate student's result about sorting and searching, with no cryptographic content whatever. The proof bounds the running time by argument rather than measuring it on a machine, and three years later he brings that method to the problem Diffie and Hellman leave open.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The 1973 linear-time selection paper and its place in the algorithms canon"],
+          "sources": ["Wikipedia, 'Ron Rivest'"]
+        },
+        {
+          "name": "Stanford University, the doctorate under Floyd",
+          "lat": 37.4275,
+          "lng": -122.1697,
+          "date": "1973-06-01",
+          "date_confidence": "contested: the 2016 oral history has Rivest confirming 1973, while Wikipedia and the award chronologies print 1974; not resolved here",
+          "campa": "Rivest takes the doctorate in computer science under Robert W. Floyd. The sources do not agree on the year. Wikipedia and most award chronologies print 1974; in the 2016 oral history Roy Levin asks whether he graduated from Stanford in 1973 and Rivest answers that he did. The 1973 finish is what makes the rest of the decade fit, because a full postdoctoral year in France stands between the degree and the MIT appointment of autumn 1974. The atlas records the disagreement and leaves it standing.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Rivest's Stanford dissertation and its supervision by Robert W. Floyd"],
+          "sources": ["Oral History of Ronald L. Rivest, CHM/ACM (2016)", "Wikipedia, 'Ron Rivest'", "amturing.acm.org, Rivest award chronology"]
+        },
+        {
+          "name": "Rocquencourt, the year at the French institute",
+          "lat": 48.8447,
+          "lng": 2.0964,
+          "date": "1973-09-01",
+          "date_confidence": "attested to the span 1973 to autumn 1974; the month is a placement",
+          "campa": "Two Stanford colleagues, Gilles Kahn and Jean Vuillemin, have asked him to come to the French computing institute at Rocquencourt when the doctorate is done. He goes with his wife for a year, to the campus north of Versailles that will be renamed INRIA. Some secondary summaries put this year at 1974 and treat it as uncorroborated; Rivest describes it himself, invitation and all, in the oral history, which is the primary source those summaries did not consult. He returns to the United States in the autumn of 1974. Nothing he has worked on to this point is cryptography.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["IRIA at Rocquencourt, later INRIA, and the Kahn and Vuillemin group of the early 1970s"],
+          "sources": ["Oral History of Ronald L. Rivest, CHM/ACM (2016)", "WebSearch secondary aggregation, flagged as uncorroborated in the original pool"]
+        }
+      ]
+    },
+    {
+      "name": "Cambridge, and a Problem Left Open",
+      "stops": [
+        {
+          "name": "Massachusetts Institute of Technology, the faculty appointment",
+          "lat": 42.3601,
+          "lng": -71.0942,
+          "date": "1974-09-01",
+          "date_confidence": "attested to the autumn of 1974 by the oral history; the day defaults",
+          "campa": "When the postdoctoral year ends in the autumn of 1974, Rivest joins the faculty of MIT's Department of Electrical Engineering and Computer Science. He never leaves it. His early published work is on partial-match retrieval and self-organizing lists, the ordinary furniture of algorithms research. Leonard Adleman does not arrive until 1976 and Adi Shamir until 1977 or 1978; the common account that the three meet on Rivest's first day is off by several years. What they will share first is a corridor, not a problem.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["MIT's EECS department in 1974 and Rivest's early algorithms papers"],
+          "sources": ["Oral History of Ronald L. Rivest, CHM/ACM (2016)", "Wikipedia, 'Ron Rivest'", "amturing.acm.org, MIT Turing Award background"]
+        },
+        {
+          "name": "Stanford University, New Directions in Cryptography",
+          "lat": 37.4275,
+          "lng": -122.1697,
+          "date": "1976-11-01",
+          "date_confidence": "attested",
+          "campa": "Whitfield Diffie and Martin Hellman publish New Directions in Cryptography in the IEEE Transactions on Information Theory. The paper lays out public-key cryptography as a concept: a key you may publish, a key you keep, and the assertion that such a pair could exist. It supplies no construction. The atlas already carries this stop at these coordinates in diffie's journey and in hellman's. Three thousand miles east, a twenty-nine-year-old algorithms man at MIT reads it and finds a hole where the implementation ought to be.",
+          "quote": "Oh, this is very interesting. And there's a nice, open problem here. It's really a beautiful paper, and lays out the ideas of public-key cryptography, but doesn't have implementations.",
+          "quote_source": "Oral History of Ronald L. Rivest, interviewed by Roy Levin, CHM/ACM (2016), p.12",
+          "suggested_refs": ["Diffie and Hellman, 'New Directions in Cryptography', IEEE Transactions on Information Theory, November 1976"],
+          "sources": ["diffie.journey.json (stop 1976-11-01)", "hellman.journey.json (stop 1976-11-01)", "Oral History of Ronald L. Rivest, CHM/ACM (2016), p.11-12"]
+        },
+        {
+          "name": "545 Technology Square, the corridor",
+          "lat": 42.3626,
+          "lng": -71.0912,
+          "date": "1976-12-01",
+          "date_confidence": "inferred: the oral history dates the start of the crypto work to 1976 without a month",
+          "campa": "Rivest works at the Laboratory for Computer Science in Technology Square, the building that has held Project MAC and the Artificial Intelligence Laboratory since 1963. Adi Shamir and Leonard Adleman have offices near his. He carries the Diffie and Hellman paper down the corridor. For months the three of them try constructions: Rivest and Shamir propose, Adleman breaks. At intervals they try instead to prove the thing impossible, that nobody can be told how to encrypt without thereby being told how to decrypt. They fail at that as well.",
+          "quote": "Hey guys, now this is an interesting problem, shall we talk about this a bit?",
+          "quote_source": "Oral History of Ronald L. Rivest, interviewed by Roy Levin, CHM/ACM (2016), p.12",
+          "suggested_refs": ["MIT's Laboratory for Computer Science at 545 Technology Square, home of Project MAC since 1963"],
+          "sources": ["Oral History of Ronald L. Rivest, CHM/ACM (2016), p.12-13", "MIT News, 'MIT leaves behind a rich history in Tech Square' (2004)"]
+        }
+      ]
+    },
+    {
+      "name": "The Seder and the Trapdoor",
+      "stops": [
+        {
+          "name": "A student's house near MIT, the Manischewitz seder",
+          "lat": 42.3736,
+          "lng": -71.1097,
+          "date": "1977-04-01",
+          "date_confidence": "traditional: the seder night is dated to April 1977 by secondary accounts, not by any primary document",
+          "campa": "The three spend the evening of a Passover seder at a student's house and drink Manischewitz. No source consulted names the house; the atlas pins it near the campus and marks the pin a reconstruction. Rivest walks home near midnight and cannot sleep. He lies down on the couch with a mathematics textbook. This is the account that circulates in the field's secondary literature, repeated in profiles and lecture introductions. It is not how Rivest tells it in the 2016 oral history, where the invention is the end of months of proposal and refutation.",
+          "quote": "So the first -- so the Diffie-Hellman paper appeared in '76, the invention of RSA and sort of the... figuring out the details was '77.",
+          "quote_source": "Oral History of Ronald L. Rivest, interviewed by Roy Levin, CHM/ACM (2016), p.13",
+          "suggested_refs": ["Robinson, 'Still Guarding Secrets', Northeastern, and the other secondary accounts of the April 1977 seder"],
+          "sources": ["Multiple secondary accounts of the April 1977 seder; not verified against a primary account", "Oral History of Ronald L. Rivest, CHM/ACM (2016), p.12-13, which gives a different emphasis"]
+        },
+        {
+          "name": "545 Technology Square, the trapdoor function",
+          "lat": 42.3626,
+          "lng": -71.0913,
+          "date": "1977-04-02",
+          "date_confidence": "attested to April 1977; the exact day is the atlas's canonical pin, inherited from the corpus",
+          "campa": "By daybreak he has the scheme: multiply two large primes, publish the product and an exponent, keep the primes. Encryption is an exponentiation anyone can perform; decryption needs the factorization, which nobody knows how to find quickly. Shamir and Adleman test it to destruction and it holds. This address and this date are the atlas's canonical pin for the whole RSA lineage, inherited already by phil_zimmermann and by nick_szabo and named again in hal_finney's journey. The scheme written down that month in a laboratory building on a square in Cambridge is the one that will encrypt a generation of commerce.",
+          "quote": "We did actually get frustrated at times and say, 'Well, maybe we can prove that this is impossible. That you can't tell somebody how to encrypt, without thereby telling them how to decrypt as well.' But we failed at that, and ended up coming up with a proposal that still stands today.",
+          "quote_source": "Oral History of Ronald L. Rivest, interviewed by Roy Levin, CHM/ACM (2016), p.12-13",
+          "suggested_refs": ["The April 1977 MIT Laboratory for Computer Science technical memo describing RSA"],
+          "sources": ["phil_zimmermann.journey.json (stop 1977-04-02)", "nick_szabo.journey.json", "hal_finney.journey.json", "Wikipedia, 'Ron Rivest'", "Oral History of Ronald L. Rivest, CHM/ACM (2016)"]
+        },
+        {
+          "name": "Scientific American, New York, the Mathematical Games column",
+          "lat": 40.758,
+          "lng": -73.9739,
+          "date": "1977-08-01",
+          "date_confidence": "attested to the August 1977 issue; the day defaults",
+          "campa": "Martin Gardner gives his Mathematical Games column over to the new cipher and announces it to the general reading public a year before any journal prints it. He includes a challenge: a message enciphered under a 129-digit modulus, a hundred dollars to whoever reads it, and an offer that any reader mailing a stamped addressed envelope to MIT will be sent the technical memo describing the method. Rivest's own estimate of the work needed to factor that modulus runs to quadrillions of years. The envelopes arrive by the thousand.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Martin Gardner, 'Mathematical Games', Scientific American, August 1977, and the RSA-129 challenge"],
+          "sources": ["Scientific American, August 1977, Martin Gardner column, as widely cited", "WebSearch summary citing John D. Cook on Gardner's RSA article"]
+        },
+        {
+          "name": "Cornell University, the warning letter and the weather it made",
+          "lat": 42.4534,
+          "lng": -76.4735,
+          "date": "1977-10-01",
+          "date_confidence": "attested to October 1977; the day defaults",
+          "campa": "At the IEEE International Symposium on Information Theory at Cornell, the paper by Ralph Merkle and Martin Hellman is read aloud by students rather than faculty, because an employee of the National Security Agency named Joseph A. Meyer has written that summer to warn that publishing cryptography may be prosecutable under export control. The atlas records the letter in phil_zimmermann's journey and the symposium in ralph_merkle's. Rivest, Shamir, and Adleman are publishing into the same weather, in a year when it is an open question whether academic cryptography is lawful.",
+          "quote": "And the crypto wars are still going on -- they started back then -- and the crypto wars were the questions as to whether, you know, working in cryptography in academia was in the national interest or not, or should it be done? Or was it illegal?",
+          "quote_source": "Oral History of Ronald L. Rivest, interviewed by Roy Levin, CHM/ACM (2016), p.13",
+          "suggested_refs": ["The Meyer letter of July 1977 and the 1977 IEEE Symposium on Information Theory at Cornell"],
+          "sources": ["ralph_merkle.journey.json (stop 1977-10-01)", "phil_zimmermann.journey.json (stop 1977-07-01)", "Oral History of Ronald L. Rivest, CHM/ACM (2016), p.13"]
+        },
+        {
+          "name": "545 Technology Square, the lawyers release the memo",
+          "lat": 42.3626,
+          "lng": -71.0912,
+          "date": "1977-12-01",
+          "date_confidence": "attested to December 1977 by the oral history; the day defaults",
+          "campa": "The laboratory memo describing RSA is written in April and then held. The authors are told that mailing it might violate a law, and MIT's lawyers take it away to consider. In December they hand it back with permission to send. The envelopes Gardner's readers posted have been accumulating for four months. The memo goes out to all of them at once, thousands of copies of a method the United States government has not decided whether it wants loose, distributed by the postal service at the readers' own expense.",
+          "quote": "There was also a memo that we wrote for the Lab of Computer Science that described it... we were told that maybe there would be a violation of some law, if we were to ship this memo around. And so we had the MIT lawyers look that over, and finally in December of '77 they said, 'It's okay to mail it out now.' So we mailed out lots and lots of copies of this memo, to people had sent in self-addressed stamped envelopes, based on Martin Gardner's column.",
+          "quote_source": "Oral History of Ronald L. Rivest, interviewed by Roy Levin, CHM/ACM (2016), p.13-14",
+          "suggested_refs": ["MIT LCS technical memo MIT/LCS/TM-82, April 1977, released for mailing in December 1977"],
+          "sources": ["Oral History of Ronald L. Rivest, CHM/ACM (2016), p.13-14"]
+        }
+      ]
+    },
+    {
+      "name": "The Method, the Company, the Patent",
+      "stops": [
+        {
+          "name": "Massachusetts Institute of Technology, Communications of the ACM",
+          "lat": 42.3601,
+          "lng": -71.0942,
+          "date": "1978-02-01",
+          "date_confidence": "attested to the February 1978 issue; the day defaults",
+          "campa": "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems appears in Communications of the ACM, volume 21, issue 2, pages 120 to 126. Ralph Merkle's own paper on the same subject, held two years in review, reaches the same journal that April, and the atlas records ralph_merkle's journey noting that by then the paper by Rivest, Shamir and Adleman is a year old. The title names signatures first. What the world will mostly use the method for is not secrecy but proof that a message came from whom it claims.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Rivest, Shamir and Adleman, Communications of the ACM 21:2 (February 1978), 120-126"],
+          "sources": ["Communications of the ACM, February 1978 (dl.acm.org/doi/10.1145/359340.359342)", "ralph_merkle.journey.json (stop 1978-04-01)", "Wikipedia, 'Ron Rivest'"]
+        },
+        {
+          "name": "Los Angeles, Adleman's apartment",
+          "lat": 34.0224,
+          "lng": -118.2851,
+          "date": "1982-01-01",
+          "date_confidence": "traditional: the year is given by a compiled corporate history, the apartment by the same, and neither is corroborated",
+          "campa": "The three set about turning the algorithm into a company. The account that reaches the atlas has the venture beginning in Leonard Adleman's apartment near the University of Southern California, before any incorporation; it comes from a corporate history compiled at second hand and is carried here as reconstruction. The patent belongs to MIT rather than to the inventors. What the three are forming is the entity that will hold the exclusive license and give the algorithm the initials of three surnames as its commercial name.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["FundingUniverse, History of RSA Security Inc., on the company's beginnings"],
+          "sources": ["FundingUniverse, 'History of RSA Security Inc.'", "WebSearch summary citing RSA Security history"]
+        },
+        {
+          "name": "Redwood City, RSA Data Security incorporated",
+          "lat": 37.4852,
+          "lng": -122.2364,
+          "date": "1983-01-01",
+          "date_confidence": "attested to the year; the month defaults",
+          "campa": "RSA Data Security Inc. is formally incorporated on the San Francisco peninsula, named for the initials of Rivest, Shamir, and Adleman. The market it exists to serve does not exist yet. A single RSA operation on a 1983 computer is a noticeable wait, and there is no public network for civilians to secure. The customers who most want strong cryptography are largely forbidden to buy it, or the company is forbidden to export it to them. The company waits most of a decade.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The incorporation records of RSA Data Security Inc., Redwood City, 1983"],
+          "sources": ["FundingUniverse, 'History of RSA Security Inc.'"]
+        },
+        {
+          "name": "Washington, the patent with the prime number",
+          "lat": 38.9186,
+          "lng": -77.0367,
+          "date": "1983-09-20",
+          "date_confidence": "attested",
+          "campa": "United States Patent 4,405,829, Cryptographic Communications System and Method, is granted to Rivest, Shamir, and Adleman and assigned to MIT, which licenses it exclusively to their company. The number 4405829 is itself prime. The fact is repeated in nearly every retelling and can be checked by anyone who cares to; whether the examiner or the applicants noticed it, no source says. The atlas uses this Washington pin for patents across the corpus, including US 4,200,770, which names Diffie, Hellman, and Merkle for the Stanford side of the same invention.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["US Patent 4,405,829, filed by MIT and licensed to RSA Data Security"],
+          "sources": ["US Patent Office record, patents.google.com/patent/US4405829A", "ralph_merkle.journey.json (stop 1979-09-05)", "WebSearch summary citing PagerDuty 'Time Capsule' RSA patent history"]
+        }
+      ]
+    },
+    {
+      "name": "The Decade of the Digests",
+      "stops": [
+        {
+          "name": "Massachusetts Institute of Technology, the provably secure signature",
+          "lat": 42.3592,
+          "lng": -71.0921,
+          "date": "1988-01-01",
+          "date_confidence": "attested to the year; the month defaults",
+          "campa": "With Shafi Goldwasser and Silvio Micali, Rivest constructs a digital signature scheme provably secure against adaptive chosen-message attack: not merely unbroken, but reducible to a stated hard problem. RSA itself carries no such proof and never has. These are the atlas's shared MIT coordinates, the ones it uses for claude_shannon joining this faculty in 1956 and for betty_shannon's household moving to Cambridge with him. The information theory that made secrecy measurable was written out at this address a generation before.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Goldwasser, Micali and Rivest, the GMR signature scheme, 1988"],
+          "sources": ["Wikipedia, 'Ron Rivest'", "betty_shannon.journey.json (stop 1956-01-01)", "claude_shannon.journey.json (stop 1949-10-01)"]
+        },
+        {
+          "name": "545 Technology Square, Introduction to Algorithms",
+          "lat": 42.3626,
+          "lng": -71.0912,
+          "date": "1990-01-01",
+          "date_confidence": "attested to the year; the month defaults",
+          "campa": "Introduction to Algorithms is published, written with Thomas Cormen and Charles Leiserson. The three initials on the first edition are CLR; Clifford Stein joins for the second edition in 2001 and the book becomes CLRS. Later accounts routinely credit all four with the 1990 volume, and are wrong. The book becomes the standard undergraduate text in the subject, and it does not mention that one of its authors has a patent and a company built on a cipher bearing his own initial, waiting outside the exercises.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Cormen, Leiserson and Rivest, Introduction to Algorithms, first edition, MIT Press, 1990"],
+          "sources": ["Wikipedia, 'Ron Rivest'", "MIT Press edition history of Introduction to Algorithms"]
+        },
+        {
+          "name": "545 Technology Square, the message digests",
+          "lat": 42.3626,
+          "lng": -71.0912,
+          "date": "1990-06-01",
+          "date_confidence": "attested to 1990 for MD4 and 1992 for MD5; the months default",
+          "campa": "Rivest designs MD4, a hash function reducing a message of any length to a short fixed digest, and in 1992 MD5, its strengthened successor. MD5 goes everywhere: password files, package checksums, certificate chains, forensic tools. It is also, eventually, broken, its collisions found and then found cheaply, and it stays deployed for years after everyone knows. The cipher family carrying his initial, RC2 and RC4 and RC5 and RC6, spreads the same way, into places that never read the paper and never stop running the code.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["MD4 (1990) and MD5 (1992), and the collision attacks that followed"],
+          "sources": ["Wikipedia, 'Ron Rivest'"]
+        },
+        {
+          "name": "545 Technology Square, RC5",
+          "lat": 42.3626,
+          "lng": -71.0912,
+          "date": "1994-01-01",
+          "date_confidence": "attested to the year; the month defaults",
+          "campa": "Rivest publishes the description of RC5, a block cipher built on data-dependent rotations and parameterized in word size, number of rounds, and key length, so that its strength can be tuned rather than fixed. RFC 2268 will publish RC2 in 1998. Where RSA rests on a number-theoretic problem nobody can solve quickly, these are ciphers of the other kind, fast, symmetric, and secure only because the attack has not been found. Rivest works both sides of that line for thirty years without confusing them.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Rivest's RC5 specification (1994) and RFC 2268 on RC2 (1998)"],
+          "sources": ["Wikipedia, 'Ron Rivest'"]
+        },
+        {
+          "name": "Scientific American, New York, the magic words come back",
+          "lat": 40.758,
+          "lng": -73.9739,
+          "date": "1994-04-26",
+          "date_confidence": "contested: the campaign ran from August 1993 to April 1994, and one item in the research pool dates the result to 1993 against the April 1994 date given elsewhere in the same pool; the day is a placement",
+          "campa": "The challenge ciphertext printed in Gardner's column seventeen years earlier is read. Derek Atkins, Michael Graff, Arjen Lenstra, and Paul Leyland coordinate a distributed factoring effort across the internet, roughly six hundred volunteers and sixteen hundred machines, begun in August 1993 and finished in April 1994. There is no single site for it; the atlas pins the answer where the question was printed. The plaintext is a nonsense sentence chosen in 1977 precisely so that nobody could guess it. Rivest's estimate had been quadrillions of years; the factoring takes eight months.",
+          "quote": "The magic words are squeamish ossifrage.",
+          "quote_source": "Atkins, Graff, Lenstra and Leyland, 'The magic words are squeamish ossifrage', Advances in Cryptology, ASIACRYPT'94, LNCS 917 (Springer, 1995), 261-277. This is the decrypted plaintext of the RSA-129 challenge, not a remark of Rivest's.",
+          "suggested_refs": ["The RSA-129 factorization of April 1994 and the paper titled with its plaintext"],
+          "sources": ["Atkins, Graff, Lenstra and Leyland, ASIACRYPT'94, LNCS 917 (1995), 261-277, doi:10.1007/BFb0000440", "Wikipedia, 'RSA (cryptosystem)'", "WebSearch summary of RSA-129 challenge history, which gives 1993 and is contradicted"]
+        }
+      ]
+    },
+    {
+      "name": "Prizes, and an Older Secret",
+      "stops": [
+        {
+          "name": "New York, the Paris Kanellakis Award",
+          "lat": 40.7519,
+          "lng": -73.9686,
+          "date": "1996-01-01",
+          "date_confidence": "attested to the year; the month and day default",
+          "campa": "The ACM gives its Paris Kanellakis Theory and Practice Award jointly to six men: Leonard Adleman, Whitfield Diffie, Martin Hellman, Ralph Merkle, Ronald Rivest, and Adi Shamir. The atlas already carries this stop at these coordinates in ralph_merkle's journey, and the pin is inherited here unchanged. It is the first prize that names the whole lineage at once, the Stanford side that stated the problem and the MIT side that answered it, and the citation makes no distinction between conceiving a thing and building it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The 1996 ACM Paris Kanellakis Theory and Practice Award citation naming all six"],
+          "sources": ["ralph_merkle.journey.json (stop 1996-01-01)", "amturing.acm.org award chronology"]
+        },
+        {
+          "name": "Cheltenham, the drawer at GCHQ",
+          "lat": 51.8994,
+          "lng": -2.121,
+          "date": "1997-01-01",
+          "date_confidence": "attested to the year of declassification; the month defaults",
+          "campa": "The British government declassifies work done at GCHQ in the early 1970s. Clifford Cocks, in 1973, had written down something close to RSA and called it nonsecret encryption. None of it was published, used, or exploited. It went into a drawer. The sentence that RSA was the first practical public-key cryptosystem survives the disclosure unchanged in trade press and textbooks, often in the same volumes that footnote Cocks a few pages later, and the atlas does not resolve the contradiction, because the sources do not.",
+          "quote": "They announced that they had invented, in secret, in their work in GCHQ, the idea of public key cryptography. They called it nonsecret encryption, something close to RSA. It wasn't quite the same... but it's essentially the same idea.",
+          "quote_source": "Oral History of Ronald L. Rivest, interviewed by Roy Levin, CHM/ACM (2016), p.22-23",
+          "suggested_refs": ["The 1997 GCHQ declassification of the Ellis, Cocks and Williamson work"],
+          "sources": ["Wikipedia, 'RSA (cryptosystem)', background section", "Oral History of Ronald L. Rivest, CHM/ACM (2016), p.22-23"]
+        },
+        {
+          "name": "Rome, the Second AES Candidate Conference",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "date": "1999-03-22",
+          "date_confidence": "attested to 22 and 23 March 1999",
+          "campa": "Some two hundred cryptographers gather to winnow the field for the standard that will replace DES. Rivest's team presents RC6, designed with Matt Robshaw, Ray Sidney, and Yiqun Lisa Yin. It becomes one of five finalists and does not win. The process is public and international, which the work at Cheltenham was not, and the man who twenty-two years earlier waited on MIT's lawyers for permission to post a memo now submits a cipher to a government competition and argues for it in a hall in Rome.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["NIST, Second AES Candidate Conference proceedings, Rome, March 1999"],
+          "sources": ["NIST, Second AES Candidate Conference report, Rome, March 1999"]
+        },
+        {
+          "name": "RSA Conference, Silicon Valley, the trade show with their initials",
+          "lat": 37.3305,
+          "lng": -121.8893,
+          "date": "2000-01-01",
+          "date_confidence": "attested to the year; the month and day default",
+          "campa": "The conference named for three initials gives Ralph Merkle its award for excellence in mathematics, and the atlas records in ralph_merkle's journey that the company is named for the three men whose cryptosystem was announced in the addendum of Merkle's own delayed paper. The same year the IEEE gives Rivest, Shamir, and Adleman the Koji Kobayashi Computers and Communications Award for the revolutionary invention of the RSA public key cryptosystem. The industry's annual assembly carries their surnames on the door.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The RSA Conference award to Merkle, 2000, and the IEEE Koji Kobayashi Award to Rivest, Shamir and Adleman"],
+          "sources": ["ralph_merkle.journey.json (stop 2000-01-01)", "amturing.acm.org award chronology"]
+        },
+        {
+          "name": "Bedford, the patent let go",
+          "lat": 42.4906,
+          "lng": -71.2761,
+          "date": "2000-09-06",
+          "date_confidence": "attested to September 2000, two weeks before the scheduled expiry; the day is a placement",
+          "campa": "RSA Security, grown out of RSA Data Security's merger into Security Dynamics and settled in the Boston suburbs near Rivest's own laboratory, releases the algorithm into the public domain two weeks before the patent would have expired of its own accord. Seventeen years of exclusive license end in a gesture costing the company a fortnight. From this date anyone may implement RSA without paying anyone. The atlas records in hal_finney's journey that PGP had done its public-key work with the algorithm since 1992, licensed and litigated; the litigation stops mattering.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Computerworld, 'RSA encryption patent released', September 2000"],
+          "sources": ["Computerworld, 'RSA encryption patent released'", "hal_finney.journey.json (stop 1992-09-01)", "Wikipedia, 'RSA Security'"]
+        }
+      ]
+    },
+    {
+      "name": "The Rice and the Turing Award",
+      "stops": [
+        {
+          "name": "545 Technology Square, the ring signature",
+          "lat": 42.3626,
+          "lng": -71.0912,
+          "date": "2001-01-01",
+          "date_confidence": "attested to the year; the month defaults",
+          "campa": "With Adi Shamir and Yael Tauman Kalai, Rivest constructs the ring signature: a signature proving that some member of a named group produced it while hiding which one, and requiring no setup and no cooperation from the group at all. Any signer may conscript any set of public keys into a ring. It is a leaker's primitive, built by a man whose other work that year is a company for charging fractions of a cent, and it will be taken up later by people building currencies rather than by people blowing whistles.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Rivest, Shamir and Tauman, 'How to Leak a Secret', 2001"],
+          "sources": ["Wikipedia, 'Ron Rivest'"]
+        },
+        {
+          "name": "Waltham, Peppercoin",
+          "lat": 42.3765,
+          "lng": -71.2356,
+          "date": "2001-11-01",
+          "date_confidence": "contested: the company was founded late in 2001 with Silvio Micali, though several accounts date the founding to 2003, which is the commercial launch; the month is a placement",
+          "campa": "Rivest and Silvio Micali found Peppercoin in Waltham to attack micropayments, the problem that a transaction worth a few cents costs more than a few cents to process. Their answer is probabilistic: pay out at random so the expected cost comes right while the number of actual transactions collapses. The system is presented at the RSA Conference in 2002 and the company launches commercially in 2003. Chockstone buys it in 2007. The digital cash question it addresses is the one nick_szabo and hal_finney are working from the other side.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Peppercoin, Inc., Waltham, and the probabilistic micropayment scheme of Rivest and Micali"],
+          "sources": ["Wikipedia, 'Ron Rivest'", "Peppercoin company history", "nick_szabo.journey.json (stop 1992-01-01)", "hal_finney.journey.json (stop 1992-09-01)"]
+        },
+        {
+          "name": "MIT Room 37-212, pelted with rice",
+          "lat": 42.3598,
+          "lng": -71.0921,
+          "date": "2003-04-23",
+          "date_confidence": "attested",
+          "campa": "About thirty colleagues, gathered by the director of the Laboratory for Computer Science, burst into the first session of Rivest's 6.045 class wearing party hats and shrieking, and pepper him with rice. It is a surprise tribute for the Turing Award, announced that spring. No source consulted gives any reason for the rice. The common gloss, that it jokes about the algorithm's dependence on large primes, appears in no account of the event and connects to nothing; the atlas records the rice and leaves it unexplained.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["MIT News, 'Rivest pelted with rice at Turing tribute', April 2003"],
+          "sources": ["MIT News, 'Rivest pelted with rice at Turing tribute', April 2003"]
+        },
+        {
+          "name": "San Diego, the Turing Award",
+          "lat": 32.7157,
+          "lng": -117.1611,
+          "date": "2003-06-07",
+          "date_confidence": "attested",
+          "campa": "Rivest, Shamir, and Adleman receive the 2002 ACM A.M. Turing Award at the association's banquet during the Federated Computing Research Conference, for their ingenious contribution to making public-key cryptography useful in practice. The citation is careful with the word practice; Diffie and Hellman had the idea, and the ACM had already said so in 1996. The next day Rivest delivers the Turing lecture, titled The Early Days of RSA: History and Lessons, twenty-six years after the spring the scheme was written down.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Rivest's Turing lecture, 'The Early Days of RSA: History and Lessons', June 2003"],
+          "sources": ["ACM Turing Award announcement, 2003", "AMS Notices, July 2003", "amturing.acm.org/award_winners/rivest_1403005.cfm"]
+        },
+        {
+          "name": "MIT Stata Center, the move out of Technology Square",
+          "lat": 42.3617,
+          "lng": -71.0908,
+          "date": "2004-03-01",
+          "date_confidence": "attested to 2004; the month is a placement",
+          "campa": "CSAIL leaves Technology Square for the new Frank Gehry building on Vassar Street, and Rivest's Cryptography and Information Security Group moves with it. The old address had held Project MAC, the Artificial Intelligence Laboratory, and the room where RSA was written, for forty-one years. The group he founded and leads continues in the new building, and his research turns toward the counting of votes, a problem with no patent in it and no company.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["MIT News, 'MIT leaves behind a rich history in Tech Square', 2004"],
+          "sources": ["MIT News, 'MIT leaves behind a rich history in Tech Square', 2004", "MIT CSAIL personnel pages"]
+        }
+      ]
+    },
+    {
+      "name": "The Ballot Problem",
+      "stops": [
+        {
+          "name": "MIT Stata Center, ThreeBallot",
+          "lat": 42.3617,
+          "lng": -71.0908,
+          "date": "2006-10-01",
+          "date_confidence": "attested to 2006; the month is a placement",
+          "campa": "Rivest publishes ThreeBallot, a voting system letting a voter verify that her own ballot was counted while leaving her unable to prove to anyone else how she voted. The voter marks three ballots, keeps a copy of one, and all three go into the box; the receipt proves inclusion and reveals nothing. It uses no cryptography whatever. The man who built the trapdoor function attacks the coercion problem with paper, on the ground that a voting system has to be understood by the people voting in it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Rivest's ThreeBallot end-to-end auditable voting system, 2006"],
+          "sources": ["Wikipedia, 'Ron Rivest'"]
+        },
+        {
+          "name": "Menlo Circus Club, Atherton, the Marconi Prize",
+          "lat": 37.4562,
+          "lng": -122.1949,
+          "date": "2007-09-28",
+          "date_confidence": "attested",
+          "campa": "Rivest receives the Marconi Prize at the society's annual award dinner, honored for the algorithm's place at the foundation of secure digital communication. Guglielmo Marconi's own invention was the one that made interception trivial, a message thrown into open air and readable by anyone holding a receiver, which is the condition that turned cryptography from a diplomatic hobby into a general necessity. The prize carrying his name goes to a man whose work answers the problem his work created.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["MIT News, 'MIT encryption pioneer Rivest wins Marconi Prize', 2007"],
+          "sources": ["MIT News, 'MIT encryption pioneer Rivest wins Marconi Prize', 2007", "Marconi Society fellow biography"]
+        },
+        {
+          "name": "Carleton College, the Chesley Lecture",
+          "lat": 44.461,
+          "lng": -93.1567,
+          "date": "2008-05-29",
+          "date_confidence": "attested",
+          "campa": "Rivest delivers the Chesley Lecture at Carleton, a liberal arts college of two thousand students in southern Minnesota, carrying cryptography and its open problems to undergraduates who will mostly not become cryptographers. He gives lectures of this kind steadily through these years, among them one at Purdue in December 2005 on the security of voting systems. The audience for the subject has changed since 1977: it is no longer an open question whether it may be discussed in a room with the doors unlocked.",
+          "quote": "They're probably safer using their credit card for Internet transactions than they are using it at a local restaurant. It's a question as to what the risk is. The risk in a restaurant is if the waiter or waitress you give your credit card number to copies it down, keeps a copy of the carbon, whatever, sells it to a friend. My personal guess is that this is more likely to happen in a restaurant than on the Internet.",
+          "quote_source": "Interview with Ronald Rivest, Dr. Dobb's Journal (2008), read back to him by Roy Levin in Oral History of Ronald L. Rivest, CHM/ACM (2016), p.33",
+          "suggested_refs": ["The Chesley Lecture at Carleton College, May 2008; the Purdue voting-security lecture, December 2005"],
+          "sources": ["Carleton College Chesley Lecture listing, May 2008", "Purdue News, 'Rivest lecture', December 2005", "Wikipedia, 'Ron Rivest'"]
+        },
+        {
+          "name": "Washington, the Election Assistance Commission",
+          "lat": 38.9186,
+          "lng": -77.0367,
+          "date": "2009-01-01",
+          "date_confidence": "reconstruction: the sources give this work as a period rather than an event, and the year here is a placement within it",
+          "campa": "Rivest serves on the Technical Guidelines Development Committee of the Election Assistance Commission and works on Scantegrity, an end-to-end verifiable system that adds cryptographic auditing to ordinary optical scan ballots without changing how a voter marks one. The dating is a period in the sources rather than an event, and is carried here as reconstruction. The federal government is now asking the author of RSA how to count votes, which is a different question from how to keep a secret.",
+          "quote": "The security's a cat-and-mouse game. You can't afford perfect security. Companies make investments to ameliorate the risks. Over time the technologies improve. It gets harder for the bad guys. Breaking into bank vault isn't done very much today. It's gotten really hard to do... We'll see the same evolution with Internet security.",
+          "quote_source": "Interview with Ronald Rivest, Dr. Dobb's Journal (2008), quoted in Oral History of Ronald L. Rivest, CHM/ACM (2016), p.35",
+          "suggested_refs": ["The EAC Technical Guidelines Development Committee and the Scantegrity system"],
+          "sources": ["Wikipedia, 'Ron Rivest'"]
+        }
+      ]
+    },
+    {
+      "name": "Institute Professor",
+      "stops": [
+        {
+          "name": "Massachusetts Institute of Technology, named Institute Professor",
+          "lat": 42.3601,
+          "lng": -71.0942,
+          "date": "2015-06-01",
+          "date_confidence": "attested to June 2015; the day defaults",
+          "campa": "MIT names Rivest an Institute Professor, its highest faculty rank, held by a very small number of people at any one time and conferred by vote of the faculty. He has been at this institution forty-one years, having arrived from the postdoctoral year at Rocquencourt, and has worked nowhere else. The rank carries no duties. It is the university's way of saying that a person may now do whatever he likes, which in his case is the security of elections and the auditing of paper ballots.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["MIT CSAIL News, 'Ron Rivest named Institute Professor', 2015"],
+          "sources": ["MIT CSAIL News, 'Ron Rivest named Institute Professor', 2015", "amturing.acm.org award chronology"]
+        },
+        {
+          "name": "Computer History Museum, Mountain View, the oral history",
+          "lat": 37.4143,
+          "lng": -122.0775,
+          "date": "2016-12-06",
+          "date_confidence": "attested",
+          "campa": "Roy Levin records a long oral history of Rivest for the ACM Turing Award Winners Project. Across forty-eight pages Rivest recounts Niskayuna, Yale, Floyd's department, the year at Rocquencourt, the Diffie and Hellman paper, and the months of proposal and refutation with Shamir and Adleman. Asked about the famous blackboard photograph of the three of them with P equals NP written up behind their heads, he says it was a joke. The atlas records that this museum made ralph_merkle, diffie, and hellman its Fellows in 2011.",
+          "quote": "Before the picture was taken, I think it was I that wrote the 'P = -- therefore P = NP' on the board. And sort of a joke to those that were in the computer science field there... the photographer of course didn't know anything. And actually very few people noticed it, and then would look at it and say, 'Oh yes.'... But it was a joke, we didn't have any proofs then of course.",
+          "quote_source": "Oral History of Ronald L. Rivest, interviewed by Roy Levin, CHM/ACM (2016), p.13",
+          "suggested_refs": ["Oral History of Ronald L. Rivest, CHM Ref X8019.2017, recorded 6 December 2016"],
+          "sources": ["Oral History of Ronald L. Rivest, interviewed by Roy Levin, CSAIL and CHM archive, 2016", "ralph_merkle.journey.json (stop 2011-06-01)"]
+        },
+        {
+          "name": "Madrid, the Frontiers of Knowledge Award",
+          "lat": 40.4177,
+          "lng": -3.7113,
+          "date": "2017-06-01",
+          "date_confidence": "attested to the year; the month is a placement, no month being given in the sources consulted",
+          "campa": "The BBVA Foundation, whose headquarters are in Madrid, gives Rivest its Frontiers of Knowledge Award in the Information and Communication Technologies category. It is one of the prizes a field awards its founders once the founding has stopped being contested. He also holds an honorary doctorate from Sapienza in Rome, dated 2002 by a biographical aggregator the atlas could not cross-check against any Sapienza record; that detail is carried here unverified rather than dropped or asserted.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["BBVA Foundation Frontiers of Knowledge Awards, Ronald Rivest laureate page"],
+          "sources": ["BBVA Foundation, Frontiers of Knowledge Awards, laureate page", "Wikipedia, 'Ron Rivest'", "Prabook biographical entry, uncorroborated on the Sapienza doctorate"]
+        },
+        {
+          "name": "National Building Museum, Washington, the Hall of Fame",
+          "lat": 38.8974,
+          "lng": -77.0166,
+          "date": "2018-05-03",
+          "date_confidence": "attested; one item in the research pool dates the induction to 2011, contradicting three others that give 2018, and the 2018 class is what the Hall of Fame's own coverage records",
+          "campa": "Rivest, Shamir, and Adleman are inducted into the National Inventors Hall of Fame for the RSA algorithm, the night after the illumination ceremony held in the museum inside the Patent Office at Alexandria. Diffie, Hellman, and Merkle were inducted at a Washington ceremony in 2011 for the patent naming all three, and the atlas carries that stop in ralph_merkle's journey. Forty-one years after the memo the lawyers held, the government that considered prosecuting the publication hangs the inventors' portraits in a federal building.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["National Inventors Hall of Fame, 46th Annual Induction Ceremony, 3 May 2018"],
+          "sources": ["National Inventors Hall of Fame, 2018 induction coverage; invent.org inductee page", "ralph_merkle.journey.json (stop 2011-05-04)", "Wikipedia, 'Ron Rivest'"]
+        },
+        {
+          "name": "Washington, the hearing nobody attended",
+          "lat": 38.9186,
+          "lng": -77.0367,
+          "date": "2020-07-17",
+          "date_confidence": "attested",
+          "campa": "Rivest testifies to the House Committee on House Administration on whether members of Congress can vote remotely and securely. He concludes that they can, because a congressional vote is not secret: the hard part of electronic voting, proving a count without revealing who cast what, does not arise when every vote is published with a name attached to it. The hearing is the committee's first fully virtual one, held over WebEx under House Resolution 965. No witness is in the room. The atlas pins it to the city that did not convene.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Written testimony HHRG-116-HA00-Wstate-RivestR-20200717, Committee on House Administration"],
+          "sources": ["House Committee on House Administration hearing record, 17 July 2020", "Forbes coverage, July 2020"]
+        },
+        {
+          "name": "RSA Conference, the Cryptographers' Panel",
+          "lat": 37.3305,
+          "lng": -121.8893,
+          "date": "2021-05-17",
+          "date_confidence": "attested to the conference of 17 to 20 May 2021, which ran entirely online, so this pin is the conference's standing address and not a room",
+          "campa": "Rivest and Shamir sit on the conference's Cryptographers' Panel, as they have for years. Rivest likens non-fungible tokens to the Dutch tulip mania of the seventeenth century. Shamir floats auctioning an NFT of the signed first page of the 1977 MIT technical report, the memo the lawyers held until December. The 2021 conference runs entirely online, so the coordinates here are the address the event has kept for decades rather than a hall anyone walked into. Forty-four years on, the panel still convenes and they are still on it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["RSA Conference 2021 Cryptographers' Panel, 17 to 20 May 2021, held online"],
+          "sources": ["RSA Conference speaker pages", "BankInfoSecurity panel coverage, 2021"]
+        },
+        {
+          "name": "Arlington, the house near the laboratory",
+          "lat": 42.4154,
+          "lng": -71.1565,
+          "date": "2021-06-01",
+          "date_confidence": "undated: the sources give the residence as ongoing, and the date here is a placement rather than an event",
+          "campa": "Rivest lives in Arlington, a few miles from the campus he joined in 1974, with his wife Gail; their sons Alex and Chris grew up in the town. He is alive as this journey is written. There is no tomb, no grave, and no memorial site, and the atlas states the absence rather than furnishing a monument. His initial rides inside a cipher running on machines in every country on earth, and it was put there some forty years before the life it belongs to has finished.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Arlington, Massachusetts, the Rivest family residence"],
+          "sources": ["Wikipedia, 'Ron Rivest'", "Britannica, 'Ronald L. Rivest'"]
+        }
+      ]
+    }
+  ]
+}
