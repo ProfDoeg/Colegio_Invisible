@@ -257,6 +257,9 @@ essays+Instagram corpus.
 | 0 | **Engelbert Humperdinck** | German composer of the opera Hänsel und Gretel (1893); author pick, not yet in the corpus |
 | 0 | **Sophie von Kühn** | Novalis's (already done) fiancée, died at 15 in 1797; her death is the direct occasion for Hymns to the Night and the cult of the beloved dead that runs through German Romanticism |
 | 3 | **Arthur Bispo do Rosário** | Brazilian textile artist (1909-1989) who made embroidered flags mixing text, cartography, and symbols of national identity during the 50 years he was involuntarily interned at the Colônia Juliano Moreira asylum; named in essay 203_masonic_embroidery.md |
+| 0 | **Leo Chiachio** | Argentine textile artist, half of the collaborative embroidery duo Chiachio & Giannone with his husband Daniel Giannone; their large-scale embroidered works often feature their own dogs and a shared invented family mythology |
+| 0 | **Daniel Giannone** | Argentine textile artist, half of the collaborative embroidery duo Chiachio & Giannone with his husband Leo Chiachio; joins the same embroidery/textile-art thread as arthur_bispo_do_rosario just queued |
+| 0 | **Cecilia Vicuña** | Chilean poet and visual artist, known for quipu-inspired fiber installations and 'precarios' assemblages; direct thematic interlock with the corpus's own quipu work |
 
 ## The scope suggestions (2026-08-02)
 
