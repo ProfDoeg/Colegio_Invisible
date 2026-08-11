@@ -301,6 +301,7 @@ essays+Instagram corpus.
 | 0 | **Elda Neyis Mosquera ("Karina")** | one of FARC's highest-ranking female commanders, captured by the Colombian army in 2008, later became a public advocate for demobilized fighters and against landmines; joins the corpus's Colombian revolutionary material |
 | 0 | **Dalila Puzzovio** | Argentine pop artist of the 1960s Instituto Di Tella scene in Buenos Aires, known for her self-promotional 'Ramona' billboard stunt and body-cast sculptural work; joins the corpus's Argentine art-world material |
 | 0 | **János Czetz (Juan Fernando Czetz, 1822-1904)** | Hungarian-born general of the 1848 Hungarian Revolution, later emigrated to Argentina where he became a general and founded the Colegio Militar de la Nación (Argentine Military College); joins the corpus's Argentine military/institutional history |
+| 0 | **Benigno Villanueva** | Not in the corpus and not otherwise identified yet - further biographical detail not yet confirmed |
 
 ## The scope suggestions (2026-08-02)
 
