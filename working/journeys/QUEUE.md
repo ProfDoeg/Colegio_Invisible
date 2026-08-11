@@ -295,6 +295,7 @@ essays+Instagram corpus.
 | 0 | **Alberto Hugo Restrepo** | Colombian art dealer |
 | 1 | **Matías Carbone** | Buenos Aires knit/crochet/embroidery fashion designer, works the dog emblem and knot/nodus symbolism into his textile pieces, discussed Anubis and the topology of knots with the author in a 2023 studio visit (essay: 2023-01-31-ayer-fui-al-estudio-de-matias.md); direct interlock with the corpus's own embroidery-art thread and its nodus/knot material |
 | 0 | **Daria Sorokina** | Russian designer |
+| 0 | **Griselda Blanco** | Colombian drug trafficker, 'the Cocaine Godmother' of the Miami cocaine trade in the 1970s-80s, assassinated in 2012; joins the corpus's organized-crime cluster (pupetta_maresca, charles_lucky_luciano, meyer_lansky already done) |
 | 0 | **Raul Veroni** | Founder of Urania publishing house in Buenos Aires, father of ral_veroni already queued; direct family interlock |
 
 ## The scope suggestions (2026-08-02)
