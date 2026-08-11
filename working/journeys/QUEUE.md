@@ -264,6 +264,7 @@ essays+Instagram corpus.
 | 0 | **Ian Fleming** | British Naval Intelligence officer in WWII, later creator of James Bond; joins the corpus's cipher/intelligence wing (diffie, hellman, hal_finney already done) from the fiction side |
 | 0 | **William Colby** | CIA Director 1973-1976, oversaw the Church Committee-era disclosures of agency abuses; joins the corpus's intelligence-world cluster (william_casey, oliver_north just queued) |
 | 0 | **James Matthew Barrie** | Scottish author of Peter Pan, joins the corpus's children's-literature wing alongside maurice_sendak (already done) and hans_christian_andersen (already done) |
+| 0 | **Hernando Arias de Saavedra (Hernandarias)** | (1561-1634) first American-born governor in the Spanish colonies, governor of Río de la Plata and Paraguay; joins the corpus's Argentine colonial-history thread |
 
 ## The scope suggestions (2026-08-02)
 
