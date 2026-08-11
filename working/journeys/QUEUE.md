@@ -290,6 +290,7 @@ essays+Instagram corpus.
 | 3 | **Duwenavue Sante' Johnson** | Artist, curator, researcher and teacher of Masonic embroidery in Philadelphia, based at the Masonic Library and Museum of Pennsylvania; particular expertise in the George Washington-Lafayette correspondence and the ceremonial apron tradition; named in essay 203_masonic_embroidery.md and 205_commodity_amnesia.md, joins the corpus's embroidery/textile-art thread (arthur_bispo_do_rosario, chiachio, giannone already queued) |
 | 2 | **Laura Renée Maier** | Embroidery artist whose 2022 diptych 'Encoded Threads' encodes a SHA256 hash referencing Hayagriva, Christophia, and Anthony in embroidered nimbi over feminized forms of Hayagriva and Anubis/San Cristóbal; named in essay 203_masonic_embroidery.md and instagram posts, direct interlock with the corpus's own certificate/cryptography material |
 | 3 | **Ekaterina Sinchinova** | Embroidery artist of the 'Domrémy' work referencing the Bourlemont fairy tree and Joan of Arc's childhood; named across multiple instagram posts, joins the corpus's embroidery-art thread and its Joan of Arc/Domrémy material |
+| 0 | **Lisoleth Charinga** | Artisan the author works with personally, one of his own associates - same category as arthur_ben and daniel_zachariah already done/queued. NOT publicly documented: the author will interview her directly, so this entry CANNOT run through the standard public-source research pipeline until that interview material exists. Hold until the author supplies it |
 
 ## The scope suggestions (2026-08-02)
 
