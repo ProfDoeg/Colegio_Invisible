@@ -278,6 +278,8 @@ essays+Instagram corpus.
 | 0 | **Antonio Mamerto Gil Núñez (Gauchito Gil)** | Argentine folk saint, an unofficially canonized gaucho executed unjustly, venerated with roadside shrines of red flags across Argentina; answers the corpus's own gaucho/mozos-perdidos thread (hernando_arias_de_saavedra already queued). AUTHOR'S INSTRUCTION: take the folk legend as the record for this entry rather than applying the usual [A]/[R] skeptical-source discipline — the myth IS the subject here, not a contested claim to weigh against documentary sources |
 | 0 | **Anita Garibaldi** | Brazilian-born (Ana Maria de Jesus Ribeiro da Silva) revolutionary, fought alongside husband Giuseppe Garibaldi (already queued) in the Guerra dos Farrapos in Rio Grande do Sul and later the Italian Risorgimento; direct interlock, same gaucho/Rio Grande do Sul geography as hernando_arias_de_saavedra and gauchito_gil just queued |
 | 0 | **Jair Bolsonaro** | Brazilian president 2019-2023, far-right former army captain, convicted in 2025 in a coup-plot case over the attempt to overturn his 2022 election loss; joins the corpus's cluster of 20th/21st-century strongmen (saddam_hussein, muammar_gaddafi, augusto_pinochet already done) |
+| 0 | **Policarpa Salavarrieta ("La Pola")** | Colombian independence heroine and spy, executed by Spanish royalists in 1817; joins the corpus's independence-era women (juana_azurduy, maria_remedios_del_valle already done) |
+| 0 | **Camilo Torres Restrepo** | Colombian Catholic priest and sociologist, pioneer of liberation-theology-adjacent thought, joined the ELN guerrilla and was killed in his first combat action in 1966; distinct from the earlier independence-era jurist of the same base name |
 
 ## The scope suggestions (2026-08-02)
 
