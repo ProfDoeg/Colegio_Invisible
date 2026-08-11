@@ -293,6 +293,8 @@ essays+Instagram corpus.
 | 0 | **Lisoleth Charinga** (personal associate) | Artisan the author works with personally, one of his own associates - same category as ral_veroni, vicky_sigwald, pablo_sigwald, arthur_ben, yuki_seo, daniel_zachariah, otis_houston_jr, justin_fornal (see the PERSONAL ASSOCIATES WORKFLOW note, further down in this file, confirmed 2026-08-11). Run the standard first-pass research now from whatever public sources exist, even if thin; the author will then interview her directly and they'll write interview questions together afterward to fill what the first pass couldn't reach |
 
 | 0 | **Alberto Hugo Restrepo** | Colombian art dealer |
+| 1 | **Matías Carbone** | Buenos Aires knit/crochet/embroidery fashion designer, works the dog emblem and knot/nodus symbolism into his textile pieces, discussed Anubis and the topology of knots with the author in a 2023 studio visit (essay: 2023-01-31-ayer-fui-al-estudio-de-matias.md); direct interlock with the corpus's own embroidery-art thread and its nodus/knot material |
+| 0 | **Daria Sorokina** | Russian designer |
 | 0 | **Raul Veroni** | Founder of Urania publishing house in Buenos Aires, father of ral_veroni already queued; direct family interlock |
 
 ## The scope suggestions (2026-08-02)
