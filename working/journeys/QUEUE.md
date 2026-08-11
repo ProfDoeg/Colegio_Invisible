@@ -90,7 +90,9 @@ essays+Instagram corpus.
 | 3 | **Diffie** | American cryptographer, co-inventor of public-key cryptography |
 | 3 | **Hellman** | American cryptographer, co-inventor of Diffie–Hellman key exchange |
 | 0 | **Ralph Merkle** | American computer scientist, independently co-invented public-key cryptography alongside diffie and hellman already queued, and invented the Merkle tree, the hash structure underlying the blockchains hal_finney and satoshi_nakamoto's work depends on |
-| 0 | **Ron Rivest, Adi Shamir, Leonard Adleman** | the R, S and A of RSA, turned diffie and hellman's just queued public-key concept into the first practical implementation, still the backbone of internet encryption |
+| 0 | **Ron Rivest** | American cryptographer, the R of RSA, turned diffie and hellman's just queued public-key concept into the first practical implementation alongside shamir and adleman, still the backbone of internet encryption |
+| 0 | **Adi Shamir** | Israeli cryptographer, the S of RSA, co-invented the first practical public-key implementation alongside rivest and adleman |
+| 0 | **Leonard Adleman** | American computer scientist, the A of RSA, co-invented the first practical public-key implementation alongside rivest and shamir |
 | 3 | **Michel Foucault** | French philosopher and historian of ideas |
 | 3 | **Gilles Deleuze** | French philosopher, author of The Fold |
 | 3 | **Martin Luther** | German Protestant reformer |
@@ -168,7 +170,6 @@ essays+Instagram corpus.
 | - | **Los Catorce Santos Ayudantes** | the Fourteen Holy Helpers as a company - Acacius, Blaise, Christopher, Cyriacus, Denis, Erasmus, Eustace, George, Pantaleon, Vitus (Barbara, Catherine, Giles, Margaret already travel in the atlas) |
 | 0 | **Saint Acacius** | one of the Fourteen Holy Helpers, Roman centurion martyr; wanted individually, not only as part of the company entry above |
 | 0 | **Saint Blaise** | one of the Fourteen Holy Helpers, Armenian bishop-physician martyr, patron of throat ailments; wanted individually |
-| 0 | **Saint Christopher** | one of the Fourteen Holy Helpers, patron of travelers, already touches the corpus's cynocephali material via san_cristobal already done; wanted individually |
 | 0 | **Saint Cyriacus** | one of the Fourteen Holy Helpers, Roman deacon martyr; wanted individually |
 | 0 | **Saint Denis** | one of the Fourteen Holy Helpers, first bishop of Paris, martyred by decapitation and said to have carried his own head; wanted individually |
 | 0 | **Saint Erasmus (Elmo)** | one of the Fourteen Holy Helpers, patron of sailors, namesake of St. Elmo's fire; wanted individually |
