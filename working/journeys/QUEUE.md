@@ -287,6 +287,9 @@ essays+Instagram corpus.
 | 0 | **Manuela Sáenz** | Ecuadorian revolutionary, companion of Simón Bolívar (already done), the 'Libertadora del Libertador' who saved his life from an 1828 assassination attempt; direct interlock |
 | 0 | **Carmen Miranda** | Portuguese-born Brazilian samba singer and actress, 'The Brazilian Bombshell,' Hollywood's highest-paid entertainer by the mid-1940s and the icon who exported carnival/tutti-frutti Brazil to the world |
 | 0 | **Caterina Valente** | Italian-French multilingual singer and entertainer, sang fluently in over ten languages, a dominant pop and variety-show star in Germany and across Europe from the 1950s through the 1960s |
+| 3 | **Duwenavue Sante' Johnson** | Artist, curator, researcher and teacher of Masonic embroidery in Philadelphia, based at the Masonic Library and Museum of Pennsylvania; particular expertise in the George Washington-Lafayette correspondence and the ceremonial apron tradition; named in essay 203_masonic_embroidery.md and 205_commodity_amnesia.md, joins the corpus's embroidery/textile-art thread (arthur_bispo_do_rosario, chiachio, giannone already queued) |
+| 2 | **Laura Renée Maier** | Embroidery artist whose 2022 diptych 'Encoded Threads' encodes a SHA256 hash referencing Hayagriva, Christophia, and Anthony in embroidered nimbi over feminized forms of Hayagriva and Anubis/San Cristóbal; named in essay 203_masonic_embroidery.md and instagram posts, direct interlock with the corpus's own certificate/cryptography material |
+| 3 | **Ekaterina Sinchinova** | Embroidery artist of the 'Domrémy' work referencing the Bourlemont fairy tree and Joan of Arc's childhood; named across multiple instagram posts, joins the corpus's embroidery-art thread and its Joan of Arc/Domrémy material |
 
 ## The scope suggestions (2026-08-02)
 
