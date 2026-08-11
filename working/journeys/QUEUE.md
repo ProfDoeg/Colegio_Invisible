@@ -302,6 +302,7 @@ essays+Instagram corpus.
 | 0 | **Dalila Puzzovio** | Argentine pop artist of the 1960s Instituto Di Tella scene in Buenos Aires, known for her self-promotional 'Ramona' billboard stunt and body-cast sculptural work; joins the corpus's Argentine art-world material |
 | 0 | **János Czetz (Juan Fernando Czetz, 1822-1904)** | Born in Transylvania, of Armenian ancestry - a Hungarian National Library source calls him "örmény származású" (of Armenian origin), the Armenian Embassy in Argentina gives his Armenian name as Hovhannés Tzetzian; general of the 1848 Hungarian Revolution, arrived Buenos Aires 1860, worked as a surveyor, entered the Argentine Army, helped found the Colegio Militar de la Nación, and directed the advance of the frontier line in southern Córdoba, establishing fortifications around present-day General Villegas; joins the corpus's Argentine military/frontier history and its Armenian-diaspora material |
 | 0 | **Benigno Villanueva** | Not in the corpus and not otherwise identified yet - further biographical detail not yet confirmed |
+| 0 | **Arshag Shorjian** | Not in the corpus and not otherwise identified yet - further biographical detail not yet confirmed |
 
 ## The scope suggestions (2026-08-02)
 
