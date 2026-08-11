@@ -285,6 +285,7 @@ essays+Instagram corpus.
 | 0 | **Tamara Bunke ("Tania la Guerrillera")** | East German-Argentine revolutionary and Cuban intelligence agent, embedded in Bolivia to prepare the ground for che_guevara's (already done) guerrilla campaign, killed in an ambush in 1967 shortly after Che himself; direct interlock |
 | 0 | **Micaela Bastidas** | Peruvian revolutionary, wife and co-commander of Túpac Amaru II (already queued), executed alongside him in 1781 after the failed rebellion; direct interlock |
 | 0 | **Manuela Sáenz** | Ecuadorian revolutionary, companion of Simón Bolívar (already done), the 'Libertadora del Libertador' who saved his life from an 1828 assassination attempt; direct interlock |
+| 0 | **Carmen Miranda** | Portuguese-born Brazilian samba singer and actress, 'The Brazilian Bombshell,' Hollywood's highest-paid entertainer by the mid-1940s and the icon who exported carnival/tutti-frutti Brazil to the world |
 
 ## The scope suggestions (2026-08-02)
 
