@@ -297,6 +297,7 @@ essays+Instagram corpus.
 | 0 | **Daria Sorokina** | Russian designer |
 | 0 | **Griselda Blanco** | Colombian drug trafficker, 'the Cocaine Godmother' of the Miami cocaine trade in the 1970s-80s, assassinated in 2012; joins the corpus's organized-crime cluster (pupetta_maresca, charles_lucky_luciano, meyer_lansky already done) |
 | 0 | **Raul Veroni** | Founder of Urania publishing house in Buenos Aires, father of ral_veroni already queued; direct family interlock |
+| 0 | **Jasiane Silva Teixeira** | Not in the corpus and not otherwise identified yet - further biographical detail not yet confirmed |
 
 ## The scope suggestions (2026-08-02)
 
