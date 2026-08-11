@@ -151,3 +151,74 @@ Canonical geography pins checked and **rejected for want of evidence**, recorded
 **Named but not reached this session.** Penelope Fitzgerald's 1975 biography and Harrison and Waters's 1973 monograph: known only through the encyclopaedia notice of the revival they caused, and nothing here rests on either. The Kelmscott Chaucer itself: the claim that he omitted the coarser tales rests on a paraphrase of his own remark, not a leaf-by-leaf check. The 1998 Metropolitan Museum catalogue: the itinerary correction rests on the encyclopaedia's sentence. Parish records for the 1860 marriage, which would settle the church and town left blank above.
 
 **Known unknowns.** The wedding place, 9 June 1860; the subjects of the three eastern windows at St Philip's; any month or route order for the 1859 Italian journey; the date of the Oxford Ruskin reading, where two canonical files disagree; the Birmingham address of the shop and the birth.
+
+---
+
+## 11. Geography verification addendum
+
+**Why this section exists.** The gather stage of the original run had five lenses. The **geography lens failed technically**: it hit the StructuredOutput retry cap after five attempts and returned zero results, so the write stage produced all 45 stops with no dedicated geography research behind them. Their coordinates came from whatever the other four lenses happened to carry, from pins inherited from `william_morris.journey.json`, and from gazetteer defaults. This is a follow-up pass that does the failed lens's work and then audits the file against it. **All 45 stops were checked. 17 stops were corrected**, across 10 distinct places.
+
+Method: coordinates were taken from the Wikipedia geosearch API (`action=query&prop=coordinates`) for landmarks that carry a geotag, and from OpenStreetMap Nominatim for street addresses that do not. Where the two disagreed the landmark's own geotag was preferred. Note that the WebSearch budget for the session was exhausted before this pass began, so everything below rests on WebFetch against encyclopaedia and gazetteer endpoints; no archival or catalogue source was reachable.
+
+### 11.1 Corrections applied
+
+**[A Wikipedia, 'Georgiana Burne-Jones'] The marriage, 9 June 1860. Wrong city, off by roughly 260 km — the most serious error in the file.** The stop stood at **51.5074, -0.1278**, the Charing Cross default, and its own `date_confidence` disclosed the pin as a placeholder because the pool gave only "England". The wedding was **in Manchester**: *"Georgiana and Edward married in Manchester on 9 June 1860."* Corrected to **53.4794, -2.2453**, the centre of Manchester. The stop name changes from "London, the marriage to Georgiana MacDonald" to "**Manchester**, the marriage to Georgiana MacDonald", because a London title over a Manchester pin would contradict itself on the globe. **The church remains unknown [R excluded]**: no source reached names it, so the pin is deliberately the city and not Manchester Cathedral, which would be a guess. Section 10's "known unknowns" line is now half-resolved — the town is settled, the church is not.
+
+**[A Wikipedia, 'List of former English Heritage blue plaques'; OSM Nominatim] The Grange, North End, Fulham. Six stops, off by roughly 320 m.** All six Grange stops — the 1867 move, the first Pygmalion, The Golden Stairs, the hyphen and baronetcy, the unfinished Avalon, and the death — stood at **51.4908, -0.2069**, which is North End Road but at its southern end, by West Kensington station. The blue plaque record gives the house's address as **The Grange, 111 North End Road, Fulham, W14**, plaque erected 1928, removed 1958, *"the building was demolished, and the Lytton Estate being built on the site."* Nominatim puts **Lytton Estate, North End Road, W14 8TB** at 51.4934, -0.2089 and **Burne Jones House, North End Road, W14 8TB** — the block on the estate named for him — at 51.4936, -0.2083. Corrected to **51.4936, -0.2083**. The house itself is gone; this is a site-of pin, and the two independent modern names agreeing within 40 m is what makes it defensible.
+
+**[A OSM Nominatim; Wikipedia, 'King Edward's School, Birmingham'] King Edward's School, New Street. Three stops, off by roughly 150 m.** The Commercial side, the crossing into the Classical, and the young priest before the altar all stood at **52.4787, -1.8991**, at the Victoria Square end of New Street. Wikipedia confirms Charles Barry's school stood on New Street from 1835 and was demolished in February 1936; the King Edward's Foundation built **King Edward House, 135 New Street, B2 4QJ** on the site, which Nominatim geocodes to 52.4786, -1.8969. Corrected to **52.4786, -1.8969**. Another site-of pin: the Barry building no longer exists. Wikipedia's own geotag for the school, 52.4507, -1.9237, is the **modern Edgbaston campus** and would have been badly wrong for a schoolboy in the 1840s.
+
+**[A Wikipedia, 'Bennetts Hill'] The birth, 1833. Off by roughly 75 m.** The stop stood at **52.4802, -1.8993**, which is effectively St Philip's rather than the street. Bennetts Hill is geotagged **52.47998, -1.90036**. Corrected to **52.4800, -1.9004**. **The frame-maker's house number is still not established [R excluded]** — the pin is the street, as the stop's `date_confidence` already says.
+
+**[A Wikipedia, 'Birmingham School of Art'] The evening classes, 1848. Off by roughly 100 m.** The stop stood at **52.4816, -1.9019**. The school's geotag is **52.4812278, -1.9033250**, the Margaret Street building. Corrected to **52.4812, -1.9033**. **Flagged honestly: this is an anachronism the atlas is choosing knowingly.** The Margaret Street building was designed from 1882 and opened in **September 1885** — thirty-seven years after Burne-Jones's evening classes. Where the Government School of Design was housed in 1848 is not stated in any source reached this session. The pin is the institution's canonical address, not the room he sat in.
+
+**[A Wikipedia, 'Oxford Union'] The Arthurian murals, 1857. Off by roughly 160 m.** The stop stood at **51.7539, -1.2578**. The Union's geotag is **51.75306, -1.25972**, on St Michael's Street; the murals are in what is now the Old Library, the original debating hall. Corrected to **51.7531, -1.2597**.
+
+**[A English Heritage blue plaques; OSM Nominatim] 41 Kensington Square, 1866. Off by roughly 120 m.** The stop stood at **51.5003, -0.1917**, which is off the square to the west. English Heritage confirms the address and the tenancy — *"SIR EDWARD BURNE-JONES 1833-1898 Artist lived here 1865-1867"*, ceramic plaque erected 1998. Nominatim geocodes **41 Kensington Square, W8 5HP** to 51.50097, -0.19026, and separately carries an OSM node named "Edward Burne-Jones" at the plaque itself. Corrected to **51.5010, -0.1903**. Note in passing that English Heritage dates the residence from **1865**, a year before the file's 1866 stop; the stop is pinned on Margaret's birth, so no date change is warranted, but the family arrived earlier than the file implies.
+
+**[A OSM Nominatim] Prospect House, Rottingdean, 1880. Off by roughly 170 m.** The stop stood at **50.8065, -0.0570**, which the earlier verification pass had pulled west off the seafront but which landed on **St Margaret's Church**, not on the house — the stop was therefore duplicating the church pin used by two other stops. Nominatim gives **North End House, The Green, Rottingdean, BN2 7HA** as 50.80658, -0.05938. Corrected to **50.8066, -0.0594**, the west side of the green. Prospect House is the original half of what became North End House when Aubrey Cottage next door was added in 1889, so the modern name is the right handle for the same building.
+
+**[A Wikipedia, 'Georgiana Burne-Jones'; OSM Nominatim] The scarlet fever and the death of Christopher, 1864. Wrong pin, off by roughly 800 m, and the stop is renamed.** The stop stood at **51.5074, -0.1278**, the Charing Cross default, with its `date_confidence` admitting the family address was not in the pool. It is in fact recoverable: Georgiana *"moved on her marriage into rented rooms in Great Russell Street"*, and the move to 41 Kensington Square came only after this loss — so the 1864 illness happened in Bloomsbury. Corrected to **51.5179, -0.1272**, the middle of Great Russell Street, and the stop renamed "**Great Russell Street**, the scarlet fever and the death of Christopher". **No house number is attested [R excluded]**; the commonly repeated "62 Great Russell Street" could not be confirmed from any source reached, so the pin is the street. The same source also supplies the illness's actual sequence, which the campa gets slightly wrong: *"in the summer of 1864 little Phil caught scarlet fever, and Georgiana soon contracted the dread disease, which brought on the premature birth of her second child, Christopher, who was also infected and died soon after."* The campa is left unaltered, as instructed, but a later pass should note that Philip was the index case and that the birth was premature and caused by the illness.
+
+**[R this compiler] Venice, 1859. Gazetteer default replaced with the historic centre, moved roughly 2 km.** The stop stood at **45.4408, 12.3155**, a widely circulated gazetteer coordinate for "Venice" which actually lands near Piazzale Roma at the causeway end of the city — not the centre, and not anywhere the campa describes. Corrected to **45.4344, 12.3397**, St Mark's Basilica (Wikipedia geotag 45.43444, 12.33972), which is both the conventional centre of the historic city and the building the campa's mosaics and gold grounds belong to. **Tagged [R] and not [A]**: the sources give only the city name for the 1859 journey, so pinning the basilica is a reconstruction chosen to match the prose, not an attestation that he stood there on a named day.
+
+### 11.2 Checked and found already correct
+
+Verified against a landmark geotag or a geocoded street address and left untouched, with the residual offset in metres:
+
+- **St Margaret's Church, Rottingdean** (2 stops: the archangels, the ashes), 50.8068, -0.0575 — **exact match** to the Wikipedia geotag. **[A]**
+- **St Philip's Cathedral, Birmingham**, 52.4811, -1.8989 — **exact match** to 52.481111, -1.898889. **[A]**
+- **Red House, Bexleyheath**, 51.4556, 0.1303 — **exact match** to 51.45556, 0.13028. **[A]**
+- **Grosvenor Gallery** (3 stops), 51.5122, -0.1443 — ~50 m. The gallery stood at 135-137 New Bond Street; Nominatim puts that address (Renoir House, W1S 2TJ) at 51.51183, -0.14456. Wikipedia carries no geotag for the gallery, so this pin was previously unverifiable; it is now confirmed. **[A]**
+- **Victoria and Albert Museum / Green Dining Room**, 51.4966, -0.1722 — ~19 m. **[A]**
+- **Westminster Abbey**, 51.4993, -0.1273 — ~22 m. **[A]**
+- **Burlington House**, 51.5093, -0.1394 — ~46 m. **[A]**
+- **Birmingham Museum and Art Gallery** (Star of Bethlehem), 52.4800, -1.9036 — ~33 m. **[A]**
+- **Tate Gallery, Millbank**, 51.4913, -0.1274 — ~35 m from Tate Britain. Wikipedia returns no geotag for Tate Britain via the API; the check is against the building footprint. **[A]**
+- **Metropolitan Museum of Art**, 40.7794, -73.9632 — ~8 m. **[A]**
+- **Pall Mall East** (2 stops: The Merciful Knight, Phyllis and Demophoon), 51.5079, -0.1295 — ~48 m from 5 Pall Mall East, the Society of Painters in Water-Colours' gallery, geocoded to 51.50823, -0.12999. Within tolerance; not moved. **[A]**
+- **Upper Mall, Hammersmith** (Kelmscott Chaucer), 51.4903, -0.2345 — ~65 m from Kelmscott House at No. 26. The press was at No. 14, which lies east of No. 26, so the existing pin's eastward offset is in the correct direction. Left as the better of the two. **[A]**
+- **Florence**, 43.7696, 11.2558 — this is Piazza della Signoria, ~150 m from the Uffizi geotag (43.7683, 11.2553). A genuine historic-centre pin, not a gazetteer default. Left. **[A]**
+
+### 11.3 Flagged, deliberately not corrected
+
+Four pins are wrong or imprecise but are marked in their own `date_confidence` as **inherited byte-identical from `william_morris.journey.json`**. Changing them here alone would break that cross-file convention *and* falsify the stop's own note. They need a coordinated pass over both files, which is outside this task's scope. Recorded so the measurement is not repeated:
+
+- **Exeter College, Oxford** (5 stops), 51.7548, -1.2554 — ~120 m north of the college's geotag, 51.753871, -1.256046. The pin sits at the college's northern boundary rather than the Turl Street gate. Minor.
+- **Red Lion Square** (3 stops), 51.5183, -0.1178 — ~110 m south of the square's geotag, 51.51917, -0.11889, i.e. at its southern edge. The square is only about 100 m across, so this is arguably still on it. Minor.
+- **Merton Abbey Works**, 51.4158, -0.1772 — **~525 m** from Merton Abbey Mills, 51.4131, -0.1834. This is the largest inherited error and the one most worth fixing in a joint pass: the pin lands in residential South Wimbledon rather than on the Wandle site where the looms stood.
+- **"London, the cartoons for the leaded saints"**, 51.5225, -0.1235 — a Bloomsbury pin near Queen Square. The stop's own note already flags that the Morris file pairs this coordinate with the place string "Oxford / England (churches)". Left as flagged there.
+
+One further pin is imprecise but **already disclosed as an approximation** in its own note and left alone: **"London, the second Briar Rose exhibited alone"**, 51.5095, -0.1418, described as "an Old Bond Street approximation for the West End dealers' rooms". The second series was shown at Agnew's, 39b Old Bond Street; the pin is roughly 110 m off. Not corrected because the venue attribution itself is not attested in this file's sources.
+
+### 11.4 What could not be verified
+
+Honesty about the limits of this pass:
+
+- **The Manchester church**, 9 June 1860. Only the city is attested. Parish records were not reachable.
+- **The frame-maker's house on Bennetts Hill.** No number, in this pass or the original.
+- **The Birmingham School of Art's 1848 premises.** Not stated anywhere reached; the pin is knowingly the 1885 building.
+- **The house number in Great Russell Street.**
+- **The exact footprint of The Grange and of the Barry school.** Both demolished; both pins are site-of, resting on modern buildings that carry the old names.
+- **Italy beyond Florence and Venice.** Pisa and Siena appear in the campa text but have no stops of their own, so nothing was pinned for them; whether the four cities form a route is still unknown, as section 3 says.
+- **Every non-UK pin except the Met and Venice.** No stop exists for the Musée d'Orsay or for the 1998 tour's other legs, so nothing further was checkable.
