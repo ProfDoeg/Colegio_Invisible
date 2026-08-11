@@ -254,6 +254,7 @@ essays+Instagram corpus.
 | 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
 | 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
 | 0 | **Tommaso Campanella** | Dominican friar of La Città del Sole, the City of the Sun; 27 years imprisoned in Naples, astrologer to popes; author pick, not yet in the corpus |
+| 0 | **Engelbert Humperdinck** | German composer of the opera Hänsel und Gretel (1893); author pick, not yet in the corpus |
 
 ## The scope suggestions (2026-08-02)
 
