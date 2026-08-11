@@ -292,6 +292,9 @@ essays+Instagram corpus.
 | 3 | **Ekaterina Sinchinova** | Embroidery artist of the 'Domrémy' work referencing the Bourlemont fairy tree and Joan of Arc's childhood; named across multiple instagram posts, joins the corpus's embroidery-art thread and its Joan of Arc/Domrémy material |
 | 0 | **Lisoleth Charinga** (personal associate) | Artisan the author works with personally, one of his own associates - same category as ral_veroni, vicky_sigwald, pablo_sigwald, arthur_ben, yuki_seo, daniel_zachariah, otis_houston_jr, justin_fornal (see the PERSONAL ASSOCIATES WORKFLOW note, further down in this file, confirmed 2026-08-11). Run the standard first-pass research now from whatever public sources exist, even if thin; the author will then interview her directly and they'll write interview questions together afterward to fill what the first pass couldn't reach |
 
+| 0 | **Alberto Hugo Restrepo** | Colombian art dealer |
+| 0 | **Raul Veroni** | Founder of Urania publishing house in Buenos Aires, father of ral_veroni already queued; direct family interlock |
+
 ## The scope suggestions (2026-08-02)
 
 Proposed by El Gólem against the whole list and the scope of the book;
