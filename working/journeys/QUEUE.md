@@ -283,6 +283,8 @@ essays+Instagram corpus.
 | 0 | **Frida Kahlo** | Mexican surrealist/symbolist painter, wife of Diego Rivera just queued, body of work built from a lifetime of physical suffering after a near-fatal bus accident |
 | 0 | **Diego Rivera** | Mexican muralist, husband of Frida Kahlo just queued, leading figure of the Mexican Mural Renaissance alongside Orozco and Siqueiros |
 | 0 | **Tamara Bunke ("Tania la Guerrillera")** | East German-Argentine revolutionary and Cuban intelligence agent, embedded in Bolivia to prepare the ground for che_guevara's (already done) guerrilla campaign, killed in an ambush in 1967 shortly after Che himself; direct interlock |
+| 0 | **Micaela Bastidas** | Peruvian revolutionary, wife and co-commander of Túpac Amaru II (already queued), executed alongside him in 1781 after the failed rebellion; direct interlock |
+| 0 | **Manuela Sáenz** | Ecuadorian revolutionary, companion of Simón Bolívar (already done), the 'Libertadora del Libertador' who saved his life from an 1828 assassination attempt; direct interlock |
 
 ## The scope suggestions (2026-08-02)
 
