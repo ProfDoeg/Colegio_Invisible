@@ -276,6 +276,7 @@ essays+Instagram corpus.
 | 0 | **Luis Federico Leloir** | Argentine biochemist, Nobel laureate in Chemistry 1970, discovered sugar nucleotides; joins bernardo_houssay just queued as Argentina's second science Nobel |
 | 0 | **César Milstein** | Argentine immunologist, Nobel laureate in Physiology or Medicine 1984 for monoclonal antibodies; joins bernardo_houssay and luis_federico_leloir just queued as Argentina's third science Nobel |
 | 0 | **Antonio Mamerto Gil Núñez (Gauchito Gil)** | Argentine folk saint, an unofficially canonized gaucho executed unjustly, venerated with roadside shrines of red flags across Argentina; answers the corpus's own gaucho/mozos-perdidos thread (hernando_arias_de_saavedra already queued). AUTHOR'S INSTRUCTION: take the folk legend as the record for this entry rather than applying the usual [A]/[R] skeptical-source discipline — the myth IS the subject here, not a contested claim to weigh against documentary sources |
+| 0 | **Anita Garibaldi** | Brazilian-born (Ana Maria de Jesus Ribeiro da Silva) revolutionary, fought alongside husband Giuseppe Garibaldi (already queued) in the Guerra dos Farrapos in Rio Grande do Sul and later the Italian Risorgimento; direct interlock, same gaucho/Rio Grande do Sul geography as hernando_arias_de_saavedra and gauchito_gil just queued |
 
 ## The scope suggestions (2026-08-02)
 
