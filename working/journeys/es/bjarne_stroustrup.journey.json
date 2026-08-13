@@ -1,0 +1,582 @@
+{
+ "traveler": "Bjarne Stroustrup",
+ "title": "Simula en el núcleo: el danés de Murray Hill y el lenguaje llamado C++",
+ "years": "1950-",
+ "calendar": "gregorian",
+ "register": "mitología nacional: el canon es verdadero",
+ "segments": [
+  {
+   "name": "Aarhus, la infancia obrera",
+   "stops": [
+    {
+     "name": "Aarhus, nacimiento en la segunda ciudad",
+     "lat": 56.1572,
+     "lng": 10.2107,
+     "date": "1950-12-30",
+     "date_confidence": "attested",
+     "campa": "El treinta de diciembre de 1950 nace un hijo en Aarhus, la segunda ciudad de Dinamarca, en una familia obrera. Ninguna fuente nombra el hospital, la calle ni el barrio; el alfiler marca el centro histórico y no pretende nada más estrecho. Dinamarca no tiene ningún otro viajero en este atlas: no hay un solo danés en pie sobre el globo cuando este niño nace sobre él, y el vecino más próximo en la cola, Soren Kierkegaard, todavía no está investigado. El muchacho dejará el país a los veinticuatro años y pasará fuera el resto de su vida, honrado en casa el último de todos.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Aarhus city centre, 1950, birthplace with no narrower address on record"],
+     "sources": ["Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup' (year only)", "stroustrup.com/bio.html"]
+    },
+    {
+     "name": "Laessoeesgade Skole, la escuela pública",
+     "lat": 56.1461,
+     "lng": 10.1876,
+     "date": "1957-01-01",
+     "date_confidence": "inferred from birth year; no enrolment years published",
+     "campa": "Lo mandan a la Laessoeesgade Skole, una escuela primaria pública en las calles llanas de Frederiksbjerg, al sur del centro de Aarhus. Su propia biografía nombra esta escuela y el gymnasium que la sigue, y no da años para ninguna de las dos; el tramo que aquí se fija es aritmética sobre una fecha de nacimiento, no un registro. Crece en un país de cinco millones de habitantes, con una tradición universitaria fuerte en matemáticas y sin industria informática digna de ese nombre. Nada de esa escolarización resulta bastante notable para que alguien lo pusiera por escrito.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Laessoeesgades Skole, Langenaes, Aarhus 8000"],
+     "sources": ["stroustrup.com/bio.html", "OpenStreetMap / Nominatim (coordinate correction)"]
+    },
+    {
+     "name": "Marselisborg Gymnasium, los años preparatorios",
+     "lat": 56.1395,
+     "lng": 10.2012,
+     "date": "1966-01-01",
+     "date_confidence": "inferred; approximate span c. 1966-1969",
+     "campa": "Termina la secundaria en el Marselisborg Gymnasium, en Taarbaekvej, la vía preparatoria que lleva a los alumnos daneses hacia la universidad. De aquí al campus en el que entrará hay tres kilómetros hacia el norte, y las matemáticas son la asignatura que se lleva consigo. La propia coordenada de la Wikipedia inglesa para esta escuela apunta setenta y cinco kilómetros al norte de Aarhus, en plena Jutlandia abierta; el alfiler que se usa aquí es el de Nominatim, y la discrepancia queda anotada en vez de promediarse en silencio.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Marselisborg Gymnasium, Taarbaekvej, Frederiksbjerg, Aarhus 8000"],
+     "sources": ["stroustrup.com/bio.html", "OpenStreetMap / Nominatim (coordinate correction)"]
+    },
+    {
+     "name": "Universidad de Aarhus, Simula y el cand.scient.",
+     "lat": 56.1706,
+     "lng": 10.2011,
+     "date": "1969-01-01",
+     "date_confidence": "attested; span 1969-1975",
+     "campa": "Estudia matemáticas con orientación informática en la Universidad de Aarhus desde 1969 y obtiene el grado de cand.scient. en 1975, el año en que se casa con Marian Tinson. En algún punto de esos estudios encuentra Simula, el lenguaje noruego que da clases a los programas, y el encuentro le fija lo que querrá de todo lenguaje en adelante: una manera de organizar un programa que se corresponda con la manera en que una persona piensa el problema. El departamento que lo enseña se mudará más tarde a un parque de investigación al otro lado de la ciudad; el campus de estos años es el Parque Universitario.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Aarhus University main campus, the University Park, as it stood 1969-1975"],
+     "sources": ["Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup'", "Stroustrup, 'A History of C++: 1979-1991' (HOPL-II, 1993)"]
+    }
+   ]
+  },
+  {
+   "name": "Cambridge y la máquina repartida",
+   "stops": [
+    {
+     "name": "Laboratorio de Computación de Cambridge, empieza el doctorado",
+     "lat": 52.2036,
+     "lng": 0.1188,
+     "date": "1975-10-01",
+     "date_confidence": "year attested; month conventional",
+     "campa": "Va a Inglaterra a doctorarse en el Laboratorio de Computación de Cambridge, entonces en el New Museums Site, en mitad de la ciudad, bajo la dirección de David Wheeler, uno de los hombres que programaron el EDSAC. El problema es cómo repartir un sistema informático por una red de máquinas; el instrumento es el computador de capacidades CAP. Escribe su simulador en Simula, lo encuentra demasiado lento para terminar el trabajo, lo reescribe en BCPL y encuentra ese lenguaje rápido y pelado. Las dos mitades de C++ están ya en sus manos, y ninguna de las dos le resulta cómoda.",
+     "quote": "Había encontrado que el sistema de tipos de Pascal era peor que inútil: una camisa de fuerza que causaba más problemas de los que resolvía, al obligarme a torcer mis diseños para acomodarlos a un artefacto orientado a la implementación",
+     "quote_source": "Stroustrup, 'A History of C++: 1979-1991', HOPL-II, p. 2, sec. 2.1 'Prehistory'",
+     "suggested_refs": ["The Cambridge CAP capability computer, subject of the doctoral simulator", "The New Museums Site, home of the Computing Laboratory until August 2001"],
+     "sources": ["Stroustrup, 'A History of C++: 1979-1991' (HOPL-II)", "stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'"]
+    },
+    {
+     "name": "Churchill College, la plaza de estudiante",
+     "lat": 52.213,
+     "lng": 0.101,
+     "date": "1975-10-01",
+     "date_confidence": "membership attested; term date conventional",
+     "campa": "Es miembro del Churchill College, el más joven de los colleges de Cambridge, fundado para la ciencia y la ingeniería. Cuarenta y dos años después ese mismo college lo hará Honorary Fellow, y cinco años antes de eso Overseas Fellow; la plaza de estudiante es el primer plazo de una relación que sobrevive a todos los empleos que tendrá. Dos lentes de esta investigación situaron el college a seiscientos metros de distancia entre sí, una de ellas en campo abierto más allá de los edificios. El alfiler queda en Storey's Way, y la coordenada perdedora se nombra en vez de repartirse con la ganadora.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Churchill College, Storey's Way, Cambridge"],
+     "sources": ["Wikipedia, 'Churchill College, Cambridge' (notable alumni; coordinate)", "stroustrup.com/bio.html"]
+    },
+    {
+     "name": "Cambridge, el doctorado conferido",
+     "lat": 52.2043,
+     "lng": 0.1149,
+     "date": "1979-01-01",
+     "date_confidence": "year attested; day and month unknown, defaulted",
+     "campa": "Cambridge confiere el doctorado en 1979 por una tesis titulada Communication and control in distributed computer systems. El recinto que lo otorga es el que este atlas guarda ya para Alan Turing, estudiante de grado en King's y fellow del mismo college, que escribió aquí On Computable Numbers cuarenta y tres años antes y nunca conoció al danés que se gradúa en su universidad. El atlas registra la descendencia como institución compartida y no como encuentro. Stroustrup se marcha a Nueva Jersey ese mismo año.",
+     "quote": "Cualquier problema de la informática puede resolverse con otra capa de indirección, salvo, por supuesto, el problema de demasiadas indirecciones",
+     "quote_source": "Atribuida por Stroustrup en stroustrup.com/quotes.html a su director de tesis David J. Wheeler; Stroustrup pide que no se le acredite como autor",
+     "suggested_refs": ["The dissertation 'Communication and control in distributed computer systems', Cambridge, 1979"],
+     "sources": ["Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup'", "alan_turing.journey.json (canonical Cambridge precinct pin 52.2043, 0.1149)"]
+    }
+   ]
+  },
+  {
+   "name": "Murray Hill, C con Clases",
+   "stops": [
+    {
+     "name": "Murray Hill, llegada a los Bell Laboratories",
+     "lat": 40.6852,
+     "lng": -74.396,
+     "date": "1979-04-01",
+     "date_confidence": "month and year attested",
+     "campa": "En abril de 1979 entra en el Computing Science Research Center de los Bell Telephone Laboratories, en Murray Hill, Nueva Jersey, para averiguar cómo repartir el núcleo de Unix por una red de máquinas. El edificio es ya propiedad de este atlas. Claude Shannon trabaja aquí desde 1948, se casa con Betty Shannon en 1949 y construye con ella el ratón Teseo que resuelve laberintos; Bob Kahn figura en la plantilla técnica hacia 1960. Diez años antes de que llegue el danés, en el mismo laboratorio, Ken Thompson y Dennis Ritchie empiezan Unix, y Ritchie escribe C.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The Computing Science Research Center, Bell Labs, Murray Hill"],
+     "sources": ["Stroustrup, 'A History of C++: 1979-1991', sec. 2.2", "claude_shannon.journey.json (canonical Murray Hill pin)", "bob_kahn.journey.json", "linus_torvalds.journey.json (Unix begun at Murray Hill, 1969)"]
+    },
+    {
+     "name": "Murray Hill, el preprocesador Cpre",
+     "lat": 40.6852,
+     "lng": -74.396,
+     "date": "1979-10-01",
+     "date_confidence": "month and year attested",
+     "campa": "Para octubre de 1979 tiene un preprocesador llamado Cpre que añade las clases de Simula al C de Ritchie, y para marzo de 1980 corre en producción sobre dieciséis sistemas con el nombre de C con Clases. Conserva intacta la maquinaria de bajo nivel de C, incluidas las piezas que permiten a un programador destruir su propio programa, porque no cree que a un diseñador de lenguajes le competa prohibir un modo de trabajar que él mismo no ha imaginado. La decisión se discutirá durante cuarenta años, y él no la revocará.",
+     "quote": "Sentía entonces con fuerza, como lo sigo sintiendo, que no hay una única manera correcta de escribir cada programa y que un diseñador de lenguajes no tiene por qué obligar a los programadores a usar un estilo determinado",
+     "quote_source": "Stroustrup, 'A History of C++: 1979-1991', HOPL-II, p. 5, sec. 2.2 'The Birth of C with Classes'",
+     "suggested_refs": ["Cpre, the C with Classes preprocessor, October 1979"],
+     "sources": ["Stroustrup, 'A History of C++: 1979-1991', sec. 2.2"]
+    },
+    {
+     "name": "Murray Hill, la primera constancia escrita",
+     "lat": 40.6852,
+     "lng": -74.396,
+     "date": "1980-04-01",
+     "date_confidence": "month and year attested",
+     "campa": "Un informe técnico interno de los Bell Labs describe C con Clases en abril de 1980, la primera constancia escrita de la cosa. El lenguaje es un preprocesador con usuarios, que se extiende dentro de AT&T como se extienden las herramientas en un laboratorio de investigación: un colega del pasillo que pide una copia. Nada en él es un producto; nadie lo ha autorizado; no hay partida presupuestaria para un lenguaje. Trabaja en él porque el problema del núcleo repartido pedía una herramienta que no existía, y porque dieciséis sistemas dependen ya de la herramienta.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The 1980 Bell Labs technical report on C with Classes"],
+     "sources": ["Stroustrup, 'A History of C++: 1979-1991', sec. 2.3"]
+    },
+    {
+     "name": "Murray Hill, las clases como tipo de dato abstracto",
+     "lat": 40.6852,
+     "lng": -74.396,
+     "date": "1982-04-01",
+     "date_confidence": "month and year attested",
+     "campa": "En abril de 1982 publica Classes: An Abstract Data Type Facility for the C Language en SIGPLAN Notices, y lo sigue con un informe técnico más largo de los Bell Labs, Adding Classes to the C Language: An Exercise in Language Evolution, impreso después en Software: Practice and Experience. Los dos artículos se confunden de manera rutinaria uno con otro, y esta investigación los confundió una vez antes de volver a leer la fuente. El lenguaje que ambos describen se sigue llamando C con Clases. El otro nombre todavía no existe.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["'Classes: An Abstract Data Type Facility for the C Language', SIGPLAN Notices, April 1982"],
+     "sources": ["Stroustrup, 'A History of C++: 1979-1991', sec. 2.3"]
+    },
+    {
+     "name": "Murray Hill, el lenguaje se llama C++",
+     "lat": 40.6852,
+     "lng": -74.396,
+     "date": "1983-12-01",
+     "date_confidence": "month and year attested",
+     "campa": "Una primera versión interna del lenguaje está en uso dentro de AT&T en agosto de 1983. En diciembre un colega, Rick Mascitti, propone un nombre, y C con Clases pasa a ser C++: el operador de incremento del lenguaje que extiende, aplicado al lenguaje mismo, un chiste que es también una tesis sobre la descendencia. El nombre dice que la cosa es C después de un paso más, no un sustituto de C, y su autor pasará décadas insistiendo en esa lectura contra todo el que quiera mantener separados los dos lenguajes.",
+     "quote": "El nombre C++ fue sugerido por Rick Mascitti. Se usó por primera vez en diciembre de 1983.",
+     "quote_source": "stroustrup.com/bs_faq.html",
+     "suggested_refs": ["The naming of C++, December 1983, credited to Rick Mascitti"],
+     "sources": ["stroustrup.com/bs_faq.html"]
+    }
+   ]
+  },
+  {
+   "name": "El lenguaje sale al mundo",
+   "stops": [
+    {
+     "name": "Murray Hill, la primera entrega comercial",
+     "lat": 40.6852,
+     "lng": -74.396,
+     "date": "1985-10-01",
+     "date_confidence": "month and year attested",
+     "campa": "En octubre de 1985 se publica la primera implementación comercial de C++, y a su lado aparece la primera edición de The C++ Programming Language. El libro es el lenguaje: no hay norma, ni comité, ni segunda implementación, y lo que dice el libro es lo que la cosa hace. Sus editores objetan que la frase de apertura no resulta bastante seria, ambiciosa ni técnica. Por serio él entiende la gente que escribe código del que otros dependen, que es justamente el público que el lenguaje termina consiguiendo.",
+     "quote": "C++ es un lenguaje de programación de propósito general diseñado para que programar resulte más grato al programador serio",
+     "quote_source": "The C++ Programming Language, 1st edition (1985), opening statement; confirmed on stroustrup.com/quotes.html",
+     "suggested_refs": ["The C++ Programming Language, first edition, 1985"],
+     "sources": ["stroustrup.com/bs_faq.html", "Stroustrup, 'A History of C++: 1979-1991', secs. 1 and 3", "stroustrup.com/quotes.html"]
+    },
+    {
+     "name": "Murray Hill, la versión 2.0 y la herencia múltiple",
+     "lat": 40.6852,
+     "lng": -74.396,
+     "date": "1989-06-01",
+     "date_confidence": "month and year attested",
+     "campa": "La versión 2.0 sale en junio de 1989 con herencia múltiple y una larga lista de reparaciones, cuatro años después de la primera entrega comercial y tras un periodo de diseño que las historias suelen confundir con la fecha de salida. El uso comercial va ya por delante de su autor. El lenguaje ha conservado todos los filos que tenía C y ha añadido varios propios; el chiste que hace sobre eso hacia 1986 viaja más lejos que cualquiera de sus artículos técnicos, y se sigue repitiendo, casi siempre mal citado, cuatro décadas después.",
+     "quote": "C te facilita dispararte en un pie; C++ lo pone más difícil, pero cuando lo consigues te vuela la pierna entera",
+     "quote_source": "stroustrup.com/quotes.html, where Stroustrup confirms he said something like it 'in 1986 or so'",
+     "suggested_refs": ["C++ Release 2.0, June 1989, introducing multiple inheritance"],
+     "sources": ["Stroustrup, 'A History of C++: 1979-1991', sec. 4 and sec. 4.2", "stroustrup.com/quotes.html"]
+    },
+    {
+     "name": "Washington, se constituye el comité ANSI",
+     "lat": 38.9,
+     "lng": -77.04,
+     "date": "1989-12-01",
+     "date_confidence": "month and year attested",
+     "campa": "La reunión constitutiva del comité ANSI de C++, el X3J16, se celebra en Washington en diciembre de 1989, y Stroustrup es miembro fundador. El lenguaje deja de ser suyo para cambiarlo a solas. Dos años más tarde el esfuerzo se convierte en un proyecto conjunto de ISO, y el comité inicia el circuito de reuniones trimestrales que le consumirá una década de calendario. El autor de un lenguaje se vuelve un voto en la sala que lo posee, que es el resultado que pidió y del que se quejará.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The X3J16 organizational meeting, Washington, D.C., December 1989"],
+     "sources": ["Stroustrup, 'A History of C++: 1979-1991', sec. 6.5", "Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup'"]
+    },
+    {
+     "name": "Murray Hill, la segunda edición",
+     "lat": 40.6852,
+     "lng": -74.396,
+     "date": "1991-01-01",
+     "date_confidence": "year attested; month unknown, defaulted",
+     "campa": "La segunda edición de The C++ Programming Language aparece en 1991, el año en que llegan las plantillas con la versión 3.0. El libro tiene que describir ahora un lenguaje normalizado por un comité en vez de definido por el libro, y toda edición a partir de aquí es acta de un consenso y no un decreto. C++ está ya en bastantes manos como para ser detestado en serio, y su autor trata el rencor como una medición y no como una herida. La frase que ofrece al respecto es una que se niega a reclamar como propia.",
+     "quote": "Solo hay dos clases de lenguajes: aquellos de los que la gente se queja y aquellos que nadie usa",
+     "quote_source": "stroustrup.com/quotes.html, dated by Stroustrup to the 1980s; he doubts the sentiment is original to him",
+     "suggested_refs": ["The C++ Programming Language, second edition, 1991"],
+     "sources": ["Encyclopaedia Britannica, 'Bjarne Stroustrup'", "Stroustrup, 'A History of C++: 1979-1991'", "stroustrup.com/quotes.html"]
+    },
+    {
+     "name": "Cambridge, Massachusetts, se escribe la historia",
+     "lat": 42.3736,
+     "lng": -71.1097,
+     "date": "1993-04-01",
+     "date_confidence": "month and year attested",
+     "campa": "En la segunda conferencia sobre Historia de los Lenguajes de Programación, en Cambridge, Massachusetts, presenta A History of C++: 1979-1991, el artículo que se convierte en el relato de origen del lenguaje y en la fuente sobre la que descansa la mayor parte de este archivo. El nombre de la ciudad es el del otro Cambridge. Este atlas pone en el mismo alfiler la cátedra de Bob Kahn en el MIT en 1964, once años antes del doctorado del danés en el Cambridge inglés, y las dos deben mantenerse distintas sobre el globo. Tiene cuarenta y dos años y el lenguaje tiene diez.",
+     "quote": "C++ se diseñó para dar las facilidades de organización de programas de Simula junto con la eficiencia y la flexibilidad de C para la programación de sistemas. Se propuso entregar eso a proyectos reales en el plazo de medio año desde la idea. Lo consiguió.",
+     "quote_source": "Stroustrup, 'A History of C++: 1979-1991', HOPL-II, p. 1, Introduction",
+     "suggested_refs": ["The HOPL-II proceedings, ACM SIGPLAN, 1993"],
+     "sources": ["Stroustrup, 'A History of C++: 1979-1991' (HOPL-II proceedings)", "bob_kahn.journey.json (canonical Cambridge, Massachusetts pin)"]
+    }
+   ]
+  },
+  {
+   "name": "Distinciones y la escisión",
+   "stops": [
+    {
+     "name": "Murray Hill, el Premio Hopper",
+     "lat": 40.6852,
+     "lng": -74.396,
+     "date": "1993-01-01",
+     "date_confidence": "year attested; ceremony date and city not established",
+     "campa": "La ACM le da el Premio Grace Murray Hopper en 1993, por el trabajo destacado de un profesional de la informática menor de treinta y cinco años, y los Bell Labs lo hacen Fellow ese mismo año. Fortune ya lo había nombrado en 1990 uno de los doce jóvenes científicos principales de Estados Unidos. Las ciudades de las ceremonias no constan en nada alcanzable desde aquí; su base de trabajo es Murray Hill, y el alfiler dice solo eso. La distinción de la ACM que su propia biografía archiva bajo este año pertenece, según el registro de la sociedad, al siguiente.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The ACM Grace Murray Hopper Award, 1993"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup'"]
+    },
+    {
+     "name": "Murray Hill, The Design and Evolution of C++",
+     "lat": 40.6852,
+     "lng": -74.396,
+     "date": "1994-01-01",
+     "date_confidence": "year attested; month unknown, defaulted",
+     "campa": "The Design and Evolution of C++ se publica en 1994: no un manual, sino la cuenta de por qué cada decisión salió como salió, escrita mientras la gente que tomó esas decisiones sigue viva para contradecirla. La ACM lo elige Fellow ese mismo año, aunque su propia página agrupe ese honor con el anterior y este archivo siga el registro de la sociedad. Es ya el historiador de su propio lenguaje además de su autor, y los dos oficios no siempre conviven con holgura.",
+     "quote": "Dentro de C++ hay un lenguaje mucho más pequeño y más limpio pugnando por salir",
+     "quote_source": "The Design and Evolution of C++, p. 207, section 'Beyond Files and Syntax'; confirmed on stroustrup.com/quotes.html",
+     "suggested_refs": ["The Design and Evolution of C++, 1994"],
+     "sources": ["Wikipedia, 'Bjarne Stroustrup'", "Wikipedia, 'List of fellows of the Association for Computing Machinery'", "stroustrup.com/quotes.html"]
+    },
+    {
+     "name": "Santa Cruz, una reunión de normalización",
+     "lat": 36.9741,
+     "lng": -122.0308,
+     "date": "1996-03-01",
+     "date_confidence": "month and year attested",
+     "campa": "Una reunión del comité en Santa Cruz en marzo de 1996 sobrevive en fotografías, una parada entre los encuentros trimestrales que lo llevan de un extremo a otro del país y al extranjero durante toda la década. El trabajo de normalización es la mitad invisible de la vida: aeropuertos, salas de hotel, votaciones sobre el significado de una palabra reservada, y ningún objeto al final salvo un documento. El lenguaje se está haciendo duradero justamente por el proceso que impide a su autor diseñar en él nada nuevo.",
+     "quote": "Siempre deseé que mi ordenador fuera tan fácil de usar como mi teléfono; mi deseo se ha cumplido, porque ya no consigo averiguar cómo se usa mi teléfono",
+     "quote_source": "stroustrup.com/quotes.html, dated by Stroustrup to around 1990, after a frustrating attempt to use a feature-rich telephone",
+     "suggested_refs": ["Photographs of the March 1996 ISO/ANSI C++ committee meeting at Santa Cruz"],
+     "sources": ["Wikipedia, biographical summary of C++ standards committee activity", "stroustrup.com/quotes.html"]
+    },
+    {
+     "name": "Florham Park, la mitad que AT&T conservó",
+     "lat": 40.7887,
+     "lng": -74.3893,
+     "date": "1996-01-01",
+     "date_confidence": "split year attested; work site inferred, department start year not published",
+     "campa": "AT&T se escinde en 1996 y los Bell Labs, con la sede de Murray Hill, van a parar a Lucent; Stroustrup se queda con la mitad que AT&T conserva, AT&T Labs Research, y ese mismo año lo nombran AT&T Fellow. Dirige su departamento de Investigación en Programación a Gran Escala desde la creación del departamento, y ninguna fuente alcanzable da el año de esa creación. Tampoco se dice dónde se sentó físicamente después; las sedes de investigación de AT&T eran Florham Park, Bedminster y Middletown, y este alfiler es una inferencia, la más débil del archivo. La tercera edición del libro llega en 1997.",
+     "quote": "Una organización que trata a sus programadores como imbéciles no tardará en tener programadores dispuestos y capaces de comportarse solo como imbéciles",
+     "quote_source": "The C++ Programming Language, 3rd edition (TC++PL3); confirmed on stroustrup.com/quotes.html, which attributes it to the third edition only",
+     "suggested_refs": ["AT&T Labs Research, Florham Park, New Jersey", "The C++ Programming Language, third edition, 1997"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bell Labs'", "Wikipedia, 'AT&T Labs'", "stroustrup.com/quotes.html"]
+    }
+   ]
+  },
+  {
+   "name": "Texas",
+   "stops": [
+    {
+     "name": "College Station, la cátedra",
+     "lat": 30.6188,
+     "lng": -96.3365,
+     "date": "2002-01-01",
+     "date_confidence": "year attested; month unknown, defaulted",
+     "campa": "Deja la dirección del departamento de investigación en 2002 y cambia Nueva Jersey por Texas, con la cátedra del College of Engineering en Ciencias de la Computación de la Universidad Texas A&M. Se cierran veintitrés años en un solo laboratorio. Tiene cincuenta y un años, el lenguaje tiene diecinueve y está normalizado, y él se va a un sitio donde enseñará la cosa misma a estudiantes de grado en vez de defenderla en comité. De esa enseñanza saldrá un libro de texto y, con el tiempo, una segunda carrera delante de los alumnos.",
+     "quote": "Mi objetivo era que C++ llegara a ser el segundo mejor lenguaje para muchas cosas",
+     "quote_source": "stroustrup.com/quotes.html; Stroustrup notes it shocked people who expected him to claim C++ was best at everything",
+     "suggested_refs": ["Texas A&M University, Department of Computer Science and Engineering, College Station"],
+     "sources": ["Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup'", "stroustrup.com/bio.html"]
+    },
+    {
+     "name": "Xi'an, la cátedra honoraria",
+     "lat": 34.2556,
+     "lng": 108.9855,
+     "date": "2002-01-01",
+     "date_confidence": "span 2002-2006 attested; travel to Xi'an not established",
+     "campa": "De 2002 a 2006 ocupa una cátedra honoraria en la Universidad Jiao Tong de Xi'an, una de las universidades de ingeniería chinas donde C++ es lengua de instrucción. Su propia biografía enumera el nombramiento y sus años y no dice nada sobre si fue. Si este alfiler marca un viaje o un certificado no está establecido, y el atlas imprime la incertidumbre en vez de inventarse una visita. La coordenada marca el campus de Xingqing. Los cuatro años corren en paralelo con los cuatro primeros de la cátedra de Texas, y a uno y otro lado del nombramiento no consta nada más allá del título mismo.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Xi'an Jiao Tong University, Xingqing campus"],
+     "sources": ["stroustrup.com/bio.html"]
+    },
+    {
+     "name": "Washington, la Academia Nacional de Ingeniería",
+     "lat": 38.8927,
+     "lng": -77.0454,
+     "date": "2004-01-01",
+     "date_confidence": "year attested; month unknown, defaulted",
+     "campa": "La Academia Nacional de Ingeniería de Estados Unidos lo elige miembro en 2004, y la IEEE Computer Society le da su Computer Entrepreneur Award el mismo año. Es un ciudadano danés que lleva veinticinco años dentro de la investigación industrial estadounidense y lo admite el cuerpo que habla por la ingeniería estadounidense. La academia volverá a él catorce años más tarde con el Premio Draper, en esta misma dirección. Es la ciudad donde el comité ANSI celebró su reunión constitutiva en diciembre de 1989, quince años antes de esta elección, en una dirección que nadie anotó.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The National Academy of Engineering, 2101 Constitution Avenue, Washington, D.C."],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup'"]
+    },
+    {
+     "name": "College Station, el Premio Procter y una distinción en disputa",
+     "lat": 30.6188,
+     "lng": -96.3365,
+     "date": "2005-01-01",
+     "date_confidence": "year attested; ceremony city not established",
+     "campa": "Sigma Xi le concede el Premio William Procter al Logro Científico en 2005, y el IEEE lo hace Fellow ese mismo año. La afirmación que circuló con el Procter, que era el primer informático en recibirlo, es falsa: Herbert Simon se llevó el mismo premio en 1980. La condición de Fellow está peor enredada, fechada en 1994 por una obra de referencia y en 2005 por otra; su propia biografía dice 2005 sin rodeos, y este archivo toma esa fecha y deja la contradicción a la vista en el registro en vez de esconderla.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The William Procter Prize for Scientific Achievement, Sigma Xi, 2005"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup'", "Wikipedia, 'William Procter Prize for Scientific Achievement'"]
+    },
+    {
+     "name": "College Station, Programming: Principles and Practice",
+     "lat": 30.6188,
+     "lng": -96.3365,
+     "date": "2008-01-01",
+     "date_confidence": "year attested; month unknown, defaulted",
+     "campa": "Programming: Principles and Practice Using C++ se publica en 2008, escrito a partir del curso de introducción que imparte en Texas A&M, y Dr. Dobb's le da su premio a la Excelencia en Programación ese mismo año. El libro apunta a gente que no ha programado nunca nada, que no es el público del libro de 1985 ni el que él nombró en su primera frase. Llega a una tercera edición en 2024, dieciséis años y dos normas después, y a una decena larga de traducciones. Enseñar a principiantes es lo único que los años de Bell Labs no le pidieron nunca.",
+     "quote": "El diseño y la programación son actividades humanas; olvídalo y todo estará perdido",
+     "quote_source": "The C++ Programming Language, 3rd edition (TC++PL3); confirmed on stroustrup.com/quotes.html",
+     "suggested_refs": ["Programming: Principles and Practice Using C++, first edition, 2008"],
+     "sources": ["Encyclopaedia Britannica, 'Bjarne Stroustrup'", "stroustrup.com/bio.html", "stroustrup.com/quotes.html"]
+    }
+   ]
+  },
+  {
+   "name": "Los regresos",
+   "stops": [
+    {
+     "name": "Aarhus, profesor honorario cuarenta años después",
+     "lat": 56.1706,
+     "lng": 10.2011,
+     "date": "2010-01-01",
+     "date_confidence": "year attested; month unknown, defaulted",
+     "campa": "La Universidad de Aarhus lo nombra Profesor Honorario de Lenguajes de Programación Orientados a Objetos en 2010 y le entrega el Rigmor og Carl Holst-Knudsens Videnskabspris, su premio científico más antiguo. Tiene sesenta años. Cuarenta y un años después de sentarse por primera vez en esta universidad y encontrarse con Simula, el lugar le devuelve un título en la materia que aquel encuentro produjo. No es un doctorado honoris causa, aunque con frecuencia se le enumere como tal; la distinción importa al registro, y el registro la conserva.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The Rigmor og Carl Holst-Knudsens Videnskabspris, Aarhus University"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'"]
+    },
+    {
+     "name": "College Station, Distinguished Professor",
+     "lat": 30.6188,
+     "lng": -96.3365,
+     "date": "2010-01-01",
+     "date_confidence": "attested; the perpetual title follows in 2011",
+     "campa": "Texas A&M lo asciende a Distinguished Professor en 2010, el rango académico más alto de la universidad, y le confiere en 2011 el título honorífico de University Distinguished Professor, otorgado a perpetuidad. Los dos se funden rutinariamente en un solo año, y dos lentes de esta investigación los fundieron de maneras distintas antes de que su propia biografía volviera a separarlos. Conserva el segundo título después de dejar de enseñar aquí, que es lo que la perpetuidad significa dentro de una universidad.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Texas A&M University Distinguished Professor, title conferred 2011"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup'"]
+    },
+    {
+     "name": "Princeton, el sabático de otoño",
+     "lat": 40.3437,
+     "lng": -74.6551,
+     "date": "2011-09-01",
+     "date_confidence": "season attested; month conventional",
+     "campa": "Pasa el otoño de 2011 de año sabático en el Departamento de Informática de la Universidad de Princeton, todavía en la plantilla de Texas A&M, a sesenta y cinco kilómetros del laboratorio de Nueva Jersey donde se hizo el lenguaje. La licencia es tiempo de trabajo y no un puesto, y nada de lo publicado desde ella lleva esta dirección. Princeton es el campus que este atlas guarda ya para John von Neumann y la arquitectura de programa almacenado que allí expuso, el diseño de máquina al que C++ compila; el parentesco es descendencia por el lado del material, no un encuentro entre hombres. Tres años después volverá al Noreste para quedarse, aunque no a Nueva Jersey.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Princeton University Computer Science Department, autumn 2011"],
+     "sources": ["stroustrup.com/bio.html"]
+    },
+    {
+     "name": "Cambridge, el laboratorio se ha mudado",
+     "lat": 52.211,
+     "lng": 0.092,
+     "date": "2012-01-01",
+     "date_confidence": "spring 2012 attested; month conventional",
+     "campa": "La primavera de 2012 lo devuelve al Laboratorio de Computación de Cambridge como Overseas Fellow del Churchill College, treinta y tres años después del doctorado. El laboratorio no está donde lo dejó: se mudó en agosto de 2001 al William Gates Building, en el oeste de Cambridge, de modo que el hombre vuelve a la misma institución en otra dirección, y sus dos alfileres de Cambridge quedan a dos kilómetros uno de otro por esa razón. El college que lo tomó de estudiante lo toma ahora de fellow, y hará honoraria esa condición dentro de cinco años.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The William Gates Building, West Cambridge, home of the Computer Laboratory since 2001"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'William Gates Building, Cambridge'"]
+    },
+    {
+     "name": "San Petersburgo, un doctorado del que se informa",
+     "lat": 59.9578,
+     "lng": 30.3081,
+     "date": "2013-01-01",
+     "date_confidence": "reported by one secondary summary; not corroborated on his own biography page",
+     "campa": "Se informa de que la Universidad ITMO de San Petersburgo le confirió un doctorado honoris causa en 2013. La noticia no aparece en su propia página biográfica, que enumera sus otros doctorados honorarios por nombre y año, y en esta investigación no se alcanzó ningún anuncio primario. Descansa sobre un único resumen secundario y se traslada aquí como no confirmada, en vez de descartarla o darla por buena. El alfiler marca la universidad, no una ceremonia verificada. Rusia enseña C++ con tanta intensidad como España y China, y un honor ruso no sorprendería, que es exactamente la razón por la que no es prueba.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["ITMO University, St Petersburg, honorary doctorate reportedly conferred 2013"],
+     "sources": ["stroustrup.com/bio.html (does not list it)", "secondary biographical summary, uncorroborated"]
+    },
+    {
+     "name": "College Station, la cuarta edición",
+     "lat": 30.6188,
+     "lng": -96.3365,
+     "date": "2013-05-01",
+     "date_confidence": "month and year attested",
+     "campa": "La cuarta edición de The C++ Programming Language aparece en mayo de 2013 y cubre C++11, la primera norma en trece años y bastante grande como para que su autor llame al resultado un lenguaje nuevo. El libro ha pasado de ser un volumen delgado de 1985 que definía una herramienta privada a una exposición de mil páginas sobre algo que ninguna persona controla sola. Tiene sesenta y dos años y sigue escribiendo el manual, edición por edición, según el comité le va entregando cada norma nueva para que la describa. Dieciséis años separan esta edición de la tercera, el silencio más largo de la serie, y es el silencio del comité y no el suyo.",
+     "quote": "No puede haber un lenguaje que sea el mejor para todo y para todos",
+     "quote_source": "stroustrup.com/quotes.html",
+     "suggested_refs": ["The C++ Programming Language, fourth edition, May 2013"],
+     "sources": ["stroustrup.com/bs_faq.html", "Encyclopaedia Britannica, 'Bjarne Stroustrup'", "stroustrup.com/quotes.html"]
+    }
+   ]
+  },
+  {
+   "name": "Nueva York",
+   "stops": [
+    {
+     "name": "Midtown Manhattan, el banco",
+     "lat": 40.7589,
+     "lng": -73.9851,
+     "date": "2014-01-01",
+     "date_confidence": "month and year attested; day unknown, defaulted",
+     "campa": "En enero de 2014 deja la universidad por Manhattan, entra en la división tecnológica de Morgan Stanley como Managing Director y se instala en Nueva York, donde vive su familia; explica el traslado en parte por querer estar en lo que él llama el Noreste. A sesenta y tres años de Aarhus, vuelve a la industria, escribiendo código para una institución cuyos sistemas fallan caro. Guido van Rossum recorrió el mismo arco de Europa a América quince años después que él, y los lenguajes de los dos hombres se reparten buena parte del mundo.",
+     "quote": "Guido van Rossum quería un lenguaje que pudiera usar todo el mundo y yo quería un lenguaje que fuera bueno para los ingenieros. No quiero que todo el mundo programe los frenos de mi coche",
+     "quote_source": "stroustrup.com/quotes.html; Stroustrup adds: 'and IMO, we both succeeded'",
+     "suggested_refs": ["Morgan Stanley technology division, New York City"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'", "stroustrup.com/bs_faq.html", "guido_van_rossum.journey.json"]
+    },
+    {
+     "name": "Morningside Heights, la cátedra visitante",
+     "lat": 40.808,
+     "lng": -73.9626,
+     "date": "2014-01-01",
+     "date_confidence": "month and year attested",
+     "campa": "Junto al banco toma una cátedra visitante en la Universidad de Columbia, en Morningside Heights, a una hora de metro del parqué, y sostiene los dos puestos a la vez durante ocho años. Industria y universidad al mismo tiempo es el arreglo que tuvo en los Bell Labs al principio, restaurado al final, aunque la mitad universitaria sea ahora un título y no un laboratorio. La cátedra visitante se convertirá en plena en julio de 2022, cuando el banco haya terminado con él y él con el banco. Cinco kilómetros y una línea de metro separan la cátedra del escritorio donde de verdad trabaja.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Columbia University Department of Computer Science, Morningside Heights"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'"]
+    },
+    {
+     "name": "Mountain View, el museo lo acoge",
+     "lat": 37.4143,
+     "lng": -122.0775,
+     "date": "2015-01-01",
+     "date_confidence": "year attested; month unknown, defaulted",
+     "campa": "El Computer History Museum de Mountain View lo nombra Fellow en 2015, por inventar C++, y el Premio Dahl-Nygaard Senior llega el mismo año, con el nombre de los dos noruegos que construyeron Simula. El premio cierra un circuito: el lenguaje que encontró de estudiante en Aarhus, llevado al C de Ritchie en Murray Hill, le vuelve honrado bajo los nombres de los hombres que hicieron el original. Ole-Johan Dahl y Kristen Nygaard han muerto ya para entonces, y ninguno aparece nunca en este atlas a su lado. El museo guarda máquinas; lo que aquí inscribe es un juego de reglas para escribir sobre ellas.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Computer History Museum Fellow Awards, 2015 class"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup'"]
+    },
+    {
+     "name": "Savoy Place, la Medalla Faraday",
+     "lat": 51.509,
+     "lng": -0.1226,
+     "date": "2017-01-01",
+     "date_confidence": "year attested; ceremony date unknown, defaulted",
+     "campa": "La Institution of Engineering and Technology le concede la Medalla Faraday en Savoy Place, en Londres, en 2017, un honor que se da en toda la ingeniería y no solo en la informática. La mención es el lenguaje, que para entonces corre dentro de aviones, centrales telefónicas, coches, navegadores y las máquinas que negocian los valores que vende su patrón. Tiene sesenta y seis años y lleva treinta y ocho construyendo el mismo objeto. Londres le da la medalla; Cambridge, cien kilómetros al norte, lo elige fellow el mismo año, y el país donde se doctoró lo reclama dos veces en doce meses.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The IET Faraday Medal, Savoy Place, London, 2017"],
+     "sources": ["Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup'"]
+    },
+    {
+     "name": "Churchill College, la condición de fellow honorario",
+     "lat": 52.213,
+     "lng": 0.101,
+     "date": "2017-01-01",
+     "date_confidence": "year attested; month unknown, defaulted",
+     "campa": "El Churchill College lo elige Honorary Fellow en 2017, cinco años después de la plaza de fellow de ultramar y cuarenta y dos después de llegar aquí como estudiante de investigación. El college lo ha tenido como estudiante de investigación, como Overseas Fellow y ahora como Honorary Fellow, y lo último no caduca. El alfiler está en Storey's Way; dos lentes de esta investigación pusieron el college en otro sitio, una de ellas en un campo más allá de los edificios, y el error queda anotado aquí en vez de repararse en silencio. El King's College de Alan Turing está a dos kilómetros y medio al sureste de esta verja, en la misma universidad y en otro siglo.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Honorary Fellowship of Churchill College, Cambridge, 2017"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'", "Wikipedia, 'Churchill College, Cambridge'"]
+    },
+    {
+     "name": "Washington, el Premio Draper",
+     "lat": 38.8927,
+     "lng": -77.0454,
+     "date": "2018-02-01",
+     "date_confidence": "year attested; February inferred from the academy's usual calendar",
+     "campa": "La Academia Nacional de Ingeniería le concede el Premio Charles Stark Draper en 2018, por concebir y desarrollar el lenguaje de programación C++, y el mismo año le llegan el Computer Pioneer Award de la IEEE Computer Society y la Medalla John Scott Legacy del Instituto Franklin. El Draper es uno de los tres grandes premios de la academia y no el único más alto, digan lo que digan los resúmenes; la fecha de febrero que consta aquí es inferencia del calendario habitual de la academia y no está atestiguada por ninguna fuente.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The Charles Stark Draper Prize, National Academy of Engineering, 2018"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'", "Wikipedia, 'Charles Stark Draper Prize'"]
+    },
+    {
+     "name": "Leganés, el doctorado honoris causa",
+     "lat": 40.333,
+     "lng": -3.766,
+     "date": "2019-01-01",
+     "date_confidence": "year attested; month unknown, defaulted",
+     "campa": "La Universidad Carlos III de Madrid le confiere un doctorado honoris causa en 2019, en su campus de Leganés, al sur de Madrid, donde está la escuela de ingeniería. Dos lentes de esta investigación discreparon sobre el campus, una nombrando Getafe mientras fijaba una coordenada que cae en Leganés; la discrepancia queda anotada y se resuelve por el emplazamiento de ingeniería en vez de promediarse entre las dos. España enseña el lenguaje en todas sus carreras de ingeniería, que es la mención en la práctica.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Universidad Carlos III de Madrid, Leganes campus, School of Engineering"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Universidad Carlos III de Madrid'"]
+    },
+    {
+     "name": "Midtown Manhattan, el primer Technical Fellow",
+     "lat": 40.7589,
+     "lng": -73.9851,
+     "date": "2019-01-01",
+     "date_confidence": "year attested; month unknown, defaulted",
+     "campa": "Morgan Stanley lo asciende en 2019 a primer Technical Fellow de la firma, un rango que la casa crea para poder retenerlo. Tiene sesenta y ocho años y lleva cuarenta dentro de grandes instituciones estadounidenses. Su propia cronología es clara sobre la secuencia que otros relatos funden en una sola llegada: Managing Director desde 2014, Technical Fellow solo a partir de aquí. Los Bell Labs lo hicieron Fellow en 1993 y AT&T en 1996, y el banco es el tercer patrón que levanta un rango alrededor de un hombre para el que no tenía ninguno.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Morgan Stanley's first Technical Fellow, 2019"],
+     "sources": ["stroustrup.com/bio.html", "Encyclopaedia Britannica, 'Bjarne Stroustrup'"]
+    }
+   ]
+  },
+  {
+   "name": "El icono vivo",
+   "stops": [
+    {
+     "name": "Midtown Manhattan, la salida del banco",
+     "lat": 40.7589,
+     "lng": -73.9851,
+     "date": "2022-04-01",
+     "date_confidence": "month and year attested; day unknown, defaulted",
+     "campa": "Deja Morgan Stanley en abril de 2022, ocho años y tres meses después de llegar, y la mitad industrial de una vida de trabajo se acaba en Manhattan y no en Nueva Jersey. Ningún relato alcanzable desde aquí dice por qué la fecha cayó donde cayó. La mitad académica lleva esperando cinco kilómetros al norte, abierta desde 2014 por un título visitante que nunca soltó, y cruza a ella dentro de la misma estación. Cuarenta y tres años antes entró en Murray Hill a estudiar un núcleo y salió con un lenguaje; sale de este edificio a los setenta y uno tras haber gastado la carrera entera en ese único lenguaje.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Morgan Stanley, January 2014 to April 2022"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup'"]
+    },
+    {
+     "name": "Morningside Heights, la cátedra plena",
+     "lat": 40.808,
+     "lng": -73.9626,
+     "date": "2022-07-01",
+     "date_confidence": "month and year attested; day unknown, defaulted",
+     "campa": "En julio de 2022 el título visitante en Columbia se convierte en una cátedra plena de informática, y a los setenta y uno es catedrático por segunda vez en veinte años. De aquel doctorando del Laboratorio de Computación de Cambridge a esta cátedra hay cuarenta y siete años, la mayoría pasados dentro de la investigación industrial y no en universidades. La tercera edición de A Tour of C++ aparece el mismo año: el libro corto al lado del largo, escrito para quien ya sabe programar y quiere el lenguaje entero en unas semanas.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Columbia University, Professor of Computer Science from July 2022"],
+     "sources": ["stroustrup.com/bio.html", "Wikipedia, 'Bjarne Stroustrup'", "Encyclopaedia Britannica, 'Bjarne Stroustrup'"]
+    },
+    {
+     "name": "Copenhague, el Kraks Blaa Bog",
+     "lat": 55.6761,
+     "lng": 12.5683,
+     "date": "2025-01-01",
+     "date_confidence": "year attested from his own page; month unknown, defaulted",
+     "campa": "En 2025 lo inscriben en el Kraks Blaa Bog, el registro danés de daneses notables, equivalente del Who's Who británico, publicado desde Copenhague. Tiene setenta y cuatro años. Los honores internacionales llegaron a lo largo de treinta y dos años, desde el Premio Hopper en adelante; la entrada doméstica llega la última. Lleva para entonces cincuenta años viviendo fuera de Dinamarca, y este alfiler marca la ciudad de un editor y no un viaje que él hiciera. La entrada misma está atestiguada en su propia página, con sus propias palabras; leerla como una patria que canoniza tarde a uno de los suyos es glosa del investigador y no afirmación de ninguna fuente.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["Kraks Blaa Bog 2025, Copenhagen"],
+     "sources": ["stroustrup.com/bio.html"]
+    },
+    {
+     "name": "Morningside Heights, ninguna tumba que visitar",
+     "lat": 40.8075,
+     "lng": -73.9626,
+     "date": "2026-01-01",
+     "date_confidence": "current as of research, August 2026",
+     "campa": "Está vivo. No hay tumba, ni sepultura, ni monumento conmemorativo que poner sobre este globo, y el atlas declara eso como un hueco en vez de llenar la casilla con sustitutos disfrazados de material funerario. Lo que hay en su lugar: un libro en cuatro ediciones y una edición especial, traducido al menos a diecinueve lenguas, otro en tres, y un puesto docente en Columbia. Asesora a Metaspex desde 2021 y a dos firmas más en 2026. El viaje está sin terminar, y este archivo habrá que reescribirlo.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": ["The C++ Programming Language in nineteen translations, the closest thing to a monument"],
+     "sources": ["stroustrup.com/bio.html (current as fetched)", "Wikipedia, 'Bjarne Stroustrup'"]
+    }
+   ]
+  }
+ ]
+}
