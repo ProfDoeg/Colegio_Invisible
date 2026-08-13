@@ -1,0 +1,560 @@
+{
+  "traveler": "Linus Benedict Torvalds",
+  "title": "The Terminal Emulator That Became an Operating System: Helsinki, the Newsgroup, and Thirty Years of Merging Patches",
+  "years": "1969-present",
+  "calendar": "gregorian",
+  "register": "national mythology: the canon is true",
+  "segments": [
+    {
+      "name": "The Statistician's Grandson",
+      "stops": [
+        {
+          "name": "Helsinki, birth in the year of Unix",
+          "lat": 60.1699,
+          "lng": 24.9384,
+          "date": "1969-12-28",
+          "date_confidence": "attested",
+          "campa": "On the twenty-eighth of December a son is born in Helsinki to two journalists, Anna and Nils Torvalds, and is named for the chemist Linus Pauling. His maternal grandfather is the statistician Leo Tornqvist; his paternal grandfather is the poet Ole Torvalds; his parents are active communists in a country that shares a long border with the Soviet Union. In the same year, at Bell Labs in Murray Hill, where Claude Shannon spent his war on ciphers, Ken Thompson and Dennis Ritchie begin writing Unix. The two facts will not meet for twenty-two years.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Torvalds and Tornqvist family record in Helsinki's Swedish-speaking minority"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "Torvalds and Diamond, Just for Fun (2001)"]
+        },
+        {
+          "name": "Helsinki, the grandfather's VIC-20",
+          "lat": 60.1699,
+          "lng": 24.9384,
+          "date": "1981-01-01",
+          "date_confidence": "year approximate; sources give his age as around eleven",
+          "campa": "At about eleven the boy is given the run of his grandfather's Commodore VIC-20 and begins writing BASIC, first the listings copied out of magazines by hand, then small games of his own. Buying software is not something this household does. Helsinki winters are long and dark and indoors, and a screen holds a child better than a yard. Three years later, in this same city, Ake Fant reads the paper that returns Hilma af Klint's paintings to the world; Torvalds is fourteen and has never heard of her.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["A Commodore VIC-20 with the Finnish magazine listings of the early 1980s"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "Torvalds and Diamond, Just for Fun (2001)", "hilma_af_klint.journey.json, stop 'Helsinki, Ake Fant reads the paper'"]
+        },
+        {
+          "name": "Helsinki, the university on Teollisuuskatu",
+          "lat": 60.1875,
+          "lng": 24.953,
+          "date": "1988-01-01",
+          "date_confidence": "attested to the year; no month in the sources consulted",
+          "campa": "He enrolls at the University of Helsinki to read computer science, choosing a campus a walk from home over any foreign one, and joins the small research group called Nodes under Martti Tienari. The department building on Teollisuuskatu smells of terminal rooms and instant coffee. He owns a Sinclair QL and has already run out of room inside it. The degree will take nine years to finish, delayed from its third year onward by work he does at home on a machine of his own.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The old Department of Computer Science building on Teollisuuskatu, Helsinki"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "Torvalds and Diamond, Just for Fun (2001)"]
+        },
+        {
+          "name": "Dragsvik, eleven months with the Nyland Brigade",
+          "lat": 59.9861,
+          "lng": 23.4921,
+          "date": "1989-06-01",
+          "date_confidence": "year attested; summer start reported, exact date not fixed",
+          "campa": "Finland conscripts its men, and the Nyland Brigade takes the Swedish speakers. He spends eleven months at the Dragsvik garrison at Ekenas, on the coast west of Helsinki, training as an officer, and leaves it a second lieutenant. The brigade exists because a language minority is owed its army service in its own tongue, and he is that minority. Biographers hunting for the origin of his scheduling discipline, the merge windows kept to the day for thirty years, tend to point at this year.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Dragsvik garrison, Raseborg, home of the Swedish-speaking Nyland Brigade"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "Wikipedia, 'Nyland Brigade'"]
+        },
+        {
+          "name": "Helsinki, ULTRIX on the MicroVAX",
+          "lat": 60.1875,
+          "lng": 24.953,
+          "date": "1990-01-01",
+          "date_confidence": "attested to the year",
+          "campa": "Back from the garrison and a year behind his cohort, he meets Unix for the first time on a university DEC MicroVAX running ULTRIX. It is a shared machine reached down a wire, and what he wants immediately is more of it than the terminal on his desk will give him. He starts buying manuals and reading the C standard. The operating system he is falling for was written twenty-one years earlier by two men at Bell Labs who wanted a machine of their own to play with, for exactly the reason he wants one.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["A DEC MicroVAX running ULTRIX, the university's shared Unix machine"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "Torvalds and Diamond, Just for Fun (2001)"]
+        }
+      ]
+    },
+    {
+      "name": "The 386 and the Hobby",
+      "stops": [
+        {
+          "name": "Helsinki, an 80386 bought on installments",
+          "lat": 60.1699,
+          "lng": 24.9384,
+          "date": "1991-01-05",
+          "date_confidence": "attested",
+          "campa": "On the fifth of January he buys an Intel 80386 clone, part of it on credit, meaning to run Andrew Tanenbaum's Minix at home. The 386 switches tasks in hardware, and he wants to find out how. It is a stored-program machine of the kind Alan Turing set down on paper in 1936 and John von Neumann wired into metal at Princeton, now sold over a Helsinki counter to a student paying monthly. He begins by writing a terminal emulator, so that he can dial the university's Unix box from his own room.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The installment contract for a 386 PC clone, Helsinki, January 1991"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "Torvalds and Diamond, Just for Fun (2001)", "alan_turing.journey.json, stop 'Cambridge: On Computable Numbers'"]
+        },
+        {
+          "name": "Helsinki, the post to comp.os.minix",
+          "lat": 60.1875,
+          "lng": 24.953,
+          "date": "1991-08-25",
+          "date_confidence": "attested",
+          "campa": "The terminal emulator has grown a disk driver, then a filesystem, then a scheduler, and what he owns now is not a program for reaching an operating system but an operating system. He posts to the newsgroup comp.os.minix under the subject line asking what people would most like to see in Minix, and answers it with his own. He promises nothing. Thirty years on the sentence will still be quoted inside the project it announces, by people who were not born on the day he typed it.",
+          "quote": "Hello everybody out there using minix - I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu) for 386(486) AT clones.",
+          "quote_source": "Usenet post to comp.os.minix, 25 August 1991, reproduced verbatim by Torvalds in 'LINUX's History' (31 July 1992)",
+          "suggested_refs": ["The archived comp.os.minix thread 'What would you like to see most in minix?', August 1991"],
+          "sources": ["Torvalds, 'LINUX's History' (1992), cs.cmu.edu mirror", "Wikipedia, 'History of Linux'"]
+        },
+        {
+          "name": "Helsinki, the answer on portability",
+          "lat": 60.1875,
+          "lng": 24.953,
+          "date": "1991-08-26",
+          "date_confidence": "attested",
+          "campa": "The next day he answers the first technical question the newsgroup puts to him, which is whether the thing could ever be moved to another processor. He says no, and says why with the candor that will mark every public sentence he writes for three decades: the code is bolted to the 386's own task switching, and the C it is written in is not the C anyone else writes. Within four years Linux runs on the Alpha, on SPARC, on PowerPC, and on the architecture he said it could never leave.",
+          "quote": "Simply, I'd say that porting is impossible. It's mostly in C, but most people wouldn't call what I write C.",
+          "quote_source": "Usenet post to comp.os.minix, 26 August 1991, subject 'Re: What would you like to see most in minix?', reproduced in 'LINUX's History'",
+          "suggested_refs": ["The 1991 comp.os.minix exchange on portability, later contradicted by the port to DEC Alpha"],
+          "sources": ["Torvalds, 'LINUX's History' (1992), cs.cmu.edu mirror"]
+        },
+        {
+          "name": "Otaniemi, the directory renamed on ftp.funet.fi",
+          "lat": 60.1866,
+          "lng": 24.8285,
+          "date": "1991-09-17",
+          "date_confidence": "attested",
+          "campa": "The source of version 0.01 goes up for public download on ftp.funet.fi, the Finnish academic network's file server, administered by Ari Lemmke at the Helsinki University of Technology in Otaniemi, across the water in Espoo. Torvalds has been calling the project Freax. Lemmke dislikes the name, makes the directory Linux instead, and does not ask. Torvalds learns of it afterward and lets it stand. The kernel that will run most of the world's servers is named by a system administrator's private taste.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The ftp.funet.fi directory listing of September 1991, Helsinki University of Technology, Otaniemi"],
+          "sources": ["Wikipedia, 'History of Linux'", "Wikipedia, 'Linus Torvalds'"]
+        },
+        {
+          "name": "Helsinki, the release notes signed with an address",
+          "lat": 60.1699,
+          "lng": 24.9384,
+          "date": "1991-09-17",
+          "date_confidence": "dated here to the release of kernel 0.01, since the document itself carries no date; the kernel.org file timestamp of 23 June 1993 records an archive re-upload, not authorship. Some catalogues date it October 1991, which is the month of the 0.02 release",
+          "campa": "He writes release notes to go with the code and signs them with his home address: Petersgatan 2 A 2, 00140 Helsingfors 14, Finland. The document is a list of what the kernel cannot do. There is a section titled Apologies, and it apologizes for the hardware the code refuses to talk to, for the C it is written in, and for the documentation that does not exist. He asks for patches from anyone willing to read the source. The document also states that the kernel cannot be built without Minix already installed on the machine.",
+          "quote": "As the version number (0.01) suggests this is not a mature product.",
+          "quote_source": "RELNOTES-0.01, section 1 'Short intro', Linus Torvalds, accompanying Linux kernel 0.01, 1991",
+          "suggested_refs": ["RELNOTES-0.01 in the kernel.org Historic archive, signed from Petersgatan 2 A 2, Helsingfors"],
+          "sources": ["cdn.kernel.org/pub/linux/kernel/Historic/old-versions/RELNOTES-0.01, fetched directly"]
+        },
+        {
+          "name": "Helsinki, the announcement of 0.02",
+          "lat": 60.1875,
+          "lng": 24.953,
+          "date": "1991-10-05",
+          "date_confidence": "attested",
+          "campa": "Six weeks after the first post he announces version 0.02 to the same newsgroup, and this time he writes to the people he actually wants: the ones who resent an operating system they are not allowed to take apart. He tells them the Hurd may arrive next month or in two years, that he already has Minix, and that neither observation is an argument. Bash runs under it, and gcc runs under it. The sources sit on the Finnish server for anyone who cares to fetch them.",
+          "quote": "Do you pine for the nice days of minix-1.1, when men were men and wrote their own device drivers?",
+          "quote_source": "Usenet post to comp.os.minix, 5 October 1991, subject 'Free minix-like kernel sources for 386-AT', reproduced in 'LINUX's History'",
+          "suggested_refs": ["The 0.02 announcement of 5 October 1991, the first post addressed to hackers rather than to Minix users"],
+          "sources": ["Torvalds, 'LINUX's History' (1992), cs.cmu.edu mirror"]
+        },
+        {
+          "name": "Otaniemi, Wirzenius takes him to hear Stallman",
+          "lat": 60.1866,
+          "lng": 24.8285,
+          "date": "1991-11-01",
+          "date_confidence": "autumn 1991; no exact date in the sources consulted, and the month here is a placeholder within the attested season",
+          "campa": "His fellow student Lars Wirzenius takes him across the water to the Helsinki University of Technology in Otaniemi to hear Richard Stallman argue that software must not be owned. Torvalds does not come away an activist, and says so for the rest of his life. He does come away with the decision that governs the next thirty years: the kernel goes out under the GNU General Public License, which obliges anyone who improves it to publish the improvement.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Richard Stallman's 1991 lecture at the Helsinki University of Technology, Otaniemi"],
+          "sources": ["Wikipedia, 'Linus Torvalds'"]
+        }
+      ]
+    },
+    {
+      "name": "Version One, and the Penguin",
+      "stops": [
+        {
+          "name": "Helsinki, the sequence set down for a stranger",
+          "lat": 60.1875,
+          "lng": 24.953,
+          "date": "1992-05-05",
+          "date_confidence": "attested",
+          "campa": "A year on, answering a stranger who wants to know how one writes an operating system, he sets the sequence down in order: the 386 book, the task-switching experiment, two processes printing A and B to the screen forever, the terminal program, the disk driver, the filesystem. He is describing a machine teaching its owner, one capability at a time, what it is capable of. He is twenty-two, his degree is unfinished, and the goal he names is gcc compiling itself under his own kernel.",
+          "quote": "This is also when I start to get serious about my megalomaniac ideas to make \"a better minix that minix\".",
+          "quote_source": "Email to Linux-Activists@BLOOM-PICAYUNE.MIT.EDU, 'Re: Writing an OS - questions !!', 5 May 1992, reproduced in 'LINUX's History'",
+          "suggested_refs": ["The Linux-Activists mailing list archive of May 1992"],
+          "sources": ["Torvalds, 'LINUX's History' (1992), cs.cmu.edu mirror"]
+        },
+        {
+          "name": "Canberra, bitten by a little penguin",
+          "lat": -35.3006,
+          "lng": 149.0694,
+          "date": "1993-01-01",
+          "date_confidence": "year attested; no month in the sources consulted",
+          "campa": "His first journey outside Europe takes him to Australia to address the Australian Unix Users Group. At the National Zoo and Aquarium in Canberra a little penguin bites him. He tells the story ever after as the origin of a fixation on flightless, fat waterfowl, and when the project needs a mascot he refuses the corporate options and insists on a penguin, slightly overfed, sitting down. He is twenty-three, the kernel is two years old, and the mascot question is settled by an animal that bit him.",
+          "quote": "I've been to Australia several times... my first trip... was when I was bitten by a ferocious fairy penguin: you really should keep those things locked up!",
+          "quote_source": "Torvalds, quoted in interviews reproduced on Wikipedia, 'Tux (mascot)'",
+          "suggested_refs": ["The little penguin enclosure at the National Zoo and Aquarium, Canberra"],
+          "sources": ["Wikipedia, 'Tux (mascot)'"]
+        },
+        {
+          "name": "Helsinki, the student who sent mail",
+          "lat": 60.1875,
+          "lng": 24.953,
+          "date": "1993-01-01",
+          "date_confidence": "year attested for the meeting; the wedding is dated 1997 by secondary accounts and no consulted source names a venue",
+          "campa": "He teaches an introductory computer course at the university and tells the class to send him mail. One of them, Tove Monni, sends mail asking him out. She is a six-time Finnish national karate champion. They marry four years later, and three daughters follow, the first while the household is still Finnish and the others after the Atlantic is crossed. Sources agree that the wedding falls in 1997. None consulted names the hall, the town, or the day of it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Tove Monni's six Finnish national karate championships"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "Torvalds and Diamond, Just for Fun (2001)"]
+        },
+        {
+          "name": "Helsinki, version 1.0",
+          "lat": 60.1875,
+          "lng": 24.953,
+          "date": "1994-03-14",
+          "date_confidence": "attested",
+          "campa": "Version 1.0 goes out, the number he is willing to call finished. He is still a graduate student in Helsinki, still coordinating a worldwide project by mailing list rather than from an office, and no company anywhere is yet built on his kernel. Three years have passed since the first upload. In ten more this code will be the substrate of the internet, and the same man will still be reading the patches one at a time and deciding, alone, which of them go in.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Linux 1.0 release announcement, March 1994"],
+          "sources": ["Wikipedia, 'History of Linux'", "Wikipedia, 'Linus Torvalds'"]
+        },
+        {
+          "name": "Helsinki, a penguin and a minor planet take the name",
+          "lat": 60.1699,
+          "lng": 24.9384,
+          "date": "1996-01-01",
+          "date_confidence": "1996 attested for both the Tux artwork and asteroid 9793; the Kalliope satellite's name is approved by the IAU in July 2003",
+          "campa": "Larry Ewing draws the mascot in GIMP, in a version of the program numbered 0.54, and James Hughes gives it the name Tux, heard both as a tuxedo and as Torvalds Unix. The same year the International Astronomical Union fixes the name Torvalds to minor planet 9793. Seven years later the satellite of the asteroid 22 Kalliope is named Linus, jointly for Linus of Thrace, for Linus van Pelt, and for him: three claimants to one name, sharing a rock in the belt.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Larry Ewing's original Tux, drawn in GIMP 0.54; IAU circulars for 9793 Torvalds and (22) Kalliope I Linus"],
+          "sources": ["Wikipedia, 'Tux (mascot)'", "Wikipedia, 'Linus Torvalds'", "Wikipedia, '22 Kalliope'"]
+        },
+        {
+          "name": "Helsinki, the thesis that answers the newsgroup",
+          "lat": 60.1875,
+          "lng": 24.953,
+          "date": "1997-01-01",
+          "date_confidence": "the geography lens dates the thesis 1996-1997 and the chronology lens dates the degree 1997; unresolved to the month",
+          "campa": "He finishes the master's thesis, Linux: A Portable Operating System, and submits it to the department that admitted him nine years earlier. The title answers, in four words, the question he had told the newsgroup was impossible. The side project has overtaken the degree meant to justify it and has become the degree's subject. Nodes, the small research group that housed him, ends as a footnote to a thing enormously larger than itself. The family is already packing.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Linus Torvalds, 'Linux: A Portable Operating System', master's thesis, University of Helsinki"],
+          "sources": ["Wikipedia, 'Linus Torvalds'"]
+        }
+      ]
+    },
+    {
+      "name": "The Crossing",
+      "stops": [
+        {
+          "name": "Santa Clara, Transmeta and the secret chip",
+          "lat": 37.3861,
+          "lng": -121.9797,
+          "date": "1997-02-01",
+          "date_confidence": "attested to the month",
+          "campa": "A visit the year before becomes an offer, and in February the household moves from a Nordic university town to Santa Clara. Transmeta is building a low-power x86-compatible processor and keeping it secret for years; his day job and the kernel run in parallel under one roof, with the company's consent and no company claim on the code. He is twenty-seven, he has a degree at last, and he arrives in Silicon Valley at the exact height of its pull. His daughters begin arriving as Californians.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Transmeta Corporation, Santa Clara, and the Crusoe processor announced in 2000"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "Wikipedia, 'Transmeta'"]
+        },
+        {
+          "name": "Stockholm, the first honorary doctorate",
+          "lat": 59.3646,
+          "lng": 18.0578,
+          "date": "1999-01-01",
+          "date_confidence": "contradicted between lenses: the afterlife lens reads Wikipedia as giving 1999, the geography lens gives 2000 from press biographies. Not resolved here",
+          "campa": "Stockholm University confers an honorary doctorate, the first of two Nordic universities to honor a body of work that one of them had merely graded. He is by residence a Californian and by passport a Finn, and the two tracks of his life have begun running separately. The sources disagree about the year: one reading of the Wikipedia sentence puts it two years after 1997, another repeats 2000 across the press. Nothing reached in this pass adjudicates between them.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Frescati campus of Stockholm University, site of the honorary doctorate"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "press biographies, unreconciled"]
+        },
+        {
+          "name": "Helsinki, the university confers a doctorate",
+          "lat": 60.1875,
+          "lng": 24.953,
+          "date": "2000-01-01",
+          "date_confidence": "year repeated across press biographies; not confirmed against a University of Helsinki primary announcement in this pass",
+          "campa": "The University of Helsinki, which took nine years to give him a master's degree, returns to confer a doctorate with no examination attached. He does not move back. The honor is a city claiming a citizen it has already lost to California. Finland will go on claiming him in its press and its prize lists for the next twenty years. Two Nordic universities have now honored the same work, and the man himself has been living on another continent for three years.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The University of Helsinki honorary doctorate register"],
+          "sources": ["Wikipedia, 'Linus Torvalds'"]
+        },
+        {
+          "name": "Santa Clara, the century's short list",
+          "lat": 37.3541,
+          "lng": -121.9552,
+          "date": "2000-01-01",
+          "date_confidence": "a cluster dated to its middle: the EFF Pioneer Award is 1998, the Ada Lovelace Medal and the Royal Swedish Academy seat 2000, the Takeda Award 2001",
+          "campa": "Time ranks him seventeenth among the most important people of the century, above most of the men whose companies his kernel is quietly eating. The Electronic Frontier Foundation has already given him its Pioneer Award; the Ada Lovelace Medal and a seat in the Royal Swedish Academy of Engineering Sciences arrive in the same year, and the Takeda Award the year after, shared with Richard Stallman and Ken Sakamura. He is thirty, and four of these five awards arrive within three years of each other.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Time, 'The Time 100: The Most Important People of the Century' (1999-2000 poll)"],
+          "sources": ["Wikipedia, 'Linus Torvalds'"]
+        },
+        {
+          "name": "The South Bay, the mailing list as an office",
+          "lat": 37.3541,
+          "lng": -121.9552,
+          "date": "2000-08-25",
+          "date_confidence": "the household's presence in the Santa Clara and San Jose corridor 1997-2003 is reconstruction: no source names a street. The quotation is tradition, dated 25 August 2000 by repetition and not verified here",
+          "campa": "No consulted source names the street; the household sits somewhere in the corridor between Santa Clara and San Jose for six years, and the kernel is governed entirely by mail sent out of it. The sentence that tradition assigns to him on the twenty-fifth of August, and that has been printed on posters and mugs ever since, is the whole constitution of that government in five words: a patch is an argument, and nothing else is. The archives that would prove he wrote it are the ones this pass could not reach.",
+          "quote": "Talk is cheap. Show me the code.",
+          "quote_source": "Widely attributed to a linux-kernel mailing list message of 25 August 2000; the raw archive could not be reached in this pass (lkml.org served a bot challenge, marc.info returned HTTP 410)",
+          "suggested_refs": ["The linux-kernel mailing list archives for August 2000"],
+          "sources": ["Tradition, unverified; recorded as such"]
+        },
+        {
+          "name": "New York, the accidental revolutionary in print",
+          "lat": 40.7128,
+          "lng": -74.006,
+          "date": "2001-01-01",
+          "date_confidence": "year of publication attested; the roster of translated editions is unverified",
+          "campa": "HarperCollins publishes the memoir he writes with the journalist David Diamond, Just for Fun: The Story of an Accidental Revolutionary, and it goes out into languages he cannot read. The book is where most of what is known about the Helsinki years comes from, which is also its difficulty: the private experiments of mid-1991, before the newsgroup post, survive only as one man's later account of himself. No contemporaneous record of that spring exists in anything reached here.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Torvalds and Diamond, Just for Fun (HarperCollins, 2001), and its translated editions"],
+          "sources": ["Wikipedia, 'Linus Torvalds'"]
+        },
+        {
+          "name": "Santa Clara, leaving the chip company",
+          "lat": 37.3861,
+          "lng": -121.9797,
+          "date": "2003-06-01",
+          "date_confidence": "attested to the month",
+          "campa": "The Crusoe chip has not done what the company promised, and after six years he leaves. For the first time since the terminal emulator, maintaining the kernel is his stated job rather than his second one. He does not go independent. Within the same year a nonprofit consortium of the hardware and software firms whose products already depend on his code hires him for the express purpose of paying him to keep doing what he was doing anyway, at nobody's direction.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Transmeta's Crusoe launch and decline, 2000-2003"],
+          "sources": ["Wikipedia, 'Linus Torvalds'"]
+        },
+        {
+          "name": "Beaverton, the consortium takes him on",
+          "lat": 45.4871,
+          "lng": -122.8037,
+          "date": "2003-07-01",
+          "date_confidence": "year attested; the month is a placeholder, since the sources give only that he joined in 2003 after leaving Transmeta in June",
+          "campa": "The Open Source Development Labs takes him on as a fellow. It is an odd invention: a consortium built so that no single company employs the man who decides what enters the kernel, and so that none of them can be accused of owning him. He is paid by all of them at once and directed by none of them. Its Oregon offices draw the family north out of California within the year, and Beaverton, a suburb west of Portland, becomes the institutional address of a project that has never had one.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Open Source Development Labs, Beaverton, Oregon, later merged into the Linux Foundation"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "Linux Foundation organizational history"]
+        }
+      ]
+    },
+    {
+      "name": "Oregon, and the Tool Written in Four Days",
+      "stops": [
+        {
+          "name": "Dunthorpe, the woods above the Willamette",
+          "lat": 45.4358,
+          "lng": -122.6539,
+          "date": "2004-06-01",
+          "date_confidence": "attested to the month",
+          "campa": "The family leaves the Bay Area for Dunthorpe, an unincorporated stretch of woods along the Willamette south of Portland. It is a deliberate step off the industry's center of gravity, taken by the man who maintains its most widely deployed piece of software, and it holds: he is still in greater Portland two decades later. Oregon is cheaper and quieter than the Valley, and the kernel does not care where its maintainer sits, because it never has. Every address he has ever worked from has been a room with a wire coming into it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Dunthorpe, Oregon, unincorporated Clackamas County on the Willamette"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "Wikipedia, 'Dunthorpe, Oregon'"]
+        },
+        {
+          "name": "Dunthorpe, the licence revoked and the replacement begun",
+          "lat": 45.4358,
+          "lng": -122.6539,
+          "date": "2005-04-03",
+          "date_confidence": "attested",
+          "campa": "The kernel team has been using BitKeeper, a proprietary tool lent to them free, and the loan ends when another developer reverse-engineers its protocol and its owner Larry McVoy withdraws the licence. Overnight the largest collaborative software project in the world has no way to track its own changes. On the third of April, from the house in Oregon, Torvalds starts writing a replacement, with a design target no existing free system met: apply a patch in under three seconds.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The BitKeeper licence dispute of 2005 and Larry McVoy's withdrawal of free use"],
+          "sources": ["Wikipedia, 'Git'", "Wikipedia, 'Linus Torvalds'"]
+        },
+        {
+          "name": "Dunthorpe, Git keeps its own source",
+          "lat": 45.4358,
+          "lng": -122.6539,
+          "date": "2005-04-07",
+          "date_confidence": "attested: development began 3 April, public announcement 6 April, self-hosting 7 April, first multi-branch merge 18 April, performance target met 29 April",
+          "campa": "He announces it publicly on the sixth of April, and on the seventh it is keeping its own source code, four days after the first line was written. The first multi-branch merge follows on the eighteenth, the speed target is met on the twenty-ninth, and by the sixteenth of June it is managing the kernel release outright. He names it after himself, as he says he names everything. No committee reviews the design and no specification precedes it; the deadline is the kernel's paralysis.",
+          "quote": "I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'Git'.",
+          "quote_source": "GitFaq, git.wiki.kernel.org, entry 'Why the Git name?', quoting Linus Torvalds",
+          "suggested_refs": ["The first Git commit, 'Initial revision of git, the information manager from hell', 7 April 2005"],
+          "sources": ["Wikipedia, 'Git'", "archive.kernel.org, GitFaq mirror, fetched directly"]
+        },
+        {
+          "name": "Dunthorpe, the tool handed to Junio Hamano",
+          "lat": 45.4358,
+          "lng": -122.6539,
+          "date": "2005-07-01",
+          "date_confidence": "year attested; the month is not fixed in the sources consulted",
+          "campa": "Within months he gives the project away. Junio Hamano takes over the maintenance and keeps it for the next twenty years, while Torvalds goes back to the kernel, the one thing he has never handed to anyone. He has written the operating system that runs most of the world's servers and the version control system that holds most of its source code, and he treats the second as a tool he needed for a weekend. Hamano's name stays unknown to nearly everyone who runs his commands daily.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Junio Hamano's twenty-year maintainership of Git"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "Wikipedia, 'Git'"]
+        },
+        {
+          "name": "Portland, the Vollum Award at Reed College",
+          "lat": 45.5152,
+          "lng": -122.6784,
+          "date": "2005-09-01",
+          "date_confidence": "year attested; the month is a placeholder within it, since no ceremony date appears in the sources consulted",
+          "campa": "Reed College gives him the Vollum Award, a small liberal arts college in southeast Portland honoring a man who writes device drivers. The city has its own uses for engineers and artists alike; Laura Renee Maier will found Wild Woman here a decade later and stage her cloth in its showrooms and its art museum. Both of them work in Portland, on things that have nothing to do with each other, and at a distance from the cities that fund their respective fields.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Vollum Award for Distinguished Accomplishment in Science and Technology, Reed College"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "laura_renee_maier.journey.json, stops 'Portland: Wild Woman founded' and 'Portland: FASHIONXT, the cloth walks'"]
+        },
+        {
+          "name": "Portland, the Foundation formed around him",
+          "lat": 45.5152,
+          "lng": -122.6784,
+          "date": "2007-01-01",
+          "date_confidence": "year attested; no month in the sources consulted",
+          "campa": "The Open Source Development Labs and the Free Standards Group merge into the Linux Foundation, formalizing an arrangement that had run informally since 2003. He is its most famous fellow and works from a house rather than any headquarters. Guido van Rossum's Python Software Foundation had been incorporated in Wilmington six years earlier for the same structural reason: to put a language's institutional home, or a kernel's, somewhere no single employer can reach it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The 2007 merger forming the Linux Foundation"],
+          "sources": ["Linux Foundation organizational history", "guido_van_rossum.journey.json, stop 'Wilmington, the Foundation takes title'"]
+        }
+      ]
+    },
+    {
+      "name": "The Prizes and the Finger",
+      "stops": [
+        {
+          "name": "Mountain View, Fellow of the Computer History Museum",
+          "lat": 37.4144,
+          "lng": -122.0774,
+          "date": "2008-01-01",
+          "date_confidence": "attested to the year by the chronology lens; the interlock lens found no atlas file stating it and flagged it as outside knowledge",
+          "campa": "The Computer History Museum names him to its Hall of Fellows. The building holds a working replica of Charles Babbage's Difference Engine No. 2, built from drawings whose author never saw them executed; Whitfield Diffie is a Fellow of the same institution, and Guido van Rossum will be named one a decade after Torvalds. He comes back to California for the ceremony without coming back to live there. The museum stands on Shoreline Boulevard, a few miles from the Santa Clara office he left five years earlier.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Computer History Museum Hall of Fellows, Shoreline Boulevard, Mountain View"],
+          "sources": ["Wikipedia, 'Linus Torvalds'", "charles_babbage.journey.json", "diffie.journey.json", "guido_van_rossum.journey.json"]
+        },
+        {
+          "name": "Dunthorpe, the second passport",
+          "lat": 45.4358,
+          "lng": -122.6539,
+          "date": "2010-01-01",
+          "date_confidence": "year attested for both the naturalization and the C&C Prize; no dates or venues in the sources consulted",
+          "campa": "He becomes a naturalized citizen of the United States and registers to vote, keeping the Finnish citizenship he was born with. Nineteen years of double life acquire a legal form: a Finnish student's hobby, maintained by an American resident who never surrendered the first passport. The same year NEC gives him its C&C Prize in Japan. No consulted source names the building where the oath was taken, the date of it, or anyone who stood beside him in the room.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The NEC C&C Prize, 2010"],
+          "sources": ["Wikipedia, 'Linus Torvalds'"]
+        },
+        {
+          "name": "Portland, Subsurface and the dive log",
+          "lat": 45.5152,
+          "lng": -122.6784,
+          "date": "2011-01-01",
+          "date_confidence": "year attested for the start; the handover to Dirk Hohndel is dated 2012",
+          "campa": "He takes up scuba diving, finds the logging software inadequate, writes his own, calls it Subsurface, and releases it open source. Within a year he hands the lead to Dirk Hohndel and stays on as a contributor. It is the second time he has built a tool because the existing one annoyed him, and the second time he has given it away as soon as it worked. He maintains nothing he does not personally use, which is also why the kernel has never left his hands.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Subsurface, the open-source dive log, and Dirk Hohndel's maintainership"],
+          "sources": ["Wikipedia, 'Linus Torvalds'"]
+        },
+        {
+          "name": "Geneva, the first class of the Internet Hall of Fame",
+          "lat": 46.2044,
+          "lng": 6.1432,
+          "date": "2012-04-23",
+          "date_confidence": "contradicted between lenses: chronology gives 23 April 2012 at Global INET in Geneva and calls the class inaugural; geography could not confirm the ceremony city against a primary source and marked the coordinate a placeholder",
+          "campa": "The Internet Society inducts its first class into the Internet Hall of Fame at Global INET, and he is in it, standing among the men who designed the protocols his kernel now speaks. Bob Kahn and Vint Cerf wrote those protocols; Torvalds wrote the thing that runs them on most of the machines that matter. The two lenses of this research disagree about how firm the venue is: one names Geneva and the twenty-third of April, the other could not confirm the city against a primary source and marked the coordinate a placeholder.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Internet Society's inaugural Internet Hall of Fame class, Global INET 2012"],
+          "sources": ["Internet Society, Internet Hall of Fame 2012 inductee class", "Wikipedia, 'Linus Torvalds'", "bob_kahn.journey.json", "vint_cerf.journey.json"]
+        },
+        {
+          "name": "Helsinki, the Millennium Technology Prize",
+          "lat": 60.1699,
+          "lng": 24.9384,
+          "date": "2012-06-01",
+          "date_confidence": "prize year and the shared laureate are attested; the ceremony venue and day are unverified, a reported date of 13 June 2012 and a venue of Finlandia Hall being unconfirmed against any primary source, and the frequent claim that this was the prize's inaugural cycle is false, the first award having gone to Tim Berners-Lee in 2004",
+          "campa": "Finland gives its largest technology prize to its own emigrant, shared for the first time in the prize's history with a second laureate, the stem cell researcher Shinya Yamanaka. The citation credits the kernel and the seventy-three thousand person-years of work by other people that followed it, which is an unusual thing for a prize to admit about the man it is honoring. The press calls it technology's Nobel. No source reached in this pass fixes the ceremony's hall or its day.",
+          "quote": "in recognition of his creation of a new open source operating system for computers leading to the widely used Linux kernel.",
+          "quote_source": "Millennium Technology Prize citation, 2012",
+          "suggested_refs": ["The 2012 Millennium Technology Prize, shared with Shinya Yamanaka"],
+          "sources": ["Wikipedia, 'Millennium Technology Prize'", "Wikipedia, 'Linus Torvalds'"]
+        },
+        {
+          "name": "Otaniemi, the answer about graphics drivers",
+          "lat": 60.1866,
+          "lng": 24.8285,
+          "date": "2012-06-14",
+          "date_confidence": "date widely reported; the wording is tradition and could not be verified against a primary transcript or the video in this pass",
+          "campa": "Back in Otaniemi, on the campus where Wirzenius once took him to hear Stallman and where the server that first carried Linux stood, he answers a student's question about graphics drivers by raising his middle finger to the camera and naming the company. The clip travels further than any lecture he has ever given. Twenty-one years earlier he came to this campus to listen; he returns to it recorded. Six years later the kernel community will write a rule about how its people speak.",
+          "quote": "Nvidia has been the single worst company we've ever dealt with.",
+          "quote_source": "Reported from a question-and-answer session at Aalto University, Espoo, 14 June 2012; not verified against a primary transcript in this pass",
+          "suggested_refs": ["The Aalto University Q and A video of 14 June 2012"],
+          "sources": ["Widely reported in the trade press; primary source not reached"]
+        }
+      ]
+    },
+    {
+      "name": "The Code and the Conduct",
+      "stops": [
+        {
+          "name": "Vancouver, the interview he agreed to",
+          "lat": 49.2897,
+          "lng": -123.1145,
+          "date": "2016-02-01",
+          "date_confidence": "attested to the month",
+          "campa": "He agrees to be interviewed on the TED stage in Vancouver, having refused keynotes for twenty-five years, on the condition that it be a conversation and not a lecture. Onstage he says plainly that he is not interested in people, only in the code they write, and the audience laughs at a man who is not joking. The talk circulates far outside the field, among people who have never opened a terminal and who run his kernel every day without knowing that they do.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["TED2016, 'The mind behind Linux', Vancouver Convention Centre"],
+          "sources": ["TED.com talk record, 'The mind behind Linux'"]
+        },
+        {
+          "name": "Las Vegas, an award on the show floor",
+          "lat": 36.1147,
+          "lng": -115.1728,
+          "date": "2018-01-01",
+          "date_confidence": "January 2018 at CES is sound; the exact day of 12 January is unverified. The IEEE Computer Pioneer Award of 2014 is dated 23 April in press roundups, with no ceremony city fixed",
+          "campa": "The IEEE presents him the Masaru Ibuka Consumer Electronics Award, named for a founder of Sony, on the floor of the Consumer Electronics Show in Las Vegas. It is an odd room for him: Linux is the invisible thing inside the televisions and set-top boxes the hall exists to sell, and nobody on the floor is selling it. The IEEE had already given him its Computer Pioneer Award four years earlier. Both awards arrive from an engineers' professional body rather than from the industry filling the hall.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The IEEE Masaru Ibuka Consumer Electronics Award, presented at CES"],
+          "sources": ["IEEE award records", "trade press covering CES 2018"]
+        },
+        {
+          "name": "Dunthorpe, a written rule aimed at him",
+          "lat": 45.4358,
+          "lng": -122.6539,
+          "date": "2018-09-01",
+          "date_confidence": "attested to the month",
+          "campa": "After years of mailing list posts that flayed contributors by name, the criticism reaches a weight he answers. The kernel community adopts a formal Code of Conduct; he publishes an apology for his own behavior and steps away from maintaining the kernel for several weeks in order to work on it. He returns. A project governed for twenty-seven years by rough consensus and one man's temper now has a written rule about how its people speak to each other, and the rule is aimed at him.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Linux kernel Code of Conduct, September 2018, and Torvalds's public apology"],
+          "sources": ["Wikipedia, 'Linus Torvalds'"]
+        },
+        {
+          "name": "New York, named among the Great Immigrants",
+          "lat": 40.7128,
+          "lng": -74.006,
+          "date": "2019-01-01",
+          "date_confidence": "year attested; no ceremony or date in the sources consulted",
+          "campa": "The Carnegie Corporation names him among its Great Immigrants honorees. A Finn who moved for a chip startup and stayed for a nonprofit is honored as an immigrant by a country that got the kernel for nothing. He has by now lived longer in Oregon than he ever lived in Helsinki. The Finnish press still describes him as Finnish and the American list still describes him as an arrival, and both descriptions have been accurate at the same time since 2010.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Carnegie Corporation of New York Great Immigrants list, 2019"],
+          "sources": ["Wikipedia, 'Linus Torvalds'"]
+        },
+        {
+          "name": "Dunthorpe, the log that is the monument",
+          "lat": 45.4358,
+          "lng": -122.6539,
+          "date": "2020-01-01",
+          "date_confidence": "ongoing; dated to the decade, since the subject is living and no terminal date exists",
+          "campa": "The workflow has not changed since the 386. Patches arrive by mail, he reads them, argues, and merges, from a house in the Oregon woods rather than an office tower. Git, written in four days to rescue the process, is now the version control system most of the world uses. There is no tomb here to visit and no monument to photograph. The trace he leaves is a commit log, public and still being added to. The man who told the newsgroup his hobby would not be big governs the most widely deployed kernel on earth.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The public Linux kernel git history on kernel.org, the only monument the subject has"],
+          "sources": ["kernel.org release announcements", "Linux Foundation public statements"]
+        }
+      ]
+    }
+  ]
+}
