@@ -1,0 +1,771 @@
+{
+ "traveler": "Robert Elliot Kahn (Bob Kahn)",
+ "title": "La pasarela y el despacho todavía ocupado: Kahn, el protocolo y un viaje que no acaba en tumba",
+ "years": "1938-",
+ "calendar": "gregorian",
+ "register": "mitología nacional: el canon es verdadero",
+ "segments": [
+  {
+   "name": "El muestreo de señales",
+   "stops": [
+    {
+     "name": "Brooklyn, el nacimiento",
+     "lat": 40.6782,
+     "lng": -73.9442,
+     "date": "1938-12-23",
+     "date_confidence": "Attested to the day and invariant across sources: Wikipedia, 'Bob Kahn', gives 23 December 1938, Brooklyn, New York, parents Lawrence and Beatrice Pauline Kahn, an Ashkenazi Jewish family. No source consulted names the hospital or the neighborhood within the borough, and none claims to. The coordinate is the Brooklyn centroid and stands for a borough, not for a building.",
+     "campa": "Robert Elliot Kahn nace en Brooklyn el veintitrés de diciembre de 1938, hijo de Lawrence y Beatrice Pauline Kahn. La familia es judía asquenazí, y el distrito es todo lo que concede el registro: ninguna fuente consultada nombra el hospital, y ninguna nombra la calle. Dedicará su vida laboral a una sola pregunta, la de cómo cruza un mensaje un terreno que no puede ver. La coordenada de aquí es el centroide de Brooklyn y vale por un distrito entero, no por una puerta.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "Brooklyn, New York, birthplace named in every published biography and in no anecdote"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'",
+      "Internet Hall of Fame, inductee biography of Robert Kahn"
+     ]
+    },
+    {
+     "name": "City College de Nueva York, el título de ingeniería",
+     "lat": 40.82,
+     "lng": -73.9493,
+     "date": "1960-06-01",
+     "date_confidence": "Attested year, defaulted month and day: Wikipedia, 'Bob Kahn', gives a bachelor's degree in electrical engineering from City College of New York in 1960. June is a commencement default and is not sourced. The coordinate is the Convent Avenue campus in Harlem, which is the only City College campus the sources name.",
+     "campa": "Kahn se licencia en ingeniería eléctrica por el City College de Nueva York, en el campus de Convent Avenue, en Harlem, la universidad municipal gratuita que lleva un siglo convirtiendo en ingenieros a los hijos de los inmigrantes. Tiene veintiún años. Cuarenta y cinco años después la asociación de antiguos alumnos lo hará volver a este mismo campus para colgarle la medalla Townsend Harris, y para entonces la red que él construyó llevará el correo del mundo. Entre una visita y otra no aparece en esta coordenada ni una sola vez.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "City College of New York, Convent Avenue campus, bachelor's degree 1960 and Townsend Harris Medal 2005"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'"
+     ]
+    },
+    {
+     "name": "Murray Hill, el personal técnico de los Laboratorios Bell",
+     "lat": 40.687,
+     "lng": -74.3986,
+     "date": "1960-09-01",
+     "date_confidence": "Employment attested, date and site reconstructed. CNRI's own institutional biography of Kahn, a primary source, states that he 'worked on the Technical Staff at Bell Laboratories' and places it before the MIT professorship; it gives no dates. The research pool's chronology lens dated this 1964, which is the year of the Princeton doctorate and cannot be right; its geography lens reconstructs c. 1960 to 1962, between the City College degree and the doctorate, which is the only reading consistent with the sequence. Which Bell Labs site held him is unrecorded in anything reached; Murray Hill is a guess and is marked as one. Holmdel and Whippany are equally available.",
+     "campa": "Entre el título del City College y el doctorado de Princeton, Kahn trabaja en el personal técnico de los Bell Telephone Laboratories, la casa de investigación industrial que ya ha dado el transistor y la propia teoría de la información. La semblanza institucional del CNRI declara el empleo sin fecharlo. En cuál de las sedes de Bell estuvo no consta en nada de lo alcanzado: Murray Hill es una conjetura y así queda marcada. Tiene poco más de veinte años. No existe todavía una sola red de conmutación de paquetes en el mundo.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "CNRI institutional biography of Robert E. Kahn, cnri.reston.va.us, naming the Bell Laboratories technical staff"
+     ],
+     "sources": [
+      "CNRI institutional biography, cnri.reston.va.us/bios/kahn.html",
+      "Marconi Society and secondary biographical summaries",
+      "Wikipedia, 'Bob Kahn'"
+     ]
+    },
+    {
+     "name": "Princeton, el máster",
+     "lat": 40.348,
+     "lng": -74.6555,
+     "date": "1962-06-01",
+     "date_confidence": "Attested year, defaulted month and day: Wikipedia, 'Bob Kahn', gives a Master of Arts in electrical engineering from Princeton University in 1962, with Bede Liu as doctoral advisor. The coordinate is the Engineering Quadrangle, named in the research pool's geography lens; no source places him in a particular room or laboratory.",
+     "campa": "Kahn obtiene un máster en ingeniería eléctrica en Princeton, en el Engineering Quadrangle, y se queda allí para el doctorado. Tiene veintitrés años. Trabaja con Bede Liu sobre la matemática de las señales: cómo una onda continua en el tiempo puede cortarse en muestras, transportarse a trozos y rehacerse entera al otro extremo. Nada de la materia toca los ordenadores. Le quedan dos años de doctorado, y los pasa sobre formas de onda y no sobre mensajes.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "Princeton University Engineering Quadrangle, where Kahn worked under Bede Liu"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'"
+     ]
+    },
+    {
+     "name": "Princeton, algunos problemas del muestreo y la modulación de señales",
+     "lat": 40.348,
+     "lng": -74.6555,
+     "date": "1964-06-01",
+     "date_confidence": "Attested year and title, defaulted month and day: Wikipedia, 'Bob Kahn', gives the PhD in electrical engineering at Princeton in 1964 with the dissertation title 'Some problems in the sampling and modulation of signals.' The date of the defense is not recorded in any source reached; June is a default.",
+     "campa": "El doctorado se concede en 1964. La tesis se titula 'Some problems in the sampling and modulation of signals', y trata del corte de una cosa continua en piezas discretas que puedan transportarse y recomponerse. Nueve años más tarde estará haciendo la misma operación con mensajes en lugar de formas de onda, y llamará paquetes a las piezas. Deja Princeton por un puesto docente en Cambridge. Todavía no hay ARPANET, ni se ha adjudicado contrato alguno para construirla.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "Kahn's Princeton dissertation, 'Some problems in the sampling and modulation of signals,' 1964"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cambridge y la máquina entre máquinas",
+   "stops": [
+    {
+     "name": "MIT, la plaza de profesor ayudante",
+     "lat": 42.3593,
+     "lng": -71.0935,
+     "date": "1964-09-01",
+     "date_confidence": "Appointment attested, dates reconstructed. CNRI's institutional biography states that Kahn 'became an Assistant Professor of Electrical Engineering at MIT'; the research pool's two lenses both tagged this [R] and both under-claimed it, one dating it 1966 and one c. 1964 to 1966. CNRI and the standard accounts have him at MIT from roughly 1964 and taking leave in 1966 for BBN, so 1966 is a departure year, not a start. September 1964 is an academic-year default. The coordinate is MIT's main campus and is confirmed correct by the pool.",
+     "campa": "Kahn entra como profesor ayudante de ingeniería eléctrica en el Instituto Tecnológico de Massachusetts. La semblanza institucional del CNRI declara el nombramiento; los años que lo rodean son reconstrucción. Enseña unos dos años y luego pide una excedencia, con la idea de pasar una temporada en la industria y volver. No vuelve. La excedencia dura hasta el final de su vida laboral, y la industria en la que entra es una pequeña consultora de acústica al otro lado del río que acaba de recibir el encargo de construir una red.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "MIT Department of Electrical Engineering, the professorship Kahn took leave from in 1966 and never resumed"
+     ],
+     "sources": [
+      "CNRI institutional biography, cnri.reston.va.us/bios/kahn.html",
+      "Wikipedia, 'Bob Kahn'"
+     ]
+    },
+    {
+     "name": "Cambridge, 10 Moulton Street",
+     "lat": 42.3906,
+     "lng": -71.1418,
+     "date": "1966-01-01",
+     "date_confidence": "Role attested, year reconstructed. Wikipedia, 'Bob Kahn', confirms that he worked at Bolt Beranek and Newman as principal designer on the ARPANET, but its Career section gives no year at all: it says only that 'Kahn first worked at Bolt Beranek and Newman Inc.' The 1966 date comes from elsewhere and is carried as reconstruction; month and day are defaults. The address is corrected: BBN's Cambridge headquarters, the IMP building, was 10 Moulton Street, not the 50 Moulton Street the research pool gave. The coordinate is the atlas's canonical BBN pin, inherited byte-identical from vint_cerf.journey.json, stop 'Cambridge, the working group at BBN'.",
+     "campa": "Bolt Beranek and Newman ocupa un edificio bajo de ladrillo en el 10 de Moulton Street, y Kahn llega a él como un hombre en excedencia de una cátedra. Se convierte en diseñador principal de ARPANET y escribe buena parte de la propuesta técnica con la que BBN gana el contrato para construir los Interface Message Processors, las máquinas que se interpondrán entre cada ordenador anfitrión y la red. El atlas ya guarda esta coordenada, tomada del archivo de Vint Cerf, donde BBN figura como sede del Network Working Group y donde Kahn no se nombra.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "Bolt Beranek and Newman, 10 Moulton Street, Cambridge, and the Interface Message Processor proposal"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'",
+      "working/journeys/vint_cerf.journey.json (canonical BBN Cambridge pin)"
+     ]
+    },
+    {
+     "name": "Boelter Hall, el primer nodo",
+     "lat": 34.0689,
+     "lng": -118.4452,
+     "date": "1969-09-01",
+     "date_confidence": "Attested to the month: the first ARPANET node was installed at UCLA in September 1969, and Wikipedia's articles on Vint Cerf and Bob Kahn both place their meeting at UCLA in this period. The day is a default. Kahn's own physical presence in Boelter Hall on the installation date is not attested; what is attested is that he worked on the system architecture and that the two men met here. The coordinate is the atlas's canonical Boelter Hall pin, inherited byte-identical from vint_cerf.journey.json, in preference to the research pool's 34.0689, -118.4432.",
+     "campa": "El primer Interface Message Processor se instala en la UCLA, en Boelter Hall, y la red que Kahn ayudó a especificar pasa a ser una cosa con un nodo. Está aquí por la arquitectura, y aquí conoce a un joven ingeniero llamado Vint Cerf, cuyo propio viaje en este atlas abre su segundo tramo en esta misma coordenada. Los dos pasarán la década siguiente escribiendo las reglas con que una clase de red habla con otra. La máquina que hay en la sala es un miniordenador Honeywell sin pantalla.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "Boelter Hall 3420, UCLA, site of the first ARPANET Interface Message Processor"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'",
+      "Wikipedia, 'Vint Cerf'",
+      "working/journeys/vint_cerf.journey.json (canonical Boelter Hall pin)"
+     ]
+    },
+    {
+     "name": "SRI International, el segundo nodo",
+     "lat": 37.453,
+     "lng": -122.1817,
+     "date": "1969-10-29",
+     "date_confidence": "Attested to the day: Wikipedia, 'History of the Internet', gives 29 October 1969 for the first host-to-host message from UCLA to SRI, the second ARPANET node. Kahn's presence at SRI on that day is not attested and is not claimed here; the stop marks the network his architecture work underlies reaching two nodes. The coordinate is the atlas's canonical SRI pin, shared byte-identical with vint_cerf.journey.json.",
+     "campa": "El segundo nodo entra en servicio en el Stanford Research Institute, en Menlo Park, y el veintinueve de octubre el primer mensaje entre anfitriones cruza desde la UCLA hasta este edificio. Dos nodos hacen una red. La arquitectura en la que Kahn trabajó en BBN tiene ya algo que llevar. Ocho años después, casi por el mismo mes, una furgoneta de este mismo instituto recorrerá una autopista de California con una radio dentro y demostrará que tres redes de clases enteramente distintas pueden hacerse funcionar como una sola.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "SRI International, 333 Ravenswood Avenue, Menlo Park, second ARPANET node"
+     ],
+     "sources": [
+      "Wikipedia, 'History of the Internet'",
+      "working/journeys/vint_cerf.journey.json (canonical SRI pin)"
+     ]
+    },
+    {
+     "name": "El Hilton Washington, veinte ordenadores en un hotel",
+     "lat": 38.9169,
+     "lng": -77.0455,
+     "date": "1972-10-24",
+     "date_confidence": "Attested in date, venue, and Kahn's organizing role: Wikipedia's article on the International Conference on Computer Communications gives 24 to 26 October 1972 at the Hilton Washington, organised by BBN under Kahn's direction with Larry Roberts as conference chair. Two corrections to the research pool are carried here. The number of machines is 20, per Wikipedia 'Bob Kahn', the Internet Hall of Fame biography, and the pool's own chronology lens; the pool's geography lens said 'some forty' and is wrong. The pool's coordinates 38.9207, -77.0431 fall roughly 500 m northeast of the hotel and are replaced.",
+     "campa": "En la Conferencia Internacional sobre Comunicación por Ordenador, celebrada en el Hilton Washington del veinticuatro al veintiséis de octubre, Kahn organiza la primera demostración pública de ARPANET: veinte ordenadores, cableados dentro de un hotel, respondiendo a desconocidos. Larry Roberts preside la conferencia; BBN lleva la sala bajo su dirección. Después se dirá que fue el acto que convenció a los escépticos de que la conmutación de paquetes era real y no un artículo de investigación. Tiene treinta y tres años, y es lo último que hace para BBN.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The 1972 International Conference on Computer Communications at the Hilton Washington, first public ARPANET demonstration"
+     ],
+     "sources": [
+      "Wikipedia, 'International Conference on Computer Communications'",
+      "Wikipedia, 'Bob Kahn'",
+      "Internet Hall of Fame, inductee biography of Robert Kahn"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Arlington y las redes que no se ven entre sí",
+   "stops": [
+    {
+     "name": "Arlington, la Oficina de Técnicas de Procesamiento de Información",
+     "lat": 38.8951,
+     "lng": -77.0722,
+     "date": "1972-11-01",
+     "date_confidence": "Attested year, defaulted month and day: Wikipedia, 'Bob Kahn', has him moving from BBN to DARPA's Information Processing Techniques Office in 1972 and working on the SATNET satellite packet project, where he develops the initial concepts of the Transmission Control Protocol. November is placed after the October ICCC demonstration and is a narrative default, not a sourced month. The coordinate is the atlas's canonical DARPA Arlington pin from vint_cerf.journey.json, used in preference to the research pool's 38.8956, -77.0715.",
+     "campa": "Kahn cruza del lado del contratista al del gobierno y entra en la Oficina de Técnicas de Procesamiento de Información de DARPA, en Arlington. Le dan el proyecto de paquetes por satélite, SATNET, y se encuentra con tres redes que funcionan de tres maneras incompatibles: una por cable, otra por radio y otra que pasa por el cielo. Nada las une. Los primeros conceptos de lo que se llamará Protocolo de Control de Transmisión se trabajan aquí, en un edificio de oficinas, por un hombre que ahora financia el trabajo en lugar de hacerlo.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "DARPA Information Processing Techniques Office, Arlington, and the SATNET satellite packet program"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'",
+      "working/journeys/vint_cerf.journey.json (canonical DARPA Arlington pin)"
+     ]
+    },
+    {
+     "name": "Stanford, el problema llevado a Cerf",
+     "lat": 37.4275,
+     "lng": -122.1697,
+     "date": "1973-01-01",
+     "date_confidence": "Attested in substance, defaulted in date. Wikipedia, 'Bob Kahn', has Cerf joining the internetworking project in 1973; vint_cerf.journey.json, stop 'Stanford, the assistant professorship', states plainly that 'Robert Kahn brings him the problem directly from DARPA' and dates that stop 1972-09-01. January 1973 is a default inside the overlap of the two datings and no source gives a month. The coordinate is the atlas's canonical Stanford pin, confirmed present in diffie.journey.json, hellman.journey.json, ralph_merkle.journey.json, and nick_szabo.journey.json.",
+     "campa": "Kahn lleva el problema de la interconexión de redes a Stanford y lo pone delante de Vint Cerf, recién nombrado profesor ayudante allí. El archivo de Cerf en este atlas registra el momento en una sola línea: Robert Kahn le trae el problema directamente desde DARPA. La coordenada es el pin canónico de Stanford, el mismo que pisan Whitfield Diffie, Martin Hellman, Ralph Merkle y Nick Szabo. La criptografía y la interconexión de redes se inventan a unos cientos de metros la una de la otra, con pocos años de diferencia.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "Stanford University, the assistant professorship where Cerf received the internetworking problem from DARPA"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'",
+      "working/journeys/vint_cerf.journey.json",
+      "working/journeys/diffie.journey.json (canonical Stanford pin)"
+     ]
+    },
+    {
+     "name": "Universidad de Sussex, el grupo de trabajo internacional",
+     "lat": 50.8664,
+     "lng": -0.0866,
+     "date": "1973-09-01",
+     "date_confidence": "Meeting attested, Kahn's attendance not. The September 1973 International Network Working Group meeting at Sussex is well documented in internet-history literature and Cerf's presence is attested; the research pool states explicitly that Kahn's personal attendance, as distinct from Cerf's, was not confirmed this session. The stop is therefore about the idea rather than the man, and is tagged as reconstruction on that point. The coordinate is the atlas pin from vint_cerf.journey.json; the pool gave 50.8674, -0.0879, one thousandth of a degree away.",
+     "campa": "En el campus de Falmer, a las afueras de Brighton, se reúne el International Network Working Group, y el concepto de interconexión de redes que Kahn y Cerf vienen construyendo se presenta por primera vez ante un público internacional. Que Kahn esté en la sala no consta en ninguna parte; la presencia de Cerf sí, y la parada marca la idea antes que al hombre. El pin del atlas se hereda del archivo de Cerf, a una milésima de grado del que la investigación aportó para este mismo campus.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The September 1973 International Network Working Group meeting, University of Sussex, Falmer"
+     ],
+     "sources": [
+      "Internet-history literature on the INWG",
+      "working/journeys/vint_cerf.journey.json (canonical Sussex pin)"
+     ]
+    },
+    {
+     "name": "Palo Alto, el esbozo en papel de hotel",
+     "lat": 37.4075,
+     "lng": -122.125,
+     "date": "1973-10-01",
+     "date_confidence": "Tradition, not attestation, and the coordinate is contested three ways. The research pool could not confirm the hotel anecdote against any primary source. Its geography lens gives 37.4177, -122.1255 and names the Hyatt Cabana; that lens's own correction note places the Hyatt Cabana at 4290 El Camino Real, roughly 37.405, -122.115, and warns the search budget ran out before the address could be re-fetched; vint_cerf.journey.json pins the same episode at 37.4075, -122.125 and flags its own coordinate as disputed. The atlas pin is inherited on the interlock rule and all three readings are recorded here. Month and day are defaults inside an autumn.",
+     "campa": "La tradición sitúa a Kahn y a Cerf en un hotel de Palo Alto, sobre la franja de El Camino, en otoño, resolviendo en papel del hotel la arquitectura por capas que se partirá en un protocolo de transporte y otro de interconexión. La historia se repite en todas partes y no se confirma en ninguna, y para el hotel circulan tres coordenadas distintas. El pin propio del atlas, tomado del archivo de Cerf, viene marcado allí como disputado y se hereda aquí con la marca intacta. Lo cierto es que las capas existen en 1974 y antes no existían.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The Hyatt Cabana, 4290 El Camino Real, Palo Alto, traditional site of the Kahn and Cerf architecture session"
+     ],
+     "sources": [
+      "Widely repeated internet-history anecdote, unverified",
+      "working/journeys/vint_cerf.journey.json (canonical and self-flagged Palo Alto pin)"
+     ]
+    },
+    {
+     "name": "Stanford, el artículo que nombra la pasarela",
+     "lat": 37.4275,
+     "lng": -122.1697,
+     "date": "1974-05-01",
+     "date_confidence": "Attested to the issue: Cerf and Kahn, 'A Protocol for Packet Network Intercommunication,' IEEE Transactions on Communications COM-22 no. 5, May 1974, pp. 637 to 648. The PDF was fetched and read directly during the research pass and the quotations here are verbatim from it. The day is a default within the issue month. The research pool notes that the IEEE Xplore issue metadata was not independently re-fetched. The coordinate is the atlas's canonical Stanford pin, which vint_cerf.journey.json already uses for this same paper.",
+     "campa": "En el número de mayo de 1974 de IEEE Transactions on Communications, Cerf y Kahn publican 'A Protocol for Packet Network Intercommunication'. Define un anfitrión, define un conmutador de paquetes y define después aquello que no tenía nombre: la caja que se interpone entre dos redes que hablan distinto, a la que llaman gateway, pasarela. Todo enrutador que hoy existe sobre la tierra desciende de una palabra acuñada en la página 638. El artículo se asienta sobre el pin canónico de Stanford, el mismo suelo que ocupan los criptógrafos.",
+     "quote": "Resulta pues evidente que la interfaz entre redes debe ocupar un lugar central en el desarrollo de cualquier estrategia de interconexión de redes. Damos un nombre especial a esta interfaz que cumple tales funciones y la llamamos GATEWAY.",
+     "quote_source": "Vinton G. Cerf y Robert E. Kahn, 'A Protocol for Packet Network Intercommunication', IEEE Transactions on Communications, vol. COM-22 n.º 5, mayo de 1974, p. 638",
+     "suggested_refs": [
+      "Cerf and Kahn, 'A Protocol for Packet Network Intercommunication,' IEEE Trans. Comm. COM-22 no. 5, May 1974, pp. 637-648"
+     ],
+     "sources": [
+      "Cerf and Kahn, IEEE Transactions on Communications COM-22 no. 5, May 1974 (PDF fetched and read)",
+      "working/journeys/vint_cerf.journey.json (canonical Stanford pin)"
+     ]
+    },
+    {
+     "name": "Stanford, el RFC 675 y el nombre en los agradecimientos",
+     "lat": 37.4275,
+     "lng": -122.1697,
+     "date": "1974-12-01",
+     "date_confidence": "Attested to the month: RFC 675, 'Specification of Internet Transmission Control Program,' by Vinton Cerf, Yogen Dalal, and Carl Sunshine, December 1974, fetched from rfc-editor.org. Kahn is named in its acknowledgments as a contributor of good ideas and counsel; he is not an author. The day is a default. The coordinate is the atlas's canonical Stanford pin, which vint_cerf.journey.json also uses for this document.",
+     "campa": "En diciembre se publica como RFC 675 la primera especificación completa del Programa de Control de Transmisión, escrita por Cerf con Yogen Dalal y Carl Sunshine. Kahn no la firma. Aparece en los agradecimientos, mencionado entre quienes aportaron buenas ideas y consejo, que es el rastro documental que deja un director de programa: su nombre en las gracias y no en la autoría. El artículo de mayo es ya una especificación desde la cual un programador puede construir, y la construcción empieza.",
+     "quote": "Este documento describe las funciones que ha de cumplir el Programa de Control de Transmisión [TCP] entre redes, y su interfaz con los programas o usuarios que requieren sus servicios.",
+     "quote_source": "Vinton Cerf, Yogen Dalal y Carl Sunshine, RFC 675, 'Specification of Internet Transmission Control Program', diciembre de 1974, frase inicial",
+     "suggested_refs": [
+      "RFC 675, December 1974, and its acknowledgments naming R. Kahn"
+     ],
+     "sources": [
+      "RFC 675, rfc-editor.org (fetched)",
+      "working/journeys/vint_cerf.journey.json"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Las tres redes",
+   "stops": [
+    {
+     "name": "La autopista Bayshore, la furgoneta con radio",
+     "lat": 37.42,
+     "lng": -122.1,
+     "date": "1977-11-22",
+     "date_confidence": "The demonstration is attested to the day; two of its most-repeated details are not. Wikipedia, 'History of the Internet', reads: 'On November 22, 1977, a three network demonstration was conducted including the ARPANET, the SRI's Packet Radio Van on the Packet Radio Network and the Atlantic Packet Satellite Network (SATNET) including a node at UCL.' Not confirmed by that or any source reached: the Bayshore Freeway as the van's route, and the figure of roughly ninety-four thousand miles round trip without a lost bit. Both are downgraded to tradition. The coordinate is the atlas's moving-vehicle pin from vint_cerf.journey.json, which correctly separates the van from the fixed SRI building.",
+     "campa": "El veintidós de noviembre una furgoneta equipada con radio de paquetes recorre una autopista al sur de San Francisco y lanza paquetes al aire. Cruzan la Packet Radio Network, ARPANET y la Atlantic Packet Satellite Network, tres redes construidas por gente distinta y con fines distintos, y llegan intactos. La demostración es la prueba del artículo de 1974. La tradición da la autopista Bayshore como ruta y noventa y cuatro mil millas como recorrido de ida y vuelta; ninguna de las dos cifras aparece en fuente alcanzada.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "SRI's Packet Radio Van and the three-network demonstration of 22 November 1977"
+     ],
+     "sources": [
+      "Wikipedia, 'History of the Internet'",
+      "working/journeys/vint_cerf.journey.json (canonical van pin)"
+     ]
+    },
+    {
+     "name": "Goonhilly Downs, el tramo atlántico",
+     "lat": 50.0486,
+     "lng": -5.1815,
+     "date": "1977-11-22",
+     "date_confidence": "Reconstruction. Secondary internet-history accounts commonly route the SATNET leg of the 22 November 1977 demonstration through the Goonhilly Downs satellite earth station in Cornwall; the research pool found the claim in those accounts and could not confirm it against a primary technical account. What is attested is that a satellite network is in the loop and that a node at University College London is on the far side of it. The station is pinned on the tradition and marked as tradition.",
+     "campa": "El tramo de SATNET cruza el Atlántico, y la tradición de la historia de internet lo hace pasar por las grandes antenas de Goonhilly Downs, en Cornualles, la estación terrestre que llevó la primera televisión en directo a través de ese océano. Ningún relato técnico primario alcanzado en esta sesión nombra Goonhilly para el veintidós de noviembre. El pin se sostiene sobre la tradición y como tradición queda marcado. Consta que hay un salto por satélite en el circuito y que al otro lado se encuentra un nodo en Londres.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "Goonhilly Downs Satellite Earth Station, Cornwall, traditional Atlantic leg of the 1977 SATNET path"
+     ],
+     "sources": [
+      "Secondary internet-history accounts, unconfirmed",
+      "Wikipedia, 'History of the Internet' (SATNET confirmed, station not named)"
+     ]
+    },
+    {
+     "name": "University College London, el tramo lejano",
+     "lat": 51.5246,
+     "lng": -0.134,
+     "date": "1977-11-22",
+     "date_confidence": "Attested: Wikipedia, 'History of the Internet', names a node at UCL as part of the 22 November 1977 three-network demonstration. Kahn's connection to it is the DARPA program that funds Peter Kirstein's group, not his physical presence, and vint_cerf.journey.json's stop at this coordinate does not name Kahn at all. The coordinate is the atlas pin, 51.5246 / -0.134; the research pool gave -0.1339, a ten-thousandth away, and the canonical pair is used.",
+     "campa": "El University College de Londres sostiene el nodo lejano de la demostración de las tres redes, en el grupo de Peter Kirstein, financiado por el programa de DARPA que Kahn dirige. Los paquetes que salieron de una furgoneta en una autopista de California llegan a Gower Street y dan la vuelta. El atlas ya trae esta coordenada del archivo de Cerf, donde la misma parada se llama el tramo lejano; allí Kahn no se nombra, y su relación con el lugar es el dinero y la arquitectura, no su cuerpo en la sala.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "University College London, Gower Street, early SATNET node under Peter Kirstein"
+     ],
+     "sources": [
+      "Wikipedia, 'History of the Internet'",
+      "working/journeys/vint_cerf.journey.json (canonical UCL pin)"
+     ]
+    },
+    {
+     "name": "Marina del Rey, el tramo de regreso",
+     "lat": 33.98,
+     "lng": -118.44,
+     "date": "1977-11-22",
+     "date_confidence": "Reconstruction. Retellings of the 1977 demonstration commonly loop the returning stream through USC's Information Sciences Institute at Marina del Rey; the research pool states plainly that it did not confirm ISI's role this session. The coordinate is the atlas's canonical Marina del Rey pin, used twice in vint_cerf.journey.json for the Admiralty Way building later occupied by ICANN, rather than the pool's 33.9803, -118.4517. ISI and ICANN sit on the same block of the same street, which is why the pin is reused; that reuse is a convenience, not a claim that they are one address.",
+     "campa": "Los relatos de la demostración hacen pasar el flujo de vuelta por el Information Sciences Institute de la USC, en Marina del Rey, antes de que cierre su circuito. El papel se cita a menudo y no se confirmó en esta sesión. La coordenada es el pin canónico de Marina del Rey, usado dos veces en el archivo de Cerf para el edificio de Admiralty Way que más tarde albergará a la ICANN; la misma manzana de la misma calle acoge al ISI. Dos instituciones que entre ambas gobiernan los nombres y los números de la red comparten un solo pin.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "USC Information Sciences Institute, Admiralty Way, Marina del Rey"
+     ],
+     "sources": [
+      "Commonly cited in internet-history retellings, unconfirmed",
+      "working/journeys/vint_cerf.journey.json (canonical Marina del Rey pin)"
+     ]
+    },
+    {
+     "name": "Arlington, el protocolo se parte en dos",
+     "lat": 38.8951,
+     "lng": -77.0722,
+     "date": "1978-01-01",
+     "date_confidence": "Attested year, no attested place or month. Wikipedia, 'Bob Kahn', dates to 1978 the splitting of the Transmission Control Protocol into TCP for host-to-host transport and IP for internetwork addressing and routing. No source reached names a location for the decision, and the design work is distributed across Stanford, DARPA, BBN, and elsewhere. The DARPA pin is an administrative placement, not a room where it happened, and month and day are defaults.",
+     "campa": "El Protocolo de Control de Transmisión se corta por la mitad. Lo que queda como TCP atiende la conversación entre dos anfitriones; lo que se le quita pasa a ser IP y atiende solo el direccionamiento y el encaminamiento entre redes, sin saber nada de la conversación que transporta. La partición es la razón de que la cosa escale: a una red a la que no hay que avisar de nada puede sumarse cualquiera. Ninguna ceremonia lo marca y ningún lugar consta. El pin es la oficina de DARPA, una colocación administrativa y no una sala.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The 1978 separation of TCP from IP, the layering that made the internet joinable without permission"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'",
+      "working/journeys/vint_cerf.journey.json (canonical DARPA Arlington pin)"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "La dirección",
+   "stops": [
+    {
+     "name": "Arlington, el despacho del director",
+     "lat": 38.8951,
+     "lng": -77.0722,
+     "date": "1979-01-01",
+     "date_confidence": "Attested year, defaulted month and day: Wikipedia, 'Bob Kahn', has him becoming director of DARPA's Information Processing Techniques Office in 1979. The same source's awards list gives his election as an IEEE Fellow in 1981; no ceremony, city, or venue is recorded for that anywhere reached, which is why it is folded into this stop rather than given a pin of its own. The coordinate is the atlas's canonical DARPA Arlington pin.",
+     "campa": "Kahn pasa a dirigir la Oficina de Técnicas de Procesamiento de Información, el puesto de DARPA que ha financiado casi todo lo ocurrido en la informática estadounidense desde que lo ocupó Licklider. Dos años después será nombrado Fellow del IEEE, y de esa ceremonia no consta nada en ninguna fuente alcanzada. Desde esta mesa decide ahora qué se construye. El protocolo que codiseñó sigue siendo un sistema de investigación que corre en unos cientos de máquinas, y la decisión de hacerlo la única lengua de la red aún no se ha tomado.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The DARPA IPTO directorship, 1979, and the IEEE Fellowship of 1981 with no recorded ceremony"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'",
+      "working/journeys/vint_cerf.journey.json (canonical DARPA Arlington pin)"
+     ]
+    },
+    {
+     "name": "Arlington, el día de la bandera",
+     "lat": 38.8951,
+     "lng": -77.0722,
+     "date": "1983-01-01",
+     "date_confidence": "The event is attested to the day; Kahn's personal presence is not. On 1 January 1983 the Network Control Program was switched off across the ARPANET and TCP/IP became mandatory. vint_cerf.journey.json, stop 'Arlington, Flag Day', states that DARPA Arlington is the administrative center for the cutover and that no ceremonial site is documented, and it does not attest anyone's presence on the day. That hedge is carried here unchanged.",
+     "campa": "El primero de enero se apaga en toda ARPANET el viejo Network Control Program y TCP/IP queda como única manera de hablar en ella. Las máquinas que no se han convertido enmudecen. Se lo recuerda como el día de la bandera, y es el momento en que el protocolo que escribieron Kahn y Cerf deja de ser un experimento y pasa a ser el suelo. El archivo de Cerf registra que DARPA Arlington administra el cambio y que no consta lugar ceremonial alguno; si Kahn está en su mesa esa mañana no lo atestigua nadie.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The TCP/IP flag day of 1 January 1983, when NCP was switched off across the ARPANET"
+     ],
+     "sources": [
+      "working/journeys/vint_cerf.journey.json, stop 'Arlington, Flag Day'",
+      "Wikipedia, 'History of the Internet'"
+     ]
+    },
+    {
+     "name": "Arlington, la Strategic Computing Initiative",
+     "lat": 38.8951,
+     "lng": -77.0722,
+     "date": "1983-10-01",
+     "date_confidence": "Kahn's authorship of the initiative is attested by Wikipedia, 'Bob Kahn'; the launch year is high confidence but unrefetched. The research pool's chronology lens welded the Strategic Computing Initiative onto the 1979 IPTO directorship as though they were one event on one date, which is wrong: SCI launched in 1983 and ran to about 1993. The pool's own correction note states that the web-search budget was exhausted before the 1983 date could be re-fetched from a source. Month and day are defaults.",
+     "campa": "Kahn pone en marcha la Strategic Computing Initiative, el mayor programa de investigación y desarrollo informático que ha emprendido el gobierno federal, con cerca de una década de recorrido entre la inteligencia de las máquinas, la fabricación de chips y las arquitecturas que sostienen ambas cosas. La investigación soldó esto a su nombramiento de 1979 y dio a los dos una sola fecha; el arranque es de 1983, y ese año no pudo comprobarse de nuevo antes de agotarse el presupuesto de búsqueda, así que se recoge con alta confianza y sin recomprobar. Le quedan tres años en la agencia.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The DARPA Strategic Computing Initiative, launched 1983, running to about 1993"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'",
+      "working/journeys/vint_cerf.journey.json (canonical DARPA Arlington pin)"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Reston y la corporación",
+   "stops": [
+    {
+     "name": "Reston, la Corporation for National Research Initiatives",
+     "lat": 38.9558,
+     "lng": -77.355,
+     "date": "1986-01-01",
+     "date_confidence": "Attested year, defaulted month and day: Wikipedia, 'Bob Kahn', has him leaving DARPA after roughly thirteen years and founding CNRI in Reston, Virginia, in 1986, serving as chairman, CEO, and president. Cerf's arrival as vice president in the same year is attested by vint_cerf.journey.json, stop 'Reston, back with Kahn at CNRI'. The research pool gave three different Reston coordinates across its lenses, 38.9522 / -77.357, 38.9586 / -77.357, and the interlock pin 38.9558 / -77.355; the atlas pin is used and the divergence is recorded rather than averaged. The street address 1895 Preston White Drive is the pool's own reconstruction.",
+     "campa": "Tras trece años en DARPA, Kahn deja el gobierno y funda en Reston la Corporation for National Research Initiatives, una entidad sin ánimo de lucro para levantar infraestructura de investigación destinada a una infraestructura nacional de información que todavía no existe. Es presidente del consejo, director ejecutivo y presidente, y treinta y seis años después seguirá teniendo los tres cargos. Vint Cerf se incorpora aquí como vicepresidente ese mismo año, la primera vez desde 1972 que los dos hombres están dentro de una misma institución.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "Corporation for National Research Initiatives, Reston, Virginia, founded 1986"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'",
+      "working/journeys/vint_cerf.journey.json (canonical Reston pin, stop 'Reston, back with Kahn at CNRI')"
+     ]
+    },
+    {
+     "name": "Reston, la Infraestructura Nacional de Información",
+     "lat": 38.9558,
+     "lng": -77.355,
+     "date": "1986-06-01",
+     "date_confidence": "The coinage is attested; the year is not. The Internet Hall of Fame's inductee biography of Robert Kahn states that he 'coined the term National Information Infrastructure (NII) in the mid 1980s' and gives nothing narrower. The research pool tagged 1986 as attested to that source, which the source does not support; the year here is a placement inside a range and the month is a default chosen only to sit after the CNRI founding. No evidence orders the two events.",
+     "campa": "Kahn acuña el término National Information Infrastructure para aquello que intenta que se construya: un tejido de red pública sobre el que pueda transportarse cualquier cosa. La prensa lo abrevia como autopista de la información, y es la versión abreviada la que se hace famosa y luego motivo de burla, mientras la frase que Kahn escribió se queda dentro de los documentos de política. El Internet Hall of Fame fecha la acuñación solo a mediados de los ochenta; ninguna fuente alcanzada da un año, y el que aquí se imprime es una colocación dentro de un intervalo.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "Internet Hall of Fame inductee biography of Robert Kahn, on the coinage of National Information Infrastructure"
+     ],
+     "sources": [
+      "Internet Hall of Fame, inductee biography of Robert Kahn",
+      "Wikipedia, 'Bob Kahn'"
+     ]
+    },
+    {
+     "name": "Reston, la Internet Society",
+     "lat": 38.9558,
+     "lng": -77.355,
+     "date": "1992-01-01",
+     "date_confidence": "Attested year, reconstructed location. Wikipedia, 'Bob Kahn', has him co-founding the Internet Society with Vint Cerf in 1992. The research pool states plainly that no source consulted names an exact founding location or event, and that Reston is a reconstruction from where Kahn was working, not an attested site. Month and day are defaults. The coordinate is the atlas's canonical Reston pin, which vint_cerf.journey.json also uses for its own Internet Society stop.",
+     "campa": "Kahn y Cerf fundan la Internet Society, un cuerpo que sostenga el proceso de normalización fuera de todo gobierno y de toda empresa, justo cuando la red deja de ser un proyecto de investigación pagado por un ministerio de defensa y empieza a ser infraestructura. Ninguna fuente consultada nombra un lugar ni un acto de fundación. Reston es donde Kahn trabaja, así que en Reston lo pone el atlas, y la colocación es reconstrucción. La misma sociedad lo llevará a su Hall of Fame veinte años más tarde.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The Internet Society, co-founded 1992 by Kahn and Cerf, founding venue unattested"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'",
+      "working/journeys/vint_cerf.journey.json, stop 'Reston, the Internet Society'"
+     ]
+    },
+    {
+     "name": "Reston, el Handle System",
+     "lat": 38.9558,
+     "lng": -77.355,
+     "date": "1995-01-01",
+     "date_confidence": "The work is attested to CNRI; the year is not attested at all. Wikipedia, 'Bob Kahn', credits the Digital Object Architecture and the Handle System to his work at CNRI without giving a start date, and no source reached this session supplies one. The date printed here marks a decade of development rather than a moment, and month and day are defaults. The coordinate is the atlas's canonical Reston pin.",
+     "campa": "En el CNRI, Kahn desarrolla la Digital Object Architecture y el Handle System: un modo de dar a una cosa de la red un nombre permanente que sobreviva al traslado de la cosa, para que una cita no se pudra cuando alguien cambia de nombre un servidor. Es el mismo problema de la interconexión de redes una capa más arriba, la identidad separada del lugar. Ninguna fuente alcanzada fecha el trabajo en un año; la fecha de aquí marca una década y no un momento. Los números DOI de los artículos académicos son su descendencia más visible.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The Handle System and the Digital Object Architecture, developed at CNRI, undated in reachable sources"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn'",
+      "CNRI institutional biography, cnri.reston.va.us/bios/kahn.html"
+     ]
+    },
+    {
+     "name": "Reston, Al Gore e internet",
+     "lat": 38.9558,
+     "lng": -77.355,
+     "date": "2000-09-29",
+     "date_confidence": "Attested to the day, with the research pool's date corrected. Wikipedia's article on Al Gore and information technology cites the Kahn and Cerf statement 'Al Gore and the Internet' as dated 29 September 2000; The Register republished it on 2 October 2000, and that republication is the version that circulated widely. The pool gave 28 September, which nothing supports. No location is attested for the writing; the Reston pin is where Kahn works and is a placement, not a claim. No verbatim line from the statement was captured in the research pool, so this stop carries no quote.",
+     "campa": "Con una campaña presidencial convirtiendo un comentario de Al Gore en un chiste sobre quién inventó internet, Kahn y Cerf publican una declaración conjunta que expone lo que Gore hizo de verdad: la legislación y el dinero, durante años, sin los cuales la red no habría salido del laboratorio. The Register la reproduce tres días después y esa es la versión que circula. Dos hombres a quienes se llama padres de internet dedican una página a explicar que el título simplifica y que en la obra hubo muchas manos.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "Cerf and Kahn, 'Al Gore and the Internet,' 29 September 2000, republished in The Register 2 October 2000"
+     ],
+     "sources": [
+      "Wikipedia, 'Al Gore and information technology'",
+      "The Register, 2 October 2000"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Las medallas",
+   "stops": [
+    {
+     "name": "Universidad de Columbia, el Premio Marconi",
+     "lat": 40.8075,
+     "lng": -73.9626,
+     "date": "1994-01-01",
+     "date_confidence": "Award and year attested, venue reconstructed. Wikipedia, 'Bob Kahn', and the Marconi Society fellows page give the Marconi Prize and Marconi Fellowship for 1994; the Marconi Society's own page was not accessible in full during the research pass, so the year rests on the Wikipedia awards list. Columbia University, which hosts Marconi Society ceremonies in this period, is the research pool's plausible reconstruction of the venue and is marked as one. Month and day are defaults.",
+     "campa": "Kahn es nombrado Marconi Fellow. La Sociedad Marconi distingue el trabajo que pone en contacto a las personas a distancia, y el hombre que le da nombre pasó su vida en el mismo problema con otro instrumental. El lugar de la ceremonia de 1994 no está confirmado; Columbia, donde la sociedad celebró actos en estos años, es la reconstrucción y así queda marcada. El pin queda a poco más de tres kilómetros Manhattan arriba del campus del City College donde se licenció treinta y cuatro años antes.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The Marconi Prize and Fellowship, 1994; Marconi Society fellows page, inaccessible in full this pass"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn' (awards list)",
+      "Marconi Society fellows page (named, not reached in full)"
+     ]
+    },
+    {
+     "name": "La Casa Blanca, la Medalla Nacional de Tecnología",
+     "lat": 38.8977,
+     "lng": -77.0365,
+     "date": "1997-12-01",
+     "date_confidence": "Attested to the month: the Internet Hall of Fame's inductee biography of Robert Kahn records the National Medal of Technology presented by President Bill Clinton in December 1997 jointly to Kahn and Cerf, 'for founding and developing the Internet.' The day is a default. The research pool's afterlife lens reconstructed a generic Washington venue and hedged it; the White House is attested by the Internet Hall of Fame and by vint_cerf.journey.json's stop of the same name. The coordinate is the atlas's canonical White House pin, confirmed present in bill_clinton.journey.json and george_w_bush.journey.json.",
+     "campa": "El presidente Clinton impone la Medalla Nacional de Tecnología a Kahn y a Cerf juntos, con una mención que dice por fundar y desarrollar internet. Es la primera de las dos ocasiones en que esta pareja será condecorada en este edificio. La coordenada es el pin canónico de la Casa Blanca, compartido con el archivo del propio Bill Clinton y con el de George W. Bush; varios viajes de este corpus se cruzan sobre el mismo cuadrado de césped, cada uno desde su lado del apretón de manos.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The National Medal of Technology, December 1997, presented jointly to Kahn and Cerf"
+     ],
+     "sources": [
+      "Internet Hall of Fame, inductee biography of Robert Kahn",
+      "working/journeys/vint_cerf.journey.json",
+      "working/journeys/bill_clinton.journey.json (canonical White House pin)"
+     ]
+    },
+    {
+     "name": "Pavía, el doctorado honoris causa",
+     "lat": 45.1847,
+     "lng": 9.1582,
+     "date": "1998-01-01",
+     "date_confidence": "Attested year, no attested date or ceremony detail: Wikipedia, 'Bob Kahn', awards list, gives an honorary degree from the University of Pavia in 1998. Month and day are defaults. The wider list of honorary degrees is a stated gap: a secondary summary names Princeton, ETH Zurich, the University of Maryland, and George Mason among the institutions, and none of those was verified against a university source in the research pass.",
+     "campa": "La Universidad de Pavía, fundada en 1361 sobre la Strada Nuova, da a Kahn un doctorado honoris causa. Es el primero de una serie de ellos en universidades europeas y estadounidenses, y la lista de los demás que aporta la investigación, la ETH de Zúrich, Maryland, George Mason, Princeton, no se contrastó con ninguna fuente universitaria y se recoge como informe y no como hecho. La universidad tiene seiscientos años más que la disciplina a la que honra, y el atlas nada puede decir de la ceremonia: ni mes, ni día, ni sala.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "University of Pavia honorary degree, 1998; the fuller honorary-degree list remains unverified"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn' (awards list)"
+     ]
+    },
+    {
+     "name": "Oviedo, el Premio Príncipe de Asturias",
+     "lat": 43.3603,
+     "lng": -5.8448,
+     "date": "2002-10-01",
+     "date_confidence": "Award and year attested, venue reconstructed. Wikipedia, 'Bob Kahn', awards list, gives the Prince of Asturias Award for Technical and Scientific Research in 2002, shared with Vint Cerf, Lawrence Roberts, and Tim Berners-Lee. October is the prize's customary ceremony month; the day is a default. The Teatro Campoamor is the traditional hall for the ceremony and was not confirmed for this particular year by any source reached, so the venue is marked as reconstruction.",
+     "campa": "En Asturias el premio de Investigación Científica y Técnica va conjuntamente a Kahn, Cerf, Lawrence Roberts y Tim Berners-Lee: los hombres que hicieron los paquetes, el direccionamiento y la web tendida encima, condecorados en una sola línea como si fuera un solo acto. El Teatro Campoamor es la sala tradicional de la ceremonia y es la reconstrucción que aquí se usa, y ninguna fuente consultada confirma esa sala para este año concreto. Kahn tiene sesenta y tres años, y este es el primero de los grandes premios europeos que le llega.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The 2002 Prince of Asturias Award for Technical and Scientific Research, Oviedo, venue unconfirmed"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn' (awards list)"
+     ]
+    },
+    {
+     "name": "City College de Nueva York, la medalla Townsend Harris",
+     "lat": 40.82,
+     "lng": -73.9493,
+     "date": "2005-05-01",
+     "date_confidence": "Attested year, no attested month: Wikipedia, 'Bob Kahn', records the Townsend Harris Medal from City College's alumni association in 2005. May is a default and is not sourced. In the same year, per the same awards list, he received the C&C Prize in Tokyo; the research pool confirms the city and year but no source consulted names the venue within Tokyo, so that award is mentioned here rather than given a pin of its own. The coordinate repeats the 1960 Convent Avenue pin exactly.",
+     "campa": "La asociación de antiguos alumnos del City College hace volver a Kahn a Convent Avenue y le entrega la medalla Townsend Harris, la que la universidad reserva a los suyos. Salió de este campus cuarenta y cinco años antes con una licenciatura y ninguna perspectiva particular. El mes dentro de 2005 no consta en ninguna fuente. Ese mismo año recibe en Tokio el Premio C&C, en una ciudad cuya sala no nombra fuente alguna alcanzada, y que por eso el atlas no llega a marcar.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The Townsend Harris Medal, City College of New York alumni association, 2005"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn' (awards list)"
+     ]
+    },
+    {
+     "name": "San Francisco, el Premio Turing",
+     "lat": 37.7749,
+     "lng": -122.4194,
+     "date": "2005-06-01",
+     "date_confidence": "The award is attested for 2004 and the presentation falls the following June; the venue is not attested. The coordinate is the atlas's award-lineage pin from vint_cerf.journey.json, stop 'San Francisco, the Turing Award', which states in that file that the ceremony venue is unconfirmed. One claim in the research pool's interlock lens is corrected: it says this pin is shared with Phil Zimmermann's EFF Pioneer Award, but a grep of phil_zimmermann.journey.json finds no occurrence of 37.7749 or -122.4194, that file's San Francisco stops sitting at -122.4016, -122.4204, -122.4286, and -122.4012. The Cerf pin is inherited; the Zimmermann claim is recorded as unverified.",
+     "campa": "La Association for Computing Machinery concede su premio A. M. Turing, el más alto de la disciplina, conjuntamente a Kahn y a Cerf, por el trabajo pionero en interconexión de redes, incluidos el diseño y la implementación de los protocolos básicos de comunicación de internet. El premio corresponde a 2004 y se entrega en junio del año siguiente. El atlas fija el linaje del galardón en San Francisco y anota en el archivo de Cerf que la sala no está confirmada; once años después el mismo premio irá a Whitfield Diffie y Martin Hellman.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The 2004 ACM A. M. Turing Award citation, jointly to Cerf and Kahn"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn' (awards list)",
+      "ACM Turing Award citation",
+      "working/journeys/vint_cerf.journey.json (award-lineage pin)"
+     ]
+    },
+    {
+     "name": "La Casa Blanca, la Medalla Presidencial de la Libertad",
+     "lat": 38.8977,
+     "lng": -77.0365,
+     "date": "2005-11-09",
+     "date_confidence": "Attested to the day: the White House press release listing 2005 Presidential Medal of Freedom recipients, and vint_cerf.journey.json's stop of the same name, both give 9 November 2005 for the joint award to Kahn and Cerf; the Internet Hall of Fame inductee biography confirms the award and the presenting president. The coordinate is the atlas's canonical White House pin, the same pair used for the 1997 medal eight years earlier and confirmed present in george_w_bush.journey.json.",
+     "campa": "El presidente George W. Bush entrega a Kahn y a Cerf la Medalla Presidencial de la Libertad, el mayor honor civil del país, en el mismo edificio donde Clinton los condecoró ocho años antes. Los dos hombres han sido honrados ya por dos administraciones de partidos contrarios por el mismo trabajo. Kahn tiene sesenta y seis años. El pin es la coordenada canónica de la Casa Blanca, compartida con el archivo del presidente que impone la medalla y con el del presidente que impuso la anterior.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "Presidential Medal of Freedom, 9 November 2005, awarded jointly to Kahn and Cerf"
+     ],
+     "sources": [
+      "White House press release, 2005 Presidential Medal of Freedom recipients",
+      "Internet Hall of Fame, inductee biography of Robert Kahn",
+      "working/journeys/george_w_bush.journey.json (canonical White House pin)"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Los salones de la fama",
+   "stops": [
+    {
+     "name": "Akron, el National Inventors Hall of Fame",
+     "lat": 41.0798,
+     "lng": -81.5219,
+     "date": "2006-05-01",
+     "date_confidence": "Induction year attested, ceremony city unresolved and flagged. Wikipedia, 'Bob Kahn', gives the National Inventors Hall of Fame induction in 2006 and vint_cerf.journey.json dates it May 2006. The research pool contradicts itself on the place: its geography lens says Akron, Ohio, hedged as the Hall's traditional city; its afterlife lens says 600 Dulany Street, Alexandria, Virginia, tagged as attested. Alexandria is anachronistic, since the Hall's museum did not occupy the USPTO campus until 2008, and by the mid-2000s the annual ceremony had generally moved out of Akron toward Washington. The atlas's Akron pin from Cerf's file is kept for continuity and the city is declared unresolved.",
+     "campa": "Kahn y Cerf entran en el National Inventors Hall of Fame, en una nómina que abren Edison y los hermanos Wright. Dónde se celebró la ceremonia de 2006 queda sin resolver: la investigación da Akron como ciudad tradicional del salón y Alexandria como dirección de su museo, y el museo no se trasladó a Alexandria hasta 2008. El atlas conserva el pin de Akron del archivo de Cerf. El viaje del propio Thomas Edison pasa a unos cientos de metros de él, por la casa de Akron donde se casó con Mina Miller.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "National Inventors Hall of Fame induction, 2006, ceremony city unresolved between Akron and the Washington area"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn' (awards list)",
+      "working/journeys/vint_cerf.journey.json, stop 'Akron, the National Inventors Hall of Fame'",
+      "working/journeys/thomas_edison.journey.json, stop 'Akron, Oak Place and Mina Miller'"
+     ]
+    },
+    {
+     "name": "Tokio, el Premio Japón",
+     "lat": 35.6875,
+     "lng": 139.7454,
+     "date": "2008-01-01",
+     "date_confidence": "Award and month attested, venue reconstructed. Wikipedia, 'Bob Kahn', gives the Japan Prize in 2008 and Wikipedia, 'Vint Cerf', dates the joint presentation to January 2008. The National Theatre of Japan is the prize's traditional hall and was not independently confirmed for this ceremony by any source reached, so the venue is reconstruction; the day is a default.",
+     "campa": "El Premio Japón va a Kahn y a Cerf, entregado en Tokio en enero. El Teatro Nacional de Japón es la sala tradicional de la ceremonia y es la reconstrucción que aquí se usa; la investigación no la confirmó para este año. Es su segundo honor tokiota en tres años. El premio se da al trabajo que ha ampliado las fronteras del conocimiento y ha servido a la paz y a la prosperidad. Kahn tiene sesenta y nueve años, y el protocolo al que alude la mención se publicó cuando tenía treinta y cinco.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The 2008 Japan Prize, presented in Tokyo in January, venue reconstructed"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn' (awards list)",
+      "Wikipedia, 'Vint Cerf'"
+     ]
+    },
+    {
+     "name": "Ginebra, el Internet Hall of Fame",
+     "lat": 46.2044,
+     "lng": 6.1432,
+     "date": "2012-04-23",
+     "date_confidence": "Attested to the day, and upgraded from the research pool's hedge. Wikipedia, 'Internet Hall of Fame', confirms that the inaugural ceremony was held on 23 April 2012 in Geneva at the Internet Society's Global INET conference, with Kahn among the Pioneers; the pool's geography lens had tagged the city as reconstruction, which is too pessimistic. One number is corrected: the pool's afterlife lens calls him 'one of 33 inaugural Pioneer Circle members', but 33 is the size of the entire inaugural class across all categories, of which 14 were Pioneers. Only the building within Geneva is unknown. The coordinate is the atlas pin from vint_cerf.journey.json.",
+     "campa": "El veintitrés de abril, en la conferencia Global INET de la Internet Society en Ginebra, se inviste la primera promoción del Internet Hall of Fame: treinta y tres personas en total, de las cuales catorce reciben el nombre de Pioneros, y Kahn es uno de los catorce. La sociedad que él cofundó veinte años antes es la que honra. Ese mismo año una universidad de San Petersburgo le concede un doctorado honorífico. El edificio dentro de Ginebra no lo nombra ninguna fuente alcanzada.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The inaugural Internet Hall of Fame ceremony, 23 April 2012, Global INET, Geneva"
+     ],
+     "sources": [
+      "Wikipedia, 'Internet Hall of Fame'",
+      "Internet Hall of Fame, inductee biography of Robert Kahn",
+      "working/journeys/vint_cerf.journey.json (canonical Geneva pin)"
+     ]
+    },
+    {
+     "name": "El palacio de Buckingham, el Premio Reina Isabel",
+     "lat": 51.5014,
+     "lng": -0.1419,
+     "date": "2013-06-25",
+     "date_confidence": "Attested to the day, with a research-pool error corrected. Wikipedia, 'Queen Elizabeth Prize for Engineering', gives the inaugural prize presented by Queen Elizabeth II at Buckingham Palace on 25 June 2013 to Kahn, Cerf, Louis Pouzin, Marc Andreessen, and Tim Berners-Lee. The pool's geography lens asserted the Royal Academy of Engineering at 51.5074, -0.1401 and tagged it attested, contradicting both the source and the pool's own afterlife lens. The coordinate here is the atlas pin from vint_cerf.journey.json, stop 'London, the Queen Elizabeth Prize'.",
+     "campa": "Isabel II entrega en el palacio de Buckingham el primer Premio Reina Isabel de Ingeniería a cinco hombres: Kahn, Cerf, Louis Pouzin, Marc Andreessen y Tim Berners-Lee. Entre todos hicieron los paquetes, el direccionamiento, los nombres, el navegador y la web. Han pasado cuarenta años desde el papel de hotel de Palo Alto. El pin del atlas se hereda del archivo de Cerf; la investigación situó esta ceremonia en la Royal Academy of Engineering, y en eso se equivoca.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "The inaugural Queen Elizabeth Prize for Engineering, Buckingham Palace, 25 June 2013"
+     ],
+     "sources": [
+      "Wikipedia, 'Queen Elizabeth Prize for Engineering'",
+      "Wikipedia, 'Bob Kahn' (awards list)",
+      "working/journeys/vint_cerf.journey.json (canonical Buckingham Palace pin)"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "El despacho todavía ocupado",
+   "stops": [
+    {
+     "name": "Reston, el cargo aún ocupado",
+     "lat": 38.9558,
+     "lng": -77.355,
+     "date": "2022-01-01",
+     "date_confidence": "Attested as an article state rather than as an event: Wikipedia, 'Bob Kahn', lists him as chairman, CEO, and president of CNRI as of 2022. This is the snapshot date of the source, not a date on which anything happened; month and day are defaults. The atlas's standard closing lens looks for a tomb, a cult, and a posthumous legend, and finds none of the three, because the subject is alive. That absence is stated here as the finding it is.",
+     "campa": "Según la última fuente consultada, Kahn sigue siendo presidente del consejo, director ejecutivo y presidente de la Corporation for National Research Initiatives, la organización que fundó en Reston treinta y seis años antes y que no ha dejado. Aquí es donde un viaje del atlas llegaría normalmente a una tumba. No hay tumba. Está vivo y el despacho sigue ocupado. La lente que busca sepulcros y leyendas póstumas encuentra a un hombre de ochenta y tres años que sigue yendo a trabajar en Reston.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "CNRI, Reston, Virginia, still under Kahn's chairmanship at the last source snapshot"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn' (article snapshot, 2022)",
+      "working/journeys/vint_cerf.journey.json (canonical Reston pin)"
+     ]
+    },
+    {
+     "name": "Los Estados Unidos, la Medalla de Honor sin ciudad nombrada",
+     "lat": 38.9072,
+     "lng": -77.0369,
+     "date": "2024-01-01",
+     "date_confidence": "Award attested, place a stated gap. Wikipedia, 'Bob Kahn', awards list, gives the IEEE Medal of Honor in 2024. No source consulted this session names the ceremony's city, venue, or month; the research pool records this as an unresolved gap rather than a resolved location. The coordinate is a Washington, D.C., reference point standing for the United States and claims nothing about where the medal was handed over. Month and day are defaults.",
+     "campa": "El Instituto de Ingenieros Eléctricos y Electrónicos concede a Kahn su Medalla de Honor, el mayor galardón que tiene, por las contribuciones pioneras en tecnologías de comunicación por paquetes. Tiene ochenta y cinco años. Ninguna fuente alcanzada en esta sesión nombra la ciudad de la ceremonia, ni la sala, ni el mes; la coordenada de aquí es un punto de referencia en Washington que vale por un país y nada afirma. Es la última entrada del registro, y la única cuyo lugar el atlas no puede declarar.",
+     "quote": null,
+     "quote_source": null,
+     "suggested_refs": [
+      "IEEE Medal of Honor, 2024, ceremony location unrecorded in reachable sources"
+     ],
+     "sources": [
+      "Wikipedia, 'Bob Kahn' (awards list)"
+     ]
+    }
+   ]
+  }
+ ]
+}
