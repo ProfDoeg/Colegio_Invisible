@@ -899,3 +899,8 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 | 0 | **Pío Collivadino** | Italian-born Argentine painter, academic/realist chronicler of Buenos Aires working-class and industrial life; joins the corpus's Argentine-art material |
 | 0 | **Ángel della Valle** | Argentine painter, best known for La vuelta del malón (1892), a founding image of Argentine national painting; joins the corpus's Argentine-art material |
 | 0 | **Ángel Villoldo** | Argentine musician and composer, "father of tango," wrote El Choclo; joins the corpus's tango/Buenos Aires material |
+| 0 | **Peró** | sculptor/monument-maker, name given without a first name; identity and specifics (likely Recoleta Cemetery funerary sculpture, given the batch this was added alongside) to confirm during research |
+| 0 | **Torres Armengol** | sculptor/monument-maker, name given without a first name; identity and specifics (likely Recoleta Cemetery funerary sculpture, given the batch this was added alongside) to confirm during research |
+| 0 | **Nazareno Orlandi** | Italian-born sculptor active in Buenos Aires, funerary and religious sculpture; joins the corpus's Recoleta Cemetery material |
+| 0 | **Troiano Troiani** | Italian-born Argentine sculptor and medalist, public monuments and official medal/coin design; joins the corpus's Argentine-art material |
+| 0 | **Daniel Schávelzon** | Argentine archaeologist, director of the Centro de Arqueología Urbana (CAU), specialist in the historical and urban archaeology of Buenos Aires (colonial-era excavations, building history, debunking urban legends through material evidence); joins the corpus's Buenos Aires/archaeology material |
