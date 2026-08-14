@@ -258,12 +258,20 @@ establish, this geography.
   with a secondary uwaysi transmission; **attar** kneels at that tomb gathering sayings,
   and **rumi**'s Konya scene stages Bistami's *shath* as a live doctrinal problem.
   Naqshbandi sobriety is framed historically as a reaction against that register.
-  **[R: doctrinal, not biographical]**
+  **[R: doctrinal, not biographical]** Kept in the campa: Bistami himself, since the
+  Naqshbandi uwaysi transmission claim is a genuine (if doctrinal, not biographical) chain
+  to Naqshband specifically. Cut on the house-style pass of 2026-08: **attar**'s own kneeling
+  at the same tomb, which is attar's relation to Bistami and not to Naqshband.
 - **baha_ud_din_walad**'s household passes through Samarkand in 1212 with the child Rumi.
-  **[A]**
+  **[A]** Cut by name from both the Samarqand and Nishapur and Balkh campas on the same
+  pass: real events in their own right, but no documented crossing with Naqshband beyond
+  the shared coordinate a century and more apart.
 - **junayd_al_baghdadi** and **abd_al_qadir_al_jilani** hold the Baghdad pin; **abdelkader**
   kneels at Jilani's tomb in 1826 at the coordinates this journey inherits. **[A for the
-  pins; R for any Naqshband visit]**
+  pins; R for any Naqshband visit]** Kept: al-Jilani himself, since later Naqshbandi
+  tellings make a specific doctrinal claim of lineage-binding at his grave. Cut: abdelkader,
+  whose 1826 kneeling has no connection to Naqshband beyond the same stone at a different
+  date for a different reason.
 - QUEUE.md states the intended interlock itself: Naqshband "joins the same Sufi cluster
   (junayd_al_baghdadi, abd_al_qadir_al_jilani just queued)." **[A: QUEUE.md]**
 

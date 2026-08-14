@@ -130,7 +130,7 @@ The interlock lens reported Eranos as "46.15, 8.77, approximate, not lifted verb
 - **Suzanne Perrottet**, leaving Dalcroze for "a man on a mountain above Ascona who lets his students dance with no music at all"; her file states its pin as inherited byte-identical from Laban's.
 - **Carl Jung**, first Eranos Tagung 1933, "below Monte Verita, the corpus's own hill of anarchists, dancers and sun-worshippers".
 - **Charlotte Bara**, Castello San Materno below the hill from 1920; **Vera Skoronel**, Zurich school from 1919, which "still breathes Monte Verita air".
-- **Sigmund Freud**, Trieste marine station, March 1876, and **Gabriele d'Annunzio**, over Trieste with leaflets, 7 August 1915: the same imperial Adriatic as Rikli's winter station, with no contact of any kind attested, and d'Annunzio's flight nine years after Rikli's death.
+- **Sigmund Freud**, Trieste marine station, March 1876, and **Gabriele d'Annunzio**, over Trieste with leaflets, 7 August 1915: the same imperial Adriatic as Rikli's winter station, with no contact of any kind attested, and d'Annunzio's flight nine years after Rikli's death. Both cut by name from the Trieste campa on the house-style pass of 2026-08 as coincidental (same coordinate at unrelated eras, zero citation); the stop now describes the port and the cure on their own terms.
 
 ---
 

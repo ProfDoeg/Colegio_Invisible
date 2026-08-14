@@ -150,11 +150,11 @@ Named in campa where the paths genuinely cross:
 
 - **`emin_arslan`**, the only direct textual link. Arslan's weekly *La Nota* (founded 14 August 1915, offices at 25 de Mayo 294) lists Gerchunoff among its regular contributors, beside Lugones, Ingenieros, Rodó, Rubén Darío and Alfonsina Storni. **[A: `emin_arslan.journey.json`, verified in the file text.]** At the *La Nación* stop.
 - **`borges`**, quoted at the death stop **[A]**, and for his argument that Argentine writers stand toward European culture as Jews stand toward Western culture, which Gerchunoff had staged as one identity two decades before **[R]**. At the 1910 and 1950 stops.
-- **`martin_buber`**. Buber's Hasidic material comes from Podolia, the governorate Gerchunoff was born in, and Buber never travelled there to collect it. **[A in-file for Buber; R for the link.]** At the Rab Gershon stop and the 1945 campaign stop: Buber in Jerusalem, Gerchunoff in Buenos Aires counting votes.
+- **`martin_buber`**. Buber's Hasidic material comes from Podolia, the governorate Gerchunoff was born in, and Buber never travelled there to collect it. **[A in-file for Buber; R for the link.]** At the Rab Gershon stop and the 1945 campaign stop: Buber in Jerusalem, Gerchunoff in Buenos Aires counting votes. Cut from both campas on the house-style pass of 2026-08: no documented contact or citation between the two men, only overlapping geography and theme.
 - **`taras_shevchenko`**, the same southwestern imperial borderlands a generation earlier **[R]**. At Volochysk.
 - **`julio_argentino_roca`**, schooled at Concepción del Uruguay in Entre Ríos, the province whose JCA colonies raised Gerchunoff; the Conquista del Desierto opened land later parcelled to colonists **[A for Roca's stops; R for the link]**. At Moisés Ville and Martín Fierro.
 - **`victoria_ocampo`**, whose *Sur* launched from San Isidro in 1931, gathering the establishment Gerchunoff moved through at *La Nación*. No direct textual link exists in any file consulted; the campa says so. At the Montevideo stop.
-- **`freud`**, for the assimilated-yet-marked immigrant-child persona **[R, thematic only]**. At the *El cristianismo precristiano* stop.
+- **`freud`**, for the assimilated-yet-marked immigrant-child persona **[R, thematic only]**. At the *El cristianismo precristiano* stop. Cut from the campa on the house-style pass of 2026-08 as a thematic echo with no documented citation between the two.
 
 Considered and **not** named: `samuel_oppenheimer`, `joseph_oppenheimer` (thematic only); `reich` (section 12); the QUEUE.md rows for **Félix Weil**, **Raquel Liberman**, **Golda Meir**, queue entries and not yet journeys.
 

@@ -154,7 +154,10 @@ says so.
   (`engelmann.journey.json`).
 - **Ida Hofmann** and Henri Oedenkoven hold the founding meeting at **Munich** in October
   1900 and buy Monte Verità from **Alfredo Pioda** that December (`ida_hoffmann`). Pioda
-  appears independently at `census_real_persons_2026-08-02.md` line 286.
+  appears independently at `census_real_persons_2026-08-02.md` line 286. On the house-style
+  pass of 2026-08 the two names were cut from the Munich campa itself as coincidental (pure
+  proximity, no documented line between the two households); the stop keeps the founding
+  meeting and the four-kilometre distance without naming the founders.
 - **Rudolf von Laban** runs the dance farm on Monte Verità 1913-1917; **Mary Wigman** and
   **Suzanne Perrottet** arrive July 1913; **Elsa Gindler** is at the same hill that year.
 - **Hermann Hesse** climbs Monte Verità in 1907 and settles at **Minusio** in April 1919.
