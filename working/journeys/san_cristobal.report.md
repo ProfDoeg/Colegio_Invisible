@@ -157,10 +157,11 @@ The sequence, all **[R: *Legenda Aurea*, Caxton trans. 1483]**, corroborated by 
 - **`margarita_pelagia`**: Margaret of Antioch, same city and Golden Legend chapter-sequence, Diocletianic rather than Decian, half a century apart. A flagged discrepancy **[R]**. Named in the Antioch and Genoa campas.
 - **`saint_barbara`** and **`giles`**: the Fourteen Holy Helpers, via the Regensburg (49.0134, 12.1016) and Vierzehnheiligen (50.1156, 11.0544) pins, inherited byte-identical **[A as to the pins; R as to Christopher's presence there]**.
 - **`jesus`**: the child carried over the river is the traveller the atlas already follows to the Jordan at Qasr el-Yahud. Resonance only; no source makes Christopher's river the Jordan **[R]**.
-- **`emin_arslan`**: the Buenos Aires pin (-34.6037, -58.3816) inherited byte-identical for the barrio of San Cristóbal **[A as to the pin; R as to the connection]**.
 - **Paris 48.8566, 2.3522** inherited from `blavatsky` / `emin_arslan` / `clotilde` for the Notre-Dame statue. No traveller is named there: none crosses Christopher's path in that campa.
 - **Not used:** the Kaaba pin (21.4225, 39.8262), offered by the interlock lens, which states that Christopher has no attested link to Mecca. He has none.
 - **`moses`** was considered for the child-borne-on-water echo and left out: the parallel is structural only.
+
+**House-style tightening, 2026-08-14.** Six campas used "the atlas"/"this atlas" self-referential phrasing (the ford, Lycia beheading, Antioch, Genoa, Regensburg, Vierzehnheiligen) and were cut; the real Catherine/Margaret literary-anthology connections and the Fourteen Holy Helpers group-veneration relations (Barbara, Catherine, Giles, Margaret) stay. **`emin_arslan`**, previously named at the Buenos Aires barrio campa on the strength of the shared pin alone (**[R as to the connection]**, per this section's own honest flag), is removed: pure coincidence, no relation to Christopher, considered and not used.
 
 ---
 
