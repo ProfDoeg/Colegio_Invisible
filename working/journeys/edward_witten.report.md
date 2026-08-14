@@ -167,12 +167,11 @@ Every one of the following is **[R] from Witten's side.** No existing atlas file
 - **`dirac`**: old Fine Hall, now Jones Hall, 40.3487, -74.6588, the Princeton address of the 1930s emigres.
 - **`richard_feynman`**: the path integral, worked out as Wheeler's student at Princeton in the early 1940s. Witten's 1989 derivation of the Jones polynomial runs a Feynman path integral over connections. Intellectual descent, not a meeting; no meeting is attested anywhere reached.
 - **`niels_bohr`**: Bohr and Wheeler on uranium fission at Princeton, January 1939. Institutional overlap only.
-- **`roland_barthes`, `gilles_deleuze`, `michel_foucault`, `nick_land`**: the Johns Hopkins colloquium of 18 October 1966, in the Baltimore where Witten was fifteen. Pin inherited byte-identical, 39.3299, -76.6205.
-- **`edgar_allan_poe`**: Baltimore itself, 39.2904, -76.6122, inherited byte-identical.
 - **`diffie`**: UC Santa Barbara, 34.414, -119.8489, inherited byte-identical. CRYPTO every August there in `diffie.journey.json`; the KITP string programs on the same campus here.
-- **`keyserling`**: Kyoto, through the atlas's recurring Kyoto node.
 
 Named by the interlock lens but not carried into campa: `barbier` (a 1790s Baltimore landfall) and `fermi` (whose Princeton connection is oblique).
+
+**Considered and not used**, removed under the house-style tightening of 2026-08-14, since each named another traveler for shared coordinate or era alone with no relation to Witten himself: **`edgar_allan_poe`** (Baltimore itself, same birth-city coincidence only), **`roland_barthes`, `gilles_deleuze`, `michel_foucault`, `nick_land`** (the Johns Hopkins colloquium of 18 October 1966; the campa itself admitted "no source puts him in the building" — Witten, fifteen, was not there), and **`keyserling`** at the Kyoto Fields Medal stop, alongside a coincidental listing there of Einstein's 1922 lecture and von Neumann's 1945 Target Committee (both of whom remain legitimately named elsewhere in this file via the Institute for Advanced Study, a real shared institutional home, just not for this Kyoto coincidence).
 
 **The negative finding, stated as such.** None of the four canonical hub pins the atlas watches for (Kaaba, Temple Mount, Paris, Buenos Aires) appears in Witten's documented geography, and the journey inherits none of them, because inheriting one would be a fabrication. The childhood year in Israel is not Jerusalem in any sourced sense; that stop's Jerusalem coordinate is a placeholder for a country, not the Temple Mount pin.
 
