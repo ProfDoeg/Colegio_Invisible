@@ -132,6 +132,10 @@ Corrected against the working pool:
 
 and none of them is 2.3539. The journey file therefore inherits **byte-identically per interlock**: 48.9355 / 2.3597 for the Fourteen Holy Helpers and general abbey stops, 48.9355 / 2.3596 for the two Carolingian stops touching `charlemagne`, and 48.9356 / 2.36 for the stop touching `joan_of_arc`. Montmartre is inherited unchanged at **48.8867, 2.3431**. A future pass may unify these; this pass records the split. The Kaaba and Temple Mount pins named in the interlock brief are unrelated to Denis and are not carried.
 
+## House-style tightening, 2026-08-14
+
+Five campas used "the atlas"/"this file" self-referential phrasing (the forum of Lutetia, the gridiron/furnace/cross, Saint-Pierre de Montmartre, Genevieve builds over the tomb, the Passio takes the legend down). All five cut. None named a coincidental atlas traveler — Genevieve, the one person named who is not Denis himself, has a real documented connection (she personally built the basilica over his grave) and stays.
+
 ## Honest gaps
 
 - **No birth year and no birthplace beyond "Italia".**
