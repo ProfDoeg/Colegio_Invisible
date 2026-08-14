@@ -157,6 +157,8 @@ Travelers named in `campa` where the paths genuinely cross: `catorce_santos_ayud
 
 Nine pins are inherited byte-identical from those files: Via Salaria, Nicomedia, Byzantium, Baalbek, the Rome palace, Regensburg, Nuremberg, Vierzehnheiligen, and Rome 1969.
 
+**House-style tightening, 2026-08-14.** Six campas used "the atlas" self-referential phrasing (Alexandria, Nicomedia, Baalbek, Santa Maria in Via Lata, Nuremberg, Vierzehnheiligen). All six cut. The real fellow-Helper relations (Catherine, Barbara, Denis, Christopher) stay named; Constantine's mention at Nicomedia stays as real historical context (present at court the week the edict against Christians was posted).
+
 ---
 
 ## Sources

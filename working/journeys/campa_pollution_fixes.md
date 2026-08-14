@@ -40,6 +40,8 @@ Running log of every campa rewritten to remove a coincidental (non-relational) m
 
 - **saint_eustace** — 11 campas fixed (all self-reference-only cuts, per Anthony's ruling that the group-veneration relation is real and stays): Trajan's Forum (Constantine), Hydaspes (Alexander), Selinus (Hadrian), Temple Mount (kept Acacius as fellow helper), Sant'Eustachio, Saint-Denis x2 (kept Denis/Vitus, both real — Denis is literally interred in the same church), Regensburg (kept Blaise/Christopher as fellow helpers), Vierzehnheiligen (kept Barbara/Vitus/Giles/Acacius), Obernburg (kept Barbara/Catherine/Vitus), Rome 1969 calendar (kept Barbara/Catherine/Christopher/Margaret of Antioch as fellow helpers).
 - **saint_acacius** — 6 campas fixed: Constantinople martyrium (kept Barbara), Antioch/Hadrian and Temple Mount/Hadrian (self-ref cut, Hadrian kept as historical/geographic context only, no relation asserted), the Ararat cross (self-ref only, no named person), Regensburg (kept Barbara/Catherine/Margaret/Giles/Christopher/Vitus as fellow helpers), Rome 1969 (self-ref only).
+- **saint_blaise** — 4 campas fixed: Byzantium persecution (kept Acacius/Vitus/Barbara as fellow helpers), Mount Argaeus (self-ref only), Cibalae (kept Constantine as real jurisdictional context), Franconia fourteen fixed (kept full 14-name list, self-ref only).
+- **saint_cyriacus** — 6 campas fixed: Alexandria other origin (kept Catherine), Nicomedia church pulled down (kept Constantine as real context), Baalbek tower (kept Barbara), Santa Maria in Via Lata (kept Catherine, painted together), Nuremberg order closes (kept full list + Denis), Vierzehnheiligen shepherd (kept Christopher).
 
 **Next steps for a future pass, in priority order:**
 1. Finish the 7 remaining files above.

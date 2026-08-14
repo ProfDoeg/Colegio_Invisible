@@ -123,6 +123,8 @@ Travelers named in campa where paths genuinely cross: **catorce_santos_ayudantes
 
 **Negative interlock:** no pin in the reviewed files connects Blaise to Paris, the Kaaba, the Temple Mount or Buenos Aires, and none is force-fit.
 
+**House-style tightening, 2026-08-14.** Four campas used "the atlas" self-referential phrasing (Byzantium persecution, Mount Argaeus, Cibalae, Franconia). All four cut. The real fellow-Helper relations (Acacius, Vitus, Barbara, and the full fourteen at Franconia) stay named; Constantine's mention at Cibalae stays as real political/jurisdictional context (the governor whose authority Blaise died under), self-reference only cut.
+
 ## 12. Open contradictions and stated gaps
 
 **Contradictions, left open.** Licinius persecuting in Armenia in 316 against Licinius at war in Pannonia (s. 2). The unnamed cavern against Mount Argaeus, both pinned (s. 3). Dubrovnik 971 against 972 (s. 8). Death year 316 against a rumoured 283 with no carrier (s. 5). The fishbone on the road against in the prison, and the fishbone prayer worded almost identically to the dying prayer (s. 4). Sixty-five drowned against seven (s. 5). Two children and seven women against accounts where he dies alone (s. 5). Maratea against Ragusa on the same relics (s. 7, 8). The pool's two lenses on the Fourteen Holy Helpers (s. 9).
