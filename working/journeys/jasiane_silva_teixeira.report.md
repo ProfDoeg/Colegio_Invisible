@@ -1,6 +1,6 @@
 # Jasiane Silva Teixeira ("Dona Maria", "Dama de Copas"): research report
 
-*2026-08-12. Prepared for the Atlas of Journeys, working/journeys. Subject entered the queue at QUEUE.md line 309 as "Gang leader in Brazil; further biographical detail not yet confirmed."*
+*2026-08-12. Prepared for the Atlas of Journeys, working/journeys. Subject entered the queue at QUEUE.md line 309 as "Gang leader in Brazil; further biographical detail not yet confirmed." Revised 2026-08-14 at Anthony's direction: the journey originally opened with a segment comparing her to Arthur Bispo do Rosário, Augusto Boal, the PCC's own founding, and Griselda Blanco, none of whom have any documented relation to her, and closed several later stops with the same device against Jair Bolsonaro. Anthony's ruling: no critical or comparative framing drawn from the researcher's own analysis — tell her story on its own terms. All six comparandum stops were removed; the PCC-founding stop was kept as organisational background since her own faction is elsewhere reported, by name, as PCC-linked, not as a comparison to a person.*
 
 **Legend:** **[A]** attested, source named in the same clause · **[R]** reconstruction, inference or context supplied by this report · **headline-only** the headline and publication date were retrieved via Google News RSS but the article body could not be fetched (publisher blocked).
 
@@ -144,14 +144,13 @@ Fifteen months. No trial, no conviction, no transfer confirmation, no release, n
 
 ## 9. Interlock: where this journey touches the existing atlas
 
-The interlock lens correctly reported that **no file in working/journeys mentions "Jasiane", "Silva Teixeira", "favela", "Comando Vermelho" or "PCC" outside the QUEUE.md row** **[A: grep]**. The crossings below are therefore **institutional and geographic, not personal**, and each is written into the journey file as such. **Four travelers named in campa, all pins inherited byte-identical:**
+The interlock lens correctly reported that **no file in working/journeys mentions "Jasiane", "Silva Teixeira", "favela", "Comando Vermelho" or "PCC" outside the QUEUE.md row** **[A: grep]**. The lens's four candidate crossings — `arthur_bispo_do_rosario`, `augusto_boal`, `jair_bolsonaro`, `griselda_blanco` — were all **institutional or geographic, not personal**: no document connects any of those four to Jasiane Silva Teixeira herself, and the original journey file said so in each stop's own `date_confidence`.
 
-- `arthur_bispo_do_rosario`, Colônia Juliano Moreira `-22.9367, -43.3989`: the state that files a man as number 01662 and a woman as a face on a playing card is one state, one reflex, one population. **[R: thematic]**
-- `augusto_boal`, Lapa CTO `-22.9129, -43.1832` (with that file's own coordinate correction) and the canonical SP pin for the 1971 seizure: his prison workshops and her faction occupy identical ground from opposite ends. **[R: thematic]**
-- `jair_bolsonaro`, Morumbi `-23.6167, -46.7167`, STF `-15.8016, -47.8607`, Brasília `-15.7939, -47.8828`: the 2018 hospital campaign, the STF rooms reused for her October 2019 decisions, the OCCRP designation. **[A as to his events; R as to any relation]**
-- `griselda_blanco`, Medellín `6.2476, -75.5658`: the atlas's precedent for an organised-crime subject written wholly out of police characterisation. **[R: comparandum]**
+**Revised 2026-08-14.** Anthony reviewed a flagged draft and ruled against this device entirely: no comparison drawn from the researcher's own analysis, her story told on its own terms. All five comparandum stops built on this device were removed — the Colônia Juliano Moreira / Bispo do Rosário stop, the two Boal stops (São Paulo seizure and the Lapa CTO), the Medellín / Griselda Blanco stop, and the Morumbi hospital-campaign and Brasília OCCRP stops built on Jair Bolsonaro. The **PCC-founding stop was kept**, not as a comparison to a person but as organisational background: her own faction is independently reported, by name, as PCC-linked (`sócia do PCC`, `aliada do PCC`), so the PCC's own early-1990s origin inside the São Paulo prison system is direct context for that real, attested relation rather than a coincidental crossing.
 
-**No stop given** to `charles_lucky_luciano` or `pupetta_maresca`, the pool's other organised-crime comparanda: neither has an attested Brazil leg or a usable pin. **Canonical pins deliberately NOT used:** Kaaba `21.4225, 39.8262`, Temple Mount `31.778, 35.2354`, Buenos Aires `-34.6037, -58.3816`, Paris `48.8566, 2.3522`, all listed by the lens as inheritable if cause arose. **No cause arose**, and the lens itself said none should be inferred; recorded so the omission reads as a choice. **[R]**
+**One trimmed stop, not removed:** "Rio de Janeiro: four deaths and rifles" (the O Globo retrospective) is a genuine documented event about her own case; only its closing sentence, which reached back to the Colônia Juliano Moreira and Boal comparanda, was cut, and the `arthur_bispo_do_rosario.journey.json` / `augusto_boal.journey.json` source citations were dropped from that stop accordingly.
+
+**Canonical pins never used, comparanda considered and rejected even before this revision:** `charles_lucky_luciano`, `pupetta_maresca` (no attested Brazil leg or usable pin); Kaaba `21.4225, 39.8262`, Temple Mount `31.778, 35.2354`, Buenos Aires `-34.6037, -58.3816`, Paris `48.8566, 2.3522` (all listed by the lens as inheritable if cause arose; no cause arose). **[R]**
 
 **New pins introduced by this file** (no prior occurrence by grep), all municipal seats rather than addresses: Vitória da Conquista, Salvador, Salvador airport (inferred from *desembarca*, flagged), Juazeiro, Biritiba Mirim. **The atlas held no Bahia coordinate at all before this file.** **[A: grep]**
 
@@ -173,10 +172,10 @@ Narrower than the prior pool's list, since name and spelling are settled. (1) Bo
 
 **Attempted and failed (recorded as gaps).** `noticias.uol.com.br` host blocked · `bnews.com.br`, `maisregiao.com.br`, `midiabahia.com.br`, `correio24horas.com.br` HTTP 403 · `jornaldosudoeste.com` ECONNREFUSED · `minhabahia.com.br` HTTP 404 · WebSearch budget exhausted 200/200 · g1, oglobo, estadao, metropoles blocked per prior pool, not re-attempted · **TJ-BA, TJ-SP, STJ and STF dockets not consulted** · ISBN agency and publisher catalogues searched, no title attributable to her.
 
-**Atlas-internal.** `QUEUE.md` line 309 · `arthur_bispo_do_rosario` · `augusto_boal` · `jair_bolsonaro` · `griselda_blanco` journey files · verified research pool for `w914erpj7` / `wf_ffd8183a-7c6`, interlock and afterlife lenses.
+**Atlas-internal.** `QUEUE.md` line 309 · `jair_bolsonaro.journey.json`, cited only for the PCC's early-1990s founding inside the São Paulo prison system · verified research pool for `w914erpj7` / `wf_ffd8183a-7c6`, interlock and afterlife lenses. `arthur_bispo_do_rosario`, `augusto_boal`, and `griselda_blanco` were consulted during research but are no longer cited in the journey file; see §9.
 
 **Grep, negative (recorded as findings).** No occurrence of "Jasiane", "Silva Teixeira", "Comando Vermelho", "PCC" or "favela" in any `*.journey.json` outside this file; no Salvador or Bahia coordinate anywhere in the atlas before this file. **[A]**
 
 ---
 
-*40 stops, 7 segments. Register: national mythology: the canon is true. Ten stops carry verbatim quotes, all published headlines or her own two recorded sentences; no quotation in this file is reconstructed.*
+*34 stops, 6 segments (revised 2026-08-14; six comparandum stops removed, see §9). Register: national mythology: the canon is true. Ten stops carry verbatim quotes, all published headlines or her own two recorded sentences; no quotation in this file is reconstructed.*

@@ -6,73 +6,20 @@
  "register": "mitología nacional: el canon es verdadero",
  "segments": [
   {
-   "name": "Las instituciones que llegan antes que ella",
+   "name": "La baraja",
    "stops": [
-    {
-     "name": "Colônia Juliano Moreira, Río de Janeiro: el número antes del nombre",
-     "lat": -22.9367,
-     "lng": -43.3989,
-     "date": "1938-12-24",
-     "date_confidence": "attested through arthur_bispo_do_rosario.journey.json, which fixes the December 1938 admission and the patient number 01662. This stop is context, not biography: nothing connects Bispo do Rosário to Jasiane Silva Teixeira except the filing habit of the Brazilian state. Coordinate inherited byte for byte from the Colônia Juliano Moreira pin in that file.",
-     "campa": "Un hombre ingresa en la Colônia Juliano Moreira, en Jacarepaguá, y pasa a ser el número 01662. Arthur Bispo do Rosário vivirá cincuenta años entre esos muros, bordando en tela los nombres de todo lo que existe porque nadie más los anota. El Estado brasileño guarda dos clases de registro de sus pobres y de sus ciudadanos negros: el expediente que los interna en una institución, y ningún expediente. Ochenta años más tarde, una mujer del sur de Bahía entrará en el registro por la misma puerta, mediante un documento policial, sin ninguna partida de nacimiento alcanzable por delante.",
-     "quote": null,
-     "quote_source": null,
-     "suggested_refs": ["The admission registers of the Colônia Juliano Moreira, Jacarepaguá"],
-     "sources": ["arthur_bispo_do_rosario.journey.json"]
-    },
-    {
-     "name": "São Paulo: la calle de la que se llevan a Boal",
-     "lat": -23.5505,
-     "lng": -46.6333,
-     "date": "1971-02-01",
-     "date_confidence": "1971 is attested through augusto_boal.journey.json for the seizure and torture; no day is fixed there and the day defaults to 01. The canonical São Paulo pin is inherited byte for byte rather than derived; no street is named in any source consulted. Context stop, tagged reconstruction as to any relation with the subject.",
-     "campa": "El Estado militar se lleva a Augusto Boal de una calle de São Paulo y lo tortura. Sale de aquello sosteniendo que una persona capaz de ensayar una alternativa no está acabada, y lleva el Teatro del Oprimido a las cárceles de cuatro continentes. La ciudad que lo aparta es la misma cuyo sistema penitenciario producirá, veinte años después, la organización que dirige el narcotráfico del país desde sus propias celdas. Las salas donde lo torturan y las celdas donde se funda esa organización dependen de un mismo gobierno estatal, con los mismos funcionarios firmando los partes.",
-     "quote": null,
-     "quote_source": null,
-     "suggested_refs": ["Boal's 1971 detention and the São Paulo carceral geography of the dictatorship"],
-     "sources": ["augusto_boal.journey.json"]
-    },
-    {
-     "name": "Lapa, Río de Janeiro: el teatro que entra en las celdas",
-     "lat": -22.9129,
-     "lng": -43.1832,
-     "date": "1986-12-01",
-     "date_confidence": "the 1986 founding of the Centro de Teatro do Oprimido at Av. Mem de Sá 31 is attested in augusto_boal.journey.json; no month is given and December is the placement used there. Coordinate inherited byte for byte from that file, including its correction of an earlier copy artifact.",
-     "campa": "El Centro de Teatro do Oprimido toma una dirección en la Avenida Mem de Sá, bajo los arcos de Lapa, y la conserva cuarenta años. Desde aquí salen los talleres de Boal hacia las cárceles brasileñas, a salas construidas para impedir que alguien cambie la escena en la que está. La población presa con la que trabaja es la que las facciones reclutan y a la que venden protección. Dos instituciones ocupan idéntico terreno y llegan a él por extremos opuestos: una enseña al preso a ensayar otro desenlace, la otra le vende uno seguro.",
-     "quote": null,
-     "quote_source": null,
-     "suggested_refs": ["The Centro de Teatro do Oprimido, Av. Mem de Sá 31, Lapa, and its prison programme"],
-     "sources": ["augusto_boal.journey.json", "ctorio.org.br via augusto_boal.journey.json"]
-    },
     {
      "name": "São Paulo: la facción nacida dentro del sistema penitenciario",
      "lat": -23.5505,
      "lng": -46.6333,
      "date": "1993-01-01",
      "date_confidence": "the early 1990s origin of the Primeiro Comando da Capital inside the São Paulo penitentiary system is carried in the verified pool as attested background to jair_bolsonaro.journey.json. No founding date, prison, or document was verified in this session, so 1993 is a placeholder inside the attested decade and the day defaults to 01. Canonical São Paulo pin inherited.",
-     "campa": "Dentro del sistema penitenciario paulista se forma, a comienzos de los años noventa, el Primeiro Comando da Capital, una asociación de presos que se convierte en la organización criminal dominante de Brasil y después en mayorista de cualquier estado que acepte sus condiciones. No conquista Bahía: la franquicia, mediante alianzas con grupos locales que conservan su propio nombre y entierran a sus propios muertos. Cada jefe bahiano al que la prensa llama luego aliado o socio del PCC está siendo descrito en una relación comercial, no investido de un rango.",
+     "campa": "Dentro del sistema penitenciario paulista se forma, a comienzos de los años noventa, el Primeiro Comando da Capital, una asociación de presos que se convierte en la organización criminal dominante de Brasil y después en mayorista de cualquier estado que acepte sus condiciones. No conquista Bahía: la franquicia, mediante alianzas con grupos locales que conservan su propio nombre. Años más tarde la prensa bahiana llamará a la facción que ella dirige aliada del PCC y, más tarde aún, la llamará a ella misma su socia, sócia, por derecho propio.",
      "quote": null,
      "quote_source": null,
      "suggested_refs": ["Studies of the PCC's expansion from São Paulo prisons into the Northeast trade, 2000s-2020s"],
      "sources": ["verified pool, interlock lens, citing jair_bolsonaro.journey.json"]
     },
-    {
-     "name": "Medellín: la otra madrina, tiroteada desde una moto",
-     "lat": 6.2476,
-     "lng": -75.5658,
-     "date": "2012-09-03",
-     "date_confidence": "3 September 2012 is attested in griselda_blanco.journey.json, together with the motorcycle gunman and the two head shots. The Medellín city pin is inherited byte for byte from that file. This is a comparandum stop with no attested connection of any kind to the subject.",
-     "campa": "A Griselda Blanco la matan de dos tiros en la cabeza a la puerta de una carnicería de Belén, disparados por un sicario en moto, a los sesenta y nueve años, después de dirigir el negocio de la cocaína en Miami y de cumplir diecinueve años en cárceles de Estados Unidos. Su caso es el precedente más cercano a la forma de este: una mujer a la que la policía y la prensa llaman madrina y reina, con dos lugares de nacimiento posibles, sin partida que nadie haya exhibido, y con una vida escrita casi entera a partir del testimonio judicial de otros.",
-     "quote": null,
-     "quote_source": null,
-     "suggested_refs": ["griselda_blanco.journey.json, as the atlas's precedent for an organised-crime subject without documents"],
-     "sources": ["griselda_blanco.journey.json"]
-    }
-   ]
-  },
-  {
-   "name": "La baraja",
-   "stops": [
     {
      "name": "Vitória da Conquista: la ciudad donde empieza el registro",
      "lat": -14.8619,
@@ -108,18 +55,6 @@
      "quote_source": "UOL Notícias, titular, 7 de marzo de 2017",
      "suggested_refs": ["The 2017 Baralho do Crime plate identifying the Dama de Copas, held by SSP-BA"],
      "sources": ["UOL Notícias, 7 March 2017, via Google News RSS (article body blocked)"]
-    },
-    {
-     "name": "Morumbi, São Paulo: el candidato hace campaña desde un hospital",
-     "lat": -23.6167,
-     "lng": -46.7167,
-     "date": "2018-09-01",
-     "date_confidence": "September 2018 is attested in jair_bolsonaro.journey.json for the hospitalisation at Albert Einstein in Morumbi and the campaign conducted from it; the day here is a placeholder inside that month and should not be read as the date of the stabbing. Morumbi coordinate inherited byte for byte. Her own location in this month is unknown to every source reached.",
-     "campa": "Jair Bolsonaro dirige el último mes de su campaña presidencial desde una cama del hospital Albert Einstein, en Morumbi, tras ser apuñalado en un acto, y gana con la promesa de dar mano libre a la policía y de armar al ciudadano frente al criminal. Está en la ciudad cuyo sistema penitenciario levantó la organización que su gobierno pasará cuatro años sin lograr desalojar. Ella está en busca y captura, es una cara en un naipe bahiano, y ningún documento alcanzado la sitúa en parte alguna durante ese mes.",
-     "quote": null,
-     "quote_source": null,
-     "suggested_refs": ["jair_bolsonaro.journey.json, the Morumbi hospital campaign of September 2018"],
-     "sources": ["jair_bolsonaro.journey.json", "verified pool, interlock lens"]
     },
     {
      "name": "Vitória da Conquista: cuatro causas abiertas",
@@ -245,11 +180,11 @@
      "lng": -47.8607,
      "date": "2019-10-10",
      "date_confidence": "10 October 2019 attested as the publication date of the jornaldosudoeste item reporting that the STF denied her house arrest. No minister, docket number, or written opinion was reached; the site refused connection when queried directly. The coordinate is the STF pin inherited byte for byte from jair_bolsonaro.journey.json.",
-     "campa": "El Supremo Tribunal Federal le deniega la prisión domiciliaria. La causa ha subido de un juzgado bahiano al tribunal constitucional de la república en quince días, lo cual es rápido, y la velocidad ya dice algo del peso que el Estado ha decidido darle. El edificio es aquel donde, seis años después, un expresidente será procesado por intentar revertir una elección. Las mismas salas juzgan las dos cosas, y de los dos expedientes solo uno puede leerse entero por quien lo pida.",
+     "campa": "El Supremo Tribunal Federal le deniega la prisión domiciliaria. La causa ha subido de un juzgado bahiano al tribunal constitucional de la república en quince días, lo cual es rápido, y la velocidad ya dice algo del peso que el Estado ha decidido darle. En esta sesión no se alcanzó ni el nombre de un ministro, ni un número de expediente, ni una opinión escrita; la cobertura es un titular que nombra el resultado y nada más. Una segunda decisión, o una segunda noticia de esta misma, llega antes de que acabe la semana.",
      "quote": null,
      "quote_source": null,
      "suggested_refs": ["The STF habeas corpus docket for October 2019, not located"],
-     "sources": ["jornaldosudoeste.com, 'STF nega prisão domiciliar a Dona Maria', 10 October 2019", "jair_bolsonaro.journey.json (coordinate)"]
+     "sources": ["jornaldosudoeste.com, 'STF nega prisão domiciliar a Dona Maria', 10 October 2019"]
     },
     {
      "name": "Supremo Tribunal Federal, Brasilia: se mantiene la prisión",
@@ -262,18 +197,6 @@
      "quote_source": null,
      "suggested_refs": ["STF decisions of October 2019 concerning Jasiane Silva Teixeira, docket unlocated"],
      "sources": ["midiabahia.com.br, 'STF mantém prisão de Dona Maria', 16 October 2019 (headline only; site returned 403)"]
-    },
-    {
-     "name": "Brasilia: Persona del Año, por el crimen organizado",
-     "lat": -15.7939,
-     "lng": -47.8828,
-     "date": "2019-12-01",
-     "date_confidence": "the OCCRP Person of the Year designation of Jair Bolsonaro, given for advancing organised crime and corruption, is attested through jair_bolsonaro.journey.json. The month here is a placeholder consistent with OCCRP's usual December announcement and was not independently verified. Canonical Brasília pin inherited byte for byte.",
-     "campa": "El Organized Crime and Corruption Reporting Project nombra a Jair Bolsonaro su Persona del Año, distinción que se concede por hacer avanzar el crimen organizado y la corrupción, no por combatirlos. Lleva once meses de una presidencia ganada con la promesa contraria. La designación no nombra ninguna facción ni ningún jefe. En el mismo país y el mismo año, a una mujer la trasladan dos veces y el tribunal constitucional la rechaza dos veces, y los dos hechos pertenecen a un solo asunto y no se imprimen jamás en una misma página.",
-     "quote": null,
-     "quote_source": null,
-     "suggested_refs": ["The OCCRP Person of the Year citation, 2019"],
-     "sources": ["jair_bolsonaro.journey.json", "verified pool, interlock lens"]
     }
    ]
   },
@@ -440,11 +363,11 @@
      "lng": -43.1729,
      "date": "2025-03-27",
      "date_confidence": "27 March 2025 attested as the publication date of the O Globo retrospective. The article body was not reached; the headline is the evidence, and its three elements, the deck of cards, four deaths, and rifles, are consistent with the four pending cases attested by Se Ligue Bahia. The canonical Rio pin is inherited byte for byte and marks the publisher's city, not any event in her life.",
-     "campa": "O Globo, que publica desde Río, saca el reportaje que reúne el caso entero por primera vez: la baraja, cuatro muertes, fusiles. Es lo más parecido a una biografía que alguien haya escrito de ella, y es un titular sobre un artículo cuyo cuerpo no pudo alcanzarse desde esta máquina. Río es donde la Colônia Juliano Moreira archivó a un hombre como número 01662 y donde el teatro de Boal entró en las celdas. Es también donde la prensa nacional decide qué bahiano merece una página.",
+     "campa": "O Globo, que publica desde Río, saca el reportaje que reúne el caso entero por primera vez: la baraja, cuatro muertes, fusiles. Es lo más parecido a una biografía que alguien haya escrito de ella, y es un titular sobre un artículo cuyo cuerpo no pudo alcanzarse desde esta máquina. Las cuatro muertes del titular son coherentes con las cuatro causas pendientes que Se Ligue Bahia ya atestigua, aunque ni las muertes ni los fusiles se desglosan en nada de lo alcanzado. Estadão y A Tarde publican sus propios reportajes retrospectivos ese mismo día.",
      "quote": "Baraja del crimen, cuatro muertes y fusiles: lo que llevó a 'Dona Maria' a la condición de mayor traficante de Bahía",
      "quote_source": "O Globo, titular, 27 de marzo de 2025",
      "suggested_refs": ["The O Globo retrospective of 27 March 2025, body text not retrieved"],
-     "sources": ["O Globo, 27 March 2025 (headline)", "arthur_bispo_do_rosario.journey.json", "augusto_boal.journey.json"]
+     "sources": ["O Globo, 27 March 2025 (headline)"]
     },
     {
      "name": "Salvador: traficante, homicida, primera dama",
@@ -511,8 +434,8 @@
      "lat": -14.8619,
      "lng": -40.8444,
      "date": "2026-08-12",
-     "date_confidence": "the queue row is attested at QUEUE.md line 309 in the Colegio_Invisible repository. The date is the date of writing. This stop records the state of the atlas's own knowledge and makes no claim about her.",
-     "campa": "La única línea oficial sobre ella, anotada en una cola de investigación y nunca ampliada, dice: jefa de banda en Brasil, detalle biográfico ulterior sin confirmar. La línea es exacta. No hay fecha de nacimiento, ni lugar, ni padres, ni escolarización, ni año de entrada en el negocio, ni paradero presente confirmado. Lo que existe son ocho años de titulares bahianos, un naipe, un avión vendido en ochocientos mil reales, la cuenta bancaria de una hija y dos frases que dijo en voz alta. Hasta esa línea archiva solo lo que ya archivó el Estado.",
+     "date_confidence": "the queue row is attested at QUEUE.md line 309 in the Colegio_Invisible repository. The date is the date of writing. This stop records the state of the queue's own line about her and makes no further claim.",
+     "campa": "La única línea oficial sobre ella, anotada en una cola de investigación y nunca ampliada, dice: jefa de banda en Brasil, detalle biográfico ulterior sin confirmar. La línea es exacta. No hay fecha de nacimiento, ni lugar, ni padres, ni escolarización, ni año de entrada en el negocio, ni paradero presente confirmado. Lo que existe son ocho años de titulares bahianos, un naipe, un avión vendido en ochocientos mil reales, la cuenta bancaria de una hija y dos frases que dijo en voz alta.",
      "quote": "Jefa de banda en Brasil; detalle biográfico ulterior sin confirmar",
      "quote_source": "QUEUE.md línea 309, Colegio_Invisible working/journeys",
      "suggested_refs": ["The Baralho do Crime card itself, as the only portrait of her in public circulation"],
