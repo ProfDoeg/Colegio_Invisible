@@ -135,10 +135,10 @@ The Tukucha passages (the paintings, and the hearth in the middle of the kitchen
 No existing journey file records a **documented meeting** between Tucci and any other atlas traveler. Every crossing below is geographic or thematic, and is written as such in the campa text.
 
 - **matteo_ricci**: born in the same walled town, Macerata, 342 years earlier. Pin **43.3006, 13.4531** inherited byte-identically.
-- **blavatsky**: Kashmir (**34.0837, 74.7973**) and Tashilhunpo/Shigatse (**29.268, 88.88**), both inherited exactly. Her 1868 Shigatse residence rests on her own word; Tucci's visit produced an inventory.
+- **blavatsky**: Kashmir (**34.0837, 74.7973**) and Tashilhunpo/Shigatse (**29.268, 88.88**), both inherited exactly. Her 1868 Shigatse residence rests on her own word; Tucci's visit produced an inventory. **House-style pass, 2026-08-14:** the Shigatse campa named her; cut. Sixty-seven years apart, no citation either way, purely a same-coordinate coincidence, not an interlock. The Kashmir stop's mention of Blavatsky was outside this pass's flagged hits and is untouched. Pin unchanged.
 - **keyserling**: Darjeeling. His corpus pin (**27.005, 88.288**) is used in preference to the pool's 27.0410, 88.2663, so the atlas keeps one Darjeeling node.
 - **serrano**: Kailash, pin **31.067, 81.311** inherited exactly from his 1957 stop.
-- **gurdjieff**: Lhasa 1901 against Tucci's Lhasa 1948. His corpus pin is 29.652, 91.172 (generic Lhasa); the Potala is a distinct site and keeps its accurate 29.6558, 91.1177, with gurdjieff named in the campa.
+- **gurdjieff**: Lhasa 1901 against Tucci's Lhasa 1948. His corpus pin is 29.652, 91.172 (generic Lhasa); the Potala is a distinct site and keeps its accurate 29.6558, 91.1177. **House-style pass, 2026-08-14:** gurdjieff is no longer named in the campa. Forty-seven years apart, resting on Gurdjieff's own unverified word alone, no citation either way, purely a same-coordinate coincidence. Pin unchanged.
 - **savitri_devi**: the Kashmir and Amarnath approach corridor, 1936. **swami_vivekananda**: Calcutta.
 - **mussolini**: Tokyo 1936 and the 1938 race question. The Palazzo Venezia pin (**41.8961, 12.4817**) is inherited for the 1938 stop, in preference to the pool's unexplained 41.8719, 12.5674.
 - **Not applicable**: the lens also surfaced pins for the Kaaba (21.4225, 39.8262), the Temple Mount and Buenos Aires. Tucci went to none of them and none is used.

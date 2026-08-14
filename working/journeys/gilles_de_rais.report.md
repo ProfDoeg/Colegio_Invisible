@@ -47,7 +47,7 @@ Several dates and ten coordinates carried in the gathering pass were wrong. They
 
 The geography lens gave different figures for several (Blois 47.5861/1.3359; Patay 48.0558/1.6939; Lagny 48.8756/2.7047). **The corpus pin wins every time**, so that the two travellers stand on one point.
 
-**Second interlock, conceptual only [R].** `jesus.journey.json` pins the Massacre of the Innocents at Bethlehem (31.7042, 35.2075). Gilles founds a chapel at Machecoul **dedicated to the Holy Innocents** while, by his own servants' testimony, children are killed on the same ground. The dedication is documented; the resonance is thematic, **not evidentiary**, with no shared time, place, or persons. Named in that one campa and nowhere else.
+**Second interlock, conceptual only [R].** `jesus.journey.json` pins the Massacre of the Innocents at Bethlehem (31.7042, 35.2075). Gilles founds a chapel at Machecoul **dedicated to the Holy Innocents** while, by his own servants' testimony, children are killed on the same ground. The dedication is documented; the resonance is thematic, **not evidentiary**, with no shared time, place, or persons. House-style cleanup (2026-08-14) removed the explicit `jesus.journey.json` cross-reference from that campa as a coincidental echo rather than a documented citation; the underlying fact of the Machecoul dedication to the Holy Innocents remains.
 
 ---
 

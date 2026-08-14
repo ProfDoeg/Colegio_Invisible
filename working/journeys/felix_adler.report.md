@@ -97,7 +97,7 @@ All quotations in the journey come from the **1876 Founding Address** (American 
 - **stebbins [A].** The New York School of Expression, Carnegie Music Hall, October 1893, numbers Felix Adler of the Ethical Society among its pupils. Pin **40.7651 / -73.9799** inherited byte-identical.
 - **froebel [R].** Adler's kindergarten is downstream of Froebel's Blankenburg naming of the Kindergarten. Descent only: Froebel died in 1852. Pin 50.6667 / 11.15.
 - **sarmiento [R].** Eccleston's Paraná kindergarten (4 August 1884) and the Sociedad Froebeliana Argentina are a parallel branch of the same diffusion. No contact documented.
-- **buckminster_fuller [R].** The Fuller report holds that Froebel's gifts "literally shaped his geometry." Named in the Blankenburg campa, no pin.
+- **buckminster_fuller [R].** The Fuller report holds that Froebel's gifts "literally shaped his geometry." No documented relation to Adler himself; removed from the Blankenburg campa in the 2026-08-14 house-style pass as a coincidental name (Fuller has no connection to Adler, only to Froebel).
 
 **Negative finding, so it is not repeated.** The Adler-tagged stops in **freud.journey.json** (Alfred Adler), **jung.journey.json**, **niels_bohr.journey.json** (the Adler bankers) and **jaques_dalcroze.journey.json** (a conductor in Algiers) are **false-positive namesakes**. **[A]**
 

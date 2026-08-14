@@ -116,6 +116,8 @@ Eleven pins are inherited byte-identical from the files named.
 | Tripoli, weapons renounced | 32.8872, 13.1913 | `muammar_gaddafi` |
 | Marseille, lunch with Perle | 43.2965, 5.3698 | `adnan_khashoggi` |
 
+**House-style pass, 2026-08-14: Khashoggi cut from the Marseille campa.** The stop named Adnan Khashoggi lunching with Richard Perle at these coordinates, with the campa's own text conceding Bush "is not at and does not know about" the lunch. That is a coincidental, one-degree-removed adjacency (Khashoggi to Perle, not to Bush), not a documented relation to the current subject. The pin is still inherited byte-identical from `adnan_khashoggi.journey.json`; the campa now describes Perle's own documented role advising the Bush Pentagon, without naming Khashoggi.
+
 **One interlock is [R] and carried as [R].** The Green Zone stop in `saddam_hussein.journey.json` says Saddam "calls the American president a criminal", naming him only so; the identification is inference from the date. The separately verified quote names Bush outright and closes it; the Saddam file's wording does not.
 
 **Identified but not carried as stops:** Khomeini at the Kuwait frontier, 1978 (30.0994, 47.6836) [R]; Osirak negotiations, Paris 1975 (48.8566, 2.3522) [R]; Mosaddegh's 1953 ouster, first link in the chain `saddam_hussein` traces [A]; the 1991 coalition bombing (33.3152, 44.3661) [A].
