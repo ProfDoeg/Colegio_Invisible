@@ -108,6 +108,8 @@ The interlock lens searched the atlas for canonical pins overlapping Sendak's li
 
 Data hygiene: the pool's `fred_rogers` row carries 40.7813, -73.974, a New York coordinate belonging to the Oppenheimer row above it. Not used.
 
+**Considered and not used in campa**, removed under the house-style tightening of 2026-08-14, both explicitly speculative or self-admittedly coincidental in the campa text itself before the cut: `fred_rogers` at the Really Rosie stop (campa said "nothing in this atlas records either one watching the other"), and `william_blake` at the Rosenbach first-visit stop specifically (campa said "the two men are in the same building and nothing more"). Blake's one real, kept mention is at *My Brother's Book*, the posthumous work whose watercolor style genuinely draws on his illuminated pages — that citation stays in campa.
+
 ## 11. Gaps, stated as gaps
 
 1. No passenger manifest for either parent; Ellis Island is inference.
