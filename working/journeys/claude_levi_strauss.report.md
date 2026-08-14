@@ -168,15 +168,11 @@ Single-source Wikiquote transcriptions, **[R]**, used in the journey only with t
 
 ## 11. Corpus interlocks
 
-All **[R]** unless marked. None is a documented meeting; each is shared ground, decade, or institutional world, and the journey campa says so where it names another traveller.
+All **[R]** unless marked. None is a documented meeting.
 
-- **`artaud`**: the 1936 Sierra Tarahumara journey parallels the 1935-1938 Mato Grosso fieldwork, two Frenchmen leaving interwar Europe for indigenous America. Artaud's Left Bank is also the Paris of the 1931 agrégation.
-- **`einstein`**: the October 1933 New York arrival is the flight pattern repeated in 1941 into the same refugee-scholar community.
-- **`freud`**: the 1938 Vienna-to-London exile falls in the year of the second Brazilian expedition. **[A for the QUEUE.md grouping; R for the biographical link.]**
-- **`humboldt`**: the 1799-1804 Orinoco and Amazon expedition is the deep geographic ancestor of the Mato Grosso work. No temporal overlap.
-- **`max_muller`**: the 1845 Paris sojourn under Burnouf is the methodological ancestor of *Mythologiques*.
-- **`borges`**, **`victoria_ocampo`**: the Buenos Aires pin and the 1930s steamer circuit. Ocampo gives Villa Ocampo to UNESCO in 1973, the world in which Lévi-Strauss wrote *Race et Histoire*; that link is outside-corpus knowledge.
-- **`che_guevara`**: continental overlap, opposite purposes. **`karl_marx`**: the corpus Paris pin, and one of the three influences Lévi-Strauss names for himself.
+**Named in campa, real relation:** **`karl_marx`** and **`freud`**: the two teachers-he-never-had, named as intellectual formation at the Lycée and again at the agrégation, one of the three influences Lévi-Strauss names for himself throughout his life. This is documented self-attribution, not a coincidental crossing, and stays in campa.
+
+**Considered and not used**, removed under the house-style tightening of 2026-08-14, since each was shared ground, decade, or institutional world only, with no documented meeting or citation either way: **`artaud`** (the 1936 Sierra Tarahumara journey parallels the 1935-1938 Mato Grosso fieldwork, two Frenchmen leaving interwar Europe for indigenous America; Artaud's Left Bank was also the Paris of the 1931 agrégation), **`einstein`** (the October 1933 New York arrival is the flight pattern repeated in 1941 into the same refugee-scholar community, contrasted in the original campa at the San Juan FBI stop), **`freud`** at the Paris 1939 and Buenos Aires-adjacent stops specifically for the coincidence of his 1938-39 exile and death timing (as opposed to the influence relation above, which stays), **`humboldt`** (the 1799-1804 Orinoco and Amazon expedition, no temporal overlap, geographic ancestor only), **`max_muller`** (the 1845 Paris sojourn under Burnouf), **`borges`** and **`victoria_ocampo`** (the Buenos Aires pin and the 1930s steamer circuit; no document even places Lévi-Strauss in Buenos Aires at all), and **`che_guevara`** (continental overlap, opposite purposes, no relation).
 
 **Corpus footprint [A].** QUEUE.md line 62 names him anchor of the structuralist wing, line 252 restates it from the Lacan entry; `census_real_persons_2026-08-02.md` line 128 records 3 documents naming him, 1 verified and 2 pending.
 

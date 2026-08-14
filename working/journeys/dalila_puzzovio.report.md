@@ -150,7 +150,9 @@ Also **[A: EN and ES]**: costumes for *Help Valentino*, 1966. EN gives the endpo
 
 ## Interlock with the existing corpus
 
-A corpus-wide grep of `*.journey.json` for "Di Tella", "happening", "pop art", "billboard", "Marta Minujín" and "Alberto Greco" returns **no file naming Dalila Puzzovio, and no attested meeting or documented crossing between her and any existing traveler.** Every link below is inherited geography or era overlap, stated as such in the campa text rather than silently implied.
+A corpus-wide grep of `*.journey.json` for "Di Tella", "happening", "pop art", "billboard", "Marta Minujín" and "Alberto Greco" returns **no file naming Dalila Puzzovio, and no attested meeting or documented crossing between her and any existing traveler.**
+
+**Considered and not used**, removed under the house-style tightening of 2026-08-14: every name below was originally written into a campa on the strength of inherited geography or era overlap alone, several with the pattern spelled out explicitly in the prose itself ("the atlas finds no evidence they met", "no attested meeting"), which is now itself out of style, not just the coincidence it flagged.
 
 - **charly_garcia**: Buenos Aires 1967, Instituto Dámaso Centeno; same city, same years, adjacent counter-cultural milieu. **[R]**
 - **borges** and **victoria_ocampo**: Buenos Aires 1966-1968. `isabel_peron.journey.json` line 496 already uses these two as fixed points the corpus tracks "across the same city and the same decade". **[R]**
