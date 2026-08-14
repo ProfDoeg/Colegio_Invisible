@@ -108,7 +108,7 @@ Each checked against the full text of the cited item. **All six *Voice of China*
 
 **Pins inherited byte-identical:** Chongqing 29.5556, 106.5764 and Republican Shanghai 31.2197, 121.4726 (`mao_zedong`); Washington 38.9072, -77.0369 (`fermi`); Cairo 30.0444, 31.2357 (`gustave_flaubert`); New York 40.713, -74.006 (`buckminster_fuller`).
 
-**Travelers named in the campa**, where the paths genuinely cross: **mao_zedong** (Chongqing, August 1945, attested co-presence; the Moscow train of December 1949 against her New York exile), **einstein** (Shanghai, November 1922), **matteo_ricci** (Zhalan, the far end of the mission lineage that ends in a Methodist Generalissimo), **gustave_flaubert** (Cairo), **buckminster_fuller** (New York, 1949), **fermi** (Washington).
+**Travelers named in the campa**, where the paths genuinely cross: **mao_zedong** (Chongqing, August 1945, attested co-presence; the Moscow train of December 1949 against her New York exile), **matteo_ricci** (Zhalan, the far end of the mission lineage that ends in a Methodist Generalissimo), **gustave_flaubert** (Cairo), **buckminster_fuller** (New York, 1949), **fermi** (Washington). **einstein** (Shanghai, November 1922) was pulled from the first-meeting campa in house-style cleanup (2026-08-14): same port, unrelated year, no documented crossing with her, thematic coincidence only.
 
 **Recorded and not inherited:** the Kaaba, Temple Mount, Paris and Buenos Aires are multi-journey canonical pins here, but **no attested link places her at any of the four**. Left alone. All other pins were geocoded fresh, the corpus having no prior coverage of her American education arc or the Nanjing decade.
 

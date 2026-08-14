@@ -201,6 +201,15 @@ and its nodus/knot material").
 - **Coordinate caution inherited:** `leo_chiachio.journey.json` (line ~40) records that an earlier pass wrongly glossed
   a Recoleta address (Av. Gral. Las Heras 1749) as Belgrano. Belgrano's own centroid is -34.5613076 / -58.4565454.
 
+**House-style review, 2026-08-14.** The threads listed above are editorial groupings — motifs and coordinates the
+gathering pass noticed recurring across files — not documented relationships between Carbone and the people named in
+them. The campa prose has been revised to stop asserting or implying those relationships: the Flaubert, San Cristóbal,
+Chiachio/Giannone, Cecilia Vicuña, Morris & Co., and Arthur Bispo do Rosário stops no longer name Carbone (or, for
+Vicuña, no longer claim a shared-word "connection" the file itself admits is unverified) inside prose about people who
+share only a motif, a coordinate, or a craft with him and no citation either way. Laura Renée Maier is the one
+exception kept throughout: her file independently records the same studio visit and the same embroidered panel later
+seen in Carbone's own space, which is the genuine, mutual documentation the rest of the thread lacks.
+
 ---
 
 ## 9. Contradictions carried forward, not resolved

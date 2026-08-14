@@ -88,7 +88,7 @@ Named in campa where the paths genuinely cross; A items rest on the named journe
 - `hermann_hesse` **[A]** marries Maria Bernoulli, of the Basel family of mathematicians that trained Euler.
 - `newton` **[A]**: the 1723 dissertation sets Descartes against Newton, and Mechanica recasts Newtonian dynamics analytically.
 - `kant` **[A]** is eleven years old in the Königsberg whose bridges Euler solves without ever seeing the town, and petitions Empress Elizabeth for its chair in 1758 under Russian occupation.
-- `gauss` **[A]** reads Euler as a teenager, the Disquisitiones making a subject of what Euler and others had scattered; he lodges at the same Unter den Linden pin. `fichte` **[A]** refuges in Berlin 1799, lecturing into the Academy quarter Euler directed.
+- `gauss` **[A]** reads Euler as a teenager, the Disquisitiones making a subject of what Euler and others had scattered. His later lodging at the same Unter den Linden pin, and `fichte`'s 1799 refuge in the same Academy quarter, were pulled from the arrival campa in house-style cleanup (2026-08-14): same address, different decades, no documented crossing with Euler himself.
 - `miranda` **[A]** watches Frederick drill at Potsdam in 1785 and is presented to Catherine the Great in 1787.
 - `symmes` **[R]**, the corpus's flagship hollow-earth journey, and `kircher` **[R]**, *Mundus Subterraneus* (1665): Euler is a conscript to that cluster, not an ancestor of it.
 - `taras_shevchenko` **[R]** lies briefly in the adjoining Smolensk ground on Vasilievsky Island in 1861.

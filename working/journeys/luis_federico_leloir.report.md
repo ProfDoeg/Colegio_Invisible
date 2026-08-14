@@ -106,7 +106,7 @@ Ten quotes are carried into the journey; their provenance varies enormously.
 | `borges` | The 1946 library dismissal belongs to the same purge climate in which Leloir left state science. Adjacency, not contact. | **[R]** |
 | `victoria_ocampo` | es.wikipedia reports Leloir met Houssay through his cousin Victoria Ocampo. No document. | **[R]** |
 | `eva_peron` | The Rainbow Tour reached Paris in 1947; Leloir was born there in 1906. A coincidence and nothing else. | **[R]** |
-| `fermi` / `dirac` | Same Konserthuset stage, 10 December 1938 and 10 December 1933. Canonical pin shared. | **[A]** |
+| `fermi` / `dirac` | Same Konserthuset stage, 10 December 1938 and 10 December 1933. Canonical pin shared, but no documented crossing with Leloir; the naming was pulled from the Nobel-ceremony campa in house-style cleanup (2026-08-14) as a coincidental-venue mention. | **[A]** |
 | `cesar_milstein` | Argentina's third science Nobel, 1984, taken as an emigrant in Cambridge, one year before Leloir's 1985 address telling Argentina to have faith in its future. | **[A]** juxtaposition |
 
 **Negative results, recorded rather than omitted.** The Kaaba (21.4225, 39.8262) and Temple Mount (31.778, 35.2354) pins were checked for reuse and do not apply here. The Kirchner and Milei files both contain "Instituto", but neither was confirmed to name CONICET or the Instituto Leloir; that lead stays unpromoted. `adi_shamir` was checked for a Cambridge pin and is unrelated.

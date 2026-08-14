@@ -134,10 +134,9 @@ All from the **official CV [A]** unless noted.
 
 Named in campa where the crossing is real; left out where it is thematic only.
 
-- **arthur_bispo_do_rosario** [A, QUEUE.md line 259, completed file]: embroidered banners of text and inventory, made across fifty years inside the Colonia Juliano Moreira. The queue entry groups him with Chiachio and Giannone as one embroidery thread. No contact; the parallel is the medium. **Named at the MOLAA flag stop.**
 - **victoria_ocampo** [A, completed file]: San Isidro (**-34.4708, -58.5052**, inherited byte-identical). **Named at the collections stop**: she built a house to hold a culture, these two were absorbed into houses that already stood.
 - **xul_solar** [R, QUEUE.md line 362]: queued, no file. Invented languages and cosmologies, made near the Parque Tres de Febrero. **Named at the Museo Sivori stop** as a precedent, not a contact.
-- Left out of campa as thematic only: **le_corbusier**, **charly_garcia**, **san_cristobal**, **catorce_santos_ayudantes**. Queued, no files: **anni_albers**, **matias_carbone**, **duwenavue_sante_johnson**, **yuki_seo**, **ekaterina_sinchinova**, **laura_renee_maier**, **dalila_puzzovio**, **cristina_fernandez_de_kirchner**, **javier_milei**.
+- Left out of campa as thematic only: **arthur_bispo_do_rosario** (embroidered banners, no contact, medium-only parallel; house-style cleanup pulled the MOLAA flag stop's mention of him on 2026-08-14, since the parallel was thematic and uncited), **le_corbusier**, **charly_garcia**, **san_cristobal**, **catorce_santos_ayudantes**. Queued, no files: **anni_albers**, **matias_carbone**, **duwenavue_sante_johnson**, **yuki_seo**, **ekaterina_sinchinova**, **laura_renee_maier**, **dalila_puzzovio**, **cristina_fernandez_de_kirchner**, **javier_milei**.
 
 ---
 
