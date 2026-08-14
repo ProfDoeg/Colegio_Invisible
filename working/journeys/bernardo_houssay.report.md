@@ -142,12 +142,12 @@ They are not the same prize and are not treated as one.
 
 Recorded so the journey file's inheritances can be audited. Only the first five are used in campa.
 
-- **Buenos Aires, -34.6037 / -58.3816.** The canonical pin, carrying Borges's 1899 birth, Victoria Ocampo's 1890 birth, San Martín's 1812 landing. Houssay's 1887 birth inherits it byte-identical. **[R]**: shared coordinate, no documented contact.
+- **Buenos Aires, -34.6037 / -58.3816.** The canonical pin, carrying Borges's 1899 birth, Victoria Ocampo's 1890 birth, San Martín's 1812 landing. Houssay's 1887 birth inherits it byte-identical. **[R]**: shared coordinate, no documented contact. Cut from the campa text on the house-style pass of 2026-08-14: naming them there was coincidental (same pin, no relation to Houssay), not house style.
 - **Faculty of Medicine, -34.5989 / -58.3974.** che_guevara.journey.json puts Guevara's enrolment here in April 1947, **[A]** in file. Houssay held that chair until 1943 and won the Nobel in the year Guevara enrolled. Inference from two attested facts, not a meeting.
 - **Stockholm Konserthuset, 59.333 / 18.064.** Attested in file for Dirac 1933, Fermi 1938, Bose 1956, Feynman 1965. Houssay's 1947 ceremony joins the cluster.
 - **Sarmiento, Córdoba observatory, 1871.** sarmiento.journey.json attests the founding of 24 October 1871 as state science-building. The line from it to CONICET is **[R]**, an argument about institutional history, not a claim any source makes.
 - **Claude Lévi-Strauss.** His 1935 Buenos Aires arrival and Rockefeller-funded École libre of 1942 are **[A]** in file; Houssay's Rockefeller support for IBYME is **[A]** separately. The two are not recorded as meeting.
-- **Victoria Ocampo and the Sur circle.** Same city, same decades, no textual link in any file. **[R]**, thematic only, named in campa on that footing.
+- **Victoria Ocampo and the Sur circle.** Same city, same decades, no textual link in any file. **[R]**, thematic only. Removed from the campa text on the house-style pass of 2026-08-14 for lacking a documented relation to Houssay; the contemporaneity is still noted at the 1919 Instituto de Fisiologia stop, which is not part of this batch.
 - **Max Weber at the 1904 St. Louis congress.** Genre parallel only. Too thin. Not used.
 
 ## Sources

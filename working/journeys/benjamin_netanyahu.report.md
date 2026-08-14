@@ -145,13 +145,13 @@ The brief's afterlife lens presupposes a dead subject: tomb, posthumous cult, la
 |---|---|---|
 | robert_maxwell, ghislaine_maxwell | state funeral on the Mount of Olives, 10 Nov 1991, Shamir attending, Herzog eulogizing, Ghislaine at the graveside | [A in files; juxtaposition inferred] |
 | meyer_lansky | denied citizenship under the Law of Return by Israel's Supreme Court, 1972, and deported | [A in file; connection inferred] |
-| oliver_north, adnan_khashoggi | the 1985-86 Iran arms channel through Tel Aviv and Amiram Nir, adviser to Israel's prime minister | [A in files; Khashoggi's Tel Aviv routing is [R] in its own file] |
+| oliver_north, adnan_khashoggi | the 1985-86 Iran arms channel through Tel Aviv and Amiram Nir, adviser to Israel's prime minister | [A in files; Khashoggi's Tel Aviv routing is [R] in its own file. Cut from the campa text on the house-style pass of 2026-08-14: no source places Netanyahu in the channel, so naming North/Khashoggi there was coincidental overlap, not a documented relation.] |
 | bill_clinton | witness to the Wye signing, 23 Oct 1998; Western Wall visits of the 1990s on the canonical pin | [A in file] |
 | hillary_clinton | shuttle diplomacy to Jerusalem 2009-2013; direct talks open September 2010 | [A in file; Netanyahu not named there] |
 | saddam_hussein | Osirak destroyed June 1981; Babylon bricks stamped in the manner of Nebuchadnezzar | [A in file; throughline inferred] |
-| ayatollah_khomeini | Quds Day instituted 1979 | [A in file; framing inferred] |
+| ayatollah_khomeini | Quds Day instituted 1979 | [A in file; framing inferred. Cut from the campa text on the house-style pass of 2026-08-14: a shared platform and a vague ideological echo with no documented citation between the two men.] |
 | martin_buber | Hebrew University from 1938, Brit Shalom and Ihud, binationalism, buried 1965 | [A in file; contrast inferred] |
-| maimonides, solomon | both on 31.778 / 35.2354, the canonical Temple Mount pin, inherited byte-identical across Abraham, Adriano, Muhammad, Abu Bakr, Hiram Abiff, Sheba, Nebuchadnezzar, Christian Rosenkreuz, al-Kamil, Constantine, Flaubert, Ibn Battuta, Arthur Ben and bill_clinton | [A: coordinate attested across files] |
+| maimonides, solomon | both on 31.778 / 35.2354, the canonical Temple Mount pin, inherited byte-identical across Abraham, Adriano, Muhammad, Abu Bakr, Hiram Abiff, Sheba, Nebuchadnezzar, Christian Rosenkreuz, al-Kamil, Constantine, Flaubert, Ibn Battuta, Arthur Ben and bill_clinton | [A: coordinate attested across files. Solomon, Maimonides and Abraham cut from the campa text on the house-style pass of 2026-08-14: shared coordinate only, no documented relation to Netanyahu himself; bill_clinton is kept, on genuine documented interaction (Wye River, embassy recognition).] |
 | edward_witten | honorary doctorate from the Hebrew University; an unlocated Israeli year in the 1960s | [R in file] |
 | adi_shamir | Israel Prize 2008, Wolf Prize at the Knesset 2024, each inside a Netanyahu government | [A in file; alignment inferred] |
 

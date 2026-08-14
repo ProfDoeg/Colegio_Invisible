@@ -137,10 +137,10 @@ PubMed was the one source that yielded Milstein in his own words. Every quotatio
 
 A grep across `working/journeys/*.journey.json` finds **no existing journey file that mentions César Milstein, hybridomas, monoclonal antibodies, the Instituto Malbrán, or Bahía Blanca**. Every connection below is geographic, generational or conventional. **None is an attested co-appearance.**
 
-- **`che_guevara` [R]** Guevara's Facultad de Ciencias Médicas record at the UBA overlaps Milstein's chemistry years at the same university, different faculties in different quarters. No evidence they met.
-- **`sarmiento` [R]** San Juan as the other provincial origin the atlas keeps, and the Gould/Córdoba Observatory current of expertise into Argentina, which Milstein reverses. **Pool ambiguity flagged:** the "Cambridge" in the Sarmiento file's Gould reference may be Massachusetts, not England.
-- **`victoria_ocampo` [R]** The 1953 arrest under Perón and the same Buenos Aires milieu; also Paris, which enters the atlas through her, not through Milstein.
-- **`borges` [R]** The 1946 removal from the Biblioteca Miguel Cané: a state making a post untenable. Not a shared scene.
+- **`che_guevara` [R]** Guevara's Facultad de Ciencias Médicas record at the UBA overlaps Milstein's chemistry years at the same university, different faculties in different quarters. No evidence they met. Cut from the campa text on the house-style pass of 2026-08-14 (birth and Perú 222 stops): same city or same faculty at an unrelated time, no citation of contact.
+- **`sarmiento` [R]** San Juan as the other provincial origin the atlas keeps, and the Gould/Córdoba Observatory current of expertise into Argentina, which Milstein reverses. **Pool ambiguity flagged:** the "Cambridge" in the Sarmiento file's Gould reference may be Massachusetts, not England. Cut from the campa text on the house-style pass of 2026-08-14 on the same coincidental-origin basis.
+- **`victoria_ocampo` [R]** The 1953 arrest under Perón and the same Buenos Aires milieu; also Paris, which enters the atlas through her, not through Milstein. Cut from the campa text on the house-style pass of 2026-08-14 (Perú 222 degree stop and UNESCO Paris stop): shared milieu only, no documented relation to Milstein.
+- **`borges` [R]** The 1946 removal from the Biblioteca Miguel Cané: a state making a post untenable. Not a shared scene. Cut from the campa text on the house-style pass of 2026-08-14 (Ezeiza stop): thematic echo only, no documented relation to Milstein.
 - **`tony_skyrme` [R]** Cambridge one generation earlier, at Trinity, a different institution from the LMB.
 - **`niels_bohr` [A for the pin convention]** The Stockholm Nobel pin, **59.3293, 18.0686, inherited byte-identical**.
 

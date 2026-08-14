@@ -140,7 +140,7 @@ Eleven of the forty-four stops carry a quotation, each checked against a transcr
 
 The Lucasian chain needs a plain statement, the corpus having carried it unverified: `ada_lovelace.journey.json` flagged the tenure as reconstruction, and neither `newton.journey.json` nor `dirac.journey.json` names Babbage in the succession. **This report confirms it against Wikipedia's list of Lucasian Professors (1828-1839) and the two biographies, with the 1827/1828 discrepancy of §4.** Newton to Babbage to Dirac is now [A] in each link, a chain of office and not of contact.
 
-The Turin overlap is a pin coincidence only: no contact between Babbage in 1840 and Rousseau in 1728, Jefferson in 1787, Ruskin in 1833 and 1858, Nietzsche in 1888-89, or Soleri's birth in 1919. The campa names it as such.
+The Turin overlap is a pin coincidence only: no contact between Babbage in 1840 and Rousseau in 1728, Jefferson in 1787, Ruskin in 1833 and 1858, Nietzsche in 1888-89, or Soleri's birth in 1919. Rousseau, Jefferson and Nietzsche were removed from the campa text entirely on the house-style pass of 2026-08-14, since a shared pin at different, unrelated times with no citation either way is exactly what house style excludes; the stop now closes on Menabrea's own documented link forward to Ada Lovelace instead.
 
 ---
 
