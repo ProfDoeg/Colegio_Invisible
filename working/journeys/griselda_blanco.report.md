@@ -137,8 +137,8 @@ A warning governing the whole file. Blanco's biography is carried almost entirel
 
 Named in campa:
 
-- **meyer_lansky**, three times. **25.7907, -80.13** (Miami Beach) is inherited byte-identically for her unlocated mansion and for the "phantom mansion"; **25.7959, -80.287** (Miami International) is his 1972 arrival and her 2004 departure. He is alive on Collins Avenue through her Miami peak.
-- **jose_lopez_rega**, the same MIA pin, his 13 March 1986 surrender. Three atlas travellers pass through that terminal in three decades, each leaving the United States for good under escort.
+- **meyer_lansky**, twice. **25.7907, -80.13** (Miami Beach) is inherited byte-identically for her unlocated mansion and for the "phantom mansion". He is alive on Collins Avenue through her Miami peak.
+- ~~jose_lopez_rega~~ **[cut 2026-08-14, house-style sweep].** The Miami International stop originally named both Lansky (1972 arrival) and Lopez Rega (1986 surrender) sharing her 2004 departure gate, framed explicitly as "three atlas travellers passing through that terminal." Under the house rule that a same-coordinate/different-era crossing with zero citation either way is not a genuine relation, both names were struck from that campa and it now stands on her own attested facts (the 1964 entry on false papers, the ten fugitive years, her age). The MIA coordinate itself is unchanged.
 - **charles_lucky_luciano**, two years dead in Naples when she lands in Queens in 1964; his Havana-to-Florida corridor is the one her trade floods.
 - **manuel_noriega**, twice: chief of Panamanian military intelligence at her April 1975 indictment, thirteen years before the Miami indictment naming the same cargo; and a prisoner in Miami-Dade in 1998 as she signs her plea in the same county.
 - **agha_hasan_abedi**, the BCCI Tampa division and Operation C-Chase. **Disclaimed in the campa**: nothing in the reachable record joins her accounts to his bank.

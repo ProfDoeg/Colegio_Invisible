@@ -114,8 +114,7 @@ Twelve pool coordinates were wrong; each is corrected in the journey file with t
 - **[A]** `augusto_boal`: the 1964 coup, AI-5, Boal's 1971 kidnapping and torture by the Brazilian army, fifteen years of exile. Same army, overlapping decades. Named in the Deodoro campa.
 - **[A]** `arthur_bispo_do_rosario`: Brazil passing into military government in 1964, with Bispo inside the Colônia Juliano Moreira. Named in the Eldorado campa; Bolsonaro is nine.
 - **[A]** `javier_milei`: his CPAC, Trump and Capitol Rotunda stops (2023-2025) map the same circuit. Named in the Budapest campa. **No meeting is asserted; none is in the pool.**
-- **[A]** `saddam_hussein` and `muammar_gaddafi`: the Paris receptions of 1975 and 2007, named in the White House campa as a motif, not a connection.
-- **[R]** `cristina_fernandez_de_kirchner`: a former head of state convicted after office and confined at home in the same regional season. Inferred parallel, named in the house-arrest campa. **Not a documented link.**
+- **Cut on house-style review:** `saddam_hussein` and `muammar_gaddafi` (the Paris receptions of 1975 and 2007) and `cristina_fernandez_de_kirchner` (house arrest in the same regional season) were named in the White House and house-arrest campas as motif/parallel only, with no documented connection to Bolsonaro himself. Both campas were rewritten around his own attested record.
 - **[A/R]** `jose_lopez_rega` with `muammar_gaddafi` and `augusto_pinochet`: the Triple A and the Condor network founded at Santiago on 25 November 1975 are the context of his service from 1977. **Brazil's Condor role is [R] here:** the Pinochet file's founding-act stop names only the four signatories, so the Nioaque campa alludes to the network without naming Brazil.
 - **[A]** Gap: **no existing `*.journey.json` contained the string "Bolsonaro"** before this file; the only prior reference is the QUEUE.md row.
 

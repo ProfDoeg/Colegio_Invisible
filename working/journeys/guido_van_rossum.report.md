@@ -152,11 +152,11 @@ Four existing travelers are named in campa, where the paths cross or where the d
 | Slug | Where | Basis |
 |---|---|---|
 | `bob_kahn` | Reston, CNRI, 1995 | **[A]** Kahn founded CNRI in 1986 and chaired it; van Rossum worked there 1995-2000, same institution and building. Reston pin inherited byte-identical. |
-| `vint_cerf` | Reston 1995; Mountain View 2005 | **[A]** Cerf's CNRI years and his October 2005 Google arrival both bracket van Rossum's. **[R]** that they ever met: no source says so, and the campa says so. Googleplex pin inherited byte-identical. |
-| `alan_turing` | Belmont, 2024 | **[R]** Disciplinary lineage only, 'On Computable Numbers' (1936) to the machines Python runs on. Named in campa as lineage, not encounter. |
-| `john_von_neumann` | Belmont, 2024 | **[R]** Stored-program architecture; he and Turing shared Fine Hall per `alan_turing.journey.json`. Same disclaimer. |
+| `vint_cerf` | Reston 1995 | **[A]** Kahn and Cerf's shared CNRI years, same institution, same corridor, stated in the Reston 1998 stop. **[cut 2026-08-14]** The Mountain View 2005 mention (Cerf joining Google two months before van Rossum, working from Reston) was struck from campa: same employer, different building, and the campa itself said "no source says the two men ever met here" — a same-coordinate coincidence with zero citation, not a genuine relation under house style. Googleplex pin still inherited byte-identical from `vint_cerf.journey.json`, unaffected. |
+| `alan_turing` | — | **[cut 2026-08-14]** Was named at Belmont 2024 as disciplinary lineage only ('On Computable Numbers' to the machines Python runs on), explicitly disclaimed as "neither ever met van Rossum." Struck under house style: a generic technical lineage true of all modern software is a thematic echo, not a documented relation. |
+| `john_von_neumann` | — | **[cut 2026-08-14]**, same stop and same reasoning as Turing above. |
 
-The PEP-as-descendant-of-RFC connection to the Cerf/Kahn standards culture is stated in the Reston 1998 stop with both files cited: van Rossum's own documented claim, not an atlas inference.
+The PEP-as-descendant-of-RFC connection to the Cerf/Kahn standards culture is stated in the Reston 1998 stop with both files cited: van Rossum's own documented claim, not an inference from adjacent files.
 
 **Canonical pins checked and declined**, per the interlock lens's request: the Kaaba (21.4225, 39.8262), the Temple Mount (31.778, 35.2354), the Buenos Aires anchor (-34.6037, -58.3816) and the Paris centroid (48.8566, 2.3522). No source attests any connection, so none is inherited, following the discipline already set by `arthur_bispo_do_rosario`, `cecilia_vicuna`, `fritz_lang` and `johan_palmstruch`.
 

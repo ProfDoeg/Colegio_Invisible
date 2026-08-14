@@ -128,7 +128,7 @@ Pins inherited byte-identical from sibling journeys, verified by reading those f
 
 Travelers named in campa (mutual gaze): **solomon**, **sheba**, **nabucodonosor**, **molay**, **giulio_camillo**, **paul_barbier**, **theodor_reuss**, **rene_guenon**.
 
-**Open interlock, not closed here.** `solomon.report.md` line 36 earmarks a Cadiz lodge interlock. No Cadiz pin exists in the corpus and no verified Cadiz material was in this pool, so nothing was invented to fill it. The Charleston stop names the gap in its campa; closing it needs a researched Spanish-lodge subject.
+**Open interlock, not closed here.** `solomon.report.md` line 36 earmarks a Cadiz lodge interlock. No Cadiz pin exists in the corpus and no verified Cadiz material was in this pool, so nothing was invented to fill it. The Charleston stop's campa was edited during house-style cleanup (2026-08-14) to remove the self-reference that had named this gap directly; it now states the Cadiz seat as plain fact instead. Closing the interlock itself still needs a researched Spanish-lodge subject.
 
 ---
 

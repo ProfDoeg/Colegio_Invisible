@@ -85,7 +85,7 @@ The richest primary material located is Isabel's private correspondence to Peró
 
 **Triple A, count corrected.** The pool assigned "nearly 300 murders" to calendar 1974. en.wikipedia reads "between late 1973 and late 1974 the Triple A had already carried out nearly 300 murders," and gives "some 600 people" overall. The journey states it as a running total over roughly fifteen months. **[A: en.wikipedia]**
 
-**Interlock.** The DINA killing of General Carlos Prats and his wife, Buenos Aires, 30 September 1974, is named in the Triple A stop. **[A: corpus `augusto_pinochet.journey.json`]**
+**Interlock cut on house-style review.** The DINA killing of General Carlos Prats and his wife, Buenos Aires, 30 September 1974, was named in the Triple A stop as a same-city, same-period event; no documented interaction between Isabel Perón and Prats exists, so the campa was rewritten around her government's own attested conduct (López Rega's ministry, the AAA killings) instead.
 
 ---
 
@@ -97,7 +97,7 @@ The richest primary material located is Isabel's private correspondence to Peró
 
 **Detention.** **El Messidor**, the Neuquén governor's residence at Villa La Angostura, about seven months from March 1976, with her housekeeper Rosarito **[A: es.wikipedia, "El Messidor"]**; later the **Naval Arsenal at Azul**, roughly five years of house arrest in all **[R: sources differ on the sequence and number of sites, and some mention undisclosed locations itemized nowhere reachable]**. Azul is folded into the El Messidor campa because its dating cannot be fixed. **Released and exiled to Spain, July 1981** **[A: en.wikipedia and es.wikipedia]**.
 
-**Interlock.** Eva Perón's burial in the Duarte vault at **Recoleta, 22 October 1976**, while Isabel is in custody, sharing ground with `julio_argentino_roca` (there since 1914) and `tschiffely` (1954). **[A: corpus]**
+**Interlock cut on house-style review.** Eva Perón's burial in the Duarte vault at **Recoleta, 22 October 1976**, while Isabel is in custody, was originally staged as "sharing ground" with `julio_argentino_roca` (there since 1914) and `tschiffely` (1954) — a same-cemetery, unrelated-era coincidence with no documented link to Isabel Perón. The campa was rewritten around the vault's own attested guard and sealing instead.
 
 ---
 
@@ -127,7 +127,9 @@ Inherited **byte-identical** from the corpus where it differs from the pool: Col
 
 ## Interlocks named in the journey
 
-`juan_peron` (Colón, Puerta de Hierro, Morón, the 1973 swearing-in, the death at Olivos), `eva_peron` (the coffin at Puerta de Hierro, the 1974 return to Olivos, the 1976 Recoleta burial), `augusto_pinochet` (the Prats assassination, 1974), `julio_argentino_roca` and `tschiffely` (the Recoleta ground), `victoria_ocampo` and `borges` (Buenos Aires across 1973 to 1981, both bracketing the presidency).
+`juan_peron` (Colón, Puerta de Hierro, Morón, the 1973 swearing-in, the death at Olivos), `eva_peron` (the coffin at Puerta de Hierro, the 1974 return to Olivos, the 1976 Recoleta burial).
+
+**Cut on house-style review:** `augusto_pinochet` (the Prats assassination, 1974), `julio_argentino_roca` and `tschiffely` (the Recoleta ground), and `victoria_ocampo` and `borges` (Buenos Aires across 1973 to 1981, both bracketing the presidency) were all named on same-city/same-era coincidence alone, with no documented interaction with Isabel Perón herself. All four campas were rewritten to stand on her own attested record.
 
 `jose_lopez_rega` and `marta_ezcurra` sit beside this subject in QUEUE.md and are **not yet researched**. López Rega is named in the campas as a person, never as a corpus traveler; no stop cross-references a file that does not exist.
 
