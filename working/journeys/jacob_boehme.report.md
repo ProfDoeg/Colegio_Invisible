@@ -124,14 +124,10 @@ Named in campa where the paths genuinely cross:
 - **novalis** [A] Tieck lends Böhme to Novalis at Jena, summer 1799; the blue flower and the *Ofterdingen* cosmology follow. The only journey file in the corpus that names Böhme outright.
 - **schelling** [R] The *Freiheitsschrift* (1809) and its dark ground of God; the Ungrund vocabulary is Böhme's, mediated by Baader. schelling.journey.json quotes the text without naming Böhme.
 - **hegel** [A] "the first German philosopher", en.wikipedia.
-- **fichte** [A birthplace / R proximity] Born at Rammenau in Lusatian Saxony, 1762, some 60 km from Görlitz. The adjacency is this file's inference, stated only as geography.
-- **giordano_bruno** [R] Prague 1588, thirteen years before *Aurora*. No contact, no transmission claimed.
-- **kircher** [A synchronism] October 1618: Paderborn accident, Prague defenestration, the war that runs through Lusatia to Böhme's death.
 - **steiner** [R] Claimed Böhme a forerunner of spiritual science; staged at Prague, 1911.
 - **blavatsky** [R] Theosophical self-histories name Böhme an ancestor of *theosophia*.
-- **mikhail_bakunin** [R] Dresden 1849. Regional proximity only, and the campa says nothing more.
 
-Recorded, not used in campa: **jung** [R] and **theodor_reuss** [R].
+Considered and not used, removed under the house-style tightening of 2026-08-14, all pure coincidence with no relation to Böhme himself: **fichte** [R proximity] (born at Rammenau, some 60 km from Görlitz, adjacency only, this file's own inference); **giordano_bruno** (Prague 1588, thirteen years before Böhme ever traded there, no contact); **kircher** (named twice — once for a synchronistic 1618 accident at Paderborn while Böhme resumes writing at Görlitz, once as a coincidental later visitor to the same Prague market pin Böhme used for the glove trade); **steiner**'s Prague 1911 lecture, at the same market-pin coincidence (Steiner's real claim of Böhme as a forerunner, cited above, stays in campa at the Dresden stop; only the coincidental Prague lecture-hall mention was cut); **mikhail_bakunin** [R] (Dresden 1849, on the barricades two hundred and twenty-five years after Böhme's own colloquium there, regional proximity only). Recorded, not used in campa: **jung** [R] and **theodor_reuss** [R].
 
 **Canonical pins inherited byte-identical:** Prague 50.0755, 14.4378 (giordano_bruno, kircher, steiner, hegel); Dresden 51.0504, 13.7373 (mikhail_bakunin); Jena 50.9271, 11.5892 (novalis); Amsterdam 52.3676, 4.9041; London 51.5074, -0.1278 (census, Blake). **Originated fresh:** Görlitz 51.1552, 14.9889. A grep across all `*.journey.json` files returned no hits for Görlitz or Gorlitz; the town of Böhme's whole adult life does not exist in the atlas before this file.
 
