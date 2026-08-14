@@ -172,6 +172,8 @@ Checked by corpus-wide grep of `working/journeys/*.journey.json`.
 - **[R]** `giles`: the "open sea off Sicily, the storm calmed" pin (37.8, 12.4) sits in exactly the water the Vitus legend crosses. Inherited byte-identical, opposite direction.
 - **[R]** The dance wing (`isadora_duncan`, `mary_wigman`, `laban`, `delsarte`, `charlotte_bara`) connects thematically only; no file in it mentions Vitus or chorea. Not named in campa on that basis.
 - **[A]** Modestus and Crescentia appear nowhere else in the corpus. A gap, not an absence.
+
+**House-style tightening, 2026-08-14.** Four campas used "the atlas"/"the corpus" self-referential phrasing (the open sea off Sicily, Vierzehnheiligen, Ingolstadt, Obernburg) and were cut. The real relations stay: Giles as a fellow helper crossing the same water, Barbara/Giles as fellow helpers at Vierzehnheiligen, Margaret/Barbara/Catherine at Obernburg, and the Faust council minute's real (if thin) documentary use of the feast day as a date.
 - **[A]** Kaaba (21.4225, 39.8262) and Temple Mount (31.778, 35.2354) were offered as reusable anchors. Neither connects to this subject and neither is used; recorded so the omission reads as a decision.
 - **[A]** QUEUE.md and `census_real_persons_2026-08-02.md` contain no "vito" or "vitus".
 
