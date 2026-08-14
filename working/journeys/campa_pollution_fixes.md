@@ -44,6 +44,8 @@ Running log of every campa rewritten to remove a coincidental (non-relational) m
 - **saint_cyriacus** — 6 campas fixed: Alexandria other origin (kept Catherine), Nicomedia church pulled down (kept Constantine as real context), Baalbek tower (kept Barbara), Santa Maria in Via Lata (kept Catherine, painted together), Nuremberg order closes (kept full list + Denis), Vierzehnheiligen shepherd (kept Christopher).
 - **saint_denis** — 5 campas fixed, all pure self-reference cuts with no coincidental named person (Genevieve's mention kept, real documented connection: she personally built the basilica over Denis's grave).
 
+- **saint_erasmus** — 4 campas fixed: Gaeta (self-ref only), Franconia belly and beasts (kept George/Pantaleon/Vitus as fellow helpers), London print (self-ref only), Buenos Aires barrio (removed Emin Arslan, the Ottoman consul, pure coincidental shared-pin with zero relation to Erasmus).
+
 **Anthony's clarification, 2026-08-14 (second ruling):** one-directional documented engagement counts as a real relation even across centuries — a later writer's commentary, biography, translation, or chronicle about an earlier subject is genuine, not coincidental, even though the earlier person could never have known of the later one. Only zero-engagement shared time/place (same city, same era, no citation either way) should still be cut. This confirms the standard already applied throughout this pass (e.g. Waite's translations of Paracelsus, Weber's Beruf analysis of Luther, Bruno's tribute to Luther all kept).
 
 **Next steps for a future pass, in priority order:**

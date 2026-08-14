@@ -93,7 +93,9 @@ Regensburg 49.01806, 12.09083 (1320 to 1360); Nuremberg 49.4534, 11.0775 (c. 140
 
 Two do real work. **Corvey, 836**: Vitus's relics go into German ground by deliberate policy **six years before** Erasmus is carried to Gaeta in flight, the same ninth-century wave of *translatio* on the opposite motive **[A, catorce file]**. **Rome, 1969**: the reform drops **Barbara, Catherine of Alexandria, Christopher and Margaret of Antioch** for unverifiable historicity and **leaves Erasmus**, whose passio the Catholic Encyclopedia had called baseless in 1913. **No document consulted explains the distinction** **[gap]**.
 
-**The belly patronage.** Erasmus is invoked against **colic, abdominal and intestinal ailments, labour pains, and cattle pests** **[A, en.wikipedia]**. The sources read this as arising **from the disembowelment legend**, with **no healing episode in his life to support it** **[R as to the causal link, given by the sources as inference]**. A **1908 devotional source quoted in the catorce file** names him with **George, Pantaleon and Vitus** for animals struck by plague **[A, Hammer 1908]**.
+**The belly patronage.** Erasmus is invoked against **colic, abdominal and intestinal ailments, labour pains, and cattle pests** **[A, en.wikipedia]**. The sources read this as arising **from the disembowelment legend**, with **no healing episode in his life to support it** **[R as to the causal link, given by the sources as inference]**. A **1908 devotional source** names him with **George, Pantaleon and Vitus** for animals struck by plague **[A, Hammer 1908]**.
+
+**House-style tightening, 2026-08-14.** Four campas used "the atlas"/"this file" self-referential phrasing (Gaeta, Franconia belly and beasts, London print, Buenos Aires barrio) and were cut. The Buenos Aires stop also named **`emin_arslan`**, the Ottoman consul, coincidentally sharing the same San Cristobal barrio pin with no relation whatsoever to Erasmus; removed, considered and not used. The real Fourteen Holy Helper relations (George, Pantaleon, Vitus, and the San Cristobal barrio's own namesake) stay.
 
 ## 10. Later cult, art, and the towns
 
