@@ -36,6 +36,11 @@ Running log of every campa rewritten to remove a coincidental (non-relational) m
 
 **Remaining from the original 18-file confirmed-violation list, not yet done:** etteilla (11 atlas-hits), ibn_battuta (Mecca Kaaba stop, 5 coincidental names + self-ref), jules_barbier (10 atlas-hits, 2 stops likely need the self-ref-only treatment since Barbier's Joan of Arc/Dante mentions are real citations of his own opera subjects), l_frank_baum (8 atlas-hits, includes the Tolkien/Sendak fairy-tale-debate stop), laura_renee_maier (14 atlas-hits — large), lionel_royer (5, Domrémy Bourlémont-family stop), luc_olivier_merson (10, Orléans/Joan of Arc stop is likely self-ref-only since Merson's drawing IS of Joan of Arc).
 
+## Fourteen Holy Helpers cluster (2026-08-14, second session)
+
+- **saint_eustace** — 11 campas fixed (all self-reference-only cuts, per Anthony's ruling that the group-veneration relation is real and stays): Trajan's Forum (Constantine), Hydaspes (Alexander), Selinus (Hadrian), Temple Mount (kept Acacius as fellow helper), Sant'Eustachio, Saint-Denis x2 (kept Denis/Vitus, both real — Denis is literally interred in the same church), Regensburg (kept Blaise/Christopher as fellow helpers), Vierzehnheiligen (kept Barbara/Vitus/Giles/Acacius), Obernburg (kept Barbara/Catherine/Vitus), Rome 1969 calendar (kept Barbara/Catherine/Christopher/Margaret of Antioch as fellow helpers).
+- **saint_acacius** — 6 campas fixed: Constantinople martyrium (kept Barbara), Antioch/Hadrian and Temple Mount/Hadrian (self-ref cut, Hadrian kept as historical/geographic context only, no relation asserted), the Ararat cross (self-ref only, no named person), Regensburg (kept Barbara/Catherine/Margaret/Giles/Christopher/Vitus as fellow helpers), Rome 1969 (self-ref only).
+
 **Next steps for a future pass, in priority order:**
 1. Finish the 7 remaining files above.
 2. Fourteen Holy Helpers cluster, self-reference-only cleanup (real relation stays).

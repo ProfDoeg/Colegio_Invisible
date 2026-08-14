@@ -115,6 +115,8 @@ Both cannot be right. **The atlas follows the arithmetic of the existing Fourtee
 | Obernburg am Main | 49.8385 / 9.1472 | `saint_barbara`, `catherine_alexandria`, `san_vito` |
 | Rome / Vatican (1969) | 41.9022 / 12.4534 | `catorce_santos_ayudantes`, `saint_acacius` |
 
+**House-style tightening, 2026-08-14.** Ten campas in this file used "in this atlas"/"this corpus"/"these files" self-referential phrasing (Trajan's Forum, Hydaspes, Selinus, Temple Mount, Sant'Eustachio, both Saint-Denis stops, Regensburg, Vierzehnheiligen, Obernburg) plus an eleventh at the 1969 calendar stop ("the Fourteen Helpers file counts him"). All eleven were rewritten to cut the self-reference. Per Anthony's ruling, the underlying Fourteen Holy Helpers group-veneration relation is real and stays: Acacius, Blaise, Christopher, Barbara, Catherine, Vitus, Giles, Margaret of Antioch remain named wherever the source documents them as fellow helpers venerated at the same altar, fresco, or calendar entry. Only genuinely coincidental mentions (Alexander's battlefield, Hadrian's unrelated itinerary, Constantine's office-dating) had their self-reference language cut with no replacement needed, since those never asserted a relation to begin with.
+
 **Negative results, recorded rather than silently omitted:**
 
 - **The Kaaba (21.4225 / 39.8262).** Grepped across the corpus: the pin belongs to unrelated travelers (Abu Karib, Abraham, Muhammad) and no thematic link was found. **No Eustace stop created.**

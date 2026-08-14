@@ -123,6 +123,8 @@ Canonical pins inherited **byte-identical**: Regensburg 49.0134 / 12.1016 and Vi
 
 Mutual gaze written into the campa: **Constantine** (`constantino_el_grande`), **Hadrian** (`adriano`), **Barbara** (`saint_barbara`), **Catherine** (`catherine_alexandria`), **Margaret** (`margarita_pelagia`), **Giles** (`giles`), **Christopher** (`san_cristobal`), **Vitus** (`san_vito`), the company itself (`catorce_santos_ayudantes`), and **Martin Luther** (`martin_luther`), whose ninety-five theses go up on the door of the church housing Frederick's relics of the Ten Thousand.
 
+**House-style tightening, 2026-08-14.** Six campas used "the atlas"/"this file" self-referential phrasing (Constantinople martyrium, Antioch/Hadrian, Temple Mount, the Ararat cross, Regensburg, Rome 1969). All six were rewritten to cut the self-reference. The real Fourteen Holy Helpers relations (Barbara, Catherine, Margaret, Giles, Christopher, Vitus) stay named wherever the source documents shared veneration. Hadrian's mentions stay too, kept as historical/geographic context for where the undocumented Acacius legend is set, not as an asserted personal relation.
+
 **Prior state of the corpus:** a grep across all `*.journey.json` for `acacius`, `ararat` and `ten thousand` returned hits only in `catorce_santos_ayudantes.journey.json`, which carries one stop, "Byzantium, the centurion under two names," already stating the problem this file elaborates. The **Ararat tradition had never been carried in the atlas as a route**; that is the largest new material here. **[R: stated as a gap, per house style]** `QUEUE.md` line 156 groups Acacius under "Los Catorce Santos Ayudantes"; line 157 lists him individually. **[A]**
 
 ---
