@@ -123,6 +123,8 @@ Canonical pins inherited byte-identical, per the interlock lens: **MIT, Cambridg
 
 **Corpus gaps left open.** Three, all recorded rather than filled: the 1943 Turing meeting is documented in no atlas file; `von_neumann.journey.json` has no entropy-naming stop; and no file connects Shannon's wartime cryptography to the NSA lineage `diffie.journey.json` narrates through Fort Meade, though both describe the same apparatus.
 
+**House-style correction, 2026-08-14.** Five campa self-references to "the atlas" were removed as bad storytelling. Two of them had also named a subject with no genuine documented relation to Shannon and were rewritten around his own attested facts: the Michigan stop dropped Dirac's 1929 Ann Arbor lecture (same campus, sixteen years apart, no citation of contact) and the 1966 medal stop dropped its Diffie-birth/Oppenheimer-summons pin-sharing aside (three unrelated events at one coordinate, tagged **[R]** above and never claimed as more). `dirac` is accordingly dropped from the "travelers named in campa" list in section 9's first paragraph; the Ann Arbor canonical-pin note stands as a coordinate fact only, not a narrative claim. The `von_neumann`, `robert_oppenheimer`, `diffie`, and `hellman` interlocks are unaffected: each rests on a citation already in the journey (the entropy naming, the IAS directorship, the MIT campus overlap paired with Hellman's 1969 paper, the paper itself).
+
 ---
 
 ## 10. Sources

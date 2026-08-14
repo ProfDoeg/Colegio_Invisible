@@ -132,15 +132,17 @@ Commemoration is entirely institutional: Turing Award, Royal Society foreign mem
 
 Genuine crossings, used in campa:
 
-- **`claude_levi_strauss`**, **`tschiffely`**: Washington. Levi-Strauss holds the French cultural counsellorship 1945 to 1947 (his file flags its own date contradiction); Tschiffely's ride ends there 1928; Diffie is born there 1944. Shared city, not shared moment **[A per traveler, R for the intersection]**.
-- **`robert_oppenheimer`**: Harvard, Cambridge, 1922 to 1925, against Diffie at MIT, 1961 to 1965. The Los Alamos link is lineage, not contact: the secrecy apparatus that produced Los Alamos produced the agency the paper defies **[R]**.
+- **`claude_levi_strauss`**, **`tschiffely`**: Washington. Levi-Strauss holds the French cultural counsellorship 1945 to 1947 (his file flags its own date contradiction); Tschiffely's ride ends there 1928; Diffie is born there 1944. Shared city, not shared moment **[A per traveler, R for the intersection]**. **[REMOVED from campa, 2026-08-14]**: house-style cleanup cut this as a coincidental name drop, three unrelated events at one coordinate with no citation connecting any pair of them; the birth stop was rewritten around Diffie's own attested facts.
+- **`robert_oppenheimer`**: Harvard, Cambridge, 1922 to 1925, against Diffie at MIT, 1961 to 1965. The Los Alamos link is lineage, not contact: the secrecy apparatus that produced Los Alamos produced the agency the paper defies **[R]**. **[REMOVED from campa, 2026-08-14]**, alongside the Belgrano parallel below, for the same reason: lineage without contact is not a genuine documented relation. The Fort Meade stop was rewritten around the NSA's own institutional history.
 - **`gauss`**: the Disquisitiones Arithmeticae (1801) founds the theory of congruences; Diffie-Hellman is modular exponentiation over a finite field. Descent real, corpus link inference **[R]**.
 - **`roger_bacon`**, **`francis_bacon`**, **`braille`**: the cipher lineage on the City College shelf, from the Opus Tertium cipher to the biliteral alphabet to Barbier's night writing **[A per file, R for the throughline]**.
-- **`belgrano`**: cipher in the 1808 Carlotist plot **[A for Belgrano, R for the parallel]**.
+- **`belgrano`**: cipher in the 1808 Carlotist plot **[A for Belgrano, R for the parallel]**. **[REMOVED from campa, 2026-08-14]**: see the Oppenheimer note above; the same Fort Meade rewrite drops this mention too.
 - **`buckminster_fuller`**: Medal of Freedom, Washington, 1983, named at the NAE stop **[A for Fuller, R for the framing]**.
 - **`borges`**: the Torah as a cipher of the universe (Discusion 1932; Siete Noches 1977), named in the closing stop **[A for Borges, R for the connection]**.
 
 Canonical pins checked and **not** inherited, no evidence connecting them: **Kaaba** (21.4225, 39.8262), shared by eight journeys, related only through the thematic ancestor al-Kindi; **Temple Mount** (31.778, 35.2354); **Paris** (48.8566, 2.3522), where a Eurocrypt leg is plausible but unconfirmed; **Buenos Aires** (-34.6037, -58.3816). Four gaps, not four links.
+
+**House-style correction, 2026-08-14.** A separate campa self-reference to "the atlas not often meeting a living traveler" was also removed from the closing Stanford/IEEE Fellow stop and rewritten as plain narrative about Diffie's own life. Three stops total were touched; none of the remaining interlocks above were affected.
 
 Latent in the census: **Hellman** at the adjacent row (209 to 210), no journey.json; **Claude** and **Betty Shannon** at 324 to 325; **al-Kindi**, **Trithemius**, **John Dee**, **Faust** queued as earlier stations of the lineage. This journey is one terminus of a chain whose other links are unbuilt.
 

@@ -285,10 +285,14 @@ Kelmscott Manor (51.688, -1.6382), Merton Abbey Works (51.416, -0.177), Kelmscot
 (51.4905, -0.235), Kelmscott Press (51.4901, -0.236).
 
 Travelers named in the campa where the paths genuinely cross: **william_morris** (brother-in-
-law, employer, and the author of the 1872 letter), **guinevere** (the Union mural role for
-which Jane was taken), **edward_bellamy** (whose atlas file already inherits the Kelmscott
-House pin and date), and, once and explicitly as an atlas rhyme rather than a historical
-contact, **leo_chiachio** and **daniel_giannone**, the embroidery duo already in the atlas.
+law, employer, and the author of the 1872 letter) and **guinevere** (the Union mural role for
+which Jane was taken). **edward_bellamy** and the pairing with **leo_chiachio** and
+**daniel_giannone** were cut from the campa in house-style cleanup (2026-08-14): the first
+was only a shared-pin coincidence at Kelmscott House with no documented contact between the
+two subjects, the second was explicitly flagged in the original text itself as "no thread
+between them," i.e. a thematic echo, not a genuine relation. `edward_bellamy.journey.json`'s
+pin inheritance at Kelmscott House remains a coordinate-provenance fact, noted below, but the
+name is no longer narrated in the stop.
 
 Jane Morris herself is in QUEUE.md and has no journey file yet; she is named throughout the
 campa as a person, not linked as a traveler. Edward Burne-Jones is likewise queued and

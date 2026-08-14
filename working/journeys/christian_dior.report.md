@@ -112,7 +112,7 @@ Nine of the 44 stops carry a quote. Three from *Dior by Dior* are **[A]** but se
 ## 10. Interlocks with existing atlas files
 
 - **`cristobal_balenciaga.journey.json`**: the reciprocal file, and the reason Dior was queued. Balenciaga at 10 avenue George V from 1937, Dior at 30 avenue Montaigne from 1946, ten minutes apart. Canonical pin **48.8657, 2.3011** inherited byte-identical. Named in campa, three stops.
-- **`eva_peron.journey.json`** and **`marcel_proust.journey.json`**: the same Hôtel Ritz, place Vendôme, thirty years apart. Pin **48.8681, 2.3286** inherited byte-identical. Both named in campa.
+- **`eva_peron.journey.json`**: the same Hôtel Ritz, place Vendôme, 1947. Pin **48.8681, 2.3286** inherited byte-identical. Named in campa. `marcel_proust.journey.json` shares the same address thirty years earlier with no documented link to Dior; house-style pass (2026-08-14) cut the co-location mention from campa as coincidental, keeping the Peron visit only.
 - **`roland_barthes.journey.json`**: *Système de la mode* (1967), a structuralist study of the written fashion press, that is, of the machinery Dior built. Named in campa at the licensing stop. Canonical Paris pin **48.8566, 2.3522** inherited byte-identical for the four stops with no defensible street address.
 - **Coco Chanel** is queued but has no file, so she is not named in campa **[R]**. Buenos Aires, canonical elsewhere, has no direct Dior crossing and is not used.
 

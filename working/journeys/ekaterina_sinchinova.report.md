@@ -144,7 +144,7 @@ Both cite `essays/212_domremy_por_katrin_vates.md` and date the artwork to Janua
 - `pica_bourlemont`: **[R]**, the corpus's Bourlémont-Assisi bridge (`pica_dossier.md`), taken on faith.
 - `mark_twain`: **[R]**, queue adjacency plus the corpus's use of his narrator Lois de Conte.
 - `lionel_royer`, `luc_olivier_merson`: **[R]**, the visual-art-about-Joan cluster, QUEUE.md lines 46-47 and 83.
-- `leo_chiachio`, `daniel_giannone`, `arthur_bispo_do_rosario`: **[R]**, the embroidery thread grouping, QUEUE.md lines 259-261 and 301. No documented contact with Sinchinova.
+- `leo_chiachio`, `daniel_giannone`, `arthur_bispo_do_rosario`: **[R]**, the embroidery thread grouping, QUEUE.md lines 259-261 and 301. No documented contact with Sinchinova. Removed by name from the Buenos Aires campa under the 2026-08-14 house-style tightening (the campa itself already admitted "no document connects any of them"); the stop now describes only her own five-continent, eleven-outlet publication circuit instead.
 
 **Two queue names deliberately not used as interlocks:** Matías Carbone (line 305) and Laura Renée Maier (line 300) are queued with no journey files, so they appear here, not in campa.
 
