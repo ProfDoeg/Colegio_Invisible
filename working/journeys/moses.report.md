@@ -56,4 +56,18 @@ Sinai/Horeb consistently placed at Jebel Musa (southern-Sinai tradition, not the
 
 **Voice.** All 45 campas present-tense and reverent. Word counts 58–112; a cluster of the great episodes runs 111–112 (a few words over the 60–110 guide), retained deliberately — the burning bush (split across 2 stops), Passover, the Red Sea + Song of the Sea, the seven Sinai stops, Korah, Balaam's donkey, and Nebo are all vivid and non-flat, which the register demands. No trimming that would flatten them was applied.
 
+---
+
+## Rashi commentary pass (2026-08-14)
+
+By request: Rashi's own Torah commentary (not modern scholarship about him) folded into five existing stops as a distinct, explicitly attributed voice ("Rashi says/writes/reports"), sourced verse-by-verse from Sefaria's English translation of Rashi (Rosenbaum-Silbermann). Kept even where it diverges from the plain narrative already in the campa, per instruction, rather than harmonized.
+
+- **[A: Rashi on Exodus 7:19, Sefaria]** The Nile-to-blood stop keeps the existing "Moses... lifts the rod" line and adds Rashi's contrary tradition that it was Aaron's staff, since the river had once sheltered infant Moses. The two readings stand side by side, unreconciled.
+- **[A: Rashi on Exodus 32:5, Sefaria]** The golden calf stop adds Rashi's exculpatory reading that Aaron built the altar himself and set the feast for the next day, stalling rather than surrendering.
+- **[A: Rashi on Exodus 34:29, Sefaria]** The shining-face stop adds Rashi's philological gloss on *keren* ("horn"/light-ray), the direct source of the horns in Michelangelo's Moses, already named in `suggested_refs`.
+- **[A: Rashi on Numbers 20:11–12, Sefaria]** The Meribah stop adds Rashi's reasoning for why the missed "sanctify Me" mattered: a rock obeying speech alone would have been the greater lesson.
+- **[A: Rashi on Deuteronomy 34:5, Sefaria]** The Beth-peor death stop adds Rashi's classic paradox — how could Moses have written "and Moses died there" — with the dictated-in-tears answer.
+
+Word counts on these five now run 114–132, above the file's original 58–112 range; accepted as a further, explicitly commissioned instance of the same "vivid, non-flat, don't flatten" policy already governing the great-episode cluster above, not reopened for trimming. Full findings (including material not used here — Aaron's own miracles, Abraham/Isaac/Jacob) are in the standalone deep-dive report, not duplicated in this file. Spanish edition (`es/moses.journey.json`) updated to match.
+
 **Result: PASS. No repairs required.** The dataset is structurally identical to the schema sibling, chronologically ordered, geographically accurate at every checked site, and canon-faithful in quote and register.
