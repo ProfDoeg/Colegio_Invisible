@@ -912,3 +912,4 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 | 0 | **Alfredo Segatori** | Argentine muralist, famous for sprawling, Guinness-scale neighborhood mural projects in Buenos Aires; joins the corpus's contemporary Buenos Aires street-art material |
 | 0 | **Franco Fasoli (Jaz)** | Argentine street artist, pioneer of mixed-media work blending tango and folklore imagery; joins the corpus's contemporary Buenos Aires street-art material |
 | 0 | **Milu Correch** | Argentine street artist, acclaimed for large-scale narrative and surrealist figures; joins the corpus's contemporary Buenos Aires street-art material |
+| 0 | **Frédéric Auguste Bartholdi** | French sculptor, designer of the Statue of Liberty (with Gustave Eiffel's internal structure); Argentina connection unconfirmed — search budget exhausted this session, verify during research given the corpus's strong Buenos Aires monument/sculpture thread |
