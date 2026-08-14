@@ -136,7 +136,7 @@ Traced to the Medium essay and corroborated as to wording by Daily Mail article-
 
 - **`frank_lloyd_wright`**: attested and direct. Fellowship 1947-1948 at both Taliesins; both coordinates inherited byte-identical. Named in campa at three stops, with the Taliesin West site named at a fourth.
 - **`buckminster_fuller`**: **[R], conceptual only.** Geodesic dome at Black Mountain College 1948-49, patented 1954, developed in the same postwar decades as arcology. **No source reached attests a meeting.** Named once, at the 1969 MIT Press stop.
-- **`le_corbusier`**: **[R], lineage only.** The same modernist critique of the sprawling city; the Radiant City is upstream of arcology as family resemblance, not documented influence. **No attested contact.** Named once, at the Paris stop, on the canonical Paris pin his own file uses heavily.
+- **`le_corbusier`**: **[R], lineage only.** The same modernist critique of the sprawling city; the Radiant City is upstream of arcology as family resemblance, not documented influence. **No attested contact.** Cut from the campa at the Paris stop under house style (thematic echo only, no citation of contact either way); the stop now covers his 1984 medal and his other honors instead.
 - **`tommaso_campanella`**: **[R], thematic only.** *La città del Sole* as ideal-city ancestor, named once at the Arcosanti groundbreaking: a framing device, not a factual claim.
 - **Negative findings, stated rather than forced.** The Kaaba, Temple Mount and canonical Buenos Aires pins have no link to Soleri in any file searched.
 

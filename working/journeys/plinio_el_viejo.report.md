@@ -129,7 +129,7 @@ The sequence of 24-26 August is **[A: Ep. 6.16.4-21, with Ep. 6.20 for Misenum]*
 Named in the journey's `campa` where the paths genuinely cross:
 
 - Pompeii: **bulwer_lytton** (the 1833-34 novel), **johann_tischbein** (the half-cleared forum with Goethe, spring 1787).
-- Vesuvius crater: **kircher** (lowered by rope, 1638), **humboldt** (repeated ascents with Gay-Lussac and von Buch, 1805), **bolivar** (beside him by tradition only, flagged **[R]** in the atlas itself), plus **giordano_bruno** at Nola and **hannibal** at Capua under the same mountain.
+- Vesuvius crater: no genuine crossing with Pliny found for **kircher** (lowered by rope, 1638), **humboldt** (repeated ascents with Gay-Lussac and von Buch, 1805), **bolivar** (beside him by tradition only, flagged **[R]**), **giordano_bruno** (Nola) or **hannibal** (Capua) — all share the mountain's coordinate at unrelated later or earlier dates with no citation tying any of them to Pliny himself; dropped from the campa in the 2026-08 house-style pass as coincidence of place, not documented relation.
 - The Bay: **virgil** (buried on the Puteoli road at Posillipo), **aeneas** (the trumpeter Misenus buried at the cape that names Pliny's base), **cicero** (home through Puteoli, 75 BC). The reconstruction placing Siro's school at the Villa of the Papyri is **[R]** and treated as such.
 
 **Canonical pins inherited byte-identical**: Vesuvius 40.8224 / 14.4289; Pompeii 40.7461 / 14.4989; Cape Misenum 40.7847 / 14.0894; Venice 45.4408 / 12.3155. The Villa of the Papyri pin, 40.8058 / 14.3488, is deliberately *not* reused: the Rectina-shore pin, 40.8058 / 14.3486, stays distinct as its own claim.

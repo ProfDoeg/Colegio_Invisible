@@ -115,9 +115,9 @@ Budge's August is hard to square with Lancret's 19 July report to the Institut, 
 
 ## Interlocks used
 
-Named in campa text, canonical pins inherited byte-identical. **napoleon** (Toulon, Alexandria, Imbaba, the Institut, Brumaire seen from Cairo, the Hundred Days); **ibn_battuta** 1326, **gustave_flaubert** 1849 and **rene_guenon** 1930, all three at the same Alexandria beachhead **31.2001, 29.9187**; **empress_josephine** at Cairo 1798, **30.0459, 31.2243** ("Joséphine's husband is building an academy inside an occupation"); **rene_hauy** at the same Cairo pin, as founding member of the Institut National that Bonaparte copied; **abdelkader** at Damascus **33.5131, 36.3053**, where Bouchard is held 42 days in 1800 and Abdelkader will die in 1883.
+Named in campa text, canonical pins inherited byte-identical. **napoleon** (Toulon, Alexandria, Imbaba, the Institut, Brumaire seen from Cairo, the Hundred Days); **empress_josephine** at Cairo 1798, **30.0459, 31.2243** ("Joséphine's husband is building an academy inside an occupation"); **rene_hauy** at the same Cairo pin, as founding member of the Institut National that Bonaparte copied; **abdelkader** at Damascus **33.5131, 36.3053**, where Bouchard is held 42 days in 1800 and Abdelkader will die in 1883.
 
-**Not used.** **Joseph Fourier**, on the same campaign and the man who introduced Champollion to Egyptology at Grenoble, is the tightest link available, but he is queued and not researched, so no journey file gazes back. **Gustave Eiffel** appears via Suez 1866; no Suez stop earned a place here.
+**Not used.** **Joseph Fourier**, on the same campaign and the man who introduced Champollion to Egyptology at Grenoble, is the tightest link available, but he is queued and not researched, so no journey file gazes back. **Gustave Eiffel** appears via Suez 1866; no Suez stop earned a place here. **ibn_battuta** (1326), **gustave_flaubert** (1849) and **rene_guenon** (1930) share the Alexandria beachhead coordinate **31.2001, 29.9187** with Bouchard's 1798 landing but at unrelated times with no citation connecting any of them to him; dropped from the campa in the 2026-08 house-style pass as coincidence of place, not documented relation.
 
 ## Sources
 
