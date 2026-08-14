@@ -130,14 +130,10 @@ Two Fort Wayne sites are claimed and neither is settled. **[R for both]**
 No journey file and no line of the census names Chapman, Mansfield, Fort Wayne, or Swedenborgianism. The corpus grep returns only the QUEUE.md listing, which puts him in "the same American cluster" as Washington, Jefferson, and Jackson. **[A: QUEUE.md line 210]**. Every crossing below is geographic and temporal, not a link any file states.
 
 - **george_washington** (Grant's Hill): claims Ohio and Great Kanawha bounty land through William Crawford, and in 1794 marches militia west against the Whiskey Rebellion, the year Chapman is said to be on Grant's Hill. **[R for Chapman; A for Washington]**
-- **alexis_de_tocqueville** (Forks of the Ohio): boards a steamboat there in November 1831 and descends the river Chapman had floated seed down for thirty years. His Cincinnati note, forest thirty years before and now foundries, measures Chapman's working life exactly.
-- **thomas_jefferson** (Steubenville): the Louisiana Purchase of April 1803 falls in the season Chapman is first recorded planting in Ohio, and releases the wave his nurseries are placed to meet.
-- **symmes** (Marietta): Symmes the elder opens the Miami Purchase in 1788 and builds Cincinnati out of it; his nephew lectures the hollow earth through the same Ohio courthouse towns in the 1820s.
-- **andrew_jackson** (Clinton alarm run): the same War of 1812, and two legends the documents will not carry.
-- **abraham_lincoln** (Defiance): the Lincolns cross into Indiana in 1816 and settle Little Pigeon Creek on the same federal survey and frontier Chapman plants into and dies on in 1845.
-- **thomas_edison** (Milan): born 11 February 1847, twenty-three months after Chapman's death, in the settlement arc the orchards had been planted ahead of.
+- **thomas_jefferson** (Steubenville): the Louisiana Purchase of April 1803 falls in the season Chapman is first recorded planting in Ohio, and releases the wave his nurseries are placed to meet. **Kept in campa**, a genuine causal link (the Purchase releases the settler demand Chapman's business serves), not a coincidental crossing.
+- **symmes** (Marietta): Symmes the elder opens the Miami Purchase in 1788 and builds Cincinnati out of it, selling settlers the land they would want orchards on; his nephew lectures the hollow earth through the same Ohio courthouse towns in the 1820s. **Kept in campa**, same causal logic as Jefferson.
 
-All seven are inference from geography and calendar, stated in no atlas file, and the campa says so where it names a traveler.
+**Cut from campa on house-style review (2026-08-15):** alexis_de_tocqueville (Forks of the Ohio), andrew_jackson (Clinton alarm run), abraham_lincoln (Defiance), and thomas_edison (Milan, stop retitled "the ground two years on" and rewritten around the Milan Canal's own real history) were all pure geography-and-calendar coincidences with explicit in-campa admissions of no documented link ("nothing written connects the two passages," "no atlas file joins the two men"). Per Anthony's ruling, an honest disclaimer of non-connection does not exempt a coincidental crossing from the house rule; all four are removed by name, with each campa rewritten around Chapman's own attested facts.
 
 ---
 
