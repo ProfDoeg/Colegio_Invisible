@@ -238,19 +238,25 @@ Lehg II, Los cuarenta bramadores, or the Roaring Forties voyage by name**, outsi
 row (line 348, docs count 0). Every intersection is therefore **[R] inherited geography and
 theme**, except the pin coordinates, which are **[A]** as facts about the atlas.
 
-- **The canonical Buenos Aires pins [A].** Houssay's file states that -34.6037 / -58.3816 is "the
-  same pin the atlas already holds for San Martin's landing in 1812, for Victoria Ocampo born in
-  1890, and for Borges born in 1899." Alvear's fixes -34.608 / -58.3816 for the 1812 port landing;
-  Ocampo's fixes -34.608 / -58.3646 for the port; Tschiffely's fixes **Darsena Norte** at
-  -34.6035 / -58.36, where his horses Mancha and Gato came home by sea on **20 December 1928**,
-  fourteen years before Dumas sailed from that basin. All inherited byte-identical.
+- **The canonical Buenos Aires pins [A].** -34.6037 / -58.3816 is the same coordinate used for
+  San Martin's landing in 1812, for Victoria Ocampo born in 1890, and for Borges born in 1899.
+  Alvear's fixes -34.608 / -58.3816 for the 1812 port landing; Ocampo's fixes -34.608 / -58.3646
+  for the port; Tschiffely's fixes **Darsena Norte** at -34.6035 / -58.36, where his horses Mancha
+  and Gato came home by sea on **20 December 1928**, fourteen years before Dumas sailed from that
+  basin. All inherited byte-identical. **House-style pass, 2026-08-14:** the birth-stop campa
+  named San Martin, Ocampo, Borges and Houssay purely as pin-sharers with zero documented contact
+  with Dumas, alongside a bare "the atlas" self-reference; both cut, the stop now stands on the
+  family's own facts.
 - **Victoria Ocampo [R]** edits *Les Lettres Francaises* from "neutral Buenos Aires" under a
   government "whose government leans toward the Axis": the neutrality that made the 1942 departure
   legally possible and physically dangerous. **Bernardo Houssay [R]** frames 1940-1941 as the
   moment "Europe is closing, and North America has begun looking south."
 - **San Brendan [A on the lineage, [R] on Dumas's place in it]** builds an explicit chain of
   Atlantic small-boat crossings: Brendan, Leif Erikson's L'Anse aux Meadows dated to 1021,
-  Columbus on Toscanelli's chart, the 1977 replica landfall of 26 June 1977.
+  Columbus on Toscanelli's chart, the 1977 replica landfall of 26 June 1977. **Cut from campa,
+  2026-08-14**: the Arcachon stop named Brendan and Erikson only as a thematic echo, worse boats
+  and thinner evidence, with zero documented citation either way and a bare "the atlas"
+  self-reference; both removed.
 - **Mikhail Bakunin [A]** takes the Panama Railroad in 1861 "rather than round Cape Horn."
   **Julio Argentino Roca [A]**: Ley 1532 of 1884 organized Tierra del Fuego as a National Territory
   governed from Buenos Aires. **Symmes [A]**: Reynolds's agitation of 1836-38 produced the

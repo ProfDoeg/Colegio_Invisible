@@ -111,7 +111,7 @@ Verified against the journey files, not taken from the pool's summary.
 - **john_locke.** Dutch exile 1683-1689 in the same Amsterdam, half a century after Palmstruch left it, then the Board of Trade during the recoinage argument. Named in campa.
 - **newton.** The Great Recoinage of 1696 rebuilds the metal under England's paper. Named at the Grocers' Hall stop.
 - **samuel_oppenheimer.** Vienna, 1670s-1680s: personal court credit advanced on a man's own body and fortune, against Palmstruch's impersonal chartered paper. Named in campa; no shared pin, since he never went to Vienna.
-- **richard_wagner, edward_witten.** Both hold Riga stops. Named in campa at the birth stop.
+- **richard_wagner, edward_witten.** Both hold Riga stops. **Cut from campa on house-style review (2026-08-15):** named only via "the atlas reaches this city twice" self-reference; same city, unrelated centuries, no documented tie to Palmstruch.
 - **hilma_af_klint, miranda.** Stockholm pin 59.3293, 18.0686, inherited byte-identical here for four stops. Not named in campa: sharing a city two centuries apart is not a crossing. **jules_verne**, Gamla Stan pin 59.3251, 18.0711, inherited for the two stops where prison and release cannot be placed more precisely than the old town. **mikhail_bakunin** stands at 59.3258, 18.0717, the coordinate the pool wrongly gave for Tre Kronor: noted, not inherited.
 
 ### Interlock claims from the pool that are wrong

@@ -126,7 +126,7 @@
 
 ## 12. Interlocks
 
-Named in the campa where the crossing is real: `sucre`, `humboldt`, `miranda`, `alvear`, `sarmiento`, `eva_peron`, all **[A]**; `san_martin` and `bolivar`, **[A]** on facts, **[R]** as connections; `borges`, `victoria_ocampo`, `keyserling` on the canonical Buenos Aires pin, **[A]** on the pin, **[R]** on the milieu. **Rejected:** Recoleta as a horses' pin. **Not used:** `ohiggins`, duplicating `san_martin`.
+Named in the campa where the crossing is real: `sucre`, `humboldt`, `miranda`, `alvear`, `sarmiento`, `eva_peron`, all **[A]**; `san_martin` and `bolivar`, **[A]** on facts, **[R]** as connections. **House-style pass, 2026-08-14:** `borges`, `eva_peron`, `juan_peron`, `che_guevara`, `emin_arslan`, `charly_garcia` and `spinetta` were cut from the "Buenos Aires, the city hears the plan" campa, which had named them only as sharing the canonical waterfront pin with zero documented contact with Tschiffely; that campa also carried a bare "the atlas" self-reference, removed. `victoria_ocampo` and `keyserling` remain, in the following sentence's contrast ("Keyserling will land here on Ocampo's invitation... Tschiffely proposes instead"), which does not claim a meeting and is left standing. **Rejected:** Recoleta as a horses' pin. **Not used:** `ohiggins`, duplicating `san_martin`.
 
 ---
 

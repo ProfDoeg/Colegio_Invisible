@@ -139,9 +139,9 @@ Detective **Joseph Recarey** ran the investigation **[A]**. The pilots' flight l
 
 Named in campa, genuine crossings only:
 
-- **`adnan_khashoggi`** and **`agha_hasan_abedi`**: both journeys pin their Manhattan federal indictments at **40.715, -74.0004**. The Epstein arraignment stop **inherits that canonical pin byte-identically** rather than 500 Pearl Street's own 40.7145, -74.0018, because in the atlas the same courthouse takes in all three. Khashoggi: indicted 1988, acquitted 1990. Abedi: BCCI.
-- **`maurice_sendak`**: `maurice_sendak.journey.json` line 455 holds Bill Clinton, in office, hanging the National Medal of Arts on Sendak in 1996. Named in the Dakar campa beside the flight-log claim.
-- **`silvio_berlusconi`**: `silvio_berlusconi.journey.json` lines 211-212 place Clinton at the 1994 G7 in Naples. Named in the New York Magazine campa, which carries Epstein's own words about Clinton.
+- **`adnan_khashoggi`** and **`agha_hasan_abedi`**: both journeys pin their Manhattan federal indictments at **40.715, -74.0004**. The Epstein arraignment stop **inherits that canonical pin byte-identically** rather than 500 Pearl Street's own 40.7145, -74.0018, because the same courthouse takes in all three. Khashoggi: indicted 1988, acquitted 1990. Abedi: BCCI. **Cut from campa on house-style review (2026-08-15):** both names were named directly in prose as "the atlas already holds this address twice"; the coordinate inheritance stays, but the campa now states the same-courthouse fact without naming either man, since neither has a documented interaction with Epstein beyond sharing a building decades apart.
+- **`maurice_sendak`**: `maurice_sendak.journey.json` line 455 holds Bill Clinton, in office, hanging the National Medal of Arts on Sendak in 1996. **Cut from the Dakar campa on house-style review (2026-08-15):** was named only via "the atlas already holds this president" self-reference, with no relation to Epstein himself.
+- **`silvio_berlusconi`**: `silvio_berlusconi.journey.json` lines 211-212 place Clinton at the 1994 G7 in Naples. **Cut from the New York Magazine campa on house-style review (2026-08-15):** same self-reference pattern, no relation to Epstein himself.
 
 **Canonical pin inherited: Paris, 48.8566, 2.3522**, used for the Avenue Foch stop rather than Avenue Foch's own 48.8716, 2.2840, per the interlock lens.
 

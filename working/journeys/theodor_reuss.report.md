@@ -125,8 +125,7 @@ Canonical pins inherited byte-identical, and named in campa:
 - **`blavatsky`**: the London Theosophical milieu, and Paris 1884. Pin **51.515/-0.14**.
 - **`rene_guenon`**: twice, Paris 1913 and his taxonomy of real transmission versus political lodges, and the Egyptian Rite line at the Yarker stop. Paris pin **48.8566/2.3522**.
 - **`abdelkader`**: named at the Yarker stop, where Guénon's Egyptian Rite current runs back through Alexandria and Abdelkader's 1864 initiation.
-- **`bulwer_lytton`**: the Societas Rosicruciana in Anglia milieu at Aldermanbury, pin **51.515/-0.093**, used for the Westcott charter.
-- **`maria_orsic`**: the Munich and Vienna occult ecology he retires into in 1921. Pin **48.1385/11.58**.
+- **`bulwer_lytton`** and **`maria_orsic`**: both cut from campa in the house-style pass of 2026-08-14. Neither rose above shared milieu (same institution's disputed founding patron; same city and period of occult activity) with zero documented interaction specific to Reuss. Pins **51.515/-0.093** (Aldermanbury) and **48.1385/11.58** (Munich) are no longer named in prose; the stops stand on Reuss's own attested facts.
 - **`gurdjieff`**: the same post-Golden Dawn London of February 1922, sharing 51.515/-0.14. A real adjacency, kept out of campa to avoid crowding the London stops.
 
 **A requested inheritance that does not exist.** The Temple Mount and Kaaba geopoints appear in no Reuss-adjacent file; no journey ties this wing to Jerusalem or Mecca. **Gap, not a connection**, and no such pin was invented.
