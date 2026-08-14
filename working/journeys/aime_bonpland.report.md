@@ -101,14 +101,12 @@ All **[A]** unless marked. Two Argentine municipalities named Bonpland: **Bonpla
 Named in the journey file's campa, in descending order of directness:
 
 - **humboldt**: the densest overlap in the corpus, the file naming Bonpland at nearly every major stop of 1799-1804 **[A]**. Eight canonical pins inherited byte-identical: Madrid 40.419 / -3.6963, A Coruña 43.3623 / -8.4115, Cumaná 10.4606 / -64.1795, Caracas 10.506 / -66.9146, Silla de Caracas 10.5342 / -66.8425, Calabozo 8.9242 / -67.4293, Casiquiare 3.1667 / -65.55, Bordeaux 44.8378 / -0.5792.
-- **sucre**: Cumaná shares a pin with Sucre's birthplace, a relationship the Humboldt file states directly. Sucre is four years old in the town when the *Pizarro* lands **[A]**.
 - **bolivar**: Bolívar, sixteen, has just left Caracas for Spain when Bonpland arrives in November 1799 **[A]**; and in Paris in 1805 he puts his question about the colonies to Humboldt while Bonpland is at Malmaison **[A: `bolivar.journey.json`, 1805-04-01]**. Both in campa.
 - **belgrano**: the Paraguay expedition of 1810-1811 (Paraguarí, Tacuarí) runs through the same Paraná frontier where Bonpland is seized a decade later **[R: no textual link in `belgrano.journey.json`]**.
 - **hernando_arias_de_saavedra**: at the founding of Corrientes on 3 April 1588 and its first interim teniente de gobernador; Corrientes is Bonpland's base from 1820 **[R: the Hernandarias file does not mention Bonpland]**.
 - **juan_manuel_de_rosas**: the Pacto Federal signed at Santa Fe on 4 January 1831, five weeks before Bonpland crosses out of Paraguay, is the political weather of the region he settles into **[R: no mention of Bonpland in the Rosas file]**.
-- **tschiffely**: rides through this river country in gaucho dress in 1928 **[A for the ride and the Asunción visit; R for the overlap, which is geographic only]**.
 
-Considered and not used: **sarmiento**, who dies at Asunción in 1888, the link being the Paraná corridor and nothing else; and the strongman motif joining Francia to Rosas, Pinochet, Gaddafi, and Noriega, inferred from grep hits rather than any documented cross-reference. The canonical Kaaba and Temple Mount pins were offered for inheritance; no source connects Bonpland to either, and neither pin is used.
+Considered and not used: **sarmiento**, who dies at Asunción in 1888, the link being the Paraná corridor and nothing else; and the strongman motif joining Francia to Rosas, Pinochet, Gaddafi, and Noriega, inferred from grep hits rather than any documented cross-reference. The canonical Kaaba and Temple Mount pins were offered for inheritance; no source connects Bonpland to either, and neither pin is used. **sucre** (Cumaná shares a pin with Sucre's birthplace; he is four years old in the town when the *Pizarro* lands, a coincidence of place only, no relation to Bonpland) and **tschiffely** (rides through the same river country in gaucho dress in 1928, decades after Bonpland's death, the overlap geographic only **[R]**) were originally named in the campa and removed under the tightened house style, 2026-08-14: shared geography is not itself grounds to name another traveler.
 
 ---
 

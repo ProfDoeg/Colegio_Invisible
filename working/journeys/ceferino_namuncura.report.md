@@ -87,8 +87,7 @@ Three generations sit inside eighteen years of biography. Juan Calfucurá builds
 
 - **`julio_argentino_roca`**: named at Buenos Aires 1875 (the letter to Avellaneda), Choele Choel and Fisque Menuco 1879, and the Pomona stop of 1884, pins inherited byte-identical (-34.6037/-58.3816, -39.2872/-65.6772, -39.0333/-67.5833). Fisque Menuco is load-bearing, fewer than 100 km from Chimpay: Ceferino is born inside the corridor Roca's column garrisoned.
 - **`juan_manuel_de_rosas`**: named at the 1831 crossing, because Calfucurá's quoted claim grounds his presence on the pampa in Rosas's order. Rosas's Campaña al Desierto (Napostá 1834-05-25, -38.75/-62.28) is the precedent Roca's letter cites by name.
-- **`mussolini`**: named at Frascati. Boarded with the Salesians at Faenza in 1893 (44.2856, 11.8834) and expelled; Ceferino enters the same order's schools in 1897 and dies inside them.
-- Deliberately **not** written into a campa: **`low_dog`** and **`sitting_bull`** (analogies, not crossings), **`antoine_de_saint_exupery`** (coordinate adjacency), and the **Kaaba** pin (21.4225, 39.8262), a category precedent, not a place he went.
+- Deliberately **not** written into a campa: **`low_dog`** and **`sitting_bull`** (analogies, not crossings), **`antoine_de_saint_exupery`** (coordinate adjacency), the **Kaaba** pin (21.4225, 39.8262), a category precedent, not a place he went, and **`mussolini`** (boarded with the Salesians at Faenza in 1893, 44.2856, 11.8834, and expelled; the only tie to Ceferino is that both passed through the same order's schools decades apart, no meeting, no relation. Originally named at Frascati; removed under the tightened house style, 2026-08-14).
 
 ## Appendix: coordinate corrections carried into the journey file
 
