@@ -123,6 +123,10 @@ The translator is uncredited on the page; cite it as the Spanish Wikipedia rende
 - **Jerusalem is absent from the vida entirely**, which is a hole in the itinerary rather than evidence about it.
 - **No document places Rudel at any court**, and **no contemporary chronicle mentions him at all** apart from the Marcabru tornada.
 
+## Interlocks, considered and not used
+
+**`molay`** was originally named at both the Tripoli burial stop and the Ruad stop, on the strength of the Templars (the order said to have buried Rudel) later losing their last Levantine foothold at Ruad in 1302 under Jacques de Molay. Removed under the house-style tightening of 2026-08-14: the connection runs through an institution across a century and a half, not through any relation between Molay and Rudel himself.
+
 ## Sources
 
 **Reached and used**

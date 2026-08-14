@@ -135,7 +135,7 @@ The controlling text is **M. N. Adler, *The Itinerary of Benjamin of Tudela* (Ox
 Each file's own facts are **[A]**; every crossing with Benjamin is **[R]**, since no source pairs them.
 
 - **maimonides**: Temple Mount 1165, Fustat from 1166. Both cities Benjamin describes; no meeting recorded either side.
-- **bernard_clairvaux**: the mob turned back at Mainz, 1146, on the Rhineland leg of Benjamin's road home; his crusade breaks at Damascus 1148, a generation before Benjamin counts 3,000 Jews there.
+- **bernard_clairvaux**: the mob turned back at Mainz, 1146, on the Rhineland leg of Benjamin's road home, load-bearing since it protects the very congregations Benjamin later travels among, and kept in campa. Considered and not used: his crusade also breaks at Damascus 1148, a generation before Benjamin counts 3,000 Jews there; that mention was cut from the Damascus campa under the house-style tightening of 2026-08-14, since the failed siege has no bearing on Benjamin's own visit or purpose there.
 - **richard_lionheart**: marries Berengaria of Navarre and takes Acre, 1191. Same kingdom of origin, same port.
 - **marco_polo**: leaves through Acre in 1271, along the same Levantine string.
 - **ibn_battuta**: retraces the route city for city; his Jerusalem and Kaaba pins are inherited byte-identical, the second for the one place Benjamin never reached.

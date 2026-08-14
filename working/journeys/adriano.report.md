@@ -136,7 +136,7 @@ Hadrian also wrote an autobiography, published under his freedman Phlegon's name
 
 ## Interlocks with the existing atlas
 
-Three canonical pins inherited byte-identical: **Hadrian's Wall 55.0125, -2.3311** from `constantino_el_grande`; **Castel Sant'Angelo 41.9031, 12.4663** from `otto_iii`; the **Temple Mount 31.778, 35.2354** from `solomon` and `nabucodonosor`. Also named in campa: `jesus`, `charlemagne` (kneeling to **Pope Hadrian I** in 774, a namesake flagged not conflated), `richard_lionheart`, `aristotle`, `alexander`, `jung`, `ibn_battuta`. Left out as structural rather than geographic: `cyrus`, `marco_polo`, `william_blake`, `mussolini`, `maimonides`.
+Three canonical pins inherited byte-identical: **Hadrian's Wall 55.0125, -2.3311** from `constantino_el_grande`; **Castel Sant'Angelo 41.9031, 12.4663** from `otto_iii`; the **Temple Mount 31.778, 35.2354** from `solomon` and `nabucodonosor`. Also named in campa: `jesus`, `charlemagne` (kneeling to **Pope Hadrian I** in 774, a namesake flagged not conflated), `richard_lionheart`, `aristotle`, `alexander`, `jung`. Left out as structural rather than geographic: `cyrus`, `marco_polo`, `william_blake`, `mussolini`, `maimonides`. Considered and not used: **`ibn_battuta`** (comes ashore at Alexandria twelve hundred years after Hadrian's Museum visit; no relation to Hadrian, purely the same harbour, removed under the house-style tightening of 2026-08-14).
 
 ## Sources
 

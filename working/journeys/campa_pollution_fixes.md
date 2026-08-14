@@ -1,0 +1,13 @@
+# Campa coincidental-crossing name-drop fixes (house-style tightening, 2026-08-14)
+
+Running log of every campa rewritten to remove a coincidental (non-relational) mention of another atlas subject. One line per fix, appended as fixes are made.
+
+- **ada_lovelace** — The Midland mills, cards of perforated pasteboard: removed Anni Albers (writes about the same weaving lineage a century later, no citation of Lovelace, thematic echo only).
+- **adriano** — Alexandria: the questions in the Museum: removed Ibn Battuta (comes ashore twelve hundred years later, same harbour only, no relation to Hadrian).
+- **alberto_hugo_restrepo** — Bogotá, the first art office: removed Bolívar, Policarpa Salavarrieta, Camilo Torres Restrepo (explicitly "no proven kinship"), and Che Guevara (all coincidental occupants of the same coordinate across centuries, report itself already flagged the pattern as undocumented).
+- **alberto_hugo_restrepo** — Bogotá, sculpture enters the Capitolio Nacional: removed Bolívar and Policarpa Salavarrieta (same plaza, centuries apart, no relation to Restrepo).
+- **benjamin_de_tudela** — Damascus, three thousand and the crystal wall: removed Bernard of Clairvaux's failed 1148 siege (twenty years earlier, no bearing on Benjamin's own visit; kept the Mainz mention elsewhere in the file since that one is load-bearing to the communities Benjamin documents).
+- **burnt_njal** — Iceland, the saga written down: removed Columbus (passes Iceland two centuries later, thematic echo only, no link to this specific saga).
+- **christian_rosenkreuz** — Damascus, the feebleness of the body: removed Ibn Arabi, René Guénon, and Jacques de Molay (all coincidental Damascus-region crossings, plus the explicit "the atlas has been here long before him" self-reference).
+- **christian_rosenkreuz** — Kassel, the Fama Fraternitatis printed: removed only the "in this atlas" self-reference phrase; kept Francis Bacon since the authorship tradition is directly about this text.
+- **joffrey_rudel** — Tripoli, buried in the house of the Temple, and Ruad, the last island off the same coast: removed Jacques de Molay from both (institutional continuity of the Templar order across a century and a half, no relation between Molay and Rudel personally).

@@ -136,7 +136,7 @@ Legend: **[A]** = attested, source named · **[R]** = reconstruction, saga-inter
 
 **[A, `borges.journey.json`]** Borges, given the Volsunga Saga at ten, studies Old Norse all his life and reaches Iceland in **1971**, returning twice more; his Geneva gravestone carries a Viking longship. Njal is not named in his file, so **[R]** for that link. Named in campa.
 
-**[A, `columbus.journey.json`]** Columbus, passing Iceland in 1477, hears from old men in the harbours of lands their grandfathers traded with. **[R]**, thematic. Named in campa at the composition stop, where oral memory becomes text.
+**[A, `columbus.journey.json`]** Columbus, passing Iceland in 1477, hears from old men in the harbours of lands their grandfathers traded with. **[R]**, thematic only, two centuries after the saga's composition and no textual link to Njal or this saga specifically. Originally named in campa at the composition stop; removed under the house-style tightening of 2026-08-14, considered and not used.
 
 **[A, census lines 366-367; QUEUE.md lines 121, 154, 181]** Snorri Sturluson sits adjacent to Burnt Njal in the census; he postdates the setting by two centuries and predates the composition by a generation, so Reykholt is inherited as a pin with the connection stated as literary. Leif Erikson, queued alongside, is a near-exact contemporary; San Brendan is queued next and paired with Leif. Neither has a journey file, so neither is named in campa.
 
