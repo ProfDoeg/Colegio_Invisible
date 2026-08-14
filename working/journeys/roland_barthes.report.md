@@ -138,6 +138,7 @@ Every one of these is a **geographic** crossing unless marked otherwise. No corp
 - **Paris.** `victoria_ocampo.journey.json` attests Ocampo's repeated Paris crossings and her revue *Sur* as the conduit for French letters into Spanish America. **The Barthes link is [R]**: no corpus file and no source consulted names him in *Sur*'s pages.
 - **Mecca.** `abdelkader.journey.json`, Kaaba 21.4225/39.8262. The gathering pass proposed a thread to Barthes through a shared reference to Fez. **This is rejected as too indirect to build on** and no stop inherits it.
 - **QUEUE.md** names Lacan as joining "the corpus's Freud, structuralist wing (Levi-Strauss, Barthes, Foucault, Deleuze) already queued." **[A: direct textual statement in QUEUE.md]** Of that cohort only Barthes now has a journey file.
+- **House-style correction (2026-08-14):** the [R] Napoleon/Hypatia/Catherine coincidence at Alexandria and the [R] Maimonides echo at Fez were both removed from the campa prose in both languages; neither is a documented relation to Barthes himself, only a shared coordinate 1500 years or 200 km removed. The two stops now stand on Barthes's own attested facts instead.
 
 ## Sources
 

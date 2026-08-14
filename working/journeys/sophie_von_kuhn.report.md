@@ -102,6 +102,7 @@ Coordinates shared with `novalis.journey.json` are inherited byte-identical.
 
 - **[A]** **novalis**, the whole spine, from the meeting of 1794-11-17 to the Alter Friedhof in 1801; **schiller**, nursed by Novalis at Jena in 1790-91; **goethe_full**, the Goethe-Schiller friendship beginning at Jena 20 July 1794, four months before the meeting; **fichte**, whose file names Novalis among "the young idealists" at Jena in June 1796, the town and month of the surgeries; **jacob_boehme**, handed to Novalis by Tieck at Jena in July 1799; **schelling**, Jena professor from 1798, who loses Auguste Böhmer in July 1800.
 - **[R]** **martin_luther** (Eisleben 1790, Wittenberg 1794), **froebel** (Jena from October 1799), **hegel** (Jena 1801). No file attests a meeting with Novalis for any of the three.
+- **House-style correction (2026-08-14):** the [R] martin_luther naming at the Eisleben stop was removed from the campa in both languages; it named the town's shared coordinate, not a documented relation to Novalis or Sophie. The stop keeps the Luther-town fact as plain geography and drops the atlas cross-reference.
 
 ## Sources
 

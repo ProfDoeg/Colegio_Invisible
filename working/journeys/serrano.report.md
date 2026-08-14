@@ -15,6 +15,8 @@
 ## The corpus's own correspondent (time-folds & facings)
 Serrano is the atlas's live cross-reference. **His Küsnacht/Bollingen/the-1960-letter face the Jung journey directly** and the Jung-to-Serrano letter that lives on our own chain — the two datasets touch at Lake Zürich. **His ice faces Symmes:** the South Pole stop renders the poles as the mouths of the hollow earth. **His Montségur faces Molay's Templars and the corpus's heresies.** Internal fold: Kailash⇄Melimoyu are declared antipodes joined by ley-lines, so *India and Patagonia are one mountain* — a geographic identification preserved, not resolved. The life also bends back on itself: born at the foot of the Andes, he dies at their foot, and the cortège halts at the 1938 Seguro Obrero memorial that first turned him — the martyrs of his youth receiving the old man at the grave.
 
+**House-style correction (2026-08-14):** the Molay/Montségur facing above is an editorial pairing, not a documented relation between Serrano and Molay himself (no source places Serrano engaging with Molay's own life or writing). It has been removed from the Montségur campa in both languages; the stop now stands on Serrano's own attested account of the visit.
+
 ## The five richest episodes
 1. **Deception Island** — the ship threads Neptune's Bellows into a warm, steaming caldera ringed by ice: his whole myth made land, read while he holds Jung's book open on the voyage.
 2. **The 1960 Jung letter** — the dying sage's confession of failure ("man has a soul… a buried treasure in the field"), guarded by Serrano as a testament and kept on the corpus's chain.

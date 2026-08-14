@@ -117,6 +117,7 @@ Checked by grep across all `*.journey.json` in `working/journeys`.
 - **andrew_jackson** supplies the canonical Capitol (38.8899, -77.0091) and White House (38.8977, -77.0365) pins; his DC dates begin 1823. **[R: inheritable pin, not a crossing.]**
 - Recorded and not used: **alberto_gerchunoff** (Jewish Colonization Association, a structurally parallel scheme), and the denominational echoes **fred_rogers**, **edgar_allan_poe**, **martha_graham**, **madame_chiang_kai_shek**. **[R]**
 - **Negative result:** the canonical hub pins (Kaaba 21.4225/39.8262, Temple Mount 31.778/35.2354, Paris 48.8566/2.3522, Buenos Aires -34.6037/-58.3816) return no text mentioning Finley, the ACS, or Liberia. No link was manufactured.
+- **House-style correction (2026-08-14):** the [R] Garvey and Blahyi parallels above were removed from the campa prose in both languages. Neither is a documented relation to Finley himself, only a shared coordinate or an editorial inversion drawn by this research pass; the campa for the Harlem 1920 and Monrovia 1822 stops now stand on Finley's own attested facts instead. The Columbus latitude echo (item above) was cut from the campa on the same grounds.
 
 **Open items carried, not closed:** day and month of birth; venues of the 1794 licensure, the 1798 marriage and the 28 December 1816 meeting; the Presbyterian Historical Society contents; Josiah Finley's governorship; the Sunday school claim; the enslavement record; and the coordinate disagreements listed above, reconciled to authoritative values so the reconciliation can be audited.
 
