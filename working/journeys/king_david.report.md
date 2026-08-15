@@ -1,0 +1,120 @@
+# King David: research report
+
+*Slug: `king_david`. Traditional dates c. 1040 - c. 970 BCE. Shepherd of Bethlehem, armour-bearer and then fugitive from Saul, king in Hebron over Judah and afterwards over all Israel, captor of Jebusite Jerusalem, father of Solomon.*
+
+**Legend.** **[A]** = attested, with the source named. **[R]** = reconstruction, tradition, or narrative-only claim with no independent attestation. Contradictions between sources are flagged where found and are **not** adjudicated.
+
+**The governing evidence problem, stated once.** Almost the whole biography comes from one literary corpus, 1 Samuel 16 through 1 Kings 2, with a divergent retelling in 1 Chronicles. Outside it there is one securely relevant object, the Tel Dan Stele, and it names a dynasty, not a man's deeds. Therefore *every narrative episode below is* **[R]**, however firmly chapter and verse can be cited: citing 2 Samuel 11 proves that 2 Samuel 11 says a thing, not that the thing happened. The research pool mistagged roughly forty narrative-only episodes as [A] in its geography lens because a verse could be named; corrected here and in the journey file. Where a verse is quoted verbatim the **quotation** is [A] against the KJV text and the **event** stays [R].
+
+---
+
+## 1. Bethlehem and the anointing (c. 1040 - 1020 BCE)
+
+- Born at Bethlehem of Ephrathah in the hill country of Judah, son of Jesse. **[R**: 1 Samuel 16:1-13; 17:12-15**]**. No independent attestation of the birth exists in any source.
+- **Contradiction flagged, not resolved.** 1 Samuel 16-17 makes David the eighth and youngest son of Jesse; 1 Chronicles 2:13-15 numbers him "the seventh." The books disagree on how many brothers there were. **[A**: both texts, KJV**]**
+- Descent from Boaz and Ruth the Moabitess (Boaz > Obed > Jesse > David), a genealogy appended to a book of its own and corroborated nowhere else. **[R**: Ruth 4:17-22**]**
+- Samuel comes under cover of a sacrifice, passes over the older brothers, and anoints the boy among them. **[R**: 1 Samuel 16:1-13**]**
+- Bethlehem is pinned at 31.7054, 35.2024, the town centre; the Nativity precinct at 31.7042, 35.2075 is the pin the Jesus file uses. No house of Jesse has been located. The pin is a convention, not a find.
+
+## 2. Saul's court, Goliath, and the break (c. 1020 - 1018 BCE)
+
+- David is brought to Gibeah to play the harp for Saul's troubled spirit and is made his armour-bearer. **[R**: 1 Samuel 16:14-23**]**
+- **Contradiction flagged, not resolved.** 1 Samuel 16:21-22 has Saul knowing David well and keeping him at court; 17:55-58 has Saul watch him go out against Goliath and ask Abner "whose son is this youth?" Source criticism reads two independent introductions spliced together; the received text simply contains both. **[A**: both passages, KJV**]**
+- **Date discrepancy in the research pool.** The chronology lens dated the arrival at court c. 1025, the geography lens c. 1020; the duel was c. 1020 in one and c. 1025-1020 in the other. The journey uses **c. 1020** for both. A harmonisation, not evidence.
+- The duel in the Valley of Elah near Socoh and Azekah, five smooth stones, the sling. **[R**: 1 Samuel 17**]**
+- **Contradiction flagged, not resolved.** 2 Samuel 21:19 credits the killing of Goliath the Gittite to Elhanan son of Jaare-oregim; the KJV's "the brother of" is supplied from 1 Chronicles 20:5 and is absent from the Hebrew. The same book assigns the killing twice, to two men. Modern scholarship additionally treats the duel as a hero-tale of Homeric or Arthurian type. **[A**: 2 Samuel 21:19, KJV; Wikipedia, "David"**]**
+- Jonathan's covenant with David, the robe and sword and girdle handed over. **[R**: 1 Samuel 18:1-4**]**
+- **Contradiction flagged, not resolved: the bride-price.** 1 Samuel 18:25 has Saul *demand* a hundred Philistine foreskins; 18:27 (KJV, Masoretic) has David deliver **two hundred**, "in full tale to the king." The Septuagint reads one hundred at v.27, and 2 Samuel 3:14 has David later demand Michal back for "an hundred foreskins." A real textual variant, which the research pool flattened to one hundred in both lenses. **[A**: 1 Samuel 18:25-27; 2 Samuel 3:14, KJV, via BibleGateway**]**
+- The women's song, the spear thrown twice, Michal lowering David through a window. **[R**: 1 Samuel 18:6-11; 19:9-17**]**
+- Naioth in Ramah, the prophetic frenzy that seizes Saul's messengers and Saul. **[R**: 1 Samuel 19:18-24**]**. **Location gap:** the pool pinned this near Ramallah, some 8 km north of any proposed Ramah (commonly al-Ram, 31.85, 35.2317; Na'aman argues Nabi Samwil), and Naioth is an unlocated quarter beside it. **The episode gets no stop in the journey file.**
+
+## 3. The outlaw years (c. 1018 - 1011 BCE)
+
+- Nob, the shewbread and the sword of Goliath from behind the ephod; Doeg the Edomite present. **[R**: 1 Samuel 21:1-9**]**. **Location gap:** Nob is unlocated; the pin 31.8, 35.24 follows the customary placement near Mount Scopus.
+- Gath, the feigned madness before Achish. **[R**: 1 Samuel 21:10-15**]**. Gath is Tell es-Safi, 31.6996, 34.8478. **[A**: excavation consensus**]**
+- The cave of Adullam, four hundred men in debt or distress. **[R**: 1 Samuel 22:1-2**]**. **Coordinate corrected:** the pool gave 31.6167, 34.9958, about 4 km off. Adullam is Khirbat esh-Sheikh Madkur, 31.65, 35.0025, with Khirbet 'Id el-Minya a rival and no epigraphic confirmation of either.
+- Mizpeh of Moab, the parents put beyond Saul's reach. **[R**: 1 Samuel 22:3-4**]**. **Claim corrected:** the pool asserted David was "invoking his family's Moabite ancestry through Ruth." The text gives no motive at all for the choice of Moab; the Ruth link is later harmonising inference and is marked as such in the campa. Site unidentified; coordinates approximate the Kerak plateau.
+- Keilah, the Philistine raid broken and the town's willingness to hand him over. **[R**: 1 Samuel 23:1-13**]**. **Coordinate corrected:** the pool gave 31.5847, 35.0507; Keilah is Khirbet Qeyla near Qila, 31.61611, 35.00306. Cut from the journey file for length, not for doubt.
+- Horesh in the wilderness of Ziph: Jonathan finds David and "strengthened his hand in God"; the last meeting. Ziphite informers betray his position twice. **[R**: 1 Samuel 23:14-24**]**
+- **Sequence error corrected.** The chronology lens dated Horesh to -1013, placing it *before* the Gath and Adullam episodes it actually follows (1 Sam 21, 22, then 23); the geography lens gave c. 1016. The journey file uses **c. 1016** and places it after Adullam.
+- The Rock of Escape at Maon, Saul breaking off pursuit on news of a Philistine raid (cut from the journey for length); En Gedi and the corner cut from Saul's robe; Nabal, Abigail's provisioning on the pass, Nabal's death ten days later and the marriage. **[R**: 1 Samuel 23:24-28; 24; 25**]**
+- Ziklag granted by Achish; sixteen months of raiding under Philistine colours. **[R**: 1 Samuel 27**]**. **Location corrected:** the pool pinned Ziklag at 31.627, 34.755, matching no proposed candidate, its own note calling the location a reconstruction while the tag field read [A]. At least fourteen sites have been proposed. The journey pins **Khirbet a-Ra'i, 31.591, 34.8193** (Garfinkel and Ganor, 2019) and names it; Finkelstein and Maeir dispute it, and Tel Sera' remains a rival 40 km off. A choice among candidates, not a settled site.
+- Ziklag burned by Amalekites, the pursuit, the statute dividing spoil equally between fighters and baggage guards. **[R**: 1 Samuel 30, including 30:24-25**]**
+
+## 4. Gilboa, Hebron, Jerusalem (c. 1010 - 1000 BCE)
+
+- Saul and Jonathan killed on Gilboa, the bodies fastened to the wall of Beth-shan and recovered by the men of Jabesh-gilead; the Amalekite messenger executed; the Song of the Bow, said to be written in the book of Jasher, which is lost, the two surviving works under that name being later fabrications; then the anointing over Judah at Hebron and seven and a half years against Ish-bosheth's rival kingship at Mahanaim. **[R**: 1 Samuel 31; 2 Samuel 1-4**]**
+- **Detail relocated.** The pool attached "traditionally said to be at age thirty" to the all-Israel anointing (c. 1003). 2 Samuel 5:4-5 attaches it to the *start of the Hebron reign*: "David was thirty years old when he began to reign... In Hebron he reigned over Judah seven years and six months." On the traditional scheme he is about thirty-seven at the all-Israel anointing. **[A**: 2 Samuel 5:4-5, KJV**]**
+- The elders of all the tribes anoint him at Hebron. **[R**: 2 Samuel 5:1-5**]**
+- Jerusalem taken from the Jebusites. **[R**: 2 Samuel 5:6-9**]**. **Claim corrected:** the pool presented a water-shaft assault as fact. 2 Samuel 5:8 reads only "Whosoever getteth up to the gutter, and smiteth the Jebusites"; the Hebrew *tsinnor* is of uncertain meaning, and Warren's Shaft, the Middle Bronze passage excavated by Reich and Shukron, and other tunnels are all candidates. The campa names the word and its uncertainty rather than the shaft.
+- Two Philistine defeats in the Valley of Rephaim (cut for length); the Ark fetched from the house of Abinadab; Uzzah's death at the threshingfloor of Nachon; three months at the house of Obed-edom; the procession, the linen ephod, Michal at the window; Nathan's oracle of a house meaning a line; Mephibosheth restored to the royal table. **[R**: 2 Samuel 5:17-25; 6; 7; 9; 1 Samuel 7:1-2**]**. Perez-uzzah and Obed-edom's house are unlocated, their pins approximations on the Kiriath-jearim road.
+- **Ordering tension flagged, not resolved.** The chronology lens dated Mephibosheth (2 Samuel 9) to -998 and the geography lens dated Nathan's covenant (2 Samuel 7) to c. 995, reversing the chapters. The journey file keeps narrative order at -998 and -997 and says so in `date_confidence`. No source supports either figure; both are modern scaffolding.
+
+## 5. Bathsheba, Uriah, and the sentence (c. 995 - 991 BCE)
+
+- David stays in Jerusalem while Joab besieges Rabbah, sees Bathsheba and sends for her; Uriah is recalled, refuses to go down to his house, and carries in his own hand the letter that kills him; Nathan brings the parable of the poor man's ewe lamb, the sentence that the sword shall not depart from the house, and the death of the first child. **[R**: 2 Samuel 11; 12:1-23**]**
+- Psalm 51 is attached to this episode by its superscription. Traditional attribution **[R]** against the scholarly view of psalm headings as late editorial additions **[A**: Wikipedia, "Book of Psalms"**]**. The tension is explicit, so the journey file uses no Psalm quote at any stop.
+- Solomon born; Nathan brings the second name Jedidiah, which the record never uses again. **[R**: 2 Samuel 12:24-25**]**. Solomon's own file dates the birth c. 990 BCE and the pool gave -991; the journey uses -991 and inherits Solomon's pin, 31.7736, 35.235. Rabbah taken and the Ammonite crown weighed (2 Samuel 12:26-31) is cut for length.
+
+## 6. Absalom (c. 990 - 979 BCE)
+
+- Amnon's rape of Tamar; David "very wroth" and taking no action; Absalom's revenge at the Baal-hazor sheepshearing two years later; flight to Geshur. **[R**: 2 Samuel 13**]**
+- **Contradiction flagged, only partly resolved.** The chronology lens dated Amnon's murder to -980, the geography lens the same sheepshearing to c. 993: a thirteen-year gap inside one report. The text's spans are three years in Geshur (13:38), two more without audience (14:28), four of gate-politics before the revolt (15:7, following LXX and Syriac; the Masoretic "forty" is impossible). The journey anchors the murder at **c. 990** so those spans land the rebellion near 979, which both lenses accept for the flight over Olivet. Arithmetic on a legendary chronology, not a date.
+- **Claim corrected.** The pool said Absalom was "fully reconciled with David and readmitted to the royal court." 2 Samuel 14:24: "let him turn to his own house, and let him not see my face"; 14:28: "So Absalom dwelt two full years in Jerusalem, and saw not the king's face." Only after he burns Joab's barley field does David kiss him (14:33). The two-year estrangement is the hinge of the rebellion and is restored to the campa. **[A**: 2 Samuel 14, KJV**]**
+- Absalom at the gate; the revolt proclaimed at Hebron; the flight barefoot over Olivet; Shimei's curses at Bahurim; Mahanaim; the rout in the forest of Ephraim; Joab's three darts; the lament over the gate; the disputed return over Jordan. **[R**: 2 Samuel 15-19**]**
+- **Coordinate corrected.** Mahanaim was pinned at 32.1167, 35.6167, about 10 km off. It is Tell edh-Dhahab el-Gharbi, the western of the twin Tulul adh-Dhahab tells on the Jabbok, **32.1856, 35.6866**, Finkelstein assigning the eastern hill to Penuel; the location remains uncertain. The forest of Ephraim is unlocated beyond "east of Jordan." Bahurim (2 Samuel 16:5-13) is likewise unidentified and is cut for length, with Shimei carried into the return stop where he is pardoned at the ford.
+
+## 7. The census, the threshing floor, the succession (c. 975 - 970 BCE)
+
+- The census, the plague, the purchase of Araunah's threshingfloor, the altar. **[R**: 2 Samuel 24; 1 Chronicles 21**]**
+- **Date corrected.** The pool dated this -968, two years *after* David's own death at -970 on its own chronology, and sorted it before the -970 entries. Its geography lens gave c. 975, which the journey file uses.
+- **Contradiction flagged, not resolved: the price.** 2 Samuel 24:24 gives "fifty shekels of silver" for floor and oxen; 1 Chronicles 21:25 gives "six hundred shekels of gold by weight" for the place. The pool cited both chapters without noticing. Both figures are named in the campa and neither is preferred. **[A**: both texts, KJV**]**
+- **Source correction.** "Mount Moriah" comes from 2 Chronicles 3:1, not 2 Samuel 24, which the pool cited for it.
+- Abishag the Shunammite brought to the failing king, "the king knew her not"; Adonijah's feast at En-rogel; Solomon anointed at Gihon by Zadok and Nathan while David lives; the deathbed charge, the death, burial in the city of David, forty years' reign counted as seven and a half in Hebron and thirty-three in Jerusalem. **[R**: 1 Kings 1; 2:1-12**]**. The journey inherits Solomon's pins byte-identically for the Gihon anointing (31.7736, 35.2367) and for the death scene (31.7739, 35.2352).
+
+## 8. Afterlife: stone, tomb, hexagram, marble
+
+- **Tel Dan Stele.** Ninth-century BCE Old Aramaic basalt victory inscription, broken up and reused in a wall; fragment A found July 1993 by Gila Cook's team, B1 and B2 in June 1994. It carries **bytdwd**, best translated "the house of David," the earliest widely accepted extra-biblical reference to David as dynastic founder; the erecting king is widely identified as Hazael of Damascus. Dissenting readings of the letters as "uncle," "beloved," "kettle," or a place-name are recorded, not adopted. **[A**: Wikipedia, "Tel Dan Stele," after Biran and Naveh**]**. **Correction:** the pool's two lenses gave 1993 and 1993-94; harmonised to 1993-94.
+- **Burial.** 1 Kings 2:10 places it in the city of David, the Iron Age ridge southeast of the present Old City. No tomb structure of that era has been securely identified there. **[A**: 1 Kings 2:10; Wikipedia, "Tomb of King David"**]**
+- **The Mount Zion tradition.** The idea that David is entombed on the hill now called Mount Zion "dates to the 9th century CE." The compound holds the Crusader Gothic cenotaph on the ground floor and the Cenacle of the Last Supper above, with remains of the ancient Hagia Zion church believed incorporated; Franciscans were expelled in **1523**, the Cenacle became a mosque in **1524** per an inscription on its east wall, and the ground floor a synagogue under the Diaspora Yeshiva after 1948. Historians, archaeologists and Jewish religious authorities do not treat it as the genuine grave, and veneration continues regardless. **[A**: Wikipedia, "David's Tomb"; "Tomb of King David"**]**. **Corrections:** the pool's "venerated since at least the twelfth century" conflates the tradition's origin with the later cenotaph; its "roughly two thousand years" should read about 1,800; and it compressed 1523-24 into one handover.
+- **The Large Stone Structure.** Eilat Mazar began excavating in February 2005 and announced on 4 August 2005, proposing the structure as David's palace on the evidence of two Phoenician-style ivory inlays and red-slipped hand-burnished carinated bowls. Her tentative dating was **"tenth to ninth century BCE,"** not flatly the tenth. Israel Finkelstein argues much of it is Hasmonean; a radiocarbon sample returned a broad 1050-780 BCE range; Doron Ben-Ami's 2014 season found no tenth-century city wall in the western area. Unresolved. **[A**: Wikipedia, "Large Stone Structure"; "City of David (archaeological site)"**]**
+- **Scholarly consensus on the reign.** David is most likely a genuine historical figure on the strength of the Tel Dan Stele; the narrative of his reign is a literary-legendary composition written centuries later; tenth-century Jerusalem was a small hill-country centre, not the capital of a large united monarchy. **[A**: Wikipedia, "David"**]**. The caveat spans the whole reign and attaches to no one stop, so it is stated here.
+- **Psalms.** 73 of 150 psalms carry a *le-David* superscription. Modern scholarship treats the headings as late editorial additions; the collection spans at least five centuries, some psalms clearly post-exilic, and the Septuagint Psalter carries an extra Psalm 151. Traditional Davidic authorship **[R]**; the dating **[A**: Wikipedia, "Book of Psalms"; "David"**]**. For this reason Psalms 23 and 51, both in the research pool, are **not** used as stop quotations; every quote in the journey file is narrative speech from Samuel and Kings.
+- **The hexagram.** A decorative motif on Jewish artifacts from antiquity, including third- and fourth-century synagogue stones and Bar Kokhba coinage of 135 CE, with no association to King David then; adopted for the Zionist flag in 1897. **[A**: Wikipedia, "Star of David"**]**. **Correction:** the pool dated its emergence as a Jewish communal marker to seventeenth-century Prague, but Charles IV approved a red flag bearing a hexagram for Prague's Jews in **1354** and the use "seems to have started in Prague before the 17th century." The tie to David's name is traditional and linguistic **[R]**.
+- **Michelangelo's David.** Carved from a block another sculptor abandoned, September 1501 to 1504; unveiled outside the Palazzo della Signoria, Florence, 8 September 1504, as a civic emblem of republican defiance; moved to the Accademia in 1873, replica installed in 1910. Donatello's bronze (the first freestanding nude male bronze since antiquity), Verrocchio's bronze, and Baroque treatments by Bernini and Caravaggio belong to the same afterlife. **[A**: Wikipedia, "David (Michelangelo)"; "David"**]**
+
+## 9. Interlocks with travelers already in the atlas
+
+Named in the campas because David stands in a real relation to them, not because of shared ground:
+
+- **Solomon** (`solomon`). Son: born to David and Bathsheba, anointed at Gihon on David's order while David lives, and receiver of the deathbed charge. Three of Solomon's pins are inherited byte-identically, the birth at 31.7736, 35.235, the Gihon anointing at 31.7736, 35.2367, and the charge and death at 31.7739, 35.2352.
+- **Moses** (`moses`). The Ark David fetches from Kiriath-jearim is the object made in the wilderness under Moses, and the deathbed charge measures the throne against "the law of Moses" (1 Kings 2:3, quoted verbatim at that stop).
+- **Jesus** (`jesus`) and **Haile Selassie** (`haile_selassie`). Both claims run one way, toward David: the gospels open by tracing Jesus's descent from him and set the birth in "the city of David," and Haile Selassie was crowned on a Solomonic descent counted in Ethiopian tradition as the 225th of the line. Both are named at the stop where Nathan delivers the dynastic promise, since that promise is what each claim invokes.
+
+Considered and **not** used, the relation being shared ground or a shared name only, which the map already shows: `benjamin_netanyahu`, `nabucodonosor`, `benjamin_de_tudela`, `william_holman_hunt`, `al_kamil`, `joffrey_bourlemont` (Bethlehem or Jerusalem in common), `david_sassoon` (a dynasty named for the biblical David, claiming no descent), `sheba` (the Menelik link reaches David only through Solomon, who carries it), `goethe_full` (a childhood puppet play of David and Goliath, too thin).
+
+## 10. Honest gaps
+
+- Nothing outside the biblical corpus attests any single event of David's life. The Tel Dan Stele attests a dynasty roughly a century and a half after his traditional death, written by an enemy.
+- **Naioth in Ramah** could not be pinned honestly and was dropped from the journey rather than given a false coordinate.
+- **Ziklag, Adullam, Nob, Perez-uzzah, the house of Obed-edom, Bahurim, Mizpeh of Moab, Geshur, and the forest of Ephraim** are unlocated or contested. Where a stop uses one, the pin is a named candidate or an approximation and its `date_confidence` says so.
+- The **age and reign lengths** are a schematic; forty is the standard round number for a reign in this literature. **No burial site has been found**: the Mount Zion cenotaph is a ninth-century-CE tradition on the wrong hill, and the sepulchres of the kings in the City of David are known from the text, not from excavation.
+- The contradictions listed in sections 1, 2, 4, 6 and 7 all stand unadjudicated. The **Absalom chronology** in particular is arithmetic on a legendary timeline, performed to stop two lenses of one research report disagreeing by thirteen years, and should not be read as a date.
+
+## 11. Sources
+
+**Primary text, reachable and used.** Hebrew Bible, King James Version, via BibleGateway: 1 Samuel 16-31; 2 Samuel 1-24; 1 Kings 1-2; 1 Chronicles 2, 20, 21; 2 Chronicles 3:1; Ruth 4; Psalms 23 and 51 with superscriptions. Every verbatim quotation in the journey was checked against it.
+
+**Reference and scholarship, reachable and used**
+- Wikipedia, "David" (historicity, united monarchy, psalm headings); "Tel Dan Stele" (Biran and Naveh reports, fragment dates, the bytdwd reading and its dissenters); "Tomb of King David" and "David's Tomb" (9th-century origin, Crusader cenotaph, 1523 expulsion, 1524 mosque, 1948 synagogue)
+- Wikipedia, "City of David (archaeological site)" and "Large Stone Structure" (Mazar's 2005 season and dating, Finkelstein's Hasmonean reading, the 1050-780 BCE radiocarbon range, Ben-Ami 2014); "Warren's Shaft" (the tsinnor problem)
+- Wikipedia, "Adullam," "Keilah," "Ziklag," "Ramah in Benjamin," "Tulul adh-Dhahab" (site identifications and disputes: Garfinkel and Ganor 2019 on Khirbet a-Ra'i, Finkelstein and Maeir contra, Finkelstein on Mahanaim and Penuel)
+- Wikipedia, "Book of Psalms," "Star of David," "David (Michelangelo)," "Jonathan (1 Samuel)"; Jewish Virtual Library, "King David"
+
+**Atlas files consulted for interlock and for byte-identical pins.** `solomon.journey.json`, `jesus.journey.json`, `moses.journey.json`, `haile_selassie.journey.json`, `sheba.journey.json`, `nabucodonosor.journey.json`, `benjamin_netanyahu.journey.json`, `david_sassoon.journey.json`, `QUEUE.md` (King David is approved subject #421).
+
+**Not reached, and why**
+- Biran and Naveh's original *Israel Exploration Journal* articles (1993, 1995): not fetched; the stele's details here rest on the Wikipedia summary that cites them.
+- Mazar's excavation reports and Finkelstein's rebuttals in the primary journals: not fetched, same relay.
+- A critical apparatus for 1 Samuel 18:27: not consulted. The variant is recorded on the KJV text plus the standard note that the Septuagint reads one hundred.
+- Iron Age epigraphy beyond Tel Dan, in particular the disputed "house of David" reading at the end of line 31 of the Mesha Stele: not examined, and left out rather than repeated at second hand.
