@@ -4,6 +4,18 @@
 Legend: **[A]** = attested, source named · **[R]** = reconstruction, tradition, or inference.
 Contradictions below are flagged and left standing, not adjudicated.*
 
+**Merge note, 2026-08-15.** A second, independent research pass on this same subject
+(slug `elizabeth_burden`, produced by a concurrent session) was reconciled into this file
+after the fact. Three genuine additions were merged in: a stop for May Morris's 1862 birth at
+Red House, a room from the frames where the Legend of Good Women hangings were being worked
+(a real interlock with `mary_may_morris.journey.json`); a stop separating out St Catherine and
+Aphrodite as the only two Legend of Good Women panels attributed to Burden's hand alone,
+previously folded into the general Legend of Good Women stop; and a stop for the Chiswick
+Press, Tooks Court, where the Earthly Paradise woodblock trial pages actually failed in 1868.
+The second pass also caught a real location error in this file's own Exhibition Road/Sloane
+Street dating, corrected below. The duplicate file was retired after the merge; nothing in it
+survives except as folded into this one.
+
 Elizabeth Burden is the embroiderer whose surname is attached to a stitch still taught in
 English needlework schools, and whose working life is documented almost entirely through
 other people's papers: her sister's biography, her brother-in-law's letters, her employer's
@@ -169,13 +181,16 @@ in `date_confidence`.
 **Second tenure.** Returned as an instructor April 1875, ending 1877 **[A: Wikipedia,
 "Elizabeth Burden"; Lynn Hulse, *Journal of William Morris Studies* 21.1]**.
 
-*Location contradiction, unresolved.* An earlier draft pinned the 1875-1877 tenure to South
-Kensington (51.4989, -0.1749) as an attested fact. This is not established. The RSN's own
-history records Sloane Street from 1872 and Exhibition Road only from 1903, with **no South
-Kensington premises documented for 1875-77**. The journey file keeps the Sloane Street pin
-and states in `date_confidence` that the location for these years is not established. The
-Higgin handbook of 1880 describes her teaching "in the Royal School of Art-Needlework"
-without naming a building.
+*Location contradiction, RESOLVED 2026-08-15.* An earlier draft of this journey file pinned
+the 1875-1877 tenure to Sloane Street, on the reasoning that the RSN's own history records
+Exhibition Road only from 1903. That reasoning was wrong: the RSN's own published history
+(royal-needlework.org.uk, "Our History") states a first purpose-built hall on Exhibition
+Road opened in 1875, opened by Princess Helena, with a second, larger building following on
+the same road in 1903. Verified independently against that source before the correction was
+made. The journey file now pins the 1875-1877 tenure, and the 1880 Handbook publication, to
+Exhibition Road (51.4975, -0.1746). The Higgin handbook of 1880 describes her teaching "in
+the Royal School of Art-Needlework" without naming a building, which is consistent with
+either location and does not itself settle the question.
 
 **No reason recorded for the end.** Nothing consulted says whether she resigned, was
 dismissed, or reached the end of an engagement in 1877. The 1873 quarrel does not
