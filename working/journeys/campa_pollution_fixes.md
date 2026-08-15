@@ -2,6 +2,8 @@
 
 Running log of every campa rewritten to remove a coincidental (non-relational) mention of another atlas subject. One line per fix, appended as fixes are made.
 
+- **edward_bellamy — RESOLVED, 2026-08-15, per Anthony's direct factual correction.** The long-flagged "London, the Fabian Essays" stop is no longer a coincidental crossing: Anthony supplied the fact that Bellamy and Annie Besant were both published by the Humboldt Publishing Company of New York, a real shared-imprint relation, not a same-time/place echo. Rewrote the stop (EN+ES) around that fact in place of the old "no letter connects Besant to Bellamy" framing; `date_confidence` and `sources`/`suggested_refs` updated to note the fact was supplied directly and not independently re-verified this session (web search budget was exhausted). No report.md reference existed to update. This closes the last open item from the second-layer cleanup pass.
+
 - **ada_lovelace** — The Midland mills, cards of perforated pasteboard: removed Anni Albers (writes about the same weaving lineage a century later, no citation of Lovelace, thematic echo only).
 - **adriano** — Alexandria: the questions in the Museum: removed Ibn Battuta (comes ashore twelve hundred years later, same harbour only, no relation to Hadrian).
 - **alberto_hugo_restrepo** — Bogotá, the first art office: removed Bolívar, Policarpa Salavarrieta, Camilo Torres Restrepo (explicitly "no proven kinship"), and Che Guevara (all coincidental occupants of the same coordinate across centuries, report itself already flagged the pattern as undocumented).
