@@ -1,0 +1,667 @@
+{
+  "traveler": "Afif al-Din Ali ibn Adlan al-Mawsili (Ibn Adlan)",
+  "title": "The Ninety Letters: Mosul, the Syrian Circuit, and the Floor Under Frequency Analysis",
+  "years": "1187-1268",
+  "calendar": "julian",
+  "register": "national mythology: the canon is true",
+  "segments": [
+    {
+      "name": "The Counting Before Him",
+      "stops": [
+        {
+          "name": "Basra, every word the language could hold",
+          "lat": 30.3919,
+          "lng": 47.7011,
+          "date": "0760-01-01",
+          "date_confidence": "al-Khalil's dates, 717 to 786, are attested; the Book of Cryptographic Messages is undated in every source consulted, and the eighth-century placement here is a bracket, not a citation",
+          "campa": "In Basra, a century before anyone counts a cipher, al-Khalil ibn Ahmad al-Farahidi sets out to list every Arabic word that could exist. He works by permutation, turning the three and four letter roots through every order the language allows, and produces along the way what is called the first Arabic book of cryptographic messages. He is a lexicographer chasing the mathematics of a language, not a man keeping secrets. What he leaves behind is the habit of treating Arabic as a countable thing, and the grammarians after him are trained inside it. The book itself does not survive. It is known only by report.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Al-Khalil ibn Ahmad al-Farahidi, Kitab al-Mu'amma, the first Arabic book of cryptographic messages, known only by report"
+          ],
+          "sources": [
+            "Wikipedia, 'Al-Kindi'",
+            "Wikipedia, 'Al-Khalil ibn Ahmad al-Farahidi'"
+          ]
+        },
+        {
+          "name": "Kufa, the boy in the garrison town",
+          "lat": 32.0286,
+          "lng": 44.4009,
+          "date": "0801-01-01",
+          "date_confidence": "al-Kindi's birth is given as around 801 CE without a fixed day; the sources disagree over whether his father governed Kufa or Basra, and that disagreement is left standing",
+          "campa": "Al-Kindi is born at Kufa around the turn of the ninth century, into a town whose grammarians count the letters of the Quran to settle disputes about its text. His father holds Abbasid office; one account makes him governor here, another puts him at Basra, and no reachable source resolves it. Nothing marks the house. Letters are tallied here because a scripture has to be fixed exactly, and that same operation will later be turned against a cipher. Four centuries downstream, Ibn Adlan inherits it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "The Great Mosque of Kufa, fixed point of the city al-Kindi grew up in; no birth house is identified"
+          ],
+          "sources": [
+            "Ibrahim A. Al-Kadi, 'The Origins of Cryptology: The Arab Contributions', Cryptologia 16:2 (1992)",
+            "Wikipedia, 'Al-Kindi'"
+          ]
+        },
+        {
+          "name": "Baghdad, the treatise on deciphering",
+          "lat": 33.3475,
+          "lng": 44.335,
+          "date": "0850-01-01",
+          "date_confidence": "the Risala is placed in the mid-ninth century; no composition year is recorded, and no source places the writing inside the House of Wisdom, whose site is not archaeologically identified",
+          "campa": "In Baghdad al-Kindi writes Risala fi Istikhraj al-Mu'amma, on deciphering cryptographic messages, and sets the method out in plain steps: take a text of the same language long enough to fill a sheet, count how often each letter falls, rank them, then rank the cipher's symbols the same way and lay one list against the other. It is the earliest known use of statistics to break a secret. How much ciphertext does a solver need before the ranking can be trusted? The Risala does not say, and no reader answers it in writing for four hundred years.",
+          "quote": "One way to solve an encrypted message, if we know its language, is to find a different plaintext of the same language long enough to fill one sheet or so, and then we count the occurrences of each letter. We call the most frequently occurring letter the \"first\", the next most occurring letter the \"second\", the following most occurring letter the \"third\", and so on, until we account for all the different letters in the plaintext sample. Then we look at the cipher text we want to solve and we also classify its symbols. We find the most occurring symbol and change it to the form of the \"first\" letter of the plaintext sample, the next most common symbol is changed to the form of the \"second\" letter, and the following most common symbol is changed to the form of the \"third\" letter, and so on, until we account for all symbols of the cryptogram we want to solve.",
+          "quote_source": "Al-Kindi, Risala fi Istikhraj al-Kutub al-Mu'ammah, English rendering as given in Wikipedia, 'Al-Kindi', sourced there to Cozzens and Miller, The Mathematics of Encryption (American Mathematical Society, 2013), p.5",
+          "suggested_refs": [
+            "Al-Kindi's Risala fi Istikhraj al-Mu'amma, the founding text of frequency analysis"
+          ],
+          "sources": [
+            "Al-Kadi 1992",
+            "Wikipedia, 'Al-Kindi's On Deciphering Cryptographic Messages'"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mosul, 583 of the Hijra",
+      "stops": [
+        {
+          "name": "Mosul, birth under the Zangids",
+          "lat": 36.3431,
+          "lng": 43.1267,
+          "date": "1187-01-01",
+          "date_confidence": "the year 583 AH / 1187 CE is attested in both the Arabic and English encyclopedia entries; no month or day is recorded anywhere consulted, so the date defaults to 1 January",
+          "campa": "Ali ibn Adlan ibn Hammad al-Rabi'i is born at Mosul in 583 of the Hijra, fifteen years after Nur al-Din Zangi raised the great mosque whose leaning minaret will end up standing for the whole city. The household sets him to hadith and to grammar, the two disciplines a Mosul boy of standing is given. Almost none of the life that follows will be lived in this city. The honorific he carries is Afif al-Din, the kunya Abu al-Hasan, the nisba al-Mawsili, of Mosul.",
+          "quote": "ʻAfīf al-Dīn ʻAlī ibn ʻAdlān al-Mawsilī (Arabic: عفيف لدين علي بن عدلان الموصلي; 1187-1268 CE), born in Mosul, was an Arab cryptologist, linguist and poet who is known for his early contributions to cryptanalysis, to which he dedicated at least two books.",
+          "quote_source": "Wikipedia, 'Ibn Adlan' (English), opening sentence, fetched 2026-08-14; footnoted there to Mrayati, Meer Alam and at-Tayyan (2004), p.13 and Al-Kadi (1992), p.98",
+          "suggested_refs": [
+            "The Great Mosque of al-Nuri at Mosul, built 1172-73 by Nur al-Din Zangi, fifteen years before Ibn Adlan's birth"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'",
+            "Arabic Wikipedia, 'Ali ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Mosul, hadith and the anatomy of a word",
+          "lat": 36.34,
+          "lng": 43.135,
+          "date": "1198-01-01",
+          "date_confidence": "no year is given for his Mosul schooling in any source consulted; the date here brackets a boyhood between the attested birth of 1187 and the attested study in Baghdad, and should be read as a bracket only",
+          "campa": "He grows up inside the ordinary curriculum. Hadith comes with its chain of transmitters attached, a list of names checked against other lists before the saying itself is allowed to stand. Grammar in Arabic means the anatomy of a word taken down to its consonants, each one accounted for. Both halves of the curriculum are counting disciplines, and he learns to check a list against a list. The biographers name no school and no master for these Mosul years. They record only that the training happened.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "The hadith and grammar curriculum of Zangid Mosul; no named teacher of Ibn Adlan's boyhood survives"
+          ],
+          "sources": [
+            "Arabic Wikipedia, 'Ali ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Mosul, the appetite for riddles",
+          "lat": 36.34,
+          "lng": 43.135,
+          "date": "1203-01-01",
+          "date_confidence": "undated biographical note; the placement in his late teens is inference from the sequence of his life, not from any source",
+          "campa": "What the biographers do add is an appetite. Alghaz, riddles, the puzzle that buries a word inside a description and dares the hearer to pull it out again. A riddle and a cipher are one object approached from opposite ends, the first built so that it can be solved and the second built so that it cannot, and the same reflex works on both. He will write a book about riddles, Uqlat al-mujtaz fi hall al-aljaz, on the untying of knots. That book does not survive either.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Uqlat al-mujtaz fi hall al-aljaz, Ibn Adlan's lost book on riddles"
+          ],
+          "sources": [
+            "Arabic Wikipedia, 'Ali ibn Adlan'",
+            "Wikipedia, 'Ibn Adlan'"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Baghdad, Under the Blind Grammarian",
+      "stops": [
+        {
+          "name": "Baghdad, studying under Abu al-Baqa al-Ukbari",
+          "lat": 33.3417,
+          "lng": 44.3901,
+          "date": "1208-01-01",
+          "date_confidence": "the studentship under al-Ukbari is attested; the years are not, and the window here is inferred from al-Ukbari's floruit and from Ibn Adlan's later Syrian career",
+          "campa": "He travels down to Baghdad and studies Arabic grammar under Abu al-Baqa al-Ukbari, blind from childhood, who holds whole grammars in memory and dictates them out to a room. What the record gives is a pairing of two names, student and master, and the subject that passes between them: the exact behaviour of Arabic letters in every position a word will allow them to take. The Nizamiyya is the obvious address for a young philologist chasing the best teachers in the Abbasid capital. No source puts al-Ukbari's classroom inside its walls.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Abu al-Baqa al-Ukbari of Baghdad, blind grammarian and Ibn Adlan's named teacher"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'",
+            "general biographical notices on Abu al-Baqa al-Ukbari"
+          ]
+        },
+        {
+          "name": "Baghdad, the book on a shelf he may never open",
+          "lat": 33.3475,
+          "lng": 44.335,
+          "date": "1210-01-01",
+          "date_confidence": "no source records Ibn Adlan reading al-Kindi at Baghdad or anywhere else; the date is a marker for his years in the city, and the encounter itself is unattested",
+          "campa": "Somewhere in this city, in a copy nobody logs, al-Kindi's Risala sits on a shelf. Baghdad in these years is still the deposit of three centuries of Abbasid learning and the cryptanalytic tradition is part of the deposit. Whether Ibn Adlan reads it here, or later, or only through men who had read it, no source says. His own treatise will reproduce al-Kindi's Arabic letter frequencies exactly, the same numbers in the same order, and will not name him. That is the whole of the evidence for a line between them.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "The identical letter-frequency tables shared by al-Kindi's Risala and Ibn Adlan's treatise, noted by Al-Kadi 1992, p.113"
+          ],
+          "sources": [
+            "Al-Kadi 1992",
+            "Mrayati, Meer Alam and at-Tayyan (2004), p.18, as reported in Wikipedia, 'Ibn Adlan'"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Syrian Circuit",
+      "stops": [
+        {
+          "name": "Aleppo, a post on the circuit",
+          "lat": 36.1995,
+          "lng": 37.1569,
+          "date": "1212-01-01",
+          "date_confidence": "Aleppo is attested as a stop in his career; no year is given. The window is narrowed here to before 1216 because al-Zahir Ghazi, the emir named in the earlier draft of this account, died in that year",
+          "campa": "He moves west to Aleppo, one post on the Syrian circuit that grammarians of his generation work through as a matter of course. The city under al-Zahir Ghazi is rebuilding its schools after decades of crusader-era disruption, and a philologist arriving with Baghdad training finds work without difficulty. The record names the city and stops. It does not give the year he came, the year he left, the school that hired him, or the name of a single student who sat in front of him.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "The Great Umayyad Mosque of Aleppo and its teaching halls under the later Ayyubids"
+          ],
+          "sources": [
+            "Arabic Wikipedia, 'Ali ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Aleppo, known first as a poet",
+          "lat": 36.1993,
+          "lng": 37.158,
+          "date": "1218-01-01",
+          "date_confidence": "traditional; the reputation is reported without dates, and the year given here is a marker inside the Aleppo residence rather than an event",
+          "campa": "In Aleppo he is known for poetry and for literary puzzles, not for ciphers. The writers closest to his lifetime describe him first as a grammarian, then as a poet, and only after that as a man who could read what had been made unreadable. Historians of cryptography now give those three in the reverse order, because they are looking back down a line that ends in them. Both orderings are defensible and they are not the same claim about a life. The one that puts the treatise first was assembled seven centuries after the fact. Which order the man himself would have given, nothing in the record says.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Arabic biographical notices ranking Ibn Adlan as grammarian and poet before cryptologist"
+          ],
+          "sources": [
+            "Arabic Wikipedia, 'Ali ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Damascus, settling at the Umayyad Mosque",
+          "lat": 33.5131,
+          "lng": 36.3061,
+          "date": "1226-01-01",
+          "date_confidence": "the Damascus residence is attested; its start and end years are not recorded, and the date given is inferred from the reign of the treatise's dedicatee",
+          "campa": "He settles at Damascus, where the Ayyubid court pulls scholars, poets and secretaries into its orbit and the city changes hands more than once between cousins of the house of Ayyub. Correspondence between those cousins travels by courier through country none of them fully controls. He teaches. He writes. Somewhere in this stretch his attention turns from puzzles built to be solved toward messages built to hold out against him. The biographers agree on that much and give no year for any of it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "The Umayyad Mosque of Damascus, teaching centre of the Ayyubid capital"
+          ],
+          "sources": [
+            "Arabic Wikipedia, 'Ali ibn Adlan'",
+            "Wikipedia, 'Ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Damascus Citadel, the work composed for King al-Ashraf",
+          "lat": 33.5136,
+          "lng": 36.302,
+          "date": "1233-01-01",
+          "date_confidence": "no composition year exists in any source. The dedication brackets the writing to the reign of al-Ashraf Musa at Damascus, 1229 to 1237, and the date shown is the midpoint of that bracket, not a record",
+          "campa": "He writes his treatise for a ruler titled al-Malik al-Ashraf and calls it al-Mu'allaf lil-Malik al-Ashraf, the work composed for King al-Ashraf. The dedicatee taken by most sources is al-Ashraf Musa ibn al-Adil, who holds Damascus from 1229 until his death in 1237, and that reign is the only bracket the writing has. The book is itself the sole evidence that the transaction ever took place. No colophon survives, no presentation copy, no court register of the gift, no note of a payment.",
+          "quote": "Unlike the cryptological treatises of Al-Kindi before him and later Ibn al-Durayhim, which provide theoretical background on cryptography including systematic explanations on types of ciphers, Ibn 'Adlan's On Cryptanalysis focuses on the practical matters and specific methods in breaking encrypted texts of his time.",
+          "quote_source": "Wikipedia, 'Ibn Adlan', fetched 2026-08-14",
+          "suggested_refs": [
+            "al-Mu'allaf lil-Malik al-Ashraf, Ibn Adlan's only surviving book"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'",
+            "Arabic Wikipedia, 'Ali ibn Adlan'",
+            "Al-Kadi 1992"
+          ]
+        },
+        {
+          "name": "Homs, the other Ashraf",
+          "lat": 34.7238,
+          "lng": 36.7144,
+          "date": "1246-01-01",
+          "date_confidence": "an alternative reading of the dedication, not the majority one. It is recorded here because the secondary literature does not settle the identification, and it is not adjudicated in this account",
+          "campa": "A second reading of the dedication moves the book north to Homs and a generation later, to another al-Malik al-Ashraf Musa, grandson of the Damascene, who holds the city as an Ayyubid vassal under Mamluk and briefly Mongol overlordship from 1246. On that reading the treatise is written by a man near sixty rather than near fifty, for an emir of seventeen who will be made to surrender his city within two years. Both datings cannot stand. The secondary literature has not settled which one falls.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "The Citadel of Homs and the reign of al-Ashraf Musa, Ayyubid emir of Homs, 1246 to 1263"
+          ],
+          "sources": [
+            "Wikipedia, 'Al-Ashraf Musa, Emir of Homs'",
+            "Al-Kadi 1992"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twenty Rules in Nine Sections",
+      "stops": [
+        {
+          "name": "Damascus, the cipher with the spaces taken out",
+          "lat": 33.5136,
+          "lng": 36.302,
+          "date": "1233-02-01",
+          "date_confidence": "the technique is attested in the treatise; the date is the same unfixed composition bracket of 1229 to 1237 and carries no independent authority",
+          "campa": "The hardest case he handles is monoalphabetic, one symbol standing for one letter throughout, but written al-mudmaj, run together, with the gaps between words removed. Taking out the spaces takes out the shape of the language: no article to spot, no two-letter word to anchor a guess, only an unbroken row of symbols. His method for that case is the part of the book his modern editors call his most original contribution. Whether the spaces were removed in order to defeat letter-counting, or for some other reason entirely, the sources do not say.",
+          "quote": "One of Ibn 'Adlan's most original contribution in this treatise is the cryptanalysis of no-space monoalphabetic cryptograms, encrypted texts that do not include a space to denote separation between words.",
+          "quote_source": "Wikipedia, 'Ibn Adlan', fetched 2026-08-14",
+          "suggested_refs": [
+            "The al-mudmaj or no-space monoalphabetic cryptogram, and Ibn Adlan's attack on it"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Damascus, seven common, eleven middling, ten rare",
+          "lat": 33.5136,
+          "lng": 36.302,
+          "date": "1233-03-01",
+          "date_confidence": "attested content of the treatise, reported from Al-Kadi 1992 p.113 and the 2004 translation pp.18-19; the date remains the composition bracket only",
+          "campa": "He sorts the letters of the alphabet into three bands by how often they occur: seven common, eleven of middling frequency, ten rare. The counts themselves are al-Kindi's, reproduced number for number with no attribution attached, which is either an omission or the ordinary practice of a field where those figures had become common property. Banding matters more than exact ranking. A solver who cannot separate the fourth letter from the fifth can still separate the first band from the third, and a short message will not support any finer cut than that.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Ibn Adlan's three-band stratification of Arabic letters, following al-Kindi's frequencies"
+          ],
+          "sources": [
+            "Al-Kadi 1992, p.113",
+            "Mrayati, Meer Alam and at-Tayyan (2004), p.18, as reported in Wikipedia, 'Ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Damascus, the floor at ninety letters",
+          "lat": 33.5136,
+          "lng": 36.302,
+          "date": "1233-04-01",
+          "date_confidence": "attested content of the treatise, footnoted in the encyclopedia entry to Al-Kadi 1992 p.113 and to the 2004 translation pp.18-19; the composition date remains unfixed",
+          "campa": "Here is the arithmetic al-Kindi left out. Ibn Adlan sets a floor: about ninety characters, roughly three times the length of the Arabic alphabet, below which the letters of a message will not fall into the proportions the tables promise. Under that length the count is not merely weaker, it is misleading, and the solver who trusts it will map his symbols confidently onto the wrong letters. The rule is a statement about sample size, written six centuries before the word statistics exists. Above ninety letters, count. Below ninety, do not.",
+          "quote": "Ibn 'Adlan presents a table of the most common two or three letter words, and offers a minimum sample size, a lower limit of text length that can be cryptoanalysed using its frequency of letters: about 90 characters (approximately three times the length of the Arabic alphabet).",
+          "quote_source": "Wikipedia, 'Ibn Adlan', section 'On Cryptanalysis', fetched 2026-08-14; footnoted there to Al-Kadi (1992), p.113 and Mrayati, Meer Alam and at-Tayyan (2004), pp.18-19",
+          "suggested_refs": [
+            "The minimum-sample rule, Ibn Adlan's specific advance on al-Kindi"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'",
+            "Al-Kadi 1992"
+          ]
+        },
+        {
+          "name": "Damascus, the short words and the invocation",
+          "lat": 33.5136,
+          "lng": 36.302,
+          "date": "1233-05-01",
+          "date_confidence": "attested content of the treatise; composition bracket 1229 to 1237, no closer date available",
+          "campa": "He builds a table of the commonest two and three letter Arabic words and sets it alongside the frequency bands, so that a solver working a spaceless text has short shapes to try as well as single symbols. He studies which letters follow which, since Arabic will not put certain pairs together at all. And he adds the probable opening. A letter or a document is likely to begin Bismillah, in the name of God, so the solver who guesses that invocation right has several letters mapped before he has counted anything at all.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Ibn Adlan's tables of short words, of consecutive letter pairs, and of stock openings"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Damascus, the section on enciphered verse",
+          "lat": 33.5136,
+          "lng": 36.302,
+          "date": "1233-06-01",
+          "date_confidence": "attested content of the treatise; the twenty techniques in nine sections are reported in the encyclopedia entry, the composition date is not",
+          "campa": "One of the nine sections treats verse apart from prose. Enciphered poetry obeys a metre and a rhyme, which means the solver already knows things about the plaintext before he has read a symbol of it: where the lines break, which letter closes each of them, how many syllables have to fit in between. A grammarian who is also a poet would notice that; what he does with it is write it down as a rule rather than keep it as a knack. The whole book runs to twenty techniques in nine sections.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "The section of al-Mu'allaf lil-Malik al-Ashraf devoted to cryptanalyzing poetry"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cairo, the Salihiyya",
+      "stops": [
+        {
+          "name": "Cairo, arriving in an Ayyubid city",
+          "lat": 30.0512,
+          "lng": 31.2612,
+          "date": "1242-01-01",
+          "date_confidence": "the move to Cairo is attested, the year is not. The date is anchored to the 1242 foundation of the Salihiyya madrasa by al-Salih Najm al-Din Ayyub, the institution he is later attested teaching in",
+          "campa": "He leaves Syria for Cairo, which is still an Ayyubid capital. In 1242 the sultan al-Salih Najm al-Din Ayyub founds the madrasa that will carry his name, in the quarter of the palaces at Bayn al-Qasrayn. Egypt is not Mamluk yet; the slave soldiers who will take the sultanate in 1250 are at this point still the sultan's own regiment. Ibn Adlan comes into it with Baghdad training, a Syrian teaching career and one small book on ciphers behind him. What the city hires him to do is teach grammar, and he will do it here for the rest of his life.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "The Madrasa of al-Salih Ayyub at Bayn al-Qasrayn, founded 1242"
+          ],
+          "sources": [
+            "Wikipedia, 'Madrasa of al-Salih Ayyub'",
+            "Wikipedia, 'Ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Cairo, the chair of Arabic at the Salihiyya",
+          "lat": 30.0444,
+          "lng": 31.2357,
+          "date": "1245-01-01",
+          "date_confidence": "the teaching post is attested without dates; the year shown marks the start of a residence that runs to his death in 1268",
+          "campa": "At the Salihiyya he teaches the Arabic language: syntax, morphology, the parsing of difficult verse, the work of a man who spends his days telling students why a word takes the ending it takes. He is one Shafi'i scholar of grammar and hadith in a city stocked with them, and from inside this room the treatise on ciphers is something he did once in Syria, for a prince who is now dead. This is the post his life is spent in, more than two decades of it. The biographical dictionaries give it one line.",
+          "quote": "He was also involved in literature and poetry, and taught on the Arabic language at the Al-Salihiyya Mosque of Cairo.",
+          "quote_source": "Wikipedia, 'Ibn Adlan', fetched 2026-08-14",
+          "suggested_refs": [
+            "The al-Salihiyya mosque and madrasa of Cairo, Ibn Adlan's teaching post"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Cairo, the sultanate changes hands",
+          "lat": 30.0294,
+          "lng": 31.2614,
+          "date": "1250-01-01",
+          "date_confidence": "the Mamluk seizure of the Egyptian sultanate is dated to 1250; the month is not specified in the sources used here, and Ibn Adlan himself appears in no account of it",
+          "campa": "The Ayyubid house that endowed his madrasa loses Egypt to its own soldiers, and the Mamluk sultanate begins around him. Ibn Adlan is sixty-three, and he appears in no account of the succession, the killings, the crusader army beaten in the Delta or the campaigns that follow. The endowment goes on paying its teachers under the new masters exactly as it did under the old, an endowment being a legal instrument rather than a loyalty. He keeps teaching Arabic at the Salihiyya.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "The Mamluk seizure of the Egyptian sultanate, 1250, and the continuity of Ayyubid religious endowments"
+          ],
+          "sources": [
+            "Wikipedia, 'Madrasa of al-Salih Ayyub'",
+            "general accounts of the Ayyubid to Mamluk transition"
+          ]
+        },
+        {
+          "name": "Cairo, in contact with rulers",
+          "lat": 30.0444,
+          "lng": 31.2357,
+          "date": "1250-06-01",
+          "date_confidence": "the tradition of contact with rulers is reported without names, occasions or dates; the year here is a marker inside the Cairo decades and carries no evidential weight",
+          "campa": "The tradition holds that he stayed in contact with rulers of his time and that the contact is where his practical experience of breaking messages came from. It does not say which rulers, which messages, or on whose behalf. Chancery correspondence in the Ayyubid and early Mamluk states travelled enciphered as ordinary practice, and a man with his reputation is the obvious one to hand an intercepted letter. Not one such letter and not one such commission is documented anywhere consulted.",
+          "quote": "He was in contact with various rulers of his time, and in this capacity he gained practical experience in cryptanalysis or the science of breaking encoded messages.",
+          "quote_source": "Wikipedia, 'Ibn Adlan', fetched 2026-08-14",
+          "suggested_refs": [
+            "Ayyubid and Mamluk chancery practice in enciphered correspondence"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Cairo, four titles and one book",
+          "lat": 30.0444,
+          "lng": 31.2357,
+          "date": "1255-01-01",
+          "date_confidence": "the lost titles are attested as titles; nothing dates their composition, and the year here is a marker only",
+          "campa": "Four works are credited to him and one has come through. Al-Mu'lam is said to have held cryptanalytic procedures and is lost. Al-Intihab li-kashf al-abyat al-mushkilat al-i'rab, on the parsing of difficult lines of verse, is lost. Uqlat al-mujtaz fi hall al-aljaz, on the untying of riddles, is lost. Of the three what remains is their titles, and for the first a single sentence in a later notice claiming what it contained. The one that came through is al-Mu'allaf lil-Malik al-Ashraf.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Al-Mu'lam, al-Intihab and Uqlat al-mujtaz, the three lost works of Ibn Adlan"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Baghdad, the sack, at a distance of a thousand miles",
+          "lat": 33.33,
+          "lng": 44.35,
+          "date": "1258-02-01",
+          "date_confidence": "the sack of Baghdad in February 1258 is attested; Ibn Adlan's absence from it is arithmetic, since he was seventy-one and resident in Cairo",
+          "campa": "Hulagu's army takes Baghdad, kills the caliph and destroys or scatters an unknown quantity of the city's books. The accounts of a river running black with ink belong partly to the literature of Mongol atrocity and not straightforwardly to the record, and the safest statement is the vague one. Ibn Adlan is seventy-one and in Cairo. Whether any copy of al-Kindi's Risala he had ever handled was in the city that week is unrecorded. The tradition came through because it had already been copied somewhere else.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Michal Biran on the black-river and books-as-bridges accounts of 1258 as a literary trope"
+          ],
+          "sources": [
+            "Wikipedia, 'House of Wisdom'",
+            "Wikipedia, 'Siege of Baghdad (1258)'"
+          ]
+        },
+        {
+          "name": "Cairo, death in 666 of the Hijra",
+          "lat": 30.0444,
+          "lng": 31.2357,
+          "date": "1268-01-01",
+          "date_confidence": "the year 666 AH / 1268 CE is attested in both encyclopedia traditions; no month or day is recorded, so the date defaults to 1 January",
+          "campa": "He dies at Cairo in 666 of the Hijra, about eighty-one years old, still holding the teaching post. He had come to the city as a Syrian scholar in his fifties, more than twenty years earlier, and stayed until he was the oldest grammarian in it. Behind him are four books, of which one survives, the treatise written for a prince of Ayyubid Syria. The dictionaries record the year and stop there: no illness named, no last words, no gathering of students at the bedside, no successor appointed to the chair.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Arabic biographical dictionaries recording the death year 666 AH, probably descending from al-Suyuti's Bughyat al-wu'ah"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'",
+            "Arabic Wikipedia, 'Ali ibn Adlan'"
+          ]
+        },
+        {
+          "name": "Al-Qarafa, a grave that is not recorded",
+          "lat": 30.027,
+          "lng": 31.274,
+          "date": "1268-02-01",
+          "date_confidence": "reconstruction. No source consulted names a burial place for Ibn Adlan; the southern cemetery is offered as the ordinary district for scholars of his city and century, and nothing more",
+          "campa": "Where he is buried is not written down in anything reachable. Cairo's southern cemetery, al-Qarafa, is where scholars of the Ayyubid and early Mamluk city were ordinarily laid, and it stands here as a plausible district rather than a site. There is no tomb, no shrine, no visitation, no legend fastened to his name. Arabic biographical dictionaries that could not be consulted may hold the detail. The English-language record stops at the year of death.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Al-Qarafa, the southern cemetery of Cairo; no grave of Ibn Adlan is identified there or anywhere"
+          ],
+          "sources": [
+            "stated gap; no source names the burial place"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Line After Him",
+      "stops": [
+        {
+          "name": "Cairo, the copyists' market",
+          "lat": 30.0475,
+          "lng": 31.261,
+          "date": "1300-01-01",
+          "date_confidence": "reconstruction. No transaction, copyist or owner's note is documented; the route is inferred from how Mamluk-era books generally moved, and the date is a century marker",
+          "campa": "Copies of the treatise pass through the copyists and booksellers of Mamluk Cairo in the century after his death. A working manuscript in this trade is dictated, checked against its exemplar, sold, and copied again by the buyer if he can afford the paper. Men writing a century later quote the book, so copies of it were in the trade; beyond that the route is inferred from how Mamluk books moved in general. No copyist of this one is named, no sale recorded, no owner's note on a surviving leaf traced back as far as the fourteenth century.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Mamluk Cairo's warraqin, the copyists and booksellers through whom scholarly texts circulated"
+          ],
+          "sources": [
+            "Al-Kadi 1992",
+            "general accounts of Mamluk manuscript culture"
+          ]
+        },
+        {
+          "name": "Mosul, Ibn al-Durayhim born in the same city",
+          "lat": 36.3431,
+          "lng": 43.1267,
+          "date": "1312-01-01",
+          "date_confidence": "the birth in Sha'ban 712 AH / 1312 CE is attested; the birthplace is inferred from the nisba al-Mawsili rather than stated outright in the sources consulted",
+          "campa": "A hundred and twenty-five years after Ibn Adlan is born at Mosul, Ali ibn Muhammad ibn al-Durayhim is born there too, in Sha'ban of 712. His cryptology, when he comes to write it, will rest on two men by name: al-Kindi for the method, Ibn Adlan for the statistics that told a solver when the method could be trusted. The birthplace itself is an inference from his nisba, al-Mawsili, rather than a statement in the sources. Later writers note the shared town and offer no explanation for it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Ibn al-Durayhim al-Mawsili, second Mosul cryptologist of the lineage"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn al-Durayhim'",
+            "Wikipedia, 'History of cryptography'"
+          ]
+        },
+        {
+          "name": "Mardin, a stretch nobody documented",
+          "lat": 37.3131,
+          "lng": 40.735,
+          "date": "1335-01-01",
+          "date_confidence": "reconstruction. No source found places Ibn al-Durayhim at Mardin in the 1330s; the association comes from general biographical notice and the decade is a guess inside his working life",
+          "campa": "He works for a time at Mardin, the Artuqid fortress town on its rock above the Mesopotamian plain, which will stay in Artuqid hands until 1408 and looks south over the country his own city sits in. Then the larger Mamluk centres pull him west and he goes. Nothing is fixed about this stretch of his life beyond the place name, and even that arrives through general biographical notice rather than through a document. No year is attached to it, no employer, no work written there.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Artuqid Mardin, capital until 1408, as a station in Ibn al-Durayhim's career"
+          ],
+          "sources": [
+            "general biographical notices on Ibn al-Durayhim"
+          ]
+        },
+        {
+          "name": "Damascus, the scribe's desk",
+          "lat": 33.5119,
+          "lng": 36.3067,
+          "date": "1345-01-01",
+          "date_confidence": "reconstruction. The scribal work under Mamluk administration is reported without dates; the decade shown is inferred from his lifespan",
+          "campa": "In Damascus he works as a scribe in the Mamluk administration, which means daily contact with seals, ciphers, and the ordinary need to stop a letter from being read by the man carrying it. His contribution comes out of that office rather than out of a lecture hall: tables of letter frequency, lists of the letter pairs Arabic will not produce, and the earliest known suggestion of a substitution tableau. Vigenere describes the same device in the sixteenth century, and the table is named after him.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Ibn al-Durayhim's tableau, the earliest known, predating Vigenere by two centuries"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn al-Durayhim'",
+            "Wikipedia, 'History of cryptography'"
+          ]
+        },
+        {
+          "name": "Qalqashanda, a name from a Delta village",
+          "lat": 30.3167,
+          "lng": 31.3333,
+          "date": "1355-01-01",
+          "date_confidence": "the birth year is given as 1355 or 1355/56 across sources; no day or month is recorded",
+          "campa": "Ahmad al-Qalqashandi is born in a Delta village north of Cairo, on the agricultural belt of the Nile, and takes his name from it. He will become a chancery secretary, Katib al-Darj, and will write the reference manual his own profession needed, fourteen volumes of protocol and drafting, which historians of cryptography now open for a reason that would have surprised the men it was written for. His birth year is given as 1355 in some sources and 1355 or 1356 in others. No day and no month are recorded.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Qalqashanda, Qalyubia, birthplace of the encyclopedist"
+          ],
+          "sources": [
+            "Wikipedia, 'Al-Qalqashandi'",
+            "Wikipedia, 'History of cryptography'"
+          ]
+        },
+        {
+          "name": "Cairo, a book found and still unread",
+          "lat": 30.045,
+          "lng": 31.26,
+          "date": "1359-01-01",
+          "date_confidence": "the death year is given variously as 1359, 1361 and 1362 across the encyclopedia entries; no source consulted states the place of death, and Cairo here follows the Mamluk chancery career rather than a citation",
+          "campa": "Ibn al-Durayhim dies in 1359, or in 1361, or in 1362, according to which tradition is followed, and no source consulted names the city he died in. His cipher book was listed as lost for a long time, and one standard reference still says so. It has in fact been found, and it remains unpublished: a treatise that survives, is known to survive, is catalogued, and still cannot be read by the field that most wants to read it. The two encyclopedia articles contradict each other on this point, and neither has been corrected against the other.",
+          "quote": "His book entitled Clear Chapters Goals and Solving Ciphers (مقاصد الفصول المترجمة عن حل الترجمة) was recently discovered, but has yet to be published. It includes the use of the statistical techniques pioneered by Al-Kindi and Ibn 'Adlan.",
+          "quote_source": "Wikipedia, 'Ibn al-Durayhim', fetched 2026-08-14, cited there to Broemeling, 'An Account of Early Statistical Inference in Arab Cryptology', The American Statistician 65:4 (2011), 255-257",
+          "suggested_refs": [
+            "Maqasid al-fusul al-mutarjama an hall al-tarjama, rediscovered and unpublished"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn al-Durayhim'",
+            "Arabic Wikipedia, 'Ibn al-Durayhim'"
+          ]
+        },
+        {
+          "name": "Cairo, Subh al-A'sha finished",
+          "lat": 30.0294,
+          "lng": 31.2614,
+          "date": "1412-01-01",
+          "date_confidence": "the completion of Subh al-A'sha in 1412 is attested; al-Qalqashandi is identified as Katib al-Darj of the Mamluk chancery at Cairo, but no source consulted places his work at the Citadel specifically",
+          "campa": "Al-Qalqashandi finishes Subh al-A'sha, fourteen volumes for the use of secretaries, covering protocol, geography, titles, postal routes and the drafting of every document a Mamluk chancery issues. One section is on ciphers: substitution, transposition, and the assignment of several symbols to a single letter so that its frequency flattens out, which is the direct countermeasure to the counting Ibn Adlan had put a floor under. He writes with al-Kindi almost six centuries behind him and Ibn Adlan under two.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Subh al-A'sha fi Sina'at al-Insha, completed 1412, and its cryptology section"
+          ],
+          "sources": [
+            "Wikipedia, 'Al-Qalqashandi'",
+            "Wikipedia, 'History of cryptography'"
+          ]
+        },
+        {
+          "name": "Cairo, the name that drops out of the citation",
+          "lat": 30.0455,
+          "lng": 31.261,
+          "date": "1418-01-01",
+          "date_confidence": "the death year 1418 is attested; the day is not recorded in the sources consulted",
+          "campa": "Al-Qalqashandi dies at Cairo, the last of the three names historians of Arabic cryptology usually list after al-Kindi. Inside his encyclopedia the material descending from Ibn Adlan arrives through Ibn al-Durayhim, who is named in it. Ibn Adlan, in the citations that survive, is not. The rule about ninety letters travels forward anyway, carried in someone else's chapter and attached to someone else's name. Whether al-Qalqashandi knew whose rule it had been, the surviving text does not show.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "The transmission chain al-Kindi to Ibn Adlan to Ibn al-Durayhim to al-Qalqashandi, with Ibn Adlan unnamed in the surviving citations"
+          ],
+          "sources": [
+            "Wikipedia, 'Al-Qalqashandi'",
+            "Al-Kadi 1992"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Manuscript Reopened",
+      "stops": [
+        {
+          "name": "Istanbul, the copy in the Suleymaniye",
+          "lat": 41.0161,
+          "lng": 28.9639,
+          "date": "1987-01-01",
+          "date_confidence": "the presence of the manuscript in the Suleymaniye collection is attested; nothing records when it entered the library, and the date shown is that of the modern edition made from it",
+          "campa": "One copy of al-Mu'allaf lil-Malik al-Ashraf ends up in Istanbul, in the Suleymaniye collection on the third hill above the Golden Horn, catalogued and unread. The same collection holds the manuscripts of al-Kindi's Risala, four centuries older in the writing and a few shelves away in the stacks. No autograph in Ibn Adlan's hand is known anywhere; what sits on the shelf is a copy of a copy. The chain that carried it out of Cairo is not traced in anything reachable.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "The Suleymaniye Library, Fatih, Istanbul, holding both al-Kindi's Risala and Ibn Adlan's treatise"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'",
+            "Wikipedia, 'Al-Qalqashandi'"
+          ]
+        },
+        {
+          "name": "Damascus, the critical edition",
+          "lat": 33.5138,
+          "lng": 36.2765,
+          "date": "1987-06-01",
+          "date_confidence": "the 1987 Damascus edition is attested; no month is recorded, and the month shown here is arbitrary within the year",
+          "campa": "Mrayati, Meer Alam and al-Tayyan publish the critical edition at Damascus, in the first volume of Ilm at-Ta'miyah wa Istikhraj al-Mu'amma Ind al-Arab, the origins of Arab cryptography and cryptanalysis, issued through the Arab Academy. The treatise becomes readable for the first time in seven hundred years. Five years later Ibrahim al-Kadi surveys the whole Arabic tradition for Cryptologia, a field that had until then dated statistical cryptanalysis to the European Renaissance. His paper runs from page 97 to page 126.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "Mrayati, Meer Alam and al-Tayyan, Ilm at-Ta'miyah wa Istikhraj al-Mu'amma Ind al-Arab, vol. I (Damascus, 1987)"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan'",
+            "Al-Kadi, Cryptologia 16:2 (1992), 97-126, DOI 10.1080/0161-119291866801"
+          ]
+        },
+        {
+          "name": "Riyadh, translated into English at last",
+          "lat": 24.7136,
+          "lng": 46.6753,
+          "date": "2004-01-01",
+          "date_confidence": "the year 2004 is attested for the English translation; no month is given, and the coordinates point at the city rather than at the publishing institution's building",
+          "campa": "The Damascus edition is translated into English and issued as the second volume of the Series on Arabic Origins of Cryptology, by the King Faisal Center for Research and Islamic Studies with King Abdulaziz City for Science and Technology. Said al-Asaad translates; al-Suwaiyel, al-Kadi and al-Bawab revise. Seven hundred and seventy years after a grammarian in Ayyubid Syria wrote down how much ciphertext a solver actually needs, the sentence can be read in English. The year is 2004.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": [
+            "ibn 'Adlan's Treatise al-mu'allaf lil-malik al-'Asraf, tr. Said M. al-Asaad, Series on Arabic Origins of Cryptology vol. 2 (Riyadh: King Faisal Center and KACST, 2004), ISBN 9960-890-18-X"
+          ],
+          "sources": [
+            "Wikipedia, 'Ibn Adlan', bibliography"
+          ]
+        }
+      ]
+    }
+  ]
+}
