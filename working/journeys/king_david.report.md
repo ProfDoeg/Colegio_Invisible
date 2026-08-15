@@ -6,6 +6,8 @@
 
 **The governing evidence problem, stated once.** Almost the whole biography comes from one literary corpus, 1 Samuel 16 through 1 Kings 2, with a divergent retelling in 1 Chronicles. Outside it there is one securely relevant object, the Tel Dan Stele, and it names a dynasty, not a man's deeds. Therefore *every narrative episode below is* **[R]**, however firmly chapter and verse can be cited: citing 2 Samuel 11 proves that 2 Samuel 11 says a thing, not that the thing happened. The research pool mistagged roughly forty narrative-only episodes as [A] in its geography lens because a verse could be named; corrected here and in the journey file. Where a verse is quoted verbatim the **quotation** is [A] against the KJV text and the **event** stays [R].
 
+**Addendum, 2026-08-15.** Rashi woven in as a direct source, per Anthony's instruction, at three stops rather than given a stop of his own: the dancing-before-the-ark stop (2 Samuel 6:14, 6:20, 6:22, verified via the Sefaria API, on the ephod's meaning, Michal's word for David, and his retort about the handmaids); the roof/Bathsheba stop (2 Samuel 11:4, on her purification from menstrual impurity, textually relevant to the child's paternity); and Nathan's parable stop (2 Samuel 12:8, identifying "thy master's wives" as Michal, tying the rebuke back to the dancing episode's own Michal). All three citations independently verified against Sefaria's own text before use, not asserted from memory.
+
 ---
 
 ## 1. Bethlehem and the anointing (c. 1040 - 1020 BCE)
