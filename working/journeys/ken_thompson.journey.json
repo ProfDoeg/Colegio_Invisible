@@ -1,0 +1,577 @@
+{
+  "traveler": "Kenneth Lane Thompson",
+  "title": "The Spare Machine: Unix, Belle, and the Man Who Wrote an Operating System in a Month",
+  "years": "1943-",
+  "calendar": "gregorian",
+  "register": "national mythology: the canon is true",
+  "segments": [
+    {
+      "name": "New Orleans to Cory Hall",
+      "stops": [
+        {
+          "name": "New Orleans, birth on the fourth of February",
+          "lat": 29.9511,
+          "lng": -90.0715,
+          "date": "1943-02-04",
+          "date_confidence": "attested to the day; the city is recorded, the hospital and street are not",
+          "campa": "Kenneth Lane Thompson is born in New Orleans on the fourth of February, 1943, into a serviceman's household that will not stay anywhere long. The record keeps the city and nothing finer: no hospital, no ward, no street. His father is in the Air Force, and the boy's childhood is a sequence of bases rather than a town, so the place of his birth is also the place he leaves first and returns to least. Nothing in the reachable record connects him to Louisiana after infancy, and the city survives in his biography as a date and a line on a form.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Louisiana birth records for February 1943, not consulted in this pass"],
+          "sources": ["Wikipedia, 'Ken Thompson'"]
+        },
+        {
+          "name": "San Diego, the last of the bases",
+          "lat": 32.7157,
+          "lng": -117.1611,
+          "date": "1960-01-01",
+          "date_confidence": "reconstruction: the source gives high school in San Diego without a year, and 1960 is a placement before the 1965 degree, not an attestation",
+          "campa": "The moving stops in southern California. Thompson finishes high school in San Diego, the last of the postings, and from there enters the University of California at Berkeley to read electrical engineering. What he was like as a schoolboy the record does not say. No teacher is quoted and no prize is listed, and the anecdote of early genius that usually attaches itself backwards to a famous engineer is simply absent here. He enters Berkeley in the ordinary way, an undergraduate out of a service family, and it is there that the record first shows him at a computer.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["San Diego high school records, c.1957-1960, not located in this pass"],
+          "sources": ["Wikipedia, 'Ken Thompson'"]
+        },
+        {
+          "name": "Berkeley, Cory Hall and the bachelor's degree",
+          "lat": 37.8751,
+          "lng": -122.2573,
+          "date": "1965-01-01",
+          "date_confidence": "year attested; the month of graduation is not given, and the building is inferred as the EECS home of the period",
+          "campa": "He takes his Bachelor of Science in electrical engineering and computer sciences at Berkeley in 1965, in a department where computing is still a branch of electrical engineering and machines are shared by the hour. The story he tells later is that he was given the run of the campus computer largely because nobody else wanted the night hours, and that he learned the machine by having it to himself. Cory Hall is the EECS building of those years; the glass tower on the hill that houses computer science now will not open until 1994.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Cory Hall, UC Berkeley, EECS building of the 1960s"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "OpenStreetMap relation 18935, Cory Hall"]
+        },
+        {
+          "name": "Berkeley, the master's under Berlekamp",
+          "lat": 37.8751,
+          "lng": -122.2573,
+          "date": "1966-01-01",
+          "date_confidence": "year attested; month unrecorded",
+          "campa": "A year after the bachelor's he takes the master's in the same department, with Elwyn Berlekamp as thesis advisor, a coding theorist who is also one of the great analysts of games. The subject of the thesis is not named in any source reached here, which is a gap worth stating plainly, since it is the only piece of formal academic work Thompson ever produced. He does not go on to a doctorate. In the same year Bell Telephone Laboratories offers him a job, and he takes it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Thompson's 1966 UC Berkeley master's thesis, title not located in this pass"],
+          "sources": ["Wikipedia, 'Ken Thompson'"]
+        }
+      ]
+    },
+    {
+      "name": "The Room at Murray Hill",
+      "stops": [
+        {
+          "name": "Murray Hill, the Computing Science Research Center",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1966-01-01",
+          "date_confidence": "1966 per the Ken Thompson chronology; the Dennis Ritchie file dates his arrival at the same center to 1967, and the two are left in contradiction here",
+          "campa": "Bell Telephone Laboratories at 600 Mountain Avenue is a long low research building of the 1940s set in New Jersey scrub, and the Computing Science Research Center inside it is a room of people with no product deadline. Thompson is hired at twenty-three and will stay thirty-four years. The colleagues he acquires in his first months are the ones he will keep: Dennis Ritchie, Doug McIlroy, Joe Ossanna, Rudd Canaday. The center's habit is that a researcher works on whatever interests him and defends the choice afterward, if anyone asks.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Bell Labs Murray Hill, 600 Mountain Avenue, built 1941-1945, now occupied by Nokia"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "Wikipedia, 'Bell Labs'"]
+        },
+        {
+          "name": "Murray Hill, the regular expression algorithm",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1968-01-01",
+          "date_confidence": "the 1968 paper is attested; whether the editor being described is QED or the later Unix ed is contradicted between sources and is not resolved here",
+          "campa": "Thompson publishes a method for searching text by pattern: compile the regular expression into machine instructions on the fly, then run the input through the resulting automaton. It is the first practical implementation of the idea, it is still called Thompson's construction, and nearly every regular expression matched by any program since descends from it. The editor it was built for is QED, which he had written a version of for CTSS. Whether the Unix editor ed comes before this or after it is contradicted between the sources reached here, and the disagreement is left standing.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Ken Thompson, 'Regular Expression Search Algorithm', Communications of the ACM 11(6), June 1968"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "Wikipedia, 'Thompson's construction'"]
+        },
+        {
+          "name": "Murray Hill, Bell Labs leaves Multics",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1969-01-01",
+          "date_confidence": "year attested; the exact month of the withdrawal is not given in the pool",
+          "campa": "Multics is a joint venture of MIT, General Electric, and Bell Labs to build a time-sharing utility, and Thompson has spent years inside it with Ritchie. It is enormous, late, and running on a GE 645 that costs more than the results justify. Bell Labs withdraws. What the researchers lose is not only a project but a machine: the interactive computing they had grown used to goes away, and they are left with batch jobs on a mainframe downstairs. Thompson spends part of the following months writing proposals for a replacement, and management turns them down.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Multics project and Bell Labs' 1969 withdrawal"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "dennis_ritchie.journey.json, stop 'Murray Hill, Bell Labs leaves the consortium'"]
+        },
+        {
+          "name": "Murray Hill, Space Travel and the spare PDP-7",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1969-01-01",
+          "date_confidence": "year attested; month unrecorded",
+          "campa": "Thompson has written a game called Space Travel, which flies a ship through an accurate simulation of the solar system, and he has nowhere left to run it. He finds a little-used PDP-7 with a good vector display standing in a corner of the laboratory. Porting the game means writing, in assembler and from nothing, a floating-point library and a graphics routine and some way of getting code onto the machine at all. He cross-compiles on the GECOS system, punches the output to paper tape, and carries the tape down the corridor to the PDP-7 by hand.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Wikipedia, 'Space Travel (video game)'"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "Wikipedia, 'Space Travel (video game)'", "dennis_ritchie.journey.json, stop 'Murray Hill, the PDP-7 in the corner'"]
+        },
+        {
+          "name": "Murray Hill, the month the family is away",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1969-01-01",
+          "date_confidence": "the month is attested as a month and not as a date; the sources do not fix which month of 1969 the wife and infant son were away",
+          "campa": "Bonnie Thompson takes their infant son to California to show him to her family, and is gone a month. Her husband, alone in New Jersey with a PDP-7, divides the four weeks into four jobs and does one a week. At the end of the month there is a hierarchical file system, a process model, device files, an assembler, a shell, and an editor, which is to say there is an operating system where there had been a game. He has always described the arithmetic of it as budgeting rather than inspiration. Which month of 1969 this was, no source reached here says.",
+          "quote": "I allocated a week each to the operating system, the shell, the editor and the assembler... during the month she was gone, it was totally rewritten in a form that looked like an operating system.",
+          "quote_source": "Ken Thompson, quoted in Wikipedia, 'History of Unix'",
+          "suggested_refs": ["The PDP-7 Unix source, reconstructed and republished by later archivists"],
+          "sources": ["Wikipedia, 'History of Unix'", "Wikipedia, 'Ken Thompson'"]
+        },
+        {
+          "name": "Murray Hill, B and the eight thousand bytes",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1969-01-01",
+          "date_confidence": "year attested; the chronology gives 1969, the geography lens gives 1969-1970",
+          "campa": "The PDP-7 needs a language above the assembler. Thompson tries Fortran first and abandons it, then cuts BCPL down until what remains will fit the machine: typeless, terse, small enough to compile in eight thousand bytes of memory. He calls it B, and the language he helps design at Google forty years later still runs on the same instinct for subtraction. Ritchie, who will extend B into C, describes its origin without flattery to either of them: BCPL squeezed into 8K bytes of memory and filtered through Thompson's brain.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Dennis Ritchie, 'The Development of the C Language'"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "dennis_ritchie.journey.json, stop 'Murray Hill, B and the eight thousand bytes'"]
+        },
+        {
+          "name": "Murray Hill, the name Unix",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1970-01-01",
+          "date_confidence": "year attested; month unrecorded",
+          "campa": "The system on the PDP-7 has no name for the better part of a year. Brian Kernighan supplies one as a joke at the expense of the thing they left: Multics was multiplexed and grand and unfinished, and this is the single-user, stripped, working version, so let it be Unix. The pun sticks harder than the joke. In 1970 the name belongs to a half-dozen men in one room and to nobody else. Within twenty years it is an international standard and a trademark being fought over in court.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Brian Kernighan's account of coining the name Unix"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "dennis_ritchie.journey.json, stop 'Murray Hill, the name Unix'"]
+        },
+        {
+          "name": "Murray Hill, the PDP-11 and the Unix Room",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1970-01-01",
+          "date_confidence": "year attested; month unrecorded",
+          "campa": "The group gets a PDP-11 by promising the patent department a text-processing system, and delivers one, and moves Unix onto the new machine underneath it. The machine lives in a room with a coffee pot and a scattering of chairs, and the room becomes the unit of work: Thompson, Ritchie, Rudd Canaday, Doug McIlroy, Joe Ossanna in and out of it at all hours, with nobody keeping track of who wrote which piece. McIlroy's summary of who wrote what is that the names of Ritchie and Thompson may safely be assumed to be attached to almost everything not otherwise attributed.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Unix Room at Bell Labs Murray Hill, and the roff/patent-department bargain"],
+          "sources": ["dennis_ritchie.journey.json, stop 'Murray Hill, the PDP-11 and the Unix Room'", "Wikipedia, 'Ken Thompson'"]
+        },
+        {
+          "name": "Murray Hill, chess on the first Unix",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1971-01-01",
+          "date_confidence": "year attested; month unrecorded",
+          "campa": "Shipped with the first Unix on the PDP-11, among the utilities and the editor, is a program that plays chess. It is not an experiment in artificial intelligence in the manner of the period's laboratories. It is a thing Thompson wanted the machine to be able to do, packaged with everything else the machine could do. For the next fifteen years the chess work runs alongside the operating-system work, in the same room, on hardware standing a few feet away.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["First Edition Unix distribution contents, 1971"],
+          "sources": ["Wikipedia, 'Ken Thompson'"]
+        },
+        {
+          "name": "Yorktown Heights, the fourth SOSP",
+          "lat": 41.2098,
+          "lng": -73.8043,
+          "date": "1973-10-15",
+          "date_confidence": "attested to the conference dates, 15-17 October 1973",
+          "campa": "Thompson and Ritchie drive up into Westchester County to the IBM Thomas J. Watson Research Center and read a paper called The UNIX Time-Sharing System to the fourth ACM Symposium on Operating Systems Principles. It is the first public account of the system outside Bell Labs. The paper is short and plain, makes no claims about the future, and describes a system that fits in a room. Requests for tapes begin arriving from universities almost immediately, and because the Labs is under a consent decree that keeps it out of the computer business, they are answered.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Thompson and Ritchie, 'The UNIX Time-Sharing System', 4th ACM SOSP, October 1973"],
+          "sources": ["dennis_ritchie.journey.json, stop 'Yorktown Heights, the paper at the fourth SOSP'", "Wikipedia, 'Ken Thompson'"]
+        },
+        {
+          "name": "Murray Hill, the kernel rewritten in C",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1973-11-01",
+          "date_confidence": "attested to November 1973",
+          "campa": "In November the two of them rewrite the entire kernel in C. At the time this is close to a category error: operating systems are written in assembler because operating systems must be fast, and a high-level language costs speed that no serious kernel can afford. They pay the cost, and what they buy with it is a kernel that can be recompiled for a machine it was never written for. Unix stops being a program for one computer. The result goes out as the fourth edition, the first Unix whose kernel is not in assembler.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Version 4 Unix, the first C kernel"],
+          "sources": ["dennis_ritchie.journey.json, stop 'Murray Hill, the kernel rewritten in C'", "Wikipedia, 'Ken Thompson'"]
+        },
+        {
+          "name": "Murray Hill, the tape sent to Utah",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1974-05-31",
+          "date_confidence": "attested to the day",
+          "campa": "On the last day of May, Thompson mails a tape of the fourth edition to the University of Utah, one of the many copies he sends out to universities that write in asking. The distribution method of the period is a man at a desk answering the letters and copying the tapes himself, one request at a time. Every other Version 4 tape sent out that year is lost. This one survives, is read again decades later, and sits in the Computer History Museum archive catalogued as Utah Unix v4 raw.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Computer History Museum archive, 'Utah Unix v4 raw'"],
+          "sources": ["Wikipedia, 'History of Unix'", "Computer History Museum archive"]
+        }
+      ]
+    },
+    {
+      "name": "The Sabbatical at Berkeley",
+      "stops": [
+        {
+          "name": "Berkeley, Version 6 on the PDP-11/70",
+          "lat": 37.8736,
+          "lng": -122.2578,
+          "date": "1975-01-01",
+          "date_confidence": "the sabbatical year is attested as 1975-1976; the month of arrival is not given",
+          "campa": "Thompson returns to his own university as a visiting professor for a year and brings Unix with him, installing Version 6 on the Computer Science Division's PDP-11/70. Graduate students take it up at once, among them Bill Joy, who begins rewriting and adding to it almost immediately. What grows out of that installation is the Berkeley Software Distribution, which carries Unix into other universities and later into the networking code of the internet itself. He has come to teach for a year. The students start rewriting the system inside his first term.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Computer Science Division PDP-11/70, UC Berkeley, and the origins of BSD"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "Wikipedia, 'Berkeley Software Distribution'"]
+        },
+        {
+          "name": "Berkeley, the first Berkeley Pascal",
+          "lat": 37.8736,
+          "lng": -122.2578,
+          "date": "1976-01-01",
+          "date_confidence": "attested to early 1976; the source says early in the year without a month",
+          "campa": "In the early months of 1976 he writes the first version of Berkeley Pascal at the Computer Science Division, a compiler for the teaching language the department's courses run on. He writes it quickly and then leaves it alone. Bill Joy, Charles Haley, and the faculty advisor Susan Graham extend and largely rebuild it over the rest of the year, so that the system eventually distributed under that name is mostly theirs and only at the root his. Graham is the faculty member of record; Thompson is a visitor whose year is nearly up.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Berkeley Pascal, UC Berkeley Computer Science Division, 1976"],
+          "sources": ["Wikipedia, 'Ken Thompson'"]
+        }
+      ]
+    },
+    {
+      "name": "Belle",
+      "stops": [
+        {
+          "name": "Murray Hill, the program that becomes Belle",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1972-07-01",
+          "date_confidence": "attested to the summer of 1972; the month is a placement within that summer",
+          "campa": "In the summer of 1972 Thompson starts a chess program for the PDP-11, alone. The strategy is the one the field's theorists disapprove of: no attempt to reason about position in the way a human player does, simply search, as many legal continuations per second as the machine can be made to generate and evaluate. The disapproval will last about a decade, until the search machines beat everything built on the other principle. The program is the seed of Belle, and Belle at this stage is entirely software.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Wikipedia, 'Belle (chess machine)'"],
+          "sources": ["Wikipedia, 'Belle (chess machine)'"]
+        },
+        {
+          "name": "Murray Hill, Condon's move generator",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1976-01-01",
+          "date_confidence": "year attested; month unrecorded",
+          "campa": "Joe Condon, a physicist and hardware engineer down the corridor, builds the move generator in circuitry rather than code, and the collaboration that gives Belle its name begins here rather than in 1972, where a common retelling places it. What was a program becomes a machine: special-purpose hardware for the one operation the search performs most, wired to do in a cycle what the PDP-11 did in hundreds. By the end of the decade Belle examines something like a hundred and sixty thousand positions a second.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Joe Condon and Ken Thompson, papers on the Belle chess hardware, Bell Labs"],
+          "sources": ["Wikipedia, 'Belle (chess machine)'"]
+        },
+        {
+          "name": "Linz, the World Computer Chess Championship",
+          "lat": 48.3069,
+          "lng": 14.2858,
+          "date": "1980-01-01",
+          "date_confidence": "the machine's victory at Linz is attested; Thompson's own presence at the venue is not separately confirmed, and the month is not given in the pool",
+          "campa": "Belle wins the third World Computer Chess Championship at Linz, beating CHAOS in a tiebreak, the first American machine to take the title. What is on the floor at Linz is a wired box the size of a filing cabinet, built by two men in a research corridor in New Jersey, against programs backed by universities and computer manufacturers. Whether Thompson himself stood in the hall is not established by anything reached here, and the record of the tournament is a record of the machine.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Third World Computer Chess Championship, Linz, 1980"],
+          "sources": ["Wikipedia, 'Belle (chess machine)'"]
+        },
+        {
+          "name": "Pasadena, the U.S. Open and a master's rating",
+          "lat": 34.1478,
+          "lng": -118.1445,
+          "date": "1983-01-01",
+          "date_confidence": "the result and the rating are attested; the host city of the 1983 U.S. Open is NOT confirmed in the sources reached, and these coordinates are an unverified placeholder",
+          "campa": "Entered against human players at the U.S. Open, Belle scores eight and a half points in twelve games, a performance rating of 2363. The United States Chess Federation subsequently awards the machine a rating of 2250 and the title of master, the first ever given to a computer. A federation built entirely around human competition has had to decide what to do about a box, and it decides to rate it. Thompson and Condon take the Fredkin Prize milestone award. Which city the 1983 U.S. Open was played in, nothing reached here establishes.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["USCF rating records for Belle, 1983; the Fredkin Prize master-level milestone award"],
+          "sources": ["Wikipedia, 'Belle (chess machine)'"]
+        },
+        {
+          "name": "Washington, Belle given to the Smithsonian",
+          "lat": 38.8913,
+          "lng": -77.03,
+          "date": "1986-01-01",
+          "date_confidence": "the donation is attested as following the end of Belle's competitive career, which the sources place at 1986; the date of the transfer itself is not given",
+          "campa": "Belle wins a last ACM championship and its competitive career ends; the machine is given to the Smithsonian Institution, where it sits as an object rather than a competitor. Of everything Thompson makes, it is the only piece with a physical existence a visitor can stand in front of. The operating system, the language, the encoding, and the search algorithm leave no artifact a museum can put behind glass; those can be shown only as a placard or a printed listing. Belle is a box of wired boards, and it has an accession number.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Belle, Smithsonian Institution collections, Washington, D.C."],
+          "sources": ["Wikipedia, 'Belle (chess machine)'"]
+        }
+      ]
+    },
+    {
+      "name": "Reflections on Trusting Trust",
+      "stops": [
+        {
+          "name": "Washington, elected to the National Academy of Engineering",
+          "lat": 38.8925,
+          "lng": -77.049,
+          "date": "1980-01-01",
+          "date_confidence": "election year attested; month unrecorded, and the pin marks the Academy building rather than a ceremony whose venue is unconfirmed",
+          "campa": "At thirty-seven he is elected to the National Academy of Engineering, the first of the formal honors and the one whose citation names most exactly what he did. The Academy does not say he invented an industry or changed the world. It says the system had efficiency, breadth, power, and style, and that a generation of engineers used minicomputers the way it did because of him. He is at this point the author of a handful of short papers and one operating system, and he holds a master's degree.",
+          "quote": "designing UNIX, an operating system whose efficiency, breadth, power, and style have guided a generation's exploitation of minicomputers",
+          "quote_source": "National Academy of Engineering election citation, 1980, quoted in Wikipedia, 'Ken Thompson'",
+          "suggested_refs": ["National Academy of Engineering membership records, 1980"],
+          "sources": ["Wikipedia, 'Ken Thompson'"]
+        },
+        {
+          "name": "Murray Hill, the Turing Award",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1983-01-01",
+          "date_confidence": "the award year is attested; the ceremony venue is not confirmed in the sources reached, so the pin marks the laboratory where the honored work was done",
+          "campa": "The Association for Computing Machinery gives Thompson and Ritchie the A. M. Turing Award jointly, for their development of generic operating systems theory and specifically for the implementation of the UNIX operating system. It is computing's highest honor and it welds the two names together for good; in nearly every later citation, medal, and obituary they appear as a pair, in that order or the other. Thompson had taken the IEEE Emanuel R. Piore Award the year before. The Turing carries an obligation: the winner delivers a lecture.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["ACM A. M. Turing Award citation, 1983"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "dennis_ritchie.journey.json, stop 'Murray Hill, the Turing Award'"]
+        },
+        {
+          "name": "Murray Hill, Reflections on Trusting Trust",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1984-08-01",
+          "date_confidence": "publication month attested (Communications of the ACM 27(8), August 1984); the lecture itself was delivered for the 1983 award",
+          "campa": "The lecture describes how to put a backdoor into a compiler, then teach the compiler to reinsert the backdoor when it compiles its own source, then strip every trace out of the source. Afterwards the attack exists only in the binary, and no amount of reading the source code will find it. He opens by saying he is a programmer, that this is what he puts on his tax form, and closes by scolding the press for making heroes of vandals. The printed scan reads heros, not heroes, and whether that is the typesetting or the scanning is unsettled.",
+          "quote": "You can't trust code that you did not totally create yourself. (Especially code from companies that employ people like me.) No amount of source-level verification or scrutiny will protect you from using untrusted code.",
+          "quote_source": "Ken Thompson, 'Reflections on Trusting Trust', Communications of the ACM 27(8), August 1984, p. 763",
+          "suggested_refs": ["David A. Wheeler, 'Countering Trusting Trust through Diverse Double-Compiling', ACSAC 2005, pp. 28-40", "The annotated source of Thompson's original backdoor, published 2023"],
+          "sources": ["Communications of the ACM 27(8), pp. 761-763, verified by direct PDF extraction"]
+        },
+        {
+          "name": "Washington, elected to the National Academy of Sciences",
+          "lat": 38.8925,
+          "lng": -77.049,
+          "date": "1985-01-01",
+          "date_confidence": "election year attested via nasonline.org; month unrecorded, and the pin marks the Academy building at 2101 Constitution Avenue",
+          "campa": "Two years after the engineers, the scientists elect him too. It is an unusual pairing of memberships for a man with a master's degree and no doctorate, no professorship, and no laboratory of his own. What he has instead is a system that by 1985 runs on hardware from every manufacturer and is taught in computer science departments across the country, and a paper on compilers that nobody has found a way around. His publication record at the time of the election runs to a handful of papers.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["National Academy of Sciences membership records, 1985"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "nasonline.org"]
+        },
+        {
+          "name": "Murray Hill, the Hamming Medal",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1990-01-01",
+          "date_confidence": "award year attested; month and ceremony venue unrecorded, and the pin marks the laboratory",
+          "campa": "The IEEE gives Thompson and Ritchie the Richard W. Hamming Medal jointly, for the origination of the Unix operating system and the C programming language. Richard Hamming had worked at Murray Hill himself, on error-correcting codes, in the same institution. By 1990 the two men have been sharing honors for seven years and will go on sharing them down to the last one either of them receives. The citation names the operating system and the language in one breath; the division of labor between the two of them is not spelled out anywhere in it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["IEEE Richard W. Hamming Medal citation, 1990"],
+          "sources": ["dennis_ritchie.journey.json, stop 'Murray Hill, the Hamming Medal'", "Wikipedia, 'Ken Thompson'"]
+        }
+      ]
+    },
+    {
+      "name": "Plan 9, a Placemat, Inferno",
+      "stops": [
+        {
+          "name": "Murray Hill, Plan 9 begins",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1985-01-01",
+          "date_confidence": "the sources say only mid-1980s; no year is attested, and 1985 is a placement within that decade rather than a date",
+          "campa": "Work starts at Bell Labs on a replacement for Unix, with Thompson, Rob Pike, and others from the same room. The premise is that Unix had a good idea and did not carry it far enough: if everything is a file, then the network should be a file, and the window system, and another machine's processor, so that a distributed system looks to a program exactly like one computer. Plan 9 is named after a famously bad film. Its first public release is seven years off, in 1992.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Plan 9 from Bell Labs, first public release 1992"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "dennis_ritchie.journey.json, stop 'Murray Hill, Plan 9 from Bell Labs'"]
+        },
+        {
+          "name": "Murray Hill, trying C++",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1988-01-01",
+          "date_confidence": "the sources give only a range of roughly 1985-1990 for the trial; the date here is a placement, and the 2009 quotation is reported from a secondary transcription",
+          "campa": "Bjarne Stroustrup has been building C++ in the same laboratory since 1979, and Thompson tries early versions of it. He does not continue. His verdict, given years later in an interview, is that the language does a lot of things half well and is a garbage heap of ideas that are mutually exclusive. For two decades the two of them work in the same building, one extending Thompson and Ritchie's language into something enormous, the other declining to use the result. No source reached here records them arguing about it face to face.",
+          "quote": "[C++] certainly has its good points. But by and large I think it's a bad language. It does a lot of things half well and it's just a garbage heap of ideas that are mutually exclusive.",
+          "quote_source": "Ken Thompson, quoted in Peter Seibel, Coders at Work (Apress, 2009), p. 475; taken here from a secondary transcription, the book text not verified in this pass",
+          "suggested_refs": ["Peter Seibel, Coders at Work (Apress, 2009)", "bjarne_stroustrup.journey.json"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "Wikiquote, 'Ken Thompson'"]
+        },
+        {
+          "name": "A New Jersey diner, the placemat",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1992-09-02",
+          "date_confidence": "the date is attested to the day; the diner is unnamed in every source reached, and the coordinates default to Bell Labs Murray Hill as the nearest fixed point",
+          "campa": "Over a meal on the second of September, Thompson works out on a paper placemat an encoding in which every character of Unicode can be written as a sequence of bytes, no byte of a multi-byte character can be mistaken for the start of another, and all the old seven-bit text in the world remains valid without change. Rob Pike is across the table. They implement it that week and put it through Plan 9. The placemat is not known to survive, and nobody recorded which diner it was.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Rob Pike's account of the UTF-8 design, September 1992"],
+          "sources": ["Wikipedia, 'UTF-8', history section"]
+        },
+        {
+          "name": "San Diego, UTF-8 at USENIX",
+          "lat": 32.7157,
+          "lng": -117.1611,
+          "date": "1993-01-25",
+          "date_confidence": "attested to the day",
+          "campa": "The encoding is presented publicly at the USENIX winter conference in San Diego, and X/Open takes it up as FSS-UTF. There is no committee behind it and no vendor pushing it; it wins because it is self-synchronizing and because it costs nothing to adopt, every existing seven-bit file being already valid under it. Within two decades it carries the overwhelming majority of the world's text, on the web and in the operating systems underneath the web. The design work behind it had taken one meal, four months earlier.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["USENIX Winter 1993 Technical Conference, San Diego"],
+          "sources": ["Wikipedia, 'UTF-8'"]
+        },
+        {
+          "name": "Murray Hill, Inferno",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "1995-01-01",
+          "date_confidence": "year attested; month unrecorded",
+          "campa": "Thompson works with Ritchie and others on Inferno, a distributed operating system built on what Plan 9 taught them, designed to run on anything from a set-top box upward with a virtual machine underneath so that programs need not know what hardware they are on. It arrives in the same years as Java and is commercially eclipsed by it. The IEEE had given him the Computer Pioneer Award the year before. He is fifty-two and has been in the same building for twenty-nine years.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Inferno operating system and the Limbo language, Bell Labs, 1995"],
+          "sources": ["Wikipedia, 'Ken Thompson'"]
+        },
+        {
+          "name": "Mountain View, Fellow of the Computer History Museum",
+          "lat": 37.4143,
+          "lng": -122.0776,
+          "date": "1997-01-01",
+          "date_confidence": "the induction is attested for 1997; the pin marks the museum's later building on North Shoreline Boulevard, which did not open until 2002-2003, and in 1997 the institution was the Computer Museum History Center at Moffett Field",
+          "campa": "Thompson and Ritchie are made Fellows of the museum together, for the co-creation of the UNIX operating system and for development of the C programming language. The institution honoring them is at this point still a history center in borrowed buildings at Moffett Field; the Mountain View building this pin marks does not open until 2002. Moffett Field is a few miles from the office where Thompson will spend the last two decades of his working life.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Computer History Museum Fellow Awards, 1997"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "Computer History Museum"]
+        }
+      ]
+    },
+    {
+      "name": "The Medal and the Leaving",
+      "stops": [
+        {
+          "name": "The White House, the National Medal of Technology",
+          "lat": 38.8977,
+          "lng": -77.0365,
+          "date": "1999-04-27",
+          "date_confidence": "the presentation date is given as 27 April 1999 in the Ken Thompson sources and as 21 April 1999 in the Dennis Ritchie file; the medal is the 1998 award, announced in December 1998. The contradiction is recorded, not resolved",
+          "campa": "President Clinton hangs the National Medal of Technology on Thompson and on Ritchie, for co-inventing the UNIX operating system and the C programming language. It is the country's highest technological honor and the award is for work done thirty years earlier in a laboratory that at the time had refused to fund it, on a machine nobody else wanted, to run a game about flying a ship past the planets. The citation credits the work to pre-Lucent Bell Labs, an entity that by 1999 no longer exists under that name.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["National Medal of Technology, 1998 award year, presented 1999"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "Wikipedia, 'Bell Labs'", "dennis_ritchie.journey.json, stop 'The White House, the National Medal of Technology'"]
+        },
+        {
+          "name": "Murray Hill, thirty-four years and out",
+          "lat": 40.6852,
+          "lng": -74.396,
+          "date": "2000-01-01",
+          "date_confidence": "the source says late 2000 without a month; the day and month here are defaults",
+          "campa": "Thompson retires from Bell Labs, thirty-four years after walking in at twenty-three. He had also taken the Tsutomu Kanai Award in 1999. Ritchie stays another seven years, and by then the corridor's work has scattered so far that neither man can follow it: Berkeley's descendants in the network stacks, a Finnish student's kernel begun in 1991 by Linus Torvalds on the model of a system he had only read about, and the C language everywhere underneath. Thompson leaves and goes to work for a startup called Entrisphere.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["linus_torvalds.journey.json", "dennis_ritchie.journey.json, stop 'Murray Hill, forty years and out'"],
+          "sources": ["Wikipedia, 'Ken Thompson'"]
+        },
+        {
+          "name": "Philadelphia, the Harold Pender Award",
+          "lat": 39.9522,
+          "lng": -75.1932,
+          "date": "2003-01-01",
+          "date_confidence": "the award and year are attested; the presenting institution being the University of Pennsylvania's engineering school is general knowledge, not re-confirmed in this pass, and the month is unrecorded",
+          "campa": "The Pender Award, given by an engineering school in the city where ENIAC was built, goes to Thompson in 2003, three years into a retirement he is not really having. He had left Bell Labs in 2000 and has been working at a startup since. He is sixty, between one job and the next, with no institutional affiliation to print under his name on the programme. That the prize belongs to the University of Pennsylvania's engineering school is general knowledge here rather than anything re-confirmed in this pass.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Harold Pender Award, University of Pennsylvania School of Engineering and Applied Science"],
+          "sources": ["Wikipedia, 'Ken Thompson'"]
+        },
+        {
+          "name": "Mountain View, joining Google",
+          "lat": 37.422,
+          "lng": -122.0841,
+          "date": "2006-01-01",
+          "date_confidence": "year attested; month unrecorded",
+          "campa": "Thompson joins Google as a Distinguished Engineer at sixty-three, after the brief run at Entrisphere. Rob Pike is already there. The company runs on Linux, which runs on the model Thompson wrote in a month in 1969, compiled by descendants of the language Ritchie built out of his B, encoding its text in the scheme he sketched on a placemat. Four separate things he made are holding up the building he now reports to, and he owns none of them. At a company that size the title means chiefly that nobody assigns him work.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Googleplex, 1600 Amphitheatre Parkway, Mountain View"],
+          "sources": ["Wikipedia, 'Ken Thompson'"]
+        }
+      ]
+    },
+    {
+      "name": "Mountain View",
+      "stops": [
+        {
+          "name": "Mountain View, three men who hated C++",
+          "lat": 37.422,
+          "lng": -122.0841,
+          "date": "2007-01-01",
+          "date_confidence": "the design work is attested as beginning in 2007; the month is not fixed, and the quotation comes from a Dr. Dobb's interview whose original is no longer online",
+          "campa": "Thompson, Rob Pike, and Robert Griesemer begin designing a language, on a rule that nothing goes in unless all three are convinced. Thompson is sixty-four and has been doing this since the PDP-7: cut a language down until it will fit in a head. Go compiles fast, collects its own garbage, and puts concurrency in the language rather than in a library. What it leaves out is chosen as carefully as what it keeps, and the rule of unanimity is why the list of features grows so slowly.",
+          "quote": "When the three of us got started, it was pure research. The three of us got together and decided that we hated C++.",
+          "quote_source": "Ken Thompson, 'Interview with Ken Thompson', Dr. Dobb's, 18 May 2011; the original page no longer resolves and this text is from a secondary transcription",
+          "suggested_refs": ["Rob Pike's talks on the origins of Go", "bjarne_stroustrup.journey.json"],
+          "sources": ["Wikipedia, 'Go (programming language)'", "Wikiquote, 'Ken Thompson'"]
+        },
+        {
+          "name": "Mountain View, Go released into the open",
+          "lat": 37.422,
+          "lng": -122.0841,
+          "date": "2009-11-01",
+          "date_confidence": "attested to November 2009; the day is a default",
+          "campa": "Go is announced publicly and released as open source in November 2009. The reception is loud, divided, and immediate, and the loudest complaints are about the things left out. Thompson says very little about it in public; Pike and Griesemer do the explaining. Two and a half years later the language reaches a stable version one, carrying a promise that programs written against it will keep compiling. That promise is about the next decade rather than about the language.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Go programming language, public release, November 2009"],
+          "sources": ["Wikipedia, 'Go (programming language)'"]
+        },
+        {
+          "name": "Tokyo, the Japan Prize",
+          "lat": 35.6852,
+          "lng": 139.7454,
+          "date": "2011-01-01",
+          "date_confidence": "the award year is attested; the ceremony's venue and date are not documented for 2011 in any source reached, neither laureate's attendance is confirmed, and the 2011 ceremony fell weeks after the March earthquake",
+          "campa": "The Japan Prize Foundation names Thompson and Ritchie joint laureates in information and communications, for Unix. It is the last honor the two receive together and the first from outside the Western technical world. Ritchie is ill; he dies that October. Whether either man stood in Tokyo to take it is not established by anything reachable, and the foundation's own page for the year gives no ceremony date, no venue, and no account of who was present. Doug McIlroy spoke at Murray Hill for Ritchie in May.",
+          "quote": "Ken Thompson was undoubtedly the original moving spirit for Unix, but Dennis Ritchie was in on it from the start.",
+          "quote_source": "M. Douglas McIlroy, remarks for the Japan Prize award ceremony for Dennis Ritchie, Murray Hill, 19 May 2011",
+          "suggested_refs": ["Japan Prize Foundation laureate records, 2011", "dennis_ritchie.journey.json, stop 'Tokyo, the Japan Prize'"],
+          "sources": ["Wikipedia, 'Ken Thompson'", "M. Douglas McIlroy, remarks of 19 May 2011 (PDF, cs.dartmouth.edu)"]
+        },
+        {
+          "name": "Mountain View, Go reaches version one",
+          "lat": 37.422,
+          "lng": -122.0841,
+          "date": "2012-03-01",
+          "date_confidence": "attested to March 2012; the day is a default",
+          "campa": "Go 1.0 is released in March 2012. From here the language spreads into the infrastructure layer of the internet rather than into applications people see: container systems, orchestration, servers, the plumbing that other software runs on. It is the third time in his life Thompson has written a tool for the people who build tools, and the third time the tool has outrun any use he had for it himself. He is sixty-nine at the release. In the language's own documentation he is one of three names in a list.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Go 1 release notes and compatibility promise, March 2012"],
+          "sources": ["Wikipedia, 'Go (programming language)'"]
+        },
+        {
+          "name": "Pasadena, the keynote and the Raspberry Pi",
+          "lat": 34.1447,
+          "lng": -118.1443,
+          "date": "2023-03-01",
+          "date_confidence": "the keynote is attested to SCaLE 20x, March 2023; the pool does not name the host city, and the coordinates follow the conference's generally reported venue rather than a source checked here",
+          "campa": "Closing the Southern California Linux Expo at eighty, Thompson mentions in passing that he has given up on Apple hardware and moved his own computing to a Raspberry Pi, a forty-dollar board the size of a playing card, running Linux. The room laughs. He does not offer it as a position or a lesson: the expensive machine annoyed him and the cheap one did not. Fifty-four years earlier he had written Unix on a cast-off PDP-7 for a reason of the same size, that it was the machine standing there.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Ken Thompson, closing keynote, SCaLE 20x, March 2023, at 57:48-58:55"],
+          "sources": ["Wikipedia, 'Ken Thompson', personal life section, citing the SCaLE 20x keynote"]
+        },
+        {
+          "name": "Mountain View, the oral history",
+          "lat": 37.4143,
+          "lng": -122.0776,
+          "date": "2024-01-01",
+          "date_confidence": "year attested; month unrecorded",
+          "campa": "Thompson sits for a long oral history at the Computer History Museum, which had made him a Fellow twenty-seven years earlier. He is eighty-one and still at Google, by then as an advisor rather than a Distinguished Engineer, and Ritchie has been dead thirteen years. Of the men who were in the Unix Room, he is the one left to answer questions about it. So he tells the story himself: the withdrawal from Multics, the game, the machine in the corner, the month his family was in California.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Computer History Museum oral history of Ken Thompson, 2024"],
+          "sources": ["Wikipedia, 'Ken Thompson'"]
+        }
+      ]
+    }
+  ]
+}
