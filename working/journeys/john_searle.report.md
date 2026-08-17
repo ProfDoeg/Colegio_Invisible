@@ -240,18 +240,22 @@ The Office Door (2016-07-01). Four stops, running from the rite that confers a
 name to the secular residue that confers an office: baptism, the anointing from
 the Sainte Ampoule at Reims, the coronation of 1429, and the presidential oath.
 
-Three of the four sit at the Berkeley pin. The third does not, and it is **the
-only formal device in this file.** 'Reims: the man in the room' places Searle in
-the cathedral at the coronation, along the wall with a rulebook he does not
-understand, matching symbol to symbol exactly as instructed while a Dauphin goes
-in and a king comes out. He is in the room and he is not in the room, which is
-the structure of his own argument turned on its author. Added on the author's
-direction, 2026-08-17. It inherits `joan_of_arc.journey.json`'s Reims pin
-byte-identical (49.2539/4.0349) so the two files share the coordinate, but keeps
-a 2010 date rather than 1429: **the conceit puts him in the room, not in the
-century**, and the file's chronology and the globe's time scrubber are left
-intact. Its `date_confidence` opens by declaring itself a device, so no reader
-can mistake it for a claim that Searle went to Reims.
+All four sit at the Berkeley pin. The third, 'Berkeley: the man in the room', is
+**the only formal device in this file**, added on the author's direction,
+2026-08-17. Searle never goes to Reims. The room he is in is his own, at
+Berkeley, and it is full of books; the coronation of 1429 arrives there only as
+writing, a chronicle and an order of service set down, which is the only way a
+rulebook ever reaches the man in the Chinese Room. He has the order in front of
+him, oil then crown then the words, and can perform every step of the analysis
+correctly having never smelled the chrism. That is his argument, and it is also
+his own position.
+
+An earlier draft of this stop pinned him at Reims itself, inheriting Joan's
+coordinate. **The author rejected it and was right to**: staging the man in the
+cathedral is exactly the error the standing rule forbids, and it also weakens
+the conceit, which works precisely because he is elsewhere with the text. The
+stop now carries Berkeley's coordinate, and its `date_confidence` opens by
+declaring itself a device and states that he is not staged at Reims.
 
 Checked after the additions: `temporal.regressions()` reports exactly one
 regression in this file, the pre-existing 2017 pairing of the lawsuit and Dagmar
