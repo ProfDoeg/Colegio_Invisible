@@ -42,12 +42,18 @@ machines.** Three hosts, in that order.
   Invisible Generation" (1966), the tape recorder and playback experiments, the
   street operations.
 - **The institution.** Propaganda named as the same mechanism working at scale.
-- **The machine.** Prompt injection, and the instability in LLM assemblies where
-  adversarial agents feed each other text that co-opts and pollutes their
-  directives. **ONE OR TWO SENTENCES ONLY**, closing a stop that is otherwise
-  entirely his. Never its own stop, never a segment, never in a stop name. This
-  reaches past his death and is covered by the forward grant recorded in
-  `EXCEPTIONS.md`; it must say so in `date_confidence`.
+- **The machine.** Frame it explicitly as an instance of language-as-virus, not
+  a separate topic: his own remixing (cut-up, fold-in) IS an attempt to "prompt
+  inject" the human psyche, propaganda IS the same mechanism at the level of
+  institutions, and "prompt injection" in LLM assemblies (adversarial agents
+  feeding each other text that co-opts and pollutes directives) is the same
+  concept again at the level of machines. One virus, three hosts, the author's
+  own structure, so say it that way, human / organization / machine, rather
+  than treating the machine case as a bolt-on. **ONE OR TWO SENTENCES ONLY** for
+  the machine case specifically, closing a stop that is otherwise entirely his.
+  Never its own stop, never a segment, never in a stop name. This reaches past
+  his death and is covered by the forward grant recorded in `EXCEPTIONS.md`; it
+  must say so in `date_confidence`.
 - **Stated flat, no poetry:** he shot and killed his wife Joan Vollmer in Mexico
   City in 1951; he was an addict for most of his life.
 - Geography from QUEUE: Tangier, Mexico City, London, Paris. Joins the corpus's
