@@ -195,3 +195,149 @@ Birthplace; birth day and month; country of birth; undergraduate institution; th
 - Any authority for Land's birthplace, birth day, or undergraduate institution: nothing located; snippets naming a Kent village and a March date were rejected as uncorroborated.
 - No academic CV, departmental profile, or interview transcript; the Essex and Warwick facts rest on Wikipedia alone.
 - Xenosystems itself: removed in 2022, reached only through the Wayback capture index.
+
+---
+
+# Deep-dive addition, 2026-08-17: the numogram, the Cthulhu Club, and hyperstition in practice
+
+*Added to the existing file; nothing above this line was altered. Two new segments, twelve new stops, appended after `Xenocosmography`.*
+
+## 15. Scope of this pass
+
+Four lenses were gathered and adversarially verified: the numogram and CCRU apparatus; Lovecraft and the Babylonian material; hyperstition's performativity; and Land's podcast and interview appearances from 2015 onward. The primary text throughout is `Ccru: Writings 1997-2003` (Time Spiral Press, 2015), read as a PDF and grepped, which is why several widely circulated attributions collapse below. The two new segments are:
+
+- **The Decimal Labyrinth** (6 stops): the ten zones and their currents; Pandemonium and the count of forty-five; the Cthulhu Club correspondence; Beaconsfield and Syzygy; the Ghost Lemurs and Captain Mission; the book nobody wrote.
+- **Hyperstition in Practice** (6 stops): Catacomic and the four features; sixty, the number of Anu; the intelligence explosion; a critique of trusted third parties; the numogram spoken aloud; Christ dressed up as a computer.
+
+## 16. The numogram and Pandemonium
+
+**Zones, syzygies, currents, tractor zones, gates, channels, the Time-Circuit, Outer-time. [R]** All of it is the unit's own system, presented as discovered rather than invented, and undated in `Ccru: Writings 1997-2003`, p.174-175. Corroborated for the Time-Circuit reading by `ccru.fandom.com`, "Pandemonium Matrix". Tagged **[R]** throughout: it is lore the unit produced, not a fact about the world.
+
+**Pandemonium: numogram plus Matrix, forty-five demons, Gt-45 Utterminus of Cthelll. [R]** Quotation verbatim from p.176 of the collected PDF.
+
+*Contradiction, flagged and not resolved.* The Ccru sentence says the demons are proliferated "by a digital cumulation to the ninth power". Forty-five is the digital cumulation **of** nine, that is 1+2+...+9, not nine to any power. The research pool reproduced the error in a different form ("9 zones times digital cumulation to the ninth power"). The journey states both the arithmetic and the text's own gloss and adjudicates neither.
+
+**Zone-by-zone System Notes (Zone-1 twinned with Zone-8, the demon Murmur, the 5-4 or Sink Current). [R]** Cited in the stop's `sources` as the schema, not narrated.
+
+## 17. The Cthulhu Club
+
+**Vysparov, Stillwell, the 1949 letters, Kingsport, Miskatonic Virtual University, the N. W. Peaslee Chair in Hydro-History, the Jung letter of 27 February 1929. [R, and fiction as to substance]** All from `Ccru: Writings 1997-2003`, and all of it invented. The 7 May 1949 quotation is verbatim, including the volume's own misspelling "Massachusettes"; the letters run p.43-48 of the PDF, not p.42-46 as the pool had it. Stillwell's reply of 28 May is on p.48, not p.47.
+
+*Pool errors corrected before use.* (a) The pool placed the 19 March 1949 letter's Dibboma material in Massachusetts; the text sets it in **eastern Sumatra**, under psychological operations. (b) The pool truncated Stillwell's "electromagnetic cauldron of the inner earth" to "electromagnetic field", inventing a word; the phrase is not used in the journey at all. (c) The pool had Vysparov's Lovecraft interest **caused by** the 1958 Burroughs meeting; the text has the club convened "in the immediate postwar years" and Vysparov seeking Burroughs out afterwards. The causal direction is inverted in the pool and is not carried.
+
+**Echidna Stillwell as "more an ethnographic legend than a social fact". [R]** Verbatim, but **not** from the volume's Foreword as the pool claimed. It sits inside a Ccru self-mythologising text that is itself part of the fiction, so it cannot be read as an editorial disclosure. Not quoted in the journey for that reason; the campa states the flatter fact, that neither correspondent existed.
+
+## 18. Beaconsfield and Syzygy
+
+**The Switch and Orphan Drift collaboration at Beaconsfield Arts Centre, London, Autumn 1998. [A: the unit's own chronology, PDF p.5.]**
+
+**Syzygy, a five-week art show co-produced by Ccru and Orphan Drift, named for twinning. [A as to the description: PDF p.8-9, quoted verbatim.]**
+
+*Two pool errors, both carried into the stop as flags.* The pool dated Syzygy to 1999 and named Beaconsfield as its venue. The chronology gives Autumn **1998** for the Beaconsfield collaboration, and **no located source states that Syzygy is the Beaconsfield show**. The journey holds them as two facts with an unproven join. The pool's "nightly ritual performances explicitly called demons" comes not from the Q&A but from the anonymous Monarch Program narrative (PDF p.15-16), which is explicitly fiction the unit wrote about itself; the campa says so rather than repeating it as a record.
+
+**Land's presence in the building: unattested.** *gap.* The pin is the Beaconsfield gallery's street address in Vauxhall, approximate to the street, and the `date_confidence` says the presence is not attested.
+
+## 19. Burroughs and the Lemurian Time War
+
+**Ghost Lemurs of Madagascar is a real Burroughs text of 1987. [A]** **The unit's claim that it retro-influenced Captain Mission three centuries earlier, with a transcript in Mission's own hand in the Vysparov library, is the unit's fiction. [R]** Quotation verbatim.
+
+*Pool errors corrected.* The pool said the text was "sent backward from the future" and implied Ccru invented the title. Neither holds: the book is Burroughs's own, and the Ccru mechanism is retro-influence, not future transmission. The pool also had Burroughs's `Ah Pook Is Here` virus formulation as a **precursor** to hyperstition; the Ccru text reverses this, reading the passage as evidence of Vysparov's influence **upon** Burroughs after 1958. Neither direction is asserted in the campa.
+
+*Also corrected.* "Atlantean White Magic" is not verbatim in the volume; the phrases there are "White Magical orbit" and the **Architectonic Order of the Eschaton (AOE)**, which is what the campa uses.
+
+**Interlock.** `william_s_burroughs.journey.json` exists and carries no reciprocal mention of Land, the CCRU, hyperstition or the numogram. The relation is one-directional from Land's file outward, which is the standing convention for a later figure's engagement with an earlier one. Burroughs died in 1997; the Ccru material about him is contemporary with his last years and after, so the stop makes no claim that he knew of it, and says the opposite.
+
+## 20. Lovecraft: the backward apparatus stop
+
+**"Warwick, the book nobody wrote". [R, and declared as interpretive]** This is Land's apparatus applied backward, the same move licensed for Austin (Briar Rose) and Searle (Merlin). Lovecraft died in 1937, twenty-five years before Land was born, so this is the ordinary backward case and not a forward reference. The stop sits at Land's own Warwick pin, is dated only to order the segment, and its `date_confidence` states plainly that Land is nowhere on record making this argument in these words. `EXCEPTIONS.md` was updated accordingly: the Nick Land row's "applied backward to" column now names the Necronomicon and the Austin reading.
+
+**Harman on Land as "the first philosopher in recent times to seriously engage with Lovecraft". [A]** *Attribution corrected:* this is **Graham Harman's** judgement as reported by Wikipedia, not Wikipedia's own description, and the pool's gloss about a critique of anthropocentrism is the researcher's addition. The quote field says so.
+
+**"Unuttera", the polytendriled abomination at 9-Barkers. [A as a Ccru coinage: PDF p.6.]** Not used. The blog framing that has Land "envisioning history as presided over by" them is the blogger's, not Land's, and nothing verbatim survived the check in a usable form.
+
+**Cthulhu as a metaphor for capital, the "Cthulhuocene". [R]** No single primary quote located. Not used.
+
+**Land "inhabited" by entities named Cur, Vauung and Can Sah. [A per the Berkeley Institute for Islamic Studies piece, secondary]** Not used: single secondary source, no primary text located, and it makes a psychiatric claim about a living man that the sourcing does not carry.
+
+## 21. Babylon, and what the primary text actually says
+
+**Sumero-Babylonian sexagesimal numeracy as the origin of the second and the degree; the ideal 360-day year mapped onto 360 degrees of zodiac; "Sixty is the number of Anu, the Over-God"; Georges Ifrah on finger-counting; Zecharia Sitchin on the 3,600-year Annunaki astrocycle. [A as to what the Ccru volume says.]**
+
+*The pool's central Babylonian claim is refuted by the primary text and the refutation is what the stop carries.* Commentary (a Scribd piece, and `socialecologies.wordpress.com`) describes the numogram as gathering "Babylonian astrology, Pythagorean tetractys, Kabbalistic gematria" into one chart. The Ccru volume positions the numogram **against** that material: "In contradistinction to the late-Babylonian (or Judeo-Christian) qabbala, the 'method of Mu' involves a rigorous collapse of transcendent symbolism into intrinsic or immanent features", and files "Atlanto-Babyonian [sic] State-societies" as preservers of degraded conclusions. Babylon is a foil, not an ingredient. The campa states both halves.
+
+*Not carried.* "AI does not think; it hallucinates, executes, and loops, like any Pandemonium demon" is the Social Ecologies blogger's own line, not Land's and not the Ccru's. It is named in the stop's `sources` as a tertiary essay whose reading is not adopted, and it is not quoted.
+
+**Babylonian mythology in relation to AI.** The verified route is not through the Babylonian material at all but through Land's own recent speech: the Compact remark that there are not two things going on, superintelligence on one side and demons on the other, and the Greer exchange. That is where the journey puts it. Any direct Land statement joining Mesopotamian numerology to machine intelligence stayed **unverified** and is not asserted.
+
+## 22. Hyperstition: performativity and its real cases
+
+**Coinage 1995, fanzine `Catacomic`. [A: Wikipedia, `Hyperstition`.]**
+
+**The four features: an element of effective culture that makes itself real; a fictional quantity functional as a time-travelling device; a coincidence intensifier; a call to the Old Ones. [A, quoted through Delphi Carstens, who does not page his Ccru source.]**
+
+*Major sourcing correction, and the point of the stop.* The definition everybody quotes, "a positive feedback circuit including culture as a component. It can be defined as the experimental (techno-)science of self-fulfilling prophecies", **does not appear anywhere in `Ccru: Writings 1997-2003`**. A grep of the full 342-page text returns zero hits. It originates in Land's 2009 email interview with Delphi Carstens, "Hyperstition: An Introduction", i.e. a post-CCRU statement by Land alone. The Ccru's own contemporaneous wordings are "fictions that make themselves real" (p.25) and "semiotic productions that make themselves real" (p.47). Two separate lenses in the pool both mis-sourced this to ccru.net or to the Ccru corpus; both are corrected.
+
+**Real cases used.** Bitcoin, from Land's own argument, and the Necronomicon, which is the Ccru's own recurring paradigm case.
+
+*Case rejected.* The pool called Gibson's "cyberspace" the example "most consistently offered by Land/Ccru". It is not. The Ccru volume mentions Gibson once, and names the **Cyberspace Trilogy**, not `Neuromancer` specifically, in a list beside Deleuze and Guattari, Braudel, Octavia Butler, Lynn Margulis and Lovecraft. The framing of it as the canonical example is Macon Holt's (Full Stop, 2020). Dropped rather than downgraded.
+
+**`Crypto-Current: Bitcoin and Philosophy`, version 1.0, 31 October 2018, serialised on Land's Urban Future 2.1 blog. [A]** *Publisher claim withdrawn:* no Urbanomic or MIT Press edition was located. That imprint pairing belongs to `Fanged Noumena` and `#Accelerate`, and is the likely source of the confusion.
+
+**Mackay and Avanessian, `#Accelerate: The Accelerationist Reader`, Urbanomic, 2014. [A as to editors, publisher, year.]** *Quotation dropped:* the framing "earlier hyperstitions coming to pass" could not be located in the editors' introduction; what circulates is a reviewer's line. Not used anywhere in the journey.
+
+## 23. Podcasts and interviews, 2018-2026
+
+**Other Life, hosted by Justin Murphy, 15 August 2018, transcript on Vast Abrupt. [A]** Four quotations verified verbatim against the transcript: the positive-feedback thesis; "Intelligence explosion is the name for the thing that accelerationism is looking at"; the dehumanization line; and "Bitcoin is a critique of trusted third parties, that is deeply isomorphic with critique in its rigorous Kantian sense." The last two carry the journey's two 2018 stops.
+
+*Two pool attributions corrected before use.* (a) "I don't see capitalism as its toy or tool... My relation to that is just utterly antagonistic" was framed by the pool as Land's antagonism toward **capitalism**. In context the referent is the **human security system**. The line is not used at all, because the misreading is exactly the sort a campa would propagate. (b) "without any human beings even being on the planet" is spoken by **Murphy**, in the question, not by Land. The campa attributes the phrase to the interviewer in its own last sentence and gives Land only "capital autonomization", which is his.
+
+**The paperclip maximiser called "pitifully idiotic". [A]** Used, as reported speech rather than as a quote field.
+
+**The Dangerous Maybe, "Nick Land Explains the Numogram", 1 July 2025, hosted by Mikey Downs with Nance. [R]** Contents (the Barker spiral's Atlantean and Lemurian sides, digital reduction, triangular numbers, the Tetractys, the I Ching, "the outside") are taken from show notes and a Podwise listing. **No transcript was located**, so nothing is quoted and the campa says in its own body that the footing is weaker than any other stop in the addition.
+
+**The Dangerous Maybe with John Michael Greer, c. March 2026. [R]** Greer: "To my read, Ray Kurzweil is basically pushing American Protestant Christian fundamentalism under a very thin layer of technological drag" and "The whole singularity thing in his presentation is basically just the second coming of Christ except Christ is dressed up as a computer." Land: "That's probably what I'm doing, too." The pool misquoted both Greer lines (dropping "very", garbling the second); the corrected text is used. Land's reply is exact but reaches the record through a Substack recap (`theflynneffect`, 26 March 2026), not from audio, and the `date_confidence` says so. **The episode's own date is unstated in every located source.** *gap.*
+
+**Geoff Shullenberger, "The Faith of Nick Land", Compact Magazine, 2025. [A]** A written-up Zoom conversation, not audio; the format difference is flagged in the pool and respected here. Supplies the superintelligence-and-demons remark and "a sort of eschatological moment of triumphant liberal technology". The Tucker Carlson material ("back to the drawing board mode... I can't pretend that there's some kind of prophetic vindication in it at all") is verified but not used: it belongs to a different subject, the reception of his politics, and would have needed a stop the addition does not carry.
+
+**Burroughs in the podcasts: nothing. [R, negative finding]** Targeted searching across the Vast Abrupt transcript, the Compact piece and the available Dangerous Maybe listings turned up **no instance of Land discussing Burroughs by name in any podcast or interview from roughly 2015 to the present**. Commentary such as xenogothic's "Junk Capital" discusses the relation analytically but quotes only Burroughs. The Burroughs stop in this addition therefore rests entirely on the CCRU-era written material and makes no claim about Land speaking of him since.
+
+## 24. Contradictions carried forward from this pass, unresolved
+
+1. **The forty-five.** The Ccru text's own arithmetic gloss contradicts the number it produces. Both are in the campa.
+2. **Syzygy and Beaconsfield.** Two attested facts with no attested join. Not merged.
+3. **Babylon.** Secondary commentary says ingredient; the primary text says foil. The primary text is followed and the commentary is named, not deleted.
+4. **Ah Pook.** Precursor to hyperstition (pool) versus downstream of Vysparov (Ccru text). Neither asserted.
+5. **The CCRU's loss of Warwick standing.** The pool's causal account (conferences and journals unsettling the department) is contradicted by Wikipedia, which attributes it to Land's behaviour and drug use. The existing file already handles the resignation without a cause; nothing new was added, and the disagreement is recorded here.
+6. **The affiliate roster.** The pool's membership list does not match Wikipedia's, which omits Robin Mackay and treats Sadie Plant as co-founder rather than affiliate, and lists Metcalf, Brassier, Negarestani, Kronic, Parisi, Carlyle, Kunzru and the Chapmans. The existing file's roster stop was left untouched.
+7. **Time Spiral Press versus Urbanomic.** The 2015 colophon reads Time Spiral Press alone; Urbanomic's is a 2017 reissue. The new stops cite Time Spiral Press 2015 only. The existing hyperstition stop, written in the earlier pass, still cites "Urbanomic / Time Spiral Press, 2015" and was not rewritten.
+
+## 25. Unverified, and left out
+
+- Any Land statement joining Babylonian or Mesopotamian numerology to artificial intelligence.
+- The date of the Greer episode.
+- A transcript for either Dangerous Maybe episode.
+- The venue of Syzygy.
+- Which of the Ccru texts Land personally wrote. The volume's Foreword says outright that nobody is positioned to accept attribution for the work of the Ccru; the new stops say "the unit" throughout and never "Land writes" of the theory-fiction.
+- The "sorcerous counter-text to the Book of Life" formulation for the Necronomicon: search-engine synthesis, origin essay not located, not used.
+- Whether Land ever visited the Beaconsfield gallery.
+
+## 26. Sources for this addition
+
+**Primary**
+- `Ccru: Writings 1997-2003`, Time Spiral Press, 2015, read as PDF and searched: Foreword p.3; chronology p.5-6; Q&A p.8-9; the self-mythologising text p.10; Monarch Program p.15-16; the Cthulhu Club p.25-26; the 1949 letters p.43-48; Pandemonium p.174-176; Zone-1 System Notes p.188; the Lemurian Time War material; the Babylonian and sexagesimal passages.
+- Nick Land, email interview with Delphi Carstens, "Hyperstition: An Introduction", 2009, xenopraxis.net PDF.
+- "Ideology, Intelligence, and Capital: An Interview with Nick Land", Other Life podcast (Justin Murphy), 15 August 2018, full transcript on Vast Abrupt.
+- Nick Land, `Crypto-Current: Bitcoin and Philosophy`, version 1.0, 31 October 2018, Urban Future 2.1.
+
+**Secondary and tertiary, used with their status stated**
+- Wikipedia: `Nick Land`, `Cybernetic Culture Research Unit`, `Hyperstition`, `Mark Fisher`.
+- Delphi Carstens, "Hyperstition", xenopraxis.net, 2010. Macon Holt, "Hyperstitional Theory-Fiction", Full Stop, 21 October 2020.
+- Geoff Shullenberger, "The Faith of Nick Land", Compact Magazine, 2025.
+- `theflynneffect` (Substack), recap of The Dangerous Maybe with John Michael Greer, 26 March 2026. The Dangerous Maybe, "Nick Land Explains the Numogram", 1 July 2025, via show notes and a Podwise listing.
+- `ccru.fandom.com`, "Pandemonium Matrix". Monoskop, "Cybernetic Culture Research Unit". Philosophyball wiki. Berkeley Institute for Islamic Studies, "Nick Land, Accelerationism, and Techno-Occultism". Red Sails, "Two Cthulhus", 2021. `socialecologies.wordpress.com`, several essays, named where their readings are declined.
+- Corpus files: `william_s_burroughs.journey.json`, `kant.journey.json`, `j_l_austin.journey.json`, `john_searle.journey.json`, `EXCEPTIONS.md`.
+
+**Not reached**
+- Audio for either Dangerous Maybe episode.
+- The editors' introduction to `#Accelerate`, to test the quoted framing.
+- Any Ccru text naming a venue for Syzygy.

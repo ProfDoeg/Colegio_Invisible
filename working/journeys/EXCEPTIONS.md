@@ -107,10 +107,11 @@ anything of the kind.
 | **John Searle** (1932-2025) | the declaration, constitutive rules, X counts as Y in context C, status functions | the Merlin prophecy of the maiden from the hoary wood; its reading onto Joan of Arc in 1429 |
 | **Jacques Derrida** (1930-2004) | iterability, the mark that functions in the absence of its author, iter and the Sanskrit itara | Hansel and Gretel: the trail that exists only because it can be returned to, and is deformed by each return. Also holds a forward grant, see above |
 | **William S. Burroughs** (1914-1997) | language as virus, the cut-up, rogue writing, playback | propaganda as the same mechanism at scale. Also holds a forward grant, see above |
-| **Nick Land** (1962- ) | hyperstition: the fiction that makes itself real | to be set when the stops are written |
+| **Nick Land** (1962- ) | hyperstition: the fiction that makes itself real | H. P. Lovecraft's Necronomicon (Lovecraft d. 1937): the book nobody wrote, quoted into a bibliography by circulation alone, read against Austin's felicity conditions, which it does without |
 
 Land is living, so material contemporary with him is not an exception at all.
-He is listed because his apparatus is applied backward to Austin and Searle.
+He is listed because his apparatus is applied backward to Austin and Searle, and
+to Lovecraft's Necronomicon.
 
 ## The adversary's duty
 
