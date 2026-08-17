@@ -25,18 +25,10 @@ exception, the Burroughs forward grant). House style: `atlas_tools/style.py`.
 |---|---|---|
 | 1 | **J. L. Austin** | DONE. 9 segments. Pass 2 gave him the magic and prophecy segment, incl. the Briar Rose stops that are the template for every apparatus stop since. |
 | 2 | **John Searle** | DONE. 11 segments, 51 stops. Prophecy-as-declaration, the rites, and the LLM segment all added and then corrected per the ruling above. Report section 11 lists what is unverified. |
-| 3 | **Nick Land** | PARTIAL. Has hyperstition (vs Austin and Searle), Capitalism is Artificial Intelligence, and an injection stop. Deep dive still owed, see below. |
+| 3 | **Nick Land** | PARTIAL. Has hyperstition (vs Austin and Searle) and Capitalism is Artificial Intelligence. The injection stop was removed on the author ruling; that material is Burroughs's. Deep dive still owed, see below. |
 | 4 | **Jacques Derrida** | RUNNING, `wf_ac4b9393-f30`, launched 16:16. |
 | 5 | **William S. Burroughs** | NOT STARTED. Launches when Derrida lands. Brief below. |
 | 6 | **Land deep dive** | NOT STARTED. After Burroughs. Brief below. |
-
-## Open question for the author
-
-The prompt injection stop currently sits on `nick_land.journey.json`
-("Shanghai, the sentence that executes on being read", added 16:24). The author
-then moved that material to Burroughs and said Land has enough to carry. **Not
-yet resolved: pull it off Land, or leave it and let Burroughs carry the
-mechanism while Land keeps the machine case.** Asked at 17:00, unanswered.
 
 ## Burroughs brief (next to run)
 
