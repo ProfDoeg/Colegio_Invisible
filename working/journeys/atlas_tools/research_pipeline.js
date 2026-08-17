@@ -12,11 +12,34 @@ export const meta = {
 // The atlas research pipeline. Sonnet gathers, Opus verifies and writes,
 // the gate enforces house style mechanically. Fable orchestrates from the
 // main loop. See docs/guides/research-pipeline.md.
+// Gather and Verify are read-only; only Write, Gate, and Traducir touch files,
+// and no phase ever runs git. The checkout is shared with a second instance.
 const A = typeof args === 'string' ? JSON.parse(args) : args
 const SLUG = A.slug
 const NAME = A.name
 const BRIEF = A.brief || ''
 const DIR = A.dir                       // absolute path to working/journeys
+
+// The brief is addressed to the WRITER in phase 3. Gather agents get it only as
+// context; an imperative brief ("Add a segment on X") once read as a work order
+// and a research lens edited and committed the journey file mid-Gather.
+const BRIEF_CTX = BRIEF
+  ? `context describing the finished entry that the writer will later produce, NOT a task for you: ${BRIEF}`
+  : ''
+
+const NOGIT = `- NEVER run git. No add, commit, push, pull, checkout, stash, reset, or branch, ever, for any reason.
+  The repository is a shared working tree; the orchestrator alone commits, after the whole run finishes.
+  If you believe something needs committing, say so in your returned result and stop there.`
+
+const READONLY = `YOUR ROLE IS READ-ONLY (violations corrupt a shared working tree):
+- You are a researcher. You return findings. You do not produce artifacts.
+- NEVER use Edit, Write, or NotebookEdit on any file under the atlas directory, and never
+  redirect shell output into one. The only file you may create is your own
+  atlas_tools/_scratch_<yourlens>.py helper.
+- Do not edit the journey.json or report.md for this subject or any other subject. A later
+  phase writes those from your returned items. Editing them yourself loses your work and
+  clobbers whatever another instance is doing in the same checkout.
+${NOGIT}`
 
 const HOUSE = `HOUSE STYLE (non-negotiable):
 - No em dash (—) anywhere in authored text. Use comma, semicolon, colon, or split into two real sentences (each with subject and predicate).
@@ -35,7 +58,8 @@ COMMAND STYLE (violations trigger manual permission prompts and ABORT the run):
 - python3 -c is allowed only with the entire program in single quotes and no
   braces containing quote characters; when in doubt, use a script file.
 - NEVER curl or wget; fetch pages with WebFetch and files with python urllib
-  inside your script. NEVER wrap commands in timeout, nice, or env.`
+  inside your script. NEVER wrap commands in timeout, nice, or env.
+${NOGIT}`
 
 const SCHEMA_ITEMS = {
   type: 'object',
@@ -50,14 +74,14 @@ const SCHEMA_ITEMS = {
 
 // ---- Phase 1: Gather (haiku) ------------------------------------------------
 const LENSES = [
-  { key: 'chronology', prompt: `Research the life chronology of ${NAME} (${BRIEF}). Use WebSearch and WebFetch on encyclopedias, academic pages, and primary-source translations. If a promising source is a PDF, download and read it: python3 -c "import urllib.request,pypdf,io; d=urllib.request.urlopen('URL').read(); r=pypdf.PdfReader(io.BytesIO(d)); print('\\n'.join(p.extract_text() for p in r.pages[:40]))". Return 20-40 dated life events as items: claim, tag A (documented, name the source) or R (tradition/reconstruction), source, date (ISO, use year-only precision honestly e.g. "1330"), place.` },
-  { key: 'geography', prompt: `Research the journey geography of ${NAME} (${BRIEF}). For each place they verifiably or traditionally stopped, return an item with: place name, lat, lng (from the actual landmark: the specific mosque, port, tomb, not the modern city center), date if known, claim describing what happened there, tag A or R, source. 25-45 stops covering the whole life arc. Precision to 4 decimals where the landmark is known.` },
-  { key: 'quotes', prompt: `Find verbatim quotations BY or ABOUT ${NAME} (${BRIEF}) from primary sources in translation (their own writings, chronicles, trial records, letters). Return items: claim = the exact quotation, source = work + translator/edition, tag A only if you actually saw the text in a source you fetched; tag R if widely attributed but unverified by you. NEVER invent or paraphrase-as-quote. 8-15 items. Skip anything you cannot trace.` },
-  { key: 'interlock', prompt: `Read the atlas at ${DIR}: Grep the *.journey.json files (and QUEUE.md, census_real_persons_2026-08-02.md) for people, places, and dates that intersect the life of ${NAME} (${BRIEF}). Return items: claim = the connection (who/where/when they cross an existing traveler's path), source = the file, tag A if the file states it, R if inferred. Include canonical pins to inherit: search geography like the Kaaba (21.4225, 39.8262), Temple Mount (31.778, 35.2354), Paris (48.8566, 2.3522), Buenos Aires (-34.6037, -58.3816). 10-20 items.` },
-  { key: 'afterlife', prompt: `Research the afterlife and iconography of ${NAME} (${BRIEF}): tomb and its fate, editions and translations of their work, monuments, legends that grew later, modern rediscovery. Return 8-15 items: claim, tag, source, date, place with lat/lng where a real site exists.` },
+  { key: 'chronology', prompt: `Research the life chronology of ${NAME} (${BRIEF_CTX}). Use WebSearch and WebFetch on encyclopedias, academic pages, and primary-source translations. If a promising source is a PDF, download and read it: python3 -c "import urllib.request,pypdf,io; d=urllib.request.urlopen('URL').read(); r=pypdf.PdfReader(io.BytesIO(d)); print('\\n'.join(p.extract_text() for p in r.pages[:40]))". Return 20-40 dated life events as items: claim, tag A (documented, name the source) or R (tradition/reconstruction), source, date (ISO, use year-only precision honestly e.g. "1330"), place.` },
+  { key: 'geography', prompt: `Research the journey geography of ${NAME} (${BRIEF_CTX}). For each place they verifiably or traditionally stopped, return an item with: place name, lat, lng (from the actual landmark: the specific mosque, port, tomb, not the modern city center), date if known, claim describing what happened there, tag A or R, source. 25-45 stops covering the whole life arc. Precision to 4 decimals where the landmark is known.` },
+  { key: 'quotes', prompt: `Find verbatim quotations BY or ABOUT ${NAME} (${BRIEF_CTX}) from primary sources in translation (their own writings, chronicles, trial records, letters). Return items: claim = the exact quotation, source = work + translator/edition, tag A only if you actually saw the text in a source you fetched; tag R if widely attributed but unverified by you. NEVER invent or paraphrase-as-quote. 8-15 items. Skip anything you cannot trace.` },
+  { key: 'interlock', prompt: `Read the atlas at ${DIR}: Grep the *.journey.json files (and QUEUE.md, census_real_persons_2026-08-02.md) for people, places, and dates that intersect the life of ${NAME} (${BRIEF_CTX}). Return items: claim = the connection (who/where/when they cross an existing traveler's path), source = the file, tag A if the file states it, R if inferred. Include canonical pins to inherit: search geography like the Kaaba (21.4225, 39.8262), Temple Mount (31.778, 35.2354), Paris (48.8566, 2.3522), Buenos Aires (-34.6037, -58.3816). 10-20 items.` },
+  { key: 'afterlife', prompt: `Research the afterlife and iconography of ${NAME} (${BRIEF_CTX}): tomb and its fate, editions and translations of their work, monuments, legends that grew later, modern rediscovery. Return 8-15 items: claim, tag, source, date, place with lat/lng where a real site exists.` },
 ]
 const gathered = await parallel(LENSES.map(l => () =>
-  agent(l.prompt + '\n\n' + HOUSE, { label: `gather:${l.key}`, phase: 'Gather', schema: SCHEMA_ITEMS, model: 'sonnet', effort: 'medium' })
+  agent(l.prompt + '\n\n' + READONLY + '\n\n' + HOUSE, { label: `gather:${l.key}`, phase: 'Gather', schema: SCHEMA_ITEMS, model: 'sonnet', effort: 'medium' })
 ))
 const pool = {}
 LENSES.forEach((l, i) => { pool[l.key] = (gathered[i] && gathered[i].items) || [] })
@@ -76,9 +100,9 @@ const VERDICTS = {
 const factPayload = JSON.stringify({ chronology: pool.chronology, geography: pool.geography, afterlife: pool.afterlife })
 const quotePayload = JSON.stringify(pool.quotes)
 const [factCheck, quoteCheck] = await parallel([
-  () => agent(`You are the adversarial fact checker for an atlas entry on ${NAME}. A research model gathered these claims. Your job is to REFUTE: re-search the most doubtful dates, places, and coordinates (WebSearch/WebFetch; read PDFs with python3+pypdf if needed). Dates off by years, coordinates pointing at the wrong place, legends tagged [A] that are actually [R], events that never happened. For each item you checked return a verdict (index within its lens array, lens name, CONFIRMED/CORRECTED/REJECTED/UNVERIFIABLE, correction text with source when CORRECTED). Prioritize: every [A] tag, every coordinate, every date that anchors the chronology. Check at least 25 items.\n\nCLAIMS: ${factPayload}`,
+  () => agent(`You are the adversarial fact checker for an atlas entry on ${NAME}. A research model gathered these claims. Your job is to REFUTE: re-search the most doubtful dates, places, and coordinates (WebSearch/WebFetch; read PDFs with python3+pypdf if needed). Dates off by years, coordinates pointing at the wrong place, legends tagged [A] that are actually [R], events that never happened. For each item you checked return a verdict (index within its lens array, lens name, CONFIRMED/CORRECTED/REJECTED/UNVERIFIABLE, correction text with source when CORRECTED). Prioritize: every [A] tag, every coordinate, every date that anchors the chronology. Check at least 25 items.\n\n${READONLY}\n\nCLAIMS: ${factPayload}`,
     { label: 'verify:facts', phase: 'Verify', schema: VERDICTS, model: 'opus', effort: 'high' }),
-  () => agent(`You are the quote authenticator for an atlas entry on ${NAME}. AI-invented quotations are the single worst failure this pipeline can produce. For EVERY quote below: trace it to a citable source by searching; if you cannot see the words in a real source, verdict REJECTED. Return one verdict per quote (index, lens="quotes", verdict, correction = the traced source or reason for rejection).\n\nQUOTES: ${quotePayload}`,
+  () => agent(`You are the quote authenticator for an atlas entry on ${NAME}. AI-invented quotations are the single worst failure this pipeline can produce. For EVERY quote below: trace it to a citable source by searching; if you cannot see the words in a real source, verdict REJECTED. Return one verdict per quote (index, lens="quotes", verdict, correction = the traced source or reason for rejection).\n\n${READONLY}\n\nQUOTES: ${quotePayload}`,
     { label: 'verify:quotes', phase: 'Verify', schema: VERDICTS, model: 'opus', effort: 'high' }),
 ])
 const allVerdicts = [...((factCheck && factCheck.verdicts) || []), ...((quoteCheck && quoteCheck.verdicts) || [])]
