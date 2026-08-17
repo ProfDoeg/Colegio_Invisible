@@ -199,6 +199,71 @@ All **[A Wikipedia, 'John Searle']** unless noted:
 - `joan_of_arc.journey.json`, `merlin.journey.json`: referenced once, not drawn on for stops
 - `abdelkader.journey.json`, `bourlemont_roster.md`: form exemplars
 
+---
+
+## 11. Addendum: two segments added by hand after the run, 2026-08-17
+
+Sections 1 to 10 above are the pipeline's own record and are left as it wrote
+them. This section records what was added afterwards, on the author's direction,
+and it is the honest place to look for what has *not* been through the
+adversarial verify stage.
+
+The run stripped two things the subject was commissioned for: the Merlin
+prophecy and the LLM material. Both were removed by the same mechanism. Verify
+tests every relation for biographical attestation, finds that Searle is nowhere
+on record on prophecy or on language models, and deletes. The reading was never
+a claim about what Searle discussed; it is his apparatus applied to material he
+did not treat, which is a licensed move under `EXCEPTIONS.md`, written this day
+and naming him.
+
+**"The Sentence That Waits: Prophecy as Declaration"**, placed after the
+iterability quarrel, which supplies the written-mark half of the argument.
+Three stops, all at Searle's Berkeley pin 37.8719/-122.2585, dated 1988-06 as an
+ordering device only, on the template set by `j_l_austin.journey.json`'s Briar
+Rose segment. The declaration and the constitutive rule; the prophecy from the
+hoary wood; the maiden from Lorraine. The stand-in `suggested_ref` that had
+stood on the *Speech Acts* stop is removed, superseded by these.
+
+**"The Room Answers: Written Acts Without a Speaker"**, placed before Safety
+Harbor, so the file reads 2016-2019, then the machines, then the death. Three
+stops at the same Berkeley pin, dated 2022-11-30, 2023-06 and 2024-06. Berkeley
+follows this file's own convention of pinning the work rather than the man: it
+already pins the 2025 obituary notices and the missing archive there, after he
+is dead. **Searle is not claimed to be at Berkeley, or anywhere.** He lost the
+emeritus title in 2019 and died in Florida, and his whereabouts from 2019 are
+not documented in any source consulted.
+
+**Not verified, and wanting a pass before promotion to canon:**
+- The Merlin prophecy's transmission. The virgin-from-the-wood prophecy is NOT
+  in Geoffrey of Monmouth's *Prophetiae Merlini* (c. 1130-1135); it belongs to
+  the later French Merlin tradition, and its attribution to Merlin is
+  traditional rather than textual. That asymmetry is the point the stop turns
+  on, so it needs to be right. The Latin tag *ex nemore canuto* and its line of
+  transmission want checking against a primary edition.
+- The nullification-trial testimony (1455-1456) about a prophecy of a maid from
+  the Bois Chenu near Domremy, which reaches us a generation after the burning
+  and is a memory of a reading rather than a record of the prophecy's text.
+- Christine de Pizan's *Ditie de Jehanne d'Arc*, completed 31 July 1429, and its
+  naming of Merlin, the Sibyl and Bede.
+- The claim, made only negatively and in the confidence fields, that no source
+  records Searle commenting on large language models. It rests on the research
+  pool of this run, in which the strings LLM, large language model and GPT do
+  not appear at all. That is an absence of evidence in one pool, not a
+  demonstrated silence.
+
+**Interlock added:** `nick_land.journey.json`, at the stop 'Capitalism is
+Artificial Intelligence', which reads the same assemblage from the other side.
+Land is living, so this is a relation between contemporaries and not a forward
+reference. Nothing was written into `joan_of_arc.journey.json` or
+`merlin.journey.json`: a fifteenth-century file does not reference a
+twentieth-century philosopher, whatever the reading.
+
+**Spanish edition:** both segments carried to `es/`, and the accents in the
+first Spanish segment repaired in the same pass. Note a pipeline convention
+worth a decision: `es/john_searle.journey.json` keeps every `suggested_refs`,
+`sources` and `date_confidence` string in English, translating only `campa`,
+`quote`, `quote_source` and the names.
+
 **Named as unreachable or unverified, with the reason**
 - The 1984 BBC Reith Lectures record: the pool says it was not re-verified, that session's search budget being exhausted. **[R]**
 - Moses Hall as the venue of Searle's teaching: the pool says inference, not sourcing. **[R]**
