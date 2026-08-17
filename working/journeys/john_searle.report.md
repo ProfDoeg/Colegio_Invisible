@@ -233,6 +233,32 @@ is dead. **Searle is not claimed to be at Berkeley, or anywhere.** He lost the
 emeritus title in 2019 and died in Florida, and his whereabouts from 2019 are
 not documented in any source consulted.
 
+**"The Rites: Baptism, Anointment, Coronation, Inauguration"**, placed after
+The Construction of Social Reality, which supplies the apparatus, and dated
+2010-06 so it sits cleanly between that segment's last stop (2010-01-01) and
+The Office Door (2016-07-01). Four stops, running from the rite that confers a
+name to the secular residue that confers an office: baptism, the anointing from
+the Sainte Ampoule at Reims, the coronation of 1429, and the presidential oath.
+
+Three of the four sit at the Berkeley pin. The third does not, and it is **the
+only formal device in this file.** 'Reims: the man in the room' places Searle in
+the cathedral at the coronation, along the wall with a rulebook he does not
+understand, matching symbol to symbol exactly as instructed while a Dauphin goes
+in and a king comes out. He is in the room and he is not in the room, which is
+the structure of his own argument turned on its author. Added on the author's
+direction, 2026-08-17. It inherits `joan_of_arc.journey.json`'s Reims pin
+byte-identical (49.2539/4.0349) so the two files share the coordinate, but keeps
+a 2010 date rather than 1429: **the conceit puts him in the room, not in the
+century**, and the file's chronology and the globe's time scrubber are left
+intact. Its `date_confidence` opens by declaring itself a device, so no reader
+can mistake it for a claim that Searle went to Reims.
+
+Checked after the additions: `temporal.regressions()` reports exactly one
+regression in this file, the pre-existing 2017 pairing of the lawsuit and Dagmar
+Searle's year-only death date. The three added segments introduce none. House
+style clean on all counts: no em dashes, no curly quotes, every new campa inside
+the 450-650 band.
+
 **Not verified, and wanting a pass before promotion to canon:**
 - The Merlin prophecy's transmission. The virgin-from-the-wood prophecy is NOT
   in Geoffrey of Monmouth's *Prophetiae Merlini* (c. 1130-1135); it belongs to
@@ -250,6 +276,13 @@ not documented in any source consulted.
   pool of this run, in which the strings LLM, large language model and GPT do
   not appear at all. That is an absence of evidence in one pool, not a
   demonstrated silence.
+- The Sainte Ampoule and the anointing of Clovis at Reims, conventionally dated
+  496. Reported in the stop as a tradition rather than asserted as fact, which
+  is deliberate: the apparatus does not ask whether there was a dove, it asks
+  who accepted. The date and the transmission still want a source.
+- The coronation of Charles VII at Reims on 17 July 1429 with Joan present is
+  taken from `joan_of_arc.journey.json`, whose own stop carries it as attested.
+  Not independently re-verified here.
 
 **Interlock added:** `nick_land.journey.json`, at the stop 'Capitalism is
 Artificial Intelligence', which reads the same assemblage from the other side.
