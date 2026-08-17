@@ -57,7 +57,29 @@ contain an artifact that did not yet exist when the file's own clock stopped".
   Nobody is staged at a place they never went.
 - **Framework applied forward.** The exception is for past events. Applying a
   dead theorist's apparatus to something that postdates them is a different move
-  and is not covered here; it needs the author's separate say-so.
+  and is not covered here; it needs the author's separate say-so. Granted once,
+  see below.
+
+## Forward grants
+
+Framework-applied-forward is not licensed in general and never by an agent's own
+judgement. It is listed here, subject by subject, only where the author has said
+so directly.
+
+| subject | granted | what may reach forward |
+|---|---|---|
+| **William S. Burroughs** (1914-1997) | 2026-08-17, on the author's explicit instruction, given after the block-rule objection was put to him and overruled | the cut-up and the word-as-virus, carried forward to prompt injection and to the instability in LLM assemblies where adversarial agents feed each other text that co-opts and pollutes their directives |
+
+The reasoning that makes it more than a licence: Burroughs's cut-up was an
+attempt to destabilize consciousness by remixing, an injection into the human
+psyche, and propaganda is that same mechanism at scale. Both are his own
+project, in his own decades, and need no grant. The grant covers only the last
+step, naming what the mechanism does to machines.
+
+Such a stop still declares itself. It sits at Burroughs's own pin, is dated
+inside his life as an ordering device, and its `date_confidence` states that the
+forward reach is an author's grant recorded here, that Burroughs died in 1997,
+and that he is not on record on any of it.
 
 ## The list
 
@@ -66,7 +88,7 @@ contain an artifact that did not yet exist when the file's own clock stopped".
 | **J. L. Austin** (1911-1960) | performatives, felicity conditions, the illocutionary act | the spell; Briar Rose, the curse and its amendment |
 | **John Searle** (1932-2025) | the declaration, constitutive rules, X counts as Y in context C, status functions | the Merlin prophecy of the maiden from the hoary wood; its reading onto Joan of Arc in 1429 |
 | **Jacques Derrida** (1930-2004) | iterability, the mark that functions in the absence of its author, iter and the Sanskrit itara | Hansel and Gretel: the trail that exists only because it can be returned to, and is deformed by each return |
-| **William S. Burroughs** (1914-1997) | language as virus, the cut-up, rogue writing | to be set when the journey is written |
+| **William S. Burroughs** (1914-1997) | language as virus, the cut-up, rogue writing, playback | propaganda as the same mechanism at scale. Also holds a forward grant, see above |
 | **Nick Land** (1962- ) | hyperstition: the fiction that makes itself real | to be set when the stops are written |
 
 Land is living, so material contemporary with him is not an exception at all.
