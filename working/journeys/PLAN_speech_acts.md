@@ -26,9 +26,9 @@ exception, the Burroughs forward grant). House style: `atlas_tools/style.py`.
 | 1 | **J. L. Austin** | DONE. 9 segments. Pass 2 gave him the magic and prophecy segment, incl. the Briar Rose stops that are the template for every apparatus stop since. |
 | 2 | **John Searle** | DONE. 11 segments, 51 stops. Prophecy-as-declaration, the rites, and the LLM segment all added and then corrected per the ruling above. Report section 11 lists what is unverified. |
 | 3 | **Nick Land** | PARTIAL. Has hyperstition (vs Austin and Searle) and Capitalism is Artificial Intelligence. The injection stop was removed on the author ruling; that material is Burroughs's. Deep dive still owed, see below. |
-| 4 | **Jacques Derrida** | DONE. 45 stops. Iterability spine, the Searle quarrel (Baltimore/Evanston), the Hansel and Gretel apparatus segment per EXCEPTIONS.md. es/ edition written. Report flags several unresolved contradictions (Cambridge signatories, cancer diagnosis year, graveside sentence). |
-| 5 | **William S. Burroughs** | LAUNCHING NOW. Brief below. |
-| 6 | **Land deep dive** | NOT STARTED. After Burroughs. Brief below. |
+| 4 | **Jacques Derrida** | DONE. 45 stops. Iterability spine, the Searle quarrel (Baltimore/Evanston), the Hansel and Gretel apparatus segment per EXCEPTIONS.md. es/ edition written. Report flags several unresolved contradictions (Cambridge signatories, cancer diagnosis year, graveside sentence). Forward grant added 2026-08-17: the hors-texte quote on the 1967 stop, closed with the LLM resonance the author asked for. |
+| 5 | **William S. Burroughs** | DONE. 9 segments, 45 stops. Three-hosts structure (psyche: cut-up/Nova/Invisible Generation; institution: Scientology/Electronic Revolution, backward apparatus, no separate stop needed; machine: 2-sentence forward-grant close on "Paris, The Ticket That Exploded," avoids the phrase "prompt injection" in his own prose). Joan Vollmer's death stated flat. es/ edition written. Gate found and fixed 16 violations. |
+| 6 | **Land deep dive** | NOT STARTED. Brief below. |
 
 ## Burroughs brief (next to run)
 
