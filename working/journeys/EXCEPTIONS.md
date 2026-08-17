@@ -11,6 +11,32 @@ This file names the exception. A subject listed here may have their **theoretica
 framework applied backward** to events they never themselves discussed, as stops
 on **their own file**. The framework travels; the person does not.
 
+## The governing formulation
+
+Ruled by the author, 2026-08-17, and it settles the question better than any
+prose above or below it:
+
+> The words can gaze on previous events and prophesize future events, but a 2026
+> block hash cannot be written in a 2016 OP_RETURN. A 2016 block hash can however
+> be embedded in a 2026 OP_RETURN.
+
+A journey file is a block. It is stamped at its own moment and it can only
+embed what already exists at that moment.
+
+- **Searle's file may embed the 1429 coronation.** Old hash, new block. This is
+  the whole of the exception, and it is why the apparatus stops are legal.
+- **Joan's file may not embed Searle.** New hash, old block. Not a stylistic
+  preference: it is not a thing that can be written.
+- **But the words themselves may gaze forward.** A prophecy in 1429 speaks of a
+  maiden not yet come, and that is not a forward reference, because an open
+  utterance about the future contains no later artifact. Merlin's file and
+  Joan's file carry their prophecies exactly as they stand. What they must never
+  carry is the pointer: the slug, the file name, the twentieth-century
+  philosopher. Prophecy is words gazing forward. A `suggested_ref` is a hash.
+
+So the test is not "does this stop mention something later" but "does this file
+contain an artifact that did not yet exist when the file's own clock stopped".
+
 ## What the exception licenses
 
 - Stops on the listed subject's own file, at the listed subject's own pin, dated
