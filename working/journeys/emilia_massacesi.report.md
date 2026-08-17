@@ -1,201 +1,161 @@
-# Emilia Massacesi / Emilia Portman: research report
-*2026-08-16. Buenos Aires. Choreographer, dancer, scenic director, teacher; competitor in exotic pole dance under a second name.*
+# Emilia Massacesi: research report
 
-Legend: **[A]** = attested, source named · **[R]** = reconstruction, inference, or tradition · gaps are stated as gaps, contradictions are flagged and left open.
+*Compiled 2026-08-16. Buenos Aires. Professionally also **Emilia Portman**, **Em Port**, **Emi Massa**. Licenciada en Composición Coreográfica (Universidad Nacional de las Artes, thesis defended 2023); pole and exotic dance competitor since 2021; director of Almagro Exotic Club.*
 
-Two documents carry almost the whole of this subject: her graduate profile at the Universidad Nacional de las Artes, Departamento de Artes del Movimiento, and a fourteen-page portfolio PDF linked from it. Everything else is Instagram.
+Legend: **[A]** attested, source named · **[R]** reconstruction, inference, or author-supplied claim not independently verifiable.
 
----
-
-## 0. The state of the record, before anything else
-
-**The portfolio is a closed document, not a current one. [A: PDF metadata]** Its metadata reads `/CreationDate D:20230630223732`, `/Title` "Emili Portman porfolio 2023" (misspelled as saved), `/Author` "Emilia Massacesi", `/Creator` and `/Producer` "Canva". Made **30 June 2023**, never updated. This governs how the whole file must be read: the record does **not** thin out after 2023, the source simply stops. Anything later comes from Instagram or the university page.
-
-**The UNA profile links it as a Google Drive file [A]**, not as a Canva URL. Canva is the tool; Drive is the delivery.
-
-**What is genuinely uncorroborated is narrower than "everything". [A/R]** Third-party corroboration exists and must be credited: the UNA page independently confirms the 2022 and 2023 FIBA premieres, Lucila Schmidt's co-direction of *Solos Compartidos*, Janaina Leite's direction of *El Acuário*, and Prodanza support for two works; `@libertadbuengusto`, which she does not control, confirms the 22 August 2026 booking; Bandcamp confirms the *PAJUERANA* release date. What rests **solely** on her own 2023 portfolio and her Instagram is: **every competition placing and medal, and every performance date.** No festival programme, review, or competition results page was reachable in any pass.
+**A note on the principal source.** The longest source is a video interview from **NewsDigitales / Living** (host Marisol), used through a machine transcript. It is automatic speech recognition and **it fails on proper names**: one file produces "Greenstein" for Grinstein, "Fraquia" / "Frquia" / "Fráquia" for one surname, plus "Cheguevara", "Lidback", "al Magro", "Lit Kila". Where a press source and the captions disagree, the press source wins and the caption spelling is recorded, not deleted.
 
 ---
 
-## 1. Origins: an absence verified, not an absence unsearched
+## 1. Origins: what is not recorded
 
-**No birth date, birthplace, cohort year, prior school, or graduation year is recorded in any reachable source. [A: absence confirmed on the two likeliest documents]** This is not the residue of an exhausted search budget. The full UNA graduate profile was fetched and read, and all fourteen portfolio pages were read; neither carries any of it.
+**No birth date and no birthplace appear in any reachable source [A, negative].** Not on the UNA graduate roll, not on alternativateatral, not in the portfolio PDF, not in either NewsDigitales piece, not on any channel of hers. Re-checked this pass; still true. The file opens in the middle of a life.
 
-**Earliest attested date in her working life: 2019 [A: portfolio p.9]**, the start of *Solos Compartidos*. By that date she is already co-directing.
+She gives two origin memories and weights them equally: a cousin's **costume tutu**, found at the house of older cousins who did not dance, put on and not given back, a dance class following ("¿Cómo llegó la danza a mi vida? Creo que a través de un tutú.") **[A: ll. 18-28]**; and dancing **as Shakira** at a birthday costume party "en los 2000", "salvajemente", with no Arabic-dance training, which she frames as coexisting with the first rather than replacing it **[A: ll. 40-53]**. **Childhood training [A: ll. 59-70]:** neighborhood schools in the **west of Buenos Aires province**, where the custom was to teach several styles under one roof; she begins with **clásico español** and **zapateo americano**, changes school, finds **jazz**.
 
-**Degree [A: UNA graduate profile]:** Licenciatura en Composición Coreográfica, mención Danza, from UNA's Departamento de Artes del Movimiento, **Martín Rodríguez 444, La Boca, Buenos Aires**. No entry or completion year given.
-
-> "Creadora, bailarina, directora escénica y docente. Licenciada en Composición Coreográfica mención Danza." **[A: UNA graduate profile, author-supplied bio line]**
-
-**Method statement, in her own words [A: UNA graduate profile]:**
-
-> "Su trabajo artístico consiste en desnaturalizar los hábitos de composición y creación en danza académica escénica a través de la reconstrucción histórica de un archivo local y el cruce con lenguajes populares."
-
-The local archive is **not named** anywhere; the popular languages are **not listed**. Gap. Everything that follows, theatre track and pole track alike, can be read against this one sentence, the only statement of purpose she has published.
+**Geographic gap, flagged.** She names only "el oeste, en provincia de Buenos Aires". No town. Prior passes pinned the identical claim ~14 km apart: Morón (-34.6511, -58.6217) and Moreno / Paso del Rey (-34.6547, -58.7736). **Neither is sourced.** This file uses the Morón point as one stand-in for both childhood stops and the 2020 return, declared as such in each `date_confidence`.
 
 ---
 
-## 2. El Taller de Omar, 2019-2021
+## 2. Formation, 2012-2018
 
-**[A: portfolio p.9]** *Solos Compartidos* (two solos, *Café Mandolina* and *Pigmenta*), co-directed and danced with **Lucila Schmidt**, at **El Taller de Omar**, 2019 to 2021. Schmidt's co-direction is **independently confirmed by the UNA page [A]**.
+**Her own periodization [A: "Así fue la formación, más o menos desde el 2012 hasta el 2018"].** She is enrolled at the **Departamento de Artes del Movimiento, UNA, Martín Rodríguez 444, La Boca** (Nominatim -34.6322215, -58.3628250) and takes many classes outside it. **Correction:** an earlier pass recorded "~80,000 outside classes" as fact. The line is "tomé 80,000 clases por fuera", Rioplatense hyperbole for "countless"; she gives the real figure eleven lines later, **five or six classes a day** with different teachers, across ballet, contemporary and jazz. **[A: ll. 105-135]**
 
-**[A: portfolio p.7]** *Un rocío llamado Automovilina*, 2021, same venue, credited **directora e intérprete**, no co-author: the first work in the record entirely hers.
+**Two teachers named:** **Gerardo Litvak**, composition, who broke her self-described "snob" phase, "no se le escapa una" **[A: ll. 236-250; corroborated by newsdigitales.com/nota/326577, which calls him instrumental to her development]**; and **Natalia Mucio**, technique, whose "entrega total" she praises **and immediately calls "innecesaria"** (an earlier pass cut the quote before the qualifier, reversing the sense) **[A: ll. 254-259]**.
 
-**[A: UNA graduate profile]** Prodanza (the city's dance fund) supported two of her works. The page does **not** say which two. Gap.
-
-**Venue gap [A]:** El Taller de Omar has no findable address; it appears in the portfolio as a name and nowhere else reachable, so both stops take the city-level Buenos Aires pin rather than a street pin. No programme, press notice, recording, or audience count survives for either production.
+**Viceversa, Gorriti 5839, Palermo Hollywood** (Nominatim -34.5829573, -58.4396721): "Taller de Formación de Bailarines", 2013-2015. **[R: LinkedIn, author-supplied]** LinkedIn blocks automated retrieval. It matters because it would make her 2018 performance in *Castadiva 20 años* at that address a **return to a room she trained in**: an inference on an unverifiable source, and described as inferred, not documented.
 
 ---
 
-## 3. The second name: exotic pole competition, 2021-2023
+## 3. Earliest attested trace: January 2015
 
-All four placings rest on the portfolio alone; every organiser's results page was **unreachable**.
+**Corrected.** Prior research called the earliest footage "Danza Contemporanea febrero 2015" and dated it February 2015. `yt-dlp` on @emiliamassacesi4887 returns:
 
-| Year | Event | Category | Result | Routine | Venue |
-|---|---|---|---|---|---|
-| 2021 | Exotic Generation Argentina | New Face | **Silver** | *Medusa* | Paseo La Plaza, Av. Corrientes 1660, BA **[A p.14, photo Natah Szuka]** |
-| 2022 | Exotic Generation Latinoamérica | Flow | **Silver + Mejor Coreografía** | *Kitsune Kitten Fantasy* | Teatro Libre, Bogotá **[A p.11, photo Pole Maniax]** |
-| 2022 | Pole-up | High Heels Pro | **Bronze** | adapted from *Naruto* | Teatro del Globo, M. T. de Alvear 1155, BA **[A p.12, photo Romina Soledad]** |
-| 2023 | Hypnotic Experience Show | Dance Expert | **First place** | *Salvaje* | The Roxy Live!, Palermo **[A p.10, photo Natah Szuka]** |
+| video | id | upload date |
+|---|---|---|
+| Danza contemporánea - Emilia Massacesi | TrexXvZgLa8 | **2015-01-15** |
+| Danza Contemporanea febrero 2015 | 7u-GWhBkQvQ | **2015-01-17** |
 
-**Bogotá venue, corrected [A/R]:** the portfolio says only "Teatro Libre, Bogotá, Colombia". Teatro Libre runs **two** houses, de Chapinero (Calle 62 9A-84) and del Centro. Which one is **unstated**; naming a neighbourhood would be an assumption and is not made here.
-
-**Roxy venue, corrected [A: OSM]:** the portfolio's "Teatro The Roxy" is **The Roxy Live!**, Av. Coronel Niceto Vega 5542, Palermo, geocoded at -34.5871372, -58.4389744. Not an unlocatable string, and a rock club rather than a theatre.
-
-**The pseudonym [A: UNA graduate profile, final paragraph]:**
-
-> "Paralelamente investiga otros campos escénicos no académicos como el exotic pole dance, desarrollándose profesionalmente como bailarina y performer en clubes nocturnos y como atleta en competiciones de alto rendimiento, habiendo sido premiada en distintos campeonatos nacionales e internacionales, bajo el pseudónimo Emilia Portman / Em Port."
-
-The institution states the nightclub work plainly and names **no club and no date**. Gap.
-
-**"Emi Massa" as a third public name: [R]** carried in the author-provided brief as a press byline; no such byline was located in any reachable source. Unverified.
+The title's month is contradicted by its own upload date and **cannot anchor a date**, and the "febrero" video is **not** the earliest. **The earliest attested trace of her anywhere is mid-January 2015 footage on her own channel [A: yt-dlp]**, before the 2015 stage credits and four years before the 2019 floor an earlier pass had. The channel (40 items) is in practice **the only continuous archive of her work anyone kept**, and it surfaces four competitions absent from every written account including her own portfolio: **Exotic Generation Spain 2025 (Old School Pro)**, **K Perras Show, Oaxaca, México 2024**, **El Quilombo 2024**, **Em Portman Temptation Show 2025**. **[A]** Unmined: "Entrevista La Guaragua" (c0U7DhOLupA, 3500 s, uploaded 2024-02-07), the largest unexploited source on this subject.
 
 ---
 
-## 4. Directed by Rodrigo Arena, 2021-2023 (and 2026)
+## 4. The company years, 2015-2018
 
-The longest working relationship the record holds.
+**UNA student company from 2015, three years, "de lunes a sábado, de 9 a 1". [A: ll. 285-319]**
 
-- **2021, Centro Cultural Haroldo Conti**, Av. del Libertador 8151 (former ESMA grounds): *Yéssica de Adrogué*, dir. Rodrigo Arena. **[A: portfolio p.8]**
-- **2022, Edificio de La Prensa / Casa de la Cultura**, Av. de Mayo 575: *El caso Arena Rodrigo contra la danza contemporánea*, dir. Rodrigo Arena, for **FIBA**. **[A: portfolio p.5, photo Evelyn Caneto; FIBA 2022 credit independently on the UNA page]**
-- **2022, El Cultural San Martín**, Sarmiento 1551: season of the same production. **[A: portfolio p.5]** No dates, no performance count. Gap.
-- **2022, Uniclub**, Guardia Vieja 3811: *PAJUERANA*, presentation show for the Chocolate Remix record, dir. Rodrigo Arena. **[A: portfolio p.13, photo Daniela Cilli]**
-- **2026, Espacio Peces, Barracas**: announced, see §7.
+**Director: Roxana GRINSTEIN, not "Greenstein". [A: alternativateatral.com/obra39128, the 2015 UNA company ficha for *Laboratori de Cruce*, listing Grinstein as director with Massacesi in a 25-dancer cast]** "Greenstein" is an ASR artifact. The correction is applied throughout, including inside the quoted sentence, which is truncated before the surname rather than reproduced with the error.
 
-**Date question raised and closed [A]:** an earlier pass flagged a conflict between the portfolio's 2022 dating of the *PAJUERANA* show and Bandcamp's release date of **1 October 2021** (6 tracks, a Digital Album; the portfolio calls it a *disco*, not an EP). **There is no conflict.** A record-*presentation* show routinely postdates the release.
+Credits by year, all from alternativateatral fichas **[A]** unless noted. **2015**: *Laboratori de Cruce* (Jardín Botánico Carlos Thays; choreography Ana Frenkel and Emanuel Ludueña, music Tonolec, dir. Grinstein); *En El séptimo cielo* (Plaza Mariano Boedo); *El Laberinto de la historia* (CETC, Teatro Colón). **2016**: *Boicot* (dir. Nicolás Poggi; also CC 25 de Mayo); *Pequeños retratos* (dir. Daniel Goldín); *3 o 4 indicios sobre Emilia M.*, a videodanza work in which she performs, whose title appears to name her **[R: no source states the identification]**. **2017**: *UNANochedeBaile*, **directed by Gerardo Litvak**, her own composition teacher (CC Rector Ricardo Rojas); *Un simple aleteo de pestañas puede expresar cólera* (CC San Martín), **Premio Graduados a la Creación 2017**.
 
-**Barrio correction [A: OSM]:** Guardia Vieja 3811 is in **Almagro** (Comuna 5); "Abasto" is an informal sub-area name. Coordinate corrected to -34.6008, -58.4181, some 600 m from the earlier pin.
+**Compañía Castadiva.** She joins in the last year of the UNA company and the year after, dances **two years**, calls it "mi sueño", and names Castadiva and the UNA company as her two "hitos" **[A: ll. 321-338]**. **Director: Mónica FRACCHIA [A: newsdigitales.com/nota/326577]**; the captions spell it three ways in one file, and an earlier pass made the caption spelling primary and the press spelling the variant, inverting the two sources' reliability. Corrected; caption spellings recorded, not deleted. **Carried over unverified [R]:** *Juventud* and *Castadiva poética* sit on the **master profile without dates or venues**, and the 2017/2018 years with the CC de la Cooperación / Sala 420 venues come from a prior pass.
+
+**2018: *Castadiva 20 años*, Viceversa, Gorriti 5839 [A: obra60782]**, performer and production assistant; last year the record shows her inside a company. **2018-2019: *Plan B*, assistant director, Teatro Mandril [A: obra49892]**: dates November 2018, May 2019, November 2019, the ficha silent on which she assisted, and the piece premiered May 2017, before her credit begins. First credit in which she is not dancing.
 
 ---
 
-## 5. The tour year, 2022-2023
+## 5. Pin stacking (a data defect, stated as one)
 
-*El caso Arena* travels. All four festival stops come from a single comma-run on portfolio p.5; **no festival programme was reachable** to confirm any of them.
-
-- **Teatro Auditorium, Mar del Plata**, Festival Cuerpx, Arte y Género, 2022 **[A]**, the first time her name appears outside Buenos Aires.
-- **Teatro Lavardén, Rosario**, Festival El Cruce, 2022 **[A]**. *Coordinate corrected* to OSM's Plataforma Lavardén (Mendoza y Sarmiento), -32.9517, -60.6392; the earlier pin was about 820 m off.
-- **Teatro Municipal de Bahía Blanca**, Alsina 425, Festival Internacional de Artes Escénicas Bahía Teatro, 2023 **[A]**. *Coordinate corrected* to OSM's Alsina 425, -38.7149, -62.2602; the earlier pin was about 460 m off.
-
-**Gap [A]:** whether she danced every house of the tour or joined partway is **not stated** anywhere.
+The geography lens placed **fourteen stops on the identical point -34.6037, -58.3816**, the Obelisco-area fallback used wherever a venue would not geocode; fourteen pins on one coordinate render as one dot. This file cuts that to **ten** by consolidating, and does **not** invent coordinates for the rest. Unresolved: **Teatro Mandril** (addressed San Cristóbal theatre, **no OSM node**); **El Taller de Omar** (no street in any gazetteer); **Espacio Peces** (no OSM node, no street named Peces in CABA, so -34.6485 / -58.3841 is unanchored); **Exotic Generation Spain 2025** (country only, so a declared Madrid stand-in). Corrected in: UNA to -34.6322 / -58.3628 (was 4 km off); Gorriti 5839 to -34.583 / -58.4397 (~1 km off, wrong barrio); Nos en Vera to -34.5917 / -58.4447 (~950 m off); Rosario and Bahía Blanca to their OSM geocodes.
 
 ---
 
-## 6. *El Acuário*, 2023, and one unresolved venue string
+## 6. The break, 2020
 
-**[A: portfolio p.3, photo Lau Castro Foto; UNA page lists the 2023 FIBA credit]** *El Acuário*, directed by the Brazilian artist **Janaina Leite**, the only director from outside Argentina in her record, at **Centro Cultural Recoleta**, Junín 1930, for FIBA.
+**Pole from 2020, in the pandemic, after moving back west, unemployed. [A: ll. 505-525]** The trigger she names is an **Instagram reel of a Russian exotic dancer**. She notes an inversion: the provincial pole scene is larger than the capital's, the reverse of concert dance.
 
-**Ambiguity, flagged and left open [A/R]:** portfolio p.3 lists the venues in one comma-run: "FIBA, Teatro Bombón Gesell, Centro Cultural Recoleta CABA, 2023". Read as a single name, "Teatro Bombón Gesell" matches nothing in any gazetteer. The **likeliest reading is two items with a dropped comma**: *Teatro Bombón*, the roving Buenos Aires site-specific cycle, and its Villa Gesell edition. A previous pass asserted the string matches no Buenos Aires Bombón cycle; that **overstated the evidence**, gazetteer silence being exactly what a roving cycle with no fixed address produces. Recorded as ambiguous and **unconfirmed**.
+**Overlap, not handoff [A].** In **August-September 2020** her channel fills with recorded contemporary classes: eight *Clase Contempo*, two *Estiramientos de Tardecita*. She is **teaching contemporary and starting pole in the same months**, so any clean sequential-break narrative is contradicted by her own upload dates.
 
----
-
-## 7. The living record, 2023-2026 (Instagram only)
-
-**Two accounts [A: profile headers, 2026-08-16; both linked from the UNA page]:** the public, verified **@em.port_** (5,191 followers) and the private **@emili.portman** (2,102).
-
-**Bio, verbatim [A]:** "E M I L I A" · "La Casa del Hoteo 🫦 @almagroexoticclub" · "22/8 @libertadbuengusto" · "28/8 Illusion Lov€".
-
-**La Casa del Hoteo, Almagro [A]**, a night or residency tagged to `@almagroexoticclub`, running **since 2023**. Her exact role (owner, teacher, resident dancer, host) is **unstated by every reachable source**. Gap.
-
-**Dating the residency [A]:** a post of **10 July 2026** carries stylised lettering reading "3 AÑOS ALMÁGRO", the club's own "EXOTIC Club" wordmark, and "LACASADELHOTEO". Three years back is 2023. The image's own lettering carries a spurious accent, ALMÁGRO. **The verified quotation form is "3 AÑOS ALMÁGRO", not "tres años Almagro"**; an earlier pass carried both, and they are not interchangeable.
-
-**@almagroexoticclub is access-restricted [A]:** "unavailable for certain audiences" on unauthenticated fetch, 2026-08-16, withholding bio, address, roster and programme.
-
-### The 15 January 2026 post, and a contradiction not resolved
-
-**Confirmed by direct fetch [A]:** `instagram.com/p/DTixZF2lYKl/`, dated **15 January 2026**, caption **"Banderas en mi corazón"**, tagging **@temptation.show** and **@rominasoledad.ph**, **107 likes**, **1 comment**. The date is independently confirmed by decoding the shortcode to media id 3810825463259300517, timestamp 2026-01-15 19:36:57 UTC.
-
-**Corrections to earlier passes [A]:**
-- The page reports **1 comment, not zero**. The earlier claim that no comments were posted, read as "engagement asymmetric toward silent approval", is **wrong**, and the reading built on it is withdrawn. What was observed is that comments are **not displayed to an unauthenticated viewer**.
-- The **four-frame carousel count** and the **Patricio Rey y Sus Redonditos de Ricota soundtrack** are **not confirmed** by anything reachable: the fetched page returns "a photo", no frame count, no audio attribution.
-
-**CONTRADICTION, FLAGGED, NOT ADJUDICATED: the costume.** Two identifications of the same images stand against each other in this dossier:
-1. **Fidel Castro**, "cigar included", the identification carried in the earlier pass of the journey file.
-2. **Che Guevara**, specifically, on the evidence of an **olive beret with a red star**, per the author's stated direct visual inspection of the images inside the Instagram application.
-
-Neither is recoverable by unauthenticated fetch. The red-star beret is a Guevara signature and not a Castro one, which favours (2); but (2) rests on a single stated in-app viewing no reader of this file can repeat, and the fetched page yields no image description at all. **Left open.** The post names **no venue and no city**.
-
-**Companion post, restated correctly [A]:** `instagram.com/p/DTLhivHiULF/`. An earlier pass called it unresolvable. It is not: the profile listing shows a post on **6 January 2026**, and decoding the shortcode (media id 3804281832833893061) gives 2026-01-06 18:55:56 UTC. What did **not** resolve is its **caption and comments**. Recorded as unread, not absent.
-
-### Announced and not yet performed
-
-**22 August 2026, Espacio Peces, Barracas [A: @libertadbuengusto's own bio and event billing; @em.port_ bio "22/8 @libertadbuengusto"]:** the cabaret **Libertad & Buen Gusto**, whose bio calls it a "Cabaret de Artepobre", within the cycle **Poéticas del Encuentro**, 20:00 hs. The billing prints "CABARET DE ARTE POBRE de RODRIGO ARENA y CANDE PIMIENT[O]" and the account is co-run with `@deleonsperanza`: **not Arena's alone**, and **Cande Pimiento** must not be dropped from the credit.
-
-Three corrections to earlier passes, all material:
-- **"edición HAPPENING" appears in NO reachable source.** Searched explicitly on the account: zero occurrences, and it must come out of every field it was written into. The one "edición" string that does appear is a story highlight reading "6ta edición 😻", **contradicting** the earlier claim that no "6ta edición" appears anywhere.
-- **The Passline event page returns HTTP 403** under both URL forms and under site search, so it **cannot be cited as fetched** and the string "Espacio Peces | Santa Elena 442 - Barracas" cannot be traced to it. The venue's own account (`instagram.com/espaciopeces/`) renders it **"Santa Elena 442 | Barracas"**; cite that.
-- **ADDRESS CONFLICT, OPEN.** The venue's own account gives **Santa Elena 442**; the promoter's billing for this same 22 August date gives **"PECES Santa Elena 422, Barracas"**. Both circulate, roughly 30 m apart on one block (OSM: 442 at -34.6485183, -58.3841288; 422 at -34.6482611, -58.3842174), so the pin survives either way. **Not adjudicated.**
-
-**28 August 2026, "Illusion Lov€" [A: @em.port_ bio]:** no venue, no city, no hour, no tagged account anywhere. The furthest-forward entry in the record and the least documented.
-
-**Activity currency, corrected [A]:** an earlier pass gave "last confirmed public activity 15 January 2026", wrong by seven months. @em.port_ shows posts on **10, 11 and 14 July 2026** and **3 and 13 August 2026**, plus the two announced August bookings.
+**Her stated reasons [A: ll. 393-504]:** economic (few companies, many dancers, no dance law in force, no living without total self-management), and aesthetic, the work having stopped reaching her as a spectator. **Quotation corrected:** an earlier pass wrote "una **sala** de alienados", and "sala" is in **neither** source; long transcript (ll. 497-498) and short clip (ll. 167-174) read identically, "**como que sentí que estábamos como en una de alienados**", so the clip is not a "fuller" version of anything. Garbled ASR here, so the phrase is presented as approximate. Against it she sets "**provocación e incomodidad**".
 
 ---
 
-## 8. Lineage: what the Método Muller connects her to
+## 7. The competitive record, 2021-2025
 
-**[A: UNA graduate profile]** She teaches **Danza Moderna** and the **Método Muller** in schools and studios across the city and Greater Buenos Aires.
+| year | event | result | source [A] |
+|---|---|---|---|
+| 2021 | Exotic Generation Argentina, New Face, Paseo La Plaza | silver, as Emilia Portman | portfolio |
+| 2022 | Exotic Generation Latam, Teatro Libre, Bogotá | **silver (Flow) + Mejor Coreografía**, *Kitsune Kitten Fantasy* | portfolio p.11 |
+| 2022 | Pole-up, Teatro del Globo | bronze / third, the **Naruto** routine | portfolio; interview; press |
+| 2023 | Hypnotic Experience, The Roxy Live! | **first**, Dance Expert, *Salvaje* (Young Miko) | portfolio; YouTube |
+| 2023 | Exotic Generation Argentina, Hard | **third**, chacarera exótica | YouTube (2023-10-21); interview |
+| 2024 | K Perras Show, Oaxaca, México | not stated | YouTube title only |
+| 2024 | El Quilombo | not stated | YouTube title only |
+| 2025 | Exotic Generation Spain, Old School Pro | not stated | YouTube titles only |
+| 2025-11-30 | Temptation Show | **runner-up (sash)** | interview; YouTube |
 
-> "Se desempeña como docente de Danza Moderna y Método Muller en diversas escuelas y estudios de la Ciudad y del Gran Buenos Aires."
+**Three trophies shown on camera [A: ll. 1375-1456]:** the Colombia best-choreography medal, which she calls, wryly, her real university degree; a **flying-saucer** first-place trophy from Hypnotic Experience 2023; a **runner-up sash** from Temptation. **Corrections:** the **Colombia medal belongs to *Kitsune Kitten Fantasy*, Exotic Generation Latam 2022, Bogotá** (portfolio p. 11), not to the chacarera duet as an earlier pass had it; and **Temptation is dated**, 30 November (l. 1936), year 2025 by internal context plus the channel's newest upload.
 
-**[A]** The method is Jennifer Muller's. Muller was principal of the José Limón company (1963-71) and founder of Jennifer Muller/The Works; `jennifer_muller.journey.json` carries a commissioned work for **Ballet Contemporáneo** in Buenos Aires, the **only** Buenos Aires stop anywhere in the Delsarte-Stebbins-St. Denis-Humphrey-Limón-Muller chain. `jose_limon.journey.json` states explicitly that it has no Buenos Aires stop of its own.
+### The chacarera exótica, 2023: corrected twice
 
-**[R]** Muller's Buenos Aires commission is itself dated only by placement (c. 1985) in her own file. The connection from Muller's technique to Massacesi's teaching is a **transmission** claim, one-directional and real: she teaches the method, the method has a documented ancestry. Nothing asserts she met Muller or Limón.
+She and **Caru** dance a "**dúo lésbico gauchesco**" in 23 cm heels to a mash of **Chaqueño Palavecino's *La trampa es ley*** with a **Lit Killah** remix; Caru, folk-trained, also plays bombo mid-performance. **[A: ll. 1037-1047]** **Roles:** she is the **china**, Caru the **gaucha** (l. 1037); an earlier pass had it reversed. **Applause:** the crowd starts applauding **at the opening of the folk original**, which she explains by its place in cultural memory ("es algo que está en nuestro ADN"), **not** when the trap beat entered, as the earlier reading had it.
 
-**Analytical framing, rebuilt [R].** An earlier pass hung an argument on "the beret, the cigar", which are unattested; the argument collapses with them. What is documented, and makes the same point without the costume: a UNA-trained choreographer whose published method is the **denaturalising** of academic scenic dance teaches codified expressive-movement technique by day and competes in exotic pole dance by night under a second name, and the pole track fills **more pages of her own portfolio than the academic one**.
+**Contradiction flagged, not resolved.** The 28/02/2026 press profile names the partner "**Calu**" and frames the piece as having won a choreography award **in Colombia**. The interview says "**Caru**" consistently and does not connect the Colombia medal to this duet. Both readings stand.
 
-**Not interlocks [R].** Maradona's Bombonera is three kilometres from her faculty in La Boca; Guevara's medical faculty and Retiro departure sit in the same corridor as the Recoleta; Boal's Buenos Aires exile and the Haroldo Conti's ESMA history belong to the same city and other decades. **Shared geography is not a relation** and none is folded in as one. The Guevara case is the exception, and only because a costume identification is at issue (§7), not because of the map.
+### Pole lineage and community as she gives them [A: ll. 1440-1500]
 
-**Canonical pin note [A].** The Buenos Aires fallback coordinate **-34.6037, -58.3816** used across her undated city-level stops is byte-identical to the one in `che_guevara.journey.json`, `augusto_boal.journey.json`, `isabel_peron.journey.json` and `spinetta.journey.json`: a shared city-level anchor convention, **not** a claim of shared location or era.
+**Eva Bembo**, flow: fluid, undulating, on the edges of the shoe. **Olga KODA**, hard: grounded, forceful tricks on the whole sole (captions give "Olga Coda"; **Koda** is the standard romanization). **Old School**, "el del club, como el Full Hotness, seductor", **omitted by both earlier lenses** and the category she competes in at Spain 2025. **Fénix**, first to perform the butterfly **[A as her statement; uncheckable]**.
+
+**Judges at Temptation**, hedged as she hedges them: **Templo de Afrodita**, "creo que es de Costa Rica, vive en Estados Unidos" (l. 1450; the "creo que" must survive any restatement), and **Doris Arnold**, French (unhedged). **Neither verifiable this pass [R]** (WebSearch budget exhausted; DuckDuckGo CAPTCHA). Her community: teacher **Anita**, **Sofi Musitani**, **Erni Reinoso**, **Rodri Pulev** (now in Europe), **Caru**; peers named in one pass only, Devi Pascan, Lulis Pagnolo, May la Porta, Dani Raceto. None appears elsewhere in the corpus, so none is an interlock.
 
 ---
 
-## 9. Afterlife: none, and none should be manufactured
+## 8. Rodrigo Arena, 2021-2025
 
-**[R]** She is living, working, and booked. There is no tomb, no posthumous edition, no monument, no legend of rediscovery; the standard afterlife categories do not apply and are not to be fabricated to fill a template. The one thing here that functions like an afterlife apparatus is her own portfolio, a closed historical document at three years old while its subject keeps performing.
+Five works **[A: portfolio; UNA graduate page for festival credits]**: *Yéssica de Adrogué* (CC Haroldo Conti, 2021); *El caso Arena Rodrigo contra la danza contemporánea* (Edificio de La Prensa, FIBA 2022; season at El Cultural San Martín 2022; tour to Mar del Plata and Rosario 2022, Bahía Blanca 2023); *PAJUERANA*, the Chocolate Remix record, at Uniclub 2022 (Bandcamp release 1 Oct 2021, not a conflict); and **Libertad y buen gusto**.
+
+### The Che Guevara number
+
+She names her "último número" herself: the **Che Guevara** piece at "**Libertad y buen gusto**", an art-povera cabaret run by **Rodrigo Arena** and "**C de Pimient**", running **May to December**, last date **28 December**, under the brief "defender la libertad con buen gusto". She calls Guevara "**una especie de mi héroe**" and kept developing the number over the run rather than performing it once and discarding it, unlike most pole reels. **[A: ll. 1063-1096]**
+
+**"CONFIRMED" was not earned and is withdrawn.** A prior pass marked venue and year confirmed; **the interview names neither**. Espacio Peces comes from an Instagram cross-reference, 2025 from the recording window; carried as **inferred**, on an unanchored Barracas point (§5). It does resolve, by her own testimony rather than by inference from a photograph, an earlier dispute over whether the red-star beret in the 15 January 2026 Instagram post read as Guevara or Castro. **The photo-based dispute is left on record.** A sequencing question stays open: if the cabaret's last night is 28 December of the same year, the run postdates the post it corroborates.
+
+---
+
+## 9. Almagro Exotic Club
+
+**Start c. 2023 [R: derived by subtraction]** from an Instagram post of 10 July 2026 counting three years, in a room she calls **La Casa del Hoteo**. No lease, opening notice or founding date anywhere reachable.
+
+**As of the 2026 interview [A: ll. 1972-1996]:** teaches **pole sport, pole exotic, floor work**; **three to four instructors** with two more incoming; a stated intention to move to a **larger space in 2026** (intention, not fact). She calls it a "**zoológico**": multilevel, no dress code, no single acceptable technique level. **Corroborated [A: newsdigitales.com/nota/326577]:** the club's inclusion of queer and trans performers she says are excluded from conventional conservatories. The interview adds her account of confronting her **own** prior prejudice, contemporary-dance training in her words not admitting surgically altered bodies or botox. **This supersedes** an earlier framing in which her role there was said to be unstated everywhere; she calls it "mi estudio de danza".
+
+**Return to the university [A: ll. 1712-1719]:** an "ayudante" post on one course, which did not continue; she frames it as an unfinished search for what belongs "en el intersticio" between the popular and the academic, not as a rupture. **No source names the course, year or faculty.** **Método Muller [A: UNA graduate roll, undated]:** listed as teaching Danza Moderna and the Método Muller, a **one-directional transmission**, with nothing asserting contact with Jennifer Muller or José Limón.
+
+---
+
+## 10. Illusion Lov€, and a date that will not reconcile
+
+**Corrected: the page IS retrievable.** Two prior passes recorded nosenvera.com as HTTP 403. It was fetched and its embedded JSON read: **director Emilia Massacesi**, **Vera 1350** (Villa Crespo, CABA), date field **2026-08-31**, subject the erotic dimension of dance, sex work and the implications of its monetization, staged through a **fictional nightclub** as scenic device. **[A]** **Also corrected: the event type.** `eventTypes` is `["Residencia"]`, under "Resultados - Residencias - Agosto 2026": a **residency-selection announcement, not a performance billing**.
+
+**Contradiction flagged, not resolved.** Her Instagram bio carries "28/8 Illusion Lov€" with no venue; the listing is dated the 31st. One thing misdated, a preview/opening pair, or two engagements under one title: **not resolved here.** The bio was not re-fetchable this pass.
+
+---
+
+## 11. Interlocks
+
+Named inside campas on a **real one-directional relation**, never shared geography: **che_guevara** (she personifies him on stage in a number developed over a whole cabaret run, calling him "una especie de mi héroe"); **jennifer_muller** (she teaches the **Método Muller**, per the UNA graduate roll); **jose_limon** (indirect: named only as the company Muller danced in before founding her own, the chain the technique descends through, with no claim of contact). **Rejected:** *aime_bonpland*, *alejandro_christophersen*, *ceferino_namuncura*, all shared geography only.
+
+---
+
+## 12. Honest gaps
+
+**On AI, recorded but not staged as a stop [A: ll. 599-667]:** bounded, largely abandoned use (post drafts, a cash-flow projection for the studio; she has gone back to her own flyers). She never says she stopped generating images: that is a standing refusal, not an abandoned practice.
+
+**No birth date, no birthplace**, from any source, in any pass; **no town in the west**, so every western pin here is an editorial stand-in; **no thesis title and no copy of the thesis**. **Eight alternativateatral credits are dateless and venueless** (*Plan B*, *Juventud*, *Un simple aleteo...*, *Pequeños retratos*, *Boicot*, *3 o 4 indicios sobre Emilia M.*, *El Laberinto de la historia*, *En El séptimo cielo*): master profile only, whose 16 credits are roughly double what earlier passes found. **Four post-2023 competitions exist only as video titles**, with no month, venue, category or result. **"Entrevista La Guaragua"** (58 min, 2024) unmined. **Venues that will not geocode:** Teatro Mandril, El Taller de Omar, Espacio Peces. **Templo de Afrodita and Doris Arnold** untraceable; the **Fénix / butterfly** attribution uncheckable.
 
 ---
 
 ## Sources
 
-**Reachable and fetched**
-- UNA, Departamento de Artes del Movimiento, graduate profile: `https://movimiento.una.edu.ar/graduadxs/massacesi-emilia_26`: degree, method statement, teaching, pseudonym, FIBA 2022 and 2023 credits, Schmidt co-direction, Leite direction, Prodanza support, links to both Instagram accounts and to the portfolio.
-- Portfolio PDF, 14 pp., `/CreationDate D:20230630223732`, `/Author` Emilia Massacesi, `/Title` "Emili Portman porfolio 2023", Canva; served from `drive.google.com/file/d/1fJQx7rcmvfcwelShmpCpSATB_SVB2LSA`. Pages cited: 3, 5, 7-14.
-- Instagram: `@em.port_` (public, verified; bio, listing, post pages); `@emili.portman` (private, header only); `@libertadbuengusto` (bio, event billing); `@espaciopeces` (venue address).
-- `chocolateremix.bandcamp.com/album/pajuerana`: release 1 October 2021, 6 tracks.
-- OpenStreetMap / Nominatim, for the four coordinate corrections (Lavardén, Bahía Blanca, Guardia Vieja 3811, Roxy Live!) and the two Santa Elena numbers.
-- Corpus files for the lineage: `jennifer_muller.journey.json`, `jose_limon.journey.json`, `delsarte.journey.json`, `stebbins.journey.json`, `saint_denis.journey.json`; `QUEUE.md` lines 901-902, whose Limón and Muller entries both name her as the chain's downstream terminus.
+**Reachable and used**
+- **NewsDigitales / Living interview** (host Marisol), machine transcript `massacesi_interview_clean.txt`, plus the Shorts clip `massacesi_short.es.vtt`. Richest source; ASR, unreliable on proper names.
+- **newsdigitales.com/nota/326577**, press profile, 28 February 2026. Authority for *Fracchia*; corroborates Litvak, the Naruto number, the club's inclusiveness; source of the contradictory "Calu" and Colombia-award framing.
+- **alternativateatral.com/persona299141-emilia-massacesi** (master profile, 16 credits) plus twelve individual fichas: obra39128, 34967, 37437, 41160, 44244, 40597, 51397, 51207, 52992, 59397, 60782, 49892.
+- **youtube.com/@emiliamassacesi4887**, full 40-video listing via **`yt-dlp`**, which supplied every upload date here and lifted the "unconfirmed" flag an earlier pass placed on this channel.
+- **Massacesi portfolio PDF**, 14 pages, `CreationDate D:20230630223732`: closed 30 June 2023, never updated. **UNA graduate profile page**; **nosenvera.com** residency listing (retrieved; the prior 403 report was wrong); **Nominatim / OSM** geocodes; **Bandcamp** for *PAJUERANA*; Instagram **@em.port_**, **@libertadbuengusto**, **@espaciopeces**.
 
-**Named as inaccessible, with the reason**
-- `@almagroexoticclub`: "unavailable for certain audiences" to unauthenticated fetch, 2026-08-16. Bio, address, roster, programme all withheld.
-- Passline event page for the 22 August 2026 booking: **HTTP 403** on the event path, the alternate event slug, and site search. Cannot be cited as fetched.
-- `instagram.com/p/DTLhivHiULF/`: caption and comments not returned; only the interface shell. Date recovered by shortcode decode instead.
-- Festival and competition archives: FIBA, Cuerpx Arte y Género, El Cruce, Bahía Teatro, Exotic Generation (Argentina and Latinoamérica), Pole-up, Hypnotic Experience Show. **None reachable in any pass**, which is why every placing and date is single-sourced.
-
-**Checked and negative**
-- Birth date, birthplace, cohort year, graduation year: **absent from the UNA profile and from all fourteen portfolio pages**, both read in full.
-
-**Contradictions left open**
-1. The 15 January 2026 costume: **Castro** (earlier pass) vs **Che Guevara** (author's in-app viewing, red-star beret). §7.
-2. Espacio Peces street number: **442** (venue's own account) vs **422** (promoter's billing). §7.
-3. "Teatro Bombón Gesell": one venue string, or two with a dropped comma. §6.
-4. Teatro Libre, Bogotá: which of the two houses. §3.
+**Named as unreachable, with the reason**
+- **LinkedIn profile**: blocks automated retrieval. The 2013-2015 Viceversa dates rest on it alone, and the "return to the same room in 2018" is inference built on it.
+- **Instagram @almagroexoticclub**: access notice on unauthenticated fetch, 16 August 2026. **Instagram bio (@em.port_)**: the "28/8 Illusion Lov€" line not re-fetchable, so the date conflict stands unadjudicated.
+- **Templo de Afrodita, Doris Arnold**: WebSearch budget exhausted, DuckDuckGo CAPTCHA, Brave 429. Nothing found. **"Entrevista La Guaragua"**: on the channel, not transcribed this pass.
+- **Results archives for every competition in §7**: none reachable for any edition. The competitive record rests entirely on her portfolio, her own video titles, and her own spoken account.
