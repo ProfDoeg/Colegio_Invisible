@@ -76,10 +76,16 @@ psyche, and propaganda is that same mechanism at scale. Both are his own
 project, in his own decades, and need no grant. The grant covers only the last
 step, naming what the mechanism does to machines.
 
-Such a stop still declares itself. It sits at Burroughs's own pin, is dated
-inside his life as an ordering device, and its `date_confidence` states that the
-forward reach is an author's grant recorded here, that Burroughs died in 1997,
-and that he is not on record on any of it.
+**Scope, ruled 2026-08-17: one or two sentences.** Prompt injection is a
+contemporary *example*, not a subject. It closes a stop that is otherwise
+entirely Burroughs's own and it never gets a stop of its own, a segment, or a
+place in a stop name. If it runs longer than a sentence or two, it has stopped
+being an example and the grant no longer covers it.
+
+The stop still declares itself. It sits at Burroughs's own pin, is dated inside
+his life as an ordering device, and its `date_confidence` states that the forward
+reach is an author's grant recorded here, that Burroughs died in 1997, and that
+he is not on record on any of it.
 
 ## The list
 
