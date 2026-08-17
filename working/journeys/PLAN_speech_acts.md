@@ -26,8 +26,8 @@ exception, the Burroughs forward grant). House style: `atlas_tools/style.py`.
 | 1 | **J. L. Austin** | DONE. 9 segments. Pass 2 gave him the magic and prophecy segment, incl. the Briar Rose stops that are the template for every apparatus stop since. |
 | 2 | **John Searle** | DONE. 11 segments, 51 stops. Prophecy-as-declaration, the rites, and the LLM segment all added and then corrected per the ruling above. Report section 11 lists what is unverified. |
 | 3 | **Nick Land** | PARTIAL. Has hyperstition (vs Austin and Searle) and Capitalism is Artificial Intelligence. The injection stop was removed on the author ruling; that material is Burroughs's. Deep dive still owed, see below. |
-| 4 | **Jacques Derrida** | RUNNING, `wf_ac4b9393-f30`, launched 16:16. |
-| 5 | **William S. Burroughs** | NOT STARTED. Launches when Derrida lands. Brief below. |
+| 4 | **Jacques Derrida** | DONE. 45 stops. Iterability spine, the Searle quarrel (Baltimore/Evanston), the Hansel and Gretel apparatus segment per EXCEPTIONS.md. es/ edition written. Report flags several unresolved contradictions (Cambridge signatories, cancer diagnosis year, graveside sentence). |
+| 5 | **William S. Burroughs** | LAUNCHING NOW. Brief below. |
 | 6 | **Land deep dive** | NOT STARTED. After Burroughs. Brief below. |
 
 ## Burroughs brief (next to run)
