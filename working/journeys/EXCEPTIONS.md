@@ -69,6 +69,7 @@ so directly.
 | subject | granted | what may reach forward |
 |---|---|---|
 | **William S. Burroughs** (1914-1997) | 2026-08-17, on the author's explicit instruction, given after the block-rule objection was put to him and overruled | the cut-up and the word-as-virus, carried forward to prompt injection and to the instability in LLM assemblies where adversarial agents feed each other text that co-opts and pollutes their directives |
+| **Jacques Derrida** (1930-2004) | 2026-08-17, on the author's explicit instruction: "We should include it. It resonates deeply with LLMs specifically" | iterability and *il n'y a pas de hors-texte*, the mark or the text that functions and signifies with no reference to anything outside itself, carried forward to large language models: a system whose entire operation takes place inside text, with no access to any world, referent, or ground outside the text it was trained on and the text it generates |
 
 The reasoning that makes it more than a licence: Burroughs's cut-up was an
 attempt to destabilize consciousness by remixing, an injection into the human
@@ -87,13 +88,24 @@ his life as an ordering device, and its `date_confidence` states that the forwar
 reach is an author's grant recorded here, that Burroughs died in 1997, and that
 he is not on record on any of it.
 
+**Derrida, scope, ruled 2026-08-17: one or two sentences.** The language model is
+a contemporary *example*, and it closes a stop that is otherwise entirely
+Derrida's own, the 1967 stop for the three books, never a new stop, a segment, or
+a name. The moment it grows past an example it has stopped being one, and the
+grant no longer covers it.
+
+Here too the stop declares itself: Derrida's own Paris pin, dated inside his life,
+with `date_confidence` stating that the forward reach is an author's grant
+recorded here, that Derrida died in 2004, and that he is not on record discussing
+anything of the kind.
+
 ## The list
 
 | subject | apparatus | applied backward to |
 |---|---|---|
 | **J. L. Austin** (1911-1960) | performatives, felicity conditions, the illocutionary act | the spell; Briar Rose, the curse and its amendment |
 | **John Searle** (1932-2025) | the declaration, constitutive rules, X counts as Y in context C, status functions | the Merlin prophecy of the maiden from the hoary wood; its reading onto Joan of Arc in 1429 |
-| **Jacques Derrida** (1930-2004) | iterability, the mark that functions in the absence of its author, iter and the Sanskrit itara | Hansel and Gretel: the trail that exists only because it can be returned to, and is deformed by each return |
+| **Jacques Derrida** (1930-2004) | iterability, the mark that functions in the absence of its author, iter and the Sanskrit itara | Hansel and Gretel: the trail that exists only because it can be returned to, and is deformed by each return. Also holds a forward grant, see above |
 | **William S. Burroughs** (1914-1997) | language as virus, the cut-up, rogue writing, playback | propaganda as the same mechanism at scale. Also holds a forward grant, see above |
 | **Nick Land** (1962- ) | hyperstition: the fiction that makes itself real | to be set when the stops are written |
 

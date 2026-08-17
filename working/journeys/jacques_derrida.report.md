@@ -88,7 +88,7 @@ The Hansel and Gretel material is the only relation in the pool not rooted in De
 
 **Verified verbatim [A]** against extracted full text (*Margins of Philosophy*, trans. Bass, pp. 307-330; the Johns Hopkins translation): seven passages, four used in the journey file.
 
-**Attributed but NOT verified against a primary edition [R]**, used with the hedge stated in `quote_source`: "Je n'ai qu'une langue, ce n'est pas la mienne"; the *Specters of Marx* Exordium opening. In the pool and **not used**: "Il n'y a pas de hors-texte," whose translation is itself disputed. **Rejected as corrupt [A]:** "un peu noir et tres arabe" (section 1). **Rejected as unstable [A]:** the *Ghost Dance* line (section 7).
+**Attributed but NOT verified against a primary edition [R]**, used with the hedge stated in `quote_source`: "Je n'ai qu'une langue, ce n'est pas la mienne"; the *Specters of Marx* Exordium opening. In the pool and **now used** [A, with an [R] reading attached]: "Il n'y a pas de hors-texte," which stands as the quote on the stop "Paris, three books in one year," under the forward grant recorded for Jacques Derrida in `EXCEPTIONS.md` on 2026-08-17, on the author's explicit instruction, and carrying the resonance he asked for, a system operating wholly inside text with no outside to check against. The disputed translation is not resolved but stated in the stop's own `date_confidence`, which sets Spivak's "there is no outside-text" (verified at p. 158 of *Of Grammatology*) beside the commoner "there is nothing outside the text" and flags the Minuit 1967 page number as unverified. **Rejected as corrupt [A]:** "un peu noir et tres arabe" (section 1). **Rejected as unstable [A]:** the *Ghost Dance* line (section 7).
 
 ## Interlocks
 
