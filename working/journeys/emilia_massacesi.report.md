@@ -146,15 +146,19 @@ The journey file names Muller, Limón, Stebbins and Delsarte in exactly **one** 
 
 ---
 
-## 9. The Cuban-revolutionary cabaret number: an open gap, twice searched
+## 9. The beret with the red star: fully confirmed on the third pass
 
-The author reports a cabaret performance in which Massacesi/Emilia Portman appeared costumed as a Cuban revolutionary figure (Fidel Castro or Che Guevara, cigar included). **It could not be located in this pass.** **[gap, not a negative finding]**
+The second pass could not locate the reported cabaret number in which Massacesi/Emilia Portman appeared costumed as a Cuban revolutionary, and the third pass's first attempt could confirm only the post's text metadata, not its images, and provisionally called it "her Castro show."
 
-Searched and negative: the UNA profile; `@em.port_` bio, visible posts and reels tab; `@emili.portman` (private); `@libertadbuengusto`; `@almagroexoticclub` (restricted).
+**Superseded on this pass [A].** The author of this record personally viewed all four images of the `@em.port_` carousel post directly in the Instagram app (not a web fetch: direct visual inspection), at `https://www.instagram.com/p/DTixZF2lYKl/`, dated 15 January 2026. The costume across the four frames is an olive-green military beret bearing a red star, specifically the iconic Che Guevara beret image and not a generic military look, worn open over red lingerie/bra, with black platform heels, performing on a pole. Frame 2/4 shows what appears to be a cigar or cigarette held between her lips. Frame 3/4 shows the illuminated TEMPTATION show marquee/signage behind her mid-trick. Frame 4/4 shows her removing the jacket. Caption "Banderas en mi corazón" (flags in my heart); tagged `@temptation.show` (the show) and `@rominasoledad.ph` (photographer); soundtrack Patricio Rey y Sus Redonditos de Ricota; 107 likes.
 
-Access failures that make the negative weak rather than strong: WebSearch quota exhausted before targeted queries could run; DuckDuckGo and Yandex served CAPTCHA walls; Brave rate-limited (HTTP 429); Bing via page fetch returned unrelated generic "Emilia" results (Re:Zero, the singer Emilia Mernes, baby-name sites) regardless of query, i.e. bot-gating rather than absence of matches; imginn.com and picuki.com returned HTTP 403; and Instagram serves post captions and image contents client-side, so unauthenticated fetch yields bio and highlight text only.
+**Identification corrected.** A red star on an olive beret is Ernesto "Che" Guevara's image specifically, distinct from a Fidel Castro costume (no beret, no red star, in the iconography that actually distinguishes the two men). The second-pass "Castro number" label is retired; this is her Che Guevara number, at the Temptation show.
 
-**Treatment in the journey file.** The event gets *no* stop of its own and is placed nowhere, since no venue or date is known. It is recorded inside the campa of the **Espacio Peces / Barracas** stop, itself attested, as something reported of her from rooms like that one and locatable in no caption, photograph, or listing. `che_guevara.journey.json` and `fidel_castro.journey.json` both exist with Buenos Aires stops at the canonical pin; per the standing rule a costume evocation would be *her* stop, not theirs, and it is not staged on their coordinates. **Closure needs a future pass with authenticated access, not a resolution here.**
+**Attempted re-fetch [gap, unchanged].** `https://www.instagram.com/p/DTixZF2lYKl/` was attempted again as a web fetch; per the task brief the visual, date, and costume facts stand on the author's direct in-app inspection regardless of what the fetch itself returns. No venue address or city beyond the TEMPTATION signage visible in frame 3 is stated in any reachable text. The companion post at `https://www.instagram.com/p/DTLhivHiULF/` was attempted again and still did not resolve to usable content.
+
+**Treatment in the journey file.** The stop is renamed "Temptation Show, flags in her heart, the beret with the red star," dated 2026-01-15, at the canonical Buenos Aires pin (no venue address confirmed). It is kept separate from the Espacio Peces / Barracas booking for 22 August 2026, a different night with a different tagged account. `che_guevara.journey.json` and `fidel_castro.journey.json` both exist with Buenos Aires stops at the canonical pin; per the standing rule the costume evocation is *her* stop, not theirs, and is not staged on their coordinates, though it is now correctly attached to Guevara's iconography rather than Castro's.
+
+**Still open.** Venue address/city for the Temptation show beyond the marquee itself; the companion post's content; and whether `@temptation.show` is a recurring cabaret series or a one-off booking.
 
 ---
 
