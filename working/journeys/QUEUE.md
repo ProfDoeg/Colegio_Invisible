@@ -144,6 +144,7 @@ essays+Instagram corpus.
 | 1 | **Empress Joséphine** | Napoleon's wife, Empress of the French |
 | 0 | **Pierre-François Bouchard** | French army engineer who discovered the Rosetta Stone in 1799 during Napoleon's Egyptian campaign, the same expedition empress_josephine's husband led |
 | 0 | **Joseph Fourier** | French mathematician of the Fourier series and the heat equation, administrator on the same Egyptian campaign pierre_francois_bouchard just queued served in; years earlier in Grenoble he had personally introduced the young Jean-François Champollion to Egyptology, decades before Champollion deciphered the stone Bouchard found |
+| 0 | **Charles Fourier** (François Marie Charles Fourier) | French utopian socialist philosopher, theorist of the phalanstère and coiner of "feminisme"; no relation to joseph_fourier just queued, the mathematician, beyond the shared surname |
 | 1 | **Sitting Bull** | Lakota leader at Little Bighorn |
 | 1 | **Johann Bode** | German astronomer |
 | 1 | **Joffrey Rudel** | 12th-century troubadour, prince of Blaye |
@@ -703,9 +704,7 @@ journey; approved by the author.
 |--:|---|---|
 | 0 | **Miguel de Cervantes** | Spanish novelist, author of Don Quixote, captured by Barbary corsairs and enslaved five years in Algiers, lost the use of his left hand at the Battle of Lepanto; the biggest name in Spanish literature, entirely absent from the corpus until now |
 | 0 | **Mansa Musa** | 14th-century emperor of the Mali Empire, wealthiest person in recorded history; his 1324 hajj to Mecca gave away so much gold along the way it crashed Cairo's economy for years; ibn_battuta already done crossed Mali a generation later and may already name him in passing |
-| 0 | **Johann Sebastian Bach** | German Baroque composer and Leipzig cantor, walked some 250 miles to Lübeck as a young man just to hear Buxtehude play the organ; joins the corpus's music wing (richard_wagner, tchaikovsky already queued) as its foundational absence |
-| 0 | **Wolfgang Amadeus Mozart** | Austrian composer, child prodigy toured across the courts of Europe from age six, died at 35 in Vienna and was buried in a common grave; joins bach just queued in filling the corpus's classical-music gap |
-| 0 | **Ludwig van Beethoven** | German composer, went progressively deaf yet kept composing through it, conducted the premiere of the Ninth Symphony unable to hear the ovation behind him; joins bach and mozart just queued |
+| 0 | **Wolfgang Amadeus Mozart** | Austrian composer, child prodigy toured across the courts of Europe from age six, died at 35 in Vienna and was buried in a common grave; joins the corpus's music wing (richard_wagner, tchaikovsky already queued) in filling its classical-music gap |
 
 ## Economics (2026-08-10)
 
@@ -775,6 +774,7 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Bernard Arnault** | chairman of LVMH, world's richest person at various points; LVMH itself owns several houses already in the atlas (louis_vuitton, christian_dior), a direct interlock with the corpus's fashion cluster |
 | 0 | **George Soros** | Hungarian Jewish Holocaust survivor turned hedge-fund billionaire turned Open Society philanthropist; a genuine journey story, and a constant subject of the conspiracy material the corpus already carries |
 | 0 | **Homer** | the Greek epic poet credited with the Iliad and the Odyssey, existence and authorship long disputed as the 'Homeric question'; strabo already researched opens his own Geography defending Homer's descriptions of the world as deliberate invention over real terrain, not ignorance, a direct interlock |
+| 0 | **Hesiod** | Greek didactic poet, author of the Theogony and Works and Days, traditionally placed alongside or just after homer just queued as the other foundational voice of early Greek epic |
 | 0 | **Steve Jobs** | Apple co-founder, sits in the same founder generation as bill_gates, mark_zuckerberg and jeff_bezos already queued |
 | 0 | **Rupert Murdoch** | chairman of News Corp and Fox, a global press empire with real political reach; direct contrast with robert_maxwell already queued, another press mogul of a different scale |
 | 0 | **Charles Koch** | chairman of Koch Industries, the libertarian donor network behind much of the funding for the Austrian-economics institutions the corpus already carries (ludwig_von_mises, friedrich_hayek already queued) |
