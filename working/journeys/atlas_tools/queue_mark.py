@@ -55,8 +55,17 @@ def default_owner():
     that render identical text produce identical commits, and git rebase drops
     the second as an already-applied patch instead of conflicting, leaving both
     instances convinced they hold the row. Caught by the test suite on day one.
-    QM_OWNER overrides (nodus1/nodus2 set it in their service environment)."""
-    return os.environ.get("QM_OWNER") or socket.gethostname().split(".")[0]
+    QM_OWNER overrides. The fallback includes the checkout's grandparent
+    directory, not hostname alone: nodus1 and nodus2 run on the SAME host, so
+    bare hostname would give them identical tags and silently disarm the very
+    race protection built for them (~/taller vs ~/instance2_work is what
+    actually tells them apart)."""
+    tag = os.environ.get("QM_OWNER")
+    if tag:
+        return tag
+    host = socket.gethostname().split(".")[0]
+    checkout = pathlib.Path(__file__).resolve().parents[3].parent.name
+    return "{}:{}".format(host, checkout) if checkout else host
 
 
 def say(msg):
