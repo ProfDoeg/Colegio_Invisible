@@ -4,3 +4,7 @@
 - [ ] al_khalil_ibn_ahmad_al_farahidi -- stop "Basra, three meters no pre-Islamic poet used": "the corpus does not contain them."
 - [ ] piri_reis -- stop "The Egypt voyage, Ibrahim Pasha asks about the charts": "A question asked on a warship under way is the commission for the largest portolan atlas the Ottomans would make."
 - [ ] leonardo_da_vinci -- stop "Milan, the Ambrosiana: the Codex Atlanticus comes to rest": "Pompeo Leoni, sculptor to the king of Spain, buys up loose Leonardo sheets late in the sixteenth century and pastes them into a great album with atlas-sized pages, trimming and rearranging as he goes."
+- [ ] rabbi_shimon_bar_yochai_rashbi -- stop "The prison of Akiva, Rabbi, teach me Torah": "It is the only glimpse the corpus ever gives of Yochai, a father with access to the authorities, and it is a Babylonian storyteller's touch rather than a fact about any household."
+- [ ] rabbi_shimon_bar_yochai_rashbi -- stop "The study hall, bread and water from a wife": "The corpus that will supply him with four separate personae, wonder-worker and magician and scholar and saint, preserves of her exactly this: bread, water, the walk there, the walk back."
+- [ ] rabbi_shimon_bar_yochai_rashbi -- stop "Palestine, his son and colleague Eleazar": "He is the only relative the corpus is consistent about."
+- [ ] rabbi_shimon_bar_yochai_rashbi -- stop "Unknown, a death with no narrative": "The corpus that will supply him with a demon in Rome, a spring in a cave, and a gaze that reduces men to bone has no sentence at all for the end of his own life."
