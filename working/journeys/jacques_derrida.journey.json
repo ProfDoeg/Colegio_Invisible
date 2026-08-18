@@ -175,6 +175,18 @@
           "sources": ["en.wikipedia, 'Structure, Sign, and Play'", "roland_barthes.journey.json, stop 'Johns Hopkins University, Baltimore, the structuralism colloquium'", "gilles_deleuze.journey.json, stop 'Johns Hopkins, Baltimore: the colloquium neither of them attends'", "michel_foucault.journey.json", "Wikipedia, 'Jacques Derrida'"]
         },
         {
+          "name": "Johns Hopkins University, Baltimore, the first meeting with Lacan",
+          "lat": 39.3299,
+          "lng": -76.6205,
+          "date": "1966-10-18",
+          "date_confidence": "[A] that Derrida and Lacan met in person for the first time at this colloquium is attested (journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis', drawing on Elisabeth Roudinesco's biographical account). [R] no source gives the day of the encounter inside the run of 18-21 October, and the date defaults to the colloquium's opening, the same value the preceding stop carries. The pin is the campus coordinate, shared byte-identical with jacques_lacan.journey.json, which carries this meeting from Lacan's side. [R] two incompatible accounts of the same encounter are left standing rather than merged: Roudinesco's, in which the exchange runs on the Cartesian subject and the signifier, and the account at booksandtales.com, in which Rene Girard performs the introduction and the private conversation is about death and posthumous reception. Neither excludes the other and neither is preferred here.",
+          "campa": "[A] Lacan crosses the room to him with a greeting that is half complaint: he has had to come all the way to Maryland to meet a man who works in his own city. They talk about the Cartesian subject, about substance and the signifier. [A] Lacan tells him he cannot bear that it has all been said already, and is told flatly that this is not Derrida's problem. [R] A second account has Rene Girard making the introduction and the private talk turning on death, on how a teaching outlives the man. [A] Lacan comes back later insisting they must talk. They never do.",
+          "quote": "That is not my problem.",
+          "quote_source": "Derrida's reply to Lacan at Baltimore, October 1966, as reported in journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis', following Roudinesco; a reported exchange, not a transcript, and the English is a translation of a translation",
+          "suggested_refs": ["Elisabeth Roudinesco, Jacques Lacan & Co. and Jacques Lacan: Esquisse d'une vie, for the Baltimore encounter", "jacques_lacan.journey.json, stop 'Johns Hopkins University, Baltimore: the first meeting with Derrida', the same minutes from the other side"],
+          "sources": ["journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis'", "booksandtales.com/talila/lacderen.htm", "interdisciplinarite.blogspot.com, 'Controverse Lacan-Derrida: presentation'", "jacques_lacan.journey.json"]
+        },
+        {
           "name": "Paris, three books in one year",
           "lat": 48.8566,
           "lng": 2.3522,
@@ -185,6 +197,18 @@
           "quote_source": "Jacques Derrida, De la grammatologie (Editions de Minuit, 1967), p. 227; rendered \"There is no outside-text\" in Gayatri Chakravorty Spivak's translation, Of Grammatology (Johns Hopkins University Press, 1976; corrected ed. 1997); the translation itself is disputed, some render it \"there is nothing outside the text.\"",
           "suggested_refs": ["Claude Levi-Strauss, Tristes Tropiques (1955), 'Lecon d'ecriture', read at length in De la grammatologie, part II", "Jacques Derrida, La voix et le phenomene (PUF, 1967) and L'ecriture et la difference (Seuil, 1967)"],
           "sources": ["Wikipedia, 'Jacques Derrida'", "claude_levi_strauss.journey.json, stop on the Nambikwara writing lesson, which records this reading on its own file", "working/journeys/EXCEPTIONS.md, the row licensing this application", "Jacques Derrida, Of Grammatology, trans. Gayatri Chakravorty Spivak (Johns Hopkins UP, 1976; corrected ed. 1997), p. 158, where the French is printed beside 'there is no outside-text'"]
+        },
+        {
+          "name": "Paris, the dinner at Jean Piel's",
+          "lat": 48.8566,
+          "lng": 2.3522,
+          "date": "1967-01-01",
+          "date_confidence": "[A] a second meeting between Derrida and Lacan at a dinner in Jean Piel's Paris home in 1967, at which Lacan took Derrida's hand warmly and Derrida told an anecdote about his son Pierre, is attested (journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis', following Roudinesco). [R] no month or day is recorded and both default to 01; Piel's address is not given by any source consulted, and the pin is this file's Paris coordinate rather than a street. The pin and date are shared byte-identical with jacques_lacan.journey.json. [R] Lacan's reuse of the anecdote in a Naples lecture that December is reported by the same source and by no participant; it is carried on Lacan's file, where the lecture belongs, and only noted here.",
+          "campa": "[A] A dinner at Jean Piel's, and for one evening nothing is being contested. Lacan takes his hand warmly. Disarmed, he tells the table a private story about his son Pierre. [R] The story surfaces again in December, in a lecture Lacan gives at the French Institute in Naples, with no name attached to it. [A] Roudinesco records that relations between them were never cordial after this year. It is the warmest evening on the record and it is also the one that supplies the grievance.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Elisabeth Roudinesco on the Derrida-Lacan relation after 1967, described as never cordial", "jacques_lacan.journey.json, stop 'Paris: the dinner at Jean Piel's', and the Naples stop that follows it there"],
+          "sources": ["journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis'", "jacques_lacan.journey.json"]
         },
         {
           "name": "The Sorbonne, la differance spelled with an a",
@@ -209,6 +233,18 @@
           "quote_source": null,
           "suggested_refs": ["Jacques Derrida, 'La pharmacie de Platon', Tel Quel 32-33 (1968), collected in La dissemination (Seuil, 1972)", "Plato, Phaedrus, 274b-277a, the myth of Theuth and the gift of writing"],
           "sources": ["Wikipedia, 'Jacques Derrida'"]
+        },
+        {
+          "name": "Ecole Normale Superieure, rue d'Ulm, the seminar kept in the building",
+          "lat": 48.8433,
+          "lng": 2.3447,
+          "date": "1969-03-01",
+          "date_confidence": "[A] that Derrida intervened together with Louis Althusser on Lacan's behalf in March 1969, when Lacan was put out of the Ecole Normale Superieure where his seminar had sat since January 1964, is attested (journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis'). [R] the day is not recorded and defaults to 01. The pin is the corpus value for 45 rue d'Ulm, shared byte-identical with jacques_lacan.journey.json and michel_foucault.journey.json; contradiction left standing rather than quietly fixed: the rue d'Ulm stops elsewhere in this file carry 48.8414 / 2.3444, a different pin for the same street inherited from this file's own pool. [R] no source consulted describes the form the intervention took, whether letter, meeting or word in a corridor.",
+          "campa": "[A] The school moves to put Lacan's seminar out of the rue d'Ulm, and Derrida, five years into the post he will hold for twenty, intervenes with Louis Althusser to keep it there. [A] The attempt fails; the seminar crosses the place du Pantheon to the law faculty. Six years later he takes Lacan's reading of Poe apart in print, and sees no strain in that. The quarrel is about where a letter arrives, not about whether the man is entitled to a room in the building they both work in.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Louis Althusser's correspondence on the hosting of Lacan's seminar at the rue d'Ulm, 1963-1969", "jacques_lacan.journey.json, stop 'Ecole Normale Superieure, rue d'Ulm: the seminar put out', the same weeks from the expelled side"],
+          "sources": ["journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis'", "jacques_lacan.journey.json (rue d'Ulm pin)", "michel_foucault.journey.json (rue d'Ulm pin)"]
         }
       ]
     },
@@ -358,6 +394,18 @@
           "sources": ["Wikipedia, 'Jacques Derrida'"]
         },
         {
+          "name": "Paris, Le facteur de la verite",
+          "lat": 48.8566,
+          "lng": 2.3522,
+          "date": "1975-01-01",
+          "date_confidence": "[A] 'Le facteur de la verite' appeared in Poetique in 1975 and was collected in La Carte postale: de Socrate a Freud et au-dela (Flammarion, 1980). [R] contradiction left standing: some accounts place a first delivery of the argument as a talk in 1971, four years before the journal printing, and no source consulted settles which. Month and day default to 01 and the pin is this file's Paris coordinate, standing for the journal rather than for any room; there is no scene here, only a text sent after another text. [R] no evidence was found that Lacan read the piece closely or answered it in writing; the objection reported from his side, that Derrida takes the letter as a bearer of castration when it marks a hole in the signifier, reaches the record at second hand.",
+          "campa": "[A] He goes at the Seminar on The Purloined Letter. Lacan had turned Poe's stolen letter into a lesson about the signifier and closed on the claim that a letter always arrives at its destination. [A] Derrida answers that a letter can fail to arrive, and that this possibility is what makes it a letter at all; and that Lacan, who forbade applied psychoanalysis, has applied it to a story in order to have the story confirm him. [A] He also catches destin standing where Poe wrote design. [R] Lacan never replies in writing.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Jacques Lacan, 'Le seminaire sur La Lettre volee' (1955), in Ecrits (Seuil, 1966), the text under attack", "Edgar Allan Poe, 'The Purloined Letter' (1844)", "Jacques Derrida, La Carte postale: de Socrate a Freud et au-dela (Flammarion, 1980), part IV", "jacques_lacan.journey.json, which carries the seminar on its own file"],
+          "sources": ["journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis'", "plato.stanford.edu/entries/derrida", "abstracts for 'Cuts and Tricks: Replaying Derrida's Take on Lacan's Seminar on The Purloined Letter'"]
+        },
+        {
           "name": "The Sorbonne, the defense sur travaux",
           "lat": 48.8462,
           "lng": 2.3431,
@@ -445,6 +493,18 @@
           "quote_source": null,
           "suggested_refs": ["Geoffrey Bennington and Jacques Derrida, Jacques Derrida (Editions du Seuil, 1991), the Derridabase and the Circonfession running beneath it", "Augustine, Confessions, book IX, on the death of Monica at Ostia"],
           "sources": ["Wikipedia, 'Jacques Derrida'", "Bennington and Derrida, Jacques Derrida (Seuil, 1991; Chicago, 1993)"]
+        },
+        {
+          "name": "Paris, Lacan avec les philosophes",
+          "lat": 48.8566,
+          "lng": 2.3522,
+          "date": "1990-01-01",
+          "date_confidence": "[A] Derrida gave a presentation at the colloquium 'Lacan avec les philosophes' in 1990, and Roudinesco records that he spoke in a simple, direct register while reconstructing his encounters with Lacan (journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis'). [R] no month or day is given by any source consulted and both default to 01; the venue is not named and the pin is this file's Paris coordinate. [R] the reading of the register as personal regard surviving under the quarrel belongs to commentators and not to Derrida, who said no such thing. His text from the colloquium is collected as 'Pour l'amour de Lacan'.",
+          "campa": "[A] Nine years after Lacan's death a colloquium called Lacan avec les philosophes convenes in Paris, and he comes to it. [A] Roudinesco, who is there, records that he drops the apparatus and speaks plainly: the meetings reconstructed one by one, the man in Baltimore crossing a room to complain that he had to travel to America to find him, the dinner, the hand taken. [R] Commentators read the register as regard surviving underneath twenty-four years of quarrel. He accepts the conversation once the other party can no longer hold up his end of it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Jacques Derrida, 'Pour l'amour de Lacan', in Lacan avec les philosophes (Albin Michel, 1991)", "Elisabeth Roudinesco's account of the 1990 colloquium"],
+          "sources": ["journal-psychoanalysis.eu, 'Lacan and Derrida in the History of Psychoanalysis'"]
         }
       ]
     },
@@ -505,10 +565,10 @@
           "lng": 2.3522,
           "date": "1995-11-07",
           "date_confidence": "Derrida's tribute to Gilles Deleuze, 'Il me faudra errer tout seul', appeared in Liberation on 7 November 1995, three days after Deleuze's death on 4 November; the pool's geography lens dates it 6 November and is one day early. Collected in Chaque fois unique, la fin du monde (Galilee, 2003) and in The Work of Mourning, ed. Brault and Naas (Chicago, 2001). gilles_deleuze.journey.json carries the Liberation tributes on its own file.",
-          "campa": "Gilles Deleuze goes out of a window in the seventeenth arrondissement on the fourth of November, and the newspaper asks Derrida for four hundred words. He writes that he will have to wander on his own now. It is not the first of these he has written: Roland Barthes in 1980, Paul de Man, Michel Foucault in 1984, now Deleuze, and Lyotard still to come. Every one of them quarrels with the form it is written in, because the form requires him to speak of a man to a public, in that man's absence, using his name. The tribute runs on the seventh of November.",
-          "quote": null,
-          "quote_source": null,
-          "suggested_refs": ["Jacques Derrida, 'Il me faudra errer tout seul', Liberation, 7 November 1995", "Jacques Derrida, The Work of Mourning, ed. Pascale-Anne Brault and Michael Naas (University of Chicago Press, 2001)"],
+          "campa": "Gilles Deleuze goes out of a window in the seventeenth arrondissement on the fourth of November, and the newspaper asks Derrida for four hundred words. [A] He writes that he will go on reading Deleuze to learn, and that he will have to wander alone now in the long conversation the two of them were supposed to have had together. They never had it. [A] It is not the first of these he has written: Barthes in 1980, Paul de Man, Foucault in 1984, now Deleuze, and Lyotard still to come. The tribute runs on the seventh of November.",
+          "quote": "Je continuerai ou recommencerai a lire Gilles Deleuze pour apprendre, et il me faudra errer tout seul dans ce long entretien que nous devions avoir ensemble.",
+          "quote_source": "Jacques Derrida, 'Il me faudra errer tout seul', Liberation, 7 November 1995; collected in Chaque fois unique, la fin du monde (Galilee, 2003), approximately pp. 235-238. Quoted from secondary sources and NOT verified against the Galilee text; the accents are dropped to hold this file's ASCII convention. [R] the two men left no record of a joint appearance, co-authored text, debate or interview at any point in their careers, and this is the only documented address of one to the other",
+          "suggested_refs": ["Jacques Derrida, 'Il me faudra errer tout seul', Liberation, 7 November 1995", "Jacques Derrida, Chaque fois unique, la fin du monde (Galilee, 2003), approximately pp. 235-238", "Jacques Derrida, The Work of Mourning, ed. Pascale-Anne Brault and Michael Naas (University of Chicago Press, 2001)"],
           "sources": ["gilles_deleuze.journey.json, stop 'Paris: the tributes in Liberation'", "Brault and Naas (eds.), The Work of Mourning (Chicago, 2001)"]
         },
         {
