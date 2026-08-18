@@ -516,7 +516,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Theodor Adorno** | German philosopher and sociologist, co-author with Horkheimer of Dialectic of Enlightenment, music critic and composer's-ear theorist of the culture industry; joins the same Frankfurt School cluster |
 | 0 | **Jürgen Habermas** | German philosopher of the public sphere and communicative action, the Frankfurt School's second generation; joins the same cluster |
 | 0 | **Jacques Derrida** | French-Algerian philosopher of deconstruction, Of Grammatology; joins the corpus's continental-philosophy wing (michel_foucault, gilles_deleuze already done) |
-| 0 | **Johannes Friedrich Guttzeit** | German life-reform figure adjacent to the Lebensreform movement circle; requested alongside Rikli and Engelmann, biographical detail not yet verified against any source |
 | 5 | **Gustav Gräser** | one of the two Gräser brothers, vagabond mystic of the Monte Verità naturist colony, already named in passing across several corpus journeys (engelmann, ida_hoffmann, laban, mary_wigman, suzanne_perrottet) but never given his own |
 | 5 | **Karl Gräser** | the other Gräser brother, co-founder of the Monte Verità naturist commune with Gustav; same corpus presence as his brother, never given his own journey |
 | 0 | **Sophie Taeuber-Arp** | Swiss Dada artist and dancer, wife of Jean Arp, associated with Cabaret Voltaire and Zurich Dada; joins the corpus's Zurich/dance-avant-garde cluster (laban, mary_wigman, suzanne_perrottet already done) |
