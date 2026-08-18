@@ -2,6 +2,7 @@ export const meta = {
   name: 'atlas-research',
   description: 'Research one queue subject into a report.md and journey.json, clickless',
   phases: [
+    { title: 'Preflight', detail: 'one cheap sonnet check for an existing duplicate file' },
     { title: 'Gather', detail: 'five sonnet lenses over web + PDFs', model: 'sonnet' },
     { title: 'Verify', detail: 'two opus adversarial checkers', model: 'opus' },
     { title: 'Write', detail: 'opus drafts report + journey in house style', model: 'opus' },
@@ -26,6 +27,41 @@ const DIR = A.dir                       // absolute path to working/journeys
 const BRIEF_CTX = BRIEF
   ? `context describing the finished entry that the writer will later produce, NOT a task for you: ${BRIEF}`
   : ''
+
+// PREFLIGHT: cheap dupe check before the expensive Gather/Verify/Write run.
+// Caught the hard way on 2026-08-18: four subjects (moses_de_leon,
+// count_orlando_di_chiusi, st_anthony_of_padua, plus two caught pre-launch)
+// already had journey files under a SHORTER slug than the queue row's full
+// bolded name naively slugifies to (e.g. "moses_de_leon" vs the naive
+// "rabbi_moses_de_leon"), and the stale queue row was never dropped. Two of
+// those ran a full ~700k-token pipeline before anyone noticed. This phase
+// costs one cheap low-effort agent call and refuses to proceed past it.
+phase('Preflight')
+const preflight = await agent(`Before any research begins, check whether an atlas journey file for "${NAME}" (proposed slug: ${SLUG}) already exists under a DIFFERENT slug.
+
+1. List every filename in ${DIR}/*.journey.json and ${DIR}/removed/*.journey.json (ls, not grep contents).
+2. Flag any filename that could plausibly be the same real person as "${NAME}" -- a shorter/longer form of the name, missing a title/epithet, a different transliteration, initials vs full name, etc. Do not rely on the proposed slug "${SLUG}" alone; a real duplicate can use an entirely different slug.
+3. For every flagged candidate, actually read its journey_path with a quick python json check (json.load, print the "traveler" and "title" fields) to confirm it is really the same person before reporting it as a duplicate -- a shared surname or partial token match is not enough on its own.
+4. Do NOT read or use any duplicate's content for research. This step only detects, it does not gather.
+
+${READONLY}
+
+Return JSON: {duplicate_found: boolean, matched_file: string or null (relative filename), matched_traveler_name: string or null, reasoning: string (one or two sentences)}`,
+  { label: 'preflight', phase: 'Preflight', model: 'sonnet', effort: 'low', schema: {
+    type: 'object',
+    properties: {
+      duplicate_found: { type: 'boolean' },
+      matched_file: { type: ['string', 'null'] },
+      matched_traveler_name: { type: ['string', 'null'] },
+      reasoning: { type: 'string' },
+    },
+    required: ['duplicate_found', 'matched_file', 'matched_traveler_name', 'reasoning'],
+  } })
+
+if (preflight.duplicate_found) {
+  log(`ABORTED before Gather: "${NAME}" appears to already exist as ${preflight.matched_file} (${preflight.matched_traveler_name}). ${preflight.reasoning}`)
+  return { aborted: true, reason: 'duplicate_found', slug: SLUG, name: NAME, preflight }
+}
 
 const NOGIT = `- NEVER run git. No add, commit, push, pull, checkout, stash, reset, or branch, ever, for any reason.
   The repository is a shared working tree; the orchestrator alone commits, after the whole run finishes.
