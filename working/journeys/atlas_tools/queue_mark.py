@@ -115,6 +115,26 @@ def cmd_drop(qfile, name):
     return 0
 
 
+def push_all(cwd):
+    """Push to every remote. The repo lives on two (the nodus bare repo the
+    instances share, and GitHub); a claim that reaches only one is invisible
+    to half the claimants, which was caught live on the Lombardi claim. The
+    upstream remote is the lock: if it rejects, return False so the race
+    handling runs. Other remotes get the claim best-effort; a warning, not an
+    undo, because the lock itself already won."""
+    up = run(["git", "-C", str(cwd), "rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{u}"],
+             cwd, ok_codes=(0, 1))
+    lock_remote = up.stdout.split("/")[0].strip() if up.returncode == 0 else "origin"
+    if run(["git", "-C", str(cwd), "push", lock_remote], cwd, ok_codes=(0, 1)).returncode != 0:
+        return False
+    others = [r for r in run(["git", "-C", str(cwd), "remote"], cwd).stdout.split()
+              if r and r != lock_remote]
+    for r in others:
+        if run(["git", "-C", str(cwd), "push", r, "HEAD"], cwd, ok_codes=(0, 1)).returncode != 0:
+            say("warning: claim did not reach remote '{}'; push it by hand so the other side sees the lock".format(r))
+    return True
+
+
 def cmd_claim(qfile, name, no_git=False):
     cwd = qfile.parent
 
@@ -159,7 +179,7 @@ def cmd_claim(qfile, name, no_git=False):
         run(["git", "-C", str(cwd), "reset", "HEAD~1"], cwd)
         run(["git", "-C", str(cwd), "checkout", "HEAD", "--", rel], cwd)
 
-    if run(["git", "-C", str(cwd), "push"], cwd, ok_codes=(0, 1)).returncode == 0:
+    if push_all(cwd):
         say("claimed, committed, and pushed.")
         return 0
 
@@ -181,7 +201,7 @@ def cmd_claim(qfile, name, no_git=False):
         say("row changed under us during rebase; undone cleanly. Pick another subject.")
         return 4
 
-    if run(["git", "-C", str(cwd), "push"], cwd, ok_codes=(0, 1)).returncode == 0:
+    if push_all(cwd):
         say("claimed, committed, and pushed (after one rebase).")
         return 0
     undo()
