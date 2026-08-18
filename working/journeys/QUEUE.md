@@ -144,7 +144,6 @@ essays+Instagram corpus.
 | 1 | **Empress Joséphine** | Napoleon's wife, Empress of the French |
 | 0 | **Pierre-François Bouchard** | French army engineer who discovered the Rosetta Stone in 1799 during Napoleon's Egyptian campaign, the same expedition empress_josephine's husband led |
 | 0 | **Joseph Fourier** | French mathematician of the Fourier series and the heat equation, administrator on the same Egyptian campaign pierre_francois_bouchard just queued served in; years earlier in Grenoble he had personally introduced the young Jean-François Champollion to Egyptology, decades before Champollion deciphered the stone Bouchard found |
-| 0 | **Charles Fourier** (François Marie Charles Fourier) | French utopian socialist philosopher, theorist of the phalanstère and coiner of "feminisme"; no relation to joseph_fourier just queued, the mathematician, beyond the shared surname |
 | 1 | **Sitting Bull** | Lakota leader at Little Bighorn |
 | 1 | **Johann Bode** | German astronomer |
 | 1 | **Joffrey Rudel** | 12th-century troubadour, prince of Blaye |
