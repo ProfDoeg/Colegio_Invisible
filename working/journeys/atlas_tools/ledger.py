@@ -6,14 +6,26 @@ so it is only ever as current as the checkout it runs in - it prints a warning
 if the working copy is behind its remotes.
 
     python3 ledger.py
+    python3 ledger.py --next 5           # next 5 unresearched, QUEUE.md top-to-bottom
+    python3 ledger.py --next 5 --bottom   # next 5 unresearched, QUEUE.md bottom-to-top
 
 Four tiers, deliberately distinguished:
   LIVE       what the published globe actually shows (the canon)
   RESEARCHED journey files written and committed, not yet promoted to the globe
   QUEUED     names in QUEUE.md with no journey file yet
   TOTAL      RESEARCHED + QUEUED, if the whole queue is eventually built
+
+--next uses the SAME is_built() fuzzy matching as the counts above (word-set
+containment against every existing journey slug, not naive exact-slug
+comparison). Added 2026-08-18 after four same-day collisions where an ad hoc
+throwaway slugify-and-compare script missed subjects already researched
+under a shorter slug than their QUEUE.md row naively slugifies to (e.g. an
+existing "moses_de_leon.journey.json" vs the naive slug of the row "Rabbi
+Moses de León"). This tool's own is_built() already handled that case
+correctly - the fix is to always pick subjects from HERE, never from a
+one-off script, not to add a paid agent check.
 """
-import glob, json, os, re, subprocess, unicodedata, urllib.request
+import argparse, glob, json, os, re, subprocess, sys, unicodedata, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = os.path.abspath(os.path.join(HERE, ".."))
@@ -108,6 +120,27 @@ def is_built(slug, bare_slug=None, alias_slug=None):
 
 
 todo = [r for r in rows if not is_built(r[1], r[2], r[3])]
+
+ap = argparse.ArgumentParser(add_help=False)
+ap.add_argument("--next", type=int, default=None)
+ap.add_argument("--bottom", action="store_true")
+ap.add_argument("--check")
+args, _ = ap.parse_known_args()
+
+if args.check:
+    s = slugify(args.check)
+    alias = re.search(r"\((.+?)\)", args.check)
+    bare = slugify(re.sub(r"\(.*?\)", " ", args.check)) if alias else s
+    a = slugify(alias.group(1)) if alias else None
+    hit = is_built(s, bare, a)
+    print(f"{'ALREADY BUILT' if hit else 'not built'}: {args.check}")
+    sys.exit(0)
+
+if args.next is not None:
+    picks = list(reversed(todo)) if args.bottom else todo
+    for name, *_ in picks[:args.next]:
+        print(name)
+    sys.exit(0)
 
 print("ATLAS LEDGER")
 print("=" * 46)

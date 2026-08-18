@@ -4,22 +4,51 @@ Clickless research of one queue subject into a report.md and journey.json.
 Canonical script: working/journeys/atlas_tools/research_pipeline.js (invoke via
 the Workflow tool with scriptPath + args {slug, name, brief, dir}).
 
+Before you launch anything (mandatory, added 2026-08-18): run
+`python3 working/journeys/atlas_tools/ledger.py --check "Full Name"` FIRST,
+always, no exceptions -- this is not a courtesy step, it IS step one of
+launching a subject, the same way `git pull` is step one of committing.
+`ledger.py` already contains correct fuzzy duplicate detection (word-set
+containment against every built journey slug, not naive exact-slug
+comparison) via its existing `is_built()`, which every other number in this
+tool already relies on. `--check` just exposes that same logic for one name:
+`ALREADY BUILT: <name>` or `not built: <name>`. If it says built, stop --
+find the existing file, don't relaunch.
+
+Then claim the row, deterministically (added same day, per the operator's
+directive: "I'd rather make it programmatic and not depend on you to remember
+your instructions because sometimes you don't"):
+
+    python3 working/journeys/atlas_tools/queue_mark.py claim "Exact Bolded Name"
+
+No model involved. It pulls, finds the row whose bolded cell is EXACTLY that
+text (anything but a single match refuses), inserts a dated, owner-tagged
+`_(researching ...)_` marker, commits that one file, and pushes. The push is
+the cross-instance lock: if the other instance claimed the same row first, the
+script detects the collision, undoes itself to a clean tree, and exits 4 so
+you pick another subject. A marker with a stale date is a dead run; clearing
+one is a human call. Set QM_OWNER in the instance's environment (nodus1,
+nodus2) so markers name their claimant.
+
+When the subject lands, remove the row in the SAME commit as its artifacts:
+
+    python3 working/journeys/atlas_tools/queue_mark.py drop "Exact Bolded Name"
+
+drop edits the file and deliberately does not commit. The full liturgy:
+ledger.py --check, then queue_mark.py claim, then the Workflow run, then one
+commit carrying journey + report + es/ + the queue-row removal together.
+
+Why this exists: four same-day collisions on 2026-08-18 (moses_de_leon,
+count_orlando_di_chiusi, st_anthony_of_padua, plus two caught pre-launch)
+where a subject had already been researched days earlier but its queue row
+was never removed, so a throwaway ad hoc slugify script kept reporting it
+as fresh; two of the four burned a full ~700k-token pipeline run before
+anyone noticed. An in-script Preflight agent call was tried and rejected
+same-day as wasteful (paid, every run, script has no filesystem access so
+it can't check for free). The actual fix already existed in ledger.py; it
+just wasn't being used as the source of truth for picking next subjects.
+
 Division of labor, fixed by the author (2026-08-02):
-- Preflight (added 2026-08-18): one cheap low-effort sonnet call checks
-  working/journeys/*.journey.json and removed/*.journey.json for an existing
-  file on the SAME real person under a DIFFERENT slug, confirming any match
-  by actually reading its traveler/title fields, not by slug string
-  comparison alone. If found, the whole run aborts before Gather with
-  {aborted: true, reason: 'duplicate_found', ...}. Added after four
-  same-day collisions (moses_de_leon, count_orlando_di_chiusi,
-  st_anthony_of_padua, plus two caught pre-launch) where a subject was
-  already researched under a shorter slug than its queue row's full bolded
-  name naively slugifies to, the stale queue row was never dropped, and two
-  of the four burned a full ~700k-token run before anyone noticed. The
-  orchestrator must still drop the queue row and check for stale duplicates
-  itself before EVERY launch (naive slug match is not enough, use loose
-  token overlap or better); this phase is the backstop for when that check
-  is skipped or wrong, not a replacement for it.
 - Gather: five sonnet lenses (chronology, geography, quotes, corpus interlock,
   afterlife) over WebSearch/WebFetch, PDFs read with python3 + pypdf.
 - Verify: two Opus adversarial checkers. One refutes facts, dates, and
@@ -36,6 +65,22 @@ Division of labor, fixed by the author (2026-08-02):
 
 Prerequisites: permissions allowing WebFetch/WebSearch/python/Write (user
 settings), pypdf installed. Nothing in the run requires a click.
+
+## The supplied research file (dossier arg, added 2026-08-18)
+
+The operator supplies deep research as an .md file (typically sent to the
+instance as a Telegram attachment). Pass its absolute path as the `dossier`
+arg and all five gather lenses receive it as framed background: a lead, not a
+source. They read it to know which names, dates, places, works, and disputes
+are worth chasing, then find everything independently; they are told in as
+many words not to copy its wording, not to carry a claim because it appears
+there, and not to cite it. This replaces cramming the research into `brief`,
+where an imperative sentence once got read as a work order mid-Gather.
+
+    Workflow scriptPath=.../research_pipeline.js args={
+      slug, name, brief, dir, dossier: "/abs/path/to/research.md" }
+
+Omit `dossier` and the pipeline behaves exactly as before.
 
 ## Clickless command conventions (added 2026-08-02 after the pilot)
 
