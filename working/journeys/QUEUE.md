@@ -81,7 +81,6 @@ essays+Instagram corpus.
 | 3 | **Richard Wagner** | German composer of the Ring cycle |
 | 3 | **Taras Shevchenko** | Ukrainian national poet and painter |
 | 3 | **Luc-Olivier Merson** | French symbolist painter of Joan of Arc |
-| 3 | **Abd al-Rahman al-Ghafiqi** | Umayyad commander at the Battle of Tours, 732 |
 | 3 | **Constantino el Grande** | Roman emperor who legalized Christianity |
 | 3 | **Le Corbusier** | Swiss-French modernist architect |
 | 3 | **Hilma af Klint** | Swedish abstract painter and mystic |
