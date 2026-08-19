@@ -65,7 +65,12 @@ es = {os.path.basename(p).replace(".journey.json", "")
 
 rows, seen = [], set()
 for line in open(D + "/QUEUE.md", encoding="utf-8"):
-    m = re.match(r"\|\s*[^|]*\|\s*\*\*(.+?)\*\*\s*\|", line)
+    # trailing annotations after the bold name (queue_mark.py's " _(researching
+    # ...)_ " claim marker, or a manually added " (personal associate)" tag)
+    # must not require an immediate pipe - found 2026-08-19 after both caused
+    # affected rows to silently vanish from every count below, undercounting
+    # QUEUED and TOTAL and hiding real subjects from --next.
+    m = re.match(r"\|\s*[^|]*\|\s*\*\*(.+?)\*\*[^|]*\|", line)
     if m:
         name = m.group(1).strip()
         slug = slugify(name)
