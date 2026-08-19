@@ -7,13 +7,19 @@ files every run so it can never go stale like a hand-kept sheet would.
 
 catalog_subjects.csv -- one row per subject, BUILT and QUEUED together
   (status column distinguishes them): slug, traveler, title, years,
-  register, n_segments, n_stops, first_date, last_date, path, status.
-  Queued rows have blank title/years/etc -- that data does not exist until
-  the subject is researched -- and slug is the naive guess, not necessarily
-  what research_pipeline.js will actually use. A queue row already matched
-  to a built journey (ledger.py's is_built logic, reused here) is left out
-  of the queued half entirely, so a subject with a stale un-dropped queue
-  row does not appear twice.
+  register, n_segments, n_stops, first_date, last_date, path, status,
+  dossier_path. Queued rows have blank title/years/etc -- that data does
+  not exist until the subject is researched -- and slug is the naive
+  guess, not necessarily what research_pipeline.js will actually use. A
+  queue row already matched to a built journey (ledger.py's is_built
+  logic, reused here) is left out of the queued half entirely, so a
+  subject with a stale un-dropped queue row does not appear twice.
+
+  dossier_path points at working/journeys/dossiers/<slug>.dossier.md when
+  one exists -- an operator-supplied deep-research file staged ahead of
+  the pipeline run (see research-pipeline.md's `dossier` arg). This is
+  what makes "which queued subjects are ready to launch the moment tokens
+  free up" a one-column filter instead of a memory exercise.
 
 catalog_stops.csv -- one row per STOP across every BUILT journey: slug,
   traveler, segment, stop name, lat, lng, date, date_confidence. This is the
@@ -88,11 +94,17 @@ def queued_only(corpus, queue_path):
     return out
 
 
-def write_subjects(corpus, queue_path, path):
+def dossier_for(slug, dossiers_dir):
+    p = os.path.join(dossiers_dir, f"{slug}.dossier.md")
+    return p if os.path.exists(p) else ""
+
+
+def write_subjects(corpus, queue_path, dossiers_dir, path):
     with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["slug", "traveler", "title", "years", "register",
-                    "n_segments", "n_stops", "first_date", "last_date", "path", "status"])
+                    "n_segments", "n_stops", "first_date", "last_date", "path",
+                    "status", "dossier_path"])
         for slug, j in sorted(corpus.journeys.items()):
             dated = [s.date for s in j.stops if s.date]
             dated_sorted = sorted(dated, key=truekey)
@@ -100,9 +112,11 @@ def write_subjects(corpus, queue_path, path):
             last_date = dated_sorted[-1] if dated_sorted else ""
             n_segments = len({s.seg_i for s in j.stops})
             w.writerow([slug, j.traveler, j.title, j.years, j.register,
-                        n_segments, len(j.stops), first_date, last_date, j.path, "built"])
+                        n_segments, len(j.stops), first_date, last_date, j.path,
+                        "built", dossier_for(slug, dossiers_dir)])
         for slug, name in queued_only(corpus, queue_path):
-            w.writerow([slug, name, "", "", "", "", "", "", "", "", "queued"])
+            w.writerow([slug, name, "", "", "", "", "", "", "", "",
+                        "queued", dossier_for(slug, dossiers_dir)])
 
 
 def write_stops(corpus, path):
@@ -120,12 +134,15 @@ def write_stops(corpus, path):
 if __name__ == "__main__":
     c = Corpus()
     queue_path = os.path.join(D, "QUEUE.md")
+    dossiers_dir = os.path.join(D, "dossiers")
     subj_path = os.path.join(D, "catalog_subjects.csv")
     stop_path = os.path.join(D, "catalog_stops.csv")
-    write_subjects(c, queue_path, subj_path)
+    write_subjects(c, queue_path, dossiers_dir, subj_path)
     write_stops(c, stop_path)
     n_queued = len(queued_only(c, queue_path))
+    n_dossiers = sum(1 for f in os.listdir(dossiers_dir) if f.endswith(".dossier.md")) if os.path.isdir(dossiers_dir) else 0
     print(f"{len(c.journeys)} built + {n_queued} queued = {len(c.journeys) + n_queued} subjects -> {subj_path}")
+    print(f"{n_dossiers} dossiers staged in {dossiers_dir}")
     print(f"{len(c.stops)} stops -> {stop_path}")
     if c.errors:
         print(f"{len(c.errors)} unreadable files skipped:")
