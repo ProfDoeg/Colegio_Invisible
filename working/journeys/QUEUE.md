@@ -118,6 +118,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Joscha Bach** | Cognitive scientist and AI researcher, known for the MicroPsi cognitive architecture and writing on consciousness, computation, and the nature of mind; joins the corpus's cipher/computing wing (diffie, hellman, hal_finney already done) |
 | 0 | **Klaus Schwab** | Founder and longtime chairman of the World Economic Forum, architect of the Davos elite-convening model and the 'Great Reset' and 'Fourth Industrial Revolution' framings; joins the corpus's material on concentrated institutional power |
 | 0 | **Yoshua Bengio** | Turing Award-winning deep learning pioneer, one of the field's most prominent voices on AI safety and existential risk; joins joscha_bach just queued in the corpus's AI/computing wing |
+| 0 | **Ray Kurzweil** | inventor (the first CCD flatbed scanner, text-to-speech for the blind) turned Google Director of Engineering and prophet of the technological singularity in The Singularity Is Near; joins joscha_bach and yoshua_bengio just queued in the AI/computing wing, and gives it a real prophecy angle the cluster otherwise lacks |
 | 1 | **Walt Disney** | American animator and film producer, Steamboat Willie to Disneyland; the corpus's make-believe and fairy-tale essays already touch his terrain (hans_christian_andersen, brothers_grimm queued) |
 | 3 | **Stephen Spielberg** | American film director, Poltergeist and E.T.; joins the corpus's cinema wing (fritz_lang just done) |
 | 5 | **H.P. Lovecraft** | American horror writer of cosmic dread and the Cthulhu Mythos, a solitary and reclusive life mostly in Providence, Rhode Island; already touched in passing in the corpus's Nick Land material |
@@ -383,8 +384,6 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Leon Black** | founder of Apollo Global Management, paid jeffrey_epstein already queued roughly $158 million for 'tax and estate advice,' resigned as CEO once the payments became public |
 | 0 | **Reid Hoffman** | LinkedIn co-founder and PayPal mafia member, met with jeffrey_epstein already queued and later donated to charity over it; bridges the Epstein-ties and PayPal-mafia threads |
 | 0 | **Max Levchin** | PayPal co-founder and CTO, later founded Affirm; joins elon_musk and peter_thiel already queued in the corpus's PayPal-mafia material |
-| 0 | **Larry Page** | Google co-founder alongside sergey_brin just queued, PageRank's co-inventor as a Stanford PhD student |
-| 0 | **Sergey Brin** | Google co-founder alongside larry_page just queued, the two inseparable in the founding story |
 | 0 | **Larry Ellison** | co-founder of Oracle, among the wealthiest people alive, famous for a lavish yacht-and-island lifestyle |
 | 0 | **Sheldon Adelson** | Las Vegas Sands casino magnate, one of the largest Republican and pro-Israel political donors in US history; direct interlock with benjamin_netanyahu already queued |
 | 0 | **Charles Ponzi** | Italian immigrant swindler whose 1920s Boston scheme gave its name to every scheme of its kind since, including Bernie Madoff's |
