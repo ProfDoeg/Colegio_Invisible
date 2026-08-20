@@ -186,7 +186,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Paul Warburg** | Max's brother, emigrated to the US and was the chief architect of the Federal Reserve System; second figure of the same dynasty |
 | 0 | **Francis Baring** | founder of Barings Bank, the British merchant bank that financed sovereign debt and trade across the Napoleonic era |
 | 0 | **Alexander Baring** | Francis's relation who personally arranged the financing of the Louisiana Purchase; second figure of the same dynasty, ties to the corpus's Napoleonic-era Americas material |
-| 0 | **Junius Spencer Morgan** | founder of the London merchant bank that became J.P. Morgan & Co. |
 | 0 | **J.P. Morgan** | Junius's son, American Gilded Age banking titan who financed Edison and the electrification of America; second figure of the same dynasty, reaching toward the corpus's physics/invention wing |
 | 0 | **Simone de' Bardi** | Florentine banker of the Bardi banking house, husband of Beatrice Portinari; already named in passing in dante.journey.json ('married some years now to the banker Simone de' Bardi'), never given his own entry |
 | 0 | **Elon Musk** | South African-American entrepreneur, SpaceX and Tesla, born in Pretoria and moved through Canada before the US; joins the corpus's mathematics/physics and modern tech wing (katherine_johnson just queued, geoffrey_hinton already queued) |
@@ -384,14 +383,11 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Leon Black** | founder of Apollo Global Management, paid jeffrey_epstein already queued roughly $158 million for 'tax and estate advice,' resigned as CEO once the payments became public |
 | 0 | **Reid Hoffman** | LinkedIn co-founder and PayPal mafia member, met with jeffrey_epstein already queued and later donated to charity over it; bridges the Epstein-ties and PayPal-mafia threads |
 | 0 | **Max Levchin** | PayPal co-founder and CTO, later founded Affirm; joins elon_musk and peter_thiel already queued in the corpus's PayPal-mafia material |
-| 0 | **David Sacks** | PayPal COO, later venture capitalist and political commentator; joins the same PayPal-mafia cluster |
 | 0 | **Larry Page** | Google co-founder alongside sergey_brin just queued, PageRank's co-inventor as a Stanford PhD student |
 | 0 | **Sergey Brin** | Google co-founder alongside larry_page just queued, the two inseparable in the founding story |
-| 0 | **Jeff Bezos** | founder of Amazon and Blue Origin, at various points the world's richest person, owner of The Washington Post |
 | 0 | **Larry Ellison** | co-founder of Oracle, among the wealthiest people alive, famous for a lavish yacht-and-island lifestyle |
 | 0 | **Sheldon Adelson** | Las Vegas Sands casino magnate, one of the largest Republican and pro-Israel political donors in US history; direct interlock with benjamin_netanyahu already queued |
-| 0 | **Bernie Madoff** | ran the largest Ponzi scheme in recorded history (roughly $65 billion), died in federal prison in 2021 |
-| 0 | **Charles Ponzi** | Italian immigrant swindler whose 1920s Boston scheme gave bernie_madoff's just queued crime its name |
+| 0 | **Charles Ponzi** | Italian immigrant swindler whose 1920s Boston scheme gave its name to every scheme of its kind since, including Bernie Madoff's |
 | 0 | **Alberto Fujimori** | Peruvian president 1990-2000, authoritarian 'autogolpe' in 1992, later convicted of human rights abuses and corruption; fled to Japan, was extradited from Chile to face trial; joins the corpus's Latin American strongman material (augusto_pinochet already done) |
 | 0 | **Jamie Dimon** | Chairman and CEO of JPMorgan Chase since 2005/2006, the most powerful figure in American banking since the 2008 crisis, which JPMorgan weathered by absorbing Bear Stearns and Washington Mutual; previously a top Sandy Weill lieutenant at Citigroup before his 1998 ouster, then CEO of Bank One through its 2004 merger into JPMorgan; a fixture at Davos, where he clashed publicly with paul_singer just queued over bank transparency ("hedge funds are pretty opaque too"); joins the corpus's banking material (the fuggers, medicis, warburgs, morgans already queued) into the present, and its Davos cluster (javier_milei, reich already there for unrelated reasons) |
 | 0 | **Larry Fink** | CEO and co-founder of BlackRock, the world's largest asset manager; joins jamie_dimon just queued in the corpus's contemporary-finance material |
