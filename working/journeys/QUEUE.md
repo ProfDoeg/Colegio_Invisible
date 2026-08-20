@@ -38,269 +38,8 @@ essays+Instagram corpus.
 
 | docs | subject | who |
 |--:|---|---|
-| 38 | **San Cristóbal** | Saint Christopher - martyr, Christ-bearer, dog-headed in the Eastern tradition; patron of travelers |
-| 11 | **Edward Bulwer-Lytton** | Victorian novelist, author of Vril |
-| 10 | **Hermann Hesse** | Hermann Hesse, German-Swiss novelist |
-| 10 | **Nabucodonosor II** | Chaldean king of Babylon, destroyer of Solomon's Temple |
-| 8 | **San Antonio Abad** | Anthony the Great, Egyptian desert hermit, father of monasticism |
-| 8 | **Lionel Royer** | French academic painter of the Joan of Arc murals |
-| 8 | **Gilles de Rais** | marshal of France, companion-in-arms of Joan of Arc |
-| 6 | **Gauss** | German mathematician Carl Friedrich Gauss |
-| 6 | **Virgil** | Roman poet, author of the Aeneid |
-| 5 | **Felix Adler** | Founder of Ethical Culture movement, free kindergarten pioneer; his Ethical Culture School in New York trained Richard Feynman's mother Lucille as a kindergarten teacher (per Gleick's *Genius* and thinkingwiththings.com's essay on Feynman and Froebel), a genuinely underexplored direct interlock with richard_feynman (already done) and the corpus's Froebel material (froebel already done) |
-| 5 | **Tchaikovsky** | Russian composer |
-| 5 | **Adriano (Hadrian)** | Roman emperor, builder of the villa at Tivoli |
-| 5 | **Julio Argentino Roca** | Argentine general and president, Conquest of the Desert |
-| 4 | **Philipp Griebel** | German terracotta maker, originated garden gnomes |
-| 4 | **Juan Manuel de Rosas** | 19th-century Argentine caudillo governor |
-| 4 | **Plinio el Viejo** | Roman naturalist, died at Vesuvius |
-| 4 | **Hegel** | German idealist philosopher |
-| 4 | **René Guénon** | French metaphysician and traditionalist writer |
-| 4 | **Elsa Gindler** | German somatic movement pioneer |
-| 4 | **Newton** | English physicist and mathematician |
-| 4 | **Jules Verne** | French science-fiction novelist |
-| 3 | **Claude Levi-Strauss** | French structural anthropologist |
-| 3 | **Marcel Proust** | French novelist |
-| 3 | **Kant** | German Enlightenment philosopher |
-| 3 | **Fred Rogers** | American television host, Mister Rogers' Neighborhood |
-| 3 | **Mesmer** | German physician, proponent of animal magnetism |
-| 3 | **Fermi** | Italian physicist, Nobel laureate |
-| 3 | **Dirac** | English quantum physicist, Nobel laureate |
-| 3 | **Satyendra Nath Bose** | Indian physicist of Bose-Einstein statistics |
-| 3 | **Gustave Flaubert** | French novelist, author of Madame Bovary |
-| 3 | **Johann Tischbein** | German painter of Goethe in the Roman Campagna |
-| 3 | **Roland Barthes** | French semiotician, The Fashion System |
-| 0 | **Cristóbal Balenciaga** | Spanish couturier, founded the house of Balenciaga in Paris in 1937, called 'the master' by christian_dior just queued; anchors a new fashion cluster around roland_barthes's already-done semiotic study of the industry |
-| 0 | **Christian Dior** | French designer whose 1947 'New Look' collection redefined postwar fashion; publicly named cristobal_balenciaga just queued as the master couturier of them all |
-| 0 | **Louis Vuitton** | French trunk-maker, founded the house of Louis Vuitton in 1854 and invented the flat-topped stackable trunk that ended the age of the rounded lid; joins the same fashion-house cluster |
-| 0 | **Hugo Boss** | German tailor who founded the Hugo Boss company in 1924; the firm manufactured uniforms for the Nazi Party, the SS and the Hitler Youth through the Third Reich, a history the company itself later commissioned a historian to document |
-| 0 | **Coco Chanel** | French couturier, founded the house of Chanel; during the Nazi occupation of Paris lived at the Ritz with Abwehr intelligence officer Hans Gunther von Dincklage and was recruited into a failed back-channel peace mission (Operation Modellhut), later cleared by a French court but never prosecuted; joins the same fashion-house cluster (cristobal_balenciaga, christian_dior, louis_vuitton, hugo_boss queued) |
-| 3 | **Arnold Rikli** | Swiss naturopath, pioneer of sunbathing therapy in Bled |
-| 3 | **Ida Hoffmann** | co-founder of the Monte Verità colony, pianist |
-| 3 | **Engelmann (Liga Pitagórica)** | life-reformer of the Pythagorean League at Lago di Lugano |
-| 3 | **Richard Wagner** | German composer of the Ring cycle |
-| 3 | **Taras Shevchenko** | Ukrainian national poet and painter |
-| 3 | **Luc-Olivier Merson** | French symbolist painter of Joan of Arc |
-| 3 | **Constantino el Grande** | Roman emperor who legalized Christianity |
-| 3 | **Le Corbusier** | Swiss-French modernist architect |
-| 3 | **Hilma af Klint** | Swedish abstract painter and mystic |
-| 3 | **Maurice Sendak** | American children's book author-illustrator |
-| 3 | **Augusto Pinochet** | Chilean dictator |
-| 3 | **Diffie** | American cryptographer, co-inventor of public-key cryptography |
-| 3 | **Hellman** | American cryptographer, co-inventor of Diffie–Hellman key exchange |
-| 0 | **Ralph Merkle** | American computer scientist, independently co-invented public-key cryptography alongside diffie and hellman already queued, and invented the Merkle tree, the hash structure underlying the blockchains hal_finney and satoshi_nakamoto's work depends on |
-| 0 | **Ron Rivest** | American cryptographer, the R of RSA, turned diffie and hellman's just queued public-key concept into the first practical implementation alongside shamir and adleman, still the backbone of internet encryption |
-| 0 | **Adi Shamir** | Israeli cryptographer, the S of RSA, co-invented the first practical public-key implementation alongside rivest and adleman |
-| 0 | **Leonard Adleman** | American computer scientist, the A of RSA, co-invented the first practical public-key implementation alongside rivest and shamir |
-| 3 | **Michel Foucault** | French philosopher and historian of ideas |
-| 3 | **Gilles Deleuze** | French philosopher, author of The Fold |
-| 3 | **Martin Luther** | German Protestant reformer |
-| 3 | **Johann Faust** | German alchemist-astrologer behind the Faust legend |
-| 2 | **William the Conqueror** | William the Conqueror, Norman king of England |
-| 2 | **John von Neumann** | John von Neumann, mathematician, Manhattan Project |
-| 2 | **James Joyce** | Irish modernist writer |
-| 2 | **Paul Klee** | Swiss-German modernist painter, Bauhaus teacher |
-| 2 | **Richard Feynman** | American physicist, Manhattan Project, QED Nobel laureate |
-| 2 | **Hans Christian Andersen** | Danish fairy-tale author |
-| 2 | **Fritz Lang** | Austrian-German film director, made 'Metropolis' (1927) |
-| 2 | **Antoinette de Saint Léger** | Baroness owner of Brissago Islands, patron of artists |
-| 2 | **Mikhail Bakunin** | Russian anarchist revolutionary theorist |
-| 2 | **Max Weber** | German sociologist |
-| 2 | **Martin Buber** | Jewish philosopher of dialogue |
-| 2 | **Alberto Gerchunoff** | Argentine author of Los Gauchos Judíos |
-| 2 | **Theodor Reuss** | occultist, founder-head of Ordo Templi Orientis |
-| 2 | **Jules Barbier** | Parisian librettist and playwright |
-| 2 | **Gustave Eiffel** | French engineer of tower and Statue of Liberty frame |
-| 2 | **Francis Bellamy** | Author of the US Pledge of Allegiance |
-| 2 | **Edward Bellamy** | American utopian novelist, Looking Backward |
-| 2 | **George Balanchine** | Russian-American ballet choreographer |
-| 2 | **Abu Karib** | Himyarite king of Yemen, converted to Judaism |
-| 2 | **Madame de Lafayette** | Wife of the Marquis de Lafayette |
-| 2 | **Marqués de Lafayette** | French general in the American Revolution (1757-1834) |
-| 2 | **Claude Shannon** | father of information theory |
-| 2 | **Betty Shannon** | mathematician, wife and collaborator of Claude Shannon |
-| 2 | **Martín Miguel de Güemes** | Argentine gaucho general of independence war |
-| 2 | **Isabel Perón** | Argentine president 1974-76, Perón's widow |
-| 2 | **Marta Ezcurra** | Argentine Catholic social-service pioneer |
-| 2 | **Augusto Boal** | Brazilian creator of Theatre of the Oppressed |
-| 2 | **Mao Zedong** | leader of Communist China |
-| 2 | **Fidel Castro** | leader of the Cuban Revolution |
-| 2 | **Nick Land** | philosopher associated with accelerationism |
-| 2 | **Burnt Njal** | Icelandic chieftain of Njáls saga |
-| 2 | **Mark Twain** | American writer, author of Joan of Arc memoir |
-| 2 | **Christian Rosenkreuz** | legendary founder of the Rosicrucian order |
-| 2 | **Juan Martín de Pueyrredón** | Argentine independence leader, Lautaro Lodge member |
-| 2 | **Silvio Berlusconi** | Italian media magnate and prime minister |
-| 2 | **Hiram Abiff** | legendary architect of Solomon's Temple in Masonic tradition |
-| 2 | **Leonard Euler** | Swiss mathematician and physicist; also has a hollow-earth thread (proposed a version of the theory with an inner sun), joins symmes, saint-yves, bradshaw, john_uri_lloyd already queued |
-| 2 | **Edmond Halley** | English astronomer, hollow-earth proposer |
-| 2 | **Edgar Allan Poe** | American writer |
-| 2 | **Jacob Boehme** | German mystic |
-| 2 | **René Haüy** | French mineralogist, founder of crystallography |
-| 2 | **Fyodor Yevtishchev** | Russian sideshow performer, JoJo the Dog-Faced Boy |
-| 1 | **Louis XVI** | French king executed by guillotine, 1793 |
-| 0 | **Louis XIV** | the Sun King, absolute monarch who built Versailles and revoked the Edict of Nantes; direct ancestor of louis_xvi already done, whose execution ends the line he built |
-| 1 | **Empress Joséphine** | Napoleon's wife, Empress of the French |
-| 0 | **Pierre-François Bouchard** | French army engineer who discovered the Rosetta Stone in 1799 during Napoleon's Egyptian campaign, the same expedition empress_josephine's husband led |
-| 0 | **Joseph Fourier** | French mathematician of the Fourier series and the heat equation, administrator on the same Egyptian campaign pierre_francois_bouchard just queued served in; years earlier in Grenoble he had personally introduced the young Jean-François Champollion to Egyptology, decades before Champollion deciphered the stone Bouchard found |
-| 1 | **Sitting Bull** | Lakota leader at Little Bighorn |
-| 1 | **Johann Bode** | German astronomer |
-| 1 | **Joffrey Rudel** | 12th-century troubadour, prince of Blaye |
-| 1 | **Tony Skyrme** | British physicist, originator of skyrmion model |
-| 1 | **Edward Witten** | American theoretical physicist, string theory pioneer |
-| 1 | **Erik Satie** | French avant-garde composer |
-| 1 | **Merce Cunningham** | American modern dance choreographer |
-| 1 | **Swami Vivekananda** | Hindu monk who brought Vedanta to the West |
-| 0 | **Mahatma Gandhi** | led India's independence movement through nonviolent resistance, assassinated 1948; the corpus's Indian material so far is entirely religious/mystic (swami_vivekananda, pattabhi_jois, giuseppe_tucci already done) with no political-independence figure until now |
-| 0 | **Kublai Khan** | grandson of Genghis Khan (already done), founder of the Yuan dynasty and the Mongol ruler Marco Polo actually served at court; continues the Mongol Empire thread into China |
-| 1 | **Otto Hanish (Mazdaznan)** | founder of the Mazdaznan movement |
-| 1 | **Giuseppe Tucci** | Italian orientalist and Tibet scholar |
-| 1 | **Ann Lee** | founder and spiritual leader of the Shakers |
-| 1 | **San Vito** | Sicilian Christian martyr saint, patron of dancers |
-| 1 | **Pattabhi Jois** | Indian yoga teacher, founder of Ashtanga yoga |
-| 1 | **Madame Chiang Kai-shek** | Soong Mei-ling, first lady of Republic of China |
-| 1 | **Mario Palanti** | Italian architect of Palacio Barolo |
-| 1 | **José López Rega** | Argentine minister 'El Brujo', founder of the AAA death squad |
-| 1 | **Johannes Trithemius** | German abbot, cryptographer, teacher of Agrippa |
-| 1 | **Salomon Trismosin** | legendary alchemist, reputed teacher of Paracelsus |
-| 1 | **Jean-Jacques Rousseau** | Genevan Enlightenment philosopher of education and society |
-| 1 | **Leif Erikson** | Norse explorer who reached North America |
-| 1 | **L. Frank Baum** | American author of The Wonderful Wizard of Oz; lived in Bronxville, New York, the same town as Sara Rudner and Viola Farber already queued |
-| - | **Los Catorce Santos Ayudantes** | the Fourteen Holy Helpers as a company - Acacius, Blaise, Christopher, Cyriacus, Denis, Erasmus, Eustace, George, Pantaleon, Vitus (Barbara, Catherine, Giles, Margaret already travel in the atlas) |
-| 0 | **Saint Acacius** | one of the Fourteen Holy Helpers, Roman centurion martyr; wanted individually, not only as part of the company entry above |
-| 0 | **Saint Blaise** | one of the Fourteen Holy Helpers, Armenian bishop-physician martyr, patron of throat ailments; wanted individually |
-| 0 | **Saint Cyriacus** | one of the Fourteen Holy Helpers, Roman deacon martyr; wanted individually |
-| 0 | **Saint Denis** | one of the Fourteen Holy Helpers, first bishop of Paris, martyred by decapitation and said to have carried his own head; wanted individually |
-| 0 | **Saint Erasmus (Elmo)** | one of the Fourteen Holy Helpers, patron of sailors, namesake of St. Elmo's fire; wanted individually |
-| 0 | **Saint Eustace** | one of the Fourteen Holy Helpers, Roman general converted by a vision of a crucifix between a stag's antlers; wanted individually |
-| 0 | **Saint George** | one of the Fourteen Holy Helpers, the dragon-slayer, patron of England and much else; wanted individually |
-| 0 | **Saint Pantaleon** | one of the Fourteen Holy Helpers, physician martyr of Nicomedia; wanted individually |
-| 0 | **Alexander Graham Bell** | Scottish-Canadian-American inventor of the telephone, also devoted much of his life to deaf education (his mother and wife were both deaf); joins the corpus's invention/physics wing (edison-adjacent material via j_p_morgan already queued) |
-| 0 | **Martha Graham** | American modern dance pioneer, student of Ruth St. Denis already queued, one of the most influential choreographers of the 20th century; already named in passing across several corpus journeys (merce_cunningham, erik_satie) but never given her own |
-| 0 | **Bethsabée (Bathsheva) de Rothschild** | member of the Rothschild dynasty (mayer_amschel_rothschild already queued), founded the Batsheva Dance Company in Israel and was a major patron of Martha Graham just queued; direct interlock between the banking cluster and the dance wing |
-| 0 | **Abu Yazid al-Bistami** | early Sufi mystic (d. 874) famous for ecstatic utterances (shath) and the concept of fana, spiritual annihilation; joins the corpus's Sufi wing (hallaj, rumi, ibn_arabi already done) |
-| 0 | **Ibrahim ibn Adham** | legendary prince of Balkh (d. 777) who renounced his throne to become a wandering ascetic, a story structurally parallel to the Buddha's own renunciation; joins the same Sufi wing |
-| 0 | **Abd al-Qadir al-Jilani** | founder of the Qadiriyya Sufi order (d. 1166); Emir Abdelkader, first journey in this entire atlas, is named for him and makes pilgrimage to his tomb in Baghdad in abdelkader.journey.json — an interlock that has been sitting there since the beginning, never given its own entry |
-| 0 | **Abu Bakr as-Siddiq** | closest companion of Muhammad already done, first Rashidun Caliph after his death (d. 634); direct interlock with the corpus's earliest Islamic material |
-| 0 | **Moinuddin Chishti** | founder of the Chishti Sufi order (d. 1236), most influential Sufi lineage in South Asia, shrine at Ajmer one of the subcontinent's most visited; joins the same Sufi cluster |
-| 0 | **Nizam ad-Din Auliya** | Chishti Sufi saint of Delhi (d. 1325), in the direct lineage from moinuddin_chishti just queued |
-| 0 | **Amir Khusrow** | poet, musician, and scholar (d. 1325), the most famous disciple of Nizam ad-Din Auliya just queued, credited with founding qawwali; direct teacher-student interlock |
-| 0 | **Shams al-Din of Tabriz** | wandering dervish (d. 1248) whose forty-day seclusion with Rumi already done transformed him from a jurist into a poet; extremely well documented already in rumi.journey.json (a dozen stops name him directly) but never given his own entry |
-| 0 | **Jean-Baptiste Alliette (Etteilla)** | 18th-century French occultist, first to popularize tarot as a divination tool and publish tarot instruction under his own name; joins the corpus's tarot/occult wing (pamela_colman_smith already queued) |
-| 0 | **Arthur Edward Waite** | British occultist and Golden Dawn member, co-creator with Pamela Colman Smith (already queued) of the Rider-Waite-Smith tarot deck; direct interlock |
-| 0 | **Margaret Murray** | British archaeologist and folklorist, author of the witch-cult hypothesis (that European witch trials targeted a surviving pre-Christian pagan religion), directly influential on the founding of modern Wicca |
-| 0 | **Dion Fortune** | British occultist, founder of the Society of the Inner Light, novelist of The Sea Priestess; joins the corpus's British occult wing (a.e. waite, pamela_colman_smith already queued) |
-| 0 | **Stephen King** | American horror novelist; pet_sematary.md, one of the corpus's own locked essay files, is built entirely around his novel, yet he appears nowhere in the atlas |
-| 0 | **Hal Finney** | cryptographer, early PGP developer, received the first Bitcoin transaction from Satoshi Nakamoto; diagnosed with ALS and chose cryonic preservation at Alcor; joins the corpus's cipher wing (diffie, hellman already done) |
-| 0 | **Phil Zimmermann** | American cryptographer, created PGP (Pretty Good Privacy) in 1991, then faced a federal criminal investigation for exporting it; hal_finney just queued was an early PGP developer under him |
-| 0 | **Nick Szabo** | computer scientist and legal scholar, proposed 'bit gold' and smart contracts before Bitcoin existed; joins the same cipher/blockchain wing as hal_finney just queued |
-| 0 | **George Washington** | first US president; already named extensively across marques_de_lafayette, madame_de_lafayette (the Masonic apron stop), yet never given his own journey |
-| 0 | **Thomas Jefferson** | third US president, author of the Declaration of Independence; joins the same Revolutionary-era American cluster |
-| 0 | **Alexander Hamilton** | first US Treasury Secretary, architect of the American financial system; joins the corpus's banking cluster (the fuggers, medicis, warburgs, barings, morgans already queued) |
-| 0 | **Andrew Jackson** | seventh US president, Indian Removal Act and the Trail of Tears; interlocks with the corpus's Native American material (sitting_bull, low_dog, pocahontas already done/queued) |
-| 0 | **Abraham Lincoln** | sixteenth US president; already named in passing (sent Abdelkader an inscribed rifle, per kircher/abdelkader-adjacent material), a DIFFERENT person from abraham.journey.json (the biblical patriarch) |
-| 0 | **Benjamin Franklin** | American polymath, printer, diplomat, Freemason; joins the corpus's Masonic material (albert_pike, hiram_abiff already done) and the same Revolutionary-American/French court cluster as marques_de_lafayette |
-| 0 | **Nikola Tesla** | Serbian-American inventor, AC power system, rival of Edison; joins the corpus's physics/invention wing |
-| 0 | **Thomas Edison** | American inventor, financed by J.P. Morgan already queued; direct interlock, plus rival of nikola_tesla just queued |
-| 0 | **Alexis de Tocqueville** | French aristocrat whose 1831 tour of the young United States produced Democracy in America; the literal journey-of-the-USA to anchor the whole American cluster just queued (washington, jefferson, jackson, franklin) |
-| 0 | **Johnny Appleseed (John Chapman)** | American pioneer nurseryman and folk legend who planted apple orchards across the Midwest frontier ahead of settlement; joins the same American cluster |
-| 0 | **John Locke** | English philosopher of the social contract and natural rights, direct intellectual source for Jefferson's Declaration of Independence (thomas_jefferson just queued); joins the corpus's Enlightenment-philosophy wing (rousseau, kant already done) |
-| 0 | **Adam Smith** | Scottish economist of The Wealth of Nations, foundational to the financial system alexander_hamilton just queued built; joins the corpus's banking/economics cluster |
-| 0 | **William Paterson** | Scottish trader and financier, founder of the Bank of England in 1694 and later promoter of the disastrous Darien scheme; the corpus's central-banking thread (alexander_hamilton, adam_smith just queued) reaches its English root through him |
-| 0 | **Johan Palmstruch** | Dutch-Swedish financier, founder of Stockholms Banco in 1657, the first European bank to issue paper banknotes and forerunner of the Sveriges Riksbank; the corpus's central-banking thread (william_paterson just queued) reaches back further still through him |
-| 0 | **Meyer Lansky** | American organized-crime financier, built the Havana casino network under Batista, driven out by fidel_castro already done; direct interlock |
-| 0 | **John F. Kennedy** | 35th US president, Bay of Pigs and the Cuban Missile Crisis with fidel_castro already done, assassinated 1963; joins the corpus's central-banking discourse thread (hamilton, jackson, lincoln just queued) via the Executive Order 11110 episode |
-| 0 | **Charles 'Lucky' Luciano** | architect of the modern American Mafia, direct partner of meyer_lansky just queued in the same Havana casino network under Batista |
-| 0 | **Pasquale Simonetti ("Pascalone 'e Nola")** | Neapolitan Camorra boss of the postwar black market, gunned down in Naples in 1955; the killing that launches pupetta_maresca just queued into her own legend |
-| 0 | **Pupetta Maresca** | avenged her fiance pasquale_simonetti just queued by shooting his killer in broad daylight in 1955, tried and imprisoned, later a Camorra figure and film actress; joins the corpus's organized-crime cluster (luciano, lansky just queued) from its Italian, not American, side |
-| 0 | **Licio Gelli** | grandmaster of the clandestine Propaganda Due (P2) Masonic lodge, implicated in the Banco Ambrosiano collapse and the death of Roberto Calvi; joins the corpus's Masonic material (hiram_abiff, albert_pike already queued) at its darkest, most conspiratorial edge |
-| 0 | **Mohammad Mosaddegh** | elected Iranian prime minister, nationalized Anglo-Iranian Oil, overthrown in the 1953 CIA/MI6-backed coup (Operation Ajax) that restores mohammad_reza_shah_pahlavi just queued to full power |
-| 0 | **Mohammad Reza Shah Pahlavi** | Shah of Iran restored by the 1953 coup against mosaddegh just queued, overthrown in turn by the 1979 revolution led by ayatollah_khomeini just queued |
-| 0 | **Ayatollah Khomeini** | leader of the 1979 Iranian Revolution that deposes the shah just queued, founder of the Islamic Republic; his hostility to saddam_hussein just queued opens the Iran-Iraq War |
-| 0 | **Saddam Hussein** | president of Iraq, fought the eight-year Iran-Iraq War against khomeini's just queued Iran, later the Gulf War and his own 2003 overthrow |
-| 0 | **Muammar Gaddafi** | Libyan revolutionary leader from 1969 to 2011, pan-Arabist and later pan-Africanist, armed and funded insurgencies across the region; joins the corpus's cluster of 20th-century strongmen (saddam_hussein just queued) |
-| 0 | **Prince Hall** | African American abolitionist, founded Prince Hall Freemasonry in 1775, the first Black Masonic lodge in America; joins the corpus's Masonic material (hiram_abiff, albert_pike already queued) from its Black-American branch |
-| 0 | **Robert Finley** | American Presbyterian minister, founded the American Colonization Society in 1816, which established Liberia as a settlement for freed American slaves |
-| 0 | **Marcus Garvey** | Jamaican-born Black nationalist, founded the UNIA and preached Pan-Africanism and a return to Africa a century after robert_finley's just queued colonization movement, on wholly self-determined terms |
-| 0 | **Haile Selassie** | Emperor of Ethiopia, gave the 1936 League of Nations speech denouncing Italy's invasion of his country; his coronation title Ras Tafari directly inspired the Rastafari movement, which drew on marcus_garvey's just queued 'look to Africa' prophecy |
-| 0 | **Cecil Rhodes** | British colonialist and mining magnate, founder of Rhodesia and De Beers; his colonial project stands as the direct opposite pole to marcus_garvey's just queued Pan-Africanism |
-| 0 | **Jonas Savimbi** | Angolan rebel leader, founded UNITA and fought a decades-long Cold War proxy civil war, backed alternately by the US, South Africa and China against a Soviet/Cuban-backed government |
-| 0 | **Patrice Lumumba** | first prime minister of an independent Congo in 1960, assassinated in 1961 with Belgian and CIA involvement; the same Cold War pattern of foreign-backed intervention that shapes jonas_savimbi's just queued Angola |
-| 0 | **Nelson Mandela** | led the anti-apartheid struggle in South Africa, imprisoned 27 years, became the country's first Black president in 1994; the corpus's Southern African material (jonas_savimbi, cecil_rhodes just queued) reaches its resolution through him |
-| 0 | **Joshua Haldeman** | Canadian chiropractor and Technocracy movement activist in the 1930s, later a Social Credit party official, emigrated to apartheid-era South Africa in 1950, maternal grandfather of Elon Musk; lands directly in the corpus's Southern African cluster (cecil_rhodes, nelson_mandela just queued) from an unlikely angle |
-| 0 | **Clark Clifford** | US presidential advisor from Truman onward, chairman of First American Bankshares, the US bank BCCI illegally controlled behind him; indicted in 1992 in the BCCI fraud case |
-| 0 | **Agha Hasan Abedi** | Pakistani banker, founder of BCCI, the bank whose 1991 collapse remains one of the largest fraud cases in banking history |
-| 0 | **Manuel Noriega** | Panamanian dictator and longtime CIA asset, held accounts at abedi's just queued BCCI, deposed by the US invasion george_hw_bush just queued ordered in 1989 |
-| 0 | **Adnan Khashoggi** | Saudi arms dealer, central middleman in the Iran-Contra arms-for-hostages deals run under oliver_north and william_casey just queued, also banked through BCCI |
-| 0 | **Oliver North** | US National Security Council staffer who ran the Iran-Contra operation day to day under william_casey just queued |
-| 0 | **William Casey** | Reagan's CIA Director, architect of Iran-Contra's covert financing, oliver_north's just queued superior |
-| 0 | **Robert Maxwell** | British media mogul with alleged intelligence-community ties, drowned mysteriously in 1991 days before his companies' fraud collapsed; father of ghislaine_maxwell just queued |
-| 0 | **Ghislaine Maxwell** | jeffrey_epstein's just queued longtime associate, convicted in 2021 as his co-conspirator in trafficking; daughter of robert_maxwell just queued |
-| 0 | **Jeffrey Epstein** | financier convicted of sex offenses and later charged with sex trafficking, documented ties across political and financial elites including logged flights with bill_clinton just queued |
-| 0 | **Prescott Bush** | US Senator, director of Union Banking Corporation, seized by the US government in 1942 under the Trading with the Enemy Act for its financial ties to German industrialist Fritz Thyssen; patriarch of the family line continuing through george_hw_bush and george_w_bush just queued |
-| 0 | **George H.W. Bush** | CIA Director in 1976, Vice President through the Iran-Contra years (oliver_north, william_casey just queued), president who ordered the 1989 invasion of Panama that deposed manuel_noriega just queued; son of prescott_bush just queued |
-| 0 | **George W. Bush** | 43rd US president, launched the 2003 Iraq War that ends saddam_hussein's just queued rule; son of george_hw_bush just queued |
-| 0 | **Bill Clinton** | 42nd US president, documented on multiple flights aboard jeffrey_epstein's just queued private plane per released flight logs; husband of hillary_clinton just queued |
-| 0 | **Hillary Clinton** | US Senator and Secretary of State, wife of bill_clinton just queued, 2016 presidential candidate |
-| 0 | **Cristina Fernández de Kirchner** | Argentine president 2007-2015, later vice president 2019-2023, widow of predecessor Néstor Kirchner; extends the corpus's Argentine presidential line (juan_peron, eva_peron, isabel_peron already done) into the 21st century |
-| 0 | **Javier Milei** | Argentine president since 2023, self-described anarcho-capitalist economist elected on a platform defined against kirchnerismo (cristina_fernandez_de_kirchner just queued); the line's current holder |
-| 0 | **Benjamin Netanyahu** | Israel's longest-serving prime minister, dominant figure in its politics since the 1990s through the present |
-| 15 | **Brothers Grimm** | Jacob and Wilhelm Grimm, philologist brothers, collectors of the tales |
-| 1 | **Low Dog (Šúŋka Khúčiyela, Perro Bajo)** | Oglala Lakota chief at Little Bighorn beside Sitting Bull; the corpus gives him his own post, Perro Bajo |
-| 0 | **Giovanni Pico della Mirandola** | Renaissance syncretist of the 900 Theses and the Oration on the Dignity of Man; brought Kabbalah into Christian philosophy; author pick, not yet in the corpus |
-| 0 | **Tommaso Campanella** | Dominican friar of La Città del Sole, the City of the Sun; 27 years imprisoned in Naples, astrologer to popes; author pick, not yet in the corpus |
-| 0 | **Engelbert Humperdinck** | German composer of the opera Hänsel und Gretel (1893); author pick, not yet in the corpus |
-| 0 | **Sophie von Kühn** | Novalis's (already done) fiancée, died at 15 in 1797; her death is the direct occasion for Hymns to the Night and the cult of the beloved dead that runs through German Romanticism |
-| 3 | **Arthur Bispo do Rosário** | Brazilian textile artist (1909-1989) who made embroidered flags mixing text, cartography, and symbols of national identity during the 50 years he was involuntarily interned at the Colônia Juliano Moreira asylum; named in essay 203_masonic_embroidery.md |
-| 0 | **Leo Chiachio** | Argentine textile artist, half of the collaborative embroidery duo Chiachio & Giannone with his husband Daniel Giannone; their large-scale embroidered works often feature their own dogs and a shared invented family mythology |
-| 0 | **Daniel Giannone** | Argentine textile artist, half of the collaborative embroidery duo Chiachio & Giannone with his husband Leo Chiachio; joins the same embroidery/textile-art thread as arthur_bispo_do_rosario just queued |
-| 0 | **Cecilia Vicuña** | Chilean poet and visual artist, known for quipu-inspired fiber installations and 'precarios' assemblages; direct thematic interlock with the corpus's own quipu work |
-| 0 | **Johann Jost Textor** | Relative of Goethe (already done) on his mother's side, Frankfurt; direct family interlock with goethe_full.journey.json |
-| 0 | **Ian Fleming** | British Naval Intelligence officer in WWII, later creator of James Bond; joins the corpus's cipher/intelligence wing (diffie, hellman, hal_finney already done) from the fiction side |
-| 0 | **William Colby** | CIA Director 1973-1976, oversaw the Church Committee-era disclosures of agency abuses; joins the corpus's intelligence-world cluster (william_casey, oliver_north just queued) |
-| 0 | **James Matthew Barrie** | Scottish author of Peter Pan, joins the corpus's children's-literature wing alongside maurice_sendak (already done) and hans_christian_andersen (already done) |
-| 0 | **Hernando Arias de Saavedra (Hernandarias)** | (1561-1634) first American-born governor in the Spanish colonies, governor of Río de la Plata and Paraguay; joins the corpus's Argentine colonial-history thread |
-| 0 | **Dante Gabriel Rossetti** | English Pre-Raphaelite Brotherhood painter-poet, close collaborator of William Morris (already done); joins the corpus's Pre-Raphaelite cluster |
-| 0 | **Edward Burne-Jones** | English Pre-Raphaelite painter, close collaborator of William Morris (already done) at Morris & Co.; joins the same Pre-Raphaelite cluster |
-| 0 | **Elizabeth (Bessie) Burden** | Embroiderer for Morris & Co., sister of Jane Morris; joins the same Pre-Raphaelite/Morris circle |
-| 0 | **Jane Morris (née Burden)** | Pre-Raphaelite artists' model and embroiderer, wife of William Morris (already done), muse and later lover of Dante Gabriel Rossetti just queued |
-| 0 | **Mary "May" Morris** | Embroiderer and designer, daughter of William Morris (already done) and Jane Morris just queued, ran the embroidery department at Morris & Co. |
-| 0 | **Johann Friedrich Overbeck** | German painter, founder and leader of the Nazarene movement (Lukasbund, 1809), moved the group to Rome and converted to Catholicism; the Nazarenes were the direct German precursor to the Pre-Raphaelite Brotherhood's revival of pre-Renaissance sincerity |
-| 0 | **Franz Pforr** | German painter, co-founder of the Nazarene movement (Lukasbund) alongside Overbeck just queued, its original visionary before his death at 24 in 1812 |
-| 0 | **Peter von Cornelius** | German painter, leading Nazarene movement figure once the group relocated to Rome, later director of the Düsseldorf and Munich academies and the movement's most institutionally influential member |
-| 0 | **William Holman Hunt** | English painter, founding member of the Pre-Raphaelite Brotherhood (1848) alongside dante_gabriel_rossetti already queued; joins the corpus's Pre-Raphaelite cluster (william_morris, edward_burne_jones already done) |
-| 0 | **John Everett Millais** | English painter, founding member of the Pre-Raphaelite Brotherhood (1848); joins the corpus's Pre-Raphaelite cluster |
-| 0 | **Christina Rossetti** | English poet, sister of Dante Gabriel Rossetti (already queued), published in the Brotherhood's magazine The Germ; the Pre-Raphaelite movement's most significant poet, ensuring the corpus's PRB material covers verse alongside painting |
-| 0 | **John Ruskin** | English art critic and champion of the Pre-Raphaelite Brotherhood, whose writing on Gothic architecture and art directly shaped William Morris and Edward Burne-Jones (both already done); the Oxford Ruskin-reading contradiction already flagged in edward_burne_jones.report.md is his |
-| 0 | **Frank Lloyd Wright** | American architect, Prairie School and Fallingwater, founder of the Taliesin Fellowship; as a child played with the Froebel Gifts (froebel already done), the geometric wooden kindergarten blocks he later credited directly as the root of his architectural sense of form; per Norman Brosterman's *Inventing Kindergarten*, part of the same Froebel-descended lineage as buckminster_fuller (already done) and, per thinkingwiththings.com's essay on Feynman and Froebel, richard_feynman (already done); direct interlock with paolo_soleri just queued, who apprenticed under him at Taliesin West |
-| 0 | **Paolo Soleri** | Italian-American architect, apprenticed under Frank Lloyd Wright just queued at Taliesin West, later founded Arcosanti and coined 'arcology' (architecture + ecology) |
-| 0 | **Julio Cortázar** | Argentine novelist and short-story writer (Rayuela, Bestiario), Borges's (already done) only real rival in Argentine literary stature; conspicuous by his absence from the corpus's Argentine literary material |
-| 0 | **Diego Maradona** | Argentine footballer, near-religious cultural stature in Argentina ('D10S'); the single most emotionally significant Argentine omission from the corpus |
-| 0 | **Antonio Mamerto Gil Núñez (Gauchito Gil)** | Argentine folk saint, an unofficially canonized gaucho executed unjustly, venerated with roadside shrines of red flags across Argentina; answers the corpus's own gaucho/mozos-perdidos thread (hernando_arias_de_saavedra already queued). AUTHOR'S INSTRUCTION: take the folk legend as the record for this entry rather than applying the usual [A]/[R] skeptical-source discipline — the myth IS the subject here, not a contested claim to weigh against documentary sources |
-| 0 | **Anita Garibaldi** | Brazilian-born (Ana Maria de Jesus Ribeiro da Silva) revolutionary, fought alongside husband Giuseppe Garibaldi (already queued) in the Guerra dos Farrapos in Rio Grande do Sul and later the Italian Risorgimento; direct interlock, same gaucho/Rio Grande do Sul geography as hernando_arias_de_saavedra and gauchito_gil just queued |
-| 0 | **Jair Bolsonaro** | Brazilian president 2019-2023, far-right former army captain, convicted in 2025 in a coup-plot case over the attempt to overturn his 2022 election loss; joins the corpus's cluster of 20th/21st-century strongmen (saddam_hussein, muammar_gaddafi, augusto_pinochet already done) |
-| 0 | **Policarpa Salavarrieta ("La Pola")** | Colombian independence heroine and spy, executed by Spanish royalists in 1817; joins the corpus's independence-era women (juana_azurduy, maria_remedios_del_valle already done) |
-| 0 | **Camilo Torres Restrepo** | Colombian Catholic priest and sociologist, pioneer of liberation-theology-adjacent thought, joined the ELN guerrilla and was killed in his first combat action in 1966; distinct from the earlier independence-era jurist of the same base name |
-| 0 | **Frida Kahlo** | Mexican surrealist/symbolist painter, wife of Diego Rivera just queued, body of work built from a lifetime of physical suffering after a near-fatal bus accident |
-| 0 | **Diego Rivera** | Mexican muralist, husband of Frida Kahlo just queued, leading figure of the Mexican Mural Renaissance alongside Orozco and Siqueiros |
-| 0 | **Tamara Bunke ("Tania la Guerrillera")** | East German-Argentine revolutionary and Cuban intelligence agent, embedded in Bolivia to prepare the ground for che_guevara's (already done) guerrilla campaign, killed in an ambush in 1967 shortly after Che himself; direct interlock |
-| 0 | **Micaela Bastidas** | Peruvian revolutionary, wife and co-commander of Túpac Amaru II (already queued), executed alongside him in 1781 after the failed rebellion; direct interlock |
-| 0 | **Manuela Sáenz** | Ecuadorian revolutionary, companion of Simón Bolívar (already done), the 'Libertadora del Libertador' who saved his life from an 1828 assassination attempt; direct interlock |
-| 0 | **Carmen Miranda** | Portuguese-born Brazilian samba singer and actress, 'The Brazilian Bombshell,' Hollywood's highest-paid entertainer by the mid-1940s and the icon who exported carnival/tutti-frutti Brazil to the world |
-| 0 | **Caterina Valente** | Italian-French multilingual singer and entertainer, sang fluently in over ten languages, a dominant pop and variety-show star in Germany and across Europe from the 1950s through the 1960s |
-| 3 | **Duwenavue Sante' Johnson** | Artist, curator, researcher and teacher of Masonic embroidery in Philadelphia, based at the Masonic Library and Museum of Pennsylvania; particular expertise in the George Washington-Lafayette correspondence and the ceremonial apron tradition; named in essay 203_masonic_embroidery.md and 205_commodity_amnesia.md, joins the corpus's embroidery/textile-art thread (arthur_bispo_do_rosario, chiachio, giannone already queued) |
-| 2 | **Laura Renée Maier** | Embroidery artist whose 2022 diptych 'Encoded Threads' encodes a SHA256 hash referencing Hayagriva, Christophia, and Anthony in embroidered nimbi over feminized forms of Hayagriva and Anubis/San Cristóbal; named in essay 203_masonic_embroidery.md and instagram posts, direct interlock with the corpus's own certificate/cryptography material |
-| 3 | **Ekaterina Sinchinova** | Embroidery artist of the 'Domrémy' work referencing the Bourlemont fairy tree and Joan of Arc's childhood; named across multiple instagram posts, joins the corpus's embroidery-art thread and its Joan of Arc/Domrémy material |
 | 0 | **Lisoleth Charinga** (personal associate) | Artisan the author works with personally, one of his own associates - same category as ral_veroni, vicky_sigwald, pablo_sigwald, arthur_ben, yuki_seo, daniel_zachariah, otis_houston_jr, justin_fornal (see the PERSONAL ASSOCIATES WORKFLOW note, further down in this file, confirmed 2026-08-11). Run the standard first-pass research now from whatever public sources exist, even if thin; the author will then interview her directly and they'll write interview questions together afterward to fill what the first pass couldn't reach |
 
-| 1 | **Matías Carbone** | Buenos Aires knit/crochet/embroidery fashion designer, works the dog emblem and knot/nodus symbolism into his textile pieces, discussed Anubis and the topology of knots with the author in a 2023 studio visit (essay: 2023-01-31-ayer-fui-al-estudio-de-matias.md); direct interlock with the corpus's own embroidery-art thread and its nodus/knot material |
-| 0 | **Griselda Blanco** | Colombian drug trafficker, 'the Cocaine Godmother' of the Miami cocaine trade in the 1970s-80s, assassinated in 2012; joins the corpus's organized-crime cluster (pupetta_maresca, charles_lucky_luciano, meyer_lansky already done) |
-| 0 | **Raul Veroni** | Founder of Urania publishing house in Buenos Aires, father of ral_veroni already queued; direct family interlock |
-| 0 | **Elda Neyis Mosquera ("Karina")** | one of FARC's highest-ranking female commanders, captured by the Colombian army in 2008, later became a public advocate for demobilized fighters and against landmines; joins the corpus's Colombian revolutionary material |
-| 0 | **Dalila Puzzovio** | Argentine pop artist of the 1960s Instituto Di Tella scene in Buenos Aires, known for her self-promotional 'Ramona' billboard stunt and body-cast sculptural work; joins the corpus's Argentine art-world material |
-| 0 | **János Czetz (Juan Fernando Czetz, 1822-1904)** | Born in Transylvania, of Armenian ancestry - a Hungarian National Library source calls him "örmény származású" (of Armenian origin), the Armenian Embassy in Argentina gives his Armenian name as Hovhannés Tzetzian; general of the 1848 Hungarian Revolution, arrived Buenos Aires 1860, worked as a surveyor, entered the Argentine Army, helped found the Colegio Militar de la Nación, and directed the advance of the frontier line in southern Córdoba, establishing fortifications around present-day General Villegas; joins the corpus's Argentine military/frontier history and its Armenian-diaspora material |
-| 0 | **Benigno Villanueva** | Argentine military officer who fought in his country's civil wars for both sides, then fought in Mexico against the US intervention and in Russia during the Crimean War, building a distinguished career in the armed forces of the Russian Empire until his death; joins the corpus's mercenary/soldier-of-fortune material |
-| 0 | **Arshag Shorjian** | Born in Hadjin in the Ottoman Armenian world, survivor of the Adana massacres/genocide-era displacement, emigrated to Argentina and became an important witness to the founding generation of the Argentine Armenian community; joins janos_czetz already queued in the corpus's Armenian-diaspora material |
 
 ## The scope suggestions (2026-08-02)
 
@@ -310,47 +49,6 @@ docs = corpus documents, 0 where the subject is not yet written of.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Guamán Poma de Ayala** | walked Peru for decades compiling the Nueva Corónica, the book that drew the quipus and the quipucamayocs; a thousand-page letter to a king who never read it |
-| 0 | **Blas Valera** | mestizo Jesuit chronicler tied to the claim that quipus wrote language; exiled, died twice, center of the disputed Naples documents |
-| 0 | **Anni Albers** | Bauhaus weaver who called Andean textiles 'the great teachers'; Black Mountain, On Weaving |
-| 0 | **Joseph-Marie Jacquard** | the loom that put writing into punched cards; mobbed by weavers, then a statue woven in silk |
-| 0 | **Ada Lovelace** | 'weaves algebraic patterns just as the Jacquard-loom weaves flowers and leaves'; thread becomes computation |
-| 0 | **Charles Babbage** | English mathematician, designed the Difference Engine and Analytical Engine, the mechanical ancestor of the computer; ada_lovelace's just queued collaborator, wrote the notes on his Analytical Engine that became the first published algorithm |
-| 0 | **Alan Turing** | codebreaker at Bletchley Park, father of computer science and the Turing test; joins ada_lovelace just queued and the corpus's cipher/computing wing (claude_shannon already done) |
-| 0 | **Vint Cerf** | co-designed TCP/IP with bob_kahn just queued, the protocol suite underlying the internet; joins the corpus's cipher/computing wing (alan_turing just queued, claude_shannon already done) |
-| 0 | **Bob Kahn** | co-designed TCP/IP with vint_cerf just queued; the two are jointly called the fathers of the internet |
-| 0 | **Guido van Rossum** | Dutch programmer, created Python in 1991, self-titled 'Benevolent Dictator for Life' until stepping down in 2018; joins the corpus's computing wing (alan_turing, vint_cerf, bob_kahn just queued) |
-| 0 | **Linus Torvalds** | Finnish-American software engineer, created the Linux kernel in 1991 and later Git; joins the same computing wing, open-source counterpart to guido_van_rossum just queued |
-| 0 | **Bjarne Stroustrup** | Danish computer scientist, created C++ at Bell Labs in the early 1980s, extending C with object orientation; joins the corpus's computing wing (guido_van_rossum, linus_torvalds just queued) |
-| 0 | **Egeria** | 4th-century woman whose Holy Land diary is the earliest surviving pilgrimage account |
-| 0 | **Benjamin de Tudela** | medieval Jewish traveler from Iberia through every community to Baghdad; al-Andalus and the court Jews |
-| 0 | **Rabban Bar Sauma** | the reverse Marco Polo: Beijing-born Nestorian monk sent west, met kings and popes |
-| 0 | **Xuanzang** | sixteen years to India for the scriptures; keystone of the Asia desert |
-| 0 | **Matsuo Bashō** | The Narrow Road to the Deep North; the journey written as it is walked |
-| 0 | **Evliya Çelebi** | forty years, ten volumes, the Ottoman world entire; dreamed the Prophet said not intercession but travel |
-| 0 | **San Brendán** | the Atlantic voyage held real by tradition, whale-islands and all; pairs with Leif Erikson |
-| 0 | **Pytheas de Massalia** | sailed to Thule c. 325 BC; the source of the Hyperborea the Vril wing keeps invoking |
-| 0 | **Nicholas Roerich** | Himalayan expeditions, Agni Yoga, and the peace banner - a banner - touching the estandarte directly |
-| 0 | **Alexandra David-Néel** | into Lhasa disguised as a beggar; died at 100 renewing her passport |
-| 0 | **Cagliostro** | the initiate-charlatan's grand tour of every court and lodge in Europe; died walled in San Leo |
-| 0 | **Antoine de Saint-Exupéry** | flew the Aeropostale night mail over Patagonia; Vuelo Nocturno; vanished into the sea |
-| 0 | **Vito Dumas** | Argentine who sailed the Roaring Forties alone in 1942, in a boat named Legh II |
-| 0 | **Ceferino Namuncurá** | son of a Mapuche cacique, Patagonia to Rome, dead at 18, folk-canonized |
-| 0 | **Aimé Bonpland** | Humboldt's companion who stayed: nine years prisoner of Paraguay's dictator, died on the Paraná among his plants |
-| 0 | **Charles Darwin** | the Beagle years in Argentina and Patagonia; the voyage that became the theory |
-| 0 | **Sor Juana Inés de la Cruz** | the tenth muse of New Spain; the cell, the library, the renunciation signed in blood |
-| 0 | **Túpac Amaru II** | the last Inca revolt, Cusco to the four quarters; his name itself a recurring journey |
-| 0 | **Margery Kempe** | the weeping pilgrim of Lynn; first autobiography in English, dictated unlettered |
-| 0 | **Isabelle Eberhardt** | Geneva to the Sahara as Si Mahmoud; converted, initiated, drowned in a desert flood |
-| 0 | **Hildegard von Bingen** | the Rhine journeys of the sibyl; preaching tours no abbess made before her |
-| 0 | **La Difunta Correa** | folk saint of San Juan who died on a journey, the child alive at her breast; roadside shrines of water bottles |
-| 2 | **Aby Warburg** | art historian of the Mnemosyne Atlas - an atlas of images; the 1896 journey to the Hopi serpent ritual; the library that migrated whole from Hamburg to London |
-| 0 | **Emma Kunz** | Swiss healer and artist of the pendulum grid drawings on graph paper; discovered AION A in the Roman quarry; kin to Hilma af Klint already queued |
-| 0 | **André Breton** | surrealist pope of Nadja and the objective chance walk; wartime crossing to Martinique and New York |
-| 0 | **Juan Eduardo Cirlot** | Barcelona poet-symbologist of the Diccionario de símbolos; hermetic knight of the Order of Toledo |
-| 0 | **W.G. Sebald** | Max Sebald, the walker of The Rings of Saturn; emigration as the wound that writes; died mid-journey on the road |
-| 0 | **Mary Shelley** | the 1816 Geneva summer that birthed Frankenstein; elopement across the Alps at sixteen; History of a Six Weeks' Tour |
-| 0 | **W.B. Yeats** | Golden Dawn initiate, the tower at Thoor Ballylee, the gyres; Byzantium as a journey of the soul |
 | 10 | **Ral Veroni** (personal associate) | Argentine artist of the intervened banknotes and tarot graphics, collaborator of the author; 10 corpus documents |
 
 ## The bridges (2026-08-02)
@@ -359,13 +57,6 @@ Chosen to connect subspaces of the social graph that currently share no edge.
 
 | docs | subject | who |
 |--:|---|---|
-| 7* | **Wolfgang Pauli** | physics <-> Jung <-> number mysticism; 7 atlas files already name him, an orphan hub - the dreams analyzed at Küsnacht, the Pauli effect, 137 and the room he died in |
-| 0 | **Xul Solar** | modern Argentina <-> the esoteric wing <-> Bauhaus; Borges's closest friend, 'our William Blake', inventor of languages and a modified tarot, San Isidro |
-| 0 | **El Inca Garcilaso de la Vega** | Cusco <-> Renaissance Neoplatonism <-> Iberia; raised among quipucamayocs, translated León Hebreo, wrote the Comentarios Reales - the first to carry the quipu across the ocean |
-| 0 | **Leo Africanus** | al-Andalus <-> papal Rome <-> the African desert; al-Hasan al-Wazzan, Granada exile, Timbuktu diplomat, pirate captive baptized by Leo X, author of the Description of Africa, returned to Islam |
-| 0 | **Maslama al-Majrītī** | astronomer of Madrid, transmitter of the Rasā'il Ikhwān al-Ṣafā' to al-Andalus; traditional name over the Ghāyat al-Ḥakīm, the Picatrix |
-| 0 | **Ahmad al-Majrītī** | of the Majrītī school, the name the Rutbat al-Ḥakīm and Picatrix circle travels under |
-| 0 | **Maslama al-Qurṭubī** | the Ghāyat al-Ḥakīm's author by modern attribution; Córdoba, the talismanic art gathered into one book that reached Europe as Picatrix |
 
 ## The author's slate (2026-08-02)
 
@@ -374,24 +65,6 @@ the manifesto, and the cipher.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Vaslav Nijinsky** | the god of dance, married in Buenos Aires 1913 - the wedding that broke Diaghilev; the Diary; thirty years of silence in Switzerland |
-| 0 | **Sergei Diaghilev** | the impresario who never danced a step and moved the whole Ballets Russes across the world; died in Venice, buried on San Michele beside where Stravinsky would follow |
-| 0 | **Moshé Feldenkrais** | walked to Palestine at fourteen; judo in Paris under Kano's men; physicist beside Joliot-Curie; the somatics that joins the Gindler wing - physical culture, physics, and diaspora in one life |
-| 0 | **Anna Pavlova** | died on tour refusing the surgery that would end her dancing: prepare my swan costume; toured South America into the atlas's own cities |
-| 1 | **Marie Taglioni** | the first sylph, the invention of pointe; legend says bandits made her dance in the road; already one corpus document |
-| 0 | **Loïe Fuller** | the serpentine dance - cloth in motion as pure light, the book's own medium; patented her lighting, befriended the Curies |
-| 1 | **Ezekiel** | prophet of the exile itself, the merkabah seen by the river Chebar; his tomb at al-Kifl kept by Iraq's Jews until their own exodus |
-| 0 | **Saadia Gaon** | Egypt to Sura, the Babylonian academies at their summit; translated Torah into Arabic; the axis the Yehudim Bavlim essay stands on |
-| 0 | **David Sassoon** | Baghdad's treasurer fleeing the pasha, rebuilding in Bombay until the Baghdadi diaspora ran Shanghai to London; the exile gone planetary |
-| 0 | **Mayer Amschel Rothschild** | the Frankfurt Judengasse to the five arrows - five sons sent to five capitals; the court-Jews thread become a constellation of its own |
-| 0 | **al-Kindi** | philosopher of the Arabs at the House of Wisdom; the Risala that invented frequency analysis - ancestor of the book's own cipher practice, joining Trithemius and Shannon across a millennium |
-| 0 | **al-Khalil ibn Ahmad al-Farahidi** | 8th-century Arab lexicographer, father of Arabic prosody and compiler of the first Arabic dictionary; credited with solving a Byzantine cryptogram through permutations and combinations, predating al-Kindi's just queued frequency analysis in the cipher lineage |
-| 0 | **Ibn Adlan (1187-1268)** | Arab scholar whose treatise on cryptanalysis extends al-Kindi's just queued frequency-analysis method, working out the minimum ciphertext length needed to break a cipher; continues the same lineage two centuries on |
-| 0 | **Ibn al-Durayhim (1312-1361)** | Arab scholar whose treatise on cryptanalysis, cataloguing multiple substitution and transposition cipher systems, is the direct source ahmad_al_qalqashandi just queued draws on in Subh al-a'sha; continues the Arabic cipher lineage (al-Kindi, ibn_adlan just queued) |
-| 0 | **Ahmad al-Qalqashandi (1355-1418)** | Egyptian scholar whose encyclopedia Subh al-a'sha devotes a section to cryptography, cataloguing substitution and transposition ciphers drawn directly from ibn_al_durayhim's just queued earlier treatise; continues the Arabic cipher lineage (al-Kindi, ibn_adlan just queued) into the 14th century |
-| 0 | **Guy Debord** | the dérive - drifting as method, psychogeography, the city read by walking; Society of the Spectacle; the atlas's practice named as theory |
-| 0 | **Clotilde Sakharoff** | Clotilde von Derp of the Blaue Reiter Munich, abstract mime with Alexander across the world's stages, teaching at the end in Buenos Aires - the edge between the dance wing and Argentina |
-| 0 | **F.T. Marinetti** | born in Alexandria, the Futurist Manifesto flung from a ditch beside a crashed car; speed itself as pilgrimage; joins the dannunzio-mussolini cluster it helped create |
 
 ## The seal (2026-08-02)
 
@@ -400,51 +73,16 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Diogenes of Sinope** | the Dog himself - exiled for defacing the currency, sold by pirates, the jar, the lantern seeking an honest man; Alexander already carries their meeting: stand out of my sunlight |
-| 0 | **Piri Reis** | Ottoman admiral of the 1513 map with the coastline no one should have known - the source of five centuries of Antarctic dreaming; compiled from captured charts, one said to be Columbus's own; executed at eighty-four |
-| 0 | **Raquel Liberman** | Polish-Jewish immigrant to Buenos Aires, widowed, trafficked by the Zwi Migdal; her 1930 denunciation to comisario Alsogaray broke the network; died 1935 preparing her return to Poland |
-| 0 | **Jacques Lacan** | French psychoanalyst, 'return to Freud', the mirror stage and the Real-Symbolic-Imaginary; joins the corpus's Freud, structuralist wing (Levi-Strauss, Barthes, Foucault, Deleuze) already queued |
-| 0 | **René Descartes** | Cogito ergo sum, the Discourse on Method; a life on the move - Dutch exile, Bohemian winter quarters, tutor to Queen Christina in Stockholm, where he died; joins the corpus's philosophy wing (Kant, Hegel already queued) |
-| 0 | **John Dee** | Elizabeth I's court astrologer and mathematician; angelic conversations with Edward Kelley, the obsidian scrying mirror, the journey through Bohemia and Poland to Rudolf II's Prague; joins Trithemius, Faust and the Rosicrucian legend of Christian Rosenkreuz already queued |
-| 0 | **Edward Kelley** | alchemist and scryer, john_dee's just queued medium in the angelic conversations, shared the same obsidian mirror and the same journey through Bohemia and Poland to Rudolf II's Prague; wanted individually, not just inside Dee's entry |
-| 3 | **King David** | shepherd-king of Israel, slayer of Goliath, uniter of the tribes at Jerusalem; father of the Solomon already walking the atlas |
-| 0 | **Robert Fludd** | English Paracelsian physician and Rosicrucian apologist, author of the Utriusque Cosmi Historia and its macrocosm-microcosm diagrams; joins Paracelsus, John Dee, and the Rosicrucian legend of Christian Rosenkreuz already queued |
-| 0 | **Carl Gustav Jung (the elder)** | the psychiatrist's own paternal grandfather - Basel physician, freemason and Grand Master, rumored by family legend to be an illegitimate son of Goethe; a DIFFERENT person from the atlas's Jung (Carl Gustav the psychiatrist, jung.journey.json), interlocking with him directly as well as with the corpus's existing Goethe |
-| 2 | **Samuel Preiswerk** | the psychiatrist's maternal grandfather - Basel Hebraist and theologian, said to have advocated a Jewish return to Palestine decades before Herzl, a genuine proto-Zionist/restorationist figure; a different grandfather from Carl Gustav Jung the elder above, interlocking with the atlas's own Jung |
-| 0 | **Captain Alfred Dreyfus** | French artillery officer wrongfully convicted of treason in 1894 on fabricated evidence, exonerated only in 1906; the affair that splits France and that Theodor Herzl, covering the trial as a journalist, cites as turning him toward Zionism, the same current samuel_preiswerk's just queued proto-Zionism runs into |
-| 0 | **Vladimir Medem** | leading theoretician of the General Jewish Labour Bund, advocate of Jewish cultural autonomism within the diaspora as the answer against Herzl's territorial Zionism; the direct ideological counter-current to the alfred_dreyfus/samuel_preiswerk just queued Zionist thread |
-| 0 | **Otto Gross** | Austrian psychoanalyst and anarchist of the Monte Verita circle at Ascona, advocate of free love and analyst-turned-patient of both Jung and Freud, morphine addict who died destitute in Berlin; interlocks with the atlas's Jung and the corpus's Monte Verita/Lebensreform cluster (Ida Hofmann, Engelmann) already queued |
-| 0 | **Carl Jung of Mainz** | a much earlier ancestor of the psychiatrist per family tradition (author, 2026-08-09): a physician, "Dr. Jung," in Mainz, Germany, in the 1600s, also named Carl Jung; distinct from both the atlas's Jung (the psychiatrist, jung.journey.json) and carl_gustav_jung_the_elder just queued (the 1794-1864 Basel grandfather) - the deepest layer of the same family line if the tradition holds up under research |
-| 2 | **Gottfried Wilhelm Leibniz** | German polymath, co-inventor of the calculus, court diplomat and librarian who traveled Europe (Paris, London, Rome, Vienna) chasing patrons and correspondents; the binary arithmetic he drew an explicit analogy to the I Ching's hexagrams, joining the corpus's mathematics wing (Gauss already in the atlas, Euler already queued) |
 
 ## Author additions (2026-08-03)
 
 | docs | subject | who |
 |--:|---|---|
-| 1 | **Benkos Biohó** | escaped slave from West Africa, founder and king of San Basilio de Palenque near Cartagena de Indias, the first free town of the Americas; betrayed and executed by the Spanish crown |
 
 ## Author additions (2026-08-04)
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Leslie Barry Lamport** | American computer scientist, Turing laureate; the Paxos consensus algorithm and the Byzantine Generals Problem, vector clocks and 'Time, Clocks, and the Ordering of Events', also the author of LaTeX; joins the corpus's cipher and mathematics wing (Diffie and Hellman just queued, Shannon queued) |
-| 0 | **Donald Ervin Knuth** | American computer scientist, Turing laureate; The Art of Computer Programming written and revised across sixty years, the TeX typesetting system built out of frustration with galley proofs, literate programming; joins Lamport (TeX begets LaTeX) and the corpus's mathematics wing |
-| 0 | **Michelangelo** | Renaissance sculptor and painter of the Sistine ceiling and the Pietà; the youthful Torment of Saint Anthony, and a boyhood near La Verna, the Franciscan sanctuary of the stigmata |
-| 3 | **Leonardo da Vinci** | Renaissance polymath, the Last Supper and the Mona Lisa, notebooks of anatomy and flight; the corpus's Italian journeys already touch his geography (goethe_full's Italian exit) |
-| 0 | **Hieronymus Bosch** | Netherlandish painter of the Garden of Earthly Delights and the Temptation of Saint Anthony triptychs, member of a lay religious confraternity in 's-Hertogenbosch; joins the corpus's Antony/Temptation cluster and the northern counterpart to the Italian Renaissance names just queued |
-| 0 | **Pieter Bruegel the Elder** | Netherlandish painter of peasant life and proverbs, the Tower of Babel and the Triumph of Death; walked south to Italy and back before settling in Antwerp and Brussels, joins Bosch as the two poles of Netherlandish painting |
-| 0 | **Ratramnus of Corbie** | 9th-century Benedictine monk of Corbie, author of the Epistola de Cynocephalis answering the question 'do the dog-headed men have souls'; correspondent of Rimbert, chronicler of the Scandinavian mission to the Danes and Swedes; already named in passing in san_cristobal.journey.json, warrants his own journey |
-| 0 | **Rimbert** | 9th-century missionary bishop and second archbishop of Hamburg-Bremen, successor to Ansgar; traveled the mission field among the Danes and Swedes, author of the Vita Ansgari, and the correspondent whose question to Ratramnus of Corbie produced the Epistola de Cynocephalis; pairs directly with Ratramnus just queued |
-| 0 | **Philip K. Dick** | American science-fiction novelist of Do Androids Dream of Electric Sheep? and The Man in the High Castle; the 1974 pink-light visions (VALIS), a life mostly in the Bay Area and Orange County, paranoia and revelation as the same event |
-| 1 | **Félix Guattari** | French psychoanalyst and philosopher of La Borde clinic, co-author with gilles_deleuze of Anti-Oedipus and A Thousand Plateaus; pairs directly with Deleuze already done, already named once in the corpus's Reich/Anti-Oedipus material |
-| 0 | **Felix Weil** | Argentine-German Marxist, born in Concepción del Uruguay to a wealthy grain-merchant family; used his inheritance to found and fund the Institute for Social Research, the Frankfurt School, in 1923; interlocks with michel_foucault, gilles_deleuze and the corpus's Argentine-Jewish geography |
-| 1 | **Slavoj Žižek** | Slovenian philosopher and cultural critic, psychoanalytic theorist of ideology and popular film; joins the corpus's continental-philosophy wing (michel_foucault, gilles_deleuze, felix_guattari just queued) |
-| 0 | **Allen Dulles** | American spymaster, OSS station chief in Bern during the war, first civilian director of the CIA, architect of covert operations across Latin America and Europe; interlocks with the corpus's dictatorship-era Argentine and Chilean geography (julio_argentino_roca, augusto_pinochet, juan_peron already done) |
-| 0 | **John Foster Dulles** | US Secretary of State under Eisenhower, 1953-1959, architect of Cold War containment policy and brother of Allen Dulles just queued, who ran the CIA operations his brother's diplomacy set the stage for; direct family interlock |
-| 0 | **Paul Singer** | Founder of Elliott Management, 'vulture capitalist' who bought defaulted Argentine sovereign debt and pursued Argentina through courts for over a decade until a 2016 settlement; direct interlock with the corpus's Argentine presidential-line material (cristina_fernandez_de_kirchner, javier_milei already done) |
-| 0 | **Mark Brodsky** | Founder of Aurelius Capital Management, fellow 'vulture capitalist' who joined Paul Singer just queued in the litigation campaign against Argentina's defaulted sovereign debt; direct interlock |
-| 0 | **Celia Sánchez** | Cuban revolutionary, Fidel Castro's (already done) closest confidante and organizer, central to the Sierra Maestra campaign and the survival of the movement's records and logistics; direct interlock |
-| 0 | **Vilma Espín** | Cuban revolutionary, wife of Raúl Castro, founder and longtime president of the Federation of Cuban Women; joins the corpus's Cuban Revolution material (fidel_castro, che_guevara already done) |
 | 0 | **Teté Puebla (Delsa Esther Puebla Viltres)** | Highest-ranking woman general in Cuba's Revolutionary Armed Forces, commander of the all-female Mariana Grajales Platoon during the revolution; direct interlock with the corpus's Cuban Revolution material |
 | 0 | **Oscar Wilde** | Irish playwright and wit, author of 'The Decay of Lying' (1891), which argued that skilled, beautiful lying is the root of art itself and that plain factual honesty is aesthetically inferior; tried and imprisoned for gross indecency, died in exile in Paris |
 | 0 | **Mark Fisher** | British cultural theorist and blogger (k-punk), author of Capitalist Realism, member of the Cybernetic Culture Research Unit at Warwick; the concept of hauntology, suicide in 2017; joins the corpus's continental-philosophy wing (michel_foucault, gilles_deleuze, felix_guattari, nick_land already queued) |
@@ -505,7 +143,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Pamela Colman Smith** | Anglo-Jamaican-American artist, illustrator of the Rider-Waite-Smith tarot deck, Golden Dawn initiate and stage designer for Yeats's theatre; joins the corpus's occult/tarot wing (W.B. Yeats already queued) |
 | 0 | **Albert Pike** | American Confederate general and Scottish Rite Freemason, author of Morals and Dogma; joins the corpus's Masonic material (hiram_abiff, theodor_reuss already queued) |
 | 0 | **Golda Meir** | Israeli prime minister, born in Kyiv, raised in Milwaukee, emigrated to Palestine in 1921; one of the signers of Israel's Declaration of Independence, joins the corpus's Zionist/diaspora geography |
-| 0 | **William S. Burroughs** | American Beat writer of Naked Lunch, inventor of the cut-up technique, a life split between Tangier, Mexico City, London, and Paris; the accidental shooting of his wife Joan Vollmer in Mexico City in a 'William Tell' game; joins the corpus's Tangier/exile-writer geography |
 | 0 | **Paul Naschy** | Spanish actor and screenwriter, born Jacinto Molina, 'the Spanish Lon Chaney'; played the werewolf Waldemar Daninsky across a dozen films along with dozens of other horror archetypes; joins the corpus's horror/Gothic wing (lovecraft already queued) |
 | 0 | **Grigori Rasputin** | Russian mystic and healer, confidant of the Romanov family through Tsarevich Alexei's hemophilia, assassinated in 1916 in a plot that became its own legend; joins the corpus's Russian/esoteric geography |
 | 0 | **Max Horkheimer** | German philosopher and sociologist, director of the Institute for Social Research (Frankfurt School), co-author with Adorno of Dialectic of Enlightenment; joins felix_weil already queued (who funded the Institute) |
@@ -513,7 +150,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Walter Benjamin** | German-Jewish critic and essayist of the Arcades Project and 'The Work of Art in the Age of Mechanical Reproduction', Frankfurt School-adjacent, died at the Spanish border at Portbou fleeing the Gestapo in 1940; joins the same cluster |
 | 0 | **Theodor Adorno** | German philosopher and sociologist, co-author with Horkheimer of Dialectic of Enlightenment, music critic and composer's-ear theorist of the culture industry; joins the same Frankfurt School cluster |
 | 0 | **Jürgen Habermas** | German philosopher of the public sphere and communicative action, the Frankfurt School's second generation; joins the same cluster |
-| 0 | **Jacques Derrida** | French-Algerian philosopher of deconstruction, Of Grammatology; joins the corpus's continental-philosophy wing (michel_foucault, gilles_deleuze already done) |
 | 0 | **Sophie Taeuber-Arp** | Swiss Dada artist and dancer, wife of Jean Arp, associated with Cabaret Voltaire and Zurich Dada; joins the corpus's Zurich/dance-avant-garde cluster (laban, mary_wigman, suzanne_perrottet already done) |
 | 3 | **Ronald Richter** | Austrian-Argentine physicist behind Perón's Huemul Project, the fraudulent claim of controlled nuclear fusion on an island near Bariloche in 1951, a national embarrassment once exposed; joins the corpus's Argentine geography (juan_peron already done) |
 | 0 | **Katja Wulff** | German-Swiss expressionist dancer (1890-1992), trained under Laban and Wigman, co-founded a eurythmy school with Suzanne Perrottet, ran her own Ausdruckstanz school in Basel from 1923 to past 90; worked with Jean Arp and Sophie Taeuber-Arp just queued. Directly interlocks with laban, mary_wigman, suzanne_perrottet already done |
@@ -577,7 +213,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Pablo Sigwald** (personal associate) | Argentine papermaker of an important family, husband of Vicky Sigwald above; further biographical detail not yet confirmed |
 | 1 | **Atahualpa** | last sovereign Inca emperor, captured and executed by Pizarro (already done) after the ransom of Cajamarca |
 | 0 | **Moctezuma II** | Aztec emperor at the time of Cortés's (already done) invasion, captured and killed during the fall of Tenochtitlan; the Aztec counterpart the corpus's conquest material has been missing (cortes and pizarro already done, atahualpa just queued) |
-| 0 | **Túpac Amaru I** | the original Túpac Amaru, last indigenous Sapa Inca of the Neo-Inca State at Vilcabamba, executed by the Spanish in 1572; a DIFFERENT person from Túpac Amaru II already queued above (the 18th-century revolt leader) |
 | 1 | **José Hernández** | Argentine poet, author of Martín Fierro, the foundational gaucho epic; joins the corpus's Argentine literary/gaucho geography (juan_manuel_de_rosas, martin_miguel_de_guemes already done) |
 | 0 | **Herodotus** | Greek historian, 'Father of History', traveled to Egypt, Scythia, and Persia to write his Histories, which include a passage placing dog-headed men in Libya; joins the corpus's cynocephalus material (ctesias, megasthenes, san_cristobal already done/queued) |
 | 0 | **Flavius Josephus** | Jewish general who surrendered to Rome, witnessed the fall of Jerusalem, wrote The Jewish War from exile in Rome under imperial patronage; interlocks with the corpus's Jerusalem/Jewish-history material |
@@ -817,7 +452,6 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 
 **PERSONAL ASSOCIATES WORKFLOW (confirmed 2026-08-11):** for every entry below marked *(personal associate)* — Ral Veroni, Vicky Sigwald, Pablo Sigwald, Arthur Ben, Yuki Seo, Daniel Zachariah, Otis Houston Jr, Justin Fornal, Lisoleth Charinga (queued earlier this session, not yet in this cluster) — run the standard research pipeline for a first pass from whatever public sources exist, however thin. Do not hold entries back pending an interview. After the first pass lands, the author and the pipeline operator generate interview questions together to fill remaining gaps, as a follow-up pass on the same file.
 
-| 1 | **Arthur Ben** (personal associate) | Sewanee, Tennessee librarian and archivist, Oxford-educated medievalist, Navy veteran turned radical pacifist, the author's stepfather; publicly documented (research from public sources is fine), but keep his full legal name off the site - use "Arthur Ben" throughout. Draws directly on the locked essay 200_arthur_ben.md. Interlocks: the essay imagines a second life for him in Buenos Aires befriending ral_veroni already queued, its account of a memory-theater apron built in hospice touches the corpus's art-of-memory cluster (giulio_camillo, simonides_of_ceos, peter_of_ravenna already done/queued) and its Masonic material; and, publicly, he met manuel_noriega already queued - a direct, real interlock to research and confirm |
 | 2 | **Yuki Seo** (personal associate) | 'professor of knots and fabrics of the Colegio Invisible,' based in Lima, textile and crochet artist, versed in migrations, knot-lore (musubi), and esoteric history; already the subject of two locked essays (205_commodity_amnesia.md, 209_thread_and_wheel.md), which the journey should draw on directly. Direct interlock: the corpus's quipu/textile material (the census's Guamán Poma de Ayala, Anni Albers, Jacquard entries) and the Masonic-embroidery thread arthur_ben just queued and 203_masonic_embroidery.md also touch |
 | 0 | **Daniel Zachariah** (personal associate) | Englishman, founder of The Book Cellar & Henschel, an independent antiquarian and multilingual bookshop at Reconquista 533, 1º piso, Microcentro, Buenos Aires (bookcellarbsas.com), merged with the historic German antiquariat Henschel, roughly 40,000 volumes; one of the author's associates, named in 200_arthur_ben.md as a friend in the imagined second life the author gives his stepfather in Buenos Aires - direct interlock with arthur_ben already done and ral_veroni already queued, both named in the same passage. Spelling corrected from "Zechariah" to "Zachariah" (2026-08-10) to match the essay and arthur_ben.journey.json |
 | 1 | **Otis Houston Jr (Black Cherokee)** (personal associate) | New York street performer and artist known for his roadside performances near the Willis Ave/RFK bridge in Harlem; one of the author's associates, named alongside ral_veroni already queued and the author himself as one of 'five adepts' holding matching silver ingots charged at the foot of a Joan of Arc statue, per the locked essay 184_island_of_mountain_lake.md - direct interlock |
@@ -826,56 +460,4 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 | 0 | **Mark Cohen** | lead defense attorney for sam_bankman_fried just queued at his federal fraud trial; direct interlock |
 | 0 | **Brock Pierce** | cryptocurrency entrepreneur, co-founder of Tether and of EOS/Block.one, former child actor (The Mighty Ducks); joins the corpus's crypto/blockchain wing (hal_finney, nick_szabo, ralph_merkle already done) |
 | 0 | **Volodymyr Zelenskyy** | Ukrainian president since 2019, former comedian and actor, wartime leader since Russia's 2022 invasion; joins the corpus's contemporary political material (javier_milei, benjamin_netanyahu, hugo_chavez, nicolas_maduro already queued) |
-| 0 | **Josefina Ayerza** | Argentine writer, psychoanalyst, and photographer (Buenos Aires, b. 1950), later based in Paris and then New York; founded the journal Lacanian Ink in 1990 and, in 1997, built lacan.com, the archive site drawn on tonight for the Lacan Graph of Desire and Metz research, hosting Lacan's own seminars alongside Slavoj Žižek, Alain Badiou, and Jacques-Alain Miller; direct interlock with jacques_lacan and slavoj_zizek, both already in the atlas, and joins the corpus's Argentine intellectual-diaspora and psychoanalysis material |
-| 0 | **Emilia Massacesi** | Buenos Aires choreographer, dancer, and scenic director (Licenciada in Choreographic Composition, UNA), work deconstructs habitual practices in academic scenic dance through local archival research and popular dance forms; also competes professionally in exotic pole dance under the stage name Emilia Portman |
-| 0 | **Keiko Fujimori** | President of Peru since 28 July 2026, elected on a fourth attempt after three prior runoff losses (2011, 2016, 2021); leader of Fuerza Popular, daughter of alberto_fujimori already queued and served as Peru's First Lady during his presidency after her parents' divorce; herself investigated and jailed pretrial on corruption/money-laundering charges tied to Odebrecht; direct family interlock |
-| 0 | **Frank Herbert** | American science fiction author, wrote Dune (1965) and its sequels, drew on ecology, desert survival, spice-as-resource economics and messianic-prophecy critique; joins the corpus's science-fiction material |
-| 0 | **Miller Puckette** | American computer music researcher, creator of Max/MSP and Pure Data (Pd), foundational visual programming languages for real-time audio synthesis; joins the corpus's computing wing (guido_van_rossum, linus_torvalds, bjarne_stroustrup already done/queued) |
-| 0 | **Ken Thompson** | American computer scientist, co-created Unix with Dennis Ritchie at Bell Labs, also created the B programming language and co-designed Go decades later; joins the corpus's computing wing (guido_van_rossum, linus_torvalds, bjarne_stroustrup already done/queued); direct interlock with dennis_ritchie just queued |
-| 0 | **Dennis Ritchie** | American computer scientist, co-created Unix with Ken Thompson at Bell Labs and created the C programming language, on which C++ (bjarne_stroustrup already queued) is built; joins the corpus's computing wing; direct interlock with ken_thompson just queued |
-| 0 | **Lucilio Vanini** | Italian Renaissance philosopher and freethinker, precursor of rationalism and naturalism, burned at the stake for atheism/heresy in Toulouse in 1619 after his tongue was cut out; joins the corpus's heresy-trial material |
-| 0 | **Nicholas of Cusa** | German Renaissance cardinal, philosopher, and mathematician, theorist of "learned ignorance" (docta ignorantia) and coincidentia oppositorum, an early proponent of a non-geocentric cosmos; joins the corpus's philosophy/Renaissance-thought wing |
-| 0 | **Alphonse Mucha** | Czech Art Nouveau painter and decorative artist, defined the style's visual language with posters for Sarah Bernhardt and the Paris Exposition; no documented Argentina work found (checked), queued for the corpus's general Art Nouveau/Belle Époque material |
-| 0 | **Gustav Klimt** | Austrian Symbolist painter, co-founder and first president of the Vienna Secession, painter of The Kiss; no documented Argentina work found (checked), queued for the corpus's general Art Nouveau/fin-de-siècle material |
-| 0 | **Charles Rennie Mackintosh** | Scottish architect and designer, leading figure of Art Nouveau and the Glasgow Style, designed the Glasgow School of Art; no documented Argentina work found (checked), queued for the corpus's general Art Nouveau architecture material |
-| 0 | **Victor Hugo** | French Romantic novelist, poet, and political exile, author of Notre-Dame de Paris and Les Misérables; joins the corpus's 19th-century literary material |
-| 0 | **Francisco Salamone** | Italian-born Argentine architect, over 60 monumental Art Deco municipal palaces, slaughterhouses, and cemetery portals across small Buenos Aires province towns (1936-1940, under Gov. Manuel Fresco) — e.g. Palacio Municipal de Carhué, Cementerio de Balcarce's portal, Matadero Municipal de Azul (now Centro Cultural Salamone); joins the corpus's Argentine-architecture cluster |
-| 0 | **Luis Perlotti** | Argentine sculptor of indigenista and social themes; house-studio at Pujol 644, Caballito, now the Museo de Esculturas Luis Perlotti; public works include Monumento a Mitre (Corrientes) and a monument to Alfonsina Storni (Mar del Plata); joins the corpus's Argentine-art material |
-| 0 | **Viktor Sulčič** | Croatian-born Argentine architect, co-designed Boca Juniors' La Bombonera stadium (1938-40), the Mercado de Abasto, the entrance portico of the Luján cemetery, and the Iglesia del Sagrado Corazón de Jesús in San Justo; joins the corpus's Buenos Aires architecture cluster |
-| 0 | **Antoni Gaudí** | Catalan Modernisme architect, designer of the Sagrada Família and Park Güell in Barcelona; no direct Gaudí building exists in Argentina, but his influence appears in two Buenos Aires buildings by Eduardo S. Rodríguez Ortega just queued (Av. Rivadavia 2009/2033, near Congress) — do not attribute those buildings to Gaudí himself; queued for the corpus's Art Nouveau/Modernisme material |
-| 0 | **Virginio Colombo** | Italian-born Buenos Aires Art Nouveau architect (~50 works across Balvanera, Almagro, Monserrat, San Telmo, Constitución), including Casa Calise (Hipólito Yrigoyen 2562/78), Casa de los Pavos Reales (Av. Rivadavia 3216/3232), and two pavilions for the 1910 Centennial Exposition; joins the corpus's Buenos Aires architecture cluster |
-| 0 | **Francisco Gianotti** | Italian-born Buenos Aires Art Nouveau architect, designed BOTH the Galería Güemes on Florida Street (1912, Buenos Aires' first reinforced-concrete "skyscraper") AND the Confitería El Molino near the national congress (reopened 1916); joins francesco_tamburini and vittorio_meano already queued, the corpus's Buenos Aires architecture cluster |
-| 0 | **Próspero Catelin** | French-born engineer and architect active in early-19th-century Buenos Aires; designed the neoclassical facade/portico (12 columns, modeled on the Palais Bourbon) of the Catedral Metropolitana de Buenos Aires (1822-1824, with Pierre Benoit and José Santos Sartorio), and worked on the Cementerio General del Norte (Recoleta) design the same year; joins the corpus's Buenos Aires architecture cluster |
-| 0 | **Juan Antonio Buschiazzo** | Italian-born Argentine architect; as director of Buenos Aires public works in 1889 he PARTIALLY DEMOLISHED the Cabildo, cutting off its northern wing to open Avenida de Mayo (the famous 1939-40 restoration was done later by his relative Mario Buschiazzo, an architectural historian, not by him) — his own works: Cementerio de la Recoleta remodel, Cementerio de la Chacarita design (1887), Hospital Italiano de Buenos Aires (1901), Mercado de San Telmo (1897), ex-Municipalidad de Belgrano (now Museo Histórico Sarmiento, 1874); joins the corpus's Buenos Aires architecture cluster |
-| 0 | **Ettore Ferrari** | Italian sculptor and Freemason, best known for the statue of Giordano Bruno in Rome's Campo de' Fiori; no documented Argentina work found (checked; not to be confused with an unrelated namesake, the Uruguayan sculptor Juan Manuel Ferrari, who did work in Mendoza), echoes lucilio_vanini just queued (fellow victim of the Roman Inquisition) |
-| 0 | **Jules-Félix Coutan** | French sculptor, created the Mercury-Minerva-Hercules group crowning New York's Grand Central Terminal; also sculpted the Carlos Pellegrini monument at Plaza Carlos Pellegrini, Buenos Aires (1914), marble angel figures on the José C. Paz Mausoleum (1904) and a monument to Nicolás Avellaneda, both in Recoleta Cemetery; joins the corpus's sculpture and Recoleta Cemetery material |
-| 0 | **Viladrich** | sculptor of Liliana Crociati de Szaszak's Neo-Gothic tomb at Recoleta Cemetery (life-sized bridal statue with her dog Sabú); name given as "Wíeredovol Viladrich," an irregular spelling — confirm correct given name during research; direct interlock with liliana_crociati_de_szaszak just queued |
-| 0 | **Auguste Rodin** | French sculptor, transformed modern sculpture; made "Sarmiento" (bronze), the only work he created expressly for a Buenos Aires site, inaugurated 1900 in Parque 3 de Febrero, Palermo; his "El Pensador" (The Thinker) was installed at Plaza del Congreso in 1909; the Museo Nacional de Bellas Artes holds 19 Rodin sculptures and 3 drawings, one of the strongest Rodin collections in the Americas; joins camille_claudel just queued, his student and collaborator |
-| 0 | **Camille Claudel** | French sculptor, Auguste Rodin's student, collaborator, and lover, her own career overshadowed by their relationship and her later institutionalization; no permanent Argentina work — two pieces ("L'Implorante," "La Vague"/"La Ola") were shown only as a 2008 loan exhibit at the Museo Nacional de Arte Decorativo, borrowed from Mexican and Puerto Rican museums, not held in any Argentine collection; joins auguste_rodin just queued |
-| 0 | **Torcuato de Alvear** | first intendente (mayor) of Buenos Aires, modernized the city (Avenida de Mayo, Recoleta Cemetery's layout) in the 1880s; son of Carlos María de Alvear (already done as alvear.journey.json), direct family interlock |
-| 0 | **Alejandro Christophersen** | Norwegian-born Argentine architect, over 200 works including the Palacio Anchorena (1909, now the Foreign Ministry), Café Tortoni, the Bolsa de Comercio de Buenos Aires, Hospital de Niños Dr. Ricardo Gutiérrez, the Russian Orthodox Church, and the Basílica de Santa Rosa de Lima; joins the corpus's Buenos Aires architecture cluster |
-| 0 | **Pío Collivadino** | Italian-born Argentine painter, academic/realist chronicler of Buenos Aires working-class and industrial life; "La hora del almuerzo" (1903, shown at the Venice Biennale) and "El Riachuelo" (1916) are in the Museo Nacional de Bellas Artes' permanent collection; also a muralist trained in Rome under César Mariani; joins the corpus's Argentine-art material |
-| 0 | **Ángel della Valle** | Argentine painter, best known for La vuelta del malón (1892), a founding image of Argentine national painting; joins the corpus's Argentine-art material |
-| 0 | **Ángel Villoldo** | Argentine musician and composer, "father of tango," wrote El Choclo; joins the corpus's tango/Buenos Aires material |
-| 0 | **Max Glücksmann** | Austrian-born Argentine entertainment magnate, dominant early figure in Argentine cinema exhibition/distribution and the phonograph/record trade (Casa Glücksmann); commissioned the Teatro Gran Splendid (1919, Av. Santa Fe, Buenos Aires, architects Peró and Torres Armengol) as a cinema-and-stage venue — later converted into the Ateneo Grand Splendid bookstore, repeatedly named one of the world's most beautiful bookshops; joins the corpus's Buenos Aires architecture/entertainment-industry cluster |
-| 0 | **Troiano Troiani** | Italian-born Argentine sculptor and medalist, arrived 1910; made the streetlamps (candelabros) of Plaza de los Dos Congresos (1929), sculptures for the Buenos Aires Stock Exchange, decorative sculpture for the Gran Splendid theater, and "El Arquero" in Plaza Moreno, La Plata; taught sculpture at the Prilidiano Pueyrredón fine arts school; joins the corpus's Argentine-art material |
-| 0 | **Daniel Schávelzon** | Argentine archaeologist, director of the Centro de Arqueología Urbana (CAU), specialist in the historical and urban archaeology of Buenos Aires (colonial-era excavations, building history, debunking urban legends through material evidence); joins the corpus's Buenos Aires/archaeology material |
-| 0 | **Agustí Querol Subirats** | Spanish (Valencian) sculptor, major public monuments including the Monument to Alfonso XII in Madrid's Retiro Park, the Monumento a los Dos Congresos in Buenos Aires, and the Monumento a la Carta Magna y las Cuatro Regiones Argentinas ("Monumento de los Españoles," Palermo, Buenos Aires) — a gift from the Spanish community for Argentina's 1910 centennial; joins the corpus's Buenos Aires monument/sculpture cluster |
-| 0 | **Eugène Grasset** | Swiss-French Art Nouveau decorative artist and poster designer, part of the same 1890s French poster movement as Mucha; Argentina connection unconfirmed — this session hit its web-search budget before it could be checked, unlike Mucha/Klimt/Mackintosh above (which WERE checked and found to have no Argentina work); verify before assuming a parallel |
-| 0 | **Élisabeth Sonrel** | French Art Nouveau/Symbolist painter and illustrator, known for Pre-Raphaelite-influenced allegorical and botanical imagery; Argentina connection unconfirmed — search budget exhausted before this could be checked, verify during research |
-| 0 | **Paul Berthon** | French Art Nouveau poster designer and lithographer, associated with Grasset's circle; Argentina connection unconfirmed — search budget exhausted before this could be checked, verify during research |
-| 0 | **Frédéric Auguste Bartholdi** | French sculptor, designer of the Statue of Liberty (with Gustave Eiffel's internal structure); Anthony flags a Statue of Liberty replica/version in Buenos Aires — likely Bartholdi's own smaller Liberty casts (several exist worldwide) or a local copy, unconfirmed which; search budget exhausted this session, verify and locate it during research |
-| 0 | **Eugène Py** | French-born pioneer of Argentine cinema, filmed "La Bandera Argentina" (1897), among the earliest films made in Argentina; worked in the film-exhibition/distribution world that max_glucksmann just queued came to dominate; joins the corpus's Buenos Aires entertainment-industry cluster, direct interlock |
-| 0 | **José Antonio de la Sierra** | designed and engraved Argentina's first coinage, struck at the Potosí mint and bearing the Sol de Mayo (Sun of May), the national emblem born of the 1810 May Revolution — rich interlock potential (Potosí's silver-mint history, the Sol de Mayo as a recurring national symbol); further biographical detail unconfirmed on this end (search budget exhausted this session), verify dates, origin, and mint details during research; joins troiano_troiani just queued (medalist/coin designer), the corpus's Argentine numismatic material |
-| 0 | **Noah** | biblical patriarch of the Flood narrative, builds the ark at God's command, survives the deluge with his family and paired animals, the ark comes to rest on the mountains of Ararat; joins the corpus's flood/patriarch material and gives a real geographic pin at Mount Ararat, already touched tonight by the Saint Acacius/Ararat legend material |
-| 0 | **Rashi** | Rabbi Shlomo Yitzchaki (1040-1105), Troyes, France, wrote the standard line-by-line commentaries on the Hebrew Bible and the Babylonian Talmud that are still printed alongside the text today, foundational to all later Jewish scholarship; joins the corpus's medieval Jewish material (benjamin_de_tudela and maimonides already done) |
-| 0 | **Aaron (the Levite)** | brother of Moses and Israel's first High Priest, spokesman before Pharaoh, maker of the golden calf and later of the Tabernacle's priestly vestments and rites; his staff blossoms and swallows the magicians' serpents in Exodus; joins abraham and moses already done in the corpus's patriarch/Exodus material |
-| 0 | **José Limón** | Mexican-American modern dance pioneer, trained under Doris Humphrey (just queued) and Charles Weidman at their company, founded his own Limón Dance Company and technique; direct link in the expressive-movement lineage running Delsarte to Stebbins (both already done) through St. Denis and Humphrey (already queued) to jennifer_muller just queued and, further down, emilia_massacesi already queued |
-| 0 | **Jennifer Muller** | American choreographer, danced with José Limón (just queued) before founding her own company, Jennifer Muller/The Works, and its MULLERWORKS technique; continues the same Delsarte-Stebbins-St.Denis-Humphrey-Limón lineage (per Anthony) into the generation that trained emilia_massacesi already queued |
-| 0 | **Alfred Jarry** | French writer and playwright (1873-1907), author of the scandal-causing Ubu Roi (1896), a proto-absurdist play that prefigures Dada, Surrealism, and the Theatre of the Absurd; founder of 'Pataphysics, "the science of imaginary solutions," later formalized as the Collège de 'Pataphysique (1948), whose satraps and honorees would go on to include Oulipo figures and, per some accounts, the Situationists; joins guy_debord just done as a likely direct or lineage interlock |
-| 0 | **Richard Dawkins** | English evolutionary biologist (b. 1941), author of The Selfish Gene (1976), which coined "meme" as a unit of cultural replication analogous to the gene; direct thread back to Burroughs's "language is a virus" and the whole self-replicating-information cluster the atlas keeps circling (Trithemius/al-Kindi cipher lineage, the cryptanalysts); gives the atlas first real anchor in evolutionary biology |
-| 0 | **Claude des Armoises** | the best-documented of several women who claimed after 1431 to be Joan of Arc (joan_of_arc already done), escaped from the stake; first made herself known 20 May 1436 in the Metz region, where Joan's own brothers Pierre and Jean and part of the Messin nobility accepted her as their sister; married Robert des Armoises that November; toured as "Jeanne la Pucelle" for roughly four years, armed and dressed as a man, before unraveling in front of Charles VII around 1439-1440 when she could not repeat the secret only the real Joan and the king had shared; direct interlock with joan_of_arc and, per tonight's PKD Metz research, a second corpus figure now tied to that same city |
-| 0 | **J.L. Austin** | British philosopher of language (1911-1960), Oxford, author of How to Do Things with Words; theorist of the performative utterance — the speech act that doesn't describe the world but does something to it ("I promise," "I now pronounce you"), valid only under the right felicity conditions; the direct philosophical frame for the golem legend's animating word (the shem placed in the mouth, emet inscribed on the forehead) that gives El Gólem its name, and joins the corpus's language-as-action/cipher lineage (al-Kindi, Trithemius, Shannon, richard_dawkins just done) |
-| 0 | **Johannes Cusanus** | author of the Tractatulus artificiose memorie, a short practical mnemonic textbook of loci-and-imagines method, printed in university towns across Central and Northern Europe (Frankfurt an der Oder 1510, Vienna 1514, Leipzig 1519); a DIFFERENT person from Nicolaus Cusanus (Nicholas of Cusa, the cardinal-philosopher, already researched separately) despite the shared toponymic surname — confirmed distinct by the author, do not conflate. Joins the corpus's art-of-memory cluster (simonides_of_ceos, peter_of_ravenna, giulio_camillo already done/queued) |
-| 0 | **John Searle** | American philosopher (1932-2025), born Denver, Rhodes Scholar at Oxford where he earned his doctorate directly under j_l_austin just queued, then Slusser Professor of Philosophy of Mind and Language at Berkeley for the rest of his career; extended Austin's speech act theory (Speech Acts, 1969) into written/formal acts and, via the Chinese Room argument (1980), into the direct philosophical frame for whether an LLM manipulating symbols can be said to understand or mean anything — the corpus's intended insertion point for LLM speech acts. In 2017 lost his Berkeley emeritus status following a sexual harassment finding; died September 2025 |
 | 0 | **Stanley Jeyaraja Tambiah** | Sri Lankan-American social anthropologist (1929-2014), Harvard, extended j_l_austin just queued's performative-utterance theory (and, per Anthony, john_searle just queued's) out of philosophy of language and into anthropology — his 1968 "The Magical Power of Words" and 1979 Radcliffe-Brown lecture "A Performative Approach to Ritual" read magical/ritual speech (spells, blessings, curses) as felicity-governed speech acts rather than false science; also known for work on Buddhism and kingship in Thailand (the "galactic polity" model) and on ethnic violence and nationalism in Sri Lanka; joins the corpus's language-as-action lineage directly after Austin and Searle |
