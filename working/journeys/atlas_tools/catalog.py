@@ -112,7 +112,8 @@ def write_subjects(corpus, queue_path, dossiers_dir, path):
             last_date = dated_sorted[-1] if dated_sorted else ""
             n_segments = len({s.seg_i for s in j.stops})
             w.writerow([slug, j.traveler, j.title, j.years, j.register,
-                        n_segments, len(j.stops), first_date, last_date, j.path,
+                        n_segments, len(j.stops), first_date, last_date,
+                        os.path.relpath(j.path, D),
                         "built", dossier_for(slug, dossiers_dir)])
         for slug, name in queued_only(corpus, queue_path):
             w.writerow([slug, name, "", "", "", "", "", "", "", "",
