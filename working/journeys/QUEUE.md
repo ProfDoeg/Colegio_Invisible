@@ -387,7 +387,6 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Larry Page** | Google co-founder alongside sergey_brin just queued, PageRank's co-inventor as a Stanford PhD student |
 | 0 | **Sergey Brin** | Google co-founder alongside larry_page just queued, the two inseparable in the founding story |
 | 0 | **Jeff Bezos** | founder of Amazon and Blue Origin, at various points the world's richest person, owner of The Washington Post |
-| 0 | **Mark Zuckerberg** | founder of Facebook/Meta, Harvard dropout who built the largest social network on earth |
 | 0 | **Larry Ellison** | co-founder of Oracle, among the wealthiest people alive, famous for a lavish yacht-and-island lifestyle |
 | 0 | **Sheldon Adelson** | Las Vegas Sands casino magnate, one of the largest Republican and pro-Israel political donors in US history; direct interlock with benjamin_netanyahu already queued |
 | 0 | **Bernie Madoff** | ran the largest Ponzi scheme in recorded history (roughly $65 billion), died in federal prison in 2021 |
