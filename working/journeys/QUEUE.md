@@ -787,8 +787,6 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Yuri Gagarin** | Soviet cosmonaut, first human in space, a single orbit of Earth in Vostok 1 on 12 April 1961; the most literal journey the corpus could carry, entirely absent until now |
-| 0 | **Neil Armstrong** | American astronaut, first human to walk on the Moon, Apollo 11 in July 1969; joins yuri_gagarin just queued |
 | 0 | **Ernest Shackleton** | British polar explorer, the Endurance crushed by pack ice in Antarctica, an 800-mile open-boat journey to South Georgia to save his entire crew, not one man lost |
 | 0 | **Roald Amundsen** | Norwegian polar explorer, first to reach the South Pole in 1911, first to navigate the Northwest Passage, disappeared in 1928 searching for a downed airship in the Arctic |
 | 0 | **Robert Falcon Scott** | British polar explorer, reached the South Pole in 1912 only to find amundsen just queued had beaten him by weeks, died with his party on the return march |
