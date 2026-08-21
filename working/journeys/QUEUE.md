@@ -83,7 +83,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Yuval Noah Harari** _(researching 2026-08-21 nodus:taller)_ | Israeli historian, author of Sapiens, whose central thesis is that money, nations, religions, and corporations are all 'intersubjective fictions' sustained by collective belief; direct thematic interlock with the corpus's own 'national mythology: the canon is true' register and max_weber (already done) |
 | 0 | **Nicos Poulantzas** | Greek-French Marxist political theorist, author of Political Power and Social Classes and State, Power, Socialism, theorist of the 'relative autonomy' of the capitalist state; joins the corpus's continental-philosophy/Marxist wing (karl_marx already done) |
 | 0 | **Yanis Varoufakis** | Greek economist, former finance minister who negotiated Greece's 2015 debt crisis against the Troika, later wrote Adults in the Room about it; direct interlock with the corpus's sovereign-debt material (paul_singer, mark_brodsky already queued) |
 | 0 | **Carlos Thays** | French-Argentine landscape architect, designed most of Buenos Aires's major parks (Parque 3 de Febrero, the Jardín Botánico that bears his name) as the city's official director of parks and walkways; joins the corpus's Argentine urban-planning cluster |
