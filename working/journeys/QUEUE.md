@@ -83,7 +83,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Frederick Law Olmsted** | American landscape architect, co-designed Central Park with Calvert Vaux just queued, often called the father of American landscape architecture; joins the corpus's urban-planning/parks cluster (carlos_thays already queued) |
+| 0 | **Frederick Law Olmsted** _(researching 2026-08-21 nodus:taller)_ | American landscape architect, co-designed Central Park with Calvert Vaux just queued, often called the father of American landscape architecture; joins the corpus's urban-planning/parks cluster (carlos_thays already queued) |
 | 0 | **Calvert Vaux** | British-American architect, co-designed Central Park with Frederick Law Olmsted just queued; direct interlock |
 | 0 | **John A. Roebling** | German-American civil engineer, designed the Brooklyn Bridge, died of tetanus from an accident during its early construction before seeing it built; father-in-law of emily_roebling just queued |
 | 0 | **Emily Roebling** | Took over day-to-day supervision of the Brooklyn Bridge's construction after her husband Washington Roebling (son of john_a_roebling just queued) was incapacitated by decompression sickness, effectively completing the bridge herself by 1883 |
