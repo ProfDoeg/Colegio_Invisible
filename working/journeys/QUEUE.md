@@ -83,7 +83,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Oscar Wilde** _(researching 2026-08-20 nodus:taller)_ | Irish playwright and wit, author of 'The Decay of Lying' (1891), which argued that skilled, beautiful lying is the root of art itself and that plain factual honesty is aesthetically inferior; tried and imprisoned for gross indecency, died in exile in Paris |
 | 0 | **Mark Fisher** | British cultural theorist and blogger (k-punk), author of Capitalist Realism, member of the Cybernetic Culture Research Unit at Warwick; the concept of hauntology, suicide in 2017; joins the corpus's continental-philosophy wing (michel_foucault, gilles_deleuze, felix_guattari, nick_land already queued) |
 | 0 | **Yuval Noah Harari** | Israeli historian, author of Sapiens, whose central thesis is that money, nations, religions, and corporations are all 'intersubjective fictions' sustained by collective belief; direct thematic interlock with the corpus's own 'national mythology: the canon is true' register and max_weber (already done) |
 | 0 | **Nicos Poulantzas** | Greek-French Marxist political theorist, author of Political Power and Social Classes and State, Power, Socialism, theorist of the 'relative autonomy' of the capitalist state; joins the corpus's continental-philosophy/Marxist wing (karl_marx already done) |
