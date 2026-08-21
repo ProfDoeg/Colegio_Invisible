@@ -83,7 +83,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Carlos Thays** | French-Argentine landscape architect, designed most of Buenos Aires's major parks (Parque 3 de Febrero, the Jardín Botánico that bears his name) as the city's official director of parks and walkways; joins the corpus's Argentine urban-planning cluster |
+| 0 | **Carlos Thays** _(researching 2026-08-21 nodus:taller)_ | French-Argentine landscape architect, designed most of Buenos Aires's major parks (Parque 3 de Febrero, the Jardín Botánico that bears his name) as the city's official director of parks and walkways; joins the corpus's Argentine urban-planning cluster |
 | 0 | **Jean-Claude Nicolas Forestier** | French urbanist who reworked Buenos Aires's Parque 3 de Febrero and Plaza San Martín; joins carlos_thays just queued in the corpus's Buenos Aires parks material |
 | 0 | **Joseph Bouvard** | French urbanist, author of the 1907 'Plan Bouvard' that shaped Buenos Aires's boulevards and green spaces; joins the corpus's Argentine urban-planning cluster |
 | 0 | **Carlos María della Paolera** | Argentine urban planner, often called the father of Argentine urbanism, author of Buenos Aires's 1925 city plan; joins the corpus's Argentine urban-planning cluster |
