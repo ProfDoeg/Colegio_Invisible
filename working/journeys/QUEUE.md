@@ -38,7 +38,6 @@ essays+Instagram corpus.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Lisoleth Charinga** (personal associate) | Artisan the author works with personally, one of his own associates - same category as ral_veroni, vicky_sigwald, pablo_sigwald, arthur_ben, yuki_seo, daniel_zachariah, otis_houston_jr, justin_fornal (see the PERSONAL ASSOCIATES WORKFLOW note, further down in this file, confirmed 2026-08-11). Run the standard first-pass research now from whatever public sources exist, even if thin; the author will then interview her directly and they'll write interview questions together afterward to fill what the first pass couldn't reach |
 
 
 ## The scope suggestions (2026-08-02)
@@ -49,7 +48,6 @@ docs = corpus documents, 0 where the subject is not yet written of.
 
 | docs | subject | who |
 |--:|---|---|
-| 10 | **Ral Veroni** (personal associate) | Argentine artist of the intervened banknotes and tarot graphics, collaborator of the author; 10 corpus documents |
 
 ## The bridges (2026-08-02)
 
@@ -194,8 +192,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 3 | **William Rowan Hamilton** | Irish mathematician, inventor of quaternions (carved into Broom Bridge, Dublin, in a fit of inspiration) and Hamiltonian mechanics; joins the corpus's mathematics wing (gauss, euler already queued) |
 | 0 | **Henri Lebesgue** | French mathematician, developed Lebesgue integration and measure theory, reshaping the foundations of real analysis; joins the corpus's mathematics wing (william_rowan_hamilton, gauss, euler already queued) |
 | 5 | **Saint Thecla** | early Christian saint, follower of Paul, subject of the apocryphal Acts of Paul and Thecla; already named across several corpus essays and Instagram posts but never queued until now |
-| 0 | **Vicky Sigwald** (personal associate) | Argentine papermaker of an important family; married to Pablo Sigwald below; further biographical detail not yet confirmed. Confirmed by the author (2026-08-10): she is "the Black Paper Witch" of the five adepts in 184_island_of_mountain_lake.md, alongside ral_veroni, otis_houston_jr already queued and the author himself - direct interlock, and her papermaking fits the "Paper Witch" title exactly |
-| 0 | **Pablo Sigwald** (personal associate) | Argentine papermaker of an important family, husband of Vicky Sigwald above; further biographical detail not yet confirmed |
 | 1 | **Atahualpa** | last sovereign Inca emperor, captured and executed by Pizarro (already done) after the ransom of Cajamarca |
 | 0 | **Moctezuma II** | Aztec emperor at the time of Cortés's (already done) invasion, captured and killed during the fall of Tenochtitlan; the Aztec counterpart the corpus's conquest material has been missing (cortes and pizarro already done, atahualpa just queued) |
 | 1 | **José Hernández** | Argentine poet, author of Martín Fierro, the foundational gaucho epic; joins the corpus's Argentine literary/gaucho geography (juan_manuel_de_rosas, martin_miguel_de_guemes already done) |
@@ -423,12 +419,8 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 | 0 | **Enrique Santos Discépolo** | wrote 'Cambalache,' Argentina's cultural touchstone song of social collapse; also actor and filmmaker |
 | 0 | **Nadia Boulanger** | French composer and legendary teacher at the Paris Conservatoire, taught astor_piazzolla just queued alongside Copland, Glass and dozens of major 20th-century composers; a single teacher standing behind an entire generation of music |
 
-**PERSONAL ASSOCIATES WORKFLOW (confirmed 2026-08-11):** for every entry below marked *(personal associate)* — Ral Veroni, Vicky Sigwald, Pablo Sigwald, Arthur Ben, Yuki Seo, Daniel Zachariah, Otis Houston Jr, Justin Fornal, Lisoleth Charinga (queued earlier this session, not yet in this cluster) — run the standard research pipeline for a first pass from whatever public sources exist, however thin. Do not hold entries back pending an interview. After the first pass lands, the author and the pipeline operator generate interview questions together to fill remaining gaps, as a follow-up pass on the same file.
+**PERSONAL ASSOCIATES WORKFLOW (superseded 2026-08-21):** the author withdrew all living personal associates from the atlas (Ral Veroni, Vicky Sigwald, Pablo Sigwald, Yuki Seo, Daniel Zachariah, Otis Houston Jr, Justin Fornal, Lisoleth Charinga) -- none were built, all removed from this queue. Arthur Ben (1947-2024, deceased) is the sole exception and remains built. Do not re-add any of the removed names without the author's explicit go-ahead.
 
-| 2 | **Yuki Seo** (personal associate) | 'professor of knots and fabrics of the Colegio Invisible,' based in Lima, textile and crochet artist, versed in migrations, knot-lore (musubi), and esoteric history; already the subject of two locked essays (205_commodity_amnesia.md, 209_thread_and_wheel.md), which the journey should draw on directly. Direct interlock: the corpus's quipu/textile material (the census's Guamán Poma de Ayala, Anni Albers, Jacquard entries) and the Masonic-embroidery thread arthur_ben just queued and 203_masonic_embroidery.md also touch |
-| 0 | **Daniel Zachariah** (personal associate) | Englishman, founder of The Book Cellar & Henschel, an independent antiquarian and multilingual bookshop at Reconquista 533, 1º piso, Microcentro, Buenos Aires (bookcellarbsas.com), merged with the historic German antiquariat Henschel, roughly 40,000 volumes; one of the author's associates, named in 200_arthur_ben.md as a friend in the imagined second life the author gives his stepfather in Buenos Aires - direct interlock with arthur_ben already done and ral_veroni already queued, both named in the same passage. Spelling corrected from "Zechariah" to "Zachariah" (2026-08-10) to match the essay and arthur_ben.journey.json |
-| 1 | **Otis Houston Jr (Black Cherokee)** (personal associate) | New York street performer and artist known for his roadside performances near the Willis Ave/RFK bridge in Harlem; one of the author's associates, named alongside ral_veroni already queued and the author himself as one of 'five adepts' holding matching silver ingots charged at the foot of a Joan of Arc statue, per the locked essay 184_island_of_mountain_lake.md - direct interlock |
-| 0 | **Justin Fornal (Baron Ambrosia)** (personal associate) | Bronx-based culinary adventurer and TV personality; one of the author's associates, invoked by his persona in the locked instagram material (2023-02-20, 'the compulsion of a Baron Ambrosia... to stretch a strand between one heart and the one it is bound to') and tagged directly in a cynocephalus/San Cristóbal-themed post - interlock with san_cristobal already done |
 | 0 | **Sam Bankman-Fried** | founder of FTX and Alameda Research, convicted in 2023 of fraud and conspiracy for the roughly $8 billion collapse of FTX, prominent in the effective altruism movement; joins the corpus's fraud material (bernie_madoff, charles_ponzi, kenneth_lay already queued) and its crypto/blockchain wing (hal_finney, nick_szabo already done) |
 | 0 | **Mark Cohen** | lead defense attorney for sam_bankman_fried just queued at his federal fraud trial; direct interlock |
 | 0 | **Brock Pierce** | cryptocurrency entrepreneur, co-founder of Tether and of EOS/Block.one, former child actor (The Mighty Ducks); joins the corpus's crypto/blockchain wing (hal_finney, nick_szabo, ralph_merkle already done) |
