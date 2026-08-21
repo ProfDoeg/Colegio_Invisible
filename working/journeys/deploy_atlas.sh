@@ -37,11 +37,14 @@ COMPRESS='set -e
       gzip -9 -k -f $f
     done
     # /atlas/ resolves to index.html, and brotli_static looks for
-    # index.html.br beside it, not the symlink target. Without these two the
-    # index path silently falls back to level-5 dynamic brotli.
+    # index.html.br beside it, not the symlink target. Without all three the
+    # index path 403s on a from-scratch directory (nginx has no index.html to
+    # list) and silently falls back to level-5 dynamic brotli even when it
+    # does resolve.
+    ln -sf atlas_globe_es.html index.html
     ln -sf atlas_globe_es.html.br index.html.br
     ln -sf atlas_globe_es.html.gz index.html.gz
-    chown -h www-data:www-data index.html.br index.html.gz
+    chown -h www-data:www-data index.html index.html.br index.html.gz
     chown www-data:www-data *.html *.br *.gz'
 
 if [ "$(hostname)" = "nodus" ]; then
