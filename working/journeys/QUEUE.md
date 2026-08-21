@@ -81,7 +81,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Emily Roebling** _(researching 2026-08-21 nodus:taller)_ | Took over day-to-day supervision of the Brooklyn Bridge's construction after her husband Washington Roebling (son of john_a_roebling just queued) was incapacitated by decompression sickness, effectively completing the bridge herself by 1883 |
 | 0 | **Joseph Paxton** | English gardener and architect, designed the Crystal Palace for the Great Exhibition of 1851, originally a greenhouse designer before turning to the largest glass structure of its era |
 | 0 | **Robert Moses** | New York's 20th-century master builder and power broker, shaped the city's parks, highways, and bridges for decades through unelected authority; joins the corpus's urban-planning cluster from its most controversial angle |
 | 0 | **Tertullian** | Early Christian theologian of Carthage, coined much of the Latin vocabulary of Trinity doctrine, later drifted toward Montanism; joins the corpus's early-Church material |
