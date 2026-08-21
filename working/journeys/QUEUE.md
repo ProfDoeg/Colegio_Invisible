@@ -83,10 +83,8 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Pedro Benoit** | Belgian-Argentine architect and engineer, designed the master plan and grid layout of the city of La Plata, founded 1882; joins the corpus's Argentine urban-planning cluster |
-| 0 | **Francesco Tamburini** | Italian architect, began construction of the Teatro Colón in Buenos Aires in 1889, died in 1891 before its completion; joins vittorio_meano and jules_dormal just queued, the theater's successive architects |
-| 0 | **Vittorio Meano** | Italian architect, continued the Teatro Colón's construction after Francesco Tamburini's death, himself shot and killed at his home in 1904 in a still-disputed murder before the theater was finished; joins francesco_tamburini and jules_dormal just queued |
-| 0 | **Jules Dormal** | Belgian architect, completed the Teatro Colón in 1908 after the deaths of Francesco Tamburini and Vittorio Meano just queued, the third and final architect of the theater's 19-year construction |
+| 0 | **Vittorio Meano** _(researching 2026-08-21 nodus:taller)_ | Italian architect, continued the Teatro Colón's construction after Francesco Tamburini's death, himself shot and killed at his home in 1904 in a still-disputed murder before the theater was finished; joins francesco_tamburini and jules_dormal just queued |
+| 0 | **Jules Dormal** _(researching 2026-08-21 nodus:taller)_ | Belgian architect, completed the Teatro Colón in 1908 after the deaths of Francesco Tamburini and Vittorio Meano just queued, the third and final architect of the theater's 19-year construction |
 | 0 | **Frederick Law Olmsted** | American landscape architect, co-designed Central Park with Calvert Vaux just queued, often called the father of American landscape architecture; joins the corpus's urban-planning/parks cluster (carlos_thays already queued) |
 | 0 | **Calvert Vaux** | British-American architect, co-designed Central Park with Frederick Law Olmsted just queued; direct interlock |
 | 0 | **John A. Roebling** | German-American civil engineer, designed the Brooklyn Bridge, died of tetanus from an accident during its early construction before seeing it built; father-in-law of emily_roebling just queued |
