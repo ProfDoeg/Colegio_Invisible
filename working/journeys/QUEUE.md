@@ -83,7 +83,7 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Carlos María della Paolera** | Argentine urban planner, often called the father of Argentine urbanism, author of Buenos Aires's 1925 city plan; joins the corpus's Argentine urban-planning cluster |
+| 0 | **Carlos María della Paolera** _(researching 2026-08-21 nodus:taller)_ | Argentine urban planner, often called the father of Argentine urbanism, author of Buenos Aires's 1925 city plan; joins the corpus's Argentine urban-planning cluster |
 | 0 | **Pedro Benoit** | Belgian-Argentine architect and engineer, designed the master plan and grid layout of the city of La Plata, founded 1882; joins the corpus's Argentine urban-planning cluster |
 | 0 | **Francesco Tamburini** | Italian architect, began construction of the Teatro Colón in Buenos Aires in 1889, died in 1891 before its completion; joins vittorio_meano and jules_dormal just queued, the theater's successive architects |
 | 0 | **Vittorio Meano** | Italian architect, continued the Teatro Colón's construction after Francesco Tamburini's death, himself shot and killed at his home in 1904 in a still-disputed murder before the theater was finished; joins francesco_tamburini and jules_dormal just queued |
