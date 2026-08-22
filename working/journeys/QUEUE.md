@@ -414,5 +414,3 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 
 | 0 | **Sam Bankman-Fried** | founder of FTX and Alameda Research, convicted in 2023 of fraud and conspiracy for the roughly $8 billion collapse of FTX, prominent in the effective altruism movement; joins the corpus's fraud material (bernie_madoff, charles_ponzi, kenneth_lay already queued) and its crypto/blockchain wing (hal_finney, nick_szabo already done) |
 | 0 | **Mark Cohen** | lead defense attorney for sam_bankman_fried just queued at his federal fraud trial; direct interlock |
-| 0 | **Brock Pierce** | cryptocurrency entrepreneur, co-founder of Tether and of EOS/Block.one, former child actor (The Mighty Ducks); joins the corpus's crypto/blockchain wing (hal_finney, nick_szabo, ralph_merkle already done) |
-| 0 | **Volodymyr Zelenskyy** | Ukrainian president since 2019, former comedian and actor, wartime leader since Russia's 2022 invasion; joins the corpus's contemporary political material (javier_milei, benjamin_netanyahu, hugo_chavez, nicolas_maduro already queued) |
