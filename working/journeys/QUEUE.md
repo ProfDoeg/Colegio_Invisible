@@ -390,7 +390,6 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Roald Amundsen** | Norwegian polar explorer, first to reach the South Pole in 1911, first to navigate the Northwest Passage, disappeared in 1928 searching for a downed airship in the Arctic |
 | 0 | **Ferdinand Magellan** | Portuguese navigator whose expedition completed the first circumnavigation of the globe, killed partway through in the Philippines and never completed the voyage himself |
 | 0 | **Kenneth Lay** | founder and CEO of Enron, whose 2001 collapse remains one of the largest corporate fraud cases in history; died of a heart attack before sentencing; joins the corpus's fraud material (bernie_madoff, charles_ponzi already queued) |
 | 0 | **Henri Bergson** | French philosopher, Nobel laureate in Literature, theorist of élan vital and durée (lived time as against clock time), influenced isadora_duncan already done directly; Jewish, refused an offered exemption from Vichy's anti-Jewish laws in solidarity and died shortly after in occupied Paris |
