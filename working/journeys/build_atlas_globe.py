@@ -55,6 +55,12 @@ for f in sorted(glob.glob(os.path.join(SRC_DIR, '*.journey.json'))):
                 'k': round(datekey(st.get('date', '')), 4),
             })
     if not stops: continue
+    # Segments are thematic groupings, not always chronological (a segment can
+    # revisit an earlier period as its own topic). Stepping through with
+    # Left/Right should still move forward in time, so the stop order shown
+    # in the browser is sorted by date; 's' (segment index) travels with each
+    # stop so its chip/color/name still reflect the segment it belongs to.
+    stops.sort(key=lambda s: s['k'])
     travelers.append({
         'slug': slug,
         'traveler': j.get('traveler', slug),
