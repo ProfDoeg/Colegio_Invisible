@@ -412,5 +412,3 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 
 **PERSONAL ASSOCIATES WORKFLOW (superseded 2026-08-21):** the author withdrew all living personal associates from the atlas (Ral Veroni, Vicky Sigwald, Pablo Sigwald, Yuki Seo, Daniel Zachariah, Otis Houston Jr, Justin Fornal, Lisoleth Charinga) -- none were built, all removed from this queue. Arthur Ben (1947-2024, deceased) is the sole exception and remains built. Do not re-add any of the removed names without the author's explicit go-ahead.
 
-| 0 | **Sam Bankman-Fried** | founder of FTX and Alameda Research, convicted in 2023 of fraud and conspiracy for the roughly $8 billion collapse of FTX, prominent in the effective altruism movement; joins the corpus's fraud material (bernie_madoff, charles_ponzi, kenneth_lay already queued) and its crypto/blockchain wing (hal_finney, nick_szabo already done) |
-| 0 | **Mark Cohen** | lead defense attorney for sam_bankman_fried just queued at his federal fraud trial; direct interlock |
