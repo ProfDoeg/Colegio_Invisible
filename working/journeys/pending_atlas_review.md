@@ -13,3 +13,4 @@
 - [ ] murray_rothbard -- stop "Murray Hill, Ayn Rand's circle and the first break": "He is brought into Ayn Rand's circle in her Murray Hill apartment, the collective of admirers reading Atlas Shrugged in manuscript and arguing philosophy until it is light outside."
 - [ ] murray_rothbard -- stop "Murray Hill, the second and final break": "Atlas Shrugged is published and he reads it and is moved enough to go back."
 - [ ] james_lewis_thomas_chalmers_spence -- stop "Edinburgh, Lyonesse made the touchstone": "Lyonesse, the drowned country west of Cornwall that Arthurian romance will not stop remembering; Albion and Iberius, gods he groups with Atlas; the British islands read as the surviving eastern rim of the lost land."
+- [ ] hesiod -- stop "Aulis, the one embarkation": "It is the only journey anywhere in the corpus told in the first person, and he tells it in order to disqualify himself as an authority on the sea."
