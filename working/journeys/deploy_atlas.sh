@@ -29,6 +29,10 @@ PUBLIC=${PUBLIC:-root@178.105.218.163}
 KEY=${KEY:-/home/drdoeg/.ssh/id_ed25519_deploy}
 DOMAIN=${DOMAIN:-colegioinvisible.com}
 
+echo "==> build EN + ES globes from working/journeys"
+python3 "$HERE/build_atlas_globe.py"
+python3 "$HERE/build_atlas_globe.py" --es
+
 # The far-side compression pass, run on the public box after the html lands.
 COMPRESS='set -e
     cd /var/www/'"$DOMAIN"'/atlas

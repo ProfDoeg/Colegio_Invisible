@@ -49,7 +49,7 @@ for f in sorted(glob.glob(os.path.join(SRC_DIR, '*.journey.json'))):
             if not isinstance(st.get('lat'), (int, float)): continue
             stops.append({
                 'n': st.get('name', ''), 'lat': st['lat'], 'lng': st['lng'],
-                'd': st.get('date', ''), 'dc': st.get('date_confidence', ''),
+                'd': st.get('date', ''),
                 's': si, 'c': st.get('campa', ''),
                 'q': st.get('quote'), 'qs': st.get('quote_source'),
                 'k': round(datekey(st.get('date', '')), 4),
@@ -262,7 +262,7 @@ app = """
     $('#chip .dot').style.background=CSS[s.s%CSS.length];
     $('#chip .segname').textContent=t.segments[s.s]||'';
     $('#place').textContent=s.n;
-    $('#date').innerHTML=fmtDate(s.d)+(s.dc?' <span class="conf">'+esc(s.dc)+'</span>':'');
+    $('#date').innerHTML=fmtDate(s.d);
     $('#campa').textContent=s.c||'';
     const q=$('#quote'); if(s.q){ q.hidden=false; q.innerHTML=esc(s.q)+(s.qs?'<span class="src">'+esc(s.qs)+'</span>':''); } else q.hidden=true;
     const pr=$('#prog i'); if(pr) pr.style.width=(100*(idx+1)/t.stops.length)+'%';
@@ -388,10 +388,6 @@ if ES:
         ("'STOP '+(idx+1)+' / '+t.stops.length+'  ·  TRAVELER '+(ti+1)+' / '+ATLAS.length",
          "'PARADA '+(idx+1)+' / '+t.stops.length+'  ·  VIAJERO '+(ti+1)+' / '+ATLAS.length"),
         ("+' OTHERS HERE</span>'", "+' MÁS AQUÍ</span>'"),
-        ("esc(s.dc)", "esc(DC[s.dc]||s.dc)"),
-        ("const $=s=>document.querySelector(s);",
-         "const DC={attested:'atestiguada',inferred:'inferida',traditional:'tradicional'};\n"
-         "  const $=s=>document.querySelector(s);"),
         ('aria-label="previous traveler"', 'aria-label="viajero anterior"'),
         ('aria-label="next traveler"', 'aria-label="viajero siguiente"'),
         ('aria-label="traveler"', 'aria-label="viajero"'),
