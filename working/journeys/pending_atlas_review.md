@@ -12,3 +12,4 @@
 - [ ] h_g_wells -- stop "Bromley, Atlas House: the birth": "Joseph Wells sells china and cricket goods from a shop on the Bromley High Street and calls it Atlas House, for the plaster figure straining under the world in its window."
 - [ ] murray_rothbard -- stop "Murray Hill, Ayn Rand's circle and the first break": "He is brought into Ayn Rand's circle in her Murray Hill apartment, the collective of admirers reading Atlas Shrugged in manuscript and arguing philosophy until it is light outside."
 - [ ] murray_rothbard -- stop "Murray Hill, the second and final break": "Atlas Shrugged is published and he reads it and is moved enough to go back."
+- [ ] james_lewis_thomas_chalmers_spence -- stop "Edinburgh, Lyonesse made the touchstone": "Lyonesse, the drowned country west of Cornwall that Arthurian romance will not stop remembering; Albion and Iberius, gods he groups with Atlas; the British islands read as the surviving eastern rim of the lost land."
