@@ -416,7 +416,6 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 | 0 | **Max Perelman** | Buenos Aires Yiddish-Argentine singer-songwriter, recorded on the Panzer label under the Argentine spelling of his name (not Perlman), wrote and performed in both Yiddish and Spanish; Gita Galina's just queued husband, a direct family interlock in the corpus's Yiddish-theater material |
 | 0 | **Carlos Gardel** | the voice of tango, contested origin (Toulouse vs Uruguay, still disputed), global touring life through Paris and New York, died in a 1935 plane crash in Medellín; the icon of the corpus's tango-Buenos Aires material |
 | 0 | **Astor Piazzolla** | revolutionized tango into 'nuevo tango,' studied in Paris under Nadia Boulanger just queued, scorned by traditionalists at home before being embraced |
-| 0 | **Ada Falcón** | major tango singer at the height of her fame who broke it off entirely and became a cloistered Carmelite nun after her affair with bandleader Francisco Canaro ended; a genuine conversion-journey story |
 | 0 | **Enrique Santos Discépolo** | wrote 'Cambalache,' Argentina's cultural touchstone song of social collapse; also actor and filmmaker |
 | 0 | **Nadia Boulanger** | French composer and legendary teacher at the Paris Conservatoire, taught astor_piazzolla just queued alongside Copland, Glass and dozens of major 20th-century composers; a single teacher standing behind an entire generation of music |
 
