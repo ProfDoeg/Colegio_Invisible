@@ -13,13 +13,20 @@ launch liturgy in a script: not the claim, the landing.
 
 Does, in order: pull --ff-only; drop the queue row (reusing queue_mark's own
 drop, not a reimplementation); git add QUEUE.md plus whichever of
-<slug>.journey.json, <slug>.report.md, es/<slug>.journey.json exist; one
-commit, "Add <Name> journey (EN + ES), drop from queue" + the standard
-co-author trailer; push to every remote. One rebase-and-retry if the push is
-rejected, same as claim; if that also fails this prints what happened and
-exits nonzero rather than guessing, because that pattern (two pushes racing)
-is exactly the case a human should look at once instead of a script
-resolving silently.
+<slug>.journey.json, <slug>.report.md, es/<slug>.journey.json,
+pending_atlas_review.md exist; one commit, "Add <Name> journey (EN + ES),
+drop from queue" + the standard co-author trailer; push to every remote. One
+rebase-and-retry if the push is rejected, same as claim; if that also fails
+this prints what happened and exits nonzero rather than guessing, because
+that pattern (two pushes racing) is exactly the case a human should look at
+once instead of a script resolving silently.
+
+pending_atlas_review.md is riding along here for the same reason the queue
+drop does: it is the gate's self-reference log, written by the same run that
+produced the journey being landed, and it was getting left uncommitted after
+every landing that touched it -- caught by hand on hesiod, 2026-08-22.
+git add on an unchanged tracked file is a no-op, so including it
+unconditionally costs nothing on runs that never touch it.
 
 Every git invocation here is a subprocess.run with a list of argv, never a
 shell string: no chaining, no command substitution, nothing for a permission
@@ -59,6 +66,7 @@ def main():
         "{}.journey.json".format(slug),
         "{}.report.md".format(slug),
         "es/{}.journey.json".format(slug),
+        "pending_atlas_review.md",
     ]
     files = [f for f in candidates if f == "QUEUE.md" or (dir_ / f).exists()]
     missing = [f for f in candidates if f not in files]
