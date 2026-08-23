@@ -404,7 +404,6 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 | 0 | **Jean-Baptiste Pitois (Paul Christian)** | 19th-century French occultist writing as Paul Christian, author of Histoire de la magie, elaborated the fictional Egyptian-tarot initiation narrative that antoine_court_de_gebelin just queued originated; joins etteilla already done in the corpus's tarot-occult wing |
 | 0 | **John Brown** | militant abolitionist, led the 1859 raid on the federal armory at Harpers Ferry to arm an enslaved uprising, captured and hanged for treason; his execution is often read as one of the sparks of the Civil War; joins harriet_tubman just queued |
 | 0 | **Benzion Witler** | Yiddish theater and film actor-singer, a matinee idol of the interwar Polish Yiddish stage who emigrated to Buenos Aires; joins the corpus's Yiddish-diaspora/Argentine material (alberto_gerchunoff already done) |
-| 0 | **Gita Galina** | Yiddish theater and cabaret singer-actress; author's pick, details to be confirmed in research; joins benzion_witler just queued in the corpus's Yiddish-theater material |
 
 **PERSONAL ASSOCIATES WORKFLOW (superseded 2026-08-21):** the author withdrew all living personal associates from the atlas (Ral Veroni, Vicky Sigwald, Pablo Sigwald, Yuki Seo, Daniel Zachariah, Otis Houston Jr, Justin Fornal, Lisoleth Charinga) -- none were built, all removed from this queue. Arthur Ben (1947-2024, deceased) is the sole exception and remains built. Do not re-add any of the removed names without the author's explicit go-ahead.
 
