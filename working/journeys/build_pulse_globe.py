@@ -141,7 +141,8 @@ app = """
   const hud=document.createElement('div');
   hud.style.cssText='position:fixed;top:14px;left:14px;z-index:9;font:14px/1.5 Georgia,serif;color:#dce8f8;background:rgba(8,13,24,0.72);padding:10px 14px;border-radius:8px';
   hud.innerHTML='<b>the pulse</b> — the atlas assembling itself<br><span id="yr" style="font-size:26px;color:#f2c14e"></span><br>'+
-    'spin <input id="spin" type="range" min="-3" max="3" step="0.25" value="0" style="vertical-align:middle;width:110px;accent-color:#f2c14e"> <span id="spv" style="color:#f2c14e">off</span><br>'+
+    'spin <input id="spin" type="range" min="-3" max="3" step="0.25" value="0" style="vertical-align:middle;width:110px;accent-color:#f2c14e"> <span id="spv" style="color:#f2c14e">off</span>'+
+    ' &middot; obliquity <span id="obq">0.0&deg;</span><br>'+
     '<span style="opacity:0.65">space pause &middot; 1/2/3 speed &middot; &larr;/&rarr; spin &middot; click timeline to scrub<br>drag to turn &middot; scroll to zoom</span>';
   document.body.appendChild(hud);
   const tl=document.createElement('canvas');
@@ -197,6 +198,17 @@ app = """
 
   let lastT=performance.now();
   const spinQ=new THREE.Quaternion(), yAxis=new THREE.Vector3(0,1,0);
+  const obqEl=document.getElementById('obq'), axW=new THREE.Vector3();
+  let obShown=-1;
+  function trackObliquity(){
+    axW.set(0,1,0).applyQuaternion(globe.quaternion);
+    const ob=Math.acos(Math.min(1,Math.max(-1,axW.y)))*180/Math.PI;
+    if(Math.abs(ob-obShown)<0.05) return;
+    obShown=ob;
+    const earth=Math.abs(ob-23.44)<=0.5;               // the true obliquity, greeted in gold
+    obqEl.textContent=ob.toFixed(1)+'\\u00b0'+(earth?' \\u2295':'');
+    obqEl.style.color=earth?'#f2c14e':'#dce8f8';
+  }
   (function animate(){ requestAnimationFrame(animate);
     const t=performance.now(), dt=(t-lastT)/1000; lastT=t;
     if(spin!==0){ spinQ.setFromAxisAngle(yAxis, spin*2*Math.PI/60*dt); target.multiply(spinQ); }
@@ -208,6 +220,7 @@ app = """
     yrEl.textContent=yearLabel(YEARS[yi]);
     drawTL(Math.min(now,N-1));
     globe.quaternion.slerp(target,1-Math.pow(0.91,Math.max(1,dt*60)));
+    trackObliquity();
     renderer.render(scene,camera); })();
 })();
 </script>
