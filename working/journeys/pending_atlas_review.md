@@ -15,3 +15,4 @@
 - [ ] james_lewis_thomas_chalmers_spence -- stop "Edinburgh, Lyonesse made the touchstone": "Lyonesse, the drowned country west of Cornwall that Arthurian romance will not stop remembering; Albion and Iberius, gods he groups with Atlas; the British islands read as the surviving eastern rim of the lost land."
 - [ ] hesiod -- stop "Aulis, the one embarkation": "It is the only journey anywhere in the corpus told in the first person, and he tells it in order to disqualify himself as an authority on the sea."
 - [ ] benzion_witler -- stop "Belz, the gabbai's grandson is born": "In Belz in eastern Galicia, a small town under the Habsburgs whose name the Hasidic world knows better than any atlas does, a son is born into a family attached to the rebbe's court."
+- [ ] ferdinand_magellan -- stop "Seville, the barefoot procession": "The passage, the ocean and the strait carry Magellan's name in every atlas printed since."
