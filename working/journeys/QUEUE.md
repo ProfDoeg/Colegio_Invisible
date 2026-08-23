@@ -374,7 +374,6 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Carlos Slim** | Mexican telecom magnate (América Móvil, Telmex), built the modern Latin American telecom empire; cover Latin America, hard money (Mexico's own silver-peso monetary history, his public gold/silver commentary) and his more recent Bitcoin/crypto interest as the three real threads |
 | 0 | **David Rockefeller** | Chase Manhattan chairman, founder of the Trilateral Commission, longtime subject of conspiracy theory in his own right; direct interlock with the corpus's banking-dynasty material (the warburgs, morgans already queued) and allen_dulles already queued |
 | 0 | **Henry Clay Frick** | andrew_carnegie's just queued partner and enforcer, presided over the violent 1892 Homestead Strike |
-| 0 | **Charles Dickens** | English novelist of Oliver Twist and Great Expectations, a childhood spent laboring in a blacking factory that shaped a career of writing London's poor and its debtors' prisons; joins cervantes already queued in filling the corpus's literature gap |
 | 0 | **Honoré de Balzac** | French novelist of La Comédie Humaine's nearly hundred interlinked works, drank prodigious quantities of coffee to keep writing through the night, died of the strain at 51; joins charles_dickens just queued |
 
 ## The most literal journeys (2026-08-10)
