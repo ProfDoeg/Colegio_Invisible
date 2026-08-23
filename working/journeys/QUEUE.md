@@ -380,7 +380,6 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Henri Bergson** | French philosopher, Nobel laureate in Literature, theorist of élan vital and durée (lived time as against clock time), influenced isadora_duncan already done directly; Jewish, refused an offered exemption from Vichy's anti-Jewish laws in solidarity and died shortly after in occupied Paris |
 | 0 | **Évariste Galois** | French mathematician, founder of Galois theory, wrote out his life's mathematics the night before dying in a duel at twenty; joins the corpus's mathematics wing (henri_poincare, emmy_noether already queued) |
 | 0 | **Arthur Cayley** | British mathematician, pioneer of matrix algebra and the Cayley-Hamilton theorem; direct interlock with william_rowan_hamilton already queued |
 | 0 | **Sophus Lie** | Norwegian mathematician, founder of Lie groups and Lie algebras, once arrested as a suspected spy while hiking in France at the outbreak of the Franco-Prussian War; joins the corpus's mathematics wing |
