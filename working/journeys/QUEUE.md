@@ -386,7 +386,6 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 | 0 | **Augustin-Louis Cauchy** | French mathematician, one of the founders of rigorous mathematical analysis and complex analysis, prolific to the point of overwhelming the journals of his day; joins lagrange and laplace already queued in the École Polytechnique's mathematics wing |
 | 0 | **Felix Klein** | German mathematician, the Klein bottle and the Erlangen Program unifying geometry through group theory, close collaborator of sophus_lie just queued; joins the corpus's mathematics wing from the Göttingen school |
 | 0 | **Thomas More** | English statesman and author of Utopia (1516), the book that gave the whole genre its name, executed by Henry VIII for refusing to recognize him as head of the Church; joins edward_bellamy already queued at the genre's origin point |
-| 0 | **George Orwell** | English novelist of 1984 and Animal Farm, fought and was wounded in the Spanish Civil War before writing Homage to Catalonia; the dystopian counter-current to thomas_more's just queued utopia |
 
 **PERSONAL ASSOCIATES WORKFLOW (superseded 2026-08-21):** the author withdrew all living personal associates from the atlas (Ral Veroni, Vicky Sigwald, Pablo Sigwald, Yuki Seo, Daniel Zachariah, Otis Houston Jr, Justin Fornal, Lisoleth Charinga) -- none were built, all removed from this queue. Arthur Ben (1947-2024, deceased) is the sole exception and remains built. Do not re-add any of the removed names without the author's explicit go-ahead.
 
