@@ -373,7 +373,6 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Charles Koch** | chairman of Koch Industries, the libertarian donor network behind much of the funding for the Austrian-economics institutions the corpus already carries (ludwig_von_mises, friedrich_hayek already queued) |
 | 0 | **Carlos Slim** | Mexican telecom magnate (América Móvil, Telmex), built the modern Latin American telecom empire; cover Latin America, hard money (Mexico's own silver-peso monetary history, his public gold/silver commentary) and his more recent Bitcoin/crypto interest as the three real threads |
 | 0 | **David Rockefeller** | Chase Manhattan chairman, founder of the Trilateral Commission, longtime subject of conspiracy theory in his own right; direct interlock with the corpus's banking-dynasty material (the warburgs, morgans already queued) and allen_dulles already queued |
-| 0 | **Henry Clay Frick** | andrew_carnegie's just queued partner and enforcer, presided over the violent 1892 Homestead Strike |
 
 ## The most literal journeys (2026-08-10)
 
