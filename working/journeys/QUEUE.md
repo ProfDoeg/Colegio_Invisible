@@ -380,7 +380,6 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Évariste Galois** | French mathematician, founder of Galois theory, wrote out his life's mathematics the night before dying in a duel at twenty; joins the corpus's mathematics wing (henri_poincare, emmy_noether already queued) |
 | 0 | **Arthur Cayley** | British mathematician, pioneer of matrix algebra and the Cayley-Hamilton theorem; direct interlock with william_rowan_hamilton already queued |
 | 0 | **Sophus Lie** | Norwegian mathematician, founder of Lie groups and Lie algebras, once arrested as a suspected spy while hiking in France at the outbreak of the Franco-Prussian War; joins the corpus's mathematics wing |
 | 0 | **Augustin-Louis Cauchy** | French mathematician, one of the founders of rigorous mathematical analysis and complex analysis, prolific to the point of overwhelming the journals of his day; joins lagrange and laplace already queued in the École Polytechnique's mathematics wing |
