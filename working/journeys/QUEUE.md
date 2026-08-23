@@ -361,7 +361,6 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Max Levchin** | PayPal co-founder and CTO, later founded Affirm; joins elon_musk and peter_thiel already queued in the corpus's PayPal-mafia material |
 | 0 | **Sheldon Adelson** | Las Vegas Sands casino magnate, one of the largest Republican and pro-Israel political donors in US history; direct interlock with benjamin_netanyahu already queued |
 | 0 | **Larry Fink** | CEO and co-founder of BlackRock, the world's largest asset manager; joins jamie_dimon just queued in the corpus's contemporary-finance material |
-| 0 | **Eduardo Elsztain** | Argentine businessman, chairman of IRSA and Cresud, Argentina's largest real estate group; major figure in the country's Jewish community and the Chabad-Lubavitch movement, with business ties running through the Kirchner-era governments (cristina_fernandez_de_kirchner already queued) |
 | 0 | **George Soros** | Hungarian Jewish Holocaust survivor turned hedge-fund billionaire turned Open Society philanthropist; a genuine journey story, and a constant subject of the conspiracy material the corpus already carries |
 
 ## The most literal journeys (2026-08-10)
