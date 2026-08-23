@@ -21,7 +21,9 @@ DONOR = os.path.join(HERE, 'quipu_out', 'joan_globe.html')
 FPS = 30
 HIST_S, HOLD_S = 50, 10
 SPIN_RPM = 1.25
-TILT_DEG = -23.5          # south pole toward the camera, as in render_story.py
+TILT_DEG = 23.5           # IN-PLANE lean (about the view axis): camera stays on the
+                          # centerline, equator through disc centre; +23.5 pre-mirror
+                          # puts the north pole leaning RIGHT on the delivered image
 PHASE0_DEG = 226          # open centered on Mesopotamia, where history starts
 
 
@@ -91,6 +93,8 @@ app = """
   camera.position.set(0,0,camDist); camera.lookAt(0,0,0);
   const renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});
   renderer.setPixelRatio(1); renderer.setSize(1080,1920); stage.appendChild(renderer.domElement);
+  renderer.domElement.style.transform='scaleX(-1)';   // un-mirror the map (operator-confirmed);
+                                                      // the year div is DOM, so it stays readable
   scene.add(new THREE.AmbientLight(0xffffff,0.55));
   const sun=new THREE.DirectionalLight(0xfff2d0,0.9); sun.position.set(3,2,4); scene.add(sun);
   (function(){ const g=new THREE.BufferGeometry(), N=1400, a=new Float32Array(N*3);
@@ -157,7 +161,7 @@ app = """
   document.body.appendChild(yr);
   function yearLabel(y){ return y<0? (Math.ceil(-y)+' BC') : (Math.floor(y)+''); }
 
-  const qx=new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1,0,0), TILT);
+  const qx=new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0,0,1), TILT);
   const qy=new THREE.Quaternion(), yAxis=new THREE.Vector3(0,1,0);
   window.__total=TOTAL;
   window.__frame=function(i){
