@@ -406,7 +406,6 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 | 0 | **Benzion Witler** | Yiddish theater and film actor-singer, a matinee idol of the interwar Polish Yiddish stage who emigrated to Buenos Aires; joins the corpus's Yiddish-diaspora/Argentine material (alberto_gerchunoff already done) |
 | 0 | **Gita Galina** | Yiddish theater and cabaret singer-actress; author's pick, details to be confirmed in research; joins benzion_witler just queued in the corpus's Yiddish-theater material |
 | 0 | **Max Perelman** | Buenos Aires Yiddish-Argentine singer-songwriter, recorded on the Panzer label under the Argentine spelling of his name (not Perlman), wrote and performed in both Yiddish and Spanish; Gita Galina's just queued husband, a direct family interlock in the corpus's Yiddish-theater material |
-| 0 | **Astor Piazzolla** | revolutionized tango into 'nuevo tango,' studied in Paris under Nadia Boulanger just queued, scorned by traditionalists at home before being embraced |
 
 **PERSONAL ASSOCIATES WORKFLOW (superseded 2026-08-21):** the author withdrew all living personal associates from the atlas (Ral Veroni, Vicky Sigwald, Pablo Sigwald, Yuki Seo, Daniel Zachariah, Otis Houston Jr, Justin Fornal, Lisoleth Charinga) -- none were built, all removed from this queue. Arthur Ben (1947-2024, deceased) is the sole exception and remains built. Do not re-add any of the removed names without the author's explicit go-ahead.
 
