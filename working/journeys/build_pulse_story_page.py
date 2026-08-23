@@ -91,6 +91,8 @@ app = """
   camera.position.set(0,0,camDist); camera.lookAt(0,0,0);
   const renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});
   renderer.setPixelRatio(1); renderer.setSize(1080,1920); stage.appendChild(renderer.domElement);
+  renderer.domElement.style.transform='scaleX(-1)';   // un-mirror the map (operator-confirmed);
+                                                      // the year div is DOM, so it stays readable
   scene.add(new THREE.AmbientLight(0xffffff,0.55));
   const sun=new THREE.DirectionalLight(0xfff2d0,0.9); sun.position.set(3,2,4); scene.add(sun);
   (function(){ const g=new THREE.BufferGeometry(), N=1400, a=new Float32Array(N*3);
