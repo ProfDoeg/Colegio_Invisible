@@ -380,7 +380,6 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Sophus Lie** | Norwegian mathematician, founder of Lie groups and Lie algebras, once arrested as a suspected spy while hiking in France at the outbreak of the Franco-Prussian War; joins the corpus's mathematics wing |
 | 0 | **Thomas More** | English statesman and author of Utopia (1516), the book that gave the whole genre its name, executed by Henry VIII for refusing to recognize him as head of the Church; joins edward_bellamy already queued at the genre's origin point |
 
 **PERSONAL ASSOCIATES WORKFLOW (superseded 2026-08-21):** the author withdrew all living personal associates from the atlas (Ral Veroni, Vicky Sigwald, Pablo Sigwald, Yuki Seo, Daniel Zachariah, Otis Houston Jr, Justin Fornal, Lisoleth Charinga) -- none were built, all removed from this queue. Arthur Ben (1947-2024, deceased) is the sole exception and remains built. Do not re-add any of the removed names without the author's explicit go-ahead.
