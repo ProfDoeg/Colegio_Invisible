@@ -82,7 +82,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | docs | subject | who |
 |--:|---|---|
 | 0 | **Joseph Paxton** | English gardener and architect, designed the Crystal Palace for the Great Exhibition of 1851, originally a greenhouse designer before turning to the largest glass structure of its era |
-| 0 | **Robert Moses** | New York's 20th-century master builder and power broker, shaped the city's parks, highways, and bridges for decades through unelected authority; joins the corpus's urban-planning cluster from its most controversial angle |
 | 0 | **Tertullian** | Early Christian theologian of Carthage, coined much of the Latin vocabulary of Trinity doctrine, later drifted toward Montanism; joins the corpus's early-Church material |
 | 0 | **Origen** | Early Christian theologian of Alexandria, prolific biblical scholar and exegete, self-castrated in youth per Eusebius, posthumously condemned as heretical on some points; joins tertullian just queued in the corpus's early-Church material |
 | 0 | **Saint Augustine (of Hippo)** | North African Church Father, author of the Confessions and City of God, his Manichaean and Neoplatonist years before conversion shaping Western Christian theology of sin and grace for a millennium; joins tertullian and origen just queued in the corpus's early-Church material |
