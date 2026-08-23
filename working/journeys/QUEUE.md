@@ -369,7 +369,6 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Bernard Arnault** | chairman of LVMH, world's richest person at various points; LVMH itself owns several houses already in the atlas (louis_vuitton, christian_dior), a direct interlock with the corpus's fashion cluster |
 | 0 | **George Soros** | Hungarian Jewish Holocaust survivor turned hedge-fund billionaire turned Open Society philanthropist; a genuine journey story, and a constant subject of the conspiracy material the corpus already carries |
 | 0 | **Charles Koch** | chairman of Koch Industries, the libertarian donor network behind much of the funding for the Austrian-economics institutions the corpus already carries (ludwig_von_mises, friedrich_hayek already queued) |
-| 0 | **Carlos Slim** | Mexican telecom magnate (América Móvil, Telmex), built the modern Latin American telecom empire; cover Latin America, hard money (Mexico's own silver-peso monetary history, his public gold/silver commentary) and his more recent Bitcoin/crypto interest as the three real threads |
 | 0 | **David Rockefeller** | Chase Manhattan chairman, founder of the Trilateral Commission, longtime subject of conspiracy theory in his own right; direct interlock with the corpus's banking-dynasty material (the warburgs, morgans already queued) and allen_dulles already queued |
 
 ## The most literal journeys (2026-08-10)
