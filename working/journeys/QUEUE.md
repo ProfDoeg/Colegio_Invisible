@@ -368,7 +368,6 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Eduardo Elsztain** | Argentine businessman, chairman of IRSA and Cresud, Argentina's largest real estate group; major figure in the country's Jewish community and the Chabad-Lubavitch movement, with business ties running through the Kirchner-era governments (cristina_fernandez_de_kirchner already queued) |
 | 0 | **Bernard Arnault** | chairman of LVMH, world's richest person at various points; LVMH itself owns several houses already in the atlas (louis_vuitton, christian_dior), a direct interlock with the corpus's fashion cluster |
 | 0 | **George Soros** | Hungarian Jewish Holocaust survivor turned hedge-fund billionaire turned Open Society philanthropist; a genuine journey story, and a constant subject of the conspiracy material the corpus already carries |
-| 0 | **Charles Koch** | chairman of Koch Industries, the libertarian donor network behind much of the funding for the Austrian-economics institutions the corpus already carries (ludwig_von_mises, friedrich_hayek already queued) |
 
 ## The most literal journeys (2026-08-10)
 
