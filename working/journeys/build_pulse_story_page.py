@@ -24,7 +24,7 @@ SPIN_RPM = 1.25
 TILT_DEG = 23.5           # IN-PLANE lean (about the view axis): camera stays on the
                           # centerline, equator through disc centre; +23.5 pre-mirror
                           # puts the north pole leaning RIGHT on the delivered image
-PHASE0_DEG = 226          # open centered on Mesopotamia, where history starts
+PHASE0_DEG = 46           # half a revolution from the 226 opening, start to finish (author's call)
 
 
 def datekey(iso):
