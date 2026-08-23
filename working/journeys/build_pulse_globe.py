@@ -199,7 +199,7 @@ app = """
   const spinQ=new THREE.Quaternion(), yAxis=new THREE.Vector3(0,1,0);
   (function animate(){ requestAnimationFrame(animate);
     const t=performance.now(), dt=(t-lastT)/1000; lastT=t;
-    if(spin!==0){ spinQ.setFromAxisAngle(yAxis, spin*2*Math.PI/60*dt); target.premultiply(spinQ); }
+    if(spin!==0){ spinQ.setFromAxisAngle(yAxis, spin*2*Math.PI/60*dt); target.multiply(spinQ); }
     if(playing) now=Math.min(N-1+120, now+speed*dt);
     const steady=(now>=N-1+120);
     mat.uniforms.uCyc.value=-1.0;               // no end-cycle: history completes and the
