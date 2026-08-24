@@ -285,7 +285,6 @@ Rowan Hamilton was already queued; these fill the rest.
 | 0 | **Robert Hooke** | English polymath, Hooke's law of elasticity, Micrographia's engravings of the microscopic world, Royal Society curator of experiments and bitter rival of newton already done |
 | 0 | **Christiaan Huygens** | Dutch physicist and astronomer, the wave theory of light, invented the pendulum clock, discovered Saturn's rings and its moon Titan |
 | 0 | **Joseph-Louis Lagrange** | Italian-French mathematician, Lagrangian mechanics and the calculus of variations, called by Napoleon 'the lofty pyramid of the mathematical sciences'; joins the corpus's mathematics wing (euler, gauss already queued) |
-| 0 | **Pierre-Simon Laplace** | French mathematician and astronomer of celestial mechanics, Laplace's equation, told Napoleon he had 'no need of that hypothesis' when asked where God fit into his system |
 | 0 | **Carl Gustav Jacob Jacobi** | German mathematician, the Jacobian and elliptic functions, prolific correspondent and teacher at Königsberg; joins the corpus's mathematics wing |
 | 0 | **George Gabriel Stokes** | Irish-English mathematician and physicist, Stokes' theorem and the foundations of fluid dynamics, longtime Lucasian Professor at Cambridge (newton's own former chair, already done) |
 | 0 | **Siméon Denis Poisson** | French mathematician and physicist, the Poisson distribution and Poisson's equation, taught and examined at the École Polytechnique alongside laplace and lagrange just queued |
