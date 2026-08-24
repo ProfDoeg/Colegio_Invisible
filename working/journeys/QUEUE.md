@@ -305,7 +305,6 @@ journey; approved by the author.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Miguel de Cervantes** | Spanish novelist, author of Don Quixote, captured by Barbary corsairs and enslaved five years in Algiers, lost the use of his left hand at the Battle of Lepanto; the biggest name in Spanish literature, entirely absent from the corpus until now |
 | 0 | **Mansa Musa** | 14th-century emperor of the Mali Empire, wealthiest person in recorded history; his 1324 hajj to Mecca gave away so much gold along the way it crashed Cairo's economy for years; ibn_battuta already done crossed Mali a generation later and may already name him in passing |
 | 0 | **Wolfgang Amadeus Mozart** | Austrian composer, child prodigy toured across the courts of Europe from age six, died at 35 in Vienna and was buried in a common grave; joins the corpus's music wing (richard_wagner, tchaikovsky already queued) in filling its classical-music gap |
 
