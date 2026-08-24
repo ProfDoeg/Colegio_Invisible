@@ -16,3 +16,5 @@
 - [ ] hesiod -- stop "Aulis, the one embarkation": "It is the only journey anywhere in the corpus told in the first person, and he tells it in order to disqualify himself as an authority on the sea."
 - [ ] benzion_witler -- stop "Belz, the gabbai's grandson is born": "In Belz in eastern Galicia, a small town under the Habsburgs whose name the Hasidic world knows better than any atlas does, a son is born into a family attached to the rebbe's court."
 - [ ] ferdinand_magellan -- stop "Seville, the barefoot procession": "The passage, the ocean and the strait carry Magellan's name in every atlas printed since."
+- [ ] pindar -- stop "Nemea, the book that is not all Nemean": "The Alexandrian editors, arranging the corpus centuries afterward, used the Nemean book as the place to put odes that fitted none of the other three, so the heading names a festival and also names a filing decision."
+- [ ] pindar -- stop "Argos, the boy from Tenedos": "It is the plainest erotic writing left in the corpus, and it sits inside the ordinary conventions of aristocratic Greek lyric rather than outside them."
