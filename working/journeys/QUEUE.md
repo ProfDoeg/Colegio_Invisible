@@ -134,7 +134,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Johannes Reuchlin** | German Christian Hebraist, author of De Arte Cabalistica, key figure (with Pico della Mirandola already queued) bringing Kabbalah into Renaissance scholarship |
 | 0 | **Judah Loew ben Bezalel (the Maharal of Prague)** | rabbi credited by legend with creating the Golem using Kabbalistic technique from the Sefer Yetzirah, active at Rudolf II's court in Prague, the same milieu as John Dee already queued |
 | 0 | **Abraham Abulafia** | ecstatic Kabbalist who developed combinatorial letter-permutation techniques sometimes read as proto-computational, a mystical reach toward mathematics |
-| 0 | **Erich Fromm** | psychoanalyst and actual member of the Frankfurt School's Institute for Social Research; bridges freud already done to horkheimer, adorno, marcuse just queued |
 | 0 | **Sabbatai Zevi** | 17th-century false messiah whose movement grew directly out of Lurianic Kabbalah, one of the largest ruptures in Jewish history; bridges the Kabbalah cluster just queued to the Jewish-diaspora material already there (golda_meir, martin_buber, alberto_gerchunoff) |
 | 0 | **Jacob Frank** | heretical continuation of Sabbateanism into 18th-century Central European esoteric/Masonic circles; ties to saint_germain and cagliostro already queued |
 | 0 | **Edward Bernays** | father of public relations and propaganda, nephew of Sigmund Freud (already done) and applier of psychoanalytic theory to mass persuasion; direct family interlock |
