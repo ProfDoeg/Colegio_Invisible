@@ -147,7 +147,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Simone de' Bardi** | Florentine banker of the Bardi banking house, husband of Beatrice Portinari; already named in passing in dante.journey.json ('married some years now to the banker Simone de' Bardi'), never given his own entry |
 | 0 | **Peter Thiel** | German-American venture capitalist and PayPal co-founder, associated with neoreactionary/accelerationist ideas that trace partly back to nick_land already done |
 | 0 | **Curtis Yarvin** | American blogger and software engineer (Urbit/Tlon), writing as 'Mencius Moldbug' laid out the neoreactionary/Dark Enlightenment program alongside nick_land already done; funded and championed by peter_thiel just queued, cited by JD Vance; joins the corpus's neoreactionary-tech cluster |
-| 0 | **Clare of Assisi** | founder of the Order of Poor Ladies (the Poor Clares), close companion of Saint Francis already done |
 
 
 
