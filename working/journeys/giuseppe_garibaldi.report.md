@@ -1,146 +1,111 @@
 # Giuseppe Garibaldi (1807-1882): research report
 
-*2026-08-24. Companion file: `giuseppe_garibaldi.journey.json`, 9 segments, 45 stops.*
+*2026-08-24, against a verified pool of five lenses (chronology, geography, quotes, interlock, afterlife). **[A]** attested, source named; **[R]** reconstruction or tradition, carried without independent confirmation. Contradictions are flagged, not silently adjudicated; corrections read "was X, is Y" with the source that settles it. Journey file: `giuseppe_garibaldi.journey.json`, 9 segments, 45 stops, calendar `gregorian`, register `national mythology: the canon is true`.*
 
-Legend: **[A]** attested, source named · **[R]** reconstruction, tradition, or a dossier lead this pass could not confirm. Where two reachable sources disagree, the disagreement is printed and left standing.
+## 1. Nice, the sea, the death sentence (1807-1834)
 
-One caution over the whole file. The myth was built deliberately, in his lifetime, with his help, and his memoirs are the only source for episodes repeated everywhere (Gualeguay, the first sight of Anita). Anything reaching us only through them is **[R]** here however universal its circulation.
+- Born Nice, 4 July 1807, to Domenico Garibaldi and Rosa Raimondi, Ligurian mariners in a port then annexed to the French Empire. **[A: en.wikipedia; geography lens pins the old port quarter, 43.6959, 7.2762]**
+- Register of ship's boys (*mozzi*), 12 November 1821, aged fourteen. **[A: it.wikipedia]** **Contradiction, decided:** chronology lens put this at **Nice**, it.wikipedia at **Genoa**; the file follows Genoa (44.4056, 8.9463), the chronology lens having conceded it could not verify its own placement. First documented voyage, 13 January 1824, the *Costanza* under Angelo Pesante, to Odessa. **[A: geography lens, citing the dossier and Riall, *Garibaldi: Invention of a Hero*]**
+- Rome as a young merchant sailor, c. 1825. **[A: geography lens]** Pera, Constantinople, c. 1828-1831: the residence **[A: en.wikipedia]**, the teaching and illness stories **[R: the geography lens flags the period as thin on documentation]**
+- April 1833, Taganrog, aboard the *Clorinda*: converted to Mazzini's programme by a fellow passenger. **[A: en.wikipedia]**; **[R for that passenger as Giovanni Battista Cuneo, an identification the geography lens calls not beyond doubt]**
+- November 1833, Genoa: Young Italy as Cleombroto, enlistment in the Royal Sardinian Navy **[A]**. February 1834: insurrection collapses, death sentence in absentia, Marseille on the 9th, which the chronology lens tags **[R]** and the geography lens **[A]**, agreeing on the fact.
 
----
+## 2. Brazil and the Farrapos (1835-1841)
 
-## 1. Nice and the sea, 1807-1833
+- **Enlistment year was 1835, is 1837.** 1835 is a misreading of "the Ragamuffin War of 1835", the war's start year. He reached Rio in 1835; the **letter of marque is 4 May 1837**, as *primo tenente* of the vessel *Mazzini*. **[A: it.wikipedia]**
+- Rio meeting with Bento Gonçalves, two years before Laguna. **[A: interlock via `anita_garibaldi.journey.json`; pin -22.9068, -43.1729, inherited byte-identical]**
+- Gualeguay, 1837, imprisonment and reported torture: **[A in the geography lens, from the dossier]**, but the interlock lens reports it was not found anywhere in the atlas and stays unconfirmed. The stop keeps the account as his own and says no Argentine record exists either way; June is an ordering device.
+- Camaquã river, 1839, the Farrapo navy built with Luigi Rossetti. **[A: interlock, pin -30.85, -51.8125, unused]** Imbituba (Nov 1839) and the fall of Laguna (15 Nov 1839). **[A: interlock]**
+- Laguna, July 1839, the meeting with Ana Maria de Jesus Ribeiro. **[A: interlock, date 1839-07-22 and pin -28.4831, -48.7797, inherited byte-identical]** The telescope legend is **[R]** on all three lenses that carry it. **Date conflict, unresolved:** chronology lens dates the partnership from **October 1839** aboard the *Rio Pardo*, interlock the **meeting** to 22 July; treated as one stop at the meeting.
+- Curitibanos, January 1840. **[R in the chronology lens, unconfirmed from a fetched source; [A] in the interlock, date 1840-01-12, pin -27.28, -50.5833, inherited byte-identical]** The ride out through the lines is tradition on both files.
+- **Menotti's birth was undated 1840 at Porto Alegre, is 16 September 1840 at São Luís, now Mostardas**, some 130 km away. **[A: it.wikipedia]** File uses -31.1067, -50.9214. Residual tension: the Dwight passage quoted at this stop dates the first child's birth to **10 September 1840** at San Simon.
 
-- Born at Nice, 4 July 1807, third of six children of the coasting trader Domenico Garibaldi and Rosa Raimondi. **[A en.wikipedia]** Nice was French imperial territory in 1807 and returned to Sardinia in 1814.
-- **Birthplace corrected.** The dossier gave "Rue de la Providence" at 43.6963, 7.2789. Italian Wikipedia gives **Quai Papacino** on the old port, ~43.6958, 7.2850; the dossier point sits 450-500 m west, in the Vieux-Nice grid. The file uses the quay and drops the street name. **[A it.wikipedia]**
-- **Pera, Constantinople, c. 1828-1832.** Resident, teaching Italian, French, mathematics. **[A]** Why he stayed years is unexplained in every reachable source. A real gap, stated as one in the campa.
-- **April 1833**, aboard the Clorinda for Taganrog, he learns of Young Italy from an Italian exile. **[A]** Traditionally **Giovanni Battista Cuneo**; the name is **[R]**.
+## 3. Montevideo and the Italian Legion (1841-1848)
 
-## 2. The conspiracy and the death sentence, 1833-1834
+- Married Anita, 26 March 1842, church of San Francisco, Ciudad Vieja. **[A: en.wikipedia; geography lens for the church]** He represented her first husband as dead; the legal status of that first marriage **remains disputed among biographers**. Left open.
+- **Fleet command and the Legion were one 1842 event, are two.** Fleet command 1842 stands; the *Legione italiana* formed in spring 1843 and Garibaldi took command at the end of that year. **[A: it.wikipedia]** English Wikipedia's compressed sentence is named by the pool as the source of the error. 1843-12-01 is an ordering date. The red shirts came cheap from a Montevideo lot made for the Buenos Aires slaughterhouse trade. **[A: geography lens]**
+- **Costa Brava was -32.2, -58.4 on the Uruguay river, is the Paraná** at the Entre Ríos / Corrientes boundary near Esquina, 15-16 August 1842, against Admiral William Brown. **[A: es.wikipedia]** File uses about -30.02, -59.53, a river reach and not a landmark. Self-scuttling confirmed.
+- Colonia del Sacramento and Martín García, 1845 **[A]**; San Antonio del Salto, 8 February 1846 **[A]**; commander-in-chief of Uruguayan forces, 22 June 1847 **[R: from the dossier, not re-fetched]**.
 
-**Contradiction, flagged, not resolved.** English Wikipedia: "In November 1833, Garibaldi met Mazzini in Genoa." Italian Wikipedia: the date and place are uncertain, the alleged meeting was at **Marseille**, and Mazzini had left for **Geneva** by June 1833. The dossier carried this as **[A]** in both lenses; it is **[R]**. Attested: the enrolment in Young Italy and the war name **Cleombroto**. The file plays the Genoa scene per the register and puts the dispute in `date_confidence`.
+## 4. The return, the Roman Republic, Anita's death (1848-1849)
 
-- February 1834: enlisted in the Royal Sardinian Navy to subvert its crews; the rising collapses. Escape through the gate of the Lanterna, evening of 5 February 1834. **[A, memoir, PG 50544]** Death sentence in absentia, Genoese tribunal, June 1834. **[A]**
-- Marseille landfall, 9 February 1834. **[R]**, not surfaced by a fetched source. No stop; carried inside the Genoa campa where the memoir puts it.
+- Nice, 21 June 1848, aboard the *Speranza*, bought by subscription at Montevideo; rebuffed by Charles Albert; served the Lombard provisional government. **[A: en.wikipedia]**
+- **The Action Party claim is false as dated and is dropped.** The chronology lens put the founding of the Partito d'Azione in 1848; **Mazzini founded it in March 1853**, and it.wikipedia lists Garibaldi among its leading figures but not as founder. Stated in `date_confidence` on the Milan stop. Luino, August 1848 **[A]**; Novara, March 1849 **[A]**.
+- **30 April 1849, Porta San Pancrazio, first French assault repelled. [A]** Coordinate was 41.8944, 12.4636, 700 m north of the gate; **is 41.8883, 12.4614** (it.wikipedia). Mazzini's veto on pursuit from the dossier.
+- **The end of the Republic is a four-date contradiction, presented as one.** Assembly vote 1 July; withdrawal **1 July** (chronology lens) or **2 July** (en.wikipedia: "On 2 July Garibaldi, followed by some 4,000 troops, withdrew from Rome"); French entry **3 July**; dissolution **4 July** (it.wikipedia). The geography lens's "capitulates on 3 July" conflates entry with capitulation. File dates the march out **2 July 1849**, listing all four in `date_confidence`. San Marino, 31 July; the Cesenatico bragozzi. **[A]**
+- **Anita's death, 4 August 1849, 7:45 pm, Fattoria Guiccioli, Mandriole. [A: en.wikipedia]** **Three lenses gave three coordinates, all wrong:** 44.4547, 12.2394; 44.4794, 12.2919; 44.4939, 12.2483, all 9 to 11 km too far south, one on the **Capanno Garibaldi** in the Ravenna pineta, a different site two days later in the escape. Mandriole **is 44.5540, 12.2213** (it.wikipedia); the file reconciles all three there. The chronology lens also mislabelled this entry, carrying the New York arrival claim over Anita's death note. Strangulation and poisoning stories **[R]**, lacking documentary support.
 
-## 3. Brazil, 1835-1840
+## 5. The second exile (1850-1855)
 
-- Riograndense Republic from 1835; small craft under letters of marque; boats hauled overland from the Lagoa dos Patos to the Atlantic. **[A]** 1839: the Juliana Republic; Imbituba and Laguna. **[A]**
-- **Gualeguay, 1837**, imprisonment and strappado. **[R]**. The dossier flagged it; the flag holds, since the Wikipedia article on Gualeguay does not mention Garibaldi at all. **Coordinate corrected**: the dossier's -33.0092, -59.3138 lies ~15 km north of the town, at 33.150 S, 59.333 W.
-- **Laguna, October 1839: Anita**, then legally married to Manuel Duarte de Aguiar. **[A en.wikipedia; corroborated by `anita_garibaldi.journey.json`]** The telescope sighting and *Devi essere mia* are memoir tradition **[R]**, carried in `quote` with the tradition named in `quote_source`.
+- New York, 30 July 1850; Antonio Meucci's candle factory on Staten Island. **[A: en.wikipedia]** The telephone-partnership legend is **[R]**, unsupported by the record. **Pin inherited byte-identical:** `ettore_ferrari.journey.json` gives 40.6122, -74.0709 for the Rosebank cottage at 420 Tompkins Avenue and names it the canonical NYC pin for Garibaldi's American exile.
+- Callao, October 1851, command of the *Carmen*; Canton, April 1852. **[A: en.wikipedia]** The chronology lens dates the sailing from Callao to **10 January 1852**. **The coolie-transport allegation is an open gap, not a fact:** the afterlife lens carries it as unproven, no manifest, port record, or cargo document having surfaced, and it sits badly with his documented abolitionist correspondence. **[R]** The campa ends on the gap rather than dropping it.
+- South Shields, April 1854; exile ends at Genoa, 10 May 1854. **[A]** **Caprera purchase was 1854, is 1855:** the inheritance came from his brother Felice, who died in 1855, which settles the year. **[A: it.wikipedia]** English Wikipedia's 1854 is the outlier.
 
-## 4. Montevideo, 1841-1848
+## 6. The Hunters of the Alps and the Thousand (1859-1860)
 
-- Montevideo from 1841, trader and schoolmaster. **[A]** Marriage to Anita at the church of St Francis of Assisi, 26 March 1842, having represented her first husband as dead. **[A]** The standing of that first marriage is disputed among biographers and is left disputed.
-- **Costa Brava, Parana, August 1842.** Brown's Argentine squadron, Rosas's navy, beats Garibaldi's flotilla; he burns his own ships. **[R]**, coordinate a river-reach approximation. Kept as the one direct armed contact between Garibaldi and the Rosas regime.
-- **Contradiction, corrected: the Italian Legion.** The dossier dated Legion and red shirts to 1842, with the fleet command. Italian Wikipedia dates the Legione Italiana and its red uniforms to the **end of 1843**. Split in the file: fleet command 1842 (prose only), Legion December 1843 (a stop). The saladero-surplus story is **[R]**; the uniform is **[A]**.
-- Freemasonry, **Asilo de la Virtud** lodge, 1844, aged 37. **[A]** No stop, cut for length; recorded so it is not lost.
-- **Battle of San Antonio, 8 February 1846, two corrections.** (a) There is no "Battle of San Antonio del Santo"; that string is an artefact of the English article. It is the **Batalla de San Antonio**, at the Don Venancio saladero near **Salto**, against **Servando Gomez**, not Oribe in person. **[A es.wikipedia]** (b) Not "several hundred men in red shirts" but **fewer than 200 legionaries plus about 100 cavalry** against **more than 1,000 cavalry and 200 infantry**, which is what the campa uses.
-- Battle of Cerro, 1846 **[A]**; coordinate corrected (the Fortaleza del Cerro is at 34.888479 S, 56.259928 W; the dossier's point sits ~3 km south-west, in the water). No stop. Letter to Pius IX, 1846: **[R]**.
-- **Contradiction, corrected: the departure.** The chronology said **January 1848**, the geography had him at Nice on **21 June 1848**. January is the date of the *news*, the Palermo rising of 12 January. He sailed **15 April 1848** and reached Nice 21 June. Ship name and subscription purchase are **[R]**.
+- Cacciatori delle Alpi; Varese and Como, 1859 **[A]**. Fino Mornasco, 24 January 1860: the Raimondi marriage, ended the same morning **[A: en.wikipedia]**.
+- **Quarto, night of 5-6 May 1860. [A]** Coordinate was 44.3989, 9.0233 (2.6 km inland toward Quinto) and 44.3908, 9.0086; the Scoglio di Quarto **is 44.3892, 8.9919** (it.wikipedia). **Declared departure from the inherit rule:** the interlock offers a canonical Quarto pin of **44.418, 8.98** from `dannunzio.journey.json`, but that belongs to D'Annunzio's 1915 *Discorso di Quarto* stop, 3 km from the verified rock. The file uses the verified value, gives the reason in `date_confidence`, and cites the speech in `suggested_refs`. The operator may prefer one value across both files.
+- Marsala, 11 May 1860 **[A]**: the geography lens says the legend of a deliberate British delivery of Sicily exceeds the evidence. Salemi, dictatorship declared 14 May 1860 **[A]**.
+- Calatafimi, 15 May 1860. **[A]** **The famous line stays [R] but is no longer untraced:** earliest printed carrier **Abba, *Storia dei Mille* (1904), ch. 'Dopo la vittoria', p. 129**, reporting it as said to Nino Bixio. Abba was a Garibaldino writing forty-four years later: veteran recollection, not transcript, and it.wikipedia judges the phrase probably Risorgimento rhetoric.
+- **Palermo was 21 June 1860, which matches no standard date.** en.wikipedia: entry **27 May**, street fighting 28 to 30 May, capitulation **6 June 1860**. **[A]** File dates the stop to the entry. Milazzo, 20 July 1860 **[A]**.
+- **Bronte, 10 August 1860. [A: geography lens]** Five men shot after a tribunal of a few hours under Bixio's martial law, among them the lawyer Nicolò Lombardo; the dictatorship does not reverse the sentences. Kept deliberately: the register does not exempt it.
 
-## 5. 1848-1849: the Roman Republic
+## 7. Kingdom, wound, last wars (1860-1871)
 
-- **Correction: Novara.** The dossier said he "witnessed" the Piedmontese defeat of 23 March 1849. He did not; he was in central Italy with his legion. The battle is **[A]**, his presence false and absent from the file.
-- 30 April 1849: the French assault on the Janiculum by the Villa Corsini thrown back; siege proper opens 1 June. **[A]**
-- **Contradiction, corrected: the two speeches.** The dossier merged them and dated the first to 29 June. (a) To the Roman Assembly, **30 June 1849**: *Dovunque saremo, cola sara Roma*. **[A]** (b) In **Saint Peter's Square, 2 July 1849**: the offer of hunger, thirst, forced marches, battles and death, which is **[R]**, reaching us via Wikiquote's citation of Trevelyan (1907) and unseen in Trevelyan's own text. Two stops, two dates.
-- Withdrawal with about 4,000 men, 2 July; the French enter Rome on 3 July. **[A]**
-- **Contradiction, flagged and NOT resolved.** The geography lens dates the San Marino passage to **1-2 July 1849**, impossible if the withdrawal began 2 July and Rome fell 3 July; the retreat reached San Marino at the end of July. No stop was built, so as not to print a date I believe wrong without being able to prove the right one from the pool.
-- **Anita's death, 4 August 1849, 7:45 pm, corrected.** Not "near Comacchio", the Adriatic landing point, but the **Guiccioli farm at Mandriole, near Ravenna**, ~25 km south. **[A]** The dossier's geography had this right and its chronology did not.
-- Tangier, winter 1849-1850. **[A]** Coordinate inherited byte-identical from `abdelkader.journey.json`.
+- Melito di Porto Salvo, 19 August 1860; Naples entered by train, 7 September 1860. **[A]**
+- **Volturno was 30 September, is 1 October 1860** (41.0919, 14.0944), skirmishing the day before. **[A: en.wikipedia]** The chronology lens followed the Garibaldi article; the geography lens already had 1 October and governs.
+- Teano, 26 October 1860. **[A for the meeting]**; **[R for site, wording, and whether he hailed Victor Emmanuel as king of Italy first: the pool's Myths section flags all three]** Caprera, 9 November 1860. **[A]**
+- **Aspromonte, 29 August 1862. [A]** Wound was "shot in the right foot", **is two bullets, hip and malleolus** (en.wikipedia). 'Roma o morte', the order not to fire, and the capture confirmed.
+- **The bullet extraction was at Varignano, is at Pisa**, 23 November 1862, Albergo delle Tre Donzelle, by Ferdinando Zannetti; Varignano was the prison, from September. **[A: it.wikipedia]** Also: **Nélaton's probe was porcelain-knobbed, not electromagnetic**.
+- Lincoln correspondence, three letters in Gay 1907 **[A]**: Quiggle (Caprera, 10 Sept 1861), Canisius (Varignano, 14 Sept 1862, quoted in the file), Marsh (5 Oct 1862).
+- **The 'great emancipator' quotation moves from [R] to [A]:** Library of Congress, Abraham Lincoln Papers, Series 1, 6 August 1863, loc.gov/item/mal2537500/, English at battlefields.org. Sub-corrections carried into the file: the sentence continues "and greater than any merely mundane treasure"; the John Brown clause is a **separate sentence**; the letter is **signed by three Garibaldis jointly**. The translation's provenance is unstated, so the manuscript is cited too.
+- London, April 1864 **[A]**. Monte Suello, 3 July 1866; **Bezzecca, 21 July 1866. [A]** Coordinate was 45.8367, 10.7889 (8 to 9 km off) and 45.85, 10.7333; **is 45.8970, 10.7183** (it.wikipedia). 'Obbedisco', 9 August 1866: **[A] by wide attestation, not re-fetched from a primary text**.
+- Geneva Peace Congress, September 1867 **[A]**: pin and date 1867-09-09 inherited byte-identical from `mikhail_bakunin.journey.json`.
+- **Mentana, 3 November 1867. [A]** Lenses gave 42.0122, 12.7358 (7 km east) and 42.0333, 12.6667; en.wikipedia 42.017, 12.650. File inherits `blavatsky.journey.json`'s **42.0333, 12.65**, between the two and satisfying the inherit rule.
+- Army of the Vosges, winter 1870-71; the Pomeranian colour at Dijon. **[A]** Autun pin 46.951, 4.299 and date 1871-01-01 inherited byte-identical from `ettore_ferrari.journey.json`.
+- Bordeaux, 1871. **[A]** Pin 44.8378, -0.5792 inherited byte-identical from `victor_hugo.journey.json`. **Date tension:** Hugo's file dates his own resignation over a Garibaldi motion to **13 March 1871**, the geography lens dates Garibaldi's scene to **February 1871**. Two events, separated in the file.
 
-## 6. Exile, 1850-1854, and Caprera
+## 8. Death and afterlife
 
-- New York, 30 July 1850; Meucci's candle factory at Rosebank. **[A]** The claim of a technical partnership on the telephone is unsupported; the record holds employment and friendship.
-- Alias "Giuseppe Pane", Peruvian citizenship, the Carmen at Callao. **[R]** Sailing 10 January 1852, Canton by April, via Xiamen, Manila, Three Hummock Island. **[A]** Tyne, 21 March 1854, aboard the Commonwealth; Tynemouth, South Shields, the subscription sword. **[A]** Genoa, 10 May 1854. **[A]**
-- **Contradiction, corrected: Caprera.** The Garibaldi article says **1854**; the Caprera article says he bought about half the island in **1855** and the northern half in **1856**, and the dossier's geography says "1856 onward". The money came from his brother **Felice, who died in 1855**, which alone rules out 1854. The file uses 1855-1856.
+- Married Francesca Armosino, 1880 **[A]**. Died at Caprera, 2 June 1882, aged 74 **[A]**; funeral 8 June 1882 **[A: Treccani, DBI]**. The 1881 will asked for cremation and part of the ashes under a juniper; never carried out; entombed under a rough granite block. **[R: Treccani and musei.sardegna.beniculturali.it, agreeing independently]**
+- **Coordinate discrepancy inside Caprera, unresolved:** geography lens 41.2075, 9.446 for the Casa Bianca, afterlife lens 41.2181, 9.4589 for the same compound with its cemetery. The file uses the first for the living stops, the second for death and burial.
+- Afterlife material deliberately not staged as stops, since Garibaldi was not there: the Compendio Garibaldino (1976), the Museo Nazionale Memoriale in the Arbuticci fortress (2012), Gallori's Gianicolo monument (1895), Rutelli's monument to Anita and the 1932 Fascist translation of her remains into its base, the Washington Square statue. The afterlife lens's flagged gap on that statue's sculptor is filled by its own correction: **Giovanni Turini**, a Garibaldi veteran of 1866, unveiled **4 June 1888**. **[A: en.wikipedia]**
+- **Transnational memory is uneven.** Montevideo's Colorado party still calls him a liberator and the Blanco party a mercenary; in Rio Grande do Sul the Farroupilha rebellion is a gaucho founding myth while Garibaldi personally has faded, and a Brazilian wine town bears his name though he never went there. **[A: Literary Review]**
 
-## 7. 1859-1860: the Alps, and the Thousand
+## 9. Quotations: verbatim, corrected, rejected
 
-- Cacciatori delle Alpi; Varese, 26 May 1859; San Fermo near Como. **[A]** The San Fermo day follows the standard sequence, is not independently pinned, and says so in `date_confidence`.
-- Marriage to Giuseppina Raimondi, 24 January 1860, and his walking out the same day. **[A]** Not annulled for nineteen years. The Fino Mornasco coordinate is the commune centroid, stated as such.
-- **Quarto, 5-6 May 1860, coordinate corrected** to 44.3892, 8.9919; the dossier's 44.4022, 8.993 puts the embarkation rock ~1.5 km inland, in the hills behind the shore. Marsala, 11 May 1860; HMS Argus and HMS Intrepid present, no British gun fired, the legend of a British military delivery unsupported. **[A]**
-- **Contradiction, corrected: the dictatorship.** The dossier put it on **16 May**, after Calatafimi. It was assumed at **Salemi on 14 May 1860**, the day before; Italian Wikipedia gives 14 May to 2 December 1860. The English "next day" phrasing produced the error, and the dossier's own geography had 14 May.
-- **Contradiction, flagged and NOT resolved: Calatafimi counts.** (a) Expedition article: the Thousand plus ~**500 insurgents** against ~**3,000 royal troops under Landi**. (b) Garibaldi article: ~**800 volunteers against ~1,500 defenders**, the units actually engaged under Sforza. The campa states both lenses, field strength versus engaged detachment, rather than choosing. **Coordinate corrected**: Pianto Romano lies a few km south-west of Calatafimi-Segesta, ~37.89, 12.83; the dossier's 37.9236, 12.8419 is ~4 km from the hill it names.
-- Palermo, 27-30 May 1860. **[A]**
-- **Milazzo, corrected then cut.** Not "20 July - 1 August" with del Bosco surrendering: the battle ran **17-24 July 1860**, decisive on 20 July, and under a 21 July agreement between Pianell and Medici the Bourbon units **embarked for Naples on 25 July**. No stop built, so the correction lives here.
-- **Melito di Porto Salvo, 19 August 1860, coordinate corrected** to 37.917, 15.783; the dossier's point sat ~4.7 km north-north-west, away from the landing beach.
-- Naples by train, 7 September 1860. **[A]**
-- **Contradiction, corrected: the Volturno.** (a) **1-2 October 1860**, not 30 September. (b) The claim that the outcome was decided by the arrival of the Royal Sardinian Army is unsupported: Garibaldi's ~30,000 beat Ritucci's ~25,000, and the Piedmontese arrived afterwards and decided the later siege of Gaeta. The clause is dropped and the arrival restored to its correct sequence.
-- Teano, 26 October 1860. **[A]** Site, wording, and whether he first hailed Victor Emmanuel as King of Italy are disputed and ritualised in later iconography; that goes in `date_confidence`.
+Eleven pool quotations are verbatim from fetched full text (Gutenberg 50544 for Dwight; archive.org `lincolnsofferofc00gayh` for Gay). Four required intervention. Ten of 45 stops carry a quotation.
 
-## 8. 1860-1871
-
-- Caprera, 9 November 1860, refusing rewards and titles. **[A]** The inventory of what he carried aboard is traditional **[R]**. Deputy almost continuously from 18 February 1861 to his death **[A]**, folded into the 1880 Caprera campa.
-- Aspromonte, 29 August 1862: two bullets, hip and ankle; held at **Varignano**; amnestied 5 October 1862; the ball extracted at **Pisa** by Zannetti on 23 November. **[A]** The extraction belongs to Pisa and is carried as a `suggested_ref`, not a scene. Letter to Lincoln, 6 August 1863. **[A, battlefields.org]**
-- **London, April 1864**: mass demonstrations, the visit shortened on official health grounds, reconciliation with Mazzini at Herzen's house. **[R]**, unconfirmed by any fetched source and by any atlas file. No stop built. A hole in the pool, not in the life.
-- **Bezzecca, 21 July 1866, coordinate corrected** to 45.900, 10.717 (the dossier's 45.8333, 10.7833 lands ~9 km south-east, and the same wrong pair was reused for the Obbedisco entry). The **Obbedisco** telegram to La Marmora, 9 August 1866, is genuine **[A]**. Both entries are merged into one stop.
-- Geneva, 9 September 1867, League of Peace and Freedom congress. **[A, but by way of `mikhail_bakunin.journey.json` only]**; `date_confidence` says so.
-- Monterotondo, October 1867, ~8,100 volunteers; Mentana, 3 November; withdrawal next day with ~5,100. **[A]** One stop.
-- Army of the Vosges. **Correction**: the Lantenay ambush is **November 1870**, before the January 1871 Dijon fighting; the dossier's "November 1870 - January 1871" merged them. **Coordinate corrected** to 47.3428, 4.8675 (the dossier's is ~6 km north-east). Autun is **[R]**, no stop.
-- Bordeaux, February 1871: Hugo shouted down over Garibaldi's eligibility, resigning days before his son Charles's death. **[A, corroborated by `victor_hugo.journey.json`]** Coordinate inherited byte-identical from Hugo's file.
-
-## 9. Caprera and death
-
-- Marriage to Francesca Armosino, 1880. **[A]** Exact day not pinned; 26 January used as an ordering date, declared as such. *Cantoni il volontario* (1870), *The Rule of the Monk* (1870), *I Mille* (1874). **[A]**
-- Death at Caprera, 2 June 1882, 6:21 pm, after the spring journey to Naples and Palermo for the sixth centenary of the Sicilian Vespers. **[A]**
-- The testament asking cremation and part burial under a juniper, and its non-fulfilment: **[R]** in the dossier's chronology, **[A]** in its afterlife lens citing Ridley p. 633. Treated as **[A]** for the non-fulfilment and the grave, **[R]** for the wording, no primary text located.
-
----
+1. **"Every one of you must fight for four men to-day!" is MISATTRIBUTED and is not used.** Verbatim in Gutenberg 50544, but the speaker is **not Garibaldi**: the passage is Garibaldi narrating the Riograndense army at Pinheirinho/Taquari in 1840, and the "General-in-chief" is **Bento Gonçalves**, named a few paragraphs earlier. The pool also mislocated the episode in Uruguay.
+2. **"Sarò riconoscentissimo..." corrected in wording and setting.** Gutenberg 50544 reads **"Sarò reconoscientissimo, a quella buona gente, tutta la mia vita"**; the setting is **San Simon, Rio Grande do Sul, September 1840**, the household that sheltered Anita around Menotti's birth, not "Anita's illness during the Uruguayan campaign."
+3. **"You know, however, my principles..." has corrected provenance and is not used.** In Gay's footnote, p. 72n, from a secretary's draft Gay says was **in his own possession, presented by General Ricciotti Garibaldi**, not "from the Ricciotti Garibaldi papers." A variant draft of the 5 October 1862 Marsh letter.
+4. **"Qui si fa l'Italia o si muore." stays [R]**, with Abba as earliest traceable source. See §6.
 
 ## Apparatus relations for the operator
 
-**Garibaldi is not listed in `EXCEPTIONS.md`**, so no apparatus stops are licensed here. Nothing was silently deleted. The relations below are all **forward-direction**, later people and artefacts engaging with a man whose clock stopped in 1882, which the block rule does not license. Recorded so the operator can rule rather than lose them.
+Garibaldi is **not** listed in `EXCEPTIONS.md`, so no backward apparatus stops are licensed on his file. Two pool relations are not rooted in his own life. Neither is silently deleted.
 
-1. **Ettore Ferrari's monument cycle**, forward: Pisa 1892, Vicenza, Cortona, Tortona, Macerata, Massa Marittima, Bevagna, the equestrian Rovigo 1896, the 1923 Meucci memorial at Rosebank. Those are **Ferrari's own stops on his own file** and are staged nowhere here. One borderline call: `ettore_ferrari.journey.json` is listed as a *source* on the Staten Island stop, corroborating the Meucci lodging from inside the atlas. Strictly a pointer is a hash and a 1923 memorial cannot sit in an 1882 file; by the instruction to cite a later one-directional engagement as a source, it is right. Flagged, not decided.
-2. **The Anita monument on the Janiculum and Mussolini's 1932 transfer of her remains** into its base: forward, and Anita's in any case. It appears once, in a `suggested_refs` line on the Mandriole stop as the endpoint of her reinterments; the operator may want that stripped.
-3. **Gallori's Janiculum monument (1895)**, the **Washington Square statue (1888)**, the **US Capitol bust**, the **Garibaldi-Meucci Museum** (plaque 1884, museum 1956, NRHP 1980), **Nottingham Forest's red (1865)**, the Garibaldi beard and damselfish, five Navy ships, the Uruguayan ten-peso note of 1887, **Riall (2007)**: all forward, none carried. The Rosebank house and the Compendio Garibaldino appear as `suggested_refs` only on his own stops for those places.
-4. **The 2012-13 exhumation proposal**: descendants sought, with permission, to exhume the Caprera remains for DNA confirmation and possibly carry out the cremation at last; a 2013 change of personnel at the Ministry of Culture left the authorities unenthusiastic and it lapsed. **[R, BBC via Wikipedia]** Forward, unresolved, absent from the dossier altogether.
+1. **Forward. `mussolini.journey.json`.** A roadblock of the **52nd Garibaldi Brigade**, Communist partisans invoking his name, stops Mussolini's column at Musso and leads to the capture at Dongo, 27 April 1945. The interlock lens flags it itself as a naming legacy, not a life intersection. **Direction caught: forward**, 63 years after his death. Not written into the file, nor is the 1932 translation of Anita's remains.
+2. **Neither backward nor forward, simply weak. `francesco_tamburini.journey.json`.** Born on a street already named Corso Garibaldi, into a family remembered as Garibaldian in sympathy. Tagged **[R]** by the interlock lens itself: no documented contact. Rejected as name-only.
 
-No backward-direction relation was found, and none would be licensable here in any case.
+Rejected as **shared geography without relation**, since the map already shows co-location: `sarmiento` and `benigno_villanueva` (both inside besieged Montevideo in the same years), `dannunzio` (the 1915 Quarto speech, his own travelling, cited instead as a `suggested_ref` on Garibaldi's Quarto stop), and Bakunin's Florence entry.
 
----
-
-## Interlocks
-
-Named in a campa, each on a real relation and not on shared geography:
-
-- **`anita_garibaldi`** (Laguna, the marriage, the march out of Rome, Mandriole): wife.
-- **`juan_manuel_de_rosas`** (named in the Costa Brava campa): Rosas's navy under Brown fought his flotilla, and Rosas's ally Oribe, unnamed as Rosas in the Legion campa, besieged the city he defended.
-- **`mikhail_bakunin`** (Geneva 1867): co-participant at the League congress, and his 1864-65 Italian organizing is framed in his own file against the vacuum Garibaldi left.
-- **`victor_hugo`** (Geneva 1867, Bordeaux 1871): Hugo spoke in the Assembly in his defence and resigned over it.
-
-Surfaced and deliberately **not** named: **`sarmiento`** (co-location in besieged Montevideo, no contact found), **`san_martin`** and **`janos_czetz`** (no textual link in either file), **`charles_darwin`** (near-miss: Rio 1832-33 against Garibaldi's 1836). **Buenos Aires** (-34.6037, -58.3816) is unused: no source puts him in the city. **Kaaba** and **Temple Mount** are not inherited.
-
-**Canonical pins inherited byte-identical**: Montevideo -34.9011, -56.1645; Naples 40.8358, 14.2488; Geneva 46.2003, 6.1466; Rosebank 40.6151, -74.0776; Bordeaux 44.8378, -0.5792; Tangier 35.7595, -5.834.
-
-**Corpus gap, not an intersection**: no atlas file exists for **Mazzini**, **Dumas pere**, **Nino Bixio**, or **Victor Emmanuel II**, though all four are in his closest network. No citation was invented to a file that does not exist.
-
----
+**Travelers named in a campa, each on a direct or one-directional relation to Garibaldi himself:** `anita_garibaldi` (wife); `abraham_lincoln` (correspondence, and the 1861 offer of a command); `john_brown` (named by Garibaldi in the 1863 letter); `victor_hugo` (defended Garibaldi's seat from the Bordeaux tribune and resigned over it; on the League committee at Geneva); `mikhail_bakunin` (co-delegate at the congress Garibaldi opened as honorary president); `blavatsky` (claimed to have served in his ranks and been wounded at Mentana); `ettore_ferrari` (liaison to Garibaldi's Army of the Vosges, 1870-71).
 
 ## Honest gaps
 
-1. **Constantinople, c. 1828-1832**: years with no explanation anywhere, stated as a gap in the campa. **Gualeguay**: rests on the memoirs alone. **London 1864 and the Herzen reconciliation with Mazzini**: no confirmation, no atlas corroboration, no stop. **Trevelyan**: the Saint Peter's address seen only through Wikiquote. **The Speranza**: ship name and subscription not reconfirmed. **Dumas's editorial hand in the memoirs**: asserted by the dossier, unconfirmable, left dropped.
-2. **Cut for length, all attested, all recoverable above**: Freemasonry (1844), Cerro (1846), the Nice landfall of 21 June 1848, San Marino (July 1849, and see the date problem), Milazzo (July 1860), Monterotondo, Varignano, Autun (1871). Forty-five stops is the ceiling and this life overruns it.
-
----
+- **Constantinople, 1828-1831.** Thin on documentation by the pool's own account; the teaching, the illness, and the length of stay are embellishment on a real residence. No stop.
+- **Gualeguay torture.** The dossier's claim, absent from the atlas, no Argentine record either way.
+- **The *Carmen* and indentured Chinese labour, 1852.** No manifest, port record, or cargo document; the afterlife lens recommends a targeted search of Peruvian shipping records.
+- **The Teano words and site.** Disputed by nearly everyone who claimed to have been there.
+- **'Obbedisco'**, the 22 June 1847 appointment, and the Mentana battle account were carried by the pool without independent re-fetching, and are marked as such.
+- **Whether Victor Hugo attended the Geneva congress of 1867 in person** or only lent his name and a letter is not established by anything reachable here. Flagged in `date_confidence`.
+- **Attested items cut for space**, recorded so they are not lost: Rome c. 1825; Pera; the Camaquã navy (pin -30.85, -51.8125 unused); Imbituba; Colonia del Sacramento; the 1847 appointment; Luino; Novara; Callao; Salemi, Milazzo and Melito as separate stops.
 
 ## Sources
 
-**Reached and used**
+**Reached and used.** The en, it and es Wikipedia articles named inline throughout (23 in all). Theodore Dwight, trans./comp., *The Life of General Garibaldi* (New York, 1859), Project Gutenberg ebook 50544, full text fetched. H. Nelson Gay, 'Lincoln's Offer of a Command to Garibaldi,' *The Century Magazine* 75:1 (Nov 1907), archive.org `lincolnsofferofc00gayh`, full-text OCR fetched. Giuseppe Cesare Abba, *Storia dei Mille* (1904), it.wikisource.org. Library of Congress, Abraham Lincoln Papers, Series 1, loc.gov/item/mal2537500/. American Battlefield Trust, battlefields.org. Treccani, *Dizionario Biografico degli Italiani*. musei.sardegna.beniculturali.it. Literary Review, 'The Gaucho Who Unified Italy'.
 
-- en.wikipedia.org/wiki/Giuseppe_Garibaldi (spine of the chronology); it.wikipedia.org/wiki/Giuseppe_Garibaldi (birthplace, the Mazzini dispute, the Legion date, the dictatorship dates)
-- es.wikipedia.org/wiki/Batalla_de_San_Antonio (name, site, force counts); en.wikipedia.org/wiki/Anita_Garibaldi (Laguna, the marriage, Mandriole, the 1932 transfer)
-- en.wikipedia: Roman_Republic_(19th_century) and _(1849); Expedition_of_the_Thousand; Salemi; Calatafimi-Segesta; Battle_of_Milazzo_(1860); Melito_di_Porto_Salvo; Battle_of_the_Volturno; Battle_of_Aspromonte; Battle_of_Mentana; Battle_of_Bezzecca; Bezzecca; Army_of_the_Vosges; Lantenay; Caprera; Gianicolo; Garibaldi_Memorial; Washington_Square_Park
-- en.wikipedia.org/wiki/Gualeguay,_Entre_Rios (checked, negative: no mention of Garibaldi)
-- **Giuseppe Garibaldi, *The Life of General Garibaldi, Written by Himself*, trans. Theodore Dwight (New York, 1859 and 1861), Project Gutenberg 50544**, gutenberg.org/cache/epub/50544/pg50544.txt. Source of the memoir quotes and of the Hungarian hussars address at lines 14186-14235.
-- battlefields.org/learn/primary-sources/giuseppe-garibaldi-president-lincoln (letter of 6 August 1863)
-- en.wikiquote.org/wiki/Giuseppe_Garibaldi (Obbedisco; the Trevelyan attribution; the Abba attribution)
-- Atlas files consulted: `anita_garibaldi`, `juan_manuel_de_rosas`, `mikhail_bakunin`, `victor_hugo`, `ettore_ferrari`, `sarmiento`, `san_martin`, `janos_czetz`.
+**Atlas files consulted for canonical pins and interlocks:** the twelve named in the Apparatus section above.
 
-**Named and not reached**
-
-- **G. M. Trevelyan, *Garibaldi's Defence of the Roman Republic* (1907)**: the Saint Peter's address comes from Wikiquote's citation of it, not the book. [R] on that basis alone.
-- **Giuseppe Cesare Abba, *Storia dei Mille***: source of *Qui si fa l'Italia o si muore*, seen only through Wikiquote; the dossier itself notes there is no contemporaneous transcript. [R].
-- **Jasper Ridley, *Garibaldi*** (Wikipedia cites p. 633) and **Lucy Riall, *Invention of a Hero* (2007)** (cited at pp. 1-5): neither consulted directly.
-- **sandiegoreader.com** excerpt of the Pope-king address: **dropped, correctly.** The primary sits in the Dwight volume, so the dossier's note that it was "not independently located" no longer holds. The printed text differs twice: **Pope-king** is hyphenated, and the sentence continues ": he lies to his religion." The file uses the primary.
-- **Herzen's memoirs**, or any primary account of the 1864 London visit: not reached.
+**Named but not reached.** Lucy Riall, *Garibaldi: Invention of a Hero* (2007), cited by the geography lens for the Odessa voyage but not itself consulted. Richard Bourne, *Garibaldi in South America*, known only through the Literary Review notice. Peruvian and Chinese shipping records for the *Carmen*, 1851-1852, not searched, so the open question in §5 stands. The definitive Italian *Memorie* (Florence, 1888), not consulted: all memoir quotation here comes through the Dwight recension of 1859, one of at least 46 editions in 11 languages by Treccani's count, every early one mediated by an editor, translator, or ghost-collaborator rather than resting on a stable manuscript.
