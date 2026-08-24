@@ -195,7 +195,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Simon Magus** | Samaritan magus of Acts 8, who tried to buy the power of the Holy Spirit from the apostles (giving 'simony' its name); early Christian heresiology names him as the fountainhead of Gnosticism, paired in legend with Helen of Tyre, a former prostitute he called the reincarnated Helen of Troy; joins the corpus's Gnostic/heresiological wing |
 | 0 | **Apostle Peter** | first among the twelve, crucified upside down in Rome by tradition; direct interlock with apostle_paul just queued (Rome, the early church) |
 | 0 | **Alexandre Dumas** | French novelist of The Three Musketeers and The Count of Monte Cristo; personally introduced the young Jules Verne (just done) to Paris literary life via the Chevalier d'Arpentigny in 1849, already a named crossing in jules_verne.journey.json awaiting its own entry |
-| 0 | **Giuseppe Garibaldi** | Italian general and unifier, hero of the Risorgimento, fought on three continents; joins the corpus's 19th-century revolutionary/nationalist material |
 
 ## Author additions (2026-08-09)
 
