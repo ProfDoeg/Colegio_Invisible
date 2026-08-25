@@ -271,7 +271,6 @@ adam_smith already queued. Austrian School core plus its major rivals.
 | docs | subject | who |
 |--:|---|---|
 | 0 | **John Maynard Keynes** | British economist, architect of Keynesian economics and the Bretton Woods system, member of the Bloomsbury Group; the great 20th-century rival school to the Austrians just queued |
-| 0 | **Joseph Schumpeter** | Austrian-American economist, theorist of 'creative destruction,' briefly Austria's finance minister at 36; joins the corpus's economics wing from its own eclectic edge, neither strictly Austrian nor Keynesian |
 | 0 | **Milton Friedman** | American economist, father of monetarism and the Chicago School; his student 'Chicago Boys' designed augusto_pinochet's (already done) Chilean economic program, a direct interlock |
 
 ## Zionism, the Bund, and Basque separatism (2026-08-10)
