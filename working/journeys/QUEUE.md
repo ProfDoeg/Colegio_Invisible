@@ -270,7 +270,6 @@ adam_smith already queued. Austrian School core plus its major rivals.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Milton Friedman** | American economist, father of monetarism and the Chicago School; his student 'Chicago Boys' designed augusto_pinochet's (already done) Chilean economic program, a direct interlock |
 
 ## Zionism, the Bund, and Basque separatism (2026-08-10)
 
