@@ -270,7 +270,6 @@ adam_smith already queued. Austrian School core plus its major rivals.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Carl Menger** | Austrian economist, founder of the Austrian School, theorist of marginal utility; joins the corpus's economics material (adam_smith already queued) as its foundational absence |
 | 0 | **Eugen von Böhm-Bawerk** | Austrian economist and statesman, three-time finance minister of Austria-Hungary, developed the Austrian School's theory of capital and interest built on carl_menger's just queued foundation |
 | 0 | **Ludwig von Mises** | Austrian-American economist, author of Human Action, fled Vienna for Geneva then New York ahead of the Nazi advance; another entry in the corpus's Vienna-exodus theme (freud, einstein already done) |
 | 0 | **Friedrich Hayek** | Austrian-British economist, The Road to Serfdom, Nobel laureate; a life across Vienna, London, Chicago and Freiburg, student of the same Austrian School (carl_menger, ludwig_von_mises just queued) |
