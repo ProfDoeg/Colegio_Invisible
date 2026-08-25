@@ -254,7 +254,6 @@ Rowan Hamilton was already queued; these fill the rest.
 | 0 | **George Gabriel Stokes** | Irish-English mathematician and physicist, Stokes' theorem and the foundations of fluid dynamics, longtime Lucasian Professor at Cambridge (newton's own former chair, already done) |
 | 0 | **Siméon Denis Poisson** | French mathematician and physicist, the Poisson distribution and Poisson's equation, taught and examined at the École Polytechnique alongside laplace and lagrange just queued |
 | 0 | **Henri Poincaré** | French polymath, topology and the three-body problem, came within a hair of relativity before einstein already done and anticipated ideas later called chaos theory |
-| 0 | **James Clerk Maxwell** | Scottish physicist, unified electricity, magnetism and light into a single field theory and predicted radio waves before they were observed; not to be confused with robert_maxwell or jordan_maxwell already queued, different people entirely |
 | 0 | **Michael Faraday** | English physicist and chemist, self-taught bookbinder's apprentice who discovered electromagnetic induction and laid the ground james_clerk_maxwell just queued formalized; one of physics's great rags-to-genius journeys |
 
 ## Whole missing domains (2026-08-10)
