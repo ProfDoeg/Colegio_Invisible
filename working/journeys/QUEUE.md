@@ -271,7 +271,6 @@ adam_smith already queued. Austrian School core plus its major rivals.
 | docs | subject | who |
 |--:|---|---|
 | 0 | **Eugen von Böhm-Bawerk** | Austrian economist and statesman, three-time finance minister of Austria-Hungary, developed the Austrian School's theory of capital and interest built on carl_menger's just queued foundation |
-| 0 | **Ludwig von Mises** | Austrian-American economist, author of Human Action, fled Vienna for Geneva then New York ahead of the Nazi advance; another entry in the corpus's Vienna-exodus theme (freud, einstein already done) |
 | 0 | **Friedrich Hayek** | Austrian-British economist, The Road to Serfdom, Nobel laureate; a life across Vienna, London, Chicago and Freiburg, student of the same Austrian School (carl_menger, ludwig_von_mises just queued) |
 | 0 | **John Maynard Keynes** | British economist, architect of Keynesian economics and the Bretton Woods system, member of the Bloomsbury Group; the great 20th-century rival school to the Austrians just queued |
 | 0 | **Joseph Schumpeter** | Austrian-American economist, theorist of 'creative destruction,' briefly Austria's finance minister at 36; joins the corpus's economics wing from its own eclectic edge, neither strictly Austrian nor Keynesian |
