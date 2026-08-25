@@ -199,7 +199,6 @@ Charles Babbage requested again but already sits in the queue (line 270,
 |--:|---|---|
 | 0 | **Étienne Bazeries** | French military cryptanalyst, broke the Great Cipher of Louis XIV after centuries unsolved, invented the Bazeries cylinder; extends the corpus's cipher lineage (al-Kindi, blaise_de_vigenere, arthur_scherbius, marian_rejewski already queued) into 19th-century France |
 | 0 | **David Chaum** | American cryptographer, inventor of the blind signature and DigiCash/ecash, the first proposal for anonymous digital cash, and of mix networks underlying later anonymity systems; joins the corpus's cipher/crypto wing (diffie, hellman, ralph_merkle just done, the RSA trio in process) |
-| 0 | **Antonio Gramsci** | Italian Marxist theorist and journalist, imprisoned by Mussolini (already done) from 1926 until his death, wrote the Prison Notebooks there and coined 'cultural hegemony'; direct interlock with the corpus's Mussolini material from the opposite side of the cell door |
 | 0 | **Rosa Luxemburg** | German-Polish Marxist revolutionary and theorist, co-founder of the Spartacist League, murdered in Berlin in 1919 after the failed uprising; joins the corpus's Marxist wing (karl_marx already done) alongside Gramsci just queued |
 | 0 | **Søren Kierkegaard** | Danish philosopher of Fear and Trembling and The Sickness Unto Death, father of existentialism, rarely left Copenhagen yet the walks through it structure his thought; joins the corpus's philosophy wing (kant, hegel already done) |
 
