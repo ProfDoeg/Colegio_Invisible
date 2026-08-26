@@ -425,7 +425,8 @@ const EVT = [-2350,-2349,-2349,-1737,-1735,-1710,-1396,-1391,-1351,-1313,-1313,-
   const obqEl=document.getElementById('obq'), axW=new THREE.Vector3();
   let obShown=-1;
   function trackObliquity(){
-    axW.set(0,1,0).applyQuaternion(globe.quaternion);
+    axW.set(0,1,0).applyQuaternion(globe.quaternion)
+       .transformDirection(camera.matrixWorldInverse);   // view space: dotted with the screen vertical
     const ob=Math.acos(Math.min(1,Math.max(-1,axW.y)))*180/Math.PI;
     if(Math.abs(ob-obShown)<0.05) return;
     obShown=ob;
