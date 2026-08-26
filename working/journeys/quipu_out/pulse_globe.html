@@ -326,8 +326,9 @@ const COAST = [[[180.0,-16.169],[179.849,-16.302],[179.795,-16.37],[179.748,-16.
   const obqEl=document.getElementById('obq'), axW=new THREE.Vector3();
   let obShown=-1;
   function trackObliquity(){
-    axW.set(0,1,0).applyQuaternion(globe.quaternion);
-    const ob=Math.acos(Math.min(1,Math.max(-1,axW.y)))*180/Math.PI;
+    axW.set(0,1,0).applyQuaternion(globe.quaternion)
+       .transformDirection(camera.matrixWorldInverse);   // as the EYE sees it: view space,
+    const ob=Math.acos(Math.min(1,Math.max(-1,axW.y)))*180/Math.PI;  // dotted with the screen vertical
     if(Math.abs(ob-obShown)<0.05) return;
     obShown=ob;
     const earth=Math.abs(ob-23.44)<=0.5;               // the true obliquity, greeted in gold
