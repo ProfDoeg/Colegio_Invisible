@@ -219,7 +219,7 @@ const EVT = [-2350,-2349,-2349,-1737,-1735,-1710,-1396,-1391,-1351,-1313,-1313,-
       const v=llv(c[0],c[1],1);
       m.position.copy(v).multiplyScalar(R*1.006);
       m.quaternion.setFromUnitVectors(new THREE.Vector3(0,0,1),v);
-      m.userData={label:c[2],n:c[3],years:c[4]||[],members:c[5]||[],cur:0};
+      m.userData={label:c[2],n:c[3],years:c[4]||[],members:c[5]||[],cur:0,r:r};
       m.scale.setScalar(0.0001);
       grp.add(m); grp.userData.items.push(m);
     });
@@ -293,7 +293,7 @@ const EVT = [-2350,-2349,-2349,-1737,-1735,-1710,-1396,-1391,-1351,-1313,-1313,-
   const yrEl=document.getElementById('yr');
   function yearLabel(y){ return y<0? (Math.ceil(-y)+' a. C.') : (Math.floor(y)+''); }
   const spdBtn=document.getElementById('spd');
-  const SPEEDS=[40,120,480], SPN={40:'lento',120:'normal',480:'rápido'};
+  const SPEEDS=[0,40,120,480], SPN={0:'detenida',40:'lento',120:'normal',480:'rápido'};  // 0 = time stopped, scrub-only
   function setSpeed(v){ speed=v; spdBtn.textContent='velocidad · '+SPN[v]; }
   spdBtn.addEventListener('click',()=>{ setSpeed(SPEEDS[(SPEEDS.indexOf(speed)+1)%SPEEDS.length]); });
   setSpeed(120);
@@ -337,7 +337,7 @@ const EVT = [-2350,-2349,-2349,-1737,-1735,-1710,-1396,-1391,-1351,-1313,-1313,-
   tl.addEventListener('pointerleave',e=>{ hoverI=null; });
   window.addEventListener('keydown',e=>{
     if(e.code==='Space'){e.preventDefault(); playing=!playing;}
-    else if(e.key==='1')setSpeed(40); else if(e.key==='2')setSpeed(120); else if(e.key==='3')setSpeed(480);
+    else if(e.key==='0')setSpeed(0); else if(e.key==='1')setSpeed(40); else if(e.key==='2')setSpeed(120); else if(e.key==='3')setSpeed(480);
     else if(e.key==='0'){now=0;} });
   function upperBound(arr,y){ let i=0,j=arr.length; while(i<j){const m=(i+j)>>1; if(arr[m]<=y)i=m+1;else j=m;} return i; }
   const corrCur=new Array(CORR.length).fill(-1);
@@ -382,13 +382,21 @@ const EVT = [-2350,-2349,-2349,-1737,-1735,-1710,-1396,-1391,-1351,-1313,-1313,-
     let bi=0,bf=-1;
     layers.forEach((g,i)=>{ const f=g.userData.mat.uniforms.uFade.value;
       if(g.visible&&f>bf){ bf=f; bi=i; } });
-    const grp=layers[bi];
+    // clickable = every layer that is meaningfully faded in, not just the top one:
+    // a city inside a merged region stays selectable, smallest circle under the
+    // pointer wins (Prague vs the blob that swallowed it).
+    const active=[];
+    layers.forEach(g=>{ const f=g.userData.mat.uniforms.uFade.value;
+      if(g.visible&&f>0.15) active.push(g); });
+    if(!active.length) active.push(layers[bi]);
     let pick=null;
-    const hits=ray.intersectObjects(grp.children,false);
-    if(hits.length) pick=hits[0].object;
+    for(const g of active) for(const h of ray.intersectObjects(g.children,false)){
+      const m=h.object; if(m.userData.cur<=0.01) continue;
+      if(!pick||(m.userData.r||1)*m.scale.x<(pick.userData.r||1)*pick.scale.x) pick=m;
+    }
     if(!pick){                                   // fingertip fallback: nearest visible circle within 24 px
       let bd=24*24;
-      for(const m of grp.userData.items){
+      for(const m of active.flatMap(g=>g.userData.items)){
         if(m.userData.cur<=0.01) continue;
         scrV.setFromMatrixPosition(m.matrixWorld);
         if(scrV.clone().sub(camera.position).dot(scrV)>0) continue;   // back side of the globe
@@ -399,7 +407,7 @@ const EVT = [-2350,-2349,-2349,-1737,-1735,-1710,-1396,-1391,-1351,-1313,-1313,-
     }
     clearSel();
     if(!pick){ chip.style.display='none'; return; }
-    selMesh=pick; selLayer=bi; pick.material=selMat;
+    selMesh=pick; selLayer=Math.max(0,layers.indexOf(pick.parent)); pick.material=selMat;
     const u=pick.userData;
     setSelStrands(new Set(u.members||[]));
     chip.innerHTML='<b>'+u.label+'</b><br><span class="n">'+u.n+(u.n===1?' viajero':' viajeros')+'</span>';
