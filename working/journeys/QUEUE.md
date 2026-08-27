@@ -318,3 +318,9 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 
 **PERSONAL ASSOCIATES WORKFLOW (superseded 2026-08-21):** the author withdrew all living personal associates from the atlas (Ral Veroni, Vicky Sigwald, Pablo Sigwald, Yuki Seo, Daniel Zachariah, Otis Houston Jr, Justin Fornal, Lisoleth Charinga) -- none were built, all removed from this queue. Arthur Ben (1947-2024, deceased) is the sole exception and remains built. Do not re-add any of the removed names without the author's explicit go-ahead.
 
+## Author additions (2026-08-27)
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Adolfo Bioy Casares** | Argentine writer of La invención de Morel, Borges's closest lifelong collaborator (Six Problems for Don Isidro Parodi and much else written together) and husband of Silvina Ocampo; all three already in the atlas but he was never given his own entry |
+
