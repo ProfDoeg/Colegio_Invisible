@@ -83,7 +83,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 |--:|---|---|
 | 0 | **Tertullian** | Early Christian theologian of Carthage, coined much of the Latin vocabulary of Trinity doctrine, later drifted toward Montanism; joins the corpus's early-Church material |
 | 0 | **Origen** | Early Christian theologian of Alexandria, prolific biblical scholar and exegete, self-castrated in youth per Eusebius, posthumously condemned as heretical on some points; joins tertullian just queued in the corpus's early-Church material |
-| 0 | **Ctesias** | Greek physician and historian at the Persian court, author of the Indica, one of the earliest sources describing the dog-headed Cynocephali of India; joins the corpus's cynocephalus/San Cristóbal material (san_cristobal already done) |
 | 0 | **Giovanni da Pian del Carpine** | Franciscan friar, papal envoy to the Mongol court, wrote an eyewitness-framed account of his journey describing various peoples including dog-headed men; joins the corpus's cynocephalus material |
 | 0 | **Claudius Aelianus (Aelian)** | Roman author of De Natura Animalium and Varia Historia, discussed the Cynocephali among the wonders of the natural world; joins the corpus's cynocephalus material |
 | 0 | **Paul the Deacon** | Lombard historian, author of the Historia Langobardorum, which includes a well-known passage on the Cynocephali among the peoples the Lombards claimed to have encountered; joins the corpus's cynocephalus material |
