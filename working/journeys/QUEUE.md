@@ -83,64 +83,37 @@ The last two. With these the constellation stands at 333: 153 traveling,
 |--:|---|---|
 | 0 | **Tertullian** | Early Christian theologian of Carthage, coined much of the Latin vocabulary of Trinity doctrine, later drifted toward Montanism; joins the corpus's early-Church material |
 | 0 | **Origen** | Early Christian theologian of Alexandria, prolific biblical scholar and exegete, self-castrated in youth per Eusebius, posthumously condemned as heretical on some points; joins tertullian just queued in the corpus's early-Church material |
-| 0 | **Ctesias** | Greek physician and historian at the Persian court, author of the Indica, one of the earliest sources describing the dog-headed Cynocephali of India; joins the corpus's cynocephalus/San Cristóbal material (san_cristobal already done) |
 | 0 | **Giovanni da Pian del Carpine** | Franciscan friar, papal envoy to the Mongol court, wrote an eyewitness-framed account of his journey describing various peoples including dog-headed men; joins the corpus's cynocephalus material |
-| 0 | **Megasthenes** | Greek ethnographer, ambassador to Mauryan India, author of the Indica, a primary source for the fantastical accounts of India (including dog-headed peoples) later repeated by Pliny and other Roman writers; joins the corpus's cynocephalus material (plinio_el_viejo already done) |
 | 0 | **Claudius Aelianus (Aelian)** | Roman author of De Natura Animalium and Varia Historia, discussed the Cynocephali among the wonders of the natural world; joins the corpus's cynocephalus material |
-| 0 | **Paul the Deacon** | Lombard historian, author of the Historia Langobardorum, which includes a well-known passage on the Cynocephali among the peoples the Lombards claimed to have encountered; joins the corpus's cynocephalus material |
 | 0 | **Gaius Julius Solinus** | Roman compiler, author of De mirabilibus mundi (Collectanea rerum memorabilium), whose catalogue of monstrous races including the Cynocephali shaped the entire medieval bestiary tradition; joins the corpus's cynocephalus material |
-| 0 | **Adam of Bremen** | German medieval chronicler, author of the Gesta Hammaburgensis Ecclesiae Pontificum, whose account of the northern lands includes a description of the Cynocephali; joins the corpus's cynocephalus material |
 | 0 | **Joscha Bach** | Cognitive scientist and AI researcher, known for the MicroPsi cognitive architecture and writing on consciousness, computation, and the nature of mind; joins the corpus's cipher/computing wing (diffie, hellman, hal_finney already done) |
-| 0 | **Klaus Schwab** | Founder and longtime chairman of the World Economic Forum, architect of the Davos elite-convening model and the 'Great Reset' and 'Fourth Industrial Revolution' framings; joins the corpus's material on concentrated institutional power |
-| 0 | **Yoshua Bengio** | Turing Award-winning deep learning pioneer, one of the field's most prominent voices on AI safety and existential risk; joins joscha_bach just queued in the corpus's AI/computing wing |
-| 0 | **Ray Kurzweil** | inventor (the first CCD flatbed scanner, text-to-speech for the blind) turned Google Director of Engineering and prophet of the technological singularity in The Singularity Is Near; joins joscha_bach and yoshua_bengio just queued in the AI/computing wing, and gives it a real prophecy angle the cluster otherwise lacks |
-| 1 | **Walt Disney** | American animator and film producer, Steamboat Willie to Disneyland; the corpus's make-believe and fairy-tale essays already touch his terrain (hans_christian_andersen, brothers_grimm queued) |
 | 0 | **Sara Rudner** | American choreographer and dancer, longtime collaborator with Twyla Tharp, later ran the dance program at Sarah Lawrence; joins the corpus's dance wing (isadora_duncan, laban, mary_wigman, joseph_pilates already walking) |
-| 0 | **Viola Farber** | American dancer and choreographer, founding member of the Merce Cunningham Dance Company before starting her own; pairs directly with Merce Cunningham already queued |
 | 0 | **David Belle** | French founder of parkour, son of Raymond Belle who trained in Hébert's méthode naturelle through the French military; the direct 20th-century descendant of Georges Hébert just queued, tracing the body-culture wing into the present |
-| 0 | **Geoffrey Hinton** | British-Canadian computer scientist, Turing laureate, 'Godfather of AI'; backpropagation and Boltzmann machines at Toronto, then resigned from Google in 2023 to speak freely about AI risk; joins the corpus's mathematics/cipher wing (diffie, hellman, von_neumann already done) |
 | 0 | **Cleopatra VII** | last active pharaoh of Ptolemaic Egypt, allied and involved with julius_caesar just queued and later Mark Antony; brings ancient Egypt into the atlas as a region for the first time |
-| 0 | **Justinian I** | Byzantine emperor who codified Roman law in the Corpus Juris Civilis and built the Hagia Sophia; direct successor in the imperial line constantino_el_grande (already done) opens |
-| 0 | **Constantine XI Palaiologos** | last Byzantine emperor, died defending Constantinople against Mehmed II in 1453; closes the arc constantino_el_grande's founding of the city (already done) opened over a thousand years earlier |
 | 0 | **Arthur Scherbius** | German engineer, inventor of the Enigma machine; the cipher alan_turing's just queued Bletchley Park team breaks, direct interlock |
 | 0 | **Marian Rejewski** | Polish mathematician who first broke arthur_scherbius's just queued Enigma cipher in the early 1930s, years before Bletchley Park; his team's methods and reconstructed machine were passed to the British and French just before the war, directly enabling alan_turing's just queued effort |
-| 0 | **Pamela Colman Smith** | Anglo-Jamaican-American artist, illustrator of the Rider-Waite-Smith tarot deck, Golden Dawn initiate and stage designer for Yeats's theatre; joins the corpus's occult/tarot wing (W.B. Yeats already queued) |
-| 0 | **Albert Pike** | American Confederate general and Scottish Rite Freemason, author of Morals and Dogma; joins the corpus's Masonic material (hiram_abiff, theodor_reuss already queued) |
-| 0 | **Golda Meir** | Israeli prime minister, born in Kyiv, raised in Milwaukee, emigrated to Palestine in 1921; one of the signers of Israel's Declaration of Independence, joins the corpus's Zionist/diaspora geography |
 | 0 | **Paul Naschy** | Spanish actor and screenwriter, born Jacinto Molina, 'the Spanish Lon Chaney'; played the werewolf Waldemar Daninsky across a dozen films along with dozens of other horror archetypes; joins the corpus's horror/Gothic wing (lovecraft already queued) |
 | 0 | **Grigori Rasputin** | Russian mystic and healer, confidant of the Romanov family through Tsarevich Alexei's hemophilia, assassinated in 1916 in a plot that became its own legend; joins the corpus's Russian/esoteric geography |
-| 0 | **Walter Benjamin** | German-Jewish critic and essayist of the Arcades Project and 'The Work of Art in the Age of Mechanical Reproduction', Frankfurt School-adjacent, died at the Spanish border at Portbou fleeing the Gestapo in 1940; joins the same cluster |
 | 0 | **Jürgen Habermas** | German philosopher of the public sphere and communicative action, the Frankfurt School's second generation; joins the same cluster |
 | 0 | **Sophie Taeuber-Arp** | Swiss Dada artist and dancer, wife of Jean Arp, associated with Cabaret Voltaire and Zurich Dada; joins the corpus's Zurich/dance-avant-garde cluster (laban, mary_wigman, suzanne_perrottet already done) |
 | 0 | **Katja Wulff** | German-Swiss expressionist dancer (1890-1992), trained under Laban and Wigman, co-founded a eurythmy school with Suzanne Perrottet, ran her own Ausdruckstanz school in Basel from 1923 to past 90; worked with Jean Arp and Sophie Taeuber-Arp just queued. Directly interlocks with laban, mary_wigman, suzanne_perrottet already done |
 | 1 | **Indra Devi** | Latvian-born yoga teacher (Eugenie Peterson), 'First Lady of Yoga', studied under Krishnamacharya in Mysore (the same teacher as pattabhi_jois already done), later taught in Shanghai, Hollywood, and Buenos Aires |
 | 0 | **Pocahontas** | Powhatan noblewoman, captured and married to John Rolfe, died in England at about twenty-one; joins the corpus's Native American geography (sitting_bull, low_dog already done) |
-| 0 | **Dore Hoyer** | German expressionist dancer in the Wigman lineage, celebrated soloist whose later career collapsed into poverty and isolation, suicide in 1967; joins the corpus's dance wing (mary_wigman, laban already done) |
 | 0 | **Valeska Gert** | German-Jewish expressionist dancer, actress and cabaret performer of grotesque dance, fled Nazi Germany and ran nightclubs in exile in New York and later Italy; joins the same wing |
 | 0 | **Hilde Holger** | Austrian-Jewish expressionist dancer trained under Gertrud Bodenwieser, fled to Bombay then London, later pioneered dance therapy for people with Down syndrome; joins the same wing |
 | 0 | **Katherine Johnson** | American mathematician at NASA, hand-calculated the trajectories for the first US crewed spaceflights, work later dramatized in Hidden Figures; joins the corpus's mathematics/space wing (von_neumann, richard_feynman already done) |
-| 0 | **Étienne-Jules Marey** | French physiologist, chronophotography of motion, direct scientific ancestor of both dance notation and physics-of-motion study; natural companion to muybridge already in the atlas |
 | 0 | **Nikolai Bernstein** | Soviet physiologist, founder of the biomechanics of movement underlying modern dance science, work feeding directly into cybernetics; bridges the dance and physics/mathematics wings |
-| 0 | **Norbert Wiener** | American mathematician, founder of cybernetics, MIT professor; joins the corpus's mathematics/cipher wing (claude_shannon, von_neumann already done) and directly bridges to nikolai_bernstein just queued |
 | 0 | **Kit Cavanagh (Mother Ross)** | Irish woman who disguised herself as a man to serve as a dragoon in the War of the Spanish Succession, searching for her missing husband; wounded at multiple battles before her sex was discovered |
-| 0 | **Stafford Beer** | British theorist, father of management cybernetics and the Viable System Model, designed Project Cybersyn for Salvador Allende's Chile (already queued) as a real-time economic control room; direct bridge to norbert_wiener and nikolai_bernstein just queued |
 | 0 | **Donna Haraway** | American philosopher of technoscience, author of 'A Cyborg Manifesto'; bridges the cybernetics cluster (norbert_wiener, stafford_beer just queued) and the continental-philosophy wing (michel_foucault, gilles_deleuze already done) |
-| 0 | **Johannes Reuchlin** | German Christian Hebraist, author of De Arte Cabalistica, key figure (with Pico della Mirandola already queued) bringing Kabbalah into Renaissance scholarship |
-| 0 | **Judah Loew ben Bezalel (the Maharal of Prague)** | rabbi credited by legend with creating the Golem using Kabbalistic technique from the Sefer Yetzirah, active at Rudolf II's court in Prague, the same milieu as John Dee already queued |
-| 0 | **Abraham Abulafia** | ecstatic Kabbalist who developed combinatorial letter-permutation techniques sometimes read as proto-computational, a mystical reach toward mathematics |
 | 0 | **Sabbatai Zevi** | 17th-century false messiah whose movement grew directly out of Lurianic Kabbalah, one of the largest ruptures in Jewish history; bridges the Kabbalah cluster just queued to the Jewish-diaspora material already there (golda_meir, martin_buber, alberto_gerchunoff) |
 | 0 | **Jacob Frank** | heretical continuation of Sabbateanism into 18th-century Central European esoteric/Masonic circles; ties to saint_germain and cagliostro already queued |
-| 0 | **Edward Bernays** | father of public relations and propaganda, nephew of Sigmund Freud (already done) and applier of psychoanalytic theory to mass persuasion; direct family interlock |
 | 0 | **Jakob Fugger 'the Rich'** | head of the Fugger banking dynasty, financed Charles V's imperial election; the Fuggers' indulgence-selling partnership with the Church directly provoked Luther's 95 Theses (martin_luther already done) |
 | 0 | **Anton Fugger** | Jakob Fugger's nephew and successor, led the Fugger bank at its peak financing the Habsburgs; second figure of the same dynasty |
-| 0 | **Cosimo de' Medici** | founder of the Medici banking dynasty's political power in Florence, patron of Renaissance art and science; joins michelangelo, leonardo_da_vinci already queued |
 | 0 | **Max Warburg** | German-Jewish banker of the Warburg dynasty, financed Germany through WWI; brother of Aby Warburg already queued, a direct family interlock |
 | 0 | **Paul Warburg** | Max's brother, emigrated to the US and was the chief architect of the Federal Reserve System; second figure of the same dynasty |
 | 0 | **Francis Baring** | founder of Barings Bank, the British merchant bank that financed sovereign debt and trade across the Napoleonic era |
 | 0 | **Alexander Baring** | Francis's relation who personally arranged the financing of the Louisiana Purchase; second figure of the same dynasty, ties to the corpus's Napoleonic-era Americas material |
 | 0 | **J.P. Morgan** | Junius's son, American Gilded Age banking titan who financed Edison and the electrification of America; second figure of the same dynasty, reaching toward the corpus's physics/invention wing |
-| 0 | **Simone de' Bardi** | Florentine banker of the Bardi banking house, husband of Beatrice Portinari; already named in passing in dante.journey.json ('married some years now to the banker Simone de' Bardi'), never given his own entry |
-| 0 | **Curtis Yarvin** | American blogger and software engineer (Urbit/Tlon), writing as 'Mencius Moldbug' laid out the neoreactionary/Dark Enlightenment program alongside nick_land already done; funded and championed by peter_thiel just queued, cited by JD Vance; joins the corpus's neoreactionary-tech cluster |
 
 
 
@@ -304,6 +277,7 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Reid Hoffman** | LinkedIn co-founder and PayPal mafia member, met with jeffrey_epstein already queued and later donated to charity over it; bridges the Epstein-ties and PayPal-mafia threads |
 | 0 | **Max Levchin** | PayPal co-founder and CTO, later founded Affirm; joins elon_musk and peter_thiel already queued in the corpus's PayPal-mafia material |
 | 0 | **Sheldon Adelson** | Las Vegas Sands casino magnate, one of the largest Republican and pro-Israel political donors in US history; direct interlock with benjamin_netanyahu already queued |
+| 0 | **Ștefan Odobleja** | Romanian military physician whose Psychologie consonantiste (1938-39) anticipated cybernetics a decade before Wiener, unrecognized until the 1970s; operator-added with dossier supplied; joins the cybernetics wing (norbert_wiener, stafford_beer dossiers staged) |
 
 ## The most literal journeys (2026-08-10)
 
@@ -315,4 +289,13 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 |--:|---|---|
 
 **PERSONAL ASSOCIATES WORKFLOW (superseded 2026-08-21):** the author withdrew all living personal associates from the atlas (Ral Veroni, Vicky Sigwald, Pablo Sigwald, Yuki Seo, Daniel Zachariah, Otis Houston Jr, Justin Fornal, Lisoleth Charinga) -- none were built, all removed from this queue. Arthur Ben (1947-2024, deceased) is the sole exception and remains built. Do not re-add any of the removed names without the author's explicit go-ahead.
+
+## Author additions (2026-08-27)
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Adolfo Bioy Casares** | Argentine writer of La invención de Morel, Borges's closest lifelong collaborator (Six Problems for Don Isidro Parodi and much else written together) and husband of Silvina Ocampo; all three already in the atlas but he was never given his own entry |
+| 0 | **Sir Arthur Conan Doyle** | Scottish creator of Sherlock Holmes, devout convert to spiritualism in later life, attended séances with houdini already queued seeking contact with the dead |
+| 0 | **Harry Houdini** | Hungarian-American escape artist and stage magician, close friend of arthur_conan_doyle just queued turned public antagonist after Doyle's wife claimed to channel Houdini's dead mother at a 1922 séance (in English, which she never spoke); Houdini spent his last years exposing fraudulent mediums |
+| 0 | **San Te (San-De, 三德)** | Shaolin martial arts disciple who trained under monk Zhi Shan, early 18th century; the name means 'Three Harmonies' or 'Three Virtues'; left the main Shaolin Monastery to reside at the Xichan Monastery |
 
