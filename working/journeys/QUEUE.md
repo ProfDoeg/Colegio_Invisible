@@ -114,7 +114,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Francis Baring** | founder of Barings Bank, the British merchant bank that financed sovereign debt and trade across the Napoleonic era |
 | 0 | **Alexander Baring** | Francis's relation who personally arranged the financing of the Louisiana Purchase; second figure of the same dynasty, ties to the corpus's Napoleonic-era Americas material |
 | 0 | **J.P. Morgan** | Junius's son, American Gilded Age banking titan who financed Edison and the electrification of America; second figure of the same dynasty, reaching toward the corpus's physics/invention wing |
-| 0 | **Simone de' Bardi** | Florentine banker of the Bardi banking house, husband of Beatrice Portinari; already named in passing in dante.journey.json ('married some years now to the banker Simone de' Bardi'), never given his own entry |
 | 0 | **Curtis Yarvin** | American blogger and software engineer (Urbit/Tlon), writing as 'Mencius Moldbug' laid out the neoreactionary/Dark Enlightenment program alongside nick_land already done; funded and championed by peter_thiel just queued, cited by JD Vance; joins the corpus's neoreactionary-tech cluster |
 
 
