@@ -207,7 +207,6 @@ Rowan Hamilton was already queued; these fill the rest.
 | 0 | **Joseph-Louis Lagrange** | Italian-French mathematician, Lagrangian mechanics and the calculus of variations, called by Napoleon 'the lofty pyramid of the mathematical sciences'; joins the corpus's mathematics wing (euler, gauss already queued) |
 | 0 | **George Gabriel Stokes** | Irish-English mathematician and physicist, Stokes' theorem and the foundations of fluid dynamics, longtime Lucasian Professor at Cambridge (newton's own former chair, already done) |
 | 0 | **Henri Poincaré** | French polymath, topology and the three-body problem, came within a hair of relativity before einstein already done and anticipated ideas later called chaos theory |
-| 0 | **Michael Faraday** | English physicist and chemist, self-taught bookbinder's apprentice who discovered electromagnetic induction and laid the ground james_clerk_maxwell just queued formalized; one of physics's great rags-to-genius journeys |
 
 ## Whole missing domains (2026-08-10)
 
