@@ -145,7 +145,6 @@ Charles Babbage requested again but already sits in the queue (line 270,
 | docs | subject | who |
 |--:|---|---|
 | 0 | **Étienne Bazeries** | French military cryptanalyst, broke the Great Cipher of Louis XIV after centuries unsolved, invented the Bazeries cylinder; extends the corpus's cipher lineage (al-Kindi, blaise_de_vigenere, arthur_scherbius, marian_rejewski already queued) into 19th-century France |
-| 0 | **Søren Kierkegaard** | Danish philosopher of Fear and Trembling and The Sickness Unto Death, father of existentialism, rarely left Copenhagen yet the walks through it structure his thought; joins the corpus's philosophy wing (kant, hegel already done) |
 
 ## The six subspaces (2026-08-10)
 
@@ -160,7 +159,6 @@ Satoshi Nakamoto and Pierre Curie.
 | 0 | **Elizebeth Smith Friedman** | American cryptanalyst, broke Prohibition-era rum-runner ciphers and testified as an expert witness, later worked against Nazi spy networks in South America; married to William F. Friedman just queued, a direct husband-wife interlock in the cipher wing |
 | 0 | **Herbert Yardley** | American cryptologist, founder of the Black Chamber, the US's first peacetime codebreaking unit, later wrote the exposé The American Black Chamber that scandalized Washington; joins the corpus's cipher wing (william_f_friedman just queued) |
 | 0 | **Quintilian** | Marcus Fabius Quintilianus (c. 35-100 AD), born Calagurris in Hispania, first publicly salaried chair of Latin rhetoric in Rome under Vespasian; his Institutio Oratoria (Book XI) is the actual source text discussing Simonides and the method of loci by name, alongside Metrodorus of Scepsis; the complete manuscript was lost for centuries until Poggio Bracciolini recovered it at the monastery of St. Gallen in 1416, a real manuscript-rediscovery story. Direct interlock with simonides_of_ceos just queued, and joins the corpus's art-of-memory cluster (giulio_camillo, ramon_llull, roger_bacon, giordano_bruno already done) |
-| 0 | **Maria Montessori** | Italian physician and educator, founder of the Montessori method, first prepared-environment classrooms in Rome's slums; joins the corpus's pedagogy wing (froebel, pestalozzi, steiner already done) |
 | 0 | **John Dewey** | American philosopher and educator, author of Democracy and Education, theorist of learning by doing; joins the same pedagogy wing |
 | 0 | **Jan Amos Comenius** | Czech Moravian bishop and educational reformer, author of the Orbis Pictus (the first illustrated children's textbook) and Didactica Magna, a life of exile across Bohemia, Poland, England and Sweden; joins the same pedagogy wing as its earliest root |
 
@@ -250,4 +248,6 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 | 0 | **Adolfo Bioy Casares** | Argentine writer of La invención de Morel, Borges's closest lifelong collaborator (Six Problems for Don Isidro Parodi and much else written together) and husband of Silvina Ocampo; all three already in the atlas but he was never given his own entry |
 | 0 | **Sir Arthur Conan Doyle** | Scottish creator of Sherlock Holmes, devout convert to spiritualism in later life, attended séances with houdini already queued seeking contact with the dead |
 | 0 | **Harry Houdini** | Hungarian-American escape artist and stage magician, close friend of arthur_conan_doyle just queued turned public antagonist after Doyle's wife claimed to channel Houdini's dead mother at a 1922 séance (in English, which she never spoke); Houdini spent his last years exposing fraudulent mediums |
+| 0 | **René Girard** | French historian, literary critic and philosopher of social science, theorist of mimetic desire and the scapegoat mechanism, elected to the Académie française; taught at Stanford, where peter_thiel already done studied under him, a direct interlock the author flagged |
+| 0 | **Aleksandr Gelyevich Dugin** | Russian political philosopher of Neo-Eurasianism and the Fourth Political Theory, draws directly on rene_guenon (already done) and julius_evola (queued); joins the corpus's traditionalist/neoreactionary cluster alongside nick_land and curtis_yarvin already done |
 
