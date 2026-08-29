@@ -221,7 +221,6 @@ queued/done) and a wholly untouched Basque-nationalism thread.
 | 0 | **Aaron David Gordon** | founder of labor Zionism and its 'religion of labor,' direct inspiration for the kibbutz movement; joins the same cluster |
 | 0 | **Arkadi Kremer** | founder of the General Jewish Labour Bund in 1897, the same year as theodor_herzl's just queued First Zionist Congress; vladimir_medem already queued carried the Bund's ideas forward after him |
 | 0 | **Henryk Erlich** | Polish Bundist leader, murdered by the Soviet NKVD during WWII alongside victor_alter just queued; joins arkadi_kremer and vladimir_medem already queued in the corpus's Bundist thread |
-| 0 | **Victor Alter** | Polish Bundist leader, murdered by the Soviet NKVD alongside henryk_erlich just queued; the two are usually named together |
 | 0 | **Sabino Arana** | founder of Basque nationalism in the 1890s, invented the Ikurriña flag and the term Euzkadi, founded the PNV; the corpus has no Basque-nationalist material until now |
 | 0 | **José Antonio Aguirre** | first President of the Basque Country during the Spanish Civil War; after Franco's victory crossed occupied Europe under false papers, a Panamanian passport and a false name, through France, Belgium and Germany before reaching New York to run a government-in-exile |
 | 0 | **Julen Madariaga** | co-founder of ETA in 1959, a radical break from sabino_arana's just queued PNV youth wing |
