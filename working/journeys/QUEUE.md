@@ -275,7 +275,6 @@ approved by the author along with a wider tech/finance/fraud batch.
 | 0 | **Leon Black** | founder of Apollo Global Management, paid jeffrey_epstein already queued roughly $158 million for 'tax and estate advice,' resigned as CEO once the payments became public |
 | 0 | **Reid Hoffman** | LinkedIn co-founder and PayPal mafia member, met with jeffrey_epstein already queued and later donated to charity over it; bridges the Epstein-ties and PayPal-mafia threads |
 | 0 | **Sheldon Adelson** | Las Vegas Sands casino magnate, one of the largest Republican and pro-Israel political donors in US history; direct interlock with benjamin_netanyahu already queued |
-| 0 | **Ștefan Odobleja** | Romanian military physician whose Psychologie consonantiste (1938-39) anticipated cybernetics a decade before Wiener, unrecognized until the 1970s; operator-added with dossier supplied; joins the cybernetics wing (norbert_wiener, stafford_beer dossiers staged) |
 
 ## The most literal journeys (2026-08-10)
 
