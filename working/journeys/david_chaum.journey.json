@@ -1,0 +1,531 @@
+{
+  "traveler": "David Lee Chaum",
+  "title": "The Toothpick and the Blind Signature: Chaum, the Mix, and the Money Nobody Can Follow",
+  "years": "1955-",
+  "calendar": "gregorian",
+  "register": "national mythology: the canon is true",
+  "segments": [
+    {
+      "name": "The Toothpick and the Card: Los Angeles",
+      "stops": [
+        {
+          "name": "Los Angeles, a birth with the identifying detail stripped out",
+          "lat": 34.0522,
+          "lng": -118.2437,
+          "date": "1955-01-01",
+          "date_confidence": "Year attested (Wikipedia, 'David Chaum'); month and day are not established in any public source reached, and the ISO date defaults to 01-01. No hospital, no street, no parents' names surfaced in any source consulted, including the research dossier. Coordinates are the city centroid, not a birthplace.",
+          "campa": "In Los Angeles, in 1955, a son is born to a family the record does not describe. No hospital is named, no month, no day. He will spend his working life building systems that let a person prove a thing about themselves without surrendering their name, and the beginning of his own life is filed in exactly that shape: a fact you can verify and cannot use to find anybody. Around him the city is running on freeways and aerospace contracts, and the first computers are arriving in its schools. The public sources give the city and the year and stop there.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Los Angeles County birth indexes for 1955, unexamined; no researcher has published a birth record for Chaum"],
+          "sources": ["Wikipedia, 'David Chaum'"]
+        },
+        {
+          "name": "Sherman Oaks, an address without a date",
+          "lat": 34.1508,
+          "lng": -118.4489,
+          "date": "1962-01-01",
+          "date_confidence": "Undated. Public biographies associate Chaum with the Sherman Oaks neighborhood without specifying whether it is a childhood home, a later residence, or a current one. The date given here is an ordering device only and rests on nothing; the association itself is tagged R.",
+          "campa": "Public biographies attach him to Sherman Oaks, a valley neighborhood over the pass from the city proper, without saying when. It may be the house he grew up in. It may be an address of his adult life. It is the only domestic geography anyone has published about him in seventy years, and the sources that carry the name do not distinguish. The detail sits in the record the way a partial identifier sits in a database: enough to place a person, not enough to say when he was there or what he was doing. No one has gone looking.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Los Angeles city directories and county assessor records for Sherman Oaks, unexamined"],
+          "sources": ["Wikipedia, 'David Chaum'"]
+        },
+        {
+          "name": "Los Angeles, the toothpick and the week-long batch",
+          "lat": 34.0522,
+          "lng": -118.2437,
+          "date": "1970-01-01",
+          "date_confidence": "Reconstruction from Chaum's own recollection in a 2020 CWI interview, relayed through secondary synthesis; the interview pages returned 404 on two fetch attempts this pass, so the wording could not be checked at source. No school, junior college, or school record is named anywhere. Date is an approximate ordering placement inside 'c. late 1960s to early 1970s'.",
+          "campa": "As a teenager he programs without a keypunch. No school and no course record is named anywhere; the account is his own, given in an interview half a century later. While still in high school he teaches programming at a local junior college. Of the same years he says he kind of dropped out, leaving school so he could take computer science courses at UCLA. He is the teacher and the truant in one season. He buys pre-perforated Hollerith cards, pushes the chad out of each hole with a toothpick, one column at a time, and waits about a week for the batch to come back.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["CWI interview with David Chaum (2020), source of the toothpick and junior-college recollections; cwi.nl pages for it returned 404 in this pass"],
+          "sources": ["CWI (Centrum Wiskunde & Informatica) 2020 interview with David Chaum, via secondary synthesis"]
+        },
+        {
+          "name": "Westwood, the courses he was never admitted to",
+          "lat": 34.0722,
+          "lng": -118.4427,
+          "date": "1971-01-01",
+          "date_confidence": "Reconstruction. The claim rests entirely on Chaum's own later recollection; no registrar record, transcript, or contemporary document confirms attendance, and the 2020 CWI interview that carries it could not be fetched this pass. Coordinates corrected to the UCLA campus point given by Wikipedia (34.0722, -118.4427); the dossier's 34.0689, -118.4452 drifts about 430 metres. Date is an ordering placement.",
+          "campa": "He crosses into Westwood to sit in on computer science courses at a university that has not admitted him. What the recollection describes is a boy of sixteen or so walking into lecture halls on the strength of already knowing what is taught in them. He does not enroll here, and he does not finish the high school he walked out of. He turns up at Berkeley years later with a doctorate ahead of him and no ordinary transcript behind him. Whether he sat in those halls at all rests on his own memory, given in an interview near the end of his career. No registrar confirms it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["UCLA Computer Science Department course records for the early 1970s, unexamined"],
+          "sources": ["CWI 2020 interview with David Chaum, via secondary synthesis", "Wikipedia, 'University of California, Los Angeles' (campus coordinates)"]
+        }
+      ]
+    },
+    {
+      "name": "Berkeley, the Mutually Suspicious Groups",
+      "stops": [
+        {
+          "name": "Berkeley, the vaults that trust nobody",
+          "lat": 37.8719,
+          "lng": -122.2585,
+          "date": "1979-02-22",
+          "date_confidence": "Attested: UC Berkeley Electronics Research Laboratory technical report UCB/ERL M79/10, dated 22 February 1979, cited in Sherman et al. (2019) and in dissertation catalogue records. The Berkeley EECS technical-report server refused connections in this pass, so the report number was not confirmed against the primary index. Coordinates inherited from the atlas's existing Berkeley pin.",
+          "campa": "Technical report UCB/ERL M79/10 comes out of the Electronics Research Laboratory on the twenty-second of February. Its title is a statement of the problem: computer systems established, maintained, and trusted by mutually suspicious groups. Chaum proposes physically secured vaults, each held by a party that trusts none of the others, broadcasting signed transaction records chained one to the next, so that no operator can afterwards rewrite what the group already agreed had happened. It is a way for enemies to keep one ledger. He is twenty-four.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["A. T. Sherman, F. Javani, H. Zhang and E. Golaszewski, 'On the Origins and Variations of Blockchain Technologies', IEEE Security & Privacy (2019), which reassesses the vault design; cross-linked by Chaum himself on chaum.com/publications/"],
+          "sources": ["UCB/ERL M79/10, 22 February 1979", "chaum.com official biography", "Wikipedia, 'David Chaum'"]
+        },
+        {
+          "name": "Berkeley, the mix",
+          "lat": 37.8719,
+          "lng": -122.2585,
+          "date": "1981-02-01",
+          "date_confidence": "Publication attested: Communications of the ACM 24(2):84-90, February 1981, DOI 10.1145/358549.358563. The paper carries no place; the pin is Chaum's institutional base at Berkeley in these years, used as a declared proxy and not as a claim about where the paper was written.",
+          "campa": "Communications of the ACM prints, in its February issue, a paper on hiding who is talking to whom. The construction is a mix: a machine that takes in messages encrypted to it, peels off a layer, reorders them, and sends them out, so that an observer watching both ends of the wire cannot say which output came from which input. Chain several mixes and no one of them knows the whole path. The paper runs from page 84 to page 90. In the same abstract, in a single sentence, he notes that the technique will do for ballots what it does for mail.",
+          "quote": "A technique based on public key cryptography is presented that allows an electronic mail system to hide who a participant communicates with as well as the content of the communication--in spite of an unsecured underlying telecommunication system.",
+          "quote_source": "David L. Chaum, 'Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms', Communications of the ACM 24(2), Feb. 1981, p. 84 (abstract; text extracted from the PDF at chaum.com)",
+          "suggested_refs": ["The CACM offprint hosted at chaum.com/wp-content/uploads/2021/12/chaum-mix.pdf"],
+          "sources": ["Communications of the ACM 24(2):84-90 (1981)", "Wikipedia, 'Mix network'"]
+        },
+        {
+          "name": "Berkeley, the doctorate",
+          "lat": 37.8719,
+          "lng": -122.2585,
+          "date": "1982-06-01",
+          "date_confidence": "Degree and dissertation title attested (chaum.com official biography: 'University of California, Berkeley, doctorate in computer science, 1982'; ProQuest catalogue). Bibliographies disagree on the month, giving April in some records and June in others; the contradiction is left standing and June is used only to order the segment. No defense record or committee report was reachable.",
+          "campa": "The dissertation is the technical report grown to full length, and Berkeley grants the doctorate in computer science for it. Bibliographies disagree about the month, some saying April and some June, and nobody has gone to the university to settle it. Decades later Chaum will host the scan of it on his own website, where anyone can read a 1982 design for distributed record-keeping among parties who assume each other to be hostile, and where his publication list points at the paper that reassesses it. At the time almost nobody reads it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["'Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups', PDF hosted at chaum.com"],
+          "sources": ["chaum.com official biography", "ProQuest dissertation catalogue, via secondary synthesis", "Wikipedia, 'David Chaum'"]
+        },
+        {
+          "name": "Santa Barbara, the signature that cannot read what it signs",
+          "lat": 34.414,
+          "lng": -119.8489,
+          "date": "1982-08-01",
+          "date_confidence": "Attested: presented at CRYPTO '82, published in Advances in Cryptology (1983), pp. 199-203, DOI 10.1007/978-1-4757-0602-4_18. Exact day of the talk not established; August is the conference's fixed month. Coordinates inherited byte-identical from the existing atlas UCSB pin (diffie.journey.json, ralph_merkle.journey.json); note that Wikipedia gives the campus as 34.41639, -119.84639, about 300 metres away, and that the campus is unincorporated county land next to Isla Vista rather than the city of Santa Barbara.",
+          "campa": "At the CRYPTO conference on the Santa Barbara campus he presents a protocol for signing a document you are not permitted to read. The sender seals a message inside a blinding factor; the signer signs the sealed envelope; the sender then divides out the factor and is left holding a valid signature on the original. A bank can mint a coin it will honor and will never recognize again. The construction runs on the RSA trapdoor function published five years earlier by Ron Rivest, Adi Shamir and Leonard Adleman. Chaum takes their signature and teaches it to forget.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["D. Chaum, 'Blind Signatures for Untraceable Payments', in Advances in Cryptology: Proceedings of CRYPTO '82 (Plenum, 1983), pp. 199-203"],
+          "sources": ["Wikipedia, 'Blind signature'", "Wikipedia, 'CRYPTO (conference)'"]
+        },
+        {
+          "name": "Santa Barbara, the association organized against the agency",
+          "lat": 34.414,
+          "lng": -119.8489,
+          "date": "1982-08-02",
+          "date_confidence": "Attested that the IACR was organized at Chaum's initiative at CRYPTO '82 (Wikipedia, 'International Association for Cryptologic Research'; Wikipedia, 'CRYPTO (conference)'), and that CRYPTO '83 was the first conference it sponsored. No exact day is recorded; the date here follows the blind-signature stop only to order the segment. The NSA pressure is Chaum's own later characterization, quoted below.",
+          "campa": "The first CRYPTO met on this campus in 1981; the second meets in 1982 with the National Security Agency pressing to have open cryptography conferences shut down and open cryptography papers classified. At Chaum's initiative the researchers gathered here organize themselves into a professional body, the International Association for Cryptologic Research, with journals, proceedings, elections, and a standing claim that this subject belongs in the open literature. CRYPTO '83 is the first meeting the association sponsors under its own name.",
+          "quote": "At Berkeley I started IACR when the NSA started trying to block conferences on cryptography.",
+          "quote_source": "'Interview with Dijkstra Fellow David Chaum', CWI, 2020",
+          "suggested_refs": ["IACR founding documents and early bylaws, iacr.org"],
+          "sources": ["Wikipedia, 'International Association for Cryptologic Research'", "Wikipedia, 'CRYPTO (conference)'", "CWI 2020 interview with David Chaum"]
+        },
+        {
+          "name": "Berkeley, the patent filed",
+          "lat": 37.8719,
+          "lng": -122.2585,
+          "date": "1983-08-22",
+          "date_confidence": "Attested from Google Patents record US4759063A, fetched: filing date and priority date both 22 August 1983, granted 19 July 1988, inventor David L. Chaum, no original assignee. Note that the research dossier's chronology gave the filing year as 1985, contradicting its own afterlife section; the 1983 date from the patent record is used and the contradiction is recorded rather than smoothed. No source records where Chaum was living or signing when the application went in; the pin is his last attested institution and is a declared proxy.",
+          "campa": "Blind signature systems, filed the twenty-second of August, inventor David L. Chaum, no assignee named. The application claims the envelope protocol he presented at Santa Barbara the year before. The Patent Office will grant it as 4,759,063 on the nineteenth of July 1988, five years later, by which time he is running a research group in Amsterdam and the patent has become the legal spine of a company that does not yet exist. Where he signed the papers is not recorded in anything reachable.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["US Patent 4,759,063, 'Blind signature systems', Google Patents record US4759063A"],
+          "sources": ["Google Patents, US4759063A (fetched)"]
+        }
+      ]
+    },
+    {
+      "name": "New York, Amsterdam, and the Untraceable Decade",
+      "stops": [
+        {
+          "name": "Trinity Place, teaching bankers downtown",
+          "lat": 40.7079,
+          "lng": -74.0126,
+          "date": "1984-01-01",
+          "date_confidence": "Attested that he taught at NYU's Graduate School of Business Administration (chaum.com official biography: 'Taught at NYU Graduate School of Business'); no years are given by any source reached, and the 1984 date is an ordering placement. Coordinates corrected: the dossier pinned Washington Square (40.7295, -73.9965), which in the 1980s held the undergraduate business college. The graduate school sat downtown at 100 Trinity Place until the Kaufman Management Center opened on Washington Square in 1992 (Wikipedia, 'New York University Stern School of Business'), so the pin is moved about four kilometres to 40.7079, -74.0126.",
+          "campa": "He teaches at New York University's Graduate School of Business Administration, which in these years is not on Washington Square but downtown on Trinity Place, in the financial district, a few streets from the exchanges. Leonard Stern's gift and the move uptown are still years off. Nobody has recorded what he taught them, or in what years, or how long he stayed. The cryptographer who has just invented untraceable money spends a season lecturing to future bankers, within walking distance of the institutions whose ledgers his protocol is designed to blind.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["NYU Graduate School of Business Administration course bulletins for the 1980s, held at 100 Trinity Place, unexamined"],
+          "sources": ["chaum.com official biography (fetched)", "Wikipedia, 'New York University Stern School of Business'"]
+        },
+        {
+          "name": "Kruislaan, the cryptography group founded",
+          "lat": 52.3563,
+          "lng": 4.9528,
+          "date": "1984-06-01",
+          "date_confidence": "Attested that Chaum founded and led a cryptography research group at CWI, Amsterdam, from the 1980s (chaum.com biography; Wikipedia, 'Centrum Wiskunde & Informatica', which records DigiCash as a 1990 CWI spinoff). No founding date is published; 1984 is an ordering placement. Coordinates inherited byte-identical from the atlas's existing CWI Kruislaan 413 pin (guido_van_rossum.journey.json).",
+          "campa": "He founds a cryptography group at the Centrum Wiskunde en Informatica and settles in to run it. The institute is Dutch national mathematics, endowed and patient, and it gives him what no American computer science department in 1984 would: a decade to work on protocols with no market and no customer. Out of this group will come the dining cryptographers, group signatures, undeniable signatures, and the company that turns a blind signature into money you can spend. The building is on Kruislaan, at the eastern edge of the city.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["CWI annual reports for the 1980s, Kruislaan 413, Amsterdam"],
+          "sources": ["chaum.com official biography (fetched)", "Wikipedia, 'Centrum Wiskunde & Informatica'"]
+        },
+        {
+          "name": "Kruislaan, security without identification",
+          "lat": 52.3563,
+          "lng": 4.9528,
+          "date": "1985-01-01",
+          "date_confidence": "Publication attested: Communications of the ACM 28(10):1030-1044, 1985; full text hosted at chaum.com/security-without-identification/ and fetched. The paper carries no place; the pin is his CWI group, a declared proxy. Month defaults to 01 because the issue month was not confirmed at source.",
+          "campa": "Communications of the ACM prints his manifesto under a subtitle that names the enemy: transaction systems to make Big Brother obsolete. The argument is that identification is the wrong primitive. An organization needs to know that you are entitled to the thing, not who you are. Give each relationship its own pseudonym, carry the credentials on a card computer you hold rather than on a file the organization holds, and the dossiers cannot be joined against you. He writes it as an engineering proposal, with diagrams, in the field's flagship magazine.",
+          "quote": "Computerization is robbing individuals of the ability to monitor and control the ways information about them is used.",
+          "quote_source": "David Chaum, 'Security Without Identification: Transaction Systems to Make Big Brother Obsolete', Communications of the ACM 28(10), 1985, opening of the abstract",
+          "suggested_refs": ["The full text at chaum.com/security-without-identification/, whose surveillance passage reads: 'New and more serious dangers derive from computerized pattern recognition techniques: even a small group using these and tapping into data gathered in everyday consumer transactions could secretly conduct mass surveillance, inferring individuals' lifestyles, activities, and associations.'"],
+          "sources": ["Communications of the ACM 28(10):1030-1044 (1985), text at chaum.com (fetched)"]
+        },
+        {
+          "name": "Amsterdam, the proceedings between covers",
+          "lat": 52.3676,
+          "lng": 4.9041,
+          "date": "1987-01-01",
+          "date_confidence": "Reconstruction. The dossier's bibliography lists Chaum and W. L. Price as editors of the EUROCRYPT '87 proceedings (Springer, 1988) and places the conference in Amsterdam; a Wikipedia page for EUROCRYPT '87 returned 404, so the host city was not independently confirmed this pass. Coordinates are the Amsterdam city pin used elsewhere in the atlas, not a venue. Month is an ordering default.",
+          "campa": "With W. L. Price he edits the proceedings of EUROCRYPT '87, the European counterpart of the Santa Barbara meeting, held this year in Amsterdam; Springer publishes the volume the following year. Five years after the researchers on a California campus organized themselves into an association, the field has refereed venues on two continents, and one of the men who built both of them is doing the unglamorous work of getting other people's papers into print on time. That the conference met in Amsterdam is what the bibliography says; nothing reachable confirms it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["D. Chaum and W. L. Price, eds., Advances in Cryptology: EUROCRYPT '87 (Springer, 1988)"],
+          "sources": ["Dossier bibliography, via secondary synthesis; host city unconfirmed"]
+        },
+        {
+          "name": "Kruislaan, the dining cryptographers",
+          "lat": 52.3563,
+          "lng": 4.9528,
+          "date": "1988-01-01",
+          "date_confidence": "Publication attested: Journal of Cryptology 1(1):65-75, 1988. Wikipedia, 'Dining cryptographers problem', records that Chaum first thought about the problem in the early 1980s, so the concept precedes the paper by years; the stop is dated to the publication. The paper carries no place; the pin is his CWI group.",
+          "campa": "Three cryptographers finish dinner and the waiter tells them the bill is already paid. Either one of the three paid it or the National Security Agency did, and they want to know which without learning who. Chaum publishes the puzzle and its protocol in the first issue of the Journal of Cryptology, and anonymous broadcast acquires a proof instead of a probability. Each pair flips a coin behind a menu; each diner announces whether the two coins he could see agreed, and lies if he is the payer; an odd number of disagreements means one of them paid.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["D. Chaum, 'The Dining Cryptographers Problem: Unconditional Sender and Recipient Untraceability', Journal of Cryptology 1(1):65-75 (1988)"],
+          "sources": ["Journal of Cryptology 1(1):65-75 (1988)", "Wikipedia, 'Dining cryptographers problem'"]
+        },
+        {
+          "name": "Kruislaan, computing with nobody trusted",
+          "lat": 52.3563,
+          "lng": 4.9528,
+          "date": "1988-05-01",
+          "date_confidence": "Paper attested: Chaum, Crepeau and Damgard, 'Multiparty unconditionally secure protocols', STOC 1988. STOC 1988 met in Chicago; the pin here is Chaum's own institute, a declared proxy, because no source reached places him at the symposium. The Test of Time award is dated 2021 from sigact.org/prizes/stoc_tot.html (fetched), which lists winners only from 2021 onward; the dossier's 2018 date, attributed to chaum.com/awards/, is not supported by that page and is recorded as an error rather than silently followed.",
+          "campa": "With Claude Crepeau and Ivan Damgard he proves that several parties can jointly compute any function of their private inputs, with unconditional security, so long as fewer than a third of them cheat. No trusted party is needed anywhere in the construction; the guarantee does not rest on any assumption about how much computing power an adversary can buy. The paper goes to the Symposium on Theory of Computing and becomes one of the founding documents of secure multiparty computation. Thirty-three years later the field gives it a thirty-year award.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["ACM SIGACT STOC 30-Year Test of Time Award, 2021 citation, sigact.org/prizes/stoc_tot.html"],
+          "sources": ["STOC 1988 proceedings", "sigact.org/prizes/stoc_tot.html (fetched)", "chaum.com/awards/ (fetched)"]
+        },
+        {
+          "name": "Santa Barbara, the coin that names a cheat",
+          "lat": 34.414,
+          "lng": -119.8489,
+          "date": "1988-08-01",
+          "date_confidence": "Paper and year attested (Chaum, Fiat and Naor, 'Untraceable Electronic Cash', CRYPTO '88 proceedings; Wikipedia, 'DigiCash'). Venue inferred from CRYPTO's continuity at UCSB since 1981 rather than confirmed for this specific year. Coordinates inherited byte-identical from the atlas's existing UCSB pin; see the CRYPTO '82 stop for the coordinate discrepancy with Wikipedia.",
+          "campa": "A blind signature makes a coin the bank cannot trace, and a coin the bank cannot trace can be spent twice. With Amos Fiat and Moni Naor he closes the hole without putting the bank back on the wire for every purchase. Each coin carries encrypted shares of the spender's identity; one spend reveals nothing at all, while a second spend hands the bank two shares that combine into a name. Honesty stays anonymous. Fraud identifies itself. The shop's terminal no longer has to telephone anyone to be safe.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["D. Chaum, A. Fiat and M. Naor, 'Untraceable Electronic Cash', CRYPTO '88"],
+          "sources": ["CRYPTO '88 proceedings", "Wikipedia, 'DigiCash'"]
+        },
+        {
+          "name": "Santa Barbara, the signature you cannot check alone",
+          "lat": 34.414,
+          "lng": -119.8489,
+          "date": "1989-08-01",
+          "date_confidence": "Attested: Chaum and van Antwerpen, 'Undeniable Signatures', CRYPTO '89 (Wikipedia, 'Undeniable signature', confirms authorship, year and proceedings). Venue again inferred from CRYPTO's continuity at UCSB, not confirmed for this specific year in any source reached. Coordinates inherited from the atlas's existing UCSB pin.",
+          "campa": "With Hans van Antwerpen he presents a signature that cannot be checked behind the signer's back. Verification requires the signer to run a protocol with you; if he refuses, a disavowal protocol establishes whether the refusal is honest or whether he signed and is lying about it. An ordinary signature is a thing anyone can carry off and show to anyone else. This one binds the signer without publishing him. He reads it at CRYPTO, on the campus where he presented the blind signature seven years earlier.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["D. Chaum and H. van Antwerpen, 'Undeniable Signatures', CRYPTO '89"],
+          "sources": ["CRYPTO '89 proceedings", "Wikipedia, 'Undeniable signature'"]
+        }
+      ]
+    },
+    {
+      "name": "DigiCash: the Coin the Bank Cannot Recognize",
+      "stops": [
+        {
+          "name": "Amsterdam, the company founded",
+          "lat": 52.3676,
+          "lng": 4.9041,
+          "date": "1989-01-01",
+          "date_confidence": "Sources contradict and the contradiction is left standing: Wikipedia, 'DigiCash', dates the founding to 1989; chaum.com's own biography says 1990; Wikipedia's CWI article treats DigiCash as a 1990 spinoff of the institute. 1989 is used to order the segment, not to settle the question. No street address for the Amsterdam office was recoverable; coordinates are the Amsterdam city pin used elsewhere in the atlas.",
+          "campa": "He spins the work out of the institute into a company on Amsterdam ground: DigiCash, formed to license his blind signature to banks as payment software. The sources disagree about the founding year, some saying 1989 and some 1990, and the disagreement is not settled here. The pitch to a bank is that it can issue money its own customers spend without the bank learning where. The pitch to a customer is that cash on a wire can behave the way cash in a pocket behaves, which is to say it can behave like nobody's business. The product is called eCash.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Dutch chamber of commerce registration for DigiCash BV, Amsterdam, unexamined"],
+          "sources": ["Wikipedia, 'DigiCash'", "chaum.com official biography (fetched)"]
+        },
+        {
+          "name": "Amsterdam, Nick Szabo at the company",
+          "lat": 52.3676,
+          "lng": 4.9041,
+          "date": "1990-01-01",
+          "date_confidence": "Attested that Szabo worked at DigiCash in Amsterdam on the eCash project during the 1990s, with Chaum as founder and inventor; the atlas's own nick_szabo.journey.json cautions that no primary DigiCash document names him and gives no exact start or end year, and dates its stop 1990 as a default placement inside the attested span. Coordinates inherited byte-identical from that file's Amsterdam pin.",
+          "campa": "Among the people who pass through the Amsterdam company in these years is Nick Szabo, working on the eCash product built from the blind signature. He is there, in the office of the man who invented the protocol, at the moment when digital money stops being a paper in a proceedings and becomes something with a build schedule and a shipping date. He will spend the next three decades writing about what money actually is. No surviving company document names him, and no start or end date is on record.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["DigiCash personnel records, not known to survive in any public archive"],
+          "sources": ["nick_szabo.journey.json, stops 'Amsterdam, the company of David Chaum' and 'Amsterdam, the blind signature'"]
+        },
+        {
+          "name": "Kruislaan, the group signature and its door",
+          "lat": 52.3563,
+          "lng": 4.9528,
+          "date": "1991-04-01",
+          "date_confidence": "Attested: Chaum and van Heyst, 'Group Signatures', EUROCRYPT '91 proceedings. No source reached names the conference's host city, so no venue pin is claimed; the coordinates are Chaum's own CWI group, a declared proxy. Month is an ordering default.",
+          "campa": "With Eugene van Heyst he publishes group signatures. Any member of a group can sign on the group's behalf; a verifier learns only that some member signed; and a designated authority can open the signature afterwards and name the signer. It is anonymity with a door in it, and the door is held by somebody. No source reached names the city where the paper was read. It goes out while the company across town is trying to sell banks a coin with no door in it at all.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["D. Chaum and E. van Heyst, 'Group Signatures', EUROCRYPT '91"],
+          "sources": ["EUROCRYPT '91 proceedings, via secondary synthesis"]
+        },
+        {
+          "name": "Amsterdam, the first payment over the wire",
+          "lat": 52.3676,
+          "lng": 4.9041,
+          "date": "1994-05-27",
+          "date_confidence": "Reconstruction. The date and the claim come from a contemporary DigiCash company announcement preserved in EFF digital-money archive material, relayed through secondary synthesis; the release itself was not fetched this pass. The claim is the company's own and is the kind of first that depends on how the category is defined.",
+          "campa": "On the twenty-seventh of May the team completes what the company announces to the world as the first payment ever made in electronic cash over a computer network. The claim is DigiCash's own and it is the sort of first that depends on where you draw the category. What is not in dispute is that a token minted by an issuer, blinded so the issuer could not recognize it coming back, moved between two machines and was honored. The public web is about eighteen months old outside the universities.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["DigiCash press announcements preserved in the EFF digital-money archive"],
+          "sources": ["Contemporary DigiCash announcement via EFF archive material, secondary synthesis"]
+        },
+        {
+          "name": "Amsterdam, a million dollars given away",
+          "lat": 52.3676,
+          "lng": 4.9041,
+          "date": "1994-10-01",
+          "date_confidence": "Attested that the 1994 public trial distributed about one million dollars in demonstration tokens called CyberBucks (Wikipedia, 'DigiCash'). No month is recorded; October is an ordering default within the attested year. The merchant and shop counts given here are the figures for the trial economy as reported in the same secondary chain and are not independently confirmed.",
+          "campa": "The company gives its money away to prove the money works. A public trial hands out about one million dollars in demonstration tokens, called CyberBucks, to anybody online who asks for an account. It is the first time a general public anywhere handles cryptographic money, and it happens as a giveaway rather than as a currency. The tokens are convertible into nothing and are traded anyway, which is the demonstration. A small economy assembles itself on top of them: shareware, cartoons, back issues, jokes, novelty.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Contemporary CyberBucks shop directories archived in the EFF digital-money collection"],
+          "sources": ["Wikipedia, 'DigiCash'"]
+        },
+        {
+          "name": "St. Louis, the only American bank",
+          "lat": 38.627,
+          "lng": -90.1994,
+          "date": "1995-10-01",
+          "date_confidence": "Deployment attested (Wikipedia, 'Ecash': only one bank, the Mark Twain bank in Saint Louis, implemented ecash; Wikipedia, 'DigiCash', dates it 1995). Month is an ordering default. No source places Chaum himself in Missouri at any point, so his physical presence here is not claimed: the stop is the arrival of his instrument, not of the man. The European IT prize figure of $250,000 comes from Chaum's own awards archive.",
+          "campa": "Mark Twain Bank of St. Louis becomes the first and the only bank in the United States to issue eCash as real money, dollars in and dollars out, aimed at the small payments the card networks cannot serve at a profit. The same year the European Information Technology prize goes to him and to the company, a quarter of a million dollars for work the market has not bought. Chaum is in Amsterdam throughout; no account puts him in Missouri. Some five thousand customers and three hundred merchants sign up across the life of the trial.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Mark Twain Bank eCash customer documentation, 1995-1998, archived in the EFF digital-money collection"],
+          "sources": ["Wikipedia, 'Ecash'", "Wikipedia, 'DigiCash'", "Wikipedia, 'David Chaum' (1995 Information Technology European Award)"]
+        },
+        {
+          "name": "Palo Alto, the chief executive brought in over him",
+          "lat": 37.4419,
+          "lng": -122.143,
+          "date": "1997-04-28",
+          "date_confidence": "Reconstruction. The dossier cites a DigiCash company release of 28 April 1997 for the investment, the Palo Alto headquarters, Negroponte as chairman and Nash as chief executive; the release could not be located or fetched this pass, nor could contemporary press coverage confirming it. Coordinates are downtown Palo Alto, not a confirmed office address.",
+          "campa": "A company release announces outside investment, a headquarters in Palo Alto, Nicholas Negroponte of the MIT Media Lab as chairman, and Michael Nash, out of American Express and Visa, as chief executive. Chaum becomes chief technology officer of the company he founded, which is the standard remedy applied to a technically formidable founder who will not close deals, and it is applied late. The men brought in over him come out of the card networks, which are the businesses his instrument was designed to make unnecessary. The company has about eighteen months left.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["DigiCash press release of 28 April 1997, EFF digital-money archive; not located in this pass"],
+          "sources": ["Contemporary DigiCash release via secondary synthesis, unverified"]
+        },
+        {
+          "name": "St. Louis, the card issuer closes the trial",
+          "lat": 38.627,
+          "lng": -90.1994,
+          "date": "1998-01-01",
+          "date_confidence": "Attested that the trial ended in 1998, one year after Mercantile Bancorporation, a large credit-card issuer, purchased Mark Twain Bank (Wikipedia, 'Ecash'). No month is recorded in any source reached; the dossier's 'September 1998' could not be supported and the ISO date defaults to 01-01. The credit-card motive is Wikipedia's framing of the closure, not an independently documented board decision.",
+          "campa": "Mercantile Bancorporation of St. Louis, a large issuer of credit cards, has bought Mark Twain Bank, and a year after the purchase it shuts the eCash trial down. The reason carried in the accounts is the acquirer's own business: an institution that earns its money on card interchange and on knowing what its customers buy has no use for an instrument built to be private, cheap and unlogged. That framing is Wikipedia's, not a documented board decision. The only American deployment of untraceable digital cash had run three years.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Wired's contemporary reporting on the end of the Mark Twain trial, cited in secondary chronologies; not re-fetched in this pass"],
+          "sources": ["Wikipedia, 'Ecash'", "Wikipedia, 'DigiCash'"]
+        },
+        {
+          "name": "California, Chapter 11",
+          "lat": 37.4419,
+          "lng": -122.143,
+          "date": "1998-11-01",
+          "date_confidence": "Attested that DigiCash filed for Chapter 11 in California in 1998, with contemporary Wired reporting putting the debt near four million dollars and Wikipedia recording roughly 5,000 users and 300 merchants (Wikipedia, 'DigiCash'; Wikipedia, 'Ecash'). The specific filing court and city were not found in any source reached; coordinates reuse the Palo Alto headquarters pin as a declared proxy.",
+          "campa": "The company files for Chapter 11 protection in California, carrying something close to four million dollars of debt. Nine years of work; five thousand users; three hundred merchants; one bank. Julie Pitta will write the postmortem for Forbes the following year, under the title Requiem for a Bright Idea. Her account of the failure is not that the cryptography was wrong. It is that the founder would not let go: not of the licensing, not of the terms, not of who was allowed to touch the thing at all.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Julie Pitta, 'Requiem for a Bright Idea', Forbes, 1 November 1999, the principal corporate postmortem"],
+          "sources": ["Wikipedia, 'DigiCash'", "Wikipedia, 'Ecash'", "Julie Pitta, Forbes, 1 November 1999, via secondary bibliography"]
+        },
+        {
+          "name": "Palo Alto, the interview after the collapse",
+          "lat": 37.4419,
+          "lng": -122.143,
+          "date": "1999-07-05",
+          "date_confidence": "Publication metadata attested via firstmonday.org: Jens-Ingo Brodesser, 'First Monday Interviews: David Chaum', First Monday, dated 5 July 1999 by the journal's citation page; the article's own volume numbering appears as 4(7) in some records and 4(8) in others, and that discrepancy is left standing. The interview was conducted remotely and carries no place; the pin is the company's last headquarters city, a declared proxy.",
+          "campa": "An interviewer for the online journal First Monday asks him to confirm the bankruptcy. He confirms it flatly, in one line, and then explains what he thinks happened: consumer electronic commerce hardly existed while the company was trying to build momentum, and a payment system with no merchants is worth nothing to shoppers while a payment system with no shoppers is worth nothing to merchants. He is not bitter in the transcript. He says the old distinction between money and payment systems is fading.",
+          "quote": "Yes, unfortunately that's true. There are different kinds of bankruptcy. This one is a Chapter 11 Reorganization here in California.",
+          "quote_source": "'First Monday Interviews: David Chaum', First Monday vol. 4 (1999)",
+          "suggested_refs": ["The full interview at firstmonday.org, including: 'Digital cash as I've developed it is actually better than paper money in the physical world because of the way it solves the privacy problem and at the same time attenuates the possibility for criminal use.'"],
+          "sources": ["First Monday, 'First Monday Interviews: David Chaum' (1999)"]
+        },
+        {
+          "name": "Palo Alto, the patents leave his hands",
+          "lat": 37.4419,
+          "lng": -122.143,
+          "date": "1999-12-01",
+          "date_confidence": "Attested that Chaum sold the company and ended his involvement in 1999, that the assets passed to eCash Technologies, and that InfoSpace acquired eCash Technologies on 19 February 2002 (Wikipedia, 'DigiCash'). Month within 1999 is an ordering default. The current assignee of US 4,759,063 is Van Detsan Networks Limited Liability Company per Google Patents (fetched); the dossier's 'Cufer Asset Ltd LLC' is an error and is corrected here.",
+          "campa": "He ends his involvement as the assets and the patents pass to a successor company, eCash Technologies. In February 2002 InfoSpace buys that company in its turn. The blind signature patent travels with the rest of the paper and in due course expires; the assignee listed against it today is Van Detsan Networks, a limited liability company that manufactures nothing and holds rights. The protocol written so that no institution could follow a coin now sits on the books of an institution whose only business is owning things.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Google Patents record US4759063A, assignment history"],
+          "sources": ["Wikipedia, 'DigiCash'", "Google Patents, US4759063A (fetched)"]
+        }
+      ]
+    },
+    {
+      "name": "The Ballot That Cannot Be Sold",
+      "stops": [
+        {
+          "name": "Santa Barbara, a fellow of his own association",
+          "lat": 34.414,
+          "lng": -119.8489,
+          "date": "2004-08-01",
+          "date_confidence": "Attested that Chaum was named an IACR Fellow in 2004, with the citation text taken from iacr.org/fellows/2004/chaum.html (fetched). No ceremony, date or venue is recorded; the pin is UCSB, home of the CRYPTO conference where the association was founded and where its fellows are customarily recognized, used as a declared proxy. August is an ordering default.",
+          "campa": "Twenty-two years after the researchers on this campus organized themselves at his initiative, the association names him a Fellow. No ceremony, date or venue for the honor is recorded. He is by now entirely out of the money business: the patents belong to other people and the company is a line in a bankruptcy docket. What he has taken up instead is the problem his 1981 abstract raised in a single sentence and then left alone for twenty years. The citation is two clauses long, and it covers both halves of what he did, the papers and the institution.",
+          "quote": "For numerous seminal contributions to security and privacy research and for visionary leadership in the role of IACR founder.",
+          "quote_source": "IACR Fellows citation, 2004, iacr.org/fellows/2004/chaum.html",
+          "suggested_refs": ["The IACR Fellows roll, iacr.org/fellows"],
+          "sources": ["iacr.org/fellows/2004/chaum.html (fetched)"]
+        },
+        {
+          "name": "Takoma Park, the ballot torn in two",
+          "lat": 38.9773,
+          "lng": -77.0075,
+          "date": "2007-07-01",
+          "date_confidence": "Punchscan's developers and its 2007 grand prize at the University Voting Systems Competition are attested (Wikipedia, 'Punchscan'), which names Richard Carback, David Chaum, Jeremy Clark, Aleks Essex and Stefan Popoveniuc and does not mention Ron Rivest; the dossier's inclusion of Rivest here is an error, conflated from Scantegrity, and is corrected. SureVote 2001 is attested by its Workshop on Trustworthy Elections paper. Neither Punchscan nor SureVote has an attested place in any source reached; the pin is Takoma Park, where this line of work lands two years later, and is a declared proxy, not a claim that either was built there. Month is an ordering default.",
+          "campa": "The voting work begins in 2001 with SureVote, a code voting scheme presented at a workshop on trustworthy elections, and hardens into Punchscan: a ballot printed in two layers, each of them meaningless on its own, which the voter separates after marking. She keeps one half. It proves her vote was counted and proves nothing whatever about how she voted. Chaum builds it with Richard Carback, Jeremy Clark, Aleks Essex and Stefan Popoveniuc, and it takes the grand prize at the 2007 university voting systems competition.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Punchscan project records and the 2007 VoComp competition results"],
+          "sources": ["Wikipedia, 'Punchscan'", "SureVote: Technical Overview, Workshop on Trustworthy Elections (2001)"]
+        },
+        {
+          "name": "Takoma Park, the invisible ink",
+          "lat": 38.9773,
+          "lng": -77.0075,
+          "date": "2009-11-03",
+          "date_confidence": "Attested: Wikipedia, 'Scantegrity', records the November 2009 Takoma Park municipal election as the first public use of the system, described in contemporary reporting as the first binding governmental election run on end-to-end cryptographic verification. Wikipedia, 'Scantegrity', names Chaum and Ron Rivest with Essex, Carback, Clark, Popoveniuc, Sherman and Vora as the system's authors. The 3 November date is the municipal election day.",
+          "campa": "Takoma Park, a city of some seventeen thousand on the District line, runs its municipal election on Scantegrity II. The ballots look ordinary. Inside each oval a confirmation code is printed in invisible ink, which surfaces when the voter marks the oval with the special pen; she copies the code down, and afterwards checks it against a public bulletin board. If the codes on the board are right, the count is right, and no code tells anybody how she voted. Chaum designed the system with Ron Rivest and six others.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Takoma Park 2009 Scantegrity II audit records and the published bulletin board"],
+          "sources": ["Wikipedia, 'Scantegrity'"]
+        },
+        {
+          "name": "San Francisco, the prize named for the function",
+          "lat": 37.7841,
+          "lng": -122.4013,
+          "date": "2010-01-01",
+          "date_confidence": "Award attested (Wikipedia, 'David Chaum': 2010 RSA Award for Excellence in Mathematics; chaum.com/awards/, fetched). The rsaconference.com award-winners page returned 403 in this pass, so the ceremony's city, venue and date are not confirmed; coordinates are the Moscone Center, the conference's usual San Francisco venue in this era, used as a declared placeholder. Month defaults to 01.",
+          "campa": "The RSA Conference gives him its award for excellence in mathematics. The conference's own record of the ceremony will not open to a reader, so the day and the venue are not established. The prize carries the name of the function his blind signature was built on, and it comes from the company Ron Rivest, Adi Shamir and Leonard Adleman founded on that function. He accepts it in the middle of the voting decade, twelve years after the bankruptcy, with the mix networks he published in 1981 still, for the most part, unbuilt.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["RSA Conference award records for 2010; the conference's own winners page returned 403 in this pass"],
+          "sources": ["Wikipedia, 'David Chaum'", "chaum.com/awards/ (fetched)"]
+        },
+        {
+          "name": "Takoma Park, the second election",
+          "lat": 38.9773,
+          "lng": -77.0075,
+          "date": "2011-11-01",
+          "date_confidence": "Attested: Wikipedia, 'Scantegrity', records that the same technology was used again in the municipality's November 2011 election. The day of the month is not given and the ISO date defaults to 01. The observation about vendors and certification is a characterization of the American election-equipment market, not a claim from any cited document.",
+          "campa": "The town runs Scantegrity again for its November election. Two municipal elections, four years apart, in one small Maryland city: that is the whole record of end-to-end verifiable cryptography in binding American public elections. The system works both times. Nobody scales it. Election administration in the United States buys certified equipment from a handful of vendors, and a protocol that lets a voter check the count herself arrives with no vendor behind it. Who would certify such a thing, and who would sell it, the record does not say.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Takoma Park election records for November 2011"],
+          "sources": ["Wikipedia, 'Scantegrity'"]
+        }
+      ]
+    },
+    {
+      "name": "The Mix Rebuilt",
+      "stops": [
+        {
+          "name": "Kruislaan, the nine padlocks",
+          "lat": 52.3563,
+          "lng": 4.9528,
+          "date": "2016-01-06",
+          "date_confidence": "The cMix paper is attested as IACR ePrint 2016/008, received 6 January 2016, last revised 21 March 2018, and published at ACNS 2017; its current title is 'cMix: Mixing with Minimal Real-Time Asymmetric Cryptographic Operations', the dossier's 'Anonymization by High-Performance Scalable Mixing' being the superseded v1 title. The PrivaTegrity presentation and the nine-server mechanism are reported by Andy Greenberg in Wired, January 2016, tagged R here because wired.com could not be fetched in this pass. Neither the paper nor the talk has an attested place; the pin is Chaum's own institute, a declared proxy, not a claim that he was in Amsterdam.",
+          "campa": "He goes back to the mix. cMix moves the expensive public key operations out of the moment of sending, precomputing them so that traffic in real time costs almost nothing, and the design goes to the cryptology preprint archive on the sixth of January. The application built on it, PrivaTegrity, spreads trust across nine servers in nine jurisdictions and adds a mechanism: if all nine agree, and only if all nine agree, one targeted user's anonymity can be stripped for conduct generally recognized as evil. Cryptographers read that as a backdoor and say so in print.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Andy Greenberg, 'The Father of Online Anonymity Has a Plan to End the Crypto War', Wired, January 2016", "IACR ePrint 2016/008, eprint.iacr.org/2016/008"],
+          "sources": ["IACR ePrint 2016/008 (fetched)", "dblp, ACNS 2017 record", "Andy Greenberg, Wired, January 2016, via secondary bibliography"]
+        },
+        {
+          "name": "Grand Cayman, building against a machine that does not exist",
+          "lat": 19.3133,
+          "lng": -81.2546,
+          "date": "2019-01-01",
+          "date_confidence": "Reconstruction, and weakly sourced. The dossier states that public releases locate part of the Praxxis development in the Cayman Islands; no source confirming this could be fetched this pass, and a Wikipedia page for Elixxir returned 404. Coordinates are George Town, the capital, not a confirmed office. Month defaults to 01.",
+          "campa": "Praxxis, a consensus protocol and currency designed to outlive quantum computers, is developed out of the Cayman Islands, or so the releases say. The design throws out the elliptic curve signatures that every existing cryptocurrency depends on, on the assumption that a machine will one day exist which breaks them. It is the oldest habit in his work: build for the adversary who has not been invented yet. No office and no address in the islands could be confirmed, and the page a reader would go to first returns nothing at all.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Praxxis and Elixxir project releases, 2018-2019; no corporate registry record examined"],
+          "sources": ["Dossier synthesis, unverified; Wikipedia 'Elixxir' returned 404 in this pass"]
+        },
+        {
+          "name": "Osaka, the ancestor at the developer conference",
+          "lat": 34.6913,
+          "lng": 135.4906,
+          "date": "2019-10-01",
+          "date_confidence": "Attested that Chaum spoke at the fifth Ethereum developer conference, held in Japan in 2019 (Wikipedia, 'David Chaum'); devcon.org's past-events page (fetched) identifies Devcon 5 as Osaka, October 2019. The dossier's Tokyo pin was wrong by roughly 400 kilometres and is corrected here to the Osaka International Convention Center. Day of month not established; the ISO date defaults to 01.",
+          "campa": "He speaks at the fifth Ethereum developer conference, held this October in Osaka. The hall is full of people building on public ledgers where every transaction stays visible forever, which is the exact inverse of the property he spent the 1980s making possible, and they receive him as an ancestor. The vocabulary in the room, blind signature, mix, untraceable, pseudonym, digital cash, comes almost entirely out of papers written before most of the audience was born. Bitcoin's white paper does not cite him.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Devcon 5 programme, Osaka International Convention Center, October 2019"],
+          "sources": ["Wikipedia, 'David Chaum'", "devcon.org past events (fetched)"]
+        },
+        {
+          "name": "Kruislaan, the institute claims him back",
+          "lat": 52.3563,
+          "lng": 4.9528,
+          "date": "2019-11-18",
+          "date_confidence": "The Dijkstra Fellowship year is attested as 2019 (Wikipedia, 'David Chaum'; chaum.com/awards/, which lists the title without a year). That Guido van Rossum was made a Dijkstra Fellow in 2019 is independently attested (Wikipedia, 'Guido van Rossum'; guido_van_rossum.journey.json), but no source reached states that the two shared one cycle, so that detail is tagged R. No ceremony date exists in any reachable source; the ISO date is the publication date of the CWI interview quoted here, 18 November 2019. Coordinates inherited byte-identical from the atlas's CWI Kruislaan 413 pin.",
+          "campa": "The institute on Kruislaan names him a Dijkstra Fellow, its highest honorary title, in the same year it names Guido van Rossum; no source reached says the two men shared a ceremony, only the year. Thirty-five years earlier he had founded a cryptography group in this building and got a decade of patience out of it. He sits now for an interview and talks about why he started the association at Santa Barbara, about the agency that tried to close the conferences, about what he thinks encryption is actually for.",
+          "quote": "Proper application of encryption can make communications secure, commerce reliable, and voting trustworthy. I firmly believe that it can make this world a better place.",
+          "quote_source": "David Chaum, CWI interview 'Blockchain will decentralize power', 18 November 2019",
+          "suggested_refs": ["'Interview with Dijkstra Fellow David Chaum', CWI, which carries: 'My motivation is to help cryptography protect, as it uniquely can, human potential as it is unleashed.'"],
+          "sources": ["CWI, 'Blockchain will decentralize power' (18 November 2019)", "Wikipedia, 'David Chaum'", "guido_van_rossum.journey.json"]
+        },
+        {
+          "name": "Grand Cayman, the network with a token",
+          "lat": 19.3133,
+          "lng": -81.2546,
+          "date": "2020-01-01",
+          "date_confidence": "Attested that Chaum founded the xx network in 2020 (Wikipedia, 'David Chaum'). The Cayman pin is inherited from the Praxxis stop and carries the same weak sourcing: no corporate address was confirmed. Month defaults to 01.",
+          "campa": "He folds Elixxir, the messaging network built on cMix, together with Praxxis into one project called the xx network, with a token of its own. The offer is a chat application whose metadata nobody can read, running on a ledger no quantum computer can forge. The company address in the islands is no better confirmed than it was the year before. Forty years have passed since he published the mix, and it has still not been deployed anywhere at the scale the 1981 paper described. He is sixty-five years old and running a token launch.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["xx network technical documentation and token launch materials, 2020"],
+          "sources": ["Wikipedia, 'David Chaum'"]
+        },
+        {
+          "name": "Lugano, the honorary doctorate",
+          "lat": 46.0105,
+          "lng": 8.959,
+          "date": "2021-01-01",
+          "date_confidence": "Attested that the Faculty of Informatics at the Universita della Svizzera italiana awarded Chaum an honorary doctorate in 2021 (Wikipedia, 'David Chaum'; chaum.com/awards/, fetched); usi.ch returned 403, so no ceremony detail could be confirmed and the month defaults to 01. Coordinates corrected to the USI West Campus, Via Giuseppe Buffi 13, at 46.0105, 8.9590 per Italian Wikipedia; the dossier's 46.0037, 8.9511 lands about 900 metres away near the lakefront. The STOC Test of Time award is dated 2021 from sigact.org (fetched).",
+          "campa": "The Faculty of Informatics at the Universita della Svizzera italiana gives him an honorary doctorate; the university's own site will not open to a reader, so nothing of the ceremony is known. The same year the theory community gives the 1988 multiparty paper its thirty-year award. And the same year he publishes, with Mario Larangeira, Mario Yaksetig and William Carter, a scheme for hiding a quantum-resistant fallback key inside an ordinary cryptocurrency wallet, so that a wallet broken open by some future machine still holds one secret its attacker cannot reach.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["D. Chaum, M. Larangeira, M. Yaksetig and W. Carter, 'W-OTS+ Up My Sleeve! A Hidden Secure Fallback for Cryptocurrency Wallets', ACNS 2021"],
+          "sources": ["Wikipedia, 'David Chaum'", "chaum.com/awards/ (fetched)", "sigact.org/prizes/stoc_tot.html (fetched)", "Italian Wikipedia, 'Universita della Svizzera italiana' (coordinates)"]
+        },
+        {
+          "name": "Shibuya, the panel on what privacy will be",
+          "lat": 35.66237,
+          "lng": 139.70836,
+          "date": "2024-07-01",
+          "date_confidence": "Attested: Wikipedia, 'David Chaum', records that in July 2024 Chaum was on a panel on the future of privacy at the Plasmacon conference at the United Nations University in Tokyo, with Vitalik Buterin. Day of month not given; the ISO date defaults to 01. Coordinates corrected to the UNU Tokyo headquarters at 35.66237, 139.70836 per Wikipedia, 'United Nations University'; the dossier's pin was about 900 metres off. VoteXX is IACR ePrint 2022/1212.",
+          "campa": "At the Plasmacon conference, in Kenzo Tange's concrete building in Shibuya, he sits on a panel about the future of privacy alongside Vitalik Buterin, who was born eleven years after the blind signature patent issued. Two years earlier he had put out VoteXX, a scheme against improper influence in verifiable elections, aimed at the one thing the receipts never solved: a voter who can be watched can be bought. He is sixty-nine. The day of the panel is not recorded, only the month.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["'VoteXX: A Solution to Improper Influence in Voter-Verifiable Elections', IACR ePrint 2022/1212"],
+          "sources": ["Wikipedia, 'David Chaum'", "Wikipedia, 'United Nations University'", "IACR ePrint 2022/1212"]
+        }
+      ]
+    }
+  ]
+}
