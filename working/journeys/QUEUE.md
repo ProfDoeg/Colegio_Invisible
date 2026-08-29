@@ -131,7 +131,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Gibran Khalil Gibran** | Lebanese-American poet and artist, author of The Prophet; one of the busts in the Jardín de los Poetas, Palermo, Buenos Aires, alongside taras_shevchenko already queued |
 | 0 | **Julius Evola** | Italian traditionalist philosopher and esotericist, author of Revolt Against the Modern World, associated with Italian and later international fascism; joins the corpus's esoteric-traditionalist wing (rene_guenon already queued) |
 | 0 | **Simon Magus** | Samaritan magus of Acts 8, who tried to buy the power of the Holy Spirit from the apostles (giving 'simony' its name); early Christian heresiology names him as the fountainhead of Gnosticism, paired in legend with Helen of Tyre, a former prostitute he called the reincarnated Helen of Troy; joins the corpus's Gnostic/heresiological wing |
-| 0 | **Apostle Peter** | first among the twelve, crucified upside down in Rome by tradition; direct interlock with apostle_paul just queued (Rome, the early church) |
 
 ## Author additions (2026-08-09)
 
