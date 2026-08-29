@@ -118,7 +118,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 
 | 0 | **Jean Baudrillard** | French sociologist and philosopher of Simulacra and Simulation and hyperreality; joins the corpus's continental-philosophy wing (michel_foucault, gilles_deleuze, felix_guattari already queued) |
-| 0 | **Michèle Bernstein** | French writer and co-founder of the Situationist International, married to guy_debord already done for its first decade; author of the détourned novels Tous les chevaux du roi and La Nuit; direct interlock |
 | 0 | **Olga Fröbe-Kapteyn** | Dutch-Swiss founder of the Eranos conferences at Ascona; lands directly in the existing Monte Verità cluster (ida_hoffmann, engelmann, antoinette_de_saint_leger already done) |
 | 0 | **Henri Oedenkoven** | Belgian-born co-founder of the Monte Verità commune at Ascona in 1900, life partner of ida_hoffmann already done; direct interlock, not invented |
 | 0 | **Mircea Eliade** | Romanian historian of religions, a central figure at the Eranos conferences Olga Fröbe-Kapteyn just queued convened; joins the corpus's comparative-religion and Monte Verità material |
