@@ -118,7 +118,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 
 | 0 | **Jean Baudrillard** | French sociologist and philosopher of Simulacra and Simulation and hyperreality; joins the corpus's continental-philosophy wing (michel_foucault, gilles_deleuze, felix_guattari already queued) |
-| 0 | **Olga Fröbe-Kapteyn** | Dutch-Swiss founder of the Eranos conferences at Ascona; lands directly in the existing Monte Verità cluster (ida_hoffmann, engelmann, antoinette_de_saint_leger already done) |
 | 0 | **Mircea Eliade** | Romanian historian of religions, a central figure at the Eranos conferences Olga Fröbe-Kapteyn just queued convened; joins the corpus's comparative-religion and Monte Verità material |
 | 0 | **Rudolf Ritsema** | Dutch scholar who took over as director of the Eranos Foundation at Ascona after olga_fröbe_kapteyn just queued, co-creator of the Eranos I Ching translation; the same Ascona circle that carries jung and wolfgang_pauli already researched |
 | 0 | **Ioan Petru Culianu** | Romanian historian of religion and student of mircea_eliade just queued, scholar of Renaissance magic and Gnosticism, shot dead unsolved at the University of Chicago in 1991 |
