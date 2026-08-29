@@ -136,7 +136,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Bathyllus of Alexandria** | freedman of Maecenas, founder of the comic style of Roman pantomime under Augustus; his rivalry with Pylades of Cilicia (just queued) split the art into its two schools, the ancient root under the corpus's dance wing (isadora_duncan, laban, mary_wigman already done) |
 | 0 | **Pylades of Cilicia** | founder of the tragic/serious style of Roman pantomime under Augustus, rival of Bathyllus of Alexandria (just queued); their contest defined solo dance-mime as a Roman art form, centuries before the corpus's modern dance wing |
 
 ## Author additions (2026-08-10)
