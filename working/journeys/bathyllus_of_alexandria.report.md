@@ -1,143 +1,163 @@
 # Bathyllus of Alexandria: research report
 
-*Pantomime dancer; slave, freedman and (per Tacitus) beloved of Gaius Cilnius Maecenas; with Pylades of Cilicia the credited maker of the Roman "Italian dance." Floruit c. 23-18 BCE. Birth, birthplace beyond the byname, and death all unrecorded.*
+*Compiled 2026-08-29 for `bathyllus_of_alexandria.journey.json`. Subject: the Augustan pantomime dancer, freedman of Maecenas, credited with Pylades of Cilicia as co-organiser of Roman solo pantomime. Floruit conventionally c. 23-22 BCE; birth and death unrecorded.*
 
-**Legend.** **[A]** = attested in a named ancient source, quoted or fetched. **[R]** = reconstruction, tradition, modern hypothesis, or a claim resting on secondary paraphrase. Contradictions are flagged, not adjudicated.
+**Legend.** **[A]** = attested, primary text located and read this pass · **[R]** = reconstruction, tradition, route inference, or modern hypothesis · *gap* = the record is silent, and the silence is itself the finding.
 
-**Headline caution.** A dozen ancient sentences carry this man, under a very large modern literature. The standard summary ("Alexandrian slave of Maecenas, freed, invented comic pantomime in 22 BCE, feuded with Pylades and got him exiled") contains at least three elements no ancient source supports.
-
----
-
-## 1. Alexandria: origin and formation
-
-- **Alexandrian origin. [A]** Athenaeus 1.20d calls him Bathyllus of Alexandria. This byname is the *entire* documentary basis for his geography before Rome.
-- **Birth date. [R]** None given anywhere. The repeated "mid-first century BCE" is a back-calculation from the floruit; the file's `-0055-01-01` is an ordering device and says so.
-- **Family, status at birth, quarter of the city. [gap]** Nothing. Not a parent, not a deme, not free or unfree.
-- **Training. [R]** No source names a teacher, a school, or a year. Professional training in cheironomia, mask work and mythic narrative is a *necessary inference* from the finished performer presupposed by Athenaeus and Crinagoras. Stated in the confidence field, not staged as a scene.
-- **"In the style of Memphis." [A] as text, [R] as meaning.** Athenaeus 1.20d, citing Seleucus, makes him the first to introduce tragic dancing in the Memphite manner. The grammar and referent of the phrase are disputed among editors and cannot be converted into a journey to Memphis; the Memphis stop pins a word in a text and says so.
-- **Serapeum / sikinnis. [R], openly inferential.** His satyric register connects to the sikinnis, a Dionysiac form, in a city dense with Dionysiac festival culture. No source places him at the Serapeum or any Alexandrian cult site. Kept as marked inference, being the only available account of where the satyric material came from.
-
-**Coordinates corrected this pass.** Kom el-Dikka to **31.1967, 29.9056** (was ~200 m south); its excavated theatre is 4th century CE, four centuries after him, and the stop says so. Serapeum precinct to **31.1825, 29.8964** (Pompey's Pillar plateau; the earlier value sat ~1.7 km north). Origin pin **31.209, 29.911**, inherited from `strabo` and `julius_caesar`.
-
-**Pool misdating, corrected.** The pool called Seleucus and Aristonicus "the earlier commentators" in whose Alexandria his art took shape. Aristonicus of Alexandria is an Augustan-to-Tiberian grammarian working largely at Rome, Bathyllus's contemporary or later. That framing ran backwards in time and is not in the file.
+**The evidence problem.** No text by Bathyllus, no inscription, no portrait, no tomb, no contemporary biography. The dossier is nine or ten passages by other writers, of which exactly **one** (Crinagoras) was written while he was alive, and that one is addressed to somebody else.
 
 ---
 
-## 2. The crossing to Italy
+## 1. Origin and formation: Alexandria
 
-**All [R].** No source records him leaving Egypt, by any route, in any year, in any legal condition. The three stops (Great Harbour, Puteoli, Ostia) follow the documented Alexandria-to-Italy shipping route, and every confidence field says the crossing is inferred from two facts alone: the Alexandrian byname and the Roman career.
+**The byname is the whole of the origin record. [A]** Athenaeus 1.20d-e calls him Bathyllus of Alexandria (*ho Alexandreus*); no source gives a different home city, a parent, a quarter, or a year. **The "mid-first-century BCE" birth in circulation is a modern back-projection from the floruit [R]** and must never be printed as a date.
 
----
+**No teacher, school, or Alexandrian performance is named anywhere. [A as absence]** Checked against Athenaeus, Seneca the Elder, Crinagoras, Persius, Phaedrus. The Bruchion formation staged in the journey file is **[R]**, inferred backward from what the mature art required.
 
-## 3. The household of Maecenas
+### Two Alexandrian stops dropped, and why
 
-- **Enslavement and manumission. [R], NOT [A]. Mis-tag corrected.** The pool tagged the Esquiline stop **[A]** on Tacitus 1.54, which says only that Maecenas "had fallen violently in love with Bathyllus" (*effusus in amorem Bathylli*), never that he entered the household enslaved and never mentioning manumission. Dio 54.17.5 says only "a favourite of Maecenas." The slave-to-freedman sequence, universal in modern scholarship and in Wiseman 2016, is reconstruction. No date, place or instrument for either step.
-- **The love. [A]** Tacitus 1.54. The causal claim, that Augustus indulged the theatre *because of* Maecenas's passion, is Tacitus's own analysis, written under Trajan about a period he never saw.
-- **Auditorium of Maecenas. [R]** The hall at Largo Leopardi is real and fitted for recitation; no source places Bathyllus in it. Wiseman's Cupid / Omphale / Ganymede proposals, built from the anonymous *Elegia in Maecenatem*, are labelled reconstruction in the stop.
-- **Gaius Theoros. [R], unresolved.** The proposal that his civil name was Gaius Theoros rests on CIL VI 10115 = ILS 5197, where the pantomime Theoros lists four defeated rivals (Pylades of Cilicia, Nomius of Syria, Pierus of Tibur, Hylas of Salmacis) and does *not* list Bathyllus, plus a second stone calling a performer Sophe *Theorobathylliana*. **No inscription equates the names.** Epigraphic texts not pulled this pass.
-- **The name itself. [A] facts, [R] inference.** Anacreon's beloved Bathyllus of Samos is sixth century BCE, recalled by Horace, *Epodes* 14.9-10; five centuries separate the two men, and the file flags the homonym trap. That imperial pantomimes bore names lifted from the poets is a modern observation (chiefly Edith Hall's, not consulted directly), and no source says whether he was given the name or took it.
+Both sat in the geography pool and both were struck by verification. Recorded, not performed silently:
 
----
+1. **Serapeum (proposed 31.1785 / 29.8875).** Coordinates missed the Pompey's Pillar plateau by roughly 900 m (the site is c. 31.1824 / 29.8964), and the philological basis, Athenaeus's "Memphite" language read as Egyptian temple dance, does not survive inspection.
+2. **Memphis (29.845 / 31.25).** Coordinates correct, claim not. At Athenaeus 1.20c-d the immediately preceding context is a performer **nicknamed** Memphis, whose movement was likened to the city; the phrase at 20d most naturally names that dancer's manner, not Egyptian cult. A known homonym trap, not a live minority reading. Recast as a textual crux at his Alexandria pin (journey stop 3): the problem is in the transmitted text, not in his itinerary. No source says he ever went to Memphis.
 
-## 4. The art: the "Italian dance"
+### Contradiction flagged, not resolved: which genre was his?
 
-- **Joint synthesis. [A], undated.** Athenaeus 1.20e, citing Aristonicus, credits Bathyllus *together with* Pylades with developing the Italian style out of the comic *kordax*, the tragic *emmeleia* and the satyric *sikinnis*. **Athenaeus gives no year whatsoever.**
-- **The only ancient date. [A], and it is not his.** Jerome's continuation of Eusebius, Ol. 189.3 = Abr. 1995 = **22 BCE**, which the pool flagged unlocatable and which was located: "Pylades of Cilicia, a performer of mimes, was the first to have a chorus and piper to perform for him, when his predecessor had sung and danced for themselves." Two corrections to how it is cited: it names **Pylades alone**, Bathyllus not at all; and it does **not** say the dancer performed silently, only that the chorus and piper performed *for* him.
-- **Contradiction flagged, not resolved.** The joint credit ([A], Athenaeus, undated) and the 22 BCE date ([A], Jerome, Pylades only) come from sources that do not overlap and are routinely merged into one dated event. The file keeps them in separate stops and both confidence fields forbid the merger.
-- **Marcellus's games, 23 BCE. [R]** Some scholarship ties the form's public establishment to games for Marcellus, who died that year. His death is secure; the connection to Bathyllus or Pylades is attested nowhere, and sits a year off Jerome.
-- **The treatise is Pylades's. [A]** Athenaeus 1.20e attributes *Peri orcheseos* to Pylades; a recurring modern error transfers it. **No work by Bathyllus survives and none is attested as ever existing**, so there can be no edition of him, only of the authors who mention him.
+- Seneca the Elder, *Controversiae* 3 praef. 10 **[A, Latin read]**: *Pylades in comoedia, Bathyllus in tragoedia multum a se aberrant.* The verb means **they fall far short of themselves**, not, as the pool glossed it, that they excelled outside their register. Read correctly it assigns **comedy to Bathyllus, tragedy to Pylades**.
+- Athenaeus 1.20d **[A]**, in the same passage: "the first to introduce this 'tragic dancing,' as it was called, in the style of Memphis, was Bathyllus of Alexandria," while elsewhere calling his manner the **jollier** of the two.
+
+The binary therefore rests on **one preface**, and the fullest ancient notice contradicts it inside its own sentence. Journey stop 15 states the tension rather than choosing. "Bathyllus, founder of the comic style" is a scholarly reconstruction, not an ancient consensus.
 
 ---
 
-## 5. Register, repertory, reputation
+## 2. The crossing and the household
 
-**The contradiction inside the key witness. [A] on both sides, unresolved.** The pool smoothed this over. Athenaeus **1.20d** (citing Seleucus) makes Bathyllus *the first to introduce tragic dancing, in the style of Memphis*. Athenaeus **1.20e**, a few lines later: "Pylades' dancing was solemn, expressing passion and variety of character; Bathyllus' was more jolly; in fact he composed a kind of hyporcheme." One short passage makes him both the importer of tragic dance and the lighter of the two; editors have not settled it. **The clean comic-Bathyllus / tragic-Pylades split repeated everywhere is contradicted by the very text cited for it.**
+**Route: entirely [R].** No source narrates the voyage, its date, or whether he crossed already enslaved. Only the sequence, Alexandria first and Rome after, is attested. The file stages Great Harbour, Puteoli, Porta Capena as **explicitly labelled route inference** in each `date_confidence`: Puteoli as the best-attested Alexandria-to-Italy corridor (Seneca, *Ep.* 77.1), Porta Capena as where the southern road enters the city. **No ancient text places Bathyllus at either.**
 
-- **Seneca the Elder on specialisation. [A], Latin verified.** *Controversiae* 3 pref. 10: "Pylades in comoedia, Bathyllus in tragoedia multum a se aberrant." The pool could not reach this (LacusCurtius 404s); verified at thelatinlibrary.com. It is *itself* in tension with Athenaeus 1.20d, left standing.
-- **Cestius's boast. [A], verbatim, and the pool was missing its punchline.** *Controversiae* 3 pref. 16, at la.wikisource.org: "si Thraex essem, Fusius essem; si pantomimus essem, Bathyllus essem; si equus, Melissio." The pool omitted the cap, Cassius Severus's "si cloaca esses, maxima esses!", which makes the passage mockery of Cestius rather than endorsement of Bathyllus. The file carries both.
-- **Crinagoras, the one contemporary witness to a production. [A]** *Greek Anthology* 9.542 = Gow-Page 39, telling the singer Philonides to write for four parts or more, since neither his singing nor "the motions of Bathyllus' hands" will lack grace. No internal date, but Crinagoras's career is independently fixed (Rome 48/47 and 45 BCE, Tarragona 26/25 BCE, alive to at least 11 CE), placing it inside the floruit. The only text showing the working unit: composer, singer, silent dancer.
-- **"The Satyr of Bathyllus." [A], his only named piece.** Persius 5.122-123, writing under Nero eighty years later and expecting recognition. Nothing survives of when it was made, where danced, or what it depicted.
-- **Princeps the flute player. [A], upgraded from the pool's [R].** Phaedrus 5.7 (thelatinlibrary.com): "Princeps tibicen notior paulo fuit, / operam Bathyllo solitus in scaena dare." The fable confirms the pool's summary (fall from the machinery, broken leg, return, the misheard chorus). **The pun the pool missed:** the song is for the emperor, *princeps*, not the flute-player. **Geography corrected:** the pool's coordinate silently gave the anecdote to the Theatre of Pompey; Phaedrus names no venue, and the confidence field says so.
+**Enslaved to Maecenas, later manumitted by him. [A as sequence; gap as to date]** The tradition standing behind Tacitus and Dio; Wiseman (2016) states it as "slave, freedman and lover." No manumission record, year, or form survives. **"Gaius Cilnius Bathyllus" is modern [R]**, an extrapolation from freedman naming convention that no ancient text gives; the campa says so, and says nobody ever calls him that.
 
----
+**Tacitus, *Annals* 1.54. [A, Latin and Loeb English both read]** *indulserat ei ludicro Augustus, dum Maecenati obtemperat effuso in amorem Bathylli.* The clause sits inside Tacitus's account of the first Augustal Games of 14 CE and explains the *earlier* Augustan indulgence of the theatre. Tacitus wrote roughly 130 years after. **Cassius Dio 54.17.5 [A]** corroborates independently: "a fellow-artist and a favourite of Maecenas." **Gap:** neither gives the chronology relative to enslavement or manumission, Bathyllus's age, or anything resembling terms of consent.
 
-## 6. The quarrel with Pylades
+### Contradiction flagged: where were the horti Maecenatis?
 
-- **The exchange. [A]** Dio 54.17.4-5: Augustus rebukes Pylades "for having quarrelled with Bathyllus, a fellow-artist, and a favourite of Maecenas," and Pylades answers, "It is to your advantage, Caesar, that the people should devote their spare time to us." Dio writes two centuries later; no verbatim value.
-- **Date corrected to 18 BCE. [A] by narrative sequence.** The pool and the literature say "the 20s BCE." Dio 54 carries the consular heading for 19 BCE at ch. 10 and the next, for 17 BCE, at ch. 18, so ch. 17 sits in the narrative for **18 BCE**. `hylas.journey.json` reached this independently.
-- **Sequence corrected.** Dio reports the recall from exile **first** and the exchange **after**, and never dates one relative to the other. The pool's "before the recall of Pylades" inverts the only ordering given.
-- **The exile. [R], NOT [A]. Second mis-tag corrected.** The pool tagged **[A]** a stop asserting that the feud led to Pylades's expulsion. Neither cited source attests that chain. Suetonius *Aug.* 45 attributes the expulsion to Pylades pointing out a hissing spectator; **Bathyllus is not mentioned**. Dio 54.17.4 attributes an *earlier* exile to "sedition," also without Bathyllus. The pool's own note conceded the two may be different episodes, which is incompatible with [A] on the merged narrative.
-- **Documented asymmetry. [A] as absence.** Suetonius *Aug.* 45 gives three punishments in one breath: Hylas flogged in his own atrium, Stephanio whipped through all three theatres and banished, Pylades expelled from Italy. **No source records any punishment, exile, fine or reprimand of Bathyllus, ever.** Silence in the record, not proof he was never disciplined.
-- **Source conflict, flagged not resolved.** Dio puts Bathyllus opposite Pylades. Macrobius, *Saturnalia* 2.7.19, attaches a reply of the same kind to a rivalry between Pylades and his own pupil **Hylas**, in different Greek, with Bathyllus absent. Both cannot report one event. `hylas.journey.json` reads the conflict from the other side; Bathyllus's file cross-references rather than re-litigating.
+The pool cited **Wiseman, "Maecenas and the Stage," PBSR 84 (2016), 131-155** for the private-theatre reconstruction, then attached coordinates from the traditional "Auditorium of Maecenas" at Largo Leopardi (41.8939 / 12.5014 in the geography lens, 41.8927 / 12.4964 in the afterlife lens, the two disagreeing). That is self-undermining: Wiseman's abstract states that "some very long-standing beliefs about the location and nature of the *horti Maecenatiani* are shown to be unfounded," and places the gardens on the **eastern slope of the mons Oppius**.
+
+**Resolution adopted, declared rather than hidden:** one pin, `41.8946 / 12.5013` (Largo Leopardi), across all four Esquiline stops, with each `date_confidence` naming Wiseman's dissent. He is cited for the theatre argument and the "slave, freedman and lover" formula, **not** for the coordinates. If the operator prefers his topography, the four stops move together and no campa needs rewriting.
 
 ---
 
-## 7. Death, and the absence of one
+## 3. The public career
 
-- **No death date, place, cause, retirement, final performance, will or property. [gap]** The silence holds across every primary text reached, plus Smith's *Dictionary* and en.wikipedia.org/wiki/Bathyllus.
-- **Maecenas dies 8 BCE. [A] as to Maecenas, [gap] as to Bathyllus.** The date is secure. **No source states whether Bathyllus was alive, present, an heir, or affected at all.** Given its own stop so the gap is visible.
-- **No tomb, no portrait, no monument. [A] as absence.** The only ancient stone bearing the name is a grave stele at Verona for **Gaius Silius Bathyllus**, of an Athenian theatrical family, mid-second century CE, Museo Lapidario Maffei; theatrum.de treats him as a distinct "Bathyllus III." **He is not this man.** Per the rule that a stop belongs to whoever was actually there, the stele is cited in `suggested_refs` on his own "no death, no tomb" stop, not staged as a scene.
-- **The 14 and 15 CE riots. [A], and not about him.** Tacitus *Annals* 1.54 (factional disorder at the first Augustalia after Augustus's death) and 1.77 (a worse riot killing several soldiers and a centurion, prompting the Senate to bar senators from actors' houses). **No source places Bathyllus at either**, in either direction.
+**The synthesis. [A, upgraded from R by retrieving the passage verbatim]** Athenaeus 1.20e, Gulick's Loeb: "Aristonicus says that this Bathyllus, together with Pylades, who wrote a treatise on dancing, developed the Italian style of dance out of the comic fling called the cordax, the tragic measures called emmeleia, and the satyr rout called sicinnis." The attribution is split and the pool merged it: **Seleucus** for Bathyllus's pantomime dancing in the preceding clause, **Aristonicus** for the three-genre synthesis.
+
+**The 22 BCE reform. [A for Jerome; R for Bathyllus's part]** Jerome's continuation of Eusebius places at Ol. 189.3 / Abr. 1995 = 22 BCE the reform by which the dancer ceased to sing his own part, chorus and pipes supplying the music. **Jerome names Pylades alone.** So 22 BCE anchors the emergence of the form, not Bathyllus's floruit; only Athenaeus's separate tradition joins the two men. A competing reconstruction prefers 23 BCE (funeral games for Marcellus). The two datings **are not reconciled in the sources and are not reconciled here**.
+
+**Venue: [R].** No source names where he performed. The Theatre of Pompey pin (`41.8953 / 12.4736`, corrected from the pool's 41.8958 / 12.4721, some 135 m off) rests on building chronology alone: Pompey's, dedicated 55 BCE, was Rome's only permanent stone theatre until Marcellus's, inaugurated 12 BCE.
+
+**Crinagoras, *Greek Anthology* 9.542 (Gow-Page 39). [A]** The only item contemporary with the subject: an Augustan epigrammatist urging the singer Philonides to set a piece "for four parts or even more," promising that neither his singing nor the motions of Bathyllus's hands will lack grace. It documents a coordinated production unit and names a collaborator. Correction: attalus.org's English is a **modernised Paton** (1916-18) by the site's own statement, not Paton verbatim.
+
+**"Bathyllus's Satyr." [A for the text; the pool's gloss was inverted]** Persius, *Satires* 5.123: *tris tantum ad numeros Satyrum moveare Bathylli.* The pool read this as a warning that an amateur should not attempt a demanding routine. It is the opposite: Persius mocks the man who is "in all else a ditch-digger" (*cum sis cetera fossor*) and thinks three beats of the Satyr make him free. Corrected reference: **5.123-124**. The poetryintranslation translator **is** named: A. S. Kline.
+
+**Cestius's boast. [A, verbatim, previously unverified]** *Controversiae* 3 praef. **16**: *si Thraex essem, Fusius essem; si pantomimus essem, Bathyllus essem; si equus, Melissio.*
+
+**Phaedrus, *Fabulae* 5.7. [A, fully verified; the pool's TLS-failure caveat is struck]** *Princeps tibicen notior paulo fuit, operam Bathyllo solitus in scaena dare.* Two corrections carried into the campa: the piper fell as the **pegma** (stage lift) was hoisted and broke his **left shin** (*sinistram fregit tibiam*, punning on *tibia* as shinbone and pipe); and it was not a shouting crowd but the **chorus singing a canticum**, *LAETARE INCOLVMIS ROMA SALVO PRINCIPE*. Comedy, not reportage, but evidence of a standing company.
 
 ---
 
-## 8. Afterlife
+## 4. The rivalry, and what happened to the other man
 
-- **The school survives him. [A], Latin verified, upgraded from [R].** Seneca the Younger, *NQ* 7.32.3, which the pool could not reach: "Stat per successores Pyladis et Bathylli domus, harum artium multi discipuli sunt multique doctores; priuatum urbe tota sonat pulpitum." Direct primary evidence for the succession, previously resting on paraphrase. **Caution kept:** the circulating English matches no published translation, so the file quotes the Latin only. *Domus* can mean house, lineage or school, and Seneca does not disambiguate.
-- **Juvenal's Leda dancer. [A] as text, contested as identification.** *Satires* 6.60-65 (Kline). Juvenal writes about a century later and does not say which Bathyllus. That this is a later performer under a famous stage name is scholarly interpretation, *not* stated by Juvenal. Flagged both ways.
-- **The *sic vos non vobis* legend. [R], late and legendary.** The expanded *Vita Vergilii* (Donatus auctus) has an inferior poet named Bathyllus claim credit for anonymous verses honouring Augustus that Virgil had written. Nothing naming the dancer calls him a writer. Named as legend rather than dropped; `virgil.journey.json` runs on the earlier tradition and does not carry it.
-- **Jean Bertheroy, *Le Mime Bathylle*, 1894. [A]** fr.wikisource.org: "Roman historique suivi de *Alounea*"; pen name of Berthe-Corinne Le Barillier (1858-1927). **The publisher attribution "Armand Colin" is not on that page and has been dropped.**
-- **Aubrey Beardsley, c. 1896. [A], two corrections.** The Hood Museum page the pool could not reach was reached. Accession **PR.917.12.3**, Beardsley (1872-1898), title "Bathyllus in the Swan Dance (Unpublished illustration for The Sixth Satire of Juvenal)" confirmed. Corrections: the medium is a **line-block print**, not a pen-and-ink drawing, and the museum dates it **circa 1896**.
+**Dio 54.17.4-5. [A, read at lexundria.com]** Three corrections to the pool. The passage falls under **18 BCE** in Book 54's consular sequence, so the episode carries a year. Dio names Bathyllus outright rather than by implication. And the sequence runs the other way from the pool's geography lens: Augustus **first restores** Pylades from an exile imposed for sedition, and the rebuke comes **after**.
 
-**Standing gaps, restated plainly.** Birth year and quarter. Parents. Legal status at birth. Teacher. School. The year and route of the crossing. The terms of enslavement and of manumission. The venue of any performance he gave. The title of any piece but the Satyr. Any word he wrote or is reported to have said. Whether he was ever punished. Whether he outlived Maecenas. The year, place, cause and manner of his death. His grave. His face.
+**Suetonius, *Divus Augustus* 45. [A, read]** Pylades expelled from the city and from Italy for pointing out a hissing spectator; Hylas flogged *in atrio domus suae, nemine excluso*, in his **own house** on a praetor's complaint, the publicity being that nobody was shut out, not that it was a public venue (the pool said "publicly scourged", which is wrong). **Bathyllus is named nowhere in the chapter**, and no ancient source records any punishment, prosecution, exile, or suit against him, ever.
+
+**Organised factions loyal to Bathyllus specifically: [R].** Dio attests the quarrel and the intervention; factional violence is documented only for the *following* generation (Tacitus, *Annals* 1.54, 1.77, 4.14), none of it naming him.
+
+**Stop ownership, declared.** Journey stop 19 describes what happened to Pylades and Hylas, not to Bathyllus. Retained because the rivalry is a direct attested relation and his career's shape is defined by which of them the emperor punished; its `date_confidence` says outright that Bathyllus is absent from the chapter. Same licence as the Nekmaria stop on `abdelkader.journey.json`. Cuttable on request.
+
+**Pylades of Cilicia is queued (QUEUE.md line 140), as are Hylas (170) and Mnester (171); none has a file yet.** Pylades is named freely in the campas as a historical rival, but is not counted as an interlock because there is no file to point at.
+
+---
+
+## 5. The end, which is not recorded
+
+**Maecenas dies 8 BCE. [A]** The burial is **Suetonius, *Vita Horati*** (*sepulti sunt ambo extremis Esquiliis iuxta Maecenatis tumulum*), putting the tomb on the far Esquiline near Horace's, **not** "within his own gardens" as the pool had it. **Bathyllus's fate at that moment is a total gap:** present, named in the will, provided for, or already dead, no source says.
+
+**What no ancient source records [A as absence, checked across every primary text above]:** birth date · death date · cause of death · burial place · tomb · retirement · final performance · marriage · children · property · inheritance · teacher · school · any work under his own name · any portrait or securely identified likeness. The lost *Peri orcheseos* is Pylades's, on Athenaeus's own attribution.
+
+**Dating the "last sighting": [R].** Crinagoras cannot be placed securely within the reign, so his epigram may be the earliest or the latest live witness. Journey stop 23 registers this as open.
+
+---
+
+## 6. The name after the man
+
+**Seneca the Elder, 30s CE [A]:** still using Bathyllus as an unglossed benchmark two generations on. **Seneca the Younger, *Nat. Quaest.* 7.32.3 [A, verbatim]:** *Stat per successores Pyladis et Bathylli domus, harum artium multi discipuli sunt multique doctores.* **Date correction: c. 62-64 CE, not 65**; the work belongs to Seneca's retirement and he was dead by April 65. Evidence of an institution carrying the name, **not** that Bathyllus was alive.
+
+**Juvenal's Bathyllus [A for the text, R for the identification; the pool's date was wrong]:** *chironomon Ledam molli saltante Bathyllo*, **Satires 6.63** alone (Tuccia, Apula and Thymele react at 64-65). Satire 6 belongs to Book II, dated **c. 115-127 CE**, not 100; theatrum.de places "Bathyllus II" under Domitian and Trajan. The gap is **roughly 135 years**, not "roughly a century," and the identification with the Alexandrian is impossible.
+
+**Gaius Silius Bathyllus [A, upgraded from R this pass]:** funerary stele, 2nd century CE, of a youth from an **Athenian** (not "Attic") theatrical family; **Museo Lapidario Maffei, Verona**; **IG II² 5302**. A different, later person, named in journey stop 29 as part of the homonym problem and deliberately **not staged as a stop at Verona**.
+
+**Bathyllus of Samos [A]:** Anacreon's beloved, 6th century BCE, named by Horace at *Epodes* 14.9-10. **Live modern error found this pass:** the English Wikipedia article "Bathyllus" attaches Polycrates the Tyrant, a detail belonging to the Samian youth, to the Augustan dancer.
+
+---
+
+## 7. Open questions carried unresolved
+
+1. **The C. Theoros hypothesis [R].** An epigraphic argument identifies the Augustan Bathyllus with a dancer C. Theoros known from CIL VI 10115 / ILS 5197 (a list of dancers Theoros defeated, from which Bathyllus is absent), supported by the epithet "Theorobathylliana" applied to the performer Sophe. **Not verified this pass**: the inscription texts were not accessible, and theatrum.de confirms only the general "unresolved identity" framing. Not in the journey file.
+2. **The *sic vos non vobis* legend [R].** The expanded *Vita Vergilii* / *Donatus auctus* tradition tells of a poet named Bathyllus who claimed credit for anonymous verses honouring Augustus and was exposed by Virgil. The identification with the dancer is unproven and the developed story is a late accretion. **virgil.org/vitae/ was unreachable (TLS certificate mismatch)**, so it is unverified and not in the journey file. Noted as the only story putting Bathyllus and Virgil in direct, if legendary, contact.
+3. Genre (section 1). 4. The horti (section 2). 5. 22 versus 23 BCE (section 3).
 
 ---
 
 ## Apparatus relations for the operator
 
-Bathyllus is **not** in `EXCEPTIONS.md`, so no framework may be applied backward or forward on his file. Relations in the pool not rooted in his own life are recorded here rather than deleted, with the direction named.
+Bathyllus is **not** listed in `EXCEPTIONS.md`, and the interlock lens returned relations that are **forward** in direction, which the exception never licenses in any case. Per the standing instruction they are kept here rather than silently deleted, so the operator can rule. **Direction caught: FORWARD in every case below**, and none of it is in the journey file.
 
-1. **Tibur, the "Villa of Maecenas" (Sanctuary of Hercules Victor).** Direction: **neither backward nor forward apparatus; a modern misattribution about his patron, not about him.** The pool carried a stop there. **No ancient source connects Bathyllus to Tibur at all**, and the Maecenas identification is a post-antique error current from the sixteenth century to nearly the mid-nineteenth. No Tibur stop was staged. Corrected coordinate if wanted: **41.9633, 12.7923** (the pool's 41.9611, 12.7969 falls ~450 m southeast, in the town).
-2. **Balanchine and Laban, on the word "pantomime."** Direction: **forward**, very weak. Both use the genre word eighteen and nineteen centuries later; neither makes a lineage claim. Not carried in: a word-echo is not a relation.
-3. **Mnester (QUEUE.md line 172).** Direction: **forward**, genre succession only, two generations later, no crossing. If Mnester's file is written, the succession belongs there looking back.
-4. **Augustus in Alexandria; Strabo's residence; Julius Caesar in the palace quarter.** Direction: **shared geography only.** Pins inherited and files cited in `sources`, but none is named in a campa.
+| relation the lens found | direction | why it is not in the file |
+|---|---|---|
+| `delsarte`, the science of gesture: "the body has a grammar as fixed as speech," structurally identical to ancient cheironomia | forward (1811-1871) | Delsarte's file already states its own downstream lineage. Bathyllus's file cannot embed an artifact postdating it. |
+| `isadora_duncan`, the Delsarte-Mackaye-Stebbins-Duncan chain; four months in the British Museum reconstructing motion from frozen poses; Loïe Fuller's "In her I saw the ancient tragic dances revived" | forward (1877-1927) | Her British Museum stop belongs to her: it is her engagement with antiquity, not Bathyllus's with her. |
+| `stebbins`, the "pantomimic matinees," statue-posing dances of Isis and the Eleusinian mysteries | forward (1857-1934) | Shared vocabulary is not a relation running backward. |
+| `auguste_rodin`, "the antique copy" distrusted for the living body | forward | Thematic, not a relation to Bathyllus at all. |
+| QUEUE.md's framing of him as "the ancient root under the corpus's dance wing" | forward | Editorial rationale for queueing him, not a historical relation. Belongs in QUEUE.md, where it is. |
+| Buenos Aires as reception pin (-34.6037 / -58.3816) | not a relation | House convention for an Argentine readership; no documented connection of any kind. Dropped, noted. |
 
----
+**If the operator wants the dance-wing genealogy visible from this file**, two routes exist: add Bathyllus to `EXCEPTIONS.md` with a forward grant on the Burroughs/Derrida model and its one-or-two-sentence scope rule, or leave it to the later files, where Duncan's and Delsarte's stops already carry the claim. The second needs no ruling and no edit.
 
-## Interlocks written into the file
+**Backward relations: none found.**
 
-Two travelers are named in a campa, each on a textual relation, never on co-location. **`hylas.journey.json`** (three campas): Hylas of Salmacis stands on the same CIL VI 10115 stone behind the Theoros hypothesis; Macrobius tells the Augustan rebuke with Hylas exactly where Dio puts Bathyllus; and Suetonius *Aug.* 45 lists Hylas's flogging in the passage whose silence about Bathyllus is the documented asymmetry. **`virgil.journey.json`** (one campa): the *sic vos non vobis* stop, where the legend is *about* a Bathyllus and Virgil together, not about a shared patron. Pylades of Cilicia has no file yet (QUEUE.md line 141), so every stop touching him points at `hylas.journey.json`.
+**The one relation that is not forward, and is therefore in the file.** `virgil`, named in journey stop 7 (the Esquiline household). The grounds are not shared geography: the two belonged to the **same patron's household** in the same years, Maecenas being the documented centre of both (virgil.journey.json lines 195-203; Wiseman 2016 and the Tacitus/Dio tradition for Bathyllus). The *sic vos non vobis* legend additionally sets a Bathyllus against Virgil directly, though unproven and **not** used in the campa. Virgil died 19 BCE, so the reference is contemporary.
+
+**Deliberately not named:** `hypatia` (Alexandria is shared geography and nothing else, four and a half centuries apart), and the corpus's performance wing entire.
+
+**Pins inherited byte-identical** from the interlock lens: Alexandria `31.2001 / 29.9187`, Rome `41.9028 / 12.4964`. Corrections and reconciliations are in sections 1 to 3; Serapeum, Memphis, Verona, Paris, London and Buenos Aires are not used at all.
 
 ---
 
 ## Sources
 
-### Reached and quoted this session
+### Primary texts read directly this pass
+- **Athenaeus, *Deipnosophistae* 1.20c-f**: penelope.uchicago.edu, book 1B (Gulick's Loeb).
+- **Tacitus, *Annals* 1.54**: thelatinlibrary.com/tacitus/tac.ann1.shtml (Latin); penelope.uchicago.edu (Loeb).
+- **Cassius Dio 54.17.4-5**: lexundria.com/dio/54.17/cy, under 18 BCE.
+- **Suetonius, *Divus Augustus* 45**: penelope.uchicago.edu, lexundria.com. And **Vita Horati**, for the Esquiline tombs.
+- **Seneca the Elder, *Controversiae* 3 praef. 10 and 16**: thelatinlibrary.com/seneca.contr3.html.
+- **Seneca the Younger, *Naturales Quaestiones* 7.32.3**: thelatinlibrary.com/sen/sen.qn7.shtml.
+- **Persius, *Satires* 5.122-124**: thelatinlibrary.com/persius.html; English (A. S. Kline) at poetryintranslation.com.
+- **Phaedrus, *Fabulae* 5.7**: thelatinlibrary.com/phaedr5.html, in full.
+- **Juvenal, *Satires* 6.63-65**: thelatinlibrary.com/juvenal/6.shtml.
+- **Crinagoras, *Greek Anthology* 9.542**: attalus.org (modernised Paton); Greek at anthologiagraeca.org. And **Horace, *Epodes* 14.9-10**, for the Samian homonym.
 
-| Source (all fetched) | What it gives |
-|---|---|
-| Athenaeus 1.20d-e (topostext.org/work/218) | byname; Memphite tragic dancing (Seleucus); joint synthesis (Aristonicus); solemn/jolly contrast; hyporcheme; the treatise as Pylades's |
-| Tacitus, *Annals* 1.54, 1.77 (penelope) | *effusus in amorem Bathylli*; the 14 and 15 CE riots |
-| Cassius Dio 54.17.4-5 (penelope) | rebuke and reply; "a favourite of Maecenas"; the exile for sedition; the headings at 54.10 and 54.18 fixing ch. 17 to 18 BCE |
-| Suetonius, *Divus Augustus* 45 (penelope) | Hylas flogged, Stephanio banished, Pylades expelled; no Bathyllus |
-| Jerome, *Chronicle*, Ol. 189.3 (attalus.org/translate/jerome2.html) | the chorus-and-piper reform, Pylades only |
-| Crinagoras, *Gk Anth.* 9.542 (attalus.org/poetry/crinagoras.html) | Philonides; the hands |
-| Persius 5.122-123; Phaedrus 5.7 (thelatinlibrary.com) | *Satyrum Bathylli*; "operam Bathyllo solitus in scaena dare" |
-| Seneca the Elder, *Contr.* 3 pref. 10, 16 (thelatinlibrary.com; la.wikisource.org) | "multum a se aberrant"; Cestius's boast **and** Cassius Severus's answer |
-| Seneca the Younger, *NQ* 7.32.3 (thelatinlibrary.com/sen/sen.qn7.shtml) | "Stat per successores Pyladis et Bathylli domus..." |
-| Juvenal 6.60-65 (poetryintranslation.com, Kline) | the Leda dance and the matrons |
-| Smith's *Dictionary*, "Pantomimus" (penelope); theatrum.de/2241.html | no tomb or death data; Bathyllus I/II/III; the Verona stele |
-| Hood Museum PR.917.12.3 (hoodmuseum.dartmouth.edu) | Beardsley; title; line-block print; "circa 1896" |
-| fr.wikisource, *Auteur:Jean Bertheroy* | *Le Mime Bathylle* (1894) with *Alounea*; 1858-1927 |
-| Wiseman, PBSR 84 (2016), cambridge.org/core | the fullest modern reconstruction |
-| Wikipedia: Bathyllus, Kom El Deka, Theatre of Marcellus, Crinagoras; it.wiki: Ercole Vincitore | corrected coordinates; Crinagoras's dates; 13/12 BCE |
+### Secondary and reference
+- **theatrum.de, page 2241** (s.vv. Bathyllus I, II, III): source for the three-Bathylli distinction and the Verona stele.
+- **T. P. Wiseman, "Maecenas and the Stage," *PBSR* 84 (2016), 131-155**: verified at cambridge.org. Source for "slave, freedman and lover" and the private theatre; its topography contradicts the coordinates the pool attached to it (section 2).
+- **Jerome, *Chronicle*, Ol. 189.3 / Abr. 1995 = 22 BCE**: the reform entry, naming Pylades only.
+- **Hood Museum of Art, Dartmouth, PR.917.12.3**: verified. Beardsley's "Bathyllus in the Swan Dance," a **line-block print** (not a drawing), "About 1896." A suggested_ref on the Juvenal stop, since it illustrates Bathyllus II.
+- **fr.wikisource.org, Auteur:Jean Bertheroy**: confirms *Le Mime Bathylle* (1894); the text there is marked *Texte incomplet*.
+- **en.wikipedia.org, "Bathyllus"**: independent check on the absence of tomb and portrait; carrier of the live Polycrates error (section 6).
 
-### Named and NOT reached, with the reason
-
-- **CIL VI 10115 / ILS 5197 and the Sophe "Theorobathylliana" stone**: epigraphic texts not pulled this pass; the Theoros identification rests on secondary discussion and is unresolved regardless.
-- **The expanded *Vita Vergilii* (Donatus auctus)**: Latin not fetched; summarised via virgil.org/vitae/ as late legend, which fetching would not change.
-- **Hall and Wyles, eds., *New Directions in Ancient Pantomime* (2008); E. J. Jory on Pylades**: not consulted directly. The standard modern treatments; Bathyllus is handled inside them, not in any dedicated volume. No critical edition or collected testimonia of Bathyllus exists, there being no text of his to edit.
-
-### Checked and negative
-
-No journey file attests any Bathyllus, Maecenas, or Alexandria-to-Rome connection to Paris, the Kaaba, Temple Mount or Buenos Aires; grepped, nothing, no such stop manufactured. No file yet exists for **Pylades of Cilicia** (QUEUE.md line 141) or **Mnester** (line 172).
+### Checked and negative, or unreachable
+- **CIL VI 10115 / ILS 5197** and the Sophe "Theorobathylliana" inscription: **not accessed**. C. Theoros rests on secondary report only.
+- **virgil.org/vitae/**: **unreachable, TLS certificate mismatch**. The *Donatus auctus* legend is unverified at the primary level.
+- **Jory (1981), Garelli (2007), Lada-Richards (2007)**: not accessed directly, used only as the pool characterises them.
+- **Any image archive for an ancient portrait**: no likeness located. A genuine gap rather than an unsearched one, since theatrum.de and the general reference entry both report nothing.
+- **A birth date, a death date, a tomb**: searched across every primary text above. There is nothing. That is the finding.
