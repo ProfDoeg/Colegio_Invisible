@@ -212,7 +212,6 @@ queued/done) and a wholly untouched Basque-nationalism thread.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Theodor Herzl** | founder of political Zionism, Der Judenstaat and the First Zionist Congress of 1897; already named in passing in alfred_dreyfus's and vladimir_medem's queue entries but never given his own |
 | 0 | **Chaim Weizmann** | chemist and first President of Israel, the key figure behind the 1917 Balfour Declaration; joins theodor_herzl just queued |
 | 0 | **David Ben-Gurion** | Israel's founding prime minister, declared independence in 1948; joins the same Zionist-founders cluster |
 | 0 | **Ahad Ha'am** | founder of cultural Zionism (born Asher Ginsberg), argued for a spiritual center rather than necessarily a state, the direct rival vision to theodor_herzl's just queued political Zionism |
