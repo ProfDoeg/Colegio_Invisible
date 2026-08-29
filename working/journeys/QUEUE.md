@@ -136,7 +136,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Pylades of Cilicia** | founder of the tragic/serious style of Roman pantomime under Augustus, rival of Bathyllus of Alexandria (just queued); their contest defined solo dance-mime as a Roman art form, centuries before the corpus's modern dance wing |
 
 ## Author additions (2026-08-10)
 
