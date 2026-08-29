@@ -271,7 +271,6 @@ approved by the author along with a wider tech/finance/fraud batch.
 | docs | subject | who |
 |--:|---|---|
 | 0 | **Leslie Wexner** | founder of L Brands/Victoria's Secret, Jeffrey Epstein's original and primary financial patron who gave him power of attorney over his finances; the actual source of jeffrey_epstein's (already queued) wealth and access |
-| 0 | **Bill Gates** | Microsoft co-founder, documented multiple in-person meetings with jeffrey_epstein already queued after Epstein's 2008 conviction, cited directly in the Gates divorce filing |
 | 0 | **Leon Black** | founder of Apollo Global Management, paid jeffrey_epstein already queued roughly $158 million for 'tax and estate advice,' resigned as CEO once the payments became public |
 | 0 | **Reid Hoffman** | LinkedIn co-founder and PayPal mafia member, met with jeffrey_epstein already queued and later donated to charity over it; bridges the Epstein-ties and PayPal-mafia threads |
 | 0 | **Sheldon Adelson** | Las Vegas Sands casino magnate, one of the largest Republican and pro-Israel political donors in US history; direct interlock with benjamin_netanyahu already queued |
