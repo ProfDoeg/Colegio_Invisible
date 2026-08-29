@@ -164,7 +164,6 @@ Satoshi Nakamoto and Pierre Curie.
 | 0 | **John Dewey** | American philosopher and educator, author of Democracy and Education, theorist of learning by doing; joins the same pedagogy wing |
 | 0 | **Jan Amos Comenius** | Czech Moravian bishop and educational reformer, author of the Orbis Pictus (the first illustrated children's textbook) and Didactica Magna, a life of exile across Bohemia, Poland, England and Sweden; joins the same pedagogy wing as its earliest root |
 | 0 | **Ted Shawn** | American modern dance pioneer, co-founder of Denishawn with Ruth St. Denis already queued, later founded the all-male Jacob's Pillow company; already named in passing in ruth_st_denis's queue entry, wanted individually |
-| 0 | **Mnester** | Roman pantomime dancer, favorite performer of the emperor Caligula, later executed under Claudius over an alleged affair with Empress Messalina; joins bathyllus_of_alexandria and pylades_of_cilicia just queued in the corpus's ancient-pantomime cluster |
 
 ## Time gaps (2026-08-10)
 
