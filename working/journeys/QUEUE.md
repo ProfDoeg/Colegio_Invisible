@@ -186,7 +186,6 @@ by the author (Galileo and Kepler, plus Aquinas, out of a longer list).
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Galileo Galilei** | Italian astronomer and physicist, the telescope turned on Jupiter's moons, condemned by the Inquisition in 1633 and forced to recant heliocentrism under threat, house arrest for the last years of his life; joins the corpus's mathematics/physics wing (newton already done) as its direct predecessor |
 | 0 | **Thomas Aquinas** | medieval Dominican friar and scholastic philosopher, student of Albertus Magnus already queued, author of the Summa Theologica; direct teacher-student interlock, closes the corpus's scholastic-philosophy thread Albertus opened |
 
 ## The classical physics/math canon (2026-08-10)
