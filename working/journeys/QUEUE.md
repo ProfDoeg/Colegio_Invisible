@@ -185,7 +185,6 @@ by the author (Galileo and Kepler, plus Aquinas, out of a longer list).
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Thomas Aquinas** | medieval Dominican friar and scholastic philosopher, student of Albertus Magnus already queued, author of the Summa Theologica; direct teacher-student interlock, closes the corpus's scholastic-philosophy thread Albertus opened |
 
 ## The classical physics/math canon (2026-08-10)
 
