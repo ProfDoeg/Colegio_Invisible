@@ -117,7 +117,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 
 
-| 0 | **Comte de Saint Germain** | 18th-century adventurer, alchemist and courtier of legendary and disputed origin; named by Blavatsky as one of her Ascended Masters, contemporary of Cagliostro, touches the Rosicrucian legend and French Masonic lodges (Albert Pike, Theodor Reuss just queued) |
 | 0 | **Emanuel Swedenborg** | Swedish scientist turned visionary mystic, founder of the New Church; Kant wrote Dreams of a Spirit-Seer against him, William Blake (already done) was directly shaped by him; bridges the corpus's philosophy and visionary-artist wings |
 | 0 | **Jiddu Krishnamurti** | raised by the Theosophical Society (Annie Besant, Charles Leadbeater) as the 'World Teacher,' who then publicly renounced the role in 1929; a life of travel between India, Ojai California, and Europe; bridges Theosophy already walking to 20th-century spirituality |
 | 0 | **Jean Baudrillard** | French sociologist and philosopher of Simulacra and Simulation and hyperreality; joins the corpus's continental-philosophy wing (michel_foucault, gilles_deleuze, felix_guattari already queued) |
@@ -296,5 +295,4 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 | 0 | **Adolfo Bioy Casares** | Argentine writer of La invención de Morel, Borges's closest lifelong collaborator (Six Problems for Don Isidro Parodi and much else written together) and husband of Silvina Ocampo; all three already in the atlas but he was never given his own entry |
 | 0 | **Sir Arthur Conan Doyle** | Scottish creator of Sherlock Holmes, devout convert to spiritualism in later life, attended séances with houdini already queued seeking contact with the dead |
 | 0 | **Harry Houdini** | Hungarian-American escape artist and stage magician, close friend of arthur_conan_doyle just queued turned public antagonist after Doyle's wife claimed to channel Houdini's dead mother at a 1922 séance (in English, which she never spoke); Houdini spent his last years exposing fraudulent mediums |
-| 0 | **San Te (San-De, 三德)** | Shaolin martial arts disciple who trained under monk Zhi Shan, early 18th century; the name means 'Three Harmonies' or 'Three Virtues'; left the main Shaolin Monastery to reside at the Xichan Monastery |
 
