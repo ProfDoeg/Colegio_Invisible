@@ -124,7 +124,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **John Uri Lloyd** | American pharmacist and author of Etidorhpa (1895), a hollow-earth fiction novel; part of the same hollow-earth cluster as symmes, saint-yves, and william_r_bradshaw |
 | 0 | **Gibran Khalil Gibran** | Lebanese-American poet and artist, author of The Prophet; one of the busts in the Jardín de los Poetas, Palermo, Buenos Aires, alongside taras_shevchenko already queued |
 | 0 | **Julius Evola** | Italian traditionalist philosopher and esotericist, author of Revolt Against the Modern World, associated with Italian and later international fascism; joins the corpus's esoteric-traditionalist wing (rene_guenon already queued) |
-| 0 | **Simon Magus** | Samaritan magus of Acts 8, who tried to buy the power of the Holy Spirit from the apostles (giving 'simony' its name); early Christian heresiology names him as the fountainhead of Gnosticism, paired in legend with Helen of Tyre, a former prostitute he called the reincarnated Helen of Troy; joins the corpus's Gnostic/heresiological wing |
 
 ## Author additions (2026-08-09)
 
@@ -152,7 +151,6 @@ Satoshi Nakamoto and Pierre Curie.
 | 0 | **Elizebeth Smith Friedman** | American cryptanalyst, broke Prohibition-era rum-runner ciphers and testified as an expert witness, later worked against Nazi spy networks in South America; married to William F. Friedman just queued, a direct husband-wife interlock in the cipher wing |
 | 0 | **Herbert Yardley** | American cryptologist, founder of the Black Chamber, the US's first peacetime codebreaking unit, later wrote the exposé The American Black Chamber that scandalized Washington; joins the corpus's cipher wing (william_f_friedman just queued) |
 | 0 | **Quintilian** | Marcus Fabius Quintilianus (c. 35-100 AD), born Calagurris in Hispania, first publicly salaried chair of Latin rhetoric in Rome under Vespasian; his Institutio Oratoria (Book XI) is the actual source text discussing Simonides and the method of loci by name, alongside Metrodorus of Scepsis; the complete manuscript was lost for centuries until Poggio Bracciolini recovered it at the monastery of St. Gallen in 1416, a real manuscript-rediscovery story. Direct interlock with simonides_of_ceos just queued, and joins the corpus's art-of-memory cluster (giulio_camillo, ramon_llull, roger_bacon, giordano_bruno already done) |
-| 0 | **Jan Amos Comenius** | Czech Moravian bishop and educational reformer, author of the Orbis Pictus (the first illustrated children's textbook) and Didactica Magna, a life of exile across Bohemia, Poland, England and Sweden; joins the same pedagogy wing as its earliest root |
 
 ## Time gaps (2026-08-10)
 
@@ -181,7 +179,6 @@ journey; approved by the author.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Mansa Musa** | 14th-century emperor of the Mali Empire, wealthiest person in recorded history; his 1324 hajj to Mecca gave away so much gold along the way it crashed Cairo's economy for years; ibn_battuta already done crossed Mali a generation later and may already name him in passing |
 
 ## Economics (2026-08-10)
 
