@@ -211,7 +211,6 @@ queued/done) and a wholly untouched Basque-nationalism thread.
 | docs | subject | who |
 |--:|---|---|
 | 0 | **Chaim Weizmann** | chemist and first President of Israel, the key figure behind the 1917 Balfour Declaration; joins theodor_herzl just queued |
-| 0 | **David Ben-Gurion** | Israel's founding prime minister, declared independence in 1948; joins the same Zionist-founders cluster |
 | 0 | **Sabino Arana** | founder of Basque nationalism in the 1890s, invented the Ikurriña flag and the term Euzkadi, founded the PNV; the corpus has no Basque-nationalist material until now |
 | 0 | **José Antonio Aguirre** | first President of the Basque Country during the Spanish Civil War; after Franco's victory crossed occupied Europe under false papers, a Panamanian passport and a false name, through France, Belgium and Germany before reaching New York to run a government-in-exile |
 | 0 | **Julen Madariaga** | co-founder of ETA in 1959, a radical break from sabino_arana's just queued PNV youth wing |
