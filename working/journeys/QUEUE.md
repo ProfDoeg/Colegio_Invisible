@@ -81,7 +81,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Tertullian** | Early Christian theologian of Carthage, coined much of the Latin vocabulary of Trinity doctrine, later drifted toward Montanism; joins the corpus's early-Church material |
 | 0 | **Origen** | Early Christian theologian of Alexandria, prolific biblical scholar and exegete, self-castrated in youth per Eusebius, posthumously condemned as heretical on some points; joins tertullian just queued in the corpus's early-Church material |
 | 0 | **Giovanni da Pian del Carpine** | Franciscan friar, papal envoy to the Mongol court, wrote an eyewitness-framed account of his journey describing various peoples including dog-headed men; joins the corpus's cynocephalus material |
 | 0 | **Joscha Bach** | Cognitive scientist and AI researcher, known for the MicroPsi cognitive architecture and writing on consciousness, computation, and the nature of mind; joins the corpus's cipher/computing wing (diffie, hellman, hal_finney already done) |

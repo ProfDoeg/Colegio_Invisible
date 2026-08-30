@@ -21,3 +21,4 @@
 - [x] frances_yates -- stop "Woburn Square, Giordano Bruno and the Hermetic Tradition": "Casaubon's 1614 redating of the Corpus Hermeticum to the second century is the hinge of the whole book, and Agrippa, John Dee and Robert Fludd are read again in its light." -- confirmed by the author 2026-08-29: different Corpus Hermeticum, not project self-reference. No change needed.
 - [ ] flavius_josephus -- stop "Rome, where the record stops": "What there is instead is the corpus, copied for a thousand years by Christian monks on account of one disputed paragraph, and by nobody else at all."
 - [ ] thomas_aquinas -- stop "Cologne, ordained priest": "So the sacrament that produces the Corpus Christi office, the treatise on the Eucharist, and a lifetime of daily Mass is the least documented act in his life."
+- [ ] tertullian -- stop "Carthage, the prose runs out": "After the letter to Scapula nothing else in the corpus can be securely dated."
