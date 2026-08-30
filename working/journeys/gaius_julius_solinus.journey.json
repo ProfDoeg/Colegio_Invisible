@@ -1,0 +1,505 @@
+{
+  "traveler": "Gaius Julius Solinus",
+  "title": "The Circuit of the Whole World: Solinus, the Collectanea, and a Life Made Entirely of Text",
+  "years": "fl. 3rd or 4th century CE (no birth, death or documented life event attested)",
+  "calendar": "julian",
+  "register": "national mythology: the canon is true",
+  "segments": [
+    {
+      "name": "A Name and Two Prefaces",
+      "stops": [
+        {
+          "name": "Rome, the last emperor the book will name",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "date": "0079-01-01",
+          "date_confidence": "Terminus post quem only, and the hardest edge the text supplies about itself. Vespasian, who dies in 79, is the latest Roman emperor named anywhere in the Collectanea (29.6), and nothing in the work refers to a later reign. The date marks that limit and nothing else; it is not an event in Solinus's life, of which no source records any. Coordinate is the canonical Rome pin, inherited unchanged from plinio_el_viejo.journey.json.",
+          "campa": "Vespasian dies in Rome and the imperial machinery goes on without him. Two centuries later, or one, or two and a half, nobody can say, a compiler works through Pliny and Mela and assembles a circuit of the world, and at chapter twenty-nine he names Vespasian. He names no emperor after him. No Trajan, no Hadrian, no Severus, no Diocletian. That silence is the only edge the book gives its own date. Whoever wrote it wrote after this funeral. Nothing in the text is later than that.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Collectanea rerum memorabilium 29.6, the last imperial name in the text"],
+          "sources": ["Solinus, Collectanea rerum memorabilium 29.6 (Mommsen ed.)", "Wikipedia, 'Gaius Julius Solinus', on Mommsen's dating discussion"]
+        },
+        {
+          "name": "Rome, the consulship of a stranger",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "date": "0218-01-01",
+          "date_confidence": "[A] for the consulship, [R] for everything that hangs on it. Marcus Oclatinius Adventus holds his second consulship in 218; that is documented. That he is the 'Adventus' of Solinus's two prefaces is Mommsen's conjecture, adopted by the handbooks, and no ancient source connects the two men. The traditional dating of Solinus rests entirely on this unproved equation.",
+          "campa": "Marcus Oclatinius Adventus holds the consulship for the second time, a documented man in a documented year. He is also, on one nineteenth-century guess and nothing else, the Adventus whom Gaius Julius Solinus addresses twice at the head of a book about the marvels of the world. No ancient sentence puts the two in the same room, or the same century. Mommsen proposed the equation; the handbooks took it; and a writer with no birth, no death and no city acquired his dates from a consular entry belonging to someone else.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The consular fasti for 218 CE, the sole anchor of the traditional Solinian floruit"],
+          "sources": ["New World Encyclopedia, 'Gaius Julius Solinus' ('Adventus is identified with Oclatinius Adventus, Roman consul in AD 218')", "Theodor Mommsen, ed., Collectanea rerum memorabilium (Berlin, 1895), praefatio"]
+        },
+        {
+          "name": "Rome, a floruit hung on one identification",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "date": "0230-01-01",
+          "date_confidence": "[R] throughout. The conventional placement runs from the early third century to the middle of it, and the sources disagree with each other: New World Encyclopedia records that Solinus 'probably flourished in the early 3rd century AD, though Mommsen places him in the middle of the 3rd century.' Both variants descend from the Adventus identification of the previous stop. Month and day are placeholders.",
+          "campa": "The reference books settle on a floruit: first half of the third century, or the middle of it, depending which reference book. Every one of those dates descends from the guess about Adventus, and nothing else supports any of them. There is no birth notice, no death notice, no inscription, no portrait, no letter mentioning him, no contemporary who names him. What survives is a book and a name at the top of it, Gaius Julius Solinus. No document from outside the book has ever been brought to bear on the question of when he lived.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The competing third-century datings recorded side by side in the standard reference entries"],
+          "sources": ["New World Encyclopedia, 'Gaius Julius Solinus'", "Wikipedia, 'Gaius Julius Solinus'"]
+        },
+        {
+          "name": "Rome, the first preface",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "date": "0231-01-01",
+          "date_confidence": "Undated. The preface is a part of the text, not a dated document, and the year is a placeholder ordering the segment inside the conventional floruit. The Latin was surfaced by a fetch-and-summarize pass over the Latin Library file solinus1a.html rather than read in a continuous run; the trailing ellipsis marks that the full clause was not re-verified word for word.",
+          "campa": "He opens by praising his dedicatee's forbearing ear and his devotion to the best of the arts, the standard courtesy of a man handing over a manuscript. It is the closest thing to a scene the whole work contains: an author, a patron, a book about to change hands. Everything else about the transaction is missing. Where they stand, what Adventus does with the roll, whether the two have ever met, whether Adventus is even the consul the handbooks assign him. The text pays its compliment and stops.",
+          "quote": "Cum et aurium clementia et optimarum artium studiis praestare te ceteris sentiam...",
+          "quote_source": "Solinus, Collectanea rerum memorabilium, praefatio prima (Latin text, The Latin Library, solinus1a.html)",
+          "suggested_refs": ["The two dedicatory prefaces to Adventus, the only first-person material Solinus leaves"],
+          "sources": ["Solinus, Collectanea rerum memorabilium, praefatio prima (thelatinlibrary.com/solinus1a.html)"]
+        },
+        {
+          "name": "Rome, a book prepared for brevity",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "date": "0231-06-01",
+          "date_confidence": "Undated; the year orders the segment. The Latin is verbatim from the Latin Library file and is quoted whole here, since a shorter cut circulating in secondary summaries stops at the comma and turns a result clause into a sentence. The manuscript spelling is 'conpendium', not the normalized 'compendium'.",
+          "campa": "The method is stated flatly in the first preface: the book is made for compression, held back as far as reason allowed, neither wasteful in abundance nor damaged by neatness. He is not writing a natural history. He is cutting one down. Pliny's thirty-seven books go in and something under seventy chapters come out, ordered not by subject but by country, so that the reader walks a route rather than consults a catalogue. The arrangement is his own. The content is Pliny's, and Mela's, and that of others he does not always name.",
+          "quote": "liber est ad conpendium praeparatus, quantumque ratio passa est ita moderate repressus, ut nec prodiga sit in eo copia nec damnosa concinnitas.",
+          "quote_source": "Solinus, Collectanea rerum memorabilium, praefatio prima (Latin text, The Latin Library, solinus1a.html)",
+          "suggested_refs": ["The country-by-country arrangement of the Collectanea, the structural decision that outlived every fact in it"],
+          "sources": ["Solinus, Collectanea rerum memorabilium, praefatio prima (thelatinlibrary.com/solinus1a.html)"]
+        },
+        {
+          "name": "Rome, the tracks of the old coinage",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "date": "0232-01-01",
+          "date_confidence": "Undated; the year orders the segment. Quoted from the governing 'quoniam quidem' onward, because the shortened form in circulation begins mid-sentence and capitalizes 'Vestigia', presenting a subordinate clause as an independent one. The following sentence, 'constantia veritatis penes eos est quos secuti sumus,' is equally verified and is paraphrased in the campa.",
+          "campa": "He asks not to be judged by the present moment of publication, because he has followed the tracks of the old coinage and preferred to choose among existing opinions rather than invent new ones. The sentence after it is blunter still: the constancy of the truth rests with those we have followed. He is telling his reader at the outset that selection, not invention, is the whole of the work. Fourteen centuries of readers will call him a plagiarist, an ape, a man who took Pliny and put his own name on the result.",
+          "quote": "quapropter quaeso, ne de praesenti tempore editionis huius fidem libres, quoniam quidem vestigia monetae veteris persecuti opiniones universas eligere maluimus potius quam innovare.",
+          "quote_source": "Solinus, Collectanea rerum memorabilium, praefatio prima (Latin text, The Latin Library, solinus1a.html)",
+          "suggested_refs": ["'constantia veritatis penes eos est quos secuti sumus', the sentence immediately following"],
+          "sources": ["Solinus, Collectanea rerum memorabilium, praefatio prima (thelatinlibrary.com/solinus1a.html)"]
+        },
+        {
+          "name": "Rome, a second preface and a second name",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "date": "0233-01-01",
+          "date_confidence": "Disputed, and the dispute is the point. The older and majority position, in the 1911 Encyclopaedia Britannica and still the default, is that the Polyhistor recension is a sixth-century reworking, not the author's own second edition; English Wikipedia hedges to 'perhaps by Solinus himself'; Hermann Walter's 1969 monograph defends Solinian authorship as the minority view. Von Buren notes that the second dedicatory letter characterizes only Mommsen's third manuscript class. The date orders the segment and asserts nothing.",
+          "campa": "A version of the book circulates in which the compiler complains that an unfinished draft escaped him, and dedicates a corrected, enlarged text to Adventus a second time. In this recension the work carries a different title: Polyhistor, the knower of many things, which later readers will mistake for the author's own name. Whether Solinus wrote that second letter or a sixth-century editor wrote it for him has been argued since Mommsen ruled it out and Hermann Walter argued it back in. Neither side has produced a witness the other accepts.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Hermann Walter, Die 'Collectanea rerum memorabilium' des C. Iulius Solinus (1969), the defence of the second recension"],
+          "sources": ["1911 Encyclopaedia Britannica, 'Solinus' (Wikisource): revision 'in the 6th century, renamed Polyhistor'", "Wikipedia, 'Gaius Julius Solinus': 'A greatly revised version of his original text was made, perhaps by Solinus himself'", "Veronika von Buren, 'Une edition critique de Solin au IXe siecle', Scriptorium 50.1 (1996)"]
+        },
+        {
+          "name": "Rome, no tomb, no face, no city",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "date": "0235-01-01",
+          "date_confidence": "Negative finding, stated as one. No source of any kind records a birth, a death, a burial, a family, a city, a career or a single dated event for Solinus himself. English Wikipedia, checked directly, carries no mention of a tomb, monument or memorial. The date is nominal, placed at the close of the conventional floruit purely to order the segment, and the coordinate is the canonical Rome pin, not a claim that he lived or died there.",
+          "campa": "There is no grave. There is no epitaph, no bust, no coin, no inscription, no papyrus, no letter, no anecdote, no city that claims him, no teacher, no pupil, no patron beyond a name in a dedication that may belong to a different man entirely. Antiquity, which kept the household accounts of people far less read, kept nothing of Gaius Julius Solinus except the book and the three words at the top of it. The dates printed beside his name in the reference works were all worked out from the text, because there is nowhere else to get them.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The complete absence of any monument, portrait or inscription: the whole of the physical record"],
+          "sources": ["Wikipedia, 'Gaius Julius Solinus' (checked 2026-08-29), which records only textual legacy and no memorial", "Negative finding across every source consulted in this pass"]
+        }
+      ]
+    },
+    {
+      "name": "The Circuit Opens: Rome to the Northern Sea",
+      "stops": [
+        {
+          "name": "Rome, the head of the world",
+          "lat": 41.9028,
+          "lng": 12.4964,
+          "date": "0240-01-01",
+          "date_confidence": "Structural, not biographical. The Collectanea opens its world-circuit at Rome and calls the city the head of the world, and the arrangement of the entire book follows from that decision. Nothing documents that Solinus was born at Rome, lived there, or ever saw it. The date orders the segment. Coordinate is the canonical Rome pin rather than the Capitoline, which the text names in its opening chapter.",
+          "campa": "The circuit begins where the circuit has to begin. Rome is named the head of the world, the Capitol standing over the founding stories, and from there the description fans outward: Italy first, then the provinces, then the ocean and what lies past it. That order is a claim about the world and not only a plan for a book. Every marvel in it, every dog-headed people and every burning mountain, is positioned by how far it lies from this hill. Distance from Rome is the one measurement the book never drops.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Capitoline Hill and the Temple of Jupiter Optimus Maximus, from which the text's circuit is measured"],
+          "sources": ["Solinus, Collectanea rerum memorabilium, praefatio and ch. 1 (Mommsen ed.)", "Wikipedia, 'Gaius Julius Solinus'"]
+        },
+        {
+          "name": "The Bay of Naples, the fires under Italy",
+          "lat": 40.8214,
+          "lng": 14.426,
+          "date": "0240-03-01",
+          "date_confidence": "Content of the Collectanea, not a documented journey. Chapters 2 to 8 carry the Italian sequence, praising climate, fertility, harbors and volcanic marvels. No source places Solinus at the bay or anywhere else; the pin marks where the text is, not where the man was. Date orders the segment.",
+          "campa": "Italy is praised for its air, its soil, its harbors and its fires. The bay under the mountain gives the book its first volcanic country: ground that burns without being consumed, springs that steam, a coast fertile precisely where it is dangerous. Solinus does not treat this as a marvel of the edges. He lists it among the harbors and the crops, in the same voice he uses for soil and harvests, with the far provinces still many chapters off. The steam is coming off the ground a few days' journey from the Capitol.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Collectanea 2-8, the Italian sequence"],
+          "sources": ["Solinus, Collectanea rerum memorabilium, chs. 2-8 (Mommsen ed.)"]
+        },
+        {
+          "name": "Mount Etna, the fire that stays at home",
+          "lat": 37.751,
+          "lng": 14.9934,
+          "date": "0240-05-01",
+          "date_confidence": "Content of the Collectanea. The Sicilian chapters carry Etna's fires. No source places Solinus in Sicily, and none of the ancient material about him permits any statement about his travels at all. Date orders the segment.",
+          "campa": "The Sicilian chapters give Etna its fires, and the fires behave. They burn without exhausting the mountain, and the snow above them does not put them out. In a book that will be remembered for headless men and hopping shade-casters, the volcano is one of the marvels that turned out to be true, and it sits in the same prose, in the same tone, with no line drawn between the things a Roman could go and see and the things reported from four thousand miles away. He draws no such line anywhere.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Collectanea, the Sicily chapters and the Etna material"],
+          "sources": ["Solinus, Collectanea rerum memorabilium, Sicily chapters (Mommsen ed.)"]
+        },
+        {
+          "name": "Massalia, the turn toward the ocean",
+          "lat": 43.2951,
+          "lng": 5.3739,
+          "date": "0240-08-01",
+          "date_confidence": "Content of the Collectanea. The Gallic sequence turns the circuit toward the Atlantic provinces; the old Greek harbor is the conventional anchor for that turn rather than a place the text dwells on. No travel by Solinus is attested or implied. Date orders the segment.",
+          "campa": "The route bends into Gaul, and the old Greek harbor marks the turn. From here the book stops describing an inhabited middle and starts working outward toward an edge: the Atlantic provinces, the tides, the islands, the ocean that closes the map. Massalia is the last unremarkable place for a long while. Everything after it is measured by distance from the center rather than by what stands in it, and the further out the prose goes, the stranger the reports become. Nothing in the text says he ever saw the harbor.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Collectanea, the Gallia sequence"],
+          "sources": ["Solinus, Collectanea rerum memorabilium, Gallia sequence (Mommsen ed.)"]
+        },
+        {
+          "name": "The Strait of Dover, the island chapter",
+          "lat": 51.1279,
+          "lng": 1.3719,
+          "date": "0240-11-01",
+          "date_confidence": "Content of the Collectanea 22 (Britannia). The downstream use is now documented: Wikipedia's article on the Historia ecclesiastica states that for the period before 597 'Bede drew on earlier writers, including Orosius, Eutropius, Pliny, and Solinus.' Adam of Bremen's citations of Solinus for Thule are attested in his own Gesta IV.38-40. Neither reader's own location is staged here; both belong to their own files. Date orders the segment.",
+          "campa": "Britain gets a chapter of its own: the crossing, the tides that run in and out twice a day, the climate, the jet stone that burns in water and is quenched in oil. It is a short account, and it becomes for six hundred years one of the few descriptions of the island a European scholar can lay hands on. Bede uses it at Jarrow for the centuries before Augustine landed. Later still, Adam of Bremen holds Solinus's Thule against a Danish king's own report of a sun that does not set, and finds the old book and the living witness in agreement.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Bede, Historia ecclesiastica gentis Anglorum (c. 731), which names Solinus among its sources for pre-Augustine Britain", "Adam of Bremen, Gesta IV.38-40, on Thule and the midnight sun; adam_of_bremen.journey.json"],
+          "sources": ["Solinus, Collectanea rerum memorabilium 22 (Britannia)", "Wikipedia, 'Historia ecclesiastica gentis Anglorum' (fetched): Bede drew on 'Orosius, Eutropius, Pliny, and Solinus'", "adam_of_bremen.journey.json, stops 'Roskilde, the sun that does not set' and 'Bamberg, the cathedral school that may have made him'"]
+        }
+      ]
+    },
+    {
+      "name": "The Atlantic Threshold",
+      "stops": [
+        {
+          "name": "Cadiz, the pillars at the end of the land",
+          "lat": 36.5297,
+          "lng": -6.2925,
+          "date": "0241-02-01",
+          "date_confidence": "Content of the Collectanea, Hispania and Oceanus sequence. The coordinate is the city of Cadiz, deliberately, and not the Temple of Hercules Gaditanus, which recent LiDAR work locates either underwater in the Sancti Petri marsh or at the cerro de los Martires some 16 km away; labelling this pin as the temple would put it in the wrong place. No travel by Solinus is attested.",
+          "campa": "Gades sits at the threshold. Past the pillars the described world stops being provinces and becomes ocean, and the book's grammar changes with it: distances get vaguer, informants get older, and the marvels arrive with no possibility of a check. Solinus is following a route his sources laid out centuries before him, and he says so in his own preface. What he adds is the shape of the walk. From here the reader is carried further from the Capitol one country at a time, until the ground gives out.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Temple of Hercules Gaditanus, whose site is disputed between the Sancti Petri marsh and the cerro de los Martires"],
+          "sources": ["Solinus, Collectanea rerum memorabilium, Hispania/Oceanus sequence (Mommsen ed.)", "Wikipedia, 'Temple of Hercules Gaditanus' (fetched), on the LiDAR site dispute"]
+        },
+        {
+          "name": "Tenerife, the Fortunate Isles",
+          "lat": 28.2916,
+          "lng": -16.6291,
+          "date": "0241-05-01",
+          "date_confidence": "Content of Collectanea 56. The identification of the Fortunatae Insulae with the Canaries is a later convention, not a statement in the text; the pin follows that convention. No travel by Solinus is attested, and the material predates him by centuries.",
+          "campa": "The Fortunatae Insulae lie out in the Atlantic, fertile past reason, growing fruit nobody planted. They are old material, older than Rome, and Solinus passes them on without either endorsing or doubting them. He gives them soil, orchards and a distance, and no inhabitants worth naming. Cartographers will still be drawing them on his authority a thousand years later, sliding them west as the known ocean widens. When Portuguese ships reach real islands out there, the question waiting for them is whether these are the ones.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Collectanea 56, the Fortunatae Insulae, and their long career on medieval and early modern charts"],
+          "sources": ["Solinus, Collectanea rerum memorabilium 56 (Fortunatae Insulae)"]
+        }
+      ]
+    },
+    {
+      "name": "Africa, and the Bodies at the Edge",
+      "stops": [
+        {
+          "name": "Carthage, Africa opens",
+          "lat": 36.8528,
+          "lng": 10.3233,
+          "date": "0241-09-01",
+          "date_confidence": "Content of the Collectanea, Africa sequence, plus a reception fact placed here because Africa is where it happens. The Liber genealogus of 455 is reported to name Solinus as the writer who described the circuit of the whole world; this rests on the dossier's account and was not re-fetched against the primary text in this pass. Date orders the segment.",
+          "campa": "The circuit crosses to Africa and the description begins near the old rival city. From here the prose runs east along the coast and south into country no Roman administration reaches, and the density of marvels rises with every league. Two centuries after the book is written, an African compiler assembling the Liber genealogus reaches for Solinus by name and calls him the writer who described the circuit of the whole world. It is among the earliest datable times anyone cites him at all.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Liber genealogus (455 CE), among the earliest datable external citations of Solinus"],
+          "sources": ["Solinus, Collectanea rerum memorabilium, Africa sequence (Mommsen ed.)", "Liber genealogus citation reported in the research dossier, not independently re-fetched"]
+        },
+        {
+          "name": "Cyrenaica, the serpent that scorches the ground",
+          "lat": 32.8253,
+          "lng": 21.8586,
+          "date": "0241-11-01",
+          "date_confidence": "Content of Collectanea 27.50-53, quoted verbatim from the Latin Library. The coordinate is editorial and should be read as such: Solinus places the basilisk in the African sequence without a precise locality, and the pin follows Pliny's Cyrenaica, the standard ancient placement. It is not drawn from the text and not from the verified pool.",
+          "campa": "The basilisk is half a foot long. It has a white line across the head like a small mitre. What earns it the sentence is not its bite but its reach: it kills men and animals, and it kills the ground, poisoning and scorching the earth wherever it makes its den. A creature that small with a reach that large is the kind of item Solinus keeps and Pliny's bulk buries. The bestiaries will lift the passage almost unaltered for the next thousand years, chapter and verse. Half a foot of snake, and the soil dead all round the mouth of the hole.",
+          "quote": "Serpens est paene ad semipedem longitudinis, alba quasi mitrula lineatus caput, nec hominis tantum vel aliorum animantium exitiis datus, sed terrae quoque ipsius, quam polluit et exurit ubicumque ferale sortitur receptaculum.",
+          "quote_source": "Solinus, Collectanea rerum memorabilium 27.50-53 (Latin text, The Latin Library, solinus3a.html)",
+          "suggested_refs": ["bestiary.ca, primary-sources entry for Solinus, which cites the basilisk at 27.50-27.53 among the debts of the medieval bestiary"],
+          "sources": ["Solinus, Collectanea rerum memorabilium 27.50-53 (thelatinlibrary.com/solinus3a.html)", "bestiary.ca/prisources/psdetail947.htm (fetched)"]
+        },
+        {
+          "name": "Cyrenaica, the weasel in the hole",
+          "lat": 32.8253,
+          "lng": 21.8586,
+          "date": "0241-12-01",
+          "date_confidence": "Same passage, same editorial coordinate as the preceding stop, split because the two sentences do different work. Quoted verbatim from the Latin Library. Date orders the segment only.",
+          "campa": "The passage does not end with the poison. It ends with a method. The thing is beaten by weasels, which the people there stuff down into the caves where it hides. Two sentences after establishing a serpent that sterilizes the soil, the book hands the reader a countermeasure involving a small mammal shoved into a hole. The domestic sits flush against the monstrous with nothing in between, and nothing in the Latin marks the change of scale. The weasel goes in, and the chapter moves on to the next animal.",
+          "quote": "Mustelis tamen vincitur, quas illic homines inferciunt cavernis in quibus delitescit.",
+          "quote_source": "Solinus, Collectanea rerum memorabilium 27.50-53 (Latin text, The Latin Library, solinus3a.html)",
+          "suggested_refs": ["The basilisk-and-weasel motif as it passes into the Aberdeen Bestiary and its relatives"],
+          "sources": ["Solinus, Collectanea rerum memorabilium 27.50-53 (thelatinlibrary.com/solinus3a.html)"]
+        },
+        {
+          "name": "Meroe, the dog-heads that are apes",
+          "lat": 16.9333,
+          "lng": 33.75,
+          "date": "0242-02-01",
+          "date_confidence": "Content of Collectanea 27.58 and 30.4-8, quoted verbatim from the Latin Library. Meroe is the conventional pin for the Ethiopian material; the text does not locate these creatures more precisely than 'in Aethiopiae partibus'. Date orders the segment.",
+          "campa": "In the Ethiopian chapters the cynocephali are animals. They belong to the number of the apes, most frequent in these parts, violent when they leap, savage in the bite, never tamed enough to stop being rabid. Near them stand the giant Serbotae and the Psambarae, whose king is a dog. Solinus carries two different dog-headed populations in one book and never reconciles them: these apes here, and in the Indian chapters a barking people with hands, hides and claws. He does not say whether they are the same creature.",
+          "quote": "Cynocephali et ipsi sunt e numero simiarum, in Aethiopiae partibus frequentissimi, violenti ad saltum, feri morsu, numquam ita mansueti, ut non sint magis rabidi.",
+          "quote_source": "Solinus, Collectanea rerum memorabilium 27.58 (Latin text, The Latin Library, solinus3a.html)",
+          "suggested_refs": ["Collectanea 30.4-8, the Serbotae and the dog-ruled Psambarae"],
+          "sources": ["Solinus, Collectanea rerum memorabilium 27.58 and 30.4-8 (thelatinlibrary.com/solinus3a.html)"]
+        },
+        {
+          "name": "Alexandria, the mouth of the Nile",
+          "lat": 31.2139,
+          "lng": 29.8853,
+          "date": "0242-05-01",
+          "date_confidence": "Content of the Collectanea, Aegyptus sequence. The pin is the ancient harbor mouth at the Pharos headland. No travel by Solinus is attested. Date orders the segment.",
+          "campa": "Egypt supplies the flood, the measurements of the river, the animals of the mud, and the hinge of the whole circuit. West of here the book has been working through Africa; east of here it turns into Asia and keeps going until the ocean stops it a second time. Alexandria is where the two halves of the described world meet in the prose. Following his sources, Solinus spends more words on the Nile's behaviour than on any city he has yet described, and he never once says he has seen it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Collectanea, the Aegyptus sequence and the Nile flood material"],
+          "sources": ["Solinus, Collectanea rerum memorabilium, Aegyptus sequence (Mommsen ed.)"]
+        }
+      ]
+    },
+    {
+      "name": "The East, and the Sentences That Traveled Instead",
+      "stops": [
+        {
+          "name": "Palibothra, what came down from Megasthenes",
+          "lat": 25.6127,
+          "lng": 85.1228,
+          "date": "0242-09-01",
+          "date_confidence": "The transmission chain is [A] at its Solinian end, since Solinus names Megasthenes in the text at 52.27, and [R] for the Ctesias link, which reaches Solinus only through Pliny's citation of Ctesias for the same beings. megasthenes.journey.json states the chain explicitly and names Solinus in its campa. The pin is Palibothra, the city Megasthenes reached; Solinus never went anywhere the record can show.",
+          "campa": "The Indian material has a documented pedigree, and Solinus states part of it himself. Megasthenes came to this city on embassy five hundred years earlier and wrote four books about the country. Pliny the Elder mined those books for the Natural History; Solinus mines Pliny. Ctesias, a century before Megasthenes, had already reported barking men near the Indus, and Pliny names him too. Nothing in the chain involves anyone traveling. What travels is a set of sentences, recopied at each stage into a shorter book.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Pliny, Naturalis Historia 7.2 and 7.23, the intermediate stage of the chain"],
+          "sources": ["Solinus, Collectanea rerum memorabilium 52.27 (thelatinlibrary.com/solinus4a.html)", "megasthenes.journey.json, stop 'The mountains of the dog-headed men'", "plinio_el_viejo.journey.json, stop 'Rome, thirty-seven books for Titus'", "ctesias.journey.json, stop 'Susa, the men who bark'"]
+        },
+        {
+          "name": "The mountains of India, the men who bark",
+          "lat": 27.5,
+          "lng": 88.5,
+          "date": "0242-10-01",
+          "date_confidence": "Content of Collectanea 52.27, quoted verbatim from the Latin Library, with Megasthenes named inside the sentence by Solinus himself. Coordinate inherited byte-identical from megasthenes.journey.json, stop 'The mountains of the dog-headed men'. Date orders the segment; the underlying report is fourth century BCE.",
+          "campa": "Here the dog-heads are not apes. They are nations, through the various mountains of India, armed with claws, clothed in hides, answering human speech with no voice at all, only barking and bared teeth. Solinus names Megasthenes in the sentence, so the reader knows exactly how old the report is and how far it has traveled to reach him. This is the formulation the Middle Ages inherit. Ratramnus of Corbie will argue from it in the ninth century over whether such people can be baptized, and the mapmakers will set them at the rim.",
+          "quote": "Megasthenes per diversos Indiae montes esse scribit nationes capitibus caninis, armatas unguibus, amictas vestitu tergorum, ad sermonem humanum nulla voce, sed latratibus tantum sonantes rictibusque.",
+          "quote_source": "Solinus, Collectanea rerum memorabilium 52.27 (Latin text, The Latin Library, solinus4a.html)",
+          "suggested_refs": ["Ratramnus of Corbie, Epistola de Cynocephalis (c. 863-865), the ninth-century argument over baptizing dog-headed peoples", "The Greek Passion of Saint Christopher, born among the dog-headed Marmaritae"],
+          "sources": ["Solinus, Collectanea rerum memorabilium 52.27 (thelatinlibrary.com/solinus4a.html)", "megasthenes.journey.json, stop 'The mountains of the dog-headed men'"]
+        },
+        {
+          "name": "India, the shade of a single foot",
+          "lat": 27.5,
+          "lng": 88.5,
+          "date": "0242-11-01",
+          "date_confidence": "Content of Collectanea 52.29, quoted verbatim from the Latin Library. Coordinate reuses the pin of the cynocephali passage two sentences earlier, since Solinus gives the Monocoli no locality beyond India. Adam of Bremen's use of the passage is attested in his own Gesta IV.25 and belongs to his file, not to a scene here.",
+          "campa": "We read, he says, and the qualifier is his own: we read that the monocoli are born there with a single leg each and a singular quickness, and that when they want protection from the heat they lie on their backs and shade themselves under the size of their own sole. It is one of the few places in the book where he marks the distance between himself and his material. Eight centuries later Adam of Bremen lists the one-footed hoppers Solinus named among the peoples of the north, then says he passes over them in silence, having written every one of them down.",
+          "quote": "Legimus monocolos quoque ibi nasci singulis cruribus et singulari pernicitate, qui ubi defendi se velint a calore, resupinati plantarum suarum magnitudine inumbrentur.",
+          "quote_source": "Solinus, Collectanea rerum memorabilium 52.29 (Latin text, The Latin Library, solinus4a.html)",
+          "suggested_refs": ["Adam of Bremen, Gesta Hammaburgensis IV.xxv and scholion 157; adam_of_bremen.journey.json"],
+          "sources": ["Solinus, Collectanea rerum memorabilium 52.29 (thelatinlibrary.com/solinus4a.html)", "adam_of_bremen.journey.json, stop 'Halsingland, the Rhiphaean mountains'"]
+        },
+        {
+          "name": "India, three rows of teeth",
+          "lat": 25.6127,
+          "lng": 85.1228,
+          "date": "0243-01-01",
+          "date_confidence": "Content of Collectanea 52.37-38, quoted verbatim from the Latin Library and confirmed as a named bestiary debt by bestiary.ca, which cites the manticore at 52.37-52.38. Coordinate reuses the Indian pin; the text gives no locality. Date orders the segment.",
+          "campa": "The manticore is assembled part by part, and the parts are precise: three rows of teeth interlocking by turns, a man's face, grey eyes, blood colour, a lion's body, a tail barbed like a scorpion's sting. Solinus has no way to check any of it and does not pretend otherwise; he copies the description exactly, and the exactness is what carries it forward. Then the voice, which is the detail nobody afterwards forgets, a hissing so musical that it imitates pipes and trumpets sounding together.",
+          "quote": "Mantichora quoque nomine inter haec nascitur, triplici dentium ordine coeunte vicibus alternis, facie hominis, glaucis oculis, sanguineo colore, corpore leonino, cauda velut scorpionis aculeo spiculata, voce tam sibila ut imitetur modulos fistularum tubarumque concinentum.",
+          "quote_source": "Solinus, Collectanea rerum memorabilium 52.37-38 (Latin text, The Latin Library, solinus4a.html)",
+          "suggested_refs": ["bestiary.ca primary-sources entry for Solinus, listing the manticore at 52.37-52.38 among the bestiary's named debts"],
+          "sources": ["Solinus, Collectanea rerum memorabilium 52.37-38 (thelatinlibrary.com/solinus4a.html)", "bestiary.ca/prisources/psdetail947.htm (fetched)"]
+        },
+        {
+          "name": "India, the beast fiercest of all",
+          "lat": 25.6127,
+          "lng": 85.1228,
+          "date": "0243-02-01",
+          "date_confidence": "Content of Collectanea 52.39-40, quoted verbatim from the Latin Library. The monoceros is among the creatures Wikipedia's article on the Aberdeen Bestiary lists as sourced to Solinus by name in that manuscript. Coordinate reuses the Indian pin; the text gives no locality. Date orders the segment.",
+          "campa": "The monoceros is the fiercest thing in the book: a horrid bellow, a horse's body, an elephant's feet, a pig's tail, a stag's head, and out of the middle of its forehead a horn of wonderful brightness four feet long, so sharp that whatever it charges is run straight through. Solinus sets all of it down with the flat competence of a man listing the parts of a plough. There is no gentleness in it and no maiden. That comes later, from other hands, and this one is never taken alive.",
+          "quote": "Sed atrocissimus est monoceros, monstrum mugitu horrido, equino corpore, elephanti pedibus, cauda suilla, capite cervino. Cornu e media fronte eius protenditur splendore mirifico, ad magnitudinem pedum quattuor, ita acutum ut quicquid impetat, facile ictu eius perforetur.",
+          "quote_source": "Solinus, Collectanea rerum memorabilium 52.39-40 (Latin text, The Latin Library, solinus4a.html)",
+          "suggested_refs": ["The Aberdeen Bestiary (Canterbury, c. 1200-1210), which cites Solinus by name for the monoceros, yale, bonnacon, leucrota, crocotta, parandrus, hyena and elephant"],
+          "sources": ["Solinus, Collectanea rerum memorabilium 52.39-40 (thelatinlibrary.com/solinus4a.html)", "Wikipedia, 'Aberdeen Bestiary' (fetched): 'Solinus is cited as a source for numerous entries throughout the manuscript'"]
+        },
+        {
+          "name": "Taprobane, where the circuit turns back",
+          "lat": 6.8096,
+          "lng": 80.4994,
+          "date": "0243-05-01",
+          "date_confidence": "Content of Collectanea 52-53. The pin follows the standard identification of Taprobane with Sri Lanka and sits at the gem country near Adam's Peak; the text gives no such precision. No travel by Solinus is attested. Date orders the segment.",
+          "campa": "Taprobane closes the outward reach: an island of gems, of sea creatures too large to describe without qualification, of a people whose customs get more attention here than most provinces of the empire receive anywhere in the book. After it the circuit turns and comes home. The structure is a walk out and a walk back, ending where it began, at the head of the world. Whether Solinus meant that shape as an argument or took it over with the rest of his material, the text does not say.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Collectanea 52-53, the Taprobane chapters and the maritime return route"],
+          "sources": ["Solinus, Collectanea rerum memorabilium 52-53 (Mommsen ed.)"]
+        }
+      ]
+    },
+    {
+      "name": "The Manuscript Centuries",
+      "stops": [
+        {
+          "name": "Reading Abbey, the circuit given a Last Judgment",
+          "lat": 51.4548,
+          "lng": -0.9631,
+          "date": "1150-01-01",
+          "date_confidence": "[R], and doubly hedged. The manuscript now at Leiden as BPL 68 is described as probably monastic and possibly from Reading Abbey; the dossier itself says 'probably', and this pass could not confirm the provenance independently. The interpolated geographical note, running the peoples back through Noah's sons and forward to the Last Judgment, is reported from the same description. Date is the conventional twelfth-century placement.",
+          "campa": "An English Benedictine house copies the Collectanea, and copying is not a neutral act. A geographical note gets inserted that runs the world's peoples back through the sons of Noah and forward to the Last Judgment, so that a pagan Roman circuit acquires a beginning and an end it never had. The marvels are unchanged. The frame around them is new. Monks with no use for a pagan circuit of the world copy it out anyway, once it has been given a beginning in Noah and an end at the Judgment.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Leiden, Universiteitsbibliotheek MS BPL 68, and the question of its English monastic origin"],
+          "sources": ["Manuscript description reported in the research dossier, hedged there as 'probably' and not independently verified in this pass"]
+        },
+        {
+          "name": "Leiden, two hundred and fifty survivors",
+          "lat": 52.1575,
+          "lng": 4.4811,
+          "date": "1180-01-01",
+          "date_confidence": "Mixed, and the mixture is stated: the pin is the book's present address, Leiden University Libraries at Witte Singel 27, while the date is the manuscript's approximate making in the second half of the twelfth century. The Leiden catalogue could not be reached in this pass (connection reset), so the presence of Solinus in BPL 68, its date and its interpolation rest on the dossier's description rather than on a catalogue record. Von Buren's count of at least 251 surviving manuscripts likewise rests on the dossier's report of her 1996 study.",
+          "campa": "The manuscript survives, proto-Gothic, monastic, its Christianized geography intact. Ninth-century editors had already been comparing copies, correcting them against one another and reorganizing them, which means Solinus was being edited, not merely transcribed, four hundred years before anyone set him in type. Nobody keeps this many copies of a book nobody reads. Von Buren counts at least two hundred and fifty-one of them still standing in European libraries.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Veronika von Buren, 'Une edition critique de Solin au IXe siecle', Scriptorium 50.1 (1996), on Carolingian editorial work and the manuscript census"],
+          "sources": ["Leiden, Universiteitsbibliotheek MS BPL 68 (holding reported; catalogue unreachable, connection reset)", "von Buren 1996, reported via the research dossier"]
+        },
+        {
+          "name": "London, the only portrait there is",
+          "lat": 51.5299,
+          "lng": -0.1276,
+          "date": "1450-01-01",
+          "date_confidence": "The present holding at the British Library, Egerton 818, is a catalogue fact; the illumination described, Solinus presenting his book to Adventus with a griffin, a lion, Bucephalus and the Temple of Diana, comes from the dossier's manuscript description and was not re-examined here. A contradiction stands unresolved: the manuscript is described as fifteenth-century Italian, while Coluccio Salutati, named as its annotator, died on 4 May 1406. Both cannot be right as stated.",
+          "campa": "An Italian copy carries pictures: Solinus handing his book to Adventus, and around that scene a griffin, a lion, Bucephalus, the Temple of Diana. Nobody knows what Solinus looked like, so the painter invents him, and the invention is the only portrait there is. The volume passed through the hands of Coluccio Salutati, chancellor of Florence, who annotated his own Solinus heavily. Whether this is that copy the dating does not make easy, since Salutati died in 1406 and the manuscript is called fifteenth century.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["British Library, Egerton MS 818, and its presentation miniature of Solinus and Adventus"],
+          "sources": ["British Library holding, Egerton 818 (catalogue fact)", "Wikipedia, 'Coluccio Salutati' (fetched): born 16 February 1331, died 4 May 1406", "Manuscript image description reported in the research dossier"]
+        },
+        {
+          "name": "Ann Arbor, eighty-six leaves across the ocean",
+          "lat": 42.278,
+          "lng": -83.7382,
+          "date": "1470-01-01",
+          "date_confidence": "The present holding at the William L. Clements Library is a standard library-record fact; the description of an 86-leaf Italian Polyhistor in a later vellum binding comes from the dossier and was not re-examined here. The date is the conventional fifteenth-century placement of the manuscript, not of its arrival in Michigan.",
+          "campa": "An Italian Polyhistor of eighty-six leaves, later rebound in vellum, sits in a library on the far side of an ocean Solinus described as the boundary of the world. The manuscripts scattered like this, into hundreds of collections across two continents, and the scattering is why the text was never lost: no single library had to survive for the book to. It was already everywhere by the time anyone thought to count. Eighty-six leaves, a later binding, and no record here of how the volume crossed.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["William L. Clements Library, Ann Arbor, its fifteenth-century Italian Polyhistor manuscript"],
+          "sources": ["Library holding reported in the research dossier; not re-examined against the catalogue in this pass"]
+        }
+      ]
+    },
+    {
+      "name": "The Printed Solinus",
+      "stops": [
+        {
+          "name": "Venice, the book set in type",
+          "lat": 45.438,
+          "lng": 12.3358,
+          "date": "1473-01-01",
+          "date_confidence": "[A]. Wikipedia's article on Solinus states that the first printed edition appeared at Venice in 1473; the printer Nicolaus Jenson and the title De mirabilibus mundi come from the dossier's account of the editio princeps. The coordinate is the printers' quarter near San Bartolomeo and the Rialto rather than an identified shop address.",
+          "campa": "Nicolaus Jenson prints the work at Venice under the title De mirabilibus mundi, about twenty years after movable type reaches Europe. Solinus goes through a press ahead of writers a modern reader would call more important, because the printers followed demand and the demand was for wonders: the dog-heads, the basilisk, the four-foot horn. A text copied by hand for twelve hundred years starts multiplying in weeks. The title on the sheets, De mirabilibus mundi, is not the title in either preface.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The 1473 editio princeps, De mirabilibus mundi, Venice"],
+          "sources": ["Wikipedia, 'Gaius Julius Solinus' (fetched): 'The first printed edition was published in Venice in 1473'"]
+        },
+        {
+          "name": "Vienna, a life invented out of the book",
+          "lat": 48.2131,
+          "lng": 16.3628,
+          "date": "1520-01-01",
+          "date_confidence": "[R] for the edition itself, which rests on the dossier's account and was not independently confirmed in this pass. [A] for the existence of Camers's prefatory 'Life of Solinus', which survives in the 1587 Golding translation, read directly in the archive.org scan of the 1587 volume.",
+          "campa": "Johannes Camers issues an edition from Vienna with a prefatory Life of Solinus attached, and that Life will travel with the book into other languages. Camers does what humanists do to any recovered ancient: he supplies the biography the sources refuse to supply, working from internal evidence and inference. There is nothing else to build one from. Everything a sixteenth-century reader knows about the author of the Polyhistor, Camers has worked out of the Polyhistor.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Johannes Camers, 'The Life of Solinus', prefixed to editions and translations from the sixteenth century onward"],
+          "sources": ["Camers edition (Vienna, 1520) reported in the research dossier, not independently confirmed", "Camers's 'Life of Solinus' read in the 1587 Golding translation (archive.org, bim_early-english-books-1475-1640_the-worthie-worke-of-jul_solinus-caius-julius_1587)"]
+        },
+        {
+          "name": "Poitiers, the schoolroom text",
+          "lat": 46.5802,
+          "lng": 0.3404,
+          "date": "1554-01-01",
+          "date_confidence": "[R]. Elias Vinet's Poitiers edition of 1554 rests on the dossier's account and was not independently confirmed in this pass. The characterization of the book's school and antiquarian use is inference from the pattern of editions, not a documented statement by any sixteenth-century schoolmaster.",
+          "campa": "Elias Vinet edits Solinus at Poitiers. The editions come steadily now, one every couple of decades somewhere in Europe, because the book does what a school text has to do: it is short, it is arranged by country, and every page has something on it a fourteen-year-old will remember. The antiquarians want the place-names. The schoolmasters want the monsters. Neither party ever publishes a case for the book, and between them they keep it in print for three hundred years.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Elias Vinet's 1554 Poitiers edition; Giovanni Vincenzo Belprato's Italian translation, Venice 1559"],
+          "sources": ["Vinet edition reported in the research dossier, not independently confirmed"]
+        },
+        {
+          "name": "Antwerp, another press, another edition",
+          "lat": 51.2194,
+          "lng": 4.3997,
+          "date": "1572-01-01",
+          "date_confidence": "[R]. Martin Delrio's Antwerp edition of 1572 rests on the dossier's account and was not independently confirmed in this pass. The coordinate is the Plantin printing house, which is the standard pin for Antwerp scholarly Latin of the decade rather than a documented imprint for this book.",
+          "campa": "Martin Delrio's edition appears out of the Antwerp printing world, in a decade when the city produces scholarly Latin at a rate no other in Europe matches. Solinus has now been in continuous print for a century, in Venice, Vienna, Poitiers and the Low Countries, without anyone having had to argue for him. Nobody publishes a defence of the book, because nobody has yet attacked it in a way that requires one. Belprato has already put it into Italian at Venice; Golding is fifteen years from putting it into English. The editions simply keep coming.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Plantin press and the Antwerp Latin book trade of the 1570s"],
+          "sources": ["Delrio edition reported in the research dossier, not independently confirmed"]
+        },
+        {
+          "name": "London, the ape that was denied",
+          "lat": 51.5138,
+          "lng": -0.0984,
+          "date": "1587-01-01",
+          "date_confidence": "[A] for the translation and for the quoted passage, both read directly in the archive.org full text of the 1587 volume. Two corrections to the received story are carried here: the epithet is spelled 'Plinies Ape' without an apostrophe, and it is not Golding's own verdict but a line in Camers's prefatory Life, quoted there in order to be refuted. The copy read is titled 'The Worthie Worke'; 'The Excellent and Pleasant Worke' is a genuine variant title-page of the same edition. The coordinate is the St Paul's Churchyard book trade, inferred from standard practice rather than from the imprint.",
+          "campa": "Arthur Golding puts the book into English, advertising on the title page the secretes and prouidence of nature, the description of countries, the maners of the people. Bound in front of it is Camers's Life, which records the insult that has dogged Solinus ever since and then refuses it: apes, it says, are those who repeat other men's writing in the same order without alteration, and Solinus has followed Pliny's phrase so closely that scarcely anyone has come nearer the majesty of that style. The epithet outlived the rebuttal by four hundred years.",
+          "quote": "There are some that terme Solinus by the name of Plinies Ape, in like manner as Iulius Capitolinus, Plinius Caecilius, and Sidonius Apollinaris reporte, that Titian was called the Ape of the Orators, and Arulen the Ape of the Stoiks.",
+          "quote_source": "[Johannes Camers], 'The Life of Solinus', in Arthur Golding, trans., The Worthie Worke of Iulius Solinus Polyhistor (London: I. Charlewoode for Thomas Hacket, 1587), prefatory matter",
+          "suggested_refs": ["The Oxford Text Archive edition of Golding's 1587 translation, CC0, handle 20.500.12024/A12581"],
+          "sources": ["archive.org full text of the 1587 Golding (bim_early-english-books-1475-1640_the-worthie-worke-of-jul_solinus-caius-julius_1587)", "New World Encyclopedia, 'Gaius Julius Solinus': 'Arthur Golding produced an English translation in 1587'", "ota.bodleian.ox.ac.uk, handle 20.500.12024/A12581 (fetched)"]
+        },
+        {
+          "name": "Paris, the commentary that swallows the text",
+          "lat": 48.8496,
+          "lng": 2.3441,
+          "date": "1629-01-01",
+          "date_confidence": "[A] for the 1629 Paris first edition, confirmed at de.wikipedia 'Claudius Salmasius' ('Plinianae exercitationes in Solinum, Paris, 1629'). The enlarged edition of 1689 was NOT Parisian: Internet Archive records A212099 and A212100 give its imprint as 'Trajecti ad Rhenum', that is Utrecht, printed by Johannes vande Water, Johannes Ribbius, Franciscus Halma and Guilielmus vande Water. Saumaise died in 1653, so the second edition is posthumous.",
+          "campa": "Claude Saumaise publishes the Plinianae exercitationes at Paris: an emended Polyhistor with a commentary so large that the ancient text sits inside it like a seed in fruit. Solinus has stopped being read for information about the world and started being read as an instrument, a compact index against which every disputed passage in Pliny can be checked. An enlarged edition follows sixty years later out of Utrecht, thirty-six years after Saumaise is dead.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Claudii Salmasii Plinianae exercitationes in Caji Julii Solini Polyhistora, 2 vols. (Utrecht, 1689), Internet Archive A212099 and A212100"],
+          "sources": ["de.wikipedia, 'Claudius Salmasius' (fetched), for the 1629 Paris imprint", "Internet Archive records A212099 and A212100 (fetched), for the 1689 Utrecht imprint"]
+        }
+      ]
+    },
+    {
+      "name": "The Text Re-dated",
+      "stops": [
+        {
+          "name": "Berlin, the manuscripts sorted into three",
+          "lat": 52.52,
+          "lng": 13.405,
+          "date": "1895-01-01",
+          "date_confidence": "[A] for the edition, recorded in the standard reference entries. The quoted French is von Buren's own modern description of the second dedicatory letter, retrieved twice from persee.fr, and not a translation of Solinus's Latin; its context is a sentence about Mommsen's manuscript classes, which is why the letter is described here as a feature of the third class rather than a settled part of the text. Weyman's 1896 review is reported from the dossier and was not re-fetched from the original.",
+          "campa": "Theodor Mommsen produces the critical edition and divides the surviving manuscripts into three classes, the third marked off by twenty-six textual additions and by a second dedicatory letter. That letter, in which the author explains he reworked his own text to repair an incomplete version circulated without his consent, is therefore a property of one branch of the tradition rather than a settled part of the book. Mommsen denies Solinus wrote it. Carl Weyman, reviewing him a year later, calls editing a feeble-minded compiler an act of self-denial.",
+          "quote": "une deuxieme lettre de dedicace ou l'auteur explique qu'il a remanie son texte lui-meme pour ameliorer une premiere version incomplete, diffusee sans son consentement",
+          "quote_source": "Veronika von Buren, 'Une edition critique de Solin au IXe siecle', Scriptorium 50.1 (1996), p. 22, describing Mommsen's third manuscript class (accents stripped to keep the file plain ASCII; the printed text carries them)",
+          "suggested_refs": ["Theodor Mommsen, ed., C. Iulii Solini Collectanea rerum memorabilium (Berlin: Weidmann, 1895), the foundational modern edition"],
+          "sources": ["New World Encyclopedia, 'Gaius Julius Solinus': 'The 1895 edition by Mommsen includes scholarly apparatus on manuscripts and authorities'", "persee.fr/doc/scrip_0036-9772_1996_num_50_1_1744 (fetched twice)", "Weyman's 1896 review, reported via the research dossier"]
+        },
+        {
+          "name": "Melbourne, the date moves again",
+          "lat": -37.8136,
+          "lng": 144.9631,
+          "date": "2022-01-01",
+          "date_confidence": "[A] for the dissertation, confirmed at minerva-access.unimelb.edu.au. [R] for its conclusion, which is one scholar's argument from internal evidence and not a new dated witness; it stands against the traditional third-century floruit rather than replacing it. No external document has ever dated the Collectanea, which is why an eighteen-hundred-year-old text can still change centuries.",
+          "campa": "Giovanni Piccolo argues in a Melbourne dissertation that the Collectanea belongs not to the third century but to the reign of Constantine, and that it is not an epitome of Pliny at all but a designed work with a political purpose: a providential, Rome-centred world order defended by animal paradoxography at the moment Rome's centrality was ceasing to be obvious. The evidence is internal, as all the evidence about Solinus has always been. Eighteen hundred years on, the only witness is still the book.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["Giovanni Piccolo, 'The Collectanea Rerum Memorabilium by Gaius Julius Solinus: A Roman Geography for a Changing World' (PhD diss., University of Melbourne, 2022)", "Kai Brodersen, ed., Solinus: New Studies (Heidelberg: Verlag Antike, 2014); Arwen Apps's translation, hosted at ToposText with 1,508 place references tagged"],
+          "sources": ["minerva-access.unimelb.edu.au/items/3d736c72-c6a4-4559-9f0d-ebb8a2d7e1ff (fetched)", "topostext.org/work/747 (fetched)", "OpenLibrary search API (fetched), for Brodersen's Solinus: New Studies, Verlag Antike, 2014"]
+        }
+      ]
+    }
+  ]
+}
