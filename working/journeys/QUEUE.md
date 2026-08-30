@@ -154,7 +154,6 @@ Satoshi Nakamoto and Pierre Curie.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Auguste Kerckhoffs** | Dutch-born linguist and cryptographer, formulated Kerckhoffs's principle (a cipher must remain secure even if everything about it except the key is public), the foundational axiom of modern cryptography; joins the corpus's cipher wing (claude_shannon, diffie, hellman already done) |
 | 0 | **William F. Friedman** | American cryptanalyst, broke Japan's Purple cipher before WWII, coined the term 'cryptanalysis'; married to Elizebeth Smith Friedman just queued, herself a pioneering codebreaker; joins the corpus's cipher wing |
 | 0 | **Elizebeth Smith Friedman** | American cryptanalyst, broke Prohibition-era rum-runner ciphers and testified as an expert witness, later worked against Nazi spy networks in South America; married to William F. Friedman just queued, a direct husband-wife interlock in the cipher wing |
 | 0 | **Herbert Yardley** | American cryptologist, founder of the Black Chamber, the US's first peacetime codebreaking unit, later wrote the exposé The American Black Chamber that scandalized Washington; joins the corpus's cipher wing (william_f_friedman just queued) |
