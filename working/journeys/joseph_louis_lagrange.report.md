@@ -1,114 +1,144 @@
-# Joseph-Louis Lagrange (Giuseppe Lodovico Lagrangia), 1736-1813
-*Research report for `joseph_louis_lagrange.journey.json`, 2026-08-29, from the verified pool, checked against the corpus files already carrying Lagrange material.*
+# Joseph-Louis Lagrange (1736-1813): research report
 
-**[A]** = attested, source named inline. **[R]** = reconstruction, tradition, or attribution whose wording or provenance is unstable. Where the two spines disagree, both readings are printed and neither is adjudicated. Those spines are the **MacTutor** biography (mathshistory.st-andrews.ac.uk) and **Treccani**, *DBI*, "Giuseppe Luigi Lagrange," by **Luigi Pepe**; an unattributed **[A]** below means MacTutor.
+*Slug `joseph_louis_lagrange`. Written 2026-08-29 from the verified research pool, cross-read against the atlas files that already name him. Legend: **[A]** attested, source named; **[R]** reconstruction, tradition, or attribution with no located primary document. Contradictions are flagged, not adjudicated. Full pin provenance lives in each stop's `date_confidence`; only corrections and rejections are repeated here.*
 
-## Corrections applied to the pool
+Four names for one man, and the disagreement starts there. Baptised **Giuseppe Lodovico Lagrangia** in Turin **[A: MacTutor; Treccani DBI]**; signs his first publication **Luigi De la Grange Tournier** **[A]**; filed by the Turin academy as **Giuseppe Luigi Lagrange Tournier** **[R: Accademia delle Scienze record, cited in the dossier, not re-fetched]**; buried by France as **Joseph-Louis Lagrange**. The French form is used because it is the corpus's existing usage (`pierre_simon_laplace`, `joseph_fourier`, `augustin_louis_cauchy` all name him so); the Piedmontese claim gets its own closing stop rather than being suppressed.
 
-| # | Pool said | Corrected to, and on whose authority |
-|---|---|---|
-| 1 | Halley on algebraic analysis vs Greek geometry turned him | Halley's **1693 work on algebra in *optics*** (MacTutor) |
-| 2 | The Leibniz-Bernoulli priority shock is [R], "early 1750s" | **[A]**, August or September 1754 (MacTutor) |
-| 3 | D'Alembert said he needed "a sign his country cares" | the printed letter, quoted verbatim (MacTutor) |
-| 4 | Left Turin 1766 "through Paris" | **21 August 1766**, via Paris **and London** (MacTutor, fr.wikipedia) |
-| 5 | Married Vittoria Conti 6 September 1767 | **September 1767**, no day supported (fr.wikipedia, MacTutor) |
-| 6 | Four squares and Wilson both 1770 | **1770** and **1771** (MacTutor) |
-| 7 | Second marriage 31 May 1792 | **24 May 1792** (Treccani) |
-| 8 | Witnessed Lavoisier's guillotining | **on learning of** the execution (MacTutor) |
-| 9 | From 1811 began revising the *Mécanique* | vol. 1 of the 2nd ed. **published 1811**, vol. 2 posthumous 1815 (en.wiki) |
-| 10 | Order of the Réunion "8 April 1813" | **3 April** (MacTutor); Treccani says *otto giorni* before death |
-| 11 | "Leçon cinquième" for the wings-of-mathematics quote | **Leçon seconde** (Moritz's own citation line) |
-| 12 | "Lofty pyramid" traceable only to Bell 1937 | better carrier **Pepe, *Lettera Matematica* 2 (2014)**; still **[R]** |
+---
 
-## 1. Turin, 1736-1755: the self-taught boy
+## 1. Turin, 1736-1763
 
-- Born **25 January 1736**, Turin, capital of the Kingdom of Sardinia, baptized **Giuseppe Lodovico Lagrangia** **[A both spines]**. Eldest of **eleven children**, of whom he and one younger brother alone reached adulthood **[A]**; father a crown official and doctor of law who lost the household's money in speculations **[A]**, mother **Teresa Gros**, "figlia unica di un ricco medico di Cambiano" **[A Treccani]**. **French descent from Tours** claimed, though Treccani stresses the near ancestry is overwhelmingly Piedmontese **[A Treccani]**; he signs his first paper "Luigi De la Grange Tournier" **[A]**.
-- "If I had been rich, I probably would not have devoted myself to mathematics." **[A as quoted text; R as to provenance: MacTutor gives no footnote and the line runs through the Delambre/Chaptal memorial tradition]**
-- **University of Turin at about fourteen**, in **law** at his father's wish; law abandoned by **1752**, starting from Christian Wolff **[A Treccani; MacTutor does not carry the law studies at all]**. Turned to mathematics by Halley (correction 1), self-taught thereafter from Newton, Leibniz, the Bernoullis, Euler and Clairaut, with no directing teacher **[A]**.
-- **23 July 1754**: first paper, in Italian, to **Giulio Carlo Fagnano**, on an analogy between the binomial expansion and the successive derivatives of a product. **The month after** publication he found the same analogy in the printed **Leibniz-Johann Bernoulli correspondence** and feared "being branded a cheat who copied the results of others" **[A]** (correction 2).
-- By end of **1754**, results on the **tautochrone** **[A]**. **12 August 1755**: the letter to **Euler** carrying those results and a purely analytic method for maxima and minima, the origin of the calculus of variations **[A]**. Euler had the equation geometrically in 1744 and delayed his own account so the younger man got the credit **[A Euler Archive guide, via the pool, not refetched]**.
-- **Artillery School appointment, 1755. CONTRADICTION.** MacTutor: **28 September 1755**, professor, at nineteen. Treccani: **26 September 1755**, an assistant post. **[A both, unresolved]** The tradition of appointment **at sixteen** is supported by neither and its carriers cite nothing. **[R, rejected; named as tradition in the campa]**
+- **Birth, 25 January 1736**, to Giuseppe Francesco Lodovico Lagrangia and Teresa Grosso, eldest of eleven **[A: MacTutor; Treccani (Luigi Pepe)]**. **No source consulted gives the house or street: gap.** Pin is the corpus-canonical Turin pair 45.0703, 7.6869 from `pierre_simon_laplace.journey.json`.
+- **Cambiano dropped.** The mother was a Cambiano physician's daughter **[A: MacTutor; en.wikipedia]**, but nothing attests Lagrange going there, and a stop belongs to whoever was actually there. The fact survives inside the birth campa. The offered pin was also about 1 km southeast of the town centre.
+- **University**, enrolled at fourteen, aimed at law, turned by reading Halley **[A: Treccani]**. **Contradiction:** MacTutor says "College of Turin", Treccani "University of Turin"; Treccani followed as more specific, not resolved. **Coordinate corrected:** the pool's 45.0672, 7.6879 is about 240 m off; it.wikipedia puts the Palazzo dell'Universita, Via Po 17, at 45.0693, 7.6888. The Halley story comes through Delambre's eloge **[R: Delambre not consulted directly]**.
+- **First publication**, letter in Italian to Giulio Carlo Fagnano, 23 July 1754 **[A: MacTutor; Treccani]**; the result duplicated Leibniz and Johann Bernoulli **[A]**.
+- **The Euler letter, 12 August 1755 [A: MacTutor]**. The tradition that Euler held back his own work so Lagrange could publish first is standard in the literature and **not verified in this pass [R]**: stated in `date_confidence`, kept out of the prose. The Euler Archive URL the dossier cited **404'd on check**.
+- **The artillery school: contradiction re-weighted.** The dossier gave "26 or 28 September 1755" as an even split and said "professor". It is not even: Treccani ("assistente per il corso di matematica delle Reali Scuole di artiglieria", 26 settembre) and it.wikipedia ("Sostituto del Maestro di Matematica", 26 September) both give the 26th **and** an assistant rank **[A]**, MacTutor alone the 28th and "professor" **[A, minority]**. The file leads with 26 September and "assistant", records the 28th, resolves nothing; the "appointed at sixteen" tradition is a compression of this and is dropped **[R]**. **Pin unverified:** 45.0648, 7.6747 is checkable against no source for the Regie Scuole d'Artiglieria, which sat by the Regio Arsenale nearer 45.068, 7.679.
+- **Berlin election: contradiction, unresolved.** MacTutor 2 September 1756; Treccani verbatim, "Lo stesso 5 ottobre il L. divenne associato dell'Academie royale des sciences et belles lettres de Berlin". The dossier's note that the date is "documented via convergent secondary scholarship" is wrong: the two best sources diverge by a month. **No Academy register consulted: gap.**
+- **The Turin society, 1757**, with Cigna and Saluzzo di Monesiglio, becoming the Royal Academy of Sciences of Turin, journal the *Miscellanea Taurinensia* **[A: MacTutor; Treccani]**. Pin 45.0682, 7.6836 marks the Academy's **later** seat; **the private society's original rooms are itemized nowhere reached: gap stated in the stop.**
 
-## 2. Turin, 1756-1763: the Miscellanea Taurinensia
+---
 
-- Elected **foreign member of the Berlin Academy** on Euler's recommendation, at twenty. **CONTRADICTION:** MacTutor **2 September 1756**, Treccani **5 October 1756**. **[A both, unresolved]**
-- **1757**: co-founded with **Cigna** and **Saluzzo di Monesiglio** the private society that became the Royal Academy of Sciences of Turin. **[A both spines; the pool tagged it [R] from Wikipedia, so upgraded]**
-- Chief contributor to the **Miscellanea Taurinensia**, volumes **1759, 1762, 1766**: maxima and minima, calculus of variations, vibrating strings, sound, mechanics **[A]**.
-- **Laplace crossing.** `pierre_simon_laplace.journey.json` pins a stop at the canonical Turin pair for Laplace's first paper in the *Miscellanea* c.1771, opening a correspondence that ran the rest of their lives; its confidence field notes "Lagrange has no journey file in the corpus at the time of writing; he stands in QUEUE.md." That gap is now closed. **[A laplace file, sourced there to en.wikipedia]**
+## 2. The 1763-64 journey
 
-## 3. The first road out, 1763-1766
+Left Turin early November 1763 intending Paris and then London **[A: Treccani]**. Fell seriously ill in Paris; d'Alembert and the Neapolitan diplomat Domenico Caracciolo saw him through it; met Clairaut, Condorcet, the abbe Nollet **[A: Treccani]**. **Whether the London leg happened is not stated by Treccani and is left open.** Stopped at Ferney to meet Voltaire on the road home **[A: Treccani, "si fermo a Ferney, per fare la conoscenza di Voltaire"]**. Back in Turin May 1764. Prizes: libration of the Moon 1764, inequalities of Jupiter's satellites 1766 **[A: MacTutor]**, the second folded into the first stop rather than staged twice at one pin.
 
-- **November 1763**: leaves Turin for the first time in his life with the Neapolitan ambassador **Caraccioli**, bound for London by way of Paris; the libration entry goes in before departure. **Winter 1763-1764**: reaches Paris, falls seriously ill, never continues to London; meets d'Alembert, Clairaut, Condorcet in recovery **[A]** (correction 3).
-- **1764**: Académie prize for the libration memoir, first of five (libration 1764, Jupiter's satellites 1766, three-body problem 1772 shared with Euler, lunar acceleration 1774, comets 1780). **Early 1765**: home to Turin, still unwell, into the Jupiter-satellites competition **[A]**.
-- **21 August 1766**: leaves Turin for good, by way of Paris and London (correction 4). He had **refused Berlin once**, while Euler held the post: "It seems to me that Berlin would not be at all suitable for me while M Euler is there." **[A as quoted by MacTutor; the letter is undated there]**
-- **[R] The Frederick epigram.** The courtship through d'Alembert's mediation is documented; the polished form about the greatest mathematician in Europe at the court of the greatest king in Europe varies across nineteenth-century retellings, is fixed to no primary document, and is quoted nowhere in the file.
+- **Pin inherited, pool pin rejected:** Ferney 46.2574, 6.1036, byte-identical with `adam_smith.journey.json`; the pool's 46.2559, 6.1088 unused. Voltaire has no journey file, so this is geography inheritance, not interlock.
+- **Source error caught.** MacTutor's fetched summary attached a "Caraccioli in London" stop to the **1766** leg: almost certainly a garbled duplicate of the 1763 Paris episode with the same diplomat. No 1766 London visit is carried.
 
-## 4. Berlin, 1766-1787: director of mathematics
+---
 
-- Arrives **October 1766**; succeeds Euler as **Director of Mathematics** on **6 November 1766** **[A]**. **Jean de Castillon** had wanted the post and was disappointed **[A fr.wikipedia]**; **no evidence it hardened into enmity**, a negative stated as a negative.
-- **Marriage to Vittoria Conti, September 1767** (correction 5); no children, and he wrote to d'Alembert that he wanted none **[A]**. **Four-square theorem 1770; Wilson's theorem 1771** (correction 6), with the reduction of binary quadratic forms, continued fractions and Pell's equation around them **[A]**.
-- **1770-1771**: *Réflexions sur la résolution algébrique des équations*, permutations of the roots and resolvents **[A]**. He did **not** solve the general quintic and did **not** invent group theory **[A as a negative: standard modern reading]**.
-- **1772**: *Essai sur le Problème des Trois Corps*, the equilateral-triangle solutions now called **L4 and L5**; prize shared with Euler, who had the three collinear points already. **[A NASA Science, "What Is a Lagrange Point?"; MacTutor]**
-- **1774** prize on the Moon's secular acceleration, **1780** on cometary perturbations **[A]**. *Gap:* sources differ by a year or two between competition, decision and printed memoir for the comet prize; the file says so.
-- **1783**: **Vittoria Conti dies** after a long illness he nursed her through; severe depression follows **[A]**. **[R]** The story of the *Mécanique analytique* left unopened for two years is dated by nobody who tells it and is refuted by the 1788 printing; reported as a story. The book itself is **written in Berlin across the 1780s** and printed only after he leaves **[A pool; MacTutor for the printing]**.
+## 3. Berlin, 1766-1787
 
-## 5. Leaving Prussia, 1786-1788
+- **Departure: sourcing error corrected.** The dossier credited Treccani for "1766"; Treccani as fetched prints the **year 1767**, "Il 21 ag. 1767 il L. lascio Torino per non farvi piu ritorno". MacTutor, en.wikipedia and fr.wikipedia all give **1766 [A]**. The file uses 21 August 1766, takes day and month from Treccani, and does not cite Treccani for the year. The same defect infects the installation item, whose Treccani sentence also sits inside the 1767 passage. Installed **6 November 1766 [A: MacTutor]**, arrival 21 October **[A for day and month only]**.
+- **Pin inherited:** Berlin is 52.517, 13.3888 throughout, byte-identical with `leonard_euler.journey.json`. The pool's 52.5177, 13.3944 is unused: a second pin would put predecessor and successor at different addresses for one desk.
+- **Marriage to Vittoria Conti: false precision removed.** The dossier's "6 September 1767" appears in none of MacTutor, Treccani, fr.wikipedia, en.wikipedia; MacTutor says "just under a year from the time he arrived", fr.wikipedia "September 1767". Dated 1767-09-01, day a declared default. No children **[A]**.
+- **Work.** Four-square theorem 1770; Wilson's theorem 1771; *Reflexions sur la resolution algebrique des equations* 1770; three-body prize shared with Euler and the *Essai sur le Probleme des Trois Corps* 1772 with the equilateral solutions; lunar secular acceleration 1774 **[all A: MacTutor; NASA names the five points after him]**. Cometary perturbations: **contradiction**, MacTutor 1780 against the dossier's 1778, probably competition year against decision year, unresolved.
+- **Letter to Laplace, 15 September 1782 [A: MacTutor, which quotes it]:** contemporary proof that the *Mecanique analytique* was substantially finished six years before printing.
+- **Vittoria's death, 1783 [A: MacTutor; Treccani]**, followed by severe depression. The dossier's detail that a copy of the unprinted *Mecanique* lay unopened for two years is later memorial anecdote **[R]**, not carried. **Frederick II dies 17 August 1786:** the day is the dossier's secondary reading, MacTutor gives only the year **[A year, R day]**.
+- **Departure, 18 May 1787: a hedge deleted.** The dossier claimed MacTutor gives 18 May as arrival rather than departure. That is wrong about its own source: MacTutor reads "18 May 1787: Left Berlin for Paris" **[A]**, and fr.wikipedia independently gives departure 18 May, arrival 29 July **[A]**.
 
-- **Frederick II dies 17 August 1786.** Within the year Spain, Naples and Louis XVI's France are bidding **[A for France's offer; the pool for Spain and Naples]**. **18 May 1787**: leaves Berlin after twenty-one years with an honorable release **[A for the date; A for its negotiated character via Taton 1988, not refetched]**. **[R]** That he kept the Prussian pension is the pool's, uncorroborated here.
-- Arrives Paris as **pensionnaire vétéran** of the Académie royale, lodged near the **Louvre**, on the understanding that he need not teach **[A en.wikipedia, it.wikipedia; MacTutor for the membership]**; **Treccani dates the formal joining 13 June 1787**, MacTutor gives no day. Two unproductive years follow **[A]**; that chemistry, metaphysics and Latin took the place of mathematics is the pool's **[R]**. **1788**: *Mécanique analytique* published by **Desaint** **[A]**, its preface quoted verbatim from Hobson (1912) **[A]**.
+---
 
-## 6. The metre, the Terror, the schools, 1790-1799
+## 4. Paris, 1787-1793
 
-- **May 1790**: commission on weights and measures, with **Borda, Condorcet, Lavoisier, Laplace, Monge** **[A]**. In **December 1793** the Committee of Public Safety struck **Laplace** off on political grounds; **Lagrange was left on** **[A via the laplace file]**.
-- **24 May 1792**: marries **Renée-Françoise-Adélaïde Le Monnier**, daughter of the astronomer Pierre-Charles Le Monnier (correction 7). Her age: fr.wikipedia gives birth year 1767 (about 25), en.wikipedia says 24, and the file preserves the range **[A both]**. The contract was **countersigned by Louis XVI** weeks before the monarchy fell **[A both spines]**. The archival rebuttal of the age gossip is Taton's, not refetched **[R]**.
-- **The Terror.** A Sardinian-born, Prussian-employed foreigner, he fell under laws targeting enemy nationals and was repeatedly exempted by name; **never imprisoned, indicted or tried** **[A pool; a negative stated as a negative]**. MacTutor adds that **Lavoisier had saved him from arrest**, and quotes him saying a wise man conforms strictly to the laws of the country he lives in "even when they are unreasonable" **[A as quoted; undated there]**.
-- **8 May 1794:** Lavoisier condemned and guillotined; Lagrange speaks **on learning of it** (correction 8). The remark is **[R]**: MacTutor, citing H. Eves, has "cause this head to fall," other carriers "cut off that head," and no contemporaneous document was located.
-- **December 1794**: first professor of analysis at the **École centrale des travaux publics**, renamed **École Polytechnique** within months **[A]**. *Gap:* no day is given anywhere reached; 1794-12-21 is placed.
-- **20 January to 19 May 1795**: teaches at the **École normale de l'an III** in the Grand Amphithéâtre of the Muséum, sharing the chair with **Laplace**, with **Joseph Fourier**, twenty-six, on the benches. **[A for teaching and Fourier; fr.wikipedia for venue and dates; the laplace file for the shared chair]** **[R]** Fourier's report of the weak voice and Italian accent is the pool's.
-- **6 July 1795**: founding geometer of the **Bureau des longitudes**, first meeting at the **Petit Luxembourg**, with Laplace, Méchain, Cassini, Delambre **[A fr.wikipedia via the laplace file, which supplies the venue the pool lacked]**. **27 December 1795**: president of the mathematical sciences class of the **Institut National** **[A Treccani]**.
-- **1797**: *Théorie des fonctions analytiques*; **1800**: *Leçons sur le calcul des fonctions* **[A]**. The programme is not sound by later standards: a smooth function need not equal its own Taylor series **[A as modern assessment: Ferraro, not refetched]**.
+- **Arrival: month corrected.** The dossier put it in May 1787; he left Berlin 18 May and reached Paris 29 July **[A: fr.wikipedia]**. Treccani dates the Academie admission as *pensionnaire veteran* to 13 June 1787 **[A]**, before he arrived: an election in absentia, not an appearance.
+- **Mecanique analytique, 1788**, Veuve Desaint **[A: MacTutor; Treccani]**. The no-figures line in the Avertissement is his own **[A]**; the later "Lagrange scorned geometry" legend inflates it and is not carried. The repeated detail that Legendre saw the volume through the press was **not verified** and stays out of the prose.
+- **Weights and measures, May 1790**, with Borda, Condorcet, Lavoisier, Laplace, Monge, Lagrange for decimal division **[A: MacTutor]**. `pierre_simon_laplace.journey.json` carries the same commission from the other side, adding Laplace's removal from it in December 1793.
+- **Second marriage: both the date and its source were wrong in the dossier.** It attributed "31 May 1792" to Wikipedia; the English article does not contain that date at all. The real dispute is **Treccani, 24 May 1792** against **it.wikipedia, 31 May 1792**, with a notarial contract of 3 June **[both A]**. MacTutor gives no day, so citing it for 31 May is unsupported. Dated 1792-05-01, day unresolved. Adelaide Le Monnier's dates, **1767-1833**, are established by Sarton, Taton and Beaujouan (1950) from family papers held in Turin **[A]**: the study that corrected the later "old man and child bride" gossip. She was 24-25, he 56.
 
-## 7. Senator, count, second edition, 1799-1813
+---
 
-- **24-25 December 1799**: among the inaugural members of the **Sénat conservateur**; his activity there is ceremonial **[A Treccani; pool]**. **[R]** Him teasing Laplace about the senatorial costume is Cournot's, unverified against Cournot's text.
-- **1802-1804, [R]:** Lagrange a visitor at Louis-François Cauchy's table, telling the father to keep the boy off mathematics until he had languages. `augustin_louis_cauchy.journey.json` carries it as Belhoste-derived tradition and flags it unverified; it sits on Lagrange's file because the visit is **his own**.
-- **8 August 1802, Malmaison:** in **William Herschel's Paris diary** (Lubbock, *The Herschel Chronicle*, 1933, p. 310), Napoleon asks who is the author of all this and Laplace answers with a chain of natural causes. **Lagrange was present.** **[A via the laplace file; Lubbock reached only through a citing source]** "I had no need of that hypothesis" is **[R]**, traced to Rouse Ball decades later and absent from the diary.
-- **Honours. CONTRADICTION, NOT RESOLVED:** Treccani dates the **Légion d'honneur** to 1804; MacTutor groups **Grand Officer** and **Count of the Empire** under 1808. Both printed in the campa.
-- **1808-1811**: **Poisson's** result on orbital stability draws him back to celestial mechanics at seventy; a renewed treatment appears 1808 **[A pool]**, then the second edition (correction 9). **Order of the Réunion**, 3 April 1813 against Treccani's *otto giorni* (correction 10). **[R]** Delambre finding him calm about his own death comes through the Delambre tradition alone.
-- **Died 10 April 1813** on the **rue du Faubourg-Saint-Honoré**, aged 77 **[A both spines; en.wikipedia supplies the number 128]**.
+## 5. The Terror
 
-## 8. Afterlife
+- **Academies suppressed, 8 August 1793 [A: MacTutor]**.
+- **The law on foreigners: contradiction,** MacTutor September 1793 against en.wikipedia October. More important, **the dossier dropped the agent**. MacTutor verbatim: "Lavoisier intervened on behalf of Lagrange, who certainly fell under the terms of the law, and he was granted an exception." Restored to the claim; without it the 1794 execution does not land.
+- **Lavoisier's execution, 8 May 1794. Whether Lagrange was present is not established by any source reached.** The stop is pinned at the Place de la Revolution (48.8648, 2.3268, from `louis_xvi.journey.json`) because that is where the event happened, and the campa says outright that what Lagrange said on hearing it is not certainly recorded. The remark is **[R]**: wording and first documentary appearance untraced. MacTutor's quotations page carries one wording, Wikiquote a variant citing Hughes, *Annual Editions: Western Civilization* (1997). Both recorded, neither authenticated.
 
-- Buried in the **Panthéon, vault II**, after a solemn funeral **[A the Panthéon burial table via en.wikipedia; both spines for the funeral]**; the **tomb inscription** is quoted in translation. *Gap:* the interment date was not established, and the file's 1813-04-11 is a placed value.
-- **1813**: eulogies on both sides of the Alps, **Delambre** at the Institut, **Vassalli Eandi** in Turin. **1867-1892**: *Oeuvres*, ed. **Serret and Darboux**, 14 vols. **[A Treccani]**; *Analytical Mechanics*, tr. Boissonnade and Vagliente, 1997 **[A en.wikipedia]**.
-- **1889**: name on the **Eiffel Tower**, sixth on the north-west face. Lunar crater **Lagrange**, asteroid **(1006) Lagrangea**, **via Lagrange** in Turin, **rue Lagrange** in Paris 5e **[A en.wikipedia]**. **Laboratoire Lagrange (UMR 7293)**, Mont Gros above Nice **[A fr.wikipedia]**. *Gap:* its founding year was not established; the file's 2011 is a placed value.
-- **[R] "Lagrange is the lofty pyramid of the mathematical sciences."** See correction 12. **No contemporaneous speech, letter or Moniteur report was located**, and neither Wikiquote nor MacTutor's quotations archive carries it; the file presents it as an attributed saying.
+---
 
-## Coordinates
+## 6. The schools of the Republic
 
-Corrected against Nominatim: Cambiano (TO) 44.9563, 7.7644 to **44.9714, 7.7787** (~1.9 km SW, open country); University of Turin 45.068, 7.6919 to **45.0692, 7.6905**; Palais du Luxembourg 48.8462, 2.3372 to **48.8485, 2.3378** (~260 m south, in the Jardin); 128 rue du Faubourg-Saint-Honoré 48.8721, 2.3157 to **48.8723, 2.3126**; via Lagrange, Turin 45.068, 7.685 to **45.0629, 7.6806** (~350 m east).
+- **Ecole polytechnique.** Founded 11 March 1794 as the Ecole centrale des travaux publics, opened December 1794, Lagrange its first professor of analysis, first premises the Palais Bourbon **[A: MacTutor]**. **Coordinate:** the pool's 48.8606, 2.3183 is about 155 m short of the Palais Bourbon; the file uses **48.8608, 2.3183**, byte-identical with `joseph_fourier.journey.json` for this same chair.
+- **Ecole normale de l'an III**, session fixed to the day, **20 January to 19 May 1795**, in an amphitheatre of the Museum national d'histoire naturelle **[A: fr.wikipedia]**. **Two corrections:** the dossier omitted that **Laplace shared the mathematics with him [A: MacTutor]**, and its verifier could not confirm **Fourier's attendance** and proposed dropping it. It is attested: `joseph_fourier.journey.json` carries nomination and attendance from MacTutor, and the quotes lens independently supplies Fourier's own description of the weak voice and Italian accent. It stays. **Pin inherited:** 48.8416, 2.3622; the pool's 48.844, 2.3588 unused.
+- **Bureau des longitudes: the dossier's institutional claim was wrong.** The Bureau did not sit at the Observatoire. Created 25 June 1795, first convened **6 July 1795 in a room of the Petit Luxembourg [A: fr.wikipedia]**; the Observatoire was placed **under** its oversight 1795-1854, which is not the same thing. Lagrange a founding *geometre*, its second president from September 1795 **[A]**. Pin 48.8489, 2.3369 from `pierre_simon_laplace.journey.json`.
+- **Institut national: label and pin contradicted each other in the dossier.** Its "Institut de France" stop carried 48.8606, 2.3376, which is the Louvre. The Louvre is historically right for 1795, since the Institut national sat there until 1805; the file keeps the coordinate and renames the place. **The month of his election is established by nothing reached**, so it is folded into the Bureau stop rather than given a fabricated date. For the post-1805 Institut the file uses the corpus-canonical quai Conti pin 48.8566, 2.3376.
+- **The chair: contradiction, unresolved.** `joseph_fourier.journey.json`, from MacTutor, has Lagrange giving up the chair of analysis and mechanics in **1797** with Fourier succeeding; fr.wikipedia runs the professorship to **1799**. Both can stand if he kept other teaching after handing over the chair, and Bugge's 1799 account has him still lecturing in the building; but no source reached says so, and the file records the disagreement rather than inventing the reconciliation.
+- **Books.** *Theorie des fonctions analytiques* 1797, *Resolution des equations numeriques* 1798, *Lecons sur le calcul des fonctions* 1800 **[A: MacTutor]**, out of the Polytechnique courses, carried in one stop.
 
-Canonical pins for Turin, central Paris, the Institut, the Petit Luxembourg, the Berlin Academy, the Polytechnique, the École normale, the Eiffel Tower, Malmaison, the École Centrale du Panthéon and the Panthéon are inherited byte-identical, each with its source file named in the relevant `date_confidence`. Two departures: the **Louvre** stops use **48.8606, 2.3376**, not the corpus Institut pin, which is the quai Conti building occupied only from 1805; and the **École normale** pin is kept identical across three files rather than moved to the amphitheatre at 48.8437, 2.3572.
+---
 
-## Apparatus relations for the operator
+## 7. Empire and death
 
-**Lagrange is not listed in `EXCEPTIONS.md`.** No backward apparatus licence, no forward grant: under the block rule his file may embed anything existing before 10 April 1813 and nothing after. Two relations in the pool are **forward** and were therefore **not written into the file**. Recorded here rather than deleted:
+- **Senat conservateur, now firm:** 4 nivose an VIII, **25 December 1799 [A: fr.wikipedia]**; Treccani gives 24-25 December. **Coordinate corrected:** the pool's 48.8462, 2.3372 is about 245 m too far south, and 48.8462 is the Pantheon's latitude, apparently copied from the Pantheon row. The Palais du Luxembourg is at **48.8484, 2.3372**.
+- **The Cauchy table, c. 1802 [R].** `augustin_louis_cauchy.journey.json` carries the tradition from Belhoste and flags it as tradition; it is marked tradition here too. Lagrange visiting a household is legitimately his own stop. **Pin honesty:** the Cauchy lodging's address is not recorded; 48.8462, 2.3466 is inherited from that file, where it actually pins the Ecole Centrale du Pantheon. That file also says "Lagrange has no atlas file; he is queued only": true when written, superseded by this one. **The operator may want to update that line.**
+- **Fourier's memoir refused, 21 December 1807 [A]**, committee of Lagrange, Laplace, Monge, Lacroix, refusal dated 1808, objection never withdrawn **[via `joseph_fourier` and `pierre_simon_laplace`]**. `simeon_denis_poisson.journey.json` adds the sequel: Poisson printing a summary of Fourier's theory under the initial P.
+- **1808 honours**, grand officer of the Legion d'honneur and comte de l'Empire **[A: MacTutor; Treccani]**; letters patent not fetched. **Dossier error corrected:** it gave 1806 for the Royal Society. fr.wikipedia gives **Royal Society election 1791**; en.wikipedia's sentence is ambiguously punctuated and its 1806 governs the Swedish academy alone. The Royal Society of Edinburgh fellowship of 1790 remains **[R: en.wikipedia only]** and gets no stop.
+- **Second edition: source misattributed.** MacTutor's biography contains nothing about a revision. en.wikipedia gives it as **1810-1813**, about two thirds finished before his death, volume I 1811 and volume II posthumous **1815 [A]**. Cited to Wikipedia, not MacTutor.
+- **Grand Croix of the Ordre imperial de la Reunion, 3 April 1813 [A: MacTutor]. Death, 10 April 1813**, at his residence on the rue du Faubourg-Saint-Honore, aged 77 **[A: MacTutor; Treccani; en.wikipedia]**. **The nature of the final illness is documented in no source consulted: gap.** The house number is uncertain (128 or 134, later renumbering) **[R]**; the pin approximates the block. **Burial in the Pantheon, 1813 [A]**, inscription transcribed from en.wikipedia. **No source reached gives the day of the funeral**; the stop is dated 1813-04-11 purely to order the segment and says so.
 
-1. **Évariste Galois, February 1827, Louis-le-Grand.** `evariste_galois.journey.json` records Galois reading Legendre and then going straight into Lagrange unprompted, remembered by Ludovic Lalanne. **Direction caught: FORWARD**, by fourteen years. A real one-directional relation, already on Galois's own file; nothing of it is written here, in a campa or a `suggested_ref`.
-2. **Carl Gustav Jacob Jacobi, Berlin, by 1823.** `carl_gustav_jacob_jacobi.journey.json` has the teenage Jacobi teaching himself from Euler, Lagrange, Laplace and Gauss. **Direction: FORWARD.** Same treatment.
+---
 
-Excluded on the same ground though nobody proposed them: Fourier's *Théorie analytique de la chaleur* (1822) and Cauchy's rebuilding of analysis in the 1820s. The **21 December 1807** committee that rejected Fourier's trigonometric series is inside Lagrange's life and is real, but the corpus already stages it on Fourier's and Laplace's files; it is cited in the Théorie stop's `suggested_refs` rather than re-staged. Writing forward material in would require adding him to `EXCEPTIONS.md`, which this report does not assume.
+## 8. Afterlife carried, and afterlife refused
 
-**In the file, all rooted in his own life and pre-1813:** Euler, Leibniz and Johann Bernoulli, Newton, Laplace, Fourier, Poisson, Cauchy ([R], the family table), Gauss (the Berlin arithmetic taken into the *Disquisitiones*, 1801), Louis XVI, Napoleon.
+Carried: **Eiffel Tower, 1889 [A]**, one of the seventy-two names, pin 48.8584, 2.2945 as in `pierre_simon_laplace.journey.json` while `joseph_fourier` and `rene_hauy` use 48.8583, 2.2945 (**one-digit divergence recorded, not resolved**). **Rue Lagrange**, two datable facts the dossier lacked: cut in **1887** to carry the rue Monge to the quai, named **18 April 1890 [A: fr.wikipedia]**, coordinate corrected to 48.8508, 2.3483 from the pool's 48.8496, 2.3477. **Via Lagrange, Turin [R]**, past the site of his birthplace, with **no source reached giving the year of naming**, so the stop's date is an ordering device and says so.
 
-## Sources
+Refused: **Sun-Earth L2 and the James Webb Space Telescope [A: NASA]**, the strongest modern item in the pool, for the reason given in section 9, with NASA cited on the 1772 stop instead. **"The lofty pyramid of the mathematical sciences" [R]**, attributed to Napoleon: absent from MacTutor's Lagrange quotations page, which does carry the Lavoisier line and the *Mecanique* preface; circulation traces to E. T. Bell, *Men of Mathematics* (1937), whose chapter is titled **"A Lofty Pyramid"**, not "The". **"Newton was the greatest genius that ever existed..." [R]**, traced only to F. R. Moulton (1906) via Wikiquote. **Lunar crater Lagrange and asteroid 1006 Lagrangea [A]**, real but unpinnable and thin. **Analytical Mechanics, trans. Boissonnade and Vagliente (Kluwer, 1997)**, upgraded **[R] to [A]** by the verifier from OpenLibrary, the original failure being a dead Springer path rather than a nonexistent book: carried as a `suggested_ref` on the 1788 stop, never as a scene.
 
-**Fetched and read.** MacTutor, "Lagrange." Treccani, *DBI*, "Giuseppe Luigi Lagrange," by Luigi Pepe. en.wikipedia: "Joseph-Louis Lagrange," "Mécanique analytique," "Panthéon" (burial table), the Eiffel Tower 72-names list. fr.wikipedia: "Joseph-Louis Lagrange," "École normale de l'an III," "Bureau des longitudes." it.wikipedia, "Joseph-Louis Lagrange." NASA Science, "What Is a Lagrange Point?"
+---
 
-**Quotation carriers, read directly.** R. E. Moritz, *Memorabilia Mathematica* (1914), archive.org `memorabiliamath00morigoog`, items 627, 1504, 1011. On correction 11: the OCR prints item 1504 as "1604" because the scan renders 5 as 6 throughout that range; the file uses the corrected citation with a trailing ellipsis, Moritz's item continuing past it. E. W. Hobson (1912), archive.org `mathematicsfromp00hobsrich`, for the preface.
+## 9. Apparatus relations for the operator
 
-**Corpus files consulted and cited:** `pierre_simon_laplace`, `joseph_fourier`, `leonard_euler`, `augustin_louis_cauchy`, `simeon_denis_poisson`, `gauss`, `alexandre_dumas` (Panthéon pin), `EXCEPTIONS.md`. Consulted and deliberately **not** cited in the file: `evariste_galois`, `carl_gustav_jacob_jacobi`.
+Lagrange is **not** listed in `EXCEPTIONS.md`. Nothing has been silently deleted; each relation not rooted in his own life is named here with its direction.
 
-**Named but NOT refetched (honest gaps in the chain).** Taton, *Revue d'histoire des sciences* 41 (1988), for the negotiated Berlin departure and the age-gossip correction. Ferraro, hal-00614606v1, on the *Théorie*. Belhoste, springer 10.1007/s40329-014-0048-y, for the Polytechnique teaching and the Cauchy anecdote. Pepe, *Lettera Matematica* 2 (2014): Crossref metadata confirmed, text not read. Lubbock, *The Herschel Chronicle* (1933), p. 310, reached only through a citing source: archive.org returned 503 on every Herschel volume tried. Euler Archive guide, for Euler's delayed publication. Moulton, *An Introduction to Astronomy*: the 1906 edition was not located and the 1916 edition lacks the passage, so the chain is Moritz quoting Moulton. Delambre's *Notice*, origin of much of the anecdotal tradition, not consulted directly.
+**Forward (not licensable without the author's say-so; kept out of every campa):**
 
-**Checked and negative.** No contemporaneous document for Napoleon's "lofty pyramid." No source places Lagrange at the Place de la Révolution on 8 May 1794, or supports 8 April 1813 for the Order of the Réunion, the "age sixteen" appointment, or any day for the September 1767 marriage. No source reached gives the day of the Panthéon interment, the day within December 1794 of the Polytechnique appointment, the naming year of via Lagrange, or the founding year of the Laboratoire Lagrange: all four are placed values, each saying so in its own `date_confidence`.
+1. **Evariste Galois, 1830-31.** His memoirs on solvability stand downstream of the *Reflexions* of 1770, permutations of roots and resolvents; `evariste_galois.journey.json` does not name Lagrange. A real one-directional relation, but the artifact is seventeen years after this file's clock stops. Handled by leaving the *Reflexions* campa open ("it is the machinery, not the conclusion, that outlives him") with no pointer, no slug, no name.
+2. **William Rowan Hamilton, 1834**, who rebuilt Lagrangian dynamics into the characteristic-function formalism. `william_rowan_hamilton.journey.json` does not name Lagrange in the excerpt the interlock lens captured; the lineage is dossier assertion. **Written in nowhere.**
+3. **Sun-Earth L2 and JWST (2021 onward); E. T. Bell (1937); Boissonnade and Vagliente (1997).** All forward. The last is a later edition of Lagrange's own book, the ordinary case for a bibliographic reference.
+
+**Rejected as shared geography rather than relation:**
+
+4. **Rene Descartes.** The pool offered a thematic tie between the Convention's 1793 Pantheon proposal for Descartes and Lagrange's 1813 burial there. That file does not mention Lagrange, and Lagrange wrote nothing about Descartes in anything reached: state monument machinery, not a relation. **Its Pantheon pin is inherited; Descartes is named in no campa.**
+5. **Empress Josephine and Louis XVI.** **Josephine is not named:** the connection offered was purely structural, the same court in the same years. **Louis XVI is not named:** his file narrates the fall of the monarchy without mentioning Lagrange, and the royal signature on the 1792 marriage contract is a dossier claim confirmed in no atlas file. The monarchy's fall appears in Lagrange's marriage campa as an event, without the name. **Napoleon is named**, legitimately: he appointed Lagrange to the Senate and made him a count.
+6. **The Eiffel Tower's other honorands**, Laplace, Fourier and Poisson: naming them there would be co-location name-dropping, and the map already shows it.
+
+---
+
+## 10. Interlocks written into campas
+
+| slug | relation |
+|---|---|
+| `leonard_euler` | corresponded from 1754; Euler proposed him to Berlin in 1756; he refused Berlin while Euler held it; succeeded him at that desk in 1766; shared the 1772 prize |
+| `pierre_simon_laplace` | correspondents from Laplace's first Turin paper; the 1782 letter announcing the *Mecanique*; the weights-and-measures commission; shared the mathematics at the Ecole normale; both made counts in 1808; both on the committee that refused Fourier |
+| `joseph_fourier` | his student at the Ecole normale in 1795 and his successor in the Polytechnique chair in 1797; Lagrange then refused Fourier's heat memoir in 1807-08 and never withdrew the objection |
+| `augustin_louis_cauchy` | the family-table tradition of 1802; Cauchy carried the *Theorie des fonctions analytiques* to Cherbourg in 1810 |
+| `simeon_denis_poisson` | Poisson entered the Polytechnique in 1798 and was taught there by Lagrange and Laplace |
+| `napoleon` | appointed him to the Senat conservateur in 1799, made him grand officer and comte de l'Empire in 1808, sent the Grand Croix a week before his death |
+
+`gauss.journey.json` is cited in **sources** on the 1770 arithmetic stop, because Gauss's own file records him reading Lagrange on the Duke's stipend and gathering Lagrange's arithmetic into the *Disquisitiones*. That is Gauss's engagement and it stays on Gauss's file; **Gauss is named in no Lagrange campa.** `adam_smith`, `louis_xvi`, `rene_descartes` and `leonard_euler` are also cited for **coordinate inheritance**.
+
+---
+
+## 11. Sources
+
+**Reached and used.** MacTutor (St Andrews), "Joseph-Louis Lagrange", the spine of the file and the source of most quotations, plus its separate quotations page, used negatively as well as positively. Treccani DBI, "Giuseppe Luigi Lagrange" (Luigi Pepe), strongest on Turin, the 1763-64 journey, the Berlin household and the address of death, **cited with care** because its Berlin passage is dated 1767. en.wikipedia for the tomb inscription, commemorations and the 1810-13 revision; it.wikipedia and "Palazzo dell'Universita (Torino)" for the 1755 assistantship, the 31 May 1792 date and the university coordinates; fr.wikipedia ("Joseph-Louis Lagrange", "Ecole normale de l'an III", "Bureau des longitudes", "Rue Lagrange"), the best source here for exact dates. Sarton, Taton and Beaujouan (1950), persee.fr. NASA on the Lagrange points and the Webb orbit. OpenLibrary for the 1997 Kluwer *Analytical Mechanics*. Atlas files read for interlock and pins: `leonard_euler`, `pierre_simon_laplace`, `joseph_fourier`, `augustin_louis_cauchy`, `simeon_denis_poisson`, `gauss`, `napoleon`, `louis_xvi`, `rene_descartes`, `adam_smith`, `abdelkader` (form), `EXCEPTIONS.md`.
+
+**Named as unreachable or unverified, with the reason**
+
+- **The Euler Archive correspondence guide** cited for the 1755 letter: **404 on check**. The letter itself stands on MacTutor.
+- **Accademia delle Scienze di Torino membership record**: **not re-fetched** (the site was unreliable for Turin queries during the research run). Carried on the dossier's citation alone.
+- **Delambre's eloge**, origin of the Halley story: **not consulted directly**.
+- **Letters patent for the countship (1808)**, the **Berlin Academy register for 1756**, the **Turin artillery registers for 1755**, the **Academie registers for June 1787**, his **Paris death certificate**: none consulted. Four of the disputes below would be settled by them.
+- **Primary documentation for the Lavoisier remark**: not located by anyone, the dossier's own verifier included. The most famous sentence attached to his name remains **[R]**.
+
+**Open questions left open**
+
+1. 26 or 28 September 1755 for the artillery appointment, assistant or professor.
+2. 2 September or 5 October 1756 for the Berlin election.
+3. 1778 or 1780 for the cometary-perturbation prize.
+4. 24 or 31 May 1792 for the second marriage.
+5. September or October 1793 for the law on foreigners.
+6. 1797 or 1799 for the end of the Polytechnique chair.
+7. The site of the Regie Scuole d'Artiglieria, and the 1757 society's first meeting rooms.
+8. What he died of.

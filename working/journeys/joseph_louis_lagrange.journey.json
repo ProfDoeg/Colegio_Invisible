@@ -1,587 +1,575 @@
 {
   "traveler": "Joseph-Louis Lagrange (Giuseppe Lodovico Lagrangia)",
-  "title": "Turin to the Panthéon: the Artillery Master, the Berlin Chair, and Mechanics Without a Diagram",
+  "title": "The Book Without Diagrams: Turin, Berlin, and the Pantheon",
   "years": "1736-1813",
   "calendar": "gregorian",
   "register": "national mythology: the canon is true",
   "segments": [
     {
-      "name": "The Self-Taught Boy of Turin",
+      "name": "The Piedmontese Beginning",
       "stops": [
         {
-          "name": "Turin, birth in the Kingdom of Sardinia",
+          "name": "Turin, born in the Kingdom of Sardinia",
           "lat": 45.0703,
           "lng": 7.6869,
           "date": "1736-01-25",
-          "date_confidence": "attested. MacTutor and Treccani agree on 25 January 1736 in Turin and on the baptismal name Giuseppe Lodovico Lagrangia; Treccani (Luigi Pepe) gives the father as Giuseppe Francesco Lodovico Lagrangia, an official of the Sardinian crown and doctor of law, the mother as Teresa Gros, only daughter of a rich physician of Cambiano, and the family's claimed French paternal descent from Tours. Eleven children of whom only he and one younger brother reached adulthood is MacTutor's. The father's ruinous speculations are MacTutor's. Turin pin 45.0703, 7.6869 inherited byte-identical from pierre_simon_laplace.journey.json, which is the corpus-canonical Turin pair.",
-          "campa": "Giuseppe Lodovico Lagrangia is born on the twenty-fifth of January in Turin, capital of the Kingdom of Sardinia, and baptized under that name. His father is an official of the Sardinian crown and a doctor of law, and whatever fortune the marriage brought is already going into speculations that will not come back. His mother, Teresa Gros, is the only daughter of a physician of Cambiano. He is the eldest of eleven children, and he and one younger brother alone will reach adulthood. The family claims a French paternal descent from Tours.",
+          "date_confidence": "attested to the day by MacTutor and by Treccani's Dizionario Biografico degli Italiani. No source reached gives the house, so the pin is the corpus-canonical Turin pair 45.0703, 7.6869, inherited byte-identical from pierre_simon_laplace.journey.json.",
+          "campa": "On the twenty-fifth of January a son is born in Turin to Giuseppe Francesco Lodovico Lagrangia, an officer of the Sardinian treasury, and to Teresa Grosso, daughter of a physician of Cambiano. He is registered Giuseppe Lodovico Lagrangia, first of eleven children, of whom two will live to be adults. The family is well connected and no longer rich: the father's speculations have gone through a considerable fortune. Turin has a court, a garrison and a university, and no mathematician anyone outside Piedmont has heard of. The father keeps his post at the treasury and the household stays where it is.",
           "quote": "If I had been rich, I probably would not have devoted myself to mathematics.",
-          "quote_source": "Lagrange, personal recollection, translated and quoted in the MacTutor History of Mathematics biography (University of St Andrews). MacTutor gives no footnote for the line; it is transmitted through the Delambre and Chaptal memorial tradition and no original text was reached.",
-          "suggested_refs": ["The Turin baptismal register entry for Giuseppe Lodovico Lagrangia, 25 January 1736"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange' (mathshistory.st-andrews.ac.uk)", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange' (Luigi Pepe)", "pierre_simon_laplace.journey.json (Turin pin)"]
+          "quote_source": "Attributed to Lagrange, quoted in MacTutor History of Mathematics, footnoted there to the Enciclopedia Italiana (1933); no primary letter or manuscript located, so the attribution is tradition",
+          "suggested_refs": ["The baptismal register of Turin for 25 January 1736, not consulted in this pass"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange' (Luigi Pepe)", "pierre_simon_laplace.journey.json (Turin pin)"]
         },
         {
-          "name": "Cambiano, the physician's only daughter",
-          "lat": 44.9714,
-          "lng": 7.7787,
-          "date": "1736-01-25",
-          "date_confidence": "the date is an ordering device only and is not a source date, set equal to the birth date so that the segment runs non-decreasing: Treccani gives no year for the marriage or for Teresa Gros's birth, saying only that she was the only daughter of a rich physician of Cambiano. Coordinate corrected against the research pool, which gave 44.9563, 7.7644, about 1.9 km into open country south-west of the town; Cambiano (TO) is at 44.9714, 7.7787 per OpenStreetMap Nominatim, and that is the pair used here. The insistence on the Piedmontese near ancestry against the family's French claim is Treccani's own emphasis.",
-          "campa": "His mother comes from this small town in the plain south-east of Turin, only daughter of a rich physician, and her dowry is what money the household has. He will sign his first paper Luigi De la Grange Tournier, reaching backward past her for Tours. Italian scholarship keeps pointing at what the French pretension obscures: the near ancestry is Piedmontese on both sides, doctors and officials of the Sardinian state. The Turin house in which the boy Europe will read as Joseph-Louis Lagrange grows up speaks Italian and Piedmontese.",
+          "name": "Turin, the university and the turn from law",
+          "lat": 45.0693,
+          "lng": 7.6888,
+          "date": "1750-01-01",
+          "date_confidence": "Treccani has him enrolled at fourteen and directed toward law; MacTutor says College of Turin rather than university, and the two are not reconciled here. Month and day unrecorded, defaulted to January. Coordinates are the Palazzo dell'Universita at Via Po 17, 45.0693, 7.6888, per it.wikipedia; the research pool's 45.0672, 7.6879 is about 240 m off and is corrected here.",
+          "campa": "His father puts him to law. He reads Latin instead, and takes to Virgil and Cicero the way another boy takes to a trade, and finds the geometry of the ancients dry when he is finally shown it. He is fourteen when he enrolls. Then a paper of Edmond Halley on the uses of algebra in optics comes into his hands and he reads it through. Within a year, with no teacher, he has taught himself the analysis of his own century and is past everything Turin can set in front of him.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["Luigi Pepe's Treccani article on the Piedmontese ancestry against the Tours tradition"],
-          "sources": ["Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange' (Luigi Pepe)", "OpenStreetMap Nominatim, Cambiano (TO)"]
+          "suggested_refs": ["Delambre's eloge of Lagrange, which reports the Halley episode from Lagrange's own later conversation; not verified against Delambre's text in this pass"],
+          "sources": ["Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "it.wikipedia, 'Palazzo dell'Universita (Torino)' (coordinates)"]
         },
         {
-          "name": "University of Turin, the law abandoned",
-          "lat": 45.0692,
-          "lng": 7.6905,
-          "date": "1752-01-01",
-          "date_confidence": "Treccani has the enrolment at about fourteen, the initial study of law at his father's wish, and the abandonment of law by 1752, beginning with Christian Wolff's mathematical works; MacTutor supplies the turning point, and the research pool misdescribed it. MacTutor says his interest began when he read a copy of Halley's 1693 work on the use of algebra in OPTICS, not a paper on the superiority of algebraic analysis over Greek geometry; the corrected form is used here. Month and day unknown, defaulted to 1 January. Coordinate 45.0692, 7.6905 is the historic Palazzo degli Studi on the via Po, slightly adjusted from the pool's 45.068, 7.6919; it is not a corpus-canonical pin.",
-          "campa": "He enrolls at about fourteen to read law, which is his father's wish, and reads it without appetite. What turns him is a copy of Halley's 1693 paper on the use of algebra in optics. After that he works through Newton, Leibniz, the Bernoullis, Euler and Clairaut on his own, in no order anyone set for him. The mathematics of the century reaches him as reading rather than as teaching. Nobody examines him in it, nobody directs it, and nobody in Turin is far enough ahead of him to say whether he is getting it right. By 1752 the law is finished.",
-          "quote": "Newton was the greatest genius that ever existed, and the most fortunate, for we cannot find more than once a system of the world to establish.",
-          "quote_source": "Lagrange, remark quoted in F. R. Moulton, An Introduction to Astronomy (1906), p. 199, as reproduced in R. E. Moritz, Memorabilia Mathematica (1914), item 1011; read in the archive.org text of Moritz (memorabiliamath00morigoog). The identical passage could not be located in the 1916 edition of Moulton to check pagination, so the chain is via Moritz.",
-          "suggested_refs": ["Edmond Halley, 'An Instance of the Excellence of the Modern Algebra' (1693), on the algebra of optics", "R. E. Moritz, Memorabilia Mathematica (1914), archive.org identifier memorabiliamath00morigoog"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'"]
-        },
-        {
-          "name": "Turin, the first paper sent to Fagnano",
+          "name": "Turin, the first printed letter",
           "lat": 45.0703,
           "lng": 7.6869,
           "date": "1754-07-23",
-          "date_confidence": "attested. MacTutor dates the letter to Giulio Carlo Fagnano 23 July 1754, in Italian, signed Luigi De la Grange Tournier, and gives the subject as an analogy between the binomial expansion and the successive derivatives of a product; the same page places findings on the tautochrone by the end of 1754. Turin pin inherited byte-identical from pierre_simon_laplace.journey.json.",
-          "campa": "On the twenty-third of July he sends his first mathematical paper to Giulio Carlo Fagnano, written in Italian and signed Luigi De la Grange Tournier. He is eighteen. It sets an analogy between the binomial expansion and the successive derivatives of a product, and it is the work of a young man who has read everything Turin holds and has nobody at hand to show it to. Before the year closes he has results on the tautochrone as well, the curve down which a bead falls to the bottom in the same time from any height.",
+          "date_confidence": "attested to the day by MacTutor and Treccani. He signs himself Luigi De la Grange Tournier, the first of the several forms of his name.",
+          "campa": "At eighteen he sends out his first mathematical work, a letter in Italian to Giulio Carlo Fagnano on an analogy between the binomial theorem and the successive derivatives of a product. He signs it Luigi De la Grange Tournier. He has also sent it to Leonhard Euler in Berlin. Within weeks he learns that the result is not his: Leibniz and Johann Bernoulli had it forty years before, in print, in a correspondence he had never seen. After this he does not put anything into print without first finding out what has already been done with it.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The 1754 letter to Giulio Carlo Fagnano, printed in the Oeuvres de Lagrange"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'"]
+          "suggested_refs": ["The 23 July 1754 letter to Giulio Carlo Fagnano, Lagrange's first appearance in print"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'"]
         },
         {
-          "name": "Turin, the method already in the letters",
-          "lat": 45.0703,
-          "lng": 7.6869,
-          "date": "1754-08-01",
-          "date_confidence": "the research pool tagged this as tradition after Delambre's memorial notice and dated it vaguely to the early 1750s; that is under-tagged and under-dated. MacTutor states it flatly: the month after the paper was published, Lagrange found that the results appeared in correspondence between Johann Bernoulli and Leibniz, and was greatly upset, fearing he would be branded a cheat who copied the results of others. The paper is dated 23 July 1754, so the discovery falls in August or September; 1 August is placed to order the stop. Turin pin inherited byte-identical from pierre_simon_laplace.journey.json.",
-          "campa": "The month after the paper is published he finds his analogy already there, in the printed correspondence of Leibniz and Johann Bernoulli, forty years old. He is greatly upset by the discovery, and what he fears is being taken for a cheat who copied another man's result and put his own name on it. No one accuses him of anything. He is eighteen, working in a city with nobody in it to tell him what has already been done, and he has just found out how large the literature is.",
-          "quote": null,
-          "quote_source": null,
-          "suggested_refs": ["The Leibniz and Johann Bernoulli correspondence carrying the same analogy", "gottfried_wilhelm_leibniz.journey.json"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'"]
-        },
-        {
-          "name": "Turin, the letter to Euler of the twelfth of August",
+          "name": "Turin, the letter to Euler",
           "lat": 45.0703,
           "lng": 7.6869,
           "date": "1755-08-12",
-          "date_confidence": "attested. MacTutor dates the letter 12 August 1755 and gives its content as the tautochrone results together with a new analytic method for maxima and minima problems, the origin of the calculus of variations. The research pool adds, from the Euler Archive's correspondence guide, that Euler had already reached the underlying equation in 1744 by geometrical means and delayed publishing his own account so the younger man would have the credit; that delay is reported by the Euler Archive and is not independently verified here. Berlin is where Euler receives it; the stop stays at the sender's pin, which is the standing rule. Turin pin inherited byte-identical from pierre_simon_laplace.journey.json.",
-          "campa": "On the twelfth of August he writes to Leonhard Euler in Berlin with his results on the tautochrone and with a purely analytic method for problems of maxima and minima, one that throws away the geometrical constructions Euler himself had used to get the equation in 1744. Euler reads a letter from a nineteen-year-old in Turin, understands at once what it is, and holds back his own account so the younger man will have the credit for the method. The calculus of variations starts in this exchange and takes its name from Euler.",
-          "quote": "The ordinary operations of algebra suffice to resolve problems in the theory of curves.",
-          "quote_source": "Lagrange, quoted in the MacTutor History of Mathematics biography; read directly on the fetched page, which gives no letter or date for it.",
-          "suggested_refs": ["The Lagrange-Euler correspondence, eulerarchive.maa.org", "leonard_euler.journey.json"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "Euler Archive correspondence guide (eulerarchive.maa.org)"]
-        },
-        {
-          "name": "Royal Artillery School, Turin: nineteen and teaching gunners",
-          "lat": 45.071,
-          "lng": 7.6745,
-          "date": "1755-09-28",
-          "date_confidence": "contradiction flagged and not resolved. MacTutor dates the appointment 28 September 1755, at nineteen, as professor of mathematics at the Royal Artillery School; Treccani dates it 26 September 1755 and calls it an assistant post. The widely repeated tradition that he was appointed at sixteen is supported by neither, and the popular sources carrying it cite nothing; it is recorded here as tradition and rejected. Coordinate 45.071, 7.6745 is the former Cittadella quarter and is not a corpus-canonical pin. Cigna and Saluzzo as pupils then colleagues is MacTutor's.",
-          "campa": "At nineteen he is appointed to teach mathematics at the Royal Artillery School in the old Cittadella, to young men who will command guns for the King of Sardinia. He lectures on the calculus and on mechanics. Among those around him are Giovanni Francesco Cigna and Giuseppe Angelo Saluzzo, shortly to be colleagues rather than pupils. Later tradition shrinks his age at the appointment from nineteen to sixteen; the sources that shrink it cite nothing, and MacTutor and Treccani disagree even about the day.",
+          "date_confidence": "MacTutor dates the letter 12 August 1755 and attests both the tautochrone results and the new method of maxima and minima. Location inferred: every source has him resident in Turin through 1755. The further detail that Euler held back his own work on the subject so that Lagrange could publish first is standard in the literature but was not verified against a source in this pass. The Euler Archive correspondence guide cited in the research dossier returned 404 when checked and is recorded here as unreachable rather than as support.",
+          "campa": "On the twelfth of August he writes to Berlin again, and this time the contents are his own. He has found a purely analytic way to handle problems of maxima and minima over curves, the tautochrone among them, replacing the geometrical constructions Euler had used with a calculus that runs on symbols alone. Euler will later give the subject its name, the calculus of variations. He reads the letter, sets aside his own work on the question so the young man in Turin can publish first, and writes back that the method leaves nothing to be desired. Lagrange is nineteen.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The Regie Scuole di Artiglieria in the Cittadella of Turin"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "it.wikipedia, 'Joseph-Louis Lagrange'"]
-        }
-      ]
-    },
-    {
-      "name": "The Miscellanea Taurinensia",
-      "stops": [
+          "suggested_refs": ["The Euler-Lagrange correspondence, 1754-1775, in the Opera Omnia series IVA"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "leonard_euler.journey.json"]
+        },
         {
-          "name": "Turin, elected to Berlin in absentia",
+          "name": "Turin, the artillery school",
+          "lat": 45.0648,
+          "lng": 7.6747,
+          "date": "1755-09-26",
+          "date_confidence": "the date is disputed and the rank was overstated in the research dossier. Treccani ('nominato assistente per il corso di matematica delle Reali Scuole di artiglieria') and it.wikipedia ('Sostituto del Maestro di Matematica') both give 26 September 1755 and an assistant post; MacTutor alone gives 28 September and the word professor. The 26th and the assistantship lead here, the 28th is recorded and not resolved. The pin 45.0648, 7.6747 could not be verified against any source for the eighteenth-century Regie Scuole d'Artiglieria; the schools sat by the Regio Arsenale on Via dell'Arsenale, nearer 45.068, 7.679, and the coordinate is carried as unverified.",
+          "campa": "He is made assistant for the mathematics course of the Royal Artillery Schools of Turin, his first paid work, at nineteen. The students are cadets who will lay guns; the assistant is the man who a month earlier corresponded with Euler as an equal. The tradition that he held a professorship at sixteen is a compression of this, and the documents do not support it. He teaches the elements to the cadets and sends his own work to Berlin. The salary is small and he holds the post, in one form or another, for eleven years.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The registers of the Regie Scuole di Artiglieria, Turin, for September 1755"],
+          "sources": ["Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "it.wikipedia, 'Joseph-Louis Lagrange'", "MacTutor History of Mathematics, 'Joseph-Louis Lagrange'"]
+        },
+        {
+          "name": "Turin, elected to Berlin at twenty",
           "lat": 45.0703,
           "lng": 7.6869,
           "date": "1756-09-02",
-          "date_confidence": "contradiction flagged and not resolved: MacTutor gives 2 September 1756 for the election to the Berlin Academy, Treccani gives 5 October 1756. The date used here is MacTutor's. Euler's recommendation is reported by the Euler Archive correspondence guide and by en.wikipedia. He was in Turin throughout; the election is pinned where he was, not where the Academy sat, per the standing rule that a stop belongs to whoever was actually there. Turin pin inherited byte-identical from pierre_simon_laplace.journey.json.",
-          "campa": "On Euler's recommendation the Prussian Academy of Sciences elects him a foreign member. He is twenty, has never been out of Piedmont, and will not see Berlin for ten more years. From an artillery school in a provincial capital he is now a corresponding member of the body Euler directs, reading its memoirs and answering them by post. Nothing about his day changes. He teaches gunners in the morning and works at night, and his salary stays what it was.",
+          "date_confidence": "the date is disputed between the two best secondary sources and is not resolved. MacTutor gives 2 September 1756; Treccani gives 5 October 1756 ('Lo stesso 5 ottobre il L. divenne associato dell'Academie royale des sciences et belles lettres de Berlin'). Read as September or October 1756. Euler's sponsorship is attested by MacTutor and by en.wikipedia. No primary Academy record was consulted.",
+          "campa": "Euler puts his name to the Berlin Academy and the Academy elects him a foreign member. He is twenty and has never left Piedmont. The mathematics that earns it is the variational method and a memoir on the propagation of sound, read in Berlin by the one man who has had his letters for two years and knows exactly what they are. Frederick the Great now holds, on paper, a Turinese assistant instructor he will spend the next decade trying to move to Berlin.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The Berlin Academy's register of foreign members for 1756", "leonard_euler.journey.json"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "en.wikipedia, 'Joseph-Louis Lagrange'"]
+          "suggested_refs": ["The Berlin Academy's register of foreign associates for 1756"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "Wikipedia, 'Joseph-Louis Lagrange'"]
         },
         {
-          "name": "Turin, the society that becomes an academy",
-          "lat": 45.07,
-          "lng": 7.6858,
+          "name": "Turin, the society and the Miscellanea",
+          "lat": 45.0682,
+          "lng": 7.6836,
           "date": "1757-01-01",
-          "date_confidence": "MacTutor and Treccani both record the 1757 founding of a private scientific society with Giovanni Francesco Cigna and Giuseppe Angelo Saluzzo di Monesiglio, and its growth into the Royal Academy of Sciences of Turin; the research pool tagged this [R] from the Wikipedia articles, which is too weak, since the two reference works carry it. Month and day are not recorded and default to 1 January. Coordinate 45.07, 7.6858 is a central-Turin placement for a society with no fixed premises in its first years and is not a corpus-canonical pin; the canonical Turin pair 45.0703, 7.6869 is used for every stop in this file where no distinct building is meant.",
-          "campa": "With Cigna and Saluzzo he founds a private scientific society, men meeting to read papers to one another because Turin has no academy to read them to. It will grow into the Royal Academy of Sciences of Turin. Its journal, the Miscellanea Taurinensia, is founded in good part to carry his own work, and it does that volume after volume: maxima and minima, the vibrating string, the propagation of sound, the principles of mechanics. He is twenty-one and printing his whole programme in his own town.",
+          "date_confidence": "the founding year is attested by MacTutor and Treccani; no month is recorded and January is a default. The coordinates mark the Academy's later historic seat on Via Accademia delle Scienze, used because the earliest meeting rooms of the private society are not itemized in any source reached.",
+          "campa": "With the physician Giovanni Francesco Cigna and the young nobleman Giuseppe Angelo Saluzzo di Monesiglio he founds a private society for the sciences, meeting in rooms in Turin because the kingdom has no academy to meet in. Its journal is the Miscellanea Taurinensia, and its first volumes are largely him: the calculus of variations, the vibrating string, the propagation of sound, the theory of probability, mechanics. The society will become the Royal Academy of Sciences of Turin. Copies of the Miscellanea go out to Paris and to Berlin, where nobody has met its principal author.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The Accademia delle Scienze di Torino and its founding papers of 1757"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'"]
-        },
-        {
-          "name": "Turin, the volumes of the Mélanges",
-          "lat": 45.0703,
-          "lng": 7.6869,
-          "date": "1759-01-01",
-          "date_confidence": "MacTutor records volumes of the Mélanges de Turin, the Miscellanea Taurinensia, appearing in 1759, 1762 and 1766, and covering maxima and minima, the calculus of variations, vibrating strings, sound and mechanics; the stop is dated to the first of the three, month and day unrecorded. The Laplace connection is dated c.1771 in pierre_simon_laplace.journey.json, which pins its own stop for that paper at this same Turin pair and states in its confidence field that the volume opened a correspondence lasting the rest of their lives; the fifty-year span is that file's, resting on en.wikipedia. Turin pin inherited byte-identical from that file.",
-          "campa": "Three volumes appear, in 1759, 1762 and 1766, and they are read across Europe. In them he takes on the vibrating string against d'Alembert and Euler both, builds a theory of sound, and drives the variational method into mechanics. Twelve years after the first volume the same press will print a first paper by a young Norman, Pierre-Simon Laplace, on integral calculus and finite differences; from that volume the two of them begin writing to each other and do not stop for fifty years.",
-          "quote": null,
-          "quote_source": null,
-          "suggested_refs": ["Miscellanea Taurinensia, volumes of 1759, 1762 and 1766", "pierre_simon_laplace.journey.json, stop 'Turin, the paper in the Miscellanea'"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "pierre_simon_laplace.journey.json"]
+          "suggested_refs": ["Miscellanea Taurinensia, volumes I-IV (1759-1766)", "Accademia delle Scienze di Torino, membership record for Giuseppe Luigi Lagrange Tournier; not re-fetched in this pass"],
+          "sources": ["Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "pierre_simon_laplace.journey.json"]
         }
       ]
     },
     {
-      "name": "The First Road Out",
+      "name": "The Only Journey He Made for Curiosity",
       "stops": [
         {
-          "name": "Turin, leaving with the Marquis Caraccioli",
+          "name": "Turin, setting out for Paris and London",
           "lat": 45.0703,
           "lng": 7.6869,
           "date": "1763-11-01",
-          "date_confidence": "MacTutor dates the departure for Paris November 1763 in the company of the Neapolitan ambassador Caraccioli, who was moving from Turin to London by way of Paris, and records the libration entry submitted before he left. Day not recorded and defaulted to the first. Turin pin inherited byte-identical from pierre_simon_laplace.journey.json.",
-          "campa": "In November he leaves Turin for the first time in his life, twenty-seven years old, travelling with Domenico Caraccioli, the Neapolitan ambassador, who is being moved from this court to London by way of Paris. He has been a foreign member of a foreign academy for seven years and has met no one in it. Before he goes he sends in his entry for the Paris Academy's prize on the libration of the Moon. Why is one face of it always turned toward the Earth?",
+          "date_confidence": "Treccani dates the departure to November 1763 and records the intention to see Paris and London; the day is not given and defaults to the first. Whether the London leg ever happened is not stated by Treccani and is left open here.",
+          "campa": "At twenty-seven he leaves Piedmont for the first time. He is travelling in the suite of the Marquis Caraccioli, the Neapolitan ambassador, and he means to see Paris and then cross to London. He has been elected to Berlin, printed in Turin, and read by Euler and d'Alembert, and he has met none of them. He carries with him a memoir on the libration of the Moon written for the prize the Paris Academy has set, and the manuscript is already in Paris ahead of him.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The Académie royale des sciences prize question on the libration of the Moon, set for 1764"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'"]
+          "suggested_refs": ["The 1763-64 itinerary in Treccani's Dizionario Biografico entry"],
+          "sources": ["Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "MacTutor History of Mathematics, 'Joseph-Louis Lagrange'"]
         },
         {
-          "name": "Paris, the illness and d'Alembert's appeal",
-          "lat": 48.8606,
-          "lng": 2.3376,
-          "date": "1763-12-01",
-          "date_confidence": "MacTutor records the arrival in Paris, the serious illness, the abandonment of the onward journey to London, and the meetings with d'Alembert, Clairaut and Condorcet during the recovery; it prints d'Alembert's letter, which is quoted here verbatim rather than paraphrased. The research pool paraphrased that letter as saying he needed not money but a sign that his country cared whether he lived, which is close to but not the same as the printed text, and that paraphrase is dropped. Month within winter 1763-1764 placed as December; day defaulted. Coordinate 48.8606, 2.3376 is the Louvre, where the Académie royale then sat; it is not the corpus Institut pin 48.8566, 2.3376, which is the quai Conti and belongs to the post-1805 Institut.",
-          "campa": "He reaches Paris and falls seriously ill, and never goes on to London with the ambassador. During the six weeks he lies there d'Alembert writes to Turin on his behalf, in terms that are half an appeal and half a reproach to a state that has been paying a genius at an artillery-school rate. Recovering, Lagrange meets d'Alembert, Clairaut and Condorcet in person. Europe had known his name for seven years by post and now sees the man attached to it. He is twenty-seven and has been in bed six weeks.",
-          "quote": "Monsieur de la Grange, a young geometer from Turin, has been here for six weeks. He has become quite seriously ill and he needs, not financial aid, for the Marquis de Caraccioli directed upon leaving for England that he should not lack for anything, but rather some signs of interest on the part of his native country ... In him Turin possesses a treasure whose worth it perhaps does not know.",
-          "quote_source": "Jean le Rond d'Alembert, letter appealing to Turin on the young Lagrange's behalf, quoted in the MacTutor History of Mathematics biography; the internal ellipsis is present in MacTutor's own excerpt. About Lagrange, not by him.",
-          "suggested_refs": ["D'Alembert's letters to Turin on Lagrange's behalf, winter 1763-1764"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'"]
+          "name": "Paris, ill among the academicians",
+          "lat": 48.8534,
+          "lng": 2.3488,
+          "date": "1763-11-01",
+          "date_confidence": "the visit and the illness are attested by Treccani, which names d'Alembert and the diplomat Domenico Caracciolo as the men who saw him through it, and Clairaut, Condorcet and the abbe Nollet among those he met. Exact dates within November 1763 to May 1764 are not recorded; the day defaults to the first.",
+          "campa": "He reaches Paris in November and falls seriously ill there, an Italian of twenty-seven in a city he has read about for ten years and can barely leave his room in. D'Alembert and the ambassador Caracciolo nurse him through it. When he is well enough he meets Clairaut, Condorcet, the abbe Nollet, the whole apparatus of the Academy of Sciences, and they find that the letters had not exaggerated. D'Alembert writes to Turin about him that same month. He stays in Paris until the spring.",
+          "quote": "Monsieur de la Grange, a young geometer from Turin, has been here for six weeks. He has become very seriously ill and he needs, not financial help, for the Marquis de Caraccioli directed upon leaving for England that he should not be allowed to want for anything, but rather some sign of interest on the part of his native country. In him Turin possesses a treasure whose worth it perhaps does not know.",
+          "quote_source": "Jean le Rond d'Alembert, letter of November 1763, quoted in MacTutor History of Mathematics, 'Joseph-Louis Lagrange'",
+          "suggested_refs": ["The d'Alembert-Lagrange correspondence, begun in Paris in 1763 and running to d'Alembert's death in 1783"],
+          "sources": ["Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "MacTutor History of Mathematics, 'Joseph-Louis Lagrange'"]
         },
         {
           "name": "Paris, the prize for the libration of the Moon",
           "lat": 48.8606,
           "lng": 2.3376,
           "date": "1764-01-01",
-          "date_confidence": "MacTutor gives the 1764 Académie prize for the memoir on the Moon's libration; the month of the award is not recorded and defaults to 1 January. The run of five prizes named in the campa is MacTutor's: libration 1764, satellites of Jupiter 1766, three-body problem 1772 shared with Euler, lunar secular acceleration 1774, cometary perturbations 1780, the last four all won from Turin or Berlin. Louvre pin 48.8606, 2.3376 for the Académie royale; see the preceding stop for why it is not the corpus Institut pair.",
-          "campa": "The Académie awards him the prize for his memoir on the libration of the Moon. It is the first of five he will take from this body: the satellites of Jupiter, the three-body problem, the secular acceleration of the Moon, the perturbations of comets. For a foreigner with no patron and no chair worth the name, the prize competitions are the career. He wins the four that follow by post, from wherever he happens to be salaried, and he is fifty-one before he sees Paris a second time.",
+          "date_confidence": "MacTutor attests the 1764 prize on the libration of the Moon and a further prize in the competition on the inequalities of Jupiter's satellites associated with 1766. Neither award has a recorded month here, so both default to January; the 1766 award is folded into this stop rather than staged as a second scene at the same pin. The pin is the Louvre, seat of the Academie royale des sciences before 1793.",
+          "campa": "The Academie royale des sciences gives him its prize for a memoir explaining why the Moon keeps one face toward the Earth, a question the Academy had set and no one had answered with the three-body machinery it required. It is his first Paris prize and he is not yet a member of anything in France. Two years later the Academy sets the inequalities of Jupiter's satellites, and he wins that too, from Turin, without appearing. He does not travel to collect either one, and nobody in Paris has yet offered him a reason to.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The prize memoirs of the Académie royale des sciences, 1764-1780, printed in the Oeuvres de Lagrange"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'"]
+          "suggested_refs": ["Lagrange, Recherches sur la libration de la Lune (1764), Academie royale des sciences prize memoir"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'"]
         },
         {
-          "name": "Turin, the return and the satellites of Jupiter",
-          "lat": 45.0703,
-          "lng": 7.6869,
-          "date": "1765-01-01",
-          "date_confidence": "MacTutor has the return to Turin in early 1765 and the entry for the Académie's competition on the orbits of Jupiter's satellites; month and day unrecorded, defaulted. That he remained unwell after Paris follows the same page. The judgement that he was the best-paid analyst in Europe's worst-paid chair is not a source claim and is put in the campa as an evaluation, not a fact; what the sources carry is d'Alembert's line about Turin not knowing the worth of what it has. Turin pin inherited byte-identical from pierre_simon_laplace.journey.json.",
-          "campa": "He comes home early in the year, still unwell, and takes up the Academy's next question: the orbits of Jupiter's four known satellites and the way they perturb one another. He works from the artillery school and the society's rooms. He is twenty-nine, and by common consent of everyone competent to judge he is the first analyst in Europe and the worst paid of them. Turin has not raised his salary and has not proposed to. In Paris, d'Alembert is already writing to Berlin about him.",
+          "name": "Ferney, at Voltaire's chateau",
+          "lat": 46.2574,
+          "lng": 6.1036,
+          "date": "1764-01-01",
+          "date_confidence": "Treccani attests the stop at Ferney on the homeward road, in the phrase 'si fermo a Ferney, per fare la conoscenza di Voltaire'; no month is recorded and January is a default. Coordinates inherited byte-identical from adam_smith.journey.json, whose 1765 stops pin the Chateau de Voltaire at 46.2574, 6.1036; the research pool's 46.2559, 6.1088 is not used.",
+          "campa": "On the road home he turns aside at Ferney, where Voltaire sits just inside the French border with Geneva behind him in case Paris ever moves. The reason given in the record is the plainest one: to make his acquaintance. Nothing of what passes at the table is written down by either man. He goes on over the Alps and is back in Turin by May, twenty-eight years old, carrying a Paris prize and the friendship of d'Alembert. The artillery school is still the only post his own country has given him.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["Lagrange's memoir on the orbits of the satellites of Jupiter, Académie prize of 1766"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'"]
-        },
-        {
-          "name": "Turin, the twenty-first of August",
-          "lat": 45.0703,
-          "lng": 7.6869,
-          "date": "1766-08-21",
-          "date_confidence": "corrected against the research pool, which had him leaving 'in 1766, travelling through Paris' and omitted London. MacTutor: leaving Turin in August, he visited d'Alembert in Paris, then Caraccioli in London, before arriving in Berlin in October. fr.wikipedia dates the departure exactly, quitte pour toujours son pays natal le 21 aout 1766, and that date is used. The earlier refusal of Berlin while Euler held the post is quoted from MacTutor. The polished epigram about the greatest mathematician in Europe at the court of the greatest king in Europe is [R]: the recruitment through d'Alembert's mediation is documented, the wording varies across nineteenth-century retellings and is not fixed to any primary document, and it is therefore not quoted here. Turin pin inherited byte-identical from pierre_simon_laplace.journey.json.",
-          "campa": "Euler has gone to St Petersburg and Frederick II wants the mathematical chair filled. Lagrange had refused Berlin once before, while Euler still held the post, unwilling to appear to displace the man who had made his name known in the first place. The objection is now gone. The road out runs through Paris, where he stops with d'Alembert, and London, where Caraccioli is ambassador at last. On the twenty-first of August he leaves the city he was born in. He is thirty, and he never sees Turin again.",
-          "quote": "It seems to me that Berlin would not be at all suitable for me while M Euler is there.",
-          "quote_source": "Lagrange, letter to d'Alembert declining an earlier invitation to Berlin, quoted in the MacTutor History of Mathematics biography; read directly on the fetched page, which gives no date for the letter.",
-          "suggested_refs": ["fr.wikipedia, 'Joseph-Louis Lagrange', for the departure date of 21 August 1766", "leonard_euler.journey.json, stop 'Berlin, the leave granted'"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "fr.wikipedia, 'Joseph-Louis Lagrange'"]
+          "suggested_refs": ["The Chateau de Voltaire at Ferney, where Lagrange called on the homeward journey of 1764"],
+          "sources": ["Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "adam_smith.journey.json (Ferney pin)"]
         }
       ]
     },
     {
-      "name": "Director of Mathematics under Frederick",
+      "name": "Berlin: Twenty-One Years at Euler's Desk",
       "stops": [
         {
-          "name": "Berlin, in Euler's chair",
+          "name": "Turin, leaving for good",
+          "lat": 45.0703,
+          "lng": 7.6869,
+          "date": "1766-08-21",
+          "date_confidence": "fr.wikipedia gives the departure as 21 August 1766, and MacTutor, en.wikipedia and fr.wikipedia agree on the year. The research dossier credited Treccani for the 1766 date, but Treccani as fetched prints the year 1767: 'Il 21 ag. 1767 il L. lascio Torino per non farvi piu ritorno.' The day and month are Treccani's, the year is not; 1766 is followed here and the discrepancy is recorded rather than resolved.",
+          "campa": "Euler has gone back to St Petersburg and Frederick II wants the best mathematician in Europe sitting in Berlin. D'Alembert, who had declined the post himself, presses Lagrange to take it. He had refused an earlier overture on a scruple that says most of what needs saying about him. Now the chair is empty, and Turin, which has had him for thirty years, has offered him nothing above the artillery school's salary to keep him. On the twenty-first of August he leaves the city he was born in. He does not come back to it.",
+          "quote": "It seems to me that Berlin would not be at all suitable for me while M Euler is there.",
+          "quote_source": "Lagrange, declining an earlier overture to Berlin, quoted in MacTutor History of Mathematics, 'Joseph-Louis Lagrange'",
+          "suggested_refs": ["Frederick II's letters to Lagrange and d'Alembert on the succession to Euler, 1765-1766"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "fr.wikipedia, 'Joseph-Louis Lagrange'", "leonard_euler.journey.json"]
+        },
+        {
+          "name": "Paris, a call on d'Alembert",
+          "lat": 48.8566,
+          "lng": 2.3522,
+          "date": "1766-09-01",
+          "date_confidence": "MacTutor: 'he visited d'Alembert in Paris... before arriving in Berlin in October'. No date within the autumn is recorded and September is a default. MacTutor's fetched summary also named a stop with Caraccioli in London on this leg, which is almost certainly a garbled duplicate of the 1763 Paris episode with the Neapolitan diplomat; no 1766 London visit is carried here. Corpus-canonical Paris pin 48.8566, 2.3522.",
+          "campa": "The road to Berlin runs through Paris and he stops there to see d'Alembert, who three years ago sat by his sickbed and who has spent the interval writing to Frederick on his behalf. The two men have argued on paper about the vibrating string and the calculus of partial differences and will go on arguing for another seventeen years, in letters that never once turn cold. Then he goes east into a country whose language he does not speak, to a court that conducts its business in French.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The d'Alembert-Lagrange correspondence, Oeuvres de Lagrange vol. XIII"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'"]
+        },
+        {
+          "name": "Berlin, director of the mathematics class",
           "lat": 52.517,
           "lng": 13.3888,
           "date": "1766-11-06",
-          "date_confidence": "attested. MacTutor gives the October arrival and the succession to Euler as Director of Mathematics of the Prussian Academy on 6 November 1766. The Academy as a court institution whose prizes, pensions and appointments answered to royal policy is a characterization drawn from the research pool and from fr.wikipedia; the Castillon disappointment is fr.wikipedia's, and the absence of any lasting enmity is the pool's own negative finding, stated as such. Berlin Academy pin 52.517, 13.3888 inherited byte-identical from leonard_euler.journey.json, which uses it for the Academy on Unter den Linden throughout Euler's Berlin segment.",
-          "campa": "He arrives in October and on the sixth of November is installed as Director of Mathematics of the Royal Prussian Academy of Sciences, in Euler's chair and at Euler's salary. He is thirty. The Academy is a court institution: its prizes, its pensions and its appointments answer to royal policy, and its language is French. Jean de Castillon, an older academician who wanted the directorship, is passed over, and nothing in the record turns that disappointment into an enmity. He will hold the post twenty-one years.",
+          "date_confidence": "MacTutor: 'succeeded Euler as Director of Mathematics at the Berlin Academy on 6 November 1766'. Treccani supplies the arrival on 21 October and the installation on 6 November, but its sentence sits inside a passage dated 1767, so it is cited here for day and month only and not for the year. Coordinates inherited byte-identical from leonard_euler.journey.json, which pins the Prussian Academy at 52.517, 13.3888; the research pool's 52.5177, 13.3944 is not used.",
+          "campa": "He arrives in Berlin on the twenty-first of October and is installed on the sixth of November as director of the mathematics class of the Royal Prussian Academy of Sciences. The desk is Euler's; so is the salary, six thousand francs, and so is the standing quarrel between the Academy's mathematicians and its philosophers that Euler left behind him. Lagrange will hold the post twenty-one years and will not once be drawn into a public dispute. The letters that used to run from Turin to Berlin now run out of Berlin. He is thirty years old.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The Königlich-Preußische Akademie der Wissenschaften on Unter den Linden", "leonard_euler.journey.json, stop 'Berlin, director of the mathematics class'"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "fr.wikipedia, 'Joseph-Louis Lagrange'", "leonard_euler.journey.json (Berlin pin)"]
+          "suggested_refs": ["The Memoires de l'Academie royale des sciences et belles-lettres de Berlin, 1766-1787, which carry the bulk of his Berlin output"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "leonard_euler.journey.json (Berlin Academy pin)"]
         },
         {
           "name": "Berlin, the marriage to Vittoria Conti",
           "lat": 52.517,
           "lng": 13.3888,
           "date": "1767-09-01",
-          "date_confidence": "corrected. The research pool gave 6 September 1767; no source checked supports that day. fr.wikipedia has only 'En septembre 1767', MacTutor only 'just under a year from the time he arrived in Berlin', and Treccani gives the year. September 1767 is therefore used with the day defaulted to the first. That she was his cousin, had lived long in his father's household, and that they had no children and he wrote to d'Alembert that he wanted none, are MacTutor's. The nursing through her final illness is also MacTutor's. Berlin Academy pin inherited byte-identical from leonard_euler.journey.json.",
-          "campa": "Under a year after arriving he marries his cousin Vittoria Conti, who had lived a long time in his father's household in Turin and whom he has known since childhood. Berlin is a foreign city to both of them and the Academy's working language is French, which is neither's. They have no children, and he writes to d'Alembert that he does not want any. Almost nothing else of her survives: a name, a kinship, a household in Turin, one sentence from her husband to a friend. The marriage lasts sixteen years, and when the long illness comes he nurses her through it himself rather than hand her to anyone else.",
+          "date_confidence": "September 1767 per fr.wikipedia; MacTutor says only 'just under a year from the time he arrived in Berlin'. The precise day 6 September 1767, which the research dossier carried from secondary accounts, appears in none of MacTutor, Treccani, fr.wikipedia or en.wikipedia and is dropped here as false precision. The day defaults to the first.",
+          "campa": "Just under a year after arriving he marries his cousin Vittoria Conti, who had lived a long time in his father's house in Turin and who now comes north to keep his. He writes to d'Alembert about it in the register of a man reporting a decision rather than a feeling. He tells him too that he has no wish for children and that he thinks his own way of life unsuited to producing them. There will be none. They live in the middle of the city on Unter den Linden for twenty-one years.",
           "quote": "My wife, who is one of my cousins and who even lived for a long time with my family, is a very good housewife and has no pretensions at all.",
-          "quote_source": "Lagrange, letter to d'Alembert on his 1767 marriage to Vittoria Conti, quoted in the MacTutor History of Mathematics biography; the exact date of the letter is not given there.",
-          "suggested_refs": ["The Lagrange-d'Alembert correspondence, Berlin years, in the Oeuvres de Lagrange"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "fr.wikipedia, 'Joseph-Louis Lagrange'"]
+          "quote_source": "Lagrange, letter to d'Alembert, quoted in MacTutor History of Mathematics, 'Joseph-Louis Lagrange'",
+          "suggested_refs": ["Treccani's account of the household 'nella centralissima Unter den Linden'"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "fr.wikipedia, 'Joseph-Louis Lagrange'"]
         },
         {
-          "name": "Berlin, every number a sum of four squares",
+          "name": "Berlin, four squares and Wilson's theorem",
           "lat": 52.517,
           "lng": 13.3888,
           "date": "1770-01-01",
-          "date_confidence": "corrected: the research pool collapsed two theorems into one year. MacTutor dates the four-square theorem to 1770 and Wilson's theorem to 1771, and the campa states each separately. Months unrecorded, defaulted. The Pell equation, continued fractions and reduction of binary quadratic forms are MacTutor's. The link forward to Gauss's Disquisitiones arithmeticae of 1801 is an event inside Lagrange's own lifetime and is a one-directional relation of the ordinary kind, Gauss taking up Lagrange; it is carried in gauss.journey.json, which records Gauss reading Lagrange privately from 1792 and systematizing Fermat, Euler, Lagrange and Legendre in 1801. Berlin Academy pin inherited byte-identical from leonard_euler.journey.json.",
-          "campa": "He proves that every positive integer is the sum of at most four squares, which Fermat had asserted and nobody had established. The next year he proves Wilson's theorem. Around these he works out the reduction of binary quadratic forms, the theory of continued fractions and the solution of Pell's equation. That is the greater part of the arithmetic Carl Friedrich Gauss gathers up thirty years later and turns into one connected subject in the Disquisitiones arithmeticae of 1801. Gauss is not yet born when the four-square proof goes to press.",
+          "date_confidence": "MacTutor attests the four-square theorem to 1770 and Wilson's theorem to 1771. Neither has a recorded month; January is a default and the 1771 result is folded into this stop rather than given a second scene at the same pin.",
+          "campa": "He proves that every positive integer is the sum of four squares, a proposition Fermat had asserted and Euler had worked at for forty years without closing. The next year he proves Wilson's theorem, which had been stated in England without proof. Arithmetic is not his subject and he says so; he comes to it the way he comes to everything, because a stated thing is unproved and the machinery to prove it can be built. Both proofs go into the Nouveaux Memoires of an academy he runs in a language he never learned.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["Lagrange's Berlin memoirs on indeterminate analysis, 1768-1771", "gauss.journey.json, stop for the Disquisitiones Arithmeticae"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "gauss.journey.json"]
+          "suggested_refs": ["Lagrange, Demonstration d'un theoreme d'arithmetique, Nouveaux Memoires de l'Academie de Berlin (1770)", "gauss.journey.json, whose 1792 and 1801 stops record Gauss reading Lagrange's arithmetic on his own and then gathering it into the Disquisitiones"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "gauss.journey.json", "leonard_euler.journey.json"]
         },
         {
-          "name": "Berlin, the permutations of the roots",
+          "name": "Berlin, the resolvents",
           "lat": 52.517,
           "lng": 13.3888,
-          "date": "1771-01-01",
-          "date_confidence": "MacTutor dates the Réflexions sur la résolution algébrique des équations to 1770 and the memoirs run into 1771; the research pool gives the pair 1770-1771 and the stop is placed at 1771 so as not to collide with the four-square stop, month and day defaulted. The explicit denials in the campa, that he did not solve the general quintic and did not invent group theory, follow the pool's own analysis and are the standard modern reading; MacTutor states the permutation analysis and the resolvents without the retroactive credit. Berlin Academy pin inherited byte-identical from leonard_euler.journey.json.",
-          "campa": "In the Réflexions sur la résolution algébrique des équations he asks why the old tricks work: why the cubic and the quartic fall to a resolvent and the quintic will not. His method is to watch what happens to the roots of an equation when they are permuted among themselves. He does not solve the general quintic and he does not build a theory of groups. He clears the ground on which both of those become askable questions, and says plainly that what succeeds below the fifth degree fails above it.",
+          "date": "1770-01-01",
+          "date_confidence": "MacTutor dates the Reflexions sur la resolution algebrique des equations to 1770; no month is recorded and January is a default. The stop shares its date with the arithmetic stop above because both results fall in the same year and the sources give no finer ordering.",
+          "campa": "In the Reflexions sur la resolution algebrique des equations he asks not how to solve the cubic and the quartic, which is known, but why the known methods work, and he answers by watching what happens to a function of the roots when the roots are permuted among themselves. The resolvent of a fifth-degree equation, he finds, comes out of degree six: the method that lowered the others raises this one. He does not conclude that the quintic is unsolvable. He leaves the machinery in the open, and it is the machinery, not the conclusion, that outlives him.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["Réflexions sur la résolution algébrique des équations, Nouveaux mémoires de l'Académie de Berlin"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'"]
+          "suggested_refs": ["Lagrange, Reflexions sur la resolution algebrique des equations, Nouveaux Memoires de l'Academie de Berlin (1770-1771)"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'"]
         },
         {
-          "name": "Berlin, the equilateral triangle in the three-body problem",
+          "name": "Berlin, the three-body problem",
           "lat": 52.517,
           "lng": 13.3888,
           "date": "1772-01-01",
-          "date_confidence": "attested for 1772, the Essai sur le Problème des Trois Corps, the equilateral-triangle equilibrium solutions now called L4 and L5, and the prize shared with Euler; sources are NASA Science, 'What Is a Lagrange Point?', and MacTutor. That Euler had already found the three collinear points is NASA's. Month and day are not recorded and default to 1 January. The forward observation about spacecraft is the standard modern use of the term and is carried by the same NASA page; it is a property of the points, not a scene staged for Lagrange. Berlin Academy pin inherited byte-identical from leonard_euler.journey.json.",
-          "campa": "His prize memoir on the three-body problem finds the configurations in which three bodies pulling on each other keep a fixed shape. Two of them set the third at the apex of an equilateral triangle raised on the other two. Euler had already found the three collinear cases. He is working, as he works on everything here, from formulas on paper, with no instrument and no observation of his own, and the bodies in the memoir are letters. The Academy divides the prize between the two of them.",
+          "date_confidence": "MacTutor attests the 1772 Paris prize on the three-body problem, shared with Euler, and the Essai sur le Probleme des Trois Corps. NASA's public explainer on Lagrange points credits Lagrange by name with the five equilibrium solutions. The prize was awarded in Paris and the work done in Berlin; the stop is pinned where the work was done. No month recorded, January defaults.",
+          "campa": "The Paris Academy sets the three-body problem and splits the prize between Euler and Lagrange, master and successor, on the same question. Lagrange's Essai finds exact solutions in which three bodies hold a fixed shape while they move, one of them at the apex of an equilateral triangle standing on the other two. No approximation and no series enter into it. For the rest of his life the result is treated as an elegant curiosity, a solution in celestial mechanics with nothing known in the sky to match it. He gives no indication of thinking otherwise about it himself.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["Essai sur le Problème des Trois Corps (1772)", "NASA Science, 'What Is a Lagrange Point?'", "leonard_euler.journey.json"],
-          "sources": ["NASA Science, 'What Is a Lagrange Point?' (science.nasa.gov)", "MacTutor History of Mathematics, 'Lagrange'"]
+          "suggested_refs": ["Lagrange, Essai sur le Probleme des Trois Corps (1772)", "NASA, 'What Is a Lagrange Point?', science.nasa.gov, which names the five points after him"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "NASA, science.nasa.gov/resource/what-is-a-lagrange-point/", "leonard_euler.journey.json"]
         },
         {
-          "name": "Berlin, the prizes that keep arriving",
+          "name": "Berlin, the prizes keep arriving from Paris",
           "lat": 52.517,
           "lng": 13.3888,
-          "date": "1774-01-01",
-          "date_confidence": "MacTutor gives the 1774 Académie prize on the secular acceleration of the Moon and a further prize on the perturbations of cometary orbits in 1780; the research pool's geography lens notes that sources differ by a year or two between the competition, the decision and the printed memoir for the comet prize, and that discrepancy is stated rather than resolved. The stop is dated to the lunar prize, month and day defaulted. Laplace working the same ground and getting further with it is the standard reading and is carried by pierre_simon_laplace.journey.json's own celestial-mechanics stops; the two were corresponding by this date. Berlin Academy pin inherited byte-identical from leonard_euler.journey.json.",
-          "campa": "The Paris Academy asks whether the Moon is slowly speeding up in its orbit, as the ancient eclipse records seem to say, and he takes the prize for the answer. Six years later he takes another for the perturbations of cometary orbits, the same question asked of a body that comes once and goes. Sources differ by a year or two about when that competition ran and when the memoir was printed. Laplace, twelve years younger and in Paris, is working the same ground and will get further with it.",
+          "date": "1780-01-01",
+          "date_confidence": "MacTutor attests a 1774 prize on the secular acceleration of the Moon and a prize on the perturbations of comets which it dates to 1780; the research dossier dates the cometary competition to 1778. The gap is probably competition year against decision year and is not resolved here. The stop is dated to MacTutor's 1780 and carries both awards. No months recorded.",
+          "campa": "In 1774 the Academy of Sciences of a country he does not live in gives him its prize for the secular acceleration of the Moon, and again a few years later for the perturbations that comets suffer from the planets. He is a paid servant of Frederick II and the standing champion of the French Academy's competitions, and nobody in either capital finds this strange. The lunar and planetary memoirs of these years are the working half of his life; the other half is a manuscript he shows to no one.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The Académie prize memoirs of 1774 and 1780, printed in the Oeuvres de Lagrange", "pierre_simon_laplace.journey.json"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "pierre_simon_laplace.journey.json"]
+          "suggested_refs": ["The Paris Academy prize memoirs of 1774 and 1778-1780, in Oeuvres de Lagrange vol. VI"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'"]
         },
         {
-          "name": "Berlin, the death of Vittoria Conti",
+          "name": "Berlin, the letter to Laplace",
+          "lat": 52.517,
+          "lng": 13.3888,
+          "date": "1782-09-15",
+          "date_confidence": "the letter is dated 15 September 1782 in MacTutor, which quotes it. It is contemporary evidence that the Mecanique analytique was substantially finished six years before it was printed.",
+          "campa": "He writes to Pierre-Simon Laplace in Paris, twelve years his junior and the only other man alive who can read him at speed. They have been corresponding since Laplace's first paper came out in the Miscellanea Taurinensia, and they will end as colleagues on the same committees in the same city. The book is done, or nearly done: the whole of mechanics on one principle, worked out on paper over fifteen Berlin years. He has no publisher in Prussia and no urgency about finding one. He puts the manuscript back in the trunk and returns to the memoirs.",
+          "quote": "I have almost completed a 'Traite de mecanique analytique', based uniquely on the principle of virtual velocities; but, as I do not yet know when or where I shall be able to have it printed, I am not rushing to put the finishing touches to it.",
+          "quote_source": "Lagrange, letter to Laplace, 15 September 1782, quoted in MacTutor History of Mathematics, 'Joseph-Louis Lagrange'",
+          "suggested_refs": ["The Lagrange-Laplace correspondence, Oeuvres de Lagrange vol. XIV"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "pierre_simon_laplace.journey.json"]
+        },
+        {
+          "name": "Berlin, Vittoria dies",
           "lat": 52.517,
           "lng": 13.3888,
           "date": "1783-01-01",
-          "date_confidence": "MacTutor dates Vittoria Conti's death to 1783 after years of prolonged illness and records the severe depression that followed; month and day are not recorded and default to 1 January. The anecdote that he left his own freshly printed Mécanique analytique unopened on a desk for two years is [R], flagged as such by the research pool's own convention, and is refuted on its face by the printing date of 1788: it is reported here as a story and dated by nobody. Berlin Academy pin inherited byte-identical from leonard_euler.journey.json; no domestic address in Berlin was established by any source reached.",
-          "campa": "Vittoria Conti dies after years of illness he has nursed her through himself, and what follows in his letters is a collapse. He stops working. The melancholy does not lift for years, and the Berlin decade effectively ends here, four years before he leaves the city. A story grew up afterward that he left his own freshly printed Mécanique analytique unopened on a desk for two years; the book was not printed until 1788, and nobody who tells the story dates it.",
+          "date_confidence": "MacTutor and Treccani attest the death in 1783 after a long illness through which Lagrange nursed her; no month is recorded and January is a default. The added detail in the research dossier, that a copy of the not-yet-printed Mecanique analytique lay unopened for two years, is later memorial anecdote and is not carried as a claim.",
+          "campa": "Vittoria dies after a long illness he has nursed her through himself, refusing to leave the house. They had been married sixteen years and had no children. He is forty-seven. He stops working and stops answering letters, and tells the correspondents who do reach him that mathematics no longer interests him and that he suspects it never really did. D'Alembert, who might have pulled him out of it, dies in Paris the same year. Frederick II has three years to live. Almost nothing comes off Lagrange's desk for the next four.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The Berlin correspondence of 1783-1786, in the Oeuvres de Lagrange"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'"]
-        }
-      ]
-    },
-    {
-      "name": "Leaving Prussia",
-      "stops": [
+          "suggested_refs": ["Treccani's account of the illness and the collapse that followed"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'"]
+        },
         {
-          "name": "Berlin, Frederick dead and the honorable discharge",
+          "name": "Berlin, the leave granted",
           "lat": 52.517,
           "lng": 13.3888,
           "date": "1787-05-18",
-          "date_confidence": "two events merged into one stop and dated to the second. Frederick II died 17 August 1786; MacTutor dates Lagrange's departure from Berlin 18 May 1787 and gives the death of the king and offers from other courts, including France's, as the cause. The competing offers from Spain and Naples are the research pool's, from the same MacTutor page and fr.wikipedia. That the release was negotiated through diplomatic and academic channels rather than a flight rests on René Taton's article in the Revue d'histoire des sciences 41 (1988), persee.fr, which was cited in the pool but not refetched in this pass. That he kept the Prussian pension is the pool's, uncorroborated here and marked [R]. Berlin Academy pin inherited byte-identical from leonard_euler.journey.json.",
-          "campa": "Frederick II dies on the seventeenth of August 1786, and the Academy he built on a French plan loses the king who paid for its foreignness. Within the year Spain, Naples and the France of Louis XVI are bidding for Lagrange, and France offers a pension, an apartment and no teaching. On the eighteenth of May 1787 he takes an honorable discharge, negotiated through diplomatic and academic channels rather than seized, and leaves Berlin after twenty-one years. He keeps the Prussian pension.",
+          "date_confidence": "MacTutor's chronology reads '18 May 1787: Left Berlin for Paris', and fr.wikipedia independently gives the departure as 18 May 1787 and the arrival in Paris as 29 July 1787. The research dossier hedged this as possibly an arrival date; the hedge is not supported by the source and is dropped. Frederick II's death on 17 August 1786 is dated to the day in the dossier from secondary sources; MacTutor gives only the year.",
+          "campa": "Frederick dies in August 1786 and the court that replaces him has no use for a silent Italian who has published nothing much since his wife died. The offers arrive from everywhere at once: Naples, Turin, Paris. Louis XVI offers a pension, lodging in the Louvre, and membership of the Academie des sciences with no duties attached. Lagrange asks the Prussian Academy for an honourable discharge and gets it, keeping his Berlin salary as a pension. On the eighteenth of May he leaves the city after twenty-one years.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["René Taton, on Lagrange's departure from Berlin, Revue d'histoire des sciences 41 (1988), persee.fr", "louis_xvi.journey.json"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "fr.wikipedia, 'Joseph-Louis Lagrange'"]
-        },
-        {
-          "name": "The Louvre, Paris: an apartment and a pension",
-          "lat": 48.8606,
-          "lng": 2.3376,
-          "date": "1787-06-13",
-          "date_confidence": "MacTutor has him arriving in Paris in 1787 and becoming a pensionnaire vétéran of the Académie royale des sciences; Treccani dates the formal joining 13 June 1787, and that date is used with the contradiction noted, since MacTutor gives no day. The apartment connected with the Louvre and the understanding that he need not teach are from en.wikipedia and it.wikipedia. The two unproductive years after arrival are MacTutor's. Louvre pin 48.8606, 2.3376 for the pre-1795 Académie and his lodging; the corpus Institut pin 48.8566, 2.3376 is the quai Conti, which the Institut occupied only from 1805 and which is used in this file for the 1807 committee stop of pierre_simon_laplace.journey.json but not here.",
-          "campa": "He is lodged in an apartment connected with the Louvre, with a pension and the standing of a pensioned veteran of the Académie royale des sciences, on the understanding that he will not have to teach. Treccani dates the formal admission the thirteenth of June. He is received as the first mathematician in Europe by a body that has been awarding him its prizes for twenty-three years without ever having him in the room. Then he stops. For two years he produces almost nothing.",
-          "quote": null,
-          "quote_source": null,
-          "suggested_refs": ["The lodgings of the Académie royale des sciences in the Louvre before 1793"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "en.wikipedia, 'Joseph-Louis Lagrange'", "it.wikipedia, 'Joseph-Louis Lagrange'"]
-        },
-        {
-          "name": "Paris, the Mécanique analytique printed",
-          "lat": 48.8566,
-          "lng": 2.3522,
-          "date": "1788-01-01",
-          "date_confidence": "MacTutor dates the publication of the Mécanique analytique to 1788, through the publisher Desaint in Paris, and gives the programme of mechanics as a branch of analysis requiring no diagrams. The book was written in Berlin across the 1780s. Month not recorded and defaulted. The detail that he turned to chemistry, metaphysics and Latin rather than to mathematics in these years is the research pool's and rests on the standard biographical accounts rather than on a document reached here. Generic central-Paris pin 48.8566, 2.3522 inherited byte-identical from pierre_simon_laplace.journey.json and joseph_fourier.journey.json for a stop with no fixed address.",
-          "campa": "The book written in Berlin comes out through the publisher Desaint: two volumes, and not one figure anywhere in them. Mechanics is restated as a branch of analysis, motion reduced to general formulae whose development gives the equations of any problem. It is the most important treatise on the subject since the Principia, and its author is in no condition to enjoy it. He goes to salons, answers letters, and begins nothing. Chemistry interests him more, and metaphysics, and Latin.",
-          "quote": "We have already various treatises on Mechanics, but the plan of this one is entirely new. I intend to reduce the theory of this Science, and the art of solving problems relating to it, to general formulae, the simple development of which provides all the equations necessary for the solution of each problem. ... No diagrams will be found in this work. The methods that I explain require neither geometrical, nor mechanical, constructions or reasoning, but only algebraical operations in accordance with regular and uniform procedure. Those who love Analysis will see with pleasure that Mechanics has become a branch of it, and will be grateful to me for having thus extended its domain.",
-          "quote_source": "Lagrange, preface to the Mécanique analytique (1788), quoted in E. W. Hobson, Mathematics, from the points of view of the Mathematician and of the Physicist (1912); read directly in the archive.org text, identifier mathematicsfromp00hobsrich.",
-          "suggested_refs": ["Mécanique analytique, Paris, chez la veuve Desaint, 1788", "newton.journey.json, for the Principia against which the programme is set"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "archive.org, mathematicsfromp00hobsrich (Hobson)"]
+          "suggested_refs": ["The Prussian Academy's act of honourable discharge, May 1787"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "fr.wikipedia, 'Joseph-Louis Lagrange'"]
         }
       ]
     },
     {
-      "name": "The Metre, the Terror, and the Schools",
+      "name": "Paris, and the Book Without Diagrams",
       "stops": [
+        {
+          "name": "Paris, pensionnaire veteran",
+          "lat": 48.8606,
+          "lng": 2.3376,
+          "date": "1787-07-29",
+          "date_confidence": "fr.wikipedia gives the arrival in Paris as 29 July 1787; Treccani dates his admission to the Academie as pensionnaire veteran to 13 June 1787, which is before he arrived and therefore an election in absentia. The research dossier's 'May 1787' for the Paris arrival confuses the departure with the arrival and is corrected here. The pin is the Louvre, seat of the Academie royale des sciences and of the lodging granted him.",
+          "campa": "He reaches Paris at the end of July, having been elected to the Academie six weeks before he got there. The rank is pensionnaire veteran: full pay and no obligations of any kind. He is fifty-one, a widower, and by his own account finished. The pension and the rooms are the terms Louis XVI had offered him while he was still in Berlin. The rooms are connected with the Louvre and he keeps to them. Visitors find a famous mathematician with no appetite and no plans, and a manuscript in a trunk that he has not opened in five years.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The registers of the Academie royale des sciences for 13 June 1787"],
+          "sources": ["fr.wikipedia, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "MacTutor History of Mathematics, 'Joseph-Louis Lagrange'"]
+        },
+        {
+          "name": "Paris, the Mecanique analytique",
+          "lat": 48.8566,
+          "lng": 2.3522,
+          "date": "1788-01-01",
+          "date_confidence": "the 1788 first edition through Veuve Desaint is attested by MacTutor and Treccani; no month is recorded and January is a default. The often-repeated detail that Legendre saw the volume through the press was not verified in this pass and is not carried in the prose. Corpus-canonical Paris pin 48.8566, 2.3522, inherited byte-identical from pierre_simon_laplace.journey.json and simeon_denis_poisson.journey.json.",
+          "campa": "The manuscript from the trunk is printed in Paris while he takes no interest in it, and he does not open the presentation copy for two years. What is in it is the whole of statics and dynamics since Newton, reduced to one principle, virtual velocities, and carried out in generalized coordinates that need not be lengths or angles or anything a hand can draw. Mechanics stops being a branch of geometry in this book and becomes a branch of analysis. He says so himself, at the head of the volume, before the reader has reached a single equation.",
+          "quote": "One will not find figures in this work. The methods that I expound require neither constructions, nor geometrical or mechanical arguments, but only algebraic operations, subject to a regular and uniform course.",
+          "quote_source": "Lagrange, Avertissement to the Mecanique analytique (Paris, 1788), quoted in MacTutor History of Mathematics, 'Joseph-Louis Lagrange'",
+          "suggested_refs": ["Lagrange, Mecanique analytique (Paris: Veuve Desaint, 1788)", "Analytical Mechanics, trans. A. Boissonnade and V. N. Vagliente (Kluwer, 1997), the first full English version, confirmed in the OpenLibrary catalogue"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'"]
+        },
         {
           "name": "Paris, the commission on weights and measures",
           "lat": 48.8566,
           "lng": 2.3522,
           "date": "1790-05-01",
-          "date_confidence": "MacTutor dates the appointment to the government commission on the standardization of weights and measures to May 1790 and names Borda, Condorcet, Lavoisier, Laplace, Monge and Lagrange; day not recorded. The purge of December 1793 striking Laplace on political grounds while Lagrange was left on is attested through pierre_simon_laplace.journey.json, sourced there to the standard accounts; the decimal argument against a base of twelve is the research pool's and is the standard reading, not a quoted source claim. Generic central-Paris pin 48.8566, 2.3522 inherited byte-identical from pierre_simon_laplace.journey.json.",
-          "campa": "The Assembly appoints a commission to fix measures on universal and decimal principles: Borda, Condorcet, Lavoisier, Laplace, Monge and Lagrange. The metre and the kilogram come out of this room, and the choice of ten as the base is argued through against proposals of twelve. In December 1793 the Committee of Public Safety purges the commission on political grounds and strikes Laplace from it. Lagrange, a Sardinian by birth and a Prussian pensioner for twenty-one years, is left on.",
+          "date_confidence": "MacTutor attests the appointment in May 1790 and names Borda, Condorcet, Lavoisier, Laplace and Monge as colleagues, with Lagrange favouring decimal division. The day is not recorded and defaults to the first. pierre_simon_laplace.journey.json carries the same commission from the other side and records Laplace's removal from it by the Committee of Public Safety in December 1793.",
+          "campa": "The Assembly appoints a commission to fix the measures of France by nature instead of by custom, and he sits on it with Borda, Condorcet, Lavoisier, Laplace and Monge. The argument is about the base. Twelve has more divisors and the merchants want it; eleven is proposed by someone who wants a prime so that nobody can subdivide at all. Lagrange holds out for ten and gets it, and the decimal metric system that comes out of the room is his in this one respect completely. Within four years two of the men at that table are dead by the state.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The procès-verbaux of the commission on weights and measures, 1790-1799", "pierre_simon_laplace.journey.json, stop 'Paris, the commission on weights and measures'"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "pierre_simon_laplace.journey.json"]
+          "suggested_refs": ["The proces-verbaux of the Commission des poids et mesures, 1790-1799"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "pierre_simon_laplace.journey.json"]
         },
         {
           "name": "Paris, the second marriage",
           "lat": 48.8566,
           "lng": 2.3522,
-          "date": "1792-05-24",
-          "date_confidence": "contradiction flagged. Treccani dates the marriage to Renée-Françoise-Adélaïde Le Monnier 24 May 1792 and MacTutor gives only 1792; the research pool's geography lens separately gave 31 May 1792, which contradicts its own chronology entry and is supported by nothing checked, so Treccani's day is used. Her age: fr.wikipedia gives her birth year as 1767, en.wikipedia says twenty-four; twenty-four or twenty-five is the honest range. The countersigning of the contract by Louis XVI shortly before the fall of the monarchy is in both MacTutor and Treccani. The archival correction of the gossip about her age is credited in the pool to René Taton's study and was not refetched. Generic central-Paris pin inherited byte-identical from pierre_simon_laplace.journey.json.",
-          "campa": "At fifty-six he marries Renée-Françoise-Adélaïde Le Monnier, twenty-four or twenty-five, daughter of the astronomer Pierre-Charles Le Monnier at whose house he calls. The marriage contract is countersigned by Louis XVI a few weeks before the monarchy falls. She will not leave him, and the man who told d'Alembert he wanted no children is by every account devoted to her for the twenty-one years left to him. Gossip afterward inflated the age gap into a caricature and made her a child. The archives say she was an adult.",
+          "date": "1792-05-01",
+          "date_confidence": "the day is disputed and mis-sourced in the research dossier. Treccani gives 24 May 1792; it.wikipedia gives 31 May 1792 with a notarial contract of 3 June. en.wikipedia carries neither day, so the dossier's attribution of 31 May to en.wikipedia is wrong and is corrected here. The day is left unresolved and defaults to the first of May. Adelaide Le Monnier's dates, 1767-1833, are established by Sarton, Taton and Beaujouan in the Revue d'histoire des sciences (1950), making her twenty-four or twenty-five and him fifty-six.",
+          "campa": "Renee-Francoise-Adelaide Le Monnier, daughter of the astronomer Pierre-Charles Le Monnier, is twenty-four and proposes the marriage herself. He is fifty-six, sunk in the depression that has not lifted since Berlin, and he accepts. She refuses to be left behind by him in anything: she learns enough of his subject to talk to him about it and gets him out of the apartment, and everyone who saw them credits her with giving him back the will to work. The royal family signs the contract in May 1792. What she wanted with him at that age is not something anyone who knew them wrote down.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["René Taton's archival study of Lagrange's second marriage", "louis_xvi.journey.json"],
-          "sources": ["Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "MacTutor History of Mathematics, 'Lagrange'", "en.wikipedia, 'Joseph-Louis Lagrange'", "fr.wikipedia, 'Joseph-Louis Lagrange'"]
+          "suggested_refs": ["G. Sarton, R. Taton and G. Beaujouan, 'Documents nouveaux concernant Lagrange', Revue d'histoire des sciences 3 (1950), persee.fr, which used family papers held in Turin to correct the later gossip about this marriage"],
+          "sources": ["Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "it.wikipedia, 'Joseph-Louis Lagrange'", "Sarton, Taton and Beaujouan, Revue d'histoire des sciences 3 (1950)"]
+        }
+      ]
+    },
+    {
+      "name": "The Terror",
+      "stops": [
+        {
+          "name": "Paris, the academies shut and the foreigners listed",
+          "lat": 48.8606,
+          "lng": 2.3376,
+          "date": "1793-08-08",
+          "date_confidence": "MacTutor attests the suppression of the learned societies on 8 August 1793. The month of the law on foreigners born in enemy countries is disputed: MacTutor says September 1793, en.wikipedia says October. MacTutor is explicit about the agent, which the research dossier had dropped: 'Lavoisier intervened on behalf of Lagrange, who certainly fell under the terms of the law, and he was granted an exception.' Both events are carried at the one pin, the Louvre, where the Academie sat.",
+          "campa": "On the eighth of August the Convention suppresses the Academie des sciences along with every other learned society in France. A few weeks later a law orders the arrest of all foreigners born in enemy countries, and Lagrange, a subject of the King of Sardinia who has never taken French nationality, falls squarely inside it. Lavoisier intervenes for him by name and the exception is granted. He is a Piedmontese pensioner of a dead king, kept in Paris by a chemist who has eight months to live.",
+          "quote": "I believe that, in general, one of the first principles of every wise man is to conform strictly to the laws of the country in which he is living, even when they are unreasonable.",
+          "quote_source": "Attributed to Lagrange in MacTutor History of Mathematics, 'Joseph-Louis Lagrange'; presented there without a letter date or archival citation and not confirmed against any primary document in this pass",
+          "suggested_refs": ["The decree of 8 August 1793 suppressing the academies; the law on foreigners of September or October 1793"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "Wikipedia, 'Joseph-Louis Lagrange'"]
         },
         {
-          "name": "Place de la Révolution, Paris: the news of Lavoisier",
-          "lat": 48.8656,
-          "lng": 2.3212,
+          "name": "Place de la Revolution, Lavoisier's head",
+          "lat": 48.8648,
+          "lng": 2.3268,
           "date": "1794-05-08",
-          "date_confidence": "corrected. The research pool said Lagrange witnessed the guillotining; no source places him at the Place de la Révolution on 8 May 1794, and the standard framing is that he spoke on learning of the execution. MacTutor says only that the tribunal condemned Lavoisier that day, quotes the remark, and adds that Lavoisier had saved Lagrange from arrest. The remark itself is [R]: MacTutor prints it as a direct quotation, citing H. Eves, but the wording is unstable across the sources that carry it, cut off that head against cause this head to fall, and no primary provenance was located. Lavoisier's execution on 8 May 1794 is independently documented. Coordinate 48.8656, 2.3212 is the Place de la Concorde, the Place de la Révolution of 1794; the pool's own geography lens confirmed it. The exemptions granted to Lagrange by name as an enemy national, and the fact that he was never imprisoned, indicted or tried, are folded into this stop from the pool.",
-          "campa": "Antoine Lavoisier, farmer-general and chemist, who sat with him on the commission for the metre and had earlier kept him from arrest as an enemy national, is condemned by the Revolutionary Tribunal in the morning and guillotined the same day on this square. No source puts Lagrange at the scaffold; what the sources put him at is the news. The sentence he speaks on hearing it is the most quoted of his life and the least documented, circulating in several wordings, none traced to a paper of that week.",
+          "date_confidence": "the execution is dated 8 May 1794. Whether Lagrange was present is not established by any source reached, and the stop is pinned at the scaffold because that is where the event happened, not because his attendance is attested. The remark is the most repeated sentence anyone ever put in his mouth and its exact French wording and first documentary appearance have not been traced; a variant reading runs 'cut off that head, but France may not produce another like it in a century'. Coordinates inherited byte-identical from louis_xvi.journey.json, which pins the Place de la Revolution at 48.8648, 2.3268.",
+          "campa": "Lavoisier is tried in the morning and guillotined in the afternoon with twenty-seven other farmers-general, eight months after the intervention that kept Lagrange in France. The Commission of Weights and Measures loses the man who had been its chemist and the metric system goes on being built without him. Whether Lagrange stood in the square that afternoon is established by nothing. What he said when he heard the news is recorded in no document anyone has produced since, and it comes down in more than one wording.",
           "quote": "It took only a moment to cause this head to fall and a hundred years will not suffice to produce its like.",
-          "quote_source": "Attributed to Lagrange on the execution of Lavoisier, 1794; printed as a direct quotation in the MacTutor History of Mathematics biography, which cites H. Eves, An Introduction to the History of Mathematics. Tagged [R]: the wording varies across the sources that carry it and no contemporaneous document has been located.",
-          "suggested_refs": ["The record of the Revolutionary Tribunal for 8 May 1794", "H. Eves, An Introduction to the History of Mathematics, for the transmitted wording"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "en.wikipedia, 'Antoine Lavoisier'"]
-        },
+          "quote_source": "Attributed to Lagrange on Lavoisier's execution, quoted in MacTutor History of Mathematics, 'Joseph-Louis Lagrange'; no contemporaneous documentation of the French wording located",
+          "suggested_refs": ["The judgment of the Revolutionary Tribunal against the farmers-general, 8 May 1794"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "Wikiquote, 'Joseph-Louis Lagrange', for the variant wording", "louis_xvi.journey.json (Place de la Revolution pin)"]
+        }
+      ]
+    },
+    {
+      "name": "The Schools of the Republic",
+      "stops": [
         {
-          "name": "École centrale des travaux publics, Paris: the first professor of analysis",
+          "name": "Paris, first professor of analysis",
           "lat": 48.8608,
           "lng": 2.3183,
-          "date": "1794-12-21",
-          "date_confidence": "MacTutor records the appointment as first professor of analysis at the École centrale des travaux publics, which opened in December 1794 and shortly after took the name École Polytechnique; the day within December is not given by any source reached and 21 December is a placed value to order the stop, not a source date. That the lectures fed into the Théorie des fonctions analytiques, the Résolution des équations numériques and the Leçons sur le calcul des fonctions is en.wikipedia's and Belhoste's, cited in the pool. Monge teaching descriptive geometry at the same school is standard and is carried in joseph_fourier.journey.json. Pin 48.8608, 2.3183 inherited byte-identical from joseph_fourier.journey.json, which uses it for the school at the Palais Bourbon; the pool gave 48.8608, 2.3184 and the corpus pair is preferred.",
-          "campa": "The Republic opens a school to make engineers for its armies and its roads and appoints him its first professor of analysis. He had come to Paris on the understanding that he would not have to teach; he teaches. Within months the school is renamed the École Polytechnique. The course he gives, the differential and integral calculus laid out from the beginning for young men who have had none of it, turns into three books. Gaspard Monge is teaching descriptive geometry along the same corridor.",
-          "quote": "An ancient writer said that arithmetic and geometry are the wings of mathematics; I believe one can say without speaking metaphorically that these two sciences are the foundation and essence of all the sciences which deal with quantity. ...",
-          "quote_source": "Lagrange, Leçons élémentaires sur les mathématiques, Leçon seconde (1795), given at the École normale de l'an III in the same season; quoted in R. E. Moritz, Memorabilia Mathematica (1914), item 1504, read in the archive.org text memorabiliamath00morigoog. The research pool cited Leçon cinquième; Moritz's own citation line reads Leçon seconde. The trailing ellipsis marks that Moritz's item continues.",
-          "suggested_refs": ["Bruno Belhoste on Lagrange's teaching at the École Polytechnique", "joseph_fourier.journey.json, stop 'Paris, the school at the Palais Bourbon'"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "en.wikipedia, 'Joseph-Louis Lagrange'", "joseph_fourier.journey.json (Polytechnique pin)"]
+          "date": "1794-12-01",
+          "date_confidence": "MacTutor gives the foundation of the Ecole centrale des travaux publics on 11 March 1794 and its opening in December 1794; the day of opening is not recorded and defaults to the first. The school's first quarters were in the Palais Bourbon. The research pool's pin 48.8606, 2.3183 sits about 155 m short of the Palais Bourbon; the coordinate used here, 48.8608, 2.3183, is inherited byte-identical from joseph_fourier.journey.json's stop for this same chair.",
+          "campa": "The Republic needs engineers and founds a school to make them, in the Palais Bourbon, and Lagrange is its first professor of analysis. He is fifty-eight. The intake is a few hundred boys chosen by competition out of the whole of France, and they get the calculus from the man who wrote the Mecanique analytique, delivered in a weak voice with an Italian accent, at an altitude most of them cannot reach. His lecture courses here will become two books. The school is renamed the Ecole polytechnique the following year.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Palais Bourbon, first premises of the Ecole centrale des travaux publics, December 1794"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "fr.wikipedia, 'Joseph-Louis Lagrange'", "joseph_fourier.journey.json (Ecole polytechnique pin)"]
         },
         {
-          "name": "Paris, the École normale de l'an III",
+          "name": "Paris, the Ecole normale de l'an III",
           "lat": 48.8416,
           "lng": 2.3622,
           "date": "1795-01-20",
-          "date_confidence": "attested. fr.wikipedia dates the École normale de l'an III from 20 January to 19 May 1795 and places it in the Grand Amphithéâtre of the Muséum at the Jardin des Plantes, too small for the cohort; MacTutor records Lagrange teaching elementary mathematics there with Fourier among his students, and pierre_simon_laplace.journey.json records Laplace sharing the chair. Coordinate 48.8416, 2.3622 inherited byte-identical from joseph_fourier.journey.json by way of pierre_simon_laplace.journey.json; note the correction, not applied so as to keep the pin identical across the three files: the Muséum amphitheatre is nearer 48.8437, 2.3572, and the corpus pin sits some hundreds of metres east. Fourier's report of the weak voice and the Italian accent is the research pool's and rests on the standard accounts rather than a text reached here.",
-          "campa": "The school opens on the twentieth of January in the amphitheatre of the Muséum at the Jardin des Plantes, too small for the cohort sent up from every department of the Republic, and it runs four months. He shares the chair of mathematics with Laplace and teaches the elementary part, arithmetic and algebra from the ground. On the benches is Joseph Fourier, twenty-six, one of the students his department has sent. What Fourier remembers of him afterward is a weak voice and a heavy Italian accent.",
-          "quote": "As long as algebra and geometry proceeded along separate paths, their advance was slow and their applications limited. But when these sciences joined company, they drew from each other fresh vitality and thenceforward marched on at a rapid pace toward perfection.",
-          "quote_source": "Lagrange, Leçons élémentaires sur les mathématiques, Leçon cinquième (1795), translated by McCormack; quoted verbatim in R. E. Moritz, Memorabilia Mathematica (1914), item 627, read in the archive.org text memorabiliamath00morigoog.",
-          "suggested_refs": ["The published leçons of the École normale de l'an III", "joseph_fourier.journey.json, stop 'Paris, the Ecole normale de l'an III'", "pierre_simon_laplace.journey.json"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "fr.wikipedia, 'École normale de l'an III'", "joseph_fourier.journey.json", "pierre_simon_laplace.journey.json"]
+          "date_confidence": "fr.wikipedia, 'Ecole normale de l'an III', fixes the session at 1 pluviose an III to 30 floreal an III, that is 20 January to 19 May 1795, in an amphitheatre of the Museum national d'histoire naturelle. MacTutor has Lagrange teaching elementary mathematics there and Laplace sharing the mathematics with him; the research dossier omitted Laplace. Fourier's attendance, which the dossier's writer could not verify, is attested by MacTutor through joseph_fourier.journey.json. Coordinates inherited byte-identical from joseph_fourier.journey.json and pierre_simon_laplace.journey.json (48.8416, 2.3622); the research pool's 48.844, 2.3588 is not used.",
+          "campa": "The Republic gathers provincial schoolmasters into an amphitheatre at the Jardin des Plantes and has the best men in France lecture at them for four months. Lagrange shares the mathematics with Laplace and begins at the beginning, arithmetic and algebra, for an audience mostly incapable of following him past the first hour. On the benches sits Joseph Fourier, twenty-six, lately out of a prison cell, who writes down what the lecturer sounds like. The school closes on the nineteenth of May.",
+          "quote": "His voice is very feeble, at least in that he does not become heated; he has a very pronounced Italian accent and pronounces the s like z. The students, of whom the majority are incapable of appreciating him, give him little welcome, but the professors make amends for it.",
+          "quote_source": "Joseph Fourier on Lagrange's lectures at the Ecole normale, 1795, quoted in MacTutor History of Mathematics, 'Joseph-Louis Lagrange'",
+          "suggested_refs": ["The published Seances des Ecoles normales, an III, which print the mathematics lectures as delivered"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "fr.wikipedia, 'Ecole normale de l'an III'", "joseph_fourier.journey.json", "pierre_simon_laplace.journey.json"]
         },
         {
-          "name": "Petit Luxembourg, Paris: the Bureau des longitudes",
+          "name": "Paris, the Bureau des longitudes and the new Institut",
           "lat": 48.8489,
           "lng": 2.3369,
           "date": "1795-07-06",
-          "date_confidence": "attested through pierre_simon_laplace.journey.json, which records the law of 25 June 1795 (7 messidor an III) creating the Bureau des longitudes and its first meeting on 6 July 1795 in a room of the Petit Luxembourg, with Lagrange a founding geometer alongside Laplace, Méchain, Cassini and Delambre, sourced there to fr.wikipedia, 'Bureau des longitudes'. The research pool had the founding roster only from generic institutional histories and gave no venue. Coordinate 48.8489, 2.3369 inherited byte-identical from pierre_simon_laplace.journey.json, whose own confidence field records that it is a building position and not a corpus-canonical pin. The Observatory's subordination to the Bureau from 1795 to 1854 is from the same article.",
-          "campa": "A law of messidor creates one body to hold the astronomy, the navigation, the geodesy and the timekeeping of the Republic, and on the sixth of July it sits for the first time in a room of the Petit Luxembourg. He is a founding geometer, with Laplace, Méchain, Cassini and Delambre. He has never taken an observation in his life; what he brings to a table of astronomers is the analysis that turns their numbers into orbits. From this year until 1854 the Paris Observatory answers to this committee.",
+          "date_confidence": "fr.wikipedia, 'Bureau des longitudes': created by the law of 25 June 1795 and first convened on 6 July 1795 in a room of the Petit Luxembourg, with Lagrange a founding member as geometre and its second president from September 1795. The research dossier's claim that the Paris Observatory was the Bureau's seat is contradicted by the same article: the Observatory was placed under the Bureau's oversight from 1795 to 1854. Coordinates for the Petit Luxembourg inherited byte-identical from pierre_simon_laplace.journey.json (48.8489, 2.3369). Membership of the mathematical class of the Institut national, founded the same year in the Louvre, is folded into this stop; its month is not established here.",
+          "campa": "A law of messidor creates one body to hold the astronomy, the navigation, the geodesy and the timekeeping of the Republic, and on the sixth of July it sits for the first time in a room of the Petit Luxembourg. Lagrange is a founding geometer and takes the presidency in September. The same year the Institut national replaces the academies the Convention had abolished two years earlier, in the Louvre, and he is elected to its mathematical class. He is fifty-nine and sits in both bodies from their first sessions.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The law of 7 messidor an III creating the Bureau des longitudes", "pierre_simon_laplace.journey.json, stop 'Petit Luxembourg, Paris: the Bureau des Longitudes'"],
-          "sources": ["fr.wikipedia, 'Bureau des longitudes'", "pierre_simon_laplace.journey.json"]
+          "suggested_refs": ["The law of 7 messidor an III establishing the Bureau des longitudes", "The Petit Luxembourg, where the Bureau first met on 6 July 1795"],
+          "sources": ["fr.wikipedia, 'Bureau des longitudes'", "MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "pierre_simon_laplace.journey.json (Petit Luxembourg pin)"]
         },
         {
-          "name": "Paris, president of the mathematical class",
-          "lat": 48.8606,
-          "lng": 2.3376,
-          "date": "1795-12-27",
-          "date_confidence": "Treccani dates the election as president of the mathematical sciences class of the new Institut National to 27 December 1795. The royal academies had been abolished in August 1793. Coordinate 48.8606, 2.3376 is the Louvre, where the Institut national met until 1805 and where his own apartment was; it is deliberately not the corpus Institut pin 48.8566, 2.3376, which is the quai Conti and belongs to the later building. The count of four regimes that salaried him is arithmetic on the record, Sardinia, Prussia, the French monarchy and the French republic, and is not a source claim.",
-          "campa": "The royal academies were abolished in 1793 and the Institut national replaces them; on the twenty-seventh of December the class of mathematical sciences elects him its president. He was elected to Berlin in 1756, to the Académie royale in 1787, and now to the third body to hold him, under the fourth regime that has paid him. He has outlasted a king, a terror and his own retirement from the subject. His account of how he did it is a rule about obeying the laws of wherever you happen to be living, including the unreasonable ones.",
-          "quote": "I believe that, in general, one of the first principles of every wise man is to conform strictly to the laws of the country in which he is living, even when they are unreasonable.",
-          "quote_source": "Lagrange, quoted in the MacTutor History of Mathematics biography, where it is given as his stated survival strategy through the Revolution; no letter or date is cited there.",
-          "suggested_refs": ["The founding registers of the Institut national des sciences et des arts, 1795"],
-          "sources": ["Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "MacTutor History of Mathematics, 'Lagrange'", "en.wikipedia, 'Joseph-Louis Lagrange'"]
-        },
-        {
-          "name": "École Polytechnique, Paris: the Théorie des fonctions analytiques",
+          "name": "Paris, the chair given up",
           "lat": 48.8608,
           "lng": 2.3183,
           "date": "1797-01-01",
-          "date_confidence": "MacTutor dates the Théorie des fonctions analytiques to 1797 and the Leçons sur le calcul des fonctions to 1800, both out of the Polytechnique teaching; months not recorded and defaulted. The judgement that the programme is not sound, since a smooth function need not equal its own Taylor series, follows Giovanni Ferraro's study cited in the research pool (hal.science, hal-00614606v1) and is the standard modern assessment; Lagrange could not have shown the counterexample and did not claim to. Polytechnique pin inherited byte-identical from joseph_fourier.journey.json. Fourier will be appointed to this chair in 1797, per joseph_fourier.journey.json's stop 'Paris, Lagrange's chair'.",
-          "campa": "He publishes the attempt of his old age: to found the calculus with no infinitesimals, no vanishing quantities, no limits and no fluxions, on nothing but the expansion of a function in a power series, with the derivative read off as a coefficient. It comes straight out of the Polytechnique lectures, and the Leçons sur le calcul des fonctions follow it in 1800. The programme is powerful and it is not sound. A function can be perfectly smooth and not equal to its own series.",
-          "quote": "... the principles of the differential calculus, freed from all consideration of the infinitely small or vanishing quantities, of limits or fluxions, and reduced to the algebraic analysis of finite quantities.",
-          "quote_source": "Lagrange, on the aim of the Théorie des fonctions analytiques (1797), quoted in the MacTutor History of Mathematics biography; the quotation begins mid-sentence there and the leading ellipsis is MacTutor's.",
-          "suggested_refs": ["Giovanni Ferraro on Lagrange's foundations of the calculus, hal.science hal-00614606v1", "joseph_fourier.journey.json, stop 'Paris, Lagrange's chair'", "augustin_louis_cauchy.journey.json, which records Cauchy carrying this book to Cherbourg in 1810"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "joseph_fourier.journey.json"]
+          "date_confidence": "joseph_fourier.journey.json states from MacTutor that Lagrange gave up the chair of analysis and mechanics at the Ecole polytechnique in 1797 and Fourier was appointed to succeed him. fr.wikipedia gives his Polytechnique professorship as running 1794-1799. The two are not reconciled here: he may have kept other teaching after handing over the chair, and the Bugge account of 1799 below has him still lecturing in the building. No month is recorded and January is a default.",
+          "campa": "He gives up the chair of analysis and mechanics at the Ecole polytechnique, the most exacting mathematical teaching post in France, and it goes to Joseph Fourier, who two years earlier had been sitting in the amphitheatre at the Jardin des Plantes taking notes on his accent. Fourier is twenty-nine and has been out of a prison cell for three years. Lagrange is sixty-one and does not stop coming to the school. The two of them will sit at the same committee table again in 1807, on opposite sides of it.",
+          "quote": null,
+          "quote_source": null,
+          "suggested_refs": ["The Ecole polytechnique's registers of instruction for 1797"],
+          "sources": ["joseph_fourier.journey.json", "MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "fr.wikipedia, 'Joseph-Louis Lagrange'"]
+        },
+        {
+          "name": "Paris, calculus without infinitesimals",
+          "lat": 48.8566,
+          "lng": 2.3522,
+          "date": "1797-01-01",
+          "date_confidence": "MacTutor attests the Theorie des fonctions analytiques to 1797, the Resolution des equations numeriques to 1798, and the Lecons sur le calcul des fonctions to 1800; all three grew out of the Polytechnique courses. No months are recorded and January is a default; the later two volumes are folded into this stop rather than staged separately at the same pin.",
+          "campa": "He tries to put the calculus on a footing that needs no infinitely small quantity, no vanishing ratio, and no limit: every function is to be expanded in a power series, and the derivative is to be read off from the coefficients. The word derivative is his, and so is the notation with the prime. The programme itself does not survive; the series he needs do not always converge and he has not the machinery to say when they do. Two more volumes follow, on numerical equations and on the calculus of functions, out of the same lectures.",
+          "quote": "The principles of the differential calculus, freed from all consideration of the infinitely small or vanishing quantities, of limits or fluxions, and reduced to the algebraic analysis of finite quantities.",
+          "quote_source": "Lagrange, Theorie des fonctions analytiques (Paris, 1797), title page and preface, quoted in MacTutor History of Mathematics, 'Joseph-Louis Lagrange'",
+          "suggested_refs": ["Lagrange, Theorie des fonctions analytiques (1797); Resolution des equations numeriques (1798); Lecons sur le calcul des fonctions (1800)", "augustin_louis_cauchy.journey.json, whose 1810 stop has Cauchy carrying the Theorie des fonctions analytiques to Cherbourg as one of four books"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "augustin_louis_cauchy.journey.json"]
+        },
+        {
+          "name": "Paris, a Dane in the lecture room",
+          "lat": 48.8608,
+          "lng": 2.3183,
+          "date": "1799-01-01",
+          "date_confidence": "Thomas Bugge's remark is dated 1799 by MacTutor, which quotes it from the Danish astronomer's travel account of revolutionary Paris. The day and month are not recorded and default to January. Simeon Denis Poisson entered the Ecole polytechnique in 1798, first in the entrance examination, and simeon_denis_poisson.journey.json records that Lagrange and Laplace were both teaching in the building that year.",
+          "campa": "Thomas Bugge, director of the Copenhagen observatory, comes to Paris to see what the Republic has made of the sciences and sits in on the mathematics at the Ecole polytechnique. He goes away impressed and unconvinced that the arrangement works. In the same rooms a poor boy from the Loiret, Simeon Denis Poisson, has just come first in the entrance examination and is taught that year by Lagrange and by Laplace, in the same building, on the same subject.",
+          "quote": "Whatever this great man says, deserves the highest degree of consideration, but he is too abstract for youth.",
+          "quote_source": "Thomas Bugge on Lagrange's lectures at the Ecole polytechnique, 1799, quoted in MacTutor History of Mathematics, 'Joseph-Louis Lagrange'",
+          "suggested_refs": ["Thomas Bugge, Travels in the French Republic (English edition, 1801)"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "simeon_denis_poisson.journey.json"]
         }
       ]
     },
     {
-      "name": "Senator, Count, and the Second Edition",
+      "name": "Senator, Count, Old Man",
       "stops": [
         {
-          "name": "Palais du Luxembourg, Paris: the Sénat conservateur",
-          "lat": 48.8485,
-          "lng": 2.3378,
-          "date": "1799-12-24",
-          "date_confidence": "Treccani dates the naming among the inaugural members of the Sénat conservateur to 24-25 December 1799, after the coup of 18 Brumaire; the first of the two days is used. Coordinate corrected: the research pool gave 48.8462, 2.3372, which falls in the Jardin du Luxembourg some 260 m south of the building; the Palais du Luxembourg is at 48.8485, 2.3378 per OpenStreetMap Nominatim, and that pair is used. It is not a corpus-canonical pin. The anecdote of him teasing Laplace about the senatorial costume is credited in the pool to Cournot's recollection and was not verified against Cournot's text.",
-          "campa": "Eighteen Brumaire puts Bonaparte in power, and the new constitution seats a Senate of eighty to guard it. Lagrange is named among the first members, one of a handful of scientists placed there to give the regime an enlightened face. What he does in it is ceremonial. He is sixty-three and has drawn a salary from Sardinia, from Prussia, from a French monarchy and from a French republic without ever once holding any of their politics. Cournot remembered him teasing Laplace about the look of a senator's costume.",
+          "name": "Palais du Luxembourg, the Senat conservateur",
+          "lat": 48.8484,
+          "lng": 2.3372,
+          "date": "1799-12-25",
+          "date_confidence": "fr.wikipedia dates the appointment to 4 nivose an VIII, that is 25 December 1799; Treccani gives 24-25 December 1799. The research pool's coordinate 48.8462, 2.3372 is about 245 m too far south and is the Pantheon's latitude, apparently copied from the Pantheon row; the Palais du Luxembourg is at 48.8484, 2.3372 and the pin is corrected here.",
+          "campa": "Six weeks after the coup of 18 Brumaire, Bonaparte names him to the Senat conservateur, the body that is to guard a constitution nobody expects to be guarded. The salary is large and the duties are ceremonial. Lagrange is sixty-three and has now been paid by a king of Sardinia, a king of Prussia, a king of France, a republic, a directory and a consul, without changing what he does at his desk in the morning. He votes as the others vote and says nothing in the chamber that anybody wrote down.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The registers of the Sénat conservateur, an VIII", "napoleon.journey.json", "pierre_simon_laplace.journey.json, stop 'Paris, Minister of the Interior'"],
-          "sources": ["Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "OpenStreetMap Nominatim, Palais du Luxembourg"]
+          "suggested_refs": ["The senatus-consultes of the Senat conservateur, 1799-1814"],
+          "sources": ["fr.wikipedia, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "MacTutor History of Mathematics, 'Joseph-Louis Lagrange'"]
         },
         {
-          "name": "École Centrale du Panthéon, Paris: languages before mathematics",
+          "name": "Paris, at the Cauchy table",
           "lat": 48.8462,
           "lng": 2.3466,
           "date": "1802-01-01",
-          "date_confidence": "[R] throughout, and flagged as such in the source file. augustin_louis_cauchy.journey.json carries this as biographical tradition running through Bruno Belhoste, unverified in that pass, and its own confidence field says so; the schooling of 1802-1804 and its classical content are attested there by MacTutor and en.wikipedia, but Lagrange's presence at the Cauchy table and his advice to the father are not. Month and day unknown, defaulted to 1 January. Pin 48.8462, 2.3466 inherited byte-identical from augustin_louis_cauchy.journey.json. The stop is Lagrange's because the visit, if it happened, was his own; nothing of Cauchy's later travel is staged here.",
-          "campa": "Louis-François Cauchy, a senior official of the Prefecture, keeps a table at which Lagrange is a visitor, and there is a boy in the house of frightening quickness. Lagrange, the tradition holds, tells the father to keep him away from mathematics until he has languages first. The father obeys. Augustin-Louis Cauchy spends two years on Latin grammar and prosody before anyone lets him near a proof. Whether Lagrange ever sat at that table is carried by nobody who was in the room, only by a tradition running through the biographers.",
+          "date_confidence": "tradition, not document. augustin_louis_cauchy.journey.json carries the story from Belhoste's biography and flags it in its own prose as tradition; the address of the Cauchy household is not recorded, and the coordinate 48.8462, 2.3466 is inherited byte-identical from that file, where it pins the Ecole Centrale du Pantheon rather than the family lodging. No month is recorded and January is a default. That file also states that Lagrange has no atlas journey; the present file supersedes the statement.",
+          "campa": "He calls on Louis-Francois Cauchy, a former police lieutenant-general of Paris turned secretary of the Senate, and sees the son, thirteen years old, at work on something. The advice he gives the father is to keep the boy off mathematics until he has his Latin and Greek, on the ground that a mind used too early is used up. The father obeys. The boy goes to the Ecole Centrale du Pantheon for two years of grammar and prosody and comes back to the subject at fifteen. Nothing in the story is documented; it comes down through the family.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["Bruno Belhoste, Augustin-Louis Cauchy: a biography, for the transmitted anecdote", "augustin_louis_cauchy.journey.json, stop 'Ecole Centrale du Pantheon, Paris: Latin before mathematics'"],
+          "suggested_refs": ["B. Belhoste, Augustin-Louis Cauchy: A Biography (1991), which carries the family tradition"],
           "sources": ["augustin_louis_cauchy.journey.json", "MacTutor History of Mathematics, 'Augustin-Louis Cauchy'"]
         },
         {
-          "name": "Château de Malmaison, the chain of natural causes",
-          "lat": 48.8708,
-          "lng": 2.1669,
-          "date": "1802-08-08",
-          "date_confidence": "[A] for Lagrange's presence, [R] for the famous wording. William Herschel's Paris diary for 8 August 1802, printed in Constance A. Lubbock, The Herschel Chronicle (1933), p. 310, records Napoleon asking who is the author of all this and Laplace answering that a chain of natural causes would account for the construction and preservation of the system; Herschel records Lagrange as present. The sentence about having no need of that hypothesis is not in the diary and traces to W. W. Rouse Ball decades later. All of this is established in pierre_simon_laplace.journey.json, whose confidence field records that Lubbock was reached only through a citing source. Malmaison pin 48.8708, 2.1669 inherited byte-identical from empress_josephine.journey.json by way of that file.",
-          "campa": "The First Consul, in company on the terrace and looking at the extent of the sidereal heavens, exclaims and asks who is the author of all this. William Herschel is standing there and writes it down the same night. Laplace answers that a chain of natural causes would account for the construction and the preservation of the system, and Bonaparte argues with him at length. Lagrange is in the party. The famous refusal of the hypothesis of God appears in print three generations later and is in no diary.",
+          "name": "Institut de France, the committee that refuses Fourier",
+          "lat": 48.8566,
+          "lng": 2.3376,
+          "date": "1807-12-21",
+          "date_confidence": "the reading date is attested to the day through joseph_fourier.journey.json and pierre_simon_laplace.journey.json, both sourced to MacTutor and en.wikipedia; the committee was Lagrange, Laplace, Monge and Lacroix, and the refusal to publish is dated 1808. simeon_denis_poisson.journey.json records that a summary of Fourier's theory then appeared in the Bulletin de la Societe Philomatique signed with the letter P. Institut pin 48.8566, 2.3376 inherited byte-identical from augustin_louis_cauchy.journey.json, evariste_galois.journey.json and joseph_fourier.journey.json.",
+          "campa": "Fourier reads his memoir on the propagation of heat in solid bodies to the Institute on the twenty-first of December, and it goes to a committee of four: Lagrange, Laplace, Monge, Lacroix. Lagrange will not accept the trigonometric series. The objection is not stupid; the convergence Fourier assumes is not proved and will not be proved for decades. He had taught this man in the amphitheatre at the Jardin des Plantes and handed him his own chair. He never withdraws the objection, and the memoir stays unpublished while he lives.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["Constance A. Lubbock, The Herschel Chronicle (1933), p. 310", "pierre_simon_laplace.journey.json, stop 'Chateau de Malmaison, the chain of natural causes'", "napoleon.journey.json"],
-          "sources": ["pierre_simon_laplace.journey.json", "en.wikipedia, 'Pierre-Simon Laplace'"]
+          "suggested_refs": ["The committee report on Fourier's 1807 memoir, Institut national, mathematical class"],
+          "sources": ["joseph_fourier.journey.json", "pierre_simon_laplace.journey.json", "simeon_denis_poisson.journey.json", "MacTutor History of Mathematics, 'Joseph-Louis Lagrange'"]
         },
         {
-          "name": "Paris, the Legion of Honour and the county of the Empire",
+          "name": "Paris, count of the Empire",
           "lat": 48.8566,
           "lng": 2.3522,
           "date": "1808-01-01",
-          "date_confidence": "contradiction flagged and not resolved: Treccani dates the Légion d'honneur decoration to 1804, MacTutor groups both the Grand Officer rank and the countship under 1808. The stop is placed at 1808 with both readings stated in the campa; months are not recorded. That the father's speculations left no family fortune is MacTutor's; that his income in these years was Senate salary and imperial pension is the research pool's. Napoleon's schooling in mathematics at Brienne is standard biography and is not sourced from the Lagrange dossier. Generic central-Paris pin 48.8566, 2.3522 inherited byte-identical from pierre_simon_laplace.journey.json.",
-          "campa": "Napoleon, who read enough mathematics at Brienne to know what he is decorating and who uses savants as ornaments of an enlightened empire, makes him Grand Officer of the Legion of Honour and Count of the Empire by letters patent. The titles carry income and no duties. His money is Senate salary and imperial pension; there is no family estate behind him, the father having lost what the household had before he was grown. Treccani puts the first Legion decoration in 1804, MacTutor groups it all under 1808.",
+          "date_confidence": "MacTutor and Treccani attest the grand officership of the Legion d'honneur and the countship of the Empire in 1808; the letters patent were not fetched in this pass and no month is recorded, so January is a default. pierre_simon_laplace.journey.json dates Laplace's own countship to 24 April 1808. The Royal Society election is 1791 per fr.wikipedia, not 1806: en.wikipedia's sentence is ambiguously punctuated and the 1806 governs the Royal Swedish Academy alone, an error carried in the research dossier and corrected here.",
+          "campa": "Napoleon makes him grand officer of the Legion d'honneur and comte de l'Empire. He is seventy-two and has been decorated by every regime that has governed France in his lifetime, which is four. Laplace is made a count in the same year. The Emperor liked to talk to him and to bring visitors to look at him, and Lagrange sat through it with the same courtesy he gave the artillery cadets in Turin. He has been a Fellow of the Royal Society since 1791 and a foreign member of the Swedish academy since 1806.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The letters patent creating Lagrange comte de l'Empire", "napoleon.journey.json"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'"]
+          "suggested_refs": ["The letters patent creating Lagrange comte de l'Empire, 1808, not consulted in this pass"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "fr.wikipedia, 'Joseph-Louis Lagrange'", "napoleon.journey.json", "pierre_simon_laplace.journey.json"]
         },
         {
-          "name": "Paris, Poisson's result and the second edition",
-          "lat": 48.8723,
-          "lng": 2.3126,
-          "date": "1811-01-01",
-          "date_confidence": "corrected. The research pool said that from 1811 he began revising the Mécanique analytique; volume one of the enlarged second edition was published in 1811, with volume two completed posthumously and printed in 1815, as the pool's own afterlife lens states. Poisson's result on orbital stability drawing him back at seventy, and the renewed treatment of 1808, are the pool's and rest on the standard accounts rather than a document reached here. Poisson entering the École Polytechnique at seventeen, placed first, in a school where Lagrange and Laplace were both teaching, is attested through simeon_denis_poisson.journey.json. Month not recorded. Coordinate 48.8723, 2.3126 is 128 rue du Faubourg Saint-Honoré per OpenStreetMap Nominatim, correcting the pool's 2.3157, which sits well east of the number; that he occupied this house from 1808 is itself unsourced, and the address is attested only as the address of his death.",
-          "campa": "Siméon-Denis Poisson, who entered the Polytechnique at seventeen when Lagrange was teaching there, proves a result on the stability of the orbital elements that goes past what the Mécanique analytique had. It brings Lagrange back to celestial mechanics at seventy. He publishes a renewed treatment in 1808 and then turns on the book itself, enlarging it. Volume one of the second edition appears in 1811. He works at volume two through his last two years and does not finish it; it is completed after his death.",
+          "name": "Rue du Faubourg-Saint-Honore, the revision",
+          "lat": 48.8721,
+          "lng": 2.3145,
+          "date": "1810-01-01",
+          "date_confidence": "the source was misattributed in the research dossier: MacTutor's biography contains nothing about a revision or a second edition. en.wikipedia gives 1810-1813 for the revision of the Mecanique analytique and states that about two thirds was finished before his death, with volume one appearing in 1811 and volume two posthumously in 1815. The dossier's citation to MacTutor is dropped. His address is given by Treccani as the rue du Faubourg-Saint-Honore, commonly cited as number 128 or 134; later renumbering accounts for the variation and the pin approximates the block.",
+          "campa": "At seventy-four he goes back through the Mecanique analytique line by line for a second edition, twenty-two years after the first, working in the Empire-style apartment on the rue du Faubourg-Saint-Honore, at a number given as 128 in some accounts and 134 in others because the street was renumbered later. The first volume comes out in 1811. He gets about two thirds of the way through the second and does not finish it; it is printed in 1815 by other hands. There are still no figures in it.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["Mécanique analytique, second edition, vol. 1 (1811) and vol. 2 (1815)", "simeon_denis_poisson.journey.json"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "en.wikipedia, 'Mécanique analytique'", "simeon_denis_poisson.journey.json"]
+          "suggested_refs": ["Lagrange, Mecanique analytique, second edition, vol. I (1811) and vol. II (1815, posthumous)"],
+          "sources": ["en.wikipedia, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'"]
         },
         {
-          "name": "128 rue du Faubourg-Saint-Honoré, the Grand Cross",
-          "lat": 48.8723,
-          "lng": 2.3126,
-          "date": "1813-04-03",
-          "date_confidence": "contradiction flagged and corrected. MacTutor is explicit: on 3 April 1813 he was awarded the Grand Croix of the Ordre Impérial de la Réunion. The research pool read Treccani as giving 8 April; Treccani in fact says otto giorni prima della morte, eight days before his death, which is about 2 April. No source supports 8 April, and the two readings are left standing side by side rather than reconciled. Delambre visiting and finding him discussing his own death calmly is the pool's and comes through the Delambre memorial tradition. Coordinate 48.8723, 2.3126 per OpenStreetMap Nominatim for number 128, correcting the pool's 2.3157.",
-          "campa": "Napoleon confers the Grand Cross of the Imperial Order of the Réunion on him days before the end. He has been ill. Delambre visits and finds him talking about his own approaching death without agitation, as a matter already looked at and settled. MacTutor dates the award the third of April; Treccani says only that it came eight days before he died, which is a different day, and the two are not reconciled by anything reachable. He had come to this street after the imperial honours, and the number the record gives is 128.",
-          "quote": null,
-          "quote_source": null,
-          "suggested_refs": ["J.-B.-J. Delambre, Notice sur la vie et les ouvrages de M. le comte J.-L. Lagrange, read at the Institut"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "en.wikipedia, 'Joseph-Louis Lagrange'", "OpenStreetMap Nominatim, 128 rue du Faubourg Saint-Honoré"]
-        },
-        {
-          "name": "128 rue du Faubourg-Saint-Honoré, the tenth of April",
-          "lat": 48.8723,
-          "lng": 2.3126,
+          "name": "Rue du Faubourg-Saint-Honore, the last honour and the death",
+          "lat": 48.8721,
+          "lng": 2.3145,
           "date": "1813-04-10",
-          "date_confidence": "attested. MacTutor and Treccani both give death on 10 April 1813 at his Paris residence on the rue du Faubourg-Saint-Honoré; en.wikipedia supplies the number 128. He was seventy-seven. The unfinished second volume of the Mécanique analytique, completed by other hands and printed in 1815, is from en.wikipedia's article on the book. The tally of ages closing the campa is arithmetic from the dated events in this file, not a source claim. Coordinate as at the preceding stop, corrected to 48.8723, 2.3126.",
-          "campa": "He dies at home on the tenth of April, seventy-seven years old, in the western faubourgs of a city he first entered fifty years earlier as a sick young man travelling on another man's ambassadorial passage. He had been an academician of Berlin at twenty, a director of mathematics at thirty, and a professor for the first time at fifty-eight. The second volume of the Mécanique analytique is on the desk, half of it written. Other hands complete it and print it in 1815.",
+          "date_confidence": "MacTutor dates the Grand Croix of the Ordre imperial de la Reunion to 3 April 1813 and the death to 10 April 1813 in Paris; Treccani and en.wikipedia agree on the death. The nature of the final illness is not documented in any source reached. The two events, a week apart at the same address, are carried at the one pin.",
+          "campa": "On the third of April Napoleon sends him the Grand Cross of the Imperial Order of the Reunion, the last decoration of a life that collected them from four regimes. He is seventy-seven and has been failing for months. He receives visitors in the days that follow and talks to them about his own death without any apparent distress, as a fact in the same class as all the others he has spent his life stating plainly. On the tenth of April he dies at home on the rue du Faubourg-Saint-Honore, seven days after the ribbon arrives. What killed him is not recorded anywhere.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The Paris death register entry for Joseph-Louis Lagrange, 10 April 1813"],
-          "sources": ["MacTutor History of Mathematics, 'Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "en.wikipedia, 'Joseph-Louis Lagrange'"]
+          "suggested_refs": ["The death certificate of Joseph-Louis Lagrange, Paris, 10 April 1813, not consulted in this pass"],
+          "sources": ["MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "Wikipedia, 'Joseph-Louis Lagrange'"]
         }
       ]
     },
     {
-      "name": "The Crypt and the Names",
+      "name": "The Pantheon and the Two Cities",
       "stops": [
         {
-          "name": "The Panthéon, Paris: vault two",
+          "name": "The Pantheon, the tomb of a senator",
           "lat": 48.8462,
           "lng": 2.3464,
           "date": "1813-04-11",
-          "date_confidence": "the burial in the Panthéon, Crypt II, is attested by the Panthéon's own burial-record table as relayed through en.wikipedia, and the solemn funeral by MacTutor and Treccani; the date of the interment itself was not established by anything reached, and 11 April is a placed value to follow the death, not a source date. The tomb inscription is quoted in translation from en.wikipedia's article. Panthéon pin 48.8462, 2.3464 inherited byte-identical from alexandre_dumas.journey.json, which took it from victor_hugo.journey.json. Napoleon's line about the lofty pyramid is [R] and is carried in the quote field with its provenance stated there.",
-          "campa": "He is given a solemn funeral and laid in the crypt of the Panthéon, vault two, among the great men of a nation he was born a foreigner to. The inscription cut for him is a list of what four regimes made of him and of the two cities that bracket it: senator, count of the Empire, grand officer of the Legion of Honour, grand cross of the Imperial Order of the Reunion, member of the Institute and of the Bureau of Longitude, born at Turin, died at Paris.",
-          "quote": "Lagrange is the lofty pyramid of the mathematical sciences.",
-          "quote_source": "Attributed to Napoleon. [R]: Luigi Pepe, 'Lagrange (1736-1813): a life in mathematics', Lettera Matematica 2 (2014), 3-8, reports that Napoleon defined him as la haute pyramide des sciences mathématiques; the phrase was popularised in English by E. T. Bell, Men of Mathematics (1937), whose Lagrange chapter is titled 'The Lofty Pyramid'. No contemporaneous speech, letter or Moniteur report was located, and neither Wikiquote nor the MacTutor quotations archive carries it.",
-          "suggested_refs": ["The Panthéon crypt, vault II, and the Lagrange tomb inscription", "Luigi Pepe, Lettera Matematica 2 (2014), 3-8"],
-          "sources": ["en.wikipedia, 'Panthéon', burial-list table", "en.wikipedia, 'Joseph-Louis Lagrange', tomb-inscription section", "alexandre_dumas.journey.json (Panthéon pin)"]
+          "date_confidence": "burial in the Pantheon in 1813 is attested by MacTutor, Treccani and en.wikipedia; no source reached gives the day of the funeral, and 11 April is set only to order the segment after the death. The inscription is transcribed from en.wikipedia. Pantheon pin 48.8462, 2.3464 is the corpus-canonical pair, used in rene_descartes.journey.json for the Convention's 1793 proposal to move Descartes there.",
+          "campa": "He is buried in the Pantheon with a state funeral, and the inscription over him lists the offices before it gets to the mathematics, because the offices are what the Empire is burying: senator, count of the Empire, grand officer of the Legion of Honour, grand cross of the Order of the Reunion, member of the Institute and of the Bureau of Longitudes. Then the two dates, born in Turin on the twenty-fifth of January 1736, died in Paris on the tenth of April 1813. The word mathematician does not appear on the stone.",
+          "quote": "Joseph Louis Lagrange. Senator. Count of the Empire. Grand Officer of the Legion of Honour. Grand Cross of the Imperial Order of the Reunion. Member of the Institute and the Bureau of Longitude. Born in Turin on 25 January 1736. Died in Paris on 10 April 1813.",
+          "quote_source": "The tomb inscription in the Pantheon, Paris, transcribed in English Wikipedia, 'Joseph-Louis Lagrange'",
+          "suggested_refs": ["The Lagrange tomb in the crypt of the Pantheon, Paris"],
+          "sources": ["Wikipedia, 'Joseph-Louis Lagrange'", "MacTutor History of Mathematics, 'Joseph-Louis Lagrange'", "rene_descartes.journey.json (Pantheon pin)"]
         },
         {
-          "name": "Paris, the two eulogies and the fourteen volumes",
-          "lat": 48.8566,
-          "lng": 2.3376,
-          "date": "1867-01-01",
-          "date_confidence": "two things at one pin. Treccani records the immediate commemoration on both sides of the Alps, Delambre's notice read at the Institut in Paris and Antonio Maria Vassalli Eandi's in Turin, both in 1813, and gives the Oeuvres de Lagrange edited by J.-A. Serret and G. Darboux, 14 volumes, Paris, 1867-1892. The stop is dated to the first volume of the edition and the eulogies of 1813 are carried in the campa rather than given a stop of their own; months are not recorded. The 1997 Kluwer translation of the second edition by Boissonnade and Vagliente is from en.wikipedia's article on the Mécanique analytique. Institut pin 48.8566, 2.3376 inherited byte-identical from pierre_simon_laplace.journey.json, which is the quai Conti building the Institut occupied from 1805.",
-          "campa": "Delambre reads the memorial notice at the Institut, and in Turin, Antonio Maria Vassalli Eandi commemorates him before the academy that began as three young men reading papers to each other in 1757. Half a century later Joseph-Alfred Serret and Gaston Darboux gather the whole of it into fourteen volumes: the Turin memoirs, the Berlin memoirs, the Paris memoirs, the prize essays, the letters. The calculus of variations he began at nineteen has a name and a literature by then. The printing runs in Paris from 1867 to 1892, twenty-five years of it.",
-          "quote": null,
-          "quote_source": null,
-          "suggested_refs": ["Oeuvres de Lagrange, ed. J.-A. Serret and G. Darboux, 14 vols., Paris 1867-1892", "Analytical Mechanics, tr. Boissonnade and Vagliente, Kluwer 1997"],
-          "sources": ["Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'", "en.wikipedia, 'Mécanique analytique'", "pierre_simon_laplace.journey.json (Institut pin)"]
-        },
-        {
-          "name": "The Eiffel Tower, the sixth name on the north-west face",
-          "lat": 48.8583,
+          "name": "The Eiffel Tower, one of the seventy-two names",
+          "lat": 48.8584,
           "lng": 2.2945,
           "date": "1889-01-01",
-          "date_confidence": "attested that Lagrange is among the 72 names inscribed on the Eiffel Tower and that his stands sixth on the north-west face, which looks toward the Trocadéro, per en.wikipedia's list. The tower was completed in 1889; the month of the inscription is not recorded and defaults to 1 January. The letter height of about sixty centimetres is from the same list article. That Lavoisier, Monge, Laplace, Fourier, Poisson and Cauchy are also on the frieze is checkable on the same list; all six have direct documented relations to Lagrange recorded elsewhere in this file. Pin 48.8583, 2.2945 inherited byte-identical from joseph_fourier.journey.json, stop 'Paris, the name on the Eiffel Tower'; the research pool gave 48.8584, 2.2945 and the corpus pair is preferred.",
-          "campa": "Seventy-six years after his death France cuts seventy-two names of scientists and engineers into the frieze of the tower on the Champ de Mars. He shares the ironwork with Lavoisier, Monge, Laplace, Fourier, Poisson and Cauchy: most of the commission that made the metre, and most of the men who sat in the rooms where he lectured. His own name stands sixth on the north-west face, the side that looks toward the Trocadéro, in gilt letters about sixty centimetres high.",
+          "date_confidence": "the inscription of seventy-two names of French scientists and engineers on the first stage of the tower dates from its completion for the Exposition Universelle of 1889; no month applies and January is a default. Lagrange's inclusion is attested by en.wikipedia and by the fr.wikipedia list of the seventy-two names. The coordinate 48.8584, 2.2945 is the pair used in pierre_simon_laplace.journey.json; joseph_fourier.journey.json and rene_hauy.journey.json use 48.8583, 2.2945, and the one-digit divergence is recorded rather than resolved.",
+          "campa": "Seventy-six years after his funeral the Third Republic puts up an iron tower for a world's fair and writes seventy-two names around the first stage, the scientists and engineers of the century that France means to claim as its own. LAGRANGE is one of them, in capitals, between the mathematicians and the chemists of his own generation. He was born a subject of the King of Sardinia, kept his Italian accent to the end of his life, and never took French nationality. The tower was put up as a temporary structure for the exposition and was meant to be taken down after twenty years.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["The list of the 72 names on the Eiffel Tower", "joseph_fourier.journey.json, stop 'Paris, the name on the Eiffel Tower'"],
-          "sources": ["en.wikipedia, 'List of the 72 names on the Eiffel Tower'", "joseph_fourier.journey.json (Eiffel Tower pin)"]
+          "suggested_refs": ["The list of the seventy-two names on the first stage of the Eiffel Tower"],
+          "sources": ["Wikipedia, 'Joseph-Louis Lagrange'", "fr.wikipedia, 'Liste des soixante-douze noms de savants inscrits sur la tour Eiffel'", "pierre_simon_laplace.journey.json (Eiffel Tower pin)"]
         },
         {
-          "name": "Turin, via Lagrange and the five points",
-          "lat": 45.0629,
-          "lng": 7.6806,
-          "date": "1900-01-01",
-          "date_confidence": "the date is an ordering device only: no source reached gives a year for the naming of via Giuseppe Luigi Lagrange in Turin. Coordinate corrected against the research pool, which gave 45.068, 7.685, about 350 m east of the street; Nominatim centres via Giuseppe Luigi Lagrange, Torino at 45.0629, 7.6806. The lunar crater Lagrange and asteroid (1006) Lagrangea are from en.wikipedia's legacy section; the Lagrange points and their modern use in astrodynamics are from fr.wikipedia and NASA Science. Rue Lagrange in the fifth arrondissement of Paris, at approximately 48.8515, 2.3480, is a second street of the same name and is not given a stop of its own.",
-          "campa": "In the centre of the city he left at thirty a street carries his name in the Italian form the baptismal register gave him, not the French form Europe reads. A crater on the Moon is called Lagrange, and so is an asteroid, 1006 Lagrangea. In Paris a street in the fifth arrondissement, near Notre-Dame, carries it too. The five equilibrium points of the three-body problem, three of them Euler's and two of them found on paper in Berlin in 1772, are called the Lagrange points and are used to park real machines in real orbits.",
+          "name": "Paris, the rue Lagrange",
+          "lat": 48.8508,
+          "lng": 2.3483,
+          "date": "1890-04-18",
+          "date_confidence": "fr.wikipedia, 'Rue Lagrange': the street was cut in 1887 to carry the rue Monge through to the quai, and formally named for Lagrange on 18 April 1890; it runs from the quai de Montebello to the rue Frederic-Sauton in the fifth arrondissement. Coordinates 48.8508, 2.3483 from the same article; the research pool's 48.8496, 2.3477 is about 135 m off and is corrected here.",
+          "campa": "A street is cut through the old quarter behind Notre-Dame in 1887 to bring the rue Monge down to the river, driven through the medieval lanes the way the whole of that quarter was driven through in those decades. In April 1890 it is given his name. It runs from the quai de Montebello to the rue Frederic-Sauton, in the fifth arrondissement, a short walk uphill from the Pantheon he lies in, through a quarter he had no particular connection with while he was alive. It is about three hundred metres long.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["Via Giuseppe Luigi Lagrange, Turin, and rue Lagrange, Paris 5e", "NASA Science, 'What Is a Lagrange Point?'"],
-          "sources": ["en.wikipedia, 'Joseph-Louis Lagrange', legacy section", "fr.wikipedia, 'Joseph-Louis Lagrange', honors section", "OpenStreetMap Nominatim, via Giuseppe Luigi Lagrange"]
+          "suggested_refs": ["The municipal decree of 18 April 1890 naming the rue Lagrange"],
+          "sources": ["fr.wikipedia, 'Rue Lagrange'", "Wikipedia, 'Joseph-Louis Lagrange'"]
         },
         {
-          "name": "Mont Gros, Nice: the Laboratoire Lagrange",
-          "lat": 43.7237,
-          "lng": 7.2975,
-          "date": "2011-01-01",
-          "date_confidence": "the Laboratoire Lagrange, UMR 7293, jointly run by the CNRS, the Observatoire de la Côte d'Azur and the Université Côte d'Azur on the Mont Gros site above Nice, is recorded in fr.wikipedia's honors section for Lagrange. The founding year of the unit was not established by anything reached and 2011 is a placed value to order the stop, not a source date; the research areas named in the campa are the laboratory's own standing description and were not refetched. Coordinate 43.7237, 7.2975 is the Observatoire de la Côte d'Azur, Mont Gros, from the research pool's afterlife lens; it is not a corpus-canonical pin. He never went to Nice, and the stop is an afterlife stop for the name, not a scene.",
-          "campa": "On the Mont Gros above Nice a laboratory of the Observatoire de la Côte d'Azur carries his name, a joint unit of the CNRS and the university. Its people work on the formation of planets, on stellar physics, and on the mechanics of many bodies pulling on one another, which is the problem the Paris Academy set him in 1764 and again in 1772. Those questions are still open on this hill, asked now of systems around other stars rather than of the Moon and of Jupiter's four satellites. He never came to this coast.",
+          "name": "Turin, the Via Lagrange and the disputed name",
+          "lat": 45.0678,
+          "lng": 7.6858,
+          "date": "1890-05-01",
+          "date_confidence": "no source reached gives the year the Turin street was named, and the date is set only to order the segment after the Paris street; it should not be quoted as a fact. en.wikipedia and fr.wikipedia both attest the street and that it runs past the site of his birthplace. The Accademia delle Scienze di Torino membership record, which Italian scholarship uses to anchor his Piedmontese identity, was not re-fetched in this pass and is carried on the research dossier's citation alone.",
+          "campa": "Turin names a street after him too, running past the house where he was born, and Italian scholarship keeps his membership record filed under Giuseppe Luigi Lagrange Tournier. France buried him in the Pantheon and put him on the tower as one of its own. He was baptised Lagrangia, published first in Italian, signed himself De la Grange Tournier at eighteen, worked twenty-one years for a Prussian king in French, and died a count of a French empire without ever changing nationality. The year Turin put his name on the street is not recorded in anything reached here.",
           "quote": null,
           "quote_source": null,
-          "suggested_refs": ["Laboratoire Lagrange, UMR 7293, Observatoire de la Côte d'Azur"],
-          "sources": ["fr.wikipedia, 'Joseph-Louis Lagrange', section on honors"]
+          "suggested_refs": ["Accademia delle Scienze di Torino, membership record for Giuseppe Luigi Lagrange Tournier, accademiadellescienze.it; not verified in this pass"],
+          "sources": ["Wikipedia, 'Joseph-Louis Lagrange'", "fr.wikipedia, 'Joseph-Louis Lagrange'", "Treccani, Dizionario Biografico degli Italiani, 'Giuseppe Luigi Lagrange'"]
         }
       ]
     }
