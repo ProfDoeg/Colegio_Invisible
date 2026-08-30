@@ -136,7 +136,6 @@ Charles Babbage requested again but already sits in the queue (line 270,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Étienne Bazeries** | French military cryptanalyst, broke the Great Cipher of Louis XIV after centuries unsolved, invented the Bazeries cylinder; extends the corpus's cipher lineage (al-Kindi, blaise_de_vigenere, arthur_scherbius, marian_rejewski already queued) into 19th-century France |
 
 ## The six subspaces (2026-08-10)
 
