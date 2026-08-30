@@ -180,7 +180,6 @@ journey; approved by the author.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Mansa Musa** | 14th-century emperor of the Mali Empire, wealthiest person in recorded history; his 1324 hajj to Mecca gave away so much gold along the way it crashed Cairo's economy for years; ibn_battuta already done crossed Mali a generation later and may already name him in passing |
 
 ## Economics (2026-08-10)
 
