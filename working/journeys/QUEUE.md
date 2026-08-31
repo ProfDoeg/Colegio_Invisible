@@ -90,7 +90,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Katja Wulff** | German-Swiss expressionist dancer (1890-1992), trained under Laban and Wigman, co-founded a eurythmy school with Suzanne Perrottet, ran her own Ausdruckstanz school in Basel from 1923 to past 90; worked with Jean Arp and Sophie Taeuber-Arp just queued. Directly interlocks with laban, mary_wigman, suzanne_perrottet already done |
 | 1 | **Indra Devi** | Latvian-born yoga teacher (Eugenie Peterson), 'First Lady of Yoga', studied under Krishnamacharya in Mysore (the same teacher as pattabhi_jois already done), later taught in Shanghai, Hollywood, and Buenos Aires |
 | 0 | **Valeska Gert** | German-Jewish expressionist dancer, actress and cabaret performer of grotesque dance, fled Nazi Germany and ran nightclubs in exile in New York and later Italy; joins the same wing |
-| 0 | **Hilde Holger** | Austrian-Jewish expressionist dancer trained under Gertrud Bodenwieser, fled to Bombay then London, later pioneered dance therapy for people with Down syndrome; joins the same wing |
 | 0 | **Kit Cavanagh (Mother Ross)** | Irish woman who disguised herself as a man to serve as a dragoon in the War of the Spanish Succession, searching for her missing husband; wounded at multiple battles before her sex was discovered |
 
 
