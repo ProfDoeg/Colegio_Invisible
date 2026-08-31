@@ -93,7 +93,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Hilde Holger** | Austrian-Jewish expressionist dancer trained under Gertrud Bodenwieser, fled to Bombay then London, later pioneered dance therapy for people with Down syndrome; joins the same wing |
 | 0 | **Nikolai Bernstein** | Soviet physiologist, founder of the biomechanics of movement underlying modern dance science, work feeding directly into cybernetics; bridges the dance and physics/mathematics wings |
 | 0 | **Kit Cavanagh (Mother Ross)** | Irish woman who disguised herself as a man to serve as a dragoon in the War of the Spanish Succession, searching for her missing husband; wounded at multiple battles before her sex was discovered |
-| 0 | **Donna Haraway** | American philosopher of technoscience, author of 'A Cyborg Manifesto'; bridges the cybernetics cluster (norbert_wiener, stafford_beer just queued) and the continental-philosophy wing (michel_foucault, gilles_deleuze already done) |
 | 0 | **Alexander Baring** | Francis's relation who personally arranged the financing of the Louisiana Purchase; second figure of the same dynasty, ties to the corpus's Napoleonic-era Americas material |
 
 
