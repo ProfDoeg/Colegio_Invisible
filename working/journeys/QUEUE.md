@@ -98,7 +98,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Kit Cavanagh (Mother Ross)** | Irish woman who disguised herself as a man to serve as a dragoon in the War of the Spanish Succession, searching for her missing husband; wounded at multiple battles before her sex was discovered |
 | 0 | **Donna Haraway** | American philosopher of technoscience, author of 'A Cyborg Manifesto'; bridges the cybernetics cluster (norbert_wiener, stafford_beer just queued) and the continental-philosophy wing (michel_foucault, gilles_deleuze already done) |
 | 0 | **Alexander Baring** | Francis's relation who personally arranged the financing of the Louisiana Purchase; second figure of the same dynasty, ties to the corpus's Napoleonic-era Americas material |
-| 0 | **J.P. Morgan** | Junius's son, American Gilded Age banking titan who financed Edison and the electrification of America; second figure of the same dynasty, reaching toward the corpus's physics/invention wing |
 
 
 
