@@ -205,7 +205,5 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Adolfo Bioy Casares** | Argentine writer of La invención de Morel, Borges's closest lifelong collaborator (Six Problems for Don Isidro Parodi and much else written together) and husband of Silvina Ocampo; all three already in the atlas but he was never given his own entry |
 | 0 | **Sir Arthur Conan Doyle** | Scottish creator of Sherlock Holmes, devout convert to spiritualism in later life, attended séances with houdini already queued seeking contact with the dead |
-| 0 | **Harry Houdini** | Hungarian-American escape artist and stage magician, close friend of arthur_conan_doyle just queued turned public antagonist after Doyle's wife claimed to channel Houdini's dead mother at a 1922 séance (in English, which she never spoke); Houdini spent his last years exposing fraudulent mediums |
 
