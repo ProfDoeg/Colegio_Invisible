@@ -97,7 +97,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Kit Cavanagh (Mother Ross)** | Irish woman who disguised herself as a man to serve as a dragoon in the War of the Spanish Succession, searching for her missing husband; wounded at multiple battles before her sex was discovered |
 | 0 | **Donna Haraway** | American philosopher of technoscience, author of 'A Cyborg Manifesto'; bridges the cybernetics cluster (norbert_wiener, stafford_beer just queued) and the continental-philosophy wing (michel_foucault, gilles_deleuze already done) |
 | 0 | **Alexander Baring** | Francis's relation who personally arranged the financing of the Louisiana Purchase; second figure of the same dynasty, ties to the corpus's Napoleonic-era Americas material |
-| 0 | **J.P. Morgan** | Junius's son, American Gilded Age banking titan who financed Edison and the electrification of America; second figure of the same dynasty, reaching toward the corpus's physics/invention wing |
 
 
 
@@ -212,5 +211,4 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 | 0 | **Sir Arthur Conan Doyle** | Scottish creator of Sherlock Holmes, devout convert to spiritualism in later life, attended séances with houdini already queued seeking contact with the dead |
 | 0 | **Harry Houdini** | Hungarian-American escape artist and stage magician, close friend of arthur_conan_doyle just queued turned public antagonist after Doyle's wife claimed to channel Houdini's dead mother at a 1922 séance (in English, which she never spoke); Houdini spent his last years exposing fraudulent mediums |
 | 0 | **René Girard** | French historian, literary critic and philosopher of social science, theorist of mimetic desire and the scapegoat mechanism, elected to the Académie française; taught at Stanford, where peter_thiel already done studied under him, a direct interlock the author flagged |
-| 0 | **Aleksandr Gelyevich Dugin** | Russian political philosopher of Neo-Eurasianism and the Fourth Political Theory, draws directly on rene_guenon (already done) and julius_evola (queued); joins the corpus's traditionalist/neoreactionary cluster alongside nick_land and curtis_yarvin already done |
 
