@@ -81,8 +81,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Tertullian** | Early Christian theologian of Carthage, coined much of the Latin vocabulary of Trinity doctrine, later drifted toward Montanism; joins the corpus's early-Church material |
-| 0 | **Origen** | Early Christian theologian of Alexandria, prolific biblical scholar and exegete, self-castrated in youth per Eusebius, posthumously condemned as heretical on some points; joins tertullian just queued in the corpus's early-Church material |
 | 0 | **Giovanni da Pian del Carpine** | Franciscan friar, papal envoy to the Mongol court, wrote an eyewitness-framed account of his journey describing various peoples including dog-headed men; joins the corpus's cynocephalus material |
 | 0 | **Joscha Bach** | Cognitive scientist and AI researcher, known for the MicroPsi cognitive architecture and writing on consciousness, computation, and the nature of mind; joins the corpus's cipher/computing wing (diffie, hellman, hal_finney already done) |
 | 0 | **Sara Rudner** | American choreographer and dancer, longtime collaborator with Twyla Tharp, later ran the dance program at Sarah Lawrence; joins the corpus's dance wing (isadora_duncan, laban, mary_wigman, joseph_pilates already walking) |
@@ -99,7 +97,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Nikolai Bernstein** | Soviet physiologist, founder of the biomechanics of movement underlying modern dance science, work feeding directly into cybernetics; bridges the dance and physics/mathematics wings |
 | 0 | **Kit Cavanagh (Mother Ross)** | Irish woman who disguised herself as a man to serve as a dragoon in the War of the Spanish Succession, searching for her missing husband; wounded at multiple battles before her sex was discovered |
 | 0 | **Donna Haraway** | American philosopher of technoscience, author of 'A Cyborg Manifesto'; bridges the cybernetics cluster (norbert_wiener, stafford_beer just queued) and the continental-philosophy wing (michel_foucault, gilles_deleuze already done) |
-| 0 | **Jakob Fugger 'the Rich'** | head of the Fugger banking dynasty, financed Charles V's imperial election; the Fuggers' indulgence-selling partnership with the Church directly provoked Luther's 95 Theses (martin_luther already done) |
 | 0 | **Anton Fugger** | Jakob Fugger's nephew and successor, led the Fugger bank at its peak financing the Habsburgs; second figure of the same dynasty |
 | 0 | **Max Warburg** | German-Jewish banker of the Warburg dynasty, financed Germany through WWI; brother of Aby Warburg already queued, a direct family interlock |
 | 0 | **Paul Warburg** | Max's brother, emigrated to the US and was the chief architect of the Federal Reserve System; second figure of the same dynasty |
