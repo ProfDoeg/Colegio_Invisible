@@ -187,7 +187,6 @@ approved by the author along with a wider tech/finance/fraud batch.
 | docs | subject | who |
 |--:|---|---|
 | 0 | **Leon Black** | founder of Apollo Global Management, paid jeffrey_epstein already queued roughly $158 million for 'tax and estate advice,' resigned as CEO once the payments became public |
-| 0 | **Sheldon Adelson** | Las Vegas Sands casino magnate, one of the largest Republican and pro-Israel political donors in US history; direct interlock with benjamin_netanyahu already queued |
 
 ## The most literal journeys (2026-08-10)
 
