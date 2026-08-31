@@ -135,7 +135,6 @@ Satoshi Nakamoto and Pierre Curie.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Quintilian** | Marcus Fabius Quintilianus (c. 35-100 AD), born Calagurris in Hispania, first publicly salaried chair of Latin rhetoric in Rome under Vespasian; his Institutio Oratoria (Book XI) is the actual source text discussing Simonides and the method of loci by name, alongside Metrodorus of Scepsis; the complete manuscript was lost for centuries until Poggio Bracciolini recovered it at the monastery of St. Gallen in 1416, a real manuscript-rediscovery story. Direct interlock with simonides_of_ceos just queued, and joins the corpus's art-of-memory cluster (giulio_camillo, ramon_llull, roger_bacon, giordano_bruno already done) |
 
 ## Time gaps (2026-08-10)
 
