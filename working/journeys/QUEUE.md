@@ -81,7 +81,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Giovanni da Pian del Carpine** | Franciscan friar, papal envoy to the Mongol court, wrote an eyewitness-framed account of his journey describing various peoples including dog-headed men; joins the corpus's cynocephalus material |
 | 0 | **Joscha Bach** | Cognitive scientist and AI researcher, known for the MicroPsi cognitive architecture and writing on consciousness, computation, and the nature of mind; joins the corpus's cipher/computing wing (diffie, hellman, hal_finney already done) |
 | 0 | **Sara Rudner** | American choreographer and dancer, longtime collaborator with Twyla Tharp, later ran the dance program at Sarah Lawrence; joins the corpus's dance wing (isadora_duncan, laban, mary_wigman, joseph_pilates already walking) |
 | 0 | **David Belle** | French founder of parkour, son of Raymond Belle who trained in Hébert's méthode naturelle through the French military; the direct 20th-century descendant of Georges Hébert just queued, tracing the body-culture wing into the present |
