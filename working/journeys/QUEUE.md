@@ -175,7 +175,6 @@ queued/done) and a wholly untouched Basque-nationalism thread.
 | docs | subject | who |
 |--:|---|---|
 | 0 | **Sabino Arana** | founder of Basque nationalism in the 1890s, invented the Ikurriña flag and the term Euzkadi, founded the PNV; the corpus has no Basque-nationalist material until now |
-| 0 | **José Luis Álvarez Emparantza (Txillardegi)** | co-founder of ETA alongside julen_madariaga just queued, later broke with the organization's turn to violence and returned to academic linguistics |
 
 ## Billionaire class, Epstein ties, and the PayPal mafia (2026-08-10)
 
