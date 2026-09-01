@@ -537,6 +537,61 @@ Documentable lines of influence include:
 
 His reputation is divided among several durable archetypes: founder-statesman, technological optimist, risk-conscious builder, monopoly strategist, political operator, unreliable narrator, or emblem of concentrated private power. These are interpretive reputations. The factual record supports exceptional institutional influence but does not yet permit a settled judgment about the long-term technical, economic or social consequences.
 
+### Addendum: contested and hostile material (added 2026-09-01, second-pass review)
+
+*This subsection was added after review found the engine's first pass thin on
+hostile lore for this subject; researched independently of the original run.*
+
+**The death of Suchir Balaji and the murder-conspiracy narrative.**
+Suchir Balaji, a 26-year-old former OpenAI researcher who had publicly argued
+the company's use of copyrighted data was illegal, was found dead in his San
+Francisco apartment on 26 November 2024. **Documented fact:** the San
+Francisco Office of the Chief Medical Examiner ruled the death a suicide; the
+released findings describe a self-inflicted gunshot from a pistol registered
+to Balaji, gunshot residue on his hands, a door locked from the inside, and
+no entries on building security footage. **Documented fact:** his parents,
+Poornima Ramarao and Balaji Ramamurthy, publicly rejected the ruling, hired
+a former FBI agent and independent forensic experts, commissioned a second
+autopsy whose results they declined to release, and in September 2025 sued
+San Francisco over the investigation. **Allegation or theory:** that Balaji
+was murdered to silence a witness against OpenAI, a narrative amplified by
+Elon Musk and Tucker Carlson among others; Carlson put it to Altman directly
+("his mother claims he was murdered on your orders"). No evidence supporting
+foul play has been publicly produced, and no authority has endorsed the
+theory. The episode is significant to this dossier regardless of its truth
+value: it is now a fixed part of the hostile mythology surrounding Altman.
+
+**The Tucker Carlson interview (10 September 2025).** **Documented fact:**
+Altman sat for a long interview on The Tucker Carlson Show in which Carlson
+repeatedly characterized Balaji's death as murder, cited claimed anomalies
+(blood in two rooms, a wig), and asked Altman whether he had ordered the
+killing. Altman, visibly uncomfortable, denied it, maintained the death was
+a suicide, and remarked that he had not done many interviews in which he was
+accused of murder. The exchange, widely clipped and reported, cemented the
+conspiracy narrative in mainstream circulation.
+
+**Loopt traction claims.** **Documented fact:** Tad Friend's 2016 New Yorker
+profile ("Sam Altman's Manifest Destiny"), cited elsewhere in this dossier,
+records that Loopt's consumer adoption never materialized: registered-user
+counts (about four million by 2010) far outran active use, and the company
+sold to Green Dot for $43.4 million after raising roughly $30 million.
+**Allegation or theory:** in later critical retellings this gap is sharpened
+into the claim that Loopt's user numbers were inflated or misrepresented to
+carriers and investors during fundraising. The documented record supports
+weak engagement behind strong headline numbers; a deliberate
+misrepresentation has not been established in the sources consulted.
+
+Sources for this addendum:
+https://petapixel.com/2025/02/18/openai-whistleblowers-suchir-balaji-death-ruled-a-suicide-by-autopsy-report/
+https://www.sfexaminer.com/news/technology/sf-officials-explain-why-suchir-balaji-death-ruled-suicide/article_ac62fc20-eb42-11ef-9fda-a308385e7f32.html
+https://sfstandard.com/2025/09/30/suchir-balaji-openai-whistleblower-parents-lawsuit/
+https://abc7news.com/post/parents-openai-whistleblower-suchir-balaji-dispute-suicide-ruling-he-would-not-harm-himself/19170809/
+https://www.thedailybeast.com/tucker-carlson-asks-openai-ceo-sam-altman-if-he-ordered-suchir-balajis-murder/
+https://gizmodo.com/elon-musk-sam-altman-openai-whistleblower-2000657618
+https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny
+https://en.wikipedia.org/wiki/Loopt
+
+
 ## Atlas Connections
 
 Only roster members with a documented personal, institutional or explicitly acknowledged intellectual connection are included. Shared industry membership alone is excluded.
