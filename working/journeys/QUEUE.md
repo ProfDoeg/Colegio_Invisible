@@ -93,7 +93,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Henri Lebesgue** | French mathematician, developed Lebesgue integration and measure theory, reshaping the foundations of real analysis; joins the corpus's mathematics wing (william_rowan_hamilton, gauss, euler already queued) |
 | 0 | **Roger II of Sicily** | Norman king of Sicily who commissioned al-Idrisi's Tabula Rogeriana, one of the greatest medieval world maps; direct bridge to the geography/exploration theme |
 | 0 | **Joseph Alexandre Saint-Yves d'Alveydre** | French esotericist, coiner of 'synarchy' and theorist of the underground kingdom of Agartha; joins the corpus's hollow-earth fiction cluster (symmes already queued) alongside the same thread running through Poe, Dante's underworld, and Verne |
-| 0 | **John Uri Lloyd** | American pharmacist and author of Etidorhpa (1895), a hollow-earth fiction novel; part of the same hollow-earth cluster as symmes, saint-yves, and william_r_bradshaw |
 
 ## Author additions (2026-08-09)
 
