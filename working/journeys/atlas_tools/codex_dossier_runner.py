@@ -70,9 +70,11 @@ def checks(doc):
     if 'Atlas Connections' not in doc: problems.append('no Atlas Connections section')
     conn = doc.split('Atlas Connections', 1)[-1]
     for h in re.findall(r'^### (.+)$', conn, re.M):
-        first = h.split()[0].strip('*')
-        block = conn.split('### ' + h, 1)[-1][:1200]
-        if len(first) > 3 and first.lower() not in block.lower():
+        words = [w.strip('*,()') for w in h.split() if len(w.strip('*,()')) >= 4]
+        block = conn.split('### ' + h, 1)[-1][:1200].lower()
+        # any name-word appearing in the body clears the entry (bodies usually
+        # use surnames; the old first-word check false-flagged "Peter A. Thiel")
+        if words and not any(w.lower() in block for w in words):
             problems.append(f'header not echoed: {h[:40]}')
     return problems
 
