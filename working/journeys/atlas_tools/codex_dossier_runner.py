@@ -29,8 +29,12 @@ LAB = f'{HOME}/codex_lab'
 OUT = f'{LAB}/out'
 CODEX = f'{HOME}/.local/bin/codex'
 WORKLIST = f'{LAB}/worklist.txt'
+STAGE_REPO = f'{LAB}/repo'  # the runner's own clone; staging is deterministic
+                            # code here, not an agent tapping approve (the
+                            # land_subject.py precedent)
 REFRESH_EVERY = 15          # completions between repo pull + addendum regen
 QUOTA_SLEEPS = [900, 1800, 3600, 7200]   # backoff ladder on real quota walls
+TRAILER = 'Co-Authored-By: El Gólem <golem@localhost>'
 
 def log(msg):
     line = time.strftime('%m-%d %H:%M:%S ') + msg
@@ -88,6 +92,31 @@ def refresh_repo():
     subprocess.run(['python3', 'atlas_tools/make_addendum.py'],
                    cwd=REPO, capture_output=True)
 
+def git_stage(cmd):
+    return subprocess.run(['git'] + cmd, cwd=STAGE_REPO, capture_output=True, text=True)
+
+def auto_stage(slug, name, doc):
+    """Deterministic staging of a clean dossier into the runner's own clone.
+    Returns True on success; on any git trouble the file stays in out/ for
+    the review path instead."""
+    if not os.path.isdir(STAGE_REPO):
+        return False
+    dest_rel = 'working/journeys/dossiers/' + slug + '.dossier.md'
+    git_stage(['pull', '--ff-only', '-q'])
+    open(os.path.join(STAGE_REPO, dest_rel), 'w').write(doc)
+    git_stage(['add', dest_rel])
+    r = git_stage(['commit', '-q', '-m', f'Stage codex dossier: {name}',
+                   '-m', 'Codex-researched, roster-aware; staged deterministically by the runner.',
+                   '-m', TRAILER])
+    if r.returncode != 0:
+        return False
+    for attempt in (1, 2):
+        if git_stage(['push', '-q']).returncode == 0:
+            break
+        git_stage(['pull', '--rebase', '-q'])
+    git_stage(['push', '-q', 'github'])
+    return True
+
 def next_slug():
     if not os.path.exists(WORKLIST):
         return None
@@ -98,6 +127,8 @@ def next_slug():
         if os.path.exists(f'{OUT}/{slug}.dossier.md'):
             continue
         if os.path.exists(f'{REPO}/dossiers/{slug}.dossier.md'):
+            continue
+        if os.path.exists(f'{STAGE_REPO}/working/journeys/dossiers/{slug}.dossier.md'):
             continue
         return slug
     return None
@@ -130,9 +161,15 @@ def run_one(slug):
         log(f'{slug}: no dossier in output, tail: ' + text[-160:].replace('\n', ' '))
         return False
     probs = checks(doc)
-    open(f'{OUT}/{slug}.dossier.md', 'w').write(doc)
-    log(f'{slug}: DONE {doc.count(chr(10))} lines' +
-        (f'  FLAGS: {"; ".join(probs)}' if probs else ''))
+    if probs:
+        open(f'{OUT}/{slug}.dossier.md', 'w').write(doc)
+        log(f'{slug}: DONE {doc.count(chr(10))} lines, held in out/ FLAGS: {"; ".join(probs)}')
+        return True
+    if auto_stage(slug, name, doc):
+        log(f'{slug}: DONE {doc.count(chr(10))} lines, STAGED')
+    else:
+        open(f'{OUT}/{slug}.dossier.md', 'w').write(doc)
+        log(f'{slug}: DONE {doc.count(chr(10))} lines, staging failed, held in out/')
     return True
 
 def main():
