@@ -184,5 +184,4 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Sir Arthur Conan Doyle** | Scottish creator of Sherlock Holmes, devout convert to spiritualism in later life, attended séances with houdini already queued seeking contact with the dead |
 
