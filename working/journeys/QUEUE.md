@@ -190,3 +190,5 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 |--:|---|---|
 | 0 | **Sir Arthur Conan Doyle** | Scottish creator of Sherlock Holmes, devout convert to spiritualism in later life, attended séances with houdini already queued seeking contact with the dead |
 
+| 0 | **Sam Altman** | OpenAI chief through the ChatGPT era, fired and reinstated within five days in November 2023, Worldcoin's iris-scanning orb; closes the loop of the AI wing (hinton, bengio, kurzweil staged) and the Thiel-Musk-YC lineage already staged |
+| 0 | **Alex Karp** | Palantir co-founder and CEO, philosophy doctorate from Frankfurt in the Habermas tradition before building the surveillance-analytics giant with peter_thiel already staged; the corpus's strangest bridge between critical theory and the security state |
