@@ -78,7 +78,11 @@ def checks(doc):
     if 'http' not in doc[-4000:]: problems.append('no source list at end')
     if 'Atlas Connections' not in doc: problems.append('no Atlas Connections section')
     conn = doc.split('Atlas Connections', 1)[-1]
+    META = {'finding', 'findings', 'audit', 'result', 'results', 'summary',
+            'negative', 'none', 'absence', 'note', 'notes', 'method'}
     for h in re.findall(r'^### (.+)$', conn, re.M):
+        if META & {w.strip('*,():').lower() for w in h.split()}:
+            continue                      # meta-sections are not person entries
         words = [w.strip('*,()') for w in h.split() if len(w.strip('*,()')) >= 4]
         block = conn.split('### ' + h, 1)[-1][:1200].lower()
         # any name-word appearing in the body clears the entry (bodies usually
