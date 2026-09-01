@@ -51,10 +51,15 @@ def build_prompt(name):
     tpl = open(f'{REPO}/dossiers/PROMPT_TEMPLATE.md').read().split('---', 1)[1].strip()
     tpl = tpl.replace('[NAME]', name).replace('[name]', name)
     add = open(f'{REPO}/dossiers/ATLAS_CONNECTIONS_ADDENDUM.md').read().split('---', 1)[1].strip()
-    deliver = (f'\n\nUse web search extensively for sources. Do not attempt file writes or shell '
-               f'commands. Print the complete finished dossier, in full, as your final message: '
-               f'a single Markdown document titled "# {name}: Research Dossier", including the '
-               f'Atlas Connections section, ending with the full list of source URLs.')
+    deliver = (f'\n\nUse web search extensively for sources. Run a DEDICATED adversarial pass: '
+               f'search explicitly for "{name}" combined with controversy, scandal, allegations, '
+               f'lawsuit, fraud, accusations, conspiracy, criticism, and the like, including the '
+               f'most recent two years; the dossier must engage the major negative and contested '
+               f'material with the usual evidentiary labels rather than omit it. Do not attempt '
+               f'file writes or shell commands. Print the complete finished dossier, in full, as '
+               f'your final message: a single Markdown document titled "# {name}: Research '
+               f'Dossier", including the Atlas Connections section, ending with the full list '
+               f'of source URLs.')
     return tpl + deliver + '\n\n' + add
 
 def extract(logtext, name):
