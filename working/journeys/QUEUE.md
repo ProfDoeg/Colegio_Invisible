@@ -134,7 +134,6 @@ Rowan Hamilton was already queued; these fill the rest.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **George Gabriel Stokes** | Irish-English mathematician and physicist, Stokes' theorem and the foundations of fluid dynamics, longtime Lucasian Professor at Cambridge (newton's own former chair, already done) |
 
 ## Whole missing domains (2026-08-10)
 
