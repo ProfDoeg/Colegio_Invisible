@@ -84,7 +84,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 | 0 | **Joscha Bach** | Cognitive scientist and AI researcher, known for the MicroPsi cognitive architecture and writing on consciousness, computation, and the nature of mind; joins the corpus's cipher/computing wing (diffie, hellman, hal_finney already done) |
 | 0 | **Paul Naschy** | Spanish actor and screenwriter, born Jacinto Molina, 'the Spanish Lon Chaney'; played the werewolf Waldemar Daninsky across a dozen films along with dozens of other horror archetypes; joins the corpus's horror/Gothic wing (lovecraft already queued) |
 | 0 | **Sophie Taeuber-Arp** | Swiss Dada artist and dancer, wife of Jean Arp, associated with Cabaret Voltaire and Zurich Dada; joins the corpus's Zurich/dance-avant-garde cluster (laban, mary_wigman, suzanne_perrottet already done) |
-| 0 | **Kit Cavanagh (Mother Ross)** | Irish woman who disguised herself as a man to serve as a dragoon in the War of the Spanish Succession, searching for her missing husband; wounded at multiple battles before her sex was discovered |
 
 
 
