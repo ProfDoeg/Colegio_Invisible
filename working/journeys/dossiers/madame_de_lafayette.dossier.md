@@ -1,18 +1,19 @@
 # Marie Adrienne Françoise de Noailles: Research Dossier
 
-## Scope and evidentiary conventions
+## Scope, Method, and Evidentiary Labels
 
-This dossier concerns Marie Adrienne Françoise de Noailles, marquise de La Fayette, not the seventeenth-century novelist Marie-Madeleine Pioche de La Vergne, comtesse de La Fayette.
+Marie Adrienne Françoise de Noailles is better known as Adrienne de La Fayette, wife of the revolutionary soldier and politician Gilbert du Motier, marquis de La Fayette. Her surviving documentary record consists principally of correspondence, family memoirs, prison papers, estate and financial records, and official records preserved in the Lafayette collections.
+
+The most important archival guide is the Library of Congress finding aid for the Marquis de Lafayette Papers. It identifies Adrienne’s original letters, prison notebooks, accounts of her arrests, estate documents, writings about her mother, last wishes, medical papers, and family correspondence. Her daughter Virginie’s *Vie de Madame de Lafayette* remains indispensable but is explicitly filial and devotional in purpose.
 
 Labels used below:
 
-- **Documented fact:** supported by a contemporary document, official record, manuscript catalogue, or independently corroborated archival evidence.
-- **Reported fact:** stated by a generally reliable secondary source but not independently established here from the underlying document.
-- **Allegation or theory:** a claim advanced by an identifiable source without conclusive proof.
-- **Rumor or myth:** a story transmitted primarily for dramatic, political, or commemorative purposes.
-- **Unresolved:** evidence is incomplete or conflicting.
-
-Because Adrienne left no conventional autobiography and never held public office, much of her life must be reconstructed from letters, family memoirs, estate papers, prison petitions, her daughter Virginie’s biography, and records embedded in the much larger Lafayette archive.
+- **Documented fact:** supported by a contemporary document, official record, or archival description.
+- **Reported fact:** stated by a generally reliable later historian but not independently confirmed here from the underlying document.
+- **Family testimony:** recorded by Adrienne, her daughter Virginie, or another relative; valuable but potentially selective.
+- **Allegation or partisan accusation:** asserted in political controversy without a conclusive adjudication.
+- **Rumor or myth:** a story whose documentary basis is absent, weak, or demonstrably propagandistic.
+- **Unresolved:** available evidence does not establish a single version.
 
 ---
 
@@ -20,949 +21,998 @@ Because Adrienne left no conventional autobiography and never held public office
 
 **Full name:** Marie Adrienne Françoise de Noailles.
 
-**Common names:** Adrienne de Noailles; Adrienne de La Fayette; Madame de La Fayette; Madame Lafayette; the marquise de La Fayette.
+**Usual name:** Adrienne de Noailles; after marriage, Adrienne de La Fayette or Madame de La Fayette.
 
-**Childhood designation:** *Mademoiselle d’Ayen*, as a daughter of the duc d’Ayen.
+**French forms:** Marie-Adrienne-Françoise de Noailles; Adrienne, marquise de La Fayette; Madame la marquise de La Fayette.
 
-**Married title:** marquise de La Fayette, following her marriage to Marie-Joseph-Paul-Yves-Roch-Gilbert du Motier, marquis de La Fayette.
+**Premarital courtesy designation:** *Mademoiselle d’Ayen*, because her father held the title duc d’Ayen before succeeding as duc de Noailles.
 
-**Signatures found in correspondence:** “Noailles de la Fayette,” “Lafayette,” and variants produced by contemporary spelling practices.
+**Title after marriage:** Marquise de La Fayette.
 
-**Born:** 2 November 1759, Paris, Kingdom of France, generally identified more specifically with the Hôtel de Noailles on the rue Saint-Honoré.
+**Signatures:** In surviving letters she used forms including “Noailles de la Fayette” and “Lafayette.”
 
-**Died:** 24 December 1807 at 11:45 p.m., 24 rue d’Anjou, Paris, First French Empire. Her civil death record was drawn up on 25 December, which explains the frequent secondary-source date of 25 December 1807. The record itself says that she died “yesterday,” establishing 24 December as the death date.
+**Birth:** 2 November 1759, Paris, Kingdom of France, probably at the Hôtel de Noailles on the rue Saint-Honoré.
+
+**Death:** 24 December 1807 at 11:45 p.m., 24 rue d’Anjou, division du Roule, Paris, First French Empire.
+
+Some secondary references give 25 December. The discrepancy results principally from confusing the registration date with the death date: the civil act was drawn up at 10 a.m. on 25 December and states that she had died “yesterday” at 11:45 p.m. The Lafayette archival inventory likewise dates her death to 24 December.
 
 **Age at death:** 48.
 
-**Burial:** Picpus Cemetery, Paris. Her husband was buried beside her in 1834.
+**Burial:** Picpus Cemetery, Paris, near the mass graves containing her mother, elder sister, and paternal grandmother. Her husband was buried beside her in 1834.
 
-**Nationality and legal position:** French; born into one of the kingdom’s highest-ranking noble families. She lived successively under the Bourbon monarchy, constitutional monarchy, First Republic, Directory, Consulate, and First Empire.
+**Nationality and legal position:** French by birth. During the Terror the Lafayette family’s honorary American citizenship—derived from state grants to Lafayette and his descendants—was used diplomatically and in obtaining travel documents, but Adrienne remained a French national and was treated by Revolutionary authorities as the wife of an alleged émigré.
 
-**Principal roles:** noblewoman, estate and financial manager, political intermediary, correspondent, prison petitioner, participant in an experimental gradual-emancipation project in French Guiana, Catholic memorialist, and co-founder/supporter of the Picpus commemorative and religious establishment.
+**Principal historical roles:**
 
-No pseudonym, salaried profession, military rank, or formal political office is documented.
+- Aristocratic household and estate administrator.
+- Political intermediary and correspondent.
+- Manager and defender of Lafayette family properties.
+- Participant in the Lafayette emancipation experiment in French Guiana.
+- Political detainee during the French Revolution.
+- Voluntary fellow-prisoner with her husband at Olmütz.
+- Author of a memoir of her mother and a substantial body of correspondence.
+- Founding subscriber and administrator associated with Picpus Cemetery.
+
+No formal profession, government office, patent, invention, or salaried employment is documented.
 
 ---
 
 ## Family and Ancestry
 
-### Paternal family
+### Parents
 
-Adrienne belonged to the Noailles, a ducal and military family closely integrated into the Bourbon court.
+**Father:** Jean-Louis-Paul-François de Noailles (1739–1824), initially duc d’Ayen and, after his father’s death in 1793, fifth duc de Noailles. He was a French soldier, courtier, reform-minded military administrator, and amateur scientist interested in chemistry. His military and court obligations kept him frequently away from his household. He survived the Revolution in exile, remarried in 1796, and returned under the Bourbon Restoration.
 
-Her father was **Jean-Louis-Paul-François de Noailles** (1739–1824), initially duc d’Ayen and, after his father’s death in 1793, fifth duc de Noailles. He was a cavalry officer, lieutenant-general, courtier, and scientific amateur who became associated with the Académie des sciences. His later offices included membership in the restored Chamber of Peers.
+**Mother:** Anne-Louise-Henriette d’Aguesseau (1737–1794), duchesse d’Ayen and later duchesse de Noailles. She was a granddaughter of Chancellor Henri-François d’Aguesseau and an heir to the d’Aguesseau and Dupré de La Grange-Bléneau properties. She supervised her daughters’ intellectual and religious formation. She was arrested during the Terror and guillotined in Paris on 22 July 1794.
 
-Her paternal grandfather was **Louis de Noailles** (1713–1793), fourth duc de Noailles and marshal of France. Her paternal grandmother was **Catherine-Françoise-Charlotte de Cossé-Brissac** (1724–1794), maréchale de Noailles.
+The parents’ marriage was not a conventionally close one. Contemporary and family accounts describe the duc as absorbed in the army, court, science, and entertainments, while the duchess maintained a pious, disciplined household in Paris.
 
-The family descended through Adrienne-Maurice de Noailles and Françoise-Charlotte d’Aubigné, a niece and heir of Madame de Maintenon. Adrienne consequently grew up amid inherited connections to the court of Louis XIV, royal military service, and extensive landed property.
+### Grandparents and ancestry
 
-### Maternal family
+Adrienne’s paternal grandparents were:
 
-Her mother was **Henriette-Anne-Louise d’Aguesseau** (1737–1794), duchesse d’Ayen, granddaughter of Chancellor Henri-François d’Aguesseau. She was known within the family for intense Catholic piety, personal austerity, charity, and close supervision of her daughters’ education.
+- Louis de Noailles (1713–1793), fourth duc de Noailles and marshal of France.
+- Catherine-Françoise-Charlotte de Cossé-Brissac (1724–1794), the dowager maréchale de Noailles, guillotined with her daughter-in-law in 1794.
 
-Adrienne’s parents lived substantially separate lives: her father was frequently at court or with the army; her mother maintained the household and educated the surviving daughters. This domestic arrangement is important to Adrienne’s formation but should not automatically be described as a legal separation.
+Her paternal great-grandparents included Adrien-Maurice de Noailles, third duc de Noailles and marshal of France, and Françoise-Charlotte-Amable d’Aubigné. The latter was the niece and beneficiary of Françoise d’Aubigné, marquise de Maintenon, the unacknowledged second wife of Louis XIV. Adrienne was therefore connected to the Maintenon inheritance but was not a descendant of Louis XIV or Madame de Maintenon.
+
+On her maternal side she descended from the family of Henri-François d’Aguesseau, chancellor of France and an important jurist under Louis XIV and Louis XV. La Grange-Bléneau came through this maternal inheritance.
 
 ### Siblings
 
-The couple reportedly had ten children, although only five daughters survived to adulthood. The best-established siblings are:
+Genealogical summaries disagree over whether Jean-Louis-Paul-François and Henriette d’Aguesseau had eight or ten children, partly because several died in infancy and naming conventions vary. The following are consistently documented:
 
 1. **Antoine-Paul-Louis de Noailles** (1756–1757), died in infancy.
-2. **Anne-Jeanne-Baptiste-Pauline-Adrienne-Louise-Catherine-Dominique de Noailles**, usually Louise (1758–1794), married Louis-Marie-Antoine de Noailles, vicomte de Noailles. She was guillotined with her mother and grandmother on 22 July 1794.
+2. **Anne-Jeanne-Baptiste-Pauline-Adrienne-Louise-Catherine-Dominique de Noailles**, generally called Louise (1758–1794). She married her cousin Louis-Marie-Antoine de Noailles. She was guillotined on 22 July 1794 with her mother and grandmother.
 3. **Marie Adrienne Françoise de Noailles** (1759–1807).
-4. **Françoise-Antoinette-Louise de Noailles** (1763–1788), successively marquise du Roure and comtesse de Thézan.
-5. **Anne-Pauline-Dominique de Noailles** (1766–1839), married Joachim de Montagu-Beaune, marquis de Montagu.
+4. **Françoise-Antoinette-Louise de Noailles**, commonly called Clotilde (1763–1788). She married first the marquis du Roure and then the comte de Thézan du Poujol.
+5. **Anne-Pauline-Dominique de Noailles** (1766–1839), later marquise de Montagu. She survived the Revolution and played an important role in creating the Picpus memorial and cemetery.
 6. **Angélique-Françoise-d’Assise-Rosalie de Noailles** (1767–1833), later marquise de Grammont.
 7. **Louis-Gabriel de Noailles** (1768–1770), died in childhood.
 
-The Library of Congress guide describes four surviving sisters—Louise, the future Madame de Thézan, Pauline de Montagu, and Rosalie de Grammont. Variations in totals in later accounts arise from whether children who died in infancy are counted.
+Additional children who died very young may account for the total of ten given in some family summaries; their identities have not been established with equal confidence from the sources consulted.
 
-### The executions of 22 July 1794
+### Husband
 
-**Documented fact:** Adrienne’s paternal grandmother Catherine de Cossé-Brissac, her mother Henriette d’Aguesseau, and her elder sister Louise were guillotined in Paris on 4 Thermidor Year II, 22 July 1794. Their bodies were placed in one of the mass graves at Picpus.
+On 11 April 1774 Adrienne married **Marie-Joseph-Paul-Yves-Roch-Gilbert du Motier, marquis de La Fayette** (1757–1834), at the Hôtel de Noailles in Paris. She was fourteen; he was sixteen.
 
-Adrienne learned of the executions while herself detained. Her later *Notice sur la vie de sa mère* preserves family testimony about their last days, but it is simultaneously a daughter’s devotional memorial and should not be treated as a disinterested transcript of every event.
-
----
-
-## Childhood and Early Life, 1759–1773
-
-Adrienne grew up primarily in the Hôtel de Noailles in Paris and within the family’s court and country-house network. The Hôtel de Noailles was a large aristocratic residence on the rue Saint-Honoré. Versailles, Maintenon, and other Noailles properties formed part of the family’s wider environment.
-
-Her mother assumed a central role in educating the daughters. Their formation emphasized:
-
-- Catholic doctrine and devotional practice;
-- reading, writing, household management, and aristocratic social conduct;
-- personal duty, charity, self-restraint, and obedience;
-- preparation for dynastic marriage and management of a noble household.
-
-No complete curriculum, school enrollment, or authoritative list of tutors has been recovered. She does not appear to have attended an institutional school. Claims that assign particular philosophers or Enlightenment writers as her formal “teachers” go beyond the surviving evidence.
-
-Adrienne nevertheless grew up where court politics, military service, scientific curiosity, religious controversy, and Enlightenment reform were discussed. Her mother’s Catholic seriousness coexisted with relatives such as her aunt Adrienne-Catherine, comtesse de Tessé, whose salon later attracted reformers and foreign diplomats.
-
----
-
-## Marriage to Lafayette
-
-### Arrangement and contract
-
-The marriage was arranged between the Noailles family and the guardians of the wealthy, orphaned Gilbert du Motier de La Fayette. The union offered Lafayette entry into a leading court family; the Noailles obtained a wealthy son-in-law whose fortune reduced the burden of providing for their several daughters.
-
-A secondary account gives Adrienne’s dowry as **200,000 livres**. This amount is plausible and widely repeated, but the marriage contract itself was not directly examined for this dossier; it is therefore a **reported fact**, not independently verified here.
-
-The couple became provisionally engaged when Adrienne was about fourteen and Lafayette sixteen. He was installed within the Noailles household before the wedding and entered the Noailles Dragoons under his future father-in-law’s patronage.
-
-### Wedding
-
-**Documented or strongly corroborated fact:** Adrienne and Lafayette married on 11 April 1774 in the chapel of the Hôtel de Noailles in Paris. Adrienne was fourteen; Lafayette was sixteen.
-
-The marriage was dynastic in origin but developed into a durable emotional and working partnership. Its internal balance was unequal: Lafayette’s military ambitions, political career, travel, and extramarital relationships repeatedly displaced Adrienne’s preferences, while she maintained the household, children, estates, correspondence, and family finances.
+The union was dynastic and arranged, but surviving correspondence and family testimony show that it developed into an emotionally intimate marriage. It was not sexually exclusive on Lafayette’s side. He acknowledged youthful “romances,” and his later relationships with Aglaé d’Hunolstein and Diane de Simiane were known in court society. Cornell University’s Lafayette exhibition reports that Adrienne tolerated the relationship with Simiane, allowed Lafayette to visit her, and encouraged the children to call her “our aunt.” Claims that the marriage was uniformly idyllic therefore obscure documented infidelity and long periods of separation.
 
 ### Children
 
-They had four known children:
+1. **Henriette du Motier de La Fayette**, born 15 December 1775; died in childhood, usually dated 3 October 1777, although one contemporary-family account places the family’s receipt of the news or commemoration in spring 1778.
+2. **Anastasie-Louise-Pauline du Motier de La Fayette**, born 1 July 1777; died 24 February 1863. She married Juste-Charles-César de Fay de La Tour-Maubourg on 9 May 1798.
+3. **Georges-Washington-Louis-Gilbert du Motier de La Fayette**, born 24 December 1779; died 29 November 1849. Named for George Washington, he married Émilie Destutt de Tracy.
+4. **Marie-Antoinette-Virginie du Motier de La Fayette**, born 17 September 1782; died 23 July 1849. She married Louis de Lasteyrie du Saillant and wrote the principal early biography of her mother.
 
-1. **Henriette du Motier de La Fayette**, born 1776, died 1778.
-2. **Anastasie-Louise-Pauline du Motier de La Fayette** (1777–1863), later married Just-Charles-César de Fay de La Tour-Maubourg.
-3. **Georges-Washington-Louis-Gilbert du Motier de La Fayette** (1779–1849), named for George Washington; married Françoise-Émilie Destutt de Tracy.
-4. **Marie-Antoinette-Virginie du Motier de La Fayette** (1782–1849), later married Louis de Lasteyrie du Saillant and wrote the principal family biography of her mother.
+Adrienne had nine or more grandchildren, depending on whether children who died young are counted.
 
-The death of Henriette occurred while Lafayette was in America. A surviving letter of 9 September 1778 refers to Anastasie as “the only token I have left of our tenderness.”
+---
+
+## Childhood and Early Life, 1759–1772
+
+Adrienne grew up principally at the Hôtel de Noailles on the rue Saint-Honoré, close to the Tuileries and Saint-Roch, in one of the richest and most highly connected noble households in France. The building, gardens, servants, residences at Versailles, family estates, and court relationships placed her inside the governing elite of the Bourbon monarchy.
+
+Her mother nevertheless attempted to create a comparatively disciplined domestic environment. According to Virginie de Lasteyrie’s family history and later accounts based upon it, the duchesse d’Ayen personally supervised her daughters, discussed lessons with them, listened to objections, and attempted to persuade rather than merely command. Adrienne reportedly once observed that permission to reason might make the children appear less immediately docile but more genuinely obedient by age fifteen.
+
+The household’s religion was serious Catholicism, influenced by the austere moral tradition associated with the d’Aguesseau family and, in later descriptions, compared with Port-Royal or Jansenist spirituality. Adrienne attended Mass, received instruction in doctrine, and learned the devotional practices expected of an aristocratic Catholic woman.
+
+This formation was not intellectually frictionless. Family testimony says that at approximately twelve she entered a period of severe religious doubt lasting several years. She continued religious observance while questioning doctrine and later compared the distress of uncertainty with the major sufferings of her adult life. Her later piety was therefore remembered not as unexamined childhood conformity but as a conviction reached through argument and crisis.
+
+No named professional tutors can be securely reconstructed. Her mother was her principal documented educator and formative mentor. She received the accomplishments expected of a noblewoman—reading, writing, household management, religion, social deportment, and probably music and languages—but claims about a formal convent education appear to confuse Adrienne with her mother, who had herself been educated partly in a convent.
+
+---
+
+## Marriage Formation and Household, 1772–1776
+
+Lafayette’s marriage was proposed when Adrienne was approximately twelve and he fourteen. Adrienne’s father favored the match: Lafayette was an orphan, a marquis, and heir to a very large fortune, while connection with the Noailles would provide him with court standing and military patronage.
+
+The duchesse d’Ayen initially resisted because both children were young and she found Lafayette cold or insufficiently formed. She consented on conditions reportedly including:
+
+- postponement of the marriage for approximately two years;
+- Lafayette’s residence near or within the Noailles establishment at Versailles;
+- continuation of both parties’ education;
+- concealment of the engagement from Adrienne for part of the interval;
+- continued residence of the married couple with her parents.
+
+The wedding took place on 11 April 1774. The marriage contract protected property interests and kept the young couple in the Noailles household. It also linked two great fortunes. Lafayette’s independent inherited wealth made him attractive to a family with several daughters requiring settlements; the Noailles alliance gave him rank, appointments, and access.
+
+The couple’s first child, Henriette, was born in December 1775. Lafayette’s early correspondence indicates that the couple underwent smallpox inoculation at Chaillot, a medically controversial but increasingly accepted procedure. Adrienne and her mother supported it.
 
 ---
 
 ## Chronological Life History
 
-## 1774–1781: Marriage and the American War
+### Lafayette’s first American expedition, 1776–1779
 
-Lafayette’s decision to join the American Revolution dominated the first years of the marriage. He pursued the project despite royal prohibition and the objections of Adrienne’s family. Adrienne was pregnant when he secretly departed aboard the *Victoire* in 1777.
+Lafayette became committed to the American rebellion and secretly arranged to serve in the Continental Army. He departed aboard the *Victoire* in April 1777 despite royal opposition. Adrienne was pregnant with Anastasie and was not fully informed before his departure. She later called it a “cruel departure.”
 
-The familiar story that he left without warning her requires qualification. His letters show concealment of timing and route, but biographical evidence suggests Adrienne knew of the general project, protected his confidence, and ultimately supported him despite personal distress. A letter written aboard the *Victoire* on 30 May 1777 addresses her affectionately and promises news.
+She remained in France, living with her family and raising the children. Anastasie was born on 1 July 1777. Henriette died while Lafayette was abroad.
 
-While Lafayette served in the Continental Army, Adrienne:
+Surviving letters show that Adrienne followed American news closely, cultivated people who might assist her husband, and identified emotionally with “my dear America.” A 1778 letter intercepted when its ship was captured by a British privateer survives in the British High Court of Admiralty Prize Papers. In it she discussed news of Lafayette, the loss of Henriette, Anastasie, and her expectation of reunion. This is direct evidence that she was not simply passive during his absence: she participated in the information and patronage network surrounding France’s American intervention.
 
-- remained within her birth family’s household;
-- endured the death of Henriette;
-- raised Anastasie;
-- received and circulated news of Lafayette;
-- corresponded with him and with figures involved in the American cause;
-- participated in the construction of his reputation in France.
+Lafayette returned to France in February 1779 and received public acclaim. Adrienne’s surviving 19 August 1779 letter to Benjamin Franklin illustrates her access to American diplomatic circles.
 
-A surviving September 1778 letter from Bordeaux records her intense engagement with American news and her identification with what she called “my dear America.”
+Georges-Washington de La Fayette was born on 24 December 1779, nine months after Lafayette’s return. Naming him for Washington publicly joined the family to the American cause.
 
-Lafayette returned temporarily to France in February 1779. Their son Georges-Washington was born later that year. Lafayette returned to America in 1780 and played a prominent role in the Virginia campaign and Yorktown.
+### Revolutionary-era salon and political household, 1779–1789
 
-### The celebrated reunion
+During the 1780s the Lafayettes moved from the parental household into their own Paris residence, generally placed near the rue de Bourbon. Their home became a meeting point for French reformers, American diplomats, foreign visitors, officers, and liberal aristocrats.
 
-Later accounts describe Adrienne fainting in Lafayette’s arms when he returned in triumph. The event became part of the visual and biographical language of the devoted wife.
+Adrienne acted as hostess, correspondent, patronage intermediary, and estate administrator. She maintained connections with Benjamin Franklin, George and Martha Washington, American diplomats, Noailles relatives, and members of the reforming aristocracy.
 
-- **Reported fact:** some family and biographical sources describe a public faint.
-- **Interpretive claim:** Cornell’s exhibition notes that Lafayette learned to use Adrienne and domestic emotion within his public-relations apparatus.
-- **Unresolved:** the precise spontaneity, staging, and original source of the scene cannot be established from the sources consulted.
+Lafayette again visited the United States in 1784 without her. In a letter of 18 June 1784, Adrienne thanked George Washington and asked him to obtain Lafayette’s promise that she would accompany her husband on his next American journey. Washington replied from Mount Vernon on 25 November, inviting her to come and calling Lafayette’s return to her that of a newly inspired lover. She never visited the United States.
+
+Their youngest child, Virginie, had been born in September 1782.
+
+### The Cayenne emancipation project, 1785–1792
+
+In 1785 Lafayette purchased agricultural properties in French Guiana, including an establishment known as La Belle Gabrielle and properties associated with Maripa and Saint-Régis. The purchase price quoted in his correspondence was 125,000 livres. Approximately seventy enslaved people were attached to the enterprise.
+
+The project’s stated objective was gradual emancipation: prohibiting sales, paying for labor, educating children, moderating punishment, preparing the enslaved population for freedom, and demonstrating that plantations could function without the slave trade. Daniel Lescallier and Henri de Richeprey were important local administrators.
+
+Adrienne assumed a growing share of the project’s supervision as Lafayette became absorbed in French politics. She corresponded with managers and asked nearby clergy to provide religious instruction. Her role is therefore a **documented participation in an emancipation project**, but it must not be redescribed as if the workers had already become free.
+
+The central contradiction is equally documented: the Lafayettes purchased human beings and remained their legal owners while proposing eventual liberation. Implementation was partial and contested. Modern summaries sometimes claim that the full wage-and-education program operated successfully; others conclude that much of it remained aspirational. Richeprey’s death and the Revolution disrupted the experiment. When Lafayette’s property was confiscated after 1792, the people on the plantations were sold or otherwise returned to the colonial slave system. Adrienne protested that they had been acquired to be educated and freed, not resold as commodities.
+
+Thus:
+
+- **Documented fact:** enslaved people were purchased with the properties.
+- **Documented intention:** eventual emancipation and improved conditions.
+- **Unresolved/contested implementation:** the extent to which wages, education, and protections were actually realized.
+- **Documented failure:** the project did not secure permanent freedom before confiscation and resale.
+
+### French Revolution, 1789–1792
+
+Lafayette became commander of the Paris National Guard and advocated a constitutional monarchy, civil equality, and legal order. Adrienne supported him personally and politically, hosted associates, managed his household, and carried messages.
+
+She had court access and knew the royal environment, but she was not a holder of public office. Later narratives that make her a co-author of Lafayette’s political program go beyond the evidence; a better description is political partner, intermediary, and administrator.
+
+Lafayette’s position became untenable after the royal family’s failed flight to Varennes, the Champ-de-Mars firing of July 1791, and his opposition to both royalist counterrevolution and Jacobin radicalization. His enemies accused him of aspiring to military dictatorship, conspiring against the Assembly, and betraying the nation. The Legislative Assembly initially rejected an indictment by 406 votes to 224, but after the monarchy fell he was declared a traitor.
+
+These accusations primarily concerned Lafayette, but Adrienne was punished through kinship and property law. No independent evidence establishes that she plotted military action or committed treason.
+
+### First arrest and confinement, August–September 1792
+
+Lafayette left his army in August 1792 intending to reach neutral or allied territory and eventually the United States. Austrian forces captured him at Rochefort in the Austrian Netherlands and treated him as a dangerous revolutionary prisoner rather than an ordinary émigré.
+
+French authorities ordered the arrest of Adrienne and the children. Archival documents preserved by FranceArchives record:
+
+- the arrest of Adrienne and Anastasie at Chavaniac on 10 September 1792;
+- their detention at Le Puy;
+- instructions from Interior Minister Jean-Marie Roland;
+- their return to Chavaniac under municipal responsibility.
+
+Adrienne protested against applying émigré confiscation law to a man held prisoner by France’s enemies. This was a legal and political argument, not a denial that Lafayette had crossed the frontier.
+
+She wrote to Jacques-Pierre Brissot asking to remain at Chavaniac on parole. Her confinement there was comparatively less severe than imprisonment but involved surveillance, seals on property, and the threatened loss of family assets.
+
+### Second arrest, Brioude, and Paris prisons, 1793–1795
+
+Under the Law of Suspects and the expanding Terror, Adrienne was arrested again on 12 November 1793 and taken to Brioude. In May 1794 she was transferred to Paris.
+
+The exact sequence of Paris prisons is reported somewhat differently. The most firmly documented final place was the Collège du Plessis, then used as a detention center. Accounts also mention La Force or other intermediate holding locations. The Library of Congress archive contains her prison letters, copies made by Virginie, official records, and Anastasie’s narrative.
+
+Her paternal grandmother, mother, and elder sister Louise were imprisoned separately, moved to the Conciergerie, condemned, and guillotined on 22 July 1794. They were buried in the Picpus mass graves.
+
+A persistent story says Adrienne was condemned with them, saw their execution, or was removed from the death list at the last instant. The evidence requires refinement:
+
+- **Documented fact:** she was imprisoned and in serious danger.
+- **Documented fact:** her grandmother, mother, and sister were executed on 22 July.
+- **Not established:** that Adrienne personally witnessed the execution.
+- **Not established with certainty:** that a completed Revolutionary Tribunal death sentence had been entered against her.
+- **Probable:** her transfer toward trial was interrupted by the fall of Robespierre on 9 Thermidor, 27 July 1794.
+- **Family tradition:** she was almost literally “at the foot of the scaffold.”
+
+Adrienne learned of the executions while still imprisoned. Her mother’s last instructions and Adrienne’s response became central texts in later family commemoration.
+
+### American diplomatic intervention and release, 1794–1795
+
+American residents and officials worked for her liberation. Named participants include:
+
+- James Monroe, United States minister to France;
+- Elizabeth Kortright Monroe, his wife;
+- Gouverneur Morris, Monroe’s predecessor;
+- Joseph Russell of Boston;
+- American friends and petitioners invoking Lafayette’s service and the family’s American citizenship.
+
+The popular story that Elizabeth Monroe personally entered the prison and dramatically rescued Adrienne is an embellishment. Diplomatic pressure by the Monroes and other Americans is well supported; the precise causal weight of any single visit is uncertain.
+
+Adrienne was released in January 1795 after the Thermidorian political change and sustained foreign intervention.
+
+### Arranging the children’s safety, 1795
+
+Adrienne arranged for her son Georges-Washington, then fifteen, to travel to the United States. He arrived later in 1795 and eventually lived under George Washington’s protection at or near Mount Vernon, although political sensitivities initially required discretion.
+
+Adrienne obtained American travel documents for herself and her daughters Anastasie and Virginie. Describing this as “passport fraud” is unsupported: officials knowingly used the Lafayette family’s American connection and citizenship claims as diplomatic protection.
+
+### Journey to Austria and voluntary imprisonment at Olmütz, 1795–1797
+
+Adrienne traveled with Anastasie and Virginie through northern Europe toward Vienna. She petitioned Emperor Francis II for permission to join Lafayette in prison. Permission was granted on the condition that, once admitted, the women would be treated as prisoners and could not freely leave.
+
+They arrived at Olmütz—today Olomouc in the Czech Republic—on 15 October 1795. The women initially occupied an adjacent room or cell and were united fully with Lafayette on 24 October.
+
+The prison was unhealthy, restrictive, and closely monitored, though later sensational descriptions of a permanently subterranean dungeon are inaccurate. Lafayette’s rooms were apparently on the ground floor. He had a servant and was imprisoned near fellow officers Charles-César de La Tour-Maubourg and Jean-Xavier Bureau de Pusy. Conditions nonetheless included poor air, vermin, illness, censorship, restricted communication, and inadequate medical care.
+
+Adrienne became seriously ill. Austrian authorities reportedly offered her permission to leave for treatment but would not guarantee readmission. She refused to leave without her husband. She wrote secretly in the margins of books using improvised ink and a toothpick or similarly fine implement.
+
+While confined, she began or continued the *Notice sur la vie de Madame la duchesse d’Ayen*, a memoir of her mother. It was simultaneously family memorial, religious testimony, and response to revolutionary loss.
+
+International advocacy for the prisoners involved American diplomats, George Washington, Madame de Staël, British opposition politicians including Charles James Fox, and others. Lafayette’s earlier escape attempt, made with Francis Kinloch Huger and Justus Erich Bollmann, had led to stricter confinement before Adrienne’s arrival.
+
+The family was released on 19 September 1797 pursuant to the diplomatic settlement surrounding the Treaty of Campo Formio. Napoleon Bonaparte and General Henri Clarke pressed for release on the French side. Lafayette rejected conditions implying formal submission or renunciation of principles, and the final release was treated as unconditional.
+
+### Exile after Olmütz, 1797–1799
+
+French law still treated Lafayette as an émigré, preventing immediate return. The family moved through Habsburg and German territories and lived for a time at Wittmoldt in Holstein, on an estate connected to the La Tour-Maubourg family. They also spent time in the Netherlands.
+
+Adrienne’s health remained fragile. The family restored contacts, negotiated marriages, and attempted to reconstruct its finances.
+
+Anastasie married Juste-Charles-César de La Tour-Maubourg at Wittmoldt on 9 May 1798. Adrienne and her daughters returned to France before Lafayette, while he continued negotiations over his legal status.
+
+### Return to France and La Grange, 1799–1800
+
+After the coup of 18 Brumaire in November 1799, Lafayette returned to France without waiting for a fully secure authorization. The family settled principally at La Grange-Bléneau near Courpalay in Seine-et-Marne, an estate inherited through Adrienne’s mother.
+
+Napoleon allowed Lafayette to remain but did not restore him to major political office. Lafayette declined to support the authoritarian development of the Consulate and Empire. Adrienne concentrated on the estate, family finances, religion, charity, and the education and marriages of the children.
+
+### Estate and financial reconstruction
+
+The Lafayette fortune had been damaged by:
+
+- Lafayette’s expenditures on the American Revolution;
+- political activity and household obligations;
+- Revolutionary confiscations and forced sales;
+- loss of income during detention and exile;
+- debt;
+- expenses of supporting an extended household.
+
+La Grange became both residence and productive farm. A financial memorandum preserved among the Jefferson papers describes:
+
+- Lafayette’s debts to his brother-in-law Grammont;
+- compensation for confiscated or retained Cayenne property;
+- arrangements assigning income and ownership to the children;
+- the value of woods and agricultural production at La Grange;
+- a household comprising Lafayette, Adrienne, three children, their spouses, and grandchildren;
+- Lafayette’s military pension;
+- American land in Louisiana.
+
+In 1803 the United States granted Lafayette substantial land in Louisiana in recognition of his Revolutionary service. Adrienne took an active interest in the property. Her letter to James Madison of 10 June 1807 discusses powers of attorney authorizing sale of portions of the Louisiana tract and complains that expected replies had not arrived. The document is strong evidence of her direct involvement in transatlantic family finance.
+
+No evidence found supports fraud, secret commercial enterprises, money laundering, or improper enrichment. The financial record instead shows indebtedness, complicated restitution claims, family settlements, and reliance on land.
+
+### Picpus memorial and religious work, 1802–1807
+
+In 1802 relatives of people guillotined and buried in the Picpus mass graves organized to purchase and preserve the site. Adrienne was among the subscribers or committee members. Her sister Pauline de Montagu played a leading role.
+
+The project combined burial rights, memorialization, prayer, and preservation of the mass graves. Adrienne’s participation had an immediate personal basis: her mother, grandmother, and sister lay there.
+
+She also maintained charitable pensions and alms attached to estate income. Her religious life intensified after imprisonment. Surviving descriptions emphasize daily prayer, sacramental practice, instruction of children and dependents, concern for clergy, and commemoration of the dead. This did not translate into political support for restored absolutism; she remained loyal to Lafayette’s liberal constitutional position while retaining orthodox Catholic commitments.
+
+### Final illness and death, 1807
+
+Adrienne never fully recovered from imprisonment. The sources describe recurrent illness, weakness, and deteriorating health, but retrospective claims that every later symptom was directly caused by Olmütz cannot be medically proven.
+
+In 1807, after travel in Auvergne, her condition worsened. A “sudden paralysis” reportedly deprived her of strength and much of her speech. At Lafayette’s insistence she was brought to Paris for medical treatment.
+
+The Lafayette Papers contain separate folders for her final illness, death, last wishes, religious services, and letters written afterward. She died at 24 rue d’Anjou at 11:45 p.m. on 24 December 1807.
+
+Family accounts preserve last words addressed to Lafayette, commonly rendered as “Je suis toute à vous” (“I am entirely yours”). This is **family testimony**, not a phrase independently certified by the death record.
+
+She was buried at Picpus. Lafayette reportedly sealed or closed the room where she had died and wrote that only after losing her did he understand how completely she had become part of his own existence.
 
 ---
 
-## 1781–1788: Household, reform networks, and transatlantic correspondence
+## Education and Formation
 
-After Yorktown, Adrienne became a prominent hostess and intermediary within the expanding Lafayette network. The family lived first in association with the Noailles household and later in a separate Paris residence sometimes called the Hôtel de La Fayette.
+Adrienne’s education cannot be reconstructed as a conventional institutional curriculum. Its documented features were:
 
-Her social and political contacts were largely generated through Lafayette, the Noailles family, Madame de Tessé’s salon, and American diplomacy. The network included Benjamin Franklin, Thomas Jefferson, Gouverneur Morris, American visitors, liberal aristocrats, military officers, and advocates of religious and civil reform.
+- close supervision by the duchesse d’Ayen;
+- Catholic doctrine and devotional practice;
+- argument and moral reasoning rather than rote obedience alone;
+- aristocratic household management;
+- letter-writing and social mediation;
+- knowledge sufficient to administer complex properties and correspond about legal and financial matters;
+- exposure to court life, military patronage, and reform politics.
 
-### Correspondence with George Washington
+Her principal formative influences were:
 
-Adrienne wrote directly to George Washington. In a letter of 18 June 1784, signed “noailles De la fayette,” she thanked him for his kindness, regretted that care of the children prevented her from accompanying Lafayette to America, and asked Washington to secure Lafayette’s promise to take her on a future voyage.
-
-Her letters document a personal relationship conducted through correspondence, though there is no evidence that she ever met Washington in person. She never traveled to the United States.
-
-### Religious toleration
-
-Adrienne was a committed Catholic, but contemporary and family sources portray her as opposing religious coercion. She and Lafayette supported improved civil status for French Protestants and received Protestant ministers. A later profile attributes to her the view that constraining the liberty God had given human beings was itself wrong.
-
-This was not secular unbelief. Her toleration arose from a religious conception of conscience and coexisted with orthodox personal devotion.
-
----
-
-## The Cayenne plantations and enslaved labor, 1785–1792
-
-### Acquisition and structure
-
-In 1785–1786 Lafayette acquired plantation property in the French colony of Cayenne, now French Guiana. The best-known estate was **La Belle Gabrielle**, along the Oyapock/Oyapok River; other associated estates included Saint-Régis. The acquisition included approximately seventy enslaved people.
-
-In February 1786 Lafayette told Washington that he had paid **125,000 livres** for a plantation and intended eventually to free the enslaved workers as an experiment.
-
-The project proposed:
-
-- prohibiting the sale of individuals away from the estate;
-- limiting corporal punishment and reportedly prohibiting flogging;
-- paying or rewarding labor;
-- educating children and adults;
-- providing Catholic religious instruction;
-- preparing the population for gradual emancipation and wage labor;
-- attempting to demonstrate that plantation production could survive without the slave trade.
-
-### Adrienne’s role
-
-**Documented fact:** as Lafayette’s political obligations increased, Adrienne corresponded with managers and assumed substantial administrative responsibility. She contacted estate personnel and religious institutions and sought education and religious care for the enslaved community.
-
-She was therefore not merely the uninvolved wife of the owner. She participated in the administration of a slave plantation while trying to transform it into an emancipation experiment.
-
-### Evidentiary assessment
-
-Two facts must be held together:
-
-1. **Documented fact:** the Lafayettes intended eventual emancipation and instituted comparatively protective rules.
-2. **Documented fact:** the people remained legally enslaved during the experiment, were acquired as part of plantation transactions, and were subject to management from France.
-
-Some later abolitionist accounts claimed that Lafayette freed everyone by late 1789. Other archival reconstructions indicate that emancipation was incomplete when revolutionary authorities confiscated the property. The latter interpretation is better supported by the recorded inventory and later resale.
-
-When Lafayette was declared a traitor and his property confiscated, the plantations and their enslaved inhabitants were seized. Adrienne protested that they had been purchased to be prepared for liberty, not to be sold as commercial objects, but she lacked the money and authority to buy them from the new holders. An April 1794 inventory still listed enslaved families as property. French colonial abolition followed in 1794, but Napoleon restored slavery in French colonies in 1802.
-
-No evidence consulted supports allegations of secret trafficking, personal enrichment through an independent slave-trading company, or a completed mass manumission by Adrienne. The record instead documents an unfinished gradualist experiment compromised from its inception by continued ownership.
+- **Henriette d’Aguesseau**, her mother: religious, moral, and educational formation.
+- **The d’Aguesseau legal tradition:** a family culture of duty and public service.
+- **Gilbert du Motier de Lafayette:** political liberalism, America, abolitionism, and revolutionary networks.
+- **The American Revolution:** absorbed through correspondence rather than travel.
+- **The French Revolution and Terror:** imprisonment, confiscation, and family execution transformed her religious and memorial writing.
+- **Catholic spirituality:** increasingly central in prison and later life.
 
 ---
 
-## 1789–1792: French Revolution
+## Companies, Institutions, Technologies, Projects, and Financial Interests
 
-Adrienne did not sit in the Estates-General, National Assembly, municipality, or political clubs. Her political activity was familial, social, financial, and epistolary rather than official.
+### Hôtel de Noailles
 
-Lafayette became commander of the Paris National Guard and a leading advocate of constitutional monarchy. Adrienne operated the household that accompanied this public role, hosted political and diplomatic contacts, managed correspondence, and supported reform causes.
+Her childhood residence and the site of her marriage. It functioned as a noble household, patronage center, and access point to Versailles and the Tuileries.
 
-She shared her husband’s constitutional orientation but remained personally Catholic and connected to relatives who ranged from reformist to conservative. Her position became dangerous after Lafayette opposed both royalist reaction and Jacobin radicalization.
+### Chavaniac
 
-Following the fall of the monarchy in August 1792, Lafayette was accused of treason. He left his army and attempted to reach neutral territory but was arrested by coalition forces.
-
----
-
-## 1792–1795: Arrest, house confinement, and prisons
-
-### First arrest
-
-On 10 September 1792, officials and a force of soldiers surrounded Chavaniac and arrested Adrienne. A surviving administrative narrative describes a search, sealing of papers and furniture, and her removal with family members and servants.
-
-After intervention associated with Jacques-Pierre Brissot and Interior Minister Jean-Marie Roland, she was allowed to return to Chavaniac as a prisoner on parole. Thus descriptions of her as continuously incarcerated in a conventional prison from September 1792 are inaccurate.
-
-### Second arrest
-
-On or about 12 November 1793, revolutionary authorities arrested her again. Local documentation associates the decision in part with her efforts on behalf of a non-juring priest, although political hostility to Lafayette and suspicion of aristocratic families were sufficient independent motives.
-
-She was held at Brioude and later ordered transferred to Paris. The chronology reconstructed from local records places her entry into La Force prison in June 1794. She was subsequently held at the Plessis prison, a detention center from which prisoners were regularly transferred to the Revolutionary Tribunal.
-
-### Was she sentenced to death?
-
-Popular biographies frequently say that Adrienne and her female relatives were “all condemned” and that she was saved from the guillotine at the last moment.
-
-The evidence requires narrower language:
-
-- **Documented fact:** she was imprisoned during the Terror and faced a credible risk of referral to the Revolutionary Tribunal.
-- **Documented fact:** her grandmother, mother, and sister were tried and executed.
-- **Not established:** that Adrienne herself was formally indicted, tried, convicted, or placed on a specific execution list.
-- **Reported fact:** family tradition says she expected to follow them to the scaffold.
-- **Conclusion:** “nearly guillotined” is a reasonable description of danger, but “sentenced to death” is not established by the sources consulted.
-
-### Letter of 17 October 1794
-
-Adrienne petitioned the Committee of General Security, asserted that no valid cause existed for her detention, invoked a certificate of civic conduct, and requested either release or deportation to the United States. A marginal note mentioned the July executions of her grandmother, mother, and sister. The manuscript survives in the University of Virginia’s collections.
-
-### Morris, Monroe, and the release narrative
-
-Later accounts attribute her survival or release variously to Gouverneur Morris, James Monroe, or general American diplomatic pressure.
-
-- **Documented fact:** Morris, while American minister in Paris, intervened in matters affecting the Lafayette family and maintained contacts with Adrienne.
-- **Documented fact:** Monroe, Morris’s successor, and Elizabeth Monroe assisted her after the Terror and helped arrange American documentation and travel.
-- **Reported but overstated claim:** Morris personally “saved her from the guillotine.”
-- **Reported but overstated claim:** Monroe alone secured her release.
-- **Best reconstruction:** diplomatic advocacy, Lafayette’s American reputation, petitions from allies, and the post-Thermidor political change all contributed. No single intervention has been demonstrated as the sole cause.
-
-Adrienne was released on or about 22 January 1795, after approximately fourteen months of renewed incarceration and more than two years of varying restrictions beginning with the 1792 arrest.
-
----
-
-## 1795–1797: Journey to Vienna and imprisonment at Olmütz
-
-After release, Adrienne arranged the safety of her children and attempted to join Lafayette.
-
-Her son Georges-Washington was sent to the United States under protective arrangements and eventually lived in Washington’s household. Adrienne traveled with daughters Anastasie and Virginie using American documentation and a degree of concealed identity.
-
-Their route led through northern Europe to Vienna. Adrienne obtained an audience with Emperor Francis II and asked either for Lafayette’s release or permission to share his captivity.
-
-### The imperial audience
-
-The dramatic tradition says that she fell at the emperor’s feet and pleaded for her husband.
-
-- **Reported fact:** an audience took place, and Francis II refused release but permitted her to enter the prison.
-- **Unresolved dramatic detail:** kneeling, the emperor’s exact words, and the full dialogue derive from retrospective narratives and should not be treated as a verbatim official transcript.
-
-On 15 October 1795, Adrienne and her daughters reached the fortress of Olmütz—modern Olomouc in the Czech Republic. They were initially placed in an adjoining space and then allowed to live with Lafayette.
-
-### Nature of the confinement
-
-Adrienne entered voluntarily in the limited sense that she chose to join her husband, but the conditions thereafter were coercive. Austrian authorities reportedly told her that if she left she would not be permitted to return. She remained for nearly two years.
-
-Conditions included:
-
-- restricted communication and surveillance;
-- inadequate ventilation and exercise;
-- limited medical attention;
-- poor sanitation;
-- separation from their son;
-- uncertainty about release.
-
-Adrienne developed recurrent fever, swelling, and severe pain in her legs or ankles. She requested medical treatment outside the prison but refused to accept permanent separation from Lafayette as its condition.
-
-The family left Olmütz on 19 September 1797 under the terms following the Treaty of Campo Formio and reached the custody of American representatives in Hamburg in early October.
-
----
-
-## 1797–1799: Exile in Holstein and the Dutch/German borderlands
-
-The released family could not immediately return to France. They stayed at Lehmkuhlen in Holstein, near relatives and the La Tour-Maubourg family. Anastasie married Just-Charles-César de La Tour-Maubourg at Wittmoldt.
-
-Adrienne attempted to repair finances, maintain communication with French relatives, and recover from prison. Her health remained impaired.
-
-Lafayette refused conditions that would have required a politically humiliating renunciation. After Napoleon Bonaparte’s coup of 18 Brumaire, he re-entered France in November 1799 under the name “Motier,” presenting the government with a fait accompli. Adrienne followed in the reconstruction of family life.
-
----
-
-## 1799–1807: La Grange, property recovery, debts, and final years
+Lafayette’s Auvergne estate and birthplace. Adrienne resided there during the Revolution, administered local affairs, faced arrest there, and protested confiscation.
 
 ### La Grange-Bléneau
 
-The family settled principally at the Château de La Grange-Bléneau near Courpalay, Seine-et-Marne. The property descended through Adrienne’s maternal family and became the center of the extended Lafayette household.
+Inherited through her mother and developed as the family’s principal post-Revolution residence. Adrienne participated in preserving it, supporting dependents, and arranging property for the children.
 
-Adrienne worked to:
+### Cayenne/French Guiana properties
 
-- recover confiscated or threatened property;
-- settle inheritance and marriage-contract claims;
-- service family debts;
-- negotiate with officials;
-- reconstruct La Grange as an economically productive estate;
-- arrange marriages and dowries;
-- manage relations among children, in-laws, and grandchildren.
+A plantation complex purchased for 125,000 livres, worked by approximately seventy enslaved people, and intended as an experiment in gradual emancipation. Adrienne’s role in correspondence and administration is documented. The enterprise failed to free its entire population before Revolutionary confiscation.
 
-A later financial statement described La Grange as containing woodland, a working farm, a furnished house large enough for fourteen family members, and expected net farm income of approximately 12,000–13,000 francs. The family also had debts and relied partly on American grants of Louisiana land.
+### Louisiana land
 
-Her surviving 10 June 1807 letter to James Madison concerns powers of attorney and the possible sale of Louisiana property. It shows that, months before her death, she remained involved in complex transatlantic financial administration.
+American land granted to Lafayette became central to debt restructuring and family settlements. Adrienne’s 1807 letter to James Madison concerned its possible sale and management.
 
-### Picpus
+### Picpus Cemetery society
 
-Beginning around 1802, Adrienne and her sister Pauline de Montagu participated in efforts by victims’ relatives to acquire the former convent grounds at Picpus, identify the mass graves, establish a private cemetery, and support a religious community charged with prayer for the dead.
+Adrienne was among the family representatives who subscribed to or administered the purchase and preservation of the Picpus burial ground.
 
-This project united several elements of Adrienne’s late life:
+### Technologies, inventions, and patents
 
-- mourning for her mother, grandmother, and sister;
-- Catholic devotion;
-- family commemoration;
-- preservation of the physical site of Terror-era executions;
-- cooperation among aristocratic survivor families.
-
-Picpus later became both a family cemetery and a contested counter-revolutionary memorial site.
-
-### Relationship with Napoleon
-
-Lafayette opposed Napoleon’s authoritarian development and declined to endorse his regime. Adrienne’s role was less public, but she managed the practical consequences of political exclusion.
-
-She wrote respectfully to government figures and pursued property and family interests. There is no evidence that she held an imperial office, received an imperial title, or joined a conspiracy against Napoleon.
+None documented. She engaged with agricultural management, inoculation, plantation reform, and estate accounting but did not claim an invention or patent.
 
 ---
 
-## Religious, Philosophical, and Political Development
+## Political, Religious, and Intellectual Development
 
-Adrienne’s durable intellectual framework was Catholic rather than philosophical-systematic. Its principal components were:
+### Political position
 
-- Providence and personal duty;
-- sacramental practice and prayer;
-- loyalty within marriage and family;
-- charity toward prisoners, dependents, and the poor;
-- religious toleration;
-- acceptance of constitutional reform;
-- opposition to arbitrary punishment;
-- gradual emancipation rather than immediate revolutionary abolition.
+Adrienne’s own surviving papers do not constitute a systematic political philosophy. Her actions support the following reconstruction:
 
-Her politics cannot be reduced to passive acceptance of Lafayette’s views. She negotiated with revolutionary committees, defended a non-juring priest, administered reform projects, appealed to American and Austrian governments, and made independent choices about imprisonment and property.
+- loyalty to Lafayette’s American republican commitments;
+- sympathy for legal liberty and constitutional reform;
+- rejection of both absolutist counterrevolution and the Terror;
+- defense of due process and property against émigré confiscation;
+- practical use of international and American networks;
+- support for gradual abolition;
+- resistance to Napoleon’s authoritarian consolidation through continued solidarity with her husband.
 
-At the same time, there is no evidence that she embraced republican democracy in the later Jacobin sense, rejected aristocratic property, or advocated social equality across class. Her thought remained embedded in a hierarchical noble household and Catholic paternalism.
+She did not hold elected office, command troops, publish manifestos, or lead a formal faction.
+
+### Religion
+
+Adrienne moved from adolescent doubt to strongly articulated Catholic faith. Her religion included sacramental practice, devotion, moral examination, prayer for the dead, charity, and the interpretation of suffering through providence.
+
+The frequent description of her as a “saint” is hagiographic, not a formal ecclesiastical judgment. No beatification or canonization process was found.
+
+### Abolitionism and its limits
+
+Her participation in the Cayenne experiment places her within late-eighteenth-century gradual-emancipation practice. It did not amount to modern egalitarian abolitionism in every respect. The experiment was paternalistic, retained legal ownership during a projected transition, relied upon missionary instruction, and failed to prevent resale after confiscation.
 
 ---
 
 ## Important Relationships and Networks
 
-### Gilbert du Motier, marquis de La Fayette
+### Gilbert du Motier, marquis de Lafayette
 
-Husband, principal political associate, and central emotional relationship. Adrienne supported his American venture, managed the consequences of his absences, shared his imprisonment, and administered family affairs.
+Husband, political partner, principal emotional attachment, and source of prolonged absences and financial risk. Their correspondence shows intimacy but also asymmetry: his military and political ambitions repeatedly determined the family’s circumstances.
 
 ### Henriette d’Aguesseau, duchesse d’Ayen
 
-Mother, educator, religious model, and subject of Adrienne’s principal prose work. Her execution became foundational to Adrienne’s late-life memorial activity.
+Mother, educator, religious mentor, and posthumous subject of Adrienne’s principal literary work.
 
-### Pauline de Montagu
+### Anastasie, Georges-Washington, and Virginie de Lafayette
 
-Sister, correspondent, survivor, and collaborator in the Picpus project.
+Children whose safety and marriages structured Adrienne’s decisions. Virginie became the guardian of her written reputation.
 
-### Louise, vicomtesse de Noailles
+### George and Martha Washington
 
-Elder sister, executed in 1794. Her death remained part of Adrienne’s religious and family memory.
-
-### Adrienne-Catherine, comtesse de Tessé
-
-Paternal aunt and salonnière. Her household connected the family with reformist aristocrats, Thomas Jefferson, and Gouverneur Morris.
-
-### George Washington
-
-A symbolic family patron and direct correspondent. Adrienne addressed him affectionately and entrusted her son’s welfare to the American network surrounding him. No in-person meeting is documented.
-
-### Gouverneur Morris
-
-American diplomat, political acquaintance, and advocate for the Lafayette family. His precise role in preventing Adrienne’s execution has been magnified in later retellings.
-
-### James and Elizabeth Monroe
-
-Assisted Adrienne after her release, particularly with passports, travel arrangements, and American diplomatic support.
-
-### James Madison
-
-Friend and financial correspondent. Adrienne’s final surviving letter to him concerns Louisiana property and powers of attorney.
+Transatlantic family friends. Adrienne corresponded directly with Washington. Her son was named for him and later placed under his protection.
 
 ### Benjamin Franklin
 
-Part of the Lafayette transatlantic circle. An Adrienne letter to Franklin is catalogued in the Dartmouth-associated material and correspondence records, although the full text was not recovered here.
+Diplomatic associate and correspondent during Lafayette’s American service.
 
-### Lafayette’s mistresses
+### James and Elizabeth Monroe
 
-Lafayette had relationships outside the marriage, most notably with **Aglaé d’Hunolstein** and **Diane de Simiane**.
+Central to the campaign for Adrienne’s release and protection in 1794–1795.
 
-The surviving biographical tradition identifies these as affairs rather than mere political friendships. Adrienne knew at least of Diane de Simiane and maintained outwardly cordial relations with her; a Cornell exhibition states that Adrienne permitted Lafayette to spend time with Simiane and had the children call her “our aunt.”
+### Gouverneur Morris
 
-No reliable evidence establishes an extramarital partner for Adrienne.
+American diplomat involved in efforts on behalf of both Adrienne and Lafayette.
 
-The later image of her as endlessly forgiving must be read partly through nineteenth-century ideals of conjugal sacrifice. Her accommodation can also be understood as a strategy for preserving an aristocratic marriage, family property, and emotional partnership in a milieu where elite male infidelity was common.
+### Madame de Staël
 
----
+Advocate for Lafayette’s release and correspondent within the family’s liberal European network.
 
-## Companies, Institutions, Projects, and Financial Interests
+### Charles-César and Juste-Charles-César de La Tour-Maubourg
 
-Adrienne did not establish a modern company or hold corporate shares in the present-day sense. Her principal institutional and financial activities were:
+The former was Lafayette’s fellow prisoner; the latter married Anastasie. The families shared exile and residence.
 
-### Noailles and Lafayette estates
+### Diane de Simiane
 
-She had claims arising from dowry, inheritance, marriage contract, and family settlements. She managed or helped manage Chavaniac, La Grange, and other agricultural and woodland property.
+Lafayette’s mistress and long-term intimate. Adrienne’s acceptance of her presence is reported in correspondence and family materials. Simiane complicates later presentations of the marriage as exclusive or conventionally domestic.
 
-### Cayenne plantations
+### Napoleon Bonaparte
 
-She participated in managing La Belle Gabrielle and associated property, including approximately seventy enslaved people, in an unfinished gradual-emancipation experiment.
+Instrumental in demanding the Olmütz prisoners’ release but later politically opposed to Lafayette. Adrienne benefited from his intervention while sharing her husband’s distrust of his regime.
 
-### Louisiana lands
+### Francis II
 
-The United States granted Lafayette substantial land in recognition of his service. By 1807 Adrienne was corresponding with Madison and others over powers of attorney, loans, and possible sales.
-
-### Picpus Cemetery and religious foundation
-
-Adrienne and relatives organized subscriptions and property acquisition connected with the former Picpus convent, mass graves, private cemetery, and religious community.
-
-### Household finance
-
-Her work encompassed debts, pensions, annuities, children’s settlements, dowries, alms, farm income, and property litigation or petitions. No evidence of fraud, hidden banking structures, speculative companies, or illicit enrichment was found.
+The Habsburg emperor who authorized Adrienne and her daughters to enter Olmütz under restrictive conditions. He did not simply “invite” them; they surrendered their freedom of movement.
 
 ---
 
-## Illness, Treatment, and Death
+## Controversies, Allegations, Investigations, Crimes, and Financial Questions
 
-### Olmütz illness
+### Treason and émigré classification
 
-The beginning of Adrienne’s chronic final illness is conventionally associated with Olmütz. Contemporary descriptions mention:
+**Partisan accusation:** Revolutionary opponents labeled Lafayette a traitor after his attempt to oppose radicalization and his flight from military command.
 
-- swelling of the legs, ankles, arms, or generalized tissues;
-- recurrent fever;
-- difficulty and pain while walking;
-- lasting impairment after release.
+**Application to Adrienne:** She was arrested as his wife and treated as part of an émigré household.
 
-Fanny Burney d’Arblay, who met her in 1802, wrote that illness, cold, poor management, and lack of exercise at Olmütz had left one ankle so painful that Adrienne moved as little as possible and needed a stool for her foot.
+**Finding:** No evidence found establishes that Adrienne herself committed treason, espionage, or an armed offense. Her confinement was preventive and associational rather than the execution of a proven criminal conviction.
 
-### Treatment and possible lead exposure
+### Whether she was formally condemned to death
 
-Research in the Lafayette household papers reportedly found apothecary receipts indicating that medicines containing substantial quantities of lead were administered.
+**Popular claim:** Adrienne was condemned with her mother, sister, and grandmother and escaped the guillotine at the last instant.
 
-- **Documented fact:** lead-containing treatments were used.
-- **Medical theory:** cumulative lead poisoning may have aggravated or contributed to her decline.
-- **Not established:** that lead poisoning was the sole or certified cause of death.
+**Evidence:** She was in a Paris prison and at grave risk. Her relatives were condemned and executed. Robespierre fell five days later.
 
-Contemporary descriptions used vague phrases such as “dissolution of the blood.” Retrospective possibilities include chronic infection, renal or cardiac disease, edema following prolonged confinement, and toxic effects of treatment. No modern diagnosis can be made conclusively from the available evidence.
+**Finding:** A surviving final judgment against Adrienne was not located. “Nearly guillotined” is defensible; “sentenced and removed from the scaffold” is not established.
 
-### Final days
+### Responsibility for enslaving people in Cayenne
 
-Family testimony says that on 21 December 1807 she remained lucid, prayed, and sang the Canticle of Tobias, associated in family memory with her approach to Olmütz. Her strength declined over the following days.
+**Documented fact:** The plantation purchase included enslaved human beings, and the Lafayettes held legal title while planning gradual emancipation.
 
-She died at 11:45 p.m. on 24 December 1807 at 24 rue d’Anjou in Paris. The civil registration occurred the following morning.
+**Mitigating documentary context:** They prohibited sale, proposed wages and schooling, and intended liberation.
 
-She was buried at Picpus near the mass grave containing her mother, grandmother, and sister. Lafayette was interred beside her in 1834.
+**Adverse result:** Permanent emancipation was not accomplished through the project; confiscation was followed by resale.
 
----
+**Finding:** It is inaccurate either to call the plantation an already free community or to omit its emancipation purpose. Both ownership and reform intent are documented.
 
-## Controversies, Allegations, and Financial Questions
+### Lafayette’s infidelity
 
-### Administration of enslaved people
+**Documented/reported fact:** Lafayette had affairs, notably with Aglaé d’Hunolstein and Diane de Simiane.
 
-**Documented fact:** Adrienne administered estates whose labor force remained enslaved.
+**Adrienne’s response:** Later archival presentations report accommodation rather than public confrontation.
 
-**Documented fact:** she sought reforms and eventual emancipation and protested their later resale.
+**Finding:** No credible evidence of Adrienne’s own extramarital affair was found.
 
-**Contested interpretation:** celebratory accounts call her an abolitionist who “freed” the plantation population; critical accounts emphasize that the project retained ownership and coercive labor. The evidence supports anti-slavery intent and incomplete gradualism, not completed emancipation.
+### Finances and wealth
 
-### Aristocratic wealth and privilege
+**Documented fact:** The marriage joined major fortunes. The family owned extensive landed property and enslaved labor in French Guiana.
 
-Her marriage, mobility, political access, and capacity to petition foreign rulers rested on aristocratic family wealth and rank. Revolutionary confiscations, imprisonment, and debt severely reduced but did not erase this inherited position.
+**Documented fact:** Revolution, confiscation, political spending, and debt severely diminished liquidity.
 
-No evidence was found of embezzlement, fraudulent conveyance, bribery, money laundering, or concealed commercial enterprises.
+**Documented fact:** American Louisiana land and compensation claims were used to restructure debt.
 
-### Formal criminal accusations
+**Finding:** No evidence found of embezzlement, corruption, fraudulent conveyance, or concealed criminal finance.
 
-Revolutionary authorities detained her because she was Lafayette’s wife, an aristocrat, and a defender of politically suspect persons. The record reviewed does not establish a conventional evidentiary criminal case.
+### Political use of American citizenship
 
-No documented indictment, trial, conviction, or sentence against her was found.
+**Claim sometimes implied:** Adrienne disguised herself as an American or fraudulently obtained protection.
 
-### Claim that she was on the verge of execution
+**Evidence:** American officials openly supported the Lafayette family and issued or facilitated documentation based on formally granted honorary citizenship.
 
-This is plausible as an assessment of danger but unproven as a formal procedural event. Statements that she had already been condemned should be labeled **legendary embellishment or unsupported compression** unless a tribunal record is produced.
+**Finding:** Political and diplomatic maneuvering is documented; fraud is not.
 
-### Husband’s infidelity
+### Adversarial search findings, including 2024–2026 material
 
-Lafayette’s affairs were a domestic controversy and figure prominently in modern biographies. Adrienne’s knowledge and accommodation are supported, but dramatic statements about her exact private reactions often derive from family reconstruction or Maurois’s literary narrative.
+Dedicated searches combined her names with “controversy,” “scandal,” “allegations,” “lawsuit,” “fraud,” “accusations,” “conspiracy,” “criticism,” *scandale*, *controverse*, *accusation*, and *complot*.
 
-### Adversarial search, including 2024–2026 material
+The searches produced no credible modern allegations of undisclosed crime, fraud, litigation, intelligence work, or corruption by Adrienne. The substantive negative or contested subjects remain:
 
-Dedicated searches combined her full name and common name with terms including controversy, scandal, allegations, lawsuit, fraud, accusations, conspiracy, criticism, and their French equivalents.
+- legal ownership of enslaved people despite abolitionist intentions;
+- the incomplete Cayenne project;
+- her husband’s affairs;
+- Revolutionary accusations directed at the Lafayette household;
+- hagiographic inflation of her near-execution and prison experience;
+- modern commemorative framing that sometimes calls her an “activist” or “champion of human rights,” terms broader and more contemporary than her surviving record supports.
 
-No new lawsuit, financial accusation, criminal allegation, intelligence connection, or documentary scandal concerning Adrienne appeared in reliable material from the most recent two years. Recent critical interest centers on:
-
-- restoring her independent agency rather than treating her only as Lafayette’s wife;
-- reconsidering the Cayenne project from the standpoint of the enslaved people;
-- questioning nineteenth- and twentieth-century hagiography;
-- examining how her devotion and suffering became a public-relations and commemorative image.
+Recent 2025–2026 material concerns Lafayette College’s memorial sculpture and renewed interest in her historical visibility, not newly uncovered misconduct.
 
 ---
 
 ## Myths, Legends, Rumors, Propaganda, and Disputed Narratives
 
-### “The perfect wife”
+### “The saintly wife”
 
-**Story:** Adrienne was an almost superhuman model of obedient, forgiving, Catholic wifehood.
+**Story:** Adrienne was a faultless Catholic wife whose identity consisted entirely of sacrifice for Lafayette.
 
-**Appearance and circulation:** family memoirs, nineteenth-century women’s biography, devotional writing, and André Maurois’s 1960 biography.
+**Appearance and circulation:** Family memoirs, nineteenth-century devotional biographies, Lida Rose McCabe’s *Ardent Adrienne*, and André Maurois’s biography all contributed to this image.
 
-**Evidence:** her prison decision, estate work, letters, and lifelong partnership support extraordinary commitment.
+**Evidence for it:** Her prison decision, religious papers, charitable work, estate management, and loyal correspondence.
 
-**Qualification:** the image suppresses anger, bargaining, financial competence, political agency, and the structural limits placed on aristocratic wives. It also converts Lafayette’s affairs into trials designed to prove her virtue.
+**Evidence against simplification:** She exercised legal and financial agency, argued with officials, supervised property, participated in abolitionist planning, and endured a marriage that included infidelity.
 
-**Reputational effect:** it preserved her memory but subordinated her identity to her husband.
+**Effect:** It preserved her memory while also subordinating her historical agency to her husband’s career.
 
-### The last-minute rescue from the guillotine
+### “She watched her family die”
 
-**Story:** Adrienne had been condemned, awaited execution, and was saved only by Robespierre’s fall or an American diplomat’s personal intervention.
+**Story:** Adrienne saw her mother, sister, and grandmother guillotined.
 
-**Evidence for:** she was held in a prison feeding prisoners toward the Revolutionary Tribunal; three close relatives were executed; she expected death.
+**Evidence:** They were executed while she was imprisoned elsewhere in Paris.
 
-**Evidence against:** no death sentence or completed trial has been established.
+**Finding:** No reliable evidence establishes that she witnessed the execution. Some retellings convert emotional proximity into physical eyewitnessing.
 
-**Effect:** magnified her martyr-survivor status and strengthened the American diplomatic legend surrounding Morris and Monroe.
+### “Elizabeth Monroe personally saved her from the guillotine”
 
-### The emperor’s feet
+**Story:** Elizabeth Monroe visited Adrienne in prison and forced or charmed the Revolutionary government into releasing her.
 
-**Story:** Adrienne threw herself at Francis II’s feet and asked either for Lafayette’s liberty or permission to die beside him.
+**Evidence:** The Monroes intervened; American opinion mattered; Adrienne was released.
 
-**Evidence:** an audience and permission to join Lafayette are well supported.
+**Against the dramatic version:** Release followed Thermidor and a broader diplomatic campaign involving several Americans. The precise decisive act cannot be isolated.
 
-**Unverified elements:** exact posture, dialogue, and theatrical wording.
+**Effect:** The story became part of Franco-American friendship mythology and the public memory of Elizabeth Monroe.
 
-**Effect:** became a central scene of conjugal hagiography.
+### “The dungeon of Olmütz”
 
-### The Olmütz reunion
+**Story:** Adrienne chose to enter a subterranean, sewer-filled dungeon where Lafayette was completely isolated.
 
-**Story:** after total isolation, Lafayette’s cell opened without warning and Adrienne and the daughters suddenly appeared.
+**Evidence:** Olmütz was harsh, unhealthy, guarded, and censorious.
 
-**Evidence:** the family arrived on 15 October 1795 and Lafayette’s isolation had been severe.
+**Qualification:** Lafayette’s quarters were apparently at ground level; he had a servant and nearby fellow prisoners. Some lurid architectural details derive from later biographies.
 
-**Qualification:** later engravings and biographies heighten the surprise and visual drama.
+**Effect:** Nineteenth- and twentieth-century images of the family reunion transformed Olmütz into a scene of conjugal martyrdom.
 
-**Effect:** inspired prints, plays, biographies, and modern sculpture.
+### “The perfectly happy marriage”
 
-### Completed emancipation at Cayenne
+**Story:** The arranged marriage became an uninterrupted love match without serious fracture.
 
-**Story:** the Lafayettes purchased enslaved people and promptly freed them.
+**Evidence for affection:** Extensive correspondence, Adrienne’s actions, and Lafayette’s grief.
 
-**Evidence against:** plantation records and later sale indicate that legal emancipation had not been completed.
+**Contrary evidence:** Long unilateral absences and Lafayette’s affairs.
 
-**Underlying reality:** the project was intended to culminate in freedom and introduced limited reforms.
+**Finding:** Deep attachment and infidelity coexisted.
 
-**Effect:** American commemorative literature often used the simplified version to present the Lafayettes as unambiguously successful abolitionists.
+### The Voltaire greeting
 
-### Lafayette’s daily worship of her memory
+**Story:** In 1778 Voltaire greeted Adrienne as “the wife of the hero of the New World” and hoped to greet Lafayette as “liberator of the Old.”
 
-**Story:** after her death Lafayette prayed daily over a lock of Adrienne’s hair, sealed her rooms, retained a miniature against his heart, and ordered it buried with him.
+**Status:** **Unconfirmed anecdote.** It appears in later retellings; no contemporary source confirming the exact encounter and wording was found.
 
-**Evidence:** variants occur in family and later biographical traditions.
+### “Co-founder of the United States” or “French Founding Mother”
 
-**Assessment:** the persistence of private mourning is credible; exact daily duration, sealed-room details, and burial instructions require corroboration from family papers.
+**Story:** Modern commemorations sometimes place Adrienne among America’s founders.
 
-**Effect:** retrospectively converted a marriage complicated by infidelity into a final story of repentance and exclusive devotion.
+**Evidence:** She sustained Lafayette’s household, corresponded with American leaders, facilitated his work, and developed a personal identification with America.
+
+**Qualification:** She did not travel to America, hold American office, participate in military decisions, or draft foundational American documents.
+
+**Effect:** The label corrects earlier neglect but risks replacing one simplification with another.
+
+### Pornographic and counterrevolutionary propaganda
+
+Revolutionary pornographic pamphlets falsely or speculatively paired Lafayette with Marie Antoinette and portrayed political relations as sexual conspiracy. Cornell’s exhibition reproduces *La Confession de Marie-Antoinette… sur ses amours et ses intrigues avec M. de Lafayette* (1792).
+
+These works are evidence for propaganda and political reputation, not evidence of an affair between Lafayette and the queen. Adrienne appeared indirectly as the displaced or humiliated wife.
 
 ---
 
 ## Works by Marie Adrienne Françoise de Noailles
 
-Adrienne was not a career author. Her recoverable corpus consists principally of family memorial writing, petitions, and correspondence.
+Adrienne was not a professional author. Most texts were private, familial, administrative, or epistolary.
 
-### Authored work
+### *Notice sur la vie de Madame la duchesse d’Ayen*
 
-#### *Notice sur la vie de A. L. H. d’Aguesseau, duchesse d’Ayen*
+- **Original French title:** *Notice sur la vie de A. L. H. d’Aguesseau, duchesse d’Ayen, par Madame de La Fayette, sa fille*.
+- **Composition:** Begun or substantially developed during and after imprisonment, including the Olmütz period.
+- **Subject:** Her mother, Henriette d’Aguesseau, her education, religion, imprisonment, and death.
+- **Publication:** Privately printed in very small numbers around 1800; subsequently incorporated into editions of Virginie de Lasteyrie’s *Vie de Madame de Lafayette* in 1868–1869.
+- **Authorship:** Genuine.
+- **Textual status:** Revised after release; surviving editions form part of a multigenerational family compilation.
 
-- Written by Adrienne about her mother.
-- First bibliographic publication recorded around 1800; later incorporated into editions of Virginie de Lasteyrie’s life of Adrienne.
+### Correspondence with Gilbert du Motier de Lafayette
+
+- Letters from the 1770s through 1807.
+- Topics include marriage, children, American news, household business, imprisonment, health, politics, Cayenne, property, and finances.
+- Survives in autograph form, copies by Virginie, and later printed editions.
+- A 1778 letter survives in the British Prize Papers because the carrying vessel was captured.
+
+### Letter to Benjamin Franklin, 19 August 1779
+
+- Surviving autograph letter in the American Philosophical Society collection.
 - Genuine authorship.
-- Genre: family biography, Catholic memorial, and testimony concerning the Terror.
-- It is not an impartial modern biography; its devotional intention is intrinsic to the work.
 
-### Correspondence and manuscripts
+### Letter to George Washington, 18 June 1784
 
-Known or catalogued items include:
+- Signed from Paris as “noailles De la fayette.”
+- Requested Washington’s help in persuading Lafayette to take her on a future American journey.
+- Genuine autograph letter.
 
-- Letters to her husband Lafayette, 1770s–1800s.
-- Letter to George Washington, 18 June 1784.
-- Letter to George Washington, 15 April 1785.
-- Correspondence with Benjamin Franklin, including an item dated 27 March 1784 in the American Philosophical Society catalogue.
-- Letter to the comtesse de Tessé, 27 November 1789.
-- Letters and petitions concerning Lafayette’s imprisonment.
-- Letter to the Committee of General Security, 17 October 1794.
-- Letter to her children, 17 Brumaire Year III/November 1794.
-- Letters to General Richard Fitzpatrick, 1795–1796, catalogued in British Library Add MS 47583.
-- Letter to Antoine Vaudoyer, 11 December 1801.
-- Letters to Virginie, 1803–1807, preserved as copies in the Lafayette archive.
-- Letter to James Madison, 10 June 1807.
-- Estate, financial, and Cayenne-management correspondence.
+### Letters concerning Lafayette’s imprisonment, 1792–1797
 
-### Posthumous collections and editorial issues
+- Includes the 8 October 1792 appeal to George Washington and letters smuggled toward Olmütz.
+- One famous message was concealed in or written through a copy of Buffon’s *Histoire naturelle*.
+- Genuine correspondence, although translations and later copies vary.
 
-#### *Vie de Madame de Lafayette; précédée d’une Notice sur la vie de sa mère, Madame la duchesse d’Ayen*
+### Prison letters to her children
 
-- Primary biography by her daughter Marie-Antoinette-Virginie de La Fayette, marquise de Lasteyrie.
-- Includes Adrienne’s *Notice* concerning the duchesse d’Ayen.
-- Editions appeared in the nineteenth century, including a second edition in 1869 and an English-language *Life of Madame de Lafayette* in 1872.
-- This is not wholly a work “by Adrienne”: the life of Adrienne is by Virginie, while the preliminary maternal notice is Adrienne’s.
+- Includes a letter conventionally dated 17 Brumaire, Year III, November 1794.
+- Genuine family correspondence preserved in copies and collections.
 
-#### *Mémoires, correspondance et manuscrits du général Lafayette*
+### Legal petitions and protests
 
-- Multi-volume posthumous family-edited collection beginning in the 1830s.
-- Contains letters by or relating to Adrienne.
-- It is not authored as a whole by her and reflects editorial selection by Lafayette’s family.
+- Protests against confiscation at Chavaniac.
+- Petition to remain under parole.
+- Appeals concerning imprisonment, property, and Lafayette’s status.
+- Some survive as copies in government and family archives.
 
-No patents, scientific papers, speeches published as independent pamphlets, novels, artworks securely attributed to her, or commercial publications under a pseudonym were found.
+### Letter to James Madison, 10 June 1807
+
+- Concerns Louisiana property, powers of attorney, possible sales, and correspondence with President Thomas Jefferson and Treasury Secretary Albert Gallatin.
+- Genuine document, preserved by the Historical Society of Pennsylvania and published in Founders Online.
+
+### Last wishes and religious instructions
+
+- The Library of Congress finding aid identifies “Dernières volontés,” religious service papers, and family instructions associated with her death.
+- Genuine archival material, not a separately published book.
+
+### Attributed and posthumous compilations
+
+*Life of Madame de Lafayette* and *Vie de Madame de Lafayette* are sometimes catalogued under Adrienne’s name because they include her memoir of her mother and letters. The biography proper was written by her daughter Virginie, with later editorial contributions by Louis de Lasteyrie and the Oratorian priest Carrichon. Adrienne should not be treated as author of the whole volume.
+
+No novels, scientific papers, patents, plays, paintings, musical compositions, or political manifestos by Adrienne are documented.
 
 ---
 
 ## Books and Major Works About Her
 
-### Principal biographies
+### Primary and near-primary family works
 
-- Marie-Antoinette-Virginie de La Fayette, marquise de Lasteyrie, *Vie de Madame de Lafayette; précédée d’une Notice sur la vie de sa mère, Madame la duchesse d’Ayen*. Family biography; indispensable but filial and devotional.
-- Lida Rose McCabe, *Ardent Adrienne: The Life of Madame de La Fayette* (1930). Sympathetic narrative biography.
-- André Maurois, *Adrienne, ou La vie de Madame de La Fayette* (1960); English translation, *Adrienne: The Life of the Marquise de La Fayette* (1961). Based partly on family papers discovered or opened in the twentieth century; literary, psychologically interpretive, and strongly centered on the marriage.
-- Janine Cantarel, *Gilbert du Motier de La Fayette et Adrienne de Noailles: un couple au destin extraordinaire* (1990). French study of the couple.
-- Brittany I. Fox, “A Happy Marriage of Inconvenience: The Power of Adrienne de La Fayette over Her Destiny in Eighteenth-Century France.” Academic thesis emphasizing agency.
+- Marie-Antoinette-Virginie de La Fayette, marquise de Lasteyrie du Saillant, *Vie de Madame de Lafayette, précédée d’une Notice sur la vie de sa mère, Mme la duchesse d’Ayen: 1737–1807*. Paris: L. Techener, first public editions 1868–1869. Principal filial biography incorporating Adrienne’s own memoir.
+- *Life of Madame de Lafayette*. Paris/London editions, 1872. English translation and family compilation involving Virginie de Lasteyrie, Louis de Lasteyrie, Carrichon, and Adrienne’s writings.
+- Lafayette family memoirs and correspondence, later collected in editions of *Mémoires, correspondance et manuscrits du général Lafayette*. Adrienne’s letters appear within a body edited by descendants.
 
-### Lafayette biographies containing substantial Adrienne material
+### Biographies centered on Adrienne
 
-- Agénor Bardoux, *La Jeunesse de La Fayette, 1717–1792*.
-- Étienne Charavay, *Le Général La Fayette, 1757–1834*.
-- Olivier Bernier, *Lafayette: Hero of Two Worlds* (1983).
-- Harlow Giles Unger, *Lafayette* (2002).
-- Laura Auricchio, *The Marquis: Lafayette Reconsidered* (2014).
-- Mike Duncan, *Hero of Two Worlds: The Marquis de Lafayette in the Age of Revolution* (2021).
-- Tom Chaffin, *Revolutionary Brothers: Thomas Jefferson, the Marquis de Lafayette, and the Friendship That Helped Forge Two Nations* (2019).
-- Lloyd S. Kramer, *Lafayette in Two Worlds: Public Cultures and Personal Identities in an Age of Revolutions* (1996).
-- Louis R. Gottschalk’s multi-volume Lafayette studies, especially volumes treating the American War, French Revolution, and imprisonment.
+- M. MacDermot Crawford, *Madame de Lafayette and Her Family*. 1907.
+- M. MacDermot Crawford, *The Wife of Lafayette*. 1908.
+- Marguerite Guilhou, *Life of Adrienne d’Ayen, Marquise de La Fayette*. 1918.
+- Lida Rose McCabe, *Ardent Adrienne: The Life of Madame de La Fayette*. New York: D. Appleton, 1930. Strongly sympathetic and hagiographic.
+- Constance Wright, *Madame de Lafayette*. New York: Henry Holt, 1959.
+- André Maurois, *Adrienne ou la vie de Madame de La Fayette*. Paris: Hachette, 1961; English translation by Gerard Hopkins, *Adrienne: The Life of the Marquise de La Fayette*. Maurois had privileged access to the family papers at La Grange.
+- Susan Anthony-Tolbert, *Adrienne: Lafayette’s Sweet Fire*. 2020. Popular modern biography emphasizing her agency and the marital relationship.
+- Raoul Arnaud, “A Heroine of Conjugal Piety: Madame de La Fayette,” in *In the Shadows: Three Heroines of the Revolution*. English edition, 1928.
 
-### Specialist subjects
+### Joint biographies and studies
 
-- Studies of Lafayette and slavery, including the Lafayette College “Lafayette and Slavery” project.
-- Studies of Picpus Cemetery and Terror-era commemoration.
-- Medical research comparing Adrienne’s treatment with that of Fanny Burney d’Arblay and analyzing lead-containing medicines.
-- Edited Lafayette correspondence and archival finding aids at the Library of Congress, Cornell, Lafayette College, Yale, Dartmouth, the American Philosophical Society, British Library, and French repositories.
+- Jason Lane, *General and Madame de Lafayette: Partners in Liberty’s Cause in the American and French Revolutions*. 2003.
+- Louis R. Gottschalk, multi-volume studies of Lafayette, including *Lafayette Comes to America*, *Lafayette Joins the American Army*, and *Lafayette Between the American and the French Revolution*. Adrienne appears extensively in the family and political context.
+- Harlow Giles Unger, *Lafayette*. 2002.
+- Lloyd Kramer, *Lafayette in Two Worlds: Public Cultures and Personal Identities in an Age of Revolutions*. 1996.
+- Laura Auricchio, *The Marquis: Lafayette Reconsidered*. 2014.
+- Mike Duncan, *Hero of Two Worlds: The Marquis de Lafayette in the Age of Revolution*. 2021.
+- David A. Clary, *Adopted Son: Washington, Lafayette, and the Friendship That Saved the Revolution*. 2007.
+- Philippe Olivier, *Bibliographie des travaux relatifs à Gilbert du Motier, marquis de Lafayette (1757–1834) et à Adrienne de Noailles, marquise de Lafayette (1759–1807)*. Clermont-Ferrand, 1979.
+- Louis R. Gottschalk, Phyllis S. Pestieau, and Linda J. Pike, *Lafayette: A Guide to the Letters, Documents, and Manuscripts in the United States*. Cornell University Press, 1975.
+- Stuart W. Jackson, *La Fayette: A Bibliography*. New York, 1930.
+
+### Medical and specialist studies
+
+- June K. Burton, “Two ‘Better Halves’ in the Worst of Times: Adrienne Noailles Lafayette (1759–1807) and Fanny Burney d’Arblay (1752–1840) as Medical and Surgical Patients under the First Empire.” Lecture/paper, 2001.
+- Studies and exhibitions on Lafayette and slavery, particularly Lafayette College’s “Lafayette and Slavery” project, provide the most accessible focused treatment of Adrienne’s Cayenne administration.
+- Scholarship on Picpus and the afterlives of the Terror places her burial and memorial work within family cultures of Revolutionary mourning.
+
+### Historical fiction
+
+- Stephanie Dray, *The Women of Chateau Lafayette*. 2021. Adrienne is a principal historical character, but the work is a novel and must not be used as factual evidence without independent confirmation.
 
 ---
 
-## Films, Documentaries, Plays, Art, and Archival Material
+## Films, Documentaries, Podcasts, and Archival Material
 
-### Dramatic film
+### Screen portrayals
 
-- **Jean Dréville, *La Fayette* (1962).** Pascale Audret portrays Adrienne; Michel Le Royer portrays Lafayette. The film centers on Lafayette and the American Revolution and compresses the marriage chronologically.
+- *La Fayette* (released 1961/1962), directed by Jean Dréville. Pascale Audret portrayed Adrienne; Michel Le Royer played Lafayette. It is a dramatized historical epic, not a documentary.
+- Adrienne appears or is referenced in numerous Lafayette and French Revolution documentaries, but no comprehensive documentary devoted exclusively to her was identified in the sources consulted.
 
-### Documentaries
+### Podcast and audio interpretation
 
-- ***Lafayette: The Lost Hero* (2010).** Television documentary about Lafayette; Adrienne appears within the marriage and imprisonment narrative.
-- ***Lafayette: A Hero’s Return* (2025).** Recent Lafayette-centered documentary identified by the Library of Congress guide.
-- ***Picpus: Walled Garden of Memory*.** Documentary/digital-archive project concerning Picpus and its Terror-era graves, relevant to Adrienne’s memorial work.
-
-### Theater and visual culture
-
-- A play titled in translation ***The Prisoners of Olmütz, or Conjugal Devotion*** circulated the prison story as sentimental drama.
-- Eberhard Siegfried Henne produced a widely reproduced engraving of Adrienne and her daughters reuniting with Lafayette at Olmütz.
-- Portraits identified or proposed as Adrienne include works associated with Adélaïde Labille-Guiard and other late-eighteenth-century portraitists; some identifications remain “presumed” rather than certain.
-- Audrey Flack’s posthumously developed sculptural project, **“Adrienne, Marquise de Lafayette: The Final Heroine,”** recast Adrienne as an independent public subject. A bronze maquette was cast in 2025, and exhibition material appeared in 2025–2026.
+- *La Fayette et l’Indépendance américaine: de la Cour de Versailles aux champs de batailles*, produced in connection with Versailles and released in 2026. It uses the spouses’ 1776–1784 correspondence to interpret the American Revolution from Adrienne’s position in France.
 
 ### Major archival collections
 
-- Library of Congress, Marquis de Lafayette Papers.
-- Cornell University, Arthur H. and Mary Marden Dean Lafayette Collection.
-- Lafayette College Special Collections, Marquis de Lafayette collections.
-- Yale University, Stuart W. Jackson Collection.
-- British Library, Add MS 47583, Fitzpatrick correspondence.
-- American Philosophical Society, Lafayette and Franklin correspondence.
-- University of Virginia, 1794 Committee of General Security petition.
-- Historical Society of Pennsylvania and Founders Online, Washington and Madison correspondence.
-- La Grange-Bléneau family archive, portions microfilmed or represented in the Library of Congress collection.
+**Library of Congress, Marquis de Lafayette Papers**
+
+Approximately 25,000 items on 64 microfilm reels, including:
+
+- Adrienne’s prison letters copied by Virginie;
+- original letters;
+- Anastasie’s account of the 1792 arrest;
+- judicial records from Le Puy;
+- the duchesse d’Ayen’s final instructions;
+- Adrienne’s route to Olmütz;
+- Olmütz correspondence;
+- estate, dowry, debt, and confiscation records;
+- materials on her final illness and death;
+- last wishes and religious services.
+
+**Cornell University, Arthur H. and Mary Marden Dean Lafayette Collection**
+
+Contains Lafayette family manuscripts, correspondence, and material relating to exile, imprisonment, La Grange, and the family’s financial reconstruction.
+
+**British National Archives, Prize Papers**
+
+Preserves Adrienne’s intercepted 1778 letter to Lafayette, seized from a captured vessel and retained through prize-court proceedings.
+
+**Founders Online / National Archives**
+
+Publishes correspondence with Washington, Franklin, Madison, and Jefferson, including Adrienne’s own letters and financial documents.
+
+**FranceArchives**
+
+Describes official French records concerning her 1792 arrest, detention, and correspondence between local officers and the Ministry of the Interior.
+
+**La Grange-Bléneau archives**
+
+Long privately controlled. After papers were rediscovered in the twentieth century, André Maurois received privileged access. Parts of the archive were later microfilmed or transferred to institutional collections.
+
+---
+
+## Death, Burial, and Present Status
+
+Adrienne died on 24 December 1807 in Paris after chronic post-imprisonment ill health and an acute paralytic episode. The exact modern diagnosis and causal relation to imprisonment remain unknown.
+
+She was interred at Picpus Cemetery. The choice placed her near the mass graves of her executed relatives. Lafayette joined her there in 1834.
+
+The grave remains a Franco-American commemorative site. An American flag is maintained above Lafayette’s grave, and ceremonies are held around 4 July. The ritual primarily celebrates Lafayette, but Adrienne’s presence links the site equally to the Terror and to the Noailles family’s dead.
 
 ---
 
 ## Posthumous Reputation and Legacy
 
-Adrienne’s early reputation was constructed by her family. Virginie’s biography presented her as a Catholic wife, mother, survivor, and model of fidelity. Nineteenth-century women’s biographies repeated this framework.
+### Nineteenth century
 
-American commemoration generally treated her as:
+Virginie’s biography established Adrienne as a model of Catholic daughterhood, marriage, motherhood, courage, and filial memory. Reviews and biographies described her as a “heroine of conjugal piety.” This reputation helped preserve her papers but placed her in Lafayette’s shadow.
 
-- the faithful wife of the “Hero of Two Worlds”;
-- an honorary participant in the American revolutionary story;
-- the woman who joined Lafayette at Olmütz;
-- a benevolent manager of an anti-slavery experiment;
-- the reason Lafayette could ultimately be buried at Picpus.
+### Twentieth century
 
-French memory placed greater emphasis on the Noailles family executions, Catholic survival, and Picpus.
+Crawford, McCabe, Wright, and Maurois expanded the narrative. Maurois’s privileged access to La Grange materials made his 1961 biography particularly influential. Reviewers noted that his portrait approached hagiography but also revealed Lafayette’s infidelities and the burdens imposed upon Adrienne.
 
-André Maurois’s 1960 biography brought her private correspondence and marriage into wider public view but reinforced an image of saintly endurance. Later scholarship has shifted attention toward:
+### Twenty-first century
 
-- her control of money and estates;
-- independent political negotiation;
-- the material labor of sustaining Lafayette’s career;
-- the incompleteness and contradictions of Cayenne gradualism;
-- her deliberate creation of family memory;
-- the difference between voluntary devotion and the legal/social constraints on an eighteenth-century wife.
+Modern interpretation increasingly presents her as:
 
-Her name remains overshadowed by that of her husband. Recent exhibitions and Audrey Flack’s sculptural work explicitly address that imbalance.
+- an estate and financial administrator;
+- an abolitionist partner, though within the contradictions of slave ownership;
+- a political intermediary;
+- a prison survivor;
+- an author and preserver of women’s family history;
+- an example of women’s often-uncredited labor within revolutionary political networks.
+
+This recovery sometimes uses expansive labels such as “activist,” “human-rights champion,” or “French Founding Mother.” These describe aspects of her legacy but are not contemporary offices or self-designations.
+
+### Audrey Flack memorial
+
+Lafayette College commissioned artist Audrey Flack to create an over-life-size bronze portrait of Adrienne. Flack completed the maquette before her death in 2024; sculptor Brian Booth Craig completed the enlargement and casting under her direction and wishes. The sculpture was scheduled for dedication on 7 March 2026 as part of the college’s bicentennial.
+
+The work deliberately responds to the predominance of monuments to Lafayette by giving Adrienne a separate public image. It is commemorative interpretation, not a neutral reconstruction of her appearance or historical role.
+
+---
+
+## Chronology
+
+- **2 November 1759:** Born at Paris into the Noailles and d’Aguesseau families.
+- **Circa 1771–1774:** Experiences a prolonged religious crisis; marriage negotiations with Lafayette proceed.
+- **11 April 1774:** Marries Gilbert du Motier, marquis de Lafayette, at the Hôtel de Noailles.
+- **15 December 1775:** Daughter Henriette born.
+- **April 1777:** Lafayette secretly sails for America; Adrienne is pregnant.
+- **1 July 1777:** Daughter Anastasie born.
+- **3 October 1777:** Conventional date for Henriette’s death.
+- **1778:** Adrienne’s letter to Lafayette is captured at sea and enters British prize-court records.
+- **February 1779:** Lafayette returns to France.
+- **19 August 1779:** Adrienne writes to Benjamin Franklin.
+- **24 December 1779:** Son Georges-Washington born.
+- **17 September 1782:** Daughter Virginie born.
+- **1783–1784:** Lafayettes establish a more independent Paris household.
+- **18 June 1784:** Adrienne writes to George Washington.
+- **1785–1786:** Cayenne plantation and gradual-emancipation experiment established; Adrienne increasingly assists with administration.
+- **1789:** French Revolution begins; Lafayette commands the Paris National Guard.
+- **1791:** Lafayette’s reputation collapses among radicals after the Champ-de-Mars crisis.
+- **August 1792:** Lafayette crosses the frontier and is captured; French authorities move against his family.
+- **10 September 1792:** Adrienne and Anastasie arrested at Chavaniac and taken to Le Puy.
+- **Late September 1792:** Returned to Chavaniac under supervision.
+- **12 November 1793:** Adrienne arrested again and imprisoned at Brioude.
+- **May 1794:** Transferred to Paris detention.
+- **22 July 1794:** Her grandmother, mother, and sister Louise are guillotined.
+- **27 July 1794:** Fall of Robespierre reduces the immediate danger but does not free Adrienne at once.
+- **January 1795:** Released after Thermidor and American diplomatic intervention.
+- **April–September 1795:** Arranges Georges-Washington’s journey to the United States.
+- **September 1795:** Travels with Anastasie and Virginie toward Vienna and Olmütz.
+- **15 October 1795:** Arrives at Olmütz.
+- **24 October 1795:** Fully reunited with Lafayette in prison.
+- **1795–1797:** Lives as a voluntary prisoner; suffers serious illness and writes about her mother.
+- **19 September 1797:** Lafayette family released.
+- **1797–1799:** Lives in exile, including Wittmoldt in Holstein and the Netherlands.
+- **9 May 1798:** Anastasie marries Juste-Charles-César de La Tour-Maubourg.
+- **1799:** Family begins returning to France; Lafayette returns after 18 Brumaire.
+- **1800 onward:** Establishes family household at La Grange-Bléneau.
+- **Circa 1800:** Adrienne’s memoir of her mother privately printed in a very small edition.
+- **1802:** Participates in the Picpus cemetery and memorial enterprise.
+- **1803:** United States grants Lafayette Louisiana land; it becomes important to family finances.
+- **20 April 1803:** Virginie marries Louis de Lasteyrie du Saillant.
+- **10 June 1807:** Adrienne writes James Madison about Louisiana property.
+- **Autumn–December 1807:** Health deteriorates; transferred from the country to Paris for treatment.
+- **24 December 1807, 11:45 p.m.:** Dies at 24 rue d’Anjou, Paris.
+- **25 December 1807:** Death formally registered.
+- **Late December 1807:** Buried at Picpus.
+- **1868–1869:** Virginie’s *Vie de Madame de Lafayette*, incorporating Adrienne’s memoir, published.
+- **1961:** André Maurois publishes the most influential twentieth-century biography; Pascale Audret portrays Adrienne in *La Fayette*.
+- **2024:** Audrey Flack dies after completing the model for a monumental portrait of Adrienne.
+- **7 March 2026:** Lafayette College schedules the dedication of Flack’s completed bronze sculpture.
 
 ---
 
 ## Atlas Connections
 
-Only connections supported by the consulted sources are included. Shared nationality, period, or location alone is excluded.
+Only connections supported by the consulted sources are included. Mere contemporaneity, residence in the same country, or connection through Lafayette alone has been excluded.
 
-### Marie-Joseph Paul Yves Roch Gilbert du Motier — Marquis de Lafayette
+### Marie-Joseph Paul Yves Roch Gilbert du Motier
 
-**Label: documented fact.**
+**Evidentiary label: documented fact.**
 
-Husband from 11 April 1774 until Adrienne’s death in 1807; father of her four children; partner in the Cayenne project; central recipient and subject of her correspondence; fellow prisoner at Olmütz from October 1795 to September 1797. Their principal shared locations included Paris, Chavaniac, Olmütz, Holstein, and La Grange-Bléneau.
+Adrienne married Gilbert du Motier, marquis de Lafayette, in Paris on 11 April 1774. They had four children. She managed their household and estates, corresponded with his political network, participated in the Cayenne project, defended his property after his 1792 capture, and voluntarily joined him at Olmütz from October 1795 to September 1797. Their marriage lasted until her death in 1807. It was emotionally close but included long separations and affairs by Lafayette.
 
 ### George Washington
 
-**Label: documented fact.**
+**Evidentiary label: documented fact.**
 
-Direct correspondent and symbolic godfather/patron within the Lafayette family. Adrienne wrote to Washington on 18 June 1784 and 15 April 1785. The Lafayettes named their son Georges-Washington. During Adrienne’s journey to Olmütz, the son was sent to the United States and eventually received into Washington’s household. No personal meeting between Adrienne and Washington is documented.
+Adrienne corresponded directly with Washington. Her letter of 18 June 1784 asked him to persuade Lafayette to take her on a future American trip; Washington replied on 25 November. Her son Georges-Washington was named for him and was sent to the United States in 1795, later entering Washington’s protection. Adrienne never met Washington in person, so their connection was epistolary and familial rather than face-to-face.
 
 ### Benjamin Franklin
 
-**Label: documented fact.**
+**Evidentiary label: documented fact.**
 
-Member of the Lafayette American network in France. Archival catalogues record correspondence involving Adrienne, including a letter dated 27 March 1784. The sources consulted do not establish the frequency of their in-person meetings.
-
-### Thomas Jefferson
-
-**Label: reported fact.**
-
-Jefferson moved within the Lafayette–Noailles–Tessé circle while minister in France and visited Madame de Tessé’s Chaville household. Lafayette’s correspondence and the family’s reform networks repeatedly involved him. A direct, substantial Adrienne–Jefferson correspondence was not established here, so the connection should be described as a shared documented social and political network rather than a proven intimate friendship.
+Adrienne corresponded with Franklin during Lafayette’s American service. An autograph letter dated 19 August 1779 survives in the American Philosophical Society collection. Franklin was part of the American diplomatic network through which she followed and assisted Lafayette’s American activities.
 
 ### Louis XVI
 
-**Label: documented contextual relationship.**
+**Evidentiary label: documented institutional and political connection.**
 
-Adrienne belonged to a court family serving Louis XVI, and her marriage connected two noble houses in royal military service. Lafayette became an acquaintance, sometime defender, and later political adversary of the king. No evidence was found of a sustained personal correspondence between Adrienne and Louis XVI.
+Adrienne belonged to a court-connected Noailles household and had access to the royal environment. Her husband served the monarchy before becoming commander of the National Guard and advocate of constitutional monarchy. Louis XVI’s government opposed Lafayette’s unauthorized first departure for America but later supported French intervention. No evidence located establishes an especially close personal friendship between Adrienne and the king.
 
 ### Napoleon Bonaparte
 
-**Label: documented indirect political relationship.**
+**Evidentiary label: documented political connection.**
 
-Napoleon’s victory and the Treaty of Campo Formio produced Lafayette’s release from Austrian custody in 1797. After 1799, the Lafayettes’ return and residence in France depended on Napoleon’s government tolerating Lafayette while restricting his political prominence. Correspondence in the Lafayette archive includes an 1802 letter to Napoleon in which Adrienne’s financial and family world formed part of the context. No personal meeting between Adrienne and Napoleon was established.
+Bonaparte and General Clarke pressed Austria for the release of the Olmütz prisoners during the Campo Formio negotiations in 1797. After 1799 Adrienne and Lafayette returned to France under the Consulate, while Lafayette refused sustained political support for Bonaparte’s authoritarian regime. Adrienne benefited from Bonaparte’s diplomacy but did not become his political adherent.
 
-### Empress Joséphine
+### Thomas Jefferson
 
-**Label: unresolved/indirect.**
+**Evidentiary label: documented correspondence and financial network.**
 
-Joséphine belonged to the governing social world through which the Lafayettes pursued toleration and property questions under the Consulate and Empire. The materials consulted did not establish a specific meeting or correspondence with Adrienne; no Atlas connection is therefore claimed beyond this notice of insufficient evidence.
+Adrienne’s 10 June 1807 letter to James Madison referred to letters to the president—Jefferson—and requested advice concerning Lafayette’s Louisiana land. Lafayette family financial memoranda were also transmitted through Jefferson’s circle. The sources consulted establish correspondence and shared financial-political business, but not a securely documented personal meeting between Adrienne and Jefferson.
 
 ### Alexander Hamilton
 
-**Label: no supported direct connection found.**
+**Evidentiary label: no direct connection established.**
 
-Hamilton was Lafayette’s Continental Army associate, but no meeting, correspondence, or independent relationship with Adrienne was found. Association through her husband alone is insufficient for inclusion as a substantive connection.
+Hamilton and Lafayette were close associates during the American Revolution, but no source consulted documents a meeting, correspondence, or independent relationship between Hamilton and Adrienne. Connection through her husband alone is insufficient for inclusion as a personal link.
 
-### Alexander Baring, John Maynard Keynes, and other financial figures on the roster
+### Empress Joséphine
 
-**Label: no connection found.**
+**Evidentiary label: no direct connection established.**
 
-Although Adrienne managed transatlantic property and Louisiana-land questions, the sources consulted did not connect her directly with these roster members.
+Although Adrienne lived in France under the Consulate and Empire, the consulted sources did not document a meeting, correspondence, patronage relationship, or intervention involving Joséphine.
 
-### Atlas finding
+### Louis XIV
 
-Beyond her husband, Washington, Franklin, Jefferson’s shared salon network, Louis XVI’s court, and Napoleon’s indirect role in the family’s release and return, no other roster connection was established with sufficient evidence. The scarcity of direct links reflects both the domestic and epistolary character of Adrienne’s activity and the archival tendency to catalogue her communications under her husband’s name.
+**Evidentiary label: documented dynastic association, not personal contact or descent.**
 
----
+Adrienne’s paternal great-grandmother Françoise-Charlotte-Amable d’Aubigné was a niece and beneficiary of Madame de Maintenon, Louis XIV’s secret second wife. Adrienne was connected to property and family prestige flowing from Maintenon but was born forty-four years after Louis XIV’s death and was not his descendant.
 
-## Compact Chronology
+### Remaining atlas roster
 
-| Date | Event |
-|---|---|
-| 2 Nov. 1759 | Born at Paris into the Noailles family. |
-| 1759–1773 | Raised principally in the Hôtel de Noailles under her mother’s Catholic and domestic instruction. |
-| 1773 | Marriage negotiations with Gilbert du Motier de La Fayette formalized. |
-| 11 Apr. 1774 | Marries Lafayette in the chapel of the Hôtel de Noailles. |
-| 1776 | Daughter Henriette born. |
-| 1777 | Lafayette secretly departs for America; daughter Anastasie born. |
-| 1778 | Henriette dies; Adrienne writes from Bordeaux while following American news. |
-| Feb. 1779 | Lafayette returns temporarily to France. |
-| 1779 | Son Georges-Washington born. |
-| 1780–1781 | Lafayette returns to America; Adrienne maintains the French household and correspondence. |
-| 1782 | Daughter Marie-Antoinette-Virginie born. |
-| 1784 | Corresponds directly with George Washington; Lafayette revisits America. |
-| 1785–1786 | Cayenne plantation property and approximately seventy enslaved people acquired for a gradual-emancipation experiment. |
-| 1786–1789 | Adrienne increasingly supervises Cayenne correspondence and management. |
-| 1789 | French Revolution begins; Lafayette commands the Paris National Guard. |
-| 1791–1792 | Family position deteriorates as Lafayette opposes radicalization. |
-| 10 Sept. 1792 | Adrienne arrested at Chavaniac after Lafayette’s flight. |
-| Oct. 1792 | Permitted to return to Chavaniac as prisoner on parole. |
-| 12 Nov. 1793, approximately | Arrested again and imprisoned at Brioude. |
-| June 1794 | Transferred to La Force prison in Paris; later held at the Plessis. |
-| 22 July 1794 | Her grandmother, mother, and elder sister are guillotined. |
-| 17 Oct. 1794 | Petitions the Committee of General Security for justice, release, or deportation. |
-| 22 Jan. 1795, approximately | Released after Thermidor and diplomatic/political pressure. |
-| 1795 | Sends Georges-Washington toward safety in the United States. |
-| Sept.–Oct. 1795 | Travels with Anastasie and Virginie through northern Europe to Vienna. |
-| 15 Oct. 1795 | Joins Lafayette in Olmütz prison. |
-| 1795–1797 | Shares confinement; develops serious recurrent illness and edema. |
-| 19 Sept. 1797 | Family leaves Olmütz under Austrian escort. |
-| Oct. 1797 | Reaches Hamburg/American protection. |
-| 1797–1799 | Lives in exile at Lehmkuhlen/Holstein; Anastasie marries La Tour-Maubourg. |
-| Nov. 1799 | Lafayette re-enters France after the coup of 18 Brumaire. |
-| 1799–1807 | Re-establishes family life and finances at La Grange-Bléneau. |
-| c. 1802 | Works with Pauline de Montagu and other families to acquire and organize the Picpus site. |
-| 1802 | Fanny Burney d’Arblay records Adrienne’s chronic painful ankle and restricted mobility. |
-| 1803 | Virginie marries Louis de Lasteyrie; Adrienne continues estate and family administration. |
-| 10 June 1807 | Writes James Madison concerning Louisiana land, powers of attorney, and possible sales. |
-| 21 Dec. 1807 | Family account records her praying and singing the Canticle of Tobias. |
-| 24 Dec. 1807 | Dies at 11:45 p.m. at 24 rue d’Anjou, Paris. |
-| 25 Dec. 1807 | Death officially registered. |
-| Late Dec. 1807 | Buried at Picpus Cemetery. |
-| 1834 | Lafayette buried beside her. |
-| 1869–1872 | Major French and English editions of Virginie’s family biography published. |
-| 1960–1961 | André Maurois publishes *Adrienne*, renewing international interest. |
-| 1962 | Pascale Audret portrays her in Jean Dréville’s *La Fayette*. |
-| 2025–2026 | Audrey Flack’s “Final Heroine” sculpture and exhibition renew attention to Adrienne as an independent historical subject. |
+No other rostered person was found to have a documented direct meeting, correspondence, collaboration, rivalry, family relationship, institutional tie, or expressly acknowledged influence on Adrienne. In particular, relationships belonging exclusively to Lafayette have not been transferred to her by inference.
 
 ---
 
 ## Sources
 
-https://archives-manuscripts.dartmouth.edu/agents/people/8325
-
 https://guides.loc.gov/women-in-the-french-revolution/adrienne-marquise-de-lafayette
 
 https://findingaids.loc.gov/repositories/19/resources/2219
 
-https://academicmuseum.lafayette.edu/special/marquis/MarquisFindAids/mssletters.htm
+https://tile.loc.gov/storage-services/service/mss/eadxmlmss/eadpdfmss/1997/ms997004.pdf
 
-https://www.gutenberg.org/files/8376/8376-h/8376-h.htm
+https://www.loc.gov/loc/lcib/9613/micro.html
 
-https://searcharchives.bl.uk/catalog/040-002103915
+https://www.loc.gov/loc/lcib/9517/lafayette.html
 
-https://as.amphilsoc.org/agents/people/1569
+https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.LAFAYETTEBONAVENTURE
 
-https://rotunda.upress.virginia.edu/founders/default.xqy?keys=FOEA-print-02-01-02-1767
+https://archives.library.cornell.edu/repositories/2/resources/1462
 
 https://rmc.library.cornell.edu/lafayette/exhibition/french/women/index.html
 
-https://ead-pdfs.library.yale.edu/12330.pdf
+https://francearchives.gouv.fr/fr/facomponent/4727d11731b471bf8688f7013374b5293aedab13
 
-https://tile.loc.gov/storage-services/service/mss/eadxmlmss/eadpdfmss/1997/ms997004.pdf
+https://www.nationalarchives.gov.uk/explore-the-collection/stories/adrienne-de-lafayettes-letter-to-marquis-de-lafayette/
 
-https://openlibrary.org/books/OL13527106M/Adrienne
+https://founders.archives.gov/documents/Washington/04-01-02-0320
+
+https://founders.archives.gov/documents/Washington/04-02-02-0125
+
+https://founders.archives.gov/documents/Washington/05-11-02-0109
+
+https://founders.archives.gov/documents/Franklin/01-30-02-0186
+
+https://founders.archives.gov/documents/Franklin/01-35-02-0283
+
+https://founders.archives.gov/documents/Madison/99-01-02-1768
+
+https://founders.archives.gov/documents/Jefferson/03-02-02-0006-0002
+
+https://founders.archives.gov/documents/Washington/06-02-02-0213
+
+https://sites.lafayette.edu/slavery/the-cayenne-experiments/
+
+https://csac.history.wisc.edu/2021/01/28/lafayettes-emancipation-proposal/
+
+https://news.lafayette.edu/2002/11/13/skillman-librarys-lafayette-and-slavery-exhibit-posted-online/
+
+https://www.thelafayettetrail.org/abolitionism/
+
+https://archives.seine-et-marne.fr/sites/archives.seine-et-marne.fr/files/media/downloads/f_lancr_dossierlafayette.pdf
+
+https://catalog.mountvernon.org/digital/api/collection/p16829coll4/id/3495/download
+
+https://www.gutenberg.org/files/7449/7449-h/7449-h.htm
+
+https://onlinebooks.library.upenn.edu/webbin/who/Lafayette%2C%20Marie%20Adrienne%20de%20Noailles%2C%20marquise%20de%2C%201759-1807
+
+https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=ha100375568
+
+https://catalogue.bnf.fr/ark%3A/12148/cb307135644
 
 https://www.hachettebnf.fr/livre/vie-de-madame-de-lafayette-2e-ed-ed1869-9782012776401/
 
 https://www.hachettebnf.fr/livre/vie-de-madame-de-lafayette-et-de-sa-mere-la-duchesse-dayen-9782329628493/
 
-https://magazine.lafayette.edu/the-french-marchioness/
+https://fr.wikisource.org/wiki/La_Jeunesse_de_La_Fayette/01
 
-https://snaccooperative.org/vocab_administrator/resources/7920486
-
-https://www.gutenberg.org/files/55234/55234-h/55234-h.htm
-
-https://archives.library.cornell.edu/repositories/2/resources/1462
-
-https://sites.lafayette.edu/slavery/the-cayenne-experiments/
-
-https://founders.archives.gov/documents/Jefferson/01-41-02-0239
-
-https://founders.archives.gov/documents/Jefferson/03-02-02-0006-0002
-
-https://csac.history.wisc.edu/2021/01/28/lafayettes-emancipation-proposal/
-
-https://dpul.princeton.edu/lafayette-at-princeton/feature/letters
-
-https://www.nationalarchives.gov.uk/explore-the-collection/stories/adrienne-de-lafayettes-letter-to-marquis-de-lafayette/
-
-https://www.18thcenturypride.com/the-life-and-loves-of-lafayette/
-
-https://digitalcommons.salve.edu/pell_theses/116/
-
-https://clemem-test.ulib.csuohio.edu/lafayette/engelking.shtml
+https://fr.wikisource.org/wiki/Mme_de_Lafayette_%28Lavergne%29
 
 https://fr.wikisource.org/wiki/Le_ch%C3%A2teau_de_Chavaniac-Lafayette
 
-https://founders.archives.gov/documents/Adams/04-09-02-0171
+https://fr.wikisource.org/wiki/La_Fayette_aux_champs
 
-https://catalog.mountvernon.org/digital/api/collection/p16829coll4/id/3495/download
+https://biblisem.net/etudes/lenohero.htm
 
-https://www.worldhistory.org/article/2781/the-prisoner-of-olmutz/
+https://magazine.lafayette.edu/the-french-marchioness/
 
-https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=ha100375568
+https://news.lafayette.edu/2025/09/03/adrienne-lafayette-joins-campus-as-part-of-colleges-bicentennial/
 
-https://founders.archives.gov/documents/Washington/04-01-02-0320
-
-https://bbf.enssib.fr/consulter/bbf-1980-07-0376-036
-
-https://findingaids.loc.gov/agents/people/62027
-
-https://catalogue.bnf.fr/rechercher.do?index=AUT3&numNotice=12164997
-
-https://tile.loc.gov/storage-services/service/mss/mgw/mgw2/011/011.pdf
-
-https://www.paris.fr/pages/picpus-le-cimetiere-tres-prive-des-nobles-guillotines-7825
-
-https://founders.archives.gov/documents/Madison/99-01-02-1768
-
-https://dioceseparis.fr/le-discret-cimetiere-de-picpus.html
-
-https://parcoursrevolution.paris.fr/en/points-of-interest/79-picpus-a-commemorative-site-of-the-terror
-
-https://www.neh.gov/humanities/2010/marchapril/curio/remains-the-day
-
-https://www.senat.fr/pair-de-france/noailles_jean_louis_paul_francoispf0017.html
-
-https://us.macmillan.com/books/9781250113740/revolutionarybrothers/
-
-https://catalogue.bnf.fr/ark%3A/12148/cb307135644
-
-https://www.mediterranee-antique.fr/Auteurs/Fichiers/ABC/Charavay/Lafayette/Lafayette_101.htm
-
-https://api.drum.lib.umd.edu/server/api/core/bitstreams/eff8d8e8-9087-4494-9e62-2059077aa3d2/content
-
-https://www.gutenberg.org/files/50232/old/50232-h/50232-h.htm
-
-https://www.imdb.com/title/tt0055070/
-
-https://www.imdb.com/title/tt1473385/
+https://news.lafayette.edu/2026/03/04/bringing-adrienne-to-life-audrey-flacks-last-work/
 
 https://galleries.lafayette.edu/wp-content/uploads/sites/99/2026/02/AudreyFlack_exhibitionguide_website.pdf
+
+https://podcasts.apple.com/fr/podcast/la-fayette-et-lind%C3%A9pendance-am%C3%A9ricaine-de-la-cour/id1544230947?i=1000774191387
+
+https://www.tvguide.com/movies/lafayette/cast/2030105458/
+
+https://pop.culture.gouv.fr/notice/memoire/AP45F002071
+
+https://allthingsliberty.com/2017/08/lafayette-american-experience/
+
+https://journals.sagepub.com/doi/10.1177/0265691404044143
+
+https://time.com/archive/6810145/books-an-18th-century-marriage/
