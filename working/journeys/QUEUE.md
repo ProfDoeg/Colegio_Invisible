@@ -89,7 +89,6 @@ The last two. With these the constellation stands at 333: 153 traveling,
 
 
 | 0 | **Rudolf Ritsema** | Dutch scholar who took over as director of the Eranos Foundation at Ascona after olga_fröbe_kapteyn just queued, co-creator of the Eranos I Ching translation; the same Ascona circle that carries jung and wolfgang_pauli already researched |
-| 1 | **Ludwig Derleth** | German Catholic mystic poet of the Stefan George circle (George-Kreis), author of grandiose apocalyptic 'Proklamationen,' tied to the Eranos circle; joins the esoteric-eccentric wing (gurdjieff, rene_guenon already done/queued) and the Fröbe-Kapteyn/Eliade cluster just queued |
 
 ## Author additions (2026-08-09)
 
