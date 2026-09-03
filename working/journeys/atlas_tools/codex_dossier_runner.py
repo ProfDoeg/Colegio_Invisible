@@ -41,15 +41,43 @@ def log(msg):
     print(line, flush=True)
     open(f'{LAB}/batch.log', 'a').write(line + '\n')
 
-def display_name(slug):
+def catalog_row(slug):
     for r in csv.DictReader(open(f'{REPO}/catalog_subjects.csv')):
         if r['slug'] == slug:
-            return r['traveler'].split('(')[0].split(',')[0].strip()
+            return r
     return None
 
-def build_prompt(name):
+def display_name(slug):
+    r = catalog_row(slug)
+    return r['traveler'].split('(')[0].split(',')[0].strip() if r else None
+
+def subject_hint(row):
+    """2026-09-03: bare names like "Arthur Ben" got REFUSED by Codex as
+    unidentifiable, even though every one of them already has a full,
+    built journey in the atlas (a real, specific person, not an ambiguous
+    search) -- the worklist prompt just never told Codex that. This atlas
+    already has a dossier gap for EVERY subject, built or not, per Anthony;
+    a bare name with no disambiguation is the actual bug. Feed the existing
+    journey's own title/years/traveler string back in as a hint whenever
+    one exists, so Codex knows exactly who it is confirming, not guessing."""
+    if not row or row.get('status') != 'built':
+        return ''
+    bits = []
+    if row.get('traveler'):
+        bits.append(f"Full name/description on file: {row['traveler']}")
+    if row.get('years'):
+        bits.append(f"Life dates on file: {row['years']}")
+    if row.get('title'):
+        bits.append(f"This atlas already has a journey for them titled: \"{row['title']}\"")
+    if not bits:
+        return ''
+    return ('\n\nIDENTIFICATION HINT (this atlas already has this exact person '
+            'documented -- use this to confirm identity, not as a source of '
+            'facts to merely restate): ' + '. '.join(bits) + '.')
+
+def build_prompt(name, hint=''):
     tpl = open(f'{REPO}/dossiers/PROMPT_TEMPLATE.md').read().split('---', 1)[1].strip()
-    tpl = tpl.replace('[NAME]', name).replace('[name]', name)
+    tpl = tpl.replace('[NAME]', name).replace('[name]', name) + hint
     add = open(f'{REPO}/dossiers/ATLAS_CONNECTIONS_ADDENDUM.md').read().split('---', 1)[1].strip()
     deliver = (f'\n\nUse web search extensively for sources. Run a DEDICATED adversarial pass: '
                f'search explicitly for "{name}" combined with controversy, scandal, allegations, '
@@ -170,12 +198,13 @@ def next_slug():
     return None
 
 def run_one(slug):
-    name = display_name(slug)
+    row = catalog_row(slug)
+    name = row['traveler'].split('(')[0].split(',')[0].strip() if row else None
     if not name:
         log(f'{slug}: NOT IN CATALOG, marking skipped')
         open(f'{OUT}/{slug}.dossier.md', 'w').write('# skipped: not in catalog\n')
         return True
-    prompt = build_prompt(name)
+    prompt = build_prompt(name, subject_hint(row))
     logfile = f'{LAB}/run_{slug}.log'
     log(f'{slug}: run ({name})')
     try:
