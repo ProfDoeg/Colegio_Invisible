@@ -22,3 +22,4 @@
 - [ ] flavius_josephus -- stop "Rome, where the record stops": "What there is instead is the corpus, copied for a thousand years by Christian monks on account of one disputed paragraph, and by nobody else at all."
 - [ ] thomas_aquinas -- stop "Cologne, ordained priest": "So the sacrament that produces the Corpus Christi office, the treatise on the Eucharist, and a lifetime of daily Mass is the least documented act in his life."
 - [ ] tertullian -- stop "Carthage, the prose runs out": "After the letter to Scapula nothing else in the corpus can be securely dated."
+- [ ] joscha_bach -- stop "Osnabrück, the only book": "For a man whose subject is how a system holds itself together across time, the corpus is unusually loose."
