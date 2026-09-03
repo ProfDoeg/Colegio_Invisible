@@ -92,7 +92,16 @@ def checks(doc):
     return problems
 
 def quota_wall(text):
-    return re.search(r'rate.limit|usage limit (reached|exceeded)|too many requests|error 429',
+    # "Selected model is at capacity" (2026-09-02 incident): this pattern was
+    # NOT caught here, so quota_wall() returned false, extract() then matched
+    # the echoed prompt's own "# {name}: Research Dossier" title text (the
+    # delivery instructions quote it verbatim) rather than real model output,
+    # and 388 garbage "dossiers" (prompt + roster + this error, nothing else)
+    # got written to out/ and logged DONE before anyone caught it. Any of
+    # these phrases must trigger the same sleep-and-retry path as a quota
+    # wall, never fall through to extract().
+    return re.search(r'rate.limit|usage limit (reached|exceeded)|too many requests|error 429'
+                     r'|at capacity|try a different model|internal server error|error 5\d\d',
                      text[-2000:], re.I)
 
 def refresh_repo():
@@ -129,6 +138,19 @@ def auto_stage(slug, name, doc):
 def next_slug():
     if not os.path.exists(WORKLIST):
         return None
+    # 2026-09-03 incident: STAGE_REPO (this dedup source) only used to refresh
+    # opportunistically inside auto_stage(), i.e. only on the runner's OWN
+    # successful completions. Dossiers staged by the orchestrator directly
+    # into the shared repo (a separate checkout, pushed straight to origin)
+    # went unseen here until the runner happened to land one of its own -
+    # which could be many hours later. Result: "Abu Karib As'ad" got
+    # re-researched from scratch 13 hours apart, twice, because the first
+    # good copy was staged externally and this clone never learned about it.
+    # Pull fresh on every call - cheap when there is nothing new, and it is
+    # the only thing standing between "already have it" and redoing the work.
+    if os.path.isdir(STAGE_REPO):
+        subprocess.run(['git', 'pull', '--ff-only', '-q'], cwd=STAGE_REPO,
+                       capture_output=True)
     for line in open(WORKLIST):
         slug = line.strip()
         if not slug or slug.startswith('#'):
