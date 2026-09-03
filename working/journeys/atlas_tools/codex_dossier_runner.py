@@ -100,8 +100,13 @@ def quota_wall(text):
     # got written to out/ and logged DONE before anyone caught it. Any of
     # these phrases must trigger the same sleep-and-retry path as a quota
     # wall, never fall through to extract().
+    # 2026-09-03: "ERROR: Reconnecting... N/5" then "ERROR: unexpected status
+    # 404 Not Found ... codex/responses" is the same class of transient
+    # backend trouble as a quota wall and deserves the same backoff sleep,
+    # not an immediate retry.
     return re.search(r'rate.limit|usage limit (reached|exceeded)|too many requests|error 429'
-                     r'|at capacity|try a different model|internal server error|error 5\d\d',
+                     r'|at capacity|try a different model|internal server error|error 5\d\d'
+                     r'|reconnecting\.\.\.|unexpected status \d+',
                      text[-2000:], re.I)
 
 def refresh_repo():
@@ -190,6 +195,19 @@ def run_one(slug):
     doc = extract(text, name)
     if not doc:
         log(f'{slug}: no dossier in output, tail: ' + text[-160:].replace('\n', ' '))
+        return False
+    # 2026-09-03 incident #2: a run of network failures ("ERROR: Reconnecting...
+    # N/5" then "ERROR: unexpected status 404 Not Found ... codex/responses")
+    # produced 113 more garbage stubs the same way as the 2026-09-02 capacity
+    # incident - a NEW error string quota_wall() didn't have, so extract()
+    # again matched the echoed prompt instead of real output. Rather than
+    # keep enumerating every possible CLI error phrase (whack-a-mole),
+    # reject on principle: a real dossier never contains a literal CLI
+    # "ERROR: " line. Catches this class of failure regardless of the exact
+    # wording of whatever error OpenAI's side produces next.
+    if re.search(r'\nERROR: ', doc):
+        log(f'{slug}: extracted doc contains an ERROR: line, discarding, tail: '
+            + text[-160:].replace('\n', ' '))
         return False
     probs = checks(doc)
     if probs:
