@@ -9,19 +9,30 @@ run mechanical checks, save to ~/codex_lab/out/<slug>.dossier.md, append a
 status line to ~/codex_lab/batch.log. Repeat until the worklist is done,
 then sleep and re-check hourly (new subjects appear as the queue breathes).
 
+2026-09-04: runs WORKERS threads concurrently (default 5, override with the
+WORKERS env var). All shared-state mutations - claiming the next slug,
+pulling/committing/pushing STAGE_REPO, the periodic repo refresh, the
+failures counter - go through one global lock, LOCK. The slow part (the
+actual `codex exec` web-research call, several minutes) runs OUTSIDE the
+lock, which is where the concurrency actually helps; everything touching
+shared git state or shared in-memory counters is serialized so N workers
+can never race each other onto the same subject or corrupt STAGE_REPO's
+working tree with concurrent git operations.
+
 Deliberate properties:
   - The sandbox on this box cannot write files (bwrap userns restriction),
     so dossiers are delivered as the model's printed final message.
   - Real quota walls (matched only in the log TAIL: the echoed prompt
-    contains the word "quotations") trigger exponential backoff.
-  - Every N completions the runner pulls the repo and regenerates the
-    addendum so the roster stays current.
+    contains the word "quotations") trigger exponential backoff, tracked
+    per-worker so one worker backing off does not stall the others.
+  - Every N completions (shared across all workers) the runner pulls the
+    repo and regenerates the addendum so the roster stays current.
   - Kill and restart at will: done work is skipped by file existence.
 
 Run under tmux:  tmux -L codexbatch new-session -d -s runner \\
     "python3 ~/codex_lab/codex_dossier_runner.py >> ~/codex_lab/runner.log 2>&1"
 """
-import csv, os, re, subprocess, time
+import csv, os, re, subprocess, threading, time
 
 HOME = os.path.expanduser('~')
 REPO = f'{HOME}/taller/Colegio_Invisible/working/journeys'
@@ -34,10 +45,17 @@ STAGE_REPO = f'{LAB}/repo'  # the runner's own clone; staging is deterministic
                             # land_subject.py precedent)
 REFRESH_EVERY = 15          # completions between repo pull + addendum regen
 QUOTA_SLEEPS = [900, 1800, 3600, 7200]   # backoff ladder on real quota walls
+WORKERS = int(os.environ.get('WORKERS', '5'))
 TRAILER = 'Co-Authored-By: El Gólem <golem@localhost>'
 
-def log(msg):
-    line = time.strftime('%m-%d %H:%M:%S ') + msg
+LOCK = threading.Lock()          # guards next_slug(), STAGE_REPO git ops,
+                                  # refresh_repo(), the failures dict
+IN_PROGRESS = set()              # slugs currently claimed by a worker
+STATE = {'done_since_refresh': 0, 'failures': {}}
+
+def log(msg, worker=None):
+    tag = f'[w{worker}] ' if worker is not None else ''
+    line = time.strftime('%m-%d %H:%M:%S ') + tag + msg
     print(line, flush=True)
     open(f'{LAB}/batch.log', 'a').write(line + '\n')
 
@@ -46,10 +64,6 @@ def catalog_row(slug):
         if r['slug'] == slug:
             return r
     return None
-
-def display_name(slug):
-    r = catalog_row(slug)
-    return r['traveler'].split('(')[0].split(',')[0].strip() if r else None
 
 def subject_hint(row):
     """2026-09-03: bare names like "Arthur Ben" got REFUSED by Codex as
@@ -137,7 +151,8 @@ def quota_wall(text):
                      r'|reconnecting\.\.\.|unexpected status \d+',
                      text[-2000:], re.I)
 
-def refresh_repo():
+def refresh_repo_locked():
+    """Caller must hold LOCK."""
     subprocess.run(['git', 'pull', '--ff-only', '-q'],
                    cwd=f'{HOME}/taller/Colegio_Invisible', capture_output=True)
     subprocess.run(['python3', 'atlas_tools/make_addendum.py'],
@@ -146,8 +161,10 @@ def refresh_repo():
 def git_stage(cmd):
     return subprocess.run(['git'] + cmd, cwd=STAGE_REPO, capture_output=True, text=True)
 
-def auto_stage(slug, name, doc):
+def auto_stage_locked(slug, name, doc):
     """Deterministic staging of a clean dossier into the runner's own clone.
+    Caller must hold LOCK - this touches STAGE_REPO's working tree and
+    .git, which is not safe for concurrent access from multiple workers.
     Returns True on success; on any git trouble the file stays in out/ for
     the review path instead."""
     if not os.path.isdir(STAGE_REPO):
@@ -168,45 +185,71 @@ def auto_stage(slug, name, doc):
     git_stage(['push', '-q', 'github'])
     return True
 
-def next_slug():
-    if not os.path.exists(WORKLIST):
+def claim_next_slug():
+    """Atomically pick a slug no one else is working on and mark it claimed.
+    Returns None if the worklist is exhausted (of unclaimed subjects) right
+    now - callers should back off and retry rather than treat that as
+    permanently done, since another worker's in-flight subject will free up
+    eventually, and the worklist itself may grow."""
+    with LOCK:
+        if not os.path.exists(WORKLIST):
+            return None
+        # 2026-09-03 incident: STAGE_REPO (this dedup source) only used to
+        # refresh opportunistically inside auto_stage(), i.e. only on a
+        # completion. Dossiers staged externally (pushed straight to
+        # origin) went unseen until this clone happened to refresh, which
+        # could be many hours later. Result: "Abu Karib As'ad" got
+        # re-researched from scratch 13 hours apart, twice. Pull fresh on
+        # every claim - cheap when there is nothing new, and it is the
+        # only thing standing between "already have it" and redoing work.
+        if os.path.isdir(STAGE_REPO):
+            subprocess.run(['git', 'pull', '--ff-only', '-q'], cwd=STAGE_REPO,
+                           capture_output=True)
+        for line in open(WORKLIST):
+            slug = line.strip()
+            if not slug or slug.startswith('#'):
+                continue
+            if slug in IN_PROGRESS:
+                continue
+            if os.path.exists(f'{OUT}/{slug}.dossier.md'):
+                continue
+            if os.path.exists(f'{REPO}/dossiers/{slug}.dossier.md'):
+                continue
+            if os.path.exists(f'{STAGE_REPO}/working/journeys/dossiers/{slug}.dossier.md'):
+                continue
+            IN_PROGRESS.add(slug)
+            return slug
         return None
-    # 2026-09-03 incident: STAGE_REPO (this dedup source) only used to refresh
-    # opportunistically inside auto_stage(), i.e. only on the runner's OWN
-    # successful completions. Dossiers staged by the orchestrator directly
-    # into the shared repo (a separate checkout, pushed straight to origin)
-    # went unseen here until the runner happened to land one of its own -
-    # which could be many hours later. Result: "Abu Karib As'ad" got
-    # re-researched from scratch 13 hours apart, twice, because the first
-    # good copy was staged externally and this clone never learned about it.
-    # Pull fresh on every call - cheap when there is nothing new, and it is
-    # the only thing standing between "already have it" and redoing the work.
-    if os.path.isdir(STAGE_REPO):
-        subprocess.run(['git', 'pull', '--ff-only', '-q'], cwd=STAGE_REPO,
-                       capture_output=True)
-    for line in open(WORKLIST):
-        slug = line.strip()
-        if not slug or slug.startswith('#'):
-            continue
-        if os.path.exists(f'{OUT}/{slug}.dossier.md'):
-            continue
-        if os.path.exists(f'{REPO}/dossiers/{slug}.dossier.md'):
-            continue
-        if os.path.exists(f'{STAGE_REPO}/working/journeys/dossiers/{slug}.dossier.md'):
-            continue
-        return slug
-    return None
 
-def run_one(slug):
+def release_slug(slug):
+    with LOCK:
+        IN_PROGRESS.discard(slug)
+
+def record_failure(slug):
+    with LOCK:
+        STATE['failures'][slug] = STATE['failures'].get(slug, 0) + 1
+        return STATE['failures'][slug]
+
+def note_completion_locked_maybe_refresh():
+    """Bump the shared completion counter; refresh the repo every
+    REFRESH_EVERY across ALL workers combined, not per-worker."""
+    with LOCK:
+        STATE['done_since_refresh'] += 1
+        if STATE['done_since_refresh'] >= REFRESH_EVERY:
+            refresh_repo_locked()
+            STATE['done_since_refresh'] = 0
+            log('repo pulled, addendum regenerated')
+
+def run_one(slug, worker):
     row = catalog_row(slug)
     name = row['traveler'].split('(')[0].split(',')[0].strip() if row else None
     if not name:
-        log(f'{slug}: NOT IN CATALOG, marking skipped')
+        log(f'{slug}: NOT IN CATALOG, marking skipped', worker)
         open(f'{OUT}/{slug}.dossier.md', 'w').write('# skipped: not in catalog\n')
         return True
     prompt = build_prompt(name, subject_hint(row))
     logfile = f'{LAB}/run_{slug}.log'
-    log(f'{slug}: run ({name})')
+    log(f'{slug}: run ({name})', worker)
     try:
         with open(logfile, 'w') as lf:
             subprocess.run([CODEX, 'exec', '-s', 'workspace-write', '--skip-git-repo-check',
@@ -216,14 +259,14 @@ def run_one(slug):
                            env={**os.environ, 'HOME': HOME,
                                 'PATH': f'{HOME}/.local/bin:' + os.environ.get('PATH', '')})
     except subprocess.TimeoutExpired:
-        log(f'{slug}: TIMEOUT after 90 min, will retry next pass')
+        log(f'{slug}: TIMEOUT after 90 min, will retry next pass', worker)
         return False
     text = open(logfile).read()
     if quota_wall(text):
         return 'quota'
     doc = extract(text, name)
     if not doc:
-        log(f'{slug}: no dossier in output, tail: ' + text[-160:].replace('\n', ' '))
+        log(f'{slug}: no dossier in output, tail: ' + text[-160:].replace('\n', ' '), worker)
         return False
     # 2026-09-03 incident #2: a run of network failures ("ERROR: Reconnecting...
     # N/5" then "ERROR: unexpected status 404 Not Found ... codex/responses")
@@ -236,54 +279,65 @@ def run_one(slug):
     # wording of whatever error OpenAI's side produces next.
     if re.search(r'\nERROR: ', doc):
         log(f'{slug}: extracted doc contains an ERROR: line, discarding, tail: '
-            + text[-160:].replace('\n', ' '))
+            + text[-160:].replace('\n', ' '), worker)
         return False
     probs = checks(doc)
     if probs:
         open(f'{OUT}/{slug}.dossier.md', 'w').write(doc)
-        log(f'{slug}: DONE {doc.count(chr(10))} lines, held in out/ FLAGS: {"; ".join(probs)}')
+        log(f'{slug}: DONE {doc.count(chr(10))} lines, held in out/ FLAGS: {"; ".join(probs)}', worker)
         return True
-    if auto_stage(slug, name, doc):
-        log(f'{slug}: DONE {doc.count(chr(10))} lines, STAGED')
+    with LOCK:
+        staged = auto_stage_locked(slug, name, doc)
+    if staged:
+        log(f'{slug}: DONE {doc.count(chr(10))} lines, STAGED', worker)
     else:
         open(f'{OUT}/{slug}.dossier.md', 'w').write(doc)
-        log(f'{slug}: DONE {doc.count(chr(10))} lines, staging failed, held in out/')
+        log(f'{slug}: DONE {doc.count(chr(10))} lines, staging failed, held in out/', worker)
     return True
 
-def main():
-    os.makedirs(OUT, exist_ok=True)
-    done_since_refresh = 0
+def worker_loop(worker):
     quota_step = 0
-    failures = {}
-    log('=== runner starting')
     while True:
-        slug = next_slug()
+        slug = claim_next_slug()
         if slug is None:
-            log('worklist clear; sleeping 1h and refreshing')
-            refresh_repo()
-            time.sleep(3600)
+            # Worklist has nothing free right now - could be genuinely done,
+            # or every remaining subject is claimed by other workers.
+            # Refresh on worker 0 only, so N workers don't all pull/regen
+            # the addendum in lockstep every idle tick.
+            if worker == 0:
+                with LOCK:
+                    refresh_repo_locked()
+            time.sleep(60)
             continue
-        if failures.get(slug, 0) >= 3:
-            log(f'{slug}: 3 failures, marking skipped for human review')
-            open(f'{OUT}/{slug}.dossier.md', 'w').write('# skipped: repeated failures\n')
-            continue
-        result = run_one(slug)
+        try:
+            result = run_one(slug, worker)
+        finally:
+            release_slug(slug)
         if result == 'quota':
             wait = QUOTA_SLEEPS[min(quota_step, len(QUOTA_SLEEPS) - 1)]
             quota_step += 1
-            log(f'quota wall; sleeping {wait // 60} min (step {quota_step})')
+            log(f'quota wall; sleeping {wait // 60} min (step {quota_step})', worker)
             time.sleep(wait)
             continue
         quota_step = 0
         if result is True:
-            done_since_refresh += 1
-            if done_since_refresh >= REFRESH_EVERY:
-                refresh_repo()
-                done_since_refresh = 0
-                log('repo pulled, addendum regenerated')
+            note_completion_locked_maybe_refresh()
         else:
-            failures[slug] = failures.get(slug, 0) + 1
+            n = record_failure(slug)
+            if n >= 3:
+                log(f'{slug}: 3 failures, marking skipped for human review', worker)
+                open(f'{OUT}/{slug}.dossier.md', 'w').write('# skipped: repeated failures\n')
             time.sleep(60)
+
+def main():
+    os.makedirs(OUT, exist_ok=True)
+    log(f'=== runner starting, {WORKERS} workers')
+    threads = [threading.Thread(target=worker_loop, args=(i,), daemon=True)
+               for i in range(WORKERS)]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
 
 if __name__ == '__main__':
     main()
