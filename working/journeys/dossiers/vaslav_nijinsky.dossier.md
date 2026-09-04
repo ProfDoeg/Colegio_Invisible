@@ -778,7 +778,7 @@ Only roster members for whom a supported connection was found are included.
 
 - **Pablo Ruiz Picasso — no direct connection established.** Picasso designed *Parade* for the Ballets Russes in 1917, but Nijinsky was then associated with the separate South American tour. No supported meeting or collaboration was found.
 
-- **Isadora Duncan — no sufficiently documented direct encounter found.** Both were major dance figures in overlapping European circles, but contemporaneity and mutual relevance do not establish a meeting.
+- **Isadora Duncan — reported artistic influence, not a documented direct encounter.** Nijinsky belonged to the Russian ballet world affected by Duncan's performances, and the two were later paired in art-historical studies, especially Antoine Bourdelle's imagery. No securely documented personal meeting was found; this is weaker than Duncan's documented ties to Diaghilev and Fokine. (Cross-checked against isadora_duncan.dossier.md's own Nijinsky entry, which states the connection in matching terms.)
 
 - **Martha Graham — documented later influence rather than personal connection.** Graham engaged with the modern dance world transformed partly by the Ballets Russes, but no supported Nijinsky–Graham meeting was found.
 
