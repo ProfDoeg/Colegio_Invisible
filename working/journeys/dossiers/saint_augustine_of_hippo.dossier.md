@@ -524,115 +524,115 @@ French colonial institutions promoted Augustine as a Latin-Christian ancestor of
 
 ### Abraham
 
-- **[T1+]** **Documented fact:** Augustine repeatedly wrote about the biblical patriarch Abraham, notably in *City of God* XVI, where Abraham’s family, covenant, and chronology form part of Augustine’s sacred history. The connection is textual and theological, not personal.
+- **[T1-]** **Documented fact:** Augustine repeatedly wrote about the biblical patriarch Abraham, notably in *City of God* XVI, where Abraham’s family, covenant, and chronology form part of Augustine’s sacred history. The connection is textual and theological, not personal.
 
 ### Aeneas
 
-- **[T1+]** **Documented fact:** Augustine wrote about the literary hero Aeneas, recalling in *Confessions* I.13 that his North-African schooling made him study Aeneas’s wanderings while weeping over Dido. He later invoked Aeneas and Rome’s Trojan origin traditions in *City of God*. [Primary text](https://www.ccel.org/ccel/augustine/confess.ii.xiii.html)
+- **[T1-]** **Documented fact:** Augustine wrote about the literary hero Aeneas, recalling in *Confessions* I.13 that his North-African schooling made him study Aeneas’s wanderings while weeping over Dido. He later invoked Aeneas and Rome’s Trojan origin traditions in *City of God*. [Primary text](https://www.ccel.org/ccel/augustine/confess.ii.xiii.html)
 
 ### Alexander the Great
 
-- **[T1+]** **Documented fact:** Augustine discussed Alexander as a historical conqueror in *City of God* IV.4, reproducing the famous exchange in which a captured pirate compares Alexander’s imperial warfare with piracy. Augustine used the anecdote to argue that kingdoms without justice are enlarged bands of robbers.
+- **[T1-]** **Documented fact:** Augustine discussed Alexander as a historical conqueror in *City of God* IV.4, reproducing the famous exchange in which a captured pirate compares Alexander’s imperial warfare with piracy. Augustine used the anecdote to argue that kingdoms without justice are enlarged bands of robbers.
 
 ### Anthony the Great / San Antonio Abad
 
-- **[T1+]** **Documented fact:** Augustine wrote in *Confessions* VIII.6–7 that Ponticianus told him at Milan in 386 about Anthony of Egypt and about imperial officials transformed by reading a *Life of Antony*. The report helped precipitate Augustine’s conversion crisis. Anthony, who died in 356, never met Augustine; the connection was mediated through biography and oral narration. [Primary text](https://www.newadvent.org/fathers/110108.htm)
+- **[T1-]** **Documented fact:** Augustine wrote in *Confessions* VIII.6–7 that Ponticianus told him at Milan in 386 about Anthony of Egypt and about imperial officials transformed by reading a *Life of Antony*. The report helped precipitate Augustine’s conversion crisis. Anthony, who died in 356, never met Augustine; the connection was mediated through biography and oral narration. [Primary text](https://www.newadvent.org/fathers/110108.htm)
 
 ### Apostle Paul
 
-- **[T1+]** **Documented fact:** Augustine wrote extensively about Paul in biblical commentaries, sermons, anti-Pelagian works, and *Confessions*. Most decisively, he reports that during the Milan garden episode of 386 he opened Paul’s epistles and read Romans 13:13–14, treating the passage as the scriptural resolution of his crisis. [Primary text and commentary](https://faculty.georgetown.edu/jod/conf/comm8.html)
+- **[T1-]** **Documented fact:** Augustine wrote extensively about Paul in biblical commentaries, sermons, anti-Pelagian works, and *Confessions*. Most decisively, he reports that during the Milan garden episode of 386 he opened Paul’s epistles and read Romans 13:13–14, treating the passage as the scriptural resolution of his crisis. [Primary text and commentary](https://faculty.georgetown.edu/jod/conf/comm8.html)
 
 ### Apostle Peter
 
-- **[T1+]** **Documented fact:** Augustine repeatedly interpreted Peter’s place among the apostles, his confession of Christ, denial, restoration, and symbolic representation of the Church. Sermon 26, for example, discusses both Peter and Paul while explaining Matthew 16 and ecclesial unity. [Primary text](https://www.newadvent.org/fathers/160326.htm)
+- **[T1-]** **Documented fact:** Augustine repeatedly interpreted Peter’s place among the apostles, his confession of Christ, denial, restoration, and symbolic representation of the Church. Sermon 26, for example, discusses both Peter and Paul while explaining Matthew 16 and ecclesial unity. [Primary text](https://www.newadvent.org/fathers/160326.htm)
 
 ### Aristotle
 
-- **[T1+]** **Documented fact:** Augustine named and evaluated Aristotle and the Aristotelian tradition, although his access was largely through Latin school texts and doxography rather than sustained reading of the Greek corpus. In *Confessions* IV.16 he recalls independently studying Aristotle’s *Categories* as a young man; later works place Aristotle within accounts of pagan philosophy.
+- **[T1-]** **Documented fact:** Augustine named and evaluated Aristotle and the Aristotelian tradition, although his access was largely through Latin school texts and doxography rather than sustained reading of the Greek corpus. In *Confessions* IV.16 he recalls independently studying Aristotle’s *Categories* as a young man; later works place Aristotle within accounts of pagan philosophy.
 
 ### Cicero
 
-- **[T1+]** **Documented fact:** Augustine wrote repeatedly about Cicero. In *Confessions* III.4 he says that reading Cicero’s now-lost *Hortensius* at Carthage around 373 redirected his aspirations toward philosophy; *City of God* later quotes and disputes Cicero’s definitions of a republic, justice, religion, and divination. Cicero and Virgil were the dominant classical authors in Augustine’s education. [Scholarly overview](https://faculty.georgetown.edu/jod/augustine/civ.html)
+- **[T1-]** **Documented fact:** Augustine wrote repeatedly about Cicero. In *Confessions* III.4 he says that reading Cicero’s now-lost *Hortensius* at Carthage around 373 redirected his aspirations toward philosophy; *City of God* later quotes and disputes Cicero’s definitions of a republic, justice, religion, and divination. Cicero and Virgil were the dominant classical authors in Augustine’s education. [Scholarly overview](https://faculty.georgetown.edu/jod/augustine/civ.html)
 
 ### Constantine the Great
 
-- **[T1+]** **Documented fact:** Augustine wrote about Constantine in *City of God* V.25–26, presenting his imperial success, Christian worship, donations, and clemency as evidence that temporal prosperity can be granted to a Christian ruler without constituting Christianity’s ultimate reward. Augustine was born seventeen years after Constantine’s death, so no personal crossing occurred.
+- **[T1-]** **Documented fact:** Augustine wrote about Constantine in *City of God* V.25–26, presenting his imperial success, Christian worship, donations, and clemency as evidence that temporal prosperity can be granted to a Christian ruler without constituting Christianity’s ultimate reward. Augustine was born seventeen years after Constantine’s death, so no personal crossing occurred.
 
 ### Dante Alighieri
 
-- **[T1-]** **Documented fact:** Dante placed Augustine among the blessed in *Paradiso* XXXII and engaged Augustinian themes of conversion, ordered love, signs, memory, and pilgrimage throughout the *Commedia*. Scholars particularly identify *Confessions* and *De doctrina christiana* as important textual precedents, while cautioning that some apparent parallels may derive from broader Christian traditions. [Scholarly study](https://etheses.whiterose.ac.uk/id/eprint/24457/1/Reading%20Dante%27s%20Commedia%20through%20Augustine%27s%20Hermeneutics%20of%20caritas--RD%20Sellgren%202019%20Final.pdf)
+- **[T1+]** **Documented fact:** Dante placed Augustine among the blessed in *Paradiso* XXXII and engaged Augustinian themes of conversion, ordered love, signs, memory, and pilgrimage throughout the *Commedia*. Scholars particularly identify *Confessions* and *De doctrina christiana* as important textual precedents, while cautioning that some apparent parallels may derive from broader Christian traditions. [Scholarly study](https://etheses.whiterose.ac.uk/id/eprint/24457/1/Reading%20Dante%27s%20Commedia%20through%20Augustine%27s%20Hermeneutics%20of%20caritas--RD%20Sellgren%202019%20Final.pdf)
 
 ### Dido
 
-- **[T1+]** **Documented fact:** Augustine wrote about Virgil’s Dido in *Confessions* I.13, contrasting the tears he shed over her literary death with his indifference to his own perceived spiritual condition. He also revisited Dido and Carthaginian-Roman foundation narratives in *City of God*. [Primary text](https://www.ccel.org/ccel/augustine/confess.ii.xiii.html)
+- **[T1-]** **Documented fact:** Augustine wrote about Virgil’s Dido in *Confessions* I.13, contrasting the tears he shed over her literary death with his indifference to his own perceived spiritual condition. He also revisited Dido and Carthaginian-Roman foundation narratives in *City of God*. [Primary text](https://www.ccel.org/ccel/augustine/confess.ii.xiii.html)
 
 ### Jacques Derrida
 
-- **[T1-]** **Documented fact:** Derrida closely and explicitly engaged Augustine’s *Confessions* in *Circonfession* (1990–1991), borrowing its confessional form, Latin phrases, and questions about truth, prayer, memory, the mother, and self-writing. This is documented reception, not agreement with Augustine’s theology. [Scholarly analysis](https://openurl.ebsco.com/contentitem/doi%3A10.5325/complitstudies.52.4.0729?id=ebsco%3Adoi%3A10.5325%2Fcomplitstudies.52.4.0729&sid=ebsco%3Aplink%3Acrawler)
+- **[T1+]** **Documented fact:** Derrida closely and explicitly engaged Augustine’s *Confessions* in *Circonfession* (1990–1991), borrowing its confessional form, Latin phrases, and questions about truth, prayer, memory, the mother, and self-writing. This is documented reception, not agreement with Augustine’s theology. [Scholarly analysis](https://openurl.ebsco.com/contentitem/doi%3A10.5325/complitstudies.52.4.0729?id=ebsco%3Adoi%3A10.5325%2Fcomplitstudies.52.4.0729&sid=ebsco%3Aplink%3Acrawler)
 
 ### René Descartes
 
-- **[T1-]** **Documented fact:** After correspondents noticed the resemblance between the Cartesian *cogito* and Augustine’s certainty of self-existence, Descartes discussed Augustine explicitly in letters to Andreas Colvius and Marin Mersenne in November–December 1640, including *City of God* XI.26. Whether Augustine directly generated Descartes’s argument remains disputed; Descartes’s written engagement with the comparison is certain. [Historical study](https://api.pageplace.de/preview/DT0400.9780192517203_A37214561/preview-9780192517203_A37214561.pdf)
+- **[T1+]** **Documented fact:** After correspondents noticed the resemblance between the Cartesian *cogito* and Augustine’s certainty of self-existence, Descartes discussed Augustine explicitly in letters to Andreas Colvius and Marin Mersenne in November–December 1640, including *City of God* XI.26. Whether Augustine directly generated Descartes’s argument remains disputed; Descartes’s written engagement with the comparison is certain. [Historical study](https://api.pageplace.de/preview/DT0400.9780192517203_A37214561/preview-9780192517203_A37214561.pdf)
 
 ### Michel Foucault
 
-- **[T1-]** **Documented fact:** Foucault analyzed Augustine at length in *Les aveux de la chair* (*Confessions of the Flesh*), especially Augustine’s writings on marriage, concupiscence, sexual subjectivity, and the government of desire. Scholars dispute whether Foucault projects later psychoanalytic categories onto Augustine, but the textual engagement itself is explicit. [Scholarly analysis](https://revistas.usp.br/discurso/en/article/view/193763)
+- **[T1+]** **Documented fact:** Foucault analyzed Augustine at length in *Les aveux de la chair* (*Confessions of the Flesh*), especially Augustine’s writings on marriage, concupiscence, sexual subjectivity, and the government of desire. Scholars dispute whether Foucault projects later psychoanalytic categories onto Augustine, but the textual engagement itself is explicit. [Scholarly analysis](https://revistas.usp.br/discurso/en/article/view/193763)
 
 ### Martin Heidegger
 
-- **[T1-]** **Documented fact:** Heidegger devoted his 1921 Freiburg lecture course “Augustine and Neoplatonism” to a sustained interpretation of *Confessions* X, particularly temptation, care, memory, and factical life. Augustine also remained important to Heidegger’s later treatment of temporality. [Scholarly account](https://doi.org/10.1163/156916409X448193)
+- **[T1+]** **Documented fact:** Heidegger devoted his 1921 Freiburg lecture course “Augustine and Neoplatonism” to a sustained interpretation of *Confessions* X, particularly temptation, care, memory, and factical life. Augustine also remained important to Heidegger’s later treatment of temporality. [Scholarly account](https://doi.org/10.1163/156916409X448193)
 
 ### Jacobus de Voragine
 
-- **[T1-]** **Documented fact:** Jacobus included Augustine in the thirteenth-century *Golden Legend*, retelling his conversion, episcopate, teachings, death, miracles, and relic traditions. This is a medieval hagiographic reception: it combines material ultimately traceable to Augustine and Possidius with later legendary accretions.
+- **[T1+]** **Documented fact:** Jacobus included Augustine in the thirteenth-century *Golden Legend*, retelling his conversion, episcopate, teachings, death, miracles, and relic traditions. This is a medieval hagiographic reception: it combines material ultimately traceable to Augustine and Possidius with later legendary accretions.
 
 ### Jesus of Nazareth
 
-- **[T1+]** **Documented fact:** Augustine’s surviving corpus is pervasively centered on Jesus Christ. Dedicated examples include the *Tractates on the Gospel of John*, *Harmony of the Gospels*, sermons on Christ’s life and teaching, and doctrinal treatments of incarnation, crucifixion, resurrection, grace, and Christ as mediator. The connection is scriptural and theological; Jesus lived more than three centuries before Augustine.
+- **[T1-]** **Documented fact:** Augustine’s surviving corpus is pervasively centered on Jesus Christ. Dedicated examples include the *Tractates on the Gospel of John*, *Harmony of the Gospels*, sermons on Christ’s life and teaching, and doctrinal treatments of incarnation, crucifixion, resurrection, grace, and Christ as mediator. The connection is scriptural and theological; Jesus lived more than three centuries before Augustine.
 
 ### King David
 
-- **[T1+]** **Documented fact:** Augustine wrote extensively about David as king, sinner, psalmist, prophet, and ancestor or type of Christ. His long-running *Expositions of the Psalms* treated the Psalter traditionally attributed to David as simultaneously Davidic, ecclesial, and Christological; *Confessions* is itself densely shaped by the Psalms. [Scholarly analysis](https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/augustines-mixed-feelings-vergils-aeneid-and-the-psalms-of-david-in-the-confessions/55CFA16D0A7D458BAAE3725C766C75B4)
+- **[T1-]** **Documented fact:** Augustine wrote extensively about David as king, sinner, psalmist, prophet, and ancestor or type of Christ. His long-running *Expositions of the Psalms* treated the Psalter traditionally attributed to David as simultaneously Davidic, ecclesial, and Christological; *Confessions* is itself densely shaped by the Psalms. [Scholarly analysis](https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/augustines-mixed-feelings-vergils-aeneid-and-the-psalms-of-david-in-the-confessions/55CFA16D0A7D458BAAE3725C766C75B4)
 
 ### Martin Luther
 
-- **[T1-]** **Documented fact:** Luther intensively studied and cited Augustine, especially during his lectures on Romans in 1515–1516 and in disputes over sin, grace, free will, and justification. His 1545 preface to his Latin writings explicitly compares his own intellectual development with Augustine’s practice of progressing through writing. Agreement was selective, so “Augustinian” does not mean that Luther adopted Augustine’s complete theology. [Primary text](https://www.bluffton.edu/courses/humanities/2/ml-1545.htm) [Scholarly overview](https://academic.oup.com/edited-volume/62249/chapter-abstract/551355794)
+- **[T1+]** **Documented fact:** Luther intensively studied and cited Augustine, especially during his lectures on Romans in 1515–1516 and in disputes over sin, grace, free will, and justification. His 1545 preface to his Latin writings explicitly compares his own intellectual development with Augustine’s practice of progressing through writing. Agreement was selective, so “Augustinian” does not mean that Luther adopted Augustine’s complete theology. [Primary text](https://www.bluffton.edu/courses/humanities/2/ml-1545.htm) [Scholarly overview](https://academic.oup.com/edited-volume/62249/chapter-abstract/551355794)
 
 ### Moses
 
-- **[T1+]** **Documented fact:** Augustine repeatedly wrote about Moses as lawgiver, prophet, and the traditionally received author of the Pentateuch. Genesis and Exodus are central to *Confessions* XI–XIII, *The Literal Meaning of Genesis*, *Against the Manichaeans on Genesis*, and the *Questions on the Heptateuch*. Augustine’s canon list explicitly calls the Pentateuch the five books of Moses. [Primary text](https://biblehub.com/library/augustine/on_christian_doctrine_in_four_books/chapter_13_now_the_whole.htm)
+- **[T1-]** **Documented fact:** Augustine repeatedly wrote about Moses as lawgiver, prophet, and the traditionally received author of the Pentateuch. Genesis and Exodus are central to *Confessions* XI–XIII, *The Literal Meaning of Genesis*, *Against the Manichaeans on Genesis*, and the *Questions on the Heptateuch*. Augustine’s canon list explicitly calls the Pentateuch the five books of Moses. [Primary text](https://biblehub.com/library/augustine/on_christian_doctrine_in_four_books/chapter_13_now_the_whole.htm)
 
 ### Friedrich Nietzsche
 
-- **[T1-]** **Documented fact:** Nietzsche referred critically to Augustine in his published writings—most conspicuously *Beyond Good and Evil* §50—and in notebooks after reading the *Confessions*. His comments treat Augustine as an exemplary Christian psychologist and religious type, usually with hostility or irony. Claims of deeper structural influence are scholarly interpretations; the explicit references are documented.
+- **[T1+]** **Documented fact:** Nietzsche referred critically to Augustine in his published writings—most conspicuously *Beyond Good and Evil* §50—and in notebooks after reading the *Confessions*. His comments treat Augustine as an exemplary Christian psychologist and religious type, usually with hostility or irony. Claims of deeper structural influence are scholarly interpretations; the explicit references are documented.
 
 ### Origen of Alexandria
 
-- **[T1+]** **Documented fact:** Augustine wrote about Origen’s exegetical and theological positions, sometimes through Latin translations and intermediary reports. He criticized Origenist teachings on souls, universal restoration, demons, and resurrection in works including *City of God* and *On Heresies*, while also inheriting elements of the broader allegorical exegetical tradition. [Source overview](https://academic.oup.com/book/33448/chapter-abstract/287719445)
+- **[T1-]** **Documented fact:** Augustine wrote about Origen’s exegetical and theological positions, sometimes through Latin translations and intermediary reports. He criticized Origenist teachings on souls, universal restoration, demons, and resurrection in works including *City of God* and *On Heresies*, while also inheriting elements of the broader allegorical exegetical tradition. [Source overview](https://academic.oup.com/book/33448/chapter-abstract/287719445)
 
 ### Plato
 
-- **[T1+]** **Documented fact:** Augustine repeatedly wrote about Plato and “the Platonists,” praising Plato as pre-eminent among Socrates’ disciples while subordinating Platonist philosophy to Christian revelation. His knowledge came principally through Latin translations, later Platonists, and doxographical sources; *City of God* VIII–X contains his fullest sustained assessment. [Primary text](https://biblehub.com/library/augustine/city_of_god/chapter_4_concerning_plato_the_chief.htm) [Scholarly overview](https://plato.stanford.edu/entries/augustine/)
+- **[T1-]** **Documented fact:** Augustine repeatedly wrote about Plato and “the Platonists,” praising Plato as pre-eminent among Socrates’ disciples while subordinating Platonist philosophy to Christian revelation. His knowledge came principally through Latin translations, later Platonists, and doxographical sources; *City of God* VIII–X contains his fullest sustained assessment. [Primary text](https://biblehub.com/library/augustine/city_of_god/chapter_4_concerning_plato_the_chief.htm) [Scholarly overview](https://plato.stanford.edu/entries/augustine/)
 
 ### Ratramnus of Corbie
 
-- **[T1-]** **Documented fact:** Ratramnus, writing in the ninth century, worked within an Augustinian textual tradition when addressing predestination and the Eucharist. His positions were later compared with Augustine’s accounts of grace and sacramental signs, although the extent and doctrinal meaning of the dependence remain debated. No personal contact was chronologically possible.
+- **[T1+]** **Documented fact:** Ratramnus, writing in the ninth century, worked within an Augustinian textual tradition when addressing predestination and the Eucharist. His positions were later compared with Augustine’s accounts of grace and sacramental signs, although the extent and doctrinal meaning of the dependence remain debated. No personal contact was chronologically possible.
 
 ### Solomon
 
-- **[T1+]** **Documented fact:** Augustine discussed Solomon as biblical king, wisdom figure, temple builder, and traditionally received author of Proverbs, Ecclesiastes, and the Song of Songs. He included these works among “the books of Solomon” in *On Christian Doctrine* II.8 and interpreted Solomon typologically in *City of God*. [Primary text](https://biblehub.com/library/augustine/on_christian_doctrine_in_four_books/chapter_13_now_the_whole.htm)
+- **[T1-]** **Documented fact:** Augustine discussed Solomon as biblical king, wisdom figure, temple builder, and traditionally received author of Proverbs, Ecclesiastes, and the Song of Songs. He included these works among “the books of Solomon” in *On Christian Doctrine* II.8 and interpreted Solomon typologically in *City of God*. [Primary text](https://biblehub.com/library/augustine/on_christian_doctrine_in_four_books/chapter_13_now_the_whole.htm)
 
 ### Tertullian
 
-- **[T1+]** **Documented fact:** Augustine named and evaluated his North-African Christian predecessor Tertullian, particularly when discussing the later Tertullianist sect in *On Heresies* 86 and questions of soul, marriage, discipline, and ecclesiology elsewhere. There was no personal contact: Tertullian died roughly a century before Augustine’s birth.
+- **[T1-]** **Documented fact:** Augustine named and evaluated his North-African Christian predecessor Tertullian, particularly when discussing the later Tertullianist sect in *On Heresies* 86 and questions of soul, marriage, discipline, and ecclesiology elsewhere. There was no personal contact: Tertullian died roughly a century before Augustine’s birth.
 
 ### Thomas Aquinas
 
-- **[T1-]** **Documented fact:** Aquinas cited and interpreted Augustine throughout the *Summa theologiae*, biblical commentaries, disputed questions, and other works, treating him as a major patristic authority on grace, Trinity, knowledge, will, evil, and creation. Aquinas nevertheless reorganized Augustinian material within an increasingly Aristotelian framework, so the connection is extensive reception rather than simple doctrinal identity. [Scholarly overview](https://plato.stanford.edu/entries/augustine/)
+- **[T1+]** **Documented fact:** Aquinas cited and interpreted Augustine throughout the *Summa theologiae*, biblical commentaries, disputed questions, and other works, treating him as a major patristic authority on grace, Trinity, knowledge, will, evil, and creation. Aquinas nevertheless reorganized Augustinian material within an increasingly Aristotelian framework, so the connection is extensive reception rather than simple doctrinal identity. [Scholarly overview](https://plato.stanford.edu/entries/augustine/)
 
 ### Virgil
 
-- **[T1+]** **Documented fact:** Augustine quoted, interpreted, and criticized Virgil throughout *Confessions* and *City of God*. He recalled learning the *Aeneid* in school, weeping for Dido, and later used Virgilian language and Roman myth while challenging the moral and religious authority of classical poetry. [Primary text](https://www.ccel.org/ccel/augustine/confess.ii.xiii.html) [Scholarly analysis](https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/augustines-mixed-feelings-vergils-aeneid-and-the-psalms-of-david-in-the-confessions/55CFA16D0A7D458BAAE3725C766C75B4)
+- **[T1-]** **Documented fact:** Augustine quoted, interpreted, and criticized Virgil throughout *Confessions* and *City of God*. He recalled learning the *Aeneid* in school, weeping for Dido, and later used Virgilian language and Roman myth while challenging the moral and religious authority of classical poetry. [Primary text](https://www.ccel.org/ccel/augustine/confess.ii.xiii.html) [Scholarly analysis](https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/augustines-mixed-feelings-vergils-aeneid-and-the-psalms-of-david-in-the-confessions/55CFA16D0A7D458BAAE3725C766C75B4)
 
 No secure T2 prophecy/hyperstition, T4 proximity, T5 personal-meeting, or T9 shared-object/site connection was established with another roster member. Mere influence, parallel ideas, shared North-African geography, membership in an “Augustinian” institution, or later possession of an edition was not counted without specific documentary evidence.
 

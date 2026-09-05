@@ -745,7 +745,7 @@ Only the following roster connections are supported by identifiable testimony or
 
 ### Arthur Edward Waite
 
-- **[T1-]** Waite, writing long after Saint-Germain’s death, examined the alleged Saint-Germain–Cagliostro relationship in his historical-occult studies. He judged the evidence for Cagliostro’s supposed initiation by Saint-Germain to be extremely weak. **Documented fact: later critical writing about Saint-Germain; no personal crossing.** ([“Saint-Germain and Cagliostro”](https://www.alchemy-texts.com/book/saint-germain-and-cagliostro/))
+- **[T1+]** Waite, writing long after Saint-Germain’s death, examined the alleged Saint-Germain–Cagliostro relationship in his historical-occult studies. He judged the evidence for Cagliostro’s supposed initiation by Saint-Germain to be extremely weak. **Documented fact: later critical writing about Saint-Germain; no personal crossing.** ([“Saint-Germain and Cagliostro”](https://www.alchemy-texts.com/book/saint-germain-and-cagliostro/))
 
 ### Helena Petrovna Blavatsky
 
