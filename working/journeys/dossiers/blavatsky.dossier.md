@@ -1028,6 +1028,50 @@ No documentary lifetime crossing was established in the consulted sources with t
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Annie Besant** [T5]
+- **William Butler Yeats** [T5]
+- **Mohandas Karamchand Gandhi** [T5]
+- **Thomas Alva Edison** [T3]
+- **Friedrich Max Müller** [T3]
+- **Edward Bulwer-Lytton** [T1-]
+- **Aimé Jacques Alexandre Goujaud** [T1-]
+- **Emanuel Swedenborg** [T1-]
+- **Franz Anton Mesmer** [T1-]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1-]
+- **Paracelsus** [T1-]
+- **Giordano Bruno** [T1-]
+- **Jacob Boehme** [T1-]
+- **Plato** [T1-]
+- **Charles Robert Darwin** [T3]
+- **Ignatius Loyola Donnelly** [T3]
+- **Rudolf Steiner** [T1+]
+- **Nicholas Konstantinovich Roerich** [T3] (mirrored from nicholas_roerich.dossier.md)
+- **Augustus Henry Julian Le Plongeon** [T3] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **René Guénon** [T1+] (mirrored from rene_guenon.dossier.md)
+- **Dion Fortune** [T1+] (mirrored from dion_fortune.dossier.md)
+- **Alexandra David-Néel** [T9+] (mirrored from alexandra_david_neel.dossier.md)
+- **Jiddu Krishnamurti** [T2+ hyperstition] (mirrored from jiddu_krishnamurti.dossier.md)
+- **Giuseppe Maria Garibaldi** [T4] (mirrored from giuseppe_garibaldi.dossier.md)
+- **Lyman Frank Baum** [T9+] (mirrored from l_frank_baum.dossier.md)
+- **Julius Evola** [T1+] (mirrored from julius_evola.dossier.md)
+- **Theodor Reuss** [T5] (mirrored from theodor_reuss.dossier.md)
+- **Joseph Alexandre Saint-Yves** [T3] (mirrored from joseph_alexandre_saint_yves_d_alveydre.dossier.md)
+- **The Comte de Saint-Germain** [T1+] (mirrored from comte_de_saint_germain.dossier.md)
+- **Mircea Eliade** [T1+] (mirrored from mircea_eliade.dossier.md)
+- **Giuseppe Balsamo** [T1-] (mirrored from cagliostro.dossier.md)
+- **Xul Solar** [T3] (mirrored from xul_solar.dossier.md)
+- **Simon of Gitta** [T1-] (mirrored from simon_magus.dossier.md)
+- **Narendranath Datta** [T3] (mirrored from swami_vivekananda.dossier.md)
+- **Edward Bellamy** [T3] (mirrored from edward_bellamy.dossier.md)
+- **Wassily Kandinsky** [T1+] (mirrored from wassily_kandinsky.dossier.md)
+- **Franz Anton Mesmer** [T9-] (mirrored from mesmer.dossier.md)
+- **Arthur Edward Waite** [T1+] (mirrored from arthur_edward_waite.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -733,6 +733,37 @@ Coins provide the only securely contemporary lifetime portraits and titles. The 
 
 No further roster member was included merely because of shared geography, later comparison with Caesar, artistic depiction, an eponym such as the “Caesar cipher,” or unsupported legendary association; those circumstances alone do not satisfy the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Marcus Tullius Cicero** [T3]
+- **Marcus Tullius Cicero** [T5]
+- **Cleopatra VII Thea Philopator** [T5]
+- **Strabo of Amaseia** [T1+]
+- **Plinio el Viejo** [T1+]
+- **Flavius Josephus** [T1+]
+- **Publius Vergilius Maro** [T1+]
+- **Dante Alighieri** [T1+]
+- **Napoleon Bonaparte** [T1+]
+- **Alexander the Great** [T9-] (mirrored from alexander.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Charles John Huffam Dickens** [T1+] (mirrored from charles_dickens.dossier.md)
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Gabriele d'Annunzio** [T1+] (mirrored from dannunzio.dossier.md)
+- **Morgan le Fay** [T4] (mirrored from morgan-le-fay.dossier.md)
+- **Curtis Guy Yarvin** [T1+] (mirrored from curtis_yarvin.dossier.md)
+- **Hannibal Barca** [T1-] (mirrored from hannibal.dossier.md)
+- **Étienne Bazeries** [T1+] (mirrored from etienne_bazeries.dossier.md)
+- **Aeneas** [T1-] (mirrored from aeneas.dossier.md)
+- **Marcus Fabius Quintilianus** [T1+] (mirrored from quintilian.dossier.md)
+- **Alexandre Dumas** [T1+] (mirrored from alexandre_dumas.dossier.md)
+- **William R. Bradshaw** [T1+] (mirrored from william_r_bradshaw.dossier.md)
+- **Lionel-Noël Royer** [T1+] (mirrored from lionel_royer.dossier.md)
+- **Auguste Kerckhoffs** [T1+] (mirrored from auguste_kerckhoffs.dossier.md)
+
 ## Sources
 
 https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius%2A.html

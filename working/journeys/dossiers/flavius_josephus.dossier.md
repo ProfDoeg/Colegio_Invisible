@@ -535,6 +535,39 @@ The “Josephus problem” appears in recreational mathematics, algorithms, and 
 
 No documentary connection was found between Josephus and Paul the Apostle, Peter, Mary Magdalene, Simon Magus, or the purported “Hiram Abiff.” Josephus and Paul or Peter may have occupied overlapping first-century Roman or Judaean milieus, but no source documents a meeting, correspondence, or mutual awareness. Josephus wrote about Solomon’s Tyrian craftsman Hiram, not the later Masonic character Hiram Abiff; treating them as an unqualified historical identity would reproduce a later myth rather than establish an atlas crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Noah son of Lamech** [T1-]
+- **Abraham** [T1-]
+- **Aaron the Levite** [T1-]
+- **Moses** [T1-]
+- **David ben Jesse** [T1-]
+- **King Solomon** [T1-]
+- **The Queen of Sheba** [T1-]
+- **Ezekiel son of Buzi** [T1-]
+- **Nabucodonosor II** [T1-]
+- **Cyrus the Great** [T1-]
+- **Alexander the Great** [T1-]
+- **Cleopatra VII Thea Philopator** [T1-]
+- **Gaius Julius Caesar** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Homer** [T3]
+- **Hesiod of Ascra** [T3]
+- **Herodotus of Halicarnassus** [T3]
+- **Ctesias of Cnidus** [T3]
+- **Aristotle** [T3]
+- **Plato** [T3]
+- **Polybius of Megalopolis** [T3]
+- **Strabo of Amaseia** [T3]
+- **Megasthenes of Ionia** [T3]
+- **Origen of Alexandria** [T3]
+- **Sir Isaac Newton** [T3]
+- **Megasthenes of Ionia** [T1-] (mirrored from megasthenes.dossier.md)
+- **Rabbi Benjamin son of Jonah of Tudela** [T3] (mirrored from benjamin_de_tudela.dossier.md)
+- **Origen of Alexandria** [T1+] (mirrored from origen.dossier.md)
+
 ## Sources
 
 https://penelope.uchicago.edu/josephus/autobiog.html

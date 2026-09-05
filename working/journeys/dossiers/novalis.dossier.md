@@ -1328,6 +1328,27 @@ No documented biographical crossing was located with the overwhelming majority o
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Christiane Wilhelmine Sophie von Kühn** [T5]
+- **Friedrich Schiller** [T5]
+- **Johann Wolfgang von Goethe** [T5]
+- **Johann Gottlieb Fichte** [T5]
+- **Friedrich Wilhelm Joseph Schelling** [T4]
+- **Immanuel Kant** [T1-]
+- **Jacob Boehme** [T1-]
+- **Emanuel Swedenborg** [T1-]
+- **Walter Benjamin** [T1+]
+- **Rudolf Steiner** [T1+]
+- **Martin Heidegger** [T1+]
+- **Friedrich Schiller** [T4] (mirrored from schiller.dossier.md)
+- **Friedrich Wilhelm Joseph Schelling** [T5] (mirrored from schelling.dossier.md)
+- **Hermann Hesse** [T3] (mirrored from hermann_hesse.dossier.md)
+- **Johann Gottlieb Fichte** [T3] (mirrored from fichte.dossier.md)
+- **Søren Aabye Kierkegaard** [T1+] (mirrored from s_ren_kierkegaard.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

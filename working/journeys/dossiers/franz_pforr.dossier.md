@@ -783,6 +783,18 @@ Passavant’s archive mentions a letter about Passavant’s own encounter with P
 
 No additional supported crossings with the supplied Atlas roster were identified. Given Pforr’s short life and restricted network, absence of further connections is itself a finding.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Johann Friedrich Overbeck** [T5]
+- **Peter von Cornelius** [T4]
+- **Johann Wolfgang von Goethe** [T3]
+- **Friedrich Schiller** [T3]
+- **Johann Heinrich Wilhelm Tischbein** [T5]
+- **Otto Gross** [T5] (mirrored from otto_gross.dossier.md)
+- **Jacques Derrida** [T1+] (mirrored from jacques_derrida.dossier.md)
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd11884041X.html

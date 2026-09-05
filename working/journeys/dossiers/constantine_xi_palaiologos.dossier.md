@@ -634,6 +634,13 @@ His reputation is unusually dependent on the manner of his death. The securely d
 
 No other roster member has a sufficiently documented crossing under the specified types. In particular, Nicholas/Johannes of Cusa’s *De pace fidei* responded to reports of the conquest and religious violence but did not write about Constantine XI personally, so it does not support a T1 connection. The retrospective “Constantine, son of Helena” symmetry likewise does not support T2 because no rostered earlier figure is documented as its prophet.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Constantine the Great** [T9-]
+- **Justinian I** [T9-]
+
 ## Sources
 
 https://archive.org/details/immortalemperorl0000nico

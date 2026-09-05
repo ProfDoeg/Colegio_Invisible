@@ -593,6 +593,30 @@ Early biographies were hagiographic and movement-building. Post-1970 biographies
 
 - **[T3] Documented fact; alleged personal exchange disputed.** As an Odessa delegate and journalist, Jabotinsky attended the Sixth Zionist Congress at Basel in August 1903 and heard Herzl speak—the only such occasion in Jabotinsky’s life. His later autobiography described a brief personal encounter, but that exchange rests on his retrospective testimony and lacks independent confirmation. The secure connection is therefore Jabotinsky’s presence at and written reporting on Herzl’s congress performance, not an independently verified friendship. [National Library of Israel](https://www.nli.org.il/en/discover/israel/figures/zeev-jabotinsky), [Jewish Review of Books historiographical assessment](https://jewishreviewofbooks.com/articles/1968/your-time-is-up-jabotinsky-at-the-sixth-zionist-congress/)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ahad Ha'am** [T3]
+- **Captain Alfred Dreyfus** [T3]
+- **Cecil John Rhodes** [T3]
+- **Chaim Azriel Weizmann** [T3]
+- **Sigmund Freud** [T3]
+- **Samuel Langhorne Clemens** [T5]
+- **Samuel Langhorne Clemens** [T1-]
+- **Martin Mordechai Buber** [T5]
+- **Martin Mordechai Buber** [T3]
+- **Friedrich Nietzsche** [T1-]
+- **Rudolf Steiner** [T3]
+- **Ze'ev** [T3]
+- **Chaim Azriel Weizmann** [T4] (mirrored from chaim_weizmann.dossier.md)
+- **Vladimir Medem** [T1+] (mirrored from vladimir_medem.dossier.md)
+- **Sabbatai Zevi** [T1-] (mirrored from sabbatai_zevi.dossier.md)
+- **David Ben-Gurion** [T1+] (mirrored from david_ben_gurion.dossier.md)
+- **Aaron David Gordon** [T1+] (mirrored from aaron_david_gordon.dossier.md)
+- **Ahad Ha'am** [T4] (mirrored from ahad_ha_am.dossier.md)
+- **Alberto Gerchunoff** [T3] (mirrored from alberto_gerchunoff.dossier.md)
+
 ## Sources
 
 https://www.herzlonline.org/en/

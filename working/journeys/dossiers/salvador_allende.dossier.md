@@ -491,6 +491,37 @@ The dictatorship’s brutality decisively shaped retrospective judgment, but it 
 
 No sufficiently documented personal, discursive, prophetic, proximity-based, or object-mediated crossing was established for the remaining roster names. Mere ideological influence, later commentary on Allende, contemporaneity, or presence in the same country has not been counted without evidence meeting one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Simón Bolívar** [T1-]
+- **Bernardo O'Higgins Riquelme** [T1-]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Ernesto "Che" Guevara** [T5]
+- **Ernesto "Che" Guevara** [T9-]
+- **Ernesto "Che" Guevara** [T1-]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Fidel Alejandro Castro Ruz** [T3]
+- **Fidel Alejandro Castro Ruz** [T9-]
+- **Anthony Stafford Beer** [T5]
+- **Augusto Pinochet Ugarte** [T5]
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **Vilma Espín Guillois** [T4] (mirrored from vilma_espin.dossier.md)
+- **Friedrich August von Hayek** [T1+] (mirrored from friedrich_hayek.dossier.md)
+- **Miguel Serrano** [T4] (mirrored from serrano.dossier.md)
+- **Karl Marx** [T1-] (mirrored from karl_marx.dossier.md)
+- **William Egan Colby** [T4] (mirrored from william_colby.dossier.md)
+- **David Rockefeller** [T1+] (mirrored from david_rockefeller.dossier.md)
+- **Christian Dior** [T4] (mirrored from christian_dior.dossier.md)
+- **Juan Domingo Perón** [T3] (mirrored from juan_peron.dossier.md)
+- **Cecilia Vicuña** [T1+] (mirrored from cecilia_vicuna.dossier.md)
+- **Anthony Stafford Beer** [T1+] (mirrored from stafford_beer.dossier.md)
+- **Herbert Marcuse** [T1+] (mirrored from herbert_marcuse.dossier.md)
+- **Gabriel José García Márquez** [T1+] (mirrored from gabriel_garcia_marquez.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T4] (mirrored from julio_cortazar.dossier.md)
+- **Pablo Ruiz Picasso** [T5] (mirrored from pablo_picasso.dossier.md)
+
 ## Sources
 
 https://www.bcn.cl/historiapolitica/resenas_biograficas/wiki/Salvador_Allende_Gossens

@@ -903,6 +903,23 @@ Habermas later worked at the Institute and became a major second-generation Crit
 
 Despite shared German-Jewish émigré and intellectual milieus, no documented meeting, correspondence, or collaboration was found.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Theodor W. Adorno** [T4]
+- **Erich Seligmann Fromm** [T4]
+- **Herbert Marcuse** [T4]
+- **Max Horkheimer** [T3]
+- **Karl Marx** [T1-]
+- **Rosa Luxemburg** [T1-]
+- **Walter Benjamin** [T9+]
+- **Sigmund Freud** [T9-]
+- **Vladimir Ilyich Ulyanov** [T9-]
+- **Jürgen Habermas** [T9+]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T5] (mirrored from simone_de_beauvoir.dossier.md)
+- **Max Horkheimer** [T5] (mirrored from max_horkheimer.dossier.md)
+
 ## Chronology
 
 | Date | Event |

@@ -2666,6 +2666,27 @@ The documentary record supports the coexistence of the following without requiri
 
 - **[T1-]** **Documented fact:** Newton was the central historical figure in Saint-Simon’s *Lettres d’un habitant de Genève* (1802–1803). Saint-Simon imagined Newton occupying the place nearest God in a scientific spiritual order and proposed a transnational “Council of Newton” composed of leading scientists and artists. The connection is entirely posthumous and textual: Newton died in 1727, decades before Saint-Simon’s birth. [Stanford’s Saint-Simon exhibit](https://exhibits.stanford.edu/super-e/feature/claude-henri-de-rouvroy-de-saint-simon-1760-1825), [BnF authority and works record](https://data.bnf.fr/fr/see_all_activities/11923405/page1)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Alexander Hamilton** [T4]
+- **Paul the Apostle** [T1-]
+- **Charlemagne** [T2- unresolved]
+- **Friedrich August von Hayek** [T1+]
+- **George Washington** [T4]
+- **Jesus of Nazareth** [T1-]
+- **Joseph-Louis Lagrange** [T5]
+- **Karl Marx** [T1+]
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T4]
+- **Napoleon Bonaparte** [T1-]
+- **Sir Isaac Newton** [T1-]
+- **Joseph Alois Schumpeter** [T1+] (mirrored from joseph_schumpeter.dossier.md)
+- **Herbert Marcuse** [T1+] (mirrored from herbert_marcuse.dossier.md)
+- **Mikhail Aleksandrovich Bakunin** [T1+] (mirrored from mikhail_bakunin.dossier.md)
+- **Francois Marie Charles Fourier** [T3] (mirrored from charles_fourier.dossier.md)
+
 ## Sources
 
 https://catalogue.bnf.fr/ark:/12148/cb11923405t

@@ -682,6 +682,39 @@ Trotsky survives as armored-train commander, exiled prophet, erased photograph, 
 
 No adequately supported T2 prophecy/hyperstition or T9 shared-object/site connection was identified among the roster. Mere contemporaneity, indirect ideological descent, or presence in the same country has therefore not been entered as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **André Breton** [T5]
+- **André Breton** [T3]
+- **Antonio Francesco Gramsci** [T3]
+- **Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez** [T5]
+- **Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez** [T3]
+- **Frida Kahlo** [T5]
+- **George Orwell** [T1+]
+- **John Dewey** [T5]
+- **John Dewey** [T3]
+- **Karl Marx** [T1-]
+- **Mohandas Karamchand Gandhi** [T3]
+- **Benito Mussolini** [T3]
+- **Rosa Luxemburg** [T3]
+- **Rosa Luxemburg** [T1-]
+- **Sigmund Freud** [T3]
+- **Vladimir Ilyich Ulyanov** [T5]
+- **Vladimir Ilyich Ulyanov** [T3]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Walter Benjamin** [T1+]
+- **George Orwell** [T3] (mirrored from george_orwell.dossier.md)
+- **Wilhelm Reich** [T3] (mirrored from reich.dossier.md)
+- **Vladimir Medem** [T3] (mirrored from vladimir_medem.dossier.md)
+- **Rudolf Rocker** [T3] (mirrored from rudolf_rocker.dossier.md)
+- **Aron Iosifovich Kremer** [T4] (mirrored from arkadi_kremer.dossier.md)
+- **Roland Gérard Barthes** [T3] (mirrored from roland_barthes.dossier.md)
+- **Rosa Luxemburg** [T5] (mirrored from rosa_luxemburg.dossier.md)
+- **Nicos Poulantzas** [T1+] (mirrored from nicos_poulantzas.dossier.md)
+- **Victor Alter** [T4] (mirrored from victor_alter.dossier.md)
+
 ## Sources
 
 https://hollisarchives.lib.harvard.edu/catalog/hou00301

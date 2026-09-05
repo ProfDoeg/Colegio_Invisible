@@ -1338,6 +1338,19 @@ No source-supported personal meeting, correspondence, collaboration, rivalry, fa
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Allen Welsh Dulles** [T3]
+- **Jean-Paul Charles Aymard Sartre** [T1+]
+- **Ernesto "Che" Guevara** [T1+]
+- **Mao Zedong** [T1+] (mirrored from mao_zedong.dossier.md)
+- **John Fitzgerald Kennedy** [T4] (mirrored from john_f_kennedy.dossier.md)
+- **Karl Marx** [T1-] (mirrored from karl_marx.dossier.md)
+- **Fidel Alejandro Castro Ruz** [T1+] (mirrored from fidel_castro.dossier.md)
+- **Allen Welsh Dulles** [T4] (mirrored from allen_dulles.dossier.md)
+
 ## Sources
 
 https://www.lachambre.be/kvvcr/showpage.cfm?language=fr&rightmenu=right_publications&section=%7Ccomm%7Clmb&story=lmb.xml

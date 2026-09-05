@@ -415,6 +415,17 @@ Her most concrete legacy is constitutional: a community of women secured the rig
 
 No qualifying personal, textual, prophetic, proximity, or shared-object crossing was found for the remaining roster members. In particular, shared Franciscan identity or contemporaneity does not establish a crossing with Anthony of Padua or Giovanni da Pian del Carpine, and no reliable source documents Clare meeting Pica Bourlémont.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Francis of Assisi** [T5]
+- **Francis of Assisi** [T3]
+- **Francis of Assisi** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Jacobus de Voragine** [T1+]
+- **Saint Anthony of Padua** [T4] (mirrored from st_anthony_of_padua_1195_1231.dossier.md)
+
 ## Sources
 
 https://digitalcollections.franciscantradition.org/pages/early-sources-table-of-contents

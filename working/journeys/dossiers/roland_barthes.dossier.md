@@ -1027,6 +1027,40 @@ The strongest personal or institutional atlas connections are with **Michel Fouc
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Camus** [T3]
+- **Achille-Claude Debussy** [T3]
+- **Friedrich Nietzsche** [T3]
+- **Karl Marx** [T3]
+- **Vladimir Ilyich Ulyanov** [T3]
+- **Lev Davidovich Bronstein** [T3]
+- **Jean-Paul Charles Aymard Sartre** [T3]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T9-]
+- **Gilles Louis Rene Deleuze** [T9-]
+- **Pierre-Félix Guattari** [T9-]
+- **Claude Lévi-Strauss** [T4]
+- **Jacques Marie Émile Lacan** [T5]
+- **Jacques Derrida** [T5]
+- **René Noël Théophile Girard** [T5]
+- **Paul-Michel Foucault** [T5]
+- **Marcel Proust** [T1-]
+- **Gustave Flaubert** [T1-]
+- **Honoré de Balzac** [T1-]
+- **Mao Zedong** [T4]
+- **Sigmund Freud** [T3]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3] (mirrored from simone_de_beauvoir.dossier.md)
+- **James Augustine Aloysius Joyce** [T1-] (mirrored from james_joyce.dossier.md)
+- **Jean Baudrillard** [T5] (mirrored from jean_baudrillard.dossier.md)
+- **Pierre-Félix Guattari** [T4] (mirrored from felix_guattari.dossier.md)
+- **René Noël Théophile Girard** [T4] (mirrored from rene_girard.dossier.md)
+- **Gilles Louis Rene Deleuze** [T4] (mirrored from gilles_deleuze.dossier.md)
+- **Jacques Marie Émile Lacan** [T4] (mirrored from jacques_lacan.dossier.md)
+- **Paul-Michel Foucault** [T4] (mirrored from michel_foucault.dossier.md)
+- **Francois Marie Charles Fourier** [T1-] (mirrored from charles_fourier.dossier.md)
+
 ## Chronology
 
 | Date | Event |

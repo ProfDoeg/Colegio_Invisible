@@ -1018,6 +1018,41 @@ The great majority of the 896 atlas names have no documented direct intersection
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **George Herbert Walker Bush** [T5]
+- **Prescott Sheldon Bush** [T5]
+- **William Jefferson Clinton** [T5]
+- **Hillary Diane Rodham Clinton** [T4]
+- **Benjamin Netanyahu** [T5]
+- **Nelson Rolihlahla Mandela** [T5]
+- **Saddam Hussein al-Tikriti** [T4]
+- **George Soros** [T9-]
+- **Kenneth Lee Lay** [T5]
+- **James "Jamie" Dimon** [T4] (mirrored from jamie_dimon.dossier.md)
+- **Hugo Rafael Chávez Frías** [T4] (mirrored from hugo_chavez.dossier.md)
+- **Nelson Rolihlahla Mandela** [T9+] (mirrored from nelson_mandela.dossier.md)
+- **Silvio Berlusconi** [T5] (mirrored from silvio_berlusconi.dossier.md)
+- **Steven Allan Spielberg** [T5] (mirrored from stephen_spielberg.dossier.md)
+- **Sheldon Gary Adelson** [T5] (mirrored from sheldon_adelson.dossier.md)
+- **Arthur Ben** [T3] (mirrored from arthur_ben.dossier.md)
+- **Fred McFeely Rogers** [T5] (mirrored from fred_rogers.dossier.md)
+- **Saddam Hussein al-Tikriti** [T3] (mirrored from saddam_hussein.dossier.md)
+- **Leslie Herbert Wexner** [T4] (mirrored from leslie_wexner.dossier.md)
+- **George Soros** [T3] (mirrored from george_soros.dossier.md)
+- **Benjamin Netanyahu** [T4] (mirrored from benjamin_netanyahu.dossier.md)
+- **Milton Friedman** [T5] (mirrored from milton_friedman.dossier.md)
+- **Mark Lombardi** [T1+] (mirrored from mark_lombardi.dossier.md)
+- **Paul Elliott Singer** [T5] (mirrored from paul_singer.dossier.md)
+- **Cristina Elisabet Fernández de Kirchner** [T5] (mirrored from cristina_fernandez_de_kirchner.dossier.md)
+- **Volodymyr Oleksandrovych Zelenskyy** [T5] (mirrored from volodymyr_zelenskyy.dossier.md)
+- **Diego Armando Maradona** [T4] (mirrored from diego_maradona.dossier.md)
+- **Kenneth Lee Lay** [T3] (mirrored from kenneth_lay.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+- **Muammar Muhammad Abu Minyar al-Gaddafi** [T3] (mirrored from muammar_gaddafi.dossier.md)
+
 ## Compact Chronology
 
 | Date/year | Event |

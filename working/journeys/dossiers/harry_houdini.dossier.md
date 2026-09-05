@@ -1010,6 +1010,19 @@ No single interpretation exhausts the record. His enduring subject was not simpl
 - **[T3] Documented fact:** Houdini and Doyle maintained extensive correspondence from at least **March 1920** into the mid-1920s concerning Spiritualism, séances, spirit photography, Houdini’s films, and the *Scientific American* tests. Letters in both directions survive in institutional collections. [Library of Congress finding aid](https://findingaids.loc.gov/exist_collections/ead3pdf/rbc/2019/rb019002.pdf), [Harry Ransom Center Doyle collection](https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00788)
 - **[T5] Documented fact:** Houdini met Doyle and his family in Britain on **14 April 1920**. Their subsequent personal meetings included the Doyles’ **17–18 June 1922** Atlantic City visit, during which Jean Conan Doyle produced the disputed automatic-writing “Mama” message. The men’s friendship later deteriorated into a public controversy over paranormal evidence. [Harry Ransom Center Houdini finding aid](https://norman.hrc.utexas.edu/fasearch/pdf/01275.pdf)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Lyman Frank Baum** [T4]
+- **Howard Phillips Lovecraft** [T3]
+- **Sarah Bernhardt** [T3]
+- **Sarah Bernhardt** [T5]
+- **Sarah Bernhardt** [T9+]
+- **Sir Arthur Ignatius Conan Doyle** [T3]
+- **Sir Arthur Ignatius Conan Doyle** [T5]
+- **Howard Phillips Lovecraft** [T5] (mirrored from h_p_lovecraft.dossier.md)
+
 ## Sources
 
 https://research.hrc.utexas.edu/fasearch/pdf/01276.pdf

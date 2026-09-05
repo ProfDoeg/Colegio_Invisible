@@ -943,6 +943,23 @@ Only source-supported intersections with names in the supplied atlas roster are 
 
 No supported connections were located between Skoronel and the remainder of the atlas roster. Given the size of the roster and the incompleteness of her archive, this is an absence-of-evidence finding, not proof that every possible encounter did not occur.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Rudolf Laban** [T5]
+- **Suzanne Perrottet** [T5]
+- **Katja Wulff** [T5]
+- **Mary Wigman** [T5]
+- **Hanya Holm** [T4]
+- **Friedrich Max Müller** [T5]
+- **Dore Hoyer** [T4]
+- **Valeska Gert** [T4]
+- **Isadora Duncan** [T3]
+- **Rudolf Steiner** [T9-]
+- **Hanya Holm** [T5] (mirrored from hanya_holm.dossier.md)
+- **Charlotte Bara** [T5] (mirrored from charlotte_bara.dossier.md)
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd12855603X.html

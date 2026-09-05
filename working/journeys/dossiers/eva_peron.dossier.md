@@ -924,6 +924,27 @@ No sufficiently documented meeting, correspondence, collaboration, or acknowledg
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Juan Domingo Perón** [T5]
+- **Christian Dior** [T9-]
+- **Enrique Santos Discépolo** [T4]
+- **María Estela Martínez Cartas de Perón** [T9+]
+- **José López Rega** [T9+]
+- **Cristina Elisabet Fernández de Kirchner** [T1+]
+- **José López Rega** [T4] (mirrored from jose_lopez_rega.dossier.md)
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **Mario Palanti** [T9-] (mirrored from mario_palanti.dossier.md)
+- **Enrique Santos Discépolo** [T5] (mirrored from enrique_santos_discepolo.dossier.md)
+- **Griselda Blanco Restrepo** [T9+] (mirrored from griselda_blanco.dossier.md)
+- **Luis Perlotti** [T9-] (mirrored from luis_perlotti.dossier.md)
+- **Marta María Ezcurra Real de Azúa** [T9+] (mirrored from marta_ezcurra.dossier.md)
+- **Victoria Ocampo** [T4] (mirrored from victoria_ocampo.dossier.md)
+- **Jorge Luis Borges** [T3] (mirrored from borges.dossier.md)
+- **Ronald Richter** [T5] (mirrored from ronald_richter.dossier.md)
+
 ## Chronology
 
 | Date | Event |

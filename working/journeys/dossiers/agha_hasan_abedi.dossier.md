@@ -1168,6 +1168,16 @@ No reliable direct crossing was found between Abedi and the remaining atlas name
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Clark McAdams Clifford** [T5]
+- **Manuel Antonio Noriega Moreno** [T9+]
+- **Saddam Hussein al-Tikriti** [T9+]
+- **Adnan Muhammad Khashoggi** [T4] (mirrored from adnan_khashoggi.dossier.md)
+- **Mark Lombardi** [T1+] (mirrored from mark_lombardi.dossier.md)
+
 ## Chronology
 
 - **14 May 1922:** Born in Lucknow, British India, into a Muslim family associated with the Mahmudabad estate.

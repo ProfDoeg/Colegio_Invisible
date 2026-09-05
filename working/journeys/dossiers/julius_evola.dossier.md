@@ -690,6 +690,36 @@ The 2022 MART retrospective and 2025 catalogue raisonné reinserted him into his
 - **[T5] Reported fact:** Serrano’s chronology and later recollections place a personal visit to Evola’s apartment at Corso Vittorio Emanuele II 197 in Rome in 1970. Serrano described a conversation with the wheelchair-bound Evola and a moment in which Evola called him back as he was leaving. The visit is credible self-report; Serrano’s suggestion that Evola might have intended to disclose a final secret is explicitly speculative. [Serrano chronology](https://www.miguelserrano.cl/site/vida-cronologia/1967-1970/); [Serrano’s later recollection](https://miguelserrano.org/wp-content/uploads/2024/11/The-Golden-Thread.pdf)
 - **[T1+] Documented fact:** After Evola’s death, Serrano wrote about the encounter in “El secreto de Julius Evola,” published in *Hiperbórea* no. 2 (1992) and incorporated into *Nuestro honor se llama lealtad* (1994). Serrano appropriated Evolian themes within his own Esoteric Hitlerism, but this later synthesis cannot be attributed back to Evola as a shared doctrine. [Serrano bibliography](https://www.miguelserrano.cl/site/obra-bibliografia/1990-2000/); [Nuestro honor se llama lealtad](https://www.miguelserrano.cl/site/nuestro-honor-se-llama-lealtad/)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aleksandr Gelyevich Dugin** [T1+]
+- **Annie Besant** [T3]
+- **Helena Petrovna Blavatsky** [T1-]
+- **Dante Alighieri** [T1-]
+- **Gabriele d'Annunzio** [T3]
+- **Filippo Tommaso Emilio Marinetti** [T5]
+- **Johann Gottlieb Fichte** [T1-]
+- **Sigmund Freud** [T3]
+- **G. I. Gurdjieff** [T3]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Jiddu Krishnamurti** [T3]
+- **Carl Gustav Jung** [T3]
+- **Mircea Eliade** [T5]
+- **Benito Mussolini** [T5]
+- **Friedrich Nietzsche** [T1-]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T1-]
+- **René Guénon** [T3]
+- **Rudolf Steiner** [T1-]
+- **Giuseppe Tucci** [T3]
+- **Miguel Serrano** [T5]
+- **Miguel Serrano** [T3] (mirrored from serrano.dossier.md)
+- **Mircea Eliade** [T3] (mirrored from mircea_eliade.dossier.md)
+- **Filippo Tommaso Emilio Marinetti** [T4] (mirrored from f_t_marinetti.dossier.md)
+- **Friedrich Nietzsche** [T3] (mirrored from nietzsche.dossier.md)
+- **Savitri Devi** [T3] (mirrored from savitri_devi.dossier.md)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/giulio-cesare-andrea-evola_(Dizionario-Biografico)/

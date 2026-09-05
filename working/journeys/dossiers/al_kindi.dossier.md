@@ -987,6 +987,25 @@ No other atlas-roster intersection was securely established. Mere participation 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Plato** [T3]
+- **Archimedes of Syracuse** [T9-]
+- **Al-Khalil ibn Ahmad al-Farahidi** [T9-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Roger Bacon** [T1+]
+- **Albertus Magnus** [T3]
+- **Maslama ibn Qasim al-Qurtubi** [T1+] (mirrored from maslama_al_qurtubi.dossier.md)
+- **Taj al-Din Ali ibn Muhammad Ibn al-Durayhim al-Mawsili** [T1+] (mirrored from ibn_al_durayhim.dossier.md)
+- **Plato** [T1-] (mirrored from plato.dossier.md)
+- **Ahmad al-Majriti** [T1+] (mirrored from ahmad_al_majriti.dossier.md)
+- **Afif al-Din Ali ibn Adlan al-Mawsili** [T1+] (mirrored from ibn_adlan.dossier.md)
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1+] (mirrored from heinrich_cornelius_agrippa.dossier.md)
+- **Aristotle** [T3] (mirrored from aristotle.dossier.md)
+
 ## Chronology
 
 | Date | Event | Status |

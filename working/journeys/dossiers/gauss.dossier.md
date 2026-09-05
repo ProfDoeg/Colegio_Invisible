@@ -1160,6 +1160,31 @@ No documentary crossing was found with most of the 896-person Atlas roster. This
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander von Humboldt** [T5]
+- **Alexander von Humboldt** [T3]
+- **Carl Gustav Jacob Jacobi** [T5]
+- **Pierre-Simon Laplace** [T3]
+- **Joseph-Louis Lagrange** [T3]
+- **Leonhard Euler** [T3]
+- **Sir Isaac Newton** [T3]
+- **Archimedes of Syracuse** [T9-]
+- **Jean-Baptiste Joseph Fourier** [T9+]
+- **Albert Einstein** [T9+]
+- **Amalie Emmy Noether** [T9+]
+- **Felix Christian Klein** [T9+]
+- **Johann Elert Bode** [T3] (mirrored from johann_bode.dossier.md)
+- **Leonhard Euler** [T1-] (mirrored from leonard_euler.dossier.md)
+- **Sir George Gabriel Stokes** [T1+] (mirrored from george_gabriel_stokes.dossier.md)
+- **Felix Christian Klein** [T1+] (mirrored from felix_klein.dossier.md)
+- **Évariste Galois** [T3] (mirrored from evariste_galois.dossier.md)
+- **Sir Isaac Newton** [T1-] (mirrored from newton.dossier.md)
+- **Siméon Denis Poisson** [T3] (mirrored from simeon_denis_poisson.dossier.md)
+- **Joseph-Louis Lagrange** [T1-] (mirrored from joseph_louis_lagrange.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

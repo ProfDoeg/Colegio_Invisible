@@ -562,6 +562,25 @@ In contemporary technology discourse, the Golem is invoked as an ancestor of rob
 
 No documented T2 prophecy/hyperstition or T9 shared-object connection with any roster member was identified. Mere influence, later analogy, claimed descent, common geography, or participation in the broader Golem tradition has not been promoted to an atlas connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aaron the Levite** [T1-]
+- **Abraham** [T1-]
+- **Alexander the Great** [T1-]
+- **Aristotle** [T1-]
+- **Cyrus the Great** [T1-]
+- **David ben Jesse** [T1-]
+- **Maimonides** [T1-]
+- **Moses** [T1-]
+- **Nabucodonosor II** [T1-]
+- **Noah son of Lamech** [T1-]
+- **Rashi** [T1-]
+- **King Solomon** [T1-]
+- **Norbert Wiener** [T1+] (mirrored from norbert_wiener.dossier.md)
+- **Jorge Luis Borges** [T1+] (mirrored from borges.dossier.md)
+
 ## Sources
 
 https://www.academia.edu/17803222/Judah_Loew_ben_Bezalel_called_Maharal_A_Study_on_His_Genealogy_and_Biography

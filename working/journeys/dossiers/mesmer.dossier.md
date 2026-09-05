@@ -969,6 +969,28 @@ No reliable direct intersection with the other named atlas figures was identifie
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Benjamin Franklin** [T3]
+- **Wolfgang Amadeus Mozart** [T4]
+- **Jean-Jacques Rousseau** [T9-]
+- **Louis XVI** [T4]
+- **Marie Adrienne Françoise de Noailles** [T4]
+- **Napoleon Bonaparte** [T1+]
+- **Sigmund Freud** [T9+]
+- **Carl Gustav Jung** [T9+]
+- **Emanuel Swedenborg** [T9-]
+- **Giuseppe Balsamo** [T9+]
+- **The Comte de Saint-Germain** [T9-]
+- **Helena Petrovna Blavatsky** [T9+]
+- **Wolfgang Amadeus Mozart** [T1+] (mirrored from wolfgang_amadeus_mozart.dossier.md)
+- **Wolfgang Amadeus Mozart** [T5] (mirrored from wolfgang_amadeus_mozart.dossier.md)
+- **Benjamin Franklin** [T4] (mirrored from benjamin_franklin.dossier.md)
+- **Helena Petrovna Blavatsky** [T1+] (mirrored from blavatsky.dossier.md)
+- **Antoine Court de Gébelin** [T5] (mirrored from antoine_court_de_gebelin.dossier.md)
+
 ## Chronology
 
 | Date | Event |

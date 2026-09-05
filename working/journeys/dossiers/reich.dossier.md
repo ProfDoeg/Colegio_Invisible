@@ -1304,6 +1304,32 @@ Oppenheimer-related clippings appear in the Reich archive index, but that alone 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Sigmund Freud** [T5]
+- **Albert Einstein** [T5]
+- **Erich Seligmann Fromm** [T4]
+- **Karl Marx** [T1-]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Lev Davidovich Bronstein** [T3]
+- **Benito Mussolini** [T1-]
+- **Elsa Lindenberg** [T5]
+- **Elsa Gindler** [T3]
+- **Rosa Luxemburg** [T3]
+- **Max Horkheimer** [T4]
+- **Theodor W. Adorno** [T4]
+- **Herbert Marcuse** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Pierre-Félix Guattari** [T1+]
+- **William Seward Burroughs II** [T1+]
+- **Friedrich Nietzsche** [T3]
+- **William Seward Burroughs II** [T3] (mirrored from william_s_burroughs.dossier.md)
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **Elsa Gindler** [T9-] (mirrored from elsa_gindler.dossier.md)
+
 ## Chronology
 
 | Date | Event |

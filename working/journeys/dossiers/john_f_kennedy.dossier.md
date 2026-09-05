@@ -1314,6 +1314,51 @@ Despite the roster’s size, most listed figures have no documented biographical
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T1-]
+- **Allen Welsh Dulles** [T5]
+- **John Foster Dulles** [T1-]
+- **Fidel Alejandro Castro Ruz** [T3]
+- **Ernesto "Che" Guevara** [T4]
+- **David Ben-Gurion** [T3]
+- **Golda Meir** [T5]
+- **Mohammad Reza Shah Pahlavi** [T5]
+- **Haile Selassie I** [T5]
+- **Ian Lancaster Fleming** [T5]
+- **Clark McAdams Clifford** [T5]
+- **Patrice Émery Lumumba** [T4]
+- **J. Robert Oppenheimer** [T3]
+- **Niels Bohr** [T1-]
+- **David Rockefeller** [T5]
+- **Prescott Sheldon Bush** [T4]
+- **Avram Noam Chomsky** [T1+]
+- **John Maynard Keynes** [T1-]
+- **Adam Smith** [T1-]
+- **George Washington** [T1-]
+- **Thomas Jefferson** [T1-]
+- **Benjamin Franklin** [T1-]
+- **Alexander Hamilton** [T1-]
+- **Christopher Columbus** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **William Jefferson Clinton** [T5] (mirrored from bill_clinton.dossier.md)
+- **Igor Fyodorovich Stravinsky** [T5] (mirrored from igor_stravinsky.dossier.md)
+- **Igor Fyodorovich Stravinsky** [T1+] (mirrored from igor_stravinsky.dossier.md)
+- **John Foster Dulles** [T5] (mirrored from john_foster_dulles.dossier.md)
+- **Joseph Hubertus Pilates** [T3] (mirrored from joseph_pilates.dossier.md)
+- **Katherine Johnson** [T1+] (mirrored from katherine_johnson.dossier.md)
+- **Meyer Lansky** [T4] (mirrored from meyer_lansky.dossier.md)
+- **William Egan Colby** [T5] (mirrored from william_colby.dossier.md)
+- **David Ben-Gurion** [T5] (mirrored from david_ben_gurion.dossier.md)
+- **Ian Lancaster Fleming** [T3] (mirrored from ian_fleming.dossier.md)
+- **Ernesto "Che" Guevara** [T9+] (mirrored from che_guevara.dossier.md)
+- **Robert Moses** [T3] (mirrored from robert_moses.dossier.md)
+- **Robert Moses** [T5] (mirrored from robert_moses.dossier.md)
+- **J. Robert Oppenheimer** [T9+] (mirrored from robert_oppenheimer.dossier.md)
+- **Martha Graham** [T4] (mirrored from martha_graham.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -1161,6 +1161,42 @@ No supported personal or institutional crossing was established in the consulted
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T1-]
+- **Charles John Huffam Dickens** [T3]
+- **Charles Robert Darwin** [T3]
+- **Andrew Carnegie** [T5]
+- **Nikola Tesla** [T5]
+- **Thomas Alva Edison** [T5]
+- **William James** [T4]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T3]
+- **Herbert George Wells** [T5]
+- **Sarah Bernhardt** [T4]
+- **Thomas Jefferson** [T1-]
+- **George Washington** [T1-]
+- **Benjamin Franklin** [T1-]
+- **Christopher Columbus** [T1-]
+- **Cecil John Rhodes** [T3]
+- **Sigmund Freud** [T3]
+- **Merlin** [T1-] (mirrored from merlin.dossier.md)
+- **José Julián Martí Pérez** [T3] (mirrored from jose_marti.dossier.md)
+- **Theodor W. Adorno** [T1+] (mirrored from theodor_adorno.dossier.md)
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T5] (mirrored from oscar_wilde.dossier.md)
+- **Theodor Herzl** [T5] (mirrored from theodor_herzl.dossier.md)
+- **Theodor Herzl** [T1+] (mirrored from theodor_herzl.dossier.md)
+- **Andrew Carnegie** [T3] (mirrored from andrew_carnegie.dossier.md)
+- **Thomas Alva Edison** [T9-] (mirrored from thomas_edison.dossier.md)
+- **Morgan le Fay** [T1-] (mirrored from morgan-le-fay.dossier.md)
+- **John Pierpont Morgan** [T3] (mirrored from j_p_morgan.dossier.md)
+- **Cornelius Vanderbilt** [T1-] (mirrored from cornelius_vanderbilt.dossier.md)
+- **Sir Arthur Ignatius Conan Doyle** [T3] (mirrored from sir_arthur_conan_doyle.dossier.md)
+- **John Davison Rockefeller Sr.** [T3] (mirrored from john_d_rockefeller_sr.dossier.md)
+- **Pocahontas** [T1-] (mirrored from pocahontas.dossier.md)
+- **Joan of Arc** [T1-] (mirrored from joan_of_arc.dossier.md)
+
 ## Chronology
 
 | Date | Event |

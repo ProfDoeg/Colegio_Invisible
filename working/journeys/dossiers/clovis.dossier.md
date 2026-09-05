@@ -840,6 +840,18 @@ Only connections supported by the consulted evidence are included. Mere chronolo
 
 No reliable crossing was found with the other atlas names. In particular, contemporaneity, residence somewhere in the Roman world, or participation in later French history was not treated by itself as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Sainte Clotilde** [T5]
+- **Constantine the Great** [T9-]
+- **Charlemagne** [T9+]
+- **Jesus of Nazareth** [T9-]
+- **Louis XIV** [T9+]
+- **Joan of Arc** [T9+]
+- **Saint Denis of Paris** [T9-] (mirrored from saint_denis.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event | Evidentiary status |

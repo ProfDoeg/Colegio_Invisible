@@ -534,6 +534,21 @@ Reinterpretation is ongoing. Sympathetic accounts present a philosopher-builder 
 
 No additional roster crossing was included where the available material showed only shared subject matter, general institutional overlap, political contributions, indirect network adjacency, or unverified claims.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **William Henry Gates III** [T5]
+- **Elon Reeve Musk** [T5]
+- **Ghislaine Noelle Marion Maxwell** [T5]
+- **Jeffrey Edward Epstein** [T5]
+- **Marc Lowell Andreessen** [T5]
+- **Max Rafailovich Levchin** [T5]
+- **Peter Andreas Thiel** [T5]
+- **Samuel Harris Altman** [T5]
+- **Yuval Noah Harari** [T5]
+- **Yoshua Bengio** [T4] (mirrored from yoshua_bengio.dossier.md)
+
 ## Sources
 
 https://achievement.org/achiever/reid-hoffman/

@@ -1243,6 +1243,26 @@ No other atlas-roster connection met the documentary threshold. In particular, s
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham ben Samuel Abulafia** [T3]
+- **André Breton** [T5]
+- **Antonin Artaud** [T3]
+- **Antoni Gaudí i Cornet** [T1-]
+- **Carl Gustav Jung** [T3]
+- **Edgar Allan Poe** [T1-]
+- **Friedrich Nietzsche** [T3]
+- **Igor Fyodorovich Stravinsky** [T3]
+- **Mircea Eliade** [T3]
+- **Pablo Ruiz Picasso** [T3]
+- **Ramon Llull** [T3]
+- **René Guénon** [T3]
+- **William Blake** [T3]
+- **Wilhelm Richard Wagner** [T1-]
+- **Federico García Lorca** [T3] (mirrored from federico_garcia_lorca.dossier.md)
+
 ## Chronology
 
 - **1916, 9 April:** Born in Barcelona to Juan Cirlot Nieto and María Laporta Blanco.

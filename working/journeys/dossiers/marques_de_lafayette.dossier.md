@@ -1166,6 +1166,27 @@ No defensible direct connection was established with most of the remaining 896 n
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Marie Adrienne Françoise de Noailles** [T5]
+- **George Washington** [T5]
+- **Benjamin Franklin** [T5]
+- **Alexander Hamilton** [T5]
+- **Thomas Jefferson** [T5]
+- **Louis XVI** [T5]
+- **Napoleon Bonaparte** [T4]
+- **Empress Joséphine** [T4]
+- **Francisco de Miranda** [T4]
+- **Simón Bolívar** [T3]
+- **Harold Thomas Finney II** [T9+]
+- **Napoleon Bonaparte** [T5] (mirrored from napoleon.dossier.md)
+- **Francisco de Miranda** [T5] (mirrored from miranda.dossier.md)
+- **Frédéric Auguste Bartholdi** [T1+] (mirrored from frederic_auguste_bartholdi.dossier.md)
+- **Claude-Henri de Rouvroy** [T4] (mirrored from henri_de_saint_simon.dossier.md)
+- **Alexandre Dumas** [T5] (mirrored from alexandre_dumas.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

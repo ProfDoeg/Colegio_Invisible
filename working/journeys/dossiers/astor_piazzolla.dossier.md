@@ -150,6 +150,22 @@ timeline
 
 No additional roster crossing was included where the available evidence established only influence, admiration, shared nationality, contemporaneity, or use of the same cultural tradition without a documented encounter or qualifying exchange.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Carlos Gardel** [T5]
+- **Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez** [T5]
+- **Igor Fyodorovich Stravinsky** [T5]
+- **Jorge Luis Borges** [T3]
+- **Nadia Boulanger** [T5]
+- **Osvaldo Pedro Pugliese** [T3]
+- **Osvaldo Pedro Pugliese** [T4] (mirrored from osvaldo_pugliese.dossier.md)
+- **Dalila Puzzovio** [T5] (mirrored from dalila_puzzovio.dossier.md)
+- **Francesco Tamburini** [T9-] (mirrored from francesco_tamburini.dossier.md)
+- **Enrique Santos Discépolo** [T9-] (mirrored from enrique_santos_discepolo.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T4] (mirrored from julio_cortazar.dossier.md)
+
 ## Sources  
 The above account is drawn from primary and scholarly sources. Key references include María Susana Azzi’s authoritative biography (English and Spanish editions) and Piazzolla’s own memoir (Gorin). Contemporary journalism (e.g. *El País*, *Los Angeles Times*) and official archives (the AstorPiazzolla Foundation site) provided details and eyewitness accounts. Spanish-language sources were used for local context and quotes. Below is a list of all cited sources and consulted links (deduplicated) used in this report: 
 

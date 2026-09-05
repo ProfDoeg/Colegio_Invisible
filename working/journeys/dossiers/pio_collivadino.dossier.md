@@ -891,6 +891,19 @@ No meeting, correspondence, collaboration, institutional tie, or acknowledged in
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **María Estela Martínez Cartas de Perón** [T5]
+- **Luis Perlotti** [T4]
+- **Pedro Subercaseaux Errázuriz** [T4]
+- **Ángel della Valle** [T9-]
+- **Francisco Gianotti** [T9-] (mirrored from francisco_gianotti.dossier.md)
+- **Ángel della Valle** [T4] (mirrored from angel_della_valle.dossier.md)
+- **Luis Perlotti** [T5] (mirrored from luis_perlotti.dossier.md)
+- **Alejandro Christophersen** [T4] (mirrored from alejandro_christophersen.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -620,6 +620,19 @@ The research stopped after targeted follow-up because the principal chronologica
 
 No additional roster crossing was included merely because Bernays mentioned a historical figure, shared an era or city with someone, drew on a broad intellectual tradition, or worked near institutions associated with that person. In particular, Light’s Golden Jubilee involved John D. Rockefeller **Jr.** and J. P. Morgan **Jr.**; those identities should not be conflated with the roster entries for John D. Rockefeller Sr. and John Pierpont Morgan Sr.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Sigmund Freud** [T3]
+- **Sigmund Freud** [T5]
+- **Sigmund Freud** [T1-]
+- **Sergei Pavlovich Diaghilev** [T3]
+- **Vaslav Nijinsky** [T3]
+- **Thomas Alva Edison** [T3]
+- **Thomas Alva Edison** [T1-]
+- **Maria Salomea Skłodowska-Curie** [T4]
+
 ## Sources
 
 https://www.loc.gov/item/mm78012534/

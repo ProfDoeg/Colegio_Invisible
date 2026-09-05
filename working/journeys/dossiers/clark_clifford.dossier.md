@@ -1328,6 +1328,18 @@ No personal connection was possible. Any intellectual reference by Clifford to e
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **John Fitzgerald Kennedy** [T5]
+- **David Ben-Gurion** [T3]
+- **Chaim Azriel Weizmann** [T4]
+- **Allen Welsh Dulles** [T4]
+- **John Foster Dulles** [T4]
+- **Chaim Azriel Weizmann** [T3] (mirrored from chaim_weizmann.dossier.md)
+- **Agha Hasan Abedi** [T5] (mirrored from agha_hasan_abedi.dossier.md)
+
 ## Chronology
 
 | Date | Event |

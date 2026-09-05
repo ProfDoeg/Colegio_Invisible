@@ -492,6 +492,26 @@ His afterlives coexist rather than resolve into one figure: patriotic memorialis
 
 - **[T1+] Documented fact:** Yates opened *The Art of Memory* (1966) with the Ciceronian story of Simonides and made its principles of ordered places and images the starting point for her history of classical, medieval, and Renaissance mnemonics. Her treatment was a major modern act of reception, while accepting the story principally as the tradition’s foundational narrative rather than contemporary evidence for Simonides’ life. [Yates, *The Art of Memory*](https://www.aproged.pt/biblioteca/Yatestheartofmemory.pdf)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Homer** [T1-]
+- **Pindar of Thebes** [T4]
+- **Herodotus of Halicarnassus** [T1+]
+- **Plato** [T1+]
+- **Aristotle** [T1+]
+- **Strabo of Amaseia** [T1+]
+- **Marcus Tullius Cicero** [T1+]
+- **Plinio el Viejo** [T1+]
+- **Marcus Fabius Quintilianus** [T1+]
+- **Claudius Aelianus** [T1+]
+- **Giordano Bruno** [T1+]
+- **Frances Amelia Yates** [T1+]
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Johannes Cusanus** [T1+] (mirrored from johannes_cusanus.dossier.md)
+- **Hesiod of Ascra** [T3] (mirrored from hesiod.dossier.md)
+
 ## Sources
 
 https://www.cs.uky.edu/~raphael/sol/sol-cgi-bin/search.cgi?db=REAL&enlogin=4eef9785f850a234b084512e55e7677f&field=adlerhw_gr&login=lucilius&searchstr=sigma%2C439

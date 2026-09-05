@@ -1272,6 +1272,19 @@ No reliably supported direct crossing was found with Fidel Castro, Salvador Alle
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Juan Domingo Perón** [T5]
+- **Eva Duarte de Perón** [T9-]
+- **José López Rega** [T5]
+- **Augusto Pinochet Ugarte** [T5]
+- **Licio Gelli** [T5]
+- **Javier Gerardo Milei** [T3]
+- **Pío Collivadino** [T5] (mirrored from pio_collivadino.dossier.md)
+- **Cristina Elisabet Fernández de Kirchner** [T9+] (mirrored from cristina_fernandez_de_kirchner.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

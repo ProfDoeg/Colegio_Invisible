@@ -1046,6 +1046,32 @@ No documented personal crossing or sufficiently explicit intellectual relationsh
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Plato** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Albertus Magnus** [T4]
+- **Thomas Aquinas** [T4]
+- **Francis of Assisi** [T9-]
+- **Francis Bacon** [T1+]
+- **Christopher Columbus** [T9+]
+- **John Dee** [T9+]
+- **Ramon Llull** [T9+]
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **John Uri Lloyd** [T1+] (mirrored from john_uri_lloyd.dossier.md)
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1+] (mirrored from heinrich_cornelius_agrippa.dossier.md)
+- **Giovanni da Pian del Carpine** [T1-] (mirrored from giovanni_da_pian_del_carpine.dossier.md)
+- **Christopher Columbus** [T3] (mirrored from columbus.dossier.md)
+- **Abu Yusuf Ya'qub ibn Ishaq al-Kindi** [T1-] (mirrored from al_kindi.dossier.md)
+- **Athanasius Kircher** [T9+] (mirrored from kircher.dossier.md)
+- **John Dee** [T3] (mirrored from john_dee.dossier.md)
+- **Arthur Edward Waite** [T1+] (mirrored from arthur_edward_waite.dossier.md)
+- **Paracelsus** [T1+] (mirrored from paracelsus.dossier.md)
+- **Leonardo di ser Piero da Vinci** [T1+] (mirrored from leonardo_da_vinci.dossier.md)
+
 ## Sources
 
 https://plato.stanford.edu/entries/roger-bacon/

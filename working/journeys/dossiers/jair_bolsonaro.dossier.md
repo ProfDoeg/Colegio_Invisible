@@ -1104,6 +1104,16 @@ No additional direct connection was established from the sources consulted. Shar
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Benjamin Netanyahu** [T5]
+- **Elon Reeve Musk** [T5]
+- **Javier Gerardo Milei** [T5]
+- **Volodymyr Oleksandrovych Zelenskyy** [T3]
+- **Paulo Reglus Neves Freire** [T1-] (mirrored from paulo_freire.dossier.md)
+
 ## Chronology
 
 - **21 Mar 1955:** Born in São Paulo state, probably Glicério; registered in Campinas.

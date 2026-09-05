@@ -510,6 +510,49 @@ The archive itself became contested property. Litigation over quotation and reve
 
 - **[T3]** **Documented fact:** Adorno made Stravinsky the principal negative counterpart to Schoenberg in *Philosophy of New Music* and related writings, interpreting his neoclassicism as regressive and authoritarian. This is a substantial one-sided written engagement; no personal meeting or correspondence between them is established here. [Stony Brook University research record](https://researchconnect.stonybrook.edu/en/publications/igor-stravinsky-and-adorno/)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **George Balanchine** [T5]
+- **Achille-Claude Debussy** [T5]
+- **Achille-Claude Debussy** [T3]
+- **Sergei Pavlovich Diaghilev** [T5]
+- **Erik Satie** [T5]
+- **Erik Satie** [T3]
+- **Erik Satie** [T1-]
+- **John Fitzgerald Kennedy** [T5]
+- **John Fitzgerald Kennedy** [T1-]
+- **Benito Mussolini** [T5]
+- **Nadia Boulanger** [T3]
+- **Nadia Boulanger** [T5]
+- **Vaslav Nijinsky** [T5]
+- **Nicholas Konstantinovich Roerich** [T5]
+- **Pablo Ruiz Picasso** [T5]
+- **Pyotr Ilyich Tchaikovsky** [T4]
+- **Pyotr Ilyich Tchaikovsky** [T1-]
+- **Victoria Ocampo** [T5]
+- **Gabrielle Bonheur "Coco" Chanel** [T5]
+- **Walter Elias Disney** [T5]
+- **Theodor W. Adorno** [T3]
+- **James Augustine Aloysius Joyce** [T4] (mirrored from james_joyce.dossier.md)
+- **Theodor W. Adorno** [T1+] (mirrored from theodor_adorno.dossier.md)
+- **Marcel Proust** [T4] (mirrored from marcel_proust.dossier.md)
+- **Émile Jaques-Dalcroze** [T9-] (mirrored from jaques_dalcroze.dossier.md)
+- **Wilhelm Richard Wagner** [T9-] (mirrored from richard_wagner.dossier.md)
+- **Astor Pantaleón Piazzolla** [T5] (mirrored from astor_piazzolla.dossier.md)
+- **Merce Cunningham** [T9+] (mirrored from merce_cunningham.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Juan Eduardo Cirlot Laporta** [T3] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Vittorio Meano** [T9-] (mirrored from vittorio_meano.dossier.md)
+- **Pyotr Ilyich Tchaikovsky** [T3] (mirrored from tchaikovsky.dossier.md)
+- **Filippo Tommaso Emilio Marinetti** [T5] (mirrored from f_t_marinetti.dossier.md)
+- **Pablo Ruiz Picasso** [T3] (mirrored from pablo_picasso.dossier.md)
+- **Martha Graham** [T9+] (mirrored from martha_graham.dossier.md)
+- **Hanya Holm** [T9+] (mirrored from hanya_holm.dossier.md)
+- **Anna Matveyevna Pavlova** [T9+] (mirrored from anna_pavlova.dossier.md)
+
 ## Sources
 
 https://fondation-igor-stravinsky.org/en/

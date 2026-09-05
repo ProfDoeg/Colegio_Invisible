@@ -638,6 +638,30 @@ Spanish is sometimes called “la lengua de Cervantes,” a commemorative metony
 
 No documented T2 prophecy/hyperstition, T4 shared milieu, T5 personal meeting or friendship, or T9 transmitted-object/site connection was found with the roster. In particular, Inca Garcilaso de la Vega’s near-contemporaneous death and possible geographic overlap with Cervantes do not by themselves establish an Atlas connection; claims that the two met or that Cervantes used Garcilaso’s translation of León Hebreo remain unproved. [Instituto Cervantes](https://cvc.cervantes.es/literatura/quijote_america/peru/miro.htm)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Homer** [T1-]
+- **Aeneas** [T1-]
+- **Odysseus** [T1-]
+- **Publius Vergilius Maro** [T1-]
+- **Gustave Flaubert** [T3]
+- **Friedrich Nietzsche** [T3]
+- **Sigmund Freud** [T3]
+- **Thomas Jefferson** [T3]
+- **Jorge Luis Borges** [T1+]
+- **Paul-Michel Foucault** [T3]
+- **Wifredo Viladrich** [T9+] (mirrored from viladrich.dossier.md)
+- **Sor Juana Inés de la Cruz** [T3] (mirrored from sor_juana_ines_de_la_cruz.dossier.md)
+- **Federico García Lorca** [T3] (mirrored from federico_garcia_lorca.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Victor-Marie Hugo** [T1+] (mirrored from victor_hugo.dossier.md)
+- **Lancelot** [T3] (mirrored from lancelot.dossier.md)
+- **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+- **Alberto Gerchunoff** [T1+] (mirrored from alberto_gerchunoff.dossier.md)
+
 ## Sources
 
 https://www.cervantesvirtual.com/portales/miguel_de_cervantes/autor_cronologia/

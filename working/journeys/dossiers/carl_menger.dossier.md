@@ -648,6 +648,25 @@ Portraits, anniversary conferences, institutes named for Menger, Austrian-econom
 
 No adequately documented personal, discursive, prophetic, proximity, or shared-object crossing was found between Carl Menger and the other roster members. Mere presence in Menger’s library, broad intellectual resemblance, later claims of influence, contemporaneity in Vienna, or membership in a common economic tradition were not counted without evidence satisfying one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Aristotle** [T1-]
+- **Eugen Böhm Ritter von Bawerk** [T3]
+- **Eugen Böhm Ritter von Bawerk** [T1-]
+- **Friedrich Schiller** [T1-]
+- **Ludwig Heinrich Edler von Mises** [T5]
+- **Ludwig Heinrich Edler von Mises** [T1+]
+- **Friedrich August von Hayek** [T1+]
+- **Joseph Alois Schumpeter** [T1+]
+- **Murray Newton Rothbard** [T1+]
+- **Javier Gerardo Milei** [T1+] (mirrored from javier_milei.dossier.md)
+- **Eugen Böhm Ritter von Bawerk** [T5] (mirrored from eugen_von_bohm_bawerk.dossier.md)
+- **Nick Szabo** [T1+] (mirrored from nick_szabo.dossier.md)
+- **Karl Marx** [T1-] (mirrored from karl_marx.dossier.md)
+
 ## Sources
 
 https://archives.lib.duke.edu/catalog/menger

@@ -828,6 +828,28 @@ Only connections supported by the consulted sources are listed. Mere shared inst
 
 The relatively small number of Atlas connections is a finding: Rivest’s securely documented network is concentrated in post-1960 algorithms, cryptography, MIT, Stanford, and election-security research.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adi Shamir** [T5]
+- **Leonard Max Adleman** [T5]
+- **Robert Elliot Kahn** [T5]
+- **Donald Ervin Knuth** [T5]
+- **Bailey Whitfield Diffie** [T3]
+- **Martin Edward Hellman** [T3]
+- **Ralph Charles Merkle** [T3]
+- **David Lee Chaum** [T5]
+- **Philip R. Zimmermann** [T9+]
+- **Alan Mathison Turing** [T9-]
+- **Claude Elwood Shannon** [T3]
+- **Ralph Charles Merkle** [T4] (mirrored from ralph_merkle.dossier.md)
+- **Philip R. Zimmermann** [T3] (mirrored from phil_zimmermann.dossier.md)
+- **David Lee Chaum** [T3] (mirrored from david_chaum.dossier.md)
+- **David Lee Chaum** [T1+] (mirrored from david_chaum.dossier.md)
+- **Leslie Barry Lamport** [T9+] (mirrored from leslie_barry_lamport.dossier.md)
+- **Donald Ervin Knuth** [T9+] (mirrored from donald_ervin_knuth.dossier.md)
+
 ## Sources
 
 https://people.csail.mit.edu/rivest/

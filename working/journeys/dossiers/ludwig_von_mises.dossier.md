@@ -737,6 +737,40 @@ His particular route—Vienna to Geneva to New York—preserved a Menger–Böhm
 
 No adequately documented T2 prophecy/hyperstition or T9 shared-object connection with a roster member was located. Mere residence in the same city, general ideological inheritance, or later invocation of Mises without substantive written treatment was not counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Carl Menger** [T1-]
+- **Carl Menger** [T5]
+- **Eugen Böhm Ritter von Bawerk** [T5]
+- **Eugen Böhm Ritter von Bawerk** [T1-]
+- **Friedrich August von Hayek** [T5]
+- **Friedrich August von Hayek** [T3]
+- **Joseph Alois Schumpeter** [T4]
+- **Max Weber** [T5]
+- **Max Weber** [T1-]
+- **Karl Marx** [T1-]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Benito Mussolini** [T1-]
+- **John Maynard Keynes** [T3]
+- **John Maynard Keynes** [T1-]
+- **Murray Newton Rothbard** [T5]
+- **Murray Newton Rothbard** [T3]
+- **Milton Friedman** [T5]
+- **Immanuel Kant** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Paul-Michel Foucault** [T1+]
+- **Javier Gerardo Milei** [T1+] (mirrored from javier_milei.dossier.md)
+- **Nick Szabo** [T1+] (mirrored from nick_szabo.dossier.md)
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **Curtis Guy Yarvin** [T1+] (mirrored from curtis_yarvin.dossier.md)
+- **Joseph Alois Schumpeter** [T5] (mirrored from joseph_schumpeter.dossier.md)
+- **Joseph Alois Schumpeter** [T3] (mirrored from joseph_schumpeter.dossier.md)
+- **Charles de Ganahl Koch** [T5] (mirrored from charles_koch.dossier.md)
+
 ## Sources
 
 https://gedenkbuch.univie.ac.at/en/page/94/person/ludwig-von-mises

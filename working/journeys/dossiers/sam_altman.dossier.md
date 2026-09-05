@@ -613,6 +613,26 @@ Only roster members with a documented personal, institutional or explicitly ackn
 - **Joscha Bach, Ray Kurzweil and Nick Szabo — no documented direct relationship located.** Intellectual or thematic overlap alone was not treated as a connection.
 - For the great majority of the 894-person roster, no supported crossing with Altman’s life was found. Absence of a listed connection is not evidence that two people never occupied the same event; it means no sufficiently documented relationship was identified in the consulted record.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Elon Reeve Musk** [T5]
+- **Peter Andreas Thiel** [T5]
+- **Reid Garrett Hoffman** [T5]
+- **William Henry Gates III** [T5]
+- **Geoffrey Everest Hinton** [T3]
+- **Yoshua Bengio** [T3]
+- **Yuval Noah Harari** [T3]
+- **Marc Lowell Andreessen** [T3]
+- **Benjamin Netanyahu** [T5]
+- **William Jefferson Clinton** [T4] (mirrored from bill_clinton.dossier.md)
+- **Laurence Douglas "Larry" Fink** [T4] (mirrored from larry_fink.dossier.md)
+- **Avram Noam Chomsky** [T5] (mirrored from noam_chomsky.dossier.md)
+- **Marc Lowell Andreessen** [T5] (mirrored from marc_andreessen.dossier.md)
+- **Lawrence Joseph Ellison** [T5] (mirrored from larry_ellison.dossier.md)
+- **William Henry Gates III** [T4] (mirrored from bill_gates.dossier.md)
+
 ## Chronology
 
 | Date | Event |

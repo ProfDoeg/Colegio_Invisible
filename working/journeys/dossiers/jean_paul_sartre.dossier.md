@@ -1019,6 +1019,64 @@ Only documented or explicitly sourced connections from the supplied atlas roster
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T5]
+- **Albert Camus** [T5]
+- **Martin Heidegger** [T3]
+- **Karl Marx** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Søren Aabye Kierkegaard** [T1-]
+- **Sigmund Freud** [T1-]
+- **Henri-Louis Bergson** [T1-]
+- **René Descartes** [T1-]
+- **Immanuel Kant** [T1-]
+- **Plato** [T1-]
+- **Aristotle** [T1-]
+- **Pablo Ruiz Picasso** [T5]
+- **André Breton** [T4]
+- **Paul-Michel Foucault** [T4]
+- **Gilles Louis Rene Deleuze** [T3]
+- **Jacques Derrida** [T3]
+- **Jacques Marie Émile Lacan** [T4]
+- **Roland Gérard Barthes** [T3]
+- **Pierre-Félix Guattari** [T3]
+- **Guy-Ernest Debord** [T4]
+- **Antonio Francesco Gramsci** [T1-]
+- **Mao Zedong** [T4]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Ernesto "Che" Guevara** [T5]
+- **Patrice Émery Lumumba** [T1-]
+- **Avram Noam Chomsky** [T4]
+- **Herbert Marcuse** [T4]
+- **Jürgen Habermas** [T3]
+- **Slavoj Žižek** [T1+]
+- **Jean Baudrillard** [T4]
+- **Claude Lévi-Strauss** [T3]
+- **Gabriel José García Márquez** [T4]
+- **Julio Florencio Cortázar Descotte** [T4]
+- **Augusto Boal** [T3] (mirrored from augusto_boal.dossier.md)
+- **José Luis Álvarez Enparantza** [T1+] (mirrored from jose_luis_alvarez_emparantza_txillardegi.dossier.md)
+- **Theodor W. Adorno** [T1+] (mirrored from theodor_adorno.dossier.md)
+- **Paulo Reglus Neves Freire** [T1+] (mirrored from paulo_freire.dossier.md)
+- **Pierre-Félix Guattari** [T4] (mirrored from felix_guattari.dossier.md)
+- **René Noël Théophile Girard** [T3] (mirrored from rene_girard.dossier.md)
+- **Antonin Artaud** [T4] (mirrored from artaud.dossier.md)
+- **Gustave Flaubert** [T1-] (mirrored from gustave_flaubert.dossier.md)
+- **Gilles Louis Rene Deleuze** [T4] (mirrored from gilles_deleuze.dossier.md)
+- **Luis Alberto Spinetta** [T3] (mirrored from spinetta.dossier.md)
+- **Herbert Marcuse** [T3] (mirrored from herbert_marcuse.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T3] (mirrored from julio_cortazar.dossier.md)
+- **Nicos Poulantzas** [T5] (mirrored from nicos_poulantzas.dossier.md)
+- **Nicos Poulantzas** [T1+] (mirrored from nicos_poulantzas.dossier.md)
+- **Paul-Michel Foucault** [T5] (mirrored from michel_foucault.dossier.md)
+- **Michèle Bernstein** [T3] (mirrored from michele_bernstein.dossier.md)
+- **Pablo Ruiz Picasso** [T3] (mirrored from pablo_picasso.dossier.md)
+
 ## Compact Chronology
 
 - **1905, 21 June:** Born in Paris.

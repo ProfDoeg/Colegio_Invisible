@@ -964,6 +964,21 @@ No source consulted established a personal meeting, correspondence, collaboratio
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jesus of Nazareth** [T5]
+- **Simon bar Jonah** [T5]
+- **Thomas Aquinas** [T1+]
+- **Jacobus de Voragine** [T1+]
+- **Paul the Apostle** [T9-]
+- **Origen of Alexandria** [T1+]
+- **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
+- **Dante Gabriel Rossetti** [T1+] (mirrored from dante_gabriel_rossetti.dossier.md)
+- **Parzival** [T9+] (mirrored from parzival.dossier.md)
+- **Margery Kempe** [T1+] (mirrored from margery_kempe.dossier.md)
+
 ## Chronology
 
 | Date | Event or tradition | Status |

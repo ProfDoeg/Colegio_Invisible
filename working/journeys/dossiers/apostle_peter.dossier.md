@@ -528,6 +528,25 @@ Modern research shifted from harmonized saintâ€™s life to memory analysis: the â
 
 No defensible personal, textual, prophetic, or shared-object connection was found for the remaining roster members. Mere later devotion to Peter, use of his name, appearance in generic Christian art, or presence in places associated with his cult was not counted without a specific documented crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jesus of Nazareth** [T5]
+- **Mary Magdalene** [T5]
+- **Simon of Gitta** [T5]
+- **Tertullian** [T1+]
+- **Origen of Alexandria** [T1+]
+- **Aurelius Augustinus** [T1+]
+- **Dante Alighieri** [T1+]
+- **Martin Luther** [T1+]
+- **Constantine the Great** [T9+]
+- **Michelangelo di Lodovico Buonarroti Simoni** [T9+]
+- **Paul Adrien Maurice Dirac** [T9-] (mirrored from dirac.dossier.md)
+- **Paul the Apostle** [T5] (mirrored from apostle_paul.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Grigori Yefimovich Rasputin** [T1+] (mirrored from grigori_rasputin.dossier.md)
+
 ## Sources
 
 https://www.biblegateway.com/passage/?search=Galatians+1-2&version=NRSVUE

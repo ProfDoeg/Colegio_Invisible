@@ -1081,6 +1081,19 @@ Only the following roster crossings are supported by the consulted record. No do
 
 No reliable evidence supports atlas connections to Alan Turing, Claude Shannon, John von Neumann, Stafford Beer, or the other listed figures merely because they belong to overlapping histories of cybernetics, computing, psychology, philosophy, or systems theory.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **René Descartes** [T1-]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **Immanuel Kant** [T1-]
+- **Sigmund Freud** [T3]
+- **Carl Gustav Jung** [T3]
+- **Norbert Wiener** [T1-]
+- **Norbert Wiener** [T3]
+- **Norbert Wiener** [T9+]
+
 ## Sources
 
 https://www.aos.ro/wp-content/misiunea/MISVol7Art.12.pdf

@@ -651,6 +651,24 @@ Supporters regard him as a long-range systems thinker who identified institution
 
 - **[T5] Reported fact.** Yarvin and Thiel reportedly first met at Thiel’s San Francisco home around 2009, afterward maintaining a friendship and patron–interlocutor relationship. Yarvin attended dinners and parties in Thiel’s circle and watched the November 2016 election returns at Thiel’s home. Founders Fund’s investment in Tlon corroborates institutional proximity but is not itself a T5 connection. ([*The New Yorker* profile](https://www.newyorker.com/magazine/2025/06/09/curtis-yarvin-profile), [*Le Monde* account of the 2016 gathering](https://www.lemonde.fr/en/summer-reads/article/2025/07/22/peter-thiel-the-libertarian-billionaire-waging-war-on-government_6743617_183.html))
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T1-]
+- **Dante Alighieri** [T1-]
+- **Elon Reeve Musk** [T3]
+- **George Orwell** [T1-]
+- **Gaius Julius Caesar** [T1-]
+- **Ludwig Heinrich Edler von Mises** [T1-]
+- **Marc Lowell Andreessen** [T3]
+- **Marc Lowell Andreessen** [T5]
+- **Murray Newton Rothbard** [T1-]
+- **Nick Land** [T3]
+- **Nick Land** [T5]
+- **Peter Andreas Thiel** [T3]
+- **Peter Andreas Thiel** [T5]
+
 ## Sources
 
 https://www.newyorker.com/magazine/2025/06/09/curtis-yarvin-profile

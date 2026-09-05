@@ -539,6 +539,37 @@ Archaeology has produced neither wholesale vindication nor demolition. It has co
 
 No secure T2 prophecy/hyperstition or T9 shared-object connection was found between Herodotus and the roster. Chronological overlap or residence in the same broad region, without evidence of encounter or a more specific shared milieu, has not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Homer** [T1-]
+- **Hesiod of Ascra** [T1-]
+- **Cyrus the Great** [T1-]
+- **Simonides of Ceos** [T1-]
+- **Pindar of Thebes** [T3]
+- **Ctesias of Cnidus** [T3]
+- **Aristotle** [T3]
+- **Marcus Tullius Cicero** [T3]
+- **Strabo of Amaseia** [T3]
+- **Plinio el Viejo** [T3]
+- **Flavius Josephus** [T3]
+- **Marcus Fabius Quintilianus** [T3]
+- **Claudius Aelianus** [T3]
+- **Alexander the Great** [T3] (mirrored from alexander.dossier.md)
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Plato** [T1+] (mirrored from plato.dossier.md)
+- **Marcus Tullius Cicero** [T1+] (mirrored from cicero.dossier.md)
+- **Odysseus** [T1-] (mirrored from ulysses.dossier.md)
+- **Aristotle** [T1+] (mirrored from aristotle.dossier.md)
+- **Plinio el Viejo** [T1+] (mirrored from plinio_el_viejo.dossier.md)
+- **Marcus Fabius Quintilianus** [T1+] (mirrored from quintilian.dossier.md)
+- **Nabucodonosor II** [T1-] (mirrored from nabucodonosor_ii.dossier.md)
+- **Jorge Luis Borges** [T1+] (mirrored from borges.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+- **Polybius of Megalopolis** [T3] (mirrored from polybius.dossier.md)
+
 ## Sources
 
 https://scaife.perseus.org/library/urn:cts:greekLit:tlg0016/

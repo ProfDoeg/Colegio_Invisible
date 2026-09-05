@@ -1467,6 +1467,70 @@ No support was found for direct life connections with the overwhelming majority 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Carl Gustav Jung the elder** [T9-]
+- **Samuel Preiswerk** [T9-]
+- **Sigmund Freud** [T5]
+- **William James** [T5]
+- **Albert Einstein** [T5]
+- **Wolfgang Ernst Pauli** [T5]
+- **Allen Welsh Dulles** [T3]
+- **Otto Gross** [T5]
+- **Hermann Graf von Keyserling** [T5]
+- **Olga Fröbe-Kapteyn** [T5]
+- **Mircea Eliade** [T5]
+- **Martin Mordechai Buber** [T4]
+- **Giuseppe Tucci** [T4]
+- **Hermann Hesse** [T5]
+- **Miguel Serrano** [T5]
+- **Friedrich Nietzsche** [T1-]
+- **Johann Wolfgang von Goethe** [T3]
+- **Immanuel Kant** [T3]
+- **Paracelsus** [T1-]
+- **Jacob Boehme** [T3]
+- **Emanuel Swedenborg** [T3]
+- **Gustav Arthur "Gusto" Gräser** [T4]
+- **James Augustine Aloysius Joyce** [T5] (mirrored from james_joyce.dossier.md)
+- **Salomon Trismosin** [T1-] (mirrored from salomon_trismosin.dossier.md)
+- **Emanuel Swedenborg** [T1-] (mirrored from emanuel_swedenborg.dossier.md)
+- **Rudolf Ritsema** [T1+] (mirrored from rudolf_ritsema.dossier.md)
+- **Philip Kindred Dick** [T3] (mirrored from philip_k_dick.dossier.md)
+- **Jacob Boehme** [T1-] (mirrored from jacob_boehme.dossier.md)
+- **Frank Herbert** [T3] (mirrored from frank_herbert.dossier.md)
+- **René Guénon** [T3] (mirrored from rene_guenon.dossier.md)
+- **Dion Fortune** [T1+] (mirrored from dion_fortune.dossier.md)
+- **Wolfgang Ernst Pauli** [T3] (mirrored from wolfgang_pauli.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T1+] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Julius Evola** [T3] (mirrored from julius_evola.dossier.md)
+- **Mircea Eliade** [T3] (mirrored from mircea_eliade.dossier.md)
+- **André Breton** [T3] (mirrored from andre_breton.dossier.md)
+- **Dr Carl Jung of Mainz** [T1-] (mirrored from carl_jung_of_mainz.dossier.md)
+- **Jacques Marie Émile Lacan** [T1+] (mirrored from jacques_lacan.dossier.md)
+- **William Blake** [T1-] (mirrored from william_blake.dossier.md)
+- **Luis Alberto Spinetta** [T3] (mirrored from spinetta.dossier.md)
+- **Erich Seligmann Fromm** [T1+] (mirrored from erich_fromm.dossier.md)
+- **Aristotle** [T3] (mirrored from aristotle.dossier.md)
+- **Juan Eduardo Cirlot Laporta** [T3] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Simon of Gitta** [T1-] (mirrored from simon_magus.dossier.md)
+- **Allen Welsh Dulles** [T5] (mirrored from allen_dulles.dossier.md)
+- **Ștefan Odobleja** [T3] (mirrored from stefan_odobleja.dossier.md)
+- **René Descartes** [T1-] (mirrored from rene_descartes.dossier.md)
+- **Thomas Aquinas** [T1-] (mirrored from thomas_aquinas.dossier.md)
+- **Robert Fludd** [T1-] (mirrored from robert_fludd.dossier.md)
+- **Dante Alighieri** [T1-] (mirrored from dante.dossier.md)
+- **Victoria Ocampo** [T3] (mirrored from victoria_ocampo.dossier.md)
+- **Carl Gustav Jung the elder** [T1-] (mirrored from carl_gustav_jung_the_elder.dossier.md)
+- **Samuel Preiswerk** [T1-] (mirrored from samuel_preiswerk.dossier.md)
+- **Parzival** [T1-] (mirrored from parzival.dossier.md)
+- **Franz Anton Mesmer** [T9-] (mirrored from mesmer.dossier.md)
+- **Ioan Petru Culianu** [T1+] (mirrored from ioan_petru_culianu.dossier.md)
+- **Johann Wolfgang von Goethe** [T1-] (mirrored from goethe_full.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+- **Suzanne Perrottet** [T5] (mirrored from suzanne_perrottet.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -920,6 +920,28 @@ Only documentary crossings are included. Mere intellectual resemblance, common s
 
 No adequately documented T2 prophecy/hyperstition or T9 shared-object crossing was located within the roster. Claims based only on diffuse influence, analogous ideas, or overlapping ideological audiences were omitted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander the Great** [T1-]
+- **Aristotle** [T1-]
+- **Carl Gustav Jung** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Friedrich Wilhelm Joseph Schelling** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Guy-Ernest Debord** [T1-]
+- **Julius Evola** [T1-]
+- **Karl Marx** [T1-]
+- **Martin Heidegger** [T1-]
+- **Mircea Eliade** [T1-]
+- **Nick Land** [T3]
+- **Plato** [T1-]
+- **René Guénon** [T1-]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Volodymyr Oleksandrovych Zelenskyy** [T3]
+- **Zoroaster** [T1-]
+
 ## Sources
 
 https://ofac.treasury.gov/recent-actions/20150311

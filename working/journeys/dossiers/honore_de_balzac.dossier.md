@@ -1747,6 +1747,24 @@ Modern Balzac scholarship is therefore as much textual and bibliographical as bi
 
 - **[T1+] Documented fact:** Barthes devoted *S/Z* (Paris: Seuil, 1970) to an intensive structural and semiotic analysis of Balzac’s 1830 novella *Sarrasine*. The BnF catalog identifies Balzac and *Sarrasine* as the work’s subject and notes that the volume incorporates Balzac’s text. [BnF catalogue](https://catalogue.bnf.fr/ark%3A/12148/cb35218566v)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Emanuel Swedenborg** [T1-]
+- **Napoleon Bonaparte** [T1-]
+- **Alexandre Dumas** [T5]
+- **Victor-Marie Hugo** [T5]
+- **Victor-Marie Hugo** [T1+]
+- **Gustave Flaubert** [T1+]
+- **Karl Marx** [T1+]
+- **Marcel Proust** [T1+]
+- **Roland Gérard Barthes** [T1+]
+- **Auguste Rodin** [T1+] (mirrored from auguste_rodin.dossier.md)
+- **Jean-Baptiste Pitois** [T3] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Dante Alighieri** [T1-] (mirrored from dante.dossier.md)
+- **Francois Marie Charles Fourier** [T4] (mirrored from charles_fourier.dossier.md)
+
 ## Sources
 
 https://essentiels.bnf.fr/fr/article/64f35bd4-a784-460d-8ef1-0592d9eeb4d7-balzac-en-30-dates

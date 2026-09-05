@@ -1140,6 +1140,37 @@ No supported direct connection was found with the great majority of the 896-pers
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T3]
+- **Annie Besant** [T5]
+- **Benito Mussolini** [T5]
+- **Herbert George Wells** [T3]
+- **Jesus of Nazareth** [T1-]
+- **Jiddu Krishnamurti** [T5]
+- **John Ruskin** [T1-]
+- **Maria Tecla Artemisia Montessori** [T5]
+- **Martin Mordechai Buber** [T3]
+- **Nelson Rolihlahla Mandela** [T1+]
+- **Rabindranath Tagore** [T5]
+- **George Orwell** [T1+]
+- **Abraham Lincoln** [T1-]
+- **Nelson Rolihlahla Mandela** [T3] (mirrored from nelson_mandela.dossier.md)
+- **Miguel Serrano** [T1+] (mirrored from serrano.dossier.md)
+- **Jiddu Krishnamurti** [T3] (mirrored from jiddu_krishnamurti.dossier.md)
+- **Hermann Hesse** [T3] (mirrored from hermann_hesse.dossier.md)
+- **Mircea Eliade** [T3] (mirrored from mircea_eliade.dossier.md)
+- **Narendranath Datta** [T1-] (mirrored from swami_vivekananda.dossier.md)
+- **Lev Davidovich Bronstein** [T3] (mirrored from leon_trotsky.dossier.md)
+- **Helena Petrovna Blavatsky** [T5] (mirrored from blavatsky.dossier.md)
+- **Indra Devi** [T5] (mirrored from indra_devi.dossier.md)
+- **Marcus Mosiah Garvey** [T3] (mirrored from marcus_garvey.dossier.md)
+- **Annie Besant** [T3] (mirrored from annie_besant.dossier.md)
+- **Savitri Devi** [T5] (mirrored from savitri_devi.dossier.md)
+- **Albert Camus** [T3] (mirrored from albert_camus.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

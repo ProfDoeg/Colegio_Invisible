@@ -1201,6 +1201,14 @@ The following are especially useful starting points for further documentary work
 
 No other roster crossing was included merely from shared chronology, geography, industry, intellectual influence, family naming, or indirect association; those conditions alone do not meet the specified evidentiary threshold.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T5]
+- **John Davison Rockefeller Sr.** [T3]
+- **Samuel Langhorne Clemens** [T1+]
+
 ## Sources
 
 https://www.vanderbilt.edu/about/history/

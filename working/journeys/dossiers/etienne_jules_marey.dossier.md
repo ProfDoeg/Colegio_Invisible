@@ -621,6 +621,17 @@ After Marey's death, Chauveau became director. Disputes arose between the indepe
 
 No other roster crossing was included: broader affinities, later artistic influence, overlapping institutional membership, and mere contemporaneity were insufficient without evidence of one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Eadweard Muybridge** [T3]
+- **Eadweard Muybridge** [T5]
+- **Thomas Alva Edison** [T5]
+- **Max Glücksmann** [T9+] (mirrored from max_glucksmann.dossier.md)
+- **Nikolai Aleksandrovich Bernstein** [T1+] (mirrored from nikolai_bernstein.dossier.md)
+- **Nikolai Aleksandrovich Bernstein** [T9+] (mirrored from nikolai_bernstein.dossier.md)
+
 ## Sources
 
 https://numerabilis.u-paris.fr/medica/bibliotheque-numerique/presentations/marey/01.php

@@ -804,6 +804,29 @@ The recoverable evidence supports the last four approaches more readily than a s
 
 No prophecy/hyperstition (T2), securely documented friendship or personal meeting (T5), or qualifying transferred-object/site connection (T9) was found between Hesiod and another roster member. The alleged Homeric contest and tripod do not meet those thresholds.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Herodotus of Halicarnassus** [T1+]
+- **Plato** [T1+]
+- **Aristotle** [T1+]
+- **Pindar of Thebes** [T3]
+- **Simonides of Ceos** [T3]
+- **Marcus Tullius Cicero** [T1+]
+- **Publius Vergilius Maro** [T3]
+- **Plinio el Viejo** [T1+]
+- **Marcus Fabius Quintilianus** [T1+]
+- **Strabo of Amaseia** [T1+]
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Flavius Josephus** [T3] (mirrored from flavius_josephus.dossier.md)
+- **Giulio Camillo Delminio** [T1+] (mirrored from giulio_camillo.dossier.md)
+- **Homer** [T5] (mirrored from homer.dossier.md)
+- **Claudius Aelianus** [T3] (mirrored from claudius_aelianus_aelian.dossier.md)
+- **Origen of Alexandria** [T1+] (mirrored from origen.dossier.md)
+- **Friedrich Nietzsche** [T1+] (mirrored from nietzsche.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+
 ## Sources
 
 https://www.theoi.com/Text/HesiodWorksDays.html

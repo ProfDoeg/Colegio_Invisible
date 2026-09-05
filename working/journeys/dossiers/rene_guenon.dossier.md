@@ -1133,6 +1133,32 @@ No supported personal crossing was found with most of the supplied atlas roster.
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Joseph Alexandre Saint-Yves** [T1-]
+- **Helena Petrovna Blavatsky** [T1-]
+- **Annie Besant** [T3]
+- **Theodor Reuss** [T4]
+- **Albert Pike** [T1-]
+- **Julius Evola** [T3]
+- **Mircea Eliade** [T3]
+- **Ibn Arabi** [T1-]
+- **Abd al-Qadir al-Jilani** [T1-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Dante Alighieri** [T1-]
+- **Bernard of Clairvaux** [T1-]
+- **Carl Gustav Jung** [T3]
+- **Aleksandr Gelyevich Dugin** [T1+]
+- **Miguel Serrano** [T3] (mirrored from serrano.dossier.md)
+- **Joseph Alexandre Saint-Yves** [T9-] (mirrored from joseph_alexandre_saint_yves_d_alveydre.dossier.md)
+- **Juan Eduardo Cirlot Laporta** [T3] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Jacques de Molay** [T1-] (mirrored from molay.dossier.md)
+- **Savitri Devi** [T3] (mirrored from savitri_devi.dossier.md)
+- **G. I. Gurdjieff** [T3] (mirrored from gurdjieff.dossier.md)
+
 ## Chronology
 
 | Date | Event |

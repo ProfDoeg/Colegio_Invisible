@@ -1336,6 +1336,16 @@ The newer view does not idealize Lie. It instead separates illness, personality,
 
 No additional connection meeting the stated evidentiary threshold was found among the remaining atlas-roster names. Mere mathematical influence, later use of Lie theory, overlapping institutional membership, or contemporaneous presence in the same country was not counted without evidence of writing, correspondence, encounter, meaningful shared milieu, prophecy, or transmission of a specific object or site.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Évariste Galois** [T1-]
+- **Felix Christian Klein** [T5]
+- **Felix Christian Klein** [T3]
+- **Jules Henri Poincaré** [T5]
+- **Jules Henri Poincaré** [T3]
+
 ## Sources
 
 https://snl.no/Sophus_Lie

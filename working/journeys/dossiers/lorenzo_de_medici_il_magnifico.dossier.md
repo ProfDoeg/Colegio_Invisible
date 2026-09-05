@@ -559,6 +559,23 @@ His descendants nevertheless transformed the family:
 
 No additional roster member produced a sufficiently specific, evidence-supported crossing under the six permitted connection types. In particular, mere classical influence, shared residence in Renaissance Florence, later reception of Lorenzo, or unsupported patronage traditions were not counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Cosimo di Giovanni de' Medici** [T5]
+- **Leon Battista Alberti** [T5]
+- **Dante Alighieri** [T1-]
+- **Plato** [T1-]
+- **Giovanni Pico della Mirandola** [T3]
+- **Giovanni Pico della Mirandola** [T5]
+- **Johannes Reuchlin** [T5]
+- **Michelangelo di Lodovico Buonarroti Simoni** [T5]
+- **Cosimo di Giovanni de' Medici** [T1-] (mirrored from cosimo_de_medici.dossier.md)
+- **Alexandre Dumas** [T1+] (mirrored from alexandre_dumas.dossier.md)
+- **Leon Battista Alberti** [T3] (mirrored from leon_battista_alberti.dossier.md)
+- **Leonardo di ser Piero da Vinci** [T4] (mirrored from leonardo_da_vinci.dossier.md)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/lorenzo-de-medici_%28Dizionario-Biografico%29/

@@ -689,6 +689,20 @@ Recent scholarship stresses exile, illegitimacy, family conflict, irony, pessimi
 
 No secure direct crossing was found with other tempting roster candidates. In particular, shared intellectual themes do not by themselves establish personal contact between Alberti and Nicholas of Cusa; Alberti’s cipher does not establish that he knew al-Kindi’s earlier Arabic cryptanalysis; and the later sequence from Alberti through Trithemius to Vigenère is a technological genealogy, not documented correspondence, meeting, or passage of one identifiable physical object among those men.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Diogenes of Sinope** [T1-]
+- **Lorenzo di Piero de' Medici** [T3]
+- **Lorenzo di Piero de' Medici** [T5]
+- **Plato** [T1-]
+- **Publius Vergilius Maro** [T1-]
+- **Michelangelo di Lodovico Buonarroti Simoni** [T9+] (mirrored from michelangelo.dossier.md)
+- **Leonardo di ser Piero da Vinci** [T1+] (mirrored from leonardo_da_vinci.dossier.md)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/leon-battista-alberti_(Dizionario-Biografico)/

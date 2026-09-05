@@ -844,6 +844,15 @@ The durability of the phrase “gentlemen do not read each other’s mail” has
 
 No additional roster crossings were found that satisfied the defined categories. In particular, shared cryptologic subject matter with Alan Turing, Claude Shannon, Arthur Scherbius, Blaise de Vigenère, Auguste Kerckhoffs, Étienne Bazeries, or Marian Rejewski does not itself establish discourse, proximity, meeting, or passage of a specific object; nor does Yardley’s service in Nationalist China establish a documented crossing with Mao Zedong or Madame Chiang Kai-shek.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **William Frederick Friedman** [T3]
+- **Elizebeth Smith Friedman** [T3]
+- **Ian Lancaster Fleming** [T3]
+- **William Frederick Friedman** [T5] (mirrored from william_f_friedman.dossier.md)
+
 ## Sources
 
 https://www.nsa.gov/History/Cryptologic-History/Historical-Figures/Historical-Figures-View/Article/1623030/herbert-o-yardley/

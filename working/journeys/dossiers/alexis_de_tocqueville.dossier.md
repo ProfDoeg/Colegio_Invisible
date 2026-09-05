@@ -1179,6 +1179,29 @@ No documented personal or intellectual crossing was established for the overwhel
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Andrew Jackson** [T5]
+- **Jean-Jacques Rousseau** [T3]
+- **Adam Smith** [T3]
+- **Alexander Hamilton** [T3]
+- **Thomas Jefferson** [T1-]
+- **Napoleon Bonaparte** [T1-]
+- **Victor-Marie Hugo** [T4]
+- **Emir Abdelkader ibn Muhieddine** [T3]
+- **William Jefferson Clinton** [T1+] (mirrored from bill_clinton.dossier.md)
+- **Friedrich August von Hayek** [T1+] (mirrored from friedrich_hayek.dossier.md)
+- **Augustin-Louis Cauchy** [T3] (mirrored from augustin_louis_cauchy.dossier.md)
+- **Eugène Samuel Grasset** [T4] (mirrored from eugene_grasset.dossier.md)
+- **Frédéric Auguste Bartholdi** [T1+] (mirrored from frederic_auguste_bartholdi.dossier.md)
+- **Charles Babbage** [T4] (mirrored from charles_babbage.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **Georges Sorel** [T5] (mirrored from georges_sorel.dossier.md)
+- **Arthur Edward Waite** [T3] (mirrored from arthur_edward_waite.dossier.md)
+- **Domingo Faustino Sarmiento** [T3] (mirrored from sarmiento.dossier.md)
+
 ## Chronology
 
 | Date | Event |

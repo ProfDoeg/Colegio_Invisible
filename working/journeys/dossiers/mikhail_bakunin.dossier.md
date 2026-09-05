@@ -1311,6 +1311,36 @@ Modern commentary sometimes places both men in discussions of Russia, empire, Sl
 
 No documented meeting, correspondence, collaboration, rivalry, family tie, shared institution, or explicit acknowledged influence was established for the other listed atlas figures. Given the roster’s size, absence should not be interpreted as proof that no minor textual reference exists anywhere; it means no connection meeting the atlas’s documentary threshold emerged from the research.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Karl Marx** [T5]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Johann Gottlieb Fichte** [T1-]
+- **Immanuel Kant** [T3]
+- **Friedrich Wilhelm Joseph Schelling** [T3]
+- **Jean-Jacques Rousseau** [T1-]
+- **Francois Marie Charles Fourier** [T1-]
+- **Claude-Henri de Rouvroy** [T1-]
+- **Giuseppe Maria Garibaldi** [T5]
+- **Wilhelm Richard Wagner** [T5]
+- **Victor-Marie Hugo** [T4]
+- **Georges Sorel** [T1+]
+- **Albert Camus** [T1+]
+- **Avram Noam Chomsky** [T1+]
+- **Antoinette de Saint Léger** [T9+] (mirrored from antoinette_de_saint_leger.dossier.md)
+- **Vladimir Ilyich Ulyanov** [T1+] (mirrored from vladimir_lenin.dossier.md)
+- **Giuseppe Maria Garibaldi** [T3] (mirrored from giuseppe_garibaldi.dossier.md)
+- **Rudolf Rocker** [T3] (mirrored from rudolf_rocker.dossier.md)
+- **Wilhelm Richard Wagner** [T4] (mirrored from richard_wagner.dossier.md)
+- **Rosa Luxemburg** [T1+] (mirrored from rosa_luxemburg.dossier.md)
+- **Émile Pouget** [T1+] (mirrored from emile_pouget.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **Gustav Landauer** [T3] (mirrored from gustav_landauer.dossier.md)
+- **Erich Mühsam** [T3] (mirrored from erich_muhsam.dossier.md)
+- **Søren Aabye Kierkegaard** [T4] (mirrored from s_ren_kierkegaard.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

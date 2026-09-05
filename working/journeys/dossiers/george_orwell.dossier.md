@@ -1722,6 +1722,41 @@ Every major expansion of surveillance, censorship, ideological policing, disinfo
 
 No additional roster crossings were included where the available evidence showed only influence asserted by later commentators, mere contemporaneity, incidental mention, shared subject matter, or an uncompleted possibility of contact.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Charles John Huffam Dickens** [T1-]
+- **Herbert George Wells** [T3]
+- **Herbert George Wells** [T5]
+- **James Augustine Aloysius Joyce** [T3]
+- **Lev Davidovich Bronstein** [T3]
+- **Mohandas Karamchand Gandhi** [T1-]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T1-]
+- **William Butler Yeats** [T1-]
+- **Albert Camus** [T3]
+- **Yuval Noah Harari** [T1+] (mirrored from yuval_noah_harari.dossier.md)
+- **James Augustine Aloysius Joyce** [T1-] (mirrored from james_joyce.dossier.md)
+- **Philip Kindred Dick** [T3] (mirrored from philip_k_dick.dossier.md)
+- **Friedrich August von Hayek** [T3] (mirrored from friedrich_hayek.dossier.md)
+- **J. R. R. Tolkien** [T3] (mirrored from tolkien.dossier.md)
+- **Stephen Edwin King** [T1+] (mirrored from stephen_king.dossier.md)
+- **Karl Marx** [T1-] (mirrored from karl_marx.dossier.md)
+- **Avram Noam Chomsky** [T1+] (mirrored from noam_chomsky.dossier.md)
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Philip R. Zimmermann** [T9+] (mirrored from phil_zimmermann.dossier.md)
+- **Saddam Hussein al-Tikriti** [T9+] (mirrored from saddam_hussein.dossier.md)
+- **Curtis Guy Yarvin** [T1+] (mirrored from curtis_yarvin.dossier.md)
+- **Erich Seligmann Fromm** [T1+] (mirrored from erich_fromm.dossier.md)
+- **Ian Lancaster Fleming** [T4] (mirrored from ian_fleming.dossier.md)
+- **Lev Davidovich Bronstein** [T1-] (mirrored from leon_trotsky.dossier.md)
+- **Murray Newton Rothbard** [T3] (mirrored from murray_rothbard.dossier.md)
+- **Haile Selassie I** [T3] (mirrored from haile_selassie.dossier.md)
+- **Jorge Luis Borges** [T3] (mirrored from borges.dossier.md)
+- **Antoni Gaudí i Cornet** [T9-] (mirrored from antoni_gaudi.dossier.md)
+- **Grigori Yefimovich Rasputin** [T1-] (mirrored from grigori_rasputin.dossier.md)
+- **Benito Mussolini** [T1-] (mirrored from mussolini.dossier.md)
+
 ## Sources
 
 https://www.orwellfoundation.com/the-orwell-foundation/orwell/biography/

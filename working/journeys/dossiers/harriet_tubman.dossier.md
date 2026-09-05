@@ -1337,6 +1337,17 @@ The source list below contains only URLs actually consulted or relied upon for t
 
 No other roster member produced a supported crossing under the six specified types. In particular, no reliable evidence establishes a personal meeting or correspondence between Tubman and **Abraham Lincoln**; their shared Civil War context alone is insufficient for T3, T4, or T5. Tubman’s epithet “Moses” likewise reflects biblical analogy rather than a T1, T2, T3, T4, T5, or T9 connection to the roster’s Moses.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **John Brown** [T5]
+- **John Brown** [T3]
+- **John Brown** [T2+ prediction]
+- **Andrew Jackson** [T9-]
+- **Arthur Ben** [T1+] (mirrored from arthur_ben.dossier.md)
+- **Moses** [T1-] (mirrored from moses.dossier.md)
+
 ## Sources
 
 https://www.nps.gov/people/harriet-tubman.htm

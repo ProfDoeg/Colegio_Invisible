@@ -978,6 +978,22 @@ Their writings or cultural movements can be used comparatively in scholarship on
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Sir Arthur Ignatius Conan Doyle** [T5]
+- **Herbert George Wells** [T4]
+- **Captain Robert Falcon Scott** [T5]
+- **Arthur James Balfour** [T4]
+- **Charles John Huffam Dickens** [T9-]
+- **Walter Elias Disney** [T9+]
+- **Steven Allan Spielberg** [T9+]
+- **Maurice Bernard Sendak** [T3]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T4]
+- **Captain Robert Falcon Scott** [T3] (mirrored from robert_falcon_scott.dossier.md)
+- **Sir Arthur Ignatius Conan Doyle** [T3] (mirrored from sir_arthur_conan_doyle.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -620,6 +620,16 @@ Twentieth-century accounts often isolated the heroic inventor. More recent work 
 
 The roster’s **Mayer Amschel Rothschild** (1744–1812) should not be confused with Paxton’s documented Mentmore client, his grandson and namesake **Mayer Amschel de Rothschild** (1818–1874). The elder man died before Paxton’s career began, so no atlas connection is recorded for that roster entry. [Rothschild Archive family record](https://family.rothschildarchive.org/people/39-mayer-amschel-muffy-de-rothschild-1818-1874)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Charles John Huffam Dickens** [T3]
+- **Charles John Huffam Dickens** [T5]
+- **Frederick Law Olmsted** [T9+]
+- **Frederick Law Olmsted** [T3]
+- **John Ruskin** [T3]
+
 ## Sources
 
 https://www.chatsworth.org/news-media/news-blogs-press-releases/joseph-and-sarah-paxton-an-introduction/

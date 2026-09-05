@@ -901,6 +901,15 @@ Only the connections below were supported. Mere contemporaneity, shared national
 
 No documentary evidence was found for meetings, correspondence, collaboration, rivalry, family ties, or explicitly acknowledged influence involving the other people in the supplied atlas roster. In particular, no direct connection was established with Adam Smith, Jean-Baptiste Joseph Fourier, Joseph-Louis Lagrange, Pierre-Simon Laplace, Siméon Denis Poisson, Louis Braille, Thomas Edison, Alan Turing, Claude Shannon, John von Neumann, or later computing figures. Their appearance in broad histories of industry or information does not constitute a personal connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Napoleon Bonaparte** [T4]
+- **Empress Joséphine** [T4]
+- **Charles Babbage** [T9+]
+- **Augusta Ada King** [T9+]
+
 ## Chronology
 
 | Date | Event |

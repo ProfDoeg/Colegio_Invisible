@@ -119,6 +119,24 @@ _(All dates are Gregorian. Sources cited above; see References below.)_
 
 No additional roster crossings were included where the available material showed only contemporaneity, common geography, influence, later homage, or participation in the broader tango tradition without evidence of a qualifying connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ada Falcón** [T5]
+- **Astor Pantaleón Piazzolla** [T5]
+- **Enrique Santos Discépolo** [T3]
+- **Federico García Lorca** [T5]
+- **Jorge Luis Borges** [T1+]
+- **Max Glücksmann** [T3]
+- **Francisco Gianotti** [T9-] (mirrored from francisco_gianotti.dossier.md)
+- **Enrique Santos Discépolo** [T5] (mirrored from enrique_santos_discepolo.dossier.md)
+- **Joaquín Trincado Mateo** [T3] (mirrored from joaquin_trincado_mateo.dossier.md)
+- **Viktor Sulčič** [T9-] (mirrored from viktor_sulcic.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T1+] (mirrored from julio_cortazar.dossier.md)
+- **Ceferino Namuncurá** [T5] (mirrored from ceferino_namuncura.dossier.md)
+- **Ángel Gregorio Villoldo** [T9-] (mirrored from angel_villoldo.dossier.md)
+
 ## Sources and References (selected)  
 Civil and archival records: Toulouse birth/baptism registers; French national archives (extracts); Uruguayan consular act (1920).  
 Biographies and studies: Barsky & Barsky *Gardel, la biografía*; Defino *La verdad de una vida* (1968); Collier *Gardel: A Structure of Silence*; Turón *Carlos Gardel: Encuadre histórico* (Corregidor 2001) and follow-ups. Museo Carlos Gardel publications, blogs (e.g. Museo del Libro “Gardel y su Tiempo”), UNESCO/BA Govt articles.  

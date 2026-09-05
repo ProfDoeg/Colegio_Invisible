@@ -1240,6 +1240,40 @@ No reliable biographical crossings were found with the great majority of the atl
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Carl Menger** [T1-]
+- **Eugen Böhm Ritter von Bawerk** [T1-]
+- **Friedrich August von Hayek** [T5]
+- **Ludwig Heinrich Edler von Mises** [T5]
+- **Milton Friedman** [T5]
+- **John Locke** [T1-]
+- **Thomas Aquinas** [T1-]
+- **Aristotle** [T1-]
+- **Karl Marx** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Immanuel Kant** [T1-]
+- **John Maynard Keynes** [T1-]
+- **George Orwell** [T3]
+- **Abraham Lincoln** [T1-]
+- **Thomas Jefferson** [T1-]
+- **Alexander Hamilton** [T1-]
+- **George Washington** [T1-]
+- **Benjamin Franklin** [T1-]
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T1-]
+- **Charles de Ganahl Koch** [T5]
+- **Javier Gerardo Milei** [T3]
+- **Avram Noam Chomsky** [T3]
+- **Mikhail Aleksandrovich Bakunin** [T1-]
+- **Ludwig Heinrich Edler von Mises** [T3] (mirrored from ludwig_von_mises.dossier.md)
+- **Friedrich August von Hayek** [T3] (mirrored from friedrich_hayek.dossier.md)
+- **Javier Gerardo Milei** [T1+] (mirrored from javier_milei.dossier.md)
+- **Curtis Guy Yarvin** [T1+] (mirrored from curtis_yarvin.dossier.md)
+- **Milton Friedman** [T3] (mirrored from milton_friedman.dossier.md)
+
 ## Chronology
 
 - **1926, March 2:** Born in the Bronx to David and Rae Rothbard.

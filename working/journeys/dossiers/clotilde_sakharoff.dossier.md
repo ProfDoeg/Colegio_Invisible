@@ -716,6 +716,17 @@ Not present in the supplied roster. He was nevertheless a documented admirer and
 
 No documentary connection was established in the sources consulted between Clotilde and the other rostered individuals. In particular, shared status as dancers or modernists is not sufficient to claim relationships with Loïe Fuller, Rudolf Laban, Ruth St. Denis, Ted Shawn, George Balanchine, Martha Graham, Dore Hoyer, Valeska Gert, Katja Wulff, Hilde Holger, Hanya Holm, Suzanne Perrottet, Émile Jaques-Dalcroze, François Delsarte, or Gabriele d’Annunzio.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Achille-Claude Debussy** [T9-]
+- **Isadora Duncan** [T4]
+- **Mary Wigman** [T9+]
+- **Alphonse Mucha** [T3]
+- **Wassily Kandinsky** [T4]
+- **Charlotte Bara** [T4] (mirrored from charlotte_bara.dossier.md)
+
 ## Chronology
 
 | Date/year | Event |

@@ -706,6 +706,27 @@ No defensible direct personal connection was found to the overwhelming majority 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **William Jefferson Clinton** [T5]
+- **George Herbert Walker Bush** [T5]
+- **George Walker Bush** [T4]
+- **Benjamin Netanyahu** [T5]
+- **Nelson Rolihlahla Mandela** [T5]
+- **George Soros** [T9+]
+- **Muammar Muhammad Abu Minyar al-Gaddafi** [T9-]
+- **Laurence Douglas "Larry" Fink** [T4] (mirrored from larry_fink.dossier.md)
+- **Steven Allan Spielberg** [T5] (mirrored from stephen_spielberg.dossier.md)
+- **Sheldon Gary Adelson** [T3] (mirrored from sheldon_adelson.dossier.md)
+- **Fred McFeely Rogers** [T4] (mirrored from fred_rogers.dossier.md)
+- **Ghislaine Noelle Marion Maxwell** [T4] (mirrored from ghislaine_maxwell.dossier.md)
+- **George Soros** [T5] (mirrored from george_soros.dossier.md)
+- **Cristina Elisabet Fernández de Kirchner** [T5] (mirrored from cristina_fernandez_de_kirchner.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+- **Muammar Muhammad Abu Minyar al-Gaddafi** [T4] (mirrored from muammar_gaddafi.dossier.md)
+
 ## Chronology
 
 - **1947, October 26:** Born in Chicago, Illinois.

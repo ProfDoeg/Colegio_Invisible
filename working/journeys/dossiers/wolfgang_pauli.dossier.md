@@ -910,6 +910,31 @@ Only connections supported by the consulted sources are listed. Mere shared appe
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T3]
+- **Niels Bohr** [T3]
+- **Carl Gustav Jung** [T3]
+- **Werner Heisenberg** [T5]
+- **Erwin Rudolf Josef Alexander Schrödinger** [T5]
+- **Paul Adrien Maurice Dirac** [T3]
+- **Enrico Fermi** [T5]
+- **J. Robert Oppenheimer** [T4]
+- **John von Neumann** [T4]
+- **Maria Salomea Skłodowska-Curie** [T4]
+- **Satyendra Nath Bose** [T9-]
+- **Carl Gustav Jung** [T5] (mirrored from jung.dossier.md)
+- **Satyendra Nath Bose** [T5] (mirrored from satyendra_nath_bose.dossier.md)
+- **Niels Bohr** [T5] (mirrored from niels_bohr.dossier.md)
+- **Enrico Fermi** [T3] (mirrored from fermi.dossier.md)
+- **Richard Phillips Feynman** [T3] (mirrored from richard_feynman.dossier.md)
+- **Johannes Kepler** [T1-] (mirrored from johannes_kepler.dossier.md)
+- **Robert Fludd** [T1-] (mirrored from robert_fludd.dossier.md)
+- **Erwin Rudolf Josef Alexander Schrödinger** [T3] (mirrored from erwin_schrodinger.dossier.md)
+- **J. Robert Oppenheimer** [T3] (mirrored from robert_oppenheimer.dossier.md)
+
 ## Chronology
 
 | Date | Event |

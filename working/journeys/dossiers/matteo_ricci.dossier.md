@@ -1101,6 +1101,18 @@ For atlas purposes:
 
 No reliable crossings were found with the remaining atlas figures. Absence is especially important here: Ricci’s actual networks were dominated by Jesuit superiors, Chinese scholar-officials, Buddhist opponents, court eunuchs, printers, and converts, most of whom are not on the supplied roster.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Athanasius Kircher** [T1+]
+- **Marco Polo** [T1-]
+- **Aristotle** [T3]
+- **Jesus of Nazareth** [T1-]
+- **Paul the Apostle** [T3]
+- **Gottfried Wilhelm Leibniz** [T3] (mirrored from gottfried_wilhelm_leibniz.dossier.md)
+- **Giuseppe Tucci** [T1+] (mirrored from giuseppe_tucci.dossier.md)
+
 ## Chronology
 
 | Date | Event |

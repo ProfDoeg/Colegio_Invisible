@@ -799,6 +799,31 @@ All derive from the same career, but no single one is a sufficient biography.
 
 No stronger T5 personal meeting, T9 object-transmission, or subject-to-counterpart T2 prophecy connection was located among the roster. Mere contemporaneity, shared occult interests, or appearance in the same broad intellectual tradition has therefore not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Plato** [T1-]
+- **Ignatius Loyola Donnelly** [T1-]
+- **Helena Petrovna Blavatsky** [T1-]
+- **Rudolf Steiner** [T1-]
+- **Friedrich Max Müller** [T1-]
+- **Homer** [T1-]
+- **Hesiod of Ascra** [T1-]
+- **Arthur Scherbius** [T1-]
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Miguel de Cervantes Saavedra** [T1-]
+- **Hernán Cortés** [T1-]
+- **Motecuhzoma Xocoyotzin** [T1-]
+- **Francisco Pizarro González** [T1-]
+- **El Inca Garcilaso de la Vega** [T1-]
+- **Nabucodonosor II** [T1-]
+- **Herodotus of Halicarnassus** [T1-]
+- **Ctesias of Cnidus** [T1-]
+- **Paul the Apostle** [T1-]
+- **Dion Fortune** [T4]
+
 ## Sources
 
 https://manuscripts.nls.uk/repositories/2/resources/9117

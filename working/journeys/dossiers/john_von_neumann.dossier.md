@@ -1047,6 +1047,39 @@ No source consulted established a direct, qualifying connection with the overwhe
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alan Mathison Turing** [T3]
+- **Albert Einstein** [T3]
+- **Amalie Emmy Noether** [T4]
+- **Claude Elwood Shannon** [T5]
+- **Enrico Fermi** [T3]
+- **Erwin Rudolf Josef Alexander Schrödinger** [T3]
+- **J. Robert Oppenheimer** [T5]
+- **Niels Bohr** [T4]
+- **Norbert Wiener** [T3]
+- **Paul Adrien Maurice Dirac** [T3]
+- **Richard Phillips Feynman** [T1+]
+- **Wolfgang Ernst Pauli** [T4]
+- **Werner Heisenberg** [T3]
+- **Norbert Wiener** [T5] (mirrored from norbert_wiener.dossier.md)
+- **Werner Heisenberg** [T9-] (mirrored from heisenberg.dossier.md)
+- **Alan Mathison Turing** [T5] (mirrored from alan_turing.dossier.md)
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Claude Elwood Shannon** [T4] (mirrored from claude_shannon.dossier.md)
+- **Paul Adrien Maurice Dirac** [T4] (mirrored from dirac.dossier.md)
+- **Enrico Fermi** [T4] (mirrored from fermi.dossier.md)
+- **Richard Phillips Feynman** [T5] (mirrored from richard_feynman.dossier.md)
+- **Tony Hilton Royle Skyrme** [T4] (mirrored from tony_skyrme.dossier.md)
+- **Ray Kurzweil** [T1+] (mirrored from ray_kurzweil.dossier.md)
+- **Anthony Stafford Beer** [T1+] (mirrored from stafford_beer.dossier.md)
+- **Amalie Emmy Noether** [T5] (mirrored from emmy_noether.dossier.md)
+- **William Frederick Friedman** [T3] (mirrored from william_f_friedman.dossier.md)
+- **Donald Ervin Knuth** [T9+] (mirrored from donald_ervin_knuth.dossier.md)
+- **Yanis Varoufakis** [T1+] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -953,6 +953,33 @@ Only connections supported by the consulted sources are included. Mere membershi
 
 - **Absence finding:** No substantiated personal, institutional, or correspondence connection was identified between Hellman and the great majority of the atlas roster.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Bailey Whitfield Diffie** [T5]
+- **Ralph Charles Merkle** [T5]
+- **Leonard Max Adleman** [T9+]
+- **Adi Shamir** [T4]
+- **Ronald Linn Rivest** [T3]
+- **Claude Elwood Shannon** [T9-]
+- **Donald Ervin Knuth** [T5]
+- **David Lee Chaum** [T3]
+- **Alan Mathison Turing** [T1-]
+- **Vinton Gray Cerf** [T5]
+- **Philip R. Zimmermann** [T1-]
+- **William Egan Colby** [T3]
+- **Ralph Charles Merkle** [T3] (mirrored from ralph_merkle.dossier.md)
+- **Nick Szabo** [T3] (mirrored from nick_szabo.dossier.md)
+- **Harold Thomas Finney II** [T4] (mirrored from hal_finney.dossier.md)
+- **Philip R. Zimmermann** [T9+] (mirrored from phil_zimmermann.dossier.md)
+- **Leonard Max Adleman** [T3] (mirrored from leonard_adleman.dossier.md)
+- **David Lee Chaum** [T1+] (mirrored from david_chaum.dossier.md)
+- **Adi Shamir** [T3] (mirrored from adi_shamir.dossier.md)
+- **Donald Ervin Knuth** [T9] (mirrored from donald_ervin_knuth.dossier.md)
+- **Geoffrey Everest Hinton** [T3] (mirrored from geoffrey_hinton.dossier.md)
+- **Max Rafailovich Levchin** [T5] (mirrored from max_levchin.dossier.md)
+
 ## Chronology
 
 | Date | Event |

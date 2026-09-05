@@ -830,6 +830,34 @@ The durable legacy will therefore include not only what he wrote but what was at
 
 No reliable T2 prophecy/hyperstition or T9 shared-object transmission involving Harari and a roster member was established. Most roster names were omitted because the available evidence showed no qualifying crossing; mere appearance in the same intellectual tradition, country, conference circuit, bibliography, or historical period was not treated as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Charles Robert Darwin** [T1-]
+- **Christopher Columbus** [T1-]
+- **George Orwell** [T1-]
+- **Sir Isaac Newton** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Karl Marx** [T1-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Noah son of Lamech** [T1-]
+- **Ray Kurzweil** [T3]
+- **William Henry Gates III** [T3]
+- **Benjamin Netanyahu** [T5]
+- **Benjamin Netanyahu** [T3]
+- **Elon Reeve Musk** [T3]
+- **Javier Gerardo Milei** [T3]
+- **Klaus Martin Schwab** [T4]
+- **Slavoj Žižek** [T3]
+- **Yoshua Bengio** [T4]
+- **Aristotle** [T1-] (mirrored from aristotle.dossier.md)
+- **Samuel Harris Altman** [T3] (mirrored from sam_altman.dossier.md)
+- **Reid Garrett Hoffman** [T5] (mirrored from reid_hoffman.dossier.md)
+- **Geoffrey Everest Hinton** [T3] (mirrored from geoffrey_hinton.dossier.md)
+- **Yoshua Bengio** [T3] (mirrored from yoshua_bengio.dossier.md)
+
 ## Sources
 
 https://www.ynharari.com/about/

@@ -466,6 +466,12 @@ Historical reinterpretation now moves in two directions at once: restoring Johns
 
 No other roster member was found to have a sufficiently documented T1, T2, T3, T4, T5, or T9 crossing with Katherine Johnson. Mere appearance in the same commemorative lists, shared scientific subject matter, contemporaneity, or indirect participation in the same broad institutions was excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **John Fitzgerald Kennedy** [T1-]
+
 ## Sources
 
 https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/

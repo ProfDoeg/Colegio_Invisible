@@ -905,6 +905,46 @@ For the many remaining roster members, no documented crossing emerged. Absence f
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Camille Rosalie Claudel** [T5]
+- **Achille-Claude Debussy** [T3]
+- **Victor-Marie Hugo** [T5]
+- **Honoré de Balzac** [T1-]
+- **Captain Alfred Dreyfus** [T4]
+- **Alexandre Dumas** [T9-]
+- **Napoleon Bonaparte** [T9-]
+- **Michelangelo di Lodovico Buonarroti Simoni** [T1-]
+- **Dante Alighieri** [T1-]
+- **Loïe Fuller** [T5]
+- **Isadora Duncan** [T3]
+- **Sarah Bernhardt** [T4]
+- **Gustav Klimt** [T3]
+- **Maria Salomea Skłodowska-Curie** [T3]
+- **Pablo Ruiz Picasso** [T1+]
+- **Captain Robert Falcon Scott** [T4] (mirrored from robert_falcon_scott.dossier.md)
+- **Émile Jaques-Dalcroze** [T3] (mirrored from jaques_dalcroze.dossier.md)
+- **Carlos Slim Helú** [T9+] (mirrored from carlos_slim.dossier.md)
+- **Wifredo Viladrich** [T9+] (mirrored from viladrich.dossier.md)
+- **Isadora Duncan** [T5] (mirrored from isadora_duncan.dossier.md)
+- **Luc-Olivier Merson** [T4] (mirrored from luc_olivier_merson.dossier.md)
+- **Eugène Samuel Grasset** [T4] (mirrored from eugene_grasset.dossier.md)
+- **Gabriele d'Annunzio** [T5] (mirrored from dannunzio.dossier.md)
+- **Georges Hébert** [T3] (mirrored from georges_hebert.dossier.md)
+- **Vaslav Nijinsky** [T3] (mirrored from vaslav_nijinsky.dossier.md)
+- **Jules Charles** [T9-] (mirrored from carlos_thays.dossier.md)
+- **Maria Salomea Skłodowska-Curie** [T5] (mirrored from marie_curie.dossier.md)
+- **Sergei Pavlovich Diaghilev** [T3] (mirrored from sergei_diaghilev.dossier.md)
+- **Alphonse Mucha** [T5] (mirrored from alphonse_mucha.dossier.md)
+- **Michelangelo di Lodovico Buonarroti Simoni** [T9-] (mirrored from michelangelo.dossier.md)
+- **Gustav Klimt** [T5] (mirrored from gustav_klimt.dossier.md)
+- **Loïe Fuller** [T3] (mirrored from loie_fuller.dossier.md)
+- **Paul Berthon** [T4] (mirrored from paul_berthon.dossier.md)
+- **Jules-Félix Coutan** [T9+] (mirrored from jules_felix_coutan.dossier.md)
+- **Suzanne Perrottet** [T3] (mirrored from suzanne_perrottet.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

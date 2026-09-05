@@ -513,6 +513,29 @@ Charles Graves delivered the Royal Irish Academy memorial address in November 18
 
 No comparably documented T2 prophecy/hyperstition or T9 shared-object transmission involving Hamilton and another roster member was identified. Mere later use of Hamiltonian mechanics or quaternions, shared institutional membership, contemporaneity, or presence in the same broad scientific milieu has therefore not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Arthur Cayley** [T3]
+- **Augustin-Louis Cauchy** [T3]
+- **Carl Gustav Jacob Jacobi** [T3]
+- **Charles Babbage** [T5]
+- **Immanuel Kant** [T1-]
+- **James Clerk Maxwell** [T1+]
+- **Joseph-Louis Lagrange** [T1-]
+- **Michael Faraday** [T5]
+- **Pierre-Simon Laplace** [T1-]
+- **Sir Isaac Newton** [T1-]
+- **Sir George Gabriel Stokes** [T3] (mirrored from george_gabriel_stokes.dossier.md)
+- **Sir George Gabriel Stokes** [T4] (mirrored from george_gabriel_stokes.dossier.md)
+- **Felix Christian Klein** [T1+] (mirrored from felix_klein.dossier.md)
+- **Paul Adrien Maurice Dirac** [T1+] (mirrored from dirac.dossier.md)
+- **Arthur Cayley** [T5] (mirrored from arthur_cayley.dossier.md)
+- **Siméon Denis Poisson** [T1-] (mirrored from simeon_denis_poisson.dossier.md)
+- **Erwin Rudolf Josef Alexander Schrödinger** [T1+] (mirrored from erwin_schrodinger.dossier.md)
+- **Carl Gustav Jacob Jacobi** [T5] (mirrored from carl_gustav_jacob_jacobi.dossier.md)
+
 ## Sources
 
 https://www.tcd.ie/hamilton/about/william-rowan-hamilton/

@@ -599,6 +599,53 @@ His influence is not uniform. Adorno drew on Benjamin while criticizing immediac
 
 No supported T2 prophecy/hyperstition crossing was found in the roster. Mere influence, shared geography, institutional adjacency, or later resemblance has not been promoted here into a connection without identifiable correspondence, writing, meeting, or object provenance.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **André Breton** [T1-]
+- **Francois Marie Charles Fourier** [T1-]
+- **Edgar Allan Poe** [T1-]
+- **Filippo Tommaso Emilio Marinetti** [T1-]
+- **Johann Gottlieb Fichte** [T1-]
+- **Sigmund Freud** [T1-]
+- **Johann Wolfgang von Goethe** [T1-]
+- **Henri-Louis Bergson** [T1-]
+- **Jacques Derrida** [T1+]
+- **Jürgen Habermas** [T1+]
+- **Immanuel Kant** [T1-]
+- **Karl Marx** [T1-]
+- **Marcel Proust** [T1-]
+- **Martin Mordechai Buber** [T3]
+- **Max Horkheimer** [T3]
+- **Friedrich Nietzsche** [T1-]
+- **Novalis** [T1-]
+- **Paul Klee** [T1-]
+- **Paul Klee** [T9-]
+- **Friedrich Schiller** [T1-]
+- **Theodor W. Adorno** [T3]
+- **Theodor W. Adorno** [T5]
+- **Victor-Marie Hugo** [T1-]
+- **Diogenes of Sinope** [T1-] (mirrored from diogenes_of_sinope.dossier.md)
+- **Martin Mordechai Buber** [T4] (mirrored from martin_buber.dossier.md)
+- **Winfried Georg Sebald** [T3] (mirrored from w_g_sebald.dossier.md)
+- **Wilhelm Richard Wagner** [T1-] (mirrored from richard_wagner.dossier.md)
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T9-] (mirrored from brothers_grimm.dossier.md)
+- **André Breton** [T3] (mirrored from andre_breton.dossier.md)
+- **Lev Davidovich Bronstein** [T1-] (mirrored from leon_trotsky.dossier.md)
+- **Herbert Marcuse** [T1+] (mirrored from herbert_marcuse.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Gustav Landauer** [T3] (mirrored from gustav_landauer.dossier.md)
+- **Mark Fisher** [T1+] (mirrored from mark_fisher.dossier.md)
+- **Victoria Ocampo** [T3] (mirrored from victoria_ocampo.dossier.md)
+- **Sigmund Freud** [T3] (mirrored from freud.dossier.md)
+- **Felix José Weil** [T9-] (mirrored from felix_weil.dossier.md)
+- **Georges Sorel** [T1-] (mirrored from georges_sorel.dossier.md)
+- **Friedrich Nietzsche** [T3] (mirrored from nietzsche.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+- **Georg Wilhelm Friedrich Hegel** [T1-] (mirrored from hegel.dossier.md)
+- **Max Horkheimer** [T5] (mirrored from max_horkheimer.dossier.md)
+
 ## Sources
 
 https://adk.de/archiv-der-kuenste/archiv-bibliothek/bibliothek-des-walter-benjamin-archivs

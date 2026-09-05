@@ -561,6 +561,30 @@ The Rosa-Luxemburg-Stiftung, annual Berlin commemorations, streets and squares, 
 
 - **[T5] Documented fact:** Trotsky’s memoir states that he first knew Luxemburg in 1904 and “renewed acquaintance” with her at the RSDLP’s London congress in 1907. He characterized their meetings as brief and infrequent and denied that they had a close personal friendship. Luxemburg also directly criticized the “Lenin-Trotsky theory” and Trotsky’s policies in her unfinished 1918 manuscript on the Russian Revolution, establishing written engagement in addition to the meetings. ([Trotsky, *My Life*, chapter 16](https://www.marxists.org/archive/trotsky/1930/mylife/ch16.htm), [Luxemburg works archive](https://www.marxists.org/archive/luxemburg/index.htm))
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Mikhail Aleksandrovich Bakunin** [T1-]
+- **Johann Wolfgang von Goethe** [T1-]
+- **Antonio Francesco Gramsci** [T1+]
+- **Karl Marx** [T1-]
+- **Vladimir Ilyich Ulyanov** [T5]
+- **Lev Davidovich Bronstein** [T5]
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **Wilhelm Reich** [T3] (mirrored from reich.dossier.md)
+- **Vladimir Ilyich Ulyanov** [T3] (mirrored from vladimir_lenin.dossier.md)
+- **Avram Noam Chomsky** [T1+] (mirrored from noam_chomsky.dossier.md)
+- **Rudolf Steiner** [T5] (mirrored from steiner.dossier.md)
+- **Lev Davidovich Bronstein** [T3] (mirrored from leon_trotsky.dossier.md)
+- **Lev Davidovich Bronstein** [T1+] (mirrored from leon_trotsky.dossier.md)
+- **Gustav Landauer** [T4] (mirrored from gustav_landauer.dossier.md)
+- **Felix José Weil** [T1+] (mirrored from felix_weil.dossier.md)
+- **Georges Sorel** [T4] (mirrored from georges_sorel.dossier.md)
+- **Nicos Poulantzas** [T1+] (mirrored from nicos_poulantzas.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+
 ## Sources
 
 https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/rosa-luxemburg

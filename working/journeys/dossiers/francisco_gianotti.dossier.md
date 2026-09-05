@@ -954,6 +954,19 @@ No documented crossing with the remaining named atlas figures was found. This is
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Mario Palanti** [T4]
+- **Virginio Colombo** [T4]
+- **Troiano Troiani** [T4]
+- **Pío Collivadino** [T9+]
+- **Antoine de Saint-Exupéry** [T9+]
+- **Carlos Gardel** [T9+]
+- **Mario Palanti** [T5] (mirrored from mario_palanti.dossier.md)
+- **Francisco Pizarro González** [T4] (mirrored from pizarro.dossier.md)
+
 ## Chronology
 
 | Date | Event |

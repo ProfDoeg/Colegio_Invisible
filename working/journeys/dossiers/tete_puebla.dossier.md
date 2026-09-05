@@ -554,6 +554,22 @@ Because Puebla is living, “posthumous reputation” does not yet apply. Her le
 
 No evidence located supports additional roster connections under the specified definitions. Mere ideological reference, shared nationality, institutional contemporaneity, commemoration, or involvement in the same broader historical conflict was not treated as a crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Celia Esther Sánchez Manduley** [T5]
+- **Celia Esther Sánchez Manduley** [T1-]
+- **Ernesto "Che" Guevara** [T5]
+- **Ernesto "Che" Guevara** [T3]
+- **Ernesto "Che" Guevara** [T1-]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Fidel Alejandro Castro Ruz** [T1-]
+- **Vilma Espín Guillois** [T5]
+- **Vilma Espín Guillois** [T1-]
+- **Vilma Espín Guillois** [T4] (mirrored from vilma_espin.dossier.md)
+- **Fidel Alejandro Castro Ruz** [T4] (mirrored from fidel_castro.dossier.md)
+
 ## Sources
 
 https://adncuba.com/en/noticias-de-cuba/los-hijos-del-poder-en-cuba

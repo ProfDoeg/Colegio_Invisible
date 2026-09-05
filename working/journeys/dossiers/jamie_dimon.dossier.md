@@ -936,6 +936,26 @@ To supporters he represents competent American capitalism, candor, preparedness,
 
 - **[T5] Documented fact:** Dimon participated in Zelenskyy’s “CEOs for Ukraine” meeting on the sidelines of the World Economic Forum in Davos on 16 January 2024. Contemporary coverage reported that Zelenskyy spoke with Dimon and other major investors about Ukraine’s economy, reconstruction, and investment. [Bloomberg event report](https://www.youtube.com/watch?v=QKnPjJBEis4)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T1-]
+- **Adam Smith** [T1-]
+- **Benjamin Netanyahu** [T5]
+- **William Henry Gates III** [T5]
+- **David Rockefeller** [T9-]
+- **Elon Reeve Musk** [T5]
+- **George Walker Bush** [T4]
+- **John Pierpont Morgan** [T1-]
+- **John Pierpont Morgan** [T9-]
+- **Javier Gerardo Milei** [T5]
+- **Klaus Martin Schwab** [T5]
+- **Laurence Douglas "Larry" Fink** [T4]
+- **Volodymyr Oleksandrovych Zelenskyy** [T5]
+- **Laurence Douglas "Larry" Fink** [T5] (mirrored from larry_fink.dossier.md)
+- **Jeffrey Edward Epstein** [T4] (mirrored from jeffrey_epstein.dossier.md)
+
 ## Sources
 
 https://www.jpmorganchase.com/about/leadership/jamie-dimon

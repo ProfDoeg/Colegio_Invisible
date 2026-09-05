@@ -594,6 +594,23 @@ His modern legacy is strongest in four areas: Achaemenid historiography, the gen
 
 - **[T3] Documented fact:** Aelian repeatedly named and excerpted Ctesias in *On the Nature of Animals*, written at Rome in the late second or early third century CE. Among other examples, he transmitted Ctesias’s assertions about Indian livestock and animals and repeated the claim that Ctesias had seen an Indian beast presented to the Persian king—while expressly questioning whether Ctesias was an adequate authority. The surviving evidence does not always reveal whether Aelian consulted Ctesias directly or through an intermediary compilation. [Aelian, *On Animals* 3](https://www.attalus.org/translate/animals3.html) [Aelian, *On Animals* 4](https://www.attalus.org/translate/animals4.html)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Cyrus the Great** [T1-]
+- **Herodotus of Halicarnassus** [T3]
+- **Aristotle** [T3]
+- **Plinio el Viejo** [T3]
+- **Strabo of Amaseia** [T3]
+- **Claudius Aelianus** [T3]
+- **Gaius Julius Solinus** [T3] (mirrored from gaius_julius_solinus.dossier.md)
+- **Flavius Josephus** [T3] (mirrored from flavius_josephus.dossier.md)
+- **Aristotle** [T1+] (mirrored from aristotle.dossier.md)
+- **Plinio el Viejo** [T1+] (mirrored from plinio_el_viejo.dossier.md)
+- **Nabucodonosor II** [T1-] (mirrored from nabucodonosor_ii.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+
 ## Sources
 
 https://www.iranicaonline.org/articles/ctesias/

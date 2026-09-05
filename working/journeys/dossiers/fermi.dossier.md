@@ -1012,6 +1012,30 @@ Absence is significant here: Fermi’s well-documented network is unusually conc
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T5]
+- **Benito Mussolini** [T4]
+- **J. Robert Oppenheimer** [T5]
+- **John von Neumann** [T4]
+- **Niels Bohr** [T5]
+- **Paul Adrien Maurice Dirac** [T5]
+- **Richard Phillips Feynman** [T4]
+- **Erwin Rudolf Josef Alexander Schrödinger** [T5]
+- **Satyendra Nath Bose** [T9-]
+- **Werner Heisenberg** [T5]
+- **Wolfgang Ernst Pauli** [T3]
+- **Maria Salomea Skłodowska-Curie** [T4]
+- **Werner Heisenberg** [T4] (mirrored from heisenberg.dossier.md)
+- **Wolfgang Ernst Pauli** [T5] (mirrored from wolfgang_pauli.dossier.md)
+- **John von Neumann** [T3] (mirrored from john_von_neumann.dossier.md)
+- **Paul Adrien Maurice Dirac** [T4] (mirrored from dirac.dossier.md)
+- **Niels Bohr** [T4] (mirrored from niels_bohr.dossier.md)
+- **Richard Phillips Feynman** [T5] (mirrored from richard_feynman.dossier.md)
+- **Albert Einstein** [T4] (mirrored from einstein.dossier.md)
+
 ## Chronology
 
 - **1901, 29 September:** Born in Rome.

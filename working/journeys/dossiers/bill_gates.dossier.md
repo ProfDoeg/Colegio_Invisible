@@ -581,6 +581,42 @@ The technological legacy is not that Gates single-handedly invented personal com
 
 No adequately documented crossing was identified for the remaining roster members. Mere shared interests, historical influence, simultaneous attendance at very large events without evidence of proximity, and unsupported internet association claims were excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **William Jefferson Clinton** [T3]
+- **William Jefferson Clinton** [T5]
+- **Carlos Slim Helú** [T5]
+- **Elon Reeve Musk** [T4]
+- **Ghislaine Noelle Marion Maxwell** [T5]
+- **Jeffrey Edward Epstein** [T5]
+- **Klaus Martin Schwab** [T3]
+- **Klaus Martin Schwab** [T5]
+- **Leonardo di ser Piero da Vinci** [T9-]
+- **Leonardo di ser Piero da Vinci** [T1-]
+- **Nelson Rolihlahla Mandela** [T5]
+- **Nelson Rolihlahla Mandela** [T1-]
+- **Richard Phillips Feynman** [T1-]
+- **Samuel Harris Altman** [T5]
+- **Samuel Harris Altman** [T4]
+- **Yuval Noah Harari** [T3]
+- **James "Jamie" Dimon** [T5] (mirrored from jamie_dimon.dossier.md)
+- **Sam Bankman-Fried** [T4] (mirrored from sam_bankman_fried.dossier.md)
+- **Linus Benedict Torvalds** [T9+] (mirrored from linus_torvalds.dossier.md)
+- **Steven Allan Spielberg** [T5] (mirrored from stephen_spielberg.dossier.md)
+- **Lawrence Joseph Ellison** [T3] (mirrored from larry_ellison.dossier.md)
+- **Ray Kurzweil** [T5] (mirrored from ray_kurzweil.dossier.md)
+- **George Soros** [T4] (mirrored from george_soros.dossier.md)
+- **David Lee Chaum** [T3] (mirrored from david_chaum.dossier.md)
+- **Leon David Black** [T5] (mirrored from leon_black.dossier.md)
+- **Elon Reeve Musk** [T5] (mirrored from elon_musk.dossier.md)
+- **Reid Garrett Hoffman** [T5] (mirrored from reid_hoffman.dossier.md)
+- **Donald Ervin Knuth** [T4] (mirrored from donald_ervin_knuth.dossier.md)
+- **Geoffrey Everest Hinton** [T3] (mirrored from geoffrey_hinton.dossier.md)
+- **Yoshua Bengio** [T3] (mirrored from yoshua_bengio.dossier.md)
+- **Max Rafailovich Levchin** [T4] (mirrored from max_levchin.dossier.md)
+
 ## Sources
 
 https://americanhistory.si.edu/comphist/gates.htm

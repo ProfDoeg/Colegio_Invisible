@@ -954,6 +954,28 @@ No documentary meeting, correspondence, family relationship, patronage, rivalry,
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Maslama ibn Ahmad al-Majriti** [T9-]
+- **Maslama ibn Qasim al-Qurtubi** [T9-]
+- **Abu Yusuf Ya'qub ibn Ishaq al-Kindi** [T1-]
+- **Aristotle** [T1-]
+- **Plato** [T1-]
+- **Abraham** [T1-]
+- **King Solomon** [T1-]
+- **Maimonides** [T1+]
+- **Albertus Magnus** [T1+]
+- **Giovanni Pico della Mirandola** [T1+]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1+]
+- **Johannes Trithemius** [T1+]
+- **Paracelsus** [T1+]
+- **Giordano Bruno** [T1+]
+- **Tommaso Campanella** [T1+]
+- **Frances Amelia Yates** [T1+]
+- **Aby Moritz Warburg** [T1+]
+
 ## Chronology
 
 | Date | Event | Status |

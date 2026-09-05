@@ -1194,6 +1194,29 @@ No source-supported direct connection was established between Michelangelo and t
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Lorenzo di Piero de' Medici** [T5]
+- **Leonardo di ser Piero da Vinci** [T4]
+- **Dante Alighieri** [T1-]
+- **Giovanni Pico della Mirandola** [T4]
+- **Galileo Galilei** [T9+]
+- **Auguste Rodin** [T9+]
+- **Sigmund Freud** [T1+]
+- **Jesus of Nazareth** [T1-]
+- **Cosimo di Giovanni de' Medici** [T9-]
+- **Leon Battista Alberti** [T9-]
+- **Auguste Rodin** [T1+] (mirrored from auguste_rodin.dossier.md)
+- **Simon bar Jonah** [T9-] (mirrored from apostle_peter.dossier.md)
+- **Peter von Cornelius** [T1+] (mirrored from peter_von_cornelius.dossier.md)
+- **San Antonio Abad** [T1-] (mirrored from san_antonio_abad.dossier.md)
+- **Alexandre Dumas** [T1+] (mirrored from alexandre_dumas.dossier.md)
+- **William R. Bradshaw** [T1+] (mirrored from william_r_bradshaw.dossier.md)
+- **Moses** [T1-] (mirrored from moses.dossier.md)
+- **Leonardo di ser Piero da Vinci** [T5] (mirrored from leonardo_da_vinci.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -561,6 +561,20 @@ Her archive also revises the romantic picture of the solitary free dancer. It sh
 
 - **[T9-] Documented fact.** The connecting object is likewise *Parade*: the ballet was originally created in 1916–1917 for Diaghilev’s Ballets Russes, whereas Wulff’s troupe mounted a later independent version at Essen in June 1928. No direct meeting or correspondence between Wulff and Diaghilev is documented here. [The Dancers Act](https://thedancersact.ch/katja-wulff/)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Rudolf Laban** [T5]
+- **Mary Wigman** [T5]
+- **Suzanne Perrottet** [T5]
+- **Sophie Taeuber-Arp** [T5]
+- **Vera Skoronel** [T5]
+- **Erik Satie** [T9-]
+- **Sergei Pavlovich Diaghilev** [T9-]
+- **Theodor Reuss** [T3] (mirrored from theodor_reuss.dossier.md)
+- **Henri Oedenkoven** [T4] (mirrored from henri_oedenkoven.dossier.md)
+
 ## Sources
 
 https://www.deutsches-tanzarchiv.de/archiv/nachlaesse-sammlungen/w/katja-wulff/

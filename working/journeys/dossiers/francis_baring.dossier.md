@@ -755,6 +755,14 @@ The house survived the 1890 Argentine crisis through a Bank of England-led rescu
 
 No other roster member was found to have a sufficiently documented direct crossing with Sir Francis Baring under the specified connection types; indirect institutional involvement, mere contemporaneity, and later association with Barings have been excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander Baring** [T5]
+- **Napoleon Bonaparte** [T3]
+- **Alexander Baring** [T3] (mirrored from alexander_baring.dossier.md)
+
 ## Sources
 
 https://www.oxforddnb.com/display/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-1382

@@ -966,6 +966,24 @@ Only connections supported by the consulted sources are included. Mere contempor
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Napoleon Bonaparte** [T3]
+- **Claude-Henri de Rouvroy** [T3]
+- **Karl Marx** [T1+]
+- **André Breton** [T1+]
+- **Walter Benjamin** [T1+]
+- **Roland Gérard Barthes** [T1+]
+- **Guy-Ernest Debord** [T1+]
+- **Jean-Jacques Rousseau** [T1-]
+- **Honoré de Balzac** [T4]
+- **Karl Gräser** [T3] (mirrored from karl_graser.dossier.md)
+- **Ludwig Derleth** [T1+] (mirrored from ludwig_derleth.dossier.md)
+- **Joseph Alois Schumpeter** [T1+] (mirrored from joseph_schumpeter.dossier.md)
+- **Mikhail Aleksandrovich Bakunin** [T1+] (mirrored from mikhail_bakunin.dossier.md)
+
 ## Chronology
 
 | Date | Event |

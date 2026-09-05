@@ -919,6 +919,35 @@ No supported direct crossings were found with the overwhelming majority of the r
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Christina Georgina Rossetti** [T5]
+- **Dante Alighieri** [T1-]
+- **Sir John Everett Millais** [T5]
+- **William Holman Hunt** [T5]
+- **John Ruskin** [T3]
+- **William Morris** [T5]
+- **Jane Morris** [T3]
+- **Sir Edward Coley Burne-Jones** [T5]
+- **Mary "May" Morris** [T5]
+- **Charles John Huffam Dickens** [T3]
+- **William Blake** [T1-]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T3]
+- **William Butler Yeats** [T3]
+- **Jheronimus van Aken** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Mary Magdalene** [T1-]
+- **James Augustine Aloysius Joyce** [T3] (mirrored from james_joyce.dossier.md)
+- **Émile Jaques-Dalcroze** [T5] (mirrored from jaques_dalcroze.dossier.md)
+- **Jane Morris** [T5] (mirrored from jane_morris.dossier.md)
+- **The Lady of the Lake** [T1-] (mirrored from lady-of-the-lake.dossier.md)
+- **Achille-Claude Debussy** [T1+] (mirrored from claude_debussy.dossier.md)
+- **Guinevere** [T1-] (mirrored from guinevere.dossier.md)
+- **Elizabeth** [T3] (mirrored from elizabeth_bessie_burden.dossier.md)
+- **John Ruskin** [T5] (mirrored from john_ruskin.dossier.md)
+
 ## Chronology
 
 | Date | Event |

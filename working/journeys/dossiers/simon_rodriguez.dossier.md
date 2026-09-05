@@ -514,6 +514,23 @@ Commemoration has preserved and distorted him simultaneously. Hagiography turns 
 
 No sufficiently documented personal or textual crossing was established with other tempting roster candidates such as Alexander von Humboldt, Domingo Faustino Sarmiento, José Martí, or Paulo Freire. Later biographies and comparative scholarship sometimes place their names beside Rodríguez’s, but parallel ideas, possible undocumented encounters, and posthumous comparison alone do not satisfy the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Christopher Columbus** [T1-]
+- **Jean-Jacques Rousseau** [T1-]
+- **Simón Bolívar** [T5]
+- **Simón Bolívar** [T3]
+- **Simón Bolívar** [T1-]
+- **Napoleon Bonaparte** [T3]
+- **Napoleon Bonaparte** [T1-]
+- **Antonio José de Sucre** [T5]
+- **Antonio José de Sucre** [T3]
+- **Manuela Sáenz de Vergara y Aizpuru** [T5]
+- **Hugo Rafael Chávez Frías** [T1+]
+- **Nicolás Maduro Moros** [T1+]
+
 ## Sources
 
 https://bibliofep.fundacionempresaspolar.org/dhv/entradas/r/rodriguez-simon/

@@ -833,6 +833,13 @@ These interpretations are not mutually exclusive. Documentary facts establish fa
 
 No additional genuine, documented crossing with the atlas roster was identified. Literary antecedents such as Charles Dickens’s fictional financial schemes and later comparisons involving other financiers do not satisfy the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Benito Mussolini** [T3]
+- **Próspero Catelin** [T4] (mirrored from prospero_catelin.dossier.md)
+
 ## Sources
 
 https://www.archives.gov/publications/prologue/2010/summer/ponzi-inmate-case-file

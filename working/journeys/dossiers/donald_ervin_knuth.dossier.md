@@ -1039,6 +1039,28 @@ No adequately sourced personal or institutional crossing was established with th
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alan Mathison Turing** [T9-]
+- **Leslie Barry Lamport** [T9+]
+- **William Henry Gates III** [T4]
+- **Richard Phillips Feynman** [T4]
+- **John von Neumann** [T9-]
+- **Claude Elwood Shannon** [T1-]
+- **Adi Shamir** [T9-]
+- **Ronald Linn Rivest** [T9-]
+- **Leonard Max Adleman** [T9-]
+- **Bailey Whitfield Diffie** [T9]
+- **Martin Edward Hellman** [T9]
+- **William Frederick Friedman** [T9-]
+- **Elizebeth Smith Friedman** [T9-]
+- **Martin Edward Hellman** [T5] (mirrored from hellman.dossier.md)
+- **Robert Maxwell** [T4] (mirrored from robert_maxwell.dossier.md)
+- **Arthur Ben** [T3] (mirrored from arthur_ben.dossier.md)
+- **Ronald Linn Rivest** [T5] (mirrored from ron_rivest.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

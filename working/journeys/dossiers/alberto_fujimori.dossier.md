@@ -659,6 +659,16 @@ His criminal trial became an international precedent: a former elected head of s
 
 - **[T5] Documented fact:** Keiko Sofía Fujimori Higuchi was Fujimori’s eldest daughter, political collaborator, and eventual dynastic successor. In **August 1994**, he recalled the nineteen-year-old Keiko from her studies in the United States and appointed her first lady after removing Susana Higuchi; she performed that role through the end of his government in 2000. Keiko subsequently led campaigns defending his presidential record and seeking his release, received him into her San Borja home after his **6 December 2023** release, announced with him in July 2024 that he intended to seek the presidency in 2026, and hosted him during his final illness and death on **11 September 2024**. Their familial relationship, repeated personal association, and political collaboration are documented facts. [CIDOB biography](https://www.cidob.org/lider-politico/keiko-fujimori-higuchi)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **George Herbert Walker Bush** [T5]
+- **William Jefferson Clinton** [T5]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Susana Shizuko Higuchi Miyagawa** [T5]
+- **Keiko Sofia Fujimori Higuchi** [T5]
+
 ## Sources
 
 https://www.cidob.org/lider-politico/alberto-fujimori

@@ -599,6 +599,20 @@ In 1949 Eric M. Warburg represented the family in a restitution settlement throu
 
 No additional roster crossings were included where the available evidence showed only broad contemporaneity, indirect family association, membership in related movements, or presence on opposing sides of a historical event without documented contact.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aby Moritz Warburg** [T3]
+- **Aby Moritz Warburg** [T5]
+- **Aby Moritz Warburg** [T9-]
+- **Paul Moritz Warburg** [T3]
+- **Paul Moritz Warburg** [T5]
+- **Albert Einstein** [T3]
+- **Chaim Azriel Weizmann** [T5]
+- **Martin Mordechai Buber** [T3]
+- **David Ben-Gurion** [T4]
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd118806173.html

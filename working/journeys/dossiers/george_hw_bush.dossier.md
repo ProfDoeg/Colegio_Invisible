@@ -930,6 +930,40 @@ Only roster members with a documented personal, familial, political, or institut
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Prescott Sheldon Bush** [T5]
+- **George Walker Bush** [T5]
+- **Manuel Antonio Noriega Moreno** [T4]
+- **Saddam Hussein al-Tikriti** [T4]
+- **Oliver Laurence North** [T4]
+- **William Joseph Casey** [T4]
+- **William Jefferson Clinton** [T5]
+- **Hillary Diane Rodham Clinton** [T5]
+- **Benjamin Netanyahu** [T4]
+- **Fidel Alejandro Castro Ruz** [T4]
+- **David Rockefeller** [T4]
+- **George Washington** [T9-]
+- **Pablo Emilio Escobar Gaviria** [T4] (mirrored from pablo_escobar.dossier.md)
+- **Nelson Rolihlahla Mandela** [T5] (mirrored from nelson_mandela.dossier.md)
+- **Friedrich August von Hayek** [T3] (mirrored from friedrich_hayek.dossier.md)
+- **Jonas Malheiro Savimbi** [T5] (mirrored from jonas_savimbi.dossier.md)
+- **William Egan Colby** [T9-] (mirrored from william_colby.dossier.md)
+- **Jean Baudrillard** [T3] (mirrored from jean_baudrillard.dossier.md)
+- **Saddam Hussein al-Tikriti** [T3] (mirrored from saddam_hussein.dossier.md)
+- **Oliver Laurence North** [T5] (mirrored from oliver_north.dossier.md)
+- **Adnan Muhammad Khashoggi** [T4] (mirrored from adnan_khashoggi.dossier.md)
+- **Manuel Antonio Noriega Moreno** [T5] (mirrored from manuel_noriega.dossier.md)
+- **Mark Lombardi** [T1+] (mirrored from mark_lombardi.dossier.md)
+- **Robert Moses** [T3] (mirrored from robert_moses.dossier.md)
+- **William Joseph Casey** [T5] (mirrored from william_casey.dossier.md)
+- **Alberto Kenya Fujimori Inomoto** [T5] (mirrored from alberto_fujimori.dossier.md)
+- **Kenneth Lee Lay** [T3] (mirrored from kenneth_lay.dossier.md)
+- **Kenneth Lee Lay** [T4] (mirrored from kenneth_lay.dossier.md)
+- **Muammar Muhammad Abu Minyar al-Gaddafi** [T4] (mirrored from muammar_gaddafi.dossier.md)
+
 ## Compact Chronology
 
 - **1924, June 12:** Born in Milton, Massachusetts.

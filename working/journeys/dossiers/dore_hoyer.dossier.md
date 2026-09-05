@@ -557,6 +557,20 @@ The formula “Wigman’s lineage carried to its tragic solo end” captures one
 
 No further roster crossings met the required threshold. In particular, Hoyer’s indirect Dalcroze-derived training does not document a meeting with Émile Jaques-Dalcroze; scholarly comparisons with Valeska Gert, Vera Skoronel, and Merce Cunningham do not establish interaction; and dancing to Igor Stravinsky’s score does not by itself fit the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Mary Wigman** [T5]
+- **Mary Wigman** [T1-]
+- **Martha Graham** [T5]
+- **Martha Graham** [T1-]
+- **Doris Batcheller Humphrey** [T5]
+- **José Arcadio Limón** [T5]
+- **Hanya Holm** [T1-]
+- **Vera Skoronel** [T4] (mirrored from vera_skoronel.dossier.md)
+- **Mary Wigman** [T4] (mirrored from mary_wigman.dossier.md)
+
 ## Sources
 
 https://www.deutsches-tanzarchiv.de/archiv/nachlaesse-sammlungen/h/dore-hoyer/

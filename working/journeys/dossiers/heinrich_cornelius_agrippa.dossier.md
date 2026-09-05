@@ -578,6 +578,44 @@ Historiography moved from demonological anecdote to nineteenth-century rehabilit
 
 No secure personal meeting, correspondence, exact shared milieu, prophecy relationship, or shared-object transmission was found for the many other roster members sometimes linked to Agrippa merely through occult tradition, broad intellectual resemblance, or later legend.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abu Yusuf Ya'qub ibn Ishaq al-Kindi** [T1-]
+- **Albertus Magnus** [T1-]
+- **Aristotle** [T1-]
+- **Paul the Apostle** [T1-]
+- **Giovanni Pico della Mirandola** [T1-]
+- **Johannes Reuchlin** [T3]
+- **Johannes Trithemius** [T5]
+- **Johannes Trithemius** [T3]
+- **John Dee** [T1+]
+- **Giordano Bruno** [T1+]
+- **Mary Wollstonecraft Shelley** [T1+]
+- **Moses** [T1-]
+- **Plato** [T1-]
+- **Plinio el Viejo** [T1-]
+- **Ramon Llull** [T1-]
+- **Robert Fludd** [T1+]
+- **Roger Bacon** [T1-]
+- **King Solomon** [T1-]
+- **Zoroaster** [T1-]
+- **Frances Amelia Yates** [T1+]
+- **Jean-Baptiste Alliette** [T1+] (mirrored from etteilla.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Dion Fortune** [T1+] (mirrored from dion_fortune.dossier.md)
+- **Ahmad al-Majriti** [T1-] (mirrored from ahmad_al_majriti.dossier.md)
+- **Peter of Ravenna** [T5] (mirrored from peter_of_ravenna.dossier.md)
+- **Peter of Ravenna** [T1-] (mirrored from peter_of_ravenna.dossier.md)
+- **John Dee** [T3] (mirrored from john_dee.dossier.md)
+- **Helena Petrovna Blavatsky** [T1+] (mirrored from blavatsky.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Arthur Edward Waite** [T1+] (mirrored from arthur_edward_waite.dossier.md)
+- **Paracelsus** [T4] (mirrored from paracelsus.dossier.md)
+- **Ioan Petru Culianu** [T1+] (mirrored from ioan_petru_culianu.dossier.md)
+- **Nicholas of Cusa** [T1-] (mirrored from nicholas_of_cusa.dossier.md)
+
 ## Sources
 
 https://plato.stanford.edu/entries/agrippa-nettesheim/

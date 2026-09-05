@@ -976,6 +976,27 @@ James cited Carl Kellner’s yoga paper in *The Varieties of Religious Experienc
 
 No adequately documented meeting, correspondence, collaboration, or acknowledged direct influence on Reuss was found in the consulted materials. Similar themes or membership in adjacent intellectual worlds do not establish connections.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Helena Petrovna Blavatsky** [T5]
+- **William Morris** [T3]
+- **Wilhelm Richard Wagner** [T4]
+- **Rudolf Steiner** [T3]
+- **Arthur Edward Waite** [T3]
+- **René Guénon** [T4]
+- **Henri Oedenkoven** [T4]
+- **Ida Hofmann** [T4]
+- **Rudolf Laban** [T3]
+- **Mary Wigman** [T3]
+- **Katja Wulff** [T3]
+- **Sophie Taeuber-Arp** [T3]
+- **Suzanne Perrottet** [T3]
+- **Carl Gustav Jacob Jacobi** [T4]
+- **Ida Hofmann** [T5] (mirrored from ida_hoffmann.dossier.md)
+- **Henri Oedenkoven** [T5] (mirrored from henri_oedenkoven.dossier.md)
+
 ## Chronology
 
 - **1855, 28 June:** Born in Augsburg to Franz Xaver Reuss and Eva Barbara Margaretha Wagner.

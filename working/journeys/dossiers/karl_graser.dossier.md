@@ -1020,6 +1020,24 @@ No supported connection was found between Karl and the great majority of the atl
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Gustav Arthur "Gusto" Gräser** [T5]
+- **Henri Oedenkoven** [T5]
+- **Ida Hofmann** [T5]
+- **Arnold Rikli** [T9-]
+- **Francois Marie Charles Fourier** [T3]
+- **Erich Mühsam** [T5]
+- **Otto Gross** [T4]
+- **Alphonse Mucha** [T9+]
+- **Hermann Hesse** [T9+]
+- **Max Weber** [T4]
+- **Hermann Hesse** [T4] (mirrored from hermann_hesse.dossier.md)
+- **Ida Hofmann** [T4] (mirrored from ida_hoffmann.dossier.md)
+- **Karl Max Engelmann** [T5] (mirrored from engelmann.dossier.md)
+
 ## Chronology
 
 | Date | Event |

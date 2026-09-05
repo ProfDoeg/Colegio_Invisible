@@ -1169,6 +1169,38 @@ No documentary crossing was found in the consulted material for most of the rema
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Carl Gustav Jung** [T5]
+- **Gustav Arthur "Gusto" Gräser** [T5]
+- **Karl Gräser** [T4]
+- **Henri Oedenkoven** [T9-]
+- **Ida Hofmann** [T9-]
+- **Friedrich Nietzsche** [T1-]
+- **Johann Wolfgang von Goethe** [T1-]
+- **Novalis** [T3]
+- **Friedrich Schiller** [T3]
+- **Søren Aabye Kierkegaard** [T3]
+- **Rabindranath Tagore** [T3]
+- **Mohandas Karamchand Gandhi** [T3]
+- **Hermann Graf von Keyserling** [T4]
+- **Miguel Serrano** [T5]
+- **Erich Mühsam** [T4]
+- **Gustav Landauer** [T4]
+- **Otto Gross** [T4]
+- **Rudolf Steiner** [T4]
+- **Paul Klee** [T4]
+- **Martin Mordechai Buber** [T3] (mirrored from martin_buber.dossier.md)
+- **Karl Gräser** [T9-] (mirrored from karl_graser.dossier.md)
+- **Ida Hofmann** [T4] (mirrored from ida_hoffmann.dossier.md)
+- **Henri Oedenkoven** [T5] (mirrored from henri_oedenkoven.dossier.md)
+- **Johannes Friedrich Guttzeit** [T4] (mirrored from johannes_friedrich_guttzeit.dossier.md)
+- **Hermann Graf von Keyserling** [T1-] (mirrored from keyserling.dossier.md)
+- **Friedrich Nietzsche** [T3] (mirrored from nietzsche.dossier.md)
+- **Erich Mühsam** [T3] (mirrored from erich_muhsam.dossier.md)
+
 ## Sources
 
 https://www.hermann-hesse.de/leben-und-werk/biografie/lebenslauf/

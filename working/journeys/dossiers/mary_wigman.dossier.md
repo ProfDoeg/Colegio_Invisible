@@ -1004,6 +1004,39 @@ No reliable connection was found between Wigman and most other names in the atla
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Rudolf Laban** [T5]
+- **Émile Jaques-Dalcroze** [T5]
+- **Hanya Holm** [T3]
+- **Dore Hoyer** [T4]
+- **Vera Skoronel** [T5]
+- **Oskar Alfred Victor Schlemmer** [T4]
+- **Martha Graham** [T3]
+- **Ruth St. Denis** [T3]
+- **Ted Shawn** [T3]
+- **Valeska Gert** [T4]
+- **Suzanne Perrottet** [T4]
+- **Theodor Reuss** [T3] (mirrored from theodor_reuss.dossier.md)
+- **Ida Hofmann** [T4] (mirrored from ida_hoffmann.dossier.md)
+- **Henri Oedenkoven** [T4] (mirrored from henri_oedenkoven.dossier.md)
+- **Elsa Gindler** [T9+] (mirrored from elsa_gindler.dossier.md)
+- **Katja Wulff** [T5] (mirrored from katja_wulff.dossier.md)
+- **Sophie Taeuber-Arp** [T5] (mirrored from sophie_taeuber_arp.dossier.md)
+- **Gustav Arthur "Gusto" Gräser** [T5] (mirrored from gusto_graeser.dossier.md)
+- **Dore Hoyer** [T5] (mirrored from dore_hoyer.dossier.md)
+- **Dore Hoyer** [T1+] (mirrored from dore_hoyer.dossier.md)
+- **Friedrich Nietzsche** [T3] (mirrored from nietzsche.dossier.md)
+- **Clotilde Sakharoff** [T9-] (mirrored from clotilde_sakharoff.dossier.md)
+- **Valeska Gert** [T3] (mirrored from valeska_gert.dossier.md)
+- **Martha Graham** [T4] (mirrored from martha_graham.dossier.md)
+- **Suzanne Perrottet** [T5] (mirrored from suzanne_perrottet.dossier.md)
+- **Hanya Holm** [T5] (mirrored from hanya_holm.dossier.md)
+- **Hanya Holm** [T1+] (mirrored from hanya_holm.dossier.md)
+- **Charlotte Bara** [T4] (mirrored from charlotte_bara.dossier.md)
+
 ## Chronology
 
 | Date | Event |

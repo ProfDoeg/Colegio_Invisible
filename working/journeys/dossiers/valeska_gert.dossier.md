@@ -696,6 +696,18 @@ Her late fame also produced distortion. The *Pause* myth converted an ambiguous 
 
 No additional roster crossings were retained: shared eras, cities, artistic categories, later comparative exhibitions, and unsupported influence claims do not by themselves satisfy the atlas criteria.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Anna Matveyevna Pavlova** [T5]
+- **Isadora Duncan** [T1-]
+- **Mary Wigman** [T3]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T3]
+- **Vera Skoronel** [T4] (mirrored from vera_skoronel.dossier.md)
+- **Mary Wigman** [T4] (mirrored from mary_wigman.dossier.md)
+- **Charlotte Bara** [T9-] (mirrored from charlotte_bara.dossier.md)
+
 ## Sources
 
 https://archive.metromod.net/viewer.p/69/2948/object/5145-11013233.

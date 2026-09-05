@@ -1135,6 +1135,23 @@ No securely documented direct Guinevere connection was found for the overwhelmin
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Lancelot** [T5]
+- **Merlin** [T5]
+- **Morgan le Fay** [T5]
+- **The Lady of the Lake** [T4]
+- **William Morris** [T1+]
+- **Jane Morris** [T9+]
+- **Dante Gabriel Rossetti** [T1+]
+- **J. R. R. Tolkien** [T1+]
+- **Merlin** [T4] (mirrored from merlin.dossier.md)
+- **Arthur of Lotharingia** [T5] (mirrored from arthur-lotharingia.dossier.md)
+- **The Lady of the Lake** [T3] (mirrored from lady-of-the-lake.dossier.md)
+- **Parzival** [T4] (mirrored from parzival.dossier.md)
+
 ## Chronology
 
 | Date or period | Event or documentary development |

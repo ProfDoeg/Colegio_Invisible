@@ -495,6 +495,31 @@ Modern scholarship moved from biographical and moral unities, through Bundy’s 
 
 No defensible personal meeting can be established between Pindar and any roster member. In particular, the roster’s Simonides belongs to an overlapping patronage milieu, but surviving rivalry stories do not securely document a meeting; Ctesias wrote later and supplies no evidenced connection to Pindar; and Pindar’s use of Homeric or Hesiodic tradition does not by itself establish a personal or historical crossing beyond the specific textual engagements recorded above.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Homer** [T1-]
+- **Odysseus** [T1-]
+- **Herodotus of Halicarnassus** [T3]
+- **Plato** [T3]
+- **Aristotle** [T3]
+- **Alexander the Great** [T9+]
+- **Marcus Tullius Cicero** [T3]
+- **Strabo of Amaseia** [T3]
+- **Plinio el Viejo** [T3]
+- **Marcus Fabius Quintilianus** [T3]
+- **Claudius Aelianus** [T1+]
+- **Tertullian** [T3]
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Plato** [T1+] (mirrored from plato.dossier.md)
+- **Simonides of Ceos** [T4] (mirrored from simonides_of_ceos.dossier.md)
+- **Marcus Tullius Cicero** [T1+] (mirrored from cicero.dossier.md)
+- **Aristotle** [T1+] (mirrored from aristotle.dossier.md)
+- **Hesiod of Ascra** [T3] (mirrored from hesiod.dossier.md)
+- **Marcus Fabius Quintilianus** [T1+] (mirrored from quintilian.dossier.md)
+- **Friedrich Nietzsche** [T1+] (mirrored from nietzsche.dossier.md)
+
 ## Sources
 
 https://academic.oup.com/reference/62365/reference-article-abstract/554603717

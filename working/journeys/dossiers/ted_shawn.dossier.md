@@ -484,6 +484,28 @@ Honors included the **Capezio Dance Award (1957)**, Danish knighthood in 1957 fo
 
 No adequately documented crossing was established for the remaining roster members. Shared themes, historical references, overlapping lifetimes, later appearances in the Ted Shawn Theatre, or general membership in the same artistic tradition were not counted without evidence of one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **François Delsarte** [T1-]
+- **Geneviève Stebbins** [T1-]
+- **Isadora Duncan** [T1-]
+- **Ruth St. Denis** [T1-]
+- **Ruth St. Denis** [T5]
+- **Ruth St. Denis** [T3]
+- **Martha Graham** [T5]
+- **Doris Batcheller Humphrey** [T5]
+- **Joseph Hubertus Pilates** [T3]
+- **Joseph Hubertus Pilates** [T5]
+- **José Arcadio Limón** [T3]
+- **José Arcadio Limón** [T4]
+- **Merce Cunningham** [T4]
+- **John Milton Cage Jr.** [T4]
+- **Francis of Assisi** [T1-]
+- **José Arcadio Limón** [T9+] (mirrored from jose_limon.dossier.md)
+- **Mary Wigman** [T3] (mirrored from mary_wigman.dossier.md)
+
 ## Sources
 
 https://academic.oup.com/book/34993/chapter/298678150

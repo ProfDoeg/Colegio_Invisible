@@ -941,6 +941,16 @@ The atlas roster was checked for documented personal contact, family ties, colla
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Francis of Assisi** [T1-]
+- **Bernardo O'Higgins Riquelme** [T1-]
+- **José de San Martín** [T1-]
+- **Lautaro** [T1-]
+- **Pío Collivadino** [T4] (mirrored from pio_collivadino.dossier.md)
+
 ## Sources
 
 https://www.memoriachilena.gob.cl/602/w3-article-3652.html

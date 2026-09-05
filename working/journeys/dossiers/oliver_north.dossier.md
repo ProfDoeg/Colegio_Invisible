@@ -880,6 +880,20 @@ Only documented or strongly reported intersections with people on the supplied a
 
 No reliably documented direct crossing was found with other rostered figures. Connections were not inferred merely because a person belonged to the Reagan administration, the international arms trade, the Cold War political environment, or later conservative media.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adnan Muhammad Khashoggi** [T4]
+- **George Herbert Walker Bush** [T5]
+- **Manuel Antonio Noriega Moreno** [T5]
+- **William Joseph Casey** [T5]
+- **Ruhollah Mostafavi Musavi Khomeini** [T9+]
+- **William Jefferson Clinton** [T4] (mirrored from bill_clinton.dossier.md)
+- **George Herbert Walker Bush** [T4] (mirrored from george_hw_bush.dossier.md)
+- **Jonas Malheiro Savimbi** [T4] (mirrored from jonas_savimbi.dossier.md)
+- **Mark Lombardi** [T1+] (mirrored from mark_lombardi.dossier.md)
+
 ## Chronology
 
 | Date | Event |

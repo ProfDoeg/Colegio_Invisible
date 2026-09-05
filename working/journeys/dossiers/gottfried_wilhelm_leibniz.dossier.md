@@ -1031,6 +1031,56 @@ For the overwhelming majority of the 896-name roster, no documented crossing was
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Archimedes of Syracuse** [T3]
+- **Aristotle** [T3]
+- **Aurelius Augustinus** [T3]
+- **Francis Bacon** [T3]
+- **Galileo Galilei** [T3]
+- **Johannes Kepler** [T3]
+- **René Descartes** [T3]
+- **Christiaan Huygens** [T5]
+- **John Locke** [T3]
+- **Sir Isaac Newton** [T3]
+- **Louis XIV** [T3]
+- **Matteo Ricci** [T3]
+- **Ramon Llull** [T3]
+- **Blaise de Vigenère** [T3]
+- **Immanuel Kant** [T1+]
+- **Georg Wilhelm Friedrich Hegel** [T1+]
+- **Ramon Llull** [T1-] (mirrored from ramon_llull.dossier.md)
+- **Norbert Wiener** [T1+] (mirrored from norbert_wiener.dossier.md)
+- **John Langshaw Austin** [T1+] (mirrored from j_l_austin.dossier.md)
+- **Jan Amos Komenský** [T1-] (mirrored from jan_amos_comenius.dossier.md)
+- **Leonhard Euler** [T1+] (mirrored from leonard_euler.dossier.md)
+- **Emanuel Swedenborg** [T1+] (mirrored from emanuel_swedenborg.dossier.md)
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **Martin Heidegger** [T1+] (mirrored from martin_heidegger.dossier.md)
+- **Jürgen Habermas** [T1+] (mirrored from jurgen_habermas.dossier.md)
+- **John Uri Lloyd** [T1+] (mirrored from john_uri_lloyd.dossier.md)
+- **Plato** [T1-] (mirrored from plato.dossier.md)
+- **Friedrich Wilhelm Joseph Schelling** [T1+] (mirrored from schelling.dossier.md)
+- **Felix Christian Klein** [T1+] (mirrored from felix_klein.dossier.md)
+- **Robert Hooke** [T3] (mirrored from robert_hooke.dossier.md)
+- **Edmond Halley** [T4] (mirrored from edmond_halley.dossier.md)
+- **Athanasius Kircher** [T1-] (mirrored from kircher.dossier.md)
+- **John Rogers Searle** [T1+] (mirrored from john_searle.dossier.md)
+- **Siméon Denis Poisson** [T1+] (mirrored from simeon_denis_poisson.dossier.md)
+- **Ștefan Odobleja** [T1+] (mirrored from stefan_odobleja.dossier.md)
+- **René Descartes** [T1-] (mirrored from rene_descartes.dossier.md)
+- **Charles Babbage** [T9+] (mirrored from charles_babbage.dossier.md)
+- **Maimonides** [T1-] (mirrored from maimonides.dossier.md)
+- **John Locke** [T1-] (mirrored from john_locke.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+- **John Dewey** [T1+] (mirrored from john_dewey.dossier.md)
+- **Christiaan Huygens** [T3] (mirrored from christiaan_huygens.dossier.md)
+- **Jorge Luis Borges** [T1+] (mirrored from borges.dossier.md)
+- **Nicholas of Cusa** [T1-] (mirrored from nicholas_of_cusa.dossier.md)
+- **Joseph-Louis Lagrange** [T1+] (mirrored from joseph_louis_lagrange.dossier.md)
+
 ## Chronology
 
 | Date | Event |

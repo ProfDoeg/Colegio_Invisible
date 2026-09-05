@@ -1623,6 +1623,45 @@ For the great majority of the 894-person roster, no documented crossing with Gue
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Haydée Tamara Bunke Bíder** [T5]
+- **Mao Zedong** [T5]
+- **Jean-Paul Charles Aymard Sartre** [T5]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T5]
+- **Salvador Guillermo Allende Gossens** [T5]
+- **Patrice Émery Lumumba** [T1-]
+- **Karl Marx** [T3]
+- **Vladimir Ilyich Ulyanov** [T3]
+- **John Fitzgerald Kennedy** [T9-]
+- **Allen Welsh Dulles** [T9-]
+- **John Foster Dulles** [T9-]
+- **Celia Esther Sánchez Manduley** [T4]
+- **Vilma Espín Guillois** [T4]
+- **Camilo Torres Restrepo** [T3]
+- **Julio Florencio Cortázar Descotte** [T1+]
+- **Teté Puebla** [T5] (mirrored from tete_puebla.dossier.md)
+- **Teté Puebla** [T3] (mirrored from tete_puebla.dossier.md)
+- **Teté Puebla** [T1+] (mirrored from tete_puebla.dossier.md)
+- **José Julián Martí Pérez** [T1-] (mirrored from jose_marti.dossier.md)
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **Augusto Pinochet Ugarte** [T3] (mirrored from augusto_pinochet.dossier.md)
+- **John Fitzgerald Kennedy** [T4] (mirrored from john_f_kennedy.dossier.md)
+- **Nelson Rolihlahla Mandela** [T3] (mirrored from nelson_mandela.dossier.md)
+- **Paulo Reglus Neves Freire** [T1+] (mirrored from paulo_freire.dossier.md)
+- **Karl Marx** [T1-] (mirrored from karl_marx.dossier.md)
+- **Celia Esther Sánchez Manduley** [T5] (mirrored from celia_sanchez.dossier.md)
+- **Julen Kerman Madariaga Agirre** [T3] (mirrored from julen_madariaga.dossier.md)
+- **Simón Bolívar** [T1-] (mirrored from bolivar.dossier.md)
+- **Juan Domingo Perón** [T1+] (mirrored from juan_peron.dossier.md)
+- **Allen Welsh Dulles** [T4] (mirrored from allen_dulles.dossier.md)
+- **Salvador Guillermo Allende Gossens** [T9+] (mirrored from salvador_allende.dossier.md)
+- **Salvador Guillermo Allende Gossens** [T1+] (mirrored from salvador_allende.dossier.md)
+- **Diego Armando Maradona** [T1+] (mirrored from diego_maradona.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

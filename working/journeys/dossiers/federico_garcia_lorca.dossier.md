@@ -558,6 +558,27 @@ Lorca received acclaim, banquets, and civic tributes during life but no major co
 
 - **[T4]** **Absence finding:** Lorca sought or hoped for contact with Picasso and admired his painting, but the available biographical account states that the two never met. Shared Spanish and Parisian artistic milieus, later joint exhibitions, and posthumous comparisons do not establish proximity at a particular event or a personal relationship; no positive Atlas connection is assigned. [Contemporary report on the Lorca–Picasso research](https://www.eltiempo.com/archivo/documento/MAM-367181)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alberto Gerchunoff** [T5]
+- **Alfonsina Storni** [T5]
+- **Carlos Gardel** [T5]
+- **Herbert George Wells** [T3]
+- **Jorge Luis Borges** [T5]
+- **Jorge Luis Borges** [T3]
+- **Miguel de Cervantes Saavedra** [T3]
+- **Victoria Ocampo** [T5]
+- **Victoria Ocampo** [T3]
+- **Juan Eduardo Cirlot Laporta** [T3]
+- **Pablo Ruiz Picasso** [T4]
+- **Augusto Boal** [T9+] (mirrored from augusto_boal.dossier.md)
+- **Enrique Santos Discépolo** [T5] (mirrored from enrique_santos_discepolo.dossier.md)
+- **Hilde Holger** [T1+] (mirrored from hilde_holger.dossier.md)
+- **Doris Batcheller Humphrey** [T3] (mirrored from doris_humphrey.dossier.md)
+- **Albert Camus** [T1+] (mirrored from albert_camus.dossier.md)
+
 ## Sources
 
 https://www.centrofedericogarcialorca.es/es/fgl

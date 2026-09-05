@@ -748,6 +748,41 @@ The legacy has no single stable form: Irish writer, English comic dramatist, Fre
 
 No supported T2 prophecy/hyperstition or T9 shared-object/site connection was located among the roster. Apparent links to figures such as Marcel Proust are omitted because the celebrated Wilde–Proust meeting is treated in modern scholarship as apocryphal rather than securely documented. [Yale scholarship description](https://doi.org/10.12987/yale/9780300108125.003.0006)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Sir Arthur Ignatius Conan Doyle** [T5]
+- **Dante Alighieri** [T1-]
+- **Homer** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **John Ruskin** [T3]
+- **John Ruskin** [T5]
+- **Sarah Bernhardt** [T3]
+- **Sarah Bernhardt** [T5]
+- **Victor-Marie Hugo** [T5]
+- **William Butler Yeats** [T3]
+- **William Butler Yeats** [T5]
+- **William Morris** [T3]
+- **Samuel Langhorne Clemens** [T5]
+- **Plato** [T1-]
+- **José Julián Martí Pérez** [T3] (mirrored from jose_marti.dossier.md)
+- **James Augustine Aloysius Joyce** [T1+] (mirrored from james_joyce.dossier.md)
+- **Marcel Proust** [T4] (mirrored from marcel_proust.dossier.md)
+- **George Orwell** [T1+] (mirrored from george_orwell.dossier.md)
+- **Sir James Matthew Barrie** [T4] (mirrored from james_matthew_barrie.dossier.md)
+- **Julius Evola** [T1+] (mirrored from julius_evola.dossier.md)
+- **Sir Edward Coley Burne-Jones** [T5] (mirrored from edward_burne_jones.dossier.md)
+- **Hilde Holger** [T1+] (mirrored from hilde_holger.dossier.md)
+- **Victor-Marie Hugo** [T1-] (mirrored from victor_hugo.dossier.md)
+- **Howard Phillips Lovecraft** [T1+] (mirrored from h_p_lovecraft.dossier.md)
+- **Hans Christian Andersen** [T1-] (mirrored from hans_christian_andersen.dossier.md)
+- **Alfred Jarry** [T5] (mirrored from alfred_jarry.dossier.md)
+- **Dante Gabriel Rossetti** [T3] (mirrored from dante_gabriel_rossetti.dossier.md)
+- **Valeska Gert** [T3] (mirrored from valeska_gert.dossier.md)
+- **Samuel Langhorne Clemens** [T3] (mirrored from mark_twain.dossier.md)
+
 ## Sources
 
 https://oscarwildesociety.co.uk/biography/

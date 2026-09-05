@@ -1099,6 +1099,69 @@ No reliable evidence was found for personal, financial, familial, intelligence, 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adolfo Bioy Casares** [T5]
+- **Silvina Ocampo** [T5]
+- **Victoria Ocampo** [T5]
+- **Xul Solar** [T5]
+- **Alberto Gerchunoff** [T5]
+- **Julio Florencio Cortázar Descotte** [T3]
+- **Gabriel José García Márquez** [T3]
+- **Federico García Lorca** [T3]
+- **Augusto Pinochet Ugarte** [T5]
+- **Juan Domingo Perón** [T3]
+- **Eva Duarte de Perón** [T3]
+- **Domingo Faustino Sarmiento** [T1-]
+- **Dante Alighieri** [T1-]
+- **Miguel de Cervantes Saavedra** [T1-]
+- **Edgar Allan Poe** [T1-]
+- **William Blake** [T1-]
+- **Emanuel Swedenborg** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **James Augustine Aloysius Joyce** [T3]
+- **Marcel Proust** [T3]
+- **George Orwell** [T3]
+- **Herbert George Wells** [T3]
+- **Howard Phillips Lovecraft** [T3]
+- **René Descartes** [T1-]
+- **Immanuel Kant** [T1-]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **Aristotle** [T1-]
+- **Plato** [T1-]
+- **Herodotus of Halicarnassus** [T1-]
+- **Plinio el Viejo** [T1-]
+- **Gaius Julius Solinus** [T1-]
+- **Maimonides** [T1-]
+- **Moses de Leon** [T1-]
+- **Judah Loew ben Bezalel** [T1-]
+- **Ibn Arabi** [T1-]
+- **Winfried Georg Sebald** [T3]
+- **El Inca Garcilaso de la Vega** [T3] (mirrored from el_inca_garcilaso_de_la_vega.dossier.md)
+- **Ramon Llull** [T1-] (mirrored from ramon_llull.dossier.md)
+- **Matsuo Bashō** [T1-] (mirrored from matsuo_basho.dossier.md)
+- **Lucía Sánchez Saornil** [T3] (mirrored from lucia_sanchez_saornil.dossier.md)
+- **Marcel Proust** [T1-] (mirrored from marcel_proust.dossier.md)
+- **Wifredo Viladrich** [T9+] (mirrored from viladrich.dossier.md)
+- **J. R. R. Tolkien** [T3] (mirrored from tolkien.dossier.md)
+- **Federico García Lorca** [T5] (mirrored from federico_garcia_lorca.dossier.md)
+- **Jean Baudrillard** [T3] (mirrored from jean_baudrillard.dossier.md)
+- **Pedro de Mendoza** [T1-] (mirrored from pedro_de_mendoza.dossier.md)
+- **José Rafael Hernández** [T1-] (mirrored from jose_hernandez.dossier.md)
+- **Astor Pantaleón Piazzolla** [T3] (mirrored from astor_piazzolla.dossier.md)
+- **Alfonsina Storni** [T3] (mirrored from alfonsina_storni.dossier.md)
+- **Alfonsina Storni** [T4] (mirrored from alfonsina_storni.dossier.md)
+- **Gustave Flaubert** [T1-] (mirrored from gustave_flaubert.dossier.md)
+- **Carlos Gardel** [T1-] (mirrored from carlos_gardel.dossier.md)
+- **Odysseus** [T1-] (mirrored from ulysses.dossier.md)
+- **Raúl Veroni** [T9+] (mirrored from raul_veroni_padre.dossier.md)
+- **Homer** [T1-] (mirrored from homer.dossier.md)
+- **Rabindranath Tagore** [T1-] (mirrored from rabindranath_tagore.dossier.md)
+- **Juan Manuel José Domingo Ortiz de Rozas y López de Osornio** [T1-] (mirrored from juan_manuel_de_rosas.dossier.md)
+- **Søren Aabye Kierkegaard** [T1-] (mirrored from s_ren_kierkegaard.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

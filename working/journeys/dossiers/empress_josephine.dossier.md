@@ -866,6 +866,22 @@ The remaining roster names produced no documented meeting, correspondence, close
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Napoleon Bonaparte** [T5]
+- **Louis XVI** [T4]
+- **Aimé Jacques Alexandre Goujaud** [T9-]
+- **Alexander von Humboldt** [T9-]
+- **Pierre-Simon Laplace** [T4]
+- **Joseph-Louis Lagrange** [T4]
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T4]
+- **Pierre-Félix Guattari** [T4]
+- **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Joseph-Marie Jacquard** [T4] (mirrored from joseph_marie_jacquard.dossier.md)
+- **Aimé Jacques Alexandre Goujaud** [T5] (mirrored from aime_bonpland.dossier.md)
+
 ## Chronology
 
 - **1726:** Paternal grandfather Gaspard-Joseph Tascher goes to Martinique.

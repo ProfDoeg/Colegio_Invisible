@@ -1511,6 +1511,25 @@ No one of these interpretations exhausts the documentary record.
 
 No additional roster member was included solely because of contemporaneity, appearance at a Carnegie-funded institution, shared organizational affiliation, intellectual influence, or later institutional association; those circumstances do not by themselves establish one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T5]
+- **Abraham Lincoln** [T1-]
+- **Henry Clay Frick** [T5]
+- **Henry Clay Frick** [T3]
+- **John Pierpont Morgan** [T3]
+- **John Davison Rockefeller Sr.** [T3]
+- **Samuel Langhorne Clemens** [T5]
+- **Samuel Langhorne Clemens** [T3]
+- **Pyotr Ilyich Tchaikovsky** [T3]
+- **Thomas Alva Edison** [T4] (mirrored from thomas_edison.dossier.md)
+- **Arthur James Balfour** [T3] (mirrored from arthur_balfour.dossier.md)
+- **Arthur James Balfour** [T5] (mirrored from arthur_balfour.dossier.md)
+- **Frederick Law Olmsted** [T3] (mirrored from frederick_law_olmsted.dossier.md)
+- **Geoffrey Everest Hinton** [T9+] (mirrored from geoffrey_hinton.dossier.md)
+
 ## Sources
 
 https://www.gutenberg.org/files/17976/17976-h/17976-h.htm

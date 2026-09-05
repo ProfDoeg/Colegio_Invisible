@@ -848,6 +848,24 @@ Later presentations of Tucci’s Eurasian outlook invoke Italian religious and l
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Benito Mussolini** [T9+]
+- **Rabindranath Tagore** [T9-]
+- **Carl Gustav Jung** [T4]
+- **Olga Fröbe-Kapteyn** [T4]
+- **Mircea Eliade** [T1+]
+- **Xuanzang** [T1-]
+- **Odoric of Pordenone** [T1-]
+- **Marco Polo** [T1-]
+- **Giovanni da Pian del Carpine** [T1-]
+- **Matteo Ricci** [T1-]
+- **Julius Evola** [T3] (mirrored from julius_evola.dossier.md)
+- **Mircea Eliade** [T3] (mirrored from mircea_eliade.dossier.md)
+- **Mircea Eliade** [T5] (mirrored from mircea_eliade.dossier.md)
+
 ## Chronology
 
 | Date | Event |

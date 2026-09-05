@@ -842,6 +842,46 @@ Only roster members for whom a specific documentary crossing was found are inclu
 
 - **[T1-] Documented fact:** Hayek repeatedly wrote about Tocqueville as a predecessor in analyzing democracy, centralization, and “servitude.” Hayek said the phrase behind the title *The Road to Serfdom* was adapted from Tocqueville’s “road to servitude,” making the connection explicit rather than merely thematic. ([Hayek oral history](https://static.library.ucla.edu/oralhistory/text/masters/21198-zz0008zd21-4-master.html))
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Aristotle** [T1-]
+- **Augusto Pinochet Ugarte** [T5]
+- **Carl Menger** [T1-]
+- **David Rockefeller** [T5]
+- **Eugen Böhm Ritter von Bawerk** [T1-]
+- **Francis Bacon** [T1-]
+- **George Herbert Walker Bush** [T3]
+- **George Orwell** [T3]
+- **John Locke** [T1-]
+- **John Maynard Keynes** [T5]
+- **Karl Marx** [T1-]
+- **Ludwig Heinrich Edler von Mises** [T5]
+- **Milton Friedman** [T5]
+- **Murray Newton Rothbard** [T3]
+- **Salvador Guillermo Allende Gossens** [T1-]
+- **Thomas Aquinas** [T1-]
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T1-]
+- **Ludwig Heinrich Edler von Mises** [T3] (mirrored from ludwig_von_mises.dossier.md)
+- **William Jefferson Clinton** [T1+] (mirrored from bill_clinton.dossier.md)
+- **Javier Gerardo Milei** [T1+] (mirrored from javier_milei.dossier.md)
+- **David Rockefeller** [T3] (mirrored from david_rockefeller.dossier.md)
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Friedrich Wilhelm Joseph Schelling** [T5] (mirrored from schelling.dossier.md)
+- **Friedrich Wilhelm Joseph Schelling** [T3] (mirrored from schelling.dossier.md)
+- **John Maynard Keynes** [T3] (mirrored from john_maynard_keynes.dossier.md)
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **Claude-Henri de Rouvroy** [T1-] (mirrored from henri_de_saint_simon.dossier.md)
+- **George Soros** [T1+] (mirrored from george_soros.dossier.md)
+- **Joseph Alois Schumpeter** [T3] (mirrored from joseph_schumpeter.dossier.md)
+- **Joseph Alois Schumpeter** [T5] (mirrored from joseph_schumpeter.dossier.md)
+- **Charles de Ganahl Koch** [T3] (mirrored from charles_koch.dossier.md)
+- **Murray Newton Rothbard** [T5] (mirrored from murray_rothbard.dossier.md)
+- **Søren Aabye Kierkegaard** [T4] (mirrored from s_ren_kierkegaard.dossier.md)
+- **Yanis Varoufakis** [T1+] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Sources
 
 https://www.nobelprize.org/prizes/economic-sciences/1974/hayek/biographical/

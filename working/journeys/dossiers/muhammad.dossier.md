@@ -1458,6 +1458,46 @@ No direct personal relationship is possible with later roster members such as Ib
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abu Bakr as-Siddiq** [T5]
+- **Aishah bint Abi Bakr** [T5]
+- **Abraham** [T1-]
+- **Moses** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **David ben Jesse** [T1-]
+- **King Solomon** [T1-]
+- **The Queen of Sheba** [T1-]
+- **Anita Garibaldi** [T1-]
+- **Alexander the Great** [T1-]
+- **Abu al-Qasim al-Junayd ibn Muhammad al-Baghdadi** [T1+] (mirrored from junayd_al_baghdadi.dossier.md)
+- **Mansur al-Hallaj** [T1+] (mirrored from hallaj.dossier.md)
+- **Abu Yazid Tayfur ibn Isa al-Bistami** [T1+] (mirrored from abu_yazid_al_bistami.dossier.md)
+- **Yuval Noah Harari** [T1+] (mirrored from yuval_noah_harari.dossier.md)
+- **Farid al-Din Attar** [T1+] (mirrored from attar.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Evliya Çelebi** [T1+] (mirrored from evliya_celebi.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Abu Karib As'ad** [T2- prediction] (mirrored from abu_karib.dossier.md)
+- **René Guénon** [T1+] (mirrored from rene_guenon.dossier.md)
+- **Rabia al-Adawiyya** [T2+ prediction] (mirrored from rabia.dossier.md)
+- **Ibn Arabi** [T1+] (mirrored from ibn_arabi.dossier.md)
+- **Emir Abdelkader ibn Muhieddine** [T1+] (mirrored from abdelkader.dossier.md)
+- **Shams al-Din Muhammad of Tabriz** [T1+] (mirrored from shams_al_din_of_tabriz.dossier.md)
+- **Abu Yusuf Ya'qub ibn Ishaq al-Kindi** [T1+] (mirrored from al_kindi.dossier.md)
+- **Abu al-Qasim Abd al-Karim ibn Hawazin al-Qushayri** [T1+] (mirrored from abu_al_qasim_al_qushayri.dossier.md)
+- **Ludwig Derleth** [T1+] (mirrored from ludwig_derleth.dossier.md)
+- **Victor-Marie Hugo** [T1+] (mirrored from victor_hugo.dossier.md)
+- **Noah son of Lamech** [T1-] (mirrored from noah.dossier.md)
+- **Al-Khalil ibn Ahmad al-Farahidi** [T9+] (mirrored from al_khalil_ibn_ahmad_al_farahidi.dossier.md)
+- **Nizami Ganjavi** [T1+] (mirrored from nizami.dossier.md)
+- **Abu Abdallah Muhammad ibn Battuta** [T9+] (mirrored from ibn_battuta.dossier.md)
+- **Abd al-Qadir al-Jilani** [T1+] (mirrored from abd_al_qadir_al_jilani.dossier.md)
+- **Jalal al-Din Rumi** [T1+] (mirrored from rumi.dossier.md)
+- **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

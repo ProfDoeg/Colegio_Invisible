@@ -724,6 +724,14 @@ The third accommodates the evidence most fully without dissolving the real confl
 
 - **[T1-] Documented fact:** Writing decades after Jung’s death, Ritsema discussed Jung as a formative figure in Eranos history and recounted the earlier exchange in which Olga Fröbe-Kapteyn proposed experiential work with the *I Ching* and Jung reportedly judged that the time was not yet ripe. Ritsema used that episode in his 1987–1989 accounts of Eranos’s origins and transformation to justify the later Round Table project. The historical exchange is transmitted through Ritsema’s institutional reconstruction and should not be treated as proof that Jung endorsed Ritsema’s eventual 1988 program. [Eranos Foundation history](https://www.eranosfoundation.org/page.php?page=4&pagename=history), [Ritsema bibliography in the Eranos lecture catalogue](https://www.eranosfoundation.org/page.php?page=11&pagename=lecturers)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Olga Fröbe-Kapteyn** [T5]
+- **Mircea Eliade** [T3]
+- **Carl Gustav Jung** [T1-]
+
 ## Sources
 
 https://www.shantena.com/en/eranos/rudolf/

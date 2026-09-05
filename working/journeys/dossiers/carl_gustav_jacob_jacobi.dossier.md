@@ -738,6 +738,27 @@ Jacobi died before recorded sound or film. Therefore:
 
 No additional roster member was included solely because of shared chronology, general mathematical influence, later use of a Jacobi eponym, or unverified attendance at the same institution or event.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Arthur Cayley** [T1+]
+- **Charles Babbage** [T5]
+- **René Descartes** [T1-]
+- **Leonhard Euler** [T1-]
+- **Jean-Baptiste Joseph Fourier** [T5]
+- **Évariste Galois** [T3]
+- **Carl Friedrich Gauss** [T5]
+- **Georg Wilhelm Friedrich Hegel** [T3]
+- **Alexander von Humboldt** [T5]
+- **Sir William Rowan Hamilton** [T5]
+- **Joseph-Louis Lagrange** [T1-]
+- **Siméon Denis Poisson** [T5]
+- **Felix Christian Klein** [T1+] (mirrored from felix_klein.dossier.md)
+- **Theodor Reuss** [T4] (mirrored from theodor_reuss.dossier.md)
+- **Sir William Rowan Hamilton** [T3] (mirrored from william_rowan_hamilton.dossier.md)
+- **Siméon Denis Poisson** [T1-] (mirrored from simeon_denis_poisson.dossier.md)
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd118775766.html

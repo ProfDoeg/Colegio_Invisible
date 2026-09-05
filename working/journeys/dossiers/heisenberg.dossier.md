@@ -957,6 +957,33 @@ No supported direct connection was identified with the overwhelming majority of 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T5]
+- **Niels Bohr** [T5]
+- **Wolfgang Ernst Pauli** [T5]
+- **Paul Adrien Maurice Dirac** [T5]
+- **Erwin Rudolf Josef Alexander Schrödinger** [T5]
+- **Enrico Fermi** [T4]
+- **J. Robert Oppenheimer** [T5]
+- **Maria Salomea Skłodowska-Curie** [T4]
+- **Rabindranath Tagore** [T5]
+- **Amalie Emmy Noether** [T4]
+- **John von Neumann** [T9+]
+- **Satyendra Nath Bose** [T9-]
+- **Martin Heidegger** [T3] (mirrored from martin_heidegger.dossier.md)
+- **Martin Heidegger** [T4] (mirrored from martin_heidegger.dossier.md)
+- **Satyendra Nath Bose** [T5] (mirrored from satyendra_nath_bose.dossier.md)
+- **John von Neumann** [T3] (mirrored from john_von_neumann.dossier.md)
+- **Enrico Fermi** [T5] (mirrored from fermi.dossier.md)
+- **Richard Phillips Feynman** [T3] (mirrored from richard_feynman.dossier.md)
+- **Tony Hilton Royle Skyrme** [T3] (mirrored from tony_skyrme.dossier.md)
+- **Sir Isaac Newton** [T1-] (mirrored from newton.dossier.md)
+- **Erwin Rudolf Josef Alexander Schrödinger** [T1+] (mirrored from erwin_schrodinger.dossier.md)
+- **Ronald Richter** [T3] (mirrored from ronald_richter.dossier.md)
+
 ## Chronology
 
 - **1901, 5 December:** Born in Würzburg.

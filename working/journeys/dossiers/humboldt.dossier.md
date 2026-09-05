@@ -1175,6 +1175,45 @@ No adequately documented personal connection was established in the consulted so
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Johann Wolfgang von Goethe** [T5]
+- **Immanuel Kant** [T3]
+- **Simón Bolívar** [T5]
+- **Thomas Jefferson** [T5]
+- **Charles Robert Darwin** [T3]
+- **Carl Friedrich Gauss** [T3]
+- **Pierre-Simon Laplace** [T4]
+- **Jean-Baptiste Joseph Fourier** [T4]
+- **Napoleon Bonaparte** [T5]
+- **Christopher Columbus** [T1-]
+- **El Inca Garcilaso de la Vega** [T3] (mirrored from el_inca_garcilaso_de_la_vega.dossier.md)
+- **Friedrich Max Müller** [T3] (mirrored from max_muller.dossier.md)
+- **Motecuhzoma Xocoyotzin** [T1-] (mirrored from moctezuma_ii.dossier.md)
+- **Johann Elert Bode** [T3] (mirrored from johann_bode.dossier.md)
+- **Johann Elert Bode** [T5] (mirrored from johann_bode.dossier.md)
+- **Napoleon Bonaparte** [T4] (mirrored from napoleon.dossier.md)
+- **Michael Faraday** [T5] (mirrored from michael_faraday.dossier.md)
+- **Francisco de Miranda** [T5] (mirrored from miranda.dossier.md)
+- **Avram Noam Chomsky** [T1+] (mirrored from noam_chomsky.dossier.md)
+- **Friedrich Wilhelm Joseph Schelling** [T5] (mirrored from schelling.dossier.md)
+- **Pierre-Simon Laplace** [T5] (mirrored from pierre_simon_laplace.dossier.md)
+- **Pierre-Simon Laplace** [T3] (mirrored from pierre_simon_laplace.dossier.md)
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T5] (mirrored from brothers_grimm.dossier.md)
+- **Carl Friedrich Gauss** [T5] (mirrored from gauss.dossier.md)
+- **René Just Haüy** [T5] (mirrored from rene_hauy.dossier.md)
+- **Hans Christian Andersen** [T5] (mirrored from hans_christian_andersen.dossier.md)
+- **Aimé Jacques Alexandre Goujaud** [T5] (mirrored from aime_bonpland.dossier.md)
+- **Carl Gustav Jung the elder** [T5] (mirrored from carl_gustav_jung_the_elder.dossier.md)
+- **Carl Gustav Jacob Jacobi** [T5] (mirrored from carl_gustav_jacob_jacobi.dossier.md)
+- **John Cleves Symmes Jr.** [T3] (mirrored from symmes.dossier.md)
+- **Fernão de Magalhães** [T1-] (mirrored from ferdinand_magellan.dossier.md)
+- **Domingo Faustino Sarmiento** [T3] (mirrored from sarmiento.dossier.md)
+- **Søren Aabye Kierkegaard** [T4] (mirrored from s_ren_kierkegaard.dossier.md)
+- **Empress Joséphine** [T9+] (mirrored from empress_josephine.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -1199,6 +1199,27 @@ Charlemagne himself appears in the atlas roster. This is the dossier’s subject
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Paul the Deacon** [T5]
+- **Aurelius Augustinus** [T3]
+- **Otto III** [T9+]
+- **Napoleon Bonaparte** [T9+] (mirrored from napoleon.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Clovis** [T9-] (mirrored from clovis.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Saint Denis of Paris** [T9-] (mirrored from saint_denis.dossier.md)
+- **Adam of Bremen** [T1+] (mirrored from adam_of_bremen.dossier.md)
+- **Charles Martel** [T1-] (mirrored from charles_martel.dossier.md)
+- **Claude-Henri de Rouvroy** [T2+ unresolved] (mirrored from henri_de_saint_simon.dossier.md)
+- **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Morgan le Fay** [T4] (mirrored from morgan-le-fay.dossier.md)
+- **Kyot-Willehalm** [T4] (mirrored from kyot-willehalm.dossier.md)
+- **Saint Giles** [T5] (mirrored from giles.dossier.md)
+- **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -691,6 +691,21 @@ Only connections supported by the consulted evidence are listed. Shared geograph
 - **Evidentiary label:** No supported personal connection found.
 - Later literature sometimes places Gindler beside major dancers, psychoanalysts, and somatic innovators for comparative purposes. Mere inclusion in the same historical field is not evidence of meeting, correspondence, or acknowledged influence.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Elsa Lindenberg** [T5]
+- **Wilhelm Reich** [T9+]
+- **Rudolf Laban** [T5]
+- **Geneviève Stebbins** [T9-]
+- **François Delsarte** [T9-]
+- **Otto Hanish** [T9-]
+- **Erich Seligmann Fromm** [T9+]
+- **Moshé Feldenkrais** [T9+]
+- **Mary Wigman** [T9-]
+- **Wilhelm Reich** [T3] (mirrored from reich.dossier.md)
+
 ## Chronology
 
 - **19 June 1885:** Born in Berlin, youngest of three children in a poor working-class family.

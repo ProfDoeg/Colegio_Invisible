@@ -1179,6 +1179,21 @@ The subject appears in the supplied atlas roster. This is self-identity, not an 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Rabia al-Adawiyya** [T5]
+- **Abu al-Qasim al-Junayd ibn Muhammad al-Baghdadi** [T1+]
+- **Abu al-Qasim Abd al-Karim ibn Hawazin al-Qushayri** [T1+]
+- **Farid al-Din Attar** [T1+]
+- **Jalal al-Din Rumi** [T1+]
+- **Abu Abdallah Muhammad ibn Battuta** [T9+]
+- **Rabia al-Adawiyya** [T9+] (mirrored from rabia.dossier.md)
+- **Ibn Arabi** [T1+] (mirrored from ibn_arabi.dossier.md)
+- **Shams al-Din Muhammad of Tabriz** [T1+] (mirrored from shams_al_din_of_tabriz.dossier.md)
+- **Nizam ad-Din Auliya** [T1+] (mirrored from nizam_ad_din_auliya.dossier.md)
+
 ## Chronology
 
 | Date | Event | Evidentiary status |

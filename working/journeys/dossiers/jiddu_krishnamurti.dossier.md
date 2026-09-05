@@ -701,6 +701,25 @@ None alone exhausts the evidence. The enduring historical fact is the unusual se
 
 No additional roster member was retained merely because of shared ideas, membership in a broad spiritual or intellectual milieu, contemporaneity, or later comparison by third parties. In particular, the consulted evidence did not establish a personal Krishnamurti crossing with Carl Jung, Sigmund Freud, Maria Montessori, W. B. Yeats, G. I. Gurdjieff, René Guénon, Rabindranath Tagore, or Nicholas Roerich beyond the one-sided Roerich engagement recorded above.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Annie Besant** [T5]
+- **Annie Besant** [T2- hyperstition]
+- **Helena Petrovna Blavatsky** [T2- hyperstition]
+- **Dion Fortune** [T3]
+- **Mohandas Karamchand Gandhi** [T3]
+- **Indra Devi** [T3]
+- **Nicholas Konstantinovich Roerich** [T3]
+- **Rudolf Steiner** [T3]
+- **Miguel Serrano** [T5] (mirrored from serrano.dossier.md)
+- **Mohandas Karamchand Gandhi** [T5] (mirrored from mahatma_gandhi.dossier.md)
+- **Julius Evola** [T3] (mirrored from julius_evola.dossier.md)
+- **Hilde Holger** [T3] (mirrored from hilde_holger.dossier.md)
+- **Xul Solar** [T3] (mirrored from xul_solar.dossier.md)
+- **Indra Devi** [T5] (mirrored from indra_devi.dossier.md)
+
 ## Sources
 
 https://www.kfa.org/archives/

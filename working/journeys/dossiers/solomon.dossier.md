@@ -1168,6 +1168,58 @@ No defensible personal intersection was found with the remaining roster members.
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **David ben Jesse** [T5]
+- **Bethsabée** [T5]
+- **The Queen of Sheba** [T5]
+- **Hiram Abiff** [T9+]
+- **Moses** [T3]
+- **Aaron the Levite** [T9-]
+- **Jesus of Nazareth** [T1+]
+- **Flavius Josephus** [T1+]
+- **Nabucodonosor II** [T9+]
+- **Haile Selassie I** [T1+]
+- **Maimonides** [T1+]
+- **Sir Isaac Newton** [T1+]
+- **Jordan Maxwell** [T1+] (mirrored from jordan_maxwell.dossier.md)
+- **Farid al-Din Attar** [T1+] (mirrored from attar.dossier.md)
+- **Felipe Guamán Poma de Ayala** [T1+] (mirrored from guaman_poma_de_ayala.dossier.md)
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **Jacob Boehme** [T1+] (mirrored from jacob_boehme.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Adam of Bremen** [T1+] (mirrored from adam_of_bremen.dossier.md)
+- **Ahmad al-Majriti** [T1+] (mirrored from ahmad_al_majriti.dossier.md)
+- **Sabbatai Zevi** [T2+ prediction] (mirrored from sabbatai_zevi.dossier.md)
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1+] (mirrored from heinrich_cornelius_agrippa.dossier.md)
+- **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Johannes Reuchlin** [T1+] (mirrored from johannes_reuchlin.dossier.md)
+- **Rabbi Benjamin son of Jonah of Tudela** [T1+] (mirrored from benjamin_de_tudela.dossier.md)
+- **Giulio Camillo Delminio** [T1+] (mirrored from giulio_camillo.dossier.md)
+- **Saadia Gaon** [T1+] (mirrored from saadia_gaon.dossier.md)
+- **Judah Loew ben Bezalel** [T1+] (mirrored from judah_loew_ben_bezalel_the_maharal_of_prague.dossier.md)
+- **Jacob Frank** [T1+] (mirrored from jacob_frank.dossier.md)
+- **Cyrus the Great** [T9+] (mirrored from cyrus.dossier.md)
+- **Aurelius Augustinus** [T1+] (mirrored from saint_augustine_of_hippo.dossier.md)
+- **Abraham** [T9-] (mirrored from abraham.dossier.md)
+- **Nizami Ganjavi** [T1+] (mirrored from nizami.dossier.md)
+- **Rashi** [T1+] (mirrored from rashi.dossier.md)
+- **Origen of Alexandria** [T1+] (mirrored from origen.dossier.md)
+- **Tertullian** [T1+] (mirrored from tertullian.dossier.md)
+- **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
+- **Martin Luther** [T1+] (mirrored from martin_luther.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Parzival** [T9+] (mirrored from parzival.dossier.md)
+- **Ezekiel son of Buzi** [T9+] (mirrored from ezekiel.dossier.md)
+- **Moses** [T1-] (mirrored from moses.dossier.md)
+- **Muhammad ibn Abdullah** [T1+] (mirrored from muhammad.dossier.md)
+- **Arthur Edward Waite** [T1+] (mirrored from arthur_edward_waite.dossier.md)
+- **Grigori Yefimovich Rasputin** [T1+] (mirrored from grigori_rasputin.dossier.md)
+- **Moses de Leon** [T1+] (mirrored from moses_de_leon.dossier.md)
+- **Hiram Abiff** [T5] (mirrored from hiram_abiff.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event | Status |

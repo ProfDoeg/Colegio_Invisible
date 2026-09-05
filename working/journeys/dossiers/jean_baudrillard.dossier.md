@@ -783,6 +783,32 @@ Institutionally, IMEC’s acquisition of the archive in 2016, Columbia’s prese
 
 No defensible T2 prophecy/hyperstition or T9 shared-object transmission was found among the roster. Mere influence, thematic similarity, common inclusion in “French theory,” or presence in the same country was excluded unless the record supported one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alfred Jarry** [T1-]
+- **Antonin Artaud** [T1-]
+- **Jorge Luis Borges** [T3]
+- **Pierre-Félix Guattari** [T4]
+- **Friedrich Nietzsche** [T1-]
+- **Martin Luther** [T1-]
+- **Karl Marx** [T1-]
+- **Sigmund Freud** [T1-]
+- **Roland Gérard Barthes** [T5]
+- **Paul-Michel Foucault** [T3]
+- **Gilles Louis Rene Deleuze** [T3]
+- **Jacques Derrida** [T3]
+- **Walter Elias Disney** [T1-]
+- **George Herbert Walker Bush** [T3]
+- **Saddam Hussein al-Tikriti** [T3]
+- **Nick Land** [T4] (mirrored from nick_land.dossier.md)
+- **Gilles Louis Rene Deleuze** [T4] (mirrored from gilles_deleuze.dossier.md)
+- **Mark Fisher** [T1+] (mirrored from mark_fisher.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T4] (mirrored from jean_paul_sartre.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+- **Paul-Michel Foucault** [T1-] (mirrored from michel_foucault.dossier.md)
+
 ## Sources
 
 https://www.imec-archives.com/archives/fonds/787BDL

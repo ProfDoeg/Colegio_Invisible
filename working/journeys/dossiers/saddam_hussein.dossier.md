@@ -1218,6 +1218,28 @@ No substantiated direct connection was found with the overwhelming majority of t
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ruhollah Mostafavi Musavi Khomeini** [T4]
+- **Mohammad Reza Shah Pahlavi** [T5]
+- **George Herbert Walker Bush** [T3]
+- **William Jefferson Clinton** [T3]
+- **George Walker Bush** [T3]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Muammar Muhammad Abu Minyar al-Gaddafi** [T4]
+- **Nelson Rolihlahla Mandela** [T3]
+- **Benjamin Netanyahu** [T3]
+- **George Orwell** [T9-]
+- **George Herbert Walker Bush** [T4] (mirrored from george_hw_bush.dossier.md)
+- **Jean Baudrillard** [T3] (mirrored from jean_baudrillard.dossier.md)
+- **David Rockefeller** [T5] (mirrored from david_rockefeller.dossier.md)
+- **George Walker Bush** [T4] (mirrored from george_w_bush.dossier.md)
+- **Agha Hasan Abedi** [T9-] (mirrored from agha_hasan_abedi.dossier.md)
+- **Mark Lombardi** [T1+] (mirrored from mark_lombardi.dossier.md)
+- **Nabucodonosor II** [T9-] (mirrored from nabucodonosor_ii.dossier.md)
+
 ## Chronology
 
 | Date | Event |

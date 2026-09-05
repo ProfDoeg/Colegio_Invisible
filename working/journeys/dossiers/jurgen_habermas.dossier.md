@@ -562,6 +562,44 @@ The central posthumous dispute is already visible. One interpretation treats com
 
 No adequately documented T2 prophecy/hyperstition or T9 shared-object transmission was found between Habermas and any roster member. Mere appearance in the same intellectual tradition, shared institutional geography, or later comparison by third parties has not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **John Langshaw Austin** [T1-]
+- **Walter Benjamin** [T1-]
+- **John Dewey** [T1-]
+- **Jacques Derrida** [T5]
+- **Johann Gottlieb Fichte** [T1-]
+- **Paul-Michel Foucault** [T1-]
+- **Sigmund Freud** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Martin Heidegger** [T3]
+- **Max Horkheimer** [T3]
+- **William James** [T1-]
+- **Immanuel Kant** [T1-]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **Martin Luther** [T1-]
+- **Herbert Marcuse** [T5]
+- **Karl Marx** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Plato** [T1-]
+- **Friedrich Wilhelm Joseph Schelling** [T1-]
+- **John Rogers Searle** [T3]
+- **Thomas Aquinas** [T1-]
+- **Theodor W. Adorno** [T5]
+- **Max Weber** [T1-]
+- **Martin Mordechai Buber** [T1-] (mirrored from martin_buber.dossier.md)
+- **Martin Heidegger** [T1-] (mirrored from martin_heidegger.dossier.md)
+- **Alexander Caedmon Karp** [T5] (mirrored from alex_karp.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Felix José Weil** [T9-] (mirrored from felix_weil.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T3] (mirrored from jean_paul_sartre.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+- **Max Horkheimer** [T5] (mirrored from max_horkheimer.dossier.md)
+
 ## Sources
 
 https://www.suhrkamp.de/trauermeldung/zum-tod-von-juergen-habermas-b-5025

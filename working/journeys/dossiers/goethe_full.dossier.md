@@ -1005,6 +1005,76 @@ Only connections supported by the consulted record are included. Literary influe
 
 - **Karl Marx, Charles Darwin, Richard Wagner, William Blake, Edgar Allan Poe, Gustave Flaubert, Victor Hugo, Søren Kierkegaard, and later roster figures engaged Goethe’s legacy in varying degrees, but the sources consulted for this dossier did not establish a sufficiently specific, direct connection for individual atlas entries. Absence of a listed entry is therefore not a claim of no influence; it means the required evidentiary threshold was not met here.**
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Johann Jost Textor** [T5]
+- **Friedrich Schiller** [T5]
+- **Johann Heinrich Wilhelm Tischbein** [T5]
+- **Alexander von Humboldt** [T5]
+- **Napoleon Bonaparte** [T5]
+- **Johann Gottlieb Fichte** [T4]
+- **Friedrich Wilhelm Joseph Schelling** [T5]
+- **Georg Wilhelm Friedrich Hegel** [T5]
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T3]
+- **Wolfgang Amadeus Mozart** [T5]
+- **Jean-Jacques Rousseau** [T3]
+- **Immanuel Kant** [T3]
+- **Friedrich Nietzsche** [T1+]
+- **Rudolf Steiner** [T1+]
+- **Carl Gustav Jung** [T1+]
+- **Walter Benjamin** [T1+]
+- **Sigmund Freud** [T1+]
+- **Harold Thomas Finney II** [T1+]
+- **Homer** [T1-]
+- **Aeneas** [T1-]
+- **Dante Alighieri** [T1-]
+- **Publius Vergilius Maro** [T1-]
+- **Aristotle** [T1-]
+- **Plato** [T1-]
+- **Johann Georg Faust** [T1-]
+- **Paracelsus** [T1-]
+- **Jacob Boehme** [T1-]
+- **Emanuel Swedenborg** [T3]
+- **Friedrich Fröbel** [T4]
+- **Friedrich Ludwig Jahn** [T4]
+- **Mary Wollstonecraft Shelley** [T3] (mirrored from mary_shelley.dossier.md)
+- **Carl Gustav Jung** [T3] (mirrored from jung.dossier.md)
+- **Friedrich Max Müller** [T1+] (mirrored from max_muller.dossier.md)
+- **Johann Elert Bode** [T3] (mirrored from johann_bode.dossier.md)
+- **Paul Jules Barbier** [T1+] (mirrored from jules_barbier.dossier.md)
+- **Wolfgang Amadeus Mozart** [T3] (mirrored from wolfgang_amadeus_mozart.dossier.md)
+- **Max Weber** [T1+] (mirrored from max_weber.dossier.md)
+- **Emanuel Swedenborg** [T1-] (mirrored from emanuel_swedenborg.dossier.md)
+- **Francisco de Miranda** [T5] (mirrored from miranda.dossier.md)
+- **Johannes Itten** [T3] (mirrored from itten.dossier.md)
+- **Peter von Cornelius** [T3] (mirrored from peter_von_cornelius.dossier.md)
+- **Engelbert Humperdinck** [T9+] (mirrored from engelbert_humperdinck.dossier.md)
+- **Christiane Wilhelmine Sophie von Kühn** [T5] (mirrored from sophie_von_kuhn.dossier.md)
+- **Hermann Hesse** [T1+] (mirrored from hermann_hesse.dossier.md)
+- **Johann Gottlieb Fichte** [T5] (mirrored from fichte.dossier.md)
+- **Wilhelm Richard Wagner** [T9+] (mirrored from richard_wagner.dossier.md)
+- **Antonio Francesco Gramsci** [T1+] (mirrored from antonio_gramsci.dossier.md)
+- **Giordano Bruno** [T1-] (mirrored from giordano_bruno.dossier.md)
+- **Taras Hryhorovych Shevchenko** [T1+] (mirrored from taras_shevchenko.dossier.md)
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T5] (mirrored from brothers_grimm.dossier.md)
+- **Giuseppe Balsamo** [T1-] (mirrored from cagliostro.dossier.md)
+- **Giambattista Vico** [T3] (mirrored from vico.dossier.md)
+- **Novalis** [T5] (mirrored from novalis.dossier.md)
+- **Karl Max Engelmann** [T1+] (mirrored from engelmann.dossier.md)
+- **Rosa Luxemburg** [T1+] (mirrored from rosa_luxemburg.dossier.md)
+- **Howard Phillips Lovecraft** [T1+] (mirrored from h_p_lovecraft.dossier.md)
+- **Immanuel Kant** [T1-] (mirrored from kant.dossier.md)
+- **Hans Christian Andersen** [T1+] (mirrored from hans_christian_andersen.dossier.md)
+- **Gustav Landauer** [T1+] (mirrored from gustav_landauer.dossier.md)
+- **Martin Luther** [T1-] (mirrored from martin_luther.dossier.md)
+- **Carl Gustav Jung the elder** [T5] (mirrored from carl_gustav_jung_the_elder.dossier.md)
+- **Wassily Kandinsky** [T1+] (mirrored from wassily_kandinsky.dossier.md)
+- **Johann Jost Textor** [T3] (mirrored from johann_jost_textor.dossier.md)
+- **Franz Pforr** [T3] (mirrored from franz_pforr.dossier.md)
+- **Søren Aabye Kierkegaard** [T1+] (mirrored from s_ren_kierkegaard.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

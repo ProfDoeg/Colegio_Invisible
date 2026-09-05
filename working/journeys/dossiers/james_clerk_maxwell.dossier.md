@@ -1084,6 +1084,32 @@ His reputation remains unusually free of personal scandal, which creates its own
 
 No adequately documented T2 prophecy/hyperstition connection or T9 shared-object succession was found between Maxwell and anyone on the supplied roster. Other roster figures were omitted where the available evidence showed only broad intellectual influence, use of Maxwell’s equations, contemporaneity or shared institutional geography rather than one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander Graham Bell** [T1-]
+- **Arthur Cayley** [T3]
+- **Albert Einstein** [T1+]
+- **Sir George Gabriel Stokes** [T3]
+- **Sir George Gabriel Stokes** [T5]
+- **Johannes Kepler** [T1-]
+- **William Thomson** [T3]
+- **William Thomson** [T5]
+- **Michael Faraday** [T1-]
+- **Michael Faraday** [T3]
+- **Michael Faraday** [T5]
+- **Norbert Wiener** [T1+]
+- **René Descartes** [T1-]
+- **Richard Phillips Feynman** [T1+]
+- **Sir Isaac Newton** [T1-]
+- **Sir William Rowan Hamilton** [T1-]
+- **Jules Henri Poincaré** [T1+] (mirrored from henri_poincare.dossier.md)
+- **Paul Adrien Maurice Dirac** [T1+] (mirrored from dirac.dossier.md)
+- **Pierre-Simon Laplace** [T1-] (mirrored from pierre_simon_laplace.dossier.md)
+- **Nikola Tesla** [T9+] (mirrored from nikola_tesla.dossier.md)
+- **Alexander Graham Bell** [T3] (mirrored from alexander_graham_bell.dossier.md)
+
 ## Sources
 
 https://www.clerkmaxwellfoundation.org/html/about_maxwell.html

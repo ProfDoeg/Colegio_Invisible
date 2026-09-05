@@ -1012,6 +1012,40 @@ No supported personal, institutional, or epistolary connection was located. Thei
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Carlos María de Alvear** [T5]
+- **Francisco de Miranda** [T4]
+- **Manuel Belgrano** [T5]
+- **Juan Martín de Pueyrredón y O'Doggan** [T3]
+- **Bernardo O'Higgins Riquelme** [T5]
+- **Martín Miguel de Güemes** [T3]
+- **Simón Bolívar** [T5]
+- **Antonio José de Sucre** [T4]
+- **Napoleon Bonaparte** [T4]
+- **María Remedios del Valle** [T4]
+- **Domingo Faustino Sarmiento** [T1+]
+- **Juan Manuel José Domingo Ortiz de Rozas y López de Osornio** [T3]
+- **El Inca Garcilaso de la Vega** [T3] (mirrored from el_inca_garcilaso_de_la_vega.dossier.md)
+- **José Julián Martí Pérez** [T1+] (mirrored from jose_marti.dossier.md)
+- **Manuela Sáenz de Vergara y Aizpuru** [T4] (mirrored from manuela_saenz.dossier.md)
+- **Pedro Subercaseaux Errázuriz** [T1+] (mirrored from pedro_subercaseaux.dossier.md)
+- **Napoleon Bonaparte** [T9-] (mirrored from napoleon.dossier.md)
+- **Mario Palanti** [T9-] (mirrored from mario_palanti.dossier.md)
+- **Juan Martín de Pueyrredón y O'Doggan** [T5] (mirrored from juan_martin_de_pueyrredon.dossier.md)
+- **Luis Perlotti** [T9-] (mirrored from luis_perlotti.dossier.md)
+- **Antonio José de Sucre** [T9+] (mirrored from sucre.dossier.md)
+- **La Difunta Correa** [T4] (mirrored from la_difunta_correa.dossier.md)
+- **Francisco Salamone** [T9+] (mirrored from francisco_salamone.dossier.md)
+- **Jules Dormal Godet** [T9+] (mirrored from jules_dormal.dossier.md)
+- **Daniel Giannone** [T1+] (mirrored from daniel_giannone.dossier.md)
+- **Aimé Jacques Alexandre Goujaud** [T4] (mirrored from aime_bonpland.dossier.md)
+- **Lautaro** [T9-] (mirrored from lautaro.dossier.md)
+- **José Gabriel Condorcanqui Noguera** [T9-] (mirrored from tupac_amaru_ii.dossier.md)
+- **Domingo Faustino Sarmiento** [T5] (mirrored from sarmiento.dossier.md)
+
 ## Chronology
 
 | Date | Event |

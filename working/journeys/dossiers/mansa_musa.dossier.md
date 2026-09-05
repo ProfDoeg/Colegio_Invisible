@@ -565,6 +565,15 @@ The most durable documentary legacy is narrower and stronger: Musa commanded a p
 
 No other roster member has a sufficiently documented direct, literary, proximity, personal, prophetic, or shared-object connection to Mansa Musa under the stated criteria.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abu Abdallah Muhammad ibn Battuta** [T1+]
+- **Ahmad al-Qalqashandi** [T1+]
+- **Leo Africanus** [T1+] (mirrored from leo_africanus.dossier.md)
+- **Abu Abdallah Muhammad ibn Battuta** [T9+] (mirrored from ibn_battuta.dossier.md)
+
 ## Sources
 
 https://www.bu.edu/africa/outreach/teachingresources/history/ancient-to-medieval-history/k_o_mali/

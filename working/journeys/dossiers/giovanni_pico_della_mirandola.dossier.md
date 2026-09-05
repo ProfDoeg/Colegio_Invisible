@@ -1172,6 +1172,43 @@ No supported personal or specific intellectual intersection was found for the gr
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham ben Samuel Abulafia** [T1-]
+- **Aristotle** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Dante Alighieri** [T1-]
+- **Frances Amelia Yates** [T1+]
+- **Giambattista Vico** [T1+]
+- **Giordano Bruno** [T1+]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1+]
+- **Johannes Cusanus** [T9-]
+- **Johannes Reuchlin** [T5]
+- **Lorenzo di Piero de' Medici** [T5]
+- **Maimonides** [T1-]
+- **Origen of Alexandria** [T1-]
+- **Plato** [T1-]
+- **Ramon Llull** [T1-]
+- **Thomas Aquinas** [T1-]
+- **Zoroaster** [T1-]
+- **Sir Thomas More** [T1+] (mirrored from thomas_more.dossier.md)
+- **Lorenzo di Piero de' Medici** [T3] (mirrored from lorenzo_de_medici_il_magnifico.dossier.md)
+- **Ahmad al-Majriti** [T1-] (mirrored from ahmad_al_majriti.dossier.md)
+- **Giulio Camillo Delminio** [T1+] (mirrored from giulio_camillo.dossier.md)
+- **John Dee** [T3] (mirrored from john_dee.dossier.md)
+- **Giambattista Vico** [T3] (mirrored from vico.dossier.md)
+- **Johannes Trithemius** [T1+] (mirrored from johannes_trithemius.dossier.md)
+- **Johannes Kepler** [T1+] (mirrored from johannes_kepler.dossier.md)
+- **Robert Fludd** [T1+] (mirrored from robert_fludd.dossier.md)
+- **Michelangelo di Lodovico Buonarroti Simoni** [T4] (mirrored from michelangelo.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Abraham ben Samuel Abulafia** [T3] (mirrored from abraham_abulafia.dossier.md)
+- **Ioan Petru Culianu** [T1+] (mirrored from ioan_petru_culianu.dossier.md)
+- **Albertus Magnus** [T1-] (mirrored from albertus_magnus.dossier.md)
+- **Nicholas of Cusa** [T1-] (mirrored from nicholas_of_cusa.dossier.md)
+
 ## Chronology
 
 | Date | Event |

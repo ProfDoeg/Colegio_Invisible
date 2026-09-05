@@ -766,6 +766,26 @@ Soros became a globally portable adversary-image because several real attributes
 
 No additional roster crossing was included where the available record showed only broad contemporaneity, institutional funding, parallel interests, investment by an independently managed Soros vehicle, or unsupported rumor rather than one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Friedrich August von Hayek** [T1-]
+- **William Henry Gates III** [T4]
+- **Cristina Elisabet Fernández de Kirchner** [T5]
+- **David Rockefeller** [T4]
+- **Elon Reeve Musk** [T3]
+- **George Walker Bush** [T3]
+- **Hillary Diane Rodham Clinton** [T5]
+- **William Jefferson Clinton** [T4] (mirrored from bill_clinton.dossier.md)
+- **Laurence Douglas "Larry" Fink** [T3] (mirrored from larry_fink.dossier.md)
+- **Hillary Diane Rodham Clinton** [T9-] (mirrored from hillary_clinton.dossier.md)
+- **George Walker Bush** [T9+] (mirrored from george_w_bush.dossier.md)
+- **Klaus Martin Schwab** [T3] (mirrored from klaus_schwab.dossier.md)
+- **Eduardo Sergio Elsztain** [T5] (mirrored from eduardo_elsztain.dossier.md)
+- **Benjamin Netanyahu** [T3] (mirrored from benjamin_netanyahu.dossier.md)
+
 ## Sources
 
 https://www.opensocietyfoundations.org/george-soros

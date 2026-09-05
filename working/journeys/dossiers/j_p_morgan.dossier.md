@@ -746,6 +746,26 @@ The central historical ambiguity is documentary rather than moral: Morgan repeat
 
 No additional roster entries are included merely because Morgan collected texts about them, occupied the same broad historical milieu, or had indirect institutional ties through descendants, employees, companies, or later collections.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T9-]
+- **Andrew Carnegie** [T3]
+- **Charles John Huffam Dickens** [T9-]
+- **Henry Clay Frick** [T3]
+- **Samuel Langhorne Clemens** [T3]
+- **Nikola Tesla** [T3]
+- **Thomas Alva Edison** [T3]
+- **William Blake** [T9-]
+- **James "Jamie" Dimon** [T1+] (mirrored from jamie_dimon.dossier.md)
+- **James "Jamie" Dimon** [T9+] (mirrored from jamie_dimon.dossier.md)
+- **John Foster Dulles** [T9+] (mirrored from john_foster_dulles.dossier.md)
+- **Henry Clay Frick** [T5] (mirrored from henry_clay_frick.dossier.md)
+- **Henry Clay Frick** [T9+] (mirrored from henry_clay_frick.dossier.md)
+- **Thomas Alva Edison** [T4] (mirrored from thomas_edison.dossier.md)
+- **John Davison Rockefeller Sr.** [T5] (mirrored from john_d_rockefeller_sr.dossier.md)
+
 ## Sources
 
 https://www.themorgan.org/collection/archives

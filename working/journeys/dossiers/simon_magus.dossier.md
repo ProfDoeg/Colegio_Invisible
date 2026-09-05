@@ -600,6 +600,23 @@ After the layers are separated, a limited profile remains possible: a Samaritan 
 
 - **[T1+]** Wiener summarized the earlier Simon’s attempted purchase in *God & Golem, Inc.* (1964) and used “simony” as an analogy for exploiting automation and supernatural-seeming technical power for profit or destruction. This literary and conceptual engagement is **documented fact**. Wiener’s text mistakenly names Paul, rather than Peter, as Simon’s apostolic counterpart. [*God & Golem, Inc.*](https://www.vordenker.de/ggphilosophy/wiener_gott-golem.pdf)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Paul the Apostle** [T5]
+- **Aurelius Augustinus** [T1+]
+- **Thomas Aquinas** [T1+]
+- **Tertullian** [T1+]
+- **Origen of Alexandria** [T1+]
+- **Jacobus de Voragine** [T1+]
+- **Dante Alighieri** [T1+]
+- **Helena Petrovna Blavatsky** [T1+]
+- **Carl Gustav Jung** [T1+]
+- **Norbert Wiener** [T1+]
+- **Simon bar Jonah** [T5] (mirrored from apostle_peter.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+
 ## Sources
 
 https://www.biblegateway.com/passage/?search=Acts+8%3A4-24&version=NRSVUE

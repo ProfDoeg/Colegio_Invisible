@@ -434,6 +434,13 @@ Low Dog and Sitting Bull belonged to the combined Lakota coalition at Little Big
 
 No other atlas-roster connection was established with comparable documentary support. Low Dog’s documented relationships with Crazy Horse, Big Road, Gall, Crow King, Big Foot, Lame Deer, and Red Dog cannot be entered unless those individuals are independently present under the exact intended identities in the supplied roster. Absence of further supported crossings is the finding.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Thathanka Iyotake** [T5]
+- **Thathanka Iyotake** [T4] (mirrored from sitting_bull.dossier.md)
+
 ## Sources
 
 https://www.astonisher.com/archives/museum/low_dog_big_horn.html

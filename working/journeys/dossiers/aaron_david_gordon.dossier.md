@@ -597,6 +597,24 @@ Gordonia, educational institutions, streets, study circles, memorial publication
 
 No sufficiently documented crossing was found with the remaining roster members. The many possible thematic parallels, shared intellectual traditions, and cases of contemporaneous presence in Europe or Palestine were excluded because they do not independently establish one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ahad Ha'am** [T3]
+- **Chaim Azriel Weizmann** [T5]
+- **Gustav Landauer** [T3]
+- **Immanuel Kant** [T1-]
+- **Karl Marx** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Theodor Herzl** [T1-]
+- **Martin Mordechai Buber** [T5]
+- **Martin Mordechai Buber** [T1+]
+- **Martin Mordechai Buber** [T3] (mirrored from martin_buber.dossier.md)
+- **Rabbi Benjamin son of Jonah of Tudela** [T1+] (mirrored from benjamin_de_tudela.dossier.md)
+- **Immanuel Kant** [T3] (mirrored from kant.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+
 ## Sources
 
 https://encyclopedia.yivo.org/article.aspx/Gordon_Aharon_David

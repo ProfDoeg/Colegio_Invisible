@@ -683,6 +683,29 @@ Only relationships supported by consulted sources are included.
 - **Theodor W. Adorno — documented posthumous chain of custody, not a personal relationship.** Benjamin’s papers and *Angelus Novus* passed after the war through Adorno before reaching Gershom Scholem. No evidence consulted establishes that Klee met Adorno.
 - **Friedrich Nietzsche, Johann Wolfgang von Goethe, William Blake, and other rostered thinkers sometimes invoked in Klee criticism — no sufficiently direct, source-supported personal or explicitly acknowledged connection established in this research.**
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Achille-Claude Debussy** [T3]
+- **Johannes Itten** [T4]
+- **Oskar Alfred Victor Schlemmer** [T5]
+- **Pablo Ruiz Picasso** [T5]
+- **Walter Benjamin** [T1+]
+- **Wassily Kandinsky** [T5]
+- **Wolfgang Amadeus Mozart** [T3]
+- **Walter Elias Disney** [T4]
+- **Theodor W. Adorno** [T9+]
+- **Johannes Itten** [T5] (mirrored from itten.dossier.md)
+- **Walter Benjamin** [T9+] (mirrored from walter_benjamin.dossier.md)
+- **Hermann Hesse** [T4] (mirrored from hermann_hesse.dossier.md)
+- **Friedrich Fröbel** [T9-] (mirrored from froebel.dossier.md)
+- **Emma Kunz** [T9+] (mirrored from emma_kunz.dossier.md)
+- **Hilde Holger** [T1+] (mirrored from hilde_holger.dossier.md)
+- **Xul Solar** [T3] (mirrored from xul_solar.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T3] (mirrored from julio_cortazar.dossier.md)
+- **Anni Albers** [T5] (mirrored from anni_albers.dossier.md)
+
 ## Compact Chronology
 
 - **1879, 18 December:** born at Münchenbuchsee.

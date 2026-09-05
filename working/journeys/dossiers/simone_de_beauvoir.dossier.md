@@ -899,6 +899,45 @@ Only connections supported by consulted sources or Beauvoir’s own documented w
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jean-Paul Charles Aymard Sartre** [T5]
+- **Albert Camus** [T5]
+- **Felix José Weil** [T5]
+- **Ernesto "Che" Guevara** [T5]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Karl Marx** [T3]
+- **Georg Wilhelm Friedrich Hegel** [T3]
+- **Martin Heidegger** [T3]
+- **Immanuel Kant** [T3]
+- **Henri-Louis Bergson** [T3]
+- **René Descartes** [T3]
+- **Claude Lévi-Strauss** [T4]
+- **Paul-Michel Foucault** [T3]
+- **Gilles Louis Rene Deleuze** [T3]
+- **Jacques Derrida** [T3]
+- **Pierre-Félix Guattari** [T3]
+- **Roland Gérard Barthes** [T3]
+- **Pablo Ruiz Picasso** [T9+]
+- **Paulo Reglus Neves Freire** [T1+] (mirrored from paulo_freire.dossier.md)
+- **Karl Marx** [T1-] (mirrored from karl_marx.dossier.md)
+- **Claude Lévi-Strauss** [T3] (mirrored from claude_levi_strauss.dossier.md)
+- **Isabelle Wilhelmine Marie Eberhardt** [T1-] (mirrored from isabelle_eberhardt.dossier.md)
+- **Donna Jeanne Haraway** [T1+] (mirrored from donna_haraway.dossier.md)
+- **Roland Gérard Barthes** [T9+] (mirrored from roland_barthes.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T3] (mirrored from julio_cortazar.dossier.md)
+- **Immanuel Kant** [T1-] (mirrored from kant.dossier.md)
+- **Sigmund Freud** [T1-] (mirrored from freud.dossier.md)
+- **Guy-Ernest Debord** [T4] (mirrored from guy_debord.dossier.md)
+- **Nicos Poulantzas** [T5] (mirrored from nicos_poulantzas.dossier.md)
+- **Nicos Poulantzas** [T3] (mirrored from nicos_poulantzas.dossier.md)
+- **Paul-Michel Foucault** [T4] (mirrored from michel_foucault.dossier.md)
+- **Michèle Bernstein** [T3] (mirrored from michele_bernstein.dossier.md)
+- **Pablo Ruiz Picasso** [T3] (mirrored from pablo_picasso.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -587,6 +587,25 @@ Historical reinterpretation has moved in several directions. Archive scholarship
 
 - **[T5]** **Documented fact:** García Márquez met Chávez and held an extended conversation with him aboard a Havana-to-Caracas flight in early 1999. He converted the encounter into the profile “El enigma de los dos Chávez,” published in Colombia’s *Cambio*, contrasting the private conversationalist he encountered with the public leader he feared Chávez might become. [Archived article account](https://www.sinpermiso.info/sites/default/files/textos/Ven.pdf), [The Atlantic](https://www.theatlantic.com/magazine/archive/2006/05/the-talented-mr-ch-vez/304809/)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Simón Bolívar** [T1-]
+- **Salvador Guillermo Allende Gossens** [T1-]
+- **Augusto Pinochet Ugarte** [T1-]
+- **Pablo Emilio Escobar Gaviria** [T1-]
+- **Julio Florencio Cortázar Descotte** [T5]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **William Jefferson Clinton** [T5]
+- **Hugo Rafael Chávez Frías** [T5]
+- **Augusto Boal** [T9+] (mirrored from augusto_boal.dossier.md)
+- **James Augustine Aloysius Joyce** [T3] (mirrored from james_joyce.dossier.md)
+- **Manuela Sáenz de Vergara y Aizpuru** [T1-] (mirrored from manuela_saenz.dossier.md)
+- **Camilo Torres Restrepo** [T5] (mirrored from camilo_torres_restrepo.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T4] (mirrored from jean_paul_sartre.dossier.md)
+- **Jorge Luis Borges** [T3] (mirrored from borges.dossier.md)
+
 ## Sources
 
 https://www.nobelprize.org/prizes/literature/1982/marquez/biographical/

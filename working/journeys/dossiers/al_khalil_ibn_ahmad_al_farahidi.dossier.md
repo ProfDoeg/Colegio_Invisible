@@ -1104,6 +1104,14 @@ No documented meeting, correspondence, collaboration, rivalry, patronage, family
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abu Yusuf Ya'qub ibn Ishaq al-Kindi** [T9+]
+- **Muhammad ibn Abdullah** [T9-]
+- **Taj al-Din Ali ibn Muhammad Ibn al-Durayhim al-Mawsili** [T1+] (mirrored from ibn_al_durayhim.dossier.md)
+
 ## Chronology
 
 | Date | Event | Evidentiary status |

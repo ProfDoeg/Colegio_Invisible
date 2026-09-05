@@ -977,6 +977,40 @@ Only connections supported by documentary or textual evidence are included. Shar
 
 The remaining atlas names produced no securely documented meeting, correspondence, family tie, patronage, collaboration, rivalry, shared institution, or explicitly acknowledged influence in the sources consulted. Their omission is intentional.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Thomas Aquinas** [T1-]
+- **Plato** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Dante Alighieri** [T1-]
+- **Ramon Llull** [T1-]
+- **Nicholas of Cusa** [T1-]
+- **Nicolaus Copernicus** [T1-]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1-]
+- **Giovanni Pico della Mirandola** [T1-]
+- **Martin Luther** [T1-]
+- **Galileo Galilei** [T9+]
+- **Johannes Kepler** [T1+]
+- **Tommaso Campanella** [T4]
+- **Lucilio Vanini** [T1+]
+- **Frances Amelia Yates** [T1+]
+- **Aby Moritz Warburg** [T9+]
+- **Georg Wilhelm Friedrich Hegel** [T1+]
+- **Friedrich Wilhelm Joseph Schelling** [T1+]
+- **Johann Wolfgang von Goethe** [T1+]
+- **Ahmad al-Majriti** [T1-] (mirrored from ahmad_al_majriti.dossier.md)
+- **Simonides of Ceos** [T1-] (mirrored from simonides_of_ceos.dossier.md)
+- **Peter of Ravenna** [T1-] (mirrored from peter_of_ravenna.dossier.md)
+- **Mircea Eliade** [T1+] (mirrored from mircea_eliade.dossier.md)
+- **Helena Petrovna Blavatsky** [T1+] (mirrored from blavatsky.dossier.md)
+- **Thomas Aquinas** [T9-] (mirrored from thomas_aquinas.dossier.md)
+- **Ettore Ferrari** [T9+] (mirrored from ettore_ferrari.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Ioan Petru Culianu** [T1+] (mirrored from ioan_petru_culianu.dossier.md)
+
 ## Chronology
 
 - **January or February 1548:** Filippo Bruno born at Nola to Giovanni Bruno and Fraulissa Savolina.

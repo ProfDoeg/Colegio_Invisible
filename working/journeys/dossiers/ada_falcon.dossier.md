@@ -109,3 +109,14 @@ gantt
 - **[T9-] Documented fact:** Falcón’s first recording with Francisco Canaro’s orchestra was “La morocha” on July 24, 1929. The work originated in 1905 with music by Enrique Saborido and lyrics by roster member Ángel Villoldo, who died in 1919; Falcón therefore occupies the later-performer side of this shared musical work. ([Todo Tango: Ada Falcón](https://www.todotango.com/creadores/biografia/148/Ada-Falcon/); [Biblioteca Nacional de la República Argentina](https://www.bn.gov.ar/micrositios/admin_assets/issues/files/c81010a62753c6836ef11d14876ac1ff.pdf))
 
 No other roster crossing was found that met the stated evidentiary and typological requirements; mere contemporaneity, common geography, shared tango culture, religious tradition, or later joint commemoration was excluded.
+
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Carlos Gardel** [T5]
+- **Enrique Santos Discépolo** [T5]
+- **Ángel Gregorio Villoldo** [T9-]
+- **Enrique Santos Discépolo** [T9-] (mirrored from enrique_santos_discepolo.dossier.md)
+- **Max Glücksmann** [T4] (mirrored from max_glucksmann.dossier.md)
+

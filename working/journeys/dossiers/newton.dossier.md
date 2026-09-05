@@ -1340,6 +1340,73 @@ No adequately documented personal or direct intellectual crossing was establishe
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Edmond Halley** [T5]
+- **Robert Hooke** [T3]
+- **Gottfried Wilhelm Leibniz** [T3]
+- **Christiaan Huygens** [T5]
+- **John Locke** [T5]
+- **René Descartes** [T1-]
+- **Galileo Galilei** [T1-]
+- **Johannes Kepler** [T1-]
+- **Nicolaus Copernicus** [T1-]
+- **Aristotle** [T1-]
+- **Plato** [T1-]
+- **Archimedes of Syracuse** [T1-]
+- **Francis Bacon** [T1-]
+- **John Dee** [T1-]
+- **Paracelsus** [T1-]
+- **Albert Einstein** [T1+]
+- **Immanuel Kant** [T1+]
+- **Pierre-Simon Laplace** [T1+]
+- **Leonhard Euler** [T1+]
+- **Joseph-Louis Lagrange** [T1+]
+- **Carl Friedrich Gauss** [T1+]
+- **Siméon Denis Poisson** [T1+]
+- **Michael Faraday** [T1+]
+- **James Clerk Maxwell** [T1+]
+- **Niels Bohr** [T1+]
+- **Werner Heisenberg** [T1+]
+- **Erwin Rudolf Josef Alexander Schrödinger** [T1+]
+- **Paul the Apostle** [T1+]
+- **Richard Phillips Feynman** [T1+]
+- **Ramon Llull** [T1-] (mirrored from ramon_llull.dossier.md)
+- **Jules Henri Poincaré** [T1+] (mirrored from henri_poincare.dossier.md)
+- **Yuval Noah Harari** [T1+] (mirrored from yuval_noah_harari.dossier.md)
+- **Johann Elert Bode** [T1+] (mirrored from johann_bode.dossier.md)
+- **William Thomson** [T9+] (mirrored from lord_kelvin.dossier.md)
+- **Emanuel Swedenborg** [T3] (mirrored from emanuel_swedenborg.dossier.md)
+- **Francisco de Miranda** [T1+] (mirrored from miranda.dossier.md)
+- **Jacob Boehme** [T1-] (mirrored from jacob_boehme.dossier.md)
+- **Sir George Gabriel Stokes** [T1+] (mirrored from george_gabriel_stokes.dossier.md)
+- **John Uri Lloyd** [T1+] (mirrored from john_uri_lloyd.dossier.md)
+- **Benjamin Franklin** [T1+] (mirrored from benjamin_franklin.dossier.md)
+- **John Maynard Keynes** [T1+] (mirrored from john_maynard_keynes.dossier.md)
+- **John Maynard Keynes** [T9+] (mirrored from john_maynard_keynes.dossier.md)
+- **Felix Christian Klein** [T1+] (mirrored from felix_klein.dossier.md)
+- **Claude-Henri de Rouvroy** [T1+] (mirrored from henri_de_saint_simon.dossier.md)
+- **Thomas Jefferson** [T1+] (mirrored from thomas_jefferson.dossier.md)
+- **Paul Adrien Maurice Dirac** [T9+] (mirrored from dirac.dossier.md)
+- **Flavius Josephus** [T3] (mirrored from flavius_josephus.dossier.md)
+- **Sir William Rowan Hamilton** [T1+] (mirrored from william_rowan_hamilton.dossier.md)
+- **Adam Smith** [T1+] (mirrored from adam_smith.dossier.md)
+- **Robert Hooke** [T5] (mirrored from robert_hooke.dossier.md)
+- **Giambattista Vico** [T9-] (mirrored from vico.dossier.md)
+- **Carl Friedrich Gauss** [T3] (mirrored from gauss.dossier.md)
+- **Noah son of Lamech** [T1-] (mirrored from noah.dossier.md)
+- **René Just Haüy** [T9+] (mirrored from rene_hauy.dossier.md)
+- **Charles Babbage** [T9+] (mirrored from charles_babbage.dossier.md)
+- **Maimonides** [T1-] (mirrored from maimonides.dossier.md)
+- **Max Glücksmann** [T4] (mirrored from max_glucksmann.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+- **Jean-Baptiste Joseph Fourier** [T3] (mirrored from joseph_fourier.dossier.md)
+- **Charles Robert Darwin** [T9+] (mirrored from charles_darwin.dossier.md)
+- **Christiaan Huygens** [T3] (mirrored from christiaan_huygens.dossier.md)
+- **King Solomon** [T1-] (mirrored from solomon.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

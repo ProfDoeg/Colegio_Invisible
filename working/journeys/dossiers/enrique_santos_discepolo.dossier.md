@@ -198,6 +198,24 @@ graph LR
 
 No sufficiently documented crossing was found with the remaining roster figures. Mere coexistence in Buenos Aires, later comparisons, shared political or artistic traditions, and unsupported claims that *“Cambalache”* prophetically anticipated later people were excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Carlos Gardel** [T5]
+- **Federico García Lorca** [T5]
+- **Ángel Gregorio Villoldo** [T9-]
+- **Juan Domingo Perón** [T5]
+- **Eva Duarte de Perón** [T5]
+- **Ada Falcón** [T9+]
+- **Astor Pantaleón Piazzolla** [T9+]
+- **Eva Duarte de Perón** [T4] (mirrored from eva_peron.dossier.md)
+- **Ada Falcón** [T5] (mirrored from ada_falcon.dossier.md)
+- **Alfonsina Storni** [T5] (mirrored from alfonsina_storni.dossier.md)
+- **Juan Domingo Perón** [T4] (mirrored from juan_peron.dossier.md)
+- **Carlos Gardel** [T3] (mirrored from carlos_gardel.dossier.md)
+- **Max Glücksmann** [T9+] (mirrored from max_glucksmann.dossier.md)
+
 ## Sources  
 The report above relies on authoritative Argentine and scholarly sources.  Key references include official cultural archives and biographies: Ministry of Culture (Argentina) publications, the Encyclopedia of Latin American History and Culture, the *Archivo General de la Emoción* (Radio y TV Argentina) and Cinenacional database, as well as historical articles (e.g. *Argentina.gob.ar* and *Caras y Caretas*).  All cited facts and anecdotes are drawn from these sources.  
 

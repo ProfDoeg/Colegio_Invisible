@@ -651,6 +651,15 @@ The PNV retains Arana as founder while no longer enforcing his ancestry criteria
 
 No adequately documented T2, T4, or T5 crossing with another roster member was found. Mere ideological descent, retrospective comparison, common geography, or overlapping lifetime has not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jesus of Nazareth** [T1-]
+- **José Julián Martí Pérez** [T1-]
+- **José Antonio de Aguirre y Lecube** [T1+]
+- **José Antonio de Aguirre y Lecube** [T9+]
+
 ## Sources
 
 https://historia-hispanica.rah.es/biografias/2964-sabino-de-arana-goiri

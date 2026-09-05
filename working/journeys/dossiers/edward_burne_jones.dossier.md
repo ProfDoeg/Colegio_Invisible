@@ -1010,6 +1010,26 @@ No support was found for a personal crossing with the overwhelming majority of t
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Dante Gabriel Rossetti** [T5]
+- **William Morris** [T5]
+- **Jane Morris** [T5]
+- **Mary "May" Morris** [T5]
+- **Christina Georgina Rossetti** [T5]
+- **John Ruskin** [T5]
+- **Sir John Everett Millais** [T4]
+- **William Holman Hunt** [T5]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T5]
+- **William Butler Yeats** [T3]
+- **William Blake** [T3]
+- **Sarah Bernhardt** [T5]
+- **The Lady of the Lake** [T1-] (mirrored from lady-of-the-lake.dossier.md)
+- **Lancelot** [T3] (mirrored from lancelot.dossier.md)
+- **Elizabeth** [T9+] (mirrored from elizabeth_bessie_burden.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -1223,6 +1223,23 @@ No adequately documented personal crossing was found with the remaining listed a
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Christiaan Huygens** [T4]
+- **Gottfried Wilhelm Leibniz** [T3]
+- **Louis XVI** [T9+]
+- **Louis XVI** [T5]
+- **Clovis** [T9-] (mirrored from clovis.dossier.md)
+- **Christian "Kit" Cavanagh** [T1+] (mirrored from kit_cavanagh_mother_ross.dossier.md)
+- **Étienne Bazeries** [T1+] (mirrored from etienne_bazeries.dossier.md)
+- **Tommaso Campanella** [T3] (mirrored from tommaso_campanella.dossier.md)
+- **Marie Adrienne Françoise de Noailles** [T9+] (mirrored from madame_de_lafayette.dossier.md)
+- **Alexandre Dumas** [T1+] (mirrored from alexandre_dumas.dossier.md)
+- **Christiaan Huygens** [T5] (mirrored from christiaan_huygens.dossier.md)
+- **Christiaan Huygens** [T3] (mirrored from christiaan_huygens.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

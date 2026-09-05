@@ -1102,6 +1102,22 @@ No supported direct crossings were identified with the overwhelming majority of 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Thomas Alva Edison** [T4]
+- **William Thomson** [T3]
+- **Charles Robert Darwin** [T3]
+- **James Clerk Maxwell** [T3]
+- **Michael Faraday** [T3]
+- **William Thomson** [T5] (mirrored from lord_kelvin.dossier.md)
+- **Maria Tecla Artemisia Montessori** [T5] (mirrored from maria_montessori.dossier.md)
+- **Benjamin Franklin** [T1-] (mirrored from benjamin_franklin.dossier.md)
+- **Vinton Gray Cerf** [T9+] (mirrored from vint_cerf.dossier.md)
+- **Nikola Tesla** [T9+] (mirrored from nikola_tesla.dossier.md)
+- **James Clerk Maxwell** [T1+] (mirrored from james_clerk_maxwell.dossier.md)
+
 ## Chronology
 
 - **3 March 1847:** Born Alexander Bell in Edinburgh.

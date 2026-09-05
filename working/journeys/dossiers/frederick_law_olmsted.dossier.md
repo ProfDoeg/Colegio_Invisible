@@ -859,6 +859,23 @@ The greatest continuing distortion is brand attribution. “Olmsted” can mean 
 
 - **[T9-]** **Documented fact:** Paxton originated the design of Birkenhead Park, completed and opened before Olmsted visited it in 1850. Olmsted studied the park’s circulation, drainage, planting, and public character and then described it in his writing; the encounter became an important precedent for his later American park work. This is a shared-site connection without documented shared occupancy: Paxton created the landscape first, and Olmsted encountered it later. [Harvard Magazine](https://www.harvardmagazine.com/2007/07/frederick-law-olmsted-html)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T3]
+- **Andrew Carnegie** [T3]
+- **Calvert Vaux** [T5]
+- **Calvert Vaux** [T3]
+- **Charles Robert Darwin** [T3]
+- **John Ruskin** [T3]
+- **Friedrich Max Müller** [T3]
+- **Sir Joseph Paxton** [T9-]
+- **Hildegard von Bingen** [T3] (mirrored from hildegard_von_bingen.dossier.md)
+- **Robert Moses** [T9+] (mirrored from robert_moses.dossier.md)
+- **Marcus Mosiah Garvey** [T9+] (mirrored from marcus_garvey.dossier.md)
+- **Sir Joseph Paxton** [T3] (mirrored from joseph_paxton.dossier.md)
+
 ## Sources
 https://www.loc.gov/collections/frederick-law-olmsted-papers/about-this-collection/
 https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/ms001019/ms001019.pdf

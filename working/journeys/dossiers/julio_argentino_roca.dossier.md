@@ -1072,6 +1072,26 @@ No evidence was found of direct, source-supported connections between Roca and t
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Domingo Faustino Sarmiento** [T3]
+- **José Rafael Hernández** [T4]
+- **Torcuato Antonio de Alvear** [T4]
+- **Francesco Tamburini** [T4]
+- **Ceferino Namuncurá** [T9-]
+- **Ángel della Valle** [T1+]
+- **Javier Gerardo Milei** [T1+]
+- **Ángel della Valle** [T5] (mirrored from angel_della_valle.dossier.md)
+- **Juan Antonio Buschiazzo** [T4] (mirrored from juan_antonio_buschiazzo.dossier.md)
+- **Jules Charles** [T3] (mirrored from carlos_thays.dossier.md)
+- **Emir Emin Arslan** [T5] (mirrored from emin_arslan.dossier.md)
+- **Ceferino Namuncurá** [T4] (mirrored from ceferino_namuncura.dossier.md)
+- **Torcuato Antonio de Alvear** [T5] (mirrored from torcuato_de_alvear.dossier.md)
+- **Eugène Py** [T4] (mirrored from eugene_py.dossier.md)
+- **Domingo Faustino Sarmiento** [T5] (mirrored from sarmiento.dossier.md)
+
 ## Chronology
 
 | Date | Event |

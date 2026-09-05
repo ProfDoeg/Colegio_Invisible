@@ -1389,6 +1389,98 @@ For the overwhelming majority of the 896 rostered individuals, no specific docum
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Mary Magdalene** [T5]
+- **Simon bar Jonah** [T5]
+- **Paul the Apostle** [T1+]
+- **Flavius Josephus** [T1+]
+- **Mary Elizabeth Moore Shannon** [T5]
+- **Abraham** [T1-]
+- **Moses** [T1-]
+- **David ben Jesse** [T2- prediction]
+- **Origen of Alexandria** [T1+]
+- **Tertullian** [T1+]
+- **Aurelius Augustinus** [T1+]
+- **Constantine the Great** [T9+]
+- **Francis of Assisi** [T1+]
+- **Thomas Aquinas** [T1+]
+- **Martin Luther** [T1+]
+- **Mohandas Karamchand Gandhi** [T1+]
+- **Friedrich Nietzsche** [T1+]
+- **Søren Aabye Kierkegaard** [T1+]
+- **William Blake** [T1+]
+- **Carl Theodor Dreyer** [T1+]
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **Jordan Maxwell** [T1+] (mirrored from jordan_maxwell.dossier.md)
+- **Yuval Noah Harari** [T1+] (mirrored from yuval_noah_harari.dossier.md)
+- **Chiara di Favarone di Offreduccio** [T1+] (mirrored from clare_of_assisi.dossier.md)
+- **William James** [T1+] (mirrored from william_james.dossier.md)
+- **Martin Mordechai Buber** [T1+] (mirrored from martin_buber.dossier.md)
+- **John Fitzgerald Kennedy** [T1+] (mirrored from john_f_kennedy.dossier.md)
+- **Felipe Guamán Poma de Ayala** [T1+] (mirrored from guaman_poma_de_ayala.dossier.md)
+- **Otto Hanish** [T1+] (mirrored from otto_hanish.dossier.md)
+- **Saint Anthony of Padua** [T1+] (mirrored from st_anthony_of_padua_1195_1231.dossier.md)
+- **Emanuel Swedenborg** [T1+] (mirrored from emanuel_swedenborg.dossier.md)
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **Justinian I** [T1+] (mirrored from justinian_i.dossier.md)
+- **Philip Kindred Dick** [T1+] (mirrored from philip_k_dick.dossier.md)
+- **Sir Thomas More** [T1+] (mirrored from thomas_more.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Hildegard von Bingen** [T1+] (mirrored from hildegard_von_bingen.dossier.md)
+- **Jacob Boehme** [T1+] (mirrored from jacob_boehme.dossier.md)
+- **Clovis** [T9+] (mirrored from clovis.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Charles John Huffam Dickens** [T1+] (mirrored from charles_dickens.dossier.md)
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T1+] (mirrored from oscar_wilde.dossier.md)
+- **René Guénon** [T1+] (mirrored from rene_guenon.dossier.md)
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Bernard of Clairvaux** [T1+] (mirrored from bernard_clairvaux.dossier.md)
+- **Ibn Arabi** [T1+] (mirrored from ibn_arabi.dossier.md)
+- **Richard Dawkins** [T1+] (mirrored from richard_dawkins.dossier.md)
+- **Joaquín Trincado Mateo** [T1+] (mirrored from joaquin_trincado_mateo.dossier.md)
+- **Claude-Henri de Rouvroy** [T1+] (mirrored from henri_de_saint_simon.dossier.md)
+- **Sabino Policarpo Arana Goiri** [T1+] (mirrored from sabino_arana.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Johannes Reuchlin** [T1+] (mirrored from johannes_reuchlin.dossier.md)
+- **Joseph Alexandre Saint-Yves** [T1+] (mirrored from joseph_alexandre_saint_yves_d_alveydre.dossier.md)
+- **The Queen of Sheba** [T1-] (mirrored from sheba.dossier.md)
+- **Camilo Torres Restrepo** [T1+] (mirrored from camilo_torres_restrepo.dossier.md)
+- **Madame Chiang Kai-shek** [T1+] (mirrored from madame_chiang_kai_shek.dossier.md)
+- **Saint Eustace** [T5] (mirrored from saint_eustace.dossier.md)
+- **Ludwig Derleth** [T1+] (mirrored from ludwig_derleth.dossier.md)
+- **Jacob Frank** [T1+] (mirrored from jacob_frank.dossier.md)
+- **John Brown** [T1+] (mirrored from john_brown.dossier.md)
+- **Victor-Marie Hugo** [T1+] (mirrored from victor_hugo.dossier.md)
+- **Pantaleon of Nicomedia** [T5] (mirrored from saint_pantaleon.dossier.md)
+- **Narendranath Datta** [T1+] (mirrored from swami_vivekananda.dossier.md)
+- **San Antonio Abad** [T3] (mirrored from san_antonio_abad.dossier.md)
+- **Matteo Ricci** [T1+] (mirrored from matteo_ricci.dossier.md)
+- **Johannes Kepler** [T1+] (mirrored from johannes_kepler.dossier.md)
+- **Noah son of Lamech** [T1-] (mirrored from noah.dossier.md)
+- **Nizami Ganjavi** [T1+] (mirrored from nizami.dossier.md)
+- **Catherine of Alexandria** [T5] (mirrored from catherine_alexandria.dossier.md)
+- **Michelangelo di Lodovico Buonarroti Simoni** [T1+] (mirrored from michelangelo.dossier.md)
+- **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
+- **Arthur Bispo do Rosário** [T1+] (mirrored from arthur_bispo_do_rosario.dossier.md)
+- **Jalal al-Din Rumi** [T1+] (mirrored from rumi.dossier.md)
+- **Dante Gabriel Rossetti** [T1+] (mirrored from dante_gabriel_rossetti.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Abraham ben Samuel Abulafia** [T1+] (mirrored from abraham_abulafia.dossier.md)
+- **Parzival** [T9+] (mirrored from parzival.dossier.md)
+- **Ezekiel son of Buzi** [T3] (mirrored from ezekiel.dossier.md)
+- **Muhammad ibn Abdullah** [T1+] (mirrored from muhammad.dossier.md)
+- **Margery Kempe** [T1+] (mirrored from margery_kempe.dossier.md)
+- **Nicholas of Cusa** [T1+] (mirrored from nicholas_of_cusa.dossier.md)
+- **King Solomon** [T1-] (mirrored from solomon.dossier.md)
+- **Grigori Yefimovich Rasputin** [T1+] (mirrored from grigori_rasputin.dossier.md)
+- **Egeria** [T9+] (mirrored from egeria.dossier.md)
+- **Christina Georgina Rossetti** [T1+] (mirrored from christina_rossetti.dossier.md)
+- **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event and evidentiary status |

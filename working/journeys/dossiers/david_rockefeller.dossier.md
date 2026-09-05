@@ -795,6 +795,31 @@ This map identifies the principal documentary anchors used for high-stakes or di
 
 No adequate evidence was located for a personal meeting between Rockefeller and **Augusto Pinochet**, **Ayatollah Khomeini**, or **Mao Zedong**. Their presence in events affecting Rockefeller or Chase does not, by itself, satisfy the atlas definitions for proximity, discourse, or personal contact.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Friedrich August von Hayek** [T3]
+- **Golda Meir** [T5]
+- **John Davison Rockefeller Sr.** [T5]
+- **John Fitzgerald Kennedy** [T5]
+- **Mao Zedong** [T1-]
+- **Mohammad Reza Shah Pahlavi** [T5]
+- **Nelson Rolihlahla Mandela** [T5]
+- **Saddam Hussein al-Tikriti** [T5]
+- **Salvador Guillermo Allende Gossens** [T1-]
+- **Sigmund Freud** [T5]
+- **James "Jamie" Dimon** [T9+] (mirrored from jamie_dimon.dossier.md)
+- **John Foster Dulles** [T5] (mirrored from john_foster_dulles.dossier.md)
+- **George Herbert Walker Bush** [T4] (mirrored from george_hw_bush.dossier.md)
+- **Friedrich August von Hayek** [T5] (mirrored from friedrich_hayek.dossier.md)
+- **George Soros** [T4] (mirrored from george_soros.dossier.md)
+- **Joseph Alois Schumpeter** [T5] (mirrored from joseph_schumpeter.dossier.md)
+- **Allen Welsh Dulles** [T5] (mirrored from allen_dulles.dossier.md)
+- **Robert Moses** [T3] (mirrored from robert_moses.dossier.md)
+- **Mohammad Reza Shah Pahlavi** [T4] (mirrored from mohammad_reza_shah_pahlavi.dossier.md)
+
 ## Sources
 
 https://rockarch.org/resources/about-the-rockefellers/david-rockefeller/

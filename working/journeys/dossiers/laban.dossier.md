@@ -1243,6 +1243,33 @@ No supported connection was found between Laban and the overwhelming majority of
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Mary Wigman** [T5]
+- **Suzanne Perrottet** [T5]
+- **Katja Wulff** [T5]
+- **Sophie Taeuber-Arp** [T5]
+- **Hilde Holger** [T5]
+- **Isadora Duncan** [T3]
+- **François Delsarte** [T1-]
+- **Johannes Itten** [T4]
+- **Oskar Alfred Victor Schlemmer** [T4]
+- **Wilhelm Richard Wagner** [T9-]
+- **Anna Matveyevna Pavlova** [T1-]
+- **Joseph Hubertus Pilates** [T5] (mirrored from joseph_pilates.dossier.md)
+- **Émile Jaques-Dalcroze** [T9-] (mirrored from jaques_dalcroze.dossier.md)
+- **Elsa Lindenberg** [T9+] (mirrored from elsa_lindenberg.dossier.md)
+- **Merce Cunningham** [T9+] (mirrored from merce_cunningham.dossier.md)
+- **Theodor Reuss** [T3] (mirrored from theodor_reuss.dossier.md)
+- **Ida Hofmann** [T5] (mirrored from ida_hoffmann.dossier.md)
+- **Elsa Gindler** [T5] (mirrored from elsa_gindler.dossier.md)
+- **Vera Skoronel** [T5] (mirrored from vera_skoronel.dossier.md)
+- **Doris Batcheller Humphrey** [T9+] (mirrored from doris_humphrey.dossier.md)
+- **Gustav Arthur "Gusto" Gräser** [T4] (mirrored from gusto_graeser.dossier.md)
+- **Charlotte Bara** [T9+] (mirrored from charlotte_bara.dossier.md)
+
 ## Sources
 
 https://www.trinitylaban.ac.uk/about-us/our-history/rudolf-laban/

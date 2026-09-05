@@ -1154,6 +1154,28 @@ No supported direct connection was found between Junayd and the overwhelming maj
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abu Yazid Tayfur ibn Isa al-Bistami** [T1-]
+- **Mansur al-Hallaj** [T5]
+- **Abu al-Qasim Abd al-Karim ibn Hawazin al-Qushayri** [T1+]
+- **Abd al-Qadir al-Jilani** [T1+]
+- **Farid al-Din Attar** [T1+]
+- **Ibn Arabi** [T1+]
+- **Jalal al-Din Rumi** [T1+]
+- **Muhammad ibn Abdullah** [T1-]
+- **Abu Bakr as-Siddiq** [T1-]
+- **Khwaja Mu'in al-Din Hasan Chishti** [T1+]
+- **Nizam ad-Din Auliya** [T1+]
+- **Muhammad Baha al-Din Naqshband Bukhari** [T1+]
+- **Baha ud-Din Walad** [T1+]
+- **Shams al-Din Muhammad of Tabriz** [T1+]
+- **Martin Mordechai Buber** [T1+] (mirrored from martin_buber.dossier.md)
+- **Abd al-Qadir al-Jilani** [T9+] (mirrored from abd_al_qadir_al_jilani.dossier.md)
+- **Ibrahim ibn Adham** [T1-] (mirrored from ibrahim_ibn_adham.dossier.md)
+
 ## Chronology
 
 | Date | Event | Status |

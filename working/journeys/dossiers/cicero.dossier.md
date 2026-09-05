@@ -1055,6 +1055,51 @@ No sufficiently documented meeting, correspondence, collaboration, rivalry, patr
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Gaius Julius Caesar** [T3]
+- **Marcus Fabius Quintilianus** [T1+]
+- **Plato** [T1-]
+- **Aristotle** [T1-]
+- **Aurelius Augustinus** [T1+]
+- **Aeneas** [T1-]
+- **Dido** [T1-]
+- **Alexander the Great** [T1-]
+- **Homer** [T1-]
+- **Archimedes of Syracuse** [T9-]
+- **Polybius of Megalopolis** [T1-]
+- **Herodotus of Halicarnassus** [T1-]
+- **Hesiod of Ascra** [T1-]
+- **Pindar of Thebes** [T1-]
+- **Simonides of Ceos** [T1-]
+- **Diogenes of Sinope** [T1-]
+- **Sir Thomas More** [T1+] (mirrored from thomas_more.dossier.md)
+- **Gaius Julius Solinus** [T3] (mirrored from gaius_julius_solinus.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Pindar of Thebes** [T3] (mirrored from pindar.dossier.md)
+- **Gaius Julius Caesar** [T5] (mirrored from julius_caesar.dossier.md)
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Johannes Cusanus** [T1+] (mirrored from johannes_cusanus.dossier.md)
+- **Cleopatra VII Thea Philopator** [T3] (mirrored from cleopatra_vii.dossier.md)
+- **Archimedes of Syracuse** [T1-] (mirrored from archimedes.dossier.md)
+- **Johannes Reuchlin** [T1+] (mirrored from johannes_reuchlin.dossier.md)
+- **Peter of Ravenna** [T1+] (mirrored from peter_of_ravenna.dossier.md)
+- **Giulio Camillo Delminio** [T1+] (mirrored from giulio_camillo.dossier.md)
+- **Lucilio Vanini** [T1+] (mirrored from lucilio_vanini.dossier.md)
+- **Plinio el Viejo** [T1+] (mirrored from plinio_el_viejo.dossier.md)
+- **Tertullian** [T1+] (mirrored from tertullian.dossier.md)
+- **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
+- **Herodotus of Halicarnassus** [T3] (mirrored from herodotus.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+- **Nicolaus Copernicus** [T1+] (mirrored from nicolaus_copernicus.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Leon Battista Alberti** [T1+] (mirrored from leon_battista_alberti.dossier.md)
+- **Søren Aabye Kierkegaard** [T1+] (mirrored from s_ren_kierkegaard.dossier.md)
+- **Polybius of Megalopolis** [T3] (mirrored from polybius.dossier.md)
+- **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

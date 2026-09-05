@@ -1208,6 +1208,27 @@ No substantiated connection was found between Dulles and the great majority of t
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Allen Welsh Dulles** [T5]
+- **John Fitzgerald Kennedy** [T5]
+- **David Ben-Gurion** [T5]
+- **Mohammad Mosaddegh** [T3]
+- **Mohammad Reza Shah Pahlavi** [T3]
+- **Mao Zedong** [T3]
+- **Madame Chiang Kai-shek** [T4]
+- **David Rockefeller** [T5]
+- **John Pierpont Morgan** [T9-]
+- **John Fitzgerald Kennedy** [T1+] (mirrored from john_f_kennedy.dossier.md)
+- **Clark McAdams Clifford** [T4] (mirrored from clark_clifford.dossier.md)
+- **William Egan Colby** [T4] (mirrored from william_colby.dossier.md)
+- **Prescott Sheldon Bush** [T4] (mirrored from prescott_bush.dossier.md)
+- **Golda Meir** [T5] (mirrored from golda_meir.dossier.md)
+- **Ernesto "Che" Guevara** [T9+] (mirrored from che_guevara.dossier.md)
+- **Mohammad Reza Shah Pahlavi** [T4] (mirrored from mohammad_reza_shah_pahlavi.dossier.md)
+
 ## Chronology
 
 | Date | Event |

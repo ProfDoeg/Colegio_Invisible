@@ -801,6 +801,18 @@ Only connections supported by consulted sources are included. Mere contemporanei
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ibn Arabi** [T1-]
+- **Mansur al-Hallaj** [T1-]
+- **Mohammad Mosaddegh** [T4]
+- **Mohammad Reza Shah Pahlavi** [T4]
+- **Saddam Hussein al-Tikriti** [T4]
+- **Oliver Laurence North** [T9-] (mirrored from oliver_north.dossier.md)
+- **Mohammad Mosaddegh** [T1-] (mirrored from mohammad_mosaddegh.dossier.md)
+
 ## Chronology
 
 | Date | Event |

@@ -1340,6 +1340,29 @@ The atlas roster contains hundreds of other figures. No evidence was found for g
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **John Milton Cage Jr.** [T5]
+- **Martha Graham** [T5]
+- **Hanya Holm** [T5]
+- **Doris Batcheller Humphrey** [T5]
+- **George Balanchine** [T5]
+- **R. Buckminster Fuller** [T4]
+- **Erik Satie** [T9-]
+- **Igor Fyodorovich Stravinsky** [T9-]
+- **José Arcadio Limón** [T4]
+- **Viola Farber** [T5]
+- **Rudolf Laban** [T9-]
+- **Sergei Pavlovich Diaghilev** [T9-]
+- **Vaslav Nijinsky** [T9-]
+- **Sara Rudner** [T4] (mirrored from sara_rudner.dossier.md)
+- **Jennifer Muller** [T5] (mirrored from jennifer_muller.dossier.md)
+- **Ted Shawn** [T4] (mirrored from ted_shawn.dossier.md)
+- **Elizabeth** [T3] (mirrored from elizabeth_bessie_burden.dossier.md)
+- **Anni Albers** [T3] (mirrored from anni_albers.dossier.md)
+
 ## Compact Chronology
 
 - **1919, April 16:** Born in Centralia, Washington.

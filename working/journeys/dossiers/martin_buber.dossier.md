@@ -1151,6 +1151,59 @@ For the great majority of the 896-person roster, no documented biographical cros
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aaron David Gordon** [T3]
+- **Ahad Ha'am** [T3]
+- **Albert Einstein** [T3]
+- **Chaim Azriel Weizmann** [T4]
+- **David Ben-Gurion** [T5]
+- **Erich Seligmann Fromm** [T4]
+- **Gustav Landauer** [T5]
+- **Hermann Hesse** [T3]
+- **Immanuel Kant** [T3]
+- **Martin Heidegger** [T3]
+- **Mohandas Karamchand Gandhi** [T3]
+- **Søren Aabye Kierkegaard** [T3]
+- **Theodor Herzl** [T5]
+- **Walter Benjamin** [T4]
+- **Friedrich Nietzsche** [T3]
+- **Georg Wilhelm Friedrich Hegel** [T3]
+- **Moses** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Maimonides** [T1-]
+- **Aurelius Augustinus** [T3]
+- **Jacob Boehme** [T1-]
+- **Nicholas of Cusa** [T1-]
+- **Jalal al-Din Rumi** [T1-]
+- **Farid al-Din Attar** [T1-]
+- **Mansur al-Hallaj** [T1-]
+- **Ibn Arabi** [T1-]
+- **Rabia al-Adawiyya** [T1-]
+- **Abu Yazid Tayfur ibn Isa al-Bistami** [T1-]
+- **Abu al-Qasim al-Junayd ibn Muhammad al-Baghdadi** [T1-]
+- **Carl Gustav Jung** [T4]
+- **Sigmund Freud** [T3]
+- **Jacques Derrida** [T1+]
+- **Jürgen Habermas** [T1+]
+- **Chaim Azriel Weizmann** [T3] (mirrored from chaim_weizmann.dossier.md)
+- **Paulo Reglus Neves Freire** [T1+] (mirrored from paulo_freire.dossier.md)
+- **Martin Heidegger** [T5] (mirrored from martin_heidegger.dossier.md)
+- **Max Moritz Warburg** [T3] (mirrored from max_warburg.dossier.md)
+- **Olga Fröbe-Kapteyn** [T3] (mirrored from olga_frobe_kapteyn.dossier.md)
+- **Walter Benjamin** [T3] (mirrored from walter_benjamin.dossier.md)
+- **Theodor Herzl** [T3] (mirrored from theodor_herzl.dossier.md)
+- **Sabbatai Zevi** [T1-] (mirrored from sabbatai_zevi.dossier.md)
+- **David Ben-Gurion** [T3] (mirrored from david_ben_gurion.dossier.md)
+- **Erich Seligmann Fromm** [T5] (mirrored from erich_fromm.dossier.md)
+- **Erich Seligmann Fromm** [T3] (mirrored from erich_fromm.dossier.md)
+- **Aaron David Gordon** [T5] (mirrored from aaron_david_gordon.dossier.md)
+- **Aaron David Gordon** [T1-] (mirrored from aaron_david_gordon.dossier.md)
+- **Erich Mühsam** [T4] (mirrored from erich_muhsam.dossier.md)
+- **Søren Aabye Kierkegaard** [T1-] (mirrored from s_ren_kierkegaard.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

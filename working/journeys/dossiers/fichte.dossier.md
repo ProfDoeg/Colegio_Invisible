@@ -1097,6 +1097,39 @@ No documented meeting, correspondence, collaboration, family tie, institutional 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Immanuel Kant** [T5]
+- **Johann Heinrich Pestalozzi** [T5]
+- **Johann Wolfgang von Goethe** [T5]
+- **Friedrich Schiller** [T3]
+- **Friedrich Wilhelm Joseph Schelling** [T3]
+- **Georg Wilhelm Friedrich Hegel** [T3]
+- **Novalis** [T3]
+- **Friedrich Fröbel** [T3]
+- **Friedrich Ludwig Jahn** [T4]
+- **Napoleon Bonaparte** [T3]
+- **Jean-Jacques Rousseau** [T1-]
+- **Karl Marx** [T1+]
+- **Rudolf Steiner** [T1+]
+- **Søren Aabye Kierkegaard** [T1+]
+- **Martin Heidegger** [T1+]
+- **Jürgen Habermas** [T1+]
+- **Jacques Derrida** [T1+]
+- **Slavoj Žižek** [T1+]
+- **Friedrich Schiller** [T5] (mirrored from schiller.dossier.md)
+- **Johann Heinrich Pestalozzi** [T1-] (mirrored from pestalozzi.dossier.md)
+- **Walter Benjamin** [T1+] (mirrored from walter_benjamin.dossier.md)
+- **Friedrich Wilhelm Joseph Schelling** [T5] (mirrored from schelling.dossier.md)
+- **Julius Evola** [T1+] (mirrored from julius_evola.dossier.md)
+- **Novalis** [T5] (mirrored from novalis.dossier.md)
+- **Immanuel Kant** [T3] (mirrored from kant.dossier.md)
+- **Gustav Landauer** [T3] (mirrored from gustav_landauer.dossier.md)
+- **Mikhail Aleksandrovich Bakunin** [T1+] (mirrored from mikhail_bakunin.dossier.md)
+- **Johann Wolfgang von Goethe** [T4] (mirrored from goethe_full.dossier.md)
+
 ## Chronology
 
 | Date | Event |

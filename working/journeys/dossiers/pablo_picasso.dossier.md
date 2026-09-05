@@ -683,6 +683,52 @@ His reputation now operates as a dual archive: one of extraordinary formal inven
 
 - **[T3]** **Documented fact:** Beauvoir read the role of *La Cousine* in the private 19 March 1944 presentation of Picasso’s *Le Désir attrapé par la queue*. Picasso inscribed a manuscript or facsimile copy to her with that date, and both appear in the documented 16 June gathering photographed in his studio. [Bibliothèque nationale de France](https://expositions.bnf.fr/sartre/grand/099.htm)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Camus** [T3]
+- **André Breton** [T5]
+- **André Breton** [T3]
+- **Gabrielle Bonheur "Coco" Chanel** [T5]
+- **Gabrielle Bonheur "Coco" Chanel** [T3]
+- **Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez** [T5]
+- **Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez** [T3]
+- **Erik Satie** [T3]
+- **Frida Kahlo** [T5]
+- **Frida Kahlo** [T3]
+- **Igor Fyodorovich Stravinsky** [T5]
+- **Igor Fyodorovich Stravinsky** [T3]
+- **Jacques Marie Émile Lacan** [T5]
+- **Jean-Paul Charles Aymard Sartre** [T3]
+- **Paul Klee** [T5]
+- **Salvador Guillermo Allende Gossens** [T5]
+- **Sergei Pavlovich Diaghilev** [T5]
+- **Sergei Pavlovich Diaghilev** [T3]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T9-] (mirrored from simone_de_beauvoir.dossier.md)
+- **James Augustine Aloysius Joyce** [T4] (mirrored from james_joyce.dossier.md)
+- **Auguste Rodin** [T1-] (mirrored from auguste_rodin.dossier.md)
+- **Marcel Proust** [T4] (mirrored from marcel_proust.dossier.md)
+- **Carlos Slim Helú** [T9+] (mirrored from carlos_slim.dossier.md)
+- **Federico García Lorca** [T4] (mirrored from federico_garcia_lorca.dossier.md)
+- **Christian Dior** [T4] (mirrored from christian_dior.dossier.md)
+- **Le Corbusier** [T5] (mirrored from le_corbusier.dossier.md)
+- **John Maynard Keynes** [T9+] (mirrored from john_maynard_keynes.dossier.md)
+- **Antonin Artaud** [T9-] (mirrored from artaud.dossier.md)
+- **Juan Eduardo Cirlot Laporta** [T3] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Leon David Black** [T9+] (mirrored from leon_black.dossier.md)
+- **George Balanchine** [T4] (mirrored from george_balanchine.dossier.md)
+- **Erik Satie** [T5] (mirrored from erik_satie.dossier.md)
+- **Wassily Kandinsky** [T3] (mirrored from wassily_kandinsky.dossier.md)
+- **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T5] (mirrored from jean_paul_sartre.dossier.md)
+- **Filippo Tommaso Emilio Marinetti** [T4] (mirrored from f_t_marinetti.dossier.md)
+- **Antoni Gaudí i Cornet** [T4] (mirrored from antoni_gaudi.dossier.md)
+- **José Antonio de Aguirre y Lecube** [T9+] (mirrored from jose_antonio_aguirre.dossier.md)
+- **Albert Camus** [T5] (mirrored from albert_camus.dossier.md)
+- **Bernard Jean Étienne Arnault** [T9+] (mirrored from bernard_arnault.dossier.md)
+
 ## Sources
 
 https://www.museepicassoparis.fr/en/picasso-biography/timeline/

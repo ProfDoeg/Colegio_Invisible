@@ -1026,6 +1026,19 @@ No adequately documented lifetime relationship was found between Lovelace and th
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Charles Babbage** [T5]
+- **Charles John Huffam Dickens** [T5]
+- **Michael Faraday** [T3]
+- **Alan Mathison Turing** [T1+]
+- **Joseph-Marie Jacquard** [T9-]
+- **Michael Faraday** [T5] (mirrored from michael_faraday.dossier.md)
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Ray Kurzweil** [T1+] (mirrored from ray_kurzweil.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

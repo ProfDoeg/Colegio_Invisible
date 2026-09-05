@@ -1198,6 +1198,66 @@ No evidence was found for physical meetings, correspondence, collaboration, fami
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aaron the Levite** [T5]
+- **Abraham** [T1-]
+- **David ben Jesse** [T1+]
+- **King Solomon** [T1+]
+- **Jesus of Nazareth** [T1+]
+- **Paul the Apostle** [T1+]
+- **Muhammad ibn Abdullah** [T1+]
+- **Maimonides** [T1+]
+- **Michelangelo di Lodovico Buonarroti Simoni** [T1+]
+- **Sigmund Freud** [T1+]
+- **Martin Mordechai Buber** [T1+]
+- **Arnold Rikli** [T1+]
+- **Harriet Tubman** [T1+]
+- **Martin Luther** [T1+]
+- **William Blake** [T1+]
+- **Jordan Maxwell** [T1+] (mirrored from jordan_maxwell.dossier.md)
+- **Felipe Guamán Poma de Ayala** [T1+] (mirrored from guaman_poma_de_ayala.dossier.md)
+- **Emanuel Swedenborg** [T1+] (mirrored from emanuel_swedenborg.dossier.md)
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **Justinian I** [T9+] (mirrored from justinian_i.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Abu Karib As'ad** [T9+] (mirrored from abu_karib.dossier.md)
+- **Adam of Bremen** [T1+] (mirrored from adam_of_bremen.dossier.md)
+- **Ibn Arabi** [T1+] (mirrored from ibn_arabi.dossier.md)
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1+] (mirrored from heinrich_cornelius_agrippa.dossier.md)
+- **Joaquín Trincado Mateo** [T1+] (mirrored from joaquin_trincado_mateo.dossier.md)
+- **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Johannes Reuchlin** [T1+] (mirrored from johannes_reuchlin.dossier.md)
+- **Joseph Alexandre Saint-Yves** [T1+] (mirrored from joseph_alexandre_saint_yves_d_alveydre.dossier.md)
+- **Rabbi Benjamin son of Jonah of Tudela** [T1+] (mirrored from benjamin_de_tudela.dossier.md)
+- **Flavius Josephus** [T1+] (mirrored from flavius_josephus.dossier.md)
+- **Saadia Gaon** [T1+] (mirrored from saadia_gaon.dossier.md)
+- **Judah Loew ben Bezalel** [T1+] (mirrored from judah_loew_ben_bezalel_the_maharal_of_prague.dossier.md)
+- **Jacob Frank** [T1+] (mirrored from jacob_frank.dossier.md)
+- **Erich Seligmann Fromm** [T1+] (mirrored from erich_fromm.dossier.md)
+- **Victor-Marie Hugo** [T1+] (mirrored from victor_hugo.dossier.md)
+- **Cyrus the Great** [T9+] (mirrored from cyrus.dossier.md)
+- **Aurelius Augustinus** [T1+] (mirrored from saint_augustine_of_hippo.dossier.md)
+- **Noah son of Lamech** [T1-] (mirrored from noah.dossier.md)
+- **Rashi** [T1+] (mirrored from rashi.dossier.md)
+- **Origen of Alexandria** [T1+] (mirrored from origen.dossier.md)
+- **Tertullian** [T1+] (mirrored from tertullian.dossier.md)
+- **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
+- **Jalal al-Din Rumi** [T1+] (mirrored from rumi.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Samuel Preiswerk** [T1+] (mirrored from samuel_preiswerk.dossier.md)
+- **Abraham ben Samuel Abulafia** [T1+] (mirrored from abraham_abulafia.dossier.md)
+- **Rabbi Shimon bar Yochai** [T1+] (mirrored from rabbi_shimon_bar_yochai_rashbi.dossier.md)
+- **Ezekiel son of Buzi** [T1+] (mirrored from ezekiel.dossier.md)
+- **King Solomon** [T3] (mirrored from solomon.dossier.md)
+- **Moses de Leon** [T1+] (mirrored from moses_de_leon.dossier.md)
+- **Egeria** [T9+] (mirrored from egeria.dossier.md)
+- **Ahad Ha'am** [T1+] (mirrored from ahad_ha_am.dossier.md)
+- **Alberto Gerchunoff** [T1+] (mirrored from alberto_gerchunoff.dossier.md)
+
 ## Sources
 
 https://www.sefaria.org/Exodus.1.1-6.1

@@ -1214,6 +1214,39 @@ No documented direct crossing was identified with the overwhelming majority of t
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Gilles Louis Rene Deleuze** [T5]
+- **Jacques Marie Émile Lacan** [T5]
+- **Paul-Michel Foucault** [T4]
+- **Jean-Paul Charles Aymard Sartre** [T4]
+- **Antonio Francesco Gramsci** [T1-]
+- **Karl Marx** [T1-]
+- **Sigmund Freud** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Antonin Artaud** [T1-]
+- **Wilhelm Reich** [T1-]
+- **Herbert Marcuse** [T4]
+- **Jean Baudrillard** [T4]
+- **Jacques Derrida** [T4]
+- **Roland Gérard Barthes** [T4]
+- **Slavoj Žižek** [T1+]
+- **Mark Fisher** [T1+]
+- **Nick Land** [T1+]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3] (mirrored from simone_de_beauvoir.dossier.md)
+- **James Augustine Aloysius Joyce** [T1-] (mirrored from james_joyce.dossier.md)
+- **Claude Lévi-Strauss** [T3] (mirrored from claude_levi_strauss.dossier.md)
+- **Donna Jeanne Haraway** [T1+] (mirrored from donna_haraway.dossier.md)
+- **Roland Gérard Barthes** [T9+] (mirrored from roland_barthes.dossier.md)
+- **Próspero Catelin** [T5] (mirrored from prospero_catelin.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T3] (mirrored from jean_paul_sartre.dossier.md)
+- **Loïe Fuller** [T5] (mirrored from loie_fuller.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+- **Paul-Michel Foucault** [T3] (mirrored from michel_foucault.dossier.md)
+- **Empress Joséphine** [T4] (mirrored from empress_josephine.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

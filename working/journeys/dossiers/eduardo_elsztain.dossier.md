@@ -762,6 +762,16 @@ Because he is living and active, this is a present reputation rather than a post
 
 - **[T5] Documented fact:** Elsztain and Milei developed a documented personal relationship during 2023–25. Milei used IRSA’s Hotel Libertador in Buenos Aires as his campaign base and residence, and the two appeared together at a Hanukkah celebration in Buenos Aires in December 2023. After Milei’s election, Elsztain accompanied him to the grave of Rabbi Menachem Mendel Schneerson in Queens, New York, during Milei’s first foreign trip as president-elect in November 2023. Reporting also identifies Elsztain as one of the people who encouraged Milei’s earlier visit to the site. These facts establish repeated personal meetings and joint travel, but not claims that Elsztain secretly financed or controlled Milei. ([El País](https://english.elpais.com/international/2025-03-09/eduardo-elsztain-the-businessman-who-whispers-to-argentinas-javier-milei.html), [La Nación](https://www.lanacion.com.ar/politica/milei-abono-25-millones-por-su-estadia-en-el-hotel-pero-aun-debe-rendir-todos-los-gastos-nid06012024/))
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **George Soros** [T5]
+- **Cristina Elisabet Fernández de Kirchner** [T5]
+- **Hugo Rafael Chávez Frías** [T5]
+- **Benjamin Netanyahu** [T4]
+- **Javier Gerardo Milei** [T5]
+
 ## Sources
 
 https://www.irsa.com.ar/en/corporate-governance/

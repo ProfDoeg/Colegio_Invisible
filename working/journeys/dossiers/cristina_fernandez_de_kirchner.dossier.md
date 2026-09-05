@@ -794,6 +794,27 @@ Only connections supported by the consulted record are included.
 - **Javier Gerardo Milei — documented rivalry.** From Milei’s 2023 election onward, he and Cristina became principal ideological antagonists. They exchanged public attacks over inflation, political responsibility, her degree and his economic program. Under his presidency her conviction became final, although the judgment was rendered by the judiciary.
 - **Other roster members:** No adequately documented personal crossing was found in the consulted material. Mere intellectual analogy, shared nationality, or attendance at large multilateral events was not treated as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Juan Domingo Perón** [T1-]
+- **Eva Duarte de Perón** [T1-]
+- **María Estela Martínez Cartas de Perón** [T9-]
+- **Hugo Rafael Chávez Frías** [T5]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Nicolás Maduro Moros** [T5]
+- **Diego Armando Maradona** [T5]
+- **George Walker Bush** [T5]
+- **Hillary Diane Rodham Clinton** [T5]
+- **William Jefferson Clinton** [T4]
+- **Benjamin Netanyahu** [T3]
+- **Javier Gerardo Milei** [T3]
+- **Juan Domingo Perón** [T9-] (mirrored from juan_peron.dossier.md)
+- **Mark Brodsky** [T4] (mirrored from mark_brodsky.dossier.md)
+- **George Soros** [T5] (mirrored from george_soros.dossier.md)
+- **Eduardo Sergio Elsztain** [T5] (mirrored from eduardo_elsztain.dossier.md)
+
 ## Compact Chronology
 
 - **19 February 1953:** Born in Tolosa, La Plata.

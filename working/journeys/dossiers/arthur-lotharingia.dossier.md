@@ -1530,6 +1530,21 @@ No source-supported personal, institutional, familial, or explicitly acknowledge
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Merlin** [T5]
+- **Guinevere** [T5]
+- **Lancelot** [T5]
+- **Morgan le Fay** [T5]
+- **The Lady of the Lake** [T9-]
+- **Parzival** [T5]
+- **Johann Heinrich Wilhelm Tischbein** [T9-] (mirrored from johann_tischbein.dossier.md)
+- **Kyot-Willehalm** [T4] (mirrored from kyot-willehalm.dossier.md)
+- **George Balanchine** [T5] (mirrored from george_balanchine.dossier.md)
+- **Richard I of England** [T9+] (mirrored from richard_lionheart.dossier.md)
+
 ## Chronology
 
 | Date | Event or textual development | Status |

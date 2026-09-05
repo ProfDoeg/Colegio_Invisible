@@ -1558,6 +1558,20 @@ Peter's most modern-seeming insight is not the numerical extravagance but the de
 
 No documented personal or textual crossing was established with other tempting roster candidates such as **Giulio Camillo, Simonides of Ceos, Ramon Llull, Johannes Trithemius, or Thomas Aquinas**. Their placement near Peter in histories or compilations of memory arts demonstrates reception context or a shared tradition, not by itself one of the defined Atlas connections.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Marcus Tullius Cicero** [T1-]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T5]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1+]
+- **Giordano Bruno** [T1+]
+- **Johannes Reuchlin** [T1+]
+- **Martin Luther** [T1+]
+- **Frances Amelia Yates** [T1+]
+- **Johannes Cusanus** [T3] (mirrored from johannes_cusanus.dossier.md)
+- **Marcus Fabius Quintilianus** [T3] (mirrored from quintilian.dossier.md)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/pietro-francesco-tomai_(Dizionario-Biografico)/

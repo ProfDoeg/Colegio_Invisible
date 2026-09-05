@@ -1022,6 +1022,26 @@ No supported personal or clearly traceable intellectual connection was identifie
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Edward Kelley** [T5]
+- **Frances Amelia Yates** [T1+]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T3]
+- **Johannes Reuchlin** [T3]
+- **Johannes Trithemius** [T3]
+- **Nicolaus Copernicus** [T3]
+- **Roger Bacon** [T3]
+- **Ramon Llull** [T3]
+- **Giovanni Pico della Mirandola** [T3]
+- **Francis Bacon** [T4]
+- **Roger Bacon** [T9-] (mirrored from roger_bacon.dossier.md)
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1-] (mirrored from heinrich_cornelius_agrippa.dossier.md)
+- **Johannes Trithemius** [T9-] (mirrored from johannes_trithemius.dossier.md)
+- **Sir Isaac Newton** [T1+] (mirrored from newton.dossier.md)
+- **Arthur Edward Waite** [T1+] (mirrored from arthur_edward_waite.dossier.md)
+
 ## Chronology
 
 | Date | Event |

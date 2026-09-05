@@ -727,6 +727,19 @@ The Opsroom is an icon of interface and information design. Its furniture, proje
 
 No additional roster crossings were included: mere citation, intellectual similarity, political contemporaneity, presence in Beer’s library, or association with cybernetics or Chile was not treated as sufficient evidence of one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Norbert Wiener** [T3]
+- **Norbert Wiener** [T5]
+- **Norbert Wiener** [T1-]
+- **John von Neumann** [T1-]
+- **R. Buckminster Fuller** [T1-]
+- **R. Buckminster Fuller** [T9-]
+- **Salvador Guillermo Allende Gossens** [T5]
+- **Salvador Guillermo Allende Gossens** [T1-]
+
 ## Sources
 
 https://archives.ljmu.ac.uk/Record.aspx?id=SB&src=Catalog

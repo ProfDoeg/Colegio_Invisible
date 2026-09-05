@@ -1052,6 +1052,20 @@ No documented direct personal or explicit influence connection was established b
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Sir Isaac Newton** [T5]
+- **Robert Hooke** [T5]
+- **Christiaan Huygens** [T5]
+- **Gottfried Wilhelm Leibniz** [T4]
+- **Johannes Kepler** [T1-]
+- **Pierre-Simon Laplace** [T1+] (mirrored from pierre_simon_laplace.dossier.md)
+- **Robert Hooke** [T3] (mirrored from robert_hooke.dossier.md)
+- **Jaufre Rudel** [T1-] (mirrored from joffrey_rudel.dossier.md)
+- **Joseph-Louis Lagrange** [T1+] (mirrored from joseph_louis_lagrange.dossier.md)
+
 ## Chronology
 
 | Date | Event |

@@ -745,6 +745,19 @@ The 1998 Sotheby's sale of *Idealistische Begegnung* for approximately US$1.47 m
 
 - **[T5] Documented fact:** Kandinsky and Schlemmer were personally acquainted Bauhaus masters from Kandinsky’s arrival in Weimar in 1922 through Schlemmer’s departure from Dessau in 1929. Kandinsky assumed leadership of the wall-painting workshop, enabling Schlemmer to concentrate on sculpture, figure instruction, and the stage. Period photographs place them together with Paul Klee, Georg Muche, and Lyonel Feininger, while Kandinsky’s contemporary correspondence records encounters with Schlemmer in Bauhaus daily life. The evidence establishes repeated personal and professional contact, though not a close private friendship or a major feud.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Johannes Itten** [T3]
+- **Paul Klee** [T5]
+- **Rudolf Laban** [T4]
+- **Mary Wigman** [T4]
+- **Wassily Kandinsky** [T5]
+- **Johannes Itten** [T5] (mirrored from itten.dossier.md)
+- **Hilde Holger** [T1+] (mirrored from hilde_holger.dossier.md)
+- **Anni Albers** [T4] (mirrored from anni_albers.dossier.md)
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd118608088.html#ndbcontent

@@ -499,6 +499,23 @@ Historical reinterpretation has broadened. Earlier accounts centered formal geni
 
 No additional roster crossings were included where the evidence showed only broad influence, parallel careers, shared tradition, or unverified contemporaneity.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ruth St. Denis** [T5]
+- **Ted Shawn** [T5]
+- **Martha Graham** [T5]
+- **Hanya Holm** [T4]
+- **José Arcadio Limón** [T5]
+- **Federico García Lorca** [T3]
+- **Rudolf Laban** [T9-]
+- **Ruth St. Denis** [T3] (mirrored from ruth_st_denis.dossier.md)
+- **Merce Cunningham** [T5] (mirrored from merce_cunningham.dossier.md)
+- **Jennifer Muller** [T9+] (mirrored from jennifer_muller.dossier.md)
+- **Dore Hoyer** [T5] (mirrored from dore_hoyer.dossier.md)
+- **Martha Graham** [T4] (mirrored from martha_graham.dossier.md)
+
 ## Sources
 
 https://archives.nypl.org/dan/19673

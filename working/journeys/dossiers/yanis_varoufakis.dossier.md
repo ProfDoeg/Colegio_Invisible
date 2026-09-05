@@ -687,6 +687,27 @@ The roster was checked conservatively. Entries below require a documented work, 
 
 No supported T2 prophecy/hyperstition or T9 shared-object/site connection was identified. Numerous additional roster figures appear only as passing references, quotations, analogies, or shared intellectual background; those were omitted because the evidence did not establish a genuine crossing under the supplied definitions.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Friedrich August von Hayek** [T1-]
+- **John Maynard Keynes** [T1-]
+- **John von Neumann** [T1-]
+- **Joseph Alois Schumpeter** [T1-]
+- **Karl Marx** [T1-]
+- **Milton Friedman** [T1-]
+- **Avram Noam Chomsky** [T5]
+- **Slavoj Žižek** [T5]
+- **Elon Reeve Musk** [T3]
+- **Peter Andreas Thiel** [T3]
+- **Benjamin Netanyahu** [T3]
+- **Volodymyr Oleksandrovych Zelenskyy** [T3]
+- **Javier Gerardo Milei** [T3]
+- **Avram Noam Chomsky** [T3] (mirrored from noam_chomsky.dossier.md)
+- **Slavoj Žižek** [T4] (mirrored from slavoj_zizek.dossier.md)
+
 ## Sources
 
 https://mera25.gr/yanis-varoufakis/

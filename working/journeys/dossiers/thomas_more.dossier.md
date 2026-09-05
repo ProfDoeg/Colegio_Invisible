@@ -2335,6 +2335,25 @@ More remains simultaneously a Catholic saint, canonical humanist author, foundat
 
 No additional roster member could be connected under the specified types on sufficiently direct evidence. Mere chronological overlap, general intellectual resemblance, later inclusion in the same ideological canon, or appearance in adjacent traditions was not treated as a crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Giovanni Pico della Mirandola** [T1-]
+- **Herbert George Wells** [T1+]
+- **Jesus of Nazareth** [T1-]
+- **Karl Marx** [T1+]
+- **Martin Luther** [T3]
+- **Plato** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Thomas Aquinas** [T1-]
+- **Charles John Huffam Dickens** [T1+] (mirrored from charles_dickens.dossier.md)
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Peter Andreas Thiel** [T1+] (mirrored from peter_thiel.dossier.md)
+- **Joseph Alois Schumpeter** [T1+] (mirrored from joseph_schumpeter.dossier.md)
+
 ## Sources
 
 https://plato.stanford.edu/archives/spr2026/entries/thomas-more/

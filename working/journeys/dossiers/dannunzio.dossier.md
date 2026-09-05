@@ -1181,6 +1181,31 @@ No defensible direct connection was established between d’Annunzio and most of
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Achille-Claude Debussy** [T3]
+- **Benito Mussolini** [T3]
+- **Filippo Tommaso Emilio Marinetti** [T4]
+- **Friedrich Nietzsche** [T1-]
+- **Wilhelm Richard Wagner** [T1-]
+- **Guido Keller** [T5]
+- **Giuseppe Maria Garibaldi** [T1-]
+- **Dante Alighieri** [T1-]
+- **Aeneas** [T1-]
+- **Publius Vergilius Maro** [T1-]
+- **Gaius Julius Caesar** [T1-]
+- **Napoleon Bonaparte** [T1-]
+- **Sarah Bernhardt** [T9+]
+- **Auguste Rodin** [T5]
+- **Mario Palanti** [T9+] (mirrored from mario_palanti.dossier.md)
+- **Sarah Bernhardt** [T3] (mirrored from sarah_bernhardt.dossier.md)
+- **Julius Evola** [T3] (mirrored from julius_evola.dossier.md)
+- **Raúl Veroni** [T9+] (mirrored from raul_veroni_padre.dossier.md)
+- **Filippo Tommaso Emilio Marinetti** [T5] (mirrored from f_t_marinetti.dossier.md)
+- **Charlotte Bara** [T5] (mirrored from charlotte_bara.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

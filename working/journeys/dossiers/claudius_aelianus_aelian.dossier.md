@@ -515,6 +515,28 @@ The supported roster crossings are overwhelmingly textual. No securely documente
 
 No evidence was found for T2 prophecy/hyperstition, T4 proximity, T5 personal acquaintance, or T9 shared-object/site connections between Aelian and any roster member. Mere overlap with other early-third-century intellectuals, residence in the same empire, parallel animal stories, or later participation in the same broad literary tradition was not counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander the Great** [T1-]
+- **Aristotle** [T3]
+- **Ctesias of Cnidus** [T3]
+- **Megasthenes of Ionia** [T3]
+- **Homer** [T3]
+- **Hesiod of Ascra** [T3]
+- **Herodotus of Halicarnassus** [T3]
+- **Plato** [T1-]
+- **Diogenes of Sinope** [T1-]
+- **Cyrus the Great** [T1-]
+- **Cleopatra VII Thea Philopator** [T1-]
+- **Pindar of Thebes** [T1-]
+- **Simonides of Ceos** [T1-]
+- **Odysseus** [T1-]
+- **Zoroaster** [T1-]
+- **Megasthenes of Ionia** [T1-] (mirrored from megasthenes.dossier.md)
+- **Hannibal Barca** [T1-] (mirrored from hannibal.dossier.md)
+
 ## Sources
 
 https://topostext.org/work/224

@@ -1252,6 +1252,27 @@ No supported intersections were found with the overwhelming majority of the rema
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Sergei Pavlovich Diaghilev** [T5]
+- **Vaslav Nijinsky** [T5]
+- **Igor Fyodorovich Stravinsky** [T9-]
+- **Isadora Duncan** [T9-]
+- **Pyotr Ilyich Tchaikovsky** [T9-]
+- **Ruth St. Denis** [T4]
+- **George Balanchine** [T9+]
+- **Martha Graham** [T4]
+- **Marie Sophie Taglioni** [T9-]
+- **Nicholas Konstantinovich Roerich** [T4] (mirrored from nicholas_roerich.dossier.md)
+- **Isadora Duncan** [T3] (mirrored from isadora_duncan.dossier.md)
+- **Francesco Tamburini** [T9-] (mirrored from francesco_tamburini.dossier.md)
+- **Rudolf Laban** [T1+] (mirrored from laban.dossier.md)
+- **Vittorio Meano** [T9-] (mirrored from vittorio_meano.dossier.md)
+- **Valeska Gert** [T5] (mirrored from valeska_gert.dossier.md)
+- **Hanya Holm** [T3] (mirrored from hanya_holm.dossier.md)
+
 ## Chronology
 
 | Date | Event |

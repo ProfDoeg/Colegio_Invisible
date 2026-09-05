@@ -1017,6 +1017,30 @@ No documentary crossing with the other named atlas figures was established. In p
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alan Mathison Turing** [T5]
+- **Norbert Wiener** [T3]
+- **John von Neumann** [T4]
+- **Thomas Alva Edison** [T9-]
+- **Kenneth Lane Thompson** [T4]
+- **Vinton Gray Cerf** [T1+]
+- **Ralph Charles Merkle** [T9+] (mirrored from ralph_merkle.dossier.md)
+- **Martin Edward Hellman** [T9+] (mirrored from hellman.dossier.md)
+- **Robert Elliot Kahn** [T9+] (mirrored from bob_kahn.dossier.md)
+- **Miller Smith Puckette** [T1+] (mirrored from miller_puckette.dossier.md)
+- **John von Neumann** [T5] (mirrored from john_von_neumann.dossier.md)
+- **Leonard Max Adleman** [T1+] (mirrored from leonard_adleman.dossier.md)
+- **Ray Kurzweil** [T1+] (mirrored from ray_kurzweil.dossier.md)
+- **Adi Shamir** [T9+] (mirrored from adi_shamir.dossier.md)
+- **Bailey Whitfield Diffie** [T3] (mirrored from diffie.dossier.md)
+- **Ronald Linn Rivest** [T3] (mirrored from ron_rivest.dossier.md)
+- **Mary Elizabeth Moore Shannon** [T5] (mirrored from betty_shannon.dossier.md)
+- **William Frederick Friedman** [T3] (mirrored from william_f_friedman.dossier.md)
+- **Donald Ervin Knuth** [T1+] (mirrored from donald_ervin_knuth.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

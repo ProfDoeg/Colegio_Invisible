@@ -552,6 +552,33 @@ Modern nationalist claims sometimes label him simply “Greek” or “Italian.�
 
 No documented personal meeting or same-place milieu crossing with another roster member is securely established. In particular, mere intellectual resemblance, later use of an “Archimedean” method, or coexistence elsewhere in the Hellenistic and Roman worlds was not treated as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Polybius of Megalopolis** [T1+]
+- **Marcus Tullius Cicero** [T1+]
+- **Marcus Tullius Cicero** [T9+]
+- **Plinio el Viejo** [T1+]
+- **Galileo Galilei** [T3]
+- **Johannes Kepler** [T3]
+- **Christiaan Huygens** [T3]
+- **Athanasius Kircher** [T1+]
+- **Leonhard Euler** [T1+] (mirrored from leonard_euler.dossier.md)
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Gottfried Wilhelm Leibniz** [T3] (mirrored from gottfried_wilhelm_leibniz.dossier.md)
+- **Plato** [T9-] (mirrored from plato.dossier.md)
+- **Galileo Galilei** [T1+] (mirrored from galileo_galilei.dossier.md)
+- **Abu Yusuf Ya'qub ibn Ishaq al-Kindi** [T9+] (mirrored from al_kindi.dossier.md)
+- **Carl Friedrich Gauss** [T9+] (mirrored from gauss.dossier.md)
+- **Johannes Kepler** [T1+] (mirrored from johannes_kepler.dossier.md)
+- **Sir Isaac Newton** [T1+] (mirrored from newton.dossier.md)
+- **Christiaan Huygens** [T1+] (mirrored from christiaan_huygens.dossier.md)
+- **Nicholas of Cusa** [T1+] (mirrored from nicholas_of_cusa.dossier.md)
+- **Leonardo di ser Piero da Vinci** [T1+] (mirrored from leonardo_da_vinci.dossier.md)
+
 ## Sources
 
 https://archimedespalimpsest.org/links/bibliography.php

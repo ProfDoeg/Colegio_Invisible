@@ -610,6 +610,24 @@ Named commemorations include lunar and Martian craters, asteroid **3514 Hooke**,
 
 No reliable evidence was found for prophecy or hyperstition connections (T2), or for a qualifying transferred-object or successively occupied-site connection (T9), between Hooke and another person on the roster. Mere influence, later use of Hooke’s law, commemoration, shared subject matter, or presence in the same broad historical tradition has not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Nicolaus Copernicus** [T1-]
+- **Galileo Galilei** [T1-]
+- **Johannes Kepler** [T1-]
+- **René Descartes** [T1-]
+- **Christiaan Huygens** [T3]
+- **John Locke** [T3]
+- **Gottfried Wilhelm Leibniz** [T3]
+- **Sir Isaac Newton** [T3]
+- **Sir Isaac Newton** [T5]
+- **Edmond Halley** [T3]
+- **Edmond Halley** [T5]
+- **Christiaan Huygens** [T5] (mirrored from christiaan_huygens.dossier.md)
+
 ## Sources
 
 https://www.oxforddnb.com/view/article/13693?docPos=1

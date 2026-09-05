@@ -1051,6 +1051,15 @@ Despite Querol’s large transatlantic network, only the professional competitio
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jules-Félix Coutan** [T4]
+- **Cristóbal Balenciaga Eizaguirre** [T9+]
+- **Giuseppe Maria Garibaldi** [T9+]
+- **Jules Charles** [T9-] (mirrored from carlos_thays.dossier.md)
+
 ## Chronology
 
 - **17 May 1860:** Born in Tortosa, according to the strongest modern consensus.

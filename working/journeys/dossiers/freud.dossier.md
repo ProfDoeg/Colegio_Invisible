@@ -1511,6 +1511,76 @@ The roster contains numerous figures who influenced Freud only through broad cul
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T3]
+- **Carl Gustav Jung** [T5]
+- **Edward Louis Bernays** [T3]
+- **William James** [T3]
+- **Charles Robert Darwin** [T1-]
+- **Friedrich Nietzsche** [T3]
+- **Johann Wolfgang von Goethe** [T1-]
+- **Benito Mussolini** [T3]
+- **Wilhelm Reich** [T5]
+- **Otto Gross** [T3]
+- **Erich Seligmann Fromm** [T1+]
+- **Herbert Marcuse** [T1+]
+- **Max Horkheimer** [T1+]
+- **Theodor W. Adorno** [T1+]
+- **Jacques Marie Émile Lacan** [T1+]
+- **Jacques Derrida** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Pierre-Félix Guattari** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Slavoj Žižek** [T1+]
+- **André Breton** [T3]
+- **Albert Camus** [T1+]
+- **Jean-Paul Charles Aymard Sartre** [T1+]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T1+]
+- **Karl Marx** [T1-]
+- **Walter Benjamin** [T3]
+- **Edward Louis Bernays** [T5] (mirrored from edward_bernays.dossier.md)
+- **Edward Louis Bernays** [T1+] (mirrored from edward_bernays.dossier.md)
+- **James Augustine Aloysius Joyce** [T3] (mirrored from james_joyce.dossier.md)
+- **William James** [T5] (mirrored from william_james.dossier.md)
+- **Martin Mordechai Buber** [T3] (mirrored from martin_buber.dossier.md)
+- **Max Weber** [T3] (mirrored from max_weber.dossier.md)
+- **Wifredo Viladrich** [T9+] (mirrored from viladrich.dossier.md)
+- **Jean Baudrillard** [T1+] (mirrored from jean_baudrillard.dossier.md)
+- **Jürgen Habermas** [T1+] (mirrored from jurgen_habermas.dossier.md)
+- **David Rockefeller** [T5] (mirrored from david_rockefeller.dossier.md)
+- **Winfried Georg Sebald** [T3] (mirrored from w_g_sebald.dossier.md)
+- **Claude Lévi-Strauss** [T1+] (mirrored from claude_levi_strauss.dossier.md)
+- **Walter Benjamin** [T1+] (mirrored from walter_benjamin.dossier.md)
+- **Dion Fortune** [T1+] (mirrored from dion_fortune.dossier.md)
+- **Theodor Herzl** [T3] (mirrored from theodor_herzl.dossier.md)
+- **William Seward Burroughs II** [T3] (mirrored from william_s_burroughs.dossier.md)
+- **Miguel de Cervantes Saavedra** [T3] (mirrored from miguel_de_cervantes.dossier.md)
+- **Sarah Bernhardt** [T3] (mirrored from sarah_bernhardt.dossier.md)
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **Julius Evola** [T3] (mirrored from julius_evola.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Moshé Feldenkrais** [T3] (mirrored from moshe_feldenkrais.dossier.md)
+- **André Breton** [T5] (mirrored from andre_breton.dossier.md)
+- **Roland Gérard Barthes** [T3] (mirrored from roland_barthes.dossier.md)
+- **Luis Alberto Spinetta** [T1+] (mirrored from spinetta.dossier.md)
+- **Lev Davidovich Bronstein** [T3] (mirrored from leon_trotsky.dossier.md)
+- **Ștefan Odobleja** [T3] (mirrored from stefan_odobleja.dossier.md)
+- **René Descartes** [T1-] (mirrored from rene_descartes.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Michelangelo di Lodovico Buonarroti Simoni** [T1-] (mirrored from michelangelo.dossier.md)
+- **Mark Fisher** [T1+] (mirrored from mark_fisher.dossier.md)
+- **Dante Alighieri** [T1-] (mirrored from dante.dossier.md)
+- **Felix José Weil** [T9+] (mirrored from felix_weil.dossier.md)
+- **Moses** [T1-] (mirrored from moses.dossier.md)
+- **Franz Anton Mesmer** [T9-] (mirrored from mesmer.dossier.md)
+- **Friedrich Nietzsche** [T1-] (mirrored from nietzsche.dossier.md)
+- **Ioan Petru Culianu** [T1+] (mirrored from ioan_petru_culianu.dossier.md)
+- **Samuel Langhorne Clemens** [T3] (mirrored from mark_twain.dossier.md)
+- **Aby Moritz Warburg** [T4] (mirrored from aby_warburg.dossier.md)
+
 ## Compact Chronology
 
 - **6 May 1856:** Born Sigismund Schlomo Freud in Freiberg, Moravia.

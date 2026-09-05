@@ -909,6 +909,27 @@ No adequately supported personal connection was found with the overwhelming majo
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Francisco de Miranda** [T5]
+- **José de San Martín** [T5]
+- **Simón Bolívar** [T5]
+- **Antonio José de Sucre** [T4]
+- **Carlos María de Alvear** [T4]
+- **Manuel Belgrano** [T4]
+- **Napoleon Bonaparte** [T4]
+- **Augusto Pinochet Ugarte** [T9+]
+- **Salvador Guillermo Allende Gossens** [T1+]
+- **Pedro Subercaseaux Errázuriz** [T1+]
+- **Lautaro** [T9-]
+- **Napoleon Bonaparte** [T9-] (mirrored from napoleon.dossier.md)
+- **Juan Martín de Pueyrredón y O'Doggan** [T3] (mirrored from juan_martin_de_pueyrredon.dossier.md)
+- **Simón Bolívar** [T3] (mirrored from bolivar.dossier.md)
+- **Antonio José de Sucre** [T9+] (mirrored from sucre.dossier.md)
+- **Martín Miguel de Güemes** [T3] (mirrored from martin_miguel_de_guemes.dossier.md)
+
 ## Chronology
 
 | Date | Event |

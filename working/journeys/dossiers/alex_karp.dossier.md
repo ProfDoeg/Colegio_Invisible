@@ -878,6 +878,21 @@ No adequately documented meeting, correspondence, collaboration, rivalry, family
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Peter Andreas Thiel** [T5]
+- **Jürgen Habermas** [T5]
+- **Karl Marx** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **J. R. R. Tolkien** [T9-]
+- **J. Robert Oppenheimer** [T1-]
+- **Volodymyr Oleksandrovych Zelenskyy** [T5]
+- **Laurence Douglas "Larry" Fink** [T5] (mirrored from larry_fink.dossier.md)
+- **Jeffrey Edward Epstein** [T3] (mirrored from jeffrey_epstein.dossier.md)
+- **Elon Reeve Musk** [T4] (mirrored from elon_musk.dossier.md)
+
 ## Chronology
 
 | Date | Event |

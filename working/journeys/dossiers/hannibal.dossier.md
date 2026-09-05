@@ -1028,6 +1028,25 @@ No source consulted established a personal meeting, correspondence, family relat
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Dido** [T9-]
+- **Aeneas** [T2- prediction]
+- **Aristotle** [T9-]
+- **Polybius of Megalopolis** [T1+]
+- **Claudius Aelianus** [T1+]
+- **Gaius Julius Caesar** [T1+]
+- **Napoleon Bonaparte** [T1+]
+- **Alexander the Great** [T1-]
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Ludwig Derleth** [T1+] (mirrored from ludwig_derleth.dossier.md)
+- **Dido** [T2- prediction] (mirrored from dido.dossier.md)
+- **William R. Bradshaw** [T1+] (mirrored from william_r_bradshaw.dossier.md)
+
 ## Chronology
 
 | Date | Event |

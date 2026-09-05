@@ -698,6 +698,23 @@ No single appropriation contains the whole record. The same archive contains nat
 
 No additional roster crossings were included where the available evidence showed only broad influence, shared subject matter, institutional succession, coincidental presence in the same country or city, or later comparison by third parties.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Chaim Azriel Weizmann** [T5]
+- **David Ben-Gurion** [T5]
+- **Edgar Allan Poe** [T3]
+- **Friedrich Nietzsche** [T3]
+- **Giuseppe Maria Garibaldi** [T1-]
+- **Theodor Herzl** [T3]
+- **Benito Mussolini** [T3]
+- **Benjamin Netanyahu** [T1+]
+- **Chaim Azriel Weizmann** [T3] (mirrored from chaim_weizmann.dossier.md)
+- **Henryk Erlich** [T3] (mirrored from henryk_erlich.dossier.md)
+- **David Ben-Gurion** [T3] (mirrored from david_ben_gurion.dossier.md)
+- **Benjamin Netanyahu** [T3] (mirrored from benjamin_netanyahu.dossier.md)
+
 ## Sources
 
 https://en.jabotinsky.org/zeev-jabotinsky/biography/

@@ -925,6 +925,29 @@ The roster includes Saint Acacius of Byzantium, Saint Barbara, Saint Blaise, Cat
 - **Label:** **Documented posthumous cult association.**
 - **Limitation:** It is not evidence that these individuals met one another.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jesus of Nazareth** [T5]
+- **Publius Aelius Hadrianus** [T5]
+- **Constantine the Great** [T9+]
+- **Jacobus de Voragine** [T1+]
+- **Athanasius Kircher** [T1+]
+- **Auguste Kerckhoffs** [T9+]
+- **Saint Acacius of Byzantium** [T9+]
+- **Saint Barbara of Heliopolis** [T9+]
+- **Saint Blaise of Sebastea** [T9+]
+- **Catherine of Alexandria** [T9+]
+- **Saint Cyriacus of Rome** [T9+]
+- **Saint Denis of Paris** [T9+]
+- **Saint Erasmus of Formia** [T4]
+- **Saint George of Lydda** [T9+]
+- **Saint Giles** [T9+]
+- **Pantaleon of Nicomedia** [T9+]
+- **San Vito** [T4]
+- **Pantaleon of Nicomedia** [T4] (mirrored from saint_pantaleon.dossier.md)
+
 ## Chronology
 
 | Date | Event | Evidentiary status |

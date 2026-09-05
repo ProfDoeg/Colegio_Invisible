@@ -1069,6 +1069,29 @@ No supported direct connection was found between Balanchine and the great majori
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Igor Fyodorovich Stravinsky** [T5]
+- **Sergei Pavlovich Diaghilev** [T5]
+- **Martha Graham** [T5]
+- **Arthur of Lotharingia** [T5]
+- **Pyotr Ilyich Tchaikovsky** [T9-]
+- **Achille-Claude Debussy** [T9-]
+- **Erik Satie** [T9-]
+- **Pablo Ruiz Picasso** [T4]
+- **Gabrielle Bonheur "Coco" Chanel** [T4]
+- **Vaslav Nijinsky** [T9-]
+- **Anna Matveyevna Pavlova** [T9-]
+- **Isadora Duncan** [T9-]
+- **Wolfgang Amadeus Mozart** [T9-]
+- **Wilhelm Richard Wagner** [T9-]
+- **Joseph Hubertus Pilates** [T5] (mirrored from joseph_pilates.dossier.md)
+- **Merce Cunningham** [T5] (mirrored from merce_cunningham.dossier.md)
+- **Maurice Bernard Sendak** [T9+] (mirrored from maurice_sendak.dossier.md)
+- **Walter Elias Disney** [T4] (mirrored from walt_disney.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -816,6 +816,38 @@ For the overwhelming majority of the 896-person roster, no documented direct cro
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Charles John Huffam Dickens** [T3]
+- **Charles Robert Darwin** [T4]
+- **Dante Alighieri** [T1-]
+- **Dante Gabriel Rossetti** [T5]
+- **Jane Morris** [T4]
+- **Marcel Proust** [T1+]
+- **Mohandas Karamchand Gandhi** [T1+]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T5]
+- **Sir Edward Coley Burne-Jones** [T5]
+- **Sir John Everett Millais** [T5]
+- **William Blake** [T1-]
+- **William Holman Hunt** [T3]
+- **William Morris** [T5]
+- **Mary "May" Morris** [T3] (mirrored from mary_may_morris.dossier.md)
+- **Cecil John Rhodes** [T3] (mirrored from cecil_rhodes.dossier.md)
+- **Marcel Proust** [T3] (mirrored from marcel_proust.dossier.md)
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T3] (mirrored from oscar_wilde.dossier.md)
+- **Calvert Vaux** [T3] (mirrored from calvert_vaux.dossier.md)
+- **The Lady of the Lake** [T1-] (mirrored from lady-of-the-lake.dossier.md)
+- **Frank Lloyd Wright** [T3] (mirrored from frank_lloyd_wright.dossier.md)
+- **William Holman Hunt** [T5] (mirrored from william_holman_hunt.dossier.md)
+- **Frederick Law Olmsted** [T3] (mirrored from frederick_law_olmsted.dossier.md)
+- **Dante Gabriel Rossetti** [T3] (mirrored from dante_gabriel_rossetti.dossier.md)
+- **Charles Robert Darwin** [T3] (mirrored from charles_darwin.dossier.md)
+- **Antoni Gaudí i Cornet** [T3] (mirrored from antoni_gaudi.dossier.md)
+- **Sir Joseph Paxton** [T3] (mirrored from joseph_paxton.dossier.md)
+- **Christina Georgina Rossetti** [T3] (mirrored from christina_rossetti.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

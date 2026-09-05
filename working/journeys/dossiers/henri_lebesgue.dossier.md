@@ -668,6 +668,13 @@ There is no personal cult in the religious or political sense. The “cult” is
 
 - **[T1-] Documented fact.** Lebesgue examined Euler’s historical proofs of the polyhedron formula in “Remarques sur les deux premières démonstrations du théorème d’Euler relatif aux polyèdres,” published in the *Bulletin de la Société mathématique de France* in 1924. He later returned to the same mathematical legacy in “Quelques conséquences simples de la formule d’Euler.” This is documented critical-historical engagement with Euler’s work, not a personal crossing. [Numdam](https://www.numdam.org/item/BSMF_1924__52__315_1.pdf)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Arthur Cayley** [T1-]
+- **Leonhard Euler** [T1-]
+
 ## Sources
 
 https://www.numdam.org/item/CSHM_1991__12__513_0.pdf

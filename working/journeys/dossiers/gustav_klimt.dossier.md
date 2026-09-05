@@ -963,6 +963,17 @@ Only intersections supported by the consulted evidence are included. Shared peri
 
 No reliable life intersection was found with the remaining roster members. In particular, broad parallels with Hilma af Klint, William Morris, Dante Gabriel Rossetti, Edward Burne-Jones, Walter Benjamin, Carl Jung, Rudolf Steiner, Wassily Kandinsky, Paul Klee, Pablo Picasso, Loïe Fuller, or Friedrich Nietzsche were not converted into personal connections without supporting evidence.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Auguste Rodin** [T5]
+- **Alphonse Mucha** [T4]
+- **Charles Rennie Mackintosh** [T4]
+- **Friedrich Schiller** [T3]
+- **Auguste Rodin** [T3] (mirrored from auguste_rodin.dossier.md)
+- **Jennifer Muller** [T9+] (mirrored from jennifer_muller.dossier.md)
+
 ## Chronology
 
 | Date | Event |

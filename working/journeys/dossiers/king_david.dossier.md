@@ -996,6 +996,36 @@ No securely documented meeting, correspondence, collaboration, rivalry, patronag
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Bethsabée** [T5]
+- **King Solomon** [T5]
+- **Abraham** [T1-]
+- **Moses** [T1-]
+- **Aaron the Levite** [T9-]
+- **Jesus of Nazareth** [T2+ unresolved]
+- **Flavius Josephus** [T1+]
+- **Maimonides** [T1+]
+- **Felipe Guamán Poma de Ayala** [T1+] (mirrored from guaman_poma_de_ayala.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Giulio Camillo Delminio** [T1+] (mirrored from giulio_camillo.dossier.md)
+- **Saadia Gaon** [T1+] (mirrored from saadia_gaon.dossier.md)
+- **Judah Loew ben Bezalel** [T1+] (mirrored from judah_loew_ben_bezalel_the_maharal_of_prague.dossier.md)
+- **Jacob Frank** [T1+] (mirrored from jacob_frank.dossier.md)
+- **Aurelius Augustinus** [T1+] (mirrored from saint_augustine_of_hippo.dossier.md)
+- **Rashi** [T1+] (mirrored from rashi.dossier.md)
+- **Paul the Apostle** [T1+] (mirrored from apostle_paul.dossier.md)
+- **Origen of Alexandria** [T1+] (mirrored from origen.dossier.md)
+- **Tertullian** [T1+] (mirrored from tertullian.dossier.md)
+- **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
+- **Martin Luther** [T1+] (mirrored from martin_luther.dossier.md)
+- **Nabucodonosor II** [T9+] (mirrored from nabucodonosor_ii.dossier.md)
+- **Ezekiel son of Buzi** [T1+] (mirrored from ezekiel.dossier.md)
+- **Muhammad ibn Abdullah** [T1+] (mirrored from muhammad.dossier.md)
+- **Hiram Abiff** [T9+] (mirrored from hiram_abiff.dossier.md)
+
 ## Compact Chronology
 
 | Approximate date | Event | Evidentiary status |

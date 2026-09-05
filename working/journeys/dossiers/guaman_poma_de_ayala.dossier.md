@@ -727,6 +727,24 @@ No documented meeting, correspondence, family tie, patronage, collaboration, or 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Blas Valera** [T3]
+- **Atahualpa** [T1-]
+- **Francisco Pizarro González** [T1-]
+- **Christopher Columbus** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Abraham** [T1-]
+- **Noah son of Lamech** [T1-]
+- **Moses** [T1-]
+- **David ben Jesse** [T1-]
+- **King Solomon** [T1-]
+- **Paul the Apostle** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Próspero Catelin** [T4] (mirrored from prospero_catelin.dossier.md)
+
 ## Sources
 
 https://poma.kb.dk/

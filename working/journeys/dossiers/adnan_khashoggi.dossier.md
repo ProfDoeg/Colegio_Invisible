@@ -858,6 +858,19 @@ No securely documented personal crossing was found with the other atlas figures.
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Agha Hasan Abedi** [T4]
+- **George Herbert Walker Bush** [T4]
+- **Oliver Laurence North** [T4]
+- **William Joseph Casey** [T4]
+- **Mohammad Reza Shah Pahlavi** [T4]
+- **Jeffrey Edward Epstein** [T5]
+- **Robert Maxwell** [T9+] (mirrored from robert_maxwell.dossier.md)
+- **Mark Lombardi** [T1+] (mirrored from mark_lombardi.dossier.md)
+
 ## Chronology
 
 | Date/year | Event |

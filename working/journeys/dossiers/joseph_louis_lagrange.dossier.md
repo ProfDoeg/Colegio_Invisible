@@ -649,6 +649,37 @@ Nineteenth-century memorials constructed the modest, austere genius who converte
 
 No adequately documented T2 prophecy/hyperstition or T9 shared-object transmission was found. The remaining roster names were omitted because the reviewed evidence supplied no qualifying crossing, or only general influence, shared subject matter, contemporaneity, or unverified anecdote.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Augustin-Louis Cauchy** [T5]
+- **Carl Friedrich Gauss** [T1+]
+- **Carl Friedrich Gauss** [T3]
+- **Edmond Halley** [T1-]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **Sir Isaac Newton** [T1-]
+- **Jean-Baptiste Joseph Fourier** [T3]
+- **Leonhard Euler** [T3]
+- **Napoleon Bonaparte** [T5]
+- **Pierre-Simon Laplace** [T3]
+- **Pierre-Simon Laplace** [T5]
+- **René Just Haüy** [T4]
+- **Siméon Denis Poisson** [T3]
+- **Sir William Rowan Hamilton** [T1+]
+- **Napoleon Bonaparte** [T4] (mirrored from napoleon.dossier.md)
+- **Sir George Gabriel Stokes** [T1+] (mirrored from george_gabriel_stokes.dossier.md)
+- **Pierre-François-Xavier Bouchard** [T4] (mirrored from pierre_francois_bouchard.dossier.md)
+- **Felix Christian Klein** [T1+] (mirrored from felix_klein.dossier.md)
+- **Claude-Henri de Rouvroy** [T5] (mirrored from henri_de_saint_simon.dossier.md)
+- **Évariste Galois** [T1+] (mirrored from evariste_galois.dossier.md)
+- **Siméon Denis Poisson** [T5] (mirrored from simeon_denis_poisson.dossier.md)
+- **René Just Haüy** [T3] (mirrored from rene_hauy.dossier.md)
+- **Charles Babbage** [T3] (mirrored from charles_babbage.dossier.md)
+- **Jean-Baptiste Joseph Fourier** [T5] (mirrored from joseph_fourier.dossier.md)
+- **Carl Gustav Jacob Jacobi** [T1+] (mirrored from carl_gustav_jacob_jacobi.dossier.md)
+- **Empress Joséphine** [T4] (mirrored from empress_josephine.dossier.md)
+
 ## Sources
 
 https://www.accademiadellescienze.it/accademia/soci/Giuseppe-Luigi-Lagrange-Tournier

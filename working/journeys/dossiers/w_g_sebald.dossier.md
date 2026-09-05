@@ -1058,6 +1058,21 @@ The search found no reliable personal or intellectual connection meeting the atl
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Walter Benjamin** [T3]
+- **Theodor W. Adorno** [T3]
+- **Jorge Luis Borges** [T3]
+- **Marcel Proust** [T3]
+- **Jean-Jacques Rousseau** [T1-]
+- **Sigmund Freud** [T3]
+- **Martin Heidegger** [T1-]
+- **Theodor W. Adorno** [T1-] (mirrored from theodor_adorno.dossier.md)
+- **Marcel Proust** [T1-] (mirrored from marcel_proust.dossier.md)
+- **Dante Alighieri** [T1-] (mirrored from dante.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

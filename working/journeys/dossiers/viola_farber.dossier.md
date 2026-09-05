@@ -575,6 +575,14 @@ No evidence supports a “cult” in the religious or mass-cultural sense. There
 
 No comparably supported crossing was found with another atlas-roster member. In particular, the retrospective claim that Farber participated in Cage’s 1952 *Theater Piece No. 1* would potentially place her near Buckminster Fuller, but the Cunningham Trust’s documented cast does not include either Farber or Fuller; varying later recollections are insufficient to establish a connection between them.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **John Milton Cage Jr.** [T5]
+- **Merce Cunningham** [T5]
+- **Martha Graham** [T4] (mirrored from martha_graham.dossier.md)
+
 ## Sources
 
 https://www.ladancechronicle.com/dance-history-needs-to-remember-viola-farber-1931-1998/

@@ -718,6 +718,20 @@ The business record includes extraordinary growth and technology diversification
 
 No adequately documented T2 prophecy/hyperstition or T9 shared-object/site crossing with another roster member was located. Mere ideological resemblance, institutional funding, political opposition, common geography, or reading without attributable written treatment has not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Friedrich August von Hayek** [T3]
+- **John Maynard Keynes** [T1-]
+- **John Locke** [T1-]
+- **Joseph Alois Schumpeter** [T1-]
+- **Karl Marx** [T1-]
+- **Ludwig Heinrich Edler von Mises** [T5]
+- **Murray Newton Rothbard** [T5]
+- **Pyotr Ilyich Tchaikovsky** [T1-]
+- **Milton Friedman** [T9-] (mirrored from milton_friedman.dossier.md)
+
 ## Sources
 
 https://www.charleskoch.com/biography

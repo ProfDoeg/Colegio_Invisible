@@ -1172,6 +1172,22 @@ The only full interpersonal connection in the roster within Aaron’s narrated l
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Flavius Josephus** [T1+]
+- **Maimonides** [T1+]
+- **Moses** [T5]
+- **Rabbi Shimon bar Yochai** [T1+]
+- **Rashi** [T1+]
+- **Judah Loew ben Bezalel** [T1+] (mirrored from judah_loew_ben_bezalel_the_maharal_of_prague.dossier.md)
+- **David ben Jesse** [T9+] (mirrored from king_david.dossier.md)
+- **Origen of Alexandria** [T1+] (mirrored from origen.dossier.md)
+- **Tertullian** [T1+] (mirrored from tertullian.dossier.md)
+- **Ezekiel son of Buzi** [T1+] (mirrored from ezekiel.dossier.md)
+- **King Solomon** [T9+] (mirrored from solomon.dossier.md)
+
 ## Chronology
 
 | Date or narrative stage | Event | Evidentiary status |

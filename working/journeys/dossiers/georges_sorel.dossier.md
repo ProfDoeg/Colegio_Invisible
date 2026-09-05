@@ -1139,6 +1139,33 @@ For the many other atlas names, no documented meeting, correspondence, collabora
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Giambattista Vico** [T1-]
+- **Karl Marx** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Henri-Louis Bergson** [T3]
+- **William James** [T3]
+- **Captain Alfred Dreyfus** [T3]
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T5]
+- **Jules Henri Poincaré** [T3]
+- **Rosa Luxemburg** [T4]
+- **Émile Pouget** [T4]
+- **Vladimir Ilyich Ulyanov** [T3]
+- **Benito Mussolini** [T3]
+- **Antonio Francesco Gramsci** [T1+]
+- **Walter Benjamin** [T1+]
+- **Antonio Francesco Gramsci** [T3] (mirrored from antonio_gramsci.dossier.md)
+- **Giambattista Vico** [T3] (mirrored from vico.dossier.md)
+- **Mikhail Aleksandrovich Bakunin** [T1-] (mirrored from mikhail_bakunin.dossier.md)
+- **Filippo Tommaso Emilio Marinetti** [T3] (mirrored from f_t_marinetti.dossier.md)
+- **Friedrich Nietzsche** [T3] (mirrored from nietzsche.dossier.md)
+- **Nicos Poulantzas** [T1+] (mirrored from nicos_poulantzas.dossier.md)
+- **Benito Mussolini** [T1+] (mirrored from mussolini.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

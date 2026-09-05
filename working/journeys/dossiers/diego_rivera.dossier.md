@@ -913,6 +913,23 @@ No documented meeting, correspondence, collaboration or explicitly acknowledged 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Frida Kahlo** [T5]
+- **Pablo Ruiz Picasso** [T5]
+- **Lev Davidovich Bronstein** [T5]
+- **André Breton** [T5]
+- **Motecuhzoma Xocoyotzin** [T9-] (mirrored from moctezuma_ii.dossier.md)
+- **Carlos Slim Helú** [T9+] (mirrored from carlos_slim.dossier.md)
+- **Astor Pantaleón Piazzolla** [T5] (mirrored from astor_piazzolla.dossier.md)
+- **Lev Davidovich Bronstein** [T3] (mirrored from leon_trotsky.dossier.md)
+- **Próspero Catelin** [T4] (mirrored from prospero_catelin.dossier.md)
+- **Walter Elias Disney** [T5] (mirrored from walt_disney.dossier.md)
+- **John Dewey** [T4] (mirrored from john_dewey.dossier.md)
+- **Pablo Ruiz Picasso** [T3] (mirrored from pablo_picasso.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

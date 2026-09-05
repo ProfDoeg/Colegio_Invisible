@@ -891,6 +891,20 @@ Among the 896-person roster, the strongest supported connections are intellectua
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Helena Petrovna Blavatsky** [T1-]
+- **Carl Gustav Jung** [T1-]
+- **Sigmund Freud** [T1-]
+- **Annie Besant** [T4]
+- **Arthur Edward Waite** [T4]
+- **William Butler Yeats** [T9-]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1-]
+- **Jiddu Krishnamurti** [T3] (mirrored from jiddu_krishnamurti.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T4] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+
 ## Chronology
 
 | Date | Event |

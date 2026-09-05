@@ -917,6 +917,23 @@ No adequately sourced direct meeting, correspondence, collaboration, rivalry, fa
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Wilhelm Reich** [T3]
+- **William Blake** [T3]
+- **William Butler Yeats** [T3]
+- **Sigmund Freud** [T3]
+- **James Augustine Aloysius Joyce** [T3] (mirrored from james_joyce.dossier.md)
+- **Philip Kindred Dick** [T3] (mirrored from philip_k_dick.dossier.md)
+- **Wilhelm Reich** [T1-] (mirrored from reich.dossier.md)
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **Sara Rudner** [T4] (mirrored from sara_rudner.dossier.md)
+- **Gilles Louis Rene Deleuze** [T3] (mirrored from gilles_deleuze.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T4] (mirrored from julio_cortazar.dossier.md)
+- **Mark Fisher** [T1+] (mirrored from mark_fisher.dossier.md)
+
 ## Chronology
 
 | Date | Event |

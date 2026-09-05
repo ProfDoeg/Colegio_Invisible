@@ -1490,6 +1490,32 @@ No documentary evidence found in the consulted sources establishes personal meet
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Chiara di Favarone di Offreduccio** [T5]
+- **Al-Malik al-Kamil** [T5]
+- **Saint Anthony of Padua** [T3]
+- **Count Orlando di Chiusi** [T5]
+- **Dante Alighieri** [T1+]
+- **Roger Bacon** [T9+]
+- **Jesus of Nazareth** [T1-]
+- **Mary Elizabeth Moore Shannon** [T1-]
+- **Paul the Apostle** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Chiara di Favarone di Offreduccio** [T3] (mirrored from clare_of_assisi.dossier.md)
+- **Chiara di Favarone di Offreduccio** [T1+] (mirrored from clare_of_assisi.dossier.md)
+- **Pedro Subercaseaux Errázuriz** [T1+] (mirrored from pedro_subercaseaux.dossier.md)
+- **William James** [T1+] (mirrored from william_james.dossier.md)
+- **Ludwig Derleth** [T1+] (mirrored from ludwig_derleth.dossier.md)
+- **Hilde Holger** [T1+] (mirrored from hilde_holger.dossier.md)
+- **Ted Shawn** [T1+] (mirrored from ted_shawn.dossier.md)
+- **Margery Kempe** [T9+] (mirrored from margery_kempe.dossier.md)
+- **Guido Keller** [T1+] (mirrored from guido_keller.dossier.md)
+- **Charlotte Bara** [T1+] (mirrored from charlotte_bara.dossier.md)
+- **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

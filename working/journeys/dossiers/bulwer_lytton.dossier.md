@@ -1390,6 +1390,22 @@ Some belonged to the political, financial, socialist, Theosophical, or occult wo
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Charles John Huffam Dickens** [T5]
+- **Charles John Huffam Dickens** [T3]
+- **Charles John Huffam Dickens** [T9+]
+- **Edgar Allan Poe** [T3]
+- **Helena Petrovna Blavatsky** [T1+]
+- **Herbert George Wells** [T9+]
+- **Sir Arthur Ignatius Conan Doyle** [T1+]
+- **Wilhelm Richard Wagner** [T9+]
+- **Mary Wollstonecraft Shelley** [T4] (mirrored from mary_shelley.dossier.md)
+- **Howard Phillips Lovecraft** [T1+] (mirrored from h_p_lovecraft.dossier.md)
+- **Arthur Edward Waite** [T3] (mirrored from arthur_edward_waite.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

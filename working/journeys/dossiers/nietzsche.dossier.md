@@ -1000,6 +1000,111 @@ The great majority of the 896-person roster has no documented life crossing with
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Wilhelm Richard Wagner** [T5]
+- **Johann Wolfgang von Goethe** [T1-]
+- **Friedrich Schiller** [T3]
+- **Immanuel Kant** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Plato** [T1-]
+- **Diogenes of Sinope** [T1-]
+- **Aristotle** [T1-]
+- **Homer** [T1-]
+- **Hesiod of Ascra** [T1-]
+- **Pindar of Thebes** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Paul the Apostle** [T1-]
+- **Martin Luther** [T1-]
+- **Napoleon Bonaparte** [T1-]
+- **Charles Robert Darwin** [T3]
+- **Ralph Charles Merkle** [T3]
+- **Sigmund Freud** [T1+]
+- **Carl Gustav Jung** [T1+]
+- **Martin Heidegger** [T1+]
+- **Albert Camus** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Jacques Derrida** [T1+]
+- **Jürgen Habermas** [T1+]
+- **Theodor W. Adorno** [T1+]
+- **Max Horkheimer** [T1+]
+- **Walter Benjamin** [T3]
+- **Hermann Hesse** [T3]
+- **William Butler Yeats** [T3]
+- **Isadora Duncan** [T3]
+- **Mary Wigman** [T3]
+- **Julius Evola** [T3]
+- **Georges Sorel** [T3]
+- **Rudolf Steiner** [T5]
+- **Benito Mussolini** [T3]
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **James Augustine Aloysius Joyce** [T3] (mirrored from james_joyce.dossier.md)
+- **William James** [T1+] (mirrored from william_james.dossier.md)
+- **Martin Mordechai Buber** [T3] (mirrored from martin_buber.dossier.md)
+- **Friedrich Schiller** [T1-] (mirrored from schiller.dossier.md)
+- **Wolfgang Amadeus Mozart** [T1-] (mirrored from wolfgang_amadeus_mozart.dossier.md)
+- **Max Weber** [T3] (mirrored from max_weber.dossier.md)
+- **Zoroaster** [T1-] (mirrored from zoroaster.dossier.md)
+- **Wilhelm Reich** [T3] (mirrored from reich.dossier.md)
+- **Miguel Serrano** [T1+] (mirrored from serrano.dossier.md)
+- **Jean Baudrillard** [T1+] (mirrored from jean_baudrillard.dossier.md)
+- **Walter Benjamin** [T1+] (mirrored from walter_benjamin.dossier.md)
+- **Alexandra David-Néel** [T3] (mirrored from alexandra_david_neel.dossier.md)
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Theodor Herzl** [T1+] (mirrored from theodor_herzl.dossier.md)
+- **Gabriele d'Annunzio** [T1+] (mirrored from dannunzio.dossier.md)
+- **Friedrich Wilhelm Joseph Schelling** [T1-] (mirrored from schelling.dossier.md)
+- **Hermann Hesse** [T1+] (mirrored from hermann_hesse.dossier.md)
+- **Miguel de Cervantes Saavedra** [T3] (mirrored from miguel_de_cervantes.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T1+] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Rudolf Rocker** [T1+] (mirrored from rudolf_rocker.dossier.md)
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **Pierre-Félix Guattari** [T1+] (mirrored from felix_guattari.dossier.md)
+- **Julius Evola** [T1+] (mirrored from julius_evola.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Otto Gross** [T1+] (mirrored from otto_gross.dossier.md)
+- **Isabelle Wilhelmine Marie Eberhardt** [T3] (mirrored from isabelle_eberhardt.dossier.md)
+- **Antonin Artaud** [T1+] (mirrored from artaud.dossier.md)
+- **Peter Andreas Thiel** [T1+] (mirrored from peter_thiel.dossier.md)
+- **Ze'ev** [T3] (mirrored from ze_ev_jabotinsky.dossier.md)
+- **André Breton** [T3] (mirrored from andre_breton.dossier.md)
+- **Ludwig Derleth** [T1+] (mirrored from ludwig_derleth.dossier.md)
+- **John Rogers Searle** [T1+] (mirrored from john_searle.dossier.md)
+- **Roland Gérard Barthes** [T3] (mirrored from roland_barthes.dossier.md)
+- **Jacques Marie Émile Lacan** [T1+] (mirrored from jacques_lacan.dossier.md)
+- **Luis Alberto Spinetta** [T3] (mirrored from spinetta.dossier.md)
+- **Juan Eduardo Cirlot Laporta** [T3] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Victor-Marie Hugo** [T1-] (mirrored from victor_hugo.dossier.md)
+- **Johannes Friedrich Guttzeit** [T9+] (mirrored from johannes_friedrich_guttzeit.dossier.md)
+- **Aurelius Augustinus** [T1-] (mirrored from saint_augustine_of_hippo.dossier.md)
+- **Howard Phillips Lovecraft** [T1+] (mirrored from h_p_lovecraft.dossier.md)
+- **René Descartes** [T1-] (mirrored from rene_descartes.dossier.md)
+- **Herbert Marcuse** [T1+] (mirrored from herbert_marcuse.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Hermann Graf von Keyserling** [T1+] (mirrored from keyserling.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **Gustav Landauer** [T3] (mirrored from gustav_landauer.dossier.md)
+- **Aaron David Gordon** [T1+] (mirrored from aaron_david_gordon.dossier.md)
+- **Dante Alighieri** [T1-] (mirrored from dante.dossier.md)
+- **Sigmund Freud** [T3] (mirrored from freud.dossier.md)
+- **Gustav Arthur "Gusto" Gräser** [T3] (mirrored from gusto_graeser.dossier.md)
+- **Georges Sorel** [T1+] (mirrored from georges_sorel.dossier.md)
+- **Wassily Kandinsky** [T1+] (mirrored from wassily_kandinsky.dossier.md)
+- **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T1+] (mirrored from jean_paul_sartre.dossier.md)
+- **Parzival** [T1-] (mirrored from parzival.dossier.md)
+- **Filippo Tommaso Emilio Marinetti** [T3] (mirrored from f_t_marinetti.dossier.md)
+- **Jorge Luis Borges** [T1+] (mirrored from borges.dossier.md)
+- **Savitri Devi** [T3] (mirrored from savitri_devi.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+- **Erich Mühsam** [T3] (mirrored from erich_muhsam.dossier.md)
+- **Aby Moritz Warburg** [T3] (mirrored from aby_warburg.dossier.md)
+- **Guido Keller** [T1+] (mirrored from guido_keller.dossier.md)
+- **Benito Mussolini** [T1+] (mirrored from mussolini.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

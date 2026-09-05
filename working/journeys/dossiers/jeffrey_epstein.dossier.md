@@ -1007,6 +1007,31 @@ No reliable intersection was found with the overwhelming majority of the remaini
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ghislaine Noelle Marion Maxwell** [T5]
+- **Leslie Herbert Wexner** [T5]
+- **Leon David Black** [T5]
+- **William Jefferson Clinton** [T5]
+- **William Henry Gates III** [T5]
+- **Brock Jeffrey Pierce** [T5]
+- **Reid Garrett Hoffman** [T5]
+- **Elon Reeve Musk** [T5]
+- **Adnan Muhammad Khashoggi** [T5]
+- **Alexander Caedmon Karp** [T3]
+- **James "Jamie" Dimon** [T4]
+- **Brock Jeffrey Pierce** [T3] (mirrored from brock_pierce.dossier.md)
+- **Robert Maxwell** [T4] (mirrored from robert_maxwell.dossier.md)
+- **Joscha Bach** [T3] (mirrored from joscha_bach.dossier.md)
+- **Joscha Bach** [T5] (mirrored from joscha_bach.dossier.md)
+- **Avram Noam Chomsky** [T5] (mirrored from noam_chomsky.dossier.md)
+- **Peter Andreas Thiel** [T3] (mirrored from peter_thiel.dossier.md)
+- **Peter Andreas Thiel** [T5] (mirrored from peter_thiel.dossier.md)
+- **Leslie Herbert Wexner** [T9-] (mirrored from leslie_wexner.dossier.md)
+- **Mark Stewart Cohen** [T1+] (mirrored from mark_cohen.dossier.md)
+
 ## Chronology
 
 - **1953, January 20:** Born in Brooklyn, New York.

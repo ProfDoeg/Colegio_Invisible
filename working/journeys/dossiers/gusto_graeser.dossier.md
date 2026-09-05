@@ -848,6 +848,27 @@ No defensible direct connection was established with the other listed Atlas figu
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Karl Gräser** [T5]
+- **Henri Oedenkoven** [T5]
+- **Ida Hofmann** [T5]
+- **Hermann Hesse** [T5]
+- **Erich Mühsam** [T4]
+- **Otto Gross** [T5]
+- **Gustav Landauer** [T4]
+- **Rudolf Laban** [T4]
+- **Mary Wigman** [T5]
+- **Friedrich Nietzsche** [T3]
+- **Arnold Rikli** [T9-]
+- **Carl Gustav Jung** [T4] (mirrored from jung.dossier.md)
+- **Arnold Rikli** [T4] (mirrored from arnold_rikli.dossier.md)
+- **Ida Hofmann** [T4] (mirrored from ida_hoffmann.dossier.md)
+- **Johannes Friedrich Guttzeit** [T4] (mirrored from johannes_friedrich_guttzeit.dossier.md)
+- **Karl Max Engelmann** [T5] (mirrored from engelmann.dossier.md)
+
 ## Chronology
 
 | Date | Event |

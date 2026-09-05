@@ -968,6 +968,21 @@ These figures appear in comparative scholarship or the wider intellectual enviro
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Michèle Bernstein** [T5]
+- **Karl Marx** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **André Breton** [T4]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T4]
+- **Diogenes of Sinope** [T1-] (mirrored from diogenes_of_sinope.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T1+] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T4] (mirrored from jean_paul_sartre.dossier.md)
+- **Michèle Bernstein** [T3] (mirrored from michele_bernstein.dossier.md)
+- **Francois Marie Charles Fourier** [T1-] (mirrored from charles_fourier.dossier.md)
+
 ## Compact Chronology
 
 - **1931, 28 December:** born in Paris, 20th arrondissement.

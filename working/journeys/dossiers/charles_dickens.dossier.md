@@ -1996,6 +1996,41 @@ T. P. James's 1873 "spirit pen" completion is the most literal example of Dicken
 
 No adequately documented personal crossing was found with Charles Darwin; scholarship specifically notes the absence of evidence for direct acquaintance or correspondence. Mere overlap in Victorian London, common associates, literary influence, or participation on the same side of a public controversy has not been treated as a connection without additional evidence.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Augusta Ada King** [T5]
+- **Alexandre Dumas** [T5]
+- **Edward Bulwer-Lytton** [T5]
+- **Edgar Allan Poe** [T5]
+- **Hans Christian Andersen** [T5]
+- **Sir John Everett Millais** [T3]
+- **Michael Faraday** [T3]
+- **Victor-Marie Hugo** [T5]
+- **Jesus of Nazareth** [T1-]
+- **Gaius Julius Caesar** [T1-]
+- **Richard I of England** [T1-]
+- **Sir Thomas More** [T1-]
+- **William the Conqueror** [T1-]
+- **George Orwell** [T1+]
+- **Stephen Edwin King** [T1+] (mirrored from stephen_king.dossier.md)
+- **Sir James Matthew Barrie** [T9+] (mirrored from james_matthew_barrie.dossier.md)
+- **William Morris** [T9+] (mirrored from william_morris.dossier.md)
+- **Edward Bulwer-Lytton** [T3] (mirrored from bulwer_lytton.dossier.md)
+- **Edward Bulwer-Lytton** [T9-] (mirrored from bulwer_lytton.dossier.md)
+- **Lyman Frank Baum** [T3] (mirrored from l_frank_baum.dossier.md)
+- **John Pierpont Morgan** [T9+] (mirrored from j_p_morgan.dossier.md)
+- **Howard Phillips Lovecraft** [T1+] (mirrored from h_p_lovecraft.dossier.md)
+- **Charles Babbage** [T5] (mirrored from charles_babbage.dossier.md)
+- **William Holman Hunt** [T3] (mirrored from william_holman_hunt.dossier.md)
+- **Dante Gabriel Rossetti** [T3] (mirrored from dante_gabriel_rossetti.dossier.md)
+- **Sir Joseph Paxton** [T3] (mirrored from joseph_paxton.dossier.md)
+- **Sir Joseph Paxton** [T5] (mirrored from joseph_paxton.dossier.md)
+- **John Ruskin** [T3] (mirrored from john_ruskin.dossier.md)
+- **Samuel Langhorne Clemens** [T3] (mirrored from mark_twain.dossier.md)
+- **Christina Georgina Rossetti** [T4] (mirrored from christina_rossetti.dossier.md)
+
 ## Sources
 
 https://dickensletters.com/content/dickens-timeline

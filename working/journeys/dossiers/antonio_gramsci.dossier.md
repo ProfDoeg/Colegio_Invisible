@@ -589,6 +589,41 @@ He held elected office as deputy but received no normal state honor in life. The
 
 No reliable evidence was found for personal meetings, shared objects, prophecy/hyperstition, or other qualifying crossings with the remaining roster members. Mere influence claims, common subject matter, posthumous analogy, and uncorroborated co-presence were excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Henri-Louis Bergson** [T3]
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T3]
+- **Dante Alighieri** [T1-]
+- **Johann Wolfgang von Goethe** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Karl Marx** [T1-]
+- **Benito Mussolini** [T3]
+- **Benito Mussolini** [T5]
+- **Nicos Poulantzas** [T1+]
+- **Jean-Jacques Rousseau** [T1-]
+- **Georges Sorel** [T3]
+- **Lev Davidovich Bronstein** [T3]
+- **Giambattista Vico** [T1-]
+- **Vladimir Ilyich Ulyanov** [T3]
+- **Vladimir Ilyich Ulyanov** [T4]
+- **Slavoj Žižek** [T1+]
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **Paulo Reglus Neves Freire** [T1+] (mirrored from paulo_freire.dossier.md)
+- **Avram Noam Chomsky** [T1+] (mirrored from noam_chomsky.dossier.md)
+- **Giuseppe Maria Garibaldi** [T1-] (mirrored from giuseppe_garibaldi.dossier.md)
+- **Pierre-Félix Guattari** [T1+] (mirrored from felix_guattari.dossier.md)
+- **Giambattista Vico** [T3] (mirrored from vico.dossier.md)
+- **Rosa Luxemburg** [T1-] (mirrored from rosa_luxemburg.dossier.md)
+- **Mark Fisher** [T1+] (mirrored from mark_fisher.dossier.md)
+- **Georges Sorel** [T1-] (mirrored from georges_sorel.dossier.md)
+- **Virginio Colombo** [T4] (mirrored from virginio_colombo.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T1+] (mirrored from jean_paul_sartre.dossier.md)
+- **Filippo Tommaso Emilio Marinetti** [T3] (mirrored from f_t_marinetti.dossier.md)
+- **Benito Mussolini** [T4] (mirrored from mussolini.dossier.md)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/antonio-gramsci_%28Dizionario-Biografico%29/

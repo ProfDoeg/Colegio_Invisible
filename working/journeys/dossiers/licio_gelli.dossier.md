@@ -1034,6 +1034,24 @@ No reliable direct connection was found between Gelli and the overwhelming major
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Benito Mussolini** [T4]
+- **Benito Mussolini** [T1-]
+- **Juan Domingo Perón** [T5]
+- **María Estela Martínez Cartas de Perón** [T5]
+- **José López Rega** [T5]
+- **Michele Sindona** [T4]
+- **Roberto Calvi** [T4]
+- **Paul Casimir Marcinkus** [T4]
+- **Silvio Berlusconi** [T4]
+- **Silvio Berlusconi** [T5] (mirrored from silvio_berlusconi.dossier.md)
+- **Juan Domingo Perón** [T4] (mirrored from juan_peron.dossier.md)
+- **Michele Sindona** [T5] (mirrored from michele_sindona.dossier.md)
+- **Roberto Calvi** [T5] (mirrored from roberto_calvi.dossier.md)
+
 ## Chronology
 
 | Date/year | Event |

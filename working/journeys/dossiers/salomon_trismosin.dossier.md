@@ -1082,6 +1082,14 @@ The result is a reversal of reputation: the less credible the personal biography
 
 No documented meeting, correspondence, family tie, collaboration, institutional connection, or acknowledged direct influence was established between Trismosin and the remaining atlas names. Mere shared appearance in histories of alchemy, magic, philosophy, or occultism has not been counted as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Carl Gustav Jung** [T1+]
+- **Aeneas** [T9-]
+- **Johannes Trithemius** [T9-] (mirrored from johannes_trithemius.dossier.md)
+
 ## Chronology
 
 | Date | Event | Evidentiary status |

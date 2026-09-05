@@ -1085,6 +1085,47 @@ Only documented or strongly reported intersections with names on the supplied at
 
 For the many hundreds of other atlas names, no documented crossing was established. Absence from this section means that the research found no support beyond possible intellectual analogy, geographic overlap, or contemporaneity.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Sigmund Freud** [T1-]
+- **Carl Gustav Jung** [T1-]
+- **André Breton** [T5]
+- **Antonin Artaud** [T4]
+- **Claude Lévi-Strauss** [T5]
+- **Martin Heidegger** [T5]
+- **Jacques Derrida** [T5]
+- **René Noël Théophile Girard** [T5]
+- **Roland Gérard Barthes** [T4]
+- **Paul-Michel Foucault** [T3]
+- **Gilles Louis Rene Deleuze** [T3]
+- **Pierre-Félix Guattari** [T5]
+- **Jean-Paul Charles Aymard Sartre** [T4]
+- **Pablo Ruiz Picasso** [T5]
+- **James Augustine Aloysius Joyce** [T5]
+- **Edgar Allan Poe** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Karl Marx** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **René Descartes** [T1-]
+- **Immanuel Kant** [T1-]
+- **Plato** [T1-]
+- **Aristotle** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Marcel Proust** [T1-]
+- **Friedrich Wilhelm Joseph Schelling** [T1-]
+- **Søren Aabye Kierkegaard** [T1-]
+- **Giambattista Vico** [T1-]
+- **Slavoj Žižek** [T1+]
+- **Wifredo Viladrich** [T9+] (mirrored from viladrich.dossier.md)
+- **Josefina Ayerza** [T1+] (mirrored from josefina_ayerza.dossier.md)
+- **René Noël Théophile Girard** [T4] (mirrored from rene_girard.dossier.md)
+- **André Breton** [T4] (mirrored from andre_breton.dossier.md)
+- **Roland Gérard Barthes** [T5] (mirrored from roland_barthes.dossier.md)
+- **Mark Fisher** [T1+] (mirrored from mark_fisher.dossier.md)
+- **Paul-Michel Foucault** [T5] (mirrored from michel_foucault.dossier.md)
+
 ## Chronology
 
 - **1901, April 13:** Born at 95 boulevard Beaumarchais, Paris.

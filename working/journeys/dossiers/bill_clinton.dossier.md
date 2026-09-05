@@ -702,6 +702,65 @@ The following roster connections are supported by documented meetings, family ti
 
 For the great majority of the 896-name roster, no documented personal, familial, institutional, or explicitly acknowledged influence connection emerged in the sources consulted. Absence beyond the entries above is therefore the finding rather than an inferred relationship.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Hillary Diane Rodham Clinton** [T5]
+- **John Fitzgerald Kennedy** [T5]
+- **George Herbert Walker Bush** [T5]
+- **George Walker Bush** [T5]
+- **Nelson Rolihlahla Mandela** [T5]
+- **Benjamin Netanyahu** [T5]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Hugo Rafael Chávez Frías** [T4]
+- **Alberto Kenya Fujimori Inomoto** [T5]
+- **Manuel Antonio Noriega Moreno** [T4]
+- **Oliver Laurence North** [T4]
+- **George Soros** [T4]
+- **Jeffrey Edward Epstein** [T5]
+- **Ghislaine Noelle Marion Maxwell** [T5]
+- **William Henry Gates III** [T5]
+- **Samuel Harris Altman** [T4]
+- **Volodymyr Oleksandrovych Zelenskyy** [T4]
+- **Abraham Lincoln** [T1-]
+- **Benjamin Franklin** [T1-]
+- **George Washington** [T1-]
+- **Alexander Hamilton** [T1-]
+- **Thomas Jefferson** [T1-]
+- **Andrew Jackson** [T1-]
+- **Adam Smith** [T1-]
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T1-]
+- **Karl Marx** [T1-]
+- **Friedrich August von Hayek** [T1-]
+- **John Maynard Keynes** [T1-]
+- **Sam Bankman-Fried** [T5] (mirrored from sam_bankman_fried.dossier.md)
+- **Paul Jules Barbier** [T1+] (mirrored from jules_barbier.dossier.md)
+- **Carlos Slim Helú** [T5] (mirrored from carlos_slim.dossier.md)
+- **Laurence Douglas "Larry" Fink** [T5] (mirrored from larry_fink.dossier.md)
+- **Steven Allan Spielberg** [T5] (mirrored from stephen_spielberg.dossier.md)
+- **Klaus Martin Schwab** [T5] (mirrored from klaus_schwab.dossier.md)
+- **Wilhelm Richard Wagner** [T9+] (mirrored from richard_wagner.dossier.md)
+- **Philip R. Zimmermann** [T4] (mirrored from phil_zimmermann.dossier.md)
+- **Fred McFeely Rogers** [T5] (mirrored from fred_rogers.dossier.md)
+- **Saddam Hussein al-Tikriti** [T3] (mirrored from saddam_hussein.dossier.md)
+- **Lawrence Joseph Ellison** [T5] (mirrored from larry_ellison.dossier.md)
+- **Ray Kurzweil** [T5] (mirrored from ray_kurzweil.dossier.md)
+- **Ghislaine Noelle Marion Maxwell** [T4] (mirrored from ghislaine_maxwell.dossier.md)
+- **Victor-Marie Hugo** [T1+] (mirrored from victor_hugo.dossier.md)
+- **Kenneth Lane Thompson** [T5] (mirrored from ken_thompson.dossier.md)
+- **Mark Lombardi** [T1+] (mirrored from mark_lombardi.dossier.md)
+- **Gabriel José García Márquez** [T5] (mirrored from gabriel_garcia_marquez.dossier.md)
+- **Hans Christian Andersen** [T1+] (mirrored from hans_christian_andersen.dossier.md)
+- **Cristina Elisabet Fernández de Kirchner** [T4] (mirrored from cristina_fernandez_de_kirchner.dossier.md)
+- **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
+- **William Henry Gates III** [T3] (mirrored from bill_gates.dossier.md)
+- **Volodymyr Oleksandrovych Zelenskyy** [T5] (mirrored from volodymyr_zelenskyy.dossier.md)
+- **Kenneth Lee Lay** [T5] (mirrored from kenneth_lay.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+- **Muammar Muhammad Abu Minyar al-Gaddafi** [T4] (mirrored from muammar_gaddafi.dossier.md)
+
 ## Compact Chronology
 
 - **1946, August 19:** Born William Jefferson Blythe III in Hope, Arkansas.

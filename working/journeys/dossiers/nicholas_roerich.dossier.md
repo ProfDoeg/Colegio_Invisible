@@ -960,6 +960,22 @@ No adequately documented direct connection was found in the consulted sources to
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Sergei Pavlovich Diaghilev** [T5]
+- **Igor Fyodorovich Stravinsky** [T5]
+- **Vaslav Nijinsky** [T9+]
+- **Anna Matveyevna Pavlova** [T4]
+- **Helena Petrovna Blavatsky** [T3]
+- **Rabindranath Tagore** [T5]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Herbert George Wells** [T9+]
+- **Alexandra David-Néel** [T3]
+- **Jiddu Krishnamurti** [T3] (mirrored from jiddu_krishnamurti.dossier.md)
+- **Vaslav Nijinsky** [T5] (mirrored from vaslav_nijinsky.dossier.md)
+
 ## Chronology
 
 | Date | Event |

@@ -559,6 +559,41 @@ Her art has been reevaluated independently of her acting. Museum exhibitions inc
 
 - **[T5] Documented fact:** Bernhardt personally visited Hugo while rehearsing *Ruy Blas* in 1872, and their subsequent relationship combined friendship, mutual admiration, and repeated collaboration on his repertory. Claims that they were lovers are not required by the surviving evidence. [Contemporary Bernhardt letter description](https://ilab.org/assets/catalogues/catalogs_files_catalogue%20d%C3%A9cembre.pdf), [*Sarah Bernhardt As I Knew Her*](https://www.gutenberg.org/cache/epub/59511/pg59511-images.html)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alphonse Mucha** [T5]
+- **Captain Alfred Dreyfus** [T3]
+- **Gabriele d'Annunzio** [T3]
+- **Harry Houdini** [T5]
+- **Isadora Duncan** [T3]
+- **Marcel Proust** [T1+]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T3]
+- **Sigmund Freud** [T3]
+- **Sir Arthur Ignatius Conan Doyle** [T3]
+- **Thomas Alva Edison** [T5]
+- **Victor-Marie Hugo** [T5]
+- **Auguste Rodin** [T4] (mirrored from auguste_rodin.dossier.md)
+- **Paul Jules Barbier** [T9-] (mirrored from jules_barbier.dossier.md)
+- **Marcel Proust** [T5] (mirrored from marcel_proust.dossier.md)
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T5] (mirrored from oscar_wilde.dossier.md)
+- **Eugène Samuel Grasset** [T9-] (mirrored from eugene_grasset.dossier.md)
+- **Gabriele d'Annunzio** [T9-] (mirrored from dannunzio.dossier.md)
+- **Friedrich Fröbel** [T5] (mirrored from froebel.dossier.md)
+- **Harry Houdini** [T3] (mirrored from harry_houdini.dossier.md)
+- **Harry Houdini** [T9-] (mirrored from harry_houdini.dossier.md)
+- **Nikola Tesla** [T4] (mirrored from nikola_tesla.dossier.md)
+- **Sir Edward Coley Burne-Jones** [T5] (mirrored from edward_burne_jones.dossier.md)
+- **Louis Vuitton** [T9-] (mirrored from louis_vuitton.dossier.md)
+- **Jaufre Rudel** [T1-] (mirrored from joffrey_rudel.dossier.md)
+- **Alexandre Gustave Bonickhausen dit Eiffel** [T4] (mirrored from gustave_eiffel.dossier.md)
+- **Filippo Tommaso Emilio Marinetti** [T3] (mirrored from f_t_marinetti.dossier.md)
+- **Renée Jeanne Falconetti** [T9+] (mirrored from falconetti.dossier.md)
+- **Loïe Fuller** [T5] (mirrored from loie_fuller.dossier.md)
+- **Paul Berthon** [T9-] (mirrored from paul_berthon.dossier.md)
+- **Samuel Langhorne Clemens** [T4] (mirrored from mark_twain.dossier.md)
+
 ## Sources
 
 https://www.archives-nationales.culture.gouv.fr/archives-la-loupe/sarah-bernhardt-une-vie-entre-scene-legende-et-archives

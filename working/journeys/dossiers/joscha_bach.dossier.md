@@ -435,6 +435,15 @@ Because Bach is living, this is a current-reputation assessment rather than a po
 
 No other roster crossing was included: searches produced scattered name-checks, intellectual parallels, common institutional settings, and unconfirmed calendar adjacency, none of which independently met the specified thresholds for T1, T2, T3, T4, T5, or T9.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alan Mathison Turing** [T1-]
+- **Avram Noam Chomsky** [T5]
+- **Jeffrey Edward Epstein** [T3]
+- **Jeffrey Edward Epstein** [T5]
+
 ## Sources
 
 https://en.wikipedia.org/wiki/Joscha_Bach

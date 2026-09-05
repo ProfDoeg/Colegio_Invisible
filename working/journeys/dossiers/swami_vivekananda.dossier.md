@@ -1067,6 +1067,23 @@ Vivekananda studied German idealist thought through colonial education and invok
 
 No documented lifetime crossing with Vivekananda was found in the sources reviewed. Later comparison, shared subject matter, or posthumous commentary does not constitute a personal connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Annie Besant** [T5]
+- **Friedrich Max Müller** [T5]
+- **Nikola Tesla** [T5]
+- **William James** [T5]
+- **Rabindranath Tagore** [T5]
+- **Mohandas Karamchand Gandhi** [T1+]
+- **Helena Petrovna Blavatsky** [T3]
+- **Jesus of Nazareth** [T1-]
+- **Immanuel Kant** [T3]
+- **Georg Wilhelm Friedrich Hegel** [T3]
+- **William James** [T3] (mirrored from william_james.dossier.md)
+- **Annie Besant** [T4] (mirrored from annie_besant.dossier.md)
+
 ## Chronology
 
 - **12 January 1863:** Born Narendranath Datta at 3 Gourmohan Mukherjee Street, Calcutta.

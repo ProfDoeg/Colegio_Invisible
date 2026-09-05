@@ -599,6 +599,50 @@ Thomas’s Aristotelian physics was superseded, but his analyses of causation, e
 
 No reliable evidence supports personal meetings with other roster members. Mere chronological overlap, shared Dominican affiliation, general intellectual resemblance, or presence in the same city at different times has not been counted without a more specific documentary, textual, or site-based link.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albertus Magnus** [T5]
+- **Paul the Apostle** [T1-]
+- **Aristotle** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Giordano Bruno** [T1+]
+- **Giordano Bruno** [T9+]
+- **Dante Alighieri** [T1+]
+- **James Augustine Aloysius Joyce** [T1+]
+- **Jesus of Nazareth** [T1-]
+- **Carl Gustav Jung** [T1+]
+- **Maimonides** [T1-]
+- **Martin Luther** [T1+]
+- **Origen of Alexandria** [T1-]
+- **Plato** [T1-]
+- **James Augustine Aloysius Joyce** [T3] (mirrored from james_joyce.dossier.md)
+- **Roger Bacon** [T4] (mirrored from roger_bacon.dossier.md)
+- **Sir Thomas More** [T1+] (mirrored from thomas_more.dossier.md)
+- **Friedrich August von Hayek** [T1+] (mirrored from friedrich_hayek.dossier.md)
+- **Eugen Böhm Ritter von Bawerk** [T1+] (mirrored from eugen_von_bohm_bawerk.dossier.md)
+- **Martin Heidegger** [T1+] (mirrored from martin_heidegger.dossier.md)
+- **Sor Juana Inés de la Cruz** [T3] (mirrored from sor_juana_ines_de_la_cruz.dossier.md)
+- **Paul the Deacon** [T9-] (mirrored from paul_the_deacon.dossier.md)
+- **Jürgen Habermas** [T1+] (mirrored from jurgen_habermas.dossier.md)
+- **Christopher Columbus** [T3] (mirrored from columbus.dossier.md)
+- **Camilo Torres Restrepo** [T1+] (mirrored from camilo_torres_restrepo.dossier.md)
+- **Donna Jeanne Haraway** [T3] (mirrored from donna_haraway.dossier.md)
+- **Mary Magdalene** [T1-] (mirrored from mary_magdalene.dossier.md)
+- **Johannes Trithemius** [T1+] (mirrored from johannes_trithemius.dossier.md)
+- **Joseph Alois Schumpeter** [T1+] (mirrored from joseph_schumpeter.dossier.md)
+- **Simon of Gitta** [T1-] (mirrored from simon_magus.dossier.md)
+- **René Descartes** [T1+] (mirrored from rene_descartes.dossier.md)
+- **Lucilio Vanini** [T1+] (mirrored from lucilio_vanini.dossier.md)
+- **Tommaso Campanella** [T1+] (mirrored from tommaso_campanella.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+- **Giovanni Pico della Mirandola** [T1+] (mirrored from giovanni_pico_della_mirandola.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Arthur Edward Waite** [T1+] (mirrored from arthur_edward_waite.dossier.md)
+- **Joan of Arc** [T9+] (mirrored from joan_of_arc.dossier.md)
+
 ## Sources
 
 https://plato.stanford.edu/entries/aquinas/

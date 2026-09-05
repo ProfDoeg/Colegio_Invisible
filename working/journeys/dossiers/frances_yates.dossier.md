@@ -626,6 +626,48 @@ Her method remains polarizing because its strength and weakness are connected. S
 
 No supported T2 prophecy/hyperstition crossing, personal T5 meeting, or direct T3 correspondence with another atlas-roster member was identified. In particular, shared subject matter, institutional influence, surname resemblance, or mere contemporaneity was not counted as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aby Moritz Warburg** [T9-]
+- **Albertus Magnus** [T1-]
+- **Antoine Court de Gébelin** [T1-]
+- **Arthur Edward Waite** [T1-]
+- **Christian Rosenkreuz** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Dante Alighieri** [T1-]
+- **Francis Bacon** [T1-]
+- **Giordano Bruno** [T1-]
+- **Giovanni Pico della Mirandola** [T1-]
+- **Giulio Camillo Delminio** [T1-]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1-]
+- **Sir Isaac Newton** [T1-]
+- **Jan Amos Komenský** [T1-]
+- **Johannes Kepler** [T1-]
+- **Johannes Reuchlin** [T1-]
+- **John Dee** [T1-]
+- **Nicolaus Copernicus** [T1-]
+- **Paracelsus** [T1-]
+- **Peter of Ravenna** [T1-]
+- **Plato** [T1-]
+- **Marcus Fabius Quintilianus** [T1-]
+- **Ramon Llull** [T1-]
+- **René Descartes** [T1-]
+- **Robert Fludd** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Saint George of Lydda** [T1-]
+- **Simonides of Ceos** [T1-]
+- **Thomas Aquinas** [T1-]
+- **Tommaso Campanella** [T1-]
+- **Ahmad al-Majriti** [T1-] (mirrored from ahmad_al_majriti.dossier.md)
+- **Johannes Cusanus** [T1-] (mirrored from johannes_cusanus.dossier.md)
+- **Athanasius Kircher** [T1-] (mirrored from kircher.dossier.md)
+- **Johannes Trithemius** [T1-] (mirrored from johannes_trithemius.dossier.md)
+- **Edward Kelley** [T1-] (mirrored from edward_kelley.dossier.md)
+- **Ioan Petru Culianu** [T1+] (mirrored from ioan_petru_culianu.dossier.md)
+
 ## Sources
 
 https://www.thebritishacademy.ac.uk/publishing/memoirs/2/yates-frances-amelia-1899-1981/

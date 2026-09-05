@@ -1320,6 +1320,81 @@ No supported personal connection was found between Dante and the overwhelming ma
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Thomas Aquinas** [T1-]
+- **Albertus Magnus** [T1-]
+- **Francis of Assisi** [T1-]
+- **Publius Vergilius Maro** [T1-]
+- **Aeneas** [T1-]
+- **Dido** [T1-]
+- **Homer** [T1-]
+- **Aristotle** [T1-]
+- **Plato** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Mary Magdalene** [T1-]
+- **Paul the Apostle** [T1-]
+- **King Solomon** [T1-]
+- **David ben Jesse** [T1-]
+- **Moses** [T1-]
+- **Abraham** [T1-]
+- **Adam of Bremen** [T1-]
+- **Noah son of Lamech** [T1-]
+- **Bethsabée** [T1-]
+- **Cleopatra VII Thea Philopator** [T1-]
+- **Gaius Julius Caesar** [T1-]
+- **Alexander the Great** [T1-]
+- **Dante Gabriel Rossetti** [T1+]
+- **William Blake** [T1+]
+- **Auguste Rodin** [T1+]
+- **Jorge Luis Borges** [T1+]
+- **James Augustine Aloysius Joyce** [T1+]
+- **Johann Wolfgang von Goethe** [T1+]
+- **Victor-Marie Hugo** [T1+]
+- **Honoré de Balzac** [T1+]
+- **William Butler Yeats** [T1+]
+- **Winfried Georg Sebald** [T1+]
+- **Benito Mussolini** [T1+]
+- **Antonio Francesco Gramsci** [T1+]
+- **Giambattista Vico** [T1+]
+- **Friedrich Nietzsche** [T1+]
+- **Sigmund Freud** [T1+]
+- **Carl Gustav Jung** [T1+]
+- **Élisabeth Sonrel** [T3] (mirrored from elisabeth_sonrel.dossier.md)
+- **James Augustine Aloysius Joyce** [T3] (mirrored from james_joyce.dossier.md)
+- **Justinian I** [T1-] (mirrored from justinian_i.dossier.md)
+- **J. R. R. Tolkien** [T1+] (mirrored from tolkien.dossier.md)
+- **Simon bar Jonah** [T1-] (mirrored from apostle_peter.dossier.md)
+- **Lorenzo di Piero de' Medici** [T1+] (mirrored from lorenzo_de_medici_il_magnifico.dossier.md)
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T1+] (mirrored from oscar_wilde.dossier.md)
+- **Peter von Cornelius** [T1+] (mirrored from peter_von_cornelius.dossier.md)
+- **Mario Palanti** [T9+] (mirrored from mario_palanti.dossier.md)
+- **René Guénon** [T1+] (mirrored from rene_guenon.dossier.md)
+- **Gabriele d'Annunzio** [T1+] (mirrored from dannunzio.dossier.md)
+- **Bernard of Clairvaux** [T1-] (mirrored from bernard_clairvaux.dossier.md)
+- **Ibn Arabi** [T9-] (mirrored from ibn_arabi.dossier.md)
+- **Julius Evola** [T1+] (mirrored from julius_evola.dossier.md)
+- **Giordano Bruno** [T1+] (mirrored from giordano_bruno.dossier.md)
+- **Troiano Troiani** [T9-] (mirrored from troiano_troiani.dossier.md)
+- **Galileo Galilei** [T1+] (mirrored from galileo_galilei.dossier.md)
+- **Ludwig Derleth** [T1+] (mirrored from ludwig_derleth.dossier.md)
+- **Curtis Guy Yarvin** [T1+] (mirrored from curtis_yarvin.dossier.md)
+- **Odysseus** [T1-] (mirrored from ulysses.dossier.md)
+- **Simon of Gitta** [T1-] (mirrored from simon_magus.dossier.md)
+- **Michelangelo di Lodovico Buonarroti Simoni** [T1+] (mirrored from michelangelo.dossier.md)
+- **Pyotr Ilyich Tchaikovsky** [T1+] (mirrored from tchaikovsky.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+- **Giovanni Pico della Mirandola** [T1+] (mirrored from giovanni_pico_della_mirandola.dossier.md)
+- **William R. Bradshaw** [T1+] (mirrored from william_r_bradshaw.dossier.md)
+- **Count Orlando di Chiusi** [T9-] (mirrored from count_orlando_di_chiusi_orlando_catani.dossier.md)
+- **John Ruskin** [T1+] (mirrored from john_ruskin.dossier.md)
+- **Christina Georgina Rossetti** [T1+] (mirrored from christina_rossetti.dossier.md)
+- **Charlotte Bara** [T1+] (mirrored from charlotte_bara.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

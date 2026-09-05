@@ -1156,6 +1156,36 @@ No documentary intersection was established with the overwhelming majority of th
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Achille-Claude Debussy** [T3]
+- **Anna Matveyevna Pavlova** [T5]
+- **Auguste Rodin** [T3]
+- **Gabrielle Bonheur "Coco" Chanel** [T5]
+- **George Balanchine** [T5]
+- **Igor Fyodorovich Stravinsky** [T5]
+- **Isadora Duncan** [T3]
+- **Nicholas Konstantinovich Roerich** [T5]
+- **Pablo Ruiz Picasso** [T5]
+- **Pyotr Ilyich Tchaikovsky** [T5]
+- **Erik Satie** [T5]
+- **Loïe Fuller** [T4]
+- **Vaslav Nijinsky** [T5]
+- **Wilhelm Richard Wagner** [T3]
+- **Edward Louis Bernays** [T3] (mirrored from edward_bernays.dossier.md)
+- **James Augustine Aloysius Joyce** [T4] (mirrored from james_joyce.dossier.md)
+- **Marcel Proust** [T4] (mirrored from marcel_proust.dossier.md)
+- **Émile Jaques-Dalcroze** [T9-] (mirrored from jaques_dalcroze.dossier.md)
+- **Francesco Tamburini** [T9-] (mirrored from francesco_tamburini.dossier.md)
+- **Merce Cunningham** [T9+] (mirrored from merce_cunningham.dossier.md)
+- **Katja Wulff** [T9+] (mirrored from katja_wulff.dossier.md)
+- **Pyotr Ilyich Tchaikovsky** [T9-] (mirrored from tchaikovsky.dossier.md)
+- **Filippo Tommaso Emilio Marinetti** [T4] (mirrored from f_t_marinetti.dossier.md)
+- **G. I. Gurdjieff** [T3] (mirrored from gurdjieff.dossier.md)
+- **Pablo Ruiz Picasso** [T3] (mirrored from pablo_picasso.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

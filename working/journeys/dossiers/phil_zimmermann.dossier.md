@@ -1192,6 +1192,28 @@ No documented intersections were found with the great majority of the 896-person
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Harold Thomas Finney II** [T3]
+- **Bailey Whitfield Diffie** [T4]
+- **Martin Edward Hellman** [T9-]
+- **Ronald Linn Rivest** [T3]
+- **Adi Shamir** [T9-]
+- **Leonard Max Adleman** [T9-]
+- **Ralph Charles Merkle** [T9-]
+- **David Lee Chaum** [T4]
+- **Vinton Gray Cerf** [T4]
+- **Robert Elliot Kahn** [T4]
+- **William Jefferson Clinton** [T4]
+- **George Orwell** [T9-]
+- **Norbert Wiener** [T9-] (mirrored from norbert_wiener.dossier.md)
+- **Linus Benedict Torvalds** [T4] (mirrored from linus_torvalds.dossier.md)
+- **Martin Edward Hellman** [T1+] (mirrored from hellman.dossier.md)
+- **Nick Szabo** [T4] (mirrored from nick_szabo.dossier.md)
+- **Ronald Linn Rivest** [T9-] (mirrored from ron_rivest.dossier.md)
+
 ## Chronology
 
 - **12 February 1954:** Born in Camden, New Jersey.

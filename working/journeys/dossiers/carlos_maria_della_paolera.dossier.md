@@ -658,6 +658,13 @@ The following questions remain open and are suitable for archival investigation:
 
 No other roster crossing was found that met the specified evidentiary threshold. In particular, kinship with Juan Antonio Buschiazzo and indirect intellectual influence from Henri Bergson are documented, but neither by itself establishes one of the six permitted connection types without inferring a meeting or direct written engagement.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Le Corbusier** [T5]
+- **Le Corbusier** [T1-]
+
 ## Sources
 
 https://es.scribd.com/document/936236969/Carlos-Maria-Della-Paolera

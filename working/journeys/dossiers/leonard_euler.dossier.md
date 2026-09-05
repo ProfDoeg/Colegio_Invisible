@@ -989,6 +989,32 @@ The atlas contains numerous mathematicians, physicists, philosophers, and astron
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **Sir Isaac Newton** [T1-]
+- **René Descartes** [T1-]
+- **Christiaan Huygens** [T1-]
+- **Johannes Kepler** [T1-]
+- **Nicolaus Copernicus** [T1-]
+- **Galileo Galilei** [T1-]
+- **Archimedes of Syracuse** [T1-]
+- **Joseph-Louis Lagrange** [T3]
+- **Immanuel Kant** [T3]
+- **Carl Friedrich Gauss** [T1+]
+- **Pierre-Simon Laplace** [T1+]
+- **Augustin-Louis Cauchy** [T1+]
+- **Siméon Denis Poisson** [T1+]
+- **Jean-Baptiste Joseph Fourier** [T1+]
+- **Henri Léon Lebesgue** [T1+] (mirrored from henri_lebesgue.dossier.md)
+- **Pierre-Simon Laplace** [T3] (mirrored from pierre_simon_laplace.dossier.md)
+- **Carl Friedrich Gauss** [T3] (mirrored from gauss.dossier.md)
+- **Charles Babbage** [T1+] (mirrored from charles_babbage.dossier.md)
+- **Jean-Baptiste Joseph Fourier** [T3] (mirrored from joseph_fourier.dossier.md)
+- **Carl Gustav Jacob Jacobi** [T1+] (mirrored from carl_gustav_jacob_jacobi.dossier.md)
+
 ## Chronology
 
 - **1707, 15 April:** Born in Basel to Paul Euler and Margaretha Brucker.

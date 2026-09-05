@@ -1323,6 +1323,31 @@ Only connections supported by sources or explicit literary relationships are lis
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Homer** [T1+]
+- **Publius Vergilius Maro** [T1+]
+- **Dido** [T5]
+- **Odysseus** [T9-]
+- **Gaius Julius Caesar** [T1+]
+- **Dante Alighieri** [T1+]
+- **Paul the Apostle** [T9+]
+- **William Morris** [T1+]
+- **Salomon Trismosin** [T9+] (mirrored from salomon_trismosin.dossier.md)
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Strabo of Amaseia** [T1+] (mirrored from strabo.dossier.md)
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Gabriele d'Annunzio** [T1+] (mirrored from dannunzio.dossier.md)
+- **Miguel de Cervantes Saavedra** [T1+] (mirrored from miguel_de_cervantes.dossier.md)
+- **Marcus Tullius Cicero** [T1+] (mirrored from cicero.dossier.md)
+- **Odysseus** [T4] (mirrored from ulysses.dossier.md)
+- **Victor-Marie Hugo** [T1+] (mirrored from victor_hugo.dossier.md)
+- **Hannibal Barca** [T2+ prediction] (mirrored from hannibal.dossier.md)
+- **Aurelius Augustinus** [T1+] (mirrored from saint_augustine_of_hippo.dossier.md)
+- **Johann Wolfgang von Goethe** [T1+] (mirrored from goethe_full.dossier.md)
+
 ## Chronology
 
 | Approximate date | Event or development | Status |

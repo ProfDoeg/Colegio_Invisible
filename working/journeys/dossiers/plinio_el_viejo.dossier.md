@@ -1014,6 +1014,44 @@ No documented meeting, correspondence or relationship was established with Flavi
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Archimedes of Syracuse** [T1-]
+- **Alexander the Great** [T1-]
+- **Ctesias of Cnidus** [T1-]
+- **Gaius Julius Caesar** [T1-]
+- **Gaius Julius Solinus** [T1+]
+- **Herodotus of Halicarnassus** [T1-]
+- **Homer** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Publius Vergilius Maro** [T1-]
+- **Zoroaster** [T1-] (mirrored from zoroaster.dossier.md)
+- **Gaius Julius Solinus** [T3] (mirrored from gaius_julius_solinus.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Pindar of Thebes** [T3] (mirrored from pindar.dossier.md)
+- **Paul the Deacon** [T3] (mirrored from paul_the_deacon.dossier.md)
+- **Publius Vergilius Maro** [T3] (mirrored from virgil.dossier.md)
+- **Megasthenes of Ionia** [T1-] (mirrored from megasthenes.dossier.md)
+- **Cleopatra VII Thea Philopator** [T1-] (mirrored from cleopatra_vii.dossier.md)
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1+] (mirrored from heinrich_cornelius_agrippa.dossier.md)
+- **Simonides of Ceos** [T1-] (mirrored from simonides_of_ceos.dossier.md)
+- **Christopher Columbus** [T3] (mirrored from columbus.dossier.md)
+- **Ctesias of Cnidus** [T3] (mirrored from ctesias.dossier.md)
+- **Athanasius Kircher** [T1+] (mirrored from kircher.dossier.md)
+- **Aristotle** [T3] (mirrored from aristotle.dossier.md)
+- **Pytheas de Massalia** [T1-] (mirrored from pytheas_de_massalia.dossier.md)
+- **Hesiod of Ascra** [T1-] (mirrored from hesiod.dossier.md)
+- **Herodotus of Halicarnassus** [T3] (mirrored from herodotus.dossier.md)
+- **Nabucodonosor II** [T1-] (mirrored from nabucodonosor_ii.dossier.md)
+- **Paracelsus** [T1+] (mirrored from paracelsus.dossier.md)
+- **Jorge Luis Borges** [T1+] (mirrored from borges.dossier.md)
+- **Albertus Magnus** [T1+] (mirrored from albertus_magnus.dossier.md)
+- **Polybius of Megalopolis** [T1-] (mirrored from polybius.dossier.md)
+- **Leonardo di ser Piero da Vinci** [T1+] (mirrored from leonardo_da_vinci.dossier.md)
+
 ## Chronology
 
 | Date | Event | Evidentiary status |

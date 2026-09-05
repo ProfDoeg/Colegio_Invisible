@@ -1157,6 +1157,18 @@ The strongest Atlas crossings are Haile Selassie, Mussolini, Gandhi, and the ind
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Frederick Law Olmsted** [T9-]
+- **Abraham Lincoln** [T1-]
+- **Benito Mussolini** [T3]
+- **Haile Selassie I** [T3]
+- **Haile Selassie I** [T2+ unresolved]
+- **Mohandas Karamchand Gandhi** [T3]
+- **Christopher Columbus** [T1-]
+
 ## Chronology
 
 | Date | Event |

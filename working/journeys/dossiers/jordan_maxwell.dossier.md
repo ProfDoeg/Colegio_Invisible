@@ -733,6 +733,20 @@ The following URLs are the complete, deduplicated set actually consulted or reli
 
 No documented T2, T3, T4, T5, or T9 crossing with another atlas-roster member was established from the sources reviewed. Mere name-checks, common subject matter, shared traditions, and unverified online association claims were excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Moses** [T1-]
+- **King Solomon** [T1-]
+- **Constantine the Great** [T1-]
+- **George Washington** [T1-]
+- **José Luis Álvarez Enparantza** [T1+] (mirrored from jose_luis_alvarez_emparantza_txillardegi.dossier.md)
+- **Frank Herbert** [T3] (mirrored from frank_herbert.dossier.md)
+- **Moses de Leon** [T5] (mirrored from moses_de_leon.dossier.md)
+
 ## Sources
 
 https://www.jordanmaxwell.com/bio.html

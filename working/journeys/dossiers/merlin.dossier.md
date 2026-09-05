@@ -1359,6 +1359,24 @@ The strongest supported roster crossings are literary: Guinevere, Lancelot, Morg
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Guinevere** [T4]
+- **Lancelot** [T4]
+- **Morgan le Fay** [T5]
+- **The Lady of the Lake** [T5]
+- **Parzival** [T9+]
+- **Samuel Langhorne Clemens** [T1+]
+- **J. R. R. Tolkien** [T1+]
+- **Walter Elias Disney** [T1+]
+- **Stephen Edwin King** [T1+]
+- **Arthur of Lotharingia** [T5] (mirrored from arthur-lotharingia.dossier.md)
+- **Guinevere** [T5] (mirrored from guinevere.dossier.md)
+- **Richard I of England** [T2+ prediction] (mirrored from richard_lionheart.dossier.md)
+- **Parzival** [T4] (mirrored from parzival.dossier.md)
+
 ## Chronology
 
 | Date or period | Event | Evidentiary status |

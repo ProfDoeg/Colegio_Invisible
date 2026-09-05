@@ -1438,6 +1438,23 @@ No documentary crossing was established for the overwhelming majority of the 896
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Friedrich Fröbel** [T9-]
+- **William Morris** [T3]
+- **John Ruskin** [T3]
+- **G. I. Gurdjieff** [T5]
+- **Le Corbusier** [T9+]
+- **Le Corbusier** [T3]
+- **Paolo Soleri** [T5]
+- **Augustus Henry Julian Le Plongeon** [T3]
+- **Robert Moses** [T3] (mirrored from robert_moses.dossier.md)
+- **Edward Bellamy** [T3] (mirrored from edward_bellamy.dossier.md)
+- **R. Buckminster Fuller** [T3] (mirrored from buckminster_fuller.dossier.md)
+- **G. I. Gurdjieff** [T1-] (mirrored from gurdjieff.dossier.md)
+
 ## Compact Chronology
 
 - **1867, June 8:** Born in Richland Center, Wisconsin.

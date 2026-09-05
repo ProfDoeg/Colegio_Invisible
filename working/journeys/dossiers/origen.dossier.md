@@ -683,6 +683,39 @@ The 1941 Tura discovery and 2012 Munich identification demonstrated that the cor
 
 - **[T1+]** **Documented fact:** Emperor Justinian wrote or promulgated a lengthy theological edict addressed to Patriarch Mennas in 543, summarizing and refuting propositions attributed to Origen and appending anti-Origenist anathemas. The document is a direct posthumous written engagement, although some condemned propositions more accurately represent later Origenism than securely recoverable teachings of Origen himself. [Justinian’s edict and anathemas](https://www.ldysinger.com/%40magist/0543-53_an-orig/03_anath_543-53.htm) [Richard Price, *Acts of Constantinople II*, anti-Origenist documents](https://afkimel.wordpress.com/wp-content/uploads/2024/07/the-acts-of-the-council-of-constantinople-of-553-2-vol-edited-and-translated-by-richard-price-translated-texts-for-historians-volume-51-2009-9781846311789-da31e1d5d5690161fc03aafa9daef89.pdf)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **Aaron the Levite** [T1-]
+- **Noah son of Lamech** [T1-]
+- **Moses** [T1-]
+- **David ben Jesse** [T1-]
+- **King Solomon** [T1-]
+- **Ezekiel son of Buzi** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Paul the Apostle** [T1-]
+- **Plato** [T1-]
+- **Aristotle** [T1-]
+- **Homer** [T1-]
+- **Hesiod of Ascra** [T1-]
+- **Zoroaster** [T1-]
+- **Flavius Josephus** [T1-]
+- **Aurelius Augustinus** [T1+]
+- **Thomas Aquinas** [T1+]
+- **Justinian I** [T1+]
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **Simon bar Jonah** [T1-] (mirrored from apostle_peter.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Bernard of Clairvaux** [T3] (mirrored from bernard_clairvaux.dossier.md)
+- **Flavius Josephus** [T3] (mirrored from flavius_josephus.dossier.md)
+- **Mary Magdalene** [T1-] (mirrored from mary_magdalene.dossier.md)
+- **Simon of Gitta** [T1-] (mirrored from simon_magus.dossier.md)
+- **San Antonio Abad** [T3] (mirrored from san_antonio_abad.dossier.md)
+- **Giovanni Pico della Mirandola** [T1+] (mirrored from giovanni_pico_della_mirandola.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+
 ## Sources
 
 https://www.newadvent.org/fathers/250106.htm

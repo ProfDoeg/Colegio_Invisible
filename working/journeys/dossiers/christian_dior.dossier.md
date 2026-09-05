@@ -806,6 +806,19 @@ No adequately documented direct crossing was established in the consulted source
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Bernard Jean Étienne Arnault** [T9+]
+- **Cristóbal Balenciaga Eizaguirre** [T4]
+- **Gabrielle Bonheur "Coco" Chanel** [T4]
+- **Pablo Ruiz Picasso** [T4]
+- **Salvador Guillermo Allende Gossens** [T4]
+- **Eva Duarte de Perón** [T9+] (mirrored from eva_peron.dossier.md)
+- **Cristóbal Balenciaga Eizaguirre** [T5] (mirrored from cristobal_balenciaga.dossier.md)
+- **Louis Vuitton** [T9-] (mirrored from louis_vuitton.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

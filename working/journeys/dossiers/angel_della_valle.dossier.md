@@ -712,6 +712,17 @@ The roster includes the subject himself; this is an identity match, not an inter
 
 No reliable crossing was found between Della Valle and the other listed atlas figures. In particular, no connection should be inferred merely because artists such as Xul Solar, Carlos Gardel, Alejandro Christophersen, or Francisco Salamone later worked in Buenos Aires or used imagery related to national history.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Julio Argentino Roca** [T5]
+- **Juan Manuel José Domingo Ortiz de Rozas y López de Osornio** [T4]
+- **Domingo Faustino Sarmiento** [T4]
+- **Pío Collivadino** [T4]
+- **Pío Collivadino** [T9+] (mirrored from pio_collivadino.dossier.md)
+- **Julio Argentino Roca** [T1-] (mirrored from julio_argentino_roca.dossier.md)
+
 ## Chronology
 
 | Date | Event |

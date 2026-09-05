@@ -1165,6 +1165,21 @@ These architects belong to overlapping Italian-Argentine architectural history, 
 
 Among the remainder of the supplied atlas roster, no documented meeting, correspondence, collaboration, rivalry, family tie, teacher-student relationship, patronage relationship, shared organization, or explicitly acknowledged influence was located. This does not prove that no incidental contact ever occurred; it means that no connection meeting the stated evidentiary threshold emerged from the sources consulted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alejandro Christophersen** [T3]
+- **Benito Mussolini** [T5]
+- **Dante Alighieri** [T9-]
+- **Francisco Gianotti** [T5]
+- **Gabriele d'Annunzio** [T9-]
+- **Juan Domingo Perón** [T3]
+- **Eva Duarte de Perón** [T9+]
+- **José de San Martín** [T9+]
+- **Francisco Gianotti** [T4] (mirrored from francisco_gianotti.dossier.md)
+- **Virginio Colombo** [T4] (mirrored from virginio_colombo.dossier.md)
+
 ## Chronology
 
 | Date | Event |

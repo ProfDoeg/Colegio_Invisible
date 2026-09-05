@@ -762,6 +762,26 @@ Only source-supported connections to names on the supplied atlas roster are incl
 
 Beyond the connections listed above, no defensible crossings with the roster were established. Mere use of public-key cryptography or Merkle trees was not treated as a personal connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Bailey Whitfield Diffie** [T4]
+- **Martin Edward Hellman** [T3]
+- **Adi Shamir** [T3]
+- **Leonard Max Adleman** [T4]
+- **Ronald Linn Rivest** [T4]
+- **Claude Elwood Shannon** [T9-]
+- **Harold Thomas Finney II** [T4]
+- **Nick Szabo** [T9+]
+- **Ray Kurzweil** [T4]
+- **Martin Edward Hellman** [T5] (mirrored from hellman.dossier.md)
+- **Nick Szabo** [T3] (mirrored from nick_szabo.dossier.md)
+- **Philip R. Zimmermann** [T9+] (mirrored from phil_zimmermann.dossier.md)
+- **Bailey Whitfield Diffie** [T3] (mirrored from diffie.dossier.md)
+- **Ronald Linn Rivest** [T3] (mirrored from ron_rivest.dossier.md)
+- **Friedrich Nietzsche** [T3] (mirrored from nietzsche.dossier.md)
+
 ## Sources
 
 https://ralphmerkle.com/

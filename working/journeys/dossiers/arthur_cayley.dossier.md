@@ -1567,6 +1567,24 @@ Even a long dossier cannot turn missing records into facts. The following would 
 
 No supported T2 prophecy/hyperstition or T9 shared-object transmission was identified between Cayley and the atlas roster. Mere chronological overlap, common institutional membership, mathematical influence without identifiable written engagement, and later use of Cayley’s mathematics were excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Augustin-Louis Cauchy** [T3]
+- **Felix Christian Klein** [T3]
+- **Sir George Gabriel Stokes** [T3]
+- **Jules Henri Poincaré** [T3]
+- **James Clerk Maxwell** [T3]
+- **Sir William Rowan Hamilton** [T3]
+- **Sir William Rowan Hamilton** [T5]
+- **William Thomson** [T3]
+- **William Thomson** [T5]
+- **Sir George Gabriel Stokes** [T5] (mirrored from george_gabriel_stokes.dossier.md)
+- **Henri Léon Lebesgue** [T1+] (mirrored from henri_lebesgue.dossier.md)
+- **Charles Babbage** [T1-] (mirrored from charles_babbage.dossier.md)
+- **Carl Gustav Jacob Jacobi** [T1-] (mirrored from carl_gustav_jacob_jacobi.dossier.md)
+
 ## Sources
 
 https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/

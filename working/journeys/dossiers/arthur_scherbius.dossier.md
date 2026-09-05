@@ -619,6 +619,20 @@ No documented personal meeting or correspondence between Scherbius and another r
 
 - **[T9+]** **Documented fact:** Declassified holdings from William Friedman’s U.S. Army cryptologic work include Scherbius/Securitas cipher-machine patent material, “Enigma Materials for Hand Method Attack” dated 1943–1945, Enigma wiring records, and a 1943 memorandum on solving commercial Enigma. These records document Friedman’s direct technical engagement with the machine family Scherbius originated, again as a posthumous shared-object connection rather than correspondence or a meeting. [NSA’s William F. Friedman patent and equipment records](https://www.nsa.gov/Helpful-Links/NSA-FOIA/Declassification-Transparency-Initiatives/Historical-Releases/Friedman-Documents/Patent-Equipment/)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Marian Adam Rejewski** [T9+]
+- **Alan Mathison Turing** [T9+]
+- **Elizebeth Smith Friedman** [T9+]
+- **William Frederick Friedman** [T9+]
+- **J. R. R. Tolkien** [T3] (mirrored from tolkien.dossier.md)
+- **Maurice Bernard Sendak** [T3] (mirrored from maurice_sendak.dossier.md)
+- **William Blake** [T3] (mirrored from william_blake.dossier.md)
+- **Mayer Amschel Rothschild** [T5] (mirrored from mayer_amschel_rothschild.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd127822089.html

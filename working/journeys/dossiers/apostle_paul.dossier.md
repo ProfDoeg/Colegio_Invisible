@@ -579,6 +579,55 @@ Paul did not single-handedly found Christianity: communities, traditions, apostl
 
 No defensible T2 prophecy/hyperstition connection was found among the roster. Mere chronological overlap, shared Mediterranean geography, later religious influence, artistic depiction, or use of a Pauline name was not treated as a crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **David ben Jesse** [T1-]
+- **Moses** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Simon bar Jonah** [T5]
+- **Saint Thecla of Iconium** [T5]
+- **Tertullian** [T1+]
+- **Origen of Alexandria** [T1+]
+- **Aurelius Augustinus** [T1+]
+- **Constantine the Great** [T9+]
+- **Thomas Aquinas** [T1+]
+- **Martin Luther** [T1+]
+- **Friedrich Nietzsche** [T1+]
+- **William James** [T1+] (mirrored from william_james.dossier.md)
+- **Francis of Assisi** [T1+] (mirrored from saint_francis.dossier.md)
+- **Felipe Guamán Poma de Ayala** [T1+] (mirrored from guaman_poma_de_ayala.dossier.md)
+- **Philip Kindred Dick** [T1+] (mirrored from philip_k_dick.dossier.md)
+- **Jacob Boehme** [T1+] (mirrored from jacob_boehme.dossier.md)
+- **Martin Heidegger** [T1+] (mirrored from martin_heidegger.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1+] (mirrored from heinrich_cornelius_agrippa.dossier.md)
+- **Joaquín Trincado Mateo** [T1+] (mirrored from joaquin_trincado_mateo.dossier.md)
+- **Claude-Henri de Rouvroy** [T1+] (mirrored from henri_de_saint_simon.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Camilo Torres Restrepo** [T1+] (mirrored from camilo_torres_restrepo.dossier.md)
+- **Mary Magdalene** [T9+] (mirrored from mary_magdalene.dossier.md)
+- **Stanley Jeyaraja Tambiah** [T1+] (mirrored from stanley_jeyaraja_tambiah.dossier.md)
+- **Maria Salomea Skłodowska-Curie** [T4] (mirrored from marie_curie.dossier.md)
+- **Simon of Gitta** [T5] (mirrored from simon_magus.dossier.md)
+- **San Antonio Abad** [T3] (mirrored from san_antonio_abad.dossier.md)
+- **Matteo Ricci** [T3] (mirrored from matteo_ricci.dossier.md)
+- **Sir Isaac Newton** [T1-] (mirrored from newton.dossier.md)
+- **Jacques Derrida** [T3] (mirrored from jacques_derrida.dossier.md)
+- **Aeneas** [T9-] (mirrored from aeneas.dossier.md)
+- **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Ezekiel son of Buzi** [T3] (mirrored from ezekiel.dossier.md)
+- **Grigori Yefimovich Rasputin** [T1+] (mirrored from grigori_rasputin.dossier.md)
+- **Egeria** [T9+] (mirrored from egeria.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+- **Søren Aabye Kierkegaard** [T1+] (mirrored from s_ren_kierkegaard.dossier.md)
+- **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+
 ## Sources
 
 https://www.bibleodyssey.org/articles/paul/

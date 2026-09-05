@@ -944,6 +944,35 @@ No documentary crossing was found with the overwhelming majority of the 896-pers
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adolfo Bioy Casares** [T3]
+- **Albert Camus** [T3]
+- **André Breton** [T3]
+- **Astor Pantaleón Piazzolla** [T4]
+- **Augusto Pinochet Ugarte** [T3]
+- **Carlos Gardel** [T1-]
+- **Ernesto "Che" Guevara** [T1-]
+- **Fidel Alejandro Castro Ruz** [T3]
+- **Gabriel José García Márquez** [T5]
+- **Jules Charles** [T5]
+- **Jean-Paul Charles Aymard Sartre** [T3]
+- **Jorge Luis Borges** [T3]
+- **Juan Domingo Perón** [T3]
+- **Paul Klee** [T3]
+- **Salvador Guillermo Allende Gossens** [T4]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3]
+- **Victoria Ocampo** [T9-]
+- **William Seward Burroughs II** [T4]
+- **Augusto Boal** [T9+] (mirrored from augusto_boal.dossier.md)
+- **Adolfo Bioy Casares** [T5] (mirrored from adolfo_bioy_casares.dossier.md)
+- **Fidel Alejandro Castro Ruz** [T4] (mirrored from fidel_castro.dossier.md)
+- **Cecilia Vicuña** [T4] (mirrored from cecilia_vicuna.dossier.md)
+- **Daniel Gastón Schávelzon** [T1+] (mirrored from daniel_schavelzon.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T4] (mirrored from jean_paul_sartre.dossier.md)
+
 ## Chronology
 
 - **1914, 26 August:** Born in Ixelles, Brussels, to Argentine parents.

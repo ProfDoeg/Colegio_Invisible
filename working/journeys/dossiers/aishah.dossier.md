@@ -1087,6 +1087,17 @@ The roster includes Abraham, Jesus of Nazareth, Moses, David, Solomon, and other
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abu Bakr as-Siddiq** [T5]
+- **Muhammad ibn Abdullah** [T5]
+- **Farid al-Din Attar** [T1+] (mirrored from attar.dossier.md)
+- **Evliya Çelebi** [T1+] (mirrored from evliya_celebi.dossier.md)
+- **Rabia al-Adawiyya** [T9+] (mirrored from rabia.dossier.md)
+- **Abu al-Qasim Abd al-Karim ibn Hawazin al-Qushayri** [T1+] (mirrored from abu_al_qasim_al_qushayri.dossier.md)
+
 ## Sources
 
 https://academic.oup.com/book/56172/chapter-abstract/443182662

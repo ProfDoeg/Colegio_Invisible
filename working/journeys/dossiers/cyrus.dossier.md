@@ -991,6 +991,26 @@ No other roster member was found to have a source-supported meeting, corresponde
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander the Great** [T9+]
+- **Herodotus of Halicarnassus** [T1+]
+- **Ctesias of Cnidus** [T1+]
+- **Plato** [T1+]
+- **Aristotle** [T1+]
+- **Flavius Josephus** [T1+]
+- **Strabo of Amaseia** [T1+]
+- **Nabucodonosor II** [T9-]
+- **Moses** [T9-]
+- **King Solomon** [T9-]
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Megasthenes of Ionia** [T1+] (mirrored from megasthenes.dossier.md)
+- **Judah Loew ben Bezalel** [T1+] (mirrored from judah_loew_ben_bezalel_the_maharal_of_prague.dossier.md)
+- **Claudius Aelianus** [T1+] (mirrored from claudius_aelianus_aelian.dossier.md)
+- **Antoine Court de Gébelin** [T1+] (mirrored from antoine_court_de_gebelin.dossier.md)
+
 ## Chronology
 
 | Date | Event |

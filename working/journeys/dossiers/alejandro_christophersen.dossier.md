@@ -839,6 +839,20 @@ No defensible direct connection to the other listed atlas figures was establishe
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Juan Antonio Buschiazzo** [T4]
+- **Jules Dormal Godet** [T4]
+- **Francesco Tamburini** [T4]
+- **Pío Collivadino** [T4]
+- **Mario Palanti** [T3] (mirrored from mario_palanti.dossier.md)
+- **Jules Dormal Godet** [T3] (mirrored from jules_dormal.dossier.md)
+- **Vittorio Meano** [T1-] (mirrored from vittorio_meano.dossier.md)
+- **Carlos María de Alvear** [T9-] (mirrored from alvear.dossier.md)
+- **Torcuato Antonio de Alvear** [T9-] (mirrored from torcuato_de_alvear.dossier.md)
+
 ## Chronology
 
 - **1834, 9 October:** Father Otto Thorvald Christophersen born in Brevik, Norway.

@@ -630,6 +630,19 @@ The planned cutter *Friedman* became a posthumous irony. Naming in 2020 and fabr
 
 No additional roster member produced a sufficiently documented T1, T2, T3, T4, T5, or T9 crossing. In particular, parallel work in cryptography, intelligence, Enigma analysis, the IMF, or Shakespeare studies was not treated as a connection without evidence of writing, communication, physical proximity, personal contact, prophecy, or transmission of a specific object or site.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Edgar Allan Poe** [T1-]
+- **Francis Bacon** [T1-]
+- **Ignatius Loyola Donnelly** [T1-]
+- **William Frederick Friedman** [T5]
+- **William Frederick Friedman** [T3]
+- **Herbert Osborn Yardley** [T3] (mirrored from herbert_yardley.dossier.md)
+- **Arthur Scherbius** [T9-] (mirrored from arthur_scherbius.dossier.md)
+- **Donald Ervin Knuth** [T9+] (mirrored from donald_ervin_knuth.dossier.md)
+
 ## Sources
 
 https://www.nsa.gov/History/Cryptologic-History/Historical-Figures/Historical-Figures-View/Article/1623028/elizebeth-s-friedman/

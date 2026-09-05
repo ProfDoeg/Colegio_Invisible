@@ -993,6 +993,25 @@ No adequately sourced direct crossing was established with Adolfo Bioy Casares, 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jorge Luis Borges** [T5]
+- **Alfonsina Storni** [T4]
+- **Domingo Faustino Sarmiento** [T1-]
+- **José Rafael Hernández** [T1-]
+- **Miguel de Cervantes Saavedra** [T1-]
+- **Theodor Herzl** [T3]
+- **Chaim Azriel Weizmann** [T4]
+- **David Ben-Gurion** [T3]
+- **Juan Domingo Perón** [T3]
+- **Benito Mussolini** [T3]
+- **Abraham** [T1-]
+- **Moses** [T1-]
+- **Federico García Lorca** [T5] (mirrored from federico_garcia_lorca.dossier.md)
+- **Emir Emin Arslan** [T5] (mirrored from emin_arslan.dossier.md)
+
 ## Chronology
 
 | Date | Event |

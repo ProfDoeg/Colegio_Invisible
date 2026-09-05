@@ -887,6 +887,20 @@ Progressive-era critics treated Warburg as both expert and embodiment of the Mon
 
 - **[T5] Documented fact:** Paul and Max were brothers, colleagues in the family bank, and repeated personal collaborators. Paul joined **M. M. Warburg & Co. in Hamburg in 1891** and became a partner in **1895**, working in the same family institution led by Max before Paul settled permanently in New York in 1902. Their later cooperation continued across the Atlantic; this was direct personal contact, not an inferred association from their surname or parallel careers. [Harold James, “Networks and Financial War”](https://www.cambridge.org/core/journals/financial-history-review/article/abs/networks-and-financial-war-the-brothers-warburg-in-the-first-age-of-globalization/8334F0FB6B222E855A277F90974DF172)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aby Moritz Warburg** [T3]
+- **Andrew Jackson** [T1-]
+- **John Maynard Keynes** [T5]
+- **John Maynard Keynes** [T3]
+- **Max Moritz Warburg** [T3]
+- **Max Moritz Warburg** [T5]
+- **Arthur James Balfour** [T4] (mirrored from arthur_balfour.dossier.md)
+- **Joshua Norman Haldeman** [T1+] (mirrored from joshua_haldeman.dossier.md)
+- **Aby Moritz Warburg** [T5] (mirrored from aby_warburg.dossier.md)
+
 ## Sources
 
 https://www.federalreservehistory.org/people/paul-m-warburg

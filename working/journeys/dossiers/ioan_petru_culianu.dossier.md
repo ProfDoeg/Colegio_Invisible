@@ -735,6 +735,28 @@ No available public evidence resolves these questions.
 
 No reliable evidence located supports Culianu’s personal meeting, correspondence, shared milieu, prophetic relationship, or object-mediated connection with any other atlas-roster member. Mere appearance of a historical or religious figure in a reference work, incidental citation, thematic resemblance, or later comparison by third parties has not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Edgar Allan Poe** [T3]
+- **Frances Amelia Yates** [T1-]
+- **Sigmund Freud** [T1-]
+- **Carl Gustav Jung** [T1-]
+- **Ramon Llull** [T1-]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1-]
+- **Giovanni Pico della Mirandola** [T1-]
+- **Giordano Bruno** [T1-]
+- **Johann Georg Faust** [T1-]
+- **Nicholas of Cusa** [T1-]
+- **Johannes Cusanus** [T1-]
+- **Albert Einstein** [T1-]
+- **Mircea Eliade** [T3]
+- **Mircea Eliade** [T4]
+- **Mircea Eliade** [T5]
+- **Mircea Eliade** [T1-]
+- **Mircea Eliade** [T9-]
+
 ## Sources
 
 https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.CULIANU

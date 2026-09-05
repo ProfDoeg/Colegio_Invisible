@@ -1088,6 +1088,23 @@ Potential thematic comparisons with Leonardo da Vinci, Nikola Tesla, Le Corbusie
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T5]
+- **Frank Lloyd Wright** [T3]
+- **Anni Albers** [T4]
+- **John Milton Cage Jr.** [T5]
+- **Merce Cunningham** [T4]
+- **Erik Satie** [T9-]
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Le Corbusier** [T5] (mirrored from le_corbusier.dossier.md)
+- **Friedrich Fröbel** [T9-] (mirrored from froebel.dossier.md)
+- **Anthony Stafford Beer** [T1+] (mirrored from stafford_beer.dossier.md)
+- **Anthony Stafford Beer** [T9+] (mirrored from stafford_beer.dossier.md)
+- **Anni Albers** [T3] (mirrored from anni_albers.dossier.md)
+
 ## Chronology
 
 | Date/year | Event |

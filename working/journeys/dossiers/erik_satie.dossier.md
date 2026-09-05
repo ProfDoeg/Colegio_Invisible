@@ -1001,6 +1001,39 @@ For the great majority of the 896-name atlas roster, the research found no suppo
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Achille-Claude Debussy** [T5]
+- **Alfred Jarry** [T4]
+- **Igor Fyodorovich Stravinsky** [T5]
+- **Pablo Ruiz Picasso** [T5]
+- **Sergei Pavlovich Diaghilev** [T5]
+- **Vaslav Nijinsky** [T4]
+- **André Breton** [T4]
+- **Antonin Artaud** [T4]
+- **Marcel Proust** [T4]
+- **John Milton Cage Jr.** [T9+]
+- **Merce Cunningham** [T9+]
+- **Loïe Fuller** [T4]
+- **Pyotr Ilyich Tchaikovsky** [T1-]
+- **Wilhelm Richard Wagner** [T1-]
+- **Wolfgang Amadeus Mozart** [T1-]
+- **Plato** [T1-]
+- **James Augustine Aloysius Joyce** [T4] (mirrored from james_joyce.dossier.md)
+- **Igor Fyodorovich Stravinsky** [T3] (mirrored from igor_stravinsky.dossier.md)
+- **Igor Fyodorovich Stravinsky** [T1+] (mirrored from igor_stravinsky.dossier.md)
+- **Nadia Boulanger** [T1+] (mirrored from nadia_boulanger.dossier.md)
+- **Wilhelm Richard Wagner** [T9-] (mirrored from richard_wagner.dossier.md)
+- **John Milton Cage Jr.** [T1+] (mirrored from john_cage.dossier.md)
+- **Katja Wulff** [T9+] (mirrored from katja_wulff.dossier.md)
+- **George Balanchine** [T9+] (mirrored from george_balanchine.dossier.md)
+- **R. Buckminster Fuller** [T9+] (mirrored from buckminster_fuller.dossier.md)
+- **Pablo Ruiz Picasso** [T3] (mirrored from pablo_picasso.dossier.md)
+- **Suzanne Perrottet** [T9+] (mirrored from suzanne_perrottet.dossier.md)
+- **Hanya Holm** [T9+] (mirrored from hanya_holm.dossier.md)
+
 ## Sources
 
 https://www.erik-satie.com/chronologie/

@@ -461,6 +461,28 @@ Her posthumous image therefore remains divided but not simply reversed. Early ha
 
 No additional roster member was included merely because of shared influence, repertory, geography, institutional genealogy, or contemporaneity; those circumstances alone do not meet the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Geneviève Stebbins** [T3]
+- **Geneviève Stebbins** [T1-]
+- **Isadora Duncan** [T1-]
+- **Ted Shawn** [T5]
+- **Ted Shawn** [T3]
+- **Martha Graham** [T3]
+- **Martha Graham** [T5]
+- **Doris Batcheller Humphrey** [T5]
+- **Doris Batcheller Humphrey** [T3]
+- **Joseph Hubertus Pilates** [T3] (mirrored from joseph_pilates.dossier.md)
+- **Isadora Duncan** [T3] (mirrored from isadora_duncan.dossier.md)
+- **José Arcadio Limón** [T9+] (mirrored from jose_limon.dossier.md)
+- **Indra Devi** [T5] (mirrored from indra_devi.dossier.md)
+- **Ted Shawn** [T1+] (mirrored from ted_shawn.dossier.md)
+- **Mary Wigman** [T3] (mirrored from mary_wigman.dossier.md)
+- **Loïe Fuller** [T1-] (mirrored from loie_fuller.dossier.md)
+- **Anna Matveyevna Pavlova** [T4] (mirrored from anna_pavlova.dossier.md)
+
 ## Sources
 
 https://archives.nypl.org/dan/19676

@@ -1016,6 +1016,24 @@ Except for Dante’s explicit literary use of Bernard, no specific relationship 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Hildegard von Bingen** [T3]
+- **Aurelius Augustinus** [T3]
+- **Origen of Alexandria** [T3]
+- **Jesus of Nazareth** [T1-]
+- **Dante Alighieri** [T1+]
+- **Saint Anthony of Padua** [T1+] (mirrored from st_anthony_of_padua_1195_1231.dossier.md)
+- **René Guénon** [T1+] (mirrored from rene_guenon.dossier.md)
+- **Ludwig Derleth** [T1+] (mirrored from ludwig_derleth.dossier.md)
+- **Jacques de Molay** [T9+] (mirrored from molay.dossier.md)
+- **Roger II de Hauteville** [T5] (mirrored from roger_ii_of_sicily.dossier.md)
+- **Roger II de Hauteville** [T3] (mirrored from roger_ii_of_sicily.dossier.md)
+- **Roger II de Hauteville** [T1-] (mirrored from roger_ii_of_sicily.dossier.md)
+- **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+
 ## Sources
 
 https://www.jstor.org/stable/10.7591/j.ctvw04m2w

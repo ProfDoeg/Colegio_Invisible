@@ -1024,6 +1024,19 @@ No documentary connection was found in the consulted material between Mary and m
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jean-Jacques Rousseau** [T1-]
+- **Johann Wolfgang von Goethe** [T3]
+- **Edward Bulwer-Lytton** [T4]
+- **Howard Phillips Lovecraft** [T1+]
+- **Stephen Edwin King** [T9+]
+- **Steven Allan Spielberg** [T9+]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1-] (mirrored from heinrich_cornelius_agrippa.dossier.md)
+- **Edgar Allan Poe** [T1+] (mirrored from edgar_allan_poe.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -703,6 +703,26 @@ Academic philosophy largely forgot Balfour, but his evolutionary argument agains
 
 No sufficiently reliable evidence was found for additional roster crossings. Mere chronological overlap, membership in adjacent intellectual or Zionist circles, influence through the 1917 declaration, or attendance at different stages of the Hebrew University project was not treated as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ahad Ha'am** [T4]
+- **Andrew Carnegie** [T3]
+- **Andrew Carnegie** [T5]
+- **Aristotle** [T1-]
+- **Chaim Azriel Weizmann** [T5]
+- **Chaim Azriel Weizmann** [T3]
+- **John Maynard Keynes** [T1+]
+- **Paul Moritz Warburg** [T4]
+- **Plato** [T1-]
+- **Sir Arthur Ignatius Conan Doyle** [T5]
+- **William James** [T3]
+- **Sir James Matthew Barrie** [T4] (mirrored from james_matthew_barrie.dossier.md)
+- **Próspero Catelin** [T4] (mirrored from prospero_catelin.dossier.md)
+- **John Cleves Symmes Jr.** [T5] (mirrored from symmes.dossier.md)
+- **Ahad Ha'am** [T9+] (mirrored from ahad_ha_am.dossier.md)
+
 ## Sources
 
 https://www.oxforddnb.com/display/10.1093/ref%3Aodnb/9780198614128.001.0001/odnb-9780198614128-e-30553

@@ -895,6 +895,33 @@ Absence from this section means the research did not establish a direct document
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T5]
+- **Werner Heisenberg** [T5]
+- **J. Robert Oppenheimer** [T5]
+- **Enrico Fermi** [T4]
+- **Erwin Rudolf Josef Alexander Schrödinger** [T5]
+- **Paul Adrien Maurice Dirac** [T5]
+- **Wolfgang Ernst Pauli** [T5]
+- **John von Neumann** [T4]
+- **Maria Salomea Skłodowska-Curie** [T4]
+- **Satyendra Nath Bose** [T9-]
+- **Richard Phillips Feynman** [T5]
+- **Tony Hilton Royle Skyrme** [T4]
+- **Chaim Azriel Weizmann** [T4]
+- **David Ben-Gurion** [T4]
+- **John Fitzgerald Kennedy** [T1+] (mirrored from john_f_kennedy.dossier.md)
+- **Satyendra Nath Bose** [T5] (mirrored from satyendra_nath_bose.dossier.md)
+- **Wolfgang Ernst Pauli** [T3] (mirrored from wolfgang_pauli.dossier.md)
+- **Enrico Fermi** [T5] (mirrored from fermi.dossier.md)
+- **David Ben-Gurion** [T5] (mirrored from david_ben_gurion.dossier.md)
+- **Maria Salomea Skłodowska-Curie** [T3] (mirrored from marie_curie.dossier.md)
+- **Sir Isaac Newton** [T1-] (mirrored from newton.dossier.md)
+- **Erwin Rudolf Josef Alexander Schrödinger** [T3] (mirrored from erwin_schrodinger.dossier.md)
+
 ## Chronology
 
 | Date | Event |

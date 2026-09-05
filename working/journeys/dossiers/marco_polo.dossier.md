@@ -1261,6 +1261,19 @@ No documentary connection was found between Marco Polo and the overwhelming majo
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Kublai Khan** [T5]
+- **Genghis Khan** [T1-]
+- **Christopher Columbus** [T3]
+- **Alexander the Great** [T1-]
+- **Cecil John Rhodes** [T1-]
+- **Matteo Ricci** [T1+] (mirrored from matteo_ricci.dossier.md)
+- **Giuseppe Tucci** [T1+] (mirrored from giuseppe_tucci.dossier.md)
+- **Jules Gabriel Verne** [T1+] (mirrored from jules_verne.dossier.md)
+
 ## Chronology
 
 | Date | Event | Evidentiary status |

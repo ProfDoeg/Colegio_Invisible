@@ -1209,6 +1209,44 @@ Most of the 896 roster names have no documented direct intersection with Blake. 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Dante Alighieri** [T1-]
+- **Emanuel Swedenborg** [T1-]
+- **Arthur Scherbius** [T3]
+- **Dante Gabriel Rossetti** [T1+]
+- **William Morris** [T3]
+- **William Butler Yeats** [T1+]
+- **Carl Gustav Jung** [T1+]
+- **Jorge Luis Borges** [T1+]
+- **Allen Welsh Dulles** [T3]
+- **James Augustine Aloysius Joyce** [T3] (mirrored from james_joyce.dossier.md)
+- **Philip Kindred Dick** [T3] (mirrored from philip_k_dick.dossier.md)
+- **Pamela Colman Smith** [T1+] (mirrored from pamela_colman_smith.dossier.md)
+- **J. R. R. Tolkien** [T3] (mirrored from tolkien.dossier.md)
+- **Jacob Boehme** [T1-] (mirrored from jacob_boehme.dossier.md)
+- **Isadora Duncan** [T3] (mirrored from isadora_duncan.dossier.md)
+- **Frank Herbert** [T3] (mirrored from frank_herbert.dossier.md)
+- **William Seward Burroughs II** [T3] (mirrored from william_s_burroughs.dossier.md)
+- **John Pierpont Morgan** [T9+] (mirrored from j_p_morgan.dossier.md)
+- **Antonin Artaud** [T1+] (mirrored from artaud.dossier.md)
+- **Maurice Bernard Sendak** [T3] (mirrored from maurice_sendak.dossier.md)
+- **André Breton** [T1+] (mirrored from andre_breton.dossier.md)
+- **Sir Edward Coley Burne-Jones** [T3] (mirrored from edward_burne_jones.dossier.md)
+- **Jesus of Nazareth** [T1-] (mirrored from jesus.dossier.md)
+- **Xul Solar** [T3] (mirrored from xul_solar.dossier.md)
+- **Juan Eduardo Cirlot Laporta** [T3] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Noah son of Lamech** [T1-] (mirrored from noah.dossier.md)
+- **Howard Phillips Lovecraft** [T1+] (mirrored from h_p_lovecraft.dossier.md)
+- **Nabucodonosor II** [T1-] (mirrored from nabucodonosor_ii.dossier.md)
+- **Ezekiel son of Buzi** [T1-] (mirrored from ezekiel.dossier.md)
+- **Moses** [T1-] (mirrored from moses.dossier.md)
+- **Arthur Edward Waite** [T3] (mirrored from arthur_edward_waite.dossier.md)
+- **Paracelsus** [T1-] (mirrored from paracelsus.dossier.md)
+- **John Ruskin** [T1+] (mirrored from john_ruskin.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

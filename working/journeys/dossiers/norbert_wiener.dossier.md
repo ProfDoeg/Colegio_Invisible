@@ -779,6 +779,38 @@ The **AMS–SIAM Norbert Wiener Prize in Applied Mathematics**, established in 1
 
 No additional roster crossing was included solely on the basis of contemporaneity, institutional overlap, thematic resemblance, later influence, or presence within the wider cybernetics tradition.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T5]
+- **Charles Babbage** [T1-]
+- **Claude Elwood Shannon** [T3]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **James Clerk Maxwell** [T1-]
+- **John Dewey** [T5]
+- **John von Neumann** [T5]
+- **Judah Loew ben Bezalel** [T1-]
+- **Maimonides** [T1-]
+- **Michael Faraday** [T1-]
+- **Nikolai Aleksandrovich Bernstein** [T5]
+- **Plato** [T1-]
+- **Ramon Llull** [T1-]
+- **Anthony Stafford Beer** [T5]
+- **Alan Mathison Turing** [T1-]
+- **Philip R. Zimmermann** [T9+]
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **John von Neumann** [T3] (mirrored from john_von_neumann.dossier.md)
+- **Donna Jeanne Haraway** [T1+] (mirrored from donna_haraway.dossier.md)
+- **Ray Kurzweil** [T1+] (mirrored from ray_kurzweil.dossier.md)
+- **Simon of Gitta** [T1-] (mirrored from simon_magus.dossier.md)
+- **Ștefan Odobleja** [T1+] (mirrored from stefan_odobleja.dossier.md)
+- **Ștefan Odobleja** [T3] (mirrored from stefan_odobleja.dossier.md)
+- **Ștefan Odobleja** [T9-] (mirrored from stefan_odobleja.dossier.md)
+- **Anthony Stafford Beer** [T3] (mirrored from stafford_beer.dossier.md)
+- **Anthony Stafford Beer** [T1+] (mirrored from stafford_beer.dossier.md)
+- **Nikolai Aleksandrovich Bernstein** [T3] (mirrored from nikolai_bernstein.dossier.md)
+
 ## Sources
 
 https://www.nasonline.org/wp-content/uploads/2024/06/wiener-norbert.pdf

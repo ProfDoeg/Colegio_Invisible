@@ -810,6 +810,38 @@ For the overwhelming majority of the 896-person roster, no documented crossing w
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ruth St. Denis** [T5]
+- **Ted Shawn** [T5]
+- **Doris Batcheller Humphrey** [T4]
+- **Hanya Holm** [T4]
+- **Anna Matveyevna Pavlova** [T4]
+- **Mary Wigman** [T4]
+- **Merce Cunningham** [T5]
+- **John Milton Cage Jr.** [T4]
+- **George Balanchine** [T5]
+- **Igor Fyodorovich Stravinsky** [T9-]
+- **José Arcadio Limón** [T4]
+- **Sara Rudner** [T4]
+- **Viola Farber** [T4]
+- **Jennifer Muller** [T4]
+- **Joseph Hubertus Pilates** [T4]
+- **John Fitzgerald Kennedy** [T4]
+- **Abraham Lincoln** [T9-]
+- **Ruth St. Denis** [T3] (mirrored from ruth_st_denis.dossier.md)
+- **Joseph Hubertus Pilates** [T5] (mirrored from joseph_pilates.dossier.md)
+- **Isadora Duncan** [T3] (mirrored from isadora_duncan.dossier.md)
+- **José Arcadio Limón** [T5] (mirrored from jose_limon.dossier.md)
+- **Vaslav Nijinsky** [T9-] (mirrored from vaslav_nijinsky.dossier.md)
+- **Doris Batcheller Humphrey** [T5] (mirrored from doris_humphrey.dossier.md)
+- **Jennifer Muller** [T9+] (mirrored from jennifer_muller.dossier.md)
+- **Dore Hoyer** [T5] (mirrored from dore_hoyer.dossier.md)
+- **Dore Hoyer** [T1+] (mirrored from dore_hoyer.dossier.md)
+- **Mary Wigman** [T3] (mirrored from mary_wigman.dossier.md)
+
 ## Compact Chronology
 
 - **1894, May 11:** Born in Allegheny City, Pennsylvania.

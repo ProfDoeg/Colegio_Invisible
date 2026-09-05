@@ -762,6 +762,16 @@ Rosario preserved the plan principally as an unrealized episode and as a predece
 
 - **[T4] Documented fact:** Verne belonged to the public committee that promoted and financed the Paris monument to Alexandre Dumas, while Bouvard and Gravigny designed its pedestal. Both are named in the monument’s documented project history, completed and inaugurated in 1883. This supports participation in the same commemorative undertaking, but not a personal meeting or correspondence between Verne and Bouvard. [Alexandre Dumas Society account](https://www.dumaspere.com/pages/vie/lieux/rues.html), [monument inscription and history](https://e-monumen.net/patrimoine-monumental/monument-a-alexandre-dumas-paris-17e-arr/)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexandre Dumas** [T9-]
+- **Jules Charles** [T3]
+- **Jean-Claude Nicolas Forestier** [T3]
+- **Jules-Félix Coutan** [T4]
+- **Jules Gabriel Verne** [T4]
+
 ## Sources
 
 https://agorha.inha.fr/ark:/54721/88efaadc-7ab2-4d02-892a-b881c5c3c911

@@ -1079,6 +1079,52 @@ No supported direct connection was found for the great majority of the 896 liste
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Augustin-Louis Cauchy** [T5]
+- **Jean-Paul Charles Aymard Sartre** [T5]
+- **Gilles Louis Rene Deleuze** [T5]
+- **Jacques Derrida** [T5]
+- **Jacques Marie Émile Lacan** [T5]
+- **Roland Gérard Barthes** [T4]
+- **Avram Noam Chomsky** [T5]
+- **Friedrich Nietzsche** [T1-]
+- **Karl Marx** [T1-]
+- **Sigmund Freud** [T1-]
+- **Martin Heidegger** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Immanuel Kant** [T1-]
+- **René Descartes** [T1-]
+- **Jean Baudrillard** [T1+]
+- **Jürgen Habermas** [T1+]
+- **Pierre-Félix Guattari** [T4]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T4]
+- **Pierre-Félix Guattari** [T3]
+- **Ludwig Heinrich Edler von Mises** [T1-] (mirrored from ludwig_von_mises.dossier.md)
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3] (mirrored from simone_de_beauvoir.dossier.md)
+- **Diogenes of Sinope** [T1-] (mirrored from diogenes_of_sinope.dossier.md)
+- **Wilhelm Reich** [T1-] (mirrored from reich.dossier.md)
+- **Jean Baudrillard** [T3] (mirrored from jean_baudrillard.dossier.md)
+- **Claude Lévi-Strauss** [T3] (mirrored from claude_levi_strauss.dossier.md)
+- **Plato** [T1-] (mirrored from plato.dossier.md)
+- **Miguel de Cervantes Saavedra** [T3] (mirrored from miguel_de_cervantes.dossier.md)
+- **René Noël Théophile Girard** [T4] (mirrored from rene_girard.dossier.md)
+- **Antonin Artaud** [T1-] (mirrored from artaud.dossier.md)
+- **Gustave Flaubert** [T1-] (mirrored from gustave_flaubert.dossier.md)
+- **Donna Jeanne Haraway** [T1+] (mirrored from donna_haraway.dossier.md)
+- **John Rogers Searle** [T5] (mirrored from john_searle.dossier.md)
+- **Roland Gérard Barthes** [T5] (mirrored from roland_barthes.dossier.md)
+- **Jacques Marie Émile Lacan** [T3] (mirrored from jacques_lacan.dossier.md)
+- **Luis Alberto Spinetta** [T3] (mirrored from spinetta.dossier.md)
+- **Aristotle** [T1-] (mirrored from aristotle.dossier.md)
+- **Aurelius Augustinus** [T1-] (mirrored from saint_augustine_of_hippo.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T4] (mirrored from jean_paul_sartre.dossier.md)
+- **Nicos Poulantzas** [T3] (mirrored from nicos_poulantzas.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+
 ## Chronology
 
 | Date | Event |

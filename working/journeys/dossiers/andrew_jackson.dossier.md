@@ -992,6 +992,25 @@ Pike lived in Arkansas during Jackson’s presidency and later became prominent 
 
 No reliable direct intersections were found with the overwhelming majority of the supplied atlas roster. Shared nationality, political era, symbolic comparison, later commentary, or residence in the same broad region was not treated as a connection without documentary support.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Thomas Jefferson** [T3]
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T5]
+- **Abraham Lincoln** [T3]
+- **George Washington** [T4]
+- **Alexander Hamilton** [T9-]
+- **Napoleon Bonaparte** [T1-]
+- **William Jefferson Clinton** [T1+] (mirrored from bill_clinton.dossier.md)
+- **Paul Moritz Warburg** [T1+] (mirrored from paul_warburg.dossier.md)
+- **George Washington** [T9-] (mirrored from george_washington.dossier.md)
+- **Simón Bolívar** [T3] (mirrored from bolivar.dossier.md)
+- **Arthur Ben** [T1+] (mirrored from arthur_ben.dossier.md)
+- **Harriet Tubman** [T9+] (mirrored from harriet_tubman.dossier.md)
+- **Abraham Lincoln** [T1+] (mirrored from abraham_lincoln.dossier.md)
+- **Robert Finley** [T4] (mirrored from robert_finley.dossier.md)
+
 ## Sources
 
 https://www.loc.gov/collections/andrew-jackson-papers/about-this-collection

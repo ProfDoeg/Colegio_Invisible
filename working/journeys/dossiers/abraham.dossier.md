@@ -1343,6 +1343,57 @@ No source consulted supports a personal meeting, correspondence, collaboration, 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **King Solomon** [T9+]
+- **Moses** [T1+]
+- **Paul the Apostle** [T1+]
+- **Muhammad ibn Abdullah** [T1+]
+- **Flavius Josephus** [T1+]
+- **Maimonides** [T1+]
+- **Søren Aabye Kierkegaard** [T1+]
+- **Igor Fyodorovich Stravinsky** [T1+]
+- **Jordan Maxwell** [T1+] (mirrored from jordan_maxwell.dossier.md)
+- **Jan Amos Komenský** [T1+] (mirrored from jan_amos_comenius.dossier.md)
+- **Felipe Guamán Poma de Ayala** [T1+] (mirrored from guaman_poma_de_ayala.dossier.md)
+- **Emanuel Swedenborg** [T1+] (mirrored from emanuel_swedenborg.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Abu Karib As'ad** [T9+] (mirrored from abu_karib.dossier.md)
+- **Amir Khusrow Dehlavi** [T1+] (mirrored from amir_khusrow.dossier.md)
+- **Ahmad al-Majriti** [T1+] (mirrored from ahmad_al_majriti.dossier.md)
+- **Ibn Arabi** [T1+] (mirrored from ibn_arabi.dossier.md)
+- **Richard Dawkins** [T1+] (mirrored from richard_dawkins.dossier.md)
+- **Joaquín Trincado Mateo** [T1+] (mirrored from joaquin_trincado_mateo.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Rabbi Benjamin son of Jonah of Tudela** [T1+] (mirrored from benjamin_de_tudela.dossier.md)
+- **Saadia Gaon** [T1+] (mirrored from saadia_gaon.dossier.md)
+- **Judah Loew ben Bezalel** [T1+] (mirrored from judah_loew_ben_bezalel_the_maharal_of_prague.dossier.md)
+- **Jesus of Nazareth** [T1+] (mirrored from jesus.dossier.md)
+- **Jacob Frank** [T1+] (mirrored from jacob_frank.dossier.md)
+- **Erich Seligmann Fromm** [T1+] (mirrored from erich_fromm.dossier.md)
+- **Aurelius Augustinus** [T1+] (mirrored from saint_augustine_of_hippo.dossier.md)
+- **Rashi** [T1+] (mirrored from rashi.dossier.md)
+- **Jacques Derrida** [T1+] (mirrored from jacques_derrida.dossier.md)
+- **Maimonides** [T9+] (mirrored from maimonides.dossier.md)
+- **David ben Jesse** [T1+] (mirrored from king_david.dossier.md)
+- **Origen of Alexandria** [T1+] (mirrored from origen.dossier.md)
+- **Tertullian** [T1+] (mirrored from tertullian.dossier.md)
+- **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
+- **Martin Luther** [T1+] (mirrored from martin_luther.dossier.md)
+- **Jalal al-Din Rumi** [T1+] (mirrored from rumi.dossier.md)
+- **Nabucodonosor II** [T9+] (mirrored from nabucodonosor_ii.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Samuel Preiswerk** [T1+] (mirrored from samuel_preiswerk.dossier.md)
+- **Ezekiel son of Buzi** [T1+] (mirrored from ezekiel.dossier.md)
+- **Grigori Yefimovich Rasputin** [T1+] (mirrored from grigori_rasputin.dossier.md)
+- **Moses de Leon** [T1+] (mirrored from moses_de_leon.dossier.md)
+- **Robert Finley** [T9+] (mirrored from robert_finley.dossier.md)
+- **Egeria** [T9+] (mirrored from egeria.dossier.md)
+- **Alberto Gerchunoff** [T1+] (mirrored from alberto_gerchunoff.dossier.md)
+
 ## Chronology
 
 | Age or approximate period | Event | Evidentiary status |

@@ -1291,6 +1291,100 @@ No defensible life crossing was found between Plato and most roster members. In 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T5]
+- **Diogenes of Sinope** [T4]
+- **Homer** [T1-]
+- **Hesiod of Ascra** [T1-]
+- **Pindar of Thebes** [T1-]
+- **Herodotus of Halicarnassus** [T1-]
+- **Archimedes of Syracuse** [T9+]
+- **Alexander the Great** [T9+]
+- **Marcus Tullius Cicero** [T1+]
+- **Aurelius Augustinus** [T1+]
+- **Origen of Alexandria** [T1+]
+- **Tertullian** [T1+]
+- **Maimonides** [T1+]
+- **Abu Yusuf Ya'qub ibn Ishaq al-Kindi** [T1+]
+- **Albertus Magnus** [T1+]
+- **Thomas Aquinas** [T1+]
+- **Dante Alighieri** [T1+]
+- **Giovanni Pico della Mirandola** [T1+]
+- **Giordano Bruno** [T1+]
+- **Galileo Galilei** [T1+]
+- **Johannes Kepler** [T1+]
+- **René Descartes** [T1+]
+- **Gottfried Wilhelm Leibniz** [T1+]
+- **Immanuel Kant** [T1+]
+- **Georg Wilhelm Friedrich Hegel** [T1+]
+- **Friedrich Nietzsche** [T1+]
+- **Søren Aabye Kierkegaard** [T1+]
+- **Martin Heidegger** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Jacques Derrida** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Jürgen Habermas** [T1+]
+- **Slavoj Žižek** [T1+]
+- **Maslama ibn Qasim al-Qurtubi** [T1+] (mirrored from maslama_al_qurtubi.dossier.md)
+- **Norbert Wiener** [T1+] (mirrored from norbert_wiener.dossier.md)
+- **Diogenes of Sinope** [T5] (mirrored from diogenes_of_sinope.dossier.md)
+- **John Langshaw Austin** [T1+] (mirrored from j_l_austin.dossier.md)
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **Roger Bacon** [T1+] (mirrored from roger_bacon.dossier.md)
+- **Philip Kindred Dick** [T1+] (mirrored from philip_k_dick.dossier.md)
+- **Sir Thomas More** [T1+] (mirrored from thomas_more.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Zoroaster** [T1-] (mirrored from zoroaster.dossier.md)
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Sor Juana Inés de la Cruz** [T3] (mirrored from sor_juana_ines_de_la_cruz.dossier.md)
+- **Pindar of Thebes** [T3] (mirrored from pindar.dossier.md)
+- **Lorenzo di Piero de' Medici** [T1+] (mirrored from lorenzo_de_medici_il_magnifico.dossier.md)
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T1+] (mirrored from oscar_wilde.dossier.md)
+- **Publius Vergilius Maro** [T3] (mirrored from virgil.dossier.md)
+- **Ahmad al-Majriti** [T1+] (mirrored from ahmad_al_majriti.dossier.md)
+- **Friedrich Wilhelm Joseph Schelling** [T1+] (mirrored from schelling.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T1+] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1+] (mirrored from heinrich_cornelius_agrippa.dossier.md)
+- **Simonides of Ceos** [T1-] (mirrored from simonides_of_ceos.dossier.md)
+- **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Johannes Reuchlin** [T1+] (mirrored from johannes_reuchlin.dossier.md)
+- **Flavius Josephus** [T3] (mirrored from flavius_josephus.dossier.md)
+- **Abu Yusuf Ya'qub ibn Ishaq al-Kindi** [T3] (mirrored from al_kindi.dossier.md)
+- **Giulio Camillo Delminio** [T1+] (mirrored from giulio_camillo.dossier.md)
+- **John Rogers Searle** [T1+] (mirrored from john_searle.dossier.md)
+- **Giambattista Vico** [T3] (mirrored from vico.dossier.md)
+- **Odysseus** [T1-] (mirrored from ulysses.dossier.md)
+- **Jacques Marie Émile Lacan** [T1+] (mirrored from jacques_lacan.dossier.md)
+- **Joseph Alois Schumpeter** [T1+] (mirrored from joseph_schumpeter.dossier.md)
+- **Cyrus the Great** [T1-] (mirrored from cyrus.dossier.md)
+- **Sir Isaac Newton** [T1+] (mirrored from newton.dossier.md)
+- **Helena Petrovna Blavatsky** [T1+] (mirrored from blavatsky.dossier.md)
+- **Lucilio Vanini** [T1+] (mirrored from lucilio_vanini.dossier.md)
+- **Jean-Jacques Rousseau** [T1+] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Nizami Ganjavi** [T1+] (mirrored from nizami.dossier.md)
+- **Claudius Aelianus** [T1+] (mirrored from claudius_aelianus_aelian.dossier.md)
+- **Arthur James Balfour** [T1+] (mirrored from arthur_balfour.dossier.md)
+- **Erwin Rudolf Josef Alexander Schrödinger** [T1+] (mirrored from erwin_schrodinger.dossier.md)
+- **Tommaso Campanella** [T1+] (mirrored from tommaso_campanella.dossier.md)
+- **Erik Satie** [T1+] (mirrored from erik_satie.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+- **John Dewey** [T1+] (mirrored from john_dewey.dossier.md)
+- **Marcus Fabius Quintilianus** [T1+] (mirrored from quintilian.dossier.md)
+- **Nicolaus Copernicus** [T1+] (mirrored from nicolaus_copernicus.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T1+] (mirrored from jean_paul_sartre.dossier.md)
+- **Jorge Luis Borges** [T1+] (mirrored from borges.dossier.md)
+- **Nicholas of Cusa** [T1+] (mirrored from nicholas_of_cusa.dossier.md)
+- **Johann Wolfgang von Goethe** [T1+] (mirrored from goethe_full.dossier.md)
+- **Leon Battista Alberti** [T1+] (mirrored from leon_battista_alberti.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+- **Polybius of Megalopolis** [T3] (mirrored from polybius.dossier.md)
+- **Leonardo di ser Piero da Vinci** [T1+] (mirrored from leonardo_da_vinci.dossier.md)
+
 ## Sources
 
 https://iep.utm.edu/plato/

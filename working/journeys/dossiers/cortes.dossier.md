@@ -919,6 +919,21 @@ The atlas entry appears to encompass the historical woman best known as **Malint
 
 No documentary crossing was found with the remaining roster members. Most belong to other centuries or regions. Similarity of occupation, later artistic representation, or shared inclusion in histories of empire does not by itself constitute an Atlas connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Motecuhzoma Xocoyotzin** [T5]
+- **Margarita / Marina / Pelagia** [T5]
+- **Francisco Pizarro González** [T4]
+- **Christopher Columbus** [T9-]
+- **Motecuhzoma Xocoyotzin** [T1-] (mirrored from moctezuma_ii.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Joaquín Trincado Mateo** [T1+] (mirrored from joaquin_trincado_mateo.dossier.md)
+- **Christopher Columbus** [T4] (mirrored from columbus.dossier.md)
+- **Fernão de Magalhães** [T1-] (mirrored from ferdinand_magellan.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+
 ## Chronology
 
 | Date | Event |

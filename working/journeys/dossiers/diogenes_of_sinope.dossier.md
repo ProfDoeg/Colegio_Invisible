@@ -856,6 +856,29 @@ Only connections supported by the supplied roster and consulted evidence are inc
 
 No evidence-based personal crossing, correspondence, family relationship, institutional affiliation, or explicitly acknowledged influence was found between Diogenes and the great majority of the atlas roster. Mere contemporaneity with figures such as Archimedes, Aristotle’s associates, or other Greek and Macedonian individuals was not treated as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander the Great** [T5]
+- **Plato** [T5]
+- **Aristotle** [T1+]
+- **Friedrich Nietzsche** [T1+]
+- **Søren Aabye Kierkegaard** [T1+]
+- **Jean-Jacques Rousseau** [T1+]
+- **Albert Camus** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Jacques Derrida** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Guy-Ernest Debord** [T1+]
+- **Walter Benjamin** [T1+]
+- **Slavoj Žižek** [T1+]
+- **Jan Amos Komenský** [T1+] (mirrored from jan_amos_comenius.dossier.md)
+- **Plato** [T4] (mirrored from plato.dossier.md)
+- **Marcus Tullius Cicero** [T1+] (mirrored from cicero.dossier.md)
+- **Claudius Aelianus** [T1+] (mirrored from claudius_aelianus_aelian.dossier.md)
+- **Leon Battista Alberti** [T1+] (mirrored from leon_battista_alberti.dossier.md)
+
 ## Chronology
 
 | Date | Event | Evidentiary status |

@@ -683,6 +683,20 @@ No single ledger proves “everything Moses built” or “everyone Moses displa
 
 - **[T5]** **Documented fact.** Moses visited Walt Disney’s California studio in **April 1962** to inspect attractions being developed for the 1964–65 New York World’s Fair. Disney personally showed him the prototype Audio-Animatronic Abraham Lincoln; Moses then pressed for its inclusion in the fair, helping produce Illinois’s *Great Moments with Mr. Lincoln* pavilion. Disney later hosted Moses again during a **1963** studio visit, and the two appeared together at the pavilion announcement in New York. This was a direct working relationship involving repeated meetings, not merely parallel participation in the fair. [Disney D23 history](https://d23.com/the-hall-of-presidents-story/); [Disney archival magazine](https://disneyvacationclub.disney.go.com/media/dvc/languagespecific/eng/member/justformembers/disneyfilesmagazine/2009/DisneyFilesMagazine_Fall2009.pdf)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Calvert Vaux** [T9-]
+- **David Rockefeller** [T3]
+- **Frank Lloyd Wright** [T3]
+- **Frederick Law Olmsted** [T9-]
+- **George Herbert Walker Bush** [T3]
+- **John Fitzgerald Kennedy** [T3]
+- **John Fitzgerald Kennedy** [T5]
+- **Prescott Sheldon Bush** [T3]
+- **Walter Elias Disney** [T5]
+
 ## Sources
 
 https://99percentinvisible.org/episode/power-broker-01-robert-caro/transcript/

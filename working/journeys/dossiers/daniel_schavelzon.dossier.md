@@ -875,6 +875,19 @@ Both are central to Schávelzon’s work—Siqueiros through *Ejercicio Plástic
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Juan Domingo Perón** [T1-]
+- **Juan Manuel José Domingo Ortiz de Rozas y López de Osornio** [T1-]
+- **Julio Florencio Cortázar Descotte** [T1-]
+- **Pedro de Mendoza** [T9-]
+- **Francesco Tamburini** [T1-] (mirrored from francesco_tamburini.dossier.md)
+- **Juan Antonio Buschiazzo** [T1-] (mirrored from juan_antonio_buschiazzo.dossier.md)
+- **Pedro Simón del Corazón de Jesús Benoit** [T1-] (mirrored from pedro_benoit.dossier.md)
+- **Jules Dormal Godet** [T1-] (mirrored from jules_dormal.dossier.md)
+
 ## Chronology
 
 - **1890s:** Earliest surviving Schavelzon-family photographs in Russia and Poland.

@@ -532,6 +532,24 @@ No single epithet—“Great,” “last Roman,” “saint,” “tyrant,” or
 
 No documented personal crossing, correspondence, prophecy relationship, or sufficiently specific shared-object/site connection was found for the remaining roster entries. Mere appearance of an ancient person in Justinianic-era scripture, law, church dedications, later intellectual influence, or broad Roman/Christian tradition has not been counted without evidence meeting one of the six specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Empress Theodora** [T5]
+- **Jesus of Nazareth** [T1-]
+- **Origen of Alexandria** [T1-]
+- **Moses** [T9-]
+- **Egeria** [T9-]
+- **Catherine of Alexandria** [T9+]
+- **Paul the Deacon** [T1+]
+- **Dante Alighieri** [T1+]
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Constantine XI Palaiologos** [T9+] (mirrored from constantine_xi_palaiologos.dossier.md)
+- **Pantaleon of Nicomedia** [T9-] (mirrored from saint_pantaleon.dossier.md)
+- **Saint Acacius of Byzantium** [T9-] (mirrored from saint_acacius.dossier.md)
+- **Constantine the Great** [T9-] (mirrored from constantino_el_grande.dossier.md)
+
 ## Sources
 
 https://roman-emperors.sites.luc.edu/justinia.htm

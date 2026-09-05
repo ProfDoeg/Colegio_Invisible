@@ -616,6 +616,12 @@ The evidence supports four durable conclusions:
 
 No other genuine crossing with a person on the supplied atlas roster was located in the consulted archival descriptions, institutional histories, or targeted searches. Mere shared attendance-era geography, professional subject matter, or later association with the Brooklyn Bridge was not treated as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **John Augustus Roebling** [T5]
+
 ## Sources
 
 https://archives.libraries.rutgers.edu/repositories/11/resources/908

@@ -29,3 +29,34 @@ Which Francis Bacon should the dossier cover?
 2. **Francis Bacon (1909–1992)** — Irish-born British painter.
 
 The requested chronology, controversies, works, myths, and Atlas connections differ completely between them.
+
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jan Amos Komenský** [T1+] (mirrored from jan_amos_comenius.dossier.md)
+- **Elizebeth Smith Friedman** [T1+] (mirrored from elizebeth_smith_friedman.dossier.md)
+- **Roger Bacon** [T1-] (mirrored from roger_bacon.dossier.md)
+- **Friedrich August von Hayek** [T1+] (mirrored from friedrich_hayek.dossier.md)
+- **Eugen Böhm Ritter von Bawerk** [T1+] (mirrored from eugen_von_bohm_bawerk.dossier.md)
+- **John Uri Lloyd** [T1+] (mirrored from john_uri_lloyd.dossier.md)
+- **Gottfried Wilhelm Leibniz** [T3] (mirrored from gottfried_wilhelm_leibniz.dossier.md)
+- **Benjamin Franklin** [T1+] (mirrored from benjamin_franklin.dossier.md)
+- **Thomas Jefferson** [T1+] (mirrored from thomas_jefferson.dossier.md)
+- **La Difunta Correa** [T3] (mirrored from la_difunta_correa.dossier.md)
+- **Adam Smith** [T3] (mirrored from adam_smith.dossier.md)
+- **Eadweard Muybridge** [T1-] (mirrored from muybridge.dossier.md)
+- **John Dee** [T4] (mirrored from john_dee.dossier.md)
+- **Giambattista Vico** [T3] (mirrored from vico.dossier.md)
+- **Aristotle** [T1-] (mirrored from aristotle.dossier.md)
+- **Johannes Kepler** [T3] (mirrored from johannes_kepler.dossier.md)
+- **Sir Isaac Newton** [T1+] (mirrored from newton.dossier.md)
+- **René Descartes** [T3] (mirrored from rene_descartes.dossier.md)
+- **Lucilio Vanini** [T3] (mirrored from lucilio_vanini.dossier.md)
+- **John Locke** [T1+] (mirrored from john_locke.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **William Frederick Friedman** [T1+] (mirrored from william_f_friedman.dossier.md)
+- **Auguste Kerckhoffs** [T1+] (mirrored from auguste_kerckhoffs.dossier.md)
+- **Paracelsus** [T4] (mirrored from paracelsus.dossier.md)
+

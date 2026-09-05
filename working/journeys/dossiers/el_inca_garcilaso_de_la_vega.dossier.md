@@ -763,6 +763,22 @@ No documented personal connection was found with Christopher Columbus, Hernán C
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Atahualpa** [T1-]
+- **Blas Valera** [T3]
+- **Francisco Pizarro González** [T1-]
+- **Jorge Luis Borges** [T3]
+- **José Gabriel Condorcanqui Noguera** [T3]
+- **Alexander von Humboldt** [T3]
+- **José de San Martín** [T3]
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **Christopher Columbus** [T1-] (mirrored from columbus.dossier.md)
+- **José Gabriel Condorcanqui Noguera** [T9+] (mirrored from tupac_amaru_ii.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+
 ## Sources
 
 https://www.cervantesvirtual.com/portales/inca_garcilaso_de_la_vega/su_obra_catalogo/

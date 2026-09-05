@@ -678,6 +678,39 @@ The most important posthumous reinterpretation is the **Thiel–Vance axis**. It
 
 No T2 prophecy/hyperstition or T9 shared-object transmission meeting the stated evidentiary threshold was found among the documented roster crossings above. Mere thematic resemblance, common institutional affiliation at different dates, or later use of Girard by other roster members has not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **Albert Camus** [T1-]
+- **Aristotle** [T1-]
+- **Claude Lévi-Strauss** [T3]
+- **Friedrich Nietzsche** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Gustave Flaubert** [T1-]
+- **Igor Fyodorovich Stravinsky** [T1-]
+- **Jacques Derrida** [T4]
+- **Jacques Marie Émile Lacan** [T4]
+- **Jean-Paul Charles Aymard Sartre** [T3]
+- **Jesus of Nazareth** [T1-]
+- **Marcel Proust** [T1-]
+- **Paul-Michel Foucault** [T4]
+- **Miguel de Cervantes Saavedra** [T1-]
+- **Paul the Apostle** [T1-]
+- **Peter Andreas Thiel** [T5]
+- **Peter Andreas Thiel** [T3]
+- **Roland Gérard Barthes** [T4]
+- **Sigmund Freud** [T1-]
+- **Vaslav Nijinsky** [T1-]
+- **Wilhelm Richard Wagner** [T1-]
+- **Claude Lévi-Strauss** [T4] (mirrored from claude_levi_strauss.dossier.md)
+- **Peter Andreas Thiel** [T1+] (mirrored from peter_thiel.dossier.md)
+- **Roland Gérard Barthes** [T5] (mirrored from roland_barthes.dossier.md)
+- **Jacques Marie Émile Lacan** [T5] (mirrored from jacques_lacan.dossier.md)
+- **Jacques Derrida** [T5] (mirrored from jacques_derrida.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+
 ## Sources
 
 https://www.academie-francaise.fr/les-immortels/rene-girard

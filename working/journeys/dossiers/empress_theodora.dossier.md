@@ -479,6 +479,14 @@ The exact birth date/place, mother’s name, formal education, date of marriage,
 
 No other roster member has a responsibly documented crossing with Theodora under the six specified connection types; apparent overlaps based only on shared cities, religious traditions, artistic reception, or distant chronology were excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Justinian I** [T5]
+- **Constantine the Great** [T9-]
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+
 ## Sources
 
 https://archive.org/details/downey-1940-malalas-books-08-18

@@ -672,6 +672,45 @@ Adorno’s archive is immense, while much correspondence and lecture material is
 
 No evidence strong enough for inclusion was identified for the remaining roster members. Mere citation, indirect influence, residence in the same large city, or membership in a broad intellectual tradition was not treated as a crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Walter Benjamin** [T5]
+- **Max Horkheimer** [T5]
+- **Herbert Marcuse** [T5]
+- **Erich Seligmann Fromm** [T3]
+- **Jürgen Habermas** [T5]
+- **Fritz Lang** [T5]
+- **Immanuel Kant** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Karl Marx** [T1-]
+- **Sigmund Freud** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Søren Aabye Kierkegaard** [T1-]
+- **Martin Heidegger** [T1-]
+- **Max Weber** [T1-]
+- **Wilhelm Richard Wagner** [T1-]
+- **Igor Fyodorovich Stravinsky** [T1-]
+- **John Milton Cage Jr.** [T1-]
+- **Jean-Paul Charles Aymard Sartre** [T1-]
+- **Samuel Langhorne Clemens** [T1-]
+- **Jacques Derrida** [T1+]
+- **Winfried Georg Sebald** [T1+]
+- **Igor Fyodorovich Stravinsky** [T3] (mirrored from igor_stravinsky.dossier.md)
+- **Wolfgang Amadeus Mozart** [T1-] (mirrored from wolfgang_amadeus_mozart.dossier.md)
+- **Wilhelm Reich** [T4] (mirrored from reich.dossier.md)
+- **Winfried Georg Sebald** [T3] (mirrored from w_g_sebald.dossier.md)
+- **Walter Benjamin** [T3] (mirrored from walter_benjamin.dossier.md)
+- **Friedrich Wilhelm Joseph Schelling** [T1-] (mirrored from schelling.dossier.md)
+- **Paul Klee** [T9-] (mirrored from paul_klee.dossier.md)
+- **Erich Seligmann Fromm** [T4] (mirrored from erich_fromm.dossier.md)
+- **Mark Fisher** [T1+] (mirrored from mark_fisher.dossier.md)
+- **Victoria Ocampo** [T3] (mirrored from victoria_ocampo.dossier.md)
+- **Felix José Weil** [T4] (mirrored from felix_weil.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+- **Max Horkheimer** [T3] (mirrored from max_horkheimer.dossier.md)
+
 ## Sources
 
 https://www.ifs.uni-frankfurt.de/adorno-archiv.html

@@ -687,6 +687,15 @@ La Plata became one of Latin America’s most cited nineteenth-century planned c
 
 No adequately documented personal crossing was found with other roster members. In particular, shared eras, architectural affinities, Masonic traditions, or later occupancy of Buenos Aires and La Plata were not treated as connections without a specific documentary bridge.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jules Dormal Godet** [T5]
+- **José Rafael Hernández** [T4]
+- **Le Corbusier** [T9+]
+- **Daniel Gastón Schávelzon** [T1+]
+
 ## Sources
 
 https://museo.filo.uba.ar/pedro-benoit

@@ -1256,6 +1256,28 @@ No sufficiently documented personal crossing was found with the remaining atlas 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Anni Albers** [T4]
+- **Oskar Alfred Victor Schlemmer** [T5]
+- **Paul Klee** [T5]
+- **Wassily Kandinsky** [T4]
+- **Johann Wolfgang von Goethe** [T3]
+- **Friedrich Fröbel** [T9-]
+- **Johann Heinrich Pestalozzi** [T9-]
+- **Rudolf Steiner** [T4]
+- **Émile Jaques-Dalcroze** [T9-]
+- **Otto Hanish** [T3] (mirrored from otto_hanish.dossier.md)
+- **Paul Klee** [T4] (mirrored from paul_klee.dossier.md)
+- **Rudolf Laban** [T4] (mirrored from laban.dossier.md)
+- **Oskar Alfred Victor Schlemmer** [T3] (mirrored from oskar_schlemmer.dossier.md)
+- **Sophie Taeuber-Arp** [T5] (mirrored from sophie_taeuber_arp.dossier.md)
+- **Wassily Kandinsky** [T5] (mirrored from wassily_kandinsky.dossier.md)
+- **Anni Albers** [T5] (mirrored from anni_albers.dossier.md)
+- **Suzanne Perrottet** [T4] (mirrored from suzanne_perrottet.dossier.md)
+
 ## Chronology
 
 | Date | Event |

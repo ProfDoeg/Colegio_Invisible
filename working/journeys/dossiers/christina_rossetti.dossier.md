@@ -1119,6 +1119,24 @@ No reliable evidence was found for a personal meeting, correspondence, collabora
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Dante Gabriel Rossetti** [T5]
+- **Dante Alighieri** [T1-]
+- **John Ruskin** [T3]
+- **William Holman Hunt** [T4]
+- **Sir John Everett Millais** [T4]
+- **William Morris** [T5]
+- **Jane Morris** [T4]
+- **Charles John Huffam Dickens** [T4]
+- **Jesus of Nazareth** [T1-]
+- **William Butler Yeats** [T1+]
+- **Sir John Everett Millais** [T9] (mirrored from john_everett_millais.dossier.md)
+- **William Butler Yeats** [T3] (mirrored from w_b_yeats.dossier.md)
+- **Sir Edward Coley Burne-Jones** [T5] (mirrored from edward_burne_jones.dossier.md)
+
 ## Chronology
 
 | Date | Event |

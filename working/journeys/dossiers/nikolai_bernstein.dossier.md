@@ -640,6 +640,16 @@ The tension that organized his work remains live: movement is simultaneously mec
 
 No other roster crossing was retained: thematic resemblance, indirect intellectual affinity, institutional association, or simple contemporaneity without evidence of writing, exchange, meeting, proximity at a specific event, or transmission of a shared object/site was excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Leonardo di ser Piero da Vinci** [T1-]
+- **Étienne-Jules Marey** [T1-]
+- **Étienne-Jules Marey** [T9-]
+- **Norbert Wiener** [T5]
+- **Norbert Wiener** [T3]
+
 ## Sources
 
 https://dokumen.pub/978-5-89353-524-2.html

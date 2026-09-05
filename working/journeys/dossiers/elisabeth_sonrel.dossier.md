@@ -649,6 +649,14 @@ The roster was checked for documented meetings, collaboration, influence, instit
 
 - **Sarah Bernhardt, Auguste Rodin, Achille-Claude Debussy, Erik Satie, Marcel Proust, Alphonse Mucha, Pamela Colman Smith, Gustav Klimt, William Morris, William Holman Hunt, and the other rostered contemporaries:** no supported direct connection was recovered. Mere contemporaneity, stylistic resemblance, or presence in Paris has not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Edgar Allan Poe** [T3]
+- **Dante Alighieri** [T3]
+- **Joan of Arc** [T1-]
+
 ## Chronology
 
 - **1837, 23 January:** Nicolas Stéphane Sonrel born at Remiremont.

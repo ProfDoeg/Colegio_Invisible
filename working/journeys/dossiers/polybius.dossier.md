@@ -586,6 +586,23 @@ The name “Polybius” now evokes both the classical historian and the unverifi
 
 - **[T3]** **Documented fact.** Strabo’s *Geography*, composed in the late first century BCE and early first century CE, repeatedly quotes, paraphrases, and criticizes Polybius’s lost geographical Book 34. Strabo preserves Polybius’s case against Pytheas while also challenging Polybius’s own distances and geographical judgments. The relationship is entirely textual; Strabo was born around the end of Polybius’s life and there is no evidence of a meeting. [Strabo, *Geography* 2.4](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/2D%2A.html)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander the Great** [T1-]
+- **Archimedes of Syracuse** [T1-]
+- **Marcus Tullius Cicero** [T3]
+- **Flavius Josephus** [T3]
+- **Hannibal Barca** [T1-]
+- **Herodotus of Halicarnassus** [T3]
+- **Homer** [T3]
+- **Plato** [T3]
+- **Plinio el Viejo** [T1+]
+- **Pytheas de Massalia** [T1-]
+- **Strabo of Amaseia** [T3]
+- **Marcus Tullius Cicero** [T1+] (mirrored from cicero.dossier.md)
+
 ## Sources
 
 https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/home.html

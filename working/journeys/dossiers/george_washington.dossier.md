@@ -1373,6 +1373,44 @@ No documented personal crossing was found with the overwhelming majority of the 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander Hamilton** [T5]
+- **Benjamin Franklin** [T5]
+- **Thomas Jefferson** [T5]
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T5]
+- **William Paterson** [T4]
+- **Prince Hall** [T3]
+- **Francisco de Miranda** [T5]
+- **Louis XVI** [T3]
+- **Napoleon Bonaparte** [T1+]
+- **Abraham Lincoln** [T1+]
+- **Andrew Jackson** [T9+]
+- **Prince Hall** [T4] (mirrored from prince_hall.dossier.md)
+- **Mao Zedong** [T3] (mirrored from mao_zedong.dossier.md)
+- **Jordan Maxwell** [T1+] (mirrored from jordan_maxwell.dossier.md)
+- **William Jefferson Clinton** [T1+] (mirrored from bill_clinton.dossier.md)
+- **John Fitzgerald Kennedy** [T1+] (mirrored from john_f_kennedy.dossier.md)
+- **Napoleon Bonaparte** [T3] (mirrored from napoleon.dossier.md)
+- **George Herbert Walker Bush** [T9+] (mirrored from george_hw_bush.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Andrew Jackson** [T4] (mirrored from andrew_jackson.dossier.md)
+- **Benjamin Franklin** [T3] (mirrored from benjamin_franklin.dossier.md)
+- **Frédéric Auguste Bartholdi** [T1+] (mirrored from frederic_auguste_bartholdi.dossier.md)
+- **Simón Bolívar** [T3] (mirrored from bolivar.dossier.md)
+- **Claude-Henri de Rouvroy** [T4] (mirrored from henri_de_saint_simon.dossier.md)
+- **Manuel Belgrano** [T1+] (mirrored from belgrano.dossier.md)
+- **Prescott Sheldon Bush** [T3] (mirrored from prescott_bush.dossier.md)
+- **Madame Chiang Kai-shek** [T1+] (mirrored from madame_chiang_kai_shek.dossier.md)
+- **John Brown** [T9+] (mirrored from john_brown.dossier.md)
+- **Charles Barbier de la Serre** [T3] (mirrored from barbier.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **Marie Adrienne Françoise de Noailles** [T3] (mirrored from madame_de_lafayette.dossier.md)
+- **Carlos María de Alvear** [T1+] (mirrored from alvear.dossier.md)
+- **Samuel Langhorne Clemens** [T1+] (mirrored from mark_twain.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

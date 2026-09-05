@@ -618,6 +618,26 @@ The strongest current approach is neither credulous extraction nor total dismiss
 
 No qualifying crossing is documented with **Ratramnus of Corbie**: Adam never cites Ratramnus’s cynocephali letter, and access to it remains unproved. Nor does Adam name **Leif Erikson**; he records Vinland from Danish reports without identifying its explorers, so the shared Vinland subject alone does not satisfy the atlas criteria.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Charlemagne** [T1-]
+- **Gaius Julius Solinus** [T3]
+- **Moses** [T1-]
+- **Otto III** [T1-]
+- **Paul the Deacon** [T3]
+- **Pytheas de Massalia** [T3]
+- **Rimbert of Hamburg-Bremen** [T1-]
+- **Aurelius Augustinus** [T3]
+- **King Solomon** [T1-]
+- **Publius Vergilius Maro** [T3]
+- **William the Conqueror** [T1-]
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **Odoric of Pordenone** [T1+] (mirrored from odoric_of_pordenone.dossier.md)
+- **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
+- **Leif Erikson** [T1-] (mirrored from leif_erikson.dossier.md)
+
 ## Sources
 
 https://medieval.wiki.uib.no/Adam_Bremensis

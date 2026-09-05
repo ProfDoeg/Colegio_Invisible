@@ -449,6 +449,16 @@ The cult was civic as well as Franciscan: bequests appear from the year of death
 
 - **[T9-] Documented fact:** In May 1330 Odoric dictated the *Relatio* to William of Solagna at the Franciscan “place of Saint Anthony” in Padua. This belonged to the religious complex that developed from Anthony’s dwelling and the adjacent convent founded around 1229; Anthony’s tomb and the basilica erected over it made the site his principal shrine. Anthony died in 1231, approximately a century before Odoric used the complex, so this is a successive shared-site connection rather than a meeting ([Odoric’s colophon and site history](https://www.odorichus.it/index.php/beato-odorico/viaggio); [Basilica friary history](https://basilicadelsanto.it/en/ba-category-archive/friary-and-novitiate-cloister); [Comune di Padova](https://www.comune.padova.it/luogo/basilica-di-santantonio)).
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam of Bremen** [T1-]
+- **Noah son of Lamech** [T1-]
+- **Saint Anthony of Padua** [T9-]
+- **Kublai Khan** [T9-] (mirrored from kublai_khan.dossier.md)
+- **Giuseppe Tucci** [T1+] (mirrored from giuseppe_tucci.dossier.md)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/odorico-da-pordenone_(Dizionario-Biografico)/

@@ -768,6 +768,25 @@ Current scholarship increasingly rejects three older simplifications: that he wa
 
 No adequately documented T2 prophecy/hyperstition or T9 shared-object connection with the atlas roster was found. Mere coexistence in twentieth-century Paris or membership in a broad intellectual tradition was not treated as sufficient for T4 proximity.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Antonio Francesco Gramsci** [T1-]
+- **Georges Sorel** [T1-]
+- **Gilles Louis Rene Deleuze** [T3]
+- **Jean-Paul Charles Aymard Sartre** [T5]
+- **Jean-Paul Charles Aymard Sartre** [T1-]
+- **Karl Marx** [T1-]
+- **Lev Davidovich Bronstein** [T1-]
+- **Mao Zedong** [T3]
+- **Paul-Michel Foucault** [T3]
+- **Benito Mussolini** [T1-]
+- **Rosa Luxemburg** [T1-]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T5]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3]
+- **Vladimir Ilyich Ulyanov** [T1-]
+
 ## Sources
 
 https://bobjessop.wordpress.com/wp-content/uploads/2013/11/jessop-poulanzas.pdf

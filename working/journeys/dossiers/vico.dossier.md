@@ -1014,6 +1014,33 @@ For the hundreds of other names in the atlas roster, the research found no suppo
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aurelius Augustinus** [T3]
+- **Plato** [T3]
+- **Aristotle** [T3]
+- **Francis Bacon** [T3]
+- **René Descartes** [T3]
+- **John Locke** [T3]
+- **Galileo Galilei** [T3]
+- **Dante Alighieri** [T1-]
+- **Giovanni Pico della Mirandola** [T3]
+- **Karl Marx** [T1+]
+- **James Augustine Aloysius Joyce** [T3]
+- **Georges Sorel** [T3]
+- **Antonio Francesco Gramsci** [T3]
+- **Johann Wolfgang von Goethe** [T3]
+- **Mircea Eliade** [T3]
+- **Sir Isaac Newton** [T9+]
+- **Antonio Francesco Gramsci** [T1+] (mirrored from antonio_gramsci.dossier.md)
+- **Jacques Marie Émile Lacan** [T1+] (mirrored from jacques_lacan.dossier.md)
+- **Homer** [T1-] (mirrored from homer.dossier.md)
+- **Georges Sorel** [T1+] (mirrored from georges_sorel.dossier.md)
+- **Giovanni Pico della Mirandola** [T1-] (mirrored from giovanni_pico_della_mirandola.dossier.md)
+- **Georg Wilhelm Friedrich Hegel** [T1+] (mirrored from hegel.dossier.md)
+
 ## Chronology
 
 - **23 June 1668:** Born in Naples to Antonio Vico and Candida Masullo.

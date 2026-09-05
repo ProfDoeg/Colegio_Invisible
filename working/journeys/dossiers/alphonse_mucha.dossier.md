@@ -885,6 +885,20 @@ Despite the roster’s size, the strongest directly documented crossings are **S
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Sarah Bernhardt** [T5]
+- **Auguste Rodin** [T5]
+- **Loïe Fuller** [T4]
+- **Eugène Samuel Grasset** [T4]
+- **Karl Gräser** [T9-] (mirrored from karl_graser.dossier.md)
+- **Jaufre Rudel** [T1-] (mirrored from joffrey_rudel.dossier.md)
+- **Gustav Klimt** [T4] (mirrored from gustav_klimt.dossier.md)
+- **Clotilde Sakharoff** [T3] (mirrored from clotilde_sakharoff.dossier.md)
+- **Paul Berthon** [T4] (mirrored from paul_berthon.dossier.md)
+
 ## Compact Chronology
 
 - **1860, 24 July:** Born Alfons Maria Mucha in Ivančice, Moravia.

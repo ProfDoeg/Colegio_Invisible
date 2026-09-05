@@ -1090,6 +1090,29 @@ The searches found thematic, institutional, or retrospective associations but no
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Arthur Cayley** [T3]
+- **Charles Robert Darwin** [T3]
+- **Sir George Gabriel Stokes** [T3]
+- **James Clerk Maxwell** [T3]
+- **Michael Faraday** [T3]
+- **Nikola Tesla** [T3]
+- **Alexander Graham Bell** [T5]
+- **Sir Isaac Newton** [T9-]
+- **Jules Henri Poincaré** [T3] (mirrored from henri_poincare.dossier.md)
+- **Jules Henri Poincaré** [T1+] (mirrored from henri_poincare.dossier.md)
+- **Michael Faraday** [T5] (mirrored from michael_faraday.dossier.md)
+- **Sir George Gabriel Stokes** [T5] (mirrored from george_gabriel_stokes.dossier.md)
+- **John Uri Lloyd** [T1+] (mirrored from john_uri_lloyd.dossier.md)
+- **Thomas Alva Edison** [T4] (mirrored from thomas_edison.dossier.md)
+- **Arthur Cayley** [T5] (mirrored from arthur_cayley.dossier.md)
+- **Tony Hilton Royle Skyrme** [T9+] (mirrored from tony_skyrme.dossier.md)
+- **James Clerk Maxwell** [T5] (mirrored from james_clerk_maxwell.dossier.md)
+- **Alexander Graham Bell** [T3] (mirrored from alexander_graham_bell.dossier.md)
+
 ## Chronology
 
 - **1786:** Father James Thomson born near Ballynahinch, County Down.

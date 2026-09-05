@@ -621,6 +621,20 @@ Street names, schools, libraries, prizes, busts, theatre pieces, musical setting
 
 No other roster member produced a sufficiently documented crossing in the sources consulted. Mere literary comparison, shared nationality, overlapping chronology, posthumous influence, or appearance in the same anthology was excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alberto Gerchunoff** [T4]
+- **Jorge Luis Borges** [T3]
+- **Jorge Luis Borges** [T4]
+- **Emir Emin Arslan** [T3]
+- **Enrique Santos Discépolo** [T5]
+- **Federico García Lorca** [T5]
+- **Luis Perlotti** [T5]
+- **Emir Emin Arslan** [T5] (mirrored from emin_arslan.dossier.md)
+- **Raúl Veroni** [T9+] (mirrored from raul_veroni_padre.dossier.md)
+
 ## Sources
 
 https://ahira.com.ar/ejemplares/diario-de-poesia-n-23/

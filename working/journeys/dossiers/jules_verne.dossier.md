@@ -1054,6 +1054,24 @@ No supported meeting, correspondence, collaboration, family tie, patronage relat
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexandre Dumas** [T5]
+- **Edgar Allan Poe** [T1-]
+- **Herbert George Wells** [T3]
+- **Walter Elias Disney** [T9+]
+- **Captain Alfred Dreyfus** [T3]
+- **Christopher Columbus** [T1-]
+- **Fernão de Magalhães** [T1-]
+- **Marco Polo** [T1-]
+- **Abu Abdallah Muhammad ibn Battuta** [T1-]
+- **Pytheas de Massalia** [T1-]
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Victor-Marie Hugo** [T3] (mirrored from victor_hugo.dossier.md)
+- **Joseph-Antoine Bouvard** [T4] (mirrored from joseph_bouvard.dossier.md)
+
 ## Chronology
 
 - **1827:** Pierre Verne marries Sophie Allotte de La Fuÿe.

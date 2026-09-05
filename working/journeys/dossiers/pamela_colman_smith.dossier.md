@@ -618,6 +618,18 @@ Pratt mounted a 2019 life-and-work exhibition. The Whitney included Smith in its
 
 - **[T1-] Documented fact.** Acting as editor and publisher of *The Green Sheaf*, Smith presented Blake as an admired artistic predecessor: issues 2 and 8 (1903) printed extracts from his writings, accompanied by W. T. Horton’s illustrations, and the magazine advertised Blake’s books. Scholarly analysis identifies Smith’s editorial framing of Blake’s visionary imagination and hand-produced books as an acknowledgment of her artistic debt to him. This is a posthumous written/editorial engagement, not a personal crossing. [Yellow Nineties, “Critical Introduction to *The Green Sheaf* No. 2”](https://1890s.ca/gsv2_introduction/)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Arthur Edward Waite** [T3]
+- **Vaslav Nijinsky** [T3]
+- **William Butler Yeats** [T3]
+- **William Butler Yeats** [T5]
+- **William Blake** [T1-]
+- **William Butler Yeats** [T4] (mirrored from w_b_yeats.dossier.md)
+- **Arthur Edward Waite** [T5] (mirrored from arthur_edward_waite.dossier.md)
+
 ## Sources
 
 https://1890s.ca/smith_bio/

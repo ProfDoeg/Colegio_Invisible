@@ -580,6 +580,19 @@ Meano became famous through three national monuments but saw none inaugurated. T
 
 No additional qualifying crossings with the atlas roster were identified in the consulted evidence. Mere chronological overlap, residence in Buenos Aires, architectural similarity, later performances of a deceased composer’s music, or association with people in Meano’s wider network was not counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Francesco Tamburini** [T5]
+- **Juan Antonio Buschiazzo** [T9-]
+- **Torcuato Antonio de Alvear** [T9-]
+- **Alejandro Christophersen** [T1+]
+- **Jules Dormal Godet** [T9+]
+- **Vaslav Nijinsky** [T9+]
+- **Anna Matveyevna Pavlova** [T9+]
+- **Igor Fyodorovich Stravinsky** [T9+]
+
 ## Sources
 
 https://museoemigrazionepiemontese.it/vittorio-meano/

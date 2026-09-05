@@ -1025,6 +1025,33 @@ The **Société des amis de Bergson**, founded in the twenty-first century, the 
 - **[T3]** **Documented fact.** Bergson and James maintained a substantive correspondence from 1902 until James’s death in 1910, exchanging more than twenty letters and postcards about perception, intellectualism, pragmatism, mysticism, and their respective books. Bergson later wrote a preface for a 1924 French selection from James’s correspondence. [Study of the correspondence](https://repozytorium.ukw.edu.pl/bitstream/handle/item/6695/Historia%20korespondencji%20Wiliama%20Jamesa%20i%20Henriego%20Bergsona.pdf?isAllowed=y&sequence=1)
 - **[T5]** **Documented fact.** The philosophers met personally in Paris on 28 May 1905 and met again in London in 1908. Their surviving correspondence and James’s reactions document a genuine personal friendship as well as philosophical affinity. [Historical psychology source](https://psychclassics.yorku.ca/James/TaylorWoz.htm)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Alfred Jarry** [T3]
+- **Charles Robert Darwin** [T1-]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Georges Sorel** [T3]
+- **Albert Einstein** [T5]
+- **Albert Einstein** [T3]
+- **Albert Einstein** [T4]
+- **John Dewey** [T3]
+- **John Dewey** [T5]
+- **Marcel Proust** [T5]
+- **Marcel Proust** [T3]
+- **Maria Salomea Skłodowska-Curie** [T4]
+- **Rabindranath Tagore** [T5]
+- **William James** [T3]
+- **William James** [T5]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3] (mirrored from simone_de_beauvoir.dossier.md)
+- **Walter Benjamin** [T1+] (mirrored from walter_benjamin.dossier.md)
+- **Antonio Francesco Gramsci** [T3] (mirrored from antonio_gramsci.dossier.md)
+- **Hermann Graf von Keyserling** [T5] (mirrored from keyserling.dossier.md)
+- **Alfred Jarry** [T5] (mirrored from alfred_jarry.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T1+] (mirrored from jean_paul_sartre.dossier.md)
+
 ## Sources
 
 https://www.college-de-france.fr/en/chair/henri-bergson-modern-philosophy-statutory-chair/biography

@@ -780,3 +780,27 @@ https://www.investing.com/news/world-news/ukraines-parliament-to-consider-restor
 - **[T5] Documented fact:** Zelenskyy held video meetings with BlackRock chairman and CEO Larry Fink on **19 September and 28 December 2022**, concerning pro-bono advice on structuring Ukrainian reconstruction funds and attracting public and private investment. They met personally in **New York on 22 September 2023**, and both participated in an International Advisory Council for Ukraine’s Recovery session in **Davos on 22 January 2026**. [President of Ukraine, September 2022](https://president.gov.ua/en/news/volodimir-zelenskij-i-golova-blackrock-obgovorili-zaluchenny-77861) [President of Ukraine, December 2022](https://www.president.gov.ua/en/news/prezident-obgovoriv-z-generalnim-direktorom-blackrock-koordi-80105) [New York meeting](https://www.president.gov.ua/en/news/prezident-zustrivsya-z-najvplivovishimi-amerikanskimi-pidpri-85769) [Davos session](https://www.president.gov.ua/en/news/prezident-zustrivsya-z-predstavnikami-mizhnarodnogo-biznesu-102513)
 
 No sufficiently documented T1, T2 or T9 crossing was identified with another roster member. Mere references to historical figures in speeches, attendance at the same broad international event without demonstrated co-presence, institutional contacts through intermediaries, awards named after historical figures, and unsupported “puppet” or hidden-control narratives were excluded.
+
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander Caedmon Karp** [T5]
+- **Benjamin Netanyahu** [T5]
+- **William Jefferson Clinton** [T5]
+- **Elon Reeve Musk** [T5]
+- **George Walker Bush** [T5]
+- **Javier Gerardo Milei** [T5]
+- **Klaus Martin Schwab** [T5]
+- **Laurence Douglas "Larry" Fink** [T5]
+- **James "Jamie" Dimon** [T5] (mirrored from jamie_dimon.dossier.md)
+- **William Jefferson Clinton** [T4] (mirrored from bill_clinton.dossier.md)
+- **Silvio Berlusconi** [T3] (mirrored from silvio_berlusconi.dossier.md)
+- **Jair Messias Bolsonaro** [T3] (mirrored from jair_bolsonaro.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T3] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Taras Hryhorovych Shevchenko** [T1-] (mirrored from taras_shevchenko.dossier.md)
+- **Golda Meir** [T1-] (mirrored from golda_meir.dossier.md)
+- **Elon Reeve Musk** [T3] (mirrored from elon_musk.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+- **Yanis Varoufakis** [T3] (mirrored from yanis_varoufakis.dossier.md)
+

@@ -1063,6 +1063,74 @@ Only connections supported by the consulted sources or well-established document
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Amalie Emmy Noether** [T3]
+- **Chaim Azriel Weizmann** [T5]
+- **David Ben-Gurion** [T5]
+- **Erwin Rudolf Josef Alexander Schrödinger** [T3]
+- **Enrico Fermi** [T4]
+- **J. Robert Oppenheimer** [T4]
+- **Maria Salomea Skłodowska-Curie** [T5]
+- **Mohandas Karamchand Gandhi** [T3]
+- **Niels Bohr** [T5]
+- **Nikola Tesla** [T3]
+- **Paul Adrien Maurice Dirac** [T5]
+- **Rabindranath Tagore** [T5]
+- **Satyendra Nath Bose** [T3]
+- **Sigmund Freud** [T3]
+- **Werner Heisenberg** [T5]
+- **Wolfgang Ernst Pauli** [T3]
+- **Sir Isaac Newton** [T1-]
+- **Galileo Galilei** [T1-]
+- **James Clerk Maxwell** [T1-]
+- **Henri-Louis Bergson** [T5]
+- **Jules Henri Poincaré** [T1-]
+- **Jules Henri Poincaré** [T5] (mirrored from henri_poincare.dossier.md)
+- **Jules Henri Poincaré** [T3] (mirrored from henri_poincare.dossier.md)
+- **Carl Gustav Jung** [T5] (mirrored from jung.dossier.md)
+- **Norbert Wiener** [T5] (mirrored from norbert_wiener.dossier.md)
+- **Martin Mordechai Buber** [T3] (mirrored from martin_buber.dossier.md)
+- **Herbert George Wells** [T4] (mirrored from h_g_wells.dossier.md)
+- **Wilhelm Reich** [T5] (mirrored from reich.dossier.md)
+- **Max Moritz Warburg** [T3] (mirrored from max_warburg.dossier.md)
+- **Satyendra Nath Bose** [T5] (mirrored from satyendra_nath_bose.dossier.md)
+- **Alan Mathison Turing** [T1+] (mirrored from alan_turing.dossier.md)
+- **Le Corbusier** [T5] (mirrored from le_corbusier.dossier.md)
+- **Benjamin Franklin** [T1-] (mirrored from benjamin_franklin.dossier.md)
+- **Rudolf Rocker** [T3] (mirrored from rudolf_rocker.dossier.md)
+- **Felix Christian Klein** [T3] (mirrored from felix_klein.dossier.md)
+- **Thomas Alva Edison** [T9-] (mirrored from thomas_edison.dossier.md)
+- **John von Neumann** [T3] (mirrored from john_von_neumann.dossier.md)
+- **Enrico Fermi** [T5] (mirrored from fermi.dossier.md)
+- **Richard Phillips Feynman** [T3] (mirrored from richard_feynman.dossier.md)
+- **Henryk Erlich** [T3] (mirrored from henryk_erlich.dossier.md)
+- **Carl Friedrich Gauss** [T9-] (mirrored from gauss.dossier.md)
+- **David Ben-Gurion** [T3] (mirrored from david_ben_gurion.dossier.md)
+- **Erich Seligmann Fromm** [T3] (mirrored from erich_fromm.dossier.md)
+- **Maria Salomea Skłodowska-Curie** [T3] (mirrored from marie_curie.dossier.md)
+- **Edward Witten** [T9+] (mirrored from edward_witten.dossier.md)
+- **Johannes Kepler** [T1-] (mirrored from johannes_kepler.dossier.md)
+- **Hermann Graf von Keyserling** [T3] (mirrored from keyserling.dossier.md)
+- **Max Glücksmann** [T4] (mirrored from max_glucksmann.dossier.md)
+- **Gustav Landauer** [T5] (mirrored from gustav_landauer.dossier.md)
+- **Henri-Louis Bergson** [T3] (mirrored from henri_bergson.dossier.md)
+- **Henri-Louis Bergson** [T4] (mirrored from henri_bergson.dossier.md)
+- **R. Buckminster Fuller** [T5] (mirrored from buckminster_fuller.dossier.md)
+- **John Dewey** [T3] (mirrored from john_dewey.dossier.md)
+- **Amalie Emmy Noether** [T5] (mirrored from emmy_noether.dossier.md)
+- **Amalie Emmy Noether** [T1-] (mirrored from emmy_noether.dossier.md)
+- **Charles Robert Darwin** [T9-] (mirrored from charles_darwin.dossier.md)
+- **Joseph Süß Oppenheimer** [T9-] (mirrored from joseph_oppenheimer.dossier.md)
+- **Ioan Petru Culianu** [T1+] (mirrored from ioan_petru_culianu.dossier.md)
+- **J. Robert Oppenheimer** [T5] (mirrored from robert_oppenheimer.dossier.md)
+- **Victor Alter** [T3] (mirrored from victor_alter.dossier.md)
+- **Max Horkheimer** [T5] (mirrored from max_horkheimer.dossier.md)
+- **Max Horkheimer** [T3] (mirrored from max_horkheimer.dossier.md)
+- **Benito Mussolini** [T3] (mirrored from mussolini.dossier.md)
+
 ## Chronology
 
 | Date | Event |

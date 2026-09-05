@@ -622,6 +622,23 @@ Historical reinterpretation has moved from great-man lists toward **shared autho
 
 No additional roster crossings were included where the evidence showed only broad contemporaneity, presence in the same city, stylistic affinity, or later use of a Dormal-associated building.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alejandro Christophersen** [T3]
+- **Jules Charles** [T4]
+- **Juan Antonio Buschiazzo** [T3]
+- **Domingo Faustino Sarmiento** [T5]
+- **Francesco Tamburini** [T9-]
+- **Vittorio Meano** [T9-]
+- **José de San Martín** [T9-]
+- **Daniel Gastón Schávelzon** [T1+]
+- **Juan Antonio Buschiazzo** [T5] (mirrored from juan_antonio_buschiazzo.dossier.md)
+- **Pedro Simón del Corazón de Jesús Benoit** [T5] (mirrored from pedro_benoit.dossier.md)
+- **Jules Charles** [T9+] (mirrored from carlos_thays.dossier.md)
+- **Alejandro Christophersen** [T4] (mirrored from alejandro_christophersen.dossier.md)
+
 ## Sources
 
 https://teatrocolon.org.ar/el-teatro/

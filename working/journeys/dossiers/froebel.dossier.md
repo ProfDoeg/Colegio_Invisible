@@ -1017,6 +1017,32 @@ The atlas roster includes the subject himself. This is not counted as an interpe
 
 No documented meeting, correspondence, collaboration, rivalry, family relationship, or explicitly acknowledged influence was found between Fröbel and the overwhelming majority of the 894-person roster. In particular, shared nineteenth-century German geography or membership in broad categories such as idealism, education, nationalism, architecture, or reform was not treated as sufficient evidence.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Johann Heinrich Pestalozzi** [T5]
+- **Johann Gottlieb Fichte** [T3]
+- **Sarah Bernhardt** [T5]
+- **Friedrich Wilhelm Joseph Schelling** [T1-]
+- **Friedrich Ludwig Jahn** [T4]
+- **Jan Amos Komenský** [T9-]
+- **Jean-Jacques Rousseau** [T9-]
+- **Immanuel Kant** [T1-]
+- **Maria Tecla Artemisia Montessori** [T9+]
+- **John Dewey** [T9+]
+- **Frank Lloyd Wright** [T9+]
+- **Paul Klee** [T9+]
+- **Wassily Kandinsky** [T9+]
+- **Le Corbusier** [T9+]
+- **R. Buckminster Fuller** [T9+]
+- **Johannes Itten** [T9+] (mirrored from itten.dossier.md)
+- **Maria Tecla Artemisia Montessori** [T1+] (mirrored from maria_montessori.dossier.md)
+- **Geneviève Stebbins** [T9+] (mirrored from stebbins.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **John Dewey** [T1+] (mirrored from john_dewey.dossier.md)
+- **Johann Wolfgang von Goethe** [T4] (mirrored from goethe_full.dossier.md)
+
 ## Chronology
 
 | Date or year | Event |

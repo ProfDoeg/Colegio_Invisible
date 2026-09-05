@@ -726,6 +726,23 @@ Current scholarship generally rejects both extremes: treating every fragment as 
 
 - **[T9+]** **Documented fact:** Pataliputra is a shared site without shared occupancy. Megasthenes described and visited Chandragupta’s capital around the late fourth or early third century BCE; Xuanzang encountered and described Pāṭaliputra during his seventh-century journey, when much of the ancient city was already ruinous. There is no evidence that Xuanzang possessed or consulted Megasthenes’ text, so the connection is limited to the same historically changing site. [Strabo, *Geography* 15.1.36](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/15A2%2A.html), [Xuanzang, *Great Tang Records on the Western Regions*, Magadha account](https://www.payer.de/quellenkunde/quellen122.htm)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander the Great** [T1-]
+- **Cyrus the Great** [T1-]
+- **Nabucodonosor II** [T1-]
+- **Strabo of Amaseia** [T1+]
+- **Plinio el Viejo** [T1+]
+- **Flavius Josephus** [T1+]
+- **Claudius Aelianus** [T1+]
+- **Gaius Julius Solinus** [T1+]
+- **Xuanzang** [T9+]
+- **Gaius Julius Solinus** [T3] (mirrored from gaius_julius_solinus.dossier.md)
+- **Flavius Josephus** [T3] (mirrored from flavius_josephus.dossier.md)
+- **Claudius Aelianus** [T3] (mirrored from claudius_aelianus_aelian.dossier.md)
+
 ## Sources
 
 https://archive.org/details/ancientindiaasd01mccrgoog

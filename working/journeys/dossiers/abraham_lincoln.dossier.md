@@ -1072,6 +1072,50 @@ For the remainder of the roster, no source consulted established a sufficiently 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Karl Marx** [T3]
+- **John Brown** [T1-]
+- **Thomas Jefferson** [T1-]
+- **George Washington** [T1-]
+- **Andrew Jackson** [T1-]
+- **Benjamin Franklin** [T1-]
+- **Alexander Hamilton** [T1-]
+- **James "Jamie" Dimon** [T1+] (mirrored from jamie_dimon.dossier.md)
+- **José Julián Martí Pérez** [T1+] (mirrored from jose_marti.dossier.md)
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **William Jefferson Clinton** [T1+] (mirrored from bill_clinton.dossier.md)
+- **John Fitzgerald Kennedy** [T1+] (mirrored from john_f_kennedy.dossier.md)
+- **Francis Julius Bellamy** [T1+] (mirrored from francis_bellamy.dossier.md)
+- **Stephen Edwin King** [T1+] (mirrored from stephen_king.dossier.md)
+- **Andrew Jackson** [T3] (mirrored from andrew_jackson.dossier.md)
+- **John Augustus Roebling** [T3] (mirrored from john_a_roebling.dossier.md)
+- **Frédéric Auguste Bartholdi** [T1+] (mirrored from frederic_auguste_bartholdi.dossier.md)
+- **Andrew Carnegie** [T5] (mirrored from andrew_carnegie.dossier.md)
+- **Andrew Carnegie** [T1+] (mirrored from andrew_carnegie.dossier.md)
+- **Giuseppe Maria Garibaldi** [T3] (mirrored from giuseppe_garibaldi.dossier.md)
+- **Mohandas Karamchand Gandhi** [T1+] (mirrored from mahatma_gandhi.dossier.md)
+- **Emir Abdelkader ibn Muhieddine** [T9+] (mirrored from abdelkader.dossier.md)
+- **John Pierpont Morgan** [T9+] (mirrored from j_p_morgan.dossier.md)
+- **Cornelius Vanderbilt** [T5] (mirrored from cornelius_vanderbilt.dossier.md)
+- **Madame Chiang Kai-shek** [T1+] (mirrored from madame_chiang_kai_shek.dossier.md)
+- **Ignatius Loyola Donnelly** [T1+] (mirrored from ignatius_loyola_donnelly.dossier.md)
+- **Curtis Guy Yarvin** [T1+] (mirrored from curtis_yarvin.dossier.md)
+- **Victor-Marie Hugo** [T3] (mirrored from victor_hugo.dossier.md)
+- **Edgar Allan Poe** [T1-] (mirrored from edgar_allan_poe.dossier.md)
+- **Felix Adler** [T1+] (mirrored from felix_adler.dossier.md)
+- **Friedrich Ludwig Jahn** [T9-] (mirrored from johann_jahn.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **Edward Bellamy** [T1+] (mirrored from edward_bellamy.dossier.md)
+- **Walter Elias Disney** [T1+] (mirrored from walt_disney.dossier.md)
+- **Marcus Mosiah Garvey** [T1+] (mirrored from marcus_garvey.dossier.md)
+- **Frederick Law Olmsted** [T3] (mirrored from frederick_law_olmsted.dossier.md)
+- **Domingo Faustino Sarmiento** [T1+] (mirrored from sarmiento.dossier.md)
+- **Samuel Langhorne Clemens** [T1+] (mirrored from mark_twain.dossier.md)
+- **Martha Graham** [T9+] (mirrored from martha_graham.dossier.md)
+
 ## Compact Chronology
 
 - **1637:** Ancestor Samuel Lincoln migrates from England to Massachusetts.

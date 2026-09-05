@@ -971,6 +971,23 @@ No defensible personal or documentary life-crossing was established with the oth
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Atahualpa** [T5]
+- **El Inca Garcilaso de la Vega** [T1+]
+- **Felipe Guamán Poma de Ayala** [T1+]
+- **Blas Valera** [T1+]
+- **Francisco Gianotti** [T4]
+- **Hernán Cortés** [T4] (mirrored from cortes.dossier.md)
+- **Aimé Félix Tschiffely** [T1+] (mirrored from tschiffely.dossier.md)
+- **Christopher Columbus** [T9-] (mirrored from columbus.dossier.md)
+- **Max Glücksmann** [T4] (mirrored from max_glucksmann.dossier.md)
+- **José Gabriel Condorcanqui Noguera** [T9+] (mirrored from tupac_amaru_ii.dossier.md)
+- **Atahualpa** [T9-] (mirrored from atahualpa.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+
 ## Chronology
 
 - **c. 1471–1478:** Born outside marriage in Trujillo, Extremadura.

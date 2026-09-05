@@ -824,6 +824,23 @@ Claims that H. P. Lovecraft admired the book circulate widely, but the sources c
 
 No reliable evidence was found for correspondence, friendship, personal meetings, shared-site transmission, or prophetic fulfillment between Lloyd and other roster members. In particular, Lloyd’s archive contains a folder titled “Albert Einstein Dinner, March 15, 1933,” but the finding aid does not establish that Lloyd attended or met Einstein; the dinner itself was held at New York’s Hotel Commodore, so no T4 or T5 connection is assigned. Likewise, claims that H. P. Lovecraft read or was influenced by *Etidorhpa* remain insufficiently supported by a located primary Lovecraft source and are omitted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albertus Magnus** [T1-]
+- **Aristotle** [T1-]
+- **Giuseppe Balsamo** [T1-]
+- **Francis Bacon** [T1-]
+- **Johannes Kepler** [T1-]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **William Thomson** [T1-]
+- **Sir Isaac Newton** [T1-]
+- **Paracelsus** [T1-]
+- **Pierre-Simon Laplace** [T1-]
+- **Ramon Llull** [T1-]
+- **Roger Bacon** [T1-]
+
 ## Sources
 
 https://lloydlibrary.org/about/a-brief-history-of-the-lloyd-library-and-museum/

@@ -1200,6 +1200,48 @@ No supported meeting, correspondence, collaboration, rivalry, institutional bond
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Pierre-Félix Guattari** [T5]
+- **Paul-Michel Foucault** [T5]
+- **Jacques Derrida** [T4]
+- **Jacques Marie Émile Lacan** [T3]
+- **Jean-Paul Charles Aymard Sartre** [T4]
+- **Friedrich Nietzsche** [T1-]
+- **Henri-Louis Bergson** [T1-]
+- **Immanuel Kant** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Karl Marx** [T1-]
+- **Sigmund Freud** [T1-]
+- **Marcel Proust** [T1-]
+- **Antonin Artaud** [T1-]
+- **William Seward Burroughs II** [T3]
+- **Claude Lévi-Strauss** [T3]
+- **Jean Baudrillard** [T4]
+- **Roland Gérard Barthes** [T4]
+- **Slavoj Žižek** [T1+]
+- **Mark Fisher** [T1+]
+- **Nick Land** [T1+]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3] (mirrored from simone_de_beauvoir.dossier.md)
+- **James Augustine Aloysius Joyce** [T1-] (mirrored from james_joyce.dossier.md)
+- **Diogenes of Sinope** [T1-] (mirrored from diogenes_of_sinope.dossier.md)
+- **Wilhelm Reich** [T1-] (mirrored from reich.dossier.md)
+- **Martin Heidegger** [T1-] (mirrored from martin_heidegger.dossier.md)
+- **Jean Baudrillard** [T3] (mirrored from jean_baudrillard.dossier.md)
+- **Plato** [T1-] (mirrored from plato.dossier.md)
+- **Donna Jeanne Haraway** [T1+] (mirrored from donna_haraway.dossier.md)
+- **Roland Gérard Barthes** [T9+] (mirrored from roland_barthes.dossier.md)
+- **Aristotle** [T1-] (mirrored from aristotle.dossier.md)
+- **Carl Theodor Dreyer** [T1-] (mirrored from carl_theodor_dreyer.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Jacques Derrida** [T5] (mirrored from jacques_derrida.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T3] (mirrored from jean_paul_sartre.dossier.md)
+- **Nicos Poulantzas** [T3] (mirrored from nicos_poulantzas.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+- **Søren Aabye Kierkegaard** [T1-] (mirrored from s_ren_kierkegaard.dossier.md)
+
 ## Chronology
 
 - **18 Jan. 1925:** Born in Paris’s 17th arrondissement.

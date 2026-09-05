@@ -633,6 +633,22 @@ The line is not a single hereditary chain. Montessori's prepared environment, se
 
 No other roster crossing was included where the available evidence amounted only to broad intellectual resemblance, later influence, shared geography, generic biblical or classical citation, or commemorative association.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **Aristotle** [T1-]
+- **Francis Bacon** [T1-]
+- **Tommaso Campanella** [T3]
+- **Diogenes of Sinope** [T1-]
+- **Gottfried Wilhelm Leibniz** [T1+]
+- **Nicolaus Copernicus** [T9-]
+- **Ramon Llull** [T1-]
+- **René Descartes** [T5]
+- **Friedrich Fröbel** [T9+] (mirrored from froebel.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+
 ## Sources
 
 https://archive.org/details/bub_gb_Y0tBAAAAcAAJ

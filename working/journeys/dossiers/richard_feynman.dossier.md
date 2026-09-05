@@ -1014,6 +1014,30 @@ No evidence-supported personal or intellectual crossing was identified with the 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T3]
+- **J. Robert Oppenheimer** [T5]
+- **John von Neumann** [T5]
+- **Niels Bohr** [T5]
+- **Enrico Fermi** [T5]
+- **Paul Adrien Maurice Dirac** [T5]
+- **Wolfgang Ernst Pauli** [T3]
+- **Werner Heisenberg** [T3]
+- **Edward Witten** [T3]
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **John von Neumann** [T1-] (mirrored from john_von_neumann.dossier.md)
+- **Paul Adrien Maurice Dirac** [T3] (mirrored from dirac.dossier.md)
+- **Enrico Fermi** [T4] (mirrored from fermi.dossier.md)
+- **Ray Kurzweil** [T1+] (mirrored from ray_kurzweil.dossier.md)
+- **Edward Witten** [T9+] (mirrored from edward_witten.dossier.md)
+- **Sir Isaac Newton** [T1-] (mirrored from newton.dossier.md)
+- **James Clerk Maxwell** [T1-] (mirrored from james_clerk_maxwell.dossier.md)
+- **William Henry Gates III** [T1+] (mirrored from bill_gates.dossier.md)
+- **Donald Ervin Knuth** [T4] (mirrored from donald_ervin_knuth.dossier.md)
+
 ## Chronology
 
 | Date | Event |

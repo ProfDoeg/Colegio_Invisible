@@ -681,6 +681,22 @@ Because Haraway is living, “posthumous” reception cannot yet be assessed. He
 
 No documented personal meeting, friendship, correspondence, shared-site transmission, or prophecy/hyperstition crossing was established with any other roster member. Mere thematic resemblance, common citation in later scholarship, shared geography, or coexistence during Haraway’s lifetime was excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Charles Robert Darwin** [T1-]
+- **Pierre-Félix Guattari** [T1-]
+- **Gilles Louis Rene Deleuze** [T1-]
+- **Howard Phillips Lovecraft** [T1-]
+- **Jacques Derrida** [T1-]
+- **Karl Marx** [T1-]
+- **Martin Heidegger** [T3]
+- **Paul-Michel Foucault** [T1-]
+- **Norbert Wiener** [T1-]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T1-]
+- **Thomas Aquinas** [T3]
+
 ## Sources
 
 https://oac.cdlib.org/findaid/ark:/13030/c8b283b2/

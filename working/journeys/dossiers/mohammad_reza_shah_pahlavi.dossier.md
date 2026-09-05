@@ -1208,6 +1208,26 @@ No defensible direct connection was found with the overwhelming majority of the 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Mohammad Mosaddegh** [T5]
+- **Ruhollah Mostafavi Musavi Khomeini** [T4]
+- **David Ben-Gurion** [T4]
+- **Golda Meir** [T5]
+- **David Rockefeller** [T4]
+- **John Foster Dulles** [T4]
+- **Allen Welsh Dulles** [T4]
+- **Haile Selassie I** [T4]
+- **Saddam Hussein al-Tikriti** [T5]
+- **Fidel Alejandro Castro Ruz** [T4]
+- **Adnan Muhammad Khashoggi** [T4]
+- **John Foster Dulles** [T3] (mirrored from john_foster_dulles.dossier.md)
+- **John Fitzgerald Kennedy** [T5] (mirrored from john_f_kennedy.dossier.md)
+- **David Rockefeller** [T5] (mirrored from david_rockefeller.dossier.md)
+- **Haile Selassie I** [T5] (mirrored from haile_selassie.dossier.md)
+
 ## Chronology
 
 - **26 October 1919:** Born in Tehran; twin sister Ashraf born shortly afterward.

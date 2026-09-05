@@ -2113,6 +2113,35 @@ Huygens remains an eponym in wave optics, eyepiece design, synchronization, plan
 
 The remaining roster names were omitted because the available evidence did not establish one of the specified connection types. Mere influence on later science, comparable subject matter, common institutional tradition, or appearance in modern historical narratives was not treated as a crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Archimedes of Syracuse** [T1-]
+- **Galileo Galilei** [T1-]
+- **Nicolaus Copernicus** [T1-]
+- **Johannes Kepler** [T1-]
+- **René Descartes** [T1-]
+- **Robert Hooke** [T3]
+- **Robert Hooke** [T5]
+- **Gottfried Wilhelm Leibniz** [T5]
+- **Gottfried Wilhelm Leibniz** [T3]
+- **Louis XIV** [T5]
+- **Louis XIV** [T3]
+- **Edmond Halley** [T5]
+- **Sir Isaac Newton** [T5]
+- **Sir Isaac Newton** [T3]
+- **John Locke** [T5]
+- **Leonhard Euler** [T1+] (mirrored from leonard_euler.dossier.md)
+- **Sir George Gabriel Stokes** [T1+] (mirrored from george_gabriel_stokes.dossier.md)
+- **Archimedes of Syracuse** [T3] (mirrored from archimedes.dossier.md)
+- **Pierre-Simon Laplace** [T1+] (mirrored from pierre_simon_laplace.dossier.md)
+- **Athanasius Kircher** [T3] (mirrored from kircher.dossier.md)
+- **René Descartes** [T5] (mirrored from rene_descartes.dossier.md)
+- **René Descartes** [T3] (mirrored from rene_descartes.dossier.md)
+- **René Just Haüy** [T9+] (mirrored from rene_hauy.dossier.md)
+- **Louis XIV** [T4] (mirrored from louis_xiv.dossier.md)
+
 ## Sources
 
 https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/

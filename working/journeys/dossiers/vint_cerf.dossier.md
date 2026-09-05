@@ -949,6 +949,22 @@ Absence is therefore the principal Atlas finding beyond Kahn, Kleinrock, Andrees
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Robert Elliot Kahn** [T5]
+- **Leonard Max Adleman** [T5]
+- **Marc Lowell Andreessen** [T9]
+- **Alan Mathison Turing** [T9-]
+- **Alexander Graham Bell** [T9-]
+- **Linus Benedict Torvalds** [T4] (mirrored from linus_torvalds.dossier.md)
+- **Martin Edward Hellman** [T5] (mirrored from hellman.dossier.md)
+- **Robert Elliot Kahn** [T3] (mirrored from bob_kahn.dossier.md)
+- **Claude Elwood Shannon** [T1-] (mirrored from claude_shannon.dossier.md)
+- **Philip R. Zimmermann** [T4] (mirrored from phil_zimmermann.dossier.md)
+- **Adi Shamir** [T4] (mirrored from adi_shamir.dossier.md)
+
 ## Chronology
 
 | Date | Event |

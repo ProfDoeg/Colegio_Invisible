@@ -769,6 +769,19 @@ Maduro identifies as Christian and incorporates Jesus, liberationist Christian l
 
 No sufficiently documented personal crossing was found with the overwhelming majority of the supplied atlas roster. Mere contemporaneity, participation in broad international institutions, or presence in the same country was not treated as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Hugo Rafael Chávez Frías** [T5]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Cristina Elisabet Fernández de Kirchner** [T5]
+- **Diego Armando Maradona** [T5]
+- **Muammar Muhammad Abu Minyar al-Gaddafi** [T4]
+- **Simón Bolívar** [T1-] (mirrored from bolivar.dossier.md)
+- **Simón Rodríguez** [T1-] (mirrored from simon_rodriguez.dossier.md)
+- **Diego Armando Maradona** [T4] (mirrored from diego_maradona.dossier.md)
+
 ## Compact Chronology
 
 - **1929, June 1:** Probable birth of Teresa de Jesús Moros Acevedo in Cúcuta, Colombia.

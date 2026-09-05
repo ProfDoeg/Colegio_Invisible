@@ -1015,6 +1015,22 @@ One academic source places Catelin’s arrival in 1817, during Pueyrredón’s d
 
 No supported direct connection was found between Catelin and the other atlas figures, including Jeremy Bentham—who is not on the supplied roster—or the numerous later Argentine architects and political figures listed there. The principal documented network instead consisted of Bernardino Rivadavia, Martín Rodríguez, Pierre Benoît, Felipe Bertrés, Felipe Senillosa, James Bevans, Juan/José Pons, Jacques Boudier, and Carlo Zucchi.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Manuel Belgrano** [T9+]
+- **Pierre-Félix Guattari** [T5]
+- **Juan Antonio Buschiazzo** [T9+]
+- **Torcuato Antonio de Alvear** [T9+]
+- **Domingo Faustino Sarmiento** [T9+]
+- **Juan Manuel José Domingo Ortiz de Rozas y López de Osornio** [T9+]
+- **Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez** [T4]
+- **Felipe Guamán Poma de Ayala** [T4]
+- **Arthur James Balfour** [T4]
+- **Aimé Jacques Alexandre Goujaud** [T4]
+- **Charles Ponzi** [T4]
+
 ## Sources
 
 https://www.argentina.gob.ar/capital-humano/cultura/monumentos/catedral-metropolitana

@@ -678,6 +678,15 @@ Roebling’s durable reputation rests on three separate but related achievements
 
 - **[T3] Documented fact:** While studying in Berlin in 1824–1825, Roebling attended Hegel’s university lectures. Hegel’s ideas subsequently informed Roebling’s effort to understand technological, historical, material, and spiritual development as parts of an integrated system. Later claims that Roebling was Hegel’s “favorite pupil” are reported in commemorative biography but are not established by surviving contemporary evidence. [Oxford Academic, “Berlin and the Culture of Revolution (1824–25)”](https://academic.oup.com/book/33664/chapter-abstract/288208018), [Richard Haw interview](https://thewayofimprovement.blog/2020/5/11/the-authors-corner-with-richard-haw/)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T3]
+- **Emily Warren Roebling** [T5]
+- **Emanuel Swedenborg** [T3]
+- **Georg Wilhelm Friedrich Hegel** [T5]
+
 ## Sources
 
 https://www.immigrantentrepreneurship.org/entries/john-augustus-roebling/

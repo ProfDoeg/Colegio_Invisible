@@ -1553,6 +1553,14 @@ The appropriate historical distinction is not to erase either record:
 
 No additional atlas-roster crossings were supported strongly enough by the reviewed sources. Mere co-membership in the cryptocurrency, political, technology, Disney, or Epstein-adjacent milieu was not treated as a connection without evidence of a qualifying encounter, communication, shared event, or transmitted object/site.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **David Lee Chaum** [T4]
+- **Jeffrey Edward Epstein** [T5]
+- **Jeffrey Edward Epstein** [T3]
+
 ## Sources
 
 https://www.sec.gov/Archives/edgar/data/1710350/000121390026069284/ea0294006-04.htm

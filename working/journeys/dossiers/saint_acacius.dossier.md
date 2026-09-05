@@ -861,6 +861,14 @@ The following roster members share a documented **posthumous collective cult** w
 
 No evidence was found for personal connections with the other rostered military martyrs—Saint Mercurius, Saint Thecla, Saint Acacius’ various namesakes—or with Roman political figures not mentioned above. Shared inclusion in later saint catalogues is not treated as a lifetime relationship.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Constantine the Great** [T9+]
+- **Justinian I** [T9+]
+- **Saint Eustace** [T9-] (mirrored from saint_eustace.dossier.md)
+
 ## Chronology
 
 | Date | Event | Evidentiary status |

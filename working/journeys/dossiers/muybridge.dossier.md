@@ -1109,6 +1109,17 @@ Among the 896 listed lives, the clearest supported intersections are **Thomas Al
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Thomas Alva Edison** [T5]
+- **Étienne-Jules Marey** [T5]
+- **William James** [T4]
+- **Charles Robert Darwin** [T4]
+- **Francis Bacon** [T1+]
+- **Étienne-Jules Marey** [T3] (mirrored from etienne_jules_marey.dossier.md)
+
 ## Chronology
 
 | Date | Event |

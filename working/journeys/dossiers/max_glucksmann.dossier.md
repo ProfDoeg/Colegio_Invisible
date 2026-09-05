@@ -1138,6 +1138,21 @@ Although numerous other atlas figures were contemporaries, performers in the bro
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T4]
+- **Sir Isaac Newton** [T4]
+- **Carlos Gardel** [T3]
+- **Ada Falcón** [T4]
+- **Francisco Pizarro González** [T4]
+- **Enrique Santos Discépolo** [T9-]
+- **Ángel Gregorio Villoldo** [T9-]
+- **Étienne-Jules Marey** [T9-]
+- **Georges Hébert** [T9-]
+- **Eugène Py** [T5] (mirrored from eugene_py.dossier.md)
+
 ## Chronology
 
 | Date | Event |

@@ -697,6 +697,15 @@ There is no stable single posthumous image. Casino and beneficiary institutions 
 
 No additional roster crossing was located that met the specified evidentiary threshold; shared political causes, institutions, industries, or general contemporaneity were excluded without evidence of direct discourse, proximity at a particular event, personal contact, prophecy, authorship, or transmission of a specific object or site.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Benjamin Netanyahu** [T5]
+- **George Walker Bush** [T5]
+- **Hillary Diane Rodham Clinton** [T3]
+- **Paul Elliott Singer** [T4] (mirrored from paul_singer.dossier.md)
+
 ## Sources
 
 https://www.sec.gov/Archives/edgar/data/1300514/000130051416000023/lvs-20151231x10k.htm

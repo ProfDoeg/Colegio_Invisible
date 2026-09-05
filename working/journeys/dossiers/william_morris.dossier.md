@@ -856,6 +856,44 @@ No supported personal crossings were identified with the overwhelming majority o
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jane Morris** [T5]
+- **Mary "May" Morris** [T5]
+- **Sir Edward Coley Burne-Jones** [T5]
+- **Dante Gabriel Rossetti** [T5]
+- **John Ruskin** [T5]
+- **Karl Marx** [T3]
+- **J. R. R. Tolkien** [T3]
+- **William Butler Yeats** [T1+]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T3]
+- **William Blake** [T3]
+- **Edward Bellamy** [T3]
+- **Karl Marx** [T5]
+- **Sir John Everett Millais** [T4]
+- **William Holman Hunt** [T4]
+- **Charles John Huffam Dickens** [T9-]
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T3]
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **William Butler Yeats** [T5] (mirrored from w_b_yeats.dossier.md)
+- **Rudolf Rocker** [T3] (mirrored from rudolf_rocker.dossier.md)
+- **Theodor Reuss** [T3] (mirrored from theodor_reuss.dossier.md)
+- **Morgan le Fay** [T1-] (mirrored from morgan-le-fay.dossier.md)
+- **The Lady of the Lake** [T1-] (mirrored from lady-of-the-lake.dossier.md)
+- **Guinevere** [T1-] (mirrored from guinevere.dossier.md)
+- **Frank Lloyd Wright** [T3] (mirrored from frank_lloyd_wright.dossier.md)
+- **Lancelot** [T1-] (mirrored from lancelot.dossier.md)
+- **Elizabeth** [T5] (mirrored from elizabeth_bessie_burden.dossier.md)
+- **Aeneas** [T1-] (mirrored from aeneas.dossier.md)
+- **Lucy Parsons** [T4] (mirrored from lucy_parsons.dossier.md)
+- **Gustav Landauer** [T3] (mirrored from gustav_landauer.dossier.md)
+- **William Holman Hunt** [T5] (mirrored from william_holman_hunt.dossier.md)
+- **Parzival** [T1-] (mirrored from parzival.dossier.md)
+- **Antoni Gaudí i Cornet** [T3] (mirrored from antoni_gaudi.dossier.md)
+- **Christina Georgina Rossetti** [T5] (mirrored from christina_rossetti.dossier.md)
+
 ## Chronology
 
 - **24 March 1834:** Born at Elm House, Walthamstow.

@@ -1175,6 +1175,43 @@ For the overwhelming majority of the 896-person roster, no documented meeting, c
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Eva Duarte de Perón** [T5]
+- **María Estela Martínez Cartas de Perón** [T5]
+- **José López Rega** [T5]
+- **Benito Mussolini** [T4]
+- **Ernesto "Che" Guevara** [T1-]
+- **Fidel Alejandro Castro Ruz** [T3]
+- **Augusto Pinochet Ugarte** [T3]
+- **Salvador Guillermo Allende Gossens** [T3]
+- **Ronald Richter** [T5]
+- **Licio Gelli** [T4]
+- **Enrique Santos Discépolo** [T4]
+- **Jorge Luis Borges** [T3]
+- **Victoria Ocampo** [T3]
+- **Cristina Elisabet Fernández de Kirchner** [T9+]
+- **Diego Armando Maradona** [T9+]
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **Osvaldo Pedro Pugliese** [T5] (mirrored from osvaldo_pugliese.dossier.md)
+- **Wifredo Viladrich** [T4] (mirrored from viladrich.dossier.md)
+- **Mario Palanti** [T3] (mirrored from mario_palanti.dossier.md)
+- **Enrique Santos Discépolo** [T5] (mirrored from enrique_santos_discepolo.dossier.md)
+- **Aimé Félix Tschiffely** [T4] (mirrored from tschiffely.dossier.md)
+- **Licio Gelli** [T5] (mirrored from licio_gelli.dossier.md)
+- **Luis Perlotti** [T3] (mirrored from luis_perlotti.dossier.md)
+- **Fidel Alejandro Castro Ruz** [T5] (mirrored from fidel_castro.dossier.md)
+- **Vito Dumas** [T4] (mirrored from vito_dumas.dossier.md)
+- **Daniel Giannone** [T1+] (mirrored from daniel_giannone.dossier.md)
+- **Daniel Gastón Schávelzon** [T1+] (mirrored from daniel_schavelzon.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T3] (mirrored from julio_cortazar.dossier.md)
+- **Marta María Ezcurra Real de Azúa** [T9+] (mirrored from marta_ezcurra.dossier.md)
+- **Victoria Ocampo** [T4] (mirrored from victoria_ocampo.dossier.md)
+- **Cristina Elisabet Fernández de Kirchner** [T1+] (mirrored from cristina_fernandez_de_kirchner.dossier.md)
+- **Alberto Gerchunoff** [T3] (mirrored from alberto_gerchunoff.dossier.md)
+
 ## Compact Chronology
 
 - **7 or 8 October 1895:** Born and/or officially registered at Lobos; 8 October becomes the official date. Alternative 1893 Roque Pérez theory remains disputed.

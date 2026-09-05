@@ -664,6 +664,19 @@ No single reputation has displaced the others. Admirers cite investment, Mexican
 
 No reliable evidence was found for prophecy or hyperstition links, and apparent similarities based only on wealth, ideology, historical interest, philanthropy, or presence at large international gatherings were excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Auguste Rodin** [T9-]
+- **William Jefferson Clinton** [T5]
+- **William Henry Gates III** [T5]
+- **Camille Rosalie Claudel** [T9-]
+- **Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez** [T9-]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Fidel Alejandro Castro Ruz** [T3]
+- **Pablo Ruiz Picasso** [T9-]
+
 ## Sources
 
 https://www.carlosslim.com/biografia_ing.html

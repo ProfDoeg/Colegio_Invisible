@@ -2319,3 +2319,13 @@ https://www.journals.uchicago.edu/doi/10.14318/hau7.3.002
 - **[T1-] Documented fact.** In his 1984 chapter on the sources of charismatic leadership, Tambiah traced the term *charisma* through its New Testament usage and specifically discussed Paul’s treatments of spiritual gifts in Romans 12 and 1 Corinthians 12 before evaluating Weber’s secular sociological formulation. [Cambridge University Press chapter record](https://www.cambridge.org/core/books/abs/buddhist-saints-of-the-forest-and-the-cult-of-amulets/sources-of-charismatic-leadership-max-weber-revisited/DA7D404EDE81396AF42E94102FFB7109)
 
 No further roster crossings were located that could be supported without inferring a relationship from shared subject matter, institutional milieu, travel, or historical reference alone.
+
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Claude Lévi-Strauss** [T1-]
+- **John Langshaw Austin** [T1-]
+- **Max Weber** [T1-]
+- **Paul the Apostle** [T1-]
+

@@ -552,6 +552,42 @@ The durable core is not a moral slogan about “disruption.” It is a linked re
 
 No adequately documented T2 prophecy/hyperstition or T9 shared-object connection with an atlas-roster figure was located. Mere overlap in Vienna, Bonn, Cambridge, or Harvard has not been counted where evidence of an actual meeting, written engagement, or specific shared object was absent.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Aristotle** [T1-]
+- **Carl Menger** [T1-]
+- **Francois Marie Charles Fourier** [T1-]
+- **David Rockefeller** [T5]
+- **Eugen Böhm Ritter von Bawerk** [T5]
+- **Eugen Böhm Ritter von Bawerk** [T1-]
+- **Friedrich August von Hayek** [T3]
+- **Friedrich August von Hayek** [T5]
+- **Claude-Henri de Rouvroy** [T1-]
+- **John Locke** [T1-]
+- **John Maynard Keynes** [T3]
+- **John Maynard Keynes** [T5]
+- **John Maynard Keynes** [T1-]
+- **Karl Marx** [T1-]
+- **Ludwig Heinrich Edler von Mises** [T5]
+- **Ludwig Heinrich Edler von Mises** [T3]
+- **Max Weber** [T5]
+- **Max Weber** [T3]
+- **Max Weber** [T1-]
+- **Plato** [T1-]
+- **Thomas Aquinas** [T1-]
+- **Sir Thomas More** [T1-]
+- **Tommaso Campanella** [T1-]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Ludwig Heinrich Edler von Mises** [T4] (mirrored from ludwig_von_mises.dossier.md)
+- **Eugen Böhm Ritter von Bawerk** [T3] (mirrored from eugen_von_bohm_bawerk.dossier.md)
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Jakob Fugger 'the Rich'** [T1-] (mirrored from jakob_fugger_the_rich.dossier.md)
+- **Charles de Ganahl Koch** [T1+] (mirrored from charles_koch.dossier.md)
+- **Yanis Varoufakis** [T1+] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Sources
 
 https://www.deutsche-biographie.de/sfz106815.html?language=de

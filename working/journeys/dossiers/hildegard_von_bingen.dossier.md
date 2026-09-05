@@ -1280,6 +1280,17 @@ Absence of further verified roster connections is the finding.
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Bernard of Clairvaux** [T3]
+- **Frederick Law Olmsted** [T3]
+- **Jesus of Nazareth** [T1-]
+- **Aurelius Augustinus** [T3]
+- **Nicholas of Cusa** [T9+]
+- **Johannes Trithemius** [T9+]
+
 ## Compact Chronology
 
 | Date | Event |

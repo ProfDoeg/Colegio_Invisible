@@ -883,6 +883,31 @@ Only connections supported by the consulted sources are included. Mere presence 
 
 No supported crossing was found with the remaining atlas names. In particular, sources that place Isadora Duncan, Hermann Hesse, Paul Klee, Otto Gross, or other figures within the broad Monte Verità story do not by themselves prove that they met Perrottet.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Achille-Claude Debussy** [T9-]
+- **Auguste Rodin** [T3]
+- **Carl Gustav Jung** [T5]
+- **Charlotte Bara** [T5]
+- **Erik Satie** [T9-]
+- **Johannes Itten** [T4]
+- **Katja Wulff** [T5]
+- **Mary Wigman** [T5]
+- **Rudolf Laban** [T5]
+- **Rudolf Steiner** [T9-]
+- **Sophie Taeuber-Arp** [T5]
+- **Émile Jaques-Dalcroze** [T5]
+- **François Delsarte** [T9-]
+- **Wilhelm Richard Wagner** [T9-]
+- **Theodor Reuss** [T3] (mirrored from theodor_reuss.dossier.md)
+- **Ida Hofmann** [T4] (mirrored from ida_hoffmann.dossier.md)
+- **Henri Oedenkoven** [T4] (mirrored from henri_oedenkoven.dossier.md)
+- **Vera Skoronel** [T5] (mirrored from vera_skoronel.dossier.md)
+- **Sophie Taeuber-Arp** [T4] (mirrored from sophie_taeuber_arp.dossier.md)
+- **Mary Wigman** [T4] (mirrored from mary_wigman.dossier.md)
+
 ## Sources
 
 https://saebi.isgv.de/biografie/Suzanne_Perrottet_(1889-1983)

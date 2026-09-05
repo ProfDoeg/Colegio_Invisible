@@ -995,6 +995,49 @@ Their work is often compared with eurythmy, but no sufficiently documented direc
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Annie Besant** [T5]
+- **Helena Petrovna Blavatsky** [T1-]
+- **Jiddu Krishnamurti** [T3]
+- **Johann Wolfgang von Goethe** [T1-]
+- **Friedrich Schiller** [T1-]
+- **Friedrich Nietzsche** [T5]
+- **Immanuel Kant** [T1-]
+- **Johann Gottlieb Fichte** [T1-]
+- **Friedrich Wilhelm Joseph Schelling** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Charles Robert Darwin** [T1-]
+- **Theodor Herzl** [T3]
+- **Captain Alfred Dreyfus** [T3]
+- **Wassily Kandinsky** [T3]
+- **Hilma af Klint** [T5]
+- **Erich Mühsam** [T5]
+- **Rosa Luxemburg** [T5]
+- **Christian Rosenkreuz** [T1-] (mirrored from christian_rosenkreuz.dossier.md)
+- **Otto Hanish** [T4] (mirrored from otto_hanish.dossier.md)
+- **Emanuel Swedenborg** [T1-] (mirrored from emanuel_swedenborg.dossier.md)
+- **Jacob Boehme** [T1-] (mirrored from jacob_boehme.dossier.md)
+- **Johannes Itten** [T4] (mirrored from itten.dossier.md)
+- **Hermann Hesse** [T4] (mirrored from hermann_hesse.dossier.md)
+- **Julius Evola** [T1+] (mirrored from julius_evola.dossier.md)
+- **Theodor Reuss** [T3] (mirrored from theodor_reuss.dossier.md)
+- **The Comte de Saint-Germain** [T1+] (mirrored from comte_de_saint_germain.dossier.md)
+- **Emma Kunz** [T9+] (mirrored from emma_kunz.dossier.md)
+- **Kyot-Willehalm** [T1-] (mirrored from kyot-willehalm.dossier.md)
+- **Mircea Eliade** [T1+] (mirrored from mircea_eliade.dossier.md)
+- **Vera Skoronel** [T9+] (mirrored from vera_skoronel.dossier.md)
+- **Xul Solar** [T3] (mirrored from xul_solar.dossier.md)
+- **Novalis** [T1-] (mirrored from novalis.dossier.md)
+- **Hilma af Klint** [T3] (mirrored from hilma_af_klint.dossier.md)
+- **Parzival** [T1-] (mirrored from parzival.dossier.md)
+- **Annie Besant** [T3] (mirrored from annie_besant.dossier.md)
+- **Paracelsus** [T1-] (mirrored from paracelsus.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+- **Suzanne Perrottet** [T9+] (mirrored from suzanne_perrottet.dossier.md)
+
 ## Chronology
 
 | Date | Event |

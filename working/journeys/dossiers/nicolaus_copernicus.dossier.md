@@ -502,6 +502,30 @@ Commemorations include lunar crater **Copernicus**; asteroid **1322 Coppernicus*
 
 No other roster member was included merely because of chronological overlap, general participation in astronomy, later use of the adjective “Copernican,” or presence within the broad Renaissance or Scientific Revolution tradition. In particular, no documented personal or textual connection was found between Copernicus and Nicholas of Cusa, despite later comparisons between their ideas about cosmic motion.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Plato** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Leonardo di ser Piero da Vinci** [T4]
+- **Martin Luther** [T3]
+- **Giordano Bruno** [T1+]
+- **Johannes Kepler** [T1+]
+- **Galileo Galilei** [T1+]
+- **René Descartes** [T1+]
+- **Christiaan Huygens** [T1+]
+- **Sir Isaac Newton** [T1+]
+- **Immanuel Kant** [T1+]
+- **Johann Elert Bode** [T1+] (mirrored from johann_bode.dossier.md)
+- **Jan Amos Komenský** [T9+] (mirrored from jan_amos_comenius.dossier.md)
+- **Leonhard Euler** [T1+] (mirrored from leonard_euler.dossier.md)
+- **Pierre-Simon Laplace** [T1+] (mirrored from pierre_simon_laplace.dossier.md)
+- **Robert Hooke** [T1+] (mirrored from robert_hooke.dossier.md)
+- **John Dee** [T3] (mirrored from john_dee.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+
 ## Sources
 
 https://plato.stanford.edu/entries/copernicus/

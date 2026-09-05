@@ -1083,6 +1083,36 @@ No reliable documented crossing was found with most other roster members. Appare
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Mohandas Karamchand Gandhi** [T3]
+- **Haile Selassie I** [T5]
+- **Ernesto "Che" Guevara** [T3]
+- **Mao Zedong** [T3]
+- **Karl Marx** [T3]
+- **Vladimir Ilyich Ulyanov** [T3]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Muammar Muhammad Abu Minyar al-Gaddafi** [T5]
+- **William Jefferson Clinton** [T5]
+- **George Herbert Walker Bush** [T5]
+- **George Walker Bush** [T9-]
+- **Cecil John Rhodes** [T9-] (mirrored from cecil_rhodes.dossier.md)
+- **Hugo Rafael Chávez Frías** [T4] (mirrored from hugo_chavez.dossier.md)
+- **Karl Marx** [T1-] (mirrored from karl_marx.dossier.md)
+- **Jonas Malheiro Savimbi** [T5] (mirrored from jonas_savimbi.dossier.md)
+- **Steven Allan Spielberg** [T4] (mirrored from stephen_spielberg.dossier.md)
+- **David Rockefeller** [T5] (mirrored from david_rockefeller.dossier.md)
+- **Hillary Diane Rodham Clinton** [T5] (mirrored from hillary_clinton.dossier.md)
+- **George Walker Bush** [T5] (mirrored from george_w_bush.dossier.md)
+- **Klaus Martin Schwab** [T5] (mirrored from klaus_schwab.dossier.md)
+- **Mohandas Karamchand Gandhi** [T1-] (mirrored from mahatma_gandhi.dossier.md)
+- **Saddam Hussein al-Tikriti** [T3] (mirrored from saddam_hussein.dossier.md)
+- **William Henry Gates III** [T5] (mirrored from bill_gates.dossier.md)
+- **William Henry Gates III** [T1+] (mirrored from bill_gates.dossier.md)
+- **Kenneth Lee Lay** [T5] (mirrored from kenneth_lay.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -655,6 +655,39 @@ Marcuse supplied portable concepts—false needs, one-dimensionality, repressive
 
 No substantiated T2 prophecy/hyperstition or T9 shared-object transmission was identified between Marcuse and any roster member. Famous associative formulas such as “Marx, Mao, Marcuse” establish public juxtaposition, not by themselves correspondence, meeting, co-presence, prophecy, or object transmission.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Erich Seligmann Fromm** [T3]
+- **Felix José Weil** [T4]
+- **Friedrich Schiller** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Claude-Henri de Rouvroy** [T1-]
+- **Immanuel Kant** [T1-]
+- **Jean-Paul Charles Aymard Sartre** [T3]
+- **Jürgen Habermas** [T5]
+- **Karl Marx** [T1-]
+- **Martin Heidegger** [T5]
+- **Max Horkheimer** [T5]
+- **Friedrich Nietzsche** [T1-]
+- **Søren Aabye Kierkegaard** [T1-]
+- **Salvador Guillermo Allende Gossens** [T1-]
+- **Sigmund Freud** [T1-]
+- **Theodor W. Adorno** [T5]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Walter Benjamin** [T1-]
+- **Mark Fisher** [T1+]
+- **Paulo Reglus Neves Freire** [T1+] (mirrored from paulo_freire.dossier.md)
+- **Wilhelm Reich** [T1-] (mirrored from reich.dossier.md)
+- **Martin Heidegger** [T3] (mirrored from martin_heidegger.dossier.md)
+- **Pierre-Félix Guattari** [T4] (mirrored from felix_guattari.dossier.md)
+- **Erich Seligmann Fromm** [T4] (mirrored from erich_fromm.dossier.md)
+- **Mark Lombardi** [T3] (mirrored from mark_lombardi.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T4] (mirrored from jean_paul_sartre.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+- **Max Horkheimer** [T3] (mirrored from max_horkheimer.dossier.md)
+
 ## Sources
 
 https://www.marcuse.org/herbert/

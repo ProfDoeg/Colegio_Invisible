@@ -1202,6 +1202,18 @@ No source consulted established a qualifying meeting, correspondence, collaborat
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Charles Robert Darwin** [T1-]
+- **Elon Reeve Musk** [T3]
+- **Jesus of Nazareth** [T1-]
+- **Abraham** [T1-]
+- **Alan Mathison Turing** [T1-] (mirrored from alan_turing.dossier.md)
+- **Josefina Ayerza** [T3] (mirrored from josefina_ayerza.dossier.md)
+- **Leonard Max Adleman** [T1+] (mirrored from leonard_adleman.dossier.md)
+
 ## Sources
 
 https://richarddawkins.net/richarddawkins/

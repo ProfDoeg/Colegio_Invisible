@@ -1396,6 +1396,31 @@ The atlas roster contains hundreds of figures. Apart from the connections above,
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Helena Petrovna Blavatsky** [T5]
+- **Jiddu Krishnamurti** [T5]
+- **Mohandas Karamchand Gandhi** [T3]
+- **Rudolf Steiner** [T3]
+- **Narendranath Datta** [T4]
+- **Mary "May" Morris** [T4] (mirrored from mary_may_morris.dossier.md)
+- **René Guénon** [T3] (mirrored from rene_guenon.dossier.md)
+- **Rudolf Steiner** [T5] (mirrored from steiner.dossier.md)
+- **Dion Fortune** [T4] (mirrored from dion_fortune.dossier.md)
+- **Alexandra David-Néel** [T3] (mirrored from alexandra_david_neel.dossier.md)
+- **Maria Tecla Artemisia Montessori** [T5] (mirrored from maria_montessori.dossier.md)
+- **Jiddu Krishnamurti** [T2+ hyperstition] (mirrored from jiddu_krishnamurti.dossier.md)
+- **William Butler Yeats** [T4] (mirrored from w_b_yeats.dossier.md)
+- **Mohandas Karamchand Gandhi** [T5] (mirrored from mahatma_gandhi.dossier.md)
+- **Julius Evola** [T3] (mirrored from julius_evola.dossier.md)
+- **The Comte de Saint-Germain** [T1+] (mirrored from comte_de_saint_germain.dossier.md)
+- **Narendranath Datta** [T5] (mirrored from swami_vivekananda.dossier.md)
+- **Indra Devi** [T4] (mirrored from indra_devi.dossier.md)
+- **Lucy Parsons** [T3] (mirrored from lucy_parsons.dossier.md)
+- **Arthur Edward Waite** [T3] (mirrored from arthur_edward_waite.dossier.md)
+
 ## Chronology
 
 | Date | Event |

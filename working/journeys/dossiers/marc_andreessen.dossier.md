@@ -1696,6 +1696,37 @@ Each image contains a piece of the documented life and a layer of exaggeration.
 
 No additional roster connection was included merely because someone shared an industry, institution, political tendency, award category, geographic location, investment ecosystem or historical subject with Andreessen; the reviewed record did not establish one of the six specified connection types for those names.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Augusta Ada King** [T1-]
+- **Adam Smith** [T1-]
+- **R. Buckminster Fuller** [T1-]
+- **Filippo Tommaso Emilio Marinetti** [T1-]
+- **Friedrich August von Hayek** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **George Orwell** [T1-]
+- **John von Neumann** [T1-]
+- **Joseph Alois Schumpeter** [T1-]
+- **Ludwig Heinrich Edler von Mises** [T1-]
+- **Milton Friedman** [T1-]
+- **Nick Land** [T1-]
+- **Ray Kurzweil** [T1-]
+- **Richard Phillips Feynman** [T1-]
+- **Sir Thomas More** [T1-]
+- **Peter Andreas Thiel** [T3]
+- **Reid Garrett Hoffman** [T5]
+- **Samuel Harris Altman** [T5]
+- **Nick Szabo** [T4] (mirrored from nick_szabo.dossier.md)
+- **Nick Land** [T3] (mirrored from nick_land.dossier.md)
+- **Vinton Gray Cerf** [T9] (mirrored from vint_cerf.dossier.md)
+- **Curtis Guy Yarvin** [T3] (mirrored from curtis_yarvin.dossier.md)
+- **Curtis Guy Yarvin** [T5] (mirrored from curtis_yarvin.dossier.md)
+- **Elon Reeve Musk** [T3] (mirrored from elon_musk.dossier.md)
+- **Samuel Harris Altman** [T3] (mirrored from sam_altman.dossier.md)
+- **Max Rafailovich Levchin** [T5] (mirrored from max_levchin.dossier.md)
+
 ## Sources
 
 https://americanhistory.si.edu/comphist/ma1.html

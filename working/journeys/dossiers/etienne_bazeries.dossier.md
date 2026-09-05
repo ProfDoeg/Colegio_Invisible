@@ -745,6 +745,19 @@ Later scholarship has moved from heroic summary toward a divided assessment:
 
 No additional roster member was found to have a sufficiently documented crossing under the six permitted connection types. In particular, shared cryptographic subject matter, overlapping lifetimes, later technological resemblance, or participation in the broader Iron Mask tradition was not treated as a connection without evidence of writing, engagement, proximity, meeting, prophecy, or transmission through a specific object or site.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Gaius Julius Caesar** [T1-]
+- **Blaise de Vigenère** [T1-]
+- **Louis XIV** [T1-]
+- **Napoleon Bonaparte** [T1-]
+- **Auguste Kerckhoffs** [T3]
+- **Captain Alfred Dreyfus** [T3]
+- **Thomas Jefferson** [T9-]
+- **William Frederick Friedman** [T1+]
+
 ## Sources
 
 https://www.leonore.archives-nationales.culture.gouv.fr/ui/notice/22690

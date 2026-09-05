@@ -463,6 +463,37 @@ The personal archive is exceptionally rich but not complete: diaries were self-c
 
 No defensible T2 prophecy/hyperstition or T9 shared-object transmission was located among the roster. Mere intellectual influence, shared geography, later commemoration, or presence in the same broad historical milieu has not been counted as a crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Chaim Azriel Weizmann** [T3]
+- **Chaim Azriel Weizmann** [T5]
+- **Theodor Herzl** [T1-]
+- **Albert Einstein** [T3]
+- **Albert Einstein** [T5]
+- **Martin Mordechai Buber** [T3]
+- **Martin Mordechai Buber** [T5]
+- **Ze'ev** [T3]
+- **Ze'ev** [T5]
+- **Moshé Feldenkrais** [T5]
+- **John Fitzgerald Kennedy** [T5]
+- **John Fitzgerald Kennedy** [T3]
+- **J. Robert Oppenheimer** [T5]
+- **Niels Bohr** [T5]
+- **Golda Meir** [T5]
+- **John Foster Dulles** [T5] (mirrored from john_foster_dulles.dossier.md)
+- **Clark McAdams Clifford** [T3] (mirrored from clark_clifford.dossier.md)
+- **Max Moritz Warburg** [T4] (mirrored from max_warburg.dossier.md)
+- **Meyer Lansky** [T9+] (mirrored from meyer_lansky.dossier.md)
+- **Avram Noam Chomsky** [T1+] (mirrored from noam_chomsky.dossier.md)
+- **Niels Bohr** [T4] (mirrored from niels_bohr.dossier.md)
+- **Henryk Erlich** [T3] (mirrored from henryk_erlich.dossier.md)
+- **Benjamin Netanyahu** [T3] (mirrored from benjamin_netanyahu.dossier.md)
+- **Mohammad Reza Shah Pahlavi** [T4] (mirrored from mohammad_reza_shah_pahlavi.dossier.md)
+- **Haile Selassie I** [T3] (mirrored from haile_selassie.dossier.md)
+- **Alberto Gerchunoff** [T3] (mirrored from alberto_gerchunoff.dossier.md)
+
 ## Sources
 
 https://bengurionarchive.bgu.ac.il/en/about

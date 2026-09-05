@@ -1617,6 +1617,53 @@ No further roster connections were included without source support. Most of the 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T5]
+- **Homer** [T3]
+- **Diogenes of Sinope** [T5]
+- **Cyrus the Great** [T9-]
+- **Herodotus of Halicarnassus** [T3]
+- **Pindar of Thebes** [T9-]
+- **Gaius Julius Caesar** [T9+]
+- **Cleopatra VII Thea Philopator** [T9+]
+- **Nizami Ganjavi** [T1+]
+- **Amir Khusrow Dehlavi** [T1+]
+- **Flavius Josephus** [T1+]
+- **Strabo of Amaseia** [T1+]
+- **Claudius Aelianus** [T1+]
+- **Muhiddin Piri** [T1+] (mirrored from piri_reis.dossier.md)
+- **Napoleon Bonaparte** [T3] (mirrored from napoleon.dossier.md)
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Zoroaster** [T9-] (mirrored from zoroaster.dossier.md)
+- **Evliya Çelebi** [T1+] (mirrored from evliya_celebi.dossier.md)
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Marco Polo** [T1+] (mirrored from marco_polo.dossier.md)
+- **Megasthenes of Ionia** [T1+] (mirrored from megasthenes.dossier.md)
+- **Plato** [T9-] (mirrored from plato.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T1+] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Publius Aelius Hadrianus** [T9+] (mirrored from adriano.dossier.md)
+- **Marcus Tullius Cicero** [T1+] (mirrored from cicero.dossier.md)
+- **Christopher Columbus** [T3] (mirrored from columbus.dossier.md)
+- **Ludwig Derleth** [T1+] (mirrored from ludwig_derleth.dossier.md)
+- **Judah Loew ben Bezalel** [T1+] (mirrored from judah_loew_ben_bezalel_the_maharal_of_prague.dossier.md)
+- **The Lady of the Lake** [T5] (mirrored from lady-of-the-lake.dossier.md)
+- **Hannibal Barca** [T1+] (mirrored from hannibal.dossier.md)
+- **Aurelius Augustinus** [T1+] (mirrored from saint_augustine_of_hippo.dossier.md)
+- **Homer** [T9-] (mirrored from homer.dossier.md)
+- **Plinio el Viejo** [T1+] (mirrored from plinio_el_viejo.dossier.md)
+- **Tertullian** [T1+] (mirrored from tertullian.dossier.md)
+- **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
+- **Nabucodonosor II** [T9-] (mirrored from nabucodonosor_ii.dossier.md)
+- **Muhammad ibn Abdullah** [T1+] (mirrored from muhammad.dossier.md)
+- **Constantine the Great** [T9+] (mirrored from constantino_el_grande.dossier.md)
+- **Polybius of Megalopolis** [T1+] (mirrored from polybius.dossier.md)
+
 ## Chronology
 
 | Date | Event |

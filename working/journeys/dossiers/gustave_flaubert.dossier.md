@@ -980,6 +980,25 @@ The clearest roster intersections are Victor Hugo during Flaubert’s lifetime a
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Victor-Marie Hugo** [T3]
+- **Marcel Proust** [T1+]
+- **Jorge Luis Borges** [T1+]
+- **Jean-Paul Charles Aymard Sartre** [T1+]
+- **Roland Gérard Barthes** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Honoré de Balzac** [T1-]
+- **James Augustine Aloysius Joyce** [T3] (mirrored from james_joyce.dossier.md)
+- **Paul Jules Barbier** [T9+] (mirrored from jules_barbier.dossier.md)
+- **Miguel de Cervantes Saavedra** [T3] (mirrored from miguel_de_cervantes.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Victor-Marie Hugo** [T5] (mirrored from victor_hugo.dossier.md)
+- **San Antonio Abad** [T1-] (mirrored from san_antonio_abad.dossier.md)
+- **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

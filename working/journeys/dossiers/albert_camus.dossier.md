@@ -1001,6 +1001,40 @@ No substantiated meeting, correspondence, family tie, collaboration, rivalry, pa
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aurelius Augustinus** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Søren Aabye Kierkegaard** [T1-]
+- **Jean-Paul Charles Aymard Sartre** [T5]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T5]
+- **Pablo Ruiz Picasso** [T5]
+- **Martin Heidegger** [T3]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Karl Marx** [T1-]
+- **Mohandas Karamchand Gandhi** [T3]
+- **George Orwell** [T3]
+- **Federico García Lorca** [T1-]
+- **André Breton** [T4]
+- **Antoine de Saint-Exupéry** [T5] (mirrored from antoine_de_saint_exupery.dossier.md)
+- **Diogenes of Sinope** [T1-] (mirrored from diogenes_of_sinope.dossier.md)
+- **José Luis Álvarez Enparantza** [T1+] (mirrored from jose_luis_alvarez_emparantza_txillardegi.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Antonin Artaud** [T4] (mirrored from artaud.dossier.md)
+- **André Breton** [T3] (mirrored from andre_breton.dossier.md)
+- **Roland Gérard Barthes** [T3] (mirrored from roland_barthes.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Jacques Derrida** [T3] (mirrored from jacques_derrida.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T3] (mirrored from julio_cortazar.dossier.md)
+- **Victoria Ocampo** [T5] (mirrored from victoria_ocampo.dossier.md)
+- **Sigmund Freud** [T1-] (mirrored from freud.dossier.md)
+- **Mikhail Aleksandrovich Bakunin** [T1-] (mirrored from mikhail_bakunin.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+- **Michèle Bernstein** [T3] (mirrored from michele_bernstein.dossier.md)
+- **Pablo Ruiz Picasso** [T3] (mirrored from pablo_picasso.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

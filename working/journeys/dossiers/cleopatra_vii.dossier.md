@@ -606,6 +606,24 @@ Cleopatra's defeat ended nearly three centuries of Ptolemaic rule and removed th
 
 No other roster member has a sufficiently supported direct meeting, written engagement, prophecy relationship, shared-object transmission, or qualifying proximity connection with Cleopatra VII. Dynastic descent from Alexander the Great’s successor, residence in Alexandria across different centuries, and later interest in Egypt or Cleopatra were not counted without evidence satisfying one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Marcus Tullius Cicero** [T3]
+- **Dante Alighieri** [T1+]
+- **Flavius Josephus** [T1+]
+- **Gaius Julius Caesar** [T5]
+- **Plinio el Viejo** [T1+]
+- **Strabo of Amaseia** [T1+]
+- **Publius Vergilius Maro** [T1+]
+- **Alexander the Great** [T9-] (mirrored from alexander.dossier.md)
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Claudius Aelianus** [T1+] (mirrored from claudius_aelianus_aelian.dossier.md)
+- **William R. Bradshaw** [T1+] (mirrored from william_r_bradshaw.dossier.md)
+- **Auguste Kerckhoffs** [T1+] (mirrored from auguste_kerckhoffs.dossier.md)
+
 ## Sources
 
 https://academic.oup.com/edited-volume/61673/chapter-abstract/548065820

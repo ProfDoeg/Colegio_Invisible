@@ -1087,6 +1087,43 @@ For the hundreds of other names in the supplied roster, no documented meeting, c
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Simón Bolívar** [T1-]
+- **Simón Rodríguez** [T1-]
+- **Antonio José de Sucre** [T1-]
+- **Karl Marx** [T1-]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Antonio Francesco Gramsci** [T1-]
+- **Rosa Luxemburg** [T1-]
+- **Ernesto "Che" Guevara** [T1-]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Nicolás Maduro Moros** [T5]
+- **Cristina Elisabet Fernández de Kirchner** [T5]
+- **Muammar Muhammad Abu Minyar al-Gaddafi** [T5]
+- **Avram Noam Chomsky** [T5]
+- **Gabriel José García Márquez** [T5]
+- **Diego Armando Maradona** [T5]
+- **George Walker Bush** [T4]
+- **William Jefferson Clinton** [T4]
+- **Salvador Guillermo Allende Gossens** [T1-]
+- **Augusto Pinochet Ugarte** [T1-]
+- **Juan Domingo Perón** [T1-]
+- **Eva Duarte de Perón** [T1-]
+- **Paulo Reglus Neves Freire** [T1-]
+- **Francisco de Miranda** [T1-]
+- **José Julián Martí Pérez** [T1-]
+- **Mao Zedong** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Abraham Lincoln** [T1-]
+- **Nelson Rolihlahla Mandela** [T4]
+- **Vilma Espín Guillois** [T5] (mirrored from vilma_espin.dossier.md)
+- **Avram Noam Chomsky** [T9-] (mirrored from noam_chomsky.dossier.md)
+- **Eduardo Sergio Elsztain** [T5] (mirrored from eduardo_elsztain.dossier.md)
+
 ## Chronology
 
 - **28 July 1954:** Born in Sabaneta, Barinas.

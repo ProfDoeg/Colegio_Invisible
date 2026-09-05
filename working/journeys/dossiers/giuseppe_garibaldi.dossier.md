@@ -605,6 +605,33 @@ Recent scholarship has shifted from deciding whether he was simply hero or fraud
 - **[T3]** **Documented fact:** At the French National Assembly in **Bordeaux on 8 March 1871**, Hugo publicly defended Garibaldi after hostile deputies challenged the Italian general’s election and service to France. Garibaldi was the immediate subject of a speech delivered in the assembly in which both men participated, establishing direct performative discourse even though a private conversation is not securely documented.
 - **[T3]** **Documented fact:** In an open letter published in April 1871, Garibaldi recommended Hugo by name as one of the honest democratic figures whom Paris might choose as civic leader. This is one-sided written engagement. [Garibaldi’s letter](https://www.marxists.org/history/france/paris-commune/documents/garibaldi-letter.htm)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T3]
+- **Alexandre Dumas** [T5]
+- **Alexandre Dumas** [T3]
+- **Anita Garibaldi** [T5]
+- **Helena Petrovna Blavatsky** [T4]
+- **Gabriele d'Annunzio** [T1+]
+- **John Brown** [T1-]
+- **Karl Marx** [T3]
+- **Mikhail Aleksandrovich Bakunin** [T5]
+- **Mikhail Aleksandrovich Bakunin** [T3]
+- **Antonio Francesco Gramsci** [T1+]
+- **Victor-Marie Hugo** [T3]
+- **José Julián Martí Pérez** [T1+] (mirrored from jose_marti.dossier.md)
+- **Manuela Sáenz de Vergara y Aizpuru** [T5] (mirrored from manuela_saenz.dossier.md)
+- **Frédéric Auguste Bartholdi** [T5] (mirrored from frederic_auguste_bartholdi.dossier.md)
+- **Joaquín Trincado Mateo** [T1+] (mirrored from joaquin_trincado_mateo.dossier.md)
+- **Giuseppe Balsamo** [T9-] (mirrored from cagliostro.dossier.md)
+- **Ze'ev** [T1+] (mirrored from ze_ev_jabotinsky.dossier.md)
+- **Ettore Ferrari** [T9+] (mirrored from ettore_ferrari.dossier.md)
+- **Eugène Py** [T9+] (mirrored from eugene_py.dossier.md)
+- **Juan Manuel José Domingo Ortiz de Rozas y López de Osornio** [T4] (mirrored from juan_manuel_de_rosas.dossier.md)
+- **Agustí Querol i Subirats** [T9-] (mirrored from agusti_querol_subirats.dossier.md)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/giuseppe-garibaldi_%28Dizionario-Biografico%29/

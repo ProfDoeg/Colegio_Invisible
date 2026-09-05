@@ -1411,6 +1411,21 @@ Beyond Kublai Khan’s direct family relationship and later travelers’ engagem
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Kublai Khan** [T4]
+- **Giovanni da Pian del Carpine** [T1+]
+- **Marco Polo** [T1+]
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Mircea Eliade** [T1+] (mirrored from mircea_eliade.dossier.md)
+- **Baha ud-Din Walad** [T4] (mirrored from baha_ud_din_walad.dossier.md)
+- **Abu Abdallah Muhammad ibn Battuta** [T9+] (mirrored from ibn_battuta.dossier.md)
+- **Jalal al-Din Rumi** [T4] (mirrored from rumi.dossier.md)
+- **Rabban Bar Sauma** [T9+] (mirrored from rabban_bar_sauma.dossier.md)
+- **Kublai Khan** [T5] (mirrored from kublai_khan.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

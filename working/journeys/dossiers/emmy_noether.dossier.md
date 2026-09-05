@@ -660,6 +660,20 @@ For much of the twentieth century physicists cited “Noether’s theorem” wit
 
 No additional atlas-roster crossing met the stated documentary threshold in the consulted record. Mere overlap at institutions, congresses, or within later mathematical lineages was excluded where no interaction, written engagement, or specifically documented shared occasion could be established.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T3]
+- **Albert Einstein** [T5]
+- **Albert Einstein** [T1+]
+- **Felix Christian Klein** [T3]
+- **Felix Christian Klein** [T5]
+- **John von Neumann** [T5]
+- **Werner Heisenberg** [T4] (mirrored from heisenberg.dossier.md)
+- **John von Neumann** [T4] (mirrored from john_von_neumann.dossier.md)
+- **Carl Friedrich Gauss** [T9-] (mirrored from gauss.dossier.md)
+
 ## Sources
 
 https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/

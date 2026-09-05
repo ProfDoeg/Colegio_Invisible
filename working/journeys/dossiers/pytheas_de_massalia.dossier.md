@@ -1178,6 +1178,17 @@ The only secure roster connections are posthumous textual ones with **Strabo** a
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Strabo of Amaseia** [T1+]
+- **Plinio el Viejo** [T1+]
+- **Strabo of Amaseia** [T3] (mirrored from strabo.dossier.md)
+- **Adam of Bremen** [T3] (mirrored from adam_of_bremen.dossier.md)
+- **Polybius of Megalopolis** [T1+] (mirrored from polybius.dossier.md)
+- **Jules Gabriel Verne** [T1+] (mirrored from jules_verne.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -566,6 +566,37 @@ In 2004 thieves stole the original Nobel medal and other objects from Rabindra B
 
 - **[T1+] Documented fact:** Borges, the later figure, wrote about Tagore in a short notice published in the Buenos Aires magazine *El Hogar* on 10 February 1939. On Tagore’s dossier this carries the positive sign because Tagore is the earlier, written-about figure. Claims that Borges personally met Tagore during the latter’s 1924–25 Argentine stay remain unsupported: Victoria Ocampo’s accounts do not document such a meeting. [Study of Borges’s writings on Tagore](https://www.thedreamingmachine.com/borges-towards-tagore-frenzied-celebrations-and-reprobations-razu-alauddin/)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T5]
+- **Henri-Louis Bergson** [T5]
+- **Hermann Graf von Keyserling** [T5]
+- **Herbert George Wells** [T5]
+- **Mohandas Karamchand Gandhi** [T5]
+- **Maria Tecla Artemisia Montessori** [T5]
+- **Benito Mussolini** [T5]
+- **Nicholas Konstantinovich Roerich** [T5]
+- **Satyendra Nath Bose** [T3]
+- **Victoria Ocampo** [T5]
+- **William Butler Yeats** [T5]
+- **Jorge Luis Borges** [T1+]
+- **Matsuo Bashō** [T1-] (mirrored from matsuo_basho.dossier.md)
+- **Werner Heisenberg** [T5] (mirrored from heisenberg.dossier.md)
+- **Satyendra Nath Bose** [T5] (mirrored from satyendra_nath_bose.dossier.md)
+- **Alexandra David-Néel** [T5] (mirrored from alexandra_david_neel.dossier.md)
+- **Maria Tecla Artemisia Montessori** [T3] (mirrored from maria_montessori.dossier.md)
+- **Hermann Hesse** [T3] (mirrored from hermann_hesse.dossier.md)
+- **William Butler Yeats** [T3] (mirrored from w_b_yeats.dossier.md)
+- **Mircea Eliade** [T5] (mirrored from mircea_eliade.dossier.md)
+- **Narendranath Datta** [T5] (mirrored from swami_vivekananda.dossier.md)
+- **Indra Devi** [T3] (mirrored from indra_devi.dossier.md)
+- **Indra Devi** [T5] (mirrored from indra_devi.dossier.md)
+- **Gustav Landauer** [T3] (mirrored from gustav_landauer.dossier.md)
+- **Savitri Devi** [T5] (mirrored from savitri_devi.dossier.md)
+- **Giuseppe Tucci** [T9+] (mirrored from giuseppe_tucci.dossier.md)
+
 ## Sources
 
 https://www.nobelprize.org/prizes/literature/1913/summary/

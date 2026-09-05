@@ -2308,6 +2308,18 @@ For rapid reference:
 
 No additional roster crossing was identified that met the stated evidentiary threshold. Mere contemporaneity, ownership of portraits depicting roster figures, later institutional associations, and works acquired by The Frick Collection after Henry Clay Frick’s death were excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Andrew Carnegie** [T3]
+- **Andrew Carnegie** [T5]
+- **John Pierpont Morgan** [T5]
+- **John Pierpont Morgan** [T9-]
+- **John Davison Rockefeller Sr.** [T3]
+- **John Davison Rockefeller Sr.** [T5]
+- **John Pierpont Morgan** [T3] (mirrored from j_p_morgan.dossier.md)
+
 ## Sources
 
 https://www.frick.org/about/history/henry_clay_frick

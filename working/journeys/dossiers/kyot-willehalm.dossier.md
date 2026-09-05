@@ -1012,6 +1012,16 @@ No further atlas-roster connection was found that met the required evidentiary t
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Charlemagne** [T4]
+- **Parzival** [T5]
+- **Arthur of Lotharingia** [T4]
+- **Rudolf Steiner** [T1+]
+- **Parzival** [T1-] (mirrored from parzival.dossier.md)
+
 ## Chronology
 
 | Date | Event | Evidentiary status |

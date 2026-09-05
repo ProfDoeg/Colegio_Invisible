@@ -402,6 +402,36 @@ His technical legacy runs through Huygens’s dynamics and pendulum clock, Torri
 
 No documented personal, correspondence, proximity, prophetic, or shared-object connection was found with Giordano Bruno, despite their frequent later pairing in martyr-of-science narratives. Likewise, Newton and Galileo never met; Newton’s connection is strictly posthumous textual engagement. Other roster overlaps based only on broad influence, common subject matter, citation traditions, or presence in the same historical era have been omitted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Archimedes of Syracuse** [T1-]
+- **Aristotle** [T1-]
+- **Dante Alighieri** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Nicolaus Copernicus** [T1-]
+- **Johannes Kepler** [T3]
+- **Tommaso Campanella** [T3]
+- **René Descartes** [T3]
+- **Christiaan Huygens** [T1+]
+- **Sir Isaac Newton** [T1+]
+- **Albert Einstein** [T1+]
+- **Leonhard Euler** [T1+] (mirrored from leonard_euler.dossier.md)
+- **Gottfried Wilhelm Leibniz** [T3] (mirrored from gottfried_wilhelm_leibniz.dossier.md)
+- **Plato** [T1-] (mirrored from plato.dossier.md)
+- **Archimedes of Syracuse** [T3] (mirrored from archimedes.dossier.md)
+- **Giordano Bruno** [T9-] (mirrored from giordano_bruno.dossier.md)
+- **Pierre-Simon Laplace** [T1+] (mirrored from pierre_simon_laplace.dossier.md)
+- **Robert Hooke** [T1+] (mirrored from robert_hooke.dossier.md)
+- **Athanasius Kircher** [T4] (mirrored from kircher.dossier.md)
+- **Giambattista Vico** [T3] (mirrored from vico.dossier.md)
+- **Aristotle** [T3] (mirrored from aristotle.dossier.md)
+- **Victor-Marie Hugo** [T1+] (mirrored from victor_hugo.dossier.md)
+- **Tommaso Campanella** [T5] (mirrored from tommaso_campanella.dossier.md)
+- **Michelangelo di Lodovico Buonarroti Simoni** [T9-] (mirrored from michelangelo.dossier.md)
+- **William R. Bradshaw** [T1+] (mirrored from william_r_bradshaw.dossier.md)
+
 ## Sources
 
 https://archive.org/details/agh6462.0001.001.umich.edu

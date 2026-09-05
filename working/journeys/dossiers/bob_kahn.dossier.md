@@ -923,6 +923,23 @@ No direct, source-supported personal connection was found between Kahn and other
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Vinton Gray Cerf** [T3]
+- **Guido van Rossum** [T4]
+- **Claude Elwood Shannon** [T9-]
+- **Leonard Max Adleman** [T4]
+- **Dennis MacAlistair Ritchie** [T9+]
+- **Linus Benedict Torvalds** [T4] (mirrored from linus_torvalds.dossier.md)
+- **Guido van Rossum** [T5] (mirrored from guido_van_rossum.dossier.md)
+- **Philip R. Zimmermann** [T4] (mirrored from phil_zimmermann.dossier.md)
+- **Vinton Gray Cerf** [T5] (mirrored from vint_cerf.dossier.md)
+- **Jaufre Rudel** [T1-] (mirrored from joffrey_rudel.dossier.md)
+- **Adi Shamir** [T4] (mirrored from adi_shamir.dossier.md)
+- **Ronald Linn Rivest** [T5] (mirrored from ron_rivest.dossier.md)
+
 ## Sources
 
 https://www.cnri.reston.va.us/bios/kahn-1.html

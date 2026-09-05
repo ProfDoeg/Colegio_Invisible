@@ -622,6 +622,34 @@ Publication of his letters and modern biographies replaced the marble founder wi
 
 No adequately supported T2 prophecy/hyperstition or T9 shared-object transmission was identified between Weizmann and the roster. Mere chronological overlap, common Jewish or Zionist subject matter, later use of the Weizmann Institute, and ideological inheritance—including the indirect Benjamin Netanyahu linkage—were not counted as crossings without evidence satisfying the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ahad Ha'am** [T5]
+- **Arthur James Balfour** [T5]
+- **Clark McAdams Clifford** [T3]
+- **David Ben-Gurion** [T3]
+- **Albert Einstein** [T5]
+- **Martin Mordechai Buber** [T3]
+- **Benito Mussolini** [T5]
+- **J. Robert Oppenheimer** [T5]
+- **Theodor Herzl** [T4]
+- **Ze'ev** [T3]
+- **Martin Mordechai Buber** [T4] (mirrored from martin_buber.dossier.md)
+- **Clark McAdams Clifford** [T4] (mirrored from clark_clifford.dossier.md)
+- **Herbert George Wells** [T3] (mirrored from h_g_wells.dossier.md)
+- **Max Moritz Warburg** [T5] (mirrored from max_warburg.dossier.md)
+- **Theodor Herzl** [T3] (mirrored from theodor_herzl.dossier.md)
+- **Niels Bohr** [T4] (mirrored from niels_bohr.dossier.md)
+- **Ze'ev** [T5] (mirrored from ze_ev_jabotinsky.dossier.md)
+- **Golda Meir** [T4] (mirrored from golda_meir.dossier.md)
+- **David Ben-Gurion** [T5] (mirrored from david_ben_gurion.dossier.md)
+- **Arthur James Balfour** [T3] (mirrored from arthur_balfour.dossier.md)
+- **Aaron David Gordon** [T5] (mirrored from aaron_david_gordon.dossier.md)
+- **Ahad Ha'am** [T3] (mirrored from ahad_ha_am.dossier.md)
+- **Alberto Gerchunoff** [T4] (mirrored from alberto_gerchunoff.dossier.md)
+
 ## Sources
 
 https://www.weizmann-archives.org.il/

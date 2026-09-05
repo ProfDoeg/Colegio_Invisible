@@ -837,6 +837,23 @@ Only supported intersections with names on the supplied atlas roster are include
 
 No adequately documented personal meeting, correspondence, family tie, collaboration, teacher-student relationship, or direct rivalry was established with the other listed atlas figures. Apparent connections involving Sigmund Freud, Albert Einstein, Claude Debussy, Friedrich Nietzsche, Vladimir Lenin, David Ben-Gurion, Chaim Weizmann, or later political figures are generally commentary, analogy, ideological reception, or indirect historical influence—not demonstrated personal intersections with Alfred Dreyfus.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Theodor Herzl** [T3]
+- **Marcel Proust** [T3]
+- **Sarah Bernhardt** [T3]
+- **Jules Henri Poincaré** [T3] (mirrored from henri_poincare.dossier.md)
+- **Auguste Rodin** [T4] (mirrored from auguste_rodin.dossier.md)
+- **Rudolf Steiner** [T3] (mirrored from steiner.dossier.md)
+- **Étienne Bazeries** [T3] (mirrored from etienne_bazeries.dossier.md)
+- **Émile Pouget** [T3] (mirrored from emile_pouget.dossier.md)
+- **Georges Sorel** [T3] (mirrored from georges_sorel.dossier.md)
+- **Lionel-Noël Royer** [T1+] (mirrored from lionel_royer.dossier.md)
+- **Auguste Kerckhoffs** [T3] (mirrored from auguste_kerckhoffs.dossier.md)
+- **Jules Gabriel Verne** [T3] (mirrored from jules_verne.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

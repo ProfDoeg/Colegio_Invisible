@@ -964,6 +964,21 @@ No reliable evidence of a meeting, correspondence, collaboration, rivalry, famil
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Ernesto "Che" Guevara** [T4]
+- **Celia Esther Sánchez Manduley** [T5]
+- **Haydée Tamara Bunke Bíder** [T9-]
+- **Hugo Rafael Chávez Frías** [T5]
+- **Teté Puebla** [T4]
+- **Salvador Guillermo Allende Gossens** [T4]
+- **Teté Puebla** [T5] (mirrored from tete_puebla.dossier.md)
+- **Teté Puebla** [T1+] (mirrored from tete_puebla.dossier.md)
+- **Haydée Tamara Bunke Bíder** [T4] (mirrored from tamara_bunke.dossier.md)
+
 ## Chronology
 
 - **7 April 1930:** Born in Santiago de Cuba to José Espín and Margarita Guillois.

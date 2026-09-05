@@ -725,6 +725,16 @@ Later commemorative writing sometimes places Hall within a continuous fraternal 
 
 No supported connection was found with Albert Pike, Abraham Lincoln, Harriet Tubman, Marcus Garvey, or the other later Masonic, abolitionist, political, or esoteric figures in the atlas roster. Their lives may intersect with Hall’s posthumous institutional legacy, but not with his documented lifetime network.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Thomas Jefferson** [T3]
+- **George Washington** [T4]
+- **Hiram Abiff** [T9-]
+- **George Washington** [T3] (mirrored from george_washington.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+
 ## Chronology
 
 - **c. 1735–1738:** Probable birth period, based on 1807 age statements; place and parents unknown.

@@ -1220,6 +1220,56 @@ No supported personal or textual connection was found in this research for the l
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Immanuel Kant** [T3]
+- **Johann Heinrich Pestalozzi** [T3]
+- **Friedrich Fröbel** [T1+]
+- **Johann Gottlieb Fichte** [T1+]
+- **Georg Wilhelm Friedrich Hegel** [T1+]
+- **Karl Marx** [T1+]
+- **Friedrich Nietzsche** [T1+]
+- **Johann Wolfgang von Goethe** [T3]
+- **Friedrich Schiller** [T1+]
+- **Napoleon Bonaparte** [T1+]
+- **Mary Wollstonecraft Shelley** [T1+]
+- **Jacques Derrida** [T1+]
+- **Claude Lévi-Strauss** [T1+]
+- **Sigmund Freud** [T1+]
+- **Walter Benjamin** [T1+]
+- **Jean-Paul Charles Aymard Sartre** [T1+]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T1+]
+- **Albert Camus** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Jürgen Habermas** [T1+]
+- **Slavoj Žižek** [T1+]
+- **John Locke** [T1-]
+- **Plato** [T1-]
+- **Aristotle** [T1-]
+- **James Augustine Aloysius Joyce** [T1-]
+- **Adam Smith** [T3]
+- **Mao Zedong** [T3] (mirrored from mao_zedong.dossier.md)
+- **Diogenes of Sinope** [T1-] (mirrored from diogenes_of_sinope.dossier.md)
+- **Napoleon Bonaparte** [T3] (mirrored from napoleon.dossier.md)
+- **Francisco de Miranda** [T1+] (mirrored from miranda.dossier.md)
+- **Johann Heinrich Pestalozzi** [T1+] (mirrored from pestalozzi.dossier.md)
+- **Winfried Georg Sebald** [T1+] (mirrored from w_g_sebald.dossier.md)
+- **Friedrich Fröbel** [T9+] (mirrored from froebel.dossier.md)
+- **Simón Bolívar** [T3] (mirrored from bolivar.dossier.md)
+- **Antonio Francesco Gramsci** [T1+] (mirrored from antonio_gramsci.dossier.md)
+- **Isabelle Wilhelmine Marie Eberhardt** [T3] (mirrored from isabelle_eberhardt.dossier.md)
+- **Simón Rodríguez** [T1+] (mirrored from simon_rodriguez.dossier.md)
+- **John Dewey** [T1+] (mirrored from john_dewey.dossier.md)
+- **Jean-Baptiste Joseph Fourier** [T3] (mirrored from joseph_fourier.dossier.md)
+- **Mikhail Aleksandrovich Bakunin** [T1+] (mirrored from mikhail_bakunin.dossier.md)
+- **Franz Anton Mesmer** [T9+] (mirrored from mesmer.dossier.md)
+- **Domingo Faustino Sarmiento** [T3] (mirrored from sarmiento.dossier.md)
+- **Francois Marie Charles Fourier** [T1+] (mirrored from charles_fourier.dossier.md)
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T3] (mirrored from alexis_de_tocqueville.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -691,6 +691,48 @@ The archive’s inclusion in major Danish heritage work and completion of SKS ha
 
 No T2 prophecy/hyperstition or T9 shared-object transmission meeting the stated evidentiary threshold was found among the roster. In particular, thematic similarity, later influence without identifiable engagement, and simple contemporaneity were not counted as connections.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **Paul the Apostle** [T1-]
+- **Aristotle** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Plato** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **René Descartes** [T1-]
+- **Johann Gottlieb Fichte** [T1-]
+- **Johann Wolfgang von Goethe** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Immanuel Kant** [T1-]
+- **Martin Luther** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Novalis** [T1-]
+- **Friedrich Schiller** [T1-]
+- **Wolfgang Amadeus Mozart** [T1-]
+- **Friedrich Wilhelm Joseph Schelling** [T3]
+- **Mikhail Aleksandrovich Bakunin** [T4]
+- **Friedrich August von Hayek** [T4]
+- **Alexander von Humboldt** [T4]
+- **Hans Christian Andersen** [T5]
+- **Theodor W. Adorno** [T1+]
+- **Martin Heidegger** [T1+]
+- **Martin Mordechai Buber** [T1+]
+- **Albert Camus** [T1+]
+- **Jean-Paul Charles Aymard Sartre** [T1+]
+- **Jacques Derrida** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Jorge Luis Borges** [T1+]
+- **Diogenes of Sinope** [T1-] (mirrored from diogenes_of_sinope.dossier.md)
+- **Martin Mordechai Buber** [T3] (mirrored from martin_buber.dossier.md)
+- **José Luis Álvarez Enparantza** [T1+] (mirrored from jose_luis_alvarez_emparantza_txillardegi.dossier.md)
+- **Hermann Hesse** [T3] (mirrored from hermann_hesse.dossier.md)
+- **Jacques Marie Émile Lacan** [T1+] (mirrored from jacques_lacan.dossier.md)
+- **Carl Theodor Dreyer** [T1+] (mirrored from carl_theodor_dreyer.dossier.md)
+- **Herbert Marcuse** [T1+] (mirrored from herbert_marcuse.dossier.md)
+- **Hans Christian Andersen** [T3] (mirrored from hans_christian_andersen.dossier.md)
+
 ## Sources
 
 https://teol.ku.dk/skc/english/about-soeren-kierkegaard/the-global-dane-soeren-kierkegaard-teologian-philosopher-author/soeren-kierkegaard/

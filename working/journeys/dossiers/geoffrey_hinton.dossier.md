@@ -580,6 +580,23 @@ Historical reinterpretation is already active. Earlier celebratory accounts fore
 
 No qualifying crossing was substantiated for the remaining roster entries. Mere intellectual ancestry, shared disciplines, namesake prizes, broad institutional membership, contemporaneity, or appearance on the same long signatory list was not elevated to friendship, meeting, or physical proximity without additional evidence.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alan Mathison Turing** [T9-]
+- **Andrew Carnegie** [T9-]
+- **John Rogers Searle** [T5]
+- **Yoshua Bengio** [T3]
+- **Yoshua Bengio** [T5]
+- **Yuval Noah Harari** [T3]
+- **Martin Edward Hellman** [T3]
+- **Samuel Harris Altman** [T3]
+- **William Henry Gates III** [T3]
+- **Ray Kurzweil** [T3]
+- **Elon Reeve Musk** [T3]
+- **Adi Shamir** [T9-] (mirrored from adi_shamir.dossier.md)
+
 ## Sources
 
 https://www.cs.toronto.edu/~hinton/

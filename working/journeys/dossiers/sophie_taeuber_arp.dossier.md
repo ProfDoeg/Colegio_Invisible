@@ -630,6 +630,24 @@ The current historical reinterpretation replaces a linear story—craftswoman be
 
 No evidence sufficient for the specified Atlas typology was located for the remaining roster members. In particular, later comparisons with Anni Albers, references to Freud and Jung in the *König Hirsch* production, and participation by Taeuber-Arp and other roster artists in broad group exhibitions do not by themselves establish a personal, discursive, prophetic, or shared-object connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **André Breton** [T5]
+- **James Augustine Aloysius Joyce** [T5]
+- **Johannes Itten** [T5]
+- **Katja Wulff** [T5]
+- **Mary Wigman** [T5]
+- **Rudolf Laban** [T5]
+- **Suzanne Perrottet** [T4]
+- **Wassily Kandinsky** [T5]
+- **Wassily Kandinsky** [T1+]
+- **Theodor Reuss** [T3] (mirrored from theodor_reuss.dossier.md)
+- **Henri Oedenkoven** [T4] (mirrored from henri_oedenkoven.dossier.md)
+- **Daniel Giannone** [T1+] (mirrored from daniel_giannone.dossier.md)
+- **Suzanne Perrottet** [T5] (mirrored from suzanne_perrottet.dossier.md)
+
 ## Sources
 
 https://sophietaeuberarp.org/english/biografie/

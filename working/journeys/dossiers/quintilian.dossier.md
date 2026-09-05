@@ -755,6 +755,25 @@ Calahorra’s monument, educational institutions named for him, and recurring Qu
 
 No additional roster crossing was included merely because a person was Quintilian’s contemporary, occupied the same broad Roman setting, appeared incidentally in an illustrative quotation, or later participated in rhetoric, education, or memory traditions without demonstrable engagement with Quintilian.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Frances Amelia Yates** [T1+]
+- **Herodotus of Halicarnassus** [T1-]
+- **Hesiod of Ascra** [T1-]
+- **Homer** [T1-]
+- **Gaius Julius Caesar** [T1-]
+- **Peter of Ravenna** [T3]
+- **Pindar of Thebes** [T1-]
+- **Plato** [T1-]
+- **Simonides of Ceos** [T1-]
+- **Publius Vergilius Maro** [T1-]
+- **Pindar of Thebes** [T3] (mirrored from pindar.dossier.md)
+- **Herodotus of Halicarnassus** [T3] (mirrored from herodotus.dossier.md)
+
 ## Sources
 
 https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/home.html

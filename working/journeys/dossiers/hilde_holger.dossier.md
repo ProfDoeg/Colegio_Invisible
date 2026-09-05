@@ -798,6 +798,20 @@ The archive’s rhetoric can be hagiographic—“hero,” “revolutionary,” 
 
 The sources also associate Holger with roster figures including Rudolf Laban, Mary Wigman, Isadora Duncan, Ruth St. Denis, Valeska Gert, Martha Graham, Pablo Picasso, Gustav Klimt, Sigmund Freud, and Mahatma Gandhi. Those references establish influence, comparison, cultural environment, disputed family memory, or impact from a public event—not, on the evidence located, one of the six specified connection types. They are therefore not entered as Atlas connections.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Hans Christian Andersen** [T1-]
+- **Jiddu Krishnamurti** [T3]
+- **Federico García Lorca** [T1-]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T1-]
+- **Oskar Alfred Victor Schlemmer** [T1-]
+- **Paul Klee** [T1-]
+- **Pieter Bruegel the Elder** [T1-]
+- **Francis of Assisi** [T1-]
+- **Rudolf Laban** [T5] (mirrored from laban.dossier.md)
+
 ## Sources
 
 https://jwa.org/encyclopedia/article/holger-hilde

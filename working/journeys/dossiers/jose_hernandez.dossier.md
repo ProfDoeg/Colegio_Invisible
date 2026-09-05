@@ -517,6 +517,19 @@ The famous aphorisms—especially “Los hermanos sean unidos”—circulate det
 
 - **[T1+] Documented fact:** Borges, born thirteen years after Hernández’s death, repeatedly wrote about Hernández and his work. His most concentrated treatment is *El “Martín Fierro”* (1953), coauthored with Margarita Guerrero; he also reworked Hernández’s narrative in stories including “El fin” and “Biografía de Tadeo Isidoro Cruz.” Hernández therefore bears the positive sign as the earlier, written-about figure. [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/obra-visor/la-poesia-gauchesca-y-la-intuicion-de-borges-nueva-mirada-critica-933284/html/f73ca572-264a-4b04-a2a0-4d1d2f7fcc69_7.html)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Domingo Faustino Sarmiento** [T3]
+- **Julio Argentino Roca** [T4]
+- **Jorge Luis Borges** [T1+]
+- **Wifredo Viladrich** [T9+] (mirrored from viladrich.dossier.md)
+- **Juan Antonio Buschiazzo** [T5] (mirrored from juan_antonio_buschiazzo.dossier.md)
+- **Pedro Simón del Corazón de Jesús Benoit** [T4] (mirrored from pedro_benoit.dossier.md)
+- **Torcuato Antonio de Alvear** [T4] (mirrored from torcuato_de_alvear.dossier.md)
+- **Alberto Gerchunoff** [T1+] (mirrored from alberto_gerchunoff.dossier.md)
+
 ## Sources
 
 https://www.cervantesvirtual.com/portales/jose_hernandez/

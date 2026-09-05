@@ -1287,6 +1287,34 @@ No securely documented personal intersection was found with Abraham Lincoln, Ale
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **José de San Martín** [T5]
+- **Martín Miguel de Güemes** [T5]
+- **Juan Martín de Pueyrredón y O'Doggan** [T5]
+- **Carlos María de Alvear** [T4]
+- **Juana Azurduy de Padilla** [T3]
+- **María Remedios del Valle** [T4]
+- **Juan Manuel José Domingo Ortiz de Rozas y López de Osornio** [T4]
+- **George Washington** [T1-]
+- **Adam Smith** [T3]
+- **Napoleon Bonaparte** [T4]
+- **Bernardo O'Higgins Riquelme** [T4]
+- **Domingo Faustino Sarmiento** [T1+]
+- **José Antonio de la Sierra** [T4] (mirrored from jose_antonio_de_la_sierra.dossier.md)
+- **Napoleon Bonaparte** [T9-] (mirrored from napoleon.dossier.md)
+- **Dalila Puzzovio** [T4] (mirrored from dalila_puzzovio.dossier.md)
+- **Dalila Puzzovio** [T5] (mirrored from dalila_puzzovio.dossier.md)
+- **Juan Martín de Pueyrredón y O'Doggan** [T4] (mirrored from juan_martin_de_pueyrredon.dossier.md)
+- **Luis Perlotti** [T9-] (mirrored from luis_perlotti.dossier.md)
+- **María Remedios del Valle** [T5] (mirrored from maria_remedios_del_valle.dossier.md)
+- **Juana Azurduy de Padilla** [T5] (mirrored from juana_azurduy.dossier.md)
+- **Próspero Catelin** [T9-] (mirrored from prospero_catelin.dossier.md)
+- **Aimé Jacques Alexandre Goujaud** [T5] (mirrored from aime_bonpland.dossier.md)
+- **Martín Miguel de Güemes** [T3] (mirrored from martin_miguel_de_guemes.dossier.md)
+
 ## Chronology
 
 | Date | Event |

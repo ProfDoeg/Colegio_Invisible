@@ -858,6 +858,18 @@ No documentary crossing was found with the other named atlas figures. In particu
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **David Ben-Gurion** [T5]
+- **G. I. Gurdjieff** [T3]
+- **Paul Adrien Maurice Dirac** [T3]
+- **Sigmund Freud** [T3]
+- **Maria Salomea Skłodowska-Curie** [T4]
+- **Maria Salomea Skłodowska-Curie** [T5]
+- **Elsa Gindler** [T9-] (mirrored from elsa_gindler.dossier.md)
+
 ## Chronology
 
 | Date | Event |

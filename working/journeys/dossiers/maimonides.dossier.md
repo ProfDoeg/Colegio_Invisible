@@ -966,6 +966,39 @@ Some were broadly contemporary with Maimonides or his son, occupied connected Me
 
 **Label:** No demonstrated connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **Abraham** [T9-]
+- **Aristotle** [T1-]
+- **Moses** [T1-]
+- **Saadia Gaon** [T1-]
+- **Abraham ben Samuel Abulafia** [T1+]
+- **Albertus Magnus** [T1+]
+- **Thomas Aquinas** [T1+]
+- **Gottfried Wilhelm Leibniz** [T1+]
+- **Sir Isaac Newton** [T1+]
+- **Norbert Wiener** [T1+] (mirrored from norbert_wiener.dossier.md)
+- **Martin Mordechai Buber** [T1+] (mirrored from martin_buber.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Plato** [T1-] (mirrored from plato.dossier.md)
+- **Ahmad al-Majriti** [T1-] (mirrored from ahmad_al_majriti.dossier.md)
+- **Judah Loew ben Bezalel** [T1+] (mirrored from judah_loew_ben_bezalel_the_maharal_of_prague.dossier.md)
+- **Erich Seligmann Fromm** [T1+] (mirrored from erich_fromm.dossier.md)
+- **Noah son of Lamech** [T1-] (mirrored from noah.dossier.md)
+- **Aaron the Levite** [T1-] (mirrored from aaron_the_levite.dossier.md)
+- **Rashi** [T3] (mirrored from rashi.dossier.md)
+- **David ben Jesse** [T1-] (mirrored from king_david.dossier.md)
+- **Leo Africanus** [T1+] (mirrored from leo_africanus.dossier.md)
+- **Giovanni Pico della Mirandola** [T1+] (mirrored from giovanni_pico_della_mirandola.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Ezekiel son of Buzi** [T1-] (mirrored from ezekiel.dossier.md)
+- **Jorge Luis Borges** [T1+] (mirrored from borges.dossier.md)
+- **King Solomon** [T1-] (mirrored from solomon.dossier.md)
+- **Moses de Leon** [T1+] (mirrored from moses_de_leon.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

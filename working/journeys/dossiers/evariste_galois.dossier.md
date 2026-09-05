@@ -1235,6 +1235,22 @@ The extraordinary feature is not merely that Galois “had ideas before his time
 
 No genuine documented crossing was established for the remaining atlas-roster figures. Mere chronological overlap, residence in Paris, use of later mathematical concepts descended from Galois, or participation in broadly similar intellectual and political traditions was not treated as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexandre Dumas** [T3]
+- **Alexandre Dumas** [T1+]
+- **Augustin-Louis Cauchy** [T3]
+- **Carl Friedrich Gauss** [T3]
+- **Carl Gustav Jacob Jacobi** [T3]
+- **Felix Christian Klein** [T1+]
+- **Jean-Baptiste Joseph Fourier** [T3]
+- **Joseph-Louis Lagrange** [T1-]
+- **Siméon Denis Poisson** [T3]
+- **Marius Sophus Lie** [T1+]
+- **Alexandre Dumas** [T4] (mirrored from alexandre_dumas.dossier.md)
+
 ## Sources
 
 https://fr.wikisource.org/wiki/La_vie_d%E2%80%99%C3%89variste_Galois/Texte_entier

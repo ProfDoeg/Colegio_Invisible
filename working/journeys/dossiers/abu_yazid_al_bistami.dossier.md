@@ -858,6 +858,19 @@ No defensible direct connection was found between Abū Yazīd and the overwhelmi
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abu al-Qasim al-Junayd ibn Muhammad al-Baghdadi** [T1+]
+- **Abu al-Qasim Abd al-Karim ibn Hawazin al-Qushayri** [T1+]
+- **Farid al-Din Attar** [T1+]
+- **Jalal al-Din Rumi** [T1+]
+- **Ibn Arabi** [T1+]
+- **Muhammad ibn Abdullah** [T1-]
+- **Martin Mordechai Buber** [T1+] (mirrored from martin_buber.dossier.md)
+- **Shams al-Din Muhammad of Tabriz** [T1+] (mirrored from shams_al_din_of_tabriz.dossier.md)
+
 ## Chronology
 
 | Date | Event | Evidentiary status |

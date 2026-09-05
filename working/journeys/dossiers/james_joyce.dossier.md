@@ -1297,6 +1297,46 @@ Joyce knew modern music and lived in Debussy’s Parisian aftermath, but the con
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **William Butler Yeats** [T5]
+- **Marcel Proust** [T5]
+- **Pablo Ruiz Picasso** [T4]
+- **Igor Fyodorovich Stravinsky** [T4]
+- **Sergei Pavlovich Diaghilev** [T4]
+- **Erik Satie** [T4]
+- **Carl Gustav Jung** [T5]
+- **Dante Alighieri** [T3]
+- **Giambattista Vico** [T3]
+- **Aristotle** [T3]
+- **Thomas Aquinas** [T3]
+- **Homer** [T3]
+- **Gustave Flaubert** [T3]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T1-]
+- **William Blake** [T3]
+- **Friedrich Nietzsche** [T3]
+- **Dante Gabriel Rossetti** [T3]
+- **Gabriel José García Márquez** [T3]
+- **Jorge Luis Borges** [T3]
+- **Jacques Derrida** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Pierre-Félix Guattari** [T1+]
+- **Roland Gérard Barthes** [T1+]
+- **George Orwell** [T1+]
+- **William Seward Burroughs II** [T3]
+- **Sigmund Freud** [T3]
+- **Antoinette de Saint Léger** [T5] (mirrored from antoinette_de_saint_leger.dossier.md)
+- **George Orwell** [T3] (mirrored from george_orwell.dossier.md)
+- **John Milton Cage Jr.** [T1+] (mirrored from john_cage.dossier.md)
+- **Odysseus** [T1-] (mirrored from ulysses.dossier.md)
+- **Jacques Marie Émile Lacan** [T5] (mirrored from jacques_lacan.dossier.md)
+- **Sophie Taeuber-Arp** [T5] (mirrored from sophie_taeuber_arp.dossier.md)
+- **Thomas Aquinas** [T1-] (mirrored from thomas_aquinas.dossier.md)
+- **Jean-Jacques Rousseau** [T1+] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Dante Alighieri** [T1-] (mirrored from dante.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

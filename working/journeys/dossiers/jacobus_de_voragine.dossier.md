@@ -543,6 +543,40 @@ All connections below are textual T1 crossings. They establish that Jacobus wrot
 
 No supported T2 prophecy/hyperstition, T4 shared milieu, T5 personal-meeting, or T9 shared-object/site crossing with another roster member was established. Mere chronological overlap with figures such as Albertus Magnus, Thomas Aquinas, Ramon Llull, Dante, Marco Polo, Abraham Abulafia, or Roger Bacon does not by itself meet the stated evidentiary threshold.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jesus of Nazareth** [T1-]
+- **Paul the Apostle** [T1-]
+- **Mary Magdalene** [T1-]
+- **Saint Anthony of Padua** [T1-]
+- **Saint Blaise of Sebastea** [T1-]
+- **Catherine of Alexandria** [T1-]
+- **Christopher Columbus** [T1-]
+- **Saint Cyriacus of Rome** [T1-]
+- **Saint Giles** [T1-]
+- **Bernard of Clairvaux** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Francis of Assisi** [T1-]
+- **Saint George of Lydda** [T1-]
+- **Saint Barbara of Heliopolis** [T1-]
+- **Saint Thecla of Iconium** [T1-]
+- **Saint Eustace** [T1-]
+- **Constantine the Great** [T1-]
+- **Charlemagne** [T1-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Aristotle** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Chiara di Favarone di Offreduccio** [T1-] (mirrored from clare_of_assisi.dossier.md)
+- **Saint Denis of Paris** [T1-] (mirrored from saint_denis.dossier.md)
+- **The Queen of Sheba** [T1-] (mirrored from sheba.dossier.md)
+- **Simon of Gitta** [T1-] (mirrored from simon_magus.dossier.md)
+- **San Antonio Abad** [T1-] (mirrored from san_antonio_abad.dossier.md)
+- **Saint Erasmus of Formia** [T1-] (mirrored from saint_erasmus.dossier.md)
+- **San Vito** [T1-] (mirrored from san_vito.dossier.md)
+- **Margarita / Marina / Pelagia** [T1-] (mirrored from margarita_pelagia.dossier.md)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/iacopo-da-varazze_%28Dizionario-Biografico%29/

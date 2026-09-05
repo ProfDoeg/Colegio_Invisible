@@ -1136,6 +1136,40 @@ No reliable connection was established in the consulted sources with the many ot
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Alexander Hamilton** [T5]
+- **Alexander von Humboldt** [T5]
+- **Aristotle** [T1-]
+- **Benjamin Franklin** [T5]
+- **Francis Bacon** [T1-]
+- **George Washington** [T5]
+- **Sir Isaac Newton** [T1-]
+- **John Locke** [T1-]
+- **Louis XVI** [T3]
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T5]
+- **Napoleon Bonaparte** [T3]
+- **Abraham Lincoln** [T1+]
+- **Louis XVI** [T4] (mirrored from louis_xvi.dossier.md)
+- **Prince Hall** [T3] (mirrored from prince_hall.dossier.md)
+- **William Jefferson Clinton** [T1+] (mirrored from bill_clinton.dossier.md)
+- **John Fitzgerald Kennedy** [T1+] (mirrored from john_f_kennedy.dossier.md)
+- **Napoleon Bonaparte** [T9] (mirrored from napoleon.dossier.md)
+- **Francisco de Miranda** [T5] (mirrored from miranda.dossier.md)
+- **Andrew Jackson** [T3] (mirrored from andrew_jackson.dossier.md)
+- **Miguel de Cervantes Saavedra** [T3] (mirrored from miguel_de_cervantes.dossier.md)
+- **Alexander Baring** [T3] (mirrored from alexander_baring.dossier.md)
+- **Étienne Bazeries** [T9+] (mirrored from etienne_bazeries.dossier.md)
+- **Aimé Jacques Alexandre Goujaud** [T5] (mirrored from aime_bonpland.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **John Dewey** [T1+] (mirrored from john_dewey.dossier.md)
+- **Marie Adrienne Françoise de Noailles** [T3] (mirrored from madame_de_lafayette.dossier.md)
+- **Samuel Langhorne Clemens** [T1+] (mirrored from mark_twain.dossier.md)
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T1+] (mirrored from alexis_de_tocqueville.dossier.md)
+
 ## Compact Chronology
 
 - **1743, April 13:** Born at Shadwell, Virginia.

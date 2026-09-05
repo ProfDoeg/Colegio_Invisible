@@ -1094,6 +1094,37 @@ No supported direct connection was found with the overwhelming majority of the a
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Karl Marx** [T3]
+- **Vladimir Ilyich Ulyanov** [T3]
+- **Adam Smith** [T3]
+- **Charles Robert Darwin** [T3]
+- **Jean-Jacques Rousseau** [T3]
+- **George Washington** [T3]
+- **Napoleon Bonaparte** [T3]
+- **Georg Wilhelm Friedrich Hegel** [T3]
+- **Ernesto "Che" Guevara** [T5]
+- **Fidel Alejandro Castro Ruz** [T3]
+- **Patrice Émery Lumumba** [T1-]
+- **Haile Selassie I** [T5]
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **John Foster Dulles** [T3] (mirrored from john_foster_dulles.dossier.md)
+- **Nelson Rolihlahla Mandela** [T3] (mirrored from nelson_mandela.dossier.md)
+- **Paulo Reglus Neves Freire** [T1+] (mirrored from paulo_freire.dossier.md)
+- **Karl Marx** [T1-] (mirrored from karl_marx.dossier.md)
+- **David Rockefeller** [T1+] (mirrored from david_rockefeller.dossier.md)
+- **Frida Kahlo** [T3] (mirrored from frida_kahlo.dossier.md)
+- **John Milton Cage Jr.** [T1+] (mirrored from john_cage.dossier.md)
+- **Madame Chiang Kai-shek** [T4] (mirrored from madame_chiang_kai_shek.dossier.md)
+- **Roland Gérard Barthes** [T4] (mirrored from roland_barthes.dossier.md)
+- **John Dewey** [T3] (mirrored from john_dewey.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T4] (mirrored from jean_paul_sartre.dossier.md)
+- **Nicos Poulantzas** [T3] (mirrored from nicos_poulantzas.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+
 ## Compact Chronology
 
 | Date/year | Event |

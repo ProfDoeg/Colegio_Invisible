@@ -868,6 +868,18 @@ Despite their similar adopted names and European-to-Indian migrations, no meetin
 
 No adequately documented personal crossing was found with the remaining roster members. Shared interests, common geography, or indirect inclusion in broad ideological traditions were not treated as connections.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Friedrich Nietzsche** [T3]
+- **Benito Mussolini** [T4]
+- **Rabindranath Tagore** [T5]
+- **Mohandas Karamchand Gandhi** [T5]
+- **Julius Evola** [T3]
+- **René Guénon** [T3]
+- **Miguel Serrano** [T3]
+
 ## Compact Chronology
 
 - **1905, 30 September:** Born Maximiani Julia Portas in Lyon.

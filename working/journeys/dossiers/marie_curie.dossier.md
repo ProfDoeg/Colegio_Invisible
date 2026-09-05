@@ -475,6 +475,29 @@ The “lone genius” legacy can obscure collaboration and labor. Conversely, co
 
 - **[T4] Documented fact.** Curie and Pauli were present at the fifth Solvay Physics Conference in Brussels, 24–29 October 1927. Their inclusion in the documented participant group establishes a shared scientific milieu and physical proximity, but not on its own correspondence or friendship. ([Solvay Institutes archival history](https://solvayinstitutes.be/wp-content/uploads/2025/08/Annual_report-2018.pdf))
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T3]
+- **Auguste Rodin** [T5]
+- **Jules Henri Poincaré** [T5]
+- **Loïe Fuller** [T3]
+- **Loïe Fuller** [T5]
+- **Niels Bohr** [T3]
+- **Paul the Apostle** [T4]
+- **Werner Heisenberg** [T4]
+- **Erwin Rudolf Josef Alexander Schrödinger** [T4]
+- **Wolfgang Ernst Pauli** [T4]
+- **Edward Louis Bernays** [T4] (mirrored from edward_bernays.dossier.md)
+- **Auguste Rodin** [T3] (mirrored from auguste_rodin.dossier.md)
+- **Moshé Feldenkrais** [T4] (mirrored from moshe_feldenkrais.dossier.md)
+- **Moshé Feldenkrais** [T5] (mirrored from moshe_feldenkrais.dossier.md)
+- **Niels Bohr** [T4] (mirrored from niels_bohr.dossier.md)
+- **Enrico Fermi** [T4] (mirrored from fermi.dossier.md)
+- **Albert Einstein** [T5] (mirrored from einstein.dossier.md)
+- **Henri-Louis Bergson** [T4] (mirrored from henri_bergson.dossier.md)
+
 ## Sources
 
 https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/

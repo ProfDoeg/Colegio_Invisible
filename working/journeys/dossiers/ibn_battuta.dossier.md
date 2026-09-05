@@ -1202,6 +1202,19 @@ Apart from Mansa Musa’s institutional legacy and the religious influence of Mu
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Mansa Musa** [T9-]
+- **Muhammad ibn Abdullah** [T9-]
+- **Abu Bakr as-Siddiq** [T9-]
+- **Kublai Khan** [T9-]
+- **Genghis Khan** [T9-]
+- **Mansa Musa** [T1-] (mirrored from mansa_musa.dossier.md)
+- **Ibrahim ibn Adham** [T9-] (mirrored from ibrahim_ibn_adham.dossier.md)
+- **Jules Gabriel Verne** [T1+] (mirrored from jules_verne.dossier.md)
+
 ## Chronology
 
 | Date | Event | Status |

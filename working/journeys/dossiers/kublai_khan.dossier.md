@@ -738,6 +738,20 @@ No supported crossings were found with the remainder of the atlas roster. Shared
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Genghis Khan** [T5]
+- **Marco Polo** [T5]
+- **Rabban Bar Sauma** [T4]
+- **Giovanni da Pian del Carpine** [T9-]
+- **Abu Abdallah Muhammad ibn Battuta** [T9+]
+- **Odoric of Pordenone** [T9+]
+- **Xuanzang** [T9-]
+- **Genghis Khan** [T4] (mirrored from genghis_khan.dossier.md)
+- **Christopher Columbus** [T3] (mirrored from columbus.dossier.md)
+
 ## Chronology
 
 - **1215, 23 September:** Conventional birth date in the Mongol imperial homeland.

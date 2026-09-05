@@ -1110,6 +1110,20 @@ No adequately documented direct personal connection was found in the consulted s
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez** [T5]
+- **Lev Davidovich Bronstein** [T5]
+- **André Breton** [T5]
+- **Pablo Ruiz Picasso** [T5]
+- **Mao Zedong** [T3]
+- **Karl Marx** [T1-]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **John Dewey** [T4] (mirrored from john_dewey.dossier.md)
+- **Pablo Ruiz Picasso** [T3] (mirrored from pablo_picasso.dossier.md)
+
 ## Compact Chronology
 
 - **1871:** Carl Wilhelm Kahlo born in Pforzheim, Baden.

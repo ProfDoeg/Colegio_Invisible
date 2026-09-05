@@ -1597,6 +1597,84 @@ The clearest direct atlas crossings are Joséphine, Goethe, Fourier, Laplace, La
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Empress Joséphine** [T5]
+- **Jean-Jacques Rousseau** [T3]
+- **Gaius Julius Caesar** [T1-]
+- **Alexander the Great** [T3]
+- **Charlemagne** [T9-]
+- **Johann Wolfgang von Goethe** [T5]
+- **Georg Wilhelm Friedrich Hegel** [T3]
+- **Jean-Baptiste Joseph Fourier** [T4]
+- **Pierre-Simon Laplace** [T5]
+- **Joseph-Louis Lagrange** [T4]
+- **Siméon Denis Poisson** [T4]
+- **Alexander von Humboldt** [T4]
+- **Thomas Jefferson** [T9]
+- **Benjamin Franklin** [T3]
+- **George Washington** [T3]
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T5]
+- **Louis XVI** [T4]
+- **Francisco de Miranda** [T5]
+- **Simón Bolívar** [T3]
+- **José de San Martín** [T9+]
+- **Manuel Belgrano** [T9+]
+- **Bernardo O'Higgins Riquelme** [T9+]
+- **Antonio José de Sucre** [T9+]
+- **Alexandre Dumas** [T1+]
+- **Victor-Marie Hugo** [T1+]
+- **Karl Marx** [T1+]
+- **Friedrich Nietzsche** [T1+]
+- **Benito Mussolini** [T3]
+- **Alexander von Humboldt** [T5] (mirrored from humboldt.dossier.md)
+- **Louis XVI** [T9-] (mirrored from louis_xvi.dossier.md)
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T4] (mirrored from marques_de_lafayette.dossier.md)
+- **Mao Zedong** [T3] (mirrored from mao_zedong.dossier.md)
+- **Sir Francis Baring** [T3] (mirrored from francis_baring.dossier.md)
+- **Auguste Rodin** [T9+] (mirrored from auguste_rodin.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **George Washington** [T1-] (mirrored from george_washington.dossier.md)
+- **Andrew Jackson** [T1+] (mirrored from andrew_jackson.dossier.md)
+- **Peter von Cornelius** [T3] (mirrored from peter_von_cornelius.dossier.md)
+- **Bernardo O'Higgins Riquelme** [T4] (mirrored from ohiggins.dossier.md)
+- **Pierre-François-Xavier Bouchard** [T4] (mirrored from pierre_francois_bouchard.dossier.md)
+- **Gabriele d'Annunzio** [T1+] (mirrored from dannunzio.dossier.md)
+- **Johann Gottlieb Fichte** [T3] (mirrored from fichte.dossier.md)
+- **Claude-Henri de Rouvroy** [T1+] (mirrored from henri_de_saint_simon.dossier.md)
+- **Manuel Belgrano** [T4] (mirrored from belgrano.dossier.md)
+- **Thomas Jefferson** [T3] (mirrored from thomas_jefferson.dossier.md)
+- **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Pierre-Simon Laplace** [T3] (mirrored from pierre_simon_laplace.dossier.md)
+- **Joseph-Marie Jacquard** [T4] (mirrored from joseph_marie_jacquard.dossier.md)
+- **Alexander Hamilton** [T1+] (mirrored from alexander_hamilton.dossier.md)
+- **Ludwig Derleth** [T1+] (mirrored from ludwig_derleth.dossier.md)
+- **José de San Martín** [T4] (mirrored from san_martin.dossier.md)
+- **Mayer Amschel Rothschild** [T4] (mirrored from mayer_amschel_rothschild.dossier.md)
+- **Hannibal Barca** [T1-] (mirrored from hannibal.dossier.md)
+- **Étienne Bazeries** [T1+] (mirrored from etienne_bazeries.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **René Just Haüy** [T5] (mirrored from rene_hauy.dossier.md)
+- **Friedrich Ludwig Jahn** [T4] (mirrored from johann_jahn.dossier.md)
+- **Charles Barbier de la Serre** [T9+] (mirrored from barbier.dossier.md)
+- **Sir Arthur Ignatius Conan Doyle** [T1+] (mirrored from sir_arthur_conan_doyle.dossier.md)
+- **Honoré de Balzac** [T1+] (mirrored from honore_de_balzac.dossier.md)
+- **Aimé Jacques Alexandre Goujaud** [T4] (mirrored from aime_bonpland.dossier.md)
+- **Simón Rodríguez** [T3] (mirrored from simon_rodriguez.dossier.md)
+- **Simón Rodríguez** [T1+] (mirrored from simon_rodriguez.dossier.md)
+- **Marie Adrienne Françoise de Noailles** [T4] (mirrored from madame_de_lafayette.dossier.md)
+- **Carlos María de Alvear** [T4] (mirrored from alvear.dossier.md)
+- **Jean-Baptiste Joseph Fourier** [T5] (mirrored from joseph_fourier.dossier.md)
+- **Lionel-Noël Royer** [T1+] (mirrored from lionel_royer.dossier.md)
+- **Auguste Kerckhoffs** [T1+] (mirrored from auguste_kerckhoffs.dossier.md)
+- **Franz Anton Mesmer** [T1-] (mirrored from mesmer.dossier.md)
+- **Joseph-Louis Lagrange** [T5] (mirrored from joseph_louis_lagrange.dossier.md)
+- **Francois Marie Charles Fourier** [T3] (mirrored from charles_fourier.dossier.md)
+- **Georg Wilhelm Friedrich Hegel** [T4] (mirrored from hegel.dossier.md)
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T1+] (mirrored from alexis_de_tocqueville.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

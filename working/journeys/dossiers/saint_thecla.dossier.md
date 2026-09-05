@@ -529,6 +529,17 @@ Modern historians have successively treated the story as pious fiction, a remnan
 
 No other roster member produced a sufficiently specific, source-supported crossing under the six defined connection types. Mere shared Christian tradition, comparable legends, namesakes, coappearance in art, or presence in the same broad geography was excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Paul the Apostle** [T5]
+- **Tertullian** [T1+]
+- **Egeria** [T1+]
+- **Egeria** [T9+]
+- **Aurelius Augustinus** [T1+]
+- **Jacobus de Voragine** [T1+]
+
 ## Sources
 
 https://www.nasscal.com/e-clavis-christian-apocrypha/acts-of-paul-and-thecla/

@@ -1884,6 +1884,18 @@ Health was unquestionably a real issue. Personal rivalry may also have mattered.
 
 No other roster connection was included: contemporaneity, broadly shared locations, institutional association, literary influence, or involvement in the same historical events without evidence of writing, attendance, proximity, meeting, or a qualifying shared object was treated as insufficient.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Captain Robert Falcon Scott** [T5]
+- **Captain Robert Falcon Scott** [T3]
+- **Roald Engebreth Gravning Amundsen** [T3]
+- **Roald Engebreth Gravning Amundsen** [T5]
+- **Sir Arthur Ignatius Conan Doyle** [T1+]
+- **Sir Arthur Ignatius Conan Doyle** [T5] (mirrored from sir_arthur_conan_doyle.dossier.md)
+- **Roald Engebreth Gravning Amundsen** [T1+] (mirrored from roald_amundsen.dossier.md)
+
 ## Sources
 
 https://www.gutenberg.org/ebooks/5199

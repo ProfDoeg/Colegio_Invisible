@@ -1278,6 +1278,24 @@ No supported crossing was found with the overwhelming majority of the 896-person
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Achille-Claude Debussy** [T9-]
+- **Alexandre Dumas** [T5]
+- **Auguste Rodin** [T3]
+- **Isadora Duncan** [T5]
+- **Maria Salomea Skłodowska-Curie** [T5]
+- **Pierre-Félix Guattari** [T5]
+- **Ruth St. Denis** [T1+]
+- **Sarah Bernhardt** [T5]
+- **Auguste Rodin** [T5] (mirrored from auguste_rodin.dossier.md)
+- **Maria Salomea Skłodowska-Curie** [T3] (mirrored from marie_curie.dossier.md)
+- **Sergei Pavlovich Diaghilev** [T4] (mirrored from sergei_diaghilev.dossier.md)
+- **Alphonse Mucha** [T4] (mirrored from alphonse_mucha.dossier.md)
+- **Erik Satie** [T4] (mirrored from erik_satie.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

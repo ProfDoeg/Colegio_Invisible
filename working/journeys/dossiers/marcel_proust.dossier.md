@@ -676,6 +676,39 @@ Only connections supported by consulted sources are included. Mere shared subjec
 
 No documentary crossing was found with the overwhelming majority of the atlas roster. Their absence is a finding; contemporaneity, residence in the same country or general thematic resemblance was not treated as evidence.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Captain Alfred Dreyfus** [T3]
+- **Henri-Louis Bergson** [T5]
+- **James Augustine Aloysius Joyce** [T5]
+- **Pablo Ruiz Picasso** [T4]
+- **Igor Fyodorovich Stravinsky** [T4]
+- **Sergei Pavlovich Diaghilev** [T4]
+- **Erik Satie** [T4]
+- **Achille-Claude Debussy** [T3]
+- **Gustave Flaubert** [T1-]
+- **Honoré de Balzac** [T1-]
+- **John Ruskin** [T3]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T4]
+- **Sarah Bernhardt** [T5]
+- **Vaslav Nijinsky** [T3]
+- **Wilhelm Richard Wagner** [T1-]
+- **Walter Benjamin** [T1+]
+- **Roland Gérard Barthes** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Winfried Georg Sebald** [T1+]
+- **Jorge Luis Borges** [T1+]
+- **Winfried Georg Sebald** [T3] (mirrored from w_g_sebald.dossier.md)
+- **Claude Lévi-Strauss** [T1+] (mirrored from claude_levi_strauss.dossier.md)
+- **Sarah Bernhardt** [T1-] (mirrored from sarah_bernhardt.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Jacques Marie Émile Lacan** [T1+] (mirrored from jacques_lacan.dossier.md)
+- **Henri-Louis Bergson** [T3] (mirrored from henri_bergson.dossier.md)
+- **Jorge Luis Borges** [T3] (mirrored from borges.dossier.md)
+- **John Ruskin** [T1-] (mirrored from john_ruskin.dossier.md)
+
 ## Chronology
 
 | Date | Event |

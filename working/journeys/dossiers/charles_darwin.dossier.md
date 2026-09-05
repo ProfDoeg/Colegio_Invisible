@@ -1110,6 +1110,46 @@ No defensible direct relationship was found with most of the 896-person atlas ro
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander von Humboldt** [T3]
+- **Charles Babbage** [T5]
+- **Karl Marx** [T3]
+- **William Thomson** [T3]
+- **Friedrich Max Müller** [T3]
+- **Richard Dawkins** [T1+]
+- **Donna Jeanne Haraway** [T1+]
+- **Herbert George Wells** [T1+]
+- **Friedrich Nietzsche** [T3]
+- **Sigmund Freud** [T1+]
+- **Albert Einstein** [T9+]
+- **Sir Isaac Newton** [T9-]
+- **John Ruskin** [T3]
+- **José Julián Martí Pérez** [T1+] (mirrored from jose_marti.dossier.md)
+- **Mao Zedong** [T3] (mirrored from mao_zedong.dossier.md)
+- **Yuval Noah Harari** [T1+] (mirrored from yuval_noah_harari.dossier.md)
+- **William James** [T1+] (mirrored from william_james.dossier.md)
+- **Sir George Gabriel Stokes** [T3] (mirrored from george_gabriel_stokes.dossier.md)
+- **Rudolf Steiner** [T1+] (mirrored from steiner.dossier.md)
+- **Peter Andreas Thiel** [T1+] (mirrored from peter_thiel.dossier.md)
+- **Eadweard Muybridge** [T4] (mirrored from muybridge.dossier.md)
+- **Helena Petrovna Blavatsky** [T3] (mirrored from blavatsky.dossier.md)
+- **Howard Phillips Lovecraft** [T1+] (mirrored from h_p_lovecraft.dossier.md)
+- **Edgar Allan Poe** [T3] (mirrored from edgar_allan_poe.dossier.md)
+- **Henri-Louis Bergson** [T1+] (mirrored from henri_bergson.dossier.md)
+- **Alexander Graham Bell** [T3] (mirrored from alexander_graham_bell.dossier.md)
+- **John Dewey** [T1+] (mirrored from john_dewey.dossier.md)
+- **Frederick Law Olmsted** [T3] (mirrored from frederick_law_olmsted.dossier.md)
+- **Juan Manuel José Domingo Ortiz de Rozas y López de Osornio** [T5] (mirrored from juan_manuel_de_rosas.dossier.md)
+- **Fernão de Magalhães** [T1-] (mirrored from ferdinand_magellan.dossier.md)
+- **Fernão de Magalhães** [T9-] (mirrored from ferdinand_magellan.dossier.md)
+- **Domingo Faustino Sarmiento** [T3] (mirrored from sarmiento.dossier.md)
+- **John Ruskin** [T4] (mirrored from john_ruskin.dossier.md)
+- **Samuel Langhorne Clemens** [T3] (mirrored from mark_twain.dossier.md)
+- **Aby Moritz Warburg** [T3] (mirrored from aby_warburg.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

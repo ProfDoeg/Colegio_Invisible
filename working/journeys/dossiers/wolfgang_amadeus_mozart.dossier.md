@@ -560,6 +560,37 @@ The family correspondence is abundant but uneven: Leopold’s management perspec
 
 No sufficiently supported personal or object-level crossing was found for the remainder of the roster. In particular, shared Enlightenment, Masonic, religious, literary, or musical subject matter alone was not counted; nor were unsupported claims that Cagliostro was a personal model or participant in Mozart’s *Magic Flute* circle.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Franz Anton Mesmer** [T1-]
+- **Franz Anton Mesmer** [T5]
+- **Johann Wolfgang von Goethe** [T3]
+- **Søren Aabye Kierkegaard** [T1+]
+- **Wilhelm Richard Wagner** [T1+]
+- **Pyotr Ilyich Tchaikovsky** [T1+]
+- **Pyotr Ilyich Tchaikovsky** [T9+]
+- **Friedrich Nietzsche** [T1+]
+- **Achille-Claude Debussy** [T1+]
+- **Theodor W. Adorno** [T1+]
+- **Nadia Boulanger** [T1+]
+- **Johann Heinrich Wilhelm Tischbein** [T9-] (mirrored from johann_tischbein.dossier.md)
+- **Louis XVI** [T4] (mirrored from louis_xvi.dossier.md)
+- **Paul Jules Barbier** [T9+] (mirrored from jules_barbier.dossier.md)
+- **Zoroaster** [T1-] (mirrored from zoroaster.dossier.md)
+- **Benjamin Franklin** [T9-] (mirrored from benjamin_franklin.dossier.md)
+- **Wilhelm Richard Wagner** [T9+] (mirrored from richard_wagner.dossier.md)
+- **Paul Klee** [T3] (mirrored from paul_klee.dossier.md)
+- **Maurice Bernard Sendak** [T9+] (mirrored from maurice_sendak.dossier.md)
+- **Jennifer Muller** [T9+] (mirrored from jennifer_muller.dossier.md)
+- **Victor-Marie Hugo** [T1+] (mirrored from victor_hugo.dossier.md)
+- **Cecilia Vicuña** [T9+] (mirrored from cecilia_vicuna.dossier.md)
+- **George Balanchine** [T9+] (mirrored from george_balanchine.dossier.md)
+- **Erik Satie** [T1+] (mirrored from erik_satie.dossier.md)
+- **Franz Anton Mesmer** [T4] (mirrored from mesmer.dossier.md)
+- **Johann Wolfgang von Goethe** [T5] (mirrored from goethe_full.dossier.md)
+
 ## Sources
 
 https://mozarteum.at/en/wolfgang-amade-mozart/

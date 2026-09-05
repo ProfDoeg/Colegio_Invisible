@@ -552,6 +552,12 @@ His legacy is therefore double: a historical performer who helped establish impe
 
 No further roster crossing is securely supported. In particular, shared Augustan chronology or participation in Maecenas’s broader milieu does not establish contact with Cicero, Cleopatra VII, or Virgil. The late *sic vos non vobis* legend concerns a poet called Bathyllus or Bacillus; because his identification with Bathyllus of Alexandria is unproved, it does not establish an Atlas connection with Virgil. [Paolo De Paolis, study of the *Donatus auctus* anecdote](https://hdl.handle.net/11562/988013)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Pylades of Cilicia** [T5]
+
 ## Sources
 
 https://www.attalus.org/poetry/crinagoras.html

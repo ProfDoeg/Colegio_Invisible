@@ -703,6 +703,23 @@ By late 2025 Mila and LawZero announced that Bengio had become the first living 
 
 No adequately documented T1, T5, or T9 connection with another roster member was located. Conference-series participation without proof of attendance at the same edition, institutional funding without personal involvement, and mere appearance on large undifferentiated name lists were excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alan Mathison Turing** [T2- prediction]
+- **William Henry Gates III** [T3]
+- **Elon Reeve Musk** [T4]
+- **Elon Reeve Musk** [T3]
+- **Geoffrey Everest Hinton** [T3]
+- **Ray Kurzweil** [T4]
+- **Reid Garrett Hoffman** [T4]
+- **Samuel Harris Altman** [T3]
+- **Yuval Noah Harari** [T3]
+- **Yuval Noah Harari** [T4] (mirrored from yuval_noah_harari.dossier.md)
+- **Adi Shamir** [T9-] (mirrored from adi_shamir.dossier.md)
+- **Geoffrey Everest Hinton** [T5] (mirrored from geoffrey_hinton.dossier.md)
+
 ## Sources
 
 https://yoshuabengio.org/en

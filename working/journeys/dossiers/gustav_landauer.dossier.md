@@ -1085,6 +1085,30 @@ They occupied overlapping Central European life-reform, communal, or literary en
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T5]
+- **Erich Mühsam** [T5]
+- **Martin Mordechai Buber** [T5]
+- **Friedrich Nietzsche** [T3]
+- **Johann Wolfgang von Goethe** [T1-]
+- **Johann Gottlieb Fichte** [T3]
+- **Karl Marx** [T1-]
+- **Mikhail Aleksandrovich Bakunin** [T3]
+- **Rudolf Rocker** [T4]
+- **Rosa Luxemburg** [T4]
+- **Walter Benjamin** [T3]
+- **William Morris** [T3]
+- **Rabindranath Tagore** [T3]
+- **Hermann Hesse** [T4] (mirrored from hermann_hesse.dossier.md)
+- **Rudolf Rocker** [T5] (mirrored from rudolf_rocker.dossier.md)
+- **Otto Gross** [T3] (mirrored from otto_gross.dossier.md)
+- **Johannes Friedrich Guttzeit** [T3] (mirrored from johannes_friedrich_guttzeit.dossier.md)
+- **Aaron David Gordon** [T3] (mirrored from aaron_david_gordon.dossier.md)
+- **Gustav Arthur "Gusto" Gräser** [T4] (mirrored from gusto_graeser.dossier.md)
+
 ## Chronology
 
 - **7 April 1870:** Born in Karlsruhe to Hermann and Rosa Landauer.

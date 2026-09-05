@@ -1008,6 +1008,16 @@ His historical Egyptian claims are unsupported, but the myth itself became an ef
 
 No source consulted documents a meeting, correspondence, family relationship, institutional tie, patronage, rivalry, or acknowledged direct influence involving Alliette and the other named atlas figures. Apparent overlaps with figures such as Louis XVI, the Comte de Saint-Germain, Franz Anton Mesmer, Emanuel Swedenborg, Benjamin Franklin, Napoleon Bonaparte, Éliphas Lévi, Papus, Arthur Edward Waite, or Pamela Colman Smith would rest on shared period, later influence chains, or general occult context rather than a documented personal crossing. They are therefore not entered as connections.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Antoine Court de Gébelin** [T3]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1-]
+- **Zoroaster** [T1-]
+- **Antoine Court de Gébelin** [T1-] (mirrored from antoine_court_de_gebelin.dossier.md)
+- **Arthur Edward Waite** [T1+] (mirrored from arthur_edward_waite.dossier.md)
+
 ## Sources
 
 https://bibliotheque.gagny.fr/VGAGN/doc/UNIVERSALIS/_b64_b2FpLXVuaXZlcnNhbGlzLmZyLWFyay0tMzQ4ODUtYXNhZVQwOTkyODg%3D/etteilla-jean-baptiste-alliette-le-jeune-dit-1738-1791?_lg=fr-FR

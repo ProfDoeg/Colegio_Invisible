@@ -903,6 +903,28 @@ Recent scholarship increasingly integrates rather than partitions Doyle's medici
 
 - **[T5]** **Documented fact.** Doyle and Wilde met at the Langham Hotel in London on 30 August 1889 at a dinner arranged by *Lippincott’s Monthly Magazine* editor J. M. Stoddart. Both accepted commissions there: Doyle produced *The Sign of the Four* and Wilde produced *The Picture of Dorian Gray*. Doyle’s pocket diary records the date and commission, and he later recalled the occasion warmly as a “golden evening.” The evidence supports a cordial literary acquaintance, not a close lifelong friendship. [Conan Doyle’s 1889 pocket diary](https://www.arthur-conan-doyle.com/wiki/Conan_Doyle%27s_Pocket_Diary_for_1889), [Sherlock Holmes Society of London](https://sherlock-holmes.org.uk/a-golden-day/)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Arthur James Balfour** [T5]
+- **Edgar Allan Poe** [T1-]
+- **Sir Ernest Henry Shackleton** [T5]
+- **Herbert George Wells** [T3]
+- **Harry Houdini** [T5]
+- **Harry Houdini** [T3]
+- **Sir James Matthew Barrie** [T5]
+- **Sir James Matthew Barrie** [T3]
+- **Samuel Langhorne Clemens** [T3]
+- **Napoleon Bonaparte** [T1-]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T5]
+- **Captain Robert Falcon Scott** [T3] (mirrored from robert_falcon_scott.dossier.md)
+- **Emanuel Swedenborg** [T1-] (mirrored from emanuel_swedenborg.dossier.md)
+- **Edward Bulwer-Lytton** [T1-] (mirrored from bulwer_lytton.dossier.md)
+- **Sarah Bernhardt** [T3] (mirrored from sarah_bernhardt.dossier.md)
+- **Howard Phillips Lovecraft** [T3] (mirrored from h_p_lovecraft.dossier.md)
+- **Sir Ernest Henry Shackleton** [T1-] (mirrored from ernest_shackleton.dossier.md)
+
 ## Sources
 
 https://www.arthur-conan-doyle.com/wiki/Biography

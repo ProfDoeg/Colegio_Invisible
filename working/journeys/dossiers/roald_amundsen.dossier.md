@@ -1807,6 +1807,20 @@ The opening of diaries and detailed museum research has replaced the image of th
 
 No additional roster crossings were identified that met the required evidentiary threshold; mere contemporaneity, thematic similarity, namesakes, and later joint commemoration were excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Captain Robert Falcon Scott** [T1-]
+- **Captain Robert Falcon Scott** [T3]
+- **Captain Robert Falcon Scott** [T9+]
+- **Sir Ernest Henry Shackleton** [T1-]
+- **Benito Mussolini** [T5]
+- **Benito Mussolini** [T3]
+- **Benito Mussolini** [T9-]
+- **Sir Ernest Henry Shackleton** [T3] (mirrored from ernest_shackleton.dossier.md)
+- **Sir Ernest Henry Shackleton** [T5] (mirrored from ernest_shackleton.dossier.md)
+
 ## Sources
 
 https://frammuseum.no/polar-history/explorers/roald-amundsen-explorer/

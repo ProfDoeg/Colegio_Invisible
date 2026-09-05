@@ -843,6 +843,20 @@ No adequately documented personal crossing was established with the many other p
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Philip R. Zimmermann** [T3]
+- **David Lee Chaum** [T1-]
+- **Nick Szabo** [T3]
+- **Bailey Whitfield Diffie** [T4]
+- **Martin Edward Hellman** [T4]
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T9-] (mirrored from marques_de_lafayette.dossier.md)
+- **Ralph Charles Merkle** [T4] (mirrored from ralph_merkle.dossier.md)
+- **Aristotle** [T1-] (mirrored from aristotle.dossier.md)
+- **Johann Wolfgang von Goethe** [T1-] (mirrored from goethe_full.dossier.md)
+
 ## Chronology
 
 | Date/year | Event |

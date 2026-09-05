@@ -1119,6 +1119,26 @@ No source-supported personal, institutional, familial, or explicitly acknowledge
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Achille-Claude Debussy** [T9-]
+- **Auguste Rodin** [T3]
+- **François Delsarte** [T9-]
+- **Dante Gabriel Rossetti** [T5]
+- **Le Corbusier** [T3]
+- **Mary Wigman** [T5]
+- **Rudolf Laban** [T9+]
+- **Sergei Pavlovich Diaghilev** [T9+]
+- **Vaslav Nijinsky** [T9+]
+- **Igor Fyodorovich Stravinsky** [T9+]
+- **Suzanne Perrottet** [T5]
+- **Hanya Holm** [T9+]
+- **Johannes Itten** [T9+] (mirrored from itten.dossier.md)
+- **Ida Hofmann** [T4] (mirrored from ida_hoffmann.dossier.md)
+- **Charlotte Bara** [T9+] (mirrored from charlotte_bara.dossier.md)
+
 ## Chronology
 
 | Date | Event |

@@ -756,6 +756,15 @@ The debt-burning story made Anton the model of the loyal, magnificently generous
 
 No other roster member produced a securely documented connection under the six specified types. In particular, Martin Luther’s published attacks generally targeted Jakob Fugger, the Fugger family, or large merchant companies collectively—not Anton individually—while Paracelsus’s polemics attacked the Fugger company’s guaiac trade without establishing personal correspondence or a meeting with Anton. The projected Fugger South American concession bordered or overlapped the wider arena of conquests associated with Magellan and Francisco Pizarro, but proximity within imperial planning is not evidence of a personal crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jakob Fugger 'the Rich'** [T5]
+- **Jakob Fugger 'the Rich'** [T3] (mirrored from jakob_fugger_the_rich.dossier.md)
+- **Martin Luther** [T4] (mirrored from martin_luther.dossier.md)
+- **Paracelsus** [T9+] (mirrored from paracelsus.dossier.md)
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd118694170.html

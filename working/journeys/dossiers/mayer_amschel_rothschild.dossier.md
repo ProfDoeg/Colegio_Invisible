@@ -1008,6 +1008,17 @@ Absence is significant here: Mayer’s documented personal world was concentrate
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Napoleon Bonaparte** [T4]
+- **Carl Theodor Dreyer** [T3]
+- **Arthur Scherbius** [T5]
+- **Samuel Oppenheimer** [T9-]
+- **Salomon Oppenheim jr.** [T3] (mirrored from salomon_oppenheim.dossier.md)
+- **Joshua Norman Haldeman** [T1+] (mirrored from joshua_haldeman.dossier.md)
+
 ## Chronology
 
 | Date | Event |

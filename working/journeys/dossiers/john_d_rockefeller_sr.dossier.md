@@ -2284,6 +2284,18 @@ The decisive methodological rule is to keep **Rockefeller Sr., Rockefeller Jr., 
 
 No additional roster crossings were included where the available evidence showed only contemporaneity, indirect institutional funding, family connections through later generations, shared subject matter, or attendance invitations that did not result in a meeting.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Andrew Carnegie** [T3]
+- **John Pierpont Morgan** [T5]
+- **Samuel Langhorne Clemens** [T3]
+- **David Rockefeller** [T5]
+- **Henry Clay Frick** [T3] (mirrored from henry_clay_frick.dossier.md)
+- **Henry Clay Frick** [T5] (mirrored from henry_clay_frick.dossier.md)
+- **Cornelius Vanderbilt** [T3] (mirrored from cornelius_vanderbilt.dossier.md)
+
 ## Sources
 
 https://rockarch.org/resources/about-the-rockefellers/john-d-rockefeller-sr/

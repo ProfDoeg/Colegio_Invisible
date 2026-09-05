@@ -647,6 +647,44 @@ The connections below meet the requested threshold because Vigenère explicitly 
 
 No T2 prophecy/hyperstition, T4 proximity, T5 personal-meeting, or T9 object/site connection with a roster member was securely established. In particular, the dossier’s al-Kindī–Ibn ʿAdlān–Ibn al-Durayhim lineage is conceptual and supplies no documented reading, transmission, meeting, or shared-object crossing with Vigenère; those names are therefore not converted into Atlas connections.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **Alexander the Great** [T1-]
+- **Paul the Apostle** [T1-]
+- **Archimedes of Syracuse** [T1-]
+- **Aristotle** [T1-]
+- **Atahualpa** [T1-]
+- **Charles Babbage** [T3]
+- **Charlemagne** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Constantine the Great** [T1-]
+- **Ezekiel son of Buzi** [T1-]
+- **Fernão de Magalhães** [T1-]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1-]
+- **Hernán Cortés** [T1-]
+- **Homer** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Johannes Trithemius** [T1-]
+- **Gaius Julius Caesar** [T1-]
+- **David ben Jesse** [T1-]
+- **Maimonides** [T1-]
+- **Moses** [T1-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Origen of Alexandria** [T1-]
+- **Plinio el Viejo** [T1-]
+- **Plato** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Simonides of Ceos** [T1-]
+- **King Solomon** [T1-]
+- **Publius Vergilius Maro** [T1-]
+- **Gottfried Wilhelm Leibniz** [T3] (mirrored from gottfried_wilhelm_leibniz.dossier.md)
+- **Johannes Trithemius** [T9-] (mirrored from johannes_trithemius.dossier.md)
+- **Étienne Bazeries** [T1+] (mirrored from etienne_bazeries.dossier.md)
+- **Auguste Kerckhoffs** [T1+] (mirrored from auguste_kerckhoffs.dossier.md)
+
 ## Sources
 
 https://catalogue.bnf.fr/ark:/12148/cb11928282x

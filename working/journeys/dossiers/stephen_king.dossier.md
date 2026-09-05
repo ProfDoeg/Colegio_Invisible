@@ -790,6 +790,24 @@ No supported meeting, correspondence, collaboration, institutional tie or explic
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Howard Phillips Lovecraft** [T1-]
+- **Edgar Allan Poe** [T1-]
+- **J. R. R. Tolkien** [T1-]
+- **Charles John Huffam Dickens** [T1-]
+- **George Orwell** [T1-]
+- **Maurice Bernard Sendak** [T9-]
+- **Steven Allan Spielberg** [T9+]
+- **Abraham Lincoln** [T1-]
+- **Merlin** [T1-] (mirrored from merlin.dossier.md)
+- **Mary Wollstonecraft Shelley** [T9-] (mirrored from mary_shelley.dossier.md)
+- **Steven Allan Spielberg** [T3] (mirrored from stephen_spielberg.dossier.md)
+- **Elon Reeve Musk** [T3] (mirrored from elon_musk.dossier.md)
+- **Howard Phillips Lovecraft** [T3] (mirrored from h_p_lovecraft.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

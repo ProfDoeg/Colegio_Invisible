@@ -1235,6 +1235,32 @@ For the remaining roster names, no source consulted established a qualifying dir
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jesus of Nazareth** [T9-]
+- **Paul the Apostle** [T9-]
+- **Alexander the Great** [T9-]
+- **Constantine XI Palaiologos** [T9+]
+- **Justinian I** [T9+]
+- **Otto III** [T1+] (mirrored from otto_iii.dossier.md)
+- **Jordan Maxwell** [T1+] (mirrored from jordan_maxwell.dossier.md)
+- **Empress Theodora** [T9+] (mirrored from empress_theodora.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Simon bar Jonah** [T9-] (mirrored from apostle_peter.dossier.md)
+- **Clovis** [T9+] (mirrored from clovis.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Publius Vergilius Maro** [T3] (mirrored from virgil.dossier.md)
+- **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Johannes Reuchlin** [T1+] (mirrored from johannes_reuchlin.dossier.md)
+- **Saint Eustace** [T9-] (mirrored from saint_eustace.dossier.md)
+- **Saint Acacius of Byzantium** [T9-] (mirrored from saint_acacius.dossier.md)
+- **Aurelius Augustinus** [T1+] (mirrored from saint_augustine_of_hippo.dossier.md)
+- **Egeria** [T9+] (mirrored from egeria.dossier.md)
+- **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

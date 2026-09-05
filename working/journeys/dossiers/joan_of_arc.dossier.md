@@ -1372,6 +1372,31 @@ No adequately documented personal or expressly acknowledged connection was found
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Catherine of Alexandria** [T5]
+- **Gilles de Montmorency-Laval** [T4]
+- **Yolande of Aragon** [T4]
+- **Claude des Armoises** [T9+]
+- **Carl Theodor Dreyer** [T9+]
+- **Renée Jeanne Falconetti** [T9+]
+- **Alexandre Dumas** [T1+]
+- **Samuel Langhorne Clemens** [T1+]
+- **Friedrich Schiller** [T1+]
+- **Pyotr Ilyich Tchaikovsky** [T9+]
+- **Lionel-Noël Royer** [T9+]
+- **Thomas Aquinas** [T9-]
+- **Élisabeth Sonrel** [T1+] (mirrored from elisabeth_sonrel.dossier.md)
+- **Pierre Bourlémont** [T9-] (mirrored from pierre_bourlemont.dossier.md)
+- **Clovis** [T9-] (mirrored from clovis.dossier.md)
+- **Joseph Alexandre Saint-Yves** [T1+] (mirrored from joseph_alexandre_saint_yves_d_alveydre.dossier.md)
+- **Victor-Marie Hugo** [T1+] (mirrored from victor_hugo.dossier.md)
+- **Carl Theodor Dreyer** [T1+] (mirrored from carl_theodor_dreyer.dossier.md)
+- **Lionel-Noël Royer** [T1+] (mirrored from lionel_royer.dossier.md)
+- **Charlotte Bara** [T1+] (mirrored from charlotte_bara.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

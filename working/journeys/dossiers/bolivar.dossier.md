@@ -1294,6 +1294,42 @@ Their roles in Atlantic republican history formed part of Bolívar’s broader p
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Simón Rodríguez** [T5]
+- **Francisco de Miranda** [T5]
+- **Alexander von Humboldt** [T5]
+- **Napoleon Bonaparte** [T3]
+- **Jean-Jacques Rousseau** [T3]
+- **George Washington** [T3]
+- **Andrew Jackson** [T3]
+- **Antonio José de Sucre** [T5]
+- **Bernardo O'Higgins Riquelme** [T3]
+- **Carlos María de Alvear** [T4]
+- **José de San Martín** [T5]
+- **Manuela Sáenz de Vergara y Aizpuru** [T5]
+- **Juana Azurduy de Padilla** [T5]
+- **Policarpa Salavarrieta** [T4]
+- **Karl Marx** [T1+]
+- **José Julián Martí Pérez** [T1+]
+- **Gabriel José García Márquez** [T1+]
+- **Hugo Rafael Chávez Frías** [T1+]
+- **Nicolás Maduro Moros** [T1+]
+- **Fidel Alejandro Castro Ruz** [T1+]
+- **Ernesto "Che" Guevara** [T1+]
+- **Pablo Emilio Escobar Gaviria** [T9+] (mirrored from pablo_escobar.dossier.md)
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T3] (mirrored from marques_de_lafayette.dossier.md)
+- **Bernardo O'Higgins Riquelme** [T5] (mirrored from ohiggins.dossier.md)
+- **Daniel Giannone** [T1+] (mirrored from daniel_giannone.dossier.md)
+- **Aimé Jacques Alexandre Goujaud** [T5] (mirrored from aime_bonpland.dossier.md)
+- **Simón Rodríguez** [T3] (mirrored from simon_rodriguez.dossier.md)
+- **Simón Rodríguez** [T1+] (mirrored from simon_rodriguez.dossier.md)
+- **Salvador Guillermo Allende Gossens** [T1+] (mirrored from salvador_allende.dossier.md)
+- **Torcuato Antonio de Alvear** [T9+] (mirrored from torcuato_de_alvear.dossier.md)
+- **Domingo Faustino Sarmiento** [T1+] (mirrored from sarmiento.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

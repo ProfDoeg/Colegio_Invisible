@@ -793,6 +793,30 @@ The roster crossings supported by Fisher’s publications, teaching records, and
 
 No documented T2 prophecy/hyperstition or T9 shared-object transmission was found between Fisher and the roster. Fisher wrote extensively about hyperstition, but thematic interest alone does not establish that a particular roster figure’s prophecy either predicted or causally produced Fisher or his work. Mere contemporaneity with other roster members was likewise excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Antonio Francesco Gramsci** [T1-]
+- **Antonin Artaud** [T1-]
+- **Pierre-Félix Guattari** [T1-]
+- **Gilles Louis Rene Deleuze** [T1-]
+- **Herbert George Wells** [T1-]
+- **Howard Phillips Lovecraft** [T1-]
+- **Herbert Marcuse** [T1-]
+- **Jacques Derrida** [T1-]
+- **Jacques Marie Émile Lacan** [T1-]
+- **Jean Baudrillard** [T1-]
+- **Karl Marx** [T1-]
+- **Nick Land** [T5]
+- **Nick Land** [T3]
+- **Philip Kindred Dick** [T1-]
+- **Sigmund Freud** [T1-]
+- **Slavoj Žižek** [T3]
+- **Theodor W. Adorno** [T1-]
+- **Walter Benjamin** [T1-]
+- **William Seward Burroughs II** [T1-]
+
 ## Sources
 
 https://www.gold.ac.uk/news/mark-fisher/

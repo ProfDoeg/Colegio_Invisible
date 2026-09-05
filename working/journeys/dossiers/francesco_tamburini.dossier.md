@@ -658,6 +658,23 @@ A fully documented life would require:
 
 No adequately sourced T2 prophecy or hyperstition connection was found between Tamburini and any member of the roster. The later “curse of the Teatro Colón” is a retrospective legend, but it does not identify a qualifying earlier roster figure whose prophecy predicted or helped produce Tamburini’s fate.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Julio Argentino Roca** [T4]
+- **Juan Antonio Buschiazzo** [T4]
+- **Vittorio Meano** [T5]
+- **Jules Dormal Godet** [T9+]
+- **Torcuato Antonio de Alvear** [T4]
+- **Daniel Gastón Schávelzon** [T1+]
+- **Anna Matveyevna Pavlova** [T9+]
+- **Vaslav Nijinsky** [T9+]
+- **Sergei Pavlovich Diaghilev** [T9+]
+- **Astor Pantaleón Piazzolla** [T9+]
+- **Juan Antonio Buschiazzo** [T5] (mirrored from juan_antonio_buschiazzo.dossier.md)
+- **Alejandro Christophersen** [T4] (mirrored from alejandro_christophersen.dossier.md)
+
 ## Sources
 
 https://www.argentina.gob.ar/francisco-tamburini

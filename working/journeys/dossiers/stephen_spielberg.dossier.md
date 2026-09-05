@@ -524,6 +524,23 @@ Because he is living, “legacy” remains provisional. Current projects, compan
 
 No additional roster connection was included where the evidence showed only shared subject matter, artistic influence, adaptation without demonstrated personal or written engagement, attendance at different editions of an event, or general contemporaneity. In particular, Spielberg’s direction of *Lincoln*, *Minority Report*, and *War of the Worlds* does not establish that he personally “wrote about” Abraham Lincoln, Philip K. Dick, or H. G. Wells under the stated T1 rule.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **William Jefferson Clinton** [T5]
+- **William Henry Gates III** [T5]
+- **George Walker Bush** [T5]
+- **Hillary Diane Rodham Clinton** [T5]
+- **Nelson Rolihlahla Mandela** [T4]
+- **Stephen Edwin King** [T3]
+- **Mary Wollstonecraft Shelley** [T9-] (mirrored from mary_shelley.dossier.md)
+- **Philip Kindred Dick** [T9-] (mirrored from philip_k_dick.dossier.md)
+- **Stephen Edwin King** [T9-] (mirrored from stephen_king.dossier.md)
+- **Sir James Matthew Barrie** [T9-] (mirrored from james_matthew_barrie.dossier.md)
+- **Jacinto Molina Álvarez** [T5] (mirrored from paul_naschy.dossier.md)
+- **Leslie Herbert Wexner** [T3] (mirrored from leslie_wexner.dossier.md)
+
 ## Sources
 
 https://www.amblin.com/meet-the-team/

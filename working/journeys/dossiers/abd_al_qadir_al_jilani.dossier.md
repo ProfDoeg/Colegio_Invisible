@@ -885,6 +885,18 @@ No credible connection was found with the overwhelming majority of the atlas ros
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abu al-Qasim al-Junayd ibn Muhammad al-Baghdadi** [T9-]
+- **Ibn Arabi** [T1+]
+- **Emir Abdelkader ibn Muhieddine** [T9+]
+- **Muhammad Baha al-Din Naqshband Bukhari** [T9+]
+- **Muhammad ibn Abdullah** [T1-]
+- **Abu al-Qasim al-Junayd ibn Muhammad al-Baghdadi** [T1-] (mirrored from junayd_al_baghdadi.dossier.md)
+- **René Guénon** [T1+] (mirrored from rene_guenon.dossier.md)
+
 ## Chronology
 
 | Date | Event | Evidentiary status |

@@ -1617,6 +1617,24 @@ No securely documented intersection was found between the Lady’s textual histo
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Merlin** [T5]
+- **Morgan le Fay** [T5]
+- **Guinevere** [T3]
+- **Lancelot** [T5]
+- **Alexander the Great** [T5]
+- **Sir Edward Coley Burne-Jones** [T1+]
+- **Dante Gabriel Rossetti** [T1+]
+- **William Morris** [T1+]
+- **John Ruskin** [T1+]
+- **William Butler Yeats** [T1+]
+- **Arthur of Lotharingia** [T9+] (mirrored from arthur-lotharingia.dossier.md)
+- **Guinevere** [T4] (mirrored from guinevere.dossier.md)
+- **Parzival** [T4] (mirrored from parzival.dossier.md)
+
 ## Chronology
 
 | Date | Event |

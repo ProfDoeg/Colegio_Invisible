@@ -1198,6 +1198,27 @@ Only connections supported by the consulted record are included. Mere contempora
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Simón Bolívar** [T5]
+- **Francisco de Miranda** [T4]
+- **José de San Martín** [T9-]
+- **Bernardo O'Higgins Riquelme** [T9-]
+- **Manuela Sáenz de Vergara y Aizpuru** [T3]
+- **Simón Rodríguez** [T3]
+- **Juana Azurduy de Padilla** [T5]
+- **Juan Martín de Pueyrredón y O'Doggan** [T9-]
+- **Martín Miguel de Güemes** [T9-]
+- **Napoleon Bonaparte** [T9-]
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **Manuela Sáenz de Vergara y Aizpuru** [T4] (mirrored from manuela_saenz.dossier.md)
+- **Bernardo O'Higgins Riquelme** [T4] (mirrored from ohiggins.dossier.md)
+- **José de San Martín** [T4] (mirrored from san_martin.dossier.md)
+- **Simón Rodríguez** [T5] (mirrored from simon_rodriguez.dossier.md)
+- **Carlos María de Alvear** [T4] (mirrored from alvear.dossier.md)
+
 ## Chronology
 
 | Date | Event |

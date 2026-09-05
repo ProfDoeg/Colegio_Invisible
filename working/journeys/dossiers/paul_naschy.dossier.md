@@ -481,6 +481,12 @@ Sitges now gives a **Brigadoon Paul Naschy Award** for short films. A wax figure
 
 No other roster crossing met the stated evidentiary and typological thresholds. Naschy’s childhood viewing of Walt Disney’s *Snow White and the Seven Dwarfs*, his performances in Poe- or Lovecraft-derived productions, and his use of Frankensteinian material establish artistic reception or thematic influence, but not by themselves T1, T3, T4, T5, or T9 relationships with Walt Disney, Edgar Allan Poe, H. P. Lovecraft, or Mary Shelley.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Steven Allan Spielberg** [T5]
+
 ## Sources
 
 https://historia-hispanica.rah.es/biografias/31092-jacinto-molina-alvarez

@@ -1037,6 +1037,14 @@ Although several belonged to the wider wars of independence, no consulted source
 
 Absence is a material finding here: the securely reconstructable network is local and institutional, centered on the Potosí treasury, mint, rival technical families, and the successive occupying administrations.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Manuel Belgrano** [T4]
+- **Martín Miguel de Güemes** [T4]
+- **Jennifer Muller** [T5] (mirrored from jennifer_muller.dossier.md)
+
 ## Sources
 
 https://www.monedasuruguay.com/bib/c/cunietti.pdf

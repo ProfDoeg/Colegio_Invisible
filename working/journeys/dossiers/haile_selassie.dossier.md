@@ -971,6 +971,24 @@ No reliable evidence was found in the consulted materials for personal or instit
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Benito Mussolini** [T4]
+- **John Fitzgerald Kennedy** [T5]
+- **Nelson Rolihlahla Mandela** [T5]
+- **Mohammad Reza Shah Pahlavi** [T5]
+- **David Ben-Gurion** [T3]
+- **Marcus Mosiah Garvey** [T2- unresolved]
+- **George Orwell** [T3]
+- **Mao Zedong** [T5] (mirrored from mao_zedong.dossier.md)
+- **Golda Meir** [T5] (mirrored from golda_meir.dossier.md)
+- **Mohammad Reza Shah Pahlavi** [T4] (mirrored from mohammad_reza_shah_pahlavi.dossier.md)
+- **Marcus Mosiah Garvey** [T3] (mirrored from marcus_garvey.dossier.md)
+- **King Solomon** [T1-] (mirrored from solomon.dossier.md)
+- **Benito Mussolini** [T3] (mirrored from mussolini.dossier.md)
+
 ## Chronology
 
 | Date | Event |

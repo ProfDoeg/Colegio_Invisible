@@ -908,6 +908,27 @@ Only supported intersections with people on the supplied roster are included.
 
 No source consulted supports a personal meeting, correspondence, kinship, patronage, employment, rivalry, or collaboration between the historical Ezekiel and other named members of the supplied roster. Mere contemporaneity—especially with Cyrus the Great—or later reuse of generic prophetic imagery has not been counted as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Nabucodonosor II** [T4]
+- **David ben Jesse** [T1-]
+- **King Solomon** [T9-]
+- **Moses** [T1-]
+- **Aaron the Levite** [T1-]
+- **Abraham** [T1-]
+- **Noah son of Lamech** [T1-]
+- **Flavius Josephus** [T1+]
+- **Maimonides** [T1+]
+- **Jesus of Nazareth** [T3]
+- **Paul the Apostle** [T3]
+- **William Blake** [T1+]
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Origen of Alexandria** [T1+] (mirrored from origen.dossier.md)
+- **Nabucodonosor II** [T3] (mirrored from nabucodonosor_ii.dossier.md)
+- **Moses de Leon** [T1+] (mirrored from moses_de_leon.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event | Certainty |

@@ -611,6 +611,26 @@ The strongest historical reinterpretation does not require choosing “genius”
 
 No additional roster member is included merely because that person shared Kurzweil’s era, employer, conference circuit, intellectual subject matter, or institutional network; those circumstances alone do not establish one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Augusta Ada King** [T1-]
+- **Alan Mathison Turing** [T1-]
+- **William Jefferson Clinton** [T5]
+- **William Henry Gates III** [T5]
+- **Charles Babbage** [T1-]
+- **Claude Elwood Shannon** [T1-]
+- **Geoffrey Everest Hinton** [T3]
+- **John Rogers Searle** [T3]
+- **John von Neumann** [T1-]
+- **Norbert Wiener** [T1-]
+- **Richard Phillips Feynman** [T1-]
+- **Yuval Noah Harari** [T3] (mirrored from yuval_noah_harari.dossier.md)
+- **Ralph Charles Merkle** [T4] (mirrored from ralph_merkle.dossier.md)
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Yoshua Bengio** [T4] (mirrored from yoshua_bengio.dossier.md)
+
 ## Sources
 
 https://achievement.org/achiever/ray-kurzwell/

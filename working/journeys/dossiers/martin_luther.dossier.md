@@ -1252,6 +1252,51 @@ No documented meeting, correspondence, collaboration, rivalry, family tie, patro
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aurelius Augustinus** [T1-]
+- **Paul the Apostle** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Aristotle** [T1-]
+- **Johannes Reuchlin** [T4]
+- **Sir Thomas More** [T3]
+- **Nicolaus Copernicus** [T3]
+- **Jakob Fugger 'the Rich'** [T9-]
+- **Anton Fugger** [T4]
+- **Friedrich Nietzsche** [T1+]
+- **Georg Wilhelm Friedrich Hegel** [T1+]
+- **Karl Marx** [T1+]
+- **Søren Aabye Kierkegaard** [T1+]
+- **Immanuel Kant** [T9+]
+- **Johann Wolfgang von Goethe** [T1+]
+- **Jacob Boehme** [T9+]
+- **Abraham** [T1-]
+- **Moses** [T1-]
+- **David ben Jesse** [T1-]
+- **King Solomon** [T1-]
+- **William James** [T1+] (mirrored from william_james.dossier.md)
+- **Max Weber** [T1+] (mirrored from max_weber.dossier.md)
+- **Emanuel Swedenborg** [T1+] (mirrored from emanuel_swedenborg.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Simon bar Jonah** [T1-] (mirrored from apostle_peter.dossier.md)
+- **Jacob Boehme** [T1+] (mirrored from jacob_boehme.dossier.md)
+- **Martin Heidegger** [T1+] (mirrored from martin_heidegger.dossier.md)
+- **Jean Baudrillard** [T1+] (mirrored from jean_baudrillard.dossier.md)
+- **Jürgen Habermas** [T1+] (mirrored from jurgen_habermas.dossier.md)
+- **Arthur Ben** [T3] (mirrored from arthur_ben.dossier.md)
+- **Johannes Reuchlin** [T3] (mirrored from johannes_reuchlin.dossier.md)
+- **Peter of Ravenna** [T1-] (mirrored from peter_of_ravenna.dossier.md)
+- **Jakob Fugger 'the Rich'** [T3] (mirrored from jakob_fugger_the_rich.dossier.md)
+- **Giordano Bruno** [T1+] (mirrored from giordano_bruno.dossier.md)
+- **Johannes Trithemius** [T1-] (mirrored from johannes_trithemius.dossier.md)
+- **Erich Seligmann Fromm** [T1+] (mirrored from erich_fromm.dossier.md)
+- **Thomas Aquinas** [T1-] (mirrored from thomas_aquinas.dossier.md)
+- **Johann Georg Faust** [T1-] (mirrored from johann_faust.dossier.md)
+- **Paracelsus** [T3] (mirrored from paracelsus.dossier.md)
+- **Aby Moritz Warburg** [T1+] (mirrored from aby_warburg.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

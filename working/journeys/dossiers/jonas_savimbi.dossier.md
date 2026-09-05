@@ -699,6 +699,15 @@ Only roster members supported by specific documentary connections are included. 
 
 The small number of Atlas connections is itself a finding. Savimbi’s documented network was concentrated among Angolan nationalists, neighboring African governments, Chinese and South African military patrons, and Reagan-era American officials and lobbyists.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **George Herbert Walker Bush** [T5]
+- **Oliver Laurence North** [T4]
+- **Nelson Rolihlahla Mandela** [T5]
+- **William Joseph Casey** [T4] (mirrored from william_casey.dossier.md)
+
 ## Chronology
 
 - **3 August 1934:** Born at Munhango, colonial Angola.

@@ -1154,6 +1154,34 @@ For the remaining atlas names, the research found no supported meeting, correspo
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander the Great** [T9+]
+- **Aristotle** [T1+]
+- **Plato** [T1+]
+- **Plinio el Viejo** [T1+]
+- **Friedrich Nietzsche** [T1+]
+- **Wolfgang Amadeus Mozart** [T1+]
+- **Friedrich Max Müller** [T1+]
+- **Mircea Eliade** [T1+]
+- **Maslama ibn Qasim al-Qurtubi** [T1+] (mirrored from maslama_al_qurtubi.dossier.md)
+- **Otto Hanish** [T1+] (mirrored from otto_hanish.dossier.md)
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **Jean-Baptiste Alliette** [T1+] (mirrored from etteilla.dossier.md)
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Gaius Julius Solinus** [T3] (mirrored from gaius_julius_solinus.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T1+] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1+] (mirrored from heinrich_cornelius_agrippa.dossier.md)
+- **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Nizami Ganjavi** [T1+] (mirrored from nizami.dossier.md)
+- **Claudius Aelianus** [T1+] (mirrored from claudius_aelianus_aelian.dossier.md)
+- **Origen of Alexandria** [T1+] (mirrored from origen.dossier.md)
+- **Giovanni Pico della Mirandola** [T1+] (mirrored from giovanni_pico_della_mirandola.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Guido Keller** [T1+] (mirrored from guido_keller.dossier.md)
+
 ## Chronology
 
 | Date or period | Event |

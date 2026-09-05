@@ -509,6 +509,31 @@ The search stopped after multilingual discovery and targeted follow-up converged
 
 Frequently repeated roster associations involving Carl Jung, Sigmund Freud, Paul Klee, Vladimir Lenin and Leon Trotsky were not included as connections. Available specialist discussion either places their relevant activity outside Oedenkoven’s tenure or identifies their alleged presence on his hill as unverified or probably false; general “Monte Verità visitor” lists are insufficient evidence of a crossing with Oedenkoven.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Arnold Rikli** [T4]
+- **Ida Hofmann** [T5]
+- **Karl Gräser** [T5]
+- **Gustav Arthur "Gusto" Gräser** [T5]
+- **Erich Mühsam** [T4]
+- **Erich Mühsam** [T3]
+- **Hermann Hesse** [T5]
+- **Isadora Duncan** [T5]
+- **Erwin Rudolf Josef Alexander Schrödinger** [T5]
+- **Mary Wigman** [T4]
+- **Suzanne Perrottet** [T4]
+- **Katja Wulff** [T4]
+- **Sophie Taeuber-Arp** [T4]
+- **Theodor Reuss** [T5]
+- **Max Weber** [T4]
+- **Arnold Rikli** [T9-] (mirrored from arnold_rikli.dossier.md)
+- **Hermann Hesse** [T9+] (mirrored from hermann_hesse.dossier.md)
+- **Theodor Reuss** [T4] (mirrored from theodor_reuss.dossier.md)
+- **Ida Hofmann** [T4] (mirrored from ida_hoffmann.dossier.md)
+- **Karl Max Engelmann** [T5] (mirrored from engelmann.dossier.md)
+
 ## Sources
 
 https://hls-dhs-dss.ch/fr/articles/049204/

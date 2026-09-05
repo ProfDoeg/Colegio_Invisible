@@ -894,6 +894,35 @@ No defensible direct connection was established with most of the 896-name atlas 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander von Humboldt** [T5]
+- **Johann Wolfgang von Goethe** [T5]
+- **Hans Christian Andersen** [T5]
+- **Friedrich Max Müller** [T3]
+- **J. R. R. Tolkien** [T9+]
+- **Walter Benjamin** [T9+]
+- **Wilhelm Richard Wagner** [T9+]
+- **Engelbert Humperdinck** [T9+]
+- **Maurice Bernard Sendak** [T9+]
+- **Walter Elias Disney** [T9+]
+- **Friedrich Max Müller** [T1+] (mirrored from max_muller.dossier.md)
+- **J. R. R. Tolkien** [T3] (mirrored from tolkien.dossier.md)
+- **William Morris** [T3] (mirrored from william_morris.dossier.md)
+- **Le Corbusier** [T4] (mirrored from le_corbusier.dossier.md)
+- **Antonio Francesco Gramsci** [T3] (mirrored from antonio_gramsci.dossier.md)
+- **Maurice Bernard Sendak** [T3] (mirrored from maurice_sendak.dossier.md)
+- **John Rogers Searle** [T1+] (mirrored from john_searle.dossier.md)
+- **Karl Max Engelmann** [T3] (mirrored from engelmann.dossier.md)
+- **Friedrich Ludwig Jahn** [T4] (mirrored from johann_jahn.dossier.md)
+- **Hans Christian Andersen** [T3] (mirrored from hans_christian_andersen.dossier.md)
+- **Alexandre Dumas** [T3] (mirrored from alexandre_dumas.dossier.md)
+- **Parzival** [T1-] (mirrored from parzival.dossier.md)
+- **Johann Wolfgang von Goethe** [T3] (mirrored from goethe_full.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+
 ## Chronology
 
 | Date | Event |

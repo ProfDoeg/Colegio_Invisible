@@ -1325,6 +1325,34 @@ The roster includes Miranda himself; this is not treated as a separate connectio
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander Hamilton** [T5]
+- **George Washington** [T5]
+- **Thomas Jefferson** [T5]
+- **Benjamin Franklin** [T5]
+- **Johann Wolfgang von Goethe** [T5]
+- **Napoleon Bonaparte** [T5]
+- **Simón Bolívar** [T5]
+- **Bernardo O'Higgins Riquelme** [T5]
+- **Carlos María de Alvear** [T5]
+- **Alexander von Humboldt** [T5]
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T5]
+- **Louis XVI** [T4]
+- **Christopher Columbus** [T1-]
+- **Atahualpa** [T1-]
+- **Lautaro** [T1-]
+- **Jean-Jacques Rousseau** [T1-]
+- **John Locke** [T1-]
+- **Sir Isaac Newton** [T1-]
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T4] (mirrored from marques_de_lafayette.dossier.md)
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **Antonio José de Sucre** [T4] (mirrored from sucre.dossier.md)
+- **José de San Martín** [T4] (mirrored from san_martin.dossier.md)
+- **Lautaro** [T9-] (mirrored from lautaro.dossier.md)
+
 ## Chronology
 
 | Date | Event |

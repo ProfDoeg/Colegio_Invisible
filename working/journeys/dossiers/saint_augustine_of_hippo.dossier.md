@@ -636,6 +636,79 @@ French colonial institutions promoted Augustine as a Latin-Christian ancestor of
 
 No secure T2 prophecy/hyperstition, T4 proximity, T5 personal-meeting, or T9 shared-object/site connection was established with another roster member. Mere influence, parallel ideas, shared North-African geography, membership in an “Augustinian” institution, or later possession of an edition was not counted without specific documentary evidence.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **Aeneas** [T1-]
+- **Alexander the Great** [T1-]
+- **San Antonio Abad** [T1-]
+- **Paul the Apostle** [T1-]
+- **Simon bar Jonah** [T1-]
+- **Aristotle** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Constantine the Great** [T1-]
+- **Dante Alighieri** [T1+]
+- **Dido** [T1-]
+- **Jacques Derrida** [T1+]
+- **René Descartes** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Martin Heidegger** [T1+]
+- **Jacobus de Voragine** [T1+]
+- **Jesus of Nazareth** [T1-]
+- **David ben Jesse** [T1-]
+- **Martin Luther** [T1+]
+- **Moses** [T1-]
+- **Friedrich Nietzsche** [T1+]
+- **Origen of Alexandria** [T1-]
+- **Plato** [T1-]
+- **Ratramnus of Corbie** [T1+]
+- **King Solomon** [T1-]
+- **Tertullian** [T1-]
+- **Thomas Aquinas** [T1+]
+- **Publius Vergilius Maro** [T1-]
+- **Ramon Llull** [T1+] (mirrored from ramon_llull.dossier.md)
+- **William James** [T1+] (mirrored from william_james.dossier.md)
+- **Martin Mordechai Buber** [T3] (mirrored from martin_buber.dossier.md)
+- **Francis of Assisi** [T1+] (mirrored from saint_francis.dossier.md)
+- **Felipe Guamán Poma de Ayala** [T1+] (mirrored from guaman_poma_de_ayala.dossier.md)
+- **Saint Anthony of Padua** [T1+] (mirrored from st_anthony_of_padua_1195_1231.dossier.md)
+- **Roger Bacon** [T1+] (mirrored from roger_bacon.dossier.md)
+- **Sir Thomas More** [T1+] (mirrored from thomas_more.dossier.md)
+- **Hildegard von Bingen** [T3] (mirrored from hildegard_von_bingen.dossier.md)
+- **Gaius Julius Solinus** [T3] (mirrored from gaius_julius_solinus.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Sor Juana Inés de la Cruz** [T3] (mirrored from sor_juana_ines_de_la_cruz.dossier.md)
+- **Saint Thecla of Iconium** [T1-] (mirrored from saint_thecla.dossier.md)
+- **Jürgen Habermas** [T1+] (mirrored from jurgen_habermas.dossier.md)
+- **Publius Vergilius Maro** [T3] (mirrored from virgil.dossier.md)
+- **Gottfried Wilhelm Leibniz** [T3] (mirrored from gottfried_wilhelm_leibniz.dossier.md)
+- **Adam of Bremen** [T3] (mirrored from adam_of_bremen.dossier.md)
+- **Bernard of Clairvaux** [T3] (mirrored from bernard_clairvaux.dossier.md)
+- **Christopher Columbus** [T3] (mirrored from columbus.dossier.md)
+- **Giordano Bruno** [T1+] (mirrored from giordano_bruno.dossier.md)
+- **Galileo Galilei** [T1+] (mirrored from galileo_galilei.dossier.md)
+- **Giambattista Vico** [T3] (mirrored from vico.dossier.md)
+- **Jacques Marie Émile Lacan** [T1+] (mirrored from jacques_lacan.dossier.md)
+- **Johannes Trithemius** [T1+] (mirrored from johannes_trithemius.dossier.md)
+- **Charlemagne** [T3] (mirrored from charlemagne.dossier.md)
+- **Aristotle** [T3] (mirrored from aristotle.dossier.md)
+- **Simon of Gitta** [T1-] (mirrored from simon_magus.dossier.md)
+- **Noah son of Lamech** [T1-] (mirrored from noah.dossier.md)
+- **Ratramnus of Corbie** [T3] (mirrored from ratramnus_of_corbie.dossier.md)
+- **Tommaso Campanella** [T1+] (mirrored from tommaso_campanella.dossier.md)
+- **Tertullian** [T3] (mirrored from tertullian.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+- **Giovanni Pico della Mirandola** [T1+] (mirrored from giovanni_pico_della_mirandola.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Albertus Magnus** [T1+] (mirrored from albertus_magnus.dossier.md)
+- **Nicholas of Cusa** [T1+] (mirrored from nicholas_of_cusa.dossier.md)
+- **Albert Camus** [T1+] (mirrored from albert_camus.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+- **Søren Aabye Kierkegaard** [T1+] (mirrored from s_ren_kierkegaard.dossier.md)
+- **Georg Wilhelm Friedrich Hegel** [T1+] (mirrored from hegel.dossier.md)
+
 ## Sources
 
 https://plato.stanford.edu/entries/augustine/

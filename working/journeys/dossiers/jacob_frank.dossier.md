@@ -681,6 +681,19 @@ Because Frankism was secretive, transreligious, connected by marriage, and follo
 
 No documented personal meeting, correspondence, performance encounter, or shared-object transmission was established between Jacob Frank and any other roster member. Claims connecting Frank personally to later Freemasons, revolutionaries, financiers, or modern political figures are unsupported genealogical or conspiracy narratives and do not qualify under the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **David ben Jesse** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Moses** [T1-]
+- **Sabbatai Zevi** [T1-]
+- **King Solomon** [T1-]
+- **The Queen of Sheba** [T1-]
+- **Sabbatai Zevi** [T2- hyperstition] (mirrored from sabbatai_zevi.dossier.md)
+
 ## Sources
 
 https://encyclopedia.yivo.org/article.aspx/frankism

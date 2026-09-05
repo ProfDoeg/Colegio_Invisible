@@ -1134,6 +1134,51 @@ Because no contemporary evidence establishes Homer’s identity or lifetime, no 
 
 - **[T3]** **Documented fact.** Virgil’s *Aeneid*, composed at Rome between approximately 29 and 19 BCE, engages continuously with both the *Iliad* and *Odyssey*: Aeneas’ wanderings recast Odyssean return narrative, while the Italian war reworks Iliadic combat, divine action, and heroic loss. This is a demonstrable literary dialogue with the Homeric poems, not evidence that Virgil possessed an object traceable to Homer personally.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aeneas** [T1-]
+- **Alexander the Great** [T9+]
+- **Aristotle** [T1+]
+- **Jorge Luis Borges** [T1+]
+- **Dante Alighieri** [T1+]
+- **Herodotus of Halicarnassus** [T1+]
+- **Hesiod of Ascra** [T5]
+- **James Augustine Aloysius Joyce** [T3]
+- **Friedrich Nietzsche** [T1+]
+- **Plato** [T1+]
+- **Strabo of Amaseia** [T1+]
+- **Odysseus** [T1-]
+- **Giambattista Vico** [T1+]
+- **Publius Vergilius Maro** [T3]
+- **Alexander the Great** [T3] (mirrored from alexander.dossier.md)
+- **J. R. R. Tolkien** [T3] (mirrored from tolkien.dossier.md)
+- **Gaius Julius Solinus** [T1+] (mirrored from gaius_julius_solinus.dossier.md)
+- **Gaius Julius Solinus** [T3] (mirrored from gaius_julius_solinus.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Pindar of Thebes** [T1+] (mirrored from pindar.dossier.md)
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T1+] (mirrored from oscar_wilde.dossier.md)
+- **Strabo of Amaseia** [T3] (mirrored from strabo.dossier.md)
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Miguel de Cervantes Saavedra** [T1+] (mirrored from miguel_de_cervantes.dossier.md)
+- **Publius Aelius Hadrianus** [T3] (mirrored from adriano.dossier.md)
+- **Simonides of Ceos** [T1+] (mirrored from simonides_of_ceos.dossier.md)
+- **Marcus Tullius Cicero** [T1+] (mirrored from cicero.dossier.md)
+- **Johannes Reuchlin** [T1+] (mirrored from johannes_reuchlin.dossier.md)
+- **Flavius Josephus** [T3] (mirrored from flavius_josephus.dossier.md)
+- **Giulio Camillo Delminio** [T1+] (mirrored from giulio_camillo.dossier.md)
+- **Victor-Marie Hugo** [T1+] (mirrored from victor_hugo.dossier.md)
+- **Lucilio Vanini** [T1+] (mirrored from lucilio_vanini.dossier.md)
+- **Claudius Aelianus** [T3] (mirrored from claudius_aelianus_aelian.dossier.md)
+- **Plinio el Viejo** [T1+] (mirrored from plinio_el_viejo.dossier.md)
+- **Origen of Alexandria** [T1+] (mirrored from origen.dossier.md)
+- **Tertullian** [T1+] (mirrored from tertullian.dossier.md)
+- **Marcus Fabius Quintilianus** [T1+] (mirrored from quintilian.dossier.md)
+- **Johann Wolfgang von Goethe** [T1+] (mirrored from goethe_full.dossier.md)
+- **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+- **Polybius of Megalopolis** [T3] (mirrored from polybius.dossier.md)
+
 ## Sources
 
 https://academic.oup.com/reference/62365/reference-article/554615572

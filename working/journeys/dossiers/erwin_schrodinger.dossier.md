@@ -411,6 +411,32 @@ His life now supports two simultaneous reputational histories: canonical archite
 
 No supported T2 prophecy/hyperstition or T9 shared-object transmission was located. Mere thematic resemblance, influence at several removes, overlapping residence in a city, or later use of “Schrödinger” in another roster member’s work has not been counted without evidence of the defined crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T3]
+- **Niels Bohr** [T3]
+- **Werner Heisenberg** [T1-]
+- **Paul Adrien Maurice Dirac** [T5]
+- **Wolfgang Ernst Pauli** [T3]
+- **John von Neumann** [T3]
+- **Alexandra David-Néel** [T4]
+- **Sir William Rowan Hamilton** [T1-]
+- **Plato** [T1-]
+- **Aristotle** [T1-]
+- **Werner Heisenberg** [T5] (mirrored from heisenberg.dossier.md)
+- **Satyendra Nath Bose** [T3] (mirrored from satyendra_nath_bose.dossier.md)
+- **Olga Fröbe-Kapteyn** [T3] (mirrored from olga_frobe_kapteyn.dossier.md)
+- **Wolfgang Ernst Pauli** [T5] (mirrored from wolfgang_pauli.dossier.md)
+- **Paul Adrien Maurice Dirac** [T3] (mirrored from dirac.dossier.md)
+- **Niels Bohr** [T5] (mirrored from niels_bohr.dossier.md)
+- **Henri Oedenkoven** [T5] (mirrored from henri_oedenkoven.dossier.md)
+- **Enrico Fermi** [T5] (mirrored from fermi.dossier.md)
+- **Maria Salomea Skłodowska-Curie** [T4] (mirrored from marie_curie.dossier.md)
+- **Sir Isaac Newton** [T1-] (mirrored from newton.dossier.md)
+- **J. Robert Oppenheimer** [T4] (mirrored from robert_oppenheimer.dossier.md)
+
 ## Sources
 
 https://www.nobelprize.org/prizes/physics/1933/schrodinger/biographical/

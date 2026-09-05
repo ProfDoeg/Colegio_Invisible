@@ -1012,6 +1012,26 @@ No defensible direct connection was found with the remaining roster figures. Giv
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **José de San Martín** [T3]
+- **José de San Martín** [T5]
+- **Manuel Belgrano** [T4]
+- **Martín Miguel de Güemes** [T5]
+- **Carlos María de Alvear** [T4]
+- **Bernardo O'Higgins Riquelme** [T3]
+- **Juan Manuel José Domingo Ortiz de Rozas y López de Osornio** [T4]
+- **Domingo Faustino Sarmiento** [T9+]
+- **Wifredo Viladrich** [T9+] (mirrored from viladrich.dossier.md)
+- **Manuel Belgrano** [T5] (mirrored from belgrano.dossier.md)
+- **Antonio José de Sucre** [T9+] (mirrored from sucre.dossier.md)
+- **María Remedios del Valle** [T3] (mirrored from maria_remedios_del_valle.dossier.md)
+- **Juana Azurduy de Padilla** [T3] (mirrored from juana_azurduy.dossier.md)
+- **Aimé Jacques Alexandre Goujaud** [T4] (mirrored from aime_bonpland.dossier.md)
+- **Martín Miguel de Güemes** [T3] (mirrored from martin_miguel_de_guemes.dossier.md)
+
 ## Chronology
 
 | Date/year | Event |

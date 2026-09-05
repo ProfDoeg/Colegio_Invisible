@@ -1296,6 +1296,35 @@ No supported direct connection was found in the consulted sources for the overwh
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander Graham Bell** [T4]
+- **Eadweard Muybridge** [T5]
+- **Étienne-Jules Marey** [T5]
+- **Nikola Tesla** [T4]
+- **John Pierpont Morgan** [T4]
+- **Samuel Langhorne Clemens** [T9+]
+- **Albert Einstein** [T9+]
+- **Andrew Carnegie** [T4]
+- **Michael Faraday** [T3]
+- **Benjamin Franklin** [T9-]
+- **William Thomson** [T4]
+- **Edward Louis Bernays** [T3] (mirrored from edward_bernays.dossier.md)
+- **Edward Louis Bernays** [T1+] (mirrored from edward_bernays.dossier.md)
+- **José Julián Martí Pérez** [T3] (mirrored from jose_marti.dossier.md)
+- **Benjamin Franklin** [T1-] (mirrored from benjamin_franklin.dossier.md)
+- **Sarah Bernhardt** [T5] (mirrored from sarah_bernhardt.dossier.md)
+- **Claude Elwood Shannon** [T9+] (mirrored from claude_shannon.dossier.md)
+- **Troiano Troiani** [T9-] (mirrored from troiano_troiani.dossier.md)
+- **John Pierpont Morgan** [T3] (mirrored from j_p_morgan.dossier.md)
+- **Nikola Tesla** [T5] (mirrored from nikola_tesla.dossier.md)
+- **Nikola Tesla** [T9+] (mirrored from nikola_tesla.dossier.md)
+- **Helena Petrovna Blavatsky** [T3] (mirrored from blavatsky.dossier.md)
+- **Alexandre Gustave Bonickhausen dit Eiffel** [T5] (mirrored from gustave_eiffel.dossier.md)
+- **Samuel Langhorne Clemens** [T5] (mirrored from mark_twain.dossier.md)
+
 ## Sources
 
 https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/biography/

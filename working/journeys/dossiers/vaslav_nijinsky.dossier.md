@@ -786,6 +786,33 @@ The remainder of the supplied roster produced no substantiated personal, institu
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Sergei Pavlovich Diaghilev** [T5]
+- **Igor Fyodorovich Stravinsky** [T5]
+- **Achille-Claude Debussy** [T5]
+- **Anna Matveyevna Pavlova** [T5]
+- **Auguste Rodin** [T3]
+- **Nicholas Konstantinovich Roerich** [T5]
+- **Émile Jaques-Dalcroze** [T9-]
+- **George Balanchine** [T9+]
+- **Isadora Duncan** [T9-]
+- **Martha Graham** [T9+]
+- **Edward Louis Bernays** [T3] (mirrored from edward_bernays.dossier.md)
+- **Nicholas Konstantinovich Roerich** [T9-] (mirrored from nicholas_roerich.dossier.md)
+- **Marcel Proust** [T3] (mirrored from marcel_proust.dossier.md)
+- **Pamela Colman Smith** [T3] (mirrored from pamela_colman_smith.dossier.md)
+- **Isadora Duncan** [T4] (mirrored from isadora_duncan.dossier.md)
+- **Francesco Tamburini** [T9-] (mirrored from francesco_tamburini.dossier.md)
+- **Merce Cunningham** [T9+] (mirrored from merce_cunningham.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Achille-Claude Debussy** [T3] (mirrored from claude_debussy.dossier.md)
+- **Vittorio Meano** [T9-] (mirrored from vittorio_meano.dossier.md)
+- **Erik Satie** [T4] (mirrored from erik_satie.dossier.md)
+- **Pyotr Ilyich Tchaikovsky** [T9-] (mirrored from tchaikovsky.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

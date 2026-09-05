@@ -774,6 +774,15 @@ Only connections supported by the consulted sources are listed. Mere contemporan
 
 No securely documented meeting, correspondence, collaboration, rivalry, family relationship, patronage, or acknowledged personal influence was found between Louis Vuitton and the remaining atlas figures. In particular, being represented at the same Paris exposition or being a later Vuitton customer does not establish contact with the founder.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Sarah Bernhardt** [T9+]
+- **Bernard Jean Étienne Arnault** [T9+]
+- **Christian Dior** [T9+]
+- **Gabrielle Bonheur "Coco" Chanel** [T9+]
+
 ## Chronology
 
 - **4 August 1821:** Born at or near the Charbouilla watermill, Anchay, Jura.

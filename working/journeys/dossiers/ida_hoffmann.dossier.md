@@ -941,6 +941,30 @@ No evidence was found for genuine direct connections between Hofmann and the ove
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Henri Oedenkoven** [T5]
+- **Arnold Rikli** [T9-]
+- **Karl Gräser** [T5]
+- **Gustav Arthur "Gusto" Gräser** [T5]
+- **Henri Oedenkoven** [T4]
+- **Karl Gräser** [T4]
+- **Gustav Arthur "Gusto" Gräser** [T4]
+- **Erich Mühsam** [T3]
+- **Hermann Hesse** [T4]
+- **Otto Gross** [T4]
+- **Isadora Duncan** [T3]
+- **Rudolf Laban** [T5]
+- **Mary Wigman** [T4]
+- **Suzanne Perrottet** [T4]
+- **Theodor Reuss** [T5]
+- **Émile Jaques-Dalcroze** [T4]
+- **Hermann Hesse** [T9+] (mirrored from hermann_hesse.dossier.md)
+- **Theodor Reuss** [T4] (mirrored from theodor_reuss.dossier.md)
+- **Karl Max Engelmann** [T5] (mirrored from engelmann.dossier.md)
+
 ## Chronology
 
 | Date | Event |

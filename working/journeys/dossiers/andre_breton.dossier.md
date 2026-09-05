@@ -1103,6 +1103,43 @@ No adequately sourced direct crossing was established here for the great majorit
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Camus** [T3]
+- **Alfred Jarry** [T3]
+- **Antonin Artaud** [T5]
+- **Carl Gustav Jung** [T3]
+- **Claude Lévi-Strauss** [T5]
+- **Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez** [T5]
+- **Frida Kahlo** [T5]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Friedrich Nietzsche** [T3]
+- **Jacques Marie Émile Lacan** [T4]
+- **Jean-Paul Charles Aymard Sartre** [T4]
+- **Lev Davidovich Bronstein** [T5]
+- **Pablo Ruiz Picasso** [T5]
+- **René Descartes** [T1-]
+- **Sigmund Freud** [T5]
+- **William Blake** [T1-]
+- **Walter Benjamin** [T3]
+- **Claude Lévi-Strauss** [T4] (mirrored from claude_levi_strauss.dossier.md)
+- **Walter Benjamin** [T1+] (mirrored from walter_benjamin.dossier.md)
+- **Jacques Marie Émile Lacan** [T5] (mirrored from jacques_lacan.dossier.md)
+- **Juan Eduardo Cirlot Laporta** [T5] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Lev Davidovich Bronstein** [T3] (mirrored from leon_trotsky.dossier.md)
+- **Sophie Taeuber-Arp** [T5] (mirrored from sophie_taeuber_arp.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T3] (mirrored from julio_cortazar.dossier.md)
+- **Erik Satie** [T4] (mirrored from erik_satie.dossier.md)
+- **Sigmund Freud** [T3] (mirrored from freud.dossier.md)
+- **Guy-Ernest Debord** [T4] (mirrored from guy_debord.dossier.md)
+- **Alfred Jarry** [T1-] (mirrored from alfred_jarry.dossier.md)
+- **Albert Camus** [T4] (mirrored from albert_camus.dossier.md)
+- **Michèle Bernstein** [T3] (mirrored from michele_bernstein.dossier.md)
+- **Pablo Ruiz Picasso** [T3] (mirrored from pablo_picasso.dossier.md)
+- **Francois Marie Charles Fourier** [T1-] (mirrored from charles_fourier.dossier.md)
+
 ## Compact Chronology
 
 - **18/19 February 1896:** Born at Tinchebray, Orne.

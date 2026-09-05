@@ -485,6 +485,27 @@ Reinterpretation has moved in several directions: technical scholars reconstruct
 
 No T2 prophecy/hyperstition or T9 shared-object connection with the roster was found at a sufficiently documented level. Mere influence, overlapping institutions, or contemporaneous presence was not treated as a connection without evidence of writing, performance encounter, correspondence, collaboration, or personal contact.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Anni Albers** [T3]
+- **R. Buckminster Fuller** [T5]
+- **Erik Satie** [T1-]
+- **Hanya Holm** [T3]
+- **James Augustine Aloysius Joyce** [T1-]
+- **Mao Zedong** [T1-]
+- **Merce Cunningham** [T5]
+- **Viola Farber** [T5]
+- **Matsuo Bashō** [T1-] (mirrored from matsuo_basho.dossier.md)
+- **Theodor W. Adorno** [T1+] (mirrored from theodor_adorno.dossier.md)
+- **Miller Smith Puckette** [T1+] (mirrored from miller_puckette.dossier.md)
+- **Sara Rudner** [T4] (mirrored from sara_rudner.dossier.md)
+- **Ted Shawn** [T4] (mirrored from ted_shawn.dossier.md)
+- **Erik Satie** [T9-] (mirrored from erik_satie.dossier.md)
+- **Martha Graham** [T4] (mirrored from martha_graham.dossier.md)
+- **Hanya Holm** [T4] (mirrored from hanya_holm.dossier.md)
+
 ## Sources
 
 https://johncage.org/

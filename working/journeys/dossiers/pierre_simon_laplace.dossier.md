@@ -539,6 +539,42 @@ Named memorials include lunar and Martian features, asteroid **4628 Laplace**, a
 
 No T2 prophecy/hyperstition or T9 shared-object/site connection with an atlas-roster figure was found at a documentary threshold. The familiar “Kant–Laplace” and Swedenborg–Kant–Laplace groupings are later historiographical comparisons: no evidence located here shows that Laplace met, corresponded with, or wrote about Kant or Swedenborg, so those parallels are not entered as crossings.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Charles Babbage** [T5]
+- **Charles Babbage** [T1+]
+- **Augustin-Louis Cauchy** [T5]
+- **Nicolaus Copernicus** [T1-]
+- **Galileo Galilei** [T1-]
+- **Johannes Kepler** [T1-]
+- **Edmond Halley** [T1-]
+- **Christiaan Huygens** [T1-]
+- **Sir Isaac Newton** [T1-]
+- **Leonhard Euler** [T3]
+- **Joseph-Louis Lagrange** [T3]
+- **Joseph-Louis Lagrange** [T5]
+- **Carl Friedrich Gauss** [T3]
+- **Jean-Baptiste Joseph Fourier** [T3]
+- **Alexander von Humboldt** [T5]
+- **Alexander von Humboldt** [T3]
+- **Napoleon Bonaparte** [T5]
+- **Napoleon Bonaparte** [T3]
+- **Siméon Denis Poisson** [T3]
+- **James Clerk Maxwell** [T1+]
+- **Alexander von Humboldt** [T4] (mirrored from humboldt.dossier.md)
+- **Leonhard Euler** [T1-] (mirrored from leonard_euler.dossier.md)
+- **Sir George Gabriel Stokes** [T1+] (mirrored from george_gabriel_stokes.dossier.md)
+- **John Uri Lloyd** [T1+] (mirrored from john_uri_lloyd.dossier.md)
+- **Pierre-François-Xavier Bouchard** [T4] (mirrored from pierre_francois_bouchard.dossier.md)
+- **Felix Christian Klein** [T1+] (mirrored from felix_klein.dossier.md)
+- **Sir William Rowan Hamilton** [T1+] (mirrored from william_rowan_hamilton.dossier.md)
+- **Siméon Denis Poisson** [T5] (mirrored from simeon_denis_poisson.dossier.md)
+- **René Just Haüy** [T3] (mirrored from rene_hauy.dossier.md)
+- **Charles Babbage** [T3] (mirrored from charles_babbage.dossier.md)
+- **Empress Joséphine** [T4] (mirrored from empress_josephine.dossier.md)
+
 ## Sources
 
 https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/

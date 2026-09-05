@@ -1310,6 +1310,45 @@ The atlas contains many ancient geographical writers, explorers, conquerors, the
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T3]
+- **Alexander the Great** [T3]
+- **Marco Polo** [T3]
+- **Plinio el Viejo** [T3]
+- **Strabo of Amaseia** [T3]
+- **Roger Bacon** [T3]
+- **Aurelius Augustinus** [T3]
+- **Thomas Aquinas** [T3]
+- **Kublai Khan** [T3]
+- **Muhiddin Piri** [T1+]
+- **Fernão de Magalhães** [T9+]
+- **Hernán Cortés** [T4]
+- **Francisco Pizarro González** [T9+]
+- **El Inca Garcilaso de la Vega** [T1+]
+- **Alexander von Humboldt** [T1+]
+- **Yuval Noah Harari** [T1+] (mirrored from yuval_noah_harari.dossier.md)
+- **John Fitzgerald Kennedy** [T1+] (mirrored from john_f_kennedy.dossier.md)
+- **Francis Julius Bellamy** [T9+] (mirrored from francis_bellamy.dossier.md)
+- **Felipe Guamán Poma de Ayala** [T1+] (mirrored from guaman_poma_de_ayala.dossier.md)
+- **Augustus Henry Julian Le Plongeon** [T1+] (mirrored from augustus_henry_julian_le_plongeon.dossier.md)
+- **Roger Bacon** [T9-] (mirrored from roger_bacon.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Francisco de Miranda** [T1+] (mirrored from miranda.dossier.md)
+- **Hernán Cortés** [T9+] (mirrored from cortes.dossier.md)
+- **San Brendan de Clonfert** [T9-] (mirrored from san_brendan.dossier.md)
+- **Frédéric Auguste Bartholdi** [T1+] (mirrored from frederic_auguste_bartholdi.dossier.md)
+- **Joaquín Trincado Mateo** [T1+] (mirrored from joaquin_trincado_mateo.dossier.md)
+- **Leif Erikson** [T9-] (mirrored from leif_erikson.dossier.md)
+- **Marcus Mosiah Garvey** [T1+] (mirrored from marcus_garvey.dossier.md)
+- **Simón Rodríguez** [T1+] (mirrored from simon_rodriguez.dossier.md)
+- **William R. Bradshaw** [T1+] (mirrored from william_r_bradshaw.dossier.md)
+- **Samuel Langhorne Clemens** [T1+] (mirrored from mark_twain.dossier.md)
+- **Jules Gabriel Verne** [T1+] (mirrored from jules_verne.dossier.md)
+- **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

@@ -1626,6 +1626,33 @@ For the great majority of the 896-person roster, no documented meeting, correspo
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abd al-Qadir al-Jilani** [T1-]
+- **Abu Yazid Tayfur ibn Isa al-Bistami** [T1-]
+- **Abu al-Qasim al-Junayd ibn Muhammad al-Baghdadi** [T1-]
+- **Abu al-Qasim Abd al-Karim ibn Hawazin al-Qushayri** [T1-]
+- **Mansur al-Hallaj** [T1-]
+- **Ibrahim ibn Adham** [T1-]
+- **Al-Malik al-Kamil** [T4]
+- **Abraham** [T1-]
+- **Moses** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Aristotle** [T1-]
+- **Jalal al-Din Rumi** [T9+]
+- **Dante Alighieri** [T9+]
+- **René Guénon** [T1+]
+- **Martin Mordechai Buber** [T1+] (mirrored from martin_buber.dossier.md)
+- **Rabia al-Adawiyya** [T1-] (mirrored from rabia.dossier.md)
+- **Emir Abdelkader ibn Muhieddine** [T1+] (mirrored from abdelkader.dossier.md)
+- **Shams al-Din Muhammad of Tabriz** [T5] (mirrored from shams_al_din_of_tabriz.dossier.md)
+- **Ruhollah Mostafavi Musavi Khomeini** [T1+] (mirrored from ayatollah_khomeini.dossier.md)
+- **Jalal al-Din Rumi** [T4] (mirrored from rumi.dossier.md)
+- **Jorge Luis Borges** [T1+] (mirrored from borges.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

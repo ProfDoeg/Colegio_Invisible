@@ -385,6 +385,44 @@ The hagiographic image is engineer-king, civilization saver and enemy of bureauc
 
 No reliable evidence was located for T2 prophecy/hyperstition or T9 shared-object succession connections between Musk and the roster. Mere influence, comparison, shared interests, or appearance at different times in the same broad geographic area was excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Benjamin Netanyahu** [T5]
+- **William Henry Gates III** [T5]
+- **Jair Messias Bolsonaro** [T5]
+- **Javier Gerardo Milei** [T5]
+- **Lawrence Joseph Ellison** [T5]
+- **Marc Lowell Andreessen** [T3]
+- **Max Rafailovich Levchin** [T5]
+- **Peter Andreas Thiel** [T5]
+- **Reid Garrett Hoffman** [T5]
+- **Samuel Harris Altman** [T5]
+- **Sam Bankman-Fried** [T3]
+- **Stephen Edwin King** [T3]
+- **Volodymyr Oleksandrovych Zelenskyy** [T3]
+- **Alexander Caedmon Karp** [T4]
+- **Yoshua Bengio** [T4]
+- **James "Jamie" Dimon** [T5] (mirrored from jamie_dimon.dossier.md)
+- **Yuval Noah Harari** [T3] (mirrored from yuval_noah_harari.dossier.md)
+- **Nick Szabo** [T3] (mirrored from nick_szabo.dossier.md)
+- **Laurence Douglas "Larry" Fink** [T5] (mirrored from larry_fink.dossier.md)
+- **Jeffrey Edward Epstein** [T5] (mirrored from jeffrey_epstein.dossier.md)
+- **Richard Dawkins** [T3] (mirrored from richard_dawkins.dossier.md)
+- **Nikola Tesla** [T9-] (mirrored from nikola_tesla.dossier.md)
+- **Ghislaine Noelle Marion Maxwell** [T4] (mirrored from ghislaine_maxwell.dossier.md)
+- **George Soros** [T3] (mirrored from george_soros.dossier.md)
+- **Curtis Guy Yarvin** [T3] (mirrored from curtis_yarvin.dossier.md)
+- **Leon David Black** [T5] (mirrored from leon_black.dossier.md)
+- **William Henry Gates III** [T4] (mirrored from bill_gates.dossier.md)
+- **Volodymyr Oleksandrovych Zelenskyy** [T5] (mirrored from volodymyr_zelenskyy.dossier.md)
+- **Joshua Norman Haldeman** [T5] (mirrored from joshua_haldeman.dossier.md)
+- **Geoffrey Everest Hinton** [T3] (mirrored from geoffrey_hinton.dossier.md)
+- **Yoshua Bengio** [T3] (mirrored from yoshua_bengio.dossier.md)
+- **Bernard Jean Étienne Arnault** [T5] (mirrored from bernard_arnault.dossier.md)
+- **Yanis Varoufakis** [T3] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Sources
 
 https://www.sec.gov/Archives/edgar/data/1103415/000091205702023923/a2082068zs-1.htm

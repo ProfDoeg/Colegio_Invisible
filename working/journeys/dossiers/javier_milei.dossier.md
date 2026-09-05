@@ -431,6 +431,32 @@ Only connections supported by the supplied roster and consulted evidence are inc
 
 For the overwhelming majority of the 896-person roster, no genuine biographical crossing was identified. Absence rather than inferred contemporaneity is recorded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Cristina Elisabet Fernández de Kirchner** [T3]
+- **Jair Messias Bolsonaro** [T5]
+- **Benjamin Netanyahu** [T5]
+- **Elon Reeve Musk** [T5]
+- **Friedrich August von Hayek** [T1-]
+- **Ludwig Heinrich Edler von Mises** [T1-]
+- **Murray Newton Rothbard** [T1-]
+- **Carl Menger** [T1-]
+- **Milton Friedman** [T1-]
+- **Adam Smith** [T1-]
+- **James "Jamie" Dimon** [T5] (mirrored from jamie_dimon.dossier.md)
+- **Yuval Noah Harari** [T3] (mirrored from yuval_noah_harari.dossier.md)
+- **Laurence Douglas "Larry" Fink** [T5] (mirrored from larry_fink.dossier.md)
+- **Klaus Martin Schwab** [T3] (mirrored from klaus_schwab.dossier.md)
+- **Peter Andreas Thiel** [T5] (mirrored from peter_thiel.dossier.md)
+- **Eduardo Sergio Elsztain** [T5] (mirrored from eduardo_elsztain.dossier.md)
+- **Julio Argentino Roca** [T1-] (mirrored from julio_argentino_roca.dossier.md)
+- **María Estela Martínez Cartas de Perón** [T3] (mirrored from isabel_peron.dossier.md)
+- **Murray Newton Rothbard** [T3] (mirrored from murray_rothbard.dossier.md)
+- **Volodymyr Oleksandrovych Zelenskyy** [T5] (mirrored from volodymyr_zelenskyy.dossier.md)
+- **Yanis Varoufakis** [T3] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Chronology
 
 - **22 October 1970:** Born in Palermo, Buenos Aires.

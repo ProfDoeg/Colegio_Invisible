@@ -1169,6 +1169,26 @@ No documentary basis was found in the consulted sources for a meeting or corresp
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albertus Magnus** [T1-]
+- **Aristotle** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Galileo Galilei** [T5]
+- **Galileo Galilei** [T3]
+- **Giordano Bruno** [T4]
+- **Louis XIV** [T3]
+- **Plato** [T1-]
+- **René Descartes** [T3]
+- **Thomas Aquinas** [T1-]
+- **Jan Amos Komenský** [T3] (mirrored from jan_amos_comenius.dossier.md)
+- **Ahmad al-Majriti** [T1-] (mirrored from ahmad_al_majriti.dossier.md)
+- **Mircea Eliade** [T1+] (mirrored from mircea_eliade.dossier.md)
+- **Joseph Alois Schumpeter** [T1+] (mirrored from joseph_schumpeter.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+
 ## Chronology
 
 | Date | Event |

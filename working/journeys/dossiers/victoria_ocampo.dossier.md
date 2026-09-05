@@ -910,6 +910,33 @@ For the remainder of the 896-person roster, no documented direct intersection em
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adolfo Bioy Casares** [T5]
+- **Albert Camus** [T5]
+- **Benito Mussolini** [T5]
+- **Carl Gustav Jung** [T3]
+- **Eva Duarte de Perón** [T4]
+- **Federico García Lorca** [T3]
+- **Hermann Graf von Keyserling** [T5]
+- **Igor Fyodorovich Stravinsky** [T5]
+- **Jorge Luis Borges** [T5]
+- **Juan Domingo Perón** [T4]
+- **Le Corbusier** [T5]
+- **Rabindranath Tagore** [T5]
+- **Silvina Ocampo** [T5]
+- **Antoine de Saint-Exupéry** [T4]
+- **Theodor W. Adorno** [T3]
+- **Walter Benjamin** [T3]
+- **Antoine de Saint-Exupéry** [T5] (mirrored from antoine_de_saint_exupery.dossier.md)
+- **Wifredo Viladrich** [T9+] (mirrored from viladrich.dossier.md)
+- **Federico García Lorca** [T5] (mirrored from federico_garcia_lorca.dossier.md)
+- **Juan Domingo Perón** [T3] (mirrored from juan_peron.dossier.md)
+- **Xul Solar** [T4] (mirrored from xul_solar.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T9+] (mirrored from julio_cortazar.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

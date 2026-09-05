@@ -1218,6 +1218,28 @@ The research encountered many atlas figures in the history of Monte Verità, mod
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Gustav Landauer** [T5]
+- **Martin Mordechai Buber** [T4]
+- **Otto Gross** [T5]
+- **Mikhail Aleksandrovich Bakunin** [T3]
+- **Friedrich Nietzsche** [T3]
+- **Hermann Hesse** [T3]
+- **Ludwig Derleth** [T5]
+- **Rudolf Rocker** [T4]
+- **Vladimir Ilyich Ulyanov** [T3]
+- **Karl Gräser** [T5] (mirrored from karl_graser.dossier.md)
+- **Rudolf Steiner** [T5] (mirrored from steiner.dossier.md)
+- **Hermann Hesse** [T4] (mirrored from hermann_hesse.dossier.md)
+- **Rudolf Rocker** [T5] (mirrored from rudolf_rocker.dossier.md)
+- **Ida Hofmann** [T3] (mirrored from ida_hoffmann.dossier.md)
+- **Henri Oedenkoven** [T4] (mirrored from henri_oedenkoven.dossier.md)
+- **Henri Oedenkoven** [T3] (mirrored from henri_oedenkoven.dossier.md)
+- **Gustav Arthur "Gusto" Gräser** [T4] (mirrored from gusto_graeser.dossier.md)
+
 ## Chronology
 
 - **6 April 1878:** Born in Berlin.

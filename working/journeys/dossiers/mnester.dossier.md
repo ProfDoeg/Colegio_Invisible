@@ -384,6 +384,12 @@ Modern reception has often reduced him to “Caligula's favorite” or “Messal
 
 No other atlas-roster crossing is supported by the evidence reviewed. In particular, Mnester’s belonging to the Roman pantomime tradition founded by Pylades of Cilicia and Bathyllus of Alexandria does not document personal contact, descent through a named school, or another connection qualifying under the specified types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alfred Jarry** [T1+]
+
 ## Sources
 
 https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Caligula%2A.html

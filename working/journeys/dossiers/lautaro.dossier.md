@@ -957,6 +957,16 @@ The roster includes Lautaro himself. This is the dossier’s subject, not a sepa
 
 No documented meeting, correspondence, kinship, collaboration, rivalry, or explicitly acknowledged influence was found between the historical Lautaro and the other rostered individuals. Shared geography, general engagement with Indigenous history, or later political use of Mapuche symbolism was not treated as sufficient evidence.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Bernardo O'Higgins Riquelme** [T9+]
+- **José de San Martín** [T9+]
+- **Francisco de Miranda** [T9+]
+- **Pedro Subercaseaux Errázuriz** [T1+]
+- **Francisco de Miranda** [T1+] (mirrored from miranda.dossier.md)
+
 ## Sources
 
 https://www.memoriachilena.gob.cl/602/w3-article-721.html

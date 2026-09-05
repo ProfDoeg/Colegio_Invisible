@@ -925,6 +925,35 @@ For the hundreds of other roster names, no documented crossing was found in the 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T5]
+- **Niels Bohr** [T5]
+- **Werner Heisenberg** [T5]
+- **Erwin Rudolf Josef Alexander Schrödinger** [T3]
+- **Wolfgang Ernst Pauli** [T3]
+- **Enrico Fermi** [T4]
+- **Satyendra Nath Bose** [T3]
+- **J. Robert Oppenheimer** [T5]
+- **John von Neumann** [T4]
+- **Richard Phillips Feynman** [T3]
+- **Sir Isaac Newton** [T9-]
+- **Sir William Rowan Hamilton** [T1-]
+- **James Clerk Maxwell** [T1-]
+- **Michael Faraday** [T1-]
+- **Tony Hilton Royle Skyrme** [T4]
+- **Edward Witten** [T9+]
+- **Simon bar Jonah** [T9+]
+- **John von Neumann** [T3] (mirrored from john_von_neumann.dossier.md)
+- **Moshé Feldenkrais** [T3] (mirrored from moshe_feldenkrais.dossier.md)
+- **Enrico Fermi** [T5] (mirrored from fermi.dossier.md)
+- **Richard Phillips Feynman** [T5] (mirrored from richard_feynman.dossier.md)
+- **Tony Hilton Royle Skyrme** [T3] (mirrored from tony_skyrme.dossier.md)
+- **Siméon Denis Poisson** [T1-] (mirrored from simeon_denis_poisson.dossier.md)
+- **Erwin Rudolf Josef Alexander Schrödinger** [T5] (mirrored from erwin_schrodinger.dossier.md)
+
 ## Chronology
 
 - **1899:** Charles Dirac marries Florence Hannah Holten.

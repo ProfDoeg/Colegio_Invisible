@@ -1304,6 +1304,53 @@ No supported personal or documentary connection was located with the overwhelmin
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Plato** [T1-]
+- **Thomas Aquinas** [T1-]
+- **Nicolaus Copernicus** [T1-]
+- **Johannes Kepler** [T3]
+- **Galileo Galilei** [T3]
+- **Francis Bacon** [T3]
+- **Christiaan Huygens** [T5]
+- **Christiaan Huygens** [T3]
+- **Gottfried Wilhelm Leibniz** [T1+]
+- **Sir Isaac Newton** [T1+]
+- **Immanuel Kant** [T1+]
+- **Friedrich Nietzsche** [T1+]
+- **Martin Heidegger** [T1+]
+- **Jacques Derrida** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Jacques Marie Émile Lacan** [T1+]
+- **Carl Gustav Jung** [T1+]
+- **Sigmund Freud** [T1+]
+- **Ramon Llull** [T1-] (mirrored from ramon_llull.dossier.md)
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3] (mirrored from simone_de_beauvoir.dossier.md)
+- **Jan Amos Komenský** [T5] (mirrored from jan_amos_comenius.dossier.md)
+- **Leonhard Euler** [T1+] (mirrored from leonard_euler.dossier.md)
+- **Avram Noam Chomsky** [T1+] (mirrored from noam_chomsky.dossier.md)
+- **Gottfried Wilhelm Leibniz** [T3] (mirrored from gottfried_wilhelm_leibniz.dossier.md)
+- **André Breton** [T1+] (mirrored from andre_breton.dossier.md)
+- **Robert Hooke** [T1+] (mirrored from robert_hooke.dossier.md)
+- **John Rogers Searle** [T1+] (mirrored from john_searle.dossier.md)
+- **Giambattista Vico** [T3] (mirrored from vico.dossier.md)
+- **Johannes Kepler** [T1-] (mirrored from johannes_kepler.dossier.md)
+- **Ștefan Odobleja** [T1+] (mirrored from stefan_odobleja.dossier.md)
+- **Tommaso Campanella** [T3] (mirrored from tommaso_campanella.dossier.md)
+- **James Clerk Maxwell** [T1+] (mirrored from james_clerk_maxwell.dossier.md)
+- **John Locke** [T1+] (mirrored from john_locke.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+- **Jean-Baptiste Joseph Fourier** [T1+] (mirrored from joseph_fourier.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T1+] (mirrored from jean_paul_sartre.dossier.md)
+- **Carl Gustav Jacob Jacobi** [T1+] (mirrored from carl_gustav_jacob_jacobi.dossier.md)
+- **Christiaan Huygens** [T1+] (mirrored from christiaan_huygens.dossier.md)
+- **Jorge Luis Borges** [T1+] (mirrored from borges.dossier.md)
+- **Søren Aabye Kierkegaard** [T1+] (mirrored from s_ren_kierkegaard.dossier.md)
+
 ## Chronology
 
 | Date | Event |

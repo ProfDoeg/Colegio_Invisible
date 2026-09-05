@@ -642,6 +642,24 @@ No documented connection was found to the overwhelming majority of the supplied 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jorge Luis Borges** [T5]
+- **Adolfo Bioy Casares** [T3]
+- **Silvina Ocampo** [T4]
+- **Victoria Ocampo** [T4]
+- **Wassily Kandinsky** [T3]
+- **Paul Klee** [T3]
+- **Helena Petrovna Blavatsky** [T3]
+- **Rudolf Steiner** [T3]
+- **Jiddu Krishnamurti** [T3]
+- **Emanuel Swedenborg** [T3]
+- **William Blake** [T3]
+- **Wifredo Viladrich** [T9+] (mirrored from viladrich.dossier.md)
+- **Adolfo Bioy Casares** [T5] (mirrored from adolfo_bioy_casares.dossier.md)
+
 ## Chronology
 
 | Date | Event |

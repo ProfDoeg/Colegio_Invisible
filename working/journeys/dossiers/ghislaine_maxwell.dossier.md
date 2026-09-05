@@ -1004,6 +1004,22 @@ No other person in the supplied 896-person roster was found to have a sufficient
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Robert Maxwell** [T5]
+- **Jeffrey Edward Epstein** [T5]
+- **William Jefferson Clinton** [T4]
+- **Hillary Diane Rodham Clinton** [T4]
+- **Elon Reeve Musk** [T4]
+- **Leslie Herbert Wexner** [T9-]
+- **William Jefferson Clinton** [T5] (mirrored from bill_clinton.dossier.md)
+- **Leon David Black** [T3] (mirrored from leon_black.dossier.md)
+- **William Henry Gates III** [T5] (mirrored from bill_gates.dossier.md)
+- **Reid Garrett Hoffman** [T5] (mirrored from reid_hoffman.dossier.md)
+- **Mark Stewart Cohen** [T3] (mirrored from mark_cohen.dossier.md)
+
 ## Chronology
 
 | Date | Event |

@@ -1043,6 +1043,69 @@ Only connections supported by documented personal contact, institutional success
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Plato** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Jacob Boehme** [T1-]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **Jean-Jacques Rousseau** [T1-]
+- **Adam Smith** [T1-]
+- **Immanuel Kant** [T1-]
+- **Johann Gottlieb Fichte** [T3]
+- **Johann Wolfgang von Goethe** [T5]
+- **Friedrich Schiller** [T4]
+- **Friedrich Wilhelm Joseph Schelling** [T5]
+- **Napoleon Bonaparte** [T4]
+- **Giambattista Vico** [T1-]
+- **Martin Luther** [T1-]
+- **Karl Marx** [T1+]
+- **Søren Aabye Kierkegaard** [T1+]
+- **Friedrich Nietzsche** [T1+]
+- **Martin Heidegger** [T1+]
+- **Walter Benjamin** [T1+]
+- **Theodor W. Adorno** [T1+]
+- **Herbert Marcuse** [T1+]
+- **Jean-Paul Charles Aymard Sartre** [T1+]
+- **Jacques Marie Émile Lacan** [T1+]
+- **Jacques Derrida** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Jürgen Habermas** [T1+]
+- **Slavoj Žižek** [T1+]
+- **Rudolf Steiner** [T1+]
+- **Ludwig Heinrich Edler von Mises** [T1+] (mirrored from ludwig_von_mises.dossier.md)
+- **Mao Zedong** [T3] (mirrored from mao_zedong.dossier.md)
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3] (mirrored from simone_de_beauvoir.dossier.md)
+- **William James** [T1+] (mirrored from william_james.dossier.md)
+- **Martin Mordechai Buber** [T3] (mirrored from martin_buber.dossier.md)
+- **Friedrich Schiller** [T1-] (mirrored from schiller.dossier.md)
+- **Napoleon Bonaparte** [T3] (mirrored from napoleon.dossier.md)
+- **Max Weber** [T1+] (mirrored from max_weber.dossier.md)
+- **Paulo Reglus Neves Freire** [T1+] (mirrored from paulo_freire.dossier.md)
+- **Vladimir Ilyich Ulyanov** [T1+] (mirrored from vladimir_lenin.dossier.md)
+- **John Augustus Roebling** [T5] (mirrored from john_a_roebling.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T1+] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Wilhelm Richard Wagner** [T9+] (mirrored from richard_wagner.dossier.md)
+- **Alexander Caedmon Karp** [T1+] (mirrored from alex_karp.dossier.md)
+- **Julius Evola** [T1+] (mirrored from julius_evola.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Antonio Francesco Gramsci** [T1+] (mirrored from antonio_gramsci.dossier.md)
+- **Giordano Bruno** [T1-] (mirrored from giordano_bruno.dossier.md)
+- **Peter Andreas Thiel** [T1+] (mirrored from peter_thiel.dossier.md)
+- **André Breton** [T1+] (mirrored from andre_breton.dossier.md)
+- **Narendranath Datta** [T3] (mirrored from swami_vivekananda.dossier.md)
+- **Felix Adler** [T3] (mirrored from felix_adler.dossier.md)
+- **Guy-Ernest Debord** [T1+] (mirrored from guy_debord.dossier.md)
+- **John Dewey** [T1+] (mirrored from john_dewey.dossier.md)
+- **Carl Gustav Jacob Jacobi** [T3] (mirrored from carl_gustav_jacob_jacobi.dossier.md)
+- **Mikhail Aleksandrovich Bakunin** [T1+] (mirrored from mikhail_bakunin.dossier.md)
+- **Albert Camus** [T1+] (mirrored from albert_camus.dossier.md)
+- **Max Horkheimer** [T1+] (mirrored from max_horkheimer.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

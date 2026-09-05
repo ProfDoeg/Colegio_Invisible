@@ -1019,6 +1019,24 @@ No adequately documented direct crossing was found with the remaining names in t
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T5]
+- **Rabindranath Tagore** [T5]
+- **Niels Bohr** [T5]
+- **Werner Heisenberg** [T5]
+- **Erwin Rudolf Josef Alexander Schrödinger** [T3]
+- **Paul Adrien Maurice Dirac** [T3]
+- **Wolfgang Ernst Pauli** [T5]
+- **Werner Heisenberg** [T9+] (mirrored from heisenberg.dossier.md)
+- **Wolfgang Ernst Pauli** [T9+] (mirrored from wolfgang_pauli.dossier.md)
+- **Niels Bohr** [T9+] (mirrored from niels_bohr.dossier.md)
+- **Enrico Fermi** [T9+] (mirrored from fermi.dossier.md)
+- **Albert Einstein** [T3] (mirrored from einstein.dossier.md)
+- **Rabindranath Tagore** [T3] (mirrored from rabindranath_tagore.dossier.md)
+
 ## Chronology
 
 - **1 January 1894:** Born in Calcutta to Surendra Nath Bose and Amodini Devi.

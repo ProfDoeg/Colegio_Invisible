@@ -1066,6 +1066,24 @@ No sufficiently documented direct connection was established in the consulted so
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Max Moritz Warburg** [T5]
+- **Paul Moritz Warburg** [T5]
+- **Friedrich Nietzsche** [T3]
+- **Charles Robert Darwin** [T3]
+- **Martin Luther** [T1-]
+- **Sigmund Freud** [T4]
+- **Frances Amelia Yates** [T9+]
+- **Giordano Bruno** [T9-]
+- **Paul Moritz Warburg** [T3] (mirrored from paul_warburg.dossier.md)
+- **Max Moritz Warburg** [T3] (mirrored from max_warburg.dossier.md)
+- **Max Moritz Warburg** [T9+] (mirrored from max_warburg.dossier.md)
+- **Olga Fröbe-Kapteyn** [T9+] (mirrored from olga_frobe_kapteyn.dossier.md)
+- **Ahmad al-Majriti** [T1-] (mirrored from ahmad_al_majriti.dossier.md)
+
 ## Chronology
 
 | Date | Event |

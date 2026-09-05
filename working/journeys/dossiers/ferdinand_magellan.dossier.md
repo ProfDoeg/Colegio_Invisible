@@ -1768,6 +1768,22 @@ Supported by later chronicles and convergent archival scholarship:
 
 - **[T1+]** **Documented fact.** Wells summarized Magellan’s career and voyage in *The Outline of History* (**1920**), describing the strait passage, Pacific crossing, privation, death in the Philippines, and eventual return of *Victoria*. He also contrasted the voyage’s hardships with those of Columbus. Magellan is the earlier, written-about figure. [Scanned *Outline of History*](https://upload.wikimedia.org/wikipedia/commons/8/8b/The_outline_of_history_-_being_a_plain_history_of_life_and_mankind_%28IA_outlineofhistory02wellrich%29.pdf)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Hernán Cortés** [T1+]
+- **Charles Robert Darwin** [T1+]
+- **Charles Robert Darwin** [T9+]
+- **Alexander von Humboldt** [T1+]
+- **Jules Gabriel Verne** [T1+]
+- **Herbert George Wells** [T1+]
+- **Antoinette de Saint Léger** [T5] (mirrored from antoinette_de_saint_leger.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Pedro de Mendoza** [T9+] (mirrored from pedro_de_mendoza.dossier.md)
+- **Christopher Columbus** [T9-] (mirrored from columbus.dossier.md)
+- **William R. Bradshaw** [T1+] (mirrored from william_r_bradshaw.dossier.md)
+
 ## Sources
 
 https://antt.dglab.gov.pt/exposicoes-virtuais-2/a-viagem-de-circum-navegacao-de-fernao-de-magalhaes/

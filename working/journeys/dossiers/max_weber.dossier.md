@@ -1108,6 +1108,34 @@ No defensible direct connection was found with most of the atlas roster. That ab
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Karl Marx** [T3]
+- **Friedrich Nietzsche** [T3]
+- **William James** [T5]
+- **Joseph Alois Schumpeter** [T5]
+- **Otto Gross** [T3]
+- **Sigmund Freud** [T3]
+- **Martin Luther** [T1-]
+- **Adam Smith** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Immanuel Kant** [T1-]
+- **Johann Wolfgang von Goethe** [T1-]
+- **Jürgen Habermas** [T1+]
+- **Max Horkheimer** [T1+]
+- **Theodor W. Adorno** [T1+]
+- **Martin Heidegger** [T4]
+- **Ludwig Heinrich Edler von Mises** [T5] (mirrored from ludwig_von_mises.dossier.md)
+- **Ludwig Heinrich Edler von Mises** [T1+] (mirrored from ludwig_von_mises.dossier.md)
+- **Karl Gräser** [T4] (mirrored from karl_graser.dossier.md)
+- **Jakob Fugger 'the Rich'** [T1-] (mirrored from jakob_fugger_the_rich.dossier.md)
+- **Henri Oedenkoven** [T4] (mirrored from henri_oedenkoven.dossier.md)
+- **Stanley Jeyaraja Tambiah** [T1+] (mirrored from stanley_jeyaraja_tambiah.dossier.md)
+- **Joseph Alois Schumpeter** [T3] (mirrored from joseph_schumpeter.dossier.md)
+- **Joseph Alois Schumpeter** [T1+] (mirrored from joseph_schumpeter.dossier.md)
+
 ## Compact Chronology
 
 - **1864, 21 April:** born in Erfurt.

@@ -538,6 +538,18 @@ Because Levchin is living and Affirm remains exposed to credit, regulation, liti
 
 No additional roster crossing was supported strongly enough for inclusion. In particular, Levchin’s intellectual references to David Chaum, Claude Shannon, Ralph Merkle, and other cryptographic predecessors do not by themselves prove correspondence, personal meetings, or another defined Atlas connection; Merkle’s receipt of the Levchin Prize likewise establishes an award-program relationship but, without evidence of direct interaction, does not fit the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adi Shamir** [T1-]
+- **Martin Edward Hellman** [T5]
+- **Peter Andreas Thiel** [T5]
+- **Elon Reeve Musk** [T5]
+- **Reid Garrett Hoffman** [T5]
+- **Marc Lowell Andreessen** [T5]
+- **William Henry Gates III** [T4]
+
 ## Sources
 
 https://archive.storied.illinois.edu/maximum-impact/

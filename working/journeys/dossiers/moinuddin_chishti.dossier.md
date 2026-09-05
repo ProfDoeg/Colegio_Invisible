@@ -929,6 +929,12 @@ No documented personal crossing was found with Jalal al-Din Rumi, Shams-i Tabriz
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abu al-Qasim al-Junayd ibn Muhammad al-Baghdadi** [T1-] (mirrored from junayd_al_baghdadi.dossier.md)
+
 ## Chronology
 
 | Date | Event | Status |

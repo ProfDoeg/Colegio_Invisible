@@ -1148,6 +1148,23 @@ No adequately sourced personal, genealogical, institutional, or influence connec
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Guinevere** [T5]
+- **Merlin** [T4]
+- **Morgan le Fay** [T5]
+- **The Lady of the Lake** [T5]
+- **Parzival** [T4]
+- **Richard I of England** [T9+]
+- **J. R. R. Tolkien** [T1+]
+- **Miguel de Cervantes Saavedra** [T3]
+- **William Morris** [T1+]
+- **Sir Edward Coley Burne-Jones** [T3]
+- **William Holman Hunt** [T3]
+- **Arthur of Lotharingia** [T5] (mirrored from arthur-lotharingia.dossier.md)
+
 ## Chronology
 
 | Approximate date | Event |

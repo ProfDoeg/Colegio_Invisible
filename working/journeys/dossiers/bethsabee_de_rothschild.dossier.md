@@ -1040,6 +1040,14 @@ No source consulted documents a meeting, correspondence, family tie, patronage r
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **David ben Jesse** [T5]
+- **King Solomon** [T5]
+- **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
+
 ## Chronology
 
 | Approximate date | Event | Evidentiary status |

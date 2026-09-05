@@ -651,6 +651,38 @@ Solinus's legacy is not that he originated the dog-headed, headless, one-footed,
 
 No T2 prophecy/hyperstition, T4 shared-milieu, T5 personal-meeting, or T9 transmitted-object connection with a roster member is securely documented. In particular, the proposed Constantinian dating does not by itself establish proximity to Constantine the Great, since neither Solinus’s location nor an actual encounter is known.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam of Bremen** [T3]
+- **Aeneas** [T1-]
+- **Alexander the Great** [T1-]
+- **Archimedes of Syracuse** [T1-]
+- **Aristotle** [T1-]
+- **Aristotle** [T3]
+- **Aurelius Augustinus** [T3]
+- **Marcus Tullius Cicero** [T3]
+- **Cleopatra VII Thea Philopator** [T1-]
+- **Ctesias of Cnidus** [T3]
+- **Cyrus the Great** [T1-]
+- **Hannibal Barca** [T1-]
+- **Herodotus of Halicarnassus** [T1-]
+- **Hesiod of Ascra** [T1-]
+- **Homer** [T1-]
+- **Homer** [T3]
+- **Gaius Julius Caesar** [T1-]
+- **Megasthenes of Ionia** [T3]
+- **Odysseus** [T1-]
+- **Pindar of Thebes** [T1-]
+- **Plato** [T1-]
+- **Plinio el Viejo** [T3]
+- **Zoroaster** [T1-]
+- **Zoroaster** [T3]
+- **Megasthenes of Ionia** [T1-] (mirrored from megasthenes.dossier.md)
+- **Plinio el Viejo** [T1-] (mirrored from plinio_el_viejo.dossier.md)
+- **Jorge Luis Borges** [T1+] (mirrored from borges.dossier.md)
+
 ## Sources
 
 https://topostext.org/work/747

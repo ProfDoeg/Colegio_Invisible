@@ -698,6 +698,17 @@ Falconetti performed *La Dame aux camélias* by **Alexandre Dumas fils**, wherea
 
 No additional person on the supplied atlas roster was found to have a documented meeting, correspondence, family tie, patronage relationship, rivalry, collaboration, or explicitly acknowledged formative influence on Falconetti. Apparent links based only on common Parisian institutions or artistic milieu have not been included.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Carl Theodor Dreyer** [T3]
+- **Antonin Artaud** [T4]
+- **Sarah Bernhardt** [T9-]
+- **Antonin Artaud** [T5] (mirrored from artaud.dossier.md)
+- **Carl Theodor Dreyer** [T5] (mirrored from carl_theodor_dreyer.dossier.md)
+- **Joan of Arc** [T9-] (mirrored from joan_of_arc.dossier.md)
+
 ## Chronology
 
 | Date | Event |

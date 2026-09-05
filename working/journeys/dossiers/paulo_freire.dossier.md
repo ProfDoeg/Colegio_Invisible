@@ -485,6 +485,28 @@ Historically durable conclusions are narrower: he transformed international disc
 
 No supported T2 prophecy/hyperstition or T9 shared-object connection was located among the roster. Other apparent parallels—including shared nationality, residence in the same country, overlapping political traditions or later comparisons by third-party scholars—were excluded where no direct documentary crossing could be established.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Antonio Francesco Gramsci** [T1-]
+- **Augusto Boal** [T5]
+- **Camilo Torres Restrepo** [T1-]
+- **Ernesto "Che" Guevara** [T1-]
+- **Erich Seligmann Fromm** [T5]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Herbert Marcuse** [T1-]
+- **Jair Messias Bolsonaro** [T1+]
+- **Jean-Paul Charles Aymard Sartre** [T1-]
+- **John Dewey** [T1-]
+- **Karl Marx** [T1-]
+- **Martin Mordechai Buber** [T1-]
+- **Mao Zedong** [T1-]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T1-]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Augusto Boal** [T4] (mirrored from augusto_boal.dossier.md)
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+
 ## Sources
 
 https://bibliotecavirtual.clacso.org.ar/ar/libros/video/livro_fotobiografico.pdf

@@ -1815,6 +1815,27 @@ Cauchy's foundational place in analysis, complex analysis, group theory, differe
 
 No other roster crossing was included where the available evidence established only contemporaneity, shared geography, later mathematical influence, or a common intellectual tradition rather than one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Joseph-Louis Lagrange** [T5]
+- **Pierre-Simon Laplace** [T5]
+- **Évariste Galois** [T3]
+- **Siméon Denis Poisson** [T3]
+- **Bernard Jean Étienne Arnault** [T5]
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T3]
+- **Leonhard Euler** [T1-] (mirrored from leonard_euler.dossier.md)
+- **Karl Marx** [T1-] (mirrored from karl_marx.dossier.md)
+- **Sir George Gabriel Stokes** [T1+] (mirrored from george_gabriel_stokes.dossier.md)
+- **Felix Christian Klein** [T1+] (mirrored from felix_klein.dossier.md)
+- **Arthur Cayley** [T3] (mirrored from arthur_cayley.dossier.md)
+- **Sir William Rowan Hamilton** [T3] (mirrored from william_rowan_hamilton.dossier.md)
+- **Siméon Denis Poisson** [T4] (mirrored from simeon_denis_poisson.dossier.md)
+- **Jacques Derrida** [T5] (mirrored from jacques_derrida.dossier.md)
+- **Jean-Baptiste Joseph Fourier** [T9+] (mirrored from joseph_fourier.dossier.md)
+- **Paul-Michel Foucault** [T5] (mirrored from michel_foucault.dossier.md)
+
 ## Sources
 
 https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/

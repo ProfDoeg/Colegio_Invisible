@@ -1267,6 +1267,26 @@ No source reviewed establishes a personal meeting or correspondence between Leon
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Leon Battista Alberti** [T1-]
+- **Lorenzo di Piero de' Medici** [T4]
+- **Michelangelo di Lodovico Buonarroti Simoni** [T5]
+- **Aristotle** [T1-]
+- **Plato** [T1-]
+- **Albertus Magnus** [T1-]
+- **Archimedes of Syracuse** [T1-]
+- **Roger Bacon** [T1-]
+- **Plinio el Viejo** [T1-]
+- **Leon David Black** [T9+] (mirrored from leon_black.dossier.md)
+- **Michelangelo di Lodovico Buonarroti Simoni** [T4] (mirrored from michelangelo.dossier.md)
+- **Nikolai Aleksandrovich Bernstein** [T1+] (mirrored from nikolai_bernstein.dossier.md)
+- **William Henry Gates III** [T9+] (mirrored from bill_gates.dossier.md)
+- **William Henry Gates III** [T1+] (mirrored from bill_gates.dossier.md)
+- **Nicolaus Copernicus** [T4] (mirrored from nicolaus_copernicus.dossier.md)
+
 ## Chronology
 
 | Date | Event |

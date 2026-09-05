@@ -1054,6 +1054,24 @@ No documentary crossing was established with the remainder of the atlas roster. 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Isadora Duncan** [T9-]
+- **Clotilde Sakharoff** [T4]
+- **Gabriele d'Annunzio** [T5]
+- **Valeska Gert** [T9+]
+- **Vera Skoronel** [T5]
+- **Rudolf Laban** [T9-]
+- **Mary Wigman** [T4]
+- **Émile Jaques-Dalcroze** [T9-]
+- **Francis of Assisi** [T1-]
+- **Joan of Arc** [T1-]
+- **Dante Alighieri** [T1-]
+- **Olga Fröbe-Kapteyn** [T5] (mirrored from olga_frobe_kapteyn.dossier.md)
+- **Suzanne Perrottet** [T5] (mirrored from suzanne_perrottet.dossier.md)
+
 ## Chronology
 
 | Date | Event |

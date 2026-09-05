@@ -743,6 +743,23 @@ His durable contributions are methodological and institutional more than any sin
 
 No other roster crossing was included merely because Friedman mentioned a historical person in a survey, studied a cipher associated with that person, lived in the same broad period, or belonged to an adjacent intellectual tradition; those facts alone do not establish the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Elizebeth Smith Friedman** [T5]
+- **Herbert Osborn Yardley** [T5]
+- **Alan Mathison Turing** [T5]
+- **Claude Elwood Shannon** [T3]
+- **John von Neumann** [T3]
+- **Edgar Allan Poe** [T1-]
+- **Francis Bacon** [T1-]
+- **Elizebeth Smith Friedman** [T3] (mirrored from elizebeth_smith_friedman.dossier.md)
+- **Herbert Osborn Yardley** [T3] (mirrored from herbert_yardley.dossier.md)
+- **Étienne Bazeries** [T1-] (mirrored from etienne_bazeries.dossier.md)
+- **Arthur Scherbius** [T9-] (mirrored from arthur_scherbius.dossier.md)
+- **Donald Ervin Knuth** [T9+] (mirrored from donald_ervin_knuth.dossier.md)
+
 ## Sources
 
 https://www.nsa.gov/History/Cryptologic-History/Historical-Figures/Historical-Figures-View/Article/1623026/william-f-friedman/

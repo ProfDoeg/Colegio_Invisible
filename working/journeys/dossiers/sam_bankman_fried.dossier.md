@@ -1325,6 +1325,15 @@ Bankman-Fried continues to contest the dominant interpretation of his conduct. H
 
 No qualifying Atlas connection is established with **Volodymyr Zelenskyy**, despite their separate appearances on the 30 November 2022 DealBook Summit program: Bankman-Fried participated remotely from The Bahamas and Zelenskyy appeared separately, with no documented correspondence, observation of one another’s sessions, shared physical presence, or personal meeting. Likewise, third-party comparisons of Bankman-Fried to **J. Pierpont Morgan** or **Charles Ponzi** do not satisfy any specified connection type.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **William Jefferson Clinton** [T5]
+- **William Henry Gates III** [T4]
+- **Elon Reeve Musk** [T3]
+- **Mark Stewart Cohen** [T5] (mirrored from mark_cohen.dossier.md)
+
 ## Sources
 
 https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes

@@ -1049,6 +1049,41 @@ No sufficiently documented personal or explicit intellectual crossing was found 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Marian Adam Rejewski** [T9-]
+- **John von Neumann** [T5]
+- **Claude Elwood Shannon** [T5]
+- **Charles Babbage** [T1-]
+- **Augusta Ada King** [T1-]
+- **Arthur Scherbius** [T9-]
+- **Albert Einstein** [T1-]
+- **Richard Dawkins** [T1+]
+- **Norbert Wiener** [T1+] (mirrored from norbert_wiener.dossier.md)
+- **Martin Edward Hellman** [T1+] (mirrored from hellman.dossier.md)
+- **Joscha Bach** [T1+] (mirrored from joscha_bach.dossier.md)
+- **Avram Noam Chomsky** [T1+] (mirrored from noam_chomsky.dossier.md)
+- **John Maynard Keynes** [T4] (mirrored from john_maynard_keynes.dossier.md)
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **John von Neumann** [T3] (mirrored from john_von_neumann.dossier.md)
+- **Vinton Gray Cerf** [T9+] (mirrored from vint_cerf.dossier.md)
+- **Dennis MacAlistair Ritchie** [T9+] (mirrored from dennis_ritchie.dossier.md)
+- **Leonard Max Adleman** [T1+] (mirrored from leonard_adleman.dossier.md)
+- **Ray Kurzweil** [T1+] (mirrored from ray_kurzweil.dossier.md)
+- **John Rogers Searle** [T1+] (mirrored from john_searle.dossier.md)
+- **Marian Adam Rejewski** [T5] (mirrored from marian_rejewski.dossier.md)
+- **Ian Lancaster Fleming** [T4] (mirrored from ian_fleming.dossier.md)
+- **Leslie Barry Lamport** [T9+] (mirrored from leslie_barry_lamport.dossier.md)
+- **Kenneth Lane Thompson** [T9+] (mirrored from ken_thompson.dossier.md)
+- **Adi Shamir** [T9+] (mirrored from adi_shamir.dossier.md)
+- **Ronald Linn Rivest** [T9+] (mirrored from ron_rivest.dossier.md)
+- **William Frederick Friedman** [T5] (mirrored from william_f_friedman.dossier.md)
+- **Donald Ervin Knuth** [T9+] (mirrored from donald_ervin_knuth.dossier.md)
+- **Geoffrey Everest Hinton** [T9+] (mirrored from geoffrey_hinton.dossier.md)
+- **Yoshua Bengio** [T2+ prediction] (mirrored from yoshua_bengio.dossier.md)
+
 ## Chronology
 
 - **1907:** Julius Mathison Turing marries Ethel Sara Stoney.

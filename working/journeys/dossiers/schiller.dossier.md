@@ -1243,6 +1243,42 @@ No documentary crossing was found between Schiller and the overwhelming majority
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Johann Wolfgang von Goethe** [T5]
+- **Immanuel Kant** [T3]
+- **Johann Gottlieb Fichte** [T5]
+- **Friedrich Wilhelm Joseph Schelling** [T4]
+- **Georg Wilhelm Friedrich Hegel** [T1+]
+- **Novalis** [T4]
+- **Friedrich Nietzsche** [T1+]
+- **Carl Menger** [T1+] (mirrored from carl_menger.dossier.md)
+- **Friedrich Max Müller** [T1+] (mirrored from max_muller.dossier.md)
+- **Martin Heidegger** [T1+] (mirrored from martin_heidegger.dossier.md)
+- **Peter von Cornelius** [T9+] (mirrored from peter_von_cornelius.dossier.md)
+- **Rudolf Steiner** [T1+] (mirrored from steiner.dossier.md)
+- **Walter Benjamin** [T1+] (mirrored from walter_benjamin.dossier.md)
+- **Friedrich Wilhelm Joseph Schelling** [T5] (mirrored from schelling.dossier.md)
+- **Hermann Hesse** [T3] (mirrored from hermann_hesse.dossier.md)
+- **Johann Gottlieb Fichte** [T3] (mirrored from fichte.dossier.md)
+- **Wilhelm Richard Wagner** [T9+] (mirrored from richard_wagner.dossier.md)
+- **Taras Hryhorovych Shevchenko** [T1+] (mirrored from taras_shevchenko.dossier.md)
+- **Novalis** [T5] (mirrored from novalis.dossier.md)
+- **Herbert Marcuse** [T1+] (mirrored from herbert_marcuse.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Immanuel Kant** [T1-] (mirrored from kant.dossier.md)
+- **Hans Christian Andersen** [T1+] (mirrored from hans_christian_andersen.dossier.md)
+- **Gustav Klimt** [T3] (mirrored from gustav_klimt.dossier.md)
+- **Pyotr Ilyich Tchaikovsky** [T1+] (mirrored from tchaikovsky.dossier.md)
+- **Alexandre Dumas** [T3] (mirrored from alexandre_dumas.dossier.md)
+- **Friedrich Nietzsche** [T3] (mirrored from nietzsche.dossier.md)
+- **Franz Pforr** [T3] (mirrored from franz_pforr.dossier.md)
+- **Joan of Arc** [T1-] (mirrored from joan_of_arc.dossier.md)
+- **Søren Aabye Kierkegaard** [T1+] (mirrored from s_ren_kierkegaard.dossier.md)
+- **Georg Wilhelm Friedrich Hegel** [T4] (mirrored from hegel.dossier.md)
+
 ## Chronology
 
 | Date | Event |

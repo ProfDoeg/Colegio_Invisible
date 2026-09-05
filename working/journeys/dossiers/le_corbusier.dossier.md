@@ -1149,6 +1149,28 @@ For the overwhelming majority of the 896-person roster, no documented personal o
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T5]
+- **Pablo Ruiz Picasso** [T5]
+- **Frank Lloyd Wright** [T3]
+- **Walter Elias Disney** [T4]
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T4]
+- **R. Buckminster Fuller** [T5]
+- **Émile Jaques-Dalcroze** [T3] (mirrored from jaques_dalcroze.dossier.md)
+- **Friedrich Fröbel** [T9-] (mirrored from froebel.dossier.md)
+- **Carlos María della Paolera** [T5] (mirrored from carlos_maria_della_paolera.dossier.md)
+- **Carlos María della Paolera** [T1+] (mirrored from carlos_maria_della_paolera.dossier.md)
+- **Pedro Simón del Corazón de Jesús Benoit** [T9-] (mirrored from pedro_benoit.dossier.md)
+- **Frank Lloyd Wright** [T9-] (mirrored from frank_lloyd_wright.dossier.md)
+- **Victoria Ocampo** [T5] (mirrored from victoria_ocampo.dossier.md)
+- **Jean-Claude Nicolas Forestier** [T3] (mirrored from jean_claude_nicolas_forestier.dossier.md)
+- **Jean-Claude Nicolas Forestier** [T5] (mirrored from jean_claude_nicolas_forestier.dossier.md)
+- **Paolo Soleri** [T1+] (mirrored from paolo_soleri.dossier.md)
+- **Antoni Gaudí i Cornet** [T9-] (mirrored from antoni_gaudi.dossier.md)
+
 ## Compact Chronology
 
 - **1887, 6 October:** Born Charles-Édouard Jeanneret at La Chaux-de-Fonds.

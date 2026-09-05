@@ -640,6 +640,22 @@ Her most durable nonmilitary legacies are the National Insurance and public-work
 
 No additional roster names were included where the evidence showed only ideological influence, institutional succession, overlapping historical subject matter, or unverified contemporaneity rather than one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **David Ben-Gurion** [T5]
+- **Chaim Azriel Weizmann** [T4]
+- **John Fitzgerald Kennedy** [T5]
+- **John Foster Dulles** [T5]
+- **Haile Selassie I** [T5]
+- **David Rockefeller** [T5]
+- **Volodymyr Oleksandrovych Zelenskyy** [T1+]
+- **Meyer Lansky** [T9+] (mirrored from meyer_lansky.dossier.md)
+- **Max Perelman** [T3] (mirrored from max_perelman.dossier.md)
+- **Benjamin Netanyahu** [T4] (mirrored from benjamin_netanyahu.dossier.md)
+- **Mohammad Reza Shah Pahlavi** [T5] (mirrored from mohammad_reza_shah_pahlavi.dossier.md)
+
 ## Sources
 
 https://digicoll.library.wisc.edu/cgi/f/findaid/findaid-idx?c=wiarchives%3Bcc%3Dwiarchives%3Bview%3Dtext%3Brgn%3Dmain%3Bdidno%3Duw-mil-uwmmss0021

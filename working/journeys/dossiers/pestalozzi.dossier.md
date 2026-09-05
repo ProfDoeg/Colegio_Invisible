@@ -1339,6 +1339,20 @@ No defensible personal or explicit intellectual connection was established with 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jean-Jacques Rousseau** [T1-]
+- **Friedrich Fröbel** [T5]
+- **Johann Gottlieb Fichte** [T1+]
+- **Johannes Itten** [T9+] (mirrored from itten.dossier.md)
+- **Maria Tecla Artemisia Montessori** [T1+] (mirrored from maria_montessori.dossier.md)
+- **Johann Gottlieb Fichte** [T5] (mirrored from fichte.dossier.md)
+- **Jean-Jacques Rousseau** [T3] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Friedrich Ludwig Jahn** [T9+] (mirrored from johann_jahn.dossier.md)
+- **Domingo Faustino Sarmiento** [T3] (mirrored from sarmiento.dossier.md)
+
 ## Sources
 
 https://www.deutsche-biographie.de/sfz74489.html

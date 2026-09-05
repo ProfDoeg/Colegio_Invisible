@@ -1120,6 +1120,33 @@ No documentary connection was established in the sources consulted between Lévi
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **André Breton** [T4]
+- **Jean-Paul Charles Aymard Sartre** [T3]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3]
+- **Jacques Marie Émile Lacan** [T5]
+- **Jacques Derrida** [T3]
+- **Roland Gérard Barthes** [T4]
+- **Paul-Michel Foucault** [T3]
+- **Gilles Louis Rene Deleuze** [T3]
+- **Pierre-Félix Guattari** [T3]
+- **Jean-Jacques Rousseau** [T1-]
+- **Karl Marx** [T1-]
+- **Sigmund Freud** [T1-]
+- **Wilhelm Richard Wagner** [T1-]
+- **Marcel Proust** [T1-]
+- **Avram Noam Chomsky** [T4]
+- **René Noël Théophile Girard** [T4]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T4] (mirrored from simone_de_beauvoir.dossier.md)
+- **José Luis Álvarez Enparantza** [T3] (mirrored from jose_luis_alvarez_emparantza_txillardegi.dossier.md)
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **René Noël Théophile Girard** [T3] (mirrored from rene_girard.dossier.md)
+- **André Breton** [T5] (mirrored from andre_breton.dossier.md)
+- **Stanley Jeyaraja Tambiah** [T1+] (mirrored from stanley_jeyaraja_tambiah.dossier.md)
+
 ## Chronology
 
 | Date | Event |

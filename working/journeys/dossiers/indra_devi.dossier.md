@@ -757,6 +757,20 @@ The Buenos Aires foundation operated under Iana and David Lifar until 2020; thei
 
 No defensible direct crossing was found with the remaining roster members. In particular, shared Theosophical, anthroposophical, yoga, Argentine, or political contexts alone do not establish connections to Helena Blavatsky, Rudolf Steiner, Swami Vivekananda, Manuel Noriega, or other roster figures.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Annie Besant** [T4]
+- **Jiddu Krishnamurti** [T3]
+- **Jiddu Krishnamurti** [T5]
+- **Madame Chiang Kai-shek** [T5]
+- **Mohandas Karamchand Gandhi** [T5]
+- **Krishna Pattabhi Jois** [T4]
+- **Rabindranath Tagore** [T3]
+- **Rabindranath Tagore** [T5]
+- **Ruth St. Denis** [T5]
+
 ## Sources
 
 https://www.nytimes.com/2002/04/30/arts/indra-devi-102-dies-taught-yoga-to-stars-and-leaders.html

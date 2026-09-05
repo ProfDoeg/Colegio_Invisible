@@ -524,6 +524,41 @@ The corpus is multilingual and enormous. Newspaper articles, correspondence and 
 
 No adequately documented personal, epistolary, prophetic, or shared-object connection was found for the remaining roster members. Mere appearance in Eliade’s encyclopedic surveys, shared subject matter, later comparison by third parties, or coincidental presence in the same city has not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Giordano Bruno** [T1-]
+- **Tommaso Campanella** [T1-]
+- **Mohandas Karamchand Gandhi** [T3]
+- **Rabindranath Tagore** [T5]
+- **Giuseppe Tucci** [T3]
+- **Giuseppe Tucci** [T5]
+- **Olga Fröbe-Kapteyn** [T3]
+- **Olga Fröbe-Kapteyn** [T5]
+- **Carl Gustav Jung** [T5]
+- **Carl Gustav Jung** [T3]
+- **Julius Evola** [T5]
+- **Julius Evola** [T3]
+- **René Guénon** [T3]
+- **Ioan Petru Culianu** [T3]
+- **Ioan Petru Culianu** [T5]
+- **Genghis Khan** [T1-]
+- **Helena Petrovna Blavatsky** [T1-]
+- **Rudolf Steiner** [T1-]
+- **G. I. Gurdjieff** [T1-]
+- **Martin Heidegger** [T3]
+- **Rudolf Ritsema** [T3] (mirrored from rudolf_ritsema.dossier.md)
+- **Zoroaster** [T1-] (mirrored from zoroaster.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T1+] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Giambattista Vico** [T3] (mirrored from vico.dossier.md)
+- **Juan Eduardo Cirlot Laporta** [T3] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Abraham ben Samuel Abulafia** [T1-] (mirrored from abraham_abulafia.dossier.md)
+- **Ioan Petru Culianu** [T4] (mirrored from ioan_petru_culianu.dossier.md)
+- **Ioan Petru Culianu** [T1+] (mirrored from ioan_petru_culianu.dossier.md)
+- **Ioan Petru Culianu** [T9+] (mirrored from ioan_petru_culianu.dossier.md)
+- **Giuseppe Tucci** [T1-] (mirrored from giuseppe_tucci.dossier.md)
+
 ## Sources
 
 https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.ELIADEM

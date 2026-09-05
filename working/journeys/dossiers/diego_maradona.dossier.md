@@ -922,6 +922,23 @@ No substantiated direct connection was identified with the overwhelming majority
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ernesto "Che" Guevara** [T1-]
+- **Fidel Alejandro Castro Ruz** [T5]
+- **Hugo Rafael Chávez Frías** [T5]
+- **George Walker Bush** [T4]
+- **Cristina Elisabet Fernández de Kirchner** [T5]
+- **Nicolás Maduro Moros** [T4]
+- **Charly García** [T5]
+- **Silvio Berlusconi** [T4]
+- **Silvio Berlusconi** [T5] (mirrored from silvio_berlusconi.dossier.md)
+- **Viktor Sulčič** [T9-] (mirrored from viktor_sulcic.dossier.md)
+- **Juan Domingo Perón** [T9-] (mirrored from juan_peron.dossier.md)
+- **Nicolás Maduro Moros** [T5] (mirrored from nicolas_maduro.dossier.md)
+
 ## Compact Chronology
 
 | Date/year | Event |

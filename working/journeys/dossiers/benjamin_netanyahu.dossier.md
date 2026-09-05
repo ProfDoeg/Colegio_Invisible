@@ -947,6 +947,40 @@ Only connections supported by documentary or strong reported evidence are includ
 
 - **Jeffrey Edward Epstein, Ghislaine Noelle Marion Maxwell, and Robert Maxwell — No documented personal relationship established.** Online narratives sometimes connect them to Netanyahu through Israeli intelligence speculation, elite social networks, or Ehud Barak. No reliable evidence reviewed here established a personal Netanyahu–Epstein or Netanyahu–Maxwell relationship. Absence of evidence is particularly important because these names are frequently inserted into unsupported network diagrams.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ze'ev** [T3]
+- **David Ben-Gurion** [T3]
+- **Golda Meir** [T4]
+- **George Herbert Walker Bush** [T4]
+- **William Jefferson Clinton** [T5]
+- **George Walker Bush** [T4]
+- **Sheldon Gary Adelson** [T5]
+- **Elon Reeve Musk** [T5]
+- **Volodymyr Oleksandrovych Zelenskyy** [T5]
+- **Javier Gerardo Milei** [T5]
+- **Jair Messias Bolsonaro** [T5]
+- **Yuval Noah Harari** [T3]
+- **Avram Noam Chomsky** [T3]
+- **George Soros** [T3]
+- **Paul Elliott Singer** [T4]
+- **James "Jamie" Dimon** [T5] (mirrored from jamie_dimon.dossier.md)
+- **Yuval Noah Harari** [T5] (mirrored from yuval_noah_harari.dossier.md)
+- **Silvio Berlusconi** [T5] (mirrored from silvio_berlusconi.dossier.md)
+- **Hillary Diane Rodham Clinton** [T5] (mirrored from hillary_clinton.dossier.md)
+- **George Walker Bush** [T5] (mirrored from george_w_bush.dossier.md)
+- **Saddam Hussein al-Tikriti** [T3] (mirrored from saddam_hussein.dossier.md)
+- **Ze'ev** [T1-] (mirrored from ze_ev_jabotinsky.dossier.md)
+- **Leslie Herbert Wexner** [T3] (mirrored from leslie_wexner.dossier.md)
+- **Lawrence Joseph Ellison** [T5] (mirrored from larry_ellison.dossier.md)
+- **Eduardo Sergio Elsztain** [T4] (mirrored from eduardo_elsztain.dossier.md)
+- **Samuel Harris Altman** [T5] (mirrored from sam_altman.dossier.md)
+- **Cristina Elisabet Fernández de Kirchner** [T3] (mirrored from cristina_fernandez_de_kirchner.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+- **Yanis Varoufakis** [T3] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Chronology
 
 - **1949, 21 October:** Born in Tel Aviv; family resident largely in Jerusalem.

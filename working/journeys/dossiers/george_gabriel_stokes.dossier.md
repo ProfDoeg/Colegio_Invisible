@@ -746,6 +746,30 @@ The roster was screened conservatively. The connections below are supported by c
 
 No prophecy or hyperstition connection (**T2**) was found. No secure shared-object transmission (**T9**) with a roster member was identified under the project’s restrictive definition. In particular, later scientists’ use of Stokes’s equations, theorem, parameters, or terminology has not been counted without evidence of correspondence, encounter, explicit written engagement, or transmission of a specific physical object or site.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Arthur Cayley** [T3]
+- **Arthur Cayley** [T5]
+- **Augustin-Louis Cauchy** [T1-]
+- **Charles Robert Darwin** [T3]
+- **Christiaan Huygens** [T1-]
+- **Carl Friedrich Gauss** [T1-]
+- **James Clerk Maxwell** [T3]
+- **James Clerk Maxwell** [T5]
+- **Jean-Baptiste Joseph Fourier** [T1-]
+- **Joseph-Louis Lagrange** [T1-]
+- **William Thomson** [T3]
+- **William Thomson** [T5]
+- **Michael Faraday** [T3]
+- **Michael Faraday** [T5]
+- **Sir Isaac Newton** [T1-]
+- **Pierre-Simon Laplace** [T1-]
+- **Siméon Denis Poisson** [T1-]
+- **Sir William Rowan Hamilton** [T3]
+- **Sir William Rowan Hamilton** [T4]
+
 ## Sources
 
 https://archive.org/details/memoirscientific01stokrich

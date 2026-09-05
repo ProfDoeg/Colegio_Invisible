@@ -885,6 +885,42 @@ For the remaining names on the 896-person roster, the research found no supporte
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Pamela Colman Smith** [T5]
+- **William Butler Yeats** [T3]
+- **Dion Fortune** [T4]
+- **Annie Besant** [T3]
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T3]
+- **Helena Petrovna Blavatsky** [T1-]
+- **Edward Bulwer-Lytton** [T3]
+- **Emanuel Swedenborg** [T1-]
+- **Jacob Boehme** [T1-]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1-]
+- **Paracelsus** [T1-]
+- **Robert Fludd** [T1-]
+- **John Dee** [T1-]
+- **Edward Kelley** [T1-]
+- **Ramon Llull** [T1-]
+- **Albertus Magnus** [T1-]
+- **Roger Bacon** [T1-]
+- **Thomas Aquinas** [T1-]
+- **Nicholas of Cusa** [T1-]
+- **King Solomon** [T1-]
+- **Christian Rosenkreuz** [T1-]
+- **Hiram Abiff** [T1-]
+- **The Comte de Saint-Germain** [T1-]
+- **William Blake** [T3]
+- **Antoine Court de Gébelin** [T1-]
+- **Jean-Baptiste Alliette** [T1-]
+- **Albert Pike** [T1-]
+- **Pamela Colman Smith** [T3] (mirrored from pamela_colman_smith.dossier.md)
+- **William Butler Yeats** [T4] (mirrored from w_b_yeats.dossier.md)
+- **Theodor Reuss** [T3] (mirrored from theodor_reuss.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+
 ## Chronology
 
 | Date | Event |

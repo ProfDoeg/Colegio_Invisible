@@ -1539,6 +1539,12 @@ These could establish place and cause of death, survivors, and possibly children
 
 No genuine documented crossing with another atlas-roster figure was established. Shared residence in Argentina or Israel, contemporaneity, or participation in the broader Yiddish cultural milieu was not treated as sufficient evidence of contact.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Max Perelman** [T5]
+
 ## Sources
 
 https://publicaciones.filo.uba.ar/sites/publicaciones.filo.uba.ar/files/Diccionario%20tomo%20I_interactivo_0.pdf

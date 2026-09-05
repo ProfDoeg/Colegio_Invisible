@@ -987,6 +987,20 @@ No supported personal meeting, correspondence, family tie, patronage relationshi
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Athanasius Kircher** [T1+]
+- **Aurelius Augustinus** [T1+]
+- **Jacobus de Voragine** [T1+]
+- **Jheronimus van Aken** [T1+]
+- **Michelangelo di Lodovico Buonarroti Simoni** [T1+]
+- **Gustave Flaubert** [T1+]
+- **Jesus of Nazareth** [T3]
+- **Paul the Apostle** [T3]
+- **Origen of Alexandria** [T3]
+
 ## Sources
 
 https://sourcebooks.web.fordham.edu/basis/vita-antony.asp

@@ -550,6 +550,18 @@ The opening of Soviet archives shifted Erlich from an undifferentiated "executed
 
 - **[T3]** **Documented fact:** Following the 1936 Warsaw *kehilla* election, Erlich publicly accused Jabotinsky and other Zionist leaders of strengthening antisemitic agitation by advocating Jewish evacuation from Poland. He returned to Jabotinsky’s position in his October 1938 essay replying to Simon Dubnov, contrasting the Zionist emigration program with the Bund’s demand for equal rights in Poland. This is documented one-sided political engagement; no direct correspondence or meeting between Erlich and Jabotinsky has been established. [YIVO Encyclopedia, “Erlich, Henryk”](https://encyclopedia.yivo.org/article/513), [Erlich’s 1938 essay](https://libcom.org/article/zionism-liberating-democratic-movement-reply-professor-simon-dubnow-henryk-erlich)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **David Ben-Gurion** [T3]
+- **Albert Einstein** [T3]
+- **Vladimir Medem** [T3]
+- **Victor Alter** [T5]
+- **Ze'ev** [T3]
+- **Vladimir Medem** [T4] (mirrored from vladimir_medem.dossier.md)
+- **Aron Iosifovich Kremer** [T3] (mirrored from arkadi_kremer.dossier.md)
+
 ## Sources
 
 https://encyclopedia.yivo.org/article.aspx/Erlich_Henryk

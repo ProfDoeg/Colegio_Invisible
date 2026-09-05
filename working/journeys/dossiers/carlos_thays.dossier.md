@@ -829,6 +829,23 @@ These interpretations do not negate his documented output. They replace the soli
 
 No sufficiently documented crossing was found with Aimé Bonpland: Bonpland’s earlier yerba-mate research forms an important intellectual precedent for Thays, but the located evidence does not show that Thays wrote about, cited or otherwise engaged Bonpland in a manner meeting T1 or T3. Other apparent roster overlaps based only on commemorative place names, broad contemporaneity, shared nationality or residence in Buenos Aires have likewise been omitted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Joseph-Antoine Bouvard** [T3]
+- **Julio Argentino Roca** [T3]
+- **Domingo Faustino Sarmiento** [T9-]
+- **Jules Dormal Godet** [T9-]
+- **Auguste Rodin** [T9+]
+- **Juan Manuel José Domingo Ortiz de Rozas y López de Osornio** [T9-]
+- **Agustí Querol i Subirats** [T9+]
+- **Francisco Salamone** [T9+]
+- **Pieter Bruegel the Elder** [T1-] (mirrored from pieter_bruegel_the_elder.dossier.md)
+- **Jules Dormal Godet** [T4] (mirrored from jules_dormal.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T5] (mirrored from julio_cortazar.dossier.md)
+- **Jean-Claude Nicolas Forestier** [T5] (mirrored from jean_claude_nicolas_forestier.dossier.md)
+
 ## Sources
 
 https://buenosaires.gob.ar/gcaba_historico/cultura/patrimonio-de-la-ciudad/archivo-historico/quien-fue-carlos-thays

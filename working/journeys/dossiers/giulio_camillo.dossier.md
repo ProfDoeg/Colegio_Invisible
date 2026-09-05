@@ -1190,6 +1190,22 @@ Only connections supported by the consulted evidence are included. Mere contempo
 
 No documented personal crossings were found with other people on the supplied Atlas roster. In particular, no reliable evidence was found for a meeting with Leonardo da Vinci, and later similarities to computers, artificial intelligence, or modern media theorists do not constitute personal Atlas connections.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Plato** [T1-]
+- **Giovanni Pico della Mirandola** [T1-]
+- **Ramon Llull** [T1-]
+- **King Solomon** [T1-]
+- **David ben Jesse** [T1-]
+- **Homer** [T1-]
+- **Hesiod of Ascra** [T1-]
+- **Publius Vergilius Maro** [T1-]
+- **Frances Amelia Yates** [T1+]
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/camillo-giulio-detto-delminio_(Dizionario-Biografico)/

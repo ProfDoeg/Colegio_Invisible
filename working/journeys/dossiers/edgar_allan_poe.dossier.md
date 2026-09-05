@@ -1205,6 +1205,36 @@ No documented personal crossing was established between Poe and the overwhelming
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Charles John Huffam Dickens** [T5]
+- **Edward Bulwer-Lytton** [T3]
+- **Mary Wollstonecraft Shelley** [T1-]
+- **Jules Gabriel Verne** [T1+]
+- **Sir Arthur Ignatius Conan Doyle** [T1+]
+- **Howard Phillips Lovecraft** [T1+]
+- **Jorge Luis Borges** [T1+]
+- **Adolfo Bioy Casares** [T1+]
+- **Achille-Claude Debussy** [T1+]
+- **Stephen Edwin King** [T1+]
+- **Charles Robert Darwin** [T3]
+- **Benjamin Franklin** [T9-]
+- **Abraham Lincoln** [T1+]
+- **Élisabeth Sonrel** [T3] (mirrored from elisabeth_sonrel.dossier.md)
+- **Elizebeth Smith Friedman** [T1+] (mirrored from elizebeth_smith_friedman.dossier.md)
+- **Walter Benjamin** [T1+] (mirrored from walter_benjamin.dossier.md)
+- **Antonin Artaud** [T1+] (mirrored from artaud.dossier.md)
+- **Ze'ev** [T3] (mirrored from ze_ev_jabotinsky.dossier.md)
+- **Jacques Marie Émile Lacan** [T1+] (mirrored from jacques_lacan.dossier.md)
+- **Juan Eduardo Cirlot Laporta** [T1+] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Victor-Marie Hugo** [T4] (mirrored from victor_hugo.dossier.md)
+- **Raúl Veroni** [T9+] (mirrored from raul_veroni_padre.dossier.md)
+- **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
+- **William Frederick Friedman** [T1+] (mirrored from william_f_friedman.dossier.md)
+- **Ioan Petru Culianu** [T3] (mirrored from ioan_petru_culianu.dossier.md)
+
 ## Sources
 
 https://www.eapoe.org/geninfo/poechron.htm

@@ -1176,6 +1176,36 @@ Apart from Virgil’s mythical protagonists and a limited group of major predece
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aeneas** [T1-]
+- **Dido** [T1-]
+- **Homer** [T3]
+- **Hesiod of Ascra** [T3]
+- **Gaius Julius Caesar** [T1-]
+- **Plato** [T3]
+- **Dante Alighieri** [T1+]
+- **Aurelius Augustinus** [T3]
+- **Constantine the Great** [T3]
+- **Plinio el Viejo** [T3]
+- **J. R. R. Tolkien** [T3] (mirrored from tolkien.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Adam of Bremen** [T3] (mirrored from adam_of_bremen.dossier.md)
+- **Gabriele d'Annunzio** [T1+] (mirrored from dannunzio.dossier.md)
+- **Miguel de Cervantes Saavedra** [T1+] (mirrored from miguel_de_cervantes.dossier.md)
+- **Cleopatra VII Thea Philopator** [T1-] (mirrored from cleopatra_vii.dossier.md)
+- **Giulio Camillo Delminio** [T1+] (mirrored from giulio_camillo.dossier.md)
+- **Odysseus** [T1-] (mirrored from ulysses.dossier.md)
+- **Aurelius Augustinus** [T1+] (mirrored from saint_augustine_of_hippo.dossier.md)
+- **Plinio el Viejo** [T1+] (mirrored from plinio_el_viejo.dossier.md)
+- **Tertullian** [T1+] (mirrored from tertullian.dossier.md)
+- **Marcus Fabius Quintilianus** [T1+] (mirrored from quintilian.dossier.md)
+- **Johann Wolfgang von Goethe** [T1+] (mirrored from goethe_full.dossier.md)
+- **Leon Battista Alberti** [T1+] (mirrored from leon_battista_alberti.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

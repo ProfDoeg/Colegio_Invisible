@@ -734,6 +734,26 @@ Formal military or intelligence connection; source of the Havas telegram; person
 
 - **[T3]** **Reported fact.** The archive-based biography reports that Kerckhoffs knew and corresponded with Hugo around 1860, drawing on a contemporary press notice and Kerckhoffs’s later recollection. No complete correspondence corpus has been located, and the surviving evidence does not establish the claimed degree of closeness or a personal meeting. ([Caraco, Géraud-Stewart, and Naccache, “Kerckhoffs’ Legacy”](https://eprint.iacr.org/2020/556))
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Athanasius Kircher** [T1-]
+- **Blaise de Vigenère** [T1-]
+- **Captain Alfred Dreyfus** [T3]
+- **Cleopatra VII Thea Philopator** [T1-]
+- **Francis Bacon** [T1-]
+- **Johannes Trithemius** [T1-]
+- **Gaius Julius Caesar** [T1-]
+- **Napoleon Bonaparte** [T1-]
+- **Victor-Marie Hugo** [T3]
+- **Eugène Samuel Grasset** [T4] (mirrored from eugene_grasset.dossier.md)
+- **Eugène Samuel Grasset** [T1-] (mirrored from eugene_grasset.dossier.md)
+- **Saint Eustace** [T9-] (mirrored from saint_eustace.dossier.md)
+- **Victor-Marie Hugo** [T4] (mirrored from victor_hugo.dossier.md)
+- **Étienne Bazeries** [T3] (mirrored from etienne_bazeries.dossier.md)
+- **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
+
 ## Sources
 
 https://eprint.iacr.org/2020/556

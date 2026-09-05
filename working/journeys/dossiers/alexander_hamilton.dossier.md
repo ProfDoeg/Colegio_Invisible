@@ -1044,6 +1044,27 @@ No documentary connection was found between Hamilton and the overwhelming majori
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Benjamin Franklin** [T4]
+- **Francisco de Miranda** [T5]
+- **George Washington** [T5]
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T5]
+- **Thomas Jefferson** [T5]
+- **William Paterson** [T4]
+- **Napoleon Bonaparte** [T1-]
+- **William Jefferson Clinton** [T1+] (mirrored from bill_clinton.dossier.md)
+- **John Fitzgerald Kennedy** [T1+] (mirrored from john_f_kennedy.dossier.md)
+- **Andrew Jackson** [T9+] (mirrored from andrew_jackson.dossier.md)
+- **Claude-Henri de Rouvroy** [T4] (mirrored from henri_de_saint_simon.dossier.md)
+- **Adam Smith** [T3] (mirrored from adam_smith.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **Abraham Lincoln** [T1+] (mirrored from abraham_lincoln.dossier.md)
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T3] (mirrored from alexis_de_tocqueville.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

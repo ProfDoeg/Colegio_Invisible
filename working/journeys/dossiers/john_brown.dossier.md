@@ -1414,6 +1414,21 @@ No one of these labels contains the complete documentary record. The major moder
 
 No other roster crossing was included solely on the basis of contemporaneity, thematic resemblance, shared geography, later comparison, or unsupported tradition.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T1+]
+- **George Washington** [T9-]
+- **Harriet Tubman** [T5]
+- **Harriet Tubman** [T3]
+- **Harriet Tubman** [T2- prediction]
+- **Jesus of Nazareth** [T1-]
+- **Karl Marx** [T1+]
+- **Victor-Marie Hugo** [T3]
+- **Victor-Marie Hugo** [T1+]
+- **Giuseppe Maria Garibaldi** [T1+] (mirrored from giuseppe_garibaldi.dossier.md)
+
 ## Sources
 
 https://www.nps.gov/people/john-brown.htm

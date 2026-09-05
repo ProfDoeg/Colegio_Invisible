@@ -1006,6 +1006,25 @@ No adequately documented direct intersection with the remainder of the supplied 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Thomas Alva Edison** [T5]
+- **John Pierpont Morgan** [T3]
+- **Samuel Langhorne Clemens** [T5]
+- **Narendranath Datta** [T5]
+- **Sarah Bernhardt** [T4]
+- **Albert Einstein** [T3]
+- **Michael Faraday** [T9-]
+- **James Clerk Maxwell** [T9-]
+- **Thomas Alva Edison** [T9-]
+- **Alexander Graham Bell** [T9-]
+- **Elon Reeve Musk** [T9+]
+- **William Thomson** [T3] (mirrored from lord_kelvin.dossier.md)
+- **Benjamin Franklin** [T1-] (mirrored from benjamin_franklin.dossier.md)
+- **Thomas Alva Edison** [T4] (mirrored from thomas_edison.dossier.md)
+
 ## Chronology
 
 - **1856, 10 July:** Born at Smiljan in the Austrian Empire.

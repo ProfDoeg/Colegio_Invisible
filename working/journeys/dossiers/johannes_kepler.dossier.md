@@ -606,6 +606,39 @@ There is no surviving recorded voice, film, or interview of Kepler. “Interview
 
 - **[T1+] Documented fact.** Pauli made Kepler the central historical subject of “The Influence of Archetypal Ideas on the Scientific Theories of Kepler,” published in *Naturerklärung und Psyche* (Zurich, 1952; later translated in *The Interpretation of Nature and the Psyche*). He examined Kepler’s trinitarian cosmology and controversy with Fludd through concepts developed in dialogue with analytical psychology. [CERN Pauli Manuscript Collection](https://cds.cern.ch/record/96730); [Institute for Advanced Study archival typescript](https://albert.ias.edu/entities/archivalmaterial/21f46f60-39ec-4a7a-859d-21d7549665ef)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Archimedes of Syracuse** [T1-]
+- **Aristotle** [T1-]
+- **Plato** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Nicolaus Copernicus** [T1-]
+- **Giovanni Pico della Mirandola** [T1-]
+- **Giordano Bruno** [T1-]
+- **Galileo Galilei** [T3]
+- **Robert Fludd** [T3]
+- **Francis Bacon** [T3]
+- **René Descartes** [T1+]
+- **Sir Isaac Newton** [T1+]
+- **Albert Einstein** [T1+]
+- **Wolfgang Ernst Pauli** [T1+]
+- **Johann Elert Bode** [T1+] (mirrored from johann_bode.dossier.md)
+- **Leonhard Euler** [T1+] (mirrored from leonard_euler.dossier.md)
+- **John Uri Lloyd** [T1+] (mirrored from john_uri_lloyd.dossier.md)
+- **Gottfried Wilhelm Leibniz** [T3] (mirrored from gottfried_wilhelm_leibniz.dossier.md)
+- **Archimedes of Syracuse** [T3] (mirrored from archimedes.dossier.md)
+- **Pierre-Simon Laplace** [T1+] (mirrored from pierre_simon_laplace.dossier.md)
+- **Robert Hooke** [T1+] (mirrored from robert_hooke.dossier.md)
+- **Edmond Halley** [T1+] (mirrored from edmond_halley.dossier.md)
+- **Athanasius Kircher** [T1+] (mirrored from kircher.dossier.md)
+- **René Descartes** [T3] (mirrored from rene_descartes.dossier.md)
+- **James Clerk Maxwell** [T1+] (mirrored from james_clerk_maxwell.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+- **Christiaan Huygens** [T1+] (mirrored from christiaan_huygens.dossier.md)
+- **Nicholas of Cusa** [T1-] (mirrored from nicholas_of_cusa.dossier.md)
+
 ## Sources
 
 https://kepler.badw.de/kepler-digital.html

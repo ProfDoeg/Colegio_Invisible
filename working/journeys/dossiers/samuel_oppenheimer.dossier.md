@@ -1147,6 +1147,13 @@ Moses Mendelssohn is not separately listed in the supplied atlas roster, althoug
 
 No reliable source consulted established a meeting, correspondence, collaboration, rivalry, patronage, or explicit influence between Samuel Oppenheimer and any other person on the atlas roster. In particular, no connection was found with Abraham, Adam Smith, Jakob Fugger, Mayer Amschel Rothschild, Salomon Oppenheim Jr., J. Robert Oppenheimer, Sabbatai Zevi, or other similarly relevant names. **Absence of a supported connection is the finding.**
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Mayer Amschel Rothschild** [T9+] (mirrored from mayer_amschel_rothschild.dossier.md)
+- **Joseph Süß Oppenheimer** [T4] (mirrored from joseph_oppenheimer.dossier.md)
+
 ## Chronology
 
 | Date | Event |

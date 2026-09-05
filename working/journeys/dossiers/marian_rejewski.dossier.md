@@ -699,6 +699,14 @@ This formulation neither dilutes Rejewski's priority nor attributes later allied
 
 No genuine documented T1, T2, T3, T4, T5, or T9 crossing with any other person on the supplied roster was located. Mere contemporaneity, mathematical or cryptographic subject affinity, travel through the same country, and later comparison in histories or commemorations were excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alan Mathison Turing** [T5]
+- **Arthur Scherbius** [T9-]
+- **Alan Mathison Turing** [T9+] (mirrored from alan_turing.dossier.md)
+
 ## Sources
 
 https://amu.edu.pl/dla-mediow/komunikaty-prasowe/uniwersyteccy-kryptolodzy-uhonorowani-w-collegium-martineum-uam-otwarto-centrum-szyfrow-enigma3

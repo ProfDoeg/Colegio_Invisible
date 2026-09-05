@@ -696,6 +696,30 @@ This separation neither rehabilitates the ancient-history claims nor dismisses t
 
 No documented personal meeting, friendship, shared-site succession, or prophecy/hyperstition connection was established with any other roster member. Mere chronological overlap, shared esoteric interests, or later participation in the broader Atlantis/Mu tradition has therefore been omitted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam of Bremen** [T1-]
+- **Publius Aelius Hadrianus** [T1-]
+- **Alexander the Great** [T1-]
+- **Helena Petrovna Blavatsky** [T3]
+- **Christopher Columbus** [T1-]
+- **El Inca Garcilaso de la Vega** [T1-]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **Herodotus of Halicarnassus** [T1-]
+- **Hypatia of Alexandria** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Jacques de Molay** [T1-]
+- **Moses** [T1-]
+- **Origen of Alexandria** [T1-]
+- **Plato** [T1-]
+- **Roger Bacon** [T1-]
+- **King Solomon** [T1-]
+- **Zoroaster** [T1-]
+- **Frank Lloyd Wright** [T3] (mirrored from frank_lloyd_wright.dossier.md)
+- **Margery Kempe** [T5] (mirrored from margery_kempe.dossier.md)
+
 ## Sources
 
 https://oac.cdlib.org/findaid/ark%3A/13030/kt3z09r80d

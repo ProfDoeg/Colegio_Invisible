@@ -657,6 +657,25 @@ The largest unanswered questions remain in the archive: exact teaching chronolog
 
 No direct Derleth connection to Carl Gustav Jung is established by the consulted evidence. Both influenced or participated in different phases of Fröbe-Kapteyn’s intellectual world, but Derleth did not join the mature Eranos conferences; this intermediary relationship alone does not justify T3, T4, or T5. No supported T2 prophecy/hyperstition or T9 shared-object crossing with any roster member was found.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander the Great** [T1-]
+- **Hannibal Barca** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Francis of Assisi** [T1-]
+- **Napoleon Bonaparte** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Bernard of Clairvaux** [T1-]
+- **Dante Alighieri** [T1-]
+- **Francois Marie Charles Fourier** [T1-]
+- **Friedrich Wilhelm Joseph Schelling** [T1-]
+- **Olga Fröbe-Kapteyn** [T3]
+- **Olga Fröbe-Kapteyn** [T5]
+- **Erich Mühsam** [T5] (mirrored from erich_muhsam.dossier.md)
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd11852478X.html

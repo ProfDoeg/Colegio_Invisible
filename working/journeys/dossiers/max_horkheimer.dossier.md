@@ -599,6 +599,36 @@ Only crossings supported by the dossier or independently verifiable documentary 
 
 No T2 prophecy/hyperstition or T9 shared-object transmission satisfying the supplied definitions was established for Horkheimer and the roster. Other apparent affinities were omitted where the evidence showed only common subject matter, indirect influence, or unverified contemporaneity.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T5]
+- **Albert Einstein** [T3]
+- **Erich Seligmann Fromm** [T3]
+- **Erich Seligmann Fromm** [T5]
+- **Felix José Weil** [T3]
+- **Felix José Weil** [T5]
+- **Sigmund Freud** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Herbert Marcuse** [T3]
+- **Herbert Marcuse** [T5]
+- **Martin Heidegger** [T3]
+- **Jürgen Habermas** [T3]
+- **Jürgen Habermas** [T5]
+- **Immanuel Kant** [T1-]
+- **Karl Marx** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Theodor W. Adorno** [T3]
+- **Theodor W. Adorno** [T5]
+- **Odysseus** [T1-]
+- **Walter Benjamin** [T3]
+- **Walter Benjamin** [T5]
+- **Max Weber** [T1-] (mirrored from max_weber.dossier.md)
+- **Wilhelm Reich** [T4] (mirrored from reich.dossier.md)
+- **Erich Seligmann Fromm** [T4] (mirrored from erich_fromm.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+
 ## Sources
 
 https://www.ub.uni-frankfurt.de/archive/horkheimer_vita.html

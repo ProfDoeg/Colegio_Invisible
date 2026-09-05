@@ -852,6 +852,24 @@ No additional documented meeting, correspondence, collaboration, family tie, riv
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Walter Elias Disney** [T3]
+- **William Blake** [T3]
+- **Wolfgang Amadeus Mozart** [T9-]
+- **Pyotr Ilyich Tchaikovsky** [T9-]
+- **Engelbert Humperdinck** [T9-]
+- **Hans Christian Andersen** [T3]
+- **Arthur Scherbius** [T3]
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T3]
+- **Stephen Edwin King** [T9+]
+- **George Balanchine** [T9-]
+- **Sir James Matthew Barrie** [T3] (mirrored from james_matthew_barrie.dossier.md)
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T9-] (mirrored from brothers_grimm.dossier.md)
+- **Hans Christian Andersen** [T1-] (mirrored from hans_christian_andersen.dossier.md)
+
 ## Chronology
 
 | Date | Event |

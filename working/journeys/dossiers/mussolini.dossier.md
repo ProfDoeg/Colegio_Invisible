@@ -1345,6 +1345,60 @@ No adequately documented personal or institutional crossing was established in t
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Antonio Francesco Gramsci** [T4]
+- **Filippo Tommaso Emilio Marinetti** [T4]
+- **Gabriele d'Annunzio** [T3]
+- **Friedrich Nietzsche** [T1-]
+- **Georges Sorel** [T1-]
+- **Julius Evola** [T5]
+- **Mohandas Karamchand Gandhi** [T5]
+- **Albert Einstein** [T3]
+- **Sigmund Freud** [T3]
+- **Haile Selassie I** [T3]
+- **Juan Domingo Perón** [T4]
+- **George Orwell** [T1+]
+- **Ludwig Heinrich Edler von Mises** [T1+] (mirrored from ludwig_von_mises.dossier.md)
+- **Charles Ponzi** [T3] (mirrored from charles_ponzi.dossier.md)
+- **Igor Fyodorovich Stravinsky** [T5] (mirrored from igor_stravinsky.dossier.md)
+- **Napoleon Bonaparte** [T3] (mirrored from napoleon.dossier.md)
+- **Chaim Azriel Weizmann** [T5] (mirrored from chaim_weizmann.dossier.md)
+- **Wilhelm Reich** [T1+] (mirrored from reich.dossier.md)
+- **Silvio Berlusconi** [T1+] (mirrored from silvio_berlusconi.dossier.md)
+- **Mario Palanti** [T5] (mirrored from mario_palanti.dossier.md)
+- **Maria Tecla Artemisia Montessori** [T5] (mirrored from maria_montessori.dossier.md)
+- **William Butler Yeats** [T4] (mirrored from w_b_yeats.dossier.md)
+- **Rudolf Rocker** [T3] (mirrored from rudolf_rocker.dossier.md)
+- **Licio Gelli** [T4] (mirrored from licio_gelli.dossier.md)
+- **Licio Gelli** [T1+] (mirrored from licio_gelli.dossier.md)
+- **Antonio Francesco Gramsci** [T3] (mirrored from antonio_gramsci.dossier.md)
+- **Antonio Francesco Gramsci** [T5] (mirrored from antonio_gramsci.dossier.md)
+- **Enrico Fermi** [T4] (mirrored from fermi.dossier.md)
+- **Ze'ev** [T3] (mirrored from ze_ev_jabotinsky.dossier.md)
+- **Lev Davidovich Bronstein** [T3] (mirrored from leon_trotsky.dossier.md)
+- **Emir Emin Arslan** [T3] (mirrored from emin_arslan.dossier.md)
+- **Rabindranath Tagore** [T5] (mirrored from rabindranath_tagore.dossier.md)
+- **Ettore Ferrari** [T4] (mirrored from ettore_ferrari.dossier.md)
+- **Dante Alighieri** [T1-] (mirrored from dante.dossier.md)
+- **Victoria Ocampo** [T5] (mirrored from victoria_ocampo.dossier.md)
+- **Marcus Mosiah Garvey** [T3] (mirrored from marcus_garvey.dossier.md)
+- **Haile Selassie I** [T4] (mirrored from haile_selassie.dossier.md)
+- **Georges Sorel** [T3] (mirrored from georges_sorel.dossier.md)
+- **Filippo Tommaso Emilio Marinetti** [T5] (mirrored from f_t_marinetti.dossier.md)
+- **Friedrich Nietzsche** [T3] (mirrored from nietzsche.dossier.md)
+- **Nicos Poulantzas** [T1+] (mirrored from nicos_poulantzas.dossier.md)
+- **Savitri Devi** [T4] (mirrored from savitri_devi.dossier.md)
+- **Roberto Calvi** [T4] (mirrored from roberto_calvi.dossier.md)
+- **Roald Engebreth Gravning Amundsen** [T5] (mirrored from roald_amundsen.dossier.md)
+- **Roald Engebreth Gravning Amundsen** [T3] (mirrored from roald_amundsen.dossier.md)
+- **Roald Engebreth Gravning Amundsen** [T9+] (mirrored from roald_amundsen.dossier.md)
+- **Giuseppe Tucci** [T9-] (mirrored from giuseppe_tucci.dossier.md)
+- **Guido Keller** [T3] (mirrored from guido_keller.dossier.md)
+- **Alberto Gerchunoff** [T3] (mirrored from alberto_gerchunoff.dossier.md)
+
 ## Chronology
 
 | Date | Event |

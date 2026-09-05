@@ -1119,6 +1119,37 @@ The large majority of the atlas roster has no documented crossing with Land. No 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Mark Fisher** [T5]
+- **Curtis Guy Yarvin** [T3]
+- **Gilles Louis Rene Deleuze** [T1-]
+- **Pierre-Félix Guattari** [T1-]
+- **Immanuel Kant** [T1-]
+- **Martin Heidegger** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Karl Marx** [T1-]
+- **Sigmund Freud** [T1-]
+- **Wilhelm Reich** [T1-]
+- **Jacques Derrida** [T1-]
+- **Howard Phillips Lovecraft** [T1-]
+- **William Seward Burroughs II** [T1-]
+- **Norbert Wiener** [T1-]
+- **Alan Mathison Turing** [T1-]
+- **Claude Lévi-Strauss** [T1-]
+- **Antonin Artaud** [T1-]
+- **Jean Baudrillard** [T4]
+- **Friedrich August von Hayek** [T1-]
+- **Ludwig Heinrich Edler von Mises** [T1-]
+- **Slavoj Žižek** [T3]
+- **Marc Lowell Andreessen** [T3]
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T3] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Curtis Guy Yarvin** [T5] (mirrored from curtis_yarvin.dossier.md)
+- **Mark Fisher** [T3] (mirrored from mark_fisher.dossier.md)
+
 ## Chronology
 
 | Date/year | Event |

@@ -774,6 +774,20 @@ The atlas roster contains many figures separated from Ritchie by century, geogra
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Kenneth Lane Thompson** [T3]
+- **Kenneth Lane Thompson** [T5]
+- **Bjarne Stroustrup** [T3]
+- **Bjarne Stroustrup** [T4]
+- **Linus Benedict Torvalds** [T5]
+- **Alan Mathison Turing** [T9-]
+- **Bjarne Stroustrup** [T5] (mirrored from bjarne_stroustrup.dossier.md)
+- **Linus Benedict Torvalds** [T9+] (mirrored from linus_torvalds.dossier.md)
+- **Robert Elliot Kahn** [T9-] (mirrored from bob_kahn.dossier.md)
+
 ## Chronology
 
 | Date | Event |

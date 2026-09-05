@@ -679,6 +679,12 @@ The strongest current interpretation is layered rather than exclusive:
 
 No qualifying documented crossing was found between David Belle and any other person on the supplied atlas roster. Mere thematic resemblance, shared geography, or membership in a broad intellectual or movement tradition was excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Georges Hébert** [T1-]
+
 ## Sources
 
 https://www.newyorker.com/magazine/2007/04/16/no-obstacles

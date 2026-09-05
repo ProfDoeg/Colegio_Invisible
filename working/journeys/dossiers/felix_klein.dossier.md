@@ -1902,6 +1902,31 @@ The result is not a simple rehabilitation or denunciation. The documentary Klein
 
 No supported T2 prophecy/hyperstition or T9 shared-object/site connection with the roster was found. Mere overlap in period, location, mathematical subject matter, institutional membership, or intellectual ancestry has not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Arthur Cayley** [T3]
+- **Augustin-Louis Cauchy** [T1-]
+- **Carl Friedrich Gauss** [T1-]
+- **Carl Gustav Jacob Jacobi** [T1-]
+- **Albert Einstein** [T3]
+- **Amalie Emmy Noether** [T5]
+- **Évariste Galois** [T1-]
+- **Jean-Baptiste Joseph Fourier** [T1-]
+- **Joseph-Louis Lagrange** [T1-]
+- **Pierre-Simon Laplace** [T1-]
+- **Sir William Rowan Hamilton** [T1-]
+- **Jules Henri Poincaré** [T3]
+- **Siméon Denis Poisson** [T1-]
+- **Marius Sophus Lie** [T5]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **Sir Isaac Newton** [T1-]
+- **Jules Henri Poincaré** [T5] (mirrored from henri_poincare.dossier.md)
+- **Carl Friedrich Gauss** [T9-] (mirrored from gauss.dossier.md)
+- **Marius Sophus Lie** [T3] (mirrored from sophus_lie.dossier.md)
+- **Amalie Emmy Noether** [T3] (mirrored from emmy_noether.dossier.md)
+
 ## Sources
 
 https://link.springer.com/chapter/10.1007/978-3-319-99386-7_1

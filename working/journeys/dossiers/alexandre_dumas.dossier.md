@@ -622,6 +622,39 @@ Dumas is among the most adapted authors in screen history. The specialist Dumas 
 
 No T2 prophecy/hyperstition or T9 transferred-object connection with a roster member was found at the stated evidentiary threshold. Mere appearance of other roster figures as historical allusions, reading influences, fictional characters, or inhabitants of places Dumas visited has not been counted without a specific documented crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Hans Christian Andersen** [T5]
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T3]
+- **Giuseppe Balsamo** [T1-]
+- **Charles John Huffam Dickens** [T5]
+- **Cosimo di Giovanni de' Medici** [T1-]
+- **Évariste Galois** [T4]
+- **Giuseppe Maria Garibaldi** [T5]
+- **Joan of Arc** [T1-]
+- **Jules Gabriel Verne** [T5]
+- **Gaius Julius Caesar** [T1-]
+- **Lorenzo di Piero de' Medici** [T1-]
+- **Louis XIV** [T1-]
+- **Louis XVI** [T1-]
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T5]
+- **Michelangelo di Lodovico Buonarroti Simoni** [T1-]
+- **Napoleon Bonaparte** [T1-]
+- **Friedrich Schiller** [T3]
+- **Victor-Marie Hugo** [T5]
+- **Auguste Rodin** [T9+] (mirrored from auguste_rodin.dossier.md)
+- **Engelbert Humperdinck** [T9+] (mirrored from engelbert_humperdinck.dossier.md)
+- **Giuseppe Maria Garibaldi** [T3] (mirrored from giuseppe_garibaldi.dossier.md)
+- **Évariste Galois** [T3] (mirrored from evariste_galois.dossier.md)
+- **Évariste Galois** [T1-] (mirrored from evariste_galois.dossier.md)
+- **Honoré de Balzac** [T5] (mirrored from honore_de_balzac.dossier.md)
+- **Alexandre Gustave Bonickhausen dit Eiffel** [T3] (mirrored from gustave_eiffel.dossier.md)
+- **Joseph-Antoine Bouvard** [T9+] (mirrored from joseph_bouvard.dossier.md)
+- **Loïe Fuller** [T5] (mirrored from loie_fuller.dossier.md)
+- **Anita Garibaldi** [T1-] (mirrored from anita_garibaldi.dossier.md)
+
 ## Sources
 
 https://www.dumaspere.com/

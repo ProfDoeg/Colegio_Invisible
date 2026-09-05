@@ -761,6 +761,17 @@ Only the following roster connections are supported by identifiable testimony or
 
 No reliable evidence was found for physical or epistolary crossings with other tempting roster candidates such as Benjamin Franklin, George Washington, Jean-Jacques Rousseau, Emanuel Swedenborg, Franz Anton Mesmer, Wolfgang Amadeus Mozart, or Antoine Court de Gébelin. Stories linking Saint-Germain to Franklin, Washington, Mesmer, or Mozart remain unsupported or dependent on late occult and popular accounts, so they are not entered as connections.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Annie Besant** [T1-]
+- **Arthur Edward Waite** [T1+]
+- **Helena Petrovna Blavatsky** [T1-]
+- **Giuseppe Balsamo** [T5]
+- **Rudolf Steiner** [T1-]
+- **Franz Anton Mesmer** [T9+] (mirrored from mesmer.dossier.md)
+
 ## Sources
 
 https://attachments.are.na/22719341/4e5b87430763fdd74b9b5c31afda1a15.pdf?1689731927=

@@ -688,6 +688,39 @@ These are historiographical lenses, not mutually exclusive factual verdicts. Rec
 
 - **[T3] Documented fact.** The Musée Rodin identifies Debussy among the correspondents represented in Rodin’s historical archive, establishing at least one-sided written contact. Rodin also publicly defended Nijinsky after the 1912 *Faune* scandal, but that intervention alone does not establish a separate personal meeting with Debussy; no stronger relationship is asserted here. [Musée Rodin correspondence archive](https://www.musee-rodin.fr/recherche/fonds-patrimoniaux-et-documentaires-du-musee/fonds-historiques-et-archives-institutionnelles/fonds-historique/correspondants-de-rodin)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Gabriele d'Annunzio** [T3]
+- **Dante Gabriel Rossetti** [T1-]
+- **Edgar Allan Poe** [T1-]
+- **Erik Satie** [T5]
+- **Igor Fyodorovich Stravinsky** [T5]
+- **Pyotr Ilyich Tchaikovsky** [T9+]
+- **Wilhelm Richard Wagner** [T1-]
+- **Sergei Pavlovich Diaghilev** [T3]
+- **Vaslav Nijinsky** [T3]
+- **Auguste Rodin** [T3]
+- **Igor Fyodorovich Stravinsky** [T3] (mirrored from igor_stravinsky.dossier.md)
+- **Paul Jules Barbier** [T4] (mirrored from jules_barbier.dossier.md)
+- **Wolfgang Amadeus Mozart** [T1-] (mirrored from wolfgang_amadeus_mozart.dossier.md)
+- **Marcel Proust** [T3] (mirrored from marcel_proust.dossier.md)
+- **Émile Jaques-Dalcroze** [T9+] (mirrored from jaques_dalcroze.dossier.md)
+- **Isadora Duncan** [T4] (mirrored from isadora_duncan.dossier.md)
+- **Nadia Boulanger** [T1+] (mirrored from nadia_boulanger.dossier.md)
+- **Wilhelm Richard Wagner** [T9-] (mirrored from richard_wagner.dossier.md)
+- **Paul Klee** [T3] (mirrored from paul_klee.dossier.md)
+- **Vaslav Nijinsky** [T5] (mirrored from vaslav_nijinsky.dossier.md)
+- **Roland Gérard Barthes** [T3] (mirrored from roland_barthes.dossier.md)
+- **George Balanchine** [T9+] (mirrored from george_balanchine.dossier.md)
+- **Alfred Jarry** [T5] (mirrored from alfred_jarry.dossier.md)
+- **Pyotr Ilyich Tchaikovsky** [T3] (mirrored from tchaikovsky.dossier.md)
+- **Camille Rosalie Claudel** [T5] (mirrored from camille_claudel.dossier.md)
+- **Clotilde Sakharoff** [T9+] (mirrored from clotilde_sakharoff.dossier.md)
+- **Loïe Fuller** [T9+] (mirrored from loie_fuller.dossier.md)
+- **Suzanne Perrottet** [T9+] (mirrored from suzanne_perrottet.dossier.md)
+
 ## Sources
 
 https://archive.org/details/cataloguedeluvre0000lesu

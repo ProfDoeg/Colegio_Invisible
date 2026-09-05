@@ -1114,6 +1114,22 @@ Mario was Juan Antonio’s nephew and testamentary beneficiary, but Mario José 
 
 No documentary connection was found between Buschiazzo and the overwhelming majority of the atlas roster. Shared residence in Argentina, shared architectural interests, or chronological overlap was not treated as evidence.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Torcuato Antonio de Alvear** [T5]
+- **Alejandro Christophersen** [T4]
+- **Jules Dormal Godet** [T5]
+- **Francesco Tamburini** [T5]
+- **Julio Argentino Roca** [T4]
+- **José Rafael Hernández** [T5]
+- **Daniel Gastón Schávelzon** [T1+]
+- **Próspero Catelin** [T9-]
+- **Francesco Tamburini** [T4] (mirrored from francesco_tamburini.dossier.md)
+- **Jules Dormal Godet** [T3] (mirrored from jules_dormal.dossier.md)
+- **Vittorio Meano** [T9+] (mirrored from vittorio_meano.dossier.md)
+
 ## Sources
 
 https://arquitecto-buschiazzo.blogspot.com/2009/

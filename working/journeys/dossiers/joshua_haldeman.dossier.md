@@ -919,6 +919,14 @@ Haldeman blamed the Rothschild family for revolutions, wars, political movements
 
 No reliable evidence was found that Haldeman met, corresponded with, collaborated with, studied under, employed, opposed personally, or was directly influenced by any other member of the supplied atlas roster. Absence of additional crossings is therefore the present finding.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Elon Reeve Musk** [T5]
+- **Paul Moritz Warburg** [T1-]
+- **Mayer Amschel Rothschild** [T1-]
+
 ## Compact Chronology
 
 - **25 November 1902:** Born in Pequot, Minnesota, to John Elon and Almeda Jane Norman Haldeman.

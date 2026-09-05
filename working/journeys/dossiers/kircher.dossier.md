@@ -1097,6 +1097,30 @@ No documentary basis was found for personal or intellectual connections with the
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Galileo Galilei** [T4]
+- **Christiaan Huygens** [T3]
+- **Gottfried Wilhelm Leibniz** [T1+]
+- **Ramon Llull** [T1-]
+- **Sor Juana Inés de la Cruz** [T1+]
+- **Matteo Ricci** [T1-]
+- **Johannes Kepler** [T1-]
+- **Robert Fludd** [T1-]
+- **Plinio el Viejo** [T1-]
+- **Aristotle** [T1-]
+- **Archimedes of Syracuse** [T1-]
+- **Roger Bacon** [T9-]
+- **Frances Amelia Yates** [T1+]
+- **Sor Juana Inés de la Cruz** [T3] (mirrored from sor_juana_ines_de_la_cruz.dossier.md)
+- **Saint Eustace** [T1-] (mirrored from saint_eustace.dossier.md)
+- **Johannes Trithemius** [T1-] (mirrored from johannes_trithemius.dossier.md)
+- **San Antonio Abad** [T1-] (mirrored from san_antonio_abad.dossier.md)
+- **Auguste Kerckhoffs** [T1+] (mirrored from auguste_kerckhoffs.dossier.md)
+- **Nicholas of Cusa** [T1-] (mirrored from nicholas_of_cusa.dossier.md)
+
 ## Sources
 
 https://www.deutsche-biographie.de/sfz41067.html

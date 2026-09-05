@@ -661,6 +661,43 @@ Only connections supported by the consulted record are included. Shared geograph
 - **Zellig Harris is not present in the supplied atlas roster**, though he was Chomsky’s most important documented teacher and early political-intellectual mentor.
 - No documentary connection was found with most names on the roster. Their absence should not be interpreted as proof that no correspondence exists in the still-partly cataloged MIT archive.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Ahad Ha'am** [T1-]
+- **Alan Mathison Turing** [T1-]
+- **Antonio Francesco Gramsci** [T1-]
+- **Benjamin Netanyahu** [T3]
+- **David Ben-Gurion** [T1-]
+- **Erich Seligmann Fromm** [T9-]
+- **George Orwell** [T1-]
+- **Hugo Rafael Chávez Frías** [T9+]
+- **Jeffrey Edward Epstein** [T5]
+- **John Rogers Searle** [T3]
+- **Karl Marx** [T1-]
+- **Paul-Michel Foucault** [T5]
+- **Mikhail Aleksandrovich Bakunin** [T1-]
+- **René Descartes** [T1-]
+- **Rosa Luxemburg** [T1-]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Alexander von Humboldt** [T1-]
+- **Yanis Varoufakis** [T3]
+- **Samuel Harris Altman** [T5]
+- **Hugo Rafael Chávez Frías** [T5] (mirrored from hugo_chavez.dossier.md)
+- **John Langshaw Austin** [T3] (mirrored from j_l_austin.dossier.md)
+- **José Luis Álvarez Enparantza** [T3] (mirrored from jose_luis_alvarez_emparantza_txillardegi.dossier.md)
+- **John Fitzgerald Kennedy** [T1-] (mirrored from john_f_kennedy.dossier.md)
+- **Joscha Bach** [T5] (mirrored from joscha_bach.dossier.md)
+- **Claude Lévi-Strauss** [T4] (mirrored from claude_levi_strauss.dossier.md)
+- **Rudolf Rocker** [T1-] (mirrored from rudolf_rocker.dossier.md)
+- **Arthur Ben** [T3] (mirrored from arthur_ben.dossier.md)
+- **Fidel Alejandro Castro Ruz** [T4] (mirrored from fidel_castro.dossier.md)
+- **Murray Newton Rothbard** [T3] (mirrored from murray_rothbard.dossier.md)
+- **Jean-Paul Charles Aymard Sartre** [T4] (mirrored from jean_paul_sartre.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+- **Yanis Varoufakis** [T5] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Chronology
 
 - **1928, 7 December:** Born in Philadelphia to William and Elsie Chomsky.

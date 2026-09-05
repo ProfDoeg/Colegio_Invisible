@@ -591,6 +591,33 @@ Current work generally holds several propositions together:
 
 - **[T1-] Documented fact:** Reuchlin treated Solomon as an ancient bearer of divinely grounded wisdom in his Kabbalistic construction and discussed Solomonic genealogy and tradition in his Hebrew scholarship. The claim that such ancient figures transmitted a primordial Kabbalah reflects Reuchlin’s theological historiography, not independently verified intellectual history. Erasmus’s letter of 1 March 1515 specifically asked Reuchlin to explain the Solomonic genealogy printed in *De rudimentis Hebraicis*. [Erasmus correspondence](https://www.dbnl.org/tekst/eras001corr04_01/eras001corr04_01_0028.php)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Constantine the Great** [T1-]
+- **Frances Amelia Yates** [T1+]
+- **Giovanni Pico della Mirandola** [T5]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T3]
+- **Homer** [T1-]
+- **Johannes Trithemius** [T4]
+- **Jesus of Nazareth** [T1-]
+- **Martin Luther** [T3]
+- **Moses** [T1-]
+- **Plato** [T1-]
+- **King Solomon** [T1-]
+- **Lorenzo di Piero de' Medici** [T5] (mirrored from lorenzo_de_medici_il_magnifico.dossier.md)
+- **Peter of Ravenna** [T1-] (mirrored from peter_of_ravenna.dossier.md)
+- **John Dee** [T3] (mirrored from john_dee.dossier.md)
+- **Johannes Trithemius** [T3] (mirrored from johannes_trithemius.dossier.md)
+- **Robert Fludd** [T1+] (mirrored from robert_fludd.dossier.md)
+- **Martin Luther** [T4] (mirrored from martin_luther.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Abraham ben Samuel Abulafia** [T3] (mirrored from abraham_abulafia.dossier.md)
+- **Nicholas of Cusa** [T1-] (mirrored from nicholas_of_cusa.dossier.md)
+
 ## Sources
 
 https://www.hadw-bw.de/forschung/weitere-forschungsprojekte/edition-des-reuchlin-briefwechsels

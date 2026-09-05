@@ -1242,6 +1242,26 @@ No reliable connection was found between Pinochet and the large majority of the 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Salvador Guillermo Allende Gossens** [T5]
+- **Milton Friedman** [T5]
+- **Friedrich August von Hayek** [T5]
+- **Fidel Alejandro Castro Ruz** [T4]
+- **Ernesto "Che" Guevara** [T3]
+- **Bernardo O'Higgins Riquelme** [T9-]
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **Miguel Serrano** [T5] (mirrored from serrano.dossier.md)
+- **William Egan Colby** [T4] (mirrored from william_colby.dossier.md)
+- **Juan Domingo Perón** [T3] (mirrored from juan_peron.dossier.md)
+- **Cecilia Vicuña** [T4] (mirrored from cecilia_vicuna.dossier.md)
+- **Gabriel José García Márquez** [T1+] (mirrored from gabriel_garcia_marquez.dossier.md)
+- **María Estela Martínez Cartas de Perón** [T5] (mirrored from isabel_peron.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T3] (mirrored from julio_cortazar.dossier.md)
+- **Jorge Luis Borges** [T5] (mirrored from borges.dossier.md)
+
 ## Chronology
 
 | Date | Event |

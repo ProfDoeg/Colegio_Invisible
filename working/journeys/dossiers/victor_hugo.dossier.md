@@ -654,6 +654,58 @@ Only connections supported by the consulted record are included. Mere influence 
 
 For the remainder of the 896-person roster, no source-supported personal, institutional, correspondence, rivalry, or explicitly acknowledged influence connection was established in this research. Absence here means “not documented in the sources consulted,” not proof that no indirect reception history exists.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexandre Dumas** [T5]
+- **Honoré de Balzac** [T5]
+- **Gustave Flaubert** [T5]
+- **Charles John Huffam Dickens** [T5]
+- **Hans Christian Andersen** [T5]
+- **Giuseppe Maria Garibaldi** [T3]
+- **Mikhail Aleksandrovich Bakunin** [T4]
+- **Karl Marx** [T3]
+- **Abraham Lincoln** [T3]
+- **John Brown** [T3]
+- **Auguste Kerckhoffs** [T4]
+- **Sarah Bernhardt** [T5]
+- **Auguste Rodin** [T5]
+- **Jules Gabriel Verne** [T3]
+- **Jules-Félix Coutan** [T1+]
+- **Luc-Olivier Merson** [T1+]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T1+]
+- **Friedrich Nietzsche** [T1+]
+- **Edgar Allan Poe** [T4]
+- **Dante Alighieri** [T1-]
+- **William Jefferson Clinton** [T1-]
+- **Miguel de Cervantes Saavedra** [T1-]
+- **Homer** [T1-]
+- **Aeneas** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Moses** [T1-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Galileo Galilei** [T1-]
+- **Wolfgang Amadeus Mozart** [T1-]
+- **Joan of Arc** [T1-]
+- **Napoleon Bonaparte** [T1-]
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T4]
+- **José Julián Martí Pérez** [T3] (mirrored from jose_marti.dossier.md)
+- **José Julián Martí Pérez** [T5] (mirrored from jose_marti.dossier.md)
+- **Paul Jules Barbier** [T3] (mirrored from jules_barbier.dossier.md)
+- **Emanuel Swedenborg** [T1-] (mirrored from emanuel_swedenborg.dossier.md)
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T5] (mirrored from oscar_wilde.dossier.md)
+- **Luc-Olivier Merson** [T9+] (mirrored from luc_olivier_merson.dossier.md)
+- **Walter Benjamin** [T1+] (mirrored from walter_benjamin.dossier.md)
+- **Rudolf Rocker** [T3] (mirrored from rudolf_rocker.dossier.md)
+- **Emir Abdelkader ibn Muhieddine** [T3] (mirrored from abdelkader.dossier.md)
+- **Joseph Alexandre Saint-Yves** [T1+] (mirrored from joseph_alexandre_saint_yves_d_alveydre.dossier.md)
+- **Gustave Flaubert** [T3] (mirrored from gustave_flaubert.dossier.md)
+- **John Brown** [T1-] (mirrored from john_brown.dossier.md)
+- **Honoré de Balzac** [T1-] (mirrored from honore_de_balzac.dossier.md)
+- **Lionel-Noël Royer** [T9+] (mirrored from lionel_royer.dossier.md)
+- **Auguste Kerckhoffs** [T3] (mirrored from auguste_kerckhoffs.dossier.md)
+
 ## Compact Chronology
 
 - **1802, 26 February:** Born in Besançon.

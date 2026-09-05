@@ -470,6 +470,14 @@ The strongest balanced conclusion is documentary, not moral: **Richter had genui
 
 No other roster crossing was supported strongly enough to record. In particular, references to Richter’s later presence or employment in Libya do not document contact with **Muammar Gaddafi**, and shared scientific subject matter or published reactions by other roster physicists do not by themselves establish one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Juan Domingo Perón** [T5]
+- **Eva Duarte de Perón** [T5]
+- **Werner Heisenberg** [T3]
+
 ## Sources
 
 https://www.ib.edu.ar/sobre-el-ib/informe-sobre-la-isla-huemul/

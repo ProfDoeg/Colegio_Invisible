@@ -991,6 +991,13 @@ The most important documented personal connection in his life was his first cous
 
 Absence of additional Atlas Connections is therefore a finding, not an inference from mere shared geography or period.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Pierre Bourlémont** [T5]
+- **Pierre Bourlémont** [T9+] (mirrored from pierre_bourlemont.dossier.md)
+
 ## Sources
 
 https://revistas.navarra.es/index.php/PV/article/download/3461/2896/

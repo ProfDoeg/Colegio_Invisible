@@ -964,6 +964,45 @@ The research located no defensible reason to connect Franklin to most roster mem
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T4]
+- **Alexander Hamilton** [T4]
+- **Antoine Court de Gébelin** [T3]
+- **Franz Anton Mesmer** [T4]
+- **George Washington** [T3]
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T5]
+- **Louis XVI** [T5]
+- **Wolfgang Amadeus Mozart** [T9+]
+- **Thomas Jefferson** [T5]
+- **Sir Isaac Newton** [T1-]
+- **John Locke** [T1-]
+- **Francis Bacon** [T1-]
+- **Immanuel Kant** [T1+]
+- **Michael Faraday** [T1+]
+- **Thomas Alva Edison** [T1+]
+- **Nikola Tesla** [T1+]
+- **Alexander Graham Bell** [T1+]
+- **Albert Einstein** [T1+]
+- **William Jefferson Clinton** [T1+] (mirrored from bill_clinton.dossier.md)
+- **John Fitzgerald Kennedy** [T1+] (mirrored from john_f_kennedy.dossier.md)
+- **Napoleon Bonaparte** [T3] (mirrored from napoleon.dossier.md)
+- **Francisco de Miranda** [T5] (mirrored from miranda.dossier.md)
+- **George Washington** [T5] (mirrored from george_washington.dossier.md)
+- **Thomas Alva Edison** [T9+] (mirrored from thomas_edison.dossier.md)
+- **Adam Smith** [T5] (mirrored from adam_smith.dossier.md)
+- **Edgar Allan Poe** [T9+] (mirrored from edgar_allan_poe.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **Walter Elias Disney** [T1+] (mirrored from walt_disney.dossier.md)
+- **Marie Adrienne Françoise de Noailles** [T3] (mirrored from madame_de_lafayette.dossier.md)
+- **Franz Anton Mesmer** [T3] (mirrored from mesmer.dossier.md)
+- **Abraham Lincoln** [T1+] (mirrored from abraham_lincoln.dossier.md)
+- **Domingo Faustino Sarmiento** [T3] (mirrored from sarmiento.dossier.md)
+- **Samuel Langhorne Clemens** [T1+] (mirrored from mark_twain.dossier.md)
+- **Hiram Abiff** [T1-] (mirrored from hiram_abiff.dossier.md)
+
 ## Compact Chronology
 
 - **1706, January 17:** Born in Boston.

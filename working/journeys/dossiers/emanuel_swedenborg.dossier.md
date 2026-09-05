@@ -513,6 +513,42 @@ Reburial in Uppsala Cathedral, preservation of his summerhouse at Skansen, stree
 
 - **[T3]** **Documented fact:** Chapman became a devoted reader and itinerant distributor of Swedenborgian/New Church publications in the early nineteenth-century United States. He and Swedenborg never met—Chapman was born in 1774, two years after Swedenborg’s death—but Chapman’s circulation of the writings constitutes direct, one-sided textual engagement. [Swedenborg Foundation](https://swedenborg.com/interview-with-author-ray-silverman-on-the-core-of-johnny-appleseed/)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **Aristotle** [T1-]
+- **Honoré de Balzac** [T1+]
+- **Jorge Luis Borges** [T1+]
+- **William Blake** [T1+]
+- **Sir Arthur Ignatius Conan Doyle** [T1+]
+- **Johann Wolfgang von Goethe** [T1+]
+- **Jesus of Nazareth** [T1-]
+- **Carl Gustav Jung** [T1+]
+- **Immanuel Kant** [T3]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **Martin Luther** [T1-]
+- **Moses** [T1-]
+- **Sir Isaac Newton** [T3]
+- **Noah son of Lamech** [T1-]
+- **Rudolf Steiner** [T1+]
+- **Victor-Marie Hugo** [T1+]
+- **William Butler Yeats** [T1+]
+- **John Chapman** [T3]
+- **Carl Gustav Jung** [T3] (mirrored from jung.dossier.md)
+- **William James** [T1+] (mirrored from william_james.dossier.md)
+- **John Augustus Roebling** [T3] (mirrored from john_a_roebling.dossier.md)
+- **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Xul Solar** [T3] (mirrored from xul_solar.dossier.md)
+- **Novalis** [T1+] (mirrored from novalis.dossier.md)
+- **Johannes Friedrich Guttzeit** [T3] (mirrored from johannes_friedrich_guttzeit.dossier.md)
+- **Helena Petrovna Blavatsky** [T1+] (mirrored from blavatsky.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+- **Franz Anton Mesmer** [T9+] (mirrored from mesmer.dossier.md)
+- **Arthur Edward Waite** [T1+] (mirrored from arthur_edward_waite.dossier.md)
+- **Johann Wolfgang von Goethe** [T3] (mirrored from goethe_full.dossier.md)
+
 ## Sources
 
 https://archive.org/download/emanuelswedenbor00swed/emanuelswedenbor00swed.pdf

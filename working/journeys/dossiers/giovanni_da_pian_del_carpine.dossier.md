@@ -684,6 +684,15 @@ The most stable assessment is documentary rather than heroic: he was a senior Fr
 
 No other roster crossing meets the stated evidentiary threshold. In particular, Giovanni’s status as a predecessor of Marco Polo does not establish a meeting, correspondence, shared manuscript, or demonstrable direct textual dependence; traditional claims of close personal companionship with Francis of Assisi likewise do not securely document a specific meeting.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Genghis Khan** [T1-]
+- **Roger Bacon** [T1+]
+- **Kublai Khan** [T9+] (mirrored from kublai_khan.dossier.md)
+- **Giuseppe Tucci** [T1+] (mirrored from giuseppe_tucci.dossier.md)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/giovanni-da-pian-del-carpine_(Dizionario-Biografico)/

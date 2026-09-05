@@ -621,6 +621,28 @@ Martí wrote or corresponded for *Revista Universal* (Mexico), *El Federalista*,
 
 No T2 prophecy/hyperstition or T9 shared-object connection with a roster member was found that met the stated evidentiary threshold. Mere chronological overlap in nineteenth-century New York, later occupation of the same cities, or appearance in the same commemorative landscape has therefore not been counted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T1-]
+- **Simón Bolívar** [T1-]
+- **José de San Martín** [T1-]
+- **Charles Robert Darwin** [T1-]
+- **Karl Marx** [T1-]
+- **Giuseppe Maria Garibaldi** [T1-]
+- **Victor-Marie Hugo** [T3]
+- **Victor-Marie Hugo** [T5]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T3]
+- **Samuel Langhorne Clemens** [T3]
+- **Thomas Alva Edison** [T3]
+- **Domingo Faustino Sarmiento** [T3]
+- **Domingo Faustino Sarmiento** [T1-]
+- **Fidel Alejandro Castro Ruz** [T1+]
+- **Ernesto "Che" Guevara** [T1+]
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **Sabino Policarpo Arana Goiri** [T1+] (mirrored from sabino_arana.dossier.md)
+
 ## Sources
 
 https://www.josemarti.cu/

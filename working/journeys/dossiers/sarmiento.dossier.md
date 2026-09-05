@@ -1275,6 +1275,42 @@ No adequately sourced direct meeting, correspondence, collaboration, family conn
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T1-]
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T3]
+- **Benjamin Franklin** [T3]
+- **Charles Robert Darwin** [T3]
+- **Johann Heinrich Pestalozzi** [T3]
+- **Jean-Jacques Rousseau** [T3]
+- **José de San Martín** [T5]
+- **José Rafael Hernández** [T3]
+- **Juan Manuel José Domingo Ortiz de Rozas y López de Osornio** [T3]
+- **Julio Argentino Roca** [T5]
+- **Simón Bolívar** [T1-]
+- **Alexander von Humboldt** [T3]
+- **Adam Smith** [T3]
+- **Jorge Luis Borges** [T1+]
+- **José Julián Martí Pérez** [T3] (mirrored from jose_marti.dossier.md)
+- **José Julián Martí Pérez** [T1+] (mirrored from jose_marti.dossier.md)
+- **Wifredo Viladrich** [T9+] (mirrored from viladrich.dossier.md)
+- **Juan Martín de Pueyrredón y O'Doggan** [T9-] (mirrored from juan_martin_de_pueyrredon.dossier.md)
+- **Ángel della Valle** [T4] (mirrored from angel_della_valle.dossier.md)
+- **Manuel Belgrano** [T1-] (mirrored from belgrano.dossier.md)
+- **Luis Perlotti** [T9-] (mirrored from luis_perlotti.dossier.md)
+- **La Difunta Correa** [T4] (mirrored from la_difunta_correa.dossier.md)
+- **Jules Charles** [T9+] (mirrored from carlos_thays.dossier.md)
+- **José de San Martín** [T1-] (mirrored from san_martin.dossier.md)
+- **Julio Argentino Roca** [T3] (mirrored from julio_argentino_roca.dossier.md)
+- **Jules Dormal Godet** [T5] (mirrored from jules_dormal.dossier.md)
+- **Próspero Catelin** [T9-] (mirrored from prospero_catelin.dossier.md)
+- **Torcuato Antonio de Alvear** [T9+] (mirrored from torcuato_de_alvear.dossier.md)
+- **Juan Manuel José Domingo Ortiz de Rozas y López de Osornio** [T1-] (mirrored from juan_manuel_de_rosas.dossier.md)
+- **Alberto Gerchunoff** [T1+] (mirrored from alberto_gerchunoff.dossier.md)
+- **János Czetz** [T9+] (mirrored from janos_czetz.dossier.md)
+
 ## Chronology
 
 - **1811, 14/15 February:** Born in the Carrascal neighborhood of San Juan as Faustino Valentín Quiroga Sarmiento.

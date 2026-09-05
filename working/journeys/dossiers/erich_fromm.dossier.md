@@ -451,6 +451,38 @@ The dossier distinguishes the well-documented public and institutional record fr
 
 - **[T1-] Documented fact:** Fromm discussed Lenin and Leninism in *The Sane Society* (1955), *May Man Prevail?* (1961), and related writings. He treated Leninist orthodoxy as an authoritarian and economistic deformation of Marx’s humanistic socialism, while distinguishing Lenin’s historical role from the later Stalinist system. [Scholarly analysis citing the relevant passages](https://fromm-online.org/wp-content/uploads/secondary-titles/Lio_E_1991.pdf).
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **Albert Einstein** [T3]
+- **Carl Gustav Jung** [T1-]
+- **Felix José Weil** [T4]
+- **George Orwell** [T1-]
+- **Herbert Marcuse** [T3]
+- **Herbert Marcuse** [T4]
+- **Karl Marx** [T1-]
+- **Maimonides** [T1-]
+- **Martin Mordechai Buber** [T5]
+- **Martin Mordechai Buber** [T3]
+- **Martin Luther** [T1-]
+- **Max Horkheimer** [T3]
+- **Max Horkheimer** [T4]
+- **Moses** [T1-]
+- **Sigmund Freud** [T1-]
+- **Theodor W. Adorno** [T3]
+- **Theodor W. Adorno** [T4]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Martin Mordechai Buber** [T4] (mirrored from martin_buber.dossier.md)
+- **Paulo Reglus Neves Freire** [T5] (mirrored from paulo_freire.dossier.md)
+- **Wilhelm Reich** [T4] (mirrored from reich.dossier.md)
+- **Avram Noam Chomsky** [T9+] (mirrored from noam_chomsky.dossier.md)
+- **Elsa Gindler** [T9-] (mirrored from elsa_gindler.dossier.md)
+- **Edward Bellamy** [T1-] (mirrored from edward_bellamy.dossier.md)
+- **Abraham ben Samuel Abulafia** [T1-] (mirrored from abraham_abulafia.dossier.md)
+- **Max Horkheimer** [T5] (mirrored from max_horkheimer.dossier.md)
+
 ## Sources
 
 https://archives.nypl.org/mss/1090

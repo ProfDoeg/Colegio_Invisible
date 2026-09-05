@@ -654,6 +654,18 @@ Bolívar belonged to the next generation, but the consulted sources did not esta
 
 No documentary connection was found between Condorcanqui and the other listed atlas figures. The absence of a connection is especially important for later revolutionaries sometimes placed beside him rhetorically: shared anticolonial symbolism does not establish personal influence or contact.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Micaela Bastidas Puyucahua** [T5]
+- **El Inca Garcilaso de la Vega** [T9-]
+- **Atahualpa** [T2- prediction]
+- **Francisco Pizarro González** [T9-]
+- **José de San Martín** [T9+]
+- **El Inca Garcilaso de la Vega** [T3] (mirrored from el_inca_garcilaso_de_la_vega.dossier.md)
+- **Juana Azurduy de Padilla** [T4] (mirrored from juana_azurduy.dossier.md)
+
 ## Compact Chronology
 
 - **1738, 10 or 19 March:** born at Surimana.

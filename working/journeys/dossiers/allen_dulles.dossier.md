@@ -981,6 +981,31 @@ Only connections supported by the reviewed record are included. Mere shared memb
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **John Foster Dulles** [T5]
+- **John Fitzgerald Kennedy** [T5]
+- **Mohammad Mosaddegh** [T4]
+- **Mohammad Reza Shah Pahlavi** [T4]
+- **Fidel Alejandro Castro Ruz** [T4]
+- **Ernesto "Che" Guevara** [T4]
+- **Patrice Émery Lumumba** [T4]
+- **Carl Gustav Jung** [T5]
+- **Ian Lancaster Fleming** [T5]
+- **David Rockefeller** [T5]
+- **William Egan Colby** [T4]
+- **William Joseph Casey** [T4]
+- **Carl Gustav Jung** [T3] (mirrored from jung.dossier.md)
+- **Clark McAdams Clifford** [T4] (mirrored from clark_clifford.dossier.md)
+- **Prescott Sheldon Bush** [T3] (mirrored from prescott_bush.dossier.md)
+- **Patrice Émery Lumumba** [T3] (mirrored from patrice_lumumba.dossier.md)
+- **William Blake** [T3] (mirrored from william_blake.dossier.md)
+- **Ian Lancaster Fleming** [T3] (mirrored from ian_fleming.dossier.md)
+- **Ernesto "Che" Guevara** [T9+] (mirrored from che_guevara.dossier.md)
+- **José Antonio de Aguirre y Lecube** [T3] (mirrored from jose_antonio_aguirre.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

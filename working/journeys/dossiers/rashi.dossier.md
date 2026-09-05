@@ -872,6 +872,19 @@ No supported personal crossing was found with another named atlas subject. In pa
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Maimonides** [T3]
+- **Saadia Gaon** [T3]
+- **Abraham** [T1-]
+- **Moses** [T1-]
+- **David ben Jesse** [T1-]
+- **King Solomon** [T1-]
+- **Judah Loew ben Bezalel** [T1+] (mirrored from judah_loew_ben_bezalel_the_maharal_of_prague.dossier.md)
+- **Aaron the Levite** [T1-] (mirrored from aaron_the_levite.dossier.md)
+
 ## Chronology
 
 | Date | Event | Evidentiary status |

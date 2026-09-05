@@ -1053,6 +1053,18 @@ The strongest roster connection is **Victor Hugo through the 1889 illustrated ed
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Victor-Marie Hugo** [T9-]
+- **Jules-Félix Coutan** [T4]
+- **Auguste Rodin** [T4]
+- **Eugène Samuel Grasset** [T4] (mirrored from eugene_grasset.dossier.md)
+- **Victor-Marie Hugo** [T1-] (mirrored from victor_hugo.dossier.md)
+- **Lionel-Noël Royer** [T9+] (mirrored from lionel_royer.dossier.md)
+- **Paul Berthon** [T5] (mirrored from paul_berthon.dossier.md)
+
 ## Chronology
 
 - **21 May 1846:** Nicolas Luc-Olivier Merson born in Paris.

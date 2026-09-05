@@ -621,6 +621,38 @@ None of these legacies is settled. Palantir’s use in war and migration, the su
 
 No reliable qualifying connection was established with Nick Land: their intellectual proximity runs through Yarvin and later commentary, but no direct correspondence, meeting, friendship or Thiel-authored treatment of Land was documented. Other roster overlaps based only on shared ideology, industry, event attendance, geographic presence or passing name-checks were excluded.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Alexander Caedmon Karp** [T5]
+- **Aristotle** [T1-]
+- **Charles Robert Darwin** [T1-]
+- **Curtis Guy Yarvin** [T3]
+- **Curtis Guy Yarvin** [T5]
+- **Elon Reeve Musk** [T5]
+- **Friedrich Nietzsche** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Javier Gerardo Milei** [T5]
+- **Jeffrey Edward Epstein** [T3]
+- **Jeffrey Edward Epstein** [T5]
+- **John Locke** [T1-]
+- **Karl Marx** [T1-]
+- **Max Rafailovich Levchin** [T5]
+- **Reid Garrett Hoffman** [T5]
+- **René Noël Théophile Girard** [T1-]
+- **René Noël Théophile Girard** [T5]
+- **Samuel Harris Altman** [T5]
+- **Sir Thomas More** [T1-]
+- **J. R. R. Tolkien** [T1-]
+- **Marc Lowell Andreessen** [T3] (mirrored from marc_andreessen.dossier.md)
+- **René Noël Théophile Girard** [T3] (mirrored from rene_girard.dossier.md)
+- **Lawrence Joseph Ellison** [T3] (mirrored from larry_ellison.dossier.md)
+- **Leon David Black** [T5] (mirrored from leon_black.dossier.md)
+- **Mark Lombardi** [T1-] (mirrored from mark_lombardi.dossier.md)
+- **Yanis Varoufakis** [T3] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Sources
 
 https://www.sec.gov/Archives/edgar/data/1103415/000091205702026650/a2084015zex-99_1.htm

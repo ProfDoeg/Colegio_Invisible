@@ -822,6 +822,31 @@ Cividale, Friuli, Benevento, Salerno, Metz, and Monte Cassino all claim parts of
 
 No defensible T2 prophecy or hyperstition connection was found within the supplied roster. Mere chronological overlap, reuse of a general legend such as the Cynocephali tradition, or later residence in the same broad region has not been counted without the textual, personal, or site-specific evidence required by the atlas taxonomy.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aeneas** [T1-]
+- **Alexander the Great** [T1-]
+- **Archimedes of Syracuse** [T1-]
+- **Hannibal Barca** [T1-]
+- **Gaius Julius Caesar** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Cleopatra VII Thea Philopator** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Paul the Apostle** [T1-]
+- **Constantine the Great** [T1-]
+- **Justinian I** [T1-]
+- **Empress Theodora** [T1-]
+- **Charles Martel** [T1-]
+- **Charlemagne** [T5]
+- **Homer** [T1-]
+- **Publius Vergilius Maro** [T1-]
+- **Plinio el Viejo** [T3]
+- **Saint Mercurius of Caesarea** [T1-]
+- **Thomas Aquinas** [T9+]
+- **Adam of Bremen** [T3] (mirrored from adam_of_bremen.dossier.md)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/paolo-diacono_(Dizionario-Biografico)/

@@ -973,6 +973,23 @@ No supported direct connection was found with Aleksandr Dugin, Benito Mussolini,
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Augusto Pinochet Ugarte** [T5]
+- **Carl Gustav Jung** [T5]
+- **Hermann Hesse** [T5]
+- **Savitri Devi** [T3]
+- **Salvador Guillermo Allende Gossens** [T4]
+- **Friedrich Nietzsche** [T1-]
+- **Wilhelm Richard Wagner** [T1-]
+- **Julius Evola** [T3]
+- **René Guénon** [T3]
+- **Jiddu Krishnamurti** [T5]
+- **Mohandas Karamchand Gandhi** [T1-]
+- **Julius Evola** [T5] (mirrored from julius_evola.dossier.md)
+
 ## Chronology
 
 - **1917, 10 September:** Born at Santo Domingo 661, Santiago.

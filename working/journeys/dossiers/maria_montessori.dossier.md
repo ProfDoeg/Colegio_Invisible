@@ -557,6 +557,21 @@ Historical reinterpretation has moved through four broad phases: early internati
 
 - **Absence finding:** Later scholarship compares Montessori’s and Krishnamurti’s educational philosophies, and both had associations with Theosophical networks. The located sources do not securely document a meeting, correspondence, or shared event; thematic resemblance and institutional adjacency therefore do not qualify as a connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alexander Graham Bell** [T5]
+- **Annie Besant** [T5]
+- **Friedrich Fröbel** [T1-]
+- **Mohandas Karamchand Gandhi** [T5]
+- **Benito Mussolini** [T5]
+- **Johann Heinrich Pestalozzi** [T1-]
+- **Rabindranath Tagore** [T3]
+- **Friedrich Fröbel** [T9-] (mirrored from froebel.dossier.md)
+- **Rabindranath Tagore** [T5] (mirrored from rabindranath_tagore.dossier.md)
+- **John Dewey** [T5] (mirrored from john_dewey.dossier.md)
+
 ## Sources
 
 https://montessori-ami.org/resource-library/facts/timeline-maria-montessoris-life

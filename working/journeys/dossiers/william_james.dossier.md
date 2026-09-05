@@ -627,6 +627,37 @@ Honors and memorials include the William James Hall at Harvard, APA historical c
 
 No supported T2 prophecy/hyperstition or T9 shared-object transmission was identified between James and the roster. Mere overlap in period, city, institutional affiliation, reform politics, or later intellectual influence has not been counted without evidence of the specified crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Charles Robert Darwin** [T1-]
+- **Emanuel Swedenborg** [T1-]
+- **Immanuel Kant** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Martin Luther** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Francis of Assisi** [T1-]
+- **Paul the Apostle** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **John Dewey** [T3]
+- **John Dewey** [T5]
+- **Henri-Louis Bergson** [T3]
+- **Henri-Louis Bergson** [T5]
+- **Narendranath Datta** [T3]
+- **Narendranath Datta** [T5]
+- **Sigmund Freud** [T5]
+- **Carl Gustav Jung** [T5]
+- **Max Weber** [T5] (mirrored from max_weber.dossier.md)
+- **Jürgen Habermas** [T1+] (mirrored from jurgen_habermas.dossier.md)
+- **Eadweard Muybridge** [T4] (mirrored from muybridge.dossier.md)
+- **Felix Adler** [T3] (mirrored from felix_adler.dossier.md)
+- **Arthur James Balfour** [T3] (mirrored from arthur_balfour.dossier.md)
+- **Sigmund Freud** [T3] (mirrored from freud.dossier.md)
+- **Georges Sorel** [T3] (mirrored from georges_sorel.dossier.md)
+- **Samuel Langhorne Clemens** [T4] (mirrored from mark_twain.dossier.md)
+
 ## Sources
 
 https://plato.stanford.edu/entries/james/

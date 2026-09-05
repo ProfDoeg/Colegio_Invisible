@@ -644,6 +644,20 @@ His influence on Basque is structural rather than merely reputational. Standard 
 
 No additional roster crossings were included where the available evidence showed only broad intellectual influence, shared politics, contemporaneity, or geographic overlap without a documented act of writing, communication, proximity, meeting, prophecy, or object transmission.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Søren Aabye Kierkegaard** [T1-]
+- **Albert Camus** [T1-]
+- **Jordan Maxwell** [T1-]
+- **Jean-Paul Charles Aymard Sartre** [T1-]
+- **Claude Lévi-Strauss** [T3]
+- **Avram Noam Chomsky** [T3]
+- **José Antonio de Aguirre y Lecube** [T5]
+- **Julen Kerman Madariaga Agirre** [T5]
+- **José Antonio de Aguirre y Lecube** [T3] (mirrored from jose_antonio_aguirre.dossier.md)
+
 ## Sources
 
 https://www.euskaltzaindia.eus/es/euskaltzaindia/academicos/fallecidos/correspondientes/378-t/6487-txillardegi-jose-luis-alvarez-enparantza

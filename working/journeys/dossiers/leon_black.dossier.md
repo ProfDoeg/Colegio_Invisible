@@ -597,6 +597,18 @@ None alone reconstructs the whole record.
 
 No reliable evidence located supports additional Atlas-roster connections under the specified definitions. Mere overlap in elite, museum, financial, political, intellectual, or Epstein-associated circles was excluded unless the record documented a qualifying meeting, communication, shared milieu, or transferred object.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jeffrey Edward Epstein** [T5]
+- **Ghislaine Noelle Marion Maxwell** [T3]
+- **William Henry Gates III** [T5]
+- **Elon Reeve Musk** [T5]
+- **Peter Andreas Thiel** [T5]
+- **Pablo Ruiz Picasso** [T9-]
+- **Leonardo di ser Piero da Vinci** [T9-]
+
 ## Sources
 
 https://www.sec.gov/Archives/edgar/data/1411494/000119312521016405/d118102dex991.htm

@@ -428,6 +428,12 @@ Her most documentable historical effects were relational: episodic mediation bef
 
 No other roster entry produced a sufficiently documented connection under the six permitted types. In particular, Walt Disney died in 1966 and had no documented personal authorship of the studio’s 1995 *Pocahontas*; Francis Bacon’s Virginia Company and Jacobean-court associations do not establish contact or shared attendance with her; and Thomas Jefferson’s indirect engagement with Pocahontas literature and descendants does not demonstrate that he himself wrote about, corresponded with, met, or shared a qualifying object or site with Pocahontas.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Samuel Langhorne Clemens** [T1+]
+
 ## Sources
 
 https://encyclopediavirginia.org/entries/pocahontas-d-1617/

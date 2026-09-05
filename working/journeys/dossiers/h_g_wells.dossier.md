@@ -933,6 +933,55 @@ The roster was checked conservatively. The entries below are supported by identi
 
 No secure T2 prophecy/hyperstition or T9 shared-object connection was established with a roster member. In particular, Wells’s fictional “atomic bombs” should not automatically be assigned as a T2 connection to Albert Einstein, Enrico Fermi, or J. Robert Oppenheimer: the documented causal testimony runs principally through Leó Szilárd, who is not on this roster, and does not by itself prove that Wells’s story caused any listed individual’s later work. Likewise, influence claims involving Borges, Lovecraft, Orwell, Tolkien, Philip K. Dick, Frank Herbert, Steven Spielberg, or later futurists do not constitute crossings under the specified taxonomy without direct written engagement, meeting, prophecy-causation, or a shared-object chain.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **Alexander the Great** [T1-]
+- **Aristotle** [T1-]
+- **Chaim Azriel Weizmann** [T3]
+- **Charlemagne** [T1-]
+- **Charles Robert Darwin** [T1-]
+- **Christopher Columbus** [T1-]
+- **Constantine the Great** [T1-]
+- **Albert Einstein** [T4]
+- **Federico García Lorca** [T3]
+- **Genghis Khan** [T1-]
+- **Mohandas Karamchand Gandhi** [T3]
+- **Hannibal Barca** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Gaius Julius Caesar** [T1-]
+- **Justinian I** [T1-]
+- **Karl Marx** [T1-]
+- **Martin Luther** [T1-]
+- **Moses** [T1-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Napoleon Bonaparte** [T1-]
+- **George Orwell** [T5]
+- **Plato** [T1-]
+- **Rabindranath Tagore** [T5]
+- **Sir Thomas More** [T1-]
+- **Jules Gabriel Verne** [T1-]
+- **William Morris** [T1-]
+- **George Washington** [T1-]
+- **Nicholas Konstantinovich Roerich** [T9-] (mirrored from nicholas_roerich.dossier.md)
+- **George Orwell** [T3] (mirrored from george_orwell.dossier.md)
+- **Sir James Matthew Barrie** [T4] (mirrored from james_matthew_barrie.dossier.md)
+- **Vladimir Ilyich Ulyanov** [T5] (mirrored from vladimir_lenin.dossier.md)
+- **Adolfo Bioy Casares** [T1+] (mirrored from adolfo_bioy_casares.dossier.md)
+- **Edward Bulwer-Lytton** [T9-] (mirrored from bulwer_lytton.dossier.md)
+- **John Maynard Keynes** [T3] (mirrored from john_maynard_keynes.dossier.md)
+- **Howard Phillips Lovecraft** [T3] (mirrored from h_p_lovecraft.dossier.md)
+- **Sir Arthur Ignatius Conan Doyle** [T3] (mirrored from sir_arthur_conan_doyle.dossier.md)
+- **Mark Fisher** [T1+] (mirrored from mark_fisher.dossier.md)
+- **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
+- **Fritz Lang** [T3] (mirrored from fritz_lang.dossier.md)
+- **Jorge Luis Borges** [T3] (mirrored from borges.dossier.md)
+- **Fernão de Magalhães** [T1-] (mirrored from ferdinand_magellan.dossier.md)
+- **Samuel Langhorne Clemens** [T5] (mirrored from mark_twain.dossier.md)
+- **Jules Gabriel Verne** [T3] (mirrored from jules_verne.dossier.md)
+
 ## Sources
 
 https://www.oxforddnb.com/display/10.1093/ref%3Aodnb/9780198614128.001.0001/odnb-9780198614128-e-36831

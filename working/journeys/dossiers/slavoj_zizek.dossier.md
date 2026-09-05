@@ -815,6 +815,59 @@ For the great majority of the 896-name roster, no documented personal crossing o
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Karl Marx** [T1-]
+- **Sigmund Freud** [T1-]
+- **Jacques Marie Émile Lacan** [T1-]
+- **Friedrich Wilhelm Joseph Schelling** [T1-]
+- **Immanuel Kant** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Martin Heidegger** [T1-]
+- **Jacques Derrida** [T3]
+- **Gilles Louis Rene Deleuze** [T3]
+- **Pierre-Félix Guattari** [T3]
+- **Paul-Michel Foucault** [T3]
+- **Jean-Paul Charles Aymard Sartre** [T1-]
+- **Albert Camus** [T1-]
+- **Walter Benjamin** [T1-]
+- **Theodor W. Adorno** [T1-]
+- **Max Horkheimer** [T1-]
+- **Herbert Marcuse** [T1-]
+- **Antonio Francesco Gramsci** [T1-]
+- **Vladimir Ilyich Ulyanov** [T1-]
+- **Mao Zedong** [T1-]
+- **Rosa Luxemburg** [T1-]
+- **Jürgen Habermas** [T3]
+- **Jean Baudrillard** [T3]
+- **René Noël Théophile Girard** [T3]
+- **Carl Gustav Jung** [T1-]
+- **William Jefferson Clinton** [T1-]
+- **Wilhelm Richard Wagner** [T1-]
+- **Alfred Jarry** [T1-]
+- **Aaron David Gordon** [T3]
+- **Avram Noam Chomsky** [T3]
+- **Yanis Varoufakis** [T4]
+- **Volodymyr Oleksandrovych Zelenskyy** [T3]
+- **Benjamin Netanyahu** [T3]
+- **George Walker Bush** [T3]
+- **William Jefferson Clinton** [T3]
+- **Hillary Diane Rodham Clinton** [T3]
+- **Mark Fisher** [T3]
+- **Yuval Noah Harari** [T3] (mirrored from yuval_noah_harari.dossier.md)
+- **Diogenes of Sinope** [T1-] (mirrored from diogenes_of_sinope.dossier.md)
+- **Plato** [T1-] (mirrored from plato.dossier.md)
+- **Johann Gottlieb Fichte** [T1-] (mirrored from fichte.dossier.md)
+- **Nick Land** [T3] (mirrored from nick_land.dossier.md)
+- **Pierre-Félix Guattari** [T1-] (mirrored from felix_guattari.dossier.md)
+- **Josefina Ayerza** [T3] (mirrored from josefina_ayerza.dossier.md)
+- **Gilles Louis Rene Deleuze** [T1-] (mirrored from gilles_deleuze.dossier.md)
+- **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
+- **Yanis Varoufakis** [T5] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Compact Chronology
 
 - **1949, March 21:** Born in Ljubljana, Yugoslavia.

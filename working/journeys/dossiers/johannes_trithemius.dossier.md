@@ -823,6 +823,35 @@ The roster lists the same historical person under two forms. **Reported intellec
 
 For the remaining atlas names, no sufficiently documented direct relationship, encounter, family tie, correspondence, patronage, rivalry, shared institution, or explicit acknowledged influence was established. Absence is especially important where later occult genealogies merely place famous magicians in the same invented lineage.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Heinrich Cornelius Agrippa von Nettesheim** [T5]
+- **Johannes Reuchlin** [T3]
+- **Johann Georg Faust** [T3]
+- **John Dee** [T9+]
+- **Blaise de Vigenère** [T9+]
+- **Athanasius Kircher** [T1+]
+- **Frances Amelia Yates** [T1+]
+- **Aurelius Augustinus** [T1-]
+- **Thomas Aquinas** [T1-]
+- **Giovanni Pico della Mirandola** [T1-]
+- **Martin Luther** [T1+]
+- **Salomon Trismosin** [T9+]
+- **Hildegard von Bingen** [T9-] (mirrored from hildegard_von_bingen.dossier.md)
+- **Blaise de Vigenère** [T1+] (mirrored from blaise_de_vigenere.dossier.md)
+- **Ahmad al-Majriti** [T1-] (mirrored from ahmad_al_majriti.dossier.md)
+- **Heinrich Cornelius Agrippa von Nettesheim** [T3] (mirrored from heinrich_cornelius_agrippa.dossier.md)
+- **Johannes Reuchlin** [T4] (mirrored from johannes_reuchlin.dossier.md)
+- **John Dee** [T3] (mirrored from john_dee.dossier.md)
+- **Saint Giles** [T1-] (mirrored from giles.dossier.md)
+- **Robert Fludd** [T1+] (mirrored from robert_fludd.dossier.md)
+- **Johann Georg Faust** [T1-] (mirrored from johann_faust.dossier.md)
+- **Auguste Kerckhoffs** [T1+] (mirrored from auguste_kerckhoffs.dossier.md)
+- **Paracelsus** [T3] (mirrored from paracelsus.dossier.md)
+- **Nicholas of Cusa** [T1-] (mirrored from nicholas_of_cusa.dossier.md)
+
 ## Chronology
 
 - **1 February 1462:** Born at Trittenheim on the Moselle.

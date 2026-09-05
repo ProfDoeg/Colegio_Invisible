@@ -1000,6 +1000,41 @@ The consulted record did not justify direct atlas entries for Sarah Bernhardt, E
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Achille-Claude Debussy** [T4]
+- **Anna Matveyevna Pavlova** [T3]
+- **Auguste Rodin** [T5]
+- **Friedrich Nietzsche** [T3]
+- **Loïe Fuller** [T5]
+- **Martha Graham** [T3]
+- **Pyotr Ilyich Tchaikovsky** [T9-]
+- **Ruth St. Denis** [T3]
+- **Sergei Pavlovich Diaghilev** [T3]
+- **Vaslav Nijinsky** [T4]
+- **Vladimir Ilyich Ulyanov** [T3]
+- **William Blake** [T3]
+- **Wilhelm Richard Wagner** [T9-]
+- **Ruth St. Denis** [T1+] (mirrored from ruth_st_denis.dossier.md)
+- **Auguste Rodin** [T3] (mirrored from auguste_rodin.dossier.md)
+- **Vladimir Ilyich Ulyanov** [T4] (mirrored from vladimir_lenin.dossier.md)
+- **José Arcadio Limón** [T3] (mirrored from jose_limon.dossier.md)
+- **Geneviève Stebbins** [T9-] (mirrored from stebbins.dossier.md)
+- **Sarah Bernhardt** [T3] (mirrored from sarah_bernhardt.dossier.md)
+- **Rudolf Laban** [T3] (mirrored from laban.dossier.md)
+- **Ida Hofmann** [T3] (mirrored from ida_hoffmann.dossier.md)
+- **Henri Oedenkoven** [T5] (mirrored from henri_oedenkoven.dossier.md)
+- **Vaslav Nijinsky** [T9+] (mirrored from vaslav_nijinsky.dossier.md)
+- **Vera Skoronel** [T3] (mirrored from vera_skoronel.dossier.md)
+- **Ted Shawn** [T1+] (mirrored from ted_shawn.dossier.md)
+- **George Balanchine** [T9+] (mirrored from george_balanchine.dossier.md)
+- **Clotilde Sakharoff** [T4] (mirrored from clotilde_sakharoff.dossier.md)
+- **Valeska Gert** [T1+] (mirrored from valeska_gert.dossier.md)
+- **Charlotte Bara** [T9+] (mirrored from charlotte_bara.dossier.md)
+- **Anna Matveyevna Pavlova** [T9+] (mirrored from anna_pavlova.dossier.md)
+
 ## Chronology
 
 | Date | Event |

@@ -792,6 +792,15 @@ Forestier’s durable legacy is not a list of sites he “designed” but a meth
 
 - **[T5]** **Documented fact.** The conversation recalled by Le Corbusier establishes a personal meeting between the two men, associated in the scholarly account with their exchanges over Paris, garden suburbs, and metropolitan circulation. Their direct professional proximity is additionally documented at the **1925 Paris Exposition**, where Forestier directed the garden program and held official landscape responsibility around the *Pavillon de l’Esprit Nouveau*, while Le Corbusier controlled the pavilion and made detailed planting decisions. [Vicente Casals Costa, “Barcelona, Lisboa y Forestier”](https://www.ub.edu/geocrit/sn/sn-296/sn-296-2.htm); [Journal of the Korean Institute of Landscape Architecture, study of Le Corbusier’s gardens](https://www.jkila.org/archive/view_article?pid=jkila-49-5-12)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jules Charles** [T5]
+- **Le Corbusier** [T3]
+- **Le Corbusier** [T5]
+- **Joseph-Antoine Bouvard** [T3] (mirrored from joseph_bouvard.dossier.md)
+
 ## Sources
 
 https://expositions-virtuelles.citedelarchitecture.fr/portraits_architectes/forje.php

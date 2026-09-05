@@ -752,6 +752,16 @@ Most famous portraits are posthumous. Pontormo’s early-sixteenth-century portr
 
 No further roster connection was included where the evidence showed only broad intellectual influence, ordinary shared geography, genealogical speculation, artistic subject matter, or later analogy rather than one of the defined crossings.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Lorenzo di Piero de' Medici** [T1+]
+- **Lorenzo di Piero de' Medici** [T5]
+- **Nicholas of Cusa** [T4]
+- **Michelangelo di Lodovico Buonarroti Simoni** [T9+]
+- **Alexandre Dumas** [T1+] (mirrored from alexandre_dumas.dossier.md)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/cosimo-de-medici_(Dizionario-Biografico)/

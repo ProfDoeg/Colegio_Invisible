@@ -933,6 +933,59 @@ For the hundreds of remaining roster names, no documented personal or explicit i
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Celia Esther Sánchez Manduley** [T5]
+- **Ernesto "Che" Guevara** [T5]
+- **Haydée Tamara Bunke Bíder** [T5]
+- **Teté Puebla** [T4]
+- **Vilma Espín Guillois** [T5]
+- **José Julián Martí Pérez** [T1-]
+- **Karl Marx** [T3]
+- **Vladimir Ilyich Ulyanov** [T3]
+- **John Fitzgerald Kennedy** [T3]
+- **Salvador Guillermo Allende Gossens** [T5]
+- **Nelson Rolihlahla Mandela** [T5]
+- **Hugo Rafael Chávez Frías** [T5]
+- **Nicolás Maduro Moros** [T5]
+- **Gabriel José García Márquez** [T5]
+- **Diego Armando Maradona** [T5]
+- **Jean-Paul Charles Aymard Sartre** [T5]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T5]
+- **Avram Noam Chomsky** [T4]
+- **Muammar Muhammad Abu Minyar al-Gaddafi** [T5]
+- **Juan Domingo Perón** [T5]
+- **Alberto Kenya Fujimori Inomoto** [T5]
+- **Julio Florencio Cortázar Descotte** [T4]
+- **Camilo Torres Restrepo** [T3]
+- **Patrice Émery Lumumba** [T1-]
+- **Teté Puebla** [T5] (mirrored from tete_puebla.dossier.md)
+- **Teté Puebla** [T1+] (mirrored from tete_puebla.dossier.md)
+- **Mao Zedong** [T3] (mirrored from mao_zedong.dossier.md)
+- **William Jefferson Clinton** [T5] (mirrored from bill_clinton.dossier.md)
+- **Osvaldo Pedro Pugliese** [T3] (mirrored from osvaldo_pugliese.dossier.md)
+- **Augusto Pinochet Ugarte** [T4] (mirrored from augusto_pinochet.dossier.md)
+- **Carlos Slim Helú** [T5] (mirrored from carlos_slim.dossier.md)
+- **Carlos Slim Helú** [T3] (mirrored from carlos_slim.dossier.md)
+- **George Herbert Walker Bush** [T4] (mirrored from george_hw_bush.dossier.md)
+- **Karl Marx** [T1-] (mirrored from karl_marx.dossier.md)
+- **Meyer Lansky** [T9-] (mirrored from meyer_lansky.dossier.md)
+- **William Egan Colby** [T3] (mirrored from william_colby.dossier.md)
+- **David Rockefeller** [T5] (mirrored from david_rockefeller.dossier.md)
+- **Simón Bolívar** [T1-] (mirrored from bolivar.dossier.md)
+- **Juan Domingo Perón** [T3] (mirrored from juan_peron.dossier.md)
+- **Saddam Hussein al-Tikriti** [T5] (mirrored from saddam_hussein.dossier.md)
+- **Manuel Antonio Noriega Moreno** [T5] (mirrored from manuel_noriega.dossier.md)
+- **Allen Welsh Dulles** [T4] (mirrored from allen_dulles.dossier.md)
+- **Haydée Tamara Bunke Bíder** [T4] (mirrored from tamara_bunke.dossier.md)
+- **Julio Florencio Cortázar Descotte** [T3] (mirrored from julio_cortazar.dossier.md)
+- **Cristina Elisabet Fernández de Kirchner** [T5] (mirrored from cristina_fernandez_de_kirchner.dossier.md)
+- **Mohammad Reza Shah Pahlavi** [T4] (mirrored from mohammad_reza_shah_pahlavi.dossier.md)
+- **Salvador Guillermo Allende Gossens** [T3] (mirrored from salvador_allende.dossier.md)
+- **Salvador Guillermo Allende Gossens** [T9+] (mirrored from salvador_allende.dossier.md)
+
 ## Chronology
 
 - **1926, 13 August:** Born at Birán, Oriente Province.

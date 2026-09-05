@@ -794,6 +794,25 @@ Corporate debate since 2019 has revived the 1970 essay through conflict over sta
 
 No additional roster entries were included where the available evidence showed only broad intellectual influence, posthumous comparison, shared ideology, contemporaneity, or presence in the same country without a documented crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Augusto Pinochet Ugarte** [T5]
+- **Charles de Ganahl Koch** [T9+]
+- **Friedrich August von Hayek** [T5]
+- **George Walker Bush** [T5]
+- **John Maynard Keynes** [T1-]
+- **Ludwig Heinrich Edler von Mises** [T5]
+- **Murray Newton Rothbard** [T3]
+- **Javier Gerardo Milei** [T1+] (mirrored from javier_milei.dossier.md)
+- **Karl Marx** [T1-] (mirrored from karl_marx.dossier.md)
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Klaus Martin Schwab** [T1+] (mirrored from klaus_schwab.dossier.md)
+- **Murray Newton Rothbard** [T5] (mirrored from murray_rothbard.dossier.md)
+- **Yanis Varoufakis** [T1+] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Sources
 
 https://www.nobelprize.org/prizes/economic-sciences/1976/friedman/biographical/

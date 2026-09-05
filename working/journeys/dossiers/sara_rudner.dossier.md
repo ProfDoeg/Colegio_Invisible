@@ -490,6 +490,15 @@ The 2026 NYPL retrospective is evidence of this shift: the institution placed Th
 
 No additional roster crossing met the specified evidentiary and typological threshold. In particular, Rudner’s performances in works concerning Francis of Assisi or Mozart, her training in techniques associated with historical dancers, and institutional presentations of Balanchine repertory under her Sarah Lawrence directorship were not treated as connections because none fits the six defined relationship types without inference.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **John Milton Cage Jr.** [T4]
+- **Merce Cunningham** [T4]
+- **William Seward Burroughs II** [T4]
+- **Martha Graham** [T4] (mirrored from martha_graham.dossier.md)
+
 ## Sources
 
 https://www.smallpresstraffic.org/the-back-room-article/sara-rudner-in-conversation-with-rashaun-mitchell

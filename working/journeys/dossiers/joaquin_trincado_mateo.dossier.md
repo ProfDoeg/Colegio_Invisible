@@ -580,6 +580,20 @@ No state award, honorary degree, official scientific prize, or formal public app
 
 No documented personal meeting with any atlas-roster figure was identified. The supported crossings are overwhelmingly Trincado’s textual treatments of earlier figures, plus the reported one-sided reception of Gardel’s singing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham** [T1-]
+- **Moses** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Paul the Apostle** [T1-]
+- **Hernán Cortés** [T1-]
+- **Motecuhzoma Xocoyotzin** [T1-]
+- **Christopher Columbus** [T1-]
+- **Giuseppe Maria Garibaldi** [T1-]
+- **Carlos Gardel** [T3]
+
 ## Sources
 
 https://www.scielo.sa.cr/scielo.php?pid=S1659-42232024000100043&script=sci_arttext

@@ -961,6 +961,32 @@ No securely documented personal meeting, correspondence, family relationship, co
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Homer** [T3]
+- **Herodotus of Halicarnassus** [T3]
+- **Polybius of Megalopolis** [T3]
+- **Aristotle** [T3]
+- **Pytheas de Massalia** [T3]
+- **Alexander the Great** [T1-]
+- **Gaius Julius Caesar** [T1-]
+- **Cleopatra VII Thea Philopator** [T1-]
+- **Aeneas** [T1-]
+- **Pindar of Thebes** [T3] (mirrored from pindar.dossier.md)
+- **Megasthenes of Ionia** [T1-] (mirrored from megasthenes.dossier.md)
+- **Simonides of Ceos** [T1-] (mirrored from simonides_of_ceos.dossier.md)
+- **Christopher Columbus** [T3] (mirrored from columbus.dossier.md)
+- **Flavius Josephus** [T3] (mirrored from flavius_josephus.dossier.md)
+- **Ctesias of Cnidus** [T3] (mirrored from ctesias.dossier.md)
+- **Aristotle** [T1-] (mirrored from aristotle.dossier.md)
+- **Pytheas de Massalia** [T1-] (mirrored from pytheas_de_massalia.dossier.md)
+- **Cyrus the Great** [T1-] (mirrored from cyrus.dossier.md)
+- **Homer** [T1-] (mirrored from homer.dossier.md)
+- **Hesiod of Ascra** [T1-] (mirrored from hesiod.dossier.md)
+- **Nabucodonosor II** [T1-] (mirrored from nabucodonosor_ii.dossier.md)
+
 ## Chronology
 
 | Date | Event |

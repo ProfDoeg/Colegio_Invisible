@@ -1331,6 +1331,18 @@ Abdelkader’s philosophical work discusses prophets, religions, Greek philosoph
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abd al-Qadir al-Jilani** [T9-]
+- **Ibn Arabi** [T1-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Abraham Lincoln** [T9-]
+- **Victor-Marie Hugo** [T3]
+- **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T3] (mirrored from alexis_de_tocqueville.dossier.md)
+
 ## Chronology
 
 | Date | Event |

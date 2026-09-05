@@ -1043,6 +1043,29 @@ The research located broad comparative or historical associations but no suffici
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Benito Mussolini** [T5]
+- **Gabriele d'Annunzio** [T5]
+- **Friedrich Nietzsche** [T3]
+- **Georges Sorel** [T3]
+- **Antonio Francesco Gramsci** [T3]
+- **Igor Fyodorovich Stravinsky** [T5]
+- **Sergei Pavlovich Diaghilev** [T4]
+- **Pablo Ruiz Picasso** [T4]
+- **Julius Evola** [T4]
+- **Sarah Bernhardt** [T3]
+- **Walter Benjamin** [T1+] (mirrored from walter_benjamin.dossier.md)
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Gabriele d'Annunzio** [T4] (mirrored from dannunzio.dossier.md)
+- **Julius Evola** [T5] (mirrored from julius_evola.dossier.md)
+- **Wassily Kandinsky** [T3] (mirrored from wassily_kandinsky.dossier.md)
+- **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
+- **Guido Keller** [T5] (mirrored from guido_keller.dossier.md)
+- **Benito Mussolini** [T4] (mirrored from mussolini.dossier.md)
+
 ## Chronology
 
 | Date | Event |

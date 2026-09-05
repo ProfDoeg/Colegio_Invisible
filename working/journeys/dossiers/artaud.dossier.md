@@ -954,6 +954,36 @@ No reliable researched connection was found with the overwhelming majority of th
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Alfred Jarry** [T1-]
+- **André Breton** [T5]
+- **Carl Theodor Dreyer** [T5]
+- **Renée Jeanne Falconetti** [T5]
+- **Edgar Allan Poe** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Pablo Ruiz Picasso** [T9+]
+- **Albert Camus** [T4]
+- **Jacques Derrida** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Pierre-Félix Guattari** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Jean-Paul Charles Aymard Sartre** [T4]
+- **William Blake** [T1-]
+- **Motecuhzoma Xocoyotzin** [T1-] (mirrored from moctezuma_ii.dossier.md)
+- **Jean Baudrillard** [T1+] (mirrored from jean_baudrillard.dossier.md)
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **Jacques Marie Émile Lacan** [T4] (mirrored from jacques_lacan.dossier.md)
+- **Luis Alberto Spinetta** [T1+] (mirrored from spinetta.dossier.md)
+- **Juan Eduardo Cirlot Laporta** [T3] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Carl Theodor Dreyer** [T3] (mirrored from carl_theodor_dreyer.dossier.md)
+- **Erik Satie** [T4] (mirrored from erik_satie.dossier.md)
+- **Mark Fisher** [T1+] (mirrored from mark_fisher.dossier.md)
+- **Alfred Jarry** [T9-] (mirrored from alfred_jarry.dossier.md)
+- **Renée Jeanne Falconetti** [T4] (mirrored from falconetti.dossier.md)
+
 ## Chronology
 
 - **1896, 4 September:** born Antoine Marie Joseph Paul Artaud in Marseille.

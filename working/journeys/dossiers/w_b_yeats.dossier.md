@@ -958,6 +958,41 @@ Only connections supported by the consulted evidence are included. The presence 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **William Blake** [T1-]
+- **Helena Petrovna Blavatsky** [T5]
+- **Annie Besant** [T4]
+- **Arthur Edward Waite** [T4]
+- **Pamela Colman Smith** [T4]
+- **James Augustine Aloysius Joyce** [T5]
+- **Rabindranath Tagore** [T3]
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T5]
+- **Christina Georgina Rossetti** [T3]
+- **Dante Gabriel Rossetti** [T3]
+- **William Morris** [T5]
+- **Friedrich Nietzsche** [T3]
+- **Benito Mussolini** [T4]
+- **Emanuel Swedenborg** [T1-] (mirrored from emanuel_swedenborg.dossier.md)
+- **George Orwell** [T1+] (mirrored from george_orwell.dossier.md)
+- **Pamela Colman Smith** [T3] (mirrored from pamela_colman_smith.dossier.md)
+- **Pamela Colman Smith** [T5] (mirrored from pamela_colman_smith.dossier.md)
+- **William Morris** [T1-] (mirrored from william_morris.dossier.md)
+- **Oscar Fingal O'Fflahertie Wills Wilde** [T3] (mirrored from oscar_wilde.dossier.md)
+- **Dion Fortune** [T9+] (mirrored from dion_fortune.dossier.md)
+- **William Seward Burroughs II** [T3] (mirrored from william_s_burroughs.dossier.md)
+- **Sir Edward Coley Burne-Jones** [T3] (mirrored from edward_burne_jones.dossier.md)
+- **The Lady of the Lake** [T1-] (mirrored from lady-of-the-lake.dossier.md)
+- **Howard Phillips Lovecraft** [T3] (mirrored from h_p_lovecraft.dossier.md)
+- **Rabindranath Tagore** [T5] (mirrored from rabindranath_tagore.dossier.md)
+- **Leo Africanus** [T1-] (mirrored from leo_africanus.dossier.md)
+- **Dante Alighieri** [T1-] (mirrored from dante.dossier.md)
+- **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
+- **Arthur Edward Waite** [T3] (mirrored from arthur_edward_waite.dossier.md)
+- **Christina Georgina Rossetti** [T1-] (mirrored from christina_rossetti.dossier.md)
+
 ## Chronology
 
 | Date | Event |

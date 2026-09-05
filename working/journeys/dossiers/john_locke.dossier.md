@@ -932,6 +932,36 @@ These later philosophers worked on language, mind, identity, knowledge, or power
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Francis Bacon** [T1-]
+- **René Descartes** [T1-]
+- **Robert Hooke** [T3]
+- **Sir Isaac Newton** [T5]
+- **Gottfried Wilhelm Leibniz** [T1+]
+- **Jean-Jacques Rousseau** [T1+]
+- **Thomas Jefferson** [T1+]
+- **Benjamin Franklin** [T1+]
+- **Adam Smith** [T1+]
+- **Immanuel Kant** [T1+]
+- **John Dewey** [T1+]
+- **Friedrich August von Hayek** [T1+] (mirrored from friedrich_hayek.dossier.md)
+- **Eugen Böhm Ritter von Bawerk** [T1+] (mirrored from eugen_von_bohm_bawerk.dossier.md)
+- **Francisco de Miranda** [T1+] (mirrored from miranda.dossier.md)
+- **Gottfried Wilhelm Leibniz** [T3] (mirrored from gottfried_wilhelm_leibniz.dossier.md)
+- **Peter Andreas Thiel** [T1+] (mirrored from peter_thiel.dossier.md)
+- **Adam Smith** [T3] (mirrored from adam_smith.dossier.md)
+- **John Rogers Searle** [T1+] (mirrored from john_searle.dossier.md)
+- **Giambattista Vico** [T3] (mirrored from vico.dossier.md)
+- **Joseph Alois Schumpeter** [T1+] (mirrored from joseph_schumpeter.dossier.md)
+- **Aristotle** [T3] (mirrored from aristotle.dossier.md)
+- **Charles de Ganahl Koch** [T1+] (mirrored from charles_koch.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **Christiaan Huygens** [T5] (mirrored from christiaan_huygens.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

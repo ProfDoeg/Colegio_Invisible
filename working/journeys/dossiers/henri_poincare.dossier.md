@@ -600,6 +600,26 @@ The **Institut Henri Poincaré** was founded in Paris in 1928 under Émile Borel
 
 No T2 prophecy/hyperstition or T9 shared-object transmission supported by the reviewed evidence was found among the roster counterparts above. Mere intellectual ancestry, later use of Poincaré’s mathematics, possession of an eponymous award, or attendance in the same broad cultural milieu has not been counted as a crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Arthur Cayley** [T3]
+- **Captain Alfred Dreyfus** [T3]
+- **Albert Einstein** [T5]
+- **Albert Einstein** [T3]
+- **Felix Christian Klein** [T3]
+- **Felix Christian Klein** [T5]
+- **James Clerk Maxwell** [T1-]
+- **Maria Salomea Skłodowska-Curie** [T5]
+- **Sir Isaac Newton** [T1-]
+- **Marius Sophus Lie** [T5]
+- **Marius Sophus Lie** [T3]
+- **William Thomson** [T3]
+- **William Thomson** [T1-]
+- **Albert Einstein** [T1+] (mirrored from einstein.dossier.md)
+- **Georges Sorel** [T3] (mirrored from georges_sorel.dossier.md)
+
 ## Sources
 
 https://www.academie-francaise.fr/les-immortels/henri-poincare

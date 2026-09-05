@@ -1299,6 +1299,27 @@ Apart from Baha al-Din Walad, Shams, Attar, Muhammad, scriptural prophets, class
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Baha ud-Din Walad** [T5]
+- **Shams al-Din Muhammad of Tabriz** [T5]
+- **Farid al-Din Attar** [T1-]
+- **Ibn Arabi** [T4]
+- **Abu Yazid Tayfur ibn Isa al-Bistami** [T1-]
+- **Abu al-Qasim al-Junayd ibn Muhammad al-Baghdadi** [T1-]
+- **Mansur al-Hallaj** [T1-]
+- **Ibrahim ibn Adham** [T1-]
+- **Rabia al-Adawiyya** [T1-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Abraham** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Moses** [T1-]
+- **Genghis Khan** [T4]
+- **Martin Mordechai Buber** [T1+] (mirrored from martin_buber.dossier.md)
+- **Ibn Arabi** [T9-] (mirrored from ibn_arabi.dossier.md)
+
 ## Chronology
 
 | Date | Event |

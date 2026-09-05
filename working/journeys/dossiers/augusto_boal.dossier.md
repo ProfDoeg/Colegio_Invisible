@@ -872,6 +872,19 @@ Only connections supported by the consulted record are included. Shared geograph
 
 No documented crossing was established with the large majority of the atlas roster. Particularly, no responsible claim can be made merely because Boal adapted canonical writers, worked under Latin American dictatorships, or shared international left-wing networks with rostered political figures.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Karl Marx** [T1-]
+- **Jean-Paul Charles Aymard Sartre** [T3]
+- **Paulo Reglus Neves Freire** [T4]
+- **Julio Florencio Cortázar Descotte** [T9-]
+- **Gabriel José García Márquez** [T9-]
+- **Federico García Lorca** [T9-]
+- **Paulo Reglus Neves Freire** [T5] (mirrored from paulo_freire.dossier.md)
+
 ## Compact Chronology
 
 - **1931, 16 March:** Born Augusto Pinto Boal in Rio de Janeiro; raised in Penha.

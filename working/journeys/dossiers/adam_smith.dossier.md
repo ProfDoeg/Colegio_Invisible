@@ -1037,6 +1037,49 @@ No supported personal connection was found between Smith and the overwhelming ma
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Benjamin Franklin** [T5]
+- **Jean-Jacques Rousseau** [T3]
+- **John Locke** [T3]
+- **Sir Isaac Newton** [T1-]
+- **Immanuel Kant** [T3]
+- **Thomas Jefferson** [T1+]
+- **Alexander Hamilton** [T3]
+- **Karl Marx** [T1+]
+- **Carl Menger** [T1+]
+- **Eugen Böhm Ritter von Bawerk** [T1+]
+- **Ludwig Heinrich Edler von Mises** [T1+]
+- **Friedrich August von Hayek** [T1+]
+- **Milton Friedman** [T1+]
+- **John Maynard Keynes** [T1+]
+- **Joseph Alois Schumpeter** [T1+]
+- **Francis Bacon** [T3]
+- **James "Jamie" Dimon** [T1+] (mirrored from jamie_dimon.dossier.md)
+- **Mao Zedong** [T3] (mirrored from mao_zedong.dossier.md)
+- **Yuval Noah Harari** [T1+] (mirrored from yuval_noah_harari.dossier.md)
+- **William Jefferson Clinton** [T1+] (mirrored from bill_clinton.dossier.md)
+- **John Fitzgerald Kennedy** [T1+] (mirrored from john_f_kennedy.dossier.md)
+- **Max Weber** [T1+] (mirrored from max_weber.dossier.md)
+- **Javier Gerardo Milei** [T1+] (mirrored from javier_milei.dossier.md)
+- **Marc Lowell Andreessen** [T1+] (mirrored from marc_andreessen.dossier.md)
+- **Benjamin Franklin** [T4] (mirrored from benjamin_franklin.dossier.md)
+- **Claude-Henri de Rouvroy** [T1+] (mirrored from henri_de_saint_simon.dossier.md)
+- **Manuel Belgrano** [T3] (mirrored from belgrano.dossier.md)
+- **Peter Andreas Thiel** [T1+] (mirrored from peter_thiel.dossier.md)
+- **Alexander Hamilton** [T1+] (mirrored from alexander_hamilton.dossier.md)
+- **George Soros** [T1+] (mirrored from george_soros.dossier.md)
+- **Rosa Luxemburg** [T1+] (mirrored from rosa_luxemburg.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **John Locke** [T1-] (mirrored from john_locke.dossier.md)
+- **Domingo Faustino Sarmiento** [T3] (mirrored from sarmiento.dossier.md)
+- **Georg Wilhelm Friedrich Hegel** [T1+] (mirrored from hegel.dossier.md)
+- **Alexis-Charles-Henri Clérel de Tocqueville** [T3] (mirrored from alexis_de_tocqueville.dossier.md)
+- **Yanis Varoufakis** [T1+] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Chronology
 
 | Date | Event |

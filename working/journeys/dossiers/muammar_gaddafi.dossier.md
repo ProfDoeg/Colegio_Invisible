@@ -1141,6 +1141,23 @@ No documented personal meeting, correspondence, institutional collaboration, fam
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Fidel Alejandro Castro Ruz** [T5]
+- **George Herbert Walker Bush** [T4]
+- **George Walker Bush** [T3]
+- **Hillary Diane Rodham Clinton** [T4]
+- **Hugo Rafael Chávez Frías** [T5]
+- **Nelson Rolihlahla Mandela** [T5]
+- **Saddam Hussein al-Tikriti** [T4]
+- **Silvio Berlusconi** [T5]
+- **William Jefferson Clinton** [T4]
+- **José López Rega** [T4] (mirrored from jose_lopez_rega.dossier.md)
+- **Hillary Diane Rodham Clinton** [T9+] (mirrored from hillary_clinton.dossier.md)
+- **Nicolás Maduro Moros** [T4] (mirrored from nicolas_maduro.dossier.md)
+
 ## Chronology
 
 | Date/year | Event |

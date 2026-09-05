@@ -563,6 +563,28 @@ The 2013 Cossitt Hall mural at Colorado College, film circulation, NYPL digitiza
 
 No adequately documented T2 prophecy/hyperstition connection was found. Other apparent roster affinities—such as shared modern-dance traditions, influence through Rudolf Laban’s ideas, or general contemporaneity with German and American dancers—were omitted where the evidence did not establish one of the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Anna Matveyevna Pavlova** [T3]
+- **Mary Wigman** [T3]
+- **Mary Wigman** [T5]
+- **Mary Wigman** [T1-]
+- **Martha Graham** [T4]
+- **Doris Batcheller Humphrey** [T4]
+- **José Arcadio Limón** [T4]
+- **Merce Cunningham** [T5]
+- **John Milton Cage Jr.** [T4]
+- **Vera Skoronel** [T5]
+- **Igor Fyodorovich Stravinsky** [T9-]
+- **Erik Satie** [T9-]
+- **Joseph Hubertus Pilates** [T5] (mirrored from joseph_pilates.dossier.md)
+- **Émile Jaques-Dalcroze** [T9-] (mirrored from jaques_dalcroze.dossier.md)
+- **John Milton Cage Jr.** [T3] (mirrored from john_cage.dossier.md)
+- **Vera Skoronel** [T4] (mirrored from vera_skoronel.dossier.md)
+- **Dore Hoyer** [T1+] (mirrored from dore_hoyer.dossier.md)
+
 ## Sources
 
 https://archives.nypl.org/dan/19791

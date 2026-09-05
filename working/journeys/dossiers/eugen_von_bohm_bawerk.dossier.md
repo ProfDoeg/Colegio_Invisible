@@ -590,6 +590,27 @@ This dossier used accessible digital sources in German and English, with Czech a
 
 No supported T2 prophecy/hyperstition or T9 shared-object crossing was identified among the roster, and no additional T4 proximity claim has been included merely from contemporaneity or shared residence in Vienna.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Thomas Aquinas** [T1-]
+- **Francis Bacon** [T1-]
+- **John Locke** [T1-]
+- **Adam Smith** [T1-]
+- **Karl Marx** [T1-]
+- **Carl Menger** [T5]
+- **Carl Menger** [T3]
+- **Ludwig Heinrich Edler von Mises** [T5]
+- **Ludwig Heinrich Edler von Mises** [T1+]
+- **Joseph Alois Schumpeter** [T5]
+- **Joseph Alois Schumpeter** [T3]
+- **Joseph Alois Schumpeter** [T1+]
+- **Carl Menger** [T1+] (mirrored from carl_menger.dossier.md)
+- **Friedrich August von Hayek** [T1+] (mirrored from friedrich_hayek.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+
 ## Sources
 
 https://www.biographien.ac.at/oebl/oebl_B/Boehm-Bawerk_Eugen_1851_1914.xml

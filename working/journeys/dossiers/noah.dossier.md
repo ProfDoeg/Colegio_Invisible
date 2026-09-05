@@ -920,6 +920,29 @@ For the remaining atlas figures, no supported personal, institutional, or explic
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Flavius Josephus** [T1+]
+- **Jesus of Nazareth** [T1+]
+- **Muhammad ibn Abdullah** [T1+]
+- **Moses** [T1+]
+- **Ezekiel son of Buzi** [T1+]
+- **Aurelius Augustinus** [T1+]
+- **Maimonides** [T1+]
+- **Sir Isaac Newton** [T1+]
+- **William Blake** [T1+]
+- **Yuval Noah Harari** [T1+] (mirrored from yuval_noah_harari.dossier.md)
+- **Felipe Guamán Poma de Ayala** [T1+] (mirrored from guaman_poma_de_ayala.dossier.md)
+- **Emanuel Swedenborg** [T1+] (mirrored from emanuel_swedenborg.dossier.md)
+- **Odoric of Pordenone** [T1+] (mirrored from odoric_of_pordenone.dossier.md)
+- **Judah Loew ben Bezalel** [T1+] (mirrored from judah_loew_ben_bezalel_the_maharal_of_prague.dossier.md)
+- **Origen of Alexandria** [T1+] (mirrored from origen.dossier.md)
+- **Tertullian** [T1+] (mirrored from tertullian.dossier.md)
+- **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
+- **Grigori Yefimovich Rasputin** [T1+] (mirrored from grigori_rasputin.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event | Status |

@@ -1099,6 +1099,22 @@ Only connections supported by the consulted record are included. Mere presence i
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Carl Gustav Jung** [T5]
+- **Sigmund Freud** [T3]
+- **Erich Mühsam** [T5]
+- **Gustav Landauer** [T3]
+- **Franz Pforr** [T5]
+- **Max Weber** [T3]
+- **Friedrich Nietzsche** [T1-]
+- **Karl Gräser** [T4] (mirrored from karl_graser.dossier.md)
+- **Hermann Hesse** [T4] (mirrored from hermann_hesse.dossier.md)
+- **Ida Hofmann** [T4] (mirrored from ida_hoffmann.dossier.md)
+- **Gustav Arthur "Gusto" Gräser** [T5] (mirrored from gusto_graeser.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

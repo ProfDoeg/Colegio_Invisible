@@ -1221,6 +1221,53 @@ No evidence-based personal crossing was identified with the overwhelming majorit
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Achille-Claude Debussy** [T9+]
+- **Engelbert Humperdinck** [T5]
+- **Friedrich Nietzsche** [T5]
+- **Mikhail Aleksandrovich Bakunin** [T4]
+- **Pyotr Ilyich Tchaikovsky** [T4]
+- **Friedrich Schiller** [T9-]
+- **Johann Wolfgang von Goethe** [T9-]
+- **Georg Wilhelm Friedrich Hegel** [T9-]
+- **Karl Marx** [T4]
+- **Gabriele d'Annunzio** [T1+]
+- **Theodor W. Adorno** [T1+]
+- **Walter Benjamin** [T1+]
+- **Erik Satie** [T9+]
+- **Igor Fyodorovich Stravinsky** [T9+]
+- **Friedrich Wilhelm Joseph Schelling** [T9-]
+- **Wolfgang Amadeus Mozart** [T9-]
+- **William Jefferson Clinton** [T9-]
+- **Wolfgang Amadeus Mozart** [T1-] (mirrored from wolfgang_amadeus_mozart.dossier.md)
+- **Marcel Proust** [T1+] (mirrored from marcel_proust.dossier.md)
+- **Philip Kindred Dick** [T1+] (mirrored from philip_k_dick.dossier.md)
+- **J. R. R. Tolkien** [T1+] (mirrored from tolkien.dossier.md)
+- **Miguel Serrano** [T1+] (mirrored from serrano.dossier.md)
+- **Isadora Duncan** [T9+] (mirrored from isadora_duncan.dossier.md)
+- **Claude Lévi-Strauss** [T1+] (mirrored from claude_levi_strauss.dossier.md)
+- **Edward Bulwer-Lytton** [T9-] (mirrored from bulwer_lytton.dossier.md)
+- **Rudolf Laban** [T9+] (mirrored from laban.dossier.md)
+- **Theodor Reuss** [T4] (mirrored from theodor_reuss.dossier.md)
+- **René Noël Théophile Girard** [T1+] (mirrored from rene_girard.dossier.md)
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T9-] (mirrored from brothers_grimm.dossier.md)
+- **Juan Eduardo Cirlot Laporta** [T1+] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Achille-Claude Debussy** [T1+] (mirrored from claude_debussy.dossier.md)
+- **Karl Max Engelmann** [T1+] (mirrored from engelmann.dossier.md)
+- **Sergei Pavlovich Diaghilev** [T3] (mirrored from sergei_diaghilev.dossier.md)
+- **George Balanchine** [T9+] (mirrored from george_balanchine.dossier.md)
+- **Hans Christian Andersen** [T5] (mirrored from hans_christian_andersen.dossier.md)
+- **Erik Satie** [T1+] (mirrored from erik_satie.dossier.md)
+- **Wassily Kandinsky** [T1+] (mirrored from wassily_kandinsky.dossier.md)
+- **Mikhail Aleksandrovich Bakunin** [T5] (mirrored from mikhail_bakunin.dossier.md)
+- **Fritz Lang** [T9+] (mirrored from fritz_lang.dossier.md)
+- **Antoni Gaudí i Cornet** [T3] (mirrored from antoni_gaudi.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+- **Suzanne Perrottet** [T9+] (mirrored from suzanne_perrottet.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

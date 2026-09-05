@@ -569,6 +569,22 @@ The fairest documentary synthesis is neither “powerless talking shop” nor �
 
 No additional roster crossing was included where the available evidence showed only attendance at the same large WEF meeting, institutional affiliation without demonstrated contact, thematic similarity, or unsupported claims of influence. In particular, generalized “Davos network” membership was not treated as proof of a Schwab connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Milton Friedman** [T1-]
+- **George Soros** [T3]
+- **Nelson Rolihlahla Mandela** [T5]
+- **William Jefferson Clinton** [T5]
+- **William Henry Gates III** [T3]
+- **Javier Gerardo Milei** [T3]
+- **Volodymyr Oleksandrovych Zelenskyy** [T5]
+- **James "Jamie" Dimon** [T5] (mirrored from jamie_dimon.dossier.md)
+- **Yuval Noah Harari** [T4] (mirrored from yuval_noah_harari.dossier.md)
+- **Laurence Douglas "Larry" Fink** [T4] (mirrored from larry_fink.dossier.md)
+- **William Henry Gates III** [T5] (mirrored from bill_gates.dossier.md)
+
 ## Sources
 
 https://www.weforum.org/about/klaus-schwab/

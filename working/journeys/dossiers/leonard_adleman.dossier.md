@@ -1065,6 +1065,27 @@ No documentary evidence of a meeting, correspondence, collaboration, rivalry, fa
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adi Shamir** [T5]
+- **Ronald Linn Rivest** [T5]
+- **Bailey Whitfield Diffie** [T3]
+- **Martin Edward Hellman** [T3]
+- **Ralph Charles Merkle** [T4]
+- **Alan Mathison Turing** [T1-]
+- **Claude Elwood Shannon** [T1-]
+- **Richard Dawkins** [T1-]
+- **Martin Edward Hellman** [T9-] (mirrored from hellman.dossier.md)
+- **Robert Elliot Kahn** [T4] (mirrored from bob_kahn.dossier.md)
+- **Philip R. Zimmermann** [T9+] (mirrored from phil_zimmermann.dossier.md)
+- **Vinton Gray Cerf** [T5] (mirrored from vint_cerf.dossier.md)
+- **David Lee Chaum** [T1+] (mirrored from david_chaum.dossier.md)
+- **Leslie Barry Lamport** [T9+] (mirrored from leslie_barry_lamport.dossier.md)
+- **Bailey Whitfield Diffie** [T4] (mirrored from diffie.dossier.md)
+- **Donald Ervin Knuth** [T9+] (mirrored from donald_ervin_knuth.dossier.md)
+
 ## Sources
 
 https://amturing.acm.org/pdf/AdlemanTuringTranscript.pdf

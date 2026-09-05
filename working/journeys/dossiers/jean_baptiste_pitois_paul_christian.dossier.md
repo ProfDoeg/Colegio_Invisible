@@ -2276,6 +2276,31 @@ Decker and Dummett’s *A History of the Occult Tarot, 1870–1970* traces the l
 
 No additional T2, T4, T5, or T9 crossings with the supplied roster were located that could be supported without inferring relationships from mere contemporaneity, shared geography, or later occult influence.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Emir Abdelkader ibn Muhieddine** [T1-]
+- **Antoine Court de Gébelin** [T1-]
+- **Honoré de Balzac** [T3]
+- **Giuseppe Balsamo** [T1-]
+- **Plato** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Paul the Apostle** [T1-]
+- **Moses** [T1-]
+- **King Solomon** [T1-]
+- **Hiram Abiff** [T1-]
+- **Zoroaster** [T1-]
+- **Paracelsus** [T1-]
+- **Johann Georg Faust** [T1-]
+- **Constantine the Great** [T1-]
+- **Charlemagne** [T1-]
+- **Gilles de Montmorency-Laval** [T1-]
+- **Louis XVI** [T1-]
+- **Empress Joséphine** [T1-]
+- **Napoleon Bonaparte** [T1-]
+- **Emanuel Swedenborg** [T1-]
+
 ## Sources
 
 https://catalogue.bnf.fr/ark%3A/12148/cb12327453r

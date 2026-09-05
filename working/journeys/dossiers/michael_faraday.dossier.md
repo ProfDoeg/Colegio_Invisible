@@ -525,6 +525,33 @@ Faraday’s canonical status has also generated tension. “Genius without mathe
 
 No qualifying T2 prophecy/hyperstition or T9 shared-object transmission was established with the roster. The familiar Faraday–Tesla and Faraday–Einstein relationships are posthumous intellectual or technological lineages, not personal crossings and not, without a specific transmitted object or authored engagement, one of the six defined connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Augusta Ada King** [T5]
+- **Augusta Ada King** [T3]
+- **Alexander von Humboldt** [T5]
+- **Charles Babbage** [T5]
+- **Charles Babbage** [T3]
+- **Charles John Huffam Dickens** [T3]
+- **Sir George Gabriel Stokes** [T3]
+- **James Clerk Maxwell** [T3]
+- **William Thomson** [T5]
+- **William Thomson** [T3]
+- **Norbert Wiener** [T1+] (mirrored from norbert_wiener.dossier.md)
+- **Sir George Gabriel Stokes** [T5] (mirrored from george_gabriel_stokes.dossier.md)
+- **Benjamin Franklin** [T1-] (mirrored from benjamin_franklin.dossier.md)
+- **Thomas Alva Edison** [T3] (mirrored from thomas_edison.dossier.md)
+- **Paul Adrien Maurice Dirac** [T1+] (mirrored from dirac.dossier.md)
+- **Sir William Rowan Hamilton** [T5] (mirrored from william_rowan_hamilton.dossier.md)
+- **Nikola Tesla** [T9+] (mirrored from nikola_tesla.dossier.md)
+- **Sir Isaac Newton** [T1-] (mirrored from newton.dossier.md)
+- **James Clerk Maxwell** [T1+] (mirrored from james_clerk_maxwell.dossier.md)
+- **James Clerk Maxwell** [T5] (mirrored from james_clerk_maxwell.dossier.md)
+- **Alexander Graham Bell** [T3] (mirrored from alexander_graham_bell.dossier.md)
+- **William R. Bradshaw** [T1+] (mirrored from william_r_bradshaw.dossier.md)
+
 ## Sources
 
 https://www.rigb.org/explore-science/explore/person/michael-faraday-1791-1867

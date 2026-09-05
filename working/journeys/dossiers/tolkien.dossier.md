@@ -1347,6 +1347,33 @@ No reliable life crossing was established with the great majority of the 896-per
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **William Morris** [T3]
+- **Arthur Scherbius** [T3]
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T3]
+- **Homer** [T3]
+- **Publius Vergilius Maro** [T3]
+- **Dante Alighieri** [T1-]
+- **William Blake** [T3]
+- **Friedrich Max Müller** [T3]
+- **Wilhelm Richard Wagner** [T1-]
+- **George Orwell** [T3]
+- **Jorge Luis Borges** [T3]
+- **Stephen Edwin King** [T1+]
+- **Merlin** [T1-] (mirrored from merlin.dossier.md)
+- **Frank Herbert** [T3] (mirrored from frank_herbert.dossier.md)
+- **San Brendan de Clonfert** [T1-] (mirrored from san_brendan.dossier.md)
+- **Alexander Caedmon Karp** [T9+] (mirrored from alex_karp.dossier.md)
+- **Morgan le Fay** [T1-] (mirrored from morgan-le-fay.dossier.md)
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T9-] (mirrored from brothers_grimm.dossier.md)
+- **Peter Andreas Thiel** [T1+] (mirrored from peter_thiel.dossier.md)
+- **Guinevere** [T1-] (mirrored from guinevere.dossier.md)
+- **Lancelot** [T1-] (mirrored from lancelot.dossier.md)
+- **Parzival** [T1-] (mirrored from parzival.dossier.md)
+
 ## Sources
 
 https://www.tolkienestate.com/life/biography/

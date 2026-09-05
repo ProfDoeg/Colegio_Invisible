@@ -804,6 +804,15 @@ Crowley is not included under his ordinary name in the supplied roster. No atlas
 - **Nature:** No documented meeting, correspondence, collaboration, or influence located.
 - **Evidence:** **Absence is the finding.**
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Jacques Marie Émile Lacan** [T1-]
+- **Slavoj Žižek** [T3]
+- **Richard Dawkins** [T3]
+- **Luis Alberto Spinetta** [T4]
+
 ## Chronology
 
 - **1950:** Born in Buenos Aires; exact date and parents unknown.

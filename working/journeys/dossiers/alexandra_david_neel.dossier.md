@@ -945,6 +945,17 @@ No adequately documented personal crossing was established with René Guénon, N
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Annie Besant** [T3]
+- **Helena Petrovna Blavatsky** [T9-]
+- **Rabindranath Tagore** [T5]
+- **Friedrich Nietzsche** [T3]
+- **Nicholas Konstantinovich Roerich** [T3] (mirrored from nicholas_roerich.dossier.md)
+- **Erwin Rudolf Josef Alexander Schrödinger** [T4] (mirrored from erwin_schrodinger.dossier.md)
+
 ## Chronology
 
 | Date/year | Event |

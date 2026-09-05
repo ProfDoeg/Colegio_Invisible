@@ -698,6 +698,18 @@ Agartha now circulates in New Age literature, games, comics, animation, music, c
 
 - **[T1−] Documented fact:** Saint-Yves wrote the memorial pamphlet *Les Funérailles de Victor Hugo, par l’auteur des Missions* in **Paris in 1885**, the year of Hugo’s death. Saint-Yves had moved to Jersey in **1863** under the attraction of Hugo’s works and reputation, but Hugo had resided on Guernsey since 1855; the sources consulted do not securely establish a personal meeting or friendship, so no T4 or T5 connection is assigned. [Biographical and publication record](https://fr.wikipedia.org/wiki/Alexandre_Saint-Yves_d%27Alveydre#Biographie)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Helena Petrovna Blavatsky** [T3]
+- **Jesus of Nazareth** [T1-]
+- **Joan of Arc** [T1-]
+- **Moses** [T1-]
+- **René Guénon** [T1+]
+- **René Guénon** [T9+]
+- **Victor-Marie Hugo** [T1-]
+
 ## Sources
 
 https://fr.wikipedia.org/wiki/Alexandre_Saint-Yves_d%27Alveydre

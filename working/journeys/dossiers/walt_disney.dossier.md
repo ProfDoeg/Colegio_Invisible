@@ -621,6 +621,28 @@ The 2024 entry of the 1928 version of *Steamboat Willie* into the U.S. public do
 
 No reliable record establishes a personal or professional crossing between Disney and roster members **Carl Gustav Jung** or **Edward Bernays**. Likewise, the frequently repeated claim that Disney met **Benito Mussolini** in 1935 remains disputed by contradictory recollections and the absence of Disney’s name from the surviving official reception schedule; it is therefore not recorded above as a genuine crossing.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Abraham Lincoln** [T1-]
+- **Benjamin Franklin** [T1-]
+- **Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez** [T5]
+- **George Balanchine** [T4]
+- **Igor Fyodorovich Stravinsky** [T5]
+- **John Chapman** [T1-]
+- **Maurice Bernard Sendak** [T3]
+- **Robert Moses** [T5]
+- **Merlin** [T1-] (mirrored from merlin.dossier.md)
+- **Sir James Matthew Barrie** [T9-] (mirrored from james_matthew_barrie.dossier.md)
+- **Jean Baudrillard** [T1+] (mirrored from jean_baudrillard.dossier.md)
+- **Le Corbusier** [T4] (mirrored from le_corbusier.dossier.md)
+- **Lyman Frank Baum** [T9-] (mirrored from l_frank_baum.dossier.md)
+- **Paul Klee** [T4] (mirrored from paul_klee.dossier.md)
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T9-] (mirrored from brothers_grimm.dossier.md)
+- **Hans Christian Andersen** [T1-] (mirrored from hans_christian_andersen.dossier.md)
+- **Jules Gabriel Verne** [T9-] (mirrored from jules_verne.dossier.md)
+
 ## Sources
 https://d23.com/about-walt-disney/
 https://d23.com/disney-history/

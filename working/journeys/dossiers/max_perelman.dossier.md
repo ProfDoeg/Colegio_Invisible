@@ -1462,6 +1462,13 @@ Where a source repeated a claim derived from an oral witness, that status is ide
 
 No other atlas-roster crossing was supported strongly enough by the dossier or targeted source checks to include. In particular, shared cities, broad Yiddish-theatre milieu, Israeli public life, or association with tango do not by themselves establish a qualifying connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Gita Galina** [T5]
+- **Golda Meir** [T3]
+
 ## Sources
 
 https://publicaciones.filo.uba.ar/sites/publicaciones.filo.uba.ar/files/Diccionario%20tomo%20II_interactivo.pdf

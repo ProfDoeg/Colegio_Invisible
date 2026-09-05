@@ -721,6 +721,52 @@ The mausoleum’s continued preservation is itself contested memory. Reuters rep
 
 - **[T4] Documented fact.** Duncan came to Moscow in 1921 with Soviet authorization to establish a dance school and entered the cultural-administrative milieu of Lenin’s government. Lenin’s surviving letter to Foreign Commissar Georgy Chicherin of 25 July 1921 addressed official arrangements for her visit. This documents institutional proximity but does not, by itself, establish a personal meeting between Duncan and Lenin; later claims that Lenin personally invited or met her should therefore not be upgraded to T5 without firmer contemporary evidence. [Lenin’s letter concerning Duncan](https://wikirouge.net/texts/en/Letter_to_Georgy_Chicherin%2C_July_25%2C_1921)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Karl Marx** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Mikhail Aleksandrovich Bakunin** [T1-]
+- **Rosa Luxemburg** [T3]
+- **Lev Davidovich Bronstein** [T5]
+- **Herbert George Wells** [T5]
+- **Isadora Duncan** [T4]
+- **Ludwig Heinrich Edler von Mises** [T1+] (mirrored from ludwig_von_mises.dossier.md)
+- **Cecil John Rhodes** [T1-] (mirrored from cecil_rhodes.dossier.md)
+- **Nicholas Konstantinovich Roerich** [T1+] (mirrored from nicholas_roerich.dossier.md)
+- **Mao Zedong** [T3] (mirrored from mao_zedong.dossier.md)
+- **Hugo Rafael Chávez Frías** [T1+] (mirrored from hugo_chavez.dossier.md)
+- **Nelson Rolihlahla Mandela** [T3] (mirrored from nelson_mandela.dossier.md)
+- **Paulo Reglus Neves Freire** [T1+] (mirrored from paulo_freire.dossier.md)
+- **Wilhelm Reich** [T1+] (mirrored from reich.dossier.md)
+- **Vladimir Medem** [T3] (mirrored from vladimir_medem.dossier.md)
+- **Isadora Duncan** [T3] (mirrored from isadora_duncan.dossier.md)
+- **Avram Noam Chomsky** [T1+] (mirrored from noam_chomsky.dossier.md)
+- **Frida Kahlo** [T1+] (mirrored from frida_kahlo.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T1+] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Rudolf Rocker** [T3] (mirrored from rudolf_rocker.dossier.md)
+- **Antonio Francesco Gramsci** [T3] (mirrored from antonio_gramsci.dossier.md)
+- **Antonio Francesco Gramsci** [T4] (mirrored from antonio_gramsci.dossier.md)
+- **Fidel Alejandro Castro Ruz** [T3] (mirrored from fidel_castro.dossier.md)
+- **Aron Iosifovich Kremer** [T3] (mirrored from arkadi_kremer.dossier.md)
+- **Roland Gérard Barthes** [T3] (mirrored from roland_barthes.dossier.md)
+- **Erich Seligmann Fromm** [T1+] (mirrored from erich_fromm.dossier.md)
+- **Joseph Alois Schumpeter** [T1+] (mirrored from joseph_schumpeter.dossier.md)
+- **Cecilia Vicuña** [T1+] (mirrored from cecilia_vicuna.dossier.md)
+- **Lev Davidovich Bronstein** [T3] (mirrored from leon_trotsky.dossier.md)
+- **Lev Davidovich Bronstein** [T1+] (mirrored from leon_trotsky.dossier.md)
+- **Rosa Luxemburg** [T5] (mirrored from rosa_luxemburg.dossier.md)
+- **Ernesto "Che" Guevara** [T3] (mirrored from che_guevara.dossier.md)
+- **Herbert Marcuse** [T1+] (mirrored from herbert_marcuse.dossier.md)
+- **Felix José Weil** [T9+] (mirrored from felix_weil.dossier.md)
+- **Georges Sorel** [T3] (mirrored from georges_sorel.dossier.md)
+- **Salvador Guillermo Allende Gossens** [T1+] (mirrored from salvador_allende.dossier.md)
+- **Nicos Poulantzas** [T1+] (mirrored from nicos_poulantzas.dossier.md)
+- **Victor Alter** [T4] (mirrored from victor_alter.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+- **Erich Mühsam** [T3] (mirrored from erich_muhsam.dossier.md)
+
 ## Sources
 
 https://www.marxists.org/archive/lenin/works/cw/index.htm

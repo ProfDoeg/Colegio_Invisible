@@ -1141,6 +1141,17 @@ No supported direct crossing was located with the remaining atlas figures. Sever
 
 Absence of a listed connection is therefore a finding of this research pass, not a claim that Stroustrup never attended the same large event or indirectly encountered a person’s work.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Dennis MacAlistair Ritchie** [T5]
+- **Kenneth Lane Thompson** [T4]
+- **Linus Benedict Torvalds** [T3]
+- **Dennis MacAlistair Ritchie** [T3] (mirrored from dennis_ritchie.dossier.md)
+- **Dennis MacAlistair Ritchie** [T4] (mirrored from dennis_ritchie.dossier.md)
+- **Kenneth Lane Thompson** [T3] (mirrored from ken_thompson.dossier.md)
+
 ## Chronology
 
 - **30 December 1950:** Born in Aarhus, Denmark, to Egon and Ingrid Stroustrup.

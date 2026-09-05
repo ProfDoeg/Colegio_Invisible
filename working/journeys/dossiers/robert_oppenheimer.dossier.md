@@ -1084,6 +1084,30 @@ Some occupied adjacent political, intellectual, Jewish, psychological, anticolon
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Einstein** [T5]
+- **Niels Bohr** [T5]
+- **Enrico Fermi** [T5]
+- **Paul Adrien Maurice Dirac** [T5]
+- **Erwin Rudolf Josef Alexander Schrödinger** [T4]
+- **Werner Heisenberg** [T5]
+- **Wolfgang Ernst Pauli** [T3]
+- **John von Neumann** [T5]
+- **Richard Phillips Feynman** [T5]
+- **John Fitzgerald Kennedy** [T9-]
+- **John Fitzgerald Kennedy** [T3] (mirrored from john_f_kennedy.dossier.md)
+- **Chaim Azriel Weizmann** [T5] (mirrored from chaim_weizmann.dossier.md)
+- **Wolfgang Ernst Pauli** [T4] (mirrored from wolfgang_pauli.dossier.md)
+- **Alexander Caedmon Karp** [T1+] (mirrored from alex_karp.dossier.md)
+- **Tony Hilton Royle Skyrme** [T4] (mirrored from tony_skyrme.dossier.md)
+- **Albert Einstein** [T4] (mirrored from einstein.dossier.md)
+- **David Ben-Gurion** [T5] (mirrored from david_ben_gurion.dossier.md)
+- **Edward Witten** [T9+] (mirrored from edward_witten.dossier.md)
+- **Felix Adler** [T9-] (mirrored from felix_adler.dossier.md)
+
 ## Compact Chronology
 
 | Date | Event |

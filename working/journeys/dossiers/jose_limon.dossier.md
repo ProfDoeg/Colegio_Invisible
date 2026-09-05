@@ -913,6 +913,22 @@ No additional documented connections were established after checking names most 
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Doris Batcheller Humphrey** [T5]
+- **Isadora Duncan** [T3]
+- **Martha Graham** [T5]
+- **Ted Shawn** [T9-]
+- **Ruth St. Denis** [T9-]
+- **Merce Cunningham** [T4] (mirrored from merce_cunningham.dossier.md)
+- **Ted Shawn** [T3] (mirrored from ted_shawn.dossier.md)
+- **Ted Shawn** [T4] (mirrored from ted_shawn.dossier.md)
+- **Dore Hoyer** [T5] (mirrored from dore_hoyer.dossier.md)
+- **Martha Graham** [T4] (mirrored from martha_graham.dossier.md)
+- **Hanya Holm** [T4] (mirrored from hanya_holm.dossier.md)
+
 ## Chronology
 
 - **1907, April:** Florencio Limón and Francisca Traslaviña marry, according to Limón’s memoir.

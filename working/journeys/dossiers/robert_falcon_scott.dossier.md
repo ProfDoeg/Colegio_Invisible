@@ -2044,6 +2044,20 @@ Scott remains simultaneously:
 
 No additional roster crossing was included where the available material showed only indirect association, influence through Kathleen Scott, broad contemporaneity, or later comparison without contact.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Sir Ernest Henry Shackleton** [T5]
+- **Sir Ernest Henry Shackleton** [T3]
+- **Roald Engebreth Gravning Amundsen** [T3]
+- **Roald Engebreth Gravning Amundsen** [T9-]
+- **Sir James Matthew Barrie** [T5]
+- **Sir James Matthew Barrie** [T3]
+- **Sir Arthur Ignatius Conan Doyle** [T3]
+- **Auguste Rodin** [T4]
+- **Roald Engebreth Gravning Amundsen** [T1+] (mirrored from roald_amundsen.dossier.md)
+
 ## Sources
 
 https://www.oxforddnb.com/display/10.1093/ref%3Aodnb/9780198614128.001.0001/odnb-9780198614128-e-35994

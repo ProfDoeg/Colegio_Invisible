@@ -583,6 +583,34 @@ Keynes’s reputation contains several distinguishable figures: the Cambridge ae
 
 - **[T1+]** **Documented fact.** After Keynes’s death, Schumpeter wrote the substantial biographical and analytical essay “John Maynard Keynes 1883–1946,” published in *The Economic Journal* in 1946. Keynes is therefore the earlier, written-about figure in this posthumous connection. The essay assessed Keynes’s career, social position, policy work, and place in economic analysis rather than merely recording his death. [Bibliographic reproduction](https://external.dandelon.com/download/attachments/dandelon/ids/CH001580B0FB944BA089BC12575F00043AF4F.pdf)
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Friedrich August von Hayek** [T3]
+- **Friedrich August von Hayek** [T5]
+- **Herbert George Wells** [T3]
+- **Alan Mathison Turing** [T4]
+- **Sir Isaac Newton** [T1-]
+- **Sir Isaac Newton** [T9-]
+- **Pablo Ruiz Picasso** [T9-]
+- **Joseph Alois Schumpeter** [T1+]
+- **Ludwig Heinrich Edler von Mises** [T3] (mirrored from ludwig_von_mises.dossier.md)
+- **Ludwig Heinrich Edler von Mises** [T1+] (mirrored from ludwig_von_mises.dossier.md)
+- **William Jefferson Clinton** [T1+] (mirrored from bill_clinton.dossier.md)
+- **John Fitzgerald Kennedy** [T1+] (mirrored from john_f_kennedy.dossier.md)
+- **Paul Moritz Warburg** [T5] (mirrored from paul_warburg.dossier.md)
+- **Paul Moritz Warburg** [T3] (mirrored from paul_warburg.dossier.md)
+- **Karl Marx** [T1-] (mirrored from karl_marx.dossier.md)
+- **Adam Smith** [T1-] (mirrored from adam_smith.dossier.md)
+- **Joseph Alois Schumpeter** [T3] (mirrored from joseph_schumpeter.dossier.md)
+- **Joseph Alois Schumpeter** [T5] (mirrored from joseph_schumpeter.dossier.md)
+- **Milton Friedman** [T1+] (mirrored from milton_friedman.dossier.md)
+- **Charles de Ganahl Koch** [T1+] (mirrored from charles_koch.dossier.md)
+- **Arthur James Balfour** [T1-] (mirrored from arthur_balfour.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **Yanis Varoufakis** [T1+] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Sources
 
 https://archivesearch.lib.cam.ac.uk/repositories/7/resources/1239

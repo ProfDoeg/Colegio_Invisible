@@ -831,6 +831,44 @@ Only connections supported by the consulted evidence are included. Shared chrono
 
 No supported direct connections were found with the remaining names on the atlas roster. This absence is significant: Schelling’s documented personal network is concentrated in Württemberg, Jena-Weimar Romanticism, Bavarian academies, Prussian court-university culture, and the European philosophical audience of his Berlin lectures.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Georg Wilhelm Friedrich Hegel** [T5]
+- **Friedrich August von Hayek** [T5]
+- **Johann Gottlieb Fichte** [T5]
+- **Johann Wolfgang von Goethe** [T5]
+- **Friedrich Schiller** [T5]
+- **Novalis** [T5]
+- **Alexander von Humboldt** [T5]
+- **Immanuel Kant** [T1-]
+- **Jacob Boehme** [T1-]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **Plato** [T1-]
+- **Aristotle** [T1-]
+- **Giordano Bruno** [T1-]
+- **Søren Aabye Kierkegaard** [T3]
+- **Mikhail Aleksandrovich Bakunin** [T3]
+- **Friedrich August von Hayek** [T3]
+- **Friedrich Nietzsche** [T1+]
+- **Martin Heidegger** [T1+]
+- **Jacques Derrida** [T1+]
+- **Jacques Marie Émile Lacan** [T1+]
+- **Theodor W. Adorno** [T1+]
+- **Slavoj Žižek** [T1+]
+- **Friedrich Max Müller** [T5] (mirrored from max_muller.dossier.md)
+- **Friedrich Schiller** [T4] (mirrored from schiller.dossier.md)
+- **Peter von Cornelius** [T4] (mirrored from peter_von_cornelius.dossier.md)
+- **Jürgen Habermas** [T1+] (mirrored from jurgen_habermas.dossier.md)
+- **Rudolf Steiner** [T1+] (mirrored from steiner.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T1+] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Johann Gottlieb Fichte** [T3] (mirrored from fichte.dossier.md)
+- **Friedrich Fröbel** [T1+] (mirrored from froebel.dossier.md)
+- **Wilhelm Richard Wagner** [T9+] (mirrored from richard_wagner.dossier.md)
+- **Ludwig Derleth** [T1+] (mirrored from ludwig_derleth.dossier.md)
+- **Novalis** [T4] (mirrored from novalis.dossier.md)
+
 ## Compact Chronology
 
 - **1775, 27 January:** Born at Leonberg.

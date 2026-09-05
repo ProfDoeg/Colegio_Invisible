@@ -530,6 +530,54 @@ There is no settled scholarly verdict on whether the philosophical achievement c
 
 No T2 prophecy/hyperstition or T9 shared-object transmission meeting the supplied definitions was found among the verified roster crossings. Mere influence claims, common subject matter, and unverified contemporaneous proximity have been omitted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Plato** [T1-]
+- **Paul the Apostle** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Thomas Aquinas** [T1-]
+- **Martin Luther** [T1-]
+- **René Descartes** [T1-]
+- **Gottfried Wilhelm Leibniz** [T1-]
+- **Immanuel Kant** [T1-]
+- **Johann Gottlieb Fichte** [T1-]
+- **Friedrich Schiller** [T1-]
+- **Friedrich Wilhelm Joseph Schelling** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Søren Aabye Kierkegaard** [T1-]
+- **Karl Marx** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Martin Mordechai Buber** [T5]
+- **Martin Mordechai Buber** [T3]
+- **Herbert Marcuse** [T5]
+- **Herbert Marcuse** [T3]
+- **Werner Heisenberg** [T3]
+- **Werner Heisenberg** [T4]
+- **Jean-Paul Charles Aymard Sartre** [T3]
+- **Theodor W. Adorno** [T1+]
+- **Jürgen Habermas** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Jacques Derrida** [T1+]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3] (mirrored from simone_de_beauvoir.dossier.md)
+- **Max Weber** [T4] (mirrored from max_weber.dossier.md)
+- **Frank Herbert** [T3] (mirrored from frank_herbert.dossier.md)
+- **Jürgen Habermas** [T3] (mirrored from jurgen_habermas.dossier.md)
+- **Winfried Georg Sebald** [T1+] (mirrored from w_g_sebald.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T1+] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **Mircea Eliade** [T3] (mirrored from mircea_eliade.dossier.md)
+- **Donna Jeanne Haraway** [T3] (mirrored from donna_haraway.dossier.md)
+- **John Rogers Searle** [T1+] (mirrored from john_searle.dossier.md)
+- **Jacques Marie Émile Lacan** [T5] (mirrored from jacques_lacan.dossier.md)
+- **Novalis** [T1-] (mirrored from novalis.dossier.md)
+- **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+- **Albert Camus** [T3] (mirrored from albert_camus.dossier.md)
+- **Max Horkheimer** [T3] (mirrored from max_horkheimer.dossier.md)
+
 ## Sources
 
 https://plato.stanford.edu/entries/heidegger/

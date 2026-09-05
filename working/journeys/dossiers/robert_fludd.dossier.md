@@ -1125,6 +1125,25 @@ No adequately documented meeting, correspondence, collaboration, patronage, riva
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Johannes Kepler** [T3]
+- **Paracelsus** [T1-]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1-]
+- **Giovanni Pico della Mirandola** [T1-]
+- **Johannes Reuchlin** [T1-]
+- **Johannes Trithemius** [T1-]
+- **Nicholas of Cusa** [T1-]
+- **Ramon Llull** [T1-]
+- **Christian Rosenkreuz** [T1-]
+- **Athanasius Kircher** [T1+]
+- **Carl Gustav Jung** [T1+]
+- **Wolfgang Ernst Pauli** [T1+]
+- **Frances Amelia Yates** [T1+]
+- **Arthur Edward Waite** [T1+] (mirrored from arthur_edward_waite.dossier.md)
+
 ## Chronology
 
 | Date | Event |

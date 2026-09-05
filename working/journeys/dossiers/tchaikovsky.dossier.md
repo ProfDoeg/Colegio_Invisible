@@ -947,6 +947,32 @@ No defensible direct connection was found in the reviewed sources for most of th
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Achille-Claude Debussy** [T3]
+- **Igor Fyodorovich Stravinsky** [T3]
+- **Sergei Pavlovich Diaghilev** [T9+]
+- **Wilhelm Richard Wagner** [T4]
+- **Wolfgang Amadeus Mozart** [T1-]
+- **Anna Matveyevna Pavlova** [T9+]
+- **George Balanchine** [T9+]
+- **Vaslav Nijinsky** [T9+]
+- **Friedrich Schiller** [T1-]
+- **Dante Alighieri** [T1-]
+- **Igor Fyodorovich Stravinsky** [T4] (mirrored from igor_stravinsky.dossier.md)
+- **Igor Fyodorovich Stravinsky** [T1+] (mirrored from igor_stravinsky.dossier.md)
+- **Wolfgang Amadeus Mozart** [T9-] (mirrored from wolfgang_amadeus_mozart.dossier.md)
+- **Isadora Duncan** [T9+] (mirrored from isadora_duncan.dossier.md)
+- **Andrew Carnegie** [T3] (mirrored from andrew_carnegie.dossier.md)
+- **Maurice Bernard Sendak** [T9+] (mirrored from maurice_sendak.dossier.md)
+- **Achille-Claude Debussy** [T9-] (mirrored from claude_debussy.dossier.md)
+- **Charles de Ganahl Koch** [T1+] (mirrored from charles_koch.dossier.md)
+- **Sergei Pavlovich Diaghilev** [T5] (mirrored from sergei_diaghilev.dossier.md)
+- **Erik Satie** [T1+] (mirrored from erik_satie.dossier.md)
+- **Joan of Arc** [T9-] (mirrored from joan_of_arc.dossier.md)
+
 ## Compact Chronology
 
 - **1840:** Born 25 April O.S./7 May N.S. at Votkinsk.

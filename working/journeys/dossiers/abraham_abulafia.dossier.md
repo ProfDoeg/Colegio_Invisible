@@ -636,6 +636,22 @@ Each image selects a real feature and can become misleading when treated as the 
 
 No documented T2 prophecy/hyperstition crossing with a later roster figure was found. Likewise, no defensible T4, T5, or T9 connection was established from mere contemporaneity or comparison: in particular, the evidence does not document a meeting or correspondence with Moses de León or Ramon Llull, and later analogies to Dante, Leibniz, Babbage, Turing, or modern computing do not by themselves satisfy the specified connection types.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Maimonides** [T1-]
+- **Moses** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **Giovanni Pico della Mirandola** [T3]
+- **Johannes Reuchlin** [T3]
+- **Erich Seligmann Fromm** [T1+]
+- **Mircea Eliade** [T1+]
+- **Juan Eduardo Cirlot Laporta** [T3] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Giovanni Pico della Mirandola** [T1+] (mirrored from giovanni_pico_della_mirandola.dossier.md)
+- **Moses de Leon** [T3] (mirrored from moses_de_leon.dossier.md)
+
 ## Sources
 
 https://www.academia.edu/1823911/Moshe_Idel_The_Mystical_Experience_in_Abraham_Abulafia

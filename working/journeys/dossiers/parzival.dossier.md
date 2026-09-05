@@ -1544,6 +1544,30 @@ The strongest roster intersections are literary or receptional: King Arthur, Gui
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Kyot-Willehalm** [T1+]
+- **King Solomon** [T9-]
+- **Arthur of Lotharingia** [T5]
+- **Guinevere** [T4]
+- **Lancelot** [T4]
+- **Merlin** [T4]
+- **Morgan le Fay** [T4]
+- **The Lady of the Lake** [T4]
+- **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T1+]
+- **Engelbert Humperdinck** [T9+]
+- **Friedrich Nietzsche** [T1+]
+- **Carl Gustav Jung** [T1+]
+- **Rudolf Steiner** [T1+]
+- **J. R. R. Tolkien** [T1+]
+- **William Morris** [T1+]
+- **Jesus of Nazareth** [T9-]
+- **Mary Magdalene** [T9-]
+- **Merlin** [T9-] (mirrored from merlin.dossier.md)
+- **Kyot-Willehalm** [T5] (mirrored from kyot-willehalm.dossier.md)
+
 ## Chronology
 
 | Date or period | Event | Evidentiary status |

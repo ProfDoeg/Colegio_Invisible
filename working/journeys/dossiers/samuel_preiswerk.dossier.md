@@ -871,6 +871,16 @@ No documented meeting, correspondence, collaboration, rivalry, patronage, family
 
 Shared geography, religious subject matter, or mere contemporaneity was not treated as evidence of connection.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Carl Gustav Jung** [T1+]
+- **Abraham** [T1-]
+- **Moses** [T1-]
+- **Carl Gustav Jung** [T9+] (mirrored from jung.dossier.md)
+- **Carl Gustav Jung the elder** [T4] (mirrored from carl_gustav_jung_the_elder.dossier.md)
+
 ## Chronology
 
 | Date | Event |

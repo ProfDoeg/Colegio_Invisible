@@ -1131,6 +1131,56 @@ No credible direct connection was established between Derrida and most of the re
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Albert Camus** [T3]
+- **Jean-Paul Charles Aymard Sartre** [T3]
+- **Augustin-Louis Cauchy** [T5]
+- **Paul-Michel Foucault** [T5]
+- **Jacques Marie Émile Lacan** [T5]
+- **Claude Lévi-Strauss** [T3]
+- **René Noël Théophile Girard** [T5]
+- **Roland Gérard Barthes** [T5]
+- **Gilles Louis Rene Deleuze** [T5]
+- **Pierre-Félix Guattari** [T4]
+- **Jürgen Habermas** [T5]
+- **John Langshaw Austin** [T1-]
+- **John Rogers Searle** [T3]
+- **Martin Heidegger** [T1-]
+- **Friedrich Nietzsche** [T1-]
+- **Sigmund Freud** [T1-]
+- **Karl Marx** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Plato** [T1-]
+- **Aristotle** [T1-]
+- **Jean-Jacques Rousseau** [T1-]
+- **Immanuel Kant** [T1-]
+- **René Descartes** [T1-]
+- **Søren Aabye Kierkegaard** [T1-]
+- **Abraham** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Walter Benjamin** [T1-]
+- **Theodor W. Adorno** [T1-]
+- **Antonin Artaud** [T1-]
+- **James Augustine Aloysius Joyce** [T1-]
+- **Franz Pforr** [T1-]
+- **Paul the Apostle** [T3]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3] (mirrored from simone_de_beauvoir.dossier.md)
+- **Diogenes of Sinope** [T1-] (mirrored from diogenes_of_sinope.dossier.md)
+- **Martin Mordechai Buber** [T1-] (mirrored from martin_buber.dossier.md)
+- **Jean Baudrillard** [T3] (mirrored from jean_baudrillard.dossier.md)
+- **Friedrich Wilhelm Joseph Schelling** [T1-] (mirrored from schelling.dossier.md)
+- **Johann Gottlieb Fichte** [T1-] (mirrored from fichte.dossier.md)
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **René Noël Théophile Girard** [T4] (mirrored from rene_girard.dossier.md)
+- **Donna Jeanne Haraway** [T1+] (mirrored from donna_haraway.dossier.md)
+- **Gilles Louis Rene Deleuze** [T4] (mirrored from gilles_deleuze.dossier.md)
+- **Aristotle** [T3] (mirrored from aristotle.dossier.md)
+- **Mark Fisher** [T1+] (mirrored from mark_fisher.dossier.md)
+- **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+
 ## Chronology
 
 | Date | Event |

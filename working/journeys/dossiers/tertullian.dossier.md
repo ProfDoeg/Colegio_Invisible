@@ -777,6 +777,33 @@ Tertullian supplied language later central to catholic orthodoxy while later cat
 
 No secure T4 or T5 connection with another roster member is documented: none can presently be shown to have occupied the same specific time-and-place milieu with Tertullian or to have met him personally. The old identification of Tertullian with the jurist Tertullianus excerpted in Justinian I’s *Digest* is disputed and generally rejected, so it does not support a T9 connection with Justinian.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aaron the Levite** [T1-]
+- **Abraham** [T1-]
+- **Alexander the Great** [T1-]
+- **Paul the Apostle** [T1-]
+- **Simon bar Jonah** [T1-]
+- **Aristotle** [T1-]
+- **Marcus Tullius Cicero** [T1-]
+- **Dido** [T1-]
+- **Homer** [T1-]
+- **Jesus of Nazareth** [T1-]
+- **David ben Jesse** [T1-]
+- **Moses** [T1-]
+- **Noah son of Lamech** [T1-]
+- **Plato** [T1-]
+- **Aurelius Augustinus** [T3]
+- **Saint Thecla of Iconium** [T1-]
+- **King Solomon** [T1-]
+- **Publius Vergilius Maro** [T1-]
+- **Pindar of Thebes** [T3] (mirrored from pindar.dossier.md)
+- **Simon of Gitta** [T1-] (mirrored from simon_magus.dossier.md)
+- **Aurelius Augustinus** [T1+] (mirrored from saint_augustine_of_hippo.dossier.md)
+- **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
+
 ## Sources
 
 https://www.newadvent.org/fathers/2708.htm

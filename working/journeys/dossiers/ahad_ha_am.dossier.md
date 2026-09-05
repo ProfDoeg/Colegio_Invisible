@@ -619,6 +619,21 @@ The legacy is therefore not a moral verdict but a set of surviving structures an
 
 No adequately documented T2 prophecy/hyperstition crossing, or additional T1, T3, T4, T5, or T9 crossing with another roster member, was identified. Mere intellectual influence, later comparison, overlapping Zionist affiliation, or presence in the same broad geographical setting has therefore been omitted.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Moses** [T1-]
+- **Theodor Herzl** [T3]
+- **Theodor Herzl** [T4]
+- **Chaim Azriel Weizmann** [T3]
+- **Chaim Azriel Weizmann** [T5]
+- **Martin Mordechai Buber** [T3]
+- **Arthur James Balfour** [T9-]
+- **Avram Noam Chomsky** [T1+] (mirrored from noam_chomsky.dossier.md)
+- **Arthur James Balfour** [T4] (mirrored from arthur_balfour.dossier.md)
+- **Aaron David Gordon** [T3] (mirrored from aaron_david_gordon.dossier.md)
+
 ## Sources
 
 https://encyclopedia.yivo.org/article.aspx/ahad_ha-am

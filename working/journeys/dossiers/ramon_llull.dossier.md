@@ -989,6 +989,35 @@ No documentary life connection was found with the remaining roster members. In p
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Aristotle** [T1-]
+- **Aurelius Augustinus** [T1-]
+- **Nicholas of Cusa** [T1+]
+- **Giovanni Pico della Mirandola** [T1+]
+- **Giordano Bruno** [T1+]
+- **Heinrich Cornelius Agrippa von Nettesheim** [T1+]
+- **Athanasius Kircher** [T1+]
+- **Gottfried Wilhelm Leibniz** [T1+]
+- **René Descartes** [T1+]
+- **Sir Isaac Newton** [T1+]
+- **Jorge Luis Borges** [T1+]
+- **Norbert Wiener** [T1+] (mirrored from norbert_wiener.dossier.md)
+- **Jan Amos Komenský** [T1+] (mirrored from jan_amos_comenius.dossier.md)
+- **Roger Bacon** [T9-] (mirrored from roger_bacon.dossier.md)
+- **John Uri Lloyd** [T1+] (mirrored from john_uri_lloyd.dossier.md)
+- **Gottfried Wilhelm Leibniz** [T3] (mirrored from gottfried_wilhelm_leibniz.dossier.md)
+- **Giulio Camillo Delminio** [T1+] (mirrored from giulio_camillo.dossier.md)
+- **John Dee** [T3] (mirrored from john_dee.dossier.md)
+- **Juan Eduardo Cirlot Laporta** [T3] (mirrored from juan_eduardo_cirlot.dossier.md)
+- **Robert Fludd** [T1+] (mirrored from robert_fludd.dossier.md)
+- **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
+- **Arthur Edward Waite** [T1+] (mirrored from arthur_edward_waite.dossier.md)
+- **Paracelsus** [T1+] (mirrored from paracelsus.dossier.md)
+- **Ioan Petru Culianu** [T1+] (mirrored from ioan_petru_culianu.dossier.md)
+
 ## Chronology
 
 - **1229:** James I conquers Mallorca; Llull’s Barcelona family acquires a place in the new Christian settler society.

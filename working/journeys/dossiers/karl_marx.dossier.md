@@ -1173,6 +1173,116 @@ No defensible connection was found with the overwhelming majority of the atlas r
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Adam Smith** [T1-]
+- **Aristotle** [T1-]
+- **Immanuel Kant** [T1-]
+- **Georg Wilhelm Friedrich Hegel** [T1-]
+- **Jean-Jacques Rousseau** [T1-]
+- **Claude-Henri de Rouvroy** [T1-]
+- **Francois Marie Charles Fourier** [T1-]
+- **Honoré de Balzac** [T1-]
+- **Charles Robert Darwin** [T3]
+- **Abraham Lincoln** [T3]
+- **Mikhail Aleksandrovich Bakunin** [T5]
+- **Mao Zedong** [T1+]
+- **Vladimir Ilyich Ulyanov** [T1+]
+- **Lev Davidovich Bronstein** [T1+]
+- **Rosa Luxemburg** [T1+]
+- **Antonio Francesco Gramsci** [T1+]
+- **Walter Benjamin** [T1+]
+- **Theodor W. Adorno** [T1+]
+- **Max Horkheimer** [T1+]
+- **Herbert Marcuse** [T1+]
+- **Erich Seligmann Fromm** [T1+]
+- **Jean-Paul Charles Aymard Sartre** [T1+]
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T1+]
+- **Augustin-Louis Cauchy** [T1+]
+- **Paul-Michel Foucault** [T1+]
+- **Jacques Derrida** [T1+]
+- **Gilles Louis Rene Deleuze** [T1+]
+- **Pierre-Félix Guattari** [T1+]
+- **Jürgen Habermas** [T1+]
+- **Guy-Ernest Debord** [T1+]
+- **Slavoj Žižek** [T1+]
+- **George Orwell** [T1+]
+- **Albert Camus** [T1+]
+- **Carl Menger** [T1+]
+- **Eugen Böhm Ritter von Bawerk** [T1+]
+- **Ludwig Heinrich Edler von Mises** [T1+]
+- **Friedrich August von Hayek** [T1+]
+- **Joseph Alois Schumpeter** [T1+]
+- **John Maynard Keynes** [T1+]
+- **Milton Friedman** [T1+]
+- **Ernesto "Che" Guevara** [T1+]
+- **Fidel Alejandro Castro Ruz** [T1+]
+- **Salvador Guillermo Allende Gossens** [T1+]
+- **Hugo Rafael Chávez Frías** [T1+]
+- **Patrice Émery Lumumba** [T1+]
+- **Nelson Rolihlahla Mandela** [T1+]
+- **Paulo Reglus Neves Freire** [T1+]
+- **Augusto Boal** [T1+] (mirrored from augusto_boal.dossier.md)
+- **José Julián Martí Pérez** [T1+] (mirrored from jose_marti.dossier.md)
+- **Mao Zedong** [T3] (mirrored from mao_zedong.dossier.md)
+- **Yuval Noah Harari** [T1+] (mirrored from yuval_noah_harari.dossier.md)
+- **Simone Lucie Ernestine Marie Bertrand de Beauvoir** [T3] (mirrored from simone_de_beauvoir.dossier.md)
+- **William Jefferson Clinton** [T1+] (mirrored from bill_clinton.dossier.md)
+- **Napoleon Bonaparte** [T1-] (mirrored from napoleon.dossier.md)
+- **Max Weber** [T3] (mirrored from max_weber.dossier.md)
+- **Sir Thomas More** [T1-] (mirrored from thomas_more.dossier.md)
+- **Nelson Rolihlahla Mandela** [T3] (mirrored from nelson_mandela.dossier.md)
+- **Herbert George Wells** [T1+] (mirrored from h_g_wells.dossier.md)
+- **Wifredo Viladrich** [T9+] (mirrored from viladrich.dossier.md)
+- **Wilhelm Reich** [T1+] (mirrored from reich.dossier.md)
+- **William Morris** [T3] (mirrored from william_morris.dossier.md)
+- **William Morris** [T5] (mirrored from william_morris.dossier.md)
+- **Martin Heidegger** [T1+] (mirrored from martin_heidegger.dossier.md)
+- **Vladimir Medem** [T3] (mirrored from vladimir_medem.dossier.md)
+- **Jean Baudrillard** [T1+] (mirrored from jean_baudrillard.dossier.md)
+- **Avram Noam Chomsky** [T1+] (mirrored from noam_chomsky.dossier.md)
+- **Claude Lévi-Strauss** [T1+] (mirrored from claude_levi_strauss.dossier.md)
+- **Frida Kahlo** [T1+] (mirrored from frida_kahlo.dossier.md)
+- **Aleksandr Gelyevich Dugin** [T1+] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Johann Gottlieb Fichte** [T1-] (mirrored from fichte.dossier.md)
+- **Giuseppe Maria Garibaldi** [T3] (mirrored from giuseppe_garibaldi.dossier.md)
+- **Rudolf Rocker** [T1+] (mirrored from rudolf_rocker.dossier.md)
+- **Wilhelm Richard Wagner** [T4] (mirrored from richard_wagner.dossier.md)
+- **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
+- **Simón Bolívar** [T1-] (mirrored from bolivar.dossier.md)
+- **Alexander Caedmon Karp** [T1+] (mirrored from alex_karp.dossier.md)
+- **Alexander Baring** [T1-] (mirrored from alexander_baring.dossier.md)
+- **Peter Andreas Thiel** [T1+] (mirrored from peter_thiel.dossier.md)
+- **Camilo Torres Restrepo** [T1+] (mirrored from camilo_torres_restrepo.dossier.md)
+- **Donna Jeanne Haraway** [T1+] (mirrored from donna_haraway.dossier.md)
+- **Salomon Oppenheim jr.** [T9-] (mirrored from salomon_oppenheim.dossier.md)
+- **Fidel Alejandro Castro Ruz** [T3] (mirrored from fidel_castro.dossier.md)
+- **Giambattista Vico** [T1-] (mirrored from vico.dossier.md)
+- **Roland Gérard Barthes** [T3] (mirrored from roland_barthes.dossier.md)
+- **Jacques Marie Émile Lacan** [T1+] (mirrored from jacques_lacan.dossier.md)
+- **John Brown** [T1-] (mirrored from john_brown.dossier.md)
+- **Victor-Marie Hugo** [T3] (mirrored from victor_hugo.dossier.md)
+- **Cecilia Vicuña** [T1+] (mirrored from cecilia_vicuna.dossier.md)
+- **Émile Pouget** [T1+] (mirrored from emile_pouget.dossier.md)
+- **Ernesto "Che" Guevara** [T3] (mirrored from che_guevara.dossier.md)
+- **Charles de Ganahl Koch** [T1+] (mirrored from charles_koch.dossier.md)
+- **Charles Babbage** [T1-] (mirrored from charles_babbage.dossier.md)
+- **Murray Newton Rothbard** [T1+] (mirrored from murray_rothbard.dossier.md)
+- **Lucy Parsons** [T3] (mirrored from lucy_parsons.dossier.md)
+- **Gustav Landauer** [T1+] (mirrored from gustav_landauer.dossier.md)
+- **Aaron David Gordon** [T1+] (mirrored from aaron_david_gordon.dossier.md)
+- **Mark Fisher** [T1+] (mirrored from mark_fisher.dossier.md)
+- **Sigmund Freud** [T1+] (mirrored from freud.dossier.md)
+- **Felix José Weil** [T1+] (mirrored from felix_weil.dossier.md)
+- **Martin Luther** [T1-] (mirrored from martin_luther.dossier.md)
+- **Georges Sorel** [T1+] (mirrored from georges_sorel.dossier.md)
+- **John Dewey** [T1+] (mirrored from john_dewey.dossier.md)
+- **Nicos Poulantzas** [T1+] (mirrored from nicos_poulantzas.dossier.md)
+- **Victor Alter** [T1+] (mirrored from victor_alter.dossier.md)
+- **Yanis Varoufakis** [T1+] (mirrored from yanis_varoufakis.dossier.md)
+
 ## Chronology
 
 - **5 May 1818:** Born in Trier.
