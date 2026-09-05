@@ -1331,10 +1331,6 @@ Jefferson served as Washington’s secretary of state, 1790–1793. They worked 
 
 Lafayette joined Washington’s army in 1777, was wounded at Brandywine, received important commands, helped obtain French assistance, and became Washington’s close friend and symbolic adopted son. Their correspondence continued across the Atlantic. Washington assisted Lafayette’s family during his imprisonment and sheltered his son at Mount Vernon.
 
-### William Paterson — documented fact
-
-Paterson and Washington served together at the Constitutional Convention in Philadelphia in 1787. Paterson introduced the New Jersey Plan. As president, Washington nominated him to the United States Supreme Court in 1793.
-
 ### Prince Hall — documented fact
 
 Prince Hall, founder of African American Freemasonry, addressed Washington as a fellow Mason and president. Washington replied courteously in 1797. The exchange documents institutional contact through Freemasonry; no evidence establishes a close personal relationship.
@@ -1381,7 +1377,6 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Benjamin Franklin** [T5]
 - **Thomas Jefferson** [T5]
 - **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T5]
-- **William Paterson** [T4]
 - **Prince Hall** [T3]
 - **Francisco de Miranda** [T5]
 - **Louis XVI** [T3]

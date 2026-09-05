@@ -1018,10 +1018,6 @@ Only direct, source-supported relationships or documented intellectual influence
 
 **Documented cabinet association, ideological conflict, and political rivalry.** Hamilton and Jefferson served together under Washington in New York and Philadelphia. Their disputes over the bank, public debt, France, Britain, executive power, and constitutional construction helped create the Federalist and Republican party systems. Hamilton later helped prevent Aaron Burr from defeating Jefferson in the House election of 1801.
 
-### William Paterson
-
-**Documented shared institutional setting.** Paterson and Hamilton were delegates at the Constitutional Convention in Philadelphia in 1787. Paterson proposed the New Jersey Plan; Hamilton proposed a much more centralized plan. Their presence and positions are documented, although a close personal relationship is not.
-
 ### Alexander Baring and Sir Francis Baring
 
 **Reported institutional and financial connection, not a demonstrated close personal relationship.** The Baring banking network participated in the Atlantic financial world through which United States credit and foreign loans operated. Hamilton dealt more directly with Dutch bankers and American financial intermediaries during his Treasury tenure. The evidence consulted does not establish a substantial personal Hamilton–Alexander Baring relationship; Alexander Baring was still a young merchant during Hamilton’s lifetime.
@@ -1054,7 +1050,6 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **George Washington** [T5]
 - **Marie-Joseph Paul Yves Roch Gilbert du Motier** [T5]
 - **Thomas Jefferson** [T5]
-- **William Paterson** [T4]
 - **Napoleon Bonaparte** [T1-]
 - **William Jefferson Clinton** [T1+] (mirrored from bill_clinton.dossier.md)
 - **John Fitzgerald Kennedy** [T1+] (mirrored from john_f_kennedy.dossier.md)
