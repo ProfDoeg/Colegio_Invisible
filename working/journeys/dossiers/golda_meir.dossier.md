@@ -606,6 +606,40 @@ Her most durable nonmilitary legacies are the National Insurance and public-work
 | 2025 | New European-intelligence research revises history of Wrath of God. |
 | 2026 | Kyiv archival publicity highlights Old Style birth record and family metrical entries. |
 
+## Atlas Connections
+
+### David Ben-Gurion
+
+- **[T5] Documented fact:** Meir first saw Ben-Gurion speak in Milwaukee in 1917 and met him personally in Tel Aviv after both returned to Palestine in 1921. They subsequently worked together for decades in the Histadrut, Jewish Agency, Mapai, and Israeli government; both signed the Declaration of Independence on 14 May 1948. Their alliance later fractured over the Lavon Affair and Mapai split, followed by a partial personal reconciliation at Kibbutz Revivim in 1971. [National Library of Israel](https://blog.nli.org.il/en/golda-meir-and-david-ben-gurion/)
+- **[T3] Documented fact:** They corresponded privately and officially throughout their political association. Surviving examples include Ben-Gurion’s affectionate sixtieth-birthday letter to Meir in 1958; their written exchanges also addressed government, party, and security matters. [National Library of Israel](https://blog.nli.org.il/en/golda-meir-and-david-ben-gurion/)
+
+### Chaim Weizmann
+
+- **[T4] Documented fact:** Meir and Weizmann occupied the same senior Zionist institutional milieu, including the Jewish Agency Executive’s 1946 deliberations over testimony before the Anglo-American Committee: Weizmann was selected to present the political case and Meir to testify for the Histadrut. This establishes participation in the same organized leadership process, but the located record does not support describing them as close associates or friends. [Meron Medzini, *Golda Meir: A Political Biography*](https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/66/78/09/2019667809/2019667809.pdf)
+
+### John F. Kennedy
+
+- **[T5] Documented fact:** Kennedy met Israeli foreign minister Meir at Palm Beach, Florida, on 27 December 1962. The Kennedy Library preserves the White House photographic record, while the diplomatic papers identify the meeting as addressing Arab–Israeli security, refugees, and Israel’s nuclear program. [JFK Library](https://www.jfklibrary.org/asset-viewer/archives/jfkwhp-1962-12-27-a), [U.S. Department of State](https://history.state.gov/historicaldocuments/frus1961-63v18/d118)
+
+### John Foster Dulles
+
+- **[T5] Documented fact:** As Israeli foreign minister, Meir met U.S. secretary of state Dulles in Washington on 3 October 1958 for a forty-minute discussion of Middle Eastern policy and Israeli security. Abba Eban accompanied her. [Jewish Telegraphic Agency](https://www.jta.org/archive/golda-meir-meets-with-dulles-discuss-present-middle-east-situation)
+- **[T3] Documented fact:** Dulles subsequently sent Meir a secret diplomatic message dated 31 October 1958 concerning the United Arab Republic’s response to an interview and broader regional policy. [U.S. Department of State](https://history.state.gov/historicaldocuments/frus1958-60v13/d45)
+
+### Haile Selassie I
+
+- **[T5] Documented fact:** Meir met Emperor Haile Selassie at his palace during her 1962 visit to Ethiopia and introduced him to her daughter Sarah. In her memoir she explicitly distinguished the relationship from friendship, writing that they did not become “fast friends.” [Meir memoir excerpt](https://www.ethiopiaobserver.com/2017/01/13/prime-minister-golda-meir-emperor-haile-selassie/), [Meron Medzini, *Golda Meir: A Political Biography*](https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/66/78/09/2019667809/2019667809.pdf)
+
+### David Rockefeller
+
+- **[T5] Documented fact:** A published Council on Foreign Relations archival inventory identifies a photograph of Rockefeller with Prime Minister Meir at a 1973 black-tie function at the Harold Pratt House in New York. The photograph documents an in-person encounter but, by itself, does not establish friendship or a substantive bilateral discussion. [Council on Foreign Relations archival history](https://cdn.cfr.org/sites/default/files/book_pdf/Continuing_The_Inquiry.pdf)
+
+### Volodymyr Zelenskyy
+
+- **[T1+] Documented fact:** In his remote address to the Knesset on 20 March 2022, Zelenskyy invoked and quoted Kyiv-born Meir while arguing for stronger Israeli support for Ukraine following Russia’s invasion. Meir is the earlier, written-about figure and therefore carries the positive sign. [President of Ukraine](https://www.president.gov.ua/en/news/promova-prezidenta-ukrayini-volodimira-zelenskogo-v-kneseti-73701), [Knesset](https://m.knesset.gov.il/EN/News/PressReleases/Pages/press20322y.aspx)
+
+No additional roster names were included where the evidence showed only ideological influence, institutional succession, overlapping historical subject matter, or unverified contemporaneity rather than one of the specified connection types.
+
 ## Sources
 
 https://digicoll.library.wisc.edu/cgi/f/findaid/findaid-idx?c=wiarchives%3Bcc%3Dwiarchives%3Bview%3Dtext%3Brgn%3Dmain%3Bdidno%3Duw-mil-uwmmss0021

@@ -593,6 +593,33 @@ The fairest historical placement is plural: he was **one of the principal founde
 
 The research stopped after targeted follow-up because the principal chronological slots, major campaigns, institutional archive, controversial claims, and works were supported or explicitly bounded. The greatest remaining opportunities require on-site or item-level archival work: Bernays’s complete fee structure and estate, exact staff authorship of individual texts, complete correspondence with Freud, all foreign-government solicitations, and any direct link—if one exists—between his office and intelligence personnel. The absence of such item-level evidence is stated rather than filled by inference.
 
+## Atlas Connections
+
+### Sigmund Freud
+
+- **[T3] Documented fact:** Bernays and his uncle corresponded about family matters, American publication and promotion of Freud’s writings, royalties, and Bernays’s own books. Forty-eight letters and three telegrams from Freud to Bernays survive from September 1919 to May 1931, alongside copies of Bernays’s letters; related correspondence is preserved in the Edward L. Bernays Papers. ([Library of Congress](https://www.loc.gov/item/mm78012534/), [Christie’s catalog description](https://www.christies.com/en/lot/lot-2335132))
+- **[T5] Documented fact:** Their relationship included personal family contact as well as correspondence. Bernays visited Freud in Vienna and later helped the Freud family financially and editorially; the evidence supports an uncle–nephew relationship and publishing partnership, not the myth that Freud formally trained Bernays as a psychoanalyst. ([“Freud’s American Nephew,” *Psychoanalysis and History*](https://www.euppublishing.com/doi/full/10.3366/pah.2023.0452))
+- **[T1−] Documented fact:** As the later writer, Bernays repeatedly wrote about Freud in his books, articles, interviews, and especially *Biography of an Idea* (1965), interpreting Freud’s ideas and their relevance to public relations. His accounts are primary evidence for what Bernays claimed, but not independent proof of Freud’s operational influence on particular campaigns.
+
+### Sergei Diaghilev
+
+- **[T3] Documented fact:** In 1915–16 Bernays served as publicity manager for the American engagement of Diaghilev’s Ballets Russes. He produced publicity material and an extensive guide for advance promotion, framing ballet as a synthesis of music, drama, painting, costume, and dance for American audiences. This establishes professional, one-sided written engagement with Diaghilev and his company; the consulted evidence does not independently establish a friendship. ([Museum of Public Relations](https://www.prmuseum.org/pioneer-edward-bernays), [Library of Congress finding aid](https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/ms003016/ms003016.pdf))
+
+### Vaslav Nijinsky
+
+- **[T3] Documented fact:** Bernays’s Ballets Russes publicity work included written promotion of Nijinsky before and during the company’s American seasons, particularly the 1916 engagement in which Nijinsky appeared. Bernays later wrote about Nijinsky and the campaign in *Biography of an Idea*. This supports professional written engagement and publicity concerning the performer, but not a documented friendship. ([Museum of Public Relations](https://www.prmuseum.org/pioneer-edward-bernays), [contemporary-career account in the *Washington Post*](https://www.washingtonpost.com/archive/lifestyle/1984/05/23/sire-of-the-big-sell/80d665a5-063f-4124-bf0f-4c5324a916fb/))
+
+### Thomas Edison
+
+- **[T3] Documented fact:** In 1929 Bernays designed and publicized Light’s Golden Jubilee, a coordinated international commemoration centered on Edison and the fiftieth anniversary of the incandescent lamp. The campaign culminated on 21 October at the reconstructed Menlo Park laboratory and Edison Institute in Dearborn, Michigan, with Edison reenacting the lighting experiment for a national radio audience. Bernays therefore engaged Edison directly as the living subject and principal participant of a publicity project; the evidence does not require attributing the celebration solely to Bernays, since Henry Ford, General Electric, Westinghouse, and organizing committees also shaped it. ([Library of Congress National Recording Registry essay](https://www.loc.gov/static/programs/national-recording-preservation-board/documents/LIGHT%27S%20GOLDEN%20JUBILEE.pdf), [The Henry Ford](https://www.thehenryford.org/collections/explore/articles/detail/articles/2019/10/09/light-s-golden-jubilee-honors-thomas-edison-and-dedicates-a-museum))
+- **[T1−] Documented fact:** Bernays subsequently wrote and spoke about Edison and the Jubilee as a case study in constructing a national “godhead symbol,” including in his memoir and Bill Moyers interview. ([American Archive of Public Broadcasting](https://americanarchive.org/catalog/cpb-aacip-526-gx44q7rw3s))
+
+### Marie Curie
+
+- **[T4] Documented fact:** Curie was among the prominent invited participants at the 21 October 1929 Light’s Golden Jubilee gathering in Dearborn, the culminating event of the campaign Bernays organized. This supports shared event milieu; no consulted source establishes substantive personal interaction or friendship between Curie and Bernays. ([The Henry Ford event archive](https://www.thehenryford.org/collections/explore/sets/detail/painting-the-lights-golden-jubilee-banquet), [Library of Congress National Recording Registry essay](https://www.loc.gov/static/programs/national-recording-preservation-board/documents/LIGHT%27S%20GOLDEN%20JUBILEE.pdf))
+
+No additional roster crossing was included merely because Bernays mentioned a historical figure, shared an era or city with someone, drew on a broad intellectual tradition, or worked near institutions associated with that person. In particular, Light’s Golden Jubilee involved John D. Rockefeller **Jr.** and J. P. Morgan **Jr.**; those identities should not be conflated with the roster entries for John D. Rockefeller Sr. and John Pierpont Morgan Sr.
+
 ## Sources
 
 https://www.loc.gov/item/mm78012534/

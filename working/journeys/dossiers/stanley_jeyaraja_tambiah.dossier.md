@@ -2299,3 +2299,23 @@ https://journals.sagepub.com/doi/10.1177/006996687021001012
 https://www.cambridge.org/core/journals/modern-asian-studies/article/buddhism-and-thisworldly-activity/5F08EFCAF55628A6500D08E3F7A53239
 https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/past-in-the-present-in-sri-lanka-a-review-article/033F6A979A849337A9E9F704A5882BA6
 https://www.journals.uchicago.edu/doi/10.14318/hau7.3.002
+
+## Atlas Connections
+
+### Claude Lévi-Strauss
+
+- **[T1-] Documented fact.** Tambiah engaged extensively with Lévi-Strauss’s structural anthropology. His 1969 essay “Animals Are Good to Think and Good to Prohibit” explicitly tested and qualified the Lévi-Straussian interpretation of animal classification and dietary prohibitions using northeastern Thai ethnography; he concluded that his findings broadly affirmed Lévi-Strauss’s approach while emphasizing its ethical and behavioral dimensions. Tambiah encountered Lévi-Straussian structuralism through Edmund Leach after arriving at Cambridge in 1963. [Tambiah, *Culture, Thought, and Social Action*](https://noolaham.net/project/992/99183/99183.pdf); [Enciclopédia de Antropologia](https://ea.fflch.usp.br/autor/stanley-tambiah)
+
+### J. L. Austin
+
+- **[T1-] Documented fact.** Tambiah adopted Austin’s theory of performative utterances and extended it from speech acts to multimodal ritual action. The connection appears in “The Magical Power of Words” (1968) and reaches its mature form in the 1979 Radcliffe-Brown Lecture, “A Performative Approach to Ritual,” where Tambiah applied Austin’s examples and concepts to installation, initiation, mortuary, liturgical, and ceremonial rites. Tambiah later recalled discovering Austin’s work while at Cambridge and recognizing its anthropological potential. [Peirano’s interview with Tambiah](https://www.scielo.br/j/mana/a/vRZ7tFcLQKdBP85hbYTvWWd/?lang=pt); [discussion reproducing Tambiah’s Austin-based formulation](https://api.pageplace.de/preview/DT0400.9781134825110_A27737694/preview-9781134825110_A27737694.pdf)
+
+### Max Weber
+
+- **[T1-] Documented fact.** Tambiah repeatedly analyzed and revised Weber’s sociology of religion and authority. In “Buddhism and This-Worldly Activity” (1973), he expressly challenged Weber’s account of the relationship between religious ethics and economic or political action. In *The Buddhist Saints of the Forest and the Cult of Amulets* (1984), he devoted a chapter—“The Sources of Charismatic Leadership: Max Weber Revisited”—to contradictions and unresolved problems in Weber’s theory of charisma. [“Buddhism and This-Worldly Activity”](https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/buddhism-and-thisworldly-activity/5F08EFCAF55628A6500D08E3F7A53239); [Cambridge University Press chapter record](https://www.cambridge.org/core/books/abs/buddhist-saints-of-the-forest-and-the-cult-of-amulets/sources-of-charismatic-leadership-max-weber-revisited/DA7D404EDE81396AF42E94102FFB7109)
+
+### Paul the Apostle
+
+- **[T1-] Documented fact.** In his 1984 chapter on the sources of charismatic leadership, Tambiah traced the term *charisma* through its New Testament usage and specifically discussed Paul’s treatments of spiritual gifts in Romans 12 and 1 Corinthians 12 before evaluating Weber’s secular sociological formulation. [Cambridge University Press chapter record](https://www.cambridge.org/core/books/abs/buddhist-saints-of-the-forest-and-the-cult-of-amulets/sources-of-charismatic-leadership-max-weber-revisited/DA7D404EDE81396AF42E94102FFB7109)
+
+No further roster crossings were located that could be supported without inferring a relationship from shared subject matter, institutional milieu, travel, or historical reference alone.

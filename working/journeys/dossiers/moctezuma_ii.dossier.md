@@ -544,6 +544,35 @@ No single image exhausts the sources.
 - No physical remains permit forensic resolution of death.
 - Some major monographs consulted through bibliographic records and scholarly discussions are not fully open-access; conclusions in this dossier rely most heavily on the directly consulted editions and institutional essays listed below.
 
+## Atlas Connections
+
+### Hernán Cortés
+
+- **[T5]** **Documented fact:** Motecuhzoma and Cortés met on the causeway into Mexico-Tenochtitlan on **8 November 1519**. Cortés subsequently resided in the city, held Motecuhzoma under coercive Spanish control, and dealt with him repeatedly until the ruler’s death in late June 1520. The meeting is described in Cortés’s own *Second Letter* and in Indigenous and Spanish traditions, although their reported dialogue is disputed. [American Historical Association primary-source edition](https://www.historians.org/resource/cortes-on-meeting-moctezuma/), [Library of Congress](https://www.loc.gov/item/2021667098/)
+- **[T1+]** **Documented fact:** Cortés wrote extensively about Motecuhzoma—his court, dominions, reception of the Spaniards, captivity, and death—in the *Second Letter to Charles V*, signed **30 October 1520**. The connection is certain, though the letter’s claims about voluntary submission and responsibility for Motecuhzoma’s death are partisan and contested. [Early Americas Digital Archive](https://eada.lib.umd.edu/text-entries/second-letter-of-hernando-cortes-to-charles-v/)
+
+### Alexander von Humboldt
+
+- **[T1+]** **Documented fact:** After traveling through New Spain in **1803–1804**, Humboldt discussed the extent and character of “the empire of Montezuma” in his *Political Essay on the Kingdom of New Spain* and treated Mexica history, manuscripts, monuments, and pictorial writing in *Views of the Cordilleras*. His reconstruction depended on colonial histories and surviving material evidence rather than direct Indigenous testimony. [Cambridge University Press excerpt](https://assets.cambridge.org/97811080/77897/excerpt/9781108077897_excerpt.pdf), [Humboldt Studies journal](https://hin-online.de/index.php/hin/en/article/view/2)
+
+### Antonin Artaud
+
+- **[T1+]** **Documented fact:** Artaud made Motecuhzoma a central figure in the dramatic scenario *La Conquête du Mexique*, written in the early **1930s**. The unrealized theatrical project presents him symbolically as the embodiment of a ritual and metaphysical Mexican order confronting Cortés, not as a historically exact portrait. [Revista de la Universidad de México](https://www.revistadelauniversidad.mx/articles/fe05e532-ce7a-40fc-926f-61cf4e67857c/la-conquista-de-mexico-(traduccion-de-enrique-flores))
+
+### James Lewis Thomas Chalmers Spence
+
+- **[T1+]** **Documented fact:** Lewis Spence wrote about Motecuhzoma in *The Myths of Mexico & Peru* (**1913**), recounting his response to the Spaniards and repeating the postconquest Quetzalcoatl-return and Papantzin-prophecy traditions. The writing connection is documented; those prophetic narratives are **reported myth**, not secure evidence of Motecuhzoma’s preconquest beliefs. [Digitized text of *The Myths of Mexico & Peru*](https://www.arc-codex.com/library/53080), [book text and publication record](https://www.perlego.com/book/2308502/the-myths-of-mexico-peru-pdf)
+
+### Diego Rivera
+
+- **[T9+]** **Documented fact:** Motecuhzoma’s **New Houses** occupied the site on the eastern side of today’s Zócalo over which Mexico’s National Palace was subsequently constructed. Rivera painted his *History of Mexico* mural cycle there beginning in **1929**, including an idealized preconquest Mexica world. This is a shared-site connection across four centuries, not personal proximity. [Mexico City government history of the site](https://mexicocity.cdmx.gob.mx/venues/national-palace/?lang=en), [Smarthistory](https://smarthistory.org/mexico-diego-rivera-murals-national-palace/)
+
+### Sor Juana Inés de la Cruz
+
+- **[T9+]** **[reported fact]** The Mexican government’s institutional history identifies the National Palace—constructed over the ruins of Motecuhzoma Xocoyotzin’s New Houses—as a place where Sor Juana later lived and worked. This supports a successive-site connection, though the source does not specify the dates or rooms associated with her residence. [Government of Mexico, Palacio Nacional](https://www.gob.mx/palacionacional/articulos/patrimonio-edificado?idiom=es)
+
+No documented personal or causal crossing was found with **Atahualpa** or **Francisco Pizarro**. Their dossier relevance is comparative: the capture and exploitation of Indigenous rulers followed analogous conquest patterns, but the men never met, corresponded, shared a milieu, or exchanged an identifiable object.
+
 ## Sources
 
 https://www.noticonquista.unam.mx/amoxtli/2103/2098

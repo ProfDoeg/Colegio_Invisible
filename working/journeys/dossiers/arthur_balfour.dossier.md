@@ -661,6 +661,48 @@ Academic philosophy largely forgot Balfour, but his evolutionary argument agains
 - The bibliography covers identifiable books, major pamphlets, essays, specialist papers, compilations, and correspondence; a fully exhaustive bibliography of every speech, introduction, letter, and ephemeral printing requires Rasor’s annotated bibliography and archival catalogues.
 - Research stopped after primary and scholarly sources converged on the major chronology and controversies; further searches were returning derivative summaries rather than evidence likely to change confidence.
 
+## Atlas Connections
+
+### Ahad Ha'am
+
+- **[T4] Documented fact:** Ahad Ha'am and Balfour were both present at the ceremonial opening of the Hebrew University on Mount Scopus, Jerusalem, on 1 April 1925. The evidence establishes shared attendance, not a personal meeting. A contemporary account lists both among the assembled Zionist leaders and dignitaries. [Contemporary report](https://paperspast.natlib.govt.nz/newspapers/OW19250519.2.8)
+
+### Andrew Carnegie
+
+- **[T3] Documented fact:** Carnegie corresponded with Balfour, including a letter of 23 July 1903 discussing Anglo-American relations; Carnegie’s correspondence with Balfour is also represented in archival and biographical collections. [Scholarly archival citation](https://etheses.whiterose.ac.uk/id/eprint/473/1/uk_bl_ethos_270805_pdf.pdf)
+- **[T5] Reported fact:** Carnegie’s autobiography records personal discussions with Prime Minister Balfour concerning the administration of Carnegie’s Scottish university trust, including Balfour’s recommendation of Lord Elgin. [Carnegie’s autobiography](https://www.gutenberg.org/files/17976/17976-h/17976-h.htm)
+
+### Aristotle
+
+- **[T1-] Documented fact:** Balfour discussed Aristotle as a historical philosophical authority in *Theism and Humanism* (1915), comparing Aristotle’s medieval authority with that later exercised by Hegel and J. S. Mill. This is an intellectual-textual connection only. [Full text](https://tianmu.org/good-work-library/aquarian/philosophy-of-religion/theism-and-humanism-arthur-james-balfour)
+
+### Chaim Weizmann
+
+- **[T5] Documented fact:** Balfour and Weizmann first met in Manchester in late 1905 or early 1906; they met repeatedly during the 1917 Zionist negotiations, appeared together at the Hebrew University opening in Jerusalem on 1 April 1925, and Weizmann visited the ailing Balfour shortly before his death in 1930. Their sustained personal relationship is among Balfour’s best-documented atlas crossings. [Bloomsbury book description](https://www.bloomsbury.com/us/balfour-and-weizmann-9781847250407/), [National Library of Israel](https://www.nli.org.il/en/education/teaching-resources/primary-sources/nnl_edu997013134918305171)
+- **[T3] Documented fact:** Their connection also generated extensive correspondence and written political engagement concerning Zionism, proposed declaration language, Palestine policy, and the Hebrew University. On 19 June 1917 Balfour formally requested that Weizmann and Walter Rothschild submit a statement of Zionist aims for Cabinet consideration.
+
+### John Maynard Keynes
+
+- **[T1+] Documented fact:** Keynes, the later-born figure, wrote a posthumous assessment titled “Arthur Balfour,” originally associated with Balfour’s death in 1930 and subsequently collected in Keynes’s *Essays in Biography*. On Balfour’s dossier the sign is positive because Balfour is the earlier, written-about figure. [Cambridge University Press](https://www.cambridge.org/core/books/collected-writings-of-john-maynard-keynes/arthur-balfour/B8D4BD1349E4B346E595D1859CFE1053)
+
+### Paul Warburg
+
+- **[T4] Documented fact:** Paul Warburg and Balfour were both present at the Hebrew University’s formal opening on Mount Scopus, Jerusalem, on 1 April 1925. The surviving contemporary report supports common attendance but, without firmer evidence of direct interaction, not a T5 meeting. [Contemporary report](https://paperspast.natlib.govt.nz/newspapers/OW19250519.2.8)
+
+### Plato
+
+- **[T1-] Documented fact:** Balfour discussed Plato as an earlier philosopher in *Theism and Humanism* (1915), using him as an example in his treatment of philosophical and religious conceptions. The evidence supports textual engagement, not any stronger form of connection. [Full text](https://tianmu.org/good-work-library/aquarian/philosophy-of-religion/theism-and-humanism-arthur-james-balfour)
+
+### Sir Arthur Conan Doyle
+
+- **[T5] Reported fact:** Conan Doyle recalled that, while acting as secretary for a political organization, he personally waited outside a crowded hall to receive Balfour when Balfour arrived to address a public meeting. Doyle described warning hostile demonstrators and witnessing Balfour leave his carriage; the encounter is supported by Doyle’s firsthand memoir, although the cited passage does not supply a precise date. [*Memories and Adventures*](https://conan-doyle.narod.ru/other/mem-adv/mem-adv.htm)
+
+### William James
+
+- **[T3] Documented fact:** Balfour sent William James a four-page autograph letter from London dated 29 October 1902; Harvard’s Houghton Library catalogs it among James’s received correspondence. James also recorded reading Balfour’s *The Foundations of Belief* “with immense gusto,” establishing reciprocal written-intellectual engagement. [Houghton Library finding aid](https://hollisarchives.lib.harvard.edu/download_collection_pdf/hou00109.pdf), [*The Letters of William James*](https://www.gutenberg.org/cache/epub/38091/pg38091-images.html)
+
+No sufficiently reliable evidence was found for additional roster crossings. Mere chronological overlap, membership in adjacent intellectual or Zionist circles, influence through the 1917 declaration, or attendance at different stages of the Hebrew University project was not treated as a connection.
+
 ## Sources
 
 https://www.oxforddnb.com/display/10.1093/ref%3Aodnb/9780198614128.001.0001/odnb-9780198614128-e-30553

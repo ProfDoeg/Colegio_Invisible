@@ -681,6 +681,22 @@ There is no stable single posthumous image. Casino and beneficiary institutions 
 - **2024** — Venetian/Palazzo workers obtain first union contract, ending a campaign begun under Adelson.
 - **2026 status** — Posthumous memoir remains listed with conflicting publication metadata; some retailers show a 2027 release.
 
+## Atlas Connections
+
+### Benjamin Netanyahu
+
+- **[T5] Documented fact:** Adelson and Netanyahu maintained a decades-long personal and political relationship involving meetings and frequent telephone conversations. Netanyahu described Adelson as a close friend of roughly thirty years and disclosed that they spoke an average of about 0.75 times per week between February 2012 and February 2015. Adelson’s financing of the pro-Netanyahu daily *Israel Hayom* was central to the relationship, which later deteriorated after Adelson learned of Netanyahu’s negotiations with rival publisher Arnon Mozes in Case 2000. ([Israel Hayom](https://www.israelhayom.co.il/news/article/13117015), [Associated Press](https://apnews.com/article/17518bca5b27fc47216eed974e96f3e6))
+
+### George W. Bush
+
+- **[T5] Documented fact:** Adelson met President Bush at the White House in October 2007 as part of a group of Republican donors. Adelson and Miriam Adelson subsequently joined the honorary delegation accompanying Bush to Israel’s sixtieth-anniversary celebrations in Jerusalem on 14–15 May 2008; at the presidential conference there, Adelson spoke immediately before Bush and praised his support for Israel. ([The New Yorker](https://www.newyorker.com/magazine/2008/06/30/the-brass-ring), [Jewish Telegraphic Agency](https://www.jta.org/2008/05/12/culture/hanging-with-bush-in-israel), [The Washington Post](https://www.washingtonpost.com/archive/style/2008/05/15/for-israel-60-candles-and-many-luminaries/344bb2d2-047a-44b2-bea9-2dbb07c74978/))
+
+### Hillary Clinton
+
+- **[T3] Documented fact:** Adelson attended the UNLV Foundation Annual Dinner at the Bellagio in Las Vegas on 13 October 2014, where Clinton delivered the keynote address and participated in a moderated discussion. At the same event, the foundation honored Adelson and Las Vegas Sands for their support of UNLV, establishing that Adelson was present for Clinton’s performance. ([UNLV](https://www.unlv.edu/news/release/photos-oct-13-unlv-foundation-dinner))
+
+No additional roster crossing was located that met the specified evidentiary threshold; shared political causes, institutions, industries, or general contemporaneity were excluded without evidence of direct discourse, proximity at a particular event, personal contact, prophecy, authorship, or transmission of a specific object or site.
+
 ## Sources
 
 https://www.sec.gov/Archives/edgar/data/1300514/000130051416000023/lvs-20151231x10k.htm

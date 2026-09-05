@@ -91,6 +91,34 @@ In sum, primary civil records favor the **French birth** account, while Gardel�
 
 _(All dates are Gregorian. Sources cited above; see References below.)_
 
+## Atlas Connections
+
+### Ada Falcón
+
+- **[T5]** **Reported fact:** Falcón and Gardel were personally acquainted in Buenos Aires during her 1920s–30s career. Retrospective accounts describe Gardel taking her on outings, asking her to sing, and proposing that they record together; the proposed joint record was never made. These details rest principally on later recollections and profiles rather than a surviving contemporaneous contract or recording. [Página/12 profile](https://www.pagina12.com.ar/diario/suplementos/radar/9-1090-2003-11-30.html); [McGill University study](https://escholarship.mcgill.ca/downloads/9593tx605.pdf)
+
+### Astor Piazzolla
+
+- **[T5]** **Documented fact:** Gardel met the adolescent Piazzolla in Manhattan in 1934 after Piazzolla delivered a wooden figure made by his father. Gardel subsequently visited the Piazzolla family, employed Astor informally as a bilingual guide, and gave him a small newspaper-boy role in *El día que me quieras* (filmed in New York in 1935). Piazzolla later recounted the relationship in interviews and an imaginary letter to Gardel; the film itself supplies contemporaneous visual evidence of their shared work. [Fundación Internacional Carlos Gardel](https://fundacioncarlosgardel.org/biografia/1934-gardel-en-nueva-york); [El País](https://elpais.com/america-colombia/2025-05-31/el-tango-inolvidable-de-astor-piazzolla-sale-a-gira-mundial-con-su-pasado-en-tres-fotos.html)
+
+### Enrique Santos Discépolo
+
+- **[T3]** **Documented fact:** Gardel recorded Discépolo’s compositions and appeared with him in Eduardo Morera’s Buenos Aires sound short *Yira, yira*, filmed in 1930. The surviving film begins with an on-camera dialogue between the songwriter and singer before Gardel performs Discépolo’s tango, providing direct audiovisual evidence of their engagement. [Buenos Aires Museo Casa Carlos Gardel](https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museocasacarlosgardel/filmografia/encuadres-de-canciones); [Cine Nacional](https://cinenacional.com/pelicula/yira-yira)
+
+### Federico García Lorca
+
+- **[T5]** **Reported fact:** Biographical accounts place Gardel and García Lorca together in Buenos Aires in early November 1933, shortly before Gardel sailed for Europe on 7 November. Lorca reportedly encountered Gardel after leaving the Teatro Smart with Pablo Suero and César Tiempo and then heard him sing at a private gathering. The meeting is widely repeated, including by the Buenos Aires city tourism authority, but the available accounts are retrospective rather than a contemporaneous record. [Buenos Aires City](https://turismo.buenosaires.gob.ar/en/article/federico-garc%C3%ADa-lorca-%E2%80%9Ctrapped%E2%80%9D-buenos-aires); [account and source discussion](https://convivimos.naranjax.com/columnas/2021/gardel-y-garcia-lorca/)
+
+### Jorge Luis Borges
+
+- **[T1+]** **Documented fact:** Borges, the later figure, discussed the already-deceased Gardel in his 1965 Buenos Aires tango lectures and in later interviews, objecting to the sentimental tango-canción style that Gardel epitomized while acknowledging his enduring fame. Because Gardel is the earlier, written-about figure, the connection carries the positive T1 sign on this dossier. [El País interview report](https://elpais.com/diario/1985/06/23/cultura/488325602_850215.html); [discussion of Borges’s Gardel commentary](https://www.infobae.com/educacion/2021/05/17/borges-gardel-y-la-polemica-por-la-verdadera-identidad-del-tango/)
+
+### Max Glücksmann
+
+- **[T3]** **Documented fact:** Gardel and José Razzano signed a recording contract with Glücksmann’s Disco Nacional concern in Buenos Aires on 9 April 1917. Gardel then made hundreds of recordings for the enterprise; surviving contractual history and Razzano’s correspondence also document later negotiations and threatened litigation when the performers considered moving to Victor. This is a sustained commercial and written engagement, not merely participation in the same musical milieu. [1917 contract history](https://carlosgardelxxi.blogspot.com/2015/10/duo-gardel-razzano-primeras-grabaciones.html); [Razzano correspondence](https://www.todotango.com/historias/cronica/140/Interesante-carta-de-Razzano-a-Gardel/)
+
+No additional roster crossings were included where the available material showed only contemporaneity, common geography, influence, later homage, or participation in the broader tango tradition without evidence of a qualifying connection.
+
 ## Sources and References (selected)  
 Civil and archival records: Toulouse birth/baptism registers; French national archives (extracts); Uruguayan consular act (1920).  
 Biographies and studies: Barsky & Barsky *Gardel, la biografía*; Defino *La verdad de una vida* (1968); Collier *Gardel: A Structure of Silence*; Turón *Carlos Gardel: Encuadre histórico* (Corregidor 2001) and follow-ups. Museo Carlos Gardel publications, blogs (e.g. Museo del Libro “Gardel y su Tiempo”), UNESCO/BA Govt articles.  

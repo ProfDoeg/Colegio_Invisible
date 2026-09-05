@@ -740,6 +740,28 @@ Rosario preserved the plan principally as an unrealized episode and as a predece
 | 1932–1933 | Cia. City defeats Laveleye-family suit; Barreto publishes corporate/legal documents. |
 | 1984 onward | Çelik and later transnational planning historians reconstruct and critically reinterpret the international plans. |
 
+## Atlas Connections
+
+### Alexandre Dumas
+
+- **[T9-] Documented fact:** Thirteen years after Dumas’s death, Bouvard and Ulysse Gravigny designed the architectural pedestal for Gustave Doré’s monument to the novelist on Place Malesherbes, Paris. The monument—whose inscriptions explicitly name “J. Bouvard et U. Gravigny, architectes”—was inaugurated on 4 November 1883. This is a posthumous shared-object connection, not evidence that Bouvard met Dumas. [Musée d’Orsay monumental-heritage record](https://e-monumen.net/patrimoine-monumental/monument-a-alexandre-dumas-paris-17e-arr/), [Alexandre Dumas Society account](https://www.dumaspere.com/pages/vie/lieux/rues.html)
+
+### Carlos Thays
+
+- **[T3] Documented fact:** Bouvard and Buenos Aires parks director Carlos Thays served together in the municipal technical process that produced the 1909 *Nuevo Plano*, published in 1910. Scholarship identifies Thays as a member of the expert commission evaluating and revising Bouvard’s proposals; their competing Plaza del Congreso schemes also entered the same municipal deliberation, with Thays’s less demolition-intensive design ultimately selected. The evidence establishes professional and written planning engagement in Buenos Aires during 1908–1909, although it does not by itself establish friendship. [Kaltmeier, *Nationalparks von Nord bis Süd*, p. 138](https://www.environmentandsociety.org/sites/default/files/key_docs/kaltmeier_nationalparks_von_nord_bis_sued.pdf), [Plaza del Congreso history](https://es.wikipedia.org/wiki/Plaza_del_Congreso)
+
+### Jean-Claude Nicolas Forestier
+
+- **[T3] Documented fact:** Bouvard’s 1909 Buenos Aires report invoked Forestier as an authority on systems of parks, making this a one-sided written engagement with a living contemporary. No evidence located establishes correspondence, a personal meeting, or Forestier’s participation in Bouvard’s commission; Forestier undertook his own Buenos Aires planning mission only in the 1920s. [Alicia Novick, “Planes versus proyectos”](https://vitruvius.com.br/revistas/read/arquitextos/05.057/497), [Buenos Aires Metropolitan Observatory](https://observatorioamba.org/planes-y-proyectos/caba/planes/1925-proyecto-organico/proyectos-asociados/proyecto-espacios-libres-1925-forestier)
+
+### Jules-Félix Coutan
+
+- **[T4] Documented fact:** Coutan’s monumental *Fontaine du Vaisseau de Paris* formed part of the Champ-de-Mars ensemble for the 1889 Exposition Universelle, where Bouvard designed the Palais des Industries diverses and central dome and directed the installation of the illuminated fountains. Contemporary exposition proceedings identify Coutan’s sculptural fountain and state that the fountains were installed under Bouvard’s direction. This establishes a shared exposition project and working milieu in Paris in 1889, but the consulted evidence does not independently document a personal friendship. [Contemporary exposition proceedings, 5 April 1889](https://cnum.cnam.fr/pgi/redir.php?ident=8XAE326&onglet=c), [Musée d’Orsay: *Fontaine de Coutan*](https://www.musee-orsay.fr/fr/oeuvres/fontaine-de-coutan-78708)
+
+### Jules Verne
+
+- **[T4] Documented fact:** Verne belonged to the public committee that promoted and financed the Paris monument to Alexandre Dumas, while Bouvard and Gravigny designed its pedestal. Both are named in the monument’s documented project history, completed and inaugurated in 1883. This supports participation in the same commemorative undertaking, but not a personal meeting or correspondence between Verne and Bouvard. [Alexandre Dumas Society account](https://www.dumaspere.com/pages/vie/lieux/rues.html), [monument inscription and history](https://e-monumen.net/patrimoine-monumental/monument-a-alexandre-dumas-paris-17e-arr/)
+
 ## Sources
 
 https://agorha.inha.fr/ark:/54721/88efaadc-7ab2-4d02-892a-b881c5c3c911

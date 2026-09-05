@@ -1309,6 +1309,22 @@ Bankman-Fried continues to contest the dominant interpretation of his conduct. H
 
 ---
 
+## Atlas Connections
+
+### Bill Clinton
+
+- **[T5]** **Documented fact:** Bankman-Fried and former U.S. president Bill Clinton appeared together onstage at the FTX/SALT **Crypto Bahamas** conference in Nassau, The Bahamas, in April 2022. Bankman-Fried moderated a panel featuring Clinton and Tony Blair, establishing an in-person meeting rather than mere conference co-attendance. [ZNS Bahamas](https://znsbahamas.com/clinton-blair-and-bankman-fried-in-panel-discussion-at-ftx-salt-conference/), [CoinDesk](https://www.coindesk.com/policy/2022/11/10/washington-dcs-buddy-sam-bankman-fried-has-some-explaining-to-do)
+
+### Bill Gates
+
+- **[T4]** **Documented fact:** Bankman-Fried and Bill Gates were both present as speakers at the **Munich Security Conference**, held at Munich’s Hotel Bayerischer Hof on 18–20 February 2022. The official agenda places them in different, concurrently scheduled panels on 18 February—Gates on pandemic preparedness and Bankman-Fried on digital currencies—so shared proximity is established, but no interaction or personal meeting is documented. [Munich Security Conference agenda](https://securityconference.org/media-library/images/2022/01_Hauptkonferenz/220217_MSC2022_Agenda.pdf)
+
+### Elon Musk
+
+- **[T3]** **Reported fact, supported by court-disclosed communications:** In spring 2022, Bankman-Fried and Elon Musk participated in communications concerning Musk’s proposed acquisition of Twitter. Court-released messages show a group thread involving Musk, Bankman-Fried, and William MacAskill; subsequent reporting by Axios and Semafor states that Musk and Bankman-Fried spoke by telephone about Bankman-Fried potentially financing the transaction and integrating blockchain technology. Bankman-Fried ultimately declined to participate in the acquisition. [Axios](https://www.axios.com/2022/10/03/twitter-musk-sam-bankman-fried), [Semafor](https://www.semafor.com/article/11/22/2022/sam-bankman-fried-elon-and-a-secret-text), [court-exhibit transcription](https://danluu.com/elon-twitter-texts/)
+
+No qualifying Atlas connection is established with **Volodymyr Zelenskyy**, despite their separate appearances on the 30 November 2022 DealBook Summit program: Bankman-Fried participated remotely from The Bahamas and Zelenskyy appeared separately, with no documented correspondence, observation of one another’s sessions, shared physical presence, or personal meeting. Likewise, third-party comparisons of Bankman-Fried to **J. Pierpont Morgan** or **Charles Ponzi** do not satisfy any specified connection type.
+
 ## Sources
 
 https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes

@@ -1620,6 +1620,82 @@ Each image contains a piece of the documented life and a layer of exaggeration.
 
 ---
 
+## Atlas Connections
+
+### Ada Lovelace
+
+- **[T1-] Documented fact:** Andreessen included Ada Lovelace among the “Patron Saints of Techno-Optimism” whose work he recommended in his 16 October 2023 online essay, [“The Techno-Optimist Manifesto.”](https://a16z.com/the-techno-optimist-manifesto/) The reference establishes written engagement, though Andreessen supplied no individual discussion of Lovelace.
+
+### Adam Smith
+
+- **[T1-] Documented fact:** In [“The Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023), Andreessen quoted Smith’s explanation of exchange motivated by self-interest, invoked it in defense of markets, and listed Smith among his intellectual “Patron Saints.”
+
+### Buckminster Fuller
+
+- **[T1-] Documented fact:** Andreessen’s [“Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023) adopted Fuller’s concept of “ephemeralization,” quoted his formulation of doing progressively more with less, and included him among the manifesto’s recommended thinkers.
+
+### Filippo Tommaso Marinetti
+
+- **[T1-] Documented fact:** Andreessen named Marinetti among the “Patron Saints of Techno-Optimism” and explicitly introduced a passage as a paraphrase of an earlier manifesto in [“The Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023). The passage adapts language from Marinetti’s 1909 *Futurist Manifesto*; this documents literary borrowing, not acceptance of every aspect of Marinetti’s later politics.
+
+### Friedrich Hayek
+
+- **[T1-] Documented fact:** In [“The Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023), Andreessen invoked “Hayek’s Knowledge Problem” to argue against centralized economic planning and included Hayek among the manifesto’s recommended intellectual predecessors.
+
+### Friedrich Nietzsche
+
+- **[T1-] Documented fact:** Andreessen reproduced and discussed Nietzsche’s “Last Man” as an antitype for technological ambition in [“The Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023), while also listing Nietzsche among its “Patron Saints.”
+
+### George Orwell
+
+- **[T1-] Documented fact:** In [“The Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023), Andreessen invoked Orwell’s *Nineteen Eighty-Four* while condemning speech and thought control. This is a brief rhetorical use rather than sustained analysis of Orwell.
+
+### John von Neumann
+
+- **[T1-] Documented fact:** Andreessen listed John von Neumann among the thinkers whose work readers should consult in the “Patron Saints of Techno-Optimism” section of his [2023 manifesto](https://a16z.com/the-techno-optimist-manifesto/). The text does not explain von Neumann’s individual influence further.
+
+### Joseph Schumpeter
+
+- **[T1-] Documented fact:** Andreessen included Schumpeter among the recommended intellectual predecessors in the “Patron Saints” list appended to [“The Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023). The documented crossing is the explicit bibliographic/intellectual endorsement, not a personal relationship.
+
+### Ludwig von Mises
+
+- **[T1-] Documented fact:** Andreessen named Ludwig von Mises in the recommended-reading genealogy of [“The Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023), placing Mises among its pro-market intellectual predecessors without giving him a separate extended discussion.
+
+### Milton Friedman
+
+- **[T1-] Documented fact:** Andreessen cited Friedman’s observation that human wants and needs are unlimited and included him among the manifesto’s “Patron Saints” in [“The Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023).
+
+### Nick Land
+
+- **[T1-] Documented fact:** Andreessen expressly credited Land with the term “techno-capital machine,” adopted that concept as a central organizing idea, and listed Land among the recommended thinkers in [“The Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023). This supports a direct intellectual-textual connection, but not the inference that Andreessen adopted all of Land’s political positions.
+
+### Ray Kurzweil
+
+- **[T1-] Documented fact:** In [“The Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023), Andreessen cited Kurzweil’s “Law of Accelerating Returns” as support for deliberate technological acceleration and included Kurzweil in the manifesto’s recommended-reading list.
+
+### Richard Feynman
+
+- **[T1-] Documented fact:** Andreessen attributed two statements about scientific inquiry and experts to Feynman in [“The Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023) and listed him among its “Patron Saints.” This documents Andreessen’s use of Feynman as an authority for skepticism toward expert consensus.
+
+### Thomas More
+
+- **[T1-] Documented fact:** Andreessen identified More’s *Utopia* as an intellectual adversary in [“The Techno-Optimist Manifesto”](https://a16z.com/the-techno-optimist-manifesto/) (16 October 2023), contrasting utopian planning with the manifesto’s empirical and market-oriented “constrained vision.”
+
+### Peter Thiel
+
+- **[T3] Documented fact:** Andreessen and Thiel engaged one another directly in the public discussion [“In Tech We Trust? A Debate with Peter Thiel and Marc Andreessen”](https://a16z.com/in-tech-we-trust-a-debate-with-peter-thiel-and-marc-andreessen/), published 29 April 2013. Their exchange addressed technological progress, optimism, stagnation, innovation and the future, establishing mutual discourse rather than merely membership in the same Silicon Valley milieu.
+
+### Reid Hoffman
+
+- **[T5] Documented fact:** Andreessen and Hoffman appeared together for a joint onstage interview at the Recode Code Conference in Rancho Palos Verdes, California, on 30 May 2017, discussing automation, self-driving vehicles, productivity and employment. Contemporary coverage records both men responding during the same session. [Axios](https://www.axios.com/2017/12/15/marc-andreessen-self-driving-cars-will-boost-the-job-market-1513302657) and [TIME](https://time.com/4799458/cofounder-linkedin-jobs/) document the encounter.
+
+### Sam Altman
+
+- **[T5] Documented fact:** Altman directly questioned Andreessen during “How to Raise Money,” the ninth lecture in Altman’s Stanford course *How to Start a Startup*, held at Stanford in November 2014. Andreessen appeared on the panel with Ron Conway and Parker Conrad, and the surviving [course archive](https://startupclass.github.io/) identifies the lecture and participants.
+
+No additional roster connection was included merely because someone shared an industry, institution, political tendency, award category, geographic location, investment ecosystem or historical subject with Andreessen; the reviewed record did not establish one of the six specified connection types for those names.
+
 ## Sources
 
 https://americanhistory.si.edu/comphist/ma1.html

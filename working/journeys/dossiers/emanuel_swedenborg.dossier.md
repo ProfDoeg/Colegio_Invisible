@@ -435,6 +435,84 @@ Reburial in Uppsala Cathedral, preservation of his summerhouse at Skansen, stree
 - The bibliography lists major standalone works and major manuscript complexes, not every article in *Daedalus*, parliamentary memorial, notebook fragment or posthumous translation.
 - Searches reached diminishing returns when further results repeated confessional summaries or nineteenth-century compilations without new primary evidence. Consequential disputed claims have therefore been bounded rather than resolved beyond the record.
 
+## Atlas Connections
+
+### Abraham
+
+- **[T1-]** **Documented fact:** Swedenborg made Abraham a recurring subject of *Arcana Coelestia* (1749–56), his verse-by-verse spiritual interpretation of Genesis and Exodus. He treated the patriarchal narrative correspondentially rather than merely as biography. [Swedenborg Foundation](https://swedenborg.com/emanuel-swedenborg/writings/)
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Swedenborg read and excerpted Aristotle while developing his philosophical and psychological vocabulary; Aristotle appears among the historical authorities engaged in Swedenborg’s scientific notebooks and pre-theological works. This was textual engagement, not evidence of unmediated intellectual descent. [Scholarly overview of Swedenborg’s philosophical context](https://swedenborg-philosophy.org/wp-content/uploads/2015/10/Williams-Hogan_Article-New_Philosophy_January-June_2013.pdf)
+
+### Honoré de Balzac
+
+- **[T1+]** **Documented fact:** Balzac studied Swedenborgian teaching and made Swedenborg and his doctrines explicit subjects in novels including *Louis Lambert* (1832) and *Séraphîta* (1835). The precise channels and extent of doctrinal dependence remain subjects of scholarship, but the written engagement itself is unmistakable. [Scholarly survey](https://swedenborg.com/scholars-swedenborgs-influence-on-balzac-and-strindberg/), [Persée study](https://www.persee.fr/doc/caief_0571-5865_1963_num_15_1_2263)
+
+### Jorge Luis Borges
+
+- **[T1+]** **Documented fact:** Borges repeatedly wrote and lectured about Swedenborg. His works include “Los ángeles de Swedenborg” in *El libro de los seres imaginarios* (1967), an essay used to open *Testimony to the Invisible*, and a lecture delivered at the University of Belgrano in Buenos Aires on 16 June 1978. [Bibliographic discussion](https://www.cervantesvirtual.com/s3/BVMC_OBRAS/ffb/d32/648/2b1/11d/fac/c70/021/85c/e60/64/mimes/ffbd3264-82b1-11df-acc7-002185ce6064_37.html), [book record](https://books.google.com/books/about/Testimony_to_the_Invisible.html?hl=en&id=rm9wNAAACAAJ&output=html_text)
+
+### William Blake
+
+- **[T1+]** **Documented fact:** Blake read and annotated Swedenborg’s works during the 1780s, attended the New Jerusalem Church’s General Conference in London in 1789, and then subjected Swedenborg’s system to admiring but pointed criticism in *The Marriage of Heaven and Hell* (c. 1790–93). Surviving marginalia establish direct textual engagement. [Swedenborg Foundation](https://swedenborg.com/emanuel-swedenborg/influence/), [discussion of the textual evidence](https://swedenborg.com/swedenborg-blake-the-everlasting-gospel/)
+
+### Sir Arthur Conan Doyle
+
+- **[T1+]** **Documented fact:** Conan Doyle devoted the opening chapter of *The History of Spiritualism* (1926) to “The Story of Swedenborg,” portraying him as a major precursor of modern Spiritualism. This was Doyle’s retrospective interpretation, not evidence that Swedenborg belonged to the nineteenth-century Spiritualist movement. [Cambridge University Press contents](https://www.cambridge.org/core/books/abs/history-of-spiritualism/frontmatter/27B697363574428952AABE8EEA86A512), [1926 text](https://www.arthur-conan-doyle.com/images/4/4d/The-history-of-spiritualism-vol1-cassell-1926.pdf)
+
+### Johann Wolfgang von Goethe
+
+- **[T1+]** **Documented fact:** Goethe read Swedenborgian texts shortly after 1770 and made a small number of explicit written references to Swedenborg. Scholarship regards Goethe’s knowledge of Swedenborg as established but treats claims of extensive doctrinal influence more cautiously. [*Scribe of Heaven*, reception chapter](https://swedenborg.com/wp-content/uploads/2015/08/NCE_ScribeofHeaven.pdf)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Jesus Christ was the central historical and theological figure of Swedenborg’s later writings. Works such as *Doctrine of the Lord* (1763) and *True Christian Religion* (1771) argue that the divine and human are united in Jesus and reject a Trinity of three divine persons. [Swedenborg Foundation writings guide](https://swedenborg.com/emanuel-swedenborg/writings/)
+
+### Carl Gustav Jung
+
+- **[T1+]** **Documented fact:** Jung recalled reading seven volumes of Swedenborg while studying occult and paranormal literature during his university years, and he referred to Swedenborg in later autobiographical and psychological discussions. Claims that Jung’s mature psychology was simply derived from Swedenborg go beyond this evidence. [Jung, *Memories, Dreams, Reflections* text](https://ratical.org/co-globalize/MemoriesDreamsReflections-Jung.pdf), [Swedenborg Society reception summary](https://www.swedenborg.org.uk/events/swedenborg-and-the-english-romantics-items-from-the-swedenborg-collection/)
+
+### Immanuel Kant
+
+- **[T3]** **Documented fact:** Kant investigated reports of Swedenborg’s clairvoyance, obtained and read *Arcana Coelestia*, and made Swedenborg the explicit target and foil of *Träume eines Geistersehers* (*Dreams of a Spirit-Seer*, 1766). The surviving record supports one-sided written engagement rather than a personal meeting or correspondence between the two men. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/kant-development/)
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1-]** **Documented fact:** Swedenborg took extensive notes from Leibniz’s *Theodicy* and engaged Leibnizian questions concerning mind, body, pre-established harmony, freedom and divine order in his philosophical notebooks and mature works. Direct borrowing and disagreement can be documented; claims that Swedenborg’s entire system was Leibnizian are interpretive. [Philosophical-context study](https://swedenborg-philosophy.org/wp-content/uploads/2015/10/Williams-Hogan_Article-New_Philosophy_January-June_2013.pdf), [study of Leibniz and Swedenborg](https://swedenborg-philosophy.org/wp-content/uploads/2017/09/1991-Vol-94-No-1-2-January-June_Part2.pdf)
+
+### Martin Luther
+
+- **[T1-]** **Reported fact:** Swedenborg wrote about Luther both historically and as a person he claimed to encounter in the spiritual world, particularly when attacking justification by faith alone. The writing is documentary fact; the meetings are Swedenborg’s reported visionary experiences and are not independently verifiable.
+
+### Moses
+
+- **[T1-]** **Documented fact:** Moses and the books attributed to him occupy a foundational place in Swedenborg’s exegesis. *Arcana Coelestia* (1749–56) interprets Genesis and Exodus verse by verse, while Swedenborg’s later doctrinal works repeatedly discuss Mosaic law, revelation and biblical correspondences. [Swedenborg Foundation writings guide](https://swedenborg.com/emanuel-swedenborg/writings/)
+
+### Isaac Newton
+
+- **[T3]** **Documented fact:** During his 1710–15 stay in England, Swedenborg studied Newtonian astronomy and mechanics and subsequently engaged Newtonian natural philosophy in his scientific program. No reliable evidence shows that Swedenborg studied personally under or met Newton; the supported crossing is textual and intellectual. [Swedenborg Foundation scientific-writings survey](https://swedenborg.com/emanuel-swedenborg/scientific-writings/)
+
+### Noah
+
+- **[T1-]** **Documented fact:** Swedenborg wrote at length about Noah in *Arcana Coelestia*, interpreting him correspondentially as representing the people of an ancient spiritual church rather than treating the flood account only as literal history. [Swedenborg Foundation description](https://swedenborg.com/emanuel-swedenborg/writings/)
+
+### Rudolf Steiner
+
+- **[T1+]** **Documented fact:** Steiner repeatedly discussed Swedenborg in lectures, including the Penmaenmawr lecture of 25 August 1923, where he classified and evaluated Swedenborg’s mode of supersensible perception. Steiner’s account belongs to his own anthroposophical framework and is not independent verification of Swedenborg’s visions. [Rudolf Steiner Archive](https://rsarchive.org/Lectures/GA227/English/SOL/19230825p01.html)
+
+### Victor Hugo
+
+- **[T1+]** **Documented fact:** Hugo explicitly invoked Swedenborg in his poetry and prose. His poem *Ce que dit la bouche d’ombre* (1854) assigns a speaking passage to Swedenborg, while *Les Misérables* (1862) mentions him alongside Pascal in a remark about genius passing into madness. Broader claims that Hugo was a committed Swedenborgian remain unproven. [Documentary discussion](https://www.swedenborgstudy.com/articles/history-of-art/hugo.htm)
+
+### William Butler Yeats
+
+- **[T1+]** **Documented fact:** Yeats read, cited and acknowledged Swedenborg as one of his principal mystical authorities, grouping him with Jacob Boehme and William Blake. Swedenborgian accounts of spirits, correspondences and the afterlife informed Yeats’s essays and occult thought, though usually through a synthesis with other traditions. [*Scribe of Heaven*](https://swedenborg.com/wp-content/uploads/2015/08/NCE_ScribeofHeaven.pdf), [Swedenborg Society reception summary](https://www.swedenborg.org.uk/events/swedenborg-and-the-english-romantics-items-from-the-swedenborg-collection/)
+
+### Johnny Appleseed (John Chapman)
+
+- **[T3]** **Documented fact:** Chapman became a devoted reader and itinerant distributor of Swedenborgian/New Church publications in the early nineteenth-century United States. He and Swedenborg never met—Chapman was born in 1774, two years after Swedenborg’s death—but Chapman’s circulation of the writings constitutes direct, one-sided textual engagement. [Swedenborg Foundation](https://swedenborg.com/interview-with-author-ray-silverman-on-the-core-of-johnny-appleseed/)
+
 ## Sources
 
 https://archive.org/download/emanuelswedenbor00swed/emanuelswedenbor00swed.pdf

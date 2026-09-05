@@ -554,6 +554,54 @@ The durable legacies are institutional (Dominican curriculum, Cologne studies), 
 | 1951–present | *Editio Coloniensis* critical edition. | Ongoing. |
 | 1954 | Relics installed in Roman sarcophagus in St. Andreas crypt. | Documented. |
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Albert made Aristotle the principal subject of his philosophical corpus, producing paraphrases and commentaries across logic, natural philosophy, psychology, metaphysics, ethics, and politics. He did not merely reproduce Aristotle: he reordered, supplemented, and sometimes rejected Aristotelian positions while explicitly identifying Aristotle as his primary philosophical guide. Most of this project was composed between the early 1250s and the 1270s, principally in Cologne, Regensburg, Würzburg, and Strasbourg. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/albert-great/)
+
+### Plato
+
+- **[T1-]** **Documented fact:** Albert repeatedly discussed Plato and doctrines attributed to the Platonists, particularly forms, universals, cosmology, soul, and the relationship between Platonic and Aristotelian philosophy. His treatment was usually mediated through Aristotle, Augustine, Arabic philosophy, and late-antique Neoplatonic sources rather than direct access to Plato’s complete works. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/albert-great/)
+
+### Saint Augustine of Hippo
+
+- **[T1-]** **Documented fact:** Albert engaged Augustine throughout his theological and philosophical works, comparing Augustinian accounts of illumination, creation, soul, knowledge, and divine exemplars with Aristotelian and Arabic philosophy. Augustine was therefore both an authority Albert cited and a historical thinker whose positions he interpreted and sometimes qualified. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/albert-great/)
+
+### Maimonides
+
+- **[T1-]** **Documented fact:** Albert cited Maimonides as *Rabbi Moyses* or “Moses the Egyptian” and used the Latin *Dux neutrorum*, the translated *Guide of the Perplexed*. His discussions of creation, prophecy, divine attributes, intellectual beings, and biblical interpretation sometimes reproduce substantial Maimonidean arguments, although Albert incorporated them into his own Christian-Aristotelian synthesis. [Jewish Encyclopedia](https://www.jewishencyclopedia.com/articles/1082-albertus-magnus), [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/albert-great/)
+
+### Pliny the Elder
+
+- **[T1-]** **Documented fact:** Albert repeatedly used and evaluated Pliny’s *Natural History* in works including *De animalibus*, *De vegetabilibus*, and *De mineralibus*. He transmitted some Plinian reports but also criticized particular claims when observation or other evidence appeared to contradict them. [Albertus Magnus, *On Animals* bibliographic record](https://albertusmagnus.uwaterloo.ca/), [Science History Institute](https://www.sciencehistory.org/stories/magazine/albertus-magnus-mineralogy-and-the-secrets-of-women/)
+
+### Thomas Aquinas
+
+- **[T5]** **Documented fact:** Thomas studied under Albert at the Dominican house of Saint-Jacques in Paris, approximately 1245–1248, and accompanied him to Cologne in 1248, where Albert headed the new Dominican *studium generale*. Their direct teacher-pupil association and shared Dominican work are secure, although the “Dumb Ox” prophecy and the story that Thomas destroyed Albert’s speaking automaton are later legends. [Albertus-Magnus-Institut](https://institutionen.erzbistum-koeln.de/albertus-magnus-institut/albertus_magnus/leben/), [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/albert-great/)
+
+### Roger Bacon
+
+- **[T4]** **Documented fact:** Roger Bacon and Albert belonged to the University of Paris milieu during the 1240s, when both were engaged with the newly available Aristotelian natural-philosophical corpus. Evidence supports institutional and chronological proximity, but no personal meeting or friendship between them is securely documented; later comparisons of their scientific methods do not establish direct contact. [Stanford Encyclopedia of Philosophy: Roger Bacon](https://plato.stanford.edu/entries/roger-bacon/)
+
+### Dante Alighieri
+
+- **[T1+]** **Documented fact:** Dante wrote Albert into *Paradiso* 10, composed after Albert’s death, placing “Albert of Cologne” among the wise spirits in the heaven of the Sun. Dante has Thomas Aquinas identify Albert as his teacher, making their historical pedagogical relationship part of the poem’s architecture of sacred learning. [Digital Dante, *Paradiso* 10](https://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-10/paradiso-10-poem/)
+
+### Nicholas of Cusa / Johannes Cusanus
+
+- **[T1+]** **Documented fact:** Nicholas of Cusa—listed twice in the roster under equivalent names—read and used Albert’s writings, particularly his Dionysian commentaries and Neoplatonic metaphysics. Manuscript transmission and textual comparison support Albert’s presence in works including Nicholas’s *De li non aliud* (1462); this was a posthumous textual connection mediated partly through the Cologne Albertist school, not a personal relationship. [University of Buenos Aires repository](https://repositorio.filo.uba.ar/entities/publication/576a93fb-12d7-426e-beed-ce2a8daea803), [University of Milan research record](https://air.unimi.it/handle/2434/921417)
+
+### Giovanni Pico della Mirandola
+
+- **[T1+]** **Documented fact:** Pico presented a distinct group of propositions “according to Albert the Great” in his *Conclusiones nongentae*, printed at Rome in December 1486. These theses document direct written engagement with Albert as a scholastic authority; they do not establish Pico’s acceptance of every Albertine position. [Brown University, *Pico’s 900 Theses*](https://cds.lib.brown.edu/cds-project/picos-900-theses), [Brown University project history](https://cds.library.brown.edu/projects/pico/about.php)
+
+### Heinrich Cornelius Agrippa
+
+- **[T1+]** **Documented fact:** Agrippa cited Albert repeatedly in *De occulta philosophia*, first drafted in 1510 and substantially enlarged for publication in 1533. His Albertine inheritance included both authentic natural philosophy and writings falsely circulating under Albert’s name, especially material about occult virtues, astrology, and natural magic. Agrippa encountered this tradition through the still-active Albertist intellectual environment of Cologne; no personal meeting was possible. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/agrippa-nettesheim/), [David J. Collins, “Albertus, Magnus or Magus?”](https://www.journals.uchicago.edu/doi/10.1086/652532)
+
+No secure personal, prophetic, or shared-object crossing was found with the remaining roster figures. Mere similarity of interests, appearance in later occult lineages, overlapping geography without demonstrated contemporaneous presence, and legends attaching Albert to other reputed magicians were excluded.
+
 ## Sources
 
 https://albertusmagnus.uwaterloo.ca/

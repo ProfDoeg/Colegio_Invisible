@@ -1480,6 +1480,37 @@ No one of these interpretations exhausts the documentary record.
 
 ---
 
+## Atlas Connections
+
+### Abraham Lincoln
+
+- **[T5] Documented fact:** While administering federal military railroads and telegraphs in Washington during the Civil War, Carnegie repeatedly saw Lincoln in the War Department telegraph office and reported being “occasionally brought in personal contact” with him. Lincoln sometimes waited there for telegrams and spoke informally with personnel, including junior staff. ([Carnegie, *Autobiography*](https://www.gutenberg.org/files/17976/17976-h/17976-h.htm))
+- **[T1-] Documented fact:** Carnegie later wrote a substantial firsthand character sketch of Lincoln in his posthumously published *Autobiography*, describing his appearance, manner, humor, egalitarian conduct, and handling of the Trent affair. ([Carnegie, *Autobiography*](https://www.gutenberg.org/files/17976/17976-h/17976-h.htm))
+
+### Henry Clay Frick
+
+- **[T5] Documented fact:** Carnegie and Frick met repeatedly and maintained a close business partnership from the 1880s through 1899. Carnegie invested in Frick’s coke enterprise, brought him into the leadership of the Carnegie steel interests, and relied on him as their principal Pittsburgh executive before their acrimonious rupture.
+- **[T3] Documented fact:** Extensive correspondence survives between them. Particularly consequential are Carnegie’s letters and cables of May–July 1892 endorsing a decisive contest at Homestead, urging Frick to stand firm, and discussing strategy after the Pinkerton battle. Their surviving correspondence and associated business records are held principally in the [Andrew Carnegie Papers](https://www.loc.gov/item/mm79015107/) and the [Henry Clay Frick Business Records](https://historicpittsburgh.org/collection/henry-clay-frick-business-records).
+
+### John Pierpont Morgan
+
+- **[T3] Documented fact:** Carnegie and Morgan maintained documented business correspondence, represented in the Andrew Carnegie Papers. Their most important crossing was the 1901 acquisition of Carnegie’s steel interests for Morgan’s U.S. Steel consolidation. Negotiation of the final terms was conducted principally through Charles M. Schwab: Carnegie testified that no word passed directly between Morgan and him “on the subject,” Morgan instead accepting Carnegie’s written valuation memorandum through the intermediary. ([Andrew Carnegie Papers](https://findingaids.loc.gov/repositories/19/resources/3891); [Carnegie, *Autobiography*, editorial note 45](https://www.gutenberg.org/files/17976/17976-h/17976-h.htm); [University of Illinois bond record](https://collections.carli.illinois.edu/digital/collection/uis_msc/id/349/))
+
+### John D. Rockefeller Sr.
+
+- **[T3] Documented fact:** Carnegie corresponded directly with Rockefeller. A surviving letter dated **8 February 1903**, written in New York, discusses philanthropy and golf and invites Rockefeller to visit Skibo Castle. Rockefeller is also identified as a correspondent in the Andrew Carnegie Papers. ([Carnegie Corporation transcription and manuscript description](https://carnegie.org/publication/letter-to-john-d-rockefeller/); [Library of Congress finding aid](https://findingaids.loc.gov/repositories/19/resources/3891))
+
+### Mark Twain
+
+- **[T5] Documented fact:** Carnegie and Samuel Clemens met socially on numerous occasions in New York’s literary, reform, and banquet circuit. Clemens’s autobiographical dictation of **10 December 1907** describes deliberately attending a banquet because he wanted to see more of Carnegie and records Carnegie’s speech that evening. ([Mark Twain Project](https://www.marktwainproject.org/writings/autobiography3/autobiography/autobio_dictations/autobio3_1907-12-10/))
+- **[T3] Documented fact:** They exchanged correspondence and engaged one another in writing and public speech. Their exchanges included humor, philanthropy, anti-imperialist questions, commercial proposals, and simplified spelling; Twain also spoke at a banquet honoring Carnegie. ([Mark Twain Project](https://www.marktwainproject.org/writings/autobiography3/autobiography/autobio_dictations/autobio3_1907-12-10/))
+
+### Pyotr Ilyich Tchaikovsky
+
+- **[T3] Documented fact:** Carnegie saw Tchaikovsky conduct at the opening-night concert of Carnegie’s Music Hall in New York on **5 May 1891**. Contemporary program records identify Tchaikovsky as guest conductor, while Carnegie Hall’s archival account places Carnegie in the audience—Walter Damrosch bowed specifically to him before Tchaikovsky appeared and conducted his *Marche solennelle*. This supports the “one seeing the other perform” form of T3, but not necessarily a personal meeting. ([Carnegie Hall opening-night program](https://collections.carnegiehall.org/CS.aspx?DocRID=2RRM1T7MNBDZ&PN=1&VBID=&VP3=DamView); [Carnegie Hall archival podcast transcript](https://www.carnegiehall.org/-/media/CarnegieHall/Files/PDFs/Explore/Podcasts/If-This-Hall-Could-Talk/If-This-Hall-Could-Talk---Episode-2.pdf))
+
+No additional roster member was included solely because of contemporaneity, appearance at a Carnegie-funded institution, shared organizational affiliation, intellectual influence, or later institutional association; those circumstances do not by themselves establish one of the specified connection types.
+
 ## Sources
 
 https://www.gutenberg.org/files/17976/17976-h/17976-h.htm

@@ -645,6 +645,10 @@ This map identifies the principal source behind the dossier’s most consequenti
 | Postwar first-edition dispute | [Collector’s copyright-page report](https://bbs.gulongbbs.com/forum.php?extra=&mobile=2&mod=viewthread&ordertype=2&tid=144265), compared with Chen Longting and Chen Dawei |
 | RZA first saw the film at nine and later re-scored it live | [Film Independent interview report](https://www.filmindependent.org/blog/rza-shares-how-kung-fu-movies-shaped-his-music-and-changed-his-life/) and [Recording Academy tour report](https://www.grammy.com/news/rza-announces-new-show-dates-live-36th-chamber-shaolin/) |
 
+## Atlas Connections
+
+No genuine documented T1, T2, T3, T4, T5, or T9 crossing was identified between San Te and any person on the atlas roster. In particular, searches for a connection with Xuanzang—the roster’s most plausible Shaolin/Buddhist candidate—found no shared text, correspondence, meeting, performance, milieu, or transferred object/site. San Te’s legendary Fujian/Southern Shaolin affiliation cannot be conflated with Xuanzang’s seventh-century association with Henan Shaolin. Mere thematic, religious, or geographical resemblance was excluded.
+
 ## Sources
 
 https://zh.wikisource.org/zh-hant/%E8%81%96%E6%9C%9D%E9%BC%8E%E7%9B%9B%E8%90%AC%E5%B9%B4%E9%9D%92

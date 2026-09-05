@@ -711,6 +711,74 @@ The **AMS–SIAM Norbert Wiener Prize in Applied Mathematics**, established in 1
 - The exact medical record of Wiener's psychiatric symptoms, stimulant exposure, and final heart disease is not public in the consulted sources.
 - “Phil Zimmermann cites Wiener” was not verified as a direct textual citation; the documented link is Zimmermann's 1996 receipt of the Norbert Wiener Award and shared responsible-technology lineage.
 
+## Atlas Connections
+
+### Albert Einstein
+
+- **[T5] Documented fact:** Wiener met Einstein in the United States before 1925 and encountered him again aboard a European train in July 1925. Einstein invited Wiener to continue traveling with him from Basel to Geneva, during which they conversed for approximately five and a half hours about mathematics, physics, cosmology, politics, and other subjects. Wiener described the encounter contemporaneously in a letter to his sister Bertha preserved in the Norbert Wiener Papers at MIT ([published letter and archival account](https://revistas.usp.br/ss/en/article/view/11054/12822)).
+
+### Charles Babbage
+
+- **[T1−] Documented fact:** In his histories of computation and cybernetics, Wiener treated Babbage’s nineteenth-century calculating-engine designs as predecessors of modern automatic computing. This was a retrospective intellectual genealogy rather than a personal connection; Babbage died in 1871.
+
+### Claude Shannon
+
+- **[T3] [T5] Documented fact:** Shannon took Wiener’s Fourier-theory course while a student at MIT, and both later participated in the cybernetics and information-theory milieu, including Macy-conference sessions. In October 1948 Shannon wrote Wiener that *Cybernetics* contained “new and interesting ideas,” observed that their work had developed in parallel, and invited comments on “A Mathematical Theory of Communication”; Wiener replied appreciatively. The surviving correspondence establishes direct written engagement, although they were not close collaborators ([Shannon biographical interview and correspondence account](https://cs.nyu.edu/~amos/download/images/f/f3/Guizzo_ClaudeShannon.pdf)).
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1−] Documented fact:** Wiener made Leibniz a principal historical precursor in both *Cybernetics* and *The Human Use of Human Beings*, calling him the figure he would choose as cybernetics’ “patron saint.” He connected Leibniz’s universal symbolism, calculus of reasoning, calculating machines, and automata to mathematical logic and mechanized thought ([text of *Cybernetics*](https://uberty.org/wp-content/uploads/2015/07/Norbert_Wiener_Cybernetics.pdf); [text of *The Human Use of Human Beings*](https://library.agnescameron.info/cybernetics/The%20Human%20Use%20of%20Human%20Beings%2C%20Norbert%20Wiener%20%281950%29.pdf)).
+
+### James Clerk Maxwell
+
+- **[T1−] Documented fact:** Wiener repeatedly identified Maxwell’s 1868 “On Governors” as a major technical ancestor of cybernetics and discussed Maxwell’s work on electromagnetism, statistical mechanics, feedback governors, and the “Maxwell demon.” The connection is retrospective writing and explicit intellectual attribution, not personal contact ([text of *Cybernetics*](https://uberty.org/wp-content/uploads/2015/07/Norbert_Wiener_Cybernetics.pdf); [text of *The Human Use of Human Beings*](https://library.agnescameron.info/cybernetics/The%20Human%20Use%20of%20Human%20Beings%2C%20Norbert%20Wiener%20%281950%29.pdf)).
+
+### John Dewey
+
+- **[T5] Documented fact:** After returning from wartime Europe, Wiener studied philosophy and mathematics with Dewey at Columbia University during the 1914–15 academic year. Wiener later wrote critically of Dewey’s philosophical style, but the teacher–student contact itself is established by the MIT archival chronology ([guide to the Norbert Wiener Papers](https://citeseerx.ist.psu.edu/document?doi=7fcb8088c6f2ffb6a3fb63cf3c6d9dc551a6de4a&repid=rep1&type=pdf)).
+
+### John von Neumann
+
+- **[T3] [T5] Documented fact:** Wiener and von Neumann corresponded, met repeatedly, and jointly helped organize the emerging cybernetics network. In 1944 they collaborated with Howard Aiken in arranging a Princeton meeting on computing, communication, prediction, and control; both subsequently participated in early Macy conferences. Surviving Wiener–von Neumann correspondence includes Wiener's letter of 5 February 1946 and exchanges concerning neural models, computing, and conference organization ([MIT/AIP description of the Wiener Papers](https://history.aip.org/history/catalog/icos/5926.html); [historical reconstruction of the Princeton meeting](https://www.scribd.com/document/415941182/Springer-biographies-Montagnini-Leone-Wiener-Norbert-Harmonies-of-Disorder-Norbert-Wiener-A-Mathematician-Philosopher-of-Our-Time-Springer)).
+
+### Judah Loew ben Bezalel (the Maharal of Prague)
+
+- **[T1−] Documented fact:** In *God & Golem, Inc.* Wiener invoked the golem tradition associated with Rabbi Loew as a framework for discussing created agents, literal obedience, learning machines, and their makers’ responsibility. This is engagement with the later Loew–golem legend, not evidence that Wiener accepted the legend as history; scholarship dates the attachment of the golem story to Loew well after Loew’s lifetime ([YIVO Encyclopedia, “Golem Legend”](https://encyclopedia.yivo.org/article.aspx/Golem_Legend); [MIT Press edition of *God & Golem, Inc.*](https://direct.mit.edu/books/oa-monograph/2833/God-amp-Golem-Inc-A-Comment-on-Certain-Points)).
+
+### Maimonides
+
+- **[T1−] Documented fact:** Wiener discussed Maimonides in his autobiographical treatment of his Jewish ancestry, reporting a family tradition of descent from him. Wiener presented this as inherited family tradition rather than a genealogy he had independently demonstrated; the crossing is therefore securely one of written engagement, while the claimed descent remains unverified ([MIT Press omnibus of Wiener's autobiographies](https://archive.org/details/mit_press_book_9780262347051)).
+
+### Michael Faraday
+
+- **[T1−] Documented fact:** In *The Human Use of Human Beings*, Wiener situated Faraday’s experimental conception of electromagnetic fields immediately before Maxwell’s mathematical synthesis, using their work to explain the transition from classical mechanical models toward the scientific setting from which cybernetics emerged ([text of *The Human Use of Human Beings*](https://library.agnescameron.info/cybernetics/The%20Human%20Use%20of%20Human%20Beings%2C%20Norbert%20Wiener%20%281950%29.pdf)).
+
+### Nikolai Bernstein
+
+- **[T5] Reported fact:** During Wiener’s 1960 Moscow visit, he reportedly met Soviet movement physiologist Nikolai Bernstein. Bernstein, together with Alexander Luria, is reported to have interpreted for Wiener during a Moscow State University lecture. The meeting is described in later histories of Bernstein, but a contemporaneous Wiener diary or letter confirming its precise circumstances was not located in the consulted public record ([Bernstein biographical summary](https://en.wikipedia.org/wiki/Nikolai_Bernstein); [documentary chronology of Wiener’s Moscow visit](https://www.computer-museum.ru/articles/materialy-mezhdunarodnoy-konferentsii-sorucom-2014/759/)).
+
+### Plato
+
+- **[T1−] Documented fact:** Wiener explicitly traced *cybernetics* to the Greek vocabulary of steering and governance found in Plato, while distinguishing this ancient political-nautical usage from the modern scientific field he named. Plato was thus a documented etymological and conceptual reference in Wiener’s own historical account ([text of *Cybernetics*](https://uberty.org/wp-content/uploads/2015/07/Norbert_Wiener_Cybernetics.pdf)).
+
+### Ramon Llull
+
+- **[T1−] Documented fact:** Wiener referred to Llull’s combinatorial logical tradition when surveying attempts to mechanize Aristotelian classification and reasoning. He treated Llull and later Lullian devices as early ancestors of mechanical logic, not as cybernetics in the modern technical sense ([text of *Cybernetics*](https://uberty.org/wp-content/uploads/2015/07/Norbert_Wiener_Cybernetics.pdf)).
+
+### Stafford Beer
+
+- **[T3] [T5] Documented fact:** After reading *Cybernetics* around 1950, Beer wrote Wiener that he believed himself to be a cybernetician and sent examples of his work. Wiener replied enthusiastically and invited him to MIT; correspondence, later meetings, and a friendship followed. The claim that Wiener called Beer the “father of management cybernetics” is well-supported by Beer-network recollection but should be treated as a reported formulation rather than a verified verbatim archival quotation ([scholarly obituary](https://www.tandfonline.com/doi/abs/10.1057/palgrave.jors.2601622); [Metaphorum archive](https://metaphorum.org/staffords-work)).
+
+### Alan Turing
+
+- **[T1−] Documented fact:** Wiener discussed Turing’s model of computation in his later cybernetic treatment of digital machines and constructive logic, recognizing the finite-symbol, finite-rule “computing machine tape” approach developed in Turing’s 1936 work. No reliable evidence was located that Wiener and Turing met or corresponded personally ([National Academy memoir](https://www.nasonline.org/wp-content/uploads/2024/06/wiener-norbert.pdf); [text of *Cybernetics*](https://uberty.org/wp-content/uploads/2015/07/Norbert_Wiener_Cybernetics.pdf)).
+
+### Phil Zimmermann
+
+- **[T9+] Documented fact:** Wiener and Zimmermann are connected through the Norbert Wiener Award for Social and Professional Responsibility, a posthumous institutional object bearing Wiener’s name. Computer Professionals for Social Responsibility awarded it to Zimmermann in 1996 for making strong encryption broadly available despite a federal investigation. Wiener came first as the award’s namesake and ethical precedent; Zimmermann was the later recipient. No primary evidence located shows Zimmermann directly citing Wiener as a technical influence ([CPSR award history](https://technologyandsociety.org/wp-content/uploads/CPSRs_Norbert_Wiener_Award.pdf); [Zimmermann’s official biography](https://www.philzimmermann.com/EN/background/bio2.html)).
+
+No additional roster crossing was included solely on the basis of contemporaneity, institutional overlap, thematic resemblance, later influence, or presence within the wider cybernetics tradition.
+
 ## Sources
 
 https://www.nasonline.org/wp-content/uploads/2024/06/wiener-norbert.pdf

@@ -474,6 +474,22 @@ The 2026 NYPL retrospective is evidence of this shift: the institution placed Th
 - **16 Apr. 2026:** NYPL presents sold-out retrospective *Sara Rudner's Radiant Life in Dance*.
 - **31 Aug. 2026:** living, aged eighty-two.
 
+## Atlas Connections
+
+### John Cage
+
+- **[T4]** **Documented fact:** Rudner and Cage were jointly billed for the Poetry Project/Danspace benefit at St. Mark’s Church in New York on **9 April 1977**. The surviving event calendar and poster establish their placement on the same program, though they do not document a personal exchange. [Poetry Project event calendar](https://www.poetryproject.org/file-library/pp-readings-and-workshops-1966-1980.pdf); [surviving event poster](https://www.granarybooks.com/pages/books/1514/helen-adam-don-moye-douglas-dunn-merce-cunningham-clark-coolidge-john-cage-william-burroughs/the-poetry-project-at-st-mark-s-church-poetry-reading-poster-flyer-april-9-1977?soldItem=true)
+
+### Merce Cunningham
+
+- **[T4]** **Documented fact:** During the later 1960s Rudner performed clerical work in Cunningham’s office at the Brooklyn Academy of Music, placing her within his immediate professional workplace; available testimony does not by itself establish friendship. Both were subsequently billed for the **9 April 1977** Poetry Project/Danspace benefit at St. Mark’s Church. Rudner also presented work at the Merce Cunningham Studio, including *Dancing May’s Dances* in 1976 and *33 Dances* in 1977. [Rudner’s account of her Cunningham-office employment](https://wendyperron.com/sara-rudner-on-early-tharp/); [Rudner interview and performance captions](https://www.smallpresstraffic.org/the-back-room-article/sara-rudner-in-conversation-with-rashaun-mitchell); [Poetry Project event calendar](https://www.poetryproject.org/file-library/pp-readings-and-workshops-1966-1980.pdf)
+
+### William S. Burroughs
+
+- **[T4]** **Documented fact:** Rudner and Burroughs were jointly billed for the Poetry Project/Danspace benefit at St. Mark’s Church in New York on **9 April 1977**. This establishes a shared program and downtown-performance milieu, but no surviving source consulted establishes conversation, correspondence, friendship or direct collaboration between them. [Poetry Project event calendar](https://www.poetryproject.org/file-library/pp-readings-and-workshops-1966-1980.pdf); [surviving event poster](https://www.granarybooks.com/pages/books/1514/helen-adam-don-moye-douglas-dunn-merce-cunningham-clark-coolidge-john-cage-william-burroughs/the-poetry-project-at-st-marks-church-poetry-reading-poster-flyer-april-9-1977?soldItem=true)
+
+No additional roster crossing met the specified evidentiary and typological threshold. In particular, Rudner’s performances in works concerning Francis of Assisi or Mozart, her training in techniques associated with historical dancers, and institutional presentations of Balanchine repertory under her Sarah Lawrence directorship were not treated as connections because none fits the six defined relationship types without inference.
+
 ## Sources
 
 https://www.smallpresstraffic.org/the-back-room-article/sara-rudner-in-conversation-with-rashaun-mitchell

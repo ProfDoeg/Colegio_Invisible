@@ -554,6 +554,52 @@ After the layers are separated, a limited profile remains possible: a Samaritan 
 | 2022 | Eastman publishes composite-sorcerer analysis | Modern literary criticism |
 | 2024 | M. David Litwa publishes *Simon of Samaria and the Simonians* | Recent movement-centered reconstruction |
 
+## Atlas Connections
+
+### Paul the Apostle
+
+- **[T5]** Later *Acts of Peter and Paul* traditions place Paul alongside Peter in a personal confrontation with Simon at Rome, culminating in Simon’s legendary flight and fall before Nero. Paul is absent from Simon’s canonical episode in Acts 8, so this is **rumor or myth**, not recoverable biography. The stronger modern claim that Pseudo-Clementine “Simon” is a cipher for Paul is an **allegation or theory**, not evidence that the historical men met. [NASSCAL overview](https://www.nasscal.com/e-clavis-christian-apocrypha/passion-of-the-apostles-peter-and-paul/)
+
+### Peter the Apostle
+
+- **[T5]** Acts 8:18–24 narrates a direct meeting in Samaria: Simon offers money for the authority manifested through apostolic laying-on of hands; Peter rejects the offer and commands repentance; Simon requests Peter’s intercession. This is the earliest surviving textual account and therefore a **reported fact / early textual datum**, not independently corroborated contemporary reportage. Later apocrypha greatly expand the meeting into contests at Rome and Simon’s fatal fall, which are **rumor or myth**. [Acts 8:4–24](https://www.biblegateway.com/passage/?search=Acts+8%3A4-24&version=NRSVUE)
+
+### Augustine of Hippo
+
+- **[T1+]** Augustine wrote about the earlier Simon in *De haeresibus* 1 (428–429 CE), placing the Simonians first in his catalogue, and discussed both Simon’s attempted purchase and the Roman Peter–Simon contest in other works. The authorship and textual connection are **documented fact**; Augustine’s late-antique claims about Simon are **reported fact** or, for the Roman contest, **rumor or myth**. [*De haeresibus*](https://www.christearlychurch.co.uk/text/augustine-on-heresies-de-haeresibus/)
+
+### Thomas Aquinas
+
+- **[T1+]** Aquinas discussed the earlier Simon in the *Summa theologiae*, repeating through Augustine the Pseudo-Clementine allegation that Simon killed a child and was deceived by a demon impersonating the child’s soul. Aquinas’s written treatment is **documented fact**; the underlying homicide-and-familiar story is **rumor or myth**. [*Summa theologiae*, Supplement, question 95](https://www.originalsources.com/Document.aspx?DocID=ST4PPNPMTKYXKT8)
+
+### Tertullian
+
+- **[T1+]** Around the beginning of the third century, Tertullian wrote about the earlier Simon in *On Idolatry* 9 and *A Treatise on the Soul* 34, describing his attempted purchase of charismatic power and subsequent opposition to Christianity. The literary engagement is **documented fact**; Tertullian’s expansion beyond Acts is a **reported fact** from hostile patristic tradition. [*On Idolatry* 9](https://www.newadvent.org/fathers/0302.htm) [*A Treatise on the Soul* 34](https://www.newadvent.org/fathers/0310.htm)
+
+### Origen of Alexandria
+
+- **[T1+]** Origen wrote about the earlier Simon in *Against Celsus* during the 240s CE, treating him as a failed divine claimant and reporting that Simonian communities had nearly disappeared. The written engagement is **documented fact**; Origen’s historical and demographic assertions are **reported fact**. [*Against Celsus* 6](https://www.newadvent.org/fathers/04166.htm)
+
+### Jacobus de Voragine
+
+- **[T1+]** Jacobus retold the earlier Simon’s contest with Peter and Paul in the *Golden Legend* during the thirteenth century, including Simon’s demon-assisted ascent and fall at Rome. Jacobus’s authorship is **documented fact**; the narrated encounter and death are **rumor or myth** derived from apocryphal and hagiographic tradition. [*Golden Legend*, “Saint Peter the Apostle”](https://ccel.org/ccel/voragine/goldleg4/goldleg4.vi.html)
+
+### Dante Alighieri
+
+- **[T1+]** Dante directly invoked the earlier Simon at the opening of *Inferno* 19 (composed in the early fourteenth century), addressing “Simon Magus” and his followers while condemning the commercialization of sacred things. This literary reference is **documented fact**; Dante does not present a personal meeting with Simon. [*Inferno* 19](https://sourcebooks.web.fordham.edu/source/dante-infern19.asp)
+
+### Helena Petrovna Blavatsky
+
+- **[T1+]** Blavatsky wrote about the earlier Simon in her esoteric papers, calling him the “Great Power of God,” questioning the Christian distinction between apostolic miracle and magic, and defending him against hostile ecclesiastical biography. Her written engagement is **documented fact**; her rehabilitative interpretation of Simon and Helena is an **allegation or theory** rather than independent ancient evidence. [Blavatsky’s esoteric papers](https://blavatskyarchives.com/blavatsky_esoteric_papers.pdf)
+
+### Carl Gustav Jung
+
+- **[T1+]** Jung repeatedly engaged the earlier Simon in seminars and writings; in *Collected Works* 18 he addressed the figure concealed in his visionary Philemon as “Simon Magus,” while his 1931 *Visions Seminar* discussed Simon as the legendary arch-heretic and father of Gnosis. Jung’s written engagement is **documented fact**; the visionary identification of Philemon with Simon belongs to Jung’s personal symbolic experience, not historical biography. [Jung quotation from *Collected Works* 18](https://carljungdepthpsychologysite.blog/2021/09/06/world-10/)
+
+### Norbert Wiener
+
+- **[T1+]** Wiener summarized the earlier Simon’s attempted purchase in *God & Golem, Inc.* (1964) and used “simony” as an analogy for exploiting automation and supernatural-seeming technical power for profit or destruction. This literary and conceptual engagement is **documented fact**. Wiener’s text mistakenly names Paul, rather than Peter, as Simon’s apostolic counterpart. [*God & Golem, Inc.*](https://www.vordenker.de/ggphilosophy/wiener_gott-golem.pdf)
+
 ## Sources
 
 https://www.biblegateway.com/passage/?search=Acts+8%3A4-24&version=NRSVUE

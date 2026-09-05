@@ -523,6 +523,72 @@ He held elected office as deputy but received no normal state honor in life. The
 - Soviet and Italian police archives are institutionally produced records, not neutral transcripts; they must be compared with letters, manuscript evidence, and later testimony.
 - The murder, missing-notebook, and secret-apostasy claims lack decisive primary evidence. Their cultural effects are documented separately from their factual status.
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-] Documented fact.** In the *Prison Notebooks* (1929–35), Gramsci discussed Aristotelian philosophy and political vocabulary while reconstructing the histories of philosophy, intellectuals, and the state. This is textual engagement with a past figure, not evidence of any direct historical contact. The critical notebooks’ indexes and concordances document these references. [International Gramsci Society concordance](https://www.internationalgramscisociety.org/resources/concordance_table/index.html)
+
+### Henri Bergson
+
+- **[T3] Documented fact.** Gramsci engaged Bergson’s philosophy in his early writings and returned critically to accusations that the Turin factory-council movement was “voluntarist” or “Bergsonian” in Notebook 3, §48 (1930). Because Bergson and Gramsci were contemporaries but no correspondence or meeting is established, this is one-sided written engagement only. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/gramsci/), [textual discussion of Q3§48](https://www.plutobooks.com/wp-content/uploads/2024/01/9781786800077.pdf)
+
+### Brothers Grimm
+
+- **[T3] Documented fact.** In prison, principally during 1929–32, Gramsci translated twenty-three complete tales and part of a twenty-fourth from Jacob and Wilhelm Grimm’s German *Kinder- und Hausmärchen*. This constitutes direct textual engagement through translation, not personal contact. [International Gramsci Journal](https://journals.uniurb.it/index.php/igj/article/view/4083), [University of Florence record](https://flore.unifi.it/handle/2158/835710)
+
+### Dante Alighieri
+
+- **[T1-] Documented fact.** Gramsci repeatedly analyzed Dante, especially Canto X of the *Inferno*, in the prison notebooks; Notebook 4 includes the note conventionally indexed “Dante, Farinata, Cavalcante.” His concern was literary structure, historical culture, and the relation between authorial intention and a work’s realized effects. [Prison Notebook 4 contents](https://www.marxists.org/archive/gramsci/prison_notebooks/04/index.htm)
+
+### Johann Wolfgang von Goethe
+
+- **[T1-] Documented fact.** The prison notebooks contain discussions of Goethe within Gramsci’s studies of European literature, intellectual formation, popular culture, and translation. The connection is solely Gramsci’s documented textual treatment of an earlier writer. [International Gramsci Society concordance](https://www.internationalgramscisociety.org/resources/concordance_table/index.html)
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-] Documented fact.** Gramsci wrote extensively about Hegel’s philosophy, particularly civil society, the ethical state, dialectic, and the intellectual ancestry of Marxism, in the prison notebooks of 1929–35. Scholarship identifies Hegel as one of Gramsci’s most frequently cited philosophers. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/gramsci/), [study of Gramsci’s engagement with Hegel](https://www.marxists.org/portugues/coutinho/1997/mes/atualidade.htm)
+
+### Karl Marx
+
+- **[T1-] Documented fact.** Marx was a central written-about figure throughout Gramsci’s career: Gramsci published “The Revolution Against *Capital*” (1917) and “Our Marx” (1918), repeatedly reconstructed Marx’s ideas in the prison notebooks, and translated passages from Marx in Notebook 7. Gramsci’s “philosophy of praxis” was a critical development of Marxism rather than a repudiation of Marx. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/gramsci/), [International Gramsci Journal](https://journals.uniurb.it/index.php/igj/article/view/4083)
+
+### Benito Mussolini
+
+- **[T3] Documented fact.** Gramsci repeatedly wrote about Mussolini and fascism from the 1914 controversy over “active and operative neutrality” through his Communist journalism and prison analysis. Mussolini, in turn, directly challenged Gramsci’s assertions during the latter’s Chamber speech of 16 May 1925, making this a documented two-sided public discourse. [Parliamentary speech transcript](https://www.marxists.org/archive/gramsci/1925/05/speech.htm)
+- **[T5] Documented fact.** Gramsci and Mussolini were physically present and directly exchanged remarks in the Italian Chamber of Deputies in Rome on 16 May 1925, when Mussolini repeatedly interrupted Gramsci’s speech against the secret-associations bill. This supports a personal encounter, though not friendship or a privately arranged meeting. [Parliamentary speech transcript](https://www.marxists.org/portugues/gramsci/1925/05/16.htm)
+
+### Nicos Poulantzas
+
+- **[T1+] Documented fact.** After Gramsci’s death, Poulantzas explicitly analyzed and criticized Gramsci’s concepts of hegemony, civil society, and the state, beginning at least with his 1960s writings and continuing through his mature state theory. Poulantzas treated Gramsci as a major predecessor while disputing what he regarded as Gramsci’s restriction of hegemony to superstructures and ideology. [Poulantzas, “Introduction to the Study of Hegemony in the State”](https://www.filosofia.org/rev/pch/1967/n08p131.htm), [*The Poulantzas Reader*](https://psi502.cankaya.edu.tr/uploads/files/Nicos%20Poulantzas%20Reader%20Marxism.pdf)
+
+### Jean-Jacques Rousseau
+
+- **[T1-] Documented fact.** Gramsci discussed Rousseau in the prison notebooks while examining political will, contract, democracy, and the formation of a collective or “national-popular” will. The extent of Rousseau’s influence on Gramsci’s theory of hegemony remains interpretive, but the textual engagement itself is documented. [Study of Gramsci’s Rousseau engagement](https://www.marxists.org/portugues/coutinho/1997/mes/atualidade.htm)
+
+### Georges Sorel
+
+- **[T3] Documented fact.** Gramsci engaged Sorel’s writings from his early Socialist period through the prison notebooks, addressing revolutionary syndicalism, myth, historical will, and Sorel’s relationship to Croce and Marxism. They were contemporaries until Sorel’s death in 1922, but no correspondence or personal meeting is securely documented. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/gramsci/)
+
+### Leon Trotsky
+
+- **[T3] Documented fact.** Gramsci discussed Trotsky’s political strategy and position in Soviet disputes, including questions of permanent revolution, “war of maneuver,” and internationalism. His October 1926 letter concerning the Soviet leadership struggle opposed the united opposition’s political line while warning the majority against destroying party unity. No direct Gramsci–Trotsky correspondence or personal meeting is securely established. [Gramsci’s October 1926 correspondence](https://www.marxists.org/archive/gramsci/1926/10/letter-togliatti.htm), [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/gramsci/)
+
+### Giambattista Vico
+
+- **[T1-] Documented fact.** Gramsci treated Vico as an important predecessor in Italian historicism, examining his conception of history, humanly created institutions, language, and popular creativity in the prison notebooks. This is documented engagement with a past thinker. [International Gramsci Society concordance](https://www.internationalgramscisociety.org/resources/concordance_table/index.html)
+
+### Vladimir Lenin
+
+- **[T3] Documented fact.** Gramsci engaged Lenin continuously through journalism, party reports, Comintern strategy, and the prison notebooks. His writings adopted and reworked Lenin’s ideas about political leadership, alliances, revolution, and hegemony; institutional communication occurred through the Communist International, although a consequential private exchange between the two men has not been demonstrated. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/gramsci/)
+- **[T4] Documented fact.** Gramsci and Lenin were both in Moscow during Gramsci’s first Comintern assignment in 1922, before Lenin’s final incapacitation. Their presence in the same Soviet political milieu is established, but claims of a substantial one-to-one meeting remain insufficiently documented and therefore do not warrant T5. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/gramsci/)
+
+### Slavoj Žižek
+
+- **[T1+] Documented fact.** Žižek has discussed Gramsci’s concept of hegemony in his later writing and commentary, usually through critical engagement with Ernesto Laclau and Chantal Mouffe’s post-Gramscian theory. This is a posthumous intellectual crossing; it does not make Žižek a direct Gramscian disciple. [Žižek archive thematic index](https://www.zizek.org/idea/hegemony-consent-cognitive-mapping)
+
+No reliable evidence was found for personal meetings, shared objects, prophecy/hyperstition, or other qualifying crossings with the remaining roster members. Mere influence claims, common subject matter, posthumous analogy, and uncorroborated co-presence were excluded.
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/antonio-gramsci_%28Dizionario-Biografico%29/

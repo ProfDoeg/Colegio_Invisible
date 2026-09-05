@@ -562,6 +562,54 @@ Older histories often ranked Poisson principally by the number of his works and 
 - Inspect Chamber of Peers attendance and speeches to measure his actual parliamentary activity.
 - Locate medical correspondence or death act wording before assigning a cause of death.
 
+## Atlas Connections
+
+### Augustin-Louis Cauchy
+
+- **[T4]** **Documented fact:** Poisson and Cauchy occupied the same Paris mathematical-institutional milieu: both belonged to the Académie des sciences from Cauchy’s 1816 election, and both held École Polytechnique offices during the Restoration—Poisson as exit examiner and Cauchy as professor. Their research programs also intersected institutionally in elasticity and wave mechanics, but no friendship is inferred from this co-membership. [MacTutor: Cauchy](https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/)
+
+### Paul Adrien Maurice Dirac
+
+- **[T1+]** **Documented fact:** Long after Poisson’s death, Dirac explicitly used the “Poisson (or Jacobi) bracket” in his 1925 paper “The Fundamental Equations of Quantum Mechanics,” treating it as the classical counterpart of the quantum commutator. The crossing is therefore retrospective textual engagement by Dirac with mathematical work originating in Poisson’s mechanics, not personal contact. [Dirac’s 1925 paper](https://doi.org/10.1098/rspa.1925.0150)
+
+### Évariste Galois
+
+- **[T3]** **Documented fact:** Galois submitted his memoir on solvability by radicals to the Académie des sciences on 17 January 1831; Poisson and Sylvestre-François Lacroix examined it and delivered their adverse written report on 4 July. Galois also wrote to the Academy president on 31 March demanding to know whether Poisson and Lacroix had lost the memoir or intended to report on it. This was consequential written and institutional engagement, but evidence does not support friendship, conspiracy, or deliberate suppression. [Caroline Ehrhardt’s documentary study](https://doi.org/10.1017/S0269889709990251)
+
+### Carl Friedrich Gauss
+
+- **[T3]** **Documented fact:** In a letter dated 31 March 1812, Poisson asked the governor of the École Polytechnique, on behalf of the committee of its *Journal*, to send volumes 8 and 9 to Gauss, calling him the most distinguished mathematician in Germany. Because those volumes contained several of Poisson’s own articles, this is documented one-sided scholarly outreach; the cited record does not establish a personal meeting or reciprocal correspondence. [École Polytechnique exhibition catalogue, item 90](https://www.math-info-paris.cnrs.fr/bibli/wp-content/uploads/2015/07/catalogue_exposition_Poisson_Berkeley1.pdf)
+
+### Carl Gustav Jacob Jacobi
+
+- **[T1+]** **Documented fact:** Jacobi’s later mechanics developed the bracket operation introduced by Poisson, establishing the identity now bearing Jacobi’s name and using it in the theorem subsequently called the Poisson–Jacobi theorem. This is a posthumous textual and mathematical reception of Poisson’s work, not a personal crossing: Jacobi’s decisive lectures followed Poisson’s death. [École Polytechnique historical study](https://www.editions.polytechnique.fr/files/pdf/EXT_1584_8.pdf)
+
+### Joseph Fourier
+
+- **[T3]** **Documented fact:** Poisson published the first printed exposition of Fourier’s heat theory in 1808, in a signed editorial account for the *Bulletin de la Société philomatique*. Their written engagement later became adversarial: in 1815 Fourier complained to Laplace that Poisson and Biot were presenting results derived from his work while claiming a superior exposition, while Poisson criticized Fourier’s derivations and advanced a competing molecular-mechanical treatment of heat. This is a documented scientific and priority dispute, not evidence of personal enmity beyond the controversy. [École Polytechnique Poisson bibliography](https://www.polytechnique.edu/bibliotheque/actualites/poisson-simeon-denis-x1798)
+
+### Joseph-Louis Lagrange
+
+- **[T5]** **Documented fact:** Lagrange taught and evaluated Poisson at the École Polytechnique, recognized his talent, supported his early career and 1806 candidacy for the Institut, and was described with Laplace as becoming Poisson’s lifelong friend. Poisson’s 1809 work on variation of arbitrary constants also directly extended an exchange of results with Lagrange. [MacTutor: Poisson](https://mathshistory.st-andrews.ac.uk/Biographies/Poisson/)
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1-]** **Documented fact:** In an 1831 historical discussion of differential and integral calculus, Poisson explicitly credited Leibniz with the algorithm and notation that prevailed, arguing that the calculus in that operational sense did not predate him. Poisson was therefore the later writer commenting on the earlier roster figure. [MacTutor: Poisson](https://mathshistory.st-andrews.ac.uk/Biographies/Poisson/)
+
+### Pierre-Simon Laplace
+
+- **[T5]** **Documented fact:** Laplace was Poisson’s teacher, patron, Academy supporter, scientific model, and—according to the standard biographical account—a lifelong friend. Poisson repeatedly developed problems raised by Laplace and in 1827 succeeded him as *géomètre* of the Bureau des longitudes. The succession was institutional and intellectual; it did not entail inheritance of Laplace’s private property or title. [MacTutor: Poisson](https://mathshistory.st-andrews.ac.uk/Biographies/Poisson/)
+
+### Isaac Newton
+
+- **[T1-]** **Documented fact:** Poisson explicitly discussed Newton in his 1831 assessment of the history and priority of calculus, contrasting Newton’s claim with Leibniz’s authorship of the generally adopted algorithm and notation. His optical work also operated within the Newtonian corpuscular tradition, but the classified connection here rests on the identifiable historical writing rather than merely on adherence to that tradition. [MacTutor: Poisson](https://mathshistory.st-andrews.ac.uk/Biographies/Poisson/)
+
+### William Rowan Hamilton
+
+- **[T1+]** **Documented fact:** Hamilton’s subsequent reformulation of analytical mechanics used and extended structures developed by Lagrange and Poisson, including the bracket that became central to canonical mechanics. This is documented intellectual reception by a later mathematician; no personal meeting or correspondence between Hamilton and Poisson is established here. [École Polytechnique historical account](https://mathshistory.st-andrews.ac.uk/BEA/poisson_bea.pdf)
+
+No reliable crossing was found for the remainder of the atlas roster. In particular, mere chronological overlap, residence in Paris, later use of a Poisson-named equation or distribution, or membership in broadly related scientific traditions was not treated as sufficient evidence.
+
 ## Sources
 
 https://fr.wikisource.org/wiki/Poisson_(Arago)/Texte_entier

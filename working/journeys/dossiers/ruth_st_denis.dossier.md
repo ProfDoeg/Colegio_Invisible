@@ -432,6 +432,35 @@ Her posthumous image therefore remains divided but not simply reversed. Early ha
 | 1987 | Inducted into National Museum of Dance Hall of Fame; Sherman/Schlundt reassessment published. |
 | 1991 onward | Desmond and later scholars intensify analysis of cultural imperialism, race, and appropriation. |
 
+## Atlas Connections
+
+### Geneviève Stebbins
+
+- **[T3] Documented fact.** On 25 November 1892, St. Denis saw Stebbins perform *The Dance of Day* at New York’s Madison Square Theatre. She later called the experience “the real birth of my art life.” The date, venue, and retrospective account are documented by the [Centre national de la danse](https://mediatheque.cnd.fr/spip.php?id_article=&id_article=46&page=la_danse_libre-article).
+- **[T1-] Documented fact.** St. Denis, the later figure, described Stebbins and *The Dance of Day* at length in her 1939 autobiography *An Unfinished Life*. This is a retrospective written connection, nearly five decades after the performance.
+
+### Isadora Duncan
+
+- **[T1-] Documented fact.** St. Denis wrote “Open Letter about Isadora Duncan,” published in *Dance Magazine* in November 1966, p. 26. Duncan, who died in 1927, is the earlier and written-about figure; St. Denis is therefore the later writer. The article is independently indexed by the [Isadora Duncan Archive](https://www.isadoraduncanarchive.org/reference/articles).
+
+### Ted Shawn
+
+- **[T5] Documented fact.** St. Denis met Shawn in 1914, hired him as her partner, performed their first joint concert on 13 April, and married him on 13 August. They subsequently cofounded Denishawn and continued intermittent personal and professional contact through their 1964 fiftieth-anniversary performance at Jacob’s Pillow. These events are documented in the [NYPL Ruth St. Denis Papers finding aid](https://archives.nypl.org/dan/19676).
+- **[T3] Documented fact.** Approximately 1,553 surviving items of correspondence between St. Denis and Shawn span 1914–58, covering their early marriage, separation, and later relationship. The correspondence is described in the [NYPL Ruth St. Denis Letters finding aid](https://archives.nypl.org/dan/19674).
+
+### Martha Graham
+
+- **[T3] Documented fact.** Graham decided to pursue dance after seeing St. Denis perform; this spectator-performer crossing is recorded by the [Library of Congress](https://guides.loc.gov/martha-graham).
+- **[T5] Documented fact.** Graham began studying with St. Denis and Shawn at the Denishawn School in Los Angeles in 1916, became a teacher there in 1918, and performed with the company from 1919 to 1923. Their teacher-student and company relationship necessarily involved sustained personal contact. The chronology is documented by the [Library of Congress](https://www.loc.gov/collections/martha-graham/articles-and-essays/timeline/).
+- **[T3] Documented fact.** Letters from Graham to St. Denis survive among St. Denis’s correspondence for 1917–58, although the online finding aid does not enumerate every letter’s date or contents. See the [NYPL Ruth St. Denis Letters finding aid](https://archives.nypl.org/dan/19674).
+
+### Doris Humphrey
+
+- **[T5] Documented fact.** Humphrey went to Denishawn in Los Angeles in July 1917 and recorded meeting Ruth St. Denis and Ted Shawn in a letter dated 21 August 1917. She returned in early 1918 and became an active company member. The meeting and dates are documented in the [NYPL Doris Humphrey Collection finding aid](https://archives.nypl.org/dan/19673).
+- **[T3] Documented fact.** Archival correspondence connects the two dancers in both directions: the Ruth St. Denis Letters contain letters from Humphrey, while the Doris Humphrey letters include St. Denis among Humphrey’s correspondents. See the [St. Denis](https://archives.nypl.org/dan/19674) and [Humphrey](https://archives.nypl.org/dan/19673) NYPL finding aids.
+
+No additional roster member was included merely because of shared influence, repertory, geography, institutional genealogy, or contemporaneity; those circumstances alone do not meet the specified connection types.
+
 ## Sources
 
 https://archives.nypl.org/dan/19676

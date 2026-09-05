@@ -593,6 +593,46 @@ The line is not a single hereditary chain. Montessori's prepared environment, se
 | 1992 | UNESCO/Czech Comenius Medal created; major international scholarly reassessment around 400th birth anniversary. |
 | 1993–present | Comenius appears on Czech 200-koruna banknote series. |
 
+## Atlas Connections
+
+### Abraham
+
+- **[T1-]** **Documented fact:** Comenius made the biblical patriarch the protagonist of *Abrahamus patriarcha*, a Latin school drama written for performance at Leszno and published in 1641. The play treated Abraham as an exemplar of faith, household government, hospitality, and education. The Czech Academy’s Comeniology department groups it with Comenius’s early dramatic works. [Czech Academy, *Diogenes and Abraham*](https://komeniologie.flu.cas.cz/cz/vedecka-a-edicni-cinnost/comenius/diogenes-kynik-znovu-nazivu-a-patriarcha-abraham)
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Comenius repeatedly discussed Aristotle in *Didactica magna*, sometimes adopting Aristotelian propositions—such as the comparison of the mind to an unwritten tablet and the principle that art imitates nature—and elsewhere opposing the dominance of pagan authorities in Christian schools. His engagement was selective rather than straightforwardly Aristotelian. [English *Great Didactic*](https://en.wikisource.org/wiki/The_Great_Didactic_of_John_Amos_Comenius); [study of the Aristotelian *ars imitatur naturam* principle in Comenius](https://ozp.instrao.ru/images/nomera/Pedagogika_2017_%D0%A21_5_43-ilovepdf-compressed.pdf)
+
+### Francis Bacon
+
+- **[T1-]** **Documented fact:** After Bacon’s death in 1626, Comenius repeatedly named “Verulam” as an important precursor, praised the *Novum Organum*, and assessed Bacon’s reform of knowledge in the *Pansophiae prodromus* and related writings. He regarded Bacon’s proposals as valuable but insufficiently comprehensive for pansophy, which was to unite sensory inquiry, reason, and revelation. [Newton Project study of Comenius](https://www.newtonproject.ox.ac.uk/view/texts/diplomatic/OTHE00061); [Oxford study of post-Ramist and Baconian method](https://academic.oup.com/book/31911/chapter-abstract/267595002)
+
+### Tommaso Campanella
+
+- **[T3]** **Documented fact:** Comenius engaged in print with Campanella’s natural philosophy and universal-reform program while the two were contemporaries, naming Campanella alongside Bacon among the major predecessors of his own pansophic undertaking. No correspondence or personal meeting between them is established by the sources consulted; this was one-sided textual engagement. [Oxford study of Comenius’s engagement with Campanella](https://academic.oup.com/book/56290/chapter-abstract/445246634); [historical introduction to *The Great Didactic*](https://en.wikisource.org/wiki/The_Great_Didactic_of_John_Amos_Comenius/Introduction_1)
+
+### Diogenes of Sinope
+
+- **[T1-]** **Documented fact:** Comenius wrote *Diogenes Cynicus redivivus sive de compendiose philosophando* in Leszno in 1639 and published it there in 1640. The school drama reconstructed episodes associated with Diogenes to stage questions of education, social convention, self-command, and practical philosophy; it is a literary-didactic treatment, not an independent ancient biography. [Czech Academy, *Diogenes and Abraham*](https://komeniologie.flu.cas.cz/cz/vedecka-a-edicni-cinnost/comenius/diogenes-kynik-znovu-nazivu-a-patriarcha-abraham); [study of Comenius’s early dramas](https://www.tandfonline.com/doi/full/10.1080/00309230.2020.1864425)
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1+]** **Documented fact:** In May 1671, several months after Comenius’s death, the young Leibniz composed *In Comenii obitum* at Magnus Hesenthaler’s request. The Latin epicedium addressed Comenius directly, praised his pansophic ambitions, and predicted that posterity would honor his works, hopes, and projects. Comenius is therefore the earlier, written-about figure in this pairing. [Leibniz Academy edition, item 60a](https://www.uni-muenster.de/Leibniz/DatenII1/II1_B.pdf); [study of the Comenius–Leibniz links](https://www.tandfonline.com/doi/abs/10.1080/17496977.2023.2272110)
+
+### Nicolaus Copernicus
+
+- **[T9-]** **Documented fact:** On 17 January 1614, while studying at Heidelberg, Comenius bought Copernicus’s autograph manuscript of *De revolutionibus* from the widow of mathematics professor Jakob Christmann. Comenius’s Latin ownership note survives in the codex. The manuscript subsequently passed through later collections and is now held by the Jagiellonian Library in Kraków. This is a direct shared-object connection: Copernicus originated the manuscript, and Comenius became a later owner. [Cambridge study noting the Heidelberg purchase](https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/abs/irenicism-and-dogmatics-in-the-confessional-age-pareus-and-comenius-in-heidelberg-1614/6467FF3DC881970BE59D975411632D91); [Charles University study of the autograph’s provenance](https://dspace.cuni.cz/bitstream/handle/20.500.11956/53249/140026498.pdf?isAllowed=y&sequence=1)
+
+### Ramon Llull
+
+- **[T1-]** **Documented fact:** Comenius engaged with Llull’s combinatorial *ars* through the Lullist curriculum transmitted at Herborn, especially by Johann Heinrich Alsted, and reworked that tradition in his own pansophic and trinitarian method. Modern scholarship identifies this as a substantive textual and methodological appropriation, although it was mediated through early-modern Lullism rather than personal contact or an unbroken institutional succession. [Oxford study, “Pansophia: Comenius and the Quest for Human Omniscience”](https://academic.oup.com/book/56290/chapter-abstract/445246634)
+
+### René Descartes
+
+- **[T5]** **Documented fact:** Comenius visited Descartes at Endegeest near Leiden in July 1642, and the two discussed their competing conceptions of method and universal knowledge. Comenius later described the encounter in *Continuatio admonitionis fraternae*; Descartes had already produced a written assessment of Comenius’s *Pansophiae prodromus*, and Comenius later published anti-Cartesian arguments. The meeting itself is secure, but the often-repeated claim that their conversation lasted precisely four hours rests principally on later narrative transmission. [Brill, *Comenius and the Low Countries* contents and study](https://brill.com/display/book/9789004618879/front-1.pdf); [study of Descartes’s assessment and Comenius’s account](https://www.tandfonline.com/doi/full/10.1080/0960878042000253060)
+
+No other roster crossing was included where the available evidence amounted only to broad intellectual resemblance, later influence, shared geography, generic biblical or classical citation, or commemorative association.
+
 ## Sources
 
 https://archive.org/details/bub_gb_Y0tBAAAAcAAJ

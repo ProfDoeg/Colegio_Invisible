@@ -555,6 +555,34 @@ Keynes’s reputation contains several distinguishable figures: the Cambridge ae
 | 1949 | *Two Memoirs* published posthumously |
 | 1971–89 | Thirty-volume *Collected Writings* published |
 
+## Atlas Connections
+
+### Friedrich August von Hayek
+
+- **[T3]** **Documented fact.** Keynes and Hayek corresponded from 1927 onward and publicly engaged one another’s monetary and political arguments. Their most intensive theoretical exchange followed Hayek’s 1931 critique of *A Treatise on Money*; Keynes later wrote approvingly, though not without reservations, about *The Road to Serfdom*. Hayek’s papers preserve a Keynes correspondence file covering 1927–46. [Oxford Academic](https://academic.oup.com/chicago-scholarship-online/book/46278/chapter-abstract/405687202) [Hoover Institution](https://digitalcollections2.hoover.org/view/ark%3A/54723/h3sz53/keynes-lord-john-maynard-1927-1946)
+- **[T5]** **Documented fact.** Hayek recalled first meeting Keynes at a London and Cambridge Economic Service conference in 1928. Despite their disputes, they remained personally friendly; during the Second World War Keynes helped Hayek obtain rooms at King’s College, where the displaced London School of Economics was operating. [UCLA Oral History](https://static.library.ucla.edu/oralhistory/text/masters/21198-zz0008zd21-4-master.html)
+
+### H. G. Wells
+
+- **[T3]** **Documented fact.** Keynes and Wells maintained written engagement during the 1920s concerning population, birth control, eugenics, history, and political economy. On 10 January 1920 Keynes recommended Ellsworth Huntington’s books as material for Wells’s *The Outline of History*; Wells in turn drew on *The Economic Consequences of the Peace*. They later participated in overlapping birth-control campaigns. [Duke University, “John Maynard Keynes, H. G. Wells, and a Problematic Utopia”](https://hope.econ.duke.edu/sites/hope.econ.duke.edu/files/Keynes-WellsEssay-Current.pdf)
+
+### Alan Mathison Turing
+
+- **[T4]** **Documented fact.** Keynes and Turing occupied the same King’s College institutional milieu: Turing studied there in 1931–34 and became a Fellow in 1935, while Keynes was a Fellow and first bursar. King’s specifically records that Keynes served on the college’s Electors to Fellowships Committee during Turing’s period there. This establishes close institutional proximity, but the cited record does not by itself establish a personal meeting or friendship. [King’s College Cambridge](https://www.kings.cam.ac.uk/alan-mathison-turing-1912-54)
+
+### Sir Isaac Newton
+
+- **[T1-]** **Documented fact.** Keynes researched and wrote extensively about Newton, culminating in “Newton, the Man,” prepared for the 1946 Newton tercentenary and delivered after Keynes’s death by Geoffrey Keynes. The essay used Newton’s private alchemical and theological writings to challenge the conventional picture of Newton as an exclusively modern rational scientist. [Newton Project](https://newtonproject.ox.ac.uk/history-of-newtons-papers/newton-related-papers-of-john-maynard-keynes) [Complete essay](https://mathshistory.st-andrews.ac.uk/Extras/Keynes_Newton/)
+- **[T9-]** **Documented fact.** Newton’s manuscripts form a physical-object connection across two centuries. Beginning with the Sotheby sale of the Portsmouth papers in July 1936, Keynes acquired, exchanged, reunited, and studied numerous Newton manuscripts—especially alchemical papers—and ultimately bequeathed his collection to King’s College. [Newton Project catalogue history](https://newtonproject.ox.ac.uk/introduction-to-the-newton-manuscripts-catalogue) [Royal Society historical study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3645201/)
+
+### Pablo Picasso
+
+- **[T9-]** **Documented fact.** Original works by Picasso passed into Keynes’s art collection: the reconstructed acquisition record shows Keynes buying works by Picasso during his later collecting campaigns, particularly in 1935–37. The connection is therefore through Picasso-created objects later owned and ultimately bequeathed by Keynes, not evidence that the two men personally met. [Metropolitan Museum of Art, Modern Art Index Project](https://www.metmuseum.org/ko/research-centers/leonard-a-lauder-research-center/research-resources/modern-art-index-project/keynes) [*Review of Asset Pricing Studies*](https://academic.oup.com/raps/article/10/3/490/5716334)
+
+### Joseph Alois Schumpeter
+
+- **[T1+]** **Documented fact.** After Keynes’s death, Schumpeter wrote the substantial biographical and analytical essay “John Maynard Keynes 1883–1946,” published in *The Economic Journal* in 1946. Keynes is therefore the earlier, written-about figure in this posthumous connection. The essay assessed Keynes’s career, social position, policy work, and place in economic analysis rather than merely recording his death. [Bibliographic reproduction](https://external.dandelon.com/download/attachments/dandelon/ids/CH001580B0FB944BA089BC12575F00043AF4F.pdf)
+
 ## Sources
 
 https://archivesearch.lib.cam.ac.uk/repositories/7/resources/1239

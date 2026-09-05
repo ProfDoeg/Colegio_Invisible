@@ -600,6 +600,42 @@ Each image selects a real feature and can become misleading when treated as the 
 - Reuchlin’s reception was posthumous and mediated.
 - Death date, place, cause, burial, and estate are unknown.
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Abulafia explicitly discussed Aristotle and quoted the *Metaphysics* repeatedly in *Otzar ʿEden Ganuz*; he also commented on the *Organon* and reported studying Aristotelian works on nature and metaphysics before repeatedly studying Maimonides’ *Guide*. The crossing is textual and mediated through medieval Hebrew and Arabic philosophical traditions, not personal. [Moshe Idel, *Abraham Abulafia’s Esotericism*, chapter on his studies and teaching](https://www.degruyterbrill.com/document/doi/10.1515/9783110599978-002/pdf?licenseType=open-access)
+
+### Maimonides
+
+- **[T1-]** **Documented fact:** Abulafia made Maimonides’ *Guide of the Perplexed* a principal subject of his teaching and wrote three commentaries on it—*Sefer ha-Geʾullah*, *Hayyei ha-Nefesh*, and *Sitrei Torah*—between the 1270s and 1280. He interpreted Maimonidean prophecy and intellect through his own combinatorial Kabbalah; the two could not have met because Maimonides died in 1204. [Cambridge Dictionary of Judaism and Jewish Culture](https://assets.cambridge.org/97805218/25979/excerpt/9780521825979_excerpt.pdf); [Idel, *Abraham Abulafia’s Esotericism*](https://www.ssoar.info/ssoar/bitstream/document/70561/1/ssoar-2020-idel-Abraham_Abulafias_Esotericism_Secrets_and.pdf)
+
+### Moses
+
+- **[T1-]** **Documented fact:** Abulafia repeatedly interpreted Moses as the exemplary prophet and cast his own 1280 mission to Pope Nicholas III in the narrative pattern of Moses confronting Pharaoh. The connection is scriptural interpretation and deliberate self-typology, not a historical encounter. [Moshe Idel, “Abraham Abulafia on the Messiah and the Pope”](https://www.mdpi.com/2077-1444/16/3/273)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Abulafia treated Jesus and Christian claims about him in writings responding to Christianity, including symbolic discussions connecting Jesus with the angelic figures Metatron and Sandalfon. His treatment combined polemic, appropriation, and esoteric reinterpretation; it was necessarily textual rather than personal. [Robert J. Sagerman, *The Serpent Kills or the Serpent Gives Life*, especially “Abulafia and Jesus: Metatron and Sandalfon”](https://brill.com/display/book/9789004194472/Bej.9789004194465.i-384_003.pdf)
+
+### Giovanni Pico della Mirandola
+
+- **[T3]** **Documented fact:** In Florence in 1486, nearly two centuries after Abulafia’s death, Pico commissioned Flavius Mithridates to translate substantial Abulafian writings into Latin and incorporated material from this translated corpus into his Christian Kabbalah. This was one-sided, posthumous written engagement mediated by a translator, not correspondence or personal contact. Scholarship identifies Abulafia as one of Pico’s two principal kabbalistic sources. [Cambridge Handbook of Western Mysticism and Esotericism](https://www.cambridge.org/core/books/abs/cambridge-handbook-of-western-mysticism-and-esotericism/christian-kabbalah/06C1841D0B561A4F4A01E791743CF4DE); [Moshe Idel, “Abraham Abulafia and the Emergence of Christian Kabbalah”](https://brill.com/view/journals/zuto/22/1/article-p15_4.pdf)
+
+### Johannes Reuchlin
+
+- **[T3]** **Documented fact:** Reuchlin’s *De verbo mirifico* (1494) and especially *De arte cabalistica* (1517) participated in the Christian-kabbalistic reception of Abulafian divine-name speculation and distinctions between forms of Kabbalah. The engagement was indirect and posthumous, transmitted through the Italian Christian-Kabbalah environment associated with Pico and Mithridates; no personal meeting was possible. [Cambridge Dictionary of Judaism and Jewish Culture](https://assets.cambridge.org/97805218/25979/excerpt/9780521825979_excerpt.pdf); [Cambridge University Press, “Hermeticism, the Cabala, and the Search for Ancient Wisdom”](https://www.cambridge.org/core/books/magic-science-and-religion-in-early-modern-europe/hermeticism-the-cabala-and-the-search-for-ancient-wisdom/A34EAAD6820340AD3F27F1297127F506)
+
+### Erich Fromm
+
+- **[T1+]** **Documented fact:** Fromm discussed Abulafia in *You Shall Be as Gods* (1966), presenting his messianic announcement for 1290 and the opposition organized by Solomon ibn Adret as an episode in the history of Jewish messianism and resistance to authority. This is a later author writing about Abulafia, not evidence of direct intellectual transmission from Abulafia to Fromm. [Bibliographic discussion of Fromm’s passage](https://elretohistorico.com/abraham-abulafia-sefari-mistico/)
+
+### Mircea Eliade
+
+- **[T1+]** **Documented fact:** Eliade included Abulafia in his historical survey of Jewish mysticism in volume 3 of *A History of Religious Ideas*, discussing his ecstatic and prophetic Kabbalah. This is twentieth-century historiographical treatment of Abulafia, not a personal or manuscript-lineage connection. [Bibliographic record and index reference for *A History of Religious Ideas*, vol. 3](https://www.perlego.com/book/1842551/history-of-religious-ideas-volume-3-from-muhammad-to-the-age-of-reforms-pdf)
+
+No documented T2 prophecy/hyperstition crossing with a later roster figure was found. Likewise, no defensible T4, T5, or T9 connection was established from mere contemporaneity or comparison: in particular, the evidence does not document a meeting or correspondence with Moses de León or Ramon Llull, and later analogies to Dante, Leibniz, Babbage, Turing, or modern computing do not by themselves satisfy the specified connection types.
+
 ## Sources
 
 https://www.academia.edu/1823911/Moshe_Idel_The_Mystical_Experience_in_Abraham_Abulafia

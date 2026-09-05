@@ -550,6 +550,28 @@ The pairing is instructive but can mislead. Both rulers confronted small Spanish
 - Final location of Atahualpa’s body.
 - Llanganates treasure, a surviving personal khipu, and Polish treasure-descendant stories.
 
+## Atlas Connections
+
+### Francisco Pizarro González
+
+- **[T5]** **Documented fact:** Atahualpa personally encountered Francisco Pizarro at Cajamarca on 16 November 1532. Pizarro directed the ambush, took Atahualpa into custody, dealt with him throughout the ensuing ransom captivity, and authorized his execution in July 1533. Contemporary conquest relations directly establish this sustained, coercive personal contact. [Metropolitan Museum of Art](https://www.metmuseum.org/exhibitions/listings/2018/golden-kingdoms/galerias-de-la-exposicion), [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/obra-visor/cronistas-coloniales-primera-parte--0/html/0000fb16-82b2-11df-acc7-002185ce6064_8.html)
+
+- **[T9+]** **Reported fact:** Atahualpa’s gold ceremonial seat or stool became part of the Cajamarca booty and was assigned to Pizarro after the ransom was melted and divided in June 1533. Pedro Sancho’s proximate relation describes an exceptionally valuable gold seat among the objects brought from Cuzco; other colonial accounts explicitly identify the object allotted to Pizarro as the seat on which Atahualpa had been carried or seated. [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/obra-visor/cronistas-coloniales-primera-parte--0/html/0000fb16-82b2-11df-acc7-002185ce6064_8.html), [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/obra-visor/historia-de-la-vida-y-hechos-del-emperador-carlos-v--2/html/feecfcca-82b1-11df-acc7-002185ce6064_27.htm)
+
+### El Inca Garcilaso de la Vega
+
+- **[T1+]** **Documented fact:** Garcilaso, born in 1539 after Atahualpa’s death, wrote extensively about him in the second part of the *Comentarios reales*, published posthumously as *Historia general del Perú* in 1617. His reconstruction covers Atahualpa’s rivalry with Huáscar, Cajamarca, captivity, ransom and death, while disputing aspects of earlier Spanish accounts—especially the claim that Atahualpa deliberately threw down Valverde’s book. [Museo Histórico Regional del Cusco](https://museogarcilaso.culturacusco.gob.pe/mediaelement/pdf/2-HistoriaGeneraldelPeru.pdf), [University of Michigan Library](https://quod.lib.umich.edu/e/eebo/A42257.0001.001/1%3A13?rgn=div1&view=fulltext)
+
+### Felipe Guamán Poma de Ayala
+
+- **[T1+]** **Documented fact:** Guamán Poma narrated and illustrated Atahualpa’s encounter with the Spaniards in the autograph *Nueva corónica y buen gobierno*, completed around 1615. Its conquest chapter includes a labeled depiction of Atahualpa enthroned at Cajamarca before Pizarro, Almagro, Valverde and the interpreter Felipillo. [Royal Danish Library, Guaman Poma manuscript, p. 386](https://poma.kb.dk/permalink/2006/poma/386/en/image/)
+
+### Blas Valera
+
+- **[T1+]** **Reported fact:** The Jesuit chronicler Blas Valera, born in 1545, wrote about Atahualpa in a now-fragmentary or lost historical work. Garcilaso quotes Valera’s account of the Cajamarca confrontation, including Valera’s rejection of the standard book-throwing story and his claim to draw upon Indigenous information, Cajamarca khipu traditions and testimony attributed to his conquistador father. The connection is secure as an attributed written treatment, although Valera’s original text does not survive independently for comparison. [University of Michigan Library](https://quod.lib.umich.edu/e/eebo/A42257.0001.001/1%3A13?rgn=div1&view=fulltext)
+
+No additional roster member has a sufficiently documented T1, T2, T3, T4, T5 or T9 connection with Atahualpa. Later comparisons with figures such as Moctezuma II, artistic depictions by roster members, common association with Inca history, or presence in the same broad geography do not by themselves meet the specified connection rules.
+
 ## Sources
 
 https://www.cervantesvirtual.com/obra/verdadera-relacion-de-la-conquista-del-peru--0/

@@ -542,6 +542,86 @@ Dumas is among the most adapted authors in screen history. The specialist Dumas 
 - Memoir scenes are cited as testimony and self-fashioning, not treated automatically as transcripts.
 - A URL appears below only if it was consulted or materially relied upon. Several sources contain their own errors—for example, one Fondation page incorrectly displays 1905 in a metadata field while correctly discussing Dumas père elsewhere—so individual claims were cross-checked rather than copied wholesale.
 
+## Atlas Connections
+
+### Hans Christian Andersen
+
+- **[T5] [T3] Documented fact.** Dumas and Andersen became personally acquainted in Paris in March 1843; Andersen’s letter to Dumas dated 21 March records their face-to-face conversation and warmly describes Dumas’s reception of him. Andersen’s diary documents another conversation with Dumas and his daughter at a Paris railway station on 31 August 1866. Dumas also freely adapted several Andersen tales—among them “The Snow Queen” and “The Little Mermaid”—in *Le Monte-Cristo* and later collections between 1857 and 1860, creating a substantial one-sided textual engagement. [Museum Odense](https://museumodense.dk/udgivelser/h-c-andersen-og-frankrig/), [Wayne State University scholarship](https://digitalcommons.wayne.edu/marvels/vol29/iss2/7/)
+
+### Brothers Grimm
+
+- **[T3] Documented fact.** Between 1857 and 1859 Dumas published free retellings derived from tales collected by the Brothers Grimm, alongside adaptations of Andersen, in *Le Monte-Cristo*. This is a one-sided written engagement rather than evidence of personal contact. [Wayne State University scholarship](https://digitalcommons.wayne.edu/marvels/vol29/iss2/7/)
+
+### Cagliostro
+
+- **[T1-] Documented fact.** Dumas, principally in collaboration with Auguste Maquet, made Giuseppe Balsamo—Count Cagliostro—the central, heavily fictionalized protagonist of *Joseph Balsamo*, serialized in 1846–48/49. The novel portrays him as an occult and political organizer preparing the French Revolution; it is literary mythmaking, not a documentary biography. [Société des Amis d’Alexandre Dumas bibliography](https://www.dumaspere.com/pages/oeuvre/bibliographie.html), [BnF authority record](https://data.bnf.fr/ark:/12148/cb119010630)
+
+### Charles Dickens
+
+- **[T5] Documented fact.** During Dickens’s Paris stay in January 1847, Dickens and John Forster supped with Dumas and visited the still-unfinished Théâtre Historique. Forster’s contemporary recollection is the principal evidence for the meeting. [John Forster account summarized with citation](https://parisatlas.com/people/charles-dickens)
+
+### Cosimo de’ Medici
+
+- **[T1-] Documented fact.** Dumas wrote about Cosimo de’ Medici within *Les Médicis* (1845), his narrative history of the dynasty. The work belongs to Dumas’s popular historical writing and should not be treated as modern critical historiography. [Société des Amis d’Alexandre Dumas bibliography](https://www.dumaspere.com/pages/oeuvre/bibliographie.html)
+
+### Évariste Galois
+
+- **[T4] [T3] Documented fact.** Dumas and Galois were both present at the republican banquet honoring acquitted artillery officers at Aux Vendanges de Bourgogne, Paris, on 9 May 1831. Dumas later supplied the foundational eyewitness narrative of Galois’s dagger-accompanied toast in *Mes Mémoires*. The sources establish shared proximity and Dumas’s written treatment, but not a friendship or personal conversation. [Dumas’s memoir chapter](https://www.dumaspere.com/pages/bibliotheque/chapitre.php?cid=204&lid=m3), [Institut Henri Poincaré](https://www.galois.ihp.fr/ressources/vie-et-oeuvre-de-galois/vie-galois/biographie/)
+
+### Giuseppe Garibaldi
+
+- **[T5] [T3] Documented fact.** Dumas joined Garibaldi in Sicily and Naples in 1860, materially supported his campaign, and worked within the political order created by Garibaldi’s victory. Their direct relationship is independently reflected in surviving correspondence, including Garibaldi’s letter to Dumas from Palermo dated 10 June 1860. Dumas subsequently edited or redacted Garibaldi’s manuscript and conversations as *Mémoires de Garibaldi* and wrote *Les Garibaldiens*. [BnF/CCFr manuscript record](https://ccfr.bnf.fr/portailccfr/ark%3A/16871/004D46021034), [Dumas’s *Les Garibaldiens*](https://fr.wikisource.org/wiki/Les_Garibaldiens/03), [Le Monde](https://www.lemonde.fr/culture/article/2025/07/11/alexandre-dumas-l-action-avant-le-verbe_6620699_3246.html)
+
+### Hans Christian Andersen
+
+- **[T3] Documented fact.** In addition to their personal meetings, Dumas’s unauthorized or very free French transformations of Andersen’s stories constitute direct textual engagement with Andersen’s work. Andersen apparently did not know the full extent of these adaptations when he encountered Dumas again in 1866. [Museum Odense](https://museumodense.dk/udgivelser/tre-franske-sneedronninger/)
+
+### Joan of Arc
+
+- **[T1-] Documented fact.** Dumas wrote an extended historical treatment of Joan of Arc, *Jehanne la Pucelle* (1842). As elsewhere in his historical corpus, he combined documentary narrative with Romantic dramatization. [Société des Amis d’Alexandre Dumas bibliography](https://www.dumaspere.com/pages/oeuvre/bibliographie.html), [BnF authority record](https://data.bnf.fr/ark:/12148/cb119010630)
+
+### Jules Verne
+
+- **[T5] [T3] Documented fact.** Verne entered the Dumas family’s theatrical circle after arriving in Paris, and Dumas père accepted Verne’s *Les Pailles rompues* for performance at the Théâtre Historique in June 1850. Dumas fils collaborated on the play and was probably the more immediate intermediary, so claims that père single-handedly “launched” Verne require qualification; nevertheless, the production documents direct professional engagement with Dumas père and his theatre. [Digitized first edition](https://archive.org/details/lespaillesrompues), [Fabula review of Verne’s theatre](https://www.fabula.org/acta/document12302.php), [Nantes Jules Verne Museum](https://julesverne.nantesmetropole.fr/files/live/sites/julesverne/files/espace-presse/DPcomplet_2016-2017.pdf)
+
+### Julius Caesar
+
+- **[T1-] Documented fact.** Dumas treated Julius Caesar in the biographical-historical work commonly cataloged in his *Grands Hommes en robe de chambre* series as *César*. It is a popular narrative portrait rather than a source-critical ancient biography. [Société des Amis d’Alexandre Dumas bibliography](https://www.dumaspere.com/pages/oeuvre/bibliographie.html)
+
+### Lorenzo de’ Medici
+
+- **[T1-] Documented fact.** Lorenzo de’ Medici is among the principal historical figures treated in Dumas’s *Les Médicis* (1845), connecting the later writer to the earlier statesman through explicit historical narration. [Société des Amis d’Alexandre Dumas bibliography](https://www.dumaspere.com/pages/oeuvre/bibliographie.html)
+
+### Louis XIV
+
+- **[T1-] Documented fact.** Dumas wrote extensively about Louis XIV in *Louis XIV et son siècle* (1844–45), *La Jeunesse de Louis XIV*, and the Musketeer sequence, especially *Le Vicomte de Bragelonne*. These works range from popular history to openly fictional reconstruction. [Société des Amis d’Alexandre Dumas bibliography](https://www.dumaspere.com/pages/oeuvre/bibliographie.html)
+
+### Louis XVI
+
+- **[T1-] Documented fact.** Dumas repeatedly represented Louis XVI in the later installments of the *Mémoires d’un médecin* cycle, including *Ange Pitou* and *La Comtesse de Charny*, and in writing on the Revolution. The connection is literary-historical, not personal, and the novels freely reshape chronology and agency. [Société des Amis d’Alexandre Dumas bibliography](https://www.dumaspere.com/pages/oeuvre/bibliographie.html)
+
+### Marquis de Lafayette
+
+- **[T5] [T3] Documented fact.** Dumas knew Lafayette personally and dealt directly with him during the July Revolution. At Paris’s Hôtel de Ville on 30 July 1830, Lafayette authorized Dumas’s mission to obtain powder from Soissons and supplied a signed proclamation introducing him to the town’s citizens. Dumas later narrated their dealings in *Mes Mémoires* and described Lafayette as an intimate acquaintance and friend. [Dumas’s memoir text](https://www.dumaspere.com/pages/bibliotheque/chapitre.php?cid=153&lid=m3), [English edition of *My Memoirs*](https://www.gutenberg.org/cache/epub/50630/pg50630-images.html)
+
+### Michelangelo
+
+- **[T1-] Documented fact.** Dumas wrote about Michelangelo in *Michel-Ange et Raphaël Sanzio* (1845), a paired popular-biographical treatment of the Renaissance artists. [Société des Amis d’Alexandre Dumas bibliography](https://www.dumaspere.com/pages/oeuvre/bibliographie.html)
+
+### Napoleon Bonaparte
+
+- **[T1-] Documented fact.** Dumas repeatedly wrote about Napoleon, notably in the drama *Napoléon Bonaparte, ou Trente ans de l’histoire de France* (1831) and the historical-biographical volume *Napoléon* (1840). His treatment combined historical narration, theatrical spectacle, and the complicated legacy of Napoleon’s conflict with Dumas’s father. [Société des Amis d’Alexandre Dumas bibliography](https://www.dumaspere.com/pages/oeuvre/bibliographie.html), [BnF authority record](https://data.bnf.fr/ark:/12148/cb119010630)
+
+### Friedrich Schiller
+
+- **[T3] Documented fact.** Dumas directly engaged Schiller’s drama by adapting *Kabale und Liebe* for the French stage as *Intrigue et Amour*, performed at the Théâtre Historique in 1847. This is a one-sided textual relationship; Schiller died before Dumas’s literary career began. [Société des Amis d’Alexandre Dumas bibliography](https://www.dumaspere.com/pages/oeuvre/bibliographie.html)
+
+### Victor Hugo
+
+- **[T5] [T3] Documented fact.** Dumas and Hugo were longstanding friends and central participants in French Romantic literary life. Dumas accompanied Hugo at Antwerp during Hugo’s departure into exile in 1852, visited him on Guernsey in 1857, defended him publicly, and wrote about works including *Les Misérables*. Their surviving correspondence and Dumas scholarship document both personal and written engagement. [Société des Amis d’Alexandre Dumas—“Victor Hugo, l’ami capital”](https://www.dumaspere.com/pages/cahiers/cahiers/14_hugo.html), [Dumas’s public defense of Hugo](https://www.dumaspere.com/pages/bibliotheque/chapitre.php?cid=6&lid=m5), [contemporary-location photograph record](https://www.dumaspere.com/pages/phototheque/vie_proches.html)
+
+No T2 prophecy/hyperstition or T9 transferred-object connection with a roster member was found at the stated evidentiary threshold. Mere appearance of other roster figures as historical allusions, reading influences, fictional characters, or inhabitants of places Dumas visited has not been counted without a specific documented crossing.
+
 ## Sources
 
 https://www.dumaspere.com/

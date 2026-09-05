@@ -719,6 +719,86 @@ All derive from the same career, but no single one is a sufficient biography.
 | 1973 | Spence political papers presented to the National Library of Scotland. |
 | Late 20th–21st centuries | Extensive occult, mythology, Atlantis, and Druid reprints; growing duplication through public-domain extract publishing. |
 
+## Atlas Connections
+
+### Plato
+
+- **[T1-] Documented fact:** Spence repeatedly wrote about Plato as the earliest literary authority for Atlantis, most substantially in *The Problem of Atlantis* (1924), *The History of Atlantis* (1926/1927), and later Atlantean books. He also discussed Plato’s conception of the afterlife in *An Introduction to Mythology* (1921). No personal connection was possible; this was sustained critical and interpretive engagement with Plato’s writings. [Spence, *An Introduction to Mythology*](https://www.gutenberg.org/files/45048/45048-h/45048-h.htm), [Encyclopedia.com, “Atlantis”](https://www.encyclopedia.com/literature-and-arts/classical-literature-mythology-and-folklore/folklore-and-mythology/atlantis)
+
+### Ignatius Loyola Donnelly
+
+- **[T1-] Documented fact:** Spence treated Donnelly’s *Atlantis: The Antediluvian World* (1882) as a foundational modern Atlantis argument, adopting and revising its diffusionist model in his own Atlantis books beginning in 1924. Donnelly died in 1901, so no meeting or correspondence is established; the crossing is literary and intellectual influence. [Lewis Spence biography](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/spence-james-lewis-thomas-chalmers-1874-1955), [Encyclopedia.com, “Atlantis”](https://www.encyclopedia.com/literature-and-arts/classical-literature-mythology-and-folklore/folklore-and-mythology/atlantis)
+
+### Helena Petrovna Blavatsky
+
+- **[T1-] Documented fact:** Spence discussed Blavatsky’s Theosophical treatment of Lemuria and lost races while attempting to distinguish his own comparative and allegedly empirical case from revelation-based Theosophy in *The Problem of Lemuria* (1932/1933). This was engagement with her published doctrine, not evidence of personal contact; Blavatsky died in 1891. [Contemporary discussion of Spence’s *Problem of Lemuria*](https://www.cambridge.org/core/journals/geographical-journal/article/abs/problem-of-lemuria-the-sunken-continent-of-the-pacific-by-lewis-spence/), [discussion linking Spence’s Lemuria survey with Blavatsky](https://journals.jcu.edu.au/linq/article/download/978/935)
+
+### Rudolf Steiner
+
+- **[T1-] Reported fact:** Spence’s survey of Lemurian theories included the occult lost-continent tradition associated with Steiner as well as Blavatsky. No correspondence, meeting, or shared organization between Spence and Steiner has been documented. [Discussion of Spence’s Lemuria sources](https://journals.jcu.edu.au/linq/article/download/978/935)
+
+### Friedrich Max Müller
+
+- **[T1-] Documented fact:** In *An Introduction to Mythology* (1921), Spence devoted sustained attention to Müller’s philological or “solar-myth” school, summarized his career and theory that myth could arise through a “disease of language,” and assessed later anthropological objections to that method. [Spence, *An Introduction to Mythology*](https://www.gutenberg.org/files/45048/45048-h/45048-h.htm)
+
+### Homer
+
+- **[T1-] Documented fact:** Spence discussed Homer and the disputed authorship, formation, religious significance, and mythological contents of the *Iliad* and *Odyssey* at length in *An Introduction to Mythology* (1921), treating the poems as principal written sources for Greek mythology. [Spence, *An Introduction to Mythology*](https://www.gutenberg.org/files/45048/45048-h/45048-h.htm)
+
+### Hesiod
+
+- **[T1-] Documented fact:** Spence wrote about Hesiod’s accounts of Pandora, Elysium, Cronus, and the Greek gods in *An Introduction to Mythology* (1921), comparing the Hesiodic poems with Homer as sources that fixed the character of Greek divinities. [Spence, *An Introduction to Mythology*](https://www.gutenberg.org/files/45048/45048-h/45048-h.htm)
+
+### Brothers Grimm
+
+- **[T1-] Documented fact:** Spence engaged with Jacob and Wilhelm Grimm’s *Deutsche Mythologie*, *Deutsche Sagen*, and *Kinder- und Hausmärchen* when tracing the development of folklore and mythological scholarship in *An Introduction to Mythology* (1921). The connection is bibliographical; the brothers died before Spence’s birth. [Spence, *An Introduction to Mythology*](https://www.gutenberg.org/files/45048/45048-h/45048-h.htm)
+
+### Saint Augustine of Hippo
+
+- **[T1-] Documented fact:** Spence cited and discussed Augustine’s treatment of pagan myth while surveying ancient and Christian interpretations of mythology in *An Introduction to Mythology* (1921). [Spence, *An Introduction to Mythology*](https://www.gutenberg.org/files/45048/45048-h/45048-h.htm)
+
+### Miguel de Cervantes Saavedra
+
+- **[T1-] Documented fact:** In *Legends and Romances of Spain* (1920), Spence discussed Cervantes, quoted his judgment of the romance *Palmerin of England*, and devoted a section to *Don Quixote* and Cervantes’s literary development. [Spence, *Legends and Romances of Spain*](https://www.gutenberg.org/files/38530/38530-h/38530-h.htm)
+
+### Hernán Cortés
+
+- **[T1-] Documented fact:** Spence repeatedly wrote about Cortés in *The Myths of Mexico & Peru* (1913), including the landing at Veracruz, the march against Tenochtitlan, the conquest’s violence, the episode of Cortés’s horse at Petén Itzá, and the reported identification of the Spaniard with the returning Quetzalcoatl. Spence also listed an English edition of Cortés’s letters among his sources. [Spence, *The Myths of Mexico & Peru*](https://www.gutenberg.org/files/53080/53080-h/53080-h.htm)
+
+### Motecuhzoma Xocoyotzin (Moctezuma II)
+
+- **[T1-] Documented fact:** Spence narrated episodes from Moctezuma II’s reign in *The Myths of Mexico & Peru* (1913), including the reception of Cortés, the Tlalhuicole story, and the legend that Moctezuma’s sister Papantzin returned from death to warn him of the Spanish conquest. Spence presented the latter explicitly as a traditional legend rather than independently verified history. [Spence, *The Myths of Mexico & Peru*](https://www.gutenberg.org/files/53080/53080-h/53080-h.htm)
+
+### Francisco Pizarro González
+
+- **[T1-] Documented fact:** Spence wrote about Pizarro and the conquest of Peru in *The Myths of Mexico & Peru* (1913), describing the conquistador critically and placing the invasion within his historical introduction to Inca religion and mythology. [Spence, *The Myths of Mexico & Peru*](https://www.gutenberg.org/files/53080/53080-h/53080-h.htm)
+
+### El Inca Garcilaso de la Vega
+
+- **[T1-] Documented fact:** Spence used Garcilaso’s *Royal Commentaries of the Incas* as a principal written source for the Peruvian portions of *The Myths of Mexico & Peru* (1913), praised his narrative as an essential account of the Inca past, and listed the 1609 work in his bibliography. [Spence, *The Myths of Mexico & Peru*](https://www.gutenberg.org/files/53080/53080-h/53080-h.htm)
+
+### Nebuchadnezzar II
+
+- **[T1-] Documented fact:** Spence supplied a discrete historical treatment of Nebuchadnezzar II’s reign, campaigns, building activity, capture of Jerusalem, and later legendary reputation in *Myths and Legends of Babylonia and Assyria* (1916). Some chronology in that popular account was already vulnerable to contemporary specialist criticism. [Spence, *Myths and Legends of Babylonia and Assyria*](https://www.gutenberg.org/cache/epub/45137/pg45137-images.html)
+
+### Herodotus of Halicarnassus
+
+- **[T1-] Documented fact:** Spence repeatedly evaluated Herodotus as a source in *Myths and Legends of Babylonia and Assyria* (1916), comparing his measurements and description of Babylon and the temple of Bel with archaeological findings and noting where the ancient account appeared exaggerated or partly corroborated. [Spence, *Myths and Legends of Babylonia and Assyria*](https://www.gutenberg.org/cache/epub/45137/pg45137-images.html)
+
+### Ctesias of Cnidus
+
+- **[T1-] Documented fact:** In *Myths and Legends of Babylonia and Assyria* (1916), Spence discussed Ctesias alongside Herodotus as an ancient authority for Babylon, testing the dimensions attributed to the city against the excavated topography. [Spence, *Myths and Legends of Babylonia and Assyria*](https://www.gutenberg.org/cache/epub/45137/pg45137-images.html)
+
+### Thomas the Apostle
+
+- **[T1-] Documented fact:** Spence recorded traditions associating Thomas the Apostle with pre-Columbian America in *The Myths of Mexico & Peru* (1913): colonial chroniclers identified the expected culture hero with Saint Thomas, while related traditions connected him with Maya and Andean crosses. Spence reported these as missionary-era identifications and legends, not demonstrated apostolic travel. [Spence, *The Myths of Mexico & Peru*](https://www.gutenberg.org/files/53080/53080-h/53080-h.htm)
+
+### Dion Fortune
+
+- **[T4] Documented fact:** In 1941 Spence and Fortune occupied the same British occult–spiritualist publishing milieu: Charles Richard Cammell, then editor of *Light*, published contributions from both writers. This establishes a shared periodical setting, but no meeting, correspondence, friendship, or direct response by either writer to the other has been located. [Order of Bards, Ovates and Druids, “Notes on Lewis Spence”](https://druidry.org/resources/notes-on-lewis-spence-1874-1955)
+
+No stronger T5 personal meeting, T9 object-transmission, or subject-to-counterpart T2 prophecy connection was located among the roster. Mere contemporaneity, shared occult interests, or appearance in the same broad intellectual tradition has therefore not been counted.
+
 ## Sources
 
 https://manuscripts.nls.uk/repositories/2/resources/9117

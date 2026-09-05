@@ -496,6 +496,88 @@ Historiography moved from demonological anecdote to nineteenth-century rehabilit
 - *Adversus lamiarum inquisitores* is not securely recoverable and probably not Agrippa’s.
 - Exact death day, cause, circumstances, and burial place are not established by a surviving contemporary certificate or register located in this research.
 
+## Atlas Connections
+
+### Al-Kindi
+
+- **[T1-]** **Documented fact:** Agrippa drew on the Latin tradition of al-Kindi’s *De radiis* when explaining how celestial rays, words, gestures, and human intention could act upon the material world in *De occulta philosophia* (drafted 1509–10; enlarged through 1533). The relationship was textual, not personal.
+
+### Albertus Magnus
+
+- **[T1-]** **Documented fact:** Agrippa studied works genuinely or spuriously attributed to Albertus Magnus during his Cologne education and repeatedly treated “Albertus” as an authority on natural properties and magic. Modern source criticism identifies the genuine *De mineralibus* and pseudo-Albertine *Speculum astronomiae* among formative texts. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/archives/sum2007/entries/agrippa-nettesheim/)
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Agrippa repeatedly discussed Aristotle and Aristotelian philosophy, especially in *De vanitate*, where he attacked the dominance and limitations of scholastic Aristotelian learning. His magical synthesis nevertheless retained Aristotelian terminology and natural-philosophical materials.
+
+### Apostle Paul
+
+- **[T1-]** **Documented fact:** Paul’s epistles were a recurring theological authority for Agrippa’s doctrines of faith, spiritual regeneration, human equality, and the limits of worldly knowledge. Agrippa also attended John Colet’s Pauline lectures in London around 1510–11, but that event was an encounter with Colet’s interpretation, not with Paul personally.
+
+### Giovanni Pico della Mirandola
+
+- **[T1-]** **Documented fact:** Agrippa studied and used Pico’s *Conclusiones*, *Heptaplus*, and *Disputationes adversus astrologiam divinatricem*. Pico’s conjunction of natural magic, Platonism, and Christian Kabbalah was foundational to Agrippa’s mature occult philosophy; no personal meeting was possible because Pico died in 1494. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/agrippa-nettesheim/)
+
+### Johannes Reuchlin
+
+- **[T3]** **Documented fact:** At the University of Dôle in 1509, Agrippa delivered a course interpreting Reuchlin’s *De verbo mirifico*. He later incorporated Reuchlin’s *De arte cabalistica* (1517) into the revision of *De occulta philosophia*. This was sustained one-sided textual engagement; a personal meeting or correspondence between them is not securely documented. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/agrippa-nettesheim/)
+
+### Johannes Trithemius
+
+- **[T5]** **Documented fact:** Agrippa personally visited Trithemius at Würzburg in late 1509 or early 1510 and consulted him about learned magic.
+
+- **[T3]** **Documented fact:** Agrippa transmitted the initial manuscript of *De occulta philosophia* to Trithemius with a dedicatory letter dated 8 April 1510. Trithemius replied approvingly but urged discretion in communicating occult doctrines. The surviving dedication manuscript is Würzburg, Universitätsbibliothek, MS M.ch.q.50. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/agrippa-nettesheim/)
+
+### John Dee
+
+- **[T1+]** **Documented fact:** Dee studied and cited Agrippa’s *De occulta philosophia* during the later sixteenth century. His 1583 library catalogue records three editions, while surviving notes cite individual passages and compare Agrippa’s information with other authorities. [Archaeology of Reading](https://archaeologyofreading.org/john-dees-astronomicon-and-the-thirty-six-decans/), [Chetham’s Library](https://library.chethams.com/blog/john-dee-and-alchemy/)
+
+### Giordano Bruno
+
+- **[T1+]** **Documented fact:** Bruno’s magical and mnemonic writings drew substantially on the systems of correspondences, images, numbers, and celestial-intellectual mediation transmitted by Agrippa. This was posthumous textual reception: Bruno was born in 1548, thirteen years after Agrippa’s probable death. The extent and interpretation of that dependence remain subjects of scholarship, but the textual connection itself is established.
+
+### Mary Shelley
+
+- **[T1+]** **Documented fact:** Shelley wrote Agrippa into *Frankenstein* (1818) as one of the obsolete occult authors whose works captivate the young Victor Frankenstein. Agrippa is discussed by name several times and functions as an initiating influence within the novel; this is literary reception, not biographical contact. [1818 text at Project Gutenberg](https://www.gutenberg.org/cache/epub/41445/pg41445-images.html)
+
+### Moses
+
+- **[T1-]** **Documented fact:** Agrippa wrote repeatedly about Moses in *De occulta philosophia*, presenting him through Christian-Cabalist and prisca-theologia traditions as a divinely instructed lawgiver and master of sacred names, numbers, and wonders. These claims record Agrippa’s theology and reception of Jewish and Christian sources, not historical evidence for magical practices by Moses.
+
+### Plato
+
+- **[T1-]** **Documented fact:** Agrippa repeatedly interpreted Plato and Platonic cosmology. Ficino’s translations and commentaries supplied much of his access to Plato, and Agrippa lectured or wrote on the *Symposium*. Platonic doctrines of the world soul, cosmic hierarchy, love, and intellectual ascent became structural components of *De occulta philosophia*. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/agrippa-nettesheim/)
+
+### Pliny the Elder
+
+- **[T1-]** **Documented fact:** Agrippa encountered Pliny’s *Natural History* during his Cologne education and later mined it for reports about stones, plants, animals, medicines, sympathies, and antipathies. Pliny was therefore a major written-about and excerpted ancient authority in Agrippa’s natural magic. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/agrippa-nettesheim/)
+
+### Ramon Llull
+
+- **[T1-]** **Documented fact:** Agrippa studied and commented on Llull’s combinatory art, producing a *Commentaria in artem brevem Raimundi Lullii*. Llullian combinations and methods for organizing knowledge influenced Agrippa’s treatment of divine attributes and intellectual method; the connection was entirely textual.
+
+### Robert Fludd
+
+- **[T1+]** **Documented fact:** Fludd belonged to the seventeenth-century reception of Agrippa’s Christian occult philosophy and invoked or developed Agrippan arrangements of natural, mathematical, and theological knowledge. The connection was posthumous textual transmission, not personal contact.
+
+### Roger Bacon
+
+- **[T1-]** **Documented fact:** Agrippa cited and discussed works attributed to Roger Bacon in constructing his accounts of magic, mathematics, optics, experimental arts, and occult properties. As with several medieval authorities, some material reached Agrippa through an attributional tradition whose individual titles were not always genuinely Baconian.
+
+### Solomon
+
+- **[T1-]** **Documented fact:** Agrippa repeatedly wrote about Solomon as a biblical sage associated with divine wisdom, spirits, names, and magical literature. His discussion helped transmit the Solomonic reputation into learned Renaissance magic, but it does not authenticate the pseudonymous magical books attributed to Solomon.
+
+### Zoroaster
+
+- **[T1-]** **Documented fact:** Agrippa invoked Zoroaster and the “Zoroastrian” wisdom available through late-antique and Renaissance sources as authorities for ancient theology and magic. The writings he knew under that name—especially material associated with the Chaldean Oracles—were products of later transmission rather than demonstrably authored by the historical Zoroaster.
+
+### Frances Yates
+
+- **[T1+]** **Documented fact:** Yates devoted substantial analysis to Agrippa in *Giordano Bruno and the Hermetic Tradition* (1964) and *The Occult Philosophy in the Elizabethan Age* (1979), presenting *De occulta philosophia* as a principal channel by which Ficinian magic and Christian Kabbalah reached Bruno, Dee, Fludd, and Elizabethan culture. Her influential “Hermetic tradition” model has subsequently been refined and criticized, but her written engagement with Agrippa is unequivocal. [Routledge](https://www.routledge.com/Giordano-Bruno-and-the-Hermetic-Tradition/Yates/p/book/9780415278492)
+
+No secure personal meeting, correspondence, exact shared milieu, prophecy relationship, or shared-object transmission was found for the many other roster members sometimes linked to Agrippa merely through occult tradition, broad intellectual resemblance, or later legend.
+
 ## Sources
 
 https://plato.stanford.edu/entries/agrippa-nettesheim/

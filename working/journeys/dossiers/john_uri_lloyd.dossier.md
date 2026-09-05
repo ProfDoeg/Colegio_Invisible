@@ -772,6 +772,58 @@ Claims that H. P. Lovecraft admired the book circulate widely, but the sources c
 | 2009 | Worthen publishes major professional reassessment. |
 | 2010s–present | Strong revival of *Etidorhpa* in public-domain, occult, speculative-fiction, and psychedelic culture. |
 
+## Atlas Connections
+
+### Albertus Magnus
+
+- **[T1-]** In *Etidorhpa* (1895), Lloyd described Albertus Magnus as a skilled medieval investigator and believer in alchemical transmutation. **Documented fact.** [Primary text](https://www.gutenberg.org/cache/epub/37775/pg37775-images.html)
+
+### Aristotle
+
+- **[T1-]** Lloyd discussed Aristotle repeatedly in *Etidorhpa*, particularly Aristotle’s proposed ether, alleged observational errors, and the attribution to him of the alchemical *Secret of Secrets*. **Documented fact.** [Primary text](https://www.gutenberg.org/cache/epub/37775/pg37775-images.html)
+
+### Cagliostro
+
+- **[T1-]** *Etidorhpa* contains an extended assessment of Giuseppe Balsamo, Count Cagliostro, portraying him as an extraordinary but discredited synthesis of alchemist, magician, astrologer, mesmerist, Freemason, performer, and “pretender.” **Documented fact.** [Primary text](https://www.gutenberg.org/cache/epub/37775/pg37775-images.html)
+
+### Francis Bacon
+
+- **[T1-]** While praising Roger Bacon in *Etidorhpa*, Lloyd expressly compared his intellect with that of his “illustrious namesake, Lord Bacon,” meaning Francis Bacon. The reference is brief rather than a sustained treatment. **Documented fact.** [Primary text](https://www.gutenberg.org/cache/epub/37775/pg37775-images.html)
+
+### Johannes Kepler
+
+- **[T1-]** In *Etidorhpa*’s appended account of the historical scientist Daniel Vaughn, Lloyd listed Kepler among the major scientific authors represented in Vaughn’s working library. This is a documented textual reference, not evidence of a stronger intellectual lineage. **Documented fact.** [Primary text](https://www.gutenberg.org/cache/epub/37775/pg37775-images.html)
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1-]** Lloyd named Leibniz—spelled “Leibnitz” in the text—among the scientific authorities in Daniel Vaughn’s library in the appendix to *Etidorhpa*. **Documented fact.** [Primary text](https://www.gutenberg.org/cache/epub/37775/pg37775-images.html)
+
+### Lord Kelvin
+
+- **[T1-]** In *Etidorhpa*, Lloyd’s fictionalized scientific discussion directed readers to the experiments of Sir William Thomson, later Lord Kelvin, concerning the convertibility and correlation of heat, light, and electricity. **Documented fact.** [Primary text](https://www.gutenberg.org/cache/epub/37775/pg37775-images.html)
+
+### Isaac Newton
+
+- **[T1-]** Lloyd characterized Newton in *Etidorhpa* as a dividing light between older speculative reasoning and modern experimental science, while criticizing later scientists for carrying Newtonian material analysis too far. Newton also appears among the authorities in Daniel Vaughn’s library. **Documented fact.** [Primary text](https://www.gutenberg.org/cache/epub/37775/pg37775-images.html)
+
+### Paracelsus
+
+- **[T1-]** Lloyd identified Paracelsus in *Etidorhpa* as an alchemical authority and discussed his belief that occult philosophy offered greater insight than experimental chemistry into metallic transmutation. **Documented fact.** [Primary text](https://www.gutenberg.org/cache/epub/37775/pg37775-images.html)
+
+### Pierre-Simon Laplace
+
+- **[T1-]** The appendix to *Etidorhpa* states that Daniel Vaughn respected Laplace as a scientist and writer but rejected important parts of his nebular hypothesis; Lloyd reproduced Vaughn’s technical criticism of Laplace’s account of solar-ring motion. **Documented fact.** [Primary text](https://www.gutenberg.org/cache/epub/37775/pg37775-images.html)
+
+### Ramon Llull
+
+- **[T1-]** Lloyd named Ramon Llull under the conventional Anglicized form “Raymond Lully” among the alchemical authorities systematically investigated by the narrator of *Etidorhpa*, later describing “Raymond” as an intense but short-lived alchemical enthusiast. **Documented fact.** [Primary text](https://www.gutenberg.org/cache/epub/37775/pg37775-images.html)
+
+### Roger Bacon
+
+- **[T1-]** *Etidorhpa* gives Roger Bacon unusually sustained treatment: Lloyd praised his intellect, recounted his imprisonment and Hermetic beliefs, described his claims about alchemical gold and predictive mirrors, and quoted his anticipation of rapidly moving horseless vehicles. **Documented fact.** [Primary text](https://www.gutenberg.org/cache/epub/37775/pg37775-images.html)
+
+No reliable evidence was found for correspondence, friendship, personal meetings, shared-site transmission, or prophetic fulfillment between Lloyd and other roster members. In particular, Lloyd’s archive contains a folder titled “Albert Einstein Dinner, March 15, 1933,” but the finding aid does not establish that Lloyd attended or met Einstein; the dinner itself was held at New York’s Hotel Commodore, so no T4 or T5 connection is assigned. Likewise, claims that H. P. Lovecraft read or was influenced by *Etidorhpa* remain insufficiently supported by a located primary Lovecraft source and are omitted.
+
 ## Sources
 
 https://lloydlibrary.org/about/a-brief-history-of-the-lloyd-library-and-museum/

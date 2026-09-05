@@ -703,6 +703,58 @@ Calahorra’s monument, educational institutions named for him, and recurring Qu
 
 ---
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Quintilian discusses Aristotle repeatedly as a foundational theorist of rhetoric and, in *Institutio oratoria* 10.1, recommends him among the principal Greek philosophical writers useful to an orator. This is a textual engagement across roughly four centuries, not a personal connection. [*Institutio oratoria* 10.1](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/10A%2A.html)
+
+### Cicero
+
+- **[T1-]** **Documented fact:** Cicero is Quintilian’s dominant Roman predecessor and model. Throughout the *Institutio*, completed at Rome c. 95–96 CE, Quintilian quotes, evaluates, and sometimes disputes Cicero’s rhetorical writings, speeches, political conduct, and mnemonic teaching. In Book 10 he declares Cicero the supreme pattern for students; in Book 11 he reproduces Cicero’s formulation of places and images in artificial memory. [*Institutio oratoria* 10.1](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/10A%2A.html) [*Institutio oratoria* 11.2](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/11B%2A.html)
+
+### Frances Yates
+
+- **[T1+]** **Documented fact:** Frances A. Yates wrote extensively about Quintilian in *The Art of Memory* (1966), treating *Institutio oratoria* 11.2 as one of the three principal surviving Latin accounts of classical artificial memory and calling it the clearest ancient description of the architectural mnemonic procedure. [Yates, *The Art of Memory*](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf) [University of Chicago Press](https://press.uchicago.edu/ucp/books/book/chicago/A/bo91674300.html)
+
+### Herodotus
+
+- **[T1-]** **Documented fact:** Quintilian writes about Herodotus as a stylistic and historiographical model, pairing him with Livy in *Institutio* 10.1.101 and elsewhere invoking Herodotus’s account of the language experiment involving isolated children. The relationship is exclusively literary and retrospective. [*Institutio oratoria* 10.1](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/10A%2A.html)
+
+### Hesiod
+
+- **[T1-]** **Documented fact:** In his Greek literary canon (*Institutio* 10.1.52), Quintilian evaluates Hesiod’s poetry, criticizing its limited elevation while praising its moral maxims and smooth intermediate style as useful to students of eloquence. [*Institutio oratoria* 10.1](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/10A%2A.html)
+
+### Homer
+
+- **[T1-]** **Documented fact:** Quintilian gives Homer first place in his recommended Greek canon, analyzing the *Iliad* and *Odyssey* as models of narration, emotional appeal, characterization, proof, refutation, and deliberative and forensic speech. He describes Homer as the source from which every department of eloquence flows. [*Institutio oratoria* 10.1.46–51](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/10A%2A.html)
+
+### Julius Caesar
+
+- **[T1-]** **Documented fact:** Quintilian evaluates Julius Caesar as both writer and orator. In the Roman prose canon he praises Caesar’s force, acuteness, energy, and stylistic elegance and judges that, had Caesar devoted himself principally to advocacy, he could have rivaled Cicero. This is retrospective literary criticism, written more than a century after Caesar’s death. [*Institutio oratoria* 10.1](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/10A%2A.html)
+
+### Peter of Ravenna
+
+- **[T3]** **Allegation or theory:** Peter of Ravenna’s *Phoenix, sive artificiosa memoria* (Venice, 1491) belongs to the post-recovery mnemonic tradition in which Quintilian’s complete text was available. Frances Yates specifically argues that Peter’s accumulation of memory places during journeys reflects Quintilian, uniquely among the principal classical sources, allowing loci to be formed along journeys. Direct dependence is a scholarly inference rather than Peter’s documented declaration of engagement. [Yates, *The Art of Memory*, pp. 111–13](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf)
+
+### Pindar
+
+- **[T1-]** **Documented fact:** Quintilian evaluates Pindar in *Institutio* 10.1.61 as the foremost Greek lyric poet, praising his magnificence, figures, linguistic abundance, and powerful flow while adopting the earlier judgment that his style was inimitable. [*Institutio oratoria* 10.1](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/10A%2A.html)
+
+### Plato
+
+- **[T1-]** **Documented fact:** Quintilian discusses Plato as both philosopher and prose stylist, recommends him among the foremost philosophical authors for an orator, and compares the copious flow of Plato’s writing with qualities realized in Cicero. The connection is sustained textual engagement with a predecessor who died more than three centuries before Quintilian’s birth. [*Institutio oratoria* 10.1](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/10A%2A.html)
+
+### Simonides of Ceos
+
+- **[T1-]** **Documented fact:** Quintilian writes about Simonides in two distinct contexts: *Institutio* 10.1.64 assesses his lyric style and exceptional ability to excite pity, while 11.2 recounts the collapsed-banquet story attributing discovery of ordered mnemonic places to him. Quintilian reports the latter as a traditional account rather than personal or contemporary evidence; its historical core remains unverified. [*Institutio oratoria* 10.1](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/10A%2A.html) [*Institutio oratoria* 11.2](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/11B%2A.html)
+
+### Virgil
+
+- **[T1-]** **Documented fact:** Quintilian repeatedly quotes and analyzes Virgil and begins his Roman poetic canon with him, judging him the Latin epic poet nearest to Homer. He also preserves Domitius Afer’s answer to Quintilian’s own youthful question about Virgil’s rank, making the assessment part of Quintilian’s remembered Roman education before 59 CE. [*Institutio oratoria* 10.1.85–86](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/10A%2A.html)
+
+No additional roster crossing was included merely because a person was Quintilian’s contemporary, occupied the same broad Roman setting, appeared incidentally in an illustrative quotation, or later participated in rhetoric, education, or memory traditions without demonstrable engagement with Quintilian.
+
 ## Sources
 
 https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/home.html

@@ -354,6 +354,54 @@ His technical legacy runs through Huygens’s dynamics and pendulum clock, Torri
 | 1890–1909 | Favaro’s 20-volume National Edition. |
 | 1979–1992 | Papal Galileo commission and John Paul II reassessment. |
 
+## Atlas Connections
+
+### Archimedes of Syracuse
+
+- **[T1-]** Galileo explicitly examined Archimedes’ hydrostatics and the crown problem in *La bilancetta* (1586), proposing a more precise hydrostatic balance based on Archimedean principles. **Evidentiary status: documented fact.** ([Museo Galileo](https://mostre.museogalileo.it/archimede/oggetto/GalileoGalileiBilancettaOpereGalileoGalileiFacsimile.html); [text of *La bilancetta*](https://liberliber.it/autori/autori-g/galileo-galilei/la-bilancetta/))
+
+### Aristotle
+
+- **[T1-]** From the manuscript *De motu* of about 1590 through the *Dialogue* (1632), Galileo repeatedly analyzed and challenged Aristotle’s accounts of falling bodies, motion, terrestrial change, and the incorruptibility of the heavens. **Evidentiary status: documented fact.** ([Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/galileo/); [University of Oklahoma exhibit](https://galileo.ou.edu/exhibits/dialogue-two-chief-systems-world.html))
+
+### Dante Alighieri
+
+- **[T1-]** In Florence in 1587–1588, Galileo delivered two lectures to the Accademia Fiorentina mathematically reconstructing the location, shape, and dimensions of Dante’s Inferno. This was explicit scholarly treatment of Dante’s text, not a personal crossing. **Evidentiary status: documented fact.** ([Museo Galileo biography](https://catalogue.museogalileo.it/biography/GalileoGalilei.html))
+
+### Saint Augustine of Hippo
+
+- **[T1-]** Galileo discussed Augustine’s principles of biblical interpretation—especially *De Genesi ad litteram*—in his 1615 *Letter to the Grand Duchess Christina*, using them to argue that scriptural passages should not be set against demonstrated conclusions about nature. **Evidentiary status: documented fact.** ([Letter to Christina](https://web.stanford.edu/~jsabol/certainty/readings/Galileo-LetterDuchessChristina.pdf); [historical overview](https://www.persee.fr/doc/rhs_0048-7996_1964_num_17_4_2371))
+
+### Nicolaus Copernicus
+
+- **[T1-]** Galileo wrote extensively about Copernicus and the heliocentric system. He privately identified himself as a Copernican in his 1597 letter to Kepler, defended the system through the 1610s, and made the Ptolemaic–Copernican comparison the organizing subject of his 1632 *Dialogue*. **Evidentiary status: documented fact.** ([1597 Galileo–Kepler correspondence](https://www.famous-trials.com/galileotrial/1033-letterkepler); [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/galileo/))
+
+### Johannes Kepler
+
+- **[T3]** Galileo and Kepler corresponded from 1597. Galileo disclosed his Copernican commitment to Kepler, sent him *Sidereus nuncius* in 1610, and transmitted coded announcements of later discoveries; Kepler answered, publicly supported the telescopic findings, and sought further information. Several of Kepler’s later letters went unanswered, so this was genuine but uneven intellectual exchange rather than close collaboration. **Evidentiary status: documented fact.** ([1597 correspondence](https://www.famous-trials.com/galileotrial/1033-letterkepler); [Galileotheca chronology](https://galileoteca.museogalileo.it/GTArchivi/QCrono?anno=1611&lang=en); [Kepler’s 1611 continuation](https://en.wikisource.org/wiki/The_Sidereal_Messenger_of_Galileo_Galilei/Kepler%27s_Continuation))
+
+### Tommaso Campanella
+
+- **[T3]** From prison in Naples, Campanella addressed a Latin letter to Galileo on 13 January 1611 after reading *Sidereus nuncius*, mixing praise with scientific reservations. He subsequently composed *Apologia pro Galileo* in early 1616, defending Galileo’s freedom to investigate nature; it was published at Frankfurt in 1622. No personal meeting is established by these records. **Evidentiary status: documented fact.** ([Campanella letter](https://www.iliesi.cnr.it/ATC/testi.php?iop=Lettere&pg=37&tp=1); [Treccani](https://www.treccani.it/enciclopedia/tommaso-campanella_%28Il-Contributo-italiano-alla-storia-del-Pensiero%3A-Filosofia%29/); [Scuola Normale edition](https://edizioni.sns.it/prodotto/apologia-pro-galileo/))
+
+### René Descartes
+
+- **[T3]** Descartes engaged Galileo in writing without corresponding directly with him: after learning of the 1633 condemnation, he discussed Galileo and the prohibited motion of Earth in correspondence with Marin Mersenne and withheld his own *Le Monde*. In 1634 he briefly obtained and read Galileo’s *Dialogue*, and in 1638–1639 he critically assessed *Two New Sciences* in further letters. **Evidentiary status: documented fact.** ([Descartes correspondence, 1619–1637](https://www.earlymoderntexts.com/assets/pdfs/descartes1619_1.pdf); [Descartes correspondence, 1638–1640](https://www.earlymoderntexts.com/assets/pdfs/descartes1619_2.pdf))
+
+### Christiaan Huygens
+
+- **[T1+]** After Galileo’s death, Huygens explicitly discussed Galileo’s pendulum research and priority claims in *Horologium* (1658) and *Horologium oscillatorium* (1673). Huygens credited Galileo with introducing astronomers to pendulum timing while also arguing that Galileo had not completed a functioning pendulum clock and that Huygens had perfected the invention independently. **Evidentiary status: documented fact.** ([Utrecht University study](https://www.uu.nl/sites/default/files/galileo_holland_and_the_pendulum_clock_27_pp.pdf); [1673 text](https://sourcelibrary.org/book/horologium-oscillatorium-1673-huygens/page/6953e59077f38f6761bf0ddd))
+
+### Sir Isaac Newton
+
+- **[T1+]** Newton explicitly wrote about Galileo in the 1687 *Principia*, crediting him with discovering projectile motion and the time-squared law of fall. The attribution was made after Galileo’s death and apparently through indirect knowledge rather than Newton’s reading of *Two New Sciences*. **Evidentiary status: documented fact.** ([Newton’s *Principia*, scholarly edition](https://pages.jh.edu/rrynasi1/PrincipleOfRelativity/Literature/Newton/Newton1999ThePrincipia.MathematicalPrinciplesOfNaturalPhilosophy.Cohen%2BEtAl.pdf); [Dictionary of Scientific Biography account](https://mathshistory.st-andrews.ac.uk/DSB/Galileo.pdf))
+
+### Albert Einstein
+
+- **[T1+]** Einstein wrote a substantial foreword about Galileo’s work, method, and struggle with authority for Stillman Drake’s English edition of *Dialogue Concerning the Two Chief World Systems*, first published in 1953. **Evidentiary status: documented fact.** ([bibliographic record and summary](https://www.enotes.com/topics/galileo-galilei-62834/criticism/criticism/albert-einstein-essay-date-1953); [digitized edition](https://iiif.library.cmu.edu/file/Posner_Files_520_G15D_1653/Posner_Files_520_G15D_1653.pdf))
+
+No documented personal, correspondence, proximity, prophetic, or shared-object connection was found with Giordano Bruno, despite their frequent later pairing in martyr-of-science narratives. Likewise, Newton and Galileo never met; Newton’s connection is strictly posthumous textual engagement. Other roster overlaps based only on broad influence, common subject matter, citation traditions, or presence in the same historical era have been omitted.
+
 ## Sources
 
 https://archive.org/details/agh6462.0001.001.umich.edu

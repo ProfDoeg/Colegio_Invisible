@@ -585,6 +585,42 @@ The 2024 entry of the 1928 version of *Steamboat Willie* into the U.S. public do
 | 2003 | Dalí collaboration *Destino* completed and released. |
 | 2024 | 1928 *Steamboat Willie* version enters U.S. public domain; later Mickey designs and trademarks remain protected. |
 
+## Atlas Connections
+
+### Abraham Lincoln
+
+- **[T1-] Documented fact:** Disney repeatedly interpreted Lincoln for later audiences. After reciting the Gettysburg Address in costume as a Kansas City schoolboy, he initiated and supervised the Audio-Animatronic **Great Moments with Mr. Lincoln**, which opened at the New York World’s Fair in April 1964 and at Disneyland on 18 July 1965. The presentation assembled excerpts from Lincoln’s writings and speeches; Disney described it as a tribute to his childhood hero and an effort to communicate Lincoln’s ideas to contemporary audiences. ([Walt Disney Family Museum](https://www.waltdisney.org/blog/look-closer-great-moments-mr-lincoln))
+
+### Benjamin Franklin
+
+- **[T1-] Documented fact:** Disney produced the animated short **Ben and Me** (1953), adapted from Robert Lawson’s book. It recounts Franklin’s career through the fictional mouse Amos, humorously inserting Amos into Franklin’s experiments, inventions, journalism, diplomacy, and revolutionary activity. The connection is a Disney-sponsored representation of the earlier historical figure, not a personal crossing. ([D23](https://d23.com/a-to-z/amos/))
+
+### Diego Rivera
+
+- **[T5] Documented fact:** Disney met Rivera in Mexico in **1942**. Photographer Juan Guzmán made a surviving photograph titled *Walt Disney and Diego Rivera*, now identified by the Fundación Televisa Collection and Archive; the Walt Disney Family Museum also preserves a letter from Rivera to Disney. These records establish both an in-person meeting and subsequent written contact, although they do not establish a sustained collaboration. ([Google Arts & Culture/Fundación Televisa](https://artsandculture.google.com/story/twUxKeDGLYyfIg), [Walt Disney Family Museum](https://www.waltdisney.org/blog/what-do-you-do-harvey-newman))
+
+### George Balanchine
+
+- **[T4] Documented fact:** In **December 1939**, Balanchine accompanied Igor Stravinsky to the Disney studio in California while *Fantasia* was in production. He toured the production, met animators, posed with character models, and heard the film’s soundtrack. The available institutional account places Balanchine within Disney’s studio milieu but does not establish a formal role in *Fantasia* or clearly document a personal conversation with Walt; T4 is therefore more precise than T5. ([Walt Disney Family Museum](https://www.waltdisney.org/blog/george-balanchine-and-walt-disneys-fantasia))
+
+### Igor Stravinsky
+
+- **[T5] Documented fact:** Stravinsky visited the Disney studio during production of *Fantasia*, including a documented visit in **December 1939**, and personally reviewed the studio’s treatment of his **The Rite of Spring** with Disney personnel. Disney licensed the composition and used it for the film’s prehistoric “creation of the earth” sequence. Stravinsky later sharply criticized the rearrangement and performance, so the crossing was direct but artistically contentious. ([Walt Disney Family Museum](https://www.waltdisney.org/blog/george-balanchine-and-walt-disneys-fantasia))
+
+### Johnny Appleseed
+
+- **[T1-] Documented fact:** Disney produced the **“Johnny Appleseed”** segment of *Melody Time* (1948), later rereleased independently and educationally as *The Legend of Johnny Appleseed*. The film retold the life of John Chapman as an idealized American folk biography, blending documented occupation and migration with religious and frontier legend. ([D23](https://d23.com/a-to-z/johnny-appleseed-film/))
+
+### Maurice Sendak
+
+- **[T3] Documented fact:** No personal meeting or correspondence between Disney and Sendak has been established, but Sendak engaged explicitly and repeatedly with Disney’s work. He recalled childhood devotion to Mickey Mouse, identified seeing *Fantasia* at about age twelve as formative to his ambition to illustrate, and discussed his early desire to work for Disney in a 1966 profile published while Walt was alive. This is documented one-sided artistic discourse and reception, not friendship or collaboration. ([Walt Disney Family Museum](https://www.waltdisney.org/exhibitions/maurice-sendak-50-years-50-works-50-reasons), [The New Yorker](https://www.newyorker.com/magazine/1966/01/22/among-the-wild-things))
+
+### Robert Moses
+
+- **[T5] Documented fact:** Disney personally hosted New York World’s Fair president Robert Moses at the Disney studio in California in the early 1960s. During a tour, Disney showed him the developing Audio-Animatronic Lincoln concept; Moses pressed for its inclusion in the **1964–1965 New York World’s Fair**, leading to the Illinois-sponsored *Great Moments with Mr. Lincoln*. Their direct negotiations helped bring Disney’s four major attractions to the fair. ([Walt Disney Family Museum](https://www.waltdisney.org/blog/walts-worlds-fair), [Walt Disney Family Museum](https://www.waltdisney.org/blog/look-closer-great-moments-mr-lincoln))
+
+No reliable record establishes a personal or professional crossing between Disney and roster members **Carl Gustav Jung** or **Edward Bernays**. Likewise, the frequently repeated claim that Disney met **Benito Mussolini** in 1935 remains disputed by contradictory recollections and the absence of Disney’s name from the surviving official reception schedule; it is therefore not recorded above as a genuine crossing.
+
 ## Sources
 https://d23.com/about-walt-disney/
 https://d23.com/disney-history/

@@ -593,6 +593,32 @@ The legacy is therefore not a moral verdict but a set of surviving structures an
 | 2000 | Dowty publishes full English translation and analysis of “Truth from Eretz Israel.” |
 | 2021–2024 | New work revisits his editing, political imagination, and prophetic self-fashioning. |
 
+## Atlas Connections
+
+### Moses
+
+- **[T1-] Documented fact:** Ahad Ha’am wrote the substantial essay “Moses” (*Mosheh*) in Odessa in 1904. He treated Moses not as a recoverable biographical subject alone but as the culturally created prophet whose image embodied Israel’s national spirit and exercised historical force through collective memory. ([TheTorah.com study](https://www.thetorah.com/article/ahad-haams-cultural-zionism-moses-in-the-shadow-of-jeremiah-and-muhammad); [English text](https://suigeneris.bard.edu/archive/suigeneris2016.pdf))
+
+### Theodor Herzl
+
+- **[T3] Documented fact:** Ahad Ha’am repeatedly engaged Herzl in print. After attending the First Zionist Congress in Basel, 29–31 August 1897, he answered Herzl’s state-centered program in “The First Zionist Congress” and “The Jewish State and the Jewish Problem.” In 1902 he attacked the culturally deracinated Jewish society portrayed in Herzl’s *Altneuland*, provoking the celebrated counter-polemic conducted on Herzl’s behalf by Max Nordau. ([Ahad Ha’am’s translated essays](https://gutenberg.org/cache/epub/67667/pg67667-images.html); [Central Zionist Archives](https://www.zionistarchives.org.il/en/datelist/Pages/Congress1.aspx))
+- **[T4] Documented fact:** Herzl presided over the First Zionist Congress while Ahad Ha’am attended it in Basel in August 1897. Their presence at the same congress is established, although that fact alone does not prove a private meeting. ([Central Zionist Archives](https://www.zionistarchives.org.il/en/datelist/Pages/Congress1.aspx))
+
+### Chaim Weizmann
+
+- **[T3] Documented fact:** Ahad Ha’am and Weizmann maintained an extensive intellectual and political exchange, preserved in their papers and published correspondence. In London during the First World War, Ahad Ha’am reviewed proposed Zionist formulations and advised Weizmann in the diplomatic campaign culminating in the Balfour Declaration of 2 November 1917. The evidence supports collaboration and influence, not the theory that Ahad Ha’am secretly dictated either Weizmann’s policy or the declaration’s final text. ([Weizmann Archives](https://www.weizmann-archives.org.il/); [Ahad Ha’am Archive](https://www.nli.org.il/en/archives/NNL_ARCHIVE_AL990026192610205171/NLI))
+- **[T5] Documented fact:** Weizmann was Ahad Ha’am’s younger friend, visitor, and political collaborator. Their close personal association developed through Zionist activity and became especially sustained after Ahad Ha’am moved to London in 1907–1908; it continued through his retirement and final settlement in Palestine. ([Weizmann Archives](https://www.weizmann-archives.org.il/); [National Library of Israel biography](https://www.nli.org.il/en/discover/israel/figures/ahad-haam))
+
+### Martin Buber
+
+- **[T3] Documented fact:** Buber sought Ahad Ha’am’s participation in his German-language journal *Der Jude*. When no new contribution was forthcoming, Buber published an earlier 1903 letter from Ahad Ha’am, using his voice as an authority in the debate over distinctively Jewish national culture. This establishes direct written engagement, although it does not by itself establish friendship or a personal meeting. ([Paul Mendes-Flohr, *Aesthetics of Renewal*](https://ndl.ethernet.edu.et/bitstream/123456789/45808/1/23.pdf))
+
+### Arthur James Balfour
+
+- **[T9-] Documented fact:** The connecting object is the Balfour Declaration. Balfour signed and issued the English letter on 2 November 1917; Ahad Ha’am subsequently produced a handwritten Hebrew translation in 1918, reconsidering such terms as “National Home.” The surviving translation documents Ahad Ha’am’s later handling and interpretation of the text, but does not prove that he and Balfour personally met. ([National Library of Israel](https://merkazruach.nli.org.il/historiyom/ksh-akhad-h-m-trgm-t-htshrt-blpvr); [declaration history and drafts](https://www.nli.org.il/he/discover/israel/zionism/zionism-history/balfour-declaration))
+
+No adequately documented T2 prophecy/hyperstition crossing, or additional T1, T3, T4, T5, or T9 crossing with another roster member, was identified. Mere intellectual influence, later comparison, overlapping Zionist affiliation, or presence in the same broad geographical setting has therefore been omitted.
+
 ## Sources
 
 https://encyclopedia.yivo.org/article.aspx/ahad_ha-am

@@ -624,6 +624,78 @@ This separation neither rehabilitates the ancient-history claims nor dismisses t
 | 1988 | Desmond and Messenger publish *A Dream of Maya*, initiating major archive-based reassessment |
 | 2004 onward | Getty acquisition, cataloging, digitization, and related scholarship make the archive broadly accessible |
 
+## Atlas Connections
+
+### Adam
+
+- **[T1-]** **Documented fact; underlying claim: theory.** In *Sacred Mysteries among the Mayas and the Quiches* (New York, 1886), Le Plongeon rejected Adam as a historical ancestor, calling him a myth while arguing that Freemasonry antedated him. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### Hadrian
+
+- **[T1-]** **Documented fact.** In *Sacred Mysteries* (1886), Le Plongeon situated the popularity of the Mithraic mysteries in the reign of Emperor Hadrian (“Adrian”) as part of his proposed history of ancient initiation. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### Alexander the Great
+
+- **[T1-]** **Documented fact; underlying account: reported fact repeated by Le Plongeon.** In *Sacred Mysteries* (1886), he wrote that Alexander, during his Indian conquests, could not take possession of the hilltop colleges or lodges of learned Brahmins. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### Helena Petrovna Blavatsky
+
+- **[T3]** **Documented fact.** The written engagement was reciprocal but not evidence of correspondence or a personal meeting. Blavatsky cited Le Plongeon and *Sacred Mysteries* in *The Secret Doctrine* (1888), accepting claimed Maya–Egyptian ritual similarities while disputing his direction of cultural transmission. Le Plongeon subsequently cited Blavatsky’s *Secret Doctrine* in *Queen Móo and the Egyptian Sphinx* (1896), alleging that her Book of Dzyan cosmology corresponded to Maya teaching. Alice’s 1890 Blavatsky Lodge lecture confirms proximity to Blavatsky’s institutional milieu but does not establish that Augustus met her. [Blavatsky’s discussion](https://st-helens-spiritualist-church.co.uk/books/Helena%20Petrovna%20Blavatsky/The%20Secret%20Doctrine/The%20Secret%20Doctrine%20Vol%20II%20%20Blavatsky%20H.P.%20.pdf), [Le Plongeon’s discussion](https://upload.wikimedia.org/wikipedia/commons/0/03/Queen_M%C3%B3o_and_the_Egyptian_sphinx_-_by_Augustus_Le_Plongeon_%28IA_cu31924083722037%29.pdf), [Desmond archival study](https://archaeoplanet.wordpress.com/wp-content/uploads/2015/08/of-facts-and-hearsay-bringing-augustus-le-plongeon-into-focus-1988.pdf)
+
+### Christopher Columbus
+
+- **[T1-]** **Documented fact.** In the preface to *Sacred Mysteries* (1886), Le Plongeon discussed Columbus—under the Spanish form “Cristobal Colon”—and his 1498 sighting and navigation of the northern South American coast. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### El Inca Garcilaso de la Vega
+
+- **[T1-]** **Documented fact.** Le Plongeon cited Garcilaso de la Vega as an authority on ancient Peru in *Sacred Mysteries* (1886), incorporating his account into a comparison of American and Old World religious traditions. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1-]** **Documented fact; underlying claim: reported fact repeated by Le Plongeon.** In *Sacred Mysteries* (1886), Le Plongeon described Leibniz as a member of a secret learned society from which he supposedly received otherwise unavailable instruction; the book’s index rendered his name “Leibnitz.” [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### Herodotus
+
+- **[T1-]** **Documented fact.** Le Plongeon repeatedly quoted and discussed Herodotus in *Sacred Mysteries* (1886), especially on Egyptian secrecy, initiation, the Thesmophoria, and alleged transmission of Egyptian rites to Greece. These passages formed part of Le Plongeon’s speculative Maya-origin argument. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### Hypatia
+
+- **[T1-]** **Documented fact.** In the index and historical discussion of *Sacred Mysteries* (1886), Le Plongeon identified Bishop Cyril as Hypatia’s murderer while describing Christian persecution of adherents of older religions. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact.** Jesus was the subject of Le Plongeon’s Spanish-language polemic *La religión de Jesús comparada con las enseñanzas de la Iglesia* (Boston, 1867). Le Plongeon also invoked advice attributed to Jesus in Mark 6:11 in the preface to *Sacred Mysteries* (1886). [1886 primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm), [Getty papers finding aid](https://www.getty.edu/research/collections/static/pdf/2004.M.18.pdf)
+
+### Jacques de Molay
+
+- **[T1-]** **Documented fact; underlying genealogy: theory.** *Sacred Mysteries* (1886) recounts Molay’s 1308 arrest and 1314 execution and alleges that his death, Templar succession, and commemorative rites contributed to the emergence of Scottish Rite Freemasonry. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### Moses
+
+- **[T1-]** **Documented fact; underlying conclusion: theory.** In *Sacred Mysteries* (1886), Le Plongeon discussed the traditional attribution of the Pentateuch to Moses and endorsed the view that it was composed after the Hebrew monarchy’s foundation, within his larger argument that biblical traditions ultimately derived from earlier civilizations. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### Origen of Alexandria
+
+- **[T1-]** **Documented fact.** Le Plongeon cited “Origenes” in *Sacred Mysteries* (1886) for an account of Mithraic priests imitating the movements of celestial bodies and assuming the names and dress of constellations. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### Plato
+
+- **[T1-]** **Documented fact; underlying use: theory.** Plato was a major ancient authority in Le Plongeon’s published system. In *Sacred Mysteries* (1886) and *Queen Móo and the Egyptian Sphinx* (1896), Le Plongeon treated Plato’s Atlantis account as substantially historical and claimed that Maya records independently confirmed it. [1886 primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm), [1896 primary text](https://upload.wikimedia.org/wikipedia/commons/0/03/Queen_M%C3%B3o_and_the_Egyptian_sphinx_-_by_Augustus_Le_Plongeon_%28IA_cu31924083722037%29.pdf)
+
+### Roger Bacon
+
+- **[T1-]** **Documented fact.** In *Sacred Mysteries* (1886), Le Plongeon quoted Roger Bacon on withholding philosophical discoveries from the unworthy and discussed Bacon’s learning and imprisonment as part of a history of esoteric secrecy. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### King Solomon
+
+- **[T1-]** **Documented fact; underlying genealogy: theory.** *Sacred Mysteries* (1886), subtitled *Freemasonry in Times Anterior to the Temple of Solomon*, discussed the theory that Masonry originated in the building of Solomon’s Temple, then rejected that chronology in favor of Le Plongeon’s claimed prehistoric Maya origin. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+### Zoroaster
+
+- **[T1-]** **Documented fact; underlying account: theory.** In *Sacred Mysteries* (1886), Le Plongeon described Zoroaster as founder of the Mithraic mysteries, discussed the cavern allegedly selected for their celebration, and used the account in his proposed genealogy of ancient initiation and Freemasonry. [Primary text](https://www.gutenberg.org/files/57458/57458-h/57458-h.htm)
+
+No documented personal meeting, friendship, shared-site succession, or prophecy/hyperstition connection was established with any other roster member. Mere chronological overlap, shared esoteric interests, or later participation in the broader Atlantis/Mu tradition has therefore been omitted.
+
 ## Sources
 
 https://oac.cdlib.org/findaid/ark%3A/13030/kt3z09r80d

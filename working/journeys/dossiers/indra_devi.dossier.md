@@ -723,6 +723,40 @@ The Buenos Aires foundation operated under Iana and David Lifar until 2020; thei
 
 ---
 
+## Atlas Connections
+
+### Annie Besant
+
+- **[T4]** **Documented fact:** Devi attended the 1926 Order of the Star/Theosophical camp at Ommen, Netherlands, within the movement then led and publicly represented by Annie Besant. This establishes a shared institutional event and milieu, but the consulted evidence does not establish a personal conversation between them.
+
+### Jiddu Krishnamurti
+
+- **[T3]** **Documented fact:** At the 1926 Ommen camp, Devi heard Krishnamurti speak and chant Sanskrit hymns around a fire. She later described this performance as a decisive spiritual awakening that redirected her toward India.
+- **[T5]** **Reported fact:** Biographical evidence indicates that Krishnamurti knew her personally as Eugenia and that they remained acquainted, although she apparently did not actively seek him out after moving to Los Angeles in 1947. [TIME’s adaptation from Michelle Goldberg’s biography](https://time.com/3909621/the-woman-who-hooked-hollywood-stars-on-yoga/) explicitly describes Krishnamurti as knowing her before her reinvention as a professional yogini.
+
+### Madame Chiang Kai-shek
+
+- **[T5]** **Reported fact:** During Devi’s Shanghai period, approximately 1939–47, her expanding yoga class was held at Soong Mei-ling’s residence, and contemporary biographical accounts describe Madame Chiang as interested in or practicing yoga. This supports patronage and probable personal contact, though the surviving public record does not specify lesson dates or their precise teacher–student relationship. [The Los Angeles Times obituary](https://www.latimes.com/archives/la-xpm-2002-may-05-me-devi5-story.html) confirms the use of Soong’s home and her interest in yoga.
+
+### Mahatma Gandhi
+
+- **[T5]** **Reported fact:** Devi and later institutional biographies state that she met Gandhi during her pre-independence years in India, generally placing the acquaintance within the nationalist and Theosophical circles she entered after 1927. No dated meeting record, correspondence, photograph, or Gandhi diary entry was located, so stronger claims that they were close friends remain unverified. The meeting is repeated in a 1993 profile and a later memorial account. [Hinduism Today, 1993](https://www.hinduismtoday.com/magazine/december-1993/1993-12-at-94-indra-devi-is-still-teaching-yoga/); [Hinduism Today, 2002](https://www.hinduismtoday.com/magazine/october-november-december-2002/2002-10-indra-devi-s-legacy/).
+
+### Pattabhi Jois
+
+- **[T4]** **Reported fact:** Devi and K. Pattabhi Jois belonged to Krishnamacharya’s Mysore Palace yoga-school milieu during Devi’s 1937–38 training. Later accounts call them fellow students, but the available evidence does not demonstrate that they attended the same lessons, followed the same curriculum, or formed a personal relationship. [Hinduism Today’s memorial account](https://www.hinduismtoday.com/magazine/october-november-december-2002/2002-10-indra-devi-s-legacy/) names Jois among Krishnamacharya’s students contemporary with Devi.
+
+### Rabindranath Tagore
+
+- **[T3]** **Documented fact:** Devi read Tagore as an adolescent, around 1914, and identified his writing—alongside Yogi Ramacharaka’s—as an important stimulus for her attraction to India.
+- **[T5]** **Reported fact:** Multiple biographical accounts say that Devi later met Tagore during her years in India, after 1927, and some characterize them as friends. No dated encounter, correspondence, or Tagore-side record was located, so the meeting is better supported than the claimed intimacy. [Hinduism Today, 1993](https://www.hinduismtoday.com/magazine/december-1993/1993-12-at-94-indra-devi-is-still-teaching-yoga/); [Hinduism Today, 2002](https://www.hinduismtoday.com/magazine/october-november-december-2002/2002-10-indra-devi-s-legacy/).
+
+### Ruth St. Denis
+
+- **[T5]** **Reported fact:** Ruth St. Denis appears in period promotion and later accounts among the dancers and cultural figures associated with Devi’s Hollywood yoga circle in the late 1940s or 1950s. The accessible evidence does not establish the number or character of their meetings, and “student” should therefore not be asserted without qualification.
+
+No defensible direct crossing was found with the remaining roster members. In particular, shared Theosophical, anthroposophical, yoga, Argentine, or political contexts alone do not establish connections to Helena Blavatsky, Rudolf Steiner, Swami Vivekananda, Manuel Noriega, or other roster figures.
+
 ## Sources
 
 https://www.nytimes.com/2002/04/30/arts/indra-devi-102-dies-taught-yoga-to-stars-and-leaders.html

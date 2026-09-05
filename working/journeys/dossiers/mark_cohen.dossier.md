@@ -1322,6 +1322,22 @@ The public record reviewed does not support collapsing those intersections into 
 
 ---
 
+## Atlas Connections
+
+### Ghislaine Maxwell
+
+- **[T3] Documented fact:** Cohen became Maxwell’s U.S. counsel after Cohen & Gresser attorney Brett Jaffe, whom she retained in 2009, left the firm. A 2016 federal ruling examined emails involving Cohen and Maxwell and found that certain communications reflected an attorney-client relationship. Cohen later appeared for Maxwell in her 2020–2022 federal criminal case in New York, handling initial proceedings and serving as a strategic adviser to the trial team. Sources: [*Giuffre v. Maxwell* privilege ruling](https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2015cv07433/447706/135/); [Cohen & Gresser biography](https://www.cohengresser.com/attorney/mark-s-cohen/); [Maxwell federal docket](https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/).
+
+### Jeffrey Epstein
+
+- **[T1-] Documented fact:** After Epstein’s 2019 death, Cohen co-authored filings for Maxwell that discussed Epstein and his alleged conduct as part of her defense in *United States v. Maxwell*. This establishes later legal writing about Epstein, not that Cohen represented, met, or corresponded with him. Source: [Maxwell defense memorandum filed 4 February 2021](https://epstein-docs.github.io/document/146/).
+
+### Sam Bankman-Fried
+
+- **[T5] Documented fact:** Bankman-Fried retained Cohen in December 2022, and Cohen subsequently served as his lead trial counsel in federal proceedings in New York, including the approximately five-week October–November 2023 jury trial. Their attorney-client relationship necessarily involved direct personal interaction during case preparation and their joint courtroom attendance; it ended in a conviction on all seven counts tried. Sources: [Reuters report on Cohen’s retention](https://newslink.reuters.com/public/29906096); [Cohen & Gresser biography](https://www.cohengresser.com/attorney/mark-s-cohen/); [DOJ FTX prosecution record](https://www.justice.gov/usao-sdny/prosecuting-fraud).
+
+No identity-secure evidence located supports an additional connection between Mark Stewart Cohen and another person on the supplied roster. In particular, Cohen’s documented dealings involving **JPMorgan Chase** do not establish personal crossings with roster members **J. P. Morgan** or **Jamie Dimon**, and Maxwell-related litigation does not establish meetings or correspondence with **Robert Maxwell**, **Leon Black**, or **Leslie Wexner**.
+
 ## Sources
 
 https://www.cohengresser.com/attorney/mark-s-cohen/

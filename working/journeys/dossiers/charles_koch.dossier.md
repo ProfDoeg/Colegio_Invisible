@@ -680,6 +680,44 @@ The business record includes extraordinary growth and technology diversification
 | 5 May 2026 | Publishes *Becoming a Principle-Driven Leader* with Chase Koch |
 | 20 Aug 2026 | Living in Wichita; chairman and co-CEO; Forbes estimate $73.8 billion |
 
+## Atlas Connections
+
+### Friedrich August von Hayek
+
+- **[T1-] Documented fact:** Koch discussed Hayek and the influence of his writings in *Believe in People* (2020) and elsewhere, placing Hayek among the thinkers whose work shaped his understanding of social organization and dispersed knowledge ([Charles Koch biography](https://www.charleskoch.com/biography)).
+- **[T3] Documented fact:** As Institute for Humane Studies president, Koch corresponded with Hayek in 1973. He invited Hayek to become an IHS distinguished senior scholar and, in an August 10 letter, supplied information about Social Security and Medicare coverage intended to make a United States residency feasible. The correspondence survives in the Hayek archives at the Hoover Institution. Hayek subsequently resided at IHS in Menlo Park during the summers of 1975 and 1977 ([The Nation](https://www.thenation.com/article/archive/charles-koch-friedrich-hayek-use-social-security/)).
+
+### John Maynard Keynes
+
+- **[T1-] Documented fact:** Koch wrote in *Believe in People* that his intellectual search included Keynes’s works, alongside writers with whom he agreed and disagreed, and said that even authors he opposed helped shape his understanding ([Charles Koch biography](https://www.charleskoch.com/biography)).
+
+### John Locke
+
+- **[T1-] Documented fact:** Koch identified Locke in *Believe in People* as one of the thinkers whose works he studied while developing his account of human progress, individual rights, and social organization ([Charles Koch biography](https://www.charleskoch.com/biography)).
+
+### Joseph Alois Schumpeter
+
+- **[T1-] Documented fact:** Koch has repeatedly discussed and quoted Schumpeter’s concept of “creative destruction” in explaining innovation and organizational change, including in his published management philosophy and official biographical account ([Charles Koch biography](https://www.charleskoch.com/biography)).
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Koch wrote in *Believe in People* that he studied Marx as part of a deliberate effort to examine perspectives beyond those with which he agreed; he presented such opposing authors as contributors to his understanding rather than as intellectual allies ([Charles Koch biography](https://www.charleskoch.com/biography)).
+
+### Ludwig Heinrich Edler von Mises
+
+- **[T1-] Documented fact:** Koch discussed Mises and *Human Action* in his books and public accounts as a major source for his ideas about human action, entrepreneurship, and economic coordination ([Charles Koch biography](https://www.charleskoch.com/biography)).
+- **[T5] Reported fact:** George Pearson, then a Koch associate and IHS organizer, recalled that Koch brought Mises to Wichita in the late 1960s. This establishes an organized in-person visit and meeting, although the available retrospective account does not provide an exact date or itinerary ([Institute for Humane Studies history](https://mises.org/quarterly-journal-austrian-economics/ihs-and-rebirth-austrian-economics-some-reflections-1974-1976)).
+
+### Murray Newton Rothbard
+
+- **[T5] Documented fact:** Koch and Rothbard had a direct working relationship during the 1970s: they collaborated in the early Cato Institute, promoted Austrian-economics conferences and publications through IHS, and helped build related libertarian institutions. Their personal and strategic relationship deteriorated over electoral strategy, policy, and institutional control, culminating in Rothbard’s removal from Cato governance in March 1981 and a public rupture afterward ([Modern American History](https://www.cambridge.org/core/journals/modern-american-history/article/second-american-revolution-murray-rothbard-and-the-libertarians-imagine-the-us-founding/E85C7CF3F65A59F9D66F205ABAC396E8); [IHS history](https://mises.org/quarterly-journal-austrian-economics/ihs-and-rebirth-austrian-economics-some-reflections-1974-1976)).
+
+### Vladimir Ilyich Lenin
+
+- **[T1-] Documented fact:** Koch wrote in *Believe in People* that he studied Lenin among authors representing sharply different political and philosophical positions; he described this reading as part of understanding competing systems, not endorsement ([Charles Koch biography](https://www.charleskoch.com/biography)).
+
+No adequately documented T2 prophecy/hyperstition or T9 shared-object/site crossing with another roster member was located. Mere ideological resemblance, institutional funding, political opposition, common geography, or reading without attributable written treatment has not been counted.
+
 ## Sources
 
 https://www.charleskoch.com/biography

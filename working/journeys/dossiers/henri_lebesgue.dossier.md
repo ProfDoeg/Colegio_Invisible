@@ -658,6 +658,16 @@ There is no personal cult in the religious or political sense. The “cult” is
 - **2012** — Centre Henri Lebesgue established in the French research landscape.
 - **2018** — First volume of _Annales Henri Lebesgue_.
 
+## Atlas Connections
+
+### Arthur Cayley
+
+- **[T1-] Documented fact.** In 1921 Henri Lebesgue published “Exposé géométrique d’un mémoire de Cayley sur les polygones de Poncelet,” a detailed geometric exposition of Arthur Cayley’s 1861 paper. Lebesgue explicitly sought to make Cayley’s compressed analytical treatment better known in France and accessible to advanced students. The connection is textual and posthumous—Cayley died in 1895—not evidence of personal contact. [Numdam](https://www.numdam.org/item/AFST_1921_3_13__61_0.pdf)
+
+### Leonhard Euler
+
+- **[T1-] Documented fact.** Lebesgue examined Euler’s historical proofs of the polyhedron formula in “Remarques sur les deux premières démonstrations du théorème d’Euler relatif aux polyèdres,” published in the *Bulletin de la Société mathématique de France* in 1924. He later returned to the same mathematical legacy in “Quelques conséquences simples de la formule d’Euler.” This is documented critical-historical engagement with Euler’s work, not a personal crossing. [Numdam](https://www.numdam.org/item/BSMF_1924__52__315_1.pdf)
+
 ## Sources
 
 https://www.numdam.org/item/CSHM_1991__12__513_0.pdf

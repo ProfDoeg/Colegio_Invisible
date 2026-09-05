@@ -1539,6 +1539,20 @@ The appropriate historical distinction is not to erase either record:
 
 ---
 
+## Atlas Connections
+
+### David Chaum
+
+- **[T4]** **Documented fact:** Pierce and digital-cash pioneer David Chaum appeared on the same “Tech Celeb Panel” at the BitAngels pitch competition held at Vatom House in Venice Beach, California, on 18 October 2024. The organizer’s retrospective confirms both men’s participation but does not independently document a friendship or substantive exchange between them. ([BitAngels event report](https://blog.bitangels.network/p/web3-winners-bitangels-ignites-innovation))
+
+### Jeffrey Epstein
+
+- **[T5]** **Documented fact:** Pierce personally encountered Epstein through the Mindshift conference held in the U.S. Virgin Islands in January 2011, with activities on Saint Thomas and Epstein’s Little Saint James island. Contemporary planning correspondence lists Pierce as a confirmed participant, and Pierce later acknowledged attending while saying he had not previously known who Epstein was. ([released attendee correspondence](https://unsealed.truthtide.tv/email/EFTA02417540), [Daily Beast interview](https://www.thedailybeast.com/meet-brock-pierce-the-presidential-candidate-with-ties-to-two-pedophiles-who-wants-to-end-human-trafficking/))
+
+- **[T3]** **Documented fact:** Pierce and Epstein maintained direct written contact after Mindshift, including scheduling correspondence in 2013 and cryptocurrency-investment discussions in 2014. Released records show Pierce contacting Epstein about Coinbase’s Series C financing; Epstein subsequently invested approximately $3 million independently through IGO Company LLC. This establishes correspondence and business engagement, not Pierce’s participation in Epstein’s crimes. ([released 2013 email](https://yirah.fi/epstein/en/document/EFTA00652841), [CoinDesk reconstruction and linked DOJ records](https://www.coindesk.com/policy/2026/02/04/newly-unsealed-doj-files-link-jeffrey-epstein-to-a-2014-investment-in-coinbase))
+
+No additional atlas-roster crossings were supported strongly enough by the reviewed sources. Mere co-membership in the cryptocurrency, political, technology, Disney, or Epstein-adjacent milieu was not treated as a connection without evidence of a qualifying encounter, communication, shared event, or transmitted object/site.
+
 ## Sources
 
 https://www.sec.gov/Archives/edgar/data/1710350/000121390026069284/ea0294006-04.htm

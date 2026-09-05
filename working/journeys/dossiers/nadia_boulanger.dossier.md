@@ -160,3 +160,23 @@ gantt
 - *IMSLP Category “Boulanger, Nadia”* (list of works).  
 
 Each cited source above corresponds to the bracketed notes in the text.
+
+## Atlas Connections
+
+### Astor Piazzolla
+
+- **[T5] Documented fact.** Piazzolla studied composition personally with Boulanger in Paris in 1954 after receiving a scholarship. She encouraged him to develop his distinctive tango-based musical identity rather than suppress it in favor of conventionally European concert music. ([Argentina.gob.ar](https://www.argentina.gob.ar/noticias/astor-piazzolla-el-tango-como-lenguaje-universal); [Nonesuch Records](https://www.nonesuch.com/artists/astor-piazzolla))
+
+### Claude Debussy
+
+- **[T1-] Documented fact.** As a critic for *Le Monde musical* after Debussy’s death in 1918, Boulanger wrote appreciatively about him and helped affirm his place in the modern French canon. Kimberly Francis’s study of Boulanger’s 1918–1927 criticism describes her as venerating Debussy. ([Cambridge University Press](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0CAED635DCB691388CAB9C41CA9F2526/9781787442573c7_p169-192_CBO.pdf/womans_critical_voice_nadia_boulanger_and_le_monde_musical_19191923.pdf))
+
+### Erik Satie
+
+- **[T1-] Documented fact.** Boulanger discussed and evaluated Satie’s music in her January 1922 criticism for *Le Monde musical*. Scholarship on her columns notes both this specific discussion and her broader effort to establish a place for Satie in the French musical canon. ([*Nadia Boulanger: Thoughts on Music* preview](https://api.pageplace.de/preview/DT0400.9781787446571_A43370284/preview-9781787446571_A43370284.pdf); [Cambridge University Press](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0CAED635DCB691388CAB9C41CA9F2526/9781787442573c7_p169-192_CBO.pdf/womans_critical_voice_nadia_boulanger_and_le_monde_musical_19191923.pdf))
+
+### Igor Stravinsky
+
+- **[T5] Documented fact.** Boulanger first met Stravinsky in Paris following the 1910 premiere of *L’Oiseau de feu*. Their later professional association developed into a close personal friendship, particularly during the 1930s and 1940s. ([Musicology Now](https://musicologynow.org/mademoiselle-and-igor/); [JSTOR](https://www.jstor.org/stable/j.ctvb6v5t4))
+
+- **[T3] Documented fact.** Boulanger and Stravinsky began sustained correspondence in 1929, initially concerning the musical education of his son Soulima. Their surviving exchange continued for decades and records discussions of family matters, performances, teaching, commissions, and Stravinsky’s music; the published correspondence traces the relationship through 1972. ([JSTOR](https://www.jstor.org/stable/j.ctvb6v5t4); [Bibliothèque nationale de France](https://ccfr.bnf.fr/portailccfr/jsp/index_view_direct_anonymous.jsp?record=rnbcd_fonds%3AFONDS%3A673))

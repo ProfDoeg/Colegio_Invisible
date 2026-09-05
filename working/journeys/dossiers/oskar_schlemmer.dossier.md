@@ -723,6 +723,28 @@ The 1998 Sotheby's sale of *Idealistische Begegnung* for approximately US$1.47 m
 | 2022 | Centenary exhibitions for *Triadic Ballet* |
 | 17 Dec 2024 | Stuttgart Higher Regional Court settlement resolves long-running Tut Schlemmer estate litigation |
 
+## Atlas Connections
+
+### Johannes Itten
+
+- **[T3] Documented fact:** Schlemmer and Itten knew one another from Adolf Hölzel’s Stuttgart circle and subsequently engaged as Bauhaus colleagues in Weimar, where they alternated responsibility for the mural-painting workshop in 1921–22. Their written contact continued long afterward: the Zentralbibliothek Zürich catalogues a surviving [1938 letter from Schlemmer to Itten](https://www.e-manuscripta.ch/zuzcmi/content/titleinfo/4143330). The evidence supports professional association, direct written engagement, and personal acquaintance, although not the claim that Schlemmer was Itten’s disciple.
+
+### Paul Klee
+
+- **[T5] Documented fact:** Schlemmer knew Klee personally and worked beside him at the Bauhaus in Weimar and Dessau. Before either appointment, Schlemmer had already campaigned unsuccessfully to bring Klee to the Stuttgart academy in 1918–19; both were then named in Walter Gropius’s formal communication concerning their Bauhaus appointments on 13 December 1920, preserved by the [German Federal Archives](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/dokumente-zur-zeitgeschichte/bauhaus-gruendung-in-weimar/). Later photographs show them together with other Bauhaus masters, confirming an enduring face-to-face professional relationship rather than mere institutional overlap.
+
+### Rudolf Laban
+
+- **[T4] Documented fact:** Schlemmer and Laban occupied the same organized dance milieu at the First German Dancers’ Congress in Magdeburg, 21–24 June 1927. Contemporary press records indexed by the [German Dance Archive Cologne](https://faust.sk-kultur.de/hzeig.FAU?desk=%2300000190%23&dm=1&sid=6DF198F012424&thes=4) name both men in connection with the congress, while specialist historical accounts identify both as members of its organizing committee. Schlemmer delivered the illustrated lecture “Abstraktion in Tanz und Kostüm”; Laban and Laban-affiliated groups dominated the performance program. This supports shared place and professional forum, but the consulted evidence does not establish friendship or substantive correspondence.
+
+### Mary Wigman
+
+- **[T4] Reported fact:** Specialist histories place Schlemmer and Wigman on the organizing committee of the First German Dancers’ Congress in Magdeburg in June 1927. Schlemmer lectured there, while the announced performances by both Schlemmer’s ensemble and Wigman’s dancers were reportedly excluded from the program; Wigman’s precise attendance is described inconsistently in later accounts. The connection is therefore best confined to their documented participation in the same institutional debate and committee milieu, not upgraded to friendship or direct collaboration. The broader congress activity is corroborated by the [Sächsische Biografie](https://saebi.isgv.de/biografie/Mary_Wigman_%281886-1973%29) and contemporary materials indexed by the [German Dance Archive Cologne](https://faust.sk-kultur.de/hzeig.FAU?desk=%2300000190%23&dm=1&sid=6DF198F012424&thes=4).
+
+### Wassily Kandinsky
+
+- **[T5] Documented fact:** Kandinsky and Schlemmer were personally acquainted Bauhaus masters from Kandinsky’s arrival in Weimar in 1922 through Schlemmer’s departure from Dessau in 1929. Kandinsky assumed leadership of the wall-painting workshop, enabling Schlemmer to concentrate on sculpture, figure instruction, and the stage. Period photographs place them together with Paul Klee, Georg Muche, and Lyonel Feininger, while Kandinsky’s contemporary correspondence records encounters with Schlemmer in Bauhaus daily life. The evidence establishes repeated personal and professional contact, though not a close private friendship or a major feud.
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd118608088.html#ndbcontent

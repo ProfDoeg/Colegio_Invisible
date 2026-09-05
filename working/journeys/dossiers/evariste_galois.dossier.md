@@ -1193,6 +1193,48 @@ The extraordinary feature is not merely that Galois “had ideas before his time
 
 ---
 
+## Atlas Connections
+
+### Alexandre Dumas
+
+- **[T3] Documented fact:** Dumas saw Galois at the republican banquet held at Les Vendanges de Bourgogne, Paris, on 9 May 1831. His memoir describes Galois raising a glass while holding an open knife and proposing the toast “À Louis-Philippe!” Dumas left through the garden because he feared the gathering would attract prosecution. As an eyewitness account of a public performance, this is a direct discourse connection. [Dumas, *Mes Mémoires*](https://www.dumaspere.com/pages/bibliotheque/chapitre.php?cid=204&lid=m3)
+
+- **[T1+] Reported fact:** Decades afterward, Dumas wrote about Galois in *Mes Mémoires*, recounting the banquet, subsequent trial, and acquittal. He also named Pécheux/Pescheux d’Herbinville as Galois’s fatal opponent, but that identification was not based on Dumas witnessing the duel and remains unproven. [Dumas, *Mes Mémoires*](https://www.dumaspere.com/pages/bibliotheque/chapitre.php?cid=204&lid=m3)
+
+### Augustin-Louis Cauchy
+
+- **[T3] Documented fact:** Two papers by Galois concerning algebraic equations were presented to the Académie des sciences on 25 May and 1 June 1829 and placed in a review process involving Cauchy and Louis Poinsot. Academy records reconstructed by René Taton show that Cauchy planned to report on the work and probably encouraged its consolidation into a Grand Prix submission. This establishes one-sided written scientific engagement, but no surviving evidence proves a personal meeting or correspondence between the two men. [Taton, “Sur les relations scientifiques d’Augustin Cauchy et d’Évariste Galois”](https://www.persee.fr/doc/rhs_0151-4105_1971_num_24_2_3196)
+
+### Carl Friedrich Gauss
+
+- **[T3] Documented fact:** In his scientific testament to Auguste Chevalier, written in Paris on 29 May 1832, Galois asked Chevalier to have Gauss or Jacobi give a public judgment on the importance—not merely the correctness—of his results. This was a proposed one-sided written appeal; there is no evidence that Gauss received the letter, replied, or met Galois. [Institut Henri Poincaré, “Lettre-testament”](https://www.galois.ihp.fr/ressources/vie-et-oeuvre-de-galois/lettres/lettre-testament/)
+
+### Carl Gustav Jacob Jacobi
+
+- **[T3] Documented fact:** Galois engaged closely with Jacobi’s published research on elliptic functions and referred to Jacobi’s work in his surviving mathematical papers. In the testamentary letter of 29 May 1832, he asked Chevalier to solicit a public assessment from “Jacobi or Gauss.” No evidence shows that Jacobi received this request, corresponded with Galois, or met him. [Galois manuscript edition](https://fr.wikisource.org/wiki/Page%3AGalois_-_Manuscrits%2C_%C3%A9dition_Tannery%2C_1908.djvu/40) [Institut Henri Poincaré, “Lettre-testament”](https://www.galois.ihp.fr/ressources/vie-et-oeuvre-de-galois/lettres/lettre-testament/)
+
+### Felix Klein
+
+- **[T1+] Documented fact:** Klein repeatedly wrote and lectured about Galois’s mathematics. His Göttingen course of May–August 1886 presented the principles of algebraic equation theory as discoveries made by Galois in 1829; his later historical lectures also discussed Galois’s place in nineteenth-century algebra. This was entirely posthumous: Klein was born in 1849. [Heller, “Felix Klein’s teaching of Galois theory”](https://doi.org/10.1016/j.hm.2023.05.003)
+
+### Joseph Fourier
+
+- **[T3] Documented fact:** Galois submitted his revised memoir on algebraic equations to the Académie des sciences’ Grand Prix competition in early 1830, and Fourier received it in his capacity as perpetual secretary. Fourier died in Paris on 16 May 1830; the manuscript was subsequently absent from the competition papers. This documents institutional written transmission through Fourier, not a personal relationship, meeting, or intentional suppression. [Dupuy, “La vie d’Évariste Galois”](https://www.numdam.org/item/?id=ASENS_1896_3_13__197_0)
+
+### Joseph-Louis Lagrange
+
+- **[T1−] Documented fact:** Galois, writing after Lagrange’s death, explicitly situated his work on equations against the earlier theory developed by Lagrange and engaged with Lagrange’s results in his published and manuscript mathematical writings. Lagrange’s *Résolution des équations numériques*, *Théorie des fonctions analytiques*, and *Leçons sur le calcul des fonctions* were also formative reading during Galois’s schooling. This is an intellectual and textual connection only; Lagrange died in 1813, when Galois was an infant. [Neumann, *The Mathematical Writings of Évariste Galois*](https://ems.press/books/hem/102)
+
+### Siméon-Denis Poisson
+
+- **[T3] Documented fact:** Poisson encouraged Galois to prepare a fuller version of his work and, with Sylvestre-François Lacroix, formally reviewed the memoir submitted to the Académie des sciences on 17 January 1831. Their report of 4 July 1831 found the argument too incomplete and obscure to verify and recommended fuller exposition. This is documented written and institutional engagement; the surviving evidence does not establish friendship. [Ehrhardt, “A Social History of the ‘Galois Affair’”](https://www.cambridge.org/core/journals/science-in-context/article/abs/social-history-of-the-galois-affair-at-the-paris-academy-of-sciences-1831/C1D9184A719856DA9490765356700C78)
+
+### Sophus Lie
+
+- **[T1+] Documented fact:** At the École normale centenary in Paris in 1895, Lie delivered an address titled **“Influence de Galois sur le développement des mathématiques,”** interpreting Galois’s methods and their importance for later mathematics. Lie was born ten years after Galois’s death, so the connection is exclusively posthumous authorship and reception, not personal contact. [Bibliographic record and reproduced text reference](https://mathshistory.st-andrews.ac.uk/Biographies/Lie/)
+
+No genuine documented crossing was established for the remaining atlas-roster figures. Mere chronological overlap, residence in Paris, use of later mathematical concepts descended from Galois, or participation in broadly similar intellectual and political traditions was not treated as a connection.
+
 ## Sources
 
 https://fr.wikisource.org/wiki/La_vie_d%E2%80%99%C3%89variste_Galois/Texte_entier

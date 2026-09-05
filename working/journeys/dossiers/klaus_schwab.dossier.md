@@ -537,6 +537,38 @@ The fairest documentary synthesis is neither “powerless talking shop” nor �
 | 7 Jul 2026 | Spokesperson reports discovery of listening device at Geneva home and complaint against unknown persons; origin unresolved. |
 | 24 Aug 2026 | Alive; no formal WEF office documented; Schwab Academy active. |
 
+## Atlas Connections
+
+### Milton Friedman
+
+- **[T1-]** **Documented fact:** Schwab repeatedly wrote about Friedman’s shareholder-primacy doctrine as the principal intellectual alternative to his own stakeholder-capitalism model. In a 2019 essay and an excerpt from his 2021 book *Stakeholder Capitalism*, Schwab expressly discussed and criticized Friedman’s 1970 position on corporate social responsibility. [WEF essay](https://www.weforum.org/agenda/2019/12/stakeholder-capitalism-davos-manifesto/) [Book excerpt](https://www.weforum.org/stories/2021/01/klaus-schwab-on-what-is-stakeholder-capitalism-history-relevance/)
+
+### George Soros
+
+- **[T3]** **Documented fact:** Schwab engaged Soros’s published economic arguments in writing. His 4 November 2008 *Times* commentary cited Soros among insiders who had warned about systemic financial risk, and his later writing on Europe discussed Soros’s prescription for Germany and the eurozone. This establishes one-sided written engagement, not a personal alliance or operational relationship. [WEF institutional history containing the 2008 article](https://www3.weforum.org/docs/WEF_A_Partner_in_Shaping_History.pdf) [Schwab’s *The Re-emergence of Europe*](https://www3.weforum.org/docs/WEF_KSC_Re-emergenceEurope_2012_CN.pdf)
+
+### Nelson Mandela
+
+- **[T5]** **Documented fact:** Schwab personally met Mandela at the World Economic Forum in Davos in February 1992, where Mandela appeared with F. W. de Klerk and Mangosuthu Buthelezi. WEF records and photographs place Schwab and Mandela together; Schwab also recalled Mandela’s farewell words to him at Davos in 1999. [WEF retrospective](https://www.weforum.org/stories/2015/06/reflections-on-25-years-of-the-world-economic-forum-on-africa/) [WEF institutional history](https://www3.weforum.org/docs/WEF_First40Years_Book_2010.pdf)
+
+### Bill Clinton
+
+- **[T5]** **Documented fact:** Schwab and Clinton met and conducted public conversations at Davos, including Clinton’s presidential address and question-and-answer session on 29 January 2000 and Schwab-chaired conversations in 2006 and 2009. Clinton directly addressed him as “President Schwab” in the 2000 session. [American Presidency Project transcript](https://www.presidency.ucsb.edu/documents/remarks-the-world-economic-forum-and-question-and-answer-session-davos-switzerland) [WEF recording of the 2006 conversation](https://www.youtube.com/watch?v=tdn5rH-643Y)
+
+### Bill Gates
+
+- **[T3]** **Documented fact:** Gates and Schwab were joint signatories, with Mastercard chief Ajay Banga, of a 2020 appeal seeking private-sector and philanthropic support for the COVID-19 Therapeutics Accelerator. The shared letter is direct written collaboration; it does not establish that Gates controlled Schwab or the WEF. [Joint letter](https://www3.weforum.org/docs/WEF_Therapeutics_Accelerator_Joint_Letter.pdf)
+
+### Javier Milei
+
+- **[T3]** **Documented fact:** Schwab introduced and witnessed Milei’s special presidential address at the WEF Annual Meeting in Davos on 17 January 2024. The two appeared together onstage, after which Milei delivered an argument against collectivism and in favor of free enterprise. This documents direct public discourse and shared staging, not ideological agreement or a patron–protégé relationship. [WEF session record](https://www.weforum.org/meetings/world-economic-forum-annual-meeting-2024/) [WEF photographic record](https://www.weforum.org/stories/forum-institutional/pictures-annual-meeting-wef-davos-2024/)
+
+### Volodymyr Zelenskyy
+
+- **[T5]** **Documented fact:** Schwab and Zelenskyy appeared and spoke together during Zelenskyy’s special address at the WEF Annual Meeting in Davos on 16 January 2024; the Forum’s photographic record also identifies a separate image of the two together. Schwab had previously chaired Zelenskyy’s virtual address to the May 2022 Annual Meeting from Davos. [2024 photographic record](https://www.weforum.org/stories/2024/01/pictures-annual-meeting-wef-davos-2024/) [2022 programme](https://www3.weforum.org/docs/WEF_AM22_Programme.pdf)
+
+No additional roster crossing was included where the available evidence showed only attendance at the same large WEF meeting, institutional affiliation without demonstrated contact, thematic similarity, or unsupported claims of influence. In particular, generalized “Davos network” membership was not treated as proof of a Schwab connection.
+
 ## Sources
 
 https://www.weforum.org/about/klaus-schwab/

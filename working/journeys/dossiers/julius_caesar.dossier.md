@@ -696,6 +696,43 @@ Coins provide the only securely contemporary lifetime portraits and titles. The 
 
 ---
 
+## Atlas Connections
+
+### Marcus Tullius Cicero
+
+- **[T3] Documented fact:** Cicero and Caesar exchanged letters during the political and civil-war crises; several letters from Caesar to Cicero survive within Cicero’s correspondence, including Caesar’s efforts in 49 BCE to secure Cicero’s cooperation. Ancient catalogues also record a now-lost three-book collection of Cicero’s letters *Ad Caesarem*. [Cicero’s correspondence](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0022%3Ayear%3D49&force=y)
+- **[T5] Documented fact:** The two senators knew and met one another personally over many years. Among specifically reported encounters, Cicero met Caesar at Ravenna in 52 BCE; after Pharsalus, Caesar pardoned him, and they remained in direct political and literary contact until Caesar’s death. [Commentary on Cicero’s correspondence](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0022%3Ayear%3Dvolume+1+intro)
+
+### Cleopatra VII Thea Philopator
+
+- **[T5] Documented fact:** Caesar and Cleopatra met at Alexandria in 48 BCE, became political and sexual partners, and remained personally connected until Caesar’s assassination. Caesar restored her as Egyptian ruler, accompanied her in Egypt according to later narratives, and received her in Rome in 46–44 BCE. Ancient sources agree on the meeting and alliance, although the famous bed-sack entry and other romantic details are reported facts rather than independently verifiable scenes. [Plutarch, *Caesar* 48–49](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar%2A.html), [Appian, *Civil Wars* 2.90](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/2%2A.html)
+
+### Strabo of Amaseia
+
+- **[T1+] Documented fact:** Strabo, writing after Caesar’s death, discussed Caesar’s campaigns and their geographical consequences. His *Geography*, for example, attributes damage around Alexandria to “the deified Caesar” during the Alexandrian War and compares Caesar’s description of Britain with geographical evidence. Caesar is therefore the earlier, written-about figure. [Strabo, *Geography* 17.1](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/17A1%2A.html), [Strabo, *Geography* 4.5](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/4E%2A.html)
+
+### Pliny the Elder
+
+- **[T1+] Documented fact:** Pliny wrote repeatedly about Caesar in the *Natural History*, including a concentrated assessment of his mental energy, dictation practices, battles, victories, and human cost, as well as traditions concerning Caesar’s family and calendar. Caesar is the earlier, written-about figure. [Pliny, *Natural History*, Book 7](https://penelope.uchicago.edu/holland/pliny7.html)
+
+### Flavius Josephus
+
+- **[T1+] Documented fact:** Josephus’ *Jewish Antiquities*, written in the 90s CE, narrates Caesar’s eastern settlement and reproduces documents attributed to Caesar concerning Hyrcanus II and Jewish privileges. The historical framework is documented, although scholars assess the authenticity and transmission of individual decree texts separately. Caesar is the earlier, written-about figure. [Josephus, *Jewish Antiquities* 14.8–10](https://penelope.uchicago.edu/josephus/ant-14.html)
+
+### Publius Vergilius Maro
+
+- **[T1+] Documented fact:** Virgil wrote about the deceased Caesar within Augustan poetry. The *Georgics* invokes Caesar’s divinity and the civil-war era, while the *Aeneid* places the Julian Caesars within a prophetic genealogy extending from Troy. The poetic theology is documented as Virgil’s representation, not independent evidence for Caesar’s divine or Trojan ancestry. [Virgil, *Georgics* 3](https://classics.mit.edu/Virgil/georgics.3.iii.html), [Virgil, *Aeneid* 6](https://classics.mit.edu/Virgil/aeneid.6.vi.html)
+
+### Dante Alighieri
+
+- **[T1+] Documented fact:** Dante incorporated Caesar into the *Divine Comedy*: *Inferno* 4 places the armed, “falcon-eyed” Caesar among the virtuous pagans in Limbo, while *Inferno* 34 makes Brutus and Cassius’ killing of Caesar an archetypal betrayal. Caesar is the earlier, written-about figure; Dante’s placement expresses medieval poetic and political theology, not historical testimony about Caesar’s afterlife. [Dante, *Inferno*](https://arsenal.arch.ethz.ch/site/assets/files/6644/voluptas-oprnf2zjv5bnf2arhnf9-pdf.pdf), [Princeton Dante Project commentary](https://dante.princeton.edu/cgi-bin/dante/DispToynbeeByTitOrId.pl?INP_ID=212202)
+
+### Napoleon Bonaparte
+
+- **[T1+] Documented fact:** During his exile on Saint Helena, Napoleon dictated the *Précis des guerres de Jules César*, an extended strategic commentary on Caesar’s campaigns; it was published posthumously by Louis-Joseph Marchand in 1836. Caesar is the earlier, written-about figure. [Fondation Napoléon catalogue](https://www.napoleon.org/magazine/livres/precis-des-guerres-de-jules-cesar/)
+
+No further roster member was included merely because of shared geography, later comparison with Caesar, artistic depiction, an eponym such as the “Caesar cipher,” or unsupported legendary association; those circumstances alone do not satisfy the specified connection types.
+
 ## Sources
 
 https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius%2A.html

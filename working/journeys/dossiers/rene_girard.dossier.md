@@ -588,6 +588,96 @@ The most important posthumous reinterpretation is the **Thiel–Vance axis**. It
 | 2023 | Centenary year; Chantre's archival biography and Haven's Penguin anthology. |
 | 2024–2026 | Further posthumous interviews and archival collections published; political debate over Thiel/Vance appropriation intensifies. |
 
+## Atlas Connections
+
+### Abraham
+
+- **[T1-]** **Documented fact:** Girard interpreted Abraham’s interrupted sacrifice of Isaac as a biblical disclosure of the transition away from human sacrifice. The episode appears in *Things Hidden since the Foundation of the World* and later biblical conversations. [St Andrews Encyclopaedia of Theology](https://www.saet.ac.uk/Christianity/ReneGirardandMimeticTheory)
+
+### Albert Camus
+
+- **[T1-]** **Documented fact:** Girard published “Camus’s Stranger Retried” in *PMLA* in 1964, analyzing the narrative judgment and sacrificial dynamics surrounding Meursault. The essay received the MLA’s William Riley Parker Prize in 1965. [Internet Encyclopedia of Philosophy](https://iep.utm.edu/girard/)
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Girard repeatedly situated his account of mimesis against Aristotle’s treatment of imitation and tragedy, especially in *Violence and the Sacred* and *Things Hidden since the Foundation of the World*. Aristotle was a conceptual predecessor, not a person Girard claimed to have superseded in every respect. [Internet Encyclopedia of Philosophy](https://iep.utm.edu/girard/)
+
+### Claude Lévi-Strauss
+
+- **[T3]** **Documented fact:** Girard engaged extensively and critically with Lévi-Strauss’s books on myth, kinship, structuralism, and sacrifice. Girard called Lévi-Strauss, “without knowing it,” his anthropology teacher, while emphasizing their disagreements; *Violence and the Sacred* includes a sustained section on Lévi-Strauss, structuralism, and marriage rules. This supports one-sided written engagement, not a documented friendship. [Association Recherches Mimétiques bibliography](https://old.rene-girard.fr/57_p_44437/bibliographie.html)
+
+### Friedrich Nietzsche
+
+- **[T1-]** **Documented fact:** Girard wrote repeatedly about Nietzsche’s opposition to Christianity, including “Nietzsche versus the Crucified,” “Dionysus versus the Crucified,” and the Nietzsche sections of *I See Satan Fall Like Lightning* and *Battling to the End*. Girard treated Nietzsche as an unusually perceptive witness to Christianity’s defense of victims while rejecting his anti-Christian conclusion. [Association Recherches Mimétiques bibliography](https://old.rene-girard.fr/57_p_44437/bibliographie.html)
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-]** **Documented fact:** Girard discussed and criticized Hegel’s account of desire, recognition, historical reconciliation, and the end of history, most extensively in *Achever Clausewitz* (2007). He acknowledged the Hegelian intellectual climate surrounding his first book but denied that mimetic theory was simply a derivative of Kojève’s Hegel. [Association Recherches Mimétiques](https://old.rene-girard.fr/offres/gestion/events_57_dd_oui-1/.html)
+
+### Gustave Flaubert
+
+- **[T1-]** **Documented fact:** *Mensonge romantique et vérité romanesque* (1961; English, *Deceit, Desire and the Novel*, 1965) reads Flaubert’s *Madame Bovary* as a principal example of mediated desire: Emma learns what to desire through prestigious literary and social models. [Internet Encyclopedia of Philosophy](https://iep.utm.edu/girard/)
+
+### Igor Stravinsky
+
+- **[T1-]** **Documented fact:** Girard discussed Stravinsky near the conclusion of the filmed 2007 Centre Pompidou conversation *Le Sens de l’histoire*, subsequently presented with *La Conversion de l’art*. The evidence supports intellectual treatment, not personal acquaintance. [Association Recherches Mimétiques](https://old.rene-girard.fr/offres/gestion/events_57_oui-1/evenements-rene-girard-association-recherches-mimetiques.htmlhttp%3A/www.rene-girard.fr/offres/gestion/events_57_oui-1/evenements-rene-girard-association-recherches-mimetiques.html)
+
+### Jacques Derrida
+
+- **[T4]** **Documented fact:** Girard and Derrida were present at Johns Hopkins University in Baltimore for “The Languages of Criticism and the Sciences of Man,” 18–21 October 1966. Girard was a co-organizer; Derrida delivered “Structure, Sign, and Play in the Discourse of the Human Sciences.” Their shared conference is documented, but the evidence cited here does not establish friendship or sustained correspondence. [Johns Hopkins University](https://hub.jhu.edu/2018/08/08/rene-girard-evolution-desire/)
+
+### Jacques Lacan
+
+- **[T4]** **Documented fact:** Lacan participated in the October 1966 Johns Hopkins conference co-organized by Girard. The event put them in the same institutional setting, but no close personal relationship or sustained exchange should be inferred from conference attendance alone. [Association Recherches Mimétiques biography](https://www.rene-girard.fr/biographie-de-rene-girard)
+
+### Jean-Paul Sartre
+
+- **[T3]** **Documented fact:** Girard closely read and published criticism of Sartre during his early American career. He later described Sartre as a formative interest rather than a lasting theoretical master. This is documented one-sided intellectual engagement; no personal meeting is established by the sources cited here. [Internet Encyclopedia of Philosophy](https://iep.utm.edu/girard/)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Jesus and the Passion are central to Girard’s mature anthropology. In *Things Hidden since the Foundation of the World*, *I See Satan Fall Like Lightning*, and related essays, Girard argued that the Gospels expose the persecuting crowd’s scapegoat mechanism and affirm the victim’s innocence. This is Girard’s theological and anthropological interpretation, not independently verified history of the Passion. [St Andrews Encyclopaedia of Theology](https://www.saet.ac.uk/Christianity/ReneGirardandMimeticTheory)
+
+### Marcel Proust
+
+- **[T1-]** **Documented fact:** Proust was one of Girard’s principal literary witnesses to mimetic desire and “novelistic conversion” in *Deceit, Desire and the Novel*. Girard also edited *Proust: A Collection of Critical Essays* and published further studies contrasting Proust with Freud. [Association Recherches Mimétiques](https://old.rene-girard.fr/offres/gestion/actus_57-1/les-actualites-rene-girard-association-recherches-mimetiques.html)
+
+### Michel Foucault
+
+- **[T4]** **Reported fact:** Benoît Chantre’s archival biography describes Girard as an American intermediary for Foucault and other French thinkers and places both men within the network surrounding the 1966 Johns Hopkins conference. Foucault did not deliver one of the conference’s canonical published presentations, so this evidence supports shared milieu more securely than a personal meeting or correspondence. [Association Recherches Mimétiques biography](https://www.rene-girard.fr/biographie-de-rene-girard)
+
+### Miguel de Cervantes
+
+- **[T1-]** **Documented fact:** Cervantes’s *Don Quixote* supplies the opening paradigm of triangular desire in *Deceit, Desire and the Novel*: Don Quixote desires through the model of Amadís of Gaul. Girard treated Cervantes as one of the novelists who reveal that supposedly autonomous desire is mediated by another. [Internet Encyclopedia of Philosophy](https://iep.utm.edu/girard/)
+
+### Peter the Apostle
+
+- **[T1-]** **Documented fact:** Girard repeatedly analyzed Peter’s denial of Jesus as an example of mimetic contagion and surrender to collective pressure. The Académie française later assigned Girard the dictionary word *reniement*, explicitly resonant with Peter’s denial. [Internet Encyclopedia of Philosophy](https://iep.utm.edu/girard/), [Académie française](https://www.academie-francaise.fr/les-immortels/rene-girard)
+
+### Peter Thiel
+
+- **[T5]** **Documented fact:** Thiel encountered Girard while studying philosophy at Stanford in the late 1980s and later participated in direct Girardian discussions and a reading group. Public sources commonly call Thiel Girard’s student, although the precise undergraduate course and enrollment details remain publicly unverified.
+- **[T3]** **Documented fact:** Thiel publicly interpreted and applied Girard’s ideas to competition, technology, politics, and Christianity; Girard supplied a favorable blurb for Thiel and David Sacks’s *The Diversity Myth*. Their crossing therefore went beyond passive influence into reciprocal public intellectual engagement.
+- **[T5]** **Documented fact:** Imitatio was launched in 2008 from conversations among Girard, Thiel, and Robert Hamerton-Kelly, with Thiel becoming a major patron of Girardian research and publication. This establishes repeated personal collaboration, not Girard’s endorsement of all Thiel’s later political positions. [Imitatio](https://www.imitatio.org/about-imitatio), [Stanford Graduate School of Business](https://www.gsb.stanford.edu/faculty-research/case-studies/thiel-foundation-contrarian-philanthropy)
+
+### Roland Barthes
+
+- **[T4]** **Documented fact:** Barthes participated in the October 1966 Johns Hopkins conference co-organized by Girard. The two occupied the same conference milieu, but the available evidence does not by itself establish friendship or a durable correspondence. [Johns Hopkins University](https://hub.jhu.edu/2018/08/08/rene-girard-evolution-desire/)
+
+### Sigmund Freud
+
+- **[T1-]** **Documented fact:** Girard engaged Freud throughout *Violence and the Sacred*, particularly *Totem and Taboo*, the Oedipus complex, parricide, incest prohibitions, and the primal horde. He credited Freud with approaching collective founding violence but argued that Freudian theory failed to recognize mimetic rivalry and the surrogate-victim mechanism. [Association Recherches Mimétiques bibliography](https://old.rene-girard.fr/57_p_44437/bibliographie.html)
+
+### Vaslav Nijinsky
+
+- **[T1-]** **Documented fact:** Girard discussed Nijinsky in the closing movement of the filmed 2007 conversation *Le Sens de l’histoire*, alongside Proust and Stravinsky. No documentary evidence cited here indicates that Girard and Nijinsky ever met; Nijinsky died when Girard was twenty-six. [Association Recherches Mimétiques](https://old.rene-girard.fr/offres/gestion/events_57_oui-1/evenements-rene-girard-association-recherches-mimetiques.htmlhttp%3A/www.rene-girard.fr/offres/gestion/events_57_oui-1/evenements-rene-girard-association-recherches-mimetiques.html)
+
+### Richard Wagner
+
+- **[T1-]** **Documented fact:** Girard treated Wagner together with Nietzsche in essays collected in *La Conversion de l’art*, including material on the “strategies of madness.” Wagner also figures in Girard’s late retrospective discussion of rivalry, culture, and European history. [Association Recherches Mimétiques](https://old.rene-girard.fr/offres/gestion/actus_57-1/les-actualites-rene-girard-association-recherches-mimetiques.html)
+
+No T2 prophecy/hyperstition or T9 shared-object transmission meeting the stated evidentiary threshold was found among the documented roster crossings above. Mere thematic resemblance, common institutional affiliation at different dates, or later use of Girard by other roster members has not been counted.
+
 ## Sources
 
 https://www.academie-francaise.fr/les-immortels/rene-girard

@@ -435,6 +435,20 @@ The cult was civic as well as Franciscan: bequests appear from the year of death
 - The miracle collections are evidence for testimony, practice, and reputation, not laboratory proof of supernatural causation.
 - No evidence was found for personal business structures, romantic relationships, descendants, imprisonment, criminal proceedings, or political office.
 
+## Atlas Connections
+
+### Adam
+
+- **[T1-] Documented textual fact:** In the *Relatio*, Odoric recounts the Ceylon/Sri Lanka tradition that Adam mourned Abel for five hundred years on a mountain and that the tears of Adam and Eve formed a fountain. Odoric questions the fountain explanation while still transmitting the Adam narrative ([Yule–Cordier edition](https://archive.org/details/cathaywaythither02yule); [historical survey of Adam’s Peak](https://upload.wikimedia.org/wikipedia/commons/d/d2/Adam%27s_Peak_-_legendary%2C_traditional%2C_and_historic_notices_of_the_Samanala_and_Sr%C3%AD-P%C3%A1da_-_with_a_descriptive_account_of_the_pilgrims%27_route_from_Colombo_to_the_Sacred_Foot-Print_%28IA_cu31924012567057%29.pdf)).
+
+### Noah
+
+- **[T1-] Documented textual fact:** While crossing Armenia or the adjoining highlands, Odoric writes about the mountain on which Noah’s Ark was said to rest. He wished to ascend it, but local people reportedly told him that nobody could reach the summit. The passage documents Odoric’s transmission of a Noah/Ark tradition, not the historical presence of the Ark ([Yule–Cordier edition](https://archive.org/details/cathaywaythither02yule)).
+
+### Saint Anthony of Padua
+
+- **[T9-] Documented fact:** In May 1330 Odoric dictated the *Relatio* to William of Solagna at the Franciscan “place of Saint Anthony” in Padua. This belonged to the religious complex that developed from Anthony’s dwelling and the adjacent convent founded around 1229; Anthony’s tomb and the basilica erected over it made the site his principal shrine. Anthony died in 1231, approximately a century before Odoric used the complex, so this is a successive shared-site connection rather than a meeting ([Odoric’s colophon and site history](https://www.odorichus.it/index.php/beato-odorico/viaggio); [Basilica friary history](https://basilicadelsanto.it/en/ba-category-archive/friary-and-novitiate-cloister); [Comune di Padova](https://www.comune.padova.it/luogo/basilica-di-santantonio)).
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/odorico-da-pordenone_(Dizionario-Biografico)/

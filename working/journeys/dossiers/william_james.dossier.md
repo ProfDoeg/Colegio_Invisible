@@ -560,6 +560,73 @@ Honors and memorials include the William James Hall at Harvard, APA historical c
 - Exact wording of informal statements to Freud and others varies among recollections.
 - A genuinely exhaustive item-level bibliography of every review, letter, short notice, and speech would require the McDermott bibliography, Harvard *Works*, and twelve-volume *Correspondence* as a separate database. The list above covers all books and major essays, reports, and posthumous collections central to the corpus.
 
+## Atlas Connections
+
+### Charles Darwin
+
+- **[T1-]** **Documented fact:** James repeatedly engaged Darwin’s evolutionary theory, from “Great Men, Great Thoughts, and the Environment” (1880) through *The Principles of Psychology* (1890) and *The Varieties of Religious Experience* (1902). Natural selection informed his accounts of mental variation, selection, adaptation, and the contingency of religious and intellectual development. This was a textual-intellectual crossing; no personal meeting or correspondence has been established. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/james/), [*The Varieties of Religious Experience*](https://www.gutenberg.org/files/621/621-h/621-h.html)
+
+### Emanuel Swedenborg
+
+- **[T1-]** **Documented fact:** James wrote about Swedenborgian religious experience and inherited unusually close access to Swedenborg’s thought through his father, Henry James Sr., a prominent Swedenborgian religious writer. William did not become a doctrinal Swedenborgian, but Swedenborg formed part of the experiential and mystical religion against which James developed his own psychology of religion. The connection is intellectual and familial rather than a possible personal encounter: Swedenborg died in 1772. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/james/), [*The Varieties of Religious Experience*](https://www.gutenberg.org/files/621/621-h/621-h.html)
+
+### Immanuel Kant
+
+- **[T1-]** **Documented fact:** James read Kant during his formative years and repeatedly discussed Kantian categories, the transcendental ego, rationalism, and the limits of conceptual thought. *The Varieties of Religious Experience* explicitly treats Kant’s depersonalization of the transcendental ego, while James’s later pluralism and radical empiricism were partly constructed against post-Kantian intellectualism. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/james/), [*The Varieties of Religious Experience*](https://www.gutenberg.org/files/621/621-h/621-h.html)
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-]** **Documented fact:** James wrote extensively and critically about Hegel and the Hegelian tradition. His lectures and essays—including “Hegel and His Method” and *A Pluralistic Universe*—opposed absolute idealism’s claim to encompass reality within an all-inclusive rational system. His criticism was nevertheless sustained engagement, not casual name-checking. [University of Chicago Press contents for *The Writings of William James*](https://press.uchicago.edu/ucp/books/book/chicago/W/bo3629274.html), [*The Varieties of Religious Experience*](https://www.gutenberg.org/files/621/621-h/621-h.html)
+
+### Friedrich Nietzsche
+
+- **[T1-]** **Documented fact:** In *The Varieties of Religious Experience* (1902), James directly presented Nietzsche as the most hostile critic of saintliness and examined Nietzsche’s portrayal of saints, pity, sickness, and degeneration. James used that position as a foil for his own pragmatic evaluation of saintly conduct by its consequences. [*The Varieties of Religious Experience*](https://www.gutenberg.org/files/621/621-h/621-h.html)
+
+### Martin Luther
+
+- **[T1-]** **Documented fact:** James treated Luther’s crisis, justification by faith, and assurance of salvation as major historical evidence in his lectures on conversion and the “sick soul.” In *The Varieties of Religious Experience* he interpreted Luther’s testimony psychologically while also arguing that it spoke directly to profound structures of religious despair and release. [*The Varieties of Religious Experience*](https://www.gutenberg.org/files/621/621-h/621-h.html)
+
+### Saint Augustine of Hippo
+
+- **[T1-]** **Documented fact:** James cited and interpreted Augustine in *The Varieties of Religious Experience*, using Augustine’s writings and sayings in his analysis of conversion, love, inclination, and saintliness. The connection is entirely textual; Augustine died more than fourteen centuries before James’s birth. [*The Varieties of Religious Experience*](https://www.gutenberg.org/files/621/621-h/621-h.html)
+
+### Saint Francis of Assisi
+
+- **[T1-]** **Documented fact:** James presented Francis as a conspicuous historical embodiment of saintliness, voluntary poverty, charity, and withdrawal from ordinary social life. Francis appears in *The Varieties of Religious Experience* as evidence in James’s comparative psychological assessment of saintly conduct. [*The Varieties of Religious Experience*](https://www.gutenberg.org/files/621/621-h/621-h.html)
+
+### Paul the Apostle
+
+- **[T1-]** **Documented fact:** James discussed Paul’s conversion and his teaching on the potential sacredness and redemption of every person while tracing the psychological and social consequences of Christian saintliness. This is documented textual engagement in *The Varieties of Religious Experience*, not a claim of historical proximity. [*The Varieties of Religious Experience*](https://www.gutenberg.org/files/621/621-h/621-h.html)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** James wrote about Jesus and Christ-centered conversion throughout *The Varieties of Religious Experience*, particularly when analyzing self-surrender, salvation, solitude, nonresistance, and the historical models adopted by Christian saints. His subject was the experiential and psychological operation of these beliefs rather than a historical biography of Jesus. [*The Varieties of Religious Experience*](https://www.gutenberg.org/files/621/621-h/621-h.html)
+
+### John Dewey
+
+- **[T3]** **Documented fact:** James and Dewey exchanged numerous letters concerning philosophical publications, colleagues, pragmatism, and their developing accounts of experience. A surviving March 1903 letter from Dewey answers James’s favorable assessment of work emerging from the Chicago group. [Center for Dewey Studies](https://deweycenter.siu.edu/center-information/letters/james-correspondence.php), [March 1903 letter](https://brocku.ca/MeadProject/Dewey/Dewey_1903d.html)
+- **[T5]** **Documented fact:** Dewey and James were personally acquainted and regarded one another as friends as well as philosophical allies. The relationship joined the Harvard and Chicago currents of American pragmatism, although Dewey developed a distinct social and instrumental philosophy rather than merely adopting James’s views. [Center for Dewey Studies](https://deweycenter.siu.edu/center-information/letters/james-correspondence.php), [Oxford Handbook of Dewey](https://academic.oup.com/edited-volume/27955/chapter-abstract/211546099)
+
+### Henri Bergson
+
+- **[T3]** **Documented fact:** James initiated correspondence with Bergson in December 1902, and their surviving letters continue into James’s final years. James discussed Bergson’s work publicly, especially his critique of intellectualism, and helped introduce it to Anglophone readers; Bergson reciprocally engaged James’s pragmatism. [Ralph Barton Perry, *The Thought and Character of William James*](https://www.jstor.org/stable/j.ctv176kv92), [University of Chicago Press contents](https://press.uchicago.edu/ucp/books/book/chicago/W/bo3629274.html)
+- **[T5]** **Documented fact:** James and Bergson became personal friends and met face-to-face by 1908, when Bergson visited James in London. Some secondary accounts place an earlier encounter around the 1905 Rome psychology congress, but the safely documented personal meeting is the London visit. [Stanford Encyclopedia of Philosophy: Bergson](https://plato.stanford.edu/entries/bergson/), [study of the James–Bergson correspondence](https://kar.kent.ac.uk/87958/1/184N_Graham_PhD_Thesis_For_Submission.pdf)
+
+### Swami Vivekananda
+
+- **[T3]** **Documented fact:** James heard Vivekananda lecture on Vedanta before the Harvard Graduate Philosophical Society on 25 March 1896 and subsequently referred to Hindu visitors, meditative discipline, and Vedantic ideas in his teaching and writings. Hearing the lecture qualifies independently as discourse under the atlas definition. [William James Studies](https://williamjamesstudies.org/wp-content/uploads/2024/10/WJS-F24-FULL-ISSUE-2.pdf)
+- **[T5]** **Documented fact:** James personally received Vivekananda at the James family home, 95 Irving Street, Cambridge, for lunch on 29 March 1896. William James Jr. later recalled escorting the robed Vivekananda from Sara Bull’s house and remembered the sustained interest between the two men at the meal. [Ramakrishna Vedanta Society’s documented Cambridge tour](https://vedantasociety.net/cambridge), [William James Studies](https://williamjamesstudies.org/wp-content/uploads/2024/10/WJS-F24-FULL-ISSUE-2.pdf)
+
+### Sigmund Freud
+
+- **[T5]** **Documented fact:** James met Freud during Clark University’s twentieth-anniversary conference in Worcester, Massachusetts, in September 1909 and attended the presentation of psychoanalysis. A contemporary group photograph places both men at the conference. Later accounts report James expressing qualified admiration while privately regarding Freud as doctrinally fixed; the meeting is documented, while exact conversational wording is reported fact rather than a transcript. [Library of Congress photograph record](https://www.loc.gov/item/96509965/), [Clark University 1909 conference collection](https://commons.clarku.edu/conferencematerials1909/)
+
+### Carl Gustav Jung
+
+- **[T5]** **Documented fact:** James met Jung at the same Clark University conference in Worcester in September 1909. The contemporary group photograph documents their shared presence, and the encounter occurred amid presentations and discussions involving Freud, Jung, James, G. Stanley Hall, and other psychologists. Claims of a deep friendship go beyond the evidence, but the personal meeting is secure. [Library of Congress photograph record](https://www.loc.gov/item/96509965/), [Clark University 1909 conference collection](https://commons.clarku.edu/conferencematerials1909/)
+
+No supported T2 prophecy/hyperstition or T9 shared-object transmission was identified between James and the roster. Mere overlap in period, city, institutional affiliation, reform politics, or later intellectual influence has not been counted without evidence of the specified crossing.
+
 ## Sources
 
 https://plato.stanford.edu/entries/james/

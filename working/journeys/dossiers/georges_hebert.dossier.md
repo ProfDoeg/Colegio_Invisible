@@ -510,6 +510,14 @@ MovNat and independent Natural Method groups revived outdoor locomotion, barefoo
 - Exact wartime/postwar political affiliations, if any, require private correspondence and police/administrative archives.
 - Reported cause of death requires the Tourgéville civil death record.
 
+## Atlas Connections
+
+### Auguste Rodin
+
+- **[T3]** **Documented fact:** Rodin signed the public manifesto supporting the proposed French *Collège d’Athlètes*. Contemporary reporting published on 29 March 1913 announced that Georges Hébert would direct the institution and listed Rodin among the manifesto’s signatories. At the associated International Congress of Physical Education in Paris, Hébert’s pupils demonstrated his method while Rodin’s sculptures appeared in the exhibition. This establishes one-sided public support and participation in the same institutional campaign, but not a personal meeting or friendship. ([*L’Illustration*, 29 March 1913](https://readingroo.ms/3/7/8/7/37874/37874-h/37874-h.htm))
+
+No qualifying connection was established with any other roster member. In particular, the evidence supports intellectual influence or indirect lineage—but none of the specified connection types—for Jean-Jacques Rousseau, Arnold Rikli, Joseph Pilates, Elsa Gindler, and David Belle; no direct personal transmission or encounter with Hébert is documented.
+
 ## Sources
 
 https://archive.org/details/b2808004x

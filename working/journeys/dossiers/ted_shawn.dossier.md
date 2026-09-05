@@ -432,6 +432,58 @@ Honors included the **Capezio Dance Award (1957)**, Danish knighthood in 1957 fo
 - A definitive choreography catalogue needs work-by-work reconciliation of titles, revisions, collaborators, scores, programs, films, and later reconstructions.
 - “First,” “father,” and exact touring totals are publicity-shaped claims and should be used with defined scope.
 
+## Atlas Connections
+
+### François Delsarte
+
+- **[T1-] Documented fact:** Shawn wrote *Every Little Movement: A Book about François Delsarte* (1954), an extended historical and theoretical account of Delsarte, his system of expression, and its influence on American dance. Shawn’s archive preserves the working and revised typescripts, research notes, lectures, and collected Delsarte material. [NYPL finding aid](https://archives.nypl.org/dan/19667); [WorldCat bibliographic record](https://search.worldcat.org/title/Every-little-movement-%3A-a-book-about-Francois-Delsarte-the-man-and-his-philosophy-his-science-and-applied-aesthetics-the-application-of-this-science-to-the-art-of-the-dance-the-influence-of-Delsarte-on-American-dance/oclc/1573517)
+
+### Geneviève Stebbins
+
+- **[T1-] Documented fact:** Shawn discussed Stebbins as a major American transmitter of Delsarte’s ideas in *Every Little Movement* (1954). The NYPL describes his Delsarte research files as containing material by and about Delsartean teachers, while the book’s indexed contents explicitly include Stebbins and her “Harmonic Gymnastics.” [NYPL finding aid](https://archives.nypl.org/dan/19667); [bibliographic preview](https://books.google.com/books/about/Every_Little_Movement.html?id=AA6xbGWvgScC)
+
+### Isadora Duncan
+
+- **[T1-] Documented fact:** Shawn treated Duncan in *Every Little Movement* as part of the history of Delsarte’s influence upon American dance. This is a written historical engagement, not evidence that Shawn and Duncan personally met. [Bibliographic preview and contents](https://books.google.com/books/about/Every_Little_Movement.html?id=AA6xbGWvgScC)
+
+### Ruth St. Denis
+
+- **[T1-] Documented fact:** Shawn authored *Ruth St. Denis: Pioneer and Prophet; Being a History of Her Cycle of Oriental Dances* (1920), making St. Denis the subject of a full-length biographical and interpretive work.
+- **[T5] Documented fact:** Shawn met St. Denis in 1914, married her on 13 August that year, performed with her, and co-founded and jointly operated Denishawn. Although their marital and professional partnership fractured in the early 1930s, they remained legally married and later performed together again. [Jacob’s Pillow biography](https://www.jacobspillow.org/profiles/ted-shawn/); [NYPL Shawn collection](https://archives.nypl.org/dan/19667)
+- **[T3] Documented fact:** Their relationship generated extensive written engagement—business and personal correspondence, writings about one another, and records of their joint institution—preserved across the Shawn, St. Denis, and Denishawn archival collections. [NYPL Shawn papers](https://archives.nypl.org/dan/19674); [UCLA St. Denis and Ted Shawn papers](https://oac.cdlib.org/findaid/ark:/13030/kt1g50167c)
+
+### Martha Graham
+
+- **[T5] Documented fact:** Graham entered the Denishawn School in Los Angeles in 1916 and worked directly under Shawn and St. Denis. Shawn promoted her as a leading performer, created roles for her—including *Xochitl* (1920)—and partnered her in works such as *Malagueña* (photographed in 1922). Graham toured with Denishawn during 1921–23. [Jacob’s Pillow historical account](https://www.jacobspillow.org/blog/tracing-a-legacy-martha-grahams-century-long-journey-to-jacobs-pillow/)
+
+### Doris Humphrey
+
+- **[T5] Documented fact:** Humphrey studied and performed within Denishawn and therefore worked personally with Shawn before leaving with Charles Weidman to establish an independent company in 1928. Humphrey later assisted Shawn’s Delsarte research by helping him obtain source material for *Every Little Movement*. [NYPL Doris Humphrey collection](https://archives.nypl.org/dan/19673); [NYPL Shawn collection](https://archives.nypl.org/dan/19667)
+
+### Joseph Pilates
+
+- **[T3] Documented fact:** The Ted Shawn Papers contain correspondence with Joseph Pilates. The finding-aid evidence establishes a written exchange, although the individual letters must be examined before attributing particular statements or subjects to it. [NYPL Ted Shawn Papers](https://archives.nypl.org/dan/19674)
+- **[T5] Documented fact:** Pilates visited Jacob’s Pillow in 1943, demonstrated and taught his conditioning system, and worked with Shawn and Pillow dancers. Photographs document Shawn and Pilates together and Shawn using Pilates apparatus; the evidence supports a personal and professional association, but not claims that they jointly invented Contrology. [Jacob’s Pillow history](https://www.jacobspillow.org/about/the-history-of-jacobs-pillow/); [Jacob’s Pillow archival overview](https://www.jacobspillow.org/visit/archives/)
+
+### José Limón
+
+- **[T3] Documented fact:** Limón’s papers preserve letters from Ted Shawn dated 1947 and 1948, directly documenting written contact between them. [NYPL José Limón papers](https://archives.nypl.org/dan/19669)
+- **[T4] Documented fact:** Limón performed at Shawn-directed Jacob’s Pillow in 1946, 1950, 1951, 1952, and 1953; a 1948 film also records him on the Ted Shawn Theatre stage. These engagements establish repeated presence within Shawn’s festival milieu during Shawn’s lifetime, independently of what the surviving letters contain. [Jacob’s Pillow past-performers chronology](https://www.jacobspillow.org/about/past-performers/); [Limón Dance Company program](https://www.jacobspillow.org/wp-content/uploads/2018/08/FINAL_LimonDanceCompany_Program.pdf)
+
+### Merce Cunningham
+
+- **[T4] Documented fact:** Cunningham appeared at Jacob’s Pillow while Shawn was its active director; Jacob’s Pillow identifies Cunningham among the artists whose premieres Shawn orchestrated. This establishes a direct Shawn-controlled institutional milieu, but the consulted public evidence does not by itself prove a private friendship. [Jacob’s Pillow biography of Shawn](https://www.jacobspillow.org/profiles/ted-shawn/)
+
+### John Cage
+
+- **[T4] Documented fact:** The Merce Cunningham Dance Company appeared with Cage at Jacob’s Pillow in 1950, during Shawn’s directorship. This documents their presence at Shawn’s institution in the same season, but no separate Shawn–Cage correspondence or friendship was established in the consulted sources. [Jacob’s Pillow past-performers chronology](https://www.jacobspillow.org/about/past-performers/)
+
+### Francis of Assisi
+
+- **[T1-] Documented fact:** Shawn created *O Brother Sun and Sister Moon (A Study of St. Francis)* in 1931, initially as a solo for himself, explicitly portraying Francis’s life and ideals. Barton Mumaw subsequently became closely associated with the work. [Jacob’s Pillow Dance Interactive](https://danceinteractive.jacobspillow.org/barton-mumaw/o-brother-sun-sister-moon/)
+
+No adequately documented crossing was established for the remaining roster members. Shared themes, historical references, overlapping lifetimes, later appearances in the Ted Shawn Theatre, or general membership in the same artistic tradition were not counted without evidence of one of the specified connection types.
+
 ## Sources
 
 https://academic.oup.com/book/34993/chapter/298678150

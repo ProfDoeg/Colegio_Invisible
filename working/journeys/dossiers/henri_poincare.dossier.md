@@ -556,6 +556,50 @@ The **Institut Henri Poincaré** was founded in Paris in 1928 under Émile Borel
 - Many character anecdotes come through memorial literature or Toulouse’s experimental portrait and require source-sensitive treatment.
 - The relativity priority dispute cannot be resolved by chronology alone; no currently cited primary document proves Einstein’s pre-submission access to Poincaré’s June 1905 note.
 
+## Atlas Connections
+
+### Arthur Cayley
+
+- **[T3] Documented fact:** Cayley sent Poincaré at least six surviving letters between 12 October 1883 and 12 January 1892, discussing and acknowledging Poincaré’s papers and books, including his work on Maxwell’s theory and thermodynamics. The surviving correspondence runs principally from Cambridge to Paris. [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/en/corresphp/?a=on&action=go&fn=Arthur&ln=Cayley)
+
+### Captain Alfred Dreyfus
+
+- **[T3] Documented fact:** Poincaré intervened in writing on Dreyfus’s behalf: his criticism of Alphonse Bertillon’s probabilistic claims was read at the Rennes retrial in 1899, and in 1904 he joined Gaston Darboux and Paul Appell in a formal report exposing the mathematical defects in the evidence used against Dreyfus. This was documented one-sided written engagement with Dreyfus’s case, not evidence of friendship or a personal meeting. [Collected Dreyfus materials](https://webhomes.maths.ed.ac.uk/~v1ranick/dreyfus.htm), [English translation of the 1904 report](https://webhomes.maths.ed.ac.uk/~v1ranick/dreyfus/dreyfusenglish.pdf)
+
+### Albert Einstein
+
+- **[T5] Documented fact:** Poincaré and Einstein personally encountered and exchanged views at the first Solvay Conference in Brussels, 29 October–4 November 1911. The critical edition of Poincaré’s papers states that Poincaré had the opportunity there to observe Einstein closely and converse with him. [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/chp/text/weiss-1911-11-00.html)
+- **[T3] Documented fact:** Around late November 1911, Poincaré supplied Pierre Weiss with a written assessment supporting Einstein for a chair at the ETH Zürich, describing him as exceptionally original while noting that some of his speculative directions might prove unsuccessful. The letter is direct evidence of Poincaré writing about Einstein after their Solvay meeting; no surviving direct Poincaré–Einstein correspondence is established by this document. [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/chp/text/weiss-1911-11-00.html)
+
+### Felix Klein
+
+- **[T3] Documented fact:** Klein and Poincaré exchanged numerous letters, especially from 12 June 1881 through 22 September 1882, concerning automorphic functions and uniformization. Twenty-six letters from this early exchange survive in published editions. They later corresponded about international bibliographical and mathematical projects. [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/chp/text/klein.html)
+- **[T5] Documented fact:** Beyond correspondence, both participated in the August 1899 London meeting of the provisional committee for the *International Catalogue of Scientific Literature*. The resulting committee report lists Klein and Poincaré among its authors. [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/chp/text/klein.html)
+
+### James Clerk Maxwell
+
+- **[T1-] Documented fact:** Poincaré wrote extensively about the already-deceased Maxwell and his electromagnetic theory. His publications included *Électricité et optique: Les théories de Maxwell et la théorie électromagnétique de la lumière* (1890), *La théorie de Maxwell et les oscillations hertziennes* (1899), and the English compilation *Maxwell’s Theory and Wireless Telegraphy* (1904). This is an intellectual-literary connection only; Maxwell died in 1879 and no personal encounter is documented. [1899 text](https://henripoincarepapers.univ-lorraine.fr/chp/hp-pdf/hp1899tm.pdf), [1904 English text](https://henripoincarepapers.univ-nantes.fr/chp/hp-pdf/hp1904mt.pdf)
+
+### Marie Curie
+
+- **[T5] Documented fact:** Curie and Poincaré attended the first Solvay Conference in Brussels in late October and early November 1911. A surviving conference photograph held by the Musée Curie specifically identifies Poincaré, Curie, and Jean Perrin together, documenting their personal proximity at the meeting; the available evidence supports an encounter, but not a claim of close friendship. [Musée Curie](https://curiotheque.musee.curie.fr/s/en/item/15329)
+
+### Sir Isaac Newton
+
+- **[T1-] Documented fact:** Poincaré repeatedly analyzed Newton’s mechanics and concepts of absolute space and motion, most notably in *La science et l’hypothèse* (1902) and his 1909 lecture “La mécanique nouvelle.” His discussion was critical and historical rather than biographical, contrasting Newtonian mechanics with the emerging relativity principle. [*The Foundations of Science*](https://www.gutenberg.org/files/39713/39713-h/39713-h.htm), [“La mécanique nouvelle”](https://henripoincarepapers.univ-nantes.fr/chp/text/hp1909rs.html)
+
+### Sophus Lie
+
+- **[T5] Documented fact:** Poincaré and Lie first met in Paris in November 1882. Poincaré invited Lie to dinner at his apartment on 18 November; they met again at Camille Jordan’s home during Lie’s 1893 Paris visit and discussed mathematics during Poincaré’s visit to Leipzig in June 1895. [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/chp/text/lie.html)
+- **[T3] Documented fact:** Four surviving letters from Poincaré to Lie and seven from Lie to Poincaré record exchanges about transformation groups, geometry, minimal surfaces, and questions of priority. Poincaré also wrote the Académie des sciences’ 1892 report supporting Lie’s election as a correspondent. [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/chp/text/lie.html)
+
+### William Thomson, Lord Kelvin
+
+- **[T3] Documented fact:** Poincaré and Thomson maintained a substantial scientific correspondence: the edited archive identifies six outgoing letters from Poincaré and eleven from Thomson. Their exchanges from 1891 onward addressed periodic-motion stability, celestial mechanics, and, in 1901, the Earth’s precession and nutation. [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/chp/text/2intro.html), [Thomson–Poincaré correspondence overview](https://henripoincarepapers.univ-nantes.fr/chp/text/thomson.html)
+- **[T1-] Documented fact:** After Thomson’s death in 1907, Poincaré published the substantial memorial study “Lord Kelvin” in *La Lumière électrique* in 1908, discussing Kelvin’s life, thermodynamics, mechanical models, and scientific style. [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/chp/text/thomson.html), [digitized 1908 article](https://henripoincarepapers.univ-nantes.fr/chp/hp-pdf/hp1908le.pdf)
+
+No T2 prophecy/hyperstition or T9 shared-object transmission supported by the reviewed evidence was found among the roster counterparts above. Mere intellectual ancestry, later use of Poincaré’s mathematics, possession of an eponymous award, or attendance in the same broad cultural milieu has not been counted as a crossing.
+
 ## Sources
 
 https://www.academie-francaise.fr/les-immortels/henri-poincare

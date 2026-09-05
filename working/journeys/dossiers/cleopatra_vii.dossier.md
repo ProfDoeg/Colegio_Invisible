@@ -574,6 +574,38 @@ Cleopatra's defeat ended nearly three centuries of Ptolemaic rule and removed th
 | 2023 | Netflix's *Queen Cleopatra* renews public debate over ancestry and representation. |
 | 2025 | Taposiris Magna/submerged-harbor discoveries publicized; no tomb identification established. |
 
+## Atlas Connections
+
+### Cicero
+
+- **[T3]** **Documented fact:** While Cleopatra resided at Caesar’s gardens in Rome in 46–44 BCE, Cicero dealt with her court over promised scholarly materials and later described the queen’s *superbia* (“arrogance”) and her agent Ammonius in a contemporary letter to Atticus dated June 44 BCE. The surviving evidence establishes one-sided written engagement and direct dealings with her household, but does not securely document a private meeting between them. [Cicero, *Letters to Atticus* 15.15](https://www.attalus.org/cicero/atticus15.html)
+
+### Dante Alighieri
+
+- **[T1+]** **Documented fact (literary reception):** More than thirteen centuries after Cleopatra’s death, Dante placed her among the lustful in the second circle of Hell in *Inferno* V, composed in the early fourteenth century. His characterization belongs to the medieval moralizing tradition and is not independent historical evidence about her life. [Dante, *Inferno*, Canto V](https://www.gutenberg.org/files/1001/1001-h/1001-h.htm)
+
+### Flavius Josephus
+
+- **[T1+]** **Documented fact (later historiography containing allegations):** Writing in the late first century CE, Josephus discussed Cleopatra extensively in *Jewish Antiquities* XIV–XV and *Against Apion*, particularly her dealings with Herod, Antony’s territorial grants, and Judean and Arabian revenues. His reports derive substantially from Herodian traditions and include hostile allegations—such as Cleopatra attempting to seduce or entrap Herod—which are not independently established. [Josephus, *Jewish Antiquities* XV](https://penelope.uchicago.edu/josephus/ant-15.html)
+
+### Gaius Julius Caesar
+
+- **[T5]** **Documented fact:** Cleopatra met Caesar in Alexandria in late 48 BCE while he arbitrated the Ptolemaic succession. Their ensuing political and sexual relationship restored her to the throne after the Alexandrian War; she later lived at Caesar’s gardens in Rome in 46–44 BCE. Cleopatra publicly identified Caesar as the father of Caesarion, although the child’s biological paternity was disputed in Roman political discourse. Caesar’s placement of a gilded statue of Cleopatra in the Temple of Venus Genetrix further attests their public political association. [Plutarch, *Life of Caesar*](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar%2A.html), [Suetonius, *Divus Julius*](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius%2A.html)
+
+### Pliny the Elder
+
+- **[T1+]** **Documented fact (later literary report):** In *Natural History* 9.119–121, completed about 77 CE, Pliny made Cleopatra the protagonist of the famous pearl-banquet story, claiming that she dissolved and drank an extraordinarily valuable pearl during a wager with Antony. Pliny unquestionably wrote the account, but the incident itself is an uncorroborated luxury exemplum composed roughly a century after the alleged event. [Pliny, *Natural History* IX](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D9&force=y)
+
+### Strabo of Amaseia
+
+- **[T1+]** **Documented fact (near-contemporary later historiography):** Strabo, writing after Cleopatra’s death and after visiting Roman Egypt, summarized her exile, restoration by Caesar, alliance with Antony, defeat, and suicide in *Geography* XVII. He preserves two alternative mechanisms for her death—an asp bite or poisonous ointment—making his account evidence for early uncertainty rather than proof of either method. No personal meeting between Strabo and Cleopatra is documented. [Strabo, *Geography* XVII.1](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/17A2%2A.html)
+
+### Virgil
+
+- **[T1+]** **Documented fact (Augustan literary representation):** Virgil portrayed Cleopatra retrospectively in the Actium tableau on Aeneas’s shield in *Aeneid* VIII, written during the 20s BCE. He presents her as the unnamed Egyptian queen commanding foreign forces and gods against Augustus. This is documented Augustan victory poetry and political representation, not neutral testimony or evidence that Virgil personally encountered Cleopatra. [Virgil, *Aeneid* VIII](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0054%3Abook%3D8)
+
+No other roster member has a sufficiently supported direct meeting, written engagement, prophecy relationship, shared-object transmission, or qualifying proximity connection with Cleopatra VII. Dynastic descent from Alexander the Great’s successor, residence in Alexandria across different centuries, and later interest in Egypt or Cleopatra were not counted without evidence satisfying one of the specified connection types.
+
 ## Sources
 
 https://academic.oup.com/edited-volume/61673/chapter-abstract/548065820

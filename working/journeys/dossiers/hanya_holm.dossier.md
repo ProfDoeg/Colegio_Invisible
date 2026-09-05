@@ -517,6 +517,52 @@ The 2013 Cossitt Hall mural at Colorado College, film circulation, NYPL digitiza
 - Colorado College and Central City Opera programs can settle exact dates/credits for later opera work.
 - Full examination of Holm’s professional notebooks is needed for a complete catalogue of choreography and writings.
 
+## Atlas Connections
+
+### Anna Pavlova
+
+- **[T3]** **Reported fact:** Holm identified seeing Pavlova dance as an early inspiration, although the accessible biographical record does not identify the performance, date, or venue. The NYPL finding aid confirms Pavlova’s formative importance but supplies no event-level documentation. [NYPL Hanya Holm Papers](https://archives.nypl.org/dan/19791)
+
+### Mary Wigman
+
+- **[T3]** **Documented fact:** Holm saw Wigman perform in Dresden in **1920 or 1921**—sources differ by one year—and consequently entered Wigman’s school. Their subsequent written engagement is preserved in extensive correspondence, principally Wigman’s letters to Holm dated **1920–1972**. [University of Washington](https://dance.washington.edu/people/hanya-holm), [NYPL Hanya Holm Papers](https://archives.nypl.org/dan/19791)
+- **[T5]** **Documented fact:** Wigman became Holm’s teacher, employer, company director, and enduring friend. Holm served at Wigman’s Dresden institution from **1921 to 1931**, later directed its New York branch, and organized celebrations for Wigman’s seventieth, seventy-fifth, and eightieth birthdays. NYPL describes their surviving letters as evidence of a steadfast, decades-long friendship. [NYPL Hanya Holm Papers](https://archives.nypl.org/dan/19791)
+- **[T1-]** **Documented fact:** Holm wrote repeatedly about the older Wigman, including “Mary Wigman” in *Dance Observer* (**1935**), the 1956 retrospective commonly catalogued as “Who Is Mary Wigman?” or “Wigman at 70,” and “The Mary Wigman I Know” in the 1966 revised edition of *The Dance Has Many Faces*. Holm also wrote to Walter Sorell about Wigman and Sorell’s projected Holm biography. [NYPL Letters to Walter Sorell](https://archives.nypl.org/dan/19665)
+
+### Martha Graham
+
+- **[T4]** **Documented fact:** Graham and Holm belonged to the same Bennington School of the Dance faculty beginning in **1934**. The four principal teachers—including Graham, Holm, Doris Humphrey, and Charles Weidman—overlapped during the **1935** session and again participated in the school’s **1939 Mills College** session in Oakland. This establishes repeated institutional proximity, without by itself proving friendship. [American Dance Festival timeline](https://americandancefestival.org/wp-content/uploads/2022/02/7-ADF-Timeline.pdf), [Mills Quarterly](https://quarterly.mills.edu/dancing-with-destiny/)
+
+### Doris Humphrey
+
+- **[T4]** **Documented fact:** Humphrey and Holm served together in the Bennington School’s principal faculty group from **1934**; the ADF chronology specifically records the “Big Four” overlapping in **1935**. Both were also present at the school’s **1939 Mills College** session. No stronger personal relationship is established by these institutional records. [American Dance Festival timeline](https://americandancefestival.org/wp-content/uploads/2022/02/7-ADF-Timeline.pdf), [Mills Quarterly](https://quarterly.mills.edu/dancing-with-destiny/)
+
+### José Limón
+
+- **[T4]** **Documented fact:** Holm and Limón crossed at the **1937 Bennington School of the Dance** in Vermont. Limón was one of its first fellows and premiered *Danza de la Muerte* during the same session in which Holm premiered *Trend*. The evidence establishes a shared festival and working milieu, not a special teacher–student or intimate relationship. [American Dance Festival timeline](https://americandancefestival.org/wp-content/uploads/2022/02/7-ADF-Timeline.pdf)
+
+### Merce Cunningham
+
+- **[T5]** **Reported fact:** Cunningham attended the Bennington School’s summer session at **Mills College, Oakland, in 1939**. A documented regional history states that he met Holm there, alongside Graham, Humphrey, and Weidman; surviving film from the session also shows Holm teaching and Cunningham among the participating students. No evidence located makes Cunningham Holm’s formal protégé. [HistoryLink](https://www.historylink.org/file/9042), [Mills Quarterly](https://quarterly.mills.edu/dancing-with-destiny/)
+
+### John Cage
+
+- **[T4]** **Documented fact:** Cage and Holm were both present within the **1939 Mills College summer session** environment. Holm taught in the transplanted Bennington program, while Cage directed a concert of modern American percussion music at Lisser Hall for the session. The available sources establish same-session proximity but do not document a personal meeting or collaboration between them. [Mills Quarterly](https://quarterly.mills.edu/dancing-with-destiny/), [American Dance Festival timeline](https://americandancefestival.org/wp-content/uploads/2022/02/7-ADF-Timeline.pdf)
+
+### Vera Skoronel
+
+- **[T5]** **Documented fact:** Skoronel and Holm were fellow members of the early Wigman school milieu in **Dresden during the 1920s**. Specialist biographical documentation states that Holm came into contact with Skoronel there, while histories of the school identify both among its first generation of students. [Sächsische Biografie](https://saebi.isgv.de/biografie/Hanya_Holm_%281893-1992%29), [New German Dance Studies](https://www.jstor.org/stable/10.5406/j.ctt1xcmdx)
+
+### Igor Stravinsky
+
+- **[T9-]** **Documented fact:** Stravinsky originated the score of *L’Histoire du soldat* in **1917–1918**; Holm subsequently brought the work to the stage with pianist Paul Aron in **1929**, performing the Princess in the production, and returned to it in later staging work. The shared object is Stravinsky’s pre-existing theatrical composition; no personal meeting between composer and choreographer was located. [Sächsische Biografie](https://saebi.isgv.de/biografie/Hanya_Holm_%281893-1992%29), [Philharmonie de Paris](https://pad.philharmoniedeparis.fr/0745393-histoire-du-soldat-stravinski.aspx?_lg=fr-FR)
+
+### Erik Satie
+
+- **[T9-]** **Documented fact:** During Holm’s Dresden teaching period, pianist Paul Aron encouraged her to incorporate music by Satie and several other modern composers into her instruction. Satie’s compositions—not a documented personal encounter—are therefore the shared objects connecting the earlier composer with Holm’s later pedagogical practice; the accessible account does not identify particular pieces. [Sächsische Biografie](https://saebi.isgv.de/biografie/Hanya_Holm_%281893-1992%29)
+
+No adequately documented T2 prophecy/hyperstition connection was found. Other apparent roster affinities—such as shared modern-dance traditions, influence through Rudolf Laban’s ideas, or general contemporaneity with German and American dancers—were omitted where the evidence did not establish one of the specified connection types.
+
 ## Sources
 
 https://archives.nypl.org/dan/19791

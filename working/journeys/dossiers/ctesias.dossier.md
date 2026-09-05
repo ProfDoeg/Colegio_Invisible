@@ -564,6 +564,36 @@ His modern legacy is strongest in four areas: Achaemenid historiography, the gen
 - *Indica* material is often several stages removed: eastern informant → Persian/Aramaic mediation → Ctesias → later extractor → surviving manuscript.
 - Absence of family, financial, medical, and death information is real documentary absence, not evidence that such relationships or events did not exist.
 
+## Atlas Connections
+
+### Cyrus the Great
+
+- **[T1-] Documented fact:** Ctesias wrote an extensive account of the earlier Persian ruler Cyrus II (died ca. 530 BCE) in books 7–11 of the *Persica*, covering his overthrow of Astyages, wars in Bactria and Lydia, campaigns against the Sacae and Derbices, and death. The narrative was composed in the early fourth century BCE and survives principally through Photius’s epitome and later excerpts. Its genealogy and chronology often conflict with Herodotus and Near Eastern evidence. [Overview and fragment map](https://www.livius.org/sources/content/ctesias-overview-of-the-works/)
+
+### Herodotus of Halicarnassus
+
+- **[T3] Reported fact:** Ctesias engaged polemically with the earlier *Histories* of Herodotus (written in the fifth century BCE), disputing his Persian narrative and reportedly calling him a liar or fabricator. Photius also compared their Ionic or Ionic-colored styles. Because the *Persica* is lost, the wording and full extent of this literary opposition are known only through later testimony; no personal meeting is documented. [Encyclopaedia Iranica](https://www.iranicaonline.org/articles/ctesias/)
+
+### Xenophon
+
+- **[T3] Documented fact:** Xenophon explicitly cited “Ctesias the physician” in *Anabasis* 1.8.26, written after the Battle of Cunaxa (401 BCE), for the claim that Cyrus the Younger wounded Artaxerxes II through his cuirass and that Ctesias personally treated the wound. Their surviving accounts also differed over Cunaxa and the subsequent negotiations. This establishes written engagement with Ctesias’s testimony, but not a personal meeting or correspondence. [Greek text and passage](https://eulogikon.org/works/xenophon-athens-anabasis-ezq-am) [Modern source assessment](https://www.iranicaonline.org/articles/ctesias/)
+
+### Aristotle
+
+- **[T3] Documented fact:** Aristotle engaged directly with Ctesias’s *Indica* in the fourth century BCE. In *History of Animals* 2.1 (501a24–b1), he names Ctesias while reproducing the description of the Indian *martichoras*—the manticore—and introduces it conditionally, effectively “if Ctesias is to be believed.” Aristotle elsewhere used or questioned Ctesian zoological reports. This is textual reception, not evidence that the two men met. [Aristotle, *History of Animals* 2.1](https://classics.mit.edu/Aristotle/history_anim.2.ii.html)
+
+### Pliny the Elder
+
+- **[T3] Documented fact:** In Rome during the first century CE, Pliny incorporated Ctesian material into the *Natural History* and sometimes named him as its authority. At *Natural History* 7.23, for example, he attributes to Ctesias the population of more than 120,000 dog-headed Indians and reports further Ctesian claims about unusual Indian peoples and longevity. Whether every item came directly from a copy of Ctesias rather than through intermediaries is uncertain. [Pliny, *Natural History* 7.21–23](https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Pliny_the_Elder/7%2A.html)
+
+### Strabo of Amaseia
+
+- **[T3] Documented fact:** Strabo repeatedly engaged with Ctesias in the *Geography*, composed around the late first century BCE and early first century CE. He quoted geographical claims—such as Ctesias’s assertion that India was no smaller than the remainder of Asia—and criticized Ctesias, Herodotus, and similar writers as less credible than epic or tragic poets on some remote peoples. This is later critical reception without any possibility of personal contact. [Strabo, *Geography* 15.1.12](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/15A1%2A.html) [Strabo, *Geography* 11.6.3](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/11F%2A.html)
+
+### Claudius Aelianus
+
+- **[T3] Documented fact:** Aelian repeatedly named and excerpted Ctesias in *On the Nature of Animals*, written at Rome in the late second or early third century CE. Among other examples, he transmitted Ctesias’s assertions about Indian livestock and animals and repeated the claim that Ctesias had seen an Indian beast presented to the Persian king—while expressly questioning whether Ctesias was an adequate authority. The surviving evidence does not always reveal whether Aelian consulted Ctesias directly or through an intermediary compilation. [Aelian, *On Animals* 3](https://www.attalus.org/translate/animals3.html) [Aelian, *On Animals* 4](https://www.attalus.org/translate/animals4.html)
+
 ## Sources
 
 https://www.iranicaonline.org/articles/ctesias/

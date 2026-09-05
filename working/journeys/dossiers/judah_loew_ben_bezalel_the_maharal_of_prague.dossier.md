@@ -502,6 +502,66 @@ In contemporary technology discourse, the Golem is invoked as an ancestor of rob
 | 2009 | Jewish Museum/Prague Castle *Path of Life* exhibition and archival catalogue mark 400 years. | Firm. |
 | 2015–2023 | Reiner, Sládek, and collaborators revise biography, conflicts, genealogy, titles, and reception. | Current scholarly reassessment. |
 
+## Atlas Connections
+
+### Aaron the Levite
+
+- **[T1-]** **Documented fact:** Loew wrote extensively about the biblical Aaron, explicitly interpreting *Pirkei Avot* 1:12—“be of the disciples of Aaron”—in *Derekh Ḥayyim*. He presents Aaron’s priestly love and pursuit of peace as forces joining human beings and creation to divine unity. “Aaron the Levite” is therefore a textual connection, not evidence of a personal associate bearing that name. [Primary-text entry](https://www.sefaria.org/Pirkei_Avot.1.12?with=Commentary+ConnectionsList)
+
+### Abraham
+
+- **[T1-]** **Documented fact:** Loew repeatedly interpreted the biblical Abraham in *Gur Aryeh* and his theological works, treating his covenant, separation from idolatrous society, and distinctive spiritual quality as foundational to Israel’s formation. This is direct written engagement with the earlier figure, not a biographical encounter. [Example from *Gur Aryeh* on Genesis 13–14](https://www.sefaria.org/Gur_Aryeh_on_Bereishit.13.18.1)
+
+### Alexander the Great
+
+- **[T1-]** **Documented fact:** In *Ner Mitzvah*, Loew discusses Alexander within his interpretation of the Greek empire, drawing on rabbinic narratives about Alexander and the Jewish sages to explain Greece’s intellectual power and its place among the four kingdoms. The connection is literary-historical only. [*Ner Mitzvah*](https://www.sefaria.org/Ner_Mitzvah)
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Loew discusses and contests positions associated with Aristotle and the philosophers, particularly concerning creation, nature, causation, matter and form, and the limits of unaided reason. Aristotelian terminology enters Loew’s own metaphysical vocabulary, but no evidence establishes access to Aristotle as a person beyond transmitted texts and Jewish philosophical tradition. [Sefaria’s Maharal corpus](https://www.sefaria.org/topics/maharal)
+
+### Cyrus the Great
+
+- **[T1-]** **Documented fact:** Loew interprets Cyrus in *Or Ḥadash* while discussing the Persian monarchy, the return from Babylon, and the political setting of the Esther narrative. This is scriptural and rabbinic historiography, not a personal crossing. [*Or Ḥadash*](https://www.sefaria.org/Or_Chadash)
+
+### King David
+
+- **[T1-]** **Documented fact:** Loew wrote about David as king, psalmist, ancestor of the messianic monarchy, and embodiment of Israel’s divinely ordered sovereignty, especially in *Netzaḥ Yisra’el* and biblical exposition. Later claims that Loew himself descended from David are genealogical tradition rather than demonstrated history and do not create a separate T5 or T9 connection. [*Netzaḥ Yisrael*](https://www.sefaria.org/Netzach_Yisrael)
+
+### Maimonides
+
+- **[T1-]** **Documented fact:** Loew repeatedly engaged Maimonides’ *Mishneh Torah* and philosophical positions. He respected Maimonides’ stature but criticized reliance on a code detached from its Talmudic reasoning and rejected philosophical explanations that, in his view, reduced commandments or rabbinic teachings to merely instrumental or naturalistic purposes. This is substantial one-sided written engagement across roughly four centuries. [Sefaria’s Maharal corpus](https://www.sefaria.org/topics/maharal)
+
+### Moses
+
+- **[T1-]** **Documented fact:** Moses is a central subject throughout Loew’s corpus, most concentratedly in *Gevurot ha-Shem* and *Tif’eret Yisra’el*. Loew interprets his birth, prophetic rank, confrontation with Pharaoh, leadership of the Exodus, reception of Torah, and relation to Israel’s collective form. [*Gevurot Hashem*](https://www.sefaria.org/Gevurot_Hashem); [*Tiferet Yisrael*](https://www.sefaria.org/Tiferet_Yisrael)
+
+### Nebuchadnezzar II
+
+- **[T1-]** **Documented fact:** Loew discusses Nebuchadnezzar as the ruler associated with Babylon, destruction, and the first of the four kingdoms in his theology of exile and redemption, particularly in *Netzaḥ Yisra’el* and related commentary. [*Netzaḥ Yisrael*](https://www.sefaria.org/Netzach_Yisrael)
+
+### Noah
+
+- **[T1-]** **Documented fact:** In *Gur Aryeh* on Genesis, Loew interprets Noah, the Flood, the ark, and the postdiluvian covenant through sustained engagement with Rashi and rabbinic literature. [*Gur Aryeh* on Genesis](https://www.sefaria.org/Gur_Aryeh_on_Bereishit)
+
+### Rashi
+
+- **[T1-]** **Documented fact:** Loew’s *Gur Aryeh*, printed in Prague in 1578, is a full supercommentary written about Rashi’s Pentateuch commentary. It explains and frequently defends Rashi while also identifying difficulties and proposing independent resolutions. This is the roster’s clearest large-scale author-to-author textual crossing. [Example primary text](https://www.sefaria.org/Gur_Aryeh_on_Bereishit.1.1); [description confirming its focus on Rashi](https://www.sefaria.org/Derush_Chiddushei_HaLevanah.4.1.11)
+
+### King Solomon
+
+- **[T1-]** **Documented fact:** Loew interprets Solomon as king, sage, Temple builder, and attributed author of Proverbs and Ecclesiastes across his biblical and ethical writings. His treatment belongs to scriptural-rabbinic exegesis; it supplies no support for later occult claims linking Loew to “Solomonic” practical magic. [Sefaria’s Maharal corpus](https://www.sefaria.org/topics/maharal)
+
+### Johannes Kepler
+
+- **No qualifying connection:** Kepler and Loew inhabited overlapping Rudolfine-Prague intellectual worlds, and Loew’s pupil David Gans had documented astronomical contacts. No direct correspondence, meeting, one-sided written engagement, witnessed performance, or shared-object transmission between Loew and Kepler has been established; shared city and intermediary alone do not satisfy T3–T5 or T9.
+
+### Brothers Grimm
+
+- **No qualifying connection:** Jacob Grimm printed a placeless golem tradition in 1808, nearly two centuries after Loew’s death, but that account did not identify Loew as its maker. It therefore documents the later history of the golem motif, not a supported T1, T3, or T9 crossing with Loew. [“How the Golem Came to Prague”](https://www.jstor.org/stable/43298695)
+
+No documented T2 prophecy/hyperstition or T9 shared-object connection with any roster member was identified. Mere influence, later analogy, claimed descent, common geography, or participation in the broader Golem tradition has not been promoted to an atlas connection.
+
 ## Sources
 
 https://www.academia.edu/17803222/Judah_Loew_ben_Bezalel_called_Maharal_A_Study_on_His_Genealogy_and_Biography

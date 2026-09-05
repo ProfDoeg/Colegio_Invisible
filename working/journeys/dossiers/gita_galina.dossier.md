@@ -1531,6 +1531,14 @@ These could establish place and cause of death, survivors, and possibly children
 
 ---
 
+## Atlas Connections
+
+### Max Perelman
+
+- **[T5] Documented fact:** Galina and Max Perelman—also spelled Perlman or Perlmann—were spouses, long-term stage partners, recording collaborators, and co-founders of Israel’s Te’atron Komedya. Their documented crossings span their interwar European tours; joint arrival in Buenos Aires aboard the *Oceanía* on 7 June 1939; performances in Argentina, South Africa, Southern Rhodesia, London, Israel, New York, and Brazil; the 1963 Makolit recording *A Khusn mit Nadan*; and continued joint billing as late as 1973. Sources explicitly identifying the relationship and collaborations include the [UBA biographical dictionary](https://publicaciones.filo.uba.ar/sites/publicaciones.filo.uba.ar/files/Diccionario%20tomo%20I_interactivo_0.pdf), [National Library of Israel recording catalog](https://www.nli.org.il/en/items/NNL_MUSIC_AL997011549739105171/NLI), and [1964–65 *Good Luck* production record](https://ovrtur.com/production/2896593).
+
+No genuine documented crossing with another atlas-roster figure was established. Shared residence in Argentina or Israel, contemporaneity, or participation in the broader Yiddish cultural milieu was not treated as sufficient evidence of contact.
+
 ## Sources
 
 https://publicaciones.filo.uba.ar/sites/publicaciones.filo.uba.ar/files/Diccionario%20tomo%20I_interactivo_0.pdf

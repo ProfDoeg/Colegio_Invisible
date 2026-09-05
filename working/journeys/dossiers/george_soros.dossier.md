@@ -730,6 +730,42 @@ Soros became a globally portable adversary-image because several real attributes
 | May 2026 | OSF announces five-year $300 million U.S. democracy/economic-security commitment. |
 | 20 Aug 2026 | Alive, aged 96; founder but no longer operating chair of OSF. |
 
+## Atlas Connections
+
+### Adam Smith
+
+- **[T1-] Documented fact.** Soros discussed Smith’s integration of moral philosophy with economic theory in “The Capitalist Threat” (February 1997), contrasting it with later market-fundamentalist readings of self-interest. [George Soros](https://www.georgesoros.com/1997/02/01/the-capitalist-threat/)
+
+### Friedrich Hayek
+
+- **[T1-] Documented fact.** Soros repeatedly wrote about Hayek, most substantially in his 28 April 2011 Cato Institute address, “Why I Agree With (Some of) Friedrich Hayek.” He credited Hayek’s critique of scientism and recognition of imperfect knowledge while disputing Hayek’s market conclusions. [George Soros](https://www.georgesoros.com/2011/04/28/why_i_agree_with_some_of_friedrich_hayek/)
+
+### Bill Gates
+
+- **[T4] Reported fact.** Gates and Soros attended the same closed philanthropic meeting in New York on 5 May 2009. Participants discussed charitable giving and responses to domestic and global problems; available reporting establishes co-presence but not a separate private exchange between the two. [Chronicle of Philanthropy](https://www.philanthropy.com/news/americas-top-philanthropists-hold-private-meeting-to-discuss-global-problems/)
+
+### Cristina Fernández de Kirchner
+
+- **[T5] Documented fact.** Soros met Argentine president Cristina Fernández de Kirchner at New York’s Mandarin Oriental Hotel during her UN visits in September 2012 and again on 22 September 2014. Their discussions included Argentina’s economic prospects, agriculture, science and technology, energy, hydrocarbons, and Latin American drug-policy reform. [Casa Rosada](https://www.casarosada.gob.ar/informacion/archivo/490-cristina-fernandez-se-reunio-con-el-titular-del-bid-y-con-george-soros), [Reuters report](https://www.investing.com/news/stock-market-news/argentina%27s-fernandez-to-meet-billionaire-investor-soros-in-new-york-310319)
+
+### David Rockefeller
+
+- **[T4] Reported fact.** Rockefeller and Soros were co-participants in the closed 5 May 2009 New York meeting of major philanthropists convened to discuss charitable strategy and global problems. Reporting supports presence in the same small gathering, but not a distinct bilateral relationship. [Chronicle of Philanthropy](https://www.philanthropy.com/news/americas-top-philanthropists-hold-private-meeting-to-discuss-global-problems/)
+
+### Elon Musk
+
+- **[T3] Documented fact.** In May 2023 Musk initiated a one-sided public written engagement on Twitter/X, comparing Soros to the fictional villain Magneto and alleging that Soros hated humanity and sought to weaken civilization. The posts followed disclosure that SFM had sold its Tesla shares; no public reply from George Soros was documented. Musk renewed the criticism against OSF in September 2023. [Washington Post](https://www.washingtonpost.com/arts-entertainment/2023/05/16/george-soros-elon-musk-adl/), [Associated Press](https://apnews.com/article/b3f8bb6d485cdc14c2e256e383c13aa4)
+
+### George W. Bush
+
+- **[T3] Documented fact.** Soros conducted sustained one-sided written engagement with Bush’s presidency and candidacy. His 2003 book *The Bubble of American Supremacy* criticized the administration’s preventive-war doctrine, and his 2004 speeches and distributed writings expressly argued against Bush’s reelection. This establishes political discourse, not a documented personal meeting. [Federal Election Commission record](https://www.fec.gov/files/legal/murs/current/79630.pdf)
+
+### Hillary Clinton
+
+- **[T5] Documented fact.** Soros and Clinton appeared together at the Take Back America conference in Washington on 3 June 2004, where Clinton introduced him and they were photographed greeting one another. As secretary of state, Clinton also met Soros in 2010 concerning possible U.S. support for the American University of Central Asia. [Getty Images event record](https://www.gettyimages.co.uk/detail/news-photo/philanthropist-george-soros-greets-u-s-senator-hillary-news-photo/50921103), [Washington Post](https://www.washingtonpost.com/politics/how-hillary-clinton-kept-her-wealthy-friends-close-while-at-state-department/2015/10/05/5cfbe884-6930-11e5-9223-70cb36460919_story.html)
+
+No additional roster crossing was included where the available record showed only broad contemporaneity, institutional funding, parallel interests, investment by an independently managed Soros vehicle, or unsupported rumor rather than one of the specified connection types.
+
 ## Sources
 
 https://www.opensocietyfoundations.org/george-soros

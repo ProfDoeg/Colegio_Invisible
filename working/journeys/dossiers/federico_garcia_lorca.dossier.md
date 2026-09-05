@@ -518,6 +518,46 @@ Lorca received acclaim, banquets, and civic tributes during life but no major co
 - “Complete works” is editorial: lost projects, variants, juvenilia, adaptations, scattered journalism, and hundreds of drawings prevent a final closed list.
 - Research stopped when the main chronological and bibliographic slots had institutional or scholarly support, consequential disputes were explicitly bounded, and further searches were returning derivative repetition rather than new primary evidence.
 
+## Atlas Connections
+
+### Alberto Gerchunoff
+
+- **[T5]** **Documented fact:** Gerchunoff and Lorca attended a Sociedad Argentina de Autores/PEN gathering honoring Lorca at Buenos Aires’s Café Tortoni in November 1933. An archival photograph, identified by contemporary annotations on its reverse, shows Gerchunoff seated beside Lorca. [PEN 100 Archive](https://www.pen100archive.org/garcia-lorca-at-cafe-tortoni/)
+
+### Alfonsina Storni
+
+- **[T5]** **Documented fact:** Lorca met Storni through the Signo literary gathering at the Hotel Castelar during his 1933–34 Buenos Aires stay; contemporary chronologies place their acquaintance in 1933. [Centro Virtual Cervantes](https://cvc.cervantes.es/actcult/storni/cronologia/cronologia03.htm)
+
+### Carlos Gardel
+
+- **[T5]** **Reported fact:** Later accounts place a brief meeting or greeting between Gardel and Lorca on Calle Corrientes, Buenos Aires, during the night of 6 November 1933, when Lorca was accompanied by Pablo Suero and César Tiempo. Neither principal publicly recorded the encounter, and the surviving account depends on later recollection; it should therefore not be elevated to fully documented fact. [Account and evidentiary qualification](https://www.cazarabet.com/conversacon/fichas/fichas1/tangofederico.htm)
+
+### H. G. Wells
+
+- **[T3]** **Documented fact:** After Lorca disappeared in 1936, Wells, then president of PEN International, sent an inquiry to the rebel authorities requesting news of his “distinguished colleague.” This constitutes one-sided written engagement concerning Lorca, although not correspondence received by him. **Reported fact:** a recent PEN-based account additionally says Wells had met Lorca at an Argentine congress in 1933; absent a located contemporary attendance record, that personal meeting remains reported rather than independently established. [Cadena SER/PEN account](https://cadenaser.com/nacional/2026/08/18/el-telegrama-de-hg-wells-sobre-lorca-que-cambio-la-lucha-por-la-libertad-de-prensa-cadena-ser/)
+
+### Jorge Luis Borges
+
+- **[T5]** **Documented fact:** Borges later recalled an approximately hour-long conversation with Lorca in Buenos Aires during Lorca’s 1933–34 visit; the Centro Virtual Cervantes also includes Borges among the writers Lorca saw there. Borges subsequently characterized him critically as an “andaluz profesional,” confirming personal acquaintance rather than mere contemporaneity. [Centro Virtual Cervantes](https://cvc.cervantes.es/literatura/lorca_america/introduccion.htm), [Harvard Instituto Cervantes study citing Borges’s recorded recollection](https://cervantesobservatorio.fas.harvard.edu/sites/default/files/88_sp_historias_de_hispanistas_en_wellesley_1.pdf)
+- **[T3]** **Documented fact:** Borges published two Lorca poems in *Proa* in June 1925 and later discussed Lorca repeatedly in interviews, usually critically. This is documented editorial and one-sided written/oral engagement independent of their meetings. [Harvard Instituto Cervantes study](https://cervantesobservatorio.fas.harvard.edu/sites/default/files/88_sp_historias_de_hispanistas_en_wellesley_1.pdf)
+
+### Miguel de Cervantes
+
+- **[T3]** **Documented fact:** Lorca engaged directly with Cervantes’s writings by adapting and directing several of the *Entremeses* for La Barraca beginning in 1932. This is a one-sided textual and theatrical engagement with Cervantes’s work, not a personal crossing.
+
+### Victoria Ocampo
+
+- **[T5]** **Documented fact:** Ocampo personally knew Lorca and belonged to his Argentine intellectual network during the 1933–34 visit. Her journal *Sur* issued an edition of *Romancero gitano* before the end of 1933. [Biblioteca Nacional Argentina](https://museo.bn.gov.ar/noticias/7-de-abril-de-1890-nace-victoria-ocampo), [scholarly account](https://revistachilenadederecho.uc.cl/index.php/alch/article/download/32831/25411/82605)
+- **[T3]** **Documented fact:** After Lorca’s murder, Ocampo published an address to him in *Sur* in 1936, ending by asking whether he could hear her. Together with *Sur*’s publication of his work, this establishes continuing written and editorial engagement. [Fundación Juan March study](https://digital.march.es/fedora/objects/fjm-pub%3A6129/datastreams/OBJ/content)
+
+### Juan Eduardo Cirlot
+
+- **[T3]** **Absence finding:** No personal meeting, correspondence, or direct one-sided writing by either man about the other has been established. Later scholars compare their symbolism and treatments of *Hamlet*, but third-party comparison does not itself satisfy an Atlas connection type; no connection is assigned.
+
+### Pablo Picasso
+
+- **[T4]** **Absence finding:** Lorca sought or hoped for contact with Picasso and admired his painting, but the available biographical account states that the two never met. Shared Spanish and Parisian artistic milieus, later joint exhibitions, and posthumous comparisons do not establish proximity at a particular event or a personal relationship; no positive Atlas connection is assigned. [Contemporary report on the Lorca–Picasso research](https://www.eltiempo.com/archivo/documento/MAM-367181)
+
 ## Sources
 
 https://www.centrofedericogarcialorca.es/es/fgl

@@ -828,6 +828,37 @@ The greatest continuing distortion is brand attribution. “Olmsted” can mean 
 | 2020 | Twelfth and final Papers Project volume published |
 | 2022 | Bicentennial; new books, exhibitions, debates, and digital Rotunda edition |
 
+## Atlas Connections
+
+### Abraham Lincoln
+
+- **[T3]** **Documented fact:** As general secretary of the U.S. Sanitary Commission, Olmsted addressed written appeals directly to President Lincoln, including letters dated 30 September 1861 and 6 July 1862. The latter, written aboard a vessel in Chesapeake Bay after the Peninsula Campaign, urged Lincoln to appeal personally to Northern civilians and either reinforce or recall McClellan’s army. In October 1862 Olmsted also sent Lincoln copies of his Southern books through presidential secretary John G. Nicolay and discussed the administration’s emancipation and colonization proclamations. The surviving documents establish one-sided written engagement; they do not by themselves prove a personal meeting. [Olmsted Papers Digital Edition](https://rotunda.upress.virginia.edu/founders/default.xqy?keys=OLMS-print-01-04-02-0009-0018+OLMS-print-01-04-02-0009-0019); [Lincoln Papers](https://tile.loc.gov/storage-services/service/mss/mal/423/4236200/4236200.pdf)
+
+### Andrew Carnegie
+
+- **[T3]** **Documented fact:** Carnegie corresponded with Olmsted on 7 and 31 August 1886 while considering improvements to his property at Cresson, Pennsylvania. Olmsted’s contemporary professional chronology lists Carnegie among his private clients that year. The correspondence and commission establish a professional written relationship, although the consulted records do not independently establish a personal meeting or completed landscape. [American University chronological letter file](https://www.american.edu/library/archives/finding_aids/olmsted_fa_clf13.cfm); [Olmsted professional chronology](https://www.gutenberg.org/cache/epub/70767/pg70767-images.html)
+
+### Calvert Vaux
+
+- **[T5]** **Documented fact:** Olmsted and Vaux met in New York, entered the 1858 Central Park competition together, and maintained an extensive personal and professional relationship through projects including Central Park, Prospect Park, Brooklyn’s parkways, Buffalo’s park system, Riverside, and Niagara. Their surviving correspondence records affection, rivalry, disputes over credit and authority, and repeated renewals of collaboration. [Olmsted Papers biographical directory](https://rotunda.upress.virginia.edu/founders/default.xqy?keys=OLMS-print-01-03-02-0004&printable=yes)
+- **[T3]** **Documented fact:** A large two-way correspondence survives. Representative letters include Olmsted’s 12 March 1865 response to Vaux’s proposal that they reunite for the Brooklyn park project, Vaux’s candid 6 July 1865 discussion of their prospective division of authority, and Olmsted’s 13 July 1887 letter coordinating later New York and Riverside work. [Olmsted to Vaux, 12 March 1865](https://rotunda.upress.virginia.edu/founders/default.xqy?keys=OLMS-print-01-05-02-0011-0014); [Vaux to Olmsted, 6 July 1865](https://rotunda.upress.virginia.edu/founders/default.xqy?keys=OLMS-print-01-05-02-0013-0002+OLMS-print-01-05-02-0013-0003); [Olmsted to Vaux, 13 July 1887](https://rotunda.upress.virginia.edu/founders/default.xqy?keys=OLMS-print-01-08-02-0009-0006+OLMS-print-01-08-02-0009-0007)
+
+### Charles Darwin
+
+- **[T3]** **Documented fact:** Darwin read Olmsted’s Southern travel books and discussed them in correspondence with Asa Gray, calling *A Journey in the Back Country* “a remarkably interesting Book” in 1860 and later writing that he had “formerly well studied Olmsted.” Their clearest documentary crossing came through Olmsted and Charles Eliot Norton’s 1879 Niagara-preservation memorial: Darwin signed it, helped transmit the campaign to Lord Derby, and forwarded an Olmsted letter in June 1880; Olmsted sent thanks through Darwin’s daughter-in-law Sara. No personal meeting is established. [Darwin to Asa Gray, 17 September 1861](https://darwin-editorial.darwinproject.ac.uk/view/letters/DCP-LETT-3256); [William Erasmus Darwin to Charles Darwin, November 1879](https://darwin-editorial.darwinproject.ac.uk/view/letters/DCP-LETT-12301F); [Darwin to Lord Derby with Olmsted enclosure, 25 June 1880](https://darwin-editorial.darwinproject.ac.uk/view/letters/DCP-LETT-12642F)
+
+### John Ruskin
+
+- **[T3]** **Documented fact:** Ruskin signed the international memorial that Olmsted and Charles Eliot Norton circulated in 1879 requesting public protection of the scenery surrounding Niagara Falls. Olmsted’s project papers preserve Ruskin’s Brantwood address among the British recipients, and the scholarly edition identifies Ruskin as one of the two English writers Olmsted most revered. This supports written participation in an Olmsted-led campaign, but not a personal meeting or direct private correspondence. [Olmsted Papers Digital Edition](https://rotunda.upress.virginia.edu/founders/OLMS-02-01-02-0001); [Library of Congress Niagara papers](https://www.loc.gov/resource/mss35121.mss35121_036_0256_0299/?sp=1&st=list)
+
+### Friedrich Max Müller
+
+- **[T3]** **Documented fact:** Müller joined Ruskin, Darwin, and hundreds of other signatories to the 1879–1880 international memorial generated by Olmsted and Norton’s Niagara-preservation campaign. Olmsted’s Niagara papers include Müller among the British figures solicited, and the published contemporary account identifies him among the signers. The evidence supports written participation in the same advocacy document, not a personal meeting. [Library of Congress Niagara papers](https://www.loc.gov/resource/mss35121.mss35121_036_0256_0299/?sp=1&st=list); [contemporary account of the memorial](https://tile.loc.gov/storage-services/public/gdcmassbookdig/freeniagara00gree/freeniagara00gree.pdf)
+
+### Joseph Paxton
+
+- **[T9-]** **Documented fact:** Paxton originated the design of Birkenhead Park, completed and opened before Olmsted visited it in 1850. Olmsted studied the park’s circulation, drainage, planting, and public character and then described it in his writing; the encounter became an important precedent for his later American park work. This is a shared-site connection without documented shared occupancy: Paxton created the landscape first, and Olmsted encountered it later. [Harvard Magazine](https://www.harvardmagazine.com/2007/07/frederick-law-olmsted-html)
+
 ## Sources
 https://www.loc.gov/collections/frederick-law-olmsted-papers/about-this-collection/
 https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/ms001019/ms001019.pdf

@@ -660,6 +660,35 @@ Recent scholarship stresses exile, illegitimacy, family conflict, irony, pessimi
 | 1972–73 | Rossellini's *Age of the Medici*, including “Leon Battista Alberti: Humanism.” |
 | late 20th–21st c. | National Edition, new manuscript discoveries and scholarship revise authorship, chronology and the “universal man” myth. |
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Alberti repeatedly invoked and discussed Aristotle as an authority in works including *De re aedificatoria*, while adapting Aristotelian ideas about civic life, ethics, causation, nature, and the organization of knowledge to his own arguments. The connection is textual, not personal: Aristotle died more than seventeen centuries before Alberti’s birth.
+
+### Cicero
+
+- **[T1-]** **Documented fact:** Alberti wrote extensively in dialogue with Cicero’s rhetorical, ethical, and philosophical works. Ciceronian models inform such texts as *De commodis litterarum atque incommodis*, *I libri della famiglia*, *Della tranquillità dell’animo*, and *De re aedificatoria*. Alberti’s engagement involved adaptation and occasional criticism, not merely imitation.
+
+### Diogenes of Sinope
+
+- **[T1-]** **Documented fact:** During the 1460s Alberti composed seven Latin letters presented as addressed to Diogenes, the *Epistulae septem Diogeni inscriptae*, which he sent to Francesco Griffolini. These pseudo-Diogenic letters use the ancient Cynic as an imagined interlocutor for moral reflection; they do not document a transmitted ancient correspondence.
+
+### Lorenzo de’ Medici (“Il Magnifico”)
+
+- **[T3]** **Documented fact:** Around 1460 Alberti dedicated *Trivia senatoria*, his instruction on public speaking and civic rhetoric, to the young Lorenzo de’ Medici. This is direct, one-sided written engagement between two roster members.
+- **[T5]** **Documented fact:** Alberti and Lorenzo had a personal relationship in Alberti’s later years. Alberti guided Lorenzo, Bernardo Rucellai, and Donato Acciaiuoli through the Roman Forum in 1471. Cristoforo Landino’s *Disputationes Camaldulenses* also places them together at Camaldoli in 1468; modern scholarship considers an underlying meeting probable, although Landino’s polished speeches are literary compositions rather than transcripts.
+
+### Plato
+
+- **[T1-]** **Documented fact:** Alberti cited and discussed Plato in *De re aedificatoria* and elsewhere, drawing upon Platonic political, cosmological, and aesthetic arguments while incorporating them into an eclectic rather than doctrinally Platonist philosophy. Landino later made Alberti a principal Platonic speaker in the *Disputationes Camaldulenses*, but the specific doctrines placed in his mouth there are a **reported fact/literary representation**, not secure evidence of Alberti’s exact spoken words.
+
+### Virgil
+
+- **[T1-]** **Documented fact:** Alberti invoked Virgil as an ancient literary authority in his writings. A more elaborate connection appears in Landino’s posthumously composed *Disputationes Camaldulenses* (c. 1472–1473), which represents Alberti expounding allegorical meanings in Virgil’s *Aeneid* during a gathering set at Camaldoli in 1468. That Virgilian exposition is a **reported fact/literary representation**: it may preserve the subject of a real discussion, but it cannot be treated as a verbatim record.
+
+No secure direct crossing was found with other tempting roster candidates. In particular, shared intellectual themes do not by themselves establish personal contact between Alberti and Nicholas of Cusa; Alberti’s cipher does not establish that he knew al-Kindi’s earlier Arabic cryptanalysis; and the later sequence from Alberti through Trithemius to Vigenère is a technological genealogy, not documented correspondence, meeting, or passage of one identifiable physical object among those men.
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/leon-battista-alberti_(Dizionario-Biografico)/

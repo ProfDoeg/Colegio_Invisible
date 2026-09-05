@@ -509,6 +509,26 @@ Scholem transformed Sabbatai from a cautionary anecdote into a central subject o
 | **2020** | Bronze memorial statue installed in Ulcinj. |
 | **2026** | Four-hundredth-birth-year exhibitions and renewed research/public discussion. |
 
+## Atlas Connections
+
+### King Solomon
+
+- **[T2- prediction]** **Rumor or myth:** *Hokhmat Shelomo ha-Gedolah* (“The Great Wisdom of Solomon”), circulated in Abraham Yakhini’s Constantinople circle around 1658, purported to be an ancient Solomonic prophecy identifying a messianic son born in 5386—Sabbatai Zevi’s conventionally reported birth year. Modern scholarship regards the text as contemporary pseudepigraphy, probably composed by Yakhini or an associate; thus the “prediction” was retrofitted to Sabbatai rather than written by Solomon. ([Encyclopaedia Judaica](https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/shabbetai-zevi); [Gershom Scholem’s study](https://dokumen.pub/sabbatai-evi-the-mystical-messiah-1626-1676-9780691172095-9781400883158-1400883156.html))
+
+### Theodor Herzl
+
+- **[T1+]** **Documented fact:** Herzl wrote about Sabbatai in both private and fictional forms. In his diary on 9 March 1896, Herzl contrasted his own political method with “Sabbatai Zvi (the way I imagine him).” In the 1902 novel *Altneuland*, his characters attend an opera titled *Sabbatai Zevi*, staged in a public square in Smyrna, and describe its subject as the seventeenth-century false messiah whose movement ended in apostasy. The opera is fictional, but Herzl’s written engagement with Sabbatai is explicit. ([Herzl’s *Altneuland* text](https://www.jewishvirtuallibrary.org/quot-altneuland-quot-theodor-herzl); [discussion of the diary entry and literary context](https://api.pageplace.de/preview/DT0400.9783110936056_A19977229/preview-9783110936056_A19977229.pdf))
+
+### Martin Buber
+
+- **[T1+]** **Documented fact:** Buber interpreted Sabbatai in the essay “Spinoza, Sabbatai Zevi, and the Baalshem,” published in Hebrew in *Be-Pardes ha-Ḥasidut* (1945) and subsequently included in *Hasidism* (1948). He presented Sabbatai’s apostasy as an inward crisis of Jewish messianism and contrasted that crisis with the religious renewal he associated with the Baal Shem Tov. This was retrospective intellectual history; Buber and Sabbatai were separated by two centuries. ([bibliographic record for *Hasidism*](https://openlibrary.org/books/OL6032112M/Hasidism.); [scholarly discussion of Buber’s essay](https://philarchive.org/archive/COHMJT))
+
+### Jacob Frank
+
+- **[T2+ hyperstition]** **Documented fact, with a qualification about personal succession claims:** Sabbatai’s movement and its post-1666 doctrine of redemptive descent created the religious networks and expectations from which Jacob Frank’s movement emerged in eighteenth-century Podolia and Poland. Frank encountered Sabbatean teaching through followers of the Salonikan leader Baruchiah Russo and recast its themes of concealment, conversion, and passage through forbidden religions. In that causal sense, belief in Sabbatai’s unfinished redemptive mission helped manifest the later Frankist movement. Older accounts often state that Frank explicitly claimed to be Sabbatai’s reincarnation; recent scholarship cautions that Frank, especially later in life, did not consistently present himself as either Sabbatai’s incarnation or straightforward continuator. No personal meeting was possible: Frank was born approximately fifty years after Sabbatai’s death. ([Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/archives/sum2024/entries/scholem/); [Princeton historical study summarizing Maciejko’s qualification](https://history.princeton.edu/undergraduate/princeton-historical-review/summer-2025-issue/%E2%80%9Cdressed-frenk-clothing%E2%80%9D); [Gershom Scholem, “The Holiness of Sin”](https://www.commentary.org/articles/gershom-scholem/the-holiness-of-sin/))
+
+No other roster member could be assigned one of the specified connection types on the evidence reviewed. In particular, mere chronological overlap, residence somewhere in the Ottoman Empire, later comparison, or general participation in Jewish, Islamic, mystical, or messianic traditions was not treated as a crossing.
+
 ## Sources
 
 https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/shabbetai-zevi

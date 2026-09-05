@@ -466,6 +466,79 @@ Named memorials include lunar and Martian features, asteroid **4628 Laplace**, a
 - The Napoleon anecdote cannot responsibly be printed as verbatim fact without its variant history.
 - A truly exhaustive paper bibliography requires collation of all fourteen collected-work volumes; the dossier identifies the books and principal paper clusters but does not pretend every Academy memoir title has been independently transcribed.
 
+## Atlas Connections
+
+### Charles Babbage
+
+- **[T5] Documented fact:** Babbage personally visited Laplace during trips to Paris before Laplace’s death in 1827. His later autobiographical account describes their conversations, including Laplace initially mistaking a reference to the English mathematician Robert Woodhouse for the French *vous deux*. [Babbage’s account reproduced by MacTutor](https://mathshistory.st-andrews.ac.uk/Extras/Babbage_Laplace_Fourier_Biot/).
+- **[T1+] Documented fact:** Laplace is the earlier, written-about figure in Babbage’s *Passages from the Life of a Philosopher* (1864), where Babbage recorded those meetings and assessed Laplace’s mathematical circle. This supports a literary as well as personal crossing, but not the later claim that Laplace helped design Babbage’s engines. [MacTutor](https://mathshistory.st-andrews.ac.uk/Extras/Babbage_Laplace_Fourier_Biot/).
+
+### Augustin-Louis Cauchy
+
+- **[T5] Documented fact:** Laplace and Lagrange visited the Paris home of Cauchy’s father, Louis-François Cauchy, while Augustin-Louis was a child. The evidence therefore supports personal acquaintance in the Cauchy family milieu, although surviving accounts attribute the more active interest in the boy’s education particularly to Lagrange. [MacTutor biography of Cauchy](https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/).
+
+### Nicolaus Copernicus
+
+- **[T1-] Documented fact:** As the later writer, Laplace discussed Copernicus and the establishment of the heliocentric system in the historical fifth book of *Exposition du système du monde*, subsequently issued as *Précis de l’histoire de l’astronomie*. The connection is textual and retrospective; no personal crossing was possible. [Laplace, *Exposition du système du monde*](https://fr.wikisource.org/wiki/Exposition_du_syst%C3%A8me_du_Monde_%28Laplace%2C_%C3%A9d._1835%29/Texte_entier).
+
+### Galileo Galilei
+
+- **[T1-] Documented fact:** Laplace’s historical astronomy explicitly considered Galileo’s defense of Copernicanism, telescopic discoveries, and erroneous dynamical explanation of the tides, contrasting the latter with subsequent gravitational theory. [Laplace, *Exposition du système du monde*](https://fr.wikisource.org/wiki/Exposition_du_syst%C3%A8me_du_Monde_%28Laplace%2C_%C3%A9d._1835%29/Texte_entier).
+
+### Johannes Kepler
+
+- **[T1-] Documented fact:** Laplace wrote about Kepler’s planetary laws, elliptical orbits, and theory of the tides in his history of astronomy. He credited Kepler’s observational insight while distinguishing it from Newton’s later dynamical explanation. [Laplace, *Exposition du système du monde*](https://fr.wikisource.org/wiki/Exposition_du_syst%C3%A8me_du_Monde_%28Laplace%2C_%C3%A9d._1835%29/Texte_entier).
+
+### Edmond Halley
+
+- **[T1-] Documented fact:** Laplace’s *Précis de l’histoire de l’astronomie* described Halley’s role in urging Newton to publish the propositions that became the *Principia*, as well as Halley’s astronomical work. [Laplace, *Précis de l’histoire de l’astronomie*](https://www.hist-math.fr/textes/Laplace1821_HistoireAstronomie.pdf).
+
+### Christiaan Huygens
+
+- **[T1-] Documented fact:** Laplace discussed Huygens’s astronomical discoveries and mechanical theories in his historical account of astronomy and elsewhere engaged technically with Huygens’s treatment of double refraction. This is a retrospective written engagement, not a personal connection. [Laplace, *Exposition du système du monde*](https://fr.wikisource.org/wiki/Exposition_du_syst%C3%A8me_du_Monde_%28Laplace%2C_%C3%A9d._1835%29/Texte_entier).
+
+### Isaac Newton
+
+- **[T1-] Documented fact:** Newton is a central earlier subject of Laplace’s *Exposition* and *Précis*. Laplace narrated the formation and publication of the *Principia*, explained Newton’s gravitational theory, and repeatedly evaluated its application to planetary motion, tides, and the figure of Earth. [Laplace, *Précis de l’histoire de l’astronomie*](https://www.hist-math.fr/textes/Laplace1821_HistoireAstronomie.pdf).
+
+### Leonhard Euler
+
+- **[T3] Documented fact:** Laplace corresponded directly with Euler while establishing his career in the 1770s, sending him mathematical work and scientific findings. A modern survey of Laplace’s correspondence specifically identifies Euler among his early correspondents. [Canadian Society for History and Philosophy of Mathematics review of Laplace’s correspondence](https://www.cshpm.org/archives/bulletins/55-2014.pdf).
+
+### Joseph-Louis Lagrange
+
+- **[T3] Documented fact:** Laplace and Lagrange maintained a substantial two-way scientific correspondence from Laplace’s early career. Fourteen surviving letters from Laplace to Lagrange and twelve from Lagrange were printed in volume XIV of Lagrange’s collected works; the letters exchanged papers and discussed celestial mechanics and analysis. [Dictionary of Scientific Biography entry](https://mathshistory.st-andrews.ac.uk/DSB/Laplace.pdf).
+- **[T5] Documented fact:** After Lagrange moved to Paris in 1787, the two served together in the Académie/Institut, metric work, the Bureau des Longitudes, and revolutionary mathematical education. Their repeated institutional collaboration and joint presentation of planetary formulas establish personal contact, although their relationship also contained competition over methods and priority. [Contemporary historical discussion](https://fr.wikisource.org/wiki/Lettres_%C3%A0_un_Am%C3%A9ricain_sur_les_Sciences_en_France/03).
+
+### Carl Friedrich Gauss
+
+- **[T3] Documented fact:** Laplace and Gauss exchanged scientific letters concerning astronomy, error theory, and least squares. A surviving example is Gauss’s letter to Laplace of 30 January 1812, while Laplace’s probability work explicitly responded to Gauss’s 1809 *Theoria motus*. The evidence supports correspondence and intellectual engagement, not a personal meeting. [Plackett, “The Discovery of the Method of Least Squares”](https://hedibert.org/wp-content/uploads/2016/08/plackett1972-thediscoveryofthemethodofleastsquares.pdf).
+
+### Joseph Fourier
+
+- **[T3] Documented fact:** Fourier submitted his memoir on heat conduction to the Institut in Paris in 1807; Laplace was appointed with Lagrange, Lacroix, and Monge to examine it. The resulting scrutiny of Fourier’s trigonometric expansions, followed by reciprocal mathematical influence in Fourier’s and Laplace’s later work, constitutes documented written and institutional discourse. Accounts differ over whether Laplace primarily opposed or partly supported Fourier; the surviving record does not justify reducing the relationship to a personal feud. [Physics Today](https://physicstoday.aip.org/features/the-dichotomous-history-of-diffusion), [MIT Press study of Fourier](https://mitpress.mit.edu/9780262070416/joseph-fourier-17681830/).
+
+### Alexander von Humboldt
+
+- **[T5] Documented fact:** Humboldt and Laplace belonged to the Société d’Arcueil and met within the research circle convened at the Arcueil homes of Laplace and Berthollet. The society’s membership list dated 7 June 1809 names both men. [*Mémoires de la Société d’Arcueil*, vol. II](https://fr.wikisource.org/wiki/Page%3AM%C3%A9moires_de_physique_et_de_chimie_de_la_Soci%C3%A9t%C3%A9_d%E2%80%99Arcueil_-_Tome_2.djvu/9).
+- **[T3] Documented fact:** Four letters from Laplace to Humboldt survive, supplemented by Humboldt’s diary and academy archival material. They document a relationship extending beyond mere simultaneous membership in the Arcueil circle. [Alexander von Humboldt research journal](https://hin-online.de/index.php/hin/de/article/view/195).
+
+### Napoleon Bonaparte
+
+- **[T5] Documented fact:** Laplace repeatedly met Napoleon. Documented encounters include Laplace’s examination of the artillery cadet Bonaparte at the École Militaire in September 1785, escorting him into the Institut in 1797, dining after presenting the first volumes of *Mécanique céleste* in October 1799, serving briefly as his interior minister, and joining the astronomical conversation at Malmaison on 8 August 1802. [Dictionary of Scientific Biography entry](https://mathshistory.st-andrews.ac.uk/DSB/Laplace.pdf).
+- **[T3] Documented fact:** Napoleon wrote to Laplace on 19 October 1799 acknowledging receipt of the first two volumes of *Mécanique céleste* and inviting Laplace and his wife to dinner. This is independently documented written engagement, apart from their meetings and political relationship. [Dictionary of Scientific Biography entry](https://mathshistory.st-andrews.ac.uk/DSB/Laplace.pdf).
+- **[T5] Reported fact with documented core:** William Herschel’s diary records the 8 August 1802 Malmaison discussion in which Napoleon questioned Laplace about the origin of the heavens. The later formula “I had no need of that hypothesis” does not occur in Herschel’s eyewitness entry and remains an unverified later formulation. [Account based on Herschel’s journal](https://gutenberg.ca/ebooks/macphersonhc-herschel/macphersonhc-herschel-00-h-dir/macphersonhc-herschel-00-h.html).
+
+### Siméon Denis Poisson
+
+- **[T3] Documented fact:** Laplace formally evaluated Poisson’s mathematical work at the Institut. A surviving report by Laplace and Sylvestre-François Lacroix recommended publication of Poisson’s memoir on mixed differences and credited its advance over work by Condorcet, Laplace, and Biot. This supplies direct written engagement, beyond Poisson’s general place in the Laplacian school. [Contemporary historical text reproducing the report](https://fr.wikisource.org/wiki/Lettres_%C3%A0_un_Am%C3%A9ricain_sur_les_Sciences_en_France/03).
+
+### James Clerk Maxwell
+
+- **[T1+] Documented fact:** Maxwell, born after Laplace’s death, read Laplace’s statistical writings and wrote explicitly about Laplace’s probability theory and place in the development of dynamics. Maxwell also extended the analysis of Saturn’s rings from a problem Laplace had treated. This is a later author’s documented engagement with Laplace, not a personal crossing. [Maxwell text and biographical discussion](https://web.lemoyne.edu/~giunta/maxwell1.html), [scientific biography](https://www.encyclopedia.com/people/science-and-technology/physics-biographies/james-clerk-maxwell).
+
+No T2 prophecy/hyperstition or T9 shared-object/site connection with an atlas-roster figure was found at a documentary threshold. The familiar “Kant–Laplace” and Swedenborg–Kant–Laplace groupings are later historiographical comparisons: no evidence located here shows that Laplace met, corresponded with, or wrote about Kant or Swedenborg, so those parallels are not entered as crossings.
+
 ## Sources
 
 https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/

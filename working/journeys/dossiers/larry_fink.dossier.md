@@ -703,6 +703,50 @@ There is no posthumous cult because the subject is living. There is, however, a 
 | 30 Jun. 2026 | BlackRock reported $15.3 trillion AUM at quarter end |
 | 20 Aug. 2026 | Research cutoff: Fink living and still chairman/CEO |
 
+## Atlas Connections
+
+### Alex Karp
+
+- **[T5] Documented fact:** Fink conducted an onstage conversation with Palantir co-founder and CEO Alex Karp at the World Economic Forum annual meeting in Davos, Switzerland, on 20 January 2026. Their discussion addressed artificial intelligence, employment, vocational training, immigration, national competitiveness, and civil liberties. [Contemporary transcript](https://singjupost.com/palantir-ceo-alex-karps-remarks-wef-davos-2026-transcript/)
+
+### Bill Clinton
+
+- **[T5] Reported fact:** Fink and former president Bill Clinton appeared together on a Clinton Global Initiative panel in New York on 20 September 2022, discussing ESG, investment decisions, renewable energy, and corporate social impact. Clinton directly thanked Fink for encouraging investors to consider social consequences. The Clinton Foundation independently identifies Fink as a featured participant at the meeting. [Clinton Foundation announcement](https://www.clintonfoundation.org/press-and-news/general/additional-featured-participants-including-prime-minister-justin-trudeau-bono-and-ambassador-cindy-mccain-join-leaders-from-across-public-and-private-sectors-for-the-return-of-cgi-next-week/), [contemporaneous panel report](https://www.dailywire.com/news/climate-risk-is-investment-risk-bill-clinton-and-blackrock-ceo-larry-fink-make-bold-claims-about-woke-investing)
+
+### Elon Musk
+
+- **[T5] Documented fact:** Fink interviewed Musk onstage at the World Economic Forum in Davos on 22 January 2026 about artificial intelligence, energy, spaceflight, robotics, and Musk’s intellectual influences. At the close, Fink publicly described Musk as “a great friend” from whom he learned continually; this substantiates both a personal meeting and Fink’s own characterization of their friendship. [World Economic Forum transcript](https://www.weforum.org/podcasts/meet-the-leader/episodes/conversation-with-elon-musk-davos-2026/)
+
+### George Soros
+
+- **[T3] Documented fact:** In a September 2021 *Wall Street Journal* opinion essay, Soros directly criticized BlackRock’s—and therefore Fink’s—China strategy, calling the firm’s expansion there a “tragic mistake” and arguing that it threatened clients and U.S. national-security interests. This is documented one-sided written engagement, not evidence of a personal meeting or friendship. [Soros’s published commentary](https://www.georgesoros.com/2021/09/06/blackrocks-china-blunder/), [Reuters account](https://www.investing.com/news/stock-market-news/soros-says-blackrocks-china-investments-likely-to-lose-money--wsj-2608958)
+
+### Hillary Clinton
+
+- **[T4] Documented fact:** Fink and Hillary Clinton were both present at the White House state dinner for Japanese prime minister Fumio Kishida in Washington, D.C., on 10 April 2024. The records establish shared attendance, but not a conversation between them. [White House guest list](https://www.presidency.ucsb.edu/documents/white-house-press-release-white-house-releases-state-dinner-guest-list-3), [contemporaneous attendance report](https://www.washingtonpost.com/style/power/2024/04/10/state-dinner-japan-guest-list/)
+
+### Jamie Dimon
+
+- **[T5] Documented fact:** Fink and JPMorgan Chase CEO Jamie Dimon had a longstanding professional relationship before and during the 2008 financial crisis. Contemporary reporting identifies Dimon among the financial executives who personally sought Fink’s counsel as JPMorgan evaluated and acquired Bear Stearns; both men also attended the White House state dinner of 10 April 2024. [*Vanity Fair* profile](https://www.vanityfair.com/news/2010/04/fink-201004), [White House guest list](https://www.presidency.ucsb.edu/documents/white-house-press-release-white-house-releases-state-dinner-guest-list-3)
+
+### Javier Milei
+
+- **[T5] Documented fact:** Argentine president Javier Milei held a virtual meeting with Fink on 1 February 2024 concerning possible long-term infrastructure investments in Argentina. Argentina’s presidency said Fink undertook to explore a visit for further discussions; BlackRock separately characterized the conversation as constructive. [Official Argentine government communiqué](https://www.argentina.gob.ar/noticias/comunicado-oficial-numero-13), [Bloomberg report](https://news.bloomberglaw.com/bankruptcy-law/blackrocks-fink-mulls-argentina-trip-after-milei-call)
+
+### Klaus Schwab
+
+- **[T4] Documented fact:** Fink entered the World Economic Forum’s Board of Trustees in August 2019 while Klaus Schwab was founder and executive chairman; Schwab publicly welcomed his appointment. They consequently occupied the same governing institutional milieu until Schwab left the board in April 2025. After the Forum’s investigation of Schwab concluded, its trustees selected Fink and André Hoffmann as interim co-chairs in August 2025. The succession does not itself demonstrate a personal pact or transfer of governmental authority. [2019 Forum appointment](https://www.weforum.org/press/2019/08/world-economic-forum-appoints-new-members-to-board-of-trustees/), [2025 Forum announcement](https://www.weforum.org/press/2025/08/news-release/)
+
+### Sam Altman
+
+- **[T4] Documented fact:** Fink and OpenAI CEO Sam Altman were both recorded as attending the U.S.–Saudi investment forum and associated leaders’ lunch in Riyadh on 13 May 2025. The attendance record establishes proximity within the same official business delegation, not a separate bilateral meeting. [White House pool report preserved by the American Presidency Project](https://www.presidency.ucsb.edu/documents/pool-reports-may-13-2025)
+
+### Volodymyr Zelenskyy
+
+- **[T5] Documented fact:** Fink and Ukrainian president Volodymyr Zelenskyy met by videoconference on 19 September 2022 to discuss BlackRock Financial Markets Advisory providing pro bono advice on a reconstruction-investment framework. They subsequently met separately in New York on 22 September 2023 and participated in further reconstruction discussions, including a December 2025 group meeting concerning Ukraine’s economic recovery. [Ukrainian presidency, September 2022](https://www.president.gov.ua/en/news/volodimir-zelenskij-i-golova-blackrock-obgovorili-zaluchenny-77861), [Ukrainian presidency, September 2023](https://www.president.gov.ua/en/news/prezident-zustrivsya-z-najvplivovishimi-amerikanskimi-pidpri-85769), [Ukrainian presidency, December 2025](https://www.president.gov.ua/en/news/prezident-proviv-rozmovu-z-amerikanskoyu-storonoyu-prisvyach-101905)
+
+No additional roster crossings were included where the available record showed only broad conference participation, indirect corporate shareholdings, parallel interests, or unsupported association claims.
+
 ## Sources
 
 https://www.vanityfair.com/news/2010/04/fink-201004

@@ -656,6 +656,48 @@ No single appropriation contains the whole record. The same archive contains nat
 - **2022:** Kyiv renames Muromska Street for Volodymyr Zhabotynsky.
 - **2023–2026:** New research/public debate challenges authenticity of famous 1938 annihilation-prophecy wording; transfer and fascism debates continue.
 
+## Atlas Connections
+
+### Chaim Weizmann
+
+- **[T3] Documented fact:** Jabotinsky corresponded extensively with Weizmann and served under him on the Zionist Executive from 1921 until his resignation in January 1923. Their written engagement continued through later disputes over British policy, immigration, and Zionist strategy; the Jabotinsky Institute catalog preserves, among other records, a [1917 letter from Jabotinsky to Weizmann](https://en.jabotinsky.org/archive/catalog-of-files/?itemId=134069).
+- **[T5] Documented fact:** The two leaders met and worked together through the Zionist Executive and later political negotiations. In May 1940 Jabotinsky again approached Weizmann about cooperation on a Jewish army and wartime Zionist unity.
+
+### David Ben-Gurion
+
+- **[T3] Documented fact:** Jabotinsky and Ben-Gurion exchanged letters and written agreements during their attempt to reconcile Revisionist and Labor Zionism in 1934–1935. Surviving correspondence includes Jabotinsky’s request for approval to continue the negotiations; the resulting London agreements addressed political violence, labor disputes, and relations between their movements. [Jabotinsky Institute archival description](https://en.jabotinsky.org/archive/search-archive/item/?itemId=114175)
+- **[T5] Documented fact:** Mediated by Pinhas Rutenberg, Jabotinsky and Ben-Gurion met repeatedly in London in 1934 and signed agreements on 26 October. Revisionists approved them, but Histadrut members rejected them in a 1935 referendum. The encounter and agreements are independently catalogued in the [Tel Aviv University research record](https://cris.tau.ac.il/en/publications/%D7%9C%D7%9C%D7%90-%D7%A4%D7%A9%D7%A8%D7%95%D7%AA-%D7%94%D7%A1%D7%9B%D7%9D-%D7%91%D7%9F-%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%9F-%D7%96%D7%91%D7%95%D7%98%D7%99%D7%A0%D7%A1%D7%A7%D7%99-%D7%95%D7%9B%D7%A9%D7%9C%D7%95%D7%A0%D7%95-1934-1935/).
+
+### Edgar Allan Poe
+
+- **[T3] Documented fact:** Jabotinsky engaged directly with Poe’s writing by translating “The Raven” and “Annabel Lee” into Hebrew, with the translations published by 1914. The Jabotinsky Institute preserves his handwritten versions of “The Raven” in Hebrew and Russian transliteration. [Archive record](https://en.jabotinsky.org/archive/search-archive/item/?itemId=115670)
+
+### Friedrich Nietzsche
+
+- **[T3] Documented fact:** Jabotinsky read Nietzsche in his youth and subsequently discussed him in literary writing, including a comparison involving Maxim Gorky. Scholarship treats Nietzsche as one element in Jabotinsky’s early intellectual formation, while cautioning against reducing Jabotinsky’s political theory to Nietzschean influence. [David Ohana, *Nietzsche and Zion*](https://dokumen.pub/nietzsche-and-zion-0801437628-9780801437625.html)
+
+### Giuseppe Garibaldi
+
+- **[T1-] Documented fact:** Jabotinsky wrote retrospectively about Garibaldi and the Italian Risorgimento as formative models encountered during his years in Rome, beginning in 1898. Garibaldi represented for him national liberation joined to civic courage and military voluntarism; this literary-political admiration preceded Italian Fascism and should not be conflated with it.
+
+### Theodor Herzl
+
+- **[T1-] Documented fact:** Jabotinsky published the Russian essay “Dr. Herzl” in 1905, attempting a psychological and political portrait based on what he had “heard, seen, [and] read.” [Full text and bibliographic record](https://benyehuda.org/read/5107)
+- **[T3] Documented fact:** At the Sixth Zionist Congress in Basel, 23–28 August 1903, Jabotinsky heard Herzl speak and later described the experience in his memoirs and the 1905 essay. It was the only Zionist Congress attended by both men. [National Library of Israel biography](https://www.nli.org.il/en/discover/israel/figures/zeev-jabotinsky)
+- **[T4] Documented fact:** Both were delegates or principal participants at the Sixth Zionist Congress in Basel in August 1903, although Jabotinsky opposed Herzl’s Uganda proposal.
+- **[T5] Reported fact:** Jabotinsky later recalled a personal encounter with Herzl at the congress, but no independent contemporaneous evidence confirming a private meeting has been located. The strongest secure claim is that Jabotinsky saw and heard Herzl there; historians dispute details of his retrospective account. [Discussion of the evidentiary problem](https://jewishreviewofbooks.com/articles/1968/your-time-is-up-jabotinsky-at-the-sixth-zionist-congress/)
+
+### Benito Mussolini
+
+- **[T3] Documented fact:** Jabotinsky wrote to Mussolini in Rome on 16 July 1922, seeking Italian support for Zionism and arguing against a pro-Arab Italian policy. The surviving letter predates Mussolini’s appointment as prime minister and is catalogued by the [Jabotinsky Institute](https://en.jabotinsky.org/archive/catalog-of-files/?itemId=146452); scholarship also records a copy dated 21 July in the Alfonso Pacifici Archive. [Vincenzo Pinto’s study](https://www.tandfonline.com/doi/abs/10.1080/1353712042000242590)
+- **[T3] Documented fact:** During the 1930s Jabotinsky’s movement pursued written and diplomatic engagement with Mussolini’s government, which permitted the Betar Naval Academy at Civitavecchia. This establishes contact with the regime but not a documented personal friendship or face-to-face meeting between Jabotinsky and Mussolini.
+
+### Benjamin Netanyahu
+
+- **[T1+] Documented fact:** Decades after Jabotinsky’s death, Netanyahu repeatedly wrote and delivered formal addresses about him, presenting Jabotinsky as an ideological source on Jewish military power, liberal nationalism, and deterrence. Netanyahu has also stated that he keeps and regularly reads Jabotinsky’s works; this is an intellectual-political reception rather than a personal relationship. [Jabotinsky Institute report](https://en.jabotinsky.org/media/9752/english52.pdf) and [Knesset record of Netanyahu’s Jabotinsky Day address](https://m.knesset.gov.il/en/News/PressReleases/Pages/Pr12208_pg.aspx)
+
+No additional roster crossings were included where the available evidence showed only broad influence, shared subject matter, institutional succession, coincidental presence in the same country or city, or later comparison by third parties.
+
 ## Sources
 
 https://en.jabotinsky.org/zeev-jabotinsky/biography/

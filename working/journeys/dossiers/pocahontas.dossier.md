@@ -420,6 +420,14 @@ Her most documentable historical effects were relational: episodic mediation bef
 | 2007 | Mattaponi oral-history account published; NOVA documentary airs | Documented |
 | 2017 | Four-hundredth anniversary commemorations in England and Virginia | Documented |
 
+## Atlas Connections
+
+### Mark Twain
+
+- **[T1+] Documented fact.** Mark Twain invoked Pocahontas in chapter 14 of *The Tragedy of Pudd’nhead Wilson* (1894). Roxy’s deliberately garbled genealogy makes Pocahontas—called an “Injun queen” and incorrectly associated by blood and marriage with John Smith and an African king—part of Twain’s satire of Virginia pedigree, racial classification, and invented ancestry. This is literary mythmaking, not a biographical claim about Pocahontas. [Primary text](https://www.gutenberg.org/cache/epub/102/pg102-images.html); [bibliographical copy](https://archive.org/details/puddnheadwilsont00twai_2)
+
+No other roster entry produced a sufficiently documented connection under the six permitted types. In particular, Walt Disney died in 1966 and had no documented personal authorship of the studio’s 1995 *Pocahontas*; Francis Bacon’s Virginia Company and Jacobean-court associations do not establish contact or shared attendance with her; and Thomas Jefferson’s indirect engagement with Pocahontas literature and descendants does not demonstrate that he himself wrote about, corresponded with, met, or shared a qualifying object or site with Pocahontas.
+
 ## Sources
 
 https://encyclopediavirginia.org/entries/pocahontas-d-1617/

@@ -861,6 +861,48 @@ Recent scholarship increasingly integrates rather than partitions Doyle's medici
 | 2013–2014 | U.S. courts reject estate's extended character-copyright claim in *Klinger* |
 | 2023 | Entire Holmes canon in U.S. public domain |
 
+## Atlas Connections
+
+### Arthur James Balfour
+
+- **[T5]** **Reported fact.** Conan Doyle personally met former prime minister Arthur Balfour, probably through the political and literary circles in which Doyle moved during the early twentieth century. In *Memories and Adventures* (1924), Doyle included Balfour among the notable people he had met and described his appearance and character. The meeting is supported by Doyle’s firsthand retrospective testimony, although the available account does not specify its date or venue. [*Memories and Adventures*](https://www.arthur-conan-doyle.com/index.php/Memories_and_Adventures)
+
+### Edgar Allan Poe
+
+- **[T1-]** **Documented fact.** Doyle repeatedly wrote and lectured about Poe as the foundational literary predecessor of modern detective fiction. He praised Poe in “Facts About Fiction” (1893), discussed him during his 1894 American lecture tour, devoted much of chapter VI of *Through the Magic Door* (1906–1907) to him, and presided over a Poe memorial lecture in 1909. Doyle specifically credited Poe’s Dupin stories with demonstrating that detective fiction could possess literary value. [Arthur Conan Doyle Encyclopedia: Edgar Allan Poe](https://www.arthur-conan-doyle.com/wiki/Edgar_Allan_Poe)
+
+### Ernest Shackleton
+
+- **[T5]** **Reported fact.** Contemporary and later accounts describe Conan Doyle and Antarctic explorer Ernest Shackleton as friends. Following Shackleton’s death in 1922, Doyle wrote to Emily, Lady Shackleton, concerning messages that purported to come from her husband through mediumship; two such letters are catalogued in 1924. The correspondence proves Doyle’s connection to the Shackleton family, while the characterization of the two men as personal friends rests on reported biographical evidence. [The Irish Times](https://www.irishtimes.com/news/conan-doyle-letters-to-shackleton-s-wife-1.507329), [Christie’s catalogue](https://www.christies.com/en/lot/lot-2777935)
+
+### H. G. Wells
+
+- **[T3]** **Documented fact.** Wells corresponded with Conan Doyle. At least seven autograph letters from Wells to Doyle survive, including letters dated 30 August 1900 and 3 July 1902; the former welcomed Doyle back from his South African War service and asked about his impressions. This establishes direct literary and personal discourse, although the cited archive description alone does not establish a close friendship. [Christie’s catalogue](https://www.christies.com/en/lot/lot-4290357)
+
+### Harry Houdini
+
+- **[T5]** **Documented fact.** Conan Doyle and Houdini met personally, corresponded, exchanged family hospitality, and initially became friends beginning around 1920. Their relationship deteriorated during 1922–1924 over Spiritualism, particularly after Lady Conan Doyle’s automatic-writing séance for Houdini’s deceased mother at the Ambassador Hotel in Atlantic City on 18 June 1922 and Houdini’s subsequent public exposure of fraudulent mediums. The connection was therefore both a genuine friendship and a later public antagonism, not an invented meeting or instantaneous feud. [PBS *American Experience*](https://www.pbs.org/wgbh/americanexperience/features/houdini-conan-doyle/), [Harry Ransom Center](https://sites.utexas.edu/ransomcentermagazine/2016/09/28/houdini-speaks-to-the-living/)
+
+- **[T3]** **Documented fact.** Their surviving correspondence and reciprocal publications constitute extensive written engagement. Houdini’s *A Magician Among the Spirits* (1924) disputed Doyle’s evidentiary standards, while Doyle defended mediums challenged by Houdini and continued to argue that Houdini possessed unacknowledged psychic powers.
+
+### James Matthew Barrie
+
+- **[T5]** **Documented fact.** Doyle and Barrie were friends and frequent associates from the early 1890s. They played cricket together—Doyle appeared for Barrie’s Allahakbarries—and moved in overlapping British literary circles. A surviving 22 May 1903 team photograph places both men with the Authors’ side against the Artists. [Authors–Artists cricket photograph and discussion](https://emsworthmuseum.org.uk/emcms/files/original/b3ad0415d9eab00e6fd7419f00ab4f1b.pdf), [Conan Doyle–Barrie account](https://www.conandoyleinfo.com/life-conan-doyle/family/conan-doyle-and-james-m-barrie/)
+
+- **[T3]** **Documented fact.** Barrie and Doyle collaborated on the comic operetta *Jane Annie; or, The Good Conduct Prize* (1893), with music by Ernest Ford. The production failed commercially, but it is a firmly documented instance of sustained joint authorship and theatrical work.
+
+### Mark Twain
+
+- **[T3]** **Documented fact.** Doyle engaged with Twain in print, although no personal meeting is securely established here. In *The Wanderings of a Spiritualist* (1921), Doyle attributed to Twain a humorous saying about “turning the other cheek”; in “A Glimpse of Harry Lauder” he grouped Twain with Jerome K. Jerome and Lauder as humorists capable of pathos. Scholarship also identifies probable engagement with *Roughing It* behind aspects of the Mormon episodes in *A Study in Scarlet*, but that particular influence remains an informed literary inference rather than a documented admission by Doyle. [*The Wanderings of a Spiritualist*](https://www.arthur-conan-doyle.com/wiki/The_Wanderings_of_a_Spiritualist), [“The Absence of Holmes”](https://www.arthur-conan-doyle.com/wiki/The_Absence_of_Holmes)
+
+### Napoleon Bonaparte
+
+- **[T1-]** **Documented fact.** Doyle wrote extensively about Napoleon and the Napoleonic era. Napoleon appears as a major historical character in *Uncle Bernac* (1897), while the Brigadier Gerard stories repeatedly situate their fictional narrator within Napoleon’s campaigns. Doyle also assessed Napoleon in *Through the Magic Door*. Contemporary reviewers recognized *Uncle Bernac* as substantially a literary portrait of the emperor. [*Uncle Bernac*](https://www.arthur-conan-doyle.com/index.php?title=Uncle_Bernac), [“A Portrait of Napoleon”](https://www.arthur-conan-doyle.com/wiki/A_Portrait_of_Napoleon)
+
+### Oscar Wilde
+
+- **[T5]** **Documented fact.** Doyle and Wilde met at the Langham Hotel in London on 30 August 1889 at a dinner arranged by *Lippincott’s Monthly Magazine* editor J. M. Stoddart. Both accepted commissions there: Doyle produced *The Sign of the Four* and Wilde produced *The Picture of Dorian Gray*. Doyle’s pocket diary records the date and commission, and he later recalled the occasion warmly as a “golden evening.” The evidence supports a cordial literary acquaintance, not a close lifelong friendship. [Conan Doyle’s 1889 pocket diary](https://www.arthur-conan-doyle.com/wiki/Conan_Doyle%27s_Pocket_Diary_for_1889), [Sherlock Holmes Society of London](https://sherlock-holmes.org.uk/a-golden-day/)
+
 ## Sources
 
 https://www.arthur-conan-doyle.com/wiki/Biography

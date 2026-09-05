@@ -693,6 +693,61 @@ The legacy has no single stable form: Irish writer, English comic dramatist, Fre
 | 2017 | Historical conviction treated under statutory posthumous-pardon scheme, subject to conditions. |
 | 2025 | British Library symbolically restores reader status revoked in 1895. |
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Wilde discussed Aristotle at length in *The Rise of Historical Criticism*, written at Oxford in 1879, crediting him with establishing an inductive and scientific approach to history and political development. Aristotle is the earlier, written-about figure; Wilde is the later writer. [University College Cork text](https://celt.ucc.ie/published/E800003-001/text001.html)
+
+### Sir Arthur Conan Doyle
+
+- **[T5]** **Documented fact:** Wilde and Arthur Conan Doyle met at J. M. Stoddart’s dinner at London’s Langham Hotel on 30 August 1889. Both accepted commissions for *Lippincott’s Monthly Magazine*, producing *The Picture of Dorian Gray* and *The Sign of the Four*. Doyle’s contemporary pocket diary records the commission, and his autobiography remembers Wilde’s conversation warmly. [Arthur Conan Doyle Collection](https://www.conandoylecollection.com/conan-doyle/you-dont-know-sherlock-holmes-yet/conan-doyles-writings/conan-doyle-and-oscar-wilde), [1889 diary evidence](https://www.arthur-conan-doyle.com/wiki/Conan_Doyle%27s_Pocket_Diary_for_1889)
+
+### Dante Alighieri
+
+- **[T1-]** **Documented fact:** Dante recurs throughout Wilde’s writing, from the Italian historical setting and Dantean associations of *Ravenna* (1878) to the sustained engagement with Dante, exile, suffering, and the *Divine Comedy* in the prison letter later titled *De Profundis*. Wilde read Dante during his imprisonment and treated him as a principal predecessor in transforming suffering into art. Because Dante is the earlier figure and Wilde wrote about him, Wilde bears the negative sign. [1915 English text of *De Profundis*](https://en.wikisource.org/wiki/De_Profundis_%28Wilde%2C_1915%29/De_Profundis)
+
+### Homer
+
+- **[T1-]** **Documented fact:** Around 1876 Wilde wrote the unfinished, approximately 8,500-word essay now called “The Women of Homer,” reviewing John Addington Symonds’s treatment of Homeric women while offering Wilde’s own account of the heroines of the *Iliad* and *Odyssey*. The autograph manuscript survives at the Morgan Library. [Morgan Library manuscript record](https://www.themorgan.org/literary-historical/120334), [Oscar Wilde Society publication history](https://oscarwildesociety.co.uk/publications/other-publications/)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Wilde made Jesus the subject of an extended literary and religious interpretation in the 1897 prison letter later titled *De Profundis*. He characterized Christ as an intensely imaginative individualist and artist who made himself the voice and image of suffering. This is a documented textual engagement, not evidence that every theological claim in the letter was intended as orthodox doctrine. [Text of *De Profundis*](https://americanliterature.com/author/oscar-wilde/letter/de-profundis)
+
+### John Ruskin
+
+- **[T3]** **Documented fact:** Wilde attended Ruskin’s Oxford lectures, responded to his teaching through the Hinksey road-building project, and continued corresponding with him after university. Archival catalogues identify surviving letters from Wilde to Ruskin through 1884.
+- **[T5]** **Documented fact:** Their relationship was personal as well as intellectual: Wilde worked under Ruskin’s direction at Oxford and remained in sufficiently direct contact for Ruskin later to call him a “most true friend.” The precise extent of their later friendship is less fully documented than their Oxford association. [NYPL Ruskin papers](https://archives.nypl.org/brg/19183), [Ruskin research account](https://wp.lancs.ac.uk/the-ruskin/2019/03/14/john-ruskin-the-wildes-and-imaginations-reign/)
+
+### Sarah Bernhardt
+
+- **[T3]** **Documented fact:** Wilde wrote the French *Salomé* with Bernhardt as its intended star and submitted the play to her. She accepted it and rehearsed the title role in London in 1892, but the production was stopped when the Lord Chamberlain prohibited the public staging of biblical characters.
+- **[T5]** **Documented fact:** Wilde and Bernhardt were personally acquainted within the London and Paris theatrical world before the aborted production. Later picturesque stories about their introduction—especially Wilde carpeting her path with flowers—are reported anecdotes rather than securely contemporary documentation. [University College Oxford history of *Salomé*](https://www.univ.ox.ac.uk/news/wildes-salome/)
+
+### Victor Hugo
+
+- **[T5]** **Reported fact:** Robert Harborough Sherard, who said he accompanied Wilde, recalled taking him to one of Victor Hugo’s Paris receptions in 1883. This supports a personal meeting, although the surviving account was published retrospectively and should not be treated as a contemporaneous record of their conversation. [Sherard, *The Real Oscar Wilde*](https://upload.wikimedia.org/wikipedia/commons/9/94/The_real_Oscar_Wilde._With_numerous_unpublished_letters%2C_facsims%2C_ports._and_illus_%28IA_cu31924013572205%29.pdf)
+
+### W. B. Yeats
+
+- **[T3]** **Documented fact:** Yeats attended Wilde’s Dublin lecture on “The House Beautiful” in November 1883, making this a direct performer-audience crossing under the project’s discourse category. [Queen’s University Belfast study](https://pureadmin.qub.ac.uk/ws/portalfiles/portal/217745165/Yeats_and_Labour_Final_Hard_Bound.pdf)
+- **[T5]** **Reported fact:** Yeats later described his “first meeting” with Wilde and recorded Wilde’s conversation about Walter Pater and decadence. The meeting itself is accepted biographical evidence, while the exact dialogue rests on Yeats’s retrospective autobiography. [Yeats’s autobiographical account](https://www.ibiblio.org/sally/Yeats_on_Oscar_Wilde.html)
+
+### William Morris
+
+- **[T3]** **Documented fact:** Wilde repeatedly engaged in print with Morris’s work. He reviewed Morris’s translation of the *Odyssey* in the *Pall Mall Gazette* on 24 November 1888 and reported on Morris’s Arts and Crafts lecture about carpet and tapestry weaving. This establishes one-sided written engagement without requiring an unsupported claim of close friendship. [William Morris chronology](https://marxists.architexturez.net/archive/morris/works/chrono.htm), [Wilde’s “Mr Morris on Tapestry”](https://fullreads.com/essay/mr-morris-on-tapestry/)
+
+### Mark Twain
+
+- **[T5]** **Reported fact:** Twain’s reconstructed day-by-day chronology, drawing on his notebooks and documentary record, places a meeting between Twain and Wilde at Bad Nauheim, Germany, in July or August 1892. The available source does not establish a close relationship or a precise day, so the crossing should be recorded only as a reported personal meeting. [Mark Twain Day By Day](https://twainsgeography.com/node/19790)
+
+### Plato
+
+- **[T1-]** **Documented fact:** Wilde treated Plato as a major figure in the development of historical and philosophical criticism in *The Rise of Historical Criticism* and repeatedly engaged Platonic dialogue, aesthetics, and the relationship between truth and art in later criticism, especially “The Critic as Artist.” In *De Profundis* he explicitly paired the sayings of Plato and Christ as ideas transferable into art. [University College Cork text](https://celt.ucc.ie/published/E800003-001/text001.html), [text of *De Profundis*](https://americanliterature.com/author/oscar-wilde/letter/de-profundis)
+
+No supported T2 prophecy/hyperstition or T9 shared-object/site connection was located among the roster. Apparent links to figures such as Marcel Proust are omitted because the celebrated Wilde–Proust meeting is treated in modern scholarship as apocryphal rather than securely documented. [Yale scholarship description](https://doi.org/10.12987/yale/9780300108125.003.0006)
+
 ## Sources
 
 https://oscarwildesociety.co.uk/biography/

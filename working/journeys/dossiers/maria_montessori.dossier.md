@@ -515,6 +515,48 @@ Historical reinterpretation has moved through four broad phases: early internati
 - **1982:** Mario Montessori Sr. dies; AMI succession continues through family and trained leadership.
 - **2023–2026:** Renewed scholarly and public disputes over race, eugenics, Fascism, and founder mythology.
 
+## Atlas Connections
+
+### Alexander Graham Bell
+
+- **[T5] Documented fact:** Bell and his wife, Mabel Hubbard Bell, promoted Montessori education in the United States, opened a Montessori class in their Washington, D.C., home, and helped organize the Montessori Educational Association, with Bell serving as president. During Montessori’s 1913 American tour, the Bells hosted a reception for her, establishing a direct personal meeting as well as an institutional alliance. Bell subsequently published “The Montessori Principle of Auto-Development” in 1915. [AMI Canada historical records](https://ami-canada.com/earlyhistory.html)
+
+### Annie Besant
+
+- **[T5] Reported fact:** A history published by the Theosophical Society in America states that Montessori attended a lecture by Besant in London in 1907, that Besant publicly praised Montessori’s educational work, and that the encounter began a friendship. The meeting is plausible within Montessori’s documented Theosophical affiliation, although the accessible account is retrospective rather than a contemporaneous event record. [Theosophical Society in America](https://www.theosophical.org/publications/quest-magazine/montessori-and-the-theosophical-society)
+
+### Friedrich Fröbel
+
+- **[T1-] Documented fact:** Montessori discussed Fröbel and the kindergarten tradition in explaining how her own system differed from established object lessons, collective exercises, symbolic play, and teacher-directed “gifts.” Her treatment acknowledged the earlier educator while asserting that her materials and observational method proceeded on different principles. Fröbel is therefore the earlier figure about whom Montessori, the later writer, wrote in her pedagogical works.
+
+### Mahatma Gandhi
+
+- **[T5] Documented fact:** Gandhi and Montessori met in London on or before 9 October 1931, when Gandhi gave her an interview during the Second Round Table Conference. On 28 October he addressed international students at the Montessori Training College, with Montessori presiding and introducing him. Gandhi’s official chronology and collected writings record both events. [Gandhi Heritage Portal](https://www.gandhiheritageportal.org/round-table-conferences-and-london), [Cambridge University Press](https://www.cambridge.org/core/journals/history-of-education-quarterly/article/montessori-in-india-adapted-competing-and-contested-framings-19152021/600F08A014EEDF15D97CA88F9DA0F525)
+
+### Benito Mussolini
+
+- **[T5] Documented fact:** Montessori had direct contact with Mussolini in 1924 while seeking state backing for her method. Mussolini’s government subsequently supported Montessori institutions, and he became honorary president of the Opera Nazionale Montessori; surviving correspondence includes Montessori’s later letters to him, including a 1927 appeal concerning her work in Italy. The relationship was an institutional and political alliance before surveillance, conflict, and rupture in the 1930s. [Treccani, *Dizionario Biografico degli Italiani*](https://www.treccani.it/enciclopedia/maria-montessori_%28Dizionario-Biografico%29/), [Erica Moretti, *The Best Weapon for Peace*](https://www.jstor.org/stable/j.ctv1qwwhx5)
+
+### Johann Heinrich Pestalozzi
+
+- **[T1-] Documented fact:** Montessori addressed Pestalozzi as an important predecessor in the history of child-centered and sensory education, while distinguishing the medical-pedagogical descent of her apparatus through Itard and Séguin from the better-known Rousseau–Pestalozzi–Fröbel line. Pestalozzi is the earlier figure written about by Montessori, making her the later writer in this pairing.
+
+### Rabindranath Tagore
+
+- **[T3] Documented fact:** Tagore and Montessori maintained written contact concerning education in India. A surviving letter sent around the turn of 1939–1940 welcomed Montessori’s arrival, praised her educational work, and invited her to visit Tagore’s institution in Bengal. Claims of “several letters” beginning in 1926 and of an eventual personal visit circulate in Montessori histories, but the surviving letter securely establishes correspondence even where the precise meeting history remains less certain. [Reproduction and transcription of Tagore’s letter](https://www.kidkenmontessori.com/letter-to-maria-montessori-from-rabindranath-tagore-1940/), [Rabindra-Bhavana archival overview](https://www.visvabharati.ac.in/home/rbarchives/)
+
+### Rudolf Steiner
+
+- **Absence finding:** No reliable evidence located establishes a personal meeting, correspondence, shared event, or other qualifying crossing between Montessori and Steiner. Their contemporaneity and frequent comparison as founders of alternative educational systems are not sufficient for an Atlas connection.
+
+### John Dewey
+
+- **Absence finding:** The two educators were connected indirectly through American progressive-education organizations, Dewey’s daughter Evelyn, and the criticism of Dewey’s student William Heard Kilpatrick. No sufficiently documented direct meeting, correspondence, or personal written exchange between Montessori and Dewey was located, so their philosophical comparison alone is not classified as a crossing.
+
+### Jiddu Krishnamurti
+
+- **Absence finding:** Later scholarship compares Montessori’s and Krishnamurti’s educational philosophies, and both had associations with Theosophical networks. The located sources do not securely document a meeting, correspondence, or shared event; thematic resemblance and institutional adjacency therefore do not qualify as a connection.
+
 ## Sources
 
 https://montessori-ami.org/resource-library/facts/timeline-maria-montessoris-life

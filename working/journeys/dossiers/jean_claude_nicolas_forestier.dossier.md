@@ -780,6 +780,18 @@ Forestier’s durable legacy is not a list of sites he “designed” but a meth
 | 1997 | Critical *Grandes villes* edition adds Morocco and Argentina materials. |
 | 2000s–present | Renewed research on transnational urbanism, colonialism, race, planning finance, and collaborative authorship. |
 
+## Atlas Connections
+
+### Carlos Thays
+
+- **[T5]** **Reported fact.** Bénédicte Leclerc identifies Carlos León Thays as “the son of [Forestier’s] friend Charles Thays,” documenting a personal friendship between Forestier and the elder Franco-Argentine landscape designer. Both men were alive and professionally active when Forestier visited Buenos Aires in November–December 1923, but the accessible source does not specify when or where they first met. [Leclerc, “Jean Forestier en París y su influencia en América Latina,” pp. 177–185](https://www.academia.edu/22114365/VIII_Encuentro_de_Revitalizaci%C3%93n_de_CH_El_paisaje_urbano_en_ciudades_hist%C3%B3ricas)
+
+### Le Corbusier
+
+- **[T3]** **Documented fact.** Forestier discussed Le Corbusier’s *Pavillon de l’Esprit Nouveau* and the conflict over the surrounding fences and plantings in his signed 1925 article on the gardens of the Paris Exposition of Decorative Arts. Le Corbusier later recorded a substantive conversation in which Forestier explained the pressures that garden-suburb commuting placed on central Paris. This constitutes reciprocal written documentation of their professional exchange, although not agreement between their urban doctrines. [COAM, *Arquitectura*, no. 337, discussion of Forestier’s 1925 account](https://www.coam.org/media/Default%20Files/fundacion/biblioteca/revista-arquitectura-100/2000-2008/docs/revista-articulos/revista-arquitectura-2004-n337-pag50-59.pdf); [Vicente Casals Costa, “Barcelona, Lisboa y Forestier”](https://www.ub.edu/geocrit/sn/sn-296/sn-296-2.htm)
+
+- **[T5]** **Documented fact.** The conversation recalled by Le Corbusier establishes a personal meeting between the two men, associated in the scholarly account with their exchanges over Paris, garden suburbs, and metropolitan circulation. Their direct professional proximity is additionally documented at the **1925 Paris Exposition**, where Forestier directed the garden program and held official landscape responsibility around the *Pavillon de l’Esprit Nouveau*, while Le Corbusier controlled the pavilion and made detailed planting decisions. [Vicente Casals Costa, “Barcelona, Lisboa y Forestier”](https://www.ub.edu/geocrit/sn/sn-296/sn-296-2.htm); [Journal of the Korean Institute of Landscape Architecture, study of Le Corbusier’s gardens](https://www.jkila.org/archive/view_article?pid=jkila-49-5-12)
+
 ## Sources
 
 https://expositions-virtuelles.citedelarchitecture.fr/portraits_architectes/forje.php

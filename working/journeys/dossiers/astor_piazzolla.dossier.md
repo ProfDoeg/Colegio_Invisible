@@ -122,6 +122,34 @@ timeline
     2021 : Centennial of Piazzolla’s birth (global commemorations) 
 ```
 
+## Atlas Connections
+
+### Carlos Gardel
+
+- **[T5] Documented fact:** Piazzolla met Gardel in New York in 1934–35, played bandoneón for him, served as his bilingual guide, and became close to him and his circle. Gardel secured Piazzolla’s brief appearance as a newspaper boy in *El día que me quieras*, filmed at Paramount’s Long Island studios in January 1935. The Piazzolla Foundation also documents Gardel’s friendship with the Piazzolla family. ([Piazzolla Foundation chronology](https://astorpiazzolla.com/es/crono-biomusical/); [Buenos Aires city film archive](https://buenosaires.gob.ar/gcaba_historico/cultura/museos/museocasacarlosgardel/filmografia/el-dia-que-me-quieras))
+
+### Diego Rivera
+
+- **[T5] Reported fact:** As a boy in New York, Piazzolla encountered Rivera at Rockefeller Center, where Piazzolla was performing during celebrations connected with the complex’s opening. Rivera reportedly drew the young bandoneonist and gave him the drawing. The meeting is related both in Diego Fischerman and Abel Gilbert’s Piazzolla biography and in a retrospective published by *La Nación*. ([Penguin’s excerpt from *Piazzolla: El mal entendido*](https://www.penguinlibros.com/ar/biografias/236856-ebook-piazzolla-el-mal-entendido-9789877950205/fragmento); [*La Nación*](https://www.lanacion.com.ar/la-nacion-revista/100-anos-de-astor-piazzolla-un-idioma-universal-nid06032021/))
+
+### Igor Stravinsky
+
+- **[T5] Documented fact:** Diplomat Albino Gómez introduced Piazzolla to Stravinsky at a 1959 reception at the Metropolitan Club in New York. Piazzolla—who described himself to Stravinsky as a “disciple at a distance”—was initially overwhelmed; Gómez subsequently arranged a roughly half-hour meeting at Stravinsky’s hotel, where Piazzolla showed him several scores. The encounter is recorded in María Susana Azzi and Simon Collier’s scholarly biography. ([Azzi and Collier, *Le Grand Tango*](https://publications.iadb.org/publications/spanish/document/Le-Grand-Tango-La-vida-y-la-m%C3%BAsica-de-Astor-Piazzolla.pdf))
+
+### Jorge Luis Borges
+
+- **[T3] Documented fact:** Borges and Piazzolla entered a direct literary-musical collaboration in Buenos Aires in 1965. Piazzolla set Borges’s poems and prose—including “El Tango,” “Jacinto Chiclana,” and material derived from “Hombre de la esquina rosada”—for the album *El Tango*. Borges visited Piazzolla’s home on March 14, 1965, to hear the work in progress and attended recording sessions; their collaboration subsequently deteriorated amid disagreements about tango and Piazzolla’s musical treatment of the texts. ([University of Pittsburgh scholarly study](https://www.borges.pitt.edu/sites/default/files/Turci.pdf); [*Página/12*](https://www.pagina12.com.ar/1999/99-10/99-10-25/pag37.htm))
+
+### Nadia Boulanger
+
+- **[T5] Documented fact:** Piazzolla studied privately with Boulanger in Paris in 1954 after receiving a composition scholarship. Their face-to-face teacher–student relationship became decisive when Boulanger asked him to play one of his tangos and advised him to make that musical identity—not an imitation of European concert music—the basis of his work. A contemporary 1954 photograph also documents Piazzolla with Boulanger in France. ([RTVE account](https://www.rtve.es/play/audios/en-otros-lugares/otros-lugares-astor-piazzolla-visita-nadia-boulanger-26-10-11/1234035/); [Bibliothèque nationale de France catalogue record](https://catalogue.bnf.fr/ark%3A12148/cb43560531n))
+
+### Osvaldo Pugliese
+
+- **[T3] Documented fact:** Piazzolla’s Sexteto Nuevo Tango and Pugliese’s orchestra appeared in the same concert at Amsterdam’s Royal Carré Theatre on June 26, 1989. The two ensembles closed the event together with “La Yumba” and “Adiós Nonino”; the performance survives as the release *Live at the Royal Carré Theatre, Amsterdam*. ([MusicBrainz release documentation](https://musicbrainz.org/release/5a1b3b22-f722-4085-a88b-625217c8af21/disc/1); [Tango Amsterdam account](https://www.tangoalma.nl/tango/osvaldo-pugliese/?lang=en))
+
+No additional roster crossing was included where the available evidence established only influence, admiration, shared nationality, contemporaneity, or use of the same cultural tradition without a documented encounter or qualifying exchange.
+
 ## Sources  
 The above account is drawn from primary and scholarly sources. Key references include María Susana Azzi’s authoritative biography (English and Spanish editions) and Piazzolla’s own memoir (Gorin). Contemporary journalism (e.g. *El País*, *Los Angeles Times*) and official archives (the AstorPiazzolla Foundation site) provided details and eyewitness accounts. Spanish-language sources were used for local context and quotes. Below is a list of all cited sources and consulted links (deduplicated) used in this report: 
 

@@ -631,6 +631,39 @@ No single reputation has displaced the others. Admirers cite investment, Mexican
 | 26 May 2026 | Slim announces approximately US$5 billion in 2026 group investment, supports parts of Plan México, criticizes Pemex production and Lakach economics. |
 | 20 August 2026 | Living in Mexico City, active as strategic chairman/patriarch; estimated family fortune about US$123–125 billion. |
 
+## Atlas Connections
+
+### Auguste Rodin
+
+- **[T9-] Documented fact:** Slim’s Fundación Carlos Slim assembled and publicly exhibits at Museo Soumaya in Mexico City the largest collection of Rodin sculptures outside France. Slim began deliberately acquiring Rodin works in the 1990s; the holdings include casts or editions of *The Thinker*, *The Kiss*, *The Age of Bronze*, *The Burghers of Calais*, and works associated with *The Gates of Hell*. The surviving works constitute the shared-object connection: Rodin originated the sculptures and models; Slim’s foundation later acquired and preserved authorized casts and editions. ([Museo Soumaya](https://www.museosoumaya.org/colecciones/), [*Rodin en México*](https://www.museosoumaya.org/wp-content/revistas/2016/2016_junio.pdf))
+
+### Bill Clinton
+
+- **[T5] Documented fact:** Slim and former U.S. president Bill Clinton met through Clinton Foundation activities. Clinton personally presented Slim with the Clinton Global Citizen Award for Leadership in Philanthropy at the Clinton Global Initiative meeting in New York in September 2012. They also collaborated institutionally: in 2007 Clinton announced a Latin American sustainable-development initiative supported by a major commitment from Slim. ([Carlos Slim official archive](https://carlosslim.com/responsabilidad_slim_clintonglobal_ing.html), [Clinton Foundation](https://www.clintonfoundation.org/press-and-news/general/press-release-president-clinton-and-business-leaders-launch-sustainable-developm/))
+
+### Bill Gates
+
+- **[T5] Documented fact:** Slim and Gates have met repeatedly and collaborated through their foundations. Both attended the June 2010 launch of Salud Mesoamérica 2015 at Mexico’s National Museum of Anthropology, after their foundations and Spain each committed US$50 million. On 13 February 2013 they jointly inaugurated a biotechnology and agricultural-research facility at CIMMYT in Texcoco, Mexico; they later appeared together in a recorded discussion of their public-health partnership. ([El País](https://elpais.com/internacional/2010/06/15/actualidad/1276552801_850215.html), [Salud Mesoamérica](https://www.saludmesoamerica.org/en/mesoamerica/blog/gates-slim-help-fund-public-health), [Forbes/AP photograph](https://www.forbes.com/pictures/emeg45flif/bill-gates-carlos-slim/))
+
+### Camille Claudel
+
+- **[T9-] Documented fact:** Museo Soumaya, the museum established by Slim’s foundation, holds and exhibits Claudel sculptures including *The Gossips* (*Les Causeuses*), *The Wave*, and *The Waltz*. Claudel originated the works; their later acquisition and stewardship by Slim’s cultural institution supply the shared-object connection. No personal encounter was possible because Claudel died in 1943, when Slim was three. ([Museo Soumaya collection](https://www.museosoumaya.org/colecciones/))
+
+### Diego Rivera
+
+- **[T9-] Documented fact:** Slim’s Museo Soumaya collection contains Rivera’s *Río Juchitán*, described at the museum’s 2011 opening as Rivera’s final mural. Rivera originated the work; Slim’s foundation became its later custodian and displayed it at Plaza Carso. The evidence supports an object connection, not a personal meeting: Rivera died in 1957, when Slim was seventeen. ([Contemporaneous museum-opening report](https://www.laprensa.mx/notas.asp?id=55431))
+
+### Fidel Castro
+
+- **[T5] Reported fact:** Slim and Castro first met at a dinner organized during Castro’s visit to Mexico for Carlos Salinas de Gortari’s inauguration on 2 December 1988. Slim subsequently visited Castro in Cuba, discussed telecommunications and the restoration of Old Havana, and exchanged gifts with him—Slim supplied a television and Castro gave him Trinidad cigars. Castro later stated that they had met several times. ([La Jornada](https://www.jornada.com.mx/2002/02/04/003n1pol.php?origen=index.html), [Castro remarks reported in 2010](https://www.cubaheadlines.com/2010/08/13/26055/fidel_castro_praises_capitalist_carlos_slim_and_his_taste_in_televisions.html))
+- **[T3] Documented fact:** In an August 2010 column published through Cuban state media, Castro wrote approvingly about Slim, characterizing him as highly intelligent and knowledgeable about capitalism and recalling their meetings and the television Slim had given him. This is a one-sided written engagement by Castro with Slim as its subject. ([Contemporaneous summary of Castro’s column](https://expansion.mx/economia/2010/08/12/slim-fidel-castro-visita-amlo-expansion))
+
+### Pablo Picasso
+
+- **[T9-] Documented fact:** Picasso’s works form part of Museo Soumaya’s modern European holdings assembled and maintained by Fundación Carlos Slim. Picasso originated the objects; Slim’s institution later acquired and publicly exhibited them. The record reviewed supports this collection-based connection but not any direct encounter—Picasso died in 1973. ([Museo Soumaya collection](https://www.museosoumaya.org/colecciones/))
+
+No reliable evidence was found for prophecy or hyperstition links, and apparent similarities based only on wealth, ideology, historical interest, philanthropy, or presence at large international gatherings were excluded.
+
 ## Sources
 
 https://www.carlosslim.com/biografia_ing.html

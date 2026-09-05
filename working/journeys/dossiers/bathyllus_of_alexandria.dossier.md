@@ -544,6 +544,14 @@ His legacy is therefore double: a historical performer who helped establish impe
 
 ---
 
+## Atlas Connections
+
+### Pylades of Cilicia
+
+- **[T5]** **Reported fact:** Bathyllus and Pylades were professional associates and rivals at Augustan Rome. Athenaeus, citing Aristonicus, jointly credits them with organizing the composite “Italian dance”; Cassius Dio reports that they personally quarreled and that Augustus rebuked Pylades over the dispute, in a passage situated in **18 BCE**. The encounter is therefore supported by later ancient testimony, although Dio’s quoted dialogue cannot be independently verified. [Athenaeus 1.20d–e](https://archive.org/details/deipnosophistsor01athe), [Cassius Dio 54.17.4–5](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/54%2A.html)
+
+No further roster crossing is securely supported. In particular, shared Augustan chronology or participation in Maecenas’s broader milieu does not establish contact with Cicero, Cleopatra VII, or Virgil. The late *sic vos non vobis* legend concerns a poet called Bathyllus or Bacillus; because his identification with Bathyllus of Alexandria is unproved, it does not establish an Atlas connection with Virgil. [Paolo De Paolis, study of the *Donatus auctus* anecdote](https://hdl.handle.net/11562/988013)
+
 ## Sources
 
 https://www.attalus.org/poetry/crinagoras.html

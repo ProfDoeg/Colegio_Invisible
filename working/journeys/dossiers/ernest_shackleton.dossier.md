@@ -1864,6 +1864,26 @@ Health was unquestionably a real issue. Personal rivalry may also have mattered.
 
 ---
 
+## Atlas Connections
+
+### Robert Falcon Scott
+
+- **[T5]** **Documented fact:** Shackleton served under Scott as third officer of the *Discovery* expedition. Scott, Shackleton, and Edward Wilson traveled together on the southern journey of November 1902–February 1903, reaching a then-record latitude of approximately 82°17′S before returning in severe physical distress. Their direct association continued after Shackleton’s invaliding home and later became competitive over Antarctic plans and the use of McMurdo Sound. [Scott Polar Research Institute](https://www.spri.cam.ac.uk/museum/shackleton/biographies/Shackleton%2C_Ernest_Henry/)
+
+- **[T3]** **Documented fact:** Scott and Shackleton corresponded over Shackleton’s proposed operating area for the 1907–1909 *Nimrod* expedition. Shackleton gave Scott written assurances that he would try to avoid establishing his base in McMurdo Sound, although conditions ultimately led him to use Cape Royds there. Surviving correspondence confirms written engagement; interpretations of whether operational necessity justified Shackleton’s departure from the undertaking remain disputed.
+
+### Roald Amundsen
+
+- **[T3]** **Documented fact:** Amundsen attended Shackleton’s lecture to the Norwegian Geographical Society at Gamle Logen, Christiania, on **16 October 1909**, together with Fridtjof Nansen and the Norwegian royal couple. This is a roster-defined discourse connection because Amundsen personally saw Shackleton deliver his account of the *Nimrod* expedition. [James Caird Society](https://jamescairdsociety.com/wp-content/uploads/JournalNo10-compressed.pdf)
+
+- **[T5]** **Documented fact:** Shackleton and Amundsen were personally present at a dinner honoring Amundsen at New York’s Union Club on **15 January 1913**, where both signed the same commemorative menu; they were photographed together with Robert Peary on **16 January 1913**. [Bowdoin College Special Collections](https://archivesspace.bowdoin.edu/repositories/2/archival_objects/61285), [Naval History and Heritage Command](https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-47000/NH-47455.html)
+
+### Sir Arthur Conan Doyle
+
+- **[T1+]** **Documented fact as to the writings; spiritualist claim unverified:** In **1924**, two years after Shackleton’s death, Conan Doyle wrote two letters to Lady Emily Shackleton concerning purported spirit communications from her deceased husband and helped arrange for her to see a medium. Shackleton is therefore the earlier, written-about figure. The letters’ existence and subject are documented; any assertion that the communications genuinely originated with Shackleton belongs to spiritualist belief rather than established fact. [Christie’s archive description](https://www.christies.com/en/lot/lot-2777935), [The Irish Times](https://www.irishtimes.com/news/conan-doyle-letters-to-shackleton-s-wife-1.507329)
+
+No other roster connection was included: contemporaneity, broadly shared locations, institutional association, literary influence, or involvement in the same historical events without evidence of writing, attendance, proximity, meeting, or a qualifying shared object was treated as insufficient.
+
 ## Sources
 
 https://www.gutenberg.org/ebooks/5199

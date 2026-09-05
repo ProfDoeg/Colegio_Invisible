@@ -672,6 +672,32 @@ Agartha now circulates in New Age literature, games, comics, animation, music, c
 | 2008 | First full English translation of *Mission de l’Inde* as *The Kingdom of Agarttha* |
 | 2010s–2020s | Agartha expands through popular culture and internet meme/conspiracy ecosystems |
 
+## Atlas Connections
+
+### Helena Petrovna Blavatsky
+
+- **[T3] Documented fact:** Saint-Yves became the subject of a one-sided Theosophical exchange in 1888. After members of the disputed French Isis Lodge reportedly proposed apologizing to him, a letter published in Blavatsky’s London journal *Lucifer* denied that the lodge had unanimously authorized such an apology; Blavatsky appended a note stating that Saint-Yves “is not, nor ever was, a member of the Theosophical Society.” This documents written engagement, not correspondence, personal acquaintance, or membership. [Contemporary text in *Lucifer*, July 1888](https://theosophylib.com/hpb/lisis/)
+
+### Jesus of Nazareth
+
+- **[T1−] Documented fact:** Saint-Yves wrote extensively about Jesus within his Christian sacred history and archeometric biblical work. Most explicitly, his papers supplied the posthumous **1909** volume *La Théogonie des patriarches: Jésus (Nouveau Testament); Moïse (Ancien Testament)*, incorporating his archeometric translation and interpretation of the Gospel of John. Because Jesus is the earlier figure and Saint-Yves the later writer, Saint-Yves carries the minus sign. [Bibliographical overview](https://fr.wikipedia.org/wiki/Alexandre_Saint-Yves_d%27Alveydre#Publications)
+
+### Joan of Arc
+
+- **[T1−] Documented fact:** Saint-Yves made Joan the subject of *Jeanne d’Arc victorieuse: Épopée nationale dédiée à l’armée française* (**Paris, 1890**). The epic interpreted her defeat through the alleged betrayal of Charles VII’s counselors and accompanied Saint-Yves’s announcement that he was ending his active synarchic lobbying. [Bibliographical and content notice](https://fr.wikipedia.org/wiki/Alexandre_Saint-Yves_d%27Alveydre#Son_%C5%93uvre)
+
+### Moses
+
+- **[T1−] Documented fact:** Moses was a central figure in Saint-Yves’s *Mission des Juifs* (**1884**) and in the posthumous **1909** *Théogonie des patriarches*, which presented his archeometric treatment of the “Sepher de Moïse.” Saint-Yves represented Mosaic revelation and law as fundamental transmissions of primordial sacred knowledge; that is Saint-Yves’s esoteric interpretation, not an independently established historical transmission. [Bibliographical overview](https://fr.wikipedia.org/wiki/Alexandre_Saint-Yves_d%27Alveydre#Publications)
+
+### René Guénon
+
+- **[T1+] [T9+] Documented fact:** After Saint-Yves’s death, F.-Ch. Barlet transferred unpublished Saint-Yves archeometric documents to the young Guénon and collaborators associated with *La Gnose*. They used this material for the unsigned/“T.” series *L’Archéomètre* (**Paris, 1910–1912**), making Saint-Yves the originator and earlier holder of the documentary object (**T9+**). Guénon subsequently wrote repeatedly about Saint-Yves (**T1+**), most notably in *Le Roi du monde* (**1927**), whose opening chapter explicitly examined *Mission de l’Inde*, Agarttha, and Saint-Yves’s claims alongside those of Ossendowski. No personal meeting is established: Guénon was twenty-two when Saint-Yves died, and the documented transmission was posthumous. [Guénon’s *Le Roi du monde*, chapter 1](https://oeuvre-de-rene-guenon.org/textes/RDM01.php) [Account of the manuscript transfer and *La Gnose* articles](https://fr.wikipedia.org/wiki/Alexandre_Saint-Yves_d%27Alveydre#L'Arch%C3%A9om%C3%A8tre)
+
+### Victor Hugo
+
+- **[T1−] Documented fact:** Saint-Yves wrote the memorial pamphlet *Les Funérailles de Victor Hugo, par l’auteur des Missions* in **Paris in 1885**, the year of Hugo’s death. Saint-Yves had moved to Jersey in **1863** under the attraction of Hugo’s works and reputation, but Hugo had resided on Guernsey since 1855; the sources consulted do not securely establish a personal meeting or friendship, so no T4 or T5 connection is assigned. [Biographical and publication record](https://fr.wikipedia.org/wiki/Alexandre_Saint-Yves_d%27Alveydre#Biographie)
+
 ## Sources
 
 https://fr.wikipedia.org/wiki/Alexandre_Saint-Yves_d%27Alveydre

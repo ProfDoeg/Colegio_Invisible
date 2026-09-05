@@ -671,6 +671,14 @@ The strongest current interpretation is layered rather than exclusive:
 
 ---
 
+## Atlas Connections
+
+### Georges Hébert
+
+- **[T1-] Documented fact:** Belle discussed the earlier physical educator Georges Hébert in *Parkour* (2009), distinguishing Hébert’s *méthode naturelle* and military obstacle-course training from the urban discipline he developed. The connection was indirect: Belle encountered Hébertian methods through French military and firefighter culture—especially his brother Jean-François and the Belle family’s training tradition—not through personal contact; Hébert died in 1957, sixteen years before Belle’s birth. [Belle’s book text](https://pt.scribd.com/document/808939824/Parkour-Intervista-Sabine-Gros-La-Faige-INTERVISTA-PS-2009-Septieme-choc-Editions-9782357560253-00d5b5cc98e5f2a3eda1d1afec9da13e); [Alec Wilkinson, “No Obstacles”](https://www.newyorker.com/magazine/2007/04/16/no-obstacles)
+
+No qualifying documented crossing was found between David Belle and any other person on the supplied atlas roster. Mere thematic resemblance, shared geography, or membership in a broad intellectual or movement tradition was excluded.
+
 ## Sources
 
 https://www.newyorker.com/magazine/2007/04/16/no-obstacles

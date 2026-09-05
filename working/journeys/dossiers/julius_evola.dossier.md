@@ -605,6 +605,91 @@ The 2022 MART retrospective and 2025 catalogue raisonné reinserted him into his
 | 2025 | Electa publishes Pautasso's catalogue raisonné of the artistic work. |
 | 2026 | Peter Staudenmaier publishes *Julius Evola and the Radical Right*. |
 
+## Atlas Connections
+
+### Aleksandr Gelyevich Dugin
+
+- **[T1+] Documented fact:** Evola was an important written-about figure for Dugin. In 1981 or the early 1980s, Dugin translated the 1933 German version of Evola’s *Heidnischer Imperialismus* into Russian and circulated it in samizdat; he subsequently published essays interpreting Evola and incorporated parts of Evolian Traditionalism into his own political thought. This is a posthumous intellectual reception, not a personal meeting. [Andreas Umland’s historical study](https://journals.sagepub.com/doi/10.1016/j.euras.2010.04.008); [ETH Zürich research paper](https://www.files.ethz.ch/isn/20571/OP294.pdf)
+
+### Annie Besant
+
+- **[T3] Documented fact:** Evola discussed Besant’s leadership of the Theosophical Society and the promotion of Jiddu Krishnamurti as a “World Teacher” in *Maschera e volto dello spiritualismo contemporaneo* (1932 and revised editions). The engagement was entirely textual and generally critical; no meeting or correspondence is documented. [Google Books record and indexed text](https://books.google.com/books/about/Maschera_e_Volto_dello_Spiritualismo_Con.html?id=wZTLCQAAQBAJ); [Joscelyn Godwin’s historical study](https://hermetic.com/godwin/julius-evola)
+
+### Blavatsky
+
+- **[T1-] Documented fact:** Evola repeatedly examined Helena P. Blavatsky’s Theosophy, especially in *Maschera e volto dello spiritualismo contemporaneo* (1932), criticizing its mediumistic and syncretic features while drawing on or paralleling parts of its prehistoric and cyclical cosmology. Blavatsky died in 1891, before Evola’s birth, so the connection is exclusively through her writings and their reception. [Joscelyn Godwin’s historical study](https://hermetic.com/godwin/julius-evola); [Google Books record and indexed text](https://books.google.com/books/about/Maschera_e_Volto_dello_Spiritualismo_Con.html?id=wZTLCQAAQBAJ)
+
+### Dante Alighieri
+
+- **[T1-] Documented fact:** Evola interpreted Dante as an initiate and as a representative of the Ghibelline, imperial current, most explicitly in chapter 26 of *Il mistero del Graal e la tradizione ghibellina dell’Impero* (1937). This was Evola’s esoteric-political reading of Dante, not evidence of an initiatic lineage passing historically from Dante to Evola. [Discussion of Evola’s Dante interpretation](https://arktos.com/2023/06/24/dante-alighieri-and-the-philosophy-of-right/)
+
+### Gabriele d’Annunzio
+
+- **[T3] Documented fact:** Evola read d’Annunzio closely in adolescence and later wrote critically about the D’Annunzian “superman,” distinguishing it from the impersonal, transcendent type he wished to derive from Nietzsche and Tradition. Both men lived in Italy during 1898–1938, but the evidence reviewed supports one-sided literary engagement rather than a securely documented personal meeting. [Treccani biography of Evola](https://www.treccani.it/enciclopedia/giulio-cesare-andrea-evola_(Dizionario-Biografico)/)
+
+### F. T. Marinetti
+
+- **[T5] Documented fact:** Evola entered Marinetti’s Italian Futurist circle during the First World War and exhibited at the National Futurist Exhibition organized at Palazzo Cova in Milan in April 1919. He later rejected Marinetti’s nationalism, industrialism, and anti-German wartime orientation. Contemporary artistic activity and Evola’s retrospective testimony support personal acquaintance, although the surviving evidence does not establish a close friendship. [Treccani biography of Evola](https://www.treccani.it/enciclopedia/giulio-cesare-andrea-evola_(Dizionario-Biografico)/); [International Dada Archive](https://sdrc.lib.uiowa.edu/dada/dadas/evola.htm)
+
+### Fichte
+
+- **[T1-] Documented fact:** Evola engaged Johann Gottlieb Fichte’s absolute idealism while constructing his own “magical idealism” in *Saggi sull’idealismo magico* (1925), *L’individuo e il divenire del mondo* (1926), and the two volumes on the “absolute individual” (1927–1930). His project attempted to turn philosophical self-positing into operative, transformative power and was an appropriation and revision rather than simple adherence to Fichte. [Treccani biography of Evola](https://www.treccani.it/enciclopedia/giulio-cesare-andrea-evola_(Dizionario-Biografico)/); [University of Victoria study](https://dspace.library.uvic.ca/server/api/core/bitstreams/4324d561-ca42-44b7-ab14-dbad1f67f9e0/content)
+
+### Freud
+
+- **[T3] Documented fact:** Evola criticized Sigmund Freud’s psychoanalysis in *Maschera e volto dello spiritualismo contemporaneo* and later writings, regarding its interpretation of the unconscious and sexuality as reductive and “subpersonal.” This was one-sided written engagement; no correspondence or meeting is documented. [Google Books record and indexed text](https://books.google.com/books/about/Maschera_e_Volto_dello_Spiritualismo_Con.html?id=wZTLCQAAQBAJ)
+
+### Gurdjieff
+
+- **[T3] Documented fact:** Evola devoted critical discussion to G. I. Gurdjieff and his movement in *Maschera e volto dello spiritualismo contemporaneo*. He regarded aspects of Gurdjieff’s discipline and “awakening” more seriously than ordinary spiritualism but rejected the movement as an adequate initiatic authority. No reliable evidence of a meeting or correspondence was found. [Google Books record and indexed text](https://books.google.com/books/about/Maschera_e_Volto_dello_Spiritualismo_Con.html?id=wZTLCQAAQBAJ)
+
+### Hegel
+
+- **[T1-] Documented fact:** Evola’s philosophical books of 1925–1930 engaged and attempted to move beyond Hegelian and post-Hegelian Idealism. He opposed what he considered the merely logical or historical resolution of the absolute and proposed instead an “absolute individual” possessing operative power. This is a textual-philosophical connection only. [Treccani biography of Evola](https://www.treccani.it/enciclopedia/giulio-cesare-andrea-evola_(Dizionario-Biografico)/); [University of Victoria study](https://dspace.library.uvic.ca/server/api/core/bitstreams/4324d561-ca42-44b7-ab14-dbad1f67f9e0/content)
+
+### Jiddu Krishnamurti
+
+- **[T3] Documented fact:** Evola devoted a substantial section of *Maschera e volto dello spiritualismo contemporaneo* to Krishnamurti. He discussed both the Theosophical construction of Krishnamurti as “World Teacher” and Krishnamurti’s later rejection of that role, treating the latter with qualified respect. Fascist police reports alleging that Evola belonged to Krishnamurti’s Order of the Star were suspicions, not proof of membership or personal contact. [Joscelyn Godwin’s historical study](https://hermetic.com/godwin/julius-evola); [discussion of Evola’s Krishnamurti chapter](https://www.paulbrunton.org/publications/commentaries/beyond-the-cosmic-ladder/)
+
+### Jung
+
+- **[T3] Documented fact:** Evola repeatedly engaged Carl Gustav Jung’s psychology, archetypes, alchemical interpretation, and theory of the unconscious, including a 1950 article commonly titled “Lo svizzero Jung aggiorna Freud” and discussions incorporated into later editions of *Maschera e volto dello spiritualismo contemporaneo*. Evola considered Jung less reductive than Freud but rejected the psychologization of metaphysical and initiatic symbols. No correspondence or meeting is documented. [Google Books record and indexed text](https://books.google.com/books/about/Maschera_e_Volto_dello_Spiritualismo_Con.html?id=wZTLCQAAQBAJ)
+
+### Mircea Eliade
+
+- **[T3] Documented fact:** Eliade reviewed Evola as early as 1927, and the two maintained an intermittent correspondence from the interwar period through the 1950s. Evola reviewed and cited Eliade, helped connect his work with Italian publishers, translated some of his writing, and later contributed five articles to *Antaios*, the journal co-edited by Eliade and Ernst Jünger. Surviving Evola letters and Eliade’s journals document both cooperation and later estrangement. [Encyclopedia of Religion entry](https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/evola-julius); [Liviu Bordaș’s archival study](https://www.researchgate.net/publication/369236062_The_difficult_encounter_in_Rome_Mircea_Eliade%27s_post-war_relation_with_Julius_Evola_-_new_letters_and_data_International_Journal_on_Humanistic_Ideology_IV_no_2_Autumn-Winter_2011_pp_125-158)
+- **[T5] Documented fact:** Evola and Eliade met in Bucharest in 1937 in the circle of Nae Ionescu. Archival research also documents two postwar meetings in Rome, in May 1952 and April 1955. The evidence supports repeated personal meetings, but descriptions of an enduring close friendship overstate a relationship marked by caution and eventual rupture. [Persée scholarly article](https://www.persee.fr/doc/arss_0335-5322_1995_num_106_1_3134); [Liviu Bordaș’s archival study](https://www.researchgate.net/publication/369236062_The_difficult_encounter_in_Rome_Mircea_Eliade%27s_post-war_relation_with_Julius_Evola_-_new_letters_and_data_International_Journal_on_Humanistic_Ideology_IV_no_2_Autumn-Winter_2011_pp_125-158)
+
+### Mussolini
+
+- **[T3] Documented fact:** Evola wrote repeatedly about Mussolini and Fascism from the 1920s onward, sometimes addressing the regime as a potential vehicle for pagan-imperial transformation and sometimes attacking its nationalism, Catholic accommodation, populism, and bureaucratic character. Mussolini also read or was briefed on *Sintesi di dottrina della razza* in 1941 and authorized support for Evola’s proposed Italian-German racial journal. [Treccani biography of Evola](https://www.treccani.it/enciclopedia/giulio-cesare-andrea-evola_(Dizionario-Biografico)/); [Peter Staudenmaier’s archival article](https://journals.sagepub.com/doi/abs/10.1177/0022009419855428)
+- **[T5] Documented fact:** Mussolini personally received Evola at the Palazzo Venezia in Rome in September 1941 to discuss *Sintesi di dottrina della razza*. Evola was later present in the German-controlled milieu surrounding Mussolini’s restoration in September 1943, but this does not establish a continuous advisory relationship or personal intimacy. [Treccani biography of Evola](https://www.treccani.it/enciclopedia/giulio-cesare-andrea-evola_(Dizionario-Biografico)/); [Peter Staudenmaier’s archival article](https://journals.sagepub.com/doi/abs/10.1177/0022009419855428)
+
+### Nietzsche
+
+- **[T1-] Documented fact:** Nietzsche was one of Evola’s formative adolescent authors and remained a major explicit interlocutor. Evola discussed the “death of God,” nihilism, eternal recurrence, the Übermensch, and the will to power, most extensively in *Cavalcare la tigre* (1961), while faulting Nietzsche for naturalism, individualism, and the absence of a fully transcendent foundation. [Treccani biography of Evola](https://www.treccani.it/enciclopedia/giulio-cesare-andrea-evola_(Dizionario-Biografico)/)
+
+### Oscar Wilde
+
+- **[T1-] Documented fact:** Evola identified Wilde among the writers who shaped his adolescent revolt against bourgeois life and conventional morality. The presently documented crossing is reception through reading and later autobiographical discussion; no direct contact was possible, since Wilde died in 1900 when Evola was two years old. [Treccani biography of Evola](https://www.treccani.it/enciclopedia/giulio-cesare-andrea-evola_(Dizionario-Biografico)/)
+
+### René Guénon
+
+- **[T3] Documented fact:** Evola and Guénon conducted a substantial correspondence from approximately 1930 until Guénon’s death in 1951, following earlier public engagement with Guénon’s writings. Guénon contributed to Evola’s *Diorama filosofico*, while Evola translated, reviewed, and debated him on Vedānta, initiation, political action, and the relative authority of priestly and warrior functions. Published collections preserve numerous letters, but no securely documented personal meeting was found. [Published correspondence description](https://www.ilgiardinodeilibri.it/libri/__lettere-julius-evola-gue-non-libro.php); [Fondazione Julius Evola](https://www.fondazionejuliusevola.com/)
+
+### Rudolf Steiner
+
+- **[T1-] Documented fact:** Evola examined Steiner’s Anthroposophy at length in *Maschera e volto dello spiritualismo contemporaneo*, criticizing its Christian-evolutionary structure and claims of supersensible investigation while also drawing on themes circulating through Anthroposophical associates in the Ur milieu. Steiner died in 1925; no personal meeting or correspondence is documented. [Joscelyn Godwin’s historical study](https://hermetic.com/godwin/julius-evola); [Google Books record and indexed text](https://books.google.com/books/about/Maschera_e_Volto_dello_Spiritualismo_Con.html?id=wZTLCQAAQBAJ)
+
+### Giuseppe Tucci
+
+- **[T3] Documented fact:** Evola participated in Tucci’s IsMEO publishing environment, contributing to *Asiatica* in 1940 and fifteen essays to its successor *East and West* between 1950 and 1960. A surviving letter dated 9 June 1952 shows Evola submitting an article directly to Tucci. This establishes written and institutional engagement; the available evidence does not justify calling Evola Tucci’s pupil or asserting a close friendship. [History of Evola’s IsMEO contributions](https://www.fondazionejuliusevola.com/contributi/saggi-su-julius-evola/julius-evola-ponte-tra-oriente-e-occidente/); [Treccani biography of Tucci](https://www.treccani.it/enciclopedia/giuseppe-tucci_%28Dizionario-Biografico%29/)
+
+### Miguel Serrano
+
+- **[T5] Reported fact:** Serrano’s chronology and later recollections place a personal visit to Evola’s apartment at Corso Vittorio Emanuele II 197 in Rome in 1970. Serrano described a conversation with the wheelchair-bound Evola and a moment in which Evola called him back as he was leaving. The visit is credible self-report; Serrano’s suggestion that Evola might have intended to disclose a final secret is explicitly speculative. [Serrano chronology](https://www.miguelserrano.cl/site/vida-cronologia/1967-1970/); [Serrano’s later recollection](https://miguelserrano.org/wp-content/uploads/2024/11/The-Golden-Thread.pdf)
+- **[T1+] Documented fact:** After Evola’s death, Serrano wrote about the encounter in “El secreto de Julius Evola,” published in *Hiperbórea* no. 2 (1992) and incorporated into *Nuestro honor se llama lealtad* (1994). Serrano appropriated Evolian themes within his own Esoteric Hitlerism, but this later synthesis cannot be attributed back to Evola as a shared doctrine. [Serrano bibliography](https://www.miguelserrano.cl/site/obra-bibliografia/1990-2000/); [Nuestro honor se llama lealtad](https://www.miguelserrano.cl/site/nuestro-honor-se-llama-lealtad/)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/giulio-cesare-andrea-evola_(Dizionario-Biografico)/

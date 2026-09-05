@@ -846,6 +846,80 @@ The 2025 Nick Land debate locates him within a newer transnational constellation
 | **Apr 2026** | AST releases *Tango over the Abyss: Escalations*. |
 | **Jul–Aug 2026** | RSUH continues to identify Dugin as director of Ivan Ilyin Higher Political School; he remains alive and active. |
 
+## Atlas Connections
+
+Only documentary crossings are included. Mere intellectual resemblance, common subject matter, or membership in a broad tradition was excluded.
+
+### Alexander the Great
+
+- **[T1-] Documented fact:** Dugin discussed Alexander in *Noomakhia*, portraying his conquest of Asia as a Dionysian imperial act joining East and West and interpreting the legendary Caspian Gates wall through Greek sacred geography. The relevant discussion appeared in *The Three Logoi* (Russian edition, Moscow, 2014). [Dugin, “The Three Logoi”](https://www.4pt.su/en/content/three-logoi-introduction-triadic-methodology-noomakhia)
+
+### Aristotle
+
+- **[T1-] Documented fact:** Dugin repeatedly wrote about Aristotle as the representative of a distinct philosophical Logos, contrasted with Platonic-Apollonian hierarchy and materialist-Cybelean thought. Aristotle and his relationship to Alexander receive specific treatment in *The Three Logoi* (2014), the methodological opening of *Noomakhia*. [Dugin, “The Three Logoi”](https://www.4pt.su/en/content/three-logoi-introduction-triadic-methodology-noomakhia)
+
+### Carl Gustav Jung
+
+- **[T1-] Documented fact:** Dugin published and discussed Jung as a representative of “soft Traditionalism” and as a central figure in the Eranos milieu. Marlène Laruelle documents Dugin’s dissemination or translation of Jungian extracts in his publishing network; Dugin’s *Noomakhia* likewise places Jung and Eranos within the modern Dionysian Logos. [Laruelle](https://www.files.ethz.ch/isn/20571/OP294.pdf), [Dugin, “The Three Logoi”](https://www.4pt.su/en/content/three-logoi-introduction-triadic-methodology-noomakhia)
+
+### Friedrich Nietzsche
+
+- **[T1-] Documented fact:** Nietzsche was a recurring subject from Dugin’s Soviet-underground formation onward. Dugin devoted broadcasts and lectures to him—including a *Finis Mundi* program in Moscow in 1997–1998—and interpreted Nietzsche’s invocation of Dionysus in *Noomakhia*. This is textual and broadcast engagement, not a personal crossing; Nietzsche died in 1900. [Laruelle](https://www.files.ethz.ch/isn/20571/OP294.pdf), [Dugin, “The Three Logoi”](https://www.4pt.su/en/content/three-logoi-introduction-triadic-methodology-noomakhia)
+
+### Friedrich Wilhelm Joseph Schelling
+
+- **[T1-] Documented fact:** Dugin treated Schelling’s “Dionysiology” as a major Romantic manifestation of the Dionysian Logos in *The Three Logoi* (2014), placing it within his larger genealogy of European philosophical forms. [Dugin, “The Three Logoi”](https://www.4pt.su/en/content/three-logoi-introduction-triadic-methodology-noomakhia)
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-] Documented fact:** Dugin’s sustained engagement culminated in the 2025 Russian monograph *Феноменология Гегеля: опыт трансверсальных интерпретаций* (*Hegel’s Phenomenology: An Experiment in Transversal Interpretations*). The connection is exclusively posthumous textual interpretation; Hegel died in 1831. [AST author catalog](https://ast.ru/authors/dugin-aleksandr-gelevich-000005079/books/)
+
+### Guy Debord
+
+- **[T1-] Documented fact:** Debord was among the named subjects of Dugin’s *Finis Mundi* philosophical-musical radio portraits, broadcast in Moscow on Radio 101 in 1997–1998. This establishes a discrete authored/broadcast treatment rather than merely a shared critique of modern consumer culture. [Laruelle](https://www.files.ethz.ch/isn/20571/OP294.pdf)
+
+### Julius Evola
+
+- **[T1-] Documented fact:** Dugin translated the 1933 German version of Evola’s *Pagan Imperialism* into Russian in 1981 and circulated it in samizdat. He subsequently wrote introductions, lectures, essays, broadcasts, and the book-length *Julius Evola: Political Traditionalism* (2023). Dugin expressly calls Evola, alongside Guénon, one of the two principal foundations of his Traditionalism. Evola died in 1974, so there was no personal meeting. [Laruelle](https://www.files.ethz.ch/isn/20571/OP294.pdf), [MSU bibliographic record](https://istina.msu.ru/publications/book/761981212/), [Dugin on Evola’s influence](https://www.4pt.su/en/content/fourth-political-theory-and-italian-logos)
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Dugin wrote extensively about Marx as the central theorist of the “Second Political Theory,” whose political subject he identifies as class. Marxism is analyzed throughout *The Fourth Political Theory* (Russian edition, 2009) and its sequels, where Dugin proposes selectively reusing elements of Marxist criticism while rejecting its materialism, progressivism, and class ontology. [MSU book record](https://istina.msu.ru/publications/book/1220128/)
+
+### Martin Heidegger
+
+- **[T1-] Documented fact:** Heidegger became the subject of several Dugin lecture cycles and monographs, including *Martin Heidegger: The Philosophy of Another Beginning* (2010), *Martin Heidegger: The Possibility of Russian Philosophy* (2011), *Martin Heidegger: The Last God* (2014), and *Martin Heidegger: Metapolitics—The Eschatology of Being* (2016). Dugin also made Heideggerian *Dasein* the proposed subject of his Fourth Political Theory. Heidegger died in 1976; the crossing is posthumous and textual. [MSU bibliographic record](https://istina.msu.ru/publications/book/1210691/), [academic analysis](https://www.cambridge.org/core/journals/nationalities-papers/article/heidegger-and-postcolonial-fascism/1E524C52A2735E7EB3BA82B0B1F3CBCB)
+
+### Mircea Eliade
+
+- **[T1-] Documented fact:** Dugin disseminated and discussed Eliade as a “soft Traditionalist,” addressed him in the *Finis Mundi* radio series in Moscow in 1997–1998, and later placed him within the Jung-centered Eranos constellation in *Noomakhia*. No personal meeting is possible on the located chronology: Eliade died in 1986, before Dugin’s documented Western European networking. [Laruelle](https://www.files.ethz.ch/isn/20571/OP294.pdf), [Dugin, “The Three Logoi”](https://www.4pt.su/en/content/three-logoi-introduction-triadic-methodology-noomakhia)
+
+### Nick Land
+
+- **[T3] Documented fact:** Dugin and Land participated in a live, recorded, substantive dialogue hosted online by Auron MacIntyre on 6 October 2025. They directly exchanged views on liberalism, empire, plural temporalities, *Dasein*, capital, technology, AI, and eschatology. This establishes discourse but not friendship, organizational collaboration, or discipleship. [Transcript](https://www.4pt.su/en/content/nick-land-and-alexander-dugin-liberalism-empire-and-eschaton), [video](https://paideuma.tv/en/video/nick-land-vs-aleksandr-dugin-debate-10625)
+
+### Plato
+
+- **[T1-] Documented fact:** Dugin wrote repeatedly about Plato and Platonism, most explicitly in *Political Platonism* and *Politica Aeterna*, and made the Apollonian or paternal Logos substantially Platonic in *Noomakhia*. His discussion directly engages such dialogues as the *Timaeus* and *Sophist*, rather than invoking “Platonism” only as a generic label. [Dugin, “The Three Logoi”](https://www.4pt.su/en/content/three-logoi-introduction-triadic-methodology-noomakhia)
+
+### René Guénon
+
+- **[T1-] Documented fact:** Dugin translated, introduced, taught, and repeatedly interpreted Guénon from the late Soviet and early post-Soviet periods onward. His *Paths of the Absolute* (written in 1989; published in 1990) presented Guénonian Traditionalism to Russian readers, while *Philosophy of Traditionalism* (2002) developed it through a lecture course. Dugin called Guénon the founding figure of Traditionalism but adapted his work toward activism, geopolitics, and Russian imperial politics. Guénon died in 1951, so the relationship was entirely textual. [Laruelle](https://www.files.ethz.ch/isn/20571/OP294.pdf), [Dugin on *Paths of the Absolute*](https://www.4pt.su/en/regions/global?page=4)
+
+### Vladimir Lenin
+
+- **[T1-] Documented fact:** Dugin treated Lenin repeatedly in his writings on National Bolshevism, communism, and the Second Political Theory. His 1990s synthesis interpreted Bolshevism less as orthodox Marxism than as a revolutionary vehicle for Russian national and imperial energies; later Fourth Political Theory writings rejected Leninist class materialism while retaining interest in revolutionary strategy. The connection is posthumous textual interpretation, not institutional continuity or personal contact. [Laruelle](https://www.files.ethz.ch/isn/20571/OP294.pdf)
+
+### Volodymyr Zelenskyy
+
+- **[T3] Documented fact:** Dugin has engaged Zelenskyy one-sidedly in wartime articles and commentary, treating his presidency as an expression of the Ukrainian political order and Western alignment that Dugin opposes. No reciprocal correspondence, interview, debate, meeting, or other direct personal exchange between them was located; the supported classification is therefore one-sided written discourse only. The underlying political characterization is Dugin’s polemical position, not an independently established description of Zelenskyy. [EU sanctions statement summarizing Dugin’s public advocacy](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ%3AL%3A2022%3A259I%3AFULL)
+
+### Zoroaster
+
+- **[T1-] Documented fact:** Dugin wrote about Zoroaster and Zoroastrian cosmology in the Iran-focused portion of *Noomakhia*, especially *The Iranian Logos: The War of Light and the Culture of Expectation* (2016). He interpreted the Zoroastrian opposition of light and darkness within his own comparative theory of civilizational Logoi; this is philosophical-religious reception, not a claim of direct historical transmission.
+
+No adequately documented T2 prophecy/hyperstition or T9 shared-object crossing was located within the roster. Claims based only on diffuse influence, analogous ideas, or overlapping ideological audiences were omitted.
+
 ## Sources
 
 https://ofac.treasury.gov/recent-actions/20150311

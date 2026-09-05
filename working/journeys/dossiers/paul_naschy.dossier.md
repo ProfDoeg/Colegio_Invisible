@@ -473,6 +473,14 @@ Sitges now gives a **Brigadoon Paul Naschy Award** for short films. A wax figure
 | 2024 | *Call Me Paul* premieres at Sitges. |
 | 2025 | Spanish Academy hosts tribute screening and family/filmmaker discussion. |
 
+## Atlas Connections
+
+### Steven Spielberg
+
+- **[T5] Reported fact:** Naschy said that, while recuperating at home in Madrid after his 1991 heart surgery, he received repeated telephone calls from Steven Spielberg. According to Naschy, Spielberg discussed his films, proposed meeting him in the United States, and mentioned a possible tribute involving George Lucas. Filmmaker Víctor Barrera later supplied partial independent corroboration: Barrera said his daughter encountered Spielberg in Los Angeles, gave him Naschy’s telephone number, and that Spielberg subsequently called, although language difficulties reportedly curtailed their conversation. The sources therefore support a probable telephone meeting, but not every detail of Naschy’s fuller account. ([Naschy interview, July 2000](https://revistaelduende.com/creador/paul-naschy/); [Barrera interview, 2020](https://cerebrin.wordpress.com/2020/05/08/entrevista-a-victor-barrera-aka-victor-alcazar-aka-vic-winner/))
+
+No other roster crossing met the stated evidentiary and typological thresholds. Naschy’s childhood viewing of Walt Disney’s *Snow White and the Seven Dwarfs*, his performances in Poe- or Lovecraft-derived productions, and his use of Frankensteinian material establish artistic reception or thematic influence, but not by themselves T1, T3, T4, T5, or T9 relationships with Walt Disney, Edgar Allan Poe, H. P. Lovecraft, or Mary Shelley.
+
 ## Sources
 
 https://historia-hispanica.rah.es/biografias/31092-jacinto-molina-alvarez

@@ -503,6 +503,20 @@ The famous aphorisms—especially “Los hermanos sean unidos”—circulate det
 | 2007 | Fontanarrosa-associated animated film released. |
 | 2022 | Sesquicentennial of *El gaucho Martín Fierro* prompts archival and scholarly reassessment. |
 
+## Atlas Connections
+
+### Domingo Faustino Sarmiento
+
+- **[T3] Documented fact:** Hernández repeatedly engaged Sarmiento in print without any securely documented personal meeting. In *Rasgos biográficos del general D. Ángel V. Peñaloza* (Paraná, 1863), he blamed Sarmiento’s political system and rhetoric for the persecution and killing of Peñaloza; in September 1875 he renewed the charge in *La Libertad* with “Señor Sarmiento: ¿Por qué mataron?” This constitutes sustained, one-sided written engagement and public polemic. [Universidad Nacional de La Plata](https://sedici.unlp.edu.ar/handle/10915/16364), [Orbis Tertius](https://www.orbistertius.unlp.edu.ar/article/download/ote260/17542)
+
+### Julio Argentino Roca
+
+- **[T4] Documented fact:** Hernández entered Roca’s organized political milieu in Buenos Aires during the 1880 presidential transition. Sources place him among the promoters of the Partido Autonomista Nacional and report his participation in the Club de la Juventud Porteña supporting Roca’s candidacy. As president of the Buenos Aires Chamber of Deputies, Hernández then defended federalization in November 1880, shortly after Roca assumed the presidency. This supports a shared political milieu and coordinated alignment, but the consulted evidence does not establish a personal meeting or friendship. [Revista del Notariado](https://www.colegio-escribanos.org.ar/biblioteca/cgi-bin/ESCRI/ARTICULOS/43727.pdf), [Argentine Foreign Ministry publication](https://cancilleria.gob.ar/userfiles/ut/introduccion_a_la_america_criolla_0.pdf)
+
+### Jorge Luis Borges
+
+- **[T1+] Documented fact:** Borges, born thirteen years after Hernández’s death, repeatedly wrote about Hernández and his work. His most concentrated treatment is *El “Martín Fierro”* (1953), coauthored with Margarita Guerrero; he also reworked Hernández’s narrative in stories including “El fin” and “Biografía de Tadeo Isidoro Cruz.” Hernández therefore bears the positive sign as the earlier, written-about figure. [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/obra-visor/la-poesia-gauchesca-y-la-intuicion-de-borges-nueva-mirada-critica-933284/html/f73ca572-264a-4b04-a2a0-4d1d2f7fcc69_7.html)
+
 ## Sources
 
 https://www.cervantesvirtual.com/portales/jose_hernandez/

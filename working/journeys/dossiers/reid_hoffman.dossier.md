@@ -494,6 +494,46 @@ Reinterpretation is ongoing. Sympathetic accounts present a philosopher-builder 
 | 5 Aug. 2026 | Court permits three-hour Hoffman deposition in LinkedIn antitrust case. |
 | 24 Aug. 2026 | Living and professionally active; dossier cutoff. |
 
+## Atlas Connections
+
+### Bill Gates
+
+- **[T5] Documented fact:** Hoffman interviewed Gates in person for *Masters of Scale* in 2019 about Microsoft, the Gates Foundation, and the role of co-founders and partners. Gates separately described having “sat down with Reid Hoffman,” confirming a direct meeting and conversation. [*Masters of Scale* transcript](https://mastersofscale.com/bill-gates-how-to-accelerate-history/), [Gates’s account](https://www.linkedin.com/posts/williamhgates_i-really-enjoyed-sitting-down-with-reid-hoffman-activity-6608048702030430208-Jm-R)
+
+### Elon Musk
+
+- **[T5] Documented fact:** Hoffman and Musk worked together in the Confinity/X.com–PayPal organization during 2000–2002 and remained in overlapping Silicon Valley and OpenAI circles. They also attended the 2 August 2015 dinner in Palo Alto that Hoffman organized for neuroscientist Ed Boyden; contemporary correspondence and a photograph place both men there. Their later relationship became publicly antagonistic. [PayPal SEC filing](https://www.sec.gov/Archives/edgar/data/1103415/000091205702023923/a2082068zs-1.htm), [Axios](https://www.axios.com/2019/09/12/reid-hoffman-jeffrey-epstein-mit-donations)
+
+### Ghislaine Maxwell
+
+- **[T5] Reported fact:** In a July 2025 Justice Department interview, Maxwell said she knew Hoffman separately through friends in San Francisco. Her statement supports personal acquaintance but supplies no firm date, venue, or evidence concerning the extent of the relationship; as testimony from a convicted trafficker, it should not be treated as independently verified. [DOJ interview transcript, p. 182](https://www.justice.gov/multimedia/DOJ%20Disclosures/Maxwell%20Proffer/Interview%20Transcript%20-%20Maxwell%202025.07.24-cft%20%28Redacted%29.pdf)
+
+### Jeffrey Epstein
+
+- **[T5] Documented fact:** Hoffman had repeated personal contact with Epstein after Epstein’s 2008 conviction, beginning in the MIT Media Lab fundraising orbit by 2013. Documented encounters include Hoffman’s November 2014 overnight visit with Joi Ito to Little Saint James; the 2 August 2015 Palo Alto dinner; meetings in Palo Alto and Cambridge and Skype calls during 2016; and a Skype call with Ito on 24 March 2018. Hoffman initially said in 2019 that contact ended in 2015, then corrected that account after reviewing calendars in 2026. These records document association, not participation in Epstein’s sexual crimes. [Axios](https://www.axios.com/2019/09/12/reid-hoffman-jeffrey-epstein-mit-donations), [MIT investigative report](https://factfindingjan2020.mit.edu/files/MIT-report.pdf), [Associated Press](https://apnews.com/article/d0ce8385cb7f42705ac068310e3231be)
+
+### Marc Andreessen
+
+- **[T5] Documented fact:** Hoffman and Andreessen are longstanding Silicon Valley professional acquaintances and investors. Hoffman directly interviewed Andreessen for *Masters of Scale* in an episode published in 2021, discussing company formation, technological timing, and Andreessen Horowitz. [*Masters of Scale* transcript](https://mastersofscale.com/andreessen/)
+
+### Max Levchin
+
+- **[T5] Documented fact:** Hoffman and Levchin served together at Confinity/PayPal from Hoffman’s December 1998 board appointment through eBay’s 2002 acquisition. Hoffman has specifically credited Levchin with proposing the email-payment adaptation that helped redirect Confinity’s PalmPilot payment product toward what became PayPal. [PayPal SEC filing](https://www.sec.gov/Archives/edgar/data/1103415/000091205702023923/a2082068zs-1.htm), [Hoffman interview transcript](https://mastersofscale.com/reid-hoffman-make-everyone-a-hero-part-1/)
+
+### Peter Thiel
+
+- **[T5] Documented fact:** Hoffman met Thiel while both were Stanford students in the late 1980s; they debated politics, coordinated student-senate campaigns, and both won office. Thiel later invited Hoffman onto Confinity’s board in December 1998. They worked together through PayPal, collaborated on early technology investments, and continued meeting and debating publicly despite later political divergence. Both also attended the 2 August 2015 Palo Alto dinner involving Epstein. [*The New Yorker*](https://www.newyorker.com/magazine/2015/10/12/the-network-man), [PayPal SEC filing](https://www.sec.gov/Archives/edgar/data/1103415/000091205702023923/a2082068zs-1.htm), [Axios](https://www.axios.com/2019/09/12/reid-hoffman-jeffrey-epstein-mit-donations)
+
+### Sam Altman
+
+- **[T5] Documented fact:** Hoffman knew Altman before joining OpenAI’s board and subsequently worked with him through Hoffman's financing and governance of OpenAI. The two developed a close personal and professional relationship; after Hoffman left the board in March 2023 over conflicts involving his other AI interests, Altman publicly anticipated further collaboration, and Hoffman publicly supported Altman’s return as CEO later that year. [Reuters](https://www.reuters.com/technology/openais-long-time-backer-reid-hoffman-leaves-board-2023-03-03/), [Wired](https://www.wired.com/story/livewired-ai-hoffman-openai/)
+
+### Yuval Noah Harari
+
+- **[T5] Documented fact:** Hoffman and Harari held an extended recorded conversation for *Possible*, published on 4 June 2025, about trust, consciousness, political power, historical change, and the risks and potential benefits of artificial intelligence. Their remarks indicate prior discussions as well as the recorded interview. [*Possible* transcript](https://www.possible.fm/podcasts/yuval/)
+
+No additional roster crossing was included where the available material showed only shared subject matter, general institutional overlap, political contributions, indirect network adjacency, or unverified claims.
+
 ## Sources
 
 https://achievement.org/achiever/reid-hoffman/

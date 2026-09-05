@@ -701,6 +701,82 @@ Tertullian supplied language later central to catholic orthodoxy while later cat
 | 2017 | Harrison documents the early-modern and Enlightenment invention of *credo quia absurdum*. |
 | 2026 | Binder's study revisits Tertullian and Jews in early Christian literary imagination. |
 
+## Atlas Connections
+
+### Aaron the Levite
+
+- **[T1-]** **Documented fact:** Tertullian discusses Aaron as Israel’s high priest in *De monogamia* 7 (written at Carthage, probably after c. 212) and reportedly devoted the now-lost *De Aaron vestibus* to Aaron’s priestly garments. ([*De monogamia*](https://www.newadvent.org/fathers/0406.htm))
+
+### Abraham
+
+- **[T1-]** **Documented fact:** Tertullian repeatedly interprets Abraham’s circumcision, faith, marriages, and covenantal status, especially in *Adversus Iudaeos* 2–3 and *De monogamia* 6 (Carthage, late second or early third century). ([*Adversus Iudaeos*](https://www.newadvent.org/fathers/0308.htm), [*De monogamia*](https://www.newadvent.org/fathers/0406.htm))
+
+### Alexander the Great
+
+- **[T1-]** **Documented fact:** In *Apologeticum* 46 (Carthage, 197), Tertullian invokes Alexander polemically, alleging that Aristotle flattered him instead of guiding him toward virtue. This documents Tertullian’s literary treatment of Alexander, not independent proof of the allegation. ([*Apologeticum*](https://www.newadvent.org/fathers/0301.htm))
+
+### Apostle Paul
+
+- **[T1-]** **Documented fact:** Paul is one of Tertullian’s principal scriptural authorities. Tertullian interprets Pauline letters throughout his corpus and devotes *Adversus Marcionem* V (surviving edition c. 207–208 or later, Carthage) to defending Paul and his letters against Marcionite readings. His remarks about Paul and Thecla in *De baptismo* 17 also constitute early evidence for the reception of the *Acts of Paul*. ([*Adversus Marcionem* V](https://www.newadvent.org/fathers/03125.htm), [*De baptismo*](https://www.newadvent.org/fathers/0321.htm))
+
+### Apostle Peter
+
+- **[T1-]** **Documented fact:** Tertullian writes about Peter’s apostolic authority, martyrdom, rebuke by Paul, and association with the Roman church in works including *De praescriptione haereticorum* and *Scorpiace* (Carthage, c. 198–212). These are literary-theological treatments; they do not evidence a personal crossing. ([*De praescriptione haereticorum*](https://www.newadvent.org/fathers/0311.htm), [*Scorpiace*](https://www.newadvent.org/fathers/0318.htm))
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Tertullian names and contests Aristotle in several works. In *Apologeticum* 46 (197) he attacks Aristotle’s reported conduct toward Hermias and Alexander; in *De anima* he engages Aristotelian positions while constructing his own anthropology. The biographical accusations are Tertullian’s polemic, not independently established facts. ([*Apologeticum*](https://www.newadvent.org/fathers/0301.htm), [*De anima*](https://www.newadvent.org/fathers/0310.htm))
+
+### Cicero
+
+- **[T1-]** **Documented fact:** Tertullian repeatedly draws on and disputes Cicero’s writings, including *De natura deorum*, *De divinatione*, and the *Tusculan Disputations*, in his apologetic and philosophical arguments at Carthage around 197–212. This is a literary-source relationship; no personal contact was chronologically possible. ([*Apologeticum*](https://www.newadvent.org/fathers/0301.htm), [*De anima*](https://www.newadvent.org/fathers/0310.htm))
+
+### Dido
+
+- **[T1-]** **Documented fact:** Tertullian treats Carthage’s legendary queen as a pagan exemplar: *Ad martyras* 4 cites Dido’s self-immolation after her husband’s death, while *De anima* 33 calls her “chaste and excellent” during an argument against transmigration. These passages document engagement with the Dido tradition, not confirmation of her historicity. ([*Ad martyras*](https://www.newadvent.org/fathers/0323.htm), [*De anima*](https://www.newadvent.org/fathers/0310.htm))
+
+### Homer
+
+- **[T1-]** **Documented fact:** Tertullian refers to Homer and Homeric material in several polemical contexts. *De praescriptione haereticorum* 39 compares heretical manipulation of Scripture to *Homerocentones*, poems assembled from Homeric fragments, while *De anima* discusses traditions about Homer’s supposed reincarnation. ([*De praescriptione haereticorum*](https://www.newadvent.org/fathers/0311.htm), [*De anima*](https://www.newadvent.org/fathers/0310.htm))
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Jesus Christ is the central historical and theological figure across Tertullian’s corpus. Tertullian writes extensively about Jesus’s birth, teaching, crucifixion, bodily resurrection, divine identity, and relationship to Hebrew prophecy—most systematically in *De carne Christi*, *De resurrectione carnis*, *Adversus Marcionem*, and *Adversus Praxean* (Carthage, roughly 197–212 or later). ([*De carne Christi*](https://www.newadvent.org/fathers/0315.htm), [*Adversus Praxean*](https://www.newadvent.org/fathers/0317.htm))
+
+### King David
+
+- **[T1-]** **Documented fact:** Tertullian repeatedly interprets David as king, psalmist, ancestor of Christ, and moral precedent. *De monogamia* 8, for example, condemns David’s accumulation of wives and his acquisition of Bathsheba “through sanguinary means,” while the anti-Marcionite and anti-Jewish works read Davidic psalms christologically. ([*De monogamia*](https://www.newadvent.org/fathers/0406.htm), [*Adversus Iudaeos*](https://www.newadvent.org/fathers/0308.htm))
+
+### Moses
+
+- **[T1-]** **Documented fact:** Tertullian writes extensively about Moses as lawgiver, prophet, witness of God, and chronological predecessor of Greek culture. *Adversus Iudaeos* interprets Mosaic law as temporary and typological; *Apologeticum* 19 argues for Moses’s antiquity relative to classical authors (Carthage, 197 and after). ([*Adversus Iudaeos*](https://www.newadvent.org/fathers/0308.htm), [*Apologeticum*](https://www.newadvent.org/fathers/0301.htm))
+
+### Noah
+
+- **[T1-]** **Documented fact:** Tertullian invokes Noah in arguments about monogamy, fasting, dietary law, baptism, and divine judgment. *De monogamia* 4 presents Adam and Noah as foundational monogamous patriarchs; elsewhere the Flood becomes a baptismal and eschatological precedent. ([*De monogamia*](https://www.newadvent.org/fathers/0406.htm), [*De baptismo*](https://www.newadvent.org/fathers/0321.htm))
+
+### Plato
+
+- **[T1-]** **Documented fact:** Plato is among Tertullian’s most frequently discussed pagan philosophers. Tertullian alternately acknowledges Platonic approximations to Christian claims and attacks Plato’s theology, psychology, and influence on heresy, especially in *Apologeticum* 46–47 and *De anima* (Carthage, c. 197–212). ([*Apologeticum*](https://www.newadvent.org/fathers/0301.htm), [*De anima*](https://www.newadvent.org/fathers/0310.htm))
+
+### Saint Augustine of Hippo
+
+- **[T3]** **Reported fact:** Augustine engaged Tertullian posthumously in writing and through the later community bearing his name. In *De haeresibus* 86 (c. 428), Augustine summarizes Tertullian’s doctrines and reports that, during Augustine’s own earlier presence in Carthage, the last “Tertullianists” entered Catholic communion and transferred their basilica. The report documents Augustine’s one-sided engagement and observation of a later group; it does not prove that Tertullian founded that group. ([Augustine, *De haeresibus* 86](https://tertullian.org/tertullianistae/de_haeresibus.htm))
+
+### Saint Thecla of Iconium
+
+- **[T1-]** **Documented fact:** In *De baptismo* 17 (Carthage, c. 198–203), Tertullian attacks a writing associated with Paul and Thecla because it was being used to authorize women to teach and baptize. He reports that its author was exposed and removed from office after admitting that he composed it “out of love for Paul.” This is the earliest securely datable external witness to the *Acts of Paul and Thecla* tradition; it is not evidence that Tertullian regarded the narrative as authentic history. ([*De baptismo*](https://www.newadvent.org/fathers/0321.htm))
+
+### Solomon
+
+- **[T1-]** **Documented fact:** Tertullian cites and interprets Solomon and writings attributed to him, while also using Solomon’s many marriages as a negative ethical example. *De monogamia* 8 contrasts Solomon’s abundance of wives with monogamous exemplars (Carthage, probably after c. 212). ([*De monogamia*](https://www.newadvent.org/fathers/0406.htm))
+
+### Virgil
+
+- **[T1-]** **Documented fact:** Tertullian quotes and discusses Virgil as a major literary authority. In *De praescriptione haereticorum* 39 (Carthage, c. 198–203), he describes contemporary works assembled from rearranged Virgilian verses and uses them as an analogy for tendentious manipulation of Scripture. ([*De praescriptione haereticorum*](https://www.newadvent.org/fathers/0311.htm))
+
+No secure T4 or T5 connection with another roster member is documented: none can presently be shown to have occupied the same specific time-and-place milieu with Tertullian or to have met him personally. The old identification of Tertullian with the jurist Tertullianus excerpted in Justinian I’s *Digest* is disputed and generally rejected, so it does not support a T9 connection with Justinian.
+
 ## Sources
 
 https://www.newadvent.org/fathers/2708.htm

@@ -675,6 +675,66 @@ No available public evidence resolves these questions.
 | 2025–2026 | New documentary and review cycle revisits the still-unsolved murder. |
 | 30 Aug 2026 | Publicly available institutional and investigative sources still identify no killer or motive. |
 
+## Atlas Connections
+
+### Edgar Allan Poe
+
+- **[T3] Reported fact:** As a teenager in Iași, Culianu translated writings by Edgar Allan Poe into Romanian. The activity is recorded principally in Tereza Culianu-Petrescu’s family chronology, so it documents one-sided literary engagement rather than publication or personal contact. [Family biography in *Ioan Petru Culianu: Omul și opera*](https://archive.org/stream/sorin-antohi-ed-ioan-petru-culianu-omul-si-opera-no-ocr/Sorin%20Antohi%20ed%20-%20Ioan%20Petru%20Culianu%20omul%20si%20opera%20no%20ocr_djvu.txt)
+
+### Frances Yates
+
+- **[T1-] Documented fact:** Culianu engaged critically with Yates’s histories of Renaissance Hermetism and the art of memory while developing his own account of Ficino, Bruno, magic, and imagination, most substantially in *Éros et magie à la Renaissance. 1484* (1984). His later essay on Ramon Llull explicitly judged Yates’s treatment of the Lullian art insufficient. [University of Chicago Press description and bibliographic record](https://press.uchicago.edu/ucp/books/book/chicago/E/bo5966662.html)
+
+### Sigmund Freud
+
+- **[T1-] Documented fact:** Culianu reviewed and criticized Freud’s *The Future of an Illusion* in an early methodological essay later collected in *Jocurile minții*. He argued that Freud’s theory of religion rested on inadequate comparative-religious and ethnological premises, contrasting it with Jung and Wittgenstein. Freud also supplied psychological terminology discussed in Culianu’s later work on phantasms and manipulation. [Searchable edition of *Jocurile minții*](https://amtap.md/assets/pdf/Culianu%20P.I%20%20Jocurile%20Mintii%202002.pdf)
+
+### Carl Gustav Jung
+
+- **[T1-] Documented fact:** Culianu discussed Jung’s *Psychology and Religion* alongside Freud and Wittgenstein in an early review essay and repeatedly assessed Jungian archetypes in his methodological development. Although Jung influenced his early interpretive framework, Culianu later rejected archetypes as an adequate historical explanation. [Searchable edition of *Jocurile minții*](https://amtap.md/assets/pdf/Culianu%20P.I%20%20Jocurile%20Mintii%202002.pdf)
+
+### Ramon Llull
+
+- **[T1-] Documented fact:** In the late essay commonly published as “Amintiri din viitor: Mașina de calcul a lui Raymundus Lullus,” Culianu analyzed Llull’s combinatorial *ars* as a precursor to formal, computer-like generation of possibilities. The essay belongs directly to Culianu’s late cognitive and morphodynamic program.
+
+### Heinrich Cornelius Agrippa
+
+- **[T1-] Documented fact:** Culianu examined Agrippa’s occult philosophy and its place in Renaissance theories of imagination, spirit, demonic magic, and influence in *Éros et magie à la Renaissance. 1484* (Paris, 1984; English translation, Chicago, 1987). Agrippa is among the book’s recurrent named authorities. [Google Books bibliographic record and indexed terms](https://books.google.com/books/about/Eros_and_Magic_in_the_Renaissance.html?id=DDVkNj97dMoC)
+
+### Giovanni Pico della Mirandola
+
+- **[T1-] Documented fact:** Culianu treated Pico as one of the principal Renaissance authors through whom relations among eros, imagination, astrology, and magic could be reconstructed in *Éros et magie à la Renaissance. 1484*. The publisher specifically identifies Pico, Ficino, and Bruno as writers whose ideas the book examines in detail. [Google Books record](https://books.google.com/books/about/Eros_and_Magic_in_the_Renaissance.html?id=DDVkNj97dMoC)
+
+### Giordano Bruno
+
+- **[T1-] Documented fact:** Bruno was a major subject throughout Culianu’s career. Culianu wrote the student study “Coincidentia oppositorum la Giordano Bruno” around 1970–71 and later made Bruno’s theories of erotic bonds, images, memory, and manipulation central to *Éros et magie à la Renaissance. 1484*. [University of Chicago Press](https://press.uchicago.edu/ucp/books/book/chicago/E/bo5966662.html)
+
+### Johann Georg Faust
+
+- **[T1-] Documented fact:** Culianu traced the transformation of the Faust legend in the chapter “Doctor Faust from Antioch to Seville” in *Eros and Magic in the Renaissance* and in the separate article “Dr. Faust: Great Sodomite and Necromancer,” published in *Revue de l’Histoire des Religions* 207.3 (1990), pp. 261–268. [Book contents and bibliographic record](https://books.google.com/books/about/Eros_and_Magic_in_the_Renaissance.html?id=DDVkNj97dMoC)
+
+### Nicholas of Cusa / Johannes Cusanus
+
+- **[T1-] Documented fact:** Culianu discussed Nicholas of Cusa—duplicated on the roster under “Johannes Cusanus”—within his reconstruction of Renaissance intellectual and cosmological traditions in *Eros and Magic in the Renaissance*. This is a textual-historical connection only. [Indexed book record](https://books.google.com/books/about/Eros_and_Magic_in_the_Renaissance.html?id=DDVkNj97dMoC)
+
+### Albert Einstein
+
+- **[T1-] Documented fact:** Culianu used Einstein’s relativistic universe as the modern endpoint of *Out of This World: Otherworldly Journeys from Gilgamesh to Albert Einstein*, completed shortly before Culianu’s death and published in June 1991. Einstein appears as part of Culianu’s comparison between traditional otherworld narratives and modern conceptions of space, time, and additional dimensions. [Open Library edition record](https://openlibrary.org/works/OL3678374W/Out_of_this_world?edition=key%3A%2Fbooks%2FOL1889585M)
+
+### Mircea Eliade
+
+- **[T3] Documented fact:** Culianu initiated correspondence with Eliade in 1971 by sending studies on Giordano Bruno and solar-lunar symbolism. Their correspondence continued through Eliade’s death in 1986 and included scholarship, publishing, appointments, personal affairs, and Culianu’s questions about Eliade’s interwar politics. It was later edited as *Dialoguri întrerupte*. [University of Chicago archival guide](https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.CULIANU)
+
+- **[T4] Documented fact:** Culianu and Eliade occupied the same University of Chicago Divinity School milieu during Culianu’s 1975 visiting semester and again from March to April 1986, when Culianu was a visiting professor and Eliade remained on the faculty.
+
+- **[T5] Documented fact:** They first met personally in Paris in September 1974. Eliade subsequently became Culianu’s mentor and institutional advocate; Culianu visited and worked with him in Chicago, was present during Eliade’s final hospitalization in April 1986, and participated in his memorial.
+
+- **[T1-] Documented fact:** Culianu wrote extensively about Eliade, beginning with the monograph *Mircea Eliade* (Assisi, 1978) and continuing through essays, encyclopedia work, obituaries, and critical examinations of Eliade’s methods and political record. The Culianu archive preserves drafts of these writings from approximately 1981–86. [Culianu Papers, Series II](https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.CULIANU)
+
+- **[T9-] Documented fact:** Eliade’s letter of 3 December 1981 designated Culianu as universal legatee for completed and unfinished books, and Culianu later served as a literary executor. After Eliade’s death, manuscripts, reprints, editorial correspondence, and estate-related materials passed into Culianu’s custodial and editorial work; surviving examples are inventoried in the University of Chicago collection. This tag records the transmission of literary materials, not sole ownership or unrestricted control of the estate. [Culianu Papers archival guide](https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.CULIANU)
+
+No reliable evidence located supports Culianu’s personal meeting, correspondence, shared milieu, prophetic relationship, or object-mediated connection with any other atlas-roster member. Mere appearance of a historical or religious figure in a reference work, incidental citation, thematic resemblance, or later comparison by third parties has not been counted.
+
 ## Sources
 
 https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.CULIANU

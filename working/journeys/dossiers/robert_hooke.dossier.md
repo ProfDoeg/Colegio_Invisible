@@ -562,6 +562,54 @@ Named commemorations include lunar and Martian craters, asteroid **3514 Hooke**,
 - Retrospective medical diagnoses and modern legal/psychological categories are hypotheses unless explicitly marked.
 - A complete item-by-item bibliography of every unsigned Royal Society minute, City report, diagram, and manuscript would require repository-level catalog reconciliation beyond a single dossier. The major genuine, posthumous, edited, and attributed corpora are identified above.
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-] Documented fact:** Hooke directly engaged Aristotle’s natural history in *Micrographia* (London, 1665). While examining sponge structure, he compared his observations with Aristotle’s account of animals inhabiting sponge cavities, accepting it as consonant evidence while calling for renewed investigation. ([*Micrographia*, Observation XXIII](https://www.gutenberg.org/files/15491/15491-h/15491-h.htm))
+
+### Nicolaus Copernicus
+
+- **[T1-] Documented fact:** In the preface to *Micrographia* (1665), Hooke named Copernicus among exemplary discoverers whose achievements experimental inquiry might equal or surpass. Hooke’s later *An Attempt to Prove the Motion of the Earth from Observations* (1674) explicitly sought observational evidence for the Earth’s annual motion within the Copernican system. ([*Micrographia*](https://www.gutenberg.org/files/15491/15491-h/15491-h.htm); [Linda Hall Library](https://www.lindahall.org/about/news/scientist-of-the-day/robert-hooke))
+
+### Galileo Galilei
+
+- **[T1-] Documented fact:** Hooke repeatedly discussed Galileo’s observational work in *Micrographia* (1665). He praised Galileo as a leading telescopic discoverer and directly compared Galileo’s published chart of 36 stars in the Pleiades with the 78 stars Hooke recorded using a twelve-foot telescope. ([*Micrographia*, preface and Observation LIX](https://www.gutenberg.org/files/15491/15491-h/15491-h.htm))
+
+### Johannes Kepler
+
+- **[T1-] Documented fact:** In *Micrographia* (1665), Hooke examined and rejected Kepler’s explanation of the terrestrial atmospheric *penumbra*, proposing that the relevant eclipse phenomena followed instead from the Sun’s finite extent and optical inflection. Hooke’s later orbital investigations also took Keplerian planetary motion as a problem requiring a mechanical cause. ([*Micrographia*, Observation LVIII](https://www.gutenberg.org/files/15491/15491-h/15491-h.htm))
+
+### René Descartes
+
+- **[T1-] Documented fact:** Hooke discussed Cartesian natural philosophy critically, especially Descartes’s vortex explanation of gravity. In *Micrographia* and his subsequent gravitational lectures, Hooke argued that lunar gravity and the Moon’s behavior presented difficulties for a purely terrestrial Cartesian-vortex account. This is documented intellectual engagement, not personal contact; Descartes died in 1650, when Hooke was fourteen. ([ScienceDirect historical study](https://www.sciencedirect.com/science/article/abs/pii/B9780080133591500103))
+
+### Christiaan Huygens
+
+- **[T3] Documented fact:** Hooke and Huygens engaged one another through Royal Society correspondence, reports, and publications concerning pendulum regulation, spring-controlled watches, astronomy, and optics. Huygens’s letter of 24 December 1665 to Robert Moray expressly addressed Hooke’s clock-spring work; after Huygens announced his spiral balance spring in 1675, Hooke answered publicly with claims for demonstrations dating from 1664–1670. Their relationship was principally a documented scientific and priority dispute conducted through writings and institutional intermediaries, rather than a demonstrated friendship. ([Royal Society manuscript EL/H1/53](https://makingscience.royalsociety.org/items/el_h1_53/letter-from-christian-huygens-to-robert-moray-dated-at-the-hague); [Huygens correspondence edition](https://www.dbnl.org/tekst/huyg003oeuv07_01/huyg003oeuv07_01_0276.php))
+
+### John Locke
+
+- **[T3] Documented fact:** Locke wrote to Hooke on 19/29 October 1678, providing a direct epistolary crossing between two former members of the Oxford experimental milieu. Their surviving connection also ran through Robert Boyle and shared scientific interests, but the letter itself—not general membership in the same intellectual network—is the secure basis for this classification. ([Oxford scholarly discussion citing *The Correspondence of John Locke*, letter no. 418](https://philarchive.org/archive/CHATRO-63))
+
+### Gottfried Wilhelm Leibniz
+
+- **[T3] Documented fact:** Leibniz attended Royal Society meetings during his London visit in early 1673 at which Hooke was among the participating experimental philosophers. A subsequent correspondence is also preserved: Royal Society proceedings record a February 1679 letter from Leibniz at Hanover to Hooke concerning geographical surveys and the continuation of their exchanges, and a surviving Hooke-to-Leibniz letter confirms reciprocal written engagement. ([Oxford study of Leibniz’s London visit](https://ora.ox.ac.uk/objects/uuid%3A4f967d5c-e0d1-4d40-8cf4-7ac8b0575f4b/files/rmc87pq76f); [Royal Society history, vol. IV](https://www.leeuwenhoek.net/sites/default/files/pdf/birch_1757_history_royal_society_IV.pdf); [transcription of Hooke’s letter](https://www.club.cc.cmu.edu/~ajo/disseminate/leibniz.html))
+
+### Isaac Newton
+
+- **[T3] Documented fact:** Hooke and Newton exchanged substantive letters about optics in 1675–1676 and planetary motion in 1679–1680. As Royal Society secretary, Hooke wrote on 24 November 1679 proposing that planetary motion be analyzed as tangential inertia compounded with attraction toward a central body; on 6 January 1680 he specified an inverse-square dependence. Newton replied, disputed Hooke’s claims, and later acknowledged that the correspondence redirected his attention toward celestial mechanics while denying that Hooke supplied the decisive mathematics. ([Newton Project correspondence narrative](https://newtonproject.ox.ac.uk/view/texts/normalized/OTHE00101); [Newton Project biographical manuscript](https://newtonproject.ox.ac.uk/view/texts/diplomatic/OTHE00089); [Trinity College Hooke draft](https://archives.trin.cam.ac.uk/index.php/draft-of-letter-from-robert-hooke-to-isaac-newton))
+
+- **[T5] Documented fact:** Hooke and Newton met through the Royal Society in London, notably when Newton attended Society business and demonstrations; they were institutional colleagues as well as correspondents. Their personal dealings became adversarial over optical theory and, after 1686, priority in gravitation. The meetings are documented, whereas the popular claim that Newton later destroyed Hooke’s portrait remains an unsupported myth. ([Royal Society](https://royalsociety.org/blog/2010/12/hooke-newton-and-the-missing-portrait/); [Royal Society, *Principia* history](https://royalsociety.org/news/2014/astronaut-tim-peake-principia/))
+
+### Edmond Halley
+
+- **[T3] Documented fact:** Hooke corresponded directly with Halley. A surviving letter dated 1 March 1681 asks for Halley’s observations of the recent comet and conveys literary and scientific notices. Halley later carried messages between Hooke and Newton during the dispute over acknowledgment in the *Principia*. ([Royal Society manuscript EL/H3/62](https://makingscience.royalsociety.org/items/el_h3_62/letter-from-robert-hooke-to-edmond-halley))
+
+- **[T5] Documented fact:** Hooke and Halley worked together in London’s Royal Society milieu and personally discussed planetary dynamics with Christopher Wren in January 1684. Wren challenged Hooke and Halley to demonstrate mathematically that an inverse-square attraction generated the observed planetary orbit; Hooke asserted that he possessed a proof but did not produce it, while Halley subsequently took the question to Newton at Cambridge. ([MacTutor history of orbital theory](https://mathshistory.st-andrews.ac.uk/HistTopics/Orbits/); [Royal Society](https://royalsociety.org/news/2014/astronaut-tim-peake-principia/))
+
+No reliable evidence was found for prophecy or hyperstition connections (T2), or for a qualifying transferred-object or successively occupied-site connection (T9), between Hooke and another person on the roster. Mere influence, later use of Hooke’s law, commemoration, shared subject matter, or presence in the same broad historical tradition has not been counted.
+
 ## Sources
 
 https://www.oxforddnb.com/view/article/13693?docPos=1

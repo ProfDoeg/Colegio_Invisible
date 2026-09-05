@@ -537,6 +537,60 @@ Current work generally holds several propositions together:
 - “Yellow fever” is not a safe modern diagnosis; jaundice/icterus is the documentary description.
 - A complete catalogue of every surviving letter, poem, legal opinion, dedication, and manuscript fragment would duplicate the four-volume critical correspondence and multi-volume works editions. Those editions are identified above as the exhaustive scholarly apparatus.
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-] Documented fact:** While teaching at Basel after receiving his master’s degree in 1477, Reuchlin lectured on Aristotle from the Greek; Melanchthon later reported that he had memorized substantial Aristotelian passages. Aristotle also remained a cited philosophical authority in Reuchlin’s later works. [Neo-Latin Lab](https://latlab.org/letter-14/); [biographical account](https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Reuchlin%2C_Johann)
+
+### Cicero
+
+- **[T1-] Documented fact:** Reuchlin translated Cicero’s *Tusculan Disputations* into German. The translation survives in Heidelberg University Library as Cod. Pal. germ. 482; the Heidelberg Academy displays its colophon in its account of the Reuchlin correspondence project. [Heidelberg Academy](https://www.hadw-bw.de/forschung/weitere-forschungsprojekte/edition-des-reuchlin-briefwechsels)
+
+### Constantine the Great
+
+- **[T1-] Documented fact:** Reuchlin produced the Latin *Constantinus Magnus Romanorum imperator*, printed in 1513, translating and transmitting a Greek biographical text about Constantine. This is a textual rather than personal connection.
+
+### Frances A. Yates
+
+- **[T1+] Documented fact:** Yates made Reuchlin the subject of “The Occult Philosophy in the Reformation: Johannes Reuchlin,” chapter 3 of *The Occult Philosophy in the Elizabethan Age* (1979), interpreting him as a central link between Pico’s Christian Kabbalah and its later development through Agrippa and others. [Routledge contents](https://www.routledge.com/Occult-Philos-Elizabethan-Age/Yates/p/book/9780415220507); [BnF bibliographic record](https://catalogue.bnf.fr/ark%3A/12148/cb35667732k)
+
+### Giovanni Pico della Mirandola
+
+- **[T5] Reported fact:** During Reuchlin’s Italian journey of 1490, he encountered Pico in the Florentine humanist milieu. Early and modern biographies consistently report the meeting, while the surviving evidence establishes Pico’s intellectual impact more securely than its precise circumstances. Reuchlin subsequently developed Pico’s Christian-Kabbalistic project in *De verbo mirifico* (1494) and *De arte cabalistica* (1517). [1911 *Encyclopædia Britannica*](https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Reuchlin%2C_Johann); [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/agrippa-nettesheim/)
+
+### Heinrich Cornelius Agrippa
+
+- **[T3] Documented fact:** Agrippa engaged closely with Reuchlin’s writings rather than merely sharing an occult tradition with him. His 1509 lectures at Dôle drew heavily on *De verbo mirifico*, then one of his principal sources for Christian Kabbalah; the expanded *De occulta philosophia* also incorporated material from *De arte cabalistica* after its publication in 1517. A personal teacher–pupil relationship is not securely documented. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/archives/win2008/entries/agrippa-nettesheim/)
+
+### Homer
+
+- **[T1-] Documented fact:** Reuchlin translated and prepared pedagogical treatments of passages from Homer as part of his Greek-humanist program. Some associated editions appeared only after his death, so the connection is authorship or translation of the underlying material, not post-1522 publication activity.
+
+### Johannes Trithemius
+
+- **[T4] Documented fact:** Reuchlin and Trithemius belonged to the Heidelberg-based *Sodalitas litteraria Rhenana* around Johann von Dalberg during Reuchlin’s Palatine period, 1496–98. This establishes participation in the same identifiable humanist circle; available evidence here does not establish a particular face-to-face encounter strongly enough to upgrade the connection to T5. [Deutsche Biographie](https://www.deutsche-biographie.de/sfz64782.html)
+
+### Jesus of Nazareth
+
+- **[T1-] Documented fact:** Jesus is the explicit theological culmination of Reuchlin’s *De verbo mirifico* (Basel, 1494): Reuchlin’s Christian-Kabbalistic argument inserts Hebrew *shin* into the tetragrammaton to form a five-letter name interpreted as Jesus’s divine, wonder-working name. The same Christological project continued in *De arte cabalistica* (1517). [Encyclopaedia Judaica-derived account](https://jewishvirtuallibrary.org/jsource/judaica/ejud_0002_0017_0_16672.html); [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/archives/win2008/entries/agrippa-nettesheim/)
+
+### Martin Luther
+
+- **[T3] Documented fact:** Luther sent Reuchlin a laudatory letter from Wittenberg on 14 December 1518, calling him an instrument of divine providence and praising his defense of sacred learning. Luther also discussed Reuchlin’s prosecution in letters to others. Reuchlin later sought a recommendation to Luther through Melanchthon but distanced himself from Luther’s ecclesiastical movement; no close friendship or personal meeting is established. [Luther’s letter](https://www.lutherdansk.dk/Web-Luther%27s%20Letters/Martin%20Luther%20-%20Letters%203.htm); [critical-correspondence volume description](https://www.frommann-holzboog.de/werkausgaben/1602/160200420?lang=en-gb)
+
+### Moses
+
+- **[T1-] Documented fact:** Moses was a sustained subject and authority in Reuchlin’s Hebrew scholarship. His grammar, biblical translation, and Kabbalistic writings treated the Pentateuch and Mosaic revelation as foundational; in a letter of 5 June 1516 Reuchlin affectionately called the Pentateuch “mine” because it had assumed for him the place once occupied by Cicero. [Reuchlin’s 1516 letter](https://www.dbnl.org/tekst/eras001corr04_01/eras001corr04_01_0126.php); [Deutsche Biographie](https://www.deutsche-biographie.de/gnd118744658.html)
+
+### Plato
+
+- **[T1-] Documented fact:** Reuchlin repeatedly discussed and quoted Plato within his synthesis of Greek philosophy, Neoplatonism, and Christian Kabbalah, most extensively in *De arte cabalistica* (1517). The connection is textual reception, not any claim of direct transmission. [Frances Yates, *The Occult Philosophy in the Elizabethan Age*](https://adpcollege.ac.in/online/attendence/lib/1629386816.pdf); [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/agrippa-nettesheim/)
+
+### Solomon
+
+- **[T1-] Documented fact:** Reuchlin treated Solomon as an ancient bearer of divinely grounded wisdom in his Kabbalistic construction and discussed Solomonic genealogy and tradition in his Hebrew scholarship. The claim that such ancient figures transmitted a primordial Kabbalah reflects Reuchlin’s theological historiography, not independently verified intellectual history. Erasmus’s letter of 1 March 1515 specifically asked Reuchlin to explain the Solomonic genealogy printed in *De rudimentis Hebraicis*. [Erasmus correspondence](https://www.dbnl.org/tekst/eras001corr04_01/eras001corr04_01_0028.php)
+
 ## Sources
 
 https://www.hadw-bw.de/forschung/weitere-forschungsprojekte/edition-des-reuchlin-briefwechsels

@@ -641,6 +641,25 @@ For much of the twentieth century physicists cited “Noether’s theorem” wit
 - **Authorship through lectures:** specific influence is well attested, but a quantitative list of “stolen” or unsigned theorems would exceed the evidence.
 - **Private life:** lack of documented partner or children does not establish motives, orientation, or private emotional history.
 
+## Atlas Connections
+
+### Albert Einstein
+
+- **[T3]** **Documented fact:** Noether and Einstein exchanged mathematical writing concerning invariants and general relativity. Hilbert forwarded a note by Noether to Einstein in May 1916; Einstein subsequently praised her work in letters to Hilbert. Noether later wrote directly to Einstein on **7 January 1926** about a manuscript submitted to *Mathematische Annalen*. Their written engagement is documented in the Einstein and Klein archival correspondence ([Rowe, 2024](https://onlinelibrary.wiley.com/doi/full/10.1002/andp.202300479); [Byers](https://cwp.library.ucla.edu/articles/noether.asg/noether.html)).
+- **[T5]** **Reported fact:** Recent chronological reconstruction concludes that Noether had returned to Göttingen before Einstein’s Wolfskehl lectures there in **June–July 1915** and therefore met him during his visit. No direct account of their conversation survives, so the meeting is strongly reconstructed rather than independently recorded in a diary or letter ([Rowe, 2024](https://onlinelibrary.wiley.com/doi/full/10.1002/andp.202300479)).
+- **[T1+]** **Documented fact:** After Noether’s death, Einstein wrote about her in a memorial letter published by the *New York Times* on **4 May 1935**, emphasizing her creative importance to modern algebra. Under the atlas convention, Noether receives the plus sign as the earlier, written-about figure ([Einstein memorial text](https://mathshistory.st-andrews.ac.uk/Obituaries/Noether_Emmy_Einstein/)).
+
+### Felix Klein
+
+- **[T3]** **Documented fact:** Noether and Klein maintained substantive written engagement during the Göttingen relativity work. Klein’s surviving papers contain **five letters from Noether**, including correspondence of **12 March 1918**, as well as manuscripts of her work on differential invariants and invariant variational problems. Klein presented her two 1918 papers to the Göttingen scientific society ([Sauer, 2025](https://link.springer.com/article/10.1007/s44007-025-00166-w)).
+- **[T5]** **Documented fact:** Klein recruited Noether to Göttingen with Hilbert in **1915** and met her repeatedly for mathematical discussions. Klein’s dated notes record a discussion on **28 November 1915** and more than thirty references to face-to-face conversations between **October 1916 and November 1918**, often concerning gravitation, invariants, and conservation laws ([Sauer, 2025](https://link.springer.com/article/10.1007/s44007-025-00166-w)).
+
+### John von Neumann
+
+- **[T5]** **Reported fact:** Hermann Weyl’s firsthand memorial recollection places Noether and von Neumann together in Göttingen during the **winter semester of 1926–27**. Weyl remembered the three walking home after his lectures through Göttingen while discussing hypercomplex number systems and their representations; von Neumann was then a Rockefeller Fellow ([Weyl memorial](https://celebratio.org/Noether_E/article/111/)).
+
+No additional atlas-roster crossing met the stated documentary threshold in the consulted record. Mere overlap at institutions, congresses, or within later mathematical lineages was excluded where no interaction, written engagement, or specifically documented shared occasion could be established.
+
 ## Sources
 
 https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/

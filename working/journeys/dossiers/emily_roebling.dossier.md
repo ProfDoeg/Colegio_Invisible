@@ -608,6 +608,14 @@ The evidence supports four durable conclusions:
 | **9 Dec 2021** | Emily Warren Roebling Plaza opens in Brooklyn Bridge Park. |
 | **May 2024** | RPI awards its first posthumous honorary degree to Roebling. |
 
+## Atlas Connections
+
+### John Augustus Roebling
+
+- **[T5] Documented fact:** John A. Roebling was Emily Warren Roebling’s father-in-law. From her January 1865 marriage to Washington Roebling until John’s death on 22 July 1869, they belonged to the same family and engineering circle. John commissioned Washington and Emily’s 1867–1868 European research journey for the proposed East River bridge; after their return, Emily lived within the Roebling family’s bridge enterprise as John and Washington developed the project. Their personal acquaintance and working-family relationship are documented by the [Rutgers Roebling Family Collection](https://archives.libraries.rutgers.edu/repositories/11/resources/908), [RPI’s John A. Roebling archival biography](https://guides.archives.rpi.edu/agents/people/146), and the [New-York Historical Society](https://wams.nyhistory.org/life-story/emily-warren-roebling/).
+
+No other genuine crossing with a person on the supplied atlas roster was located in the consulted archival descriptions, institutional histories, or targeted searches. Mere shared attendance-era geography, professional subject matter, or later association with the Brooklyn Bridge was not treated as a connection.
+
 ## Sources
 
 https://archives.libraries.rutgers.edu/repositories/11/resources/908

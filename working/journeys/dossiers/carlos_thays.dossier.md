@@ -793,6 +793,42 @@ These interpretations do not negate his documented output. They replace the soli
 | Nov–Dec 2009 | Major retrospective at Centro Cultural Recoleta; family/ Berjman archive donation initiated. |
 | 2014 | City announces formal incorporation of Archivo Thays. |
 
+## Atlas Connections
+
+### Joseph-Antoine Bouvard
+
+- **[T3] Documented fact:** Thays and Bouvard participated in the municipal planning process that produced Buenos Aires’s 1910 comprehensive plan. Bouvard served as international consultant, while Thays sat on the municipal technical commission as Director de Paseos. This establishes institutional and written professional engagement, although no private correspondence between them was located. [Observatorio Metropolitano](https://dev.observatorioamba.org/planes-y-proyectos/caba/planes/1910-nuevo-plan-para-buenos-aires/ficha)
+
+### Julio Argentino Roca
+
+- **[T3] Reported fact:** Roca commissioned Thays to redesign the grounds of his summer residence, Estancia La Paz at Ascochinga, Córdoba, around the beginning of the twentieth century. Thays laid out the park and artificial lake. The commission documents a direct patron–designer relationship, but the sources consulted do not independently establish a particular face-to-face meeting or friendship. [Estancia La Paz history](https://arquitecturapanamericana.com/club-house-estancia-la-paz/)
+
+### Domingo Faustino Sarmiento
+
+- **[T9-] Documented fact:** Parque 3 de Febrero connects the two men across time. Sarmiento promoted its creation, headed its auxiliary commission and oversaw its formative period; after Sarmiento’s death in 1888, Thays assumed management in 1891 and substantially remodeled and expanded it. This is a successive relationship to the same landscape, not a personal meeting. [Buenos Aires Historical Archive](https://archivodelaciudad.org/index.php/Detail/fonds/8)
+
+### Jules Dormal
+
+- **[T9-] Documented fact:** Dormal belonged to the team responsible for the original Parque 3 de Febrero landscape opened in 1875. Thays later inherited, enlarged and extensively reshaped that same park during his municipal tenure. The evidence supports successive authorship at one site, not documented personal collaboration. [Buenos Aires Legislature, *La ciudad verde*](https://pergamo.legislatura.gob.ar/pgmedia/biblioteca/LIBROS%20DIGITALIZADOS/039262_D.pdf)
+
+### Auguste Rodin
+
+- **[T9+] Documented fact:** Rodin’s Monument to Sarmiento was inaugurated in 1900 inside Parque 3 de Febrero while that landscape was under Thays’s management and transformation. Contemporary photographic documentation explicitly juxtaposes “el Sarmiento de Rodin” with “la jardinería de Thays.” No evidence was found that the two men met or corresponded; the securely documented connector is the park-monument ensemble. [Buenos Aires park history](https://buenosaires.gob.ar/areas/med_ambiente/parque_3_de_febrero/resena_historica.php?menu_id=22933), [historical landscape study](https://www.fundacionazara.org.ar/img/libros/buenos-aires-la-historia-de-su-paisaje-natural.pdf)
+
+### Juan Manuel de Rosas
+
+- **[T9-] Documented fact:** Thays’s remodeling of Parque 3 de Febrero incorporated the former Palermo estate of Rosas. During Thays’s tenure the surviving Caserón de Rosas was demolished in 1899, and the vacated location became the setting for Rodin’s Sarmiento monument in 1900. Rosas and Thays therefore connect through successive, ideologically charged uses of the same site, without shared occupancy. [Buenos Aires park history](https://buenosaires.gob.ar/areas/med_ambiente/parque_3_de_febrero/resena_historica.php?menu_id=22933)
+
+### Agustí Querol i Subirats
+
+- **[T9+] Documented fact:** Querol’s Monument to the Magna Carta and the Four Argentine Regions—commonly called the Monumento de los Españoles—was conceived for and ultimately installed within the Parque 3 de Febrero landscape that Thays had enlarged and reshaped. Querol died in 1909 and the monument was completed and inaugurated only in 1927, so this is a shared-site connection rather than evidence of meeting or collaboration. [Buenos Aires Legislature, *La ciudad verde*](https://pergamo.legislatura.gob.ar/pgmedia/biblioteca/LIBROS%20DIGITALIZADOS/039262_D.pdf)
+
+### Francisco Salamone
+
+- **[T9+] Documented fact:** At Parque Municipal Domingo F. Sarmiento in Azul, the landscape was laid out from Thays’s design and inaugurated in 1918; Salamone subsequently created its monumental entrance during the later 1930s. Their works consequently occupy successive layers of the same park. No personal encounter is supported, and Salamone’s intervention postdated Thays’s death. [National University of La Plata repository](https://sedici.unlp.edu.ar/bitstream/handle/10915/139385/Documento_completo.%20Comportamiento%20de%20los%20consumidores%20de%20festivales%20culturales.pdf-PDFA.pdf?isAllowed=y&sequence=1)
+
+No sufficiently documented crossing was found with Aimé Bonpland: Bonpland’s earlier yerba-mate research forms an important intellectual precedent for Thays, but the located evidence does not show that Thays wrote about, cited or otherwise engaged Bonpland in a manner meeting T1 or T3. Other apparent roster overlaps based only on commemorative place names, broad contemporaneity, shared nationality or residence in Buenos Aires have likewise been omitted.
+
 ## Sources
 
 https://buenosaires.gob.ar/gcaba_historico/cultura/patrimonio-de-la-ciudad/archivo-historico/quien-fue-carlos-thays

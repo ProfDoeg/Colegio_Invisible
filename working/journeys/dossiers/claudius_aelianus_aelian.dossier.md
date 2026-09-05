@@ -449,6 +449,72 @@ Aelian's two dog-headed passages are among his most widely detached and recombin
 | 1997 | Wilson's Loeb *Historical Miscellany* | Documented |
 | 2014 | Smith's *Man and Animal in Severan Rome* reframes Aelian as a deliberate Severan literary author | Documented scholarly turning point |
 
+## Atlas Connections
+
+The supported roster crossings are overwhelmingly textual. No securely documented friendship, meeting, correspondence, shared object/site, or prophecy connection with a roster member was found.
+
+### Alexander the Great
+
+- **[T1-]** Aelian repeatedly wrote about Alexander (356–323 BCE), including his demand for divine honours, dealings with philosophers, treatment of companions, and campaigns in Asia. Aelian composed these retrospective anecdotes in the Roman Empire roughly five centuries later. **Documented fact** that Aelian wrote about Alexander; individual anecdotes vary in historical reliability ([*Varia historia* 1.25; 2.19](https://penelope.uchicago.edu/aelian/varhist2.html), [3.23](https://penelope.uchicago.edu/aelian/varhist3.html), [12.54](https://penelope.uchicago.edu/aelian/varhist12.html)).
+
+### Aristotle
+
+- **[T3]** Aelian engaged extensively with Aristotle’s writings and biographical tradition. *On Animals* adopts, paraphrases, contests, and supplements Aristotelian zoological material, while *Varia historia* recounts episodes involving Aristotle, including his relations with Plato and Alexander. **Documented fact** of one-sided written engagement; dependence in particular animal passages may involve intermediary compilations rather than direct consultation of complete Aristotelian texts ([*Varia historia* 3.19; 4.9, 4.19](https://penelope.uchicago.edu/aelian/varhist4.html); [Aelian animal-text index and translations](https://www.attalus.org/info/aelian.html)).
+
+### Ctesias of Cnidus
+
+- **[T3]** Aelian explicitly names and evaluates Ctesias as an authority for Persian and Indian marvels, most conspicuously the manticore. His qualifying formula—accepting the report only if Ctesias is a sufficient authority—constitutes direct one-sided textual engagement with a writer active around the late fifth and early fourth centuries BCE. **Documented fact**, although whether Aelian read Ctesias directly or through excerpts is unresolved ([*On Animals* 4.21](https://topostext.org/work/560); [*Encyclopaedia Iranica*, “Aelianus, Claudius”](https://www.iranicaonline.org/articles/aelianus-claudius/)).
+
+### Megasthenes
+
+- **[T3]** Aelian identifies Megasthenes, the Hellenistic envoy and author of an *Indica* (active around 300 BCE), as an authority for Indian fauna and peoples. The relationship is textual and separated by roughly five centuries; direct use of the complete *Indica*, rather than an epitome or intermediary source, cannot be demonstrated. **Documented fact** of citation and reuse; exact transmission route uncertain ([*On Animals*, searchable complete text](https://topostext.org/work/560); [*Encyclopaedia Iranica*](https://www.iranicaonline.org/articles/aelianus-claudius/)).
+
+### Homer
+
+- **[T3]** Aelian repeatedly quotes, paraphrases, and disputes Homeric animal lore and myth—for example contrasting Homer’s Chimaera with the allegedly natural amphisbaena. This is one-sided literary engagement with the Homeric poems, not evidence concerning a historical meeting or even Homer’s personal historicity. **Documented fact** ([*On Animals* 9.23](https://topostext.org/work/560); [chapter index](https://www.attalus.org/info/aelian.html)).
+
+### Hesiod
+
+- **[T3]** Aelian cites and discusses verses and traditions attributed to Hesiod, treating the poet as an inherited authority while occasionally comparing competing accounts. **Documented fact** of one-sided textual engagement; claims about Hesiod’s life transmitted by Aelian remain ancient literary tradition rather than independently verified biography ([*Varia historia* 3.18](https://penelope.uchicago.edu/aelian/varhist3.html), [13.19](https://penelope.uchicago.edu/aelian/varhist13.html)).
+
+### Herodotus of Halicarnassus
+
+- **[T3]** Aelian engages with Herodotus both as a stylistic-historical predecessor and as a transmitter of ethnographic and animal material. He also reports biographical and reception anecdotes about Herodotus. **Documented fact** of one-sided written engagement; agreement between the authors does not always establish direct borrowing because intermediary compilations are possible ([*Varia historia* 4.21](https://penelope.uchicago.edu/aelian/varhist4.html), [13.20](https://penelope.uchicago.edu/aelian/varhist13.html)).
+
+### Plato
+
+- **[T1-]** Aelian made Plato (died 348/347 BCE) a recurring subject of *Varia historia*, relating anecdotes about his habits, humility, pupils, travels, philosophical rivalries, and reception. These are retrospective literary notices written approximately five and a half centuries later. **Documented fact** that Aelian wrote about Plato; the historicity of individual anecdotes is variable ([*Varia historia* 2.18](https://penelope.uchicago.edu/aelian/varhist2.html), [3.17](https://penelope.uchicago.edu/aelian/varhist3.html), [4.9](https://penelope.uchicago.edu/aelian/varhist4.html)).
+
+### Diogenes of Sinope
+
+- **[T1-]** Aelian preserves sayings and character anecdotes attributed to Diogenes the Cynic (fourth century BCE), including material concerning his contempt for conventional status and his judgments of other Greeks. **Documented fact** that Aelian wrote about the earlier philosopher; particular sayings are **reported facts** within the ancient anecdotal tradition, not independently verified utterances ([*Varia historia* 3.29](https://penelope.uchicago.edu/aelian/varhist3.html), [12.58](https://penelope.uchicago.edu/aelian/varhist12.html)).
+
+### Cyrus the Great
+
+- **[T1-]** Aelian wrote retrospective stories about Cyrus II of Persia (died c. 530 BCE), including his upbringing, character, royal conduct, and treatment of subjects. **Documented fact** that Cyrus appears in Aelian’s historical miscellany; the episodes themselves are **reported facts or literary traditions**, sometimes complicated by the existence of Cyrus the Younger in other Aelian passages ([*Varia historia* 1.24](https://penelope.uchicago.edu/aelian/varhist1.html), [12.42](https://penelope.uchicago.edu/aelian/varhist12.html)).
+
+### Cleopatra VII
+
+- **[T1-]** In *On Animals* 9.61 Aelian discusses the tradition that Cleopatra VII (69–30 BCE) died through the bite of an asp, treating animal behaviour as evidence bearing on the reported manner of her death. **Documented fact** that Aelian wrote about Cleopatra; death by deliberately applied snakebite is a **reported fact/disputed historical tradition**, not something Aelian could have witnessed ([*On Animals* 9.61](https://topostext.org/work/560); [Attalus ancient-source index for Cleopatra](https://www.attalus.org/names/c/cleopatra.html)).
+
+### Pindar of Thebes
+
+- **[T1-]** Aelian preserves biographical and legendary notices about Pindar (c. 518–c. 438 BCE), including the story of bees placing honey on the sleeping poet’s lips and traditions concerning honours paid to him. **Documented fact** that Aelian wrote about Pindar; the honey episode is **rumor or myth**, functioning as a conventional sign of divinely favoured eloquence ([*Varia historia* 12.45](https://penelope.uchicago.edu/aelian/varhist12.html), [13.25](https://penelope.uchicago.edu/aelian/varhist13.html)).
+
+### Simonides of Ceos
+
+- **[T1-]** Aelian recounts sayings and biographical anecdotes concerning Simonides (c. 556–468 BCE), particularly traditions about money, patrons, memory, and poetic conduct. **Documented fact** that Aelian wrote about Simonides; the individual episodes are **reported facts** from the ancient anecdotal tradition ([*Varia historia* 9.1](https://penelope.uchicago.edu/aelian/varhist9.html), [10.2](https://penelope.uchicago.edu/aelian/varhist10.html)).
+
+### Odysseus
+
+- **[T1-]** Aelian retells material concerning Odysseus—listed in the roster as Ulysses—especially animal-related episodes grounded in Homeric tradition, including the fidelity and recognition associated with his dog Argus. **Documented fact** that Aelian wrote about the literary figure; the underlying events are **rumor or myth**, not historical biography ([*On Animals*, complete searchable text](https://topostext.org/work/560); [chapter index](https://www.attalus.org/info/aelian.html)).
+
+### Zoroaster
+
+- **[T1-]** Aelian reports a Greek biographical tradition that Zoroaster was exceptionally wise and records claims about his antiquity. Since Aelian wrote centuries after the period to which Greek writers assigned Zoroaster, this is a retrospective literary connection only. **Documented fact** that Aelian transmitted the notice; its chronological and biographical content is **reported fact or legend**, not securely recoverable history ([Aelian fragments, with source cross-references](https://www.attalus.org/translate/aelian_f1.html)).
+
+No evidence was found for T2 prophecy/hyperstition, T4 proximity, T5 personal acquaintance, or T9 shared-object/site connections between Aelian and any roster member. Mere overlap with other early-third-century intellectuals, residence in the same empire, parallel animal stories, or later participation in the same broad literary tradition was not counted.
+
 ## Sources
 
 https://topostext.org/work/224

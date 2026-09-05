@@ -667,6 +667,76 @@ His particular route—Vienna to Geneva to New York—preserved a Menger–Böhm
 - A literally complete itemization of hundreds of memoranda, reviews, and translations would require archival catalog export beyond this dossier. Major works, foundational essays, posthumous categories, and catalog routes are supplied.
 - Admiring institutions preserve most accessible Mises material. Their first-party texts are essential but were compared with university records, archive descriptions, critical histories, and primary editions.
 
+## Atlas Connections
+
+### Adam Smith
+
+- **[T1-] Documented fact.** Mises repeatedly assessed Smith as an important but imperfect predecessor, discussing his theories of value, labor, specialization, and the market order in *Human Action* (1949) and other writings. This is a textual connection only; no personal crossing was possible.
+
+### Carl Menger
+
+- **[T1-] Documented fact.** Mises wrote extensively about Menger’s role in founding the Austrian School, most notably in *The Historical Setting of the Austrian School of Economics* (1969), while identifying his own reading of Menger’s *Principles* around 1903 as intellectually decisive.
+- **[T5] Reported fact.** In a late autobiographical essay, Mises recalled personally telling the elderly Menger in prewar Vienna about the younger economists’ informal theoretical meetings; Menger reportedly answered that when he was their age, almost nobody in Vienna cared about economic theory. The encounter is supported by Mises’s first-person account but apparently lacks independent documentation. [Mises’s account](https://mises.org/mises-wire/carl-menger-and-austrian-school-economics)
+
+### Eugen von Böhm-Bawerk
+
+- **[T5] Documented fact.** Mises regularly attended Böhm-Bawerk’s University of Vienna seminar from 1904 until his habilitation period in 1913. Böhm-Bawerk chaired seminar discussions of Mises’s developing monetary and business-cycle theories, sometimes disagreeing with him; Mises also recalled private conversations with his teacher. [Mises’s recollections](https://www.misesde.org/2013/10/die-osterreichische-schule-der-nationalokonomie-2/)
+- **[T1-] Documented fact.** After Böhm-Bawerk’s death in 1914, Mises wrote retrospective assessments of his teacher’s scholarship, seminar practice, and place in Austrian economics.
+
+### Friedrich Hayek
+
+- **[T5] Documented fact.** Hayek was Mises’s junior Vienna colleague and protégé. He attended Mises’s private seminar during the 1920s, and Mises helped secure his appointment as first director of the Austrian Institute for Business Cycle Research in 1927. They continued to meet through émigré liberal networks, including the 1938 Colloque Walter Lippmann and the Mont Pèlerin Society from 1947.
+- **[T3] Documented fact.** Mises and Hayek maintained a long correspondence and sustained intellectual exchange. Hayek developed Mises’s monetary-cycle theory, edited the 1935 English collection containing Mises’s socialist-calculation essay, helped Mises during exile, and later wrote about both his influence and their methodological and policy disagreements. [Liberty Fund overview](https://oll.libertyfund.org/publications/liberty-matters/2014-01-07-lawrence-white-ludwig-von-mises-s-the-theory-of-money-and-credit-at-101-january-2014)
+
+### Joseph Schumpeter
+
+- **[T4] Documented fact.** Mises and Schumpeter belonged to the same early-twentieth-century Viennese economic milieu and participated in Böhm-Bawerk’s seminar before the First World War. The surviving record supports repeated proximity and scholarly rivalry, but not a close friendship. [University-seminar history](https://www.misesde.org/2013/10/die-osterreichische-schule-der-nationaloekonomie-2/)
+
+### Max Weber
+
+- **[T5] Reported fact.** Mises recalled speaking personally with Weber while Weber taught in Vienna in 1918. According to Mises, Weber urged him to participate actively in the *Verein für Sozialpolitik* despite their shared dissatisfaction with it. The meeting and words rest chiefly on Mises’s retrospective memoir. [*Memoirs*](https://www.mises.ch/library/Mises_Memoirs.PDF)
+- **[T1-] Documented fact.** Mises subsequently discussed Weber’s sociology, methodological individualism, ideal types, value freedom, and account of rational action in his methodological writings, while distinguishing praxeology from Weberian sociology.
+
+### Karl Marx
+
+- **[T1-] Documented fact.** Marx was a central written-about adversary throughout Mises’s work. *Socialism* (1922), *Human Action* (1949), and *Theory and History* (1957) examined and rejected Marx’s labor theory of value, class theory, materialist conception of history, and prediction of socialism’s historical inevitability. Liberty Fund describes *Theory and History* as primarily a critique of Marxian materialism and historical prediction. [Liberty Fund collection](https://oll.libertyfund.org/collections/socialism-and-the-classical-liberal-critique/items_alpha?letter=c_text)
+
+### Vladimir Lenin
+
+- **[T1-] Documented fact.** Mises treated Lenin’s Bolshevik government and economic program as historical evidence in his critiques of socialism, especially *Socialism* (1922) and later discussions of communism, dictatorship, and intervention. His analysis was written in direct response to the post-1917 experiment but did not involve personal contact. [Liberty Fund contextual note](https://oll.libertyfund.org/quotes/233)
+
+### Benito Mussolini
+
+- **[T1-] Documented fact.** Mises analyzed Mussolini and Italian Fascism in *Liberalism* (1927), *Omnipotent Government* (1944), and later writings. He credited fascist reaction with a temporary anti-Bolshevik function in 1927 but explicitly characterized fascism as an illiberal emergency expedient and a fatal long-term error. No personal meeting is documented. [Primary text of *Liberalism*](https://oll.libertyfund.org/titles/greaves-liberalism-the-classical-tradition-1927-lf-ed)
+
+### John Maynard Keynes
+
+- **[T3] Documented fact.** Keynes reviewed the German first edition of Mises’s *The Theory of Money and Credit* in 1914, praising portions but claiming it contained little originality. Mises later criticized Keynesian monetary, interest, unemployment, and demand-management theory. This constitutes two-sided written engagement, although no reliable evidence located establishes a personal meeting. [Review history](https://oll.libertyfund.org/publications/liberty-matters/2014-01-07-lawrence-white-ludwig-von-mises-s-the-theory-of-money-and-credit-at-101-january-2014)
+- **[T1-] Documented fact.** After Keynes’s death in 1946, Mises continued to analyze and attack Keynes’s doctrines in *Human Action* and essays collected in *Planning for Freedom*.
+
+### Murray Rothbard
+
+- **[T5] Documented fact.** Rothbard began attending Mises’s externally funded NYU seminar after reading *Human Action* in 1949 and became a personal protégé and regular participant. Their relationship was direct, though Mises was not Rothbard’s Columbia doctoral supervisor.
+- **[T3] Documented fact.** Rothbard wrote *The Essential von Mises* and corresponded and debated with Mises while extending Misesian economics toward natural-rights anarcho-capitalism—positions that departed from Mises’s utilitarian liberalism and acceptance of a minimal state. [Account of Rothbard’s entry into the seminar](https://fee.org/articles/how-murray-rothbard-discovered-the-libertarian-movement-and-austrian-economics/)
+
+### Milton Friedman
+
+- **[T5] Documented fact.** Mises and Friedman both attended the founding Mont Pèlerin conference in Switzerland in April 1947 and participated in the same policy discussions. Friedman’s later story that Mises left one session after declaring “You’re all a bunch of socialists” is a **reported fact** as to the wording and walkout, not a stenographically verified quotation; the shared meeting and substantive disagreement are documented. [Hoover Institution discussion of the transcripts](https://www.hoover.org/news/qa-bruce-caldwell-mont-pelerin-1947-transcripts-founding-meeting-mont-pelerin-society)
+
+### Immanuel Kant
+
+- **[T1-] Documented fact.** Mises discussed Kant’s epistemology while explaining the a priori status he assigned to praxeology, especially in *Human Action* (1949) and *The Ultimate Foundation of Economic Science* (1962). He adopted some Kantian vocabulary but did not present praxeology as a simple application of Kant’s philosophy.
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-] Documented fact.** Mises wrote critically about Hegel’s philosophy of history and state, treating Hegelianism as an important precursor of historicism, nationalism, Marxism, and doctrines that subordinate the individual to a supposedly higher historical collective.
+
+### Michel Foucault
+
+- **[T1+] Documented fact.** Foucault, the later figure, discussed the earlier Mises in his 1978–79 Collège de France lectures, subsequently published as *The Birth of Biopolitics*. He situated Mises—alongside Hayek—as a transmitter and theorist of twentieth-century neoliberalism. This was retrospective intellectual treatment; the two men are not documented as having met. [Lecture text](https://library.uoh.edu.iq/admin/ebooks/82779-foucault__lectures_at_the_college_de_france__1978_79__the_birth_of_biopolitics.pdf)
+
+No adequately documented T2 prophecy/hyperstition or T9 shared-object connection with a roster member was located. Mere residence in the same city, general ideological inheritance, or later invocation of Mises without substantive written treatment was not counted.
+
 ## Sources
 
 https://gedenkbuch.univie.ac.at/en/page/94/person/ludwig-von-mises

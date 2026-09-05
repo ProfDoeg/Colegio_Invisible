@@ -531,6 +531,36 @@ The Rosa-Luxemburg-Stiftung, annual Berlin commemorations, streets and squares, 
 - Private relationships are unusually well documented through letters but still invite overinterpretation; absence of explicit wording is not proof, while editorial omission in older editions must be considered.
 - A complete bibliography would contain thousands of periodical items. The editions and archives above are the appropriate exhaustive finding tools.
 
+## Atlas Connections
+
+### Adam Smith
+
+- **[T1-] Documented fact:** Luxemburg devoted substantial analysis to Smith’s political economy, particularly his treatment of value, revenue, capital, and social reproduction. Chapter 2 of *The Accumulation of Capital* (1913) is explicitly titled “Quesnay’s and Adam Smith’s Analyses of the Process of Reproduction”; she credited Smith with important advances while identifying what she regarded as fundamental contradictions in his account. ([Text](https://www.marxists.org/archive/luxemburg/1913/accumulation-capital/ch02.htm))
+
+### Mikhail Bakunin
+
+- **[T1-] Documented fact:** In *The Mass Strike, the Political Party and the Trade Unions* (1906), Luxemburg discussed the Bakuninist tradition while distinguishing the mass strikes of the Russian Revolution from the anarchist conception of a general strike imposed as an abstract revolutionary formula. This was a critical engagement with Bakunin’s political legacy, not a personal crossing. ([Text](https://www.marxists.org/archive/luxemburg/1906/mass-strike/))
+
+### Johann Wolfgang von Goethe
+
+- **[T1-] Documented fact:** Luxemburg repeatedly discussed Goethe in her correspondence. In a letter from Wronke prison dated 20 July 1917, she described the powerful effect of Goethe’s poetry, recalled verses associated with Merlin, requested a poem from the *West-östlicher Divan*, and discussed “Blumengruß” and its musical setting. ([Letter](https://www.marxists.org/archive/luxemburg/1917/07/20.htm))
+
+### Antonio Gramsci
+
+- **[T1+] Documented fact:** Gramsci reported Luxemburg’s murder in the 18 January 1919 edition of *Avanti!* in an article titled “Carlo Liebknecht”; his subsequent writings also invoked Luxemburg as an important revolutionary thinker and advocate of mass agency. Luxemburg is therefore the earlier, written-about figure in this connection. ([Associació d’Estudis Gramscians de Catalunya](https://gramsci.cat/luxemburgo-y-gramsci-convergencias-y-divergencias-de-dos-pensadores-revolucionarios/))
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Marx was the central earlier thinker with whom Luxemburg engaged throughout her published work. She wrote the 1908 commemoration “Karl Marx,” based *The Accumulation of Capital* (1913) on a close criticism and extension of Marx’s reproduction schemes, and defended her interpretation of his method in the posthumously published *Anti-Critique*. The connection is extensive textual engagement; Marx died before any meeting was possible. ([Luxemburg works archive](https://www.marxists.org/archive/luxemburg/index.htm), [*The Accumulation of Capital*, chapter 9](https://www.marxists.org/archive/luxemburg/1913/accumulation-capital/ch09.htm))
+
+### Vladimir Lenin
+
+- **[T5] Documented fact:** Luxemburg and Lenin met and held extended political discussions at Kuokkala, Finland, in summer 1906; they met again around the 1907 London RSDLP congress and the Stuttgart congress of the Second International. They also cooperated on the Stuttgart antiwar amendment, publicly criticized one another’s theories, and exchanged written communications. Luxemburg’s surviving Russian-language letter of 20 December 1918 sent Lenin greetings and the Spartacus program through Eduard Fuchs. ([Nettl biography excerpt](https://platypus1917.org/wp-content/uploads/John-Peter-Nettl-Rosa-Luxemburg.-1-Oxford-University-Press-1966.pdf), [1918 letter](https://www.marxists.org/archive/luxemburg/1918/letters.htm))
+
+### Leon Trotsky
+
+- **[T5] Documented fact:** Trotsky’s memoir states that he first knew Luxemburg in 1904 and “renewed acquaintance” with her at the RSDLP’s London congress in 1907. He characterized their meetings as brief and infrequent and denied that they had a close personal friendship. Luxemburg also directly criticized the “Lenin-Trotsky theory” and Trotsky’s policies in her unfinished 1918 manuscript on the Russian Revolution, establishing written engagement in addition to the meetings. ([Trotsky, *My Life*, chapter 16](https://www.marxists.org/archive/trotsky/1930/mylife/ch16.htm), [Luxemburg works archive](https://www.marxists.org/archive/luxemburg/index.htm))
+
 ## Sources
 
 https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/rosa-luxemburg

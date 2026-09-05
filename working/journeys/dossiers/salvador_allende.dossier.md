@@ -455,6 +455,42 @@ The dictatorship’s brutality decisively shaped retrospective judgment, but it 
 - **2011:** Exhumation and international forensic inquiry unanimously confirm suicide.
 - **2023:** Fiftieth anniversary renews archival releases and debate; Cybersyn receives major new public attention.
 
+## Atlas Connections
+
+### Simón Bolívar
+
+- **[T1-] Documented fact:** Allende invoked and interpreted Bolívar in several published presidential addresses. In his 21 May 1971 message to Congress, he quoted Bolívar’s prediction that Chile would preserve “the spirit of liberty”; in Mexico on 1 December 1972, he described Latin American emancipation as fulfilling Bolívar’s continental project. ([Allende’s collected fundamental speeches](https://www.marxists.org/espanol/allende/discursos-fundamentales.pdf); [Mexico address](https://www.marxists.org/espanol/allende/1972/diciembre01bis.htm))
+
+### Bernardo O’Higgins
+
+- **[T1-] Documented fact:** Allende repeatedly wrote and spoke about O’Higgins as a precursor of Chilean political and economic independence. At Rancagua on 11 July 1971, while promulgating copper nationalization, he addressed O’Higgins symbolically and called the Chilean people his legitimate heirs. ([Copper-nationalization address](https://www.marxists.org/espanol/allende/1971/julio11.htm))
+
+### Vladimir Lenin
+
+- **[T1-] Documented fact:** Allende engaged explicitly with Lenin’s writings in published speeches, using Lenin’s criticism of unsupported “revolutionary phrases” to defend a gradual, institutionally disciplined Chilean road to socialism. Examples include his first-government-anniversary address in Santiago on 4 November 1971 and his University of Concepción address on 29 May 1971. ([Anniversary address](https://www.marxists.org/espanol/allende/1971/noviembre04.htm); [Concepción address](https://www.marxists.org/espanol/allende/1971/mayo29.htm))
+
+### Ernesto “Che” Guevara
+
+- **[T5] Documented fact:** Allende met Guevara at La Cabaña in Havana during Allende’s first visit to revolutionary Cuba in January 1959. They subsequently met on other visits, and Allende publicly described Guevara as his friend despite their different revolutionary tactics. The two were also together in Montevideo in August 1961, when Allende accompanied Guevara during the latter’s visit and university address. ([Allende–Debray conversations](https://www.marxists.org/espanol/allende/1971/marzo16.htm); [Allende’s Havana address](https://es.wikisource.org/wiki/Discurso_de_Salvador_Allende_en_La_Habana))
+- **[T9-] Documented fact:** Guevara gave Allende a copy of *Guerrilla Warfare* inscribed, “To Allende, who by other means seeks the same thing.” After Guevara’s death, surviving members of his Bolivian guerrilla column added their own inscription to that same copy when Allende assisted their passage through Chile and across the Pacific in February 1968. The book therefore passed from Guevara to Allende and subsequently became a memorial object linking Allende with the guerrilla survivors. ([Allende–Debray conversations](https://www.marxists.org/espanol/allende/1971/marzo16.htm))
+- **[T1-] Documented fact:** As president of the Chilean Senate, Allende delivered a formal homage to Guevara on 18 October 1967, shortly after Guevara’s execution in Bolivia; the intervention survives in the Senate’s official session record. ([Biblioteca del Congreso Nacional](https://www.bcn.cl/laborparlamentaria/documento?id=595976))
+
+### Fidel Castro
+
+- **[T5] Documented fact:** Allende met Castro in Cuba in 1959, after Guevara helped arrange their introduction, and maintained a close political and personal relationship with him. Their most conspicuous joint appearance came during Castro’s extended Chilean state visit, 10 November–4 December 1971, when the two traveled and appeared publicly together and recorded the extended conversation published as *El diálogo de América*. ([Allende–Castro dialogue](https://www.archivochile.cl/America_latina/fidelcl/fidelcl0000.pdf); [Biblioteca Nacional photograph record](https://www.bibliotecanacionaldigital.gob.cl/pywb/all/20210702204002mp_/http%3A/www.bibliotecanacional.gob.cl/bnd/629/w3-article-156435.html))
+- **[T3] Documented fact:** Castro and Allende communicated directly by telephone and confidential correspondence. Castro telephoned Allende after the September 1970 electoral victory and later stated that he sent six handwritten confidential letters between 1971 and 1973; a dated 29 July 1973 letter is preserved in archival collections. Allende and Castro also participated in the recorded 1971 political dialogue. ([Allende–Debray conversations](https://www.marxists.org/espanol/allende/1971/marzo16.htm); [Archivo Chile collection](https://www.archivochile.com/America_latina/html/fidel_cl.html))
+- **[T9-] Documented fact:** Castro gave Allende the AK-pattern rifle bearing a dedicatory plaque that Allende kept at his residence and used in La Moneda on 11 September 1973. Its provenance as Castro’s gift is supported by eyewitness, family, forensic, and biographical evidence; later symbolic claims about the weapon do not alter that core provenance.
+
+### Anthony Stafford Beer
+
+- **[T5] Documented fact:** Beer personally met Allende in Santiago while advising the Chilean government on Project Cybersyn, beginning during Beer’s 1971 visits. Beer later described explaining the Viable System Model to Allende across a table; according to Beer’s participant account, Allende identified the model’s highest level as “the people.” The meeting is documented, although the celebrated wording rests on Beer’s retrospective recollection rather than a contemporaneous transcript. ([Beer obituary and participant account](https://www.researchgate.net/publication/266721235_Stafford_Beer_1926-2002_Obituary); [MIT Press account of Cybersyn](https://thereader.mitpress.mit.edu/project-cybersyn-chiles-radical-experiment-in-cybernetic-socialism/))
+
+### Augusto Pinochet Ugarte
+
+- **[T5] Documented fact:** Allende dealt personally with Pinochet as a senior army officer and appointed him commander-in-chief of the Chilean Army on 23–24 August 1973 after General Carlos Prats resigned. On the morning of 11 September, Allende attempted direct communication with Pinochet while still treating him as the army commander; Pinochet was then participating in the coup that overthrew him. The connection is documented official contact, not friendship. ([U.S. Office of the Historian](https://history.state.gov/milestones/1969-1976/allende); [United Nations contemporary record](https://digitallibrary.un.org/record/749810/files/A_PV-2148-EN.pdf))
+
+No sufficiently documented personal, discursive, prophetic, proximity-based, or object-mediated crossing was established for the remaining roster names. Mere ideological influence, later commentary on Allende, contemporaneity, or presence in the same country has not been counted without evidence meeting one of the specified connection types.
+
 ## Sources
 
 https://www.bcn.cl/historiapolitica/resenas_biograficas/wiki/Salvador_Allende_Gossens

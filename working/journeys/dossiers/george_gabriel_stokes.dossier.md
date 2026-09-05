@@ -684,6 +684,68 @@ No credible “cult” in the religious or political sense formed around him. Th
 - **2019:** Bicentenary; *George Gabriel Stokes: Life, Science and Faith*; Stokes200 symposium at Pembroke.
 - **2020:** Royal Society publishes two-part “Stokes at 200” theme issue.
 
+## Atlas Connections
+
+The roster was screened conservatively. The connections below are supported by correspondence, identifiable personal contact, or Stokes’s explicit treatment of an earlier figure’s work. Mere contemporaneity, common institutional membership, later use of Stokes’s mathematics, and broad intellectual resemblance have been excluded.
+
+### Arthur Cayley
+
+- **[T3] [T5] Documented fact:** Cayley and Stokes were Cambridge colleagues, personal friends, and long-term correspondents. Their surviving exchanges concern mathematics, scientific publication, Royal Society business, university affairs, and appointments; a Royal Society catalogue record, for example, preserves a letter from Cayley in Cambridge to Stokes as Society secretary. Their families also belonged to the same Cambridge social circle. [Royal Society catalogue](https://catalogues.royalsociety.org/CalmView/Record.aspx?id=MC%2F8%2F456&src=CalmView.Catalog), [Stokes papers, Cambridge University Library](https://www.lib.cam.ac.uk/collections/departments/archives-modern-and-medieval-manuscripts-and-university-archives-39)
+
+### Augustin-Louis Cauchy
+
+- **[T1-] Documented fact:** Stokes repeatedly discussed Cauchy’s mathematical and optical work, including wave theory, elasticity, dispersion, and convergence. His 1846 hydrodynamics report and later mathematical papers placed his own results in relation to Cauchy’s prior Continental analysis; the historical “Cauchy–Stokes” convergence literature arose from this explicit engagement, not from a personal encounter.
+
+### Charles Darwin
+
+- **[T3] Documented fact:** Darwin and Stokes corresponded directly. In February 1863 Darwin thanked Stokes for two calculations concerning the probability that a rare peculiarity would recur within a family; Darwin subsequently cited Stokes’s calculation in *The Variation of Animals and Plants under Domestication*. The two letters from Stokes used by Darwin have not been found. Stokes also participated, as Royal Society secretary, in the institutional correspondence surrounding Darwin’s 1864 Copley Medal. [Darwin’s letter to Stokes](https://darwin-editorial.darwinproject.ac.uk/view/letters/DCP-LETT-4085), [Stokes–Huxley correspondence concerning the medal](https://darwin-editorial.darwinproject.ac.uk/view/letters/DCP-LETT-4704)
+
+### Christiaan Huygens
+
+- **[T1-] Documented fact:** Stokes treated Huygens as an important predecessor in optical theory, discussing Huygensian wave propagation and the historical development of theories of light in his optical papers and in *On Light*. This was retrospective engagement with Huygens’s published work; the men were separated by more than a century.
+
+### Carl Friedrich Gauss
+
+- **[T1-] Documented fact:** Stokes wrote about and used Gauss’s mathematical and geodetic work in studies of attraction, gravity, potential theory, and the figure of the Earth. This documentary connection is intellectual and retrospective. Stokes later received the Göttingen Academy’s Gauss Medal in 1877, but that commemoration does not imply personal contact with Gauss, who died in 1855.
+
+### James Clerk Maxwell
+
+- **[T3] [T5] Documented fact:** Maxwell and Stokes knew one another personally within Cambridge and British scientific circles and maintained a substantial scientific correspondence. Maxwell sought Stokes’s criticism, advice, and testimonials; their exchanges covered optics, colour vision, geometry, Faraday’s lines of force, papers submitted to the Royal Society, and academic appointments. Cambridge University Library explicitly identifies Maxwell correspondence among the Stokes papers. [Cambridge University Library](https://www.lib.cam.ac.uk/collections/departments/archives-modern-and-medieval-manuscripts-and-university-archives-39)
+
+### Joseph Fourier
+
+- **[T1-] Documented fact:** Stokes discussed Fourier’s analytical methods and heat theory when reviewing the Continental foundations of mathematical physics, particularly the use of series and differential equations. The connection consists of Stokes’s written engagement with Fourier’s earlier published work, not personal contact.
+
+### Joseph-Louis Lagrange
+
+- **[T1-] Documented fact:** Stokes’s hydrodynamical and mechanical writings explicitly engaged with Lagrange’s analytical mechanics and fluid theory. His 1846 report placed contemporary hydrodynamics within a lineage that included Lagrange, making this a documented retrospective written connection.
+
+### Lord Kelvin (William Thomson)
+
+- **[T3] [T5] Documented fact:** Thomson was Stokes’s closest sustained scientific correspondent and a personal friend. Their exchanges began in the 1840s and continued for more than fifty years, covering hydrodynamics, optics, thermodynamics, spectroscopy, ether theory, geophysics, instruments, university affairs, and scientific appointments. Thomson sent Stokes the July 1850 formulation later associated with “Stokes’s theorem,” championed Stokes’s unpublished spectroscopy anticipation, helped lead the 1899 Cambridge jubilee, and participated in the 1903 memorial observances. The correspondence survives as a separately edited two-volume series. [Cambridge University Library](https://www.lib.cam.ac.uk/collections/departments/archives-modern-and-medieval-manuscripts-and-university-archives-39), [WorldCat record for the Kelvin–Stokes correspondence](https://search.worldcat.org/title/The-correspondence-between-Sir-George-Gabriel-Stokes-and-Sir-William-Thomson-Baron-Kelvin-of-Largs/oclc/860072238)
+
+### Michael Faraday
+
+- **[T3] [T5] Documented fact:** Stokes and Faraday corresponded and collaborated across the experimental–mathematical boundary of Victorian physics. A surviving letter of 8 January 1853 discusses Stokes’s fluorescence paper and proposes that they perform a lime-light experiment together at the Royal Institution. As Royal Society secretary, Stokes also refereed Faraday’s electrical research in 1855. The evidence securely establishes correspondence and personal scientific association, although the cited 1853 letter phrases the proposed experiment prospectively rather than proving that particular experiment occurred. [Stokes to Faraday, 8 January 1853](https://epsilon.ac.uk/view/faraday/letters/Faraday2617), [Royal Society catalogue](https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA8283&pos=1&src=CalmView.Persons), [Royal Institution overview](https://www.rigb.org/explore-science/explore/collection/michael-faradays-correspondence)
+
+### Sir Isaac Newton
+
+- **[T1-] Documented fact:** Stokes wrote extensively about Newton’s optics, mechanics, gravitation, and experiments with colour, especially in his scientific papers and *On Light*. He sometimes reassessed Newton’s observations experimentally rather than merely invoking his authority. Stokes’s later occupancy of the Lucasian professorship and his simultaneous service as Royal Society president and Cambridge University MP created a conspicuous institutional parallel with Newton, but that parallel alone is not treated here as a personal connection.
+
+### Pierre-Simon Laplace
+
+- **[T1-] Documented fact:** Stokes discussed Laplace’s fluid mechanics, potential theory, gravitation, capillarity, and analysis in his hydrodynamical and geodetic writings. His 1846 review of hydrodynamics explicitly situated current British work against this Continental inheritance.
+
+### Siméon Denis Poisson
+
+- **[T1-] Documented fact:** Stokes explicitly examined Poisson’s earlier equations and assumptions in his writings on viscous fluids and elastic solids. His 1845 paper distinguished his continuum derivation from Poisson’s molecular treatment while acknowledging the prior work. This is a particularly direct written crossing because it bears on the layered priority history later compressed into the name “Navier–Stokes equations.”
+
+### William Rowan Hamilton
+
+- **[T3] [T4] Documented fact:** Hamilton and Stokes belonged to the overlapping British and Irish mathematical-scientific network of the 1840s and 1850s, and documentary collections record scientific communication involving them. Both were present in the British Association’s Irish scientific milieu, including the period of Stokes’s celebrated Belfast fluorescence lecture in 1852. The available evidence supports written/institutional contact and shared scientific settings; it is insufficient here to characterize the relationship as a close friendship.
+
+No prophecy or hyperstition connection (**T2**) was found. No secure shared-object transmission (**T9**) with a roster member was identified under the project’s restrictive definition. In particular, later scientists’ use of Stokes’s equations, theorem, parameters, or terminology has not been counted without evidence of correspondence, encounter, explicit written engagement, or transmission of a specific physical object or site.
+
 ## Sources
 
 https://archive.org/details/memoirscientific01stokrich

@@ -563,6 +563,64 @@ Martí wrote or corresponded for *Revista Universal* (Mexico), *El Federalista*,
 | 2002 | Alberto Lescay bust installed in Buenos Aires’s Jardín de los Poetas. |
 | 2023 | José Martí Pérez fonds entered in UNESCO Memory of the World regional register. |
 
+## Atlas Connections
+
+### Abraham Lincoln
+
+- **[T1-]** **Documented fact:** Martí repeatedly invoked Lincoln as the exemplary antislavery president and moral standard against which he judged later United States politics. He also attended Walt Whitman’s April 1887 New York lecture commemorating Lincoln, an occasion incorporated into “El poeta Walt Whitman.” Martí’s published assessment that Lincoln, were he alive, would reject the political conduct of his successors is preserved in his United States chronicles. [Library of America](https://www.loa.org/news-and-views/poet-and-revolutionary-jose-marti-on-walt-whitman-the-united-states-and-the-universal-i/), [Journal of Latin American Studies](https://www.cambridge.org/core/journals/journal-of-latin-american-studies/article/abs/jose-marti-and-the-united-states-a-further-interpretation/E43C4C23813BDF81890F5D8EE66AC10D)
+
+### Simón Bolívar
+
+- **[T1-]** **Documented fact:** Martí delivered a commemorative address on Bolívar in New York on 24 July 1883 and later placed him among the three independence exemplars in “Tres héroes,” published in the first number of *La Edad de Oro* in July 1889. These were explicit biographical and political interpretations of Bolívar, not evidence of personal contact. [Sociedad Cultural José Martí](https://martianoscuba.wordpress.com/2022/05/09/simon-bolivar-en-la-obra-de-jose-marti-por-wolfgang-r-vicent-vielma/)
+
+### José de San Martín
+
+- **[T1-]** **Documented fact:** Martí presented San Martín, together with Bolívar and Miguel Hidalgo, as one of the liberators of Spanish America in “Tres héroes,” published in *La Edad de Oro* in July 1889. The essay interprets San Martín’s character and renunciation of power for a young readership. [Text and publication context](https://www.gutenberg.org/ebooks/author/7847)
+
+### Charles Darwin
+
+- **[T1-]** **Documented fact:** Following Darwin’s death on 19 April 1882, Martí wrote the extensive obituary-essay conventionally titled “Darwin ha muerto,” dated 17 May 1882 and published in Caracas’s *La Opinión Nacional*. It summarized Darwin’s travels, books, natural-selection theory, and South American observations while registering Martí’s qualified admiration. [Darwin Online transcription and critical notes](https://darwin-online.org.uk/converted/Ancillary/1882_Marti_A645.html)
+
+### Karl Marx
+
+- **[T1-]** **Documented fact:** In a New York dispatch dated 29 March 1883 and published by *La Nación* on 13 May, Martí described a labor gathering honoring the recently deceased Marx. The familiar titles “Karl Marx ha muerto” and “A la muerte de Karl Marx” are later editorial shorthand: the passage originally formed part of a broader “Cartas de Martí” chronicle. [Publication-history discussion](https://jovencuba.com/marx-textos-marti/), [contemporary-text reproduction](https://www.yumpu.com/es/document/view/14540183/cartas-de-marti-la-nacion-buenos-aires-portal-jose-marti)
+
+### Giuseppe Garibaldi
+
+- **[T1-]** **Documented fact:** Martí wrote about Garibaldi after the Italian revolutionary’s death in June 1882, portraying him as a transnational hero of liberty. Garibaldi’s earlier sympathy for Cuban independence gave the subject particular relevance to Martí, but there is no evidence that the two men met. [Centro de Estudios Martianos critical-edition material](https://biblioteca-repositorio.clacso.edu.ar/bitstream/CLACSO/15541/1/Tomo29.pdf), [study of Italy in Martí’s work](https://accedacris.ulpgc.es/bitstream/10553/2993/1/0234608_00000_0014.pdf)
+
+### Victor Hugo
+
+- **[T3]** **Documented fact:** Martí translated Hugo’s *Mes fils* as *Mis hijos* and published the translation in Mexico’s *Revista Universal* in March 1875, accompanied by “Traducir *Mes fils*.” This constitutes direct literary engagement with Hugo’s text. [Martí critical-edition volume](https://biblioteca-repositorio.clacso.edu.ar/bitstream/CLACSO/16480/1/JOSE-MARTI_Tomo-05.pdf)
+- **[T5]** **Reported fact:** Biographical and Martían scholarly accounts state that Martí was introduced to Hugo and Auguste Vacquerie during his brief Paris stay in late 1874, and that Hugo or his circle placed *Mes fils* in Martí’s hands for translation. The meeting is widely repeated but rests on thinner documentation than the surviving translation and article, so its precise circumstances should not be treated as fully reconstructed. [Centro de Estudios Martianos study](https://biblioteca.clacso.edu.ar/Cuba/cem-cu/20171128045156/Anuario_11.pdf), [critical-edition annotation](https://biblioteca-repositorio.clacso.edu.ar/bitstream/CLACSO/16480/1/JOSE-MARTI_Tomo-05.pdf)
+
+### Oscar Wilde
+
+- **[T3]** **Documented fact:** Martí followed Wilde’s 1882 American tour in the press and produced two substantial portraits: a New York chronicle dated 7 January 1882 and the better-known essay published later that year in Caracas and Buenos Aires. This is one-sided written engagement; no personal meeting between Martí and Wilde has been documented. [Scholarly study of the January chronicle](https://irlandeses.org/wp-content/uploads/2020/06/Irlanda-y-Cuba-historias-entretejidas-030120-with-cover.pdf), [publication-history study](https://www.tandfonline.com/doi/full/10.1080/13569325.2019.1654441)
+
+### Mark Twain
+
+- **[T3]** **Documented fact:** Martí read and discussed Samuel Clemens’s writings in notebooks and United States chronicles, treating Twain as a humorist and critic of both medieval and modern forms of privilege. The surviving evidence establishes Martí’s one-sided textual engagement; scholarship has not established that Twain read Martí or that the two met. [Centro de Estudios Martianos, “José Martí como lector de Mark Twain”](https://biblioteca.clacso.edu.ar/Cuba/cem-cu/20171215052209/Anuario_30.pdf)
+
+### Thomas Edison
+
+- **[T3]** **Documented fact, with attribution qualification:** A New York chronicle devoted to Edison, his laboratory, telegraphy, and the phonograph appeared without a signature in *El Partido Liberal* on 5 February 1890 and is attributed to Martí by editors on stylistic and documentary grounds. Claims that its detail proves a personal interview with Edison remain an inference; no independently documented meeting is presently established. [Centro de Estudios Martianos analysis](https://www.revistas.una.ac.cr/index.php/repertorio/article/download/9254/11150)
+
+### Domingo Faustino Sarmiento
+
+- **[T3]** **Documented fact:** Sarmiento read Martí’s chronicle on the 1886 dedication of the Statue of Liberty and, in a letter to Paul Groussac dated 4 January 1887, urged that it be translated into French for European readers, praising Martí’s prose in comparison with Victor Hugo’s. Martí learned of the praise and circulated copies of Sarmiento’s letter among friends. This is documented reciprocal literary awareness, although not personal correspondence or a meeting. [Centro de Estudios Martianos study of Martí and *La Nación*](https://biblioteca-repositorio.clacso.edu.ar/bitstream/CLACSO/5336/1/Anuario_27.pdf)
+- **[T1-]** **Documented fact:** After Sarmiento’s death on 11 September 1888, Martí wrote a critical memorial portrait that praised his energy and educational work while refusing to suppress their differences over Latin American society and Indigenous peoples.
+
+### Fidel Castro
+
+- **[T1+]** **Documented fact:** In his 16 October 1953 Moncada trial defense, subsequently published as *La historia me absolverá*, Castro repeatedly invoked Martí and identified him as the “intellectual author” of the Moncada uprising. The connection is Castro’s posthumous interpretation and political appropriation of Martí, not personal contact or literal authorship by Martí. [UCF archival edition record](https://stars.library.ucf.edu/prism/363/), [contemporary historical account](https://www.granma.cu/cuba/2015-10-15/16-de-octubre-de-1953)
+
+### Ernesto “Che” Guevara
+
+- **[T1+]** **Documented fact:** Guevara delivered a speech commemorating Martí’s birth on 28 January 1960, subsequently published in *Revolución*, presenting Martí as a revolutionary teacher for Cuban youth. Guevara continued to quote Martí in later political addresses, including his 1961 intervention at the Inter-American Economic and Social Council. This is a posthumous ideological reading, not evidence that Martí anticipated Guevara’s complete political program. [1960 speech transcript](https://www.archivochile.com/America_latina/Doc_paises_al/Cuba/Escritos_del_Che/escritosdelche0013.PDF), [1961 address](https://perio.unlp.edu.ar/catedras/planipoliticasdecom/wp-content/uploads/sites/162/2020/08/4.5-Discurso-CHE-GUEVARA-EN-CIES-1961.pdf)
+
+No T2 prophecy/hyperstition or T9 shared-object connection with a roster member was found that met the stated evidentiary threshold. Mere chronological overlap in nineteenth-century New York, later occupation of the same cities, or appearance in the same commemorative landscape has therefore not been counted.
+
 ## Sources
 
 https://www.josemarti.cu/

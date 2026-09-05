@@ -1450,6 +1450,18 @@ Where a source repeated a claim derived from an oral witness, that status is ide
 
 ---
 
+## Atlas Connections
+
+### Gita Galina
+
+- **[T5] Documented fact:** Galina was Perlman’s wife, longtime stage partner, and co-leader of their Israeli Yiddish Comedy Theater. They performed together across Europe before emigrating aboard the *Oceanía* to Buenos Aires on **7 June 1939**, and subsequently worked together in Latin America, South Africa, Britain, Israel, and the United States. Contemporary records specifically place them together at Buenos Aires’s Teatro Excelsior on **9 May 1942** and Teatro Soleil on **26 August 1955**. Their partnership continued until Galina’s declining health and death in 1983. [University of Buenos Aires biographical dictionary](https://publicaciones.filo.uba.ar/sites/publicaciones.filo.uba.ar/files/Diccionario%20tomo%20II_interactivo.pdf); [Digital Yiddish Theatre Project biography](https://uwm.edu/yiddish-stage/siz-nisht-dos-vos-amol-iz-geven-max-perlman-1909-1985/); [Rachel Rojanski, *Yiddish in Israel*](https://dokumen.pub/yiddish-in-israel-a-history-0253045142-9780253045140.html)
+
+### Golda Meir
+
+- **[T3] Reported fact:** Bruce Oppenheimer recalled that Prime Minister Golda Meir attended a Perlman-company Yiddish performance at Jerusalem’s **Mitchell Theatre in 1971 or 1972**, entering after the lights had gone down and sitting in the audience. This supports Meir seeing Perlman perform, but it remains a retrospective eyewitness account rather than a contemporaneously verified attendance record; it does not establish a personal meeting or political relationship. [Digital Yiddish Theatre Project biography](https://uwm.edu/yiddish-stage/siz-nisht-dos-vos-amol-iz-geven-max-perlman-1909-1985/)
+
+No other atlas-roster crossing was supported strongly enough by the dossier or targeted source checks to include. In particular, shared cities, broad Yiddish-theatre milieu, Israeli public life, or association with tango do not by themselves establish a qualifying connection.
+
 ## Sources
 
 https://publicaciones.filo.uba.ar/sites/publicaciones.filo.uba.ar/files/Diccionario%20tomo%20II_interactivo.pdf

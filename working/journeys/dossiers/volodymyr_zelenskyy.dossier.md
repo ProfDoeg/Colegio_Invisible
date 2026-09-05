@@ -745,3 +745,38 @@ https://www.reuters.com/world/europe/zelenskiy-approves-bill-preserving-independ
 **[S40] Reuters / Investing — independence of anti-graft agencies restored, 31 July 2025**  
 https://www.investing.com/news/world-news/ukraines-parliament-to-consider-restoring-power-of-antigraft-agencies-4161664
 
+## Atlas Connections
+
+### Alex Karp
+
+- **[T5] Documented fact:** Zelenskyy met Palantir CEO Alex Karp in **Kyiv on 2 June 2022** to discuss defense, security, digitization and a possible Palantir office in Ukraine; his office identified Karp as the first major Western corporate CEO to visit Kyiv after the full-scale invasion. They met again on **12 May 2026** to discuss military and civilian technological cooperation. [President of Ukraine, 2022](https://www.president.gov.ua/en/news/prezident-ukrayini-ta-seo-palantir-obgovorili-spivpracyu-v-s-75541) [President of Ukraine, 2026](https://www.president.gov.ua/en/news/prezident-zustrivsya-iz-ceo-kompaniyi-palantir-104349)
+
+### Benjamin Netanyahu
+
+- **[T5] Documented fact:** Zelenskyy and Israeli prime minister Benjamin Netanyahu met in **Kyiv on 19 August 2019**, jointly chaired bilateral negotiations and commemorated the victims of Babyn Yar; they met again in **Jerusalem on 24 January 2020** and at the UN General Assembly in **New York on 20 September 2023**. Their continuing direct relationship also included several documented telephone conversations concerning bilateral relations, COVID-19, Donbas, the Russia–Iran relationship and the October 2023 attack on Israel. [Kyiv meeting](https://www.president.gov.ua/en/news/rozpochalasya-zustrich-volodimira-zelenskogo-ta-binyamina-ne-56841) [Jerusalem meeting](https://www.president.gov.ua/en/news/prezident-ukrayini-zustrivsya-z-premyer-ministrom-izrayilyu-59441) [New York meeting](https://www.president.gov.ua/en/news/u-nyu-jorku-volodimir-zelenskij-obgovoriv-iz-binyaminom-neta-85725)
+
+### Bill Clinton
+
+- **[T5] Documented fact:** Zelenskyy held a direct video meeting with former U.S. president Bill Clinton on **9 August 2022**. They discussed U.S. support, sanctions against Russia, Ukrainian defense requirements and the danger surrounding the Zaporizhzhia Nuclear Power Plant; Zelenskyy asked Clinton to use his public authority to keep international attention focused on the war. [President of Ukraine](https://www.president.gov.ua/en/news/volodimir-zelenskij-proviv-videozustrich-iz-42-m-prezidentom-76957)
+
+### Elon Musk
+
+- **[T5] Documented fact:** Zelenskyy spoke directly with Elon Musk on **5 March 2022**, during the opening phase of the full-scale invasion, about assistance to Ukraine and prospective postwar cooperation. Zelenskyy subsequently credited Musk’s technologies—principally SpaceX’s Starlink service—with helping preserve Ukrainian communications after Russian attacks on infrastructure. [President of Ukraine, 6 March 2022](https://www.president.gov.ua/en/news/ukrayina-otrimuye-vid-partneriv-pidtrimku-pidkriplenu-konkre-73377) [President of Ukraine, 9 June 2022](https://www.president.gov.ua/en/news/mayemo-vikoristati-ves-nash-vpliv-i-liderstvo-shob-zahistiti-75693)
+
+### George W. Bush
+
+- **[T5] Documented fact:** Zelenskyy held a video meeting with former U.S. president George W. Bush on **5 May 2022**. Bush expressed support for Ukrainian resistance, while Zelenskyy thanked the United States for its assistance, described Bush as an example of strong leadership and invited him to visit Ukraine. [President of Ukraine](https://www.president.gov.ua/en/news/prezident-ukrayini-proviv-onlajn-zustrich-iz-43-m-prezidento-74813)
+
+### Javier Milei
+
+- **[T5] Documented fact:** Zelenskyy attended Javier Milei’s presidential inauguration and met him in **Buenos Aires on 10 December 2023**. They subsequently met during the Global Peace Summit in **Switzerland on 15 June 2024**, where they discussed bilateral cooperation, trade and Ukraine’s peace initiative, and later maintained direct telephone contact. [President of Ukraine, Switzerland meeting](https://www.president.gov.ua/en/news/glava-derzhavi-zustrivsya-z-prezidentom-argentini-91565) [President of Ukraine, subsequent call](https://www.president.gov.ua/en/news/volodimir-zelenskij-proviv-telefonnu-rozmovu-z-havyerom-mile-96665)
+
+### Klaus Schwab
+
+- **[T5] Documented fact:** Zelenskyy and World Economic Forum founder Klaus Schwab appeared together during Zelenskyy’s special address at the WEF Annual Meeting in **Davos in January 2020**. Schwab later directly moderated Zelenskyy’s video address and question session at the forum on **23 May 2022**, and they again appeared together at Zelenskyy’s special-address session in **Davos on 16 January 2024**. These documented forum encounters support direct professional contact, but not recurring claims that Schwab exercised personal control over Zelenskyy. [World Economic Forum, 2020 session](https://www.youtube.com/watch?v=sJ9iHTuYnbc) [President of Ukraine, 2022 session](https://www.president.gov.ua/en/news/volodimir-zelenskij-na-forumi-u-davosi-zaproponuvav-stvoriti-75301) [World Economic Forum, 2024](https://www.weforum.org/stories/forum-institutional/pictures-annual-meeting-wef-davos-2024/)
+
+### Larry Fink
+
+- **[T5] Documented fact:** Zelenskyy held video meetings with BlackRock chairman and CEO Larry Fink on **19 September and 28 December 2022**, concerning pro-bono advice on structuring Ukrainian reconstruction funds and attracting public and private investment. They met personally in **New York on 22 September 2023**, and both participated in an International Advisory Council for Ukraine’s Recovery session in **Davos on 22 January 2026**. [President of Ukraine, September 2022](https://president.gov.ua/en/news/volodimir-zelenskij-i-golova-blackrock-obgovorili-zaluchenny-77861) [President of Ukraine, December 2022](https://www.president.gov.ua/en/news/prezident-obgovoriv-z-generalnim-direktorom-blackrock-koordi-80105) [New York meeting](https://www.president.gov.ua/en/news/prezident-zustrivsya-z-najvplivovishimi-amerikanskimi-pidpri-85769) [Davos session](https://www.president.gov.ua/en/news/prezident-zustrivsya-z-predstavnikami-mizhnarodnogo-biznesu-102513)
+
+No sufficiently documented T1, T2 or T9 crossing was identified with another roster member. Mere references to historical figures in speeches, attendance at the same broad international event without demonstrated co-presence, institutional contacts through intermediaries, awards named after historical figures, and unsupported “puppet” or hidden-control narratives were excluded.

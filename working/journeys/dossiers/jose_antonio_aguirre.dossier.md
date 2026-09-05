@@ -618,6 +618,32 @@ The strongest recent scholarship retains the charisma and democratic breadth whi
 - **1960** — Jesús María de Leizaola succeeds him as *lehendakari* in exile.
 - **1979** — Exile government's legitimacy formally handed to restored autonomous institutions, consolidating Aguirre's status as founding president.
 
+## Atlas Connections
+
+### Allen Welsh Dulles
+
+- **[T3] Documented fact:** In New York during 1942, OSS official Allen Dulles advocated inside the U.S. government for Aguirre’s proposed Latin American tour, describing the Basque information network as valuable and pressing officials to facilitate Aguirre’s travel documents. Dulles subsequently wrote American diplomats introducing Aguirre and encouraging them to meet him. The surviving memoranda establish sustained one-sided written engagement with Aguirre and his activities; they do not, by themselves, prove personal friendship. [David Mota Zurdo, “Unidos en la lucha contra el Eje”](https://gredos.usal.es/bitstream/10366/142159/1/Unidos_en_la_lucha_contra_el_Eje_El_Gobi.pdf)
+
+### Pablo Picasso
+
+- **[T9-] Documented fact:** Aguirre visited the Spanish Republic’s pavilion at the 1937 Paris International Exposition and was photographed with republican and Basque officials in front of Picasso’s *Guernica*. The painting is therefore a documented shared object: Picasso created it first, and Aguirre subsequently encountered it at the pavilion. The archival record supports Aguirre’s viewing of the work, not a personal meeting with Picasso. [Spanish State Archives catalogue record](https://pares.mcu.es/ParesBusquedas20/catalogo/description/12898045)
+
+### Sabino Arana
+
+- **[T1-] Documented fact:** Aguirre wrote the prologue to Pedro de Basaldúa’s *El Libertador vasco: Sabino de Arana Goiri*, published in Buenos Aires in 1953. Aguirre thus wrote explicitly about the earlier, deceased founder of the PNV, whom he could not have met because Arana died in 1903, before Aguirre’s birth. [Sabino Arana Goiri documentation catalogue](https://www.sabinoaranagoiri.eus/sobreSabino.php)
+
+### José Luis Álvarez Enparantza “Txillardegi”
+
+- **[T5] Reported fact:** Txillardegi recalled that he and other representatives of the EKIN milieu visited Aguirre in Paris in spring 1958, holding several interviews in a final attempt to prevent the rupture between EKIN and the PNV youth organization. Contemporary scholarship accepts the meeting, although the surviving public accounts are retrospective. [Txillardegi’s account reproduced by *Jakin*](https://jakin.eus/show/9b26e0238e3455c851d4d84e1cd343a62261ceda)
+- **[T3] Reported fact:** After the dissident organization adopted the name Euskadi Ta Askatasuna, a letter attributed to Txillardegi and his associates informed Aguirre of ETA’s creation, conventionally dated 31 July 1959. José Ramón Scheifler later said Aguirre showed him the letter that summer. Retrospective testimony conflicts over the exact date and sometimes confuses Aguirre with his successor, so the correspondence is supported but its chronology is not fully secure. [Gaizka Fernández Soldevilla, “Terror a ciegas”](https://dialnet.unirioja.es/descarga/articulo/6838898.pdf)
+
+### Julen Kerman Madariaga Agirre
+
+- **[T5] Reported fact:** Madariaga belonged to the EKIN delegation received by Aguirre in Paris during the 1958 effort to reconcile the younger activists with the PNV. Accounts describe Aguirre meeting the future ETA founders, including Madariaga and Txillardegi, before their definitive organizational break; no friendship is established. [Teresa Mata López, study of ETA’s origins](https://repositorio.uam.es/bitstream/handle/10486/684144/mata_lopez_teresa.pdf)
+- **[T3] Reported fact:** Madariaga was part of the founding circle responsible for notifying Aguirre by letter of the creation of Euskadi Ta Askatasuna in 1959. Evidence for the communication is retrospective, and accounts disagree about its precise date and individual authorship, so it should not be treated as a securely reconstructed collective signature. [Gaizka Fernández Soldevilla, “Terror a ciegas”](https://dialnet.unirioja.es/descarga/articulo/6838898.pdf)
+
+No additional roster members were found to meet the specified evidentiary threshold. In particular, indirect association through governments, intelligence services, wartime events, shared ideology, broad contemporaneity, or presence in the same city was not counted without evidence of writing, communication, a meeting, meaningful proximity, or a qualifying shared object or site.
+
 ## Sources
 
 https://www.euskadi.eus/predecesor-lehendakari-jose-antonio-aguirre/web01-s1ezaleh/es/

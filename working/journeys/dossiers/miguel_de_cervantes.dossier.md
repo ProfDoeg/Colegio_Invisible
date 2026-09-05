@@ -594,6 +594,50 @@ Spanish is sometimes called “la lengua de Cervantes,” a commemorative metony
 | 2014–15 | Trinitarian crypt investigated; commingled burial assemblage located and reinterred. |
 | 2016 | Quadricentenary of Cervantes’s death. |
 
+## Atlas Connections
+
+### Homer
+
+- **[T1-] Documented fact.** Cervantes explicitly names Homer and engages the Homeric epic tradition in *Don Quixote* and *Viaje del Parnaso* (1614). Scholarship identifies Homeric material—probably mediated through Gonzalo Pérez’s Spanish *Ulixea*—behind the latter poem’s settings, mythological allusions, and treatment of Ulysses. This supports a directional connection from the later writer Cervantes to the earlier poet, though it does not prove that Cervantes read Greek. [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/obra-visor/cervantes-1/html/ff86c3be-82b1-11df-acc7-002185ce6064_5.html)
+
+### Aeneas
+
+- **[T1-] Documented fact.** Aeneas appears through explicit Virgilian allusions in *Viaje del Parnaso* (1614), particularly in chapter III. The connection is literary rather than a claim that Cervantes treated Aeneas as a historical contemporary. [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/obra-visor/cervantes-1/html/ff86c3be-82b1-11df-acc7-002185ce6064_5.html)
+
+### Ulysses
+
+- **[T1-] Documented fact.** Cervantes invokes Ulysses and settings from the *Odyssey* in *Viaje del Parnaso* (1614); editors have traced these references to the Spanish *Ulixea* associated with Gonzalo Pérez rather than establishing direct access to Homeric Greek. [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/obra-visor/cervantes-1/html/ff86c3be-82b1-11df-acc7-002185ce6064_5.html)
+
+### Virgil
+
+- **[T1-] Documented fact.** Cervantes names Virgil in *Viaje del Parnaso*—including the juxtaposition “Apeles y Virgilio”—and repeatedly draws upon Virgilian language and episodes. Scholarship identifies Gregorio Hernández de Velasco’s Spanish translation as an important intermediary, so direct reading of the Latin is not required by the evidence. [Primary text](https://www.cervantesvirtual.com/obra-visor/viaje-del-parnaso--0/html/ff32aa90-82b1-11df-acc7-002185ce6064_36.html), [textual study](https://www.cervantesvirtual.com/descargaPdf/yo-he-leido-en-virgilio-la-tradicion-clasica-en-el-quijote-1259780/)
+
+### Gustave Flaubert
+
+- **[T3] Documented fact.** Flaubert repeatedly engaged with Cervantes in his correspondence. Most notably, while writing *Madame Bovary*, he told Louise Colet on 12 June 1852 that he found his literary origins in *Don Quixote*, a book he remembered from childhood. This is documented one-sided written engagement, not personal contact. [Instituto Cervantes](https://cvc.cervantes.es/el_rinconete/anteriores/febrero_22/03022022_01.htm), [Northwestern University Press/JSTOR](https://www.jstor.org/stable/jj.4116410)
+
+### Friedrich Nietzsche
+
+- **[T3] Documented fact.** Nietzsche read and wrote about *Don Quixote* over several decades. A letter to his mother dated 15 August 1859 requested Ludwig Tieck’s German translation, while later notes and philosophical writings treated Cervantes’s laughter at Don Quixote as a problem involving cruelty, suffering, and *ressentiment*. The evidence establishes sustained textual engagement, not a personal connection. [Nietzsche-Studien](https://www.degruyter.com/document/doi/10.1515/nietzstu-2021-0054/html)
+
+### Sigmund Freud
+
+- **[T3] Documented fact.** Freud recorded that, as a young student, he taught himself Spanish so that he could read Cervantes in the original. He stated this in a letter sent from Vienna to his Spanish translator Luis López-Ballesteros on 7 May 1923; his youthful correspondence with Eduard Silberstein also contains Cervantine reading and allusions. [Instituto Cervantes](https://cvc.cervantes.es/trujaman/anteriores/enero_99/25011999.htm)
+
+### Thomas Jefferson
+
+- **[T3] Documented fact.** Jefferson incorporated *Don Quixote* into his written program for learning Spanish. In his educational advice to Peter Carr, sent from Paris on 10 August 1787, he urged close study of Spanish and recommended reading Cervantes’s novel in the original. This is a documented pedagogical engagement with Cervantes’s text, not evidence of any personal or object-mediated link. [Founders Online, National Archives](https://founders.archives.gov/documents/Jefferson/01-12-02-0021)
+
+### Jorge Luis Borges
+
+- **[T1+] Documented fact.** Borges repeatedly wrote about the earlier Cervantes, beginning with “La conducta novelística de Cervantes” in 1928 and continuing through essays, poems, lectures, and the 1939 fiction “Pierre Menard, autor del Quijote.” That story makes Cervantes and the exact wording of *Don Quixote* central to an inquiry into authorship, historical context, and rereading. [Instituto Cervantes](https://cvc.cervantes.es/literatura/quijote_america/argentina/introduccion.htm), [Cambridge University Press](https://www.cambridge.org/core/books/abs/jorge-luis-borges-in-context/borges-and-cervantes/0E51EFE712AB0B2845CCFA0BC84628BE)
+
+### Michel Foucault
+
+- **[T3] Documented fact.** Foucault devoted the opening chapter of *Les Mots et les choses* (*The Order of Things*, 1966) to *Don Quixote*, interpreting Cervantes’s novel as marking a rupture between Renaissance resemblance and the Classical ordering of signs. This is substantial one-sided philosophical engagement with Cervantes’s text, not a biographical or personal connection.
+
+No documented T2 prophecy/hyperstition, T4 shared milieu, T5 personal meeting or friendship, or T9 transmitted-object/site connection was found with the roster. In particular, Inca Garcilaso de la Vega’s near-contemporaneous death and possible geographic overlap with Cervantes do not by themselves establish an Atlas connection; claims that the two met or that Cervantes used Garcilaso’s translation of León Hebreo remain unproved. [Instituto Cervantes](https://cvc.cervantes.es/literatura/quijote_america/peru/miro.htm)
+
 ## Sources
 
 https://www.cervantesvirtual.com/portales/miguel_de_cervantes/autor_cronologia/

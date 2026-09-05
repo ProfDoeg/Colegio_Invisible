@@ -450,6 +450,58 @@ Commemorations include lunar crater **Copernicus**; asteroid **1322 Coppernicus*
 - Exact finances cannot be reconstructed as a modern balance sheet; benefices, houses, books, and administrative responsibilities are documented, but not comprehensive assets or debts.
 - Nationality claims must be translated into the legal, linguistic, urban, dynastic, and regional categories of Royal Prussia rather than reduced to modern citizenship.
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-] Documented fact:** Copernicus repeatedly examined Aristotle’s arguments for a stationary, central Earth in Book I of *De revolutionibus* (Nuremberg, 1543), accepting parts of the Aristotelian physical tradition while rejecting its geocentric conclusion. [Full text of *De revolutionibus*](https://www.geo.utexas.edu/courses/302d/Fall_2011/Full%20text%20-%20Nicholas%20Copernicus%2C%20_De%20Revolutionibus%20%28On%20the%20Revolutions%29%2C_%201.pdf)
+
+### Plato
+
+- **[T1-] Documented fact:** In *De revolutionibus* I.10, Copernicus discussed Plato’s placement of Mercury and Venus relative to the Sun; elsewhere he invoked Plato while describing the scarcity of accomplished ancient astronomers. This is direct textual engagement with an earlier roster figure. [Historical analysis of the passage](https://www.journals.uchicago.edu/doi/full/10.1086/703410)
+
+### Cicero
+
+- **[T1-] Documented fact:** Copernicus stated in his dedication to Pope Paul III that reading Cicero led him to Hicetas’s claim that Earth moved. Cicero therefore served as an explicitly acknowledged ancient literary source in Copernicus’s search for alternatives to terrestrial immobility. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/copernicus/)
+
+### Leonardo da Vinci
+
+- **[T4] Reported fact:** Independent itineraries place Leonardo and Copernicus in Bologna during April 1500—Leonardo during a documented visit and Copernicus during his Bologna study period. No meeting, correspondence, exchange of ideas, or common associate connecting them personally has been established; the supported connection is limited to brief urban proximity. [Study of the proposed Bologna overlap](https://www.cultureandcosmos.org/pdfs/27/27_Poss_Leonardo.pdf)
+
+### Martin Luther
+
+- **[T3] Reported fact:** Notes later incorporated into Luther’s *Table Talk* record him reacting at Wittenberg in 1539 to reports of the unnamed astronomer who made Earth move, conventionally and credibly identified as Copernicus. This was one-sided engagement with news of the theory, not correspondence or a meeting; the familiar wording that Luther called Copernicus a “fool” varies among transmitted versions and should not be treated as a verbatim autograph statement. [Historical discussion by Owen Gingerich](https://www.asa3.org/ASA/PSCF/1981/JASA3-81Gingerich.html)
+
+### Giordano Bruno
+
+- **[T1+] Documented fact:** Bruno discussed Copernicus extensively in *La cena de le ceneri* (*The Ash Wednesday Supper*, London, 1584), praising his restoration of Earth’s motion while criticizing him as too narrowly mathematical and extending the Copernican cosmos toward an infinite universe containing innumerable worlds. Bruno was born in 1548, five years after Copernicus’s death, so no personal contact was possible. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/bruno/)
+
+### Johannes Kepler
+
+- **[T1+] Documented fact:** Kepler repeatedly wrote about and transformed Copernicus’s system, beginning with *Mysterium Cosmographicum* (Tübingen, 1596) and continuing through *Astronomia nova* (Prague, 1609) and the *Epitome of Copernican Astronomy* (1618–21). He also identified Andreas Osiander as the author of the anonymous 1543 preface, citing a note written by Hieronymus Schreiber in a surviving copy of *De revolutionibus*. Kepler was born in 1571 and never met Copernicus. [University of Michigan History of Astronomy Collection](https://www.early-astronomy-um.org/western_osiander.php)
+
+### Galileo Galilei
+
+- **[T1+] Documented fact:** Galileo explicitly defended and developed Copernican terrestrial motion in writings including the *Letter to Castelli* (1613), *Letter to the Grand Duchess Christina* (1615), and especially *Dialogue Concerning the Two Chief World Systems, Ptolemaic and Copernican* (Florence, 1632). The connection is posthumous intellectual engagement: Galileo was born in 1564, twenty-one years after Copernicus died. [University of Oklahoma Galileo collection](https://galileo.ou.edu/exhibits/dialogue-two-chief-systems-world.html)
+
+### René Descartes
+
+- **[T1+] Documented fact:** Descartes compared Copernicus’s system with those of Ptolemy and Tycho Brahe in Part III of *Principles of Philosophy* (Amsterdam, 1644), judging the Copernican account simpler and better at explaining appearances while redefining motion so that Earth could be described as at rest within the matter carrying it around the Sun. This was posthumous critical adaptation, not personal contact. [Cambridge Descartes Lexicon](https://www.cambridge.org/core/books/abs/cambridge-descartes-lexicon/cosmology/4886838E2F9B162BA3B19E55A93D92EF)
+
+### Christiaan Huygens
+
+- **[T1+] Documented fact:** Huygens treated Copernican planetary astronomy as the foundation for discussing other inhabited worlds in *Kosmotheoros*, written late in his life and published posthumously at The Hague in 1698. His engagement belongs to Copernicus’s later scientific reception; the two men were separated by more than a century and never met.
+
+### Isaac Newton
+
+- **[T1+] Documented fact:** Newton placed Copernicus within the historical development of planetary theory and mathematically supplied the dynamical framework that the Copernican system lacked in *Philosophiæ Naturalis Principia Mathematica* (London, 1687). This was posthumous engagement rather than a personal crossing: Newton was born in 1642/43, around the time of Copernicus’s final illness and death. [Newton’s *Principia*](https://web.math.princeton.edu/~eprywes/F22FRS/newtonprincipia.pdf)
+
+### Immanuel Kant
+
+- **[T1+] Documented fact:** In the second-edition preface to the *Critique of Pure Reason* (Riga, 1787), Kant explicitly used Copernicus’s reversal of the observer–heavens relationship as an analogy for changing philosophy’s method: cognition’s objects might conform to the conditions of cognition rather than cognition simply conforming to independently given objects. The exact phrase “Copernican revolution” does not occur in Kant’s passage, although it became the standard name for the analogy. [Text of Kant’s second-edition preface](https://humanum.arts.cuhk.edu.hk/humftp/E-text/Kant/cpr.kemp-smith/02pref-b.htm)
+
+No other roster member was included merely because of chronological overlap, general participation in astronomy, later use of the adjective “Copernican,” or presence within the broad Renaissance or Scientific Revolution tradition. In particular, no documented personal or textual connection was found between Copernicus and Nicholas of Cusa, despite later comparisons between their ideas about cosmic motion.
+
 ## Sources
 
 https://plato.stanford.edu/entries/copernicus/

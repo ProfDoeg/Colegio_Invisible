@@ -666,6 +666,43 @@ By late 2025 Mila and LawZero announced that Bengio had become the first living 
 - **2026, July:** LawZero publishes formal “disinterested predictor” safety case and announces Nvidia support.
 - **2026, 25 August:** Living in Montréal; professor, LawZero scientific director/co-president, Mila founder/scientific adviser, and international AI-safety chair.
 
+## Atlas Connections
+
+### Alan Turing
+
+- **[T2- prediction] Documented fact:** In an April 2023 essay, Bengio characterized GPT-4-era systems as passing the Turing test by convincing humans that they were conversing with another person. In a 2026 interview, he more explicitly described language-capable AI as reaching a stage Turing had anticipated. This is a retrospective match to Turing’s prediction, not evidence that the prediction caused Bengio’s work. [Bengio’s essay](https://yoshuabengio.org/en/blog/slowing-down-development-ai-systems-passing-turing-test), [2026 interview](https://www.lemonde.fr/economie/article/2026/04/02/yoshua-bengio-prix-turing-2018-lanceur-d-alerte-sur-l-intelligence-artificielle_6676123_3234.html)
+
+### Bill Gates
+
+- **[T3] Documented fact:** Gates and Bengio were named signatories of the Center for AI Safety’s one-sentence “Statement on AI Risk,” published 30 May 2023, declaring mitigation of AI-extinction risk a global priority. This establishes participation in the same written intervention, not personal correspondence or a meeting. [Center for AI Safety](https://safe.ai/statement-on-ai-risk)
+
+### Elon Musk
+
+- **[T4] Documented fact:** Bengio and Musk participated in the Future of Life Institute’s Beneficial AI 2017 conference at Asilomar, California, held 5–8 January 2017. Bengio delivered an opening-day talk and joined a panel; Musk was listed on the conference’s superintelligence panel. The record establishes presence in the same organized milieu, but not a private encounter between them. [Future of Life Institute conference record](https://futureoflife.org/event/bai-2017/)
+- **[T3] Documented fact:** Bengio and Musk later signed the Future of Life Institute’s March 2023 open letter calling for a six-month pause in training AI systems more powerful than GPT-4. Their co-signature documents a shared written intervention, not correspondence with each other. [Future of Life Institute open letter](https://futureoflife.org/open-letter/pause-giant-ai-experiments/)
+
+### Geoffrey Hinton
+
+- **[T3] Documented fact:** Bengio and Hinton maintained a long-running scholarly engagement through CIFAR’s neural-computation network and jointly authored, with Yann LeCun, the 2015 *Nature* review “Deep Learning.” They also co-authored the 2024 *Science* paper “Managing Extreme AI Risks Amid Rapid Progress” and made several joint public appearances. [2015 *Nature* paper](https://www.nature.com/articles/nature14539), [2024 paper](https://arxiv.org/abs/2310.17688), [documented joint panel](https://blog.re-work.co/bengio-lecun-hinton-ai-panel/)
+
+### Ray Kurzweil
+
+- **[T4] Documented fact:** Kurzweil and Bengio attended and spoke at the Beneficial AI 2017 conference at Asilomar, California, in January 2017. Bengio gave a talk on creating human-level AI and joined an economics-and-automation panel; Kurzweil spoke in the same program and joined the superintelligence panel. No direct exchange between them was located. [Future of Life Institute conference record](https://futureoflife.org/event/bai-2017/)
+
+### Reid Hoffman
+
+- **[T4] Reported fact:** The Future of Life Institute’s official retrospective lists both Bengio and Hoffman among participants at its Beneficial AI 2017 conference at Asilomar, while noting Hoffman among attendees absent from the published group photograph. This supports shared conference milieu only; no documented conversation or personal relationship was found. [Future of Life Institute conference record](https://futureoflife.org/event/bai-2017/)
+
+### Sam Altman
+
+- **[T3] Documented fact:** Altman and Bengio were named signatories of the Center for AI Safety’s May 2023 “Statement on AI Risk.” This was a common written endorsement rather than demonstrated correspondence or collaboration between them. [Center for AI Safety](https://safe.ai/statement-on-ai-risk)
+
+### Yuval Noah Harari
+
+- **[T3] Documented fact:** Bengio and Harari held their first recorded conversation on 24 May 2023 at C2 Montréal, with Bengio present at the venue and Harari participating by video. They discussed AI-generated propaganda, counterfeit human identities, democracy, regulation, and human dignity. They subsequently co-authored the 2024 *Science* paper “Managing Extreme AI Risks Amid Rapid Progress”; in January 2026 Harari also joined the board of Bengio’s LawZero. The record establishes sustained intellectual and institutional engagement, although the hybrid 2023 event does not establish a same-room personal meeting. [Mila event account](https://mila.quebec/en/news/yoshua-bengio-and-yuval-noah-harari-discuss-ai-democracy-and-the-future-of-civilization), [2024 paper](https://arxiv.org/abs/2310.17688), [LawZero board announcement](https://lawzero.org/en/news/lawzero-appoints-7-global-leaders-including-top-ai-and-business-figures-well-former-head)
+
+No adequately documented T1, T5, or T9 connection with another roster member was located. Conference-series participation without proof of attendance at the same edition, institutional funding without personal involvement, and mere appearance on large undifferentiated name lists were excluded.
+
 ## Sources
 
 https://yoshuabengio.org/en

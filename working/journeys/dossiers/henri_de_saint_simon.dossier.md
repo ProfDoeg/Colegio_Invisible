@@ -2616,6 +2616,56 @@ The documentary record supports the coexistence of the following without requiri
 
 ---
 
+## Atlas Connections
+
+### Adam Smith
+
+- **[T1-]** **Documented fact:** Saint-Simon identified himself with the political economy of Adam Smith and Jean-Baptiste Say and used their analysis of productive activity when developing his industrial doctrine. The precise extent of his direct reading is uncertain; scholarship suggests he may have encountered Smith principally through Say rather than through *The Wealth of Nations* itself. [University Jean Monnet Saint-Simonian economics archive](https://www.univ-st-etienne.fr/fr/gate-lse/liens-utiles/saint-simonisme-et-economie/saint-simonisme-et-economie-textes-economiques-saint-simoniens.html), [contemporary historical discussion](https://fr.wikisource.org/wiki/Le_Fondateur_du_socialisme_moderne_-_Saint-Simon)
+
+### Alexander Hamilton
+
+- **[T4]** **Documented fact:** Hamilton and Saint-Simon were both serving with the allied army during the siege of Yorktown, Virginia, in October 1781. Hamilton commanded the American assault on Redoubt No. 10, while Saint-Simon served with the French Touraine regiment in the same siege. No evidence located establishes a personal meeting between them. [National Park Service](https://www.nps.gov/york/learn/historyculture/hamiltonbio.htm)
+
+### Apostle Paul
+
+- **[T1-]** **Documented fact:** Saint-Simon discussed Pauline Christianity in *Nouveau Christianisme* (1825), explicitly invoking the Epistle to the Romans while evaluating established Christian doctrine and its social application. This is textual engagement, not evidence of any claimed visionary encounter. [Text of *Nouveau Christianisme*](https://fr.wikisource.org/wiki/Nouveau_Christianisme)
+
+### Charlemagne
+
+- **[T2- unresolved]** **Rumor or myth / Saint-Simon’s self-report:** Saint-Simon related that Charlemagne appeared to him during his imprisonment in the Luxembourg prison in 1794 and foretold that Saint-Simon would achieve in philosophy a distinction comparable to Charlemagne’s in politics. The apparition and prophecy are unverifiable, while the alleged fulfillment—Saint-Simon’s eventual intellectual stature—is inherently interpretive. The story nevertheless helped construct his prophetic identity and may have reinforced his sense of mission. [Richard Swedberg’s scholarly discussion](https://www.cambridge.org/core/journals/european-journal-of-sociology-archives-europeennes-de-sociologie/article/saintsimons-vision-of-a-united-europe/74C837C79926FA67080067F3DF4553FF)
+
+### Friedrich Hayek
+
+- **[T1+]** **Documented fact:** Hayek devoted a substantial historical critique to Saint-Simon in the essays collected as *The Counter-Revolution of Science* (1952). He presented Saint-Simon as a formative representative of scientism, social engineering, hierarchical expert government, and the common ancestry of positivism and modern planning. This is a later writer’s sustained engagement with Saint-Simon, not a personal crossing. [Text of Hayek’s study](https://www.mises.at/static/literatur/Buch/hayek-the-counter-revolution-of-science.pdf)
+
+### George Washington
+
+- **[T4]** **Documented fact:** Washington and Saint-Simon occupied the same military theater during the Franco-American siege of Yorktown in September–October 1781. Saint-Simon’s Touraine regiment belonged to the French contingent integrated into the allied siege commanded by Washington and Rochambeau. Surviving Washington records prominently concern Saint-Simon’s older relative and commander Claude-Anne de Rouvroy; they do not establish a personal meeting between Washington and Claude-Henri. [George Washington’s October 1781 diary and editorial notes](https://founders.archives.gov/documents/Washington/01-03-02-0007-0006), [National Park Service campaign history](https://www.nps.gov/york/learn/historyculture/history-of-the-siege.htm)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Saint-Simon’s *Nouveau Christianisme* (Paris, 1825) reinterpreted the religion attributed to Jesus as a social ethic whose central obligation was human fraternity and improvement of the poorest class. Saint-Simon accepted Christianity’s divine origin while sharply reducing its essential doctrine and criticizing the historical churches’ implementation of it. [Text of *Nouveau Christianisme*](https://fr.wikisource.org/wiki/Nouveau_Christianisme), [scholarly analysis](https://www.persee.fr/doc/assr_0003-9659_1965_num_20_1_1783)
+
+### Joseph-Louis Lagrange
+
+- **[T5]** **Reported fact:** Biographical sources report that, during Saint-Simon’s Directory-era scientific re-education and salon activity in Paris, he gathered scholars including Gaspard Monge and Lagrange around him. This supports personal social contact, although the accessible account does not document particular conversations or dates and therefore does not justify describing them as close friends or formal collaborators. [Catholic Encyclopedia biography](https://www.newadvent.org/cathen/13377a.htm)
+
+### Karl Marx
+
+- **[T1+]** **Documented fact:** Marx repeatedly wrote about Saint-Simon and Saint-Simonianism. With Engels, he discussed Saint-Simon’s life and industrial theory in *The German Ideology* (1845–1846), while the *Communist Manifesto* (1848) placed the systems of Saint-Simon, Fourier, and Owen within the early history of “Critical-Utopian Socialism and Communism.” This was retrospective intellectual classification; the two men could not have met because Marx was seven years old when Saint-Simon died. [*The German Ideology*](https://www.marxists.org/archive/marx/works/1845/german-ideology/ch04c.htm), [*Communist Manifesto*](https://www.gutenberg.org/files/61/61-h/61-h.htm)
+
+### Marquis de Lafayette
+
+- **[T4]** **Documented fact:** Lafayette and Saint-Simon served in the same allied campaign at Yorktown in 1781. Lafayette commanded American forces in Virginia and then a division during the siege; Saint-Simon arrived with the French Caribbean contingent and served in the Touraine regiment. Later summaries sometimes say they “fought alongside” one another, but the evidence located supports shared campaign proximity rather than a documented friendship or specific personal meeting. [National Park Service](https://www.nps.gov/york/learn/historyculture/lafayette-and-the-virginia-campaign-1781.htm)
+
+### Napoleon Bonaparte
+
+- **[T1-]** **Documented fact:** Saint-Simon wrote about Napoleon in his scientific and political writings of the imperial period. His early-1810s *Mémoire sur la science de l’homme* and related material praised Bonaparte’s creation or support of scientific and educational institutions, while Saint-Simon treated Napoleonic power as a possible vehicle for intellectual and social reorganization. There is no securely documented personal meeting in the sources examined. [Catholic Encyclopedia biography](https://www.newadvent.org/cathen/13377a.htm), [FranceArchives manuscript record](https://francearchives.gouv.fr/fr//facomponent/df7dcde5a956407d1a4b1134d7879f916988f18e)
+
+### Sir Isaac Newton
+
+- **[T1-]** **Documented fact:** Newton was the central historical figure in Saint-Simon’s *Lettres d’un habitant de Genève* (1802–1803). Saint-Simon imagined Newton occupying the place nearest God in a scientific spiritual order and proposed a transnational “Council of Newton” composed of leading scientists and artists. The connection is entirely posthumous and textual: Newton died in 1727, decades before Saint-Simon’s birth. [Stanford’s Saint-Simon exhibit](https://exhibits.stanford.edu/super-e/feature/claude-henri-de-rouvroy-de-saint-simon-1760-1825), [BnF authority and works record](https://data.bnf.fr/fr/see_all_activities/11923405/page1)
+
 ## Sources
 
 https://catalogue.bnf.fr/ark:/12148/cb11923405t

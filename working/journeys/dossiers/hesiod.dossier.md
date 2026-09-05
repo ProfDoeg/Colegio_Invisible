@@ -756,6 +756,54 @@ The recoverable evidence supports the last four approaches more readily than a s
 | 1988–2018 | Lamberton, Clay, Brill’s *Companion*, and the *Oxford Handbook* synthesize biography, poetics, corpus, contexts, and reception. | Modern scholarship. |
 | Present | Hesiod remains a canonical source for Greek theology, labor, justice, gender, myth, and didactic poetry; historical life details remain sparse and disputed. | Continuing reception. |
 
+## Atlas Connections
+
+### Herodotus of Halicarnassus
+
+- **[T1+]** Writing in the fifth century BCE, Herodotus explicitly dated Hesiod and Homer to approximately four hundred years before himself and credited them with constructing a Greek theogony, assigning the gods’ honors and functions, and describing their forms (*Histories* 2.53). **Documented fact:** this is the earliest surviving roster-member discussion of Hesiod, although its chronology is an ancient estimate rather than contemporary evidence. [Primary text](https://lexundria.com/hdt/2.53/mcly)
+
+### Plato
+
+- **[T1+]** Plato repeatedly named or unmistakably discussed Hesiod and evaluated Hesiodic poetry during the fourth century BCE. Most prominently, *Republic* 377e–378a condemns the stories of Uranus and Cronus as unsuitable education; elsewhere Plato quotes *Works and Days* and invokes Hesiodic genealogies. **Documented fact:** direct, one-sided written engagement by a later author with Hesiod’s attributed texts and authority. [Primary text](https://classics.mit.edu/Plato/republic.3.ii.html)
+
+### Aristotle
+
+- **[T1+]** Aristotle quoted and interpreted Hesiod in several fourth-century-BCE works. *Metaphysics* 1.4 treats Hesiod’s primordial Eros as an early attempt to identify a cosmic moving cause; *Politics* 1.2 quotes the household maxim about acquiring a house, woman, and plough-ox, while *Nicomachean Ethics* 1.4 quotes *Works and Days* 293–297 on thinking and receiving advice. **Documented fact:** sustained philosophical and political use of Hesiod as an earlier authority. [*Metaphysics* 1.4](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0052%3Abook%3D1) [*Politics* passage](https://sourcebooks.web.fordham.edu/ancient/Aristotle-politics-polis.asp)
+
+### Pindar of Thebes
+
+- **[T3]** Pindar’s early-fifth-century-BCE victory odes engage identifiable Hesiodic formulations and narratives. Pythian 6 and Isthmian 6 adapt precepts associated with *Works and Days*, while other odes reshape Hesiodic divine genealogy and cosmic ordering. **Documented fact:** textual reception and transformation, not evidence that Pindar possessed Hesiod’s autograph or met him. [Oxford Handbook discussion](https://academic.oup.com/edited-volume/27942/chapter-abstract/211866716) [Scholarly review](https://bmcr.brynmawr.edu/2018/2018.12.12/)
+
+### Simonides of Ceos
+
+- **[T3]** Surviving fragments attributed to Simonides, active in the late sixth and early fifth centuries BCE, quote or rework Hesiodic wisdom poetry; modern reception scholarship specifically identifies Simonidean engagement with *Works and Days*. **Documented fact:** a literary crossing preserved fragmentarily, with the ordinary uncertainties surrounding attribution and reconstruction of Simonides’ fragments. [Review of the textual evidence](https://bmcr.brynmawr.edu/2014/2014.10.08/)
+
+### Cicero
+
+- **[T1+]** In *Cato Maior de Senectute* 23, written in 44 BCE, Cicero includes Hesiod among poets and philosophers whose intellectual activity supposedly continued into old age. **Documented fact:** Cicero wrote explicitly about Hesiod, but his passing assertion is rhetorical evidence for Hesiod’s Roman reputation, not independent documentation of Hesiod’s lifespan. [Primary text](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cicero/Cato_Maior_de_Senectute/text%2A.html)
+
+### Virgil
+
+- **[T3]** Virgil’s *Georgics*, composed approximately 37–29 BCE, deliberately engages *Works and Days* through its hexameter agricultural instruction, calendar, labor theology, ages narrative, and arrangement of “works” alongside seasonal “days.” **Documented fact:** extensive literary adaptation by the later Roman poet; it establishes textual reception, not a personal connection. [Oxford Academic study](https://academic.oup.com/book/46906) [Cambridge discussion](https://eclass.upatras.gr/modules/document/file.php/LIT2211/%CE%92%CE%B5%CF%81%CE%B3%CE%AF%CE%BB%CE%B9%CE%BF%CF%82%2C%20%CE%91%CE%B9%CE%BD%CE%B5%CE%B9%CE%AC%CE%B4%CE%B1%20%CE%99%CE%99%20%CE%BA%CE%B1%CE%B9%20%CE%99%CE%99%CE%99/Hardie%20-%20Virgil-Cambridge%20University%20Press%20%282006%29.pdf)
+
+### Pliny the Elder
+
+- **[T1+]** Pliny explicitly discusses Hesiod in the first century CE. *Natural History* 14.3 presents him as an early transmitter of agricultural rules, while other books cite Hesiodic botanical, astronomical, and mythographic material. **Documented fact:** direct later written testimony and source use; Pliny’s “thousand years” is rhetorical chronology, and some material he knew as Hesiodic may have belonged to the wider attributed corpus. [*Natural History* 14.3](https://www.attalus.org/pliny/hn14a.html)
+
+### Quintilian
+
+- **[T1+]** Around 95 CE, Quintilian evaluated Hesiod in *Institutio Oratoria* 10.1.52, praising his moral maxims and stylistic smoothness while criticizing the genealogical accumulation of names and ranking him among writers of the intermediate style. **Documented fact:** an explicit Roman-era critical assessment of the earlier poet. [Primary text](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Aphi%2C1002%2C00110%3A1)
+
+### Strabo of Amaseia
+
+- **[T1+]** In the Augustan-period *Geography* 9.2.25, Strabo identifies Ascra as Hesiod’s home city, locates it about forty stadia from Thespiae, and quotes *Works and Days* on the father’s migration from Cyme and Ascra’s disagreeable climate. **Documented fact:** explicit geographical and biographical writing about Hesiod; Strabo’s local description is later testimony and does not independently prove Hesiod’s birthplace. [Primary text](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9B%2A.html)
+
+### Homer
+
+- No qualifying personal crossing can be established. The claim that Homer and Hesiod met and competed at Chalcis is a **rumor or myth** developed in the later *Contest of Homer and Hesiod*; Hesiod’s own account names neither Homer nor any opponent. Shared epic diction and uncertain chronological overlap alone do not establish T3, T4, or T5.
+
+No prophecy/hyperstition (T2), securely documented friendship or personal meeting (T5), or qualifying transferred-object/site connection (T9) was found between Hesiod and another roster member. The alleged Homeric contest and tripod do not meet those thresholds.
+
 ## Sources
 
 https://www.theoi.com/Text/HesiodWorksDays.html

@@ -604,6 +604,59 @@ The largest unanswered questions remain in the archive: exact teaching chronolog
 | 2001/04 | Georg Doerr presents/publishes studies using Fröbe letters in the Marbach estate. |
 | 2024 | Gerolzhofen reports receipt of substantial additional local Derleth materials. |
 
+## Atlas Connections
+
+### Alexander the Great
+
+- **[T1-]** **Documented fact:** Derleth invoked Alexander among the historical “model heroes” assembled in *Die Proklamationen* (1904), using exemplary conquerors to articulate his projected Christian-imperial order. The minus sign marks Derleth as the later writer. [Barbara Neymeyr’s analysis, citing Dominik Jost](https://www.bgdv.be/wp-content/uploads/2017/04/gm37-1_neymeyr.pdf)
+
+### Hannibal Barca
+
+- **[T1-]** **Documented fact:** Hannibal appears in the heterogeneous company of military and religious exemplars invoked in Derleth’s *Proklamationen* (1904). This establishes literary treatment, not a claim that Derleth produced a historical study of Hannibal. [Barbara Neymeyr’s analysis, citing Dominik Jost](https://www.bgdv.be/wp-content/uploads/2017/04/gm37-1_neymeyr.pdf)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Jesus/Christ is the central past figure addressed and reinterpreted throughout *Die Proklamationen*. Derleth presented Christ as *imperator maximus* and called for militant discipleship and a purified Christian order; the digitized 1919 revision indexes “Jesus,” “Jesus von Nazareth,” “Imitatio Christi,” and “Nachfolge Jesu.” [Digitized bibliographic and textual record of the 1919 *Proklamationen*](https://books.google.com/books/about/Proklamationen.html?id=CO5IAQAAMAAJ)
+
+### Muhammad ibn Abdullah
+
+- **[T1-]** **Documented fact:** Derleth included Muhammad among the exemplary figures invoked in *Die Proklamationen* (1904), alongside conquerors, saints, and Nietzsche. This is a documented literary reference; it does not establish Islamic adherence or a historically systematic account of Muhammad. [Barbara Neymeyr’s analysis, citing Dominik Jost](https://www.bgdv.be/wp-content/uploads/2017/04/gm37-1_neymeyr.pdf)
+
+### Saint Francis of Assisi
+
+- **[T1-]** **Documented fact:** Derleth treated Francis as an exemplary religious figure in *Die Proklamationen* (1904), and *Der fränkische Koran* later incorporated explicit Franciscan reminiscences into its account of the soul’s pilgrimage. [Barbara Neymeyr on the *Proklamationen*](https://www.bgdv.be/wp-content/uploads/2017/04/gm37-1_neymeyr.pdf); [*Killy Literaturlexikon* entry](https://api.pageplace.de/preview/DT0400.9783110209358_A19077649/preview-9783110209358_A19077649.pdf)
+
+### Napoleon Bonaparte
+
+- **[T1-]** **Documented fact:** Napoleon was one of the historical model heroes invoked in Derleth’s *Proklamationen* (1904). Derleth’s broader prophetic self-presentation also generated the contemporary shorthand “Christus-Napoleon,” but the atlas connection rests on Napoleon’s documented appearance in Derleth’s writing. [Barbara Neymeyr’s analysis, citing Dominik Jost](https://www.bgdv.be/wp-content/uploads/2017/04/gm37-1_neymeyr.pdf)
+
+### Friedrich Nietzsche
+
+- **[T1-]** **Documented fact:** Derleth explicitly invoked Nietzsche among the exemplary figures in *Die Proklamationen* (1904) and recast the prophetic rhetoric and elite-forming posture of *Also sprach Zarathustra* for his militant Catholic program. Contemporary archival interpretation also records Derleth and Georg Kolbe’s shared admiration for Nietzsche in Paris in 1898. [Barbara Neymeyr’s analysis](https://www.bgdv.be/wp-content/uploads/2017/04/gm37-1_neymeyr.pdf); [Georg Kolbe Museum object record](https://sammlung.georg-kolbe-museum.de/de/export/pdf?destination=%2Fde%2Fobjekte%2Fportraet-ludwig-derleth%2F62955%3Ffilter%255Bperiod_fct%255D%255B0%255D%3Dbis%25201909%26facet%255Bcorrespondence_all%255D%255Bindex%255D%3DN%26facet%255Bartist_all%255D%255Bindex%255D%3DR%26facet%255Bmention_all%255D%255Bindex%255D%3DP%26start%3D12%26widget%255Bdepicted_all_facet%255D%255Bshow%255D%3D1%26widget%255Bcorrespondence_all_facet%255D%255Bshow%255D%3D1%26widget%255Bartist_all_facet%255D%255Bshow%255D%3D1%26widget%255Bmention_all_facet%255D%255Bshow%255D%3D1%26position%3D18&title=Portr%C3%A4t+Ludwig+Derleth)
+
+### Bernard of Clairvaux
+
+- **[T1-]** **Documented fact:** *Der fränkische Koran* contains identifiable reminiscences of Bernard of Clairvaux as part of Derleth’s synthesis of medieval mysticism, hierarchy, and the soul’s pilgrimage. [*Killy Literaturlexikon* entry](https://api.pageplace.de/preview/DT0400.9783110209358_A19077649/preview-9783110209358_A19077649.pdf)
+
+### Dante Alighieri
+
+- **[T1-]** **Documented fact:** Scholarship identifies Dante among the literary and religious sources appropriated in *Der fränkische Koran*. The connection is textual reception by Derleth, not personal contact or transmission of an object. [*Killy Literaturlexikon* entry](https://api.pageplace.de/preview/DT0400.9783110209358_A19077649/preview-9783110209358_A19077649.pdf)
+
+### Charles Fourier
+
+- **[T1-]** **Documented fact:** Derleth studied and appropriated Fourier’s writings in developing his ideal community and social-religious program; Fourier was reportedly required reading for Derleth’s followers, and the formula that “paradisiacal man is the beginning and end of creation” became a Derleth motto. *Der fränkische Koran* also contains recognizable Fourierian elements. [Hans Thomas Hakl, *Eranos: An Alternative Intellectual History of the Twentieth Century*](https://api.pageplace.de/preview/DT0400.9781317548133_A23898839/preview-9781317548133_A23898839.pdf); [*Killy Literaturlexikon* entry](https://api.pageplace.de/preview/DT0400.9783110209358_A19077649/preview-9783110209358_A19077649.pdf)
+
+### Friedrich Wilhelm Joseph Schelling
+
+- **[T1-]** **Documented fact:** Literary reference scholarship identifies Schelling among the thinkers whose ideas or reminiscences Derleth incorporated into *Der fränkische Koran*. The accessible evidence supports textual reception, not correspondence or a separate Schelling study. [*Killy Literaturlexikon* entry](https://api.pageplace.de/preview/DT0400.9783110209358_A19077649/preview-9783110209358_A19077649.pdf)
+
+### Olga Fröbe-Kapteyn
+
+- **[T3]** **Documented fact:** Derleth and Fröbe-Kapteyn maintained a long, intense written relationship. Surviving letters from Fröbe to Derleth begin in 1920 and document spiritual discipleship, personal attachment, and discussion of myth, symbolism, and religious experience; Georg Doerr located and published selections from this correspondence in the Derleth estate at Marbach. [Georg Doerr, “Archetyp und Geschichte oder München–Ascona”](https://georgdoerr.net/wp-content/uploads/2010/02/doefroeb.pdf)
+- **[T5]** **Documented fact:** They met repeatedly, visited one another, and traveled together. Derleth visited Fröbe while she lived at Villa Monte Tabor near Ascona, and in October 1922 they traveled together from Ascona to Rome. Their relationship is documented from at least 1916 and continued for decades. [Georg Doerr, using Jost, Christine Derleth, and the surviving letters](https://georgdoerr.net/wp-content/uploads/2010/02/doefroeb.pdf)
+
+No direct Derleth connection to Carl Gustav Jung is established by the consulted evidence. Both influenced or participated in different phases of Fröbe-Kapteyn’s intellectual world, but Derleth did not join the mature Eranos conferences; this intermediary relationship alone does not justify T3, T4, or T5. No supported T2 prophecy/hyperstition or T9 shared-object crossing with any roster member was found.
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd11852478X.html

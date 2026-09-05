@@ -470,6 +470,50 @@ Commemoration has preserved and distorted him simultaneously. Hagiography turns 
 | 28 Feb. 1954 | Remains repatriated to Venezuela and placed in Caracas's Panteón Nacional. |
 | 1970s onward | Institutional canonization through UNESR, collected works, educational scholarship, and later Misión Robinson. |
 
+## Atlas Connections
+
+### Christopher Columbus
+
+- **[T1-]** **Documented fact:** Rodríguez discussed Columbus in his mature writings, calling him a virtuous Italian who did not intend slaughter but “opened the doors” to conquistadors whom he mistakenly trusted as Christians. This is direct written engagement with the earlier figure, preserved in Rodríguez’s *Obras completas*. [Text of Rodríguez’s works](https://biblioteca.clacso.edu.ar/clacso/se/20190926042843/Simon_Rodriguez_Obras_Completas.pdf)
+
+### Jean-Jacques Rousseau
+
+- **[T1-]** **Documented fact:** Rodríguez explicitly assessed Rousseau’s political and educational arguments—for example, Rousseau’s reservations about general instruction—rather than merely displaying an inferred philosophical resemblance. The evidence supports Rodríguez writing about Rousseau; it does not prove the later legend that he systematically educated Bolívar according to *Émile*. [Rodríguez’s *Obras completas*](https://biblioteca.clacso.edu.ar/clacso/se/20190926042843/Simon_Rodriguez_Obras_Completas.pdf)
+
+### Simón Bolívar
+
+- **[T5]** **Documented fact:** Rodríguez taught Bolívar in Caracas during the 1790s, housed him for several months in 1795, reunited with him in Paris in 1804, traveled with him through France and Italy in 1805, witnessed the Monte Sacro oath, and rejoined him in Peru and Upper Peru in 1825. Their final personal separation came when Bolívar left Bolivia on 7 January 1826. [Fundación Empresas Polar biography](https://bibliofep.fundacionempresaspolar.org/dhv/entradas/r/rodriguez-simon/)
+
+- **[T3]** **Documented fact:** The two maintained written engagement. Bolívar’s Pativilca letter of 19 January 1824 addressed Rodríguez as teacher and friend, credited him with forming his heart for liberty and justice, and recalled their joint visit to Monte Sacro; Rodríguez’s surviving correspondence includes a letter to Bolívar from Guayaquil dated 30 November 1824. [Bolívar’s Pativilca letter](https://www.cervantesvirtual.com/obra-visor/carta-que-envia-simon-bolivar-a-su-maestro-don-simon-rodriguez--0/html/ff6c3814-82b1-11df-acc7-002185ce6064_2.html), [Rodríguez correspondence collection](https://biblioteca-repositorio.clacso.edu.ar/bitstream/CLACSO/15386/1/cartas.pdf)
+
+- **[T1-]** **Documented fact:** Rodríguez wrote extensively about Bolívar in *El Libertador del Mediodía de América y sus compañeros de armas, defendidos por un amigo de la causa social* (Arequipa, 1830), defending Bolívar’s conduct and interpreting independence as a social as well as military project. [Rodríguez’s *Obras completas*](https://biblioteca.clacso.edu.ar/clacso/se/20190926042843/Simon_Rodriguez_Obras_Completas.pdf)
+
+### Napoleon Bonaparte
+
+- **[T3]** **Reported fact:** Biographical accounts place Rodríguez and Bolívar as eyewitnesses to Napoleon’s coronation as king of Italy in Milan on 26 May 1805. The coronation itself is contemporaneously documented; Rodríguez’s attendance rests on retrospective itinerary and biographical evidence rather than a located admission register or eyewitness note written by him that day. [Fundación Empresas Polar biography](https://bibliofep.fundacionempresaspolar.org/dhv/entradas/r/rodriguez-simon/), [Fondation Napoléon chronology of the coronation](https://www.napoleon.org/en/history-of-the-two-empires/timelines/napoleons-consecration-and-coronation-in-milan-26-may-1805/)
+
+- **[T1-]** **Documented fact:** Rodríguez later discussed Napoleon’s government, military achievement, monarchy, and coronation in his political writings. This textual connection is independent of the reported Milan sighting. [Rodríguez’s *Obras completas*](https://biblioteca.clacso.edu.ar/clacso/se/20190926042843/Simon_Rodriguez_Obras_Completas.pdf)
+
+### Antonio José de Sucre
+
+- **[T5]** **Documented fact:** Rodríguez worked personally under President Sucre in Chuquisaca during the 1825–1826 educational experiment. Their relationship deteriorated over the institution’s expenses, administration, treatment and recruitment of children, and Rodríguez’s authority, culminating in the project’s collapse and Rodríguez’s resignation.
+
+- **[T3]** **Documented fact:** Their conflict generated written communications: Rodríguez addressed letters or representations to Sucre, while Sucre reported critically about Rodríguez and the school to Bolívar in July 1826. The surviving record supports written engagement even where Sucre apparently left particular appeals unanswered. [Study incorporating the July 1826 correspondence](https://repositorio.ufmg.br/bitstream/1843/BUOS-AWKMEA/1/a_pol_tica_p_blica_educacional_de_sim_n_rodr_guez_para_peru_e_bol_via__1824_1854_ageu_mazil_o.pdf)
+
+### Manuela Sáenz
+
+- **[T5]** **Reported fact:** Rodríguez visited Sáenz at Paita, Peru, in early 1843, where the two surviving members of Bolívar’s circle reportedly discussed Bolívar, Santander, and their shared political past. The meeting is accepted in biographical tradition, but the elaborate dialogue attributed to it derives from the contested modern publication of Sáenz’s purported “lost diaries” and should not be treated as securely authenticated verbatim testimony. [Published *Diario de Paita* text](https://recursos.educacion.gob.ec/wp-content/uploads/2022/04/Los-diarios-perdidos-de-Manuela-Saenz-y-otros-papeles.pdf)
+
+### Hugo Chávez
+
+- **[T1+]** **Documented fact:** Chávez wrote about Rodríguez in *El Libro Azul* (composed around 1991 and subsequently published), making the “Robinsonian root” one component of his “Tree of Three Roots” alongside Bolívar and Zamora. He quoted *Sociedades americanas*, described Rodríguez’s thought as a Venezuelan political model, and connected “inventamos o erramos” to his proposed national project. [Hugo Chávez, *El Libro Azul*](https://hugochavez.ve/wp-content/uploads/2023/03/LIBRO-AZUL-DESCARGA.pdf)
+
+### Nicolás Maduro
+
+- **[T1+]** **Documented fact:** In his November 2013 preface to an edition of Chávez’s *El Libro Azul*, Maduro wrote about Rodríguez’s originality, political thought, “Pueblo Legislador,” and influence on Chávez, describing Rodríguez as a foundational source for the later Bolivarian project. This establishes a textual connection, not a personal one. [Maduro’s preface in *El Libro Azul*](https://hugochavez.ve/wp-content/uploads/2023/03/LIBRO-AZUL-DESCARGA.pdf)
+
+No sufficiently documented personal or textual crossing was established with other tempting roster candidates such as Alexander von Humboldt, Domingo Faustino Sarmiento, José Martí, or Paulo Freire. Later biographies and comparative scholarship sometimes place their names beside Rodríguez’s, but parallel ideas, possible undocumented encounters, and posthumous comparison alone do not satisfy the specified connection types.
+
 ## Sources
 
 https://bibliofep.fundacionempresaspolar.org/dhv/entradas/r/rodriguez-simon/

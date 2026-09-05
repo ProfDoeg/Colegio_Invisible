@@ -705,6 +705,34 @@ The documentary core consists of the FTC complaint/opinion/judgment; the publish
 
 The following URLs are the complete, deduplicated set actually consulted or relied upon in preparing this dossier.
 
+## Atlas Connections
+
+### Abraham
+
+- **[T1-]** **Documented fact:** Maxwell’s co-authored *That Old-Time Religion* (2000) discusses Abraham within a theory about the consolidation of ancient Near Eastern tribal gods. This documents Maxwell’s treatment of Abraham, not the historical validity of that interpretation. [Book text and contents](https://epdf.mx/that-old-time-religion-the-story-of-religious-foundations.html)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Maxwell wrote extensively about Jesus in his chapter “The Solar Cult” in *That Old-Time Religion* (2000), interpreting the Gospel narrative through solar and astrological parallels. The connection is documentary; the proposed parallels remain Maxwell’s theory rather than established historical genealogy. [Book text and contents](https://epdf.mx/that-old-time-religion-the-story-of-religious-foundations.html)
+
+### Moses
+
+- **[T1-]** **Documented fact:** Maxwell’s published and filmed work repeatedly treated Moses. *That Old-Time Religion* discusses Moses in its reconstruction of biblical religion, while the 2018–19 *Secret Life of Symbols* episode “Secret Legacy of Moses” was expressly devoted to Maxwell’s account of Moses, moon worship, and the zodiac. [Book text](https://epdf.mx/that-old-time-religion-the-story-of-religious-foundations.html), [Apple TV episode listing](https://tv.apple.com/gb/season/season-1/umc.cmc.71a5b331tnuk3p7a4601dli6w?showId=umc.cmc.6qtkgmsmup45vvlgmsr4n5573)
+
+### King Solomon
+
+- **[T1-]** **Documented fact:** Maxwell devoted an episode of *Secret Life of Symbols*, “Solomon’s Temple & The Ark,” to King Solomon, the Temple, and the Ark of the Covenant. This establishes the subject of Maxwell’s presentation, not the accuracy of its asserted revelations. [Apple TV episode listing](https://tv.apple.com/gb/season/season-1/umc.cmc.71a5b331tnuk3p7a4601dli6w?showId=umc.cmc.6qtkgmsmup45vvlgmsr4n5573)
+
+### Constantine the Great
+
+- **[T1-]** **Documented fact:** In the recorded 2008 Project Camelot interview *Takeover of Planet Earth*, Maxwell presented Constantine as the ruler who codified Christianity in the fourth century and incorporated older religious material into it. The recording documents Maxwell’s theory; its historical formulation should not be treated as independently established by the interview. [Interview transcript](https://www.znakovi-vremena.net/en/Jordan_Maxwell-Takeover_of_Planet_Earth.pdf)
+
+### George Washington
+
+- **[T1-]** **Documented fact:** In the published interview *Jordan Maxwell on Religion and Politics* (1994), Maxwell discussed George Washington’s letters concerning the Democratic Societies and incorporated them into his argument about secret societies and American politics. Maxwell’s characterization of those societies and their relationship to the later Democratic Party is an allegation or theory, not established by the cited passage alone. [Book transcript](https://www.znakovi-vremena.net/en/Jordan_Maxwell-On_religion_and_politics.pdf)
+
+No documented T2, T3, T4, T5, or T9 crossing with another atlas-roster member was established from the sources reviewed. Mere name-checks, common subject matter, shared traditions, and unverified online association claims were excluded.
+
 ## Sources
 
 https://www.jordanmaxwell.com/bio.html

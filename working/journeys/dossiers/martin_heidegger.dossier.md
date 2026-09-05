@@ -423,6 +423,113 @@ There is no settled scholarly verdict on whether the philosophical achievement c
 | 1987–88 | Farías and Ott trigger renewed political-biographical debate. |
 | 2014–15 | First Black Notebooks published. |
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-] Documented fact.** From the 1922 “Natorp Report” through Marburg courses such as *Grundbegriffe der aristotelischen Philosophie* (1924) and the Freiburg course *Aristoteles, Metaphysik IX, 1–3* (1931), Heidegger repeatedly interpreted Aristotle’s ontology, truth, motion and temporality. Aristotle was one of the principal historical interlocutors in Heidegger’s attempt to “destroy” inherited ontology. [Klostermann Gesamtausgabe editions plan](https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan)
+
+### Plato
+
+- **[T1-] Documented fact.** Heidegger devoted his 1924–25 Marburg course to Plato’s *Sophist*, lectured in 1931–32 on the cave allegory and *Theaetetus*, and published “Platons Lehre von der Wahrheit” in 1942/43. He interpreted Plato as a decisive turning point in the transformation of truth from unconcealment into correctness. [Klostermann Gesamtausgabe editions plan](https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan)
+
+### Paul the Apostle
+
+- **[T1-] Documented fact.** Heidegger’s 1920–21 Freiburg lectures interpreted Paul’s First and Second Letters to the Thessalonians and Galatians as evidence for the temporality and enactment-character of early Christian life. These lectures were later edited as part of *The Phenomenology of Religious Life*. [Indiana University Press](https://iupress.org/9780253221896/the-phenomenology-of-religious-life/)
+
+### Saint Augustine of Hippo
+
+- **[T1-] Documented fact.** Heidegger analyzed Book X of Augustine’s *Confessions* in his 1921 course “Augustine and Neoplatonism,” concentrating on factical life, temptation, care and self-relation; later seminars also returned to Augustine. [Indiana University Press](https://iupress.org/9780253221896/the-phenomenology-of-religious-life/), [Klostermann Gesamtausgabe editions plan](https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan)
+
+### Thomas Aquinas
+
+- **[T1-] Documented fact.** Heidegger treated Aquinas in his medieval and ontological studies and explicitly included him in the 1926–27 course *Geschichte der Philosophie von Thomas von Aquin bis Kant*. His later history of metaphysics continued to identify Aquinas as a major transmitter of the metaphysical interpretation of being. [Klostermann Gesamtausgabe editions plan](https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan), [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/heidegger/)
+
+### Martin Luther
+
+- **[T1-] Documented fact.** Luther’s writings on sin, conscience, faith and the destruction of scholastic theology were important to Heidegger’s early phenomenology of Christian life. Heidegger discussed Luther in his 1920–21 religious-life lectures and drew upon him during the development of the hermeneutics of facticity. [Indiana University Press](https://iupress.org/9780253221896/the-phenomenology-of-religious-life/)
+
+### René Descartes
+
+- **[T1-] Documented fact.** *Being and Time* contains an extended critical analysis of Cartesian ontology, particularly the definition of the world as extended substance and the subject–object framework. Heidegger’s unfinished plan also assigned Descartes a central place in the proposed historical “destruction” of ontology. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/heidegger/)
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1-] Documented fact.** Heidegger devoted his 1928 course *Metaphysische Anfangsgründe der Logik im Ausgang von Leibniz* to Leibniz and later returned to the principle of sufficient reason, monadology and the metaphysical determination of being in *Der Satz vom Grund* and seminars on Kant and Leibniz. [Klostermann Gesamtausgabe editions plan](https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan)
+
+### Immanuel Kant
+
+- **[T1-] Documented fact.** Kant was a sustained subject of Heidegger’s teaching and writing: the 1927–28 course on the *Critique of Pure Reason*, the 1929 *Kant und das Problem der Metaphysik*, and the 1929 Davos disputation all advanced Heidegger’s controversial interpretation of Kant as grounding metaphysics in finite temporality and transcendental imagination. [Klostermann Gesamtausgabe editions plan](https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan)
+
+### Johann Gottlieb Fichte
+
+- **[T1-] Documented fact.** Heidegger interpreted Fichte within the 1929 course *Der deutsche Idealismus (Fichte, Schelling, Hegel)*, examining German idealism’s account of freedom, ground and subjectivity. [Klostermann Gesamtausgabe editions plan](https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan)
+
+### Friedrich Schiller
+
+- **[T1-] Documented fact.** Heidegger conducted seminars engaging Schiller alongside Kant and Leibniz; the surviving materials are assigned to GA 84.1–84.2. This supports a direct textual engagement, though Schiller was not as central to Heidegger’s published philosophical narrative as Kant, Hegel or Nietzsche. [Klostermann Gesamtausgabe editions plan](https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan)
+
+### Friedrich Wilhelm Joseph Schelling
+
+- **[T1-] Documented fact.** Heidegger repeatedly interpreted Schelling’s 1809 freedom essay, most prominently in his 1936 Freiburg lectures and later seminars. He treated Schelling’s account of freedom, ground and evil as a major episode in the history of German idealism and metaphysics. [Klostermann Gesamtausgabe editions plan](https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan)
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-] Documented fact.** Heidegger taught Hegel’s *Phenomenology of Spirit* in 1930–31, produced further lectures and seminars on Hegel, and repeatedly confronted absolute knowing, negativity, time and the completion of metaphysics in later writings. [Klostermann Gesamtausgabe editions plan](https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan)
+
+### Søren Kierkegaard
+
+- **[T1-] Documented fact.** *Being and Time* explicitly acknowledged Kierkegaard’s unusually penetrating treatment of existence while criticizing the ontological limits Heidegger perceived in it. Scholarship documents Heidegger’s uptake of Kierkegaardian treatments of anxiety, repetition, the moment, death and existential decision. [Oxford Handbook of Kierkegaard](https://academic.oup.com/edited-volume/34339/chapter-abstract/327340052), [Cambridge University Press](https://www.cambridge.org/core/elements/heidegger-and-kierkegaard/959809F81EF9C70A74CAFBF322EC1C42)
+
+### Karl Marx
+
+- **[T1-] Documented fact.** Heidegger discussed Marx’s account of alienation in the 1946 “Letter on Humanism,” arguing that Marx had reached an essential dimension of history while remaining within metaphysics. Additional notes on Marx are included in the Gesamtausgabe plan as GA 103. [Klostermann Gesamtausgabe editions plan](https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan)
+
+### Friedrich Nietzsche
+
+- **[T1-] Documented fact.** Between 1936 and 1946 Heidegger delivered extensive Nietzsche lectures on art, will to power, eternal recurrence, nihilism and truth. The materials were reorganized into the two-volume *Nietzsche* (1961); Heidegger presented Nietzsche as the “last metaphysician” in whom Western metaphysics reaches its completion. [Klostermann Gesamtausgabe editions plan](https://www.klostermann.de/Buecher/Seite-/-Kategorie/Editionsplan)
+
+### Martin Buber
+
+- **[T5] Documented fact.** Heidegger and Buber met for two days in late May 1957 at Prince Albrecht von Schaumburg-Lippe’s Alpine residence to plan a proposed international conference on language. Photographs, a participant’s record and Heidegger’s dated dedication to Buber document the encounter and their discussion of responsibility, atonement and forgiveness. [National Library of Israel](https://blog.nli.org.il/en/martinandmordechai/)
+- **[T3] Documented fact.** The Martin Buber Archive preserves a handwritten 1959 letter from Heidegger to Buber concerning an appointment, establishing continued written contact after the 1957 meeting. [National Library of Israel archival record](https://www.nli.org.il/he/archives/NNL_ARCHIVE_AL990029270230205171/NLI)
+
+### Herbert Marcuse
+
+- **[T5] Documented fact.** Marcuse studied with Heidegger at Freiburg from 1928 to 1932 and visited him at Todtnauberg in 1947. Marcuse’s subsequent letter explicitly refers to what Heidegger told him during that visit about his conduct under National Socialism. [Official Herbert Marcuse website](https://www.marcuse.org/herbert/pubs/40spubs/47MarcuseHeidegger.htm)
+- **[T3] Documented fact.** Marcuse and Heidegger exchanged letters in 1947–48 about Heidegger’s Nazi commitment, failure to retract his 1933–34 declarations, the Holocaust and postwar expulsions. Marcuse rejected Heidegger’s attempted equivalence between Nazi persecution and postwar treatment of ethnic Germans. The correspondence survives in Marcuse’s archive. [Goethe University Frankfurt archival catalogue](https://sammlungen.ub.uni-frankfurt.de/marcuse/content/structure/9766239)
+
+### Werner Heisenberg
+
+- **[T3] Documented fact.** Heidegger and Heisenberg corresponded in 1953 while preparing the Bavarian Academy of Fine Arts lecture series on “The Arts in the Technological Age.” Heidegger’s “The Question Concerning Technology” referred directly to Heisenberg’s account of modern physics; two 1953 Heisenberg letters to Heidegger are reported in the documentary scholarship. [Differenz](https://idus.us.es/server/api/core/bitstreams/3b5afefc-b922-43d3-b5e6-fceb768f558f/content)
+- **[T4] Documented fact.** Both participated in the Academy’s 16–20 November 1953 series at the Technical University of Munich: Heisenberg lectured on the modern scientific picture of nature and Heidegger delivered “The Question Concerning Technology.” The evidence establishes shared event and milieu, independently of how much direct personal conversation occurred there. [Die Zeit contemporary report](https://www.zeit.de/1953/48/rettet-den-technischen-menschen)
+
+### Jean-Paul Sartre
+
+- **[T3] Documented fact.** Sartre publicly classified Heidegger among the atheistic existentialists in his 29 October 1945 lecture “Existentialism Is a Humanism.” Heidegger’s 1946 “Letter on Humanism” then directly rejected Sartre’s reversal of essence and existence as still metaphysical. This was a public textual exchange rather than a documented personal meeting. [Sartre’s lecture](https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm), [Heidegger’s “Letter on Humanism”](https://www.timothydavidson.com/Library/Articles/CurriculumArticles-coursework/Heidegger-1949-LetterOnHumanismTranslated.pdf)
+
+### Theodor W. Adorno
+
+- **[T1+] Documented fact.** Adorno repeatedly wrote against Heideggerian ontology and language, beginning with his 1931 inaugural lecture and culminating in *Jargon der Eigentlichkeit* (1964), whose central target was the rhetoric of authenticity associated especially with Heidegger and German existential ontology. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/adorno/), [Routledge](https://www.routledge.com/The-Jargon-of-Authentity/Adorno/p/book/9780203994764)
+
+### Jürgen Habermas
+
+- **[T1+] Documented fact.** In 1953 Habermas reviewed the newly published *Einführung in die Metaphysik*, drew attention to its unretracted National Socialist language and called for thinking “with Heidegger against Heidegger.” This early intervention became an important document in the postwar Heidegger controversy. [University Library Freiburg bibliography](https://www.ub.uni-freiburg.de/fileadmin/ub/referate/02/heidegger/heidegger_50.html)
+
+### Michel Foucault
+
+- **[T1+] Reported fact.** In a late published interview, Foucault identified Heidegger as an essential formative philosopher and said that reading Heidegger enabled his philosophically productive reading of Nietzsche. The statement documents retrospective written testimony about Heidegger’s importance, not personal contact between them. [Foucault interview extract](https://foucault.info/foucault-l/msg08116.html)
+
+### Gilles Deleuze
+
+- **[T1+] Documented fact.** Deleuze explicitly discussed Heidegger in *Difference and Repetition* and later works, particularly in relation to ontological difference, repetition, Nietzsche and the overcoming of representation. The crossing is textual; no personal meeting is established here. [Bloomsbury Companion discussion](https://eksistenz.net/wp-content/uploads/2019/12/Companion-Bloomsbury-Companions-Francois-Raffoul-Eric-S.-Nelson-eds-The-Bloomsbury-Companion-to-Heidegger-Bloomsbury-Academic-2013.pdf)
+
+### Jacques Derrida
+
+- **[T1+] Documented fact.** Derrida’s *De l’esprit: Heidegger et la question* (1987) closely analyzed changes in Heidegger’s use of *Geist* across *Being and Time*, the 1933 rectoral address, *Introduction to Metaphysics* and the Nietzsche, Hölderlin, Schelling and Trakl texts, explicitly connecting the philosophical vocabulary with Heidegger’s Nazi involvement. [Suhrkamp](https://www.suhrkamp.de/buch/jacques-derrida-vom-geist-t-9783518285954), [University of Chicago Press](https://press.uchicago.edu/ucp/books/book/chicago/O/bo27619500.html)
+
+No T2 prophecy/hyperstition or T9 shared-object transmission meeting the supplied definitions was found among the verified roster crossings. Mere influence claims, common subject matter, and unverified contemporaneous proximity have been omitted.
+
 ## Sources
 
 https://plato.stanford.edu/entries/heidegger/

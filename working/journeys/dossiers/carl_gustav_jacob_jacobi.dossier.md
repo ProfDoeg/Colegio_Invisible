@@ -681,6 +681,63 @@ Jacobi died before recorded sound or film. Therefore:
 - The Galois link is indirect and slight; the Cayley link is primarily posthumous.
 - Famous aphorisms other than the 1830 Legendre letter should not be treated as autograph quotations without further provenance.
 
+## Atlas Connections
+
+### Arthur Cayley
+
+- **[T1+] Documented fact:** Cayley’s *Elementary Treatise on Elliptic Functions* (1876) explicitly presented and developed “Jacobi’s theory.” This is a posthumous intellectual connection: Jacobi is the earlier, written-about figure, not a documented personal acquaintance of Cayley. [MacTutor’s transcription of Cayley’s discussion](https://mathshistory.st-andrews.ac.uk/Extras/Cayley_elliptic/)
+
+### Charles Babbage
+
+- **[T5] Documented fact:** During Jacobi and Friedrich Wilhelm Bessel’s 1842 British visit, they met Babbage and questioned him about the proposed Analytical Engine. Babbage’s own account records Jacobi participating in a discussion of how the machine would detect an incorrectly supplied logarithm. [Reproduction of Babbage’s account](https://repository.ias.ac.in/38342/1/13-PUB.pdf)
+
+### René Descartes
+
+- **[T1-] Documented fact:** Jacobi delivered a well-attended public lecture about Descartes in Berlin in January 1846. Jacobi is therefore the later writer/speaker discussing the earlier figure. [*Dictionary of Scientific Biography* notice, pp. 4–5](https://mathshistory.st-andrews.ac.uk/DSB/Jacobi.pdf)
+
+### Leonhard Euler
+
+- **[T1-] Documented fact:** Jacobi wrote historically about Euler’s role in elliptic-function theory and, during the 1840s, prepared a detailed plan for an edition of Euler’s works in consultation with P. H. von Fuss of the St Petersburg Academy. The proposed comprehensive edition was not realized during Jacobi’s lifetime. [*Dictionary of Scientific Biography* notice, pp. 4–5](https://mathshistory.st-andrews.ac.uk/DSB/Jacobi.pdf)
+
+### Joseph Fourier
+
+- **[T5] Documented fact:** Jacobi met Fourier during his summer 1829 visit to Paris. The sources establish personal acquaintance on that journey, not an extended collaboration. [MacTutor biography](https://mathshistory.st-andrews.ac.uk/Biographies/Jacobi/)
+- **[T3] Documented fact:** In his letter to Legendre of 2 July 1830, Jacobi directly engaged Fourier’s utilitarian conception of mathematics, defending the independent value of pure inquiry. This was written engagement with Fourier’s position, although the surviving communication was addressed to Legendre rather than Fourier.
+
+### Évariste Galois
+
+- **[T3] Documented fact, with evidentiary caution:** In his testamentary letter to Auguste Chevalier of 29 May 1832, Galois asked that Jacobi or Gauss be invited to judge the importance of his results. A draft letter by Galois’s brother Alfred also supplies slight evidence that Évariste had studied Jacobi’s work. Peter M. Neumann cautions that the latter reference may have been little more than courtesy; no response, correspondence, or meeting between Jacobi and Galois is documented. [Neumann’s critical discussion](https://ems.press/content/book-chapter-files/20742)
+
+### Carl Friedrich Gauss
+
+- **[T3] Documented fact:** Jacobi wrote to Gauss from Königsberg in 1827 about his work on cubic residues. Gauss responded through Bessel, but Gauss’s letters to Jacobi are lost, and the exchange did not become a regular correspondence. [*Dictionary of Scientific Biography* notice, pp. 1–2](https://mathshistory.st-andrews.ac.uk/DSB/Jacobi.pdf)
+- **[T5] Documented fact:** Jacobi visited Gauss in Göttingen while traveling to Paris in the summer of 1829. [MacTutor biography](https://mathshistory.st-andrews.ac.uk/Biographies/Jacobi/)
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T3] Documented fact:** As a University of Berlin student, Jacobi attended Hegel’s philosophy lectures. Hegel also served on the examining board for Jacobi’s 1825 doctorate, establishing an institutional encounter beyond mere contemporaneity. [*Dictionary of Scientific Biography* notice, p. 1](https://mathshistory.st-andrews.ac.uk/DSB/Jacobi.pdf)
+
+### Alexander von Humboldt
+
+- **[T3] Documented fact:** Jacobi and Humboldt maintained a substantial correspondence beginning in 1828; a modern scholarly edition is devoted to their exchange, and surviving records include letters sent from Königsberg, Rome, Berlin, and Potsdam. [Edition Humboldt correspondence records](https://edition-humboldt.de/chronologie/index.xql?cs=on&jahr=&offset=8551)
+- **[T5] Documented fact:** Humboldt became Jacobi’s personal patron and intermediary at the Prussian court. Most consequentially, in 1843 he helped Dirichlet obtain royal funding for Jacobi’s medical journey to Italy; in 1846 he also asked Jacobi for material on ancient Greek mathematics for *Kosmos*. [Jacobi memorial](https://mathshistory.st-andrews.ac.uk/Extras/Jacobi_memorial/)
+
+### William Rowan Hamilton
+
+- **[T3] Documented fact:** Jacobi explicitly took Hamilton’s canonical formulation of dynamics as a starting point, extended it in his work on first-order partial differential equations and analytical mechanics, and publicly credited Hamilton during his 1842 British Association address. [Text of Jacobi’s Manchester address](https://mathshistory.st-andrews.ac.uk/Extras/Jacobi_BA_lecture/)
+- **[T5] Documented fact:** Hamilton and Jacobi met at the British Association meeting in Manchester in 1842. A later contemporary scientific notice described this as apparently their first and only personal meeting. [1902 *Nature* report](https://dbc.wroc.pl/Content/21717/PDF/23807.pdf)
+
+### Joseph-Louis Lagrange
+
+- **[T1-] Documented fact:** Jacobi repeatedly analyzed and criticized Lagrange’s foundations of analytical mechanics, while treating Lagrange’s work as a central predecessor to his own investigations. His posthumously edited dynamics lectures preserve this sustained historical and technical engagement. [*Dictionary of Scientific Biography* notice, pp. 3–4](https://mathshistory.st-andrews.ac.uk/DSB/Jacobi.pdf)
+
+### Siméon-Denis Poisson
+
+- **[T5] Documented fact:** Jacobi became personally acquainted with Poisson during his 1829 visit to Paris. [*Dictionary of Scientific Biography* notice, p. 2](https://mathshistory.st-andrews.ac.uk/DSB/Jacobi.pdf)
+- **[T3] Documented fact:** Jacobi engaged Poisson’s published mechanics, particularly bracket relations and the French canonical tradition, in developing his own analytical dynamics. This establishes written intellectual engagement, but no surviving Jacobi–Poisson correspondence was identified. [*Dictionary of Scientific Biography* notice, pp. 3–4](https://mathshistory.st-andrews.ac.uk/DSB/Jacobi.pdf)
+
+No additional roster member was included solely because of shared chronology, general mathematical influence, later use of a Jacobi eponym, or unverified attendance at the same institution or event.
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd118775766.html

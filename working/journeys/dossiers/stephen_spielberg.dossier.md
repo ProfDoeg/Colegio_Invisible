@@ -496,6 +496,34 @@ Because he is living, “legacy” remains provisional. Current projects, compan
 | Feb. 2026 | Grammy for *Music by John Williams* completes competitive EGOT. |
 | 22 Aug. 2026 | Alive, active, Forbes real-time estimate $7.1 billion. |
 
+## Atlas Connections
+
+### Bill Clinton
+
+- **[T5] Documented fact.** Spielberg and Clinton met repeatedly through Democratic fundraising and public cultural events. President and Hillary Clinton stayed at Spielberg and Kate Capshaw’s East Hampton property from 31 July to 2 August 1998; the Clinton Presidential Library preserves White House planning correspondence for the visit. In 2009 Clinton also personally presented Spielberg with the Liberty Medal in Philadelphia. ([Clinton Presidential Library](https://clinton.presidentiallibraries.us/items/show/48901); [USC Shoah Foundation](https://sfi.usc.edu/sites/default/files/docfiles/PF-2010-Winter.pdf))
+
+### Bill Gates
+
+- **[T5] Documented fact.** On 22 March 1995, Gates and Spielberg jointly announced Microsoft and DreamWorks SKG’s 50–50, $30 million DreamWorks Interactive venture; Microsoft also became a minority DreamWorks investor. Contemporary reporting places both principals in the partnership’s announcement and negotiations. ([Time](https://time.com/archive/6923503/hollywoods-four-horsemen/); [Le Monde](https://www.lemonde.fr/archives/article/1995/03/24/bill-gates-s-associe-dans-le-cinema-avec-steven-spielberg_3869295_1819218.html))
+
+### George W. Bush
+
+- **[T5] Documented fact.** Spielberg was received by President George W. Bush at the White House in connection with the 2006 Kennedy Center Honors. White House photographs show them together, and the George W. Bush Presidential Library identifies records of Spielberg at the White House reception, the Honors gala, and an earlier *Seabiscuit* screening dinner. ([George W. Bush Presidential Library finding aid](https://www.georgewbushlibrary.gov/media/1832); [White House photograph record](https://commons.wikimedia.org/wiki/File:Kennedy_center_honors_2006.jpg))
+
+### Hillary Clinton
+
+- **[T5] Documented fact.** Hillary Clinton and Spielberg met on numerous political and social occasions. She and President Bill Clinton stayed at the Spielberg–Capshaw East Hampton property in 1998; in April 2016 she also held a private campaign meeting in Beverly Hills attended by Spielberg before a fundraiser he and Capshaw co-hosted. ([Clinton Presidential Library](https://clinton.presidentiallibraries.us/items/show/48901); [TheWrap](https://www.thewrap.com/hillary-clinton-holds-private-meeting-with-hollywood-big-wigs/))
+
+### Nelson Mandela
+
+- **[T4] Documented fact.** Spielberg and Mandela occupied the same Los Angeles entertainment-industry milieu during Mandela’s visit on 29 June 1990: Spielberg contributed $10,000 at the dinner and reception held for Mandela and the Nelson Mandela Freedom Fund. The available reporting establishes their presence at the same event but does not, by itself, prove a personal conversation; the connection is therefore classified as proximity rather than a T5 meeting. ([Los Angeles Times](https://www.latimes.com/archives/la-xpm-1990-06-30-me-476-story.html); [Los Angeles Times donation report](https://www.latimes.com/archives/la-xpm-1990-07-03-ca-578-story.html))
+
+### Stephen King
+
+- **[T3] Documented fact.** Spielberg and King engaged in repeated, ultimately unrealized efforts to collaborate. Spielberg acquired screen rights to King and Peter Straub’s *The Talisman* around its 1984 publication, and King later said that he and Spielberg had tried to work together three times, including on *The Talisman* and a proposed *Poltergeist* project. This supports direct creative/business discourse, although it did not yield a completed Spielberg–King film. ([PBS interview with Stephen King](https://www.pbs.org/video/a-good-read-stephen-kingcathie-pelletier-ow4sdt/); [The Guardian’s contemporary archive](https://www.theguardian.com/books/2020/feb/07/stephen-king-and-peter-straub-join-dark-forces-archive-1985))
+
+No additional roster connection was included where the evidence showed only shared subject matter, artistic influence, adaptation without demonstrated personal or written engagement, attendance at different editions of an event, or general contemporaneity. In particular, Spielberg’s direction of *Lincoln*, *Minority Report*, and *War of the Worlds* does not establish that he personally “wrote about” Abraham Lincoln, Philip K. Dick, or H. G. Wells under the stated T1 rule.
+
 ## Sources
 
 https://www.amblin.com/meet-the-team/

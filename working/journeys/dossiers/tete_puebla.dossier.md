@@ -529,6 +529,31 @@ Because Puebla is living, “posthumous reputation” does not yet apply. Her le
 | 9 Dec 2025 | Turns eighty-five; publicly congratulated by FAR. |
 | 20 Aug 2026 | Living; listed as reserve brigadier general, deputy, Defense Commission member, and ACRC vice president. |
 
+## Atlas Connections
+
+### Celia Sánchez
+
+- **[T5] Documented fact:** Puebla met Sánchez after entering Fidel Castro’s Sierra Maestra force in August 1957 and worked closely with her in the rebel command network. Puebla subsequently described Sánchez as her principal mentor and longtime friend, a relationship lasting until Sánchez’s death in Havana on 11 January 1980. A wartime photograph also places Puebla and Sánchez together with Fidel Castro, Isabel and Lilia Rielo, and other rebels. [Granma](https://www.granma.cu/cuba/2014-04-09/dos-9-de-abril-una-misma-vision-revolucionaria)
+- **[T1-] Documented fact:** As the later witness-author, Puebla gave retrospective testimony about Sánchez’s wartime organization of hospitals, schools, supplies, communications, and other Sierra operations in *Marianas en combate* (2003). She also appeared as a witness in the documentary *Celia, la más hermosa flor* (2015/2016). [Granma](https://www.granma.cu/cuba/2016-01-10/estrenan-en-granma-documental-dedicado-a-celia-sanchez-10-01-2016-22-01-37)
+
+### Che Guevara
+
+- **[T5] Documented fact:** Puebla stayed at Guevara’s El Hombrito camp while suffering a prolonged fever in November 1957 and later recalled his personal attention to her condition. In July 1958 Guevara selected her as the unarmed medical-service emissary who carried negotiation terms between rebel and Batista forces during arrangements to transfer captured soldiers to the Red Cross.
+- **[T3] Documented fact:** Guevara’s letter of 22 July 1958 explicitly designated “compañera Teté Puebla, del servicio de Sanidad” as the rebel messenger and set out the prisoner-transfer terms she was to convey. This constitutes one-sided written engagement directed through Puebla, independently anchoring their operational relationship.
+- **[T1-] Documented fact:** Puebla later supplied published recollections of Guevara for Adys Cupull and Froilán González’s *Che entre nosotros* (1992) and discussed him in her edited oral history *Marianas en combate* (2003).
+
+### Fidel Castro
+
+- **[T5] Documented fact:** Puebla joined Castro’s Sierra Maestra force on 1 August 1957 and thereafter served in his Column One. At La Plata on 4 September 1958, Castro personally oversaw the creation and weapons training of the Mariana Grajales Women’s Platoon and appointed Puebla its deputy commander. She subsequently served in the platoon’s advance/security element, traveled with Castro’s January 1959 Caravan of Liberty, and received several postwar assignments and honors from him. A surviving wartime photograph places them together. [Granma](https://www.granma.cu/cuba/2014-04-09/dos-9-de-abril-una-misma-vision-revolucionaria)
+- **[T1-] Documented fact:** Puebla, as the later witness-author, wrote or gave extensive recorded testimony about Castro’s command decisions, the creation of the Marianas, and her subsequent work under his government in *Marianas en combate* (2003) and later interviews. [Granma International](https://en.granma.cu/cuba/2016-08-19/fidel-and-the-advancement-of-cuban-women)
+
+### Vilma Espín
+
+- **[T5] Reported fact:** Puebla and Espín were fellow revolutionary activists in the Sierra Maestra milieu and subsequently worked within the Federation of Cuban Women, founded under Espín’s leadership in 1960. *Granma* expressly identifies Puebla as Espín’s “friend and companion in struggle,” while Puebla’s institutional biography records her as an FMC founder and national-committee member. [Granma](https://www.granma.cu/cuba/2018-04-06/tres-instantes-con-vilma)
+- **[T1-] Documented fact:** After Espín’s death, Puebla publicly contributed recollections of her at the April 2018 Havana colloquium *Vilma, la que conocí*. Puebla described Espín’s early efforts to secure care and shelter for orphaned and abandoned children, making Puebla the later narrator writing or speaking about the earlier deceased figure. [Granma](https://www.granma.cu/cuba/2018-04-06/tres-instantes-con-vilma)
+
+No evidence located supports additional roster connections under the specified definitions. Mere ideological reference, shared nationality, institutional contemporaneity, commemoration, or involvement in the same broader historical conflict was not treated as a crossing.
+
 ## Sources
 
 https://adncuba.com/en/noticias-de-cuba/los-hijos-del-poder-en-cuba

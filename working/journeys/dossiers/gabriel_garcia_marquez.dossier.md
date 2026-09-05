@@ -553,6 +553,40 @@ Historical reinterpretation has moved in several directions. Archive scholarship
 - **6 Mar 2024:** *En agosto nos vemos* published posthumously against author’s destruction instruction.
 - **Dec 2024:** First part of Netflix’s *Cien años de soledad* premieres; second part follows in 2026.
 
+## Atlas Connections
+
+### Simón Bolívar
+
+- **[T1-]** **Documented fact:** García Márquez made Bolívar the central historical figure of *El general en su laberinto* (1989), reconstructing the Liberator’s final 1830 journey from Bogotá toward Colombia’s Caribbean coast after extensive documentary research. The resulting portrait emphasized Bolívar’s physical decline, political defeat, and contested legacy. [Fundación Gabo](https://fundaciongabo.org/es/noticias/articulo/fundacion-gabo-en-casa-revive-nuestras-actividades-durante-la-cuarentena), [Los Angeles Times](https://www.latimes.com/archives/la-xpm-1990-09-02-tm-2003-story.html)
+
+### Salvador Allende
+
+- **[T1-]** **Documented fact:** After Allende’s death in the Chilean coup of 11 September 1973, García Márquez wrote extensively about his presidency, overthrow, and final defense of La Moneda, notably in the reportage collected as *Chile, el golpe y los gringos*. He also supported Chilean exiles and publicly opposed the succeeding military regime. [Memoria Chilena](https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0014382.pdf), [Los Angeles Times](https://www.latimes.com/archives/la-xpm-1990-09-02-tm-2003-story.html)
+
+### Augusto Pinochet
+
+- **[T1-]** **Documented fact:** García Márquez treated Pinochet’s dictatorship in political journalism and in *La aventura de Miguel Littín clandestino en Chile* (1986), reconstructed from approximately eighteen hours of interviews about Littín’s covert 1985 filming expedition. Chilean authorities subsequently acknowledged burning 15,000 copies of the book at Valparaíso in November 1986. [Universidad Autónoma de Bucaramanga](https://www.unab.edu.co/sites/default/files/Publicaciones_academicas/Litt%C3%AD%C3%ADnBook.pdf), [Los Angeles Times](https://www.latimes.com/archives/la-xpm-1987-06-07-bk-757-story.html)
+
+### Pablo Escobar
+
+- **[T1-]** **Documented fact:** García Márquez reconstructed kidnappings ordered by Escobar and Los Extraditables in *Noticia de un secuestro* (1996), deliberately keeping the drug lord peripheral while centering the captives and their families. García Márquez reportedly considered interviewing Escobar, but Escobar died in December 1993 before any meeting occurred; no personal encounter is established. [Harry Ransom Center manuscript](https://hrc.contentdm.oclc.org/digital/collection/p15878coll73/id/6543/), [El País](https://elpais.com/diario/1995/09/07/cultura/810424809_850215.html), [Folha de S.Paulo](https://www1.folha.uol.com.br/fsp/1996/5/12/mais%21/12.html)
+
+### Julio Cortázar
+
+- **[T5]** **Documented fact:** García Márquez and Cortázar were personal friends within the Latin American Boom network, met in Europe and Cuba, exchanged literary and political correspondence, and participated in the Russell Tribunal II proceedings concerning repression in Latin America during the mid-1970s. Their surviving exchanges with Carlos Fuentes and Mario Vargas Llosa were later published in *Las cartas del Boom*. [Carmen Balcells Agency](https://www.agenciabalcells.com/autores/obra/carlos-fuentes/las-cartas-del-boom-con-julio-cortazar-gabriel-garcia-marquez-y-mario-vargas-llosa/), [Sitios de Memoria Uruguay](https://sitiosdememoria.uy/coleccion/tribunal-russell)
+
+### Fidel Castro
+
+- **[T5]** **Documented fact:** García Márquez and Castro developed a close, decades-long personal friendship after García Márquez’s work in revolutionary Cuba and Prensa Latina. Their documented contact included private visits, fishing and literary discussions, Castro’s reading of manuscripts, García Márquez’s use of a Cubanacán protocol residence, correspondence, and García Márquez’s 2008 visit during Castro’s convalescence. [Harry Ransom Center finding aid](https://norman.hrc.utexas.edu/fasearch/pdf/01084.pdf), [El País](https://elpais.com/cultura/2014/04/03/actualidad/1396551081_198117.html), [La Prensa/AP](https://www.prensa.com/Garcia-Marquez-visita-Fidel-Castro_0_2334516905.html)
+
+### Bill Clinton
+
+- **[T5]** **Documented fact:** García Márquez met Clinton repeatedly and developed a personal friendship with him. Their documented encounters included a private dinner with Carlos Fuentes at William Styron’s Martha’s Vineyard home in September 1994 and a White House meeting on 11 September 1997; García Márquez later acted as an informal intermediary carrying concerns between Havana and Washington. [El País](https://elpais.com/diario/1994/09/06/internacional/778802414_850215.html), [Caracol Radio/EFE](https://caracol.com.co/radio/1997/09/12/judicial/0874044000_072322.html)
+
+### Hugo Chávez
+
+- **[T5]** **Documented fact:** García Márquez met Chávez and held an extended conversation with him aboard a Havana-to-Caracas flight in early 1999. He converted the encounter into the profile “El enigma de los dos Chávez,” published in Colombia’s *Cambio*, contrasting the private conversationalist he encountered with the public leader he feared Chávez might become. [Archived article account](https://www.sinpermiso.info/sites/default/files/textos/Ven.pdf), [The Atlantic](https://www.theatlantic.com/magazine/archive/2006/05/the-talented-mr-ch-vez/304809/)
+
 ## Sources
 
 https://www.nobelprize.org/prizes/literature/1982/marquez/biographical/

@@ -458,6 +458,110 @@ The central posthumous dispute is already visible. One interpretation treats com
 - **June 2025:** Ute dies; final English volumes/interviews appear.
 - **14 March 2026:** Dies at home in Starnberg, aged ninety-six.
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Habermas treated Aristotle’s philosophy and its reception in medieval theology at length in *Auch eine Geschichte der Philosophie* (2019), including a section titled “The Challenges Posed by Aristotle for Thirteenth-Century Theology.” [Habermas Forum contents](https://www.habermasforum.dk/news-139/out-now-in-english-quotalso-a-history-of-philosophyquot-volume-1)
+
+### Saint Augustine of Hippo
+
+- **[T1-]** **Documented fact:** *Auch eine Geschichte der Philosophie* contains an extended treatment of Augustine and the institutional development of the Latin Church; Habermas also explicitly classified Augustine among the major metaphysical thinkers discussed in his account of postmetaphysical philosophy. [Habermas Forum contents](https://www.habermasforum.dk/news-139/out-now-in-english-quotalso-a-history-of-philosophyquot-volume-1), [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/habermas/)
+
+### J. L. Austin
+
+- **[T1-]** **Documented fact:** Habermas critically appropriated Austin’s speech-act theory while developing universal/formal pragmatics during the 1970s, particularly the distinction among locutionary, illocutionary, and perlocutionary acts. This was textual engagement; Austin died in 1960, and no meeting is documented. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/habermas/)
+
+### Walter Benjamin
+
+- **[T1-]** **Documented fact:** Habermas wrote directly about Benjamin in “Bewußtmachende oder rettende Kritik—die Aktualität Walter Benjamins” (1972), subsequently collected in *Philosophisch-politische Profile*. [Suhrkamp](https://www.suhrkamp.de/buch/juergen-habermas-philosophisch-politische-profile-t-9783518282595), [MIT Press edition contents](https://books.google.com/books/about/Philosophical_political_Profiles.html?id=ICtx4qVgUoUC)
+
+### John Dewey
+
+- **[T1-]** **Documented fact:** Habermas repeatedly engaged Dewey’s pragmatism, democratic theory, and model of a problem-solving public, especially in reconstructing communicative rationality and deliberative democracy. The connection is intellectual rather than personal; Dewey died in 1952, before Habermas’s academic career was established. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/habermas/)
+
+### Jacques Derrida
+
+- **[T5]** **Documented fact:** After Habermas’s sustained criticism of Derrida in *Der philosophische Diskurs der Moderne* (1985), the two reconciled personally in the late 1990s, held a joint Frankfurt seminar in 2000, and cooperated against the Iraq War in 2003. Derrida expressly endorsed Habermas’s “15 February” European manifesto, and their later relationship is documented as a friendship lasting until Derrida’s death in 2004. [Wiley contents](https://www.wiley-vch.de/en?isbn=9780745608303&option=com_eshop&title=The+Philosophical+Discourse+of+Modernity&view=product), [Derrida–Habermas Reader](https://www.jstor.org/stable/10.3366/j.ctvxcrk9s)
+
+### Fichte
+
+- **[T1-]** **Documented fact:** Habermas discussed Fichte as part of the post-Kantian development of German idealism and the genealogy of reason, subjectivity, and freedom, most extensively in the historical reconstruction culminating in *Auch eine Geschichte der Philosophie*. The record supports intellectual treatment, not personal crossing.
+
+### Michel Foucault
+
+- **[T1-]** **Documented fact:** Habermas devoted substantial portions of *Der philosophische Diskurs der Moderne*—including “Some Questions Concerning the Theory of Power: Foucault Again”—to Foucault’s genealogy, theory of power, and normative position. The often-invoked “Habermas–Foucault debate” was principally a textual controversy; the projected direct encounter did not occur before Foucault’s death in 1984. [Wiley contents](https://www.wiley-vch.de/en?isbn=9780745608303&option=com_eshop&title=The+Philosophical+Discourse+of+Modernity&view=product), [Habermas bibliography](https://philarchive.org/archive/CORJHA)
+
+### Freud
+
+- **[T1-]** **Documented fact:** Habermas reconstructed Freud’s psychoanalysis as a model of emancipatory self-reflection in *Erkenntnis und Interesse* (1968), while criticizing Freud’s scientistic self-understanding. Freud died in 1939; no personal contact is possible. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/habermas/)
+
+### Hegel
+
+- **[T1-]** **Documented fact:** Hegel is a major object of Habermas’s writing across *Erkenntnis und Interesse*, *Der philosophische Diskurs der Moderne*, and *Auch eine Geschichte der Philosophie*. The latter includes “Hegel’s Assimilation of Faith and Knowledge,” while the 1985 lectures begin their genealogy of philosophical modernity with Hegel. [Habermas Forum contents](https://www.habermasforum.dk/news-139/out-now-in-english-quotalso-a-history-of-philosophyquot-volume-1), [Wiley](https://www.wiley-vch.de/en?isbn=9780745608303&option=com_eshop&title=The+Philosophical+Discourse+of+Modernity&view=product)
+
+### Martin Heidegger
+
+- **[T3]** **Documented fact:** Habermas publicly challenged Heidegger in 1953 over the unrevised reappearance of the phrase about the “inner truth and greatness” of National Socialism in *Einführung in die Metaphysik*. Heidegger answered privately through the *Frankfurter Allgemeine Zeitung*, making this a documented written exchange. Habermas later published further essays on Heidegger and devoted a lecture of *Der philosophische Diskurs der Moderne* to his critique of Western rationalism. [Suhrkamp](https://www.suhrkamp.de/buch/juergen-habermas-philosophisch-politische-profile-t-9783518282595), [Wiley](https://www.wiley-vch.de/en?isbn=9780745608303&option=com_eshop&title=The+Philosophical+Discourse+of+Modernity&view=product)
+
+### Max Horkheimer
+
+- **[T3]** **Documented fact:** Horkheimer was Habermas’s senior colleague and institutional antagonist at Frankfurt’s Institute for Social Research in 1956–1959. Their relationship included direct correspondence: the Horkheimer archive records a 1955 letter with Habermas’s reply. Horkheimer subsequently opposed publication of *Student und Politik* and Habermas’s Frankfurt habilitation, although the two later partially reconciled. [Hessian archival catalogue](https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=4039486), [Suhrkamp](https://www.suhrkamp.de/buch/juergen-habermas-philosophisch-politische-profile-t-9783518282595)
+
+### William James
+
+- **[T1-]** **Documented fact:** Habermas engaged James as part of the American-pragmatist tradition used to reconstruct knowledge, action, and intersubjective reason. No personal crossing was possible: James died in 1910.
+
+### Kant
+
+- **[T1-]** **Documented fact:** Kant is one of Habermas’s most persistent historical interlocutors. Habermas discussed Kantian autonomy, practical reason, publicity, cosmopolitanism, and the translation of religious concepts into postmetaphysical philosophy; *Auch eine Geschichte der Philosophie* includes “Kant’s Answer to Hume.” [Habermas Forum contents](https://www.habermasforum.dk/news-139/out-now-in-english-quotalso-a-history-of-philosophyquot-volume-1), [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/habermas/)
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1-]** **Documented fact:** Habermas explicitly situated Leibniz within the metaphysical tradition reconstructed and criticized in his accounts of postmetaphysical thinking. This is documented textual engagement, not a biographical crossing. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/habermas/)
+
+### Martin Luther
+
+- **[T1-]** **Documented fact:** Habermas devoted a substantial part of *Auch eine Geschichte der Philosophie* to Luther’s break with scholastic tradition and its consequences for faith, freedom, and modern law. [Habermas Forum contents](https://www.habermasforum.dk/news-139/out-now-in-english-quotalso-a-history-of-philosophyquot-volume-1)
+
+### Herbert Marcuse
+
+- **[T5]** **Documented fact:** Habermas and Marcuse were personally acquainted, corresponded, and remained friendly despite disagreements over the West German student movement. Habermas visited Marcuse in hospital at Starnberg shortly before Marcuse’s death on 29 July 1979 and later reported their final conversation about compassion as critical theory’s normative basis. Habermas also published “Herbert Marcuse über Kunst und Revolution” (1973). [Suhrkamp](https://www.suhrkamp.de/buch/juergen-habermas-philosophisch-politische-profile-t-9783518282595), [Adorno–Marcuse correspondence](https://newleftreview.org/issues/i233/articles/theodor-adorno-herbert-marcuse-correspondence-on-the-german-student-movement.pdf)
+
+### Karl Marx
+
+- **[T1-]** **Documented fact:** Habermas wrote extensively about Marx from his 1950s literature review on Marxism through *Erkenntnis und Interesse*, *Zur Rekonstruktion des Historischen Materialismus*, and *Theorie des kommunikativen Handelns*. His project explicitly sought to reconstruct Marxian social criticism while rejecting labor reductionism, historical inevitability, and the proletariat’s privileged epistemic status. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/habermas/)
+
+### Friedrich Nietzsche
+
+- **[T1-]** **Documented fact:** Habermas treated Nietzsche in *Erkenntnis und Interesse* and made him the pivotal figure of “The Entry into Postmodernity: Nietzsche as a Turning Point” in *Der philosophische Diskurs der Moderne*. [Wiley contents](https://www.wiley-vch.de/en?isbn=9780745608303&option=com_eshop&title=The+Philosophical+Discourse+of+Modernity&view=product)
+
+### Plato
+
+- **[T1-]** **Documented fact:** Habermas discussed Plato as a foundational representative of metaphysical philosophy in his contrast between classical metaphysics and postmetaphysical reason. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/habermas/)
+
+### Schelling
+
+- **[T1-]** **Documented fact:** Habermas’s 1954 Bonn dissertation, *Das Absolute und die Geschichte. Von der Zwiespältigkeit in Schellings Denken*, was an extended study of Schelling’s philosophy of history and the absolute. He returned to Schelling in later genealogical work. [Heidelberg University Library digitization](https://digi.ub.uni-heidelberg.de/diglit/habermas1954), [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/habermas/)
+
+### John Searle
+
+- **[T3]** **Documented fact:** Habermas engaged Searle’s reformulation of speech-act theory in developing formal pragmatics and later exchanged published arguments with him concerning meaning, intentionality, and communicative action. The evidence supports written intellectual discourse; no independently verified personal friendship is asserted here. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/habermas/)
+
+### Thomas Aquinas
+
+- **[T1-]** **Documented fact:** *Auch eine Geschichte der Philosophie* contains an extended section on Aquinas’s response to Aristotelian philosophy and the medieval synthesis of faith and knowledge. [Habermas Forum contents](https://www.habermasforum.dk/news-139/out-now-in-english-quotalso-a-history-of-philosophyquot-volume-1)
+
+### Theodor W. Adorno
+
+- **[T5]** **Documented fact:** Habermas met Adorno in 1955 and served as his research assistant at Frankfurt’s Institute for Social Research from 1956 to 1959. Adorno became his principal early mentor and institutional defender. Habermas later wrote several studies of Adorno, delivered the 1980 Adorno Prize lecture, and reconstructed critical theory partly through disagreement with Adorno’s philosophy of reason. [Suhrkamp](https://www.suhrkamp.de/buch/juergen-habermas-philosophisch-politische-profile-t-9783518282595), [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/habermas/)
+
+### Max Weber
+
+- **[T1-]** **Documented fact:** Habermas made Weber’s theory of rationalization a central object of *Theorie des kommunikativen Handelns* (1981), adopting Weber’s diagnosis of modern differentiation while criticizing its restriction of rationality to purposive and value-rational action. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/habermas/)
+
+No adequately documented T2 prophecy/hyperstition or T9 shared-object transmission was found between Habermas and any roster member. Mere appearance in the same intellectual tradition, shared institutional geography, or later comparison by third parties has not been counted.
+
 ## Sources
 
 https://www.suhrkamp.de/trauermeldung/zum-tod-von-juergen-habermas-b-5025

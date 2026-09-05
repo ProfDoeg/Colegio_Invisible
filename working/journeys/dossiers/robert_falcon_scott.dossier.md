@@ -2016,6 +2016,34 @@ Scott remains simultaneously:
 
 ---
 
+## Atlas Connections
+
+### Ernest Shackleton
+
+- **[T5] Documented fact:** Shackleton served under Scott as third officer on the *Discovery* expedition (1901–1904). Scott, Shackleton and Edward Wilson travelled together on the southern journey of 2 November 1902–3 February 1903, reaching 82°17′ S. Scott subsequently invalided Shackleton home, but they continued to meet within British polar circles and later became rivals over Shackleton’s proposed use of McMurdo Sound. The documented expedition service and face-to-face relationship establish a personal crossing; claims that they were invariably bitter enemies exceed the evidence. [Royal Geographical Society](https://www.rgs.org/our-collections/stories-from-our-collections/explore-our-collections/portrait-of-robert-falcon-scott)
+- **[T3] Documented fact:** Scott and Shackleton exchanged letters concerning Shackleton’s 1907–1909 *Nimrod* expedition and Scott’s asserted priority over McMurdo Sound. Their written dispute constitutes direct correspondence even though Scott’s purported territorial right had no legal force.
+
+### Roald Amundsen
+
+- **[T3] Documented fact:** Although Scott and Amundsen apparently never met, Amundsen initiated one-sided written engagement by arranging the October 1910 telegram informing Scott that *Fram* was proceeding to Antarctica, and by leaving Scott a personally addressed note at Polheim on 15 December 1911. Scott found and read that note on 17–18 January 1912. It asked him to forward Amundsen’s accompanying letter to King Haakon VII and wished him a safe return. [Roald Amundsen’s House/MiA](https://amundsen.mia.no/en/resource/1910-1912-fram-expedition-2/)
+- **[T9+] Documented fact:** Amundsen’s party erected and provisioned the tent Polheim near the South Pole in December 1911; Scott’s party occupied the abandoned site approximately one month later and recovered Amundsen’s letters and equipment. Polheim and the documents left there therefore passed from the earlier-arriving Amundsen expedition to Scott without shared occupancy. [American Museum of Natural History](https://amnh.getanchor.io/exhibitions/race-to-the-end-of-the-earth/amundsen/timeline.html)
+- **[T9-] Documented fact:** Scott carried Amundsen’s 15 December 1911 letter to King Haakon VII away from Polheim. It was recovered from Scott’s final camp in November 1912 and eventually delivered to the king in May 1913. On Scott’s dossier he is the later recipient and custodian of this shared object. [National Library of Norway](https://www.nb.no/dokumentarv-i-nasjonalbiblioteket/sydpolbrevet/)
+
+### Sir James Matthew Barrie
+
+- **[T5] Documented fact:** Scott and Barrie were personal friends in Edwardian London, and Barrie became one of Peter Scott’s godfathers. Their relationship continued through Scott’s final expedition, after which Barrie supported Scott’s family.
+- **[T3] Documented fact:** While awaiting death in Antarctica in March 1912, Scott wrote Barrie a personal farewell letter. The autograph manuscript survives as British Library Add MS 46272 and was later owned by Barrie, providing direct documentary evidence of their correspondence. [British Library catalogue](https://searcharchives.bl.uk/?f%5Brelated_names_ssim%5D%5B%5D=Davies%2C+Peter+Llewelyn%2C+publisher%2C+1897-1960&search_field=all_fields)
+
+### Sir Arthur Conan Doyle
+
+- **[T3] Documented fact:** Conan Doyle wrote directly to Scott concerning Scott’s candidacy for membership of Sheringham Golf Club. In the surviving undated letter, associated with Scott’s election in 1906, Conan Doyle thanked Scott for his note and promised to try to vote for him on “the 8th.” This establishes reciprocal written contact, though not by itself a close friendship. [Arthur Conan Doyle Encyclopedia, reproducing the auctioned letter](https://www.arthur-conan-doyle.com/index.php/Letter_to_Robert_Falcon_Scott_about_vote)
+
+### Auguste Rodin
+
+- **[T4] Reported fact:** Rodin, the former mentor of Scott’s fiancée Kathleen Bruce, is reported as having attended Bruce and Scott’s wedding at the Chapel Royal, Hampton Court Palace, on 2 September 1908. This supports presence at the same private event, but the available evidence does not establish a substantive friendship or correspondence between Rodin and Robert Falcon Scott. [Historic Royal Palaces on the documented wedding](https://www.hrp.org.uk/blog/captain-scott-and-kathleen-bruces-wedding-at-hampton-court-palace/)
+
+No additional roster crossing was included where the available material showed only indirect association, influence through Kathleen Scott, broad contemporaneity, or later comparison without contact.
+
 ## Sources
 
 https://www.oxforddnb.com/display/10.1093/ref%3Aodnb/9780198614128.001.0001/odnb-9780198614128-e-35994

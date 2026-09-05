@@ -645,6 +645,24 @@ Baring and Alexander in Maine retain the geographical memory of the land specula
 - **31 Aug. 1848** — Will proved.
 - **5 Dec. 1848** — Ann Louisa dies at Gosport.
 
+## Atlas Connections
+
+### Francis Baring
+
+- **[T5] Documented fact:** Francis Baring was Alexander Baring’s father, commercial mentor, and senior partner. He sent Alexander to North America in 1795 to negotiate the Bingham land investment and later entrusted him with broad discretion in the Louisiana financing. The relationship continued personally and professionally until Francis’s death in 1810. [National Gallery](https://www.nationalgallery.org.uk/people/alexander-baring-1st-baron-ashburton), [Baring Archive](https://baringarchive.org.uk/exhibition/the-louisiana-purchase/)
+
+- **[T3] Documented fact:** Surviving correspondence records sustained written engagement between father and son. Examples include Alexander’s report from Washington on 21 October 1803 concerning the Louisiana transaction and Francis’s letters and instructions about its pricing, risk, secrecy, and execution. [Baring Archive](https://baringarchive.org.uk/exhibition/the-louisiana-purchase/)
+
+### Thomas Jefferson
+
+- **[T3] Documented fact:** While completing the Louisiana financing in Washington, Baring corresponded directly with President Thomas Jefferson. In a note received on 17 January 1804, Baring acknowledged a letter Jefferson had entrusted to him for careful delivery to James Monroe; Jefferson’s letter of 8 January identified Baring as a confidential courier. [Founders Online: Baring to Jefferson](https://founders.archives.gov/documents/Jefferson/01-42-02-0252), [Founders Online: Jefferson to Monroe](https://founders.archives.gov/documents/Jefferson/01-42-02-0223)
+
+### Karl Marx
+
+- **[T1+] Documented fact:** After Baring’s death, Karl Marx read and excerpted Baring’s 1847 pamphlet *The Financial and Commercial Crisis Considered* in his London notebooks of 1850–1853, recording Baring’s observations on the crises of 1825 and 1847, bank deposits, credit, and interest rates. Marx later also referred historically to the 1842 negotiations between Lord Ashburton and Daniel Webster. Baring is therefore the earlier, written-about figure in this connection. [Marx-Engels Gesamtausgabe, vol. IV/7](https://dokumen.pub/gesamtausgabe-mega-band-7-karl-marx-friedrich-engels-exzerpte-und-notizen-september-1849-bis-februar-1851-9783050076836-9783050033952.html), [Marx and Engels, *Collected Works*, vol. 19](https://michaelharrison.org.uk/wp-content/uploads/2020/06/Volume-19-Marx-and-Engels-1861-1864.pdf)
+
+No qualifying direct personal meeting, correspondence, or shared-object connection with Napoleon Bonaparte was established: Baring negotiated with Napoleon’s minister Barbé-Marbois, while Napoleon separately ratified the Louisiana agreement. That consequential financial relationship does not by itself satisfy one of the specified Atlas connection types. No other roster crossing was supported strongly enough for inclusion.
+
 ## Sources
 
 https://baringarchive.org.uk/the-baring-archive/

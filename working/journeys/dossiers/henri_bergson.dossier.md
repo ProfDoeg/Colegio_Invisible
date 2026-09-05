@@ -974,6 +974,57 @@ The **Société des amis de Bergson**, founded in the twenty-first century, the 
 - **2016–present** — Additional Collège de France courses and critical archival materials published.
 - **2024** — Emily Herring's major English biography and *Correspondances II* expand biographical and epistolary record.
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-]** **Documented fact.** Bergson wrote his Latin supplementary doctoral thesis, *Quid Aristoteles de loco senserit* (1889), specifically on Aristotle’s theory of place. [Bibliographic record](https://www.nobelprize.org/prizes/literature/1927/bergson/bibliography/)
+
+### Alfred Jarry
+
+- **[T3]** **Documented fact.** Jarry attended Bergson’s philosophy courses at Lycée Henri-IV during the academic years 1891–92 and 1892–93. Manuscript-catalog records identify Jarry’s extensive transcriptions of those lectures. [Catalogue collectif de France/BnF record](https://ccfr.bnf.fr/portailccfr/jsp/index_view_direct_anonymous.jsp?record=eadcgm%3AEADC%3Ab1506445)
+
+### Charles Darwin
+
+- **[T1-]** **Documented fact.** Bergson discussed Darwin and Darwinian evolutionary theory at length in *L’Évolution créatrice* (1907), distinguishing Darwinian variation and selection from his own account of evolutionary creativity. [Digitized French edition](https://archive.org/download/lvolutioncra00berg/lvolutioncra00berg.pdf)
+
+### Gilles Deleuze
+
+- **[T1+]** **Documented fact.** Deleuze made Bergson the subject of *Le Bergsonisme* (1966), reconstructing his concepts of duration, memory, multiplicity, and the virtual; the book became a principal vehicle of Bergson’s postwar philosophical revival. [Duke University Press overview](https://www.dukeupress.edu/Henri-Bergson)
+
+### Georges Sorel
+
+- **[T3]** **Documented fact.** Sorel engaged Bergson’s philosophy in writing and appropriated Bergsonian accounts of intuition, creativity, and action for his own theory of revolutionary myth. This was a one-sided intellectual use, not evidence that Bergson endorsed Sorel’s syndicalism or theory of violence. [Cambridge study of Sorel’s reception](https://www.cambridge.org/core/journals/modern-intellectual-history/article/regeneration-of-society-thomas-ernest-hulme-and-the-early-british-reception-of-georges-sorel/F1B4BDE04384E4E5C406AB94635F2D2F)
+
+### Albert Einstein
+
+- **[T5]** **Documented fact.** Bergson and Einstein met at the Société française de philosophie in Paris on 6 April 1922. Bergson spoke about relativity, time, and simultaneity, and Einstein replied during the recorded discussion. [Société française de philosophie archive](https://www.sofrphilo.fr/activites-scientifiques-de-la-sfp/conferences/grandes-conferences-en-telechargement/)
+- **[T3]** **Documented fact.** Bergson’s *Durée et simultanéité* (1922) was a sustained written engagement with Einstein’s relativity theory. It accepted the theory’s physical importance while disputing philosophical interpretations that Bergson believed reduced time entirely to clock measurements and coordinate systems. [Digitized edition](https://archive.org/details/dureetsimulta00berg)
+- **[T4]** **Documented fact.** Bergson and Einstein were founding members of the League of Nations’ International Committee on Intellectual Cooperation and attended its inaugural Geneva session on 1 August 1922; Bergson chaired the committee. [United Nations–associated centenary record](https://intellectualcooperation.org/files/IntellectualCooperation_2022.pdf)
+
+### John Dewey
+
+- **[T3]** **Documented fact.** Dewey wrote the introduction to Columbia University’s *A Contribution to a Bibliography of Henri Bergson* (1913), prepared in connection with Bergson’s American visit. [John Dewey chronology](https://deweycenter.siu.edu/common/documents/chrono.pdf)
+- **[T5]** **Documented fact.** Dewey’s scholarly chronology records that he met Bergson during Bergson’s Columbia visit in New York, between approximately 6 and 18 February 1913. [John Dewey chronology](https://deweycenter.siu.edu/common/documents/chrono.pdf)
+
+### Marcel Proust
+
+- **[T5]** **Documented fact.** Proust, a relative of Louise Neuburger, acted as a witness at Louise and Bergson’s Paris wedding on 7 January 1892. The connection made Bergson and Proust cousins by marriage; it does not establish that Proust was Bergson’s disciple. [Document and relationship description](https://www.lemanuscritfrancais.com/fr/manuscrit/proust-marcel-1871-1922-40/)
+- **[T3]** **Documented fact.** Proust heard Bergson lecture, including attending his opening Collège de France course in 1900, and addressed Bergson’s ideas in his own critical statements—sometimes expressly denying that his treatment of memory derived from Bergson. [Yale anthology discussion](https://dokumen.pub/french-italian-and-spanish-criticism-1900-1950-volume-8-9780300161588.html)
+
+### Marie Curie
+
+- **[T4]** **Documented fact.** Curie and Bergson attended the International Committee on Intellectual Cooperation’s Geneva session in August 1922; a League of Nations group photograph and its archival description identify both participants. Bergson served as chairman, while Curie was a committee member. [Musée Curie archival record](https://curiotheque.musee.curie.fr/s/fr/item/17128)
+
+### Rabindranath Tagore
+
+- **[T5]** **Documented fact.** Bergson visited Tagore while the poet was staying at Albert Kahn’s property in Boulogne-sur-Seine; Tagore’s chronology dates their meeting to 24 August 1920. [BnF, “Tagore en France”](https://heritage.bnf.fr/france-southasia/tagore-en-france)
+
+### William James
+
+- **[T3]** **Documented fact.** Bergson and James maintained a substantive correspondence from 1902 until James’s death in 1910, exchanging more than twenty letters and postcards about perception, intellectualism, pragmatism, mysticism, and their respective books. Bergson later wrote a preface for a 1924 French selection from James’s correspondence. [Study of the correspondence](https://repozytorium.ukw.edu.pl/bitstream/handle/item/6695/Historia%20korespondencji%20Wiliama%20Jamesa%20i%20Henriego%20Bergsona.pdf?isAllowed=y&sequence=1)
+- **[T5]** **Documented fact.** The philosophers met personally in Paris on 28 May 1905 and met again in London in 1908. Their surviving correspondence and James’s reactions document a genuine personal friendship as well as philosophical affinity. [Historical psychology source](https://psychclassics.yorku.ca/James/TaylorWoz.htm)
+
 ## Sources
 
 https://www.college-de-france.fr/en/chair/henri-bergson-modern-philosophy-statutory-chair/biography

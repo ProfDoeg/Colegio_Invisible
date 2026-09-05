@@ -579,6 +579,99 @@ The most defensible summary of the legacy is documentary rather than celebratory
 
 Adorno’s archive is immense, while much correspondence and lecture material is edited rather than available as open facsimile. This dossier therefore distinguishes archival descriptions and published editions from directly viewable government files and essays. Precise private finances, the clinical death record, and the full extent of extramarital relationships remain incompletely documented. Genealogical websites were used only to identify competing family particulars, not as authority for noble ancestry. Wikipedia was consulted for orientation and bibliographic leads but was not used as the principal authority where stronger sources were available.
 
+## Atlas Connections
+
+### Walter Benjamin
+
+- **[T3] Documented fact:** Adorno and Benjamin maintained an extensive philosophical correspondence from 1928 until Benjamin’s death in 1940. Their exchanges addressed aesthetics, mass reproduction, natural history, Kafka, and Benjamin’s Baudelaire project; Adorno’s 1938 demand that the Baudelaire essay be revised carried institutional weight because Benjamin depended on Institute support. The correspondence is published as *Briefwechsel 1928–1940*. [Suhrkamp](https://www.suhrkamp.de/buch/theodor-w-adorno-walter-benjamin-briefwechsel-1928-1940-t-9783518291047)
+- **[T5] Documented fact:** They met in Frankfurt in 1923 and subsequently met in Berlin, Frankfurt, Paris, and other European settings. Their relationship was an intellectually formative friendship, although marked by rivalry and later editorial conflict. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/adorno/)
+
+### Max Horkheimer
+
+- **[T3] Documented fact:** Adorno and Horkheimer exchanged extensive correspondence and jointly wrote *Philosophische Fragmente* (1944) and *Dialektik der Aufklärung* (1947). Their collaboration continued through the Institute for Social Research’s exile and postwar periods. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/adorno/)
+- **[T5] Documented fact:** They met through Hans Cornelius’s Frankfurt seminar in the 1920s and developed a decades-long friendship and working partnership. During the 1940s they lived near one another in Southern California; after returning to Frankfurt they jointly directed the Institute.
+
+### Herbert Marcuse
+
+- **[T3] Documented fact:** Marcuse and Adorno were Institute colleagues and correspondents. Their surviving 1969 letters debate the West German student movement, Adorno’s decision to call police during the Institute occupation, and the relation between theory and political praxis. [Published correspondence and editorial introduction](https://newleftreview.org/issues/i233/articles/esther-leslie-introduction-to-adorno-marcuse-correspondence)
+- **[T5] Documented fact:** They knew one another personally through the Institute’s émigré and postwar networks. The friendship survived substantial theoretical differences but was strained sharply by the 1969 dispute.
+
+### Erich Fromm
+
+- **[T3] Documented fact:** Adorno engaged critically with Fromm’s revision of psychoanalysis, attacking what he regarded as the dilution of Freud’s theory of drives and social antagonism. This written polemic formed part of the broader conflict between Fromm and the Horkheimer-Adorno circle.
+- **[T4] Documented fact:** Fromm and Adorno belonged to the Institute for Social Research’s overlapping late-1930s network; their institutional overlap was brief because Fromm separated from the Institute around the time Adorno became a formal member in New York. The evidence supports shared institutional milieu and intellectual conflict, not a close friendship. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/adorno/)
+
+### Jürgen Habermas
+
+- **[T3] Documented fact:** Habermas was Adorno’s assistant at the Institute for Social Research and subsequently wrote major critical reconstructions of Adorno and Horkheimer, including “The Entwinement of Myth and Enlightenment.” [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/adorno/)
+- **[T5] Documented fact:** Adorno and Habermas worked together personally in Frankfurt during the 1950s. Adorno initially supported the younger scholar, while Horkheimer’s objections to Habermas’s political orientation contributed to Habermas leaving Frankfurt in 1959.
+
+### Fritz Lang
+
+- **[T5] Documented fact:** Adorno and Lang met in the Southern California émigré community during the 1940s and became friends. Lang belonged to the circle of filmmakers and writers with whom Adorno interacted while developing his criticism of film and the culture industry.
+
+### Immanuel Kant
+
+- **[T1-] Documented fact:** Adorno repeatedly wrote and lectured about Kant. As a teenager he read the *Critique of Pure Reason* weekly with Siegfried Kracauer; in 1959 he delivered a full Frankfurt lecture course on the work, using its contradictions to develop the position later called negative dialectics. [Suhrkamp lecture edition](https://www.suhrkamp.de/buch/theodor-w-adorno-kants-kritik-der-reinen-vernunft-t-9783518293591)
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-] Documented fact:** Adorno made Hegel a principal object of sustained interpretation and criticism in *Drei Studien zu Hegel* (1963), *Negative Dialectics* (1966), and university lectures on dialectics. He retained determinate negation and mediation while rejecting reconciliation through an affirmative totality. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/adorno/)
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Adorno’s writings repeatedly interpret and revise Marx’s accounts of commodity fetishism, exchange, class domination, and capitalist production. His social theory treated Marx as indispensable while rejecting party orthodoxy and confidence in an historically guaranteed revolutionary subject. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/archives/spr2004/entries/adorno/)
+
+### Sigmund Freud
+
+- **[T1-] Documented fact:** Adorno wrote extensively through and about Freud, particularly in “Freudian Theory and the Pattern of Fascist Propaganda” (1951), *The Authoritarian Personality*, and his criticism of psychoanalytic revisionism. Freud’s theories of repression, narcissism, projection, and group psychology became central to Adorno’s analysis of authoritarianism.
+
+### Friedrich Nietzsche
+
+- **[T1-] Documented fact:** Adorno repeatedly interpreted Nietzsche in *Dialectic of Enlightenment*, *Minima Moralia*, *Negative Dialectics*, and essays including “Wagner, Nietzsche and Hitler” (1947). He appropriated Nietzsche’s genealogy and critique of morality while rejecting elitist or fascist appropriations of the philosopher. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/adorno/)
+
+### Søren Kierkegaard
+
+- **[T1-] Documented fact:** Adorno’s successful habilitation was the book-length *Kierkegaard: Konstruktion des Ästhetischen*, submitted in 1931 and published in 1933. It interpreted Kierkegaard’s aesthetics and inwardness through social and material criticism. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/adorno/)
+
+### Martin Heidegger
+
+- **[T1-] Documented fact:** Adorno conducted a sustained polemic against Heidegger’s ontology and its social language, most explicitly in *Jargon der Eigentlichkeit* (1964) and *Negative Dialectics* (1966). This is documented written engagement; no personal meeting between the two is established here. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/adorno/)
+
+### Max Weber
+
+- **[T1-] Documented fact:** Adorno repeatedly engaged Weber’s theories of rationalization, bureaucracy, and instrumental reason in his sociology and in *Dialectic of Enlightenment*. He adapted Weberian analysis within a Marxian critique rather than accepting Weber’s methodological framework without qualification. [Stanford Encyclopedia of Philosophy: Critical Theory](https://plato.stanford.edu/entries/critical-theory/)
+
+### Richard Wagner
+
+- **[T1-] Documented fact:** Adorno made Wagner the subject of a major ideological and musical study, drafted in the 1930s, partially published as “Fragmente über Wagner” in 1938, and issued as *Versuch über Wagner* in 1952. He also published “Wagner, Nietzsche and Hitler” in 1947. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/adorno/)
+
+### Igor Stravinsky
+
+- **[T1-] Documented fact:** Adorno devoted one of the two principal studies in *Philosophie der neuen Musik* (1949) to Stravinsky, opposing his neoclassical and rhythmic procedures to Schoenberg’s development of musical material. He continued writing about Stravinsky afterward; the connection is a documented critical discourse, not evidence of friendship or a personal meeting. [Bloomsbury](https://www.bloomsbury.com/uk/philosophy-of-modern-music-9781474288866/)
+
+### John Cage
+
+- **[T1-] Documented fact:** Adorno discussed Cage’s compositions and their reception in his postwar writings and correspondence about avant-garde music, treating Cage as a polarizing challenge to European serialism. The surviving evidence establishes one-sided written engagement; it does not, by itself, establish that Adorno and Cage personally met. [Suhrkamp description of the Adorno–Metzger correspondence](https://www.suhrkamp.de/ebook/theodor-w-adorno-heinz-klaus-metzger-briefwechsel-1954-1967-t-9783518787823)
+
+### Jean-Paul Sartre
+
+- **[T1-] Documented fact:** Adorno’s essay “Engagement” (“Commitment,” 1962) directly criticized Sartre’s theory and practice of committed literature, especially the assumption that art’s political force can be secured through an author’s declared message. This was documented one-sided engagement, not evidence of a personal relationship. [Cambridge University Press excerpt](https://assets.cambridge.org/97813165/14320/excerpt/9781316514320_excerpt.pdf)
+
+### Mark Twain
+
+- **[T1-] Documented fact:** In 1932–33 Adorno worked on music for the unfinished Singspiel *Der Schatz des Indianer-Joe*, derived from characters and material in Twain’s *The Adventures of Tom Sawyer*. The surviving score establishes artistic adaptation of the earlier writer, not a personal crossing.
+
+### Jacques Derrida
+
+- **[T1+] Documented fact:** Derrida, the later figure, wrote directly about Adorno and accepted the City of Frankfurt’s Theodor W. Adorno Prize in 2001. His prize lecture, published as *Fichus*, reflected on Adorno, dreams, language, and philosophical inheritance. Adorno is therefore the earlier, written-about figure in this pairing. [City of Frankfurt: Adorno Prize](https://frankfurt.de/service-und-rathaus/verwaltung/preise-und-ehrungen/theodor-w-adorno-preis)
+
+### W. G. Sebald
+
+- **[T1+] Documented fact:** Sebald’s literary criticism and prose repeatedly engaged Adorno’s concepts, especially natural history, damaged life, memory, and the moral demands of representation after catastrophe. This is a posthumous intellectual reception: Adorno was the earlier figure written about, and no personal meeting was possible because Sebald’s mature career followed Adorno’s 1969 death.
+
+No evidence strong enough for inclusion was identified for the remaining roster members. Mere citation, indirect influence, residence in the same large city, or membership in a broad intellectual tradition was not treated as a crossing.
+
 ## Sources
 
 https://www.ifs.uni-frankfurt.de/adorno-archiv.html

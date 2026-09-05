@@ -759,6 +759,89 @@ Hayek societies exist at universities; the Mercatus Center hosts an F. A. Hayek 
 | 2019 | Nobel medal and other personal objects sold at auction; medal brought £1.1 million. |
 | 2022 | Nineteen-volume University of Chicago *Collected Works* project completed; daughter Christine died. |
 
+## Atlas Connections
+
+Only roster members for whom a specific documentary crossing was found are included. Intellectual resemblance, common institutional ancestry, and mere contemporaneity were excluded.
+
+### Adam Smith
+
+- **[T1-] Documented fact:** Hayek repeatedly interpreted Smith as a theorist of evolved institutions and unintended order, most explicitly in “Adam Smith’s Message in Today’s Language,” published in London’s *Daily Telegraph* on 9 March 1976. Hayek was the later writer; Smith was the earlier subject. ([Hayek bibliography](https://oll.libertyfund.org/pages/hayek-a-bibliography-of-his-writings))
+
+### Aristotle
+
+- **[T1-] Documented fact:** Hayek discussed Aristotle in his published genealogy of rationalism and spontaneous-order thought, assigning him an important but complicated place in the tradition later continued by Aquinas and Menger. Hayek was the later writer about the ancient philosopher. ([Journal of the History of Economic Thought study](https://www.cambridge.org/core/journals/journal-of-the-history-of-economic-thought/article/hayek-on-aristotle-the-debris-of-a-genealogy-of-modernity-via-popper-polanyi-and-ropke/B52A904D2051895CC71562C0213FF147))
+
+### Augusto Pinochet
+
+- **[T5] Documented fact:** Hayek received an audience of approximately twenty minutes with Pinochet during his first Chilean visit, in Santiago in November 1977. The surviving reconstruction indicates little substantive discussion and no interpreter; it does not support claims that Hayek designed the regime’s policies or constitution. ([Caldwell and Montes](https://eprints.lse.ac.uk/63318/1/__lse.ac.uk_storage_LIBRARY_Secondary_libfile_shared_repository_Content_Caldwell%2C%20B_Hayek%20and%20Chile_Cladwell_Hayek%20and%20Chile_2015.pdf))
+- **[T3] Documented fact:** Hayek subsequently engaged publicly with Pinochet’s regime in articles, letters, and interviews, defending the possibility of transitional authoritarian liberalization and criticizing Western reporting on Chile. These writings constitute discourse about the regime, not evidence of operational participation in it. ([Caldwell and Montes](https://hope.econ.duke.edu/sites/hope.econ.duke.edu/files/Hayek%20and%20Chile-version11%20%282%29.pdf))
+
+### Carl Menger
+
+- **[T1-] Documented fact:** Hayek became an important editor and interpreter of Menger after Menger’s death in 1921. He supervised and introduced the four-volume LSE reissue of Menger’s collected works in 1933–36 and later published biographical and analytical writing about him. No personal meeting is established. ([Hayek bibliography](https://oll.libertyfund.org/pages/hayek-a-bibliography-of-his-writings))
+
+### David Rockefeller
+
+- **[T5] Documented fact:** Rockefeller studied at the London School of Economics in 1937–38 under Hayek’s supervision, wrote a thesis criticizing underconsumption theory, and later remembered, “My tutor that year was Friedrich von Hayek.” ([LSE history](https://blogs.lse.ac.uk/lsehistory/2015/06/24/lse-rockefellers-baby/); [Rockefeller memoir](https://ia801602.us.archive.org/18/items/DavidRockefellerMemoirs2003RandomHouse/David%20Rockefeller%20-%20Memoirs%20%282003%2C%20Random%20House%29.pdf))
+- **[T3] Documented fact:** The Hoover archive contains a Hayek correspondence file titled “Rockefeller, David, 1977–1978.” Because the digital object is restricted, the record establishes correspondence but not its contents or any financial arrangement. ([Hoover catalog](https://digitalcollections2.hoover.org/view/ark%3A/54723/h37k3k/rockefeller-david-1977-1978))
+
+### Eugen von Böhm-Bawerk
+
+- **[T1-] Documented fact:** Hayek wrote about Böhm-Bawerk’s capital theory and positioned it within the Austrian tradition in his historical and theoretical economic writings, including *The Pure Theory of Capital*. Böhm-Bawerk died in 1914, before Hayek entered university; no personal meeting is supported.
+
+### Francis Bacon
+
+- **[T1-] Documented fact:** Hayek treated Bacon as an important figure in the emergence of constructivist and “scientistic” approaches to society, particularly in *The Counter-Revolution of Science* and later essays on rationalism. This was critical intellectual history, not a personal crossing. Bacon is among the thinkers expressly covered in Hayek’s collected historical writings. ([German Hayek Society collected-works description](https://hayek.de/gesammelte-schriften-hayeks/))
+
+### George H. W. Bush
+
+- **[T3] Documented fact:** President Bush conferred the Presidential Medal of Freedom on Hayek in 1991 and publicly characterized his work as visionary. Hayek was too frail to attend the White House ceremony, so the award does not establish a personal meeting. Bush issued a further written statement after Hayek’s death on 23 March 1992. ([1991 presentation remarks](https://www.presidency.ucsb.edu/documents/remarks-presenting-the-presidential-medal-freedom-awards); [Bush death statement](https://www.presidency.ucsb.edu/documents/statement-the-death-friedrich-august-von-hayek))
+
+### George Orwell
+
+- **[T3] Documented fact:** Orwell reviewed *The Road to Serfdom* in the *Observer* on 9 April 1944, agreeing with part of Hayek’s warning while arguing that unregulated competition could itself lead toward monopoly and tyranny. Hayek later discussed Orwell and withdrew his earlier belief that *Animal Farm* had been directly inspired by his book. No personal meeting has been established. ([IEA publication history](https://www.iea.org.uk/sites/default/files/publications/files/upldbook43pdf.pdf); [Hayek interview](https://contemporarythinkers.org/friedrich-hayek/category/multimedia-interview-of-hayek/))
+
+### John Locke
+
+- **[T1-] Documented fact:** Hayek discussed Locke as an earlier representative of constitutional liberalism, limited government, and general law in *The Constitution of Liberty* and related essays. This is a textual-intellectual connection only.
+
+### John Maynard Keynes
+
+- **[T3] Documented fact:** Hayek and Keynes conducted a sustained written controversy beginning with Hayek’s 1931–32 reviews of *A Treatise on Money*, Keynes’s replies, and their public 1932 exchange over Depression policy. Keynes also wrote privately to Hayek about *The Road to Serfdom* in 1944. ([University of Chicago Press documentary edition](https://press.uchicago.edu/ucp/books/book/chicago/R/bo4138549.html))
+- **[T5] Documented fact:** They knew one another personally through British economics and wartime Cambridge. Despite their theoretical conflict, they conversed socially and professionally, and Keynes assisted with schooling arrangements for Hayek’s son during the war.
+- **[T1-] Documented fact:** After Keynes’s death in 1946, Hayek published retrospective assessments and personal recollections of him, making Hayek the later writer about the earlier figure. Hayek also discussed their relationship extensively in his UCLA oral history. ([UCLA oral history](https://static.library.ucla.edu/oralhistory/text/masters/21198-zz0008zd21-4-master.html))
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Hayek repeatedly wrote about Marx and Marxism—in *The Road to Serfdom*, *The Counter-Revolution of Science*, and later essays—as part of his critique of historicism, collectivism, and centralized economic control. This tag records documented written engagement, not agreement or personal contact.
+
+### Ludwig von Mises
+
+- **[T5] Documented fact:** Mises employed Hayek in Vienna’s treaty-settlement office after the First World War, admitted him to his private seminar, helped establish the Austrian Institute for Business Cycle Research with him, and remained a major personal and intellectual associate. Their relationship began in Vienna in the early 1920s and continued through émigré and Mont Pèlerin networks. ([UCLA oral history](https://static.library.ucla.edu/oralhistory/text/masters/21198-zz0008zd21-4-master.html))
+- **[T3] Documented fact:** Hayek and Mises corresponded and engaged one another’s work over several decades. Hayek adopted Mises’s socialist-calculation problem while departing from him on method, welfare provisions, and the presentation of liberalism.
+- **[T1-] Documented fact:** After Mises’s death in 1973, Hayek published retrospective and biographical accounts of his mentor and the Vienna circle, including material incorporated into *Hayek on Hayek*. ([Hayek autobiographical dialogue](https://dokumen.pub/hayek-on-hayek-an-autobiographical-dialogue-9780203982020-0203982029-0415035260.html))
+
+### Milton Friedman
+
+- **[T5] Documented fact:** Friedman attended the founding Mont Pèlerin conference convened by Hayek in Switzerland, 1–10 April 1947. After Hayek moved to the University of Chicago in 1950, they interacted within the university and the Mont Pèlerin Society, although Hayek belonged to the Committee on Social Thought rather than Friedman’s economics department. ([Hoover Friedman collection](https://miltonfriedman.hoover.org/browse/collection))
+- **[T3] Documented fact:** Their surviving correspondence dates at least from 1949–64 and continued later; they debated monetary policy, macroeconomics, method, and liberal strategy. Friedman also supplied a foreword for a later edition of *The Road to Serfdom*. ([Royal Economic Society archive guide](https://res.org.uk/economists-papers/); [Hoover Institution](https://www.hoover.org/news/major-addition-milton-friedman-papers))
+
+### Murray Rothbard
+
+- **[T3] Documented fact:** Rothbard wrote extensive, often sharply critical assessments of Hayek’s philosophy and political economy in unpublished and subsequently edited writings. This is documented one-sided written engagement; the sources reviewed here do not establish a close friendship. ([Rothbard writings on Hayek](https://www.rothbard.it/articles/rothbard-vs-philosophers.pdf))
+
+### Salvador Allende
+
+- **[T1-] Documented fact:** After Allende’s death in the 1973 coup, Hayek wrote about Allende’s government when defending his impressions of Pinochet-era Chile, including in letters to *The Times* following his 1977 visit. Hayek’s comparison of personal freedom under the two governments was political advocacy, not an independent human-rights investigation. ([Caldwell and Montes](https://eprints.lse.ac.uk/63318/1/__lse.ac.uk_storage_LIBRARY_Secondary_libfile_shared_repository_Content_Caldwell%2C%20B_Hayek%20and%20Chile_Cladwell_Hayek%20and%20Chile_2015.pdf))
+
+### Thomas Aquinas
+
+- **[T1-] Documented fact:** Hayek placed Aquinas within a genealogy of anti-constructivist natural-law and rule-governed thought connecting Aristotle to later liberal and Austrian traditions. This is a documented interpretive connection in Hayek’s published intellectual history. ([Journal of the History of Economic Thought study](https://www.cambridge.org/core/journals/journal-of-the-history-of-economic-thought/article/hayek-on-aristotle-the-debris-of-a-genealogy-of-modernity-via-popper-polanyi-and-ropke/B52A904D2051895CC71562C0213FF147))
+
+### Alexis de Tocqueville
+
+- **[T1-] Documented fact:** Hayek repeatedly wrote about Tocqueville as a predecessor in analyzing democracy, centralization, and “servitude.” Hayek said the phrase behind the title *The Road to Serfdom* was adapted from Tocqueville’s “road to servitude,” making the connection explicit rather than merely thematic. ([Hayek oral history](https://static.library.ucla.edu/oralhistory/text/masters/21198-zz0008zd21-4-master.html))
+
 ## Sources
 
 https://www.nobelprize.org/prizes/economic-sciences/1974/hayek/biographical/

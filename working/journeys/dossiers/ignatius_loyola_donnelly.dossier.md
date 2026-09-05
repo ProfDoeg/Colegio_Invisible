@@ -743,6 +743,62 @@ His papers' survival is itself a major legacy. The 172-reel collection permits u
 - Documentary chain for the claim that Mark Twain financed *The Great Cryptogram*; none was found.
 - Medical documentation beyond the contemporary “heart failure” report.
 
+## Atlas Connections
+
+### Abraham Lincoln
+
+- **[T3] Documented fact:** Donnelly, while representing Minnesota in Congress, sent President Lincoln an autograph letter from Washington in May 1864. The surviving item is cataloged among Donnelly-related archival records. Donnelly later published *A Tribute to Abraham Lincoln*, establishing an additional **[T1-]** connection as a later writer about Lincoln. No consulted source establishes a close friendship or private personal meeting. [U.S. House historian](https://history.house.gov/People/Detail/12349); [SNAC archival record](https://snaccooperative.org/view/30414105)
+
+### Augustus Henry Julian Le Plongeon
+
+- **[T3] Documented fact:** Donnelly engaged directly with Le Plongeon’s published archaeological claims in *Atlantis* (1882), quoting his descriptions of Chichén Itzá, Maya language, and purported African-looking figures in Mesoamerican art as evidence for transatlantic diffusion. This was textual engagement, not evidence that the two men met or corresponded. [Donnelly’s digitized text](https://www.gutenberg.org/cache/epub/4032/pg4032.html)
+
+### Blavatsky
+
+- **[T3] Documented fact:** Helena Petrovna Blavatsky explicitly cited Donnelly and reproduced or discussed propositions from *Atlantis* in *The Secret Doctrine*, volume 2 (1888), including his proposed former land connections among Atlantis, the Americas, Africa, and Spain. This establishes one-sided written engagement during both authors’ lifetimes; no personal meeting or correspondence was located. [Blavatsky, *The Secret Doctrine*, vol. 2](https://www.theosociety.org/pasadena/sd-pdf/SecretDoctrineVol2_eBook.pdf)
+
+### Charles Darwin
+
+- **[T3] Documented fact:** Donnelly repeatedly quoted Darwin’s *The Variation of Animals and Plants under Domestication* in *Atlantis* (1882), especially its discussion of cultivated plants and cereals, and then redirected Darwin’s evidence toward his own lost-continent theory. This documents engagement with Darwin’s writing, not correspondence or a meeting. [Donnelly’s digitized text](https://www.gutenberg.org/cache/epub/4032/pg4032.html)
+
+### Christopher Columbus
+
+- **[T1-] Documented fact:** Donnelly wrote repeatedly about Columbus in *Atlantis* (1882), interpreting the 1492 voyage as the reopening of an ancient Atlantean route and discussing Columbus’s encounters, geographical ideas, and references to an earthly paradise. These statements belong to Donnelly’s speculative historical construction and do not validate the Atlantis theory. [Donnelly’s digitized text](https://www.gutenberg.org/cache/epub/4032/pg4032.html)
+
+### Edward Bellamy
+
+- **[T3] Documented fact:** Donnelly publicly praised Bellamy at the 1891 Cincinnati reform convention, describing him as an author “whom not to know is to argue one’s self unknown.” Donnelly also compared his own projected novel—published as *Caesar’s Column*—with Bellamy’s *Looking Backward* in a September 30, 1889 letter to Houghton, Mifflin & Co. This is documented one-sided literary and political engagement; no correspondence directly between Bellamy and Donnelly was located. [Christine McHugh, “Midwestern Populist Leadership and Edward Bellamy”](https://journals.ku.edu/amsj/article/download/2266/2225/2596)
+
+### Elizebeth Smith Friedman
+
+- **[T1+] Documented fact:** Elizebeth S. Friedman and William F. Friedman devoted part of *The Shakespearean Ciphers Examined* (1957) to analyzing Donnelly’s claimed Bacon cipher decades after his death. Their cryptographic assessment rejected his variable counting procedure as valid decipherment. [Folger Shakespeare Library catalog](https://catalog.folger.edu/record/52477); [Folger exhibition documentation](https://folgerpedia.folger.edu/Decoding_the_Renaissance_exhibition_material)
+
+### Francis Bacon
+
+- **[T1-] Documented fact:** Donnelly made Bacon the central historical subject of *The Great Cryptogram* (1888) and *The Cipher in the Plays, and on the Tombstone* (1899), arguing that Bacon wrote the works attributed to Shakespeare and concealed autobiographical information in them. The connection is Donnelly’s extensive writing about Bacon; the asserted cipher and authorship remain rejected theories, not a documented transmission from Bacon to Donnelly. [Folger Shakespeare Library](https://catalog.folger.edu/record/52477)
+
+### James Lewis Thomas Chalmers Spence
+
+- **[T1+] Documented fact:** After Donnelly’s death, Lewis Spence discussed Donnelly and developed his Atlantis arguments in such works as *The Problem of Atlantis* (1924), *Atlantis in America* (1925), and *The History of Atlantis* (1927). Spence retained Donnelly’s proposed cultural link between the Old and New Worlds while modifying parts of the chronology and geography. [Digitized *History of Atlantis*](https://iapsop.com/ssoc/1926__spence___history_of_atlantis.pdf); [Online Books Page bibliography](https://onlinebooks.library.upenn.edu/webbin/book/browse?c=c&index=5790&key=atlantis+in+america&type=title)
+
+### Max Müller
+
+- **[T3] Documented fact:** Donnelly quoted and discussed Max Müller’s comparative philology, mythology, translations, and classification of Aryan, Semitic, and Turanian language families throughout *Atlantis* (1882). He appropriated Müller’s scholarship to support conclusions about a common Atlantean origin that Müller himself had not advanced. No personal meeting or correspondence was located. [Donnelly’s digitized text](https://www.gutenberg.org/cache/epub/4032/pg4032.html)
+
+### Noah
+
+- **[T1-] Documented fact:** Donnelly devoted substantial sections of *Atlantis* to Noah and the biblical flood, treating Noah as an Atlantean survivor or ancestral figure and comparing Genesis with flood traditions from other cultures. This is a documented element of Donnelly’s speculative interpretation, not historical evidence for Noah or Atlantis. [Donnelly’s digitized text](https://www.gutenberg.org/cache/epub/4032/pg4032.html)
+
+### Plato
+
+- **[T1-] Documented fact:** Plato is the principal ancient figure about whom Donnelly wrote in *Atlantis* (1882). Donnelly devoted a chapter to “Plato’s History of Atlantis” and argued that the accounts in *Timaeus* and *Critias* preserved genuine history rather than philosophical narrative. The writing is documented; its historical conclusion is not accepted archaeological fact. [Donnelly’s digitized text](https://www.gutenberg.org/cache/epub/4032/pg4032.html)
+
+### William F. Friedman
+
+- **[T1+] Documented fact:** William F. Friedman and Elizebeth S. Friedman examined Donnelly’s Baconian system in *The Shakespearean Ciphers Examined* (1957). Their posthumous treatment made Donnelly a case study in non-reproducible cryptanalysis and concluded that his claimed plaintext depended on discretionary counting rules. [Folger Shakespeare Library catalog](https://catalog.folger.edu/record/52477); [Folger exhibition documentation](https://folgerpedia.folger.edu/Decoding_the_Renaissance_exhibition_material)
+
+No qualifying T2 prophecy/hyperstition, T4 proximity-only, T5 friendship or personal-meeting, or T9 shared-object connection was established with the roster. In particular, the circulated claim that Mark Twain financed *The Great Cryptogram* does not presently support an Atlas connection: no primary financial record, correspondence, meeting record, or identifiable Twain confession was located.
+
 ## Sources
 
 https://storage.googleapis.com/mnhs-finding-aids-public/library/findaids/00782.html

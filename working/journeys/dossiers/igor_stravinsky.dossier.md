@@ -438,6 +438,78 @@ The archive itself became contested property. Litigation over quotation and reve
 | 1987 | U.S. court enjoins Kobler biography for copyright infringement. |
 | 2003 | New York appellate ruling in estate/reversionary-copyright dispute. |
 
+## Atlas Connections
+
+### Abraham
+
+- **[T1-]** **Documented fact:** Stravinsky composed the sacred ballad *Abraham and Isaac* in Hebrew in 1962–63, setting Genesis 22 and dedicating the work to the people of Israel. Abraham is therefore the earlier figure about whom Stravinsky wrote musically. [Milken Archive](https://www.milkenarchive.org/artists/view/igor-stravinsky)
+
+### George Balanchine
+
+- **[T5]** **Documented fact:** Stravinsky and Balanchine met through Sergei Diaghilev’s Ballets Russes and sustained a four-decade composer–choreographer partnership, beginning with *Apollon musagète* (Paris, 1928) and continuing through *Jeu de cartes*, *Orpheus*, *Agon*, *Movements*, and numerous revivals. Their personal and professional association continued in the United States until Stravinsky’s death. [Library of Congress](https://www.loc.gov/collections/ballets-russes-de-serge-diaghilev/about-this-collection/overview.html)
+
+### Claude Debussy
+
+- **[T5]** **Documented fact:** Debussy and Stravinsky met in Paris after the 1910 première of *The Firebird* and became friends. They famously played a four-hand piano reduction of *The Rite of Spring* at Louis Laloy’s home in June 1912.
+- **[T3]** **Documented fact:** Their surviving correspondence records sustained mutual engagement from the early 1910s until Debussy’s death in 1918. Debussy discussed *Petrushka* and *The Rite of Spring* with Stravinsky, while Stravinsky later published and commented upon Debussy’s letters. [Stravinsky’s authorized conversations](https://archive.org/details/conversationswit0000stra)
+
+### Sergei Diaghilev
+
+- **[T5]** **Documented fact:** Diaghilev heard Stravinsky’s early orchestral music in Saint Petersburg in 1909, employed him to orchestrate Chopin for *Les Sylphides*, and commissioned *The Firebird*, *Petrushka*, *The Rite of Spring*, *Pulcinella*, and several other Ballets Russes works. Their relationship combined personal familiarity, artistic collaboration, patronage, and contractual conflict until Diaghilev’s death in 1929. [Library of Congress](https://www.loc.gov/collections/ballets-russes-de-serge-diaghilev/about-this-collection/overview.html)
+
+### Erik Satie
+
+- **[T5]** **Documented fact:** Stravinsky met Satie in France by 1911; their friendship became closer after World War I. Photographs place them together with Debussy, and surviving correspondence spans approximately 1912–23.
+- **[T3]** **Documented fact:** Satie sent Stravinsky affectionate letters and published essays about him, while Stravinsky praised works including *Parade* and discussed Satie in his memoirs and later conversations. A catalogued body of “Correspondence with Erik Satie: 1912–1923” survives in Stravinsky’s selected correspondence. [Contemporary Satie article on Stravinsky](https://vanityfair-staging.azurewebsites.net/article/1923/2/igor-stravinsky)
+- **[T1-]** **Documented fact:** After Satie’s death in 1925, Stravinsky wrote a retrospective characterization of him in *Chroniques de ma vie* (1935) and returned to the subject in his later dialogue books.
+
+### John F. Kennedy
+
+- **[T5]** **Documented fact:** President and Jacqueline Kennedy received Igor and Vera Stravinsky at the White House on 18 January 1962, at a dinner formally honoring the composer. [White House Historical Association](https://www.whitehousehistory.org/igor-stravinsky-at-the-white-house)
+- **[T1-]** **Documented fact:** Following Kennedy’s assassination, Stravinsky composed *Elegy for J.F.K.* in 1964, setting a memorial text by W. H. Auden.
+
+### Benito Mussolini
+
+- **[T5]** **Documented fact:** Stravinsky obtained a personal audience with Mussolini at Palazzo Venezia in Rome in October 1930. Stravinsky subsequently made admiring public statements about Mussolini and Fascist ideas of order. The meeting and praise are documented; claims that Stravinsky formally joined a Fascist party are unsupported. [Holocaust Music / ORT](https://holocaustmusic.ort.org/politics-and-propaganda/igor-stravinsky/)
+
+### Nadia Boulanger
+
+- **[T3]** **Documented fact:** Boulanger and Stravinsky began corresponding in 1929 when he asked her to supervise Soulima Stravinsky’s musical education. Their extensive family and professional correspondence continued for decades and includes advocacy, performances, editions, finances, emigration, and personal matters. [*Nadia Boulanger and the Stravinskys: A Selected Correspondence*](https://www.jstor.org/stable/j.ctvb6v5t4)
+- **[T5]** **Documented fact:** They were longstanding friends and colleagues. Boulanger promoted Stravinsky’s music, assisted his transition to the United States in 1939–40, and remained connected to the family after his death. [Cambridge University Press](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B214E157EA66B55DABA23B2331807BA9/9781108422192c15_133-142.pdf/nadia_boulanger_and_stravinsky_the_transition_to_america.pdf)
+
+### Vaslav Nijinsky
+
+- **[T5]** **Documented fact:** Stravinsky worked personally with Nijinsky during the Ballets Russes productions of *Petrushka* (1911) and especially *The Rite of Spring* (1913). Their difficult rehearsal collaboration concerned Nijinsky’s choreography and the score’s complex meters; the ballet premièred at the Théâtre des Champs-Élysées in Paris on 29 May 1913. [Library of Congress](https://www.loc.gov/collections/bronislava-nijinska/articles-and-essays/le-sacre-du-printemps/)
+
+### Nicholas Roerich
+
+- **[T5]** **Documented fact:** Stravinsky and Roerich jointly developed the scenario and ritual world of *The Rite of Spring* during 1910–13. Roerich contributed ethnographic knowledge, the libretto/scenario, and the original sets and costumes; later composer-centered accounts sometimes understated this collaboration. [Library of Congress](https://www.loc.gov/collections/bronislava-nijinska/articles-and-essays/le-sacre-du-printemps/)
+
+### Pablo Picasso
+
+- **[T5]** **Documented fact:** Stravinsky met Picasso in Italy in 1917. They became friends and Ballets Russes collaborators: Picasso designed *Pulcinella* (1920) and made several portraits of Stravinsky, including the drawing associated with the later customs “spy map” anecdote. Their personal contact and collaboration are documented; the anecdote’s precise border-official details remain a **reported fact with unstable particulars**. [Library of Congress Ballets Russes collection](https://www.loc.gov/collections/ballets-russes-de-serge-diaghilev/about-this-collection/overview.html)
+
+### Pyotr Ilyich Tchaikovsky
+
+- **[T4]** **Reported fact:** Stravinsky recalled seeing Tchaikovsky in the foyer of the Mariinsky Theatre in Saint Petersburg in 1893, shortly before Tchaikovsky’s death. No conversation is documented, so this supports proximity rather than a personal meeting.
+- **[T1-]** **Documented fact:** Stravinsky later constructed *Le Baiser de la fée* (*The Fairy’s Kiss*, 1928) as a tribute to Tchaikovsky, transforming themes from Tchaikovsky’s songs and piano pieces and dedicating the ballet to his memory.
+
+### Victoria Ocampo
+
+- **[T5]** **Documented fact:** Ocampo and Stravinsky met at Ernest Ansermet’s Paris apartment in 1932. She subsequently hosted and supported Stravinsky during his Argentine visits, including at her Beccar residence in 1936; photographs document Stravinsky, his son Soulima, and Ocampo together there. Their relationship helped promote modern music in Argentina. [La Prensa](https://www.laprensa.com.ar/Stravinsky-y-una-pasion-argentina-501084.note.aspx)
+
+### Coco Chanel
+
+- **[T5]** **Documented fact:** Chanel knew Stravinsky personally, housed his family at her Garches villa in 1920–21, and provided financial support connected with the Ballets Russes revival of *The Rite of Spring*. A sexual affair is an **allegation**, based chiefly on Chanel’s later account and neither conclusively established nor required to explain their documented patronage relationship.
+
+### Walt Disney
+
+- **[T5]** **Documented fact:** Stravinsky visited Walt Disney’s studio in December 1939 while *Fantasia* was in production and met Disney in connection with the film’s adaptation of *The Rite of Spring*. Photographs and studio history document the encounter. Stravinsky later criticized the musical alteration and animation, although he also granted Disney an option on *The Firebird* shortly after a private screening. [Walt Disney Family Museum](https://www.waltdisney.org/blog/george-balanchine-and-walt-disneys-fantasia), [Library of Congress](https://www.loc.gov/exhibits/music-and-animation/fantasia-1940.html)
+
+### Theodor W. Adorno
+
+- **[T3]** **Documented fact:** Adorno made Stravinsky the principal negative counterpart to Schoenberg in *Philosophy of New Music* and related writings, interpreting his neoclassicism as regressive and authoritarian. This is a substantial one-sided written engagement; no personal meeting or correspondence between them is established here. [Stony Brook University research record](https://researchconnect.stonybrook.edu/en/publications/igor-stravinsky-and-adorno/)
+
 ## Sources
 
 https://fondation-igor-stravinsky.org/en/

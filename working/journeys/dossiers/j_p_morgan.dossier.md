@@ -710,6 +710,42 @@ The central historical ambiguity is documentary rather than moral: Morgan repeat
 - **1924:** Pierpont Morgan Library becomes public institution.
 - **1933–35:** Glass–Steagall restructuring contributes to later separation of Morgan commercial and investment banking lineages.
 
+## Atlas Connections
+
+### Abraham Lincoln
+
+- **[T9-] Documented fact:** In 1908 Robert Todd Lincoln gave Morgan Abraham Lincoln’s autograph draft of a letter to Alexander H. Stephens. Morgan was the later custodian of this Lincoln-originated object; Robert Todd Lincoln’s accompanying letter records that he had also examined Morgan’s collection of Lincoln documents. [Morgan Library catalog](https://www.themorgan.org/literary-historical/121286)
+
+### Andrew Carnegie
+
+- **[T3] Documented fact:** Morgan and Carnegie corresponded and negotiated over the transfer of Carnegie Steel into the projected United States Steel Corporation in 1901. Carnegie’s papers identify Morgan among his correspondents, while the transaction transferred Carnegie’s company to Morgan’s combination for approximately $480 million. [Library of Congress finding aid](https://www.loc.gov/item/mm79015107/), [Library of Congress business-history guide](https://guides.loc.gov/this-month-in-business-history/november/andrew-carnegie-born)
+
+### Charles Dickens
+
+- **[T9-] Documented fact:** Morgan acquired Dickens’s autograph manuscript of *A Christmas Carol* from the London bookseller J. Pearson & Co. during the 1890s, becoming a later custodian of a manuscript created by Dickens in 1843. It remained in Morgan’s library and passed to J. P. Morgan Jr. after Morgan’s death. [Morgan Library provenance history](https://www.themorgan.org/collections/works/dickens/provenance)
+
+### Henry Clay Frick
+
+- **[T3] Documented fact:** Frick served on the U.S. Steel board as a senior adviser to Morgan and worked with him during the Panic of 1907 on U.S. Steel’s emergency acquisition of Tennessee Coal, Iron & Railroad. Frick and Elbert Gary subsequently carried the proposal to President Theodore Roosevelt in Washington. [Library of Congress historical account](https://www.loc.gov/resource/gdcmassbookdig.theodoreroosevel03bish/?sp=71), [Historic American Engineering Record](https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa2800/pa2870/data/pa2870data.pdf)
+
+### Mark Twain
+
+- **[T3] Documented fact:** Twain became friendly with the Morgan family, occasionally visited Morgan’s library in New York, and wrote Morgan from Redding, Connecticut, on 15 September 1909 after Morgan purchased the autograph manuscripts of *Life on the Mississippi* and *Pudd’nhead Wilson* directly from him for a $2,500 honorarium. Belle da Costa Greene supplied the contemporary report of Twain’s library visits. [Morgan Library catalog and exhibition record](https://www.themorgan.org/collection/Mark-Twain-A-Skeptics-Progress/22)
+
+### Nikola Tesla
+
+- **[T3] Documented fact:** Tesla corresponded with Morgan while soliciting and using Morgan’s $150,000 investment in the Wardenclyffe wireless project, beginning in 1900–1901, and during later requests for additional financing. The surviving Tesla papers explicitly catalog Morgan as a correspondent. [Library of Congress Tesla correspondence](https://www.loc.gov/item/mm82050302/), [Library of Congress finding aid](https://findingaids.loc.gov/exist_collections/ead3pdf/mss/2014/ms014047.pdf)
+
+### Thomas Edison
+
+- **[T3] Documented fact:** Morgan maintained sustained business engagement with Edison and Edison’s electrical enterprises from the late 1870s onward: he helped finance early electrical development, became a conspicuous customer by installing an Edison generating system at 219 Madison Avenue in 1882, and later helped provide the financial structure culminating in the 1892 General Electric combination. This was patron–financier and corporate discourse, not scientific collaboration. [Library of Congress](https://blogs.loc.gov/inside_adams/2014/04/john-pierpoint-morgan-banker-extraordinaire/), [Thomas Edison Papers](https://edison.rutgers.edu/research/document-sampler)
+
+### William Blake
+
+- **[T9-] Documented fact:** Morgan was the later owner of multiple objects created by Blake, including Blake-designed and engraved works purchased for his private library; a documented example was acquired by Morgan in 1909. The connection is object provenance only—Blake died in 1827, ten years before Morgan’s birth. [Morgan Library collection documentation](https://www.themorgan.org/sites/default/files/pdf/exhibitions/BelleGreeneLargePrintLabels.pdf), [Morgan Library Blake chronology](https://www.themorgan.org/collection/William-Blakes-World/chronology)
+
+No additional roster entries are included merely because Morgan collected texts about them, occupied the same broad historical milieu, or had indirect institutional ties through descendants, employees, companies, or later collections.
+
 ## Sources
 
 https://www.themorgan.org/collection/archives

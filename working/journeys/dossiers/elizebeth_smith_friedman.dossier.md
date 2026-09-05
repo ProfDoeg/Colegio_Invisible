@@ -608,6 +608,28 @@ The planned cutter *Friedman* became a posthumous irony. Naming in 2020 and fabr
 | Aug. 2021 | Huntington, Indiana, historical marker dedicated. |
 | 5 June 2025 | Coast Guard and HII cancel construction of WMSL-760 after contract dispute; no ship commissioned. |
 
+## Atlas Connections
+
+### Edgar Allan Poe
+
+- **[T1-] Documented fact:** Friedman and William F. Friedman discussed Poe’s acrostics in *The Shakespearean Ciphers Examined* (Cambridge University Press, 1957, pp. 97–98). The Friedman collection also contained Poe’s cryptographic writings, but evidence that Poe influenced Elizebeth personally—as distinct from William—is insufficient. [Friedman Collection analytical guide](https://files.4in1.ws/Rose%20Mary%20Sheldon%20-%20The%20Friedman%20Collection%20Guide.pdf)
+
+### Francis Bacon
+
+- **[T1-] Documented fact:** From her 1916 employment at Riverbank Laboratories through the jointly authored *The Shakespearean Ciphers Examined* (1957), Friedman studied Bacon’s biliteral cipher and critically evaluated claims that Bacon encoded evidence of his authorship in Shakespearean texts. The book concluded that the proposed Baconian decipherments were not cryptographically reproducible; its concealed joke, “I did not write the plays. F. Bacon,” reinforced that conclusion. [Folger Shakespeare Library exhibition documentation](https://folgerpedia.folger.edu/Decoding_the_Renaissance_exhibition_material), [Folger catalog record](https://catalog.folger.edu/record/52477)
+
+### Ignatius Loyola Donnelly
+
+- **[T1-] Documented fact:** Friedman and William F. Friedman devoted part of *The Shakespearean Ciphers Examined*—notably chapter III—to Donnelly’s nineteenth-century claim that a numerical cipher in Shakespeare revealed Francis Bacon’s authorship. They tested and rejected Donnelly’s method as cryptographically uncontrolled. [Bibliographic identification of the Donnelly chapter](https://en.wikipedia.org/wiki/Ignatius_L._Donnelly), [Folger catalog record for the Friedmans’ book](https://catalog.folger.edu/record/52477)
+
+### William Frederick Friedman
+
+- **[T5] Documented fact:** Elizebeth Smith met William Friedman at Riverbank Laboratories in Geneva, Illinois, in 1916 after drawing the staff geneticist and photographer into the Bacon-cipher investigation. Their personal and intellectual relationship developed there, and they married in Chicago on 21 May 1917; they remained married until William’s death on 2 November 1969. [NSA biographical history](https://www.nsa.gov/History/Cryptologic-History/Historical-Figures/Historical-Figures-View/Article/1623028/elizebeth-s-friedman/), [Folger exhibition documentation](https://folgerpedia.folger.edu/Decoding_the_Renaissance_exhibition_material)
+
+- **[T3] Documented fact:** The Friedmans maintained a decades-long written and scholarly exchange documented by their correspondence, working papers, and joint publications. Their formal collaborations included *Methods for the Reconstruction of Primary Alphabets* (Riverbank Publication No. 21, 1918), *The Shakespearean Ciphers Examined* (1957), and “Acrostics, Anagrams, and Chaucer” (1959). Their surviving correspondence includes letters exchanged during William’s 1918 military service and later professional and family papers. [Elizebeth Smith Friedman Collection guide](https://www.marshallfoundation.org/wp-content/uploads/2014/06/Friedman_Elizabeth.pdf), [Folger catalog record](https://catalog.folger.edu/record/52477)
+
+No additional roster member produced a sufficiently documented T1, T2, T3, T4, T5, or T9 crossing. In particular, parallel work in cryptography, intelligence, Enigma analysis, the IMF, or Shakespeare studies was not treated as a connection without evidence of writing, communication, physical proximity, personal contact, prophecy, or transmission of a specific object or site.
+
 ## Sources
 
 https://www.nsa.gov/History/Cryptologic-History/Historical-Figures/Historical-Figures-View/Article/1623028/elizebeth-s-friedman/

@@ -709,6 +709,42 @@ Later scholarship has moved from heroic summary toward a divided assessment:
 | 1967 / 1996 | David Kahn’s *The Codebreakers* establishes the standard modern biographical assessment |
 | 2005 | Kahn publishes extended rejection/reassessment of the Bulonde–Iron Mask inference |
 
+## Atlas Connections
+
+### Julius Caesar
+
+- **[T1-] Documented fact:** Bazeries discussed substitution methods associated with Julius Caesar in the historical survey opening *Les Chiffres secrets dévoilés* (Paris, 1901), explicitly classifying “Jules César” under substitution cryptography. This is a later author writing about an ancient figure, not evidence of any stronger connection. [Bazeries, *Les Chiffres secrets dévoilés*](https://upload.wikimedia.org/wikipedia/commons/0/0b/Les_chiffres_secrets_d%C3%A9voil%C3%A9s%2C_%C3%89tienne_Bazeries%2C_1901.pdf)
+
+### Blaise de Vigenère
+
+- **[T1-] Documented fact:** In *Les Chiffres secrets dévoilés* (1901), Bazeries described the *chiffre carré* as the “chiffre de Vigenère,” identified Blaise de Vigenère in a note, and analyzed methods bearing his name. The connection is textual and retrospective; no claim of direct intellectual transmission beyond Bazeries’s engagement with Vigenère’s cryptographic legacy is warranted. [Bazeries, *Les Chiffres secrets dévoilés*](https://upload.wikimedia.org/wikipedia/commons/0/0b/Les_chiffres_secrets_d%C3%A9voil%C3%A9s%2C_%C3%89tienne_Bazeries%2C_1901.pdf)
+
+### Louis XIV
+
+- **[T1-] Documented fact:** Beginning in 1891, Bazeries reconstructed the Rossignol Great Cipher from Louis XIV-era dispatches; with Émile Burgaud, he then wrote *Le Masque de fer: Révélation de la correspondance chiffrée de Louis XIV* (Paris, 1893), publishing decrypted royal correspondence and advancing the disputed Bulonde theory. The cryptanalytic reconstruction is documented; the identification of Bulonde as the masked prisoner remains a theory. [Digitized 1893 volume](https://gallica.bnf.fr/ark:/12148/bpt6k1523532j)
+
+### Napoleon Bonaparte
+
+- **[T1-] Documented fact:** Bazeries wrote *Les “Chiffres” de Napoléon pendant la campagne de 1813: Épisodes du siège de Hambourg* (Fontainebleau, 1896), analyzing Napoleon’s campaign ciphers from archival documents found at Aix-la-Chapelle, the Archives nationales, and the Dépôt de la guerre. This is a direct later-author/earlier-subject connection.
+
+### Auguste Kerckhoffs
+
+- **[T3] Documented fact:** Bazeries engaged in writing with Kerckhoffs’s cryptographic work and terminology in *Les Chiffres secrets dévoilés* (1901), within the late-nineteenth-century French debate over military cipher security. The evidence supports one-sided written engagement and membership in the same professional discourse, but not a documented personal meeting or correspondence. [Bazeries’s 1901 text](https://upload.wikimedia.org/wikipedia/commons/0/0b/Les_chiffres_secrets_d%C3%A9voil%C3%A9s%2C_%C3%89tienne_Bazeries%2C_1901.pdf)
+
+### Captain Alfred Dreyfus
+
+- **[T3] Reported fact:** Bazeries briefly addressed the Panizzardi telegram associated with the Dreyfus affair in *Les Chiffres secrets dévoilés* (1901), creating a one-sided textual connection to Dreyfus. Bazeries was attached to the Foreign Ministry when the telegram was processed in Paris in November 1894, but surviving evidence does not securely establish that he personally produced either the erroneous first decrypt or its correction; the connection should therefore not be elevated to a personal meeting or direct correspondence.
+
+### Thomas Jefferson
+
+- **[T9-] Documented fact:** Bazeries’s twenty-disk cylindrical cryptograph, presented in France in 1891, independently reproduced the central removable-disk principle of Jefferson’s earlier wheel cipher, described in the 1790s but rediscovered among Jefferson’s papers only in 1922. Sources indicate that Bazeries did not know Jefferson’s design; their connection is the shared cipher-device lineage, with Jefferson the earlier originator and Bazeries the later independent reinventer. [NSA Friedman–Callimahos technical history](https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_257/41751819079101.pdf), [museum collection history](https://onlinesammlung.museumsstiftung.de/detail/collection/f10ac0df-fc93-4aaa-b6e9-3bbd8b267d52)
+
+### William F. Friedman
+
+- **[T1+] Documented fact:** Friedman later wrote and lectured extensively about Bazeries and his cylindrical cryptograph, analyzing the device, its cryptanalytic weaknesses, its relationship to Jefferson’s wheel cipher, and its place in the ancestry of American cylinder systems. On Bazeries’s dossier, the positive sign applies because Bazeries is the earlier figure written about by Friedman. [NSA, Friedman and Callimahos, *Military Cryptanalytics*](https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_257/41751819079101.pdf), [Friedman legacy publication](https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-gpo52787/pdf/GOVPUB-D-PURL-gpo52787.pdf)
+
+No additional roster member was found to have a sufficiently documented crossing under the six permitted connection types. In particular, shared cryptographic subject matter, overlapping lifetimes, later technological resemblance, or participation in the broader Iron Mask tradition was not treated as a connection without evidence of writing, engagement, proximity, meeting, prophecy, or transmission through a specific object or site.
+
 ## Sources
 
 https://www.leonore.archives-nationales.culture.gouv.fr/ui/notice/22690

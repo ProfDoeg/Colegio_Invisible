@@ -637,6 +637,28 @@ His criminal trial became an international precedent: a former elected head of s
 | 3 July 2026 | Keiko Fujimori officially declared winner of Peru's presidential election. |
 | 28 July 2026 | Keiko inaugurated president; fujimorismo returned to executive power. |
 
+## Atlas Connections
+
+### George H. W. Bush
+
+- **[T5] Documented fact:** Fujimori met U.S. president George H. W. Bush in Washington, D.C., on **17 September 1991** for bilateral discussions concerning Peru’s economic reintegration, narcotics control, security, and democratic institutions. They met again in **San Antonio, Texas, on 26–27 February 1992**, during a regional drug-control summit. The meetings are recorded in the [George H. W. Bush Presidential Library](https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/remarks-following-discussions-president-alberto) and U.S. presidential records.
+
+### Bill Clinton
+
+- **[T5] Documented fact:** Fujimori met U.S. president Bill Clinton on several occasions. A particularly documented meeting occurred at the **White House on 9 October 1998**, when Clinton received Fujimori and Ecuadorian president Jamil Mahuad during negotiations leading to the Ecuador–Peru peace settlement. The Clinton administration’s record expressly says Clinton had met Fujimori several times and describes the October meeting’s support for a final border agreement. [Clinton White House archive](https://clintonwhitehouse6.archives.gov/1998/10/1998-10-09-press-secretary-on-presidents-fujimori-and-mahuad.html)
+
+### Fidel Castro
+
+- **[T5] Documented fact:** Fujimori made a surprise visit to **Havana on 3 March 1997** and met Fidel Castro at Cuba’s Council of State during the Japanese ambassador’s residence hostage crisis. They discussed the possibility that Cuba might receive the MRTA hostage-takers if a negotiated settlement provided for asylum; Fujimori publicly called the talks fruitful, while Cuba offered cooperation without assuming formal mediation. Fujimori and Castro were also present together at Ibero-American summits, including the **1999 Havana summit**. [Contemporary report](https://elpais.com/diario/1997/03/04/internacional/857430003_850215.html)
+
+### Susana Higuchi
+
+- **[T5] Documented fact:** Fujimori personally met and married Susana Shizuko Higuchi Miyagawa; they wed in Lima on **25 July 1974**, had four children, and appeared together throughout his rise and early presidency. Their relationship became openly adversarial after Higuchi accused his relatives of diverting Japanese donations. Fujimori removed her as first lady in **August 1994**, and the marriage subsequently ended in divorce. Higuchi later alleged that state intelligence personnel tortured her and that Fujimori bore responsibility; he denied the allegation, and no final criminal judgment established his responsibility for her alleged torture. The marriage, family relationship, political rupture, and public confrontation are documented facts; the torture claim remains an **allegation supported by testimony but not adjudicated against Fujimori**. [Contemporary account of the 1994 rupture](https://www.upi.com/Archives/1994/09/06/Fujimoris-daughter-makes-plea-to-mother/7058778824000/)
+
+### Keiko Fujimori
+
+- **[T5] Documented fact:** Keiko Sofía Fujimori Higuchi was Fujimori’s eldest daughter, political collaborator, and eventual dynastic successor. In **August 1994**, he recalled the nineteen-year-old Keiko from her studies in the United States and appointed her first lady after removing Susana Higuchi; she performed that role through the end of his government in 2000. Keiko subsequently led campaigns defending his presidential record and seeking his release, received him into her San Borja home after his **6 December 2023** release, announced with him in July 2024 that he intended to seek the presidency in 2026, and hosted him during his final illness and death on **11 September 2024**. Their familial relationship, repeated personal association, and political collaboration are documented facts. [CIDOB biography](https://www.cidob.org/lider-politico/keiko-fujimori-higuchi)
+
 ## Sources
 
 https://www.cidob.org/lider-politico/alberto-fujimori

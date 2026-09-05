@@ -560,6 +560,43 @@ Gordonia, educational institutions, streets, study circles, memorial publication
 - **2007–2024:** gender, postsecular, philosophical, anarchist, and environmental rereadings expand the canon.
 - **2024:** Yuval Jobani's *The First Jewish Environmentalist* published in print by Oxford University Press.
 
+## Atlas Connections
+
+### Ahad Ha'am
+
+- **[T3] Documented fact:** Gordon read Ahad Ha'am intensively and repeatedly engaged his cultural Zionism in writing. In 1913 he criticized the “spiritual center” thesis as insufficiently rooted in material life and labor; elsewhere he discussed Ahad Ha'am’s public conduct and acknowledged having held him in high esteem. This is documented one-sided intellectual engagement, not evidence of correspondence or friendship. [Project Ben-Yehuda](https://benyehuda.org/collections/1696/print), [Yossi Turner, *Quest for Life*](https://dokumen.pub/download/quest-for-life-a-study-in-aharon-david-gordons-philosophy-of-man-in-nature.html)
+
+### Chaim Weizmann
+
+- **[T5] Reported fact:** During Weizmann’s first visit to Palestine in 1907, he repeatedly saw Gordon and reported being profoundly impressed by “one worker named Gordon,” whom he compared to the prophet Elijah. The surviving formulation establishes personal observation and probable encounter, although the cited account does not describe a substantive private conversation. [YIVO Encyclopedia](https://encyclopedia.yivo.org/article.aspx/Gordon_Aharon_David)
+
+### Gustav Landauer
+
+- **[T3] Reported fact:** At the March 1920 Hapoel Hatzair–Tze'irei Zion conference in Prague, Gordon encountered Landauer’s writings or ideas through the conference milieu—Landauer had been murdered in 1919—and reportedly returned excited that he had “found his ideas” in Landauer. This was posthumous, one-sided textual engagement; the two could not have met. [Avraham Yassour, “Topos and Utopia in Landauer’s and Buber’s Social Philosophy”](https://www.waste.org/~roadrunner/ScarletLetterArchives/Landauer/Yassour_Topos_and_Utopia.html)
+
+### Immanuel Kant
+
+- **[T1-] Documented fact:** Gordon discussed Kant’s philosophy while developing his own account of cognition, freedom, nature, and lived experience. Scholarship reconstructs Gordon’s system as a sustained response to Kant’s restriction of experience by the categories of cognition, while distinguishing Gordon’s explicit remarks from later interpretive synthesis. [Yossi Turner, *Quest for Life*](https://dokumen.pub/download/quest-for-life-a-study-in-aharon-david-gordons-philosophy-of-man-in-nature.html)
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Gordon wrote directly about Marx and Marxism, notably in his postwar anti-Marxist polemics. He treated Marx as a powerful creative personality and accepted labor’s importance in connecting humanity with nature, but rejected historical-economic determinism and the subordination of the individual to class and collective organization. [Yossi Turner, *Quest for Life*](https://dokumen.pub/download/quest-for-life-a-study-in-aharon-david-gordons-philosophy-of-man-in-nature.html), [YIVO Encyclopedia](https://encyclopedia.yivo.org/article.aspx/Gordon_Aharon_David)
+
+### Friedrich Nietzsche
+
+- **[T1-] Documented fact:** Gordon explicitly analyzed Nietzsche, praising the force of Nietzsche’s self-creation while rejecting the *Übermensch*, the will to power, and an individuality he characterized as withdrawing into a tortoise-like shell. His surviving writings contrast Nietzsche’s powerful individual self with Gordon’s conception of selves as mutually rooted in nature. [Yossi Turner, *Quest for Life*](https://dokumen.pub/download/quest-for-life-a-study-in-aharon-david-gordons-philosophy-of-man-in-nature.html)
+
+### Theodor Herzl
+
+- **[T1-] Documented fact:** Gordon referred to Herzl in his writing on Zionist achievement and the Balfour Declaration, crediting Herzl’s labor with helping bring about international recognition while criticizing expectations that political authorization could substitute for settlement and productive work. Herzl died in 1904, before the documented passage. [Project Ben-Yehuda](https://benyehuda.org/collections/11958)
+
+### Martin Buber
+
+- **[T5] Documented fact:** Gordon and Buber were both delegates at the Hapoel Hatzair–Tze'irei Zion conference in Prague in March 1920. Scholarship on Buber identifies this conference as the only occasion on which they personally met. [Simon Rawidowicz conference history](https://www.davidnmyers.com/uploads/2/3/0/7/23074672/rawidowicz_between_babylon_and_jerusalem.pdf), [Rivka Horwitz, “Buber’s Way to *I and Thou*”](https://www.imagomundi.biz/wp-content/uploads/2022/03/RW105-Bubers_Way_to_I_and_you-Rivka_Horwitz.pdf)
+- **[T1+] Documented fact:** After Gordon’s death, Buber wrote “The True Teacher: In Memoriam A. D. Gordon” in 1923 and at least four additional essays about him, presenting Gordon as an exemplar of self-realization. Buber also devoted a section of his later historical lectures on Zion to Gordon. [Yuval Jobani, “Charismatic Seeker”](https://www.tandfonline.com/doi/pdf/10.1080/14725886.2025.2606715), [Martin Buber, *On Zion*](https://books.google.com/books/about/On_Zion.html?id=rfjV6S8ib3EC&output=html_text)
+
+No sufficiently documented crossing was found with the remaining roster members. The many possible thematic parallels, shared intellectual traditions, and cases of contemporaneous presence in Europe or Palestine were excluded because they do not independently establish one of the specified connection types.
+
 ## Sources
 
 https://encyclopedia.yivo.org/article.aspx/Gordon_Aharon_David

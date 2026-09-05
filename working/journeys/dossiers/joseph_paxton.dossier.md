@@ -602,6 +602,24 @@ Twentieth-century accounts often isolated the heroic inventor. More recent work 
 | 1911 | Crystal Palace Company declared bankrupt. |
 | 30 Nov 1936 | Sydenham Crystal Palace destroyed by fire. |
 
+## Atlas Connections
+
+### Charles Dickens
+
+- **[T3] Documented fact:** Dickens and Paxton corresponded while organizing the liberal *Daily News*. A surviving letter of 1 December 1845 discusses Paxton’s recommended Liverpool agent and their efforts to secure support for the newspaper; another, dated 26 June 1855, concerns their involvement in the Administrative Reform Association. [Charles Dickens Museum](https://www.collections.dickensmuseum.com/object-a698); [Charles Dickens Letters Project](https://dickensletters.com/letters/joseph-paxton-26-jun-1855)
+- **[T5] Documented fact:** Dickens visited Paxton’s house at Chatsworth in 1845 while Paxton was financially backing the newspaper Dickens was preparing to edit. The visit, correspondence, shared newspaper enterprise, and Dickens’s salutation “My Dear Paxton” establish a personal acquaintance rather than mere institutional proximity. [Chatsworth archival account](https://www.chatsworth.org/news-media/news-blogs-press-releases/blogs-from-the-archives/dickens-and-the-duke/)
+
+### Frederick Law Olmsted
+
+- **[T9+] Documented fact:** Paxton designed Birkenhead Park in 1843–45; Olmsted visited it in 1850 without any documented meeting with Paxton. Olmsted later published a detailed firsthand account identifying “Mr. Paxton” as the person to whom the site had been entrusted and praising the publicly accessible landscape as a model for American towns. The park is therefore a shared site originated by Paxton and encountered afterward by Olmsted. [Olmsted, *Walks and Talks of an American Farmer in England*](https://www.gutenberg.org/cache/epub/77164/pg77164-images.html); [Library of Congress](https://www.loc.gov/item/today-in-history/april-26?loclr=eatod)
+- **[T3] Documented fact:** Olmsted’s 1852 published description constitutes one-sided written engagement with Paxton’s work: he recorded the park’s construction, drainage, circulation, planting, public ownership, and financing after speaking with its working head gardener. No correspondence or personal meeting between Olmsted and Paxton was located. [Olmsted, *Walks and Talks*](https://www.gutenberg.org/cache/epub/77164/pg77164-images.html)
+
+### John Ruskin
+
+- **[T3] Documented fact:** Ruskin responded in writing to Paxton’s enlarged Crystal Palace at Sydenham in the pamphlet *The Opening of the Crystal Palace Considered in Some of Its Relations to the Prospects of Art*, issued on 22 July 1854. Ruskin stated that he learned of the opening from *The Times* while travelling in Switzerland and used Paxton’s building as the occasion for an argument about art and the preservation of historic monuments. This documents one-sided intellectual engagement with Paxton’s work, not a personal meeting. [Lancaster University’s Ruskin edition](https://www.lancaster.ac.uk/fass/ruskin/eSoV/texts/vol12/vol12p415.html); [bibliographical note](https://www.lancaster.ac.uk/fass/ruskin/eSoV/texts/vol12/vol12p416.html)
+
+The roster’s **Mayer Amschel Rothschild** (1744–1812) should not be confused with Paxton’s documented Mentmore client, his grandson and namesake **Mayer Amschel de Rothschild** (1818–1874). The elder man died before Paxton’s career began, so no atlas connection is recorded for that roster entry. [Rothschild Archive family record](https://family.rothschildarchive.org/people/39-mayer-amschel-muffy-de-rothschild-1818-1874)
+
 ## Sources
 
 https://www.chatsworth.org/news-media/news-blogs-press-releases/joseph-and-sarah-paxton-an-introduction/

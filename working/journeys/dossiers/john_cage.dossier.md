@@ -446,6 +446,45 @@ Reinterpretation has moved in several directions: technical scholars reconstruct
 | 2001 | Halberstadt *ORGAN²/ASLSP* performance begins. |
 | 2012 | Worldwide Cage centennial festivals and exhibitions. |
 
+## Atlas Connections
+
+### Anni Albers
+
+- **[T3] Documented fact:** Cage and Albers corresponded; her surviving papers contain Cage letters accompanied by macrobiotic recipes. Cage also recalled that they remained friendly after his relations with Josef Albers deteriorated. The correspondence is broadly dated within 1938–94, with the archive’s bulk dating from 1976–90. [Josef and Anni Albers Foundation](https://www.albersfoundation.org/resources/archives/josef-anni-albers-papers/anni-albers-papers/correspondence); [Smithsonian oral history](https://www.aaa.si.edu/collections/interviews/oral-history-interview-john-cage-12442)
+
+### R. Buckminster Fuller
+
+- **[T1-] Documented fact:** Cage repeatedly discussed Fuller’s ideas about world resources, technology, and “Spaceship Earth” in his later writings, especially *Diary: How to Improve the World (You Will Only Make Matters Worse)*, and composed a mesostic on Fuller’s name. A copy of *Silence* inscribed by Cage to Fuller documents the planned poem and Cage’s gratitude for Fuller’s influence. [Fuller-library catalogue, pp. 67–68](https://www.buckyverse.org/en/from_the_library_of_rbf/from_the_library_of_rbf.pdf); [John Cage Trust autobiographical statement](https://johncage.org/cage-autobiographical-statement)
+- **[T5] Documented fact:** Cage and Fuller met personally on multiple occasions. Cage’s letter of 2 July 1967 records lunch with “Bucky” in Montreal and an emotionally intense conversation; Fuller also performed the title role in Cage’s production of Satie’s *The Ruse of Medusa* at Black Mountain College in summer 1948. [University of Cincinnati dissertation quoting the 1967 letter](https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=ucin1378195094&disposition=inline); [Black Mountain College Museum](https://www.blackmountaincollege.org/?p=23999)
+
+### Erik Satie
+
+- **[T1-] Documented fact:** Cage became a sustained advocate and interpreter of Satie after the French composer’s death. At Black Mountain College in summer 1948 he organized an approximately twenty-five-concert Satie festival, conducted and performed Satie’s music, mounted *The Ruse of Medusa*, and delivered the polemical lecture “Defense of Satie”; he later published another essay, “Erik Satie,” and continued writing about Satie into the 1980s. [Black Mountain College Museum](https://www.blackmountaincollege.org/?p=23999); [Black Mountain College research essay](https://www.blackmountaincollege.org/4-11-david-patterson/)
+
+### Hanya Holm
+
+- **[T3] Documented fact:** Cage supplied the music for Holm’s choreography *Four Dances* in 1943, establishing a direct composer–choreographer crossing in New York’s modern-dance milieu. [IRCAM work record](https://ressources.ircam.fr/en/work/four-dances-1991-01-01)
+
+### James Joyce
+
+- **[T1-] Documented fact:** Cage repeatedly wrote through and about Joyce, particularly *Finnegans Wake*. His several *Writings through Finnegans Wake* used chance procedures and mesostics spelling “JAMES JOYCE”; *Writing for the Second Time through Finnegans Wake* became the vocal text and structural source for *Roaratorio: An Irish Circus on Finnegans Wake* (1979). He also created “James Joyce, Marcel Duchamp, Erik Satie: An Alphabet” in 1981. [Contemporary Music Centre Ireland](https://www.cmc.ie/features/james-joyce-and-avant-garde-music); [Google Books record for *Writing Through Finnegans Wake*](https://books.google.com/books/about/Writing_Through_Finnegans_Wake.html?id=ua-wAAAAIAAJ)
+
+### Mao Zedong
+
+- **[T1-] Documented fact:** Cage began reading Mao around 1971 and subsequently incorporated and commented upon Maoist language and ideas in his political-textual work, especially later installments of *Diary: How to Improve the World (You Will Only Make Matters Worse)*. This was selective literary and political engagement, not evidence of a meeting, correspondence, or organizational affiliation. [Wolke Verlag, including David W. Patterson’s “John Cage and the Remolding of Mao Tse-Tung”](https://www.wolke-verlag.de/en/shop/cage-consequences/); [scholarly chronology](https://s3-euw1-ap-pe-df-pch-content-store.p.s3.eu-west-1.amazonaws.com/9781315681238/3291abf9-4fd0-4ca0-ae5e-bfd1b41722fa/preview.pdf)
+
+### Merce Cunningham
+
+- **[T5] Documented fact:** Cage met Cunningham at Seattle’s Cornish School around 1938–39. They became intimate life partners in the 1940s and remained together until Cage’s death in New York in 1992. [Merce Cunningham Trust biography](https://www.mercecunningham.org/about/biography/)
+- **[T3] Documented fact:** Their documented artistic collaboration began with percussion work at Cornish and developed through their 1944 New York recital, Black Mountain College projects, and the Merce Cunningham Dance Company, for which Cage served as musical director or adviser. Their music and choreography generally shared duration and performance space while being composed independently. Cage also addressed Cunningham in letters and in *62 Mesostics re Merce Cunningham*. [Merce Cunningham Trust biography](https://www.mercecunningham.org/about/biography/); [Wesleyan University Press](https://www.weslpress.org/9780819560353/m/)
+
+### Viola Farber
+
+- **[T5] Documented fact:** Farber met Cage and Cunningham at Black Mountain College in 1952, joined the original Merce Cunningham Dance Company in 1953, and worked and toured with Cage through her departure in 1965, including the company’s 1964 world tour. [Independent obituary](https://www.independent.co.uk/arts-entertainment/obituary-viola-farber-1073440.html); [Foundation for Contemporary Arts history](https://www.foundationforcontemporaryarts.org/about/history/)
+- **[T3] Documented fact:** Farber danced in numerous Cunningham works performed with Cage’s music and was the sole woman pianist in Cage’s September 1963 New York realization of Satie’s *Vexations*, an eighteen-hour-plus relay performance. [Guardian obituary](https://www.theguardian.com/news/1999/jan/27/guardianobituaries)
+
+No T2 prophecy/hyperstition or T9 shared-object connection with the roster was found at a sufficiently documented level. Mere influence, overlapping institutions, or contemporaneous presence was not treated as a connection without evidence of writing, performance encounter, correspondence, collaboration, or personal contact.
+
 ## Sources
 
 https://johncage.org/

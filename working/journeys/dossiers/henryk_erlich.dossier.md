@@ -526,6 +526,30 @@ The opening of Soviet archives shifted Erlich from an undifferentiated "executed
 | 2006 | Victor Erlich publishes *Child of a Turbulent Century* |
 | 2026 | New histories and political debate renew attention to Erlich's Bundism and anti-Zionist writings |
 
+## Atlas Connections
+
+### David Ben-Gurion
+
+- **[T3]** **Documented fact:** In his October 1938 essay “Is Zionism a Liberating Democratic Movement?,” Erlich directly criticized public statements attributed to Ben-Gurion, arguing that Zionist calls for concentrating Jews in Palestine could reinforce antisemitic demands for Jewish emigration from Europe. This is a one-sided written engagement; no correspondence or personal meeting between them has been established. [Erlich’s essay](https://libcom.org/article/zionism-liberating-democratic-movement-reply-professor-simon-dubnow-henryk-erlich)
+
+### Albert Einstein
+
+- **[T3]** **Documented fact:** Einstein joined Philip Murray, William Green, and other prominent Americans in a telegram dated 29 January 1943 urging Soviet authorities to release Erlich and Wiktor Alter. Because Erlich had secretly died in NKVD custody on 15 May 1942, the appeal was necessarily one-sided and made without knowledge of his death. A later U.S. government file records the telegram. [FBI file concerning Einstein and the Erlich–Alter case](https://www.theblackvault.com/documents/fbifiles/einstein3.pdf)
+
+### Vladimir Medem
+
+- **[T1−]** **Documented fact:** After Medem’s death in New York in January 1923, Erlich wrote a substantial obituary for the 12 January issue of the Warsaw *Folkstsaytung*, describing Medem as a teacher, guide, and recognized leader. The obituary was later reprinted in the Erlich–Alter memorial collection. This places Erlich in the later writer role and Medem as the earlier, written-about figure. [Gertrud Pickhan’s history of the Polish Bund](https://perspectivia.net/servlets/MCRFileNodeServlet/pnet_derivate_00006536/klio_22_pickhan_bund.pdf)
+
+- **[T3]** **Documented fact:** Erlich and Medem belonged to the leadership current that shaped the Polish Bund’s accommodation to parliamentary politics after 1918. YIVO specifically groups them with Wiktor Alter and Beynish Mikhalevitsh in determining that policy. The surviving evidence establishes political and organizational engagement, although no discrete correspondence cited here has been identified. [YIVO Encyclopedia, “Erlich, Henryk”](https://encyclopedia.yivo.org/article/513)
+
+### Wiktor Alter
+
+- **[T5]** **Documented fact:** Alter was Erlich’s close political collaborator in the Polish Bund. They jointly represented the party internationally, led it during its late-1930s electoral rise, were imprisoned and released by Soviet authorities in 1939–1941, and together drafted plans for an international Jewish anti-Hitler committee. They lived and worked together at Kuibyshev’s Grand Hotel before their joint rearrest on 4 December 1941. [YIVO Encyclopedia, “Erlich, Henryk”](https://encyclopedia.yivo.org/article/513), [contemporary JTA report](https://www.jta.org/archive/soviet-government-asked-alter-and-erlich-to-lead-jewish-anti-nazi-campaign)
+
+### Ze’ev Jabotinsky
+
+- **[T3]** **Documented fact:** Following the 1936 Warsaw *kehilla* election, Erlich publicly accused Jabotinsky and other Zionist leaders of strengthening antisemitic agitation by advocating Jewish evacuation from Poland. He returned to Jabotinsky’s position in his October 1938 essay replying to Simon Dubnov, contrasting the Zionist emigration program with the Bund’s demand for equal rights in Poland. This is documented one-sided political engagement; no direct correspondence or meeting between Erlich and Jabotinsky has been established. [YIVO Encyclopedia, “Erlich, Henryk”](https://encyclopedia.yivo.org/article/513), [Erlich’s 1938 essay](https://libcom.org/article/zionism-liberating-democratic-movement-reply-professor-simon-dubnow-henryk-erlich)
+
 ## Sources
 
 https://encyclopedia.yivo.org/article.aspx/Erlich_Henryk

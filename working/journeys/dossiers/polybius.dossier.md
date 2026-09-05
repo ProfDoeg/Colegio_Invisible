@@ -540,6 +540,52 @@ The name “Polybius” now evokes both the classical historian and the unverifi
 | Renaissance–18th century | Translations and political theorists revive Book 6; mixed government and constitutional cycles enter republican debate. |
 | 19th–21st centuries | Critical editions, Walbank's commentary and newer work on empire, narrative, morality and networks make Polybius central to Hellenistic/Roman studies. |
 
+## Atlas Connections
+
+### Alexander the Great
+
+- **[T1-]** **Documented fact.** In *Histories* 8, written in the second century BCE, Polybius assesses Alexander’s conquests and attributes part of their success to the courage and discipline of the associates formed under Philip II. Alexander died at Babylon in 323 BCE, more than a century before Polybius’s birth. [Polybius, *Histories* 8](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/8%2A.html)
+
+### Archimedes of Syracuse
+
+- **[T1-]** **Documented fact.** Polybius narrates Archimedes’ defense of Syracuse against the Roman forces of Marcellus during the siege of 214–212 BCE, describing the mathematician’s artillery, cranes, and countermeasures against naval assault. Polybius was not an eyewitness; he wrote several decades after Archimedes’ death. [Polybius, *Histories* 8.3–7](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/8%2A.html)
+
+### Cicero
+
+- **[T3]** **Documented fact.** Cicero engaged with Polybius as a historical and constitutional authority in the first century BCE, after Polybius’s death. Most notably, Cicero’s treatment of Rome’s constitution in *De re publica* draws substantially on the Polybian analysis of mixed government; this is literary reception, not evidence that the two men met. [Perseus biographical and reception notice](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0104%3Aentry%3Dpolybius-bio-4)
+
+### Flavius Josephus
+
+- **[T3]** **Documented fact.** In *Jewish Antiquities* 12, composed in the 90s CE, Josephus explicitly invokes “Polybius of Megalopolis” and quotes Book 16 of the *Histories* concerning Ptolemaic general Scopas’s campaign against the Jews, probably in 201/200 BCE. This is direct one-sided textual engagement across more than two centuries. [Josephus, *Jewish Antiquities* 12](https://penelope.uchicago.edu/josephus/ant-12.html)
+
+### Hannibal Barca
+
+- **[T1-]** **Documented fact.** Polybius made Hannibal a central historical subject, particularly in *Histories* 3, reconstructing the Carthaginian’s 218 BCE passage from Iberia through Gaul and across the Alps and analyzing his command decisions during the Second Punic War. Polybius was born after the Alpine crossing and did not meet Hannibal; his connection is historiographical, based on testimony, documents, and later inspection of the route. [Polybius, *Histories* 3](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3%2A.html)
+
+### Herodotus of Halicarnassus
+
+- **[T3]** **Documented fact.** Polybius engaged with Herodotus’s geographical and ethnographic writing. A surviving fragment of *Histories* 12 explicitly compares Polybius’s own observation of the North African lotus with Herodotus’s account. This is textual engagement with a fifth-century-BCE predecessor, not a personal connection. [Polybius, *Histories* 12.2](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/12%2A.html)
+
+### Homer
+
+- **[T3]** **Documented fact.** Polybius repeatedly quotes and interprets Homer. Among the surviving examples, *Histories* 12 invokes Homeric passages while discussing historical truth and other historians’ arguments. The famous report of Scipio Aemilianus quoting Homer while Carthage burned in 146 BCE is also transmitted through Polybius, though its precise literary shaping remains uncertain. [Polybius, *Histories* 12](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/12%2A.html)
+
+### Plato
+
+- **[T3]** **Documented fact.** Polybius explicitly engages Plato’s political thought. In *Histories* 6 he compares his account of constitutional transformation with Plato’s more elaborate treatment, while in Book 12 he adapts Plato’s proposition about philosophers and kings to argue that history improves when experienced statesmen write it or historians acquire practical experience. [Polybius, *Histories* 6](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/6%2A.html), [*Histories* 12](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/12%2A.html)
+
+### Pliny the Elder
+
+- **[T1+]** **Reported fact.** Writing in the first century CE, Pliny reports that Scipio Aemilianus supplied Polybius with ships for an exploratory voyage along Atlantic Africa and summarizes geographical observations attributed to Polybius beyond Mount Atlas. Because Polybius’s relevant geographical writing is lost, Pliny is an important later witness, although the voyage’s extent remains disputed. [Pliny, *Natural History* 5.9](https://www.attalus.org/pliny/hn5a.html)
+
+### Pytheas of Massalia
+
+- **[T1-]** **Reported fact.** In the lost geographical Book 34 of the *Histories*, Polybius attacked the credibility of Pytheas’s fourth-century-BCE northern travels, including his reports about Britain, Thule, and the substance conventionally translated as “sea-lung.” The connection survives chiefly through Strabo’s later quotations and paraphrases, so the existence of Polybius’s polemic is documented while its exact original wording and context are not. [Strabo, *Geography* 2.4](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/2D%2A.html)
+
+### Strabo of Amaseia
+
+- **[T3]** **Documented fact.** Strabo’s *Geography*, composed in the late first century BCE and early first century CE, repeatedly quotes, paraphrases, and criticizes Polybius’s lost geographical Book 34. Strabo preserves Polybius’s case against Pytheas while also challenging Polybius’s own distances and geographical judgments. The relationship is entirely textual; Strabo was born around the end of Polybius’s life and there is no evidence of a meeting. [Strabo, *Geography* 2.4](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/2D%2A.html)
+
 ## Sources
 
 https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/home.html

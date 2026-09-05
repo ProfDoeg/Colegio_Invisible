@@ -490,6 +490,16 @@ The absence of evidence in these categories reflects the survival of the archive
 
 ---
 
+## Atlas Connections
+
+### Pylades of Cilicia
+
+- **[T5]** **Reported fact:** In Augustan Rome, Pylades personally trained Hylas until his pupil attained equal standing and became his professional rival. Macrobius records the relationship retrospectively in *Saturnalia* 2.7.12–19; the precise dates of the apprenticeship are unknown. [Macrobius, *Saturnalia* 2.7](https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Macrobius/Saturnalia/2%2A.html)
+- **[T3]** **Reported fact:** Pylades witnessed Hylas perform Agamemnon and Oedipus, publicly criticized his characterization in both roles, and—after the audience demanded a comparison—performed the Agamemnon passage himself. These encounters occurred in Rome during Augustus’s reign, but their dates and venues are not preserved. [Macrobius, *Saturnalia* 2.7.13–15](https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Macrobius/Saturnalia/2%2A.html)
+- **[T3]** **Documented fact, conditional identification:** CIL VI 10115 associates a Cilician Pylades and “Hylas of Salmacis” on the same ancient victory monument, where the pantomime Theoros claims to have defeated both. If its Hylas is Pylades’s pupil, the object independently places them within the same competitive circuit near Rome in the late first century BCE or first century CE; their identification as the literary pair remains probable rather than certain. [Theatrum: Pylades and CIL VI 10115](https://www.theatrum.de/2131.html)
+
+No genuine crossing with another roster member is supported. In particular, Bathyllus of Alexandria belongs to Cassius Dio’s separate account of Pylades’s rivalry; no surviving source documents a meeting, correspondence, performance encounter, friendship, or shared object between Bathyllus and Hylas.
+
 ## Sources
 
 https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Augustus%2A.html

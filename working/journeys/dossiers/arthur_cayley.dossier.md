@@ -1531,6 +1531,42 @@ Even a long dossier cannot turn missing records into facts. The following would 
 
 ---
 
+## Atlas Connections
+
+### Augustin-Louis Cauchy
+
+- **[T3] Documented fact:** Cayley’s “Note on the Theory of Permutations” (1849) explicitly connected his treatment of permutations with Cauchy’s work. This was a one-sided written mathematical engagement while both men were living; no personal meeting or correspondence is established here. [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/)
+
+### Felix Klein
+
+- **[T3] Documented fact:** Klein’s work beginning in 1871 interpreted Cayley’s 1859 projective metric in relation to non-Euclidean geometry, while archival evidence also records a letter from Cayley in Cambridge to Klein dated **31 December 1879**. The surviving exchange and Klein’s sustained published engagement support a direct discourse connection, not merely a later eponymic association. [Kalliope archival catalogue](https://kalliope-verbund.info/DE-611-HS-3390041)
+
+### George Gabriel Stokes
+
+- **[T3] Documented fact:** Cayley corresponded directly with Stokes on mathematical and Royal Society business. Surviving examples include Cayley’s letter of **24 November 1869** concerning calculations of the fundamental covariants of the binary quintic and another of **24 June 1881** concerning referee reports on mathematical papers. [Royal Society, 1869 letter](https://catalogues.royalsociety.org/CalmView/Record.aspx?id=MC%2F8%2F456&src=CalmView.Catalog), [Royal Society, 1881 letter](https://makingscience.royalsociety.org/items/rr_8_281/letter-from-arthur-cayley-to-george-gabriel-stokes-regarding-a-paper-on-toroidal-functions-by-william-mitchinson-hicks-and-two-untraced-papers-by-james-whitbread-lee-glaisher)
+
+### Henri Poincaré
+
+- **[T3] Documented fact:** At least six letters from Cayley in Cambridge to Poincaré in Paris are catalogued between **12 October 1883 and 12 January 1892**. Their openings show Cayley thanking Poincaré for papers, books, and letters, including work on Maxwell’s theories and thermodynamics; this establishes direct scholarly correspondence. [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/en/corresphp/?a=on&action=go&fn=Arthur&ln=Cayley)
+
+### James Clerk Maxwell
+
+- **[T3] Documented fact:** Maxwell wrote “To the Committee of the Cayley Portrait Fund” for the campaign surrounding Cayley’s **1874** portrait by Lowes Cato Dickinson. The poem directly celebrated Cayley’s determinants, higher-dimensional geometry, scrolls, and the twenty-seven lines on a cubic surface, constituting a documented literary engagement with Cayley and his work. [Clerk Maxwell Foundation](https://www.clerkmaxwellfoundation.org/JCMObitbyPGTait2008_2_22.pdf)
+
+### William Rowan Hamilton
+
+- **[T3] Documented fact:** Cayley attended Hamilton’s six lectures on quaternions at **Trinity College Dublin in 1848**. This is a specifically documented instance of Cayley seeing and hearing Hamilton perform his mathematical work. [Macfarlane, *Lectures on Ten British Mathematicians*](https://etc.usf.edu/lit2go/27/lectures-on-ten-british-mathematicians/272/chapter-3-sir-william-rowan-hamilton/)
+
+- **[T5] Reported fact:** Biographical sources describe Cayley as becoming personally friendly with Hamilton during his engagement with the Dublin quaternion milieu. The documented lecture attendance supports an in-person encounter, although the precise date and circumstances of their first introduction are not established by the source cited above.
+
+### William Thomson (Lord Kelvin)
+
+- **[T3] Documented fact:** Cayley and Thomson maintained substantial correspondence from at least the 1840s. Cambridge University Library identifies Cayley among Kelvin’s more frequent correspondents, and a surviving Cayley-to-Thomson letter is dated **17 August 1847**. Their letters discussed subjects including linear transformations, elliptic functions, and George Boole’s academic prospects. [Cambridge University Library](https://www.lib.cam.ac.uk/collections/departments/archives-modern-and-medieval-manuscripts-and-university-archives-40), [MacTutor correspondence extracts](https://mathshistory.st-andrews.ac.uk/Extras/Boole_Thomson_correspondence/)
+
+- **[T5] Reported fact:** Modern biographical accounts characterize Cayley and Thomson as friends, not merely correspondents. Their surviving correspondence securely establishes the relationship’s documentary basis, though the consulted sources do not date their first personal meeting. [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/)
+
+No supported T2 prophecy/hyperstition or T9 shared-object transmission was identified between Cayley and the atlas roster. Mere chronological overlap, common institutional membership, mathematical influence without identifiable written engagement, and later use of Cayley’s mathematics were excluded.
+
 ## Sources
 
 https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/

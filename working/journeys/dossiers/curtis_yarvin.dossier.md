@@ -603,6 +603,54 @@ Supporters regard him as a long-range systems thinker who identified institution
 | 2026 | Continued Gray Mirror, Urbit, LambdaConf, and Bitcoin-conference activity. |
 | 25 Aug. 2026 | Alive; present public activity continues. |
 
+## Atlas Connections
+
+### Abraham Lincoln
+
+- **[T1-] Documented fact.** Writing as Mencius Moldbug, Yarvin devoted substantial portions of the 2009 *Unqualified Reservations* series “A Gentle Introduction to Unqualified Reservations”—especially its chapter on the Civil War—to Lincoln’s speeches, political reputation, and conduct surrounding secession. Yarvin quoted Lincoln’s 1856 remarks and recommended Albert Beveridge’s revisionist biography while challenging the conventional “great man” interpretation of Lincoln. This is a documented author-to-earlier-subject connection, not evidence of personal or material continuity. ([Primary text](https://www.unqualified-reservations.org/2009/03/gentle-introduction-to-unqualified/))
+
+### Dante Alighieri
+
+- **[T1-] Documented fact, with authorship qualification.** In August 2007 Yarvin published “James Burnham’s Dante: Politics as Wish,” introducing and reproducing Burnham’s analysis of Dante’s *De Monarchia*. Yarvin described the piece as one of the greatest political essays and invited readers to respond as though Yarvin himself were its author, promising to answer for Burnham. The direct extended analysis was Burnham’s, but Yarvin’s framing and publication constitute documented writing about Dante and his political treatise. ([Primary text](https://www.unqualified-reservations.org/2007/08/james-burnhams-dante-politics-as-wish/))
+
+### Elon Musk
+
+- **[T3] Documented fact and reported fact.** Yarvin repeatedly engaged Musk in writing without having met him as of January 2025. His essays included “The Twitter Coup” (15 April 2022), “How Twitter Should Manage Identity” (12 November 2022), “Elon versus the USG” (20 October 2024), and later assessments of Musk and DOGE. In July 2025, *The New York Times* additionally reported that Musk consulted Yarvin about the proposed America Party, establishing direct communication but not a personal meeting. The consultation is reported fact; its exact medium and substantive influence remain unspecified. ([“The Twitter Coup”](https://graymirror.substack.com/p/the-twitter-coup), [“How Twitter Should Manage Identity”](https://graymirror.substack.com/p/how-twitter-should-manage-identity), [“Elon versus the USG”](https://graymirror.substack.com/p/elon-versus-the-usg), [Open to Debate summary of the reported consultation](https://opentodebate.org/curtis-yarvin-and-e-glen-weyl-debate-should-the-u-s-be-ruled-by-a-ceo-dictator/))
+
+### George Orwell
+
+- **[T1-] Documented fact.** Yarvin repeatedly invoked and discussed Orwell in *Unqualified Reservations*, using Orwellian language to analyze political euphemism, propaganda, and institutional power. Examples include his November 2007 essay on Tryfon Tolides, which quoted Orwell, and his November 2008 essay on Barack Obama, which declared that “Orwell is alive and well and living on Haight Street.” These are documented references and interpretive uses, although Orwell was not among Yarvin’s principal intellectual sources. ([Primary text, 2007](https://www.unqualified-reservations.org/2007/11/tryfon-tolides-almost-pure-empty-poetry/), [primary text, 2008](https://www.unqualified-reservations.org/2008/11/president-obama-with-little-perspective/))
+
+### Julius Caesar
+
+- **[T1-] Documented fact.** Yarvin has repeatedly written about Caesar as an historical model for concentrated personal authority and elite-popular political alignment. In his 6 November 2008 essay on Barack Obama, for example, he argued that Caesar would recognize an alliance between elite organizers and mobilized popular constituencies. His later “Caesar” vocabulary extends this historical analogy into a proposed archetype of regime transformation; it does not establish a prophetic or shared-object connection. ([Primary text](https://www.unqualified-reservations.org/2008/11/president-obama-with-little-perspective/))
+
+### Ludwig von Mises
+
+- **[T1-] Documented fact.** Yarvin discussed Mises extensively as founder of the Austrian economic school and as a major source for his own passage from conventional liberalism toward libertarian and reactionary political economy. In “A Gentle Introduction to Unqualified Reservations,” he contrasted the Mises–Rothbard tradition with Keynesian and Chicago economics. The intellectual influence is biographically reported, while Yarvin’s treatment of Mises in his published corpus is directly documented. ([Primary text](https://www.unqualified-reservations.org/pdfs/gentle_introduction_to_ur.pdf))
+
+### Marc Andreessen
+
+- **[T3] Reported fact.** Andreessen read and recommended Yarvin’s work, invested in Tlon through Andreessen Horowitz, publicly called Yarvin a “good friend,” and quoted his arguments about founder-like control of government. Yarvin and Andreessen also exchanged text messages. These facts establish reciprocal written and intellectual engagement, while investment alone would not fit the atlas taxonomy. ([*The New Yorker* profile](https://www.newyorker.com/magazine/2025/06/09/curtis-yarvin-profile))
+
+- **[T5] Reported fact.** After Andreessen invested in Tlon, the two became personally acquainted and went to brunch together, reportedly well before Andreessen’s 2024 public support for Donald Trump. The record supports friendship and repeated personal meetings, not the stronger claim that Yarvin authored Andreessen’s politics. ([*The New Yorker* profile](https://www.newyorker.com/magazine/2025/06/09/curtis-yarvin-profile))
+
+### Murray Rothbard
+
+- **[T1-] Documented fact.** Yarvin wrote about Rothbard as the figure who revitalized the Austrian school founded by Mises and treated Rothbard’s anarcho-capitalism as an important stage in his own intellectual development. His eventual neocameralism departed from Rothbard’s stateless ideal by restoring a proprietary sovereign with undivided authority. ([Primary text](https://www.unqualified-reservations.org/pdfs/gentle_introduction_to_ur.pdf))
+
+### Nick Land
+
+- **[T3] Documented fact.** Land’s 2012 serial *The Dark Enlightenment* explicitly engaged and synthesized Moldbug/Yarvin’s concepts, including the Cathedral, Patchwork, and neocameralism. Yarvin and Land subsequently became intellectual correspondents and recurring interlocutors. This supports discourse, but not the common simplification that they jointly authored a manifesto or founded a formal organization. ([Land’s *The Dark Enlightenment*](https://keithanyan.github.io/TheDarkEnlightenment.epub/TheDarkEnlightenment.pdf), [reported retrospective](https://www.newyorker.com/culture/the-lede/silicon-valleys-favorite-doomsaying-philosopher))
+
+- **[T5] Reported fact.** Yarvin and Land reportedly met in person for the first time in February 2026 at a “Nick Land Arrival/Acknowledgement Party” in San Francisco, where they appeared in conversation. The unusually late first meeting limits claims of a longstanding face-to-face collaboration. ([*The New Yorker* report](https://www.newyorker.com/culture/the-lede/silicon-valleys-favorite-doomsaying-philosopher), [contemporaneous account](https://www.vice.com/en/article/sunset-on-the-dark-enlightenment-inside-nick-lands-san-francisco-arrival-party/))
+
+### Peter Thiel
+
+- **[T3] Reported fact.** Yarvin and Thiel exchanged private correspondence and discussed politics, press strategy, and Thiel’s book *Zero to One*. Emails reviewed by *The New Yorker* show Thiel expressing concern in 2014 about public association with Yarvin and later reassuring him. Yarvin’s 2016 private claim that he was “coaching” Thiel is an allegation by Yarvin, not independent proof of direction or control. ([*The New Yorker* profile](https://www.newyorker.com/magazine/2025/06/09/curtis-yarvin-profile))
+
+- **[T5] Reported fact.** Yarvin and Thiel reportedly first met at Thiel’s San Francisco home around 2009, afterward maintaining a friendship and patron–interlocutor relationship. Yarvin attended dinners and parties in Thiel’s circle and watched the November 2016 election returns at Thiel’s home. Founders Fund’s investment in Tlon corroborates institutional proximity but is not itself a T5 connection. ([*The New Yorker* profile](https://www.newyorker.com/magazine/2025/06/09/curtis-yarvin-profile), [*Le Monde* account of the 2016 gathering](https://www.lemonde.fr/en/summer-reads/article/2025/07/22/peter-thiel-the-libertarian-billionaire-waging-war-on-government_6743617_183.html))
+
 ## Sources
 
 https://www.newyorker.com/magazine/2025/06/09/curtis-yarvin-profile

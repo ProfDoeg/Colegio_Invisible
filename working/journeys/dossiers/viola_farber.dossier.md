@@ -563,6 +563,18 @@ No evidence supports a “cult” in the religious or mass-cultural sense. There
 | 2019 | Farber-created Cunningham solos reconstructed in *Night of 100 Solos* centennial |
 | 2025 | Foundation for Contemporary Arts publicly lists recipients of annual Viola Farber Award |
 
+## Atlas Connections
+
+### John Cage
+
+- **[T5]** **Documented fact.** Farber knew and worked directly with Cage through Black Mountain College and the Merce Cunningham Dance Company. She danced to Cage’s music in works including *Minutiae* (Brooklyn, 1954), *Suite for Five* (South Bend, 1956), *Antic Meet* (New London, 1958), and the first Cunningham Museum Event (Vienna, 24 June 1964). She also joined Cage and other pianists for the first complete public performance of Erik Satie’s *Vexations* at New York’s Pocket Theatre on 9–10 September 1963. The Cunningham Trust documents their shared productions and casts: [*Minutiae*](https://www.mercecunningham.org/the-work/choreography/minutiae/), [*Suite for Five*](https://www.mercecunningham.org/the-work/choreography/suite-for-five/), [*Antic Meet*](https://www.mercecunningham.org/the-work/choreography/antic-meet/), and [Museum Event No. 1](https://www.mercecunningham.org/the-work/choreography/museum-event-no-1-events/).
+
+### Merce Cunningham
+
+- **[T5]** **Documented fact.** Cunningham was Farber’s teacher, choreographer, employer, colleague, and frequent stage partner. Farber joined the founding Cunningham company program at Black Mountain College in August 1953, remained with the company through 1965, and created roles in numerous Cunningham dances. The Cunningham Trust’s production records repeatedly place them in the same original casts, including [*Septet* at Black Mountain College on 22 August 1953](https://www.mercecunningham.org/the-work/choreography/septet/), [*Nocturnes* at Jacob’s Pillow in 1956](https://www.mercecunningham.org/the-work/choreography/nocturnes/), and [*Aeon* in Montreal in 1961](https://www.mercecunningham.org/the-work/choreography/aeon/). Farber later returned to Cunningham repertory and participated in its oral-history and reconstruction community.
+
+No comparably supported crossing was found with another atlas-roster member. In particular, the retrospective claim that Farber participated in Cage’s 1952 *Theater Piece No. 1* would potentially place her near Buckminster Fuller, but the Cunningham Trust’s documented cast does not include either Farber or Fuller; varying later recollections are insufficient to establish a connection between them.
+
 ## Sources
 
 https://www.ladancechronicle.com/dance-history-needs-to-remember-viola-farber-1931-1998/

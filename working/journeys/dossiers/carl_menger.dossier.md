@@ -610,6 +610,44 @@ Portraits, anniversary conferences, institutes named for Menger, Austrian-econom
 - The underlying renal pathology causing uremia is unspecified.
 - No primary evidence connects Menger directly to Satoshi Nakamoto; modern Bitcoin linkage is reception and analogy.
 
+## Atlas Connections
+
+### Adam Smith
+
+- **[T1-] Documented fact.** Menger repeatedly analyzed and criticized Smith’s political economy, most explicitly in *Grundsätze der Volkswirthschaftslehre* (Vienna, 1871), where he challenged Smith’s treatment of value and division of labor, and in his 1891 essay on classical political economy and modern economic policy. Recent textual and archival research confirms sustained engagement with Smith rather than a merely generic shared tradition. ([Springer](https://link.springer.com/article/10.1007/s11138-022-00595-8), [Duncker & Humblot](https://elibrary.duncker-humblot.com/article/74899/menger-vs-smith-carl-mengerrsquos-reading-of-adam-smith))
+
+### Aristotle
+
+- **[T1-] Documented fact.** Menger cited and discussed Aristotle in his methodological writing, particularly while treating the nature of the state and the classification and explanation of social phenomena. Claims that Menger was broadly an “Aristotelian economist” remain interpretive, but the underlying written engagement with Aristotle is documented. ([Econlib](https://www.econlib.org/library/NPDBooks/Dolan/dlnFMA.html?chapter_num=5))
+
+### Eugen von Böhm-Bawerk
+
+- **[T3] Documented fact.** Menger and Böhm-Bawerk exchanged detailed letters about capital and interest theory in Vienna in 1884–85. Surviving items include Menger’s letter of 13 November 1884, Böhm-Bawerk’s reply of 29 December, and Menger’s answer of 1 January 1885. Menger also publicly reviewed Böhm-Bawerk’s work and disputed his conception of capital in “Zur Theorie des Kapitals” (1888). ([Published correspondence study](https://www.researchgate.net/publication/30788523_Bohm-Bawerk%27s_first_interest_theory_with_CMenger_-_Bohm-Bawerk_correspondence_1884-85))
+- **[T1-] Documented fact.** After Böhm-Bawerk’s death in 1914, Menger wrote the memorial essay “Eugen v. Böhm-Bawerk,” published in the 1915 *Almanach der Kaiserlichen Akademie der Wissenschaften in Wien*. ([Bibliographical register](https://de.wikipedia.org/wiki/Carl_Menger))
+
+### Friedrich Schiller
+
+- **[T1-] Documented fact.** Menger wrote an article titled “Friedrich Schiller,” published in the supplement to the Viennese newspaper *Die Zeit* on 23 April 1905, during the centenary commemoration of Schiller’s death. ([Bibliographical register](https://de.wikipedia.org/wiki/Carl_Menger))
+
+### Ludwig von Mises
+
+- **[T5] Reported fact.** Menger and Mises met personally in Vienna around 1910–11, after Menger’s retirement. Accounts describe Mises visiting the older economist at his home and library while preparing *Theorie des Geldes und der Umlaufsmittel*; Menger reportedly valued the younger economist’s work. The meeting is reported in later Austrian-school biographical literature rather than established here from a surviving contemporaneous appointment record. ([Biographical account](https://www.mises.org.es/2015/11/carl-menger-pionero-de-la-teoria-empirica/))
+- **[T1+] Documented fact.** Mises later wrote about Menger as one of the small number of economists whose work made an essential contribution to the discipline and repeatedly situated his own monetary theory within the Mengerian tradition. ([Mises Institute](https://mises.org/free-market/menger-revolutionary))
+
+### Friedrich Hayek
+
+- **[T1+] Documented fact.** Hayek, who did not know Menger personally, wrote the major 1934 biographical essay “Carl Menger” and relied partly on information supplied by Menger’s son Karl. He also edited Menger’s four-volume *Gesammelte Werke* in 1933–36. ([Schumacher and Scheall](https://bookstore.emerald.com/media/preview/9781838677046-23-2.pdf), [Hayek’s biographical introduction](https://cdn.mises.org/Collected%20Works%20of%20Carl%20Menger%20%28in%20German%29%20Volume%20I_5.pdf))
+
+### Joseph Schumpeter
+
+- **[T1+] Documented fact.** Schumpeter wrote a substantial memorial assessment titled “Carl Menger,” first published in *Zeitschrift für Volkswirtschaft und Sozialpolitik* in 1921 and later included as the Menger chapter of *Ten Great Economists: From Marx to Keynes* (1951). ([Text and publication note](https://www.biknotes.com/_files/ugd/b8b6dc_d05b26db67234055b18d96c5682765be.pdf), [Google Books record](https://books.google.com/books/about/Ten_Great_Economists.html?hl=en&id=0J9dAAAAIAAJ&output=html_text))
+
+### Murray Rothbard
+
+- **[T1+] Documented fact.** Rothbard treated Menger and Böhm-Bawerk at length in his recorded history-of-economic-thought lectures, presenting Menger as the founder of the Austrian School and examining his value, price, and methodological theories. This is a posthumous intellectual engagement; no personal crossing was possible. ([Lecture transcript](https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2020/12/RothbardOnMenger_and_boehm-bawerk.pdf))
+
+No adequately documented personal, discursive, prophetic, proximity, or shared-object crossing was found between Carl Menger and the other roster members. Mere presence in Menger’s library, broad intellectual resemblance, later claims of influence, contemporaneity in Vienna, or membership in a common economic tradition were not counted without evidence satisfying one of the specified connection types.
+
 ## Sources
 
 https://archives.lib.duke.edu/catalog/menger

@@ -595,6 +595,60 @@ Nineteenth-century memorials constructed the modest, austere genius who converte
 | 1944–1950 | Sarton and Taton reopen personality, family, and archival questions; second-marriage gossip corrected |
 | 2014 | Bicentenary-era *Lettera Matematica* studies reassess life, timeline, teaching, and correspondence |
 
+## Atlas Connections
+
+### Augustin-Louis Cauchy
+
+- **[T5] Documented fact.** Lagrange visited the Cauchy family home in Paris and took a personal interest in the young Augustin-Louis Cauchy’s education, advising his father to emphasize classical languages before advanced mathematics. Cauchy later addressed a geometrical problem proposed by Lagrange concerning convex polyhedra (1811). [MacTutor biography of Cauchy](https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/)
+
+### Carl Friedrich Gauss
+
+- **[T1+] Documented fact.** Gauss discussed Lagrange as a major predecessor throughout the 1801 *Disquisitiones arithmeticae*, crediting his work in higher arithmetic and quadratic forms. Because Lagrange is the earlier figure written about, the connection is positive on this dossier. [Gauss’s discussion of his predecessors](https://mathshistory.st-andrews.ac.uk/Extras/Gauss_Disquisitiones/)
+- **[T3] Documented fact.** Lagrange and Gauss corresponded. In a letter of 31 May 1804, Lagrange praised the *Disquisitiones*, especially its final section, as placing Gauss among the foremost mathematicians. This was written contact, not evidence of a personal meeting. [CNRS, “Lagrange, comte d’Empire”](https://images-des-maths.pages.math.cnrs.fr/freeze/Lagrange-Comte-d-Empire.html)
+
+### Edmond Halley
+
+- **[T1-] Reported fact.** In autobiographical recollection preserved by Delambre, Lagrange identified a paper by the already-deceased Halley—contrasting algebraic analysis with ancient geometrical methods—as the work that awakened his interest in mathematics. Lagrange was therefore the later figure recounting and evaluating Halley’s writing. The identity of the precise paper remains debated. [Delambre’s notice in Lagrange’s collected works](https://gallica.bnf.fr/ark:/12148/bpt6k229949x/f80)
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1-] Documented fact.** Lagrange repeatedly wrote about Leibniz’s differential calculus and its historical place, including in his 1795 École normale lectures. His earliest publication also led him to recognize that part of what he believed new had already appeared in work by Leibniz and Johann Bernoulli. [Lagrange’s 1795 lectures](https://fr.wikisource.org/wiki/%C5%92uvres_de_Lagrange/Pi%C3%A8ces_diverses/Le%C3%A7ons_%C3%A9l%C3%A9mentaires_sur_les_Math%C3%A9matiques_donn%C3%A9es_%C3%A0_l%E2%80%99%C3%89cole_Normale_en_1795)
+
+### Isaac Newton
+
+- **[T1-] Documented fact.** Lagrange discussed Newton’s fluxional calculus, mechanics, gravitation, and treatment of astronomical motion in his lectures and scientific works. His *Mécanique analytique* deliberately recast the Newtonian mechanics of particles and gravitating systems into a general analytic framework. [Lagrange’s 1795 lectures](https://fr.wikisource.org/wiki/%C5%92uvres_de_Lagrange/Pi%C3%A8ces_diverses/Le%C3%A7ons_%C3%A9l%C3%A9mentaires_sur_les_Math%C3%A9matiques_donn%C3%A9es_%C3%A0_l%E2%80%99%C3%89cole_Normale_en_1795)
+
+### Joseph Fourier
+
+- **[T3] Documented fact.** Fourier attended Lagrange’s lectures at the École normale in Paris in 1795 and later left a written eyewitness description of his delivery, voice, accent, and reception by students and fellow professors. “Seeing the other perform” and the surviving written response make this a discourse connection. [MacTutor, “Fourier on his teachers”](https://mathshistory.st-andrews.ac.uk/Extras/Fourier_teachers/)
+
+### Leonhard Euler
+
+- **[T3] Documented fact.** Lagrange began corresponding with Euler in 1755 about his new variational method. Euler answered, promoted Lagrange’s election to the Berlin Academy in 1756, and engaged directly with his results. Their surviving letters establish extensive written discourse, but their movements—Euler left Berlin before Lagrange arrived in 1766—do not establish a personal meeting. [Euler Archive correspondence guide](https://eulerarchive.maa.org/correspondence/correspondents/Lagrange.html)
+
+### Napoleon Bonaparte
+
+- **[T5] Documented fact.** Bonaparte met and conversed about mathematics with Lagrange and Laplace at a gathering hosted by François de Neufchâteau in Paris in late 1797. They subsequently encountered one another through the Institut; Bonaparte later appointed Lagrange to the Sénat conservateur and conferred imperial honors on him. [Fondation Napoléon, “Napoléon et les scientifiques”](https://www.napoleon.org/histoire-des-2-empires/articles/napoleon-et-les-scientifiques-1-1779-1798/)
+
+### Pierre-Simon Laplace
+
+- **[T3] Documented fact.** Lagrange and Laplace exchanged mathematical letters from at least the 1770s onward. Fourteen letters to Lagrange and twelve from him were printed in volume XIV of the *Œuvres*, covering equations, celestial mechanics, appointments, and publications. [EUDML record for the Lagrange–Laplace correspondence](https://eudml.org/doc/203088)
+- **[T5] Documented fact.** They knew one another personally in Paris and repeatedly worked together: at the Académie/Institut, the metric commission, École normale, Bureau des longitudes, and Senate. A particularly well-recorded joint scientific occasion was the Bureau des longitudes session of 17 August 1808, when both presented complementary formulations concerning planetary elements. [Historical study of Laplace’s scientific work](https://restitutio.bcub.ro/storage/item/2024/Apr/loeuvre-scientifique-de-laplace/mdvrCDGG9WaocUIQlKhK4DF2EizlTbYbfRTqJDBL.pdf)
+
+### René Just Haüy
+
+- **[T4] Documented fact.** Haüy and Lagrange belonged to the same deliberately assembled teaching milieu at the École normale de l’an III in Paris, January–May 1795: Haüy taught physics/mineralogy while Lagrange taught mathematics before the institution’s approximately one thousand pupils. This supports institutional proximity, but no closer personal relationship is established here. [École normale supérieure history](https://www.ens.psl.eu/en/node/1007)
+
+### Siméon-Denis Poisson
+
+- **[T3] Documented fact.** Poisson’s 1806 paper on planetary stability explicitly developed consequences of Lagrange’s formulas. Lagrange was present when the work was presented and answered the problem with a renewed treatment, communicated in 1808, using variation of arbitrary constants. The linked publications constitute reciprocal scientific discourse. [Contemporary-history summary of the 1806–1808 exchange](https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Lagrange%2C_Joseph_Louis)
+
+### William Rowan Hamilton
+
+- **[T1+] Documented fact.** Hamilton’s nineteenth-century writings on dynamics explicitly treated Lagrange’s *Mécanique analytique* as a foundational predecessor while reformulating analytical mechanics through characteristic functions and what became Hamilton’s principle. Lagrange is therefore the earlier figure written about; the two could not have met, since Hamilton was born in 1805 and was eight when Lagrange died. [Royal Irish Academy account of Hamiltonian mechanics](https://www.ria.ie/hamiltons-mathematical-papers/)
+
+No adequately documented T2 prophecy/hyperstition or T9 shared-object transmission was found. The remaining roster names were omitted because the reviewed evidence supplied no qualifying crossing, or only general influence, shared subject matter, contemporaneity, or unverified anecdote.
+
 ## Sources
 
 https://www.accademiadellescienze.it/accademia/soci/Giuseppe-Luigi-Lagrange-Tournier

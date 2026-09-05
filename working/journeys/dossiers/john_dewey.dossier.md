@@ -627,6 +627,100 @@ The Center for Dewey Studies is the global documentary hub. Schools and building
 - Some family-name and child-count differences arise from early deaths, Sabino's adoption, and the later Belgian adoptions/name changes.
 - The Commission section separates its own findings, contemporary procedure disputes, later specific challenges, and the broader historical status of the Stalin trials.
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-] Documented fact:** Dewey repeatedly discussed Aristotle as an earlier theorist of experience, habit, knowledge, and education. His educational works also situated the maxim later rendered as “learning by doing” within an Aristotelian lineage; this was intellectual engagement, not personal contact.
+
+### Charles Darwin
+
+- **[T1-] Documented fact:** Dewey analyzed Darwin’s philosophical significance in the 1909 lecture “The Influence of Darwinism on Philosophy,” republished in *The Influence of Darwin on Philosophy and Other Essays* (1910). He argued that evolutionary thought displaced doctrines of fixed species, immutable ends, and permanent essences. [Internet Archive edition](https://archive.org/details/influenceofdarwi00dewe)
+
+### Diego Rivera
+
+- **[T4] Documented fact:** Dewey and Rivera occupied the same Coyoacán political milieu during the Commission hearings of 10–17 April 1937. The sessions were conducted at the Rivera–Kahlo residence where Trotsky was staying; surviving newsreel documentation identifies Dewey and Rivera’s household as part of the same episode. The available evidence establishes proximity and hospitality, but does not by itself demonstrate a substantial personal relationship. [Contemporary newsreel description](https://www.gettyimages.com.mx/detail/v%C3%ADdeo/news-flashes-from-everywhere-title-coyoacan-mexico-v%C3%ADdeos-de-noticias/531229350)
+
+### Felix Adler
+
+- **[T3] Documented fact:** Dewey and Adler corresponded; Dewey is identified among the correspondents represented in the Felix Adler papers. Their written and institutional engagement concerned ethics, education, religion, and civic reform. After Adler’s death in 1933, Dewey delivered the first annual Felix Adler Lecture, “Democracy and Education in the World of Today,” in New York on 24 October 1938. [Felix Adler papers](https://search.worldcat.org/title/458423752), [Ethical Culture history](https://ethical.nyc/pathways-to-ethical-culture-felix-adlers-philosophy-and-the-new-naturalism-of-john-dewey/)
+
+### Frida Kahlo
+
+- **[T4] Documented fact:** Kahlo and Dewey were present within the same Rivera–Kahlo household milieu in Coyoacán during the Dewey Commission hearings, 10–17 April 1937. Contemporary footage places Kahlo, Dewey, and Trotsky at the residence during the inquiry. This supports proximity, but not a documented friendship or sustained intellectual exchange. [Contemporary newsreel description](https://www.gettyimages.com.mx/detail/v%C3%ADdeo/news-flashes-from-everywhere-title-coyoacan-mexico-v%C3%ADdeos-de-noticias/531229350)
+
+### Friedrich Fröbel
+
+- **[T1-] Documented fact:** Dewey wrote about Fröbel’s kindergarten principles in *The School and Society* and other educational writings. He credited Fröbel’s recognition of constructive activity and social cooperation while criticizing the rigid symbolism and prescribed exercises associated with orthodox kindergarten practice.
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-] Documented fact:** Dewey wrote extensively about Hegel, including “From Absolutism to Experimentalism” and discussions throughout his early philosophical work. Hegel’s attack on fixed dualisms remained an acknowledged formative influence even after Dewey abandoned absolute idealism. [Dewey’s autobiographical essay](https://brocku.ca/MeadProject/Dewey/Dewey_1930.html)
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1-] Documented fact:** Dewey devoted his second book, *Leibniz’s New Essays Concerning the Human Understanding: A Critical Exposition* (1888), to Leibniz’s philosophy. The book also prompted an encouraging critical letter from William James, which Dewey acknowledged in their correspondence. [Dewey–James correspondence](https://deweycenter.siu.edu/center-information/letters/james-correspondence.php)
+
+### Henri Bergson
+
+- **[T5] Documented fact:** Dewey met Bergson in New York between 6 and 18 February 1913 during Bergson’s American visit. Barbara Levine’s documentary chronology records the meeting. [Center for Dewey Studies chronology](https://deweycenter.siu.edu/common/documents/chrono.pdf)
+
+- **[T3] Documented fact:** Dewey and Bergson corresponded, and Dewey introduced *A Contribution to a Bibliography of Henri Bergson* in 1913. He later treated Bergson alongside William James and Bertrand Russell in his 1919–20 Chinese lectures, agreeing with Bergson’s process orientation while disputing the opposition between intellect and intuition. [Center for Dewey Studies chronology](https://deweycenter.siu.edu/common/documents/chrono.pdf)
+
+### Immanuel Kant
+
+- **[T1-] Documented fact:** Dewey’s Johns Hopkins dissertation, “The Psychology of Kant” (1884), and his article “Kant and Philosophic Method” directly examined Kant. The dissertation manuscript is lost, so claims about its detailed argument rest on later descriptions rather than an extant text.
+
+### John Locke
+
+- **[T1-] Documented fact:** Dewey discussed Locke repeatedly in works on education, empiricism, liberalism, and theories of mind, notably *Democracy and Education*. He treated Locke’s environmental account of mental formation as historically important while rejecting its spectator model of knowledge and overly individualistic psychology.
+
+### Jean-Jacques Rousseau
+
+- **[T1-] Documented fact:** Dewey analyzed Rousseau’s educational naturalism in *Democracy and Education*, crediting his protest against artificial social restraints while criticizing the attempt to separate natural development from organized social education. [*Democracy and Education*](https://www.gutenberg.org/ebooks/852)
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Dewey wrote critically about Marx’s social theory, especially its account of class conflict, economic causation, and revolutionary method. He accepted the need to analyze concentrated economic power but rejected dialectical necessity and one-party revolutionary conclusions; this constitutes documented textual engagement, not personal contact.
+
+### Leon Trotsky
+
+- **[T5] Documented fact:** Dewey met Trotsky in Coyoacán, Mexico City, and personally presided over thirteen evidentiary sessions from 10 to 17 April 1937. Dewey directly questioned Trotsky about the accusations arising from the Moscow trials. [Published hearing transcript](https://www.marxists.org/archive/trotsky/1937/dewey/session12.htm)
+
+- **[T3] Documented fact:** Their exchange was recorded and published in *The Case of Leon Trotsky* (1937). Dewey subsequently participated in the commission report *Not Guilty* (1938), while explicitly rejecting Trotsky’s political doctrine; the connection was forensic and political rather than ideological alliance. [Commission transcript and report](https://www.marxists.org/history/etol/document/dewey-report/index.htm)
+
+### Mao Zedong
+
+- **[T3] Reported fact:** Mao is reported to have attended Dewey’s 1919 lecture in China on William James, Henri Bergson, and Bertrand Russell. Scholarship treats the attendance as plausible and often repeats it, but the evidence does not establish a personal meeting or correspondence between Mao and Dewey. [Historical discussion](https://shs.cairn.info/article/E_AMX_054_0137?lang=en)
+
+### Maria Montessori
+
+- **[T5] Reported fact:** Biographical accounts report that John and Evelyn Dewey met Montessori during her 1914 American visit, after an introduction through educator Margaret Naumburg. The meeting is reported in secondary biographical literature; no sustained friendship is thereby established.
+
+- **[T3] Documented fact:** Dewey discussed Montessori schools in the jointly authored *Schools of To-Morrow* (1915) and criticized features of the Montessori method in *Democracy and Education* (1916), especially its rapid movement toward adult-defined intellectual distinctions. [*Schools of To-Morrow*](https://www.gutenberg.org/files/48906/48906-h/48906-h.htm), [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/montessori-maria/)
+
+### Plato
+
+- **[T1-] Documented fact:** Dewey devoted substantial discussion in *Democracy and Education* to Plato’s educational and political philosophy. He praised Plato’s recognition that education and social order are inseparable but criticized the assignment of individuals to fixed social classes. [*Democracy and Education*](https://www.gutenberg.org/ebooks/852)
+
+### Rabindranath Tagore
+
+- **No qualifying crossing established:** Comparative scholarship explicitly reports that Dewey and Tagore never met, corresponded, or worked together. Similar educational concerns, overlapping travel destinations, and shared associates therefore do not satisfy the atlas criteria. [Oxford Handbook chapter](https://academic.oup.com/edited-volume/28239/chapter-abstract/213310922)
+
+### Thomas Jefferson
+
+- **[T1-] Documented fact:** Dewey selected and introduced Jefferson’s writings in *The Living Thoughts of Thomas Jefferson* (1940), interpreting Jeffersonian democracy as an unfinished experimental project rather than a fixed historical doctrine.
+
+### William James
+
+- **[T5] Documented fact:** Dewey and James were personal friends within the emerging American pragmatist movement. The Center for Dewey Studies expressly characterizes them as friends who respected one another’s philosophical work. [Center for Dewey Studies](https://deweycenter.siu.edu/center-information/letters/james-correspondence.php)
+
+- **[T3] Documented fact:** They corresponded repeatedly from at least the late 1880s onward. Surviving letters include Dewey thanking James for candid comments on his 1888 Leibniz book; Dewey later published the memorial essay “William James” in 1910. [Dewey–James correspondence](https://deweycenter.siu.edu/center-information/letters/james-correspondence.php), [bibliographic record](https://philpapers.org/rec/DEWWJ)
+
+### Albert Einstein
+
+- **[T3] Documented fact:** Dewey and Einstein belonged to the international network of public intellectuals mobilized through correspondence and joint appeals concerning academic freedom, war, peace, and democratic rights during the 1930s and 1940s. Historical research on Einstein’s politics identifies Dewey among the figures who knew or corresponded with Einstein. The evidence supports written engagement, but not a close friendship. [Oxford University Press](https://academic.oup.com/book/6184)
+
 ## Sources
 
 https://deweycenter.siu.edu/_common/documents/chrono.pdf

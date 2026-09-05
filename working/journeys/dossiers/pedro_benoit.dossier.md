@@ -667,6 +667,26 @@ La Plata became one of Latin America’s most cited nineteenth-century planned c
 | 2019 | Alejandro Zuccarelli Benoit publishes *Pedro Benoit, el prócer olvidado*. |
 | 2021 | New Pablo Raimondi bust installed at the La Plata Municipal Palace. |
 
+## Atlas Connections
+
+### Jules Dormal
+
+- **[T5]** **Documented fact.** Benoit and Dormal participated successively—and with overlapping design responsibility—in the Government Palace project at La Plata during the 1880s. Benoit directed the provincial Department of Engineers’ Architecture Section and the initial construction; Dormal was subsequently commissioned to redesign façades and interiors and modified portions of the existing work. This is a documented professional collaboration, although the surviving source does not establish a private friendship. [Argentine Decree 1055/2017](https://www.argentina.gob.ar/normativa/nacional/decreto-1055-2017-304920/texto)
+
+### José Hernández
+
+- **[T4]** **Documented fact.** Hernández and Benoit belonged to the same institutional milieu surrounding La Plata’s creation in 1882: Hernández, then a provincial senator, proposed the name “La Plata” and attended the foundation ceremony on 19 November, while Benoit directed or coordinated crucial surveying, planning, and construction work for the new capital. The evidence supports participation in the same provincial founding enterprise, but no personal meeting or correspondence between them has been located. [Buenos Aires Legislature cultural history](https://cultura.legislatura.gob.ar/cultura_posts/19-de-noviembre-1882-dardo-rocha-funda-la-ciudad-de-la-plata-como-nueva-capital-provincial971.html), [UNLP repository study](https://sedici.unlp.edu.ar/bitstream/handle/10915/135405/Documento_completo.pdf?sequence=1)
+
+### Le Corbusier
+
+- **[T9+]** **Documented fact.** La Plata is the shared site linking the two architects without shared occupancy. Benoit helped originate and implement the city’s 1882 plan; decades after Benoit’s death, Le Corbusier visited La Plata in 1929 and designed Casa Curutchet there beginning in 1948. The later building consciously occupies and responds to the planned urban fabric, but there is no evidence that the two men met or that Le Corbusier corresponded with Benoit. [FAPyD, “Pedro Benoit y Le Corbusier”](https://fapyd.unr.edu.ar/pedro-benoit-y-le-corbusier/), [UNESCO Le Corbusier World Heritage project](https://lecorbusier-worldheritage.org/es/la-influencia-de-la-obra-arquitectonica/argentina/)
+
+### Daniel Schávelzon
+
+- **[T1+]** **Documented fact.** Schávelzon, born after Benoit’s death, wrote a historical study of Benoit’s 1877–1878 remodeling of the University of Buenos Aires building at Moreno 350: “El primer edificio de la Universidad de Buenos Aires. La obra de Pedro Benoit y la arquitectura para la educación en el siglo XIX” (1975). Benoit therefore receives the positive sign as the earlier, written-about figure. [Museo Etnográfico Juan B. Ambrosetti, Pedro Benoit](https://museo.filo.uba.ar/pedro-benoit)
+
+No adequately documented personal crossing was found with other roster members. In particular, shared eras, architectural affinities, Masonic traditions, or later occupancy of Buenos Aires and La Plata were not treated as connections without a specific documentary bridge.
+
 ## Sources
 
 https://museo.filo.uba.ar/pedro-benoit

@@ -620,6 +620,26 @@ The tension that organized his work remains live: movement is simultaneously mec
 - **2018** — Sirotkina's archival intellectual biography.
 - **2022/23** — Talis's collected memoirs published.
 
+## Atlas Connections
+
+### Leonardo da Vinci
+
+- **[T1-]** **Documented fact:** In a historical survey of movement science, Bernstein identified Leonardo da Vinci’s sixteenth-century investigations as an early, brilliant—but institutionally discontinuous—episode in the study of human movement. The passage appears in Bernstein’s posthumously translated writings. [Feigenberg, *Nikolai Bernstein: From Reflex to the Model of the Future*](https://dokumen.pub/nikolai-bernstein-from-reflex-to-the-model-of-the-future.html)
+
+### Étienne-Jules Marey
+
+- **[T1-]** **Documented fact:** Bernstein wrote about Marey as a nineteenth-century precursor whose chronophotographic records constituted an exceptionally rich archive of movement, while arguing that the material had not yet yielded a continuing analytical research program. He also explicitly credited Marey’s use of instantaneous photography and point-tracking when explaining the technical ancestry of his own movement-recording methods. [Feigenberg, *Nikolai Bernstein: From Reflex to the Model of the Future*](https://dokumen.pub/nikolai-bernstein-from-reflex-to-the-model-of-the-future.html)
+
+- **[T9-]** **Documented fact:** During his 1929 research journey, Bernstein visited the Institut Marey in Paris, an institution created to continue and standardize the motion-recording research originated by Marey. Marey had died in 1904, so this was not shared occupancy or a personal meeting; the institute and its technical legacy are the connecting site and object tradition. [Feigenberg, *Nikolai Bernstein: From Reflex to the Model of the Future*](https://dokumen.pub/nikolai-bernstein-from-reflex-to-the-model-of-the-future.html), [Sirotkina, *Mir kak zhivoe dvizhenie*](https://dokumen.pub/978-5-89353-524-2.html)
+
+### Norbert Wiener
+
+- **[T5]** **Documented fact:** Bernstein met Wiener in Moscow during Wiener’s 1960 Soviet visit. Bernstein and Alexander Luria interpreted Wiener’s lecture; afterward Bernstein personally gave Wiener his 1935 paper “The Problem of the Interrelation of Coordination and Localization,” which developed ideas about circular regulation and feedback in movement control. The evidence supports the meeting and exchange, but not later legends that Wiener formally conceded wholesale priority for cybernetics to Bernstein. [Sirotkina, *Mir kak zhivoe dvizhenie*](https://dokumen.pub/978-5-89353-524-2.html)
+
+- **[T3]** **Documented fact:** Bernstein engaged Wiener’s published cybernetic work in his later writings, adopting Wiener’s definition of cybernetics while distinguishing machine goal-direction from the internally generated, anticipatory activity of organisms. This was a substantive written engagement, not merely a retrospective comparison imposed by later scholars. [Feigenberg, *Nikolai Bernstein: From Reflex to the Model of the Future*](https://dokumen.pub/nikolai-bernstein-from-reflex-to-the-model-of-the-future.html), [Sirotkina, *Mir kak zhivoe dvizhenie*](https://dokumen.pub/978-5-89353-524-2.html)
+
+No other roster crossing was retained: thematic resemblance, indirect intellectual affinity, institutional association, or simple contemporaneity without evidence of writing, exchange, meeting, proximity at a specific event, or transmission of a shared object/site was excluded.
+
 ## Sources
 
 https://dokumen.pub/978-5-89353-524-2.html

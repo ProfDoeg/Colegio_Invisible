@@ -436,6 +436,45 @@ The “lone genius” legacy can obscure collaboration and labor. Conversely, co
 | 1937 | Ève Curie publishes *Madame Curie*. |
 | 20 Apr 1995 | Marie and Pierre transferred to the Panthéon. |
 
+## Atlas Connections
+
+### Albert Einstein
+
+- **[T3] Documented fact.** Curie and Einstein corresponded from 1911 to 1932 about scientific questions and their shared work on the League of Nations’ International Committee on Intellectual Cooperation. Their correspondence includes Einstein’s supportive 1911 letter during the Langevin press scandal. They also participated together in the 1911 and 1927 Solvay physics conferences in Brussels. The surviving letters are characterized by the Polish Academy of Sciences as evidence of a two-decade personal and intellectual friendship. ([Polish Academy of Sciences](https://paris.pan.pl/en/events/maria-sklodowska-curie-%C2%B7-albert-einstein-lettres-1911-1932/), [Solvay Institutes](https://solvayinstitutes.be/conference/30th-solvay-conference-on-physics/))
+
+### Auguste Rodin
+
+- **[T5] Documented fact.** Loïe Fuller brought Marie and Pierre Curie to Rodin’s studio at Meudon in April 1902, according to Fuller’s contemporary autobiographical account; an archival letter also records Fuller arranging another studio visit by Marie Curie. The Musée Rodin’s correspondence catalogue independently lists Marie Curie among Rodin’s correspondents. ([Musée Rodin](https://www.musee-rodin.fr/recherche/fonds-patrimoniaux-et-documentaires-du-musee/fonds-historiques-et-archives-institutionnelles/fonds-historique/correspondants-de-rodin), [documentary summary and archival references](https://lizleeheinecke.com/when-loie-met-marie-marie-curie-and-loie-fuller-fullers-documented-interactions/))
+
+### Henri Poincaré
+
+- **[T5] Documented fact.** Poincaré was among Curie’s teachers at the Paris Faculty of Sciences and later a scientific colleague. They were together at the first Solvay Conference at Brussels in 1911. Poincaré also participated in the 1903 Nobel nomination process involving Pierre Curie and Henri Becquerel, a process that initially risked excluding Marie. ([Nobel Prize](https://www.nobelprize.org/prizes/lists/marie-and-pierre-curie-and-the-discovery-of-polonium-and-radium/), [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/))
+
+### Loïe Fuller
+
+- **[T3] Documented fact.** Fuller and Curie maintained correspondence concerning visits, performances, radium and lighting experiments, personal support, and Ève Curie’s musical development. A surviving 1904 Curie letter concerns an invitation to Fuller’s home, while the NYPL Loie Fuller collection preserves further correspondence through the 1920s. Pierre and Marie also saw Fuller perform, satisfying the performance component of T3. ([Musée Curie](https://curiotheque.musee.curie.fr/s/fr/item/16893), [New York Public Library](https://archives.nypl.org/dan/19645))
+- **[T5] Documented fact.** The archival record supports a sustained personal friendship, including visits and Fuller’s supportive letter to Curie during the November 1911 scandal. The NYPL finding aid explicitly identifies Marie Curie as one of Fuller’s friends. Claims that they jointly created a literal radium-coated dance remain mythologized embellishments, not an additional documented connection. ([New York Public Library](https://archives.nypl.org/dan/19645))
+
+### Niels Bohr
+
+- **[T3] Documented fact.** The Niels Bohr Scientific Correspondence archive identifies Marie Curie among Bohr’s correspondents. They also participated in the fifth Solvay Physics Conference, held in Brussels on 24–29 October 1927, where both took part in discussions of the new quantum mechanics. ([Niels Bohr Archive](https://archon.nbi.dk/?id=1&p=collections%2Ffindingaid&rootcontentid=43225), [Solvay Institutes](https://solvayinstitutes.be/conference/30th-solvay-conference-on-physics/))
+
+### Paul Dirac
+
+- **[T4] Documented fact.** Curie and Dirac were both participants in the fifth Solvay Physics Conference in Brussels, 24–29 October 1927. The conference record establishes shared attendance and participation in its discussions, but the sources consulted do not by themselves establish a separate friendship or correspondence. ([Solvay Institutes](https://solvayinstitutes.be/conference/30th-solvay-conference-on-physics/))
+
+### Werner Heisenberg
+
+- **[T4] Documented fact.** Curie and Heisenberg attended the fifth Solvay Physics Conference in Brussels, 24–29 October 1927. Heisenberg was associated with one of the conference’s principal reports, while Curie participated in the ensuing discussions; this supports proximity in a defined scientific meeting, not necessarily a personal relationship. ([Solvay Institutes](https://solvayinstitutes.be/conference/30th-solvay-conference-on-physics/))
+
+### Erwin Schrödinger
+
+- **[T4] Documented fact.** Curie and Schrödinger attended the fifth Solvay Physics Conference in Brussels, 24–29 October 1927. Schrödinger delivered one of the meeting’s principal reports, and Curie participated in the conference discussions. No stronger personal connection is established here. ([Solvay Institutes](https://solvayinstitutes.be/conference/30th-solvay-conference-on-physics/))
+
+### Wolfgang Pauli
+
+- **[T4] Documented fact.** Curie and Pauli were present at the fifth Solvay Physics Conference in Brussels, 24–29 October 1927. Their inclusion in the documented participant group establishes a shared scientific milieu and physical proximity, but not on its own correspondence or friendship. ([Solvay Institutes archival history](https://solvayinstitutes.be/wp-content/uploads/2025/08/Annual_report-2018.pdf))
+
 ## Sources
 
 https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/

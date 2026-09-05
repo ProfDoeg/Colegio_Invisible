@@ -531,6 +531,32 @@ The formula “Wigman’s lineage carried to its tragic solo end” captures one
 - No evidence found supports formal KPD, SED, or NSDAP membership; absence from accessible records is not proof that no undiscovered record exists.
 - A definitive work catalogue would require reconciling every program, notebook, revised title, and group/solo version in Collection 001.
 
+## Atlas Connections
+
+### Mary Wigman
+
+- **[T5] Documented fact:** Hoyer worked directly with Wigman as a member of her *Tanzgesänge* ensemble from September 1935 through its 1935–36 tour. Wigman later facilitated Hoyer’s invitation to the 1957 American Dance Festival and cast her as the Chosen One in the Berlin production of *Le Sacre du printemps*, premiered at the Theater des Westens on 24 September 1957. Their documented relationship was that of company director and dancer, later advocates and collaborators—not Hoyer as Wigman’s pupil. [German Dance Archive](https://www.deutsches-tanzarchiv.de/archiv/nachlaesse-sammlungen/h/dore-hoyer/), [Frank-Manuel Peter dissertation](https://refubium.fu-berlin.de/handle/fub188/7840)
+- **[T1-] Documented fact:** Hoyer, the later-born figure, wrote about Wigman in *Ein Leben für den Tanz. Zu Mary Wigmans 65. Geburtstag* (1951) and *Dank an Mary Wigman* (1956). [Dissertation bibliography of Hoyer’s writings](https://refubium.fu-berlin.de/bitstream/handle/fub188/7840/08_kap8910.pdf?isAllowed=y&sequence=9)
+
+### Martha Graham
+
+- **[T5] Documented fact:** During Hoyer’s six-week participation in the tenth American Dance Festival at Connecticut College, New London, in 1957, she worked with leading American dancers and studied methods including Graham’s. The German Dance Archive’s biography expressly names Graham, Doris Humphrey, and José Limón; the available online record does not specify the precise class-by-class or conversational form of Hoyer’s personal contact with Graham. [German Dance Archive](https://www.deutsches-tanzarchiv.de/archiv/nachlaesse-sammlungen/h/dore-hoyer/)
+- **[T1-] Documented fact:** After the festival and visits to New York studios, Hoyer published “New York – Hochburg des ‘Modern Dance’. Eindrücke aus amerikanischen Tanz-Studios” in 1957. The archive catalogue indexes this authored text under both Hoyer and Graham, documenting Hoyer’s written engagement with the earlier-born choreographer. [German Dance Archive catalogue record](https://faust.sk-kultur.de/hzeig.FAU?desk=%230000027B%23&dm=1&sid=028B38FC111730&thes=1), [bibliographic record](https://refubium.fu-berlin.de/bitstream/handle/fub188/7840/08_kap8910.pdf?isAllowed=y&sequence=9)
+
+### Doris Humphrey
+
+- **[T5] Documented fact:** Hoyer encountered Humphrey’s methods and, according to the German Dance Archive, worked with leading American dancers including Humphrey during the six-week 1957 American Dance Festival in New London. That year’s festival was dedicated to Humphrey and included a Humphrey premiere, placing the encounter within a specifically documented festival program rather than merely the broader American modern-dance milieu. [German Dance Archive](https://www.deutsches-tanzarchiv.de/archiv/nachlaesse-sammlungen/h/dore-hoyer/), [American Dance Festival timeline](https://americandancefestival.org/wp-content/uploads/2022/02/7-ADF-Timeline.pdf)
+
+### José Limón
+
+- **[T5] Documented fact:** Hoyer made direct professional contact with Limón during her 1957 American visit. The German Dance Archive says that she worked with leading American dancers and learned methods including Limón’s during the six-week American Dance Festival; the surviving summary does not describe a continuing collaboration after 1957. [German Dance Archive](https://www.deutsches-tanzarchiv.de/archiv/nachlaesse-sammlungen/h/dore-hoyer/)
+
+### Hanya Holm
+
+- **[T1-] Documented fact:** Hoyer’s 1957 article “New York – Hochburg des ‘Modern Dance’,” written after her American Dance Festival participation and New York studio visits, is catalogued in her archive with Holm among its indexed persons. This supports written engagement by Hoyer with the earlier-born Holm, but the accessible catalogue record alone does not establish that they personally met. [German Dance Archive catalogue record](https://faust.sk-kultur.de/hzeig.FAU?desk=%230000027B%23&dm=1&sid=028B38FC111730&thes=1)
+
+No further roster crossings met the required threshold. In particular, Hoyer’s indirect Dalcroze-derived training does not document a meeting with Émile Jaques-Dalcroze; scholarly comparisons with Valeska Gert, Vera Skoronel, and Merce Cunningham do not establish interaction; and dancing to Igor Stravinsky’s score does not by itself fit the specified connection types.
+
 ## Sources
 
 https://www.deutsches-tanzarchiv.de/archiv/nachlaesse-sammlungen/h/dore-hoyer/

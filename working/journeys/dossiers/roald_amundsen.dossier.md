@@ -1787,6 +1787,26 @@ The opening of diaries and detailed museum research has replaced the image of th
 
 ---
 
+## Atlas Connections
+
+### Robert Falcon Scott
+
+- **[T1-]** **Documented fact:** Amundsen wrote extensively about Scott’s earlier Antarctic expeditions, methods, planned route, and competing South Pole enterprise in *The South Pole* (1912). He compared their transport systems and defended his decision to establish a separate route from the Bay of Whales. [Amundsen’s *The South Pole*](https://www.gutenberg.org/files/4229/4229-h/4229-h.htm)
+- **[T3]** **Documented fact:** From Madeira in October 1910, Amundsen sent Scott the telegram announcing that *Fram* was proceeding to Antarctica. At Polheim on 18 December 1911, he left Scott a directly addressed note asking him to forward Amundsen’s enclosed letter to King Haakon VII if the Norwegian party failed to return. Scott received and preserved both communications. [PBS, “Tragedy at the Pole”](https://www.pbs.org/wnet/secrets/tragedy-at-the-pole-background/7101/)
+- **[T9+]** **Documented fact:** Amundsen’s party erected the Polheim tent at the South Pole in December 1911 and left records and letters inside it. Scott’s party reached the site on 17 January 1912, entered the tent, and took possession of the documents. The tent and its contents therefore passed between the two expeditions without Amundsen and Scott ever sharing the site.
+
+### Ernest Shackleton
+
+- **[T1-]** **Documented fact:** Amundsen devoted a substantial portion of *The South Pole* (1912) to Shackleton’s *Nimrod* expedition, describing its route, equipment, scientific program, and 1909 farthest-south journey. He characterized Shackleton’s achievement as exceptionally courageous while also using its transport experience as a technical comparison for his own plans. [Amundsen’s *The South Pole*](https://www.gutenberg.org/cache/epub/3414/pg3414-images.html)
+
+### Benito Mussolini
+
+- **[T5]** **Documented fact:** Amundsen met Mussolini at the Palazzo Diotti in Milan on 7 April 1924 while negotiating Italian participation and aircraft support for a projected Arctic flight. Museum documentation also records another meeting connected with the 1926 *Norge* expedition. [Roald Amundsen’s House, “The Plan 1925”](https://mia.no/roaldamundsen/en/the-plan-1925), [Fram Museum, *Norge* flight](https://frammuseum.no/polar-history/expeditions/the-norge-flight-1926/)
+- **[T3]** **Documented fact:** Their engagement included written and contractual exchange: Amundsen and Mussolini signed the agreement governing the Italian airship’s participation in the *Norge* enterprise, while Mussolini also gave Amundsen a portrait bearing a personal inscription.
+- **[T9-]** **Documented fact:** At their April 1924 Milan meeting, Mussolini presented Amundsen with the signed portrait. It remained at Amundsen’s Uranienborg home and is preserved as object RA 0662, making Amundsen the later recipient in this object-mediated connection. [Roald Amundsen’s House object record](https://amundsen.mia.no/resource/fotografi-signert-benito-mussolini/)
+
+No additional roster crossings were identified that met the required evidentiary threshold; mere contemporaneity, thematic similarity, namesakes, and later joint commemoration were excluded.
+
 ## Sources
 
 https://frammuseum.no/polar-history/explorers/roald-amundsen-explorer/

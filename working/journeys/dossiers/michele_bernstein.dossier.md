@@ -501,6 +501,32 @@ No state decoration, literary prize, academic appointment, or official honor for
 | 2024 | Sits for two portraits by Jean-Philippe Delhomme in Paris. |
 | 24 Aug 2026 | No reliable death notice located; presumed living, aged 94. |
 
+## Atlas Connections
+
+### Albert Camus
+
+- **[T3] Documented fact.** Bernstein and J. Fillon signed “Un dernier mot” in *Potlatch* no. 24 (24 November 1955), a polemical notice criticizing Camus and *L’Homme révolté*. This establishes one-sided written engagement, not a personal meeting. [Digitized *Potlatch*, pp. 96–97](https://www.axellerossini.fr/wp-content/uploads/2019/07/IL_Potlatch_AR.pdf)
+
+### André Breton
+
+- **[T3] Documented fact.** Bernstein and Breton were named signatories of the joint Surrealist–Lettrist International tract *Ça commence bien!* in Paris in 1954; the Bibliothèque nationale de France catalogs Bernstein among the Lettrist signatories and Breton among the Surrealists. They also both signed the September 1960 *Manifesto of the 121* opposing the French war in Algeria. These shared texts document political-literary alignment on particular statements, but not friendship or a personal meeting. [BnF catalog record](https://catalogue.bnf.fr/ark:/12148/cb352843434), [manifesto history and signatories](https://en.wikipedia.org/wiki/Manifesto_of_the_121)
+
+### Guy Debord
+
+- **[T5] Documented fact.** Bernstein met Debord in the Saint-Germain-des-Prés Lettrist milieu in 1952, married him on 17 August 1954, co-founded the Situationist International with him at Cosio d’Arroscia in July 1957, and remained his intimate and organizational collaborator until their separation and eventual divorce on 5 January 1972. They continued meeting and exchanging material until their definitive personal rupture in 1973. [Bernstein interview](https://www.frieze.com/article/game-0), [Michèle Bernstein Papers finding aid](https://ead-pdfs.library.yale.edu/11499.pdf)
+- **[T3] Documented fact.** Their written discourse includes jointly signed Lettrist texts, Debord’s surviving letters and twenty-two poems addressed to Bernstein, Bernstein’s corrections to his *Contre le cinéma*, and two later postcards from Debord. These materials are preserved in the Michèle Bernstein Papers at Yale. [Yale archival description](https://archives.yale.edu/repositories/11/resources/11499)
+
+### Jean-Paul Sartre
+
+- **[T3] Documented fact.** Bernstein and Sartre were both signatories of the *Manifesto of the 121*, published in Paris on 6 September 1960. This is a shared written political intervention rather than evidence of correspondence or personal acquaintance. [Manifesto text, history, and signatories](https://en.wikipedia.org/wiki/Manifesto_of_the_121)
+- **[T3] Reported fact.** Patrick Straram’s participant memoir reports that Bernstein traveled to Le Havre in August 1952 to revisit locations underlying Sartre’s *La Nausée*. Her early nickname “Ivich” was also borrowed from Sartre’s *Les Chemins de la liberté*. These facts document literary engagement with Sartre’s fiction, not a meeting with him.
+
+### Simone de Beauvoir
+
+- **[T3] Documented fact.** Beauvoir and Bernstein both signed the September 1960 *Manifesto of the 121* supporting the right to refuse participation in the Algerian War. No evidence located establishes correspondence, friendship, or a personal meeting between them. [Manifesto history and signatory list](https://en.wikipedia.org/wiki/Manifesto_of_the_121)
+
+No further roster connection was located that met the required evidentiary threshold. In particular, Bernstein’s general Marxism and occasional published references to figures such as Karl Marx do not, without a substantial identifiable treatment or direct exchange, establish an additional Atlas connection.
+
 ## Sources
 
 https://www.frieze.com/article/game-0

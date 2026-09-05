@@ -560,6 +560,97 @@ Solinus's legacy is not that he originated the dog-headed, headless, one-footed,
 | 2023 | Arwen Apps publishes *Collection of Marvellous Things* in modern English. |
 | Present | Solinus is studied as a geographer, compiler, paradoxographer, textual tradition, and conduit between ancient natural history and medieval world-making. |
 
+## Atlas Connections
+
+### Adam of Bremen
+
+- **[T3] Documented fact:** Adam’s *Gesta Hammaburgensis ecclesiae pontificum*, completed at Bremen around 1075–1080, explicitly invokes Solinus in its northern geography—for example, Book IV’s account of Thule’s seasonal light—and elsewhere adapts Solinian ethnography. This is one-sided written engagement by Adam with Solinus centuries after Solinus’s death. [Medieval Nordic Literature database](https://medieval.wiki.uib.no/index.php?title=Adam_Bremensis); [scholarly overview of the *Gesta* and its sources](https://api.pageplace.de/preview/DT0400.9781000610383_A43003981/preview-9781000610383_A43003981.pdf)
+
+### Aeneas
+
+- **[T1-] Documented fact:** Solinus writes extensively about the legendary Trojan Aeneas in *Collectanea* 1.3 and 2.13–16, reporting his descent, arrival with six hundred companions on the Italian coast, settlement near Laurentum, rule with Latinus, disappearance at the Numicius, and subsequent title *Pater Indiges*. The connection is textual; the underlying events are inherited mythic or legendary reports, not independently documented biography. [Solinus, *Collectanea* 1.3; 2.13–16](https://topostext.org/work/747)
+
+### Alexander the Great
+
+- **[T1-] Documented fact:** Solinus gives Alexander a compact historical portrait in *Collectanea* 9.18–19 and repeatedly discusses his conquests, foundations, Indian expedition, association with Bucephalus, and victory over Darius at Arbela. Alexander died at Babylon in 323 BCE; Solinus wrote several centuries later, so this is a later author writing about an earlier ruler. [Solinus, *Collectanea* 9.18–19, 45.8–10, 46.1, 48.2–4, 49.3–5, 52.2–7](https://topostext.org/work/747)
+
+### Archimedes of Syracuse
+
+- **[T1-] Documented fact:** In his description of Sicily, Solinus identifies Syracuse as the home of Archimedes and characterizes him as an astronomically learned engineer and maker of siege engines (*Collectanea* 5.13). Archimedes died during Rome’s capture of Syracuse in 212 BCE. [Solinus, *Collectanea* 5.13](https://topostext.org/work/747)
+
+### Aristotle
+
+- **[T1-] Documented fact:** Solinus names Aristotle as one of Alexander the Great’s teachers in *Collectanea* 9.19. The statement concerns a fourth-century-BCE figure and is part of Solinus’s later account of Macedonian history. [Solinus, *Collectanea* 9.18–19](https://topostext.org/work/747)
+- **[T3] Documented fact:** Solinus explicitly invokes Aristotle as an authority for the two-year gestation of elephants and the sight of newborn lions in *Collectanea* 25.8 and 27.13. Whether these notices came directly from Aristotle or through Pliny or another intermediary remains a source-critical question. [Solinus, *Collectanea* 25.8; 27.13](https://topostext.org/work/747)
+
+### Augustine of Hippo
+
+- **[T3] Theory:** Augustine’s discussion of monstrous peoples and *curiosior historia* in *City of God* 16.8 closely intersects with Solinus’s catalogue of Sciapods and other extraordinary human races. Modern scholarship treats direct use of Solinus as possible but disputes older assumptions that every parallel proves borrowing; the connection is therefore a documented textual parallel but only a theory of direct one-sided engagement by Augustine. [Karin Schlapbach, “Solinus’ *Collectanea rerum memorabilium* and Augustine’s *curiosa historia*”](https://dokumen.pub/solinus-new-studies-3938032863-9783938032862.html)
+
+### Cicero
+
+- **[T3] Documented fact:** Solinus names “Marcus Tullius” alongside Pomponius Atticus as an authority for dating Rome’s foundation to the third year of the sixth Olympiad (*Collectanea* 1.27). This is one-sided engagement with a position attributed to Cicero; the precise route by which it reached Solinus is not established by the passage. [Solinus, *Collectanea* 1.27](https://topostext.org/work/747)
+
+### Cleopatra VII
+
+- **[T1-] Documented fact:** While cataloguing Egyptian snakes, Solinus invokes Cleopatra as the famous witness that the asp called *hypnale* could be procured as an instrument of death (*Collectanea* 27.31–32). The allusion transmits the ancient death-by-asp tradition rather than providing independent evidence for Cleopatra’s death in 30 BCE. [Solinus, *Collectanea* 27.31–32](https://topostext.org/work/747)
+
+### Ctesias of Cnidus
+
+- **[T3] Documented fact:** Solinus expressly attributes to “the works of Ctesias” his report about Indian peoples whose hair changes color in a reversed pattern of aging (*Collectanea* 52.28). Because much Ctesian material may have reached Solinus through Pliny, this documents engagement with Ctesias’s textual tradition, not necessarily direct consultation of a complete Ctesian manuscript. [Solinus, *Collectanea* 52.28](https://topostext.org/work/747)
+
+### Cyrus the Great
+
+- **[T1-] Documented fact:** Solinus places Cyrus among the conquerors who erected frontier altars near Sogdiana and later locates what he calls Cyrus’s tomb in the region adjoining Parthia and Persia (*Collectanea* 49.3–4; 55.2). The geographical claims are reported ancient tradition. [Solinus, *Collectanea* 49.3–4; 55.2](https://topostext.org/work/747)
+
+### Hannibal Barca
+
+- **[T1-] Documented fact:** Solinus refers to Hannibal’s Italian campaigns, the place called “Hannibal’s Camp,” and his final exile and tomb at Libyssa in Bithynia (*Collectanea* 1.105, 2.23, 42.3). These passages constitute a later written account of the Carthaginian commander, who died around 183–181 BCE. [Solinus, *Collectanea* 1.105; 2.23; 42.3](https://topostext.org/work/747)
+
+### Herodotus
+
+- **[T1-] Documented fact:** In his catalogue of eminent intellectuals from Asia Minor, Solinus lists Herodotus among the region’s historians (*Collectanea* 40.6). No direct quotation or unmistakable claim of consultation accompanies the notice, so the evidence supports a T1 mention but not a secure T3 source relationship. [Solinus, *Collectanea* 40.6](https://topostext.org/work/747)
+
+### Hesiod
+
+- **[T1-] Documented fact:** Solinus writes that 138 years separated Homer and Hesiod and dates Hesiod’s death to the beginning of the first Olympiad (*Collectanea* 40.17). These chronological assertions are reported ancient tradition rather than independently verifiable facts. [Solinus, *Collectanea* 40.16–17](https://topostext.org/work/747)
+
+### Homer
+
+- **[T1-] Documented fact:** Solinus discusses Homer’s alleged use of Sibylline verses, reputed tomb and homeland, death date, and chronological relationship to Hesiod (*Collectanea* 2.18, 11.17, 40.16–17). The biographical details belong to contested ancient Homeric traditions. [Solinus, *Collectanea* 2.17–18; 11.17; 40.16–17](https://topostext.org/work/747)
+- **[T3] Documented fact:** Solinus engages Homer as a textual geographical authority, noting Homer’s designation of Thessaly as “Pelasgian Argos,” his celebration of Olympus, and his name for Aenaria (*Collectanea* 8.1, 8.5–6, 2.41). This is one-sided written engagement, although Solinus’s immediate textual intermediaries cannot always be established. [Solinus, *Collectanea* 2.41; 8.1–6](https://topostext.org/work/747)
+
+### Julius Caesar
+
+- **[T1-] Documented fact:** Solinus credits Gaius Julius Caesar with reforming the Roman calendar, records Caesar’s exhibition of a giraffe at Rome, describes his remarkable horse, and mentions a pearl breastplate dedicated in the temple of Venus Genetrix (*Collectanea* 1.45–47, 30.19–20, 45.10–11, 53.28). The calendar arithmetic contains textual or historical difficulties, but the connection itself is explicit. [Solinus, *Collectanea* 1.45–47; 30.19–20; 45.10–11; 53.28](https://topostext.org/work/747)
+
+### Megasthenes
+
+- **[T3] Documented fact:** Solinus identifies Megasthenes as a writer who resided with Indian kings and presented eyewitness information, then explicitly attributes the Indian dog-headed people to him (*Collectanea* 52.2–3, 52.27). The attribution documents engagement with the Megasthenic tradition; direct access is uncertain because Pliny was probably an intermediary. [Solinus, *Collectanea* 52.2–3, 52.27](https://topostext.org/work/747)
+
+### Odysseus / Ulysses
+
+- **[T1-] Documented fact:** Solinus repeatedly writes about Ulysses in legendary geography: he associates him with a temple in Bruttium, Italian islands, a petrified ship near Corcyra, an inscribed altar in Caledonia, and the foundation of Olisipo (*Collectanea* 2.8–9, 2.41, 7.1, 22.1, 23.6). These are inherited myths or reported antiquarian traditions, not documented travels. [Solinus, *Collectanea* 2.8–9, 2.41; 7.1; 22.1; 23.6](https://topostext.org/work/747)
+
+### Pindar of Thebes
+
+- **[T1-] Documented fact:** Solinus recounts the legend that Castor and Pollux saved Pindar from a collapsing banquet hall and also places the poet among musicians patronized by Alexander I of Macedon (*Collectanea* 1.120, 9.14). The miraculous rescue is a reported legend; Solinus’s act of writing about Pindar is explicit. [Solinus, *Collectanea* 1.120; 9.13–14](https://topostext.org/work/747)
+
+### Plato
+
+- **[T1-] Documented fact:** Solinus recounts the ceremonial reception given to Plato by the Syracusan ruler Dionysius, including ribboned ships and a four-horse chariot (*Collectanea* 1.123). This is a later literary anecdote about Plato’s fourth-century-BCE Sicilian association. [Solinus, *Collectanea* 1.123](https://topostext.org/work/747)
+
+### Pliny the Elder
+
+- **[T3] Documented fact:** Pliny’s *Natural History* is the largest identifiable source behind Solinus’s compilation, especially for geography, zoology, peoples, plants, stones, and marvels. Solinus normally leaves Pliny unnamed while excerpting, compressing, rearranging, and sometimes correcting Plinian material; this is extensive one-sided written engagement, not personal contact. [ToposText edition and translator’s introduction](https://topostext.org/work/747); [Tønnes Bekker-Nielsen, “Gajus Julius Solinus”](https://lex.dk/Gajus_Julius_Solinus)
+
+### Zoroaster
+
+- **[T1-] Documented fact:** Solinus reports that Zoroaster uniquely laughed at the moment of birth and became exceptionally skilled in the arts; elsewhere he attributes to Zoroaster a teaching about the powers of the eagle-stone or *aetites* (*Collectanea* 1.72; 37.14–15). The birth story is legendary, and the authenticity of the lapidary doctrine cannot be established. [Solinus, *Collectanea* 1.72; 37.14–15](https://topostext.org/work/747)
+- **[T3] Reported fact:** By presenting Zoroaster as an authority for the *aetites*, Solinus engages a written or pseudepigraphic Zoroastrian tradition. The surviving passage does not identify the intermediate work, and it does not prove that Solinus read an authentic text by the historical Zoroaster. [Solinus, *Collectanea* 37.14–15](https://topostext.org/work/747)
+
+No T2 prophecy/hyperstition, T4 shared-milieu, T5 personal-meeting, or T9 transmitted-object connection with a roster member is securely documented. In particular, the proposed Constantinian dating does not by itself establish proximity to Constantine the Great, since neither Solinus’s location nor an actual encounter is known.
+
 ## Sources
 
 https://topostext.org/work/747

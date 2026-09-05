@@ -825,6 +825,14 @@ These interpretations are not mutually exclusive. Documentary facts establish fa
 | 2012 | Tamar Frankel publishes *The Ponzi Scheme Puzzle*. |
 | 2016–2025 | Television, documentary, and podcast retellings renew cultural interest. |
 
+## Atlas Connections
+
+### Benito Mussolini
+
+- **[T3] Reported fact.** After his 1926 arrest in New Orleans during an attempted flight from imprisonment, Ponzi sent a personal appeal to Italian dictator Benito Mussolini requesting intervention or immediate deportation to Italy. Mussolini did not intervene. The surviving accounts establish a one-sided written engagement, but no reply or personal meeting; later claims that Mussolini personally appointed Ponzi to his Brazilian airline position remain unverified. [The Jaxson](https://www.thejaxsonmag.com/article/jacksonvilles-notorious-con-artist-charles-ponzi/)
+
+No additional genuine, documented crossing with the atlas roster was identified. Literary antecedents such as Charles Dickens’s fictional financial schemes and later comparisons involving other financiers do not satisfy the specified connection types.
+
 ## Sources
 
 https://www.archives.gov/publications/prologue/2010/summer/ponzi-inmate-case-file

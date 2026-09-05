@@ -647,6 +647,14 @@ The following searches would most improve the record:
 9. Full-text recovery of *Craftsman* (1734), Boyer (1739), all three obituaries, and the *Daily Advertiser* announcement.
 10. A grave survey or burial-plan correlation for the Old Burial Ground.
 
+## Atlas Connections
+
+### Louis XIV
+
+- **[T1-]** **Documented fact, with authorship caution:** The posthumous *Life and Adventures of Mrs. Christian Davies* (1740), represented as taken from Cavanagh’s oral testimony but anonymously redacted, discusses Louis XIV’s military policy and describes the failed French-backed invasion of Scotland in 1708 as a project intended to make “Lewis XIV” triumph over his enemies. This is a textual connection only, not evidence that Cavanagh met or corresponded with Louis. Because the published narrative’s historical passages may belong partly or wholly to its editor, the safest formulation is that the work attributed to Cavanagh wrote about him. [1740 edition catalogue record](https://collections.soane.org/b10155); [transcription and contextual discussion of the passage](https://wolfgang20.blogspot.com/2013/11/mother-ross-iii.html).
+
+No other member of the supplied atlas roster could be connected to Cavanagh through the specified relationship types on the evidence located. Mere chronological overlap, participation in the same broad wars, later comparison with other women warriors, or association with the same city or institution has not been counted.
+
 ## Sources
 
 https://uwaterloo.ca/english/sites/default/files/uploads/documents/ecf32_3easton.pdf

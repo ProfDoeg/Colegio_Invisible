@@ -517,6 +517,49 @@ The so-called “Mozart effect”—a short-lived spatial-task result from liste
 
 The family correspondence is abundant but uneven: Leopold’s management perspective dominates childhood; Constanze and early biographers shaped the death narrative; ordinary servants, performers, and creditors are less audible. Exact lifetime income, gambling, sexual relationships, final medical treatment, funeral attendance, grave location, and the degree of Süssmayr’s reliance on lost Requiem sketches cannot be established. Masonic symbolism is strongest where lodge occasion, text, records, and musical function converge; numerical-key allegories without those controls remain interpretations.
 
+## Atlas Connections
+
+### Franz Anton Mesmer
+
+- **[T1-]** **Documented fact:** Mozart and Lorenzo Da Ponte made Mesmer’s magnetic therapy the subject of a comic topical reference in the Act I finale of *Così fan tutte* (Vienna, 1790): Despina produces “Mesmer’s stone” to revive the supposedly poisoned lovers. The episode unmistakably parodies contemporary mesmerism, although the libretto’s words are Da Ponte’s and the music Mozart’s. [Cambridge Opera Journal](https://www.cambridge.org/core/journals/cambridge-opera-journal/article/abs/despina-cupid-and-the-pastoral-mode-of-cosi-fan-tutte/4098BB54CB9842C5BC870F3504DFEDA3), [Social History of Medicine](https://academic.oup.com/shm/article/25/2/271/1739124).
+- **[T5]** **Reported fact:** Mozart-family contact with Mesmer’s Viennese household is supported by Mesmer’s surviving encouragement to Leopold concerning Wolfgang’s prospects in Vienna and by accounts that Wolfgang encountered the glass armonica at Mesmer’s house. The familiar claim that *Bastien und Bastienne* was performed in Mesmer’s garden theater in 1768 comes only from later biography and lacks a contemporary program or eyewitness record; that particular event remains **plausible but unverified**, rather than a securely documented première. [Simon P. Keefe, *Mozart in Vienna* excerpt](https://assets.cambridge.org/97811071/16719/excerpt/9781107116719_excerpt.pdf), [PubMed historical study](https://pubmed.ncbi.nlm.nih.gov/11855437/).
+
+### Johann Wolfgang von Goethe
+
+- **[T3]** **Documented fact:** Fourteen-year-old Goethe attended a Frankfurt concert by seven-year-old Mozart and Nannerl on 25 August 1763. Goethe recalled the spectacle late in life, describing Mozart as a little man in coiffure and sword; the evidence establishes Goethe as an audience witness, not a personal conversation or friendship. [Frankfurter Personenlexikon](https://2021.frankfurter-personenlexikon.de/node/2398), [Freies Deutsches Hochstift/Goethe House](https://freies-deutsches-hochstift.de/en/mediaguide/goethe-house/1-obergeschoss/loeschen/).
+- **[T3]** **Documented fact:** Mozart later set Goethe’s poem “Das Veilchen” as K. 476 in Vienna in 1785, creating a one-sided literary-musical engagement; no response by Goethe to this setting is known. Goethe subsequently drafted a sequel to *Die Zauberflöte*, providing a further posthumous engagement with Mozart’s theater. [Goethezeitportal](https://www.goethezeitportal.de/wissen/projektepool/musik-goethe/wirkung-goethes-auf-die-musikgeschichte.html).
+
+### Søren Kierkegaard
+
+- **[T1+]** **Documented fact:** Kierkegaard made Mozart—especially *Don Giovanni*—the central historical subject of “The Immediate Erotic Stages, or the Musical-Erotic,” published pseudonymously in volume I of *Either/Or* (Copenhagen, 1843). The essay also considers *Figaro* and *The Magic Flute* and presents an aesthetic interpretation through the fictional author “A”; its claims should therefore not be flattened into unqualified autobiography. [Oxford Academic](https://academic.oup.com/litthe/article-abstract/28/4/411/932845), [Cambridge University Press](https://www.cambridge.org/core/books/abs/kierkegaards-eitheror/don-giovanni-and-the-musicalerotic/1172F31D9DEBB2307B25C11F05DEFA3D).
+
+### Richard Wagner
+
+- **[T1+]** **Documented fact:** Wagner repeatedly wrote about Mozart in his theoretical prose, including *Opera and Drama* (1851) and the 1860 “Letter on Music,” using Mozart’s operas to discuss the relationship between poet, drama, and composer. This is a substantial posthumous critical engagement, not a personal crossing. [Wagner text hosted by the University of Texas](https://www.laits.utexas.edu/wagner/selectedessays/pdf/Heise2.pdf), [“Lettre sur la musique”](https://fr.wikisource.org/wiki/Lettre_sur_la_musique_%28Richard_Wagner%29).
+
+### Pyotr Ilyich Tchaikovsky
+
+- **[T1+]** **Documented fact:** Tchaikovsky discussed Mozart extensively in his 1870s criticism and private diaries, repeatedly calling *Don Giovanni* the greatest opera. In 1887 he composed the orchestral Suite No. 4, *Mozartiana*, from four Mozart pieces as an explicit centenary tribute. [Tchaikovsky Research](https://en.tchaikovsky-research.net/pages/Wolfgang_Amadeus_Mozart), [Suite No. 4 documentation](https://en.tchaikovsky-research.net/pages/Suite_No._4).
+- **[T9+]** **Documented fact:** Mozart originated the autograph score of *Don Giovanni* in 1787–88; on 12 June 1886 Tchaikovsky examined that manuscript at Pauline Viardot’s Paris home and recorded the encounter in his diary as an experience of being in the presence of divinity. The autograph later entered the Bibliothèque nationale de France. [Tchaikovsky Research](https://en.tchaikovsky-research.net/pages/Pauline_Viardot), [Bibliothèque nationale de France](https://www.bnf.fr/fr/mediatheque/manuscrit-autographe-de-don-giovanni), [*19th-Century Music*](https://online.ucpress.edu/ncm/article-abstract/25/2-3/165/69385/Enshrining-Mozart-Don-Giovanni-and-the-Viardot).
+
+### Friedrich Nietzsche
+
+- **[T1+]** **Documented fact:** Nietzsche repeatedly evaluated Mozart in his philosophical-musical prose. *Human, All Too Human II* includes the aphorism “Beethoven and Mozart” and other comparisons involving Mozart and *Don Giovanni*. This constitutes direct posthumous written engagement, though not a dedicated Mozart study. [Nietzsche text, *Human, All Too Human II*](https://www.gutenberg.org/files/37841/37841-h/37841-h.html), [German text of “Beethoven und Mozart”](https://www.textlog.de/nietzsche/schriften/menschliches-allzumenschliches/beethoven-und-mozart).
+
+### Claude Debussy
+
+- **[T1+]** **Documented fact:** Debussy discussed Mozart in his published music criticism, later collected in *Monsieur Croche, antidilettante* (1921), contrasting Mozart’s absorption in music with other composers’ theatrical or ideological preoccupations. The connection is posthumous critical reception only. [Debussy, *Monsieur Croche*](https://fr.wikisource.org/wiki/Page%3ADebussy_-_Monsieur_Croche,_1921.djvu/146), [Bibliothèque nationale de France catalogue](https://catalogue.bnf.fr/ark:/12148/cb35395962p).
+
+### Theodor W. Adorno
+
+- **[T1+]** **Documented fact:** Adorno treated Mozart repeatedly in his musicological and philosophical writings, including the 1933 essay “Vierhändig, noch einmal” and an unfinished fragment specifically concerned with Mozart. His readings addressed convention, freedom, social order, and the individuality of Mozart’s musical characters. [Cambridge Core](https://www.cambridge.org/core/journals/modern-intellectual-history/article/jazz-the-wound-negative-identity-culture-and-the-problem-of-weak-subjectivity-in-theodor-adornos-twentieth-century/AD9E3EB4775854BA7B5BA4550F9753C6), [*Law & Literature*](https://www.tandfonline.com/doi/abs/10.1525/lal.2008.20.1.47).
+
+### Nadia Boulanger
+
+- **[T1+]** **Documented fact:** Boulanger lectured and taught directly about Mozart. A July 1936 *Le Monde musical* account preserves her Mozart piano class and introductory discussion of his life and works; Mozart scores also served as models in her teaching of voice leading, formal proportion, and compositional judgment. There could be no personal meeting, since Boulanger was born in 1887. [Cambridge University Press, *Nadia Boulanger: Thoughts on Music*](https://www.cambridge.org/core/books/abs/nadia-boulanger/le-piano-cours-dinterpretation-de-mlle-nadia-boulangermozart-le-monde-musical-47-no-7-july-1936-21112-complete-text/DEC875259CDCFBF9DACE96C73C82DEAE).
+
+No sufficiently supported personal or object-level crossing was found for the remainder of the roster. In particular, shared Enlightenment, Masonic, religious, literary, or musical subject matter alone was not counted; nor were unsupported claims that Cagliostro was a personal model or participant in Mozart’s *Magic Flute* circle.
+
 ## Sources
 
 https://mozarteum.at/en/wolfgang-amade-mozart/

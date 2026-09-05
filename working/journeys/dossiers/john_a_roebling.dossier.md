@@ -660,6 +660,24 @@ Roebling’s durable reputation rests on three separate but related achievements
 | 2008 | Washington’s memoir published in an edited scholarly edition. |
 | 2020 | Richard Haw publishes _Engineering America_, the fullest modern biography. |
 
+## Atlas Connections
+
+### Abraham Lincoln
+
+- **[T3] Documented fact:** In October 1861, during Lincoln’s presidency, Roebling composed an unpublished manuscript titled “A Few Truths for the Consideration of the President of the United States.” Its Civil War setting and title identify Lincoln as the intended addressee, making it a one-sided written engagement. No evidence located establishes that Roebling sent the manuscript or that Lincoln read it. [German Historical Institute](https://www.immigrantentrepreneurship.org/entries/john-augustus-roebling/)
+
+### Emily Warren Roebling
+
+- **[T5] Documented fact:** Emily was Roebling’s daughter-in-law through her 1865 marriage to Washington A. Roebling and knew him personally. John spent his final illness in Emily and Washington’s home at 137 Hicks Street, Brooklyn, where he died on 22 July 1869. Her major engineering and intermediary role on the Brooklyn Bridge developed after John’s death; evidence does not support attributing his 1867 master design to her. [Rutgers Roebling Family Collection](https://archives.libraries.rutgers.edu/repositories/11/resources/908), [ASCE biography of Emily Roebling](https://www.asce.org/about-civil-engineering/history-and-heritage/notable-civil-engineers/emily-warren-roebling/)
+
+### Emanuel Swedenborg
+
+- **[T3] Documented fact:** Roebling read Swedenborg and incorporated elements of the earlier writer’s spiritual cosmology—especially the conception of an ordered spiritual world—into his own private religious and metaphysical thought. This was a one-sided textual engagement; Swedenborg died in 1772, thirty-four years before Roebling’s birth. The evidence supports intellectual influence, not a personal meeting or a specific prophetic relationship. [Richard Haw interview](https://thewayofimprovement.blog/2020/5/11/the-authors-corner-with-richard-haw/), [Oxford Academic, *Engineering America*](https://academic.oup.com/book/33664)
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T3] Documented fact:** While studying in Berlin in 1824–1825, Roebling attended Hegel’s university lectures. Hegel’s ideas subsequently informed Roebling’s effort to understand technological, historical, material, and spiritual development as parts of an integrated system. Later claims that Roebling was Hegel’s “favorite pupil” are reported in commemorative biography but are not established by surviving contemporary evidence. [Oxford Academic, “Berlin and the Culture of Revolution (1824–25)”](https://academic.oup.com/book/33664/chapter-abstract/288208018), [Richard Haw interview](https://thewayofimprovement.blog/2020/5/11/the-authors-corner-with-richard-haw/)
+
 ## Sources
 
 https://www.immigrantentrepreneurship.org/entries/john-augustus-roebling/

@@ -509,6 +509,96 @@ His influence is not uniform. Adorno drew on Benjamin while criticizing immediac
 - Portbou murder theories were investigated as historical narratives; no consulted primary record establishes homicide.
 - Search stopped when the chronological, institutional, works, and controversy sections had high-quality support and further queries mainly repeated already bounded claims.
 
+## Atlas Connections
+
+### André Breton
+
+- **[T1-] Documented fact:** Benjamin analyzed Breton as a principal theorist of Surrealism in **“Surrealism: The Last Snapshot of the European Intelligentsia”** (1929), discussing his writings and political-intellectual position alongside Aragon, Soupault, Desnos, and Éluard. This establishes written engagement, not a documented personal meeting. [Primary text](https://newleftreview.org/issues/i108/articles/walter-benjamin-surrealism-the-last-snapshot-of-the-european-intelligentsia)
+
+### Charles Fourier
+
+- **[T1-] Documented fact:** Fourier and Fourierism recur throughout Benjamin’s **Arcades Project**, especially Convolute W, “Fourier, or the Arcades,” and the 1935 exposé **“Paris, Capital of the Nineteenth Century.”** Benjamin connected Fourier’s phalanstery to the architecture of the arcades and treated his utopian images as historically legible expressions of nineteenth-century collective desire. [Harvard edition](https://www.hup.harvard.edu/books/9780674008021)
+
+### Edgar Allan Poe
+
+- **[T1-] Documented fact:** In the Baudelaire studies of the late 1930s, particularly **“The Paris of the Second Empire in Baudelaire”** and **“On Some Motifs in Baudelaire,”** Benjamin discussed Poe’s metropolitan crowd stories and Baudelaire’s translations of Poe, using **“The Man of the Crowd”** as a key antecedent for the flâneur and modern urban perception. [Stanford Encyclopedia overview](https://plato.stanford.edu/entries/benjamin/)
+
+### F. T. Marinetti
+
+- **[T1-] Documented fact:** Benjamin concluded the 1936 **Artwork essay** by quoting and analyzing Marinetti’s celebration of the Ethiopian colonial war. He presented the Futurist manifesto as exemplary evidence for fascism’s aestheticization of politics and war. [Primary-text edition](https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm)
+
+### Fichte
+
+- **[T1-] Documented fact:** Johann Gottlieb Fichte was a substantive philosophical source in Benjamin’s doctoral study **The Concept of Criticism in German Romanticism** (completed 1919), where Benjamin reconstructed the early Romantics’ concept of reflection partly through Fichte’s philosophy while marking their departures from it. [Stanford Encyclopedia](https://plato.stanford.edu/entries/benjamin/)
+
+### Freud
+
+- **[T1-] Documented fact:** Benjamin explicitly engaged Freud’s account of involuntary memory and consciousness in **“On Some Motifs in Baudelaire”** (1939), placing Freud’s **Beyond the Pleasure Principle** in a constellation with Proust, Bergson, shock, and modern metropolitan experience. This was textual engagement; no personal encounter is documented. [Stanford Encyclopedia](https://plato.stanford.edu/entries/benjamin/)
+
+### Goethe
+
+- **[T1-] Documented fact:** Goethe was one of Benjamin’s principal critical subjects. Benjamin wrote **“Goethe’s Elective Affinities”** in 1921–1922, published it in 1924–1925, and later worked on Goethe for the proposed *Great Soviet Encyclopedia* during and after his Moscow visit of 1926–1927. His dissertation and other writings also addressed Goethe’s relation to Romantic criticism. [Walter Benjamin works index](https://de.wikisource.org/wiki/Walter_Benjamin/Werkverzeichnis)
+
+### Henri Bergson
+
+- **[T1-] Documented fact:** Benjamin examined Bergson’s theory of memory—especially **Matter and Memory**—in **“On Some Motifs in Baudelaire”** (1939). He contrasted Bergson’s durée and voluntary philosophical reconstruction of experience with Proustian involuntary memory and the shock-conditioned experience of the modern city. [Stanford Encyclopedia](https://plato.stanford.edu/entries/benjamin/)
+
+### Jacques Derrida
+
+- **[T1+] Documented fact:** Derrida delivered **“Force of Law: The ‘Mystical Foundation of Authority’”** in 1989 and published it in 1990; its second part is an extended reading of Benjamin’s 1921 **“Critique of Violence.”** Derrida’s interpretation became a major posthumous episode in the reception of Benjamin’s concepts of law-making, law-preserving, mythic, and divine violence. [Reception history](https://plato.stanford.edu/archives/spr2024/entries/benjamin/)
+
+### Jürgen Habermas
+
+- **[T1+] Documented fact:** Habermas wrote **“Walter Benjamin: Consciousness-Raising or Rescuing Critique”** for Benjamin’s eightieth anniversary in 1972. The essay contrasted Benjamin’s “rescuing critique” with consciousness-raising critique and helped renew attention to **“Critique of Violence”** and Benjamin’s theory of historical remembrance. [Documented reception context](https://www.jstor.org/stable/10.3366/j.ctvnjbfsx)
+
+### Kant
+
+- **[T1-] Documented fact:** Benjamin repeatedly wrote through and about Kant, notably in **“On the Program of the Coming Philosophy”** (1917–1918), which proposed enlarging the Kantian concept of experience, and in fragments on Kantian ethics and epistemology. Kant also formed part of Benjamin’s sustained discussions with Gershom Scholem. [Stanford Encyclopedia, “Early Works: Kant and Experience”](https://plato.stanford.edu/entries/benjamin/)
+
+### Karl Marx
+
+- **[T1-] Documented fact:** From the mid-1920s onward Benjamin engaged Marx’s writings on commodity fetishism, capital, class struggle, technology, and revolution. Marx is a central textual source for the **Arcades Project**, the Baudelaire studies, the Artwork essay, and **“On the Concept of History.”** The evidence supports an idiosyncratic but sustained Marxist engagement, not party membership or personal proximity. [Stanford Encyclopedia](https://plato.stanford.edu/entries/benjamin/)
+
+### Marcel Proust
+
+- **[T1-] Documented fact:** Benjamin and Franz Hessel translated major portions of **À la recherche du temps perdu** into German during the 1920s; Benjamin also wrote **“The Image of Proust”** (1929) and repeatedly used Proust’s involuntary memory in his later work. Proust died in 1922, and no personal meeting is documented. [Walter Benjamin works index](https://de.wikisource.org/wiki/Walter_Benjamin/Werkverzeichnis)
+
+### Martin Buber
+
+- **[T3] Documented fact:** Buber invited Benjamin to contribute to his journal **Der Jude** in 1916. Benjamin answered in letters of May and July 1916, requesting discussion and then declining or withholding collaboration because of objections to the journal’s language and wartime position. The famous July letter sets out Benjamin’s anti-instrumental conception of writing. The surviving evidence establishes correspondence; it does not by itself establish friendship or an actual meeting. [Benjamin’s collected letters](https://www.kritiknetz.de/images/stories/texte/walter-benjamin-gesammelte-briefe-baende_1_bis_2.pdf)
+
+### Max Horkheimer
+
+- **[T3] Documented fact:** During Benjamin’s exile, Horkheimer corresponded with him as director of the Institute for Social Research, commissioned work, supervised the stipend on which Benjamin depended, and participated in editorial decisions concerning the Artwork and Baudelaire projects. Their documented connection was intellectual and institutional, with a pronounced financial asymmetry. [National WWII Museum account](https://www.nationalww2museum.org/war/articles/walter-benjamin)
+
+### Nietzsche
+
+- **[T1-] Documented fact:** Nietzsche figured in Benjamin’s writings from the youth-movement period through the late philosophy of history. Benjamin produced notes specifically titled **“Nietzsche and the Archive of His Sister”** and repeatedly engaged Nietzschean ideas of history, nihilism, recurrence, tragedy, and cultural transformation. [Walter Benjamin works index](https://de.wikisource.org/wiki/Walter_Benjamin/Werkverzeichnis)
+
+### Novalis
+
+- **[T1-] Documented fact:** Novalis was a central subject of Benjamin’s doctoral dissertation **The Concept of Criticism in German Romanticism** (1919), which reconstructed the theory of reflection and criticism chiefly through Novalis and Friedrich Schlegel. [Stanford Encyclopedia](https://plato.stanford.edu/entries/benjamin/)
+
+### Paul Klee
+
+- **[T1-] Documented fact:** Benjamin wrote interpretively about Klee’s **Angelus Novus**, most famously in Thesis IX of **“On the Concept of History”** (1940), where he transformed the pictured angel into his “angel of history.” This is Benjamin’s interpretation, not a documented statement of Klee’s intention. [Israel Museum object record](https://www.imj.org.il/en/collections/199799-0)
+- **[T9-] Documented fact:** Klee created the monoprint **Angelus Novus** in 1920; Benjamin bought it in Munich in 1921 and retained it, directly or through safekeeping arrangements, as a prized possession until his death. Through Benjamin’s testamentary arrangements it later passed to Gershom Scholem and ultimately to the Israel Museum. The artwork is therefore a documented object-chain connecting Klee, the earlier originator, to Benjamin, the later owner. [Israel Museum provenance](https://www.imj.org.il/en/collections/199799-0)
+
+### Schiller
+
+- **[T1-] Documented fact:** Benjamin discussed Schiller in his early writings on youth, education, aesthetic experience, and the German literary canon. Schiller also appears within Benjamin’s broader attempts to distinguish Romantic criticism and modern experience from classical-humanist models. The connection is textual; no stronger personal or object-based relation is possible across their lifetimes. [Stanford Encyclopedia](https://plato.stanford.edu/entries/benjamin/)
+
+### Theodor W. Adorno
+
+- **[T3] Documented fact:** Benjamin and Adorno maintained extensive correspondence from the 1920s through 1940. Their exchanges covered Kierkegaard, Kafka, mass culture, the Artwork essay, the Arcades, and the Baudelaire studies; Adorno’s detailed 1938 criticism prompted Benjamin to restructure the first Baudelaire manuscript. [Stanford Encyclopedia](https://plato.stanford.edu/entries/benjamin/)
+- **[T5] Documented fact:** They met personally in the Weimar period—through the Frankfurt intellectual circle—and subsequently sustained a close, sometimes contentious friendship. Adorno advocated for Benjamin, mediated Institute support, visited and corresponded with him, and after Benjamin’s death co-edited the 1955 **Schriften** with Gretel Adorno. The relationship was genuine friendship and collaboration, though also one of editorial and financial power. [National WWII Museum account](https://www.nationalww2museum.org/war/articles/walter-benjamin)
+
+### Victor Hugo
+
+- **[T1-] Documented fact:** Hugo appears repeatedly in the **Arcades Project** and Benjamin’s nineteenth-century Paris research, especially in materials concerning the crowd, revolution, urban topography, social types, and the literary representation of Paris. Benjamin treated Hugo as both a major chronicler of the nineteenth-century metropolis and an object of historical-materialist criticism. [Harvard edition of the Arcades Project](https://www.hup.harvard.edu/books/9780674008021)
+
+No supported T2 prophecy/hyperstition crossing was found in the roster. Mere influence, shared geography, institutional adjacency, or later resemblance has not been promoted here into a connection without identifiable correspondence, writing, meeting, or object provenance.
+
 ## Sources
 
 https://adk.de/archiv-der-kuenste/archiv-bibliothek/bibliothek-des-walter-benjamin-archivs

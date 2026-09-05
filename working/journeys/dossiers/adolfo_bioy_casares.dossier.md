@@ -678,6 +678,34 @@ His influence is visible in Latin American speculative fiction, in writers inclu
 | 2021–22 | *Wilcock* and major collaborative/late-work compilations appear. |
 | 2025 | A substantial selection of Bioy's love letters to Elena Garro appears; national library catalogue opens further access to the couple's books. |
 
+## Atlas Connections
+
+### Jorge Luis Borges
+
+- **[T3] [T5] Documented fact:** Bioy met Borges at Victoria Ocampo’s house in San Isidro in 1932. Their friendship continued until Borges’s death in 1986 and encompassed correspondence, mutual criticism, editorial work, screenwriting, anthologies, and extensive joint authorship under their own and collective names. Bioy also wrote published articles about Borges—among them “El jardín de los senderos que se bifurcan” and “Desagravio a Borges” (1942)—and recorded decades of their conversations in the diary selection published posthumously as *Borges* (2006). [Cervantes chronology](https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/); [Cervantes bibliography](https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/su_obra_bibliografia/)
+
+### Silvina Ocampo
+
+- **[T3] [T5] Documented fact:** Bioy met Ocampo in 1934, married her at Las Flores in 1940, and remained with her until her death in 1993. Their documented literary crossings include the jointly written novel *Los que aman, odian* (1946) and, with Borges, the jointly selected and translated *Antología de la literatura fantástica* (1940; enlarged 1965) and *Antología poética argentina* (1941). [Cervantes chronology](https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/); [Cervantes bibliography](https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/su_obra_bibliografia/)
+
+### Victoria Ocampo
+
+- **[T5] Documented fact:** Victoria Ocampo, Bioy’s future sister-in-law, hosted the 1932 gathering at Villa Ocampo in San Isidro where Bioy met Borges. Bioy subsequently belonged to her familial and *Sur* milieu; photographs document Bioy, Victoria, and Borges together at Mar del Plata around 1940 and at a 1962 anniversary gathering for *Sur* in Buenos Aires. [Cervantes chronology](https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/); [photographic record, c. 1940](https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/imagenes_album/imagen/imagenes_album_09_adolfo_bioy_casares_victoria_ocampo_y_borges_1940/); [photographic record, 1962](https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/imagenes_album/imagen/imagenes_album_16_adolfo_bioy_casares_aniversario_sur_borges_pezzoni_lanuza_torre_1962/)
+
+### Xul Solar
+
+- **[T3] [T5] Documented fact:** Bioy’s chronology records that he met Xul Solar in 1936. That year Xul contributed “Visión sobr el trilíneo” to *Destiempo*, the magazine edited by Bioy and Borges, establishing a direct editorial as well as personal crossing. [Cervantes chronology](https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/); [study of the Borges–Bioy collaboration](https://www.cervantesvirtual.com/obra-visor/la-colaboracion-literaria-de-jorge-luis-borges-y-adolfo-bioy-casares/)
+
+### Julio Cortázar
+
+- **[T3] [T5] Documented fact:** Bioy personally photographed Cortázar during his sustained photographic activity, placing them in direct contact; the surviving portrait was exhibited in Buenos Aires in 2014. Their written discourse was reciprocal: Bioy discussed Cortázar in published interviews, while Cortázar invoked Bioy in “Diario de un cuento” and publicly commented on affinities between their fiction. The evidence supports meeting and literary engagement, though not a comparably intimate friendship to Bioy’s relationship with Borges. [Buenos Aires municipal exhibition record](https://buenosaires.gob.ar/gcaba_historico/noticias/se-inauguro-la-muestra-inedita-de-fotografias-de-adolfo-bioy-casares); [Cervantes interview](https://www.cervantesvirtual.com/obra-visor/la-literatura-la-fotografia-el-cine-y-la-eternidad--entrevista-a-adolfo-bioy-casares/html/df1f3510-b5c1-45db-bc9d-dd02a1bdda04_2.html)
+
+### H. G. Wells
+
+- **[T1-] Documented fact:** Bioy wrote “Elogio de Wells,” published in the September 1946 memorial-oriented issue of *Los Anales de Buenos Aires*, shortly after Wells’s death on 13 August 1946. The essay is a direct instance of the later Bioy writing about the earlier Wells, whose fantastic fiction also figured prominently in Bioy’s literary formation. [Issue catalogue and contents](https://ahira.com.ar/ejemplares/los-anales-de-buenos-aires-no-9/)
+
+No other roster crossing was included where the available evidence established only reading, influence, shared subject matter, broad contemporaneity, or presence in the same national or literary tradition.
+
 ## Sources
 
 https://www.cervantesvirtual.com/portales/adolfo_bioy_casares/autor_cronologia/

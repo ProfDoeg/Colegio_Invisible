@@ -672,6 +672,18 @@ The most stable assessment is documentary rather than heroic: he was a senior Fr
 | 1989 | Menestò/Lungarotti/Daffinà/Petech critical Italian project | Critical edition/studies |
 | 2016/2019 | Modern scholarship traces *mirabilia* and Waldseemüller dog-head legends | Historiographical/cartographic study |
 
+## Atlas Connections
+
+### Genghis Khan
+
+- **[T1-]** Giovanni devoted part of chapter V of the *Historia Mongalorum* (composed 1245–1247) to Genghis Khan’s rise, wars, and establishment of Mongol rule. The writing is a **documented fact**; many underlying episodes were **reported facts or legends** learned from informants rather than Giovanni’s eyewitness knowledge. [Critical-text record](https://alim.unisi.it/dl/resource/208); [scholarly analysis](https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/chinggis-khan-defeated-plano-carpini-juzjani-and-the-symbolic-origins-of-the-mongol-empire/734C9B30E80307A62E2777604DBA596D)
+
+### Roger Bacon
+
+- **[T1+]** After Giovanni’s death in 1252, Roger Bacon named Giovanni and engaged with information from the *Historia Mongalorum* while composing the *Opus maius* in the 1260s. Giovanni is therefore the earlier, written-about figure. Bacon’s reference and textual use are **documented facts**, although scholarship finds that he used Giovanni’s report less extensively than some other Franciscan travel evidence. [St Andrews research repository](https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/725/SumithraJ.DavidPhDthesis.pdf?isAllowed=y&sequence=7)
+
+No other roster crossing meets the stated evidentiary threshold. In particular, Giovanni’s status as a predecessor of Marco Polo does not establish a meeting, correspondence, shared manuscript, or demonstrable direct textual dependence; traditional claims of close personal companionship with Francis of Assisi likewise do not securely document a specific meeting.
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/giovanni-da-pian-del-carpine_(Dizionario-Biografico)/

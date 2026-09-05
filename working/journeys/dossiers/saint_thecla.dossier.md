@@ -503,6 +503,32 @@ Modern historians have successively treated the story as pious fiction, a remnan
 - **Not established:** AD 30 birth, age eighteen, noble ancestry, exact governor, two historical trials, self-baptism miracle, Paul’s commission, seventy-two years in a cave, age ninety, disappearance into rock, bodily relic identifications, or Rome burial.
 - **Open:** precise relationship between oral tradition and written composition; textual boundaries within the *Acts of Paul*; extent to which variants deliberately restrict women's authority; exact sequence and patronage of Meriamlik buildings; identification of certain images and relics.
 
+## Atlas Connections
+
+### Paul the Apostle
+
+- **[T5]** The later-second-century *Acts of Paul and Thecla* portrays Paul as meeting Thecla at Iconium during his missionary travels, teaching her ascetic Christianity, reuniting with her after both attempted executions, and eventually commissioning her to teach. Narrative setting: approximately AD 45–60, principally Iconium and Myra. **Rumor or myth:** this teacher–disciple relationship is the foundational hagiographic claim, but neither Paul’s letters nor canonical Acts mentions Thecla, and no independent first-century evidence verifies their meeting. [Acts of Paul and Thecla](https://www.newadvent.org/fathers/0816.htm)
+
+### Tertullian
+
+- **[T1+]** Tertullian wrote about Thecla in *De baptismo* 17 at Carthage, approximately AD 198–203. He opposed Christians who invoked her example to authorize women to teach and baptize and reported that an Asian presbyter had composed the underlying Pauline narrative “out of love for Paul” and subsequently lost office. **Documented fact:** the surviving treatise is the earliest securely datable external notice of Thecla and her narrative; the presbyter’s confession and deposition remain **reported facts** known only through Tertullian. [Tertullian, *De baptismo* 17](https://tertullian.org/books/tertulliansouter_prayerbapt.pdf)
+
+### Egeria
+
+- **[T1+]** Egeria wrote about “holy Thecla” and her sanctuary in *Itinerarium* 22–23 after visiting Seleucia in Isauria, approximately AD 381–384. She records praying there, receiving communion, meeting the deaconess Marthana, and having the saint’s acts read. **Documented fact:** Egeria’s surviving travel narrative is eyewitness evidence for the late-fourth-century cult and institution, not for Thecla’s alleged first-century biography. [Egeria’s itinerary and shrine visit](https://portal.sds.ox.ac.uk/articles/online_resource/E05227_The_pilgrim_Egeria_in_her_Itinerary_writes_of_the_sanctuary_of_Thekla_follower_of_the_Apostle_Paul_S00092_in_Seleucia_ad_Calycadnum_Isauria_southern_Asia_Minor_where_she_prayed_and_read_a_passage_from_the_Acts_of_Thecla_Written_in_La/13867643)
+
+- **[T9+]** The sanctuary of Hagia Thekla near Seleucia connects the earlier saint and the later pilgrim without demonstrated shared occupancy: Thecla was the site’s attributed sacred occupant, while Egeria physically visited its church, martyrium, monastic cells, and protected precinct centuries later. **Documented fact:** Egeria occupied the cult site; **rumor or myth:** Thecla’s personal residence, death, or bodily presence there cannot be independently verified. [Egeria and Hagia Thekla](https://www.ccel.org/m/mcclure/etheria/etheria.htm)
+
+### Augustine of Hippo
+
+- **[T1+]** Augustine invoked Thecla in North Africa around AD 400. In *Contra Faustum* 30.4 he discussed Paul’s alleged conversion of the betrothed Thecla to perpetual virginity at Iconium; in *De sancta virginitate* 45 he used her as a paradigmatic virgin prepared for martyrdom. **Documented fact:** Augustine wrote these references and treated Thecla as an established ascetic exemplar; the Pauline episode he repeated remains **rumor or myth** derived from the apocryphal tradition. [Augustine, *Contra Faustum* 30](https://www.newadvent.org/fathers/140630.htm) [Augustine, *De sancta virginitate* 45](https://www.newadvent.org/fathers/1310.htm)
+
+### Jacobus de Voragine
+
+- **[T1+]** In the thirteenth-century *Golden Legend*, Jacobus de Voragine included Thecla in his life of Saint Martin, repeating a story in which Martin said that Agnes, Thecla, and Mary had visited him, as had Peter and Paul. **Documented fact:** Jacobus compiled this written notice; **rumor or myth:** the posthumous visitation is hagiographic tradition, not a historically verifiable encounter. [Jacobus de Voragine, *Golden Legend*, Life of Saint Martin](https://ccel.org/ccel/voragine/goldleg6.xvi.html)
+
+No other roster member produced a sufficiently specific, source-supported crossing under the six defined connection types. Mere shared Christian tradition, comparable legends, namesakes, coappearance in art, or presence in the same broad geography was excluded.
+
 ## Sources
 
 https://www.nasscal.com/e-clavis-christian-apocrypha/acts-of-paul-and-thecla/

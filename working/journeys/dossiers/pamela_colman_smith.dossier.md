@@ -599,6 +599,25 @@ Pratt mounted a 2019 life-and-work exhibition. The Whitney included Smith in its
 - The identities and words of the Jamaican storytellers from whom Smith learned Annancy narratives were not preserved in her publications.
 - Search stopped when another broad query was returning repeated popular summaries rather than new primary documentation. The largest remaining gains require in-person or licensed access to civil records, Plymouth diocesan papers, the Reed correspondence, Stieglitz letters, property/probate material, and publisher archives.
 
+## Atlas Connections
+
+### Arthur Edward Waite
+
+- **[T3] Documented fact.** Smith and Waite belonged to the Hermetic Order of the Golden Dawn’s Isis-Urania Temple and, from 1903, Waite’s Independent and Rectified Rite. In London in 1909, Waite commissioned Smith to design the complete seventy-eight-card tarot pack embodying his symbolic program; he subsequently interpreted and credited her designs in *The Pictorial Key to the Tarot*. Their surviving work establishes sustained, direct intellectual and professional engagement, although the precise instructions, contract, and payment terms have not survived.
+
+### Vaslav Nijinsky
+
+- **[T3] Documented fact.** Smith observed Ballets Russes performances in London and drew Nijinsky dancing roles including *Le Carnaval*, *Le Pavillon d’Armide*, and *Jeux*. Her drawings accompanied Ellen Terry’s *The Russian Ballet* (1913), whose text discusses Nijinsky extensively; original Smith drawings of Nijinsky are also catalogued in the Library of Congress’s Alexandra Danilova collection. This documents Smith seeing and visually recording his performances, but not a personal meeting or correspondence between them. [*The Russian Ballet* (1913)](https://www.gutenberg.org/files/45299/45299-h/45299-h.htm) [Library of Congress finding aid](https://findingaids.loc.gov/exist_collections/ead3pdf/music/2023/mu023015.apx1.pdf)
+
+### William Butler Yeats
+
+- **[T3] Documented fact.** Smith and Yeats exchanged written and creative work from the late 1890s onward. Smith made designs for *The Land of Heart’s Desire* and other Yeats works; Yeats discussed her designs and magazine plans in correspondence, contributed writing to *The Green Sheaf*, and invited her into the Golden Dawn’s Isis-Urania Temple in 1901. Their engagement extended to theatrical design, Irish Revival publishing, and occult work in London. [Yellow Nineties scholarly introduction](https://1890s.ca/green-sheaf-general-introduction/)
+- **[T5] Documented fact.** Smith knew Yeats personally within the Yeats family, Irish Revival, and Golden Dawn circles. Yeats introduced her to members of his family and collaborated with her on theatrical and publishing projects during the early 1900s; the surviving letters describe face-to-face design work, including Smith sketching proposed scenery while Yeats examined and discussed it.
+
+### William Blake
+
+- **[T1-] Documented fact.** Acting as editor and publisher of *The Green Sheaf*, Smith presented Blake as an admired artistic predecessor: issues 2 and 8 (1903) printed extracts from his writings, accompanied by W. T. Horton’s illustrations, and the magazine advertised Blake’s books. Scholarly analysis identifies Smith’s editorial framing of Blake’s visionary imagination and hand-produced books as an acknowledgment of her artistic debt to him. This is a posthumous written/editorial engagement, not a personal crossing. [Yellow Nineties, “Critical Introduction to *The Green Sheaf* No. 2”](https://1890s.ca/gsv2_introduction/)
+
 ## Sources
 
 https://1890s.ca/smith_bio/

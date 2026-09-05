@@ -569,6 +569,128 @@ The archive’s inclusion in major Danish heritage work and completion of SKS ha
 - Co-attendance at Schelling’s lectures does not establish interpersonal contact among Kierkegaard, Bakunin, and Engels.
 - The works list is substantial and chronologically comprehensive at book/series level, but individual unsigned newspaper attributions and every separate discourse title require the SKS electronic concordance.
 
+## Atlas Connections
+
+### Abraham
+
+- **[T1-] Documented fact.** Kierkegaard, writing as Johannes de silentio, made the biblical Abraham the central figure of *Fear and Trembling* (Copenhagen, 1843), examining the binding of Isaac, faith, sacrifice, and the “teleological suspension of the ethical.” This is a textual engagement with the scriptural figure, not evidence for a historical encounter.
+
+### Paul the Apostle
+
+- **[T1-] Documented fact.** Kierkegaard repeatedly interpreted Paul’s letters throughout his signed discourses, journals, and final attack on Christendom. Especially important were Paul’s treatments of faith, offense, suffering, love, the “thorn in the flesh,” and Christianity as foolishness before the world.
+
+### Aristotle
+
+- **[T1-] Documented fact.** Kierkegaard discussed Aristotle in the 1841 dissertation *On the Concept of Irony*, *The Concept of Anxiety* (1844), *Philosophical Fragments* (1844), *Concluding Unscientific Postscript* (1846), and his journals. Aristotle’s accounts of movement, possibility, actuality, virtue, and classical drama supplied recurring conceptual and literary reference points. Specialist source-and-reception scholarship identifies the Greek tradition—especially Socrates, Plato, and Aristotle—as fundamental to Kierkegaard’s authorship. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/kierkegaard/)
+
+### Cicero
+
+- **[T1-] Documented fact.** Kierkegaard cited and discussed Cicero in his dissertation, journals, and classical notes, particularly as a transmitter of ancient accounts of Socrates and irony. The connection is textual and scholarly.
+
+### Plato
+
+- **[T1-] Documented fact.** Plato’s dialogues were primary evidence for Kierkegaard’s reconstruction of Socrates in *On the Concept of Irony* (1841), and Platonic recollection became the principal ancient position against which Johannes Climacus constructed *Philosophical Fragments* (1844). Kierkegaard’s extensive engagement with Plato is textual, not personal. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/kierkegaard/)
+
+### Saint Augustine of Hippo
+
+- **[T1-] Documented fact.** Kierkegaard engaged Augustine in his journals and religious writings on sin, inwardness, time, temptation, conversion, and the will. The relationship is one of documented textual reception; claims that Kierkegaard simply reproduced an Augustinian system would overstate it.
+
+### René Descartes
+
+- **[T1-] Documented fact.** Kierkegaard examined Cartesian doubt and the maxim *de omnibus dubitandum est* in the unfinished 1842–43 work *Johannes Climacus, or De omnibus dubitandum est* and returned to modern methodological doubt in *Philosophical Fragments* and *Concluding Unscientific Postscript*. His treatment was critical and often mediated through German idealism.
+
+### Johann Gottlieb Fichte
+
+- **[T1-] Documented fact.** Kierkegaard discussed Fichte’s theory of the self and Romantic irony in *On the Concept of Irony* (1841) and related notes. Fichte belonged to the German-idealist background against which Kierkegaard developed his accounts of selfhood, reflection, and ethical existence.
+
+### Johann Wolfgang von Goethe
+
+- **[T1-] Documented fact.** Kierkegaard wrote repeatedly about Goethe’s *Faust*, *Wilhelm Meister*, lyric poetry, and conceptions of genius and personality. Goethean figures and quotations appear throughout the journals and pseudonymous works, especially *Either/Or* and *Stages on Life’s Way*.
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-] Documented fact.** Kierkegaard’s dissertation and most of the major pseudonymous philosophical works engage Hegelian logic, history, mediation, ethics, religion, and claims to systematic completeness. His relation to Hegel was both appropriative and polemical, often mediated by Danish Hegelians; it cannot accurately be reduced to simple rejection. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/kierkegaard/)
+
+### Immanuel Kant
+
+- **[T1-] Documented fact.** Kierkegaard engaged Kantian ethics, autonomy, radical evil, religion, and the limits of reason in his dissertation, journals, *Either/Or*, *Fear and Trembling*, *The Concept of Anxiety*, and later religious writings. Kant’s universal moral law forms part of the philosophical background to the Abraham problem in *Fear and Trembling*.
+
+### Martin Luther
+
+- **[T1-] Documented fact.** Kierkegaard read and repeatedly wrote about Luther, sometimes invoking him against complacent Lutheran Christendom and sometimes accusing later Protestants of converting Luther’s corrective into an excuse for avoiding imitation and works of love. The engagement became especially pointed in his journals and anti-church publications of 1854–55.
+
+### Jesus of Nazareth
+
+- **[T1-] Documented fact.** Jesus Christ is the central historical and theological figure of Kierkegaard’s signed discourses, *Practice in Christianity* (1850), *For Self-Examination* (1851), and the 1854–55 attack on official Christendom. Kierkegaard wrote about Christ as the paradoxical God-man, the “sign of contradiction,” and a contemporary demand for imitation rather than merely an object of historical knowledge.
+
+### Novalis
+
+- **[T1-] Documented fact.** Kierkegaard treated Novalis as a representative of Romantic irony in *On the Concept of Irony* (1841), criticizing the Romantic ironist’s aesthetic dissolution of actuality while also absorbing elements of Romantic literary practice.
+
+### Friedrich Schiller
+
+- **[T1-] Documented fact.** Kierkegaard cited and discussed Schiller’s drama, poetry, and aesthetics in his journals and pseudonymous writings. Schiller belonged to the German literary canon through which Kierkegaard formulated contrasts among aesthetic immediacy, ethical formation, and religious existence.
+
+### Wolfgang Amadeus Mozart
+
+- **[T1-] Documented fact.** The “Immediate Erotic Stages” essay in *Either/Or* (1843) offers an extended interpretation of Mozart and *Don Giovanni*, which Kierkegaard regarded as a uniquely perfect conjunction of musical medium and sensuous-erotic subject. Kierkegaard also repeatedly attended productions of the opera in Copenhagen, but this was engagement with Mozart’s posthumously performed work, not a meeting with Mozart. [Royal Ballet and Opera overview of the work’s reception](https://www.rbo.org.uk/production/don-giovanni-kasper-holten?cast=aigul-akhmetshina)
+
+### Friedrich Wilhelm Joseph Schelling
+
+- **[T3] Documented fact.** Kierkegaard attended Schelling’s University of Berlin lectures on the philosophy of revelation during the winter semester of 1841–42, took extensive surviving notes, and assessed the lectures in letters and journals. He initially welcomed Schelling’s distinction between essence and actuality but became sharply disappointed with the course. [Edition record for Kierkegaard’s lecture notes](https://iris.univr.it/handle/11562/346786)
+- **[T4] Documented fact.** Lecturer and auditor occupied the same Berlin lecture hall beginning with Schelling’s inaugural lecture on 15 November 1841. This establishes direct pedagogical proximity, although no private meeting between them is securely documented. [De Gruyter overview](https://www.degruyterbrill.com/document/doi/10.1515/9780791479940/html)
+
+### Mikhail Bakunin
+
+- **[T4] Documented fact.** Bakunin and Kierkegaard were among the auditors at Schelling’s inaugural Berlin lecture in November 1841. The evidence supports shared lecture-hall presence, not friendship, conversation, correspondence, or mutual intellectual influence. [Cambridge history preview](https://api.pageplace.de/preview/DT0400.9781316169193_A23896542/preview-9781316169193_A23896542.pdf)
+
+### Friedrich Engels
+
+- **[T4] Documented fact.** Engels and Kierkegaard attended Schelling’s inaugural Berlin lecture in November 1841 as intellectually opposed but independently motivated auditors. No documented personal exchange between them is known. [Study of Schelling’s Berlin audience](https://publicatt.unicatt.it/handle/10807/69424)
+
+### Alexander von Humboldt
+
+- **[T4] Reported fact.** Contemporary and later scholarly accounts place Humboldt and Kierkegaard among the distinguished audience at Schelling’s inaugural Berlin lecture in November 1841. This supports co-presence only; no personal interaction is documented. [Survey of Schelling’s 1841 audience](https://www.tandfonline.com/doi/full/10.1080/21692327.2019.1571806)
+
+### Hans Christian Andersen
+
+- **[T1-] Documented fact.** Kierkegaard’s first book, *From the Papers of One Still Living* (Copenhagen, 1838), was an extended critique of Andersen’s novel *Only a Fiddler* and of what Kierkegaard regarded as Andersen’s insufficiently developed conception of personality. [Hans Christian Andersen Centre](https://andersen.sdu.dk/forskning/anmeldelser/kritik_e.html)
+- **[T5] Reported fact.** Andersen’s autobiography recalls encountering Kierkegaard in a Copenhagen street before the review appeared and receiving the impression that Kierkegaard would write favorably. Kierkegaard himself said that he scarcely knew Andersen personally; the safest conclusion is a documented acquaintance or encounter, not friendship. [Museum Odense study](https://museumodense.dk/udgivelser/h-c-andersen-og-soeren-kierkegaard/)
+
+### Theodor W. Adorno
+
+- **[T1+] Documented fact.** Adorno made Kierkegaard the subject of his habilitation, published in 1933 as *Kierkegaard: Construction of the Aesthetic*. It offered a sustained Marxian-critical interpretation of Kierkegaard’s aesthetics, interiority, and social setting rather than straightforward discipleship. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/kierkegaard/)
+
+### Martin Heidegger
+
+- **[T1+] Documented fact.** Heidegger discussed Kierkegaard from his early Freiburg and Marburg work through *Being and Time* (1927) and later writings, selectively crediting him for penetrating analyses of anxiety and existence while confining him chiefly to the religious sphere. In 1963 Heidegger also prepared a paper for the Paris conference marking Kierkegaard’s 150th anniversary. [Cambridge, *Heidegger and Kierkegaard*](https://www.cambridge.org/core/elements/abs/heidegger-and-kierkegaard/959809F81EF9C70A74CAFBF322EC1C42)
+
+### Martin Buber
+
+- **[T1+] Documented fact.** Buber explicitly examined Kierkegaard’s “single one” in the essay “The Question to the Single One” (*Die Frage an den Einzelnen*, 1936), accepting the importance of personal responsibility while criticizing a conception of relation to God that could eclipse relation to other human beings.
+
+### Albert Camus
+
+- **[T1+] Documented fact.** Camus directly analyzed Kierkegaard in *The Myth of Sisyphus* (1942), grouping him among thinkers who recognized the absurd but then, in Camus’s judgment, made a religious “leap” that escaped its consequences. This is a documented but contestable interpretation of Kierkegaard. [Harvard Theological Review discussion](https://www.cambridge.org/core/journals/harvard-theological-review/article/faith-and-the-absurd-kierkegaard-camus-and-jobs-religious-protest/9EB583ED29F743B3FCA6B4BCDB100A73)
+
+### Jean-Paul Sartre
+
+- **[T1+] Documented fact.** Sartre drew on Kierkegaard in his accounts of freedom, anxiety, choice, and singular existence, then addressed him explicitly in “The Singular Universal,” delivered at the UNESCO Kierkegaard colloquium in Paris in April 1964. Sartre recast Kierkegaard’s Christian individual in existentialist and Marxian terms. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/kierkegaard/)
+
+### Jacques Derrida
+
+- **[T1+] Documented fact.** Derrida devoted sustained attention to Kierkegaard—especially Abraham, secrecy, decision, responsibility, and sacrifice—in *The Gift of Death* (*Donner la mort*, developed from lectures and published in French in 1992). His engagement centers principally on *Fear and Trembling*.
+
+### Gilles Deleuze
+
+- **[T1+] Documented fact.** Deleuze explicitly invoked Kierkegaard, alongside Nietzsche, in *Difference and Repetition* (1968) as a thinker who made repetition a fundamental philosophical problem and created conceptual personae capable of enacting movement within thought.
+
+### Jorge Luis Borges
+
+- **[T1+] Documented fact.** Borges read and wrote about Kierkegaard, including in the essay commonly translated as “Kierkegaard,” and referred to him elsewhere when treating theology, paradox, repetition, and the relation between literary authorship and religious thought. This was a posthumous literary-intellectual engagement; the two men’s lifetimes did not overlap.
+
+No T2 prophecy/hyperstition or T9 shared-object transmission meeting the stated evidentiary threshold was found among the roster. In particular, thematic similarity, later influence without identifiable engagement, and simple contemporaneity were not counted as connections.
+
 ## Sources
 
 https://teol.ku.dk/skc/english/about-soeren-kierkegaard/the-global-dane-soeren-kierkegaard-teologian-philosopher-author/soeren-kierkegaard/

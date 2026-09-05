@@ -618,6 +618,19 @@ In **1998**, New York City renamed Dreier-Offerman Park on Gravesend Bay **Calve
 | **1998** | Kowsky biography published; Brooklyn’s Dreier-Offerman Park renamed Calvert Vaux Park. |
 | **2026** | Kowsky’s new landscape-focused monograph published. |
 
+## Atlas Connections
+
+### Frederick Law Olmsted
+
+- **[T3] Documented fact:** Vaux and Olmsted maintained extensive two-way correspondence about design, fees, professional credit, municipal politics, and prospective commissions. Surviving letters include Vaux’s 1865 campaign to bring Olmsted back from California for the Brooklyn park project; their correspondence continued through later collaborations, including Niagara Reservation. ([Vaux to Olmsted, 6 July 1865](https://rotunda.upress.virginia.edu/founders/default.xqy?keys=OLMS-print-01-05-02-0013-0002+OLMS-print-01-05-02-0013-0003); [NYPL finding aid](https://archives.nypl.org/mss/3150); [Library of Congress](https://www.loc.gov/item/prn-18-095/famed-landscape-architect-frederick-law-olmsteds-papers-now-online/2018-07-26/))
+- **[T5] Documented fact:** They met in New York by 1857, jointly prepared the winning Greensward plan for Central Park, and became friends and professional partners. Their formal firm, Olmsted, Vaux & Co., operated from 1865 to 1872; despite disputes and dissolution, they later reunited for Niagara Reservation and the pro-bono Downing Park project. ([National Park Service](https://home.nps.gov/frla/learn/historyculture/vaux.htm); [Olmsted Network](https://olmsted.org/colleagues-firm/olmsted-firm/))
+
+### John Ruskin
+
+- **[T3] Reported fact:** Vaux engaged one-sidedly with Ruskin through Ruskin’s published architectural thought. *Villas and Cottages* (1857) reportedly acknowledges and pays tribute to Ruskin, while Vaux’s later polychromatic Gothic buildings applied principles associated with *The Seven Lamps of Architecture* and *The Stones of Venice*. No correspondence or personal meeting between the two men was located, so this is a documented intellectual and textual reception—not evidence of acquaintance. ([CentralPark.com biography](https://www.centralpark.com/visitor-info/park-history/calvert-vaux/); [Metropolitan Museum discussion](https://resources.metmuseum.org/resources/metpublications/pdf/The_New_British_Galleries.pdf))
+
+No other roster member produced a sufficiently well-documented crossing under the six specified connection types. Apparent links based only on overlapping dates, New York residence, institutional affiliation, artistic influence without identifiable engagement, or later use of a Vaux-designed site were excluded.
+
 ## Sources
 
 https://www.nps.gov/people/calvert-vaux.htm

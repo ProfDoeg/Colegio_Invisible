@@ -989,6 +989,27 @@ No single interpretation exhausts the record. His enduring subject was not simpl
 | 2015 | Restored *The Grim Game* receives major public screening. |
 | 2026 | HRC exhibition *Houdini’s Library* reexamines his collecting and historical practice. |
 
+## Atlas Connections
+
+### L. Frank Baum
+
+- **[T4] Reported fact:** Houdini and Baum attended the same Uplifters gathering at the Los Angeles Athletic Club in **1914 or 1915**, where Ching Ling Foo performed. The exact date and any direct conversation are unrecorded; the evidence is a contemporary clipping preserved in Houdini’s Library of Congress scrapbook. [International Wizard of Oz Club](https://ozclub.org/a-magic-night-with-the-uplifters-by-ian-davis-smith/)
+
+### H. P. Lovecraft
+
+- **[T3] Documented fact:** Their written collaboration began with Lovecraft’s ghostwriting of **“Imprisoned with the Pharaohs”** for Houdini in 1924 and continued through commissioned anti-superstition material, culminating in the unfinished **The Cancer of Superstition** project in 1926. Surviving manuscripts and correspondence document Houdini’s role as client and subject and Lovecraft’s role as ghostwriter. [Brown University Lovecraft Collection](https://www.riamco.org/render?eadid=US-RPB-mslovecraft&view=access), [contemporary project evidence](https://www.theguardian.com/books/2016/mar/16/hp-lovecraft-harry-houdini-manuscript-cancer-superstition-memorabilia)
+
+### Sarah Bernhardt
+
+- **[T3] Documented fact:** In January 1917 Houdini telegraphed Bernhardt offering her a bronze statuette portraying her as the queen in *Ruy Blas*; Bernhardt replied accepting it. Contemporary newspaper reporting records the exchange. [New York Times transcription](https://www.intervalmagic.com/houdini/articles/1917_01.05.html)
+- **[T5] Documented fact:** Houdini, Bess, and Bernhardt met and were photographed together in **1917**. Prints survive in both the Houdini and Bernhardt collections at the Harry Ransom Center. [Houdini collection finding aid](https://norman.hrc.utexas.edu/fasearch/pdf/01275.pdf), [Bernhardt collection finding aid](https://research.hrc.utexas.edu/fasearch/pdf/00184.pdf)
+- **[T9+] Documented fact:** Houdini paid **$350** for the previously returned *Ruy Blas* statuette and arranged its transfer to Bernhardt. Within this pair Houdini is the earlier holder/donor and Bernhardt the later recipient. [Contemporary report](https://www.intervalmagic.com/houdini/articles/1917_01.05.html)
+
+### Sir Arthur Conan Doyle
+
+- **[T3] Documented fact:** Houdini and Doyle maintained extensive correspondence from at least **March 1920** into the mid-1920s concerning Spiritualism, séances, spirit photography, Houdini’s films, and the *Scientific American* tests. Letters in both directions survive in institutional collections. [Library of Congress finding aid](https://findingaids.loc.gov/exist_collections/ead3pdf/rbc/2019/rb019002.pdf), [Harry Ransom Center Doyle collection](https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00788)
+- **[T5] Documented fact:** Houdini met Doyle and his family in Britain on **14 April 1920**. Their subsequent personal meetings included the Doyles’ **17–18 June 1922** Atlantic City visit, during which Jean Conan Doyle produced the disputed automatic-writing “Mama” message. The men’s friendship later deteriorated into a public controversy over paranormal evidence. [Harry Ransom Center Houdini finding aid](https://norman.hrc.utexas.edu/fasearch/pdf/01275.pdf)
+
 ## Sources
 
 https://research.hrc.utexas.edu/fasearch/pdf/01276.pdf

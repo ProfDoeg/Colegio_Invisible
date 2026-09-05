@@ -367,6 +367,50 @@ His life now supports two simultaneous reputational histories: canonical archite
 | 2021–22 | Renewed abuse controversy; Trinity commemoration changed. |
 | 2026 | New German source-critical scholarly reassessment published. |
 
+## Atlas Connections
+
+### Albert Einstein
+
+- **[T3]** **Documented fact:** Schrödinger and Einstein maintained an extensive scientific correspondence and personal intellectual relationship from the 1920s through the 1950s. Their exchanges addressed wave mechanics, the interpretation of quantum theory, the EPR problem and Schrödinger’s cat, and later unified-field theory. Surviving examples include Einstein’s letter of 31 May 1928 inviting Schrödinger to visit and criticizing the Bohr–Heisenberg interpretation, Schrödinger’s confessional letter from De Panne on 19 July 1939, and Einstein’s criticism of Schrödinger’s 1947 Dublin field-theory announcement. The correspondence is catalogued in the [University of Vienna Schrödinger archive](https://services.phaidra.univie.ac.at/api/object/o%3A2085354/download).
+
+### Niels Bohr
+
+- **[T3]** **Documented fact:** Schrödinger visited Bohr’s Copenhagen institute in autumn 1926 and debated the meaning of wave mechanics and quantum jumps with Bohr at length. Their subsequent correspondence continued the interpretive dispute: a surviving archival description records Schrödinger sending Einstein copies of a letter from Bohr and his answer on 30 May 1928. Both also participated in the October 1927 Fifth Solvay Conference in Brussels. See the [University of Vienna archive catalogue](https://services.phaidra.univie.ac.at/api/object/o%3A2085354/download) and the [Solvay Institutes’ conference history](https://solvayinstitutes.be/conference/30th-solvay-conference-on-physics/).
+
+### Werner Heisenberg
+
+- **[T1-]** **Documented fact:** Schrödinger directly analyzed Heisenberg’s formulation in his 1926 paper “Über das Verhältnis der Heisenberg-Born-Jordanschen Quantenmechanik zu der meinen,” demonstrating the relationship between matrix mechanics and his own wave mechanics. The two physicists also attended the Fifth Solvay Conference in Brussels in October 1927. Schrödinger was therefore the later writer in this particular connection, not merely a scientist retrospectively associated with Heisenberg.
+
+### Paul Adrien Maurice Dirac
+
+- **[T5]** **Documented fact:** Schrödinger and Dirac met within the international quantum-physics community, including at the Fifth Solvay Conference in Brussels in October 1927. They were jointly honored in Stockholm in December 1933 when the 1933 Nobel Prize in Physics was divided between them for new forms of atomic theory. The meeting and shared award are documented by the [Solvay Institutes](https://solvayinstitutes.be/conference/30th-solvay-conference-on-physics/) and [Nobel Prize records](https://www.nobelprize.org/prizes/physics/1933/summary/).
+
+### Wolfgang Pauli
+
+- **[T3]** **Documented fact:** Schrödinger and Pauli conducted a sustained, technically detailed correspondence beginning during the creation of wave mechanics. Pauli evaluated Schrödinger’s early papers, discussed hydrogen, spin, relativistic wave equations and quantum interpretation, and remained a forthright critic and interlocutor. A surviving example is Pauli’s letter to Schrödinger dated 4 October 1939 in Zürich; their correspondence is preserved in the Vienna and CERN collections. See [University of Vienna Phaidra](https://phaidra.univie.ac.at/detail/o%3A261222) and the [CERN Pauli archive](https://cds.cern.ch/record/83595?ln=en).
+
+### John von Neumann
+
+- **[T3]** **Documented fact:** A letter from von Neumann to Schrödinger dated 11 April 1936 survives in the Archive for the History of Quantum Physics. It establishes direct written contact, although the available catalogue entry alone does not justify describing the relationship as a close collaboration or friendship. See the [American Philosophical Society catalogue](https://as.amphilsoc.org/repositories/2/archival_objects/26769).
+
+### Marie Skłodowska-Curie
+
+- **[T4]** **Documented fact:** Curie and Schrödinger were both participants at the Fifth Solvay Conference on “Electrons and Photons,” held in Brussels from 24–29 October 1927, and appear in its official group photograph. This establishes shared conference milieu, but the located evidence does not by itself establish correspondence, friendship or a substantive personal exchange. The gathering is described by the [Solvay Institutes](https://solvayinstitutes.be/conference/30th-solvay-conference-on-physics/).
+
+### William Rowan Hamilton
+
+- **[T1-]** **Documented fact:** Schrödinger explicitly developed wave mechanics through Hamiltonian mechanics and the optical–mechanical analogy created by Hamilton in the nineteenth century. Schrödinger’s notebooks and 1926 wave-mechanics papers use and discuss that inherited framework, making Schrödinger the later writer in the pair. Historical analysis identifies Hamilton’s analogy as a central heuristic in Schrödinger’s derivation of wave mechanics; see the study “[The classical roots of wave mechanics](https://doi.org/10.1016/j.shpsb.2009.06.007).”
+
+### Plato
+
+- **[T1-]** **Documented fact:** Schrödinger discussed Plato as part of his historical examination of Greek natural philosophy, the conflict between reason and sensory evidence, and the intellectual ancestry of modern science in lectures delivered at University College Dublin in 1948 and published as *Nature and the Greeks* (1954). This is a later author’s engagement with an ancient figure, not evidence for any direct or esoteric transmission. See the [Cambridge University Press edition](https://www.cambridge.org/core/books/nature-and-the-greeks-and-science-and-humanism/9781107431836).
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Aristotle appears within Schrödinger’s written treatment of ancient Greek accounts of nature and scientific explanation in *Nature and the Greeks*, based on his 1948 Dublin lectures. The supported crossing is textual and retrospective only: Schrödinger was the later writer assessing an earlier thinker. See the [Cambridge University Press edition](https://www.cambridge.org/core/books/nature-and-the-greeks-and-science-and-humanism/9781107431836).
+
+No supported T2 prophecy/hyperstition or T9 shared-object transmission was located. Mere thematic resemblance, influence at several removes, overlapping residence in a city, or later use of “Schrödinger” in another roster member’s work has not been counted without evidence of the defined crossing.
+
 ## Sources
 
 https://www.nobelprize.org/prizes/physics/1933/schrodinger/biographical/

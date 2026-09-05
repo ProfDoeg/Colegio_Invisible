@@ -646,6 +646,48 @@ These are historiographical lenses, not mutually exclusive factual verdicts. Rec
 - Ballet reconstructions are evidence-based but not transparent time machines: Nijinsky notation, photographs, memories, and later bodies/stages require interpretive decisions.
 - Search results were used to locate stronger catalogues, archives and scholarship; Wikipedia was consulted for orientation but is not the principal evidentiary foundation.
 
+## Atlas Connections
+
+### Gabriele d’Annunzio
+
+- **[T3] Documented fact.** D’Annunzio approached Debussy in November 1910 to compose incidental music for *Le Martyre de saint Sébastien*. Their written collaboration included a contract signed on 9 December 1910 and a surviving telegram from D’Annunzio to Debussy dated 10 December. The jointly created mystery play premiered in Paris on 22 May 1911. [BnF catalogue](https://catalogue.bnf.fr/ark:/12148/cb396158697), [Bru Zane Mediabase](https://www.bruzanemediabase.com/en/exploration/works/martyre-saint-sebastien-claude-debussy)
+
+### Dante Gabriel Rossetti
+
+- **[T1-] Documented fact.** Debussy composed *La Damoiselle élue* in Paris during 1887–88 from Gabriel Sarrazin’s French translation of Rossetti’s poem *The Blessed Damozel*. Because Rossetti, the earlier figure, supplied the written work Debussy subsequently interpreted, Debussy carries the negative sign. [G. Henle Verlag critical preface](https://www.henle.de/media/90/94/b2/1690899700/1192-1690899700-sync.pdf)
+
+### Edgar Allan Poe
+
+- **[T1-] Documented fact.** Debussy wrote his own libretti and surviving music for two unfinished operatic projects derived from Poe: *Le Diable dans le beffroi* and *La Chute de la maison Usher*, pursued principally during the 1900s–1910s. The latter’s autograph materials explicitly identify Poe’s story as their source. [BnF catalogue record](https://catalogue.bnf.fr/ark:/12148/cb44904418q)
+
+### Erik Satie
+
+- **[T5] Documented fact.** Debussy and Satie formed a personal friendship in the Montmartre milieu around 1891. Surviving correspondence and dedications attest the relationship; Debussy also orchestrated Satie’s first and third *Gymnopédies*. Their friendship deteriorated during the First World War and effectively ended after disagreements surrounding *Parade* in 1917. [Fondation Erik Satie archives](https://imec-archives.com/archives/fonds/165SAT), [Fondation La Poste](https://fondationlaposte.org/florilettres/portraits-dauteurs/erik-satie-portrait-par-corinne-amar)
+
+### Igor Stravinsky
+
+- **[T5] Documented fact.** Debussy and Stravinsky met personally, exchanged letters and scores, and admired one another’s music despite later wartime tensions. On 9 June 1912, at Louis Laloy’s home near Paris, they played Stravinsky’s four-hand reduction of *Le Sacre du printemps* together; their correspondence continued through Debussy’s final years. [University of California Press](https://publishing.cdlib.org/ucpressebooks/view?anchor.id=0&brand=eschol&chunk.id=d0e1785&doc.view=content&docId=ft967nb647&toc.depth=1), [Lille heritage catalogue](https://bm-lille.fr/patrimoine/doc/ORPHEE/frOr0701129747/correspondance-1872-1918-claude-debussy)
+
+### Pyotr Ilyich Tchaikovsky
+
+- **[T9+] Documented fact.** In 1880 Debussy gave or sent the manuscript of his youthful *Danse bohémienne* to his employer Nadezhda von Meck, who forwarded it to Tchaikovsky for evaluation. Tchaikovsky returned a written judgment criticizing its brevity and loose form; the manuscript remained in Russia and was published only in 1932. Debussy receives the positive sign as the work’s originator, with the manuscript serving as the object transmitted between the two composers; no personal meeting is documented. [G. Henle Verlag critical preface](https://www.henle.de/media/90/94/b2/1690899700/1192-1690899700-sync.pdf)
+
+### Richard Wagner
+
+- **[T1-] Documented fact.** Wagner died before Debussy’s visits to Bayreuth in 1888 and 1889, so no personal meeting occurred. Debussy nevertheless wrote repeatedly about Wagner and Wagnerism in his criticism, including an article devoted to “Richard Wagner” later collected in *Monsieur Croche antidilettante*. His assessments combined acknowledgment of Wagner’s achievement with attacks on the quasi-religious Wagner cult and its influence upon French music. [Digitized 1921 *Monsieur Croche*](https://fr.wikisource.org/wiki/Monsieur_Croche), [Debussy’s Wagner essay](https://fr.wikisource.org/wiki/Page:Debussy_-_Monsieur_Croche%2C_1921.djvu/103)
+
+### Sergei Diaghilev
+
+- **[T3] Documented fact.** Debussy entered a direct professional and contractual relationship with Diaghilev’s Ballets Russes. He authorized the use of his 1894 *Prélude à l’après-midi d’un faune* for the 1912 ballet and composed *Jeux* on Diaghilev’s commission for the company’s 1913 Paris season. The surviving production history supports negotiation and artistic exchange, although not an intimate friendship. [Library of Congress Ballets Russes timeline](https://www.loc.gov/collections/ballets-russes-de-serge-diaghilev/articles-and-essays/timeline-of-ballets-russes/)
+
+### Vaslav Nijinsky
+
+- **[T3] Documented fact.** Debussy saw Nijinsky perform and choreograph his music in the Ballets Russes productions of *L’Après-midi d’un faune*, premiered at the Théâtre du Châtelet on 29 May 1912, and *Jeux*, premiered at the Théâtre des Champs-Élysées on 15 May 1913. Their crossing was artistically direct but contentious: Debussy objected to important aspects of Nijinsky’s choreography. Nijinsky’s surviving choreographic score independently documents his transformation of Debussy’s *Faune*. [Library of Congress Ballets Russes timeline](https://www.loc.gov/collections/ballets-russes-de-serge-diaghilev/articles-and-essays/timeline-of-ballets-russes/), [British Library catalogue](https://searcharchives.bl.uk/catalog/032-002103433)
+
+### Auguste Rodin
+
+- **[T3] Documented fact.** The Musée Rodin identifies Debussy among the correspondents represented in Rodin’s historical archive, establishing at least one-sided written contact. Rodin also publicly defended Nijinsky after the 1912 *Faune* scandal, but that intervention alone does not establish a separate personal meeting with Debussy; no stronger relationship is asserted here. [Musée Rodin correspondence archive](https://www.musee-rodin.fr/recherche/fonds-patrimoniaux-et-documentaires-du-musee/fonds-historiques-et-archives-institutionnelles/fonds-historique/correspondants-de-rodin)
+
 ## Sources
 
 https://archive.org/details/cataloguedeluvre0000lesu

@@ -1568,6 +1568,30 @@ Lay remains a central figure in the historiography of Enron, U.S. corporate gove
 
 ---
 
+## Atlas Connections
+
+### George Herbert Walker Bush
+
+- **[T3]** **Documented fact:** Lay corresponded with George H. W. Bush and his vice-presidential and presidential offices. The archival record includes policy letters from Lay, invitations, appointment recommendations, a congratulatory letter to Lay, and a card from Bush thanking him for his “helpful suggestions.” The surviving documents span Bush’s vice presidency and presidency and address both personal occasions and Enron-relevant policy matters. [George H. W. Bush Presidential Library finding aid](https://www.bush41library.gov/digital-research-room/finding-aid/records-kenneth-lay-and-enron-corporation)
+
+- **[T4]** **Documented fact:** Lay co-chaired the host organization for the July 1990 Houston Economic Summit, at which President Bush received the leaders of the other major industrial democracies. This establishes their presence within the same Houston political-business milieu, independently of the correspondence record. [George H. W. Bush Presidential Library finding aid](https://www.bush41library.gov/digital-research-room/finding-aid/records-kenneth-lay-and-enron-corporation)
+
+### George Walker Bush
+
+- **[T3]** **Documented fact:** Lay and George W. Bush exchanged letters while Bush was governor of Texas. Released correspondence addressed legislation, Enron business, gifts, holidays, birthdays, Bush’s knee surgery, and other personal matters. An April 3, 1997 letter also referred to Lay’s meeting with Bush and Uzbekistan’s ambassador. [Washington Post reconstruction of the released letters](https://www.washingtonpost.com/archive/politics/2002/02/16/lays-letters-to-bush-show-personal-ties/cca5da79-7eaa-46a5-8e45-1021006b84f4/)
+
+- **[T5]** **Documented fact:** Lay met Bush in person, including the meeting with Uzbekistan’s ambassador confirmed in Lay’s April 3, 1997 correspondence. The broader documentary record supports a familiar political and personal relationship, although it does not by itself establish a criminal quid pro quo. [Washington Post](https://www.washingtonpost.com/archive/politics/2002/02/16/lays-letters-to-bush-show-personal-ties/cca5da79-7eaa-46a5-8e45-1021006b84f4/)
+
+### Bill Clinton
+
+- **[T5]** **Reported fact:** Lay and President Clinton played golf together in the Vail, Colorado, area in August 1993; contemporary local reporting identified Lay as a member of Clinton’s foursome. Lay subsequently met Clinton at the White House in August 1997 and advocated a market-based approach to climate policy. [Vail Daily historical reconstruction](https://www.vaildaily.com/news/time-machine-30-years-ago-president-bill-clinton-visits-vail/), [Washington Post](https://www.washingtonpost.com/archive/business/technology/2002/01/14/media-find-enron-scandal-newsworthy-when-white-house-mentioned/a09844fa-c441-42e5-aa42-e2023117cedd/)
+
+### Nelson Mandela
+
+- **[T5]** **Documented fact:** On October 26, 1999, at Rice University in Houston, Lay joined James Baker and Rice officials in personally presenting former South African president Nelson Mandela with the Enron Prize for Distinguished Public Service after Mandela delivered his address, “Solving Conflict Through Resolution.” [Rice University account](https://news2.rice.edu/1999/11/04/mandelas-lifelong-battle-against-injustices-recognized-with-enron-prize/)
+
+No additional roster crossings were identified with evidence sufficient for the specified connection types. Mere ideological resemblance, common organizational membership, attendance on unconfirmed invitation lists, or indirect links through Enron have been excluded.
+
 ## Sources
 
 https://www.tshaonline.org/handbook/entries/lay-kenneth-lee

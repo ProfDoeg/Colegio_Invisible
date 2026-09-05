@@ -1990,6 +1990,38 @@ The following problems remain especially suitable for further archival work:
 
 ---
 
+## Atlas Connections
+
+### Benjamin Franklin
+
+- **[T3] Documented fact:** Court de Gébelin corresponded directly with Franklin in Paris. On 29 June 1778, writing as secretary of Les Neuf Sœurs, he invited Franklin and his family to the lodge’s celebration at Ranelagh; additional surviving letters concern introductions, American-language materials, and learned-society exchanges. Both men also belonged to Les Neuf Sœurs and the American Philosophical Society. The correspondence securely establishes written engagement, although not every later claim about their personal intimacy is documented. [Founders Online](https://founders.archives.gov/documents/Franklin/01-26-02-0633), [American Philosophical Society](https://as.amphilsoc.org/agents/people/1578)
+
+### Voltaire
+
+- **[T5] Documented fact:** Court de Gébelin participated personally in Voltaire’s initiation into the Paris lodge Les Neuf Sœurs on 7 April 1778. Masonic histories identify Court and Franklin as Voltaire’s conductors or sponsors, placing Court and Voltaire together in the initiation ceremony shortly before Voltaire’s death. [Louis Amiable, *Une loge maçonnique d’avant 1789*](https://verity59.org/uploads/3/4/7/7/34770163/1897_amiable_loge_neuf_soeurs.pdf), [Founders Online editorial note](https://founders.archives.gov/documents/Franklin/01-26-02-0633)
+
+### Franz Anton Mesmer
+
+- **[T3] [T5] Documented fact:** Court became Mesmer’s patient in Paris during his serious illness in 1783 and personally underwent Mesmer’s animal-magnetic treatment. He then addressed Mesmer’s claims in his published *Lettre de l’auteur du Monde primitif à Messieurs ses souscripteurs sur le magnétisme animal* (1783), reporting improvement and advocating investigation of the treatment. This establishes both personal contact and one-sided published engagement; it does not establish that Mesmer’s supposed magnetic fluid cured Court. [Wood Library-Museum](https://www.woodlibrarymuseum.org/rare-book/court-de-gebelin-a-lettre-de-lauteur-du-monde-primitif-a-messieurs-ses-souscripteurs-1783/), [Wellcome Collection](https://wellcomecollection.org/works/b46rctch), [Founders Online contemporary report](https://founders.archives.gov/documents/Franklin/01-39-02-0355)
+
+### Etteilla
+
+- **[T1+] Documented fact:** Jean-Baptiste Alliette (“Etteilla”), writing after Court’s 1781 tarot essay, explicitly took up Court’s Egyptian interpretation in *Manière de se récréer avec le jeu de cartes nommées Tarots* (1783) and addressed him directly in the 1784 pamphlet *Court de Gébelin, salut*. Etteilla accepted the basic Egyptian premise while revising and expanding Court’s reconstruction into a practical divinatory system. Court is therefore the earlier figure written about and answered by Etteilla; no personal meeting between them has been securely demonstrated. [Kit Stone, “Tarot in Late Enlightenment France”](https://journals.library.mun.ca/index.php/bookish/article/download/2829/2300), [UQAM study](https://archipel.uqam.ca/1028/1/D1656.pdf)
+
+### Arthur Edward Waite
+
+- **[T1+] Documented fact:** More than a century after Court’s death, Waite discussed Court by name in *The Pictorial Key to the Tarot* (1910), treating him as an early exponent of the tarot’s supposed Egyptian origin while criticizing the historical and symbolic claims associated with that school. This is a posthumous textual connection, not a personal one. [Waite, *The Pictorial Key to the Tarot*](https://sacred-texts.com/tarot/pkt/pkt0104.htm)
+
+### Cyrus the Great
+
+- **[T1-] Documented fact:** Court wrote about Cyrus in the “Dissertations mêlées” and oriental-historical portions of volume VIII of *Le Monde primitif* (Paris, 1781), incorporating him into a speculative reconstruction of Median, Persian, Babylonian, and Near Eastern chronology and symbolism. Court is the later writer in this pair. [Digitized volume VIII](https://books.google.com/books/about/Monde_primitif_analys%C3%A9_et_compar%C3%A9_avec.html?hl=fr&id=M_X-aaLvZiAC)
+
+### Nebuchadnezzar II
+
+- **[T1-] Documented fact:** Court discussed Nebuchadnezzar—printed as “Nabuchodonosor”—in volume VIII of *Le Monde primitif* (1781), within his treatment of Babylonian and oriental history. This is documented antiquarian writing by Court about the much earlier ruler; its chronology and interpretations reflect eighteenth-century speculative universal history rather than modern Assyriology. [Digitized volume VIII](https://books.google.com/books/about/Monde_primitif_analys%C3%A9_et_compar%C3%A9_avec.html?hl=fr&id=M_X-aaLvZiAC)
+
+No documented T2 prophecy/hyperstition or T9 shared-object transmission involving Court de Gébelin and a roster member was established. Other apparent affinities—especially later occult, Masonic, linguistic, or mythographic parallels—were omitted where the evidence showed influence only at several removes, mere contemporaneity, or shared subject matter without a documented crossing.
+
 ## Sources
 
 https://lumieres.unil.ch/fiches/bio/43/

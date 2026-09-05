@@ -377,6 +377,54 @@ The most defensible legacy claim is institutional: she created durable infrastru
 - A complete item-level catalogue of every letter, drawing, and editorial preface would require on-site archival work.
 - No reliable evidence was found for criminal conduct, imprisonment, formal political office, awards, patents, addiction, or a diagnosed psychiatric disorder.
 
+## Atlas Connections
+
+### Aby Warburg
+
+- **[T9-] Documented fact:** Fröbe-Kapteyn had no documented personal contact with Warburg, who died in 1929. The connection is institutional and posthumous: beginning in 1935 she consulted and corresponded with staff of the photographic collection descended from Warburg’s work, visited it repeatedly, and in the 1950s deposited/donated her Eranos image archive to the **Warburg Institute** in London. She is therefore the later party in a shared-site/archive lineage. [Visual Resources](https://www.tandfonline.com/doi/full/10.1080/01973762.2014.936097); [Eranos Foundation](https://www.eranosfoundation.org/page.php?page=19&pagename=iconographic+collection)
+
+### Carl Gustav Jung
+
+- **[T5] Documented fact:** Fröbe-Kapteyn first met Jung around 1930 at Hermann Keyserling’s School of Wisdom in Darmstadt. Jung subsequently became her analyst, adviser, and the principal recurring intellectual presence at the Eranos conferences she organized in Ascona. [Eranos Foundation history](https://www.eranosfoundation.org/page.php?page=4&pagename=history)
+- **[T3] Documented fact:** Their relationship included extensive correspondence and direct intellectual collaboration. At Jung’s request, Fröbe-Kapteyn began assembling symbolic images in the mid-1930s; the resulting archive supplied illustrations and research material for Jung’s *Psychology and Alchemy* and related work. [Eranos iconographic collection](https://www.eranosfoundation.org/page.php?page=19&pagename=iconographic+collection)
+
+### Charlotte Bara
+
+- **[T5] Documented fact:** Fröbe-Kapteyn and the dancer Charlotte Bara met at the second Eranos conference at Ascona in August 1934; Bara appears on its participant list. Both also created purpose-built cultural spaces near Monte Verità—Casa Eranos and Teatro San Materno—and shared acquaintances including Leo Kok. [Fondazione Cini/Eranos conference abstracts](https://eranosfoundation.org/images/uploads/attachments/1668418374_FondazioneCini-Eranos-2022.pdf)
+
+### Erwin Schrödinger
+
+- **[T4] Documented fact:** Schrödinger lectured at Fröbe-Kapteyn’s Eranos meeting in Ascona, 2–9 August 1946, presenting “Der Geist der Naturwissenschaft”; she organized the conference and edited the yearbook containing his contribution. [Eranos lectures catalogue](https://eranosfoundation.org/page.php?page=12&pagename=lectures)
+- **[T3] Documented fact:** Archival holdings record a letter from Fröbe-Kapteyn to Schrödinger dated 27 October 1946 at Ascona, enclosing a draft program for the coming Eranos meetings, as well as an undated related letter/program draft for 1947. [University of Vienna Schrödinger-document inventory](https://services.phaidra.univie.ac.at/api/object/o%3A2085354/download)
+
+### Giuseppe Tucci
+
+- **[T4] Documented fact:** Tucci attended Fröbe-Kapteyn’s Eranos conference at Ascona, 19–27 August 1953, and delivered “Earth in India and Tibet.” Fröbe-Kapteyn organized the meeting and edited *Eranos-Jahrbuch* XXII in which the lecture appeared. This establishes shared presence at Eranos, but the consulted evidence does not independently establish friendship. [Eranos lectures catalogue](https://www.eranosfoundation.org/page.php?page=12&pagename=lectures)
+
+### Hermann Keyserling
+
+- **[T4] Documented fact:** During the late 1920s or around 1930, Fröbe-Kapteyn participated in the milieu of Keyserling’s **Schule der Weisheit** at Darmstadt, where she first met Jung and encountered a circle pursuing the comparative “common root” of religions. The school also provided an institutional model for her developing Eranos project; the available source establishes the shared institutional milieu more securely than a specific personal meeting with Keyserling. [Eranos Foundation history](https://www.eranosfoundation.org/page.php?page=4&pagename=history)
+
+### Ludwig Derleth
+
+- **[T5] Reported fact:** Eranos institutional history identifies the Munich poet Derleth as Fröbe-Kapteyn’s first profound personal contact with symbolism and as an important influence on Eranos’s gestation during the 1920s. The accessible account does not supply precise meeting dates or surviving correspondence. [Eranos Foundation historical account](https://eranosfoundation.org/PRE/history_b.htm)
+
+### Martin Buber
+
+- **[T4] Documented fact:** Buber attended the second Eranos gathering at Ascona, 20 August–1 September 1934, delivering two connected lectures on symbolic and sacramental existence in Judaism; Fröbe-Kapteyn organized and hosted the meeting and edited the resulting yearbook. [Eranos Foundation](https://www.eranosfoundation.org/page.php?page=17&pagename=aragno)
+- **[T3] Documented fact:** The Martin Buber Archives preserve multiple letters from Fröbe-Kapteyn to Buber—including letters dated 1 October 1933, 7 and 9 March 1934, 3 and 13 August 1934, and 27 July 1935—concerning invitations, participants, programs, and Buber’s inability to return in 1935 after Nazi restrictions on his teaching. [University of Chicago dissertation citing the archival files](https://knowledge.uchicago.edu/record/445/files/Shonkoff_uchicago_0330D_14542.pdf); [Journal of Religion article](https://www.journals.uchicago.edu/doi/abs/10.1086/715776)
+
+### Mircea Eliade
+
+- **[T4] Documented fact:** Eliade repeatedly lectured at Fröbe-Kapteyn’s Eranos conferences in Ascona from 1950 through her final years as organizer, including the meetings of 1950, 1952, 1953, 1954, 1956, and 1957. She hosted the gatherings and edited the volumes containing his papers. [Eranos lectures catalogue](https://eranosfoundation.org/page.php?page=12&pagename=lectures)
+- **[T3] Documented fact:** Eliade explicitly reflected in print on the Eranos meetings and quoted Fröbe-Kapteyn’s metaphor comparing their intellectual movement to a dance. Her image archive also furnished research material for his *The Forge and the Crucible* (1956), creating a documented two-way intellectual exchange between organizer-archivist and scholar. [Fondazione Cini/Eranos abstracts](https://eranosfoundation.org/images/uploads/attachments/1668418374_FondazioneCini-Eranos-2022.pdf); [Eranos iconographic collection](https://www.eranosfoundation.org/page.php?page=19&pagename=iconographic+collection)
+
+### Rudolf Ritsema
+
+- **[T5] Documented fact:** Ritsema belonged to Eranos during Fröbe-Kapteyn’s lifetime and became part of its succession structure. As her health and active participation declined around 1960–61, she reportedly entrusted him with overall administrative authority so that the meetings would continue; after her death he assisted Adolf Portmann and later directed and edited Eranos activities. [Historical study of Eranos](https://www.rdpc.uevora.pt/bitstream/10174/37094/1/Doutoramento-Filosofia-Christian_Carlos_Kuhn.pdf); [Eranos yearbooks catalogue](https://www.eranosfoundation.org/page.php?page=10&pagename=yearbooks)
+
+No reliable documented crossing was found for the remaining roster members. In particular, broad overlap with Monte Verità, Jungianism, Theosophy, comparative religion, or the Warburg tradition was not counted without evidence of correspondence, encounter, precise shared presence, written engagement, or a qualifying shared object/site.
+
 ## Sources
 
 https://awarewomenartists.com/en/artiste/olga-frobe-kapteyn/

@@ -553,6 +553,18 @@ The most durable documentary legacy is narrower and stronger: Musa commanded a p
 | 2012 onward | $400-billion “richest person ever” estimate circulates globally | Popular-media construction |
 | 2019 | *Caravans of Gold* exhibition foregrounds material networks beyond the single-ruler legend | Major museum reinterpretation |
 
+## Atlas Connections
+
+### Ibn Battuta
+
+- **[T1+]** **Documented fact.** Ibn Battuta visited Mali in **1352–1353**, roughly fifteen to twenty years after Musa’s death, and his *Riḥla* recorded retrospective information about Musa, including reports concerning his genealogy, pilgrims who had accompanied him, and the settlement of debts associated with his 1324–25 pilgrimage. This is a literary connection only: Ibn Battuta did not meet Musa. [Cambridge University Press](https://www.cambridge.org/core/journals/journal-of-african-history/article/abs/thirteenth-and-fourteenthcentury-kings-of-mali1/F6837FD917408E5ACDFF65500ECA04DE)
+
+### Ahmad al-Qalqashandi
+
+- **[T1+]** **Documented fact.** The Cairo chancery scholar Ahmad al-Qalqashandi (1355–1418) discussed Mansa Musa and Mali retrospectively in *Ṣubḥ al-aʿshā*, composed in the **late fourteenth or early fifteenth century**. His notices include Musa’s dynasty and the reported repayment of debts from the pilgrimage; scholarship identifies portions as dependent upon Ibn Khaldun rather than independent testimony. Al-Qalqashandi was born after Musa’s death, so no personal encounter is possible. [Cambridge University Press](https://www.cambridge.org/core/journals/journal-of-african-history/article/abs/thirteenth-and-fourteenthcentury-kings-of-mali1/F6837FD917408E5ACDFF65500ECA04DE)
+
+No other roster member has a sufficiently documented direct, literary, proximity, personal, prophetic, or shared-object connection to Mansa Musa under the stated criteria.
+
 ## Sources
 
 https://www.bu.edu/africa/outreach/teachingresources/history/ancient-to-medieval-history/k_o_mali/

@@ -592,6 +592,35 @@ Street names, schools, libraries, prizes, busts, theatre pieces, musical setting
 - Exact salaries, prize figures, and medical prognosis are preserved as reported rather than converted into modern values.
 - Storni’s periodical corpus is large and dispersed. The works list aims at bibliographic completeness by book and genre, but does not pretend to enumerate every newspaper item; Muschietti’s scholarly volumes and periodical databases remain the authoritative route for item-level work.
 
+## Atlas Connections
+
+### Alberto Gerchunoff
+
+- **[T4]** **Documented fact:** Storni and Gerchunoff attended the *Nosotros* banquet honoring Manuel Gálvez at Restaurante Génova, Buenos Aires, on 9 May 1916. They later occupied the same Anaconda literary-artistic milieu in the early 1920s; the evidence establishes repeated shared settings, though not necessarily a close friendship. [Centro Virtual Cervantes chronology](https://cvc.cervantes.es/actcult/storni/cronologia/cronologia02.htm); [University of Chile study citing Roberto Giusti’s contemporary recollection](https://repositorio.uchile.cl/bitstream/handle/2250/108872/Subjetividad-femenina-y-experiencia-moderna-en-la-escritura-de-Alfonsina-Storni.pdf?sequence=4)
+
+### Jorge Luis Borges
+
+- **[T3]** **Documented fact:** Borges addressed Storni’s work directly, and dismissively, in “La lírica argentina contemporánea,” published in Madrid’s *Cosmópolis* in December 1921. This is a one-sided written engagement rather than evidence of a personal feud. [Centro Virtual Cervantes biography](https://cvc.cervantes.es/actcult/storni/biografia.htm)
+- **[T4]** **Documented fact:** Both belonged to the Buenos Aires literary milieu involved in establishing the Sociedad Argentina de Escritores. Storni drove the preliminary organizing work and hosted meetings at Córdoba 807; Borges was named among SADE’s board members when the association formally assembled on 8 November 1928. The record supports institutional proximity, not close friendship. [Centro Virtual Cervantes chronology](https://cvc.cervantes.es/actcult/storni/cronologia/cronologia03.htm)
+
+### Emín Arslán
+
+- **[T3]** **Documented fact:** Arslán, director of *La Nota*, published Storni’s poetry and prose from 1916 and personally proposed that she take charge of its “Feminidades” section. Storni recorded that proposal in her inaugural column of 28 March 1919; she remained a regular columnist through November 1919. Their crossing was therefore a direct editorial and written engagement, not merely publication in the same periodical. [La Nación account reproducing Storni’s description](https://www.lanacion.com.ar/cultura/con-la-mira-en-la-mujer-futura-nid1702838/); [scholarly anthology of *La Nota*](https://www.memoria.fahce.unlp.edu.ar/libros/pm.23/pm.23.pdf)
+
+### Enrique Santos Discépolo
+
+- **[T5]** **Reported fact:** Retrospective cultural histories identify Storni as a friend of Discépolo and his partner, Tania, within Buenos Aires theatrical and literary society, and describe her participating in their social gatherings during the 1930s. The friendship is repeatedly reported, but the sources consulted are later reconstructions rather than contemporary correspondence between Storni and Discépolo. [Buenos Aires Historia](https://buenosaireshistoria.org/juntas/enrique-santos-discepolo/); [La Nación profile of Discépolo and Tania](https://www.lanacion.com.ar/lifestyle/enrique-santos-discepolo-y-tania-nid475042/)
+
+### Federico García Lorca
+
+- **[T5]** **Documented fact:** Storni met García Lorca in Buenos Aires during his 1933–34 Argentine visit, in the Signo circle at the Hotel Castelar. Institutional accounts place them among the writers who saw one another during his stay, but no substantial collaboration or correspondence between them is documented. [Centro Virtual Cervantes Storni chronology](https://cvc.cervantes.es/actcult/storni/cronologia/cronologia03.htm); [Centro Virtual Cervantes Lorca chronology](https://cvc.cervantes.es/literatura/lorca_america/introduccion.htm)
+
+### Luis Perlotti
+
+- **[T5]** **Documented fact:** Storni and sculptor Luis Perlotti became friends through La Peña’s gatherings in the Café Tortoni cellar, which both regularly attended from the mid-1920s. Museum documentation also records that they conversed there. Perlotti later created her Mar del Plata memorial, but that posthumous tribute is not classified as T9 because no object passed between the two during their lives. [Museo de Esculturas Luis Perlotti](https://buenosaires.gob.ar/gcaba_historico/noticias/datos-curiosos-escultura-de-alfonsina-storni); [Museo Benito Quinquela Martín collection record](https://coleccion.quinquela.ar/index.php/Detail/entities/677)
+
+No other roster member produced a sufficiently documented crossing in the sources consulted. Mere literary comparison, shared nationality, overlapping chronology, posthumous influence, or appearance in the same anthology was excluded.
+
 ## Sources
 
 https://ahira.com.ar/ejemplares/diario-de-poesia-n-23/

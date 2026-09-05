@@ -625,6 +625,68 @@ Because he is living, “legacy” remains provisional.
 | Jan.–Feb. 2026 | Podcast drug recollection prompts inquiry and formal charge. |
 | 20 Aug. 2026 | Living and politically active; drug-speech trial scheduled for 16 Dec. 2026. |
 
+## Atlas Connections
+
+The roster was checked conservatively. Entries below require a documented work, direct written engagement, public dialogue, or personal encounter; mere ideological resemblance, common subject matter, or contemporaneity was excluded.
+
+### Adam Smith
+
+- **[T1-] Documented fact:** Varoufakis has repeatedly analyzed Smith’s political economy, including a dedicated section, “The moral philosopher: Adam Smith,” in *Foundations of Economics* (1998). In a London debate on 9 January 2020, he contrasted Smith’s competitive, small-firm ideal with modern concentrated capitalism and used Smith as a point of departure for his own market-socialist argument. [Book description and contents](https://www.yanisvaroufakis.eu/books/foundations-of-economics-a-beginners-companion/); [2020 debate text](https://www.yanisvaroufakis.eu/2020/01/09/should-liberal-capitalism-be-saved-martin-wolf-yanis-varoufakis-debating-live/).
+
+### Friedrich Hayek
+
+- **[T1-] Documented fact:** Varoufakis has written and spoken about Hayek’s critique of centralized planning, while arguing that post-2008 financial markets and contemporary platform firms undermine the decentralized-market principles Hayek defended. This engagement appears in his 2012 writings and later discussions surrounding *Technofeudalism*. [2012 essay](https://www.yanisvaroufakis.eu/2012/01/08/complexity-fetishism-the-euro-crisis-and-a-worthy-challenge-for-2012-part-a/); [2024 interview reproduced by Varoufakis](https://www.yanisvaroufakis.eu/2024/02/22/fortune-magazine-reviews-my-technofeudalism/).
+
+### John Maynard Keynes
+
+- **[T1-] Documented fact:** Keynes is a sustained subject of Varoufakis’s euro-crisis writing. Varoufakis has discussed Keynes’s theory of recession, his criticism of austerity, and his proposed International Clearing Union, adapting the latter’s surplus-recycling logic in Varoufakis’s own proposals for Europe and the international economy. [2011 *Modest Proposal* discussion](https://www.yanisvaroufakis.eu/2011/03/24/a-fresh-rationale-for-and-a-new-variant-version-2-1-of-the-modest-proposal-for-overcoming-the-euro-crisis/); [2020 discussion of the International Clearing Union](https://www.yanisvaroufakis.eu/2020/04/16/on-italy-the-eu-after-the-eurogroup-of-9th-april-fanpage-it-english-version/).
+
+### John von Neumann
+
+- **[T1-] Documented fact:** As a game theorist and historian-critic of economic formalism, Varoufakis wrote about von Neumann’s foundational role in inventing game theory and examined the limits of the formal program that followed from it, notably in “Game Theory: Can It Unify the Social Sciences?” (2008). [Published paper](https://www.yanisvaroufakis.eu/wp-content/uploads/2013/10/full-published-version.pdf).
+
+### Joseph Schumpeter
+
+- **[T1-] Documented fact:** Varoufakis has repeatedly treated Schumpeter as a major interpreter of monopoly, innovation, and capitalism’s transformations. In December 2025 he contrasted Schumpeter’s “creative destruction” account—under which new competitors eventually displace complacent monopolists—with Peter Thiel’s ambition, as Varoufakis interprets it, to replace markets themselves with centrally controlled platforms. [“Big Tech are the new Soviets,” 4 December 2025](https://www.yanisvaroufakis.eu/2025/12/04/big-tech-are-the-new-soviets-unherd/).
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Varoufakis has written extensively about Marx’s analysis of capital, labor, alienation, crisis, and historical change while criticizing Marxist determinism and authoritarian traditions. The clearest standalone treatment is his keynote “Confessions of an Erratic Marxist,” delivered at Zagreb’s Subversive Festival on 14 May 2013 and later published in full. [Speech and text](https://www.yanisvaroufakis.eu/2013/05/14/confessions-of-an-erratic-marxist-keynote-speech-subversive-festival-zagreb-croatia-14th-may-2013/).
+
+### Milton Friedman
+
+- **[T1-] Documented fact:** Varoufakis has engaged Friedman’s monetarism, “crowding out” argument, and version of universal basic income. In the 2011 *Modest Proposal* discussion, he argued that even Friedman did not support contractionary fiscal policy under mass unemployment; in 2021 he criticized Friedman’s basic-income proposal as a possible vehicle for dismantling the welfare state. [2011 discussion](https://www.yanisvaroufakis.eu/2011/03/24/a-fresh-rationale-for-and-a-new-variant-version-2-1-of-the-modest-proposal-for-overcoming-the-euro-crisis/); [2021 UBI debate](https://www.yanisvaroufakis.eu/2021/06/11/is-universal-basic-income-a-good-idea-my-debate-with-daron-acemoglou-on-pairagraph/).
+
+### Noam Chomsky
+
+- **[T5] Documented fact:** Varoufakis and Chomsky appeared together in person at the New York Public Library on 16 April 2016 for a public conversation about Europe, democracy, and Varoufakis’s book *And the Weak Suffer What They Must?*. Chomsky had formally endorsed DiEM25 the previous month and subsequently joined further recorded discussions with Varoufakis, including a 2021 DiEM25 program. [Recorded NYPL conversation](https://www.youtube.com/watch?v=szIGZVrSAyc); [DiEM25 announcement of Chomsky’s endorsement](https://diem25.org/noam-chomsky-joins-diem25/).
+
+### Slavoj Žižek
+
+- **[T5] Documented fact:** Varoufakis and Žižek have met for several public dialogues, including Festival INDIGO in the Netherlands in 2021 and a 2024 How To Academy conversation. They directly debated technofeudalism, electoral strategy, capitalism, Israel–Palestine, and international politics. [2021 dialogue record](https://zizek.org/talk/yanis-varoufakis-slavoj-zizek-festival-indigo-2021); [2024 dialogue transcript and recording](https://zizek.org/talk/trump-is-a-fetish-slavoj-zizek-meets-yanis-varoufakis-part-2).
+
+### Elon Musk
+
+- **[T3] Documented fact:** Varoufakis has conducted sustained one-sided written engagement with Musk’s economic and political role. His December 2022 essay interpreted Musk’s acquisition of Twitter as an attempt to acquire cloud capital and technofeudal power; later articles analyzed Musk’s alliance with Donald Trump, control of digital infrastructure, and the 2026 SpaceX–xAI merger. This establishes discourse in the specified sense, but no reliable evidence located here establishes a personal meeting. [2022 essay](https://www.yanisvaroufakis.eu/2022/12/06/the-techno-feudal-method-to-musks-twitter-madness-project-syndicate-op-ed/); [2026 SpaceX–xAI analysis](https://www.yanisvaroufakis.eu/2026/02/13/elon-musks-1-25-trillion-mirage/).
+
+### Peter Thiel
+
+- **[T3] Documented fact:** Varoufakis has repeatedly engaged Thiel’s published ideas and business activity in writing. In 2025–26 he described Thiel as an early ideologue of “techlordism,” discussed Thiel’s opposition to democracy, analyzed his praise for *The Sovereign Individual*, and treated Palantir as an example of cloud capital becoming embedded in state and military systems. No documented personal encounter was located. [January 2025 essay](https://www.yanisvaroufakis.eu/2025/01/06/musk-trump-and-the-broligarchs-novel-hyper-weapon-le-monde-4-1-2025-full-original-english-version/); [May 2026 Palantir essay](https://www.yanisvaroufakis.eu/2026/05/05/palantir-and-the-new-order-neoliberalism-is-dead-say-hello-to-techlordism-the-point/).
+
+### Benjamin Netanyahu
+
+- **[T3] Documented fact:** Varoufakis has repeatedly addressed Netanyahu’s policies in signed writings and interviews, criticizing the Greek government’s relationship with him, Israel’s 2018 nation-state law, the Gaza war, and Netanyahu’s regional strategy. This is documented one-sided written engagement; no personal meeting or correspondence between the two was located. [2018 Varoufakis–Sanders article](https://www.yanisvaroufakis.eu/2018/09/14/our-progressive-international-movement-will-fight-at-once-two-authoritarianisms-the-national-international-and-the-financialised-globalists-who-paved-the-ground-for-them-yanis-varoufakis-bernie/); [2023 Gaza analysis](https://www.yanisvaroufakis.eu/2023/10/15/list-of-war-crimes-and-crimes-qualifying-as-genocide-committed-by-israel-in-gaza-since-7th-october-2023/).
+
+### Volodymyr Zelenskyy
+
+- **[T3] Documented fact:** Varoufakis has engaged Zelenskyy’s public statements and wartime strategy in signed essays. In June 2022 he quoted Zelenskyy’s acknowledgment that negotiations would be necessary and used it to argue for a negotiated settlement; in March 2025 he discussed the constraints facing Zelenskyy’s government under changing US and European policy. No evidence of direct correspondence or a personal meeting was located. [June 2022 essay](https://www.yanisvaroufakis.eu/2022/06/06/the-peace-process-ukraines-supporters-should-support-project-syndicate-op-ed/); [March 2025 essay](https://www.yanisvaroufakis.eu/2025/03/25/the-case-against-european-rearmament-project-syndicate-op-ed/).
+
+### Javier Milei
+
+- **[T3] Documented fact:** In July 2026 Varoufakis discussed Milei’s proposal to permit AI systems to establish corporations, own assets, employ people, litigate, and make political donations. Varoufakis interpreted the proposal as part of an emerging “techlordist” ideology. This supports one-sided written engagement only; no meeting or correspondence was located. [“AI and the false consciousness trap,” 11 July 2026](https://www.yanisvaroufakis.eu/2026/07/11/ai-and-the-false-consciousness-trap-unherd/).
+
+No supported T2 prophecy/hyperstition or T9 shared-object/site connection was identified. Numerous additional roster figures appear only as passing references, quotations, analogies, or shared intellectual background; those were omitted because the evidence did not establish a genuine crossing under the supplied definitions.
+
 ## Sources
 
 https://mera25.gr/yanis-varoufakis/

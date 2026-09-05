@@ -710,6 +710,20 @@ The third accommodates the evidence most fully without dissolving the real confl
 - **2022:** Spanish Eranos project edition appears.
 - **Present:** His library is represented by the Fondo Rudolf Ritsema in Lugano; institutional and personal manuscripts remain at Eranos and related archives.
 
+## Atlas Connections
+
+### Olga Fröbe-Kapteyn
+
+- **[T5] Documented fact:** Ritsema met Eranos founder Olga Fröbe-Kapteyn at Moscia-Ascona in 1948 through their mutual connection with Alwine von Keller. A friendship developed around their shared use of the *I Ching*. From 1956 Ritsema worked directly with Fröbe-Kapteyn and Adolf Portmann in organizing the annual Eranos conferences, continuing until her death at Casa Gabriella on 25 April 1962. The Eranos Foundation confirms that Portmann and Ritsema inherited responsibility for Eranos after her death. [Eranos Foundation history](https://www.eranosfoundation.org/page.php?page=4&pagename=history), [Sabbadini’s biographical account](https://www.shantena.com/en/eranos/rudolf/)
+
+### Mircea Eliade
+
+- **[T3] Documented fact:** Eliade corresponded directly with Ritsema about his participation in Eranos. A surviving letter dated **25 September 1964**, held by the Fondazione Eranos, records Eliade assuring Ritsema that his scheduling difficulties did not signify “a defection regarding Eranos.” On **21 December 1970**, Ritsema wrote to Henry and Stella Corbin that Eliade appeared to have lost interest in Eranos after repeated refusals. These records establish direct correspondence and Ritsema’s administrative engagement with Eliade, without by themselves proving friendship. [*Phanês*, vol. 5 (2022), archival citations on pp. 73–74](https://phanes.live/wp-content/uploads/2022/12/Phanes-5-2022.pdf)
+
+### Carl Gustav Jung
+
+- **[T1-] Documented fact:** Writing decades after Jung’s death, Ritsema discussed Jung as a formative figure in Eranos history and recounted the earlier exchange in which Olga Fröbe-Kapteyn proposed experiential work with the *I Ching* and Jung reportedly judged that the time was not yet ripe. Ritsema used that episode in his 1987–1989 accounts of Eranos’s origins and transformation to justify the later Round Table project. The historical exchange is transmitted through Ritsema’s institutional reconstruction and should not be treated as proof that Jung endorsed Ritsema’s eventual 1988 program. [Eranos Foundation history](https://www.eranosfoundation.org/page.php?page=4&pagename=history), [Ritsema bibliography in the Eranos lecture catalogue](https://www.eranosfoundation.org/page.php?page=11&pagename=lecturers)
+
 ## Sources
 
 https://www.shantena.com/en/eranos/rudolf/

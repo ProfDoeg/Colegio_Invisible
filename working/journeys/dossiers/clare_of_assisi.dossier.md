@@ -397,6 +397,24 @@ Her most concrete legacy is constitutional: a community of women secured the rig
 - Sources cannot establish a relationship between Clare and Pica, nor the “Bourlemont” genealogy assigned to Francis's mother.
 - Institutional terms shifted; “Poor Clare Order” should not be projected backward as a uniform organization under Clare's direct command.
 
+## Atlas Connections
+
+### Francis of Assisi
+
+- **[T5]** **Documented fact:** Clare met Francis repeatedly in and around Assisi, beginning before her departure from home in 1211/12. At the Portiuncula, Francis and his brothers received her, cut her hair, and gave her a penitential habit; he subsequently helped establish her community at San Damiano.
+- **[T3]** **Documented fact:** Francis supplied Clare and her sisters with a written Form of Life, conventionally dated 1212–13, promising them the friars’ continuing care. Clare reproduced this text in chapter 6 of her Rule, creating a directly documented textual exchange between them. [Epistolae, Columbia University](https://epistolae.ctl.columbia.edu/letter/578.html)
+- **[T1-]** **Documented fact:** After Francis’s death in 1226, Clare wrote about his role in her conversion and community in her Rule and Testament, calling herself his “little plant” and recording his teachings and commitment to the sisters’ poverty.
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Clare wrote extensively about Jesus Christ as a past earthly figure and present divine exemplar. Her four letters to Agnes of Prague, Rule, and Testament invoke his birth, poverty, humility, Passion, crucifixion, Eucharistic presence, and imitation; this is a documented textual connection irrespective of the theological truth-status of particular devotional claims. [Digital Collections: Franciscan Tradition](https://digitalcollections.franciscantradition.org/pages/early-sources-table-of-contents)
+
+### Jacobus de Voragine
+
+- **[T1+]** **Documented fact:** Jacobus, writing after Clare’s death, included a substantial life of her in the *Legenda aurea* or *Golden Legend*, compiled during the later thirteenth century. His account retells her conversion under Francis, establishment at San Damiano, defense of Assisi, Eucharistic devotion, death, and miracles; many individual episodes are **reported facts or hagiographic claims**, but Jacobus’s written treatment of Clare is itself documented. [Jacobus de Voragine, “The Life of the Holy Virgin S. Clare”](https://ccel.org/ccel/voragine/goldleg6/goldleg6.xviii.html?queryID=63397509&resultID=182939)
+
+No qualifying personal, textual, prophetic, proximity, or shared-object crossing was found for the remaining roster members. In particular, shared Franciscan identity or contemporaneity does not establish a crossing with Anthony of Padua or Giovanni da Pian del Carpine, and no reliable source documents Clare meeting Pica Bourlémont.
+
 ## Sources
 
 https://digitalcollections.franciscantradition.org/pages/early-sources-table-of-contents

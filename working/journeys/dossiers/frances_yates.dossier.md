@@ -498,6 +498,134 @@ Her method remains polarizing because its strength and weakness are connected. S
 | 2008 | Marjorie G. Jones publishes first full-length biography. |
 | 2010s–2020s | Continued conferences, archival cataloguing, “Yates paradigm” reassessment, and Warburg fellowships. |
 
+## Atlas Connections
+
+### Aby Moritz Warburg
+
+- **[T9-] Documented fact:** Yates began working at the Warburg Institute in London in 1936–37, seven years after Warburg’s death. She therefore inherited and worked through the library, photographic collections, classifications, and interdisciplinary research institution that Warburg had created; this is a shared intellectual object/site rather than personal contact. Yates acknowledged Warburg’s institutional legacy in *The Art of Memory* (London, 1966). ([Warburg Institute](https://warburg.sas.ac.uk/library-collections/warburg-institute-archive/archive-collections/scholars-associated-warburg-institute); [British Academy memoir](https://www.thebritishacademy.ac.uk/documents/1731/120p527.pdf))
+
+### Albertus Magnus
+
+- **[T1-] Documented fact:** Yates analyzed Albertus Magnus’s treatment of artificial memory, prudence, and Aristotelian psychology in the medieval chapters of *The Art of Memory* (London, 1966), particularly alongside Thomas Aquinas. ([digitized text](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf))
+
+### Antoine Court de Gébelin
+
+- **[T1-] Documented fact:** In “In the Cards,” published in *The New York Review of Books* on 19 February 1981, Yates examined Court de Gébelin’s late-eighteenth-century interpretation of tarot as an Egyptian book, connecting it with Hermetic hieroglyphics and universal-language projects while doubting that he was necessarily the first person to occultize tarot. ([NYRB article](https://www.nybooks.com/articles/1981/02/19/in-the-cards/))
+
+### Arthur Edward Waite
+
+- **[T1-] Documented fact:** Yates discussed Waite’s histories and claims about Rosicrucianism in *The Rosicrucian Enlightenment* (London, 1972), treating modern occultist genealogies as unreliable evidence for an ancient, continuously existing Rosicrucian order. ([digitized 1972 edition](https://ia903209.us.archive.org/30/items/the-rosicrucian-enlightenment/The%20Rosicrucian%20Enlightenment.pdf))
+
+### Christian Rosenkreuz
+
+- **[T1-] Documented fact:** Chapters 3–5 of *The Rosicrucian Enlightenment* (London, 1972) analyze the rise, manifesto biography, and *Chymical Wedding* of “Christian Rosencreutz.” Yates identified Rosenkreuz as the fictitious or mythical founder within the Rosicrucian texts, not as an independently documented medieval person. ([Routledge contents](https://www.routledge.com/link/link/p/book/9781138127869); [digitized 1972 edition](https://ia903209.us.archive.org/30/items/the-rosicrucian-enlightenment/The%20Rosicrucian%20Enlightenment.pdf))
+
+### Cicero
+
+- **[T1-] Documented fact:** Yates made Cicero’s *De oratore* one of the three principal Latin sources in the opening chapter of *The Art of Memory* (London, 1966), reconstructing his account of places, images, and the Simonides origin story. ([digitized text](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf); [University of Chicago contents](https://www.bibliovault.org/BV.book.epl?ISBN=9780226950013))
+
+### Dante Alighieri
+
+- **[T1-] Documented fact:** Yates published “The Transformations of Dante’s Ugolino” in the *Journal of the Warburg and Courtauld Institutes* 14 (London, 1951), pp. 92–117, and later discussed the mnemonic and architectural organization of Dante’s *Divine Comedy* in *The Art of Memory*. Dante also remained the subject of an unfinished late project at her death. ([Warburg archive catalogue](https://warburg.sas.ac.uk/sites/default/files/Yates,%20Frances%20Catalogue.pdf); [digitized *Art of Memory*](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf))
+
+### Francis Bacon
+
+- **[T1-] Documented fact:** Yates repeatedly wrote about Bacon: “Bacon’s Magic” in *The New York Review of Books* (29 February 1968), “Bacon and the Menace of English Lit” (27 March 1969), the final scientific-method chapter of *The Art of Memory*, and chapter 9 of *The Rosicrucian Enlightenment*, “Francis Bacon ‘Under the Shadow of Jehova’s Wings.’” She situated Bacon at the contested transition from Renaissance mnemonic-occult programs to experimental science. ([Routledge contents](https://www.routledge.com/link/link/p/book/9781138127869); [NYRB author archive](https://www.nybooks.com/contributors/frances-a-yates/))
+
+### Giordano Bruno
+
+- **[T1-] Documented fact:** Bruno was Yates’s central lifelong historical subject. She published articles about him from 1939, devoted *Giordano Bruno and the Hermetic Tradition* (London/Chicago, 1964) to his intellectual setting, treated his mnemonic works across six chapters of *The Art of Memory* (1966), and continued lecturing and writing about him through the 1970s. ([Premio Galileo profile](https://www.premiogalilei.it/portfolio-articoli/prof-frances-a-yates/); [Routledge book record](https://www.routledge.com/Giordano-Bruno-and-the-Hermetic-Tradition/Yates/p/book/9780415278492); [Warburg mnemonic project](https://warburg.sas.ac.uk/research/completed-research-projects/giordano-bruno/yates-and-brunos-mnemonics/))
+
+### Giovanni Pico della Mirandola
+
+- **[T1-] Documented fact:** Yates reconstructed Pico’s synthesis of Neoplatonic magic and Christian Cabala in *Giordano Bruno and the Hermetic Tradition* (1964) and devoted chapter 2 of *The Occult Philosophy in the Elizabethan Age* (London, 1979) to “The Occult Philosophy in the Italian Renaissance: Pico della Mirandola.” ([1979 contents](https://api.pageplace.de/preview/DT0400.9781317828389_A23912162/preview-9781317828389_A23912162.pdf))
+
+### Giulio Camillo
+
+- **[T1-] Documented fact:** Yates devoted two chapters of *The Art of Memory* (London, 1966)—“The Memory Theatre of Giulio Camillo” and “Camillo’s Theatre and the Venetian Renaissance”—to Camillo’s proposed theater, its texts, imagery, patrons, and place in Renaissance mnemonic culture. ([University of Chicago contents](https://www.bibliovault.org/BV.book.epl?ISBN=9780226950013); [digitized text](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf))
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1-] Documented fact:** Yates concluded *The Art of Memory* (London, 1966) with Leibniz’s *characteristica* and universal-calculus project, explicitly explaining that she ended her history with him because his work might mark the terminus of the art of memory as a major force in European intellectual development. She returned to Leibniz’s universal-language context in her 1981 Court de Gébelin essay. ([digitized text](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf); [NYRB article](https://www.nybooks.com/articles/1981/02/19/in-the-cards/))
+
+### Heinrich Cornelius Agrippa
+
+- **[T1-] Documented fact:** Agrippa was a major component of Yates’s reconstruction of Renaissance occult philosophy. She treated him in *Giordano Bruno and the Hermetic Tradition* and devoted chapters 5–6 of *The Occult Philosophy in the Elizabethan Age* (London, 1979) to his magic, religious reform, and theory of melancholy. ([1979 contents](https://api.pageplace.de/preview/DT0400.9781317828389_A23912162/preview-9781317828389_A23912162.pdf))
+
+### Isaac Newton
+
+- **[T1-] Documented fact:** Chapter 14 of *The Rosicrucian Enlightenment* (London, 1972), “Elias Ashmole and the Dee Tradition: Isaac Newton and Rosicrucian Alchemy,” placed Newton’s alchemical interests within Yates’s proposed afterlife of Dee-associated and Rosicrucian currents. The connection is Yates’s historiographical interpretation, not evidence that Newton belonged to a Rosicrucian fraternity. ([Routledge contents](https://www.routledge.com/link/link/p/book/9781138127869))
+
+### Jan Amos Comenius
+
+- **[T1-] Documented fact:** Yates devoted chapter 12 of *The Rosicrucian Enlightenment* (London, 1972), “Comenius and the Rosicrucian Rumour in Bohemia,” to Comenius’s reforming and pansophic environment and its relationship to the Rosicrucian controversy. ([Routledge contents](https://www.routledge.com/link/link/p/book/9781138127869))
+
+### Johannes Kepler
+
+- **[T1-] Documented fact:** Yates discussed Kepler in *Giordano Bruno and the Hermetic Tradition* (1964) and *The Art of Memory* (1966) as part of the seventeenth-century differentiation of mathematical astronomy and scientific method from Bruno’s magical-Hermetic cosmology. Her treatment included Kepler’s explicit opposition to Bruno’s infinite-worlds doctrine. ([digitized *Giordano Bruno*](https://five.sh/files/pdf/Hermeticism/Francis%20A.%20Yates%20-%20Giordano%20Bruno%20and%20the%20Hermetic%20Tradition.pdf); [digitized *Art of Memory*](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf))
+
+### Johannes Reuchlin
+
+- **[T1-] Documented fact:** Yates treated Reuchlin as a principal transmitter of Christian Cabala north of the Alps in *Giordano Bruno and the Hermetic Tradition* and devoted chapter 3 of *The Occult Philosophy in the Elizabethan Age* (London, 1979) to “The Occult Philosophy in the Reformation: Johannes Reuchlin.” ([1979 contents](https://api.pageplace.de/preview/DT0400.9781317828389_A23912162/preview-9781317828389_A23912162.pdf))
+
+### John Dee
+
+- **[T1-] Documented fact:** Dee was a major subject of Yates’s later scholarship. She discussed his mathematical preface to Euclid in *Theatre of the World* (London, 1969), made him central to the Palatinate–Rosicrucian argument in *The Rosicrucian Enlightenment* (1972), devoted chapter 8 of *The Occult Philosophy in the Elizabethan Age* (1979) to “John Dee: Christian Cabalist,” and delivered her final lecture about him at Manchester Cathedral in 1981. ([1979 contents](https://api.pageplace.de/preview/DT0400.9781317828389_A23912162/preview-9781317828389_A23912162.pdf); [Routledge contents](https://www.routledge.com/link/link/p/book/9781138127869); [British Academy memoir](https://www.thebritishacademy.ac.uk/documents/1731/120p527.pdf))
+
+### Nicolaus Copernicus
+
+- **[T1-] Documented fact:** Yates analyzed Copernicus principally through Bruno’s reception of heliocentrism in *Giordano Bruno and the Hermetic Tradition* (1964), arguing that Bruno read the Copernican diagram partly as a Hermetic symbol rather than solely as mathematical astronomy. This was Yates’s interpretation of Bruno’s reception, not a claim that Copernicus himself was a Rosicrucian or Brunian magician. ([Cambridge discussion](https://www.cambridge.org/core/journals/science-in-context/article/changing-conceptions-of-mathematics-and-infinity-in-giordano-brunos-vernacular-and-latin-works/98590F74983CED3EEBB33E3F506B5D1D); [digitized Yates text](https://five.sh/files/pdf/Hermeticism/Francis%20A.%20Yates%20-%20Giordano%20Bruno%20and%20the%20Hermetic%20Tradition.pdf))
+
+### Paracelsus
+
+- **[T1-] Documented fact:** Yates discussed Paracelsus and Paracelsianism throughout *The Rosicrucian Enlightenment* (London, 1972), treating Paracelsian medicine, alchemy, and reform as important constituents of the milieu in which the Rosicrucian manifestos appeared. She did not claim that the manifestos’ legendary fraternity had personally included Paracelsus. ([digitized 1972 edition](https://ia903209.us.archive.org/30/items/the-rosicrucian-enlightenment/The%20Rosicrucian%20Enlightenment.pdf); [Google Books record](https://books.google.com/books/about/The_Rosicrucian_Enlightenment.html?id=Mbk0AAAAMAAJ))
+
+### Peter of Ravenna
+
+- **[T1-] Documented fact:** Yates examined Peter of Ravenna and his widely printed *Phoenix* in the “Memory Treatises” chapter of *The Art of Memory* (London, 1966), describing his practical rules and influence on Renaissance artificial-memory literature. ([digitized text](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf))
+
+### Plato
+
+- **[T1-] Documented fact:** In the chapter “The Art of Memory in Greece: Memory and the Soul” in *The Art of Memory* (London, 1966), Yates analyzed Platonic recollection and the *Phaedrus* as a philosophical tradition distinct from, but later intertwined with, rhetorical artificial memory. ([University of Chicago contents](https://www.bibliovault.org/BV.book.epl?ISBN=9780226950013); [digitized text](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf))
+
+### Quintilian
+
+- **[T1-] Documented fact:** Yates treated Quintilian’s *Institutio oratoria* as one of the three principal Roman sources for artificial memory in the opening chapter of *The Art of Memory* (London, 1966), including his practical discussion and skepticism about elaborate mnemonic systems. ([digitized text](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf))
+
+### Ramon Llull
+
+- **[T1-] Documented fact:** Llull was one of Yates’s sustained research subjects. She published “The Art of Ramon Lull” in the *Journal of the Warburg and Courtauld Institutes* 17 (London, 1954), pp. 115–173; “Ramon Lull and John Scotus Erigena” in 1960; devoted a chapter of *The Art of Memory* to Lullism; and had her relevant essays collected posthumously in *Lull and Bruno* (1982). ([digitized *Art of Memory*](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf); [Warburg archive catalogue](https://warburg.sas.ac.uk/sites/default/files/Yates,%20Frances%20Catalogue.pdf))
+
+### René Descartes
+
+- **[T1-] Documented fact:** Yates examined Descartes in *The Rosicrucian Enlightenment* (London, 1972), especially in relation to the German Rosicrucian controversy and the difficult transition from occult-reform discourse to Cartesian philosophy. She presented possible contextual relationships, not proof that Descartes was a Rosicrucian initiate. ([digitized 1972 edition](https://ia903209.us.archive.org/30/items/the-rosicrucian-enlightenment/The%20Rosicrucian%20Enlightenment.pdf))
+
+### Robert Fludd
+
+- **[T1-] Documented fact:** Yates devoted the final major historical sections of *The Art of Memory* (London, 1966) to Fludd’s memory theater and used his diagrams controversially in *Theatre of the World* (1969). *The Rosicrucian Enlightenment* (1972) further analyzed his published defenses of the Rosicrucians and the Oppenheim publication of his works. ([University of Chicago contents](https://www.bibliovault.org/BV.book.epl?ISBN=9780226950013); [Routledge contents](https://www.routledge.com/link/link/p/book/9781138127869))
+
+### Saint Augustine of Hippo
+
+- **[T1-] Documented fact:** Yates analyzed Augustine’s discussion of memory and the inner “vast palace” of the mind in the medieval portions of *The Art of Memory* (London, 1966), and his reception of Hermes Trismegistus in *Giordano Bruno and the Hermetic Tradition* (1964). ([digitized *Art of Memory*](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf); [digitized *Giordano Bruno*](https://five.sh/files/pdf/Hermeticism/Francis%20A.%20Yates%20-%20Giordano%20Bruno%20and%20the%20Hermetic%20Tradition.pdf))
+
+### Saint George
+
+- **[T1-] Documented fact:** Yates wrote and delivered a 1969 lecture titled “St George and the Rosicrucians,” documented among the lecture scripts and research papers in her Warburg archive. The surviving catalogue establishes the work’s existence but, without consulting the manuscript, does not justify a fuller reconstruction of its argument. ([Warburg archive catalogue](https://warburg.sas.ac.uk/sites/default/files/Yates,%20Frances%20Catalogue.pdf))
+
+### Simonides of Ceos
+
+- **[T1-] Documented fact:** Yates opened *The Art of Memory* (London, 1966) with the classical story in which Simonides identifies banquet victims by remembering their places, treating the story as the foundational legend for the mnemonic system of ordered places and images. ([digitized text](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf))
+
+### Thomas Aquinas
+
+- **[T1-] Documented fact:** Yates gave sustained attention to Aquinas’s classification of artificial memory as part of prudence and to the mnemonic implications of his rules for images in the medieval chapters of *The Art of Memory* (London, 1966). Aquinas and Dante also figured in her unfinished late project on Thomist synthesis. ([digitized text](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf); [British Academy memoir](https://www.thebritishacademy.ac.uk/documents/1731/120p527.pdf))
+
+### Tommaso Campanella
+
+- **[T1-] Documented fact:** Yates treated Campanella in *Giordano Bruno and the Hermetic Tradition* (1964) as a post-Brunian philosopher whose natural magic, religious reform, and cosmology belonged to the book’s account of the Hermetic tradition and its early-seventeenth-century transformation. ([digitized text](https://five.sh/files/pdf/Hermeticism/Francis%20A.%20Yates%20-%20Giordano%20Bruno%20and%20the%20Hermetic%20Tradition.pdf))
+
+No supported T2 prophecy/hyperstition crossing, personal T5 meeting, or direct T3 correspondence with another atlas-roster member was identified. In particular, shared subject matter, institutional influence, surname resemblance, or mere contemporaneity was not counted as a connection.
+
 ## Sources
 
 https://www.thebritishacademy.ac.uk/publishing/memoirs/2/yates-frances-amelia-1899-1981/

@@ -609,6 +609,30 @@ The recovery of Vera Kremer Dobrinsky and Joseph Dobrinsky restores an omitted d
 | 2025 | Center for Jewish History publicizes Kremer's technical-textbook legacy; family and classroom images enter wider digital circulation. |
 | 2026 | Molly Crabapple's narrative history renews public attention to Arkadi and especially Pati Kremer. |
 
+## Atlas Connections
+
+### Vladimir Lenin
+
+- **[T3] Documented fact:** Lenin sent Kremer—addressed by his pseudonym “Alexander”—a letter from London to Paris on **4 May 1902**, requesting information about the organizing committee elected at the Białystok conference and proposing coded writing, invisible ink, passwords, and a trusted courier. They subsequently attended the **Second RSDLP Congress in Brussels and London in 1903**, where Lenin opposed the Bund’s federal-autonomy demands. [Lenin’s letter to A. I. Kremer](https://www.marxists.org/archive/lenin/works/1902/may/04aik.htm); [Second Congress records](https://www.marxists.org/history/international/social-democracy/rsdlp/1903/ch06.htm)
+
+### Vladimir Medem
+
+- **[T4] Documented fact:** Kremer and Medem served together among the Bund’s five representatives at the **Second RSDLP Congress, Brussels and London, July–August 1903**. Both participated in the Bund delegation that withdrew after the congress rejected its claim to autonomous status and recognition as the sole representative of the Jewish proletariat. The record establishes shared delegation work and occupancy of the congress, but the consulted sources do not independently document a private friendship. [Congress delegate biographies](https://www.marxists.org/history/international/social-democracy/rsdlp/1903/biographies.htm); [H. Shukman’s source-based study](https://ora.ox.ac.uk/objects/uuid%3A90a098ef-91da-46b4-adf6-e337bed1d43c/files/m4d38ed29b3008688dc9845093a3c5b43)
+
+### Leon Trotsky
+
+- **[T4] Documented fact:** Trotsky and Kremer were both present at the **Second RSDLP Congress in Brussels and London in 1903**. Kremer attended as the Bund representative “Wolf”; Trotsky spoke during the proceedings and opposed the Bund’s claim to be the exclusive representative of Jewish workers. Their common presence and political opposition are documented, but no separate personal meeting or correspondence between them was located. [Congress delegate biographies](https://www.marxists.org/history/international/social-democracy/rsdlp/1903/biographies.htm); [Second Congress proceedings](https://www.marxists.org/history/international/social-democracy/rsdlp/1903/ch06.htm)
+
+### Henryk Erlich
+
+- **[T4] Documented fact:** A contemporary photograph of the **Fourth Polish Bund Congress in 1929** shows Kremer seated in the congress presidium while Erlich addresses the assembly. Both also attended the Bund’s **Fifth Extraordinary Congress in Łódź, 1–2 June 1930**: Erlich sat in its presidium and delivered the concluding speech, while Kremer was appointed an honorary member of the congress. This establishes repeated shared party-congress presence, though not by itself a private friendship. [Institute of National Remembrance study and reproduced photograph](https://przystanekhistoria.pl/download/166/75478/Biuletyn72011.pdf)
+
+### Victor Alter
+
+- **[T4] Documented fact:** Alter and Kremer were both among the Bund leaders attending the **Fifth Extraordinary Congress in Łódź, 1–2 June 1930**, convened to decide whether the Polish Bund should enter the Labour and Socialist International. The source explicitly distinguishes contemporary leaders such as Alter from historical founders such as Kremer while recording their presence at the same congress; it does not establish direct personal interaction. [Institute of National Remembrance study](https://przystanekhistoria.pl/download/166/75478/Biuletyn72011.pdf)
+
+No documentary basis was found for treating Kremer’s frequently invoked symbolic opposition to **Theodor Herzl**, or his intellectual debts to **Karl Marx**, as a personal crossing under the specified connection types.
+
 ## Sources
 
 https://encyclopedia.yivo.org/article.aspx/kremer_arkadii

@@ -714,6 +714,60 @@ Current scholarship increasingly rejects three older simplifications: that he wa
 - **2008:** James Martin's *Poulantzas Reader* recovers early legal and later political texts.
 - **2011 onward:** New international collections and applications contribute to a sustained revival.
 
+## Atlas Connections
+
+### Antonio Gramsci
+
+- **[T1-] Documented fact.** From the mid-1960s onward, Poulantzas wrote extensively through and about Gramsci’s concepts of hegemony, the power bloc, political struggle, and the united front. *Fascism and Dictatorship* (1970) specifically evaluated Gramsci’s strategy and interpretation of Italian fascism. [Jessop’s intellectual biography](https://bobjessop.wordpress.com/wp-content/uploads/2013/11/jessop-poulanzas.pdf), [*Fascism and Dictatorship*](https://ouleft.org/wp-content/uploads/Fascism-and%20Dictatorship-Poulantzas.pdf)
+
+### Georges Sorel
+
+- **[T1-] Documented fact.** Poulantzas devoted a section of *Fascism and Dictatorship* (1970), “Sorel and Revolutionary Syndicalism,” to Sorel’s theory of myth, violence, the activating minority, and his influence on Italian syndicalists who subsequently entered fascism. [*Fascism and Dictatorship*](https://ouleft.org/wp-content/uploads/Fascism-and%20Dictatorship-Poulantzas.pdf)
+
+### Gilles Deleuze
+
+- **[T3] Documented fact.** In *State, Power, Socialism* (1978) and his late strategic reflections, Poulantzas engaged the Foucault–Deleuze position that autonomous movements should resist integration into state and party structures. This was a one-sided published theoretical engagement; no personal meeting or correspondence between Poulantzas and Deleuze was established. [Jessop’s discussion of the Foucault–Deleuze comparison](https://bobjessop.wordpress.com/wp-content/uploads/2013/11/jessop-poulanzas.pdf)
+
+### Jean-Paul Sartre
+
+- **[T5] Documented fact.** Poulantzas entered Sartre’s Paris intellectual circle and enjoyed what Bob Jessop describes as “particularly close relations” with Sartre and other figures associated with *Les Temps Modernes*, especially during Poulantzas’s regular participation in the journal in 1964–66. [Jessop’s biographical account](https://bobjessop.wordpress.com/wp-content/uploads/2013/11/jessop-poulanzas.pdf)
+- **[T1-] Documented fact.** Poulantzas analyzed Sartre’s philosophy in several early works, most explicitly “La *Critique de la raison dialectique* de J.-P. Sartre et le droit” (1965), connecting Sartrean praxis and freedom to legal philosophy before later breaking with Sartre’s humanism and historicism. [Jessop’s reconstruction of Poulantzas’s early work](https://bobjessop.wordpress.com/wp-content/uploads/2013/11/jessop-poulanzas.pdf)
+
+### Karl Marx
+
+- **[T1-] Documented fact.** Marx’s writings were a sustained object of exposition and reinterpretation throughout Poulantzas’s career, including “Brèves remarques sur l’objet du *Capital*” (1968), *Political Power and Social Classes* (1968), and his later relational theory of the state. Poulantzas repeatedly quoted and debated Marx rather than merely claiming membership in a Marxist tradition. [Jessop’s intellectual study](https://bobjessop.wordpress.com/wp-content/uploads/2013/11/jessop-poulanzas.pdf), [*Fascism and Dictatorship*](https://ouleft.org/wp-content/uploads/Fascism-and%20Dictatorship-Poulantzas.pdf)
+
+### Leon Trotsky
+
+- **[T1-] Documented fact.** *Fascism and Dictatorship* (1970) discussed Trotsky’s positions on Comintern strategy, the international situation, technology, and the failures confronting German and Italian Communists. The connection is textual and historical; no personal crossing was possible. [*Fascism and Dictatorship*](https://ouleft.org/wp-content/uploads/Fascism-and%20Dictatorship-Poulantzas.pdf)
+
+### Mao Zedong
+
+- **[T3] Documented fact.** While Mao was still alive, Poulantzas invoked and evaluated Mao’s “protracted war,” mass-line strategy, analysis of contradictions, and interpretation of the Soviet experience, particularly in *Fascism and Dictatorship* (1970). This supports one-sided written engagement, not personal contact. [*Fascism and Dictatorship*](https://ouleft.org/wp-content/uploads/Fascism-and%20Dictatorship-Poulantzas.pdf)
+
+### Michel Foucault
+
+- **[T3] Documented fact.** Poulantzas’s *State, Power, Socialism* (1978) explicitly borrowed, modified, and criticized Foucault’s analyses of power/knowledge, discipline, normalization, intellectuals, and corporeality. Poulantzas accepted several local analyses while rejecting Foucault’s broader theory for underplaying class struggle, law, coercion, and the state’s coordinating role. No documented personal meeting or correspondence was established. [Jessop’s detailed account of the Poulantzas–Foucault relation](https://bobjessop.wordpress.com/wp-content/uploads/2013/11/jessop-poulanzas.pdf)
+
+### Benito Mussolini
+
+- **[T1-] Documented fact.** Poulantzas examined Mussolini’s tactical shifts, relationship with rural fascism and capitalist fractions, transformation of the fascist movement into a party, corporatism, and seizure of power in *Fascism and Dictatorship* (1970). [*Fascism and Dictatorship*](https://ouleft.org/wp-content/uploads/Fascism-and%20Dictatorship-Poulantzas.pdf)
+
+### Rosa Luxemburg
+
+- **[T1-] Documented fact.** In his late argument for democratic socialism, Poulantzas approvingly invoked Luxemburg’s warning that abolishing elections and freedoms of press and assembly would leave bureaucracy as the sole active political element. Jessop identifies the relevant source as Luxemburg’s *The Russian Revolution*. [Jessop’s discussion of Poulantzas’s democratic strategy](https://bobjessop.wordpress.com/wp-content/uploads/2013/11/jessop-poulanzas.pdf)
+
+### Simone de Beauvoir
+
+- **[T5] Documented fact.** Poulantzas belonged to the younger *Les Temps Modernes* circle assembled in Paris in autumn 1964 and maintained close relations with Beauvoir and the journal’s leading figures. Beauvoir’s memoir *All Said and Done* records Poulantzas as part of this group. [Jessop’s account citing Beauvoir’s memoir](https://bobjessop.wordpress.com/wp-content/uploads/2013/11/jessop-poulanzas.pdf)
+- **[T3] Documented fact.** Beauvoir subsequently identified Poulantzas in her published memoir as the law professor recruited into the journal’s younger cohort, creating a documented one-sided written reference in addition to their personal association. [Jessop’s account citing *All Said and Done*](https://bobjessop.wordpress.com/wp-content/uploads/2013/11/jessop-poulanzas.pdf)
+
+### Vladimir Lenin
+
+- **[T1-] Documented fact.** Poulantzas repeatedly interpreted and criticized Lenin’s theories of imperialism, the state, political organization, alliances, and revolutionary strategy. *Fascism and Dictatorship* (1970) examined both Lenin’s break with Second International economism and the historical limits of Leninism. [*Fascism and Dictatorship*](https://ouleft.org/wp-content/uploads/Fascism-and%20Dictatorship-Poulantzas.pdf)
+
+No adequately documented T2 prophecy/hyperstition or T9 shared-object connection with the atlas roster was found. Mere coexistence in twentieth-century Paris or membership in a broad intellectual tradition was not treated as sufficient for T4 proximity.
+
 ## Sources
 
 https://bobjessop.wordpress.com/wp-content/uploads/2013/11/jessop-poulanzas.pdf

@@ -748,6 +748,14 @@ The debt-burning story made Anton the model of the loyal, magnificently generous
 | 1993–94 | 500th-birthday exhibitions and scholarly conference renew attention to culture, music, and personality. |
 | 1997 | Augsburg’s Anton-Fugger Bridge completed/named. |
 
+## Atlas Connections
+
+### Jakob Fugger “the Rich”
+
+- **[T5] Documented fact:** Jakob Fugger was Anton’s paternal uncle, commercial mentor, and immediate predecessor. Anton trained within Jakob’s family partnership from at least the 1512 company agreement, represented the enterprise in major branches and mining districts, and was selected for managerial command in Jakob’s final succession arrangements of 22 December 1525. After Jakob’s death in Augsburg on 30 December 1525, Anton assumed leadership of the firm and later renewed Jakob’s charitable foundations by charter on 31 July 1548. Their sustained personal and working relationship is established by partnership, testamentary, accounting, and foundation records. [Historisches Lexikon Bayerns](https://www.historisches-lexikon-bayerns.de/Lexikon/Fugger_von_der_Lilie_%2815./17._Jahrhundert%29); [Deutsche Biographie](https://www.deutsche-biographie.de/gnd118694170.html); [Fugger Archive overview](https://www.fugger.de/archiv/archivgeschichte)
+
+No other roster member produced a securely documented connection under the six specified types. In particular, Martin Luther’s published attacks generally targeted Jakob Fugger, the Fugger family, or large merchant companies collectively—not Anton individually—while Paracelsus’s polemics attacked the Fugger company’s guaiac trade without establishing personal correspondence or a meeting with Anton. The projected Fugger South American concession bordered or overlapped the wider arena of conquests associated with Magellan and Francisco Pizarro, but proximity within imperial planning is not evidence of a personal crossing.
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd118694170.html

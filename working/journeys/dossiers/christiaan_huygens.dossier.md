@@ -2061,6 +2061,58 @@ Huygens remains an eponym in wave optics, eyepiece design, synchronization, plan
 
 ---
 
+## Atlas Connections
+
+### Archimedes of Syracuse
+
+- **[T1-] Documented fact —** Huygens repeatedly engaged Archimedes’s mathematics. His early hydrostatical manuscript *De iis quae liquido supernatant* extended Archimedean results on floating bodies, while his geometrical work revisited problems from *On the Sphere and Cylinder*. The connection is textual and mathematical; the familiar description of Huygens as “my Archimedes” originated as praise from his father’s circle, not as a personal crossing. [*Oeuvres complètes*, vol. XI](https://www.dbnl.org/tekst/huyg003oeuv11_01/huyg003oeuv11_01.pdf), [vol. XII](https://www.dbnl.org/tekst/huyg003oeuv12_01/huyg003oeuv12_01.pdf)
+
+### Galileo Galilei
+
+- **[T1-] Documented fact —** Huygens wrote about and critically extended Galileo’s work on falling bodies, projectiles, pendulums, and telescopic astronomy. Mersenne alerted the young Huygens that Galileo had anticipated parts of his mechanics; Huygens later acknowledged Galileo’s prior pendulum-clock conception while distinguishing it from his own successful clock system. His explanation of Saturn’s ring likewise explicitly answered the observational puzzle first reported by Galileo. [MacTutor biography](https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/), [*Oeuvres complètes* overview](https://adcs.home.xs4all.nl/Huygens/22a/oeuvres.html)
+
+### Nicolaus Copernicus
+
+- **[T1-] Documented fact —** Huygens explicitly invoked Copernicus in *Cosmotheoros*, opening from the premise that anyone accepting the Copernican identification of Earth as a planet must consider whether other planets could possess comparable worlds and inhabitants. He also discussed the immense stellar distances implied by Copernicus’s response to the absence of observable annual parallax. [English *Cosmotheoros* text](https://rr0.org/time/1/6/9/8/Huygens_Cosmotheoros/index.html), [*Oeuvres complètes*, vol. XXI](https://www.dbnl.org/tekst/huyg003oeuv21_01/huyg003oeuv21_01.pdf)
+
+### Johannes Kepler
+
+- **[T1-] Documented fact —** In *Cosmotheoros*, Huygens discussed Kepler’s planetary cosmology and directly rejected Kepler’s proposal that the Sun helped rotate planets on their axes. This was explicit critical engagement with Kepler’s *Epitome of Copernican Astronomy*, not merely participation in a shared Copernican tradition. [English *Cosmotheoros* text](https://rr0.org/time/1/6/9/8/Huygens_Cosmotheoros/index.html)
+
+### René Descartes
+
+- **[T1-] Documented fact —** After Descartes’s death in 1650, Huygens repeatedly analyzed and criticized his writings, especially the Cartesian collision rules and vortex account of gravity. Although Descartes knew Constantijn Huygens Sr. and Christiaan encountered Cartesian thought through the family and Frans van Schooten, no surviving evidence establishes sustained direct correspondence or personal mentorship between Descartes and Christiaan. [Huygens mechanics material in *Oeuvres complètes*, vol. XVI](https://adcs.home.xs4all.nl/Huygens/16/index.html), [MacTutor biography](https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/)
+
+### Robert Hooke
+
+- **[T3] Documented fact —** Huygens and Hooke engaged one another through Royal Society communications and printed controversy over optical instruments, pendulum mechanisms, evidence for Earth’s motion, and spring-regulated watches. A surviving Huygens letter from Paris dated 30 March 1673 discusses “the Hooke controversy,” Hooke’s reflecting telescope, and disputed pendulum inventions. [Royal Society catalogue record](https://catalogues.royalsociety.org/CalmView/Record.aspx?id=EL%2FH3%2F28&src=CalmView.Catalog)
+- **[T5] Reported fact —** Huygens encountered Hooke within the London Royal Society milieu during his English visits, particularly in 1661 and 1663. The documentary record is much stronger for their institutional and written exchanges than for any close personal relationship; they were scientific counterparts and rivals, not documented friends. [Huygens biography, 1661–1666](https://adcs.mijnweb.site/Huygens/22/577-biogr.html)
+
+### Gottfried Wilhelm Leibniz
+
+- **[T5] Documented fact —** Huygens met Leibniz in Paris in 1672 and personally directed his advanced mathematical education by recommending texts and setting problems in geometry, series, and mechanics. This was an informal mentor–pupil relationship rather than university enrollment.
+- **[T3] Documented fact —** Their face-to-face instruction developed into a long correspondence extending into the 1690s. Huygens later engaged with the differential calculus produced by Leibniz’s circle, creating a documented reversal in which the former teacher learned techniques associated with his younger correspondent. Huygens’s will specifically preserved their French correspondence for Leiden. [*Oeuvres complètes* correspondence overview](https://adcs.home.xs4all.nl/Huygens/22a/oeuvres.html), [Huygens–Leibniz material](https://adcs.home.xs4all.nl/Huygens/16/index.html)
+
+### Louis XIV
+
+- **[T5] Reported fact —** Huygens was presented to Louis XIV during his Paris travels, received royal financial support before 1666, and then entered the king’s salaried scientific establishment as a founding member of the Académie royale des sciences. The famous painting of Colbert presenting the academicians to Louis XIV represents the institutional relationship symbolically and should not be treated as a literal record of one particular audience. [French government analysis of the painting and Academy](https://histoire-image.org/comment/799)
+- **[T3] Documented fact —** Huygens dedicated *Horologium Oscillatorium* (Paris, 1673) to Louis XIV while remaining a recipient of royal patronage. This one-sided written address is especially notable because France and the Dutch Republic were then at war; no evidence turns the dedication or salary into espionage or a treason proceeding. [Académie des sciences historical account](https://www.academie-sciences.fr/pdf/lettre/lettre37_38_gb.pdf)
+
+### Edmond Halley
+
+- **[T5] Documented fact —** Huygens and Halley attended the same Royal Society meeting at Gresham College in London on 22 June 1689. Huygens’s travel notes name Halley among those present and record that Huygens attended with Newton and Nicolas Fatio de Duillier. This establishes personal proximity in a meeting, though not necessarily a close friendship. [*Oeuvres complètes*, letter of 3 September 1689 and editorial travel record](https://www.dbnl.org/tekst/huyg003oeuv09_01/huyg003oeuv09_01_0167.php)
+
+### Isaac Newton
+
+- **[T5] Documented fact —** Huygens first met Newton personally during the 1689 English visit. They attended the Royal Society together on 22 June and met on additional occasions, discussing gravity, colors, double refraction, and mathematics; Huygens also accompanied Newton and Fatio on 10 July in connection with the vacant King’s College position. [*Oeuvres complètes*, 1689 travel record](https://www.dbnl.org/tekst/huyg003oeuv09_01/huyg003oeuv09_01_0167.php)
+- **[T3] Documented fact —** Before and after meeting Newton, Huygens engaged his work in print and correspondence. He published comments on Newton’s theory of colors in 1673, studied the *Principia* after 1687, accepted much of its celestial mathematics, and criticized attraction without a mechanical cause and Newton’s absolute space. Their connection was therefore both personal and sustained intellectual discourse. [Study of Huygens and Newton’s dynamics](https://www.dbnl.org/tekst/_zev001199601_01/_zev001199601_01_0020.php)
+
+### John Locke
+
+- **[T5] Documented fact —** Huygens met Locke socially in England during the summer of 1689, including in the circle of Lady Mordaunt. The encounter belongs to Huygens’s documented participation in the Anglo-Dutch intellectual milieu following the Glorious Revolution; no evidence establishes an extensive correspondence or close friendship between them. [*Oeuvres complètes*, 1689 correspondence and travel documentation](https://www.dbnl.org/tekst/huyg003oeuv09_01/huyg003oeuv09_01_0167.php)
+
+The remaining roster names were omitted because the available evidence did not establish one of the specified connection types. Mere influence on later science, comparable subject matter, common institutional tradition, or appearance in modern historical narratives was not treated as a crossing.
+
 ## Sources
 
 https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/

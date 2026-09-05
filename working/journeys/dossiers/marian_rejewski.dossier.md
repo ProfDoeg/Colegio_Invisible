@@ -687,6 +687,18 @@ This formulation neither dilutes Rejewski's priority nor attributes later allied
 | 2 Feb 2022 | Bydgoszcz Główna station named for Rejewski |
 | 2024 | Rare Rejewski interview clips received renewed international circulation |
 
+## Atlas Connections
+
+### Alan Mathison Turing
+
+- **[T5] Documented fact:** Turing visited the Polish cryptanalytic team at P.C. Bruno near Gretz-Armainvilliers, France, in January 1940 and conferred directly with Rejewski and the other Polish cryptologists about Enigma methods. He brought newly completed British-made Zygalski sheets; on 17 January, during this visit, Bruno recovered the first wartime Enigma daily key, for traffic dated 28 October 1939. Turing had not attended the July 1939 Pyry conference. [Alan Turing: Primary Sources—mission to France](https://www.turing.org.uk/sources/index.html) [National Archives, “Alan Turing, Enigma, and the Breaking of German Machine Ciphers”](https://www.archives.gov/files/publications/prologue/1997/fall/turing.pdf)
+
+### Arthur Scherbius
+
+- **[T9-] Documented fact:** The connecting object was the Enigma machine. Scherbius originated and patented the commercial rotor-cipher design and helped establish its manufacture in Germany; after Scherbius’s death in 1929, the German military’s modified Enigma became the object Rejewski reconstructed mathematically in Warsaw in late 1932. This is an object/design lineage, not evidence that the two men met, corresponded, or handled the same individual machine. [Polish Internal Security Agency historical study](https://abw.gov.pl/ftp/foto/Konferencje/Ludzie_sluzb/Rejewski/M__Rejewski_-_w_sluzbie____-_14_11_2022_-_NOWY_.pdf) [NSA, “Marian Rejewski”](https://www.nsa.gov/History/Cryptologic-History/Historical-Figures/Historical-Figures-View/Article/1621548/marian-rejewski/)
+
+No genuine documented T1, T2, T3, T4, T5, or T9 crossing with any other person on the supplied roster was located. Mere contemporaneity, mathematical or cryptographic subject affinity, travel through the same country, and later comparison in histories or commemorations were excluded.
+
 ## Sources
 
 https://amu.edu.pl/dla-mediow/komunikaty-prasowe/uniwersyteccy-kryptolodzy-uhonorowani-w-collegium-martineum-uam-otwarto-centrum-szyfrow-enigma3

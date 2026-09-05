@@ -1074,6 +1074,66 @@ None of these constructions is neutral. Each answers the needs of a community in
 
 ---
 
+## Atlas Connections
+
+Because no contemporary evidence establishes Homer’s identity or lifetime, no historically secure face-to-face connection can be demonstrated. The documented crossings below are textual or posthumous except for the explicitly legendary encounter with Hesiod.
+
+### Aeneas
+
+- **[T1-]** **Documented textual fact; traditional authorship, legendary subject.** Homer’s *Iliad*, probably monumentalized in the eighth or seventh century BCE, portrays Aeneas as a Trojan leader protected by Aphrodite and rescued from Achilles by Poseidon. The poem is the earliest surviving literary witness to Aeneas, but neither Aeneas’ historicity nor Homer’s personal authorship is independently established.
+
+### Alexander the Great
+
+- **[T9+]** **Reported fact.** Plutarch reports that Alexander carried an edition of the *Iliad* corrected by Aristotle—the “casket copy”—and kept it with a dagger beneath his pillow during his Asian campaigns beginning in 334 BCE. The physical manuscript did not pass from Homer personally to Alexander; this is a T9 connection through the later copy and textual tradition originating in the Homeric corpus. The anecdote was recorded centuries afterward and its details cannot be independently confirmed. [Plutarch, *Life of Alexander* 8](https://www.livius.org/sources/content/plutarch/plutarchs-alexander/alexander-and-aristotle/)
+
+### Aristotle
+
+- **[T1+]** **Documented fact.** Aristotle repeatedly analyzed Homer in the *Poetics*, written in the fourth century BCE. He praised the unified actions of the *Iliad* and *Odyssey*, Homer’s restricted authorial voice, and his dramatic characterization; he also accepted the *Margites* as Homeric and treated it as a precursor of comedy. This is surviving, sustained writing by Aristotle about the earlier poet and attributed works. [Aristotle, *Poetics* 1448b](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0056%3Asection%3D1448b), [1451a](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0056%3Asection%3D1451a)
+
+### Borges
+
+- **[T1+]** **Documented fact.** Jorge Luis Borges repeatedly made Homer a literary character and object of reflection. Most directly, “The Immortal” (first published in 1947) ultimately identifies its ancient narrator with Homer, while “The Maker” (*El hacedor*, 1960) imagines the poet discovering his blindness and the inward memory from which his poetry will arise. These are deliberate modern reconstructions, not biographical evidence about Homer.
+
+### Dante
+
+- **[T1+]** **Documented fact.** Dante wrote Homer into *Inferno* 4, composed in Italy in the early fourteenth century, placing him in Limbo at the head of the classical poets and calling him the sovereign poet. Dante almost certainly did not possess direct reading knowledge of the Greek epics; the encounter reflects Homer’s authority as transmitted through Latin literary culture.
+
+### Herodotus
+
+- **[T1+]** **Documented fact.** In the fifth century BCE, Herodotus wrote that Homer and Hesiod lived no more than four hundred years before him and assigned them a formative role in Greek accounts of the gods. Elsewhere he used narrative inconsistency to question Homeric authorship of the *Cypria*. These are the earliest surviving extended historical-critical judgments about Homer, not contemporary biographical testimony. [Herodotus, *Histories* 2.53](https://classics.mit.edu/Herodotus/history.2.ii.html)
+
+### Hesiod
+
+- **[T5]** **Rumor or myth.** The ancient *Contest of Homer and Hesiod* makes the poets meet at the funeral games of Amphidamas at Chalcis, conventionally placed on Euboea, where King Panedes awards victory to Hesiod despite the audience’s preference for Homer. The surviving narrative is much later, although it incorporates earlier contest material. Hesiod’s own *Works and Days* mentions a victory at Chalcis but does not name Homer; no historical meeting is documented.
+
+### James Joyce
+
+- **[T3]** **Documented fact.** Joyce’s *Ulysses*, written chiefly from 1914 to 1921 and published in Paris in 1922, is a sustained one-sided engagement with the *Odyssey*. It recasts Odysseus, Telemachus, and Penelope as Leopold Bloom, Stephen Dedalus, and Molly Bloom during 16 June 1904 in Dublin. The novel’s Homeric correspondences constitute discourse with the transmitted epic, not with a recoverable historical Homer. [James Joyce Centre](https://jamesjoyce.ie/work/)
+
+### Nietzsche
+
+- **[T1+]** **Documented fact.** Friedrich Nietzsche directly investigated Homer’s identity and reception in his 1869 Basel inaugural lecture, *Homer and Classical Philology*. He subsequently edited and studied the *Contest of Homer and Hesiod* and wrote “Homer’s Contest,” interpreting Homeric culture through Greek competition. [University Library Basel catalogue and scan](https://www.e-rara.ch/bau_1/content/titleinfo/21409600), [English text](https://www.gutenberg.org/files/18188/18188-h/18188-h.htm)
+
+### Plato
+
+- **[T1+]** **Documented fact.** Plato repeatedly wrote about Homer in fourth-century-BCE dialogues. In the *Ion*, Socrates questions a prizewinning rhapsode whose performances and interpretations specialize in Homer; the *Republic* calls Homer the educator or leader of Greek culture while criticizing Homeric theology, imitation, and moral education. These dialogues document Plato’s intensive critical reception, not personal contact. [Plato, *Ion* 530a–536c](https://www.perseus.tufts.edu/hopper/text?doc=Ion&fromdoc=Perseus%3Atext%3A1999.01.0180)
+
+### Strabo
+
+- **[T1+]** **Documented fact.** Strabo’s *Geography*, composed around the transition from the first century BCE to the first century CE, discusses rival claims connecting Homer with Smyrna, Chios, and other East Greek locations and treats Homeric verse as geographical evidence. His account is a much later antiquarian and critical engagement, not independent proof of Homer’s residence or travels.
+
+### Ulysses / Odysseus
+
+- **[T1-]** **Documented textual fact; traditional authorship, legendary subject.** The *Odyssey* is organized around Odysseus’ return to Ithaca, while the *Iliad* also presents him as an Achaean commander, diplomat, and strategist at Troy. On the traditional chronology Homer is the later writer treating an earlier heroic figure, hence T1−. Odysseus’ personal historicity and composition of the poems by one identifiable Homer remain unverified.
+
+### Vico
+
+- **[T1+]** **Documented fact.** Giambattista Vico devoted Book III of the 1744 *New Science*, “Discovery of the True Homer,” to reconstructing Homer as an expression of the Greek peoples and their heroic age rather than accepting the conventional biography of a single fully recoverable author. His argument became an important precursor to collective and historical approaches to the Homeric Question. [Vico, *New Science*, Book III](https://api.pageplace.de/preview/DT0400.9781501702990_A30377828/preview-9781501702990_A30377828.pdf)
+
+### Virgil
+
+- **[T3]** **Documented fact.** Virgil’s *Aeneid*, composed at Rome between approximately 29 and 19 BCE, engages continuously with both the *Iliad* and *Odyssey*: Aeneas’ wanderings recast Odyssean return narrative, while the Italian war reworks Iliadic combat, divine action, and heroic loss. This is a demonstrable literary dialogue with the Homeric poems, not evidence that Virgil possessed an object traceable to Homer personally.
+
 ## Sources
 
 https://academic.oup.com/reference/62365/reference-article/554615572

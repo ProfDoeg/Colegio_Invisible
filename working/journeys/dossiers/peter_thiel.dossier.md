@@ -542,6 +542,85 @@ None of these legacies is settled. Palantir’s use in war and migration, the su
 | 14 Aug 2026 | Thiel Macro 13F discloses about $76m Vista Energy stake tied to Vaca Muerta |
 | 24 Aug 2026 | Living; Forbes estimate about $32bn; active across Palantir, Founders Fund, Thiel Capital and political/intellectual networks |
 
+## Atlas Connections
+
+### Adam Smith
+
+- **[T1-]** **Documented fact:** Thiel discussed Smith in his 2007 essay “The Straussian Moment,” placing *The Wealth of Nations* within the modern economic account of human motivation that he argued was inadequate after 11 September 2001. [Essay text](https://www.vigneshatm.com/Compendia/2007-the-straussian-moment-thiel.pdf)
+
+### Alex Karp
+
+- **[T5]** **Documented fact:** Thiel and Karp became friends at Stanford and later met repeatedly as cofounders of Palantir, established in 2003–04. Karp has publicly called Thiel a “long-term friend” and said Thiel personally invited him to cofound the company. [World Economic Forum interview](https://www.weforum.org/podcasts/meet-the-leader/episodes/palantir-alex-karp-saying-yes-thinking-differently/)
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** In “The Straussian Moment,” Thiel treated Aristotle’s account of human imitation as a precursor to Girard and proposed a synthesis between Aristotelian biology and Darwinian evolution. [Essay text](https://www.vigneshatm.com/Compendia/2007-the-straussian-moment-thiel.pdf)
+
+### Charles Darwin
+
+- **[T1-]** **Documented fact:** “The Straussian Moment” discussed *On the Origin of Species*, Darwinian gradualism and the possibility of combining Darwin with Aristotle in a Girardian science of humanity. [Essay text](https://www.vigneshatm.com/Compendia/2007-the-straussian-moment-thiel.pdf)
+
+### Curtis Yarvin
+
+- **[T3]** **Documented fact:** Published 2014 emails show Thiel corresponding with Yarvin about their public association and asking how politically “dangerous” that association might be. [The New Yorker](https://www.newyorker.com/magazine/2025/06/09/curtis-yarvin-profile)
+- **[T5]** **Reported fact:** Reputable profiles describe a personal friendship and recurring intellectual relationship between the two; Founders Fund also invested in Tlon, the company developing Yarvin’s Urbit project. The record supports personal contact but not Thiel’s adoption of every neoreactionary proposition attributed to Yarvin. [The New Yorker](https://www.newyorker.com/magazine/2025/06/09/curtis-yarvin-profile)
+
+### Elon Musk
+
+- **[T5]** **Documented fact:** Thiel and Musk met as leaders of competing payment companies, negotiated the March 2000 Confinity–X.com merger, and worked within the merged company until its board replaced Musk with Thiel as CEO in September 2000. They later resumed direct business dealings when Founders Fund invested in SpaceX. [Sequoia’s PayPal oral history](https://sequoiacap.com/podcast/crucible-moments-paypal)
+
+### Friedrich Nietzsche
+
+- **[T1-]** **Documented fact:** Thiel analyzed Nietzsche’s “death of God” and “madman” passages in “The Straussian Moment,” comparing Nietzsche’s problem of untimely disclosure with Girard’s theory of revelation and the founding murder. [Essay text](https://www.vigneshatm.com/Compendia/2007-the-straussian-moment-thiel.pdf)
+
+### Hegel
+
+- **[T1-]** **Documented fact:** “The Straussian Moment” discussed Hegel’s historical synthesis and invoked the owl of Minerva while distinguishing Girard’s potentially catastrophic unveiling of violence from Hegelian historical resolution. [Essay text](https://www.vigneshatm.com/Compendia/2007-the-straussian-moment-thiel.pdf)
+
+### Javier Milei
+
+- **[T5]** **Documented fact:** Milei officially received Thiel at Argentina’s Casa Rosada in Buenos Aires on 23 April 2026. Matt Danzeisen, foreign minister Pablo Quirno and Founders Fund partner Matías Van Thienen were also present. [Argentine government record](https://www.argentina.gob.ar/noticias/el-presidente-javier-milei-recibio-al-empresario-peter-thiel)
+
+### Jeffrey Epstein
+
+- **[T3]** **Documented fact:** Released emails show direct correspondence between Thiel and Epstein beginning by 2014 and continuing intermittently into 2018, including discussion of further meetings and an invitation to visit the Caribbean. Thiel’s representative said he never visited Epstein’s island. [Associated Press](https://apnews.com/article/epstein-documents-trump-andrew-emails-7bdf92fd2d742f88789b2b5d67bf9f48)
+- **[T5]** **Reported fact:** Scheduling records and correspondence reviewed by major news organizations indicate that Thiel met Epstein several times beginning in 2014; one 2014 Epstein email following an encounter said they would meet again in three weeks. The records establish social and business contact, not participation by Thiel in Epstein’s sexual crimes. [Associated Press](https://apnews.com/article/epstein-documents-trump-andrew-emails-7bdf92fd2d742f88789b2b5d67bf9f48)
+
+### John Locke
+
+- **[T1-]** **Documented fact:** Thiel devoted a substantial section of “The Straussian Moment” to Locke, describing him as a central theorist of the American political compromise and criticizing his treatment of human nature, property, religion and esoteric communication. [Essay text](https://www.vigneshatm.com/Compendia/2007-the-straussian-moment-thiel.pdf)
+
+### Karl Marx
+
+- **[T1-]** **Documented fact:** In “The Straussian Moment,” Thiel placed Marx and Smith on opposing political sides but argued that both ultimately treated people as rational economic actors, a premise he considered insufficient. [Essay text](https://www.vigneshatm.com/Compendia/2007-the-straussian-moment-thiel.pdf)
+
+### Max Levchin
+
+- **[T5]** **Documented fact:** Thiel met Levchin in the Stanford orbit in 1998 and cofounded Fieldlink/Confinity with him and Luke Nosek. Thiel supplied early financing and served as chief executive, while Levchin led the cryptography and engineering work that became PayPal. [Sequoia’s PayPal oral history](https://sequoiacap.com/podcast/crucible-moments-paypal)
+
+### Reid Hoffman
+
+- **[T5]** **Documented fact:** Thiel and Hoffman met at Stanford, later worked together at PayPal, and maintained a personal and investment relationship despite divergent party politics. Hoffman introduced Thiel to Mark Zuckerberg in 2004, enabling Thiel’s initial Facebook investment. [Hoffman interview](https://finance.yahoo.com/news/linkedin-founder-reid-hoffman-reveals-113200229.html)
+
+### René Girard
+
+- **[T1-]** **Documented fact:** Thiel wrote extensively about Girard’s mimetic theory, scapegoating, revelation and apocalypse in “The Straussian Moment,” explicitly contrasting Girard with Nietzsche and Leo Strauss. [Essay text](https://www.vigneshatm.com/Compendia/2007-the-straussian-moment-thiel.pdf)
+- **[T5]** **Documented fact:** Thiel studied Girard’s work while an undergraduate at Stanford and later interacted with him personally, including at a small Stanford seminar organized by Thiel and Robert Hamerton-Kelly in 2004. Their relationship was that of student, intellectual patron and later interlocutor—not merely influence through books. [The New Yorker](https://www.newyorker.com/magazine/2011/11/28/no-death-no-taxes)
+
+### Sam Altman
+
+- **[T5]** **Reported fact:** Thiel became Altman’s adviser, investor and friend by at least 2012, supplied most of the initial $21 million for Altman’s Hydrazine Capital, traveled with him for speaking engagements, and continued taking private strategy calls from him in 2023. [The Washington Post](https://www.washingtonpost.com/technology/2023/12/23/sam-altman-openai-peter-thiel-silicon-valley/)
+
+### Thomas More
+
+- **[T1-]** **Documented fact:** Near the conclusion of “The Straussian Moment,” Thiel presented More as a Christian guide to the choice between “Jerusalem and Athens” and quoted *A Dialogue of Comfort Against Tribulation*. [Essay text](https://www.vigneshatm.com/Compendia/2007-the-straussian-moment-thiel.pdf)
+
+### J. R. R. Tolkien
+
+- **[T1-]** **Documented fact:** Thiel and Blake Masters concluded *Zero to One* with a discussion drawn from Tolkien, while Thiel repeatedly used Tolkien’s invented objects and peoples as interpretive symbols and company names—notably Palantir, Mithril and Valar. This is documented literary engagement, although Tolkien died in 1973 and never met Thiel. [Publisher’s author page](https://www.penguinrandomhouse.com/authors/185896/peter-thiel/)
+
+No reliable qualifying connection was established with Nick Land: their intellectual proximity runs through Yarvin and later commentary, but no direct correspondence, meeting, friendship or Thiel-authored treatment of Land was documented. Other roster overlaps based only on shared ideology, industry, event attendance, geographic presence or passing name-checks were excluded.
+
 ## Sources
 
 https://www.sec.gov/Archives/edgar/data/1103415/000091205702026650/a2084015zex-99_1.htm

@@ -762,6 +762,42 @@ The archive’s rhetoric can be hagiographic—“hero,” “revolutionary,” 
 | 2024 | Primavera’s *Hilde Holger—Her Legacy* enters festival circulation. |
 | 2024–2025 | *Basement Dances* research and re-embodiment project in Salzburg. |
 
+## Atlas Connections
+
+### Hans Christian Andersen
+
+- **[T1-] Documented fact:** Holger choreographed *The Emperor’s New Clothes* (1948), explicitly adapting Andersen’s tale and using music by Mozart. The connection is through Holger’s later choreographic treatment of Andersen’s earlier literary work. [Hilde Holger Archive performance catalogue](https://hildeholger.com/london/performances-london/)
+
+### Jiddu Krishnamurti
+
+- **[T3] Reported fact:** In Holger’s retrospective autobiographical account, she and Gisa Geert danced Handel’s *Largo* before Krishnamurti during a Theosophical Congress at Vienna’s Konzerthaus. Holger recalled seeing him directly in the audience and feeling his presence while performing. The estate publishes this firsthand recollection, but no independent program or contemporary report was located. [Holger’s “History Pages” excerpt](https://hildeholger.com/vienna/)
+
+### Federico García Lorca
+
+- **[T1-] Documented fact:** Holger’s *The House of Bernarda Alba (The Sisters)* (1961), set to music by Joaquín Turina, was a choreographic response to Lorca’s play. The documented crossing is therefore Holger’s later adaptation of Lorca’s writing, not a personal encounter; Lorca died in 1936. [Hilde Holger Archive performance catalogue](https://hildeholger.com/london/performances-london/)
+
+### Oscar Wilde
+
+- **[T1-] Documented fact:** Holger staged *The Selfish Giant* in Bombay in 1943 as a student production based on Wilde’s story. This constitutes a later choreographic adaptation of Wilde’s literary work; no evidence indicates that Holger and Wilde met, and Wilde died before Holger’s birth. [Hilde Holger Archive Bombay performance catalogue](https://hildeholger.com/bombay/performances/)
+
+### Oskar Schlemmer
+
+- **[T1-] Reported fact:** Holger’s documented 1979 repertoire includes a Bauhaus/Schlemmer reconstruction or tribute, although the estate title—rendered as “Tradisches Ballet”—is textually uncertain. Schlemmer was also identified among her artistic influences. The evidence supports later choreographic engagement with his work, not a verified personal meeting. [Hilde Holger Archive performance catalogue](https://hildeholger.com/london/performances-london/)
+
+### Paul Klee
+
+- **[T1-] Documented fact:** Holger created *Paul Klee: Spring Awakening* (1975), set to music by Béla Bartók and presented in her visual-art-inspired Hampstead Theatre repertoire. The crossing is Holger’s explicit choreographic response to Klee’s art; no personal encounter is documented. [Hilde Holger Archive performance catalogue](https://hildeholger.com/london/performances-london/)
+
+### Pieter Bruegel the Elder
+
+- **[T1-] Documented fact:** Holger’s Vienna work *Flämischer Bilderbogen* (1937) was constructed after Bruegel’s imagery. This is a documented later choreographic interpretation of the painter’s work, separated from him by several centuries. [Hilde Holger Archive Vienna performance catalogue](https://hildeholger.com/vienna/performances/)
+
+### Saint Francis of Assisi
+
+- **[T1-] Documented fact:** Holger choreographed *Saint Francis and His Sermon to the Birds* in 1965, treating the medieval saint and the traditional sermon-to-the-birds episode as a dance subject. This was an artistic representation, not evidence involving a relic, manuscript transmission, or historical meeting. [Hilde Holger Archive performance catalogue](https://hildeholger.com/london/performances-london/)
+
+The sources also associate Holger with roster figures including Rudolf Laban, Mary Wigman, Isadora Duncan, Ruth St. Denis, Valeska Gert, Martha Graham, Pablo Picasso, Gustav Klimt, Sigmund Freud, and Mahatma Gandhi. Those references establish influence, comparison, cultural environment, disputed family memory, or impact from a public event—not, on the evidence located, one of the six specified connection types. They are therefore not entered as Atlas connections.
+
 ## Sources
 
 https://jwa.org/encyclopedia/article/holger-hilde

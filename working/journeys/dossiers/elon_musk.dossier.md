@@ -321,6 +321,70 @@ The hagiographic image is engineer-king, civilization saver and enemy of bureauc
 - **May 2026:** Musk’s OpenAI claims dismissed as time-barred after trial; appeal announced.
 - **24 Aug 2026:** Living; continues to direct interlocking aerospace, automotive, AI, platform, neurotechnology and infrastructure enterprises.
 
+## Atlas Connections
+
+### Benjamin Netanyahu
+
+- **[T5] Documented fact:** Musk hosted Israeli prime minister Benjamin Netanyahu at Tesla’s Fremont, California, factory on 18 September 2023. They toured the plant and held a livestreamed discussion concerning artificial intelligence, antisemitism, X, and Israeli judicial politics. [Washington Post](https://www.washingtonpost.com/technology/2023/09/18/netanyahu-musk-meeting-x-live/)
+
+### Bill Gates
+
+- **[T5] Reported fact:** Musk and Gates met in person, including a widely reported March 2022 meeting at Tesla’s Austin-area factory. Their discussion became contentious when Musk challenged Gates over his short position in Tesla; text messages subsequently published by Musk and accounts in Walter Isaacson’s biography document continued direct communication and disagreement over climate philanthropy and Tesla. [CNBC](https://www.cnbc.com/2022/04/25/elon-musk-confirms-he-rejected-bill-gates-on-climate-change-collaboration.html)
+
+### Jair Bolsonaro
+
+- **[T5] Documented fact:** Musk met Brazilian president Jair Bolsonaro at Porto Feliz, São Paulo state, on 20 May 2022. They discussed Starlink connectivity, investment, technology, and proposed monitoring or protection projects in the Amazon; Reuters photographs document them speaking together. [Reuters photograph and caption](https://www.reutersconnect.com/item/brazils-president-jair-bolsonaro-and-tesla-ceo-elon-musk-talk-during-a-meeting-in-porto-feliz-city-in-sao-paulo-state/dGFnOnJldXRlcnMuY29tLDIwMjI6bmV3c21sX1JDMjlCVTlPS0pTTA)
+
+### Javier Milei
+
+- **[T5] Documented fact:** Musk and Argentine president Javier Milei met at Tesla’s Gigafactory Texas near Austin on 12 April 2024 and publicly emphasized free markets, investment, lithium, and Starlink. They met again before Musk’s appearance at CPAC in National Harbor, Maryland, on 20 February 2025, when Milei gave Musk the ceremonial chainsaw that Musk displayed onstage. [Argentine Foreign Ministry](https://eeeuu.cancilleria.gob.ar/userfiles/arg_in_focus_192.pdf), [Associated Press](https://apnews.com/article/6568e9e0cfc42ad6cdcfd58a409eb312)
+
+### Larry Ellison
+
+- **[T5] Documented fact:** Ellison has publicly described himself as Musk’s close friend. He served on Tesla’s board from December 2018 to 2022, hosted Musk in Hawaii, and committed $1 billion to Musk’s 2022 Twitter acquisition after direct correspondence with him. [Tesla proxy statement](https://ir.tesla.com/_flysystem/s3/sec/000156459019014268/tsla-def14a_20190611-gen_0.pdf), [Reuters](https://www.investing.com/news/stock-market-news/musk-secures-over-7-billion-funding-from-investors-including-larry-ellison-2818068)
+
+### Marc Andreessen
+
+- **[T3] Documented fact:** Andreessen communicated directly with Musk during the 2022 Twitter acquisition, offering financial backing and discussing the proposed transaction in text messages later produced in the Delaware litigation. Andreessen Horowitz ultimately supplied $400 million in equity financing. [Delaware Chancery exhibit containing Musk’s messages](https://www.documentcloud.org/documents/23112929-elon-musk-text-exhibits-twitter-v-musk/)
+
+### Max Levchin
+
+- **[T5] Documented fact:** Musk and Levchin worked together after X.com and Confinity merged in Palo Alto in March 2000. Levchin, Confinity’s principal technologist, opposed Musk in disputes over platform architecture and management and participated with other executives in the September 2000 change that replaced Musk with Peter Thiel; both remained part of the company that became PayPal. [PayPal SEC registration statement](https://www.sec.gov/Archives/edgar/data/1103415/000091205702023923/a2082068zs-1.htm), [Washington Post](https://www.washingtonpost.com/history/2023/07/25/elon-musk-paypal-twitter-x-rebrand/)
+
+### Peter Thiel
+
+- **[T5] Documented fact:** Musk and Thiel became colleagues when X.com merged with Thiel’s Confinity in March 2000. Thiel succeeded Musk as chief executive in September 2000; Musk remained the largest shareholder and a director through the company’s renaming as PayPal, public offering, and 2002 sale to eBay. Their later contacts belong to the overlapping “PayPal Mafia” business and political network. [PayPal SEC registration statement](https://www.sec.gov/Archives/edgar/data/1103415/000091205702023923/a2082068zs-1.htm), [Washington Post](https://www.washingtonpost.com/history/2023/07/25/elon-musk-paypal-twitter-x-rebrand/)
+
+### Reid Hoffman
+
+- **[T5] Documented fact:** Hoffman joined the merged X.com/PayPal organization in 2000 and served in senior business-development and operating roles while Musk was an executive, director, and major shareholder. Their relationship later became politically adversarial, but direct correspondence continued: Hoffman’s messages to Musk concerning the 2022 Twitter transaction were among the communications disclosed in the Delaware litigation. [Fast Company](https://www.fastcompany.com/1837839/reid-hoffman-paypals-pivoted-path-success), [TIME](https://time.com/6218578/elon-musk-texts-twitter/)
+
+### Sam Altman
+
+- **[T5] Documented fact:** Musk and Altman jointly launched OpenAI in December 2015 as its co-chairs and exchanged extensive emails about its structure, personnel, financing, and strategy. After Musk left its board in 2018, their relationship became openly adversarial and culminated in Musk’s litigation against Altman and OpenAI. [OpenAI’s 2015 announcement](https://openai.com/index/introducing-openai/), [OpenAI correspondence release](https://openai.com/index/elon-musk-wanted-an-openai-for-profit/)
+
+### Sam Bankman-Fried
+
+- **[T3] Reported fact:** Bankman-Fried and Musk spoke by telephone in 2022 after intermediaries proposed Bankman-Fried as a possible investor or partner in Musk’s Twitter acquisition. Bankman-Fried subsequently declined to participate; no substantiated personal friendship or completed joint investment resulted. [Axios](https://www.axios.com/2022/10/03/twitter-musk-sam-bankman-fried)
+
+### Stephen King
+
+- **[T3] Documented fact:** King and Musk engaged directly on Twitter in November 2022 over Musk’s proposed monthly charge for verification. After King objected to a reported $20 price, Musk replied that Twitter needed revenue and proposed $8; King continued criticizing the policy. [Bangor Daily News](https://www.bangordailynews.com/2022/11/01/bangor/king-twitter-fees/)
+
+### Volodymyr Zelenskyy
+
+- **[T3] Documented and reported fact:** Musk and Ukrainian president Zelenskyy communicated directly during Russia’s invasion. Zelenskyy publicly addressed Musk about Starlink in 2022, and Musk joined a telephone call between Zelenskyy and U.S. president-elect Donald Trump on 6 November 2024; a Ukrainian official reported that Zelenskyy thanked him for Starlink service. This establishes direct discourse, while the more expansive claim that Musk personally controlled Ukrainian military policy remains disputed. [Associated Press](https://apnews.com/article/f6ab0c5e1c5de1262ae2a1747247819c)
+
+### Alex Karp
+
+- **[T4] Documented fact:** Musk and Palantir chief executive Alex Karp attended the closed-door U.S. Senate Artificial Intelligence Insight Forum in Washington, D.C., on 13 September 2023. Public reporting places both at the same forum but does not establish a separate personal meeting or friendship between them. [Associated Press](https://apnews.com/article/ai-congress-regulation-musk-zuckerberg-altman-4f7705c45acc70c6c9ddaf501d637fa9)
+
+### Yoshua Bengio
+
+- **[T4] Documented fact:** Musk and Bengio both attended the United Kingdom’s AI Safety Summit at Bletchley Park on 1–2 November 2023. The summit record supports shared presence in the same institutional setting; it does not by itself prove a private conversation between them. [Associated Press](https://apnews.com/article/885d09550b0ad19f7a1cdfbd6e2b910b)
+
+No reliable evidence was located for T2 prophecy/hyperstition or T9 shared-object succession connections between Musk and the roster. Mere influence, comparison, shared interests, or appearance at different times in the same broad geographic area was excluded.
+
 ## Sources
 
 https://www.sec.gov/Archives/edgar/data/1103415/000091205702023923/a2082068zs-1.htm

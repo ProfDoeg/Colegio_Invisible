@@ -737,6 +737,91 @@ Cividale, Friuli, Benevento, Salerno, Metz, and Monte Cassino all claim parts of
 - The poetic corpus remains fluid, including the authorship of *Ut queant laxis*.
 - Cause of death and exact burial location are unknown.
 
+## Atlas Connections
+
+### Aeneas
+
+- **[T1-] Documented fact:** Paul narrates Aeneas’s arrival in Italy, war with Turnus, marriage to Lavinia, foundation of Lavinium, and three-year reign over the Latins in *Historia Romana* I, composed for Adelperga around 766–774. [Latin text](https://thelatinlibrary.com/pauldeacon/histrom1.shtml)
+
+### Alexander the Great
+
+- **[T1-] Documented fact:** Paul’s *Historia Romana* recounts Alexander’s Macedonian and Asian conquests as part of its pre-Roman and Roman chronological framework. This is literary treatment of a figure dead for more than a millennium, not a personal crossing. [Critical-work record](https://geschichtsquellen.de/werk/3890)
+
+### Archimedes
+
+- **[T1-] Documented fact:** In his account of the Roman capture of Syracuse during the Second Punic War, Paul reports Archimedes’s death while absorbed in geometrical figures. The passage belongs to the ancient-history portion of *Historia Romana*. [Latin text collection](https://www.thelatinlibrary.com/pauldeacon.html)
+
+### Hannibal
+
+- **[T1-] Documented fact:** Paul treats Hannibal extensively in *Historia Romana*, including the Second Punic War, the invasion of Italy, Roman defeats, and Hannibal’s eventual flight and death. [Latin text collection](https://www.thelatinlibrary.com/pauldeacon.html)
+
+### Julius Caesar
+
+- **[T1-] Documented fact:** *Historia Romana* VI narrates Caesar’s civil war, victory over Pompey, Alexandrian campaign, relationship with Cleopatra, and subsequent wars. [Latin text](https://www.thelatinlibrary.com/pauldeacon/histrom6.shtml)
+
+### Cicero
+
+- **[T1-] Documented fact:** Paul includes Cicero in *Historia Romana*’s narrative of the late Republic, particularly the Catilinarian conspiracy, Cicero’s consulship, and the political violence preceding Augustus’s ascendancy. [Latin text collection](https://www.thelatinlibrary.com/pauldeacon.html)
+
+### Cleopatra VII
+
+- **[T1-] Documented fact:** Paul writes about Cleopatra in *Historia Romana* VI–VII, first in connection with Julius Caesar and then with Mark Antony and Octavian. His account states that Caesar awarded her the Egyptian kingdom and later describes her defeat. [Books VI](https://www.thelatinlibrary.com/pauldeacon/histrom6.shtml) and [VII](https://www.thelatinlibrary.com/pauldeacon/histrom7.shtml)
+
+### Jesus of Nazareth
+
+- **[T1-] Documented fact:** Paul integrated Christian chronology and sacred history into *Historia Romana*, including Christ’s incarnation, crucifixion, resurrection, and the beginnings of the Church under the Roman emperors. These passages were among the additions that distinguished his Christianized history from Eutropius’s pagan *Breviarium*. [Work description](https://www.newadvent.org/cathen/11591b.htm)
+
+### Paul the Apostle
+
+- **[T1-] Documented fact:** Paul the Deacon’s expanded Roman history recounts the apostolic age and the activity and martyrdom traditionally assigned to Paul the Apostle under Nero. Paul also selected Pauline material, directly or through patristic exposition, for his late-eighth-century homiliary. [Historia Romana collection](https://www.thelatinlibrary.com/pauldeacon.html) and [homiliary study](https://www.brepols.net/products/IS-9782503577913-1)
+
+### Peter the Apostle
+
+- **[T1-] Documented fact:** Paul writes about Peter as apostle and Roman martyr in the Christian continuation embedded in *Historia Romana*. In the *Liber de episcopis Mettensibus* he also presented Metz’s first bishop, Clement, as belonging to a Petrine missionary succession; part of the surviving Clement material was subsequently interpolated. [Edition description](https://www.peeters-leuven.be/detail.php?id=4000)
+
+### Constantine the Great
+
+- **[T1-] Documented fact:** *Historia Romana* narrates Constantine’s accession, wars, imperial rule, conversion-era religious policies, and relationship to the Christian Church. The treatment forms part of Paul’s continuation and Christian recasting of Roman imperial history. [Latin text collection](https://www.thelatinlibrary.com/pauldeacon.html)
+
+### Justinian I
+
+- **[T1-] Documented fact:** Justinian is a major figure in the final books of *Historia Romana*, whose narrative Paul extended through the Gothic War and approximately 552/553. Paul also discusses Justinian’s reign, councils, legislation, and Italian reconquest in *Historia Langobardorum*. [Work record](https://geschichtsquellen.de/werk/3890) and [Latin *Historia Langobardorum*](https://www.thelatinlibrary.com/pauldeacon.html)
+
+### Empress Theodora
+
+- **[T1-] Documented fact:** Paul treats Theodora within his account of Justinian’s reign in the concluding portion of *Historia Romana*, including imperial religious and political affairs. [Latin text collection](https://www.thelatinlibrary.com/pauldeacon.html)
+
+### Charles Martel
+
+- **[T1-] Documented fact:** Paul records Charles Martel in *Liber de episcopis Mettensibus* as a descendant of St. Arnulf’s family and an ancestor of Charlemagne. This genealogy helped connect the Carolingian dynasty to Metz’s episcopal sanctity and institutional history. [Modern edition and description](https://www.peeters-leuven.be/detail.php?id=4000)
+
+### Charlemagne
+
+- **[T3] Documented fact:** Paul addressed writings directly to Charlemagne, including the verse petition *Verba tui famuli* around 782, the dedication of his Festus epitome, poems in the courtly exchange involving Peter of Pisa, and works produced at the king’s request. Charlemagne commissioned or authorized projects including the homiliary and the transmission of a reliable Benedictine Rule. [Poetic-exchange study](https://research-repository.st-andrews.ac.uk/handle/10023/20278), [letters catalogue](https://geschichtsquellen.de/werk/3885), and [homiliary study](https://www.brepols.net/products/IS-9782503577913-1)
+- **[T5] Documented fact:** Paul personally entered Charlemagne’s Frankish court orbit by 782–783 while seeking relief for his captive brother, remained associated with the itinerant royal court until approximately 786–787, and participated in literary exchanges with the king. The precise location of their first audience is uncertain; an Easter 781 meeting at Rome remains a reconstruction rather than a documented fact. [Critical biography](https://www.treccani.it/enciclopedia/paolo-diacono_(Dizionario-Biografico)/)
+
+### Homer
+
+- **[T1-] Documented fact:** Paul discusses Homer in the poetic exchange conventionally dated around 782: Peter of Pisa’s court poem compared Paul with Homer and other canonical authors, and Paul’s reply rejected the extravagant comparison while judging pagan literary authority from a monastic-Christian standpoint. [Study and edition of the exchange](https://research-repository.st-andrews.ac.uk/handle/10023/20278)
+
+### Virgil
+
+- **[T1-] Documented fact:** Paul names and evaluates Virgil within the same Carolingian poetic exchange in which classical authors were invoked as measures of his learning. His historical writing also displays direct engagement with Virgilian material, especially traditions concerning Aeneas and Italy. [Poetic-exchange study](https://research-repository.st-andrews.ac.uk/handle/10023/20278) and [*Historia Romana* I](https://thelatinlibrary.com/pauldeacon/histrom1.shtml)
+
+### Pliny the Elder
+
+- **[T3] Documented fact:** Paul made substantial one-sided textual use of Pliny’s *Natural History*, especially for the geography and antiquarian learning of *Historia Langobardorum*. This is documented literary engagement, not personal contact and not evidence that a particular surviving manuscript passed directly between them. [Source overview](https://elfinspell.com/MedievalMatter/PaultheDeacon-PaulusDiaconus/HistoryOfTheLangobards/PaulTheDeacon-TableOfContents.html)
+
+### Saint Mercurius of Caesarea
+
+- **[T1-] Allegation or theory:** A poem concerning Mercurius’s relics and their transfer into the Beneventan sphere has been assigned to Paul and associated with Arechis II’s promotion of the saint’s cult. The broader Paul–Benevento context is historical, but modern attribution research excludes at least one formerly Paulian hymn to Mercurius as a twelfth-century work; the precise poetic connection therefore should not be treated as uniformly secure. [Current specialist poetry catalogue](https://geschichtsquellen.de/werk/3884)
+
+### Thomas Aquinas
+
+- **[T9+] Documented fact:** Paul lived, taught, wrote, and died at Monte Cassino in the eighth century; Thomas Aquinas was sent there for his early education in the thirteenth century. Their connection is the same Benedictine site across approximately five centuries, without shared occupancy, personal contact, or evidence that Thomas handled a specific object belonging to Paul. [Paul’s institutional biography](https://www.treccani.it/enciclopedia/paolo-diacono_(Dizionario-Biografico)/)
+
+No defensible T2 prophecy or hyperstition connection was found within the supplied roster. Mere chronological overlap, reuse of a general legend such as the Cynocephali tradition, or later residence in the same broad region has not been counted without the textual, personal, or site-specific evidence required by the atlas taxonomy.
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/paolo-diacono_(Dizionario-Biografico)/

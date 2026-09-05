@@ -601,6 +601,44 @@ His afterlife also generated legal and material institutions: the Yusupov libel 
 | British agent killed him? | Circumstantial hypothesis, unproved | High that unproved |
 | Famous prophecy authentic? | Exact popular text lacks secure provenance | Moderate-high |
 
+## Atlas Connections
+
+Rasputin’s dictated and editorially mediated 1915 pilgrimage book, *My Thoughts and Reflections*, provides the securely documented connections below. These are textual engagements, not claims that its biblical or traditional narratives are historically verified.
+
+### Abraham
+
+- **[T1-]** **Documented fact (textual):** Writing about his 1911 Holy Land pilgrimage, Rasputin described visiting the Oak of Mamre, recounted Abraham’s reception of the three angels, and presented Abraham and Sarah as exemplars of hospitality. The passage appeared in *My Thoughts and Reflections* (Petrograd, 1915), a work dictated by Rasputin and probably edited by followers ([text](https://omolenko.com/en/rasputin/st-grigori-rasputin-ideas-and-thoughts.htm)).
+
+### Apostle Paul
+
+- **[T1-]** **Documented fact (textual):** In the same 1915 work, Rasputin wrote that Paul had preached near Mytilene and discussed Paul and Timothy’s association with Ephesus and their martyrdom. These comments belong to Rasputin’s religious interpretation of sites encountered during his 1911 journey ([text](https://omolenko.com/en/rasputin/st-grigori-rasputin-ideas-and-thoughts.htm)).
+
+### Apostle Peter
+
+- **[T1-]** **Documented fact (textual):** Rasputin wrote about Peter’s raising of Tabitha at Jaffa and described visiting the cave traditionally associated with the episode, saying that pilgrims could imaginatively perceive Peter and hear his prayers. Published in *My Thoughts and Reflections* (1915), this is a documented engagement with the apostolic narrative, mediated through dictated and edited authorship ([text](https://omolenko.com/en/rasputin/st-grigori-rasputin-ideas-and-thoughts.htm)).
+
+### George Orwell
+
+- **[T1+]** **Documented fact:** On 3 April 1942, Orwell wrote in his wartime diary that he did not know whether Gandhi or Frank Buchman was “the nearest equivalent to Rasputin in our time.” This was a brief political-religious analogy, not a biographical study; Rasputin is the earlier figure written about by the later author ([Orwell diary entry](https://orwelldiaries.wordpress.com/2012/04/03/3-4-42/)).
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact (textual):** Rasputin’s *My Thoughts and Reflections* repeatedly discusses Jesus while narrating his 1911 visits to Jerusalem, Gethsemane, Golgotha, the Holy Sepulchre, Bethlehem, the Jordan and the traditional site of the Temptation. He interprets Christ’s suffering, resurrection, baptism and teachings devotionally. The connection is Rasputin’s documented written engagement with the earlier religious figure; the surviving work was dictated and editorially mediated ([text](https://omolenko.com/en/rasputin/st-grigori-rasputin-ideas-and-thoughts.htm)).
+
+### Noah
+
+- **[T1-]** **Documented fact (textual):** In his account of Jaffa, Rasputin referred to purported ruins of Noah’s Ark and interpreted the ark as an image of salvation through the Church. This is documented in the 1915 pilgrimage text, although the site identification itself belongs to religious tradition rather than established archaeology ([text](https://omolenko.com/en/rasputin/st-grigori-rasputin-ideas-and-thoughts.htm)).
+
+### Saint George of Lydda
+
+- **[T1-]** **Documented fact (textual):** Rasputin wrote that Saint George had defeated the serpent at Beirut and described a well and chapel associated with the tradition; he also mentioned relics attributed to George at Smyrna. These statements appear in his 1915 account of the 1911 pilgrimage and document engagement with the saint’s legend, not independent verification of the relics or event ([text](https://omolenko.com/en/rasputin/st-grigori-rasputin-ideas-and-thoughts.htm)).
+
+### Solomon
+
+- **[T1-]** **Documented fact (textual):** Rasputin mentioned the Pools of Solomon on the road between Jerusalem and the Jordan, describing their traditional function in watering livestock. The passage constitutes a brief written connection to Solomon through a named sacred landscape rather than a sustained treatment of his life ([text](https://omolenko.com/en/rasputin/st-grigori-rasputin-ideas-and-thoughts.htm)).
+
+No reliable evidence was found for a personal meeting, correspondence, performance encounter, prophetic linkage, or qualifying shared-object connection between Rasputin and any other roster member. In particular, occasional comparisons linking him with G. I. Gurdjieff, Helena Blavatsky, Nicholas Roerich and other contemporaneous mystics establish a later interpretive milieu, not documented crossings between the individuals.
+
 ## Sources
 
 https://archiv.72to.ru/index.php/gosudarstvennyj-arkhiv-tyumenskoj-oblasti/unikalnye-dokumenty

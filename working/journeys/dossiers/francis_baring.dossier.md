@@ -741,6 +741,20 @@ The house survived the 1890 Argentine crisis through a Bank of England-led rescu
 - **1995:** Barings collapses after unauthorized derivatives losses; later accounts again invoke the founder.
 - **2020s:** Digitization and provenance research deepen study of Louisiana papers, slavery connections, and art inheritance.
 
+## Atlas Connections
+
+### Alexander Baring
+
+- **[T5] Documented fact:** Alexander Baring (1774–1848) was Sir Francis Baring’s son, business partner, and principal overseas agent. Francis sent him to the United States in 1795 for the Baring–Hope Maine land investment and later authorized him to negotiate and execute the Louisiana Purchase financing in Paris and Washington during 1803–04. [Baring Archive](https://baringarchive.org.uk/exhibition/the-louisiana-purchase/)
+
+- **[T3] Documented fact:** Surviving correspondence records their sustained father-son and principal-agent engagement. Alexander’s letter from Washington dated 21 October 1803 reported directly to Francis on congressional approval of the Louisiana treaty, negotiations with the U.S. Treasury, and Spain’s protest; the archive also preserves correspondence between them concerning the Maine lands from 1795 onward. [Baring Archive Louisiana papers](https://baringarchive.org.uk/exhibition/the-louisiana-purchase/), [Baring Archive catalogue](https://baringarchive.org.uk/wp-content/uploads/2022/06/northbrook_np1.pdf)
+
+### Napoleon Bonaparte
+
+- **[T3] Documented fact:** Francis and Napoleon entered an indirect but concrete written–legal engagement through the Louisiana financing in 1803. Francis Baring & Co. empowered Alexander Baring to contract with French treasury minister Barbé-Marbois for the acquisition of the $11.25 million U.S. stock owed to France; Napoleon subsequently ratified the Louisiana agreement, and contemporary Treasury correspondence discussed whether he had also ratified the financiers’ contract. No evidence located establishes a personal meeting or direct correspondence between Francis and Napoleon, so this connection is limited to engagement through authorized agents and government instruments. [U.S. National Archives power of attorney](https://docsteach.org/document/power-of-attorney-alexander-baring/), [Gallatin to Jefferson, 31 August 1803](https://founders.archives.gov/documents/Jefferson/01-41-02-0231), [Baring Archive](https://baringarchive.org.uk/exhibition/the-louisiana-purchase/)
+
+No other roster member was found to have a sufficiently documented direct crossing with Sir Francis Baring under the specified connection types; indirect institutional involvement, mere contemporaneity, and later association with Barings have been excluded.
+
 ## Sources
 
 https://www.oxforddnb.com/display/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-1382

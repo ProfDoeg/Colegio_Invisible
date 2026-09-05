@@ -548,6 +548,64 @@ There is no surviving recorded voice, film, or interview of Kepler. “Interview
 | 1937–2017 | Modern KGW critical edition published |
 | 2009–18 | NASA Kepler mission surveys exoplanets |
 
+## Atlas Connections
+
+### Archimedes of Syracuse
+
+- **[T1-] Documented fact.** Kepler explicitly recast Archimedean measurement for German readers in *Ausszug auss der uralten Messe-Kunst Archimedis* (Linz, 1616), connecting Archimedes’ geometry to the practical gauging of vessels and wine barrels. The publication’s title and catalogue record directly name Archimedes. [LEO-BW bibliographic record](https://www.leo-bw.de/web/guest/detail/-/Detail/details/DOKUMENT/bsz_swb/092142672/Au%C3%9Fzug%20au%C3%9F%20der%20Uralten%20MesseKunst%20Archimedis%20Und%20deroselben%20newlich%20in%20Latein%20au%C3%9Fgangener%20Ergentzung-%20betreffend%20Rechnun)
+
+### Aristotle
+
+- **[T1-] Documented fact.** Kepler repeatedly interpreted, translated, and contested Aristotle in his astronomy and natural philosophy—especially Aristotelian celestial physics, cosmology, and accounts of light and vision. This was direct textual engagement, not merely membership in a broadly “anti-Aristotelian” generation. Modern scholarship specifically treats “Kepler as Reader and Translator of Aristotle.” [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/kepler/)
+
+### Plato
+
+- **[T1-] Documented fact.** Kepler explicitly reused the geometrical cosmology of Plato’s *Timaeus*. The five regular solids structured *Mysterium cosmographicum* (1596), while Platonic archetype and harmony remained central in *Harmonices mundi* (1619). [Stanford Encyclopedia of Philosophy: Renaissance natural philosophy](https://plato.stanford.edu/entries/natphil-ren/)
+
+### Jesus of Nazareth
+
+- **[T1-] Documented fact.** Kepler wrote directly about the chronology of Jesus’ conception and birth in the German treatise of 1613 and Latin *De vero anno quo aeternus Dei Filius humanam naturam in utero benedictae Virginis Mariae assumpsit* (1614). He combined historical testimony, biblical chronology, and astronomical reconstruction, including the proposed relevance of planetary conjunctions. [Contemporary overview and title reference](https://www.lemonde.fr/les-decodeurs/article/2024/12/26/jesus-serait-ne-en-moins-7-avant-lui-meme-ou-pourquoi-nous-devrions-feter-l-annee-2032_5055156_4355771.html)
+
+### Nicolaus Copernicus
+
+- **[T1-] Documented fact.** Kepler was an intensive reader, defender, and reviser of Copernicus. *Mysterium cosmographicum* (1596) defended the Copernican ordering of the planets; *Astronomia nova* (1609) replaced Copernicus’ uniform circular mechanisms with physical astronomy and elliptical motion; and *Epitome astronomiae Copernicanae* (1618–21) systematically reconstructed Copernican astronomy on Keplerian foundations. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/kepler/)
+
+### Giovanni Pico della Mirandola
+
+- **[T1-] Documented fact.** Kepler engaged Pico’s posthumous *Disputationes adversus astrologiam divinatricem* while defending a restricted, reformed astrology. He accepted the force of parts of Pico’s criticism but rejected Pico’s wholesale repudiation of celestial influence. The relationship is therefore a documented textual dispute across generations, not personal contact. [Stanford Encyclopedia of Philosophy: Pico](https://plato.stanford.edu/entries/pico-della-mirandola/); [scholarly discussion indexed in *Journal for the History of Astronomy*](https://journals.sagepub.com/doi/10.1177/002182860503600102)
+
+### Giordano Bruno
+
+- **[T1-] Documented fact.** After learning of Bruno’s cosmology through the Prague intellectual milieu, Kepler addressed and opposed the Nolan’s infinite or indefinitely populated universe, particularly in *De stella nova* (Prague, 1606). Kepler’s finite, Sun-centered cosmos and enormous but bounded stellar sphere were developed partly against Bruno’s plurality of solar systems. [Miguel A. Granada, “Kepler and Bruno on the Infinity of the Universe and of Solar Systems”](https://journals.sagepub.com/doi/10.1177/002182860803900403)
+
+### Galileo Galilei
+
+- **[T3] Documented fact.** Kepler sent Galileo *Mysterium cosmographicum*, and Galileo acknowledged it in a letter of 4 August 1597, privately admitting longstanding Copernican sympathy. Their written engagement resumed around Galileo’s telescopic discoveries: Kepler publicly supported *Sidereus nuncius* in *Dissertatio cum Nuncio sidereo* (Prague, 1610), circulated and interpreted Galileo’s letters and anagrams, and published the *Narratio* concerning Jupiter’s satellites. No personal meeting is securely documented. [Museo Galileo correspondence chronology](https://galileoteca.museogalileo.it/GTArchivi/QCrono?anno=1597&lang=it); [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/kepler/)
+
+### Robert Fludd
+
+- **[T3] Documented fact.** Kepler initiated a published controversy by criticizing Fludd’s diagrammatic and Hermetic account of cosmic harmony in an appendix to *Harmonices mundi* (Linz, 1619). Fludd replied in *Veritatis proscenium* (1621); Kepler answered with *Apologia pro suo opere Harmonices Mundi* (1622); and Fludd responded again in *Monochordum mundi* (1622). Their connection was a reciprocal print discourse over proof, images, mathematics, archetypes, and harmony; no personal meeting is established. [Oxford study of Kepler’s English reception](https://ora.ox.ac.uk/objects/uuid%3Aef01b5b9-e928-4596-aafe-b0950926f8ca/files/m504c149c3a32f89f35009c4875614158)
+
+### Francis Bacon
+
+- **[T3] Reported fact.** Bacon sent copies of his *Instauratio magna/Novum organum* to diplomat Henry Wotton in 1620, and Wotton promised to give one to Kepler. Wotton also reported to Bacon on the portable optical or surveying apparatus he had inspected during his documented 1620 visit to Kepler at Linz. This establishes mediated, one-sided written engagement, but the surviving evidence does not securely prove that Kepler received or answered Bacon’s book. [Stanford Encyclopedia of Philosophy: Francis Bacon](https://plato.stanford.edu/entries/francis-bacon/)
+
+### René Descartes
+
+- **[T1+] Documented fact.** Descartes studied Kepler’s optics and explicitly acknowledged the debt in a letter to Marin Mersenne dated 31 March 1638, calling Kepler his first teacher in optics and judging him more knowledgeable than his predecessors. This was posthumous written assessment rather than correspondence with Kepler. [Archive for History of Exact Sciences](https://doi.org/10.1007/s00407-019-00236-w)
+
+### Isaac Newton
+
+- **[T1+] Documented fact.** Newton’s *Philosophiae naturalis principia mathematica* (London, 1687) mathematically reformulated and dynamically explained the orbital relations derived by Kepler. Newton showed how central-force dynamics and universal gravitation yield the area relation and elliptical orbits, while generalizing the period–distance relation to account for mass. This was foundational posthumous engagement with Kepler’s results, not a personal crossing. [Stanford Encyclopedia of Philosophy: Newton’s *Principia*](https://plato.stanford.edu/entries/newton-principia/); [NASA overview](https://science.nasa.gov/solar-system/orbits-and-keplers-laws/)
+
+### Albert Einstein
+
+- **[T1+] Documented fact.** Einstein published “Über Kepler” in the *Frankfurter Zeitung* on 9 November 1930 for the tricentenary of Kepler’s death, interpreting Kepler’s discovery process and relation between theory and observation. He later supplied the introduction to Carola Baumgardt’s *Johannes Kepler: Life and Letters* (New York, 1951). [Bibliographic listing of the 1930 article](https://en.wikipedia.org/wiki/List_of_scientific_publications_by_Albert_Einstein); [Folger Shakespeare Library catalogue record for the 1951 book](https://catalog.folger.edu/record/72879)
+
+### Wolfgang Pauli
+
+- **[T1+] Documented fact.** Pauli made Kepler the central historical subject of “The Influence of Archetypal Ideas on the Scientific Theories of Kepler,” published in *Naturerklärung und Psyche* (Zurich, 1952; later translated in *The Interpretation of Nature and the Psyche*). He examined Kepler’s trinitarian cosmology and controversy with Fludd through concepts developed in dialogue with analytical psychology. [CERN Pauli Manuscript Collection](https://cds.cern.ch/record/96730); [Institute for Advanced Study archival typescript](https://albert.ias.edu/entities/archivalmaterial/21f46f60-39ec-4a7a-859d-21d7549665ef)
+
 ## Sources
 
 https://kepler.badw.de/kepler-digital.html

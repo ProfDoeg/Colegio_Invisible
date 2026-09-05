@@ -506,6 +506,38 @@ Because Levchin is living and Affirm remains exposed to credit, regulation, liti
 - **19 August 2026:** Forbes estimates Levchin’s net worth at $2.2 billion and Affirm’s market value near $25 billion.
 - **24 August 2026:** Living; founder, chairman, and CEO of Affirm and Coca-Cola director.
 
+## Atlas Connections
+
+### Adi Shamir
+
+- **[T1-] Documented fact:** Levchin wrote the 30 July 2023 essay “[Shamir Secret Sharing](https://max.levch.in/post/724289457144070144/shamir-secret-sharing-its-3am-paul-the-head-of),” explaining Shamir’s 1979 threshold scheme and recounting how an informal essay about it influenced his early study of cryptography. This documents intellectual engagement, not personal mentorship.
+
+### Martin Hellman
+
+- **[T5] Documented fact:** Levchin and Hellman met during Fieldlink/Confinity’s formation in Silicon Valley in late 1998. Hellman evaluated Levchin’s cryptographic expertise, became a company adviser for equity, and helped establish the young firm’s credibility with prospective partners and investors. Contemporary reporting also identified Hellman as a Confinity investor and technical adviser ([contemporary account](https://www.irishtimes.com/business/it-s-now-beam-me-a-loan-scotty-1.212019); [later documentary synthesis](https://blogs.lse.ac.uk/lsereviewofbooks/2022/09/13/book-review-the-founders-the-story-of-paypal-and-the-entrepreneurs-who-shaped-silicon-valley-by-jimmy-soni/)).
+
+### Peter Thiel
+
+- **[T5] Documented fact:** Levchin met Thiel after a Stanford lecture in summer 1998; they continued their conversation in the parking lot and subsequently met for breakfast. Thiel invested in Levchin’s cryptographic-device proposal, and the two co-founded Fieldlink/Confinity in Palo Alto later that year. They worked together through PayPal’s 2002 sale and subsequently remained personal and professional associates, including collaborators with Garry Kasparov on the abandoned book project *The Blueprint* ([Levchin’s firsthand account](https://tim.blog/2026/06/11/max-levchin-2-transcript/); [PayPal oral history](https://sequoiacap.com/podcast/crucible-moments-paypal)).
+
+### Elon Musk
+
+- **[T5] Documented fact:** Levchin and Musk met as leaders of rival Palo Alto payment companies and worked in the same merged company after Confinity and Musk’s X.com combined in March 2000. Levchin served as CTO while Musk briefly served as CEO; they repeatedly interacted during disputes over product strategy and the Unix-versus-Microsoft technical stack. Levchin participated in the executive opposition that culminated in Musk’s September 2000 removal. Later accounts document renewed personal contact within the PayPal-alumni network ([SEC merger record](https://www.sec.gov/Archives/edgar/data/1065088/000089161802003554/f83130orsv4.htm); [PayPal oral history](https://sequoiacap.com/podcast/crucible-moments-paypal)).
+
+### Reid Hoffman
+
+- **[T5] Documented fact:** Hoffman and Levchin worked together at PayPal in Palo Alto during 2000–2002, Hoffman as an executive and director and Levchin as CTO and director. In September 2000, Hoffman, Levchin, and Thiel also reportedly withdrew to Hoffman’s grandparents’ cabin to address PayPal’s severe cash-burn problem. Corporate filings independently place both men on PayPal’s leadership team and board ([PayPal SEC filing](https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm)).
+
+### Marc Andreessen
+
+- **[T5] Documented fact:** Andreessen and Levchin overlapped briefly at the University of Illinois in 1993, and Levchin recalled watching Andreessen’s rapid rise after Mosaic and Netscape. Levchin later stated that he personally met Andreessen after entering Silicon Valley’s technology network. The evidence supports an acquaintance and meeting, but not a close friendship or formal mentor relationship ([contemporary Levchin profile](https://www.wired.com/2001/09/paypal/); [Levchin interview](https://www.bizplan.com/library/founder-stories/max-levchin)).
+
+### Bill Gates
+
+- **[T4] Reported fact:** At the May 2008 D6 conference in Carlsbad, California, Levchin was seated in the audience immediately behind other named technology executives during a joint Bill Gates–Steve Ballmer interview. Reporting establishes shared attendance and close physical proximity, but does not establish that Gates and Levchin conversed or met personally ([contemporaneous conference report](https://fortune.com/2008/05/28/d-dispatch-all-the-gangs-here/)).
+
+No additional roster crossing was supported strongly enough for inclusion. In particular, Levchin’s intellectual references to David Chaum, Claude Shannon, Ralph Merkle, and other cryptographic predecessors do not by themselves prove correspondence, personal meetings, or another defined Atlas connection; Merkle’s receipt of the Levchin Prize likewise establishes an award-program relationship but, without evidence of direct interaction, does not fit the specified connection types.
+
 ## Sources
 
 https://archive.storied.illinois.edu/maximum-impact/

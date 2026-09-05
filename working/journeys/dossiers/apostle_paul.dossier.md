@@ -523,6 +523,62 @@ Paul did not single-handedly found Christianity: communities, traditions, apostl
 | 1977 onward | Sanders and New Perspective reshape historical interpretation | Modern scholarship. |
 | 2009 | Vatican announces analysis of material from traditional sarcophagus | Compatible date, identity unproven. |
 
+## Atlas Connections
+
+### Abraham
+
+- **[T1-]** **Documented fact:** Paul interpreted Abraham as the paradigmatic believer and ancestor of both circumcised and uncircumcised faithful in Romans 4 and Galatians 3, written c. 48–58 CE. Because Abraham is the earlier figure and Paul the later writer, Paul receives the negative sign. [Galatians overview and textual references](https://www.biblegateway.com/passage/intro/?search=Galatians&version=NABRE); [Romans overview](https://www.biblegateway.com/passage/intro/?search=Romans&version=NABRE).
+
+### King David
+
+- **[T1-]** **Documented fact:** Paul wrote that Jesus was descended from David in Romans 1:3 and quoted David as testimony concerning justification in Romans 4:6–8, c. 56–58 CE. These are scriptural interpretations, not evidence of personal contact. [Romans](https://www.biblegateway.com/passage/?search=Romans&version=NIV).
+
+### Moses
+
+- **[T1-]** **Documented fact:** Paul repeatedly interpreted Moses and the Mosaic law, notably in Romans 5–10, 1 Corinthians 10, 2 Corinthians 3, and Galatians 3–4. Romans explicitly situates Moses between Abraham and Christ in Paul's history of salvation. [Romans overview](https://www.biblegateway.com/passage/intro/?search=Romans&version=NABRE).
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Paul's undisputed letters, c. 49–58 CE, repeatedly interpret the earlier life, crucifixion, resurrection, teachings, and ritual traditions of Jesus. Paul additionally reports receiving a revelation of Jesus and seeing the risen Christ (Gal 1:11–17; 1 Cor 9:1; 15:3–11); those are documented first-person claims, although their supernatural content is not independently verifiable. This is classified as T1 rather than T5 because Paul does not claim to have met Jesus during Jesus' public life. [Galatians](https://www.biblegateway.com/passage/?search=Galatians%201&version=NIV).
+
+### Simon bar Jonah (Apostle Peter/Cephas)
+
+- **[T5]** **Documented fact:** Paul says that approximately three years after his call he stayed with Cephas in Jerusalem for fifteen days; later, Cephas joined Paul, James, and John in the Jerusalem mission agreement, and Paul subsequently confronted him publicly over Gentile table fellowship at Antioch (Gal 1:18; 2:1–14), probably during the later 30s through 40s CE. This is Paul's own near-contemporary testimony, although the exact chronology remains disputed. [Galatians introduction](https://www.biblegateway.com/passage/intro/?search=Galatians&version=NABRE).
+
+### Saint Thecla of Iconium
+
+- **[T5]** **Rumor or myth:** The late-second-century *Acts of Paul and Thecla* places Paul and Thecla together at Iconium and Pisidian Antioch, where she hears him preach, follows him, and later receives his blessing or commission. No authentic Pauline letter or canonical Acts names her, and Tertullian reports that an Asian presbyter composed the work “out of love for Paul”; the alleged meeting is therefore hagiographic rather than documented biography. [Text and historical introduction](https://www.pbs.org/wgbh/pages/frontline/shows/religion/maps/primary/thecla.html); [Tertullian, *On Baptism*](https://www.newadvent.org/fathers/0321.htm).
+
+### Tertullian
+
+- **[T1+]** **Documented fact:** Writing at Carthage around 198–220 CE, Tertullian repeatedly discussed Paul and his letters, including Paul's baptism and apostolic standing in *On Baptism* and his death and authority elsewhere. He also supplied the earliest surviving report about the composition of the *Acts of Paul and Thecla*. Paul, as the earlier figure written about, receives the positive sign. [Tertullian, *On Baptism*](https://www.newadvent.org/fathers/0321.htm).
+
+### Origen of Alexandria
+
+- **[T1+]** **Documented fact:** In the early-to-mid third century, principally at Alexandria and Caesarea, Origen produced commentaries or homilies on numerous Pauline letters, including a fifteen-book *Commentary on Romans*. Much survives only in fragments or Rufinus's abbreviated Latin translation, but the literary engagement itself is securely documented. [British Library manuscript description](https://iiif.biblissima.fr/collections/manifest/206818cb8523aa11be64fe7b349a3e47943d13d9); [study of Origen's Pauline commentaries](https://onlinelibrary.wiley.com/doi/10.1111/heyj.12168).
+
+### Augustine of Hippo
+
+- **[T1+]** **Documented fact:** Augustine engaged Paul's letters throughout his writings in Roman North Africa, especially from the 390s until his death in 430. His renewed reading of Paul around 395 materially shaped his mature doctrines of grace, predestination, and original sin. Paul is the earlier, written-about figure. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/augustine/).
+
+### Constantine the Great
+
+- **[T9+]** **Reported fact:** Constantine ordered a basilica erected in Rome over the site venerated as Paul's tomb on the Via Ostiensis; it was consecrated in 324 CE. The building and its foundations are documented, while identification of the underlying burial as Paul's remains traditional rather than independently demonstrated. Paul receives the positive sign as the earlier figure whose reputed burial site generated Constantine's later monument. [Papal Basilica of Saint Paul Outside the Walls](https://www.vatican.va/various/basiliche/san_paolo/en/basilica/costantino.htm).
+
+### Thomas Aquinas
+
+- **[T1+]** **Documented fact:** During the thirteenth century, Thomas Aquinas composed or delivered extensive *lecturae* on the letters attributed to Paul, treating the epistles as an interconnected theological corpus centered on Christ's grace. Paul is the earlier figure interpreted by Aquinas. [Pontifical Academy study of Aquinas's Pauline *lecturae*](https://www.vatican.va/roman_curia/pontifical_academies/san-tommaso/publications/dc11.pdf).
+
+### Martin Luther
+
+- **[T1+]** **Documented fact:** Luther's lectures and commentaries on Romans and Galatians, beginning in the 1510s and continuing through later revisions, directly interpreted Paul and made his reading of Pauline justification central to Reformation controversy. Paul is the earlier figure written about.
+
+### Friedrich Nietzsche
+
+- **[T1+]** **Documented fact:** Nietzsche wrote extensively and polemically about Paul, most explicitly in *The Antichrist* (written 1888), portraying him as a decisive transformer—and, in Nietzsche's judgment, corrupter—of Jesus' message. The existence and direction of the literary engagement are factual; Nietzsche's historical characterization is polemic, not neutral biography.
+
+No defensible T2 prophecy/hyperstition connection was found among the roster. Mere chronological overlap, shared Mediterranean geography, later religious influence, artistic depiction, or use of a Pauline name was not treated as a crossing.
+
 ## Sources
 
 https://www.bibleodyssey.org/articles/paul/

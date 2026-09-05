@@ -608,6 +608,42 @@ His influence on Basque is structural rather than merely reputational. Standard 
 - **2021** — ETB broadcasts *Euskara batua zertan den*.
 - **2023–26** — Renewed disputes over public commemoration and educational representation; new comic, documentary work, and annual tributes.
 
+## Atlas Connections
+
+### Søren Kierkegaard
+
+- **[T1-] Documented fact:** Txillardegi wrote *Kierkegaard-en hazia Unamuno-gan lore* (“Kierkegaard’s seed flowers in Unamuno”) in 1955, explicitly examining the earlier philosopher’s influence. The essay received an Oiargi cultural prize. [Txillardegi bibliography](https://txillardegi.wordpress.com/bibliografia/)
+
+### Albert Camus
+
+- **[T1-] Documented fact:** Following Camus’s death in 1960, Txillardegi published “Lekuko bikain bat hil da” (“A magnificent witness has died”) in *Egan*, directly assessing and commemorating him. [Txillardegi bibliography](https://txillardegi.wordpress.com/bibliografia/)
+
+### Bertrand Russell
+
+- **[T1-] Documented fact:** Txillardegi published “Bertrand Russell hil da” (“Bertrand Russell has died”) in *Zeruko Argia* in 1970, an obituary-style engagement with the philosopher after his death. [Txillardegi bibliography](https://txillardegi.wordpress.com/bibliografia/)
+
+### Jean-Paul Sartre
+
+- **[T1-] Documented fact:** Txillardegi wrote “Sartre: lekuko eta gidaria” (“Sartre: witness and guide”) in *Punto y Hora de Euskal Herria* in 1980 and returned to the subject in “Sartre eta gu” (“Sartre and us”) in 1987. Both writings postdate Sartre’s death and explicitly interpret his significance. [Txillardegi bibliography](https://txillardegi.wordpress.com/bibliografia/)
+
+### Claude Lévi-Strauss
+
+- **[T3] Documented fact:** Txillardegi published the appreciative article “Lévi-Strauss gailen” (“Lévi-Strauss pre-eminent”) in *Zeruko Argia* in 1973. This establishes one-sided written engagement, not a personal encounter. [Txillardegi bibliography](https://txillardegi.wordpress.com/bibliografia/)
+
+### Noam Chomsky
+
+- **[T3] Documented fact:** In 1979 Txillardegi delivered a lecture catalogued as “Chomsky-ren fonologi projektua” (“Chomsky’s phonological project”), engaging directly with Chomsky’s linguistic work. No correspondence or personal meeting between them was located. [Txillardegi bibliography](https://txillardegi.wordpress.com/bibliografia/)
+
+### José Antonio Aguirre
+
+- **[T5] Reported fact:** In 1958, amid worsening conflict between Ekin and the PNV, Txillardegi and other Ekin members met lehendakari-in-exile José Antonio Aguirre. Contemporary summaries document the meeting but do not establish a durable personal relationship. [El País](https://elpais.com/elpais/2012/01/14/actualidad/1326532620_850215.html), [Jakin archival clipping](https://jakin.eus/show/0b35e4c2fcade4baf310fae2c2494386976fdc80)
+
+### Julen Madariaga
+
+- **[T5] Documented fact:** Txillardegi and Julen Madariaga were personal political associates in the clandestine Ekin circle during the 1950s and participated together in the organizational process that produced ETA in 1958–59. Their sustained joint organizing establishes more than coincidental proximity, although later political trajectories diverged. [El País obituary](https://elpais.com/elpais/2012/01/14/actualidad/1326532620_850215.html), [Txillardegi biography](https://txillardegi.wordpress.com/biografia/)
+
+No additional roster crossings were included where the available evidence showed only broad intellectual influence, shared politics, contemporaneity, or geographic overlap without a documented act of writing, communication, proximity, meeting, prophecy, or object transmission.
+
 ## Sources
 
 https://www.euskaltzaindia.eus/es/euskaltzaindia/academicos/fallecidos/correspondientes/378-t/6487-txillardegi-jose-luis-alvarez-enparantza

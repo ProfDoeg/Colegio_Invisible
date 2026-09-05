@@ -528,6 +528,59 @@ The technological legacy is not that Gates single-handedly invented personal com
 - **2026, Jul.** — WilmerHale external review finds foundation engagement but no Epstein payment or criminal participation; governance reforms announced. Buffett omits Gates Foundation from annual gifts.
 - **2026, 24 Aug.** — Gates remains alive, foundation chair, TerraPower chair, and Breakthrough Energy founder.
 
+## Atlas Connections
+
+### Bill Clinton
+
+- **[T3] Documented fact:** White House records preserve correspondence between Gates and President Clinton concerning Gavi, AIDS-vaccine research, urban schools, software piracy, encryption policy, library access, and the Gates Millennium Scholars program during Clinton’s presidency (1993–2001). [Clinton Presidential Library finding aid](https://www.clintonlibrary.gov/research/archives/finding-aids/bill-gates)
+- **[T5] Documented fact:** Gates and Clinton met repeatedly and later appeared together in public discussions of global health and philanthropy, including *Time*’s 2005 Global Health Summit and a 2013 *Wired* event. [Clinton Presidential Library](https://www.clintonlibrary.gov/research/archives/finding-aids/bill-gates), [Wired interview](https://www.wired.com/video/watch/wired-live-bill-gates-president-bill-clinton-part-3-changing-the-world-through-philanthropy-exclusive-interview)
+
+### Carlos Slim Helú
+
+- **[T5] Documented fact:** Gates and Slim met in Mexico in February 2013 to announce cooperation on agricultural research and hunger reduction. Their foundations also issued a joint appeal connected with Slim’s $100 million commitment to the Global Polio Eradication Initiative in April 2013. This supports a personal meeting and institutional collaboration, not a Microsoft business partnership. [Contemporary report](https://www.forbes.com/sites/doliaestevez/2013/02/13/bill-gates-and-carlos-slim-to-partner-on-reducing-hunger/), [Carlos Slim Foundation record](https://carlosslim.com/responsabilidad_slim_erradicacion_polio.html)
+
+### Elon Musk
+
+- **[T4] Documented fact:** Gates and Musk were among the technology leaders physically present at Senator Chuck Schumer’s closed-door AI Insight Forum in Washington, D.C., on 13 September 2023. The evidence establishes shared occupancy of the forum; it does not by itself establish a private conversation there. [Axios report](https://www.axios.com/2023/09/14/senators-ai-forum-schumer-musk)
+
+### Ghislaine Maxwell
+
+- **[T5] Documented fact:** In his June 2026 congressional interview, Gates recalled meeting Maxwell once during a brief meeting involving Gateway co-founder Ted Waitt. He also recalled her presence at a large TED-conference dinner but was unsure whether they even shook hands there and denied having a conversation with her at that event. The record supports limited personal contact, not a friendship or participation in her crimes. [House Oversight transcript](https://oversight.house.gov/wp-content/uploads/2026/06/Bill-Gates-Transcript.pdf)
+
+### Jeffrey Epstein
+
+- **[T5] Documented fact:** Gates repeatedly met Epstein between 2011 and December 2014, after Epstein’s 2008 conviction, principally in New York and in discussions involving a proposed global-health donor fund. Gates acknowledged the meetings and called them a grave error of judgment. A 2026 foundation-commissioned review described roughly thirty Gates/foundation contacts with Epstein but reported no evidence that the foundation paid him or participated in illegal activity. [Associated Press](https://apnews.com/article/798b07999092aae601eae11a8ea14ce5), [Gates statement](https://www.gatesnotes.com/house-oversight-committee-statement)
+
+### Klaus Schwab
+
+- **[T3] Documented fact:** Gates and Schwab held a telephone conversation in late 2007 while preparing Gates’s address on “creative capitalism” for the 2008 World Economic Forum annual meeting. Their subsequent onstage exchange at Davos is also a recorded mutual discourse. [Microsoft transcript](https://news.microsoft.com/speeches/bill-gates-world-economic-forum-2008/)
+- **[T5] Documented fact:** Schwab personally chaired and questioned Gates during the World Economic Forum plenary session in Davos, Switzerland, on 24 January 2008. This establishes a direct meeting, but not the sweeping joint-control relationship asserted in conspiracy narratives. [Microsoft transcript](https://news.microsoft.com/speeches/bill-gates-world-economic-forum-2008/)
+
+### Leonardo da Vinci
+
+- **[T9-] Documented fact:** In 1994 Gates purchased Leonardo’s *Codex Leicester*, a manuscript compiled by Leonardo circa 1508–1510. Gates later arranged exhibitions and developed the “Codescope” interface for viewing its pages. Leonardo originated the shared object; Gates is its much later custodian. [Gates Notes](https://www.gatesnotes.com/codescope)
+- **[T1-] Documented fact:** Gates wrote about Leonardo’s life, scientific investigations, and notebooks in a 2018 review of Walter Isaacson’s biography and in explanatory material accompanying the *Codex Leicester*. [Gates review](https://www.gatesnotes.com/books/history/reader/leonardo_da_vinci)
+
+### Nelson Mandela
+
+- **[T5] Documented fact:** Gates wrote that Mandela first telephoned him in 1994 seeking help funding South Africa’s election and that Gates later met and worked with him through the foundation’s African health activities, regarding Mandela as an adviser and inspiration on HIV/AIDS. [Gates’s 2016 Nelson Mandela Annual Lecture](https://www.gatesnotes.com/Nelson-Mandela-Annual-Lecture)
+- **[T1-] Documented fact:** After Mandela’s death, Gates discussed Mandela’s life, anti-apartheid struggle, leadership, and influence in his 2016 lecture for the Nelson Mandela Foundation in Pretoria. [Lecture and transcript](https://www.gatesnotes.com/Nelson-Mandela-Annual-Lecture)
+
+### Richard Feynman
+
+- **[T1-] Documented fact:** Gates published a substantial video tribute and essay about Feynman on 27 January 2016, describing his long engagement with Feynman’s recorded physics lectures. Gates also acquired rights to the Messenger Lectures and worked with Microsoft to place them online without charge. [Gates Notes tribute](https://www.gatesnotes.com/work/provide-quality-education/reader/the-best-teacher-i-never-had)
+
+### Sam Altman
+
+- **[T5] Documented fact:** Gates met Altman repeatedly in connection with OpenAI and artificial intelligence. Altman and Greg Brockman demonstrated the developing GPT-4 system at Gates’s Washington home in August 2022; Gates later interviewed Altman for an episode of *Unconfuse Me* published on 11 January 2024. [Axios](https://www.axios.com/2025/04/04/microsoft-guthrie-ai-anniversary), [Gates Notes interview](https://www.gatesnotes.com/Unconfuse-Me-podcast-with-guest-Sam-Altman)
+- **[T4] Documented fact:** Gates and Altman were also both present at the U.S. Senate AI Insight Forum in Washington, D.C., on 13 September 2023. [Axios](https://www.axios.com/2023/09/14/senators-ai-forum-schumer-musk)
+
+### Yuval Noah Harari
+
+- **[T3] Documented fact:** Gates engaged Harari’s work in published reviews of *Sapiens* (2016), *Homo Deus* (2017), and *21 Lessons for the 21st Century* (2018). This is documented one-sided written engagement; the reviewed works supply no evidence that Harari directed Gates’s policies or participated in a joint institutional program. [*Sapiens* review](https://www.gatesnotes.com/sapiens-a-brief-history-of-humankind), [*Homo Deus* review](https://www.gatesnotes.com/Homo-Deus), [*21 Lessons* review](https://www.gatesnotes.com/21-Lessons)
+
+No adequately documented crossing was identified for the remaining roster members. Mere shared interests, historical influence, simultaneous attendance at very large events without evidence of proximity, and unsupported internet association claims were excluded.
+
 ## Sources
 
 https://americanhistory.si.edu/comphist/gates.htm

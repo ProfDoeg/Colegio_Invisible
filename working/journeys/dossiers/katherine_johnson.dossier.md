@@ -458,6 +458,14 @@ Historical reinterpretation now moves in two directions at once: restoring Johns
 | 18 Sept. 2024 | Family receives her Congressional Gold Medal at U.S. Capitol Hidden Figures ceremony. |
 | 30 May 2025 | GPS III satellite Creola Katherine Johnson launched. |
 
+## Atlas Connections
+
+### John F. Kennedy
+
+- **[T1-]** **Documented fact.** Johnson’s autobiographical writings discuss President John F. Kennedy’s May 1961 commitment to a crewed lunar landing and the resulting expansion of NASA’s work, in which she participated through Apollo trajectory and lunar-rendezvous calculations. This is a writer-to-earlier-subject connection, not evidence that Johnson and Kennedy personally met. Her memoir’s searchable index includes Kennedy, while NASA independently documents that Kennedy’s lunar decision redirected and accelerated Langley’s Apollo program. ([Google Books](https://books.google.com/books/about/My_Remarkable_Journey.html?id=Pv73DwAAQBAJ), [NASA](https://www.nasa.gov/history/the-first-step-langleys-contributions-to-apollo/), [New-York Historical Society](https://wams.nyhistory.org/life-story/katherine-johnson/))
+
+No other roster member was found to have a sufficiently documented T1, T2, T3, T4, T5, or T9 crossing with Katherine Johnson. Mere appearance in the same commemorative lists, shared scientific subject matter, contemporaneity, or indirect participation in the same broad institutions was excluded.
+
 ## Sources
 
 https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/

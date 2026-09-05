@@ -2289,6 +2289,25 @@ For rapid reference:
 
 ---
 
+## Atlas Connections
+
+### Andrew Carnegie
+
+- **[T3] Documented fact:** Frick and Carnegie maintained extensive business correspondence from the early 1880s through their final rupture, addressing coke supply, steel production, acquisitions, labor policy, Homestead, and corporate organization. Their surviving 1892 letters and cables establish Carnegie’s written approval of the confrontation with the Amalgamated Association and his support for Frick after the July 6 battle. The University of Pittsburgh has digitized their complete surviving correspondence. [Henry Clay Frick Business Records](https://digital.library.pitt.edu/collection/henry-clay-frick-business-records)
+- **[T5] Documented fact:** Carnegie and Frick were long-term business partners and, for part of that relationship, personal and social associates. Carnegie invested in Frick’s coke enterprise beginning in the early 1880s, elevated him into senior management of the Carnegie organization, and worked with him directly until disputes over authority and valuation produced Frick’s December 1899 resignation and subsequent lawsuit. Their former friendship ended in permanent estrangement; the exact “meet you in Hell” wording attributed to Frick remains a later, unverified anecdote. [Frick Collection biography](https://www.frick.org/about/history/henry_clay_frick), [Digital Pitt archival guide](https://digital.library.pitt.edu/islandora/object/pitt%3AUS-PPiU-ais200206)
+
+### J. P. Morgan
+
+- **[T5] Documented fact:** Frick dealt personally with Morgan in the consolidation of the American steel industry and became a director of Morgan’s newly incorporated United States Steel Corporation in 1901. Morgan also used Frick as an intermediary in negotiating the valuation and acquisition of John D. Rockefeller’s Mesabi ore and Great Lakes transportation properties for the new corporation. [Frick Collection biography](https://www.frick.org/about/history/henry_clay_frick), [Morgan Library syndicate records](https://www.themorgan.org/archives/189527)
+- **[T9-] Documented fact:** After Morgan’s death in 1913, objects formerly in Morgan’s collection passed to Frick through estate sales, principally via Duveen Brothers. In 1915 Frick acquired Morgan-estate Limoges enamels, Renaissance bronzes, and other decorative arts for his New York residence and collection. Morgan was the earlier owner; Frick was the later holder. [Frick correspondence finding aid](https://www.frick.org/sites/default/files/FindingAids/HCFCorrespondence.html), [Frick Collection provenance account](https://www.frick.org/press/frick_receive_most_important_private_collection_portrait_medals)
+
+### John D. Rockefeller Sr.
+
+- **[T3] Documented fact:** Frick’s surviving business papers record sustained written and transactional engagement with Rockefeller’s ore interests during the 1890s, including Frick’s December 10, 1896 letter to Carnegie about a proposed Rockefeller alliance and lease terms. [Digital Pitt archival guide](https://digital.library.pitt.edu/islandora/object/pitt%3AUS-PPiU-ais200206), [digitized Frick letter](https://historicpittsburgh.org/islandora/object/pitt%3A31735061576165/manuscript/pages)
+- **[T5] Reported fact supported by Rockefeller-family records and major biography:** During negotiations surrounding the formation of U.S. Steel in 1901, Morgan asked Frick to mediate the price of Rockefeller’s Mesabi ore and lake-fleet properties. Frick met Rockefeller privately at Pocantico Hills, New York; Rockefeller accepted Frick as his representative in fixing a fair valuation. The often-repeated detail that the approximately fifteen-minute conversation occurred outdoors after Frick arrived covertly at night derives from Rockefeller’s later recollection. [Ron Chernow, *Titan* excerpt](https://financialfreedomisajourney.com/wp-content/uploads/2024/09/Titan-The-Life-of-John-D.-Rockefeller-Sr.-pages-1-500-Ron-Chernow.pdf)
+
+No additional roster crossing was identified that met the stated evidentiary threshold. Mere contemporaneity, ownership of portraits depicting roster figures, later institutional associations, and works acquired by The Frick Collection after Henry Clay Frick’s death were excluded.
+
 ## Sources
 
 https://www.frick.org/about/history/henry_clay_frick

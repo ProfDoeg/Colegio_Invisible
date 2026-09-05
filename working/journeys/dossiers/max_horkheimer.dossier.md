@@ -530,6 +530,75 @@ His durable conceptual legacy includes **critical versus traditional theory**, *
 - The complete item-level bibliography exists primarily in *Gesammelte Schriften*, vol. 19; the present dossier gives the principal works and edition structure rather than reproducing hundreds of archival items.
 - Claims about CIA direction, corporate union suppression, and an intentional program of cultural destruction exceed the located documentary evidence and are labeled accordingly.
 
+## Atlas Connections
+
+Only crossings supported by the dossier or independently verifiable documentary records are included. Mere influence, contemporaneity, or membership in a broad intellectual tradition was excluded.
+
+### Albert Einstein
+
+- **[T5]** **Documented fact:** Horkheimer met Einstein in the United States by February 1935. In a letter dated **20 February 1935**, Horkheimer thanked Einstein for their conversation and sent him the latest *Zeitschrift für Sozialforschung* and an English prospectus of the Institute.
+- **[T3]** **Documented fact:** The same 1935 letter engaged Einstein on causality in the social sciences and requested his goodwill toward the Institute, establishing one-sided written intellectual engagement following their meeting. The letter is published in Horkheimer’s selected correspondence and reproduced in a [document collection concerning his sociology-of-knowledge fragments](https://jamescrane.substack.com/p/collectionhorkheimers-fragments-on).
+
+### Erich Fromm
+
+- **[T3]** **Documented fact:** Horkheimer and Fromm maintained extensive correspondence during their collaboration and rupture. The Max Horkheimer Archive catalogs **49 letters from 1934–35** and **80 letters involving Erich or Friede Fromm and Horkheimer from 1936–46**, principally associated with New York and the Institute’s exile work ([1934–35 archive record](https://sammlungen.ub.uni-frankfurt.de/horkheimer/content/titleinfo/4651635); [1936–46 archive record](https://sammlungen.ub.uni-frankfurt.de/horkheimer/content/titleinfo/4651636)).
+- **[T5]** **Documented fact:** Fromm worked personally with Horkheimer as the Institute’s principal social psychologist from the late 1920s through 1939, directing research on workers, authority, and family. Their relationship ended in a contentious institutional and intellectual separation rather than a simple impersonal change of employment.
+
+### Felix Weil
+
+- **[T3]** **Documented fact:** Horkheimer and Weil corresponded over Institute administration, finances, personnel, and postwar reconstruction. Surviving examples include a Horkheimer letter to Weil from about **1940** and five exchanged letter excerpts from **1944** ([archive record](https://sammlungen.ub.uni-frankfurt.de/horkheimer/content/titleinfo/5668823); [1944 correspondence record](https://sammlungen.ub.uni-frankfurt.de/horkheimer/content/titleinfo/5668803)).
+- **[T5]** **Documented fact:** Weil personally participated in the Frankfurt Institute circle and promoted Horkheimer as Carl Grünberg’s successor around **1929–30**. Their long association joined Weil’s founding and financial role to Horkheimer’s intellectual directorship, although disputes later arose over money, authority, and historical credit ([historical reconstruction](https://www.historicalmaterialism.org/an-interview-with-hans-peter-gruber-on-the-life-and-work-of-felix-weil-argentine-millionaire-marxist-and-founder-of-the-frankfurt-school/)).
+
+### Sigmund Freud
+
+- **[T1-]** **Documented fact:** Horkheimer repeatedly wrote about Freud’s psychoanalysis as both an indispensable materialist psychology and an object of criticism. Freud’s theory informed Horkheimer’s essays on history and psychology, authority, family, ego formation, and antisemitism, as well as the interdisciplinary program behind the 1936 *Studien über Autorität und Familie*. This was intellectual engagement with Freud’s published work; no personal meeting is securely documented in the consulted evidence ([Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/horkheimer/)).
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-]** **Documented fact:** Horkheimer wrote extensively through and against Hegel, particularly concerning dialectic, history, idealism, totality, and the relation between reason and social reality. Hegel remained a major explicit interlocutor in Horkheimer’s formulation of critical theory and in *Dialectic of Enlightenment*; no personal crossing was possible because Hegel died in 1831 ([Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/horkheimer/)).
+
+### Herbert Marcuse
+
+- **[T3]** **Documented fact:** Horkheimer and Marcuse maintained a substantial correspondence. One archival unit alone contains **183 letters between them from 1941–50**, including exchanges connected with Marcuse’s work in Washington for the OSS and Office of War Information ([Max Horkheimer Archive](https://sammlungen.ub.uni-frankfurt.de/horkheimer/content/titleinfo/5668813)).
+- **[T5]** **Documented fact:** Marcuse joined the Institute in exile and worked personally under Horkheimer’s direction. They collaborated intellectually on the **1937 postscript to “Traditional and Critical Theory.”** Their relationship later became politically strained as Marcuse supported the New Left while Horkheimer opposed major tendencies of the student movement.
+
+### Martin Heidegger
+
+- **[T3]** **Documented fact:** During his studies at Freiburg in **1920–21**, Horkheimer attended Heidegger’s teaching. This qualifies as one seeing the other lecture, but the available evidence does not establish friendship or a personal meeting beyond the instructional setting ([Frankfurt archival biography](https://www.ub.uni-frankfurt.de/archive/horkheimer_vita_en.html)).
+
+### Jürgen Habermas
+
+- **[T3]** **Documented fact:** Horkheimer and Habermas corresponded after Habermas’s period at the Institute. The archive catalogs **24 letters exchanged between 1960 and 1971** ([Max Horkheimer Archive](https://sammlungen.ub.uni-frankfurt.de/horkheimer/content/titleinfo/3931761)).
+- **[T5]** **Documented fact:** Habermas worked as a research assistant at the Frankfurt Institute in the **1950s** and knew Horkheimer personally. Horkheimer regarded parts of Habermas’s Marxist political writing as too radical and impeded his advancement at Frankfurt, contributing to Habermas’s move to Marburg. “Friendship” would overstate the evidence; the supported connection is personal acquaintance within a hierarchical institutional relationship.
+
+### Immanuel Kant
+
+- **[T1-]** **Documented fact:** Kant was the subject of Horkheimer’s **1922 doctorate**, *Zur Antinomie der teleologischen Urteilskraft*, and his **1925 habilitation**, *Über Kants Kritik der Urteilskraft als Bindeglied zwischen theoretischer und praktischer Philosophie*. Horkheimer continued to engage Kantian reason, judgment, autonomy, and moral philosophy throughout his later work ([Frankfurt bibliography](https://www.ub.uni-frankfurt.de/archive/horkheimer_werk.html)).
+
+### Karl Marx
+
+- **[T1-]** **Documented fact:** Horkheimer wrote extensively about Marx’s critique of political economy, materialism, class society, ideology, and emancipation. Marx was a central explicit interlocutor in “Traditional and Critical Theory,” “The Jews and Europe,” “The Authoritarian State,” and Horkheimer’s broader account of critical theory, although Horkheimer rejected party orthodoxy and revised several Marxian expectations ([Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/horkheimer/)).
+
+### Friedrich Nietzsche
+
+- **[T1-]** **Documented fact:** Horkheimer repeatedly engaged Nietzsche’s critique of morality, reason, asceticism, nihilism, and domination. Nietzsche is an explicit intellectual source in Horkheimer and Adorno’s genealogy of Enlightenment reason, while also being criticized for social and political limitations. No personal connection was possible because Nietzsche died in 1900, when Horkheimer was five ([Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/horkheimer/)).
+
+### Theodor W. Adorno
+
+- **[T3]** **Documented fact:** Horkheimer and Adorno maintained an exceptionally extensive correspondence from **1927 to 1969**. The surviving archival sequence includes exchanges from Frankfurt, European exile, New York, California, and postwar Germany; representative catalog records cover [1927–38](https://sammlungen.ub.uni-frankfurt.de/horkheimer/content/titleinfo/4651610), [1942–44](https://sammlungen.ub.uni-frankfurt.de/horkheimer/content/titleinfo/4651613), and [1955–57](https://sammlungen.ub.uni-frankfurt.de/horkheimer/content/titleinfo/4651619).
+- **[T5]** **Documented fact:** Horkheimer met Adorno through Hans Cornelius and Frankfurt intellectual and musical circles in the 1920s. They became close personal and intellectual collaborators, worked together in **Pacific Palisades/Los Angeles during the 1940s**, co-authored the 1944 *Philosophische Fragmente* and 1947 *Dialectic of Enlightenment*, and jointly led the restored Institute after 1949.
+
+### Odysseus (Ulysses)
+
+- **[T1-]** **Documented fact:** Horkheimer and Adorno wrote about Odysseus in the excursus **“Odysseus, or Myth and Enlightenment”** in *Dialectic of Enlightenment* (mimeographed in 1944; published in 1947). They interpreted the Homeric hero’s ordeals, sacrifice, self-denial, and cunning as a prehistory of bourgeois subjectivity. This is a literary-mythological analysis, not evidence that Odysseus was historical.
+
+### Walter Benjamin
+
+- **[T3]** **Documented fact:** Horkheimer and Benjamin exchanged extensive correspondence concerning Institute support, commissioned research, publication, exile, and Benjamin’s attempts to escape Europe. The archive preserves large correspondence files for **1938–40**, as well as two Horkheimer letters dated **3 May 1940** ([principal correspondence file](https://sammlungen.ub.uni-frankfurt.de/horkheimer/content/titleinfo/4651628); [additional letters](https://sammlungen.ub.uni-frankfurt.de/horkheimer/content/titleinfo/3931579)).
+- **[T5]** **Documented fact:** Horkheimer met Benjamin during his European trip in **1937**. Their personal relationship remained institutionally unequal: Horkheimer directed the organization that paid Benjamin and exercised editorial control over his commissioned work. This supports a meeting and working relationship, but not an uncomplicated friendship.
+
+No T2 prophecy/hyperstition or T9 shared-object transmission satisfying the supplied definitions was established for Horkheimer and the roster. Other apparent affinities were omitted where the evidence showed only common subject matter, indirect influence, or unverified contemporaneity.
+
 ## Sources
 
 https://www.ub.uni-frankfurt.de/archive/horkheimer_vita.html

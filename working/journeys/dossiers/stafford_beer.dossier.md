@@ -703,6 +703,30 @@ The Opsroom is an icon of interface and information design. Its furniture, proje
 - Exact biological/stepchild names and status were not inferred from genealogy sites.
 - Claims about Allende conversations, Beer's spirituality, drinking, and private motives rely partly on retrospective testimony and are labeled accordingly.
 
+## Atlas Connections
+
+### Norbert Wiener
+
+- **[T3]** **Documented fact:** After reading Wiener’s *Cybernetics* around 1950, Beer wrote to him, declared “I think I am a cybernetician,” and enclosed examples of his work. Wiener replied enthusiastically and invited Beer to MIT, beginning a sustained correspondence. ([Rosenhead biography/obituary](https://www.researchgate.net/publication/266721235_Stafford_Beer_1926-2002_Obituary))
+- **[T5]** **Reported fact:** Biographical accounts describe subsequent personal meetings and friendship between Beer and Wiener; Wiener was also among the cyberneticians in Beer's professional circle during the 1950s. ([Rosenhead biography/obituary](https://www.researchgate.net/publication/266721235_Stafford_Beer_1926-2002_Obituary))
+- **[T1-]** **Documented fact:** Beer wrote about Wiener after the latter’s death, including an obituary and a January 1966 review of Wiener’s *God & Golem, Inc.* The institutional Beer bibliography records both items. ([Stafford Beer bibliography](https://metaphorum.org/wp-content/uploads/2022/03/SB_Bibliography.pdf))
+
+### John von Neumann
+
+- **[T1-]** **Documented fact:** Beer reviewed von Neumann’s posthumously published *The Computer and the Brain* in “Scientist’s Testament,” published in *The Economist* on 14 March 1959. ([Stafford Beer bibliography](https://metaphorum.org/wp-content/uploads/2022/03/SB_Bibliography.pdf))
+
+### R. Buckminster Fuller
+
+- **[T1-]** **Documented fact:** Beer discussed Fuller’s tensegrity, geodesic geometry, and proposition that systems are polyhedra while explaining the intellectual provenance of Team Syntegrity in *Beyond Dispute* (1994) and “World in Torment.” Fuller’s work helped Beer translate the icosahedron from a structural object into a model for nonhierarchical group communication. ([Beer, “Origins of Team Syntegrity”](https://kybernetik.ch/dwn/Origins_of_Team_Sent.pdf); [Beer, “World in Torment”](https://metaphorum.org/wp-content/uploads/2020/12/world_in_tormentMD.pdf))
+- **[T9-]** **Documented fact:** In *Beyond Dispute*, Beer identified an inscribed map of Fuller’s life as “an old gift from Buckminster Fuller.” Beer later encountered that Fuller-originated object again while developing Syntegrity, making the inscribed time map a documented object transmitted from the earlier Fuller to the later Beer. ([quoted Beer passage and source discussion](https://revistas.usp.br/virus/es/article/download/228942/207756/715414))
+
+### Salvador Allende
+
+- **[T5]** **Documented fact:** Beer personally presented the Viable System Model and the proposed Chilean cybernetic-management system to President Allende in Santiago in November 1971. Beer and project participant Roberto Cañete independently supported the substance of this meeting; Allende subsequently insisted that the system operate in a decentralizing, worker-participative, and anti-bureaucratic manner. The famous “At last—the people” wording remains a retrospective recollection rather than a contemporaneous transcript. ([Eden Medina, “Cybernetic Revolutionaries”](https://www.cabinetmagazine.org/issues/46/medina.php); [MIT Press account](https://thereader.mitpress.mit.edu/project-cybersyn-chiles-radical-experiment-in-cybernetic-socialism/))
+- **[T1-]** **Documented fact:** After Allende’s death in 1973, Beer wrote extensively about him, their meeting, and Project Cybersyn—most notably in *Platform for Change* (1975) and the five Chile chapters added to the 1981 edition of *Brain of the Firm*. The “At last—the people” episode entered the historical record through Beer’s own later narrative. ([Eden Medina, “Cybernetic Revolutionaries”](https://www.cabinetmagazine.org/issues/46/medina.php))
+
+No additional roster crossings were included: mere citation, intellectual similarity, political contemporaneity, presence in Beer’s library, or association with cybernetics or Chile was not treated as sufficient evidence of one of the specified connection types.
+
 ## Sources
 
 https://archives.ljmu.ac.uk/Record.aspx?id=SB&src=Catalog

@@ -563,6 +563,54 @@ The strongest historical reinterpretation does not require choosing “genius”
 | 2025 | MIT Muh Alumni Award; named Chief AI Officer of Beyond Imagination |
 | 25 Aug. 2026 | Living and publicly active; 2029 Long Bet and major future forecasts unresolved |
 
+## Atlas Connections
+
+### Ada Lovelace
+
+- **[T1-] Documented fact:** Kurzweil wrote a historical account of Lovelace in *The Age of Spiritual Machines* (1999), discussing her collaboration with Charles Babbage, her programming concepts, and her place in computing history. [Book text](https://pdfarchive.kunaldawn.com/archive/computer_engineering/The_Age_of_Spiritual_Machines__When_Comput_-_Ray_Kurzweil.pdf)
+
+### Alan Turing
+
+- **[T1-] Documented fact:** Kurzweil has repeatedly written about Turing’s 1950 imitation game and adopted it as the basis for his formal Long Now wager with Mitch Kapor. The negotiated rules expressly defer to Turing’s original paper. [Long Now wager rules](https://www.thekurzweillibrary.com/a-wager-on-the-turing-test-the-rules)
+
+### Bill Clinton
+
+- **[T5] Documented fact:** President Clinton personally presented Kurzweil with the 1999 National Medal of Technology during an East Room ceremony at the White House in Washington, D.C., on 14 March 2000. [Clinton White House announcement](https://clintonwhitehouse5.archives.gov/WH/EOP/OSTP/html/0022_6.html), [ceremony account](https://www.pressandappearances.com/the-1999-national-medal-of-technology)
+
+### Bill Gates
+
+- **[T5] Reported fact:** *Fortune* reported in 2007 that Kurzweil had twice dined at Gates’s home so Gates could question him about technological futures. Kurzweil later said that Gates read *How to Create a Mind* and approached him about implementing its ideas in a computer; this conversation preceded Kurzweil’s recruitment by Google. [Fortune profile](https://fortune.com/article/ray-kurzweil-innovation-artificial-intelligence/), [2024 Kurzweil interview](https://www.wired.com/story/big-interview-ray-kurzweil/)
+
+### Charles Babbage
+
+- **[T1-] Documented fact:** Kurzweil devoted a historical passage—“The Ballad of Charles and Ada”—in *The Age of Spiritual Machines* (1999) to Babbage’s Analytical Engine and his collaboration with Ada Lovelace, treating the proposed machine as a major precursor of programmable computing. [Book text](https://pdfarchive.kunaldawn.com/archive/computer_engineering/The_Age_of_Spiritual_Machines__When_Comput_-_Ray_Kurzweil.pdf)
+
+### Claude Shannon
+
+- **[T1-] Documented fact:** In *The Singularity Is Near* (2005), Kurzweil discussed Shannon as the founder of information theory and described the importance of Shannon’s 1948 mathematical treatment of communication and data compression. [Book text](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/50500534276/CourseNode/1761014172649000008/Kurzweil__Ray_-_The_Singularity_Is_Near.pdf)
+
+### Geoffrey Hinton
+
+- **[T3] Documented fact:** Kurzweil and Hinton participated in a recorded debate at the 2024 Abundance360 Summit concerning machine consciousness, AI rights, superintelligence, open models, and AI risk. [Event recording and description](https://www.diamandis.com/podcast/ray-kurzweil-geoff-hinton)
+
+### John Searle
+
+- **[T3] Documented fact:** Kurzweil and Searle debated whether a machine could be conscious during the closing session of George Gilder’s Telecosm conference at Lake Tahoe in September 1998. Kurzweil subsequently described their continuing disagreement in *The Singularity Is Near*, while Searle published criticism of Kurzweil’s strong-AI position. [Kurzweil’s account](https://www.asamblea.go.cr/sd/referencia_cedil/TA_05_2025/18_Kurzweil_2005.pdf), [published debate volume](https://www.discovery.org/b/are-we-spiritual-machines/)
+
+### John von Neumann
+
+- **[T1-] Documented fact:** Kurzweil wrote extensively about von Neumann’s computing work and credited his reported 1950s remarks on accelerating technological change as the earliest description of a historical “Singularity.” Kurzweil also supplied the foreword to a 2012 edition of von Neumann’s *The Computer and the Brain*. [Excerpt from *The Singularity Is Near*](https://www.penguinrandomhouse.ca/books/291221/the-singularity-is-near-by-ray-kurzweil/9780143037880/excerpt), [MIT Press edition record](https://mitpress.mit.edu/9780300181111/the-computer-and-the-brain/)
+
+### Norbert Wiener
+
+- **[T1-] Documented fact:** Kurzweil discussed Wiener’s cybernetics and information-centered conception of nature in multiple writings. His article “What Is Artificial Intelligence Anyway?” also recounts Wiener’s use of a German children’s song to illustrate scientific computation. [Computer History Museum reproduction](https://tcm.computerhistory.org/CHMfiles/Expert%20Systems%20Wall%201985-1986.pdf), [Kurzweil reader](https://www.thekurzweillibrary.com/pdf/RayKurzweilReader.pdf)
+
+### Richard Feynman
+
+- **[T1-] Documented fact:** Kurzweil discussed Feynman’s speculation about information, matter, and computation in his writings on an information-based account of physics; he also treated Feynman’s molecular-scale engineering lecture as part of nanotechnology’s intellectual history. [Kurzweil reader](https://www.thekurzweillibrary.com/pdf/RayKurzweilReader.pdf), [nanotechnology historical material](https://www.thekurzweillibrary.com/engines-of-creation-2-0-published-as-free-ebook)
+
+No additional roster member is included merely because that person shared Kurzweil’s era, employer, conference circuit, intellectual subject matter, or institutional network; those circumstances alone do not establish one of the specified connection types.
+
 ## Sources
 
 https://achievement.org/achiever/ray-kurzwell/

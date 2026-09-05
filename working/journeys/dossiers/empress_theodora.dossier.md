@@ -467,6 +467,18 @@ The San Vitale mosaic is the durable icon: frontal, haloed, jeweled, bearing Euc
 
 The exact birth date/place, mother’s name, formal education, date of marriage, paternity and names of children, literal truth of sexual anecdotes, verbatim Nika speech, division of legal authorship, precise order chain in Silverius’s deposition, private wealth, and exact disease remain unresolved. Searches covered the main Greek/Latin/Syriac narrative witnesses, laws, art history, modern biographies, and reception. Further broad searching was stopped because remaining gaps arise primarily from loss or silence of evidence, not lack of another secondary summary; progress would require manuscript/critical-edition research beyond open web access.
 
+## Atlas Connections
+
+### Justinian I
+
+- **[T5] Documented fact:** Theodora personally met Justinian in Constantinople by the early 520s, married him probably in 524/525, and remained his wife and political partner until her death on 28 June 548. Justinian’s Novel 8 (535) explicitly records consulting his “most pious consort,” confirming direct collaboration beyond the independently documented marriage ([Novel 8](https://droitromain.univ-grenoble-alpes.fr/Anglica/N8_Scott.htm); [DIR biography](https://roman-emperors.sites.luc.edu/dora.htm)).
+
+### Constantine the Great
+
+- **[T9-] Documented fact:** The Church of the Holy Apostles imperial burial complex in Constantinople connects the later Theodora with Constantine. Constantine established his mausoleum there and was interred in the complex after his death in 337; Theodora was buried in the Justinianic mausoleum attached to the rebuilt church in 548. This is a shared site across time, not a personal or contemporary encounter ([scholarly study of the imperial tombs](https://www.cambridge.org/core/journals/journal-of-hellenic-studies/article/abs/tombs-of-the-byzantine-emperors-at-the-church-of-the-holy-apostles-in-constantinople/767B16AFEBF9C0A4DF956257B9E90976); [study of the church’s architectural history](https://kar.kent.ac.uk/59449/)).
+
+No other roster member has a responsibly documented crossing with Theodora under the six specified connection types; apparent overlaps based only on shared cities, religious traditions, artistic reception, or distant chronology were excluded.
+
 ## Sources
 
 https://archive.org/details/downey-1940-malalas-books-08-18

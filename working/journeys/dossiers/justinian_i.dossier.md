@@ -496,6 +496,42 @@ No single epithet—“Great,” “last Roman,” “saint,” “tyrant,” or
 | 11th–12th centuries | Revival of Digest study in western Europe makes Justinianic law foundational to *ius commune*. |
 | 1204 | Crusaders sack Constantinople; Justinian's tomb is reported opened and robbed. |
 
+## Atlas Connections
+
+### Empress Theodora
+
+- **[T5] Documented fact:** Justinian married Theodora at Constantinople, probably in 525, after legislation issued under Justin I removed the legal barrier to a senator marrying a former actress. They occupied the imperial court together from 527 until her death on 28 June 548; laws, official oaths, diplomatic activity, and contemporary narratives document her sustained personal and political collaboration with Justinian.
+
+### Jesus of Nazareth
+
+- **[T1-] Documented fact:** Justinian wrote or issued extensive Christological works about Jesus Christ, including the *Letter to the Monks of Alexandria*, the treatise concerning the Three Chapters, and the *Edict on the True Faith*. These sixth-century documents defend a particular account of Christ’s person, natures, and incarnation; modern editions collect them as *On the Person of Christ*. [Bibliographic record and contents](https://openlibrary.org/books/OL1870370M/On_the_Person_of_Christ)
+
+### Origen of Alexandria
+
+- **[T1-] Documented fact:** Around 542–543, Justinian addressed Patriarch Menas of Constantinople in a theological treatise and edict explicitly summarizing and refuting doctrines attributed to Origen. The document included extracts from *On First Principles* and nine or ten anathemas; its precise enumeration varies in the manuscript and editorial tradition. [Textual and source overview](https://historicalchristian.faith/doctrine/doctrines/origen-condemnation/justinian.html)
+
+### Moses
+
+- **[T9-] Reported fact:** Between approximately 548 and 565, Justinian ordered a fortified church and monastery built at the foot of the mountain identified by local Christian tradition as biblical Sinai. Procopius explicitly connects Justinian’s construction with the place where Moses was believed to have received and promulgated the Law, making the Mosaic sacred landscape the shared-site connector; this establishes Justinian’s patronage of the traditional site, not the historicity of the biblical identification. [Procopius, *Buildings* 5.8](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/Buildings/5%2A.html)
+
+### Egeria
+
+- **[T9-] Documented fact:** Egeria visited the Burning Bush and Sinai monastic complex during her late-fourth-century pilgrimage, more than a century before Justinian’s major construction campaign at the same pilgrimage site. Justinian therefore stands on the later side of a shared-site connection: Egeria recorded the earlier sanctuary, while his government subsequently enclosed and monumentalized its monastic community. [Mount Sinai Monastery history](https://www.mountsinaimonastery.org/monastery)
+
+### Catherine of Alexandria
+
+- **[T9-] Reported fact / later sacred tradition:** Justinian founded the sixth-century Sinai monastery later called Saint Catherine’s, but contemporary evidence describes its principal church as dedicated to the Mother of God, not Catherine. The monastery acquired Catherine’s name only after monks reportedly discovered and translated her relics there in the ninth century; thus the connection is the later association of her reputed remains and cult with Justinian’s surviving foundation, not a lifetime relationship. [Egyptian Ministry of Tourism and Antiquities](https://egymonuments.gov.eg/world-heritage/saint-catherine-s-monastery-and-its-surrounding-area/)
+
+### Paul the Deacon
+
+- **[T1+] Documented fact:** In the later eighth century, Paul the Deacon wrote about Justinian in Book XVI of his *Historia Romana*, recounting his accession, Belisarius’s campaigns, the legal compilation, Hagia Sophia, and other events of the reign. Justinian is therefore the earlier, written-about figure. [Paul the Deacon, *Historia Romana* XVI](https://www.thelatinlibrary.com/pauldeacon/histrom16.shtml)
+
+### Dante Alighieri
+
+- **[T1+] Documented fact:** Around 1315–1321, Dante made Justinian the principal speaker of *Paradiso* VI. Dante’s fictionalized emperor identifies himself, describes the codification of Roman law, credits Pope Agapetus with correcting his Christology, and narrates the providential history of the Roman eagle. The encounter is literary rather than historical, and Dante’s account incorporates medieval chronological and theological errors. [Dante, *Paradiso* VI](https://www.gutenberg.org/files/1012/1012-h/1012-h.htm)
+
+No documented personal crossing, correspondence, prophecy relationship, or sufficiently specific shared-object/site connection was found for the remaining roster entries. Mere appearance of an ancient person in Justinianic-era scripture, law, church dedications, later intellectual influence, or broad Roman/Christian tradition has not been counted without evidence meeting one of the six specified connection types.
+
 ## Sources
 
 https://roman-emperors.sites.luc.edu/justinia.htm

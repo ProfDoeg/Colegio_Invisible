@@ -571,6 +571,14 @@ Each form preserves fragments of medieval tradition while obscuring the sparse c
 | 2016 | Fécamp tomb investigation fails because remains predate the dynasty | High |
 | 2021 | *Rollon, sur les traces du premier Normand* airs | High |
 
+## Atlas Connections
+
+### Saint Denis of Paris
+
+- **[T9-]** Rollo is linked to Saint Denis through the Norman estate of **Berneval** and the Abbey of Saint-Denis. Dudo of Saint-Quentin reports that, on the seventh day following Rollo’s baptism—traditionally dated to **912**—Rollo gave Berneval and its dependencies “to Saint Dionysius,” meaning the martyr’s abbey and cult institution near Paris. A charter issued by Rollo’s grandson Richard I on **18 March 968** records the Berneval grant to Saint-Denis; modern diplomatic analysis considers it evidence that an actual earlier grant underlay Dudo’s account. **Documented fact** for the institutional connection and estate; **reported fact** for Dudo’s precise baptism-week ceremony and dating. ([Dudo of Saint-Quentin](https://sourcebooks.web.fordham.edu/source/dudu-stquentin-gesta-trans-lifshitz.asp); [Early Medieval Europe analysis](https://onlinelibrary.wiley.com/doi/10.1111/emed.12106))
+
+No other roster member has a securely evidenced crossing with Rollo under the six specified connection types. In particular, William the Conqueror’s documented descent from Rollo is genealogical, but ancestry is not one of those types and has therefore not been forced into another category.
+
 ## Sources
 
 https://academic.oup.com/ehr/article/138/594-595/1255/7504767

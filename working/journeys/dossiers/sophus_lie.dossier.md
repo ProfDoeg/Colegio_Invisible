@@ -1316,6 +1316,26 @@ The newer view does not idealize Lie. It instead separates illness, personality,
 
 ---
 
+## Atlas Connections
+
+### Évariste Galois
+
+- **[T1-] Documented fact.** Lie wrote the historical study *Influence de Galois sur le développement des mathématiques* for the École Normale Supérieure centenary volume, published in Paris in 1895. He credited Galois with revealing the fundamental relationship between groups and invariants and presented his own continuous-transformation theory as an extension of the group-theoretic program Galois had opened. [Éditions Jacques Gabay](https://www.gabay-editeur.com/GALOIS-uvres-mathematiques-1846-LIE-Influence-de-Galois-sur-le-developpement), [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/chp/text/lie.html)
+
+### Felix Klein
+
+- **[T5] Documented fact.** Lie and Klein first met in Berlin in autumn 1869, attended the Kummer–Weierstrass seminar, became close friends, and worked together in Berlin, Paris, Düsseldorf, Göttingen, and Erlangen during 1869–1872. Their friendship continued for roughly two decades before collapsing during the priority controversy of 1892–1893. [David E. Rowe, “Klein, Lie, and their early Work on Quartic Surfaces”](https://arxiv.org/abs/1912.02740), [Max Planck Institute event summary](https://www.mis.mpg.de/de/events/event/on-the-collaboration-of-felix-klein-and-sophus-lie-in-the-early-1870s-seen-in-the-light-of-kleins-letters-to-lie)
+
+- **[T3] Documented fact.** Lie and Klein maintained extensive mathematical correspondence and jointly published work arising from their early investigations of line complexes, quartic surfaces, transformations, and geometry. Surviving archival records include letters attributed to 1872, 1876, and 1882, although Klein destroyed many letters Lie had sent before 1877. The surviving record also documents their sharp written dispute over historical credit in 1892–1893. [Kalliope archival catalogue](https://kalliope-verbund.info/de/findingaid?fa.enum=1&fa.id=DE-611-BF-59424), [David E. Rowe](https://arxiv.org/abs/1912.02740)
+
+### Henri Poincaré
+
+- **[T5] Documented fact.** Lie and Poincaré first met in Paris in November 1882; Poincaré invited Lie to dinner at his apartment on 18 November. They met again during Lie’s Paris visit in April 1893, including at a dinner in Camille Jordan’s home, and during Poincaré’s visit to Leipzig in June 1895, when they discussed surfaces of double translation. [Henri Poincaré Papers](https://henripoincarepapers.univ-nantes.fr/chp/text/lie.html)
+
+- **[T3] Documented fact.** At least eleven letters survive from their mathematical correspondence—seven from Lie and four from Poincaré—covering transformation groups, foundations of geometry, minimal surfaces, double-translation manifolds, integral invariants, publication priorities, and Lie’s 1892 election to the Académie des Sciences. Poincaré also prepared the Academy’s formal report on Lie’s work. [Henri Poincaré Papers: Lie–Poincaré correspondence](https://henripoincarepapers.univ-nantes.fr/chp/text/lie.html), [Poincaré to Lie, 4 April 1892](https://henripoincarepapers.univ-nantes.fr/en/corresphp/ajax.php?id=1354)
+
+No additional connection meeting the stated evidentiary threshold was found among the remaining atlas-roster names. Mere mathematical influence, later use of Lie theory, overlapping institutional membership, or contemporaneous presence in the same country was not counted without evidence of writing, correspondence, encounter, meaningful shared milieu, prophecy, or transmission of a specific object or site.
+
 ## Sources
 
 https://snl.no/Sophus_Lie

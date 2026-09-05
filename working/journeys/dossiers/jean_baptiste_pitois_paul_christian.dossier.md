@@ -2192,6 +2192,90 @@ Decker and Dummett’s *A History of the Occult Tarot, 1870–1970* traces the l
 
 ---
 
+## Atlas Connections
+
+### Emir Abdelkader ibn Muhieddine
+
+- **[T1-] Documented fact:** Pitois wrote extensively about Emir Abdelkader’s resistance to French conquest, military organization, and role in Algeria in *L’Afrique française, l’empire de Maroc et les déserts de Sahara* (1846). The volume even included an illustration captioned “El-Hadji-Abd-el-Kader.” This establishes literary treatment, not a personal meeting. [Google Books record and searchable text](https://books.google.com/books?id=-3doolPJmXwC)
+
+### Antoine Court de Gébelin
+
+- **[T1-] Documented fact:** In *Histoire de la magie* (1870), Pitois wrote about Court de Gébelin and placed him at a supposed Paris conference with Cagliostro on 10 May 1785. The passage is a documented Pitois text but its purported event is a **myth/fabrication**: Court de Gébelin had died on 12 May 1784. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Honoré de Balzac
+
+- **[T3] Documented fact:** Pitois engaged Balzac in writing by citing *Séraphîta* in *Histoire de la magie* (1870) while discussing spiritual worlds and occult cosmology. Pitois also claimed personal conversation or acquaintance with Balzac, but no independent evidence currently elevates that claim to a documented T5 meeting. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Giuseppe Balsamo (Cagliostro)
+
+- **[T1-] Documented fact:** Pitois devoted extended narrative treatment to Cagliostro in *Histoire de la magie* (1870), including the supposed 1785 conference with Court de Gébelin and other episodes of prophecy and occult consultation. The literary connection is certain; parts of Pitois’s historical apparatus, especially the Court de Gébelin scene, are **myth/fabrication** rather than reliable biography. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Plato
+
+- **[T1-] Documented fact:** Pitois wrote in *Histoire de la magie* that Plato studied for thirteen years with Egyptian priests or “Magi,” using this traditional claim to present Platonism as a descendant of Egyptian initiatory wisdom. This documents Pitois’s account, not the historical truth of the asserted Egyptian instruction. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Jesus of Nazareth
+
+- **[T1-] Documented fact:** Pitois repeatedly wrote about Jesus in *Histoire de la magie*, including a traditional tale in which Jesus foretells a woodcutter’s death and later explains why the prediction was averted. Pitois used the story to illustrate the interaction of prediction, charity, and destiny; its occurrence in the book is documented, while the episode itself belongs to religious legend. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Paul the Apostle
+
+- **[T1-] Documented fact:** Pitois invoked Saint Paul in *Histoire de la magie*, including Paul’s revelatory or ecstatic experience, as part of his argument that visionary states and invisible realities should not be dismissed merely because their mechanisms remain unexplained. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Moses
+
+- **[T1-] Documented fact:** Pitois discussed Moses throughout *Histoire de la magie* in connection with the magical rod, Hebrew ritual, sacrifice, divine law, and the transmission of ancient sacred knowledge. His treatment combines biblical narrative with polemical occult interpretation. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### King Solomon
+
+- **[T1-] Documented fact:** Pitois wrote about Solomon in *Histoire de la magie*, particularly in his retelling of the Masonic Hiram Abiff legend: Solomon orders the search for the missing architect and the pursuit of his murderers. The connection is to Pitois’s nineteenth-century presentation of Masonic legend, not to an independent ancient source. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Hiram Abiff
+
+- **[T1-] Documented fact:** *Histoire de la magie* contains an extended version of the legendary murder of Hiram, the discovery of his killers, and their punishment under Solomon. Hiram Abiff is a legendary Masonic figure, so this is documented literary treatment of a mythic person rather than historical biography. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Zoroaster
+
+- **[T1-] Documented fact:** Pitois treated Zoroaster—also named Zerduscht—as the Persian representative of primordial astrological and sacred wisdom in *Histoire de la magie*. He placed him alongside culture-founders such as Hermes, Manu, and Numa in a speculative genealogy of celestial doctrine. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Paracelsus
+
+- **[T1-] Documented fact:** Pitois wrote about Paracelsus’s magical and alchemical doctrines in *Histoire de la magie*, including his statements about artificially fashioned *homunculi* and their alleged powers. Pitois reported occult tradition rather than experimentally verified phenomena. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Johann Georg Faust
+
+- **[T1-] Documented fact:** Pitois narrated the Faust legend in *Histoire de la magie*, including the pact with Mephistopheles, twenty-four years of demonic service, and Faust’s purported evocation of famous ancient figures. The treatment explicitly blends the historical Faust with later legendary material. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Constantine the Great
+
+- **[T1-] Documented fact:** Pitois discussed Constantine’s conflict with Maxentius, his capture of Rome in 312, his consolidation of the Roman Empire by 324, and his political relationship with Christianity in *Histoire de la magie*. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Charlemagne
+
+- **[T1-] Documented fact:** Pitois wrote about Charlemagne’s attempt, assisted by Alcuin, to revive Christian learning amid the intellectual disruption of the early Middle Ages. *Histoire de la magie* portrays Charlemagne’s achievement as brilliant but unable to survive intact beyond his reign. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Gilles de Rais
+
+- **[T1-] Documented fact:** Pitois gave Gilles de Rais—called Gilles de Laval in the text—extended treatment in *Histoire de la magie*, recounting murder, ceremonial magic, clerical ritual, and an alleged eastern magician. The writing documents Pitois’s synthesis of trial history and later demonological legend; it does not independently authenticate every occult detail. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Louis XVI
+
+- **[T1-] Documented fact:** Pitois analyzed Louis XVI’s birth horoscope and retrospectively calculated the period of his “fatal destiny” in Book VI of *Histoire de la magie*. Because the calculation was published in 1870, long after Louis XVI’s execution in 1793, it is retrospective astrological interpretation rather than a documented pre-event prophecy. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Empress Joséphine
+
+- **[T1-] Documented fact:** Pitois used Joséphine’s name and life in an onomantic or letter-based calculation in *Histoire de la magie*, interpreting the letters as forecasting honors, divorce, and eclipse or decline. The passage is a documented retrospective exercise, not evidence that the prediction existed before the events. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Napoleon Bonaparte
+
+- **[T1-] Documented fact:** Napoleon I was a central subject of Pitois’s occult-historical writing. *L’Homme rouge des Tuileries* (1863) recast the folklore of Napoleon’s supernatural adviser, while *Histoire de la magie* (1870) applied numerological and astrological analysis to episodes including the 1812 Russian campaign. These are documented writings about Napoleon, not evidence that Pitois—born in 1811—personally encountered him. [Digitized *L’Homme rouge des Tuileries*](https://fr.scribd.com/document/396604187/L-Homme-Rouge-Des-Tuileries); [digitized *Histoire de la magie*](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+### Emanuel Swedenborg
+
+- **[T1-] Documented fact:** Pitois named Swedenborg as a major eighteenth-century visionary or *illuminé* in *Histoire de la magie*, placing him at the modern end of a long succession of supernatural and visionary traditions extending from ancient Egypt through the Renaissance. [Digitized primary text](https://archive.org/stream/PaulChristianJeanBaptistePitoisHistoireDeLaMagie/Paul%20Christian%20%28Jean-Baptiste%20Pitois%29%20-%20Histoire%20de%20la%20magie_djvu.txt)
+
+No additional T2, T4, T5, or T9 crossings with the supplied roster were located that could be supported without inferring relationships from mere contemporaneity, shared geography, or later occult influence.
+
 ## Sources
 
 https://catalogue.bnf.fr/ark%3A/12148/cb12327453r

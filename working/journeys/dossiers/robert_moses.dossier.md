@@ -648,6 +648,41 @@ No single ledger proves “everything Moses built” or “everyone Moses displa
 | 2016 | Niagara route formerly bearing his name becomes Niagara Scenic Parkway. |
 | 2024–26 | Fiftieth-anniversary Caro exhibitions, podcasts, archive reopening, and continuing reconstruction of Moses records. |
 
+## Atlas Connections
+
+### Calvert Vaux
+
+- **[T9-]** **Documented fact.** Central Park is the shared site. Vaux and Frederick Law Olmsted originated its winning Greensward design in 1858; Moses, as parks commissioner from 1934 to 1960, subsequently administered and materially altered the inherited landscape, adding nineteen playgrounds, athletic facilities, Wollman Rink, and other recreational works. Vaux died in 1895, so this is a site-mediated succession, not a personal encounter. [Central Park Conservancy](https://www.centralparknyc.org/articles/central-park-history)
+
+### David Rockefeller
+
+- **[T3]** **Documented fact.** The Robert Moses Papers contain correspondence with David Rockefeller concerning the financing and construction of the United Nations headquarters in **1949**, further correspondence in **1959**, and a David Rockefeller file from **1979** concerning proposed updates to East River waterfront parks and playgrounds. The record establishes sustained written engagement on New York development matters, not merely membership in overlapping civic circles. [NYPL finding aid](https://archives.nypl.org/mss/2071)
+
+### Frank Lloyd Wright
+
+- **[T3]** **Documented fact.** Moses and Wright exchanged correspondence over many years. The Robert Moses Papers identify exchanges in **1943**, correspondence and texts of talks associated with Princeton’s bicentennial in **1946–47**, and further correspondence in **1949 and 1952–58**. The 1959 files include Moses’s correspondence with Wright and, after Wright’s death that April, with his widow concerning the opening of the Guggenheim Museum. [NYPL finding aid](https://archives.nypl.org/mss/2071)
+
+### Frederick Law Olmsted
+
+- **[T9-]** **Documented fact.** Central Park passed from the nineteenth-century design legacy of Olmsted and Calvert Vaux to Moses’s twentieth-century parks administration. Olmsted and Vaux’s Greensward plan became the basis of the park beginning in **1858**; during **1934–60**, Moses’s department inserted playgrounds, ballfields, handball courts, Wollman Rink, and other facilities into that inherited landscape. Olmsted died in 1903, before Moses entered park administration, so no personal meeting is implied. [Central Park Conservancy](https://www.centralparknyc.org/articles/central-park-history)
+
+### George H. W. Bush
+
+- **[T3]** **Documented fact.** Moses’s papers contain correspondence with George H. W. Bush in the **1971–72** general files, during Bush’s service as United States ambassador to the United Nations. The folder-level description establishes written contact but does not disclose enough content to characterize its subject or closeness. [NYPL finding aid](https://archives.nypl.org/mss/2071)
+
+### John F. Kennedy
+
+- **[T3]** **Documented fact.** Moses’s archive records a letter to Kennedy in **1957** and correspondence with him in **1958**. As president, Kennedy also wrote directly to Moses on **5 October 1961** about federal participation in the proposed New York World’s Fair. [NYPL finding aid](https://archives.nypl.org/mss/2071); [American Presidency Project](https://www.presidency.ucsb.edu/documents/letters-mayor-wagner-and-robert-moses-concerning-the-new-york-worlds-fair)
+- **[T5]** **Documented fact.** Kennedy and Moses appeared together during the federal-pavilion dedication and inspection of the World’s Fair site in New York on **14 December 1962**. Contemporary photographic documentation shows them inspecting the fair model, and surviving film records Kennedy at the dedication with Moses acting as fair president. [New York World’s Fair records](https://nyplorg-data-archives.s3.amazonaws.com/uploads/collection/pdf_finding_aid/nywf64.pdf)
+
+### Prescott Bush
+
+- **[T3]** **Documented fact.** Senator Prescott Bush sent Moses congratulations after Moses received a General Motors highway award in **1953**, and the archive preserves additional correspondence between them from **1958**. The surviving finding-aid descriptions establish direct written exchange but do not justify inferring friendship or a broader political alliance. [NYPL finding aid](https://archives.nypl.org/mss/2071)
+
+### Walt Disney
+
+- **[T5]** **Documented fact.** Moses visited Walt Disney’s California studio in **April 1962** to inspect attractions being developed for the 1964–65 New York World’s Fair. Disney personally showed him the prototype Audio-Animatronic Abraham Lincoln; Moses then pressed for its inclusion in the fair, helping produce Illinois’s *Great Moments with Mr. Lincoln* pavilion. Disney later hosted Moses again during a **1963** studio visit, and the two appeared together at the pavilion announcement in New York. This was a direct working relationship involving repeated meetings, not merely parallel participation in the fair. [Disney D23 history](https://d23.com/the-hall-of-presidents-story/); [Disney archival magazine](https://disneyvacationclub.disney.go.com/media/dvc/languagespecific/eng/member/justformembers/disneyfilesmagazine/2009/DisneyFilesMagazine_Fall2009.pdf)
+
 ## Sources
 
 https://99percentinvisible.org/episode/power-broker-01-robert-caro/transcript/

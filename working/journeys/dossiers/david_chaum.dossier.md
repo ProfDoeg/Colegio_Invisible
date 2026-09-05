@@ -434,6 +434,47 @@ The post-Bitcoin reinterpretation emphasizes continuity: Chaum made digital cash
 | 2024 | VoteXX extreme-coercion-resistance paper listed. |
 | 24 Aug. 2026 | Living; later publications/project activity continues, with some announced work not yet independently verified. |
 
+## Atlas Connections
+
+### Whitfield Diffie
+
+- **[T1-]** **Documented fact:** Chaum discussed Diffie’s earlier work in “Security Without Identification” (1985), identifying the 1976 Diffie–Hellman paper as the source of the digital-signature concept on which Chaum’s privacy architecture built. [Chaum text and references](https://chaum.com/security-without-identification/)
+
+### Martin Hellman
+
+- **[T1-]** **Documented fact:** In “Security Without Identification” (1985), Chaum credited Hellman jointly with Diffie for proposing digital signatures and cited their 1976 paper “New Directions in Cryptography.” [Chaum text and references](https://chaum.com/security-without-identification/)
+
+### Ronald Rivest
+
+- **[T3]** **Documented fact:** Chaum and Rivest worked together as co-editors—with Alan T. Sherman—of *Advances in Cryptology: Proceedings of CRYPTO ’82*, arising from the conference held in Santa Barbara, California, on 23–25 August 1982. Chaum was general chair and Rivest program chair. [Springer proceedings record](https://link.springer.com/book/10.1007/978-1-4757-0602-4), [Chaum’s IACR archive](https://chaum.com/iacr/)
+- **[T1-]** **Documented fact:** Chaum’s 1985 treatment of digital signatures discussed and cited the earlier RSA construction by Rivest, Adi Shamir, and Leonard Adleman. [Chaum text and references](https://chaum.com/security-without-identification/)
+
+### Adi Shamir
+
+- **[T1-]** **Documented fact:** Chaum discussed public-key digital signatures in “Security Without Identification” and cited the 1978 Rivest–Shamir–Adleman paper as a foundational construction underlying the protocols he presented. [Chaum text and references](https://chaum.com/security-without-identification/)
+
+### Leonard Adleman
+
+- **[T1-]** **Documented fact:** Chaum’s “Security Without Identification” cited and built its explanation of practical digital signatures partly around the earlier RSA work of Rivest, Shamir, and Adleman. [Chaum text and references](https://chaum.com/security-without-identification/)
+
+### Bill Gates
+
+- **[T3]** **Reported fact:** Retrospective accounts report negotiations or communications in the mid-1990s between Chaum/DigiCash and Gates’s Microsoft concerning possible eCash integration with Windows 95. The talks reportedly produced no agreement. Claims that Gates personally offered Chaum exactly $100 million or $180 million remain unverified because no term sheet, correspondence, or Microsoft record establishing those figures has surfaced. [Contemporary corporate postmortem](https://www.forbes.com/forbes/1999/1101/6411390a.html), [Chaum’s later interview discussing Microsoft’s interest](https://unchainedcrypto.com/why-bitcoin-now-david-chaum-and-adam-back-reflect-on-the-crypto-wars/)
+
+### Hal Finney
+
+- **[T1+]** **Documented fact:** Finney wrote a detailed exposition of Chaum, Amos Fiat, and Moni Naor’s offline electronic-cash protocol. Dated 15 October 1993 and revised 13 March 1996, “Detecting Double-Spending” explicitly explained Chaum’s anonymity, blind-signature, and double-spender-identification mechanisms. [Finney’s essay](https://fennetic.net/irc/finney.org/~hal/chcash2.html)
+
+### Nick Szabo
+
+- **[T1+]** **Documented fact:** Szabo repeatedly treated Chaum as an earlier intellectual and technical precursor. His writings linked readers to Chaum’s privacy and digital-cash work, and in a 2017 interview he explicitly credited Chaum with inventing mixes and applying blinding techniques to money. This establishes written and public intellectual engagement, but not, by itself, employment at DigiCash or a personal collaboration. [Szabo interview transcript](https://tim.blog/2018/06/01/the-tim-ferriss-show-transcripts-nick-szabo/), [Szabo’s “Smart Contracts” bibliography](https://nakamotoinstitute.org/library/smart-contracts-building-blocks-for-digital-markets/)
+
+### Guido van Rossum
+
+- **[T4]** **Documented fact:** Chaum and van Rossum were jointly honored as CWI’s first Dijkstra Fellows in Amsterdam in November 2019. CWI scheduled both recipients for the 21 November award soirée at the Scheepvaartmuseum and associated CWI Lectures on 21–22 November, placing them in the same institutional event and milieu without establishing a deeper personal relationship. [CWI announcement](https://www.cwi.nl/en/news/david-chaum-and-guido-van-rossum-awarded-dijkstra-fellowship/), [CWI retrospective record](https://ir.cwi.nl/pub/29131)
+
+No other roster crossing was included where the available evidence showed only broad intellectual lineage, shared subject matter, overlapping geography, a namesake institution—such as Mark Twain Bank—or unsupported speculation.
+
 ## Sources
 
 https://chaum.com/publications/

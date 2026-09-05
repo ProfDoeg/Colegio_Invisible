@@ -480,6 +480,54 @@ Modern research shifted from harmonized saint’s life to memory analysis: the �
 | 1940–49 | Vatican necropolis excavated | Modern archaeology |
 | 1968 | Paul VI announces bones identified as Peter’s to a persuasive degree | Ecclesiastical judgment; scientifically unproved |
 
+## Atlas Connections
+
+### Jesus of Nazareth
+
+- **[T5]** Peter was a disciple and close associate of Jesus in Galilee and Jerusalem, conventionally c. 27–30 CE. Their underlying teacher–disciple relationship is a **documented fact** of historical reconstruction; particular conversations, the conferral of the name Cephas, Peter’s denial, and his restoration are **reported facts** preserved in the canonical narratives.
+
+### Paul the Apostle
+
+- **[T5] [T1+] [T3]** Paul personally visited Cephas in Jerusalem for fifteen days, later recognized him as a “pillar,” and confronted him at Antioch, probably between the later 30s and early 50s CE. Paul also wrote extensively about Cephas/Peter in *Galatians* and *1 Corinthians*, making Peter the earlier, written-about party and creating one-sided surviving literary engagement. **Documented fact**, based on Paul’s firsthand testimony; Paul’s account of the Antioch dispute supplies only his side. [Galatians 1:18](https://www.biblegateway.com/passage/?search=Galatians+1%3A18&version=NRSVUE)
+
+### Mary Magdalene
+
+- **[T5]** John 20:1–3 depicts Mary Magdalene going directly to Simon Peter and the beloved disciple in Jerusalem to report that Jesus’s body was missing, prompting their journey to the tomb; both also belonged to Jesus’s immediate follower milieu. **Reported fact** in a late-first-century Gospel, not independently documented as a specific conversation. [John 20:1–8](https://www.biblegateway.com/passage/?search=John+20%3A1-8&version=NRSVUE)
+
+### Simon Magus
+
+- **[T5]** Acts 8:14–24 places Peter and Simon together in Samaria, where Simon offers money for the apostles’ power and Peter condemns him. **Reported fact** from Acts, without independent contemporary corroboration. Their later Roman miracle contest is **myth**, first elaborated in apocryphal literature rather than established by the Acts encounter. [Acts 8](https://search.biblegateway.com/passage/?search=Acts+8&version=NRSVUE)
+
+### Tertullian
+
+- **[T1+]** Around 200 CE, Tertullian wrote about Peter’s dispute with Paul, apostolic authority, connection with Rome, and death “like” the Lord’s in works including *Prescription Against Heretics*. Peter is therefore the earlier, written-about figure. **Documented fact** that Tertullian wrote these passages; his notice of Peter’s Roman crucifixion is a **reported fact** deriving from later Christian tradition. [*Prescription Against Heretics*](https://www.newadvent.org/fathers/0311.htm)
+
+### Origen of Alexandria
+
+- **[T1+]** In the third century, Origen wrote that Peter preached to the circumcised and was crucified head downward at Rome; the relevant passage from his lost commentary is transmitted by Eusebius in *Church History* 3.1. Peter is the earlier, written-about figure. The textual transmission is a **documented fact**; the head-downward crucifixion itself remains a **reported fact** based on late tradition. [Eusebius, *Church History* 3](https://www.newadvent.org/fathers/250103.htm)
+
+### Augustine of Hippo
+
+- **[T1+]** Augustine repeatedly interpreted Peter in sermons and theological works, including a sermon on Matthew 14 in which Peter’s faltering on the water and confession symbolize the Church. Composed in North Africa around the late fourth or early fifth century, this is a **documented fact** and makes Peter the earlier, written-about figure. [Augustine, Sermon 26](https://www.newadvent.org/fathers/160326.htm)
+
+### Dante Alighieri
+
+- **[T1+]** Dante made Peter a speaking character in *Paradiso* 24 and 27, composed in the early fourteenth century: Peter examines Dante on faith and denounces corruption in the papacy. Peter is the earlier, written-about figure. **Documented fact**; the encounter inside the poem is literary fiction, not a claimed historical meeting. [University of Texas, “Peter: Fixed Stars, Paradiso 24”](https://danteworlds.laits.utexas.edu/textpopup/par2401.html)
+
+### Martin Luther
+
+- **[T1+]** Luther preached an exposition of the First Epistle of Peter at Wittenberg in 1522; Caspar Cruciger recorded it and published it in 1523 as *The First Epistle of St. Peter, Preached and Explained*. Because the exposition treats the apostle and a work traditionally attributed to him, Peter is the earlier, written-about figure. **Documented fact**; Luther’s acceptance or interpretation of Petrine authorship is not independent evidence that Peter composed the epistle. [Luther’s exposition of 1 Peter](https://www.martinluther.dk/1pet1.html)
+
+### Constantine the Great
+
+- **[T9+]** In the fourth century Constantine constructed the first monumental basilica around the Vatican memorial then revered as Peter’s tomb, physically enclosing the earlier “Trophy of Gaius.” Peter is the earlier/originating party in this site connection; Constantine is the later monumentalizer. Constantine’s building project and its orientation around the memorial are **documented facts**; identification of the underlying grave as Peter’s actual burial place is a **reported fact** grounded in ancient Roman Christian tradition, not a forensic certainty. [St. Peter’s Basilica, “The Tomb of Saint Peter”](https://www.basilicasanpietro.va/en/san-pietro/the-tomb-of-saint-peter)
+
+### Michelangelo
+
+- **[T9+]** Between 1546 and his death in 1564, Michelangelo reshaped the new St. Peter’s Basilica and designed its dome at the Vatican site traditionally identified with Peter’s burial and already monumentalized in Peter’s name. Peter is the earlier party in this shared-site connection. Michelangelo’s work on the basilica is a **documented fact**; the site’s attribution to Peter remains a **reported fact** rather than a conclusive identification of his remains. [St. Peter’s Basilica, “Who designed Saint Peter’s Basilica?”](https://www.basilicasanpietro.va/en/faq/who-designed-st-peters-basilica)
+
+No defensible personal, textual, prophetic, or shared-object connection was found for the remaining roster members. Mere later devotion to Peter, use of his name, appearance in generic Christian art, or presence in places associated with his cult was not counted without a specific documented crossing.
+
 ## Sources
 
 https://www.biblegateway.com/passage/?search=Galatians+1-2&version=NRSVUE

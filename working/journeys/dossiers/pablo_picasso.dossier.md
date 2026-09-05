@@ -619,6 +619,70 @@ His reputation now operates as a dual archive: one of extraordinary formal inven
 | 1992 | Picasso archives enter French national collections/Musée Picasso custody. |
 | 2023 | Fiftieth-anniversary reassessments; Claude dies; Paloma becomes estate administrator. |
 
+## Atlas Connections
+
+### Albert Camus
+
+- **[T3]** **Documented fact:** Camus directed the private reading of Picasso’s play *Le Désir attrapé par la queue* in Michel and Louise Leiris’s Paris apartment on 19 March 1944. Picasso attended; both were subsequently photographed with the participants in Picasso’s studio at 7 rue des Grands-Augustins on 16 June 1944. [Bibliothèque nationale de France](https://expositions.bnf.fr/sartre/grand/099.htm)
+
+### André Breton
+
+- **[T5]** **Documented fact:** Picasso and Breton met in Guillaume Apollinaire’s apartment on 8 November 1918, the day before Apollinaire died, and thereafter remained personally associated. The Musée Picasso describes Breton as a close friend and sustained defender of Picasso. [Musée national Picasso–Paris](https://www.museepicassoparis.fr/en/picasso-biography/surrealism/)
+- **[T3]** **Documented fact:** Breton repeatedly wrote about and promoted Picasso, while Picasso drew Breton’s portrait in 1923 for *Clair de terre*. Breton also advised Jacques Doucet to acquire *Les Demoiselles d’Avignon* in 1924. Their surviving correspondence further documents the relationship. [Musée national Picasso–Paris](https://www.museepicassoparis.fr/fr/biographie-picasso/picasso-surrealisme/)
+
+### Coco Chanel
+
+- **[T5]** **Documented fact:** Picasso and Gabrielle “Coco” Chanel first met in Paris in spring 1917, probably through Jean Cocteau or Misia Sert. Chanel subsequently socialized with Picasso and Olga Khokhlova and maintained a long friendship with Picasso. [Museo Nacional Thyssen-Bornemisza](https://www.museothyssen.org/en/exhibitions/picasso-chanel)
+- **[T3]** **Documented fact:** They worked on two Cocteau theatrical productions: *Antigone* at the Théâtre de l’Atelier in 1922, for which Picasso supplied sets and masks and Chanel the costumes, and Diaghilev’s Ballets Russes production *Le Train Bleu* in 1924, for which Picasso supplied the front curtain and program while Chanel designed costumes. [Museo Nacional Thyssen-Bornemisza](https://www.museothyssen.org/en/exhibitions/picasso-chanel)
+
+### Diego Rivera
+
+- **[T5]** **Documented fact:** Picasso and Rivera met in Paris in 1914. Contemporary recollection preserved in MoMA’s Rivera documentation reports that Picasso sent word that Rivera should visit him—or Picasso would go uninvited to Rivera’s studio. Their initially close Cubist-period association later deteriorated into rivalry and estrangement. [Museum of Modern Art](https://assets.moma.org/documents/moma_catalogue_1979_300369443.pdf)
+- **[T3]** **Documented fact:** Their relationship included direct artistic exchange and later correspondence; Picasso also wrote to Rivera praising Frida Kahlo’s portraiture. The two artists’ sustained engagement has been reconstructed from paintings, letters, and biographical records. [LACMA](https://www-images.lacma.org/s3fs-public/module-uploads/E4E_Picasso-Rivera_Consolidated.pdf)
+
+### Erik Satie
+
+- **[T3]** **Documented fact:** Picasso collaborated with Satie on the Ballets Russes production *Parade*, premiered at Paris’s Théâtre du Châtelet on 18 May 1917: Picasso designed the curtain, scenery, and costumes, while Satie composed the score. The production brought both men into the same working circle around Cocteau, Diaghilev, and Massine. [Musée national Picasso–Paris](https://www.museepicassoparis.fr/fr/biographie-picasso/ballets-russes/)
+
+### Frida Kahlo
+
+- **[T5]** **Documented fact:** Kahlo met Picasso during her 1939 stay in Paris associated with André Breton’s *Mexique* exhibition. The encounter belongs to a documented Paris network rather than a long-term close friendship.
+- **[T3]** **Documented fact:** Picasso sent Kahlo written congratulations on her painting; his surviving letter to Diego Rivera famously praised her ability to paint heads. The Museo Frida Kahlo records Picasso among the established artists who congratulated her. [Museo Frida Kahlo](https://www.museofridakahlo.org.mx/frida/?lang=en)
+
+### Igor Stravinsky
+
+- **[T5]** **Documented fact:** Picasso and Stravinsky formed a lasting friendship after Picasso entered the Ballets Russes circle in 1917. Picasso made several drawings of the composer, including the well-known 1920 portrait.
+- **[T3]** **Documented fact:** They collaborated on Diaghilev’s *Pulcinella*, premiered at the Paris Opéra on 15 May 1920: Stravinsky composed the music and Picasso designed the scenery and costumes. Their discussions about the project began within the Ballets Russes milieu in Italy. [Musée national Picasso–Paris](https://cep.museepicassoparis.fr/parcours-thematiques/picasso-et-le-theatre)
+
+### Jacques Lacan
+
+- **[T5]** **Documented fact:** Lacan and Picasso were present together in the occupied-Paris intellectual circle surrounding the 1944 reading of *Le Désir attrapé par la queue*. A dated Brassaï photograph records both men with Camus, Sartre, Beauvoir, and other participants in Picasso’s rue des Grands-Augustins studio on 16 June 1944. This establishes personal proximity and meeting, but not a close friendship. [Musée national Picasso–Paris](https://cep.museepicassoparis.fr/explorer/jacques-lacan-cecile-eluard-pierre-reverdy-louise-leiris-zanie-campan-mp2011-6-10)
+
+### Jean-Paul Sartre
+
+- **[T3]** **Documented fact:** Sartre read the role of *Le Bout rond* in the private 19 March 1944 presentation of Picasso’s *Le Désir attrapé par la queue*, directed by Camus. Picasso attended, and Sartre later joined the cast and author for the documented 16 June photograph in Picasso’s studio. [Bibliothèque nationale de France](https://expositions.bnf.fr/sartre/grand/099.htm)
+
+### Pablo Picasso
+
+- No self-connection is recorded; the roster entry names the dossier’s subject rather than a separate counterpart.
+
+### Paul Klee
+
+- **[T5]** **Documented fact:** Picasso visited Klee in Bern in mid-October 1937 during a trip to Switzerland. Museum chronologies record the encounter; it followed Klee’s sustained engagement with Picasso’s work after the 1932 Zurich retrospective. [Centre Pompidou chronology](https://www.centrepompidou.fr/media/document/39/fc/39fc5e4bc46e30718672d1b811e8a113/normal.pdf)
+
+### Salvador Dalí
+
+- **[T5]** **Documented fact:** Dalí visited Picasso’s Paris studio in 1926 and showed him his painting *Girl from Figueres*. The meeting was an important early encounter for Dalí, who studied Picasso’s recent work during the visit; their later relationship combined admiration, Surrealist association, political estrangement, and rivalry. [Fundació Gala–Salvador Dalí](https://www.salvador-dali.org/media/upload/pdf/memoria2004_ang_fr_editora_60_118_2.pdf)
+
+### Sergei Diaghilev
+
+- **[T5]** **Documented fact:** Picasso joined Diaghilev’s Ballets Russes enterprise in Rome in 1917 and entered its professional and social circle, where he also met his future wife Olga Khokhlova.
+- **[T3]** **Documented fact:** Under Diaghilev’s direction Picasso designed for *Parade* (1917), *Le Tricorne* (1919), *Pulcinella* (1920), *Cuadro flamenco* (1921), and *Le Train Bleu* (1924). These were direct theatrical collaborations, although authorship was divided among impresario, composers, choreographers, writers, performers, and designers. [Musée national Picasso–Paris](https://www.museepicassoparis.fr/fr/biographie-picasso/ballets-russes/)
+
+### Simone de Beauvoir
+
+- **[T3]** **Documented fact:** Beauvoir read the role of *La Cousine* in the private 19 March 1944 presentation of Picasso’s *Le Désir attrapé par la queue*. Picasso inscribed a manuscript or facsimile copy to her with that date, and both appear in the documented 16 June gathering photographed in his studio. [Bibliothèque nationale de France](https://expositions.bnf.fr/sartre/grand/099.htm)
+
 ## Sources
 
 https://www.museepicassoparis.fr/en/picasso-biography/timeline/

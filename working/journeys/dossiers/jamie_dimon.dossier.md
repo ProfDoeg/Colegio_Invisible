@@ -881,6 +881,61 @@ To supporters he represents competent American capitalism, candor, preparedness,
 | **Jul 2026** | New Epstein/Mandelson bonus-tax documents prompt Warren inquiry; no adjudication of Dimon’s knowledge. |
 | **20 Aug 2026** | Alive and serving as JPMorgan chairman and CEO; Forbes estimate $3.2 billion net worth. |
 
+## Atlas Connections
+
+### Abraham Lincoln
+
+- **[T1-] Documented fact:** In his letter accompanying JPMorgan Chase’s 2024 annual report, published 7 April 2025, Dimon named Abraham Lincoln among the American leaders whose example demonstrated the country’s ability to confront major crises. This is a brief written historical invocation, not a substantive study of Lincoln. [JPMorgan Chase 2024 annual letter](https://www.jpmorganchase.com/ir/annual-report/2024/ar-ceo-letters)
+
+### Adam Smith
+
+- **[T1-] Documented fact:** Dimon’s 2020 shareholder letter, published in 2021, explicitly invoked Adam Smith’s “invisible hand” while arguing that capitalism’s movement of capital and human talent promotes information exchange and innovation, subject to laws and regulation. [JPMorgan Chase 2020 annual letter](https://reports.jpmorganchase.com/investor-relations/2020/ar-ceo-letters.htm?stream=top)
+
+### Benjamin Netanyahu
+
+- **[T5] Reported fact:** During a two-day visit to Israel in July 2017, Dimon met Prime Minister Benjamin Netanyahu and members of his staff. Reporting placed the meeting at the beginning of Dimon’s visit and said they discussed Israel’s economy and possible expansion of JPMorgan’s activity there. [CTech report](https://www.calcalistech.com/ctech/articles/0%2C7340%2CL-3716663%2C00.html)
+
+### Bill Gates
+
+- **[T5] Documented fact:** Dimon and Gates were principals in the employer-health venture Haven, announced in January 2018 by JPMorgan Chase, Berkshire Hathaway, and Amazon. Gates was not one of the three corporate sponsors in his personal capacity, but subsequent reporting and World Economic Forum records place Gates and Dimon in the same senior business-policy milieu; more importantly, Epstein-litigation pleadings alleged that Jeffrey Epstein helped Jes Staley arrange an earlier Dimon–Gates meeting between 2009 and 2011. The Haven relationship is documented institutionally; Epstein’s claimed brokerage of the earlier meeting remains an allegation rather than an adjudicated fact. [Haven closure background](https://www.bankingdive.com/news/jpmorgan-amazon-berkshire-hathaway-shutter-haven-healthcare-3-years/592796/), [litigation pleading](https://wallstreetonparade.com/wp-content/uploads/2023/07/CITY-OF-MIAMI-GENERAL-et-al-v-James-Dimon-et-al-JPMorgan-Chase-Amended-Complaint-June-30-2023.pdf)
+
+### David Rockefeller
+
+- **[T9-] Documented fact:** Rockefeller led Chase Manhattan Bank from 1969 to 1981 and remained chairman until 1981; Dimon later became chairman and CEO of JPMorgan Chase, the corporate descendant formed after Chase Manhattan’s 2000 combination with J.P. Morgan and its 2004 merger with Dimon’s Bank One. Their connection is therefore the inherited Chase institution and corporate lineage, not proof of friendship or joint tenure. [JPMorgan Chase corporate history](https://www.jpmorganchase.com/about/our-history), [Dimon’s account of the corporate lineage](https://www.jpmorganchase.com/ir/annual-report/2023/ar-ceo-letters)
+
+### Elon Musk
+
+- **[T5] Documented fact:** After years of tension and litigation between JPMorgan and Tesla, Musk attended a JPMorgan conference in 2024 and had what Dimon described as a long conversation with him. In January 2025 Dimon said that the two had “hugged it out”; the companies had dismissed their competing lawsuits in November 2024. [Reuters report](https://www.investing.com/news/stock-market-news/jpmorgan-chief-dimon-praises-former-adversary-elon-musk-cnbc-reports-3824444)
+
+### George W. Bush
+
+- **[T4] Documented fact:** During the 2008 financial crisis, Dimon participated in Washington meetings convened by the Bush administration with major financial-institution CEOs, Treasury officials, Federal Reserve chairman Ben Bernanke, and FDIC chair Sheila Bair. Government calendar records establish Dimon’s presence in the administration’s crisis-meeting milieu, although the retrieved record does not establish a private one-to-one Bush–Dimon session. [U.S. Treasury October 2008 calendar](https://home.treasury.gov/system/files/236/Oct-2008.pdf)
+
+### J. P. Morgan
+
+- **[T1-] Documented fact:** Dimon has written repeatedly about J. Pierpont Morgan’s firm and its place in the lineage of the modern JPMorgan Chase, including in his 2023 shareholder letter’s history of the Bank One–JPMorgan merger. His treatment is institutional and historical rather than biographical. [JPMorgan Chase 2023 annual letter](https://www.jpmorganchase.com/ir/annual-report/2023/ar-ceo-letters)
+- **[T9-] Documented fact:** The shared object is the banking institution and name: Morgan’s partnership evolved into J.P. Morgan & Co., which merged with Chase Manhattan in 2000; Dimon became CEO of the resulting JPMorgan Chase in 2006 and chairman in 2007. Morgan preceded and helped originate the institutional lineage that Dimon later inherited and led. [JPMorgan Chase corporate history](https://www.jpmorganchase.com/about/our-history)
+
+### Javier Milei
+
+- **[T5] Documented fact:** Dimon met privately with Argentine president Javier Milei in Buenos Aires on 24 October 2025, during a JPMorgan visit surrounding meetings of the bank’s international council. Dimon subsequently confirmed the meeting while discussing Argentina’s economic reforms. [Reuters photograph and caption](https://www.reutersconnect.com/item/argentine-president-javier-milei-holds-a-private-meeting-with-jpmorgan-chase-ceo-jamie-dimon-in-buenos-aires/dGFnOnJldXRlcnMuY29tLDIwMjU6bmV3c21sX1JDMktJSEFOTVc4UQ), [Reuters follow-up](https://www.tradingview.com/news/reuters.com%2C2025%3Anewsml_L1N3WI115%3A0-jpmorgan-ceo-says-argentina-may-not-need-bank-loan-fed-will-likely-remain-independent/)
+
+### Jeffrey Epstein
+
+- **No qualifying connection established:** Epstein was a JPMorgan client and communicated extensively with Jes Staley, but Dimon testified that he never met Epstein and did not recall hearing his name before 2019. Staley’s conflicting assertion that he informed Dimon about Epstein in 2006 was never adjudicated. Corporate banking, disputed knowledge, and an alleged intermediary role do not by themselves establish T3, T4, T5, or T9 between Dimon and Epstein. [Reuters account of the litigation](https://www.reuters.com/legal/jpmorgan-ignored-epsteins-nymphettes-us-virgin-islands-says-2023-07-25/), [Guardian deposition report](https://www.theguardian.com/us-news/2023/jun/01/jeffrey-epstein-lawsuit-jp-morgan-ceo)
+
+### Klaus Schwab
+
+- **[T5] Documented fact:** Dimon and World Economic Forum founder Klaus Schwab appeared together at the forum’s annual meeting in Davos in January 2008. The official transcript records Schwab introducing the session and Dimon directly thanking and addressing him, establishing an in-person encounter rather than merely parallel attendance. [U.S. State Department transcript](https://2001-2009.state.gov/secretary/rm/2008/01/99627.htm)
+
+### Larry Fink
+
+- **[T4] Documented fact:** Dimon and BlackRock chairman Larry Fink attended the inaugural U.S. Partnership for Global Infrastructure and Investment investor forum hosted by Secretaries Antony Blinken and Janet Yellen in New York on 21 September 2023. The official attendee list establishes shared participation in the same meeting but does not, by itself, prove a separate personal discussion. [U.S. State Department event record](https://2021-2025.state.gov/secretary-blinken-and-secretary-yellen-host-the-inaugural-u-s-partnership-for-global-infrastructure-and-investment-pgi-investor-forum-with-special-guest-world-bank-president-ajay-banga/)
+
+### Volodymyr Zelenskyy
+
+- **[T5] Documented fact:** Dimon participated in Zelenskyy’s “CEOs for Ukraine” meeting on the sidelines of the World Economic Forum in Davos on 16 January 2024. Contemporary coverage reported that Zelenskyy spoke with Dimon and other major investors about Ukraine’s economy, reconstruction, and investment. [Bloomberg event report](https://www.youtube.com/watch?v=QKnPjJBEis4)
+
 ## Sources
 
 https://www.jpmorganchase.com/about/leadership/jamie-dimon

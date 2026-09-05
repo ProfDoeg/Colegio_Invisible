@@ -1383,6 +1383,37 @@ No one of these labels contains the complete documentary record. The major moder
 
 ---
 
+## Atlas Connections
+
+### Abraham Lincoln
+
+- **[T1+]** **Documented fact:** Lincoln discussed Brown after Brown’s death in his February 27, 1860, Cooper Union address. He rejected Republican responsibility for Harpers Ferry while warning that suppressing antislavery politics might enlarge rather than diminish the number of “John Browns.” No personal meeting or correspondence between them is documented. [Contemporary text in the Library of Congress](https://tile.loc.gov/storage-services/service/rbc/lprbscsm/scsm0237/scsm0237.pdf)
+
+### George Washington
+
+- **[T9-]** **Documented fact, with disputed provenance:** During the October 1859 raid, Brown’s party seized from Lewis Washington two pistols associated with the Marquis de Lafayette and a ceremonial sword reputedly presented by Frederick the Great to George Washington. Brown carried the sword during the raid, creating an object-mediated connection between Washington and Brown; the sword’s claimed royal provenance is disputed, but its passage through the Washington family and seizure by Brown’s force are documented. [New York State Museum](https://nysm.nysed.gov/about/press/new-york-state-museum-expands-commemoration-americas-250th-anniversary-exhibit)
+
+### Harriet Tubman
+
+- **[T5]** **Documented fact:** Brown and Tubman first met in April 1858 at St. Catharines, Canada West. Brown sought her advice and recruiting assistance for his projected antislavery campaign, called her “General Tubman,” and subsequently remained in contact with her network. [National Park Service](https://www.nps.gov/hafe/learn/historyculture/when-john-brown-met-harriet-tubman.htm)
+- **[T3]** **Documented fact:** On April 8, 1858, immediately after meeting Tubman, Brown wrote to John Brown Jr. describing her enthusiastic support and praising her abilities. This is a surviving one-sided written engagement concerning a living counterpart, distinct from their personal meeting. [St. Catharines Museum](https://stcatharinesmuseumblog.com/2021/02/13/general-tubman-st-catharines-1858-part-ii/)
+- **[T2- prediction]** **Reported fact / visionary tradition:** In a later-recorded account, Tubman said that before meeting Brown she repeatedly dreamed of a bearded older man and two younger men being struck down; after meeting Brown, she identified the figures with Brown and two of his sons. Because the account was recorded retrospectively and no causal mechanism is alleged, it is a retrofitted prediction rather than documented foreknowledge. [National Park Service](https://www.nps.gov/hafe/learn/historyculture/when-john-brown-met-harriet-tubman.htm)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Brown invoked Jesus Christ explicitly in his prison correspondence. In a November 22, 1859, letter to his older children, for example, he urged them to trust in God “and Jesus Christ whom he hath sent.” This is documentary evidence of Brown writing about and appealing to the earlier religious figure, not evidence of any visionary or supernatural encounter. [Transcription of the letter](https://civilwarnotebook.blogspot.com/2018/09/john-brown-to-his-older-children.html)
+
+### Karl Marx
+
+- **[T1+]** **Documented fact:** Writing to Friedrich Engels from London on January 11, 1860, Marx identified the American movement of enslaved people “started by the death of John Brown” as one of the world’s most momentous contemporary developments. The connection is posthumous intellectual commentary; no meeting or correspondence between Brown and Marx is documented. [Marx–Engels correspondence](https://www.marxists.org/archive/marx/works/download/Marx_Engels_Correspondence.pdf)
+
+### Victor Hugo
+
+- **[T3]** **Documented fact:** From exile on Guernsey, Hugo issued an open appeal concerning Brown’s prosecution and impending execution in late 1859. Although not private correspondence with Brown, it was a direct, one-sided written intervention addressed to Brown’s case while Brown was alive, urging clemency and warning about the political consequences of execution. No personal meeting is documented. [Library of Congress copy](https://tile.loc.gov/storage-services/service/rbc/lcrbmrp/t1302/t1302.pdf)
+- **[T1+]** **Documented fact:** After Brown’s execution, Hugo continued writing about him and authorized publication of his own image of the hanged Brown, helping establish Brown’s international martyr iconography. This later commentary constitutes writing about a past figure. [Victor Hugo correspondence](https://fr.wikisource.org/wiki/Correspondance_de_Victor_Hugo/1861)
+
+No other roster crossing was included solely on the basis of contemporaneity, thematic resemblance, shared geography, later comparison, or unsupported tradition.
+
 ## Sources
 
 https://www.nps.gov/people/john-brown.htm

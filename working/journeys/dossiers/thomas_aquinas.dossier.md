@@ -542,6 +542,63 @@ Thomas’s Aristotelian physics was superseded, but his analyses of causation, e
 6. Thomas’s authorization of coercion against convicted heretics, capital punishment, patriarchal hierarchy, sexual prohibitions, and legal slavery must be recorded alongside his limits on forced baptism, tyranny, property, war, and private violence.
 7. Posthumous “Thomism” is plural and sometimes projects later ecclesiastical uniformity back onto a thinker contested in his own universities.
 
+## Atlas Connections
+
+### Albertus Magnus
+
+- **[T5]** **Documented fact:** Albert taught Thomas in Paris and Cologne (c. 1245–52), selected him in 1252 for advanced theological study at Paris, and remained his principal identifiable teacher and early advocate. Their personal association is securely documented, although the polished “dumb ox” prophecy belongs to later biographical tradition. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/aquinas/)
+
+### Apostle Paul
+
+- **[T1-]** **Documented fact:** Thomas lectured and wrote extensively about Paul through his commentaries on the Pauline epistles, produced in more than one recension during his teaching career. Some surviving texts are reportations rather than autographs, but the Pauline commentary corpus is accepted as substantially authentic. [Corpus Thomisticum works catalogue](https://www.corpusthomisticum.org/iopera.html?level=1)
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Thomas wrote close expository commentaries on numerous Aristotelian works—including the *Physics*, *Metaphysics*, *Nicomachean Ethics*, *De anima*, *Politics*, *Posterior Analytics*, and *De interpretatione*—principally during the 1260s and early 1270s. These writings critically interpret rather than simply reproduce Aristotle. [Corpus Thomisticum](https://www.corpusthomisticum.org/iopera.html?level=1), [Leonine and other critical editions](https://www.corpusthomisticum.org/reoptedi.html)
+
+### Augustine of Hippo
+
+- **[T1-]** **Documented fact:** Thomas repeatedly discussed, interpreted, and sometimes reconciled Augustine’s positions with Aristotelian philosophy throughout the *Summa theologiae*, disputed questions, biblical works, and other writings. Augustine was one of his most frequently invoked Christian authorities; Thomas’s use of him was substantive but not invariably identical with Augustine’s original context. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/medieval-literary/)
+
+### Giordano Bruno
+
+- **[T1+]** **Documented fact:** Bruno studied and wrote about Thomas, whom he acknowledged as a major intellectual influence and praised in *De monade* despite rejecting important features of scholastic Aristotelianism. Bruno’s engagement therefore cannot be reduced to simple hostility toward Aquinas. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/bruno/)
+- **[T9+]** **Documented fact:** Thomas taught and lived at the Dominican complex of San Domenico Maggiore in Naples in 1272–74; Bruno entered that same convent as a novice in 1565, where Thomist theology formed part of his education. They never shared occupancy, making the convent an institutional-site connector rather than evidence of personal contact. [Internet Encyclopedia of Philosophy](https://iep.utm.edu/giordano-bruno/)
+
+### Dante Alighieri
+
+- **[T1+]** **Documented fact:** Dante made Thomas a named speaker and authoritative guide in *Paradiso* X–XIII, composed decades after Thomas’s death; the character identifies himself as “Thomas of Aquino” and presents the circle of theologians and philosophers in the sphere of the Sun. Dante also associated Charles of Anjou with Thomas’s death in *Purgatorio* XX, but the implied poisoning is a **rumor or myth**, not corroborated biography. [Dante, *Paradiso* X](https://www.gutenberg.org/files/1003/1003-h/1003-h.htm), [Dante Lab, *Purgatorio* XX](https://dantelab.dartmouth.edu/reader?reader%5Bcantica%5D=2&reader%5Bcanto%5D=20)
+
+### James Joyce
+
+- **[T1+]** **Documented fact:** Joyce explicitly discussed and creatively reworked Aquinas’s aesthetics and epistemology, most conspicuously through Stephen Dedalus in *A Portrait of the Artist as a Young Man* and related writings. Scholarship describes Aristotle and Aquinas as pervasive presences in Joyce’s work, while emphasizing that Joyce adapted rather than merely repeated Thomistic categories. [Oxford Academic](https://academic.oup.com/florida-scholarship-online/book/44415), [University Press of Florida](https://floridapress.org/9780813069265/joyce-aristotle-and-aquinas/)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Jesus Christ is the direct subject of Thomas’s mature Christology, especially Part III of the *Summa theologiae*, as well as his Gospel commentaries and the patristic *Catena aurea*. This is a textual-theological connection only; it does not imply historical contemporaneity. [Corpus Thomisticum works catalogue](https://www.corpusthomisticum.org/iopera.html?level=1)
+
+### Carl Gustav Jung
+
+- **[T1+]** **Documented fact:** Jung incorporated the alchemical *Aurora consurgens*, then attributed to Thomas, into his psychological study of alchemy and arranged for Marie-Louise von Franz to edit and comment upon it as a companion volume to *Mysterium Coniunctionis*. The engagement is real, but its premise is an **allegation or theory**: modern catalogues generally classify the *Aurora* as Pseudo-Aquinas rather than an authentic work by Thomas. [Durham University thesis repository](https://etheses.durham.ac.uk/id/eprint/14918/1/UNIO_MYSTICA_AND_THE_AURORA_CONSURGENS_%28CORRECTED%29.pdf), [Aurora Consurgens project](https://auroraconsurgens.org/about/)
+
+### Maimonides
+
+- **[T1-]** **Documented fact:** Thomas repeatedly engaged Maimonides—normally called “Rabbi Moses”—and showed substantial familiarity with the Latin *Guide of the Perplexed*. He used and disputed Maimonidean arguments concerning divine attributes, creation, providence, prophecy, and scriptural interpretation; there could have been no personal meeting because Maimonides died before Thomas was born. [Library of Congress description of the *Guide*](https://www.loc.gov/item/2021667527/), [Stanford Encyclopedia of Philosophy on Aquinas](https://plato.stanford.edu/entries/aquinas/)
+
+### Martin Luther
+
+- **[T1+]** **Documented fact:** Luther wrote against the scholastic theological tradition represented by Aquinas and explicitly contrasted Thomists with the evangelical theology he advocated. The connection is polemical reception rather than personal contact, and Luther’s familiarity with Thomas was partly mediated through later scholastic schools. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/aquinas/), [Oxford Research Encyclopedia of Religion](https://academic.oup.com/edited-volume/62249/chapter-abstract/551370303)
+
+### Origen of Alexandria
+
+- **[T1-]** **Documented fact:** Thomas quoted and evaluated Origen repeatedly, especially through patristic collections and in the *Catena aurea*. The textual connection is secure, although Thomas frequently encountered Origen through Latin translations or excerpt traditions rather than by direct access to complete Greek texts. [Corpus Thomisticum works catalogue](https://www.corpusthomisticum.org/iopera.html?level=1)
+
+### Plato
+
+- **[T1-]** **Documented fact:** Thomas discussed doctrines attributed to Plato and the “Platonists” throughout his metaphysical, psychological, and theological writings, usually through Aristotle, Augustine, patristic authorities, and late-antique intermediaries rather than direct access to most Platonic dialogues. Accordingly, this is documented written engagement but often with a mediated historical Plato. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/aquinas/)
+
+No reliable evidence supports personal meetings with other roster members. Mere chronological overlap, shared Dominican affiliation, general intellectual resemblance, or presence in the same city at different times has not been counted without a more specific documentary, textual, or site-based link.
+
 ## Sources
 
 https://plato.stanford.edu/entries/aquinas/

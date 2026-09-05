@@ -757,6 +757,79 @@ The durable legacy will therefore include not only what he wrote but what was at
 | Early 2026 | Public dispute with Javier Milei's government over AI-controlled companies; further WEF appearances. |
 | 20 Aug 2026 | Living, aged 50; active author, speaker, Sapienship co-founder, academic affiliate, and AI-safety director. |
 
+## Atlas Connections
+
+### Adam Smith
+
+- **[T1-] Documented fact:** Harari discusses Smith’s *The Wealth of Nations* and presents his 1776 argument that reinvested profit can enlarge the economy as a foundational ethical as well as economic shift in modern capitalism. The treatment appears in Chapter 16 of *Sapiens* and in Harari’s later discussion of the book. [Harari’s official excerpt](https://www.ynharari.com/topic/money-and-politics/), [EconTalk transcript](https://www.econtalk.org/yuval-harari-on-sapiens/)
+
+### Charles Darwin
+
+- **[T1-] Documented fact:** In *Sapiens*, Harari writes about Darwin’s theory of evolution, the reaction to treating *Homo sapiens* as another animal species, and the *Beagle* expedition’s relationship to imperial science. An authorized excerpt from the book also invokes Darwin while arguing that modern scientific research depends on political, economic, or ideological sponsorship. [Authorized *Sapiens* excerpt](https://www.salon.com/2015/02/16/the_myth_of_pure_science_its_all_about_political_economic_religious_interests/)
+
+### Christopher Columbus
+
+- **[T1-] Documented fact:** Harari treats Columbus’s 1492 voyage in *Sapiens* as an emblem of the emerging European willingness to acknowledge ignorance and explore unknown territory, while also placing the voyages within imperial conquest. Harari’s official chapter references cite scholarship specifically concerning Columbus and the conquest of the Americas. [Official *Sapiens* references](https://www.ynharari.com/sapiens-references/)
+
+### George Orwell
+
+- **[T1-] Documented fact:** Harari invokes Orwell’s formulation “ignorance is strength” in *Nexus* and uses *1984* as an important literary model for understanding totalitarian information systems, manufactured history, and surveillance. The connection is textual, not personal. [Review documenting the Orwell discussion](https://elpais.com/babelia/2024-09-13/nexus-de-yuval-noah-harari-un-mundo-ahogado-en-informacion.html)
+
+### Isaac Newton
+
+- **[T1-] Documented fact:** Harari discusses Newton and the *Principia* when comparing truth-producing scientific works with socially binding religious narratives; *Nexus* argues provocatively that a text can exercise greater historical power without being more empirically accurate. Newton also appears in the book’s supporting notes. [Review of *Nexus*](https://elpais.com/babelia/2024-09-13/nexus-de-yuval-noah-harari-un-mundo-ahogado-en-informacion.html), [official *Nexus* notes](https://www.ynharari.com/wp-content/uploads/2024/11/Notes-NEXUS-Yuval-Noah-Harari-September-2024.pdf)
+
+### Jesus of Nazareth
+
+- **[T1-] Documented fact:** Harari writes about Jesus as a historical and religious figure in *Sapiens*, including Christianity’s growth from a small Jewish movement into a universal religion and the role of Christian narratives in large-scale cooperation. An authorized excerpt groups Jesus with Muhammad, Buddha, and Confucius when contrasting premodern sacred authority with modern belief in progress. [Authorized *Sapiens* excerpt](https://www.salon.com/2015/02/16/the_myth_of_pure_science_its_all_about_political_economic_religious_interests/)
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Harari repeatedly engages Marx’s analysis of religion, class, capitalism, and historical change in *Sapiens*, *Homo Deus*, and later lectures. In *Homo Deus* he calls Marx’s mid-nineteenth-century economic insights brilliant while using Marx as an example of how knowledge can alter the system it describes. [Authorized *Homo Deus* extract](https://arkisto.sitra.fi/en/news/yuval-noah-harari-better-understand-happening-make-minds-makes-minds-us/)
+
+### Muhammad
+
+- **[T1-] Documented fact:** Harari writes about Muhammad and the development of Islam in his broad histories of religion and empire. An authorized *Sapiens* excerpt expressly names Muhammad among the premodern religious authorities whose inability to abolish famine, disease, poverty, and war contrasts with modern confidence in scientific progress. [Authorized *Sapiens* excerpt](https://www.salon.com/2015/02/16/the_myth_of_pure_science-its-all-about-political-economic-religious-interests/)
+
+### Noah
+
+- **[T1-] Documented fact:** Harari uses the biblical Noah and the flood narrative in *Nexus* as an example of a story whose cultural and organizational power cannot be reduced to its empirical accuracy. Contemporary review coverage describes the book as moving directly between Noah’s Ark, mythology, and present-day artificial intelligence. [Review of *Nexus*](https://elpais.com/babelia/2024-09-13/nexus-de-yuval-noah-harari-un-mundo-ahogado-en-informacion.html)
+
+### Ray Kurzweil
+
+- **[T3] Documented fact:** Harari directly contests Kurzweil’s written technological optimism in *Nexus*, quoting and criticizing the view that expanding information networks naturally promote education, prosperity, health, democratization, and declining violence. No personal meeting between them was established by the consulted evidence. [Review documenting Harari’s engagement with Kurzweil](https://elpais.com/babelia/2024-09-13/nexus-de-yuval-noah-harari-un-mundo-ahogado-en-informacion.html)
+
+### Bill Gates
+
+- **[T3] Documented fact:** Gates publicly reviewed and recommended *Sapiens* in 2016, reporting that he and Melinda Gates had both read it and that it generated extensive family discussion. Gates later reviewed *Homo Deus* and *21 Lessons for the 21st Century*. This establishes sustained written engagement with Harari’s work, but the consulted sources do not establish a personal meeting. [Gates’s 2016 recommendation reported by *Time*](https://time.com/4338995/bill-gates-summer-reading-2016/)
+
+### Benjamin Netanyahu
+
+- **[T5] Reported fact:** Harari and Itzik Yahav attended a dinner with Netanyahu in Israel in 2015. Harari said he exchanged only pleasantries with the prime minister and had “no real exchange”; the evidence therefore supports a personal meeting, but not an advisory relationship or substantive collaboration. [Ian Parker’s reported reconstruction](https://www.newyorker.com/magazine/2020/02/17/yuval-noah-harari-gives-the-really-big-picture)
+- **[T3] Documented fact:** From 2023 onward Harari repeatedly wrote and spoke against Netanyahu’s judicial-overhaul program and later criticized his conduct of the Gaza war. This is documented public political discourse directed at an older contemporary, not evidence of continuing private contact. [Harari’s 2023 article](https://www.theguardian.com/commentisfree/2023/mar/07/benjamin-netanyahu-coup-israeli-judicial-system)
+
+### Elon Musk
+
+- **[T3] Documented fact:** Harari and Musk were both named signatories of the Future of Life Institute’s March 2023 open letter calling for a pause in training AI systems more powerful than GPT-4. The shared document establishes participation in the same written intervention, but not correspondence, friendship, or a personal meeting. Contemporary reporting cautioned that not every submitted signature had initially been independently authenticated. [Open letter](https://futureoflife.org/open-letter/pause-giant-ai-experiments/), [contemporaneous report](https://time.com/6266679/musk-ai-open-letter/)
+
+### Javier Milei
+
+- **[T3] Documented fact:** In June 2026 Harari criticized Argentina’s proposed framework for companies managed by nonhuman AI agents in a *Financial Times* article. Milei and his government answered publicly, disputing Harari’s interpretation and arguing that the proposal retained human accountability. This was a reciprocal written policy dispute; no personal meeting was documented. [Argentine government response](https://www.argentina.gob.ar/noticias/comunicado-oficial-numero-149), [contemporaneous account](https://buenosairesherald.com/business/tech/milei-harari-clash-over-non-human-companies-as-argentina-pushes-ai-legal-framework)
+
+### Klaus Schwab
+
+- **[T4] Documented fact:** Harari and Schwab repeatedly occupied the World Economic Forum’s Davos institutional milieu during Harari’s speaking appearances, including the 2020 meeting. This supports shared-event proximity but not the viral claim that Harari was Schwab’s employee, “top adviser,” or designated successor; WEF’s records describe Harari as an author, academic, speaker, and contributor. [WEF profile](https://www.weforum.org/people/yuval-noah-harari/), [Associated Press fact-check](https://apnews.com/article/fact-check-WEF-klaus-schwab-yuval-harari-218749925894)
+
+### Slavoj Žižek
+
+- **[T3] Documented fact:** Harari and Žižek participated in a recorded public debate, released in 2022, about whether nature should be treated as morally authoritative, humanity’s emerging “post-natural” condition, biotechnology, ideology, and catastrophe. The exchange establishes direct intellectual discourse; the available record does not by itself establish friendship. [Institute of Art and Ideas presentation](https://iai.tv/articles/were-on-the-precipice-of-a-post-nature-world-auid-2146)
+
+### Yoshua Bengio
+
+- **[T4] Documented fact:** Bengio founded the AI-safety nonprofit LawZero, and Harari joined its board of directors in January 2026. They consequently share a documented organizational and governance milieu. Both were also associated with the 2023 Future of Life Institute AI-pause letter, but no separate claim of friendship is warranted from those institutional links alone. [LawZero appointment](https://lawzero.org/en/news/lawzero-appoints-7-global-leaders-including-top-ai-and-business-figures-well-former-head), [LawZero team](https://lawzero.org/en/team)
+
+No reliable T2 prophecy/hyperstition or T9 shared-object transmission involving Harari and a roster member was established. Most roster names were omitted because the available evidence showed no qualifying crossing; mere appearance in the same intellectual tradition, country, conference circuit, bibliography, or historical period was not treated as a connection.
+
 ## Sources
 
 https://www.ynharari.com/about/

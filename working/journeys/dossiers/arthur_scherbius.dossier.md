@@ -599,6 +599,26 @@ No state award, honorary doctorate, named public office, or lifetime decoration 
 | **1939–1945** | Enigma and Allied countermeasures become central to multiple wartime communications and intelligence systems. |
 | **1967 onward** | Publication, declassification, museums, and screen culture turn Enigma into a global symbol of cryptology and computing history. |
 
+## Atlas Connections
+
+No documented personal meeting or correspondence between Scherbius and another roster member was found. The supported crossings are posthumous connections through the Enigma machine and its cryptographic system.
+
+### Marian Rejewski
+
+- **[T9+]** **Documented fact:** Scherbius originated the German Enigma lineage through his 1918 rotor-machine patent and subsequent commercial development. Beginning in October 1932 at the Polish Cipher Bureau in Warsaw, Marian Rejewski analyzed that system, mathematically reconstructed the military Enigma, and developed methods for recovering its settings. The connecting object is therefore the Scherbius-originated Enigma architecture, inherited and reverse-engineered by Rejewski after Scherbius’s death. This does not imply that they met or that Rejewski examined one of Scherbius’s personal prototypes. [German Patent and Trade Mark Office](https://www.dpma.de/english/our_office/publications/milestones/computerpioneers/enigma/index.html); [NSA biography of Rejewski](https://www.nsa.gov/History/Cryptologic-History/Historical-Figures/Historical-Figures-View/Article/1621548/marian-rejewski/)
+
+### Alan Turing
+
+- **[T9+]** **Documented fact:** The Enigma system initiated by Scherbius became the object of Turing’s wartime cryptanalytic work. After joining Britain’s Government Code and Cypher School at Bletchley Park in September 1939, Turing concentrated on German Naval Enigma and helped design the British Bombe using foundations supplied by Polish cryptologists in 1939–1940. This is a posthumous creator–cryptanalyst connection through the evolving Enigma machine family, not evidence of personal contact: Turing was sixteen when Scherbius died in 1929. [GCHQ biography of Turing](https://www.gchq.gov.uk/person/alan-turing); [GCHQ account of the Polish transfer](https://www.gchq.gov.uk/information/the-pyry-forest-meeting)
+
+### Elizebeth Smith Friedman
+
+- **[T9+]** **Documented fact:** During the Second World War, Elizebeth Friedman and her United States Coast Guard/Navy cryptanalytic team solved communications produced by three Enigma variants used by German clandestine networks in the Western Hemisphere. Those later machines belonged to the technological lineage Scherbius had originated, making Enigma the connecting object between them. There was no personal crossing: the work occurred more than a decade after his death. [George C. Marshall Foundation](https://www.marshallfoundation.org/articles-and-features/elizebeth-who/)
+
+### William F. Friedman
+
+- **[T9+]** **Documented fact:** Declassified holdings from William Friedman’s U.S. Army cryptologic work include Scherbius/Securitas cipher-machine patent material, “Enigma Materials for Hand Method Attack” dated 1943–1945, Enigma wiring records, and a 1943 memorandum on solving commercial Enigma. These records document Friedman’s direct technical engagement with the machine family Scherbius originated, again as a posthumous shared-object connection rather than correspondence or a meeting. [NSA’s William F. Friedman patent and equipment records](https://www.nsa.gov/Helpful-Links/NSA-FOIA/Declassification-Transparency-Initiatives/Historical-Releases/Friedman-Documents/Patent-Equipment/)
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd127822089.html

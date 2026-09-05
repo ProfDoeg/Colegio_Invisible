@@ -527,6 +527,40 @@ Her archive also revises the romantic picture of the solitary free dancer. It sh
 - Locate the original 1982 interview recording/transcript and publish a critical edition.
 - Verify the cause of bed confinement and death only through appropriate medical or family records; no diagnosis should be inferred.
 
+## Atlas Connections
+
+### Rudolf Laban
+
+- **[T1-] Documented fact.** Wulff wrote a retrospective account of her former teacher Rudolf von Laban in 1958. Her archive also preserves writings about her 1916–1918 training under Laban and her subsequent cooperation with him. [Deutsches Tanzarchiv Köln](https://faust.sk-kultur.de/hzeig.FAU?desk=%2300000190%23&dm=1&thes=4)
+- **[T3] Documented fact.** Their surviving correspondence extends from Wulff’s letters of 1916 and 1924 through Laban’s letters to her dated 1916–1957. [Deutsches Tanzarchiv Köln](https://faust.sk-kultur.de/hzeig.FAU?desk=%2300000190%23&dm=1&thes=4)
+- **[T5] Documented fact.** Wulff attended Laban’s 1914 summer course near Ascona and entered his Zürich Schule für Bewegungskunst in 1916. A 1914 photograph shows Wulff and Laban together with members of the group beside Lago Maggiore. [Arp Museum exhibition catalogue](https://collezionemolinario.com/media/downloads/publications/Arp_Museum_Bahnhof_Rolandseck_-_DER_DIE_DADA.pdf)
+
+### Mary Wigman
+
+- **[T3] Documented fact.** Wulff wrote to Wigman in 1916, while Wigman’s surviving letters to Wulff span 1915–1954. The archive also contains material concerning Wigman’s 1917 Zürich performance in *Tanz und Melodie im Wort*. [Deutsches Tanzarchiv Köln](https://faust.sk-kultur.de/hzeig.FAU?desk=%2300000190%23&dm=1&thes=4)
+- **[T5] Documented fact.** Wigman taught Wulff in the Laban circle at Monte Verità and Zürich; Wulff studied dance pedagogy under Laban and Wigman in Zürich from 1916 to 1918/19. Her later recollections also place Wigman at shared Zürich gatherings with Laban, Sophie Taeuber-Arp, and Arp. [The Dancers Act](https://thedancersact.ch/katja-wulff/), [Dada exhibition catalogue](https://hesse-auktionen.de/wp-content/uploads/archiv/cat-16-02.pdf)
+
+### Suzanne Perrottet
+
+- **[T5] Documented fact.** Perrottet and Wulff worked together in Laban’s Monte Verità and Zürich circles and jointly founded a Zürich school for eurythmy in 1918. A 1914 photograph identifies them dancing in the same group beside Lago Maggiore. [Arp Museum exhibition catalogue](https://collezionemolinario.com/media/downloads/publications/Arp_Museum_Bahnhof_Rolandseck_-_DER_DIE_DADA.pdf), [Kalliope archival catalogue](https://kalliope.staatsbibliothek-berlin.de/de/findingaid?fa.id=DE-611-BF-70355&htmlFull=false&lang=de)
+
+### Sophie Taeuber-Arp
+
+- **[T5] Documented fact.** Taeuber-Arp and Wulff knew one another through Laban’s Zürich dance school and the Zürich Dada circle. Wulff’s 1982 recollections describe shared festivities involving Taeuber-Arp, Arp, Wigman, and Laban; scholarship also documents both women appearing within the Laban–Dada performance network of 1916–1919. [Stiftung Arp](https://stiftungarp.de/wp-content/uploads/2022/09/STA_Stipendiatenzeitschrift_210x275_RZ_digital_Doppelseiten.pdf), [Dada exhibition catalogue](https://hesse-auktionen.de/wp-content/uploads/archiv/cat-16-02.pdf)
+
+### Vera Skoronel
+
+- **[T5] Documented fact.** Skoronel received part of her foundational dance training at the Zürich Laban school under Suzanne Perrottet and Käthe/Katja Wulff from Easter 1919 until 1921, establishing a direct teacher–student relationship. [Deutsche Biographie](https://www.deutsche-biographie.de/gnd12855603X.html), [Deutsches Tanzarchiv Köln](https://www.deutsches-tanzarchiv.de/archiv/nachlaesse-sammlungen/s/vera-skoronel/)
+- **[T3] Documented fact.** Wulff’s archive contains an incoming letter from Skoronel among correspondence dating from 1925–1980; the public finding aid does not supply the letter’s exact date or contents. [Deutsches Tanzarchiv Köln](https://faust.sk-kultur.de/hzeig.FAU?desk=%2300000190%23&dm=1&thes=4)
+
+### Erik Satie
+
+- **[T9-] Documented fact.** Satie’s score for the 1917 ballet *Parade* became the shared object linking him posthumously to Wulff’s enterprise: Tanzstudio Wulff presented its own version at the Second German Dancers’ Congress in Essen in June 1928. This establishes use and reinterpretation of Satie’s work, not a personal encounter—Satie had died in 1925. [The Dancers Act](https://thedancersact.ch/katja-wulff/)
+
+### Sergei Diaghilev
+
+- **[T9-] Documented fact.** The connecting object is likewise *Parade*: the ballet was originally created in 1916–1917 for Diaghilev’s Ballets Russes, whereas Wulff’s troupe mounted a later independent version at Essen in June 1928. No direct meeting or correspondence between Wulff and Diaghilev is documented here. [The Dancers Act](https://thedancersact.ch/katja-wulff/)
+
 ## Sources
 
 https://www.deutsches-tanzarchiv.de/archiv/nachlaesse-sammlungen/w/katja-wulff/

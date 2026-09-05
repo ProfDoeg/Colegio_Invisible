@@ -419,6 +419,72 @@ Historically durable conclusions are narrower: he transformed international disc
 - **2012:** declared Patron of Brazilian Education by federal law.
 - **2021:** birth centenary produces global commemorations and renewed controversy.
 
+## Atlas Connections
+
+### Antonio Gramsci
+
+- **[T1-] Documented fact:** Freire explicitly engaged Gramsci’s concepts of hegemony, praxis, culture and the organic intellectual across his mature educational writings. The connection is textual and intellectual; the men could not have met because Gramsci died in 1937, when Freire was fifteen. Comparative scholarship documents Freire’s sustained appropriation rather than simple doctrinal agreement. [UNICAMP study](https://periodicos.sbu.unicamp.br/ojs/index.php/histedbr/article/view/8639926)
+
+### Augusto Boal
+
+- **[T5] Documented fact:** Freire and Boal appeared together at the Second Pedagogy of the Oppressed Conference in Omaha, Nebraska, in March 1996, where they addressed an audience of roughly one thousand and received honorary doctorates. Organizers describe this as their first shared public stage; an account from Boal’s institute calls it the only occasion on which they actually worked together. [Pedagogy and Theatre of the Oppressed](https://ptoweb.org/aboutpto/a-brief-biography-of-augusto-boal/), [Instituto Augusto Boal](https://augustoboal.com.br/2019/11/13/freire-e-boal-uma-conexao-afetiva/)
+- **[T3] Documented fact:** Boal’s *Theatre of the Oppressed* deliberately engaged the emancipatory vocabulary associated with Freire’s *Pedagogy of the Oppressed*, translating the movement from passive recipient to active subject into theatrical practice through the “spect-actor.” Boal also publicly honored Freire in 1996 and described him in paternal terms after Freire’s death. This supports direct intellectual engagement, not co-authorship or co-invention. [Instituto Augusto Boal](https://augustoboal.com.br/2019/11/13/freire-e-boal-uma-conexao-afetiva/)
+
+### Camilo Torres Restrepo
+
+- **[T1-] Documented fact:** Freire discussed and cited the Colombian priest-revolutionary Camilo Torres in *Pedagogy of the Oppressed*, completed after Torres’s 1966 death. Torres appears within Freire’s treatment of revolutionary commitment, alongside Che Guevara and Mao Zedong. The evidence supports textual engagement, not a personal meeting. [Critical review identifying the citations](https://www.scielo.br/j/es/a/WYVSkbkxVBNDd8M7HsjKZSy/?lang=pt)
+
+### Che Guevara
+
+- **[T1-] Documented fact:** Freire cited and discussed Guevara in *Pedagogy of the Oppressed*, particularly as an example of revolutionary commitment, love and communion with oppressed people. Freire completed the manuscript in 1967–68, after Guevara’s October 1967 death. No reliable evidence located establishes that they met. [Critical review identifying Freire’s sources](https://www.scielo.br/j/es/a/WYVSkbkxVBNDd8M7HsjKZSy/?lang=pt)
+
+### Erich Fromm
+
+- **[T5] Reported fact:** Biographical scholarship reports that Freire visited Fromm more than once in Cuernavaca, Mexico, in the late 1960s, through meetings arranged by Ivan Illich. This moves their relationship beyond inferred intellectual similarity, although the available secondary account does not provide exact visit dates. [Lake and Dagostino study](https://library.cornerstone.ac.za/wp-content/uploads/2023/03/Converging-self-other-awareness.pdf)
+- **[T1-] Documented fact:** Freire repeatedly cited and developed Fromm’s humanistic-psychoanalytic arguments, especially *The Fear of Freedom*, *The Art of Loving* and Fromm’s distinction between necrophilous and biophilous orientations. These references are explicit in *Pedagogy of the Oppressed* and later writings. [Comparative study](https://doi.org/10.31512/rch.v17i29.2225), [text of *Pedagogy of the Oppressed*](https://cym.ie/documents/pedagogy_c2.pdf)
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-] Documented fact:** Freire explicitly drew on Hegel’s master–slave dialectic and account of recognition in *Pedagogy of the Oppressed*, adapting them to education, dehumanization and the oppressed person’s struggle to become a historical subject. This was a critical appropriation, not a claim of direct intellectual lineage without intermediaries. [Critical review of Freire’s cited sources](https://www.scielo.br/j/es/a/WYVSkbkxVBNDd8M7HsjKZSy/?lang=pt)
+
+### Herbert Marcuse
+
+- **[T1-] Documented fact:** Freire cited Marcuse in *Pedagogy of the Oppressed* as part of his engagement with domination, repressive social organization and liberation. The documentary record supports textual engagement but not a verified personal encounter between them. [Critical review identifying the citation](https://www.scielo.br/j/es/a/WYVSkbkxVBNDd8M7HsjKZSy/?lang=pt)
+
+### Jair Bolsonaro
+
+- **[T1+] Documented fact:** Decades after Freire’s death, Bolsonaro repeatedly discussed him as a symbol of alleged ideological influence in Brazilian education. Bolsonaro’s 2018 government program proposed removing what it called the “ideology of Paulo Freire” from schools; subsequent statements continued that polemical treatment. Under the atlas convention, Freire carries the plus sign as the earlier figure written or spoken about by the later Bolsonaro. This documents reception and political use of Freire’s name, not a personal crossing or proof that Brazilian schools uniformly implemented Freirean pedagogy. [Yale-hosted conference record](https://macmillan.yale.edu/sites/default/files/2024-06/us_brazilian_studies_2018_conference_final.pdf)
+
+### Jean-Paul Sartre
+
+- **[T1-] Documented fact:** Freire cited Sartre repeatedly in *Pedagogy of the Oppressed*, including Sartre’s criticism of the “digestive” or “nutritive” conception of education and his analysis of consciousness, alienation and freedom. No reliable evidence located establishes a personal meeting. [Text of *Pedagogy of the Oppressed*](https://cym.ie/documents/pedagogy_c2.pdf)
+
+### John Dewey
+
+- **[T1-] Documented fact:** Freire wrote about and critically engaged Dewey’s democratic and experiential philosophy of education. He shared Dewey’s rejection of passive instruction but argued more explicitly that education operates within relations of class and political power. The evidence supports intellectual engagement, not direct contact: Dewey died in 1952, before Freire became internationally prominent.
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Freire explicitly engaged Marx’s accounts of praxis, alienation, class domination and transformative human activity. Marxian analysis became especially visible in *Pedagogy of the Oppressed* and Freire’s later work, while remaining combined with Christian humanism, phenomenology and anti-colonial thought. [Critical review of Freire’s intellectual sources](https://www.scielo.br/j/es/a/WYVSkbkxVBNDd8M7HsjKZSy/?lang=pt)
+
+### Martin Buber
+
+- **[T1-] Documented fact:** Freire cited Buber and adapted the dialogical I–Thou relationship to his own account of education as an encounter between subjects. Freire’s “dialogue” nevertheless carried a more explicit collective and political orientation than Buber’s formulation. No personal meeting is documented. [Critical review identifying Buber among Freire’s sources](https://www.scielo.br/j/es/a/WYVSkbkxVBNDd8M7HsjKZSy/?lang=pt)
+
+### Mao Zedong
+
+- **[T1-] Documented fact:** Freire cited Mao in *Pedagogy of the Oppressed* while discussing revolutionary leadership, communication with the people and the difference between dialogical action and manipulation. This establishes textual engagement; it does not establish endorsement of every Maoist policy or any personal contact. [Critical review identifying the citation](https://www.scielo.br/j/es/a/WYVSkbkxVBNDd8M7HsjKZSy/?lang=pt)
+
+### Simone de Beauvoir
+
+- **[T1-] Documented fact:** Freire cited Beauvoir in *Pedagogy of the Oppressed*, drawing on her analysis of oppression and the oppressed person’s constrained consciousness. The connection is explicit textual engagement; no personal encounter was located. [Critical review identifying Beauvoir among Freire’s sources](https://www.scielo.br/j/es/a/WYVSkbkxVBNDd8M7HsjKZSy/?lang=pt)
+
+### Vladimir Lenin
+
+- **[T1-] Documented fact:** Freire cited Lenin in *Pedagogy of the Oppressed* in discussing revolutionary theory, leadership and the relationship between reflection and action. The citation supports intellectual engagement but does not justify reducing Freire’s pedagogical system to Leninism. [Scholarly source inventory](https://catalogimages.wiley.com/images/db/pdf/9781119236719.excerpt.pdf)
+
+No supported T2 prophecy/hyperstition or T9 shared-object connection was located among the roster. Other apparent parallels—including shared nationality, residence in the same country, overlapping political traditions or later comparisons by third-party scholars—were excluded where no direct documentary crossing could be established.
+
 ## Sources
 
 https://bibliotecavirtual.clacso.org.ar/ar/libros/video/livro_fotobiografico.pdf

@@ -490,6 +490,58 @@ The **Kandinsky Prize** in Russia, founded in 2007, uses his name for contempora
 | 1981 | Centre Pompidou receives the Kandinsky studio bequest |
 | 2022–23 | Major Holocaust-era restitutions and record auction sale renew provenance focus |
 
+## Atlas Connections
+
+### Anni Albers
+
+- **[T5]** **Documented fact:** Albers attended Kandinsky’s theoretical classes at the Bauhaus after entering the school in Weimar in 1922. She and Josef Albers later occupied a Dessau Masters’ House near the Kandinskys, and a June 1933 photograph records Anni with Wassily and Nina Kandinsky in Berlin. [Bauhaus Kooperation](https://bauhauskooperation.de/wissen/das-bauhaus/koepfe/biografien/biografie-detail/person-11), [Josef and Anni Albers Foundation chronology](https://www.albersfoundation.org/alberses/chronology/)
+
+### Helena Petrovna Blavatsky
+
+- **[T1-]** **Documented fact:** Kandinsky wrote about Blavatsky and *The Key to Theosophy* in *Über das Geistige in der Kunst*, crediting her with initiating a major modern spiritual movement and reproducing her prediction of a spiritually transformed twenty-first century. This records intellectual use, not personal contact or Kandinsky’s formal membership in the Theosophical Society. [Kandinsky’s text](https://www.gutenberg.org/cache/epub/5321/pg5321.html#Page_31)
+
+### Johann Wolfgang von Goethe
+
+- **[T1-]** **Documented fact:** Kandinsky repeatedly engaged Goethe’s ideas about color and the relationship between painting and music. In *Über das Geistige in der Kunst* he described Goethe’s statement that this relationship should be painting’s foundation as “prophetic,” making Goethe an explicit predecessor in his argument for abstraction. [Kandinsky’s text](https://www.gutenberg.org/cache/epub/5321/pg5321.html#Page_53)
+
+### Johannes Itten
+
+- **[T5]** **Documented fact:** Kandinsky and Itten were overlapping Bauhaus masters in Weimar from Kandinsky’s appointment in June 1922 until Itten’s departure in 1923. Institutional scholarship specifically identifies their collegial relationship, while their respective approaches to form, color, and spiritual pedagogy remained distinct. [Bauhaus Kooperation](https://bauhauskooperation.de/wissen/publikationen/publikationen/publikationen-detail/publikation-261), [Bauhaus wall-painting workshop history](https://bauhauskooperation.com/knowledge/the-bauhaus/training/workshops/wall-painting/)
+
+### Paul Klee
+
+- **[T5]** **Documented fact:** Kandinsky and Klee knew one another in Munich by 1911, reunited as Bauhaus teachers in Weimar in 1922, and from 1926 lived in adjoining halves of a Dessau Masters’ House. Their friendship is documented through correspondence, photographs, reciprocal gifts, joint exhibitions, and family social life; both also belonged to Galka Scheyer’s Blue Four. [Lenbachhaus](https://www.lenbachhaus.de/programm/ausstellungen/detail/klee-kandinsky)
+
+### Filippo Tommaso Marinetti
+
+- **[T3]** **Documented fact:** Kandinsky and Marinetti maintained an epistolary connection. On 23 July 1932 Kandinsky wrote from Dessau asking Marinetti to use his influence in defense of the politically threatened Bauhaus; the letter says they had known one another for twenty years but also indicates that Kandinsky still hoped to make Marinetti’s personal acquaintance, so a face-to-face meeting is not established by this evidence. [Clio-online source edition](https://www.europa.clio-online.de/essay/id/fdae-1698)
+
+### Friedrich Nietzsche
+
+- **[T1-]** **Documented fact:** In *Über das Geistige in der Kunst*, Kandinsky assigned Nietzsche a place in the modern spiritual crisis, writing that Nietzsche’s “strong hand” had shaken conventional morality and thereby helped turn attention from external supports toward inward life. [Kandinsky’s text](https://www.gutenberg.org/cache/epub/5321/pg5321.html#Page_32)
+
+### Oskar Schlemmer
+
+- **[T5]** **Documented fact:** Kandinsky and Schlemmer were fellow Bauhaus masters in Weimar and Dessau from 1922 until Schlemmer’s departure in 1929. Both successively directed or shaped the wall-painting workshop, and a 1926 group photograph places them together among the Bauhaus masters on the Dessau building’s roof. [Bauhaus overview and photograph](https://bauhauskooperation.com/knowledge/the-bauhaus/bauhaus-at-a-glance), [Bauhaus wall-painting workshop history](https://bauhauskooperation.com/knowledge/the-bauhaus/training/workshops/wall-painting/)
+
+### Pablo Picasso
+
+- **[T3]** **Documented fact:** Kandinsky engaged Picasso’s work in writing while both artists were alive. In *Über das Geistige in der Kunst* he treated Picasso as the principal representative of form within contemporary French painting and analyzed Cubism’s “constructive” fragmentation of matter. This establishes one-sided written engagement, not a personal meeting. [Kandinsky’s text](https://www.gutenberg.org/cache/epub/5321/pg5321.html#Page_38)
+
+### Richard Wagner
+
+- **[T1-]** **Documented fact:** Kandinsky wrote about Wagner’s leitmotif as a musical means of creating a spiritual atmosphere around a character. He also retrospectively identified hearing *Lohengrin* at Moscow’s Bolshoi Theatre in the mid-1890s as formative for his color-and-music thinking; Wagner had died in 1883, so no personal encounter occurred. [Kandinsky’s text](https://www.gutenberg.org/cache/epub/5321/pg5321.html#Page_35)
+
+### Rudolf Steiner
+
+- **[T3]** **Documented fact:** Kandinsky studied and responded to Steiner’s contemporary Theosophical and Anthroposophical ideas; museum scholarship identifies Steiner’s impact on Kandinsky. The evidence supports intellectual or written engagement, but not the stronger claim that Steiner transmitted Hilma af Klint’s imagery to Kandinsky. [Kunstmuseum Stuttgart](https://www.kunstmuseum-stuttgart.de/en/exhibitions/cosmos-rudolf-steiner)
+
+### Sophie Taeuber-Arp
+
+- **[T5]** **Documented fact:** After Kandinsky settled near Paris in 1933, Wassily and Nina became friends with Sophie Taeuber-Arp and Jean Arp and visited the Arps’ house and studio at Clamart. Taeuber-Arp’s documented visitor list expressly includes “the Kandinskys.” [Sophie Taeuber-Arp research project](https://sophietaeuberarp.org/english/biografie/)
+
+No documented personal, written, or object-mediated crossing was found between Kandinsky and Hilma af Klint. Claims that Steiner showed af Klint’s work to Kandinsky remain an unsupported theory and are therefore not entered as an Atlas connection.
+
 ## Sources
 
 https://www.guggenheim.org/artwork/artist/vasily-kandinsky

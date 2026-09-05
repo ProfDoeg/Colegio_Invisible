@@ -413,6 +413,56 @@ His institutional legacy is similarly double-sided without requiring a moral ver
 
 The personal archive is exceptionally rich but not complete: diaries were self-conscious records, some pages remained redacted for decades, and private correspondence was selectively preserved and edited. Military and nuclear files remain partly closed. Counts of 1948 deaths and refugees differ by definition and locality. English titles of Ben-Gurion's books often combine texts published separately in Hebrew, so a definitive bibliography requires edition-by-edition catalog work beyond a single dossier. Claims about newly reported 2026 German financing of Dimona are flagged rather than assimilated as settled fact because the full underlying file series was not accessible in this research pass.
 
+## Atlas Connections
+
+### Chaim Weizmann
+
+- **[T3]** **Documented fact:** Ben-Gurion and Weizmann maintained extensive political correspondence and repeatedly engaged one another over Zionist diplomacy, partition, British policy, refugee questions, and the distribution of authority after Israeli independence.
+- **[T5]** **Documented fact:** They worked together personally for decades in Zionist institutions and later met as Israel’s prime minister and president. A Truman Library oral history independently records a post-independence meeting involving Ben-Gurion, Weizmann, Moshe Sharett, and American intermediary Abraham Feinberg. [Truman Library](https://www.trumanlibrary.gov/library/oral-histories/feinberg)
+
+### Theodor Herzl
+
+- **[T1-]** **Documented fact:** Ben-Gurion repeatedly wrote and spoke about Herzl as the founder of modern political Zionism and assessed his program in historical and autobiographical writings. This is a later writer’s engagement with an earlier figure. They never met: Herzl died in 1904, before Ben-Gurion migrated to Palestine.
+
+### Albert Einstein
+
+- **[T3]** **Documented fact:** Ben-Gurion and Einstein exchanged views concerning Zionism, Israel, Jewish life, and public responsibility. After Chaim Weizmann’s death, Ben-Gurion directed Ambassador Abba Eban to ask Einstein in writing whether he would accept Israel’s presidency; Einstein declined on 18 November 1952. The formal offer therefore passed through Eban rather than being made during a personal encounter.
+- **[T5]** **Documented fact:** Einstein hosted Ben-Gurion at his Princeton home in May 1951; contemporary and later accounts identify this as a personal meeting, not merely simultaneous presence at Princeton. [The Atlantic](https://www.theatlantic.com/politics/2026/04/hasan-piker-einstein-democrats/686855/)
+
+### Martin Buber
+
+- **[T3]** **Documented fact:** Buber and Ben-Gurion corresponded and publicly engaged one another’s arguments about Zionism, nationalism, messianism, and Arab-Jewish relations. Published collections of Buber’s correspondence include exchanges with Ben-Gurion. [The Letters of Martin Buber](https://books.google.com/books/about/The_Letters_of_Martin_Buber.html?id=LU9wAAAAQBAJ)
+- **[T5]** **Documented fact:** They met on multiple occasions. Among the specifically reported encounters, Ben-Gurion attended a Classics Translation Project committee meeting at Buber’s Jerusalem home in 1962, following years of political disagreement. [Jewish Telegraphic Agency](https://www.jta.org/archive/ben-gurion-indicates-conciliation-with-prof-buber-visits-his-home)
+
+### Ze’ev Jabotinsky
+
+- **[T3]** **Documented fact:** Ben-Gurion and Jabotinsky exchanged letters and written proposals during their 1934–35 effort to end violent conflict between Labor Zionists and Revisionists. The surviving Jabotinsky archive includes proposed agreements, appointment correspondence, and responses concerning their negotiations. [Jabotinsky Institute](https://en.jabotinsky.org/archive/search-archive/item/?itemId=114175)
+- **[T5]** **Documented fact:** They held direct negotiations in London in October 1934 and signed agreements addressing political violence, labor conflict, immigration certificates, and organizational arbitration. The Histadrut membership subsequently rejected the agreements. [Knesset](https://m.knesset.gov.il/EN/About/Pages/jabot.aspx), [contemporary JTA text](https://www.jta.org/archive/full-text-of-zionist-peace-treaty)
+
+### Moshe Feldenkrais
+
+- **[T5]** **Documented fact:** Beginning in the mid-1950s, Feldenkrais gave Ben-Gurion individual movement lessons to address persistent back and mobility problems. Their sustained face-to-face teaching relationship developed into personal friendship and intellectual conversation; it also preceded Ben-Gurion’s celebrated 1957 inverted poses on the Herzliya beach. [National Library of Israel](https://blog.nli.org.il/en/feldenkrais_ben-gurion/)
+
+### John F. Kennedy
+
+- **[T5]** **Documented fact:** Kennedy and Ben-Gurion met for approximately ninety minutes at the Waldorf-Astoria in New York on 30 May 1961. Their discussion covered regional security, Arab refugees, Israel’s Dimona reactor, and U.S.–Israeli relations. A classified memorandum of conversation records the encounter. [National Security Archive](https://nsarchive.gwu.edu/document/21630-document-9b-memorandum-conversation-president)
+- **[T3]** **Documented fact:** They subsequently conducted a consequential written exchange in 1962–63 over American demands for regular visits to Dimona and Ben-Gurion’s security concerns. [National Security Archive](https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2019-05-02/battle-letters-1963-john-f-kennedy-david-ben-gurion-levi-eshkol-us-inspections-dimona)
+
+### J. Robert Oppenheimer
+
+- **[T5]** **Documented fact:** Ben-Gurion met Oppenheimer during the physicist’s 1958 visit to Israel for the opening of the Weizmann Institute’s nuclear-science facility. Ben-Gurion subsequently reported their conversation to the Israeli cabinet, including their discussion of nuclear war and Israel’s national purpose. [Martin Kramer’s documentary reconstruction](https://martinkramer.org/2024/01/10/oppenheimer-on-israel/), [Forward account](https://forward.com/news/556495/the-time-oppenheimer-met-ben-gurion-to-discuss-israels-nuclear-quest/)
+- **[T5]** **Reported fact, with a disputed embellishment:** A separate 1955 Ben-Gurion letter also says that he met Oppenheimer during an Israeli visit. Ben-Gurion publicly recalled meetings with both Einstein and Oppenheimer in 1961. Claims that Oppenheimer and Edward Teller jointly advised Ben-Gurion in Tel Aviv in 1952 about plutonium production are poorly sourced and conflict with evidence that Teller’s first Israeli visit occurred later; that stronger nuclear-advisory story should not be treated as established. [Contemporary JTA report](https://www.jta.org/archive/ben-gurion-renews-call-to-u-s-jewish-youth-to-settle-in-israel), [source-critical review](https://jewishjournal.com/commentary/opinion/379502/did-j-robert-oppenheimer-help-israel-build-the-bomb/)
+
+### Niels Bohr
+
+- **[T5]** **Documented fact:** Ben-Gurion personally received Bohr and later recalled asking him whether the physical processes of a thinking brain differed from those of an inanimate table. Institutional material describes Bohr as knowing Ben-Gurion well, while Ben-Gurion’s recorded recollection preserves the substance of at least one conversation. [Tel Aviv University](https://physics.tau.ac.il/events_physics_colloquium_17_4_2016?gid=23)
+
+### Golda Meir
+
+- **[T5]** **Documented fact:** Meir and Ben-Gurion worked together personally for decades within Mapai, the Jewish Agency, and successive Israeli governments. She was among his senior ministers and participated directly in consultations with him, including discussions surrounding a proposed Ben-Gurion–Kennedy meeting in 1961. [U.S. Office of the Historian](https://history.state.gov/historicaldocuments/frus1961-63v17/d35)
+
+No defensible T2 prophecy/hyperstition or T9 shared-object transmission was located among the roster. Mere intellectual influence, shared geography, later commemoration, or presence in the same broad historical milieu has not been counted as a crossing.
+
 ## Sources
 
 https://bengurionarchive.bgu.ac.il/en/about

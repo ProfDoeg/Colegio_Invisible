@@ -593,6 +593,43 @@ The current historical reinterpretation replaces a linear story—craftswoman be
 - **2025:** A 1936 relief sets a reported auction record of about €3.06 million.
 - **2026:** STARP database lists about 1,024 works; SIK-ISEA comprehensive catalogue raisonné remains in progress.
 
+## Atlas Connections
+
+### André Breton
+
+- **[T5]** **Reported fact:** Breton was among the avant-garde writers received by Taeuber-Arp and Jean Arp at their Clamart studio-house during the 1930s. Available institutional accounts do not supply a date or describe a specific conversation, so the connection should be treated as a reported personal visit rather than a documented collaboration. [Fondation Arp site guide](https://litterature-lieux.com/fr/guide/lieu/19-fondation-jean-arp-l-atelier-de-jean-arp-et-sophie-taeuber)
+
+### James Joyce
+
+- **[T5]** **Documented fact:** Joyce visited the Arps’ studio-house at Clamart and appears with Taeuber-Arp, Jean Arp, Meret Oppenheim, Max Ernst, and others in a garden photograph dated approximately 1933–34. The evidence establishes personal proximity at the house but not a sustained friendship or artistic collaboration. [Fondation Arp house study](https://blogs.mediapart.fr/guillaume-lasserre/blog/101224/habiter-latelier-sophie-taeuber-et-jean-arp)
+
+### Johannes Itten
+
+- **[T5]** **Documented fact:** Taeuber-Arp and Itten jointly represented Switzerland on the jury or Swiss section of the 1925 Exposition Internationale des Arts Décoratifs et Industriels Modernes in Paris. After her return to Zurich in late 1942, Itten was also among the former colleagues and friends who personally welcomed and honored her at an exhibition opening at the Kunstgewerbemuseum. [STARP biography](https://sophietaeuberarp.org/english/biografie/)
+
+### Katja Wulff
+
+- **[T5]** **Documented fact:** Wulff and Taeuber-Arp belonged to Rudolf von Laban’s Zurich movement school. From 1915 onward Taeuber-Arp developed dances in direct exchange with Wulff and Mary Wigman, establishing personal pedagogical and artistic contact rather than merely parallel membership in expressionist-dance circles. [Recent scholarly exhibition publication](https://www.wienand-verlag.de/out/media/9783868326345.pdf)
+
+### Mary Wigman
+
+- **[T5]** **Documented fact:** Taeuber-Arp studied movement in Zurich and at Ascona/Monte Verità with Laban and Wigman beginning in 1915 and developed her own dances through exchanges with Wigman and Katja Wulff. Wigman and Taeuber-Arp also participated in Laban’s August 1917 Sun Festival at Monte Verità. [STARP biography](https://sophietaeuberarp.org/english/biografie/), [scholarly exhibition publication](https://www.wienand-verlag.de/out/media/9783868326345.pdf)
+
+### Rudolf Laban
+
+- **[T5]** **Documented fact:** Beginning in summer 1915, Taeuber-Arp attended Laban’s movement courses in Zurich and Ascona/Monte Verità and participated in early work toward his dance-notation system. She later took part in Laban’s Sun Festival at Monte Verità in August 1917. This was a direct teacher–student and performance relationship. [STARP biography](https://sophietaeuberarp.org/english/biografie/)
+
+### Suzanne Perrottet
+
+- **[T4]** **Documented fact:** Perrottet and Taeuber-Arp trained and performed within Laban’s Zurich–Monte Verità movement school and were both participants in the August 1917 Sun Festival at Monte Verità. The evidence securely places them in the same working and performance milieu; the sources consulted do not establish correspondence or a separately documented close friendship.
+
+### Wassily Kandinsky
+
+- **[T5]** **Documented fact:** After Kandinsky and Nina Kandinsky settled in France in 1933, they became friends with Taeuber-Arp and Jean Arp and visited the couple’s Clamart studio-house. Taeuber-Arp and Kandinsky also exhibited within the same international abstraction networks during the 1930s. [Arp Museum](https://arpmuseum.org/en/museum/museum/the-arps.html), [STARP exhibition archive](https://sophietaeuberarp.org/english/exhibitions/)
+- **[T1+]** **Documented fact:** After Taeuber-Arp’s death in 1943, Kandinsky wrote a memorial assessment of her geometric reliefs for the 1948 monograph *Sophie Taeuber-Arp*. On Taeuber-Arp’s dossier she receives the plus sign as the earlier, written-about figure. [MoMA’s digitized 1948 catalogue](https://www.moma.org/documents/moma_catalogue_235_300062660.pdf)
+
+No evidence sufficient for the specified Atlas typology was located for the remaining roster members. In particular, later comparisons with Anni Albers, references to Freud and Jung in the *König Hirsch* production, and participation by Taeuber-Arp and other roster artists in broad group exhibitions do not by themselves establish a personal, discursive, prophetic, or shared-object connection.
+
 ## Sources
 
 https://sophietaeuberarp.org/english/biografie/

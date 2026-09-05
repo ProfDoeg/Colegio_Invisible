@@ -676,6 +676,26 @@ Her late fame also produced distortion. The *Pause* myth converted an ambiguous 
 9. Primary evidence for the Eisenstein romance and the exact Brecht “epic theater” exchange.
 10. Full incorporation of Jacqueline Davis's 2025 dissertation and its archival findings.
 
+## Atlas Connections
+
+### Anna Pavlova
+
+- **[T5]** **Reported fact:** As a child in Berlin, Gert saw Pavlova dance and subsequently waited for her at the stage door. According to Gert’s autobiographical account, Pavlova personally gave her a lily-of-the-valley from her bouquet, which Gert preserved in her diary; she later called Pavlova her “third love.” The Deutsches Tanzarchiv independently confirms Gert’s childhood admiration for Pavlova, but the flower exchange remains memoir evidence. [Deutsches Tanzarchiv Köln](https://www.deutsches-tanzarchiv.de/fileadmin/user_upload/www.tanzarchiv-koeln.de/Archivalie_des_Monats/Nele_Lipp/Nele_Lipp_Tanz_Malerei-Ein_Lexikon.pdf)
+
+### Isadora Duncan
+
+- **[T1-]** **Documented fact:** Gert wrote critically about the earlier dancer in *Die Bettlerbar von New York* (1950). She credited Duncan with opposing ballet’s artificiality and seeking simplicity and naturalness, but characterized her classicizing movement as romantic nostalgia lacking truth for the fragmented modern subject. Gert continued discussing Duncan in late documentary-production correspondence, calling Mary Wigman a “modernised Duncan.” [Karen A. Mozingo dissertation, quoting Gert’s text](https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file?accession=osu1214361531&disposition=inline); [DFF Volker Schlöndorff Collection](https://schloendorff.deutsches-filminstitut.de/en/sammlung/kaleidoskop-valeska-gert-correspondence-valeska-gert-1/)
+
+### Mary Wigman
+
+- **[T3]** **Documented fact:** Gert conducted a sustained, largely adversarial written engagement with Wigman. Her 1926 essay “Mary Wigman und Valeska Gert” explicitly contrasted their aesthetic and political positions; in *Die Bettlerbar von New York* she caricatured Wigman’s forceful stamping as pseudo-classical movement, and she revisited their rivalry in correspondence prepared for Volker Schlöndorff’s 1976–1977 documentary. This establishes discourse, not friendship or documented personal acquaintance. [Freie Universität Berlin](https://www.geisteswissenschaften.fu-berlin.de/we07/tanz/ma-tanzwissenschaft/events/afterlives-manning.html); [Mozingo dissertation](https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file?accession=osu1214361531&disposition=inline); [DFF Volker Schlöndorff Collection](https://schloendorff.deutsches-filminstitut.de/en/sammlung/kaleidoskop-valeska-gert-correspondence-valeska-gert-1/)
+
+### Oscar Wilde
+
+- **[T3]** **Documented fact:** Gert engaged directly with Wilde’s writing by radically adapting and directing *Salomé* at Berlin’s Tribüne, premiering on 20 April 1923. She heavily abridged Wilde’s text, eliminated conventional scenery, and herself played and danced the title role. This is a one-sided engagement with Wilde’s work; the two could not have met because Wilde died in 1900. [Contemporary 1924 Berlin concert-periodical record](https://digital.sim.spk-berlin.de/viewer/image/775084921-04/120/); [MediaRep study](https://mediarep.org/server/api/core/bitstreams/fb63c4de-ea29-4524-a54b-a78a528a7b45/content)
+
+No additional roster crossings were retained: shared eras, cities, artistic categories, later comparative exhibitions, and unsupported influence claims do not by themselves satisfy the atlas criteria.
+
 ## Sources
 
 https://archive.metromod.net/viewer.p/69/2948/object/5145-11013233.

@@ -535,6 +535,51 @@ Historical reinterpretation is already active. Earlier celebratory accounts fore
 | 2026 | Sandford Fleming Medal presentation; Harvard honorary DSc; continued public lectures. |
 | 25 Aug 2026 | Living; professor emeritus and Vector adviser. |
 
+## Atlas Connections
+
+### Alan Turing
+
+- **[T9-] Documented fact:** Hinton entered King’s College, Cambridge, in 1967 and graduated in 1970; Turing had been a King’s student and Fellow decades earlier. The college is therefore a documented shared site without shared occupancy. Hinton later received the 2018 ACM award bearing Turing’s name, but that namesake honor alone is not treated as a separate personal crossing. [King’s College on Turing](https://www.kings.cam.ac.uk/alan-turing) [University of Toronto on Hinton’s Turing Award](https://web.cs.toronto.edu/news-events/news/am-turing-award-given-to-hinton)
+
+### Andrew Carnegie
+
+- **[T9-] Documented fact:** Hinton taught at Carnegie Mellon University from 1982 to 1987. The institution descends from the Carnegie Technical Schools founded in Pittsburgh by Andrew Carnegie in 1900, making the institution a shared site/legacy object connecting its founder to the later faculty member, without shared occupancy. [Carnegie Mellon history](https://www.cmu.edu/about/history.html) [Hinton’s official CV](https://www.cs.toronto.edu/~hinton/shortcv.pdf)
+
+### John Searle
+
+- **[T5] Reported fact:** Hinton recalled appearing with Searle on a British television program around 1990 to debate artificial intelligence. This supports a personal meeting and joint appearance, although the program itself and its exact broadcast date were not located in the consulted record. [Published interview transcript containing Hinton’s recollection](https://fluteplayer.net/the-existential-threat-of-ai-interview-with-geoffrey-hinton-transcript/)
+
+### Yoshua Bengio
+
+- **[T3] Documented fact:** Hinton and Bengio have repeatedly engaged in joint written work, including the 2015 *Nature* review “Deep Learning” with Yann LeCun and the 2024 *Science* article “Managing Extreme AI Risks Amid Rapid Progress.” They also jointly signed the Center for AI Safety’s 30 May 2023 extinction-risk statement. [Nature](https://www.nature.com/articles/nature14539) [Science preprint](https://arxiv.org/abs/2310.17688) [Center for AI Safety](https://safe.ai/work/statement-on-ai-risk)
+- **[T5] Documented fact:** They were long-term colleagues in CIFAR’s neural-computation network and appeared together as recipients of the 2018 ACM A.M. Turing Award, establishing repeated personal meetings rather than merely parallel work. [CIFAR](https://cifar.ca/cifarnews/2019/03/27/turing-award-honours-cifar-s-pioneers-of-ai/) [ACM](https://awards.acm.org/about/2018-turing)
+
+### Yuval Noah Harari
+
+- **[T3] Documented fact:** Harari and Hinton were coauthors of “Managing Extreme AI Risks Amid Rapid Progress,” posted in 2023 and published in *Science* in May 2024. Coauthorship establishes written collaboration but, by itself, does not prove friendship or an in-person meeting. [Science preprint and author list](https://arxiv.org/abs/2310.17688)
+
+### Martin Hellman
+
+- **[T3] Documented fact:** Hellman and Hinton both signed the Center for AI Safety’s 30 May 2023 statement declaring mitigation of AI-extinction risk a global priority. The evidence supports agreement with that written sentence, not a broader personal or scientific relationship. [Center for AI Safety](https://safe.ai/work/statement-on-ai-risk)
+
+### Sam Altman
+
+- **[T3] Documented fact:** Altman and Hinton were both signatories of the Center for AI Safety’s 30 May 2023 extinction-risk statement. This is a shared written intervention; it does not establish that they drafted it together, met personally, or agreed on other questions of AI governance. [Center for AI Safety](https://safe.ai/work/statement-on-ai-risk)
+
+### Bill Gates
+
+- **[T3] Documented fact:** Gates and Hinton both signed the Center for AI Safety’s 30 May 2023 extinction-risk statement. Co-signature documents assent to the statement’s single proposition but not a friendship, meeting, or general alignment. [Center for AI Safety](https://safe.ai/work/statement-on-ai-risk)
+
+### Ray Kurzweil
+
+- **[T3] Documented fact:** Kurzweil and Hinton both signed the Center for AI Safety’s 30 May 2023 extinction-risk statement. No stronger direct personal crossing was established from the consulted sources. [Center for AI Safety](https://safe.ai/work/statement-on-ai-risk)
+
+### Elon Musk
+
+- **[T3] Documented fact:** In March 2025 Hinton publicly called on the Royal Society to expel Musk; Musk replied directly to Hinton on X, criticizing him. This constitutes reciprocal written discourse. Both were Royal Society Fellows at the time, but fellowship alone would not establish personal proximity. [The Atlantic](https://www.theatlantic.com/science/archive/2025/03/elon-musk-royal-society-science/682018/) [The Guardian](https://www.theguardian.com/technology/2025/mar/25/royal-society-decides-not-to-take-disciplinary-action-against-elon-musk)
+
+No qualifying crossing was substantiated for the remaining roster entries. Mere intellectual ancestry, shared disciplines, namesake prizes, broad institutional membership, contemporaneity, or appearance on the same long signatory list was not elevated to friendship, meeting, or physical proximity without additional evidence.
+
 ## Sources
 
 https://www.cs.toronto.edu/~hinton/

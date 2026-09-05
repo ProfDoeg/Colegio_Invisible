@@ -735,6 +735,32 @@ These functions are historically real as reception even where their supernatural
 | 2004 | Eckernförde historical-critical regional volume. | Local scholarly reassessment. |
 | Present | Saint-Germain remains an occult master, New Age symbol, fictional immortal, and subject of historical/musicological study. | Ongoing reception. |
 
+## Atlas Connections
+
+Only the following roster connections are supported by identifiable testimony or publications. Claims of reincarnation or identity with earlier figures do not fit the six specified connection types and are therefore excluded.
+
+### Annie Besant
+
+- **[T1-]** Besant, the later figure, wrote and lectured about Saint-Germain as “Master Rákóczi,” placing him within a Theosophical hierarchy of Masters in the early twentieth century. She also reported that an apparition or adept appeared to her in 1898 and supplied the name “Rakoczi”; this is **documented religious testimony, not a documented meeting with the eighteenth-century man**. The development is summarized in the scholarly *Dictionary of Gnosis and Western Esotericism*. ([Brill reference entry](https://referenceworks.brill.com/display/entries/DGWO/DGWE-322.xml))
+
+### Arthur Edward Waite
+
+- **[T1-]** Waite, writing long after Saint-Germain’s death, examined the alleged Saint-Germain–Cagliostro relationship in his historical-occult studies. He judged the evidence for Cagliostro’s supposed initiation by Saint-Germain to be extremely weak. **Documented fact: later critical writing about Saint-Germain; no personal crossing.** ([“Saint-Germain and Cagliostro”](https://www.alchemy-texts.com/book/saint-germain-and-cagliostro/))
+
+### Helena Petrovna Blavatsky
+
+- **[T1-]** Blavatsky discussed Saint-Germain in *Isis Unveiled* (1877) and published “Count de Saint-Germain” in *The Theosophist* in May 1881, defending him as an occult adept and helping establish his posthumous Theosophical identity. **Documented fact: later written engagement; supernatural characterizations are religious claims.** ([Blavatsky’s 1881 article](https://neoterra-theosophy.com/biblio/blavatsky/hpb_cw/articles/v3/y1881_039.htm), [scholarly synthesis](https://referenceworks.brill.com/display/entries/DGWO/DGWE-322.xml))
+
+### Cagliostro
+
+- **[T5]** Later accounts claim that Cagliostro and his wife visited Saint-Germain in Holstein and received initiation, occult instruction, or an elixir from him, ostensibly before Saint-Germain’s death in 1784. The story entered print in sensational Cagliostro literature, including *Mémoires authentiques pour servir à l’histoire du comte de Cagliostro* (1785), but no secure letter, visitor record, or testimony from Prince Charles of Hesse establishes the meeting. **Rumor or myth: alleged personal meeting and discipleship, not documented fact.** ([Waite’s source-critical discussion](https://www.alchemy-texts.com/book/saint-germain-and-cagliostro/), [Brill reference entry](https://referenceworks.brill.com/display/entries/DGWO/DGWE-322.xml))
+
+### Rudolf Steiner
+
+- **[T1-]** Steiner, the later figure, repeatedly wrote and lectured about Saint-Germain, notably in a lecture of 27 September 1911, identifying him through clairvoyant/reincarnation doctrine with Christian Rosenkreuz. **Documented fact: later written and oral discourse about Saint-Germain; the asserted identity is an Anthroposophical religious claim, not documentary biography.** ([Rudolf Steiner Archive](https://rsarchive.org/Lectures/GA130/English/RSP1984/19110927p01.html))
+
+No reliable evidence was found for physical or epistolary crossings with other tempting roster candidates such as Benjamin Franklin, George Washington, Jean-Jacques Rousseau, Emanuel Swedenborg, Franz Anton Mesmer, Wolfgang Amadeus Mozart, or Antoine Court de Gébelin. Stories linking Saint-Germain to Franklin, Washington, Mesmer, or Mozart remain unsupported or dependent on late occult and popular accounts, so they are not entered as connections.
+
 ## Sources
 
 https://attachments.are.na/22719341/4e5b87430763fdd74b9b5c31afda1a15.pdf?1689731927=

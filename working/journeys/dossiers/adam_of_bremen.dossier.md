@@ -570,6 +570,54 @@ The strongest current approach is neither credulous extraction nor total dismiss
 | 2021 | Hoel publishes “Moving the North” on Rimbert and cynocephali | High |
 | 2022 | Bartusik, Biskup, and Morawiec edit a major nineteen-chapter reassessment of the *Gesta* | High |
 
+## Atlas Connections
+
+### Charlemagne
+
+- **[T1-]** **Documented fact:** Adam recounts Charlemagne’s Saxon campaigns, the establishment of Bremen’s bishopric, and the origins of the northern mission in Book I of the *Gesta*, treating events of the late eighth and early ninth centuries from his eleventh-century perspective. [Tschan–Reuter translation](https://archive.org/stream/historyofarchbis00adam_0/historyofarchbis00adam_0_djvu.txt)
+
+### Gaius Julius Solinus
+
+- **[T3]** **Documented fact:** Adam repeatedly engages with Solinus’s *Collectanea rerum memorabilium* in Book IV, drawing on or attributing to it information about remote islands, northern geography, and monstrous peoples. At least one purported Solinus quotation about the Orkneys actually derives from Orosius, illustrating the mediated and occasionally confused transmission of Adam’s learned sources. [Tschan–Reuter translation and notes](https://archive.org/stream/historyofarchbis00adam_0/historyofarchbis00adam_0_djvu.txt), [MNLL](https://medieval.wiki.uib.no/Adam_Bremensis)
+
+### Moses
+
+- **[T1-]** **Documented fact:** In Book I.43, Adam compares Rimbert’s exceptional meekness to that of Moses, invoking Numbers 12:3 while constructing the archbishop’s saintly character. This is a literary-biblical comparison, not a claim of historical contact. [Tschan–Reuter translation](https://archive.org/stream/historyofarchbis00adam_0/historyofarchbis00adam_0_djvu.txt)
+
+### Otto III
+
+- **[T1-]** **Documented fact:** Adam records Otto III’s reign and untimely death in his narrative of Hamburg–Bremen around the year 1000, describing the emperor’s campaigns and three victorious entries into Rome. [Tschan–Reuter translation](https://archive.org/stream/historyofarchbis00adam_0/historyofarchbis00adam_0_djvu.txt)
+
+### Paul the Deacon
+
+- **[T3]** **Documented fact:** Textual comparison connects Adam’s ethnographic material with Paul the Deacon’s *Historia Langobardorum*. In one instance Adam appears to transfer Paul’s description of Lombards to a northern or Slavic people, although the precise route of borrowing is uncertain. [Tschan–Reuter translation and note to Book II](https://archive.org/stream/historyofarchbis00adam_0/historyofarchbis00adam_0_djvu.txt)
+
+### Pytheas of Massalia
+
+- **[T3]** **Documented fact:** In Book IV Adam explicitly invokes “Pytheas of Marseilles” for the report that at Thule summer daylight replaces night, placing Thule six days’ sailing north of Britain and identifying it with Iceland. The citation documents Adam’s engagement with the Pythean tradition; it does not establish that he possessed Pytheas’s lost original work rather than an intermediary source. [Tschan–Reuter translation, Book IV.39](https://archive.org/stream/historyofarchbis00adam_0/historyofarchbis00adam_0_djvu.txt)
+
+### Rimbert of Hamburg–Bremen
+
+- **[T1-]** **Documented fact:** Adam devotes a substantial section of Book I to Rimbert’s election, missionary and episcopal activity, reputed miracles, charitable work, death, and institutional legacy. He used the anonymous *Vita Rimberti* extensively and identified Rimbert as the author or principal voice of the *Vita Anskarii*. [MNLL Rimbert entry](https://medieval.wiki.uib.no/Rimbertus), [Tschan–Reuter translation](https://archive.org/stream/historyofarchbis00adam_0/historyofarchbis00adam_0_djvu.txt)
+
+### Saint Augustine of Hippo
+
+- **[T3]** **Documented fact:** Adam’s *Gesta* engages with Augustinian and pseudo-Augustinian material as part of its patristic framework. The connection is textual and intellectual only; no specific physical manuscript passing between them can be demonstrated. [MNLL](https://medieval.wiki.uib.no/Adam_Bremensis), [Tschan–Reuter translation and source notes](https://archive.org/stream/historyofarchbis00adam_0/historyofarchbis00adam_0_djvu.txt)
+
+### Solomon
+
+- **[T1-]** **Documented fact:** In Book III Adam compares the adversaries raised against Archbishop Adalbert with those raised against Solomon, adapting the biblical king’s history as a moral and political analogy. [Tschan–Reuter translation](https://archive.org/stream/historyofarchbis00adam_0/historyofarchbis00adam_0_djvu.txt)
+
+### Virgil
+
+- **[T3]** **Documented fact:** Adam repeatedly engages with Virgil’s *Aeneid* and *Georgics* through verbal echoes and adapted phrases in Books III–IV and the verse epilogue. Virgil was one of Adam’s principal classical stylistic resources, although the surviving evidence does not identify the manuscript or commentary he consulted. [Tschan–Reuter translation and notes](https://archive.org/stream/historyofarchbis00adam_0/historyofarchbis00adam_0_djvu.txt), [MNLL](https://medieval.wiki.uib.no/Adam_Bremensis)
+
+### William the Conqueror
+
+- **[T1-]** **Documented fact:** Adam discusses William in connection with the 1066 conquest of England and its Scandinavian political background. They were contemporaries, but no meeting, correspondence, or shared presence is documented; the supported crossing is Adam’s written treatment of William. [Tschan–Reuter translation and index](https://archive.org/stream/historyofarchbis00adam_0/historyofarchbis00adam_0_djvu.txt)
+
+No qualifying crossing is documented with **Ratramnus of Corbie**: Adam never cites Ratramnus’s cynocephali letter, and access to it remains unproved. Nor does Adam name **Leif Erikson**; he records Vinland from Danish reports without identifying its explorers, so the shared Vinland subject alone does not satisfy the atlas criteria.
+
 ## Sources
 
 https://medieval.wiki.uib.no/Adam_Bremensis

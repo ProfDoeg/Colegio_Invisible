@@ -688,6 +688,44 @@ Current scholarship generally rejects both extremes: treating every fragment as 
 
 ---
 
+## Atlas Connections
+
+### Alexander the Great
+
+- **[T1-]** **Documented fact:** Megasthenes wrote about the earlier Alexander in the lost *Indika*. Material attributed to him discusses Alexander’s invasion of India and recounts the king’s dealings with the Indian philosophers Calanus and Mandanis. No secure evidence proves that Megasthenes personally accompanied or met Alexander. [Strabo, *Geography* 15.1.59](https://penelope.uchicago.edu/Thayer/e/roman/texts/strabo/15a3%2A.html)
+
+### Cyrus the Great
+
+- **[T1-]** **Reported fact:** In material that Strabo explicitly attributes to Megasthenes, Cyrus appears campaigning against the Massagetae while Indian mercenaries summoned by the Persians approached but did not enter Persia. This is an indirect surviving fragment of Megasthenes’ treatment of the earlier ruler, not independent confirmation of the episode. [Strabo, *Geography* 15.1.6](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/15A1%2A.html)
+
+### Nabucodonosor II
+
+- **[T1-]** **Reported fact:** Josephus preserves a notice that Megasthenes’ *Indika* described Nebuchadnezzar as surpassing Heracles in courage and achievements and conquering much of Libya and Iberia. The attribution is ancient and explicit, but the extravagant conquests are not historically corroborated. [Josephus, *Against Apion* 1.143–144](https://www.crcnh.org/downloads/history-reference/josephus/Against-Apion.pdf)
+
+### Strabo of Amaseia
+
+- **[T1+]** **Documented fact:** Around the turn of the Common Era, Strabo repeatedly named, excerpted, compared, and criticized the much earlier Megasthenes. He preserved major portions of the *Indika* tradition while ranking Megasthenes immediately behind Deimachus among allegedly unreliable India writers. This is literary transmission and hostile source criticism, not personal contact. [Strabo, *Geography* 2.1.9](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/2A1%2A.html), [15.1](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/15A1%2A.html)
+
+### Plinio el Viejo
+
+- **[T1+]** **Documented fact:** Pliny the Elder named and used Megasthenes throughout the *Natural History* (completed in the first century CE), transmitting his geographical, ethnographic, and zoological claims—for example, enormous Indian serpents and extraordinary peoples. Pliny therefore became a major later conduit for Megasthenes’ lost work. [Pliny, *Natural History* 6](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D6&force=y), [8.14](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D8%3Achapter%3D14)
+
+### Flavius Josephus
+
+- **[T1+]** **Documented fact:** Josephus discussed and explicitly cited Megasthenes in *Against Apion* 1.143–144, invoking the fourth book of the *Indika* as a witness concerning Nebuchadnezzar. The connection is textual and occurred roughly four centuries after Megasthenes, with no possibility of personal contact. [Josephus, *Against Apion* 1.142–146](https://www.crcnh.org/downloads/history-reference/josephus/Against-Apion.pdf)
+
+### Claudius Aelianus
+
+- **[T1+]** **Documented fact:** In the second–third centuries CE, Aelian repeatedly named Megasthenes as an authority on Indian animals. One surviving passage attributes to him reports of immense winged scorpions and nocturnal winged snakes, illustrating Aelian’s role in preserving—and sometimes amplifying—the *Indika*’s natural-history tradition. [Aelian, *On Animals* 16.41](https://www.attalus.org/translate/animals16.html)
+
+### Gaius Julius Solinus
+
+- **[T1+]** **Documented fact:** Solinus’ *Collectanea rerum memorabilium*, probably composed in the third century CE, expressly identifies Megasthenes as a former resident at Indian royal courts who recorded Indian affairs from observation, before reusing geographical and ethnographic material associated with him. Solinus wrote centuries later and principally transmitted the tradition through Roman compilation. [Solinus, *Collectanea* 52](https://www.ancienttexts.org/library/latinlibrary/solinus4a.html)
+
+### Xuanzang
+
+- **[T9+]** **Documented fact:** Pataliputra is a shared site without shared occupancy. Megasthenes described and visited Chandragupta’s capital around the late fourth or early third century BCE; Xuanzang encountered and described Pāṭaliputra during his seventh-century journey, when much of the ancient city was already ruinous. There is no evidence that Xuanzang possessed or consulted Megasthenes’ text, so the connection is limited to the same historically changing site. [Strabo, *Geography* 15.1.36](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/15A2%2A.html), [Xuanzang, *Great Tang Records on the Western Regions*, Magadha account](https://www.payer.de/quellenkunde/quellen122.htm)
+
 ## Sources
 
 https://archive.org/details/ancientindiaasd01mccrgoog

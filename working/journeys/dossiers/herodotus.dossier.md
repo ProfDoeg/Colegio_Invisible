@@ -483,6 +483,62 @@ Archaeology has produced neither wholesale vindication nor demolition. It has co
 - A full bibliography is impossible in one dossier. The works listed above prioritize major editions, monographs, companions, contextual studies, and primary reception texts.
 - Documentary categories requested for modern public figures—company filings, courts, patents, medical records, intelligence archives—do not exist for Herodotus. Their absence is stated rather than filled by speculation.
 
+## Atlas Connections
+
+### Homer
+
+- **[T1-]** Herodotus writes about the earlier poet throughout the *Histories*. Most explicitly, he dates Homer and Hesiod at 2.53, examines Homer’s account of Helen at 2.112–120, and cites the *Iliad* and *Odyssey* while judging what Homer knew. **Documented fact:** direct textual engagement; no personal contact was possible. [Herodotus, *Histories*](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0016/)
+
+### Hesiod
+
+- **[T1-]** At *Histories* 2.53, Herodotus names Hesiod alongside Homer, dates both approximately four centuries before himself, and credits them with articulating Greek divine genealogies, epithets, honors, and functions. **Documented fact:** direct discussion of an earlier poet; no personal contact. [Herodotus 2.53](https://www.perseus.tufts.edu/hopper/text?doc=Hdt.%202.53)
+
+### Cyrus the Great
+
+- **[T1-]** Cyrus, who died around 530 BCE, is a principal historical subject of Book 1. Herodotus narrates competing accounts of his origins, overthrow of Astyages, conquest of Lydia and Babylon, imperial rule, and death fighting Tomyris and the Massagetae. **Documented fact:** extensive written treatment of a past ruler, although the historical reliability of individual episodes varies. [Herodotus, Book 1](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D1)
+
+### Simonides of Ceos
+
+- **[T1-]** Herodotus records verses attributed to Simonides, who died around 468 BCE. At 7.228 he identifies Simonides as the composer of the inscription for the seer Megistias at Thermopylae and reports that Simonides and Megistias were guest-friends. **Documented fact** that Herodotus supplies this attribution; the underlying guest-friendship is a **reported fact** resting on Herodotus’s testimony. [Herodotus 7.228](https://www.perseus.tufts.edu/hopper/text?doc=Hdt.%207.228)
+
+### Pindar of Thebes
+
+- **[T3]** At *Histories* 3.38, Herodotus explicitly invokes Pindar and quotes the maxim that custom or law (*nomos*) is “king of all,” using it to conclude his comparison of Greek and Callatian funerary practices. **Documented fact:** one-sided written engagement with Pindar’s poetry, not evidence of a meeting. [Herodotus 3.38](https://www.perseus.tufts.edu/hopper/text?doc=Hdt.%203.38)
+
+### Ctesias of Cnidus
+
+- **[T3]** Ctesias, writing after service at the court of Artaxerxes II in the early fourth century BCE, repeatedly disputed Herodotus and characterized him as unreliable. His lost *Persica*, surviving through fragments and later summaries, was partly framed as a corrective or supplement to Herodotus’s Persian history. **Documented fact:** one-sided posthumous polemical engagement; the exact wording and context depend on fragmentary transmission. [Encyclopaedia Iranica, “Ctesias”](https://www.iranicaonline.org/articles/ctesias-/)
+
+### Aristotle
+
+- **[T3]** Aristotle quotes the opening of Herodotus’s work in *Rhetoric* 3.9 and names Herodotus in *Poetics* 9 when distinguishing history—what happened—from poetry—what might happen. He also preserves the alternative civic designation “Herodotus of Thurii.” **Documented fact:** direct fourth-century BCE critical engagement with Herodotus’s text; no personal meeting was possible. [Aristotle, *Rhetoric* 3.9](https://www.perseus.tufts.edu/hopper/text?doc=Aristot.%20Rh.%203.9), [Aristotle, *Poetics* 9](https://www.perseus.tufts.edu/hopper/text?doc=Aristot.%20Poet.%209)
+
+### Cicero
+
+- **[T3]** In *De legibus* 1.5, written in the first century BCE, Cicero calls Herodotus the “father of history” while immediately observing that his work contains innumerable fabulous stories. **Documented fact:** explicit posthumous literary evaluation that became foundational to Herodotus’s later reputation. [Cicero, *De legibus* 1.5](https://www.loebclassics.com/abstract/marcus_tullius_cicero-de_legibus/1928/pb_LCL213.301.xml)
+
+### Strabo of Amaseia
+
+- **[T3]** Strabo repeatedly cites and contests Herodotus in his *Geography*, including Herodotus’s report of an Egyptian-sponsored circumnavigation of Africa and his statements about Scythia and the Nile. At 17.1.52 Strabo accuses Herodotus and others of embellishing geography with marvelous tales. **Documented fact:** sustained, one-sided posthumous use and criticism. [Strabo 2.3.4](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/2C%2A.html), [Strabo 17.1.52](https://penelope.uchicago.edu/thayer/e/roman/texts/strabo/17a3%2A.html)
+
+### Pliny the Elder
+
+- **[T3]** Pliny names and mines Herodotus repeatedly in the *Natural History*, treating him as an authority—though not always an unquestioned one—on peoples, animals, plants, geography, and marvels. **Documented fact:** direct first-century CE textual engagement with the *Histories* and its ethnographic-natural-historical material. [Pliny, *Natural History*, index of authors](https://www.perseus.tufts.edu/hopper/text?doc=Plin.%20Nat.%201)
+
+### Flavius Josephus
+
+- **[T3]** In *Against Apion* 1.168–171, Josephus quotes Herodotus’s statement that the “Syrians in Palestine” practiced circumcision and argues that Herodotus consequently knew of the Jews, although Herodotus never identifies them by that name. **Documented fact:** direct engagement with Herodotus around the late first century CE; Josephus’s identification of Herodotus’s population specifically as Jews is an **allegation or theory**, not established by Herodotus’s wording alone. [Josephus, *Against Apion* 1.168–171](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0216%3Abook%3D1%3Awhiston%20section%3D22)
+
+### Quintilian
+
+- **[T3]** In *Institutio oratoria* 10.1, composed around 95 CE, Quintilian places Herodotus at the head of Greek historians and praises the sweetness, clarity, and relaxed flow of his style, contrasting him with the compressed intensity of Thucydides. **Documented fact:** explicit posthumous literary criticism and pedagogical recommendation. [Quintilian, *Institutio oratoria* 10.1](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Aphi%2C1002%2C00110%3A1)
+
+### Claudius Aelianus (Aelian)
+
+- **[T3]** Aelian explicitly attributes information to Herodotus in both his zoological and miscellaneous writing—for example, citing Herodotus on Massagetae customs and invoking his testimony concerning the Egyptian king Amasis. **Documented fact:** direct third-century CE reuse of Herodotean material; no personal contact. [Ancient references to Herodotus, including Aelian](https://www.attalus.org/names/h/herodotus.html), [Aelian, *Various History* 2](https://penelope.uchicago.edu/aelian/varhist2.html)
+
+No secure T2 prophecy/hyperstition or T9 shared-object connection was found between Herodotus and the roster. Chronological overlap or residence in the same broad region, without evidence of encounter or a more specific shared milieu, has not been counted.
+
 ## Sources
 
 https://scaife.perseus.org/library/urn:cts:greekLit:tlg0016/

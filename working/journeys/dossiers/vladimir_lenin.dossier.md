@@ -691,6 +691,36 @@ The mausoleum’s continued preservation is itself contested memory. Reuters rep
 - Private-life evidence is incomplete because family and party archives restricted intimate correspondence.
 - Lenin’s counterfactual policies had he recovered cannot be reconstructed as fact.
 
+## Atlas Connections
+
+### Karl Marx
+
+- **[T1-] Documented fact.** Lenin wrote extensively about the earlier theorist, most explicitly in *Karl Marx: A Brief Biographical Sketch with an Exposition of Marxism* (written in 1914 for the Granat encyclopedia). He also edited, summarized, and interpreted Marx’s writings throughout his career. [Lenin’s “Karl Marx”](https://www.marxists.org/archive/lenin/works/1914/granat/ch01.htm)
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-] Documented fact.** While in Bern during 1914–15, Lenin closely annotated Hegel’s *Science of Logic* and other works. These manuscript notes, later published among the *Philosophical Notebooks*, record a sustained critical engagement with Hegelian dialectics rather than a personal crossing. [Lenin’s philosophy archive](https://www.marxists.org/archive/lenin/works/subject/philosophy/index.htm)
+
+### Mikhail Bakunin
+
+- **[T1-] Documented fact.** Lenin discussed the earlier anarchist repeatedly, notably in *The State and Revolution* (written in Finland in 1917), where he reconstructed the Marx–Engels conflict with Bakunin and evaluated anarchist objections to the state. [*The State and Revolution*, chapter 4](https://www.marxists.org/archive/lenin/works/1917/staterev/ch04.htm)
+
+### Rosa Luxemburg
+
+- **[T3] Documented fact.** Lenin and Luxemburg engaged one another through articles, criticism, and correspondence from at least the 1904 organizational dispute through the First World War. Lenin prepared a reply to her 1904 critique of Russian Social Democracy, wrote directly to her about her 1909 article against Bolshevik otzovism, annotated *The Accumulation of Capital* in 1913, and publicly commemorated her after her murder. Luxemburg’s surviving letter of 20 December 1918 sent greetings to Lenin through Eduard Fuchs. Their relationship combined collaboration against revisionism and war with major disagreements over party organization, national self-determination, and revolutionary policy. [Lenin’s 1913 annotations](https://www.marxists.org/archive/lenin/works/1913/apr/rl-acc-capital-notes.htm), [Luxemburg’s letter to Lenin](https://www.marxists.org/archive/luxemburg/1918/letters.htm), [Lenin on her murder](https://www.marxists.org/archive/lenin/works/1919/jan/21.htm)
+
+### Leon Trotsky
+
+- **[T5] Documented fact.** Lenin and Trotsky first met in London in 1902 after Trotsky joined the *Iskra* circle. They became factional opponents after 1903, worked in the same revolutionary milieu during 1905, and reunited politically in Petrograd in 1917. Thereafter they collaborated personally and institutionally in organizing the October seizure of power, directing the Bolshevik government, conducting the civil war, and leading the Communist International. Their extensive speeches, correspondence, directives, and polemics also independently satisfy T3, but the documented personal relationship and repeated meetings make T5 the stronger classification.
+
+### H. G. Wells
+
+- **[T5] Documented fact.** Lenin received Wells in his Kremlin office in Moscow in October 1920. They discussed the condition and reconstruction of Soviet Russia, particularly Lenin’s electrification plans. Wells subsequently portrayed the encounter in *Russia in the Shadows*, skeptically calling Lenin the “Dreamer in the Kremlin.” A contemporary photograph documents them conversing together. [Library of Congress photographic record](https://www.loc.gov/item/2004673250/)
+
+### Isadora Duncan
+
+- **[T4] Documented fact.** Duncan came to Moscow in 1921 with Soviet authorization to establish a dance school and entered the cultural-administrative milieu of Lenin’s government. Lenin’s surviving letter to Foreign Commissar Georgy Chicherin of 25 July 1921 addressed official arrangements for her visit. This documents institutional proximity but does not, by itself, establish a personal meeting between Duncan and Lenin; later claims that Lenin personally invited or met her should therefore not be upgraded to T5 without firmer contemporary evidence. [Lenin’s letter concerning Duncan](https://wikirouge.net/texts/en/Letter_to_Georgy_Chicherin%2C_July_25%2C_1921)
+
 ## Sources
 
 https://www.marxists.org/archive/lenin/works/cw/index.htm

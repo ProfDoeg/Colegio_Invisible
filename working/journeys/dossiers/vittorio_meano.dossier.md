@@ -544,6 +544,42 @@ Meano became famous through three national monuments but saw none inaugurated. T
 | **2019** | 1900 theater album issued in scholarly facsimile; Montevideo approves formal street/signage recognition. |
 | **2025–2026** | Piedmontese museum and current institutional histories continue public commemoration; core attribution remains Tamburini–Meano–Dormal for Colón and Meano–Dormal for Congress. |
 
+## Atlas Connections
+
+### Francesco Tamburini
+
+- **[T5] Documented fact.** Tamburini employed and mentored Meano, invited him to Buenos Aires in 1884, and worked with him on public projects and the Teatro Colón. Meano described Tamburini as a sincere friend and credited him with the theater’s original conception. After Tamburini’s death in December 1890, Meano inherited and substantially revised the project. [Buenos Aires City architectural history](https://buenosaires.gob.ar/sites/default/files/media/document/2019/05/27/7bd8df73d09b3d6a4700a89ef48c257b18fda71b.pdf), [Teatro Colón](https://teatrocolon.org.ar/el-teatro/)
+
+### Juan Antonio Buschiazzo
+
+- **[T9-] Documented fact.** Buschiazzo originated the plans and budget for Buenos Aires’s Central Police Department in 1884; Meano subsequently collaborated through Tamburini’s office on completing that building. Buschiazzo later served as one of the consultants appointed to explain the entries in the 1895 Argentine Congress competition, including Meano’s winning submission. The Police Department and the Congress competition documentation are the shared objects connecting them; no personal meeting is established by the consulted evidence. [Argentina’s official Police Department history](https://www.argentina.gob.ar/departamento-central-de-policia), [Congress archival study](https://dialnet.unirioja.es/descarga/articulo/8330378.pdf), [Chamber of Deputies historical study](https://www3.hcdn.gob.ar/dependencias/secparl/dgral_info_parlamentaria/dip/estudios-investigaciones/estudios-investigaciones-historicas/edificio-del-congreso-de-la-nacion.pdf)
+
+### Torcuato de Alvear
+
+- **[T9-] Documented fact.** As municipal intendant, Alvear initiated the project for a new Teatro Colón in 1884. Meano entered the project’s architectural succession after Tamburini’s death in 1890, revising and directing the building until 1904. The theater project therefore passed from Alvear’s municipal initiative to Meano’s later architectural development; no direct meeting between them is documented here. [Buenos Aires educational heritage history](https://buenosaires.gob.ar/sites/default/files/media/document/2021/02/18/beb4db7f70875fa887b3edd57a63eb79815082e8.pdf)
+
+### Alejandro Christophersen
+
+- **[T1+] Documented fact.** After Meano’s death in 1904, Christophersen composed a laudatory professional memorial for him, published in *Revista Técnica—Suplemento de Arquitectura*, year 1, no. 4. Christophersen had also competed against Meano in the 1895 Congress competition, but the qualifying connection recorded here is Christophersen’s writing about the deceased Meano. [Mario Sabugo, “¿Quién mató a Vittorio Meano?”](https://cafedelasciudades.com.ar/articulos/quien-mato-a-vittorio-meano/), [Chamber of Deputies historical study](https://www3.hcdn.gob.ar/dependencias/secparl/dgral_info_parlamentaria/dip/estudios-investigaciones/estudios-investigaciones-historicas/edificio-del-congreso-de-la-nacion.pdf)
+
+### Jules Dormal
+
+- **[T9+] Documented fact.** After Meano’s murder in 1904, Dormal succeeded him on both the Teatro Colón and the Argentine National Congress. Dormal completed and modified the inherited works: the Congress opened in 1906 and the Colón in 1908. These two buildings are shared objects passing from Meano to Dormal; the evidence does not establish friendship or personal rivalry. [Official Congress monument record](https://www.argentina.gob.ar/capital-humano/cultura/monumentos/congreso-nacional), [Teatro Colón](https://teatrocolon.org.ar/el-teatro/), [Buenos Aires City architectural history](https://buenosaires.gob.ar/sites/default/files/media/document/2019/05/27/7bd8df73d09b3d6a4700a89ef48c257b18fda71b.pdf)
+
+### Vaslav Nijinsky
+
+- **[T9+] Documented fact.** Nijinsky performed at the Teatro Colón in 1913, nine years after Meano’s death, appearing with Diaghilev’s Ballets Russes in the South American premiere of portions of *Swan Lake*. The theater—substantially planned and developed by Meano before Dormal completed it—is the shared site; Meano and Nijinsky never shared its occupancy. [Teatro Colón performance chronology](https://teatrocolon.org.ar/cronologia/el-lago-de-los-cisnes-en-el-teatro/), [Teatro Colón history](https://teatrocolon.org.ar/el-teatro/)
+
+### Anna Pavlova
+
+- **[T9+] Documented fact.** Pavlova’s company appeared in *Faust* at the Teatro Colón beginning in 1917, with further appearances in subsequent Buenos Aires seasons. Her use of the theater after Meano’s death creates a shared-site connection only; there is no personal encounter. [“El teatro como archivo: los rusos en el Colón”](https://iris.uniroma3.it/retrieve/456be1cc-99f7-4827-ad54-94280384997f/00_Eutopias26.pdf), [Teatro Colón history](https://teatrocolon.org.ar/el-teatro/)
+
+### Igor Stravinsky
+
+- **[T9+] Documented fact.** Stravinsky conducted and performed his own music at the Teatro Colón during his 1936 Argentine visit. His physical use of the theater connects him to its deceased co-designer through the site, not through personal contact or correspondence. [Buenos Aires historical-programming dataset](https://data.buenosaires.gob.ar/es/dataset/teatro-colon-programacion-historica), [Teatro Colón historical archive](https://teatrocolon.org.ar/archivo-de-obras-del-teatro-colon/)
+
+No additional qualifying crossings with the atlas roster were identified in the consulted evidence. Mere chronological overlap, residence in Buenos Aires, architectural similarity, later performances of a deceased composer’s music, or association with people in Meano’s wider network was not counted.
+
 ## Sources
 
 https://museoemigrazionepiemontese.it/vittorio-meano/

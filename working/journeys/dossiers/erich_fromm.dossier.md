@@ -381,6 +381,76 @@ The central reinterpretive questions remain open rather than resolved: whether F
 
 The dossier distinguishes the well-documented public and institutional record from retrospective psychobiography. Private clinical files are restricted or ethically inaccessible; consequently, claims about patients, diagnoses, income, and intimate conduct cannot be reconstructed completely. No reliable audited net-worth figure exists. The Fromm Institute's item bibliography is more comprehensive than any practical static list and should be consulted for every article, translation, broadcast, and variant edition. Some archive-based claims in recent books could be checked only through publishers' descriptions or scholarly discussions rather than inspection of the original correspondence.
 
+## Atlas Connections
+
+### Abraham
+
+- **[T1-] Documented fact:** Fromm interpreted Abraham as the Hebrew Bible’s first paradigmatic “hero,” whose departure from country and clan begins a movement away from possession and toward freedom. He discussed Abraham in *You Shall Be as Gods* (1966) and again in *To Have or To Be?* (1976). [Textual example](https://www.valleybeitmidrash.org/wp-content/uploads/2016/07/Inequality-and-The-Torah-of-Sufficiency.pdf).
+
+### Albert Einstein
+
+- **[T3] Documented fact:** In New York in March–April 1948, Fromm drafted and organized the public appeal “Palestine Cooperation—Appeal Made to Jews to Work for Goal of Common Welfare.” Einstein gave Fromm and his collaborators his telephone assent and appeared with Leo Baeck as a signatory when the appeal was published in the *New York Times* on 18 April 1948. This establishes participation in a shared written political intervention, but not necessarily a personal meeting. [Documentary reconstruction](https://fromm-online.org/wp-content/uploads/secondary-titles/Johach_H_2026).
+
+### Carl Gustav Jung
+
+- **[T1-] Documented fact:** Fromm examined Jung’s theory of dreams and myths in *The Forgotten Language* (1951), contrasting Jung’s archetypal interpretation with Freud’s approach and with Fromm’s own historical-humanistic account of symbolic language. [Discussion of Fromm’s treatment of Jung](https://www.ifefromm.it/rivista/2008-xx/4/interventi/interpretazione.php).
+
+### Felix Weil
+
+- **[T4] Documented fact:** Fromm and Weil belonged to the same Institute for Social Research milieu during Fromm’s salaried association, beginning in 1929–30. Weil was the Institute’s founder and financial patron; Fromm directed its psychoanalytic social-psychology program. The crossing is securely institutional, while evidence for friendship or a separate business relationship is lacking. [Institute history](https://www.ifs.uni-frankfurt.de/history.html).
+
+### George Orwell
+
+- **[T1-] Documented fact:** Fromm wrote the substantial “Afterword” for the 1961 Signet edition of Orwell’s *Nineteen Eighty-Four*, interpreting the novel as a warning about totalitarianism, manipulated truth, atomic war, and the destruction of human individuality. Orwell had died in 1950, so this was wholly posthumous textual engagement. [1961 edition record](https://openlibrary.org/works/OL34562232W/1984_--_with_an_Afterword_By_Erich_Fromm).
+
+### Herbert Marcuse
+
+- **[T3] Documented fact:** Marcuse publicly attacked Fromm and other psychoanalytic “revisionists” in *Eros and Civilization* and its 1955 “Epilogue”; Fromm answered in “The Alleged Radicalism of Herbert Marcuse.” Surviving correspondence between the two covers 1963–68, making this both a published controversy and a direct epistolary crossing. [Marcuse archive record](https://sammlungen.ub.uni-frankfurt.de/marcuse/content/structure/9766875).
+
+- **[T4] Documented fact:** Fromm and Marcuse also occupied the émigré Institute for Social Research network during the 1930s, although their subsequent intellectual conflict is better evidenced than any close personal relationship.
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Marx was one of Fromm’s principal lifelong subjects. Fromm interpreted and defended Marx’s humanism in *Marx’s Concept of Man* (1961), *Beyond the Chains of Illusion* (1962), *Socialist Humanism* (1965), and numerous essays, while distinguishing Marx’s writings from Soviet Marxism-Leninism. Fromm explicitly described Marx and Freud as the two great destroyers of illusion. [Fromm’s autobiographical account](https://fromm-online.org/en/life/autobiographical-highlights/).
+
+### Maimonides
+
+- **[T1-] Documented fact:** Fromm studied Maimonides’ philosophical writings intensively with Salman Baruch Rabinkow in Heidelberg during the 1920s and later invoked the Maimonidean tradition in his accounts of Judaism, negative theology, and humanistic religion. The documented crossing is textual and intellectual; the two figures were separated by more than seven centuries. [Fromm’s recollection](https://fromm-online.org/en/life/autobiographical-highlights/).
+
+### Martin Buber
+
+- **[T5] Documented fact:** Fromm encountered Buber through the Freies Jüdisches Lehrhaus milieu in Frankfurt in the early 1920s and met him on later occasions. A specialist reconstruction identifies what was probably their final personal meeting at a New York event in spring 1958 honoring Judah L. Magnes and Buber’s eightieth birthday. [Documentary study](https://fromm-online.org/wp-content/uploads/secondary-titles/Wolf_S_2009.pdf).
+
+- **[T3] Documented fact:** Fromm promoted the binational Arab–Jewish cooperation initiative associated with Buber’s Jerusalem circle and transformed it into the 1948 American appeal signed by Einstein and Leo Baeck. He also engaged Buber’s dialogical and communitarian writings across his own work. [Study of their political engagement](https://fromm-online.org/wp-content/uploads/secondary-titles/Wolf_S_2009.pdf).
+
+### Martin Luther
+
+- **[T1-] Documented fact:** A major portion of *Escape from Freedom* (1941) analyzes Luther’s Reformation theology and personality as historically ambivalent: it weakened ecclesiastical authority while intensifying individual helplessness, submission, and dependence upon a powerful God. [Book record and indexed contents](https://books.google.com/books/about/Escape_from_Freedom.html?id=d2g8L1sLykwC).
+
+### Max Horkheimer
+
+- **[T3] Documented fact:** As director of the Institute for Social Research, Horkheimer commissioned, edited, and published Fromm’s analytic-social-psychology work during the 1930s. Their written and institutional engagement later became adversarial over psychoanalytic theory, research policy, finances, and Fromm’s departure in 1938–39. Fromm retrospectively described his function as representing psychoanalysis within Horkheimer’s interdisciplinary group. [Fromm’s account](https://fromm-online.org/en/life/autobiographical-highlights/).
+
+- **[T4] Documented fact:** Horkheimer and Fromm worked in the same Institute settings in Frankfurt and, after exile, in the Geneva/New York–Columbia organization during the 1930s. This was sustained professional proximity, not merely simultaneous membership in a broad intellectual tradition.
+
+### Moses
+
+- **[T1-] Documented fact:** Moses is a central historical-symbolic figure in *You Shall Be as Gods* (1966), where Fromm interpreted his reluctance, encounter with the nameless God, mission of liberation, and leadership of the Exodus as stages in the Hebrew Bible’s development toward freedom and anti-idolatry. Moses reappears as a “hero” of liberation in *To Have or To Be?* [Primary text](https://www.edarcipelago.com/classici/erichfromm/you%20shall%20be%20as%20gods%20-%20erich%20fromm.pdf).
+
+### Sigmund Freud
+
+- **[T1-] Documented fact:** Fromm repeatedly wrote about Freud, most extensively in *Sigmund Freud’s Mission* (1959), *Beyond the Chains of Illusion* (1962), *The Crisis of Psychoanalysis* (1970), and *The Greatness and Limitations of Freud’s Thought* (1979). He credited Freud with opening the world of the unconscious while criticizing libido reductionism, patriarchy, and inadequate attention to social structure. [Fromm’s account and references](https://fromm-online.org/en/life/autobiographical-highlights/).
+
+### Theodor W. Adorno
+
+- **[T3] Documented fact:** Adorno engaged Fromm’s work critically in internal Institute discussions and memoranda, opposing Fromm’s revision of Freudian drive theory. Fromm and Adorno’s written/intellectual conflict contributed to Fromm’s separation from the Institute in 1938–39; later Frankfurt School historiography further minimized Fromm’s early role. [Documentary institutional analysis](https://sites.ualberta.ca/~cjscopy/articles/mclaughlin.html).
+
+- **[T4] Documented fact:** Fromm and Adorno occupied the same Institute for Social Research exile milieu during the 1930s, including its American period. The record supports professional proximity and antagonism, but not friendship.
+
+### Vladimir Lenin
+
+- **[T1-] Documented fact:** Fromm discussed Lenin and Leninism in *The Sane Society* (1955), *May Man Prevail?* (1961), and related writings. He treated Leninist orthodoxy as an authoritarian and economistic deformation of Marx’s humanistic socialism, while distinguishing Lenin’s historical role from the later Stalinist system. [Scholarly analysis citing the relevant passages](https://fromm-online.org/wp-content/uploads/secondary-titles/Lio_E_1991.pdf).
+
 ## Sources
 
 https://archives.nypl.org/mss/1090

@@ -443,6 +443,58 @@ Modern scholarship moved from biographical and moral unities, through Bundy’s 
 | 1992 | Brown’s major study of Hyperboreans and Nemesis in *Pythian 10* | Scholarship |
 | 2023 | Pavlou’s political/localizing analysis of *Pythian 10* | Scholarship |
 
+## Atlas Connections
+
+### Homer
+
+- **[T1-]** Pindar writes about Homer as an earlier poet in *Nemean* 7.20–23, arguing that Homer’s “sweet verse” magnified Odysseus’s reputation beyond what his actual sufferings warranted. This is literary criticism, not evidence of personal contact. **Evidentiary label: documented fact.** [Greek text and translation](https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0033.tlg003.perseus-eng2:7)
+
+### Ulysses (Odysseus)
+
+- **[T1-]** In *Nemean* 7.20–23 Pindar treats Odysseus as a figure from the heroic past whose fame benefited from Homer’s poetic representation. Odysseus also appears elsewhere in Pindar’s surviving poetry, including *Nemean* 8, where his contest with Ajax is invoked. The connection is exclusively literary and mythological. **Evidentiary label: documented fact.** [Pindar’s *Nemean Odes*](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0033.tlg003/)
+
+### Herodotus of Halicarnassus
+
+- **[T3]** Herodotus quotes Pindar’s maxim “custom/law is king of all” in *Histories* 3.38 while discussing culturally variable burial practices. Writing later in the fifth century BCE, Herodotus preserves one of the principal witnesses to Pindar fragment 169a; there is no evidence that the two men corresponded or met. **Evidentiary label: documented fact.** [Herodotus 3.38](https://www.perseus.tufts.edu/hopper/text?doc=Hdt.%203.38)
+
+### Plato
+
+- **[T3]** Plato repeatedly engages Pindar’s poetry, quoting or naming him in works including the *Gorgias* (484b, the “law is king” fragment), *Meno* (81b–c, verses concerning Persephone and the soul), *Republic*, and *Laws* 3.690b–c. These are direct fourth-century-BCE textual engagements with Pindar’s words and authority, not evidence of a personal relationship. **Evidentiary label: documented fact.** [Plato, *Gorgias* 484b](https://www.perseus.tufts.edu/hopper/text?doc=Plat.%20Gorg.%20484b); [Plato, *Meno* 81b–c](https://www.perseus.tufts.edu/hopper/text?doc=Plat.%20Meno%2081b); [Plato, *Laws* 3](https://classics.mit.edu/Plato/laws.3.iii.html)
+
+### Aristotle
+
+- **[T3]** Aristotle used Pindar as a literary and linguistic authority. His surviving works and fragments cite or discuss Pindaric wording, while material attributed to Aristotle in the ancient scholia supplied later biographical and historical commentary on Pindar’s odes. This establishes written reception but not personal contact: Aristotle was born decades after Pindar’s death. **Evidentiary label: documented fact for Aristotle’s textual engagement; reported fact where preserved only through later scholia.** [Example of an Aristotelian notice preserved in the Pindar scholia](https://fdz.bib.uni-mannheim.de/cynisca/items/show/72)
+
+### Alexander the Great
+
+- **[T9+]** Ancient authors report that when Alexander destroyed Thebes in 335 BCE, he ordered Pindar’s house—and, in some versions, the poet’s descendants—to be spared. The shared connector is therefore Pindar’s Theban house, originating with the earlier figure and acted upon nearly a century after his death. The tradition occurs in later accounts, including Pliny, Plutarch, and Arrian; it does not document a meeting, and details of Alexander’s order vary. **Evidentiary label: reported fact.** [Pliny, *Natural History* 7](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D7); [Arrian 1.9](https://www.perseus.tufts.edu/hopper/text?doc=Arr.%20An.%201.9)
+
+### Cicero
+
+- **[T3]** Cicero discusses Pindar as an outstanding Greek lyric poet and cites Pindaric material in his Latin prose. This is direct Roman literary reception in the first century BCE, approximately four centuries after Pindar; no personal crossing was possible. **Evidentiary label: documented fact.**
+
+### Strabo of Amaseia
+
+- **[T3]** Strabo quotes and evaluates Pindar as geographical evidence in the *Geography*, including discussion of Pindar’s terminology for the western boundary conventionally associated with the Pillars of Heracles. Strabo’s engagement, written around the Augustan period, is textual and critical. **Evidentiary label: documented fact.** [Strabo, *Geography* 3](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0239%3Abook%3D3)
+
+### Pliny the Elder
+
+- **[T3]** Pliny records Pindar-related historical tradition in *Natural History* 7, particularly the claim that Alexander spared Pindar’s house and descendants during the destruction of Thebes. Pliny wrote in the first century CE and supplies reception testimony rather than eyewitness evidence about Pindar. **Evidentiary label: documented fact that Pliny reported the story; reported fact as to the underlying event.** [Pliny, *Natural History* 7](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D7)
+
+### Quintilian
+
+- **[T3]** In *Institutio Oratoria* 10.1.61, composed in the late first century CE, Quintilian ranks Pindar foremost among the nine Greek lyric poets and praises his inspiration, grandeur, figures, verbal abundance, and “flood” of eloquence. This is explicit critical engagement with Pindar’s literary reputation. **Evidentiary label: documented fact.** [Quintilian, *Institutio Oratoria* 10.1.61](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Aphi%2C1002%2C001%3A10%3A1%3A61)
+
+### Claudius Aelianus (Aelian)
+
+- **[T1+]** Aelian, writing in the late second or early third century CE, recounts biographical anecdotes about Pindar, including his infancy and the tradition that Corinna defeated him in poetic competition. Because these narratives were recorded roughly seven centuries after Pindar and contain conventional poet-legend motifs, they document Aelian’s treatment of Pindar but not necessarily the narrated events. **Evidentiary label: documented fact that Aelian wrote about Pindar; rumor or myth for the infancy story and reported fact of uncertain reliability for the competition tradition.** [Aelian, *Various History* 12.45](https://penelope.uchicago.edu/oddnotes/variahistoria/chap1245.html); [Aelian, *Various History* 13.25](https://atlas.perseus.tufts.edu/library/passage/urn:cts:greekLit:tlg0007.tlg088.perseus-eng3:intro-4/)
+
+### Tertullian
+
+- **[T3]** Around 197 CE, Tertullian explicitly invokes Pindar in the *Apologeticum*, referring to *Pythian* 3 and its account of Asclepius being struck by lightning after accepting payment connected with his healing art. Tertullian adapts the pagan poem for Christian polemic; the relationship is purely textual. **Evidentiary label: documented fact.** [Tertullian, *Apologeticum* 14](https://st-takla.org/books/en/ecf/003/0030020.html)
+
+No defensible personal meeting can be established between Pindar and any roster member. In particular, the roster’s Simonides belongs to an overlapping patronage milieu, but surviving rivalry stories do not securely document a meeting; Ctesias wrote later and supplies no evidenced connection to Pindar; and Pindar’s use of Homeric or Hesiodic tradition does not by itself establish a personal or historical crossing beyond the specific textual engagements recorded above.
+
 ## Sources
 
 https://academic.oup.com/reference/62365/reference-article-abstract/554603717

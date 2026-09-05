@@ -417,6 +417,24 @@ Because Bach is living, this is a current-reputation assessment rather than a po
 | Feb 2026 | Major German and US reporting/interviews reconstruct patronage, island visit, and consequences. |
 | 31 Aug 2026 | Alive in California; publicly active as CIMC founder/executive director. |
 
+## Atlas Connections
+
+### Alan Turing
+
+- **[T1-]** **Documented fact.** Bach and Mario Verdicchio’s 2012 paper “What Kind of Machine Is the Mind?” explicitly engages Alan Turing’s 1950 formulation of whether machines can think and his attempt to define “machine” and “thinking.” The paper appeared in the Manchester centenary proceedings *Turing-100*, pp. 16–19. This is a direct written engagement, not merely attendance at a commemorative event. [Paper and abstract](https://easychair.org/publications/paper/47j) · [Full text](https://easychair.org/publications/paper/47j/download)
+
+### Noam Chomsky
+
+- **[T5]** **Reported fact.** Jeffrey Epstein’s March 23, 2015 itinerary scheduled Bach and Chomsky together for dinner in Cambridge, Massachusetts, with Epstein, Martin Nowak, and George Church; another released schedule records Bach at a June 4, 2015 lunch with Chomsky, Chomsky’s wife, Nowak, Joi Ito, and Danny Hillis. These contemporaneous schedules strongly support personal meetings, although they are logistical records rather than independent accounts confirming every attendee’s arrival. [March 23 itinerary](https://media-cdn.rollcall.com/epstein-files/EFTA00285104.pdf) · [Indexed schedule evidence](https://epsteinexposed.com/persons/noam-chomsky)
+
+### Jeffrey Epstein
+
+- **[T3]** **Documented fact.** Bach and Epstein maintained substantial direct correspondence from at least 2013 through the late 2010s. Released emails include exchanges about Bach’s research and finances and discussions of cognitive development, heredity, sex differences, eugenics, population policy, and politics. The correspondence establishes reciprocal written engagement irrespective of disputes about Bach’s intent or the scientific merits of the claims discussed. [Released July 2016 exchange](https://www.epstein.media/files/house_oversight_025949/) · [Bach’s retrospective account](https://joscha.substack.com/p/on-the-jeffrey-epstein-affair)
+
+- **[T5]** **Documented fact.** Epstein personally met Bach repeatedly after Ben Goertzel introduced them in 2013. Epstein subsequently introduced Bach to MIT Media Lab director Joi Ito, financed the appointment that brought Bach to MIT, met him at Harvard’s Program for Evolutionary Dynamics, hosted or arranged meetings at Epstein-controlled properties, and received Bach during Bach’s acknowledged one-evening visit to Little St. James, reportedly in 2015. MIT identified three Epstein gifts totaling $300,000 earmarked for Bach’s work; Harvard’s review records that Bach “often met with Epstein” at PED between 2014 and 2019. [MIT investigative report](https://web.mit.edu/fact2020/files/MIT-report.pdf) · [Harvard investigative report](https://ogc.harvard.edu/files/ogc/files/report_concerning_jeffrey_e._epsteins_connections_to_harvard_university.pdf)
+
+No other roster crossing was included: searches produced scattered name-checks, intellectual parallels, common institutional settings, and unconfirmed calendar adjacency, none of which independently met the specified thresholds for T1, T2, T3, T4, T5, or T9.
+
 ## Sources
 
 https://en.wikipedia.org/wiki/Joscha_Bach

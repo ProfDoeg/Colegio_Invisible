@@ -614,6 +614,50 @@ A fully documented life would require:
 | **2016** | Italian Cultural Institute and Córdoba institutions hold a commemorative tribute. |
 | **2021** | Claudia Shmidt delivers online lecture on Tamburini and architecture for the new Argentine nation. |
 
+## Atlas Connections
+
+### Julio Argentino Roca
+
+- **[T4] Documented fact.** In early 1883, President **Julio Argentino Roca’s** government instructed Argentina’s representative in Rome to recruit an architect for the national public-building program. Tamburini was selected and contracted on **1 July 1883**, then worked in Buenos Aires under Roca’s administration. The evidence establishes a direct patronage and governmental milieu, although the consulted sources do not document a specific personal meeting between the two men. [Argentine government biography](https://www.argentina.gob.ar/francisco-tamburini)
+
+### Juan Antonio Buschiazzo
+
+- **[T4] Documented fact.** Tamburini and **Juan Antonio Buschiazzo** crossed within Buenos Aires’s public-works milieu during the 1880s. Buschiazzo designed the **Police Headquarters**, while Tamburini, through the national architectural inspection, directed or supervised its construction. This supports institutional proximity and participation in the same project, but not a demonstrated friendship or personal meeting. [Claudia Shmidt, “Edificios públicos para una ‘capital permanente’”](https://www.iaa.fadu.uba.ar/publicaciones/critica/0081.pdf)
+
+### Vittorio Meano
+
+- **[T5] Documented fact.** Tamburini brought the young **Vittorio Meano** into his Buenos Aires office in **1884**. Meano worked with him on projects including the Casa Rosada and Teatro Colón, assumed control of Tamburini’s studio and the Colón project after Tamburini’s death in 1890, and subsequently credited Tamburini with the theater’s general conception. Their sustained master–assistant collaboration establishes personal acquaintance, although “friendship” in the intimate sense is not independently documented. [Teatro Colón history](https://teatrocolon.org.ar/el-teatro/), [Sabugo and Molinos construction-history study](https://www.iaa.fadu.uba.ar/publicaciones/otros/TeatroColon_SabugoMolinos.pdf)
+
+### Jules Dormal
+
+- **[T9+] Documented fact.** Tamburini originated the adopted general project for the present **Teatro Colón** in 1887–1890; **Jules Dormal** inherited the same building project only after Meano’s death in **1904** and completed it for the 1908 opening. Tamburini and Dormal therefore connect through a successively transmitted architectural site and design corpus, without shared occupancy of the project: Tamburini died fourteen years before Dormal took charge. [Teatro Colón history](https://teatrocolon.org.ar/el-teatro/)
+
+### Torcuato de Alvear
+
+- **[T4] Documented fact.** As mayor of Buenos Aires, **Torcuato de Alvear** initiated the municipal effort for a new Teatro Colón in **1884–1886**; Tamburini subsequently supplied the architectural project attached to Angelo Ferrari’s successful 1889 bid. This places them in successive, institutionally connected phases of the same civic undertaking. No consulted record establishes correspondence, a personal meeting, or direct commissioning of Tamburini by Alvear. [Buenos Aires Ministry of Culture institutional history](https://documentosboletinoficial.buenosaires.gob.ar/publico/PE-RES-MCGC-EATC-966-18-ANX.pdf)
+
+### Daniel Schávelzon
+
+- **[T1+] Documented fact.** Archaeologist and architectural historian **Daniel Schávelzon**, with Carlos A. Page, later wrote about and published an archival recovery of Tamburini’s previously little-known project for enlarging Córdoba’s orphan asylum. Tamburini is therefore the earlier, written-about figure in this connection. [Schávelzon publication record](https://www.danielschavelzon.com.ar/?p=1746)
+
+### Anna Pavlova
+
+- **[T9+] Documented fact.** Tamburini originated the general design of the present Teatro Colón, while **Anna Pavlova** later danced on its stage after the building’s 1908 completion. They never shared occupancy: Tamburini died in 1890, and Pavlova’s connection belongs to the theater’s subsequent performance history. [Teatro Colón institutional history](https://teatrocolon.org.ar/el-teatro/)
+
+### Vaslav Nijinsky
+
+- **[T9+] Documented fact.** **Vaslav Nijinsky** performed at Tamburini’s Teatro Colón with Sergei Diaghilev’s company in **1913**, including the South American premiere of portions of *Swan Lake*, and returned with the Ballets Russes in 1917. The theater is the shared, successively occupied site: Tamburini originated its general project but died before it opened. [Teatro Colón performance chronology](https://teatrocolon.org.ar/cronologia/el-lago-de-los-cisnes-en-el-teatro/), [Teatro Colón Ballet history](https://teatrocolon.org.ar/ballet-estable/)
+
+### Sergei Diaghilev
+
+- **[T9+] Documented fact.** **Sergei Diaghilev’s Ballets Russes** appeared at the Teatro Colón in **1913 and 1917**, decades after Tamburini originated the theater’s adopted project. The documented connector is the building as a later venue for Diaghilev’s company; the available institutional source does not establish that Tamburini and Diaghilev ever met. [Teatro Colón program history](https://teatrocolon.org.ar/produccion/concierto-extraordinario-01-oetc/)
+
+### Astor Piazzolla
+
+- **[T9+] Documented fact.** **Astor Piazzolla** later appeared as a soloist with the Buenos Aires Philharmonic at the Teatro Colón, the opera house whose general conception originated with Tamburini. Because Tamburini died in 1890 and the theater opened in 1908, this is solely a shared-site succession, not personal proximity. [Teatro Colón—Buenos Aires Philharmonic history](https://teatrocolon.org.ar/ofba/)
+
+No adequately sourced T2 prophecy or hyperstition connection was found between Tamburini and any member of the roster. The later “curse of the Teatro Colón” is a retrospective legend, but it does not identify a qualifying earlier roster figure whose prophecy predicted or helped produce Tamburini’s fate.
+
 ## Sources
 
 https://www.argentina.gob.ar/francisco-tamburini

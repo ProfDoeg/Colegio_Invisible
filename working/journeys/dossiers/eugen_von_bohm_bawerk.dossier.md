@@ -546,6 +546,50 @@ Each selects real elements. None, alone, is a complete biography.
 
 This dossier used accessible digital sources in German and English, with Czech and Italian institutional records. It did not exhaust un-digitized Finance Ministry personnel files, cabinet minutes, private family papers, parish registers, probate material, or every item in the dispersed correspondence. The most consequential residual gaps are the mother’s and siblings’ full identities, the underlying medical certificate behind Menger’s venous-thrombosis report, a complete asset/probate record, precise file-level evidence for every stage of the 1892 currency commission, and the origin of the false/uncertain ambassador claim. No claim resting on those gaps has been converted into fact.
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-] Documented fact.** Böhm-Bawerk examined Aristotle’s condemnation of interest and “barrenness of money” in the historical survey opening *Kapital und Kapitalzins* (1884), treating Aristotle as an early theorist of loan interest. [Primary-text edition](https://www.econlib.org/library/BohmBawerk/bbCI.html?chapter_num=3)
+
+### Thomas Aquinas
+
+- **[T1-] Documented fact.** In *Kapital und Kapitalzins* (1884), Böhm-Bawerk reconstructed and criticized Aquinas’s arguments against charging separately for a consumable loan and its use, placing them within the canon-law theory of usury. [Primary-text edition](https://www.econlib.org/library/BohmBawerk/bbCI.html?chapter_num=3)
+
+### Francis Bacon
+
+- **[T1-] Documented fact.** Böhm-Bawerk discussed Bacon among the early modern writers who qualified or opposed the canonist prohibition of interest in *Kapital und Kapitalzins* (1884). [Work contents](https://www.libertarianpress.com/bohm-bawerk/capitalinterest/toc.htm)
+
+### John Locke
+
+- **[T1-] Documented fact.** Böhm-Bawerk analyzed Locke’s treatment of interest in his historical account of the English debate over loan interest in *Kapital und Kapitalzins* (1884). [Work contents](https://www.libertarianpress.com/bohm-bawerk/capitalinterest/toc.htm)
+
+### Adam Smith
+
+- **[T1-] Documented fact.** Böhm-Bawerk devoted a discrete section of *Kapital und Kapitalzins* (1884) to Smith, arguing that Smith supplied no single, clearly defined theory of interest but furnished elements subsequently developed into several competing theories. He continued engaging Smith’s concepts of labor, capital, and production in *Positive Theorie des Capitals* (1889). [Work contents](https://www.libertarianpress.com/bohm-bawerk/capitalinterest/toc.htm), [primary text](https://www.econlib.org/library/BohmBawerk/bbPTC.html?chapter_num=6)
+
+### Karl Marx
+
+- **[T1-] Documented fact.** After Marx’s death and Engels’s 1894 publication of volume III of *Capital*, Böhm-Bawerk wrote *Zum Abschluss des Marxschen Systems* (1896). He reconstructed Marx’s value, surplus-value, profit-rate, and production-price arguments and alleged a contradiction between volumes I and III. This establishes written engagement, not personal contact. [German publication record and text](https://www.marxists.org/deutsch/referenz/boehm/1896/xx/index.htm), [English text](https://www.marxists.org/subject/economy/authors/bohm/ch01.htm)
+
+### Carl Menger
+
+- **[T5] Documented fact.** Böhm-Bawerk and Friedrich von Wieser sought Menger out in Vienna after encountering his 1871 *Grundsätze*. Menger became Böhm-Bawerk’s intellectual mentor and patron, although Böhm-Bawerk was not his formally enrolled classroom pupil.
+- **[T3] Documented fact.** Menger and Böhm-Bawerk exchanged detailed letters about capital and interest theory in **1884–1885**. Surviving material includes Böhm-Bawerk’s letter of 29 December 1884 and Menger’s reply of 1 January 1885; the documents were later published as *Böhm-Bawerk’s First Interest Theory, with C. Menger—Böhm-Bawerk Correspondence, 1884–85*. [Scholarly account of the manuscripts](https://www.researchgate.net/publication/30788523_Bohm-Bawerk%27s_first_interest_theory_with_CMenger_-_Bohm-Bawerk_correspondence_1884-85)
+
+### Ludwig von Mises
+
+- **[T5] Documented fact.** Mises attended Böhm-Bawerk’s University of Vienna seminar during Böhm-Bawerk’s final teaching period, placing them in repeated personal contact in Vienna before 1914. Mises’s own recollections describe both the seminars and personal conversations with his teacher. [Mises’s memorial account](https://mises.org/library/book/mises-remembers-eugen-von-bohm-bawerk), [University of Vienna history](https://geschichte.univie.ac.at/en/node/36328)
+- **[T1+] Documented fact.** Ten years after Böhm-Bawerk’s death, Mises published the biographical memorial “Der Nationalökonom Eugen v. Böhm-Bawerk” in Vienna’s *Neue Freie Presse* on **27 August 1924**, discussing his teacher’s scholarship, seminars, and ministerial conduct. On this dossier Böhm-Bawerk is the earlier, written-about figure. [Text and publication history](https://mises.org/library/book/mises-remembers-eugen-von-bohm-bawerk)
+
+### Joseph Schumpeter
+
+- **[T5] Documented fact.** Schumpeter studied with Böhm-Bawerk and participated in his University of Vienna seminar by **summer 1905**. Böhm-Bawerk subsequently served with Friedrich von Wieser as an evaluator of Schumpeter’s 1909 habilitation, demonstrating continuing direct professional contact. [Neue Deutsche Biographie](https://www.deutsche-biographie.de/sfz106815.html), [Schumpeter School biographical record](https://www.wiwi.uni-wuppertal.de/de/fakultaet/die-schumpeter-school/zur-person-j-a-schumpeter/)
+- **[T3] Documented fact.** In **1913**, Böhm-Bawerk published a forceful criticism of Schumpeter’s dynamic theory of interest; Schumpeter replied that year, and Böhm-Bawerk issued concluding remarks. This was a direct published exchange rather than merely a later comparison of their ideas. [Scholarly reconstruction and references](https://static.uni-graz.at/fileadmin/_files/_sowi_sites/_schumpeter-centre/GSC_Discussion_papers/01_Kurz_2012_.pdf), [digitized Böhm-Bawerk publication](https://digi.econbiz.de/viewer/fullscreen/898450314/)
+- **[T1+] Documented fact.** Following Böhm-Bawerk’s death, Schumpeter wrote the extensive memorial study “Das wissenschaftliche Lebenswerk Eugen von Böhm-Bawerks” (1914) and a later biographical essay (1925). On this dossier Böhm-Bawerk is the earlier, written-about figure.
+
+No supported T2 prophecy/hyperstition or T9 shared-object crossing was identified among the roster, and no additional T4 proximity claim has been included merely from contemporaneity or shared residence in Vienna.
+
 ## Sources
 
 https://www.biographien.ac.at/oebl/oebl_B/Boehm-Bawerk_Eugen_1851_1914.xml

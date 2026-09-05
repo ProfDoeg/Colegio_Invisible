@@ -2260,6 +2260,30 @@ The decisive methodological rule is to keep **Rockefeller Sr., Rockefeller Jr., 
 
 ---
 
+## Atlas Connections
+
+### Andrew Carnegie
+
+- **[T3] Documented fact:** Carnegie and Rockefeller corresponded about philanthropy and recreation. In a letter dated **February 8, 1903**, Carnegie discussed charitable giving and golf and invited Rockefeller to **Skibo Castle**. Carnegie also joined the Rockefeller-created General Education Board; Rockefeller praised Carnegie and that collaboration in his 1909 *Random Reminiscences*. [Carnegie Corporation archival letter](https://carnegie.org/publication/letter-to-john-d-rockefeller/); [Rockefeller, *Random Reminiscences*](https://www.gutenberg.org/files/17090/17090-h/17090-h.htm)
+
+### J. P. Morgan
+
+- **[T5] Documented fact:** Rockefeller recalled first meeting Morgan at **William Rockefeller’s Hudson River residence**; they later met at Rockefeller’s **West 54th Street home in New York in early 1901** during negotiations to incorporate Rockefeller’s Mesabi ore, railroad, and lake-fleet properties into U.S. Steel. Rockefeller subsequently praised Morgan’s role in containing the Panic of 1907 in *Random Reminiscences*. The direct sale negotiations were largely completed by John D. Rockefeller Jr., Henry H. Rogers, Henry Clay Frick, and Frederick T. Gates, so the meeting should not be confused with sole personal negotiation by Senior. [Rockefeller, *Random Reminiscences*](https://www.gutenberg.org/files/17090/17090-h/17090-h.htm); [Chernow-derived account of the meetings and transaction](https://erenow.org/common/lifeofjohnrockefeller/22.php)
+
+### Mark Twain
+
+- **[T3] Documented fact:** Twain engaged Rockefeller in print during the **1905 “tainted money” controversy**. His satirical open letter, “A Humane Word from Satan,” addressed Rockefeller’s $100,000 gift to the American Board of Commissioners for Foreign Missions, ironically defending its acceptance as “conscience-money.” This documents one-sided literary engagement, not a personal meeting or friendship. [Text of Twain’s satire](https://twainmark.org/bequest/The%20%2430%2C%20000%20Bequest%20and%20Other%20Stories%20-%20Mark%20Twain_files/OEBPS/Text/ch_21.html)
+
+### Swami Vivekananda
+
+- **[T5] Rumor or myth with a late testimonial source:** A frequently repeated account says Rockefeller visited Vivekananda at a host’s home in **Chicago, usually dated 1894**, where Vivekananda urged him to regard his fortune as a trust for humanity; Rockefeller allegedly returned after announcing a large charitable gift. The story derives from opera singer Emma Calvé’s later recollection as recorded by Drinette Verdier, not from contemporary correspondence, Rockefeller’s papers, or Rockefeller’s own memoir. The claimed meeting is therefore plausible but **not securely documented**, and the stronger assertion that it initiated Rockefeller’s philanthropy conflicts with evidence that he had given systematically for decades beforehand. [Published version of the Calvé–Verdier account](https://nachiketa.org/wp-content/uploads/nachiketanjali-201608.pdf); [discussion of the account’s evidentiary limitations](https://era.ed.ac.uk/server/api/core/bitstreams/8327545f-feed-42b4-aaf1-e3e08386d032/content)
+
+### David Rockefeller
+
+- **[T5] Documented fact:** Rockefeller Sr. personally knew his grandson **David Rockefeller (born 1915)**. David remembered Senior as a constant presence during his childhood, visited him regularly at family residences including **Pocantico Hills**, and described himself as especially favored by his grandfather. Their personal overlap lasted from David’s birth until Senior’s death in **1937**. [David Rockefeller’s memoir excerpt](https://www.vanityfair.com/news/2002/10/rockefeller_excerpt200210); [Rockefeller Center biographical account](https://www.rockefellercenter.com/magazine/arts-culture/david-rockefeller-1915-2017/)
+
+No additional roster crossings were included where the available evidence showed only contemporaneity, indirect institutional funding, family connections through later generations, shared subject matter, or attendance invitations that did not result in a meeting.
+
 ## Sources
 
 https://rockarch.org/resources/about-the-rockefellers/john-d-rockefeller-sr/

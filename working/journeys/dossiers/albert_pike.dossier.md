@@ -478,6 +478,126 @@ Pike’s remains, library, manuscripts, and artifacts make the House of the Temp
 
 The research stopped after broad discovery and targeted dispute checks reached diminishing returns: consequential claims have primary or specialist support, the Klan and wartime allegations are bounded rather than falsely resolved, and further general web searching produced mostly repetitive or weaker material.
 
+## Atlas Connections
+
+### Abraham
+
+- **[T1-] Documented fact:** Pike discussed Abraham as a patriarch, initiate, and transmitter of ancient religious knowledge in *Morals and Dogma*, published in Washington in 1871. This is a literary-intellectual connection, not a historical encounter; Pike’s account reflects nineteenth-century esoteric interpretation rather than modern biblical scholarship. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Aristotle
+
+- **[T1-] Documented fact:** Pike repeatedly invoked Aristotle’s philosophy, ethics, metaphysics, and terminology in *Morals and Dogma* (1871), sometimes comparing Aristotelian ideas with Platonic, Kabbalistic, and Christian systems. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Apostle Paul
+
+- **[T1-] Documented fact:** Pike interpreted Paul’s epistles and religious language in *Morals and Dogma* (1871), presenting some Pauline passages as esoteric or intelligible most fully to initiates. This was Pike’s comparative reading, not evidence that Paul taught Freemasonry. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Apostle Peter
+
+- **[T1-] Documented fact:** Pike discussed Peter, Petrine passages, and traditions concerning the early Christian apostles in *Morals and Dogma* (1871), principally while constructing a comparative history of Christianity, Gnosticism, and initiation. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Cicero
+
+- **[T1-] Documented fact:** Pike cited and discussed Cicero’s philosophical and religious writings in *Morals and Dogma* (1871), particularly in treatments of natural law, duty, providence, and the ancient mysteries. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Emanuel Swedenborg
+
+- **[T1-] Documented fact:** Pike discussed Swedenborg’s cosmology and doctrine of correspondences in *Morals and Dogma* (1871), placing them within his synthesis of Kabbalah, emanation theory, and visionary religion. The connection is textual; no personal contact is established. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Francis Bacon
+
+- **[T1-] Documented fact:** Pike referred to Bacon’s philosophy and aphoristic writings in *Morals and Dogma* (1871), using him among the authorities in his discussions of knowledge, reason, and intellectual progress. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Giordano Bruno
+
+- **[T1-] Documented fact:** Pike wrote about Bruno and ideas associated with Renaissance Hermeticism and cosmology in *Morals and Dogma* (1871). His presentation belongs to a broad esoteric genealogy and should not be mistaken for evidence of an institutional line from Bruno to Scottish Rite Masonry. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Giovanni Pico della Mirandola
+
+- **[T1-] Documented fact:** Pike treated Pico as an important Christian student and transmitter of Kabbalistic learning in *Morals and Dogma* (1871). His account relied on the historical and occult literature available in the nineteenth century. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Heinrich Cornelius Agrippa
+
+- **[T1-] Documented fact:** Pike discussed Agrippa’s occult philosophy and place in Renaissance magical and Kabbalistic traditions in *Morals and Dogma* (1871). This is documented textual engagement only. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Hiram Abiff
+
+- **[T1-] Documented fact:** Pike repeatedly interpreted the legendary Hiram Abiff in his Scottish Rite rituals, lectures, and *Morals and Dogma* (1871), making Hiram’s death a symbol of fidelity, loss, recovery, and the conflict between light and ignorance. Hiram is a legendary Masonic character, not a documented person who could have met Pike. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Jacob Boehme
+
+- **[T1-] Documented fact:** Pike discussed Boehme’s theosophy, divine emanation, and treatment of contraries in *Morals and Dogma* (1871), incorporating these ideas into his comparative account of esoteric religion. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Jesus
+
+- **[T1-] Documented fact:** Pike wrote extensively about Jesus and the teachings, parables, death, and moral significance of Christ in *Morals and Dogma* (1871). He interpreted Christianity comparatively alongside Jewish, Platonic, Gnostic, and mystery traditions; that interpretation is Pike’s synthesis, not evidence that Jesus taught later Masonic degrees. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Johannes Reuchlin
+
+- **[T1-] Documented fact:** Pike identified Reuchlin with the Renaissance transmission of Christian Kabbalah and discussed his learning in *Morals and Dogma* (1871). [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Maimonides
+
+- **[T1-] Documented fact:** Pike cited Maimonides in *Morals and Dogma* (1871), particularly in discussions of Hebrew theology, divine attributes, scriptural interpretation, and the limits of language about God. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Moses
+
+- **[T1-] Documented fact:** Moses is a major subject of Pike’s *Morals and Dogma* (1871) and related ritual writing. Pike interpreted Mosaic law, the divine name, the Tabernacle, and supposed esoteric teachings through comparative and Kabbalistic frameworks. These are Pike’s nineteenth-century constructions, not proof of a historical Masonic succession from Moses. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Moses de Leon
+
+- **[T1-] Documented fact:** Pike addressed the authorship and transmission of the *Zohar*, associating it with Moses de León while drawing heavily upon European secondary accounts of Kabbalah in *Morals and Dogma* (1871). [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Origen
+
+- **[T1-] Documented fact:** Pike discussed Origen’s theology, allegorical exegesis, and place in early Christianity in *Morals and Dogma* (1871), comparing these with Gnostic, Platonic, and initiatory doctrines. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Paracelsus
+
+- **[T1-] Documented fact:** Pike wrote about Paracelsus as an exponent of Hermetic, alchemical, and occult philosophy in *Morals and Dogma* (1871). No personal or institutional continuity between Paracelsus and Pike is thereby established. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Plato
+
+- **[T1-] Documented fact:** Plato was one of Pike’s most frequently invoked ancient authorities. In *Morals and Dogma* (1871), Pike discussed Platonic metaphysics, the Good, the soul, initiation, symbolic language, and the distinction between intelligible and material worlds. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Prince Hall
+
+- **[T1-] Documented fact:** In nineteenth-century correspondence on Black Freemasonry, Pike wrote about Prince Hall’s African Lodge and accepted that its original English warrant made it Masonically regular, while still refusing interracial recognition in his own practice. The relationship is retrospective institutional discourse: Prince Hall died in 1807, two years before Pike’s birth. [Prince Hall–Scottish Rite historical study](https://pubs.royle.com/article/The%2BScottish%2BRite%2Band%2Bthe%2BPrince%2BHall%2BAffiliation/4831396/828228/article.html)
+
+### Saint Augustine of Hippo
+
+- **[T1-] Documented fact:** Pike cited and interpreted Augustine in *Morals and Dogma* (1871), especially in discussions of Christianity, evil, free will, divine knowledge, and the relationship between faith and philosophy. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Simon Magus
+
+- **[T1-] Documented fact:** Pike discussed Simon Magus in his account of early Gnosticism and competing Christian-esoteric traditions in *Morals and Dogma* (1871). His narrative follows older heresiological and occult histories and is not independent evidence for their legendary details. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Solomon
+
+- **[T1-] Documented fact:** Pike wrote extensively about Solomon, the Jerusalem Temple, its builders, and associated Masonic symbolism in *Morals and Dogma* (1871) and his ritual revisions. He distinguished imperfectly between biblical material, later legend, and Masonic allegory; the connection is literary and ritual, not personal. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Tertullian
+
+- **[T1-] Documented fact:** Pike cited Tertullian while discussing early Christianity, heresy, the mysteries, and Christian attitudes toward philosophy in *Morals and Dogma* (1871). [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Thomas Aquinas
+
+- **[T1-] Documented fact:** Pike referred to Aquinas and scholastic theology in *Morals and Dogma* (1871), principally in comparisons among Christian metaphysics, philosophy, and Kabbalistic doctrines. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Zoroaster
+
+- **[T1-] Documented fact:** Pike repeatedly wrote about Zoroaster and the Zoroastrian figures Ormuzd and Ahriman in *Morals and Dogma* (1871), using them in his comparative treatment of light, darkness, dualism, and divine emanation. His historical reconstruction depended on nineteenth-century Orientalist sources and is not uniformly reliable by modern standards. [Primary text](https://www.gutenberg.org/cache/epub/19447/pg19447.html)
+
+### Arthur Edward Waite
+
+- **[T1+] Documented fact:** Waite, writing after Pike, analyzed Pike’s Scottish Rite rituals and occult interpretation, including a manuscript ritual attributed to him and what Waite called Pike’s effort to make the Rite a center of occult study. This is later critical engagement with Pike’s work; no personal meeting has been established. [Waite’s discussion of Pike’s ritual](https://hermetics.net/media-library/masonic/16879-2/)
+
+### Giuseppe Mazzini
+
+- **[T3] Rumor or myth—not a documented crossing:** Anti-Masonic and conspiracist literature alleges correspondence between Pike and Mazzini, especially a supposed letter of 15 August 1871. No authenticated manuscript, catalog record, image, provenance, or independently verified exchange has been located. The “three world wars” text is therefore not evidence of discourse between them, and no T2 prophecy connection is supported. [Documentary assessment of the alleged correspondence](https://www.freemasonry.bcy.ca/anti-masonry/pike_mazzini.html)
+
+No adequately supported personal meeting, friendship, shared-site, or prophecy/hyperstition connection was identified between Pike and any other person on the supplied roster. Mere appearance in Pike’s compilations, common Masonic membership, contemporaneity, or later association in occult and conspiracy literature was not treated as sufficient.
+
 ## Sources
 
 https://encyclopediaofarkansas.net/entries/albert-pike-1737/

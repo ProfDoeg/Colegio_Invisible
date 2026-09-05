@@ -708,6 +708,41 @@ His durable contributions are methodological and institutional more than any sin
 | 2020 | National Security Archive publishes detailed Hagelin–Friedman/Crypto AG documentation. |
 | 2021 | PBS broadcasts *The Codebreaker*, shifting popular attention toward Elizebeth and the couple's dual legacy. |
 
+## Atlas Connections
+
+### Elizebeth Smith Friedman
+
+- **[T3] Documented fact:** Elizebeth introduced William to Riverbank’s cipher work in 1916; they subsequently coauthored cryptanalytic papers, taught together, exchanged extensive correspondence, and jointly wrote *The Shakespearean Ciphers Examined* (1957). [NSA biography](https://www.nsa.gov/History/Cryptologic-History/Historical-Figures/Historical-Figures-View/Article/1623028/elizebeth-s-friedman/)
+- **[T5] Documented fact:** They met at Riverbank Laboratories in Geneva, Illinois, in 1916, married in May 1917, and remained personal as well as intellectual partners until William’s death in 1969. [NSA biography](https://www.nsa.gov/History/Cryptologic-History/Historical-Figures/Historical-Figures-View/Article/1623028/elizebeth-s-friedman/)
+
+### Herbert Osborn Yardley
+
+- **[T3] Documented fact:** Friedman and Yardley corresponded through the 1920s about cryptanalytic methods and professional matters. In 1922 Friedman sent Yardley a code-decipherment method; surviving records include Yardley’s letter to Friedman of 5 March 1928. Their relationship deteriorated after Yardley published *The American Black Chamber* in 1931. [NSA historical study](https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/cryptologic-spectrum/many_lives.pdf), [NSA Yardley Collection](https://www.nsa.gov/Helpful-Links/NSA-FOIA/Declassification-Transparency-Initiatives/Historical-Releases/Yardley-Collection/smdpage14698/2/)
+- **[T5] Documented fact:** During the 1920s the two cryptologists occasionally visited one another’s Washington offices. Yardley also attended Friedman’s two-week Military Intelligence cryptanalysis course in 1929 and afterward praised Friedman’s instruction. [NSA historical study](https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/cryptologic-spectrum/many_lives.pdf)
+
+### Alan Mathison Turing
+
+- **[T5] Documented fact:** During Friedman’s 1943 British mission, he met Turing at the Government Code and Cypher School/Bletchley Park and recorded him in his diary as a young mathematical cryptanalytic specialist. Friedman’s presence at Bletchley Park on 7 May 1943 is independently entered in Hut 11’s wartime visitors’ book. [Friedman’s *Bletchley Park Diary*](https://www.colinmackinnon.com/attachments/The_Bletchley_Park_Diary_of_William_F._Friedman_E.pdf), [National Archives account of the visitors’ book](https://www.archives.gov/research/alic/reference/military/bletchley-park-visitors-book.html)
+
+### Claude Elwood Shannon
+
+- **[T3] Documented fact:** Friedman engaged directly with Shannon’s technical work, obtaining and acknowledging copies of “A Mathematical Theory of Communication,” “Communication Theory of Secrecy Systems,” and “Prediction and Entropy of Printed English.” Both men were also attached to AFSA’s Special Cryptologic Advisory Group beginning in 1951, giving the connection an institutional as well as textual basis. [NSA Friedman correspondence catalog](https://www.nsa.gov/Helpful-Links/NSA-FOIA/Declassification-Transparency-Initiatives/Historical-Releases/Friedman-Documents/Correspondence/), [official SCAG history](https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/friedman-documents/panel-committee-board/FOLDER_392/41785609082461.pdf)
+
+### John von Neumann
+
+- **[T3] Documented fact:** Friedman corresponded and spoke by telephone with von Neumann concerning AFSA/NSA scientific-advisory work. Records include efforts to obtain von Neumann’s services from 1950, a receipt for material sent to him in 1951, Friedman’s confirmation of their 4 March 1954 telephone call, and an invitation to join a special NSA advisory committee. [NSA board-record catalog](https://www.nsa.gov/Helpful-Links/NSA-FOIA/Declassification-Transparency-Initiatives/Historical-Releases/Friedman-Documents/Panel-Committee-Board/), [NSA correspondence catalog](https://www.nsa.gov/Helpful-Links/NSA-FOIA/Declassification-Transparency-Initiatives/Historical-Releases/Friedman-Documents/Correspondence/)
+- **[T4] Documented fact:** Friedman and von Neumann belonged to the same early national-security scientific-advisory milieu: von Neumann attended the first AFSA Special Cryptologic Advisory Group meeting at Washington’s Naval Security Station and Arlington Hall on 4–5 June 1951, while Friedman was helping develop the scientific-advisory structure that became the NSA Scientific Advisory Board. [Official SCAG history](https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/friedman-documents/panel-committee-board/FOLDER_392/41785609082461.pdf)
+
+### Edgar Allan Poe
+
+- **[T1-] Documented fact:** Friedman wrote the scholarly article “Edgar Allan Poe, Cryptographer,” published in *American Literature* in November 1936. It evaluated Poe’s cryptographic interests and accomplishments, making Friedman the later writer in this connection.
+
+### Francis Bacon
+
+- **[T1-] Documented fact:** Friedman repeatedly wrote about Bacon’s biliteral cipher and the claims connecting Bacon with Shakespeare. The fullest treatment was the jointly authored *The Shakespearean Ciphers Examined* (1957), in which William and Elizebeth tested and rejected the proposed Baconian decipherments as nonreproducible evidence. [Folger exhibition history](https://folgerpedia.folger.edu/Decoding_the_Renaissance_exhibition_material), [book record](https://archive.org/details/shakespeareancip00frie)
+
+No other roster crossing was included merely because Friedman mentioned a historical person in a survey, studied a cipher associated with that person, lived in the same broad period, or belonged to an adjacent intellectual tradition; those facts alone do not establish the specified connection types.
+
 ## Sources
 
 https://www.nsa.gov/History/Cryptologic-History/Historical-Figures/Historical-Figures-View/Article/1623026/william-f-friedman/

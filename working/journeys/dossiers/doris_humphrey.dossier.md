@@ -467,6 +467,38 @@ Historical reinterpretation has broadened. Earlier accounts centered formal geni
 - The papers finding aid’s 1959 death date conflicts with the overwhelming 1958 evidence and is treated as an error.
 - No evidence was found for criminality, intelligence connections, addiction, or litigation. This is a bounded finding from consulted records, not proof about every unprocessed private event.
 
+## Atlas Connections
+
+### Ruth St. Denis
+
+- **[T5] Documented fact:** Humphrey met St. Denis at Denishawn in Los Angeles in 1917, became her student and company member, and later co-choreographed *Soaring*, *Sonata Pathétique*, and *A Burmese Yein Pwe* with her. Their relationship deteriorated during Humphrey’s 1928 departure from Denishawn; surviving records include correspondence between them. [NYPL Doris Humphrey collection](https://archives.nypl.org/dan/19673)
+
+### Ted Shawn
+
+- **[T5] Documented fact:** Humphrey met Shawn at Denishawn in Los Angeles in 1917 and worked under him as dancer, teacher, rehearsal director, and choreographer. Shawn encouraged her choreography during Denishawn’s 1925–26 Asian tour, but managerial and artistic disputes culminated in a complete break at a heated board meeting in June 1928. [NYPL Doris Humphrey collection](https://archives.nypl.org/dan/19673)
+
+### Martha Graham
+
+- **[T5] Documented fact:** Humphrey and Graham were Denishawn contemporaries and later jointly founded the Dance Repertory Theatre with Charles Weidman and Helen Tamiris. Its inaugural season ran at Maxine Elliott’s Theatre in New York in January 1930; they subsequently worked in the same Bennington and Juilliard institutional networks. [NYPL chronology](https://archives.nypl.org/dan/19673), [Library of Congress program](https://tile.loc.gov/storage-services/public/music/musihas-200154284/musihas-200154284.pdf)
+
+### Hanya Holm
+
+- **[T4] Documented fact:** Holm and Humphrey belonged to the founding artistic milieu of the Bennington School of the Dance at Bennington College in summer 1934, alongside Martha Graham and Charles Weidman. The sources establish shared institutional presence, but not a close friendship. [Bennington College](https://www.bennington.edu/news-and-features/how-modern-dance-took-root-vermont)
+
+### José Limón
+
+- **[T5] Documented fact:** Limón entered the Humphrey–Weidman group in New York in 1930 as Humphrey’s student and dancer. In 1946 he and Humphrey founded the Limón Dance Company, with Humphrey serving as artistic director, choreographer, coach, and repertory shaper; she created such works for him as *Lament for Ignacio Sánchez Mejías* and *Day on Earth*. [NYPL Doris Humphrey collection](https://archives.nypl.org/dan/19673), [Limón Dance Company](https://www.limon.nyc/purpose)
+
+### Federico García Lorca
+
+- **[T3] Documented fact:** This was a one-sided, posthumous engagement with Lorca’s writing, not a personal meeting. Humphrey based *Lament for Ignacio Sánchez Mejías*, created for José Limón in 1946, on Lorca’s elegy for the bullfighter; Lorca had died in 1936. [Larousse](https://www.larousse.fr/encyclopedie/oeuvre/Lament_For_Ignacio_S%C3%A1nchez_Mej%C3%ADas/128574), [NYPL chronology](https://archives.nypl.org/dan/19673)
+
+### Rudolf Laban
+
+- **[T9-] Documented fact:** Laban originated the movement-notation system later used to preserve Humphrey’s choreography. Humphrey valued the system, and numerous dances—including *New Dance*, *Ritmo Jondo*, *Day on Earth*, and *Night Spell*—were recorded in Labanotation. This is a connection through a transmitted technical instrument, not evidence that Humphrey and Laban met. [Library of Congress Dance Notation Collection](https://findingaids.loc.gov/agents/people/24131), [Dance Notation Bureau](https://www.dancenotation.org/theory-bulletin-board/resources-and-riches-dance-notation-bureau/)
+
+No additional roster crossings were included where the evidence showed only broad influence, parallel careers, shared tradition, or unverified contemporaneity.
+
 ## Sources
 
 https://archives.nypl.org/dan/19673

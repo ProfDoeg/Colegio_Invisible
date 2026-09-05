@@ -865,6 +865,28 @@ Progressive-era critics treated Warburg as both expert and embodiment of the Mon
 | 1994 onward | Griffin's *Creature from Jekyll Island* popularizes Jekyll conspiracy narrative internationally. |
 | 2010 | Federal Reserve commemorates centenary of Jekyll conference, reflecting full institutional acknowledgment. |
 
+## Atlas Connections
+
+### Aby Moritz Warburg
+
+- **[T3] Documented fact:** Paul maintained written contact with his elder brother Aby. Surviving Warburg Institute records include Paul’s letters to Aby dated **2 May 1896** and **15 December 1901**, while later family correspondence concerns Paul’s financial support for Aby’s Hamburg library project. The correspondence demonstrates direct familial and institutional engagement, not merely kinship. [Warburg Institute](https://warburg.sas.ac.uk/news-events/blogs/modernity-detour-aby-warburg-kyoto-school); [archival discussion and reproduction](https://www.periodicos.ufrn.br/artresearchjournal/article/download/29657/15931/99151)
+
+### Andrew Jackson
+
+- **[T1-] Documented fact:** Warburg wrote about the earlier president in **“A Modified Central Bank of Issue: A Suggestion of a Bill” (1908)**. Addressing the historical hostility created by Jackson’s struggle against the Second Bank of the United States, Warburg argued that his proposed institution was so carefully safeguarded that “even Andrew Jackson, were he alive,” probably would not oppose it. [Warburg, *The Federal Reserve System*, vol. II](https://fraser.stlouisfed.org/files/docs/publications/books/frsorigin1930/frsorigin_warburg_1930v2.pdf)
+
+### John Maynard Keynes
+
+- **[T5] Documented fact:** Warburg and Keynes met in **Amsterdam in October and November 1919** at private conferences convened by Nederlandsche Bank president Gerard Vissering. Keynes solicited Warburg’s response to the manuscript of *The Economic Consequences of the Peace*; on **2 November**, they participated in drafting an international program addressing European war debts, reparations, production, taxation, and reconstruction. Keynes’s diary and collected writings also document Warburg communicating with him later that October about Woodrow Wilson’s serious illness. [LSE research drawing on Keynes’s diary and collected papers](https://eprints.lse.ac.uk/122425/1/Morrison_speculative_consequences_of_the_peace_accepted.pdf); [scholarly account of the Amsterdam conferences](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/83AE1D639F8D76F2D43F4B2C4CB303F6/S0960777300000163a.pdf/central-bank-diplomacy-montagu-norman-and-central-europes-monetary-reconstruction-after-world-wari1.pdf)
+
+- **[T3] Documented fact:** Their Amsterdam contact included substantive written engagement: Keynes circulated or read portions of his forthcoming book for Warburg’s response, recorded Warburg’s views in his diary, and worked with him on the November reconstruction memorandum. This supports discourse as well as physical meeting. [LSE research drawing on Keynes’s diary and collected papers](https://eprints.lse.ac.uk/122425/1/Morrison_speculative_consequences_of_the_peace_accepted.pdf)
+
+### Max Moritz Warburg
+
+- **[T3] Documented fact:** Paul and his elder brother Max maintained direct correspondence and exchanged financial and political intelligence across the German-American family-banking network. Their documented engagement encompassed M. M. Warburg business, prewar international trade finance, wartime conditions, and postwar European reconstruction. Scholarship treats their communications as a central source for understanding the competing German and American financial systems in which they operated. [Harold James, “Networks and Financial War: The Brothers Warburg in the First Age of Globalization”](https://www.cambridge.org/core/journals/financial-history-review/article/abs/networks-and-financial-war-the-brothers-warburg-in-the-first-age-of-globalization/8334F0FB6B222E855A277F90974DF172)
+
+- **[T5] Documented fact:** Paul and Max were brothers, colleagues in the family bank, and repeated personal collaborators. Paul joined **M. M. Warburg & Co. in Hamburg in 1891** and became a partner in **1895**, working in the same family institution led by Max before Paul settled permanently in New York in 1902. Their later cooperation continued across the Atlantic; this was direct personal contact, not an inferred association from their surname or parallel careers. [Harold James, “Networks and Financial War”](https://www.cambridge.org/core/journals/financial-history-review/article/abs/networks-and-financial-war-the-brothers-warburg-in-the-first-age-of-globalization/8334F0FB6B222E855A277F90974DF172)
+
 ## Sources
 
 https://www.federalreservehistory.org/people/paul-m-warburg

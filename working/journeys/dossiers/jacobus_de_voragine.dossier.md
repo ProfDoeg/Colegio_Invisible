@@ -449,6 +449,100 @@ The *Chronica* has increasingly corrected the older tendency to reduce him to th
 - Several older printed books are bibliographically important but were accessible here mainly through catalogues, previews, reviews, or modern summaries rather than full-text consultation.
 - No significant modern filmography devoted exclusively to Jacobus was found; this negative finding is provisional.
 
+## Atlas Connections
+
+All connections below are textual T1 crossings. They establish that Jacobus wrote about the counterpart, not that the underlying hagiographical or historical narratives are factually reliable.
+
+### Jesus of Nazareth
+
+- **[T1-]** Jacobus devoted numerous sections of the *Legenda aurea*—including the Nativity, Passion, Resurrection, Ascension, and other feasts—to the life and cult of Jesus, chiefly while compiling and revising the work circa 1260–1298. **Documented fact** (textual connection). [Fordham Medieval Sourcebook](https://sourcebooks.web.fordham.edu/source/voragine1.asp)
+
+### Paul the Apostle
+
+- **[T1-]** The *Legenda aurea* contains treatments of Paul’s conversion and the feast shared by Peter and Paul, recounting traditions about his ministry and martyrdom. **Documented fact** (textual connection). [Fordham contents](https://sourcebooks.web.fordham.edu/source/voragine1.asp)
+
+### Peter the Apostle
+
+- **[T1-]** Jacobus wrote about Peter in chapters for the Chair of Saint Peter, Peter in Chains, and Peter and Paul, drawing together scriptural and later legendary traditions. **Documented fact** (textual connection). [Fordham contents](https://sourcebooks.web.fordham.edu/source/voragine1.asp)
+
+### Mary Magdalene
+
+- **[T1-]** Chapter 96 of the standard *Legenda aurea* sequence is devoted to Mary Magdalene and transmits the medieval composite account of her biblical identity, preaching, withdrawal, death, and relics. **Documented fact** that Jacobus included the account; many biographical details are **reported traditions or legends**, not independently established history. [Fordham contents](https://sourcebooks.web.fordham.edu/source/voragine1.asp)
+
+### Anthony the Abbot
+
+- **[T1-]** Jacobus included a chapter on the Egyptian ascetic Anthony, compiled principally from the *Vita Antonii* and *Vitas Patrum* tradition, in the *Legenda aurea* circa 1260–1270s. **Documented fact** (textual connection). [Scholarly discussion of Jacobus’s Anthony chapter](https://jeroenboschplaza.com/wp-content/uploads/2022/05/DeBruyn22_article_DeBruyn2022c_pdf.pdf)
+
+### Blaise of Sebastea
+
+- **[T1-]** The *Legenda aurea* contains a chapter on Saint Blaise, including his episcopate, martyrdom, and healing legends. **Documented fact** (textual connection); the narrated miracles remain **reported hagiographical traditions**. [Latin-text contents](https://www.hs-augsburg.de/homes/harsch/Chronologia/Lspost13/JacobusVoragine/jav_l000.html)
+
+### Catherine of Alexandria
+
+- **[T1-]** Jacobus transmitted Catherine’s learned disputation, mystical relationship with Christ, martyrdom, and translation to Sinai in the *Legenda aurea*. **Documented fact** that the medieval text contains her legend; Catherine’s historical biography is **legendary or unresolved**. [Golden Legend text](https://ccel.org/ccel/voragine/goldleg7/goldleg7.ii.html)
+
+### Saint Christopher
+
+- **[T1-]** The *Legenda aurea* includes a dedicated life of Christopher, one of the principal medieval channels for the familiar story of the giant carrying the Christ child. **Documented fact** (textual connection); the narrative is **hagiographical legend**. [Fordham contents](https://sourcebooks.web.fordham.edu/source/voragine1.asp)
+
+### Saint Cyriacus
+
+- **[T1-]** Jacobus included “Saint Cyriacus and His Companions” in the liturgical sequence of the *Legenda aurea*. **Documented fact** (textual connection); individual narrative episodes are **reported hagiographical tradition**. [Fordham contents](https://sourcebooks.web.fordham.edu/source/voragine1.asp)
+
+### Saint Giles
+
+- **[T1-]** The *Legenda aurea* contains a life of Giles, placed at the beginning of September in its liturgical sequence. **Documented fact** (textual connection); its miracle stories are **reported traditions**. [Contemporary table of contents for an early translation](https://fr.wikisource.org/wiki/Page%3AVoragine_-_L%C3%A9gende_dor%C3%A9e.djvu/779)
+
+### Bernard of Clairvaux
+
+- **[T1-]** Jacobus supplied a dedicated life of Bernard and also repeatedly cited Bernard’s writings as theological authorities elsewhere in the *Legenda aurea*. **Documented fact** (textual connection). [Fordham contents](https://sourcebooks.web.fordham.edu/source/voragine1.asp)
+
+### Augustine of Hippo
+
+- **[T1-]** Jacobus wrote a substantial *Legenda aurea* chapter on Augustine and repeatedly cited works attributed to Augustine throughout his compilations; the separately transmitted *Tractatus de libris a beato Augustino editis* is also associated with material in the final authorial recension. **Documented fact** for the *Legenda* connection; the independent status of the *Tractatus* is **reported but textually disputed**. [Fordham contents](https://sourcebooks.web.fordham.edu/source/voragine1.asp)
+
+### Francis of Assisi
+
+- **[T1-]** Jacobus included a life of Francis, who had died in 1226, in the *Legenda aurea*, recounting his conversion, foundation of the Friars Minor, stigmata, death, and posthumous miracles. **Documented fact** that Jacobus wrote the chapter; supernatural episodes are **reported hagiographical traditions**. [Golden Legend, “Life of Saint Francis”](https://www.christianiconography.info/goldenLegend/francis.htm)
+
+### Saint George
+
+- **[T1-]** Jacobus’s *Legenda aurea* transmitted the life and martyrdom of George, including the dragon-and-princess narrative that became exceptionally influential in later European art and literature. **Documented fact** that the work contains the story; the dragon episode is **legend or myth**, not documented biography. [Overview of the work and George tradition](https://en.wikipedia.org/wiki/Golden_Legend)
+
+### Saint Barbara
+
+- **[T1-]** A life of Barbara appears in the extended *Legenda aurea* textual tradition under Jacobus’s name, recounting her confinement in a tower, conversion, and martyrdom. **Documented fact** for its presence in the transmitted collection; because the *Legenda* accumulated additions and recension-level variation, its exact authorial status should be checked against Maggioni’s critical recension. Barbara’s biography itself is **legendary**. [Transmitted Golden Legend text](https://ccel.org/ccel/v/voragine/goldleg6/cache/goldleg6.pdf)
+
+### Saint Thecla
+
+- **[T1-]** A chapter on Thecla occurs in the transmitted Latin *Legenda aurea*, drawing on the apocryphal tradition of Paul and Thecla. **Documented fact** for the textual crossing; the account is **reported apocryphal tradition**, with recension-level attribution requiring critical-edition verification. [Latin chapter listing](https://it.wikipedia.org/wiki/Legenda_Aurea)
+
+### Saint Eustace
+
+- **[T1-]** The transmitted *Legenda aurea* includes Eustace’s conversion, trials, family separation and reunion, and martyrdom. **Documented fact** for the textual crossing; the biography is **hagiographical legend**, and precise authorial-recension status should be checked in the critical Latin edition. [Latin chapter listing](https://it.wikipedia.org/wiki/Legenda_Aurea)
+
+### Constantine the Great
+
+- **[T1-]** Jacobus wrote about Constantine principally within the *Legenda aurea* life of Pope Sylvester, transmitting medieval accounts of Constantine’s illness, conversion, baptism, and privileges granted to the Roman Church. **Documented fact** that Jacobus transmitted the narrative; important elements derive from the **legendary Sylvester tradition**, rather than contemporary fourth-century evidence. [Latin-text contents](https://www.hs-augsburg.de/homes/harsch/Chronologia/Lspost13/JacobusVoragine/jav_l000.html)
+
+### Charlemagne
+
+- **[T1-]** The historical appendix conventionally called the “History of the Lombards,” attached to the *Legenda aurea* chapter on Pope Pelagius, carries its narrative through the Carolingian period and discusses Charlemagne and his dynasty. **Documented fact** (textual connection), although it is a medieval compilation rather than an independent contemporary account. [Transmitted Golden Legend text](https://ccel.org/ccel/voragine/goldleg7/goldleg7.xvi.html)
+
+### Muhammad
+
+- **[T1-]** In the “History of the Lombards” appended to the *Legenda aurea*’s Pelagius chapter, Jacobus supplied an extended hostile Latin-Christian account of Muhammad’s life, teachings, and rise, compiled in the later thirteenth century. **Documented fact** that Jacobus wrote about Muhammad; accusations involving sorcery, epilepsy, a trained dove, and the heretical monk Sergius are **medieval polemical allegations or legends**, not reliable biography. [Golden Legend text](https://ccel.org/ccel/voragine/goldleg7/goldleg7.xvi.html), [scholarly thesis describing the passage](https://scholarworks.indianapolis.iu.edu/server/api/core/bitstreams/0c41049c-934a-4792-a1ec-95bd4f3b9b11/content)
+
+### Aristotle
+
+- **[T1-]** Jacobus discussed or invoked Aristotle’s psychology, particularly *De anima* as mediated through Averroes’s commentary, in his learned compilatory work. **Documented fact** (textual/intellectual connection); no personal contact was possible or claimed.
+
+### Cicero
+
+- **[T1-]** Jacobus cited or drew upon Cicero among the classical authorities used in his compilations and sermons. **Documented fact** (textual/intellectual connection); this is source use, not evidence that Jacobus possessed or read every Ciceronian work directly.
+
+No supported T2 prophecy/hyperstition, T4 shared milieu, T5 personal-meeting, or T9 shared-object/site crossing with another roster member was established. Mere chronological overlap with figures such as Albertus Magnus, Thomas Aquinas, Ramon Llull, Dante, Marco Polo, Abraham Abulafia, or Roger Bacon does not by itself meet the stated evidentiary threshold.
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/iacopo-da-varazze_%28Dizionario-Biografico%29/

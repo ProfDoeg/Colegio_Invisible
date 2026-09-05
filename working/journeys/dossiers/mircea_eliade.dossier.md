@@ -450,6 +450,80 @@ His fiction has undergone a separate revival through translations and films. The
 
 The corpus is multilingual and enormous. Newspaper articles, correspondence and diaries exist in variant, abridged and posthumously edited forms. Exact legal adoption papers for Giza, naturalization date, complete income/estate accounts, full diplomatic personnel files, full Securitate files and a complete item-by-item bibliography were not accessible in this web-based research. Where the record did not sustain precision, this dossier identifies uncertainty rather than filling gaps. The stopping point was reached after the major phases, controversies and requested Eranos–Tucci–Fröbe-Kapteyn network had primary/archival or specialist support; further searches were increasingly duplicative or pointed to closed books/archives.
 
+## Atlas Connections
+
+### Giordano Bruno
+
+- **[T1-]** **Documented fact:** Eliade wrote substantially about Bruno in his University of Bucharest licentiate thesis on Italian Renaissance philosophy, completed in 1928 and centered on the line from Marsilio Ficino through Bruno to Tommaso Campanella.
+
+### Tommaso Campanella
+
+- **[T1-]** **Documented fact:** Campanella was a principal subject of Eliade’s 1928 licentiate thesis on Renaissance philosophy; Eliade’s early Italian research included work on Campanella’s thought and manuscripts.
+
+### Mahatma Gandhi
+
+- **[T3]** **Documented fact:** Eliade saw Gandhi during his Indian period and reported the experience in *Cuvântul*. After returning to Bucharest, he spoke on “India” at Criterion’s Gandhi symposium on 10 December 1932 and repeatedly discussed Gandhi’s anticolonial movement in his journalism and memoirs. [Cristina A. Bejan, *Intellectuals and Fascism in Interwar Romania*](https://dokumen.pub/intellectuals-and-fascism-in-interwar-romania-the-criterion-association-3030201643-9783030201647.html)
+
+### Rabindranath Tagore
+
+- **[T5]** **Documented fact:** Eliade visited Tagore’s Visva-Bharati community at Santiniketan in 1930; an Eliade article titled “Rabindranath Tagore speaks” records a dialogue with the poet. He also wrote about Tagore’s poetry and educational experiment. [Bibliothèque nationale de France, “Tagore et Santiniketan”](https://heritage.bnf.fr/france-southasia/tagore-et-santiniketan)
+
+### Giuseppe Tucci
+
+- **[T3]** **Documented fact:** Eliade and Tucci exchanged letters, books, scholarly information, and institutional contacts over several decades; their correspondence survives in archival and published selections.
+
+- **[T5]** **Documented fact:** Eliade met Tucci during his 1927 Italian journey. They later encountered one another in European Orientalist circles and both lectured at Eranos in Ascona; the evidence supports a long collegial relationship, not a formal teacher–student one. [Eranos publication records](https://eranosfoundation.org/PRE/publications_b.htm)
+
+### Olga Fröbe-Kapteyn
+
+- **[T3]** **Documented fact:** Fröbe-Kapteyn invited Eliade to contribute to Eranos in a letter dated 5 October 1949 and subsequently corresponded with him about lectures, publication, travel, and patronage.
+
+- **[T5]** **Documented fact:** Eliade first attended Fröbe-Kapteyn’s Eranos gathering at Casa Gabriella near Ascona in August 1950 and returned repeatedly. She served as his host, editor, and network broker, including in connections leading toward Bollingen support. [Fondazione Eranos publications and records](https://eranosfoundation.org/PRE/publications_b.htm)
+
+### Carl Gustav Jung
+
+- **[T5]** **Documented fact:** Eliade met Jung through Eranos at Ascona beginning in 1950 and participated with him in the conference milieu during several later sessions.
+
+- **[T3]** **Documented fact:** Eliade interviewed Jung at the August 1952 Eranos conference for the French newspaper *Combat*. Their surviving exchanges and Eliade’s later writings document both intellectual engagement and occasional tension over the distinction between Jung’s psychological archetypes and Eliade’s historical-religious morphology. [*C. G. Jung Speaking: Interviews and Encounters*](https://jungiancenter.org/wp-content/uploads/2023/09/cg-jung-speaking.pdf)
+
+### Julius Evola
+
+- **[T5]** **Documented fact:** Eliade met Evola during Evola’s 1937 visit to Bucharest and met him again in Rome in May 1952 and April 1955.
+
+- **[T3]** **Documented fact:** They maintained an intermittent correspondence from the interwar period, re-established it in September 1949, reviewed and cited one another’s work, and discussed yoga, Tantra, esotericism, translations, racism, and fascism. Their relationship suffered ruptures in 1955 and 1964 and should not be described as an uncomplicated friendship. [Liviu Bordaș, “The Difficult Encounter in Rome”](https://www.researchgate.net/publication/369236062_The_difficult_encounter_in_Rome_Mircea_Eliade%27s_post-war_relation_with_Julius_Evola_-_new_letters_and_data_International_Journal_on_Humanistic_Ideology_IV_no_2_Autumn-Winter_2011_pp_125-158)
+
+### René Guénon
+
+- **[T3]** **Documented fact:** Eliade engaged extensively in print with Guénon’s Traditionalist writings. Guénon also acted as an epistolary intermediary in 1949 by supplying Evola with Eliade’s address, after which Evola resumed writing to him; no securely documented personal meeting between Eliade and Guénon was located. [Bordaș, “The Difficult Encounter in Rome”](https://www.researchgate.net/publication/369236062_The_difficult_encounter_in_Rome_Mircea_Eliade%27s_post-war_relation_with_Julius_Evola_-_new_letters_and_data_International_Journal_on_Humanistic_Ideology_IV_no_2_Autumn-Winter_2011_pp_125-158)
+
+### Ioan Petru Culianu
+
+- **[T3]** **Documented fact:** Eliade and Culianu conducted an extensive mentor–disciple correspondence. The published corpus contains 108 letters—70 by Eliade and 38 by Culianu—dating from 1972 to January 1986, while archival evidence indicates additional letters once existed. [“Corespondența Eliade–Culianu”](https://www.observatorcultural.ro/articol/corespondenta-eliade-culianu-i-2/)
+
+- **[T5]** **Documented fact:** They met repeatedly in Europe and the United States during the 1970s and 1980s. Eliade encouraged Culianu’s career in the history of religions; Culianu later joined the University of Chicago faculty and became both an interpreter and an increasingly independent critic of his mentor. [University of Chicago, Ioan P. Culianu Papers](https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.CULIANU)
+
+### Genghis Khan
+
+- **[T1-]** **Documented fact:** Eliade treated traditions associated with Genghis Khan in *De Zalmoxis à Gengis-Khan* (1970; English, *Zalmoxis, the Vanishing God*, 1972). The connection is textual and comparative; it does not imply that the book is a biography of Genghis Khan.
+
+### Helena Petrovna Blavatsky
+
+- **[T1-]** **Documented fact:** Eliade discussed Blavatsky and modern Theosophy in his writings on occult revival, particularly *Occultism, Witchcraft, and Cultural Fashions* (1976), placing the movement within the modern Western reception and reconstruction of Asian religious ideas.
+
+### Rudolf Steiner
+
+- **[T1-]** **Documented fact:** Eliade wrote about Steiner and Anthroposophy within his historical treatment of modern occult and esoteric movements, especially in *Occultism, Witchcraft, and Cultural Fashions*.
+
+### G. I. Gurdjieff
+
+- **[T1-]** **Documented fact:** Eliade discussed Gurdjieff as part of the twentieth-century Western occult and initiatory revival in *Occultism, Witchcraft, and Cultural Fashions*. No documented personal meeting was located.
+
+### Martin Heidegger
+
+- **[T3]** **Documented fact:** Eliade engaged Heidegger’s writings in the intellectual programs and discussions of the Criterion generation and later participated indirectly in an effort by *Antaios* co-editor Ernst Jünger to solicit a contribution from Heidegger. Available scholarship describes their connection as intellectual and reports that they never met. [Jünger–Heidegger correspondence](https://www.scribd.com/document/772474770/HEIDEGGER-Martin-JUNGER-Ernst-Correspondance-1949-1975)
+
+No adequately documented personal, epistolary, prophetic, or shared-object connection was found for the remaining roster members. Mere appearance in Eliade’s encyclopedic surveys, shared subject matter, later comparison by third parties, or coincidental presence in the same city has not been counted.
+
 ## Sources
 
 https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.ELIADEM

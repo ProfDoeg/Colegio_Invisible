@@ -567,6 +567,94 @@ Marcuse supplied portable concepts—false needs, one-dimensionality, repressive
 - No exhaustive article-by-article bibliography can fit reliably without reproducing a specialist bibliography; this dossier provides the principal books, major essays, documentary series, and routes to the archive and fuller bibliographies.
 - Some university employment claims remain dependent on participant recollection because personnel records are not fully public.
 
+## Atlas Connections
+
+### Erich Fromm
+
+- **[T3] Documented fact:** Marcuse and Fromm were colleagues in the Institute for Social Research during the 1930s and later engaged each other in print. Marcuse criticized Fromm and other neo-Freudians in “The Social Implications of Freudian ‘Revisionism’” (1955); Fromm answered, and Marcuse published a reply. The exchange concerned whether revisionist psychoanalysis weakened Freud’s critique of civilization. The Frankfurt archive also records Marcuse’s later acknowledgment of Fromm’s formative role in bringing Marx and Freud together within critical theory ([Frankfurt Marcuse archive](https://sammlungen.ub.uni-frankfurt.de/marcuse); [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/marcuse/)).
+
+### Felix Weil
+
+- **[T4] Documented fact:** Weil founded and financed the Institute for Social Research whose exile organization employed Marcuse from 1933. Both belonged to the Institute’s transatlantic milieu, although the available evidence supports an institutional crossing rather than a close personal partnership between them ([Institute for Social Research history](https://www.ifs.uni-frankfurt.de/schlaglichter.html)).
+
+### Friedrich Schiller
+
+- **[T1-] Documented fact:** Marcuse wrote about Schiller repeatedly. He compiled an annotated *Schiller-Bibliographie* in 1925 and later made Schiller’s *Letters on the Aesthetic Education of Man* central to the emancipatory aesthetics of *Eros and Civilization* ([Marcuse publication chronology](https://www.marcuse.org/herbert/publications/index-date.html); [*Eros and Civilization* index](https://www.marcuse.org/herbert/pubs/55erosciv/ecindex.htm)).
+
+### Georg Wilhelm Friedrich Hegel
+
+- **[T1-] Documented fact:** Hegel was a principal subject throughout Marcuse’s career. Marcuse’s 1932 *Hegels Ontologie und die Grundlegung einer Theorie der Geschichtlichkeit* interpreted Hegel’s ontology and historicity, while *Reason and Revolution* (1941) reconstructed Hegel’s philosophy and its passage into modern social theory ([Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/marcuse/); [*Reason and Revolution* contents and excerpts](https://www.marxists.org/reference/archive/marcuse/works/reason/index.htm)).
+
+### Henri de Saint-Simon
+
+- **[T1-] Documented fact:** Marcuse devoted a named section of *Reason and Revolution* (1941), “Saint-Simon,” to Saint-Simon’s place in the emergence of positivist social theory and industrial society ([*Reason and Revolution* contents and excerpts](https://www.marxists.org/reference/archive/marcuse/works/reason/index.htm)).
+
+### Immanuel Kant
+
+- **[T1-] Documented fact:** Marcuse discussed Kant as a major precursor of German idealism and critical philosophy, particularly in *Reason and Revolution* and in his writings on aesthetics. This is a textual intellectual-history connection; the two men were separated by more than a century ([*Reason and Revolution*](https://www.marxists.org/reference/archive/marcuse/works/reason/reason-and-revolution.pdf)).
+
+### Jean-Paul Sartre
+
+- **[T3] Documented fact:** Marcuse directly engaged Sartre’s writing, notably invoking Sartre’s preface to Frantz Fanon’s *The Wretched of the Earth* in “Repressive Tolerance” (1965). Marcuse also listed Sartre among potential contributors when discussing a revived critical-theory journal with Horkheimer in 1946 ([“Repressive Tolerance,” notes](https://www.marcuse.org/herbert/pubs/60spubs/65reprtoleranzdt.htm); [Marcuse to Horkheimer, 18 October 1946](https://www.marcuse.org/herbert/pubs/40spubs/46oLetterHerbHork.htm)).
+- **[T5] Reported fact:** Retrospective accounts report a personal Marcuse–Sartre meeting and conversation, but the accessible evidence located here does not securely establish its date, place, or circumstances. It should therefore not be treated as firmly documented from the presently cited record.
+
+### Jürgen Habermas
+
+- **[T3] Documented fact:** Marcuse and Habermas maintained written and intellectual exchange. Habermas criticized the instinct-theoretical foundations of Marcuse’s utopianism, while correspondence and later Starnberg discussions addressed the Frankfurt School, science, technology, and emancipation ([Notre Dame Philosophical Reviews](https://ndpr.nd.edu/reviews/towards-a-critical-theory-of-society-the-collected-papers-of-herbert-marcuse-volume-two/); [Frankfurt Marcuse archive](https://sammlungen.ub.uni-frankfurt.de/marcuse)).
+- **[T5] Documented fact:** They knew one another personally. Marcuse repeatedly participated in discussions at the Max Planck Institute in Starnberg, directed by Habermas, from 1974 to 1979; Marcuse was visiting Habermas’s Starnberg circle during the trip on which he suffered his final illness.
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Marcuse wrote extensively about Marx from his 1932 essay on the newly published *Economic and Philosophic Manuscripts of 1844* through *Reason and Revolution*, *Soviet Marxism*, and his later political writings. *Reason and Revolution* contains several sections specifically devoted to alienated labor, the labor process, and Marxian dialectics ([Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/marcuse/); [*Reason and Revolution* contents](https://www.marxists.org/reference/archive/marcuse/works/reason/index.htm)).
+- **[T1-] Documented fact:** Marcuse supplied an epilogue to a new German edition of Marx’s *The Eighteenth Brumaire of Louis Bonaparte*, later published in English in 1969, explicitly interpreting Marx’s historical analysis for a later political setting ([Marcuse publications index](https://www.marcuse.org/herbert/pubs.htm)).
+
+### Martin Heidegger
+
+- **[T3] Documented fact:** Marcuse studied with Heidegger at Freiburg from 1928 to 1932 and developed his early “Heideggerian Marxism” through sustained engagement with Heidegger’s philosophy. After 1945 their relationship became an explicit written confrontation over Heidegger’s Nazism and failure to repudiate it publicly ([Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/marcuse/); [Marcuse–Heidegger correspondence](https://www.marcuse.org/herbert/pubs/40spubs/47MarcuseHeidegger.htm)).
+- **[T5] Documented fact:** Beyond the earlier teacher–student contact at Freiburg, Marcuse visited Heidegger at his Todtnauberg cottage during an official trip to Germany in 1947. Their discussion prompted Marcuse’s letter of 28 August 1947, Heidegger’s reply of 20 January 1948, and Marcuse’s final response of 12 May 1948 ([Marcuse–Heidegger correspondence](https://www.marcuse.org/herbert/pubs/40spubs/47MarcuseHeidegger.htm)).
+
+### Max Horkheimer
+
+- **[T3] Documented fact:** Horkheimer assessed and employed Marcuse at the Institute for Social Research, corresponded with him extensively, and co-authored “Philosophie und kritische Theorie” with him in 1937. Surviving letters cover Institute affairs, antisemitism, postwar Germany, Freud, publishing, and Marcuse’s possible return to the Institute ([Frankfurt archival record for the 1937 essay](https://sammlungen.ub.uni-frankfurt.de/marcuse/content/titleinfo/9766804); [1946 letter to Horkheimer](https://www.marcuse.org/herbert/pubs/40spubs/46oLetterHerbHork.htm); [1955 correspondence record](https://sammlungen.ub.uni-frankfurt.de/marcuse/content/structure/9766262)).
+- **[T5] Documented fact:** They were personal colleagues within the Institute’s Geneva, New York, and postwar transatlantic network. The evidence establishes repeated professional contact, although their relationship also contained differences over institutional control, politics, and Marcuse’s later identification with the New Left.
+
+### Friedrich Nietzsche
+
+- **[T1-] Documented fact:** Marcuse engaged Nietzsche’s concepts of nihilism, the “gay science,” the heroic ideal, and transformed existence in *Eros and Civilization* and later writings. The 1966 political preface explicitly described Marcuse’s emancipated human image as a determinate negation of Nietzsche’s overman ([1966 preface to *Eros and Civilization*](https://www.marxists.org/reference/archive/marcuse/works/eros-civilisation/preface.htm); [*Eros and Civilization* index](https://www.marcuse.org/herbert/pubs/55erosciv/ecindex.htm)).
+
+### Søren Kierkegaard
+
+- **[T1-] Documented fact:** Marcuse devoted a discrete section of *Reason and Revolution* to Kierkegaard, treating his philosophy as part of the nineteenth-century negation and dissolution of post-Hegelian philosophy ([*Reason and Revolution* contents](https://www.marxists.org/reference/archive/marcuse/works/reason/index.htm)).
+
+### Salvador Allende
+
+- **[T1-] Documented fact:** After Allende’s death in the Chilean coup of 11 September 1973, Marcuse addressed the overthrow and its political meaning in “The Meaning of Chile.” The surviving UC San Diego document records a posthumous written/political engagement, not a demonstrated personal relationship ([UC San Diego, “The Meaning of Chile”](https://library.ucsd.edu/dc/object/bb7953381x/_1.pdf)).
+
+### Sigmund Freud
+
+- **[T1-] Documented fact:** Freud was the principal historical interlocutor of *Eros and Civilization* (1955). Marcuse reinterpreted Freud’s metapsychology, repression, the pleasure principle, Eros, and the death drive as resources for a critical theory of historically unnecessary domination ([*Eros and Civilization*, chapter 1](https://www.marxists.org/reference/archive/marcuse/works/eros-civilisation/ch01.htm); [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/marcuse/)).
+- **[T1-] Documented fact:** Marcuse’s engagement continued through lectures, correspondence with Horkheimer about a Freud publication, and his polemic against neo-Freudian revisionism; no personal meeting with Freud is established ([Frankfurt archival correspondence record](https://sammlungen.ub.uni-frankfurt.de/marcuse/content/structure/9766262)).
+
+### Theodor W. Adorno
+
+- **[T3] Documented fact:** Adorno reviewed Marcuse’s *Hegels Ontologie*, later became his Institute colleague, and exchanged letters with him over critical theory, politics, publishing, and the student movement. Their written relationship combined a shared theoretical project with meaningful differences over direct solidarity with the 1960s movements ([Frankfurt Marcuse archive](https://sammlungen.ub.uni-frankfurt.de/marcuse); [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/marcuse/)).
+- **[T5] Documented fact:** Marcuse and Adorno knew one another personally through the Institute for Social Research’s exile and postwar networks. Their connection was collegial rather than merely a later textual comparison.
+
+### Vladimir Lenin
+
+- **[T1-] Documented fact:** Marcuse analyzed Leninism and the “Leninist heritage” at length in *Soviet Marxism: A Critical Analysis* (1958), examining the transformation of Marxian theory into Soviet party and state doctrine ([*Soviet Marxism* text and contents](https://www.marxists.org/svenska/marcuse/1958/sovjetmarxism.htm); [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/marcuse/)).
+
+### Walter Benjamin
+
+- **[T1-] Documented fact:** Marcuse wrote the afterword to the 1965 Suhrkamp collection *Walter Benjamin, Zur Kritik der Gewalt und andere Aufsätze*. He interpreted the internal relation among Benjamin’s writings on philosophy, violence, fate, character, history, and political theology ([Marcuse’s 1965 afterword](https://www.marcuse.org/herbert/publications/1960s/1965-nachwort-von-herbert-marcuse.html)).
+- **[T1-] Documented fact:** Marcuse subsequently engaged Benjamin’s “The Work of Art in the Age of Mechanical Reproduction” in his own writings on art and liberation ([“Art as a Form of Reality,” notes](https://www.marcuse.org/herbert/pubs/70spubs/727tr04ArteRealidad.htm)). No securely documented personal meeting between them was established.
+
+### Mark Fisher
+
+- **[T1+] Documented fact:** Fisher, born in 1968, could not have been Marcuse’s student or personal interlocutor, but his unfinished 2016 introduction to *Acid Communism*, published posthumously, explicitly engaged *Eros and Civilization*, *One-Dimensional Man*, and *The Aesthetic Dimension*. Marcuse is therefore the earlier figure written about; similarities between *One-Dimensional Man* and Fisher’s earlier *Capitalist Realism* alone would not establish this connection ([“Acid Communism” text and notes](https://my-blackout.com/2019/04/25/mark-fisher-acid-communism-unfinished-introduction/); [Nina Power, “Society without Opposition”](https://pure.roehampton.ac.uk/ws/files/661680/Radical_Philosophy_Review_text_POWER.pdf)).
+
+No substantiated T2 prophecy/hyperstition or T9 shared-object transmission was identified between Marcuse and any roster member. Famous associative formulas such as “Marx, Mao, Marcuse” establish public juxtaposition, not by themselves correspondence, meeting, co-presence, prophecy, or object transmission.
+
 ## Sources
 
 https://www.marcuse.org/herbert/

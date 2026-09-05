@@ -828,6 +828,22 @@ The durability of the phrase “gentlemen do not read each other’s mail” has
 | 1988 | Inducted into U.S. Army Military Intelligence Hall of Fame |
 | 1999 | Inducted into NSA Cryptologic Hall of Honor |
 
+## Atlas Connections
+
+### William F. Friedman
+
+- **[T3]** **Documented fact.** Yardley and Friedman maintained direct professional correspondence beginning in 1919, when Yardley attempted to recruit William—and, through him, Elizebeth Friedman—for the proposed peacetime Cipher Bureau. Their surviving exchanges also concern cryptographic systems and machinery in the late 1920s. Friedman later annotated and critically evaluated Yardley’s writings, opposed restoring him to sensitive Allied work, and continued investigating the circumstances surrounding the Black Chamber’s closure. The NSA catalogues both [Yardley–Friedman correspondence](https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/museum/national-cryptologic-museum-library-catalog.pdf) and [Friedman’s annotated copy of *The American Black Chamber*](https://www.nsa.gov/Helpful-Links/NSA-FOIA/Declassification-Transparency-Initiatives/Historical-Releases/Friedman-Documents/Reports-Research/).
+
+### Elizebeth Smith Friedman
+
+- **[T3]** **Documented fact.** Elizebeth Friedman was included in Yardley’s 1919 effort to recruit the Friedmans for his planned postwar cryptanalytic organization: surviving correspondence records an offer of $3,000 annually for William and $1,520 for Elizebeth. The negotiations were conducted principally through William, so the evidence supports written professional engagement within the same recruitment exchange, but not a close personal relationship between Yardley and Elizebeth. Her later oral-history recollections also discussed Yardley’s organization and personnel. Sources: [NSA oral history with Elizebeth Friedman](https://media.defense.gov/2021/Jul/15/2002763459/-1/-1/0/NSA-OH-1976-17-EFRIEDMAN.PDF) and the surviving 1919 correspondence described in the Friedman archival record.
+
+### Ian Fleming
+
+- **[T3]** **Documented fact.** In 1957 Fleming wrote the introduction or preface for the British edition of Yardley’s *The Education of a Poker Player*, published by Jonathan Cape in 1959 after Yardley’s death. This was a one-sided literary engagement with Yardley’s work; no reliable evidence located establishes that the two men met or corresponded personally. Christopher Moran’s study of Fleming’s intelligence connections confirms the 1957 commission and identifies Yardley and *The American Black Chamber* in Fleming’s prefatory treatment. [Source](https://wrap.warwick.ac.uk/id/eprint/110589/1/WRAP-secret-life-IIan-Fleming-spies-lies-social%20ties-Moran-2018.pdf).
+
+No additional roster crossings were found that satisfied the defined categories. In particular, shared cryptologic subject matter with Alan Turing, Claude Shannon, Arthur Scherbius, Blaise de Vigenère, Auguste Kerckhoffs, Étienne Bazeries, or Marian Rejewski does not itself establish discourse, proximity, meeting, or passage of a specific object; nor does Yardley’s service in Nationalist China establish a documented crossing with Mao Zedong or Madame Chiang Kai-shek.
+
 ## Sources
 
 https://www.nsa.gov/History/Cryptologic-History/Historical-Figures/Historical-Figures-View/Article/1623030/herbert-o-yardley/

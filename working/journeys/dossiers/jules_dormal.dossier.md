@@ -586,6 +586,42 @@ Historical reinterpretation has moved from great-man lists toward **shared autho
 | 2023 | Restored 1881 Sívori bust exhibited in Museo Nacional de Bellas Artes context. |
 | 2024 | Centenary commemorations at Teatro Colón; renewed press attention to Dormal and San Martín 1137. |
 
+## Atlas Connections
+
+### Alejandro Christophersen
+
+- **[T3] Documented fact:** Dormal and Christophersen jointly issued the **26 June 1901** written call that revived the Sociedad Central de Arquitectos in Buenos Aires; they subsequently participated in its reorganization and revised statutes. This is direct documentary/professional engagement, not merely membership in the same milieu. [Architectural-history study](https://architecture-history.org/books/Breve%20historia%20de%20la%20arquitectura%20Argentina.pdf)
+
+### Carlos Thays
+
+- **[T4] Documented fact:** By **1903–1906**, Dormal and Thays served together in Buenos Aires municipal cultural administration: Dormal as a senior architecture official and Thays as director of parks, both participating in the commission that considered and acquired artworks for public space. The evidence establishes a shared official milieu but does not, by itself, prove friendship. [UNLP study of the commission](https://sedici.unlp.edu.ar/bitstream/handle/10915/38780/Documento_completo.pdf?sequence=1)
+
+### Juan Antonio Buschiazzo
+
+- **[T3] Documented fact:** Dormal and Buschiazzo were among the ten architects who signed the constitutive statutes of the Sociedad Central de Arquitectos in Buenos Aires on **18 March 1886**. Their joint signature and organizational work constitute written professional engagement. [History of the SCA](https://www.palermo.edu/dyc/publicaciones/creacion.produccion/pdf/creacion09/09-completo.pdf)
+
+### Domingo Faustino Sarmiento
+
+- **[T5] Reported fact:** Later biographical accounts describe Sarmiento as an early contact or friend of Dormal after the latter settled in Buenos Aires around **1870**. A more specific tradition says Sarmiento personally advised Dormal about the arrangement of trees and promenades during the **1874–1876 Parque Tres de Febrero** project. The relationship is repeatedly reported, but no correspondence or contemporary record of their first meeting was located. [Biographical account](https://es.wikipedia.org/wiki/Julio_Dormal)
+
+### Francesco Tamburini
+
+- **[T9-] Documented fact:** Dormal became the final architect in the succession attached to the new **Teatro Colón**, whose original project and construction had been initiated by Tamburini in **1890**. Tamburini died in 1891, long before Dormal assumed control in 1904, so this is a connection through an inherited building project rather than a documented meeting or collaboration. [Teatro Colón institutional history](https://teatrocolon.org.ar/el-teatro/)
+
+### Vittorio Meano
+
+- **[T9-] Documented fact:** After Meano’s murder in **1904**, Dormal inherited two major projects associated with him in Buenos Aires: the **Palacio del Congreso Nacional**, which Dormal carried toward its 1906 inauguration, and the unfinished **Teatro Colón**, which he structurally reviewed, modified, decorated, and completed for its 1908 opening. No personal meeting between the two architects is established here; their documented crossing is the transfer of plans, works, and sites from predecessor to successor. [National Congress heritage record](https://www.argentina.gob.ar/capital-humano/cultura/monumentos/congreso-nacional), [Teatro Colón institutional history](https://teatrocolon.org.ar/el-teatro/)
+
+### José de San Martín
+
+- **[T9-] Reported fact / qualified attribution:** Dormal is traditionally credited with the architectural setting or enclosure made for San Martín’s remains in the Metropolitan Cathedral around **1877–1880**, while Albert-Ernest Carrier-Belleuse supplied the sculptural mausoleum. The shared object is therefore San Martín’s funerary monument and relics; Dormal’s precise contractual role remains incompletely documented. [Argentine legislative heritage account](https://intranet.hcdiputados-ba.gov.ar/asuntos/asuntos1382.pdf)
+
+### Daniel Schávelzon
+
+- **[T1+] Documented fact:** Architectural historian and archaeologist Daniel Schávelzon, born after Dormal’s death, wrote about Dormal’s participation in the competition and formative works for **Parque Tres de Febrero**, distinguishing his proposal from the park’s later execution by a broader team. On Dormal’s dossier the sign is positive because he is the earlier figure written about. [Schávelzon’s landscape study](https://josefinaoliver.com/arc/books/arbolCementoEs.pdf)
+
+No additional roster crossings were included where the evidence showed only broad contemporaneity, presence in the same city, stylistic affinity, or later use of a Dormal-associated building.
+
 ## Sources
 
 https://teatrocolon.org.ar/el-teatro/

@@ -1745,6 +1745,29 @@ Supported by later chronicles and convergent archival scholarship:
 
 ---
 
+## Atlas Connections
+
+### Hernán Cortés
+
+- **[T1+]** **Documented fact.** In a letter prepared at Mexico in **1527** for the ruler of Cebu and entrusted to Álvaro de Saavedra’s Moluccan expedition, Cortés recounted Charles V’s dispatch of “Hernando de Magallanes” with five ships and discussed the expedition’s earlier dealings at Cebu. Magellan is the earlier, written-about figure; Cortés is the later writer. The document survives through Spanish archival publication and appears in *The Philippine Islands, 1493–1898*, vol. 2. [Project Gutenberg edition](https://gutenberg.org/cache/epub/13280/pg13280-images.html)
+
+### Charles Darwin
+
+- **[T1+]** **Documented fact.** Darwin discussed Magellan in *Journal of Researches*, later known as *The Voyage of the Beagle* (**1839**). While assessing Patagonian fauna, he specifically evaluated what “Magellan” had meant by the animals called *conejos*, treating testimony from the earlier expedition as natural-historical evidence. Magellan is therefore the earlier, written-about figure. [Darwin’s text](https://mirror.csclub.uwaterloo.ca/gutenberg/9/4/944/944-h/944-h.htm)
+- **[T9+]** **Documented fact.** Magellan’s expedition traversed the strait in **October–November 1520**; Darwin subsequently passed through and studied the same waterway aboard HMS *Beagle*, including visits in **1833–1834**. Their connection is the shared Strait of Magellan without shared occupancy, with Magellan first in the pair. [Darwin Correspondence Project](https://www.darwinproject.ac.uk/voyage-beagle), [Darwin’s chapter on the strait](https://mirror.csclub.uwaterloo.ca/gutenberg/9/4/944/944-h/944-h.htm)
+
+### Alexander von Humboldt
+
+- **[T1+]** **Documented fact.** In volume II of *Kosmos* (**1847**), Humboldt placed Magellan within the history of European geographic discovery, narrating his **27 November 1520** emergence into the Pacific, the trans-Pacific crossing, and the encounter with the Marianas and Philippines. Magellan is the earlier, written-about figure. [Humboldt’s *Kosmos*, vol. II](https://projekt-gutenberg.org/authors/friedrich-wilhelm-heinrich-alexander-freiherr-von-humboldt/books/kosmos-zweiter-band/chapter/14/)
+
+### Jules Verne
+
+- **[T1+]** **Documented fact.** Verne devoted a substantial section of *Découverte de la Terre* (**1878**) to Magellan’s life and expedition, covering his Portuguese career, transfer to Castilian service, preparations, mutiny, strait and Pacific crossings, death at Mactan, and the surviving ships’ return. Magellan is the earlier, written-about figure. [Verne’s Magellan chapter](https://fr.wikisource.org/wiki/D%C3%A9couverte_de_la_Terre/Deuxi%C3%A8me_partie/Chapitre_II)
+
+### H. G. Wells
+
+- **[T1+]** **Documented fact.** Wells summarized Magellan’s career and voyage in *The Outline of History* (**1920**), describing the strait passage, Pacific crossing, privation, death in the Philippines, and eventual return of *Victoria*. He also contrasted the voyage’s hardships with those of Columbus. Magellan is the earlier, written-about figure. [Scanned *Outline of History*](https://upload.wikimedia.org/wikipedia/commons/8/8b/The_outline_of_history_-_being_a_plain_history_of_life_and_mankind_%28IA_outlineofhistory02wellrich%29.pdf)
+
 ## Sources
 
 https://antt.dglab.gov.pt/exposicoes-virtuais-2/a-viagem-de-circum-navegacao-de-fernao-de-magalhaes/

@@ -448,6 +448,67 @@ His strongest historical significance is not a single doctrine or invention. It 
 
 The search stopped after multilingual discovery and targeted follow-up converged on the same small body of specialist histories and institutional/archival descriptions. Further web searching produced repeated summaries rather than new primary documentation. Resolving the remaining consequential gaps requires offline or non-digitized Belgian, Ticinese and Brazilian civil, cadastral and family records.
 
+## Atlas Connections
+
+### Arnold Rikli
+
+- **[T4]** **Documented fact:** In 1899 Oedenkoven stayed at Arnold Rikli’s nature-cure establishment in Veldes/Bled, where he encountered the regimen of light, air, water, exercise and vegetarian diet that informed Monte Verità. The record establishes presence at Rikli’s institution, but not a specific personal meeting between the two men. ([Bled–Wangen partnership history](https://www.gpwb.ch/arnold_rikli))
+
+### Ida Hofmann
+
+- **[T5]** **Documented fact:** Oedenkoven met Hofmann at Veldes in summer 1899; they became intimate partners and, from 1900, co-founders and operators of Monte Verità. Although their conjugal relationship ended during the First World War, their friendship and institutional cooperation continued through their migration to Brazil. ([Historical Dictionary of Switzerland](https://hls-dhs-dss.ch/fr/articles/049204/), [Monte Verità institutional history](https://www.monteverita.org/history))
+
+### Karl Gräser
+
+- **[T5]** **Documented fact:** Karl Gräser belonged to Oedenkoven’s founding circle at Veldes and participated in the 1900 search for and establishment of the settlement above Ascona. The two subsequently divided over property, money and whether Monte Verità should become a commercially sustainable sanatorium. ([Elisarion historical account](https://www.elisarion.ch/it/monte_verita/monte_verita/rivista_du_1978/fondatori_vegetarismo.html), [Monte Verità institutional history](https://www.monteverita.org/history))
+
+### Gusto Gräser
+
+- **[T5]** **Documented fact:** Gusto Gräser was an original participant in the 1900 Monte Verità project and personally worked alongside Oedenkoven before their conflict over private control, commercialization and the settlement’s direction. Gräser withdrew from the central enterprise but remained in the surrounding Ascona milieu. ([Elisarion historical account](https://www.elisarion.ch/it/monte_verita/monte_verita/rivista_du_1978/fondatori_vegetarismo.html), [Monte Verità documents portal](https://monteverita.net/))
+
+### Erich Mühsam
+
+- **[T4]** **Documented fact:** Mühsam visited the Oedenkoven-era Monte Verità establishment during the first decade of the twentieth century, placing both men in the same institutional setting.
+- **[T3]** **Documented fact:** Mühsam’s 1905 pamphlet *Ascona* directly engaged with and attacked Oedenkoven and Hofmann’s project, characterizing it as a commercially operated vegetarian hotel-pension carrying an ethical label. This is one-sided written engagement rather than evidence of friendship.
+
+### Hermann Hesse
+
+- **[T5]** **Documented fact:** Hesse stayed at the Monte Verità sanatorium in April 1907. A surviving group photograph places Hesse together with Oedenkoven and Hofmann, establishing personal proximity during the visit rather than merely a later association with Ascona.
+
+### Isadora Duncan
+
+- **[T5]** **Reported fact:** Hofmann’s first-person account says that she and Oedenkoven personally met Duncan at Bayreuth on 13 August 1904. This reported meeting is distinct from—and firmer than—the frequently repeated but disputed claim that Duncan visited Monte Verità during Oedenkoven’s tenure. Later institutional publicity does describe a Duncan visit, whereas Andreas Schwab’s reconstruction reportedly places her among figures probably never present on the hill. ([Monte Verità media guide](https://mediaguide.monteverita.org/en/the-history/1913-1918))
+
+### Rudolf von Laban
+
+- **[T5]** **Documented fact:** In May 1913 Laban approached Oedenkoven with a proposal to establish an art school at Monte Verità. With Oedenkoven and Hofmann’s support, Laban then conducted summer courses there from 1913 through 1917; relations eventually broke down around the 1917 congress and Sun Festival. ([Monte Verità media guide](https://mediaguide.monteverita.org/en/the-history/1913-1918), [Monte Verità documents portal](https://monteverita.net/sonnenfest/))
+
+### Mary Wigman
+
+- **[T4]** **Documented fact:** Wigman studied and performed with Laban’s school at Monte Verità during Oedenkoven’s ownership and residence there, especially in the 1913–1917 period. She and Laban were prominent participants in the August 1917 congress festivities. The evidence establishes a shared site and institutional milieu, but not a separate personal relationship with Oedenkoven. ([Monte Verità media guide](https://mediaguide.monteverita.org/en/the-history/1913-1918), [congress documentation](https://monteverita.net/congres-cooperatif-anational/))
+
+### Suzanne Perrottet
+
+- **[T4]** **Documented fact:** Perrottet was a student and collaborator in Laban’s dance school at Monte Verità while Oedenkoven still owned and operated the settlement, placing them in the same artistic-institutional milieu between approximately 1913 and 1917. No direct personal exchange has been established. ([Monte Verità media guide](https://mediaguide.monteverita.org/en/the-history/1913-1918))
+
+### Katja Wulff
+
+- **[T4]** **Documented fact:** Wulff studied in Laban’s Monte Verità school during the Oedenkoven period and is identified by the institution alongside Wigman and Perrottet as part of the emerging “New Dance” circle. This supports shared occupancy of the site, not a documented personal friendship. ([Monte Verità media guide](https://mediaguide.monteverita.org/en/the-history/1913-1918))
+
+### Sophie Taeuber-Arp
+
+- **[T4]** **Documented fact:** Taeuber participated in Laban’s dance network associated with Monte Verità during Oedenkoven’s final years there. Scholarship places her within the Laban-school and Monte Verità–Zurich Dada interchange, but no specific meeting or correspondence with Oedenkoven has been located. ([Swiss Lebensreform study](https://sonar.ch/documents/312919/files/Lebensreform_Rindlisbacher.pdf))
+
+### Theodor Reuss
+
+- **[T5]** **Documented fact:** Reuss operated within Monte Verità during Oedenkoven’s tenure, and Oedenkoven attended or permitted meetings associated with Reuss and the O.T.O. Reuss organized the “Anational Congress” there on 15–25 August 1917, making direct personal dealings between the two unavoidable and historically reported. Claims that Oedenkoven expelled Reuss specifically over sexual-magical “orgies” remain **rumor or allegation**, not securely documented fact. ([Monte Verità media guide](https://mediaguide.monteverita.org/en/the-history/1913-1918), [contemporary O.T.O. constitution](https://otohungary.org/documents/publication/english/Revised_OTO_Constitution_1917.html))
+
+### Max Weber
+
+- **[T4]** **Documented fact:** Weber stayed in the Ascona/Monte Verità environment in spring 1913 and again in 1914 while Oedenkoven was resident proprietor. This establishes overlapping presence in the same reform milieu; the evidence reviewed does not establish that Weber and Oedenkoven personally met. ([Art Ascona biographical account](https://artascona.org/2022/08/16/max-weber/))
+
+Frequently repeated roster associations involving Carl Jung, Sigmund Freud, Paul Klee, Vladimir Lenin and Leon Trotsky were not included as connections. Available specialist discussion either places their relevant activity outside Oedenkoven’s tenure or identifies their alleged presence on his hill as unverified or probably false; general “Monte Verità visitor” lists are insufficient evidence of a crossing with Oedenkoven.
+
 ## Sources
 
 https://hls-dhs-dss.ch/fr/articles/049204/

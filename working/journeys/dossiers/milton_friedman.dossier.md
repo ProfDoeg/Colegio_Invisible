@@ -756,6 +756,44 @@ Corporate debate since 2019 has revived the 1970 essay through conflict over sta
 | 2023 | Jennifer Burns’s archival biography and Sebastian Edwards’s *The Chile Project*. |
 | 2025 | Charles Koch receives Cato’s Milton Friedman Prize, a posthumous symbolic linkage. |
 
+## Atlas Connections
+
+### Adam Smith
+
+- **[T1-] Documented fact:** Friedman assessed Smith’s ideas and historical importance in “Adam Smith’s Relevance for 1976,” written for the bicentenary of *The Wealth of Nations*. He argued that Smith remained unusually relevant to twentieth-century debates over trade, government, and economic freedom. [Chicago Booth Review](https://www.chicagobooth.edu/review/archive/adam-smiths-relevance-1976)
+
+### Augusto Pinochet
+
+- **[T5] Documented fact:** Friedman met Pinochet in Santiago on **21 March 1975** for approximately 45–60 minutes, with Arnold Harberger and others present, and recommended rapid fiscal and monetary stabilization. Archival research also documents a second encounter during Friedman’s **November 1981** Chile visit. [Edwards and Montes, *Journal of the History of Economic Thought*](https://www.cambridge.org/core/journals/journal-of-the-history-of-economic-thought/article/milton-friedman-in-chile-shock-therapy-economic-freedom-and-exchange-rates/D58D1A94977A748FA9A9F154EB002E37)
+- **[T3] Documented fact:** On **21 April 1975**, Friedman sent Pinochet a substantive policy letter recommending a short, severe stabilization program; Pinochet replied on **16 May 1975**. This was direct correspondence, although it did not constitute a formal advisory appointment. [Edwards and Montes working paper](https://www.nber.org/system/files/working_papers/w27975/w27975.pdf)
+
+### Charles Koch
+
+- **[T9+] Documented fact:** Friedman authorized Cato’s use of his name for the **Milton Friedman Prize for Advancing Liberty**, established during his lifetime. Charles Koch received that named prize in **Washington, D.C., on 1 May 2025**, nineteen years after Friedman’s death. The prize is therefore a shared institutional object linking its namesake and a later recipient; it does not by itself establish a close personal or financial relationship between them. [Cato Institute 2025 annual report](https://www.cato.org/annualreport25/2025-milton-friedman-prize)
+
+### Friedrich Hayek
+
+- **[T5] Documented fact:** Friedman attended the conference Hayek convened at Mont Pèlerin, Switzerland, in **April 1947**, and later recalled continued discussions after Hayek joined the University of Chicago’s Committee on Social Thought in **1950**. Both subsequently served as presidents of the Mont Pelerin Society. [Friedman interview for PBS’s *Commanding Heights*](https://www.pbs.org/wgbh/commandingheights/press_site/people/friedman_intv.html)
+- **[T3] Documented fact:** Their relationship included written as well as personal intellectual exchange. The Hayek papers contain a dedicated **“Friedman, Milton, 1947–1981”** correspondence file, while Friedman later wrote explicitly about Hayek’s influence and his role in establishing the Mont Pelerin Society. [Hoover Digital Collections](https://digitalcollections2.hoover.org/view/ark%3A/54723/h3c53f25c/friedman-milton-1947-1981?limit=10&offset=147&q=facet%2Cmetadata.rights_stmt_code_letter.en.keyword%2Cequals%2Ce&q=must%2Cany%2Ccontains%2Claw&sort=_score)
+
+### George W. Bush
+
+- **[T5] Documented fact:** President Bush hosted Milton and Rose Friedman at the White House on **9 May 2002**, delivered a public tribute to Milton Friedman, and announced that they would have lunch together. The official event record establishes personal co-presence and direct ceremonial recognition. [Public Papers of the Presidents](https://www.govinfo.gov/app/details/PPP-2002-book1/context)
+
+### John Maynard Keynes
+
+- **[T1-] Documented fact:** Friedman wrote a substantial retrospective assessment titled “John Maynard Keynes,” first published in German in **1989** and in English in the Federal Reserve Bank of Richmond’s *Economic Quarterly* in **1997**. He evaluated Keynes’s technical economics and political legacy, praising parts of the former while criticizing Keynes’s confidence in benevolent expert administration. [Collected Works of Milton Friedman](https://miltonfriedman.hoover.org/objects/58049/john-maynard-keynes)
+
+### Ludwig von Mises
+
+- **[T5] Documented fact:** Friedman and Mises attended the founding Mont Pelerin conference in Switzerland in **1947** and later appeared together at other meetings, including a recorded **1958 Princeton conference**. Friedman repeatedly recalled Mises interrupting a Mont Pelerin discussion by declaring the other participants “a bunch of socialists,” establishing direct personal encounter even though the famous wording rests principally on Friedman’s retrospective recollection. [Hoover Institution economics collections](https://www.hoover.org/library-archives/collections/economics), [Friedman interview with *Reason*](https://reason.com/1995/06/01/best-of-both-worlds/)
+
+### Murray Rothbard
+
+- **[T3] Documented fact:** Rothbard engaged Friedman’s monetary economics and political strategy directly and critically in writings later collected as “Milton Friedman Unraveled.” Friedman, in turn, discussed and rejected Rothbard’s interpretation of Federal Reserve policy and the Great Depression. The evidence supports adversarial intellectual engagement, not friendship or a close working relationship. [Rothbard, “Milton Friedman Unraveled”](https://campaign-resources.org/media/Alternative%20Monetary%20Systems/Milton%20Friedman%20Unraveled%20-%20Murray%20N%20Rothbard.pdf)
+
+No additional roster entries were included where the available evidence showed only broad intellectual influence, posthumous comparison, shared ideology, contemporaneity, or presence in the same country without a documented crossing.
+
 ## Sources
 
 https://www.nobelprize.org/prizes/economic-sciences/1976/friedman/biographical/

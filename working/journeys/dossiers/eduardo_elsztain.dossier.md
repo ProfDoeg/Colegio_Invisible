@@ -740,6 +740,28 @@ Because he is living and active, this is a present reputation rather than a post
 | Mar 2026 | SEC filing attributes 39.12% of Cresud net outstanding shares to Elsztain’s beneficial control group. |
 | 2026 | Casposo mining operations restart; Elsztain remains active across real estate, agriculture, banking, mining, and Jewish institutions. |
 
+## Atlas Connections
+
+### George Soros
+
+- **[T5] Documented fact:** Elsztain met Soros in New York City in 1990 and persuaded him to invest in Argentine real estate. The meeting began a substantial business partnership: Soros-backed capital helped recapitalize and expand IRSA during the 1990s, while Elsztain managed the Argentine investments. Contemporary profiles and Elsztain’s later recollections confirm the face-to-face meeting and investment relationship. ([TIME](https://content.time.com/time/subscriber/article/0,33009,987050-5,00.html), [El Tiempo](https://www.eltiempo.com/archivo/documento/mam-386991))
+
+### Cristina Fernández de Kirchner
+
+- **[T5] Documented fact:** As president of Argentina, Fernández de Kirchner received Elsztain at the Casa Rosada in Buenos Aires on 12–13 May 2008. Contemporary reporting described a private meeting lasting approximately an hour, although its substantive agenda was not disclosed. ([Infobae/Télam](https://www.infobae.com/2008/05/13/379800-presidente-cristina-kirchner-recibio-al-titular-irsa/))
+
+### Hugo Chávez
+
+- **[T5] Documented fact:** Elsztain, then treasurer of the World Jewish Congress, participated in the WJC and Latin American Jewish Congress delegation that met Venezuelan president Hugo Chávez at Miraflores Palace in Caracas on 13 August 2008. The delegation raised antisemitism, Venezuela’s relations with Iran and Israel, and the security concerns of Venezuela’s Jewish community. Elsztain subsequently characterized the meeting positively and reported that Chávez had rejected Holocaust denial and discrimination. ([Ámbito](https://www.ambito.com/politica/chavez-recibe-hoy-quejas-congreso-judio-iran-n3512172), [Infobae](https://www.infobae.com/2008/08/12/397373-satisfaccion-la-comunidad-judia-reunion-chavez/))
+
+### Benjamin Netanyahu
+
+- **[T4] Documented fact:** Elsztain and Netanyahu were present within the same institutional event at the World Jewish Congress’s 13th Plenary Assembly in Jerusalem in January 2009. Elsztain was elected chairman of the WJC Governing Board, while Netanyahu, then Likud chairman, addressed the delegates. The official account establishes common attendance at the assembly but does not establish a private conversation or personal relationship between them. ([World Jewish Congress](https://www.worldjewishcongress.org/en/news/ronald-s-lauder-confirmed-as-president-of-world-jewish-congress))
+
+### Javier Milei
+
+- **[T5] Documented fact:** Elsztain and Milei developed a documented personal relationship during 2023–25. Milei used IRSA’s Hotel Libertador in Buenos Aires as his campaign base and residence, and the two appeared together at a Hanukkah celebration in Buenos Aires in December 2023. After Milei’s election, Elsztain accompanied him to the grave of Rabbi Menachem Mendel Schneerson in Queens, New York, during Milei’s first foreign trip as president-elect in November 2023. Reporting also identifies Elsztain as one of the people who encouraged Milei’s earlier visit to the site. These facts establish repeated personal meetings and joint travel, but not claims that Elsztain secretly financed or controlled Milei. ([El País](https://english.elpais.com/international/2025-03-09/eduardo-elsztain-the-businessman-who-whispers-to-argentinas-javier-milei.html), [La Nación](https://www.lanacion.com.ar/politica/milei-abono-25-millones-por-su-estadia-en-el-hotel-pero-aun-debe-rendir-todos-los-gastos-nid06012024/))
+
 ## Sources
 
 https://www.irsa.com.ar/en/corporate-governance/

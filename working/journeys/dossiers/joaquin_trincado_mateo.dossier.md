@@ -540,6 +540,46 @@ No state award, honorary degree, official scientific prize, or formal public app
 - **2024** — Galicia Martínez publishes the first sustained academic analysis of Trincado's Comuna Universal and Mexican Revolution theory.
 - **2026** — EMECU successor bodies, online libraries, and Colonia Jaime remain active; the corpus is still not critically catalogued.
 
+## Atlas Connections
+
+### Abraham
+
+- **[T1-]** **Documented fact:** Trincado repeatedly wrote about Abraham in the *Código de Amor Universal*, presenting an alleged “Testament of Abraham” as the foundation of a secret initiatory succession transmitted through Jacob and Moses and supposedly fulfilled by the EMECU. The fact that Trincado published this account is documented; the testament, transmission, and fulfillment are **mythic or religious claims**, unsupported by accepted historical evidence. [Primary text: *Código de Amor Universal*, tome I](https://emedelacu.org/wp-content/uploads/2023/07/CodigodeAmorUniversalTomoI-1.pdf)
+
+### Moses
+
+- **[T1-]** **Documented fact:** Trincado made Moses central to his sacred history, describing him as founder of an ancient esoteric school and custodian of Abraham’s testament. He identified the EMECU, founded in Buenos Aires in 1911, as the reopening or public continuation of this supposed Mosaic-Essene school. Trincado’s authorship of these statements is documented; the lineage itself is **myth** rather than established history. [Primary text: *Código de Amor Universal*, tome I](https://emedelacu.org/wp-content/uploads/2023/07/CodigodeAmorUniversalTomoI-1.pdf)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Across *Buscando a Dios*, *Código de Amor Universal*, and other works written between approximately 1909 and 1935, Trincado reconstructed Jesus as a natural-born human teacher of love and liberty, denied that Jesus was God, and distinguished the historical Jesus from “Christ,” which he called a later religious fiction. The writings are documented; Trincado’s purported biographical details, spirit identities, and reincarnational history of Jesus are **religious allegations or myths**. [Primary text: *Código de Amor Universal*, tome I](https://emedelacu.org/wp-content/uploads/2023/07/CodigodeAmorUniversalTomoI-1.pdf)
+
+### Paul the Apostle
+
+- **[T1-]** **Documented fact:** Trincado discussed Paul while constructing his revisionist history of early Christianity, including an appeal to the Epistle to the Galatians as evidence that James was Jesus’s brother. This constitutes textual engagement with Paul and Pauline writings, not evidence of any historical or supernatural contact. [Primary text: *Código de Amor Universal*, tome I](https://emedelacu.org/wp-content/uploads/2023/07/CodigodeAmorUniversalTomoI-1.pdf)
+
+### Hernán Cortés
+
+- **[T1-]** **Documented fact:** Trincado devoted a chapter of *La Revolución de México y el crimen de Norteamérica*, written in 1914, to Mexico through the age of Cortés. He acknowledged Cortés’s military ability and interpreted the Spanish victory over Moctezuma as an instrument of a metaphysical law driving the eventual unification of humanity. This interpretation is documented in Trincado’s text; its providential mechanism is an **allegation or theory**, not a historical finding. [Primary text: *La Revolución de México y el crimen de Norteamérica*](https://www.coloniajaime.org/documentos/Libros%20emecu/La%20Revolucion%20de%20Mexico.pdf)
+
+### Moctezuma II
+
+- **[T1-]** **Documented fact:** In the same 1914 work, Trincado portrayed Moctezuma as a prestigious ruler presiding over a comparatively advanced collective or communal order, then used the encounter between Moctezuma and Cortés to support his metaphysical interpretation of conquest and universal integration. Trincado’s discussion is documented; the claim that an “eternal law” directed both rulers is an **allegation or theory**. [Primary text: *La Revolución de México y el crimen de Norteamérica*](https://www.coloniajaime.org/documentos/Libros%20emecu/La%20Revolucion%20de%20Mexico.pdf)
+
+### Christopher Columbus
+
+- **[T1-]** **Reported fact:** Trincado wrote about Columbus’s identity and voyage, advancing the theory that Columbus came from Galicia—specifically the Pontevedra area—was probably Jewish, and possessed prior knowledge of Caribbean lands from an earlier storm-driven Atlantic crossing. Later authors explicitly attribute this argument to Trincado, but the accessible citations do not establish it as accepted history; the biographical and pre-discovery claims remain an **allegation or theory**. [Account attributing the argument to Trincado](https://www.kienyke.com/kien-fue/cristobal-colon-el-ladron-que-descubrio-america)
+
+### Giuseppe Garibaldi
+
+- **[T1-]** **Documented fact:** Trincado wrote about Garibaldi as an anticlerical liberator and treated the EMECU’s foundation on 20 September 1911 as a continuation of the struggle symbolized by the capture of Rome on 20 September 1870. His reincarnational identification of Garibaldi with Ignatius of Loyola belongs to Trincado’s **religious mythology**, not documented biography. [Alejandra G. Galicia Martínez, “La Comuna Universal”](https://dialnet.unirioja.es/descarga/articulo/9293415.pdf)
+
+### Carlos Gardel
+
+- **[T3]** **Reported fact:** A movement-derived biography says that Trincado heard Gardel’s performances on Argentine radio, came to admire him despite initially disliking tango, and remarked that Gardel “puts his soul into what he sings.” This supports one-sided reception of Gardel’s performance, probably in Buenos Aires before Gardel’s death on 24 June 1935; it does **not** document a meeting, friendship, correspondence, or attendance at a live performance. [Movement-derived biographical account](https://joaquintrincado.wordpress.com/2016/05/03/argentina/)
+
+No documented personal meeting with any atlas-roster figure was identified. The supported crossings are overwhelmingly Trincado’s textual treatments of earlier figures, plus the reported one-sided reception of Gardel’s singing.
+
 ## Sources
 
 https://www.scielo.sa.cr/scielo.php?pid=S1659-42232024000100043&script=sci_arttext

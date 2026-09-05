@@ -525,6 +525,128 @@ The deepest historical irony is documentary rather than rhetorical: the eponym p
 - “No evidence found” statements refer to the source set consulted, not to every uncatalogued archive.
 - The Arabic cryptanalytic tradition is included to answer the requested “cipher journeys.” Direct transmission into Vigenère’s reading is not established.
 
+## Atlas Connections
+
+The connections below meet the requested threshold because Vigenère explicitly discussed, translated, or interpreted the counterpart, or because a later counterpart demonstrably engaged with the cipher tradition attached to Vigenère’s name. A statement that Vigenère reported a story does not certify that story’s historical accuracy.
+
+### Abraham
+
+- **[T1-]** **Documented fact:** In the 1586 *Traicté des chiffres*, Vigenère interpreted the biblical change from Abram to Abraham through Hebrew letter-number correspondences and connected it with Sarah’s fertility. [Primary-text transcription, fols. 149r–150r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Alexander the Great
+
+- **[T1-]** **Documented fact:** Vigenère recounted a story in the *Traicté des chiffres* in which Alexander rejected—and later regretted rejecting—a proposed method for transmitting news rapidly from Macedonia to Asia. The connection is Vigenère’s written treatment of Alexander; the anecdote’s truth is not independently established here. [Primary-text transcription, fols. 14v–15r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Apostle Paul
+
+- **[T1-]** **Documented fact:** Vigenère repeatedly interpreted Pauline passages—including Ephesians 6, 1 Corinthians 6, Philippians 1, and Acts 9—in his discussion of revelation, spirit, and separation from the body in the *Traicté des chiffres*. [Primary-text transcription, fols. 113v–117r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Archimedes of Syracuse
+
+- **[T1-]** **Documented fact:** Vigenère discussed Archimedes several times in the *Traicté des chiffres*: he attributed the Spartan scytale to him, cited the *Sand Reckoner* on extremely large numbers, and invoked Archimedean demonstrations as models for general principles. The scytale attribution is Vigenère’s documented claim, not an accepted modern attribution. [Primary-text transcription, fols. 11r, 42v, 139v, and 252r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Vigenère cited Aristotle’s *On the Heavens* when presenting three as a complete or sacred number within his numerical cosmology. [Primary-text transcription, fol. 19v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Atahualpa
+
+- **[T1-]** **Documented fact:** At the opening of the *Traicté des chiffres*, Vigenère reported that knotted colored cords had been found in the cabinet of “Roy Atabalipa” in Peru and treated the quipus as evidence for nonalphabetic systems of recording information. This records what Vigenère wrote; his second-hand description should not be treated as eyewitness testimony. [Primary-text transcription, fol. 11r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Charles Babbage
+
+- **[T3]** **Documented fact:** Babbage’s nineteenth-century papers and cryptanalytic work engaged one-sidedly with the periodic polyalphabetic system then identified as the “Vigenère cipher,” deriving its mathematical structure and key-period vulnerability. There was necessarily no personal exchange, and the object of Babbage’s attack was principally the later Bellaso-type repeating-key cipher bearing Vigenère’s name, not simply every construction in Vigenère’s 1586 book. [Franksen, “Babbage and cryptography”](https://www.sciencedirect.com/science/article/pii/037847549390063Z)
+
+### Charlemagne
+
+- **[T1-]** **Documented fact:** Vigenère reproduced several alphabets attributed to Charlemagne near the end of the *Traicté des chiffres*, while identifying Trithemius’s *Polygraphia* and a report attributed to Otfrid as his sources. This documents Vigenère’s account, not the authenticity of the alphabets. [Primary-text transcription, fols. 339r–340r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Cicero
+
+- **[T1-]** **Documented fact:** Vigenère cited and discussed Cicero repeatedly, including *De divinatione*, the tradition of Tironian notes, and the Verrine and Pisonian speeches in his reconstruction of Roman crucifixion. [Primary-text transcription, fols. 140v–141r, 146, and 292v–293v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Constantine the Great
+
+- **[T1-]** **Documented fact:** In a geographical-historical digression, Vigenère reported Chalkokondyles’ account that a Georgian queen’s healing by a Christian woman during Constantine’s reign led to her people’s conversion. This is documented as Vigenère’s retelling of a source, not independently verified history. [Primary-text transcription, fol. 316r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Ezekiel
+
+- **[T1-]** **Documented fact:** Vigenère repeatedly interpreted Ezekiel’s visions—especially the *ḥashmal*, the divine chariot, the four creatures, and prophetic numbers—within his Kabbalistic and alchemical treatment of signs. [Primary-text transcription, fols. 107r–107v and 226v–227r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Ferdinand Magellan
+
+- **[T1-]** **Documented fact:** Vigenère invoked “Sebastian de Magalhanes” and the discovery of the strait as an analogy for unexpectedly shortening a route, within his discussion of supposedly rapid long-distance communication. [Primary-text transcription, fol. 15r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Heinrich Cornelius Agrippa
+
+- **[T1-]** **Documented fact:** Vigenère engaged critically with Agrippa’s *De occulta philosophia*, discussing its claims about transmitting thoughts, magical perspective, and extracting a spirit or tincture from gold; he explicitly questioned Agrippa’s claimed knowledge and chemical competence. [Primary-text transcription, fols. 13v–17r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Hernán Cortés
+
+- **[T1-]** **Documented fact:** Vigenère wrote that pictorial records were found at Mexico-Tenochtitlan when Cortés conquered it for Charles V, using the report to introduce nonalphabetic records in the *Traicté des chiffres*. The passage is documentary evidence of Vigenère’s written treatment, not of personal contact. [Primary-text transcription, fol. 11r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Homer
+
+- **[T1-]** **Documented fact:** Vigenère quoted and paraphrased Homer in the *Traicté des chiffres*, including Homer’s description of Nestor’s speech, the *Odyssey*’s underworld, and a report concerning a miniature copy of the *Iliad*. [Primary-text transcription](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Jesus Christ is a sustained subject of Vigenère’s Christian-Kabbalistic exegesis. The *Traicté des chiffres* connects the name Jesus with Hebrew divine names and proposed biblical acrostics and contains a lengthy antiquarian discussion of crucifixion. [Primary-text transcription, fols. 73v, 140v, and 292v–293v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Johannes Trithemius
+
+- **[T1-]** **Documented fact:** Vigenère explicitly reviewed Trithemius’s *Polygraphia* and manuscript *Steganographia*, credited him as the first publicly to open the way for later cipher writers, described manuscripts he had seen in Germany and Italy, and reproduced alphabets attributed to Trithemius. [Primary-text transcription, fols. 12r–13v and 330r–330v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Julius Caesar
+
+- **[T1-]** **Documented fact:** Vigenère translated and extensively annotated Caesar’s *Commentaries*, with editions culminating in the expanded 1589 Paris publication. He also discussed Caesar’s substitution method in the *Traicté des chiffres*. [Bibliothèque de Genève catalogue and digitization](https://www.e-rara.ch/gep_g/content/titleinfo/1752481); [primary-text transcription, fol. 11v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### King David
+
+- **[T1-]** **Documented fact:** Vigenère translated the Davidic Psalms as *Le Psaultier de David torné en prose mesurée, ou vers libres* (Paris, 1588), and he repeatedly interpreted individual psalms in the *Traicté des chiffres*. [Sixteenth-century Bible editions catalogue](https://bibbia.insr.it/bbCatalogSearchResult.php?fullView=1&group=34&groupLength=10); [primary-text transcription](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Maimonides
+
+- **[T1-]** **Documented fact:** Vigenère cited “Rabbi Rambam fils de Maimon” and the *Moreh Nevukhim* (*Guide for the Perplexed*) several times, including in discussions of fire symbolism, ancient religious practices, and the Israelites’ years near Sinai. [Primary-text transcription, fols. 45r, 66r, 226v, and 305r–305v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Moses
+
+- **[T1-]** **Documented fact:** Moses is a recurring authority and subject throughout the *Traicté des chiffres*: Vigenère discussed the oral and written law, the divine name revealed to Moses, the tabernacle, Sinai, and Kabbalistic interpretations of Exodus. [Primary-text transcription, dedication and fols. 19r–19v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Muhammad
+
+- **[T1-]** **Documented fact:** Vigenère discussed Muhammad and quoted or paraphrased the Qur’an in several passages concerning divine fire, ritual gesture, Adam’s knowledge of names, and the history and language of Muslim peoples. Some descriptions employ hostile sixteenth-century Christian polemic; their presence documents Vigenère’s discourse, not their reliability. [Primary-text transcription, fols. 305v–306v and 341r–341v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Origen of Alexandria
+
+- **[T1-]** **Documented fact:** Vigenère cited Origen for the proposition that sacred or operative names lose their original force when translated into another language, using it in his concluding discussion of languages and alphabets. [Primary-text transcription, fol. 341v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Pliny the Elder
+
+- **[T1-]** **Documented fact:** Vigenère cited Pliny on ancient finger-numbering, metallurgy, geography, and historical examples, including the finger positions of a statue of Janus and the crucifixion of Polycrates. [Primary-text transcription, fols. 14r and 292r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Plato
+
+- **[T1-]** **Documented fact:** Plato is a major recurring authority in Vigenère’s symbolic cosmology. The *Traicté des chiffres* invokes Platonic accounts of intelligible light, the formation of humanity, non-being, number, and the construction of the world in the *Timaeus*. [Primary-text transcription, dedication and fols. 19v and 139v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Saint Augustine of Hippo
+
+- **[T1-]** **Documented fact:** Vigenère cited Augustine’s *City of God* for the Sibylline acrostic interpreted as naming Jesus Christ and cited Augustine’s commentary on John during his discussion of the crucifixion. [Primary-text transcription, fols. 140v and 293v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Simonides of Ceos
+
+- **[T1-]** **Documented fact:** Vigenère invoked the story of Simonides and Hiero—where extended reflection makes the nature of God seem progressively less comprehensible—in a discussion of divine non-being and the limits of human knowledge. [Primary-text transcription, fol. 139v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Solomon
+
+- **[T1-]** **Documented fact:** Vigenère wrote repeatedly about Solomon’s Temple, treating it as one of three corresponding sacred structures and discussing its reliquaries, perpetual fire, and Kabbalistic numerical significance. [Primary-text transcription, fols. 19r–19v and 159r–159v](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+### Virgil
+
+- **[T1-]** **Documented fact:** Vigenère repeatedly quoted and interpreted Virgil, including the *Aeneid*, discussed the use of Virgilian verses as cipher keys, and rejected later legends that represented Virgil as a magician. [Primary-text transcription, fols. 30, 168v, and 329v–330r](https://wulfric.artsci.utoronto.ca/rentexte/vigenere/chif_traite.htm)
+
+No T2 prophecy/hyperstition, T4 proximity, T5 personal-meeting, or T9 object/site connection with a roster member was securely established. In particular, the dossier’s al-Kindī–Ibn ʿAdlān–Ibn al-Durayhim lineage is conceptual and supplies no documented reading, transmission, meeting, or shared-object crossing with Vigenère; those names are therefore not converted into Atlas connections.
+
 ## Sources
 
 https://catalogue.bnf.fr/ark:/12148/cb11928282x

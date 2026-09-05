@@ -649,6 +649,38 @@ Because Frankism was secretive, transreligious, connected by marriage, and follo
 | 2022 | Jay Michaelson publishes *The Heresy of Jacob Frank*. |
 | 2023 | Jan Doktór publishes *Jakub Frank i jego mesjańska droga: nowe spojrzenie*. |
 
+## Atlas Connections
+
+### Abraham
+
+- **[T1-] Documented fact:** In teachings recorded by disciples principally at Brno and Offenbach in 1784 and 1789–1790, Frank repeatedly reinterpreted Abraham. He taught that Abraham, like the other patriarchs, had sought but failed to reach the feminine redemptive power he called the Virgin; elsewhere he recast God’s appearance to Abraham under the name *El Shaddai* through his own esoteric wordplay. This is textual engagement, not a historical encounter. [Lenowitz’s translation of *The Collection of the Words of the Lord*](https://archive.org/details/TheCollectionOfTheWordsOfTheLordJacobFrank), [overview of Frankist doctrine](https://en.wikipedia.org/wiki/Frankism)
+
+### King David
+
+- **[T1-] Documented fact:** Frank’s recorded teachings extensively remodel King David as a messianic predecessor and as a figure connected with the feminine redemptive principle—most provocatively in the teaching summarized as “David was secretly a woman.” Jan Doktór has devoted a scholarly study specifically to David’s reception in Frank’s thought. [*The Variety of Davids in Monotheistic Traditions*](https://brill.com/display/book/9789004465978/BP000013.pdf)
+
+### Jesus of Nazareth
+
+- **[T1-] Documented fact:** Frank’s late teachings repeatedly interpret Jesus as a genuine but incomplete redemptive predecessor: Jesus opened a path and entered death, but did not complete the work that Frank assigned to his own company. Christianity was consequently treated as a necessary passage rather than the final religion. The connection is documented in the disciple-recorded sayings and modern close readings of them; it does not imply personal contact or ordinary Christian orthodoxy. [Oxford University Press, *The Heresy of Jacob Frank*](https://academic.oup.com/book/43750), [Lenowitz’s translation of the sayings](https://archive.org/details/TheCollectionOfTheWordsOfTheLordJacobFrank)
+
+### Moses
+
+- **[T1-] Documented fact:** Frank’s recorded teachings repeatedly contrast the Mosaic law with the still-unrevealed religion of *Daas* and portray Moses as one of the predecessors who approached but failed to reach the Virgin. Conversion-era Frankist teaching also invoked Moses and biblical passages attributed to him when arguing for a triune God. Because some such statements survive in collective or externally transmitted Frankist documents, Frank’s personal wording should not always be assumed. [English translation of the conversion-era *Teaching of Jacob Newly Baptized*](https://andrewjacobs.org/translations/doctrina.html), [overview of Frankist doctrine](https://en.wikipedia.org/wiki/Frankism)
+
+### Sabbatai Zevi
+
+- **[T1-] Documented fact:** Frank’s movement arose directly from post-1666 Sabbateanism, and his disciple-recorded teachings discuss and judge Sabbatai Zevi as an earlier messianic predecessor whose work remained incomplete. Frank variously presented himself, or was presented by followers, as Zevi’s successor or later embodiment, while his mature teachings also criticized and moved beyond inherited Sabbatean Kabbalah. This is a documented intellectual and sectarian succession, not a personal meeting: Zevi died in 1676, about fifty years before Frank’s birth. [Oxford University Press, *The Heresy of Jacob Frank*](https://academic.oup.com/book/43750), [YIVO Encyclopedia, “Frankism”](https://encyclopedia.yivo.org/article.aspx/frankism)
+
+### King Solomon
+
+- **[T1-] Documented fact:** In *The Collection of the Words of the Lord*, Frank retells and interrogates Solomon’s encounter with the Queen of Sheba, asking why Solomon did not disclose the knowledge she needed. The passage converts the biblical meeting into a lesson about guarded or incomplete revelation. [Lenowitz’s translation of *The Collection of the Words of the Lord*](https://archive.org/details/TheCollectionOfTheWordsOfTheLordJacobFrank)
+
+### The Queen of Sheba
+
+- **[T1-] Documented fact:** The same disciple-recorded saying invokes the Queen of Sheba as a seeker from whom Solomon withheld necessary knowledge. Frank therefore wrote—or, more precisely, delivered an oral teaching later recorded—about both roster figures in the biblical pair. [Lenowitz’s translation of *The Collection of the Words of the Lord*](https://archive.org/details/TheCollectionOfTheWordsOfTheLordJacobFrank)
+
+No documented personal meeting, correspondence, performance encounter, or shared-object transmission was established between Jacob Frank and any other roster member. Claims connecting Frank personally to later Freemasons, revolutionaries, financiers, or modern political figures are unsupported genealogical or conspiracy narratives and do not qualify under the specified connection types.
+
 ## Sources
 
 https://encyclopedia.yivo.org/article.aspx/frankism

@@ -614,6 +614,74 @@ Trotsky survives as armored-train commander, exiled prophet, erased photograph, 
 | 2001 | Russian prosecutorial rehabilitation reported in deportation case. |
 | 2023 | Grandson Esteban Volkov dies after decades preserving museum and memory. |
 
+## Atlas Connections
+
+### André Breton
+
+- **[T5]** **Documented fact.** Breton met Trotsky in Mexico in 1938. Their sustained discussions produced the “Manifesto for an Independent Revolutionary Art,” drafted principally by Breton and Trotsky and published on 25 July 1938 under Breton’s and Diego Rivera’s signatures. They subsequently helped launch the International Federation of Independent Revolutionary Art. [Contemporary manifesto record](https://mediatheques.montpellier3m.fr/Default/doc/CAMO/990741/pour-un-art-revolutionnaire-independant)
+
+- **[T3]** **Documented fact.** Breton and Trotsky corresponded about the manifesto, revolutionary art, and the federation during 1938–39; Breton’s surviving June 1939 letter discusses the organizational obstacles he encountered. [Manifesto and correspondence context](https://www.marxists.org/subject/art/lit_crit/works/rivera/manifesto.htm)
+
+### Antonio Gramsci
+
+- **[T3]** **Documented fact.** At Trotsky’s request, Gramsci wrote him from Moscow on 8 September 1922 describing Italian Futurism and Filippo Tommaso Marinetti’s political trajectory. Trotsky incorporated the response into *Literature and Revolution*. [Gramsci’s letter to Trotsky](https://www.marxists.org/francais/gramsci/works/1922/09/gramsci_090822.htm)
+
+### Diego Rivera
+
+- **[T5]** **Documented fact.** Rivera successfully advocated Trotsky’s Mexican asylum, met him outside Mexico City on 11 January 1937, and helped house Trotsky and Natalia Sedova at the Blue House in Coyoacán. Their political and personal alliance lasted until a rupture in 1939. Trotsky’s contemporary journal records their January meeting. [Trotsky’s journal](https://www.marxists.org/archive/trotsky/1937/01/journal.htm)
+
+- **[T3]** **Documented fact.** Rivera participated with Trotsky and Breton in the 1938 independent-revolutionary-art initiative. Although Trotsky helped draft the manifesto, Rivera’s name replaced his on the published text, making the precise division of authorship important. [Bibliographic record](https://mediatheques.montpellier3m.fr/Default/doc/CAMO/990741/pour-un-art-revolutionnaire-independant)
+
+### Frida Kahlo
+
+- **[T5]** **Documented fact.** Kahlo welcomed Trotsky and Sedova to her family’s Blue House in January 1937. She and Trotsky became friends and had a brief affair later that year, supported by correspondence, recollections, and Kahlo’s *Self-Portrait Dedicated to Leon Trotsky*. [National Museum of Women in the Arts](https://nmwa.org/whats-on/exhibitions/online/between-the-curtains-frida-kahlos-self-portrait/)
+
+### George Orwell
+
+- **[T1+]** **Documented fact.** After Trotsky’s death, Orwell repeatedly wrote about him and used the Stalin–Trotsky conflict in constructing Napoleon and Snowball in *Animal Farm* (1945). Orwell nevertheless said that “Trotsky-Snowball” might himself have become an authoritarian ruler, so Snowball is a satirical analogue rather than an unqualified tribute. [Orwell Society documentary discussion](https://orwellsociety.com/orwell-and-trotsky/)
+
+### John Dewey
+
+- **[T5]** **Documented fact.** Dewey personally questioned Trotsky while chairing the Commission of Inquiry hearings held at the Rivera–Kahlo house in Coyoacán, 10–17 April 1937. Dewey was defending an impartial inquiry, not endorsing Trotsky’s politics. [Hearing transcript](https://www.marxists.org/archive/trotsky/1937/dewey/index.htm)
+
+- **[T3]** **Documented fact.** Dewey and Trotsky engaged directly throughout the recorded hearings concerning the Moscow-trial accusations, documentary evidence, Soviet politics, and Trotsky’s relations with Lenin. The commission’s later report found the charges unproved and the trials frame-ups. [Harvard archival description](https://hollisarchives.lib.harvard.edu/catalog/hou00302)
+
+### Karl Marx
+
+- **[T1-]** **Documented fact.** Trotsky repeatedly interpreted Marx’s political, economic, and historical writings throughout his career, most systematically when presenting Marxism as both a method of analysis and an instrument of proletarian struggle in works such as *Literature and Revolution* and “Culture and Socialism.” [Trotsky on Marxism and culture](https://www.marxists.org/archive/trotsky/1923/art/tia23c.htm)
+
+### Mahatma Gandhi
+
+- **[T3]** **Documented fact.** Trotsky engaged critically—but apparently without direct correspondence—with Gandhi’s program in his “Open Letter to the Workers of India,” written 25 July 1939. He characterized Gandhi as the political representative of the Indian bourgeoisie and rejected reliance on gradual concessions from British rule. [Trotsky’s open letter](https://www.marxists.org/archive/trotsky/1939/07/india.htm)
+
+### Benito Mussolini
+
+- **[T3]** **Documented fact.** Trotsky repeatedly analyzed Mussolini’s career and regime, notably in *What Next?* (1932), using the Italian case to distinguish fascism—a mass petty-bourgeois counterrevolutionary movement supported by capital—from conventional military dictatorship. No personal meeting or correspondence is established here. [Trotsky’s writings on fascism](https://www.marxists.org/archive/trotsky/works/1944/1944-fas.htm)
+
+### Rosa Luxemburg
+
+- **[T3]** **Documented fact.** Luxemburg published Trotsky’s exposition of permanent revolution in her Polish Marxist journal in 1909 and later critically discussed “Lenin and Trotsky” in her manuscript on the Russian Revolution. Trotsky’s later account explicitly recalled her familiarity with his position. [Trotsky on Luxemburg](https://www.marxists.org/archive/trotsky/1932/06/luxemburg.htm)
+
+- **[T1-]** **Documented fact.** After Luxemburg’s murder in January 1919, Trotsky wrote several political portraits and assessments of her, including “Karl Liebknecht and Rosa Luxemburg” (1919), “Hands Off Rosa Luxemburg!” (1932), and “Luxemburg and the Fourth International” (1935). [1919 portrait](https://www.marxists.org/archive/trotsky/profiles/rosa.htm) [1935 assessment](https://www.marxists.org/archive/trotsky/1935/06/lux.htm)
+
+### Sigmund Freud
+
+- **[T3]** **Documented fact.** Trotsky engaged in print with Freud’s psychoanalytic theory, treating it as a scientific hypothesis that Marxists should investigate rather than prohibit. This was one-sided intellectual engagement; no direct meeting or correspondence between Freud and Trotsky is established. [*Literature and Revolution* discussion](https://www.marxists.org/archive/trotsky/1924/lit_revo/ch07.htm)
+
+### Vladimir Lenin
+
+- **[T5]** **Documented fact.** Trotsky and Lenin first met in London in 1902 and subsequently moved through periods of collaboration, bitter factional conflict, and renewed alliance. Their closest direct partnership ran from Trotsky’s adherence to the Bolsheviks in 1917 through Lenin’s incapacitation in 1922–23.
+
+- **[T3]** **Documented fact.** Their extensive reciprocal written engagement encompassed party organization, the 1905 and 1917 revolutions, Brest-Litovsk, Red Army policy, trade unions, the Comintern, and bureaucratization; it included both published polemics and governmental correspondence.
+
+- **[T1-]** **Documented fact.** After Lenin’s death in 1924, Trotsky produced memoirs, political portraits, and documentary defenses of Lenin’s final positions, including *Lenin* and “On Lenin’s Testament.” [Trotsky’s 1932 documentary account](https://www.marxists.org/archive/trotsky/1932/12/lenin.htm)
+
+### Walter Benjamin
+
+- **[T1+]** **Documented fact.** Benjamin discussed Trotsky’s cultural criticism and recorded his enthusiastic reading of *History of the Russian Revolution* in correspondence during the early 1930s. This establishes literary-intellectual reception, not a personal meeting. [Study of Benjamin’s engagement with Trotsky](https://againstthecurrent.org/eightieth-anniversary-of-walter-benjamins-death-ten-theses-on-his-contribution-to-critical-theory/)
+
+No adequately supported T2 prophecy/hyperstition or T9 shared-object/site connection was identified among the roster. Mere contemporaneity, indirect ideological descent, or presence in the same country has therefore not been entered as a connection.
+
 ## Sources
 
 https://hollisarchives.lib.harvard.edu/catalog/hou00301

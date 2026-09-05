@@ -2291,6 +2291,50 @@ More remains simultaneously a Catholic saint, canonical humanist author, foundat
 
 ---
 
+## Atlas Connections
+
+### Aristotle
+
+- **[T1-] DOCUMENTED FACT:** In his 21 October 1515 letter to Martin Dorp, More defended what he called “true dialectic and true philosophy, especially Aristotelian.” His writings on education likewise treated classical philosophy as a guide to moral life. This is a textual engagement with Aristotle, not evidence of any shared object or indirect personal lineage. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/thomas-more/)
+
+### Cicero
+
+- **[T1-] DOCUMENTED FACT:** More repeatedly engaged Cicero’s political and moral writings. *Utopia* (1516) continues the dialogue about philosophy, civic duty, and the commonwealth developed in Cicero’s *Republic*, *Laws*, and *De officiis*; modern textual analysis identifies numerous Ciceronian allusions. More also explicitly praised Cicero’s contribution to learning in his 1518 letter defending Greek studies at Oxford. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/thomas-more/)
+
+### Giovanni Pico della Mirandola
+
+- **[T1-] DOCUMENTED FACT:** Around 1504–1510 More produced *The Life of John Picus*, an English adaptation of Gianfrancesco Pico’s Latin biography of Giovanni Pico della Mirandola, together with translations of Pico’s letters and devotional writings. More’s substantially edited version introduced Pico to a broad English readership and has sometimes been described as the first English biography to appear in print. [Cambridge University Press](https://assets.cambridge.org/97805218/47360/excerpt/9780521847360_excerpt.htm), [Cambridge chapter on More’s *Life of Pico*](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BF77BB466F8F661AF1B7D3B2F12D2056/9780511921834c5_p70-87_CBO.pdf/mores_life_of_pico_della_mirandola_c_15041507.pdf)
+
+### H. G. Wells
+
+- **[T1+] DOCUMENTED FACT:** Wells placed More within the earlier utopian tradition while constructing *A Modern Utopia* (1905). He explicitly contrasted his evolutionary, worldwide commonwealth with “More, Tudor England,” thereby writing about More’s model and revising it for a post-Darwinian setting. [Project Gutenberg, *A Modern Utopia*](https://www.gutenberg.org/files/6424/6424-h/6424-h.htm)
+
+### Jesus of Nazareth
+
+- **[T1-] DOCUMENTED FACT:** More wrote extensively about Jesus, most directly in the Tower works *A Treatise upon the Passion* and *De tristitia Christi* (1534–1535). The latter is an unfinished, sustained commentary on Jesus’s fear, prayer, and arrest in Gethsemane, composed while More awaited prosecution and execution in the Tower of London. [Cambridge Companion chapter](https://www.cambridge.org/core/books/cambridge-companion-to-thomas-more/lessons-of-gethsemane-de-tristitia-christi/CA9DBEA6106AEE9898D53544A3993DF4), [Renaissance and Reformation](https://jps.library.utoronto.ca/index.php/renref/article/view/9523)
+
+### Karl Marx
+
+- **[T1+] DOCUMENTED FACT:** Marx directly quoted More and *Utopia* in chapter 28 of *Capital*, volume I (1867). He used More’s account of enclosure and displaced husbandmen as historical testimony concerning the creation and punishment of an uprooted laboring population in Tudor England. [Marx, *Capital*, vol. I, chapter 28](https://www.marxists.org/archive/marx/works/1867-c1/ch28.htm)
+
+### Martin Luther
+
+- **[T3] DOCUMENTED FACT:** More and Luther engaged through hostile printed polemic rather than correspondence or personal meeting. After Luther answered Henry VIII’s *Defence of the Seven Sacraments*, More produced the pseudonymous *Responsio ad Lutherum* in London in 1523, responding directly to Luther’s arguments and invective. No personal meeting between them is documented. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/thomas-more/)
+
+### Plato
+
+- **[T1-] DOCUMENTED FACT:** *Utopia* engages Plato’s political philosophy throughout, particularly the *Republic*’s dialogue form, treatment of philosophical counsel, and qualified community of possessions. Scholars identify dozens of Platonic allusions while emphasizing that More altered, questioned, and humorously reframed Plato rather than simply reproducing his commonwealth. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/thomas-more/)
+
+### Saint Augustine of Hippo
+
+- **[T1-] DOCUMENTED FACT:** More lectured publicly on Augustine’s *City of God* at St Lawrence Jewry in London in 1501, reportedly treating it historically and philosophically rather than delivering a conventional theological exposition. Augustine also remained a major written interlocutor in More’s later political and religious thought, including *Utopia*. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/thomas-more/)
+
+### Thomas Aquinas
+
+- **[T1-] DOCUMENTED FACT:** More discussed and praised Aquinas in his Reformation polemics. In the *Responsio ad Lutherum* (1523) he called Aquinas exceptionally learned and holy; in the *Confutation of Tyndale’s Answer* (1532–1533) he described him as a pre-eminent theologian and exemplar of Christian faith and life. [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/thomas-more/)
+
+No additional roster member could be connected under the specified types on sufficiently direct evidence. Mere chronological overlap, general intellectual resemblance, later inclusion in the same ideological canon, or appearance in adjacent traditions was not treated as a crossing.
+
 ## Sources
 
 https://plato.stanford.edu/archives/spr2026/entries/thomas-more/

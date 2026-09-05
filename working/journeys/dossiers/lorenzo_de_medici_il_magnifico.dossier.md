@@ -526,6 +526,39 @@ His descendants nevertheless transformed the family:
 - The critical edition of Lorenzo’s correspondence is dispersed across volumes and archives; no short dossier can itemize every letter.
 - Modern screen works are reception evidence only.
 
+## Atlas Connections
+
+### Cosimo di Giovanni de’ Medici
+
+- **[T5]** **Documented fact:** Cosimo was Lorenzo’s paternal grandfather. They belonged to the same Via Larga household milieu in Florence until Cosimo’s death on 1 August 1464, when Lorenzo was fifteen; Cosimo’s political and cultural establishment formed the environment in which Lorenzo was raised. [Treccani biography of Lorenzo](https://www.treccani.it/enciclopedia/lorenzo-de-medici_%28Dizionario-Biografico%29/)
+
+### Leon Battista Alberti
+
+- **[T5]** **Documented fact:** During Lorenzo’s Roman visit in 1471, Alberti personally guided Lorenzo, Bernardo Rucellai, and Donato Acciaiuoli through the Roman Forum and participated in philosophical discussion with them. [Treccani biography of Alberti](https://www.treccani.it/enciclopedia/leon-battista-alberti_%28Dizionario-Biografico%29/)
+
+### Dante Alighieri
+
+- **[T1-]** **Documented fact:** Lorenzo wrote appreciatively about the earlier poet in the *Comento de’ miei sonetti*, naming Dante—alongside Petrarch and Boccaccio—as proof that the Florentine vernacular could express every kind of meaning with facility. Lorenzo’s *Comento* also adopts elements of the autobiographical poetry-and-prose structure associated with Dante’s *Vita nuova*. [Text of Lorenzo’s *Comento*](https://it.wikisource.org/wiki/Opere_%28Lorenzo_de%27_Medici%29/II._Comento_del_magnifico_Lorenzo_de%27_Medici_sopra_alcuni_de%27_suoi_sonetti)
+
+### Plato
+
+- **[T1-]** **Documented fact:** Lorenzo explicitly invoked and praised Plato in the philosophical poem *De summo bono*, now generally called the *Altercazione*, written in the 1470s. The poem calls him “divine Plato” while treating the nature of the highest good; its Platonism was mediated substantially through Marsilio Ficino. [Text of the *Altercazione*](https://it.wikisource.org/wiki/Opere_%28Lorenzo_de%27_Medici%29/X._Altercazione/Capitolo_I.), [Treccani on Lorenzo’s Ficinian works](https://www.treccani.it/magazine/strumenti/una_poesia_al_giorno/07_22_Medici_Lorenzo_de.html)
+
+### Giovanni Pico della Mirandola
+
+- **[T3]** **Documented fact:** Pico addressed letters to Lorenzo, including a programmatic letter dated 15 July 1484 and correspondence concerning the ecclesiastical judgment against his theses. Lorenzo likewise used written diplomatic intervention on Pico’s behalf. [Stanford Encyclopedia of Philosophy](https://plato.sydney.edu.au/entries/pico-della-mirandola/), [surviving Pico letter to Lorenzo](https://it.wikisource.org/wiki/Lettere_%28Giovanni_Pico_della_Mirandola%29/IV)
+- **[T5]** **Documented fact:** Pico came to Florence in 1484 and formed a personal friendship with Lorenzo. Lorenzo subsequently protected him during the 1486 Arezzo scandal and interceded with Pope Innocent VIII after the condemnation of Pico’s theses; Pico eventually settled under Medici protection in Florence. [Treccani biography of Lorenzo](https://www.treccani.it/enciclopedia/lorenzo-de-medici_%28Dizionario-Biografico%29/), [Treccani biography of Pico](https://www.treccani.it/enciclopedia/pico-giovanni-conte-della-mirandola-e-concordia_%28Dizionario-Biografico%29/)
+
+### Johannes Reuchlin
+
+- **[T5]** **Reported fact:** In 1482 Reuchlin accompanied Count Eberhard of Württemberg through Italy as interpreter and secretary. On the delegation’s return from Rome, it visited Lorenzo’s Florentine palace and humanist circle; biographical authorities describe Reuchlin as entering into personal relations or meeting with Lorenzo there. The securely documented core is the delegation’s visit to Lorenzo’s milieu, while surviving evidence for their precise conversation is less explicit. [Landesarchiv Baden-Württemberg](https://www.la-bw.de/de/themen/praesentationen---themenzugaenge/74475), [Deutsche Biographie](https://www.deutsche-biographie.de/sfz74609.html)
+
+### Michelangelo Buonarroti
+
+- **[T5]** **Reported fact:** Around 1490–91, the adolescent Michelangelo entered Lorenzo’s sculpture garden at San Marco and received his patronage until Lorenzo’s death in 1492. Vasari and Condivi later reported direct encounters, household access, shared meals, and Lorenzo’s personal favor. The patronage and garden connection are well established; the detailed personal anecdotes and portrayal of Michelangelo as effectively adopted into Lorenzo’s household depend on those later, interested biographies. [Metropolitan Museum of Art](https://www.metmuseum.org/exhibitions/listings/2017/michelangelo/exhibition-galleries), [Museo del Prado](https://www.museodelprado.es/en/the-collection/artist/michelangelo-michelangelo-buonarroti/dfbe65f6-9d4e-44f4-89f7-739512909435)
+
+No additional roster member produced a sufficiently specific, evidence-supported crossing under the six permitted connection types. In particular, mere classical influence, shared residence in Renaissance Florence, later reception of Lorenzo, or unsupported patronage traditions were not counted.
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/lorenzo-de-medici_%28Dizionario-Biografico%29/

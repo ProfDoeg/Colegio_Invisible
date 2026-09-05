@@ -673,6 +673,34 @@ The historical argument over Ellison is unlikely to be a simple balance of phila
 | 23 Jul 2026 | Pentagon announces Oracle enterprise agreement potentially worth nearly $7 billion over ten years. |
 | 20 Aug 2026 | Living; executive chairman/CTO of Oracle and member of PCAST. |
 
+## Atlas Connections
+
+### Benjamin Netanyahu
+
+- **[T5]** **Reported fact.** Ellison and Netanyahu have repeatedly been described as close friends. Their documented personal proximity includes a reported dinner at Nobu on Lānaʻi, Hawaiʻi, in August 2021, while Netanyahu’s family was vacationing on the island Ellison largely owns. Ellison was then listed as a potential prosecution witness in Netanyahu’s corruption trial; that status did not make Ellison a suspect or defendant. [Associated Press](https://spectrumlocalnews.com/tx/dallas-fort-worth/ap-top-news/2021/08/30/israel-urges-netanyahu-return-gifts-he-denies-keeping-them), [Times of Israel](https://www.timesofisrael.com/netanyahu-said-to-dine-in-hawaii-with-larry-ellison-a-witness-in-graft-trial/)
+
+### Bill Clinton
+
+- **[T5]** **Documented fact.** Ellison interacted personally with Clinton through technology-policy and political circles. Ellison recalled addressing Clinton directly at a mid-1990s technology summit about inexpensive computers for schools. On 19 February 2001, he personally introduced the former president before Clinton’s paid address to approximately 10,000 attendees at an Oracle conference in New Orleans. [Vanity Fair](https://www.vanityfair.com/news/1997/06/larry-ellison-silicon-valley-bill-gates), [Washington Post](https://www.washingtonpost.com/archive/politics/2001/02/20/clinton-addresses-executives/2840bd22-2587-43dd-aa52-ddda45ff5200/)
+
+### Bill Gates
+
+- **[T3]** **Documented fact.** Ellison and Gates maintained direct discourse amid the Oracle–Microsoft rivalry. In Ellison’s annotated account in *Softwar*, reproduced in a Justice Department filing, he described spending time with Gates and recalled an extended 1993 telephone discussion about a technical question. They also appeared at the same Paris industry conference during the Windows 95 campaign, while Ellison repeatedly answered Gates and Microsoft through speeches and product announcements. [U.S. Department of Justice filing](https://www.justice.gov/atr/cases/f204400/204461.pdf), [Vanity Fair](https://www.vanityfair.com/news/1997/06/larry-ellison-silicon-valley-bill-gates), [Wired](https://www.wired.com/2002/07/ellison-gates-is-a-genius/)
+
+### Elon Musk
+
+- **[T5]** **Documented fact.** Ellison has publicly described Musk as a close friend and worked directly with him as a Tesla director from 27 December 2018 until August 2022. Tesla’s filings document Ellison’s appointment, substantial shareholding and simultaneous board service with Musk; later reporting describes Musk as a recurring visitor to Ellison’s Lānaʻi properties. [Tesla/SEC announcement](https://www.sec.gov/Archives/edgar/data/1318605/000156459018031477/tsla-ex99_6.htm), [Tesla Form 8-K](https://www.sec.gov/Archives/edgar/data/1318605/000156459018031477/tsla-8k_20181227.htm)
+
+### Peter Thiel
+
+- **[T3]** **Reported fact.** Fortune reported that Ellison spoke directly with Palantir chairman Peter Thiel in 2016 about Oracle potentially acquiring Palantir. No acquisition followed, but the reported negotiation constitutes direct business discourse between the two men. [Fortune](https://fortune.com/2017/06/29/oracle-palantir-acquisition/)
+
+### Sam Altman
+
+- **[T5]** **Documented fact.** Ellison and Altman appeared together in the Roosevelt Room of the White House on 21 January 2025 to announce Stargate, the AI-infrastructure venture involving Oracle, OpenAI and SoftBank. Each spoke during the presentation alongside President Donald Trump and Masayoshi Son, establishing a direct public meeting in Washington, D.C. [American Presidency Project transcript](https://www.presidency.ucsb.edu/documents/remarks-artificial-intelligence-infrastructure-development-and-exchange-with-reporters), [Associated Press](https://apnews.com/article/be261f8a8ee07a0623d4170397348c41)
+
+No adequately supported T1, T2 or T9 crossing with another atlas-roster figure was identified. Corporate partnerships, common political causes, parallel appearances on lists, and mere contemporaneity were excluded where the reviewed record did not establish personal discourse, shared presence or a qualifying transferred object or site.
+
 ## Sources
 
 https://www.oracle.com/corporate/executives/larry-ellison/

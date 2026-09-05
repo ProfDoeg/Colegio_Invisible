@@ -1528,6 +1528,36 @@ Peter's most modern-seeming insight is not the numerical extravagance but the de
 
 ---
 
+## Atlas Connections
+
+### Cicero
+
+- **[T1-] Documented fact:** In *Phoenix* (Venice, 1491/92), Peter states that he had arranged **two hundred authorities of Cicero** within his mnemonic loci and could retrieve them alphabetically. This is direct written engagement by Peter with the earlier Roman author, although *Phoenix* does not systematically analyze Cicero’s life or philosophy. [English translation of *Phoenix*, pp. 11–12](https://artofmemory.com/pdf/the-phoenix-peter-of-ravenna.pdf)
+
+### Heinrich Cornelius Agrippa
+
+- **[T5] Documented fact:** Agrippa identified Peter as one of his former teachers—“an old teacher of mine”—providing first-person evidence of a personal pedagogical relationship, conventionally placed during Peter’s Cologne period, **1506–1508**. The evidence supports Peter having taught Agrippa, though not necessarily an extended private apprenticeship. [Morley, *Life of Henry Cornelius Agrippa*, vol. II](https://upload.wikimedia.org/wikipedia/commons/4/44/Cornelius_Agrippa._The_life_of_Henry_Cornelius_Agrippa_von_Nettesheim%2C_doctor_and_knight%2C_commonly_known_as_a_magician_%28IA_corneliusagrippa02morliala%29.pdf)
+
+- **[T1+] Documented fact:** In *De incertitudine et vanitate scientiarum* (**1530**), Agrippa’s chapter on the art of memory names *Petrus Ravennas* among recent writers on the subject. Because Agrippa wrote this after Peter’s death, Peter is the earlier, written-about figure. Agrippa’s surrounding discussion is notably skeptical of professional mnemonic display. [Agrippa, *De vanitate*, chapter on memory](https://upload.wikimedia.org/wikipedia/commons/3/34/Henrici_Cornelii_Agrippae_ab_Nettesheym%2C_De_incertitudine_%26_vanitate_omnium_scientiarum_%26_artium_liber_%28IA_henricicorneliia00agri%29.pdf)
+
+### Giordano Bruno
+
+- **[T1+] Documented fact:** Bruno stated in his *Explicatio triginta sigillorum* (**1583**) that, while very young, he studied Peter of Ravenna’s writings on memory. This establishes explicit posthumous textual engagement with Peter, not a personal meeting. Later scholarship treats *Phoenix* as one component of Bruno’s mnemonic formation, without reducing Bruno’s Lullian and philosophical systems to Peter’s method. [Cambridge University Press, “Peter of Ravenna, *The Phoenix*”](https://www.cambridge.org/core/books/abs/memory-arts-in-renaissance-england/peter-of-ravenna-the-phoenix-1548/71CC72FEFA21816B49FD216EE313AB50); [Boulting, *Giordano Bruno*](https://resources.warburg.sas.ac.uk/pdf/acn414b2393959.pdf)
+
+### Johannes Reuchlin
+
+- **[T1+] Documented fact:** In a letter of **1 November 1518** to Cardinal Achille de Grassis, Reuchlin invoked the deceased Peter while attacking their mutual adversary Jacob Hoogstraten. Reuchlin called Peter “divine” and asserted that he had died from grief after Hoogstraten drove him from Cologne. The letter is documented; its claim about Peter’s cause of death is a **partisan allegation**, not independently established medical fact. [*Allgemeine Deutsche Biographie*, “Petrus Ravennas”](https://de.wikisource.org/wiki/ADB:Petrus_Ravennas)
+
+### Martin Luther
+
+- **[T1+] Documented fact:** Luther named Peter in his **1518** *Resolutiones disputationum de indulgentiarum virtute*, presenting him among learned men allegedly persecuted for rightly held views. The mention is a documented posthumous interpretation rather than evidence of personal contact. Older legal-biographical scholarship disputes Luther’s characterization, noting that Peter remained aligned with the papal legal order and that his Cologne conflict was not a proto-Lutheran doctrinal campaign. [*Allgemeine Deutsche Biographie*, “Petrus Ravennas”](https://de.wikisource.org/wiki/ADB:Petrus_Ravennas)
+
+### Frances Yates
+
+- **[T1+] Documented fact:** Yates devoted several pages of *The Art of Memory* (**1966**) to Peter and *Phoenix*, describing its publication, international transmission, practical mnemonic rules, self-advertising apparatus, and role in carrying artificial memory into a wider lay readership. Peter is therefore a directly discussed historical subject in Yates’s work. [Yates, *The Art of Memory*, pp. 111–114](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf)
+
+No documented personal or textual crossing was established with other tempting roster candidates such as **Giulio Camillo, Simonides of Ceos, Ramon Llull, Johannes Trithemius, or Thomas Aquinas**. Their placement near Peter in histories or compilations of memory arts demonstrates reception context or a shared tradition, not by itself one of the defined Atlas connections.
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/pietro-francesco-tomai_(Dizionario-Biografico)/

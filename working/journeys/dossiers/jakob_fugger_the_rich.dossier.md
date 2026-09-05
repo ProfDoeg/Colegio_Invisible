@@ -720,6 +720,27 @@ The documentary legacy is not that Fugger single-handedly created capitalism. It
 - **2021:** Fuggerei marks 500 years since the charter.
 - **2025–2026:** Augsburg commemorates the 500th anniversary of Jakob’s death.
 
+## Atlas Connections
+
+### Anton Fugger
+
+- **[T3]** **Documented fact:** Jakob Fugger and his nephew Anton were parties to the 1512 written partnership agreement establishing *Jakob Fugger und seiner Brüder Söhne*. Jakob’s final testament of 28 December 1525 then designated Anton as the company’s principal governor; Anton assumed leadership after Jakob’s death on 30 December. The surviving contractual and testamentary instruments constitute direct written engagement between them. [Max Planck Institute study of the family partnership](https://pure.mpg.de/rest/items/item_3564070_2/component/file_3564071/content); [Deutsche Biographie](https://www.deutsche-biographie.de/sfz68354.html?language=en)
+
+### Martin Luther
+
+- **[T3]** **Documented fact:** Luther engaged Jakob Fugger in print, although no reciprocal correspondence or personal meeting is documented. In *To the Christian Nobility of the German Nation* (Wittenberg, 1520), Luther explicitly attacked “Fugger of Augsburg” as the commercial intermediary through whom Roman ecclesiastical offices and revenues had become entangled with trade; his 1524 *On Commerce and Usury* continued the broader attack on great merchant companies and monopoly. Jakob therefore appears here as the object of one-sided contemporary written engagement. [Luther’s 1520 text](https://www.gutenberg.org/cache/epub/34904/pg34904-images.html); [Deutsche Biographie](https://www.deutsche-biographie.de/sfz68354.html?language=en)
+- **[T9+]** **Documented fact:** Jakob built and owned the Fuggerhäuser in Augsburg before Luther’s examination there by Cardinal Cajetan, 12–14 October 1518. The encounter occurred in Jakob’s property, but the biographical evidence says Jakob kept away from the proceedings; the building, rather than shared occupancy or a demonstrated meeting, is therefore the connector. [Deutsche Biographie](https://www.deutsche-biographie.de/sfz68354.html?language=en)
+
+### Max Weber
+
+- **[T1+]** **Documented fact:** More than three centuries after Fugger’s death, Weber discussed him in *The Protestant Ethic and the Spirit of Capitalism* (first published 1904–1905). Weber used a reported Fugger declaration that he intended to continue making money as long as possible, contrasting Fugger’s commercially daring but—in Weber’s interpretation—ethically neutral acquisitiveness with Benjamin Franklin’s moralized capitalist vocation. [Weber’s text](https://en.wikisource.org/wiki/Page:The_Protestant_ethic_and_the_spirit_of_capitalism.djvu/71)
+
+### Joseph Schumpeter
+
+- **[T1+]** **Documented fact:** Schumpeter wrote about Jakob Fugger in chapter 11, “The Civilization of Capitalism,” of *Capitalism, Socialism and Democracy* (1942). He invoked Fugger’s career to dispute exaggerated claims that great financiers directed sovereign policy, arguing that Fugger obtained concessions but had little control over the policies of Charles V or Leo X. [Schumpeter’s text](https://ipmall.law.unh.edu/sites/default/files/BAYHDOLE/3_DIV_SCAN/3094_001_OCR_DBL_ZIP_0.pdf); [publication information](https://www.routledge.com/Capitalism-Socialism-and-Democracy/Schumpeter/p/book/9780415107624)
+
+No additional roster member produced a sufficiently specific, documented crossing under the six permitted connection types. In particular, contemporaneity, activity in Fugger-controlled mines or markets, later comparison with Fugger, and generic references to the Fugger family were not treated as connections without person-specific evidence.
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd118694022.html

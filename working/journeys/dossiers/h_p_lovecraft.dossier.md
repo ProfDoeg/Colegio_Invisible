@@ -563,6 +563,74 @@ The racism controversy changed institutional commemoration but did not end publi
 | 2015 | World Fantasy Convention retires Lovecraft-bust trophy |
 | 2016–17 | Inducted into Science Fiction and Fantasy Hall of Fame |
 
+## Atlas Connections
+
+### Charles Dickens
+
+- **[T1-] Documented fact.** Lovecraft evaluated Dickens’s supernatural fiction in *Supernatural Horror in Literature* (written 1925–27; revised 1933–34), citing “The Signal-Man” and describing its ghostly warning as unusually convincing. [Text](https://www.hplovecraft.com/writings/texts/essays/shil.aspx)
+
+### Johann Wolfgang von Goethe
+
+- **[T1-] Documented fact.** In *Supernatural Horror in Literature*, Lovecraft called Goethe’s *Faust* the supreme culmination of the German supernatural-ballad tradition and a work of cosmic tragedy. [Text](https://www.hplovecraft.com/writings/texts/essays/shil.aspx)
+
+### William Blake
+
+- **[T1-] Documented fact.** Lovecraft included Blake’s “chaotic visions” in his historical account of the eighteenth-century emergence of the weird in British literature in *Supernatural Horror in Literature*. [Text](https://www.hplovecraft.com/writings/texts/essays/shil.aspx)
+
+### Edward Bulwer-Lytton
+
+- **[T1-] Documented fact.** Lovecraft discussed Bulwer-Lytton at length in *Supernatural Horror in Literature*, assessing “The House and the Brain,” *Zanoni*, and *A Strange Story* as flawed but important contributions to occult and supernatural fiction. [Text](https://www.hplovecraft.com/writings/texts/essays/shil.aspx)
+
+### Alessandro Cagliostro
+
+- **[T1-] Documented fact.** In *Supernatural Horror in Literature*, Lovecraft identified Cagliostro—whom he termed a charlatan—as an emblem of the occult revival that fed Rosicrucian themes in later Gothic fiction. This is documented written treatment, not evidence that Lovecraft credited Cagliostro’s supernatural claims. [Text](https://www.hplovecraft.com/writings/texts/essays/shil.aspx)
+
+### Mary Shelley
+
+- **[T1-] Documented fact.** Lovecraft devoted substantial critical attention to Mary Shelley and *Frankenstein* in *Supernatural Horror in Literature*, calling it one of the enduring horror classics and recounting its creation and principal effects. [Text](https://www.hplovecraft.com/writings/texts/essays/shil.aspx)
+
+### Edgar Allan Poe
+
+- **[T1-] Documented fact.** Poe was Lovecraft’s formative literary model from childhood, and Lovecraft later devoted an entire chapter of *Supernatural Horror in Literature* to him, crediting Poe with establishing the modern psychological horror story and the disciplined short-story form. Lovecraft also repeatedly discussed Poe’s poetics in essays such as “The Despised Pastoral” and “Literary Composition.” [Primary text](https://www.hplovecraft.com/writings/texts/essays/shil.aspx) [documented reception study](https://www.hplovecraft.com/study/litcrit/tlp.aspx)
+
+### Oscar Wilde
+
+- **[T1-] Documented fact.** Lovecraft treated Wilde as a writer of the weird in *Supernatural Horror in Literature*, discussing *The Picture of Dorian Gray*, Wilde’s fairy tales, his prose style, and his adoption of “Sebastian Melmoth” after exile. [Text](https://www.hplovecraft.com/writings/texts/essays/shil.aspx)
+
+### Friedrich Nietzsche
+
+- **[T1-] Documented fact.** Lovecraft directly examined Nietzsche’s ideas in “Nietzscheism and Realism,” published in October 1921. He engaged selectively with Nietzschean aristocratic individualism while criticizing its practical and philosophical limitations; the connection is intellectual reception, not personal contact. [Lovecraft philosophy bibliography](https://www.hplovecraft.com/writings/philo/)
+
+### Charles Darwin
+
+- **[T1-] Documented fact.** Lovecraft repeatedly invoked Darwinian evolution in his essays, letters, and fiction as a foundation for materialism, biological continuity, and humanity’s nonprivileged place in nature. The documentary connection is Lovecraft’s sustained written engagement with Darwinian theory; there was necessarily no personal meeting.
+
+### H. G. Wells
+
+- **[T3] Documented fact.** Lovecraft critically discussed the living Wells in *Supernatural Horror in Literature* (1925–27), placing him in the later Gothic tradition and praising “The Ghost of Fear” and *Thirty Strange Stories*. This was one-sided literary engagement; no correspondence or meeting is established. [Text](https://www.hplovecraft.com/writings/texts/essays/shil.aspx)
+
+### Sir Arthur Conan Doyle
+
+- **[T3] Documented fact.** Lovecraft discussed the living Conan Doyle’s supernatural fiction in *Supernatural Horror in Literature*, particularly “The Captain of the ‘Pole-Star’” and “Lot No. 249.” No personal contact is documented. [Text](https://www.hplovecraft.com/writings/texts/essays/shil.aspx)
+
+### W. B. Yeats
+
+- **[T3] Documented fact.** In *Supernatural Horror in Literature*, Lovecraft described Yeats—then still living—as a leading figure of the Irish literary revival and praised both his original writing and his codification of Irish legends. This is documented one-sided critical engagement, not correspondence or acquaintance. [Text](https://www.hplovecraft.com/writings/texts/essays/shil.aspx)
+
+### Harry Houdini
+
+- **[T5] Documented fact.** Lovecraft ghostwrote “Imprisoned with the Pharaohs” from Houdini’s purported Egyptian adventure in February 1924; it appeared under Houdini’s name in the May–June–July 1924 *Weird Tales*. The men subsequently met in New York—an early-October 1924 meeting is documented—and Houdini commissioned additional skeptical writing, culminating in the unfinished 1926 anti-superstition project *The Cancer of Superstition*. Houdini also inscribed a copy of *A Magician Among the Spirits* to “my friend Howard P. Lovecraft.” Houdini’s death on 31 October 1926 ended the work. [Lovecraft scientific-writings record](https://www.hplovecraft.com/writings/science/) [encyclopedia account](https://lovecraft.en-academic.com/261/Houdini%252C_Harry)
+
+### Jorge Luis Borges
+
+- **[T3] Documented fact.** This is a posthumous, one-sided literary crossing: Borges explicitly dedicated “There Are More Things,” collected in *The Book of Sand* (1975), to Lovecraft and constructed it as a deliberate Lovecraftian exercise. Borges and Lovecraft never met; Lovecraft died in 1937, before Borges’s international prominence.
+
+### Stephen King
+
+- **[T3] Documented fact.** This is a posthumous, one-sided critical and creative engagement. King has repeatedly discussed Lovecraft as a major predecessor, notably in *Danse Macabre* (1981), and Lovecraftian motifs appear throughout King’s fiction. No personal meeting was possible: King was born in 1947, ten years after Lovecraft’s death.
+
+No defensible T2 prophecy/hyperstition connection was found within the roster. Mere shared themes, intellectual resemblance, overlapping geography, or contemporaneity have not been counted as crossings.
+
 ## Sources
 
 https://www.riamco.org/render?eadid=US-RPB-mslovecraft

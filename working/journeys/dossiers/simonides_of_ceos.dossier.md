@@ -442,6 +442,56 @@ His afterlives coexist rather than resolve into one figure: patriotic memorialis
 - The surviving poetry is mediated by later quotation, damaged papyri, and editorial reconstruction.
 - No additional broad search was likely to eliminate these structural gaps; consequential claims were stopped at the point where primary testimony and modern disagreement could be clearly bounded.
 
+## Atlas Connections
+
+### Homer
+
+- **[T1-] Documented fact:** In the *Plataea Elegy*, composed after the battle of 479 BCE and preserved on P.Oxy. 3965, Simonides addresses and praises Homer as the poet who bestowed enduring fame upon the Trojan heroes. The papyrus securely documents Simonides writing about the earlier poet, although “Homer” remains a historically problematic authorial identity. [University of Chicago discussion of Simonides’ Homeric reception](https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/Publications/SAC/sac5.pdf)
+
+### Pindar of Thebes
+
+- **[T4] Reported fact:** Simonides and Pindar belonged to the overlapping circle of poets patronized by Hieron I at Syracuse during the 470s BCE. Their individual presence in Hieron’s Sicilian milieu is well attested, but no surviving contemporary account documents a meeting; later scholia depicting court intrigue or personal hostility are allegation or theory rather than proof of interaction. [Perseus biographical source survey](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0104%3Aentry%3Dsimonides-bio-1)
+
+### Herodotus of Halicarnassus
+
+- **[T1+] Documented fact:** Writing later in the fifth century BCE, Herodotus names “Simonides son of Leoprepes” as the author who erected or composed the individual epitaph for Megistias because of their guest-friendship (*Histories* 7.228). This is the clearest early written testimony about Simonides and one of the strongest ancient attributions of a poem to him. [Herodotus 7.228](https://lexundria.com/hdt/7.228/mcly)
+
+### Plato
+
+- **[T1+] Documented fact:** Plato repeatedly wrote about Simonides in the fourth century BCE. Most extensively, *Protagoras* 339–347 quotes and subjects the Ode to Scopas to competing interpretations; *Republic* 1.331d–336a attributes to Simonides a definition of justice and debates its meaning. These are literary-philosophical engagements, not records of a meeting. [Plato, *Protagoras* 343](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0178%3Atext%3DProt.%3Apage%3D343), [Plato, *Republic* 1.332–336](https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AgreekLit%3Atlg0059.tlg030.perseus-eng2%3A1.332-1.336/)
+
+### Aristotle
+
+- **[T1+] Reported fact:** Aristotle cites Simonides several times as poet and proverbial speaker. In *Rhetoric* 2.16 he reports Simonides’ answer to Hieron’s wife that wealth was preferable to wisdom because wise men waited at rich men’s doors; elsewhere he quotes Simonidean verse as rhetorical evidence. These are fourth-century-BCE testimonia, not independently verified transcripts of Simonides’ conversations. [Aristotle, *Rhetoric* 2.16](https://leanpub.com/read/aristotle-rhetoric/chapter-16), [Aristotle, *Rhetoric*](https://classics.mit.edu/Aristotle/rhetoric.1.i.html)
+
+### Strabo of Amaseia
+
+- **[T1+] Documented fact:** In the late first century BCE or early first century CE, Strabo cited Simonides as an earlier poetic authority, including testimony for a Simonidean dithyramb concerning Memnon (*Geography* 15.3.2). The citation preserves evidence for a now-lost work rather than a personal connection. [ToposText, Strabo’s *Geography*](https://topostext.org/work/144)
+
+### Cicero
+
+- **[T1+] Reported fact:** Cicero’s *De oratore* 2.351–354, written in 55 BCE, gives the earliest surviving detailed narrative of Simonides’ escape from Scopas’ collapsing banquet hall at Crannon and connects it with the invention of ordered-place mnemonics. Cicero explicitly presents the account as something “said” about Simonides; its literary transmission is documented, while the narrated event remains unverified. [Cicero, *De oratore* 2.351–358](https://www.attalus.org/cicero/deoratore2E.html)
+
+### Pliny the Elder
+
+- **[T1+] Reported fact:** In *Natural History* 7.89, completed in the first century CE, Pliny credits the lyric poet Simonides with inventing *memoria technica* and Metrodorus of Scepsis with perfecting it. This documents Simonides’ Roman-era inventor reputation, not the historical invention itself. [Pliny, *Natural History* 7.89](https://www.attalus.org/translate/pliny_hn7b.html)
+
+### Quintilian
+
+- **[T1+] Reported fact:** Around 95 CE, Quintilian retold the banquet-collapse story in *Institutio oratoria* 11.2.11–17, catalogued conflicting names and locations in its transmission, and rejected the divine rescue as fiction. His account is therefore both a later engagement with Simonides and an early critical assessment of the legend. [Quintilian, *Institutio oratoria* 11.2](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/11B%2A.html)
+
+### Claudius Aelianus
+
+- **[T1+] Reported fact:** A fragment attributed to Aelian preserves a later account concerning Simonides’ tomb and its destruction or reuse at Syracuse. The surviving material documents Aelianic reception of Simonides, but its fragmentary state and the conflict with the better-known Acragas tomb tradition prevent treating the underlying event as established biography. [Attalus index of ancient Simonides testimonia](https://www.attalus.org/names/s/simonides.html)
+
+### Giordano Bruno
+
+- **[T1+] Documented fact:** In *Sigillus sigillorum* (*The Seal of Seals*, 1583), Bruno names Simonides among the celebrated ancient practitioners of memory and gives him exceptional standing as the figure through whose benefit things are sought, found, and arranged. Bruno thereby recast the ancient poet as an authority within his Renaissance philosophical and magical mnemonic system. [Yates, discussion and citation of Bruno’s *Seal of Seals*](https://resources.warburg.sas.ac.uk/mnemosyne/fq/yates_memory.pdf)
+
+### Frances A. Yates
+
+- **[T1+] Documented fact:** Yates opened *The Art of Memory* (1966) with the Ciceronian story of Simonides and made its principles of ordered places and images the starting point for her history of classical, medieval, and Renaissance mnemonics. Her treatment was a major modern act of reception, while accepting the story principally as the tradition’s foundational narrative rather than contemporary evidence for Simonides’ life. [Yates, *The Art of Memory*](https://www.aproged.pt/biblioteca/Yatestheartofmemory.pdf)
+
 ## Sources
 
 https://www.cs.uky.edu/~raphael/sol/sol-cgi-bin/search.cgi?db=REAL&enlogin=4eef9785f850a234b084512e55e7677f&field=adlerhw_gr&login=lucilius&searchstr=sigma%2C439

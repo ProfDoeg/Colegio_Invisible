@@ -713,6 +713,86 @@ Fisher's early death left several trajectories unresolved. It is unknown how he 
 | **2025** | New commercial edition of *Flatline Constructs*; grassroots screenings begin for *We Are Making a Film About Mark Fisher*. |
 | **2026** | Documentary receives broader press and an ICA event; Fisher's readership and institutional afterlife continue to expand. |
 
+## Atlas Connections
+
+The roster crossings supported by Fisher’s publications, teaching records, and institutional history are below. Ordinary intellectual influence is classified as T1 only where Fisher demonstrably discussed the earlier figure’s work; shared interests alone are excluded.
+
+### Antonio Gramsci
+
+- **[T1-] Documented fact:** Fisher repeatedly engaged Gramsci’s concepts of hegemony, common sense, and the formation of collective political agency, especially in his later political writing. Gramsci provided part of the conceptual background for Fisher’s account of capitalist realism as an atmosphere that makes the existing order appear natural and unsurpassable. This is an intellectual-textual connection, not evidence of an original coinage by Gramsci of Fisher’s term. Fisher’s collected writings document the engagement in [*K-punk*](https://library.josh8.com/philosophy/Mark%20Fisher%2C%20Darren%20Ambrose%20%28editor%29%20-%20K-punk_%20The%20Collected%20and%20Unpublished%20Writings%20of%20Mark%20Fisher-Repeater%20%282018%29.pdf).
+
+### Antonin Artaud
+
+- **[T1-] Documented fact:** Fisher’s 1999 doctoral thesis discusses Artaud’s “body without organs” through its later development by Deleuze and Guattari. Artaud is therefore part of the conceptual genealogy of Fisher’s “Gothic materialism,” particularly his attempt to dissolve stable divisions among organism, matter, and machine. The connection is explicitly identified in the [University of Warwick thesis record](https://wrap.warwick.ac.uk/id/eprint/110900/).
+
+### Félix Guattari
+
+- **[T1-] Documented fact:** Fisher engaged Guattari throughout his career, almost always in conjunction with Gilles Deleuze. *Flatline Constructs* analyzes the Deleuze–Guattari body without organs and their account of propagation; CCRU writing adapted their concepts of desire, assemblage, and capitalist decoding; Fisher’s 2016 “Postcapitalist Desire” course returned to *Anti-Oedipus*. The Warwick abstract documents the thesis engagement, while the later course survives in [*Postcapitalist Desire*](https://kyl.neocities.org/books/%5BSOC%20FIS%5D%20postcapitalist%20desire%20-%20the%20final%20lectures.pdf).
+
+### Gilles Deleuze
+
+- **[T1-] Documented fact:** Deleuze was one of Fisher’s most sustained philosophical reference points. Fisher used and criticized Deleuze’s work with Guattari in his 1999 thesis, CCRU theory-fiction, essays on control and desire, and the 2016 “Postcapitalist Desire” lectures. The [Warwick repository](https://wrap.warwick.ac.uk/id/eprint/110900/) identifies Deleuze–Guattari concepts as central to chapters two and three of *Flatline Constructs*.
+
+### H. G. Wells
+
+- **[T1-] Documented fact:** Fisher devoted a chapter of *The Weird and the Eerie* to Wells, reading works including “The Door in the Wall” as encounters with an outside that destabilizes ordinary reality. Wells is named in the book’s contents and publisher description on the [Google Books record](https://books.google.com/books/about/The_Weird_and_the_Eerie.html?id=Q-LUCwAAQBAJ).
+
+### H. P. Lovecraft
+
+- **[T1-] Documented fact:** Fisher wrote extensively about Lovecraft in *The Weird and the Eerie* (completed in 2016 and published around January 2017). Lovecraft supplied Fisher with a principal model of the weird: the intrusion of an entity or reality that exposes the inadequacy of established categories. The connection is documented in the book’s [publisher description and contents record](https://books.google.com/books/about/The_Weird_and_the_Eerie.html?id=Q-LUCwAAQBAJ).
+
+### Herbert Marcuse
+
+- **[T1-] Documented fact:** Fisher made Marcuse a central subject of his autumn 2016 Goldsmiths course “Postcapitalist Desire,” particularly *Eros and Civilization*, countercultural desire, technological possibility, and liberation from compulsory labor. Marcuse appeared in Fisher’s second lecture alongside Freud and Ellen Willis. Goldsmiths’s surviving [course reading list](https://gold.rl.talis.com/lists/F4AF7F75-09FB-2C40-5052-8DC1E67C8699.pdf) and the edited [lecture transcripts](https://kyl.neocities.org/books/%5BSOC%20FIS%5D%20postcapitalist%20desire%20-%20the%20final%20lectures.pdf) document the connection.
+
+### Jacques Derrida
+
+- **[T1-] Documented fact:** Fisher adopted and substantially reworked Derrida’s concept of hauntology. Whereas Derrida introduced *hantologie* in *Spectres de Marx*, Fisher applied it to music, broadcast culture, and “lost futures,” notably in essays later collected in *Ghosts of My Life*. Fisher did not claim to have invented the term; the crossing is one of later critical adaptation.
+
+### Jacques Lacan
+
+- **[T1-] Documented fact:** Fisher repeatedly used Lacanian concepts—including the Real, jouissance, desire, the paternal function, and *objet petit a*—in cultural criticism and political analysis. Examples survive throughout [*K-punk*](https://library.josh8.com/philosophy/Mark%20Fisher%2C%20Darren%20Ambrose%20%28editor%29%20-%20K-punk_%20The%20Collected%20and%20Unpublished%20Writings%20of%20Mark%20Fisher-Repeater%20%282018%29.pdf) and in his essay “For Your Unpleasure,” where he explicitly interprets cultural desire through Lacan ([*The Quietus*](https://thequietus.com/culture/books/punk-is-dead-book-excerpt-mark-fisher-for-your-unpleasure/)).
+
+### Jean Baudrillard
+
+- **[T1-] Documented fact:** Baudrillard is a principal interlocutor in Fisher’s *Flatline Constructs*. Fisher analyzes hyperreality and describes Baudrillard as a major theorist of a “negativized Gothic,” setting his account of simulation against Deleuze and Guattari’s affirmative theory of propagation. The relationship is explicit in the [Warwick thesis record](https://wrap.warwick.ac.uk/id/eprint/110900/) and the [published thesis text](https://exmilitai.re/flatline-constructs.pdf).
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Fisher wrote from within a heterodox Marxist framework across *Capitalist Realism*, *Ghosts of My Life*, “Exiting the Vampire Castle,” and his later communist writing. He repeatedly analyzed capital, class, labor, ideology, and “dead labor” through Marx while combining Marxist categories with psychoanalysis and cultural criticism. The 1999 thesis already invokes Marx’s concept of dead labor, as visible in the [published thesis text](https://exmilitai.re/flatline-constructs.pdf); the relationship became still more explicit in Fisher’s later political work.
+
+### Nick Land
+
+- **[T5] Documented fact:** Fisher and Land knew one another and worked together in and around the Cybernetic Culture Research Unit at the University of Warwick during the mid-to-late 1990s. A surviving CCRU-associated project page lists both as members of the same “Abstract Machines” production team ([CCRU archive](https://ccru.net/abstractmachines/crew.htm)); *The Wire* records Land’s role in CCRU’s formation and Fisher’s later role as one of its principal organizers ([*The Wire*](https://www.thewire.co.uk/news/45139/ding-gold-at-the-end-of-the-vinyl-slush-pile-in-charity-shops)).
+
+- **[T3] Documented fact:** Their connection continued as intellectual discourse after the Warwick period. Fisher wrote explicitly about Land and the lasting importance—and political limits—of Land’s accelerationist and anti-Marxist work. Fisher described himself as someone who had undergone Land’s “dislocating encounter,” while later arguing that Land’s divergence from Deleuze and Guattari on capitalism was politically fatal. Fisher’s retrospective discussion survives in his essay on Land, reproduced in the [Mark Fisher reblog archive](https://markfisherreblog.tumblr.com/post/32521254502/is-nick-land-the-most-important-british).
+
+### Philip K. Dick
+
+- **[T1-] Documented fact:** Fisher wrote about Dick’s fiction and screen adaptations, including *Ubik*, *A Scanner Darkly*, and the cinematic afterlife of *Do Androids Dream of Electric Sheep?* Dick’s unstable realities and artificial worlds informed Fisher’s accounts of cybernetic fiction, capitalist reality, and ontological uncertainty. Contemporary reception specifically records Fisher’s interpretation of *Ubik* as a speed-driven dystopia organized through Lacanian desire ([PKD Otaku archive](https://philipdick.com/mirror/journals/pkd-otaku/pkd-otaku45.pdf)).
+
+### Sigmund Freud
+
+- **[T1-] Documented fact:** Fisher repeatedly discussed Freud’s uncanny, death drive, repetition compulsion, and theory of paternal authority. Freud is used in *The Weird and the Eerie*, Fisher’s cultural essays, and the 2016 lectures, where Fisher examined the counterculture through Freud and Marcuse. The engagement is visible in [*K-punk*](https://library.josh8.com/philosophy/Mark%20Fisher%2C%20Darren%20Ambrose%20%28editor%29%20-%20K-punk_%20The%20Collected%20and%20Unpublished%20Writings%20of%20Mark%20Fisher-Repeater%20%282018%29.pdf) and [*Postcapitalist Desire*](https://kyl.neocities.org/books/%5BSOC%20FIS%5D%20postcapitalist%20desire%20-%20the%20final%20lectures.pdf).
+
+### Slavoj Žižek
+
+- **[T3] Documented fact:** Fisher engaged Žižek’s writing throughout *Capitalist Realism* and later essays, drawing on his accounts of ideology, cynical distance, belief, and enjoyment. Fisher also associated Žižek with the circulating formulation that it is easier to imagine the end of the world than the end of capitalism. This is securely documented one-sided written engagement; the sources consulted do not establish a sustained friendship or collaboration.
+
+### Theodor W. Adorno
+
+- **[T1-] Documented fact:** Fisher engaged Adorno’s cultural criticism and negative dialectical tradition while disputing the assumption that mass or popular culture must be politically inferior to autonomous high art. Adorno appears across Fisher’s essays and teaching as both an intellectual resource and a position against which Fisher articulated “popular modernism.” The documentary basis is Fisher’s collected corpus in [*K-punk*](https://library.josh8.com/philosophy/Mark%20Fisher%2C%20Darren%20Ambrose%20%28editor%29%20-%20K-punk_%20The%20Collected%20and%20Unpublished%20Writings%20of%20Mark%20Fisher-Repeater%20%282018%29.pdf).
+
+### Walter Benjamin
+
+- **[T1-] Documented fact:** Fisher drew on Benjamin’s accounts of mechanical reproduction, historical time, cultural memory, and unrealized possibilities. *Flatline Constructs* explicitly places Benjamin’s “mechanical reproduction” within the genealogy against which Fisher develops Gothic materialism, and later hauntological writing shares Benjamin’s concern with suppressed or defeated historical possibilities. The explicit thesis reference appears in the [published text](https://exmilitai.re/flatline-constructs.pdf).
+
+### William S. Burroughs
+
+- **[T1-] Documented fact:** Burroughs was a major formative writer for Fisher. Fisher published the 2004 k-punk essay “Why Burroughs Is a Cold Rationalist,” used Burroughs’s theory of Control to analyze compulsive behavior and apparent autonomy, and repeatedly returned to his fiction and collage practices. The essay and its argument are documented in a later scholarly treatment citing the original post ([*Cryptocene*](https://aksioma.org/pdf/sum10-2_cryptocene.pdf)); the broader recurrence of Burroughs is also noted in the [LSE review of *K-punk*](https://blogs.lse.ac.uk/lsereviewofbooks/2019/02/28/long-read-review-k-punk-the-collected-and-unpublished-writings-of-mark-fisher-edited-by-darren-ambrose-with-simon-reynolds/).
+
+No documented T2 prophecy/hyperstition or T9 shared-object transmission was found between Fisher and the roster. Fisher wrote extensively about hyperstition, but thematic interest alone does not establish that a particular roster figure’s prophecy either predicted or causally produced Fisher or his work. Mere contemporaneity with other roster members was likewise excluded.
+
 ## Sources
 
 https://www.gold.ac.uk/news/mark-fisher/

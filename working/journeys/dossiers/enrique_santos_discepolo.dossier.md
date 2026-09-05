@@ -166,6 +166,38 @@ graph LR
   Raquel[Raquel Díaz\nde León] -->|mother of| EnriqueJr
 ```  
 
+## Atlas Connections
+
+### Carlos Gardel
+
+- **[T5] Documented fact:** Discépolo and Gardel met on several occasions in Buenos Aires, including when Gardel recorded Discépolo’s *“Victoria”* and during Eduardo Morera’s 1930 filming of the promotional short *Yira, yira*. In the surviving film, the two converse before Gardel performs the tango. Tania recalled that their personal contact was limited and that they were not close friends. [Todo Tango interview with Tania](https://www.todotango.com/historias/cronica/26/Tania-%C2%ABSu-vida-fue-una-pelicula%C2%BB-/), [Argentina’s Ministry of Culture](https://www.cultura.gob.ar/un-dia-como-hoy-nace-enrique-santos-discepolo-10331/)
+
+### Federico García Lorca
+
+- **[T5] Reported fact:** According to Tania’s later testimony, Discépolo and García Lorca met during Discépolo and Tania’s European travels and “became very good friends,” apparently in Spain in the mid-1930s. This rests on the recollection of Discépolo’s partner rather than surviving correspondence between the men. [Todo Tango interview with Tania](https://www.todotango.com/historias/cronica/26/Tania-%C2%ABSu-vida-fue-una-pelicula%C2%BB-/)
+
+### Ángel Villoldo
+
+- **[T9-] Documented fact:** Villoldo originated the music—and an early lyric—of *“El choclo”* in the first years of the twentieth century. In 1947 Discépolo supplied the later, now-standard lyric for the same composition, written for Libertad Lamarque’s performance in Luis Buñuel’s Mexican film *Gran Casino*. Discépolo is therefore the later participant in the transmission and transformation of this shared musical work. [Dartmouth’s Tango Argentino project](https://journeys.dartmouth.edu/tangoargentinocourse/las-letras/el-choclo-discepolo/), [MusicBrainz work record](https://musicbrainz.org/work/07b59e79-c9bd-3289-a30e-821ee9ba81a0)
+
+### Juan Domingo Perón
+
+- **[T5] Reported fact:** Biographical accounts describe Discépolo as a personal friend of Perón and record Discépolo and Tania visiting the presidential residence, including for New Year celebrations. Their political association is independently documented: in July 1951 the Peronist communications apparatus recruited Discépolo to deliver the radio monologues later associated with “Mordisquito,” passionately defending Perón’s government. The friendship details are reported retrospectively; the 1951 political collaboration is documented. [Biblioteca Nacional](https://www.bn.gov.ar/micrositios/multimedia/coproducciones/capitulo-06-a-nadie-importa-si-naciste-honrado-mordisquito), [account citing the presidential-residence gatherings](https://rebelion.org/docs/172986.pdf)
+
+### Eva Perón
+
+- **[T5] Reported fact:** Retrospective accounts identify Eva Perón as Discépolo’s friend and place Discépolo and Tania with Eva and Juan Perón at private holiday gatherings in the presidential residence during the first Perón administration. The claim is biographically reported, not established here through correspondence or a contemporary diary. [Account of Eva Perón’s cultural circle](https://rebelion.org/docs/172986.pdf)
+
+### Ada Falcón
+
+- **[T9+] Documented fact:** Falcón became an early interpreter of Discépolo’s work, recording *“Malevaje”* with Francisco Canaro’s orchestra in Buenos Aires in 1929. The surviving recording—not evidence of a personal meeting—is the shared object connecting Discépolo as the song’s originator to Falcón as its performer.
+
+### Astor Piazzolla
+
+- **[T9+] Documented fact:** Piazzolla later recorded and arranged music by Discépolo, including *“Cambalache.”* This is a posthumous transmission of Discépolo’s compositions rather than evidence that the two men met; Tania explicitly framed Piazzolla as an artist whose mature work Discépolo did not live long enough to know. [Todo Tango interview with Tania](https://www.todotango.com/historias/cronica/26/Tania-%C2%ABSu-vida-fue-una-pelicula%C2%BB-/), [Bibliothèque nationale de France catalogue](https://catalogue.bnf.fr/rechercher.do?index=AUT3&numNotice=14019435)
+
+No sufficiently documented crossing was found with the remaining roster figures. Mere coexistence in Buenos Aires, later comparisons, shared political or artistic traditions, and unsupported claims that *“Cambalache”* prophetically anticipated later people were excluded.
+
 ## Sources  
 The report above relies on authoritative Argentine and scholarly sources.  Key references include official cultural archives and biographies: Ministry of Culture (Argentina) publications, the Encyclopedia of Latin American History and Culture, the *Archivo General de la Emoción* (Radio y TV Argentina) and Cinenacional database, as well as historical articles (e.g. *Argentina.gob.ar* and *Caras y Caretas*).  All cited facts and anecdotes are drawn from these sources.  
 

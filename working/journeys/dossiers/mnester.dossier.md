@@ -376,6 +376,14 @@ Modern reception has often reduced him to “Caligula's favorite” or “Messal
 | 1875 and later | Older reference works circulate the false combined name “M. Lepidus Mnester” | Reception error |
 | 1934–79 | Graves's novels and screen adaptations make Mnester part of modern Julio-Claudian popular culture | Reception history |
 
+## Atlas Connections
+
+### Alfred Jarry
+
+- **[T1+]** **Documented fact:** French writer Alfred Jarry made Mnester a major character in his historical-fantastical novel *Messaline*, serialized and published in Paris in 1900–1901. Jarry substantially reinvented the ancient dancer—depicting his performance for Claudius, attachment to Caligula, relationship with Messalina, and eventual execution—so the connection is literary reception rather than independent biographical evidence about Mnester. ([Société des Amis d’Alfred Jarry](https://www.alfredjarry.fr/amisjarry/fichiers_ea/etoile_absinthe_091_92reduit.pdf), [critical discussion of *Messaline*](https://www.enotes.com/topics/alfred-jarry/criticism/jarry-alfred/keith-beaumont-essay-date-1984))
+
+No other atlas-roster crossing is supported by the evidence reviewed. In particular, Mnester’s belonging to the Roman pantomime tradition founded by Pylades of Cilicia and Bathyllus of Alexandria does not document personal contact, descent through a named school, or another connection qualifying under the specified types.
+
 ## Sources
 
 https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Caligula%2A.html

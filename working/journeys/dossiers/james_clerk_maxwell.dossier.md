@@ -1024,6 +1024,66 @@ His reputation remains unusually free of personal scandal, which creates its own
 
 ---
 
+## Atlas Connections
+
+### Alexander Graham Bell
+
+- **[T1-] Documented fact:** Maxwell’s Rede Lecture, “The Telephone,” delivered at Cambridge on 24 May 1878, explained and demonstrated Bell’s recently invented telephone and discussed Bell and his father Alexander Melville Bell by name. Maxwell was assisted experimentally by William Garnett. This establishes written engagement with Bell’s work, but no verified personal meeting between Maxwell and Bell was found. [Harman’s documentary chronology](https://assets.cambridge.org/97805212/56278/excerpt/9780521256278_excerpt.pdf); [published lecture](https://opg.optica.org/ao/abstract.cfm?uri=ao-17-11-1662).
+
+### Arthur Cayley
+
+- **[T3] Documented fact:** In 1874 Maxwell addressed a humorous laudatory poem to the committee organizing the Arthur Cayley Portrait Fund. The verses specifically celebrated Cayley’s determinants, complex numbers, scrolls and twenty-seven lines on a cubic surface. Both men were then Cambridge professors, and both had been elected honorary fellows of Trinity College in 1872. The poem securely documents Maxwell’s one-sided written engagement with Cayley; it does not by itself establish close friendship. [Text and provenance of Maxwell’s poem](https://mathshistory.st-andrews.ac.uk/Extras/Cayley_poem/); [Royal Society memoir of Cayley](https://mathshistory.st-andrews.ac.uk/RS/cayley_rs.pdf).
+
+### Albert Einstein
+
+- **[T1+] Documented fact:** On the centenary of Maxwell’s birth in 1931, Einstein contributed “Maxwell’s Influence on the Development of the Conception of Physical Reality” to *James Clerk Maxwell: A Commemorative Volume, 1831–1931*. Einstein treated Maxwell’s field theory as a decisive transformation of physical reality. This is a posthumous written connection; Maxwell died in 1879, the year Einstein was born, so no personal encounter was possible. [Einstein’s centenary essay](https://www.informationphilosopher.com/solutions/scientists/einstein/Maxwells_Influence.pdf); [Cambridge edition of the commemorative volume](https://assets.cambridge.org/97811076/70952/excerpt/9781107670952_excerpt.pdf).
+
+### George Gabriel Stokes
+
+- **[T3] Documented fact:** Maxwell and Stokes maintained scientific correspondence from at least the 1850s through the 1870s. Surviving letters address colour, optics, hydrodynamics, electricity, papers submitted for publication and university affairs; the scholarly edition includes, for example, Maxwell’s letter to Stokes of 26 July 1876. Their correspondence is preserved in the Maxwell and Stokes archival collections. [Cambridge edition contents](https://assets.cambridge.org/97805212/56278/frontmatter/9780521256278_frontmatter.pdf); [Stokes papers catalogue](https://www.lib.cam.ac.uk/collections/departments/archives-modern-and-medieval-manuscripts-and-university-archives-39).
+
+- **[T5] Documented fact:** Stokes was Maxwell’s senior Cambridge colleague, examiner and scientific adviser, and the two participated personally in Cambridge and Royal Society scientific life. Maxwell later appointed Stokes one of his executors. These records establish personal acquaintance and professional trust, although “friendship” should not be made more intimate than the evidence permits. [Campbell and Garnett’s contemporary biography](https://www.gutenberg.org/files/79044/79044-src/maxwell.html).
+
+### Johannes Kepler
+
+- **[T1-] Documented fact:** Maxwell wrote explicitly about Kepler’s laws in Chapter VIII of *Matter and Motion* (1876), including sections titled “Kepler’s Second Law,” “Kepler’s Third Law” and “Amended Form of Kepler’s Third Law.” This was historical and technical engagement with a deceased predecessor, not a personal crossing. [Digitized first-edition text](https://darwin-online.org.uk/converted/pdf/1876_Maxwell_MatterandMotion_DlibD_A3179.pdf); [edition contents](https://books.google.com/books/about/Matter_and_Motion.html?id=KfC1BshMZ7QC).
+
+### Lord Kelvin (William Thomson)
+
+- **[T3] Documented fact:** Maxwell and Thomson exchanged sustained scientific correspondence beginning during Maxwell’s early Cambridge work. Their letters treated electricity, Faraday’s lines of force, electromagnetic units, kinetic theory, thermodynamics and related research; a letter of 20 February 1854 records Maxwell asking Thomson for guidance as he and other Cambridge mathematicians prepared to “attack Electricity.” The archival catalogue identifies Thomson/Kelvin among Maxwell’s correspondents. [Study of the Maxwell–Thomson letters](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/origins-of-clerk-maxwells-electric-ideas-as-described-in-familiar-letters-to-w-thomson/3E0618D54972F8EEC66BCD9EF9189B78); [Maxwell papers catalogue](https://history.aip.org/catalog/icos/1028.html).
+
+- **[T5] Documented fact:** Thomson was Maxwell’s personal scientific friend and colleague. They met through British scientific institutions, served together on the British Association Committee on Electrical Standards, and continued exchanging work and jokes despite theoretical disagreements. The evidence supports friendship and repeated personal meetings, not merely parallel careers. [Campbell and Garnett’s contemporary biography](https://www.gutenberg.org/files/79044/79044-src/maxwell.html).
+
+### Michael Faraday
+
+- **[T1-] Documented fact:** Maxwell wrote extensively about Faraday. His “On Faraday’s Lines of Force” (1855–1856) reconstructed Faraday’s experimental field concepts mathematically, and his later *Encyclopaedia Britannica* article “Faraday, Michael” supplied an expressly biographical and scientific assessment. [“On Faraday’s Lines of Force”](https://en.wikisource.org/wiki/On_Faraday%27s_Lines_of_Force); [Maxwell’s author bibliography](https://en.wikisource.org/wiki/Author:James_Clerk_Maxwell).
+
+- **[T3] Documented fact:** Faraday and Maxwell corresponded directly from at least 1857. Faraday’s letters thanked Maxwell for his papers, discussed the mathematical treatment of lines of force and urged him to translate mathematical conclusions into language accessible to experimentalists. The Royal Institution’s correspondence project identifies Maxwell as a major Faraday correspondent in both 1855–1860 and 1860–1867. [Faraday to Maxwell, 7 November 1857](https://epsilon.ac.uk/view/faraday/letters/Faraday3353); [Royal Institution correspondence history](https://www.rigb.org/explore-science/explore/collection/michael-faradays-correspondence).
+
+- **[T5] Documented fact:** During Maxwell’s King’s College London years, 1860–1865, he participated in the Royal Institution’s scientific milieu and came into personal contact with Faraday. Their surviving correspondence, Maxwell’s appearances at the Royal Institution and contemporary biographical evidence establish acquaintance and meetings, though not a daily working partnership. [Campbell and Garnett’s contemporary biography](https://www.gutenberg.org/files/79044/79044-src/maxwell.html).
+
+### Norbert Wiener
+
+- **[T1+] Documented fact:** Wiener’s *Cybernetics* (1948) explicitly placed Maxwell’s 1868 “On Governors” in the prehistory of feedback and control theory, describing it as an early mathematical treatment of regulatory stability. This was a posthumous intellectual connection; Wiener was born fifteen years after Maxwell’s death. [Maxwell Foundation discussion with citation to Wiener](https://www.clerkmaxwellfoundation.org/Newsletter_2016_Autumn.pdf); [Maxwell’s primary paper](https://en.wikisource.org/wiki/On_Governors).
+
+### René Descartes
+
+- **[T1-] Documented fact:** Maxwell discussed Descartes in *Matter and Motion*, particularly in tracing definitions of matter and motion before presenting the Newtonian dynamical scheme. This constitutes documented historical-philosophical writing about an earlier roster figure; it does not indicate endorsement of Cartesian physics. [Digitized first-edition text](https://darwin-online.org.uk/converted/pdf/1876_Maxwell_MatterandMotion_DlibD_A3179.pdf); [searchable edition record](https://books.google.com/books/about/Matter_and_Motion.html?id=5rgIAAAAIAAJ).
+
+### Richard Feynman
+
+- **[T1+] Documented fact:** In *The Feynman Lectures on Physics* (1963–1964), Feynman wrote about Maxwell’s synthesis of electricity, magnetism and light, calling it perhaps the most dramatic nineteenth-century moment of physical unification. This is documented posthumous commentary, not a personal connection. [Caltech’s authorized online edition](https://www.feynmanlectures.caltech.edu/I_28.html).
+
+### Sir Isaac Newton
+
+- **[T1-] Documented fact:** Maxwell repeatedly wrote about Newton’s laws and investigative method. *Matter and Motion* develops Newton’s laws of motion, universal gravitation and a concluding section expressly titled “Newton’s Method,” treating Newton as both a technical and methodological predecessor. [Digitized first-edition text](https://darwin-online.org.uk/converted/pdf/1876_Maxwell_MatterandMotion_DlibD_A3179.pdf); [edition contents](https://books.google.com/books/about/Matter_and_Motion.html?id=KfC1BshMZ7QC).
+
+### William Rowan Hamilton
+
+- **[T1-] Documented fact:** Maxwell engaged extensively in print with Hamilton’s mathematics. His *Treatise on Electricity and Magnetism* employed quaternion notation selectively; his 1874 paper “On Hamilton’s Characteristic Function for a Narrow Beam of Light” developed Hamilton’s optical formalism; and the unsigned but securely attributed 1873 *Nature* review “Quaternions” evaluated Hamilton’s calculus. No verified direct correspondence or personal meeting between Maxwell and Hamilton was found. [Maxwell’s works list](https://en.wikisource.org/wiki/Author:James_Clerk_Maxwell); [1873 “Quaternions” review](https://www.nature.com/articles/009137a0).
+
+No adequately documented T2 prophecy/hyperstition connection or T9 shared-object succession was found between Maxwell and anyone on the supplied roster. Other roster figures were omitted where the available evidence showed only broad intellectual influence, use of Maxwell’s equations, contemporaneity or shared institutional geography rather than one of the specified connection types.
+
 ## Sources
 
 https://www.clerkmaxwellfoundation.org/html/about_maxwell.html

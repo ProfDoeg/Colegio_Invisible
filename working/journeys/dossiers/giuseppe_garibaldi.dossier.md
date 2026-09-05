@@ -560,6 +560,51 @@ Recent scholarship has shifted from deciding whether he was simply hero or fraud
 | 8 Jun 1882 | Funeral and burial at Caprera. |
 | 1888 | Definitive posthumous Italian edition of *Memorie autobiografiche*. |
 
+## Atlas Connections
+
+### Abraham Lincoln
+
+- **[T3]** **Documented fact:** Garibaldi and Lincoln never met or corresponded directly during the 1861 negotiations; communication about a Union commission passed through U.S. diplomats. Garibaldi nevertheless addressed an open letter to Lincoln on **6 August 1863**, praising emancipation and calling him the heir of John Brown. This constitutes one-sided written engagement, not a personal relationship. [American Battlefield Trust](https://www.battlefields.org/learn/primary-sources/giuseppe-garibaldi-president-lincoln)
+
+### Alexandre Dumas
+
+- **[T5]** **Documented fact:** Dumas met Garibaldi in **1860**, joined him during the Sicilian and Neapolitan campaign, supplied arms and publicity, and lived near him in Naples; a September 1860 autograph letter explicitly places Dumas “with Garibaldi.” Garibaldi subsequently appointed him to oversee museums and excavations in Naples. [Morgan Library & Museum](https://www.themorgan.org/literary-historical/365011)
+- **[T3]** **Documented fact:** They corresponded—an archival catalogue records Garibaldi’s letter to Dumas from **Palermo, 10 June 1860**—while Dumas wrote extensively about him in *Mémoires de Garibaldi*, *Les Garibaldiens*, and contemporary journalism. Dumas’s publications were literary and propagandistic mediations, not verbatim transcriptions of Garibaldi’s testimony. [Catalogue collectif de France/BnF](https://ccfr.bnf.fr/portailccfr/ark:/16871/004D46021034)
+
+### Anita Garibaldi
+
+- **[T5]** **Documented fact:** Garibaldi met Ana Maria de Jesus Ribeiro da Silva at **Laguna, Santa Catarina, in 1839**. She became his partner in the Brazilian and Uruguayan campaigns, married him at Montevideo on **26 March 1842**, and accompanied the 1849 retreat from Rome until her death near Ravenna on **4 August 1849**. The meeting, partnership, marriage, and shared campaigns are documented; the telescope encounter and “You must be mine” dialogue are later romanticized tradition.
+
+### Helena Petrovna Blavatsky
+
+- **[T4]** **Allegation or theory:** Blavatsky and later Theosophical accounts place her among Garibaldi’s volunteers during the **1867 Monterotondo–Mentana campaign**, allegedly wounded at Mentana. If true, they occupied the same military milieu, but no dependable contemporary muster roll, hospital record, or Garibaldian correspondence presently establishes her participation or a personal encounter with Garibaldi. The claimed crossing should therefore not be elevated to documented fact. [Theosophical Society in America](https://www.theosophical.org/publications/quest-magazine/blavatsky-and-the-battle-of-mentana)
+
+### Gabriele d’Annunzio
+
+- **[T1+]** **Documented fact:** After Garibaldi’s death, d’Annunzio made him the subject of the commemorative poem **“La notte di Caprera,”** published in *Elettra* within the *Laudi* cycle in **1903–04**. Garibaldi is the earlier, written-about figure and therefore receives the positive sign. [Wikisource edition](https://it.wikisource.org/wiki/Elettra_%28D%27Annunzio%29/La_notte_di_Caprera)
+
+### John Brown
+
+- **[T1-]** **Documented fact:** Garibaldi wrote admiringly about the already-deceased American abolitionist in his letter to Lincoln of **6 August 1863**, describing Lincoln as continuing Brown’s emancipatory mission. Garibaldi is the later writer and therefore receives the negative sign. No meeting was possible: Brown died in 1859. [American Battlefield Trust](https://www.battlefields.org/learn/primary-sources/giuseppe-garibaldi-president-lincoln)
+
+### Karl Marx
+
+- **[T3]** **Documented fact:** Marx repeatedly discussed Garibaldi in contemporary newspaper articles and private correspondence. His **23 July 1860** article analyzed Garibaldi’s rupture with Giuseppe La Farina using the contents of a Garibaldi letter supplied by a London intermediary; in an **19 April 1864** letter to Engels, Marx sharply criticized Garibaldi’s London politics. This was one-sided written engagement: no reliable evidence establishes correspondence or a personal meeting between them. [Marx’s 1860 article](https://marxengels.public-archives.com/en/ME1208en.html), [Marx’s 1864 letter](https://marx-ebooks.github.io/en/MECW/41/MECW41-311.html)
+
+### Mikhail Bakunin
+
+- **[T5]** **Documented fact:** Bakunin visited Garibaldi at **Caprera from 20 to 23 January 1864**. They conversed at length and established a cordial personal relationship; Garibaldi’s contemporaneous letter of **22 January** recommended “our Bakunin” to Giuseppe Dolfi as already a friend and honored democratic figure. [Garibaldi’s National Edition correspondence](https://www.risorgimento.it/wp-content/uploads/2025/12/09_Volume_IX_colBN_C3_1_0_OCR.pdf)
+- **[T3]** **Documented fact:** The same documentary record preserves Garibaldi’s written recommendation of Bakunin and a Masonic communication asking Ludovico Frapolli to regularize Bakunin’s standing, both dated **22 January 1864**. Their connection therefore extended beyond proximity into written political and fraternal engagement. [Garibaldi’s National Edition correspondence](https://www.risorgimento.it/wp-content/uploads/2025/12/09_Volume_IX_colBN_C3_1_0_OCR.pdf)
+
+### Antonio Gramsci
+
+- **[T1+]** **Documented fact:** Decades after Garibaldi’s death, Gramsci analyzed his leadership, volunteer army, relationship with Victor Emmanuel II, and role in the failed mobilization of the peasantry in the *Prison Notebooks*, composed principally in the **late 1920s and 1930s**. Garibaldi is the earlier, written-about figure and receives the positive sign. [English Historical Review](https://academic.oup.com/ehr/article-abstract/CXXIV/507/465/465988), [*Prison Notebooks* text](https://it.wikisource.org/wiki/Pagina:Gramsci_-_Quaderni_del_carcere,_Einaudi,_I.djvu/62)
+
+### Victor Hugo
+
+- **[T3]** **Documented fact:** At the French National Assembly in **Bordeaux on 8 March 1871**, Hugo publicly defended Garibaldi after hostile deputies challenged the Italian general’s election and service to France. Garibaldi was the immediate subject of a speech delivered in the assembly in which both men participated, establishing direct performative discourse even though a private conversation is not securely documented.
+- **[T3]** **Documented fact:** In an open letter published in April 1871, Garibaldi recommended Hugo by name as one of the honest democratic figures whom Paris might choose as civic leader. This is one-sided written engagement. [Garibaldi’s letter](https://www.marxists.org/history/france/paris-commune/documents/garibaldi-letter.htm)
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/giuseppe-garibaldi_%28Dizionario-Biografico%29/

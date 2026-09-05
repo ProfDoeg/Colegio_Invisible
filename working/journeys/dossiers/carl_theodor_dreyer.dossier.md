@@ -459,6 +459,35 @@ The most durable posthumous image combines opposites: documentary researcher and
 
 The archive's web pages were consulted through indexed results where direct page access was intermittently blocked. Several books are bibliographically verified but access-restricted; this dossier does not pretend to have inspected every page of them. No accessible court docket was found for the Société Générale dispute, and no primary death record was located for cause of death. Repeated targeted searches converged on the same DFI/Danish biographical record, formal scholarship, and restoration history; additional general searches were yielding derivative summaries rather than evidence likely to change the core findings.
 
+## Atlas Connections
+
+### Antonin Artaud
+
+- **[T5] Documented fact:** Artaud worked personally under Dreyer’s direction in France in 1927, playing the sympathetic cleric Jean Massieu in *La Passion de Jeanne d’Arc* (released 1928). The Danish Film Institute’s credits document the collaboration. [Danish Film Institute](https://www.carlthdreyer.dk/en/carlthdreyer/films/features/passion-joan-arc)
+- **[T3] Documented fact:** Artaud subsequently wrote about the film, interpreting Joan as the victim of a divine principle distorted by Church and government. This constitutes one-sided written engagement with Dreyer’s work, beyond their production contact. [Danish Film Institute](https://www.carlthdreyer.dk/en/carlthdreyer/about-dreyer/working-method/perilous-performance-dreyers-unity-danger-and-beauty)
+
+### Gilles Deleuze
+
+- **[T1+] Documented fact:** After Dreyer’s death, Deleuze analyzed his cinema extensively in his 1980s cinema lectures and in *Cinema 1* and *Cinema 2*. He discussed *The Passion of Joan of Arc*, *Day of Wrath*, *Ordet*, and *Gertrud* in relation to affect, spiritual choice, faith, framing, and the time-image. Dreyer is therefore the earlier, written-about figure. [Purdue Deleuze Seminars](https://deleuze.cla.purdue.edu/wp-content/uploads/2022/07/Cinema-2-22a-053183-Eng.pdf)
+
+### Jesus of Nazareth
+
+- **[T1-] Documented fact:** Dreyer twice wrote and directed or planned screen representations of Jesus. He co-wrote and directed the Passion episode of *Blade af Satans Bog* (filmed 1919 and released in Denmark in 1921), in which Halvard Hoff played Jesus; beginning around 1930, he then spent more than three decades researching and writing the unrealized screenplay *Jesus of Nazareth*, completed in substantial form by 1950 and published in 1968. [Danish Film Institute: *Leaves from Satan’s Book*](https://www.carlthdreyer.dk/en/carlthdreyer/films/features/leaves-satans-book), [Danish Film Institute: Jesus project](https://www.carlthdreyer.dk/en/carlthdreyer/about-dreyer/themes/dreyers-jesus-jew-among-jews)
+
+### Joan of Arc
+
+- **[T1-] Documented fact:** Dreyer co-wrote and directed *La Passion de Jeanne d’Arc* in France in 1927–28, basing its representation of Joan principally on the record of her 1431 trial. His screenplay and film concentrate on her interrogation, recantation, renewed profession of faith, and execution rather than her military career. [Danish Film Institute](https://www.carlthdreyer.dk/en/carlthdreyer/films/features/passion-joan-arc)
+
+### Renée Jeanne Falconetti
+
+- **[T5] Documented fact:** Dreyer personally selected and directed Falconetti in France during the 1927 production of *La Passion de Jeanne d’Arc*. She played Joan in her only leading film role, and their collaboration—especially Dreyer’s screen tests, close-up method, repeated takes, and demand for an unmade-up face—produced the film’s central performance. Claims that their working relationship amounted to systematic torture remain allegation or production legend rather than established fact. [Danish Film Institute: Falconetti](https://www.carlthdreyer.dk/en/carlthdreyer/about-dreyer/collaborators/renee-jeanne-falconetti), [Danish Film Institute: production-method assessment](https://www.carlthdreyer.dk/en/carlthdreyer/about-dreyer/working-method/perilous-performance-dreyers-unity-danger-and-beauty)
+
+### Søren Kierkegaard
+
+- **[T1-] Documented fact:** Dreyer’s screenplay for *Ordet* (1955), adapted from Kaj Munk’s play, explicitly identifies Kierkegaard’s theology as the subject whose study preceded Johannes Borgen’s breakdown. The connection is textual rather than personal—Kierkegaard died in 1855—and later scholarship has examined the film’s sustained engagement with Kierkegaardian faith, “the moment,” sacrifice, and repetition. [Danish Film Institute](https://www.carlthdreyer.dk/en/carlthdreyer/films/features/word), [Daniel Watts, “The Fullness of Time”](https://www.mdpi.com/2077-1444/10/1/58)
+
+No adequately documented direct crossing was found with the remaining roster members. In particular, Fritz Lang’s parallel presence in 1920s German studio cinema and Lionel Royer’s earlier Joan iconography establish comparison or background, not by themselves a qualifying personal, discursive, or shared-object connection.
+
 ## Sources
 
 https://www.carlthdreyer.dk/en

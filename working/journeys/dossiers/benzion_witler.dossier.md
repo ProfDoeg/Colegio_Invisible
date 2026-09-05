@@ -1260,6 +1260,10 @@ Whether interpreted as borrowing, folk transmission, or re-sacralization, the ep
 
 ---
 
+## Atlas Connections
+
+No qualifying connection between Ben-Zion Witler and any other person on the atlas roster could be documented. Searches surfaced several roster-adjacent coincidences—most notably Witler and **Max Perlman** appearing separately in the same retrospective recording compilations and archival collections—but no evidence that they corresponded, met, attended one another’s performances, worked together, or occupied the same documented event. Those associations therefore do not satisfy T3, T4, T5, or T9 and are omitted as connections. ([National Library of Israel](https://www.nli.org.il/he/items/NNL_MUSIC_AL990040837130205171/NLI), [Florida Atlantic University Recorded Sound Archives](https://rsa.fau.edu/album/36352), [WorldCat](https://search.worldcat.org/title/1135494862))
+
 ## Sources
 
 https://www.museumoffamilyhistory.com/yt/lex/W/witler-benzion.htm

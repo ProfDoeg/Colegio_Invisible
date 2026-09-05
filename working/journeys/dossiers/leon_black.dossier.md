@@ -565,6 +565,38 @@ None alone reconstructs the whole record.
 | July 17, 2026 | House releases transcript; counsel indicates future compliance and deposition. |
 | August 30, 2026 | Living; litigation and investigations continue; subpoenaed deposition scheduled for September 3. |
 
+## Atlas Connections
+
+### Jeffrey Edward Epstein
+
+- **[T5] Documented fact:** Black and Epstein maintained a personal and professional relationship from the mid-1990s until approximately October 2018. They met socially, visited one another’s properties, traveled together at least once on Epstein’s aircraft, and from 2012 through 2017 Epstein advised Black on tax, estate, charitable, art, and family-office matters. Black paid him $158 million in fees according to the Dechert review; subsequent bank-record analysis used an approximately $170 million figure. ([Dechert memorandum filed with the SEC](https://www.sec.gov/Archives/edgar/data/1411494/000119312521016405/d118102dex991.htm); [Senate Finance Committee](https://www.finance.senate.gov/chairmans-news/wyden-unveils-ongoing-investigation-into-private-equity-billionaire-leon-blacks-tax-planning-and-financial-ties-with-jeffrey-epstein))
+
+### Ghislaine Noelle Marion Maxwell
+
+- **[T3] Documented fact:** In 2003 Black supplied a handwritten comic poem for *The First Fifty Years*, the birthday album Maxwell compiled for Epstein. The surviving album identifies Maxwell as its compiler and includes Black’s signed contribution, establishing written participation in a project she organized; it does not by itself prove a separate personal meeting between Black and Maxwell. ([Released birthday album](https://media-cdn.rollcall.com/epstein-files/Document-2-birthday-letter-handwritten.pdf); [Associated Press](https://apnews.com/article/a70a8c8d4bfe0b625b893a7de1cc72f0))
+
+### Bill Gates
+
+- **[T5] Reported fact based on Black’s sworn account:** During his June 26, 2026 House Oversight interview, Black said Epstein introduced him to Gates. The public reporting establishes Black’s testimony to a personal introduction, but does not independently establish its exact date, venue, or the extent of any subsequent relationship. ([CBS News](https://www.cbsnews.com/news/epstein-leon-black-birthday-book-house-oversight/); [House Oversight transcript release](https://oversight.house.gov/release/oversight-committee-releases-leon-black-and-doug-band-transcripts/))
+
+### Elon Reeve Musk
+
+- **[T5] Reported fact based on Black’s sworn account:** Black told House investigators in June 2026 that Epstein introduced him to Musk. Publicly available reporting does not specify the exact date or place and does not demonstrate a continuing relationship beyond the reported introduction. ([CBS News](https://www.cbsnews.com/news/epstein-leon-black-birthday-book-house-oversight/); [Associated Press](https://apnews.com/article/2d369605ab3ea8d81d716f6c8e68b356))
+
+### Peter Andreas Thiel
+
+- **[T5] Reported fact based on Black’s sworn account:** In his June 2026 congressional interview, Black included Thiel among people to whom Epstein introduced him. The record located for this review supports a personal introduction but not a specific date, location, or durable association between Black and Thiel. ([CBS News](https://www.cbsnews.com/news/epstein-leon-black-birthday-book-house-oversight/); [Associated Press](https://apnews.com/article/2d369605ab3ea8d81d716f6c8e68b356))
+
+### Pablo Ruiz Picasso
+
+- **[T9-] Documented fact:** Black became the later owner of Picasso’s 1931 plaster sculpture *Buste de femme (Marie-Thérèse)*. Gagosian Gallery sold the work to Black in 2015, and a 2016 settlement of competing ownership claims left it with him. The sculpture itself is the connecting object; Picasso died decades before Black acquired it, so no personal encounter is implied. ([The Art Newspaper](https://www.theartnewspaper.com/2016/07/01/leon-black-now-owns-disputed-picasso-sculpture))
+
+### Leonardo di ser Piero da Vinci
+
+- **[T9-] Reported fact:** Released records and subsequent reporting identify works by or attributed to Leonardo among Black’s collection, making the artwork—not personal contact—the connection between the Renaissance artist and the later collector. The located public reporting does not provide sufficiently clear provenance and attribution details to identify every Leonardo-related object with confidence. ([Le Monde](https://www.lemonde.fr/en/international/article/2026/03/16/how-epstein-made-himself-indispensable-to-moma-s-former-chair-leon-black_6751497_4.html))
+
+No reliable evidence located supports additional Atlas-roster connections under the specified definitions. Mere overlap in elite, museum, financial, political, intellectual, or Epstein-associated circles was excluded unless the record documented a qualifying meeting, communication, shared milieu, or transferred object.
+
 ## Sources
 
 https://www.sec.gov/Archives/edgar/data/1411494/000119312521016405/d118102dex991.htm

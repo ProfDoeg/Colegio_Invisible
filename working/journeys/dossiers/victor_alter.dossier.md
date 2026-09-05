@@ -589,6 +589,30 @@ Recent digitization and translation have begun to shift attention from the manne
 | **8 Feb. 1991** | Erlich and Alter formally rehabilitated; repression declared unlawful. |
 | **1990s–2010s** | NKVD records support separate death chronology: Erlich's 1942 suicide, Alter's 1943 execution. |
 
+## Atlas Connections
+
+### Henryk Erlich
+
+- **[T5] Documented fact:** Alter and Erlich were longtime colleagues in the Polish Bund’s leadership from 1919, jointly represented it internationally, prepared and signed political documents together, and collaborated in Moscow and Kuibyshev during 1941 on plans for an international Jewish anti-fascist committee. They shared accommodation in Kuibyshev before being summoned and rearrested together on 3–4 December 1941. This was a sustained personal and working relationship, not merely organizational proximity. [Contemporary Bund case documentation](https://www.bibliotecaginobianco.it/fliplibri/ERLALT/); [Polish diplomatic note, 8 December 1941](https://digit.pism.pl/Content/1542/Confronting%20the%20Holocaust.pdf)
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Alter was the later writer in this pair. His Yiddish essay **“Marks un di visnshaft fun geshikhte”** (*Marx and the Science of History*), published in Moscow in 1918 and subsequently as a pamphlet, explicitly interpreted Marx’s ideas and historical method. This is a direct authored engagement with the earlier figure, rather than a connection inferred merely from Alter’s Marxism. [Victor Alter biographical entry](https://congressforjewishculture.org/people/6923/)
+
+### Albert Einstein
+
+- **[T3] Documented fact:** Einstein participated in a one-sided written intervention concerning Alter while Alter was imprisoned. He joined William Green, Philip Murray, and others in a telegram dated 29 January 1943 urging Soviet authorities to release Alter and Erlich. In June 1943 Einstein also answered an inquiry about the case in writing, stating that he had never accepted their alleged guilt. No personal meeting or correspondence directly between Alter and Einstein is documented. [Contemporary account of Einstein’s statement](https://www.marxists.org/subject/jewish/ghetto-speaks/ghetto-speaks-15-sept-1-43.pdf); [1943 Congressional Record summary](https://www.govinfo.gov/content/pkg/GPO-CRECB-1943-pt5/pdf/GPO-CRECB-1943-pt5-3-1.pdf)
+
+### Vladimir Lenin
+
+- **[T4] Documented fact:** Alter, traveling under the name **M. Lorman**, was present in Moscow in June–July 1921 for negotiations associated with the Third Congress of the Communist International; Lenin participated in and addressed that congress between 22 June and 12 July. This establishes a narrowly defined shared political venue and period, but the available evidence does not establish a personal meeting, conversation, or correspondence between them. [Lenin’s Third Congress materials](https://www.marxists.org/archive/lenin/works/1921/jun/12.htm)
+
+### Leon Trotsky
+
+- **[T4] Documented fact:** Alter’s 1921 Comintern mission placed him at the Third Congress in Moscow while Trotsky was delivering congress reports and speeches, including his 23 June address on the world economic crisis. The record supports shared presence in the same congress milieu, but no direct Alter–Trotsky exchange or personal meeting has been located. [Third Congress proceedings](https://www.marxists.org/history/international/comintern/3rd-congress/); [congress chronology and Trotsky speech listing](https://www.marxists.org/francais/inter_com/1921/ic3.htm)
+
+No additional roster connection was included merely because another person was a contemporary socialist, Bundist, Zionist, scientist, or participant in the same broad historical setting; such affiliations alone do not document a crossing.
+
 ## Sources
 
 https://encyclopedia.yivo.org/article.aspx/alter_wiktor

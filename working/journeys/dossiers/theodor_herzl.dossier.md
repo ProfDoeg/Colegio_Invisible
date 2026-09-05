@@ -549,6 +549,50 @@ Early biographies were hagiographic and movement-building. Post-1970 biographies
 - Ottoman dialogue is often transmitted through Herzl, intermediaries, or later memoirs rather than verbatim Ottoman minutes.
 - The diary provides unparalleled detail but also records fantasy, tactical speculation, resentment, and planned self-memorialization. It must be read against letters, press, and institutional records.
 
+## Atlas Connections
+
+### Ahad Ha’am
+
+- **[T3] Documented fact.** From 1896 onward, Ahad Ha’am publicly criticized Herzl’s state-centered political Zionism and promoted Palestine as a Jewish spiritual and cultural center. Their competing programs confronted one another through essays, Zionist congress politics, and the Herzl–Nordau/Ahad Ha’am controversy; surviving archival correspondence and organizational records confirm direct written engagement rather than merely parallel intellectual activity. [YIVO Encyclopedia](https://encyclopedia.yivo.org/article/631), [National Library of Israel archival description](https://www.nli.org.il/en/archives/NNL_ARCHIVE_AL990030144730205171/NLI)
+
+### Captain Alfred Dreyfus
+
+- **[T3] Documented fact.** As the Paris correspondent of the *Neue Freie Presse*, Herzl reported on Dreyfus’s prosecution, conviction, and public degradation in 1894–95. This was one-sided journalistic engagement: Herzl wrote about Dreyfus, but no personal meeting or correspondence between them is securely documented.
+
+### Cecil Rhodes
+
+- **[T3] Documented fact, with transmission caveat.** On 11 January 1902 Herzl drafted an appeal asking Rhodes to place the authority of his name behind Zionism, explicitly presenting the project as colonial while arguing that it possessed capital and a large prospective migrant population. The text survives in Herzl’s diary; evidence that Rhodes received or answered it has not been established, so this is a documented one-sided written address, not correspondence or a meeting. [Herzl Online manuscript](https://www.herzlonline.org/en/diary-page/214-h1-h77-diary-6/)
+
+### Chaim Weizmann
+
+- **[T3] Documented fact.** Weizmann attended Zionist congresses presided over by Herzl from the Second Congress at Basel in 1898, joined the Democratic Faction challenging Herzl’s priorities, and corresponded with him—surviving references include letters to Herzl dated 19 August 1899 and 6 May 1903. At the Sixth Congress in August 1903, Weizmann opposed Herzl’s East Africa proposal. The evidence supports direct written and congress-floor engagement, although later accounts sometimes overstate the intimacy of their relationship. [National Library of Israel archival description](https://www.nli.org.il/en/archives/NNL_ARCHIVE_AL990030144730205171/NLI), [scholarly study of Weizmann’s early leadership](https://journals.sagepub.com/doi/10.1177/002200948301800203)
+
+### Sigmund Freud
+
+- **[T3] Documented fact.** Freud attended a performance of Herzl’s *Das neue Ghetto* in Vienna in 1898 and wrote to Herzl on 28 September 1902, sending *The Interpretation of Dreams* and requesting possible attention in the *Neue Freie Presse*. The Central Zionist Archives describes this as Freud’s only direct approach to Herzl and states that, despite living near one another, they never met face to face. [Central Zionist Archives](https://www.zionistarchives.org.il/collections/HerzlArchive/Pages/Freud.aspx), [Library of Congress finding aid](https://findingaids.loc.gov/exist_collections/ead3pdf/mss/2004/ms004017.pdf)
+
+### Mark Twain
+
+- **[T5] Reported fact.** Herzl and Samuel Clemens—Mark Twain—briefly met at Twain’s public reading at the British Embassy in Paris on 5 April 1894. Twain later appears to have attended the 5 January 1898 Vienna première of Herzl’s *Das neue Ghetto*, reportedly after receiving a ticket from Herzl. [Twain’s Geography chronology](https://twainsgeography.com/page/addenda-errata-volume-ii-1886-1896), [Twain’s Geography, 5 January 1898](https://twainsgeography.com/node/21054)
+- **[T1-] Documented fact.** Herzl wrote a feuilleton describing Twain’s Paris performance, published in the *Neue Freie Presse* on 15 April 1894. On Herzl’s dossier the sign is negative because Herzl was the writer and Twain the figure written about. [Tel Aviv University historical study](https://www.tau.ac.il/sites/default/files/media_server/imported/577/files/2014/01/herzl-and-twain2.pdf)
+
+### Martin Buber
+
+- **[T5] Documented fact.** Buber met Herzl personally in Vienna after joining the Zionist movement. Herzl subsequently appointed the young Buber to edit *Die Welt* in 1901; their collaboration continued amid Buber’s participation in the culturally oriented Democratic Faction.
+- **[T3] Documented fact.** Their surviving correspondence begins by at least 1900 and includes Buber’s letter of 11 August 1901 and Herzl’s replies of 13 and 24 August concerning *Die Welt* and movement affairs. The Martin Buber Archive holds Herzl material from 1899–1902, including handwritten and typed letters. [National Library of Israel](https://www.nli.org.il/en/archives/NNL_ARCHIVE_AL990030144730205171/NLI)
+
+### Friedrich Nietzsche
+
+- **[T1-] Documented fact.** Herzl discussed Nietzsche in his diary. Recording a conversation with Leo Frankel on 28 June 1895, he rejected the description of himself as Nietzsche’s disciple and called Nietzsche “a madman,” while continuing to debate aristocracy, democracy, and individualism in terms that scholars have examined as an ambivalent Nietzschean presence in his thinking. Herzl is therefore the later writer in this pairing. [Cornell University Press/JSTOR chapter](https://www.jstor.org/stable/10.7591/j.ctv5qdjn7.6)
+
+### Rudolf Steiner
+
+- **[T3] Documented fact.** Steiner engaged directly in print with Herzl’s program, discussing *Der Judenstaat* and condemning political Zionism in his contemporary essay “The Yearning of the Jews for Palestine.” This establishes one-sided written engagement with Herzl and his work; the consulted evidence does not securely establish a personal meeting or correspondence. [Rudolf Steiner Archive text](https://rsarchive.org/Articles/GA031/English/SOL2024/47_The_Yearning_of_the_Jews_for_Palestine.html)
+
+### Ze’ev Jabotinsky
+
+- **[T3] Documented fact; alleged personal exchange disputed.** As an Odessa delegate and journalist, Jabotinsky attended the Sixth Zionist Congress at Basel in August 1903 and heard Herzl speak—the only such occasion in Jabotinsky’s life. His later autobiography described a brief personal encounter, but that exchange rests on his retrospective testimony and lacks independent confirmation. The secure connection is therefore Jabotinsky’s presence at and written reporting on Herzl’s congress performance, not an independently verified friendship. [National Library of Israel](https://www.nli.org.il/en/discover/israel/figures/zeev-jabotinsky), [Jewish Review of Books historiographical assessment](https://jewishreviewofbooks.com/articles/1968/your-time-is-up-jabotinsky-at-the-sixth-zionist-congress/)
+
 ## Sources
 
 https://www.herzlonline.org/en/

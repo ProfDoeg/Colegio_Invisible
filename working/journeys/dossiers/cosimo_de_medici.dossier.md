@@ -736,6 +736,22 @@ Most famous portraits are posthumous. Pontormo’s early-sixteenth-century portr
 
 ---
 
+## Atlas Connections
+
+### Lorenzo di Piero de' Medici
+
+- **[T1+] [T5] Documented fact:** Lorenzo the Magnificent was Cosimo’s grandson and lived in the Medici household during Cosimo’s final fifteen years (1449–1464). Lorenzo subsequently wrote about Cosimo in his *Ricordi*, recording his grandfather’s death at Careggi on 1 August 1464, his gout, public reputation, and the family’s mourning. Thus Cosimo is both the earlier figure written about (T1+) and a close relative whom Lorenzo personally knew (T5). [Lorenzo’s *Ricordi*](https://ezrapoundcantos.org/index.php/canto-17-27-overview/canto-xxi/xxi-sources/309-lorenzo-de-medici-ricordi?start=1)
+
+### Nicholas of Cusa
+
+- **[T4] Documented fact:** Nicholas of Cusa and Cosimo occupied the same closely defined diplomatic-ecclesiastical milieu at Florence in 1439. Nicholas had helped bring Emperor John VIII Palaiologos and the Greek delegation from Constantinople and participated in the Council of Ferrara–Florence; Cosimo, then gonfalonier of justice, helped finance and officially receive the council after its transfer to Florence. Their individual participation is documented, but a personal conversation or friendship between them is not established by the cited evidence. [Council of Florence overview](https://www.newadvent.org/cathen/06111a.htm)
+
+### Michelangelo Buonarroti
+
+- **[T9-] Reported fact:** Michelangelo later studied Medici antiquities and Renaissance sculpture under Lorenzo the Magnificent’s patronage, especially in the Medici garden at San Marco around 1490–1491. Later testimony describes the family sculpture collection as having been begun by Cosimo and subsequently enlarged and reorganized by Lorenzo; Michelangelo was therefore a later user of a collection whose formation originated with Cosimo, although no securely identified single sculpture can be shown to have passed directly from Cosimo’s hands to Michelangelo’s study. The connection is consequently T9− rather than a personal meeting: Michelangelo was born in 1475, eleven years after Cosimo’s death. [Metropolitan Museum of Art](https://www.metmuseum.org/exhibitions/listings/2017/michelangelo/exhibition-galleries), [Tuscan regional history of Lorenzo’s garden](https://www.latoscanadileonardo.it/en/places/metropolitan-city-of-florence/municipality-of-florence/the-garden-of-lorenzo-de-medici-at-san-marco.html)
+
+No further roster connection was included where the evidence showed only broad intellectual influence, ordinary shared geography, genealogical speculation, artistic subject matter, or later analogy rather than one of the defined crossings.
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/cosimo-de-medici_(Dizionario-Biografico)/

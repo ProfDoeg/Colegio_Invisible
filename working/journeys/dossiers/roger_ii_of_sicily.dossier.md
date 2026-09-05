@@ -767,6 +767,18 @@ Szymanowski’s *King Roger* detached the king from political chronology and mad
 
 ---
 
+## Atlas Connections
+
+### Bernard of Clairvaux
+
+- **[T5] Documented fact:** Bernard personally appeared before Roger II at Salerno in December 1137 as one of Innocent II’s representatives in the formal hearing over the rival papal elections. Roger questioned Innocent’s and Anacletus II’s delegations separately for four days each but declined an immediate decision. Falco of Benevento’s near-contemporary chronicle records Bernard’s presence. [Chronicle of Benevento](https://deltoi.com/la/falco-benevento/chronicon-beneventanum/chapter-8)
+
+- **[T3] Documented fact:** Bernard addressed at least two surviving letters directly to Roger after their earlier political opposition. Letter 207, conventionally dated 1139 but placed after c. 1142 by modern scholarship, advised the king to direct his celebrated generosity toward genuinely poor religious petitioners. [Cambridge excerpt from Hubert Houben’s biography](https://assets.cambridge.org/97805216/52087/excerpt/9780521652087_excerpt.pdf), [English text of Letter 207](https://brittlebooks.library.illinois.edu/brittlebooks_open/Books2009-03/bernst0001lifwor/bernst0001lifworv00002/)
+
+- **[T1+] Documented fact:** Bernard repeatedly wrote about Roger in correspondence with other rulers and churchmen. During the papal schism he denounced Roger as the Sicilian usurper or tyrant and urged Emperor Lothair to renew war against him; by about 1150 his position had changed, and he reportedly commended the “Lord of Sicily” to Conrad III as useful to the Church and a prospective crusading enterprise. [Cambridge excerpt from Hubert Houben’s biography](https://assets.cambridge.org/97805216/52087/excerpt/9780521652087_excerpt.pdf), [study of Roger’s *rex-tyrannus* image](https://www.mgh-bibliothek.de/dokumente/a/a089131.pdf)
+
+No other roster member has a sufficiently direct, documented crossing under the specified categories. In particular, claims connecting Roger genealogically to Rollo or William the Conqueror are unsupported pedigree traditions, not qualifying personal or object-based connections.
+
 ## Sources
 
 https://www.jstor.org/stable/jj.21995805

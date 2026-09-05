@@ -431,6 +431,110 @@ The “Josephus problem” appears in recreational mathematics, algorithms, and 
 - Exact authentic wording, if any, underlying the *Testimonium Flavianum*.
 - Extent of editorial assistance in his Greek prose.
 
+## Atlas Connections
+
+### Noah son of Lamech
+
+- **[T1-] Documented fact (textual); reported sacred history:** Josephus retold Noah’s flood, ark, sacrifice, descendants, and death in *Jewish Antiquities* 1.72–109, written at Rome and completed in 93/94 CE. His account derives principally from Genesis while adding chronological and ethnographic material. [Primary text](https://penelope.uchicago.edu/josephus/ant-1.html)
+
+### Abraham
+
+- **[T1-] Documented fact (textual); reported sacred history:** In *Jewish Antiquities* 1.148–256, Josephus made Abraham a major ancestral figure, narrating his migration, Egyptian journey, covenant, family, attempted sacrifice of Isaac, and death. He also attributed astronomy and arithmetic to Abraham and cited non-Jewish writers as purported corroboration. [Primary text](https://penelope.uchicago.edu/josephus/ant-1.html)
+
+### Aaron the Levite
+
+- **[T1-] Documented fact (textual); reported sacred history:** Josephus narrated Aaron’s consecration as the first high priest, his vestments, priestly duties, family, and death in *Jewish Antiquities* 3–4, composed in Rome before 93/94 CE. Aaronic descent also supplied the institutional framework for Josephus’s own claimed priestly status. [Books 3–4](https://www.gutenberg.org/files/2848/2848-h/2848-h.htm)
+
+### Moses
+
+- **[T1-] Documented fact (textual); reported sacred history:** Moses dominates *Jewish Antiquities* 2–4 and Josephus’s constitutional defense in *Against Apion* 2. Josephus portrayed him as prophet, commander, legislator, and founder of the Jewish polity, while defending him against Egyptian polemicists who identified him with the alleged priest Osarsiph. [*Against Apion* 1](https://penelope.uchicago.edu/josephus/apion-1.html) and [*Against Apion* 2](https://penelope.uchicago.edu/josephus/apion-2.html)
+
+### King David
+
+- **[T1-] Documented fact (textual); reported sacred history:** Josephus rewrote David’s rise, reign, wars, household conflicts, census, preparations for the Temple, death, and burial in *Jewish Antiquities* 6–7. Later books also associated David’s Jerusalem tomb with purported withdrawals of treasure by John Hyrcanus and Herod. [Primary text collection](https://www.gutenberg.org/files/2848/2848-h/2848-h.htm)
+
+### King Solomon
+
+- **[T1-] Documented fact (textual); reported sacred history:** *Jewish Antiquities* 8 presents Solomon as king, judge, author of wisdom, Temple builder, diplomatic partner of Hiram of Tyre, and eventual religious offender. Josephus’s Temple description subsequently became an important source for early-modern architectural reconstructions. [Primary text](https://penelope.uchicago.edu/josephus/ant-8.html)
+
+### The Queen of Sheba
+
+- **[T1-] Documented fact (textual); reported sacred history:** Josephus retold the queen’s visit to Solomon in *Jewish Antiquities* 8.165–175, calling her ruler of Egypt and Ethiopia and describing her testing Solomon with difficult questions and exchanging royal gifts. That geographical identification is Josephus’s interpretation, not independent documentation of the visit. [Primary text](https://penelope.uchicago.edu/josephus/ant-8.html)
+
+### Ezekiel son of Buzi
+
+- **[T1-] Documented fact (textual); reported sacred history:** In *Jewish Antiquities* 10 Josephus identified Ezekiel as a prophet among the Babylonian exiles and said that he left two books containing predictions about Jerusalem and the restoration. Josephus’s “two books” statement is textually documented but difficult to reconcile with the single canonical Book of Ezekiel. [Primary text](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0146%3Abook%3D10)
+
+### Nebuchadnezzar II
+
+- **[T1-] Documented fact (textual); reported historical tradition:** Josephus narrated Nebuchadnezzar’s campaigns, capture and destruction of Jerusalem and its Temple, deportations, and encounters with Daniel in *Jewish Antiquities* 10. He also invoked Berossus and Megasthenes in *Against Apion* 1 as non-Jewish witnesses to the Babylonian king. [*Antiquities* 10](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0146%3Abook%3D10) and [*Against Apion* 1](https://penelope.uchicago.edu/josephus/apion-1.html)
+
+### Cyrus the Great
+
+- **[T1-] Documented fact (textual); reported historical tradition:** *Jewish Antiquities* 11 opens with Cyrus authorizing the return from Babylon and reconstruction of the Jerusalem Temple. Josephus further reports that Cyrus acted after reading a prophecy naming him; the existence of Josephus’s report is documented, while Cyrus’s exposure and response to that prophecy are not independently established. [Primary text](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0146%3Abook%3D11)
+
+### Alexander the Great
+
+- **[T1-] Documented fact (textual); disputed reported episode:** In *Jewish Antiquities* 11.304–347 Josephus narrated Alexander’s supposed visit to Jerusalem, meeting with the high priest, and favorable treatment of the Jews after being shown a Danielic prediction of Greek victory over Persia. Josephus wrote more than four centuries afterward, and Alexander’s Jerusalem visit is not independently secured; *Antiquities* 12 then records his death and division of the empire. [Books 11–12](https://www.gutenberg.org/files/2848/2848-h/2848-h.htm)
+
+### Cleopatra VII
+
+- **[T1-] Documented fact (textual); reported historical narrative:** Josephus discussed Cleopatra VII extensively in *Jewish Antiquities* 14–15 and *Jewish War* 1, particularly her relations with Mark Antony and Herod, territorial acquisitions, and death in 30 BCE. His strongly hostile characterization reflects sources and political traditions favorable to Herod and Augustus and is not neutral biography. [*Antiquities* 14](https://penelope.uchicago.edu/josephus/ant-14.html)
+
+### Gaius Julius Caesar
+
+- **[T1-] Documented fact (textual); reported historical narrative:** In *Jewish Antiquities* 14 Josephus narrated Caesar’s civil-war-era dealings with Hyrcanus II and Antipater and reproduced a dossier of decrees and privileges attributed to Caesar and Roman authorities. The transmitted documents are central evidence for Roman-Jewish relations, although their compilation, wording, and individual authenticity require source criticism. [Primary text](https://penelope.uchicago.edu/josephus/ant-14.html)
+
+### Jesus of Nazareth
+
+- **[T1-] Documented manuscript reading; disputed textual form:** Extant manuscripts of *Jewish Antiquities* 18.63–64 contain the *Testimonium Flavianum*, a notice about Jesus, his execution under Pilate, followers, and reported resurrection. Most scholarship regards at least its overtly Christian affirmations as interpolation, while an authentic Josephan core remains a common but not unanimous reconstruction. The more widely accepted *Antiquities* 20.200 identifies James as the brother of “Jesus who was called Christ.” [Text and overview](https://www.pbs.org/wgbh/pages/frontline/shows/religion/maps/primary/josephusjesus.html)
+
+### Homer
+
+- **[T3] Documented fact (one-sided written engagement):** Josephus repeatedly engaged Homer as an emblem of Greek literary antiquity in *Against Apion* 1, arguing that Homer’s date and the transmission of his poems were uncertain when compared with Jewish written records. This is engagement with Homer’s textual and cultural authority, not personal contact. [Primary text](https://penelope.uchicago.edu/josephus/apion-1.html)
+
+### Hesiod of Ascra
+
+- **[T3] Documented fact (one-sided written engagement):** In *Against Apion* 1 Josephus placed Hesiod among early Greek authors whose chronology and genealogies were disputed, specifically noting that Acusilaus corrected him. Josephus was using Greek historiographic criticism polemically to defend the greater antiquity of Jewish records. [Primary text](https://penelope.uchicago.edu/josephus/apion-1.html)
+
+### Herodotus of Halicarnassus
+
+- **[T3] Documented fact (one-sided written engagement):** Josephus named and criticized Herodotus in *Against Apion* 1, observing disagreements among Greek historians and Herodotus’s silence about Rome. The connection is direct literary engagement with an earlier author, not evidence that Josephus possessed any particular surviving manuscript. [Primary text](https://penelope.uchicago.edu/josephus/apion-1.html)
+
+### Ctesias of Cnidus
+
+- **[T3] Documented fact (one-sided written engagement):** Josephus invoked Ctesias’s *Persica* in *Against Apion* 1 while discussing the chronology of Persian rulers and Greek historical contradictions. Because Ctesias’s work is largely lost, Josephus is also part of its fragmentary reception history. [Primary text](https://penelope.uchicago.edu/josephus/apion-1.html)
+
+### Aristotle
+
+- **[T3] Documented fact (indirect written engagement); reported anecdote:** *Against Apion* 1.176–182 quotes Clearchus’s lost work as reporting Aristotle’s encounter and philosophical conversation with a learned Jew. Josephus thus engaged an attributed Aristotelian anecdote through Clearchus, not through any personal or chronological crossing with Aristotle. [Primary text](https://penelope.uchicago.edu/josephus/apion-1.html)
+
+### Plato
+
+- **[T3] Documented fact (one-sided written engagement); polemical theory:** In *Against Apion* 2 Josephus compared Plato’s ideal legislation with the Mosaic constitution and alleged that Greek philosophers, including Plato, followed principles resembling Jewish law while avoiding open acknowledgment of it. The textual comparison is documented; historical dependence by Plato on Moses is Josephus’s apologetic claim, not established fact. [Primary text](https://penelope.uchicago.edu/josephus/apion-2.html)
+
+### Polybius of Megalopolis
+
+- **[T3] Documented fact (one-sided written engagement):** Josephus explicitly named Polybius as a historical authority in *Jewish Antiquities* and *Against Apion* 2, including testimony concerning Antiochus IV’s financial motives for plundering the Jerusalem Temple. This constitutes identifiable use of an earlier historian’s work. [Primary text](https://penelope.uchicago.edu/josephus/apion-2.html)
+
+### Strabo of Amaseia
+
+- **[T3] Documented fact (one-sided written engagement):** Josephus quoted or cited Strabo repeatedly in his Hasmonaean and Roman-period history, including material on Jewish territorial expansion and Roman intervention. The citations document Josephus’s use of Strabo or of an intermediary preserving Strabo; direct access to a complete copy cannot always be demonstrated. [Example in *Antiquities* 13](https://penelope.uchicago.edu/josephus/ant-13.html)
+
+### Megasthenes of Ionia
+
+- **[T3] Documented fact (one-sided written engagement):** In *Against Apion* 1 Josephus appealed to Megasthenes’s lost *Indica* as external testimony about Nebuchadnezzar’s power and campaigns. Josephus’s citation survives, although whether he consulted Megasthenes directly or through an excerpting source remains uncertain. [Primary text](https://penelope.uchicago.edu/josephus/apion-1.html)
+
+### Origen of Alexandria
+
+- **[T3] Documented fact (one-sided written engagement):** Around 248 CE, Origen discussed Josephus in *Against Celsus* 1.47, using him as a non-Christian witness for John the Baptist, James, and Jesus. Origen also attributed to Josephus a claim that Jerusalem’s destruction punished James’s death, a statement absent from the surviving Josephan text and therefore probably a mistaken recollection, inference, or evidence of a different textual tradition. [Origen’s text](https://bkv.unifr.ch/en/works/cpg-1476/compare/origen-against-celsus/56/contra-celsum)
+
+### Sir Isaac Newton
+
+- **[T3] Documented fact (one-sided written engagement):** In Temple manuscripts composed principally during the late seventeenth and early eighteenth centuries, Newton explicitly used and evaluated Josephus’s architectural measurements, comparing them with scripture, Philo, and rabbinic traditions. Newton called Josephus an eyewitness to the Temple site but also criticized his cubit conversions and rounded or conjectural figures. [Newton’s manuscript](https://www.newtonproject.ox.ac.uk/view/translation/TRAN00004)
+
+No documentary connection was found between Josephus and Paul the Apostle, Peter, Mary Magdalene, Simon Magus, or the purported “Hiram Abiff.” Josephus and Paul or Peter may have occupied overlapping first-century Roman or Judaean milieus, but no source documents a meeting, correspondence, or mutual awareness. Josephus wrote about Solomon’s Tyrian craftsman Hiram, not the later Masonic character Hiram Abiff; treating them as an unqualified historical identity would reproduce a later myth rather than establish an atlas crossing.
+
 ## Sources
 
 https://penelope.uchicago.edu/josephus/autobiog.html

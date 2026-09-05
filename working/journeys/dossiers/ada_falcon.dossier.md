@@ -92,3 +92,20 @@ gantt
 
 **Sources:** Primary sources include Argentine newspapers (*La Nación*, *Clarín*), film archives (*Ídolos de la radio*), and radio/record catalogs. Scholarly and archival materials are scarce; most biographical detail comes from journalistic accounts, interviews and documentary filmmakers’ research. Secondary sources include *TodoTango* and *Infobae*, which compile archival facts. Myths and later portrayals are drawn from documentary commentary.
 
+## Atlas Connections
+
+### Carlos Gardel
+
+- **[T4] Documented fact:** Falcón and Gardel appeared on the same bill at a benefit honoring the crew of the hydroplane *Buenos Aires* at Teatro Smart, Buenos Aires, on July 24, 1926. They again performed at the same event on October 24, 1927, during a farewell tribute to tenor Mario Cappello at Teatro Marconi. The evidence establishes shared venues and programs, but not a duet. ([Investigación Tango](https://www.investigaciontango.com/inicio/index.php?Itemid=56&catid=36%3Acancionistas&id=73%3Amujeres&option=com_content&view=article); [Fundación Internacional Carlos Gardel](https://fundacioncarlosgardel.org/biografia/1927-discos-actuaciones-y-homenajes))
+- **[T5] Reported fact:** A retrospective in *La Prensa* described Falcón as Gardel’s friend and artistic colleague. This supports a personal connection, although the surviving source supplies no particulars about private meetings. ([*La Prensa*, January 6, 2012](https://www.laprensa.com.ar/-v2-nGVYAAZrb4S1tdmqK0uFHZuqmwHKX%28%2847%3B%29%296qyX3uPVdUbZ0%3D-archive.aspx))
+
+### Enrique Santos Discépolo
+
+- **[T5] Reported fact:** *La Prensa* identified Falcón and Discépolo as friends and artistic colleagues. Falcón also recalled Discépolo speaking admiringly about her, providing retrospective evidence that they knew one another personally, though no dated encounter has been located. ([*La Prensa*, January 6, 2012](https://www.laprensa.com.ar/-v2-nGVYAAZrb4S1tdmqK0uFHZuqmwHKX%28%2847%3B%29%296qyX3uPVdUbZ0%3D-archive.aspx); [Ada Falcón biography](https://es.wikipedia.org/wiki/Ada_Falc%C3%B3n))
+- **[T9-] Documented fact:** Discépolo’s compositions passed into Falcón’s recorded repertoire. Documented examples include her Odeón recording of “Soy un arlequín” on June 4, 1929 and her interpretation of “Tres esperanzas” with Francisco Canaro’s orchestra on June 16, 1933; her rendition of Discépolo’s “Secreto” is likewise preserved and discussed as a distinctive interpretation. Falcón is the later performer in this shared-work connection. ([Falcón discography](https://milongandoblog.wordpress.com/2017/07/10/ada-falcon-discografia/); [Bazar Americano](https://www.archivobazar.com/columnas.php?cod=176&pdf=si))
+
+### Ángel Villoldo
+
+- **[T9-] Documented fact:** Falcón’s first recording with Francisco Canaro’s orchestra was “La morocha” on July 24, 1929. The work originated in 1905 with music by Enrique Saborido and lyrics by roster member Ángel Villoldo, who died in 1919; Falcón therefore occupies the later-performer side of this shared musical work. ([Todo Tango: Ada Falcón](https://www.todotango.com/creadores/biografia/148/Ada-Falcon/); [Biblioteca Nacional de la República Argentina](https://www.bn.gov.ar/micrositios/admin_assets/issues/files/c81010a62753c6836ef11d14876ac1ff.pdf))
+
+No other roster crossing was found that met the stated evidentiary and typological requirements; mere contemporaneity, common geography, shared tango culture, religious tradition, or later joint commemoration was excluded.

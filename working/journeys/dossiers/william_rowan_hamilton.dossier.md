@@ -469,6 +469,50 @@ Charles Graves delivered the Royal Irish Academy memorial address in November 18
 | 2005 | Bicentenary: Hamilton Year, coin and institutional commemorations. |
 | 2017–22 | Revisionist studies reassess marriage, alcohol and *Alice* mythology. |
 
+## Atlas Connections
+
+### Arthur Cayley
+
+- **[T3] Documented fact:** Cayley travelled to Dublin in June 1848 and attended Hamilton’s quaternion lectures at Trinity College. Hamilton also discussed and credited Cayley’s published work in his own papers; their names were later joined in the “Cayley–Hamilton theorem,” reflecting Cayley’s general matrix formulation and Hamilton’s earlier special quaternionic result. [Trinity College Hamilton collection](https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/CayleyHamilton/); [Macfarlane, *Lectures on Ten British Mathematicians*](https://etc.usf.edu/lit2go/27/lectures-on-ten-british-mathematicians/272/chapter-3-sir-william-rowan-hamilton/)
+
+### Augustin-Louis Cauchy
+
+- **[T3] Documented fact:** Hamilton engaged Cauchy’s optical research in print. His report to the 1833 British Association meeting at Cambridge acknowledged the independent work of Cauchy and James MacCullagh while distinguishing it from Hamilton’s prediction of conical refraction; this is documented one-sided written discourse, not evidence of a personal meeting. [Graves, “Conical Refraction”](https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/ConicalRefraction/Graves13.html)
+
+### Carl Gustav Jacob Jacobi
+
+- **[T3] Documented fact:** Jacobi read and critically extended Hamilton’s 1834–35 dynamical essays, publishing his reinterpretation in 1837. Hamilton subsequently addressed Jacobi’s work, creating the reciprocal written engagement from which “Hamilton–Jacobi” theory developed. The evidence supports mathematical discourse through publications; it does not establish a personal meeting. [Trinity College dynamics collection](https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/Dynamics/); [Pritchard’s contemporary account](https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/HamMNRAS/HamMNRAS.html)
+
+### Charles Babbage
+
+- **[T5] Reported fact:** Augustus De Morgan recalled that he first conversed with Hamilton at approximately 1830 “at Babbage’s breakfast table,” placing Hamilton and Babbage in the same private London social gathering. An archival catalogue also records a surviving 1863 letter from Hamilton to Babbage, independently establishing continued written contact. [Ball’s account quoting De Morgan](https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/GreatAst/GreatAst.html); [National Library of Ireland catalogue](https://sources.nli.ie/Record/MS_UR_007007)
+
+### Immanuel Kant
+
+- **[T1-] Documented fact:** Hamilton, the later writer, discussed Kant extensively in an 18 July 1834 letter to Viscount Adare, assessing the *Critique of Pure Reason* and Kant’s treatment of space and time. Kantian ideas were subsequently addressed in Hamilton’s published conception of algebra as the science of pure time. [Ball, “Hamilton”](https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/GreatAst/GreatAst.html); [contemporary account of Hamilton’s pure-time theory](https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/Gallery/Gallery.html)
+
+### James Clerk Maxwell
+
+- **[T1+] Documented fact:** Maxwell, the later writer, discussed Hamilton after Hamilton’s death. In an 1871 letter to Peter Guthrie Tait, Maxwell characterized Hamilton as an unusually wide-ranging thinker whose work rewarded consultation across disciplines. Maxwell also employed quaternion-derived notation in his electromagnetic work, but no reliable evidence located establishes that the two men met. [Anne van Weerden’s Hamilton research site, reproducing the 1871 remark](https://annevanweerden.nl/)
+
+### Joseph-Louis Lagrange
+
+- **[T1-] Documented fact:** Hamilton, the later writer, repeatedly situated his general method in dynamics in relation to Lagrange’s analytical mechanics and calculus of variations in his 1834 and 1835 Royal Society essays. This was substantive historical and technical discussion of an earlier mathematician, not personal contact. [Hamilton’s dynamics papers](https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/Dynamics/)
+
+### Michael Faraday
+
+- **[T5] Reported fact:** Charles Graves’s 1865 memorial address states that Hamilton conversed personally with Faraday about the ontological priority of forces over material particles and that the exchange reinforced Hamilton’s attachment to Berkeleyan metaphysics. The source confirms personal conversation but does not specify its date or place. [Graves, “Memorial Address: Sir William Rowan Hamilton”](https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/Eloge/Eloge.html)
+
+### Pierre-Simon Laplace
+
+- **[T1-] Documented fact:** Hamilton, the later writer, discussed Laplace’s celestial mechanics and analytical procedures in his mathematical writings, building his own characteristic-function dynamics against the earlier tradition represented by Laplace and Lagrange. This connection is textual and intellectual; Laplace died in 1827, and no personal meeting is documented. [Hamilton’s “On a General Method in Dynamics”](https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/Dynamics/GenMeth.pdf)
+
+### Sir Isaac Newton
+
+- **[T1-] Documented fact:** Hamilton repeatedly wrote about Newtonian mechanics and gravitation while presenting his own reformulation of dynamics. In 1845 he was also lodged in rooms at Trinity College, Cambridge traditionally identified as those in which Newton composed the *Principia*; the honor reportedly strengthened his ambition to produce a comparably systematic quaternion treatise. The textual connection is T1; the later room association alone would be a reported site tradition rather than proof of Newton’s occupancy. [Hamilton’s dynamics papers](https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/Dynamics/); [Macfarlane’s biographical account](https://etc.usf.edu/lit2go/27/lectures-on-ten-british-mathematicians/272/chapter-3-sir-william-rowan-hamilton/)
+
+No comparably documented T2 prophecy/hyperstition or T9 shared-object transmission involving Hamilton and another roster member was identified. Mere later use of Hamiltonian mechanics or quaternions, shared institutional membership, contemporaneity, or presence in the same broad scientific milieu has therefore not been counted.
+
 ## Sources
 
 https://www.tcd.ie/hamilton/about/william-rowan-hamilton/

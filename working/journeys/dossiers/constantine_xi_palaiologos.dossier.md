@@ -622,6 +622,18 @@ His reputation is unusually dependent on the manner of his death. The securely d
 | Dec. 2024 | Greek authorities announce Aigialeia fresco identified as Constantine’s contemporary portrait |
 | 2026 | Anthony Kaldellis publishes a new major reconstruction of the 1453 conquest |
 
+## Atlas Connections
+
+### Constantine the Great
+
+- **[T9-] Documented fact:** Constantinople is the connecting site. Constantine the Great refounded Byzantium as his imperial capital beginning in 324 and dedicated it in 330; Constantine XI later governed the same Roman capital and died defending it on 29 May 1453. This is a site-transmission connection, not evidence of prophecy or personal contact. [Oxford Classical Dictionary](https://academic.oup.com/edited-volume/61673/chapter-abstract/548753391)
+
+### Justinian I
+
+- **[T9-] Documented fact:** Hagia Sophia is the shared object/site. Justinian I commissioned the surviving principal structure after the Nika revolt, with construction undertaken in 532–537. Constantine XI subsequently used this inherited imperial cathedral, most consequentially for the proclamation of church union on 12 December 1452 and, according to siege narratives, the final Christian service of 28 May 1453. [Metropolitan Museum of Art](https://www.metmuseum.org/essays/hagia-sophia-532-37)
+
+No other roster member has a sufficiently documented crossing under the specified types. In particular, Nicholas/Johannes of Cusa’s *De pace fidei* responded to reports of the conquest and religious violence but did not write about Constantine XI personally, so it does not support a T1 connection. The retrospective “Constantine, son of Helena” symmetry likewise does not support T2 because no rostered earlier figure is documented as its prophet.
+
 ## Sources
 
 https://archive.org/details/immortalemperorl0000nico

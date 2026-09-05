@@ -747,6 +747,54 @@ This map identifies the principal documentary anchors used for high-stakes or di
 - **Wealth, will, gifts, estate, and art sale:** Forbes estimates and will reporting; Harvard, Rockefeller University, RBF, Christie's, and RAC records. The two different art-sale totals are preserved rather than silently harmonized.
 - **Heart-transplant story:** provenance in fabricated/satirical circulation, checked against credible obituary and medical-event reporting; no primary medical evidence supports the claim.
 
+## Atlas Connections
+
+### Fidel Castro
+
+- **[T5] Documented fact:** Rockefeller met Castro repeatedly. He hosted a Council on Foreign Relations dinner for Castro in New York on **23 October 1995**, and in **February 2001** led a CFR delegation to Havana, where the two spoke over dinner for approximately five and a half hours about Cuba, economic reform, and U.S.–Cuban relations. [CFR institutional history](https://www.cfr.org/sites/default/files/pdf/cfrcentennialbook.pdf); [contemporaneous Havana report](https://www.jornada.com.mx/2001/02/19/033n2mun.html)
+
+### Friedrich Hayek
+
+- **[T3] Documented fact:** While studying at the London School of Economics in **1936–37**, Rockefeller worked under Hayek and wrote a paper criticizing underconsumption theory. Hayek and Lionel Robbins subsequently recommended that Rockefeller pursue graduate study at the University of Chicago. This supports direct teacher–student intellectual engagement, not ideological discipleship. [LSE History](https://blogs.lse.ac.uk/lsehistory/2015/06/24/lse-rockefellers-baby/)
+
+### Golda Meir
+
+- **[T5] Documented fact:** Rockefeller met Israeli prime minister Golda Meir in Israel during a private visit in **March 1971**; contemporary photographs show them together. He returned in **February 1974** on a banking visit whose announced schedule again included a meeting with Meir. [Contemporary 1974 report](https://www.jta.org/archive/chairman-of-the-chase-manhattan-bank-david-rockefeller); [1971 photograph and obituary context](https://www.theguardian.com/us-news/2017/mar/26/david-rockefeller-obituary)
+
+### John D. Rockefeller Sr.
+
+- **[T5] Documented fact:** David Rockefeller knew his paternal grandfather personally throughout childhood and adolescence, principally at the family estate at Pocantico Hills, New York. Accounts describe David playing cards and golf with John D. Sr., who died in **1937**, when David was twenty-one. [Contemporary biographical retrospective](https://www.independent.co.uk/news/obituaries/david-rockefeller-a7640396.html)
+
+### John F. Kennedy
+
+- **[T5] Documented fact:** Rockefeller first met Kennedy socially in **London in 1937**, while Rockefeller was studying at LSE and Joseph P. Kennedy was serving as ambassador. Their relationship later became institutional: as president, Kennedy asked Rockefeller to organize business participation in Latin American policy, leading to the Business Group for Latin America. [LSE History](https://blogs.lse.ac.uk/lsehistory/2015/06/24/lse-rockefellers-baby/)
+
+### Mao Zedong
+
+- **[T1-] Documented fact:** Rockefeller wrote prominently about Mao's China after visiting the country and meeting Zhou Enlai in **June 1973**. His signed New York Times essay “From a China Traveler,” published **10 August 1973**, praised the social discipline and perceived achievements of Mao's revolution. No documented personal meeting between Rockefeller and Mao has been located; the connection is Rockefeller's written appraisal of Mao and Maoist governance.
+
+### Mohammad Reza Shah Pahlavi
+
+- **[T5] Documented fact:** Rockefeller maintained a longstanding personal relationship with the Shah alongside Chase Manhattan's Iranian banking interests. Rockefeller publicly described the deposed ruler as a friend and in **1979** pressed the Carter administration to admit him to the United States for medical treatment. Correspondence from the exiled Shah to Rockefeller used explicitly personal language of friendship. [Contemporaneous documentary profile](https://americanarchive.org/catalog/cpb-aacip-ec91bf2ff33); [1979 letter](https://www.mohammadmossadegh.com/biography/shah-mohammad-reza-pahlavi/letter-to-david-rockefeller/)
+
+### Nelson Mandela
+
+- **[T5] Documented fact:** Rockefeller and Mandela met on multiple occasions. On **18 September 1998**, Rockefeller participated in Mandela's meeting with U.S. business leaders at Rockefeller Center in New York; they later met in **Johannesburg in 2003** to discuss HIV/AIDS and poverty. Rockefeller also became a donor and “Legacy Champion” of the Nelson Mandela Foundation. [1998 meeting report and photograph](https://www.pbs.org/newshour/nation/david-rockefeller-billionaire-philanthropist-businessman-dies-101); [2003 meeting report](https://kffhealthnews.org/morning-breakout/dr00016782/); [Mandela Foundation](https://www.nelsonmandela.org/news/entry/clarence-seedorf-becomes-a-legacy-champion)
+
+### Saddam Hussein
+
+- **[T5] Documented fact:** Rockefeller held a substantive meeting with Saddam Hussein in **Baghdad on 28 January 1975**, accompanied by Chase associates Joseph Reed and John Richardson. A contemporaneous U.S. diplomatic cable described Rockefeller as the first prominent American to have an extended discussion with Saddam and interpreted the meeting as an Iraqi attempt to develop economic and potentially political links with the United States. [U.S. diplomatic cable](https://wikileaks.org/plusd/cables/1975BAGHDA00099_b.html)
+
+### Salvador Allende
+
+- **[T1-] Documented fact:** Rockefeller discussed Allende retrospectively in *Memoirs* and in accounts of Chase and Council of the Americas activity surrounding Chile. His writing placed Allende within Rockefeller's explanation of corporate concern and U.S.–Chilean relations. This is evidence that Rockefeller wrote about Allende; it does not establish correspondence, a personal meeting, or Rockefeller's operational control of the 1973 coup.
+
+### Sigmund Freud
+
+- **[T5] Reported fact:** Rockefeller recalled visiting and meeting Freud in Europe during his student travels in the **mid-1930s**. Reviews of *Memoirs* independently identify the encounter as part of Rockefeller's account. The readily accessible evidence is retrospective rather than a contemporaneous appointment record. [Washington Post review of *Memoirs*](https://www.washingtonpost.com/archive/entertainment/books/2002/11/17/money-talks/014b1946-b4fc-4a94-9fc2-d7002d6724ee/)
+
+No adequate evidence was located for a personal meeting between Rockefeller and **Augusto Pinochet**, **Ayatollah Khomeini**, or **Mao Zedong**. Their presence in events affecting Rockefeller or Chase does not, by itself, satisfy the atlas definitions for proximity, discourse, or personal contact.
+
 ## Sources
 
 https://rockarch.org/resources/about-the-rockefellers/david-rockefeller/

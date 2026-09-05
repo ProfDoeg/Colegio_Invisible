@@ -519,6 +519,39 @@ Modern nationalist claims sometimes label him simply “Greek” or “Italian.�
 - Technological feasibility does not by itself establish historical use.
 - “Unknown” family, wealth, health, or office data must remain unknown rather than be filled with plausible fiction.
 
+## Atlas Connections
+
+### Polybius of Megalopolis
+
+- **[T1+]** **Documented fact:** Polybius, born shortly after Archimedes’ death, wrote the earliest surviving substantial account of Archimedes’ defensive machines during the Roman siege of Syracuse (214–212 BCE), describing artillery, ship-lifting mechanisms, and their effect on Roman operations in [*Histories* 8](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0234%3Abook%3D8).
+
+### Marcus Tullius Cicero
+
+- **[T1+]** **Documented fact:** Cicero wrote about Archimedes in *De re publica* 1.21–22, praising his geared celestial sphere, and in *Tusculan Disputations* 5.64–66, recounting his search for Archimedes’ tomb at Syracuse. The works date from the first century BCE, more than a century after Archimedes’ death. See [*De re publica* 1.21–22](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2007.01.0031%3Abook%3D1) and [*Tusculan Disputations* 5](https://www.attalus.org/cicero/tusc5A.html).
+- **[T9+]** **Reported fact:** Cicero says that he personally saw an Archimedean celestial sphere preserved in the household of Marcellus’ descendants, an object taken from Syracuse after its capture in 212 BCE. He also reports locating Archimedes’ overgrown tomb while serving as quaestor in Sicily in 75 BCE. Archimedes is the earlier maker or occupant associated with both objects/sites; Cicero is their later observer. The identifications rest on Cicero’s own testimony and cannot now be independently verified.
+
+### Pliny the Elder
+
+- **[T1+]** **Documented fact:** Pliny included Archimedes among exemplary masters of geometry and mechanics in *Natural History* 7.125 and repeated the tradition that Marcellus ordered him spared during Syracuse’s capture, only for a soldier to kill him. Pliny wrote in the first century CE, nearly three centuries after the event. See [*Natural History* 7.125](https://www.attalus.org/translate/pliny_hn7b.html).
+
+### Galileo Galilei
+
+- **[T3]** **Documented fact:** Galileo engaged directly and extensively with Archimedes’ surviving mechanics and hydrostatics. In Florence in 1586 he composed *La bilancetta* (“The Little Balance”), explicitly proposing the method Archimedes “must have followed” in testing Hiero’s crown and combining Archimedean leverage and buoyancy in a hydrostatic balance. Galileo’s text survives in [translation and transcription](https://math.nyu.edu/Archimedes/Crown/bilancetta.html), while the [Museo Galileo](https://mostre.museogalileo.it/archimede/oggetto/GalileoGalileiBilancettaOpereGalileoGalileiFacsimile.html) documents its purpose and publication history. This is one-sided written engagement across time, not evidence of personal contact.
+
+### Johannes Kepler
+
+- **[T3]** **Documented fact:** Kepler explicitly extended and reworked Archimedean solid geometry in *Nova stereometria doliorum vinariorum* (Linz, 1615), whose full title announces an appended “supplement to Archimedean stereometry.” He compared his volume problems with Archimedes’ conoids and spheroids while employing a less formally Archimedean infinitesimal procedure. A digitized early edition is catalogued by the [ETH Library](https://www.e-rara.ch/zut/collections/content/titleinfo/3298814).
+
+### Christiaan Huygens
+
+- **[T3]** **Documented fact:** Huygens repeatedly engaged with Archimedean mathematics in the seventeenth-century Netherlands. His work on circle approximation sharpened bounds derived from *Measurement of a Circle*, and around 1650 he composed the unpublished *De iis quae liquido supernatant* in conscious continuation of *On Floating Bodies*. A surviving manuscript associated with him also supplies an alternative demonstration of Proposition 18 of *On Spirals*. The broader Archimedean relationship is documented in the [Rijksmuseum research catalogue](https://www.rijksmuseum.nl/en/collection/publication/Walking-with-Christiaan-Huygens-from-Archimedes-influence-to-unsung-contributions-in-modern-science--0b96494357ce6529b8c5908169ae550f); the alternative spiral proof is described in this [bibliographical record](https://www.sophiararebooks.com/sophia_may_2018.pdf).
+
+### Athanasius Kircher
+
+- **[T1+]** **Documented fact:** Kircher discussed and visually reconstructed devices attributed to Archimedes in *Ars magna lucis et umbrae* (first published at Rome in 1645–1646; expanded edition 1671), including the legendary burning mirrors and a magnetically driven reconstruction of the celestial sphere. These are early-modern technical receptions of later Archimedean traditions, not evidence that the reconstructed machines matched Archimedes’ actual designs. See the [digitized 1671 edition](https://digi.ub.uni-heidelberg.de/diglit/kircher1671) and [Stanford’s Kircher image catalogue](https://web.stanford.edu/group/kircher/gallery/contents.html).
+
+No documented personal meeting or same-place milieu crossing with another roster member is securely established. In particular, mere intellectual resemblance, later use of an “Archimedean” method, or coexistence elsewhere in the Hellenistic and Roman worlds was not treated as a connection.
+
 ## Sources
 
 https://archimedespalimpsest.org/links/bibliography.php

@@ -1825,6 +1825,83 @@ The result is not a simple rehabilitation or denunciation. The documentary Klein
 
 ---
 
+## Atlas Connections
+
+### Arthur Cayley
+
+- **[T3] Documented fact:** Klein engaged directly with Cayley’s projective metric in his early work on non-Euclidean geometry, corresponded with him, and received at least one surviving letter from Cayley dated **31 December 1879**. [Kalliope catalogue record](https://kalliope-verbund.info/DE-611-HS-3390041)
+- **[T1-] Documented fact:** Klein later discussed Cayley’s mathematical work in a dedicated section of his wartime historical lectures, published posthumously as *Vorlesungen über die Entwicklung der Mathematik im 19. Jahrhundert*. [Bibliographic record and contents](https://books.google.com/books?id=sOTuAAAAMAAJ)
+
+### Augustin-Louis Cauchy
+
+- **[T1-] Documented fact:** Klein wrote about Cauchy’s work in analysis and algebra in his historical lectures on nineteenth-century mathematics; the published first volume contains a specifically identified Cauchy section. [Bibliographic record and contents](https://books.google.com/books?id=sOTuAAAAMAAJ)
+
+### Carl Friedrich Gauss
+
+- **[T1-] Documented fact:** Klein made Gauss the subject of the opening substantive chapter of *Vorlesungen über die Entwicklung der Mathematik im 19. Jahrhundert*, treating his life and work in applied and pure mathematics. Klein also participated in the publication and annotation of Gauss’s scientific diary in **1901**. [Springer contents](https://link.springer.com/book/10.1007/978-3-642-67230-9)
+
+### Carl Gustav Jacob Jacobi
+
+- **[T1-] Documented fact:** Klein discussed Jacobi among the analysts associated with the rise of pure mathematics and *Crelle’s Journal* in his historical lectures on nineteenth-century mathematics. [Book overview and contents](https://en.wikipedia.org/wiki/Vorlesungen_%C3%BCber_die_Entwicklung_der_Mathematik_im_19._Jahrhundert)
+
+### Albert Einstein
+
+- **[T3] Documented fact:** Klein and Einstein maintained a substantive correspondence in **1918** concerning general relativity, gravitation, electromagnetism, matter and energy, conservation laws, and mathematical methods in fundamental physics. Göttingen preserves **eighteen autograph Einstein letters to Klein**; Einstein also urged Klein to support Emmy Noether’s habilitation. [Göttingen State and University Library](https://webdoc.sub.gwdg.de/ebook/aw/2006/gbs_35/CIMELIEN%20%28D%29/13/13_124/13-124.htm)
+
+### Emmy Noether
+
+- **[T3] Documented fact:** Klein and Noether exchanged mathematical correspondence during the Göttingen work on invariant variational problems and conservation laws. A surviving letter from Noether to Klein is dated **12 March 1918**, and the Göttingen manuscript inventory records their 1918 correspondence. Klein presented Noether’s *Invariante Variationsprobleme* to the Göttingen scientific society on **26 July 1918**. [Göttingen archival inventory](https://www.sub.uni-goettingen.de/fileadmin/media/texte/spezialsammlungen/Spezialinventar_Naturwissenschaften_2001.pdf), [historical chronology](https://www.cordula-tollmien.de/noetherlebensdaten.html)
+- **[T5] Documented fact:** Klein and Noether worked personally in Göttingen after Klein and Hilbert invited her there in **1915**. Records of the 1918 collaboration include an identified meeting on **1 August 1918** to discuss mathematical questions. [Study of the Klein–Hilbert–Noether collaboration](https://www.researchgate.net/publication/394461626_Before_Everything_was_Completely_Clear_We_Had_a_Few_Arguments_-_Emmy_Noether_David_Hilbert_and_Felix_Klein)
+
+### Évariste Galois
+
+- **[T1-] Documented fact:** Klein lectured extensively on Galois theory, including a documented Göttingen course in **summer 1886**, and later discussed Galois in his history of nineteenth-century mathematics. [Historia Mathematica study](https://doi.org/10.1016/j.hm.2023.05.003)
+
+### Joseph Fourier
+
+- **[T1-] Documented fact:** Klein treated Fourier’s work in mechanics and mathematical physics within his account of France and the École Polytechnique in *Vorlesungen über die Entwicklung der Mathematik im 19. Jahrhundert*. [Book overview and contents](https://en.wikipedia.org/wiki/Vorlesungen_%C3%BCber_die_Entwicklung_der_Mathematik_im_19._Jahrhundert)
+
+### Joseph-Louis Lagrange
+
+- **[T1-] Documented fact:** In his 1893 address on the state of mathematics, Klein discussed Lagrange, Laplace, and Gauss as leading investigators of the preceding period whose work embraced mathematics and its applications. [1893 mathematical-congress proceedings](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1893/ICM1893.ocr.pdf)
+
+### Pierre-Simon Laplace
+
+- **[T1-] Documented fact:** Klein discussed Laplace alongside Lagrange and Gauss in his **1893** historical assessment of the development and specialization of nineteenth-century mathematics. [1893 mathematical-congress proceedings](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1893/ICM1893.ocr.pdf)
+
+### William Rowan Hamilton
+
+- **[T1-] Documented fact:** Klein discussed Hamilton’s work on complex-number systems and quaternions in the algebraic-geometry portion of his historical lectures on nineteenth-century mathematics. [Bibliographic record and contents](https://books.google.com/books?id=sOTuAAAAMAAJ)
+
+### Henri Poincaré
+
+- **[T3] Documented fact:** Klein and Poincaré conducted an intensive correspondence over automorphic functions and uniformization in **1881–1882**, exchanging proofs, terminology, objections, and research results between Leipzig and France. The surviving series includes numerous dated letters and later exchanges in **1895**. [Henri Poincaré Papers correspondence calendar](https://henripoincarepapers.univ-nantes.fr/en/corresphp/?a=on&action=go&title=H.+Poincar%C3%A9+to+Felix+Klein%2C+English+translation), [Klein letter of 19 September 1882](https://henripoincarepapers.univ-nantes.fr/chp/text/klein-en-1882-09-19.html)
+- **[T1-] Documented fact:** After Poincaré’s death, Klein discussed his work in the wartime lectures underlying *Vorlesungen über die Entwicklung der Mathematik im 19. Jahrhundert*, although Klein’s planned full chapter on Poincaré was not completed. [Book history and contents](https://en.wikipedia.org/wiki/Vorlesungen_%C3%BCber_die_Entwicklung_der_Mathematik_im_19._Jahrhundert)
+
+### Max Planck
+
+- **[T3] Reported fact:** Planck attended advanced mathematical teaching offered by Klein and Alexander Brill during Klein’s **Munich, 1875–1880** period. This establishes a teacher-auditor crossing, though the consulted evidence does not establish a close personal relationship. [Biographical summary](https://en.wikipedia.org/wiki/Felix_Klein)
+
+### Siméon Denis Poisson
+
+- **[T1-] Documented fact:** Klein treated Poisson’s contributions to mechanics and mathematical physics in his historical discussion of the early nineteenth-century French mathematical school. [Book overview and contents](https://en.wikipedia.org/wiki/Vorlesungen_%C3%BCber_die_Entwicklung_der_Mathematik_im_19._Jahrhundert)
+
+### Sophus Lie
+
+- **[T5] Documented fact:** Klein met Lie in **Berlin in 1869–1870**; they became close companions, spent spring **1870 in Paris** together meeting mathematicians including Camille Jordan and Gaston Darboux, and reunited in Düsseldorf in **November 1870**, where they prepared joint work on Kummer surfaces. [Biographical account](https://de.wikisource.org/wiki/ADB:Lie%2C_Sophus)
+- **[T3] Documented fact:** Klein and Lie coauthored mathematical notes, exchanged a substantial correspondence, and continued written engagement even as their scientific and personal relationship became more difficult. Published archival material includes Lie’s letters to Klein about mathematics in Paris. [Study of three Lie–Klein letters](https://ideas.repec.org/h/spr/sprchp/978-3-319-67819-1_10.html)
+- **[T1-] Documented fact:** After Lie’s death in **1899**, Klein prepared historical treatments of Lie and transformation-group theory; his posthumously published historical lectures contain a section devoted to “Klein, Sophus Lie, and the theory of transformations.” [Published-volume contents](https://books.google.com/books?id=UfkKBAAACAAJ)
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1-] Documented fact:** Klein discussed Leibniz’s treatment of infinitesimal mathematics in his historical and teacher-education lectures, contrasting and connecting the development of Newtonian and Leibnizian calculus. [Renate Tobies, “Felix Klein (1849–1925): Symbiosis of History, Teaching, and Culture”](https://www.wtm-verlag.de/DOI-Deposit/978-3-95987-256-0/978-3-95987-256-0-20.pdf)
+
+### Isaac Newton
+
+- **[T1-] Documented fact:** Klein discussed Newton’s approach to infinitesimal mathematics alongside Leibniz’s in his historical and pedagogical writings. [Renate Tobies, “Felix Klein (1849–1925): Symbiosis of History, Teaching, and Culture”](https://www.wtm-verlag.de/DOI-Deposit/978-3-95987-256-0/978-3-95987-256-0-20.pdf)
+
+No supported T2 prophecy/hyperstition or T9 shared-object/site connection with the roster was found. Mere overlap in period, location, mathematical subject matter, institutional membership, or intellectual ancestry has not been counted.
+
 ## Sources
 
 https://link.springer.com/chapter/10.1007/978-3-319-99386-7_1

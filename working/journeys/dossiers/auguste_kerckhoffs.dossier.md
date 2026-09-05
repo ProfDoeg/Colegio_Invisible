@@ -696,6 +696,44 @@ Exact scope of British travel; Clarence Prentice journey; closeness to Victor Hu
 
 Formal military or intelligence connection; source of the Havas telegram; personal relationship with Henri Berthaut; Vera Zasulich forensic role; complete noble genealogy beyond verified generations; Pauline's cause of death; widow's later life; final estate; location and integrity of personal papers; authorship of the 1898 Valkenburg play.
 
+## Atlas Connections
+
+### Athanasius Kircher
+
+- **[T1-]** **Documented fact.** In *La cryptographie militaire* (Paris, 1883), Kerckhoffs described Kircher’s *Polygraphia nova et universalis* (1663), explaining how Kircher replaced the letters of Vigenère’s tableau with numbers and concealed the resulting cryptogram through marked intervals in ordinary text. He also discussed Kircher’s mechanical *Arca glottotactica*. ([Part I](https://www.petitcolas.net/kerckhoffs/la_cryptographie_militaire_i.htm), [Part II](https://www.petitcolas.net/kerckhoffs/la_cryptographie_militaire_ii.htm))
+
+### Blaise de Vigenère
+
+- **[T1-]** **Documented fact.** Kerckhoffs repeatedly analyzed Vigenère and his *Traicté des chiffres* (1586) in *La cryptographie militaire* (1883). He credited Vigenère with presenting the square tableau in its enduring form, described its operation, and demonstrated methods for attacking systems derived from it. ([Part I](https://www.petitcolas.net/kerckhoffs/la_cryptographie_militaire_i.htm), [Part II](https://www.petitcolas.net/kerckhoffs/la_cryptographie_militaire_ii.htm))
+
+### Captain Alfred Dreyfus
+
+- **[T3]** **Documented fact.** Kerckhoffs entered the public written discourse surrounding Dreyfus’s case in November 1898 by signing a published petition protesting the prosecution of Colonel Georges Picquart, whom the petition identified as instrumental in securing revision of Dreyfus’s conviction. This documents political intervention in the affair, not correspondence or a personal relationship with Dreyfus. ([Caraco, Géraud-Stewart, and Naccache, “Kerckhoffs’ Legacy,” citing *Le Radical*, 29 November 1898](https://eprint.iacr.org/2020/556.pdf))
+
+### Cleopatra VII
+
+- **[T1-]** **Documented fact.** Kerckhoffs’s doctoral dissertation, completed at Tübingen in 1876 and published at Paderborn in 1877, examined Daniel Casper von Lohenstein’s tragedies with particular attention to *Cleopatra*. The connection is literary-historical: he wrote about Lohenstein’s dramatic representation of Cleopatra, not from access to an ancient object or source associated directly with her. ([“Kerckhoffs’ Legacy”](https://eprint.iacr.org/2020/556))
+
+### Francis Bacon
+
+- **[T1-]** **Documented fact.** In the historical section of *La cryptographie militaire* (1883), Kerckhoffs discussed Bacon both as the chancellor who treated cipher correspondence as incriminating in the Somerset prosecution and among earlier authors associated with devised cipher alphabets. ([Part I](https://www.petitcolas.net/kerckhoffs/la_cryptographie_militaire_i.htm))
+
+### Johannes Trithemius
+
+- **[T1-]** **Documented fact.** Kerckhoffs gave Trithemius sustained critical treatment in *La cryptographie militaire* (1883): he discussed the uncertain authorship of works published under Trithemius’s name, described his word-substitution steganography, and rejected the designation of Trithemius as the father of modern cryptography. ([Part I](https://www.petitcolas.net/kerckhoffs/la_cryptographie_militaire_i.htm))
+
+### Julius Caesar
+
+- **[T1-]** **Documented fact.** Kerckhoffs described Caesar’s reported use of a shifted alphabet for private correspondence and explained why simple alphabetic substitutions were commonly called the “method of Julius Caesar.” His account relied explicitly on Suetonius and Aulus Gellius. ([Part I](https://www.petitcolas.net/kerckhoffs/la_cryptographie_militaire_i.htm))
+
+### Napoleon Bonaparte
+
+- **[T1-]** **Documented fact.** Kerckhoffs discussed Napoleon’s encrypted correspondence during the Russian campaign and the damaging transmission of unciphered French orders in 1814. Elsewhere he rejected an Austrian writer’s attribution of a particular cipher system to Napoleon. ([Part I](https://www.petitcolas.net/kerckhoffs/la_cryptographie_militaire_i.htm))
+
+### Victor Hugo
+
+- **[T3]** **Reported fact.** The archive-based biography reports that Kerckhoffs knew and corresponded with Hugo around 1860, drawing on a contemporary press notice and Kerckhoffs’s later recollection. No complete correspondence corpus has been located, and the surviving evidence does not establish the claimed degree of closeness or a personal meeting. ([Caraco, Géraud-Stewart, and Naccache, “Kerckhoffs’ Legacy”](https://eprint.iacr.org/2020/556))
+
 ## Sources
 
 https://eprint.iacr.org/2020/556

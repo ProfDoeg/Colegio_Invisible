@@ -507,6 +507,58 @@ Her art has been reevaluated independently of her acting. Museum exhibitions inc
 | 2000 | BnF centennial-scale archival exhibition/publication. |
 | 2023 | Petit Palais centenary exhibition, *Et la femme créa la star*. |
 
+## Atlas Connections
+
+### Alphonse Mucha
+
+- **[T5] Documented fact:** Mucha met Bernhardt in Paris in late 1894 after designing the *Gismonda* poster. She subsequently gave him a six-year contract covering posters, costumes, and stage designs; their collaboration included *La Dame aux camélias*, *Lorenzaccio*, *La Samaritaine*, *Médée*, *La Tosca*, and *Hamlet*. [Mucha Foundation](https://www.muchafoundation.org/en/gallery/themes/theme/sarah-bernhardt/object/21/)
+
+### Captain Alfred Dreyfus
+
+- **[T3] Documented fact:** Bernhardt publicly supported Dreyfus and wrote directly to him after Louis Grégori shot and wounded him during the transfer of Zola’s remains to the Panthéon on 4 June 1908. Her message assured him that truth would prevail over his persecutors. [U.S. Naval Academy Dreyfus program](https://www.usna.edu/Ethics/_files/documents/Dreyfusprogram.pdf)
+
+### Gabriele d’Annunzio
+
+- **[T3] Documented fact:** Bernhardt produced and starred as Anne in the first staging of d’Annunzio’s *La Ville morte*, Théâtre de la Renaissance, Paris, 21 January 1898. An archival telegram from d’Annunzio acknowledged the honor bestowed on him by “la grande Sarah.” [Archivio d’Annunzio](https://edizionicafoscari.it/media/pdf/article/archivio-dannunzio/2014/0/art-10.14277-2421-292X-455.pdf)
+
+### Harry Houdini
+
+- **[T5] Reported fact:** After Houdini paid an disputed bill for a commemorative statue presented to Bernhardt in 1916, the two met in Boston in 1917. Houdini later recalled giving her a private demonstration and Bernhardt asking whether his powers could restore her amputated leg; the encounter is documented principally through Houdini’s own account and later biographical reconstruction. [California Department of Corrections and Rehabilitation](https://www.cdcr.ca.gov/insidecdcr/2018/10/25/inmate-letter-draws-houdini-to-san-quentin-in-1915/), [Houdini’s *A Magician Among the Spirits*](https://www.free-ebooks.net/religious/A-Magician-Among-the-Spirits/html/6)
+
+### Isadora Duncan
+
+- **[T3] Documented fact:** Duncan sent Bernhardt a complimentary Western Union telegram, datable to 1914–23, praising her courage and “radiant and beautiful soul.” The signed original survives in the Morgan Library. [Morgan Library & Museum](https://www.themorgan.org/literary-historical/291790)
+
+### Marcel Proust
+
+- **[T1+] Documented fact:** Proust wrote about Bernhardt’s theatrical celebrity and drew upon her career while developing the fictional actress La Berma, although La Berma is a composite rather than a one-to-one portrait. The BnF identifies Bernhardt’s presence in Proust’s drafts and writings; archival catalogues likewise classify surviving Bernhardt material among documents connected with La Berma’s models. [Bibliothèque nationale de France](https://www.bnf.fr/fr/agenda/ma-memoire-toute-remplie-delle-la-carriere-de-sarah-bernhardt-dans-les-avant-textes-de), [Wichita State University Special Collections](https://specialcollections.wichita.edu/Collections/pdf/94-11-a.pdf)
+
+### Oscar Wilde
+
+- **[T3] Documented fact:** Wilde corresponded with Bernhardt and entrusted her with the intended London production of his French-language *Salomé*. She accepted the title role and began rehearsals at the Palace Theatre in 1892, but the Lord Chamberlain refused a license because the play represented biblical characters. [University of Pennsylvania bibliography](https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=ha103252897), [Methuen edition of *Salomé*](https://www.gutenberg.org/files/1339/1339-h/1339-h.htm)
+
+### Sarah Bernhardt
+
+- **[T4] Documented fact:** Bernhardt is herself a member of the atlas roster; this is an identity match, not an interpersonal crossing, and creates no additional connection.
+
+### Sigmund Freud
+
+- **[T3] Documented fact:** Freud saw Bernhardt perform Sardou’s *Théodora* at the Théâtre de la Porte-Saint-Martin in Paris in November 1885. He described her voice, poses, and exceptionally expressive bodily movement in a letter to his fiancée Martha Bernays. [University of Chicago dissertation citing Freud’s letter](https://knowledge.uchicago.edu/record/3481/files/Huang_uchicago_0330D_16013.pdf), [Storia delle Donne](https://www.storiadelledonne.it/wp-content/uploads/2018/09/Mariani2016.pdf)
+
+### Sir Arthur Conan Doyle
+
+- **[T3] Documented fact:** As director of the Théâtre Sarah-Bernhardt, Bernhardt produced the French adaptation of Conan Doyle’s *The House of Temperley* (*La Maison de Temperley*) there on 11 June 1912. The surviving program identifies her commercial responsibility for the production, though it does not by itself establish a personal meeting. [BnF Catalogue général](https://catalogue.bnf.fr/ark:/12148/cb394601313)
+
+### Thomas Edison
+
+- **[T5] Documented fact:** During her first American tour, Bernhardt visited Edison’s laboratory at Menlo Park, New Jersey, in 1880 and made experimental phonograph recitations there. The Henry Ford preserves a tinfoil recording artifact catalogued to that visit and jointly associated with Bernhardt and Edison’s laboratory. [The Henry Ford](https://www.thehenryford.org/collections/explore/artifact/269585)
+
+### Victor Hugo
+
+- **[T3] Documented fact:** Hugo attended Bernhardt’s performances in his plays, most consequentially her Queen of Spain in the Odéon revival of *Ruy Blas*, which opened in Paris on 19 February 1872. Contemporary correspondence records Hugo returning to see the production, while Bernhardt later wrote about her relations with him. [Groupe Hugo correspondence](https://victorhugoressources.paris.fr/references/lettres-de-juliette-drouet/lettres-de-juliette-drouet-victor-hugo-faisant-reference-ou), [Maisons Victor Hugo](https://www.maisonsvictorhugo.paris.fr/paris/collections/les-photographies/ruy-blas-theatre-de-lodeon-19-fevrier-1872)
+
+- **[T5] Documented fact:** Bernhardt personally visited Hugo while rehearsing *Ruy Blas* in 1872, and their subsequent relationship combined friendship, mutual admiration, and repeated collaboration on his repertory. Claims that they were lovers are not required by the surviving evidence. [Contemporary Bernhardt letter description](https://ilab.org/assets/catalogues/catalogs_files_catalogue%20d%C3%A9cembre.pdf), [*Sarah Bernhardt As I Knew Her*](https://www.gutenberg.org/cache/epub/59511/pg59511-images.html)
+
 ## Sources
 
 https://www.archives-nationales.culture.gouv.fr/archives-la-loupe/sarah-bernhardt-une-vie-entre-scene-legende-et-archives

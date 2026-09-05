@@ -469,6 +469,89 @@ The durable core is not a moral slogan about “disruption.” It is a linked re
 | 2016 | *The Man Who Discovered Capitalism* documentary released. |
 | 2025 | Nobel economic-sciences prize explicitly recognizes modern work on creative destruction and innovation-driven growth. |
 
+## Atlas Connections
+
+### Adam Smith
+
+- **[T1-] Documented fact:** Schumpeter extensively assessed Smith’s life, *The Theory of Moral Sentiments*, and *The Wealth of Nations* in the unfinished *History of Economic Analysis*, written during the 1940s and published posthumously in 1954. He treated Smith as an influential synthesizer but disputed the conventional picture of him as the uniquely original founder of economics. [Digitized text](https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2017/08/Schumpeter-History-of-Economic-Analysis-Introduction-by-Mark-Perlman-Routledge-1954.pdf); [specialist analysis](https://ideas.repec.org/a/cup/jhisec/v41y2019i4p531-551_3.html)
+
+### Aristotle
+
+- **[T1-] Documented fact:** In *History of Economic Analysis*, Schumpeter discussed Aristotle’s treatment of household management, exchange, value, money, interest, and distributive justice as part of his account of the beginnings of economic analysis in classical Greece. This is documentary intellectual-history treatment, not evidence of any stronger connection. [Digitized text](https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2017/08/Schumpeter-History-of-Economic-Analysis-Introduction-by-Mark-Perlman-Routledge-1954.pdf)
+
+### Carl Menger
+
+- **[T1-] Documented fact:** Schumpeter wrote directly about Menger’s marginal-utility theory and position as founder of the Austrian School, most extensively in *History of Economic Analysis*. Menger had retired before Schumpeter entered advanced economics at Vienna, so the available evidence supports an intellectual connection, not a teacher–student meeting. [Digitized text](https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2017/08/Schumpeter-History-of-Economic-Analysis-Introduction-by-Mark-Perlman-Routledge-1954.pdf)
+
+### Charles Fourier
+
+- **[T1-] Documented fact:** Schumpeter examined Fourier among the early socialist and utopian writers in his histories of doctrine and in the historical argument of *Capitalism, Socialism and Democracy*. The evidence supports written treatment only, with no personal crossing possible. [Digitized *History of Economic Analysis*](https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2017/08/Schumpeter-History-of-Economic-Analysis-Introduction-by-Mark-Perlman-Routledge-1954.pdf)
+
+### David Rockefeller
+
+- **[T5] Documented fact:** Rockefeller studied economics with Schumpeter during graduate work at Harvard in the later 1930s, before completing his doctorate at Chicago in 1940. Rockefeller subsequently remembered Schumpeter as an especially influential teacher. The evidence establishes direct teacher–student contact, although Schumpeter was not Rockefeller’s Chicago dissertation supervisor. [Harvard Gazette](https://news.harvard.edu/gazette/story/2017/03/david-rockefeller-generous-benefactor-to-harvard-former-overseer-dies-at-101/); [specialist study](https://www.econstor.eu/bitstream/10419/129039/1/wp_490.pdf)
+
+### Eugen von Böhm-Bawerk
+
+- **[T5] Documented fact:** Böhm-Bawerk taught Schumpeter in his University of Vienna private seminar in 1905–1906. Schumpeter participated alongside Mises and Marxist interlocutors in discussions of value, capital, interest, and Marx. [Documentary account](https://mises.at/en/denker/eugen-von-boehm-bawerk); [historical study](https://mises.org/quarterly-journal-austrian-economics/place-human-action-development-modern-economic-thought)
+- **[T1-] Documented fact:** After Böhm-Bawerk’s death in 1914, Schumpeter published a substantial memorial and appraisal, presenting him as a great teacher while critically analyzing his capital-and-interest theory; the essay was later included in *Ten Great Economists*. [Schumpeter bibliography](https://schumpeter.info/doks/bibliografie.html); [historical study](https://mises.org/quarterly-journal-austrian-economics/place-human-action-development-modern-economic-thought)
+
+### Friedrich Hayek
+
+- **[T3] Documented fact:** Schumpeter reviewed Hayek’s *The Road to Serfdom* in the June 1946 *Journal of Political Economy*. He praised the book’s sincerity and importance but rejected any automatic inference that economic planning must culminate in totalitarian “serfdom.” [Journal record](https://www.journals.uchicago.edu/doi/10.1086/256353)
+- **[T5] Documented fact:** Hayek’s recorded recollections establish personal acquaintance with Schumpeter within the interwar international economics profession. The record supports acquaintance and intellectual disagreement, not a close friendship. [Hayek oral history](https://static.library.ucla.edu/oralhistory/text/masters/21198-zz0008zd21-4-master.html)
+
+### Henri de Saint-Simon
+
+- **[T1-] Documented fact:** Schumpeter treated Saint-Simon’s industrial doctrine and its relationship to later socialism in his histories of economic thought and discussion of socialist development. The connection is exclusively posthumous written engagement. [Digitized *History of Economic Analysis*](https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2017/08/Schumpeter-History-of-Economic-Analysis-Introduction-by-Mark-Perlman-Routledge-1954.pdf)
+
+### John Locke
+
+- **[T1-] Documented fact:** Schumpeter discussed Locke’s monetary, interest, value, property, and political-economic arguments in *History of Economic Analysis*, locating him within seventeenth-century English economic analysis rather than treating him solely as a political philosopher. [Digitized text](https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2017/08/Schumpeter-History-of-Economic-Analysis-Introduction-by-Mark-Perlman-Routledge-1954.pdf)
+
+### John Maynard Keynes
+
+- **[T3] Documented fact:** Schumpeter repeatedly engaged Keynes in print: he reviewed *Essays in Biography* in 1933, critically reviewed *The General Theory* in 1936, corresponded with Keynes—including a documented letter of 3 October 1939—and assessed Keynesian economics throughout his later work. [Schumpeter bibliography](https://schumpeter.info/doks/bibliografie.html); [correspondence citation](https://www.cambridge.org/core/journals/business-history-review/article/abs/schumpeters-business-cycles-as-business-history/1DC0EC607711AC185C1A004DA541F681)
+- **[T5] Documented fact:** The two economists were personally acquainted through the transatlantic economics profession. Their relationship was professionally cordial but intellectually competitive; “rivals” should not be inflated into personal enemies.
+- **[T1-] Documented fact:** Following Keynes’s death on 21 April 1946, Schumpeter published “John Maynard Keynes, 1883–1946” in the September 1946 *American Economic Review*, a substantial biographical and intellectual appraisal later collected in *Ten Great Economists*. [Bibliographic record](https://www.econbiz.de/Record/john-maynard-keynes-1883-1946-schumpeter-joseph/10002775550)
+
+### Karl Marx
+
+- **[T1-] Documented fact:** Marx was one of Schumpeter’s most sustained historical subjects. Schumpeter published “Karl Marx, the Thinker” in 1918, devoted the opening portion of *Capitalism, Socialism and Democracy* (1942) to “Marx the Prophet,” “Marx the Sociologist,” “Marx the Economist,” and “Marx the Teacher,” and later included a major Marx essay in *Ten Great Economists*. He admired Marx’s historical vision while rejecting major elements of Marxian value theory and revolutionary doctrine. [Schumpeter bibliography](https://schumpeter.info/doks/bibliografie.html); [publication overview](https://books.google.com/books/about/Ten_Great_Economists.html?id=BoUaAAAAMAAJ)
+
+### Ludwig von Mises
+
+- **[T5] Documented fact:** Schumpeter and Mises met as young economists in Böhm-Bawerk’s University of Vienna seminar, where both participated during the mid-1900s. Their contrasting methodological and political positions were already apparent in that common seminar milieu. [Historical study](https://mises.org/quarterly-journal-austrian-economics/are-structural-fluctuations-natural-or-policy-induced-analyzing-misess-and-schumpeters-contributions-business-cycle-theory)
+- **[T3] Documented fact:** They engaged one another’s ideas in published work, especially over business-cycle theory and whether a socialist economy was analytically possible. Later recollection also records a personal meeting at Cambridge, Massachusetts. “Friendly rivals” is a defensible shorthand for documented acquaintance and disagreement, but claims of close friendship are less securely supported. [Relationship study](https://mises.org/mises-wire/mises-and-schumpeter-friendly-rivals)
+
+### Max Weber
+
+- **[T5] Documented fact:** Weber and Schumpeter met at Vienna’s Café Landtmann in spring 1918 and argued intensely about socialism and the Russian Revolution, with Emil Lederer present. Accounts describe Weber becoming angry when Schumpeter treated the revolutionary bloodshed with detachment. The meeting is well established in biographical testimony, though exact dialogue varies between retellings. [Historical discussion](https://library.fes.de/libalt/journals/swetsfulltext/16830868.pdf); [scholarly account](https://www.redalyc.org/journal/601/60171807002/60171807002.pdf)
+- **[T3] Documented fact:** Weber commissioned Schumpeter’s history of economic doctrine for the *Grundriss der Sozialökonomik*, published in 1914, establishing a direct editorial and scholarly relationship before their 1918 dispute.
+- **[T1-] Documented fact:** After Weber’s death in 1920, Schumpeter wrote “Max Weber’s Work,” a substantive memorial assessment of Weber’s sociology, economics, and conception of social science. [Specialist study](https://d-nb.info/1103137123/34)
+
+### Plato
+
+- **[T1-] Documented fact:** Schumpeter discussed Plato’s political economy—especially the division of labor, the ideal state, and the subordination of economic questions to political philosophy—in the classical section of *History of Economic Analysis*. [Digitized text](https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2017/08/Schumpeter-History-of-Economic-Analysis-Introduction-by-Mark-Perlman-Routledge-1954.pdf)
+
+### Thomas Aquinas
+
+- **[T1-] Documented fact:** Schumpeter treated Aquinas and the scholastic tradition at length in *History of Economic Analysis*, discussing natural law, property, the just price, money, and interest. He regarded scholastic analysis as an important stage in the formation of economics rather than merely a theological prehistory. [Digitized text](https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2017/08/Schumpeter-History-of-Economic-Analysis-Introduction-by-Mark-Perlman-Routledge-1954.pdf)
+
+### Thomas More
+
+- **[T1-] Documented fact:** Schumpeter discussed More’s *Utopia* within the history of socialist and communitarian schemes. The evidence supports a written historical connection only. [Digitized *History of Economic Analysis*](https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2017/08/Schumpeter-History-of-Economic-Analysis-Introduction-by-Mark-Perlman-Routledge-1954.pdf)
+
+### Tommaso Campanella
+
+- **[T1-] Documented fact:** Campanella’s *City of the Sun* appears in Schumpeter’s historical treatment of utopian and socialist doctrine. No connection beyond Schumpeter’s retrospective written analysis is documented. [Digitized *History of Economic Analysis*](https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2017/08/Schumpeter-History-of-Economic-Analysis-Introduction-by-Mark-Perlman-Routledge-1954.pdf)
+
+### Vladimir Lenin
+
+- **[T1-] Documented fact:** Schumpeter explicitly contrasted his own sociology of imperialism with the Marxist-Leninist thesis that imperial expansion was a necessary product of monopoly capitalism. His treatment of Lenin is an intellectual-historical engagement, not evidence that the two corresponded or met. [Schumpeter bibliography](https://schumpeter.info/doks/bibliografie.html)
+
+No adequately documented T2 prophecy/hyperstition or T9 shared-object connection with an atlas-roster figure was located. Mere overlap in Vienna, Bonn, Cambridge, or Harvard has not been counted where evidence of an actual meeting, written engagement, or specific shared object was absent.
+
 ## Sources
 
 https://www.deutsche-biographie.de/sfz106815.html?language=de

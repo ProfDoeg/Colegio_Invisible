@@ -439,6 +439,22 @@ His posthumous reputation divides along several axes:
 - **16 Feb 2021** — Spanish memoir edition presented.
 - **6 Apr 2021** — Dies at Senpere, aged 88.
 
+## Atlas Connections
+
+### José Antonio de Aguirre y Lecube
+
+- **[T5]** **Reported fact:** In spring 1958, Madariaga was among the Ekin representatives who visited lehendakari José Antonio Aguirre in Paris during a final attempt to reconcile Ekin with the PNV. Txillardegi recalled several interviews in which Aguirre heard their concerns and supplied a handwritten letter for the PNV leadership inside Spain; the initiative failed. Aguirre was also connected to Madariaga through marriage between their extended families. [Txillardegi’s retrospective account](https://jakin.eus/show/9b26e0238e3455c851d4d84e1cd343a62261ceda)
+
+### José Luis Álvarez Enparantza (Txillardegi)
+
+- **[T5]** **Documented fact:** Madariaga met Txillardegi through an older cousin’s circle in San Sebastián when Madariaga was about sixteen, discussed Basque history with him, and later renewed the relationship as a student in Bilbao. They became close political collaborators and cofounders of Ekin and ETA; a surviving photograph also places them together at Eneko Irigarai’s daughter’s baptism in November 1964. Decades later, both joined Aralar, reconnecting within the same non-armed pro-independence party. [Madariaga’s 2014 account](https://www.berria.eus/euskal-herria/harro-nago-eta-sortu-genuelako-beharrezkoa-zelako_92945_102.html), [1964 photograph and historical interview](https://www.elsaltodiario.com/pensar-jondo-descolonizando-andalucia/eneko-irigarai-exilio-argel-nos-permitio-conectar-organizaciones-revolucionarias-africa-asia-america-latina), [later Aralar connection](https://elpais.com/espana/2021-04-11/eta-no-sobrevivio-a-sus-fundadores.html)
+
+### Che Guevara
+
+- **[T3]** **Reported fact:** Eneko Irigarai’s retrospective testimony places Madariaga and Irigarai in Algiers as officials or state employees when Che Guevara visited and delivered his address criticizing the economic relations between the socialist bloc and newly independent countries. This supports Madariaga having seen Guevara speak, not a personal meeting between them. The testimony’s internal arrival chronology alternates between February and March 1965, so the precise temporal overlap—Guevara’s major Algiers address was on 24 February—should be treated cautiously. [Irigarai interview](https://www.elsaltodiario.com/pensar-jondo-descolonizando-andalucia/eneko-irigarai-exilio-argel-nos-permitio-conectar-organizaciones-revolucionarias-africa-asia-america-latina)
+
+No other roster crossing was sufficiently documented to assign one of the specified connection types. Ideological influence or shared subject matter involving figures such as Sabino Arana, Karl Marx, Mao Zedong, Fidel Castro, or David Ben-Gurion does not by itself establish a qualifying personal, textual, prophetic, proximity, or object connection.
+
 ## Sources
 
 https://ahotsak.eus/bilbo/hizlariak/julen-madariaga-agirre/

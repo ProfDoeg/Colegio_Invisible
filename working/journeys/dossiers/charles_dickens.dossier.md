@@ -1936,6 +1936,66 @@ T. P. James's 1873 "spirit pen" completion is the most literal example of Dicken
 
 ---
 
+## Atlas Connections
+
+### Augusta Ada King (Ada Lovelace)
+
+- **[T5]** Dickens and Lovelace were personal acquaintances. During her final illness, Dickens visited her in August 1852 and, at her request, read the death of Paul Dombey from *Dombey and Son*. **Documented fact**, although some popular retellings overstate the frequency of these readings. [Source](https://www.fieldtheatregroup.co.uk/_files/ugd/2fbcdd_382ae09a81ea4014bd23ca7fec5fa947.pdf)
+
+### Alexandre Dumas
+
+- **[T5]** Dickens met Dumas while living in Paris: Dickens and John Forster dined with him in January 1847, during the same period in which Dickens entered the French Romantic literary circle around Victor Hugo. **Documented fact.** [Source](https://parisatlas.com/people/charles-dickens)
+
+### Edward Bulwer-Lytton
+
+- **[T5]** Dickens and Bulwer-Lytton were friends from approximately 1838 onward, corresponded extensively, and jointly developed the Guild of Literature and Art. Dickens performed in Bulwer-Lytton’s *Not So Bad as We Seem* in 1851, named his youngest son Edward Bulwer Lytton Dickens, and accepted Bulwer-Lytton’s advice to revise the ending of *Great Expectations*. **Documented fact.** [Dickens Journals Online](https://djo.org.uk/indexes/authors/edward-george-bulwer-lytton.html); [archival summary](https://www.hertsmemories.org.uk/content/herts-history/towns-and-villages/knebworth/charles-dickens-1812-70)
+
+### Edgar Allan Poe
+
+- **[T5]** Poe called on Dickens at the United States Hotel in Philadelphia in March 1842 after sending him books and criticism, including his analysis of *Barnaby Rudge*. Three surviving Dickens-to-Poe letters document the approach, meeting, and Dickens’s later unsuccessful attempt to interest British publishers in Poe’s work. **Documented fact.** [Poe Museum](https://poemuseum.org/charles-dickens-meets-edgar-allan-poe/)
+
+### Hans Christian Andersen
+
+- **[T5]** Dickens and Andersen first met in 1847 and corresponded; Andersen then stayed with the Dickens family at Gad’s Hill Place for approximately five weeks in June–July 1857. The visit and subsequent cooling of their relationship are documented, while the famous “five weeks—which seemed to the family AGES” notice is later family lore unless tied to a surviving contemporary object. **Documented fact; associated notice a reported anecdote.** [Charles Dickens Museum](https://dickensmuseum.com/en-de/blogs/charles-dickens-museum/two-literary-titans-unite-at-gad-s-hill)
+
+### John Everett Millais
+
+- **[T3]** Dickens directly attacked Millais’s *Christ in the House of His Parents* after seeing it at the Royal Academy exhibition of 1850. His unsigned *Household Words* article “Old Lamps for New Ones” of 15 June 1850 became one of the most influential hostile interventions in the early controversy over the Pre-Raphaelite Brotherhood. **Documented fact.** [Contemporary essay](https://upload.wikimedia.org/wikipedia/commons/9/98/Old_lamps_for_new_ones%2C_and_other_sketches_and_essays_hitherto_uncollected_%28IA_cu31924013471861%29.pdf); [work history](https://en.wikipedia.org/wiki/Christ_in_the_House_of_His_Parents)
+
+### Michael Faraday
+
+- **[T3]** Dickens attended or closely followed Faraday’s Royal Institution lectures and wrote to him on 28 May 1850 seeking lecture notes for adaptation in *Household Words*. Faraday supplied material, and Percival Leigh’s “The Chemistry of a Candle,” published under Dickens’s editorship in August 1850, popularized Faraday’s demonstrations. **Documented fact.** [Study of the correspondence and articles](https://victorianweb.org/authors/dickens/faraday2.html); [Royal Institution correspondence archive](https://www.rigb.org/explore-science/explore/collection/michael-faradays-correspondence)
+
+### Victor Hugo
+
+- **[T5]** Hugo received Dickens at his Place des Vosges home in Paris in January 1847. Dickens attended an evening gathering there with John Forster and other members of Hugo’s literary circle. **Documented fact.** [Maisons Victor Hugo](https://www.maisonsvictorhugo.paris.fr/paris/expositions/hugo-recoit-dickens-un-anglais-paris); [contextual chronology](https://parisatlas.com/people/charles-dickens)
+
+### Jesus of Nazareth
+
+- **[T1-]** Dickens wrote an extended narrative of Jesus’s birth, ministry, crucifixion, and resurrection in *The Life of Our Lord*, composed privately for his children during the 1840s and published posthumously in 1934. **Documented fact.** [Library of Congress copy](https://www.loc.gov/resource/rbc.2025batch96158919/?st=brief)
+
+### Julius Caesar
+
+- **[T1-]** Dickens wrote about Caesar’s expeditions to Britain in the opening chapter of *A Child’s History of England*, serialized in 1851–53. **Documented fact.** [Primary text](https://www.gutenberg.org/files/699/699-h/699-h.htm)
+
+### Richard I of England (“Richard the Lionheart”)
+
+- **[T1-]** Dickens devoted Chapter XIII of *A Child’s History of England* to Richard I, presenting a markedly critical account of his accession, taxation, crusading, captivity, warfare, and death. **Documented fact.** [Primary text](https://www.gutenberg.org/files/699/699-h/699-h.htm)
+
+### Sir Thomas More
+
+- **[T1-]** Dickens narrated More’s chancellorship, conflict with Henry VIII, imprisonment, trial, and execution in the Tudor chapters of *A Child’s History of England*. **Documented fact.** [Primary text](https://www.gutenberg.org/files/699/699-h/699-h.htm)
+
+### William the Conqueror
+
+- **[T1-]** Dickens devoted Chapter VIII of *A Child’s History of England* to William I, condemning the violence of the Norman Conquest, the devastation associated with the royal forests, and the social consequences of his rule. **Documented fact.** [Primary text](https://www.gutenberg.org/files/699/699-h/699-h.htm)
+
+### George Orwell
+
+- **[T1+]** Orwell made Dickens the subject of his substantial essay “Charles Dickens,” first published in 1940. It analyzes Dickens’s social criticism, politics, class assumptions, literary methods, and enduring image as a morally indignant liberal reformer. Dickens is the earlier, written-about figure and therefore carries the positive sign on this dossier. **Documented fact.** [Essay text](https://thephilosopher.net/orwell/wp-content/uploads/sites/391/2024/10/Charles-Dickens-George-Orwell.pdf)
+
+No adequately documented personal crossing was found with Charles Darwin; scholarship specifically notes the absence of evidence for direct acquaintance or correspondence. Mere overlap in Victorian London, common associates, literary influence, or participation on the same side of a public controversy has not been treated as a connection without additional evidence.
+
 ## Sources
 
 https://dickensletters.com/content/dickens-timeline

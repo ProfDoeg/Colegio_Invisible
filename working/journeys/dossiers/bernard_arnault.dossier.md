@@ -649,6 +649,26 @@ His image therefore exists in several historically significant forms at once: en
 | Jul 2026 | Le Monde published six-part investigation; Arnault disputed it and denied family rift. |
 | 20 Aug 2026 | Living, chairman and CEO of LVMH; Forbes real-time estimate approximately US$139.1 billion. Several legal and succession questions remained open. |
 
+## Atlas Connections
+
+### Christian Dior
+
+- **[T9-] Documented fact:** Christian Dior founded his couture house in Paris in 1946; after Dior’s death in 1957 and the house’s passage through the Boussac group, Arnault obtained control through the 1984 Boussac/Financière Agache restructuring and made Christian Dior the cornerstone of his luxury holdings. The inherited house, name, archives, and Paris premises constitute the shared object/site; there was no personal meeting between the two men. [LVMH governance history](https://www.lvmh.com/en/our-group/governance/bernard-arnault)
+
+### Louis Vuitton
+
+- **[T9-] Documented fact:** Louis Vuitton founded his trunk-making house in Paris in 1854 and died in 1892. The company bearing his name later merged with Moët Hennessy to form LVMH in 1987; Arnault became LVMH’s principal shareholder and chairman in 1989. Arnault therefore became the later steward and controller of the enterprise, brand heritage, archives, and workshops originating with Vuitton, without any temporal possibility of a personal encounter. [LVMH history](https://www.lvmh.com/our-group/history), [LVMH 2023 registration document](https://urd.lvmh.com/en/urd-2023-va_vdef.pdf)
+
+### Pablo Picasso
+
+- **[T9-] Reported fact:** Arnault acquired and retained paintings created by Picasso. Contemporary reporting in 2002 identified Picasso’s *Les Femmes d’Alger* among works bought by Arnault, while a 2026 investigation reported at least two Picasso works displayed in his Paris residence. The paintings—not personal contact, since Picasso died in 1973—form the connection. [Le Monde archival report](https://scholar.lib.vt.edu/InterNews/LeMonde/issues/2002/monde.20021027.pdf), [Le Monde investigation](https://www.lemonde.fr/en/summer-reads/article/2026/07/23/bernard-arnault-generous-patron-of-the-arts-and-lover-of-tax-breaks_6755771_183.html)
+
+### Elon Musk
+
+- **[T5] Documented fact:** Arnault hosted Musk and Musk’s mother for lunch at LVMH’s Cheval Blanc Paris on 16 June 2023, during Viva Technology; Antoine and Alexandre Arnault also attended, and photographs documented the gathering. Musk subsequently attended Arnault’s Grand Cross of the Legion of Honour ceremony at the Élysée Palace on 13 March 2024. These were direct personal meetings, not merely overlap in billionaire rankings. [Le Journal du Dimanche](https://www.lejdd.fr/economie/exclusif-rencontre-au-sommet-entre-bernard-arnault-et-elon-musk-paris-136835), [Le Monde](https://www.lemonde.fr/en/summer-reads/article/2026/07/21/bernard-arnault-a-free-marketeer-who-whispers-in-the-ear-of-every-president_6755675_183.html)
+
+No additional roster crossing was supported strongly enough by the supplied dossier and targeted source verification. Namesake awards, parallel wealth rankings, LVMH sponsorship of exhibitions, and mere presence in the same broad social or historical milieu were excluded because they do not independently satisfy the specified connection types.
+
 ## Sources
 
 https://www.lvmh.com/en/our-group/governance/bernard-arnault

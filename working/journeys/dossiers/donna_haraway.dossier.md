@@ -633,6 +633,54 @@ Because Haraway is living, “posthumous” reception cannot yet be assessed. He
 | **24 July 2026** | *El País* interview documents current household, politics, population clarification, and AI engagement. |
 | **31 Aug. 2026** | Status date: alive, emerita, resident in California, continuing public work. |
 
+## Atlas Connections
+
+### Charles Darwin
+
+- **[T1-]** Haraway analyzed Darwin’s evolutionary narratives—especially *The Descent of Man* and the historical construction of human–primate kinship—in *Primate Visions* (1989) and later companion-species work. This is a **documented fact**: Darwin is an object of her history of biology, not a personal or institutional connection.
+
+### Félix Guattari
+
+- **[T1-]** In *When Species Meet* (2007/08), Haraway directly engaged and criticized Guattari and Gilles Deleuze’s account of “becoming-animal,” arguing that their treatment of domestic animals and pet relations retained an anthropocentric preference for the wild, exceptional, or pack-like animal. This is a **documented fact** based on the book’s opening discussion and subsequent scholarly analysis of that critique ([book text](https://syllabus.pirate.care/_preview/library/Donna%20Haraway/When%20Species%20Meet%20%2839%29/When%20Species%20Meet%20-%20Donna%20Haraway.pdf); [Oxford review](https://academic.oup.com/isle/article-abstract/16/4/876/666951)).
+
+### Gilles Deleuze
+
+- **[T1-]** Haraway wrote at length “with and against” Deleuze and Guattari’s “becoming-animal” in *When Species Meet*, contrasting it with her own “becoming-with” and defending historically situated relations involving actual domestic animals. This is a **documented fact**, not evidence that Haraway personally met either thinker ([Oxford review](https://academic.oup.com/isle/article-abstract/16/4/876/666951); [critical study](https://philpapers.org/rec/WILHCD-2)).
+
+### H. P. Lovecraft
+
+- **[T1-]** In *Staying with the Trouble* (2016), Haraway explicitly addressed Lovecraft while denying that her “Chthulucene” was named for his Cthulhu; she instead emphasized chthonic beings and the spider *Pimoa cthulhu*. She characterized Lovecraft’s monster and imaginative world in relation to misogyny and racial nightmare. This is a **documented fact**. The claim that Lovecraft directly inspired the concept is a **disputed theory**: Haraway denied a conscious derivation, although the spider’s scientific name itself was coined in reference to Lovecraft ([published critical discussion quoting Haraway](https://www.researchgate.net/publication/367185890_Into_the_sightless_vortex_of_the_unimaginable_Nyarlathotep_or_the_trajectory_of_the_Lovecraftian_signifier); [etymological critique](https://viewpointmag.com/2017/05/08/cthulhu-plays-no-role-for-me/)).
+
+### Jacques Derrida
+
+- **[T1-]** Haraway made Derrida’s writings on animals—particularly his encounter with a cat and his distinction between response and reaction—a sustained interlocutor in *When Species Meet* (2007/08). She praised his recognition that actual animals look back at humans but criticized his failure to become more curious about the particular cat and biological knowledge of cats. This is a **documented fact** ([University of Minnesota Press](https://www.upress.umn.edu/9780816650460/when-species-meet/); [book text](https://syllabus.pirate.care/_preview/library/Donna%20Haraway/When%20Species%20Meet%20%2839%29/When%20Species%20Meet%20-%20Donna%20Haraway.pdf)).
+
+### Karl Marx
+
+- **[T1-]** Haraway repeatedly engaged Marx’s categories of labor, production, capital, class, and technological transformation, most conspicuously in “‘Gender’ for a Marxist Dictionary” and “A Manifesto for Cyborgs” (1985). The latter deliberately reworked the manifesto form for socialist-feminist politics while criticizing Marxist traditions that inadequately explained gendered, racialized, reproductive, and informational labor. This is a **documented fact**, not a claim of doctrinal Marxism or personal connection ([original manifesto text](https://theanarchistlibrary.org/library/donna-haraway-a-cyborg-manifesto); [Encyclopedia of Anthropology](https://ea.fflch.usp.br/en/node/61)).
+
+### Martin Heidegger
+
+- **[T3]** Haraway encountered Heidegger’s philosophy as a Colorado College student in the early-to-mid 1960s through Glenn Gray’s teaching and subsequently discussed that intellectual formation in autobiographical interviews. This is a **reported fact** grounded in Haraway’s retrospective testimony; no personal meeting or correspondence with Heidegger is documented.
+
+### Michel Foucault
+
+- **[T1-]** Haraway directly engaged Foucault’s accounts of biopolitics, clinical knowledge, discipline, sexuality, and modern power. In the 1985 cyborg manifesto she called Foucauldian biopolitics a limited premonition of cyborg politics and cited *The Birth of the Clinic*, *The History of Sexuality*, and *Discipline and Punish* while arguing that late-twentieth-century technoscience required a further analytic step. This is a **documented fact**; no personal meeting or correspondence is established ([manifesto text](https://theanarchistlibrary.org/library/donna-haraway-a-cyborg-manifesto)).
+
+### Norbert Wiener
+
+- **[T1-]** Haraway engaged the cybernetic field established by Wiener—communication and control across animals and machines, feedback, information, automation, and military power—in the work culminating in “A Manifesto for Cyborgs” (1985). The connection is a **documented intellectual genealogy**, mediated partly through G. Evelyn Hutchinson’s systems-ecology milieu. No teacher–student relationship, correspondence, collaboration, or meeting between Wiener and Haraway is documented.
+
+### Simone de Beauvoir
+
+- **[T1-]** In “‘Gender’ for a Marxist Dictionary,” Haraway traced modern feminist meanings of gender to Beauvoir’s proposition that one is not born but becomes a woman, while situating that proposition within later socialist-feminist debates over sex, labor, and historical construction. This is a **documented fact**; no personal meeting between Haraway and Beauvoir was established ([discussion of Haraway’s formulation](https://cadmus.eui.eu/bitstreams/ceef047f-d2dd-51e3-9e7e-429ef8952b4a/download)).
+
+### Thomas Aquinas
+
+- **[T3]** Haraway reports reading Aquinas from about age thirteen during her Catholic education in Denver and has discussed Thomism, sacramental realism, incarnation, and the materiality of signs as formative—even after her departure from Catholic belief. This is a **reported fact** from autobiographical testimony and filmed interviews, not evidence of continuing Thomist orthodoxy ([documentary record](https://www.docuseek2.com/if-donna); [*How Like a Leaf*](https://attachments.are.na/632919/706257a5039d513c87d42c531c69c4de.pdf?1465734125=)).
+
+No documented personal meeting, friendship, correspondence, shared-site transmission, or prophecy/hyperstition crossing was established with any other roster member. Mere thematic resemblance, common citation in later scholarship, shared geography, or coexistence during Haraway’s lifetime was excluded.
+
 ## Sources
 
 https://oac.cdlib.org/findaid/ark:/13030/c8b283b2/

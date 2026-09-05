@@ -719,6 +719,70 @@ Institutionally, IMEC’s acquisition of the archive in 2016, Columbia’s prese
 | 2025 | Fantin and Nicol publish first English biography. |
 | 2026 | Continuing archival radio, exhibitions, journals, and scholarship. |
 
+## Atlas Connections
+
+### Alfred Jarry
+
+- **[T1-] Documented fact.** Baudrillard repeatedly wrote about Jarry and ’pataphysics, beginning with an early essay reportedly composed in 1949 and eventually published as *Pataphysique* (2002). Jarry’s “science of imaginary solutions” remained an acknowledged source for Baudrillard’s reversals, exceptions, and deliberately paradoxical theory.
+
+### Antonin Artaud
+
+- **[T1-] Documented fact.** Baudrillard discussed Artaud in conversations with Sylvère Lotringer published as *Oublier Artaud* (Sens & Tonka, 2005). The book contrasts Artaud’s suffering, theatrical revolt, and pursuit of expression with Baudrillard’s own ideas of disappearance and radical illusion. [Bibliographic record](https://books.google.com/books/about/Oublier_Artaud.html?id=pujWAAAACAAJ)
+
+### Jorge Luis Borges
+
+- **[T3] Documented fact.** Baudrillard’s *Simulacres et simulation* (1981) opens by explicitly rewriting Borges’s “On Exactitude in Science”: instead of a map merely duplicating an empire, Baudrillard makes the model precede and generate the territory. This is a one-sided textual engagement; no correspondence or personal meeting between them was located. [Text and publication context](https://web.stanford.edu/class/history34q/readings/Baudrillard/Baudrillard_Simulacra.html)
+
+### Félix Guattari
+
+- **[T4] Reported fact.** A specialist chronology identifies Baudrillard and Guattari as participants in creating the Association populaire franco-chinoise in the early 1960s. A contemporaneous 1964 report independently places Baudrillard among the association’s initiators, although its accessible list does not name Guattari; the precise extent of their direct collaboration therefore remains incompletely documented. Baudrillard later criticized the revolutionary theory of desire associated with Guattari and Gilles Deleuze in *Oublier Foucault*. [Contemporaneous association report](https://www.lemonde.fr/archives/article/1964/02/08/l-humanite-attaque-l-association-populaire-franco-chinoise_2129584_1819218.html), [publisher’s description of the later polemic](https://mitpress.mit.edu/9781584350415/forget-foucault/)
+
+### Friedrich Nietzsche
+
+- **[T1-] Documented fact.** Baudrillard’s German-studies formation included a higher-education dissertation or memoir on Nietzsche and Martin Luther. Nietzsche’s genealogy, nihilism, aphoristic style, challenge, and reversibility remained explicit reference points in Baudrillard’s later writings.
+
+### Martin Luther
+
+- **[T1-] Reported fact.** Baudrillard’s Sorbonne-era *diplôme d’études supérieures* memoir is consistently described in specialist biographies as concerning Nietzsche and Luther. The accessible record does not securely establish its date or locate a published version.
+
+### Karl Marx
+
+- **[T1-] Documented fact.** Baudrillard translated Marxist texts and engaged Marx throughout his early books. *Le Miroir de la production* (1973) is a sustained critique arguing that Marxism retained capitalism’s privileging of labor, production, use, and human mastery. His relationship to Marx thus progressed from translation and critical appropriation to explicit theoretical rupture. [Stanford Encyclopedia overview](https://plato.stanford.edu/entries/baudrillard/)
+
+### Sigmund Freud
+
+- **[T1-] Documented fact.** Baudrillard repeatedly engaged Freud’s concepts of repression, sexuality, the unconscious, death, and repetition, especially in *L’Échange symbolique et la mort* (1976) and *De la séduction* (1979). His use was polemical rather than a claim to clinical Freudian practice.
+
+### Roland Barthes
+
+- **[T5] Documented fact.** Baudrillard attended Barthes’s seminar, drew directly on Barthesian semiology in his analysis of objects and consumption, and defended *Le Système des objets* before a 1966 doctoral jury that included Barthes, Henri Lefebvre, and Pierre Bourdieu. This establishes repeated teacher–student and formal academic contact, not merely intellectual influence.
+
+### Michel Foucault
+
+- **[T3] Documented fact.** Baudrillard submitted the essay that became *Oublier Foucault* to *Critique* in 1976, when Foucault was one of the journal’s editors; it appeared as a book in 1977. The essay directly disputed Foucault’s accounts of power and sexuality. The often-repeated reply “Forget Baudrillard” was not located in a contemporaneous Foucault text and remains intellectual folklore rather than a verified response. [MIT Press publication history](https://mitpress.mit.edu/9781584350415/forget-foucault/)
+
+### Gilles Deleuze
+
+- **[T3] Documented fact / reported response.** *Oublier Foucault* also attacked the revolutionary theory of desire associated with Deleuze and Guattari, constituting a one-sided published engagement. Sylvère Lotringer later reported that Deleuze called Baudrillard “the shame of the profession,” but no primary Deleuze text or contemporaneous record of that remark was located. [Publisher’s description](https://mitpress.mit.edu/9781584350415/forget-foucault/)
+
+### Jacques Derrida
+
+- **[T3] Documented fact.** Baudrillard and Derrida participated in the public debate *Pourquoi la guerre aujourd’hui?* in Paris on 19 February 2003, organized by René Major and the Institut des hautes études en psychanalyse as the invasion of Iraq approached. They directly compared positions on war, terrorism, sovereignty, international law, events, and virtuality. The recorded exchange was published posthumously in 2015 with a DVD. [Éditions Lignes](https://www.editions-lignes.com/POURQUOI-LA-GUERRE-AUJOURD-HUI.html), [contemporaneous report](https://www.lemonde.fr/archives/article/2003/02/27/derrida-baudrillard-et-la-guerre-a-venir_311044_1819218.html)
+
+### Walt Disney
+
+- **[T1-] Documented fact.** In *Simulacres et simulation* (1981), Baudrillard wrote about Walt Disney and Disneyland as models of simulation. He also repeated the false popular story that Disney’s body had been cryogenically preserved. The theoretical analysis is documented; the cryonics claim is myth, not biographical fact about Disney. [Baudrillard text](https://web.stanford.edu/class/history34q/readings/Baudrillard/Baudrillard_Simulacra.html)
+
+### George H. W. Bush
+
+- **[T3] Documented fact.** Baudrillard analyzed President Bush’s leadership of the US-led coalition in the three 1991 Gulf War essays collected as *La Guerre du Golfe n’a pas eu lieu*. Bush and Saddam Hussein appear there as ostensibly opposing actors within what Baudrillard considered a pre-scripted, radically asymmetrical media-military operation. No personal contact is evidenced. [Contemporary-work overview](https://www.radicalphilosophy.com/obituary/jean-baudrillard-1929-2007)
+
+### Saddam Hussein
+
+- **[T3] Documented fact.** Saddam Hussein is a recurring named actor in Baudrillard’s 1991 Gulf War essays and later interviews. Baudrillard argued that Hussein preserved political power despite military defeat and treated Iraqi soldiers sacrificially within the conflict’s asymmetrical structure. This was one-sided political commentary; no correspondence or meeting is documented. [Baudrillard interview discussing Hussein](https://www1.folha.uol.com.br/fsp/brasil/fc2804200318.htm), [critical account](https://www.radicalphilosophy.com/obituary/jean-baudrillard-1929-2007)
+
+No defensible T2 prophecy/hyperstition or T9 shared-object transmission was found among the roster. Mere influence, thematic similarity, common inclusion in “French theory,” or presence in the same country was excluded unless the record supported one of the specified connection types.
+
 ## Sources
 
 https://www.imec-archives.com/archives/fonds/787BDL

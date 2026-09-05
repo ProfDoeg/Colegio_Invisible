@@ -1185,6 +1185,22 @@ The following are especially useful starting points for further documentary work
 
 ---
 
+## Atlas Connections
+
+### Abraham Lincoln
+
+- **[T5] Documented fact:** On **17 March 1862**, Secretary of War Edwin Stanton introduced Vanderbilt to President **Abraham Lincoln** at the Executive Mansion in Washington. They discussed using Vanderbilt’s steamship against the Confederate ironclad *Merrimack/Virginia*. When Lincoln asked his price, Vanderbilt offered the vessel as a gift, and Lincoln personally accepted it. Vanderbilt recorded the meeting in an official 1866 letter reproduced in a congressional executive document. [U.S. Senate Executive Document No. 46](https://www.govinfo.gov/content/pkg/SERIALSET-01238_00_00-021-0046-0000/pdf/SERIALSET-01238_00_00-021-0046-0000.pdf)
+
+### John D. Rockefeller Sr.
+
+- **[T3] Documented fact:** Vanderbilt’s New York Central/Lake Shore railroad interests entered written freight arrangements benefiting **John D. Rockefeller’s** refining enterprise in **1872**. Evidence later assembled from contracts, affidavits, and sworn Hepburn Committee testimony indicates that Rockefeller’s organization received a **twenty-five-cent-per-barrel rebate** in return for approximately sixty carloads of oil daily. The record establishes a commercial and documentary crossing between their enterprises, but it does not by itself prove the face-to-face meeting dramatized in later television accounts. [Ida Tarbell, *The History of the Standard Oil Company*, vol. 1, ch. 5](https://en.wikisource.org/wiki/The_History_of_the_Standard_Oil_Company/Volume_1/Chapter_5)
+
+### Mark Twain
+
+- **[T1+] Documented fact:** **Mark Twain (Samuel Clemens)** wrote directly about Vanderbilt in **“An Open Letter to Com. Vanderbilt,”** published in *Packard’s Monthly* in **March 1869**. The satirical letter attacked Vanderbilt’s commercial conduct, public adulation, and limited charitable giving, urging him mockingly to make a public donation. Vanderbilt is therefore the earlier, written-about figure in this T1 connection. [Center for Mark Twain Studies chronology](https://twainsgeography.com/node/11631); [Vanderbilt University historical discussion](https://cdn.vanderbilt.edu/vu-news/vanderbiltmagazine/archives/VMagsm06/features/strangeGift.pdf)
+
+No other roster crossing was included merely from shared chronology, geography, industry, intellectual influence, family naming, or indirect association; those conditions alone do not meet the specified evidentiary threshold.
+
 ## Sources
 
 https://www.vanderbilt.edu/about/history/

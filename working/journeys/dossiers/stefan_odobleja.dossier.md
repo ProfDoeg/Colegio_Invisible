@@ -1049,6 +1049,38 @@ His most durable international significance is likely to remain as a case study 
 
 ---
 
+## Atlas Connections
+
+Only the following roster crossings are supported by the consulted record. No documented personal meeting, correspondence, shared occupancy, or object transmission was found between Odobleja and any roster member.
+
+### René Descartes
+
+- **[T1-]** **Documented fact:** In the historical survey of *Psychologie consonantiste* (1938), Odobleja situated Descartes among earlier mechanistic or physically oriented approaches to psychology. This was retrospective intellectual engagement, not evidence of any direct lineage beyond Odobleja’s discussion of Descartes’s ideas. [Digitized volume and indexed text](https://www.scribd.com/document/472087793/Psychologie-consonantiste-vol-I-1938)
+
+### Gottfried Wilhelm Leibniz
+
+- **[T1-]** **Documented fact:** Odobleja discussed Leibniz in *Psychologie consonantiste* (1938), grouping him with earlier philosophical psychologies while constructing the historical background against which consonantist psychology was presented. [Digitized volume and indexed text](https://www.scribd.com/document/472087793/Psychologie-consonantiste-vol-I-1938)
+
+### Immanuel Kant
+
+- **[T1-]** **Documented fact:** Kant appears in Odobleja’s 1938 historical classification of earlier psychological and philosophical systems. The connection is exclusively textual: Odobleja wrote about Kant as a predecessor, with no claim of institutional or personal transmission. [Digitized volume and indexed text](https://www.scribd.com/document/472087793/Psychologie-consonantiste-vol-I-1938)
+
+### Sigmund Freud
+
+- **[T3]** **Documented fact:** Odobleja directly engaged Freud’s psychoanalytic psychology in *Psychologie consonantiste* (1938), classifying it among psychologies of the unconscious and criticizing it from his own physical-energetic, consonantist standpoint. Odobleja later explicitly recalled, “I criticized Freud.” This was one-sided written engagement; no correspondence or meeting is documented. [Digitized 1938 volume](https://www.scribd.com/document/472087793/Psychologie-consonantiste-vol-I-1938), [later account quoting Odobleja](https://www.curteadelaarges.ro/arhiva/XIII_10_143/XIII_10_143.pdf)
+
+### Carl Gustav Jung
+
+- **[T3]** **Documented fact:** In *Psychologie consonantiste* (1938), Odobleja named Jung alongside Freud, Adler, Bleuler, and others within his critical classification of contemporary psychologies of the unconscious. The evidence supports one-sided textual engagement only; no meeting or correspondence between Jung and Odobleja has been identified. [Digitized volume and indexed passage](https://www.scribd.com/document/472087793/Psychologie-consonantiste-vol-I-1938)
+
+### Norbert Wiener
+
+- **[T1-]** **Documented fact:** After encountering Wiener’s cybernetic writings, Odobleja wrote extensively about Wiener and compared *Cybernetics* (1948) with his own *Psychologie consonantiste* (1938–1939). This culminated in *Psihologia consonantistă și cibernetica* (1978) and in comparative tables and congress papers asserting that his reversibility and circular-causation principles anticipated Wiener’s feedback framework. [Contemporary account of Odobleja’s comparison](https://www.bibliotecadeva.ro/periodice/flacara/1974/03/flacara_1974_03_13.pdf), [archival study of his recognition campaign](https://limbaromana.org/revista/cazul-odobleja-aspecte-ale-demersurilor-savantului-pentru-recunoa%C8%99terea-contribu%C8%9Biei-sale-in-fundamentarea-ciberneticii-ca-%C8%99tiin%C8%9B%C4%83/)
+- **[T3]** **Documented fact:** Odobleja’s published criticism and comparison constitute one-sided written engagement with Wiener’s work. No evidence establishes reciprocal engagement: no letter, meeting, citation, or other record has been found showing that Wiener knew Odobleja or read *Psychologie consonantiste*.
+- **[T9+]** **Allegation or theory:** Odobleja and later advocates proposed that copies, prospectuses, or knowledge of *Psychologie consonantiste* might have reached Wiener through the 1937 Bucharest military-medicine congress, American delegates, the Paris book trade, or the 1941 *Psychological Abstracts* notice. This would make Odobleja’s book a transmitted shared object, but no documented chain places a copy in Wiener’s possession; the proposed T9 crossing therefore remains an unproved transmission theory, not an established connection. [History of the claim](https://limbaromana.org/revista/cazul-odobleja-aspecte-ale-demersurilor-savantului-pentru-recunoa%C8%99terea-contribu%C8%9Biei-sale-in-fundamentarea-ciberneticii-ca-%C8%99tiin%C8%9B%C4%83/)
+
+No reliable evidence supports atlas connections to Alan Turing, Claude Shannon, John von Neumann, Stafford Beer, or the other listed figures merely because they belong to overlapping histories of cybernetics, computing, psychology, philosophy, or systems theory.
+
 ## Sources
 
 https://www.aos.ro/wp-content/misiunea/MISVol7Art.12.pdf

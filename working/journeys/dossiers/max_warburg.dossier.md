@@ -565,6 +565,40 @@ In 1949 Eric M. Warburg represented the family in a restitution settlement throu
 - **1949:** Family re-enters bank through restitution settlement.
 - **1952:** Eric privately publishes Max's *Aus meinen Aufzeichnungen*.
 
+## Atlas Connections
+
+### Aby Moritz Warburg
+
+- **[T3] Documented fact:** Max and his elder brother Aby maintained sustained personal and institutional correspondence. The Warburg Institute catalogue records, among other holdings, Max’s letters to Aby dated 29 November and 3 December 1927 concerning the Kulturwissenschaftliche Bibliothek Warburg’s finances and governance. [Warburg Institute Archive catalogue](https://warburg.sas.ac.uk/sites/default/files/WIA%20Section%20I.pdf)
+
+- **[T5] Documented fact:** The brothers knew one another throughout their lives, and Max became Aby’s principal financial supporter after their youthful agreement that Aby would relinquish the expected banking role in return for books. The bargain’s precise wording is a **reported family recollection**, but their sibling relationship, direct dealings, and Max’s continuing support are documented.
+
+- **[T9-] Documented fact:** Aby originated the Kulturwissenschaftliche Bibliothek Warburg; after Aby’s death in 1929, Max chaired its Hamburg governing committee and supported its transfer—books, photographs, papers, furnishings, and staff—to London in 1933. Max is the later party in this shared-object connection. [Warburg Institute history](https://warburg.sas.ac.uk/about-us/history-warburg-institute/transfer-warburg-institute)
+
+### Paul Moritz Warburg
+
+- **[T3] Documented fact:** Max and his younger brother Paul maintained extensive transatlantic family, banking, and political correspondence, including exchanges about wartime finance, German-American relations, and Jewish relief during the First World War. Their letters document conflicting national obligations rather than coordinated control of both governments. Relevant correspondence survives in the [Paul Moritz Warburg Papers at Yale](https://archives.yale.edu/repositories/12/resources/2983).
+
+- **[T5] Documented fact:** Max and Paul were brothers, banking colleagues, and recurring personal interlocutors. Paul joined M. M. Warburg & Co. in 1895 before settling in New York, while their later family and financial contacts linked the Hamburg bank with American banking networks.
+
+### Albert Einstein
+
+- **[T3] Documented fact:** Max and Einstein corresponded in 1930 about a proposed agricultural-colonization project for Eastern European Jews in Peru. Max wrote Einstein on 24 April after obtaining expert assessments and concluded that the proposal was impracticable; Einstein wrote to Max from Berlin on 7 July offering his name and assistance to promote or clarify the project. [Chronology of the Franz Oppenheimer papers](https://wiki.studiumdigitale.uni-frankfurt.de/SOZFRA/images/a/a3/FO_Chronik.pdf); [Einstein’s letter to Max Warburg](https://www.shapell.org/manuscript/einstein-1930-jewish-refugees-in-peru/)
+
+### Chaim Weizmann
+
+- **[T5] Documented fact:** Weizmann made a one-day personal visit to Max in Hamburg on 25 December 1929. In a confidential letter to Felix Warburg dated 26 December, Max described their extended discussion of Palestine, the Jewish Agency, political conditions, and relations among Zionists and non-Zionists. [American Jewish Archives publication of the letter](https://sites.americanjewisharchives.org/publications/journal/PDF/1999_51_01_02_doc_wentling.pdf)
+
+### Martin Buber
+
+- **[T3] Documented fact:** Max addressed a letter to Buber on 1 October 1933. The document is cited from the Max M. Warburg file at the Weizmann Institute of Science in scholarship on Hamburg Jewry; the surviving citation establishes one-sided written engagement, although the accessible source excerpt does not reproduce the letter’s full contents. [Published archival citation](https://igdj-hh.de/upload/freimark_preussen_hamburg.pdf)
+
+### David Ben-Gurion
+
+- **[T4] Documented fact:** At the Jewish Agency Council meeting in Lucerne in September 1935, Max participated in the proceedings and presented nominations for an Executive whose listed members included Ben-Gurion. This supports presence in the same specifically documented institutional session, but not by itself friendship or a separate personal meeting. [Contemporary meeting report](https://www.infocenters.co.il/jabo/jabo_multimedia/p316/10992.pdf)
+
+No additional roster crossings were included where the available evidence showed only broad contemporaneity, indirect family association, membership in related movements, or presence on opposing sides of a historical event without documented contact.
+
 ## Sources
 
 https://www.deutsche-biographie.de/gnd118806173.html

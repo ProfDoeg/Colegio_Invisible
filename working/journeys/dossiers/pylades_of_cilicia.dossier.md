@@ -388,6 +388,19 @@ Later elite criticism could condemn pantomime as luxurious, emotionally destabil
 
 The fullest defensible biography is short in personal facts but large in institutional consequences. Pylades was a Cilician migrant and probably a freedman who became an Augustan celebrity; reorganized older Greek dance materials into the grand Roman tragic pantomime; wrote a lost treatise; trained Hylas; competed with Bathyllus; mobilized a mass faction; was expelled from Italy amid disorder and recalled by Augustus; and became the archetypal intellectual master of silent tragic characterization. Everything beyond those propositions must be graded by source date and genre. His private life and death are unrecoverable.
 
+## Atlas Connections
+
+### Bathyllus of Alexandria
+
+- **[T5]** Pylades and Bathyllus were rival performers in Augustan Rome. Cassius Dio reports that Augustus rebuked Pylades for quarreling with Bathyllus, establishing a personal crossing rather than mere contemporaneity. Athenaeus additionally reports that the two jointly developed the “Italian” dance from comic, tragic, and satyric forms. **Evidentiary label: reported fact**—both accounts are retrospective ancient literary testimony; the collaboration is attributed by Athenaeus to Aristonicus, while Dio’s quarrel appears as a reported anecdote. [Cassius Dio, *Roman History* 54.17.5](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/54%2A.html); [Athenaeus, *Deipnosophists* 1.20d–e](https://upload.wikimedia.org/wikipedia/commons/5/50/The_Deipnosophists%2C_or%2C_Banquet_of_the_learned_of_Athenaeus_%28IA_deipnosophistsor01athe%29.pdf)
+
+### Hylas
+
+- **[T5]** Pylades was Hylas’s teacher in Augustan Rome and reportedly trained him until the pupil became an equal competitor; their subsequent rivalry divided the audience and provoked public disorder. **Evidentiary label: reported fact**—preserved only in Macrobius’ fifth-century anecdotal account. [Macrobius, *Saturnalia* 2.7.12–19](https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Macrobius/Saturnalia/2%2A.html)
+- **[T3]** Pylades reportedly watched Hylas perform Agamemnon and the blinded Oedipus, publicly criticized his interpretations, and then performed the Agamemnon passage himself when challenged by the audience. This is a documented ancient claim of one roster figure seeing and responding to the other’s performance, although not a contemporary record. **Evidentiary label: reported fact.** [Macrobius, *Saturnalia* 2.7.13–15](https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Macrobius/Saturnalia/2%2A.html)
+
+No other roster member has a securely supported crossing with the Augustan Pylades. Connections based only on shared chronology, geography, mythological repertoire, later reception, or the reuse of “Pylades” by unrelated performers have been excluded.
+
 ## Sources
 
 https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Augustus%2A.html

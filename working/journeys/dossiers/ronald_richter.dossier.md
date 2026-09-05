@@ -454,6 +454,22 @@ The strongest balanced conclusion is documentary, not moral: **Richter had genui
 - Marriage record for Richter and Ilse Aberdt; probate and burial records.
 - Documentation for Libya and other post-1955 travel/employment.
 
+## Atlas Connections
+
+### Juan Domingo Perón
+
+- **[T5] Documented fact.** Kurt Tank introduced Richter to President Perón in Buenos Aires on or about **24 August 1948**. Richter personally presented his fusion proposal, after which Perón became his principal patron, authorized and financed Proyecto Huemul, received reports from him, publicly announced his claimed success on **24 March 1951**, decorated him, and eventually ordered the project investigated and closed. Their repeated personal dealings are central to the surviving record. [University of Chicago historical study](https://knowledge.uchicago.edu/record/1553/files/Dunlap_uchicago_0330D_14048.pdf), [ITER history](https://www.iter.org/node/20687/proyecto-huemul-prank-started-it-all)
+
+### Eva Perón
+
+- **[T5] Documented fact, supplemented by reported fact.** Contemporary newsreel footage of the **1951 ceremony honoring Richter** shows Eva Perón together with Juan Perón, Richter, Richter’s wife, and government officials, establishing personal proximity at the event. In his 1984 interview Richter also recalled that Eva “did not treat” him well and believed she was annoyed with him, indicating personal dealings while leaving their extent and cause uncertain. [Academic study describing the newsreel](https://biblioteca-repositorio.clacso.edu.ar/bitstream/CLACSO/13008/1/plantear_utopias.pdf), [1984 interview scan](https://ahira.com.ar/wp-content/uploads/2025/10/El-Periodista_001.pdf)
+
+### Werner Heisenberg
+
+- **[T3] Reported fact.** During the controversy over Huemul, doubters within Perón’s entourage sought Heisenberg’s assessment of Richter’s claims. Heisenberg reportedly declined to conduct the evaluation himself and referred the inquiry to nuclear physicist Karl Wirtz. This constitutes one-sided expert engagement with Richter’s work; no personal meeting or direct Richter–Heisenberg correspondence has been established. [Juan G. Roederer’s account in *Physics Today*](https://aip.brightspotcdn.com/PTO.v56.i8.12_1.online.pdf)
+
+No other roster crossing was supported strongly enough to record. In particular, references to Richter’s later presence or employment in Libya do not document contact with **Muammar Gaddafi**, and shared scientific subject matter or published reactions by other roster physicists do not by themselves establish one of the specified connection types.
+
 ## Sources
 
 https://www.ib.edu.ar/sobre-el-ib/informe-sobre-la-isla-huemul/

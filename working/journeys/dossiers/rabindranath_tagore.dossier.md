@@ -514,6 +514,58 @@ In 2004 thieves stole the original Nobel medal and other objects from Rabindra B
 - **2001:** general Indian copyright term for his works expires after exceptional extension.
 - **2004:** original Nobel medal stolen; Swedish Academy later provides replicas.
 
+## Atlas Connections
+
+### Albert Einstein
+
+- **[T5] Documented fact:** Tagore and Einstein met repeatedly in Germany in 1930, including at Einstein’s home in Caputh on 14 July. Their recorded conversations addressed truth, reality, causality, music, and human consciousness; the Einstein Papers Project identifies surviving transcripts of at least two encounters. They were philosophical interlocutors, not scientific collaborators. [Einstein Papers Project](https://www.einstein.caltech.edu/news/vol-17-editor-reflection-Eisenthal)
+
+### Henri Bergson
+
+- **[T5] Documented fact:** Tagore met Bergson in France on 24 August 1920 while staying at Boulogne-sur-Seine; Bergson was among the intellectuals who visited him there. The evidence establishes personal contact, although claims of a sustained philosophical collaboration would exceed it. [Bibliothèque nationale de France](https://heritage.bnf.fr/france-southasia/tagore-en-france), [Rabindra Tirtha chronology](https://www.rabindratirtha-wbhidcoltd.co.in/Rabisarani/search)
+
+### Hermann Graf von Keyserling
+
+- **[T5] Documented fact:** Tagore met Keyserling in Calcutta around 1911–12, again in London in 1913, and at Keyserling’s “Tagore Week” in Darmstadt in June 1921. Their difficult association also produced correspondence extending into the 1930s: Rabindra Bhavana preserves twenty-two letters from Keyserling and at least one from Tagore. Keyserling publicly praised him, while Tagore privately resisted his domineering efforts to control access and interpretation. [Asiatic](https://journals.iium.edu.my/asiatic/index.php/ajell/article/view/527), [Scottish Centre of Tagore Studies](https://scotstagore.org/rabindranath-tagore-and-hermann-keyserling-a-difficult-friendship-by-martin-kaempchen/)
+
+### H. G. Wells
+
+- **[T5] Documented fact:** Tagore and Wells met in Geneva in June 1930 and held a recorded conversation about cultural difference, language, education, and the possibility of a worldwide civilization. A transcript preserves substantive statements by both men, making this more than mere shared presence. [Tagore–Wells transcript](https://mast.queensu.ca/~murty/Chapter7-8.pdf)
+
+### Mahatma Gandhi
+
+- **[T5] Documented fact:** Tagore and Gandhi first met in the Santiniketan period in 1915 and thereafter maintained a personal friendship marked by visits, correspondence, mutual honorifics, practical cooperation, and public disagreements. Their exchanges concerned nationalism, Non-Cooperation, education, machinery, caste, reason, and Gandhi’s 1932 fast. The familiar claim that Tagore uniquely coined “Mahatma” remains unproved because earlier uses of the title exist.
+
+### Maria Montessori
+
+- **[T3] Documented fact:** Tagore engaged directly with Montessori education, supported Montessori-oriented schools in Bengal, and exchanged letters with Maria Montessori from the 1920s onward. On 6 January 1940 he sent her a greeting after her arrival in India. This establishes written engagement independently of later claims about a meeting. [Association Montessori Internationale archives](https://archivesdev.montessori-ami.org/index.php/montessori-india), [History of Education Quarterly](https://www.cambridge.org/core/journals/history-of-education-quarterly/article/montessori-in-india-adapted-competing-and-contested-framings-19152021/600F08A014EEDF15D97CA88F9DA0F525)
+- **[T5] Reported fact:** The Association Montessori Internationale’s institutional biography states that Montessori met Tagore during her Indian residence, which began in 1939. The available institutional summary does not specify the meeting’s exact date or place. [Association Montessori Internationale](https://montessori-ami.org/node/1820)
+
+### Benito Mussolini
+
+- **[T5] Documented fact:** Tagore met Mussolini during the poet’s Fascist-sponsored Italian visit in May–June 1926. The regime publicized Tagore’s initially favorable remarks, but after anti-Fascist exiles supplied evidence of repression he repudiated Fascism publicly in August 1926. The meeting is documented; an enduring ideological alliance is not.
+
+### Nicholas Roerich
+
+- **[T3] Documented fact:** Tagore and Roerich maintained correspondence from approximately 1920 into the late 1930s. A 1931 Tagore letter praised Roerich’s cultural work, and Tagore later supported the principle behind the Roerich Pact for protecting cultural monuments. [Nicholas Roerich Museum correspondence archive](https://www.roerich.org/correspondence.php), [Nicholas Roerich Museum publication](https://nrm.s3.amazonaws.com/website/archive/02_About_Nicholas_Roerich/1974%20-%20Nicholas%20Roerich.%20%28Booklet%29%20NRM.pdf)
+- **[T5] Reported fact:** Biographical accounts place Tagore at Roerich’s London studio around 1920, initiating their personal acquaintance. The surviving correspondence is firmer evidence than later descriptions of the first meeting. [University of Latvia study](https://www.lu.lv/materiali/apgads/raksti/666.pdf)
+
+### Satyendra Nath Bose
+
+- **[T3] Documented fact:** Tagore dedicated his Bengali science book *Visva-Parichay* (1937) to physicist Satyendra Nath Bose. The dedication and their associated intellectual relationship represent direct written engagement, although Bose did not coauthor the book and Tagore was not his scientific collaborator.
+
+### Victoria Ocampo
+
+- **[T5] Documented fact:** Ocampo met the ill Tagore at Buenos Aires’s Plaza Hotel in November 1924 and arranged his extended residence at Miralrío in San Isidro through January 1925. Their friendship continued through letters and later meetings, including a final encounter in Paris in 1930. Ocampo helped organize Tagore’s first major European painting exhibition, while Tagore dedicated *Purabi* to her as “Vijaya.” Their emotional intimacy is documented; a sexual affair is not. [Scholarly study of the Tagore–Ocampo encounter](https://publications.iai.spk-berlin.de/servlets/MCRFileNodeServlet/Document_derivate_00002834/BIA_163_027_037.pdf)
+
+### W. B. Yeats
+
+- **[T5] Documented fact:** Tagore and Yeats met through William Rothenstein’s London literary circle in 1912. Yeats championed the English *Gitanjali*, read its poems publicly, and supplied its influential introduction. Their subsequent written and personal relationship deteriorated as Yeats became critical of Tagore’s later English translations and Western reception; Yeats was an advocate and editor-like adviser, not the author of Tagore’s poems.
+
+### Jorge Luis Borges
+
+- **[T1+] Documented fact:** Borges, the later figure, wrote about Tagore in a short notice published in the Buenos Aires magazine *El Hogar* on 10 February 1939. On Tagore’s dossier this carries the positive sign because Tagore is the earlier, written-about figure. Claims that Borges personally met Tagore during the latter’s 1924–25 Argentine stay remain unsupported: Victoria Ocampo’s accounts do not document such a meeting. [Study of Borges’s writings on Tagore](https://www.thedreamingmachine.com/borges-towards-tagore-frenzied-celebrations-and-reprobations-razu-alauddin/)
+
 ## Sources
 
 https://www.nobelprize.org/prizes/literature/1913/summary/

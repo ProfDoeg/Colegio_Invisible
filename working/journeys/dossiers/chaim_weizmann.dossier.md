@@ -578,6 +578,50 @@ Publication of his letters and modern biographies replaced the marble founder wi
 - Quotations were kept short and primarily paraphrased. Exact wording should be checked against the cited edition of *Letters and Papers* or *Trial and Error* before scholarly quotation.
 - No evidence located supports criminal convictions, formal corruption charges, addiction, or a clinical psychiatric diagnosis.
 
+## Atlas Connections
+
+### Ahad Ha’am
+
+- **[T5] Documented fact.** Weizmann formed a personal and intellectual friendship with Ahad Ha’am (Asher Ginzberg), particularly after both were established in Britain. Ahad Ha’am advised Weizmann and the British Zionist circle during the First World War, while his cultural Zionism substantially influenced Weizmann’s educational and institutional program. Their surviving papers document correspondence and consultation. [YIVO Encyclopedia](https://encyclopedia.yivo.org/article/631); [Ahad Ha’am Archive, National Library of Israel](https://www.nli.org.il/en/archives/NNL_ARCHIVE_AL990026192610205171/NLI)
+
+### Arthur James Balfour
+
+- **[T5] Documented fact; first-meeting date disputed.** Weizmann and Balfour met personally during Balfour’s Manchester political activity, conventionally dated to 1906 although some accounts give 1905. They subsequently held repeated discussions about Zionism. In 1917 Balfour requested Zionist input into the proposed British declaration, and the final declaration was issued over his signature. The relationship is certain; Weizmann’s polished retrospective dialogue about London, Jerusalem, and the Uganda proposal should not be treated as a verbatim record. [Hebrew University study of the first meeting](https://cris.huji.ac.il/en/publications/%D7%AA%D7%99%D7%90%D7%95%D7%A8-%D7%A4%D7%92%D7%99%D7%A9%D7%AA%D7%9D-%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%94-%D7%A9%D7%9C-%D7%95%D7%99%D7%99%D7%A6%D7%9E%D7%9F-%D7%95%D7%91%D7%9C%D7%A4%D7%95%D7%A8-1906-%D7%90%D7%92%D7%93%D7%94-%D7%90%D7%95-%D7%9E%D7%A6%D7%99%D7%90%D7%95%D7%AA/); [Balfour Declaration drafting history](https://time.com/4702147/balfour-drafts-1917/)
+
+### Clark McAdams Clifford
+
+- **[T3] Documented fact.** On 20 February 1949, Weizmann sent Clifford a signed letter thanking him for his part in securing President Truman’s recognition of Israel. Clifford had advocated recognition inside the White House, notably against Secretary of State George Marshall’s position during the 12 May 1948 meeting. [Weizmann–Clifford letter](https://www.shapell.org/collection/weizmann-chaim/); [Truman Library chronology](https://www.trumanlibrary.gov/library/online-collections/recognition-of-state-of-israel?section=1)
+
+### David Ben-Gurion
+
+- **[T3] Documented fact.** Weizmann and Ben-Gurion maintained extensive political correspondence and written exchanges as leaders of the Zionist Organization and Jewish Agency. A surviving exchange of 11–22 June 1942, involving Stephen Wise, addressed their widening strategic rift; in 1943 Weizmann also cabled Ben-Gurion inviting him to lead a Jewish Agency delegation in London and urging them to put aside prior differences. Their discourse continued after 1948, when President Weizmann formally entrusted Prime Minister Ben-Gurion with forming governments. [Contemporary report of the 1943 invitation](https://www.jta.org/archive/weizmann-invites-ben-gurion-to-london-urges-abandonment-of-past-differences); [National Library of Israel correspondence catalog](https://www.nli.org.il/en/a-topic/987007494015405171)
+
+### Albert Einstein
+
+- **[T5] Documented fact.** Weizmann and Einstein traveled together through the United States in 1921 to raise support for the projected Hebrew University. They subsequently met and corresponded repeatedly; documented encounters include Weizmann’s visit to Einstein’s Caputh home on 7 October 1931 and their Princeton meeting on 11 November 1947. Their cooperation was genuine despite recurring disagreements about nationalism and university governance. [Einstein biographical archive](https://einstein-website.de/en/weizmann-chaim/); [signed Hebrew University postcard](https://www.shapell.org/collection/weizmann-chaim/); [study documenting the 1947 Princeton meeting](https://pmc.ncbi.nlm.nih.gov/articles/PMC8948367/)
+
+### Martin Buber
+
+- **[T3] Documented fact.** Weizmann and Buber worked together in the Democratic Fraction at the Fifth Zionist Congress in Basel in 1901 and, with Berthold Feiwel, developed the campaign for a Jewish university. Their joint written program, commonly cited as *Eine jüdische Hochschule*, followed in the 1901–02 period. The collaboration was both organizational and textual, although Buber’s later binationalism diverged sharply from Weizmann’s political course. [Cambridge University Press excerpt](https://assets.cambridge.org/97811084/84350/excerpt/9781108484350_excerpt.pdf); [UCL study of the university campaign](https://discovery.ucl.ac.uk/id/eprint/10106866/1/Bamberger%20Thesis%20revised%20UCL%20DEPOSIT%2002.08.20.pdf)
+
+### Benito Mussolini
+
+- **[T5] Reported fact.** Mussolini received Weizmann in Rome in late September 1926. Their conference addressed Italian policy toward Zionist development, Arab–Jewish relations in Palestine, and Palestine–Italy trade. Contemporary reporting stated that Mussolini expressed support for the Zionist movement; that diplomatic expression should not be confused with opposition to Fascism’s later antisemitic alliance and racial legislation. [Contemporary Jewish Telegraphic Agency report, 4 October 1926](https://www.jta.org/archive/dr-weizmann-will-sail-for-new-york-oct-25-confers-with-mussolini)
+
+### J. Robert Oppenheimer
+
+- **[T5] Reported fact supported by contemporaneous correspondence and later testimony.** Weizmann met Oppenheimer and Einstein at Princeton on 11 November 1947 and discussed the possibility of constructing a nuclear reactor in the Yishuv. Weizmann referred to the encounter in a letter written the following day; Oppenheimer later told Ben-Gurion that he had advised Weizmann against the proposal. The Weizmann Archives apparently contain no minutes of the conversation, so its substance rests partly on Oppenheimer’s retrospective account. [Peer-reviewed historical study](https://pmc.ncbi.nlm.nih.gov/articles/PMC8948367/)
+
+### Theodor Herzl
+
+- **[T4] Documented fact.** Weizmann and Herzl occupied the same congress milieu at the Second Zionist Congress in Basel, beginning 28 August 1898, and at subsequent congresses through Herzl’s death in 1904. Weizmann belonged to the younger opposition that challenged Herzl’s leadership over cultural work, internal democracy, and eventually the British East Africa proposal. The shared congress setting is documented, but the available evidence reviewed here does not establish a specific private first meeting. [National Library of Israel congress history](https://www.nli.org.il/en/discover/israel/zionism/zionism-history/zionist-congress); [Second Zionist Congress account](https://blogs.timesofisrael.com/what-there-was-a-second-zionist-congress-why-herzls-remarks-at-it-matter/)
+
+### Ze’ev Jabotinsky
+
+- **[T3] Documented fact.** Weizmann and Jabotinsky corresponded directly while still cooperating within the Zionist movement. The Jabotinsky Institute catalogs, for example, Jabotinsky’s letter to Weizmann dated 28 November 1918, preserved from Central Zionist Archives file Z4/538. Their subsequent written and institutional engagement increasingly became adversarial as Revisionism broke with Weizmann’s gradualist, pro-British leadership. [Jabotinsky Institute archival record](https://en.jabotinsky.org/archive/catalog-of-files/?itemId=134115)
+
+No adequately supported T2 prophecy/hyperstition or T9 shared-object transmission was identified between Weizmann and the roster. Mere chronological overlap, common Jewish or Zionist subject matter, later use of the Weizmann Institute, and ideological inheritance—including the indirect Benjamin Netanyahu linkage—were not counted as crossings without evidence satisfying the specified connection types.
+
 ## Sources
 
 https://www.weizmann-archives.org.il/

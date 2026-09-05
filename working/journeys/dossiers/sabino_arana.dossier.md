@@ -634,6 +634,23 @@ The PNV retains Arana as founder while no longer enforcing his ancestry criteria
 | 1988 | Sabino Arana Fundazioa established. |
 | 2015 | Patxi Barko's television film *Sabin* broadcast; de la Granja publishes *Ángel o demonio*. |
 
+## Atlas Connections
+
+### Jesus of Nazareth
+
+- **[T1-] Documented fact:** Arana discussed Jesus as the originator of the Lord’s Prayer in *Análisis y corrección del Pater Noster del euzkera usual*, written for the Centro Vasco’s projected Basque-language inscription at the Carmelite convent traditionally marking the prayer’s delivery in the Holy Land; the study appeared in *Euzkadi* and as a separate Bilbao printing in 1902. [Contemporary bibliographic record and textual discussion](https://dialnet.unirioja.es/descarga/articulo/2004418.pdf)
+
+### José Martí
+
+- **[T1-] Documented fact:** Shortly after Martí’s death in Cuba, Arana’s “Rumores,” published in *Bizkaitarra* on 30 June 1895, reported that young Biscayans considering joining the Cuban separatist army had previously established relations with Martí. The article opposed their departure because Arana believed Basque patriots were needed in Biscay; it nevertheless placed Martí and the Cuban struggle within his written anti-colonial comparison. [Discussion reproducing the article’s date and substance](https://jakin.eus/show/4535edef7ef5cf2655a01ff478ed94b4c470964d)
+
+### José Antonio de Aguirre y Lecube
+
+- **[T1+] Documented fact:** Aguirre, born after Arana’s death, wrote the prologue to Pedro de Basaldúa’s *El libertador vasco: Sabino de Arana Goiri* (Buenos Aires, 1953). He presented Arana as the awakener of Basque national consciousness and defended his political legacy, making Arana the earlier, written-about figure in the pair. [Digitized prologue](https://www.sabinoaranagoiri.eus/PDF/PDFSS233.pdf)
+- **[T9+] Reported fact:** After the original Sabin Etxea—Arana’s birthplace and family home in Abando—was demolished, a roof tile recovered from the building was reportedly given to Aguirre. He retained it for the rest of his life, and it later entered the Museum of Basque Nationalism’s collection through a family donation. The tile therefore passed from a site directly associated with Arana to Aguirre without shared occupancy. [Account of the surviving object](https://conocebilbaoconesme.es/2023/01/15/museo-del-nacionalismo-vasco/)
+
+No adequately documented T2, T4, or T5 crossing with another roster member was found. Mere ideological descent, retrospective comparison, common geography, or overlapping lifetime has not been counted.
+
 ## Sources
 
 https://historia-hispanica.rah.es/biografias/2964-sabino-de-arana-goiri

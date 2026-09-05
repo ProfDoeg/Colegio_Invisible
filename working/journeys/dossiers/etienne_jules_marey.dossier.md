@@ -608,6 +608,19 @@ After Marey's death, Chauveau became director. Disputes arose between the indepe
 | 2004–2007 | Centenary exhibitions, scholarship, and large-scale film restoration. |
 | 2025–2026 | New Paris exhibition revisits chronophotography, science, art, labor, and comparative physiology. |
 
+## Atlas Connections
+
+### Eadweard Muybridge
+
+- **[T3] Documented fact:** After Muybridge’s 1878 horse photographs appeared in *La Nature*, Marey initiated contact through editor Gaston Tissandier; Muybridge subsequently sent him photographs, and the two maintained written engagement concerning animal locomotion and photographic methods. [University of Pennsylvania Archives](https://archives.upenn.edu/digitized-resources/docs-pubs/muybridge/correspondence-from/)
+- **[T5] Documented fact:** Marey personally hosted Muybridge at his boulevard Delessert residence in Paris on **26 September 1881**. Muybridge demonstrated his zoopraxiscope and projected motion sequences before Marey and invited scientists; Marey supplied interpretive commentary. [Study of the French reception of Muybridge](https://www.researchgate.net/publication/30430398_La_retine_du_savant)
+
+### Thomas Edison
+
+- **[T5] Documented fact:** Edison met Marey during his **August 1889** visit to the Paris Universal Exposition and examined Marey’s chronophotographic work, including sequential photography on a continuous roll. The meeting is securely documented, although claims that it alone caused Edison’s shift to roll film are disputed because Edison’s laboratory had already begun related experiments. [Library of Congress](https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-of-edison-motion-pictures/origins-of-motion-pictures/), [Junichi Fujita’s documentary reassessment](https://www.jstage.jst.go.jp/article/eizogaku/103/0/103_010304/_article/-char/en)
+
+No other roster crossing was included: broader affinities, later artistic influence, overlapping institutional membership, and mere contemporaneity were insufficient without evidence of one of the specified connection types.
+
 ## Sources
 
 https://numerabilis.u-paris.fr/medica/bibliotheque-numerique/presentations/marey/01.php

@@ -1321,6 +1321,22 @@ The source list below contains only URLs actually consulted or relied upon for t
 - **Federal and state agencies:** current commemorations, military recognition, Navy ship, Mint coins, and Maryland brigadier-general commission.
 - **Reuters / AP:** current status of the $20 redesign and 2024–25 memory controversies.
 
+## Atlas Connections
+
+### John Brown
+
+- **[T5]** **Documented fact:** Tubman and Brown first met in **April 1858 at St. Catharines, Canada West**. Brown called her “General Tubman” and subsequently worked with her on fundraising, recruitment, geographic intelligence, and preparations for his armed antislavery campaign. Tubman did not participate in the October 1859 Harpers Ferry raid. [National Park Service](https://www.nps.gov/hafe/learn/historyculture/when-john-brown-met-harriet-tubman.htm)
+
+- **[T3]** **Documented fact:** On **22 June 1858**, Brown wrote Frederick Douglass from Chicago on Tubman’s behalf, calling her his friend, contributing **$25** toward a proposed **$100** fund for a home for Tubman and her parents, and asking Douglass to help her raise money while traveling. This constitutes one-sided written engagement by Brown concerning Tubman rather than direct surviving Brown–Tubman correspondence. [Princeton University Library](https://library.princeton.edu/about/library-news/2023/pul-digitizes-letter-john-brown-frederick-douglass)
+
+- **[T2+ prediction]** **Reported fact:** In a recollection preserved by W. E. B. Du Bois and summarized by the National Park Service, Tubman said that shortly before meeting Brown she repeatedly dreamed of an old, white-bearded man and two younger men being struck down by a crowd. She identified the older figure with Brown after meeting him; later interpreters matched the dream retrospectively to the deaths of Brown’s sons **Oliver and Watson** during the 1859 Harpers Ferry raid and Brown’s subsequent execution. The dream experience is reported, but its interpretation as a fulfilled prophecy is retrospective rather than contemporaneously demonstrable. [National Park Service](https://www.nps.gov/hafe/learn/historyculture/when-john-brown-met-harriet-tubman.htm)
+
+### Andrew Jackson
+
+- **[T9-]** **Documented fact (proposed object, not issued):** On **20 April 2016**, the U.S. Treasury announced a planned redesigned **$20 Federal Reserve note** that would connect the later-honored Tubman with Jackson through one commemorative object: Tubman’s portrait was to appear on the front, while the reverse would retain the White House and an image of Jackson. Because Jackson’s association with the denomination preceded the proposed Tubman design, Tubman carries the later **T9−** sign. The design was announced but had not entered circulation by the dossier’s research cutoff. [U.S. Department of the Treasury](https://home.treasury.gov/news/press-releases/jl0436)
+
+No other roster member produced a supported crossing under the six specified types. In particular, no reliable evidence establishes a personal meeting or correspondence between Tubman and **Abraham Lincoln**; their shared Civil War context alone is insufficient for T3, T4, or T5. Tubman’s epithet “Moses” likewise reflects biblical analogy rather than a T1, T2, T3, T4, T5, or T9 connection to the roster’s Moses.
+
 ## Sources
 
 https://www.nps.gov/people/harriet-tubman.htm

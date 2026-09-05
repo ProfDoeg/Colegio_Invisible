@@ -1711,6 +1711,42 @@ Modern Balzac scholarship is therefore as much textual and bibliographical as bi
 
 ---
 
+## Atlas Connections
+
+### Emanuel Swedenborg
+
+- **[T1-] Documented fact:** Balzac wrote extensively about the earlier Swedish theologian in *Séraphîta* (composed 1833–1835), devoting a substantial passage to Swedenborg’s life, doctrines, visions, and reception. The novel was an important vehicle for introducing Swedenborgian ideas to Balzac’s French readership. [Persée](https://www.persee.fr/doc/caief_0571-5865_1963_num_15_1_2263), [Swedenborg Foundation](https://swedenborg.com/wp-content/uploads/2015/08/NCE_ScribeofHeaven.pdf)
+
+### Napoleon Bonaparte
+
+- **[T1-] Documented fact:** Balzac repeatedly wrote about the earlier emperor across *La Comédie humaine*, correspondence, and authorial self-presentation. Napoleon functions as a historical actor and as the defining model of post-Revolutionary ambition for characters such as Rastignac. The Fondation Napoléon accordingly catalogs Balzac among “authors of Napoleon” and has published a dedicated study of the Napoleonic myth constructed in his writing. [Fondation Napoléon bibliography](https://www.napoleon.org/en/history-of-the-two-empires/bibliographies/authors-of-napoleon/), [Fondation Napoléon study](https://www.napoleon.org/histoire-des-2-empires/articles/napoleon-vu-par-balzac-un-mythe-edifie-par-un-futur-empereur-des-lettres/)
+
+### Alexandre Dumas
+
+- **[T5] Documented fact:** Balzac and Dumas met within the Paris literary and salon world, including Delphine de Girardin’s salon. Their relations were sufficiently personal that Dumas served as one of Balzac’s pallbearers at the Paris funeral in August 1850. [Maison de Balzac / Paris Musées](https://www.parismuseescollections.paris.fr/en/node/127), [contemporary-biographical account](https://en.wikisource.org/wiki/Honore_de_Balzac%2C_His_Life_and_Writings/Chapter_XVII)
+
+### Victor Hugo
+
+- **[T5] Documented fact:** Hugo and Balzac met in the Paris literary milieu, including Delphine de Girardin’s salon. Hugo also visited the dying Balzac at rue Fortunée in August 1850, acted as a pallbearer, and delivered the funeral oration at Père-Lachaise. [Maison de Balzac / Paris Musées](https://www.parismuseescollections.paris.fr/en/node/127), [contemporary-biographical account](https://en.wikisource.org/wiki/Honore_de_Balzac%2C_His_Life_and_Writings/Chapter_XVII)
+
+- **[T1+] Documented fact:** As the later writer in this particular act of memorial writing, Hugo publicly interpreted Balzac’s life and achievement in the funeral address delivered in Paris on 21 August 1850; on Balzac’s dossier, Balzac is therefore the earlier, written-about figure. [Académie française](https://www.academie-francaise.fr/centenaire-de-la-mort-de-balzac-celebre-la-sorbonne)
+
+### Gustave Flaubert
+
+- **[T1+] Documented fact:** Flaubert discussed and evaluated the already-deceased Balzac in his correspondence, admiring the scale and social power of *La Comédie humaine* while criticizing Balzac’s prose style. The often-cited judgment that Balzac would have been a great man “if he had known how to write” belongs to this documented one-sided critical engagement, not to a personal meeting. [Cambridge University Press](https://assets.cambridge.org/97805218/15512/excerpt/9780521815512_excerpt.pdf)
+
+### Karl Marx
+
+- **[T1+] Documented fact:** Marx repeatedly read and wrote about Balzac after the novelist’s death. In an 1867 letter to Engels he praised *Le Chef-d’œuvre inconnu* and *Melmoth réconcilié* as masterpieces; other testimony records his projected study of *La Comédie humaine*. The surviving letter establishes the written engagement independently of the later report about the unrealized book. [Marx-Engels Gesamtausgabe](https://megadigital.bbaw.de/briefe/detail.xql?id=M0000231), [Cambridge University Press](https://assets.cambridge.org/97811070/66472/excerpt/9781107066472_excerpt.pdf)
+
+### Marcel Proust
+
+- **[T1+] Documented fact:** Proust made Balzac a sustained subject of literary criticism in the manuscripts and posthumously arranged texts collected as *Contre Sainte-Beuve*, including sections titled “Sainte-Beuve et Balzac” and “Le Balzac de M. de Guermantes.” This is a documented later writer’s analysis of the earlier novelist. [BnF resources on Proust](https://www.bnf.fr/fr/ressources-electroniques-sur-marcel-proust), [digitized contents of *Contre Sainte-Beuve*](https://fr.wikisource.org/wiki/Contre_Sainte-Beuve)
+
+### Roland Barthes
+
+- **[T1+] Documented fact:** Barthes devoted *S/Z* (Paris: Seuil, 1970) to an intensive structural and semiotic analysis of Balzac’s 1830 novella *Sarrasine*. The BnF catalog identifies Balzac and *Sarrasine* as the work’s subject and notes that the volume incorporates Balzac’s text. [BnF catalogue](https://catalogue.bnf.fr/ark%3A/12148/cb35218566v)
+
 ## Sources
 
 https://essentiels.bnf.fr/fr/article/64f35bd4-a784-460d-8ef1-0592d9eeb4d7-balzac-en-30-dates

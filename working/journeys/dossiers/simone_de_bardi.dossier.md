@@ -544,6 +544,14 @@ The most historically defensible legacy statement is therefore narrow: Simone wa
 - Identify a securely attributed death or burial record for Simone.
 - Determine whether account books document an individual share or office in the Bardi company.
 
+## Atlas Connections
+
+No qualifying connection to any atlas-roster figure is securely documented.
+
+The nearest candidate is **Dante Alighieri**, but no correspondence, meeting, shared proceeding, or other direct crossing between Dante and Simone is known. Simone’s marriage to Bice Portinari and their opposing Florentine political alignments establish an indirect biographical association, not one of the six specified connection types. Dante never names Simone or the Bardi family in his surviving works; placing both men in late-thirteenth-century Florence would rely only on contemporaneity and shared geography and therefore does not justify T3, T4, or T5. Simone’s identification as Bice’s husband is documented independently by Folco Portinari’s 1288 will and early commentary summarized by [Treccani](https://www.treccani.it/enciclopedia/simone-bardi_(Enciclopedia-Dantesca)/). Marco Santagata reconstructs Simone as a Black-aligned conspirator in May 1300 and Dante as a political opponent, but supplies no personal encounter between them; this remains contextual political opposition rather than a documented crossing ([Santagata, *Dante: The Story of His Life*](https://dokumen.pub/dante-the-story-of-his-life-9780674969988.html)).
+
+Accordingly, no tagged Atlas connection is entered.
+
 ## Sources
 
 https://www.treccani.it/enciclopedia/simone-bardi_(Enciclopedia-Dantesca)/

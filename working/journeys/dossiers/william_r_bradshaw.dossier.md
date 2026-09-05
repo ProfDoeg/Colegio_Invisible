@@ -470,6 +470,46 @@ Modern hollow-earth folklore sometimes absorbs Atvatabar into Agartha or hidden-
 | **15 June 2010** | Project Gutenberg releases eBook no. 32825. |
 | **12 June 2019** | LibriVox releases Nigel Fisher’s complete audiobook. |
 
+## Atlas Connections
+
+### Julius Caesar
+
+- **[T1-]** **Documented fact:** In *The Goddess of Atvatabar* (New York, 1892), Bradshaw has narrator Lexington White tell Lyone about “Caesar” while recounting the grandeur of Rome; the pairing with Hannibal, Cleopatra, and Antony contextually identifies Julius Caesar. This is a brief fictional-historical reference, not evidence of deeper study or influence. [Project Gutenberg text, chapter XXII](https://www.gutenberg.org/files/32825/32825-h/32825-h.htm)
+
+### Hannibal
+
+- **[T1-]** **Documented fact:** Bradshaw names Hannibal among the historical figures through whom White explains the outer world’s ancient Mediterranean history to Lyone in *The Goddess of Atvatabar* (1892). The treatment is only a passing reference. [Project Gutenberg text, chapter XXII](https://www.gutenberg.org/files/32825/32825-h/32825-h.htm)
+
+### Cleopatra VII
+
+- **[T1-]** **Documented fact:** Bradshaw’s fictional survey of world history in *The Goddess of Atvatabar* (1892) pairs Cleopatra with Antony during White’s account of Greece and Rome to Lyone. Nothing in the passage supports a connection beyond this authored reference. [Project Gutenberg text, chapter XXII](https://www.gutenberg.org/files/32825/32825-h/32825-h.htm)
+
+### Dante Alighieri
+
+- **[T1-]** **Documented fact:** Bradshaw refers to Dante three times in *The Goddess of Atvatabar* (1892): White names him among the outer world’s eminent figures, the narration attributes “A land whereon no shadow falls” to him, and a later passage introduces another two-line quotation with “as Dante says.” This is the roster’s clearest case of Bradshaw engaging a predecessor’s writing, although the novel supplies no titles or citations for the attributed lines. [Project Gutenberg text, chapters XXII, XXIV, and XXXVIII](https://www.gutenberg.org/files/32825/32825-h/32825-h.htm)
+
+### Christopher Columbus
+
+- **[T1-]** **Documented fact:** Columbus appears repeatedly in *The Goddess of Atvatabar* (1892). White includes him in his historical account to Lyone; another character compares discovery of the interior world with Columbus’s discovery of America; and a fictional newspaper declares White’s renown greater than that of Columbus and Magellan. These are literary comparisons within the novel, not claims of personal or institutional linkage. [Project Gutenberg text, chapters XXII, XLIV, and LIX](https://www.gutenberg.org/files/32825/32825-h/32825-h.htm)
+
+### Ferdinand Magellan
+
+- **[T1-]** **Documented fact:** Bradshaw writes Magellan into the geography and rhetoric of *The Goddess of Atvatabar* (1892): the *Polar King* traverses the Straits of Magellan, and a fictional newspaper later claims that Lexington White’s discovery overshadows the renown of Columbus and Magellan. [Project Gutenberg text, chapters III and XLIV](https://www.gutenberg.org/files/32825/32825-h/32825-h.htm)
+
+### Galileo Galilei
+
+- **[T1-]** **Documented fact:** Bradshaw names Galileo among the celebrated figures White uses to describe outer-world history, art, and invention to Lyone in *The Goddess of Atvatabar* (1892). The text provides no more specific discussion of Galileo’s discoveries or writings. [Project Gutenberg text, chapter XXII](https://www.gutenberg.org/files/32825/32825-h/32825-h.htm)
+
+### Michelangelo
+
+- **[T1-]** **Documented fact:** Under the contemporary spelling “Michael Angelo,” Michelangelo appears in White’s list of historically eminent artists, explorers, scientists, and writers in *The Goddess of Atvatabar* (1892). This is a documented but cursory authored reference. [Project Gutenberg text, chapter XXII](https://www.gutenberg.org/files/32825/32825-h/32825-h.htm)
+
+### Michael Faraday
+
+- **[T1-]** **Documented fact:** Bradshaw includes Faraday in White’s brief catalogue of important outer-world figures in *The Goddess of Atvatabar* (1892), in a discussion contrasting artistic and inventive development. No particular experiment, publication, or technology is attributed to Faraday there. [Project Gutenberg text, chapter XXII](https://www.gutenberg.org/files/32825/32825-h/32825-h.htm)
+
+No documented T2, T3, T4, T5, or T9 crossing with another roster member was located. In particular, Julian Hawthorne—not Bradshaw—names Plato, Ignatius Donnelly, Edward Bellamy, John Cleves Symmes Jr., Jules Verne, and Edward Bulwer-Lytton in his separately signed introduction to *Atvatabar*; those paratextual comparisons therefore do not establish that Bradshaw himself wrote about or corresponded with those roster figures. Later claims of generic influence or shared tradition, without evidence of direct engagement, have not been converted into atlas connections. [Hawthorne’s signed introduction](https://www.gutenberg.org/files/32825/32825-h/32825-h.htm)
+
 ## Sources
 
 https://archive.org/details/whoswhoinamerica02marq/page/124/mode/2up

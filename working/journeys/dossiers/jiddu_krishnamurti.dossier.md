@@ -668,6 +668,39 @@ None alone exhausts the evidence. The enduring historical fact is the unusual se
 - No reliable evidence was found for a personal Krishnamurti–Dion Fortune meeting or sustained correspondence.
 - Exact counts of books, events, recordings, translations, and sales vary because archival and editorial projects continue.
 
+## Atlas Connections
+
+### Annie Besant
+
+- **[T5] Documented fact:** Besant personally knew Krishnamurti from 1909, assumed responsibility for his upbringing and education, took him and Nitya to Britain in 1911, and became his guardian and surrogate mother. Their personal attachment survived his repudiation of the World Teacher organization; Besant remained devoted to him until her death in 1933. The institutional sequence is documented by the [Theosophical Society, Adyar](https://www.ts-adyar.org/j-krishnamurti-1895-1986) and the [1914 Privy Council judgment](https://www.casemine.com/judgement/in/56b49611607dba348f0166db).
+- **[T2- hyperstition] Documented fact, with metaphysical fulfillment unverified:** Besant proclaimed the coming World Teacher, promoted Krishnamurti as his prospective vehicle, installed him as head of the Order of the Star in the East, and built the international apparatus intended to produce public recognition of that role. The prophecy demonstrably helped manufacture Krishnamurti’s career and institutional identity, although his supernatural identification as Maitreya was never independently established and was ultimately rejected by him. [Theosophical Society account](https://www.ts-adyar.org/j-krishnamurti-1895-1986); [Harvard Center for the Study of World Religions](https://cswr.hds.harvard.edu/news/2026/07/01/jiddu-krishnamurtis-out-body-initiation).
+
+### Helena Petrovna Blavatsky
+
+- **[T2- hyperstition] Documented historical transmission; occult claim unverified:** Blavatsky died in 1891 and never knew Krishnamurti, but her late Theosophical expectation that the Society should prepare for a coming World Teacher was revived by Besant and Leadbeater and applied to him after 1909. That inherited expectation causally structured his selection, grooming, publicity, and Order of the Star role; it does not establish fulfillment of the prophecy in any supernatural sense. [Harvard Center for the Study of World Religions](https://cswr.hds.harvard.edu/news/2026/07/01/jiddu-krishnamurtis-out-body-initiation); [Theosophical Society, Adyar](https://www.ts-adyar.org/j-krishnamurti-1895-1986).
+
+### Dion Fortune
+
+- **[T3] Reported fact; no personal meeting established:** Fortune briefly participated in the Theosophical Society’s Christian Mystic Lodge, initially treated the expected World Teacher as a live possibility, and later wrote polemically against the Besant–Leadbeater tendency after the Krishnamurti project’s collapse. This is a one-sided engagement through the institutional controversy, not evidence of correspondence or face-to-face contact. The account is preserved in Alan Richardson’s biography, available through the [Internet Archive](https://archive.org/stream/priestess-alan-richardson-dion-fortune-biography/PRIESTESS%20Alan%20Richardson%20dion%20fortune%20biography_djvu.txt).
+
+### Mahatma Gandhi
+
+- **[T3] Documented fact:** In a letter dated 11 February 1929, Gandhi answered questions explicitly based on Krishnamurti’s formulations of life and the relation between individual and world problems, stating agreement with the latter proposition. Krishnamurti subsequently discussed Gandhi’s example and ideas in public talks, including at Madras on 22 and 26 October 1947. This establishes reciprocal written/public-discourse engagement, but the consulted record does not securely establish a personal meeting. [Gandhi’s collected works, vol. 45](https://library.bjp.org/jspui/bitstream/123456789/615/1/THE%20COLLECTED%20WORKS%20OF%20MAHATMA%20GANDHI%20-%20VOL%20%2845%29.PDF); [Krishnamurti’s 22 October 1947 talk](https://kfoundation.org/transcript/public-talk-1-madras-22-october-1947/); [26 October 1947 talk](https://kfoundation.org/transcript/public-talk-2-madras-26-october-1947/).
+
+### Indra Devi
+
+- **[T3] Reported fact:** Eugenie Peterson, later known as Indra Devi, attended the 1926 Theosophical gathering at Ommen and heard Krishnamurti speak and chant Sanskrit hymns. She later described the experience as a decisive “forgotten call” that intensified her determination to go to India. The evidence supports seeing him perform; it does not by itself establish friendship or a private meeting. [Russia Beyond biographical account](https://www.rbth.com/articles/2010/11/22/first_lady_of_yoga04910); [Theosophy Wiki biography](https://theosophy.wiki/en/Indra_Devi).
+
+### Nicholas Roerich
+
+- **[T3] Reported fact:** Nicholas and Helena Roerich rejected the Besant–Leadbeater claim that Krishnamurti was the vehicle of the World Teacher. Scholarship cites Helena Roerich’s secretary Zinaida Fosdik’s diary for this position, making it a one-sided written engagement with the Krishnamurti controversy; no personal encounter or correspondence between Nicholas Roerich and Krishnamurti is established. [Brill study of Roerich Theosophy](https://brill.com/previewpdf/book/edcoll/9789004235977/B9789004235977-s012.xml).
+
+### Rudolf Steiner
+
+- **[T3] Documented fact:** In 1911–13 Steiner publicly and textually opposed the teaching that Christ could return physically through Krishnamurti, arguing instead for the uniqueness of the incarnation in Jesus and a future “etheric” manifestation. His followers’ exclusion of Order of the Star members and Besant’s subsequent revocation of the German Section’s charter made Krishnamurti’s projected role a major issue in the Theosophy–Anthroposophy schism. This was a consequential one-sided doctrinal engagement; no sustained personal exchange between the two men is established. [Rudolf Steiner Archive](https://rsarchive.org/Books/GA015/English/AP1992/GA015_intro.html); [historical study of the World Teacher project](https://www.theosophyforward.com/pdf/Krishnamurti_and_the_World_teacher.pdf).
+
+No additional roster member was retained merely because of shared ideas, membership in a broad spiritual or intellectual milieu, contemporaneity, or later comparison by third parties. In particular, the consulted evidence did not establish a personal Krishnamurti crossing with Carl Jung, Sigmund Freud, Maria Montessori, W. B. Yeats, G. I. Gurdjieff, René Guénon, Rabindranath Tagore, or Nicholas Roerich beyond the one-sided Roerich engagement recorded above.
+
 ## Sources
 
 https://www.kfa.org/archives/

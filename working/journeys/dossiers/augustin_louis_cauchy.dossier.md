@@ -1787,6 +1787,34 @@ Cauchy's foundational place in analysis, complex analysis, group theory, differe
 
 ---
 
+## Atlas Connections
+
+### Joseph-Louis Lagrange
+
+- **[T5] Reported fact:** Lagrange visited the Cauchy family in Paris around 1800, examined or heard about the young Augustin-Louis’s mathematical work, and advised Louis-François Cauchy to give his son a strong classical education before advanced mathematics. This advice shaped Cauchy’s schooling at the École Centrale du Panthéon. ([MacTutor biography](https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/))
+
+### Pierre-Simon Laplace
+
+- **[T5] Reported fact:** Laplace was personally connected with Cauchy’s father and visited the family home during Augustin-Louis’s childhood. Cauchy consequently encountered Laplace before beginning his professional career; in 1810 he took Laplace’s *Mécanique céleste* with him to Cherbourg. ([MacTutor biography](https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/))
+
+### Évariste Galois
+
+- **[T3] Documented fact:** Galois submitted two algebraic papers through Cauchy to the Académie des sciences in Paris on **25 May and 1 June 1829**. Cauchy presented them to the Academy and was assigned referee responsibilities. Archival reconstruction indicates that Cauchy recognized their importance and intended to report on them; Galois probably withdrew and revised the papers in January 1830 for the Grand Prize competition. The later competition manuscript was entrusted to Fourier, so its disappearance cannot be attributed to Cauchy. ([EMS edition of Galois’s writings](https://ems.press/content/book-chapter-files/20742), [Académie des sciences retrospective](https://www.academie-sciences.fr/pdf/eloges/galois_tits.pdf))
+
+### Siméon-Denis Poisson
+
+- **[T3] Documented fact:** Cauchy and Poisson repeatedly engaged through Académie des sciences procedures. Most concretely, they were appointed together to examine one of Galois’s papers on **1 June 1829**. Poisson later opposed Cauchy’s 1839 candidacy for the Bureau des Longitudes, although Cauchy was elected and then prevented from serving by his refusal of the loyalty oath. ([EMS edition of Galois’s writings](https://ems.press/content/book-chapter-files/20742), [MacTutor biography](https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/))
+
+### Bernard Bolzano
+
+- **[T5] Documented fact:** Cauchy and Bolzano had one personal meeting in **Prague in 1834**, reportedly at Bolzano’s request, while Cauchy was attached to the exiled Bourbon court. This meeting later became evidence in an influence or plagiarism controversy, but Cauchy’s principal definitions of continuity and limits had appeared in 1821, thirteen years before the meeting. ([MacTutor biography](https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/), [study of the personal contacts](https://www.persee.fr/doc/rhs_0048-7996_1962_num_15_2_4418), [continuity and priority study](https://arxiv.org/abs/2005.13259))
+
+### Alexis de Tocqueville
+
+- **[T3] Documented fact:** In **1843**, Cauchy sent Tocqueville an opuscule concerning the prevention of crime. This was a one-sided written approach connecting Cauchy’s Catholic social activism with Tocqueville’s work on crime and penal reform; the evidence supports transmission of the text, not a friendship or personal meeting.
+
+No other roster crossing was included where the available evidence established only contemporaneity, shared geography, later mathematical influence, or a common intellectual tradition rather than one of the specified connection types.
+
 ## Sources
 
 https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/

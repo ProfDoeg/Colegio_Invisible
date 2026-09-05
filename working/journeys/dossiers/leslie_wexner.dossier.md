@@ -426,6 +426,31 @@ Wexner's record contains several simultaneously documentable legacies:
 - Corporate histories often repeat founder narratives produced by Wexner's institutions; hostile accounts sometimes convert association into guilt. Both tendencies were controlled by cross-checking against SEC filings, court/settlement records, and contemporaneous reporting.
 - A complete item-by-item catalog of every speech, interview, SEC signature, philanthropic letter, and television appearance would require access to closed corporate and broadcast archives. The works section therefore identifies the principal accessible corpus rather than pretending to exhaustive bibliographic completeness.
 
+## Atlas Connections
+
+### Jeffrey Epstein
+
+- **[T5] Documented fact:** Wexner retained Epstein as his financial adviser from approximately 1987 until 2007 and described him in 2003 as a loyal friend. In July 1991, Wexner granted Epstein broad power of attorney over his finances and property. Their relationship included repeated personal contact in Ohio, New York, Florida, and elsewhere. Wexner later said Epstein had defrauded him and that he terminated the relationship in 2007. [Associated Press](https://apnews.com/article/733833f6d648c09e6b3473eb1cd4009d)
+- **[T9+] Documented fact:** Several properties and assets passed from Wexner or Wexner-controlled interests to Epstein, most notably the Herbert N. Straus mansion at 9 East 71st Street in Manhattan. Wexner bought it in 1989; Epstein later occupied it, and title was formally transferred to an Epstein-controlled entity in 2011 without recorded cash consideration. The mansion is therefore a documented shared object/site, with Wexner preceding Epstein in its chain of ownership and use. [Vanity Fair](https://www.vanityfair.com/news/2021/06/inside-jeffrey-epsteins-decades-long-relationship-with-his-biggest-client)
+
+### Ghislaine Maxwell
+
+- **[T9+] Reported fact:** A New Albany guesthouse that Wexner had transferred to Epstein in 1992 subsequently became a site used by Maxwell and Epstein. Maria Farmer alleged that Maxwell and Epstein assaulted her there in summer 1996; Farmer said she never met Leslie Wexner, and no public finding establishes his presence or knowledge. The defensible crossing is therefore the property’s sequential connection to Wexner and Maxwell, not a proven personal meeting between them. [Washington Post](https://www.washingtonpost.com/business/economy/epstein-accuser-holds-victorias-secret-billionaire-responsible-as-he-keeps-his-distance/2019/10/05/1b6baf6c-d0d3-11e9-b29b-a528dc82154a_story.html)
+
+### Benjamin Netanyahu
+
+- **[T3] Documented fact:** Wexner attended Netanyahu’s 3 March 2015 address to a joint meeting of Congress in Washington, D.C., watching from the House gallery. He subsequently published a signed Wexner Foundation column describing the speech and his reaction to it. This supports both seeing the counterpart perform and one-sided written engagement, but not necessarily a personal meeting. [Wexner Foundation](https://www.wexnerfoundation.org/whatever-ones-politics-a-riveting-exercise-in-democracy/)
+
+### George W. Bush
+
+- **[T4] Documented fact:** President Bush designated Wexner a member of the United States honorary delegation attending Israel’s 60th-anniversary celebrations in Jerusalem on 14–15 May 2008. Contemporary reporting placed both men at the presidential conference events; the public record supports common official milieu and proximity, but does not by itself prove a private meeting or friendship. [George W. Bush White House Archives](https://georgewbush-whitehouse.archives.gov/news/releases/2008/05/20080512.html), [Washington Post](https://www.washingtonpost.com/archive/style/2008/05/15/for-israel-60-candles-and-many-luminaries/344bb2d2-047a-44b2-bea9-2dbb07c74978/)
+
+### Steven Spielberg
+
+- **[T3] Reported fact:** Spielberg participated in the Study Group, the Jewish-philanthropy forum co-founded and co-chaired by Wexner and Charles Bronfman. At the group’s April 1998 meeting in Manhattan, Spielberg addressed the participants about his personal religious journey before a discussion of Jewish summer camps. The reported event supports Wexner and Spielberg’s participation in the same organized discourse and Spielberg’s presentation to the Wexner-led group; it does not establish a separate friendship. [The American Prospect](https://prospect.org/2001/12/19/jews-parochial/)
+
+No other roster crossing was identified at a sufficiently documentary level to classify without relying on mere contemporaneity, broad institutional association, or speculative network claims.
+
 ## Sources
 
 https://achievement.org/achiever/leslie-h-wexner/

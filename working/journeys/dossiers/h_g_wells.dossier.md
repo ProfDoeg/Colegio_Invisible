@@ -813,6 +813,126 @@ No single reinterpretation cancels the others. Wells remains simultaneously an a
 - **2016** — 150th-birth anniversary; BBC *Future Tense* and renewed public reassessment.
 - **2026** — *Oxford Handbook of H. G. Wells* published online/print, reflecting continued scholarly expansion.
 
+## Atlas Connections
+
+The roster was checked conservatively. The entries below are supported by identifiable writings, correspondence, recorded conversations, photographs, or documented meetings. Mere contemporaneity, thematic similarity, later influence, and incidental name-checks have been excluded.
+
+### Abraham
+
+- **[T1-]** **Documented fact:** Wells treated Abraham as an ancestral Hebrew patriarch in the chapters on early Jewish history in *The Outline of History* (1919–20) and its condensation, *A Short History of the World* (1922). This is a later writer’s historical treatment of an earlier figure, not a personal crossing. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Alexander the Great
+
+- **[T1-]** **Documented fact:** Wells devoted a substantial section of *The Outline of History* to Alexander and an entire chapter of *A Short History of the World* to “The Empire of Alexander the Great,” interpreting his conquests as a portent—though an unsuccessful one—of political world-unification. [Primary text and contents](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Wells discussed Aristotle’s Lyceum, philosophy, scientific work, and position as Alexander’s tutor in *The Outline of History* and *A Short History of the World*. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Chaim Weizmann
+
+- **[T3]** **Documented fact:** During Wells’s late movement from anti-national assimilationism toward support for a Jewish homeland, he opened a correspondence with Zionist leader Chaim Weizmann. The exchange belongs to Wells’s final years, after his earlier hostile statements about Jewish collective nationalism; it documents written engagement, not a demonstrated friendship or meeting. The Wells correspondence archive is extensive but only representatively indexed online, so exact letter dates should be checked in the published correspondence or Illinois originals. [University of Illinois Wells archive](https://www.library.illinois.edu/rbx/Wellsdesc.html)
+
+### Charlemagne
+
+- **[T1-]** **Documented fact:** Wells treated Charlemagne’s conquests, imperial coronation, and the subsequent fragmentation of his empire in the medieval chapters of *The Outline of History* and *A Short History of the World*. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Charles Darwin
+
+- **[T1-]** **Documented fact:** Wells repeatedly wrote about Darwin as a decisive maker of the modern evolutionary worldview—in his histories of science, biological works, and autobiography. Darwinian evolution was also fundamental to Wells’s own intellectual formation, although Wells learned it most directly through T. H. Huxley rather than from Darwin personally.
+
+### Christopher Columbus
+
+- **[T1-]** **Documented fact:** Wells narrated Columbus’s westward voyage and its place in European overseas expansion in *The Outline of History* and *A Short History of the World*. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Constantine the Great
+
+- **[T1-]** **Documented fact:** Wells discussed Constantine’s conversion, imperial religious policy, and role in the political establishment of Christianity in *The Outline of History* and its shorter adaptation. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Albert Einstein
+
+- **[T4]** **Documented fact:** Einstein and Wells were present together at Wells’s 15 April 1929 address, “The Common Sense of World Peace,” in the Reichstag building in Berlin. A contemporary photograph places both men with German officials at the event. This securely establishes shared time and place; the available record does not justify enlarging it into a close scientific collaboration. [Contemporary report of the Reichstag address](https://www.theguardian.com/books/2021/apr/16/danger-of-drifting-into-war-hg-wells-addresses-reichstag-1929) [Photographic record](https://www.granger.com/results.asp?image=0196457)
+
+### Federico García Lorca
+
+- **[T3]** **Documented fact:** As president of International PEN, Wells sent a telegram in 1936 seeking information about García Lorca after the poet disappeared in Nationalist-held Granada. The inquiry was a one-sided written intervention on behalf of a persecuted writer; Lorca had already been murdered, although Wells and PEN did not yet know it.
+
+### Genghis Khan
+
+- **[T1-]** **Documented fact:** Wells wrote a sustained account of Genghis Khan and the Mongol conquests in *The Outline of History* and in the chapter “The Mongol Conquests” in *A Short History of the World*. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Mahatma Gandhi
+
+- **[T3]** **Documented fact:** In April 1940 Wells solicited Gandhi’s opinion of his proposed declaration of human rights. Gandhi replied by cable that Wells should begin with a declaration of the “duties of man,” after which rights would follow. The exchange was published during the international debate surrounding Wells’s rights campaign; it establishes direct correspondence, not a documented personal meeting. [Gandhi’s cable and editorial note](https://www.gandhipedia150.in/static/data/highlighted_pdfs_output/Ahmedabad_volume71_book_414.pdf) [Wells’s rights text in the Illinois collection](https://www.library.illinois.edu/rbx/hgwells2016/2016/09/the-rights-of-man-or-what-are-we-fighting-for-2/)
+
+### Hannibal
+
+- **[T1-]** **Documented fact:** Wells narrated Hannibal’s invasion of Italy, victories over Rome, and eventual defeat in his account of the Roman–Carthaginian struggle in *The Outline of History* and *A Short History of the World*. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Wells devoted substantial sections of *The Outline of History* and a chapter titled “The Teaching of Jesus” in *A Short History of the World* to Jesus, distinguishing the historical teacher and his ethical message from later doctrinal Christianity. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Julius Caesar
+
+- **[T1-]** **Documented fact:** Wells treated Caesar’s military career, dictatorship, assassination, and place in Rome’s transition from republic to empire in both *The Outline of History* and *A Short History of the World*. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Justinian I
+
+- **[T1-]** **Documented fact:** Wells discussed Justinian’s eastern Roman empire, wars of reconquest, legal codification, and relationship with Theodora in his account of the Byzantine and Sassanid worlds. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Karl Marx
+
+- **[T1-]** **Documented fact:** Wells repeatedly analyzed and criticized Marx’s doctrines, historical method, class analysis, and political afterlife. Extended treatments appear in *The Outline of History*, *The Work, Wealth and Happiness of Mankind*, *The Open Conspiracy*, and the published 1934 Stalin–Wells discussion. Wells identified as a socialist but rejected Marxist orthodoxy and class dictatorship.
+
+### Martin Luther
+
+- **[T1-]** **Documented fact:** Wells narrated Luther’s challenge to the papacy and his role in the Protestant Reformation in *The Outline of History* and the chapter “The Reformation of the Latin Church” in *A Short History of the World*. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Moses
+
+- **[T1-]** **Documented fact:** Wells discussed Moses, the Exodus tradition, Mosaic law, and the formation of Hebrew monotheism in his chapters on early Jewish history. He treated the surviving narrative historically and critically rather than simply reproducing it as scripture. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Muhammad
+
+- **[T1-]** **Documented fact:** Wells devoted a major portion of *The Outline of History* and a full chapter of *A Short History of the World*, “Muhammad and Islam,” to Muhammad’s preaching, political leadership, and the emergence of Islam. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Napoleon Bonaparte
+
+- **[T1-]** **Documented fact:** Wells wrote at length about Napoleon’s rise, wars, empire, defeat, and political legacy in *The Outline of History* and in the concluding portions of *A Short History of the World* dealing with the French Revolution and post-Napoleonic settlement. [Primary text and contents](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### George Orwell
+
+- **[T5]** **Documented fact:** Orwell and Wells met socially in wartime London, including a contentious 1941 supper associated with Inez Holden. Their larger crossing included Orwell’s August 1941 essay “Wells, Hitler and the World State,” Wells’s angry written response, and further criticism by Orwell. The meeting is therefore documented, while descriptions of the argument’s exact wording depend on participants’ recollections. [Orwell’s essay in his collected writings](https://lust-for-life.org/Lust-For-Life/_Textual/GeorgeOrwell_TheCollectedEssaysJournalismAndLettersOfGeorgeOrwell-VolumeII-MyCountryRightOrLeft-1940-1943_SoniaOrwell-IanAngus-editors_1970_327pp/GeorgeOrwell_TheCollectedEssaysJournalismAndLettersOfGeorgeOrwell-VolumeII-MyCountryRightOrLeft-1940-1943_SoniaOrwell-IanAngus-editors_1970_327pp.pdf) [Oxford research discussing the meeting and Wells’s letter](https://ora.ox.ac.uk/objects/uuid%3A32db08e5-47ce-4b45-9a80-abcbb37d1f9e/files/ma216ef7afec61fd61602cb99b72e504e)
+
+### Plato
+
+- **[T1-]** **Documented fact:** Wells wrote about Plato and the Academy in *The Outline of History* and engaged directly with Platonic political philosophy in *A Modern Utopia*. Plato supplied both a precedent for utopian social construction and a model against which Wells defined his own modern, evolutionary utopia. [Wells works index and *Outline* contents](https://www.gutenberg.org/files/57490/57490-h/57490-h.htm)
+
+### Rabindranath Tagore
+
+- **[T5]** **Documented fact:** Wells and Tagore met in Geneva in early June 1930 and conducted a recorded conversation about cultural difference, language, mechanization, education, and the prospect of a universal civilization. The published dialogue preserves direct reciprocal speech and establishes a personal meeting rather than merely parallel internationalism. [Dialogue reproduced from *A Tagore Reader*](https://schoolofwisdom.com/about/rabindranath-tagore-one-of-the-school-of-wisdoms-most-notable-teachers/tagore-and-h-g-wells/) [Tagore manuscript record referring to his meeting with Wells](https://bichitra.jdvu.ac.in/manuscript/manuscript_viewer.php?manid=449&mname=RBVBMS_329)
+
+### Thomas More
+
+- **[T1-]** **Documented fact:** Wells explicitly engaged More’s *Utopia* in *A Modern Utopia* (1905), treating it as an important predecessor while distinguishing Wells’s mobile, planetary, evolutionary state from More’s static island commonwealth.
+
+### Jules Verne
+
+- **[T1-]** **Documented fact:** Wells wrote retrospectively about Verne while distinguishing Verne’s extrapolative adventure machinery from his own “fantasies of possibility.” The comparison became central to later accounts of the origins of science fiction, but no well-supported personal meeting between Wells and Verne has been established.
+
+### William Morris
+
+- **[T1-]** **Documented fact:** Wells wrote retrospectively about Morris’s socialist lectures, personality, aesthetic politics, and influence on his student generation in *Experiment in Autobiography*. Wells had also attended Morris’s lectures during his South Kensington years; the surviving evidence supports attendance and later written recollection, but not a personal friendship.
+
+### George Washington
+
+- **[T1-]** **Documented fact:** Wells treated Washington’s military and political role in the American Revolution in *The Outline of History* and the chapter “The American War of Independence” in *A Short History of the World*. [Primary text](https://www.gutenberg.org/files/35461/35461-h/35461-h.htm)
+
+### Absence and exclusion note
+
+No secure T2 prophecy/hyperstition or T9 shared-object connection was established with a roster member. In particular, Wells’s fictional “atomic bombs” should not automatically be assigned as a T2 connection to Albert Einstein, Enrico Fermi, or J. Robert Oppenheimer: the documented causal testimony runs principally through Leó Szilárd, who is not on this roster, and does not by itself prove that Wells’s story caused any listed individual’s later work. Likewise, influence claims involving Borges, Lovecraft, Orwell, Tolkien, Philip K. Dick, Frank Herbert, Steven Spielberg, or later futurists do not constitute crossings under the specified taxonomy without direct written engagement, meeting, prophecy-causation, or a shared-object chain.
+
 ## Sources
 
 https://www.oxforddnb.com/display/10.1093/ref%3Aodnb/9780198614128.001.0001/odnb-9780198614128-e-36831

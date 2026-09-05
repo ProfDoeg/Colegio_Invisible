@@ -1685,6 +1685,43 @@ Every major expansion of surveillance, censorship, ideological policing, disinfo
 
 ---
 
+## Atlas Connections
+
+### Charles Dickens
+
+- **[T1-]** **Documented fact:** Orwell made Dickens the subject of the long critical essay “Charles Dickens,” written in 1939 and collected in *Inside the Whale and Other Essays* (1940). He analyzed Dickens’s social criticism, moral imagination, class position, and lack of a systematic political program; he returned to Dickens in later journalism, including “Can Socialists Be Happy?” ([Orwell Foundation](https://www.orwellfoundation.com/events/buxton-2010-the-greatest-political-writer-orwell-vs-dickens-2/)).
+
+### H. G. Wells
+
+- **[T3]** **Documented fact:** Orwell engaged directly and repeatedly with Wells’s writings and political ideas. His essay “Wells, Hitler and the World State,” published in *Horizon* in August 1941, argued that Wells’s rationalist-progressive worldview left him unable to understand Hitler and modern totalitarian politics; Orwell subsequently discussed Wells in a BBC talk and wrote an assessment after Wells’s death.
+- **[T5]** **Reported fact:** Orwell and Wells met socially in wartime London, including at a 1941 dinner attended by Orwell, Eileen Blair, Wells, and Inez Holden. Contemporary recollections agree that Orwell’s recently published criticism produced a heated argument, although accounts vary in detail ([documentary discussion](https://pq-static-content.proquest.com/collateral/media2/documents/2682.pdf), [historical reconstruction](https://kulturapress.com/2023/11/05/george-orwells-row-with-h-g-wells/)).
+
+### James Joyce
+
+- **[T3]** **Documented fact:** Orwell engaged extensively, though one-sidedly, with Joyce’s writing. In “Inside the Whale” (1940) he treated *Ulysses* as a decisive modern novel and praised Joyce’s command of ordinary physical and domestic detail; later comments continued to identify Joyce as a writer Orwell profoundly admired. No personal meeting or correspondence between them is established ([Orwell Foundation discussion](https://www.orwellfoundation.com/the-orwell-foundation/orwell/articles/d-j-taylor-an-oxfordshire-tomb/)).
+
+### Leon Trotsky
+
+- **[T3]** **Documented fact:** Orwell engaged repeatedly with Trotsky’s writings and political record from the Spanish Civil War onward. “Spilling the Spanish Beans” (1937), *Homage to Catalonia* (1938), later essays, and correspondence defended Trotsky and alleged “Trotskyists” against Stalinist fabrications while withholding endorsement of orthodox Trotskyism. Trotsky’s analysis of Soviet bureaucratic degeneration, particularly *The Revolution Betrayed*, also formed part of the intellectual background against which Orwell developed *Animal Farm* and *Nineteen Eighty-Four*. No personal meeting or correspondence is documented ([Orwell Society](https://orwellsociety.com/orwell-and-trotsky/)).
+
+### Mahatma Gandhi
+
+- **[T1-]** **Documented fact:** After Gandhi’s assassination in 1948, Orwell wrote “Reflections on Gandhi,” published in *Partisan Review* in January 1949. Drawing particularly on Gandhi’s autobiography, Orwell assessed his personal courage, asceticism, nonviolence, religious ethics, family demands, and political effectiveness, combining admiration with substantial criticism ([Orwell Foundation text](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/reflections-on-gandhi/)).
+
+### Oscar Wilde
+
+- **[T1-]** **Documented fact:** Orwell reviewed Wilde’s *The Soul of Man under Socialism* for *The Observer* on 8 May 1948. He treated Wilde as an unusually perceptive critic of authoritarian tendencies within socialism while examining the limitations of Wilde’s individualist-anarchist vision ([reproduced discussion of Orwell’s review](https://www.theguardian.com/commentisfree/2013/jan/27/george-orwell-assesses-oscar-wilde-socialism)).
+
+### W. B. Yeats
+
+- **[T1-]** **Documented fact:** Orwell wrote the critical essay “W. B. Yeats,” published in *Horizon* in January 1943, four years after Yeats’s death. Reviewing V. K. Narayana Menon’s study of the poet, Orwell examined both Yeats’s literary achievement and what Orwell regarded as the authoritarian, aristocratic, occult, and proto-fascist tendencies in his later politics ([Orwell Foundation index](https://www.orwellfoundation.com/the-orwell-foundation/orwell/poetry/)).
+
+### Albert Camus
+
+- **[T3]** **Documented fact:** Orwell and Camus engaged with one another’s work at a distance. Orwell discussed Camus in an April 1946 letter to *Partisan Review* editor Philip Rahv, while surviving Camus material records his recognition of Orwell as a politically kindred English writer. A meeting was arranged at Les Deux Magots in Paris in 1945, but Camus’s illness prevented it; consequently this does **not** qualify as a personal meeting or shared-occupancy connection ([historical account](https://www.theguardian.com/books/2003/may/11/georgeorwell.classics), [scholarly discussion](https://www.tandfonline.com/doi/abs/10.1080/10848770.2025.2549611)).
+
+No additional roster crossings were included where the available evidence showed only influence asserted by later commentators, mere contemporaneity, incidental mention, shared subject matter, or an uncompleted possibility of contact.
+
 ## Sources
 
 https://www.orwellfoundation.com/the-orwell-foundation/orwell/biography/

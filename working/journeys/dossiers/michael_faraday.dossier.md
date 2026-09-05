@@ -490,6 +490,41 @@ Faraday’s canonical status has also generated tension. “Genius without mathe
 - Formal documentary proof is lacking for an offered knighthood, a formal Abbey burial offer, the Gladstone taxation quip, and the sole negative Royal Society voter.
 - The article-level bibliography is too large for complete reproduction here. The works section identifies the principal authored, collected, edited, manuscript, and public-text corpora and flags their editorial status.
 
+## Atlas Connections
+
+### Ada Lovelace
+
+- **[T5]** **Documented fact:** Faraday and Lovelace met personally in London by 1843. Charles Babbage recalled their “first interview” in his drawing room, while Lovelace later referred to the hours she and Faraday had spent together and proposed further evening conversations about “business & science.” ([Babbage to Faraday, 9 September 1843](https://epsilon.ac.uk/view/faraday/letters/Faraday1520); [Lovelace to Faraday, 1 December 1844](https://epsilon.ac.uk/view/faraday/letters/Faraday1655))
+- **[T3]** **Documented fact:** They exchanged letters and scientific writings in 1840–44. Lovelace closely read Faraday’s 1844 paper on electrical conduction, proposed studying his *Experimental Researches* under his guidance, and contemplated writing a review or abstract of them; Faraday’s surviving replies confirm reciprocal correspondence. The projected scientific cooperation and review do not appear to have been completed. ([Faraday to Lovelace, 11 June 1840](https://epsilon.ac.uk/view/faraday/letters/Faraday1291); [Lovelace to Faraday, 16 October 1844](https://epsilon.ac.uk/view/faraday/letters/Faraday1620); [Lovelace to Faraday, 24 October 1844](https://epsilon.ac.uk/view/faraday/letters/Faraday1632))
+
+### Alexander von Humboldt
+
+- **[T5]** **Reported fact:** Faraday encountered Humboldt during Humphry Davy’s Continental tour of 1813–15, within the Parisian scientific milieu in which the Davy party met members of the Institut and other European savants. The evidence supports a personal introduction or encounter, but not a sustained collaboration or friendship.
+
+### Charles Babbage
+
+- **[T5]** **Documented fact:** Faraday and Babbage were personally acquainted in London by the early 1830s and addressed one another in familiar terms. Babbage hosted Faraday’s first meeting with Ada Lovelace in his drawing room before September 1843. ([Babbage to Faraday, 9 September 1843](https://epsilon.ac.uk/view/faraday/letters/Faraday1520))
+- **[T3]** **Documented fact:** Their surviving correspondence covers chemistry, instruments, Babbage’s calculating engines, Royal Institution affairs, and Faraday’s electrical research. On 30 January 1832 Faraday reported analyzing a shilling for Babbage, sent him his induction paper, and solicited his opinion while explicitly referring to the Difference Engine; in 1848 he offered to demonstrate magnetic rotation effects for him. ([Faraday to Babbage, 30 January 1832](https://epsilon.ac.uk/view/faraday/letters/Faraday0537); [Faraday to Babbage, 9 November 1848](https://epsilon.ac.uk/view/faraday/letters/Faraday2120))
+
+### Charles Dickens
+
+- **[T3]** **Documented fact:** Dickens corresponded with Faraday in May 1850 about adapting or reporting Faraday’s lectures, including material on the candle and the domestic “breakfast table” lecture course. Dickens asked permission for his subeditor to attend Faraday’s Royal Institution lecture of 1 June 1850 and described the exchange as the hoped-for beginning of personal acquaintance. The letter proves written engagement; by itself it does not prove that Dickens attended that particular lecture. ([Dickens to Faraday, 31 May 1850](https://epsilon.ac.uk/view/faraday/letters/Faraday2292))
+
+### George Gabriel Stokes
+
+- **[T3]** **Documented fact:** Faraday and Stokes exchanged scientific correspondence, especially about optics and electrical conduction. On 8 January 1853 Stokes corrected an experimental detail from an earlier letter and proposed performing an optical experiment jointly with Faraday at the Royal Institution, while allowing that it might instead be conducted at Cambridge. The proposal is documented; its execution at the Ri is not established by this letter. ([Stokes to Faraday, 8 January 1853](https://epsilon.ac.uk/view/faraday/letters/Faraday2617); [Royal Institution correspondence overview](https://www.rigb.org/explore-science/explore/collection/michael-faradays-correspondence))
+
+### James Clerk Maxwell
+
+- **[T3]** **Documented fact:** Faraday and Maxwell corresponded directly about field theory, dielectric induction, conservation of force, magnetism, optics, and experimental measurements. Maxwell’s letters explicitly developed mathematical and mechanical conceptions from Faraday’s experimental research; Faraday, in turn, asked questions and responded to Maxwell’s results. Surviving examples run at least from 1857 to 1861. ([Maxwell to Faraday, 9 November 1857](https://epsilon.ac.uk/view/faraday/letters/Faraday3354); [Faraday to Maxwell, 23 May 1861](https://epsilon.ac.uk/view/faraday/letters/Faraday4007); [Maxwell to Faraday, 19 October 1861](https://epsilon.ac.uk/view/faraday/letters/Faraday4081))
+
+### William Thomson (Lord Kelvin)
+
+- **[T5]** **Documented fact:** Faraday and Thomson met personally by 5 June 1847, when they discussed electrical and magnetic theory; Thomson’s ensuing letter also requested access to Royal Institution apparatus. Thomson separately recalled having attended Faraday’s lectures. ([Thomson to Faraday, 11 June 1847](https://epsilon.ac.uk/view/faraday/letters/Faraday1998); [Thomson to Faraday, 21 April 1849](https://epsilon.ac.uk/view/faraday/letters/Faraday2169))
+- **[T3]** **Documented fact:** Their sustained correspondence began by 1845 and joined Faraday’s experimental work on dielectrics, polarized light, and electromagnetism to Thomson’s mathematical treatment of fields and magneto-optics. Faraday answered Thomson’s questions with references to experiments and negative results, while Thomson sent theoretical papers and interpretations. ([Faraday to Thomson, 8 August 1845](https://epsilon.ac.uk/view/faraday/letters/Faraday1767); [Thomson to Faraday, 11 June 1847](https://epsilon.ac.uk/view/faraday/letters/Faraday1998); [Faraday to Thomson, 8 December 1859](https://epsilon.ac.uk/view/faraday/letters/Faraday3693))
+
+No qualifying T2 prophecy/hyperstition or T9 shared-object transmission was established with the roster. The familiar Faraday–Tesla and Faraday–Einstein relationships are posthumous intellectual or technological lineages, not personal crossings and not, without a specific transmitted object or authored engagement, one of the six defined connection types.
+
 ## Sources
 
 https://www.rigb.org/explore-science/explore/person/michael-faraday-1791-1867

@@ -605,6 +605,84 @@ The 1941 Tura discovery and 2012 Munich identification demonstrated that the cor
 | 2012 | Marina Molin Pradel identifies twenty-nine Greek Psalm homilies in Munich Cod. graec. 314. |
 | 2020s | New editions, translations, and Origeniana research continue to revise corpus and reception history. |
 
+## Atlas Connections
+
+### Abraham
+
+- **[T1-]** **Documented fact:** Origen interpreted Abraham extensively in his *Commentary* and *Homilies on Genesis*, begun at Alexandria and continued during his Caesarean career (c. 220s–240s); he also defended Abraham’s ancestral and religious significance in *Against Celsus* 4.33–35 (c. 248, Caesarea). [Origen, *Against Celsus* 4](https://www.newadvent.org/fathers/04164.htm)
+
+### Aaron the Levite
+
+- **[T1-]** **Documented fact:** Origen repeatedly treated Aaron’s priesthood, vestments, sacrifices, and relationship to Moses in his Caesarean *Homilies on Exodus*, *Leviticus*, and *Numbers*, generally interpreting Aaronic institutions typologically in relation to Christ and the Church. The connection is textual, not historical contact.
+
+### Noah
+
+- **[T1-]** **Documented fact:** Origen devoted his second *Homily on Genesis* to Noah’s ark and returned to Noah in his homilies on Ezekiel, where he interpreted Ezekiel’s triad of Noah, Daniel, and Job. These sermons belong to his third-century exegetical ministry, principally associated with Caesarea. [Origen, *Homilies on Genesis and Exodus*](https://static1.squarespace.com/static/5d7fd6172ce70f2732bc7dd0/t/65e8a0d73614cf0867d8fac2/1709744343774/Origen%2B-%2BGenesis%2BHomily%2BII.pdf) [Origen, *Homilies on Ezekiel*](https://www.roger-pearse.com/weblog/wp-content/uploads/2018/07/Origen-Homilies_on_Ezekiel-ed_Hooker-2014.pdf)
+
+### Moses
+
+- **[T1-]** **Documented fact:** Moses was a major subject throughout Origen’s commentaries and homilies on the Pentateuch and in *Against Celsus*. Origen defended Moses as legislator and theologian against Celsus while interpreting Mosaic law spiritually for Christians; this work spans Alexandria and Caesarea, c. 220s–248. [Origen, *Against Celsus* 1](https://www.newadvent.org/fathers/04161.htm) [Origen, *Against Celsus* 3](https://www.newadvent.org/fathers/04163.htm)
+
+### King David
+
+- **[T1-]** **Documented fact:** Origen wrote commentaries, scholia, and numerous homilies on the Psalms attributed to David, from his Alexandrian period through his final Caesarean years. The twenty-nine Greek Psalm homilies recovered in Munich Cod. graec. 314 materially document this engagement. [Eusebius on Origen’s scriptural works](https://www.clarehall.cam.ac.uk/wp-content/uploads/2022/08/Eusebius_selected.pdf) [CUA Press, *Homilies on the Psalms*](https://www.cuapress.org/9780813233192/homilies-on-the-psalms/)
+
+### Solomon
+
+- **[T1-]** **Documented fact:** Origen treated Solomon as the scriptural authorial persona behind Proverbs, Ecclesiastes, and the Song of Songs. His early and mature commentaries and homilies on the Song—completed after work at Athens, probably in the 240s—made Solomon’s poetry a principal vehicle for ecclesial and mystical interpretation. [Eusebius on Origen’s scriptural works](https://www.clarehall.cam.ac.uk/wp-content/uploads/2022/08/Eusebius_selected.pdf)
+
+### Ezekiel son of Buzi
+
+- **[T1-]** **Documented fact:** Origen composed a large *Commentary on Ezekiel* and preached surviving *Homilies on Ezekiel*. He worked on the commentary at Athens and Caesarea in the late 230s or 240s, interpreting Ezekiel historically, morally, and Christologically. [Origen, *Homilies on Ezekiel*](https://www.roger-pearse.com/weblog/wp-content/uploads/2018/07/Origen-Homilies_on_Ezekiel-ed_Hooker-2014.pdf)
+
+### Jesus of Nazareth
+
+- **[T1-]** **Documented fact:** Jesus is the central subject of Origen’s *Commentaries on John* and *Matthew*, his homilies on Luke, *On First Principles*, and *Against Celsus*. Across Alexandria and Caesarea, c. 218–249, Origen wrote about Jesus’s historical ministry, eternal identity as Logos, incarnation, teaching, death, and resurrection. [Origen, *Commentary on Matthew* 12](https://www.newadvent.org/fathers/101612.htm) [Origen, *Against Celsus*](https://www.newadvent.org/fathers/0416.htm)
+
+### Paul the Apostle
+
+- **[T1-]** **Documented fact:** Origen wrote a fifteen-book *Commentary on Romans*, commentaries on several other Pauline epistles, and repeatedly interpreted Paul in *On First Principles* and *Against Celsus*. His engagement with Paul extended from the Alexandrian period into his Caesarean teaching and preaching. [Origen, *Against Celsus* 3](https://www.newadvent.org/fathers/04163.htm)
+
+### Peter the Apostle
+
+- **[T1-]** **Documented fact:** Origen wrote extensively about Peter in his Gospel commentaries, especially while interpreting Peter’s confession and the “rock” saying in *Commentary on Matthew* 12. He also discussed Peter’s occupation and apostolic role in *Against Celsus* 1.62. [Origen, *Commentary on Matthew* 12](https://www.newadvent.org/fathers/101612.htm) [Origen, *Against Celsus* 1](https://www.newadvent.org/fathers/04161.htm)
+
+### Plato
+
+- **[T1-]** **Documented fact:** Origen repeatedly quoted, compared, and criticized Plato, most explicitly in *Against Celsus* (c. 248). He acknowledged points of agreement—including incorporeal theology—while arguing that biblical revelation surpassed Platonic teaching. [Origen, *Against Celsus* 7.42–43](https://www.newadvent.org/fathers/04167.htm)
+
+### Aristotle
+
+- **[T1-]** **Documented fact:** Origen explicitly discussed Aristotle as Plato’s dissident pupil and founder of a separate philosophical school in *Against Celsus* 3.12–13. Aristotle and Peripatetic reasoning also formed part of the philosophical environment Origen examined for Christian students. [Origen, *Against Celsus* 3](https://www.newadvent.org/fathers/04163.htm)
+
+### Homer
+
+- **[T1-]** **Documented fact:** Origen discussed Homer’s poetry and theology in *Against Celsus*, contrasting Homeric stories of divine violence and sexual misconduct with Mosaic teaching and invoking Plato’s exclusion of Homer from the ideal city. This was written at Caesarea around 248. [Origen, *Against Celsus* 4.36](https://www.newadvent.org/fathers/04164.htm)
+
+### Hesiod of Ascra
+
+- **[T1-]** **Documented fact:** In *Against Celsus* 4.36, Origen named Hesiod alongside Homer and criticized the Greek theogonies for attributing generation and morally scandalous conduct to the gods. [Origen, *Against Celsus* 4](https://www.newadvent.org/fathers/04164.htm)
+
+### Zoroaster
+
+- **[T1-]** **Documented fact:** Origen addressed Zoroaster in *Against Celsus* 1.16 while reproducing and contesting Celsus’s catalogue of ancient sages. The notice documents written engagement but does not show access to authentic Zoroastrian writings. [Origen, *Against Celsus* 1](https://www.newadvent.org/fathers/04161.htm)
+
+### Flavius Josephus
+
+- **[T1-]** **Documented fact:** Origen cited Josephus by name and recommended his two books *On the Antiquity of the Jews*—now called *Against Apion*—as evidence for Jewish antiquity in *Against Celsus* 1.16. Elsewhere he cited Josephus concerning John the Baptist, James, and Jerusalem’s destruction, although the exact textual history of some passages is disputed. [Origen, *Against Celsus* 1](https://www.newadvent.org/fathers/04161.htm)
+
+### Augustine of Hippo
+
+- **[T1+]** **Documented fact:** Augustine wrote critically about doctrines attributed to Origen. In correspondence with Jerome around 397 he requested a clearer account of Origen’s condemned errors; in *On the Proceedings of Pelagius* (417) he associated Origen with the proposition that postmortem punishment might end. [Augustine, Letter 40](https://www.newadvent.org/fathers/1102040.htm) [Augustine, *On the Proceedings of Pelagius*](https://www.newadvent.org/fathers/1505.htm)
+
+### Thomas Aquinas
+
+- **[T1+]** **Documented fact:** Aquinas incorporated numerous passages explicitly attributed to Origen into the *Catena Aurea*, his Gospel commentary compiled c. 1262–1268. The work places Origen’s interpretations in a continuous patristic chain, including substantial excerpts from the commentaries on Matthew and John. [Aquinas, *Catena Aurea* on Matthew](https://ccel.org/ccel/aquinas/catena1.ii.xvi.html) [Aquinas, *Catena Aurea* on John](https://www.fisheaters.com/srpdf/xaquinas-john.pdf)
+
+### Justinian I
+
+- **[T1+]** **Documented fact:** Emperor Justinian wrote or promulgated a lengthy theological edict addressed to Patriarch Mennas in 543, summarizing and refuting propositions attributed to Origen and appending anti-Origenist anathemas. The document is a direct posthumous written engagement, although some condemned propositions more accurately represent later Origenism than securely recoverable teachings of Origen himself. [Justinian’s edict and anathemas](https://www.ldysinger.com/%40magist/0543-53_an-orig/03_anath_543-53.htm) [Richard Price, *Acts of Constantinople II*, anti-Origenist documents](https://afkimel.wordpress.com/wp-content/uploads/2024/07/the-acts-of-the-council-of-constantinople-of-553-2-vol-edited-and-translated-by-richard-price-translated-texts-for-historians-volume-51-2009-9781846311789-da31e1d5d5690161fc03aafa9daef89.pdf)
+
 ## Sources
 
 https://www.newadvent.org/fathers/250106.htm

@@ -649,6 +649,15 @@ The following questions remain open and are suitable for archival investigation:
 | **1990s** | Novick and Piccioni's archival research revives his historiographical standing. |
 | **2021** | CEDODAL publishes major family-supported documentary monograph. |
 
+## Atlas Connections
+
+### Le Corbusier
+
+- **[T5] Documented fact.** Della Paolera met Le Corbusier during the architect’s 1929 visit to Buenos Aires; architectural historian Ramón Gutiérrez explicitly describes a personal relationship and identifies Della Paolera as one of Le Corbusier’s local interlocutors. [Gutiérrez, *Le Corbusier en Buenos Aires*](https://s3-sa-east-1.amazonaws.com/modernabuenosaires/textos/36_Gutierrez.pdf)
+- **[T1−] Documented fact.** As the later writer, Della Paolera discussed and criticized Le Corbusier’s planning doctrine, rejecting schemes that made a clean sweep of urban history and invoking criticism of Le Corbusier’s Moscow proposal: a city should be reconstructed, he argued, rather than annihilated. [Academic discussion and citations](https://dialnet.unirioja.es/descarga/articulo/4399088.pdf)
+
+No other roster crossing was found that met the specified evidentiary threshold. In particular, kinship with Juan Antonio Buschiazzo and indirect intellectual influence from Henri Bergson are documented, but neither by itself establishes one of the six permitted connection types without inferring a meeting or direct written engagement.
+
 ## Sources
 
 https://es.scribd.com/document/936236969/Carlos-Maria-Della-Paolera
