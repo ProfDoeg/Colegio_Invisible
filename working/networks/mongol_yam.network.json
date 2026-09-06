@@ -1,0 +1,868 @@
+{
+  "network": "The Mongol Yam",
+  "slug": "mongol_yam",
+  "title": "An empire ridden in relays: the Mongol Yam, 1206 to 1368",
+  "years": "1206–1368",
+  "period": {
+    "from": 1206,
+    "to": 1368
+  },
+  "calendar": "julian",
+  "register": "documentary, and skeptical of Marco Polo's round numbers",
+  "summary": "A khan at Karakorum could not govern China, Iran, and the Volga by riding to each of them, so he ruled through a chain of horses instead: a tablet at one station bought a fresh mount, a guide, and a bed at the next. It was never one road or one budget, and no single decree founded it and no single decree ended it — a Chinese registry, a Persian reform, and a steppe household levy all administered pieces of the same idea under different names, and it fractured along with the khanates after 1259 into the separate posts of Yuan China, Ilkhanid Iran, and the Golden Horde.",
+  "nodes": [
+    {
+      "name": "Karakorum",
+      "ntype": "place",
+      "lat": 47.2,
+      "lng": 102.845,
+      "born": 1235,
+      "died": 1260,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "Orkhon Valley, Mongolia",
+      "modern": "Kharkhorin, Mongolia",
+      "note": "Ögedei's capital and the central convergence point of the network in its first decades. It lost primacy when Kublai moved the seat of empire east, though it remained strategically important and garrisoned.",
+      "sources": [
+        "https://sourcebooks.web.fordham.edu/basis/The%20Secret%20History%20of%20the%20Mongols_%20A%20Mongolian%20Epic%20Chronicle%20of.pdf",
+        "https://publications.dainst.org/books/dai/catalog/book/2108"
+      ]
+    },
+    {
+      "name": "Dadu/Khanbaliq",
+      "ntype": "place",
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "born": 1272,
+      "died": 1368,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "Yuan China",
+      "modern": "Beijing, China",
+      "note": "The principal Yuan capital from Kublai's reign, and the dominant eastern hub. Marco Polo describes roads radiating from it in every direction; the city and its administration fell to Ming forces in 1368.",
+      "sources": [
+        "https://cdn.angkordatabase.asia/libs/docs/travels-of-marco-polo.pdf",
+        "https://www.usachinaperspectives.com/content/A3%20The%20Mongols%20and%20the%20Yuan%20Dynasty%20%281271-1368%20CE%29.pdf"
+      ]
+    },
+    {
+      "name": "Shangdu/Kaiping",
+      "ntype": "place",
+      "lat": 42.3599,
+      "lng": 116.1753,
+      "born": 1256,
+      "died": 1368,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "Inner Mongolia",
+      "modern": "Xanadu ruins, Inner Mongolia, China",
+      "note": "Kublai's summer capital. Relay routes had to follow the court's annual seasonal movement between here and Dadu, which is why the network could not be reduced to a fixed grid.",
+      "sources": [
+        "https://cdn.angkordatabase.asia/libs/docs/travels-of-marco-polo.pdf"
+      ]
+    },
+    {
+      "name": "Beshbalik",
+      "ntype": "place",
+      "lat": 44.0136,
+      "lng": 89.1774,
+      "born": 1209,
+      "died": 1370,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "Uighur lands, eastern Tian Shan",
+      "modern": "near Jimsar, Xinjiang, China",
+      "note": "Uighur and Mongol administrative node from the Uighur idiqut's early submission to Chinggis Khan. Chagataid political disorder after Timur's rise transformed rather than closed its function.",
+      "sources": [
+        "https://doktori.bibl.u-szeged.hu/2926/19/Marton.Ver..PDF"
+      ]
+    },
+    {
+      "name": "Qaraqocho/Gaochang",
+      "ntype": "place",
+      "lat": 42.9506,
+      "lng": 89.5325,
+      "born": 1209,
+      "died": 1370,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "Uighur lands, Turfan basin",
+      "modern": "Gaochang ruins near Turfan, Xinjiang, China",
+      "note": "Uighur center connecting north-China and Mongolia routes with Central Asia, incorporated early after Uighur submission.",
+      "sources": [
+        "https://doktori.bibl.u-szeged.hu/2926/19/Marton.Ver..PDF"
+      ]
+    },
+    {
+      "name": "Almaliq",
+      "ntype": "place",
+      "lat": 44.1717,
+      "lng": 80.6403,
+      "born": 1225,
+      "died": 1370,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Chagatai ulus, Ili Valley",
+      "modern": "near Yining/Kulja, Xinjiang, China",
+      "note": "Major Chagataid political and commercial center linking Mongolia, eastern Turkestan, and Transoxiana. Its exact station sequence is incompletely documented.",
+      "sources": [
+        "https://doktori.bibl.u-szeged.hu/2926/19/Marton.Ver..PDF"
+      ]
+    },
+    {
+      "name": "Otrar",
+      "ntype": "place",
+      "lat": 42.8814,
+      "lng": 68.3186,
+      "born": 1220,
+      "died": 1370,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Syr Darya, Transoxiana",
+      "modern": "Otrartobe, Kazakhstan",
+      "note": "A strategic junction whose notoriety comes from the 1218 seizure of a Mongol merchant-envoy caravan there, an incident that helped trigger the invasion that put the town inside the network it had disrupted.",
+      "sources": [
+        "https://sourcebooks.web.fordham.edu/basis/The%20Secret%20History%20of%20the%20Mongols_%20A%20Mongolian%20Epic%20Chronicle%20of.pdf"
+      ]
+    },
+    {
+      "name": "Samarkand",
+      "ntype": "place",
+      "lat": 39.627,
+      "lng": 66.975,
+      "born": 1220,
+      "died": 1370,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "Chagatai ulus, Transoxiana",
+      "modern": "Samarkand, Uzbekistan",
+      "note": "Administrative, fiscal, craft, and route hub under Mongol and Chagataid authority.",
+      "sources": [
+        "https://www.cambridge.org/core/books/abs/postal-systems-in-the-premodern-islamic-world/mongol-yam-and-its-legacy/090AB53E36D25FBB7089C4ACA28F43A1"
+      ]
+    },
+    {
+      "name": "Bukhara",
+      "ntype": "place",
+      "lat": 39.7747,
+      "lng": 64.4286,
+      "born": 1220,
+      "died": 1370,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "Chagatai ulus, Transoxiana",
+      "modern": "Bukhara, Uzbekistan",
+      "note": "Central Asian urban and commercial hub, though not every traveler through it enjoyed Yam privileges.",
+      "sources": [
+        "https://www.cambridge.org/core/books/abs/postal-systems-in-the-premodern-islamic-world/mongol-yam-and-its-legacy/090AB53E36D25FBB7089C4ACA28F43A1"
+      ]
+    },
+    {
+      "name": "Urgench/Gurganj",
+      "ntype": "place",
+      "lat": 42.3167,
+      "lng": 59.1333,
+      "born": 1221,
+      "died": 1370,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Khwarazm, lower Amu Darya",
+      "modern": "Konye-Urgench, Turkmenistan",
+      "note": "The Khwarazmian terminus and lower-Oxus hub, badly damaged in the conquest of 1221 and rebuilt to changing importance afterward.",
+      "sources": [
+        "https://www.cambridge.org/core/books/abs/postal-systems-in-the-premodern-islamic-world/mongol-yam-and-its-legacy/090AB53E36D25FBB7089C4ACA28F43A1"
+      ]
+    },
+    {
+      "name": "Sarai",
+      "ntype": "place",
+      "lat": 46.9,
+      "lng": 47.4,
+      "born": 1242,
+      "died": 1368,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Golden Horde, lower Volga",
+      "modern": "near Astrakhan region, Russia",
+      "note": "Jochid political and commercial hub from Batu's founding. Its Yam obligations and toponymy outlasted the 1368 horizon adopted here for the eastern network, into later Jochid successor states.",
+      "sources": [
+        "https://avesis.ktu.edu.tr/yayin/6081e7f4-9f1b-4eaa-8165-ecbbddabb2a1/postal-organisation-yam-in-the-golden-horde/document.pdf"
+      ]
+    },
+    {
+      "name": "Tabriz",
+      "ntype": "place",
+      "lat": 38.08,
+      "lng": 46.2919,
+      "born": 1256,
+      "died": 1335,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "Ilkhanate, Azerbaijan",
+      "modern": "Tabriz, Iran",
+      "note": "Major Ilkhanid capital and destination of Ghazan's reformed post; Rashid al-Din calculates urgent communications reaching it in days. Its centrality to a unified Ilkhanid Yam ended with Abu Sa'id's death and the khanate's fragmentation.",
+      "sources": [
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001422803"
+      ]
+    },
+    {
+      "name": "Maragha",
+      "ntype": "place",
+      "lat": 37.3959,
+      "lng": 46.2411,
+      "born": 1256,
+      "died": 1295,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "Ilkhanate, Azerbaijan",
+      "modern": "Maragheh, Iran",
+      "note": "Early Ilkhanid capital and administrative-scientific center under Hülegü, later superseded by Tabriz.",
+      "sources": [
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001422803"
+      ]
+    },
+    {
+      "name": "Baghdad",
+      "ntype": "place",
+      "lat": 33.3152,
+      "lng": 44.3661,
+      "born": 1258,
+      "died": 1335,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "Ilkhanate, Mesopotamia",
+      "modern": "Baghdad, Iraq",
+      "note": "A provincial capital after the 1258 conquest, governed at one point by Ata-Malik Juvaini, whose history is a chief source for this network. Its pre-Mongol barid heritage complicates any claim of a single institutional lineage.",
+      "sources": [
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001422803"
+      ]
+    },
+    {
+      "name": "Soltaniyya",
+      "ntype": "place",
+      "lat": 36.4272,
+      "lng": 48.7908,
+      "born": 1305,
+      "died": 1335,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "Ilkhanate, Iran",
+      "modern": "Soltaniyeh, Iran",
+      "note": "Ilkhanid royal center built under Öljeitü, a court and road node in the network's late elaboration.",
+      "sources": [
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001422803"
+      ]
+    },
+    {
+      "name": "Kiev",
+      "ntype": "place",
+      "lat": 50.4501,
+      "lng": 30.5234,
+      "born": 1240,
+      "died": 1362,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Rus', under Jochid tribute",
+      "modern": "Kyiv, Ukraine",
+      "note": "A western staging point, used by Carpini in 1246 before he entered Mongol-controlled steppe routes proper; it was not itself an imperial capital.",
+      "sources": [
+        "https://depts.washington.edu/silkroad/texts/carpini.html"
+      ]
+    },
+    {
+      "name": "Vladimir",
+      "ntype": "place",
+      "lat": 56.129,
+      "lng": 40.407,
+      "born": 1238,
+      "died": 1368,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "Rus', under Jochid tribute",
+      "modern": "Vladimir, Russia",
+      "note": "A princely and tribute-collecting center connected to the Jochid court; the exact thirteenth-century station sequence between Rus' centers and Sarai is patchy in the surviving record.",
+      "sources": [
+        "https://avesis.ktu.edu.tr/yayin/6081e7f4-9f1b-4eaa-8165-ecbbddabb2a1/postal-organisation-yam-in-the-golden-horde/document.pdf"
+      ]
+    },
+    {
+      "name": "Lhasa",
+      "ntype": "place",
+      "lat": 29.65,
+      "lng": 91.1,
+      "born": 1247,
+      "died": 1368,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Tibet, under Yuan supervision",
+      "modern": "Lhasa, Tibet Autonomous Region, China",
+      "note": "Connected to the Mongol and Yuan center through stations supervised by the Bureau of Buddhist and Tibetan Affairs, following the Sakya hierarchy's submission in the 1240s.",
+      "sources": [
+        "https://www.gsrl-cnrs.fr/wp-content/uploads/2021/10/Proceedings_ENGKOR_B5_v.3.2.pdf"
+      ]
+    },
+    {
+      "name": "Dali/Yunnan",
+      "ntype": "place",
+      "lat": 25.6065,
+      "lng": 100.2676,
+      "born": 1253,
+      "died": 1368,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "Yunnan, Yuan China",
+      "modern": "Dali, Yunnan, China",
+      "note": "Southwestern provincial terminus after the Mongol conquest of the Dali kingdom, reached by land, river, horse, foot, and palanquin stations.",
+      "sources": [
+        "https://www.usachinaperspectives.com/content/A3%20The%20Mongols%20and%20the%20Yuan%20Dynasty%20%281271-1368%20CE%29.pdf"
+      ]
+    },
+    {
+      "name": "Hangzhou/Lin'an",
+      "ntype": "place",
+      "lat": 30.2741,
+      "lng": 120.1551,
+      "born": 1276,
+      "died": 1368,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "Jiangzhe, Yuan China",
+      "modern": "Hangzhou, China",
+      "note": "The former Southern Song capital, incorporated after 1276 and made a major southern administrative and commercial node.",
+      "sources": [
+        "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/communications-and-communicators-in-the-yuan-and-early-ming/DCC3269CD58F4FE7FF9EC0F2505214EC"
+      ]
+    },
+    {
+      "name": "Quanzhou",
+      "ntype": "place",
+      "lat": 24.8741,
+      "lng": 118.6757,
+      "born": 1276,
+      "died": 1368,
+      "born_confidence": "approximate",
+      "died_confidence": "attested",
+      "region": "Fujian, Yuan China",
+      "modern": "Quanzhou, China",
+      "note": "A maritime-commercial city connected to the Yuan land administration; ships leaving it were not thereby part of the Yam, but the stations delivered officials and privileged merchants to it.",
+      "sources": [
+        "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/communications-and-communicators-in-the-yuan-and-early-ming/DCC3269CD58F4FE7FF9EC0F2505214EC"
+      ]
+    },
+    {
+      "name": "Chinggis Khan",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1206,
+      "died": 1227,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "Mongol Empire",
+      "note": "Established the territorial and command framework the Yam formalized. He probably used organized relay messaging, but a fully standardized system cannot securely be attributed to a single enactment under him.",
+      "sources": [
+        "https://sourcebooks.web.fordham.edu/basis/The%20Secret%20History%20of%20the%20Mongols_%20A%20Mongolian%20Epic%20Chronicle%20of.pdf"
+      ]
+    },
+    {
+      "name": "Ögedei Khan",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1229,
+      "died": 1241,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "Mongol Empire",
+      "note": "The principal institutional founder in the surviving narrative. His reform, conventionally dated 1234, provided dedicated stations, horses, keepers, provisions, and coordination with Chagatai's and Batu's territories.",
+      "sources": [
+        "https://sourcebooks.web.fordham.edu/basis/The%20Secret%20History%20of%20the%20Mongols_%20A%20Mongolian%20Epic%20Chronicle%20of.pdf"
+      ]
+    },
+    {
+      "name": "Möngke Khan",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1251,
+      "died": 1259,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "Mongol Empire",
+      "note": "Pursued fiscal centralization and restricted misuse of credentials and imperial resources by merchants and princes. His death opened the succession war that broke the network's political unity.",
+      "sources": [
+        "https://depts.washington.edu/silkroad/texts/rubruck.html"
+      ]
+    },
+    {
+      "name": "Kublai Khan",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1260,
+      "died": 1294,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "Yuan China",
+      "note": "Integrated steppe and Chinese station traditions and expanded coverage into conquered southern China, Tibet, and Yunnan, establishing dedicated central postal administration in 1270 and 1276.",
+      "sources": [
+        "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/communications-and-communicators-in-the-yuan-and-early-ming/DCC3269CD58F4FE7FF9EC0F2505214EC"
+      ]
+    },
+    {
+      "name": "Ghazan Khan",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1295,
+      "died": 1304,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "Ilkhanate",
+      "note": "Undertook the best-described western reform: restricted credentials to the khan, prescribed stations at three-farsakh intervals with fifteen horses each, and shifted expenses to central budgeting.",
+      "sources": [
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001422803"
+      ]
+    },
+    {
+      "name": "The Yam",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1206,
+      "died": 1368,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Chinggisid Eurasia",
+      "note": "The imperial relay-transport entitlement itself: credentialed travelers, remount stations, and obligated households, known as jam, zhanchi, yam, or ulagh depending on language. It never had one charter or one budget, and it fragmented politically after 1259 into separately administered Yuan, Ilkhanid, Chagataid, and Jochid systems rather than closing on a single date.",
+      "sources": [
+        "https://www.cambridge.org/core/books/abs/postal-systems-in-the-premodern-islamic-world/mongol-yam-and-its-legacy/090AB53E36D25FBB7089C4ACA28F43A1"
+      ]
+    },
+    {
+      "name": "Bureau of General Communication",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1276,
+      "died": 1368,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "Yuan China",
+      "note": "The Tongzhengyuan, successor to the 1270 Office of the Controller-General of Postal Stations, administering Yuan zhanchi jurisdiction alongside a Ministry of War that periodically took the same duties over.",
+      "sources": [
+        "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/communications-and-communicators-in-the-yuan-and-early-ming/DCC3269CD58F4FE7FF9EC0F2505214EC"
+      ]
+    },
+    {
+      "name": "Station households (zhanhu)",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1234,
+      "died": 1368,
+      "born_confidence": "approximate",
+      "died_confidence": "attested",
+      "region": "Yuan China",
+      "note": "Registered households bearing the network's routine cost: maintaining animals, carts, and boats, feeding travelers, and supplying fodder and lodging. Yuan statutes document impoverishment and flight severe enough that some sold or pawned relatives into others' service.",
+      "sources": [
+        "https://www.sinoss.net/uploadfile/2012/0606/20120606102846114.pdf"
+      ]
+    },
+    {
+      "name": "Carpini's papal mission",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1245,
+      "died": 1247,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "route from Lyon to Karakorum",
+      "note": "John of Pian del Carpine carried Pope Innocent IV's letters to Güyük's enthronement and back, the best-documented end-to-end use of Mongol-supported movement across the western and central empire, complete with political examination at Batu's court along the way.",
+      "sources": [
+        "https://depts.washington.edu/silkroad/texts/carpini.html"
+      ]
+    },
+    {
+      "name": "Rubruck's mission",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1253,
+      "died": 1255,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "route from the Black Sea to Karakorum",
+      "note": "William of Rubruck's journey to and from Möngke's court shows rapid compelled riding on exhausted mounts alongside long delays at political bottlenecks, correcting any idealized picture of uniform speed.",
+      "sources": [
+        "https://depts.washington.edu/silkroad/texts/rubruck.html"
+      ]
+    },
+    {
+      "name": "Marco Polo",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1271,
+      "died": 1295,
+      "born_confidence": "disputed",
+      "died_confidence": "disputed",
+      "region": "Yuan China",
+      "note": "His description of station lodgings as 'palaces' and his station-and-horse totals are authentic textual testimony but internally inconsistent as statistics. No Yuan record confirms the degree of official service he claimed.",
+      "sources": [
+        "https://cdn.angkordatabase.asia/libs/docs/travels-of-marco-polo.pdf",
+        "https://fr.wikisource.org/wiki/Les_Merveilleux_Voyages_de_Marco_Polo_dans_l%E2%80%99Asie_du_XIIIe_si%C3%A8cle/Texte_entier"
+      ]
+    },
+    {
+      "name": "Batu's mobile ordo",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1242,
+      "died": 1255,
+      "born_confidence": "approximate",
+      "died_confidence": "attested",
+      "region": "lower Volga steppe",
+      "note": "A moving encampment rather than a city, encountered by both Carpini and later envoys as a political checkpoint through which correspondence to the Great Khan had to pass before being forwarded east.",
+      "sources": [
+        "https://avesis.ktu.edu.tr/yayin/6081e7f4-9f1b-4eaa-8165-ecbbddabb2a1/postal-organisation-yam-in-the-golden-horde/document.pdf"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "Karakorum",
+      "to": "Dadu/Khanbaliq",
+      "etype": "road",
+      "directed": false,
+      "weight": 1100.0,
+      "note": "The route through the Gobi and frontier settlements linking the two imperial seats."
+    },
+    {
+      "from": "Dadu/Khanbaliq",
+      "to": "Shangdu/Kaiping",
+      "etype": "road",
+      "directed": false,
+      "weight": 275.0,
+      "note": "Serving the seasonal movement of the Yuan court."
+    },
+    {
+      "from": "Karakorum",
+      "to": "Beshbalik",
+      "etype": "road",
+      "directed": false,
+      "weight": 1300.0
+    },
+    {
+      "from": "Beshbalik",
+      "to": "Qaraqocho/Gaochang",
+      "etype": "road",
+      "directed": false,
+      "weight": 220.0
+    },
+    {
+      "from": "Qaraqocho/Gaochang",
+      "to": "Almaliq",
+      "etype": "road",
+      "directed": false,
+      "weight": 900.0
+    },
+    {
+      "from": "Almaliq",
+      "to": "Otrar",
+      "etype": "road",
+      "directed": false,
+      "weight": 950.0
+    },
+    {
+      "from": "Otrar",
+      "to": "Samarkand",
+      "etype": "road",
+      "directed": false,
+      "weight": 280.0
+    },
+    {
+      "from": "Samarkand",
+      "to": "Bukhara",
+      "etype": "road",
+      "directed": false,
+      "weight": 240.0
+    },
+    {
+      "from": "Bukhara",
+      "to": "Urgench/Gurganj",
+      "etype": "road",
+      "directed": false,
+      "weight": 450.0
+    },
+    {
+      "from": "Urgench/Gurganj",
+      "to": "Sarai",
+      "etype": "road",
+      "directed": false,
+      "weight": 1700.0,
+      "note": "The steppe route connecting Khwarazm to the Jochid lower Volga."
+    },
+    {
+      "from": "Samarkand",
+      "to": "Maragha",
+      "etype": "road",
+      "directed": false,
+      "weight": 2000.0,
+      "note": "The Khurasan corridor linking Transoxiana to Ilkhanid Iran."
+    },
+    {
+      "from": "Maragha",
+      "to": "Tabriz",
+      "etype": "road",
+      "directed": false,
+      "weight": 100.0
+    },
+    {
+      "from": "Tabriz",
+      "to": "Baghdad",
+      "etype": "road",
+      "directed": false,
+      "weight": 700.0
+    },
+    {
+      "from": "Tabriz",
+      "to": "Soltaniyya",
+      "etype": "road",
+      "directed": false,
+      "weight": 200.0
+    },
+    {
+      "from": "Sarai",
+      "to": "Kiev",
+      "etype": "road",
+      "directed": false,
+      "weight": 1000.0
+    },
+    {
+      "from": "Sarai",
+      "to": "Vladimir",
+      "etype": "road",
+      "directed": false,
+      "weight": 900.0,
+      "note": "The route princes and tribute agents took to the khan's court."
+    },
+    {
+      "from": "Dadu/Khanbaliq",
+      "to": "Dali/Yunnan",
+      "etype": "road",
+      "directed": false,
+      "weight": 2800.0
+    },
+    {
+      "from": "Dadu/Khanbaliq",
+      "to": "Hangzhou/Lin'an",
+      "etype": "road",
+      "directed": false,
+      "weight": 1300.0
+    },
+    {
+      "from": "Hangzhou/Lin'an",
+      "to": "Quanzhou",
+      "etype": "road",
+      "directed": false,
+      "weight": 750.0
+    },
+    {
+      "from": "Dadu/Khanbaliq",
+      "to": "Lhasa",
+      "etype": "road",
+      "directed": false,
+      "weight": 2900.0,
+      "note": "Reached through the Gansu and Qinghai approaches."
+    },
+    {
+      "from": "The Yam",
+      "to": "Karakorum",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Yam",
+      "to": "Dadu/Khanbaliq",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Yam",
+      "to": "Tabriz",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Yam",
+      "to": "Sarai",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Yam",
+      "to": "Almaliq",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Chinggis Khan",
+      "to": "The Yam",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Built the command framework that the Yam formalized."
+    },
+    {
+      "from": "Ögedei Khan",
+      "to": "Karakorum",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Ögedei Khan",
+      "to": "The Yam",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "The conventional 1234 reform: stages, assigned horses, and inter-ulus coordination."
+    },
+    {
+      "from": "Möngke Khan",
+      "to": "The Yam",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Fiscal centralization and restriction of private exploitation."
+    },
+    {
+      "from": "Kublai Khan",
+      "to": "Dadu/Khanbaliq",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Kublai Khan",
+      "to": "Bureau of General Communication",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Bureau of General Communication",
+      "to": "Dadu/Khanbaliq",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Ghazan Khan",
+      "to": "Tabriz",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Ghazan Khan",
+      "to": "The Yam",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Modeled, per Kim Hodong, more on Chinggisid practice than on a simple revival of the Islamic barid."
+    },
+    {
+      "from": "Station households (zhanhu)",
+      "to": "Dadu/Khanbaliq",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Station households (zhanhu)",
+      "to": "The Yam",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Batu's mobile ordo",
+      "to": "Sarai",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Carpini's papal mission",
+      "to": "Kiev",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Departed 4 February 1246 using horses and an escort obtained through Mongol-controlled authorities."
+    },
+    {
+      "from": "Carpini's papal mission",
+      "to": "Batu's mobile ordo",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Political examination and forwarding at Batu's court, early April 1246."
+    },
+    {
+      "from": "Carpini's papal mission",
+      "to": "Karakorum",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Reached Güyük's encampment near Karakorum on 22 July 1246 and witnessed the enthronement."
+    },
+    {
+      "from": "Rubruck's mission",
+      "to": "Batu's mobile ordo",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Rubruck's mission",
+      "to": "Karakorum",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Reached Möngke's court, 1253–1255."
+    },
+    {
+      "from": "Marco Polo",
+      "to": "Dadu/Khanbaliq",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Claimed official service under Kublai; the degree and title are debated."
+    }
+  ],
+  "sources": [
+    "https://sourcebooks.web.fordham.edu/basis/The%20Secret%20History%20of%20the%20Mongols_%20A%20Mongolian%20Epic%20Chronicle%20of.pdf",
+    "https://publications.dainst.org/books/dai/catalog/book/2108",
+    "https://cdn.angkordatabase.asia/libs/docs/travels-of-marco-polo.pdf",
+    "https://fr.wikisource.org/wiki/Les_Merveilleux_Voyages_de_Marco_Polo_dans_l%E2%80%99Asie_du_XIIIe_si%C3%A8cle/Texte_entier",
+    "https://www.usachinaperspectives.com/content/A3%20The%20Mongols%20and%20the%20Yuan%20Dynasty%20%281271-1368%20CE%29.pdf",
+    "https://doktori.bibl.u-szeged.hu/2926/19/Marton.Ver..PDF",
+    "https://www.cambridge.org/core/books/abs/postal-systems-in-the-premodern-islamic-world/mongol-yam-and-its-legacy/090AB53E36D25FBB7089C4ACA28F43A1",
+    "https://avesis.ktu.edu.tr/yayin/6081e7f4-9f1b-4eaa-8165-ecbbddabb2a1/postal-organisation-yam-in-the-golden-horde/document.pdf",
+    "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001422803",
+    "https://depts.washington.edu/silkroad/texts/carpini.html",
+    "https://depts.washington.edu/silkroad/texts/rubruck.html",
+    "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/communications-and-communicators-in-the-yuan-and-early-ming/DCC3269CD58F4FE7FF9EC0F2505214EC",
+    "https://www.gsrl-cnrs.fr/wp-content/uploads/2021/10/Proceedings_ENGKOR_B5_v.3.2.pdf",
+    "https://www.sinoss.net/uploadfile/2012/0606/20120606102846114.pdf"
+  ]
+}

@@ -1,0 +1,913 @@
+{
+  "network": "ARPANET",
+  "slug": "arpanet",
+  "title": "Heterogeneous computers made to talk through identical switches, then handed the protocol that outlived the switches",
+  "years": "1962–1990",
+  "period": {
+    "from": 1962,
+    "to": 1990
+  },
+  "calendar": "gregorian",
+  "register": "documentary, and careful to separate the network from the internet it became part of",
+  "summary": "A Defense Department research program joined incompatible university and contractor computers through identical packet switches called IMPs, so a host needed only to speak to its own local switch rather than reproduce every other machine on the network. It carried remote logins, files, and above all electronic mail across leased telephone circuits administered from one contractor's office in Cambridge, Massachusetts, and it did not collapse so much as succeed itself out of existence: once its own internetworking protocol could run over other carriers, the original switches became one obsolete option among many, and the last of them was shut down in 1990.",
+  "nodes": [
+    {
+      "name": "UCLA",
+      "ntype": "place",
+      "lat": 34.0689,
+      "lng": -118.4452,
+      "born": 1969,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "University of California, Los Angeles",
+      "note": "First IMP delivered here, and site of the first recorded host-to-host transmission attempt, 29 October 1969: an SDS Sigma 7 sent 'L' and 'O' toward SRI before the receiving host crashed mid-LOGIN.",
+      "sources": [
+        "https://www.darpa.mil/news/features/arpanet",
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "SRI",
+      "ntype": "place",
+      "lat": 37.453,
+      "lng": -122.1817,
+      "born": 1969,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "SRI International, Menlo Park, California",
+      "note": "Second node, October 1969; Douglas Engelbart's Augmentation Research Center here became host to the Network Information Center.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "UCSB",
+      "ntype": "place",
+      "lat": 34.414,
+      "lng": -119.8489,
+      "born": 1969,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "University of California, Santa Barbara",
+      "note": "Third node, November 1969, running interactive mathematics and display research on an IBM 360/75.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "University of Utah",
+      "ntype": "place",
+      "lat": 40.7649,
+      "lng": -111.8421,
+      "born": 1969,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "University of Utah, Salt Lake City",
+      "note": "Fourth node, December 1969, completing the original four-node network; graphics research associated with Ivan Sutherland's collaborators.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "BBN, Cambridge",
+      "ntype": "place",
+      "lat": 42.3656,
+      "lng": -71.1039,
+      "born": 1969,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Cambridge, Massachusetts",
+      "note": "Bolt Beranek and Newman built the first IMPs here and ran the Network Control Center; engineers used the network they had built to monitor the network they had built.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf",
+        "https://nobbyville.com/ARAPNET-completion-report.pdf"
+      ]
+    },
+    {
+      "name": "MIT",
+      "ntype": "place",
+      "lat": 42.3601,
+      "lng": -71.0942,
+      "born": 1970,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Massachusetts Institute of Technology, Cambridge",
+      "note": "Project MAC and Multics computing resources; site of the October 1971 meeting that concluded the Network Working Group's founding implementation phase.",
+      "sources": [
+        "https://www.rfc-editor.org/info/rfc254/"
+      ]
+    },
+    {
+      "name": "MIT Lincoln Laboratory",
+      "ntype": "place",
+      "lat": 42.443,
+      "lng": -71.2639,
+      "born": 1970,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Lexington, Massachusetts",
+      "note": "Advanced computing site connected to Lawrence Roberts's earlier networking work.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "Harvard University",
+      "ntype": "place",
+      "lat": 42.377,
+      "lng": -71.1167,
+      "born": 1970,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Cambridge, Massachusetts",
+      "note": "Research host anchoring the northeastern cluster of nodes.",
+      "sources": [
+        "https://www.rfc-editor.org/info/rfc254/"
+      ]
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "ntype": "place",
+      "lat": 40.4433,
+      "lng": -79.9436,
+      "born": 1970,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Pittsburgh, Pennsylvania",
+      "note": "Computing and artificial-intelligence research host.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "Case Western Reserve University",
+      "ntype": "place",
+      "lat": 41.5044,
+      "lng": -81.6086,
+      "born": 1970,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Cleveland, Ohio",
+      "note": "Computing research host in the early expansion.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "University of Illinois",
+      "ntype": "place",
+      "lat": 40.1092,
+      "lng": -88.2272,
+      "born": 1970,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Urbana, Illinois",
+      "note": "ILLIAC and Center for Advanced Computation work; a host here was among the many affected when the 1988 Morris worm disrupted the wider TCP/IP Internet that ARPANET had helped produce.",
+      "sources": [
+        "https://www.rfc-editor.org/info/rfc1087/"
+      ]
+    },
+    {
+      "name": "RAND Corporation",
+      "ntype": "place",
+      "lat": 34.0195,
+      "lng": -118.4912,
+      "born": 1970,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Santa Monica, California",
+      "note": "Defense research and computing host; distinct from Paul Baran's earlier RAND survivable-network studies, which influenced but did not design ARPANET.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "System Development Corporation",
+      "ntype": "place",
+      "lat": 34.0089,
+      "lng": -118.4973,
+      "born": 1970,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Santa Monica, California",
+      "note": "Time-sharing and defense-computing host, near RAND.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "NASA Ames Research Center",
+      "ntype": "place",
+      "lat": 37.409,
+      "lng": -122.064,
+      "born": 1970,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Moffett Field, California",
+      "note": "Aerospace computing host, later a Terminal IMP access point and satellite link toward Hawaii.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-C60-PURL-gpo5575/pdf/GOVPUB-C60-PURL-gpo5575.pdf"
+      ]
+    },
+    {
+      "name": "USC Information Sciences Institute",
+      "ntype": "place",
+      "lat": 33.9803,
+      "lng": -118.4517,
+      "born": 1972,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Marina del Rey, California",
+      "note": "Became a central protocol and administrative node as Jon Postel's RFC editing and assigned-numbers work shifted here from SRI around 1975.",
+      "sources": [
+        "https://www.rfc-editor.org/info/rfc8700/"
+      ]
+    },
+    {
+      "name": "ARPA, Arlington",
+      "ntype": "place",
+      "lat": 38.8719,
+      "lng": -77.0563,
+      "born": 1969,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Arlington, Virginia",
+      "note": "The sponsoring agency: authorized the program, funded BBN and the host sites, and after 1975 shared operational control with the Defense Communications Agency.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "NORSAR",
+      "ntype": "place",
+      "lat": 59.9727,
+      "lng": 11.0384,
+      "born": 1973,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "Norway",
+      "modern": "Kjeller, Norway",
+      "note": "First permanent overseas extension, 1973, connected through a satellite arrangement via a Swedish earth station.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-C60-PURL-gpo5575/pdf/GOVPUB-C60-PURL-gpo5575.pdf"
+      ]
+    },
+    {
+      "name": "University College London",
+      "ntype": "place",
+      "lat": 51.5246,
+      "lng": -0.134,
+      "born": 1973,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United Kingdom",
+      "modern": "London, England",
+      "note": "Peter Kirstein's group here became a major site for internetworking experiments after the 1973 satellite connection.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-C60-PURL-gpo5575/pdf/GOVPUB-C60-PURL-gpo5575.pdf"
+      ]
+    },
+    {
+      "name": "Hawaii",
+      "ntype": "place",
+      "lat": 21.2969,
+      "lng": -157.817,
+      "born": 1972,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "University of Hawaii, Manoa",
+      "note": "Reached through seismic and packet-radio-linked satellite circuits; a genuinely experimental connection often folded loosely into ARPANET maps.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GOVPUB-C60-PURL-gpo5575/pdf/GOVPUB-C60-PURL-gpo5575.pdf"
+      ]
+    },
+    {
+      "name": "Network Control Center",
+      "ntype": "relay",
+      "lat": 42.3656,
+      "lng": -71.1039,
+      "born": 1969,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Cambridge, Massachusetts",
+      "note": "BBN's monitoring function: loaded IMP software, collected statistics, diagnosed failures, and coordinated repairs across the whole subnet from one office.",
+      "sources": [
+        "https://nobbyville.com/ARAPNET-completion-report.pdf"
+      ]
+    },
+    {
+      "name": "Network Information Center",
+      "ntype": "relay",
+      "lat": 37.453,
+      "lng": -122.1817,
+      "born": 1971,
+      "died": 1990,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "modern": "Menlo Park, California",
+      "note": "Registered host names and addresses, published directories, and distributed RFCs, making the network legible to itself as it grew.",
+      "sources": [
+        "https://vtda.org/docs/computing/DefenceCommsAgency/ARAPNET_Directory_Dec78.pdf"
+      ]
+    },
+    {
+      "name": "J.C.R. Licklider",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1962,
+      "died": 1964,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "note": "IPTO's first director; his 1962–63 'Galactic Network' memoranda were visionary programmatic statements about interactive computing communities, not an engineering plan for ARPANET.",
+      "sources": [
+        "https://www.internetsociety.org/internet/history-internet/brief-history-internet/"
+      ]
+    },
+    {
+      "name": "Robert Taylor",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1966,
+      "died": 1969,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "note": "IPTO director from 1966; converted the general desire to link the contractor community into a funded program and recruited Lawrence Roberts.",
+      "sources": [
+        "https://archive.computerhistory.org/resources/text/Oral_History/Taylor_Robert/102702015.05.01.acc.pdf"
+      ]
+    },
+    {
+      "name": "Charles Herzfeld",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1966,
+      "died": 1967,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "note": "ARPA director who authorized the networking program Taylor proposed.",
+      "sources": [
+        "https://archive.computerhistory.org/resources/text/Oral_History/Taylor_Robert/102702015.05.01.acc.pdf"
+      ]
+    },
+    {
+      "name": "Lawrence Roberts",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1966,
+      "died": 1973,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "United States",
+      "note": "ARPA program manager and principal planner, managing topology, procurement, and early applications until leaving in 1973 to co-found the commercial network Telenet.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "Frank Heart",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1969,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "note": "Led BBN's IMP group; the collective work of his team, not a single engineer, produced the switch hardware, routing software, and field maintenance.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "Robert Kahn",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1969,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "note": "BBN system architect, then ARPA program manager; organized the 1972 public demonstration and initiated the internetworking architecture that became TCP/IP.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "Vinton Cerf",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1969,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "note": "UCLA and Stanford researcher, later ARPA program manager; co-designed TCP with Kahn and managed Internet development.",
+      "sources": [
+        "https://www.rfc-editor.org/rfc/rfc830.html"
+      ]
+    },
+    {
+      "name": "Jon Postel",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1969,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "note": "Protocol editor, assigned-numbers administrator, and implementer, exercising coordination authority mostly through trusted service rather than statutory office.",
+      "sources": [
+        "https://www.rfc-editor.org/info/rfc8700/"
+      ]
+    },
+    {
+      "name": "Elizabeth Feinler",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1972,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "note": "Led Network Information Center operations: directories, host registration, name service, and user support.",
+      "sources": [
+        "https://vtda.org/docs/computing/DefenceCommsAgency/ARAPNET_Directory_Dec78.pdf"
+      ]
+    },
+    {
+      "name": "Steve Crocker",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1969,
+      "died": 1971,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "note": "Issued RFC 1, Host Software, on 7 April 1969, deliberately calling the series a 'Request for Comments' because no one yet had complete knowledge or settled authority.",
+      "sources": [
+        "https://www.rfc-editor.org/info/rfc8700/"
+      ]
+    },
+    {
+      "name": "Stephen Lukasik",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1971,
+      "died": 1975,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "United States",
+      "note": "ARPA deputy director and then director during deployment and expansion; his retrospective testimony that command and control under nuclear threat helped justify the funding complicates the simpler 'pure research' origin story.",
+      "sources": [
+        "https://castig.org/wp-content/uploads/2022/06/1f84f-why-the-arpanet-was-built-.pdf"
+      ]
+    },
+    {
+      "name": "The Network Working Group",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1969,
+      "died": 1971,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "note": "Graduate students and programmers at the founding sites who wrote the host protocols BBN did not supply; its founding implementation phase concluded at an October 1971 meeting at MIT, though the RFC culture it started continued indefinitely.",
+      "sources": [
+        "https://www.rfc-editor.org/info/rfc254/"
+      ]
+    },
+    {
+      "name": "AT&T Long Lines",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1969,
+      "died": 1984,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "United States",
+      "note": "Supplied most of the leased 50-kilobit circuits joining the IMPs, arranged through a dedicated ARPA point of contact; its regulated near-monopoly on long-distance circuits ended with the 1984 Bell System divestiture.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf"
+      ]
+    },
+    {
+      "name": "MILNET",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1983,
+      "died": 1990,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "United States",
+      "note": "Split from ARPANET on 4 October 1983, taking roughly 68 of 113 switching nodes and most routine unclassified military traffic while ARPANET retained the research sites.",
+      "sources": [
+        "https://www.upi.com/Archives/1983/10/04/The-Defense-Department-electronically-separated-its-nationwide-computer-network/8814434088000/"
+      ]
+    },
+    {
+      "name": "NSFNET",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1986,
+      "died": null,
+      "born_confidence": "attested",
+      "died_confidence": "unattested",
+      "region": "United States",
+      "note": "Began in 1986 and rose to T1 speed by 1988, increasingly duplicating ARPANET's routes and displacing it as the primary American research backbone before ARPANET's 1990 retirement.",
+      "sources": [
+        "https://www.nsf.gov/impacts/internet"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "UCLA",
+      "to": "SRI",
+      "etype": "wire",
+      "directed": false,
+      "weight": 550.0,
+      "note": "The 29 October 1969 host-to-host attempt: 'L' and 'O' arrived before SRI's host crashed mid-LOGIN."
+    },
+    {
+      "from": "SRI",
+      "to": "UCSB",
+      "etype": "wire",
+      "directed": false,
+      "weight": 480.0
+    },
+    {
+      "from": "UCSB",
+      "to": "University of Utah",
+      "etype": "wire",
+      "directed": false,
+      "weight": 1000.0
+    },
+    {
+      "from": "UCLA",
+      "to": "RAND Corporation",
+      "etype": "wire",
+      "directed": false,
+      "weight": 25.0
+    },
+    {
+      "from": "UCLA",
+      "to": "System Development Corporation",
+      "etype": "wire",
+      "directed": false,
+      "weight": 25.0
+    },
+    {
+      "from": "BBN, Cambridge",
+      "to": "MIT",
+      "etype": "wire",
+      "directed": false,
+      "weight": 10.0
+    },
+    {
+      "from": "MIT",
+      "to": "Harvard University",
+      "etype": "wire",
+      "directed": false,
+      "weight": 5.0
+    },
+    {
+      "from": "MIT",
+      "to": "MIT Lincoln Laboratory",
+      "etype": "wire",
+      "directed": false,
+      "weight": 20.0
+    },
+    {
+      "from": "BBN, Cambridge",
+      "to": "Carnegie Mellon University",
+      "etype": "wire",
+      "directed": false,
+      "weight": 600.0
+    },
+    {
+      "from": "Carnegie Mellon University",
+      "to": "Case Western Reserve University",
+      "etype": "wire",
+      "directed": false,
+      "weight": 200.0
+    },
+    {
+      "from": "BBN, Cambridge",
+      "to": "University of Illinois",
+      "etype": "wire",
+      "directed": false,
+      "weight": 1400.0,
+      "note": "The 1988 Morris worm disrupted thousands of hosts across the wider TCP/IP Internet, ARPANET included, exposing weaknesses in trusted-host assumptions and vulnerable network services."
+    },
+    {
+      "from": "University of Utah",
+      "to": "University of Illinois",
+      "etype": "wire",
+      "directed": false,
+      "weight": 1600.0
+    },
+    {
+      "from": "UCLA",
+      "to": "USC Information Sciences Institute",
+      "etype": "wire",
+      "directed": false,
+      "weight": 30.0
+    },
+    {
+      "from": "USC Information Sciences Institute",
+      "to": "NASA Ames Research Center",
+      "etype": "wire",
+      "directed": false,
+      "weight": 550.0
+    },
+    {
+      "from": "BBN, Cambridge",
+      "to": "ARPA, Arlington",
+      "etype": "wire",
+      "directed": false,
+      "weight": 700.0
+    },
+    {
+      "from": "BBN, Cambridge",
+      "to": "NORSAR",
+      "etype": "wire",
+      "directed": false,
+      "weight": 5900.0,
+      "note": "Satellite circuit, the first permanent overseas extension, 1973."
+    },
+    {
+      "from": "BBN, Cambridge",
+      "to": "University College London",
+      "etype": "wire",
+      "directed": false,
+      "weight": 5300.0,
+      "note": "Satellite circuit tied to SATNET internetworking experiments."
+    },
+    {
+      "from": "NASA Ames Research Center",
+      "to": "Hawaii",
+      "etype": "wire",
+      "directed": false,
+      "weight": 3800.0,
+      "note": "Satellite and packet-radio-linked circuit, an experimental rather than production connection."
+    },
+    {
+      "from": "ARPA, Arlington",
+      "to": "UCLA",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "ARPA, Arlington",
+      "to": "SRI",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "ARPA, Arlington",
+      "to": "BBN, Cambridge",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Network Control Center",
+      "to": "BBN, Cambridge",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Network Information Center",
+      "to": "SRI",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Robert Taylor",
+      "to": "ARPA, Arlington",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "J.C.R. Licklider",
+      "to": "ARPA, Arlington",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Lawrence Roberts",
+      "to": "ARPA, Arlington",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Charles Herzfeld",
+      "to": "ARPA, Arlington",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Robert Taylor",
+      "to": "Lawrence Roberts",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Taylor recruited Roberts to ARPA in 1966."
+    },
+    {
+      "from": "Frank Heart",
+      "to": "BBN, Cambridge",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Robert Kahn",
+      "to": "BBN, Cambridge",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Robert Kahn",
+      "to": "ARPA, Arlington",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Vinton Cerf",
+      "to": "UCLA",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Vinton Cerf",
+      "to": "ARPA, Arlington",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Jon Postel",
+      "to": "USC Information Sciences Institute",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Elizabeth Feinler",
+      "to": "Network Information Center",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Steve Crocker",
+      "to": "UCLA",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Stephen Lukasik",
+      "to": "ARPA, Arlington",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Network Working Group",
+      "to": "UCLA",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Network Working Group",
+      "to": "SRI",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Network Working Group",
+      "to": "BBN, Cambridge",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "AT&T Long Lines",
+      "to": "BBN, Cambridge",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Leased most of the early 50-kilobit circuits through a dedicated ARPA point of contact at the carrier."
+    },
+    {
+      "from": "MILNET",
+      "to": "ARPA, Arlington",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "MILNET",
+      "to": "BBN, Cambridge",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "The 4 October 1983 logical split; physical restructuring continued into 1984."
+    },
+    {
+      "from": "NSFNET",
+      "to": "BBN, Cambridge",
+      "etype": "uncertain",
+      "directed": true,
+      "weight": null,
+      "note": "Increasingly duplicated ARPANET's routes from 1986, displacing it as backbone before its 1990 retirement; not a hostile takeover, but a slow structural obsolescence."
+    }
+  ],
+  "sources": [
+    "https://www.darpa.mil/news/features/arpanet",
+    "https://upload.wikimedia.org/wikipedia/commons/9/94/A_History_of_the_ARPANET%2C_The_First_Decade%2C_BBN_Report_4799%2C_April_1981.pdf",
+    "https://nobbyville.com/ARAPNET-completion-report.pdf",
+    "https://www.rfc-editor.org/info/rfc254/",
+    "https://www.rfc-editor.org/info/rfc1087/",
+    "https://www.govinfo.gov/content/pkg/GOVPUB-C60-PURL-gpo5575/pdf/GOVPUB-C60-PURL-gpo5575.pdf",
+    "https://www.rfc-editor.org/info/rfc8700/",
+    "https://vtda.org/docs/computing/DefenceCommsAgency/ARAPNET_Directory_Dec78.pdf",
+    "https://www.internetsociety.org/internet/history-internet/brief-history-internet/",
+    "https://archive.computerhistory.org/resources/text/Oral_History/Taylor_Robert/102702015.05.01.acc.pdf",
+    "https://www.rfc-editor.org/rfc/rfc830.html",
+    "https://castig.org/wp-content/uploads/2022/06/1f84f-why-the-arpanet-was-built-.pdf",
+    "https://www.upi.com/Archives/1983/10/04/The-Defense-Department-electronically-separated-its-nationwide-computer-network/8814434088000/",
+    "https://www.nsf.gov/impacts/internet"
+  ]
+}

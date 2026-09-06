@@ -1,0 +1,973 @@
+{
+  "network": "The Cairo Geniza Merchant Network",
+  "slug": "cairo_geniza_merchants",
+  "title": "A correspondence network that moved capital as paper across the Fatimid Mediterranean and Indian Ocean, without a single director",
+  "years": "950–1150",
+  "period": {
+    "from": 950,
+    "to": 1150
+  },
+  "calendar": "gregorian",
+  "register": "documentary, and wary of turning an archive's accidents into an organization",
+  "summary": "A shifting body of Arabic-writing merchants moved flax, pepper, coin, and news between Fustat, Alexandria, the Maghrib, and Sicily, and after about 1080 as far as Aden and India, using letters that authorized an agent rather than recording a binding contract. It had no charter, headquarters, or governing council — reciprocal favor, Jewish and Islamic courts, and the accident of a synagogue storeroom held the record together — and it did not end so much as its classic Mediterranean form reorganized around the Indian Ocean after 1100.",
+  "nodes": [
+    {
+      "name": "Fustat",
+      "ntype": "place",
+      "lat": 30.0059,
+      "lng": 31.234,
+      "born": 950,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Fatimid Egypt",
+      "modern": "Old Cairo, Egypt",
+      "note": "The network's center of gravity, though this is partly an artifact of where the papers were deposited: correspondence, money-changing, legal adjudication, and Nile access all converged here.",
+      "sources": [
+        "https://geniza.princeton.edu/en/about/faq/",
+        "https://www.tandfonline.com/doi/full/10.1080/03044181.2012.673299"
+      ]
+    },
+    {
+      "name": "Alexandria",
+      "ntype": "place",
+      "lat": 31.2001,
+      "lng": 29.9187,
+      "born": 950,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Fatimid Egypt",
+      "modern": "Alexandria, Egypt",
+      "note": "The densest recoverable link in the whole corpus: ship arrivals, prices, customs trouble, and rumors of war traveled the roughly 200 kilometers to Fustat in about four to six days.",
+      "sources": [
+        "https://academic.oup.com/dsh/article/38/4/1536/7295829",
+        "https://www.tandfonline.com/doi/full/10.1080/03044181.2012.673299"
+      ]
+    },
+    {
+      "name": "al-Mahdiyya",
+      "ntype": "place",
+      "lat": 35.5044,
+      "lng": 11.0621,
+      "born": 990,
+      "died": 1090,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Zirid Ifriqiya",
+      "modern": "Mahdia, Tunisia",
+      "note": "Former Fatimid capital and Ifriqiyan textile and money center, major through the mid-eleventh century, diminished after Hilali warfare and Sicilian conquest disrupted the region.",
+      "sources": [
+        "https://www.tandfonline.com/doi/full/10.1080/03044181.2012.673299"
+      ]
+    },
+    {
+      "name": "Qayrawan",
+      "ntype": "place",
+      "lat": 35.6781,
+      "lng": 10.0963,
+      "born": 950,
+      "died": 1057,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Zirid Ifriqiya",
+      "modern": "Kairouan, Tunisia",
+      "note": "Scholarly and commercial center of Ifriqiya at the network's formation; Nahray b. Nissim's origin. Declined sharply after mid-eleventh-century warfare and migration.",
+      "sources": [
+        "https://www.cambridge.org/core/books/trade-and-institutions-in-the-medieval-mediterranean/82E09969C2C4B741D538DA7A46AF8F88"
+      ]
+    },
+    {
+      "name": "Palermo",
+      "ntype": "place",
+      "lat": 38.1157,
+      "lng": 13.3615,
+      "born": 950,
+      "died": 1091,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Muslim Sicily",
+      "modern": "Palermo, Italy",
+      "note": "Sicilian entrepot and textile market, destination for Egyptian flax, indigo, and spices under Muslim rule, through the Norman conquest completed in 1091.",
+      "sources": [
+        "https://www.tandfonline.com/doi/full/10.1080/03044181.2012.673299"
+      ]
+    },
+    {
+      "name": "Tripoli",
+      "ntype": "place",
+      "lat": 32.8872,
+      "lng": 13.1913,
+      "born": 950,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Ifriqiya coast",
+      "modern": "Tripoli, Libya",
+      "note": "A coastal stopover on the main Egypt–Ifriqiya run, repeatedly named in shipment correspondence.",
+      "sources": [
+        "https://www.tandfonline.com/doi/full/10.1080/03044181.2012.673299"
+      ]
+    },
+    {
+      "name": "Tyre",
+      "ntype": "place",
+      "lat": 33.2704,
+      "lng": 35.2038,
+      "born": 990,
+      "died": 1124,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Fatimid Levant",
+      "modern": "Tyre, Lebanon",
+      "note": "Levantine port and postal hub on the Egyptian–Syrian coast connection; fell to the Crusaders in 1124.",
+      "sources": [
+        "https://www.tandfonline.com/doi/full/10.1080/03044181.2012.673299"
+      ]
+    },
+    {
+      "name": "Aden",
+      "ntype": "place",
+      "lat": 12.7855,
+      "lng": 45.0187,
+      "born": 1080,
+      "died": 1150,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "Zurayid Yemen",
+      "modern": "Aden, Yemen",
+      "note": "The main western Indian Ocean entrepot: customs, brokerage, and the redistribution point for letters and goods moving between Egypt and India, central from about 1080.",
+      "sources": [
+        "https://genizalab.princeton.edu/projects/indian-ocean-documents-cairo-geniza"
+      ]
+    },
+    {
+      "name": "Qus",
+      "ntype": "place",
+      "lat": 25.9167,
+      "lng": 32.75,
+      "born": 950,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Upper Egypt",
+      "modern": "Qus, Egypt",
+      "note": "The Nile terminus where river transport handed off to desert caravan, the backbone of Egypt–Red Sea movement.",
+      "sources": [
+        "https://genizalab.princeton.edu/projects/indian-ocean-documents-cairo-geniza"
+      ]
+    },
+    {
+      "name": "Aydhab",
+      "ntype": "place",
+      "lat": 22.3167,
+      "lng": 36.4833,
+      "born": 1080,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Egyptian Red Sea coast",
+      "modern": "near Halaib, Egypt/Sudan border",
+      "note": "A difficult but major Red Sea embarkation point connecting Upper Egypt, Yemen, and the pilgrimage routes.",
+      "sources": [
+        "https://genizalab.princeton.edu/projects/indian-ocean-documents-cairo-geniza"
+      ]
+    },
+    {
+      "name": "Sawakin",
+      "ntype": "place",
+      "lat": 19.1058,
+      "lng": 37.3328,
+      "born": 1100,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "African Red Sea coast",
+      "modern": "Suakin, Sudan",
+      "note": "One of ʿAllan b. Hassun's African sales stops, attested in his own letter.",
+      "sources": [
+        "https://geniza.princeton.edu/en/documents/7892/"
+      ]
+    },
+    {
+      "name": "Badi",
+      "ntype": "place",
+      "lat": 18.2,
+      "lng": 38.5,
+      "born": 1100,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "African Red Sea coast",
+      "modern": "approximate identification, Sudan/Eritrea coast",
+      "note": "A trading stop known only from ʿAllan b. Hassun's letter; its exact modern location is not securely fixed.",
+      "sources": [
+        "https://geniza.princeton.edu/en/documents/7892/"
+      ]
+    },
+    {
+      "name": "Dahlak",
+      "ntype": "place",
+      "lat": 15.6667,
+      "lng": 40.1833,
+      "born": 1100,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Dahlak Sultanate",
+      "modern": "Dahlak Kebir, Eritrea",
+      "note": "An island market and maritime waypoint on the African Red Sea coast.",
+      "sources": [
+        "https://geniza.princeton.edu/en/documents/7892/"
+      ]
+    },
+    {
+      "name": "Gujarat ports",
+      "ntype": "place",
+      "lat": 22.3039,
+      "lng": 72.6169,
+      "born": 1080,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "western India",
+      "modern": "Khambhat region, Gujarat, India",
+      "note": "A regional label rather than one port: source of pepper, textiles, and metal goods in the India Book corpus.",
+      "sources": [
+        "https://genizalab.princeton.edu/projects/indian-ocean-documents-cairo-geniza"
+      ]
+    },
+    {
+      "name": "Sindabur",
+      "ntype": "place",
+      "lat": 15.4909,
+      "lng": 73.8278,
+      "born": 1100,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Goa region, western India",
+      "modern": "Goa, India",
+      "note": "The market ʿAllan b. Hassun sailed on to when Aden's prices proved poor.",
+      "sources": [
+        "https://geniza.princeton.edu/en/documents/7892/"
+      ]
+    },
+    {
+      "name": "Manjalur",
+      "ntype": "place",
+      "lat": 12.9141,
+      "lng": 74.856,
+      "born": 1080,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Tulu coast, western India",
+      "modern": "Mangalore, India",
+      "note": "Where Abraham b. Yiju lived for years, traded, and operated a workshop.",
+      "sources": [
+        "https://genizalab.princeton.edu/projects/indian-ocean-documents-cairo-geniza"
+      ]
+    },
+    {
+      "name": "Faknur",
+      "ntype": "place",
+      "lat": 13.4667,
+      "lng": 74.7333,
+      "born": 1100,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Tulu coast, western India",
+      "modern": "approximate identification, near Barkur, India",
+      "note": "A maritime stop on ʿAllan b. Hassun's Indian-coast voyage account.",
+      "sources": [
+        "https://www.persee.fr/doc/topoi_1764-0733_2012_act_11_1_2694"
+      ]
+    },
+    {
+      "name": "Kulam",
+      "ntype": "place",
+      "lat": 8.8932,
+      "lng": 76.6141,
+      "born": 1080,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Malabar coast, western India",
+      "modern": "Kollam, India",
+      "note": "The Malabar pepper port reached in the India Book voyage correspondence.",
+      "sources": [
+        "https://genizalab.princeton.edu/projects/indian-ocean-documents-cairo-geniza"
+      ]
+    },
+    {
+      "name": "Tinnis",
+      "ntype": "place",
+      "lat": 31.2167,
+      "lng": 32.3667,
+      "born": 950,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Nile Delta, Fatimid Egypt",
+      "modern": "near Port Said, Egypt (site now ruined)",
+      "note": "A secondary Delta port feeding the Fustat–Alexandria commercial corridor.",
+      "sources": [
+        "https://www.cambridge.org/core/books/trade-and-institutions-in-the-medieval-mediterranean/82E09969C2C4B741D538DA7A46AF8F88"
+      ]
+    },
+    {
+      "name": "Ramla",
+      "ntype": "place",
+      "lat": 31.9285,
+      "lng": 34.8713,
+      "born": 950,
+      "died": 1099,
+      "born_confidence": "approximate",
+      "died_confidence": "attested",
+      "region": "Fatimid Palestine",
+      "modern": "Ramla, Israel",
+      "note": "A relay point where letters for Sicily or Alexandria could be routed through Fustat; its role in this configuration ended with the First Crusade's 1098–99 conquests.",
+      "sources": [
+        "https://www.tandfonline.com/doi/full/10.1080/03044181.2012.673299"
+      ]
+    },
+    {
+      "name": "Jerusalem",
+      "ntype": "place",
+      "lat": 31.7683,
+      "lng": 35.2137,
+      "born": 950,
+      "died": 1099,
+      "born_confidence": "approximate",
+      "died_confidence": "attested",
+      "region": "Fatimid Palestine",
+      "modern": "Jerusalem",
+      "note": "A destination for scholars, pilgrims, and communal funds within the eastern correspondence network, until the Crusader conquest of 1099.",
+      "sources": [
+        "https://www.tandfonline.com/doi/full/10.1080/03044181.2012.673299"
+      ]
+    },
+    {
+      "name": "Barqa",
+      "ntype": "place",
+      "lat": 32.4931,
+      "lng": 20.8347,
+      "born": 1057,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Ifriqiya/Cyrenaica",
+      "modern": "Al Marj, Libya",
+      "note": "An alternate coastal stage used when naval warfare or a blocked Nile mouth made the standard Alexandria route unsafe.",
+      "sources": [
+        "https://www.tandfonline.com/doi/full/10.1080/03044181.2012.673299"
+      ]
+    },
+    {
+      "name": "Yūsuf ibn ʿAwkal",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 990,
+      "died": 1030,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Fatimid Egypt",
+      "note": "Central figure of one of the oldest surviving Geniza business archives; his household combined commodity trade, agency, remittance, and communal patronage. Called a 'merchant prince' in modern shorthand — the evidence shows wealth and influence, not princely title.",
+      "sources": [
+        "https://www.jstor.org/stable/jj.30599555",
+        "https://www.cambridge.org/core/books/trade-and-institutions-in-the-medieval-mediterranean/82E09969C2C4B741D538DA7A46AF8F88"
+      ]
+    },
+    {
+      "name": "Nahray b. Nissim",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1040,
+      "died": 1098,
+      "born_confidence": "attested",
+      "died_confidence": "attested",
+      "region": "Qayrawan–Fustat circle",
+      "note": "Migrated from Qayrawan to Egypt around 1040; his reconstructed archive of more than 500 items is among the largest tied to one person. He traded, gave legal opinions, and helped raise ransom for captives, but was not a network director.",
+      "sources": [
+        "https://geniza.princeton.edu/en/people/nahray-b-nissim/"
+      ]
+    },
+    {
+      "name": "The al-Tāhartī family",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 990,
+      "died": 1070,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Ifriqiya–Egypt circle",
+      "note": "Linked Ifriqiya, Alexandria, and Fustat. Ibrahim b. Ishaq al-Tahartí's Fustat shop served as an address and forwarding point; four family members are recorded crossing from al-Mahdiyya to Alexandria in the same summer.",
+      "sources": [
+        "https://geniza.princeton.edu/en/documents/2059/"
+      ]
+    },
+    {
+      "name": "Barhūn b. Mūsā",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1040,
+      "died": 1062,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Fustat–Sicily–Tripoli circle",
+      "note": "Corresponded with Nahray about sales, shipments, money, and family matters; a 1062 letter, probably near the end of his life, reports large dirham shipments and prices across several ports.",
+      "sources": [
+        "https://geniza.princeton.edu/en/documents/5918/"
+      ]
+    },
+    {
+      "name": "Mūsā b. Abī al-Ḥayy",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1040,
+      "died": 1062,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Alexandria",
+      "note": "Alexandria correspondent who supplied Nahray with unusually detailed shipping intelligence — ships, owners, passengers, losses — and in about 1057 reported a catastrophic series of shipwrecks affecting merchants of their circle.",
+      "sources": [
+        "https://geniza.princeton.edu/en/documents/2084/"
+      ]
+    },
+    {
+      "name": "Yeqūtiʾel b. Mūsā",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1080,
+      "died": 1100,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Fustat",
+      "note": "Designated representative of the merchants in Fustat; his 1098 litigation against the India trader Yusuf al-Lebdi ran for months while both sides awaited goods and news from Aden.",
+      "sources": [
+        "https://geniza.princeton.edu/he/documents/35790/"
+      ]
+    },
+    {
+      "name": "Maḍmūn b. Ḥasan b. Bundār",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1100,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Aden",
+      "note": "A leading merchant representative in Aden in the early twelfth century, receiving and forwarding goods and letters and linking Egyptian, Yemeni, and Indian commercial circles.",
+      "sources": [
+        "https://genizalab.princeton.edu/projects/indian-ocean-documents-cairo-geniza"
+      ]
+    },
+    {
+      "name": "Abraham b. Yijū",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1120,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Aden–India circle",
+      "note": "Probably from Ifriqiya, traveled through Egypt and Aden and lived for years in India, trading and running a workshop while remaining connected to correspondents across the ocean.",
+      "sources": [
+        "https://geniza.princeton.edu/en/documents/5504/",
+        "https://geniza.princeton.edu/he/documents/5512/"
+      ]
+    },
+    {
+      "name": "ʿAllān b. Ḥassūn",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 1100,
+      "died": 1120,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Egypt–Red Sea–Aden–India circle",
+      "note": "Sold Egyptian garments down the African Red Sea coast and, finding Aden's market poor, carried coral and storax on to India; his return voyage lost a shipmaster to death and another to desertion.",
+      "sources": [
+        "https://geniza.princeton.edu/en/documents/7892/",
+        "https://geniza.princeton.edu/en/documents/9443/"
+      ]
+    },
+    {
+      "name": "The Fatimid state",
+      "ntype": "agent",
+      "lat": null,
+      "lng": null,
+      "born": 969,
+      "died": 1150,
+      "born_confidence": "attested",
+      "died_confidence": "approximate",
+      "region": "Fatimid Caliphate",
+      "note": "Conquered Egypt in 969 and founded Cairo beside Fustat. It supplied coinage, courts, and customs administration that the network used, and also taxed, confiscated, and restricted it; it never owned or administered the network itself.",
+      "sources": [
+        "https://www.cambridge.org/core/books/trade-and-institutions-in-the-medieval-mediterranean/82E09969C2C4B741D538DA7A46AF8F88"
+      ]
+    },
+    {
+      "name": "Egyptian flax",
+      "ntype": "resource",
+      "lat": 30.9757,
+      "lng": 31.1668,
+      "born": 950,
+      "died": 1150,
+      "born_confidence": "approximate",
+      "died_confidence": "approximate",
+      "region": "Nile Delta, Fatimid Egypt",
+      "modern": "al-Mahalla al-Kubra, Egypt",
+      "note": "The network's probable leading commodity, especially in the eleventh-century western trade: grown, processed, graded, and bundled for shipment to Ifriqiyan and Sicilian textile centers.",
+      "sources": [
+        "https://history.uwo.ca/people/Docs/Shatzmiller-Articles/02-The-Adoption-of-Paper-in-the-Middle-East.pdf",
+        "https://www.tandfonline.com/doi/full/10.1080/03044181.2012.673299"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "Fustat",
+      "to": "Alexandria",
+      "etype": "river",
+      "directed": false,
+      "weight": 200.0,
+      "note": "The densest recoverable link; ordinary post took about four to six days along the Nile and its canal."
+    },
+    {
+      "from": "Alexandria",
+      "to": "Tripoli",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 1400.0,
+      "note": "A stopover on the main westward run to Ifriqiya."
+    },
+    {
+      "from": "Tripoli",
+      "to": "al-Mahdiyya",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 400.0
+    },
+    {
+      "from": "Alexandria",
+      "to": "Barqa",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 700.0,
+      "note": "The alternate route, used when the Alexandria–Ifriqiya crossing was unsafe."
+    },
+    {
+      "from": "Barqa",
+      "to": "al-Mahdiyya",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 800.0
+    },
+    {
+      "from": "Alexandria",
+      "to": "Palermo",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 1000.0,
+      "note": "Direct, or routed through Ifriqiya."
+    },
+    {
+      "from": "al-Mahdiyya",
+      "to": "Palermo",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 350.0
+    },
+    {
+      "from": "al-Mahdiyya",
+      "to": "Qayrawan",
+      "etype": "road",
+      "directed": false,
+      "weight": 150.0
+    },
+    {
+      "from": "Fustat",
+      "to": "Tinnis",
+      "etype": "river",
+      "directed": false,
+      "weight": 150.0
+    },
+    {
+      "from": "Fustat",
+      "to": "Ramla",
+      "etype": "road",
+      "directed": false,
+      "weight": 470.0
+    },
+    {
+      "from": "Ramla",
+      "to": "Jerusalem",
+      "etype": "road",
+      "directed": false,
+      "weight": 50.0
+    },
+    {
+      "from": "Ramla",
+      "to": "Tyre",
+      "etype": "road",
+      "directed": false,
+      "weight": 190.0
+    },
+    {
+      "from": "Fustat",
+      "to": "Qus",
+      "etype": "river",
+      "directed": false,
+      "weight": 600.0
+    },
+    {
+      "from": "Qus",
+      "to": "Aydhab",
+      "etype": "road",
+      "directed": false,
+      "weight": 250.0,
+      "note": "The desert caravan crossing: cost, thirst, theft, and official exactions."
+    },
+    {
+      "from": "Aydhab",
+      "to": "Aden",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 1200.0
+    },
+    {
+      "from": "Aden",
+      "to": "Sawakin",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 700.0
+    },
+    {
+      "from": "Sawakin",
+      "to": "Badi",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 150.0
+    },
+    {
+      "from": "Badi",
+      "to": "Dahlak",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 220.0
+    },
+    {
+      "from": "Dahlak",
+      "to": "Aden",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 300.0
+    },
+    {
+      "from": "Aden",
+      "to": "Gujarat ports",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 2900.0,
+      "note": "A monsoon-governed crossing; missing the wind could cost months."
+    },
+    {
+      "from": "Aden",
+      "to": "Sindabur",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 3300.0
+    },
+    {
+      "from": "Sindabur",
+      "to": "Manjalur",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 250.0
+    },
+    {
+      "from": "Manjalur",
+      "to": "Faknur",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 100.0
+    },
+    {
+      "from": "Faknur",
+      "to": "Kulam",
+      "etype": "sea_lane",
+      "directed": false,
+      "weight": 350.0
+    },
+    {
+      "from": "Yūsuf ibn ʿAwkal",
+      "to": "Fustat",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Yūsuf ibn ʿAwkal",
+      "to": "al-Mahdiyya",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Coordinated Egyptian flax exports with Maghribi and Sicilian agents."
+    },
+    {
+      "from": "Yūsuf ibn ʿAwkal",
+      "to": "Palermo",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Nahray b. Nissim",
+      "to": "Fustat",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Nahray b. Nissim",
+      "to": "Qayrawan",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Descended from a Qayrawan communal leader; migrated to Egypt around 1040."
+    },
+    {
+      "from": "Nahray b. Nissim",
+      "to": "al-Mahdiyya",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Nahray b. Nissim",
+      "to": "Alexandria",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The al-Tāhartī family",
+      "to": "Fustat",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Ibrahim b. Ishaq al-Tahartí's shop served as an address and forwarding point."
+    },
+    {
+      "from": "The al-Tāhartī family",
+      "to": "al-Mahdiyya",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The al-Tāhartī family",
+      "to": "Alexandria",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Four family members crossed from al-Mahdiyya to Alexandria in the same summer, mid-eleventh century."
+    },
+    {
+      "from": "Barhūn b. Mūsā",
+      "to": "Nahray b. Nissim",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Corresponded about sales, shipments, money, Sicily, Tripoli, and al-Mahdiyya."
+    },
+    {
+      "from": "Mūsā b. Abī al-Ḥayy",
+      "to": "Alexandria",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Mūsā b. Abī al-Ḥayy",
+      "to": "Nahray b. Nissim",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Supplied exceptionally detailed shipping intelligence: ships, owners, passengers, cargo, losses."
+    },
+    {
+      "from": "Yeqūtiʾel b. Mūsā",
+      "to": "Fustat",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Designated representative of the merchants there."
+    },
+    {
+      "from": "Yeqūtiʾel b. Mūsā",
+      "to": "Aden",
+      "etype": "uncertain",
+      "directed": true,
+      "weight": null,
+      "note": "The 1098 litigation against the India trader Yusuf al-Lebdi turned on goods and news thousands of kilometers away in Aden."
+    },
+    {
+      "from": "Maḍmūn b. Ḥasan b. Bundār",
+      "to": "Aden",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Maḍmūn b. Ḥasan b. Bundār",
+      "to": "Fustat",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Linked Egyptian, Yemeni, and Indian commercial circles."
+    },
+    {
+      "from": "Abraham b. Yijū",
+      "to": "Aden",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Abraham b. Yijū",
+      "to": "Manjalur",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Lived for years in India, traded, and operated a workshop."
+    },
+    {
+      "from": "Abraham b. Yijū",
+      "to": "Fustat",
+      "etype": "credit",
+      "directed": false,
+      "weight": null,
+      "note": "The 1149 civet consignment, forwarded from Aden through Fustat."
+    },
+    {
+      "from": "Abraham b. Yijū",
+      "to": "Palermo",
+      "etype": "credit",
+      "directed": false,
+      "weight": null,
+      "note": "Onward to a reportedly trustworthy Sicilian Jew named Samuel; at the time of writing, arrival was hoped for but not confirmed."
+    },
+    {
+      "from": "ʿAllān b. Ḥassūn",
+      "to": "Aden",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "ʿAllān b. Ḥassūn",
+      "to": "Dahlak",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "ʿAllān b. Ḥassūn",
+      "to": "Badi",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "ʿAllān b. Ḥassūn",
+      "to": "Sawakin",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "ʿAllān b. Ḥassūn",
+      "to": "Sindabur",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Sailed on when the Aden market was poor."
+    },
+    {
+      "from": "The Fatimid state",
+      "to": "Fustat",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "The Fatimid state",
+      "to": "Alexandria",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Customs, courts, and naval power that the network used but did not own."
+    },
+    {
+      "from": "Egyptian flax",
+      "to": "Fustat",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Egyptian flax",
+      "to": "Alexandria",
+      "etype": "relay",
+      "directed": false,
+      "weight": null,
+      "note": "Purchased, processed, and assembled for export."
+    },
+    {
+      "from": "Egyptian flax",
+      "to": "al-Mahdiyya",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    },
+    {
+      "from": "Egyptian flax",
+      "to": "Palermo",
+      "etype": "relay",
+      "directed": false,
+      "weight": null
+    }
+  ],
+  "sources": [
+    "https://geniza.princeton.edu/en/about/faq/",
+    "https://www.tandfonline.com/doi/full/10.1080/03044181.2012.673299",
+    "https://academic.oup.com/dsh/article/38/4/1536/7295829",
+    "https://www.cambridge.org/core/books/trade-and-institutions-in-the-medieval-mediterranean/82E09969C2C4B741D538DA7A46AF8F88",
+    "https://genizalab.princeton.edu/projects/indian-ocean-documents-cairo-geniza",
+    "https://geniza.princeton.edu/en/documents/7892/",
+    "https://geniza.princeton.edu/en/documents/9443/",
+    "https://www.persee.fr/doc/topoi_1764-0733_2012_act_11_1_2694",
+    "https://geniza.princeton.edu/en/people/nahray-b-nissim/",
+    "https://geniza.princeton.edu/en/documents/2059/",
+    "https://geniza.princeton.edu/en/documents/5918/",
+    "https://geniza.princeton.edu/en/documents/2084/",
+    "https://geniza.princeton.edu/he/documents/35790/",
+    "https://geniza.princeton.edu/en/documents/5504/",
+    "https://geniza.princeton.edu/he/documents/5512/",
+    "https://history.uwo.ca/people/Docs/Shatzmiller-Articles/02-The-Adoption-of-Paper-in-the-Middle-East.pdf",
+    "https://www.jstor.org/stable/jj.30599555"
+  ]
+}
