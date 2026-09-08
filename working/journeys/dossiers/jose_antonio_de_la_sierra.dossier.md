@@ -1043,7 +1043,6 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 
 - **Manuel Belgrano** [T4]
 - **Martín Miguel de Güemes** [T4]
-- **Jennifer Muller** [T5] (mirrored from jennifer_muller.dossier.md)
 
 ## Sources
 

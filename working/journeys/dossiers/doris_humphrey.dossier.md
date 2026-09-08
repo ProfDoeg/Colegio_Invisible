@@ -512,7 +512,6 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Rudolf Laban** [T9-]
 - **Ruth St. Denis** [T3] (mirrored from ruth_st_denis.dossier.md)
 - **Merce Cunningham** [T5] (mirrored from merce_cunningham.dossier.md)
-- **Jennifer Muller** [T9+] (mirrored from jennifer_muller.dossier.md)
 - **Dore Hoyer** [T5] (mirrored from dore_hoyer.dossier.md)
 - **Martha Graham** [T4] (mirrored from martha_graham.dossier.md)
 
