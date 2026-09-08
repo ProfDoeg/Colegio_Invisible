@@ -798,6 +798,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Silvio Berlusconi** [T3] (mirrored from silvio_berlusconi.dossier.md)
 - **Jair Messias Bolsonaro** [T3] (mirrored from jair_bolsonaro.dossier.md)
 - **Aleksandr Gelyevich Dugin** [T3] (mirrored from aleksandr_gelyevich_dugin.dossier.md)
+- **Taras Hryhorovych Shevchenko** [T1-] (mirrored from taras_shevchenko.dossier.md)
 - **Golda Meir** [T1-] (mirrored from golda_meir.dossier.md)
 - **Elon Reeve Musk** [T3] (mirrored from elon_musk.dossier.md)
 - **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)

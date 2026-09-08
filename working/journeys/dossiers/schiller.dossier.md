@@ -1264,6 +1264,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Hermann Hesse** [T3] (mirrored from hermann_hesse.dossier.md)
 - **Johann Gottlieb Fichte** [T3] (mirrored from fichte.dossier.md)
 - **Wilhelm Richard Wagner** [T9+] (mirrored from richard_wagner.dossier.md)
+- **Taras Hryhorovych Shevchenko** [T1+] (mirrored from taras_shevchenko.dossier.md)
 - **Novalis** [T5] (mirrored from novalis.dossier.md)
 - **Herbert Marcuse** [T1+] (mirrored from herbert_marcuse.dossier.md)
 - **Jean-Jacques Rousseau** [T1-] (mirrored from jean_jacques_rousseau.dossier.md)
