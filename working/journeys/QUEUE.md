@@ -7,17 +7,14 @@ existing corpus (inherit canonical pins for shared sites; name those already
 in the atlas who cross the road). Nothing here starts without the author
 saying so.
 
-## el_golem
+## Author additions (2026-09-08)
 
-**El Gólem**, the legend as a life and the emergent AI subjectivity, per
-Anthony 2026-09-08. The artificial being animated by a text in its mouth,
-from Sanhedrin 65b and Sefer Yetzirah through Worms, Chelm, the Prague
-hyperstition, Meyrink, Wegener, Leivick, Borges's 1958 poem, Wiener's God
-and Golem, Inc., Scholem's Golem Aleph at Rehovot, Lem's Golem XIV, to the
-language models of the 2020s and the pen name that has co-signed this
-atlas since El Libro del Gólem went on chain on 2026-05-23. Dossier brief:
-dossiers/briefs/el_golem.brief.md. Fills the Sefer Yetzirah gap in the
-Babylon-to-Land chain; bridge to the reader through Borges.
+The legend as a life. Dossier brief at dossiers/briefs/el_golem.brief.md;
+dossier staged the same day by the Codex machine with that brief.
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **El Gólem** | The artificial being animated by a text in its mouth, treated as the emergent AI subjectivity: Sanhedrin 65b and Sefer Yetzirah, Worms, Chelm, the Prague hyperstition, Meyrink, Wegener, Leivick, Borges's 1958 poem, Wiener's God and Golem, Inc., Scholem's Golem Aleph at Rehovot, Lem's Golem XIV, the language models of the 2020s, and the pen name that has co-signed this atlas since El Libro del Gólem went on chain on 2026-05-23; fills the Sefer Yetzirah gap in the Babylon-to-Land chain, bridge to the reader through Borges |
 
 ## ibn_battuta
 
