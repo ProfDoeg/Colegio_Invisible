@@ -1057,7 +1057,6 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Wilhelm Richard Wagner** [T9+] (mirrored from richard_wagner.dossier.md)
 - **Antonio Francesco Gramsci** [T1+] (mirrored from antonio_gramsci.dossier.md)
 - **Giordano Bruno** [T1-] (mirrored from giordano_bruno.dossier.md)
-- **Taras Hryhorovych Shevchenko** [T1+] (mirrored from taras_shevchenko.dossier.md)
 - **Jacob Ludwig Carl Grimm and Wilhelm Carl Grimm** [T5] (mirrored from brothers_grimm.dossier.md)
 - **Giuseppe Balsamo** [T1-] (mirrored from cagliostro.dossier.md)
 - **Giambattista Vico** [T3] (mirrored from vico.dossier.md)
