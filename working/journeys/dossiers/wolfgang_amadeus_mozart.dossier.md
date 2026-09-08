@@ -583,7 +583,6 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Wilhelm Richard Wagner** [T9+] (mirrored from richard_wagner.dossier.md)
 - **Paul Klee** [T3] (mirrored from paul_klee.dossier.md)
 - **Maurice Bernard Sendak** [T9+] (mirrored from maurice_sendak.dossier.md)
-- **Jennifer Muller** [T9+] (mirrored from jennifer_muller.dossier.md)
 - **Victor-Marie Hugo** [T1+] (mirrored from victor_hugo.dossier.md)
 - **Cecilia Vicuña** [T9+] (mirrored from cecilia_vicuna.dossier.md)
 - **George Balanchine** [T9+] (mirrored from george_balanchine.dossier.md)

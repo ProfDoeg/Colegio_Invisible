@@ -1358,7 +1358,6 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Sergei Pavlovich Diaghilev** [T9-]
 - **Vaslav Nijinsky** [T9-]
 - **Sara Rudner** [T4] (mirrored from sara_rudner.dossier.md)
-- **Jennifer Muller** [T5] (mirrored from jennifer_muller.dossier.md)
 - **Ted Shawn** [T4] (mirrored from ted_shawn.dossier.md)
 - **Elizabeth** [T3] (mirrored from elizabeth_bessie_burden.dossier.md)
 - **Anni Albers** [T3] (mirrored from anni_albers.dossier.md)

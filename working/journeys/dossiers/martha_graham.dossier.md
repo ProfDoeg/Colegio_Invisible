@@ -827,7 +827,6 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **José Arcadio Limón** [T4]
 - **Sara Rudner** [T4]
 - **Viola Farber** [T4]
-- **Jennifer Muller** [T4]
 - **Joseph Hubertus Pilates** [T4]
 - **John Fitzgerald Kennedy** [T4]
 - **Abraham Lincoln** [T9-]
@@ -837,7 +836,6 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **José Arcadio Limón** [T5] (mirrored from jose_limon.dossier.md)
 - **Vaslav Nijinsky** [T9-] (mirrored from vaslav_nijinsky.dossier.md)
 - **Doris Batcheller Humphrey** [T5] (mirrored from doris_humphrey.dossier.md)
-- **Jennifer Muller** [T9+] (mirrored from jennifer_muller.dossier.md)
 - **Dore Hoyer** [T5] (mirrored from dore_hoyer.dossier.md)
 - **Dore Hoyer** [T1+] (mirrored from dore_hoyer.dossier.md)
 - **Mary Wigman** [T3] (mirrored from mary_wigman.dossier.md)

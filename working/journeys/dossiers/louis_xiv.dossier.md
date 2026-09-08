@@ -1232,7 +1232,6 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Louis XVI** [T9+]
 - **Louis XVI** [T5]
 - **Clovis** [T9-] (mirrored from clovis.dossier.md)
-- **Christian "Kit" Cavanagh** [T1+] (mirrored from kit_cavanagh_mother_ross.dossier.md)
 - **Étienne Bazeries** [T1+] (mirrored from etienne_bazeries.dossier.md)
 - **Tommaso Campanella** [T3] (mirrored from tommaso_campanella.dossier.md)
 - **Marie Adrienne Françoise de Noailles** [T9+] (mirrored from madame_de_lafayette.dossier.md)
