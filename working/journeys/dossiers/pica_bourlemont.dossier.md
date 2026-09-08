@@ -896,7 +896,7 @@ Her enduring historical importance rests on one early narrative decision: freein
 
 ## Atlas Connections
 
-The atlas roster was checked for documented meetings, correspondence, collaboration, rivalry, kinship, patronage, shared institutions, and acknowledged influence.
+The atlas roster was checked for documented meetings, correspondence, collaboration, rivalry, kinship, patronage, shared institutions, and acknowledged influence. Two distinct evidentiary registers must be kept separate here: (1) the medieval documentary record, evaluated by the labels defined at the top of this dossier, and (2) the atlas's own mythic-canon register ("the canon is true"), in which the author's essay and Instagram corpus is itself treated as a legitimate primary source for the journey files, distinct from and not validated by medieval documentation. Both registers are reported below, clearly separated.
 
 ### Pica Bourlémont
 
@@ -904,26 +904,31 @@ The atlas roster was checked for documented meetings, correspondence, collaborat
 - **Evidentiary label:** documented identity as Francis’s mother under the name Pica; “Bourlémont” remains disputed.
 - A person is not counted as a connection to herself.
 
+### Francis of Assisi
+
+- **Nature:** son.
+- **Evidentiary label:** **reported fact with strong early textual support** — the strongest documented connection in this dossier.
+- Francis of Assisi appears in the atlas roster under the slug `saint_francis`. The medieval sources establish, at minimum: Pica named the infant Giovanni against paternal expectation (Legend of the Three Companions; Thomas of Celano, Vita Secunda 3); and she released Francis from Pietro's confinement during the 1205–1206 property dispute, an act with strong early textual support in Celano's Vita Prima 13, repeated in the Legend of the Three Companions and Bonaventure. Nothing in the medieval record documents contact between Pica and Francis after approximately 1206, nor establishes whether she was alive at his death in 1226.
+
 ### Pierre Bourlémont
 
-- **Nature claimed:** father of Pica in modern online family trees.
-- **Dates and places claimed:** approximately 1130–1170; French/Lorraine associations vary.
-- **Evidentiary label:** **allegation or theory / unverified genealogical claim**.
-- No medieval document consulted identifies Pierre Bourlémont as Pica’s father. The claim should not be entered as established kinship.
+Two separate and unrelated claims have circulated under this name. This dossier treats them separately so that rejecting one is never mistaken for rejecting the other.
+
+**Claim 1 — father, from modern online genealogy.** Some online family trees make a twelfth-century Pierre de Bourlémont (husband of Ide de Froville, reportedly dead without issue per the regional Lorraine genealogy) the father of Pica. **Evidentiary label: allegation or theory / unverified genealogical claim.** No medieval document identifies this or any Pierre Bourlémont as Pica's father, and Pierre Bourlémont's own dossier notes the regional genealogy records this couple as childless. This claim should not be entered as established kinship, and is not the basis for the entry below.
+
+**Claim 2 — cousin, from the atlas's own mythic-canon corpus.** Independent of the online-genealogy claim, the atlas's published journey files for Pica (`pica_bourlemont.journey.json`) and for Pierre Bourlémont (`pierre_bourlemont.journey.json`, "The Troubadour Cousin: From the Meuse to Ganja to Greccio") establish Pica and Pierre as first cousins from two branches of the same Lorraine Bourlémont house — Pica from a Provençal cloth-trading cadet branch, Pierre from the main château line at Frebécourt (matching the documented Pierre II de Bourlémont of `bourlemont_roster.md` Gen. 4, c. 1170–c. 1226, not the earlier, childless Pierre of Claim 1). The relationship is sourced to the author's own essay/Instagram corpus, principally `instagram/2023-01-14-la-familia-bourlemont-de-domremy-y.md`: "Pierre... gave his cousin Giovanna poetry in Persian, stories of the court of Ganja... The cousins were close, and it was Pierre who playfully gave Giovanna the nickname Pica." **Evidentiary label: corpus-attested mythic-canon connection, not medieval-documented kinship.** This is a real, citable connection within the atlas's own register. It is not the same claim as Claim 1, is not supported by any medieval document, and should never be presented as a historically documented family relationship, but it is the account this dossier's own "canon is true" journey file already tells, and it should be named here rather than left implicit.
 
 ### Joffrey de Bourlémont
 
-- **Nature claimed or implied:** possible member of the same noble house in expansive online pedigrees.
-- **Evidentiary label:** **unverified claim**.
-- No source consulted documents a meeting or family relationship between Pica and Joffrey de Bourlémont.
+By the same corpus-derived family structure, Joffrey is Pierre's son and therefore Pica's first cousin once removed. The published journey files for Pica, Pierre, and Joffrey (`joffrey_bourlemont.journey.json`, "The Fire Carried Home: Greccio, Jerusalem, and the Fairy Tree") converge on a shared scene: Pierre brings the twelve-year-old Joffrey to Greccio for Christmas 1223 "to know his older cousin, the son of Pica," and father and son receive communion from Francis's hands. **Evidentiary label: corpus-attested mythic-canon meeting, not medieval-documented kinship or contact.** As with Pierre, this is unrelated to, and should not be confused with, the separately rejected online-genealogy claim addressed in Joffrey's own dossier (Myth 5).
 
-### Francis of Assisi
+### Nizami
 
-Francis is the overwhelmingly important documented connection, but he does not appear as an independently listed person in the supplied atlas roster.
+No claimed connection between Pica and Nizami exists even within the corpus; they never appear together, and Nizami's own dossier does not mention Pierre, Pica, or the Bourlémont family. The link is two steps removed: per the same corpus material, the young Pierre met Nizami at Ganja and carried home the Khamsa's five sufferings, which he later taught to Pica. This is background to Pica's connection to Pierre, not a connection between Pica and Nizami, and should not be listed as one.
 
 ### Result
 
-**No securely documented crossing with another distinct person on the supplied atlas roster was found.** The absence is significant: neither similarity of surname nor membership in a retrospectively constructed noble genealogy is sufficient evidence of a relationship.
+Within the medieval documentary record, no securely documented crossing with another distinct person on the supplied atlas roster was found beyond Francis himself. Within the atlas's own mythic-canon register, however, Pica's published journey file is not a genealogical island: it already shares a family structure, named cousins, and a shared scene (Greccio, 1223) with the equally-published journey files of Pierre and Joffrey Bourlémont, sourced to the author's own essay corpus. Both facts should be stated plainly and kept distinct: neither surname similarity nor the debunked online genealogy is evidence of documented medieval kinship, but the atlas's own corpus-sourced family story is real, already canonical elsewhere in this project, and should be reflected here rather than contradicted by omission.
 
 ---
 
