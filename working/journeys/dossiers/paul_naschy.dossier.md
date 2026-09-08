@@ -479,6 +479,10 @@ Sitges now gives a **Brigadoon Paul Naschy Award** for short films. A wax figure
 
 - **[T5] Reported fact:** Naschy said that, while recuperating at home in Madrid after his 1991 heart surgery, he received repeated telephone calls from Steven Spielberg. According to Naschy, Spielberg discussed his films, proposed meeting him in the United States, and mentioned a possible tribute involving George Lucas. Filmmaker Víctor Barrera later supplied partial independent corroboration: Barrera said his daughter encountered Spielberg in Los Angeles, gave him Naschy’s telephone number, and that Spielberg subsequently called, although language difficulties reportedly curtailed their conversation. The sources therefore support a probable telephone meeting, but not every detail of Naschy’s fuller account. ([Naschy interview, July 2000](https://revistaelduende.com/creador/paul-naschy/); [Barrera interview, 2020](https://cerebrin.wordpress.com/2020/05/08/entrevista-a-victor-barrera-aka-victor-alcazar-aka-vic-winner/))
 
+### Gilles de Rais
+
+- **[T1-] Documented fact:** Naschy wrote and starred in *El mariscal del infierno* (1974, dir. León Klimovsky; Spanish-Argentine co-production of Profilmes, Barcelona, and Producciones Orbe, Buenos Aires; released in Argentina as *Los poseídos de Satán* and on English-language video as *The Devil's Possessed*). He played Barón Gilles de Lancré, a character he said he based on Gilles de Rais, having read Huysmans's fictionalized treatment of the marshal in *Là-bas*; the plot was reworked under censorship into a loose *Throne of Blood* / *Macbeth* variant. Filmed May-June 1974; released in Spain and Belgium in 1974; banned in Argentina the same year by the censor Tato for its violence. A later figure portraying an earlier roster subject, one-directional, the same shape as the Dreyer-Falconetti-Joan crossing. ([en.wikipedia, 'El Mariscal del infierno'](https://en.wikipedia.org/wiki/El_Mariscal_del_infierno), citing Troy Howarth, *Human Beasts: The Films of Paul Naschy* (WK Books, 2018), pp. 151, 318; [es.wikipedia, 'El mariscal del infierno'](https://es.wikipedia.org/wiki/El_mariscal_del_infierno)). Added 2026-09-08 per Anthony; the original research pass missed it.
+
 No other roster crossing met the stated evidentiary and typological thresholds. Naschy’s childhood viewing of Walt Disney’s *Snow White and the Seven Dwarfs*, his performances in Poe- or Lovecraft-derived productions, and his use of Frankensteinian material establish artistic reception or thematic influence, but not by themselves T1, T3, T4, T5, or T9 relationships with Walt Disney, Edgar Allan Poe, H. P. Lovecraft, or Mary Shelley.
 
 ### Connection Tags
@@ -486,6 +490,7 @@ No other roster crossing met the stated evidentiary and typological thresholds. 
 Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
 
 - **Steven Allan Spielberg** [T5]
+- **Gilles de Montmorency-Laval, baron de Rais** [T1-]
 
 ## Sources
 
