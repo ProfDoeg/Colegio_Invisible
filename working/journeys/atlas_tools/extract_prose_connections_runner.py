@@ -34,7 +34,7 @@ MARK_END = '=== EXTRACT_JSON_END ==='
 TYPE_GUIDE = """
 Classify each connection you find into exactly one of these six types, matching this project's fixed scheme:
 
-1 - Wrote about a past figure. sign "+" if THIS dossier's subject is the EARLIER/written-about figure, "-" if THIS subject is the LATER one doing the writing.
+1 - Wrote, taught, preached, or built doctrine/theology about a past figure -- includes literal biographical writing AND theological/doctrinal engagement such as venerating, identifying with, or claiming to be an incarnation, reincarnation, or second coming of an earlier figure. sign "+" if THIS dossier's subject is the EARLIER/written-about figure, "-" if THIS subject is the LATER one doing the writing/teaching/venerating.
 2 - Prophecy/hyperstition: an earlier figure's prophecy predicts OR causally helps manifest a later figure. sign "+" if this subject is the earlier/prophet, "-" if the later/fulfiller. subtype: "prediction" (retrofitted match, no causal role), "hyperstition" (belief in the prophecy caused people to act in ways that produced the outcome), or "unresolved".
 3 - Discourse: correspondence, mutual or one-sided written engagement, or one seeing the other perform. sign "" (undirected).
 4 - Proximity/milieu: same time and place, not necessarily interacting. sign "" (undirected).
