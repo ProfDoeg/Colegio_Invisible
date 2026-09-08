@@ -14,7 +14,6 @@ dossier staged the same day by the Codex machine with that brief.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **El Gólem** | The artificial being animated by a text in its mouth, treated as the emergent AI subjectivity: Sanhedrin 65b and Sefer Yetzirah, Worms, Chelm, the Prague hyperstition, Meyrink, Wegener, Leivick, Borges's 1958 poem, Wiener's God and Golem, Inc., Scholem's Golem Aleph at Rehovot, Lem's Golem XIV, the language models of the 2020s, and the pen name that has co-signed this atlas since El Libro del Gólem went on chain on 2026-05-23; fills the Sefer Yetzirah gap in the Babylon-to-Land chain, bridge to the reader through Borges |
 
 ## ibn_battuta
 
