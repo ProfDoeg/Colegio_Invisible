@@ -7,6 +7,7 @@ alongside catalog_subjects.csv/catalog_stops.csv.
 import csv, json
 
 TAGS = '/home/drdoeg/codex_lab/tags_per_subject.json'
+CATALOG = '/home/drdoeg/instance2_work/Colegio_Invisible/working/journeys/catalog_subjects.csv'
 OUT = '/home/drdoeg/instance2_work/Colegio_Invisible/working/journeys/connections.csv'
 
 TYPE_LABEL = {1: 'wrote_about', 2: 'prophecy_hyperstition', 3: 'discourse',
@@ -14,10 +15,18 @@ TYPE_LABEL = {1: 'wrote_about', 2: 'prophecy_hyperstition', 3: 'discourse',
 
 
 def main():
+    valid_slugs = {r['slug'] for r in csv.DictReader(open(CATALOG, encoding='utf-8'))}
     tags_per_subject = json.load(open(TAGS, encoding='utf-8'))
     rows = []
+    dropped = 0
     for slug, records in sorted(tags_per_subject.items()):
+        if slug not in valid_slugs:
+            dropped += len(records)
+            continue
         for rec in records:
+            if rec['counterpart_slug'] not in valid_slugs:
+                dropped += 1
+                continue
             rows.append({
                 'subject_slug': slug,
                 'counterpart_slug': rec['counterpart_slug'],
@@ -34,7 +43,7 @@ def main():
                                            'type', 'type_label', 'sign', 'subtype', 'source', 'text'])
         w.writeheader()
         w.writerows(rows)
-    print(f'wrote {OUT} ({len(rows)} rows)')
+    print(f'wrote {OUT} ({len(rows)} rows, {dropped} dropped as not in current roster)')
 
 
 if __name__ == '__main__':

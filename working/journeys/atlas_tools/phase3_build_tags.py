@@ -24,21 +24,25 @@ def opposite(sign):
     return {'+': '-', '-': '+', '': ''}.get(sign, '')
 
 
-def load_all():
+def load_all(valid_slugs):
     by_slug = {}
     for fname in os.listdir(EXTRACTED):
         if not fname.endswith('.json'):
             continue
         slug = fname[:-5]
+        if slug not in valid_slugs:
+            continue
         records = json.load(open(os.path.join(EXTRACTED, fname), encoding='utf-8'))
-        by_slug[slug] = [r for r in records if r.get('counterpart_slug')]
+        by_slug[slug] = [r for r in records
+                          if r.get('counterpart_slug') and r['counterpart_slug'] in valid_slugs]
     return by_slug
 
 
 def main():
     rows = list(csv.DictReader(open(f'{REPO}/catalog_subjects.csv')))
     name_by_slug = {r['slug']: r['traveler'].split('(')[0].split(',')[0].strip() for r in rows}
-    by_slug = load_all()
+    valid_slugs = set(name_by_slug)
+    by_slug = load_all(valid_slugs)
 
     final = defaultdict(list)
     seen = defaultdict(set)  # (slug, counterpart_slug, type, sign) already added
