@@ -889,6 +889,20 @@ No supported crossing was found with most of the atlas roster. Mere contemporane
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-08 by nodus1 from the section above. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. The legend is earlier than its commentators (Saadia, Abulafia, Borges, Wiener), but its machine body is later than the engineers who made it possible, so the five AI-lineage edges carry the minus sign: Turing, Shannon, von Neumann, Hinton and Bengio precede the golem's latest body. Comparative parallels the section above marks as unestablished (Ezekiel, Solomon, Albertus Magnus, Roger Bacon, Paracelsus, Mary Shelley, Moses de León) and institutional-only figures (Altman, Musk, Thiel, Kurzweil, Land, Harari, Searle, Weizmann) are deliberately not tagged.
+
+- **Saadia Gaon** [T1+]
+- **Abraham ben Samuel Abulafia** [T9+]
+- **Jorge Luis Borges** [T1+]
+- **Norbert Wiener** [T1+]
+- **Alan Mathison Turing** [T9-]
+- **Claude Elwood Shannon** [T9-]
+- **John von Neumann** [T9-]
+- **Geoffrey Everest Hinton** [T9-]
+- **Yoshua Bengio** [T9-]
+
 ## Present Status and Legacy
 
 The golem survives simultaneously as:
