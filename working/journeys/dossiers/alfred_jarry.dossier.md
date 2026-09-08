@@ -1157,7 +1157,6 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Jean Baudrillard** [T1+] (mirrored from jean_baudrillard.dossier.md)
 - **Antonin Artaud** [T1+] (mirrored from artaud.dossier.md)
 - **André Breton** [T3] (mirrored from andre_breton.dossier.md)
-- **Mnester** [T1-] (mirrored from mnester.dossier.md)
 - **Erik Satie** [T4] (mirrored from erik_satie.dossier.md)
 - **Henri-Louis Bergson** [T3] (mirrored from henri_bergson.dossier.md)
 - **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
