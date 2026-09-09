@@ -19,7 +19,6 @@ dossier staged the same day by the Codex machine with that brief.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Diego Gutiérrez Zaldívar** | Co-founder of Fundación Bitcoin Argentina (2013, with Rodolfo Andragnes and others), organizer of the first LaBitConf (Buenos Aires, December 2013), the underground meetups and Espacio Bitcoin; later RSK/IOV Labs; the community-builder seat of the Buenos Aires bitcoin scene, alongside Andragnes, whom Anthony may swap in |
 
 ## ibn_battuta
 
