@@ -36,7 +36,7 @@ def build_prompt(name, brief_path):
     brief = open(brief_path).read().split("---", 1)[1].strip()
     add = open(f"{D}/dossiers/ATLAS_CONNECTIONS_ADDENDUM.md").read().split("---", 1)[1].strip()
     deliver = (f"\n\nUse web search extensively for sources. Run a DEDICATED adversarial pass: "
-               f"search explicitly for \"{name}\" and for \"golem\" combined with controversy, "
+               f"search explicitly for \"{name}\" combined with controversy, "
                f"antisemitism, propaganda, hoax, fabrication, criticism, dispute, and the like, "
                f"including the most recent two years; the dossier must engage the major negative "
                f"and contested material with the usual evidentiary labels rather than omit it. "
