@@ -1,300 +1,300 @@
 # Diego Gutiérrez Zaldívar: Research Dossier
 
-## Nota metodológica
+## Methodological Note
 
-Dossier cerrado al **9 de septiembre de 2026**. Se utilizaron documentos corporativos, publicaciones oficiales, registros societarios, programas institucionales, entrevistas, prensa contemporánea, materiales técnicos y testimonios de protagonistas.
+Dossier closed on **September 9, 2026**. Corporate documents, official publications, company registries, institutional programs, interviews, contemporary press, technical materials and testimony from participants were used.
 
-Las etiquetas empleadas son:
+The labels employed are:
 
-- **Hecho documentado:** respaldado por documento primario, registro oficial o declaración directa verificable.
-- **Hecho reportado:** publicado por una fuente periodística o institucional, pero no comprobado independientemente mediante documentación primaria.
-- **Autodescripción:** afirmación biográfica o corporativa del propio interesado o de una organización vinculada.
-- **Alegación:** afirmación controvertida atribuible a una persona o parte identificada.
-- **Crítica técnica:** juicio sobre arquitectura, seguridad, descentralización o gobernanza, no acusación de conducta ilícita.
-- **No establecido:** la investigación no encontró evidencia pública suficiente.
-- **Sin evidencia encontrada:** resultado negativo del relevamiento, no demostración absoluta de inexistencia.
+- **Documented fact:** backed by a primary document, official record or directly verifiable statement.
+- **Reported fact:** published by a journalistic or institutional source, but not independently confirmed through primary documentation.
+- **Self-description:** a biographical or corporate claim by the subject himself or by an organization linked to him.
+- **Allegation:** a contested claim attributable to an identified person or party.
+- **Technical critique:** a judgment about architecture, security, decentralization or governance, not an accusation of unlawful conduct.
+- **Not established:** the research found insufficient public evidence.
+- **No evidence found:** a negative result of the survey, not absolute proof of nonexistence.
 
-Debe distinguirse entre **Bitcoin Argentina**, la comunidad informal surgida de reuniones y foros; la organización constituida desde 2013, llamada Fundación u ONG Bitcoin Argentina en distintas etapas; **Bitcoin Latam**, red regional; **LABITCONF**, conferencia organizada por miembros de ese núcleo; y las sociedades comerciales vinculadas a sus integrantes. La coincidencia personal y edilicia entre estas iniciativas no las convierte automáticamente en una sola entidad jurídica.
+A distinction must be drawn between **Bitcoin Argentina**, the informal community that grew out of meetups and forums; the organization constituted from 2013 onward, called Fundación or ONG Bitcoin Argentina at different stages; **Bitcoin Latam**, a regional network; **LABITCONF**, a conference organized by members of that core group; and the commercial companies linked to its members. The overlap of people and premises among these initiatives does not automatically make them a single legal entity.
 
 ---
 
 ## Basic Identifying Information
 
-**Nombre completo:** Diego Gutiérrez Zaldívar.
+**Full name:** Diego Gutiérrez Zaldívar.
 
-**Variantes empleadas públicamente:** Diego Gutierrez Zaldivar; Diego Gutiérrez; Diego Gutierrez; Diego Zaldívar.
+**Variants used publicly:** Diego Gutierrez Zaldivar; Diego Gutiérrez; Diego Gutierrez; Diego Zaldívar.
 
-**Alias y tratamientos públicos:**
+**Aliases and public forms of address:**
 
-- **“Dieguito”**, apodo utilizado habitualmente en el ecosistema argentino.
-- Cuenta pública: **@dieguito**.
-- En publicaciones de 2023 apareció como **“Diego ‘Aequalitatem Honoris’ Gutierrez-Zaldivar”**. No se encontró explicación documental del origen o alcance del agregado latino; debe tratarse como un nombre estilizado de redes, no como título civil o académico.
-- “El otro Diego argentino” fue una fórmula periodística vinculada con su incorporación al Crypto Hall of Fame y con la fama internacional de Diego Maradona.
+- **"Dieguito"**, a nickname commonly used in the Argentine ecosystem.
+- Public account: **@dieguito**.
+- In 2023 publications he appeared as **"Diego 'Aequalitatem Honoris' Gutierrez-Zaldivar"**. No documentary explanation of the origin or scope of the Latin addition was found; it should be treated as a stylized social media name, not as a civil or academic title.
+- "El otro Diego argentino" (the other Argentine Diego) was a journalistic formula linked to his induction into the Crypto Hall of Fame and to the international fame of Diego Maradona.
 
-**Nacimiento:** **28 de enero de 1975**. La fecha aparece en una publicación institucional de candidatos a socios y concuerda con la edad consignada en bases argentinas derivadas de registros tributarios.
+**Birth:** **January 28, 1975**. The date appears in an institutional publication of candidates for membership and agrees with the age recorded in Argentine databases derived from tax records.
 
-**Lugar de nacimiento:** **no establecido con fuente pública suficiente**. Las biografías lo identifican como argentino y estrechamente vinculado con Buenos Aires, pero no debe transformarse esa residencia o escolarización en una afirmación automática de nacimiento en la ciudad.
+**Place of birth:** **not established with a sufficient public source**. Biographies identify him as Argentine and closely tied to Buenos Aires, but that residence or schooling should not be turned into an automatic claim of birth in the city.
 
-**Nacionalidad:** argentina.
+**Nationality:** Argentine.
 
-**Estado vital:** vivo al cierre del dossier.
+**Vital status:** alive at the closing of the dossier.
 
-**Residencias y bases de actividad documentadas:**
+**Documented residences and bases of activity:**
 
-- Ciudad de Buenos Aires durante su educación y gran parte de su carrera.
-- Actividad posterior repartida entre Buenos Aires y una red internacional con sociedades u operaciones en Gibraltar, Uruguay y otros países.
-- Una base comercial lo localiza en CABA; esto acredita domicilio o actividad contemporánea, no nacimiento.
-- Viajes profesionales documentados por América Latina, Europa, Asia y Estados Unidos, aunque no existe un itinerario completo públicamente reconstruible.
+- City of Buenos Aires during his education and much of his career.
+- Later activity divided between Buenos Aires and an international network with companies or operations in Gibraltar, Uruguay and other countries.
+- A commercial database places him in CABA (the City of Buenos Aires); this attests to a contemporary domicile or activity, not to birth.
+- Documented professional travel through Latin America, Europe, Asia and the United States, though no complete itinerary can be publicly reconstructed.
 
-**Profesiones y funciones:** emprendedor tecnológico; desarrollador y ejecutivo de Internet; organizador comunitario; conferencista; cofundador de empresas de blockchain; cofundador de Bitcoin Argentina, Bitcoin Latam, LABITCONF, Koibanx y RSK Labs; CEO y luego chairman de IOV Labs; nuevamente CEO de RootstockLabs desde 2025.
+**Professions and roles:** technology entrepreneur; Internet developer and executive; community organizer; speaker; co-founder of blockchain companies; co-founder of Bitcoin Argentina, Bitcoin Latam, LABITCONF, Koibanx and RSK Labs; CEO and later chairman of IOV Labs; again CEO of RootstockLabs since 2025.
 
 ---
 
 ## Family and Ancestry
 
-No se encontró documentación pública fiable que establezca:
+No reliable public documentation was found establishing:
 
-- nombres u ocupaciones de sus padres;
-- hermanos;
-- cónyuge o pareja;
-- hijos;
-- ascendencia familiar;
-- vínculos patrimoniales familiares;
-- herencias o empresas familiares.
+- the names or occupations of his parents;
+- siblings;
+- spouse or partner;
+- children;
+- family ancestry;
+- family property ties;
+- inheritances or family businesses.
 
-El apellido compuesto **Gutiérrez Zaldívar** aparece en numerosas familias y actividades profesionales argentinas, pero la coincidencia nominal no permite imputar parentesco. La ausencia de información parece reflejar la separación que mantuvo entre su identidad pública profesional y su vida doméstica.
+The compound surname **Gutiérrez Zaldívar** appears in numerous Argentine families and professional activities, but a coincidence of names does not permit attributing kinship. The absence of information seems to reflect the separation he maintained between his public professional identity and his domestic life.
 
 ---
 
 ## Childhood and Early Life
 
-### Escolaridad
+### Schooling
 
-Según datos curriculares reproducidos por perfiles biográficos recientes:
+According to curricular data reproduced by recent biographical profiles:
 
-- **1982–1987:** Escuela N.º 26 **Adolfo Van Gelderen**.
-- **1988–1992:** Instituto Libre de Segunda Enseñanza (**ILSE**), colegio secundario dependiente de la Universidad de Buenos Aires.
-- Título secundario: bachiller con orientación humanística.
+- **1982–1987:** School No. 26 **Adolfo Van Gelderen**.
+- **1988–1992:** Instituto Libre de Segunda Enseñanza (**ILSE**), a secondary school under the University of Buenos Aires.
+- Secondary degree: bachiller with a humanities orientation.
 
-El ILSE combinaba una formación humanística rigurosa con acceso al ambiente universitario porteño. El dato es consistente con las biografías históricas que describen a Gutiérrez Zaldívar como poseedor de un “Bachelor’s in Humanities”, traducción imprecisa del bachillerato secundario argentino.
+ILSE combined rigorous humanities training with access to the university environment of Buenos Aires. The data is consistent with the historical biographies that describe Gutiérrez Zaldívar as holding a "Bachelor's in Humanities", an imprecise translation of the Argentine secondary-school bachillerato.
 
-### Universidad
+### University
 
-En **1993** ingresó en la Universidad de Buenos Aires para estudiar **Ingeniería Eléctrica/Electrónica**. Los perfiles públicos más detallados indican que la carrera quedó **inconclusa**.
+In **1993** he entered the University of Buenos Aires to study **Electrical/Electronic Engineering**. The most detailed public profiles indicate that the degree program was left **unfinished**.
 
-Algunas presentaciones, tesis y notas lo llamaron posteriormente “ingeniero electrónico”. No se encontró diploma ni constancia institucional que pruebe la graduación. La formulación documental prudente es: **cursó Ingeniería Electrónica en la UBA, sin título final públicamente comprobado**.
+Some presentations, theses and articles later called him an "ingeniero electrónico" (electronic engineer). No diploma or institutional record proving graduation was found. The prudent documentary formulation is: **he studied Electronic Engineering at the UBA, with no final degree publicly confirmed**.
 
-### Formación autodidacta
+### Self-taught training
 
-Su trayectoria muestra una formación técnica predominantemente práctica. En una entrevista sobre sus primeros pasos en Bitcoin relató haber pasado unos quince días leyendo intensamente sobre:
+His career shows a predominantly practical technical formation. In an interview about his first steps in Bitcoin he recounted spending about fifteen days reading intensively about:
 
-- historia del dinero;
-- Bitcoin y su arquitectura;
-- efectos sociales de monedas no estatales;
-- minería;
-- intercambio entre pares.
+- the history of money;
+- Bitcoin and its architecture;
+- the social effects of non-state currencies;
+- mining;
+- peer-to-peer exchange.
 
-Después comenzó a minar y a encontrarse con compradores y vendedores de LocalBitcoins. La narración procede del propio Gutiérrez Zaldívar y debe clasificarse como **testimonio autobiográfico**, aunque coincide con otras crónicas contemporáneas.
+He then began mining and meeting buyers and sellers from LocalBitcoins. The account comes from Gutiérrez Zaldívar himself and should be classified as **autobiographical testimony**, although it agrees with other contemporary accounts.
 
 ---
 
 ## Education and Formation
 
-No se identificaron maestros académicos formales. Las influencias verificables fueron principalmente técnicas y empresariales:
+No formal academic mentors were identified. The verifiable influences were mainly technical and entrepreneurial:
 
-- La primera Internet comercial argentina y la cultura web de mediados de los noventa.
-- Los equipos de Clarín Digital, Patagon.com y ElSitio.
-- **Wences Casares**, quien, según Gutiérrez Zaldívar, le presentó Bitcoin en 2011 y había organizado un primer meetup porteño.
-- La memoria argentina de la hiperinflación, el corralito de 2001 y los controles cambiarios.
-- Las tradiciones cypherpunk, de software abierto y dinero entre pares, aunque no se encontró una declaración suya que identifique a un único filósofo o economista como mentor.
-- La comunidad práctica formada por Rodolfo Andragnes, Franco Amati, Sergio Demian Lerner, Gabriel Kurman, Adrián Eidelman y otros emprendedores.
+- The first commercial Internet in Argentina and the web culture of the mid-1990s.
+- The teams at Clarín Digital, Patagon.com and ElSitio.
+- **Wences Casares**, who, according to Gutiérrez Zaldívar, introduced him to Bitcoin in 2011 and had organized a first meetup in Buenos Aires.
+- The Argentine memory of hyperinflation, the corralito of 2001 and exchange controls.
+- The cypherpunk, open-source and peer-to-peer money traditions, although no statement of his was found identifying a single philosopher or economist as a mentor.
+- The practical community formed by Rodolfo Andragnes, Franco Amati, Sergio Demian Lerner, Gabriel Kurman, Adrián Eidelman and other entrepreneurs.
 
-En 2025 agradeció públicamente a la organización REF y a sus líderes por diez años de formación personal y profesional en liderazgo. Esa relación corresponde a una etapa madura, no a su educación inicial.
+In 2025 he publicly thanked the organization REF and its leaders for ten years of personal and professional training in leadership. That relationship belongs to a mature stage, not to his early education.
 
 ---
 
 ## Early Career: Internet and the Dot-Com Period
 
-### 1995: comienzo profesional
+### 1995: professional beginning
 
-Las biografías de la Fundación Bitcoin, RIF y RSK sitúan en **1995** su entrada en el desarrollo web argentino. Ese año aparece asociado con:
+The biographies from Fundación Bitcoin, RIF and RSK place his entry into Argentine web development in **1995**. That year appears associated with:
 
-- **Xinergia**, firma de desarrollo web de la que fue fundador y ejecutivo durante aproximadamente diecisiete años;
-- el equipo inicial de **Clarín Digital**, donde habría trabajado como webmaster;
-- **Internet Argentina**, descrita en sus biografías como uno de los primeros ISP argentinos y el primero en proporcionar ADSL.
+- **Xinergia**, a web development firm of which he was founder and executive for approximately seventeen years;
+- the initial team of **Clarín Digital**, where he reportedly worked as webmaster;
+- **Internet Argentina**, described in his biographies as one of the first Argentine ISPs and the first to provide ADSL.
 
-Estas afirmaciones se repiten en perfiles institucionales vinculados con él, pero la investigación no localizó actas societarias o contratos laborales de 1995 que permitan precisar capital, porcentajes accionarios o fechas individuales.
+These claims are repeated in institutional profiles linked to him, but the research did not locate corporate minutes or employment contracts from 1995 that would allow capital, shareholdings or individual dates to be specified.
 
 ### Clarín Digital
 
-**Hecho reportado/autodescripción:** integró el equipo fundador del portal digital del diario Clarín.
+**Reported fact/self-description:** he was part of the founding team of the digital portal of the newspaper Clarín.
 
-No debe confundirse la integración del equipo técnico con propiedad del Grupo Clarín. No se encontró evidencia de participación accionaria en el grupo periodístico.
+Membership in the technical team should not be confused with ownership of Grupo Clarín. No evidence of a shareholding in the media group was found.
 
 ### Patagon.com
 
-Las biografías lo presentan como integrante del equipo fundador de **Patagon.com**, comunidad y plataforma financiera surgida durante la burbuja puntocom.
+The biographies present him as a member of the founding team of **Patagon.com**, a financial community and platform that emerged during the dot-com bubble.
 
-Suelen agregar que Patagon fue vendida al Banco Santander por **US$750 millones**. Esa cifra describe el valor ampliamente reportado de la operación empresarial; no prueba que Gutiérrez Zaldívar recibiera personalmente una fracción determinada. No se hallaron tablas de capitalización o documentos que cuantifiquen su participación.
+They usually add that Patagon was sold to Banco Santander for **US$750 million**. That figure describes the widely reported value of the corporate transaction; it does not prove that Gutiérrez Zaldívar personally received any particular fraction. No capitalization tables or documents quantifying his stake were found.
 
 ### ElSitio.com
 
-Fue **gerente de Investigación y Desarrollo** de ElSitio.com, al frente de un equipo consignado alternativamente como de veinte o veinticinco desarrolladores. La discrepancia probablemente refleja distintos momentos o redondeos.
+He served as **Research and Development manager** of ElSitio.com, heading a team recorded alternately as twenty or twenty-five developers. The discrepancy probably reflects different moments or rounding.
 
 ### Edunexo
 
-Desde aproximadamente **2002**, formó parte del equipo fundador de **Edunexo**, proveedor de software como servicio para gestionar instituciones educativas públicas y privadas de América Latina y España. Perfiles posteriores lo describen como director, pero no se localizaron estados societarios históricos suficientes para reconstruir su participación económica.
+From approximately **2002**, he was part of the founding team of **Edunexo**, a software-as-a-service provider for managing public and private educational institutions in Latin America and Spain. Later profiles describe him as a director, but not enough historical corporate filings were located to reconstruct his economic stake.
 
 ### Trusted Translations
 
-Ejerció como **CTO de Trusted Translations**. Una consulta técnica enviada en septiembre de 2010 a la lista de Samba desde una dirección de la empresa confirma actividad técnica directa: estaba trabajando con una compilación de desarrollo de Samba 4 y migración de un dominio Windows Server.
+He served as **CTO of Trusted Translations**. A technical query sent in September 2010 to the Samba list from a company address confirms direct technical activity: he was working with a development build of Samba 4 and the migration of a Windows Server domain.
 
-### Otros proyectos anteriores o paralelos
+### Other earlier or parallel projects
 
-Biografías profesionales le atribuyen:
+Professional biographies attribute to him:
 
-- **Cero a Cien**, plataforma de gestión y tutoría para emprendedores;
-- **Arraiga**, iniciativa de capacitación informática e inserción laboral;
-- **Restocoins**, sistema concebido para facilitar la aceptación de bitcoin en restaurantes y cafés.
+- **Cero a Cien**, a management and mentoring platform for entrepreneurs;
+- **Arraiga**, an IT training and job placement initiative;
+- **Restocoins**, a system conceived to make it easier for restaurants and cafés to accept bitcoin.
 
-No se encontraron balances, actas constitutivas, volumen de clientes o resultados financieros de estos proyectos. Su existencia está documentada principalmente por biografías del propio ecosistema. Restocoins parece haber sido un experimento de adopción, no una plataforma que alcanzara escala comparable con RSK.
+No balance sheets, articles of incorporation, client volumes or financial results for these projects were found. Their existence is documented mainly by biographies from the ecosystem itself. Restocoins appears to have been an adoption experiment, not a platform that reached a scale comparable to RSK.
 
 ---
 
 ## Encounter with Bitcoin, 2011–2012
 
-### Introducción por Wences Casares
+### Introduction by Wences Casares
 
-Según su relato:
+According to his account:
 
-1. **Wences Casares**, emprendedor argentino posteriormente vinculado con Xapo, le presentó Bitcoin en **2011**.
-2. Gutiérrez Zaldívar estudió intensamente la historia del dinero y el protocolo.
-3. Compró equipo para minar.
-4. Usó LocalBitcoins para localizar participantes porteños.
-5. Realizó compraventas presenciales de BTC contra pesos en cafés y locales de comida rápida.
-6. Casares había impulsado un primer encuentro; Gutiérrez Zaldívar le pidió hacerse cargo del meetup y organizarlo regularmente.
-7. En ese proceso conoció a **Rodolfo Andragnes** y **Franco Amati**.
+1. **Wences Casares**, an Argentine entrepreneur later linked to Xapo, introduced him to Bitcoin in **2011**.
+2. Gutiérrez Zaldívar studied the history of money and the protocol intensively.
+3. He bought mining equipment.
+4. He used LocalBitcoins to locate participants in Buenos Aires.
+5. He carried out in-person purchases and sales of BTC against pesos in cafés and fast-food outlets.
+6. Casares had promoted a first gathering; Gutiérrez Zaldívar asked to take charge of the meetup and organize it regularly.
+7. In that process he met **Rodolfo Andragnes** and **Franco Amati**.
 
-Una entrevista retrospectiva de 2021 lo recuerda así: “me juntaba en cafeterías, en McDonald” y en 2012 realizaron el primer meetup. Otra crónica sitúa reuniones pequeñas desde 2011. La diferencia puede conciliarse distinguiendo encuentros informales o el meetup de Casares en 2011 de la organización estable asumida por Gutiérrez Zaldívar en 2012.
+A retrospective interview from 2021 recalls it this way: "me juntaba en cafeterías, en McDonald" (I would meet people in cafés, at McDonald's), and in 2012 they held the first meetup. Another account places small gatherings from 2011 onward. The difference can be reconciled by distinguishing informal encounters or Casares's 2011 meetup from the stable organization taken on by Gutiérrez Zaldívar in 2012.
 
-### Qué era la escena inicial
+### What the early scene was
 
-No había un mercado regulado o exchange argentino líquido. Los participantes:
+There was no regulated market or liquid Argentine exchange. Participants:
 
-- se encontraban mediante LocalBitcoins, foros, Facebook y Meetup;
-- acordaban una cotización;
-- llevaban pesos o dólares en efectivo;
-- se reunían en cafés;
-- verificaban en computadoras o teléfonos la transferencia;
-- intercambiaban información técnica y económica.
+- found each other through LocalBitcoins, forums, Facebook and Meetup;
+- agreed on a price;
+- brought pesos or dollars in cash;
+- met in cafés;
+- verified the transfer on computers or phones;
+- exchanged technical and economic information.
 
-Una página temprana de Meetup anunció encuentros en **Palermo, Recoleta, Belgrano y Microcentro**, en español e inglés, tanto para debatir como para comprar o vender.
+An early Meetup page announced gatherings in **Palermo, Recoleta, Belgrano and Microcentro**, in Spanish and English, both for discussion and for buying or selling.
 
-No se pudo fijar un único “primer bar”. Las fuentes hablan genéricamente de cafés y McDonald’s; atribuir la primacía a un local concreto sería especulativo.
+No single "first bar" could be fixed. The sources speak generically of cafés and McDonald's; attributing primacy to a specific venue would be speculative.
 
 ---
 
 ## The Buenos Aires Underground Bitcoin Scene, 2012–2015
 
-### Contexto económico: cepo, dólar blue y memoria de crisis
+### Economic context: the cepo cambiario (currency controls), the dólar blue (parallel-market dollar) and the memory of crisis
 
-El control de cambios instalado desde fines de 2011 limitó el acceso formal a divisas. Entre 2012 y 2015 coexistieron:
+The exchange controls installed from late 2011 limited formal access to foreign currency. Between 2012 and 2015 the following coexisted:
 
-- tipo de cambio oficial;
-- dólar “blue” o paralelo;
-- cuevas y cambistas;
-- restricciones para compras exteriores;
-- inflación elevada;
-- desconfianza derivada del corralito y la pesificación de 2001–2002.
+- an official exchange rate;
+- the dólar blue, or parallel dollar;
+- cuevas (informal exchange houses) and money changers;
+- restrictions on purchases abroad;
+- high inflation;
+- distrust stemming from the corralito and the pesification of 2001–2002.
 
-Gutiérrez Zaldívar explicaría después que muchos argentinos recordaban la hiperinflación y el congelamiento de depósitos y, por ello, desconfiaban de bancos y gobiernos. Esa interpretación es suya, aunque el nexo entre controles cambiarios y adopción también fue observado por prensa local e internacional.
+Gutiérrez Zaldívar would later explain that many Argentines remembered hyperinflation and the freezing of deposits and therefore distrusted banks and governments. That interpretation is his own, although the link between exchange controls and adoption was also observed by the local and international press.
 
-CoinDesk calculó en 2014 que, en 54 de 72 días estudiados, el precio implícito del dólar obtenido comprando bitcoin fue superior al dólar blue, con primas que podían llegar al 20–30 %. Bitcoin no era, por tanto, una vía sistemáticamente barata: proporcionaba transferibilidad internacional y resistencia a controles, pero incorporaba volatilidad, spreads y escasez local.
+CoinDesk calculated in 2014 that, on 54 of the 72 days studied, the implicit dollar price obtained by buying bitcoin was higher than the dólar blue, with premiums that could reach 20–30%. Bitcoin was therefore not a systematically cheap route: it provided international transferability and resistance to controls, but it carried volatility, spreads and local scarcity.
 
-### Operación cotidiana
+### Day-to-day operation
 
-Las fuentes contemporáneas mencionan:
+Contemporary sources mention:
 
-- compraventa en efectivo en cafés;
+- cash purchases and sales in cafés;
 - LocalBitcoins;
 - Digicoins;
 - Unisend;
-- grupos activos de Facebook;
-- minería favorecida por tarifas eléctricas subsidiadas;
-- compras internacionales;
-- freelancers y trabajadores tecnológicos que buscaban recibir o mover valor fuera del circuito cambiario tradicional.
+- active Facebook groups;
+- mining favored by subsidized electricity rates;
+- international purchases;
+- freelancers and technology workers seeking to receive or move value outside the traditional exchange circuit.
 
-La crónica de Nathaniel Popper, “Can Bitcoin Conquer Argentina?”, retrató en 2015 operadores con cajas de efectivo, laptops y fajos de dólares y pesos. Su tesis describía a Argentina como laboratorio de uso cotidiano, aunque no demostró adopción masiva de toda la población.
+Nathaniel Popper's feature, "Can Bitcoin Conquer Argentina?", portrayed in 2015 traders with cash boxes, laptops and wads of dollars and pesos. Its thesis described Argentina as a laboratory of everyday use, although it did not demonstrate mass adoption across the whole population.
 
-### Comercios y mapa “Bitcoin friendly”
+### Merchants and the "Bitcoin friendly" map
 
-Coinmap registraba más puntos de aceptación porteños por habitante que varias otras capitales regionales. Aparecieron restaurantes, cafés y servicios tecnológicos dispuestos a probar pagos.
+Coinmap recorded more acceptance points per inhabitant in Buenos Aires than in several other regional capitals. Restaurants, cafés and technology services willing to try payments appeared.
 
-Restocoins buscó simplificar la aceptación gastronómica. Sin embargo, gran parte de la “aceptación” era experimental:
+Restocoins sought to simplify acceptance in the food and drink sector. However, much of the "acceptance" was experimental:
 
-- algunos comerciantes aceptaban pagos ocasionales;
-- otros dependían de procesadores que convertían inmediatamente a moneda local;
-- los mapas podían conservar comercios que ya no aceptaban BTC;
-- historias de taxis, delivery o consumos cotidianos circularon como demostraciones de posibilidad, no como estadísticas de uso sostenido.
+- some merchants accepted occasional payments;
+- others depended on processors that converted immediately to local currency;
+- the maps could retain businesses that no longer accepted BTC;
+- stories about taxis, delivery or everyday purchases circulated as demonstrations of possibility, not as statistics of sustained use.
 
-**Resultado documental:** hubo una red real de comercios pioneros, pero no se encontró un censo auditado que permita cuantificar transacciones o permanencia.
+**Documentary result:** there was a real network of pioneering merchants, but no audited census was found that would allow transactions or persistence to be quantified.
 
-### Primera feria, octubre de 2013
+### First fair, October 2013
 
-El 29 de octubre de 2013, *El Cronista/Information Technology* publicó una crónica de la primera feria argentina organizada en **La Maquinita**, espacio de coworking de Palermo Soho. Francisco Dosca explicó que hasta entonces celebraban uno o dos encuentros informales por mes mediante Meetup y querían ampliar la escala.
+On October 29, 2013, *El Cronista/Information Technology* published an account of the first Argentine fair, organized at **La Maquinita**, a coworking space in Palermo Soho. Francisco Dosca explained that until then they had held one or two informal gatherings a month through Meetup and wanted to expand the scale.
 
 ### Fundación/ONG Bitcoin Argentina
 
-La organización afirma operar **desde 2013**. Su página actual reconoce tres socios fundadores:
+The organization states that it has operated **since 2013**. Its current page recognizes three founding members:
 
 - **Rodolfo Andragnes**;
 - **Franco Amati**;
 - **Diego Gutiérrez Zaldívar**.
 
-Fuentes contemporáneas llamaban a los tres “caras visibles”. Gutiérrez Zaldívar fue presidente; Andragnes fue organizador, divulgador y posteriormente figura central de LABITCONF; Amati aportó experiencia técnica, activismo libertario y organización del Espacio Bitcoin.
+Contemporary sources called the three the "caras visibles" (public faces). Gutiérrez Zaldívar was president; Andragnes was organizer, communicator and later the central figure of LABITCONF; Amati contributed technical experience, libertarian activism and the organization of Espacio Bitcoin.
 
-El objetivo declarado incluía:
+The stated objective included:
 
-- educación;
-- estudio tecnológico, económico, jurídico y social;
-- defensa de usuarios;
-- producción de información para Estado y medios;
-- promoción de economías digitales descentralizadas.
+- education;
+- technological, economic, legal and social study;
+- defense of users;
+- production of information for the State and the media;
+- promotion of decentralized digital economies.
 
-La entidad fue descrita alternativamente como fundación, ONG o asociación. En 2014 se informó que debía inscribirse ante la IGJ como **Fundación para el Desarrollo de Ecosistemas Descentralizados**. Su configuración jurídica posterior aparece también asociada al nombre DECODES. La variación nominal explica parte de la crítica sobre si “Fundación Bitcoin Argentina” era la denominación jurídica exacta en cada momento.
+The entity was described alternately as a foundation, NGO or association. In 2014 it was reported that it was to be registered with the IGJ as **Fundación para el Desarrollo de Ecosistemas Descentralizados** (Foundation for the Development of Decentralized Ecosystems). Its later legal configuration also appears associated with the name DECODES. The variation in names explains part of the criticism over whether "Fundación Bitcoin Argentina" was the exact legal denomination at each moment.
 
-### Motivo mediático
+### Media motive
 
-Gutiérrez Zaldívar dijo que la asociación surgió, en parte, porque la prensa relacionaba bitcoin con drogas, ilícitos y lavado y ellos querían ofrecer historias de usos positivos. La organización actuó simultáneamente como:
+Gutiérrez Zaldívar said the association arose, in part, because the press linked bitcoin to drugs, crime and money laundering, and they wanted to offer stories of positive uses. The organization acted simultaneously as:
 
-- comunidad educativa;
-- interlocutor mediático;
-- red profesional;
-- incubadora informal;
-- punto de contacto con reguladores y empresas.
+- an educational community;
+- a media interlocutor;
+- a professional network;
+- an informal incubator;
+- a point of contact with regulators and companies.
 
 ### Espacio Bitcoin
 
-En junio-julio de 2014 se preparó un edificio de aproximadamente **500 m²**, tres plantas y terraza en **Marcelo Torcuato de Alvear 405**, esquina Reconquista, Microcentro.
+In June-July 2014 a building of approximately **500 m²**, three floors and a rooftop terrace was prepared at **Marcelo Torcuato de Alvear 405**, at the corner of Reconquista, in Microcentro.
 
-Incluía:
+It included:
 
-- siete oficinas;
-- sala de capacitación para unas cincuenta personas;
-- coworking para aproximadamente veinticuatro emprendedores;
-- sala de reuniones;
-- alojamiento para visitantes o trabajadores;
-- terraza con parrilla.
+- seven offices;
+- a training room for about fifty people;
+- coworking for approximately twenty-four entrepreneurs;
+- a meeting room;
+- lodging for visitors or workers;
+- a terrace with a grill.
 
-Fue presentado como “Embajada Bitcoin”, “Bitcoin Center”, “Espacio Bitcoin” y más tarde Espacio Cultural Bitcoin. Franco Amati aparece como cofundador y anfitrión; Gutiérrez Zaldívar y la ONG fueron impulsores y ocupantes. No se encontró escritura que identifique al propietario del inmueble ni permita atribuir a Diego propiedad personal.
+It was presented as "Embajada Bitcoin" (Bitcoin Embassy), "Bitcoin Center", "Espacio Bitcoin" and later Espacio Cultural Bitcoin. Franco Amati appears as co-founder and host; Gutiérrez Zaldívar and the NGO were promoters and occupants. No deed was found identifying the owner of the property or allowing personal ownership to be attributed to Diego.
 
 ### Casa Voltaire
 
-Debe distinguirse Espacio Bitcoin de **Casa Voltaire**, casa de Palermo que desde 2014 concentró equipos como BitPay y futuros emprendimientos tecnológicos. Ambas formaron parte del ecosistema porteño, pero las fuentes no demuestran que fueran una misma organización ni que Gutiérrez Zaldívar controlara Casa Voltaire.
+Espacio Bitcoin must be distinguished from **Casa Voltaire**, a house in Palermo that from 2014 gathered teams such as BitPay and future technology ventures. Both were part of the Buenos Aires ecosystem, but the sources do not show that they were the same organization or that Gutiérrez Zaldívar controlled Casa Voltaire.
 
-### Visitantes y evangelistas internacionales
+### International visitors and evangelists
 
-LABITCONF y los encuentros regionales atrajeron a figuras como:
+LABITCONF and the regional gatherings attracted figures such as:
 
 - Andreas M. Antonopoulos;
 - Erik Voorhees;
@@ -305,44 +305,44 @@ LABITCONF y los encuentros regionales atrajeron a figuras como:
 - Jeff Garzik;
 - Brock Pierce.
 
-La participación exacta varió según edición. Antonopoulos y Voorhees están documentados en la conferencia inaugural; el material de ediciones posteriores incorporó muchos de los demás.
+Exact participation varied by edition. Antonopoulos and Voorhees are documented at the inaugural conference; material from later editions incorporated many of the others.
 
-**Vitalik Buterin:** circulan referencias a visitas a Buenos Aires y aparece como speaker de LABITCONF 2024, pero esta investigación no encontró una fuente suficientemente clara que documente un encuentro personal específico con Gutiérrez Zaldívar durante una supuesta visita de 2014. No se afirma el cruce para ese año.
+**Vitalik Buterin:** references to visits to Buenos Aires circulate and he appears as a speaker at LABITCONF 2024, but this research found no sufficiently clear source documenting a specific personal meeting with Gutiérrez Zaldívar during a supposed 2014 visit. The crossing is not asserted for that year.
 
 ---
 
 ## LABITCONF
 
-### Fundación y primera edición
+### Founding and first edition
 
-Gutiérrez Zaldívar, Rodolfo Andragnes y el núcleo de Bitcoin Argentina organizaron la primera **Latin American Bitcoin Conference**, después estilizada **LABITCONF**.
+Gutiérrez Zaldívar, Rodolfo Andragnes and the core of Bitcoin Argentina organized the first **Latin American Bitcoin Conference**, later stylized **LABITCONF**.
 
-- **Fechas:** 7–8 de diciembre de 2013.
-- **Lugar:** Hotel Meliá Buenos Aires, calle Reconquista.
-- **Escala reportada:** más de treinta expositores y unos cuatrocientos asistentes.
-- **Contenido:** protocolo Bitcoin, regulación, comercio, minería, inversión y adopción latinoamericana.
+- **Dates:** December 7–8, 2013.
+- **Venue:** Hotel Meliá Buenos Aires, on Reconquista street.
+- **Reported scale:** more than thirty speakers and about four hundred attendees.
+- **Content:** the Bitcoin protocol, regulation, commerce, mining, investment and Latin American adoption.
 
-El evento se convirtió en espacio de encuentro entre comunidades nacionales y visitantes extranjeros.
+The event became a meeting point between national communities and foreign visitors.
 
-### Itinerario principal
+### Main itinerary
 
-La cronología oficial de LABITCONF registra:
+The official LABITCONF chronology records:
 
 - **2013 – Argentina:** Buenos Aires.
-- **2014 – Brasil:** Río de Janeiro, 6–7 de diciembre, Rio Othon Palace, Copacabana.
-- **2015 – México:** Ciudad de México, 4–5 de diciembre.
+- **2014 – Brazil:** Rio de Janeiro, December 6–7, Rio Othon Palace, Copacabana.
+- **2015 – Mexico:** Mexico City, December 4–5.
 - **2016 – Argentina:** Buenos Aires.
 - **2017 – Colombia:** Bogotá.
 - **2018 – Chile:** Santiago.
-- **2019 – Uruguay:** Montevideo, 12–13 de diciembre.
-- **2020 – “La Luna”:** edición virtual tematizada durante la pandemia.
+- **2019 – Uruguay:** Montevideo, December 12–13.
+- **2020 – "La Luna" (The Moon):** a themed virtual edition during the pandemic.
 - **2021 – El Salvador.**
 - **2022 – Argentina:** Buenos Aires.
-- **2023:** la cronología pública consultada no la enumera de manera consistente como edición ordinaria; hubo actividades y debates asociados a la marca.
-- **2024 – Argentina:** Buenos Aires, Costa Salguero, 1–2 de noviembre.
-- **2025/2026:** la marca continuó con programación, incluida una edición B2B anunciada para Ciudad de México y una edición porteña programada para octubre de 2026.
+- **2023:** the public chronology consulted does not list it consistently as a regular edition; there were activities and debates associated with the brand.
+- **2024 – Argentina:** Buenos Aires, Costa Salguero, November 1–2.
+- **2025/2026:** the brand continued with programming, including a B2B edition announced for Mexico City and a Buenos Aires edition scheduled for October 2026.
 
-LABITCONF se autodefine como la conferencia Bitcoin de funcionamiento continuo más antigua. La afirmación depende de qué eventos mundiales se computen y de cómo se traten la edición virtual y los años sin formato ordinario; debe leerse como **reivindicación de marca**, no como récord certificado por una autoridad independiente.
+LABITCONF defines itself as the oldest continuously running Bitcoin conference. The claim depends on which world events are counted and on how the virtual edition and the years without a regular format are treated; it should be read as a **brand claim**, not as a record certified by an independent authority.
 
 ---
 
@@ -350,584 +350,584 @@ LABITCONF se autodefine como la conferencia Bitcoin de funcionamiento continuo m
 
 ### Wences Casares
 
-Amigo y primer introductor de Gutiérrez Zaldívar a Bitcoin, según su testimonio. Casares realizó o promovió el primer meetup y posteriormente le cedió la organización regular.
+Friend and first introducer of Gutiérrez Zaldívar to Bitcoin, according to his testimony. Casares held or promoted the first meetup and later handed him the regular organization.
 
 ### Rodolfo Andragnes
 
-Cofundador de Bitcoin Argentina, organizador de LABITCONF, coimpulsor del Espacio Bitcoin y socio posterior en Magic Internet Money SRL.
+Co-founder of Bitcoin Argentina, organizer of LABITCONF, co-promoter of Espacio Bitcoin and later partner in Magic Internet Money SRL.
 
 ### Franco Amati
 
-Cofundador de Bitcoin Argentina y Espacio Bitcoin. En 2022 cedió cuotas de Magic Internet Money SRL a Andragnes y Gutiérrez Zaldívar.
+Co-founder of Bitcoin Argentina and Espacio Bitcoin. In 2022 he transferred shares (cuotas) of Magic Internet Money SRL to Andragnes and Gutiérrez Zaldívar.
 
 ### Sergio Demian Lerner
 
-Especialista en seguridad, investigador de Bitcoin y cofundador/chief scientist de RSK. Fue el principal socio técnico de Gutiérrez Zaldívar en Rootstock.
+Security specialist, Bitcoin researcher and co-founder/chief scientist of RSK. He was Gutiérrez Zaldívar's main technical partner at Rootstock.
 
-### Gabriel Kurman, Adrián Eidelman y Rubén Altman
+### Gabriel Kurman, Adrián Eidelman and Rubén Altman
 
-Integrantes reconocidos por Gutiérrez Zaldívar como cofundadores de IOV Labs/RSK. Kurman también aparece en iniciativas de adopción y Koibanx; Eidelman y Altman tuvieron funciones corporativas y técnicas.
+Recognized by Gutiérrez Zaldívar as co-founders of IOV Labs/RSK. Kurman also appears in adoption initiatives and Koibanx; Eidelman and Altman held corporate and technical roles.
 
 ### Leo Elduayen
 
-Cofundador y CEO de Koibanx. Gutiérrez Zaldívar permaneció como cofundador, socio e inversor. La empresa evolucionó hacia infraestructura blockchain para bancos, fintechs y gobiernos.
+Co-founder and CEO of Koibanx. Gutiérrez Zaldívar remained as co-founder, partner and investor. The company evolved toward blockchain infrastructure for banks, fintechs and governments.
 
 ### Gonzalo Blousson
 
-Miembro y dirigente posterior de la ONG Bitcoin Argentina; vinculado con educación y organización comunitaria.
+Member and later leader of the ONG Bitcoin Argentina; linked to education and community organization.
 
 ### Santiago Siri
 
-Parte del ecosistema argentino de tecnología cívica, democracia digital y cripto. No se encontró evidencia suficiente de sociedad empresarial directa con Diego.
+Part of the Argentine ecosystem of civic technology, digital democracy and crypto. Insufficient evidence was found of a direct business partnership with Diego.
 
-### Alberto Vega y Guillermo Torrealba
+### Alberto Vega and Guillermo Torrealba
 
-Los nombres aparecen en redes y proyectos regionales, pero las fuentes consultadas no permitieron fijar una relación bilateral concreta, fechada y suficientemente documentada con Gutiérrez Zaldívar.
+The names appear in regional networks and projects, but the sources consulted did not allow a concrete, dated and sufficiently documented bilateral relationship with Gutiérrez Zaldívar to be fixed.
 
 ---
 
 ## Koibanx
 
-Las fuentes discrepan sobre el año:
+The sources disagree on the year:
 
-- una descripción de TEDx dice **2013**;
-- la ficha corporativa actual dice **2015**.
+- a TEDx description says **2013**;
+- the current corporate profile says **2015**.
 
-La conciliación posible es que el proyecto o equipo comenzara en 2013 y la empresa adoptara su forma operativa reconocible en 2015. Sin acta constitutiva consultable, el año exacto queda abierto.
+A possible reconciliation is that the project or team began in 2013 and the company took its recognizable operating form in 2015. Without consultable articles of incorporation, the exact year remains open.
 
-Koibanx se dedicó a:
+Koibanx was devoted to:
 
-- tokenización de activos;
-- infraestructura de pagos;
-- billeteras;
-- integración de blockchain con bancos, fintechs y gobiernos;
-- inclusión financiera.
+- asset tokenization;
+- payments infrastructure;
+- wallets;
+- integration of blockchain with banks, fintechs and governments;
+- financial inclusion.
 
-Sus fundadores y primeras figuras incluyeron a Gutiérrez Zaldívar, Leo Elduayen y otros miembros del ecosistema. Diego fue posteriormente inversor en su ronda Serie A de **US$22 millones** anunciada en 2022, liderada por Algorand, junto con otros inversores.
+Its founders and early figures included Gutiérrez Zaldívar, Leo Elduayen and other members of the ecosystem. Diego was later an investor in its Series A round of **US$22 million** announced in 2022, led by Algorand, alongside other investors.
 
-No se encontró evidencia de que Gutiérrez Zaldívar siguiera como CEO operativo de Koibanx; ese puesto corresponde a Elduayen.
+No evidence was found that Gutiérrez Zaldívar continued as operating CEO of Koibanx; that position belongs to Elduayen.
 
 ---
 
 ## RSK and IOV Labs as a Journey
 
-### Origen, 2015
+### Origin, 2015
 
-**RSK Labs** fue cofundada en 2015. Las fuentes más abreviadas mencionan a:
+**RSK Labs** was co-founded in 2015. The more abbreviated sources mention:
 
 - Diego Gutiérrez Zaldívar, CEO;
 - Sergio Demian Lerner, chief scientist.
 
-La enumeración más completa, confirmada posteriormente por Diego, incluye además:
+The fullest listing, later confirmed by Diego, also includes:
 
 - Gabriel Kurman;
 - Adrián Eidelman;
 - Rubén Altman.
 
-Algunas bases añaden a Adrian Garelik. La composición pudo variar entre equipo conceptual, fundadores societarios y primeros ejecutivos.
+Some databases add Adrian Garelik. The composition may have varied between the conceptual team, the corporate founders and the first executives.
 
-### Propuesta técnica
+### Technical proposal
 
-Rootstock/RSK se concibió como una cadena lateral de Bitcoin capaz de ejecutar contratos inteligentes compatibles con Ethereum. Sus rasgos centrales:
+Rootstock/RSK was conceived as a Bitcoin sidechain capable of executing Ethereum-compatible smart contracts. Its central features:
 
-- máquina virtual compatible con Ethereum;
-- consenso apoyado en minería combinada con Bitcoin;
-- activo **RBTC**, vinculado 1:1 con BTC;
-- puente bidireccional;
-- bloques más rápidos que Bitcoin;
-- posibilidad de aplicaciones financieras descentralizadas.
+- an Ethereum-compatible virtual machine;
+- consensus based on merged mining with Bitcoin;
+- the **RBTC** asset, pegged 1:1 to BTC;
+- a two-way bridge;
+- faster blocks than Bitcoin;
+- the possibility of decentralized financial applications.
 
-La visión declarada combinaba la seguridad y red de Bitcoin con programación general y servicios financieros.
+The stated vision combined Bitcoin's security and network with general-purpose programming and financial services.
 
-### Financiación
+### Funding
 
-- **Enero de 2016:** Coinsilium y coinversores aportaron aproximadamente US$100.000, parte de una ronda inicial estimada en US$350.000.
-- **Marzo de 2016:** ronda semilla de **US$1 millón**, encabezada por Bitmain, Coinsilium y Digital Currency Group.
-- **2017:** fuentes secundarias reportan una extensión por US$2,4 millones y otra financiación de US$3,5 millones con Bitmain y Bitfury.
+- **January 2016:** Coinsilium and co-investors contributed approximately US$100,000, part of an initial round estimated at US$350,000.
+- **March 2016:** seed round of **US$1 million**, led by Bitmain, Coinsilium and Digital Currency Group.
+- **2017:** secondary sources report an extension of US$2.4 million and further funding of US$3.5 million with Bitmain and Bitfury.
 
-No se localizaron estados auditados completos que revelen:
+No complete audited statements were located revealing:
 
-- valuación en cada ronda;
-- participación individual de Diego;
-- remuneración;
-- patrimonio personal;
-- destino detallado de cada BTC recibido.
+- the valuation at each round;
+- Diego's individual stake;
+- compensation;
+- personal net worth;
+- the detailed destination of each BTC received.
 
-### Testnets y mainnet
+### Testnets and mainnet
 
-La compañía abrió redes privadas y beta durante 2016–2017. La mainnet pública se lanzó en **enero de 2018**. Algunas retrospectivas hablan de lanzamiento a fines de 2017, probablemente en referencia a una versión preliminar; enero de 2018 es la fecha más firme para la mainnet.
+The company opened private and beta networks during 2016–2017. The public mainnet launched in **January 2018**. Some retrospectives speak of a launch in late 2017, probably referring to a preliminary version; January 2018 is the firmest date for the mainnet.
 
 ### RIF
 
-RSK Infrastructure Framework, después **RIF**, agregó servicios de:
+RSK Infrastructure Framework, later **RIF**, added services for:
 
-- nombres;
-- almacenamiento;
-- comunicaciones;
-- identidad;
-- pagos;
+- names;
+- storage;
+- communications;
+- identity;
+- payments;
 - marketplaces.
 
-El **RIF token** se utilizó dentro de esa economía de servicios. El white paper identificó al equipo fundador y presentó a Gutiérrez Zaldívar como CEO.
+The **RIF token** was used within that services economy. The white paper identified the founding team and presented Gutiérrez Zaldívar as CEO.
 
-RSK Labs pasó a denominarse **RIF Labs** y posteriormente **IOV Labs**, “Internet of Value”. El cambio reflejó la ampliación desde una blockchain hacia infraestructura de una “Internet del Valor”.
+RSK Labs was renamed **RIF Labs** and later **IOV Labs**, "Internet of Value". The change reflected the expansion from a blockchain toward infrastructure for an "Internet of Value".
 
-### Oficinas y geografía
+### Offices and geography
 
-- origen y equipo técnico en Buenos Aires;
-- sociedad **IOV Labs Limited** en Gibraltar;
-- presencia regional en Montevideo y otros centros latinoamericanos;
-- equipo distribuido globalmente: en 2023 se comunicaron más de 150 colaboradores en treinta países.
+- origin and technical team in Buenos Aires;
+- the company **IOV Labs Limited** in Gibraltar;
+- regional presence in Montevideo and other Latin American hubs;
+- a globally distributed team: in 2023 more than 150 collaborators in thirty countries were reported.
 
-No debe confundirse una entidad jurídica en Gibraltar con mudanza personal permanente de Diego. Sus apariciones públicas siguieron ligadas a Buenos Aires.
+A legal entity in Gibraltar should not be confused with a permanent personal relocation of Diego. His public appearances remained tied to Buenos Aires.
 
 ### Taringa!, 2019
 
-IOV Labs adquirió la red social **Taringa!** en septiembre de 2019. La compañía buscaba distribuir herramientas de identidad, reputación y economías colaborativas a una base declarada de casi treinta millones de usuarios.
+IOV Labs acquired the social network **Taringa!** in September 2019. The company sought to distribute identity, reputation and collaborative economy tools to a declared base of almost thirty million users.
 
-Gutiérrez Zaldívar explicó que la compra pretendía conectar la Internet de la información —redes sociales— con la “Internet del Valor”.
+Gutiérrez Zaldívar explained that the purchase aimed to connect the Internet of information, social networks, with the "Internet of Value".
 
-El precio no fue públicamente revelado en las fuentes consultadas. La integración no produjo una transformación pública sostenida de Taringa en una gran economía descentralizada. La plataforma terminó inactiva en 2024. Esto constituye un **resultado empresarial desfavorable o incompleto**, pero no prueba fraude.
+The price was not publicly disclosed in the sources consulted. The integration did not produce a sustained public transformation of Taringa into a large decentralized economy. The platform ended up inactive in 2024. This constitutes an **unfavorable or incomplete business outcome**, but it does not prove fraud.
 
-### Profesionalización y cambio de liderazgo
+### Professionalization and leadership change
 
-En 2022 Diego dijo que había frenado la expansión internacional en 2019 para profesionalizar la gestión.
+In 2022 Diego said he had halted international expansion in 2019 in order to professionalize management.
 
-El **22 de mayo de 2023**, Daniel Fogg fue nombrado CEO. Gutiérrez Zaldívar describió el relevo como culminación de un proceso de cuatro años y permaneció **chairman del directorio**.
+On **May 22, 2023**, Daniel Fogg was appointed CEO. Gutiérrez Zaldívar described the handover as the culmination of a four-year process and remained **chairman of the board**.
 
-En noviembre de **2025**, RootstockLabs anunció su regreso como CEO, después de dos años como presidente del board. Declaró que su objetivo para los dos años siguientes era empaquetar productos financieros para bitcoiners y acelerar adopción institucional y DeFi sobre Bitcoin.
+In November **2025**, RootstockLabs announced his return as CEO, after two years as chairman of the board. He stated that his goal for the following two years was to package financial products for bitcoiners and accelerate institutional and DeFi adoption on Bitcoin.
 
 ---
 
 ## Companies, Financial Interests and Property
 
-### Intereses documentados
+### Documented interests
 
-- Fundador y ejecutivo de Xinergia.
-- Participación en equipos de Clarín Digital, Patagon, Internet Argentina, ElSitio y Edunexo.
-- CTO de Trusted Translations.
-- Cofundador de Koibanx y posterior inversor.
-- Cofundador y ejecutivo de RSK/RIF/IOV Labs/RootstockLabs.
-- Socio de **Magic Internet Money SRL**.
+- Founder and executive of Xinergia.
+- Participation in the teams of Clarín Digital, Patagon, Internet Argentina, ElSitio and Edunexo.
+- CTO of Trusted Translations.
+- Co-founder of Koibanx and later investor.
+- Co-founder and executive of RSK/RIF/IOV Labs/RootstockLabs.
+- Partner in **Magic Internet Money SRL**.
 
 ### Magic Internet Money SRL
 
-Un aviso del Boletín Oficial argentino informó que el 3 de enero de 2022 Franco Daniel Amati transfirió 9.900 cuotas:
+A notice in the Argentine Boletín Oficial reported that on January 3, 2022, Franco Daniel Amati transferred 9,900 cuotas (shares):
 
-- 4.950 a Rodolfo Andragnes;
-- 4.950 a Diego Gutiérrez Zaldívar.
+- 4,950 to Rodolfo Andragnes;
+- 4,950 to Diego Gutiérrez Zaldívar.
 
-El capital informado era de ARS 30.000 dividido en 30.000 cuotas. El aviso documenta una relación societaria; el capital nominal no mide el valor económico real de la empresa.
+The reported capital was ARS 30,000 divided into 30,000 cuotas. The notice documents a corporate relationship; the nominal capital does not measure the real economic value of the company.
 
-### Participación societaria británica
+### British shareholding
 
-Una confirmation statement británica de 2025 registra a **Diego Gutierrez Zaldivar** con 7.000 acciones ordinarias en una compañía identificada por el número 06266437. Sin documentación adicional no corresponde convertir ese dato en una valuación o atribuirle control.
+A 2025 British confirmation statement records **Diego Gutierrez Zaldivar** with 7,000 ordinary shares in a company identified by the number 06266437. Without additional documentation that data should not be turned into a valuation or used to attribute control.
 
-### Patrimonio
+### Wealth
 
-No se encontró documentación verificable de:
+No verifiable documentation was found of:
 
-- patrimonio neto personal;
-- tenencia actual de BTC;
-- inmuebles;
-- vehículos;
-- fideicomisos;
-- offshore personales;
-- salario;
-- dividendos;
-- participación porcentual vigente en IOV Labs;
-- ganancias obtenidas por Patagon o Taringa.
+- personal net worth;
+- current BTC holdings;
+- real estate;
+- vehicles;
+- trusts;
+- personal offshore structures;
+- salary;
+- dividends;
+- current percentage stake in IOV Labs;
+- gains obtained from Patagon or Taringa.
 
-Las afirmaciones de que sería “millonario de bitcoin” pertenecen al imaginario del sector y no están demostradas por declaraciones patrimoniales o direcciones blockchain verificadas.
+Claims that he is a "bitcoin millionaire" belong to the sector's imaginary and are not demonstrated by wealth declarations or verified blockchain addresses.
 
 ---
 
 ## Political, Regulatory and Institutional Activity
 
-### Gobierno de Cristina Fernández de Kirchner
+### Government of Cristina Fernández de Kirchner
 
-Durante el segundo mandato de Cristina Fernández:
+During Cristina Fernández's second term:
 
-- el cepo cambiario impulsó interés en alternativas;
-- el BCRA y otros reguladores observaron el fenómeno;
-- Bitcoin Argentina procuró actuar como interlocutor;
-- Gutiérrez Zaldívar enseñó en un programa de la Facultad de Derecho de la UBA sobre prevención de lavado y financiación del terrorismo.
+- the cepo cambiario drove interest in alternatives;
+- the BCRA and other regulators observed the phenomenon;
+- Bitcoin Argentina sought to act as an interlocutor;
+- Gutiérrez Zaldívar taught in a program at the UBA Law School on the prevention of money laundering and terrorism financing.
 
-No se encontró evidencia de reunión personal con Cristina Fernández de Kirchner, afiliación al kirchnerismo, financiamiento político o cargo estatal.
+No evidence was found of a personal meeting with Cristina Fernández de Kirchner, affiliation with Kirchnerism, political financing or a state post.
 
-### Advertencias oficiales
+### Official warnings
 
-El BCRA publicó en 2014 una advertencia conjunta con la Unidad de Información Financiera sobre monedas virtuales: no eran moneda de curso legal ni estaban respaldadas por bancos centrales y presentaban riesgos.
+In 2014 the BCRA published a joint warning with the Financial Information Unit (Unidad de Información Financiera) on virtual currencies: they were not legal tender, were not backed by central banks, and carried risks.
 
-En 2021, BCRA y CNV volvieron a alertar sobre volatilidad, ciberataques, protección al usuario, lavado, financiación del terrorismo y normativa cambiaria.
+In 2021, the BCRA and the CNV again warned about volatility, cyberattacks, user protection, money laundering, terrorism financing and exchange regulations.
 
-Estas comunicaciones fueron advertencias generales, no acusaciones contra Gutiérrez Zaldívar o Bitcoin Argentina.
+These communications were general warnings, not accusations against Gutiérrez Zaldívar or Bitcoin Argentina.
 
-### Gobierno de Mauricio Macri
+### Government of Mauricio Macri
 
-La relación institucional se volvió más abierta:
+The institutional relationship became more open:
 
-- Gutiérrez Zaldívar participó en un hackathon de innovación financiera del BCRA con la charla “La revolución Bitcoin”.
-- El programa reunió al BCRA y ministerios nacionales.
-- RSK y Koibanx exploraron aplicaciones gubernamentales y financieras.
+- Gutiérrez Zaldívar took part in a BCRA financial innovation hackathon with the talk "La revolución Bitcoin" (The Bitcoin Revolution).
+- The program brought together the BCRA and national ministries.
+- RSK and Koibanx explored government and financial applications.
 
-La participación acredita diálogo institucional, no contrato público personal ni apoyo partidario.
+The participation attests to institutional dialogue, not to a personal public contract or partisan support.
 
-### Gobierno de Alberto Fernández
+### Government of Alberto Fernández
 
-En noviembre de 2022 Gutiérrez Zaldívar integró una delegación del ecosistema cripto recibida por el ministro de Economía **Sergio Massa** en el Palacio de Hacienda. También estuvieron Rodolfo Andragnes, Carlos Maslatón y representantes de exchanges, fintechs y proyectos blockchain.
+In November 2022 Gutiérrez Zaldívar was part of a crypto ecosystem delegation received by Economy Minister **Sergio Massa** at the Palacio de Hacienda. Rodolfo Andragnes, Carlos Maslatón and representatives of exchanges, fintechs and blockchain projects also attended.
 
-Se discutió la agenda del sector en medio del colapso de FTX. No se encontró constancia de que la reunión produjera regulación redactada personalmente por Diego.
+The sector's agenda was discussed in the midst of the FTX collapse. No record was found that the meeting produced regulation personally drafted by Diego.
 
-### Ley Bitcoin y regulación
+### Bitcoin Law and regulation
 
-En 2023, al comentar un proyecto de “Ley Bitcoin”, afirmó que la descentralización no era binaria y que todo proyecto comenzaba con algún grado de centralización. No se encontró registro de que fuera autor formal del proyecto.
+In 2023, commenting on a "Ley Bitcoin" (Bitcoin Law) bill, he stated that decentralization was not binary and that every project began with some degree of centralization. No record was found that he was the formal author of the bill.
 
-### Gobierno de Javier Milei y $LIBRA
+### Government of Javier Milei and $LIBRA
 
-La búsqueda específica no encontró evidencia fiable de que Gutiérrez Zaldívar:
+The specific search found no reliable evidence that Gutiérrez Zaldívar:
 
-- promoviera el token **$LIBRA**;
-- participara en su emisión;
-- se reuniera con sus promotores por esa operación;
-- recibiera fondos;
-- fuera investigado, imputado o citado en relación con el episodio de febrero de 2025.
+- promoted the **$LIBRA** token;
+- took part in its issuance;
+- met with its promoters over that operation;
+- received funds;
+- was investigated, charged or summoned in connection with the February 2025 episode.
 
-Tampoco se halló una declaración sustantiva suya sobre $LIBRA en las fuentes consultadas. Por ello, vincularlo con el caso por su posición en el sector cripto sería una inferencia improcedente.
+Nor was any substantive statement of his about $LIBRA found in the sources consulted. Linking him to the case because of his position in the crypto sector would therefore be an improper inference.
 
-Sí comentó el sistema BRICS Pay y la competencia entre Estados, corporaciones y criptomonedas. Las notas mencionaron decisiones de Milei sobre BRICS, pero eso no prueba relación personal entre ambos.
+He did comment on the BRICS Pay system and the competition between States, corporations and cryptocurrencies. The articles mentioned Milei's decisions on BRICS, but that does not prove a personal relationship between the two.
 
-### Otros gobiernos
+### Other governments
 
-En diciembre de 2023 participó, junto con Samson Mow y otros promotores, en una reunión con el presidente colombiano **Gustavo Petro** en la Casa de Nariño. Se debatieron Bitcoin en cooperativas, blockchain para facturación sanitaria, administración de activos y restitución de tierras.
+In December 2023 he took part, together with Samson Mow and other promoters, in a meeting with Colombian President **Gustavo Petro** at the Casa de Nariño. Bitcoin in cooperatives, blockchain for healthcare billing, asset management and land restitution were discussed.
 
-En Gibraltar, IOV Labs colaboró con el gobierno en un piloto para incorporar blockchain al sistema eGov. El ministro Albert Isola agradeció públicamente a Gutiérrez Zaldívar y su equipo. Diego visitó Gibraltar en marzo de 2022 para informar sobre el proyecto.
+In Gibraltar, IOV Labs collaborated with the government on a pilot to incorporate blockchain into the eGov system. Minister Albert Isola publicly thanked Gutiérrez Zaldívar and his team. Diego visited Gibraltar in March 2022 to report on the project.
 
 ---
 
 ## Religious, Philosophical and Intellectual Development
 
-No se encontró afiliación religiosa pública.
+No public religious affiliation was found.
 
-Sus ideas documentadas combinan:
+His documented ideas combine:
 
-- defensa de redes abiertas y descentralizadas;
-- soberanía individual;
-- inclusión financiera;
-- resistencia a censura;
-- desconfianza hacia sistemas monetarios controlados centralmente;
-- aceptación pragmática del diálogo con gobiernos, bancos y reguladores;
-- reputación e identidad autocustodiadas;
-- rechazo de vigilancia masiva;
-- trazabilidad forense cuando exista un delito.
+- defense of open and decentralized networks;
+- individual sovereignty;
+- financial inclusion;
+- censorship resistance;
+- distrust of centrally controlled monetary systems;
+- pragmatic acceptance of dialogue with governments, banks and regulators;
+- self-custodied reputation and identity;
+- rejection of mass surveillance;
+- forensic traceability when a crime exists.
 
-Su postura no coincide completamente con el anarquismo criptográfico absoluto. En 2021 dijo que anonimato total podía producir una confrontación contraproducente con los gobiernos y propuso un equilibrio entre privacidad y posibilidad de investigación forense.
+His position does not fully coincide with absolute crypto-anarchism. In 2021 he said that total anonymity could produce a counterproductive confrontation with governments and proposed a balance between privacy and the possibility of forensic investigation.
 
-En TEDx sostuvo que blockchain podía convertir reputación en una base de confianza para cooperación global. En intervenciones posteriores advirtió que la misma identidad digital podía servir para liberar a personas excluidas o para construir opresión centralizada.
+At TEDx he argued that blockchain could turn reputation into a basis of trust for global cooperation. In later interventions he warned that the same digital identity could serve to liberate excluded people or to build centralized oppression.
 
 ---
 
 ## Controversies, Allegations, Investigations and Disputes
 
-## 1. ¿Fundación, ONG o negocio?
+## 1. Foundation, NGO or business?
 
-**Historia:** críticos informales del ecosistema han señalado la superposición entre ONG, conferencia, coworking y empresas de sus fundadores, sugiriendo que “Bitcoin Argentina es un negocio, no una ONG”.
+**Story:** informal critics in the ecosystem have pointed to the overlap between the NGO, the conference, the coworking space and the founders' companies, suggesting that "Bitcoin Argentina es un negocio, no una ONG" (Bitcoin Argentina is a business, not an NGO).
 
-**Evidencia a favor de la crítica:**
+**Evidence in favor of the critique:**
 
-- los mismos actores participaron en ONG, LABITCONF, Espacio Bitcoin y sociedades comerciales;
-- el espacio incubó empresas;
-- LABITCONF vendió entradas y patrocinios;
-- Magic Internet Money SRL vinculó societariamente a Andragnes, Amati y Gutiérrez Zaldívar.
+- the same actors took part in the NGO, LABITCONF, Espacio Bitcoin and commercial companies;
+- the space incubated companies;
+- LABITCONF sold tickets and sponsorships;
+- Magic Internet Money SRL linked Andragnes, Amati and Gutiérrez Zaldívar as corporate partners.
 
-**Evidencia en contra de presentarla como hecho probado:**
+**Evidence against presenting it as a proven fact:**
 
-- la organización declara misión educativa y sin fines de lucro;
-- vender entradas o compartir fundadores con empresas no convierte por sí solo a una asociación en fraude;
-- no se encontró resolución administrativa o judicial que declarara falsa su condición no lucrativa;
-- no se hallaron estados contables completos que demuestren desvío de fondos.
+- the organization declares an educational, non-profit mission;
+- selling tickets or sharing founders with companies does not by itself turn an association into a fraud;
+- no administrative or judicial ruling was found declaring its non-profit status false;
+- no complete financial statements were found demonstrating diversion of funds.
 
-**Clasificación:** crítica de gobernanza y potencial conflicto de intereses; **no acusación judicial comprobada**.
+**Classification:** a governance critique and potential conflict of interest; **not a proven judicial accusation**.
 
-## 2. Centralización de Rootstock
+## 2. Centralization of Rootstock
 
-**Crítica técnica documentada:** el puente BTC–RBTC dependió de una federación y posteriormente de un Powpeg. Usuarios e investigadores preguntaron si podía verificarse de manera trustless que los operadores no conservaran copias de claves.
+**Documented technical critique:** the BTC–RBTC bridge depended on a federation and later on a Powpeg. Users and researchers asked whether it could be verified in a trustless way that the operators did not keep copies of keys.
 
-En el foro técnico de Rootstock, una respuesta reconoció que no podía saberse de manera absolutamente trustless y que, aun con hardware seguro, subsistía confianza en el dispositivo. Otra limitación histórica fue el uso de whitelist para peg-ins y topes de BTC bloqueado.
+On the Rootstock technical forum, one reply acknowledged that it could not be known in an absolutely trustless way and that, even with secure hardware, trust in the device remained. Another historical limitation was the use of a whitelist for peg-ins and caps on locked BTC.
 
-**Respuesta del proyecto:**
+**The project's response:**
 
-- minería combinada con Bitcoin;
-- hardware de seguridad;
-- múltiples operadores;
-- defensas en profundidad;
-- mejoras progresivas al Powpeg;
-- eliminación o reducción de whitelists;
-- propuesta de descentralización gradual.
+- merged mining with Bitcoin;
+- security hardware;
+- multiple operators;
+- defense in depth;
+- progressive improvements to the Powpeg;
+- elimination or reduction of whitelists;
+- a proposal for gradual decentralization.
 
-**Clasificación:** controversia técnica real sobre modelos de confianza. No constituye prueba de fraude ni de que Diego controlara unilateralmente fondos.
+**Classification:** a real technical controversy over trust models. It does not constitute proof of fraud or of Diego unilaterally controlling funds.
 
-## 3. RIF token y distribución
+## 3. RIF token and distribution
 
-**Cuestión:** inversores y equipo de RSK recibieron tokens RIF en proporción a su propiedad. Esto generó dudas sobre concentración económica y gobernanza.
+**Issue:** RSK's investors and team received RIF tokens in proportion to their ownership. This raised doubts about economic concentration and governance.
 
-El diseño posterior de RootstockCollective vincula gobernanza con **stRIF**, obtenido bloqueando RIF. El propio white paper reconoce que atar gobernanza a un token preexistente requiere justificación.
+The later design of RootstockCollective ties governance to **stRIF**, obtained by locking RIF. The white paper itself acknowledges that tying governance to a pre-existing token requires justification.
 
-No se encontró:
+Not found:
 
-- sentencia que calificara RIF como valor no registrado;
-- sanción de la SEC, GFSC o CNV contra Diego por RIF;
-- prueba pública de manipulación de mercado;
-- auditoría integral de la distribución personal de tokens.
+- a ruling classifying RIF as an unregistered security;
+- a sanction by the SEC, GFSC or CNV against Diego over RIF;
+- public proof of market manipulation;
+- a comprehensive audit of the personal distribution of tokens.
 
-**Clasificación:** pregunta legítima sobre concentración, incentivos y regulación; ausencia de hallazgo sancionatorio en esta búsqueda.
+**Classification:** a legitimate question about concentration, incentives and regulation; no sanctioning finding in this search.
 
 ## 4. IOV Labs Limited v. Levin
 
-En 2022, **IOV Labs Limited v. Levin**, ante el Distrito Sur de Florida, surgió de acuerdos de contribución temprana en los que participantes recibieron RIF tokens.
+In 2022, **IOV Labs Limited v. Levin**, before the Southern District of Florida, arose from early contribution agreements under which participants received RIF tokens.
 
-Megalodon Capital habría alegado que IOV utilizó indebidamente fondos aportados y notificó intención de litigar en Países Bajos o Gibraltar. IOV solicitó discovery bajo 28 USC §1782 para obtener prueba de Mark Levin; el tribunal concedió la solicitud.
+Megalodon Capital reportedly alleged that IOV had misused contributed funds and gave notice of its intention to litigate in the Netherlands or Gibraltar. IOV applied for discovery under 28 USC §1782 to obtain evidence from Mark Levin; the court granted the application.
 
-Puntos esenciales:
+Essential points:
 
-- la alegación de mal uso fue de una contraparte;
-- el procedimiento estadounidense trató obtención de prueba, no decidió el fondo;
-- no se encontró condena contra Gutiérrez Zaldívar;
-- el resumen judicial no demuestra que Diego fuera demandado personalmente.
+- the allegation of misuse came from a counterparty;
+- the US proceeding dealt with obtaining evidence and did not decide the merits;
+- no conviction against Gutiérrez Zaldívar was found;
+- the court summary does not show that Diego was personally sued.
 
-**Clasificación:** disputa civil corporativa documentada; alegaciones subyacentes no resueltas por el fallo estadounidense consultado.
+**Classification:** a documented corporate civil dispute; the underlying allegations were not resolved by the US ruling consulted.
 
 ## 5. Taringa!
 
-La compra fue presentada como vía de adopción masiva. La integración blockchain no alcanzó públicamente la promesa inicial y Taringa cerró años después.
+The purchase was presented as a path to mass adoption. The blockchain integration did not publicly reach the initial promise and Taringa closed years later.
 
-No se encontró evidencia de:
+No evidence was found of:
 
-- engaño en la compra;
-- precio inflado judicialmente establecido;
-- apropiación de datos por Diego;
-- sanción de privacidad vinculada con él.
+- deception in the purchase;
+- a judicially established inflated price;
+- appropriation of data by Diego;
+- a privacy sanction linked to him.
 
-**Clasificación:** adquisición estratégica con resultados limitados o fallidos; no fraude probado.
+**Classification:** a strategic acquisition with limited or failed results; no proven fraud.
 
-## 6. Riesgos de lavado y delito
+## 6. Money laundering and crime risks
 
-Bitcoin Argentina nació en parte para responder a asociaciones mediáticas entre bitcoin, drogas y lavado. Gutiérrez Zaldívar participó además en formación sobre prevención de lavado.
+Bitcoin Argentina was born in part to respond to media associations between bitcoin, drugs and money laundering. Gutiérrez Zaldívar also took part in training on money laundering prevention.
 
-No se encontró investigación, procesamiento o condena que lo vinculara personalmente con:
+No investigation, prosecution or conviction was found linking him personally to:
 
-- lavado de activos;
-- financiación del terrorismo;
-- evasión;
-- narcotráfico;
-- hackeo;
-- apropiación de fondos;
-- organización criminal.
+- money laundering;
+- terrorism financing;
+- tax evasion;
+- drug trafficking;
+- hacking;
+- misappropriation of funds;
+- criminal organization.
 
-Las advertencias del BCRA y la CNV fueron sectoriales.
+The BCRA and CNV warnings were sector-wide.
 
-## 7. Antisemitismo, propaganda y fabricación
+## 7. Antisemitism, propaganda and fabrication
 
-El pase adversarial en español e inglés combinó su nombre con antisemitismo, propaganda, hoax/bulo, fabricación, estafa, fraude, lavado y controversia.
+The adversarial pass in Spanish and English combined his name with antisemitism, propaganda, hoax/bulo, fabrication, scam, fraud, money laundering and controversy.
 
-**Resultado:** no apareció material relevante y atribuible que documentara declaraciones antisemitas suyas, campañas de propaganda racial o religiosa, fabricación biográfica organizada o acusaciones de ese tipo.
+**Result:** no relevant and attributable material appeared documenting antisemitic statements by him, racial or religious propaganda campaigns, organized biographical fabrication or accusations of that kind.
 
-La ausencia de resultados es un hallazgo limitado por indexación y acceso; no autoriza inventar una controversia.
+The absence of results is a finding limited by indexing and access; it does not authorize inventing a controversy.
 
 ## 8. $LIBRA
 
-No se encontró conexión documental con el lanzamiento o promoción del token. La asociación por proximidad al sector cripto argentino sería una **teoría sin evidencia**.
+No documentary connection was found with the launch or promotion of the token. Association by proximity to the Argentine crypto sector would be a **theory without evidence**.
 
 ---
 
 ## Myths, Legends, Rumors and Self-Created Mythology
 
-### “Argentina como capital mundial de Bitcoin”
+### "Argentina as the world capital of Bitcoin"
 
-**Relato:** debido al cepo, inflación y cultura tecnológica, Buenos Aires se habría convertido en capital mundial de Bitcoin.
+**Story:** owing to the cepo, inflation and technological culture, Buenos Aires had supposedly become the world capital of Bitcoin.
 
-**Origen y circulación:** prensa internacional, organizadores de conferencias y promotores locales, especialmente 2013–2015.
+**Origin and circulation:** international press, conference organizers and local promoters, especially 2013–2015.
 
-**Evidencia favorable:** meetups activos, número comparativamente alto de comercios, startups relevantes, LABITCONF y cobertura del *New York Times*.
+**Favorable evidence:** active meetups, a comparatively high number of merchants, relevant startups, LABITCONF and coverage in the *New York Times*.
 
-**Límites:** los datos midieron descargas, comercios listados o una subcultura urbana, no uso masivo nacional. Parte de la narrativa servía para atraer inversión y prensa.
+**Limits:** the data measured downloads, listed merchants or an urban subculture, not mass national use. Part of the narrative served to attract investment and press.
 
-**Efecto reputacional:** convirtió a Gutiérrez Zaldívar en representante internacional de una supuesta “excepción argentina”.
+**Reputational effect:** it made Gutiérrez Zaldívar the international representative of a supposed "Argentine exception".
 
-### “El primer Centro Bitcoin de América Latina”
+### "The first Bitcoin Center in Latin America"
 
-Espacio Bitcoin fue promocionado como el primero de la región. La afirmación es plausible, pero depende de la definición de “centro”: coworking permanente, embajada, oficina comunitaria o local comercial. No se encontró un registro regional exhaustivo que certifique la primacía.
+Espacio Bitcoin was promoted as the first in the region. The claim is plausible, but it depends on the definition of "center": a permanent coworking space, an embassy, a community office or a commercial venue. No exhaustive regional registry certifying primacy was found.
 
-### “Patagon se vendió por US$750 millones”
+### "Patagon was sold for US$750 million"
 
-La cifra se repite en casi todas sus biografías y describe el negocio corporativo. El mito implícito consiste en trasladar el precio total a la riqueza individual de cada integrante del equipo fundador. No existe evidencia pública de que Diego recibiera una cantidad próxima a ese valor.
+The figure is repeated in almost all of his biographies and describes the corporate deal. The implicit myth consists of transferring the total price to the individual wealth of each member of the founding team. There is no public evidence that Diego received an amount close to that value.
 
-### “RSK hereda la seguridad de Bitcoin”
+### "RSK inherits Bitcoin's security"
 
-Eslogan técnicamente parcial. Rootstock utiliza merge-mining y se beneficia del hashpower de Bitcoin, pero su puente introduce supuestos de confianza adicionales. La crítica no niega la vinculación con Bitcoin; cuestiona que “misma seguridad” sea una descripción completa.
+A technically partial slogan. Rootstock uses merge-mining and benefits from Bitcoin's hashpower, but its bridge introduces additional trust assumptions. The critique does not deny the link to Bitcoin; it questions whether "the same security" is a complete description.
 
-### “Primer latinoamericano en el Crypto Hall of Fame”
+### "First Latin American in the Crypto Hall of Fame"
 
-En 2021 fue presentado como primer latinoamericano incorporado al Crypto Hall of Fame de Moonstock, iniciativa curada por Aaron Koenig con retratos de Max Cryptohead. Es un honor real dentro de esa iniciativa privada, no un salón oficial de la industria mundial.
+In 2021 he was presented as the first Latin American inducted into Moonstock's Crypto Hall of Fame, an initiative curated by Aaron Koenig with portraits by Max Cryptohead. It is a real honor within that private initiative, not an official hall of the global industry.
 
-### “Millonario de bitcoin”
+### "Bitcoin millionaire"
 
-No se localizaron billeteras, declaraciones patrimoniales o documentos que lo acrediten. Es rumor derivado de antigüedad, empresas e inversiones tempranas.
+No wallets, wealth declarations or documents attesting to it were located. It is a rumor derived from his seniority, companies and early investments.
 
 ---
 
 ## Awards, Honors and Appointments
 
-- Presidente de Fundación/ONG Bitcoin Argentina durante sus primeros años.
-- Presidente y cofundador de Bitcoin Latam.
-- Cofundador y CEO de RSK Labs/RIF Labs/IOV Labs.
-- Chairman de IOV Labs desde 2023.
-- Regreso como CEO de RootstockLabs en noviembre de 2025.
-- Incorporación al **Crypto Hall of Fame/Moonstock** en 2021, presentada como la primera de un latinoamericano.
-- “Referente Cripto del Año” en los Cripto247 Awards, citado alternativamente como correspondiente a 2020 o 2021.
-- Participación como docente, panelista o expositor en UBA, UCA, Universidad de San Andrés, BCRA, BID/INTAL, TEDx y numerosos congresos.
+- President of Fundación/ONG Bitcoin Argentina during its first years.
+- President and co-founder of Bitcoin Latam.
+- Co-founder and CEO of RSK Labs/RIF Labs/IOV Labs.
+- Chairman of IOV Labs since 2023.
+- Return as CEO of RootstockLabs in November 2025.
+- Induction into the **Crypto Hall of Fame/Moonstock** in 2021, presented as the first of a Latin American.
+- "Referente Cripto del Año" (Crypto Figure of the Year) at the Cripto247 Awards, cited alternately as corresponding to 2020 or 2021.
+- Participation as lecturer, panelist or speaker at UBA, UCA, Universidad de San Andrés, BCRA, IDB/INTAL, TEDx and numerous congresses.
 
-No se encontraron condecoraciones estatales, cargos electivos o títulos honoris causa.
+No state decorations, elected offices or honorary doctorates were found.
 
 ---
 
 ## Health, Accidents and Personal Crises
 
-No se encontró documentación fiable de:
+No reliable documentation was found of:
 
-- enfermedades graves;
-- adicciones;
-- hospitalizaciones;
-- accidentes;
-- lesiones;
-- crisis psicológicas diagnosticadas;
-- condenas o encarcelamientos.
+- serious illnesses;
+- addictions;
+- hospitalizations;
+- accidents;
+- injuries;
+- diagnosed psychological crises;
+- convictions or imprisonment.
 
-Su referencia a una “strenuous” trayectoria de siete años al dejar el cargo de CEO describe intensidad laboral, no diagnóstico médico.
+His reference to a "strenuous" seven-year stretch when leaving the CEO post describes work intensity, not a medical diagnosis.
 
 ---
 
 ## Works and Words by Diego Gutiérrez Zaldívar
 
-No se encontró un libro monográfico suyo. Su producción conocida está dispersa entre conferencias, entrevistas, white papers colectivos, presentaciones y publicaciones profesionales.
+No monograph of his was found. His known output is scattered among talks, interviews, collective white papers, presentations and professional publications.
 
-### Documentos técnicos y corporativos
+### Technical and corporate documents
 
-1. **RIF Labs’ Founding Team / RIF Whitepaper** (2018–2019).  
-   Figura como cofundador y CEO. El texto es obra institucional colectiva; no debe atribuirse autoría técnica exclusiva a Diego.
+1. **RIF Labs' Founding Team / RIF Whitepaper** (2018–2019).  
+   He appears as co-founder and CEO. The text is a collective institutional work; exclusive technical authorship should not be attributed to Diego.
 
 2. **RSK White Paper Overview / Rootstock white paper**.  
-   Documento del proyecto, asociado principalmente con el equipo de investigación dirigido por Sergio Lerner. Diego fue fundador y ejecutivo, no autor técnico único comprobado.
+   Project document, associated mainly with the research team led by Sergio Lerner. Diego was founder and executive, not a proven sole technical author.
 
-3. **“Construyendo la Internet del Valor: RSK y la Internet del Valor”**.  
-   Presentación ante el Consejo Profesional de Ciencias Económicas. Material firmado con su nombre y cargos.
+3. **"Construyendo la Internet del Valor: RSK y la Internet del Valor"** (Building the Internet of Value: RSK and the Internet of Value).  
+   Presentation to the Consejo Profesional de Ciencias Económicas. Material signed with his name and titles.
 
-4. **“Paper to programming: how digital currencies are globalising our economy”**.  
-   Artículo de opinión bajo su nombre en *Singapore Business Review*.
+4. **"Paper to programming: how digital currencies are globalising our economy"**.  
+   Opinion article under his name in the *Singapore Business Review*.
 
-### Charlas
+### Talks
 
-1. **“La revolución Bitcoin”**, hackathon de innovación financiera del BCRA, circa 2016–2017.
-2. **“Tu identidad, reputación y confianza en blockchain”**, TEDxRíodelaPlata, grabada/publicada en mayo de 2019.
-3. Presentaciones recurrentes en LABITCONF desde 2013.
-4. Charlas sobre “Blockchain, Bitcoin y la Internet del Valor”.
-5. Intervenciones sobre inclusión financiera, identidad reputacional y descentralización en universidades y congresos.
-6. Participaciones en Ekoparty y encuentros técnicos: mencionadas en programas y redes, pero no se reconstruyó una lista completa de fechas y títulos.
+1. **"La revolución Bitcoin"** (The Bitcoin Revolution), BCRA financial innovation hackathon, circa 2016–2017.
+2. **"Tu identidad, reputación y confianza en blockchain"** (Your identity, reputation and trust on the blockchain), TEDxRíodelaPlata, recorded/published in May 2019.
+3. Recurring presentations at LABITCONF since 2013.
+4. Talks on "Blockchain, Bitcoin y la Internet del Valor" (Blockchain, Bitcoin and the Internet of Value).
+5. Interventions on financial inclusion, reputational identity and decentralization at universities and congresses.
+6. Participation in Ekoparty and technical gatherings: mentioned in programs and social media, but a complete list of dates and titles was not reconstructed.
 
-### Entrevistas importantes
+### Important interviews
 
-1. Entrevista de Trace Mayer/WeUseCoins sobre Bitcoin Argentina, minería, LocalBitcoins y el meetup inicial.
-2. Entrevista del 17 de octubre de 2014 para un trabajo académico de UADE.
-3. Entrevista de ForkLog de 2018 sobre contratos inteligentes, sidechains y descentralización.
-4. Entrevista de *El Economista*, 1 de octubre de 2019, sobre Taringa, identidad y reputación.
-5. Entrevista con Aaron Koenig/Hyperbitcoinizer, reproducida por Cripto247.
-6. AMA con Satoshi Club, 19 de enero de 2021.
-7. Entrevista de *RoadShow*, 30 de noviembre de 2022.
-8. Entrevista de Gibraltar Finance/GBCTV, marzo de 2022.
-9. Entrevista de Cripto247 durante Devconnect Buenos Aires, noviembre de 2025.
+1. Interview by Trace Mayer/WeUseCoins on Bitcoin Argentina, mining, LocalBitcoins and the initial meetup.
+2. Interview of October 17, 2014, for an academic paper at UADE.
+3. ForkLog interview of 2018 on smart contracts, sidechains and decentralization.
+4. Interview in *El Economista*, October 1, 2019, on Taringa, identity and reputation.
+5. Interview with Aaron Koenig/Hyperbitcoinizer, reproduced by Cripto247.
+6. AMA with Satoshi Club, January 19, 2021.
+7. Interview in *RoadShow*, November 30, 2022.
+8. Interview with Gibraltar Finance/GBCTV, March 2022.
+9. Cripto247 interview during Devconnect Buenos Aires, November 2025.
 
-### Correspondencia técnica
+### Technical correspondence
 
-- Mensaje a la lista **samba-technical**, 1 de septiembre de 2010, sobre migración de Windows Server 2003 a Samba 4. Es uno de los pocos rastros públicos de su trabajo técnico anterior a Bitcoin.
+- Message to the **samba-technical** list, September 1, 2010, on migrating from Windows Server 2003 to Samba 4. It is one of the few public traces of his technical work before Bitcoin.
 
-### Publicaciones en redes
+### Social media posts
 
-Sus publicaciones en LinkedIn y X constituyen una fuente autobiográfica importante para:
+His posts on LinkedIn and X constitute an important autobiographical source for:
 
-- cambio de CEO en IOV Labs;
-- agradecimientos a cofundadores;
-- reunión con Gustavo Petro;
-- posiciones sobre descentralización;
-- regreso a RootstockLabs.
+- the change of CEO at IOV Labs;
+- thanks to co-founders;
+- the meeting with Gustavo Petro;
+- positions on decentralization;
+- the return to RootstockLabs.
 
-Deben distinguirse de documentos auditados.
+They must be distinguished from audited documents.
 
 ---
 
 ## Books and Major Works About the Person
 
-No se encontró una biografía impresa dedicada exclusivamente a Gutiérrez Zaldívar. Los trabajos más importantes para situarlo son:
+No printed biography devoted exclusively to Gutiérrez Zaldívar was found. The most important works for situating him are:
 
-1. **Nathaniel Popper, “Can Bitcoin Conquer Argentina?”**, *The New York Times Magazine*, 29 de abril de 2015. Crónica central de la escena argentina.
-2. **Nathaniel Popper, _Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money_** (2015). Contextualiza el ecosistema temprano y la dimensión argentina.
-3. **“La otra cara de la moneda”**, IADE/lavaca. Perfil de la comunidad, Espacio Bitcoin y su trayectoria puntocom.
-4. **“La experiencia Bitcoin en la Argentina desde adentro”**, *Information Technology/El Cronista*, 29 de octubre de 2013.
-5. **“Cómo prospera Bitcoin en la economía del mercado negro de Argentina”**, CoinDesk, 6 de mayo de 2014.
-6. **“Nada virtual: la Embajada Bitcoin llega a la Argentina”**, *El Cronista*, 16 de junio de 2014.
-7. **“Nace primer Espacio Bitcoin de América Latina”**, PanAm Post, 18 de julio de 2014.
-8. **“Casa Voltaire”**, *La Nación Revista*, 5 de marzo de 2022. Importante para diferenciar otro nodo porteño de Espacio Bitcoin.
-9. **_Dinero, valor y algoritmos: genealogía del sistema criptomonetario desde el contexto argentino_**, tesis de maestría, UNSAM, 2021.
-10. **Cambridge Centre for Alternative Finance, _Cryptoasset Ecosystem in Latin America and the Caribbean_** (2023), con estudio de Rootstock.
-11. **BID/Finnovista, _Fintech: Innovations You May Not Know Were from Latin America and the Caribbean_**, con ficha de RSK.
-12. Perfiles de Lifeboat Foundation, IQ.wiki, FinNotes e iProUP. Son útiles para orientación, pero varios derivan de biografías corporativas y no son independientes.
+1. **Nathaniel Popper, "Can Bitcoin Conquer Argentina?"**, *The New York Times Magazine*, April 29, 2015. The central account of the Argentine scene.
+2. **Nathaniel Popper, _Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money_** (2015). Contextualizes the early ecosystem and the Argentine dimension.
+3. **"La otra cara de la moneda"** (The Other Side of the Coin), IADE/lavaca. Profile of the community, Espacio Bitcoin and his dot-com career.
+4. **"La experiencia Bitcoin en la Argentina desde adentro"** (The Bitcoin Experience in Argentina from the Inside), *Information Technology/El Cronista*, October 29, 2013.
+5. **"Cómo prospera Bitcoin en la economía del mercado negro de Argentina"** (How Bitcoin Is Thriving in Argentina's Black Market Economy), CoinDesk, May 6, 2014.
+6. **"Nada virtual: la Embajada Bitcoin llega a la Argentina"** (Nothing Virtual: The Bitcoin Embassy Arrives in Argentina), *El Cronista*, June 16, 2014.
+7. **"Nace primer Espacio Bitcoin de América Latina"** (Latin America's First Bitcoin Space Is Born), PanAm Post, July 18, 2014.
+8. **"Casa Voltaire"**, *La Nación Revista*, March 5, 2022. Important for distinguishing another Buenos Aires node from Espacio Bitcoin.
+9. **_Dinero, valor y algoritmos: genealogía del sistema criptomonetario desde el contexto argentino_** (Money, Value and Algorithms: A Genealogy of the Cryptocurrency System from the Argentine Context), master's thesis, UNSAM, 2021.
+10. **Cambridge Centre for Alternative Finance, _Cryptoasset Ecosystem in Latin America and the Caribbean_** (2023), with a case study of Rootstock.
+11. **IDB/Finnovista, _Fintech: Innovations You May Not Know Were from Latin America and the Caribbean_**, with an entry on RSK.
+12. Profiles from Lifeboat Foundation, IQ.wiki, FinNotes and iProUP. They are useful for orientation, but several derive from corporate biographies and are not independent.
 
 ---
 
 ## Films, Documentaries, Podcasts and Archival Material
 
-No se encontró un largometraje o documental dedicado exclusivamente a su vida.
+No feature film or documentary devoted exclusively to his life was found.
 
-Material audiovisual y sonoro relevante:
+Relevant audiovisual and audio material:
 
-- TEDxRíodelaPlata, “Tu identidad, reputación y confianza en blockchain”.
-- Grabaciones de LABITCONF en YouTube.
-- Entrevistas de WeUseCoins/Trace Mayer.
-- Entrevista de GBCTV durante su visita a Gibraltar.
-- Entrevistas y podcasts de ForkLog, Real Vision, Cripto247 y medios sectoriales.
-- Archivos de programas de conferencias del BCRA, UBA y Consejo Profesional de Ciencias Económicas.
-- Boletín Oficial argentino para Magic Internet Money SRL.
-- Expediente estadounidense **IOV Labs Limited v. Levin**.
-- White papers originales de RSK/RIF y foros técnicos de Rootstock.
+- TEDxRíodelaPlata, "Tu identidad, reputación y confianza en blockchain" (Your identity, reputation and trust on the blockchain).
+- LABITCONF recordings on YouTube.
+- WeUseCoins/Trace Mayer interviews.
+- GBCTV interview during his visit to Gibraltar.
+- Interviews and podcasts from ForkLog, Real Vision, Cripto247 and sector media.
+- Archived conference programs from the BCRA, UBA and Consejo Profesional de Ciencias Económicas.
+- The Argentine Boletín Oficial for Magic Internet Money SRL.
+- The US court file **IOV Labs Limited v. Levin**.
+- The original RSK/RIF white papers and the Rootstock technical forums.
 
 ---
 
 ## Present Status
 
-A septiembre de 2026:
+As of September 2026:
 
-- vive;
-- mantiene actividad pública internacional;
-- volvió a desempeñarse como **CEO de RootstockLabs**;
-- continúa identificado como cofundador de Bitcoin Argentina, Koibanx y Rootstock;
-- conserva participación en actividades de LABITCONF y educación;
-- la ONG Bitcoin Argentina posee una comisión directiva renovada, con Diego como vocal, no presidente;
-- su agenda pública se concentra en BTCFi, DeFi sobre Bitcoin, identidad reputacional, adopción institucional e infraestructura financiera.
+- he is alive;
+- he maintains international public activity;
+- he has returned to serving as **CEO of RootstockLabs**;
+- he continues to be identified as co-founder of Bitcoin Argentina, Koibanx and Rootstock;
+- he retains involvement in LABITCONF activities and education;
+- the ONG Bitcoin Argentina has a renewed board, with Diego as a board member (vocal), not president;
+- his public agenda concentrates on BTCFi, DeFi on Bitcoin, reputational identity, institutional adoption and financial infrastructure.
 
 ---
 
 ## Reputation and Legacy
 
-Su reputación tiene varias capas documentables:
+His reputation has several documentable layers:
 
-1. **Pionero web:** participante de la primera generación comercial de Internet en Argentina.
-2. **Organizador comunitario:** convirtió reuniones informales en una comunidad estable, una ONG, un espacio físico y una conferencia itinerante.
-3. **Constructor empresarial:** contribuyó a trasladar el ecosistema desde compraventas en cafés hacia empresas financiadas internacionalmente.
-4. **Intermediario institucional:** dialogó con bancos centrales, gobiernos, universidades, empresas y reguladores.
-5. **Promotor de inclusión financiera:** presentó Bitcoin y blockchain como instrumentos para poblaciones sin servicios bancarios.
-6. **Figura controvertida por estructura, no por condenas:** las críticas más sustantivas se refieren a centralización de Rootstock, distribución de RIF, superposición ONG-negocios y resultados de Taringa.
-7. **Ausencia de imputaciones personales comprobadas:** no se hallaron condenas, cargos penales o sanciones regulatorias personales.
+1. **Web pioneer:** a participant in the first commercial generation of the Internet in Argentina.
+2. **Community organizer:** he turned informal gatherings into a stable community, an NGO, a physical space and a traveling conference.
+3. **Company builder:** he helped move the ecosystem from café trades to internationally funded companies.
+4. **Institutional intermediary:** he engaged in dialogue with central banks, governments, universities, companies and regulators.
+5. **Promoter of financial inclusion:** he presented Bitcoin and blockchain as instruments for unbanked populations.
+6. **A figure controversial for structure, not for convictions:** the most substantive criticisms concern the centralization of Rootstock, the distribution of RIF, the NGO-business overlap and the results of Taringa.
+7. **Absence of proven personal charges:** no convictions, criminal charges or personal regulatory sanctions were found.
 
-Su legado más visible no es una invención individual patentada, sino la construcción de instituciones y redes: Bitcoin Argentina, LABITCONF, Espacio Bitcoin, Koibanx y Rootstock.
+His most visible legacy is not a patented individual invention but the construction of institutions and networks: Bitcoin Argentina, LABITCONF, Espacio Bitcoin, Koibanx and Rootstock.
 
 ---
 
@@ -935,87 +935,87 @@ Su legado más visible no es una invención individual patentada, sino la constr
 
 ### Cristina Elisabet Fernández de Kirchner
 
-**Etiqueta: contexto histórico documentado, sin encuentro personal establecido.**
+**Label: documented historical context, no personal encounter established.**
 
-Durante su segundo gobierno se implantó y profundizó el cepo que formó el contexto económico de la escena Bitcoin de 2012–2015. El BCRA emitió advertencias mientras Gutiérrez Zaldívar dirigía Bitcoin Argentina. No se encontró reunión, correspondencia, alianza o rivalidad personal con Fernández de Kirchner. Por las reglas del atlas, el contexto presidencial no constituye por sí solo un “cruce” biográfico directo.
+During her second government the cepo that formed the economic context of the 2012–2015 Bitcoin scene was installed and deepened. The BCRA issued warnings while Gutiérrez Zaldívar led Bitcoin Argentina. No meeting, correspondence, alliance or personal rivalry with Fernández de Kirchner was found. Under the atlas rules, presidential context does not by itself constitute a direct biographical "crossing".
 
 ### Javier Gerardo Milei
 
-**Etiqueta: ausencia documentada.**
+**Label: documented absence.**
 
-Ambos pertenecen al debate argentino sobre moneda, dolarización y libertad económica, pero no se encontró evidencia firme de reunión, colaboración, correspondencia o relación personal. Las notas que citan a Diego sobre BRICS Pay y mencionan decisiones de Milei no documentan interacción. Tampoco apareció vínculo suyo con $LIBRA.
+Both belong to the Argentine debate on currency, dollarization and economic freedom, but no firm evidence was found of a meeting, collaboration, correspondence or personal relationship. The articles quoting Diego on BRICS Pay and mentioning Milei's decisions do not document interaction. Nor did any link of his to $LIBRA appear.
 
 ### Emiliano Kargieman
 
-**Etiqueta: coincidencia institucional reportada, relación bilateral no establecida.**
+**Label: reported institutional coincidence, bilateral relationship not established.**
 
-RSK y Satellogic figuran en el portfolio de NXTP, y Kargieman y Gutiérrez Zaldívar pertenecen a la misma generación ampliada de emprendedores tecnológicos argentinos. No se halló prueba suficiente de una sociedad, reunión fechada o colaboración directa. La coincidencia de portfolio no basta para afirmar un vínculo personal.
+RSK and Satellogic both appear in the NXTP portfolio, and Kargieman and Gutiérrez Zaldívar belong to the same extended generation of Argentine technology entrepreneurs. No sufficient proof was found of a partnership, dated meeting or direct collaboration. A portfolio coincidence is not enough to assert a personal tie.
 
 ### Harold Thomas Finney II
 
-**Etiqueta: influencia histórica general; sin cruce personal.**
+**Label: general historical influence; no personal crossing.**
 
-Hal Finney fue una figura fundacional de Bitcoin, tecnología sobre la cual Diego construyó sus proyectos. No se encontró correspondencia, reunión o reconocimiento específico de influencia personal.
+Hal Finney was a foundational figure of Bitcoin, the technology on which Diego built his projects. No correspondence, meeting or specific acknowledgment of personal influence was found.
 
 ### Nick Szabo
 
-**Etiqueta: contacto intelectual indirecto documentado; cruce personal no establecido.**
+**Label: documented indirect intellectual contact; personal crossing not established.**
 
-Szabo elogió públicamente en octubre de 2015 la combinación propuesta por Rootstock de Bitcoin y el entorno de contratos de Ethereum. Esto influyó en la reputación del proyecto de Diego, pero no se encontró documentación de reunión o colaboración entre ambos.
+In October 2015 Szabo publicly praised Rootstock's proposed combination of Bitcoin and Ethereum's contract environment. This influenced the reputation of Diego's project, but no documentation of a meeting or collaboration between the two was found.
 
-### Adi Shamir, David Chaum, Philip Zimmermann y otros criptógrafos del roster
+### Adi Shamir, David Chaum, Philip Zimmermann and other cryptographers on the roster
 
-**Etiqueta: sin conexión biográfica documentada.**
+**Label: no documented biographical connection.**
 
-Sus trabajos forman parte de la historia intelectual de la criptografía y el dinero digital, pero las fuentes consultadas no prueban reuniones, correspondencia o influencia explícitamente reconocida por Gutiérrez Zaldívar. No se fuerza la conexión.
+Their work forms part of the intellectual history of cryptography and digital money, but the sources consulted do not prove meetings, correspondence or influence explicitly acknowledged by Gutiérrez Zaldívar. The connection is not forced.
 
 ---
 
 ## Chronology
 
-| Fecha/año | Lugar | Acontecimiento |
+| Date/year | Place | Event |
 |---|---|---|
-| 28 enero 1975 | No establecido; Argentina | Nacimiento. |
-| 1982–1987 | Buenos Aires | Escuela N.º 26 Adolfo Van Gelderen. |
-| 1988–1992 | Buenos Aires | Bachillerato humanístico en ILSE. |
-| 1993 | Buenos Aires | Ingresa en Ingeniería Eléctrica/Electrónica, UBA; carrera no completada según perfiles públicos. |
-| 1995 | Buenos Aires | Comienza en desarrollo web; Xinergia, Clarín Digital e Internet Argentina. |
-| Finales de 1990 | Buenos Aires/internacional | Participa en Patagon.com y ElSitio.com. |
-| c. 2002 | Buenos Aires | Equipo fundador de Edunexo. |
-| 1 septiembre 2010 | En línea | Consulta técnica pública en lista de Samba desde Trusted Translations. |
-| 2011 | Buenos Aires | Wences Casares le presenta Bitcoin; minería, estudio y operaciones P2P. |
-| 2011–2012 | Cafés porteños | Primeras reuniones informales; asume la organización regular del meetup. |
-| 2012 | Buenos Aires | Consolida comunidad con Rodolfo Andragnes, Franco Amati y otros. |
-| 2013 | Buenos Aires | Fundación/ONG Bitcoin Argentina; primera feria en La Maquinita. |
-| 7–8 diciembre 2013 | Hotel Meliá, Buenos Aires | Primera Latin American Bitcoin Conference. |
-| 2013–2015 | Buenos Aires | Inicio de Koibanx según versiones divergentes. |
-| marzo 2014 | Buenos Aires | Aparece como una de las tres caras visibles de Fundación Bitcoin Argentina. |
-| junio–agosto 2014 | Marcelo T. de Alvear 405 | Preparación e inauguración de Espacio Bitcoin. |
-| 6–7 diciembre 2014 | Río de Janeiro | Segunda LABITCONF. |
-| 2015 | Buenos Aires | Cofunda RSK Labs. |
-| 4–5 diciembre 2015 | Ciudad de México | Tercera LABITCONF. |
-| enero–marzo 2016 | Buenos Aires/internacional | Primeras rondas de RSK; ronda de US$1 millón. |
-| 2016 | Buenos Aires | LABITCONF regresa a Argentina. |
-| 2016–2017 | Buenos Aires | Habla en hackathon del BCRA. |
-| 2017 | Bogotá | LABITCONF; nuevas rondas de RSK. |
-| enero 2018 | Global | Lanzamiento de mainnet de Rootstock. |
+| January 28, 1975 | Not established; Argentina | Birth. |
+| 1982–1987 | Buenos Aires | School No. 26 Adolfo Van Gelderen. |
+| 1988–1992 | Buenos Aires | Humanities bachillerato at ILSE. |
+| 1993 | Buenos Aires | Enters Electrical/Electronic Engineering, UBA; degree not completed according to public profiles. |
+| 1995 | Buenos Aires | Begins in web development; Xinergia, Clarín Digital and Internet Argentina. |
+| Late 1990s | Buenos Aires/international | Takes part in Patagon.com and ElSitio.com. |
+| c. 2002 | Buenos Aires | Founding team of Edunexo. |
+| September 1, 2010 | Online | Public technical query on the Samba list from Trusted Translations. |
+| 2011 | Buenos Aires | Wences Casares introduces him to Bitcoin; mining, study and P2P trades. |
+| 2011–2012 | Buenos Aires cafés | First informal gatherings; takes over regular organization of the meetup. |
+| 2012 | Buenos Aires | Consolidates the community with Rodolfo Andragnes, Franco Amati and others. |
+| 2013 | Buenos Aires | Fundación/ONG Bitcoin Argentina; first fair at La Maquinita. |
+| December 7–8, 2013 | Hotel Meliá, Buenos Aires | First Latin American Bitcoin Conference. |
+| 2013–2015 | Buenos Aires | Start of Koibanx according to divergent versions. |
+| March 2014 | Buenos Aires | Appears as one of the three public faces of Fundación Bitcoin Argentina. |
+| June–August 2014 | Marcelo T. de Alvear 405 | Preparation and opening of Espacio Bitcoin. |
+| December 6–7, 2014 | Rio de Janeiro | Second LABITCONF. |
+| 2015 | Buenos Aires | Co-founds RSK Labs. |
+| December 4–5, 2015 | Mexico City | Third LABITCONF. |
+| January–March 2016 | Buenos Aires/international | First RSK rounds; US$1 million round. |
+| 2016 | Buenos Aires | LABITCONF returns to Argentina. |
+| 2016–2017 | Buenos Aires | Speaks at the BCRA hackathon. |
+| 2017 | Bogotá | LABITCONF; new RSK rounds. |
+| January 2018 | Global | Launch of the Rootstock mainnet. |
 | 2018 | Santiago | LABITCONF Chile. |
-| mayo 2019 | Buenos Aires | TEDx sobre identidad, reputación y blockchain. |
-| septiembre 2019 | Buenos Aires/global | IOV Labs adquiere Taringa. |
-| 12–13 diciembre 2019 | Montevideo | LABITCONF Uruguay. |
-| 2020 | En línea | LABITCONF “La Luna”. |
-| 2021 | El Salvador | LABITCONF; ingreso de Diego al Crypto Hall of Fame de Moonstock. |
-| 7 diciembre 2021 | Gibraltar | Anuncio de piloto eGov con IOV Labs y Bitso. |
-| 3 enero 2022 | Buenos Aires | Adquiere con Andragnes cuotas de Magic Internet Money SRL cedidas por Amati. |
-| marzo 2022 | Gibraltar | Visita oficial vinculada con eGov. |
-| junio 2022 | Florida | Resolución de discovery en IOV Labs Limited v. Levin. |
-| noviembre 2022 | Buenos Aires | Reunión del sector cripto con Sergio Massa; Rootstock Summit y LABITCONF. |
-| 22 mayo 2023 | Global | Daniel Fogg lo reemplaza como CEO; pasa a chairman de IOV Labs. |
-| 1 diciembre 2023 | Bogotá | Reunión con Gustavo Petro y promotores de Bitcoin. |
-| 1–2 noviembre 2024 | Costa Salguero, Buenos Aires | LABITCONF 2024. |
-| febrero 2025 | Argentina | Caso $LIBRA; no se encontró conexión de Diego. |
-| noviembre 2025 | Buenos Aires/global | Regresa como CEO de RootstockLabs. |
-| 2026 | Buenos Aires/global | Continúa como CEO, conferencista y organizador; LABITCONF mantiene programación internacional. |
+| May 2019 | Buenos Aires | TEDx on identity, reputation and blockchain. |
+| September 2019 | Buenos Aires/global | IOV Labs acquires Taringa. |
+| December 12–13, 2019 | Montevideo | LABITCONF Uruguay. |
+| 2020 | Online | LABITCONF "La Luna". |
+| 2021 | El Salvador | LABITCONF; Diego's induction into Moonstock's Crypto Hall of Fame. |
+| December 7, 2021 | Gibraltar | Announcement of the eGov pilot with IOV Labs and Bitso. |
+| January 3, 2022 | Buenos Aires | Acquires, with Andragnes, shares of Magic Internet Money SRL transferred by Amati. |
+| March 2022 | Gibraltar | Official visit linked to eGov. |
+| June 2022 | Florida | Discovery ruling in IOV Labs Limited v. Levin. |
+| November 2022 | Buenos Aires | Crypto sector meeting with Sergio Massa; Rootstock Summit and LABITCONF. |
+| May 22, 2023 | Global | Daniel Fogg replaces him as CEO; he becomes chairman of IOV Labs. |
+| December 1, 2023 | Bogotá | Meeting with Gustavo Petro and Bitcoin promoters. |
+| November 1–2, 2024 | Costa Salguero, Buenos Aires | LABITCONF 2024. |
+| February 2025 | Argentina | $LIBRA case; no connection to Diego found. |
+| November 2025 | Buenos Aires/global | Returns as CEO of RootstockLabs. |
+| 2026 | Buenos Aires/global | Continues as CEO, speaker and organizer; LABITCONF maintains international programming. |
 
 ---
 
