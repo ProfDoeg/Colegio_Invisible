@@ -969,7 +969,6 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 
 - **Auguste Rodin** [T5]
 - **Alphonse Mucha** [T4]
-- **Charles Rennie Mackintosh** [T4]
 - **Friedrich Schiller** [T3]
 - **Auguste Rodin** [T3] (mirrored from auguste_rodin.dossier.md)
 
