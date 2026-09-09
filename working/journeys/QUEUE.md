@@ -15,6 +15,12 @@ dossier staged the same day by the Codex machine with that brief.
 | docs | subject | who |
 |--:|---|---|
 
+## Author additions (2026-09-09)
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Emiliano Kargieman** | Argentine hacker turned founder: Core Security (1996, from the AFIP's systems-security desk), Aconcagua Ventures, Satellogic (2010, earth-observation satellites, Nasdaq 2022), and Sur Energy (with Matías Travizano and Stan Chudnovsky), OpenAI's partner in "Stargate Argentina", the 500 MW, US$25 billion Patagonian data center announced October 2025; a name Argentines should know, per Anthony, with a live controversy trail (financing, the "Argentina's Elon Musk" framing, technocracy-in-Patagonia critiques) for the adversarial pass |
+
 ## ibn_battuta
 
 The July survey's single highest-value gap, still open: one subject closes
