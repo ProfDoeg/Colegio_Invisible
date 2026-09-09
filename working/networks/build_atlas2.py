@@ -93,6 +93,10 @@ def main():
         '<b>&larr;/&rarr;</b> member &nbsp;&middot;&nbsp; <b>A</b> next placeless '
         '&nbsp;&middot;&nbsp; drag to turn &nbsp;&middot;&nbsp; scroll to zoom</div>', 1)
 
+    # mobile: the journey atlas's portrait layout, verbatim, so a phone stacks the
+    # globe over the panel instead of squeezing the desktop split (2026-09-09).
+    head = head.replace('</style>', MOBILE_CSS + '</style>', 1)
+
     topo = json.load(open(os.path.join(HEAL, 'land-50m.json')))
     sc, tr = topo['transform']['scale'], topo['transform']['translate']
     coast_lines = []
@@ -122,12 +126,45 @@ def main():
     # The donor slice begins at <style> and carries no doctype or charset, so we
     # must emit them or every en-dash arrives as mojibake.
     html = ('<!doctype html><html lang="en"><head><meta charset="utf-8">'
+            '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
             '<title>Atlas II &middot; the networks</title>'
             + head + '\n<script>' + data + '</script>\n<script>' + APP + '</script>\n')
     with open(OUT, 'w', encoding='utf-8') as f:
         f.write(html)
     print('wrote %s (%d KB)' % (OUT, os.path.getsize(OUT) // 1024))
 
+
+MOBILE_CSS = """
+  #app{height:100dvh}
+  aside#panel{height:100dvh}
+  #stage canvas{touch-action:none}
+  button,select{touch-action:manipulation}
+  #travbar{display:flex;gap:8px;padding:12px 16px 0;align-items:center}
+  #travbar select{flex:1;min-width:0;background:var(--panel2);color:var(--ink);
+    border:.5px solid var(--line);border-radius:8px;padding:8px 10px;font-size:13px;
+    -webkit-appearance:none;appearance:none}
+  #travbar button{background:var(--panel2);color:var(--ink);border:.5px solid var(--line);
+    border-radius:8px;padding:8px 14px;font-size:16px;line-height:1;cursor:pointer}
+  @media (max-width:820px){
+    #app{flex-direction:column;height:100dvh}
+    #stage{height:auto;flex:1 1 40%}
+    aside#panel{flex:0 0 60%;height:auto;min-height:0;max-width:none;width:100%;
+      border-left:none;border-top:.5px solid var(--line)}
+    #body{min-height:0}
+    #titlebar{max-width:78%;left:12px;top:10px}
+    #titlebar h1{font-size:16px}
+    #titlebar p{font-size:11px}
+    #hint{display:none}
+    #travbar{padding:10px 12px 0}
+    #meta{padding:10px 14px 8px}
+    #place{font-size:17px}
+    #body{padding:12px 14px 14px}
+    #campa{font-size:14.5px;line-height:1.6}
+    #quote{font-size:13.5px}
+    #controls{padding:10px 12px calc(10px + env(safe-area-inset-bottom))}
+    #controls button{padding:10px 12px}
+  }
+"""
 
 APP = r"""
 (function(){
