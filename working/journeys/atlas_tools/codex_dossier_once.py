@@ -40,7 +40,9 @@ def build_prompt(name, brief_path):
                f"antisemitism, propaganda, hoax, fabrication, criticism, dispute, and the like, "
                f"including the most recent two years; the dossier must engage the major negative "
                f"and contested material with the usual evidentiary labels rather than omit it. "
-               f"Do not attempt file writes or shell commands. Print the complete finished "
+               f"Do not attempt file writes or shell commands. Write the dossier in English "
+               f"whatever the language of the sources (quote Spanish sources in Spanish with a "
+               f"gloss). Print the complete finished "
                f"dossier, in full, as your final message: a single Markdown document titled "
                f"\"# {name}: Research Dossier\", including the Atlas Connections section, ending "
                f"with the full list of source URLs.")
