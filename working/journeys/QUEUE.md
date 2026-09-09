@@ -19,7 +19,6 @@ dossier staged the same day by the Codex machine with that brief.
 
 | docs | subject | who |
 |--:|---|---|
-| 0 | **Sergio Demian Lerner** | Buenos Aires cryptographer and Bitcoin security researcher: Certimix, the 2013 Satoshi-mining ("Patoshi") pattern analysis, disclosed Bitcoin Core vulnerabilities, co-founder and chief scientist of RSK/Rootstock (2015, Bitcoin sidechain built in Buenos Aires); the technical conscience of the Argentine scene |
 | 0 | **Wences Casares** | Patagonian-born (Río Gallegos) founder of Patagon (sold to Santander 2000), Lemon Wallet and Xapo (2014, bitcoin vaults in Swiss bunkers), the "patient zero" who put bitcoin in front of Silicon Valley's founders and the Bill Gates/Reid Hoffman circle; PayPal and Libra boards; the 1990s Argentine-internet arc into the bitcoin one |
 | 0 | **Diego Gutiérrez Zaldívar** | Co-founder of Fundación Bitcoin Argentina (2013, with Rodolfo Andragnes and others), organizer of the first LaBitConf (Buenos Aires, December 2013), the underground meetups and Espacio Bitcoin; later RSK/IOV Labs; the community-builder seat of the Buenos Aires bitcoin scene, alongside Andragnes, whom Anthony may swap in |
 
