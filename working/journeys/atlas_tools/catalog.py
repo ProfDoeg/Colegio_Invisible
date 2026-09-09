@@ -110,6 +110,9 @@ def write_subjects(corpus, queue_path, dossiers_dir, path):
             dated_sorted = sorted(dated, key=truekey)
             first_date = dated_sorted[0] if dated_sorted else ""
             last_date = dated_sorted[-1] if dated_sorted else ""
+            if j.raw.get("retrocausal"):
+                # told backward (El Gólem): the subject is dated by its final stop
+                first_date, last_date = last_date, first_date
             n_segments = len({s.seg_i for s in j.stops})
             w.writerow([slug, j.traveler, j.title, j.years, j.register,
                         n_segments, len(j.stops), first_date, last_date,

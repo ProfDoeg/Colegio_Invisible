@@ -61,6 +61,11 @@ for f in sorted(glob.glob(os.path.join(SRC_DIR, '*.journey.json'))):
     # in the browser is sorted by date; 's' (segment index) travels with each
     # stop so its chip/color/name still reflect the segment it belongs to.
     stops.sort(key=lambda s: s['k'])
+    # A retrocausal journey (El Gólem, per Anthony 2026-09-09) is told backward:
+    # its stops run from the last body to the first word, and the subject is
+    # dated by its final stop, so it stands last in the atlas, after everyone.
+    if j.get('retrocausal'):
+        stops.reverse()
     travelers.append({
         'slug': slug,
         'traveler': j.get('traveler', slug),
