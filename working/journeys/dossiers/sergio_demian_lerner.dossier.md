@@ -951,6 +951,14 @@ No reliable crossing was established with Nick Szabo, Philip R. Zimmermann, Ralp
 
 ---
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Emiliano Kargieman** [T4]
+- **Harold Thomas Finney II** [T1-]
+- **David Lee Chaum** [T1-]
+
 ## Chronology
 
 - **Birth:** Date and place not securely established; a weak secondary source says Argentina, 1972.

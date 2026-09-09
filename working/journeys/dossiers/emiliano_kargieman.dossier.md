@@ -841,6 +841,17 @@ No reliable evidence was located of a meeting, collaboration, correspondence, or
 
 Kargieman worked in cryptography and computer security, and his secure-triggers paper draws on the discipline’s literature. Mere field overlap or citation chains do not establish a biographical crossing. No meeting, correspondence, collaboration, shared appointment, or specific acknowledged mentorship involving these roster members was verified.
 
+### Connection Tags
+
+Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 during the connections-harmonization pass. Types: T1 wrote about a past figure, T2 prophecy/hyperstition, T3 discourse, T4 proximity/milieu, T5 friendship/meeting, T9 shared object or site. Sign + = this subject is the earlier/source figure, - = the later figure, blank = undirected. See the prose above (or the counterpart's own dossier) for the full claim.
+
+- **Samuel Harris Altman** [T3]
+- **Javier Gerardo Milei** [T3]
+- **Ray Kurzweil** [T4]
+- **Peter Andreas Thiel** [T1-]
+- **Luis Alberto Spinetta** [T9-]
+- **Sergio Demian Lerner** [T4] (mirrored from sergio_demian_lerner.dossier.md)
+
 ## Chronology
 
 | Date | Place | Event |
