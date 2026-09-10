@@ -958,6 +958,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Emiliano Kargieman** [T4]
 - **Harold Thomas Finney II** [T1-]
 - **David Lee Chaum** [T1-]
+- **Wences Casares** [T5]
+- **Diego Gutiérrez Zaldívar** [T5]
 
 ## Chronology
 

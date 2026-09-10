@@ -1187,6 +1187,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Reid Garrett Hoffman** [T5]
 - **Marc Lowell Andreessen** [T4]
 - **Max Rafailovich Levchin** [T3]
+- **Sergio Demian Lerner** [T5]
+- **Diego Gutiérrez Zaldívar** [T5]
 
 ## Chronology
 
