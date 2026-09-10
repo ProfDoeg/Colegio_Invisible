@@ -1376,6 +1376,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Guinevere** [T5] (mirrored from guinevere.dossier.md)
 - **Richard I of England** [T2+ prediction] (mirrored from richard_lionheart.dossier.md)
 - **Parzival** [T4] (mirrored from parzival.dossier.md)
+- **Rosa Luxemburg (Rozalia Luksenburg)** [T1+]
 
 ## Chronology
 

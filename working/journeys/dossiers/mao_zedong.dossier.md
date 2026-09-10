@@ -1124,6 +1124,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Jean-Paul Charles Aymard Sartre** [T4] (mirrored from jean_paul_sartre.dossier.md)
 - **Nicos Poulantzas** [T3] (mirrored from nicos_poulantzas.dossier.md)
 - **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+- **Jonas Malheiro Savimbi** [T1+]
 
 ## Compact Chronology
 

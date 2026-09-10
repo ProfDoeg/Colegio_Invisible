@@ -1179,6 +1179,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **José de San Martín** [T9+]
 - **Francisco Gianotti** [T4] (mirrored from francisco_gianotti.dossier.md)
 - **Virginio Colombo** [T4] (mirrored from virginio_colombo.dossier.md)
+- **Federico García Lorca** [T9+]
 
 ## Chronology
 

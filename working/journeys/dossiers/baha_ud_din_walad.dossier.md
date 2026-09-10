@@ -1146,6 +1146,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Genghis Khan** [T4]
 - **Abu al-Qasim al-Junayd ibn Muhammad al-Baghdadi** [T1-] (mirrored from junayd_al_baghdadi.dossier.md)
 - **Shams al-Din Muhammad of Tabriz** [T1+] (mirrored from shams_al_din_of_tabriz.dossier.md)
+- **Farid al-Din Attar (Farid al-Din Muhammad ibn Ibrahim, 'Attar-e Nishaburi)** [T5]
 
 ## Compact Chronology
 

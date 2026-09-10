@@ -533,6 +533,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Theodor Reuss** [T4] (mirrored from theodor_reuss.dossier.md)
 - **Ida Hofmann** [T4] (mirrored from ida_hoffmann.dossier.md)
 - **Karl Max Engelmann** [T5] (mirrored from engelmann.dossier.md)
+- **Rudolf Laban** [T5]
 
 ## Sources
 

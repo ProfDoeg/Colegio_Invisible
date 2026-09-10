@@ -589,6 +589,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Erik Satie** [T1+] (mirrored from erik_satie.dossier.md)
 - **Franz Anton Mesmer** [T4] (mirrored from mesmer.dossier.md)
 - **Johann Wolfgang von Goethe** [T5] (mirrored from goethe_full.dossier.md)
+- **Charly García** [T9+]
+- **Hilde Holger (Hilde Sofer, later Boman-Behram)** [T9+]
 
 ## Sources
 

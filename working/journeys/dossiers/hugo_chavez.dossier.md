@@ -1123,6 +1123,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Vilma Espín Guillois** [T5] (mirrored from vilma_espin.dossier.md)
 - **Avram Noam Chomsky** [T9-] (mirrored from noam_chomsky.dossier.md)
 - **Eduardo Sergio Elsztain** [T5] (mirrored from eduardo_elsztain.dossier.md)
+- **Jair Messias Bolsonaro** [T1+]
 
 ## Chronology
 

@@ -1065,6 +1065,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
 - **Guido Keller** [T5] (mirrored from guido_keller.dossier.md)
 - **Benito Mussolini** [T4] (mirrored from mussolini.dossier.md)
+- **Lev Davidovich Bronstein (Leon Trotsky)** [T3]
 
 ## Chronology
 

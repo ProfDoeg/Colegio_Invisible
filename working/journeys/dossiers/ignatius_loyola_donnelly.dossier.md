@@ -807,6 +807,15 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Elizebeth Smith Friedman** [T1+] (mirrored from elizebeth_smith_friedman.dossier.md)
 - **Helena Petrovna Blavatsky** [T3] (mirrored from blavatsky.dossier.md)
 - **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+- **Augustus Henry Julian Le Plongeon** [T3]
+- **Charles Robert Darwin** [T3]
+- **Christopher Columbus** [T1-]
+- **Edward Bellamy** [T3]
+- **Francis Bacon, 1st Viscount St Alban** [T1-]
+- **Friedrich Max Müller** [T3]
+- **Noah son of Lamech (Nuh)** [T1-]
+- **Plato (Aristocles, son of Ariston, called Plato for the breadth of his shoulders)** [T1-]
+- **William Frederick Friedman** [T1+]
 
 ## Sources
 

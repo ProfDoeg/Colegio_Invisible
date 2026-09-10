@@ -1267,6 +1267,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Antoni Gaudí i Cornet** [T3] (mirrored from antoni_gaudi.dossier.md)
 - **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
 - **Suzanne Perrottet** [T9+] (mirrored from suzanne_perrottet.dossier.md)
+- **Ida Hofmann (Ida Hofmann-Oedenkoven)** [T1+]
+- **Parzival (Parzival von Waleis, son of Gahmuret of Anjou and Herzeloyde of Waleis)** [T1-]
 
 ## Compact Chronology
 

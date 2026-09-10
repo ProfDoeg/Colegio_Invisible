@@ -592,6 +592,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Vaslav Nijinsky** [T9+]
 - **Anna Matveyevna Pavlova** [T9+]
 - **Igor Fyodorovich Stravinsky** [T9+]
+- **Victoria Ocampo (Ramona Victoria Epifanía Rufina Ocampo)** [T9+]
 
 ## Sources
 

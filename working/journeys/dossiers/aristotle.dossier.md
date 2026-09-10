@@ -1153,6 +1153,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Søren Aabye Kierkegaard** [T1+] (mirrored from s_ren_kierkegaard.dossier.md)
 - **Leonardo di ser Piero da Vinci** [T1+] (mirrored from leonardo_da_vinci.dossier.md)
 - **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+- **Hypatia of Alexandria** [T1+]
 
 ## Chronology
 

@@ -578,6 +578,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Hilde Holger** [T1+] (mirrored from hilde_holger.dossier.md)
 - **Doris Batcheller Humphrey** [T3] (mirrored from doris_humphrey.dossier.md)
 - **Albert Camus** [T1+] (mirrored from albert_camus.dossier.md)
+- **Mario Palanti** [T9-]
 
 ## Sources
 

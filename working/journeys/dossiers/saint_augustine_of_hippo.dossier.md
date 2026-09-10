@@ -708,6 +708,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
 - **Søren Aabye Kierkegaard** [T1+] (mirrored from s_ren_kierkegaard.dossier.md)
 - **Georg Wilhelm Friedrich Hegel** [T1+] (mirrored from hegel.dossier.md)
+- **Jean-Jacques Rousseau** [T1+]
 
 ## Sources
 

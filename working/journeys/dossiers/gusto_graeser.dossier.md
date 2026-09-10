@@ -868,6 +868,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Ida Hofmann** [T4] (mirrored from ida_hoffmann.dossier.md)
 - **Johannes Friedrich Guttzeit** [T4] (mirrored from johannes_friedrich_guttzeit.dossier.md)
 - **Karl Max Engelmann** [T5] (mirrored from engelmann.dossier.md)
+- **Theodor Reuss (Albert Karl Theodor Reuss, in religion Merlin Peregrinus, on the stage Charles Theodore)** [T4]
 
 ## Chronology
 

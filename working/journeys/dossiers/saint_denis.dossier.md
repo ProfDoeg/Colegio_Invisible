@@ -1128,6 +1128,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Pantaleon of Nicomedia** [T4] (mirrored from saint_pantaleon.dossier.md)
 - **San Vito** [T9-] (mirrored from san_vito.dossier.md)
 - **Rollo** [T9+] (mirrored from rollo.dossier.md)
+- **Saint Giles (Aegidius)** [T4]
+- **Jesus of Nazareth (Yeshua, the Christ)** [T1-]
 
 ## Compact Chronology
 

@@ -1089,6 +1089,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Carl Gustav Jung** [T1+]
 - **Aeneas** [T9-]
 - **Johannes Trithemius** [T9-] (mirrored from johannes_trithemius.dossier.md)
+- **Paracelsus (Theophrastus Bombastus von Hohenheim)** [T3]
 
 ## Chronology
 

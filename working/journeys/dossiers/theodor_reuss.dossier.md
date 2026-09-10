@@ -996,6 +996,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Carl Gustav Jacob Jacobi** [T4]
 - **Ida Hofmann** [T5] (mirrored from ida_hoffmann.dossier.md)
 - **Henri Oedenkoven** [T5] (mirrored from henri_oedenkoven.dossier.md)
+- **Gustav Arthur "Gusto" Gräser** [T4]
 
 ## Chronology
 

@@ -710,6 +710,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Jacques Marie Émile Lacan** [T5] (mirrored from jacques_lacan.dossier.md)
 - **Jacques Derrida** [T5] (mirrored from jacques_derrida.dossier.md)
 - **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+- **Simon bar Jonah, called Cephas, the Apostle Peter** [T1-]
 
 ## Sources
 

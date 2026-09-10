@@ -1454,6 +1454,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Edward Bellamy** [T3] (mirrored from edward_bellamy.dossier.md)
 - **R. Buckminster Fuller** [T3] (mirrored from buckminster_fuller.dossier.md)
 - **G. I. Gurdjieff** [T1-] (mirrored from gurdjieff.dossier.md)
+- **Benito Mussolini** [T3]
 
 ## Compact Chronology
 

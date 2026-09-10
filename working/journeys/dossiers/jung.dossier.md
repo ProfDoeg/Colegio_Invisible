@@ -1530,6 +1530,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Johann Wolfgang von Goethe** [T1-] (mirrored from goethe_full.dossier.md)
 - **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
 - **Suzanne Perrottet** [T5] (mirrored from suzanne_perrottet.dossier.md)
+- **Johann Georg Faust (Georgius Sabellicus Faustus junior)** [T1-]
+- **Wilhelm Reich** [T3]
 
 ## Compact Chronology
 

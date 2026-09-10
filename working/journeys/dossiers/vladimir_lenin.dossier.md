@@ -766,6 +766,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Victor Alter** [T4] (mirrored from victor_alter.dossier.md)
 - **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
 - **Erich Mühsam** [T3] (mirrored from erich_muhsam.dossier.md)
+- **Charles de Ganahl Koch** [T1+]
+- **Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez (Diego Rivera)** [T1+]
 
 ## Sources
 

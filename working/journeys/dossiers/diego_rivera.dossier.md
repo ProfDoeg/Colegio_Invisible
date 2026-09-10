@@ -929,6 +929,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Walter Elias Disney** [T5] (mirrored from walt_disney.dossier.md)
 - **John Dewey** [T4] (mirrored from john_dewey.dossier.md)
 - **Pablo Ruiz Picasso** [T3] (mirrored from pablo_picasso.dossier.md)
+- **Vladimir Ilyich Ulyanov (Lenin)** [T1-]
+- **Karl Marx (the Moor)** [T1-]
 
 ## Compact Chronology
 

@@ -1261,6 +1261,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **María Estela Martínez Cartas de Perón** [T5] (mirrored from isabel_peron.dossier.md)
 - **Julio Florencio Cortázar Descotte** [T3] (mirrored from julio_cortazar.dossier.md)
 - **Jorge Luis Borges** [T5] (mirrored from borges.dossier.md)
+- **Jair Messias Bolsonaro** [T1+]
 
 ## Chronology
 

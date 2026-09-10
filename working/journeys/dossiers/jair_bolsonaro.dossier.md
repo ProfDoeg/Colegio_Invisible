@@ -1113,6 +1113,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Javier Gerardo Milei** [T5]
 - **Volodymyr Oleksandrovych Zelenskyy** [T3]
 - **Paulo Reglus Neves Freire** [T1-] (mirrored from paulo_freire.dossier.md)
+- **Augusto Pinochet Ugarte** [T1-]
+- **Hugo Rafael Chávez Frías** [T1-]
 
 ## Chronology
 

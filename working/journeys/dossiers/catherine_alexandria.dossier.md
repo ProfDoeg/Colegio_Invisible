@@ -1207,6 +1207,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Pantaleon of Nicomedia** [T4] (mirrored from saint_pantaleon.dossier.md)
 - **San Vito** [T9-] (mirrored from san_vito.dossier.md)
 - **Margery Kempe** [T1+] (mirrored from margery_kempe.dossier.md)
+- **Saint Giles (Aegidius)** [T4]
 
 ## Chronology
 

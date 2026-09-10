@@ -714,6 +714,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Rosa Luxemburg** [T5] (mirrored from rosa_luxemburg.dossier.md)
 - **Nicos Poulantzas** [T1+] (mirrored from nicos_poulantzas.dossier.md)
 - **Victor Alter** [T4] (mirrored from victor_alter.dossier.md)
+- **Filippo Tommaso Emilio Marinetti** [T3]
 
 ## Sources
 

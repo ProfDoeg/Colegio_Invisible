@@ -771,6 +771,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Giuseppe Balsamo** [T5]
 - **Rudolf Steiner** [T1-]
 - **Franz Anton Mesmer** [T9+] (mirrored from mesmer.dossier.md)
+- **Christian Rosenkreuz (Frater C.R.C., Christian Rosencreutz)** [T1-]
 
 ## Sources
 

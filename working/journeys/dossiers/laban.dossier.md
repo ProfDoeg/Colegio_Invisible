@@ -1269,6 +1269,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Doris Batcheller Humphrey** [T9+] (mirrored from doris_humphrey.dossier.md)
 - **Gustav Arthur "Gusto" Gräser** [T4] (mirrored from gusto_graeser.dossier.md)
 - **Charlotte Bara** [T9+] (mirrored from charlotte_bara.dossier.md)
+- **Henri Oedenkoven** [T5]
 
 ## Sources
 

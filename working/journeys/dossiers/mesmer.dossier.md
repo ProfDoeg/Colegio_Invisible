@@ -990,6 +990,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Benjamin Franklin** [T4] (mirrored from benjamin_franklin.dossier.md)
 - **Helena Petrovna Blavatsky** [T1+] (mirrored from blavatsky.dossier.md)
 - **Antoine Court de Gébelin** [T5] (mirrored from antoine_court_de_gebelin.dossier.md)
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier, Marquis de Lafayette** [T4]
 
 ## Chronology
 

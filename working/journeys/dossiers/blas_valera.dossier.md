@@ -877,6 +877,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **El Inca Garcilaso de la Vega** [T3]
 - **Francisco Pizarro González** [T1-]
 - **Felipe Guamán Poma de Ayala** [T3] (mirrored from guaman_poma_de_ayala.dossier.md)
+- **Jesus of Nazareth (Yeshua, the Christ)** [T1-]
 
 ## Chronology
 

@@ -1205,6 +1205,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Marcus Fabius Quintilianus** [T1+] (mirrored from quintilian.dossier.md)
 - **Johann Wolfgang von Goethe** [T1+] (mirrored from goethe_full.dossier.md)
 - **Leon Battista Alberti** [T1+] (mirrored from leon_battista_alberti.dossier.md)
+- **Jesus of Nazareth (Yeshua, the Christ)** [T2+]
 
 ## Compact Chronology
 

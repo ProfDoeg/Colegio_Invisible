@@ -936,6 +936,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Juan Domingo Perón** [T3] (mirrored from juan_peron.dossier.md)
 - **Xul Solar** [T4] (mirrored from xul_solar.dossier.md)
 - **Julio Florencio Cortázar Descotte** [T9+] (mirrored from julio_cortazar.dossier.md)
+- **Vittorio Meano (Victor Meano)** [T9-]
 
 ## Compact Chronology
 

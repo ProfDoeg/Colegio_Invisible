@@ -1105,6 +1105,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Mikhail Aleksandrovich Bakunin** [T1+] (mirrored from mikhail_bakunin.dossier.md)
 - **Albert Camus** [T1+] (mirrored from albert_camus.dossier.md)
 - **Max Horkheimer** [T1+] (mirrored from max_horkheimer.dossier.md)
+- **Arthur James Balfour, 1st Earl of Balfour** [T1+]
 
 ## Compact Chronology
 

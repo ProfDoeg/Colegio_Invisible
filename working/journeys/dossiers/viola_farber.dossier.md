@@ -582,6 +582,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **John Milton Cage Jr.** [T5]
 - **Merce Cunningham** [T5]
 - **Martha Graham** [T4] (mirrored from martha_graham.dossier.md)
+- **Erik Satie (Eric Alfred Leslie Satie)** [T9-]
 
 ## Sources
 

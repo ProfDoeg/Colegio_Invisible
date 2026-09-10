@@ -781,6 +781,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Simón Bolívar** [T1-] (mirrored from bolivar.dossier.md)
 - **Simón Rodríguez** [T1-] (mirrored from simon_rodriguez.dossier.md)
 - **Diego Armando Maradona** [T4] (mirrored from diego_maradona.dossier.md)
+- **Karl Marx (the Moor)** [T1-]
+- **Jesus of Nazareth (Yeshua, the Christ)** [T1-]
 
 ## Compact Chronology
 

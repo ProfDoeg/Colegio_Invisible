@@ -997,6 +997,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 
 - **Pierre Bourlémont** [T5]
 - **Pierre Bourlémont** [T9+] (mirrored from pierre_bourlemont.dossier.md)
+- **Pica Bourlémont (Giovanna, Madonna Pica)** [T5]
 
 ## Sources
 

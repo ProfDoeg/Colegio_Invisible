@@ -1074,6 +1074,9 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Johann Jost Textor** [T3] (mirrored from johann_jost_textor.dossier.md)
 - **Franz Pforr** [T3] (mirrored from franz_pforr.dossier.md)
 - **Søren Aabye Kierkegaard** [T1+] (mirrored from s_ren_kierkegaard.dossier.md)
+- **Gustave Flaubert** [T1+]
+- **Hilma af Klint** [T1+]
+- **Johann Friedrich Overbeck** [T3]
 
 ## Compact Chronology
 

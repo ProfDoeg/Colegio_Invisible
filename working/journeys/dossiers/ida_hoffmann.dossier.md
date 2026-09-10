@@ -964,6 +964,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Hermann Hesse** [T9+] (mirrored from hermann_hesse.dossier.md)
 - **Theodor Reuss** [T4] (mirrored from theodor_reuss.dossier.md)
 - **Karl Max Engelmann** [T5] (mirrored from engelmann.dossier.md)
+- **Wilhelm Richard Wagner** [T1-]
 
 ## Chronology
 

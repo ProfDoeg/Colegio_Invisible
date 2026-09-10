@@ -1007,6 +1007,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Jean-Baptiste Pitois** [T1+] (mirrored from jean_baptiste_pitois_paul_christian.dossier.md)
 - **Johannes Trithemius** [T3] (mirrored from johannes_trithemius.dossier.md)
 - **Ioan Petru Culianu** [T1+] (mirrored from ioan_petru_culianu.dossier.md)
+- **Carl Gustav Jung** [T1+]
 
 ## Compact Chronology
 

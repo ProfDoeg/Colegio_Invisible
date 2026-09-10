@@ -1037,6 +1037,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Paracelsus** [T1-] (mirrored from paracelsus.dossier.md)
 - **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
 - **Suzanne Perrottet** [T9+] (mirrored from suzanne_perrottet.dossier.md)
+- **Jesus of Nazareth (Yeshua, the Christ)** [T1-]
 
 ## Chronology
 

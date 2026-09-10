@@ -1224,6 +1224,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Evliya Çelebi** [T1+] (mirrored from evliya_celebi.dossier.md)
 - **Abu al-Qasim Abd al-Karim ibn Hawazin al-Qushayri** [T1+] (mirrored from abu_al_qasim_al_qushayri.dossier.md)
 - **Abu Abdallah Muhammad ibn Battuta** [T9+] (mirrored from ibn_battuta.dossier.md)
+- **Abu Yazid Tayfur ibn Isa al-Bistami (Bayazid Bastami)** [T9+]
+- **Muhammad Baha al-Din Naqshband Bukhari** [T1+]
 
 ## Chronology
 

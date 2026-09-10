@@ -1567,6 +1567,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Mary Magdalene** [T9-]
 - **Merlin** [T9-] (mirrored from merlin.dossier.md)
 - **Kyot-Willehalm** [T5] (mirrored from kyot-willehalm.dossier.md)
+- **Wilhelm Richard Wagner** [T1+]
 
 ## Chronology
 

@@ -1497,6 +1497,10 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Abd al-Qadir al-Jilani** [T1+] (mirrored from abd_al_qadir_al_jilani.dossier.md)
 - **Jalal al-Din Rumi** [T1+] (mirrored from rumi.dossier.md)
 - **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+- **Abd al-Rahman ibn Abd Allah al-Ghafiqi** [T1+]
+- **Muhammad Baha al-Din Naqshband Bukhari** [T1+]
+- **Khwaja Mu'in al-Din Hasan Chishti (Moinuddin Chishti), Gharib Nawaz** [T1+]
+- **Nizam ad-Din Auliya (Sultan-ji, Mahbub-e-Ilahi)** [T1+]
 
 ## Compact Chronology
 

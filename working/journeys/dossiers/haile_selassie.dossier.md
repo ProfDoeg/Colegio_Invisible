@@ -988,6 +988,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Marcus Mosiah Garvey** [T3] (mirrored from marcus_garvey.dossier.md)
 - **King Solomon** [T1-] (mirrored from solomon.dossier.md)
 - **Benito Mussolini** [T3] (mirrored from mussolini.dossier.md)
+- **The Queen of Sheba (Makeda / Bilqis)** [T1-]
 
 ## Chronology
 

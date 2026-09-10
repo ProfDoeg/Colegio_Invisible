@@ -1186,6 +1186,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Frédéric Auguste Bartholdi** [T1+] (mirrored from frederic_auguste_bartholdi.dossier.md)
 - **Claude-Henri de Rouvroy** [T4] (mirrored from henri_de_saint_simon.dossier.md)
 - **Alexandre Dumas** [T5] (mirrored from alexandre_dumas.dossier.md)
+- **John Brown** [T9+]
+- **Franz Anton Mesmer** [T4]
 
 ## Compact Chronology
 

@@ -546,6 +546,9 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Paul the Apostle** [T5] (mirrored from apostle_paul.dossier.md)
 - **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
 - **Grigori Yefimovich Rasputin** [T1+] (mirrored from grigori_rasputin.dossier.md)
+- **Jacobus de Voragine (Iacopo da Varazze), Order of Preachers, Archbishop of Genoa** [T1+]
+- **Paul the Deacon (Paulus Diaconus, Paulus Warnefridi)** [T1+]
+- **René Noël Théophile Girard** [T1+]
 
 ## Sources
 

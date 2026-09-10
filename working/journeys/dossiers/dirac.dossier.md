@@ -953,6 +953,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Tony Hilton Royle Skyrme** [T3] (mirrored from tony_skyrme.dossier.md)
 - **Siméon Denis Poisson** [T1-] (mirrored from simeon_denis_poisson.dossier.md)
 - **Erwin Rudolf Josef Alexander Schrödinger** [T5] (mirrored from erwin_schrodinger.dossier.md)
+- **Maria Salomea Skłodowska-Curie (Marie Curie)** [T4]
 
 ## Chronology
 

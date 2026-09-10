@@ -868,6 +868,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Constantine the Great** [T9+]
 - **Justinian I** [T9+]
 - **Saint Eustace** [T9-] (mirrored from saint_eustace.dossier.md)
+- **Saint Giles (Aegidius)** [T4]
+- **Jesus of Nazareth (Yeshua, the Christ)** [T1-]
 
 ## Chronology
 

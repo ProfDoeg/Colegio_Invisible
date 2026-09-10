@@ -1059,6 +1059,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Cristóbal Balenciaga Eizaguirre** [T9+]
 - **Giuseppe Maria Garibaldi** [T9+]
 - **Jules Charles** [T9-] (mirrored from carlos_thays.dossier.md)
+- **Christopher Columbus** [T9-]
 
 ## Chronology
 

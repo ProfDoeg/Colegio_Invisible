@@ -732,6 +732,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Carl Theodor Dreyer** [T1+] (mirrored from carl_theodor_dreyer.dossier.md)
 - **Herbert Marcuse** [T1+] (mirrored from herbert_marcuse.dossier.md)
 - **Hans Christian Andersen** [T3] (mirrored from hans_christian_andersen.dossier.md)
+- **Walter Benjamin** [T1+]
 
 ## Sources
 

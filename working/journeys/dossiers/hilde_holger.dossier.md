@@ -811,6 +811,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Pieter Bruegel the Elder** [T1-]
 - **Francis of Assisi** [T1-]
 - **Rudolf Laban** [T5] (mirrored from laban.dossier.md)
+- **Wolfgang Amadeus Mozart (Joannes Chrysostomus Wolfgangus Theophilus Mozart)** [T9-]
 
 ## Sources
 

@@ -919,6 +919,15 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Saint Eustace** [T9-] (mirrored from saint_eustace.dossier.md)
 - **Pantaleon of Nicomedia** [T4] (mirrored from saint_pantaleon.dossier.md)
 - **San Vito** [T9-] (mirrored from san_vito.dossier.md)
+- **Saint Acacius of Byzantium (Agathius, Achatius, Ahac, Sant'Agazio, San Acato)** [T4]
+- **Saint Barbara of Heliopolis (Bárbara)** [T4]
+- **Saint Blaise of Sebastea (Blasius, Sveti Vlaho, San Biagio)** [T4]
+- **Saint Cyriacus of Rome (Kyriakos, Ciriaco, Cyriakus, Cyriaque), deacon and martyr** [T4]
+- **Saint Denis of Paris (Dionysius, Denys), first bishop of the Parisii** [T4]
+- **Saint Erasmus of Formia (Erasmo, Sant'Ermu, St Elmo)** [T4]
+- **Saint George of Lydda (Georgios, Sant Jordi, San Giorgio, Giyorgis, Jirjis)** [T4]
+- **Catherine of Alexandria (Katherine of the Wheel)** [T4]
+- **Jesus of Nazareth (Yeshua, the Christ)** [T1-]
 
 ## Compact Chronology
 

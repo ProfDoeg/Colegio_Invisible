@@ -1251,6 +1251,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Friedrich Schiller** [T1-]
 - **Johann Wolfgang von Goethe** [T1-]
 - **Volodymyr Oleksandrovych Zelenskyy** [T1+]
+- **Homer (Homeros; called Melesigenes in the ancient Life)** [T9-]
+- **Charles John Huffam Dickens** [T9-]
 
 ## Compact Chronology
 

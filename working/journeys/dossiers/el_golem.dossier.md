@@ -902,6 +902,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-08 b
 - **John von Neumann** [T9-]
 - **Geoffrey Everest Hinton** [T9-]
 - **Yoshua Bengio** [T9-]
+- **Chaim Azriel Weizmann** [T9-]
 
 ## Present Status and Legacy
 

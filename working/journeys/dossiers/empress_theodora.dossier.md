@@ -486,6 +486,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Justinian I** [T5]
 - **Constantine the Great** [T9-]
 - **Paul the Deacon** [T1+] (mirrored from paul_the_deacon.dossier.md)
+- **Herbert George Wells** [T1+]
 
 ## Sources
 

@@ -1234,6 +1234,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
 - **William Frederick Friedman** [T1+] (mirrored from william_f_friedman.dossier.md)
 - **Ioan Petru Culianu** [T3] (mirrored from ioan_petru_culianu.dossier.md)
+- **Jacques Derrida (born Jackie Elie Derrida)** [T3]
 
 ## Sources
 

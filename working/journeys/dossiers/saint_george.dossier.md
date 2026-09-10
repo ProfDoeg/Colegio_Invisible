@@ -829,6 +829,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **San Vito** [T9-] (mirrored from san_vito.dossier.md)
 - **Frances Amelia Yates** [T1+] (mirrored from frances_yates.dossier.md)
 - **Grigori Yefimovich Rasputin** [T1+] (mirrored from grigori_rasputin.dossier.md)
+- **Saint Giles (Aegidius)** [T4]
+- **Jesus of Nazareth (Yeshua, the Christ)** [T1-]
 
 ## Compact Chronology
 

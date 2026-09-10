@@ -731,6 +731,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Murray Newton Rothbard** [T5]
 - **Pyotr Ilyich Tchaikovsky** [T1-]
 - **Milton Friedman** [T9-] (mirrored from milton_friedman.dossier.md)
+- **Vladimir Ilyich Ulyanov (Lenin)** [T1-]
 
 ## Sources
 

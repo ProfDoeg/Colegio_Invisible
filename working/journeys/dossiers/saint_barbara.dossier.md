@@ -1146,6 +1146,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Saint Eustace** [T9-] (mirrored from saint_eustace.dossier.md)
 - **Pantaleon of Nicomedia** [T4] (mirrored from saint_pantaleon.dossier.md)
 - **San Vito** [T9-] (mirrored from san_vito.dossier.md)
+- **Saint Giles (Aegidius)** [T4]
+- **Jesus of Nazareth (Yeshua, the Christ)** [T1-]
 
 ## Chronology
 

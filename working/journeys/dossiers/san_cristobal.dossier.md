@@ -933,6 +933,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Pantaleon of Nicomedia** [T4]
 - **San Vito** [T4]
 - **San Antonio Abad** [T4]
+- **Jacobus de Voragine (Iacopo da Varazze), Order of Preachers, Archbishop of Genoa** [T1+]
 
 ## Chronology
 

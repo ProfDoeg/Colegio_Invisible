@@ -1048,6 +1048,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Johannes Itten** [T4] (mirrored from itten.dossier.md)
 - **Daniel Giannone** [T1+] (mirrored from daniel_giannone.dossier.md)
 - **R. Buckminster Fuller** [T4] (mirrored from buckminster_fuller.dossier.md)
+- **Leo Chiachio (of Chiachio & Giannone)** [T1+]
 
 ## Compact Chronology
 

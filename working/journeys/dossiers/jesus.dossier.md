@@ -1480,6 +1480,20 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Egeria** [T9+] (mirrored from egeria.dossier.md)
 - **Christina Georgina Rossetti** [T1+] (mirrored from christina_rossetti.dossier.md)
 - **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+- **Blas Valera** [T1+]
+- **Christian Rosenkreuz (Frater C.R.C., Christian Rosencreutz)** [T1+]
+- **Saint Giles (Aegidius)** [T1+]
+- **Jheronimus van Aken, called Hieronymus Bosch** [T1+]
+- **Rudolf Steiner** [T1+]
+- **Sir John Everett Millais, 1st Baronet** [T1+]
+- **Margarita / Marina / Pelagia, the Pearl of the Three Waters** [T1+]
+- **Nicolás Maduro Moros** [T1+]
+- **Saint Acacius of Byzantium (Agathius, Achatius, Ahac, Sant'Agazio, San Acato)** [T1+]
+- **Saint Barbara of Heliopolis (Bárbara)** [T1+]
+- **Saint Denis of Paris (Dionysius, Denys), first bishop of the Parisii** [T1+]
+- **Saint George of Lydda (Georgios, Sant Jordi, San Giorgio, Giyorgis, Jirjis)** [T1+]
+- **Saint Mercurius of Caesarea (Philopator Mercurius, Abu Sayfayn, the Father of the Two Swords)** [T1+]
+- **Publius Vergilius Maro (Virgil)** [T2-]
 
 ## Compact Chronology
 

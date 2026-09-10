@@ -539,6 +539,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Egeria** [T9+]
 - **Aurelius Augustinus** [T1+]
 - **Jacobus de Voragine** [T1+]
+- **Margarita / Marina / Pelagia, the Pearl of the Three Waters** [T1+]
 
 ## Sources
 

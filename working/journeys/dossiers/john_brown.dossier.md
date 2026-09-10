@@ -1428,6 +1428,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Victor-Marie Hugo** [T3]
 - **Victor-Marie Hugo** [T1+]
 - **Giuseppe Maria Garibaldi** [T1+] (mirrored from giuseppe_garibaldi.dossier.md)
+- **Marie-Joseph Paul Yves Roch Gilbert du Motier, Marquis de Lafayette** [T9-]
 
 ## Sources
 

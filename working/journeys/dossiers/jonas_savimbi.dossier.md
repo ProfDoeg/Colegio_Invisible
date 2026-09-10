@@ -707,6 +707,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Oliver Laurence North** [T4]
 - **Nelson Rolihlahla Mandela** [T5]
 - **William Joseph Casey** [T4] (mirrored from william_casey.dossier.md)
+- **Mao Zedong (Mao Tse-tung), Chairman of the Communist Party of China** [T1-]
 
 ## Chronology
 

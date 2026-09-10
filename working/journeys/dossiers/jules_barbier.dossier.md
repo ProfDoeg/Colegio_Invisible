@@ -1047,6 +1047,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Johann Wolfgang von Goethe** [T1-]
 - **William Jefferson Clinton** [T1-]
 - **Eugène Samuel Grasset** [T9+] (mirrored from eugene_grasset.dossier.md)
+- **Joan of Arc (Jehanne la Pucelle)** [T1-]
 
 ## Chronology
 

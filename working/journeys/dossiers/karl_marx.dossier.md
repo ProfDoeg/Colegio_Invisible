@@ -1282,6 +1282,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Nicos Poulantzas** [T1+] (mirrored from nicos_poulantzas.dossier.md)
 - **Victor Alter** [T1+] (mirrored from victor_alter.dossier.md)
 - **Yanis Varoufakis** [T1+] (mirrored from yanis_varoufakis.dossier.md)
+- **Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez (Diego Rivera)** [T1+]
+- **Nicolás Maduro Moros** [T1+]
 
 ## Chronology
 

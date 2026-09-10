@@ -1048,6 +1048,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Aishah bint Abi Bakr** [T1-]
 - **King Solomon** [T1-]
 - **Martin Mordechai Buber** [T1+] (mirrored from martin_buber.dossier.md)
+- **Baha ud-Din Walad (Baha' al-Din Muhammad ibn Husayn al-Khatibi, Sultan al-Ulama)** [T5]
 
 ## Compact Chronology
 

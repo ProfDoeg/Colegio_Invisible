@@ -1139,6 +1139,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Sir Edward Coley Burne-Jones** [T4]
 - **William Morris** [T4]
 - **Christina Georgina Rossetti** [T4] (mirrored from christina_rossetti.dossier.md)
+- **Jesus of Nazareth (Yeshua, the Christ)** [T1-]
 
 ## Compact Chronology
 

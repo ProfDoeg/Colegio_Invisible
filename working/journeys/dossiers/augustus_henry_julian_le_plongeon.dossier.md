@@ -719,6 +719,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Zoroaster** [T1-]
 - **Frank Lloyd Wright** [T3] (mirrored from frank_lloyd_wright.dossier.md)
 - **Margery Kempe** [T5] (mirrored from margery_kempe.dossier.md)
+- **Ignatius Loyola Donnelly** [T3]
 
 ## Sources
 

@@ -1398,6 +1398,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Giuseppe Tucci** [T9-] (mirrored from giuseppe_tucci.dossier.md)
 - **Guido Keller** [T3] (mirrored from guido_keller.dossier.md)
 - **Alberto Gerchunoff** [T3] (mirrored from alberto_gerchunoff.dossier.md)
+- **Frank Lloyd Wright** [T3]
 
 ## Chronology
 

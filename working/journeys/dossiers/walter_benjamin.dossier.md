@@ -645,6 +645,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
 - **Georg Wilhelm Friedrich Hegel** [T1-] (mirrored from hegel.dossier.md)
 - **Max Horkheimer** [T5] (mirrored from max_horkheimer.dossier.md)
+- **Søren Aabye Kierkegaard** [T1-]
 
 ## Sources
 

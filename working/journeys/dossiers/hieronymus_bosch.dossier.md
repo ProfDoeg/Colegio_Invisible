@@ -1077,6 +1077,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Pieter Bruegel the Elder** [T9-] (mirrored from pieter_bruegel_the_elder.dossier.md)
 - **San Antonio Abad** [T1-] (mirrored from san_antonio_abad.dossier.md)
 - **Dante Gabriel Rossetti** [T1+] (mirrored from dante_gabriel_rossetti.dossier.md)
+- **Jesus of Nazareth (Yeshua, the Christ)** [T1-]
 
 ## Compact Chronology
 

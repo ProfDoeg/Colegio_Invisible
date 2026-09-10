@@ -938,6 +938,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 
 - **Francis of Assisi** [T5]
 - **Pierre Bourlémont** [T5]
+- **Joffrey de Bourlémont (Jofridus, dominus de Borlenmont)** [T5]
 
 ## Chronology
 

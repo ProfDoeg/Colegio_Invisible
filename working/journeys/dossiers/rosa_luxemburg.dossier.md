@@ -584,6 +584,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Georges Sorel** [T4] (mirrored from georges_sorel.dossier.md)
 - **Nicos Poulantzas** [T1+] (mirrored from nicos_poulantzas.dossier.md)
 - **Slavoj Žižek** [T1+] (mirrored from slavoj_zizek.dossier.md)
+- **Merlin (Myrddin Emrys / Myrddin Wyllt)** [T1-]
 
 ## Sources
 

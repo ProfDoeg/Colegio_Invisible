@@ -649,6 +649,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Aaron David Gordon** [T5] (mirrored from aaron_david_gordon.dossier.md)
 - **Ahad Ha'am** [T3] (mirrored from ahad_ha_am.dossier.md)
 - **Alberto Gerchunoff** [T4] (mirrored from alberto_gerchunoff.dossier.md)
+- **El Gólem** [T9+]
 
 ## Sources
 

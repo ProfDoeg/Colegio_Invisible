@@ -1091,6 +1091,9 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 
 - **Abu al-Qasim al-Junayd ibn Muhammad al-Baghdadi** [T1-] (mirrored from junayd_al_baghdadi.dossier.md)
 - **Abd al-Qadir al-Jilani** [T9-] (mirrored from abd_al_qadir_al_jilani.dossier.md)
+- **Abu Yazid Tayfur ibn Isa al-Bistami (Bayazid Bastami)** [T9-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Abu Bakr as-Siddiq (Abd Allah ibn Abi Quhafa)** [T1-]
 
 ## Compact Chronology
 

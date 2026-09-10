@@ -1013,6 +1013,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Abraham** [T1-]
 - **Mansur al-Hallaj** [T9-] (mirrored from hallaj.dossier.md)
 - **Nizami Ganjavi** [T1-] (mirrored from nizami.dossier.md)
+- **Khwaja Mu'in al-Din Hasan Chishti (Moinuddin Chishti), Gharib Nawaz** [T4]
 
 ## Chronology
 

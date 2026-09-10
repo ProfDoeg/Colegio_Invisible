@@ -759,6 +759,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Étienne Bazeries** [T1-] (mirrored from etienne_bazeries.dossier.md)
 - **Arthur Scherbius** [T9-] (mirrored from arthur_scherbius.dossier.md)
 - **Donald Ervin Knuth** [T9+] (mirrored from donald_ervin_knuth.dossier.md)
+- **Ignatius Loyola Donnelly** [T1-]
 
 ## Sources
 

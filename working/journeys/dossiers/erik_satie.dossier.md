@@ -1033,6 +1033,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Pablo Ruiz Picasso** [T3] (mirrored from pablo_picasso.dossier.md)
 - **Suzanne Perrottet** [T9+] (mirrored from suzanne_perrottet.dossier.md)
 - **Hanya Holm** [T9+] (mirrored from hanya_holm.dossier.md)
+- **Viola Farber** [T9+]
 
 ## Sources
 

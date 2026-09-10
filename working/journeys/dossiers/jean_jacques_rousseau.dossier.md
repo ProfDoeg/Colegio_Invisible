@@ -1269,6 +1269,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Domingo Faustino Sarmiento** [T3] (mirrored from sarmiento.dossier.md)
 - **Francois Marie Charles Fourier** [T1+] (mirrored from charles_fourier.dossier.md)
 - **Alexis-Charles-Henri Clérel de Tocqueville** [T3] (mirrored from alexis_de_tocqueville.dossier.md)
+- **Aurelius Augustinus, Saint Augustine of Hippo** [T1-]
 
 ## Compact Chronology
 

@@ -981,6 +981,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Fernão de Magalhães** [T1-] (mirrored from ferdinand_magellan.dossier.md)
 - **Samuel Langhorne Clemens** [T5] (mirrored from mark_twain.dossier.md)
 - **Jules Gabriel Verne** [T3] (mirrored from jules_verne.dossier.md)
+- **Empress Theodora (Theodora Augusta, consort of Justinian I)** [T1-]
 
 ## Sources
 

@@ -1450,6 +1450,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Johann Georg Faust** [T4] (mirrored from johann_faust.dossier.md)
 - **Albert Pike** [T1+] (mirrored from albert_pike.dossier.md)
 - **Arthur Edward Waite** [T1+] (mirrored from arthur_edward_waite.dossier.md)
+- **Christian Rosenkreuz (Frater C.R.C., Christian Rosencreutz)** [T3]
+- **Salomon Trismosin** [T3]
 
 ## Chronology
 

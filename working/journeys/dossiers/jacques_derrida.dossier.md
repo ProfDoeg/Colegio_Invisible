@@ -1180,6 +1180,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Aristotle** [T3] (mirrored from aristotle.dossier.md)
 - **Mark Fisher** [T1+] (mirrored from mark_fisher.dossier.md)
 - **Slavoj Žižek** [T3] (mirrored from slavoj_zizek.dossier.md)
+- **Edgar Allan Poe** [T3]
 
 ## Chronology
 

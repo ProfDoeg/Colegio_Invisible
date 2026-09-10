@@ -1180,6 +1180,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Luis Alberto Spinetta** [T5]
 - **Diego Armando Maradona** [T5]
 - **Osvaldo Pedro Pugliese** [T2- hyperstition] (mirrored from osvaldo_pugliese.dossier.md)
+- **Wolfgang Amadeus Mozart (Joannes Chrysostomus Wolfgangus Theophilus Mozart)** [T9-]
 
 ## Chronology
 

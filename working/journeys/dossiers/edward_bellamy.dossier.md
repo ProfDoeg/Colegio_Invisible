@@ -752,6 +752,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Abraham Lincoln** [T1-]
 - **Francis Julius Bellamy** [T3] (mirrored from francis_bellamy.dossier.md)
 - **Rudolf Rocker** [T3] (mirrored from rudolf_rocker.dossier.md)
+- **Ignatius Loyola Donnelly** [T3]
 
 ## Chronology
 

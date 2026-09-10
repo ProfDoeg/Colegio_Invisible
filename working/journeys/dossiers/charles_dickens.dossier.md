@@ -2030,6 +2030,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **John Ruskin** [T3] (mirrored from john_ruskin.dossier.md)
 - **Samuel Langhorne Clemens** [T3] (mirrored from mark_twain.dossier.md)
 - **Christina Georgina Rossetti** [T4] (mirrored from christina_rossetti.dossier.md)
+- **Taras Hryhorovych Shevchenko** [T9+]
 
 ## Sources
 

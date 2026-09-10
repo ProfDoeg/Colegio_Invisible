@@ -497,6 +497,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Enrico Fermi** [T4] (mirrored from fermi.dossier.md)
 - **Albert Einstein** [T5] (mirrored from einstein.dossier.md)
 - **Henri-Louis Bergson** [T4] (mirrored from henri_bergson.dossier.md)
+- **Paul Adrien Maurice Dirac** [T4]
 
 ## Sources
 

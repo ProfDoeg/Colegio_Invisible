@@ -1384,6 +1384,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
 - **Polybius of Megalopolis** [T3] (mirrored from polybius.dossier.md)
 - **Leonardo di ser Piero da Vinci** [T1+] (mirrored from leonardo_da_vinci.dossier.md)
+- **Hypatia of Alexandria** [T1+]
+- **Ignatius Loyola Donnelly** [T1+]
 
 ## Sources
 

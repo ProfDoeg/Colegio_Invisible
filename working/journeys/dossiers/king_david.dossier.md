@@ -1025,6 +1025,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Ezekiel son of Buzi** [T1+] (mirrored from ezekiel.dossier.md)
 - **Muhammad ibn Abdullah** [T1+] (mirrored from muhammad.dossier.md)
 - **Hiram Abiff** [T9+] (mirrored from hiram_abiff.dossier.md)
+- **Rabbi Benjamin son of Jonah of Tudela (Benjamin de Tudela)** [T1+]
+- **Michelangelo di Lodovico Buonarroti Simoni** [T1+]
 
 ## Compact Chronology
 

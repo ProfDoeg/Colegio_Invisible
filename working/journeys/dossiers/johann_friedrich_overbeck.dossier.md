@@ -1217,6 +1217,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Franz Pforr** [T5]
 - **Peter von Cornelius** [T5]
 - **Johann Heinrich Wilhelm Tischbein** [T5]
+- **Johann Wolfgang von Goethe** [T3]
 
 ## Sources
 

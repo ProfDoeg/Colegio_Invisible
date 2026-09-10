@@ -1329,6 +1329,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **William Seward Burroughs II** [T3] (mirrored from william_s_burroughs.dossier.md)
 - **Nick Land** [T1+] (mirrored from nick_land.dossier.md)
 - **Elsa Gindler** [T9-] (mirrored from elsa_gindler.dossier.md)
+- **Carl Gustav Jung** [T3]
 
 ## Chronology
 

@@ -846,6 +846,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Saint Mercurius of Caesarea** [T1-]
 - **Thomas Aquinas** [T9+]
 - **Adam of Bremen** [T3] (mirrored from adam_of_bremen.dossier.md)
+- **Simon bar Jonah, called Cephas, the Apostle Peter** [T1-]
 
 ## Sources
 

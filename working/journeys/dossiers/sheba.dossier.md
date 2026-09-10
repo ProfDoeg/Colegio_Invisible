@@ -1085,6 +1085,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Jacob Frank** [T1+] (mirrored from jacob_frank.dossier.md)
 - **Dido** [T9+] (mirrored from dido.dossier.md)
 - **Hiram Abiff** [T5] (mirrored from hiram_abiff.dossier.md)
+- **Haile Selassie I (Lij Tafari Makonnen, Ras Tafari)** [T1+]
 
 ## Compact Chronology
 

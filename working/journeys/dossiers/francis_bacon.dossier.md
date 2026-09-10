@@ -59,4 +59,5 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **William Frederick Friedman** [T1+] (mirrored from william_f_friedman.dossier.md)
 - **Auguste Kerckhoffs** [T1+] (mirrored from auguste_kerckhoffs.dossier.md)
 - **Paracelsus** [T4] (mirrored from paracelsus.dossier.md)
+- **Ignatius Loyola Donnelly** [T1+]
 

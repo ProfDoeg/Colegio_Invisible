@@ -576,6 +576,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Saint Erasmus of Formia** [T1-] (mirrored from saint_erasmus.dossier.md)
 - **San Vito** [T1-] (mirrored from san_vito.dossier.md)
 - **Margarita / Marina / Pelagia** [T1-] (mirrored from margarita_pelagia.dossier.md)
+- **Simon bar Jonah, called Cephas, the Apostle Peter** [T1-]
+- **San Cristobal (Christopher of Lycia, born Reprobus / Adokimos of the Marmaritae)** [T1-]
 
 ## Sources
 

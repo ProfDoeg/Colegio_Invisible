@@ -722,6 +722,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Próspero Catelin** [T4] (mirrored from prospero_catelin.dossier.md)
 - **John Cleves Symmes Jr.** [T5] (mirrored from symmes.dossier.md)
 - **Ahad Ha'am** [T9+] (mirrored from ahad_ha_am.dossier.md)
+- **Georg Wilhelm Friedrich Hegel** [T1-]
 
 ## Sources
 

@@ -1112,6 +1112,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Paul the Apostle** [T3]
 - **Gottfried Wilhelm Leibniz** [T3] (mirrored from gottfried_wilhelm_leibniz.dossier.md)
 - **Giuseppe Tucci** [T1+] (mirrored from giuseppe_tucci.dossier.md)
+- **Marcus Tullius Cicero** [T3]
 
 ## Chronology
 

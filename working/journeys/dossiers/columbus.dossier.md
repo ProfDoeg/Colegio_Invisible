@@ -1348,6 +1348,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Samuel Langhorne Clemens** [T1+] (mirrored from mark_twain.dossier.md)
 - **Jules Gabriel Verne** [T1+] (mirrored from jules_verne.dossier.md)
 - **Jacobus de Voragine** [T1+] (mirrored from jacobus_de_voragine.dossier.md)
+- **Agustí Querol i Subirats (Agustín Querol Subirats)** [T9+]
+- **Ignatius Loyola Donnelly** [T1+]
 
 ## Compact Chronology
 

@@ -998,6 +998,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Victor-Marie Hugo** [T5] (mirrored from victor_hugo.dossier.md)
 - **San Antonio Abad** [T1-] (mirrored from san_antonio_abad.dossier.md)
 - **Alfred Jarry** [T3] (mirrored from alfred_jarry.dossier.md)
+- **Johann Wolfgang von Goethe** [T1-]
+- **Homer (Homeros; called Melesigenes in the ancient Life)** [T1-]
 
 ## Compact Chronology
 

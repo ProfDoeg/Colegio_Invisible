@@ -870,6 +870,9 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Muhammad ibn Abdullah** [T1-]
 - **Martin Mordechai Buber** [T1+] (mirrored from martin_buber.dossier.md)
 - **Shams al-Din Muhammad of Tabriz** [T1+] (mirrored from shams_al_din_of_tabriz.dossier.md)
+- **Muhammad Baha al-Din Naqshband Bukhari** [T9+]
+- **Abu Bakr as-Siddiq (Abd Allah ibn Abi Quhafa)** [T9-]
+- **Nizam ad-Din Auliya (Sultan-ji, Mahbub-e-Ilahi)** [T1+]
 
 ## Chronology
 

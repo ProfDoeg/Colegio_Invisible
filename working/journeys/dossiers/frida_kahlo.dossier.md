@@ -1123,6 +1123,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Vladimir Ilyich Ulyanov** [T1-]
 - **John Dewey** [T4] (mirrored from john_dewey.dossier.md)
 - **Pablo Ruiz Picasso** [T3] (mirrored from pablo_picasso.dossier.md)
+- **Leo Chiachio (of Chiachio & Giannone)** [T1+]
 
 ## Compact Chronology
 

@@ -1163,6 +1163,9 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 
 - **Jacobus de Voragine** [T1+]
 - **Hernán Cortés** [T5] (mirrored from cortes.dossier.md)
+- **Saint Thecla of Iconium (Thekla, Santa Tecla), protomartyr and equal to the apostles** [T1-]
+- **Joan of Arc (Jehanne la Pucelle)** [T1+]
+- **Jesus of Nazareth (Yeshua, the Christ)** [T1-]
 
 ## Sources
 

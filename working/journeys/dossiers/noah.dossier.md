@@ -942,6 +942,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Tertullian** [T1+] (mirrored from tertullian.dossier.md)
 - **Dante Alighieri** [T1+] (mirrored from dante.dossier.md)
 - **Grigori Yefimovich Rasputin** [T1+] (mirrored from grigori_rasputin.dossier.md)
+- **Ignatius Loyola Donnelly** [T1+]
 
 ## Compact Chronology
 

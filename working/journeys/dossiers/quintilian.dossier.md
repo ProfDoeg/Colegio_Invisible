@@ -773,6 +773,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Publius Vergilius Maro** [T1-]
 - **Pindar of Thebes** [T3] (mirrored from pindar.dossier.md)
 - **Herodotus of Halicarnassus** [T3] (mirrored from herodotus.dossier.md)
+- **Giulio Camillo Delminio** [T1+]
 
 ## Sources
 

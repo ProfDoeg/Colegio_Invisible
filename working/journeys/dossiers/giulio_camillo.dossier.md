@@ -1205,6 +1205,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Hesiod of Ascra** [T1-]
 - **Publius Vergilius Maro** [T1-]
 - **Frances Amelia Yates** [T1+]
+- **Marcus Fabius Quintilianus (Quintilian)** [T1-]
 
 ## Sources
 

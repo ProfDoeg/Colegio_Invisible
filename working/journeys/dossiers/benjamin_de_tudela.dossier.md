@@ -1259,6 +1259,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **King Solomon** [T1-]
 - **Aaron David Gordon** [T1-]
 - **Saint George of Lydda** [T1-] (mirrored from saint_george.dossier.md)
+- **David ben Jesse, King of Israel** [T1-]
 
 ## Compact Chronology
 

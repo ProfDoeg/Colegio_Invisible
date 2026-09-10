@@ -1178,6 +1178,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Johann Wolfgang von Goethe** [T1+] (mirrored from goethe_full.dossier.md)
 - **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
 - **Polybius of Megalopolis** [T3] (mirrored from polybius.dossier.md)
+- **Gustave Flaubert** [T1+]
+- **Taras Hryhorovych Shevchenko** [T9+]
 
 ## Sources
 

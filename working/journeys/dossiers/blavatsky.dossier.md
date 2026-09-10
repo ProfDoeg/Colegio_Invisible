@@ -1071,6 +1071,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Franz Anton Mesmer** [T9-] (mirrored from mesmer.dossier.md)
 - **Arthur Edward Waite** [T1+] (mirrored from arthur_edward_waite.dossier.md)
 - **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+- **Hilma af Klint** [T1+]
 
 ## Compact Chronology
 

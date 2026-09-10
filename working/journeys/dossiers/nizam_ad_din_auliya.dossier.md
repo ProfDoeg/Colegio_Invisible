@@ -1100,6 +1100,9 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Abu al-Qasim al-Junayd ibn Muhammad al-Baghdadi** [T1-]
 - **Ibrahim ibn Adham** [T1-]
 - **Amir Khusrow Dehlavi** [T3] (mirrored from amir_khusrow.dossier.md)
+- **Khwaja Mu'in al-Din Hasan Chishti (Moinuddin Chishti), Gharib Nawaz** [T1-]
+- **Muhammad ibn Abdullah** [T1-]
+- **Abu Yazid Tayfur ibn Isa al-Bistami (Bayazid Bastami)** [T1-]
 
 ## Sources
 

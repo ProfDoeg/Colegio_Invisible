@@ -1396,6 +1396,9 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Carl Theodor Dreyer** [T1+] (mirrored from carl_theodor_dreyer.dossier.md)
 - **Lionel-Noël Royer** [T1+] (mirrored from lionel_royer.dossier.md)
 - **Charlotte Bara** [T1+] (mirrored from charlotte_bara.dossier.md)
+- **Eugène Samuel Grasset** [T9+]
+- **Paul Jules Barbier** [T1+]
+- **Margarita / Marina / Pelagia, the Pearl of the Three Waters** [T1-]
 
 ## Compact Chronology
 

@@ -944,6 +944,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Vera Skoronel** [T5] (mirrored from vera_skoronel.dossier.md)
 - **Frederick Law Olmsted** [T3] (mirrored from frederick_law_olmsted.dossier.md)
 - **James Lewis Thomas Chalmers Spence** [T1+] (mirrored from james_lewis_thomas_chalmers_spence.dossier.md)
+- **Ignatius Loyola Donnelly** [T3]
 
 ## Chronology
 

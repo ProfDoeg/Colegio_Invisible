@@ -1261,6 +1261,9 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Frances Amelia Yates** [T1+]
 - **Arthur Edward Waite** [T1+]
 - **Rudolf Steiner** [T1+]
+- **Paracelsus (Theophrastus Bombastus von Hohenheim)** [T3]
+- **Jesus of Nazareth (Yeshua, the Christ)** [T1-]
+- **The Comte de Saint-Germain (Weldon, Tzarogy, Zurmont, Aymar, Surmont)** [T1+]
 
 ## Chronology
 

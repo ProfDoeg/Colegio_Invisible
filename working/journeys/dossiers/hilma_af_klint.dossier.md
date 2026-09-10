@@ -966,6 +966,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Rudolf Steiner** [T3]
 - **Rudolf Steiner** [T5]
 - **Emma Kunz** [T9+] (mirrored from emma_kunz.dossier.md)
+- **Helena Petrovna Blavatsky** [T1-]
+- **Johann Wolfgang von Goethe** [T1-]
 
 ## Chronology
 

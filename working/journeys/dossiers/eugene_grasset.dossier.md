@@ -1192,6 +1192,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Auguste Kerckhoffs** [T1+]
 - **Luc-Olivier Merson** [T4]
 - **Auguste Rodin** [T4]
+- **Joan of Arc (Jehanne la Pucelle)** [T9-]
 
 ## Chronology
 

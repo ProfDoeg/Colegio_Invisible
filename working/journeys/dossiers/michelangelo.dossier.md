@@ -1216,6 +1216,8 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **William R. Bradshaw** [T1+] (mirrored from william_r_bradshaw.dossier.md)
 - **Moses** [T1-] (mirrored from moses.dossier.md)
 - **Leonardo di ser Piero da Vinci** [T5] (mirrored from leonardo_da_vinci.dossier.md)
+- **David ben Jesse, King of Israel** [T1-]
+- **Paul the Apostle (Saul of Tarsus, Sha'ul, Paulos)** [T1-]
 
 ## Compact Chronology
 
