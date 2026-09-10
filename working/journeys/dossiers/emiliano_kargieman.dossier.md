@@ -851,6 +851,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Peter Andreas Thiel** [T1-]
 - **Luis Alberto Spinetta** [T9-]
 - **Sergio Demian Lerner** [T4] (mirrored from sergio_demian_lerner.dossier.md)
+- **Ralph Charles Merkle** [T4]
 
 ## Chronology
 

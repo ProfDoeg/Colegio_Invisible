@@ -1040,6 +1040,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Mary Elizabeth Moore Shannon** [T5] (mirrored from betty_shannon.dossier.md)
 - **William Frederick Friedman** [T3] (mirrored from william_f_friedman.dossier.md)
 - **Donald Ervin Knuth** [T1+] (mirrored from donald_ervin_knuth.dossier.md)
+- **Albert Einstein** [T4]
 
 ## Compact Chronology
 

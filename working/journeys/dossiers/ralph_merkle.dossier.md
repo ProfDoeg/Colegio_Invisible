@@ -781,6 +781,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Bailey Whitfield Diffie** [T3] (mirrored from diffie.dossier.md)
 - **Ronald Linn Rivest** [T3] (mirrored from ron_rivest.dossier.md)
 - **Friedrich Nietzsche** [T3] (mirrored from nietzsche.dossier.md)
+- **Emiliano Kargieman** [T4]
 
 ## Sources
 

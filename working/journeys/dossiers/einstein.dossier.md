@@ -1130,6 +1130,7 @@ Machine-readable summary of this dossier's Atlas Connections, added 2026-09-05 d
 - **Max Horkheimer** [T5] (mirrored from max_horkheimer.dossier.md)
 - **Max Horkheimer** [T3] (mirrored from max_horkheimer.dossier.md)
 - **Benito Mussolini** [T3] (mirrored from mussolini.dossier.md)
+- **Claude Elwood Shannon** [T4]
 
 ## Chronology
 
