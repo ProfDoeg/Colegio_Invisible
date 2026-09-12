@@ -194,6 +194,41 @@ marks a mapmaker who is not yet a subject. What is already inscribed on chain is
 - The Hermetic and Kabbalistic mappings of the zodiac onto letters (Sefer Yetzirah's twelve
   simple letters to the twelve signs; abraham_abulafia's permutations).
 
+## Overview for inscription: each system as a celestial quipu like the Bode sky
+
+The Bode collection on chain is one 0xce celestial quipu: 830 stars as RA/Dec points, 109 named
+groups, lines inside each group. The same format takes any system whose figures are made of
+stars; the dark-cloud skies need the trick noted. Star counts are what a faithful but sane
+inscription would carry (the bright members that draw the figure), not the catalogue totals.
+
+| # | system | epoch | groups | stars (approx.) | source data (public domain or open) | fit | notes |
+|--:|---|---|--:|--:|---|---|---|
+| 1 | Babylonian, MUL.APIN paths | c. 1000 BCE | ~70 (3 paths as super-groups) | 150-250 | Hunger and Pingree's MUL.APIN identifications; Kurtik's catalogue | good | three groups of groups: Enlil, Anu, Ea; the twelve zodiac signs as a sub-system |
+| 2 | Egyptian decans and northern sky | c. 2100-30 BCE | 36 decans + ~8 northern figures | 80-150 | Neugebauer and Parker, Egyptian Astronomical Texts; identifications partly conjectural | medium | many decans unidentified; inscribe the secure ones and say so in the title |
+| 3 | Ptolemy's 48 | c. 150 CE | 48 | 1,022 (or ~450 bright) | the Almagest star catalogue (Toomer; open digitizations exist with modern coordinates) | excellent | the root of the whole western tree; precession-adjust to J2000 or inscribe Ptolemy's own longitudes as a period piece |
+| 4 | al-Sufi, Book of the Fixed Stars | 964 | 48 (+ Bedouin asterisms as extra groups) | same stars as Ptolemy, ~450 | al-Sufi's tables (Hafez edition); the Bedouin names from Kunitzsch | excellent | Orion already on chain (Sky of al-Jawza); the rest of the book completes it |
+| 5 | Arabic lunar mansions | pre-Islamic | 28 | 28-60 | standard manazil tables | good | a ring, not figures: 28 small groups on the ecliptic |
+| 6 | Indian nakshatras | Vedic | 27 (28) | 27-50 | standard yogatara identifications | good | same shape as 5, different stars in places; the two together show the shared ancestry |
+| 7 | Chinese (Three Enclosures, 28 mansions) | Han to Song | 283 asterisms (3 + 28 super-groups) | ~1,464 (or ~600 bright) | Sun Xiaochun and Kistemaker, The Chinese Sky during the Han (star tables); the Dunhuang chart | excellent | the biggest and the most alien; would be the largest quipu in the corpus |
+| 8 | Maya and Aztec | classic to 1500s | 10-15 identified | 40-80 | the Paris Codex zodiac (contested), the hearthstones, Tianquiztli; ethnohistoric identifications | weak-medium | inscribe only the secure figures, name the rest as open |
+| 9 | Inca, star figures | 1400s | ~10 | 30-60 | Urton, At the Crossroads of the Earth and the Sky | good | Collca (the Pleiades), the Southern Cross, Orion's belt figures |
+| 10 | Inca, dark clouds | 1400s | 6-8 | 60-150 outline points | same, plus the Milky Way's dust-lane geometry | trick | no stars: encode each cloud as a polygon of RA/Dec points along its outline, lines closing the shape; the llama, fox, toad, tinamou, serpent |
+| 11 | Polynesian star compass and paths | oral | 32 houses + ~10 paths | 60-100 | Lewis, We the Navigators; Hawaiian star lines (Nainoa Thompson's four lines) | good | a ring of rising and setting points plus the paths across the dome |
+| 12 | Aboriginal Australian | oldest | 5-15 per language group | 40-120 | Norris and Hamacher's compilations (Boorong, Yolngu, Wardaman) | medium-trick | the Emu is a dark cloud (as 10); the Seven Sisters and the canoe are stars; pick one or two language groups and name them |
+| 13 | Norse and Sami | medieval | 5-10 | 30-60 | the Sami hunt (Sarva) from Lundmark; Norse fragments from the Eddas | medium | small, but the Sami elk across Cassiopeia-Perseus-Auriga is a genuine system |
+| 14 | Schiller, Coelum Stellatum Christianum | 1627 | ~50 (the 48 plus his additions, renamed) | same stars as Bayer, ~450 | the 1627 plates (digitized); Bayer's stars regrouped | excellent | the same points as 3 with every group renamed: apostles, saints, the Ark; a pure regrouping, which is the whole point |
+| 15 | Bayer, Uranometria | 1603 | 60 (48 + 12 southern) | ~1,200 (or ~500 bright) | Bayer's plates; the Keyser-de Houtman list | excellent | first appearance of the twelve southern birds and beasts and of the Greek letters |
+| 16 | Hevelius, Firmamentum Sobiescianum | 1690 | 56 + his 7-10 new | ~1,500 (or ~500) | Hevelius's catalogue (Prodromus) | good | Lacerta, Lynx, Scutum, Sextans, Vulpecula, Leo Minor, Canes Venatici first drawn here |
+| 17 | Lacaille's southern sky | 1756 | 14 new + Argo in three | ~250 | Coelum Australe Stelliferum | good | the instruments: Antlia, Fornax, Microscopium, Telescopium, Horologium, Octans and the rest |
+| 18 | Bode, Uranographia | 1801 | 109 | 830 | on chain already (root 6e10058f...) | done | the reference the others are measured against |
+| 19 | IAU 88 with Delporte's boundaries | 1922-30 | 88 | 88 boundary polygons (~1,800 vertices) rather than stars | the IAU boundary tables (open) | trick | a boundaries quipu: each group a closed polygon of RA/Dec vertices, no stars; the modern sky as regions, which is what it legally is |
+
+Reading the table: 3, 4, 14, 15, 16, 17 share most of their stars and differ in grouping; inscribed
+in sequence they show the western sky being re-drawn six times over 1,500 years, which is the
+collection's argument. 7 is the one genuinely independent large system and the biggest single
+job. 10, 12 and 19 need the outline trick (points that are not stars); the 0xce format allows
+it since a point is just RA/Dec with a name, but the titles should say so.
+
 ## What is inscribed, what is planned
 
 - Inscribed: Bode's whole sky (109 groups), al-Sufi's Orion (10 groups), the Dantean scene that
