@@ -279,7 +279,29 @@ app = """
     const pr=$('#prog i'); if(pr) pr.style.width=(100*(idx+1)/t.stops.length)+'%';
     marker.position.copy(pos[idx]);
     faceStop(idx);
+    writeHash();
   }
+  // ---- deep links (Anthony, 2026-09-14): #slug, #slug/N (N = the globe's own
+  // stop order, what the counter shows), or #slug/YYYY-MM-DD (nearest stop by
+  // date; survives renumbering when a journey is deepened). The address bar is
+  // kept current with replaceState so any view is copyable; nothing else in
+  // the interface changes.
+  let lastHash='';
+  function writeHash(){ const t=ATLAS[ti]; if(!t) return;
+    lastHash='#'+t.slug+'/'+(idx+1);
+    try{ history.replaceState(null,'',lastHash); }catch(e){} }
+  function datekeyJS(iso){ if(!iso) return 0; const neg=iso.startsWith('-'); const s=neg?iso.slice(1):iso;
+    const p=(s.split('-').concat(['1','1'])).slice(0,3); const y=parseInt(p[0],10), m=parseInt(p[1]||'1',10), d=parseInt(p[2]||'1',10);
+    if(isNaN(y)||isNaN(m)||isNaN(d)) return 0; const frac=(m-1)/12+(d-1)/372; return neg?(-y+frac):(y+frac); }
+  function openHash(){ const h=decodeURIComponent(location.hash||'').replace(/^#/,''); if(!h) return false;
+    const cut=h.indexOf('/'); const slug=(cut<0?h:h.slice(0,cut)).toLowerCase(); const rest=cut<0?'':h.slice(cut+1);
+    const nt=ATLAS.findIndex(t=>t.slug===slug); if(nt<0) return false;
+    buildTraveler(nt); const t=ATLAS[nt];
+    if(/^\\d+$/.test(rest)) setIndex(parseInt(rest,10)-1);
+    else if(/^-?\\d{1,4}(-\\d{1,2}){0,2}$/.test(rest)) setIndex(nearestStop(t,datekeyJS(rest)));
+    else setIndex(0);
+    return true; }
+  window.addEventListener('hashchange',()=>{ if(location.hash!==lastHash) openHash(); });
   function nearestStop(t,k){ let bi=0,bd=Infinity;
     t.stops.forEach((s,i)=>{ const d=Math.abs(s.k-k); if(d<bd){bd=d;bi=i;} }); return bi; }
   const HERE_KM=25;
@@ -368,7 +390,7 @@ app = """
     const t=performance.now()*0.001; marker.scale.setScalar(1+0.18*Math.sin(t*3)); ring.quaternion.copy(camera.quaternion);
     renderer.render(scene,camera); })();
 
-  buildTraveler(0); setIndex(0);
+  if(!openHash()){ buildTraveler(0); setIndex(0); }
 })();
 </script>
 """
