@@ -302,6 +302,9 @@ app = """
     else setIndex(0);
     return true; }
   window.addEventListener('hashchange',()=>{ if(location.hash!==lastHash) openHash(); });
+  // the EN/ES switch carries the current stop across: same slug, same N
+  (function(){ const a=document.getElementById('lang'); if(!a) return; const base=a.getAttribute('href');
+    a.addEventListener('click',()=>{ a.href=base+(lastHash||location.hash||''); }); })();
   function nearestStop(t,k){ let bi=0,bd=Infinity;
     t.stops.forEach((s,i)=>{ const d=Math.abs(s.k-k); if(d<bd){bd=d;bi=i;} }); return bi; }
   const HERE_KM=25;
