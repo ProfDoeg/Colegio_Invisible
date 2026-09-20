@@ -188,3 +188,9 @@ Approved by the author, China (Zheng He) excluded as too large a rabbit hole.
 | docs | subject | who |
 |--:|---|---|
 
+## Author additions (2026-09-20)
+
+| docs | subject | who |
+|--:|---|---|
+| 0 | **Joseph Fourier** | Mathematician of the heat equation and the Fourier series (1768-1830): Auxerre orphan, Bonaparte's Egypt as secretary of the Institut d'Égypte, prefect of Isère at Grenoble, editor of the Description de l'Égypte who dated the Dendera zodiac to 2500 BC and was refuted by his own protégé Champollion; not Charles Fourier the utopian, already in the atlas |
+
