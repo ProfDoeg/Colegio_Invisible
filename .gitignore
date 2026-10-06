@@ -114,3 +114,7 @@ working/heal_cosmos/artifacts/
 # atlas research pipeline scratch — one-off gate/QA scripts and raw scrape
 # dumps written per subject during a run, never part of the journey output
 working/journeys/atlas_tools/_*
+
+# atlas transits — the per-journey JSON (52 MB) is regenerated in seconds by
+# atlas_tools/transit_charts.py; the readable .transits.md files are tracked
+working/journeys/zodiac/transits/*.transits.json

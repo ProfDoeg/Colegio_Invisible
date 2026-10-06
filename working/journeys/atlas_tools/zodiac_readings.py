@@ -704,6 +704,34 @@ def write_md(results, conj_rows, skipped):
             L.append("- %s in %s: %s, %s, %s (%s)" % (row[2].replace(" ", "-"), row[1], row[4], row[5], row[6], row[7]))
         L.append("")
 
+    # complete charts, if natal_chart.py has run
+    charts_dir = os.path.join(OUT, "charts")
+    if os.path.isdir(charts_dir):
+        cj = sorted(glob.glob(os.path.join(charts_dir, "*.chart.json")))
+        timed = solar = 0
+        for p in cj:
+            try:
+                with open(p, encoding="utf-8") as f:
+                    mode = json.load(f).get("mode")
+                timed += mode == "timed"
+                solar += mode == "solar"
+            except (OSError, ValueError):
+                pass
+        wheels = sorted(glob.glob(os.path.join(charts_dir, "*.wheel.png")))
+        L.append("## Complete charts (`zodiac/charts/`)")
+        L.append("")
+        L.append("`atlas_tools/natal_chart.py` builds a full chart for a birth stop: Sun to Pluto and the mean nodes with "
+                 "sign, degree, minute, retrograde flag and house; aspects with orbs and applying/separating; elements, "
+                 "modes and traditional dignities. %d charts are on disk (%d solar, %d with a birth time), one "
+                 "`.chart.json` and one `.chart.md` each; %d wheel PNGs drawn on demand (`--wheel`)." % (len(cj), solar, timed, len(wheels)))
+        L.append("")
+        L.append("**The time caveat.** The atlas records no birth times, so every chart built from the files alone is a "
+                 "SOLAR CHART: positions at 0h UT of the civil date, whole-sign houses counted from the Sun's sign as the "
+                 "first house, no Ascendant or Midheaven, the Moon's degree good only to ±7° and its sign flagged where "
+                 "it may differ. Houses in a solar chart are the signs counted from the Sun's and say nothing about the "
+                 "horizon. A real house chart needs `--time HH:MM` (and `--tz`, else local mean time from the longitude "
+                 "is assumed), as in the Kennedy example (15:00 EST, Brookline: Ascendant Libra 19°59′, Sun in the 8th).")
+        L.append("")
     # failures
     fails = [(r["slug"], f) for r in results for f in r["parse_failures"]]
     L.append("## Dates that could not be read (%d)" % len(fails))
